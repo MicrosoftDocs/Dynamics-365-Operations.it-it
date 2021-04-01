@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 08d41244d3ec785127db8f69e37dd522a463c388
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988542"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259222"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Introduzione al componente aggiuntivo per la fatturazione elettronica per l'Italia
 
@@ -32,7 +32,7 @@ ms.locfileid: "4988542"
 > [!IMPORTANT]
 > Il componente aggiuntivo per la fatturazione elettronica per l'Italia potrebbe attualmente non supportare tutte le funzioni disponibili per le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management. 
 
-Questo argomento fornisce informazioni introduttive sul componente aggiuntivo per la fatturazione elettronica per il l'Italia. Ti guida attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e Finance. Inoltre, guida l'utente attraverso il processo di invio delle fatture elettroniche generate nel formato **FatturaPA** specifico per l'Italia tramite il servizio e spiega come rivedere i risultati dell'elaborazione.
+Questo argomento fornisce informazioni introduttive sul componente aggiuntivo per la fatturazione elettronica per l'Italia. Ti guida attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e Finance. Inoltre, guida l'utente attraverso il processo di invio delle fatture elettroniche generate nel formato **FatturaPA** specifico per l'Italia tramite il servizio e spiega come rivedere i risultati dell'elaborazione.
 
 ## <a name="prerequisites"></a>Prerequisiti
 

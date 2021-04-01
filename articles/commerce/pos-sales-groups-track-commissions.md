@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7e4820fa02ce66198e1f363ae46f944e3f24146c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976591"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243867"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite
 
@@ -44,7 +44,7 @@ Sono presenti una serie di impostazioni di profili di funzionalità per un punto
 <thead>
 <tr>
 <th>Profilo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +77,7 @@ Il layout e il contenuto dello schermo della transazione POS sono configurabili 
 
 Il POS consente agli utenti di configurare griglie dei pulsanti, comprese nei layout dello schermo per fornire l'accesso alle operazioni POS. Le seguenti operazioni POS possono essere assegnate ai pulsanti della griglia di pulsanti relativi ai rappresentanti.
 
-| Operazione                                 | descrizione |
+| Operazione                                 | Descrizione |
 |-------------------------------------------|-------------|
 | Imposta rappresentante su riga          | L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita. Se si seleziona un gruppo di vendite dall'elenco, il valore verrà impostato sulla riga di transazione corrente. |
 | Cancella rappresentante su riga        | L'operazione POS rimuove il valore del gruppo di vendite corrente della riga di transazione corrente. |

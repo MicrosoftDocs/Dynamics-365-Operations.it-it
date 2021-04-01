@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d30ead63bfba5dc198bd46dfaffe444dde723baa
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974987"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261023"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronizzazione degli ordini cliente direttamente tra Sales e Supply Chain Management
 
@@ -47,8 +47,8 @@ I modelli e le attività sottostanti seguenti vengono utilizzati per sincronizza
 
 - **Nomi dei modelli in Integrazione dati:** 
 
-    - Ordini di vendita (da Sales a Supply Chain Management) - Diretto
-    - Ordini di vendita (da Supply Chain Management a Sales) - Diretto
+    - Ordini cliente (da Sales a Supply Chain Management) - Diretto
+    - Ordini cliente (da Supply Chain Management a Sales) - Diretto
 
 - **Nomi delle attività nel progetto di Integrazione dati:**
 
@@ -94,13 +94,13 @@ Quando una riga dell'ordine cliente viene sincronizzata da Sales in Supply Chain
 
 **Sincronizzazione da Sales a Supply Chain Management**
 
-- **Sales:** Quantità = 3, sconto per riga = $ 10,00
-- **Supply Chain Management:** Quantità = 3, importo di sconto riga = $3.33, addebito vendita = -$0.01 
+- **Sales:** Quantità = 3, sconto per riga = $10,00
+- **Supply Chain Management:** Quantità = 3, importo di sconto riga = $3,33, addebito vendita = -$0,01 
 
 **Sincronizzazione da Supply Chain Management a Sales**
 
-- **Supply Chain Management:** Quantità = 3, importo di sconto riga = $3.33, addebito vendita = -$0.01
-- **Sales:** Quantità = 3, sconto per riga = (3 × $ 3,33) + $ 0,01 = $ 10,00
+- **Supply Chain Management:** Quantità = 3, importo di sconto riga = $3,33, addebito vendita = -$0,01
+- **Sales:** Quantità = 3, sconto per riga = (3 × $ 3,33) + $ 0,01 = $10,00
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Soluzione Prospect to cash per Sales
 
@@ -189,19 +189,19 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 > [!NOTE]
 > Il mapping mostra quali informazioni delle colonne verranno sincronizzate da Sales in Supply Chain Management o da Supply Chain Management in Sales.
 
-### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Ordini di vendita (da Supply Chain Management a Sales) - Diretto: OrderHeader
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Ordini cliente (da Supply Chain Management a Sales) - Diretto: OrderHeader
 
 [![Mapping dei modelli in Integrazione dati](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
-### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Ordini di vendita (da Supply Chain Management a Sales) - Diretto: OrderLine
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Ordini cliente (da Supply Chain Management a Sales) - Diretto: OrderLine
 
 [![Mapping dei modelli in Integrazione dati](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
-### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Ordini di vendita (da Sales a Supply Chain Management) - Diretto: OrderHeader
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Ordini cliente (da Sales a Supply Chain Management) - Diretto: OrderHeader
 
 [![Mapping dei modelli in Integrazione dati](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
-### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Ordini di vendita (da Sales a Supply Chain Management) - Diretto: OrderLine
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Ordini cliente (da Sales a Supply Chain Management) - Diretto: OrderLine
 
 [![Mapping dei modelli in Integrazione dati](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
