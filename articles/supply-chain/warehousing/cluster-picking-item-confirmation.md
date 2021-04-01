@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8f81d760e8c181891aeba92834577e8869fbdd8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e30022377cb02e7516cb98f48dc12e4f9e2ce172
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001126"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233033"
 ---
 # <a name="product-confirmation-for-cluster-picking"></a>Conferma prodotto per prelievo cluster
 
@@ -38,7 +38,7 @@ La verifica dell'articolo per il prelievo cluster funziona nello stesso modo del
 1. Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** > **Gestione magazzino** > **Impostazione** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile**.
 1. Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**.
 
-|        Opzione        |                                    descrizione                                    |
+|        Opzione        |                                    Descrizione                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Conferma prodotto | Consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione. |
 

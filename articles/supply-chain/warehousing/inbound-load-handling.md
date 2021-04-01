@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 991da4a1056bec933698d043fe45fe4e280f555a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004829"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235342"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -56,7 +56,7 @@ La seguente illustrazione mostra il flusso tipico per la gestione di carichi in 
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Registrare le quantità degli articoli che arrivano su un carico in entrata
 
-Microsoft Dynamics 365 Supply Chain Management supporta diversi approcci operativi per la registrazione dell'arrivo dei prodotti ordinati. Pertanto, è possibile configurare il sistema in modo che corrisponda ai requisiti aziendali specifici. Questa sezione descrive come registrare le quantità di articoli in entrata utilizzando un dispositivo mobile quando nel sistema è attivata la gestione avanzata del magazzino. Tuttavia, esiste un flusso alternativo basato sull'utilizzo del giornale di registrazione degli articoli anziché di un dispositivo mobile. Per ulteriori informazioni riguardo questo flusso, vedere [Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management supporta diversi approcci operativi per la registrazione dell'arrivo dei prodotti ordinati. Pertanto, è possibile configurare il sistema in modo che corrisponda ai requisiti aziendali specifici. Questa sezione descrive come registrare le quantità di articoli in entrata utilizzando un dispositivo mobile quando nel sistema è attivata la gestione avanzata del magazzino. Tuttavia, esiste un flusso alternativo basato sull'utilizzo del giornale di registrazione arrivi articoli anziché di un dispositivo mobile. Per ulteriori informazioni riguardo questo flusso, vedere [Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi articoli](tasks/register-items-advanced-warehousing.md).
 
 Quando un carico in entrata arriva per la prima volta in magazzino, gli addetti al magazzino devono registrare le quantità degli articoli incluse nella spedizione. In genere, è preferibile utilizzare scanner portatili. Questo flusso di lavoro è disponibile solo se nel sistema sono presenti i seguenti elementi:
 
@@ -99,7 +99,7 @@ Dopo che il lavoratore ha completato questi passaggi, il sistema effettua i segu
 Si noti che gli addetti al magazzino possono registrare l'entrata di un ordine fornitore con uno o più carichi associati senza utilizzare il processo _Ricezione articoli di carico_. Sono disponibili i seguenti metodi:
 
 - **Sul dispositivo mobile:** Utilizzare i processi _Ricevimento riga ordine acquisto_ e _Ricevimento e stoccaggio riga ordine acquisto_. (Se esiste più di un carico per la quantità della riga ordine fornitore, il lavoratore non può utilizzare il processo _Ricevimento riga ordine fornitore_. Al lavoratore verrà invece richiesto di utilizzare l'azione del dispositivo associata al processo _Ricezione articoli di carico_.)
-- **Nel client:** Utilizzare il giornale di registrazione dell'articolo.
+- **Nel client:** utilizzare il giornale di registrazione arrivi articoli.
 - **Nel client:** Utilizzare l'azione di **Registrazione** a cui è possibile accedere dalla riga ordine fornitore.
 
 > [!NOTE]
@@ -126,7 +126,7 @@ Utilizzare il campo **Ricezione carico in eccesso** per le voci di menu del disp
 
 Nella seguente tabella vengono illustrate le opzioni disponibili per il campo **Ricezione carico in eccesso**.
 
-| Valore | descrizione |
+| Valore | Descrizione |
 |---|---|
 | Consenti | I lavoratori possono registrare la ricezione di quantità che superano la quantità non registrata rimanente per un carico selezionato, ma solo se la quantità totale registrata non supera la quantità della riga dell'ordine fornitore associata al carico (dopo la correzione per la percentuale di consegna in eccesso). |
 | Blocca | <p>I lavoratori non possono registrare la ricezione di quantità che superano la quantità non registrata rimanente per un carico selezionato (dopo la correzione per la percentuale di consegna in eccesso). Un lavoratore che tenta di registrare le entrate riceverà un errore e non sarà in grado di continuare fino a quando non registra una quantità uguale o inferiore alla quantità di carico non registrata rimanente.</p><p>Per impostazione predefinita, il valore della percentuale di consegna in eccesso su una riga di carico viene copiato dalla riga dell'ordine fornitore associata. Quando il campo <b>Ricezione carico in eccesso</b> è impostato su <i>Blocca</i>, il sistema utilizza il valore percentuale di consegna in eccesso per calcolare la quantità totale che può essere registrata per una riga di carico. Tuttavia, tale valore può essere sovrascritto per singoli carichi, se necessario. Questo comportamento diventa rilevante durante la ricezione di flussi in cui una parte o tutta la quantità in eccesso che rappresenta la percentuale di consegna in eccesso della riga ordine viene distribuita in modo sproporzionato su più carichi. Ecco uno scenario di esempio:</p><ul><li>Esistono più carichi per una riga ordine fornitore.</li><li>La riga dell'ordine fornitore ha una percentuale di consegna in eccesso superiore a 0 (zero).</li><li>Le quantità sono già state registrate rispetto a uno o più carichi senza tenere conto della percentuale di consegna in eccesso.</li><li>La quantità di consegna in eccesso arriva all'ultimo carico.</li></ul><p>In questo scenario, un dispositivo mobile può essere utilizzato per registrare la quantità in eccesso per l'ultimo carico solo se il supervisore del magazzino aumenta la percentuale di consegna in eccesso per la relativa riga di carico dal valore predefinito a un valore sufficientemente grande da consentire la registrazione della consegna in eccesso completa con il carico finale.</p> |

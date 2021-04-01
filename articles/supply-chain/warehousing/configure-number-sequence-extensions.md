@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: fa4074c23baa74983f4922d2d09d7da81c943bfe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5de5f4695b4e4ccaaf050c3593d3f7ee0cc32ed8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973837"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232937"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurare sequenze numeriche per flussi di magazzino
 
@@ -81,7 +81,7 @@ Per creare e modificare sequenze numeriche, attenersi alla seguente procedura.
 1. Nel campo **Estensione di sequenza numerica**, immettere un nome per la nuova sequenza. Nel campo **Descrizione** immettere una descrizione.
 1. Nella Scheda dettaglio **Segmenti**, utilizzare i pulsanti sulla barra degli strumenti per assemblare il formato di numerazione aggiungendo, eliminando e disponendo i segmenti. Nel campo **Segmento** di ogni riga, assegnare un tipo di segmento per definire lo scopo e il contenuto di quel segmento. Nella seguente tabella vengono illustrati i tipi di segmenti disponibili.
 
-    | Tipo di segmento | descrizione |
+    | Tipo di segmento | Descrizione |
     |---|---|
     | Costante | Questo tipo di segmento aggiunge lo stesso testo costante per ciascun numero generato nella sequenza. Nel campo **Valore** immettere il testo necessario. Il campo **Lunghezza** viene automaticamente aggiornato alla lunghezza del testo immesso nel campo **Valore**. |
     | Sequenza numerica | Nel campo **Valore** immettere un segno numerico (*\#*) per ogni carattere che dovrebbe essere mostrato nella sequenza generata. La sequenza numerica stessa potrebbe generare numeri più lunghi, ma verranno visualizzati solo i caratteri più a destra. Il campo **Lunghezza** viene automaticamente aggiornato al numero di segni numerici immessi nel campo **Valore**.<p>Per soddisfare i requisiti GS1 per i numeri SSCC-18, assicurarsi che la lunghezza di questo segmento sia 16 meno la lunghezza del prefisso GS1.</p> |

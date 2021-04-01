@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea89d54f1ce3a1e971d41623bf44f909f7dfdf09
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131291"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237518"
 ---
 # <a name="asset-leasing-conventions"></a>Convenzioni del leasing di cespiti
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento vengono descritte le convenzioni per i cespiti in leasing. Le convenzioni di leasing sono utilizzate per determinare la data di inizio di un libro di leasing. Se la convenzione di leasing è impostata su **Nessuna**, la data di inizio è uguale alla data di inizio del leasing (ovvero, il valore del campo **Data di inizio leasing**). Se la convenzione di leasing è impostata su **Mese intero**, la data di inizio è il primo giorno del mese in cui cade la data di inizio del leasing.
 
@@ -42,7 +43,7 @@ Per visualizzare o assegnare la convenzione di leasing, segui questi passaggi.
 1. Vai a **Leasing cespiti \> Imposta \> Libri di leasing**.
 2. Nel campo **Convenzione di leasing**, seleziona uno dei seguenti valori.
 
-    | Convenzione di leasing | descrizione |
+    | Convenzione di leasing | Descrizione |
     |--------------------|-------------|
     | Nessuna priorità               | I piani di ammortamento delle passività e dei cespiti iniziano alla data di inizio del leasing, poiché la data di inizio è uguale alla data di inizio del leasing. La data di fine è un mese dopo. Questa convenzione di leasing non garantisce che gli interessi verranno registrati l'ultimo giorno di ogni mese. |
     | Mese intero         | Per i leasing che hanno una data di inizio che cade in qualsiasi momento del mese, i piani di ammortamento delle passività e dei cespiti iniziano a maturare le spese il primo giorno di quel mese. Questa convenzione di leasing garantisce che gli interessi maturino l'ultimo giorno di ogni mese per l'intero mese. |

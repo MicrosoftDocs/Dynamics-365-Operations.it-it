@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b7d855914e59d90dd082c9e9a027604579a2f411
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004804"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235414"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -217,7 +217,7 @@ Anche se la casella di controllo **Consenti prenotazione su ordine con domanda**
 
 Per prenotare una targa specifica, è necessario utilizzare un processo [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). Nell'applicazione, è possibile effettuare questa prenotazione direttamente da un ordine cliente utilizzando l'opzione **Prenotazioni impegnate su ordine per targa** del comando **Apri in Excel**. Nei dati dell'entità aperti nel componente aggiuntivo di Excel, è necessario inserire i seguenti dati relativi alla prenotazione e quindi selezionare **Pubblica** per inviare nuovamente i dati a Supply Chain Management:
 
-- Riferimento (solo il valore *Ordine di vendita* è supportato).
+- Riferimento (solo il valore *Ordine cliente* è supportato).
 - Numero ordine (il valore può essere derivato dal lotto).
 - ID lotto
 - Targa

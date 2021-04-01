@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9291299e0b2ee040bc25ef21237a73c3bc0ea412
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 384e44ef07771a174aaed4f8fb893e75b0206da7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995665"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236988"
 ---
 # <a name="customer-aging-report"></a>Report di aging clienti 
 
@@ -38,7 +38,7 @@ Quando si genera questo report, vengono visualizzati i seguenti parametri predef
 <thead>
 <tr class="header">
 <th><p>Campo</p></th>
-<th><p>descrizione</p></th>
+<th><p>Descrizione</p></th>
 </tr>
 </thead>
 <tbody>

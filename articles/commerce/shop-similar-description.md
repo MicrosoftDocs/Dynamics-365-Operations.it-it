@@ -18,14 +18,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b3b7abf47a3bdacaa4b91ae32b68a809a84b0b1d
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: b6b397b1f21e3dfcdb4a2b7fe67ddb541d090a97
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234391"
 ---
-# <a name="enable-shop-similar-description-recommendations"></a>Abilita gli elementi consigliati "acquista descrizioni simili"
+# <a name="enable-shop-similar-description-recommendations"></a>Abilitare gli elementi consigliati "acquista prodotti simili"
 
 [!include [banner](includes/banner.md)]
 
@@ -39,10 +39,10 @@ I consigli "acquista descrizioni simili" sono disponibili sia nelle esperienze P
 
 ## <a name="example-scenarios"></a>Scenari di esempio
 
-I seguenti scenari di esempio mostrano i tipi di consigli che la funzionalità "descrizione negozio simile" può fornire:
+I seguenti scenari di esempio mostrano i tipi di consigli che la funzionalità "Descrizione negozio simile" può fornire:
 
 - Un cliente visualizza un paio di occhiali cerchiati di corno in stile retrò e riceve una serie di consigli per altri occhiali con un design simile, nel contesto del settore del rivenditore.
-- Un cliente utilizza i consigli "descrizione negozio simile" per scoprire gusti di caffè simili a un gusto che ha acquistato in precedenza dal rivenditore.
+- Un cliente utilizza i consigli "Descrizione negozio simile" per scoprire gusti di caffè simili a un gusto che ha acquistato in precedenza dal rivenditore.
 
 ## <a name="set-up-shop-similar-description-recommendations"></a>Configura consigli "acquista descrizioni simili"
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: de0917f6734d81248f8aa588bd0c5dec7d056219
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a0395f74065cf656e286186d619824d88836c45a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006418"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233297"
 ---
 # <a name="usmca-certification-of-origin"></a>Certificazione di origine USMCA
 
@@ -78,7 +78,7 @@ Il documento può essere stampato sia per le spedizioni in entrata che per quell
 
 La tabella seguente descrive i tipi di informazioni inclusi nel documento in base all'**Entità di certificazione** che si sceglie.
 
-| Entità di&nbsp;certificazione | descrizione |
+| Entità di&nbsp;certificazione | Descrizione |
 |---|---|
 | *\[Vuoto\]* | Aggiunge i seguenti dettagli al documento:<ul><li>**Dettagli entità di certificazione**: Utilizza i dettagli dell'indirizzo per il magazzino di spedizione, se disponibile; in caso contrario utilizza l'indirizzo del sito di spedizione, se disponibile; in caso contrario utilizza l'indirizzo della persona giuridica (società) selezionata in Supply Chain Management.</li><li>**Dettagli esportatore**: Vuoto</li><li>**Dettagli produttore**: Vuoto</li><li>**Dettagli importatore**: Vuoto</li><ul>|
 | *Esportatore* | Aggiunge i seguenti dettagli al documento:<ul><li>**Dettagli entità di certificazione**: Utilizza i dettagli dell'indirizzo per il magazzino di spedizione, se disponibile; in caso contrario utilizza l'indirizzo del sito di spedizione, se disponibile; in caso contrario utilizza l'indirizzo della persona giuridica (società) selezionata in Supply Chain Management.</li><li>**Dettagli esportatore**: Utilizza i dettagli dell'indirizzo per la persona giuridica.</li><li>**Dettagli produttore**: Vuoto</li><li>**Dettagli importatore**: Utilizza il conto fattura per l'ordine cliente correlato.</li><ul>|

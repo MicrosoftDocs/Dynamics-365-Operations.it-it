@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d4ecc29e47d68129df424c4212505413cf6c8889
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 214d5cc2c3670b22fb4c28e5868fd9aade12ce84
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968981"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236772"
 ---
 # <a name="electronic-messaging"></a>Messaggi elettronici
 
@@ -135,10 +135,10 @@ Una classe eseguibile è un metodo o classe X++ che l'elaborazione del messaggio
 
 È possibile configurare manualmente una classe eseguibile nella pagina **Impostazioni classe eseguibile** (**Imposta** \> **Impostazione** \> **Messaggi elettronici** \> **Impostazioni classe eseguibile**). Creare una riga e impostare i seguenti campi.
 
-| Campo                 | descrizione |
+| Campo                 | Descrizione |
 |-----------------------|-------------|
 | Classe eseguibile      | Immettere il nome che verrà utilizzato durante la configurazione di un'azione di elaborazione messaggi in relazione alla quale questa classe viene chiamata. |
-| descrizione           | Immettere una descrizione della classe eseguibile. |
+| Descrizione           | Immettere una descrizione della classe eseguibile. |
 | Nome classe eseguibile | Selezionare una classe eseguibile X++. |
 | Livello di esecuzione       | Questo campo viene impostato automaticamente, in quanto il valore deve essere predefinito per la classe eseguibile selezionata. Questo campo limita il livello di esecuzione della valutazione correlata. |
 | Descrizione classe     | Questo campo viene impostato automaticamente, in quanto il valore deve essere predefinito per la classe eseguibile selezionata. |
@@ -156,7 +156,7 @@ Le azioni di popolamento record sono utilizzate per configurare azioni che aggiu
 
 Nella scheda Dettaglio **Impostazione origini dati**, aggiungere una riga per ogni origine dati utilizzata per il processo e impostare i seguenti campi.
 
-| Campo                  | descrizione |
+| Campo                  | Descrizione |
 |------------------------|-------------|
 | Nome                   | Immettere un nome per l'origine dati. |
 | Tipo di elemento del messaggio      | Selezionare il tipo di elemento del messaggio da utilizzare durante la creazione dei record per l'origine dati. |
@@ -205,10 +205,10 @@ Le impostazioni del servizio Web consentono di configurare la trasmissione di da
 
 Nella seguente tabella sono descritti i campi della pagina **Impostazioni servizio Web**.
 
-| Campo                          | descrizione |
+| Campo                          | Descrizione |
 |--------------------------------|-------------|
 | Servizio Web                    | Immettere un nome per il servizio Web. |
-| descrizione                    | Immettere una descrizione del servizio Web. |
+| Descrizione                    | Immettere una descrizione del servizio Web. |
 | Indirizzo Internet               | Immettere l'indirizzo Internet del servizio Web. Se un'applicazione Web viene specificata per il servizio Web e se l'indirizzo Internet del servizio Web deve essere uguale a quello definito per quell'applicazione Web, selezionare **Copia URL di base** per copiare l'URL di base dall'applicazione Web in questo campo. |
 | Certificato                    | Selezionare un certificato Key Vault configurato in precedenza. |
 | Applicazione Web                | Selezionare un certificato Key Vault configurato in precedenza. |
@@ -229,7 +229,7 @@ Nelle tabelle seguenti vengono descritti i campi della pagina **Azioni di elabor
 
 #### <a name="general-fasttab"></a>Scheda dettaglio Generale
 
-| Campo                       | descrizione |
+| Campo                       | Descrizione |
 |-----------------------------|-------------|
 | Tipo di azione                 | Selezionare il tipo di azione. Per informazioni sulle opzioni disponibili, vedere la sezione [Tipi di azioni di elaborazione messaggi](#message-processing-action-types). |
 | Mapping formato              | Selezionare il formato ER che deve essere chiamato per l'azione. Questo campo è disponibile solo per le azioni **Esportazione creazione di report elettronici**, **Importazione creazione di report elettronici** e **Messaggio esportazione creazione di report elettronici**. |
@@ -265,14 +265,14 @@ Nel campo **Tipo di azione** sono disponibili le seguenti opzioni:
 | Campo               | Descrizione |
 |---------------------|-------------|
 | Stato elemento del messaggio | Selezionare lo stato dell'elemento del messaggio per il quale l'azione di elaborazione messaggi selezionata deve essere valutata. |
-| descrizione         | Una descrizione dello stato dell'articolo del messaggio selezionato. |
+| Descrizione         | Una descrizione dello stato dell'articolo del messaggio selezionato. |
 
 #### <a name="result-statuses-fasttab"></a>Scheda Dettaglio Stati di risultati
 
-| Campo               | descrizione |
+| Campo               | Descrizione |
 |---------------------|-------------|
 | Stato messaggio      | Selezionare gli stati del messaggio per il quale l'azione di elaborazione messaggi selezionata deve essere valutata. Questo campo è disponibile solo per le azioni di elaborazione messaggi che vengono valutate a livello del messaggio. Ad esempio, è disponibile per le azioni di tipo **Esportazione creazione di report elettronici** e **Importazione creazione di report elettronici**, ma non per le azioni di tipo **Elaborazione utente** e **Livello di esecuzione dell'elemento del messaggio**. |
-| descrizione         | Una descrizione dello stato del messaggio selezionato. |
+| Descrizione         | Una descrizione dello stato del messaggio selezionato. |
 | Tipo di risposta       | Il tipo di risposta dello stato del messaggio dello stato. |
 | Stato elemento del messaggio | Selezionare gli stati risultanti che devono essere disponibili dopo la valutazione dell'azione di elaborazione messaggi selezionata. Questo campo è disponibile solo per le azioni di elaborazione messaggi che vengono valutate a livello dell'elemento del messaggio. Ad esempio, è disponibile per le azioni **Elaborazione utente** e **Livello di esecuzione dell'elemento del messaggio**. Per le azioni di elaborazione messaggi che vengono valutate a livello del messaggio, questo campo mostra lo stato dell'elemento del messaggio configurato per lo stato del messaggio selezionato. |
 
@@ -359,7 +359,7 @@ Nella tabella seguente sono descritti i campi della scheda **Elementi del messag
 <thead>
 <tr>
 <th>Campo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
