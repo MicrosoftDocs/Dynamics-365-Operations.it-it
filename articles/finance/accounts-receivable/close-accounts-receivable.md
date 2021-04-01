@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b60fc3e0a01b5cff401c44db2d5898f83197a9b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5beab66bcb64322d75e7a2ef1d1f40b13c35a06f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993066"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244535"
 ---
 # <a name="close-accounts-receivable"></a>Chiusura della contabilità clienti
 
@@ -54,7 +54,7 @@ Creare e inviare l'elenco vendite UE
 
 | Nome pagina                            | Uso                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
-|Elenco vendite UE                         | Consente di creare report sulle vendite UE (Unione Europea) da inviare agli uffici IVA ai fini della dichiarazione IVA.                                                                                                                           |
+|Elenco vendite UE                         | Consente di creare report sulle vendite UE (Unione Europea) da inviare all'ufficio tributario ai fini della dichiarazione IVA.                                                                                                                           |
 
 
 

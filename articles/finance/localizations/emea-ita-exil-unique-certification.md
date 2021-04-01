@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a761fb788e43b44de16dc3a9fdcba948c17219ea
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 094cb5e934ecf4549c9e14774a18e0b0bf8ac2be
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978235"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246835"
 ---
 # <a name="unique-certification"></a>Certificazione unica
 

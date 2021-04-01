@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49ec2ac0ce32da13239f3b7789d6f73f22f6e61b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f14a536cd2860a290ac90469907ded5de26e1991
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007203"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246215"
 ---
 # <a name="formula-designer"></a>Designer formula
 
@@ -100,7 +100,7 @@ Quando si utilizza Designer formula per rivedere o modificare le formule che son
 ## <a name="add-and-edit-formulas-and-formula-lines"></a>Aggiungere e modificare formule e righe della formula 
 Utilizzare le funzioni **Righe DBA** o **Formula** per modificare le righe formula o la formula. Quando si seleziona un nodo nella struttura ad albero, il tipo di nodo determina quali funzioni sono disponibili.
 
-| Funzione                            | descrizione                                                                                               | Tipo di nodo e condizioni |
+| Funzione                            | Descrizione                                                                                               | Tipo di nodo e condizioni |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------------|
 | Righe DBA &gt; Modifica                 | Consente di aprire una finestra di dialogo in cui è possibile modificare gli attributi della riga formula.                                         | Questa funzione è disponibile quando un nodo della riga formula è selezionato. |
 | Righe DBA &gt; Elimina               | Eliminare una riga formula dalla formula selezionata.                                                          | Questa funzione è disponibile quando un nodo della riga formula è selezionato e la formula non è bloccata per la modifica. |
@@ -115,7 +115,7 @@ Utilizzare le funzioni **Righe DBA** o **Formula** per modificare le righe formu
 Fare clic su **Impostazione** per personalizzare le informazioni che vengono mostrate nella visualizzazione struttura ad albero di Designer formula.
 
 
-| Gruppo campi |                                                                          descrizione                                                                          |
+| Gruppo campi |                                                                          Descrizione                                                                          |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     DBA     | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati nella struttura ad albero. I criteri selezionati verranno visualizzati nella parte inferiore di entrambe le schede. |
 |    Ciclo    |                                           Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati per i cicli di lavorazione.                                           |

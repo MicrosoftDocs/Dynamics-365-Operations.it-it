@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 4623b6eaa18b65f0f61cb8c227115d59f3ff9c08
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a6cc730f8d672d906072a9b97b737dbdea9faf2d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007703"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243203"
 ---
 # <a name="dual-use-goods"></a>Beni a duplice uso
 
@@ -56,7 +56,7 @@ Per impostare le informazioni sui requisiti di duplice uso per vari paesi, atten
 2. Selezionare una configurazione di paese esistente per modificarla oppure selezionare **Nuova** nel riquadro azioni per creare una nuova configurazione.
 3. Impostare i seguenti valori per la configurazione selezionata o creata.
 
-    | Campo | descrizione |
+    | Campo | Descrizione |
     |---|---|
     | Paese | Selezionare il paese per il quale si verificano i requisiti. |
     | Certificato obbligatorio | Selezionare questa casella di controllo per i paesi che richiedono una certificazione per beni a duplice uso. Deselezionarla per i paesi che non richiedono questa certificazione. |
@@ -71,7 +71,7 @@ Per impostare categorie a duplice uso, procedere come segue.
 2. Selezionare una categoria esistente per modificarla oppure selezionare **Nuova** nel riquadro azioni per creare una nuova categoria.
 3. Impostare i seguenti valori per la categoria selezionata o creata.
 
-    | Campi | descrizione |
+    | Campi | Descrizione |
     |---|---|
     | Codice a duplice uso | Immettere il codice ECCN completo (ad esempio, *3A001*).|
     | Categoria a duplice uso | Immettere la parte di categoria CCL del codice ECCN. Ad esempio, per il codice ECCN *3A001*, questo valore è *3*. |
@@ -97,7 +97,7 @@ La pagina **Certificati per duplice uso** è utilizzata per impostare e gestire 
 2. Selezionare un certificato esistente per modificarlo o selezionare **Nuovo** nel riquadro azioni per creare un nuovo certificato.
 3. Impostare i seguenti valori per il certificato selezionato o creato.
 
-    | Campo | descrizione |
+    | Campo | Descrizione |
     |---|---|
     | Numero articolo | Selezionare il numero di articolo del bene a duplice uso a cui si applica questo certificato. |
     | Paese | Il paese in cui è necessario utilizzare questo certificato. |
