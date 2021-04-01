@@ -15,41 +15,44 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69168d62c9583149db6e61816a6ccd1059ee52db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b875793e17da1046fcad4abe10068af923ca31a3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246936"
 ---
-# <a name="view-related-intercompany-voucher-from-journal"></a><span data-ttu-id="7fe70-103">Visualizza il giustificativo interaziendale correlato del giornale di registrazione</span><span class="sxs-lookup"><span data-stu-id="7fe70-103">View related intercompany voucher from journal</span></span>
+# <a name="view-related-intercompany-voucher-from-journal"></a><span data-ttu-id="b40bd-103">Visualizza il giustificativo interaziendale correlato del giornale di registrazione</span><span class="sxs-lookup"><span data-stu-id="b40bd-103">View related intercompany voucher from journal</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7fe70-104">La finestra relativa al giustificativo mostra il giustificativo dalla società per contropartita quando registra una transazione interaziendale dal giornale di registrazione generale.</span><span class="sxs-lookup"><span data-stu-id="7fe70-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
+<span data-ttu-id="b40bd-104">La finestra relativa al giustificativo mostra il giustificativo dalla società per contropartita quando registra una transazione interaziendale dal giornale di registrazione generale.</span><span class="sxs-lookup"><span data-stu-id="b40bd-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 
 
-## <a name="post-an-intercompany-journal"></a><span data-ttu-id="7fe70-105">Registrare un giornale di registrazione interaziendale</span><span class="sxs-lookup"><span data-stu-id="7fe70-105">Post an intercompany journal</span></span>
-1. <span data-ttu-id="7fe70-106">Passare a Giornali di registrazione generali.</span><span class="sxs-lookup"><span data-stu-id="7fe70-106">Go to General journals.</span></span>
-2. <span data-ttu-id="7fe70-107">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="7fe70-107">Click New.</span></span>
-3. <span data-ttu-id="7fe70-108">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="7fe70-108">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="7fe70-109">Nel campo Nome, immettere o selezionare il nome del giornale di registrazione interaziendale.</span><span class="sxs-lookup"><span data-stu-id="7fe70-109">In the Name field, enter or select the intercompany journal name.</span></span>
-5. <span data-ttu-id="7fe70-110">Fare clic su Righe.</span><span class="sxs-lookup"><span data-stu-id="7fe70-110">Click Lines.</span></span>
-6. <span data-ttu-id="7fe70-111">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="7fe70-111">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="7fe70-112">Nel campo Conto, specificare i valori desiderati.</span><span class="sxs-lookup"><span data-stu-id="7fe70-112">In the Account field, specify the desired values.</span></span>
-8. <span data-ttu-id="7fe70-113">Nel campo Descrizione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="7fe70-113">In the Description field, enter or select a value.</span></span>
-9. <span data-ttu-id="7fe70-114">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="7fe70-114">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="7fe70-115">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="7fe70-115">Close the page.</span></span>
-11. <span data-ttu-id="7fe70-116">Nel campo Dare immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="7fe70-116">In the Debit field, enter a number.</span></span>
-12. <span data-ttu-id="7fe70-117">Nel campo Società di compensazione digitare o selezionare la società di compensazione.</span><span class="sxs-lookup"><span data-stu-id="7fe70-117">In the Offset company field, type or select the offset company.</span></span>
-13. <span data-ttu-id="7fe70-118">Nel campo Società di compensazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="7fe70-118">In the Offset company field, enter or select a value.</span></span>
-14. <span data-ttu-id="7fe70-119">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="7fe70-119">Close the page.</span></span>
-15. <span data-ttu-id="7fe70-120">Nel campo Conto di contropartita, specificare i valori desiderati.</span><span class="sxs-lookup"><span data-stu-id="7fe70-120">In the Offset account field, specify the desired values.</span></span>
-16. <span data-ttu-id="7fe70-121">Fare clic su Registra.</span><span class="sxs-lookup"><span data-stu-id="7fe70-121">Click Post.</span></span>
+## <a name="post-an-intercompany-journal"></a><span data-ttu-id="b40bd-105">Registrare un giornale di registrazione interaziendale</span><span class="sxs-lookup"><span data-stu-id="b40bd-105">Post an intercompany journal</span></span>
+1. <span data-ttu-id="b40bd-106">Passare a Giornali di registrazione generali.</span><span class="sxs-lookup"><span data-stu-id="b40bd-106">Go to General journals.</span></span>
+2. <span data-ttu-id="b40bd-107">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="b40bd-107">Click New.</span></span>
+3. <span data-ttu-id="b40bd-108">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b40bd-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="b40bd-109">Nel campo Nome, immettere o selezionare il nome del giornale di registrazione interaziendale.</span><span class="sxs-lookup"><span data-stu-id="b40bd-109">In the Name field, enter or select the intercompany journal name.</span></span>
+5. <span data-ttu-id="b40bd-110">Fare clic su Righe.</span><span class="sxs-lookup"><span data-stu-id="b40bd-110">Click Lines.</span></span>
+6. <span data-ttu-id="b40bd-111">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b40bd-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="b40bd-112">Nel campo Conto, specificare i valori desiderati.</span><span class="sxs-lookup"><span data-stu-id="b40bd-112">In the Account field, specify the desired values.</span></span>
+8. <span data-ttu-id="b40bd-113">Nel campo Descrizione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="b40bd-113">In the Description field, enter or select a value.</span></span>
+9. <span data-ttu-id="b40bd-114">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="b40bd-114">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="b40bd-115">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="b40bd-115">Close the page.</span></span>
+11. <span data-ttu-id="b40bd-116">Nel campo Dare immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="b40bd-116">In the Debit field, enter a number.</span></span>
+12. <span data-ttu-id="b40bd-117">Nel campo Società di compensazione digitare o selezionare la società di compensazione.</span><span class="sxs-lookup"><span data-stu-id="b40bd-117">In the Offset company field, type or select the offset company.</span></span>
+13. <span data-ttu-id="b40bd-118">Nel campo Società di compensazione immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="b40bd-118">In the Offset company field, enter or select a value.</span></span>
+14. <span data-ttu-id="b40bd-119">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="b40bd-119">Close the page.</span></span>
+15. <span data-ttu-id="b40bd-120">Nel campo Conto di contropartita, specificare i valori desiderati.</span><span class="sxs-lookup"><span data-stu-id="b40bd-120">In the Offset account field, specify the desired values.</span></span>
+16. <span data-ttu-id="b40bd-121">Fare clic su Registra.</span><span class="sxs-lookup"><span data-stu-id="b40bd-121">Click Post.</span></span>
 
-## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="7fe70-122">Visualizzare il giustificativo interaziendale correlato</span><span class="sxs-lookup"><span data-stu-id="7fe70-122">View related intercompany voucher</span></span>
-1. <span data-ttu-id="7fe70-123">Fare clic su Giustificativo.</span><span class="sxs-lookup"><span data-stu-id="7fe70-123">Click Voucher.</span></span>
-2. <span data-ttu-id="7fe70-124">Fare clic su Giustificativi correlati.</span><span class="sxs-lookup"><span data-stu-id="7fe70-124">Click Related vouchers.</span></span>
-3. <span data-ttu-id="7fe70-125">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="7fe70-125">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="7fe70-126">Fare clic su Giustificativo.</span><span class="sxs-lookup"><span data-stu-id="7fe70-126">Click Voucher.</span></span>
+## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="b40bd-122">Visualizzare il giustificativo interaziendale correlato</span><span class="sxs-lookup"><span data-stu-id="b40bd-122">View related intercompany voucher</span></span>
+1. <span data-ttu-id="b40bd-123">Fare clic su Giustificativo.</span><span class="sxs-lookup"><span data-stu-id="b40bd-123">Click Voucher.</span></span>
+2. <span data-ttu-id="b40bd-124">Fare clic su Giustificativi correlati.</span><span class="sxs-lookup"><span data-stu-id="b40bd-124">Click Related vouchers.</span></span>
+3. <span data-ttu-id="b40bd-125">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b40bd-125">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="b40bd-126">Fare clic su Giustificativo.</span><span class="sxs-lookup"><span data-stu-id="b40bd-126">Click Voucher.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

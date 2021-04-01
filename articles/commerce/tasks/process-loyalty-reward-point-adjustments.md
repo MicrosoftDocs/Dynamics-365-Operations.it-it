@@ -16,36 +16,39 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40f66e51c08e574049097a6e2602998875a897e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fca59651065d20e79a47b49a4eb3b4def7cac674
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232812"
 ---
-# <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="a51d0-103"> Elaborare correzioni punti fedeltà</span><span class="sxs-lookup"><span data-stu-id="a51d0-103">Process loyalty reward point adjustments</span></span>
+# <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="ef6cf-103"> Elaborare correzioni punti fedeltà</span><span class="sxs-lookup"><span data-stu-id="ef6cf-103">Process loyalty reward point adjustments</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a51d0-104">Questa procedura dimostra come individuare le informazioni sulla carta fedeltà e rettificare i punti premio fedeltà.</span><span class="sxs-lookup"><span data-stu-id="a51d0-104">This procedure demonstrates how to look up loyalty card information and adjust loyalty reward points.</span></span> <span data-ttu-id="a51d0-105">La società di dati dimostrativi utilizzata per creare questa attività è USRT.</span><span class="sxs-lookup"><span data-stu-id="a51d0-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="a51d0-106">Questa attività è destinata al ruolo Responsabile operativo commercio o Responsabile assistenza clienti.</span><span class="sxs-lookup"><span data-stu-id="a51d0-106">This task is intended for the Commerce operations manager role or a Customer service manager role.</span></span>
+<span data-ttu-id="ef6cf-104">Questa procedura dimostra come individuare le informazioni sulla carta fedeltà e rettificare i punti premio fedeltà.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-104">This procedure demonstrates how to look up loyalty card information and adjust loyalty reward points.</span></span> <span data-ttu-id="ef6cf-105">La società di dati dimostrativi utilizzata per creare questa attività è USRT.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="ef6cf-106">Questa attività è destinata al ruolo Responsabile operativo commercio o Responsabile assistenza clienti.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-106">This task is intended for the Commerce operations manager role or a Customer service manager role.</span></span>
 
-1. <span data-ttu-id="a51d0-107">Passare a Carte fedeltà.</span><span class="sxs-lookup"><span data-stu-id="a51d0-107">Go to Loyalty cards.</span></span>
-2. <span data-ttu-id="a51d0-108">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="a51d0-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="a51d0-109">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="a51d0-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="a51d0-110">Fare clic su Transazioni carte.</span><span class="sxs-lookup"><span data-stu-id="a51d0-110">Click Card transactions.</span></span>
-    * <span data-ttu-id="a51d0-111">In questa pagina è possibile visualizzare tutte le transazioni di fedeltà della carta fedeltà selezionata.</span><span class="sxs-lookup"><span data-stu-id="a51d0-111">On this page you can view all loyalty transactions for the selected loyalty card.</span></span>  
-5. <span data-ttu-id="a51d0-112">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="a51d0-112">Close the page.</span></span>
-6. <span data-ttu-id="a51d0-113">Fare clic su Rettifiche carta.</span><span class="sxs-lookup"><span data-stu-id="a51d0-113">Click Card adjustments.</span></span>
-7. <span data-ttu-id="a51d0-114">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="a51d0-114">Click New.</span></span>
-8. <span data-ttu-id="a51d0-115">Nel campo Punto premio immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="a51d0-115">In the Reward point field, enter or select a value.</span></span>
-9. <span data-ttu-id="a51d0-116">Nel campo Importo o quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="a51d0-116">In the Amount or quantity field, enter a number.</span></span>
-    * <span data-ttu-id="a51d0-117">È possibile aggiungere o rimuovere i punti della carta fedeltà utilizzando gli importi positivi o negativi.</span><span class="sxs-lookup"><span data-stu-id="a51d0-117">You can add or remove points from the loyalty card by using positive or negative amounts.</span></span>  
-10. <span data-ttu-id="a51d0-118">Nel campo Programma fedeltà immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="a51d0-118">In the Loyalty program field, enter or select a value.</span></span>
-11. <span data-ttu-id="a51d0-119">Digitare un valore nel campo Commento.</span><span class="sxs-lookup"><span data-stu-id="a51d0-119">In the Comment field, type a value.</span></span>
-12. <span data-ttu-id="a51d0-120">Fare clic su Registra rettifica.</span><span class="sxs-lookup"><span data-stu-id="a51d0-120">Click Post adjustment.</span></span>
-13. <span data-ttu-id="a51d0-121">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="a51d0-121">Click Yes.</span></span>
-14. <span data-ttu-id="a51d0-122">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="a51d0-122">Close the page.</span></span>
-    * <span data-ttu-id="a51d0-123">Generalmente in questa fase si aggiorna la pagina per visualizzare il risultato della rettifica dei punti premio nella scheda Riepilogo punti premio. Se invece si esegue la fase come guida attività, non aggiornare ora perché altrimenti la guida attività verrà interrotta.</span><span class="sxs-lookup"><span data-stu-id="a51d0-123">Normally at this point you'd refresh the page to see the result of the reward points adjustment in the Reward point summary tab. But if you are running this as a task guide, don't refresh now because if you do, the task guide will stop.</span></span>  
-15. <span data-ttu-id="a51d0-124">Fare clic su Transazioni carte.</span><span class="sxs-lookup"><span data-stu-id="a51d0-124">Click Card transactions.</span></span>
-16. <span data-ttu-id="a51d0-125">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="a51d0-125">Close the page.</span></span>
+1. <span data-ttu-id="ef6cf-107">Passare a Carte fedeltà.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-107">Go to Loyalty cards.</span></span>
+2. <span data-ttu-id="ef6cf-108">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="ef6cf-109">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="ef6cf-110">Fare clic su Transazioni carte.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-110">Click Card transactions.</span></span>
+    * <span data-ttu-id="ef6cf-111">In questa pagina è possibile visualizzare tutte le transazioni di fedeltà della carta fedeltà selezionata.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-111">On this page you can view all loyalty transactions for the selected loyalty card.</span></span>  
+5. <span data-ttu-id="ef6cf-112">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-112">Close the page.</span></span>
+6. <span data-ttu-id="ef6cf-113">Fare clic su Rettifiche carta.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-113">Click Card adjustments.</span></span>
+7. <span data-ttu-id="ef6cf-114">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-114">Click New.</span></span>
+8. <span data-ttu-id="ef6cf-115">Nel campo Punto premio immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-115">In the Reward point field, enter or select a value.</span></span>
+9. <span data-ttu-id="ef6cf-116">Nel campo Importo o quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-116">In the Amount or quantity field, enter a number.</span></span>
+    * <span data-ttu-id="ef6cf-117">È possibile aggiungere o rimuovere i punti della carta fedeltà utilizzando gli importi positivi o negativi.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-117">You can add or remove points from the loyalty card by using positive or negative amounts.</span></span>  
+10. <span data-ttu-id="ef6cf-118">Nel campo Programma fedeltà immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-118">In the Loyalty program field, enter or select a value.</span></span>
+11. <span data-ttu-id="ef6cf-119">Digitare un valore nel campo Commento.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-119">In the Comment field, type a value.</span></span>
+12. <span data-ttu-id="ef6cf-120">Fare clic su Registra rettifica.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-120">Click Post adjustment.</span></span>
+13. <span data-ttu-id="ef6cf-121">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-121">Click Yes.</span></span>
+14. <span data-ttu-id="ef6cf-122">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-122">Close the page.</span></span>
+    * <span data-ttu-id="ef6cf-123">Generalmente in questa fase si aggiorna la pagina per visualizzare il risultato della rettifica dei punti premio nella scheda Riepilogo punti premio. Se invece si esegue la fase come guida attività, non aggiornare ora perché altrimenti la guida attività verrà interrotta.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-123">Normally at this point you'd refresh the page to see the result of the reward points adjustment in the Reward point summary tab. But if you are running this as a task guide, don't refresh now because if you do, the task guide will stop.</span></span>  
+15. <span data-ttu-id="ef6cf-124">Fare clic su Transazioni carte.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-124">Click Card transactions.</span></span>
+16. <span data-ttu-id="ef6cf-125">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="ef6cf-125">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
