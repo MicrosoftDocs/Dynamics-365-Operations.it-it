@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 95e4246d6c5f9ac5bc86b626be0d971f756c5130
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d0b3585ce326e47b119b3f6c41436b9e6494ec87
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985613"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478094"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Abilitare gli elementi consigliati "acquista prodotti simili"
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come abilitare i consigli sui prodotti "acquista prodotti simili" in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 La funzionalità relativa ai consigli "acquista prodotti simili" in Dynamics 365 Commerce utilizza la potenza dell'intelligenza artificiale e dell'apprendimento automatico (IA-ML) per fornire ai clienti consigli per prodotti visivamente simili. Rendendo disponibili i consigli "acquista prodotti simili" per tutti i canali di vendita al dettaglio in Commerce, i rivenditori possono aumentare la soddisfazione dei clienti aiutandoli a trovare facilmente ciò che desiderano.
 

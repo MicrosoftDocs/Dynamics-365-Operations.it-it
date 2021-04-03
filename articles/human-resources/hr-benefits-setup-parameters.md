@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: 5e241475c9652ab2dafe6886479e9c0a93711aca
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962442"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466762"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Impostare i parametri di gestione dei benefit e self-service dei dipendenti per tutte le aziende
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Prima di poter impostare piani di benefit in Microsoft Dynamics 365 Human Resources, è necessario configurare i parametri di Gestione benefit. Questi parametri impostano valori predefiniti, codici motivo e altre opzioni. 
 
@@ -35,7 +37,7 @@ Prima di poter impostare piani di benefit in Microsoft Dynamics 365 Human Resour
 
 2. Nella scheda **Gestione benefit** specificare i valori per i seguenti campi:
 
-   | Campo | descrizione |
+   | Campo | Descrizione |
    | --- | --- |
    | **Paese** | Il campo **Paese** determina l'ordine di visualizzazione di paesi/CAP. Il paese selezionato viene visualizzato per primo nell'elenco a discesa. |
    | **Codice motivo iscrizione** | Selezionare un codice motivo predefinito da utilizzare quando vengono creati piani per i dipendenti durante l'elaborazione dell'iscrizione aperta. |
@@ -60,7 +62,7 @@ Prima di poter impostare piani di benefit in Microsoft Dynamics 365 Human Resour
 
 2. Nella scheda **Gestione benefit** specificare i valori per i seguenti campi:
 
-   | Campo | descrizione |
+   | Campo | Descrizione |
    | --- | --- |
    | **Verifica benefit** | Il testo di verifica da utilizzare durante il checkout dei benefit self-service. |
    | **Seleziona automaticamente i beneficiari designati** | Specifica se selezionare automaticamente le persone a carico e i beneficiari in base alla loro idoneità per le opzioni del piano. |

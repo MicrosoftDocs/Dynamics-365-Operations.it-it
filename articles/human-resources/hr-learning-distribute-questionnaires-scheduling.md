@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0cd101bfe88ae1acb051ba11a676da66ef6a3db6
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 50be7631ec303171640b7fa9e6d283a198bd1a52
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115464"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465008"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Distribuire questionari mediante programmazione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 La programmazione dei questionari consente di pianificare e distribuire i questionari a più intervistati. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
@@ -55,7 +57,7 @@ La programmazione dei questionari consente di pianificare e distribuire i questi
 
 11. Nel campo Testo digitare il corpo del messaggio di posta elettronica. Nota, la variabile può essere utilizzata per sostituire valori nel sistema.
 
-    * Esempio: Gentile %P%, effettui l'accesso a Dynamics AX, Dipendente self-service per completare il questionario sulla salute della forza lavoro.  Contoso  
+    * Esempio: Gentile %P%, la preghiamo di effettuare l'accesso a Dipendente self-service per completare il questionario sulla salute della forza lavoro.  Contoso  
 
 12. Fare clic su Salva.
 

@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01d73d390f72343c7498ccbb99838d38be45a19e
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 4892dc0801a47ab7c219df00b997fa469f56b7fc
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126028"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464696"
 ---
 # <a name="recruiting-request-position"></a>Posizione richieste di selezione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Posizione richiesta di selezione per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmrecruitingrequestpositionentity
 
-### <a name="description"></a>descrizione
+### <a name="description"></a>Descrizione
 
 Descrive la posizione o le posizioni da coprire per una richiesta di selezione. L'aggiunta di una posizione alla richiesta di selezione è facoltativa. Le proprietà della posizione sono di sola lettura, poiché le proprietà della posizione non dovrebbero essere diverse sulla richiesta di selezione rispetto a quelle del record anagrafico della posizione. Se le proprietà devono cambiare, dovrebbe essere fatto sul record anagrafico della posizione prima di aggiungere la posizione alla richiesta di reclutamento.
 
@@ -60,7 +62,7 @@ Descrive la posizione o le posizioni da coprire per una richiesta di selezione. 
 
 ### <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità posizione richiesta di selezione**<br>mshr_hcmrecruitingrequestpositionentityid<br>*GUID* | Sola lettura<br>Richiesto |    L'identificatore univoco generato dall'utente del record della posizione della richiesta di selezione. |
 | **ID richiesta di selezione**<br>mshr_recruitingrequestid<br>*String* | Scrivi una volta<br>Richiesto | L'identificatore univoco leggibile dall'utente della richiesta di selezione. |

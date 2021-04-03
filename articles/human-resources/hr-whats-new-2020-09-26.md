@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
-ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
+ms.openlocfilehash: f56371519f0f0fcd6e90c8bc107dd8b1326132b4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5152199"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467003"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 26 settembre 2020
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -49,7 +51,7 @@ Questa versione include le seguenti correzioni di bug.
 > [!NOTE]
 > Il nostro obiettivo è fornire queste informazioni il prima possibile. Potrebbero esserci aggiornamenti a questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
 
-| Numero problema | Uscita | descrizione |
+| Numero problema | Uscita | Descrizione |
 | --- | --- | --- |
 | 469495 | Aggiornare la griglia e la finestra di dialogo delle dimensioni finanziarie predefinite | La griglia e la finestra di dialogo delle dimensioni finanziarie sono state aggiornate in Human Resources. |
 | 474887 | L'elemento di lavoro della richiesta di congedo apre un collegamento errato in una decisione manuale | Quando una configurazione del flusso di lavoro contiene una decisione manuale, passare alla richiesta di congedo da **Elementi di lavoro assegnati all'utente** apre il collegamento sbagliato, mostrando un modulo vuoto o una richiesta di congedo creata dall'utente corrente invece di quella assegnatagli per la decisione manuale. |

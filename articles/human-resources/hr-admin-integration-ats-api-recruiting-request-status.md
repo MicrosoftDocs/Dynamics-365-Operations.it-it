@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 55ed9c391a1b5f86c3c443b9fceeee5c2301444d
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 0032e6bfdbfd2792dafda8bf24a1b0cbc551740d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125956"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464648"
 ---
 # <a name="recruiting-request-status"></a>Stato della richiesta di selezione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'opzione Stato richiesta di selezione impostata per Dynamics 365 Human Resources.
 
@@ -31,7 +33,7 @@ Nome fisico: mshr_hcmrecruitingrequeststatus
 
 Questa enumerazione fornisce il set di opzioni per i valori di stato per la richiesta di selezione.
 
-| Valore | Etichetta | descrizione |
+| Valore | Etichetta | Descrizione |
 | --- | --- | --- |
 | 200000000 | Bozze | La richiesta è in bozza e non è pronta per la selezione attiva. |
 | 200000001 | In revisione | La richiesta è stata inviata e viene instradata per l'approvazione dal flusso di lavoro. Disponibile solo quando il flusso di lavoro è abilitato. |

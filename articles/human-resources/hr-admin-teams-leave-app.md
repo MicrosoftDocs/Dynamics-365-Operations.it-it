@@ -3,7 +3,7 @@ title: App Human Resources in Teams
 description: Questo argomento introduce l'app Microsoft Dynamics 365 Human Resources in Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113117"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487875"
 ---
 # <a name="human-resources-app-in-teams"></a>App Human Resources in Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 L'app Microsoft Dynamics 365 Human Resources in Microsoft Teams consente ai dipendenti di richiedere rapidamente permessi e di visualizzare le informazioni sul loro saldo permessi in Microsoft Teams. I dipendenti possono interagire con un bot per richiedere informazioni. La scheda **Tempo libero** fornisce informazioni più dettagliate. Inoltre, possono inviare alle persone informazioni sull'imminente indisponibilità in team e chat al di fuori dell'app Human Resources.
 
-![Bot dell'app per i permessi Human Resources in Teams](./media/hr-admin-teams-leave-app-bot.png)
+![Bot dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot.png)
 
 ![Scheda Tempo libero dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ L'app Microsoft Dynamics 365 Human Resources in Microsoft Teams consente ai dipe
 
 ## <a name="install-and-setup"></a>Installa e configura
 
-Puoi trovare l'app Human Resources nello store di Teams. Per informazioni sull'installazione dell'app Teams, vedi [Gestisci richieste di permessi in Teams](hr-teams-leave-app.md).
+Puoi trovare l'app Dynamics 365 Human Resources nello store di Teams. Per informazioni sull'installazione dell'app Teams, vedi [Gestisci richieste di permessi in Teams](hr-teams-leave-app.md).
 
 Per informazioni sulla gestione delle autorizzazioni delle app in Teams, vedi [Gestire i criteri delle autorizzazioni delle app in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Se desideri che i tuoi utenti visualizzino il calendario Congedo e assenza nell'app, devi abilitare il **calendario Congedo e assenze di Teams** in Gestione funzionalità. Per ulteriori informazioni sull'abilitazione delle funzionalità, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Abilitare le notifiche per l'app Human Resources in Teams
 
-Se si desidera che gli utenti ricevano le notifiche delle richieste di congedo nell'app Teams, è necessario abilitare le notifiche in Human Resources.
+Se si desidera che gli utenti ricevano le notifiche delle richieste di congedo nell'app Teams, è necessario abilitare le notifiche in Dynamics 365 Human Resources.
 
 >[!NOTE]
->Solo gli utenti che hanno effettuato l'accesso a Teams e usano l'app Human Resources in Teams riceveranno le notifiche.
+>Solo gli utenti che hanno effettuato l'accesso a Teams e usano l'app Dynamics 365 Human Resources in Teams riceveranno le notifiche.
 
 1. In Risorse umane, selezionare **Amministrazione sistema**.
 
@@ -66,7 +68,7 @@ Se si desidera che gli utenti ricevano le notifiche delle richieste di congedo n
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Attivare o disattivare le notifiche di Teams per i singoli utenti
 
-Dopo aver abilitato le notifiche per l'app Human Resources in Teams, è possibile attivare o disattivare le notifiche per i singoli utenti.
+Dopo aver abilitato le notifiche per l'app Dynamics 365 Human Resources in Teams, è possibile attivare o disattivare le notifiche per i singoli utenti.
 
 1. In Risorse umane, selezionare **Amministrazione sistema**.
 
@@ -82,9 +84,28 @@ Dopo aver abilitato le notifiche per l'app Human Resources in Teams, è possibil
 
 6. Selezionare **Salva**.
 
-## <a name="known-issues"></a>Problemi noti
+## <a name="supported-languages"></a>Lingue supportate
 
-| Uscita | Stato |
+L'app Dynamics 365 Human Resources in Teams supporta le lingue seguenti:
+
+| ID locale | Lingua |
+| --- | --- |
+| de-DE | Tedesco (Germania) |
+| es-ES | Spagnolo (Spagna) |
+| es-MX | Spagnolo (Messico) |
+| fr-CA | Francese (Canada) |
+| fr-FR | Francese (Francia) |
+| it-IT | Italiano (Italia) |
+| nl-NL | Olandese (Paesi Bassi) |
+| pt-BR | Portoghese (Brasile) |
+| tr-TR | Turco (Turchia) |
+| zh-CN | Cinese (semplificato) |
+
+## <a name="notes"></a>Note
+
+I seguenti elementi di lavoro sono previsti per le versioni future:
+
+| Elemento di lavoro | Stato |
 | --- | --- |
 | Il saldo non è corretto quando richiedi permessi per una data futura. | Le previsioni non sono ancora disponibili. Il saldo visualizza la data corrente. |
 | Impossibile annullare una richiesta **In revisione**. | Questa funzionalità non è attualmente supportata e verrà aggiunta in una versione futura. |
@@ -96,7 +117,7 @@ Se un utente ha problemi ad accedere o utilizzare l'app Human Resources in Teams
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Non è possibile accedere all'app Human Resources in Teams
 
-Se un utente ti contatta perché non può accedere all'app, verifica che l'utente disponga di un record dipendente associato in Human Resources.
+Se un utente ti contatta perché non può accedere all'app, verifica che disponga di un record dipendente associato in Human Resources.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Errore durante l'approvazione delle richieste di congedo nell'app Human Resources in Teams
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f99bff8846cf95bc25f0396444a3920c48f73b1e
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 4bf2c6525f245a72811f4f239479be360c0c434c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115850"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465656"
 ---
 # <a name="create-variable-compensation-plans"></a>Creare piani di retribuzione variabile
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 La retribuzione variabile rappresenta una retribuzione non regolare del dipendente, ad esempio premio o premi in azioni. Questo articolo descrive i componenti che devono essere impostati per utilizzare una retribuzione variabile e per iscrivere un dipendente in un piano di compensazione variabile.
 

@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a57cc02c6d62f288f14b65191c2f4927a019963c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969903"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478166"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Provisioning di un ambiente di valutazione Dynamics 365 Commerce
 
@@ -34,8 +34,6 @@ Prima di iniziare, è consigliabile dare una rapida occhiata a questo argomento 
 
 > [!NOTE]
 > Gli ambienti di valutazione di Commerce non sono generalmente disponibili e sono concessi a partner e clienti in base alla richiesta. Per ulteriori informazioni, contattare il partner Microsoft.
-
-## <a name="overview"></a>Panoramica
 
 Per eseguire correttamente il provisioning di un ambiente di valutazione Commerce, è necessario creare un progetto con un nome e un tipo di prodotto specifici. Anche l'ambiente e Commerce Scale Unit hanno alcuni parametri specifici che devono essere utilizzati quando si prevede di eseguire il provisioning di e-Commerce in seguito. Le istruzioni in questo argomento descrivono tutti i passaggi necessari per completare il provisioning e i parametri da utilizzare.
 

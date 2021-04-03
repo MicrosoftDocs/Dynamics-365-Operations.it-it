@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1ad37c7a5b961bb03d37775168dac91e606d2b08
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 2dbdbea7087d8bca8563da10d1bf9a97df24e8b3
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125259"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464744"
 ---
 # <a name="rating-level"></a>Livello di valutazione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Livello di valutazione per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmratinglevelentity
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità fornisce i livelli di valutazione disponibili per le competenze. I livelli di valutazione si applicano a tutte le persone giuridiche.
 
@@ -50,7 +52,7 @@ Questa entità fornisce i livelli di valutazione disponibili per le competenze. 
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità livello di valutazione**<br>mshr_hcmratinglevelentityid<br>*GUID* | Sola lettura<br>Richiesto<br>Generato dal sistema | L'identificatore univoco generato dal sistema per il livello. |
 | **ID livello valutazione**<br>mshr_ratinglevelid<br>*String* | Lettura/scrittura<br>Richiesto | Identificatore univoco leggibile dall'utente per il livello. |

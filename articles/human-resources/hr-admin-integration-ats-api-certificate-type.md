@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1d2d53a628ef43d50bd83fd6b62807f44eddd653
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 962bccb3aaab16322d072417660ec3aac821183b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125715"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467483"
 ---
 # <a name="certificate-type"></a>Tipo di certificato
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Tipo di certificato per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmcertificatetypeentity
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità definisce l'elenco dei tipi di certificati professionali impostati in Human Resources. L'entità non è specifica di una persona giuridica (società).
 
@@ -46,7 +48,7 @@ Questa entità definisce l'elenco dei tipi di certificati professionali impostat
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità tipo certificato**<br>mshr_hcmcertificatetypeentityid<br>*GUID* | Sola lettura<br>Richiesto 
 Generato dal sistema | Identificatore univoco principale per il tipo di certificato. |

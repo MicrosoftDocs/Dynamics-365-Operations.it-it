@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4ae4270f3185f8795753ecdb209515ecd6e86486
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: ba6623102431eb45bf5d0c96b6583615663d1081
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113155"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464328"
 ---
 # <a name="benefits-management-overview"></a>Panoramica di Gestione benefit
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Per rimanere competitivi, è necessario offrire una ricca gamma di benefit per attirare e trattenere i migliori dipendenti. Oltre ai benefit standard come la copertura medica e dentale, è possibile che si voglia offrire anche servizi estesi come assistenza all'adozione, programmi ricreativi e indennità per l'abbigliamento. Gestione benefit in Microsoft Dynamics 365 Human Resources fornisce una soluzione flessibile che supporta una vasta gamma di opzioni di benefit. Human Resources include anche un'esperienza per i dipendenti di facile utilizzo che evidenzia le offerte proposte.
 

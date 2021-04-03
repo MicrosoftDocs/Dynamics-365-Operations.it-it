@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001950"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476677"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -44,20 +44,24 @@ La gestione delle modifiche di progettazione consente di pianificare e gestire i
 
 Il video precedente ([Cambia capacità di gestione in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) è incluso nella[playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Attivare la gestione delle modifiche di progettazione per il sistema
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Attivare le funzionalità Gestione delle modifiche di progettazione e Dimensione versione prodotti per il sistema
 
-Innanzitutto, attivare la gestione delle modifiche di progettazione seguendo questi passaggi.
+Per poter utilizzare la gestione delle modifiche di progettazione, è necessario abilitare la funzionalità *Gestione delle modifiche di progettazione* e la relativa chiave di configurazione. Se inoltre si desidera monitorare la dimensione della versione dei prodotti nelle transazioni (facoltativo), si deve abilitare anche la funzionalità *Dimensione versione prodotti* e la relativa chiave di configurazione.
+
+Innanzi tutto, attivare le funzionalità procedendo come segue.
 
 1. Andare a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Controllare gli aggiornamenti.
 1. Attiva la funzionalità denominata **Gestione modifiche di progettazione**.
+1. Per utilizzarla, attivare anche la funzionalità **Versione dimensione prodotto**.
 
-Quindi, attivare la chiave di configurazione **Gestione modifiche di progettazione** seguendo questi passaggi.
+Successivamente, attivare le chiavi di configurazione procedendo come segue.
 
 1. Mettere il sistema in modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
-1. Espandere il nodo **Commercio** e selezionare la casella di controllo **Gestione modifiche di progettazione**.
+1. Espandere il nodo **Commercio**
+1. Selezionare la casella di controllo **Gestione delle modifiche di progettazione**.
+1. Per utilizzarla, selezionare anche la casella di controllo **Dimensione prodotto - Versione**.
 1. Disattivare la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

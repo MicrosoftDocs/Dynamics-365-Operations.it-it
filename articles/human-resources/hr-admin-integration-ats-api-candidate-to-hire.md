@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb16f9f46e3f5c58854ec06c3b89ec72dd7bae00
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 0ae695a2c3bb71821bb0a8aa431a298c8859e28c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125739"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467507"
 ---
 # <a name="candidate-to-hire"></a>Candidato da assumere
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive il candidato all'assunzione dell'entità per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmcandidatetohireentity
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità fornisce i dettagli del candidato utilizzati per creare un lavoratore in Dynamics 365 Human Resources. Viene utilizzato per leggere tutti i record del candidato e creare record del candidato interno ed esterno, consentendo di creare dettagli personali per il nuovo candidato.
 
@@ -75,7 +77,7 @@ Quando crei un record candidato interno (un candidato per la posizione che ha gi
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **Candidato ad assumere l'ID entità**<br>mshr_hcmcandidatetohireentityid<br>GUID | Sola lettura<br>Richiesto<br>Generato dal sistema | Un identificatore univoco generato dal sistema per il record dell'entità. |
 | **ID candidato**<br>mshr_candidateid<br>String | Sola lettura<br>Richiesto<br>Generato dal sistema | Identificatore univoco per l'entità. |

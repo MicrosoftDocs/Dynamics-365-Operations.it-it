@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1767edfe67f9c3af4ac67eb5403d63a7f54dcac8
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: efc5c4813f8abd869e8137052c4aeb356a930d0b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126076"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465968"
 ---
 # <a name="recruiting-request-education"></a>Istruzione richiesta di selezione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Istruzione richiesta di selezione per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmrecruitingrequesteducationentity
 
-### <a name="description"></a>descrizione
+### <a name="description"></a>Descrizione
 
 Descrive i requisiti di istruzione per una richiesta di selezione.
 
@@ -54,7 +56,7 @@ Descrive i requisiti di istruzione per una richiesta di selezione.
 
 ### <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità istruzione richiesta di selezione**<br>mshr_hcmrecruitingrequesteducationentityid<br>*GUID* | Sola lettura<br>Richiesto | Identificatore univoco generato dal sistema per il record dell'istruzione della richiesta di selezione. |
 | **ID richiesta di selezione**<br>mshr_recruitingrequestid<br>*String* | Scrivi una volta<br>Richiesto | L'identificatore univoco leggibile dall'utente della richiesta di selezione correlata. |

@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a55da9683c43ac75109fd256e481b02a4d565914
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3328fad5328ae1954a6749f9a5eebcb71c723698
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970080"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477950"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Impostare pagine personalizzate per l'accesso degli utenti
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come creare pagine personalizzate in Microsoft Dynamics 365 Commerce che consentono di gestire accessi personalizzati per gli utenti di tenant business-to-consumer (B2C) di Azure Active Directory (Azure AD).
-
-## <a name="overview"></a>Panoramica
 
 Per utilizzare pagine personalizzate create in Dynamics 365 Commerce per gestire flussi di accesso utente, è necessario configurare i criteri di Azure AD a cui si farà riferimento nell'ambiente di Commerce. È possibile configurare i criteri B2C di Azure AD "Iscrizione e accesso", "Modifica del profilo" e "Reimpostazione password" utilizzando l'applicazione B2C Azure AD. È quindi possibile fare riferimento ai nomi di criteri e al tenant B2C di Azure AD B durante il provisioning effettuato per l'ambiente di Commerce utilizzando Microsoft Dynamics Lifecycle Services.
 

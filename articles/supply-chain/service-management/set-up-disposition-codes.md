@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977540"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470693"
 ---
 # <a name="set-up-disposition-codes"></a>Imposta i codici smaltimento 
 
@@ -33,15 +33,15 @@ ms.locfileid: "4977540"
 
 È inoltre possibile impostare un codice motivo che consente di spiegare perché un articolo è stato restituito. Per ulteriori informazioni sull'impostazione di codici motivo, vedere [Impostare codici motivo reso](set-up-return-reason-code.md).
 
-1.  Fare clic su **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Codici smaltimento**.
+1.  Selezionare **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Codici smaltimento**.
 
-2.  Fare clic su **Nuovo** oppure premere CTRL+N per creare un nuovo codice smaltimento.
+2.  Selezionare **Nuovo** per creare un nuovo codice smaltimento.
 
 3.  Immettere un nome descrittivo univoco, selezionare un'azione e immettere una descrizione per il codice smaltimento.
 
-4.  Se si desidera associare eventuali spese cliente al codice smaltimento, fare clic sul pulsante **Spese varie** per aprire il modulo **Imposta spese varie**.
+4.  Se si desidera associare eventuali spese cliente al codice smaltimento, selezionare il pulsante **Spese varie** per aprire il modulo **Imposta spese varie**.
 
-5.  Se si desidera definire codici esterni da abbinare ai codici smaltimento della società, fare clic sul pulsante **Codici esterni** per aprire il modulo **Codici esterni**.
+5.  Se si desidera definire codici esterni da abbinare ai codici smaltimento della società, selezionare il pulsante **Codici esterni** per aprire il modulo **Codici esterni**.
 
 ## <a name="see-also"></a>Vedere anche
 

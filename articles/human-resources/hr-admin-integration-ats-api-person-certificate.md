@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fa4582dc00341a647f1ea43ed16d9dce8bfcf688
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 4587337d8fd52828309826f3301b6f053b267819
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125355"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466522"
 ---
 # <a name="person-certificate"></a>Certificato della persona
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Certificato della persona per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmpersoncertificateentity
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità descrive i certificati professionali di un candidato.
 
@@ -51,7 +53,7 @@ Questa entità descrive i certificati professionali di un candidato.
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità certificato persona**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | Sola lettura<br>Richiesto | Identificatore univoco generato dal sistema per il record dell'entità del certificato della persona. |
 | **Numero parte**<br>mshr_partynumber<br>*String* | Lettura/scrittura<br>Richiesto | L'ID della parte (persona) associata al candidato. |

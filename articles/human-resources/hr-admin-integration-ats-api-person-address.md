@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9911362ff8260860864cfe24f0b60f59adb77186
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 0bca48c9e980f95e4dd72a075b34824331ae05dc
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125884"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466546"
 ---
 # <a name="person-address"></a>Indirizzo della persona
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Indirizzo persona per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmpersonaddressentities
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità contiene l'elenco degli indirizzi postali per i record dei candidati.
 
@@ -58,7 +60,7 @@ Questa entità contiene l'elenco degli indirizzi postali per i record dei candid
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità indirizzo persona**<br>mshr_hcmpersonaddressentityid<br>*String* | Sola lettura<br>Richiesto | Identificatore univoco generato dal sistema per il record dell'entità. |
 | **Numero parte**<br>mshr_partynumber<br>*String* | Lettura/scrittura<br>Richiesto | L'ID del record della parte associata (persona). |

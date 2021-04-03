@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 227c15acb44e020ea9858961e45c11ad07e18a74
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: d3a45d802ab6b574338a09e77d432357cb9df507
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126172"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465920"
 ---
 # <a name="screening-types"></a>Tipi di screening
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Tipi di screening per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmscreeningtypeentity
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità descrive i tipi di screening impostati dall'azienda per i processi preliminari all'impiego e di screening dei dipendenti in corso.
 
@@ -48,7 +50,7 @@ Questa entità descrive i tipi di screening impostati dall'azienda per i process
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità tipo di screening**<br>mshr_hcmscreeningtypeentityid<br>*GUID* | Sola lettura<br>Richiesto<br>Generato dal sistema | Identificatore primario univoco per il record del tipo di screening. |
 | **ID tipo di screening**<br>mshr_screeningtypeid<br>*String* | Lettura/scrittura<br>Richiesto | Identificatore univoco definito dall'utente per il tipo di screening. |

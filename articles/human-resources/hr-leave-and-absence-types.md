@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b21d4d631bcdf603b38212f5f76bb78937d3d3c
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115078"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463336"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurare tipi di congedo e assenza
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze che i dipendenti possono segnalare. È possibile adattare i tipi di congedo in base alle esigenze della propria organizzazione. Di seguito sono riportati alcuni esempi di tipi di congedo:
 
@@ -72,8 +74,7 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
    
  3. Impostare **Tipo di congedo riportabile** per il tipo di congedo. Quando si seleziona questa opzione, tutti i saldi riportabili verranno trasferiti al tipo di congedo specificato. Anche il tipo di congedo riportabile deve essere incluso nel piano di congedo e assenza. 
  
- 4. Definire **Regole di scadenza** per il tipo di congedo. Quando si configura questa opzione, è possibile scegliere l'unità di giorni o mesi e impostare la durata per la scadenza. È inoltre possibile impostare la data di validità della regola di scadenza. Eventuali saldi di congedi esistenti al momento della scadenza verranno sottratti dal tipo di congedo e si rifletteranno nel saldo di congedi. 
- 
+ 4. Definire **Regole di scadenza** per il tipo di congedo. Quando si configura questa opzione, è possibile scegliere l'unità di giorni o mesi e impostare la durata per la scadenza. È inoltre possibile impostare la data di validità della regola di scadenza. La data di validità viene utilizzata per determinare quando avviare l'esecuzione del processo batch che elabora la scadenza del congedo o la data alla quale la regola diventa effettiva. La scadenza stessa avverrà sempre alla data di inizio del piano di congedo una volta che il processo batch è impostato per l'elaborazione. Ad esempio, la data di inizio del piano può essere 1/1/2020, ma la regola non è stata creata fino al 6/1/2020. Impostando la data di validità su 6/1/2020, la regola verrà elaborata al limite dell'anno successivo, quindi 1/1/2021. Eventuali saldi di congedi esistenti al momento della scadenza verranno sottratti dal tipo di congedo e si rifletteranno nel saldo di congedi. 
  
 ## <a name="see-also"></a>Vedere anche
 

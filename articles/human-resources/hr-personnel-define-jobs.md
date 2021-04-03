@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d7a469b7f09c6cf3a051991698a00317dc125d2
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 56f7d2129724d8f75ac6dcfc0d1442f757de8957
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130267"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467749"
 ---
 # <a name="define-new-jobs"></a>Definire nuovi processi
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -40,7 +42,7 @@ L'attività si basa sulla creazione di una nuova posizione lavorativa. Verrà co
 8. Nel campo Numero massimo di posizioni selezionare "Posizioni max"
 9. Immettere il numero massimo di posizioni. 
     * Le assegnazioni di posizioni non verranno consentite sopra al valore massimo immesso in questo campo.  
-10. Attiva/disattiva l'espansione della sezione Descrizione.
+10. Attiva/disattiva l'espansione della sezione descrizione.
 11. Nel campo Nota immettere "Immettere una descrizione standard per la posizione lavorativa.
     * La descrizione viene applicata a tutte le posizioni assegnate alla mansione definita in questo campo.  
 12. Attiva/disattiva l'espansione della sezione Classificazione mansione.

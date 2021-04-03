@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 69ea23e4051a6975a5892cd027777c5a88472509
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 25699d643b3e74fe7118884457ab17314d1f9132
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113141"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466304"
 ---
 # <a name="process-enrollment-eligibility"></a>Elaborare l'idoneità di iscrizione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
 
@@ -60,7 +62,7 @@ In questo articolo viene descritto come visualizzare i risultati del processo di
 
 2.  Nel modulo **Risultati processo** sono specificati i seguenti campi:
 
-   | Campo | descrizione |
+   | Campo | Descrizione |
    | --- | --- |
    | **ID processo** | L'ID univoco per la combinazione di lavoratore, persona giuridica ed esecuzione del processo. |
    | **Tipo di processo** | Identifica il processo che è stato eseguito. Ad esempio: Iscrizione. |
