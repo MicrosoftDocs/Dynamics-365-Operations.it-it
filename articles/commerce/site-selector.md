@@ -1,6 +1,6 @@
 ---
 title: Modulo di selezione sito
-description: In questo argomento viene descritto il modulo selettore sito e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
+description: In questo argomento viene descritto il modulo di selezione sito e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ed00836c435bd391e5edef1f6a99889c80f45211
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e24590d4a8f172809704aab0d761f6db0fb0e11b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985588"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234343"
 ---
 # <a name="site-selector-module"></a>Modulo di selezione sito
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto il modulo selettore sito e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
+In questo argomento viene descritto il modulo di selezione sito e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
 Quando un'azienda ha siti diversi in mercati, regioni e impostazioni locali, gli utenti del sito hanno bisogno di un modo semplice per passare da un sito all'altro e selezionare il loro sito di acquisto preferito. Per soddisfare questo scenario, il modulo di selezione sito consente agli utenti di spostarsi su più siti.
 
@@ -45,7 +43,7 @@ La figura seguente mostra un esempio di un modulo di selezione sito presente nel
 
 ## <a name="site-selector-module-properties"></a>Proprietà del modulo di selezione sito
 
-| Nome proprietà | Valore                 | descrizione |
+| Nome proprietà | Valore                 | Descrizione |
 |---------------|-----------------------|-------------|
 | Intestazione       | Testo                  | L'intestazione del modulo. |
 | Opzioni sito  | Nome, immagine, URL      | Questa proprietà specifica un nome, un collegamento alla home page del sito e un'immagine facoltativa da mostrare per ogni sito incluso nel modulo. L'immagine può essere un flag o una rappresentazione di un mercato, una regione o un'impostazione locale. |

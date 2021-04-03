@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 7e8244a06c515029b559b2061d9a25c7355e9e14
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 07fbf8d4115561808b7c61489b343e1c72dd1b6d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097054"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243795"
 ---
-# <a name="quick-view-module"></a>Modulo visualizzazione rapida
+# <a name="quick-view-module"></a>Modulo di visualizzazione rapida
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -45,7 +45,7 @@ L'immagine seguente mostra un esempio di modulo di visualizzazione rapida in una
 
 Il modulo di visualizzazione rapida supporta alcune delle stesse funzioni del modulo Buy box. Pertanto, le proprietà di un modulo di visualizzazione rapida assomigliano alle proprietà di un modulo buy box.
 
-| Proprietà | Valori | descrizione |
+| Proprietà | Valori | Descrizione |
 |----------------|--------|-------------|
 | Tag intestazione | **H1**, **H2**, **H3**, **H4**, **H5** o **H6** | Questa proprietà definisce il tag di intestazione per il titolo del prodotto. Se il modulo visualizzazione rapida si trova nella parte superiore della pagina, questa proprietà deve essere impostata su **H1** per soddisfare gli standard di accessibilità. |
 | Consenti prezzo personalizzato | **True** o **False** | Se questa proprietà è impostata su **True**, l'utente può inserire un prezzo personalizzato. |

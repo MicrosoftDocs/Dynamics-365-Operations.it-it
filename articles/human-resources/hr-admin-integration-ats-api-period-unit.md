@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cdd9268e049bd4720cfa71e2762282c190f3d3c7
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: a4f99a5e97ad30949c020f9f14c158dc2f679bc2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125307"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466715"
 ---
 # <a name="period-unit"></a>Unità del periodo
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'opzione Unità periodo impostata per Dynamics 365 Human Resources.
 
@@ -31,7 +33,7 @@ Nome fisico: mshr_periodunit
 
 Questa enumerazione fornisce il set di opzioni di valori per le unità di misura per periodi di tempo.
 
-| Valore | Etichetta | descrizione |
+| Valore | Etichetta | Descrizione |
 | --- | --- | --- |
 | 200000000 | Giorni | Giorno. |
 | 200000001 | Mesi | Mese. |

@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: cd46a1c745379233e6b4168cf68c8dc6a9247c10
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 777c4e73c626e2b68e92594d08477248f297f1a5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962608"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244516"
 ---
 # <a name="bills-of-exchange-protest-import"></a>Importazione di protesti effetti attivi 
 

@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 054547c4f33e50d2dc0fa275559ba6ed44c27971
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: ebb74f51c6a00d5667593630822c1ef6bcb92138
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125403"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466474"
 ---
 # <a name="person-identification-number"></a>Numero di identificazione persona
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Numero di identificazione persona per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmpersonidentificationnumberentity
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità descrive i numeri di identificazione per il candidato. Consente al consumatore API di scrivere numeri di identificazione, come numeri di previdenza sociale o numeri di passaporto, nel record del candidato. I numeri di identificazione sono riportati sul record del lavoratore, ma non sul record del candidato. Un'applicazione di integrazione può scrivere i valori nel database di Human Resources, ma i numeri non saranno visibili in Human Resources finché non viene creato il record del lavoratore del candidato.
 
@@ -56,7 +58,7 @@ Questa entità descrive i numeri di identificazione per il candidato. Consente a
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità numero di identificazione persona**<br>mshr_hcmpersonidentificationnumberentityid<br>*GUID* | Sola lettura<br>Richiesto<br>Generato dal sistema | Identificatore primario univoco per il record del numero di identificazione della persona. |
 | **Tipo di voce**<br>mshr_entrytype<br>*String* | Lettura/scrittura<br>Facoltativo | Valore libero per fare riferimento al tipo di voce per il numero di identificazione. |

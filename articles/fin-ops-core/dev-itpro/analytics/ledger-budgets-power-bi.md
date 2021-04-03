@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: f3e2f62b666559ba9a356e4948c2033da9cc95d5
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093850"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568575"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Contenuto Power BI Effettivi rispetto al budget
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive il contenuto Power BI **Effettivi rispetto al budget**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+Questo argomento descrive il contenuto **Effettivo rispetto al budget** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 

@@ -18,19 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142277"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486979"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app di magazzino
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> In questo argomento viene descritto come e configurare la vecchia app di magazzino. Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino (attualmente in anteprima pubblica), consulta [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
+> In questo argomento viene descritto come e configurare la vecchia app di magazzino. Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino, vedere [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > In questo argomento viene descritto come configurare l'app di magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare l'app di magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
@@ -133,7 +133,7 @@ Per semplificare la gestione e la distribuzione dell'applicazione su molti dispo
 
 Puoi importare le impostazioni di connessione da un file o da un codice QR. Per entrambi gli approcci, devi innanzitutto creare un file di impostazioni che utilizza il formato e la sintassi JavaScript Object Notation (JSON). Il file deve includere un elenco di connessioni che contiene le singole connessioni che devono essere aggiunte. La tabella seguente riepiloga i parametri che è necessario specificare nel file delle impostazioni di connessione.
 
-| Parametro | descrizione |
+| Parametro | Descrizione |
 | --- | --- |
 | ConnectionName | Specificare il nome dell'impostazione della connessione. La lunghezza massima consentita è di 20 caratteri. Poiché questo valore è l'identificatore univoco per un'impostazione di connessione, assicurati che sia univoco nell'elenco. Se sul dispositivo esiste già una connessione con lo stesso nome, verrà sovrascritta dalle impostazioni del file importato. |
 | ActiveDirectoryClientAppId | Specifica l'ID client di cui hai preso nota durante la configurazione di Azure AD nella sezione [Creare un'applicazione del servizio Web in Azure Active Directory](#create-service). |

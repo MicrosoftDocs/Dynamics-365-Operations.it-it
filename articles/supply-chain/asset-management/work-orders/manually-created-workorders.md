@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b704699c5e04f38c3b79691f935287f8f9c24fba
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017870"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263712"
 ---
 # <a name="manually-created-work-orders"></a>Ordini di lavoro creati manualmente
 
@@ -42,7 +42,7 @@ ms.locfileid: "5017870"
 
 3. Nella finestra di dialogo **Crea ordine di lavoro**, selezionare un tipo di ordine di lavoro nel campo **Tipo di ordine di lavoro**.
 
-4. Se necessario, selezionare una **descrizione**.
+4. Se necessario, selezionare una **Descrizione**.
 
 5. Selezionare il cespite nel campo **Cespite**.
 

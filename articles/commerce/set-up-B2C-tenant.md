@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 68e72bc17005c11f28f572114357f906098cc045
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4ee667bb49e70e0c881a2db1248b3f0c7fc017ce
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993346"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478142"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come configurare il tenant Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione del sito dell'utente in Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Dynamics 365 Commerce utilizza Azure AD B2C per supportare le credenziali dell'utente e i flussi di autenticazione. Un utente può registrarsi, accedere e reimpostare la propria password attraverso questi flussi. Azure AD B2C memorizza le informazioni di autenticazione sensibili di un utente, ad esempio il nome utente e la password. Il record utente nel tenant B2C memorizza un record dell'account locale B2C o un record del provider di identità social B2C. Questi record B2C rimandano al record del cliente nell'ambiente Commerce.
 

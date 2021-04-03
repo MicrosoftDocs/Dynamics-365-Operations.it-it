@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 1290cf971e7702affa325640a2b28ac64d74744e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093388"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563002"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Analisi della contabilità industriale contenuto Power BI
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto di Power BI **Analisi della contabilità industriale**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto **Analisi della contabilità industriale** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -75,7 +74,7 @@ I seguenti dati vengono utilizzati per compilare le pagine di report nel contenu
 
 Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
 
-| Entità                  | Misura di aggregazione chiave | Origine dati per Dynamics 365      | Campo     | descrizione                                        |
+| Entità                  | Misura di aggregazione chiave | Origine dati per Dynamics 365      | Campo     | Descrizione                                        |
 |-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
 | Voci contabilità industriale | SUM(Importo)               | CAMDATAAggregatedCostEntry        | Importo    | Importo nella valuta di contabilità industriale. |
 | Voci statistiche     | SUM(Grandezza)            | CAMDATAAggregatedStatisctialEntry | Grandezza |                                                    |

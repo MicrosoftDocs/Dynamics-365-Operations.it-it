@@ -3,7 +3,7 @@ title: Plafond fiscale
 description: Questo argomento spiega come impostare e lavorare con il plafond fiscale, un processo di esenzione fiscale.
 author: ilkond
 manager: AnnBe
-ms.date: 04/20/2020
+ms.date: 02/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: accbb60094f433ba1cfb89230e75a83c35e09b4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: edf0574fa6171ad3e45e202c81b3780e45030cfa
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978242"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557468"
 ---
 # <a name="tax-plafond"></a>Plafond fiscale
 
@@ -38,8 +38,9 @@ Questo argomento descrive come completare queste attività:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
 - Nell'area di lavoro **Gestione funzionalità**, abilita la funzionalità **Plafond fiscale**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- È previsto un periodo di liquidazione IVA (**Imposta** > **Imposte indirette** > **IVA** > **Periodi liquidazione IVA**) per il periodo in cui si prevede di creare un plafond fiscale e lettere di intenti e di registrare documenti fiscali con riferimento alle lettere di intenti.
 
-## <a name="set-up-parameters"></a>Impostare i parametri
+## <a name="set-up-parameters"></a>Imposta parametri
 
 ### <a name="set-up-accounts-payable-parameters"></a>Impostazione dei parametri di Contabilità fornitori
 
@@ -74,6 +75,8 @@ Questo argomento descrive come completare queste attività:
 
 ## <a name="create-tax-plafond"></a>Crea plafond fiscale
 
+Prima di iniziare a creare un nuovo plafond fiscale, verificare che sia presente un periodo di liquidazione IVA per il periodo in cui si prevede di creare un plafond fiscale e lettere di intenti e di registrare documenti fiscali con riferimento alle lettere di intenti.
+
 Per registrare un nuovo plafond fiscale, attieniti alla seguente procedura.
 
 1. Vai a **Imposta** \> **Imposte indirette** \> **IVA** \> **Plafond fiscale**.
@@ -81,10 +84,10 @@ Per registrare un nuovo plafond fiscale, attieniti alla seguente procedura.
 
    Nella seguente tabella vengono descritti i vari campi.
 
-    | Nome campo                             | descrizione |
+    | Nome campo                             | Descrizione |
     |----------------------------------------|-------------|
     | Numero plafond                         | Il numero del plafond fiscale. Questo valore viene inserito automaticamente in base alla sequenza numerica specificata per il riferimento **Numero plafond** nella pagina **Parametri contabilità fornitori**. |
-    | descrizione                            | Immetti una descrizione del plafond fiscale. |
+    | Descrizione                            | Immetti una descrizione del plafond fiscale. |
     | Dal                              | La data di inizio del periodo durante il quale è effettivo il plafond fiscale. |
     | Al                                | La data di fine del periodo durante il quale è effettivo il plafond fiscale. |
     | Data di chiusura                            | La data calcolata in cui il plafond fiscale è chiuso. |
@@ -96,14 +99,16 @@ Per registrare un nuovo plafond fiscale, attieniti alla seguente procedura.
 
 Per rivedere le transazioni fiscali registrate per un plafond fiscale esistente, nella pagina **Plafond fiscale**, nel riquadro azioni, seleziona **Transazioni plafond**.
 
-## <a name="create-intent-letters"></a>Crea una lettera di intenti
+## <a name="create-intent-letters"></a>Crea lettere d'intento
+
+Prima di iniziare a creare una nuova lettera di intenti, verificare che sia presente un periodo di liquidazione IVA per il periodo in cui si prevede di creare un plafond fiscale e lettere di intenti e di registrare documenti fiscali con riferimento alle lettere di intenti.
 
 Per creare una nuova lettera di intenti per un fornitore, effettua le seguenti operazioni.
 
 1. Vai a **Contabilità fornitori** \> **Lettere di intenti** \> **Lettere di intenti**.
 2. Nel riquadro azioni, seleziona **Nuovo** e inserisci le seguenti informazioni relative alla lettera di intenti.
 
-    | Nome campo   | descrizione                                                                      |
+    | Nome campo   | Descrizione                                                                      |
     |--------------|----------------------------------------------------------------------------------|
     | Data di registrazione | Specifica la data di registrazione della lettera di intenti.                                  |
     | Tipo lettera  | Seleziona il tipo di lettera di intenti: **Quantità** oppure **Operazione specifica**.          |
@@ -113,7 +118,7 @@ Per creare una nuova lettera di intenti per un fornitore, effettua le seguenti o
 
 3. Nella Scheda dettaglio **Record da includere**, seleziona **Filtro** per selezionare i fornitori per i quali devono essere create le lettere di intenti.
 4. Seleziona **OK** per finalizzare la selezione.
-5. Nella pagina successiva, seleziona **Aggiorna gli ordini di acquisto esistenti**, applica nuove lettere di intenti agli ordini di acquisto esistenti che non sono stati ancora fatturati per i fornitori selezionati.
+5. Nella pagina successiva, seleziona **Aggiorna gli ordini fornitore esistenti**, applica nuove lettere di intenti agli ordini fornitore esistenti che non sono stati ancora fatturati per i fornitori selezionati.
 6. Seleziona **Conferma nuovamente ordini fornitore** per riconfermare gli ordini fornitore a cui vengono applicate le lettere di intenti, nel caso fossero confermate.
 7. Seleziona **Escludi ordini fornitore consegnati o parzialmente consegnati** per escludere gli ordini fornitore che sono stati consegnati in tutto o in parte dall'elenco degli ordini fornitore che verranno aggiornati con lettere di intenti.
 8. Seleziona **OK** per creare lettere di intenti basate su parametri specificati.
@@ -125,7 +130,7 @@ Per creare una nuova lettera di intenti per un fornitore, effettua le seguenti o
 
     Nella seguente tabella vengono descritti i vari campi.
 
-    | Nome campo    | descrizione |
+    | Nome campo    | Descrizione |
     |---------------|-------------|
     | ID modello      | L'identificatore del modello telematico in cui è stata inclusa la lettera di intenti. Questo valore viene inserito automaticamente in base alla sequenza numerica specificata per il riferimento **ID modello telematico lettera di intenti** nella pagina **Parametri di contabilità generale**. |
     | Tipo di acquisto | Seleziona il tipo di acquisto: **Acquisti** o **Importo**. |

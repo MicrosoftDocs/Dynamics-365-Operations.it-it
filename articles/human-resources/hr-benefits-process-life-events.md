@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42b7e2606bca4bb5eda1c9bfc7940f9067c4b943
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: cfb0fc54e3904655cea0c795a46c540bd2a529a2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113077"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466256"
 ---
 # <a name="process-life-events"></a>Elaborare eventi reali
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Durante il ciclo di vita dei dipendenti in Microsoft Dynamics 365 Human Resources, per ogni dipendente possono verificarsi varie modifiche agli eventi reali. Ad esempio, un matrimonio, un cambio di lavoro o un modifica relativa a una persona a carico/beneficiario. Per utilizzare gli eventi reali, è necessario abilitarli nel modulo dei parametri dei benefit, impostare i tipi di eventi reali nonché le opzioni degli eventi reali per i tipi di piano.
 

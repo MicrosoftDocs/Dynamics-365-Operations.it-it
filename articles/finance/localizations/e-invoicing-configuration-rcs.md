@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104401"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592624"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Configurare il componente aggiuntivo per la fatturazione elettronica in Regulatory Configuration Services (RCS)
 
@@ -46,9 +46,9 @@ Per ulteriori informazioni, vedi [Panoramica dello strumento di creazione di rep
 
 Le funzioni di fatturazione elettronica sono responsabili della generazione di fatture elettroniche tramite il componente aggiuntivo Fatturazione elettronica. Incapsulano le regole di configurazione e le usano per elaborare i dati che Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management inviano al componente aggiuntivo Fatturazione elettronica e alle fatture elettroniche.
 
-Le funzionalità supportano anche scenari in cui è richiesta la conformità con le specifiche del formato di file e l'output è un file elettronico autonomo. Nella maggior parte dei casi, le specifiche del formato di file sono pubblicate dall'autorità fiscale.
+Le funzionalità supportano anche scenari in cui è richiesta la conformità con le specifiche del formato di file e l'output è un file elettronico autonomo. Nella maggior parte dei casi, le specifiche del formato di file sono pubblicate dall'ufficio tributario.
 
-Infine, le funzionalità supportano lo scambio di messaggi con servizi web esterni ospitati dall'autorità fiscale o da parte accreditata e le richieste di autorizzazione o un timbro di approvazione nella fattura elettronica.
+Infine, le funzionalità supportano lo scambio di messaggi con servizi web esterni ospitati dall'ufficio tributario o da parte accreditata e le richieste di autorizzazione o un timbro di approvazione nella fattura elettronica.
 
 ### <a name="availability-of-electronic-invoicing-features"></a>Disponibilità di funzionalità di fatturazione elettronica
 
@@ -64,7 +64,6 @@ La tabella seguente mostra le funzionalità di fatturazione elettronica attualme
 | Belgio        | Fattura elettronica belga (BE)      | Fatture di vendita e fatture di progetto |
 | Brasile         | NF-e brasiliano (BR)                  | Documento fiscale modello 55, lettere di correzione, annullamenti e rifiuti |
 | Brasile         | Brasiliano NFS-e ABRASF Curitiba (BR) | Documenti fiscali di servizio |
-| Brasile         | Brasiliano NFS-e San Paolo (BR)       | Documenti fiscali di servizio |
 | Danimarca        | Fattura elettronica danese (DK)       | Fatture di vendita e fatture di progetto |
 | Egitto          | Fattura elettronica egiziana (EG) | Fatture di vendita e fatture di progetto |
 | Estonia        | Fattura elettronica estone (EE)     | Fatture di vendita e fatture di progetto |
@@ -119,10 +118,6 @@ Gli elenchi seguenti mostrano le configurazioni del formato ER disponibili per l
 
 - NFS-e ABRASF Curitiba (BR)
 - NFS-e ABRASF Inquire Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>Brasiliano (BR) NFS-e: NFS-e São Paulo city
-
-- NFS-e San Paolo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Fattura elettronica danese (DK): fatture di vendita e di progetto per la Danimarca
 
@@ -201,12 +196,12 @@ Gli elenchi seguenti mostrano le configurazioni del formato ER disponibili per l
 
 La tabella seguente elenca le azioni disponibili e se sono attualmente generalmente disponibili o ancora in anteprima.
 
-| Azione                                        | descrizione                                                                  | Disponibilità         |
+| Azione                                        | Descrizione                                                                  | Disponibilità         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Trasforma documento                            | Esegui il formato di Creazione di report elettronici per trasformare il documento.                   | Generalmente disponibile  |
 | Firma documento xml                             | Firma documenti xml con firma digitale.                                   | In anteprima           |
-| Firma documento JSON per l'autorità fiscale egiziana | Firma documenti JSON con firma digitale per l'autorità fiscale egiziana.       | Generalmente disponibile  |
-| Integrazione con il servizio ETA egiziano           | Comunicazioni con l'autorità fiscale egiziana.                                     | Generalmente disponibile  |
+| Firma documento JSON per ufficio tributario egiziano | Firma documenti JSON con firma digitale per l'ufficio tributario egiziano.       | Generalmente disponibile  |
+| Integrazione con il servizio ETA egiziano           | Comunicazioni con l'ufficio tributario egiziano.                                     | Generalmente disponibile  |
 | Chiama servizio SEFAZ brasiliano                  | Integrazione con il servizio SEFAZ brasiliano per l'invio di documenti fiscali.       | In anteprima           |
 | Chiama servizio PAC messicano                      | Integrazione con il servizio PAC messicano per l'invio CFDI.                      | In anteprima           |
 | Elabora risposta                              | Analizza la risposta ricevuta dalla chiamata al servizio Web.                     | Generalmente disponibile  |
