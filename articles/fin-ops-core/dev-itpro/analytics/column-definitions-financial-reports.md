@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 3fb41234d255ff9b5ad3756156eeadca2c94546b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093111"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559847"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
@@ -316,7 +315,7 @@ La cella **Controllo stampa** può contenere i codici che regolano la visualizza
 
 #### <a name="conditional-print-control-codes"></a>Codici di controllo di stampa condizionali
 
-| Codice di controllo di stampa condizionale | descrizione                                                                             |
+| Codice di controllo di stampa condizionale | Descrizione                                                                             |
 |--------------------------------|-----------------------------------------------------------------------------------------|
 | (nessuno)                         | Cancella la selezione di stampa condizionale.                                                  |
 | P&lt;B                         | Visualizza una colonna specificata solo se il periodo è inferiore al periodo base.             |
@@ -422,7 +421,7 @@ La cella **Anno fiscale** identifica l'anno fiscale che la colonna deve includer
 
 La cella **Periodo** identifica i periodi fiscali che la colonna deve includere. Il periodo può essere in relazione al periodo base specificato quando il report viene generato. Sono disponibili le seguenti opzioni.
 
-| Opzione          | descrizione |
+| Opzione          | Descrizione |
 |-----------------|-------------|
 | BASE            | Utilizza il periodo base. |
 | BASE+\#         | Utilizza il periodo che viene \# periodi dopo il periodo di base. Ad esempio, per utilizzare il terzo periodo dopo il periodo di base, immettere **BASE+3**. |
@@ -558,7 +557,7 @@ Una colonna di tipo **CALC** in una definizione di colonna supporta i calcoli co
 
 Per aggiungere, sottrarre, moltiplicare, o dividere le colonne, immettere le lettere di colonna in ordine del calcolo quindi utilizzare operatore appropriato per separare ogni lettera di colonna. Nella seguente tabella viene illustrato gli operatori da utilizzare in una colonna di calcolo.
 
-| Operatore | Esempio di calcolo | descrizione |
+| Operatore | Esempio di calcolo | Descrizione |
 |----------|---------------------|-------------|
 | +        | A+C                 | Aggiunge l'importo di colonna A all'importo in colonna C. |
 | :        | A:C A:C-D           | Somma un intervallo di colonne consecutive. Ad esempio, la formula **A:C** aggiunge le somme delle colonne da A a C e la formula **A:C-D** aggiunge le somme delle colonne da A a C e quindi sottrae l'importo in colonna D. |

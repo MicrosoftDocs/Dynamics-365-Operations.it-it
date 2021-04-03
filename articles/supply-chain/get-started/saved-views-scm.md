@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123470"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500696"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Visualizzazioni salvate standard per Supply Chain Management
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management include diverse visualizzazioni salvate che è possibile abilitare e utilizzare secondo necessità. Alcune di queste visualizzazioni salvate standard sono ottimizzate e denominate per un ruolo o un'attività specifica (ad esempio, "Controllo qualità" o "Ricezione"). Altre sono ottimizzate in modo da includere solo i campi e le impostazioni che le statistiche sull'utilizzo di Microsoft indicano essere più spesso utilizzate dai clienti. Queste visualizzazioni salvate sono generalmente indicate come visualizzazioni *semplificate*. Questo argomento descrive le visualizzazioni salvate standard disponibili e spiega come abilitarle e personalizzarle.
 

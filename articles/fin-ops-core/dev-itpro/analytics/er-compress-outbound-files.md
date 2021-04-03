@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a8f55b33624b057a6abf9af5084209ac6a0c778
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680856"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562336"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Comprimere documenti di grandi dimensioni generati nei rapporti elettronici 
 
 [!include [banner](../includes/banner.md)]
 
-Puoi usare il [framework dei reporting elettronici (ER) ](general-electronic-reporting.md) per configurare una soluzione che recupera i dati transazionali per generare un documento in uscita. Questo documento generato potrebbe essere abbastanza grande. Quando viene generato questo tipo di documento, viene utilizzata la memoria [Application Object Server (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) per contenerlo. Ad un certo punto, il documento deve essere scaricato dalla tua applicazione Microsoft Dynamics 365 Finance. Attualmente, la dimensione massima di un singolo documento generato in ER è limitata a 2 gigabyte (GB). Inoltre, Finance attualmente [limita](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) la dimensione di un file scaricato a 1 GB. Pertanto, è necessario configurare una soluzione ER che riduca la probabilità che queste limitazioni vengano superate e che si riceva un'eccezione di tipo **Flusso troppo lungo** o **Overflow o underflow durante un'operazione aritmetica**.
+Puoi usare il [framework dei reporting elettronici (ER) ](general-electronic-reporting.md) per configurare una soluzione che recupera i dati transazionali per generare un documento in uscita. Questo documento generato potrebbe essere abbastanza grande. Quando viene generato questo tipo di documento, viene utilizzata la memoria [Application Object Server (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) per contenerlo. Ad un certo punto, il documento deve essere scaricato dalla tua applicazione Microsoft Dynamics 365 Finance. Attualmente, la dimensione massima di un singolo documento generato in ER è limitata a 2 gigabyte (GB). Inoltre, Finance attualmente [limita](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) la dimensione di un file scaricato a 1 GB. Pertanto, è necessario configurare una soluzione ER che riduca la probabilità che queste limitazioni vengano superate e che si riceva un'eccezione di tipo **Flusso troppo lungo** o **Overflow o underflow durante un'operazione aritmetica**.
 
 Quando si configura una soluzione, è possibile modificare il formato ER nella finestra di progettazione operazioni aggiungendo un elemento radice del tipo **Cartella** per comprimere il contenuto generato da uno qualsiasi dei suoi elementi nidificati. La compressione funziona "just in time", in modo da ridurre l'utilizzo massimo della memoria e la dimensione del file che verrà scaricato.
 

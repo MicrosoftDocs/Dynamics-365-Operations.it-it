@@ -3,7 +3,7 @@ title: Crea modelli e-mail per eventi transazionali
 description: Questo argomento descrive come creare, caricare e configurare modelli e-mail per eventi transazionali in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000787"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555247"
 ---
-# <a name="create-email-templates-for-transactional-events"></a>Crea modelli e-mail per eventi transazionali
+# <a name="create-email-templates-for-transactional-events"></a>Creare modelli e-mail per eventi transazionali
 
 [!include [banner](includes/banner.md)]
 
@@ -39,7 +39,7 @@ Prima di poter mappare un evento transazionale specifico a un modello e-mail, de
 
 Per creare un modello e-mail attenersi alla procedura seguente.
 
-1. In Commerce headquarters, vai a **Modelli di posta elettronica a livello di organizzazione**, che è sotto **Retail e Commerce \> Impostazione sedi centrali \> Modelli di posta elettronica a livello di organizzazione** o **Amministrazione organizzazione \> Impostazione \> Modelli di posta elettronica a livello di organizzazione**.
+1. In Commerce Headquarters, selezionare **Retail e Commerce \> Impostazione sedi centrali \> Modelli di posta elettronica a livello di organizzazione** o **Amministrazione organizzazione \> Impostazione \> Modelli di posta elettronica a livello di organizzazione**.
 1. Selezionare **Nuovo**.
 1. In **Generale**, imposta i seguenti campi:
 
@@ -78,28 +78,29 @@ Ecco un esempio.
 
 I seguenti segnaposto recuperano e mostrano i dati definiti a livello di ordine cliente (anziché a livello di linea di vendita).
 
-| Nome segnaposto    | Valore segnaposto                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | Il nome del cliente che ha emesso l'ordine.                   |
-| salesid             | L'ID delle vendite dell'ordine.                                       |
-| deliveryaddress     | L'indirizzo di consegna per gli ordini spediti.                         |
-| customeraddress     | L'indirizzo del cliente.                                     |
-| deliverydate        | La data di consegna.                                               |
-| shipdate            | La data di spedizione.                                                   |
-| modeofdelivery      | La modalità di consegna dell'ordine.                                  |
-| spese             | Le spese totali per l'ordine.                                 |
-| imposta                 | L'imposta totale per l'ordine.                                     |
-| totale               | L'importo totale per l'ordine.                                  |
-| ordernetamount      | L'importo totale per l'ordine, meno l'imposta totale.             |
-| sconto            | Lo sconto totale per l'ordine.                                |
-| storename           | Il nome del negozio dove è stato effettuato l'ordine.                |
-| storeaddress        | L'indirizzo del negozio dove è stato effettuato l'ordine.                  |
-| storeopenfrom       | L'orario di apertura del negozio dove è stato effettuato l'ordine.             |
-| storeopento         | L'orario di chiusura del negozio dove è stato effettuato l'ordine.             |
-| pickupstorename     | Il nome del negozio in cui verrà ritirato l'ordine.         |
-| pickupstoreaddress  | L'indirizzo del negozio in cui verrà ritirato l'ordine.      |
-| pickupopenstorefrom | L'orario di apertura del negozio in cui verrà ritirato l'ordine. |
-| pickupopenstoreto   | L'orario di chiusura del negozio in cui verrà ritirato l'ordine. |
+| Nome segnaposto     | Valore segnaposto                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | Il nome del cliente che ha emesso l'ordine.               |
+| salesid              | L'ID delle vendite dell'ordine.                                   |
+| deliveryaddress      | L'indirizzo di consegna per gli ordini spediti.                     |
+| customeraddress      | L'indirizzo del cliente.                                 |
+| customeremailaddress | L'indirizzo e-mail che il cliente ha inserito al momento del pagamento.     |
+| deliverydate         | La data di consegna.                                           |
+| shipdate             | La data di spedizione.                                               |
+| modeofdelivery       | La modalità di consegna dell'ordine.                              |
+| spese              | Le spese totali per l'ordine.                             |
+| imposta                  | L'imposta totale per l'ordine.                                 |
+| totale                | L'importo totale per l'ordine.                              |
+| ordernetamount       | L'importo totale per l'ordine, meno l'imposta totale.         |
+| sconto             | Lo sconto totale per l'ordine.                            |
+| storename            | Il nome del negozio dove è stato effettuato l'ordine.            |
+| storeaddress         | L'indirizzo del negozio dove è stato effettuato l'ordine.              |
+| storeopenfrom        | L'orario di apertura del negozio dove è stato effettuato l'ordine.         |
+| storeopento          | L'orario di chiusura del negozio dove è stato effettuato l'ordine.         |
+| pickupstorename      | Il nome del negozio in cui verrà ritirato l'ordine.     |
+| pickupstoreaddress   | L'indirizzo del negozio in cui verrà ritirato l'ordine.  |
+| pickupopenstorefrom  | L'orario di apertura del negozio in cui verrà ritirato l'ordine. |
+| pickupopenstoreto    | L'orario di chiusura del negozio in cui verrà ritirato l'ordine. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Segnaposti righe ordini (livello riga cliente)
 
@@ -169,11 +170,8 @@ Ecco un esempio.
 
 Le ricevute possono essere inviate via e-mail ai clienti che effettuano acquisti presso un punto vendita al dettaglio (POS). In generale, i passaggi per la creazione del modello di ricevuta inviato tramite e-mail sono gli stessi della creazione di modelli per altri eventi transazionali. Tuttavia, sono necessarie le seguenti modifiche:
 
-- L'ID e-mail del modello e-mail deve essere **emailRecpt**.
-- Il testo della ricevuta viene inserito nell'e-mail utilizzando il segnaposto **%message%**. Per assicurarti che il corpo della ricevuta sia riprodotto correttamente, circonda il segnaposto **%message%** con tag HTML **&lt;pre&gt;** e **&lt;/pre&gt;**.
-- Le interruzioni di riga nell'HTML per l'intestazione e il piè di pagina dell'e-mail vengono convertite in tag HTML **&lt;br /&gt;** in modo che il corpo della ricevuta sia visualizzato correttamente. Per eliminare lo spazio verticale indesiderato nelle e-mail delle ricevute, rimuovi le interruzioni di riga da qualsiasi punto dell'HTML in cui non è richiesto spazio verticale.
-
-Per ulteriori informazioni su come configurare le ricevute e-mail, vedi [Impostare ricevute tramite posta elettronica](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- Il testo della ricevuta viene inserito nell'e-mail utilizzando il segnaposto **%message%**. Per assicurarsi il rendering corretto del corpo della ricevuta, circondare il segnaposto **%message%** con tag **&lt;pre&gt;** e **&lt;/pre&gt;** HTML.
+- Il segnaposto **%receiptid%** può essere utilizzato per mostrare un codice a matrice o un codice a barre che rappresenta l'ID ricevuta. (i codici a matrice e i codici a barre vengono generati dinamicamente e forniti da un servizio di terze parti). Per ulteriori informazioni su come mostrare un codice a matrice o un codice a barre in una ricevuta inviata tramite e-mail, vedere [Aggiungere un codice a matrice o un codice a barre ai messaggi di posta elettronica transazionali e di ricevuta](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>Carica l'e-mail in formato HTML
 

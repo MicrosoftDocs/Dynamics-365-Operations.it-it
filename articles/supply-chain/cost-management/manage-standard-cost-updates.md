@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024672"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500600"
 ---
 # <a name="manage-standard-cost-updates"></a>Gestire gli aggiornamenti di costo standard
 
@@ -45,6 +45,8 @@ Nell'esempio seguente viene illustrato come i metodi basati su una o due version
 Nell'esempio è stata utilizzata una versione di determinazione costi aggiuntiva per la gestione degli aggiornamenti durante l'anno 2020. È possibile utilizzare più versioni di determinazione costi aggiuntive, ad esempio una per ciascun batch di aggiornamenti. Quando si utilizza più di una determinazione costi aggiuntiva, il fallback deve essere espresso come costi attivi, poiché questi vengono distribuiti su più versioni di determinazione costi.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Dimensioni finanziarie per la rivalutazione dei costi standard
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 L'attivazione di un nuovo prezzo standard rivaluterà in genere il valore delle scorte disponibili mediante transazioni di rivalutazione dei costi standard. Di solito, le dimensioni finanziarie dell'articolo vengono quindi registrate nelle transazioni. Tuttavia, se si desidera controllare se e come vengono registrate le dimensioni finanziarie, utilizzare la [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare la funzionalità denominata *Opzioni di dimensioni finanziarie predefinite per la rivalutazione del costo standard dell'inventario*. Dopo aver abilitato questa funzionalità, vai a **Gestione costi> Impostazione criteri contabili inventario > Parametri** e imposta il nuovo elenco a discesa **Origine della dimensione finanziaria** con uno dei seguenti valori:
 

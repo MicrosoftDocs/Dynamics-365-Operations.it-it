@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6e1164166ece4df1257ef7300c1c68f4b20ec76c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685861"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564593"
 ---
 # <a name="modify-row-definition-cells"></a>Modificare le celle di definizione di riga
 
@@ -107,7 +106,7 @@ La cella **Codice formato** offre una selezione di opzioni preformattate per il 
     | (Nessuno)                        |                                   | Cancella il contenuto della cella **Codice formato**. |
     | TOT                           | Totale                             | Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I totali contengono gli operatori semplici, ad esempio **+** o **-**. |
     | CAL                           | Calcolo                       | Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I calcoli contengono gli operatori complessi, ad esempio **+**, **-**, **\**_, _*/** e **IF/THEN/ELSE**. |
-    | DES                           | descrizione                       | Identifica una riga di intestazione o una riga vuota in un report. |
+    | DES                           | Descrizione                       | Identifica una riga di intestazione o una riga vuota in un report. |
     | LFT RGT CEN                   | Centro da sinistra a destra                 | Allinea il testo di descrizione della riga nella pagina del report, indipendentemente dalla posizione del testo nella definizione di colonna. |
     | CBR                           | Riga di base di modifica                   | Identifica una riga che imposta la riga di base per i calcoli della colonna. |
     | COLUMN                        | Interruzione di colonna                      | Inizia una nuova colonna nel report. |
@@ -143,7 +142,7 @@ Quando si crea una formula di totale di riga, è necessario utilizzare codici di
 > [!NOTE]
 > Tutte le righe di totale comprese in un intervallo vengono escluse. Per creare un totale complessivo, è possibile specificare l'intervallo di righe. Se la prima riga dell'intervallo è una riga di totale, tale riga viene inclusa nel nuovo totale. Nella seguente tabella viene descritto come gli operatori vengono utilizzati nelle formule di totale di riga.
 
-| Operatore | Formula di esempio | descrizione                                                 |
+| Operatore | Formula di esempio | Descrizione                                                 |
 |----------|-----------------|-------------------------------------------------------------|
 | +        | 100+330         | Aggiunge l'importo della riga 100 all'importo della riga 330.        |
 | :        | 100:330         | Aggiunge i totali di tutte le righe comprese tra la riga 100 e la riga 330.    |

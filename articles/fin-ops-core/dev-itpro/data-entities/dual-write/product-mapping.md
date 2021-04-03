@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20203a342b2bead4eb211597f4b73bbf35477a03
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115682"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560461"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -51,7 +50,7 @@ Le mappe della tabella di doppia scrittura per i prodotti sono state progettate 
 
 Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sulla relativa definizione, come le dimensioni prodotto o le dimensioni di tracciabilità e di immagazzinamento. Come mostrato nella tabella seguente, una raccolta di mappe della tabella viene creata per sincronizzare i prodotti e le informazioni correlate.
 
-App di Finance and Operations | Altre app Dynamics 365 | descrizione
+App di Finance and Operations | Altre app Dynamics 365 | Descrizione
 -----------------------|--------------------------------|---
 Prodotti rilasciati V2 | msdyn\_sharedproductdetails | La tabella **msdyn\_sharedproductdetails** contiene le colonne delle app Finance and Operations che definiscono il prodotto e che contengono le informazioni finanziarie e di gestione del prodotto. 
 Prodotti specifici Dataverse rilasciati | Prodotto | La tabella **Prodotto** contiene le colonne che definiscono il prodotto. Include singoli prodotti (prodotti con prodotto di sottotipo) e varianti prodotto. Nella seguente tabella sono riportati i mapping.
@@ -92,9 +91,13 @@ Poiché il prodotto è rappresentato come unità di stockkeeping, i concetti di 
 
 Con la funzionalità di doppia scrittura attivata, i prodotti Finance and Operations sono sincronizzate in altri prodotti Dynamics 365 nello stato **Bozza**. Queste vengono aggiunte al primo listino prezzi con la stessa valuta. In altre parole, sono aggiunte al primo listino prezzi in un'app Dynamics 365 che corrisponde alla valuta della persona giuridica in cui il prodotto viene rilasciato in un'app Finance and Operations. Se non esiste un listino prezzi per la valuta data, verrà creato automaticamente un listino prezzi e il prodotto gli verrà assegnato. 
 
+L'attuale implementazione dei plugin a doppia scrittura che associano il listino prezzi predefinito all'unità cerca la valuta associata all'app Finance and Operations e trova il primo listino prezzi nell'app di interazione con i clienti utilizzando l'ordinamento alfabetico sul nome del listino prezzi. Per impostare un listino prezzi predefinito per una valuta specifica quando si dispone di più listini prezzi per quella valuta, è necessario aggiornare il nome del listino prezzi a un nome che appare prima nell'ordine alfabetico rispetto a qualsiasi altro listino prezzi per quella stessa valuta.
+
 Per impostazione predefinita, i prodotti delle app Finance and Operations sono sincronizzati con altre app Dynamics 365 nello stato di **Bozza**. Per sincronizzare il prodotto con stato **Attivo** di modo che sia possibile utilizzarlo direttamente, ad esempio, nelle offerte di ordine cliente, è necessario selezionare **Creare prodotti in stato attivo = Sì** in **Sistema > Amministrazione > Amministrazione sistema > Impostazioni di sistema > Vendite**. 
 
 Quando i prodotti sono sincronizzati, è necessario immettere un valore per il campo **Unità di vendita** nell'app Finance and Operations, perché è un campo obbligatorio in Sales.
+
+La creazione di famiglie di prodotti in Dynamics 365 Sales non è supportata con la sincronizzazione a doppia scrittura dei prodotti.
 
 La sincronizzazione dei prodotti avviene dall'app Finance and Operations in Dataverse. Ciò significa che i valori delle colonne tabella prodotto possono essere modificati in Dataverse, ma quando viene attivata la sincronizzazione (quando una colonna del prodotto viene modificato in un'app Finance and Operations), questo sovrascriverà i valori in Dataverse. 
 

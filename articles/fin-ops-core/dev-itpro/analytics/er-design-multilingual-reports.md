@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e765b450f626abb3dee4a70419176568eeb62d7e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679704"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562072"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Progettare report multilingue nella creazione di report elettronici
 
@@ -73,7 +72,7 @@ La seguente illustrazione mostra come la traduzione viene eseguita in un modello
 
 Quando si configura un modello di dati ER, è possibile aggiungere etichette ER. Gli attributi **Etichetta** e **Descrizione** dell'elemento del modello, del campo di ogni modello e del <a id="LinkModelEnum"></a>valore di enumerazione di ogni modello può essere collegato a un'etichetta ER che viene aggiunta al modello di dati ER.
 
-![Fornitura della traduzione per l'attributo Descrizione nella pagina della progettazione del modello di dati ER](./media/er-multilingual-labels-refer.png)
+![Fornitura della traduzione per l'attributo descrizione nella pagina della progettazione del modello di dati ER](./media/er-multilingual-labels-refer.png)
 
 Quando un modello di dati ER viene configurato in questo modo, il contenuto verrà presentato agli utenti della pagina della progettazione del modello di dati ER nella lingua preferita di ciascun utente. Pertanto, la manutenzione del modello è semplificata. Le seguenti illustrazioni mostrano come questa funzionalità funziona per gli utenti che hanno DE-AT e JA impostati come lingua preferita.
 
