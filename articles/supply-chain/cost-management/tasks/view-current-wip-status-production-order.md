@@ -16,24 +16,27 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f76a7589de13237ba822296d357df3e0300f11ad
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 21f86508da647d2527132cf96371ba996f453523
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002025"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260697"
 ---
-# <a name="view-current-wip-status-on-a-production-order"></a><span data-ttu-id="0c545-103">Visualizzare lo stato WIP corrente su un ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="0c545-103">View current WIP status on a production order</span></span>
+# <a name="view-current-wip-status-on-a-production-order"></a><span data-ttu-id="7da10-103">Visualizzare lo stato WIP corrente su un ordine di produzione</span><span class="sxs-lookup"><span data-stu-id="7da10-103">View current WIP status on a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="0c545-104">Questa procedura mostra come visualizzare un rendiconto WIP in un ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="0c545-104">This procedure shows how to view WIP statement on a production order.</span></span> <span data-ttu-id="0c545-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="0c545-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0c545-106">Questa procedura è destinata al controllore costi.</span><span class="sxs-lookup"><span data-stu-id="0c545-106">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="7da10-104">Questa procedura mostra come visualizzare un rendiconto WIP in un ordine di produzione.</span><span class="sxs-lookup"><span data-stu-id="7da10-104">This procedure shows how to view WIP statement on a production order.</span></span> <span data-ttu-id="7da10-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="7da10-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7da10-106">Questa procedura è destinata al controllore costi.</span><span class="sxs-lookup"><span data-stu-id="7da10-106">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="0c545-107">Fare clic su Amministrazione costi.</span><span class="sxs-lookup"><span data-stu-id="0c545-107">Click Cost administration.</span></span>
-2. <span data-ttu-id="0c545-108">Fare clic su Ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="0c545-108">Click Production orders.</span></span>
-3. <span data-ttu-id="0c545-109">Utilizzare il filtro rapido per filtrare il campo Produzione in base a un valore di 'p000153'.</span><span class="sxs-lookup"><span data-stu-id="0c545-109">Use the Quick Filter to filter on the Production field with a value of 'p000153'.</span></span>
-4. <span data-ttu-id="0c545-110">Nel riquadro azioni, fare clic su Gestisci costi.</span><span class="sxs-lookup"><span data-stu-id="0c545-110">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="0c545-111">Fare clic su Rendiconto WIP produzione.</span><span class="sxs-lookup"><span data-stu-id="0c545-111">Click Production WIP statement.</span></span>
-6. <span data-ttu-id="0c545-112">Nel campo Data iniziale impostare la data su '2012-12-01'.</span><span class="sxs-lookup"><span data-stu-id="0c545-112">In the From date field, set the date to '2012-12-01'.</span></span>
-7. <span data-ttu-id="0c545-113">Nel campo Data finale impostare la data su '2012-12-31'.</span><span class="sxs-lookup"><span data-stu-id="0c545-113">In the To date field, set the date to '2012-12-31'.</span></span>
+1. <span data-ttu-id="7da10-107">Fare clic su Amministrazione costi.</span><span class="sxs-lookup"><span data-stu-id="7da10-107">Click Cost administration.</span></span>
+2. <span data-ttu-id="7da10-108">Fare clic su Ordini di produzione.</span><span class="sxs-lookup"><span data-stu-id="7da10-108">Click Production orders.</span></span>
+3. <span data-ttu-id="7da10-109">Utilizzare il filtro rapido per filtrare il campo Produzione in base a un valore di 'p000153'.</span><span class="sxs-lookup"><span data-stu-id="7da10-109">Use the Quick Filter to filter on the Production field with a value of 'p000153'.</span></span>
+4. <span data-ttu-id="7da10-110">Nel riquadro azioni, fare clic su Gestisci costi.</span><span class="sxs-lookup"><span data-stu-id="7da10-110">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="7da10-111">Fare clic su Rendiconto WIP produzione.</span><span class="sxs-lookup"><span data-stu-id="7da10-111">Click Production WIP statement.</span></span>
+6. <span data-ttu-id="7da10-112">Nel campo Data iniziale impostare la data su '2012-12-01'.</span><span class="sxs-lookup"><span data-stu-id="7da10-112">In the From date field, set the date to '2012-12-01'.</span></span>
+7. <span data-ttu-id="7da10-113">Nel campo Data finale impostare la data su '2012-12-31'.</span><span class="sxs-lookup"><span data-stu-id="7da10-113">In the To date field, set the date to '2012-12-31'.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
