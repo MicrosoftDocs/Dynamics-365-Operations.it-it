@@ -16,32 +16,37 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be38076be7f57ca9072221d1c8b8a524e81ab62b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 439a1747be66e299593ebda7c1775232af8f9d31
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113133"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464888"
 ---
-# <a name="enter-worker-information"></a><span data-ttu-id="623e0-103">Immettere informazioni sui lavoratori</span><span class="sxs-lookup"><span data-stu-id="623e0-103">Enter worker information</span></span>
+# <a name="enter-worker-information"></a><span data-ttu-id="78919-103">Immettere informazioni sui lavoratori</span><span class="sxs-lookup"><span data-stu-id="78919-103">Enter worker information</span></span>
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="623e0-104">Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte.</span><span class="sxs-lookup"><span data-stu-id="623e0-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="623e0-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="623e0-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="623e0-106">I dati dimostrativi contengono un progetto di assunzione collettiva aperto.</span><span class="sxs-lookup"><span data-stu-id="623e0-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="623e0-107">Per iniziare questa procedura, andare a Risorse umane > Selezione del personale > Progetti di assunzione collettiva.</span><span class="sxs-lookup"><span data-stu-id="623e0-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
+<span data-ttu-id="78919-104">Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte.</span><span class="sxs-lookup"><span data-stu-id="78919-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="78919-105">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="78919-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="78919-106">I dati dimostrativi contengono un progetto di assunzione collettiva aperto.</span><span class="sxs-lookup"><span data-stu-id="78919-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="78919-107">Per iniziare questa procedura, andare a Risorse umane > Selezione del personale > Progetti di assunzione collettiva.</span><span class="sxs-lookup"><span data-stu-id="78919-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 
-1. <span data-ttu-id="623e0-108">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="623e0-108">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="623e0-109">Fare clic su Dettagli posizioni.</span><span class="sxs-lookup"><span data-stu-id="623e0-109">Click Position details.</span></span>
-    * <span data-ttu-id="623e0-110">Modificare la data di inizio per il lavoratore.</span><span class="sxs-lookup"><span data-stu-id="623e0-110">Edit the start date for the worker.</span></span>  
-    * <span data-ttu-id="623e0-111">Modificare la data di fine per il lavoratore.</span><span class="sxs-lookup"><span data-stu-id="623e0-111">Edit the end date for the worker.</span></span>  
-    * <span data-ttu-id="623e0-112">Modificare il tipo di lavoratore, se necessario.</span><span class="sxs-lookup"><span data-stu-id="623e0-112">Change the worker type for the worker, if needed.</span></span>  
-3. <span data-ttu-id="623e0-113">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="623e0-113">In the First name field, type a value.</span></span>
-4. <span data-ttu-id="623e0-114">Digitare un valore nel campo Secondo nome.</span><span class="sxs-lookup"><span data-stu-id="623e0-114">In the Middle name field, type a value.</span></span>
-5. <span data-ttu-id="623e0-115">Digitare un valore nel campo Cognome.</span><span class="sxs-lookup"><span data-stu-id="623e0-115">In the Last name field, type a value.</span></span>
-    * <span data-ttu-id="623e0-116">Modificare la mansione per il lavoratore, se necessario.</span><span class="sxs-lookup"><span data-stu-id="623e0-116">Change the job for the worker, if needed.</span></span>  
-    * <span data-ttu-id="623e0-117">Modificare il reparto per il lavoratore, se necessario.</span><span class="sxs-lookup"><span data-stu-id="623e0-117">Change the department for the worker, if needed.</span></span>  
-    * <span data-ttu-id="623e0-118">Modificare lo stato di equivalenza a tempo pieno per il lavoratore, se necessario.</span><span class="sxs-lookup"><span data-stu-id="623e0-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
-6. <span data-ttu-id="623e0-119">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="623e0-119">Click OK.</span></span>
-7. <span data-ttu-id="623e0-120">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="623e0-120">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="623e0-121">Nell'elenco deselezionare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="623e0-121">In the list, unmark the selected row.</span></span>
-    * <span data-ttu-id="623e0-122">Selezionare la posizione di progetto successiva e continuare a immettere le informazioni dei lavoratori per ogni persona che si assume.</span><span class="sxs-lookup"><span data-stu-id="623e0-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
+1. <span data-ttu-id="78919-108">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="78919-108">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="78919-109">Fare clic su Dettagli posizioni.</span><span class="sxs-lookup"><span data-stu-id="78919-109">Click Position details.</span></span>
+    * <span data-ttu-id="78919-110">Modificare la data di inizio per il lavoratore.</span><span class="sxs-lookup"><span data-stu-id="78919-110">Edit the start date for the worker.</span></span>  
+    * <span data-ttu-id="78919-111">Modificare la data di fine per il lavoratore.</span><span class="sxs-lookup"><span data-stu-id="78919-111">Edit the end date for the worker.</span></span>  
+    * <span data-ttu-id="78919-112">Modificare il tipo di lavoratore, se necessario.</span><span class="sxs-lookup"><span data-stu-id="78919-112">Change the worker type for the worker, if needed.</span></span>  
+3. <span data-ttu-id="78919-113">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="78919-113">In the First name field, type a value.</span></span>
+4. <span data-ttu-id="78919-114">Digitare un valore nel campo Secondo nome.</span><span class="sxs-lookup"><span data-stu-id="78919-114">In the Middle name field, type a value.</span></span>
+5. <span data-ttu-id="78919-115">Digitare un valore nel campo Cognome.</span><span class="sxs-lookup"><span data-stu-id="78919-115">In the Last name field, type a value.</span></span>
+    * <span data-ttu-id="78919-116">Modificare la mansione per il lavoratore, se necessario.</span><span class="sxs-lookup"><span data-stu-id="78919-116">Change the job for the worker, if needed.</span></span>  
+    * <span data-ttu-id="78919-117">Modificare il reparto per il lavoratore, se necessario.</span><span class="sxs-lookup"><span data-stu-id="78919-117">Change the department for the worker, if needed.</span></span>  
+    * <span data-ttu-id="78919-118">Modificare lo stato di equivalenza a tempo pieno per il lavoratore, se necessario.</span><span class="sxs-lookup"><span data-stu-id="78919-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
+6. <span data-ttu-id="78919-119">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="78919-119">Click OK.</span></span>
+7. <span data-ttu-id="78919-120">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="78919-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="78919-121">Nell'elenco deselezionare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="78919-121">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="78919-122">Selezionare la posizione di progetto successiva e continuare a immettere le informazioni dei lavoratori per ogni persona che si assume.</span><span class="sxs-lookup"><span data-stu-id="78919-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
