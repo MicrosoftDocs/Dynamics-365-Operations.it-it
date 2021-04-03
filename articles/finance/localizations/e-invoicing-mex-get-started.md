@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d91f377af2514af932ea585adb75a56bdee13871
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988482"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592648"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Introduzione al componente aggiuntivo per la fatturazione elettronica per il Messico
 
@@ -291,7 +291,7 @@ Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per
     ![Visualizzazione dei dettaglio del registro di invio annullamento](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
-L'abilitazione delle funzionalità MX-00010 e MX-00016 (Fattura CFDI e Annullamento CFDI) potrebbe richiedere l'invio di dati limitati, che includono l'ID di registrazione fiscale dell'organizzazione. Questo verrà trasmesso ad agenzie di terze parti autorizzate dall'autorità fiscale allo scopo di inviare fatture elettroniche a questa autorità fiscale nel formato predefinito richiesto per l'integrazione con il servizio Web del governo. Un amministratore può abilitare e disabilitare le funzionalità MX-00010 e MX-00016 (Fattura CFDI e Annullamento CFDI) tramite l'accesso a **Amministrazione organizzazione \> Impostazione \>Parametri del documento elettronico**. Seleziona la scheda **Funzionalità**, seleziona le righe contenenti le funzionalità MX-00010 e MX-00016, quindi effettua la selezione appropriata. I dati importati da questi sistemi esterni in questo servizio online Dynamics 365 sono soggetti alla nostra [informativa sulla Privacy](https://go.microsoft.com/fwlink/?LinkId=512132). Consulta le sezioni dell'Informativa sulla privacy nella documentazione delle funzionalità specifiche del paese.
+L'abilitazione della funzionalità **CFDI - Fattura elettronica messicana (MX)** potrebbe richiedere l'invio di dati limitati, che includono l'ID di registrazione fiscale dell'organizzazione. Questo verrà trasmesso ad agenzie di terze parti autorizzate dall'autorità fiscale allo scopo di inviare fatture elettroniche a questa autorità fiscale nel formato predefinito richiesto per l'integrazione con il servizio Web del governo. Un amministratore può abilitare e disabilitare la funzionalità **CFDI - Fattura elettronica messicana (MX)** selezionando **Amministrazione organizzazione \> Impostazione \> Parametri del documento elettronico**. Selezionare la scheda **Funzionalità**, selezionare le righe contenenti la funzionalità **CFDI - Fattura elettronica messicana (MX)**, quindi effettuare la selezione appropriata. I dati importati da questi sistemi esterni in questo servizio online Dynamics 365 sono soggetti alla nostra [informativa sulla Privacy](https://go.microsoft.com/fwlink/?LinkId=512132). Consulta le sezioni dell'Informativa sulla privacy nella documentazione delle funzionalità specifiche del paese.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

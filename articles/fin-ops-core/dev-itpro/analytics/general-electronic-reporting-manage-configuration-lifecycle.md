@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4741784103817c270c4c7f730753ba59a327d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b1b5ac8e256835332a4c53ed2872ee609253ad9
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682625"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568727"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gestire il ciclo di vita della configurazione per la creazione di report elettronici (ER)
 
@@ -67,7 +66,7 @@ Creazione di report elettronici (ER, Electronic Reporting) è un motore che supp
 ## <a name="concepts"></a>Concetti
 I seguenti ruoli e attività correlate sono associati al ciclo di vita di una configurazione ER:
 
-| Ruolo                                       | Attività                                                      | descrizione |
+| Ruolo                                       | Attività                                                      | Descrizione |
 |--------------------------------------------|-----------------------------------------------------------------|-------------|
 | Consulente funzionale per la creazione di report elettronici | Creare e gestire i componenti di ER (modelli e formati).           | Una persona che progetta i modelli di dati specifici del dominio di ER, progetta i modelli necessari per i documenti elettronici e li associa di conseguenza. |
 | Sviluppatore per la creazione di report elettronici             | Creare e gestire i mapping del modello dati.                          | Uno specialista che seleziona le origini dati di Finance necessarie e le associa ai modelli di dati specifici del dominio ER |

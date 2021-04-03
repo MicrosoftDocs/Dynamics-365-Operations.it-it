@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985956"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582721"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere una rete per la distribuzione di contenuti (CDN) all'ambiente di Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Quando si configura un ambiente di e-commerce in Dynamics 365 Commerce, è possibile configurarlo per l'utilizzo con il servizio CDN. 
 
@@ -96,8 +93,8 @@ Per impostare una regola di routing in Azure Front Door Service, effettuare le s
 1. Nel campo **Nome** immettere **default**.
 1. Nel campo **Protocollo accettato**, selezionare **HTTP e HTTPS**.
 1. Nel campo **Host front-end**, immettere **dynamics-ecom-tenant-name.azurefd.net**.
-1. In **Criteri di corrispondenza**, nel campo più in alto, immettere **/\** _.
-1. In _*Dettagli route**, impostare l'opzione **Tipo di route** su **Inoltra**.
+1. In **Criteri di corrispondenza**, nel campo più in alto, immettere **/\***.
+1. In **Dettagli route**, impostare l'opzione **Tipo di route** su **Inoltra**.
 1. Nel campo **Pool back-end**, selezionare **ecom-backend**.
 1. Nel gruppo di campi **Protocollo di inoltro**, selezionare l'opzione **Corrispondenza richiesta**. 
 1. Impostare **Riscrittura URL** su **Disabilitata**.
@@ -109,8 +106,8 @@ Per impostare una regola di memorizzazione nella cache in Azure Front Door Servi
 1. Nel campo **Nome** immettere **statics**.
 1. Nel campo **Protocollo accettato**, selezionare **HTTP e HTTPS**.
 1. Nel campo **Host front-end**, immettere **dynamics-ecom-tenant-name.azurefd.net**.
-1. In **Criteri di corrispondenza**, nel campo più in alto, immettere **/\_msdyn365/\_scnr/\** _.
-1. In _*Dettagli route**, impostare l'opzione **Tipo di route** su **Inoltra**.
+1. In **Criteri di corrispondenza**, nel campo più in alto, immettere **/\_msdyn365/\_scnr/\***.
+1. In **Dettagli route**, impostare l'opzione **Tipo di route** su **Inoltra**.
 1. Nel campo **Pool back-end**, selezionare **ecom-backend**.
 1. Nel gruppo di campi **Protocollo di inoltro**, selezionare l'opzione **Corrispondenza richiesta**.
 1. Impostare **Riscrittura URL** su **Disabilitata**.
@@ -143,25 +140,7 @@ A questo punto, la rete CDN deve essere configurata correttamente di modo che po
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Configurare il proprio nome di dominio](configure-your-domain-name.md)
-
-[Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
-
-[Creare un sito di e-commerce](create-ecommerce-site.md)
-
-[Associare un sito Dynamics 365 Commerce a un canale online](associate-site-online-store.md)
-
-[Gestire i file robots.txt](manage-robots-txt-files.md)
-
-[Caricare reindirizzamenti URL in blocco](upload-bulk-redirects.md)
-
-[Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
-
-[Impostare pagine personalizzate per l'accesso degli utenti](custom-pages-user-logins.md)
-
-[Configurare più tenant B2C in un ambiente Commerce](configure-multi-B2C-tenants.md)
-
-[Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
+[Opzioni di implementazione della rete per la distribuzione di contenuti](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

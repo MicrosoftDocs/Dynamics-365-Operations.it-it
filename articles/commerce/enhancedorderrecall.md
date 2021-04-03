@@ -3,7 +3,7 @@ title: Operazione Richiama ordine nel POS
 description: In questo argomento vengono descritte le funzionalità disponibili per le pagine Richiama ordine nel POS.
 author: hhainesms
 manager: annbe
-ms.date: 10/09/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 21e8045d754006345f5ad68e1e67579386c6df4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 174821fce4baf81e4298da4b066f855bfec98ca5
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010076"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585132"
 ---
 # <a name="recall-order-operation-in-pos"></a>Operazione Richiama ordine nel POS
 
@@ -35,7 +35,7 @@ La configurazione del pulsante dell'operazione **Richiama ordine** consente alle
 
 Le opzioni di visualizzazione sono riportate di seguito.
 - **Nessuna** - Questa opzione distribuisce l'operazione senza una visualizzazione specifica. Quando un utente apre l'operazione con questa configurazione, gli viene richiesto di cercare e trovare ordini o di scegliere da un filtro di ordini predefinito.
-- **Ordini da evadere** - Quando un utente avvia l'operazione, viene eseguita automaticamente una query per cercare e visualizzare un elenco di ordini che devono essere evasi dal punto vendita. Questi ordini sono configurati per il prelievo presso il punto vendita o la spedizione dal punto vendita e le righe di questi ordini non sono ancora state prelevate o imballate.
+- **Ordini da evadere** - Quando un utente avvia l'operazione, viene eseguita automaticamente una query per cercare e visualizzare un elenco di ordini che devono essere evasi dal punto vendita corrente dell'utente. Questi ordini sono configurati per il prelievo presso il punto vendita o la spedizione dal punto vendita e le righe di questi ordini non sono ancora state prelevate o imballate.
 - **Ordini da prelevare** - Quando un utente avvia l'operazione, viene eseguita automaticamente una query per cercare e visualizzare un elenco di ordini configurati per il prelievo presso il punto vendita corrente dell'utente.
 - **Ordini da spedire** - Quando un utente avvia l'operazione, viene eseguita automaticamente una query per cercare e visualizzare un elenco di ordini configurati per la spedizione dal punto vendita corrente dell'utente.
 
@@ -46,7 +46,7 @@ Quando si avvia l'operazione **Richiama ordine** dal POS, se il display è impos
 
 ![RecallOrderMainMenu](media/recallordermain.png)
 
-Dopo aver applicato i criteri di ricerca, l'applicazione visualizzerà un elenco di ordini di vendita corrispondenti.
+Dopo aver applicato i criteri di ricerca, l'applicazione visualizzerà un elenco di ordini di vendita corrispondenti. È importante notare che quando si utilizzano le opzioni di ricerca/filtro, gli ordini recuperati non devono essere ordini collegati al punto vendita corrente dell'utente. Questo processo di ricerca recupererà e visualizzerà qualsiasi ordine cliente che corrisponde ai criteri di ricerca, anche se l'ordine è stato creato o impostato per essere evaso da un altro punto vendita/canale o ubicazione di magazzino.
 
 ![RecallOrderDetail](media/orderrecalldetail.png)
 
@@ -54,15 +54,18 @@ Un utente può selezionare un ordine nell'elenco per visualizzare ulteriori dett
 
 Un utente può selezionare un'operazione nella barra dell'applicazione. A seconda dello stato dell'ordine, è possibile che alcune operazioni non siano disponibili.
 
-- **Reso** - Esegue un reso per una o più fatture relative all'ordine cliente selezionato.
+- **Reso** - Avvia il processo di creazione di un reso per uno qualsiasi dei prodotti fatturati nell'ordine cliente selezionato.
 
-- **Annulla** - Emette un annullamento completo dell'ordine cliente selezionato.
+- **Annulla** - Emette un annullamento completo dell'ordine cliente selezionato. Questa opzione non sarà disponibile per gli ordini avviati tramite un canale del servizio clienti e non può essere utilizzata per annullare parzialmente un ordine.
 
 - **Evadi** - Trasferisce l'utente alla pagina di evasione dell'ordine, che verrà pre-filtrata per l'ordine selezionato. Vengono visualizzate solo le righe dell'ordine aperte per l'evasione dal punto vendita dell'utente per l'ordine selezionato.
 
-- **Modifica** - Consente agli utenti di apportare modifiche all'ordine cliente selezionato.
+- **Modifica** - Consente agli utenti di apportare modifiche all'ordine cliente selezionato. Gli ordini sono modificabili solo in [determinati scenari](customer-orders-overview.md#edit-an-existing-customer-order).
 
-- **Preleva** - Avvia il flusso di prelievo, che consente all'utente di scegliere i prodotti da prelevare e crea la transazione di prelievo delle vendite.
+- **Preleva** - Questa opzione sarà disponibile se l'ordine ha una o più righe designate per il prelievo presso il punto vendita corrente dell'utente. Questa operazione avvia il flusso di prelievo, che consente all'utente di scegliere i prodotti da prelevare e crea la transazione di prelievo delle vendite.
 
+## <a name="add-notifications-to-the-recall-order-operation"></a>Aggiungere notifiche all'operazione di richiamo dell'ordine
+
+Se lo si desidera, nella versione 10.0.18 e in quelle successive, è possibile configurare notifiche POS e avvisi con riquadri animati per l'operazione **Richiama ordine** . Per ulteriori informazioni, vedere [ Visualizzare le notifiche degli ordini nel POS](notifications-pos.md).  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

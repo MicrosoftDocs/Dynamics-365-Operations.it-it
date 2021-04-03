@@ -3,10 +3,9 @@ title: Pianificazione della gerarchia organizzativa
 description: Prima di impostare le organizzazioni e le gerarchie organizzative, è necessario comprendere qual è il modo migliore di modellare l'azienda.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154411"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569363"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Pianificazione della gerarchia organizzativa
 
@@ -166,7 +165,7 @@ Le unità operative utilizzano il contesto del paese della persona giuridica pad
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Se l'organizzazione è modellata come persona giuridica
 
-Per i paesi che sono supportati, è possibile creare la maggior parte delle dichiarazioni statutarie. Per ulteriori informazioni su quali report sono disponibili per ogni paese, vedere il [Portale di localizzazione di Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/). (accesso a CustomerSource necessario).
+Per i paesi che sono supportati, è possibile creare la maggior parte delle dichiarazioni statutarie. 
 
 > [!NOTE]
 > Un livello di registrazione nella contabilità generale consente di creare voci di rettifica per una società consolidata che utilizza una contabilità standard diversa da quella della filiale. Ad esempio, per una società che utilizza le pratiche contabili generalmente accettate nel Regno Unito (GAAP BRITANNICO), è possibile creare voci di rettifica nel livello di registrazione. Queste voci possono essere consolidate in una società consolidata che utilizza i principi contabili generalmente accettati (GAAP) negli Stati Uniti. Le voci di rettifica non influiscono sulla dichiarazione GAAP britannica.

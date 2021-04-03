@@ -18,19 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: eda22aa6f1e8d665d8ef390f24b247a76d4c2956
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992397"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470835"
 ---
 # <a name="production-planning"></a>Pianificazione della produzione
 
 Ottimizzazione pianificazione supporta diversi scenari di produzione. Se si esegue la migrazione dal motore di pianificazione generale integrato esistente, è importante essere a conoscenza di alcuni comportamenti modificati.
 
-<!-- The following video gives a short introduction to some of the current capabilities. 
-KFM: Link to video for production functionality, coming soon... -->
+Il video seguente offre una breve introduzione ad alcuni dei concetti discussi in questo argomento:[Dynamics 365 Supply Chain Management: miglioramenti di Ottimizzazione pianificazione](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="planned-production-orders"></a>Ordini di produzione pianificati
 
@@ -55,7 +54,7 @@ Se dipendi dalla funzionalità di produzione che non è ancora disponibile per O
 
 ## <a name="delays"></a>Ritardi
 
-Se il lead time per il materiale richiesto è più lungo del periodo compreso tra la data odierna e la data del fabbisogno di materiale, l'ordine pianificato per il materiale richiesto e il relativo ordine di produzione verranno ritardati. Per gli ordini pianificati, il ritardo (in giorni) viene calcolato in base al lead time dal prodotto rilasciato. Le informazioni sul ritardo vengono quindi propagate a tutti i livelli della struttura della distinta componenti. Pertanto, è possibile seguire l'impatto del ritardo delle materie prime fino all'ordine di vendita del cliente.
+Se il lead time per il materiale richiesto è più lungo del periodo compreso tra la data odierna e la data del fabbisogno di materiale, l'ordine pianificato per il materiale richiesto e il relativo ordine di produzione verranno ritardati. Per gli ordini pianificati, il ritardo (in giorni) viene calcolato in base al lead time dal prodotto rilasciato. Le informazioni sul ritardo vengono quindi propagate a tutti i livelli della struttura della distinta componenti. Pertanto, è possibile seguire l'impatto del ritardo delle materie prime fino all'ordine cliente del cliente.
 
 ## <a name="modifying-planned-orders"></a>Modifica degli ordini pianificati
 

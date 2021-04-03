@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83a9956b9aa820e8aca9bf6b2ab920a45c1061f6
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b0e6f4d2a38b092eb8460c5f5f4b8b6d290533a8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126004"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464672"
 ---
 # <a name="recruiting-request-skill"></a>Competenza di richiesta di selezione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità della competenza della richiesta di selezione per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmrecruitingrequestskillentity
 
-### <a name="description"></a>descrizione
+### <a name="description"></a>Descrizione
 
 Descrive i requisiti delle competenze per una richiesta di selezione.
 
@@ -56,7 +58,7 @@ Descrive i requisiti delle competenze per una richiesta di selezione.
 
 ### <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità competenza richiesta di selezione**<br>mshr_hcmrecruitingrequestskillentityid<br>*GUID* | Sola lettura<br>Richiesto | Identificatore univoco generato dal sistema per il record **Competenza di richiesta di selezione**. |
 | **ID richiesta di selezione**<br>mshr_recruitingrequestid<br>*String* | Scrivi una volta<br>Richiesto | L'identificatore univoco leggibile dall'utente della richiesta di selezione associata. |

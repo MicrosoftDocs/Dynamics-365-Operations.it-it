@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131795"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500576"
 ---
 # <a name="creating-work-orders"></a>Creazione di ordini di lavoro
 
@@ -30,7 +30,7 @@ ms.locfileid: "5131795"
 
 Dopo aver programmato processi di manutenzione preventiva, il passaggio successivo prevede la creazione di ordini di lavoro per i processi. È possibile completare questo passaggio utilizzando uno dei programmi di manutenzione. I processi programmati in un programma di manutenzione possono avere diversi tipi di riferimenti, come illustrato nella tabella seguente.
 
-| Tipo di riferimento | descrizione |
+| Tipo di riferimento | Descrizione |
 |---|---|
 | Piani di manutenzione | Processi di manutenzione preventiva basati su tipi di piani di manutenzione *Tempo* o *Contatore*. |
 | Cicli di manutenzione | Processi di manutenzione preventiva contenenti vari cespiti che richiedono un tipo di manutenzione simile. |
@@ -62,8 +62,7 @@ Per creare ordini di lavoro basati sul programma di manutenzione, segui questi p
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Raggruppare le righe ordine di lavoro che vengono create automaticamente durante l'esecuzione di un piano di manutenzione
 
-> [!IMPORTANT]
-> La funzionalità descritta in questa sezione è disponibile nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sui rilasci di anteprima, vedi [Domande frequenti aggiornamenti del servizio One version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Questa funzionalità consente di definire le regole per raggruppare le righe dell'ordine di lavoro in un unico ordine di lavoro quando il sistema è configurato per generare automaticamente gli ordini di lavoro, in base a un piano di manutenzione. In precedenza, gli ordini di lavoro generati automaticamente potevano contenere solo una riga. Tuttavia, ora puoi raggruppare gli ordini di lavoro per, ad esempio, cespite, tipo di cespite o unità funzionale. Gli ordini di lavoro generati manualmente potrebbero già essere raggruppati in questo modo, come descritto nella sezione precedente di questo argomento.
 

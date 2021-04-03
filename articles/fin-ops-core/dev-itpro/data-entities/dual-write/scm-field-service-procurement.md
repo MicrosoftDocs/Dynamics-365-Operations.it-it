@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141906"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579974"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrare l'approvvigionamento tra Supply Chain Management e Field Service
 
@@ -47,8 +46,8 @@ Per integrare Supply Chain Management con Field Service, è necessario installar
 
 ### <a name="prerequisites"></a>Prerequisiti
 
-+ **Doppia scrittura**: per ulteriori informazioni, vedere [Home page doppia scrittura](dual-write-home-page.md#dual-write-setup).
-+ **Dynamics 365 Field Service**: per altre informazioni, vedere [Come installare Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Doppia scrittura**: per ulteriori informazioni, vedere [Home page doppia scrittura](dual-write-home-page.md#dual-write-setup).
+- **Dynamics 365 Field Service**: per altre informazioni, vedere [Come installare Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Quando sono abilitate in Microsoft Dataverse, la doppia scrittura e Field Service introducono diversi livelli di soluzioni che estendono l'ambiente con nuovi metadati, moduli, visualizzazioni e logica. Queste soluzioni possono essere abilitate in qualsiasi ordine, sebbene in genere vengano installate nell'ordine indicato qui:
 
@@ -57,8 +56,8 @@ Quando sono abilitate in Microsoft Dataverse, la doppia scrittura e Field Servic
 3. **Supply Chain Management estesa**: Supply Chain Management estesa viene installata automaticamente quando la doppia scrittura è abilitata in un ambiente. 
 4. **Soluzione OneFSSCM**: OneFSSCM viene installato automaticamente da qualsiasi soluzione (Field Service o Supply Chain Management) venga installata per ultima.
 
-    + Se Field Service è già installata nell'ambiente e si abilita la doppia scrittura, che installa Supply Chain Management estesa, OneFSSCM è installato.
-    + Se Supply Chain Management estesa è già installata nell'ambiente e si installa Field Service, OneFSSCM è installato.
+    - Se Field Service è già installata nell'ambiente e si abilita la doppia scrittura, che installa Supply Chain Management estesa, OneFSSCM è installato.
+    - Se Supply Chain Management estesa è già installata nell'ambiente e si installa Field Service, OneFSSCM è installato.
 
 ## <a name="initial-synchronization"></a>Sincronizzazione iniziale
 
@@ -124,22 +123,22 @@ Inoltre, Dataverse include la logica che mappa i fornitori ai relativi conti. Qu
 
 ## <a name="supported-scenarios"></a>Scenari supportati
 
-+ Gli ordini fornitore possono essere creati e aggiornati dagli utenti di Dataverse. Tuttavia, il processo e i dati sono controllati da Supply Chain Management. I vincoli sugli aggiornamenti alle colonne dell'ordine fornitore in Supply Chain Management si applicano quando gli aggiornamenti provengono da Field Service. Ad esempio, non è possibile aggiornare un ordine fornitore se è stato finalizzato. 
-+ Se l'ordine fornitore è controllato dalla gestione delle modifiche in Supply Chain Management, un utente di Field Service può aggiornare l'ordine fornitore solo quando lo stato di approvazione di Supply Chain Management è *Bozza*.
-+ Diverse colonne sono gestite solo da Supply Chain Management e non possono essere aggiornate in Field Service. Per sapere quali colonne non possono essere aggiornate, rivedere le tabelle di mapping nel prodotto. Per motivi di semplicità, la maggior parte di queste colonne è impostata per la sola lettura nelle pagine Dataverse. 
+- Gli ordini fornitore possono essere creati e aggiornati dagli utenti di Dataverse. Tuttavia, il processo e i dati sono controllati da Supply Chain Management. I vincoli sugli aggiornamenti alle colonne dell'ordine fornitore in Supply Chain Management si applicano quando gli aggiornamenti provengono da Field Service. Ad esempio, non è possibile aggiornare un ordine fornitore se è stato finalizzato. 
+- Se l'ordine fornitore è controllato dalla gestione delle modifiche in Supply Chain Management, un utente di Field Service può aggiornare l'ordine fornitore solo quando lo stato di approvazione di Supply Chain Management è *Bozza*.
+- Diverse colonne sono gestite solo da Supply Chain Management e non possono essere aggiornate in Field Service. Per sapere quali colonne non possono essere aggiornate, rivedere le tabelle di mapping nel prodotto. Per motivi di semplicità, la maggior parte di queste colonne è impostata per la sola lettura nelle pagine Dataverse. 
 
     Ad esempio, le colonne per le informazioni sui prezzi sono gestite da Supply Chain Management. Supply Chain Management ha accordi commerciali da cui Field Service può trarre vantaggio. Colonne come **Prezzo unitario**, **Sconto** e **Importo netto** provengono solo da Supply Chain Management. Per assicurarsi che il prezzo sia sincronizzato con Field Service, è consigliabile utilizzare la funzionalità **Sincronizza** nelle pagine **Ordine fornitore** e **Prodotto ordine fornitore** in Dataverse quando sono stati inseriti i dati dell'ordine fornitore. Per altre informazioni, vedere [Sincronizzare con i dati di approvvigionamento di Dynamics 365 Supply Chain Management su richiesta](#sync-procurement).
 
-+ La colonna **Totali** è disponibile solo in Field Service, poiché non ci sono totali aggiornati dell'ordine fornitore in Supply Chain Management. I totali in Supply Chain Management vengono calcolati in base a più parametri non disponibili in Field Service.
-+ Le righe ordine fornitore in cui è specificata solo una categoria di approvvigionamento o in cui il prodotto specificato è un articolo del tipo di prodotto *Servizio* o del tipo di prodotto Field Service, possono essere avviate solo in Supply Chain Management. Le righe vengono quindi sincronizzate con Dataverse e sono visibili in Field Service.
-+ Se è installata solo Field Service, non Supply Chain Management, la colonna **Magazzino** è obbligatoria nell'ordine fornitore. Tuttavia, se Supply Chain Management è installata, questo requisito viene attenuato, perché Supply Chain Management consente righe ordine fornitore in cui in determinate situazioni non è specificato alcun magazzino.
-+ Le entrate di prodotti (ricevute degli ordini fornitore in Dataverse) sono gestite da Supply Chain Management e non possono essere create da Dataverse se è installata Supply Chain Management. Le entrate prodotti da Supply Chain Management vengono sincronizzate da Supply Chain Management a Dataverse.
-+ La consegna in difetto è consentita in Supply Chain Management. La soluzione OneFSSCM aggiunge la logica in modo che, quando la riga di entrata del prodotto (o il prodotto di entrata dell'ordine fornitore in Dataverse) viene creata o aggiornata, viene creata una riga del giornale di registrazione inventario in Dataverse per regolare la quantità rimanente ordinata per scenari di consegna in difetto.
+- La colonna **Totali** è disponibile solo in Field Service, poiché non ci sono totali aggiornati dell'ordine fornitore in Supply Chain Management. I totali in Supply Chain Management vengono calcolati in base a più parametri non disponibili in Field Service.
+- Le righe ordine fornitore in cui è specificata solo una categoria di approvvigionamento o in cui il prodotto specificato è un articolo del tipo di prodotto *Servizio* o del tipo di prodotto Field Service, possono essere avviate solo in Supply Chain Management. Le righe vengono quindi sincronizzate con Dataverse e sono visibili in Field Service.
+- Se è installata solo Field Service, non Supply Chain Management, la colonna **Magazzino** è obbligatoria nell'ordine fornitore. Tuttavia, se Supply Chain Management è installata, questo requisito viene attenuato, perché Supply Chain Management consente righe ordine fornitore in cui in determinate situazioni non è specificato alcun magazzino.
+- Le entrate di prodotti (ricevute degli ordini fornitore in Dataverse) sono gestite da Supply Chain Management e non possono essere create da Dataverse se è installata Supply Chain Management. Le entrate prodotti da Supply Chain Management vengono sincronizzate da Supply Chain Management a Dataverse.
+- La consegna in difetto è consentita in Supply Chain Management. La soluzione OneFSSCM aggiunge la logica in modo che, quando la riga di entrata del prodotto (o il prodotto di entrata dell'ordine fornitore in Dataverse) viene creata o aggiornata, viene creata una riga del giornale di registrazione inventario in Dataverse per regolare la quantità rimanente ordinata per scenari di consegna in difetto.
 
 ## <a name="unsupported-scenarios"></a>Scenari non supportati
 
-+ Field Service impedisce l'aggiunta di righe a un ordine fornitore annullato in Supply Chain Management. Come soluzione alternativa, è possibile modificare lo stato di sistema dell'ordine fornitore in Field Service, quindi aggiungere la nuova riga in Field Service o Supply Chain Management.
-+ Sebbene le righe di approvvigionamento influiscano sui livelli di scorte in entrambi i sistemi, questa integrazione non garantisce l'allineamento delle scorte tra Supply Chain Management e Field Service. Sia Field Service che Supply Chain Management hanno altri processi che aggiornano i livelli di scorte. Questi processi esulano dall'ambito dell'approvvigionamento.
+- Field Service impedisce l'aggiunta di righe a un ordine fornitore annullato in Supply Chain Management. Come soluzione alternativa, è possibile modificare lo stato di sistema dell'ordine fornitore in Field Service, quindi aggiungere la nuova riga in Field Service o Supply Chain Management.
+- Sebbene le righe di approvvigionamento influiscano sui livelli di scorte in entrambi i sistemi, questa integrazione non garantisce l'allineamento delle scorte tra Supply Chain Management e Field Service. Sia Field Service che Supply Chain Management hanno altri processi che aggiornano i livelli di scorte. Questi processi esulano dall'ambito dell'approvvigionamento.
 
 ## <a name="status-management"></a>Gestione dello stato
 
@@ -161,13 +160,13 @@ Gli stati di approvazione della riga sono attivi solo quando è presente un flus
 
 Le seguenti regole vengono applicate alle colonne di stato:
 
-+ Lo stato in Supply Chain Management non può essere aggiornato da Field Service. Tuttavia, in alcuni casi, lo stato in Field Service verrà aggiornato quando lo stato dell'ordine fornitore in Supply Chain Management viene modificato.
-+ Se un ordine fornitore in Supply Chain Management è in fase di gestione delle modifiche e una modifica è in corso di elaborazione, lo stato di approvazione è *Bozza* o *In revisione*. In questo caso, lo stato di approvazione di Field Service sarà impostato su *Null*.
-+ Se lo stato di approvazione dell'ordine fornitore in Supply Chain Management è impostato su *Approvato*, *In revisione esterna*, *Confermato* o *Finalizzato*, lo stato di approvazione dell'ordine fornitore di Field Service sarà impostato su *Approvato*.
-+ Se lo stato di approvazione dell'ordine fornitore in Supply Chain Management è impostato su *Rifiutato*, lo stato di approvazione dell'ordine fornitore di Field Service sarà impostato su *Rifiutato*.
-+ Se lo stato dell'intestazione del documento in Supply Chain Management viene modificato in *Ordine aperto (ordine arretrato)* e lo stato dell'ordine fornitore in Field Service è *Bozza* o *Annullato*, lo stato dell'ordine fornitore di Field Service cambierà in *Inviato*.
-+ Se lo stato dell'intestazione del documento in Supply Chain Management viene modificato in *Annullato* e nessun prodotto con ricevuta dell'ordine fornitore in Field Service è associato all'ordine fornitore (tramite i prodotti dell'ordine di acquisto), lo stato del sistema Field Service è impostato su *Annullato*.
-+ Se lo stato della riga dell'ordine fornitore in Supply Chain Management è *Annullato*, lo stato del prodotto dell'ordine fornitore in Field Service è impostato su *Annullato*. Inoltre, se lo stato della riga dell'ordine fornitore in Supply Chain Management viene modificato da *Annullato* a *Ordine arretrato*, lo stato dell'articolo prodotto dell'ordine fornitore in Field Service è impostato su *In sospeso*.
+- Lo stato in Supply Chain Management non può essere aggiornato da Field Service. Tuttavia, in alcuni casi, lo stato in Field Service verrà aggiornato quando lo stato dell'ordine fornitore in Supply Chain Management viene modificato.
+- Se un ordine fornitore in Supply Chain Management è in fase di gestione delle modifiche e una modifica è in corso di elaborazione, lo stato di approvazione è *Bozza* o *In revisione*. In questo caso, lo stato di approvazione di Field Service sarà impostato su *Null*.
+- Se lo stato di approvazione dell'ordine fornitore in Supply Chain Management è impostato su *Approvato*, *In revisione esterna*, *Confermato* o *Finalizzato*, lo stato di approvazione dell'ordine fornitore di Field Service sarà impostato su *Approvato*.
+- Se lo stato di approvazione dell'ordine fornitore in Supply Chain Management è impostato su *Rifiutato*, lo stato di approvazione dell'ordine fornitore di Field Service sarà impostato su *Rifiutato*.
+- Se lo stato dell'intestazione del documento in Supply Chain Management viene modificato in *Ordine aperto (ordine arretrato)* e lo stato dell'ordine fornitore in Field Service è *Bozza* o *Annullato*, lo stato dell'ordine fornitore di Field Service cambierà in *Inviato*.
+- Se lo stato dell'intestazione del documento in Supply Chain Management viene modificato in *Annullato* e nessun prodotto con ricevuta dell'ordine fornitore in Field Service è associato all'ordine fornitore (tramite i prodotti dell'ordine di acquisto), lo stato del sistema Field Service è impostato su *Annullato*.
+- Se lo stato della riga dell'ordine fornitore in Supply Chain Management è *Annullato*, lo stato del prodotto dell'ordine fornitore in Field Service è impostato su *Annullato*. Inoltre, se lo stato della riga dell'ordine fornitore in Supply Chain Management viene modificato da *Annullato* a *Ordine arretrato*, lo stato dell'articolo prodotto dell'ordine fornitore in Field Service è impostato su *In sospeso*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Sincronizzare con i dati di approvvigionamento di Supply Chain Management su richiesta
 
@@ -196,7 +195,7 @@ Se il processo di registrazione dell'entrata prodotti viene annullato durante l'
 
 I seguenti modelli sono disponibili per l'integrazione dei documenti relativi agli appalti.
 
-| Gestione della supply chain | Field Service | descrizione |
+| Gestione della supply chain | Field Service | Descrizione |
 |---|---|---|
 | Intestazione ordine fornitore V2 | msdyn\_Purchaseorders | Questa tabella contiene le colonne che rappresentano l'intestazione dell'ordine fornitore. |
 | Entità riga ordine fornitore | msdyn\_PurchaseOrderProducts | Questa tabella contiene le righe che rappresentano righe su un ordine fornitore. Il numero di prodotto viene utilizzato per la sincronizzazione. Ciò identifica il prodotto come unità di stockkeeping (SKU), comprese le dimensioni del prodotto. Per ulteriori informazioni sull'integrazione del prodotto con Dataverse, vedere [Esperienza prodotto unificata](product-mapping.md). |

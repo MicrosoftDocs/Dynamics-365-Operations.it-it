@@ -3,10 +3,9 @@ title: Funzionalità rimosse o deprecate nelle versioni precedenti
 description: Questo argomento descrive le funzionalità che sono state rimosse o che sono state pianificate per la rimozione da Dynamics 365 for Finance and Operations e versioni precedenti.
 author: sericks007
 manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154387"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559332"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
@@ -39,7 +38,7 @@ Questo argomento descrive le funzionalità che sono state rimosse o deprecate in
 
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
-Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finanza 10.0.7 con Platform update 31
 

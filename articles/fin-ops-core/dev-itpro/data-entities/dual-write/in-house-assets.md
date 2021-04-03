@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +17,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: ebc9c1fbb7c0738af13b2a16aafeeb03fa6aaed0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d4d681b2362c90b69007ea44c01c886f96cc1db1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684007"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568080"
 ---
-# <a name="in-house-assets-for-servicing"></a>Risorse interne per la manutenzione
+# <a name="in-house-assets-for-servicing"></a>Cespiti interni per l'assistenza
 
 [!include [banner](../../includes/banner.md)]
 
@@ -39,7 +38,7 @@ Per ulteriori informazioni, vedere [Integrare Dynamics 365 Field Service e Suppl
 
 Le risorse interne includono una raccolta di mappe della tabella di base che funzionano in combinazione durante l'interazione con i dati, come illustrato nella seguente tabella.
 
-| App di Finance and Operations | App basate su modello in Dynamics 365 | descrizione |
+| App di Finance and Operations | App basate su modello in Dynamics 365 | Descrizione |
 |-----------------------------|-----------------------------------|-------------|
 | Modelli del ciclo di vita cespiti nella Gestione cespiti | msdyn\_assetlifecyclemodels | |
 | Stati del ciclo di vita cespiti nella Gestione cespiti | msdyn\_assetlifecyclestates | |

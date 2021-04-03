@@ -3,7 +3,7 @@ title: Creare un account di Archiviazione di Azure e un Azure Key Vault
 description: Questo argomento spiega come creare un account di Archiviazione di Azure e Azure Key Vault.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
+ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104231"
+ms.lasthandoff: 02/22/2021
+ms.locfileid: "5479347"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Creare un account di Archiviazione di Azure e un Azure Key Vault
 
@@ -77,9 +77,12 @@ In questo argomento, completerai due passaggi principali:
 
     ![Concessione dell'autorizzazione al certificato](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
-9. Nella finestra di dialogo **Entità di sicurezza**, seleziona l'entità di sicurezza aggiungendo **Componente aggiuntivo per la fatturazione elettronica**.
-10. Seleziona **Aggiungi** e quindi seleziona **Salva le modifiche di Key Vault**.
-11. Nella pagina **Panoramica**, copia il valore **Nome DNS** valore per il Key Vault. Questo valore verrà utilizzato durante la configurazione del servizio in RCS e verrà indicato come *URI di Key Vault*.
+9. Nel campo **Seleziona un'entità**, selezionare **Nessuna selezione**.
+10. Nella finestra di dialogo **Entità di sicurezza**, selezionare l'entità di sicurezza aggiungendo **Servizio di fatturazione elettronica**.
+11. Seleziona **Aggiungi** e quindi seleziona **Salva le modifiche di Key Vault**.
+12. Nella pagina **Panoramica**, copia il valore **Nome DNS** valore per il Key Vault. Questo valore verrà utilizzato durante la configurazione del servizio in RCS e verrà indicato come *URI di Key Vault*.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
