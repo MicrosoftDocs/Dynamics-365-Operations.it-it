@@ -16,12 +16,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 06a7cd084ea12b8b2938ade2f8fed93b0c50aa85
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b5e7482c1a4f3a6a3f439ad4ff0d399c3756f2f0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990130"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247966"
 ---
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 
@@ -31,7 +31,7 @@ In questo argomento viene illustrato come configurare le impostazioni specifiche
 
 Per l'Italia, gli acquirenti devono soddisfare alcuni requisiti legali specifici del paese che comportano la trattenuta della ritenuta d'acconto per alcuni tipi di pagamenti fornitore, ad esempio per i pagamenti dei lavoratori autonomi. La società deve quindi versare questa imposta all'ufficio tributario. La ritenuta d'acconto è un'imposta trattenuta dall'importo del pagamento per le fatture fornitore. In questo argomento vengono descritte le impostazioni specifiche per Italia relative alla ritenuta d'acconto e i seguenti report italiani: **Ritenuta d'acconto - certificazione**, **Ritenuta d'acconto - mensile** e **Ritenuta d'acconto - annuale**. Impostare i codici della ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Codici ritenuta d'acconto**. Definire le impostazioni standard nelle Schede dettaglio **Generale** e **Calcolo**. Nella scheda dettaglio **Reporting italiano** definire le seguenti impostazioni.
 
-|Gruppo campi|Campo|descrizione|
+|Gruppo campi|Campo|Descrizione|
 |------------|----------------|----------------|
 |Tipo di voce   |Codice causale ritenuta d'acconto|Selezionare il riferimento utilizzato quando viene effettuato un pagamento agli uffici tributari.|
 |Tipo di voce   |Origine|Specificare se riepilogare l'imposta registrata in base all'origine (ritenuta a titolo di imposta o ritenuta a titolo di acconto). Questo campo viene utilizzato nei report **Ritenuta d'acconto - certificazione** e **Ritenuta d'acconto - annuale**.|
@@ -41,7 +41,7 @@ Per l'Italia, gli acquirenti devono soddisfare alcuni requisiti legali specifici
 
 Nel **Riquadro azioni** fare clic su **Valori** e impostare i valori per il codice ritenuta d'acconto.
 
-| Campo            | descrizione                                                                                  |
+| Campo            | Descrizione                                                                                  |
 |------------------|----------------------------------------------------------------------------------------------|
 | Dal        | Immettere la prima data a partire dalla quale la percentuale di ritenuta d'acconto è valida.                     |
 | Al          | Immettere l'ultima data per cui la percentuale di ritenuta d'acconto è valida.                      |
@@ -52,7 +52,7 @@ Nel **Riquadro azioni** fare clic su **Valori** e impostare i valori per il codi
 
 Nel Riquadro azioni fare clic su **Limiti** e impostare i limiti per l'importo della ritenuta d'acconto.
 
-| Campo                   | descrizione                                                                                                            |
+| Campo                   | Descrizione                                                                                                            |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Dal               | Immettere la prima data di applicazione dei limiti di ritenuta d'acconto. La data di registrazione determina l'intervallo di limiti utilizzato.  |
 | Al                 | Immettere l'ultima data di applicazione dei limiti di ritenuta d'acconto. La data di registrazione determina l'intervallo di limiti utilizzato.   |
@@ -62,7 +62,7 @@ Nel Riquadro azioni fare clic su **Limiti** e impostare i limiti per l'importo d
 Impostare i gruppi di ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Gruppi ritenute d'acconto**. Immettere il codice e il nome per un gruppo di ritenute d'acconto e assegnare un codice di ritenuta d'acconto al gruppo. Per ulteriori informazioni, vedere [Impostare la ritenuta d'acconto](../general-ledger/tasks/set-up-withholding-tax.md). Impostare un conto fornitore per il calcolo della ritenuta d'acconto in **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**. Definire le seguenti impostazioni.
 
 
-|         Scheda dettaglio         |              Campo               |                                descrizione                                |
+|         Scheda dettaglio         |              Campo               |                                Descrizione                                |
 |-------------------------|----------------------------------|---------------------------------------------------------------------------|
 |  Fattura e consegna   |    Calcola ritenuta d'acconto     |   Impostare questa opzione su <strong>Sì</strong> per calcolare la ritenuta d'acconto.   |
 |  Fattura e consegna   |        Gruppo ritenute d'acconto         |                           Gruppo ritenute d'acconto                           |

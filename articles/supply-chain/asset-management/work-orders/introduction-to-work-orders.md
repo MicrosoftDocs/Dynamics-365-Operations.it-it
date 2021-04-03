@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e9890057ab852a7fb0d60056bb102ce15ac124e2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021882"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263736"
 ---
 # <a name="introduction-to-work-orders"></a>Introduzione agli ordini di lavoro
 
@@ -82,7 +82,7 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Modifica                            | Modifica l'ordine di lavoro selezionato.                                                                                                                                                                                                                                           |
 | Nuovi                             | Crea un nuovo ordine di lavoro.                                                                                                                                                                                                                                                  |
-| Canc                          | Elimina l'ordine di lavoro selezionato.                                                                                                                                                                                                                                         |
+| Elimina                          | Elimina l'ordine di lavoro selezionato.                                                                                                                                                                                                                                         |
 | Pool di ordini di lavoro                 | Aggiunge l'ordine di lavoro selezionato a un pool di ordini di lavoro o lo rimuove dal pool di ordini di lavoro.                                                                                                                                                                                           |
 | Rettifica                          | Modifica le informazioni su data di inizio e di fine previste, livello di servizio, addetto alla manutenzione responsabile o gruppo di addetti alla manutenzione responsabile negli ordini di lavoro selezionati.                                                                                                                                     |
 | Ordine di lavoro correlato              | Crea un nuovo ordine di lavoro correlato al processo di ordine di lavoro selezionato. È utile se si desidera registrare ordini di lavoro principali e secondari.                                                                                                                              |

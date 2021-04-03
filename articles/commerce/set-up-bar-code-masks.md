@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5432741e7cdc21054d02bd24591deb307d096229
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bc66b9d6586650dc7b1477ac02260a480d46596
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969803"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264578"
 ---
 # <a name="set-up-bar-code-masks"></a>Impostare le maschere codice a barre
 
@@ -35,7 +35,7 @@ In questo argomento viene descritto come impostare i caratteri di maschera codic
 
 Le maschere codice a barre sono utilizzate per creare i codici a barre e identificare rapidamente i codici a barre sottoposti a scansione nel POS. Le maschere sono costituite da caratteri con la funzione di segnaposto che indicano il formato per i codici a barre che verranno creati. Per configurare una maschera codice a barre, è necessario impostare i caratteri di maschera codice a barre. Andare a **Retail e Commerce** &gt; **Gestione inventario** &gt; **Codici a barre ed etichette** &gt; **Caratteri maschera**. Fare clic su **Nuovo** per creare nuovi caratteri di maschera codice a barre. I caratteri di maschera possono essere creati per indicare i seguenti dati di codice a barre.
 
-| Campo            | descrizione |
+| Campo            | Descrizione |
 |------------------|-------------|
 | Prodotto          | Segnaposto per ID prodotto. |
 | Qualsiasi numero       | Utilizzato specificare un numero che verrà hardcoded in codici a barre. |

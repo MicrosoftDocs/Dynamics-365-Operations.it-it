@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d88bc9cad09e1a78ecce67d4841615c8e09f2ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c14ae8f97301d3c25c75bc793c8df7d1781d7ae2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978221"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262826"
 ---
 # <a name="post-and-print-a-packing-slip-with-transportation-delivery-details-for-italy"></a>Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto per l'Italia
 

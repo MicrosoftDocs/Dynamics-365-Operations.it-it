@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f775b09b973a4d34e77d568a5f3b2bd35a7dfdcf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4b6d4e7fae1df977a5db311d3ea662a5eb3ffd30
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976218"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260831"
 ---
 # <a name="allocation-bases"></a>Basi di allocazione 
 
@@ -52,7 +52,7 @@ In questo esempio viene illustrato come creare una regola di allocazione costi p
 
 Nella contabilità generale, il piano dei conti è definito come indicato di seguito.
 
-| Piano dei conti | Conto principale | descrizione        | Tipo di conto principale |
+| Piano dei conti | Conto principale | Descrizione        | Tipo di conto principale |
 |------------------|--------------|--------------------|-------------------|
 | Condiviso           | 10001        | Stipendi           | Gestione spese           |
 | Condiviso           | 10002        | Assicurazione dipendente | Gestione spese           |
@@ -61,14 +61,14 @@ Definire una dimensione elemento di costo e configurare il connettore dati. Dopo
 
 **Membri di dimensione elemento di costo**
 
-| Nome dimensione elemento di costo | Elemento di costo |  descrizione       | Tipo    |
+| Nome dimensione elemento di costo | Elemento di costo |  Descrizione       | Tipo    |
 |-----------------------------|--------------|--------------------|---------|
 | Elementi di costo               | 10001        | Stipendi           | Primario |
 | Elementi di costo               | 10002        | Assicurazione dipendente | Primario |
 
 **Basi di allocazione membro di dimensione predefinita** 
 
-| Nome  | descrizione        | Dimensione elemento di costo |
+| Nome  | Descrizione        | Dimensione elemento di costo |
 |-------|--------------------|------------------------|
 | 10001 | Stipendi           | Elementi di costo          |
 | 10002 | Assicurazione dipendente | Elementi di costo          |
@@ -78,7 +78,7 @@ Nella contabilità generale, le seguenti voci sono state registrate:
 - Le voci che indicano il conto principale Stipendi provengono dal sistema di gestione delle retribuzioni e vengono registrate nei centri di costo.
 - Le spese per l'assicurazione dipendente vengono registrate manualmente in un centro di costo predefinito.
 
-| Data di registrazione | Centro di costo |  descrizione        | Conto principale |  descrizione       | Importo nella valuta di contabilizzazione |
+| Data di registrazione | Centro di costo |  Descrizione        | Conto principale |  Descrizione       | Importo nella valuta di contabilizzazione |
 |-----------------|-------------|---------------------|--------------|--------------------|-------------------------------|
 | 03-01-2017      | CC001       | Risorse umane                  | 10001        | Stipendi           | 2.000,00                      |
 | 03-01-2017      | CC002       | FI                  | 10001        | Stipendi           | 5.000,00                      |
@@ -89,7 +89,7 @@ Dopo l'elaborazione dei dati di origine della contabilità generale, le seguenti
 
 **Voci di costo**
 
-| Oggetto di costo |  descrizione        | Elemento di costo  |  descrizione       | Comportamento costo   |Importo|Data di registrazione|
+| Oggetto di costo |  Descrizione        | Elemento di costo  |  Descrizione       | Comportamento costo   |Importo|Data di registrazione|
 |-------------|---------------------|---------------|--------------------|-----------------|------|---------------|
 | CC001       | Risorse umane                  | 10001         | Stipendi           | Non classificato    |2.000,00|  03-01-2017    |
 | CC002       | FI                  | 10001         | Stipendi           | Non classificato    |5.000,00|     03-01-2017         |
@@ -108,7 +108,7 @@ In questo esempio semplificato viene creata una regola di allocazione costi per 
 
 Una volta che l'elemento di costo 10001 (retribuzioni) viene applicato come base di allocazione, il risultato del calcolo generale è il seguente.
 
-| Oggetto di costo | descrizione | Grandezza |   Fattore di allocazione         | Importo |
+| Oggetto di costo | Descrizione | Grandezza |   Fattore di allocazione         | Importo |
 |-------------|-------------|-----------|-----------------------------|--------|
 | CC001       | Risorse umane          | 2.000     | (2.000 ÷ 10.000) × 1.000,00 | 200,00 |
 | CC002       | FI          | 5.000     | (5.000 ÷ 10.000) × 1.000,00 | 500,00 |
@@ -122,13 +122,13 @@ Una volta che l'elemento di costo 10001 (retribuzioni) viene applicato come base
 
 **Scritture contabili saldo oggetto di costo**
 
-| Data di registrazione | Oggetto di costo | descrizione         | Elemento di costo | descrizione        | Comportamento costo |  Importo  |
+| Data di registrazione | Oggetto di costo | Descrizione         | Elemento di costo | Descrizione        | Comportamento costo |  Importo  |
 |-----------------|-------------|---------------------|--------------|--------------------|---------------|----------|
 | 31-01-2017      | CC099       | Centro di costo predefinito | 10002        | Assicurazione dipendente | Non classificato  | 1.000,00 |
 
 **Voci di costo**
 
-| Oggetto di costo |  descrizione        | Elemento di costo |    descrizione     | Comportamento costo | Importo    | Data di registrazione |
+| Oggetto di costo |  Descrizione        | Elemento di costo |    Descrizione     | Comportamento costo | Importo    | Data di registrazione |
 |-------------|---------------------|--------------|--------------------|---------------|-----------|-----------------|
 | CC099       | Centro di costo predefinito | 10002        | Assicurazione dipendente | Non classificato  | -1.000,00 | 31-01-2017      |
 | CC001       | Risorse umane                  | 10002        | Assicurazione dipendente | Non classificato  | 200,00    | 31-01-2017      |
@@ -141,7 +141,7 @@ I membri di dimensione statistica possono essere utilizzati come base di allocaz
 
 **Membri di dimensione statistica**
 
-| Nome dimensione statistica | Elemento statistico | descrizione               | Unità |
+| Nome dimensione statistica | Elemento statistico | Descrizione               | Unità |
 |----------------------------|---------------------|---------------------------|------|
 | Elementi statistici       | FTE                 | Dipendenti a tempo pieno       | Cadauno   |
 | Elementi statistici       | Elettricità         | Consumo di elettricità   | kWh  |
@@ -150,7 +150,7 @@ Quando un membro di dimensione statistica viene salvato, un record corrispondent
 
 **Basi di allocazione membro di dimensione predefinita**
 
-| Nome        | descrizione             | Dimensione elemento statistico |
+| Nome        | Descrizione             | Dimensione elemento statistico |
 |-------------|-------------------------|-------------------------------|
 | FTE         | Dipendenti a tempo pieno     | Elementi statistici          |
 | Elettricità | Consumo di elettricità | Elementi statistici          |
@@ -160,7 +160,7 @@ Le misure statistiche possono derivare da diverse origini:
 - Il consumo di elettricità può essere misurato da contatori installati in varie aree diverse della società.
 - Le tabelle contengono le misure statistiche. Ad esempio, la tabella HcmEmployment contiene l'elenco di tutti i dipendenti e dei centri di costo per cui lavorano.
 
-| Nome       | Centro di costo |  descrizione  | Tipo di lavoratore |
+| Nome       | Centro di costo |  Descrizione  | Tipo di lavoratore |
 |------------|-------------|----|-------------|
 | Dipendente A | CC001       | Risorse umane | Dipendente    |
 | Dipendente B | CC002       | FI | Dipendente    |
@@ -188,7 +188,7 @@ Dopo l'elaborazione dei dati di origine delle misure statistiche, le seguenti vo
 
 **Voci statistiche**
 
-| Oggetto di costo | descrizione      | Data di registrazione | Membro di dimensione statistica | descrizione         | Grandezza |
+| Oggetto di costo | Descrizione      | Data di registrazione | Membro di dimensione statistica | Descrizione         | Grandezza |
 |-------------|------------------|-----------------|------------------------------|---------------------|-----------|
 | CC001       | Risorse umane               | 31-01-2017      | FTE                        | Dipendenti a tempo pieno | 1,00      |
 | CC002       | FI               | 31-01-2017      | FTE                        | Dipendenti a tempo pieno | 2.00      |
@@ -196,7 +196,7 @@ Dopo l'elaborazione dei dati di origine delle misure statistiche, le seguenti vo
 
 Di seguito è riportato un esempio di regola di distribuzione costi se la base di allocazione del membro di dimensione predefinita di FTE è assegnata come base di allocazione.
 
-| Oggetto di costo | descrizione  | Grandezza | Fattore di allocazione |
+| Oggetto di costo | Descrizione  | Grandezza | Fattore di allocazione |
 |-------------|------|-----------|-------------------|
 | CC001       | Risorse umane   | 1,00      | (1/5) × Importo    |
 | CC002       | FI   | 2.00      | (2/5) × Importo    |
@@ -214,7 +214,7 @@ Dopo l'elaborazione dei dati di origine delle misure statistiche, le seguenti vo
 
 **Voci statistiche**
 
-| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |    descrizione          | Grandezza |
+| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |    Descrizione          | Grandezza |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | Risorse umane | 31-01-2017      | Elettricità                  | Consumo di elettricità | 2,450.00  |
 | CC002       | FI | 31-01-2017      | Elettricità                  | Consumo di elettricità | 4,100.00  |
@@ -222,7 +222,7 @@ Dopo l'elaborazione dei dati di origine delle misure statistiche, le seguenti vo
 
 Di seguito è riportato un esempio di regola di distribuzione costi se la base di allocazione del membro di dimensione predefinita dell'elettricità è assegnata come base di allocazione.
 
-| Oggetto di costo | descrizione  | Grandezza | Fattore di allocazione          |
+| Oggetto di costo | Descrizione  | Grandezza | Fattore di allocazione          |
 |-------------|------|-----------|----------------------------|
 | CC001       | Risorse umane   | 2,450.00  | (2,450 ÷ 21,550) × Importo  |
 | CC002       | FI   | 4,100.00  | (4,100 ÷ 21,550) × Importo  |
@@ -245,7 +245,7 @@ La base di allocazione del membro di dimensione predefinita del FTE creata nella
 
 **Voci statistiche**
 
-| Oggetto di costo | descrizione  | Data di registrazione | Membro di dimensione statistica | descrizione | Grandezza |
+| Oggetto di costo | Descrizione  | Data di registrazione | Membro di dimensione statistica | Descrizione | Grandezza |
 |-------------|------|-----------------|------------------------------|---------------------|-----------|
 | CC001       | Risorse umane   | 31-01-2017      | FTE                        | Dipendenti a tempo pieno | 1,00      |
 | CC002       | FI   | 31-01-2017      | FTE                        | Dipendenti a tempo pieno | 2.00      |
@@ -263,14 +263,14 @@ Una funzione di anteprima consente di convalidare la base di allocazione gerarch
 
 **Dettagli base allocazione**
 
-| Oggetto di costo | descrizione  |  Grandezza |
+| Oggetto di costo | Descrizione  |  Grandezza |
 |-------------|------|------------|
 | CC001       | Risorse umane   | 1,00       |
 | CC002       | FI   | 2.00       |
 
 Di seguito è riportato un esempio di regola di distribuzione costi se il numero di FTE nella base di allocazione della gerarchia CFO è assegnata come base di allocazione.
 
-| Oggetto di costo | descrizione  | Grandezza | Fattore di allocazione |
+| Oggetto di costo | Descrizione  | Grandezza | Fattore di allocazione |
 |-------------|------|-----------|-------------------|
 | CC001       | Risorse umane   | 1,00      | (1/3) × Importo    |
 | CC002       | FI   | 2.00      | (2/3) × Importo    |
@@ -315,7 +315,7 @@ La base di allocazione del membro di dimensione predefinita dell'elettricità è
 
 **Voci statistiche**
 
-| Oggetto di costo | Nome | Data di registrazione | Membro di dimensione statistica | descrizione             | Grandezza |
+| Oggetto di costo | Nome | Data di registrazione | Membro di dimensione statistica | Descrizione             | Grandezza |
 |-------------|------|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | Risorse umane   | 31-01-2017      | Elettricità                  | Consumo di elettricità | 2,450.00  |
 | CC002       | FI   | 31-01-2017      | Elettricità                  | Consumo di elettricità | 4,100.00  |
@@ -353,7 +353,7 @@ Una funzione di anteprima consente di convalidare la base di allocazione formula
 
 **Dettagli base allocazione**
 
-| Oggetto di costo | descrizione  | Formula           | Grandezza |
+| Oggetto di costo | Descrizione  | Formula           | Grandezza |
 |-------------|------|-------------------|-----------|
 | CC001       | Risorse umane   | 2.450,00 \> 0,01  | 1,00      |
 | CC002       | FI   | 4.100,00 \> 0,01  | 1,00      |
@@ -423,7 +423,7 @@ Di seguito un esame più attento alla formula per CC003 (IT):
 Di seguito è riportato un esempio di regola di distribuzione costi se la base di allocazione della formula dell'elettricità fissa è assegnata come base di allocazione.
 
 
-| Oggetto di costo | descrizione | Grandezza |        Fattore di allocazione         |
+| Oggetto di costo | Descrizione | Grandezza |        Fattore di allocazione         |
 |-------------|-------------|-----------|----------------------------------|
 |    CC001    |     Risorse umane      | 1,837.50  | (1,837.50 ÷ 18,162.50) × Importo  |
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × Importo  |

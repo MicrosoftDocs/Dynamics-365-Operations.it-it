@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 085071cb7aa314dd8a8c19b8ef2ac926a6ab4103
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1697c377c8291190f27b2057463ddb98aac1f9b9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985813"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264554"
 ---
 # <a name="loyalty-overview"></a>Panoramica fedeltà
 
@@ -49,7 +49,7 @@ I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti pr
 
 Nella seguente tabella viene descritto ciascun componente e viene indicato dove viene utilizzato nell'impostazione del programma fedeltà.
 
-| Componente                                        | descrizione | Dove è usato |
+| Componente                                        | Descrizione | Dove è usato |
 |--------------------------------------------------|-------------|-----------------|
 | Impostare gli sconti (prerequisito)                  | Impostare gli sconti offerti ai clienti del programma fedeltà. Ad esempio, il 5 percento di sconto su tutti i prodotti di abbigliamento. | È necessario aggiungere gli sconti ai gruppi di prezzi per poterli includere in un programma fedeltà. I gruppi di prezzi vengono assegnati ai programmi fedeltà e ai livelli di fedeltà. |
 | Impostare i gruppi di prezzi (prerequisito)               | I gruppi di prezzi sono utilizzati per creare e gestire i prezzi e gli sconti per i prodotti. Impostare i gruppi di prezzi che includono gli sconti applicabili ai programmi fedeltà. | I gruppi di prezzi vengono assegnati ai programmi fedeltà e ai relativi livelli. |

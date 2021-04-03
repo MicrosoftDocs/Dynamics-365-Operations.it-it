@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118683"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260649"
 ---
 # <a name="product-dimensions"></a>Dimensioni prodotto
 
@@ -106,7 +106,7 @@ In fase di verifica delle soluzioni per la compatibilità con la dimensione dell
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Mappe:** se una mappa utilizza le dimensioni dell'inventario, il mapping della relazione corrispondente a queste mappe deve essere aggiornato in modo da includere la dimensione della versione. Nel modello esteso o nelle estensioni della tabella, cercare le tabelle in cui i campi includono dimensioni dell'inventario.
-1. **Funzionalità di Microsoft Dynamics 365 Commerce:** dopo l'abilitazione, la dimensione della versione verrà visualizzata attraverso codice specifico di Commerce in Dynamics 365 Supply Chain Management. Tuttavia, la dimensione della versione non è ancora supportata dal database del canale di Commerce o nelle applicazioni POS o e-Commerce. Queste applicazioni specifiche di Commerce non supporteranno gli utenti che vendono/spediscono o restituiscono/ricevono inventario in base alla dimensione della versione. Le funzioni di ricerca della disponibilità di scorte non distinguono l'inventario in base alla dimensione della versione nelle app Commerce. Questo comportamento è simile al comportamento corrente della dimensione di configurazione in Commerce.
+1. **Funzionalità di Microsoft Dynamics 365 Commerce:** dopo l'abilitazione, la dimensione della versione verrà visualizzata attraverso il codice specifico di Commerce in Dynamics 365 Supply Chain Management. Tuttavia, la dimensione della versione non è ancora supportata dal database del canale di Commerce o nelle applicazioni POS o e-Commerce. Queste applicazioni specifiche di Commerce non supporteranno gli utenti che vendono/spediscono o restituiscono/ricevono inventario in base alla dimensione della versione. Le funzioni di ricerca della disponibilità di scorte non distinguono l'inventario in base alla dimensione della versione nelle app Commerce. Questo comportamento è simile al comportamento corrente della dimensione di configurazione in Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Abilitare la dimensione della versione
 
