@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2e4b250f4a059719067a9e19bbf3ce4aecc9bb1f
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 24df18f428e4ca14859bc34048a6bda5e03d1b2f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113156"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464376"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Genera rapporti ACA nella gestione dei vantaggi
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 La gestione dei benefici ti aiuta a tenere traccia delle informazioni riportate nel modulo 1.095-B e nel modulo 1.095-C per il mandato del datore di lavoro Affordable Care Act (ACA). Come la capacità di reporting ACA nella vecchia area di lavoro **Benefici**, questa funzionalità si applica solo alle persone giuridiche negli Stati Uniti.
 
@@ -57,10 +59,10 @@ I gruppi di copertura Affordable Care ti aiutano a gestire queste informazioni p
 
 3. Impostare i seguenti campi.
 
-    | Campo | descrizione |
+    | Campo | Descrizione |
     |---|---|
     | Nome | Immetti un nome per il gruppo. |
-    | descrizione | Immettere una descrizione del gruppo. |
+    | Descrizione | Immettere una descrizione del gruppo. |
     | Offerta di copertura | La copertura offerta ai dipendenti, al loro coniuge o partner e ai loro dipendenti. |
     | Quota costo dipendente | L'importo di cui il dipendente è responsabile. |
     | Sezione applicabile 4980H Safe Harbor | 4980H Safe Harbor o codice sblocco transizione. |

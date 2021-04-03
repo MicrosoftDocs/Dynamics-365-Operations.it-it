@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 137416477928fd4d6b4438f25df5afea93972027
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2f300ac917ac21db9fffbffcc6eb8589357c0a3e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113124"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466208"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Configurare opzioni di idoneità per contatti personali
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In questo articolo viene illustrato come configurare i tipi di contatti personali da utilizzare nei benefit in Microsoft Dynamics 365 Human Resources. I contatti personali possono essere beneficiari o persone a carico. 
 
@@ -38,7 +40,7 @@ In questo articolo viene illustrato come configurare i tipi di contatti personal
    | Campo | Descrizione |
    | --- | --- |
    | **Opzione di idoneità** | Un nome o codice di opzione di idoneità univoco per identificare l'opzione di idoneità. |
-   | **Descrizione** | Una breve Descrizione dell'opzione di idoneità. |
+   | **Descrizione** | Una breve descrizione dell'opzione di idoneità. |
    | **Codice di idoneità contatto** | Codice di sistema che descrive meglio l'opzione di idoneità personale. È possibile scegliere tra: <ul><li>Rapporto</li><li>Studente</li><li>Parte dipendente troppo anziana</li><li>Parte dipendente disabilitata troppo anziana</li></ul> |
    | **Stato** | Lo stato dell'opzione di idoneità. Se lo stato di un'opzione di idoneità è impostato su inattivo, non è possibile selezionare quell'opzione di idoneità per contatti personali. |
    | **Rapporto** | Specifica la relazione tra il contatto personale e il dipendente. Questo campo è attivo solo se il codice di idoneità del contatto è impostato su Relazione. |

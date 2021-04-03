@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 044a2d2f632b2c98ce94b6d61c2582a861640b68
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2d5f65672960716bee3f58c98ccce249fdbf8697
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113104"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467147"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurare l'integrazione con Dayforce
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo articolo. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
 
@@ -208,7 +210,7 @@ I codici di reddito identificano in modo univoco ogni tipo di reddito che i lavo
 Le informazioni seguenti vengono utilizzate in Dayforce:
 
 - Codice di reddito (obbligatorio)
-- descrizione
+- Descrizione
 - Unità di misura
 - Produttivo
 
@@ -378,7 +380,7 @@ I tipi di mansione vengono utilizzati per raggruppare mansioni simili in categor
 
 I seguenti tipi di mansione e le descrizioni sono obbligatori.
 
-| Tipo di processo   | descrizione |
+| Tipo di processo   | Descrizione |
 |------------|-------------|
 | Su base oraria     | Su base oraria      |
 | Stipendiato   | Stipendiato    |
@@ -389,7 +391,7 @@ Si utilizzano i tipi di posizione per descrivere se è la posizione è a tempo p
 
 I seguenti tipi di posizione e le descrizioni sono obbligatori.
 
-| Tipo di posizione   | descrizione        |
+| Tipo di posizione   | Descrizione        |
 |-----------------|--------------------|
 | A tempo pieno       | Dipendente a tempo pieno |
 | A tempo parziale       | Dipendente a tempo parziale |
@@ -400,7 +402,7 @@ I codici motivo forniscono informazioni sullo stato di un dipendente. I codici m
 
 I seguenti codici motivo e le descrizioni sono obbligatori.
 
-| Codice motivo    | descrizione      | Scenari applicabili |
+| Codice motivo    | Descrizione      | Scenari applicabili |
 |----------------|------------------|----------------------|
 | RESIGNATION    | Dimissioni      | Termina rapporto con lavoratore     |
 | TERMINATION    | Fine      | Termina rapporto con lavoratore     |
@@ -511,7 +513,7 @@ I tipi di mansione vengono utilizzati per raggruppare mansioni simili in categor
 
 I seguenti tipi di mansione e le descrizioni sono obbligatori.
 
-| Tipo di processo   | descrizione |
+| Tipo di processo   | Descrizione |
 |------------|-------------|
 | Su base oraria     | Su base oraria MX   |
 | Stipendiato   | Stipendiato MX |
@@ -522,7 +524,7 @@ Si utilizzano i tipi di posizione per descrivere se è la posizione è a tempo p
 
 I seguenti tipi di posizione e le descrizioni sono obbligatori.
 
-| Tipo di posizione   | descrizione        |
+| Tipo di posizione   | Descrizione        |
 |-----------------|--------------------|
 | A tempo pieno       | Dipendente a tempo pieno |
 | A tempo parziale       | Dipendente a tempo parziale |
@@ -533,7 +535,7 @@ I codici motivo forniscono informazioni sullo stato di un dipendente. I codici m
 
 I seguenti codici motivo e le descrizioni sono obbligatori.
 
-| Codice motivo            | descrizione                    | Scenari applicabili |
+| Codice motivo            | Descrizione                    | Scenari applicabili |
 |------------------------|--------------------------------|----------------------|
 | DEPARTUREBEFOREPAYMENT | Partenza prima della prima retribuzione | Termina rapporto con lavoratore     |
 | RESIGNATION            | Dimissioni                    | Termina rapporto con lavoratore     |
@@ -554,7 +556,7 @@ Le condizioni di impiego vengono utilizzate per creare categorie di termini di i
 
 I seguenti termini di impiego e le descrizioni sono obbligatori.
 
-| Condizioni di impiego   | descrizione |
+| Condizioni di impiego   | Descrizione |
 |-----------------------|-------------|
 | Regolare               | Regolare     |
 | Diretto                | Diretto      |

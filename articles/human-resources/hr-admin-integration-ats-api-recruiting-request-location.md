@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fa153b1cfcbb70294ed6da3618c83396df04f8db
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 9a3b47c76094adb6c601daf2f9583116255b0a99
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125235"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465944"
 ---
 # <a name="recruiting-request-location"></a>Percorso richieste di selezione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Posizione richiesta di selezione per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmrecruitingrequestlocationentity
 
-### <a name="description"></a>descrizione
+### <a name="description"></a>Descrizione
 
 L'elenco delle posizioni definite come posizioni in cui i dipendenti reclutati lavoreranno al momento dell'assunzione. Queste sono posizioni create da persone giuridiche.
 
@@ -58,7 +60,7 @@ L'elenco delle posizioni definite come posizioni in cui i dipendenti reclutati l
 
 ### <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID ubicazione**<br>mshr_locationid<br>*String* | Scrivi una volta<br>Richiesto | L'identificatore generato dal sistema, leggibile dall'utente per la posizione di selezione. |
 | **Percorso richieste di selezione**<br>mshr_recruitingrequestlocationid<br>*String* | Scrivi una volta<br>Richiesto | Identificatore univoco definito dall'utente per la posizione di selezione. |

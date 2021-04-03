@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 722ae95de3b1822f3c7246394c3d16b8b827723b
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: a6a32dc1c2e645be392db81c092534e8789aedd1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115610"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465584"
 ---
 # <a name="performance-management"></a>Gestione delle prestazioni
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile. A loro volta, i responsabili possono quindi fornire un riscontro e le indicazioni ai dipendenti.  
 
@@ -106,7 +108,7 @@ Per stampare le revisioni, selezionare il pulsante **Stampa revisione**. Se il p
 
 È possibile effettuare il pull degli obiettivi nei dettagli della revisione e specificare i relativi commenti. È inoltre possibile impostare le competenze e specificare i relativi commenti.
 
-### <a name="measurements"></a>Misurazioni
+### <a name="measurements"></a>Misure
 
 È possibile visualizzare le misure correlate a un obiettivo o a una revisione. È inoltre possibile aggiungere una nuova misura correlata alla revisione.
 
@@ -152,7 +154,7 @@ Il flusso di lavoro Revisione lavoratore ha due elementi:
 
 Sono disponibili tre pagine che consentono di impostare le informazioni necessarie per completare il processo delle prestazioni: la pagina **misure**, la pagina **tipi di origine giornale di registrazione prestazioni** e la pagina **tipi di revisione**.
 
-### <a name="measurements"></a>Misurazioni
+### <a name="measurements"></a>Misure
 
 La pagina delle misure consente di creare le misure standard che verranno utilizzate nelle pagine **obiettivi prestazioni** e **revisioni**. È possibile creare misure quali date, importi, quantità o percentuali o misure basate su un modello di valutazione.
 

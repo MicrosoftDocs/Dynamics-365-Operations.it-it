@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 258ae2f0531b8112fda5c4c8b995d855df68c116
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 1514d924762c7a06fdc5189e61d3701d00308df7
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125523"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464430"
 ---
 # <a name="months-of-year"></a>Mesi dell'anno
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive il set di opzioni Mesi dell'anno impostato per Dynamics 365 Human Resources.
 
@@ -31,7 +33,7 @@ Nome fisico: mshr_monthsofyear
 
 Questa enumerazione fornisce il set di opzioni di generi per i mesi dell'anno.
 
-| Valore | Etichetta | descrizione |
+| Valore | Etichetta | Descrizione |
 | --- | --- | --- |
 | 200000000 | Nessuna priorità | Non è stato selezionato alcun valore. |
 | 200000001 | gennaio | Gennaio. |

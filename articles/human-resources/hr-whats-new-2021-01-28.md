@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4739b5b1b6c61e829dd931ba8d4c9e0e49c8aed
-ms.sourcegitcommit: fb335954f73eaa2233ef6fb1e7fab1ece3c50756
+ms.openlocfilehash: d9a28ceb74a6cf90e72ccdc91186b685d7d838cb
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5081293"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463360"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Novità o modifiche in Dynamics 365 Human Resources 28 gennaio 2021
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources.
 
@@ -53,7 +55,7 @@ Questa versione include le seguenti correzioni di bug.
 > Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
 
 
-| Numero problema | Uscita |  descrizione |
+| Numero problema | Uscita |  Descrizione |
 | --- | --- | --- |
 | 539456 | Il calendario mostra il tipo di congedo nel testo al passaggio del mouse quando il parametro **Mostra assenza senza dettagli** è abilitato. | Quando l'opzione **Mostra assenza senza dettagli** è abilitata, la data della richiesta ora viene visualizzata al passaggio del mouse. |
 | 528907 | La concessione dell'accesso a una persona giuridica nel ruolo di dipendente fa sì che i manager non siano in grado di vedere l'attività del saldo delle ferie per i dipendenti nell'area **Team personale** del self-service dei dipendenti. |L'impostazione di questa opzione ora consente ai manager di continuare a vedere l'attività del saldo delle ferie. |

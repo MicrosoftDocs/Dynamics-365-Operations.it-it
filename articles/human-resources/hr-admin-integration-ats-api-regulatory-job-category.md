@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b68103bafae4b963ba4ece3f288c6398b343edc
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 416df7d700a63a48bfe827d735ac68d9464246e5
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126124"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464600"
 ---
 # <a name="regulatory-job-category"></a>Categoria di lavoro normativa
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive il set di opzioni Categoria di lavoro normativa impostato per Dynamics 365 Human Resources.
 
@@ -31,7 +33,7 @@ Nome fisico: mshr_hcmregulatoryjobcategory
 
 Questa enumerazione specifica il set di opzioni per i valori del set di opzioni della categoria di lavoro normativa. Viene fornito nel set di opzioni mshr_hcmregulatoryjobcategory esistente.
 
-| Valore | Etichetta | descrizione |
+| Valore | Etichetta | Descrizione |
 | --- | --- | --- |
 | 200000000 | Nessuna priorità | Nessuna. |
 | 200000001 | Direzione | Funzionari e dirigenti di livello esecutivo/senior. |

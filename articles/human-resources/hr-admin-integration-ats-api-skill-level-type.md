@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d87b1a62d592b7ea9be35ba3852e9ea0cb88eae
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 3a3c920baddddaab7628a6ce5d8afa79c321fba1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125908"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465896"
 ---
 # <a name="skill-level-type"></a>Tipo di livello di competenza
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'opzione Tipo di livello di competenza impostata per Dynamics 365 Human Resources.
 
@@ -31,7 +33,7 @@ Nome fisico: mshr_hrmskillleveltype
 
 Questa enumerazione fornisce il set di opzioni di valori che classificano il livello assegnato alla competenza di un candidato.
 
-| Valore | Etichetta | descrizione |
+| Valore | Etichetta | Descrizione |
 | --- | --- | --- |
 | 200000000 | Valore effettivo | Livello di competenza effettivo. |
 | 200000001 | Destinatari | Valore di destinazione per il livello di competenza. |

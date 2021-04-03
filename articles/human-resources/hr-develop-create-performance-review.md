@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 031f1ecf6b9ee0673021e838c4a4e23755199543
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115802"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465608"
 ---
 # <a name="create-performance-reviews"></a>Creare revisioni delle prestazioni
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 In questo argomento viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF.
@@ -49,7 +51,7 @@ In questo argomento viene illustrato come creare una revisione delle prestazioni
 14. Selezionare **Espandi tutto**.
 15. Selezionare **Aggiungi commento**.
 16. Selezionare **Registra**.
-17. Selezionare la scheda **Misurazioni**.
+17. Selezionare la scheda **Misure**.
 18. Selezionare **Aggiungi misura** per aprire il menu della finestra di dialogo.
 19. Nel campo **Misura** immettere o selezionare un valore.
 26. Nel campo **Importo di destinazione** immettere un numero.

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 17183c3af289fd65f2cbd8e2d635d74d2b73ad29
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: a45d504d7cf6566327e7a2d7b414b8ed1b2c2fb9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115440"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464936"
 ---
 # <a name="questionnaires"></a>Questionari
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In questo articolo vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati. 
 
@@ -39,7 +41,7 @@ In questo articolo vengono fornite informazioni generali sui questionari e colle
 
 Nella seguente tabella vengono forniti i collegamenti alle informazioni sulle attività principali del questionario. Fare clic sui collegamenti per ulteriori informazioni.
 
-| Argomento| descrizione|
+| Argomento| Descrizione|
 |------|------------|
 | [Progettare un questionario](hr-learning-design-questionnaires.md) | In questo articolo sono riportate informazioni su cine progettare un questionario. Il processo di progettazione include impostare i prerequisiti, le risposte e le domande quindi combinare questi elementi in un questionario. |
 | [Distribuire e programmare questionari](hr-learning-distribute-questionnaires.md) | In questo articolo sono presenti informazioni su come distribuire un questionario agli intervistati e come completare i questionari. |

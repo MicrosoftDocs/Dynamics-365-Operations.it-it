@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b6bcbbd1203f4e9e80f6c5264cf4d5ea7d0970fc
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 65d5492ed988c51efe9e1629fa13225f1b4a3c15
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126100"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464204"
 ---
 # <a name="person-skill"></a>Competenza della persona
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Competenza persona per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmpersonskillentity
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità descrive le competenze di un candidato.
 
@@ -59,7 +61,7 @@ Questa entità descrive le competenze di un candidato.
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità competenza persona**<br>mshr_hcmpersonskillentityid<br>*GUID* | Sola lettura<br>Richiesto | Identificatore univoco generato dal sistema per il record dell'entità. |
 | **Numero parte**<br>mshr_partynumber<br>*String* | Lettura/scrittura<br>Richiesto |   L'ID del record della parte associata (persona). |

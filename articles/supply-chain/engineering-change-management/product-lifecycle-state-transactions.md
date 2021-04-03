@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9c6ba9831b84e1220ee158d8186675107b490124
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266177"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Transazioni e stati del ciclo di vita del prodotto
 
@@ -45,16 +45,16 @@ Per lavorare con gli stati del ciclo di vita del prodotto, andare a **Gestione m
 
 Impostare i seguenti campi nell'intestazione dello stato del ciclo di vita del prodotto.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Stato/regione | Immettere un nome per lo stato del ciclo di vita del prodotto. |
-| descrizione | Immettere una descrizione dello stato del ciclo di vita del prodotto. |
+| Descrizione | Immettere una descrizione dello stato del ciclo di vita del prodotto. |
 
 ### <a name="general-fasttab"></a>Scheda dettaglio Generale
 
 Nella scheda dettaglio **Generale** impostare i seguenti campi.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Predefinito quando viene rilasciato a una persona giuridica | Per i prodotti standard, impostare questa opzione su *Sì* se questo stato del ciclo di vita deve essere applicato a tutti i prodotti per impostazione predefinita quando vengono rilasciati per la prima volta. Impostarlo su *No* se questo stato del ciclo di vita verrà applicato manualmente in un secondo momento.<p>Questa impostazione non è applicabile ai prodotti di progettazione. Lo stato del ciclo di vita di una versione del prodotto di progettazione dopo che è stata creata nella società di progettazione è specificato nella sua categoria delle modifiche di progettazione. Quando il prodotto viene rilasciato a una società operativa, lo stato del ciclo di vita del prodotto viene copiato. In altre parole, quando un prodotto di progettazione viene rilasciato a una società operativa, ha lo stesso stato del ciclo di vita che aveva nella società di progettazione. Lo stato del ciclo di vita può essere sovrascritto nella società operativa.</p> |
 | Attivo per pianificazione | Impostare questa opzione su *Sì* per includere i prodotti che si trovano in questo stato del ciclo di vita nei calcoli a livello di pianificazione generale e distinta base (DBA). Impostarla su *No* per escludere i prodotti che si trovano in questo stato del ciclo di vita dai calcoli. |
@@ -68,7 +68,7 @@ Utilizzare la scheda dettaglio **Processi aziendali abilitati** per controllare 
 
 I seguenti campi sono disponibili per ogni processo elencato nella scheda dettaglio **Processi aziendali abilitati**.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Elaborazione | Questo campo di sola lettura mostra il nome di un processo aziendale esistente. |
 | Area di processo | Questo campo di sola lettura mostra il nome di un'area di processo esistente. |

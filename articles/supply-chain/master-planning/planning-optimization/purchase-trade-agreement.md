@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992247"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264724"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Pianificazione generale con accordi commerciali di acquisto
 
@@ -73,12 +73,12 @@ Dopo aver preparato il sistema come descritto nella sezione precedente, è neces
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Esempi di come l'ottimizzazione della pianificazione trova il fornitore e i lead time
 
-La tabella seguente fornisce esempi che mostrano in che modo le varie impostazioni per un prodotto rilasciato e i relativi accordi commerciali di acquisto influenzano i valori rilevati per l'ordine fornitore pianificato risultante. I valori in **grassetto** nelle due colonne più a destra sono i valori selezionati dall'ottimizzazione della pianificazione. I valori in *_grassetto e corsivo_* nelle altre colonne sono le impostazioni che hanno prodotto quei valori risultanti per ogni riga.
+La tabella seguente fornisce esempi che mostrano in che modo le varie impostazioni per un prodotto rilasciato e i relativi accordi commerciali di acquisto influenzano i valori rilevati per l'ordine fornitore pianificato risultante. I valori in **grassetto** nelle due colonne più a destra sono i valori selezionati dall'ottimizzazione della pianificazione. I valori in **_grassetto e corsivo_** nelle altre colonne sono le impostazioni che hanno prodotto quei valori risultanti per ogni riga.
 
 | Prodotto rilasciato: Fornitore | Impostazioni ordine predefinite: Lead time | Copertura articolo: Sostituisci fornitore | Copertura articolo: Sostituisci lead time | Accordo commerciale: Fornitore | Accordo commerciale: Lead time | Accordo commerciale: Ignora lead time | Fornitore risultante | Lead time risultante |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| _*_US001_*_ | _*_1_*_ | Nessuno | Nessuno | US003 | 3 | Nessuno | _ *US001** | **1** |
-| US001 | 1 | **_Sì: US002_* _ | _*_Sì: 2_*_ | US003 | 3 | Nessuno | _ *US002** | **2** |
+| ***US001** _ | _*_1_*_ | Nessuno | Nessuno | US003 | 3 | Nessuno | _ *US001** | **1** |
+| US001 | 1 | ***Sì: US002** _ | _*_Sì: 2_*_ | US003 | 3 | Nessuno | _ *US002** | **2** |
 | *(Vuoto)* | 1 | Nessuno | Nessuno | ***US003** _ | _*_3_*_ | Nessuno | _ *US003** | **3** |
 | *(Vuoto)* | ***1** _ | Nessuno | Nessuno | _*_US003_*_ | 3 | Sì | _ *US003** | **1** |
 | *(Vuoto)* | ***1** _ | _*_Sì: US002_*_ | Nessuno | US003 | 3 | Nessuno | _ *US002** | **1** |

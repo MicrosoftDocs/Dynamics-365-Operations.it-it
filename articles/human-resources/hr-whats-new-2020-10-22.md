@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 41b4e92720c6a9f830d940900c3c6e5b0a173de0
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 642250fa34ee87065f4ed2cf8f3893390d271007
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130833"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464792"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 22 ottobre 2020
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -53,7 +55,7 @@ Questa versione include le seguenti correzioni di bug.
 > [!NOTE]
 > Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
 
-| Numero problema| Uscita  | descrizione|
+| Numero problema| Uscita  | Descrizione|
 | --- | --- | --- |
 | 437922 | L'importazione delle ore FMLA utilizzando l'entità DMF genera un errore di sola lettura. | L'utilizzo dell'entità ore FMLA per importare le ore associate a un caso FMLA non è riuscito. È stata aggiunta una logica per garantire che le ore importate non superino le ore rimanenti per il caso. |
 | 512019 | Importo **Ultimo riporto in avanti** non corretto. | Nella pagina **Permesso**, cambiando **In data** sul primo giorno del periodo fiscale successivo visualizza un importo **Ultimo riporto in avanti** non corretto per il tipo **Congedo annuale**. Ora visualizza l'importo corretto. |
