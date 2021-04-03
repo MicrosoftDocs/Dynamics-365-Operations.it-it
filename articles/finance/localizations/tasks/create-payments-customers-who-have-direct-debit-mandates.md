@@ -15,55 +15,58 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 934d086661dbbf1c7ba1d868f90caafe5b0bebf2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 65da5f9fe55d11e7ccfb9bd86f9b37181e0adf41
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964568"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260751"
 ---
-# <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a><span data-ttu-id="ec56c-103">Creare pagamenti per un cliente con mandati di addebito diretto</span><span class="sxs-lookup"><span data-stu-id="ec56c-103">Create payments for a customer who have direct debit mandates</span></span>
+# <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a><span data-ttu-id="61e55-103">Creare pagamenti per un cliente con mandati di addebito diretto</span><span class="sxs-lookup"><span data-stu-id="61e55-103">Create payments for a customer who have direct debit mandates</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ec56c-104">In questa procedura viene illustrato come generare un file di pagamento in addebito diretto ISO20022 per un cliente che ha configurato l'addebito diretto e una fattura da pagare.</span><span class="sxs-lookup"><span data-stu-id="ec56c-104">This procedure shows how to generate an ISO20022 direct debit payment file for a customer who has direct debit configured and an invoice to be paid.</span></span> <span data-ttu-id="ec56c-105">La creazione e registrazione di una fattura sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="ec56c-105">Creating and posting an invoice is optional.</span></span> <span data-ttu-id="ec56c-106">Anziché avere una fattura da pagare è possibile selezionare un mandato in un giornale di registrazione prima di generare un file di pagamento, per supportare uno scenario di pagamento anticipato del cliente.</span><span class="sxs-lookup"><span data-stu-id="ec56c-106">Instead of having an invoice to be paid you can select a mandate in a journal prior to generating a payment file, to support a customer prepayment scenario.</span></span>
+<span data-ttu-id="61e55-104">In questa procedura viene illustrato come generare un file di pagamento in addebito diretto ISO20022 per un cliente che ha configurato l'addebito diretto e una fattura da pagare.</span><span class="sxs-lookup"><span data-stu-id="61e55-104">This procedure shows how to generate an ISO20022 direct debit payment file for a customer who has direct debit configured and an invoice to be paid.</span></span> <span data-ttu-id="61e55-105">La creazione e registrazione di una fattura sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="61e55-105">Creating and posting an invoice is optional.</span></span> <span data-ttu-id="61e55-106">Anziché avere una fattura da pagare è possibile selezionare un mandato in un giornale di registrazione prima di generare un file di pagamento, per supportare uno scenario di pagamento anticipato del cliente.</span><span class="sxs-lookup"><span data-stu-id="61e55-106">Instead of having an invoice to be paid you can select a mandate in a journal prior to generating a payment file, to support a customer prepayment scenario.</span></span>
 
 
 
-<span data-ttu-id="ec56c-107">La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.</span><span class="sxs-lookup"><span data-stu-id="ec56c-107">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="61e55-107">La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.</span><span class="sxs-lookup"><span data-stu-id="61e55-107">The demo data company used to create this procedure is DEMF.</span></span>
 
 
 
-<span data-ttu-id="ec56c-108">Si tratta della quinta di cinque procedure che illustrano il processo di pagamento cliente utilizzando le configurazioni di creazione di report elettronici.</span><span class="sxs-lookup"><span data-stu-id="ec56c-108">This is the fifth of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span> <span data-ttu-id="ec56c-109">Per completare questa attività, è necessario completare le attività precedenti.</span><span class="sxs-lookup"><span data-stu-id="ec56c-109">Before you can complete this task, you must complete the earlier tasks.</span></span> <span data-ttu-id="ec56c-110">È innanzitutto necessario importare le configurazioni per la creazione di report elettronici di pagamento cliente, configurare il metodo di pagamento e impostare le informazioni sulla società e sul cliente.</span><span class="sxs-lookup"><span data-stu-id="ec56c-110">You must first import customer payment electronic reporting configurations, configure method of payments, and set up your company and customer information.</span></span> 
+<span data-ttu-id="61e55-108">Si tratta della quinta di cinque procedure che illustrano il processo di pagamento cliente utilizzando le configurazioni di creazione di report elettronici.</span><span class="sxs-lookup"><span data-stu-id="61e55-108">This is the fifth of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span> <span data-ttu-id="61e55-109">Per completare questa attività, è necessario completare le attività precedenti.</span><span class="sxs-lookup"><span data-stu-id="61e55-109">Before you can complete this task, you must complete the earlier tasks.</span></span> <span data-ttu-id="61e55-110">È innanzitutto necessario importare le configurazioni per la creazione di report elettronici di pagamento cliente, configurare il metodo di pagamento e impostare le informazioni sulla società e sul cliente.</span><span class="sxs-lookup"><span data-stu-id="61e55-110">You must first import customer payment electronic reporting configurations, configure method of payments, and set up your company and customer information.</span></span> 
 
 
-## <a name="post-a-free-text-invoice-with-direct-debit-information"></a><span data-ttu-id="ec56c-111">Registrare una fattura a testo libero con le informazioni sull'addebito diretto</span><span class="sxs-lookup"><span data-stu-id="ec56c-111">Post a free text invoice with direct debit information</span></span>
-1. <span data-ttu-id="ec56c-112">Andare a Contabilità clienti > Fatture > Tutte le fatture a testo libero.</span><span class="sxs-lookup"><span data-stu-id="ec56c-112">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
-2. <span data-ttu-id="ec56c-113">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ec56c-113">Click New.</span></span>
-3. <span data-ttu-id="ec56c-114">Nel campo Conto cliente, immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ec56c-114">In the Customer account field, enter or select a value.</span></span>
-    * <span data-ttu-id="ec56c-115">Selezionare, ad esempio, DE-010.</span><span class="sxs-lookup"><span data-stu-id="ec56c-115">For example, select DE-010.</span></span>  
-4. <span data-ttu-id="ec56c-116">Nel campo Metodo di pagamento immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ec56c-116">In the Method of payment field, enter or select a value.</span></span>
-    * <span data-ttu-id="ec56c-117">Ad esempio,</span><span class="sxs-lookup"><span data-stu-id="ec56c-117">For example.</span></span> <span data-ttu-id="ec56c-118">selezionare Elettronico.</span><span class="sxs-lookup"><span data-stu-id="ec56c-118">select Electronic.</span></span>  
-5. <span data-ttu-id="ec56c-119">Nel campo ID mandato di addebito diretto, immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ec56c-119">In the Direct debit mandate ID field, enter or select a value.</span></span>
-6. <span data-ttu-id="ec56c-120">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="ec56c-120">Click Add line.</span></span>
-7. <span data-ttu-id="ec56c-121">Digitare un valore nel campo Descrizione.</span><span class="sxs-lookup"><span data-stu-id="ec56c-121">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="ec56c-122">Nel campo Conto principale, specificare i valori desiderati.</span><span class="sxs-lookup"><span data-stu-id="ec56c-122">In the Main account field, specify the desired values.</span></span>
-9. <span data-ttu-id="ec56c-123">Nel campo Prezzo unitario immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="ec56c-123">In the Unit price field, enter a number.</span></span>
-10. <span data-ttu-id="ec56c-124">Fare clic su Registra.</span><span class="sxs-lookup"><span data-stu-id="ec56c-124">Click Post.</span></span>
-11. <span data-ttu-id="ec56c-125">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="ec56c-125">Click OK.</span></span>
+## <a name="post-a-free-text-invoice-with-direct-debit-information"></a><span data-ttu-id="61e55-111">Registrare una fattura a testo libero con le informazioni sull'addebito diretto</span><span class="sxs-lookup"><span data-stu-id="61e55-111">Post a free text invoice with direct debit information</span></span>
+1. <span data-ttu-id="61e55-112">Andare a Contabilità clienti > Fatture > Tutte le fatture a testo libero.</span><span class="sxs-lookup"><span data-stu-id="61e55-112">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
+2. <span data-ttu-id="61e55-113">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="61e55-113">Click New.</span></span>
+3. <span data-ttu-id="61e55-114">Nel campo Conto cliente, immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="61e55-114">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="61e55-115">Selezionare, ad esempio, DE-010.</span><span class="sxs-lookup"><span data-stu-id="61e55-115">For example, select DE-010.</span></span>  
+4. <span data-ttu-id="61e55-116">Nel campo Metodo di pagamento immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="61e55-116">In the Method of payment field, enter or select a value.</span></span>
+    * <span data-ttu-id="61e55-117">Ad esempio,</span><span class="sxs-lookup"><span data-stu-id="61e55-117">For example.</span></span> <span data-ttu-id="61e55-118">selezionare Elettronico.</span><span class="sxs-lookup"><span data-stu-id="61e55-118">select Electronic.</span></span>  
+5. <span data-ttu-id="61e55-119">Nel campo ID mandato di addebito diretto, immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="61e55-119">In the Direct debit mandate ID field, enter or select a value.</span></span>
+6. <span data-ttu-id="61e55-120">Fare clic su Aggiungi riga.</span><span class="sxs-lookup"><span data-stu-id="61e55-120">Click Add line.</span></span>
+7. <span data-ttu-id="61e55-121">Digitare un valore nel campo Descrizione.</span><span class="sxs-lookup"><span data-stu-id="61e55-121">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="61e55-122">Nel campo Conto principale, specificare i valori desiderati.</span><span class="sxs-lookup"><span data-stu-id="61e55-122">In the Main account field, specify the desired values.</span></span>
+9. <span data-ttu-id="61e55-123">Nel campo Prezzo unitario immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="61e55-123">In the Unit price field, enter a number.</span></span>
+10. <span data-ttu-id="61e55-124">Fare clic su Registra.</span><span class="sxs-lookup"><span data-stu-id="61e55-124">Click Post.</span></span>
+11. <span data-ttu-id="61e55-125">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="61e55-125">Click OK.</span></span>
 
-## <a name="create-a-payment"></a><span data-ttu-id="ec56c-126">Creare un pagamento</span><span class="sxs-lookup"><span data-stu-id="ec56c-126">Create a payment</span></span>
-1. <span data-ttu-id="ec56c-127">Andare a Contabilità clienti > Pagamenti > Giornale di registrazione pagamenti.</span><span class="sxs-lookup"><span data-stu-id="ec56c-127">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="ec56c-128">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="ec56c-128">Click New.</span></span>
-3. <span data-ttu-id="ec56c-129">Nel campo Nome immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ec56c-129">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="ec56c-130">Fare clic su Righe.</span><span class="sxs-lookup"><span data-stu-id="ec56c-130">Click Lines.</span></span>
-5. <span data-ttu-id="ec56c-131">Fare clic su Proposta di pagamento.</span><span class="sxs-lookup"><span data-stu-id="ec56c-131">Click Payment proposal.</span></span>
-6. <span data-ttu-id="ec56c-132">Fare clic su Crea proposta di pagamento.</span><span class="sxs-lookup"><span data-stu-id="ec56c-132">Click Create payment proposal.</span></span>
-7. <span data-ttu-id="ec56c-133">Espandere la sezione Record da includere.</span><span class="sxs-lookup"><span data-stu-id="ec56c-133">Expand the Records to include section.</span></span>
-8. <span data-ttu-id="ec56c-134">Fare clic su Filtro.</span><span class="sxs-lookup"><span data-stu-id="ec56c-134">Click Filter.</span></span>
-9. <span data-ttu-id="ec56c-135">Nell'elenco, selezionare la riga relativa alla tabella delle transazioni cliente e il campo Metodo di pagamento.</span><span class="sxs-lookup"><span data-stu-id="ec56c-135">In the list, select the row for the Customer transactions table and the Method of payment field.</span></span>
-    * <span data-ttu-id="ec56c-136">È possibile applicare qualsiasi criterio per la selezione delle transazioni cliente per il pagamento.</span><span class="sxs-lookup"><span data-stu-id="ec56c-136">You can apply any criteria for selecting customer transactions to pay.</span></span> <span data-ttu-id="ec56c-137">Per questo esempio, utilizzare Elettronico come metodo di pagamento per filtrare le transazioni.</span><span class="sxs-lookup"><span data-stu-id="ec56c-137">For this example, use Electronic as a method of payment to filter transactions.</span></span>  
-10. <span data-ttu-id="ec56c-138">Nel campo Criteri immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="ec56c-138">In the Criteria field, enter or select a value.</span></span>
-11. <span data-ttu-id="ec56c-139">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="ec56c-139">Click OK.</span></span>
-12. <span data-ttu-id="ec56c-140">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="ec56c-140">Click OK.</span></span>
-13. <span data-ttu-id="ec56c-141">Fare clic su Crea pagamenti.</span><span class="sxs-lookup"><span data-stu-id="ec56c-141">Click Create payments.</span></span>
+## <a name="create-a-payment"></a><span data-ttu-id="61e55-126">Creare un pagamento</span><span class="sxs-lookup"><span data-stu-id="61e55-126">Create a payment</span></span>
+1. <span data-ttu-id="61e55-127">Andare a Contabilità clienti > Pagamenti > Giornale di registrazione pagamenti.</span><span class="sxs-lookup"><span data-stu-id="61e55-127">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="61e55-128">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="61e55-128">Click New.</span></span>
+3. <span data-ttu-id="61e55-129">Nel campo Nome immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="61e55-129">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="61e55-130">Fare clic su Righe.</span><span class="sxs-lookup"><span data-stu-id="61e55-130">Click Lines.</span></span>
+5. <span data-ttu-id="61e55-131">Fare clic su Proposta di pagamento.</span><span class="sxs-lookup"><span data-stu-id="61e55-131">Click Payment proposal.</span></span>
+6. <span data-ttu-id="61e55-132">Fare clic su Crea proposta di pagamento.</span><span class="sxs-lookup"><span data-stu-id="61e55-132">Click Create payment proposal.</span></span>
+7. <span data-ttu-id="61e55-133">Espandere la sezione Record da includere.</span><span class="sxs-lookup"><span data-stu-id="61e55-133">Expand the Records to include section.</span></span>
+8. <span data-ttu-id="61e55-134">Fare clic su Filtro.</span><span class="sxs-lookup"><span data-stu-id="61e55-134">Click Filter.</span></span>
+9. <span data-ttu-id="61e55-135">Nell'elenco, selezionare la riga relativa alla tabella delle transazioni cliente e il campo Metodo di pagamento.</span><span class="sxs-lookup"><span data-stu-id="61e55-135">In the list, select the row for the Customer transactions table and the Method of payment field.</span></span>
+    * <span data-ttu-id="61e55-136">È possibile applicare qualsiasi criterio per la selezione delle transazioni cliente per il pagamento.</span><span class="sxs-lookup"><span data-stu-id="61e55-136">You can apply any criteria for selecting customer transactions to pay.</span></span> <span data-ttu-id="61e55-137">Per questo esempio, utilizzare Elettronico come metodo di pagamento per filtrare le transazioni.</span><span class="sxs-lookup"><span data-stu-id="61e55-137">For this example, use Electronic as a method of payment to filter transactions.</span></span>  
+10. <span data-ttu-id="61e55-138">Nel campo Criteri immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="61e55-138">In the Criteria field, enter or select a value.</span></span>
+11. <span data-ttu-id="61e55-139">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="61e55-139">Click OK.</span></span>
+12. <span data-ttu-id="61e55-140">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="61e55-140">Click OK.</span></span>
+13. <span data-ttu-id="61e55-141">Fare clic su Crea pagamenti.</span><span class="sxs-lookup"><span data-stu-id="61e55-141">Click Create payments.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
