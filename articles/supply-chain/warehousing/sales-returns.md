@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8778a96030494cbb5d819bf214fca104864eff4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c01a945735f6340a0efd3d9c5ff74dd8cebd9ab7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977415"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263326"
 ---
 # <a name="sales-returns"></a>Resi su vendite
 
@@ -70,7 +70,7 @@ Il processo dell'ordine di reso inizia quando un cliente contatta l'organizzazio
 
 Quando si crea un ordine di reso, le informazioni nella tabella che segue devono essere incluse.
 
-| Campo              | descrizione                                              | Commenti                                                                                                                                                                                                                                                                                                                                        |
+| Campo              | Descrizione                                              | Commenti                                                                                                                                                                                                                                                                                                                                        |
 |--------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Account cliente   | Un riferimento alla tabella Clienti                       | È necessario immettere un conto cliente esistente.                                                                                                                                                                                                                                                                                                  |
 | Indirizzo di consegna   | Indirizzo al quale viene restituito l'articolo                 | Per impostazione predefinita, viene utilizzato l'indirizzo dell'organizzazione. Se nell'intestazione viene selezionato un magazzino specifico, l'indirizzo di consegna viene modificato nell'indirizzo di consegna del magazzino. È possibile modificare questo indirizzo nella pagina **Dettagli ordini di reso**.                                                                                                  |

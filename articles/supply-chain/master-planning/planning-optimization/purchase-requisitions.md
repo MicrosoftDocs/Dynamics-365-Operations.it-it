@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqCreatePlanWorkspace
+ms.search.form: ReqPlanSched, ReqGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8075f8d7c3868c6d6012edbce17dbbb4749209ab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 20b4012e054a25d7d21c6f017d8ebcf18f6ee28d
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992346"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501080"
 ---
 # <a name="purchase-requisitions"></a>Richieste di acquisto
 
@@ -44,7 +44,7 @@ L'opzione *Intervallo temporale richieste approvate* stabilisce quanto indietro 
 
 ### <a name="set-the-approved-requisitions-time-fence-for-a-coverage-group"></a>Impostare l'intervallo di tempo per le richieste approvate per un gruppo di copertura
 
-1. Andare a **Pianificazione generale** \> **Imposta** \> **Copertura** \> **Gruppi di copertura**.
+1. Selezionare **Pianificazione generale** \> **Impostazioni** \> **Copertura** \> **Gruppi di copertura**.
 1. Creare o selezionare un gruppo di copertura.
 1. Nella Scheda dettaglio **Altro**, impostare il campo **Intervallo temporale richieste approvate (giorni)** sul numero di giorni da includere nell'intervallo temporale.
 1. Ripetere i passaggi 2 e 3 per ogni gruppo di copertura aggiuntivo in cui si desidera impostare un intervallo di tempo per le richieste approvate.

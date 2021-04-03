@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 757c9bea86d0cba9b67c40ed5afd19804e01778c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092459"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564437"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenuto di Power BI per responsabile procedura
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto Power BI **Responsabile procedura**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto **Responsabile procedura** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -64,7 +63,7 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 ### <a name="entity-projectaccountingcube_actualhourutilization"></a>Entità: ProjectAccountingCube\_ActualHourUtilization
 **Origine dati:** ProjEmplTrans
 
-| Misura di aggregazione chiave      | Campo                              | descrizione |
+| Misura di aggregazione chiave      | Campo                              | Descrizione |
 |--------------------------------|------------------------------------|-------------|
 | Ore utilizzate fatturabili effettive | Sum(ActualUtilizationBillableRate) | Totale delle ore utilizzate fatturabili effettive. |
 | Ore improduttive rispetto alle ore fatturabili effettive   | Sum(ActualBurdenBillableRate)      | Totale della percentuale effettiva improduttiva. |
@@ -72,7 +71,7 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 ### <a name="entity-projectaccountingcube_actuals"></a>Entità: ProjectAccountingCube\_Actuals
 **Origine dati:** ProjTransPosting
 
-| Misura di aggregazione chiave | Campo              | descrizione |
+| Misura di aggregazione chiave | Campo              | Descrizione |
 |---------------------------|--------------------|-------------|
 | Ricavi effettivi            | Sum(ActualRevenue) | Totale dei ricavi registrati per tutte le transazioni. |
 | Costo effettivo               | Sum(ActualCost)    | Totale dei costi registrati per tutti i tipi di transazione. |
@@ -80,14 +79,14 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 ### <a name="entity-projectaccountingcube_customer"></a>Entità: ProjectAccountingCube\_Customer
 **Origine dati:** CustTable
 
-| Misura di aggregazione chiave | Campo                                             | descrizione |
+| Misura di aggregazione chiave | Campo                                             | Descrizione |
 |---------------------------|---------------------------------------------------|-------------|
 | Numero di progetti        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Numero di progetti disponibili. |
 
 ### <a name="entity-projectaccountingcube_forecasts"></a>Entità: ProjectAccountingCube\_Forecasts
 **Origine dati:** ProjTransBudget
 
-| Misura di aggregazione chiave | Campo                  | descrizione |
+| Misura di aggregazione chiave | Campo                  | Descrizione |
 |---------------------------|------------------------|-------------|
 | Costo budget               | Sum(BudgetCost)        | Totale dei costi previsti per tutti i tipi di transazione. |
 | Ricavi budget            | Sum(BudgetRevenue)     | Totale dei ricavi maturati/fatturati di previsione. |
@@ -96,14 +95,14 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 ### <a name="entity-projectaccountingcube_projectplancostsview"></a>Entità: ProjectAccountingCube\_ProjectPlanCostsView
 **Origine dati:** Project
 
-| Misura di aggregazione chiave | Campo                    | descrizione |
+| Misura di aggregazione chiave | Campo                    | Descrizione |
 |---------------------------|--------------------------|-------------|
 | Costo pianificato              | Sum(SumOfTotalCostPrice) | Prezzo di costo totale nelle stime per tutti i tipi di transazione di progetto con attività pianificate. |
 
 ### <a name="entity-projectaccountingcube_projects"></a>Entità: ProjectAccountingCube\_Projects
 **Origine dati:** Project
 
-| Misura di aggregazione chiave    | Campo | descrizione |
+| Misura di aggregazione chiave    | Campo | Descrizione |
 |------------------------------|-------|-------------|
 | Indice prestazioni costi       | ProjectAccountingCube\_Projects\[Valore ottenuto\] ÷ ProjectAccountingCube\_Projects\[Costo effettivo totale delle attività completate\] | Calcolo del valore realizzato totale diviso per il costo effettivo totale. |
 | Indice prestazioni programmazione   | ProjectAccountingCube\_Projects\[Valore ottenuto\] ÷ ProjectAccountingCube\_Projects\[Costo pianificato totale delle attività completate\] | Calcolo del valore realizzato totale diviso per il costo pianificato totale. |
@@ -114,7 +113,7 @@ Nelle sezioni seguenti vengono descritte le misure di aggregazione utilizzate in
 ### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Entità: ProjectAccountingCube\_TotalEstimatedCosts 
 **Origine dati:** ProjTable
 
-| Misura di aggregazione chiave       | Campo               | descrizione |
+| Misura di aggregazione chiave       | Campo               | Descrizione |
 |---------------------------------|---------------------|-------------|
 | Costo pianificato delle attività completate | Sum(TotalCostPrice) | Prezzo di costo totale nelle stime per tutti i tipi di transazione di progetto con attività completate. |
 

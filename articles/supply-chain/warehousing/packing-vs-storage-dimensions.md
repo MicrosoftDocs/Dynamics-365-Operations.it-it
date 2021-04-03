@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPhysDimUOM
+ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,18 +16,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 004d9b4522335b481b640ef0fe35f4db66e3c9f5
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078278"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501296"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Impostare dimensioni diverse per l'imballaggio e l'immagazzinamento
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Alcuni articoli sono imballati o sotccati in modo tale che potrebbe essere necessario tener traccia delle dimensioni fisiche in modo diverso per ciascuno dei diversi processi. La funzionalità *Dimensioni prodotto di imballaggio* consente di configurare uno o più tipi di dimensioni per ogni prodotto. Ogni tipo di dimensione fornisce una serie di misurazioni fisiche (peso, larghezza, profondità e altezza) e stabilisce il processo in cui si applicano tali valori di misurazione fisica. Quando questa fnzionalità è abilitata, il sistema supporterà i seguenti tipi di dimensioni:
+Alcuni articoli sono imballati o sotccati in modo tale che potrebbe essere necessario tener traccia delle dimensioni fisiche in modo diverso per ciascuno dei diversi processi. La funzionalità *Dimensioni prodotto di imballaggio* consente di configurare uno o più tipi di dimensioni per ogni prodotto. Ogni tipo di dimensione fornisce una serie di misure fisiche (peso, larghezza, profondità e altezza) e stabilisce il processo in cui si applicano tali valori di misura fisica. Quando questa fnzionalità è abilitata, il sistema supporterà i seguenti tipi di dimensioni:
 
 - *Immagazzinamento*: le dimensione di immagazzinamento vengono utilizzate insieme ai valori volumetrici di ubicazione per determinare il numero di articoli che possono essere immagazzinati in varie ubicazioni di magazzino.
 - *Imballaggio*: le dimensioni dell'imballaggio vengono utilizzate durante la containerizzazione e il processo di imballaggio manuale per determinare quanti di ciascun articolo si adatteranno ai vari tipi di contenitore.
@@ -125,7 +126,7 @@ In questo processo creerai una spedizione basata sulle dimensioni di *imballaggi
 1. Nella pagina **Prenotazione**, quindi nel riquadro azioni, selezionare **Prenota lotto** per prenotare le scorte.
 1. Chiudere la pagina.
 1. Nel riquadro azioni, aprire la scheda **Magazzino** e selezionare **Rilascia in magazzino** per creare lavoro per il magazzino.
-1. Nella Scheda dettaglio **Righe ordine di vendita**, selezionare **Magazzino \> Dettagli spedizione**.
+1. Nella Scheda dettaglio **Righe ordine cliente**, selezionare **Magazzino \> Dettagli spedizione**.
 1. Nel riquadro azioni, aprire la scheda **Trasporto** e selezionare **Visualizza contenitori**. Confermare che l'articolo è stato containerizzato nei due contenitori *Scatola piccola*.
 
 #### <a name="place-an-item-into-storage"></a>Posizionare un articolo in magazzino

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 08bdcef865c1e4904f32ce01f2956ac7acf55bf1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4a15b1c3df5de1dc5a55cfaa08686ee85ed50ba3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236029"
 ---
 # <a name="safety-margins"></a>Margini di sicurezza
 
@@ -55,7 +55,7 @@ La figura seguente evidenzia il margine su entrata.
 
 ![Margine su entrata](media/safety-margins-2.png)
 
-Il margine su entrata viene generalmente utilizzato come buffer per garantire il tempo per la registrazione del magazzino o altri processi dispendiosi in termini di tempo che non vengono acquisiti come parte del lead time generale nel sistema. Per gli acquisti, un vantaggio è che la *data di consegna* dell'ordine di acquisto viene spostata in avanti di conseguenza. Se si aumenta il lead time invece di utilizzare un margine di sicurezza, al venditore verrà comunque chiesto di consegnare all'ultimo minuto.
+Il margine su entrata viene generalmente utilizzato come buffer per garantire il tempo per la registrazione del magazzino o altri processi dispendiosi in termini di tempo che non vengono acquisiti come parte del lead time generale nel sistema. Per gli acquisti, un vantaggio è che la *data di consegna* dell'ordine fornitore viene spostata in avanti di conseguenza. Se si aumenta il lead time invece di utilizzare un margine di sicurezza, al venditore verrà comunque chiesto di consegnare all'ultimo minuto.
 
 Si noti che il margine su entrata non cambia la *data del fabbisogno* dell'offerta. Pertanto, il margine su entrata non è direttamente visibile quando vengono confrontate le date del fabbisogno per domanda e offerta (ad esempio, nella pagina **Fabbisogno netto**). Se ad esempio il margine su entrata in magazzino è impostato su 4 giorni e una riga dell'ordine fornitore è pianificata per l'entrata il giorno 15 del mese, nella pianificazione generale la data di entrata rettificata verrà calcolata come il giorno 19 del mese.
 
@@ -173,7 +173,7 @@ La figura seguente presenta una matrice che riepiloga i calendari applicabili qu
 
 Tutti e tre i tipi di margini di sicurezza sono inclusi quando il sistema determina se un ordine è in ritardo.
 
-Ad esempio, un articolo ha un lead time di un giorno e un margine su entrata di tre giorni. Un ordine di vendita per questo articolo è impostato come richiesto oggi. In questo caso, il ritardo viene calcolato come *lead time* + *margine su entrata* = quattro giorni. Pertanto, se oggi è il 14 agosto, i quattro giorni di ritardo producono una consegna il 18 agosto. Nella figura seguente viene illustrato questo esempio.
+Ad esempio, un articolo ha un lead time di un giorno e un margine su entrata di tre giorni. Un ordine cliente per questo articolo è impostato come richiesto oggi. In questo caso, il ritardo viene calcolato come *lead time* + *margine su entrata* = quattro giorni. Pertanto, se oggi è il 14 agosto, i quattro giorni di ritardo producono una consegna il 18 agosto. Nella figura seguente viene illustrato questo esempio.
 
 ![Esempio di calcolo dei ritardi](media/safety-margins-delays.png)
 

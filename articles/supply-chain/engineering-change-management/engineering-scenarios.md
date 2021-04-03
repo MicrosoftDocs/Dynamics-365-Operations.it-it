@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987581"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487923"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
 
@@ -397,7 +397,6 @@ Il tecnico ora esamina la richiesta del cliente e crea un ordine di modifica per
 
 1. Nel riquadro azioni, nella scheda **Ordine di modifica**, nel gruppo **Cambia stato** selezionare **Approva**.
 1. Selezionare **Elabora** per aggiornare le informazioni sul prodotto.
-1. Selezionare **Completo** per contrassegnare l'ordine di modifica come completato.
 
 ## <a name="release-the-changed-product"></a>Rilasciare il prodotto modificato
 
@@ -411,5 +410,8 @@ Il prodotto può ora essere rilasciato di nuovo nella società *USMF* e quindi i
 1. Selezionare **OK** per chiudere la finestra di dialogo **Rilasci** e tornare all'ordine di modifica.
 1. Nel riquadro azioni, nella scheda **Ordine di modifica**, nel gruppo **Rilasci prodotto** selezionare **Elabora** per rilasciare i prodotti interessati alle aziende selezionate. In alternativa, selezionare **Struttura prodotto di rilascio** per avviare il processo di rilascio.
 
+## <a name="complete-the-change-order"></a>Completare l'ordine di modifica
+
+Per contrassegnare l'ordine di modifica come completato, a indicare che non sono rimaste ulteriori azioni, selezionare **Completa** nel riquadro Azioni.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

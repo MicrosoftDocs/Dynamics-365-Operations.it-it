@@ -3,7 +3,7 @@ title: Panoramica Europa
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Europa.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
-ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
+ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5099901"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557426"
 ---
 # <a name="europe-overview"></a>Panoramica Europa
 
@@ -40,6 +40,7 @@ In questo argomento vengono fornite informazioni e collegamenti a risorse utili 
 - [Dichiarazione elenco vendite UE](emea-eu-sales-list.md)
 - [Rettifiche del tasso di cambio](emea-exchange-rate-adjustments.md)
 - [Formati di file per i metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md)
+- [Guida finanziaria (globalizzazione) sull'impatto della Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Integrazione servizio fiscale (PVR)](emea-fiscal-service-integration.md)
 - [Dismissione dei cespiti per Estonia e Lituania](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Generare un documento di trasferimento per un trasferimento scorte interno](tasks/transfer-document-internal-inventory-transfer.md)

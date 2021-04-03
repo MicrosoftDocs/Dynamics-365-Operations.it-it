@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994005"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487099"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Risolvere i problemi della configurazione del magazzino
 
@@ -109,5 +109,32 @@ Per consentire ai lavoratori di apportare questa modifica, è possibile creare u
 
 È possibile impostare altri campi nella pagina in base alle proprie esigenze.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>Il profilo di gestione banchine di un profilo di ubicazione non impedisce la combinazione dei tipi di inventario.
+
+### <a name="issue-description"></a>Descrizione del problema
+
+Si stanno utilizzando *criteri di consolidamento della spedizione*. Si configura un *profilo di gestione della banchina* per un *profilo di ubicazione*, ma quando viene creato il lavoro, i tipi di inventario vengono combinati nell'ubicazione finale.
+
+### <a name="issue-resolution"></a>Risoluzione dei problemi
+
+I profili di gestione banchine richiedono che il lavoro venga suddiviso in anticipo. In altre parole, il profilo di gestione banchine prevede che un'intestazione di lavoro non abbia più ubicazioni di stoccaggio.
+
+Affinché il profilo di gestione banchine gestisca efficacemente la combinazione dell'inventario, è necessario impostare una suddivisione dell'intestazione del lavoro.
+
+In questo esempio il nostro profilo di gestione banchine è configurato in modo tale che il campo **Tipi di inventario che non devono essere combinati** sia impostato su *ID spedizione* e imposteremo una suddivisione dell'intestazione del lavoro:
+
+1. Accedi a **Gestione magazzino \> Impostazione \> Lavoro \> Modelli di lavoro**.
+1. Selezionare **Tipo di ordine di lavoro** per modificare (ad esempio, *Ordine fornitore*).
+1. Selezionare il modello di lavoro da modificare.
+1. Nel riquadro azioni, seleziona **Modifica query**.
+1. Aprire la scheda **Ordinamento** e aggiungere una riga con le seguenti impostazioni:
+    - **Tabella** - *Transazioni lavoro temporanee*
+    - **Tabella derivata** - *Transazioni lavoro temporanee*
+    - **Campo** - *ID spedizione*
+1. Selezionare **OK**.
+1. Viene visualizzata di nuovo la pagina **Modelli di lavoro**. Nel riquadro azioni, selezionare **Suddivisioni intestazione lavoro**.
+1. Nel riquadro azioni, seleziona **Modifica**.
+1. Selezionare la casella di controllo associata a **Nome campo** *ID spedizione*.
+1. Nel riquadro azioni selezionare **Salva**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

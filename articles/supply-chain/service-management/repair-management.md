@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001350"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470643"
 ---
 # <a name="repair-management"></a>Gestione delle riparazioni       
 
@@ -37,15 +37,11 @@ Per la gestione delle riparazioni è possibile raggruppare i problemi in modo si
 
 Utilizzare i seguenti moduli di impostazione per immettere informazioni che verranno utilizzate per specificare i sintomi, la diagnosi e la soluzione per la riparazione.
 
-1.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Condizioni**.
-
-2.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Aree sintomo**.
-
-3.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Aree diagnosi**.
-
-4.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Soluzioni**.
-
-5.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Fasi riparazione**.
+- **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Condizioni**.
+- **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Aree sintomo**.
+-  **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Aree diagnosi**.
+- **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Soluzioni**.
+- **Gestione assistenza** \> **Impostazione** \> **Riparazione** \> **Fasi riparazione**.
 
 ## <a name="symptoms-and-conditions"></a>Sintomi e condizioni
 
@@ -81,19 +77,19 @@ Per applicare la gestione delle riparazioni a un articolo, quest'ultimo deve ess
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Creazione di una riga di riparazione in un ordine di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1.  Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
 2.  Selezionare l'ordine di assistenza con l'oggetto assistenza per il quale è necessaria una riparazione.
 
-3.  Fare clic su **Riparazione** \> **Righe riparazione** per aprire il modulo **Righe riparazione**.
+3.  Selezionare **Riparazione** \> **Righe riparazione** per aprire il modulo **Righe riparazione**.
 
-4.  Premere CTRL+N per creare una nuova riga.
+4.  Selezionare **Nuovo** per creare una nuova riga.
 
 5.  Selezionare un oggetto assistenza. È possibile selezionare qualsiasi oggetto assistenza impostato con una relazione oggetto nell'ordine di servizio.
 
-6.  Selezionare i valori appropriati tra quelli predefiniti relativi a sintomi, diagnosi ed esecuzione per la riga di riparazione e, se necessario, fare clic sulla scheda **Nota** per creare una nota nella riga di riparazione.
+6.  Selezionare i valori appropriati tra quelli predefiniti relativi a sintomi, diagnosi ed esecuzione per la riga di riparazione e, se necessario, selezionare la scheda **Nota** per creare una nota nella riga di riparazione.
 
-7.  Premere CTRL+S per salvare la nuova riga di riparazione. Il campo **Data e ora creazione** nella scheda **Generale** del modulo **Righe riparazione** viene aggiornato con la data e l'ora del salvataggio.
+7.  Selezionare **Salva** per salvare la nuova riga di riparazione. Il campo **Data e ora creazione** nella scheda **Generale** del modulo **Righe riparazione** viene aggiornato con la data e l'ora del salvataggio.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>Stato di avanzamento e risoluzione di una riparazione
 

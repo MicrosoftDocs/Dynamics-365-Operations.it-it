@@ -3,7 +3,7 @@ title: Funzionalità rimosse o deprecate in Dynamics 365 Finance
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,15 +11,15 @@ ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
+ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154179"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5474065"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -33,7 +33,19 @@ In questo argomento vengono descritte le funzionalità rimosse, o di cui è stat
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
 > [!NOTE]
-> Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+> Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.17
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Repository LCS come opzione di archiviazione per configurazioni di report elettronici
+
+|   |  |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo repository globale di Regulatory Configuration Service (RCS) |
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Prodotti Dynamics 365 Finance, Supply Chain Management e Project Operations|
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato: entro il 1° aprile 2022, prevediamo di non supportare più il repository Microsoft Dynamics Lifecycle Services (LCS) come opzione di archiviazione per le configurazioni per la creazione di report elettronici (ER). Le nuove configurazioni di Microsoft ER verranno pubblicate per il download esclusivamente dal repository globale. È possibile accedere al repository globale dai prodotti Dynamics 365 e da RCS. Per ulteriori informazioni, vedere [Importare configurazioni ER da RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.16
 
@@ -61,11 +73,11 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 |   |  |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato per la creazione di report elettronici: formato "VAT Declaration Excel (UK)" in "Modello di dichiarazione fiscale".  |
+| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato per la creazione di report elettronici: formato "Excel di dichiarazione IVA (UK)" in "Modello di dichiarazione fiscale".  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato: entro il 1° dicembre 2021, prevediamo di non supportare più il "report VAT 100" nel formato SSRS. Un nuovo formato "VAT Declaration Excel (UK)" in "Modello di dichiarazione fiscale" è stato introdotto nella [funzionalità IVA MTD](../localizations/emea-gbr-mtd-vat-integration.md). |
+| **Stato**                         | Deprecato: entro il 1° dicembre 2021, prevediamo di non supportare più il "report VAT 100" nel formato SSRS. Un nuovo formato "Excel di dichiarazione IVA (UK)" in "Modello di dichiarazione fiscale" è stato introdotto nella [funzionalità IVA MTD](../localizations/emea-gbr-mtd-vat-integration.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.15
 

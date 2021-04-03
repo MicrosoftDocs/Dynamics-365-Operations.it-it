@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 38f53d402ebe9f9f358281dd3996797a20923056
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: f5a942ef93af4348404c74d8b15d98ae6fa796ff
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125475"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466737"
 ---
 # <a name="party-contact"></a>Contatto parte
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Contatto parte per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_dirpartycontactentities
 
-## <a name="description"></a>descrizione
+## <a name="description"></a>Descrizione
 
 Questa entità descrive le informazioni di contatto del candidato, inclusi gli account di telefono, e-mail e social media.
 
@@ -57,7 +59,7 @@ Questa entità descrive le informazioni di contatto del candidato, inclusi gli a
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità contatto della parte**<br>mshr_dirpartycontactentityid<br>*String* | Sola lettura<br>Richiesto | Identificatore univoco generato dal sistema per il record dell'entità. |
 | **Numero parte**<br>mshr_partynumber<br>*String* | Lettura/scrittura<br>Richiesto | L'ID del record della parte associata (persona). |
@@ -73,7 +75,7 @@ Questa entità descrive le informazioni di contatto del candidato, inclusi gli a
 | **Primario**<br>mshr_isprimary<br>*set di opzioni mshr_noyes* | Lettura/scrittura<br>Richiesto | Determina il contatto primario del tipo di contatto. Deve essere presente un solo record principale per tipo di contatto. |
 | **È privato**<br>mshr_isprivate<br>*set di opzioni mshr_noyes* | Lettura/scrittura<br>Richiesto | Identifica se questo indirizzo è un indirizzo privato per la persona. |
 | **Scopo**<br>mshr_purpose<br>*String* | Lettura/scrittura<br>Facoltativo | Il ruolo o lo scopo dei dettagli di contatto. |
-| **Campo principale**<br>mshr_primaryfield<br>*String* | Sola lettura<br>Richiesto | Campo utilizzato come un identificatore principale del record dell'entità. Combinazione di numero, tipo, descrizione e localizzatore della parte. |
+| **Campo principale**<br>mshr_primaryfield<br>*String* | Sola lettura<br>Richiesto | Campo utilizzato come un identificatore principale del record dell'entità. Combinazione di numero, tipo, Descrizione e localizzatore della parte. |
 
 ## <a name="see-also"></a>Vedere anche
 
