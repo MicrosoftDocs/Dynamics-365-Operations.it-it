@@ -15,25 +15,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20ba3033dd5917406eb3b8bcb933f26fc120f721
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 273f335bc7b75f46911295c950c7f9f323cc9699
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983143"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237944"
 ---
-# <a name="create-product-model-components"></a><span data-ttu-id="256c1-103">Creare componenti del modello prodotto</span><span class="sxs-lookup"><span data-stu-id="256c1-103">Create product model components</span></span>
+# <a name="create-product-model-components"></a><span data-ttu-id="2c35e-103">Creare componenti del modello prodotto</span><span class="sxs-lookup"><span data-stu-id="2c35e-103">Create product model components</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="256c1-104">I modelli di configurazione prodotti basata su vincoli utilizzano i componenti come blocchi predefiniti per stabilire la struttura del modello prodotto.</span><span class="sxs-lookup"><span data-stu-id="256c1-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="256c1-105">I componenti devono essere creati prima che un modello prodotto possa essere creato.</span><span class="sxs-lookup"><span data-stu-id="256c1-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="256c1-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="256c1-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="2c35e-104">I modelli di configurazione prodotti basata su vincoli utilizzano i componenti come blocchi predefiniti per stabilire la struttura del modello prodotto.</span><span class="sxs-lookup"><span data-stu-id="2c35e-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="2c35e-105">I componenti devono essere creati prima che un modello prodotto possa essere creato.</span><span class="sxs-lookup"><span data-stu-id="2c35e-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="2c35e-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="2c35e-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="256c1-107">Fare clic su Definizione modello di variante prodotto.</span><span class="sxs-lookup"><span data-stu-id="256c1-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="256c1-108">Fare clic su Modelli di configurazione prodotto.</span><span class="sxs-lookup"><span data-stu-id="256c1-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="256c1-109">Nel riquadro azioni, fare clic su Modello.</span><span class="sxs-lookup"><span data-stu-id="256c1-109">On the Action Pane, click Model.</span></span>
-4. <span data-ttu-id="256c1-110">Fare clic su Componenti.</span><span class="sxs-lookup"><span data-stu-id="256c1-110">Click Components.</span></span>
-5. <span data-ttu-id="256c1-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="256c1-111">Click New.</span></span>
-6. <span data-ttu-id="256c1-112">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="256c1-112">In the Name field, type a value.</span></span>
-7. <span data-ttu-id="256c1-113">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="256c1-113">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="256c1-114">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="256c1-114">Close the page.</span></span>
+1. <span data-ttu-id="2c35e-107">Fare clic su Definizione modello di variante prodotto.</span><span class="sxs-lookup"><span data-stu-id="2c35e-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="2c35e-108">Fare clic su Modelli di configurazione prodotto.</span><span class="sxs-lookup"><span data-stu-id="2c35e-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="2c35e-109">Nel riquadro azioni, fare clic su Modello.</span><span class="sxs-lookup"><span data-stu-id="2c35e-109">On the Action Pane, click Model.</span></span>
+4. <span data-ttu-id="2c35e-110">Fare clic su Componenti.</span><span class="sxs-lookup"><span data-stu-id="2c35e-110">Click Components.</span></span>
+5. <span data-ttu-id="2c35e-111">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="2c35e-111">Click New.</span></span>
+6. <span data-ttu-id="2c35e-112">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="2c35e-112">In the Name field, type a value.</span></span>
+7. <span data-ttu-id="2c35e-113">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="2c35e-113">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="2c35e-114">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="2c35e-114">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
