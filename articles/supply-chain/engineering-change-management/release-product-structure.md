@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967233"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580917"
 ---
 # <a name="release-product-structures"></a>Rilasciare le strutture del prodotto
 
@@ -77,8 +77,6 @@ Per un esempio di come accettare un prodotto, vedere [Esaminare e accettare il p
 
 Non tutte le società operative necessitano degli stessi dati del prodotto. In generale, le società operative che producono prodotti di progettazione richiedono una DBA, mentre le società operative che vendono solo prodotti di progettazione non richiedono una DBA. È possibile utilizzare i criteri di rilascio per stabilire i parametri utilizzati per il rilascio dei prodotti.
 
-Per i prodotti di progettazione, i criteri di rilascio vengono assegnati nella categoria del prodotto di progettazione e il campo è obbligatorio. Per i prodotti standard, i criteri vengono assegnati al prodotto condiviso e il campo è facoltativo.
-
 Per ulteriori informazioni sulle categorie di prodotti di progettazione, vedere [Versioni di progettazione e categorie di prodotti di progettazione](engineering-versions-product-category.md).
 
 Durante il processo di rilascio, è possibile influenzare le impostazioni.
@@ -95,16 +93,16 @@ Per lavorare con i criteri di rilascio del prodotto, andare a **Gestione modific
 
 Impostare i seguenti campi nell'intestazione dei criteri di rilascio del prodotto.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Nome | Immetti un nome per il criterio. |
-| descrizione | Immettere una descrizione dei criteri. |
+| Descrizione | Immettere una descrizione dei criteri. |
 
 ### <a name="general-fasttab"></a>Scheda dettaglio Generale
 
 Impostare i seguenti campi nella scheda dettaglio **Generale** dei criteri di rilascio del prodotto.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Tipo di prodotto | Selezionare se il criterio si applica ai prodotti di tipo *Articolo* o *Servizio*. Non è possibile modificare questa impostazione dopo aver salvato il record. |
 | Applica modelli | Selezionare una delle seguenti opzioni per specificare se e come applicare i modelli di rilascio del prodotto quando vengono utilizzati i criteri:<ul><li>**Sempre** - Un modello di prodotto rilasciato deve essere sempre utilizzato per le versioni. Se si seleziona questa opzione, utilizzare la scheda dettaglio **Tutti i prodotti** per specificare il modello utilizzato per ciascuna società a cui si rilascia. Se non specifichi un modello per ogni società elencata nella scheda dettaglio **Tutti i prodotti** viene visualizzato un errore quando si prova a salvare il criterio.</li><li>**Facoltativo** - Se un modello di prodotto rilasciato è specificato per una società elencata nella scheda dettaglio **Tutti i prodotti**, quel modello verrà utilizzato quando si rilascia a quella società. In caso contrario, non verrà utilizzato alcun modello. Se si seleziona questa opzione, è possibile salvare i criteri senza assegnare modelli a tutte le società. Non verrà visualizzato alcun avviso.</li><li>**Mai** - Nessun modello di prodotto rilasciato verrà utilizzato per alcuna società a cui si rilascia, anche se un modello è specificato per le società elencate nella scheda dettaglio **Tutti i prodotti**. Le colonne del modello non saranno disponibili.</li></ul> |
@@ -117,7 +115,7 @@ Nella Scheda dettaglio **Tutti i prodotti**, aggiungere una riga per ciascuna so
 > [!NOTE]
 > Le impostazioni nella Scheda dettaglio **Tutti i prodotti** si applicano sia ai prodotti di progettazione che ai prodotti standard.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | ID conto società | Selezionare la società a cui si applica la riga. I parametri sulla riga verranno applicati quando i prodotti verranno rilasciati a questa società. |
 | Prodotto rilasciato modello | Aggiungere un modello per il prodotto. |
@@ -135,7 +133,7 @@ Per ogni riga che viene mostrata nella scheda dettaglio **Parametri delle opzion
 > [!NOTE]
 > Le impostazioni nella scheda dettaglio **Parametri delle opzioni per i prodotti di progettazione** si applicano solo ai prodotti di progettazione.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | DBA modello | Quando viene rilasciato un prodotto con una DBA, verranno aggiunte le righe del modello DBA specificato. Questo campo è utile per aggiungere componenti locali, come imballaggi o istruzioni nella lingua locale. |
 | Ciclo di lavorazione modello | Quando viene rilasciato un prodotto con un ciclo di lavorazione, verranno aggiunte le righe del modello ciclo di lavorazione specificato. |

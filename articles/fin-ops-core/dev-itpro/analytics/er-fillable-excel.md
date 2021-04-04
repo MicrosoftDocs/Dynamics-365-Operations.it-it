@@ -3,10 +3,9 @@ title: Progettare una configurazione per generare documenti in uscita in formato
 description: Questo argomento descrive come progettare un formato di report elettronico (ER) per compilare un modello Excel e quindi generare documenti in formato Excel in uscita.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094031"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574175"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -54,7 +53,7 @@ Devi aggiungere un componente **Excel\\File** nel formato ER configurato per gen
 Per specificare il layout del documento in uscita, allega una cartella di lavoro di Excel con estensione .xlsx al componente **Excel\\File** come modello per i documenti in uscita.
 
 > [!NOTE]
-> Quando si collega manualmente un modello, devi utilizzare un [tipo di documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) che è stato configurato a tale scopo nei [parametri ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Quando si collega manualmente un modello, devi utilizzare un [tipo di documento](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) che è stato configurato a tale scopo nei [parametri ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Aggiunta di un allegato al componente Excel\File](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Per ulteriori informazioni su come incorporare immagini e forme, vedi [Incorpora
 
 Il componente **PageBreak** forza Excel ad avviare una nuova pagina. Questo componente non è richiesto quando desideri utilizzare il paging predefinito di Excel, ma è necessario utilizzarlo quando desideri che Excel segua il formato ER per strutturare il paging.
 
+## <a name="footer-component"></a>Componente piè di pagina
+
+Il componente **Piè di pagina** viene utilizzato per compilare i piè di pagina nella parte inferiore di un foglio di lavoro generato in una cartella di lavoro di Excel.
+
+> [!NOTE]
+> È possibile aggiungere questo componente per ogni componente **Foglio** per specificare diversi piè di pagina per diversi fogli di lavoro in una cartella di lavoro Excel generata.
+
+Quando si configura un singolo componente **Piè di pagina**, è possibile usare la proprietà **Aspetto intestazione/piè di pagina** per specificare le pagine per le quali viene utilizzato il componente. Sono disponibili i valori seguenti:
+
+- **Qualsiasi** - Esegue il componente **Piè di pagina** configurato per qualsiasi pagina del foglio di lavoro Excel padre.
+- **Prima** - Esegue il componente **Piè di pagina** configurato soltanto per la prima pagina del foglio di lavoro Excel padre.
+- **Pari** - Esegue il componente **Piè di pagina** configurato soltanto per le pagine pari del foglio di lavoro Excel padre.
+- **Dispari** - Esegue il componente **Piè di pagina** configurato soltanto per le pagine dispari del foglio di lavoro Excel padre.
+
+Per un singolo componente **Foglio**, è possibile aggiungere diversi componenti **Piè di pagina**, ognuno dei quali ha un valore diverso per la proprietà **Aspetto intestazione/piè di pagina**. In questo modo, è possibile generare diversi piè di pagina per diversi tipi di pagine in un foglio di lavoro Excel.
+
+> [!NOTE]
+> Assicurarsi che ogni componente **Piè di pagina** aggiunto a un singolo componente **Foglio** abbia un valore diverso per la proprietà **Aspetto intestazione/piè di pagina**. Altrimenti, si ha un [errore di convalida](er-components-inspections.md#i16). Il messaggio di errore ricevuto informa dell'incoerenza.
+
+Sotto il componente **Piè di pagina** aggiunto, aggiungere i componenti nidificati necessari di tipo **Testo\\Stringa**, **Testo\\DataTime** o di altro tipo. Configurare le associazioni per tali componenti per specificare come viene riempito il piè di pagina.
+
+È anche possibile usare [codici di formattazione](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) speciali per formattare correttamente il contenuto di un piè di pagina generato. Per informazioni su come utilizzare questo approccio, seguire i passaggi nell'[Esempio 1](#example-1) più avanti in questo argomento.
+
+> [!NOTE]
+> Quando si configurano i formati ER, assicurarsi di considerare il [limite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) di Excel e il numero massimo di caratteri per una singola intestazione o piè di pagina.
+
+## <a name="header-component"></a>Componente intestazione
+
+Il componente **Intestazione** viene utilizzato per compilare i piè di pagina nella parte superiore di un foglio di lavoro generato in una cartella di lavoro di Excel. È usato come il componente **Piè di pagina**.
+
 ## <a name="edit-an-added-er-format"></a>Modifica un formato ER aggiunto
 
 ### <a name="update-a-template"></a>Aggiorna un modello
@@ -175,6 +204,48 @@ Quando viene generato un documento in uscita in un formato di cartella di lavoro
     >[!NOTE]
     > Il ricalcolo delle formule viene forzato manualmente quando un documento generato viene aperto per l'anteprima utilizzando Excel.
     > Non utilizzare questa opzione se si configura una destinazione ER che presuppone l'utilizzo di un documento generato senza la sua anteprima in Excel (conversione PDF, invio di e-mail, ecc.) perché il documento generato potrebbe non contenere valori nelle celle che contengono formule.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Esempio 1: formattare il contenuto del piè di pagina
+
+1. Utilizzare le configurazioni ER fornite per [generare](er-generate-printable-fti-forms.md) un documento di fattura a testo libero stampabile.
+2. Esaminare il piè di pagina del documento generato. Da notare che contiene informazioni sul numero di pagina corrente e sul numero totale di pagine nel documento.
+
+    ![Esaminare il piè di pagina di un documento generato in formato Excel](./media/er-fillable-excel-footer-1.gif)
+
+3. Nella progettazione del formato ER, [aprire](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) il formato ER di esempio per la revisione.
+
+    Il piè di pagina del foglio di lavoro **Fattura** viene generato in base alle impostazioni di due componenti **Stringa** che si trovano sotto il componente **Piè di pagina**:
+
+    - Il primo componente **Stringa** compila i seguenti codici di formattazione speciali per forzare Excel ad applicare una formattazione specifica:
+
+        - **&C** - Allinea il testo del piè di pagina al centro.
+        - **&"Segoe UI,Regular"&8** - Presenta il testo del piè di pagina nel carattere "Segoe UI Regular" con una dimensione di 8 punti.
+
+    - Il secondo componente **Stringa** compila il testo che contiene il numero di pagina corrente e il numero totale di pagine nel documento corrente.
+
+    ![Esaminare il componente di formato ER Piè di pagina nella pagina Progettazione formati](./media/er-fillable-excel-footer-2.png)
+
+4. Personalizza il formato ER di esempio per modificare il piè di pagina della pagina corrente:
+
+    1. [Creare](er-quick-start2-customize-report.md#DeriveProvidedFormat) un formato ER **Fattura a testo libero (Excel) personalizzata** derivato basato sul formato ER di esempio.
+    2. Aggiungere la prima nuova coppia di componenti **Stringa** per il componente **Piè di pagina** del foglio di lavoro **Fattura**:
+
+        1. Aggiungere un componente **Stringa** che allinea il nome dell'azienda a sinistra e lo presenta nel carattere "Segoe UI Regular" con la dimensione di 8 punti (**"&L&"Segoe UI,Regular"e8"**).
+        2. Aggiungere un componente **Stringa** che compila il nome dell'azienda (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Aggiungere la seconda nuova coppia di componenti **Stringa** per il componente **Piè di pagina** del foglio di lavoro **Fattura**:
+
+        1. Aggiungere un componente **Stringa** che allinea la data di elaborazione a destra e la presenta nel carattere "Segoe UI Regular" con la dimensione di 8 punti (**"&R&"Segoe UI,Regular"e8"**).
+        2. Aggiungere un componente **Stringa** che riempie la data di elaborazione in un formato personalizzato (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "aaaa-MM-gg")**).
+
+        ![Esaminare il componente di formato ER Piè di pagina nella pagina Progettazione formati](./media/er-fillable-excel-footer-3.png)
+
+    4. [Completare](er-quick-start2-customize-report.md#CompleteDerivedFormat) la versione bozza del formato ER **Fattura a testo libero (Excel) personalizzata** derivato.
+
+5. [Configurare](er-generate-printable-fti-forms.md#configure-print-management) Gestione stampa per utilizzare il formato ER **Fattura a testo libero (Excel) personalizzata** derivato anziché il formato ER di esempio.
+6. Genera un documento FTI stampabile ed esaminare il piè di pagina del documento generato.
+
+    ![Esaminare il piè di pagina di un documento generato in formato Excel](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

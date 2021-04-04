@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 26e895abe6154b395ddc25b136f84397c04037fc
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685251"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568599"
 ---
 # <a name="learning-power-bi-content"></a>Contenuto Learning di Power BI
 
@@ -51,7 +50,7 @@ I seguenti dati vengono utilizzati per compilare i report nel contenuto **Learni
 |------------------|------------------------------------------------------------------|-----------------------------------|
 | Offset di calendario  | Offset di calendario su report suddivisi                                | Agenda del corso, partecipanti al corso |
 | Società          | Società in base a cui filtrare i report                                   | Agenda del corso, partecipanti al corso |
-| Corso           | Corso, descrizione, nome istruttore, ubicazione, sala e stato | Agenda del corso, partecipanti al corso, competenze del corso |
+| Corso           | Corso, Descrizione, nome istruttore, ubicazione, sala e stato | Agenda del corso, partecipanti al corso, competenze del corso |
 | Agenda del corso    | Programma, corso e orario di inizio e fine                          | Società, offset di calendario, data, corso |
 | Partecipanti al corso | Nome, stato, mansione e data di registrazione                         | Società, offset di calendario, data, corso, Demografica, impiego, corso, nome del dipendente, posizione del dipendente, processo, ubicazione |
 | Competenze del corso     | Competenza, tipo di competenza e livello                                     | Corso |

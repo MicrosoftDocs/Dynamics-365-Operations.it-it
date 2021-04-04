@@ -18,12 +18,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 91e614889c719ae700b13e54150e5025d64e2b97
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104942"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580967"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -87,6 +87,13 @@ L'hub possiede i seguenti dati:
 
 Se si utilizza il processo di *rilascio a magazzino*, gli [*ordini di magazzino*](cloud-edge-warehouse-order.md) vengono creati e la proprietà del flusso di ricevimento correlato viene assegnata all'unità di scala. L'hub non sarà in grado di registrare il ricevimento in entrata.
 
+Per utilizzare il processo *Rilascia in magazzino* è necessario accedere all'hub. Passare a una delle pagine seguenti per eseguirlo o pianificarlo:
+
+- **Approvvigionamento > Ordini fornitore > Tutti gli ordini fornitore > Magazzino > Azioni > Rilascio in magazzino**
+- **Gestione del magazzino > Rilascio in magazzino > Rilascio automatico degli ordini cliente**
+
+Quando si utilizza **Rilascio automatico degli ordini cliente**, è possibile selezionare righe di ordine fornitore specifiche in base a una query. Uno scenario tipico sarebbe impostare un processo batch ricorrente che rilascia tutte le righe di ordine fornitore confermate che dovrebbero arrivare il giorno successivo.
+
 L'addetto al magazzino può eseguire il processo di ricevimento utilizzando un'app di magazzino connessa all'unità di scala. I dati vengono quindi registrati dall'unità di scala e indicati rispetto all'ordine di magazzino in entrata. Anche la creazione e l'elaborazione dello stoccaggio successivo saranno gestite dall'unità di scala.
 
 Se non utilizzi il processo *rilascio in magazzino* e pertanto non utilizzi *ordini di magazzino*, l'hub può elaborare il ricevimento in magazzino e l'elaborazione del lavoro indipendentemente dalle unità di scala.
@@ -109,7 +116,7 @@ Agli utenti che agiscono come responsabili di magazzino nell'hub e nelle unità 
 
 I seguenti processi di esecuzione del magazzino possono essere abilitati per un carico di lavoro WES su un'unità di scala:
 
-- Metodi di ciclo selezionati per ordini di vendita e trasferimento (allocazione, rifornimento della domanda, containerizzazione, creazione di lavoro e stampa di etichette del ciclo)
+- Metodi di ciclo selezionati per ordini cliente e trasferimento (allocazione, rifornimento della domanda, containerizzazione, creazione di lavoro e stampa di etichette del ciclo)
 - Elaborazione del lavoro di magazzino a fronte di ordini di vendite e trasferimento utilizzando l'app di magazzino (incluso il lavoro di rifornimento)
 - Esecuzione di query sulle scorte disponibili utilizzando l'app di magazzino
 - Creazione ed esecuzione di movimenti di inventario utilizzando l'app di magazzino
@@ -177,7 +184,7 @@ La tabella seguente mostra quali funzionalità in uscita sono supportate e dove 
 | Rilascia in magazzino                                         | Sì | Nessuno |
 | Cross-docking pianificato                                        | Nessuno  | Nessuno |
 | Consolidamento spedizioni                                       | Sì | Nessuno |
-| Elaborazione ciclo di spedizione                                     | Sì, ma solo l'inizializzazione e la finalizzazione dello stato del ciclo vengono gestite nell'hub. Ciò significa che solo l'elaborazione degli ordini di vendita e di trasferimento in uscita possono essere gestite dall'unità di scala.|<p>No, l'inizializzazione e la finalizzazione vengono gestite dall'hub e la funzionalità **Allestimento del carico e ordinamento** non è supportata<p><b>Nota:</b> l'accesso all'hub è necessario per finalizzare lo stato del ciclo come parte dell'elaborazione del ciclo.</p> |
+| Elaborazione ciclo di spedizione                                     | Sì, ma solo l'inizializzazione e la finalizzazione dello stato del ciclo vengono gestite nell'hub. Ciò significa che solo l'elaborazione degli ordini cliente e di trasferimento in uscita possono essere gestite dall'unità di scala.|<p>No, l'inizializzazione e la finalizzazione vengono gestite dall'hub e la funzionalità **Allestimento del carico e ordinamento** non è supportata<p><b>Nota:</b> l'accesso all'hub è necessario per finalizzare lo stato del ciclo come parte dell'elaborazione del ciclo.</p> |
 | Mantenere le spedizioni per ciclo                                  | Sì | Nessuno |
 | Elaborazione del lavoro di magazzino (inclusa la stampa della targa)        | Nessuno  | <p>Sì, ma solo per le funzionalità supportate sopra menzionate. |
 | Prelievo cluster                                              | Nessuno  | Sì|
@@ -212,8 +219,8 @@ La tabella seguente mostra quali funzionalità in entrata sono supportate e dove
 | Conferma della spedizione in entrata                                            | Sì | Nessuno |
 | Rilascio ordine fornitore al magazzino (elaborazione ordine di magazzino) | Sì | Nessuno |
 | Annullamento di righe ordine di magazzino<p>Notare che questo è supportato solo quando non è avvenuta alcuna registrazione sulla riga</p>          | Sì | Nessuno |
-| Ricevimento e stoccaggio articolo ordine acquisto                       | <p>Sì,&nbsp;quando&nbsp;non&nbsp;è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine di acquisto non fa parte di un <i>carico</i></p> |
-| Ricevimento e stoccaggio riga ordine acquisto                        | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine di acquisto non fa parte di un <i>carico</i></p></p> |
+| Ricevimento e stoccaggio articolo ordine acquisto                       | <p>Sì,&nbsp;quando&nbsp;non&nbsp;è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p> |
+| Ricevimento e stoccaggio riga ordine acquisto                        | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p></p> |
 | Ricevimento e stoccaggio ordine di reso                               | Sì | Nessuno |
 | Ricevimento e stoccaggio targa mista                        | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
 | Ricezione articoli di carico                                             | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
@@ -222,7 +229,7 @@ La tabella seguente mostra quali funzionalità in entrata sono supportate e dove
 | Ricevimento e stoccaggio riga ordine di trasferimento                        | Sì | Nessuno |
 | Annulla lavoro (in entrata)                                              | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, ma solo quando l'opzione <b>Annulla registrazione entrata quando si annulla il lavoro</b> (nella pagina <b>Parametri di gestione magazzino</b>) viene deselezionata</p> |
 | Elaborazione ricevimento prodotto ordine fornitore                          | Sì | Nessuno |
-| Ricevimento degli ordini fornitore con limite minimo di fornitura                        | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No, perché è possibile annullare solo le quantità complete della riga ordine di magazzino |
+| Ricevimento degli ordini fornitore con limite minimo di fornitura                        | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Sì, ma solo effettuando una richiesta di cancellazione dall'hub |
 | Ricevimento degli ordini fornitore con limite massimo di fornitura                        | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Sì  |
 | Ricevimento con creazione di lavoro *Cross docking*                   | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
 | Ricevimento con creazione di lavoro *Ordine di controllo qualità*                  | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |

@@ -3,7 +3,7 @@ title: Componenti di amministrazione del componente aggiuntivo per la fatturazio
 description: In questo argomento vengono fornite informazioni sui componenti correlati all'amministrazione del componente aggiuntivo Fatturazione elettronica.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104400"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592576"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>Componenti di amministrazione del componente aggiuntivo per la fatturazione elettronica
 
@@ -39,11 +39,15 @@ Usa Microsoft Azure per creare i segreti per l'insieme di credenziali delle chia
 
 Usa Microsoft Dynamics Lifecycle Services (LCS) per abilitare il componente aggiuntivo per i microservizi per il progetto di distribuzione LCS.
 
-In LCS, seleziona il riquadro **Anteprima gestione funzionalità** quindi attiva la funzionalità **Servizio di fatturazione elettronica**.
+> [!NOTE]
+> L'installazione del componente aggiuntivo per microservizi in LCS richiede almeno una macchina virtuale di livello 2. Per ulteriori informazioni sulla pianificazione dell'ambiente, vedere [Pianificazione ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+ 
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
 Dynamics 365 Regulatory Configuration Services (RCS) è l'interfaccia utilizzata per configurare il componente aggiuntivo Fatturazione elettronica. Le risorse quali ambienti e funzionalità di fatturazione elettronica vengono create, gestite e ospitate in RCS. Quando le risorse sono pronte, vengono pubblicate nel servizio componente aggiuntivo Fatturazione elettronica.
+
+Per l'iscrizione a RCS, vedere [Regulatory services](https://marketing.configure.global.dynamics.com/).
 
 Per altre informazioni su RCS, vedi [Regulatory Configuration Services (RCS) - Funzionalità di globalizzazione](rcs-globalization-feature.md)
 
@@ -53,22 +57,14 @@ Prima di poter utilizzare RCS per configurare le fatture elettroniche, è necess
 
 #### <a name="service-endpoint"></a>Endpoint servizio
 
-L'URL dell'endpoint del componente aggiuntivo per la fatturazione elettronica può variare in base all'area geografica del data center di Azure. La tabella seguente elenca la disponibilità per regione:
+Il componente aggiuntivo per la fatturazione elettronica è disponibile in varie aree geografiche del data center di Azure: La tabella seguente elenca la disponibilità per regione.
 
-| Area geografica del data center di Azure | URL endpoint servizio                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| Stati Uniti orientali                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| Stati Uniti occidentali                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| UE settentrionale                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| UE occidentale                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>ID domanda di lavoro
-
-L'ID applicazione è l'ID dell'applicazione componente aggiuntivo per la fatturazione elettronica. In questo caso, il valore è fisso: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
-
-#### <a name="lcs-environment-id"></a>ID ambiente LCS
-
-L'ID ambiente LCS è l'ID dell'abbonamento LCS dell'organizzazione.
+| Area geografica del data center di Azure |
+|----------------------------|
+| Stati Uniti orientali                    |
+| Stati Uniti occidentali                    |
+| UE settentrionale                   |
+| UE occidentale                    |
 
 ### <a name="service-environments"></a>Ambienti di servizio
 

@@ -1,6 +1,6 @@
 ---
 title: Materiali pericolosi in prodotti, ordini, spedizioni e carichi
-description: In questo argomento viene illustrato come impostare le proprietà dei materiali pericolosi per i prodotti rilasciati, come stabilire limiti delle scorte per gli articoli pericolosi e come includere i materiali pericolosi in un ordine di vendita, spedizione o carico.
+description: In questo argomento viene illustrato come impostare le proprietà dei materiali pericolosi per i prodotti rilasciati, come stabilire limiti delle scorte per gli articoli pericolosi e come includere i materiali pericolosi in un ordine cliente, spedizione o carico.
 author: dasani-madipalli
 manager: tfehr
 ms.date: 06/10/2020
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 3836273b1c782fe80172443f4d4c29001ccea83a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7e0564802bc53ce21236ffc6ed065bf6abac7c78
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007668"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243155"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Materiali pericolosi in prodotti, ordini, spedizioni e carichi
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In questo argomento viene illustrato come impostare le proprietà dei materiali pericolosi per i prodotti rilasciati, come stabilire limiti delle scorte per gli articoli pericolosi e come includere i materiali pericolosi in un ordine di vendita, spedizione o carico.
+In questo argomento viene illustrato come impostare le proprietà dei materiali pericolosi per i prodotti rilasciati, come stabilire limiti delle scorte per gli articoli pericolosi e come includere i materiali pericolosi in un ordine cliente, spedizione o carico.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Impostare le specifiche dei materiali pericolosi per i prodotti
 
@@ -46,7 +46,7 @@ Per impostare un prodotto rilasciato come materiale pericoloso, attenersi alla s
 
 La tabella seguente descrive i campi disponibili nella parte superiore della pagina **Materiali pericolosi articolo**.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Numero articolo | Il prodotto rilasciato con cui si sta lavorando. |
 | Codice normativa | Selezionare la normativa sui materiali pericolosi che si applica al prodotto. La normativa definisce come viene creato il testo di spedizione stampato per un articolo e le modalità di consegna associate. Una volta assegnato, il codice non può essere modificato in questa pagina. Tuttavia, è possibile assegnare un nuovo codice normativa selezionando **Nuovo**. |
@@ -57,7 +57,7 @@ La tabella seguente descrive i campi disponibili nella parte superiore della pag
 
 Nella seguente tabella vengono illustrati i campi disponibili nella Scheda dettaglio **Descrizioni**.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Nome spedizione corretto | Immettere la descrizione standard per il materiale, come specificato dalla normativa applicabile. È possibile fornire le traduzioni per questo valore nella Scheda dettaglio **Traduzione del testo spedizione articolo**, come descritto nella sezione successiva. |
 | Nome tecnico | Selezionare il nome comune o generico per il materiale. Questo nome potrebbe essere un nome che la tua azienda utilizza internamente per il materiale. |
@@ -70,7 +70,7 @@ La scheda dettaglio **Traduzione del testo spedizione articolo** contiene una gr
 Nella seguente tabella vengono illustrati i campi disponibili nella Scheda dettaglio **Traduzione del testo spedizione articolo**.
 
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Lingua | Il codice della lingua utilizzato dalla riga. Per esempio, **pt-br** indica il portoghese brasiliano. |
 | Testo stampa spedizione | Il valore **Nome spedizione corretto** tradotto nella lingua utilizzata dalla riga. |
@@ -84,14 +84,14 @@ Per aggiungere o modificare una traduzione, selezionare **Traduzioni** sopra la 
 
 Nella seguente tabella vengono illustrati i campi disponibili nella Scheda dettaglio **Gestione materiali**.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Classe | Selezionare la classe di materiale pericoloso a cui appartiene il prodotto, come definito dalla normativa a cui si fa riferimento per la conformità. È necessario assegnare sia una divisione che una classe a ogni prodotto che include materiali pericolosi. |
-| descrizione | La descrizione definita per la classe selezionata nel campo **Classe**. Questo campo è di sola lettura. |
+| Descrizione | La descrizione definita per la classe selezionata nel campo **Classe**. Questo campo è di sola lettura. |
 | Divisione | Selezionare la divisione di materiale pericoloso a cui appartiene il prodotto, come definito dalla normativa a cui si fa riferimento per la conformità. La divisione è un sottoinsieme della classe. È necessario assegnare sia una divisione che una classe a ogni prodotto che include materiali pericolosi. |
 | Identificazione | Selezionare il codice di identificazione del materiale pericoloso. In genere, questo codice si basa su uno standard delle Nazioni Unite (ONU). |
 | Gruppo di imballaggio | Selezionare il gruppo di imballaggio applicabile all'articolo corrente. |
-| descrizione | La descrizione definita per il gruppo selezionato nel campo **Gruppo di imballaggio**. Questo campo è di sola lettura. |
+| Descrizione | La descrizione definita per il gruppo selezionato nel campo **Gruppo di imballaggio**. Questo campo è di sola lettura. |
 | Descrizioni imballaggio | Selezionare il codice di descrizione dell'imballaggio applicabile. Questo codice fa riferimento a una descrizione che indica come il prodotto deve essere imballato. |
 | Etichette materiali pericolosi | Selezionare un codice che faccia riferimento all'etichetta di merci pericolose applicabile che deve essere applicata al prodotto. |
 | Quantità limitata | Impostare questa opzione su **Sì** per indicare il peso totale del prodotto incluso in ogni carico e in ciascuna riga di carico. |
@@ -130,7 +130,7 @@ Ecco la chiave per la formula:
 
 Nella seguente tabella vengono illustrati i campi disponibili nella Scheda dettaglio **Informazioni sul trasporto**.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Categoria trasporto | Selezionare la categoria di trasporto correlata. |
 | Codice tunnel | Selezionare il codice di restrizione del tunnel correlato per l'articolo. |
@@ -145,7 +145,7 @@ Nella seguente tabella vengono illustrati i campi disponibili nella Scheda detta
 
 Nella seguente tabella vengono illustrati i campi disponibili nella Scheda dettaglio **Informazioni sull'ambiente**.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Pericoloso per l'ambiente | Impostare questa opzione su **Sì** per indicare che il prodotto è pericoloso per l'ambiente. Utilizzare questo campo per la creazione di report. |
 | Inquinante marino | Impostare questa opzione su **Sì** per indicare che il prodotto è inquinante per il mare. Utilizzare questo campo per la creazione di report. |
@@ -161,13 +161,13 @@ Per motivi di sicurezza, potrebbe essere necessario limitare la quantità totale
 
 Il report **Limite delle scorte di materiali pericolosi** consente di monitorare i livelli delle scorte di materiali pericolosi nelle ubicazioni del magazzino, per assicurarsi che rimangano entro i limiti di sicurezza stabiliti qui. Per ulteriori informazioni, vedere [Report sui limiti delle scorte di materiali pericolosi](hazmat-reports.md#stock-limit-report).
 
-## <a name="sales-order-transactions-that-include-hazardous-materials"></a>Transazioni di ordini di vendita che includono materiali pericolosi
+## <a name="sales-order-transactions-that-include-hazardous-materials"></a>Transazioni di ordini cliente che includono materiali pericolosi
 
-Per includere un prodotto classificato come materiale pericoloso in un ordine di vendita, è necessario associare il corriere di spedizione pertinente all'ordine di vendita. Aprire l'ordine di vendita e quindi nella scheda dettaglio **Consegna** impostare i campi **Vettore spedizione** e **Servizio trasporto** come necessario.
+Per includere un prodotto classificato come materiale pericoloso in un ordine cliente, è necessario associare il corriere di spedizione pertinente all'ordine cliente. Aprire l'ordine cliente e quindi nella scheda dettaglio **Consegna** impostare i campi **Vettore spedizione** e **Servizio trasporto** come necessario.
 
-Il vettore spedizione è anche associato alla modalità di consegna. Pertanto, è necessario assicurarsi che queste informazioni siano allineate con la normativa sui materiali pericolosi. In altre parole, la modalità di consegna specificata nella normativa sui materiali pericolosi deve corrispondere alle specifiche nell'intestazione dell'ordine di vendita. In questo modo, la normativa, il vettore di spedizione e il servizio sono collegati alle righe di spedizione utilizzate in un ordine di vendita.
+Il vettore spedizione è anche associato alla modalità di consegna. Pertanto, è necessario assicurarsi che queste informazioni siano allineate con la normativa sui materiali pericolosi. In altre parole, la modalità di consegna specificata nella normativa sui materiali pericolosi deve corrispondere alle specifiche nell'intestazione dell'ordine cliente. In questo modo, la normativa, il vettore di spedizione e il servizio sono collegati alle righe di spedizione utilizzate in un ordine cliente.
 
-Dopo che un ordine di vendita è stato finalizzato e pronto per essere spedito, può essere rilasciato al magazzino per indicare il trasferimento tra le operazioni di vendita e di magazzino.
+Dopo che un ordine cliente è stato finalizzato e pronto per essere spedito, può essere rilasciato al magazzino per indicare il trasferimento tra le operazioni di vendita e di magazzino.
 
 ## <a name="shipments-that-include-hazardous-materials"></a><a name="hazmat-shipments"></a>Spedizioni che includono materiali pericolosi
 

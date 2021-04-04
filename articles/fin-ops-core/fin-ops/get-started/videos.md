@@ -3,10 +3,9 @@ title: Video
 description: In questa pagina sono elencati i video illustrativi di Microsoft e quelli tecnologici relativi alle app Finance and Operations disponibili su YouTube e altri siti.
 author: sericks007
 manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 70eddab17d94a7ff4a9f00117200a657ebfb24dd
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797877"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566224"
 ---
 # <a name="videos"></a>Video 
 
@@ -89,9 +88,6 @@ Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/U
 ### <a name="customize-the-app"></a>Personalizzare l'app
 - [Aggiungi campi personalizzati](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Incorporare Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a>Spese
-- [Esperienza di spesa](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>Creazione di report finanziari
 - [Determinare la versione di Progettazione report](https://www.youtube.com/embed/icfA5Q3kp4w)

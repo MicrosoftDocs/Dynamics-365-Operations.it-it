@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bed461677cbdfa57b0a198b7179eccb9828dc944
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 86988438d19fcfcef637df9789f23c86831edddd
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687128"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569689"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Contenuti Power BI sullo sviluppo e le competenze dei dipendenti
 
@@ -58,7 +57,7 @@ I dati dell'applicazione vengono utilizzati per compilare i report nel pacchetto
 | Forzalavoro\_Mansione                    | Funzione, tipo e titolo                                                                                  | |
 | Forzalavoro\_CompetenzaPreferitaMansione      | Importanza, valutazione, competenza e il livello di competenza                                                                 | Forzalavoro\_Competenza, Forzalavoro\_Mansione |
 | Forzalavoro\_AssegnazionePosizionePrecedente | Motivo dell'assegnazione, data di inizio, data di fine e mansione                                                           | Forzalavoro\_OffsetCalendario, Forzalavoro\_Data, Forzalavoro\_Mansione, Forzalavoro\_Posizione |
-| Forzalavoro\_Prestazioni            | Valutazione, descrizione e modello di valutazione                                                                      | |
+| Forzalavoro\_Prestazioni            | Valutazione, Descrizione e modello di valutazione                                                                      | |
 | Forzalavoro\_CompetenzaPersona            | Livello, data livello e competenza                                                                               | Forzalavoro\_Competenza |
 | Forzalavoro\_AnalisiCompetenzaPersona    | Certificato, livello, data livello e competenza                                                                    | Forzalavoro\_NomeLavoratore, Forzalavoro\_Competenza |
 | Forzalavoro\_Posizione               | Reparto, FTE, posizione, tipo di posizione e titolo                                                        | |

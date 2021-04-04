@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680938"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568492"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
 
@@ -29,7 +28,7 @@ ms.locfileid: "4680938"
 > Questa funzionalità è supportata in Finance and Operations (versione 7.2 e successiva).
 
 ## <a name="introduction"></a>Introduzione
-In questo argomento viene illustrato come importare un report di Microsoft Power BI nella scheda **Analisi** di un'area di lavoro. Per l'esempio fornito qui, verrà estesa l'area di lavoro **Gestione prenotazione** nell'applicazione di gestione flotta per includere un'area di lavoro di analisi in una scheda **Analisi**.
+In questo argomento viene illustrato come incorporare un report di Microsoft Power BI nella scheda **Analisi** di un'area di lavoro. Per l'esempio fornito qui, verrà estesa l'area di lavoro **Gestione prenotazione** nell'applicazione di gestione flotta per includere un'area di lavoro di analisi in una scheda **Analisi**.
 
 ## <a name="prerequisites"></a>Prerequisiti
 + Accedere a un ambiente di sviluppo in cui è in esecuzione l'aggiornamento 8 della piattaforma o una versione successiva.
@@ -167,7 +166,7 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parametri
 
-| Nome             | descrizione                                                                                                  |
+| Nome             | Descrizione                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------|
 | resourceName     | Nome della risorsa .pbix.                                                                              |
 | formGroupControl | Controllo del gruppo di moduli al quale applicare il controllo del report Power BI.                                              |

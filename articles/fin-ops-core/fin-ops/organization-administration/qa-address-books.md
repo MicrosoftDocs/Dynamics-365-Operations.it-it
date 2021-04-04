@@ -3,10 +3,9 @@ title: Domande frequenti sulla rubrica
 description: In questo argomento vengono fornite risposte alle domande frequenti relative alle rubriche.
 author: msftbrking
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,16 +16,17 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796900"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559943"
 ---
 # <a name="address-books-faq"></a>Domande frequenti sulle rubriche
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>Come si controlla se sono presenti record duplicati?
 
@@ -59,7 +59,7 @@ Talvolta può essere opportuno unire due o più record di parti in un singolo re
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>È necessario creare un record di parti nella Rubrica globale o in un'altra posizione, ad esempio la pagina cliente o fornitore?
 
-È possibile immettere i record di parti nella Rubrica globale o nella pagina appropriata della persona giuridica. Quando si aggiunge un record in un'ubicazione, lo stesso record viene aggiunto sempre in un'altra posizione. Ad esempio, se si aggiunge un record parte di un cliente nella Rubrica globale, il record viene anche aggiunto alla pagina **Cliente**. Allo stesso modo, se si aggiunge un record parte di un cliente nella pagina **Cliente** il record viene aggiunto anche alla rubrica globale. Utilizzare le seguenti indicazioni per decidere se è necessario immettere nuovi record di parti:
+È possibile immettere i record di parti nella Rubrica globale o nella pagina appropriata della persona giuridica. Quando si aggiunge un record in un'ubicazione, lo stesso record viene aggiunto sempre in un'altra ubicazione. Ad esempio, se si aggiunge un record parte di un cliente nella Rubrica globale, il record viene anche aggiunto alla pagina **Cliente**. Allo stesso modo, se si aggiunge un record parte di un cliente nella pagina **Cliente** il record viene aggiunto anche alla rubrica globale. Utilizzare le seguenti indicazioni per decidere se è necessario immettere nuovi record di parti:
 
 - **Creazione di un record parte quando non si conosce il tipo di entità:** se è necessario creare un record parte e non si conosce il tipo di entità, ad esempio non si sa se l'entità è un cliente o un'opportunità, creare il record nella rubrica globale. È possibile selezionare il tipo di entità successivamente.
 - **Creazione di un record parte quando si conosce il tipo di entità**: se si conosce il tipo di entità della parte, è possibile creare un record nel modulo pertinente per tale tipo. Ad esempio, per un cliente, creare un record per un cliente nella pagina **Cliente**. Quando si crea e si salva un record mediante la pagina entità appropriata, il record verrà creato automaticamente nella rubrica globale.
@@ -68,5 +68,10 @@ Talvolta può essere opportuno unire due o più record di parti in un singolo re
 
 È possibile impostare le traduzioni delle informazioni relative all'indirizzo in modo che vengano visualizzate nella lingua dell'utente (lingua del sistema) nel programma, ma in un'altra lingua nei documenti, ad esempio ordini cliente. È possibile immettere traduzioni per i nomi dei paesi, gli scopi di indirizzo e le sequenze nome. Ad esempio, la lingua del sistema è danese e viene creato un ordine cliente per un cliente in Francia. In questo caso, è possibile visualizzare il record cliente in Danese nel programma ma visualizzare le informazioni relative all'indirizzo nell'ordine cliente stampato. Quando vengono impostate le traduzioni, è necessario immetterne una per ogni elemento nell'elenco. Tutti gli articoli per cui non si immette una traduzione appariranno nella lingua del sistema. Ad esempio, la lingua del sistema è danese e viene inviato un documento a un cliente in Spagna. Se non sono state immesse le traduzioni spagnole per le informazioni sull'indirizzo, queste verranno visualizzate in Danese sia nel programma sia nel documento stampato.
 
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Perché non è possibile modificare gli indirizzi importati dopo l'accesso ai record?
+
+Quando si importano indirizzi, è presente un campo etichettato **IsLocationOwner**, che indica se la parte associata all'ubicazione (indirizzo) è il proprietario dell'indirizzo. Se la parte è il proprietario dell'indirizzo, l'indirizzo può essere modificato quando si accede utilizzando la parte nella rubrica globale o il modulo di record (come cliente, fornitore o lavoratore). Se la parte non è il proprietario dell'indirizzo, il record non può essere modificato dai moduli elencati in precedenza. Quando si importano indirizzi, **IsLocationOwner** deve essere impostato su **Sì** acffinché l'indirizzo sia modificabile utilizzando la parte associata. Tuttavia, in alcuni casi questo campo viene importato in modo errato. Per risolvere questo problema, il proprietario dell'ubicazione può essere aggiornato nella rubrica globale del record parte o nella pagina **Conferma proprietari della posizione**. Per aggiornare un singolo record parte, selezionare **Rubrica globale > Indirizzo**. Selezionare **Modifica** per avviare la pagina **Modifica indirizzo** per modificare il proprietario dell'ubicazione. Selezionare **Cambia proprietario ubicazione** per vedere il proprietario precedente dell'ubicazione, in quanto la parte attualmente selezionata è il nuovo proprietario della posizione. Se il proprietario precedente dell'ubicazione è vuoto, significa che non è stato stabilito un proprietario dell'ubicazione. La selezione dell'opzione **Avanzate** aprirà la pagina **Gestisci indirizzi** dove è possibile impostare anche il proprietario dell'ubicazione. Selezionare l'ubicazione da aggiornare, quindi selezionare **Imposta proprietario posizione** dal menu. Per aggiornare il proprietario dell'ubicazione per più record, selezionare **Rubrica globale > Ubicazioni > Conferma proprietari ubicazioni**. L'elenco contiene ubicazioni collegate a una singola parte, ma quella parte non è il proprietario. La selezione di **Conferma proprietario** imposterà l'**ID parte proprietario proposto** come proprietario dell'indirizzo collegato. Dopo l'impostazione della parte come proprietario, l'indirizzo collegato sarà modificabile nel record parte. Per modificare il proprietario dell'ubicazione, è necessario assegnare il privilegio **Imposta proprietario ubicazione** nella pagina **Configurazione sicurezza**.  All'amministratore di sistema viene concesso questo privilegio per impostazione predefinita.
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
