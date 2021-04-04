@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,58 +16,61 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46a681b3a783b4f76946d2a972d73a11254ec56c
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: bc8308ab8f856adf5045af5f005c95bffb8ad864
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093189"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561126"
 ---
-# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="db4a2-103">Preferenze dell'utente in Progettazione report finanziari</span><span class="sxs-lookup"><span data-stu-id="db4a2-103">User preferences in financial report designer</span></span>
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="361f8-103">Preferenze dell'utente in Progettazione report finanziari</span><span class="sxs-lookup"><span data-stu-id="361f8-103">User preferences in financial report designer</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="db4a2-104">In questo articolo viene spiegato come impostare le preferenze utente per personalizzare le interazioni utente in Progettazione report finanziari e controllare l'esperienza di accesso iniziale.</span><span class="sxs-lookup"><span data-stu-id="db4a2-104">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="db4a2-105">È inoltre possibile controllare come singoli report, la raccolta report e i percorsi predefiniti dei file vengono visualizzati.</span><span class="sxs-lookup"><span data-stu-id="db4a2-105">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span>
+<span data-ttu-id="361f8-104">In questo articolo viene spiegato come impostare le preferenze utente per personalizzare le interazioni utente in Progettazione report finanziari e controllare l'esperienza di accesso iniziale.</span><span class="sxs-lookup"><span data-stu-id="361f8-104">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="361f8-105">È inoltre possibile controllare come singoli report, la raccolta report e i percorsi predefiniti dei file vengono visualizzati.</span><span class="sxs-lookup"><span data-stu-id="361f8-105">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span>
 
-## <a name="set-user-preferences"></a><span data-ttu-id="db4a2-106">Impostare le preferenze utente</span><span class="sxs-lookup"><span data-stu-id="db4a2-106">Set user preferences</span></span>
+## <a name="set-user-preferences"></a><span data-ttu-id="361f8-106">Impostare le preferenze utente</span><span class="sxs-lookup"><span data-stu-id="361f8-106">Set user preferences</span></span>
 
-1. <span data-ttu-id="db4a2-107">In Progettazione report, menu **Strumenti**, fare clic su **Opzioni**.</span><span class="sxs-lookup"><span data-stu-id="db4a2-107">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
-2. <span data-ttu-id="db4a2-108">Nella finestra di dialogo **Opzioni**, selezionare le preferenze.</span><span class="sxs-lookup"><span data-stu-id="db4a2-108">In the **Options** dialog box, select your preferences.</span></span>
-3. <span data-ttu-id="db4a2-109">Scegliere **OK**.</span><span class="sxs-lookup"><span data-stu-id="db4a2-109">Click **OK**.</span></span>
+1. <span data-ttu-id="361f8-107">In Progettazione report, menu **Strumenti**, fare clic su **Opzioni**.</span><span class="sxs-lookup"><span data-stu-id="361f8-107">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2. <span data-ttu-id="361f8-108">Nella finestra di dialogo **Opzioni**, selezionare le preferenze.</span><span class="sxs-lookup"><span data-stu-id="361f8-108">In the **Options** dialog box, select your preferences.</span></span>
+3. <span data-ttu-id="361f8-109">Scegliere **OK**.</span><span class="sxs-lookup"><span data-stu-id="361f8-109">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a><span data-ttu-id="db4a2-110">Opzioni della finestra di dialogo Opzioni</span><span class="sxs-lookup"><span data-stu-id="db4a2-110">Options dialog box options</span></span>
+## <a name="options-dialog-box-options"></a><span data-ttu-id="361f8-110">Opzioni della finestra di dialogo Opzioni</span><span class="sxs-lookup"><span data-stu-id="361f8-110">Options dialog box options</span></span>
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="db4a2-111">Opzione utente</span><span class="sxs-lookup"><span data-stu-id="db4a2-111">User option</span></span></th>
-<th><span data-ttu-id="db4a2-112">descrizione</span><span class="sxs-lookup"><span data-stu-id="db4a2-112">Description</span></span></th>
+<th><span data-ttu-id="361f8-111">Opzione utente</span><span class="sxs-lookup"><span data-stu-id="361f8-111">User option</span></span></th>
+<th><span data-ttu-id="361f8-112">Descrizione</span><span class="sxs-lookup"><span data-stu-id="361f8-112">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="db4a2-113">All'avvio</span><span class="sxs-lookup"><span data-stu-id="db4a2-113">At startup</span></span></td>
-<td><span data-ttu-id="db4a2-114">Selezionare le informazioni disponibili quando si avvia Progettazione report.</span><span class="sxs-lookup"><span data-stu-id="db4a2-114">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="db4a2-115">Consente di selezionare una delle opzioni indicate di seguito.</span><span class="sxs-lookup"><span data-stu-id="db4a2-115">Select one of the following options:</span></span>
+<td><span data-ttu-id="361f8-113">All'avvio</span><span class="sxs-lookup"><span data-stu-id="361f8-113">At startup</span></span></td>
+<td><span data-ttu-id="361f8-114">Selezionare le informazioni disponibili quando si avvia Progettazione report.</span><span class="sxs-lookup"><span data-stu-id="361f8-114">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="361f8-115">Consente di selezionare una delle opzioni indicate di seguito.</span><span class="sxs-lookup"><span data-stu-id="361f8-115">Select one of the following options:</span></span>
 <ul>
-<li><span data-ttu-id="db4a2-116"><strong>Carica l'ultimo report caricato</strong>: apre il report visualizzato l'ultima volta.</span><span class="sxs-lookup"><span data-stu-id="db4a2-116"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
-<li><span data-ttu-id="db4a2-117"><strong>Mostra finestra Apri</strong>: apre la finestra <strong>Apri</strong>.</span><span class="sxs-lookup"><span data-stu-id="db4a2-117"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="db4a2-118">La finestra <strong>Apri</strong> fornisce una finestra di ricerca per trovare rapidamente i blocchi predefiniti.</span><span class="sxs-lookup"><span data-stu-id="db4a2-118">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
-<li><span data-ttu-id="db4a2-119"><strong>Visualizza ambiente vuoto</strong>: apre una finestra di progettazione vuota.</span><span class="sxs-lookup"><span data-stu-id="db4a2-119"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
+<li><span data-ttu-id="361f8-116"><strong>Carica l'ultimo report caricato</strong>: apre il report visualizzato l'ultima volta.</span><span class="sxs-lookup"><span data-stu-id="361f8-116"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="361f8-117"><strong>Mostra finestra Apri</strong>: apre la finestra <strong>Apri</strong>.</span><span class="sxs-lookup"><span data-stu-id="361f8-117"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="361f8-118">La finestra <strong>Apri</strong> fornisce una finestra di ricerca per trovare rapidamente i blocchi predefiniti.</span><span class="sxs-lookup"><span data-stu-id="361f8-118">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="361f8-119"><strong>Visualizza ambiente vuoto</strong>: apre una finestra di progettazione vuota.</span><span class="sxs-lookup"><span data-stu-id="361f8-119"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
 <tr>
-<td><span data-ttu-id="db4a2-120">Visualizzare la conferma prima di uscire da Progettazione report</span><span class="sxs-lookup"><span data-stu-id="db4a2-120">Display confirmation before exiting Report Designer</span></span></td>
-<td><span data-ttu-id="db4a2-121">Scegliere se ricevere un messaggio di avviso quando si esce dall'applicazione.</span><span class="sxs-lookup"><span data-stu-id="db4a2-121">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="db4a2-122">Questo messaggio consente di garantire di non chiudere il programma inavvertitamente.</span><span class="sxs-lookup"><span data-stu-id="db4a2-122">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
+<td><span data-ttu-id="361f8-120">Visualizzare la conferma prima di uscire da Progettazione report</span><span class="sxs-lookup"><span data-stu-id="361f8-120">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="361f8-121">Scegliere se ricevere un messaggio di avviso quando si esce dall'applicazione.</span><span class="sxs-lookup"><span data-stu-id="361f8-121">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="361f8-122">Questo messaggio consente di garantire di non chiudere il programma inavvertitamente.</span><span class="sxs-lookup"><span data-stu-id="361f8-122">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="db4a2-123">Applicare automaticamente la sottolineatura di cella nelle intestazioni di colonna</span><span class="sxs-lookup"><span data-stu-id="db4a2-123">Automatically apply cell underline in column headers</span></span></td>
-<td><span data-ttu-id="db4a2-124">Scegliere se inserire una sottolineatura nella cella di una nuova intestazione di colonna.</span><span class="sxs-lookup"><span data-stu-id="db4a2-124">Select whether to insert an underline in the cell of a new column header.</span></span></td>
+<td><span data-ttu-id="361f8-123">Applicare automaticamente la sottolineatura di cella nelle intestazioni di colonna</span><span class="sxs-lookup"><span data-stu-id="361f8-123">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="361f8-124">Scegliere se inserire una sottolineatura nella cella di una nuova intestazione di colonna.</span><span class="sxs-lookup"><span data-stu-id="361f8-124">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="db4a2-125">Percorso dei file dello strumento di creazione report di gestione</span><span class="sxs-lookup"><span data-stu-id="db4a2-125">Management Reporter files location</span></span></td>
-<td><span data-ttu-id="db4a2-126">Specificare il percorso predefinito dei file.</span><span class="sxs-lookup"><span data-stu-id="db4a2-126">Specify the default location for files.</span></span> <span data-ttu-id="db4a2-127">L'applicazione utilizza il percorso predefinito quando si esportano i gruppi di blocchi predefiniti.</span><span class="sxs-lookup"><span data-stu-id="db4a2-127">The application uses the default location when you export building block groups.</span></span></td>
+<td><span data-ttu-id="361f8-125">Percorso dei file dello strumento di creazione report di gestione</span><span class="sxs-lookup"><span data-stu-id="361f8-125">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="361f8-126">Specificare il percorso predefinito dei file.</span><span class="sxs-lookup"><span data-stu-id="361f8-126">Specify the default location for files.</span></span> <span data-ttu-id="361f8-127">L'applicazione utilizza il percorso predefinito quando si esportano i gruppi di blocchi predefiniti.</span><span class="sxs-lookup"><span data-stu-id="361f8-127">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="additional-resources"></a><span data-ttu-id="db4a2-128">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="db4a2-128">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="361f8-128">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="361f8-128">Additional resources</span></span>
 
-[<span data-ttu-id="db4a2-129">Creazione di report finanziari</span><span class="sxs-lookup"><span data-stu-id="db4a2-129">Financial reporting</span></span>](financial-reporting-intro.md)
+[<span data-ttu-id="361f8-129">Creazione di report finanziari</span><span class="sxs-lookup"><span data-stu-id="361f8-129">Financial reporting</span></span>](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
