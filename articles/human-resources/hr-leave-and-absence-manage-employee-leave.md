@@ -18,41 +18,46 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: 42d51ffe14442e076bafc99035dbd68a555e5b92
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4970658"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468061"
 ---
-# <a name="manage-employee-leave"></a><span data-ttu-id="7e219-103">Gestire il congedo dei dipendenti</span><span class="sxs-lookup"><span data-stu-id="7e219-103">Manage employee leave</span></span>
+# <a name="manage-employee-leave"></a><span data-ttu-id="96ba2-103">Gestire il congedo dei dipendenti</span><span class="sxs-lookup"><span data-stu-id="96ba2-103">Manage employee leave</span></span>
 
-<span data-ttu-id="7e219-104">È possibile gestire il congedo di un dipendente per tipo di congedo.</span><span class="sxs-lookup"><span data-stu-id="7e219-104">You can manage an employee's leave by leave type.</span></span> <span data-ttu-id="7e219-105">Ciò include la scadenza delle iscrizioni congedo e la rettifica dei saldi del tipo di congedo.</span><span class="sxs-lookup"><span data-stu-id="7e219-105">This includes expiring leave enrollment and adjusting leave type balances.</span></span> 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="adjust-leave-balances"></a><span data-ttu-id="7e219-106">Rettificare i saldi dei congedi</span><span class="sxs-lookup"><span data-stu-id="7e219-106">Adjust leave balances</span></span>
+<span data-ttu-id="96ba2-104">È possibile gestire il congedo di un dipendente per tipo di congedo.</span><span class="sxs-lookup"><span data-stu-id="96ba2-104">You can manage an employee's leave by leave type.</span></span> <span data-ttu-id="96ba2-105">Ciò include la scadenza delle iscrizioni congedo e la rettifica dei saldi del tipo di congedo.</span><span class="sxs-lookup"><span data-stu-id="96ba2-105">This includes expiring leave enrollment and adjusting leave type balances.</span></span> 
 
-1. <span data-ttu-id="7e219-107">Nel record del dipendente, selezionare **Congedo**.</span><span class="sxs-lookup"><span data-stu-id="7e219-107">On the employee's record, select **Leave**.</span></span>
+## <a name="adjust-leave-balances"></a><span data-ttu-id="96ba2-106">Rettificare i saldi dei congedi</span><span class="sxs-lookup"><span data-stu-id="96ba2-106">Adjust leave balances</span></span>
 
-2. <span data-ttu-id="7e219-108">Selezionare **Impostazione congedo e assenza**.</span><span class="sxs-lookup"><span data-stu-id="7e219-108">Select **Leave and absence setup**.</span></span>
+1. <span data-ttu-id="96ba2-107">Nel record del dipendente, selezionare **Congedo**.</span><span class="sxs-lookup"><span data-stu-id="96ba2-107">On the employee's record, select **Leave**.</span></span>
 
-3. <span data-ttu-id="7e219-109">Selezionare **Rettifica saldo**.</span><span class="sxs-lookup"><span data-stu-id="7e219-109">Select **Adjust balance**.</span></span>
+2. <span data-ttu-id="96ba2-108">Selezionare **Impostazione congedo e assenza**.</span><span class="sxs-lookup"><span data-stu-id="96ba2-108">Select **Leave and absence setup**.</span></span>
 
-4. <span data-ttu-id="7e219-110">Selezionare un valore in **Tipo di congedo**.</span><span class="sxs-lookup"><span data-stu-id="7e219-110">Select the **Leave type**.</span></span>
+3. <span data-ttu-id="96ba2-109">Selezionare **Rettifica saldo**.</span><span class="sxs-lookup"><span data-stu-id="96ba2-109">Select **Adjust balance**.</span></span>
 
-5. <span data-ttu-id="7e219-111">Inserire un valore in **Importo di rettifica**.</span><span class="sxs-lookup"><span data-stu-id="7e219-111">Enter an **Adjustment amount**.</span></span> 
+4. <span data-ttu-id="96ba2-110">Selezionare un valore in **Tipo di congedo**.</span><span class="sxs-lookup"><span data-stu-id="96ba2-110">Select the **Leave type**.</span></span>
 
-6. <span data-ttu-id="7e219-112">Facoltativamente, è possibile selezionare un valore in **Data**.</span><span class="sxs-lookup"><span data-stu-id="7e219-112">Optionally, you can select a **Date**.</span></span> 
+5. <span data-ttu-id="96ba2-111">Inserire un valore in **Importo di rettifica**.</span><span class="sxs-lookup"><span data-stu-id="96ba2-111">Enter an **Adjustment amount**.</span></span> 
 
-<span data-ttu-id="7e219-113">È possibile includere un codice motivo e un commento quando si rettifica il saldo di congedo di un dipendente.</span><span class="sxs-lookup"><span data-stu-id="7e219-113">You can include a reason code and comment when adjusting an employee's leave balance.</span></span> 
+6. <span data-ttu-id="96ba2-112">Facoltativamente, è possibile selezionare un valore in **Data**.</span><span class="sxs-lookup"><span data-stu-id="96ba2-112">Optionally, you can select a **Date**.</span></span> 
+
+<span data-ttu-id="96ba2-113">È possibile includere un codice motivo e un commento quando si rettifica il saldo di congedo di un dipendente.</span><span class="sxs-lookup"><span data-stu-id="96ba2-113">You can include a reason code and comment when adjusting an employee's leave balance.</span></span> 
 
 >[!IMPORTANT]
-><span data-ttu-id="7e219-114">La visualizzazione di ulteriori informazioni sui saldi dei congedi è in anteprima.</span><span class="sxs-lookup"><span data-stu-id="7e219-114">Viewing additional information about leave balances is in preview.</span></span> <span data-ttu-id="7e219-115">È necessario abilitarla nell'ambiente **Sandbox**.</span><span class="sxs-lookup"><span data-stu-id="7e219-115">You'll need to enable it in your **Sandbox** environment.</span></span> <span data-ttu-id="7e219-116">Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="7e219-116">For more information about enabling preview features, see [Manage features](hr-admin-manage-features.md).</span></span><br>
-><span data-ttu-id="7e219-117">Quando si passa il mouse su un saldo congedo, viene visualizzato:</span><span class="sxs-lookup"><span data-stu-id="7e219-117">When hovering over any leave balance, you will now see:</span></span><br>
->- <span data-ttu-id="7e219-118">**Disponibile** : Totale di quest'anno - Presi quest'anno</span><span class="sxs-lookup"><span data-stu-id="7e219-118">**Available**: Total this year - Take this year</span></span>
->- <span data-ttu-id="7e219-119">**Totale di quest'anno**: Tutti gli accantonamenti, le rettifiche e i riporti in avanti dell'anno</span><span class="sxs-lookup"><span data-stu-id="7e219-119">**Total this year**: All accruals, adjustments, and carry forward for the year</span></span>
->- <span data-ttu-id="7e219-120">**Presi quest'anno** : Tutti i permessi approvati</span><span class="sxs-lookup"><span data-stu-id="7e219-120">**Taken this year**: All approved time off</span></span>
+><span data-ttu-id="96ba2-114">La visualizzazione di ulteriori informazioni sui saldi dei congedi è in anteprima.</span><span class="sxs-lookup"><span data-stu-id="96ba2-114">Viewing additional information about leave balances is in preview.</span></span> <span data-ttu-id="96ba2-115">È necessario abilitarla nell'ambiente **Sandbox**.</span><span class="sxs-lookup"><span data-stu-id="96ba2-115">You'll need to enable it in your **Sandbox** environment.</span></span> <span data-ttu-id="96ba2-116">Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="96ba2-116">For more information about enabling preview features, see [Manage features](hr-admin-manage-features.md).</span></span><br>
+><span data-ttu-id="96ba2-117">Quando si passa il mouse su un saldo congedo, viene visualizzato:</span><span class="sxs-lookup"><span data-stu-id="96ba2-117">When hovering over any leave balance, you will now see:</span></span><br>
+>- <span data-ttu-id="96ba2-118">**Disponibile** : Totale di quest'anno - Presi quest'anno</span><span class="sxs-lookup"><span data-stu-id="96ba2-118">**Available**: Total this year - Take this year</span></span>
+>- <span data-ttu-id="96ba2-119">**Totale di quest'anno**: Tutti gli accantonamenti, le rettifiche e i riporti in avanti dell'anno</span><span class="sxs-lookup"><span data-stu-id="96ba2-119">**Total this year**: All accruals, adjustments, and carry forward for the year</span></span>
+>- <span data-ttu-id="96ba2-120">**Presi quest'anno** : Tutti i permessi approvati</span><span class="sxs-lookup"><span data-stu-id="96ba2-120">**Taken this year**: All approved time off</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7e219-121">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="7e219-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="96ba2-121">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="96ba2-121">See also</span></span>
 
-- [<span data-ttu-id="7e219-122">Panoramica di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="7e219-122">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="7e219-123">Gestire le richieste di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="7e219-123">Manage leave and absence requests</span></span>](hr-employee-self-service-manage-requests.md)
+- [<span data-ttu-id="96ba2-122">Panoramica di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="96ba2-122">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="96ba2-123">Gestire le richieste di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="96ba2-123">Manage leave and absence requests</span></span>](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

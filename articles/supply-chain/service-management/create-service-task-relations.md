@@ -17,60 +17,63 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974662"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470739"
 ---
-# <a name="create-service-task-relations"></a><span data-ttu-id="2f603-103">Creare relazioni di attività di assistenza tecnica</span><span class="sxs-lookup"><span data-stu-id="2f603-103">Create service task relations</span></span>    
+# <a name="create-service-task-relations"></a><span data-ttu-id="09acd-103">Creare relazioni di attività di assistenza tecnica</span><span class="sxs-lookup"><span data-stu-id="09acd-103">Create service task relations</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2f603-104">È possibile associare le attività di assistenza tecnica a contratti di assistenza o ordini di assistenza in modo da descrivere l'attività di assistenza tecnica da completare per il contratto o l'ordine.</span><span class="sxs-lookup"><span data-stu-id="2f603-104">You can associate service tasks with service agreements or service orders in order to describe the service task to be completed for the agreement or order.</span></span> <span data-ttu-id="2f603-105">Queste informazioni sono disponibili ai tecnici e ai clienti.</span><span class="sxs-lookup"><span data-stu-id="2f603-105">This information is available to service technicians and customers.</span></span>
+<span data-ttu-id="09acd-104">È possibile associare le attività di assistenza tecnica a contratti di assistenza o ordini di assistenza in modo da descrivere l'attività di assistenza tecnica da completare per il contratto o l'ordine.</span><span class="sxs-lookup"><span data-stu-id="09acd-104">You can associate service tasks with service agreements or service orders in order to describe the service task to be completed for the agreement or order.</span></span> <span data-ttu-id="09acd-105">Queste informazioni sono disponibili ai tecnici e ai clienti.</span><span class="sxs-lookup"><span data-stu-id="09acd-105">This information is available to service technicians and customers.</span></span>
 
-## <a name="create-a-relation-with-a-service-agreement"></a><span data-ttu-id="2f603-106">Creare una relazione con un contratto di assistenza</span><span class="sxs-lookup"><span data-stu-id="2f603-106">Create a relation with a service agreement</span></span>
+## <a name="create-a-relation-with-a-service-agreement"></a><span data-ttu-id="09acd-106">Creare una relazione con un contratto di assistenza</span><span class="sxs-lookup"><span data-stu-id="09acd-106">Create a relation with a service agreement</span></span>
 
-1.  <span data-ttu-id="2f603-107">Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.</span><span class="sxs-lookup"><span data-stu-id="2f603-107">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="09acd-107">Selezionare **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.</span><span class="sxs-lookup"><span data-stu-id="09acd-107">Go to **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="2f603-108">Selezionare un contratto di assistenza esistente o crearne uno nuovo.</span><span class="sxs-lookup"><span data-stu-id="2f603-108">Select an existing service agreement, or create a new service agreement.</span></span>
+2.  <span data-ttu-id="09acd-108">Selezionare un contratto di assistenza esistente o crearne uno nuovo.</span><span class="sxs-lookup"><span data-stu-id="09acd-108">Select an existing service agreement, or create a new service agreement.</span></span>
 
-3.  <span data-ttu-id="2f603-109">Nel riquadro azioni fare clic sul pulsante **Attività di assistenza tecnica**.</span><span class="sxs-lookup"><span data-stu-id="2f603-109">On the Action Pane, click the **Service tasks** button.</span></span>
+3.  <span data-ttu-id="09acd-109">Nel riquadro azioni selezionare il pulsante **Attività di assistenza tecnica**.</span><span class="sxs-lookup"><span data-stu-id="09acd-109">On the Action Pane, select the **Service tasks** button.</span></span>
 
-4.  <span data-ttu-id="2f603-110">Nel modulo **Attività di assistenza tecnica** premere CTRL+N per creare una nuova riga, quindi selezionare dall'elenco **Attività di assistenza tecnica** l'attività di assistenza tecnica da collegare al contratto di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2f603-110">On the **Service tasks** form, press CTRL+N to create a new line, and then select a service task from the **Service task** list to attach the service task to the service agreement.</span></span>
+4.  <span data-ttu-id="09acd-110">Nel modulo **Attività di assistenza tecnica** selezionare **Nuovo** per creare una nuova riga, quindi selezionare dall'elenco **Attività di assistenza tecnica** l'attività di assistenza tecnica da collegare al contratto di assistenza.</span><span class="sxs-lookup"><span data-stu-id="09acd-110">On the **Service tasks** form, select **New** to create a new line, and then select a service task from the **Service task** list to attach the service task to the service agreement.</span></span>
 
-5.  <span data-ttu-id="2f603-111">Nella scheda **Descrizione** immettere le descrizioni di note interne o esterne nei campi a testo libero.</span><span class="sxs-lookup"><span data-stu-id="2f603-111">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
+5.  <span data-ttu-id="09acd-111">Nella scheda **Descrizione** immettere le descrizioni di note interne o esterne nei campi a testo libero.</span><span class="sxs-lookup"><span data-stu-id="09acd-111">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
 
-6.  <span data-ttu-id="2f603-112">Chiudere il modulo per salvare il record.</span><span class="sxs-lookup"><span data-stu-id="2f603-112">Close the form to save the record.</span></span>
+6.  <span data-ttu-id="09acd-112">Chiudere il modulo per salvare il record.</span><span class="sxs-lookup"><span data-stu-id="09acd-112">Close the form to save the record.</span></span>
 
-<span data-ttu-id="2f603-113">Ripetere la procedura finché non saranno state create tutte le relazioni di attività di assistenza tecnica necessarie per il contratto di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2f603-113">Repeat this procedure until you have created all the necessary service task relations for the service agreement.</span></span> <span data-ttu-id="2f603-114">Sarà quindi possibile specificare queste attività da qualsiasi riga del contratto collegato.</span><span class="sxs-lookup"><span data-stu-id="2f603-114">You can now specify these service tasks for any attached agreement lines.</span></span>
+<span data-ttu-id="09acd-113">Ripetere la procedura finché non saranno state create tutte le relazioni di attività di assistenza tecnica necessarie per il contratto di assistenza.</span><span class="sxs-lookup"><span data-stu-id="09acd-113">Repeat this procedure until you have created all the necessary service task relations for the service agreement.</span></span> <span data-ttu-id="09acd-114">Sarà quindi possibile specificare queste attività da qualsiasi riga del contratto collegato.</span><span class="sxs-lookup"><span data-stu-id="09acd-114">You can now specify these service tasks for any attached agreement lines.</span></span>
 
-<span data-ttu-id="2f603-115">Una relazione di attività di assistenza tecnica creata in un contratto di assistenza è disponibile da tutti gli ordini di assistenza collegati a quel contratto.</span><span class="sxs-lookup"><span data-stu-id="2f603-115">A service tasks relation that is created on a service agreement is available from all service orders that are attached to the service agreement.</span></span>
+<span data-ttu-id="09acd-115">Una relazione di attività di assistenza tecnica creata in un contratto di assistenza è disponibile da tutti gli ordini di assistenza collegati a quel contratto.</span><span class="sxs-lookup"><span data-stu-id="09acd-115">A service tasks relation that is created on a service agreement is available from all service orders that are attached to the service agreement.</span></span>
 
-## <a name="create-a-relation-with-a-service-order"></a><span data-ttu-id="2f603-116">Creare una relazione con un ordine di assistenza</span><span class="sxs-lookup"><span data-stu-id="2f603-116">Create a relation with a service order</span></span>
+## <a name="create-a-relation-with-a-service-order"></a><span data-ttu-id="09acd-116">Creare una relazione con un ordine di assistenza</span><span class="sxs-lookup"><span data-stu-id="09acd-116">Create a relation with a service order</span></span>
 
-1.  <span data-ttu-id="2f603-117">Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.</span><span class="sxs-lookup"><span data-stu-id="2f603-117">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="09acd-117">Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.</span><span class="sxs-lookup"><span data-stu-id="09acd-117">Go to **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="2f603-118">Selezionare un ordine di assistenza esistente o crearne uno nuovo.</span><span class="sxs-lookup"><span data-stu-id="2f603-118">Select an existing service order, or create a new service order.</span></span>
+2.  <span data-ttu-id="09acd-118">Selezionare un ordine di assistenza esistente o crearne uno nuovo.</span><span class="sxs-lookup"><span data-stu-id="09acd-118">Select an existing service order, or create a new service order.</span></span>
 
-3.  <span data-ttu-id="2f603-119">Nel riquadro azioni fare clic sul pulsante **Attività di assistenza tecnica**.</span><span class="sxs-lookup"><span data-stu-id="2f603-119">On the Action Pane, click the **Service tasks** button.</span></span>
+3.  <span data-ttu-id="09acd-119">Nel riquadro azioni selezionare il pulsante **Attività di assistenza tecnica**.</span><span class="sxs-lookup"><span data-stu-id="09acd-119">On the Action Pane, select the **Service tasks** button.</span></span>
 
-4.  <span data-ttu-id="2f603-120">Nel modulo **Attività di assistenza tecnica** premere CTRL+N per creare una nuova riga, quindi selezionare dall'elenco **Attività di assistenza tecnica** le attività di assistenza tecnica da collegare al contratto di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2f603-120">From the **Service tasks** form, press CTRL+N to create a new line, and then select a service task from the **Service task** list to attach the service tasks to the service order.</span></span>
+4.  <span data-ttu-id="09acd-120">Nel modulo **Attività di assistenza tecnica** selezionare **Nuovo** per creare una nuova riga, quindi selezionare dall'elenco **Attività di assistenza tecnica** le attività di assistenza tecnica da collegare all'ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="09acd-120">From the **Service tasks** form, select **New** to create a new line, and then select a service task from the **Service task** list to attach the service tasks to the service order.</span></span>
 
-5.  <span data-ttu-id="2f603-121">Nella scheda **Descrizione** immettere le descrizioni di note interne o esterne nei campi a testo libero.</span><span class="sxs-lookup"><span data-stu-id="2f603-121">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
+5.  <span data-ttu-id="09acd-121">Nella scheda **Descrizione** immettere le descrizioni di note interne o esterne nei campi a testo libero.</span><span class="sxs-lookup"><span data-stu-id="09acd-121">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
 
-6.  <span data-ttu-id="2f603-122">Chiudere il modulo per salvare il record.</span><span class="sxs-lookup"><span data-stu-id="2f603-122">Close the form to save the record.</span></span>
+6.  <span data-ttu-id="09acd-122">Chiudere il modulo per salvare il record.</span><span class="sxs-lookup"><span data-stu-id="09acd-122">Close the form to save the record.</span></span>
 
-<span data-ttu-id="2f603-123">Ripetere la procedura finché non saranno state create tutte le relazioni di attività di assistenza tecnica necessarie per l'ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="2f603-123">Repeat this procedure until you have created all the necessary service task relations for the service order.</span></span> <span data-ttu-id="2f603-124">Sarà quindi possibile, quando si creano righe dell'ordine di assistenza, selezionare l'attività per la quale è stata creata la relazione.</span><span class="sxs-lookup"><span data-stu-id="2f603-124">You can now select the service task for which you have created the relation when you create service order lines.</span></span>
+<span data-ttu-id="09acd-123">Ripetere la procedura finché non saranno state create tutte le relazioni di attività di assistenza tecnica necessarie per l'ordine di assistenza.</span><span class="sxs-lookup"><span data-stu-id="09acd-123">Repeat this procedure until you have created all the necessary service task relations for the service order.</span></span> <span data-ttu-id="09acd-124">Sarà quindi possibile, quando si creano righe dell'ordine di assistenza, selezionare l'attività per la quale è stata creata la relazione.</span><span class="sxs-lookup"><span data-stu-id="09acd-124">You can now select the service task for which you have created the relation when you create service order lines.</span></span>
 
-<span data-ttu-id="2f603-125">Le relazioni di attività di assistenza tecnica create in un ordine di assistenza sono disponibili nell'ordine stesso.</span><span class="sxs-lookup"><span data-stu-id="2f603-125">Service task relations that are created on a service order are available on the specific service order.</span></span>
+<span data-ttu-id="09acd-125">Le relazioni di attività di assistenza tecnica create in un ordine di assistenza sono disponibili nell'ordine stesso.</span><span class="sxs-lookup"><span data-stu-id="09acd-125">Service task relations that are created on a service order are available on the specific service order.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2f603-126">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="2f603-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="09acd-126">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="09acd-126">See also</span></span>
 
-[<span data-ttu-id="2f603-127">Panoramica attività di servizio</span><span class="sxs-lookup"><span data-stu-id="2f603-127">Service tasks overview</span></span>](service-tasks.md)
+[<span data-ttu-id="09acd-127">Panoramica attività di servizio</span><span class="sxs-lookup"><span data-stu-id="09acd-127">Service tasks overview</span></span>](service-tasks.md)
 
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

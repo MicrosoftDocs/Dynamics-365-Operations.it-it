@@ -17,48 +17,51 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991717"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470670"
 ---
-# <a name="set-up-return-reason-codes"></a><span data-ttu-id="b83ec-103">Impostare codici motivo reso</span><span class="sxs-lookup"><span data-stu-id="b83ec-103">Set up return reason codes</span></span>   
+# <a name="set-up-return-reason-codes"></a><span data-ttu-id="010c0-103">Impostare i codici motivo dei resi</span><span class="sxs-lookup"><span data-stu-id="010c0-103">Set up return reason codes</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="set-up-return-reason-code-groups"></a><span data-ttu-id="b83ec-104">Impostare gruppi di codici motivo reso</span><span class="sxs-lookup"><span data-stu-id="b83ec-104">Set up return reason code groups</span></span> 
+## <a name="set-up-return-reason-code-groups"></a><span data-ttu-id="010c0-104">Impostare gruppi di codici motivo reso</span><span class="sxs-lookup"><span data-stu-id="010c0-104">Set up return reason code groups</span></span> 
 
-1.  <span data-ttu-id="b83ec-105">Fare clic su **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Gruppi codici motivo reso**.</span><span class="sxs-lookup"><span data-stu-id="b83ec-105">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Return reason code groups**.</span></span>
+1.  <span data-ttu-id="010c0-105">Selezionare **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Gruppi codici motivo reso**.</span><span class="sxs-lookup"><span data-stu-id="010c0-105">Go to **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Return reason code groups**.</span></span>
 
-2.  <span data-ttu-id="b83ec-106">Premere CTRL+N per creare una nuova riga di gruppo di codici motivo reso.</span><span class="sxs-lookup"><span data-stu-id="b83ec-106">Press CTRL+N to create a line for a new return reason code group.</span></span>
+2.  <span data-ttu-id="010c0-106">Selezionare **Nuovo** per creare una nuova riga di gruppo di codici motivo reso.</span><span class="sxs-lookup"><span data-stu-id="010c0-106">Select **New** to create a line for a new return reason code group.</span></span>
 
-3.  <span data-ttu-id="b83ec-107">Nel campo **Gruppo di codici motivo reso** digitare un identificatore per il gruppo.</span><span class="sxs-lookup"><span data-stu-id="b83ec-107">In the **Return reason code group** field, type an identifier for this group.</span></span>
+3.  <span data-ttu-id="010c0-107">Nel campo **Gruppo di codici motivo reso** digitare un identificatore per il gruppo.</span><span class="sxs-lookup"><span data-stu-id="010c0-107">In the **Return reason code group** field, type an identifier for this group.</span></span>
 
-4.  <span data-ttu-id="b83ec-108">Nel campo **Descrizione** digitare una frase descrittiva dell'uso previsto per il gruppo.</span><span class="sxs-lookup"><span data-stu-id="b83ec-108">In the **Description** field, type a brief phrase to explain how this group will be used.</span></span>
+4.  <span data-ttu-id="010c0-108">Nel campo **Descrizione** digitare una frase descrittiva dell'uso previsto per il gruppo.</span><span class="sxs-lookup"><span data-stu-id="010c0-108">In the **Description** field, type a brief phrase to explain how this group will be used.</span></span>
 
-## <a name="set-up-return-reason-codes"></a><span data-ttu-id="b83ec-109">Impostare codici motivo reso</span><span class="sxs-lookup"><span data-stu-id="b83ec-109">Set up return reason codes</span></span> 
+## <a name="set-up-return-reason-codes"></a><span data-ttu-id="010c0-109">Impostare codici motivo reso</span><span class="sxs-lookup"><span data-stu-id="010c0-109">Set up return reason codes</span></span> 
 
-<span data-ttu-id="b83ec-110">Questa procedura consente di impostare i codici motivo reso che è possibile utilizzare per indicare il motivo per cui un prodotto è stato restituito dal cliente.</span><span class="sxs-lookup"><span data-stu-id="b83ec-110">This procedure helps you set up return reason codes that you can use to indicate why a product was returned by the customer.</span></span>
+<span data-ttu-id="010c0-110">Questa procedura consente di impostare i codici motivo reso che è possibile utilizzare per indicare il motivo per cui un prodotto è stato restituito dal cliente.</span><span class="sxs-lookup"><span data-stu-id="010c0-110">This procedure helps you set up return reason codes that you can use to indicate why a product was returned by the customer.</span></span>
 
-1.  <span data-ttu-id="b83ec-111">Fare clic su **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Codici motivo reso**.</span><span class="sxs-lookup"><span data-stu-id="b83ec-111">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Return reason codes**.</span></span>
+1.  <span data-ttu-id="010c0-111">Selezionare **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Codici motivo reso**.</span><span class="sxs-lookup"><span data-stu-id="010c0-111">Go to **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Return reason codes**.</span></span>
 
-2.  <span data-ttu-id="b83ec-112">Premere CTRL+N per creare una nuova riga di codice motivo reso.</span><span class="sxs-lookup"><span data-stu-id="b83ec-112">Press CTRL + N to create a new return reason code line.</span></span>
+2.  <span data-ttu-id="010c0-112">Premere CTRL+N per creare una nuova riga di codice motivo reso.</span><span class="sxs-lookup"><span data-stu-id="010c0-112">Press CTRL + N to create a new return reason code line.</span></span>
 
-3.  <span data-ttu-id="b83ec-113">Nel campo **Codice motivo reso** immettere il testo per identificare questo.</span><span class="sxs-lookup"><span data-stu-id="b83ec-113">In the **Return reason code** field, enter text to identify this code.</span></span>
+3.  <span data-ttu-id="010c0-113">Nel campo **Codice motivo reso** immettere il testo per identificare questo.</span><span class="sxs-lookup"><span data-stu-id="010c0-113">In the **Return reason code** field, enter text to identify this code.</span></span>
 
-4.  <span data-ttu-id="b83ec-114">Nel campo **Descrizione** immettere il testo descrittivo del codice motivo reso.</span><span class="sxs-lookup"><span data-stu-id="b83ec-114">In the **Description** field, enter text to describe the return reason code.</span></span>
+4.  <span data-ttu-id="010c0-114">Nel campo **Descrizione** immettere il testo descrittivo del codice motivo reso.</span><span class="sxs-lookup"><span data-stu-id="010c0-114">In the **Description** field, enter text to describe the return reason code.</span></span>
 
-5.  <span data-ttu-id="b83ec-115">Utilizzare l'elenco a discesa **Gruppo di codici motivo reso** per aggiungere il codice a un gruppo di codici motivo reso.</span><span class="sxs-lookup"><span data-stu-id="b83ec-115">Use the **Return reason code group** drop-down list to add the code to a return reason code group.</span></span>
+5.  <span data-ttu-id="010c0-115">Utilizzare l'elenco a discesa **Gruppo di codici motivo reso** per aggiungere il codice a un gruppo di codici motivo reso.</span><span class="sxs-lookup"><span data-stu-id="010c0-115">Use the **Return reason code group** drop-down list to add the code to a return reason code group.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b83ec-116">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="b83ec-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="010c0-116">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="010c0-116">See also</span></span>
 
-<span data-ttu-id="b83ec-117">[Gruppi codici motivo reso (modulo)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="b83ec-117">[Return reason code groups (form)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))</span></span>
+<span data-ttu-id="010c0-117">[Gruppi codici motivo reso (modulo)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="010c0-117">[Return reason code groups (form)](https://technet.microsoft.com/library/hh209604\(v=ax.60\))</span></span>
 
-<span data-ttu-id="b83ec-118">[Codici motivo reso (modulo)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="b83ec-118">[Return reason codes (form)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))</span></span>
+<span data-ttu-id="010c0-118">[Codici motivo reso (modulo)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="010c0-118">[Return reason codes (form)](https://technet.microsoft.com/library/hh227372\(v=ax.60\))</span></span>
 
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
