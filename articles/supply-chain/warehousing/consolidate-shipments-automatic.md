@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 376c7418b61c0192f9071a879b50b9ece7699894
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7102eade4a26f4b4dc08adb395aa7b50a630b9d9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243945"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Consolidare le spedizioni quando vengono rilasciate al magazzino utilizzando Rilascio automatico degli ordini cliente
 
@@ -229,7 +229,7 @@ Per ciascuna serie di ordini cliente creati in precedenza, dovrai completare una
 
 ### <a name="basic-release-to-warehouse-procedure"></a><a name="release-procedure"></a>Procedura di rilascio in magazzino di base
 
-Per ciascuna serie di ordini di vendita creata in precedenza, verranno completate le tre procedure descritte nelle sottosezioni seguenti.
+Per ciascuna serie di ordini cliente creata in precedenza, verranno completate le tre procedure descritte nelle sottosezioni seguenti.
 
 #### <a name="update-the-wave-template-that-will-be-used-during-release"></a>Aggiorna il modello ondata che verrà utilizzato durante il rilascio
 

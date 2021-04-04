@@ -2,11 +2,10 @@
 title: Destinazioni dei report elettronici
 description: Questo argomento fornisce informazioni sulla gestione delle destinazioni di report elettronici, i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
 author: nselin
-manager: AnnBe
-ms.date: 01/21/2021
+manager: tfehr
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097283"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569721"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici
 
@@ -166,12 +165,14 @@ Per rendere disponibile l'opzione di conversione PDF nell'istanza corrente, di F
 
 ### <a name="applicability"></a>Applicabilità
 
-L'opzione di conversione PDF può essere attivata solo per i componenti di file utilizzati per generare l'output in formato Office (Excel o Word) (**file Excel**). Quando questa opzione è attivata, l'output generato in formato Office viene automaticamente convertito in formato PDF.
-
-### <a name="limitations"></a>Limiti
+L'opzione di conversione PDF può essere attivata solo per i componenti di file utilizzati per generare l'output in formato Office (Excel o Word) (**file Excel**). Quando questa opzione è attivata, l'output generato in formato Office viene automaticamente convertito in formato PDF. Nelle versioni di Finance **antecedenti alla versione 10.0.18**, è possibile attivare questa opzione solo per i componenti di tipo **Excel\\File** utilizzati per generare output in formato [Excel](er-fillable-excel.md) o [Word](er-design-configuration-word.md). Tuttavia, nella **versione 10.0.18 e successive**, è anche possibile attivare questa opzione per i componenti di tipo **Comune\\File**.
 
 > [!NOTE]
-> Questa funzionalità è una funzionalità di anteprima ed è soggetta alle condizioni d'uso descritte in [Condizioni d'uso supplementari per le anteprime di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Prestare attenzione al messaggio di avviso visualizzato quando si attiva l'opzione di conversione PDF per un componente ER di tipo **Comune\\File**. Questo messaggio indica che non esiste alcun modo di garantire, in fase di progettazione, che il componente file selezionato esporrà il contenuto in formato PDF o il contenuto convertibile in PDF in fase di runtime. Pertanto, è necessario attivare l'opzione solo se si è certi che il componente file selezionato è stato configurato per esporre il contenuto in formato PDF o il contenuto convertibile in PDF in fase di runtime.
+> 
+> Se si attiva l'opzione di conversione PDF per un componente di tipo **Excel\\File**, se quel componente espone il contenuto in un formato diverso da PDF e se il contenuto esposto non può essere convertito in formato PDF, si verificherà un'eccezione in fase di runtime. Il messaggio che si riceve indica che il contenuto generato non può essere convertito in formato PDF.
+
+### <a name="limitations"></a>Limiti
 
 L'opzione di conversione PDF è disponibile solo per le distribuzioni cloud.
 

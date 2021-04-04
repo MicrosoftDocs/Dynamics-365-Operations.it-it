@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70a12148ca324e1e7e1f90d29d46f68cb4144438
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ca0001adfb73ab178a50e4346922273f0812c92
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995317"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580943"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Impostare il processo di importazione di riconciliazione bancaria avanzata
 
@@ -67,13 +67,13 @@ Per tutti e tre i formati, è necessario disporre di file che convertono il rend
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Esempi di formati di rendiconto bancario e di layout tecnici
-Di seguito sono inclusi esempi di definizioni avanzate di layout tecnici dei file di importazione di riconciliazione bancaria e tre file di esempio di rendiconto bancario: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Di seguito sono riportati esempi di definizioni avanzate di layout tecnici dei file di importazione di riconciliazione bancaria e tre file di esempio di rendiconto bancario: [Esempi di file di importazione](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
 
 | Definizione di layout tecnico                             | File di esempio di rendiconto bancario          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| DynamicsAXMT940Layout                                   | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)                |
+| DynamicsAXISO20022Layout                                | [ISO20022StatementExample](https://dmsstager3tx7y9x22.blob.core.windows.net/155d84ed-c250-48f3-b0b1-c5a431e7855b/iso20022-multiplestatements.xml?sv=2019-02-02&sr=b&sig=1bDx0f9SONFouCcwLNPhmFHNdxDOkaibNf5%2Btoj0f0A%3D&se=2021-03-11T01%3A05%3A41Z&sp=r)             |
+| DynamicsAXBAI2Layout                                    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)                 |
 
 
 

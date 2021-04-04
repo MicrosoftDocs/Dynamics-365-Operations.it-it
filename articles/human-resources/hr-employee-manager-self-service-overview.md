@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1aadd17b35992af1e79750427fae62e9bd4ff7a
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 6cda6166bff926e362ee35221b9c204c2ead5503
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113090"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464154"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Panoramica self-service per dipendenti e manager
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo articolo fornisce una panoramica dell'area di lavoro self-service per dipendenti e manager.
 
@@ -80,7 +82,7 @@ La scheda **Certificati** visualizza il certificato e la data di scadenza del ce
 
 La scheda **Prossima revisione programmata** mostra la prossima revisione delle prestazioni. È possibile iniziare una nuova revisione da questa scheda. Anche il manager o il rappresentante delle risorse umane può avviare revisioni. A seconda delle impostazioni dell'organizzazione, è possibile anche visualizzare, aggiornare e inviare revisioni di uscita da questa scheda.
 
-È possibile gestire gli obiettivi con la scheda **Obiettivi prestazioni**. Questa carta mostra il numero di obiettivi presenti in ogni stato (**Non avviato**, **Operativo** e **Richiede miglioramento**). È possibile creare, aggiornare e rimuovere obiettivi, in base alla sicurezza basata su ruolo assegnata. Se desiderato, è possibile aggiungere nuovi obiettivi da gruppi o modelli. I manager e le risorse umane possono anche creare obiettivi per conto dei dipendenti e determinare i dettagli di ciascun obiettivo. I manager e i dipendenti possono collaborare su obiettivi e aggiornare attività, misurazioni e stato. È anche possibile includere allegati.
+È possibile gestire gli obiettivi con la scheda **Obiettivi prestazioni**. Questa carta mostra il numero di obiettivi presenti in ogni stato (**Non avviato**, **Operativo** e **Richiede miglioramento**). È possibile creare, aggiornare e rimuovere obiettivi, in base alla sicurezza basata su ruolo assegnata. Se desiderato, è possibile aggiungere nuovi obiettivi da gruppi o modelli. I manager e le risorse umane possono anche creare obiettivi per conto dei dipendenti e determinare i dettagli di ciascun obiettivo. I manager e i dipendenti possono collaborare su obiettivi e aggiornare attività, misure e stato. È anche possibile includere allegati.
 
 È possibile visualizzare le competenze esistenti nella scheda **Competenze**. È possibile aggiornare le competenze, aggiungerne di nuove o rimuovere quelle che non sono più pertinenti. A seconda delle impostazioni dell'organizzazione, la modifica alle competenze potrebbe essere soggetta a un processo di approvazione.
 

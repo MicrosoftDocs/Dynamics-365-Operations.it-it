@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14c1a3a87855bf9861ebfdd2e68eaf1dd55fb373
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ef2da24b1298e14570a6f7d295caa506b6c2ccc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978214"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247970"
 ---
 # <a name="vat-management-and-reporting-by-tax-point-date-date-of-vat-register"></a>Gestione e reporting IVA per data di effettuazione dell'operazione (data del libro IVA)
 

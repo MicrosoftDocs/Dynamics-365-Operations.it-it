@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077479"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556316"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -41,7 +42,8 @@ L'interfaccia di esecuzione dell'area di produzione stessa, più molte delle imp
 
 ### <a name="the-production-floor-execution-interface"></a>Interfaccia di esecuzione dell'area di produzione
 
-Questa è la funzionalità principale descritta in questo argomento. Aggiunge l'interfaccia di esecuzione dell'area di produzione al sistema. Per abilitarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):  
+Questa è la funzionalità principale descritta in questo argomento. Aggiunge l'interfaccia di esecuzione dell'area di produzione al sistema. Per abilitarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
 - Esecuzione dell'area di produzione
 
 ### <a name="generate-license-plates"></a>Generare le targhe
@@ -79,6 +81,7 @@ Per creare e gestire le configurazioni del dispositivo, andare a **Controllo pro
 
 Successivamente, configurare le varie impostazioni per la configurazione del dispositivo selezionato. Sono disponibili i campi seguenti:
 
+- **Solo ora di entrata e di uscita** - Impostare questa opzione su *Sì* per creare un'interfaccia semplificata che fornisca solo la funzionalità ora di entrata e ora di uscita. Ciò disabilita la maggior parte delle altre opzioni in questa pagina. È necessario rimuovere tutte le righe dalla Scheda dettaglio **Selezione scheda** per poter abilitare questa opzione.
 - **Segnala quantità all'uscita** - Impostare questa opzione su *Sì* per richiedere ai lavoratori di fornire il loro feedback sui lavori in corso quando timbrano il cartellino. Se impostato su *No*, ai lavoratori non verrà richiesto di eseguire questa operazione.
 - **Blocca dipendente** - Quando questa opzione è impostata su *No*, i lavoratori verranno disconnessi immediatamente dopo aver effettuato una registrazione (ad esempio un nuovo lavoro). Il dispositivo tornerà quindi alla pagina di accesso. Quando questa opzione è impostata su *Sì*, i lavoratori rimarranno connessi al dispositivo con la scheda lavoro. Tuttavia, un lavoratore può disconnettersi manualmente in modo che un altro lavoratore possa accedere mentre il dispositivo con la scheda lavoro continua a funzionare con lo stesso account utente di sistema. Per ulteriori informazioni su questi tipi di account, vedere [Utenti assegnati](config-job-card-device.md#assigned-users).
 - **Utilizza ora di registrazione effettiva** - Impostare questa opzione su *Sì* affinché l'ora di ogni nuova registrazione sia uguale all'ora esatta in cui la registrazione è stata presentata dal lavoratore. Quando questa opzione è impostata su *No*, viene utilizzata l'ora di accesso. Di solito si imposta questa opzione su *Sì* se sono state impostate le opzioni **Blocca dipendente** e/o **Singolo lavoratore** su *Sì* per i casi dove i lavoratori rimangono spesso connessi per periodi più lunghi.

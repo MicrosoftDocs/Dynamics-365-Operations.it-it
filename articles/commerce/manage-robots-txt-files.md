@@ -16,21 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2e25a584121b700e566c29dbfe3fbbd72bf998cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: afd7982179dc9845c9adc24e8c7c9951a04460a3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982543"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477710"
 ---
 # <a name="manage-robotstxt-files"></a>Gestire i file robots.txt
-
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come gestire i file robots.txt in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Lo standard di esclusione dei robot, o robots.txt, è uno standard utilizzato dai siti Web per comunicare con i robot Web. Indica ai robot Web le aree di un sito Web che non devono essere visitate. I robot vengono spesso utilizzati dai motori di ricerca per indicizzare i siti Web.
 

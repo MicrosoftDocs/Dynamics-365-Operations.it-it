@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e5ff5916366f968cbf8dc9a5614466ef89faa92
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8ee15fc2a3edd9d0cc8cff17123981bc90ceeff2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007163"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246191"
 ---
 # <a name="formulas-and-formula-versions"></a>Formule e versioni di formula
 
@@ -40,10 +40,10 @@ Un esempio di formula è la formula per dei biscotti al cioccolato. Gli ingredie
 
 Quando si crea una riga di formula, si utilizza il tipo di riga per indicare come il sistema deve gestire la riga quando si esegue la pianificazione generale e si producono ordini batch. Il risultato è diverso per ogni tipo di riga. Nella tabella indicata di seguito vengono descritti i tipi di riga che è possibile selezionare. 
 
-| Tipo di riga     | descrizione  |
+| Tipo di riga     | Descrizione  |
 |---------------|--------------|
 | Articolo          | Selezionare **Articolo** se l'articolo è una materia prima o un articolo semi-lavorato prelevato dal magazzino o se è un servizio. |
-| Fittizio       | Selezionare **Fittizio** quando si desidera esplodere qualsiasi articolo formula di livello inferiore contenuto nelle righe della formula. Se quando si stima l'ordine batch gli articoli della formula sono esplosi, gli articoli componente sono elencati come righe della formula nell'ordine batch. Inoltre, i cicli di lavorazione corrispondenti vengono aggiunti al ciclo di lavorazione produzione. Gli articoli formula vengono esplosi utilizzando la configurazione corrente. Quando si utilizza il tipo di riga **Fittizio**, è possibile gestire le configurazioni di produzione e di misurazione che si verificano a differenti livelli della formula. Se si seleziona **Fittizio** per un prodotto nella scheda dettaglio **Progettazione** della pagina **Dettagli prodotto rilasciato** e si utilizza questo prodotto in una formula, il tipo della riga della formula diventa **Fittizio**. Non è possibile selezionare **Fittizio** per un articolo a peso variabile o per articoli in cui tipo di produzione è **Co-prodotto**, **Sottoprodotto** o **Articolo pianificazione**. |
+| Fittizio       | Selezionare **Fittizio** quando si desidera esplodere qualsiasi articolo formula di livello inferiore contenuto nelle righe della formula. Se quando si stima l'ordine batch gli articoli della formula sono esplosi, gli articoli componente sono elencati come righe della formula nell'ordine batch. Inoltre, i cicli di lavorazione corrispondenti vengono aggiunti al ciclo di lavorazione produzione. Gli articoli formula vengono esplosi utilizzando la configurazione corrente. Quando si utilizza il tipo di riga **Fittizio**, è possibile gestire le configurazioni di produzione e di misura che si verificano a differenti livelli della formula. Se si seleziona **Fittizio** per un prodotto nella scheda dettaglio **Progettazione** della pagina **Dettagli prodotto rilasciato** e si utilizza questo prodotto in una formula, il tipo della riga della formula diventa **Fittizio**. Non è possibile selezionare **Fittizio** per un articolo a peso variabile o per articoli in cui tipo di produzione è **Co-prodotto**, **Sottoprodotto** o **Articolo pianificazione**. |
 | Fornitura sottoposta a pegging | Selezionare **Fornitura sottoposta a pegging** per creare un ordine batch, ordine di produzione, kanban, ordine di trasferimento o ordine fornitore per l'ingrediente contenuto nella riga della formula. L'ordine correlato viene determinato in base alle impostazioni di ordine predefinite e al tipo di produzione dell'ingrediente e viene creato al momento della stima dell'ordine batch. Le quantità di ingredienti richieste vengono prenotate per l'ordine batch. |
 | Fornitore        | Selezionare **Fornitore** se per il processo di produzione viene utilizzato un terzista e si desidera creare una produzione secondaria o un ordine fornitore per il terzista. Il servizio o il lavoro eseguito dal terzista deve essere creato utilizzando un articolo formula o un articolo di tipo Assistenza. È possibile collegare l'articolo all'articolo padre come riga della formula. Nel ciclo di lavorazione deve essere presente un'operazione assegnata alla risorsa operativa del terzista. Tale operazione viene associata alla riga della formula utilizzando il campo **Oper. n.**. . |
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 31745632de7339d167ac9f18f02e6611e1a78b28
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254525"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numerazione cronologica di documenti e giustificativi
 
@@ -90,7 +90,7 @@ Per configurare la cronologia dei gruppi di sequenze numeriche, vai a **Amminist
 
 ![Impostazione dei numeri cronologici](media/chrono-num-sequence-group-period.jpg)
 
-| Campo            | descrizione                                                                                                                                                                                                                                                                                                                                                                                   |
+| Campo            | Descrizione                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Valido  | La data di inizio dell'applicabilità del gruppo di sequenze numeriche. |
 | Scadenza      | La data di fine dell'applicabilità del gruppo di sequenze numeriche. Se non si applica alcuna data di fine, seleziona **Mai**. |

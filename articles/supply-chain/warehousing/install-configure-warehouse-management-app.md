@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142325"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487027"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installare e connettere l'app per dispositivi mobili Gestione magazzino
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142325"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Questo argomento descrive come configurare la nuova app per dispositivi mobili Gestione magazzino, che è attualmente in anteprima pubblica. Se stai cercando informazioni su come configurare la vecchia app per il magazzino, vedi [Installare e connettere l'app del magazzino ](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> In questo argomento viene descritto come configurare la nuova app per dispositivi mobili Gestione magazzino. Se stai cercando informazioni su come configurare la vecchia app per il magazzino, vedi [Installare e connettere l'app del magazzino ](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-L'anteprima pubblica dell'app per dispositivi mobili Gestione magazzino è disponibile per il download in Microsoft App Center. Viene fornito come componente autonomo. Pertanto, devi scaricarla su ciascun dispositivo e configurarla per connettersi all'ambiente Microsoft Dynamics 365 Supply Chain Management.
-
-Questo argomento spiega come installare l'app per dispositivi mobili Gestione magazzino su ciascuno dei tuoi dispositivi mobili e come configurarla affinché si connetta all'ambiente Supply Chain Management. Puoi configurare manualmente ciascun dispositivo oppure importare le impostazioni di connessione tramite un file o scansionando un codice QR.
+In questo argomento viene descritto come scaricare e installare l'app per dispositivi mobili Gestione magazzino in ciascuno dei tuoi dispositivi mobili e come configurarla per connetterla all'ambiente Supply Chain Management. Puoi configurare manualmente ciascun dispositivo oppure importare le impostazioni di connessione tramite un file o scansionando un codice QR.
 
 ## <a name="system-requirements"></a>Requisiti di sistema
 
@@ -53,17 +51,27 @@ Prima di poter utilizzare l'app, è necessario attivare una funzionalità correl
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Scarica l'app per dispositivi mobili Gestione magazzino
 
-Usa uno dei seguenti collegamenti per scaricare l'app:
+Per distribuzioni più piccole, potresti in genere installare l'app in ogni dispositivo dal relativo store e quindi configurare manualmente la connessione agli ambienti che stai utilizzando.
 
-- **Windows (UWP):** [Programma di anteprima dell'App Center - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+Per distribuzioni più importanti, puoi automatizzare la distribuzione e/o la configurazione dell'app, il che può essere più conveniente se si gestiscono molti dispositivi. Ad esempio, potresti utilizzare una soluzione per la gestione di dispositivi mobili e di applicazioni mobili come [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Per informazioni su come utilizzare Intune per aggiungere applicazioni, vedi [Aggiungere app in Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    Poiché questa app è un'app di anteprima, per installarla sono necessari alcuni passaggi aggiuntivi. Per i dettagli, vedere [Installare una build dall'App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>Installare l'app da un app store
 
-- **Android:** [Programma di anteprima dell'App Center - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+Il modo più semplice per installare l'app su un singolo dispositivo è installarla da un app store, che fornisce sempre l'ultima versione generalmente disponibile. Microsoft Intune può anche recuperare app da app store. Utilizza uno dei seguenti collegamenti per installare l'app da un app store:
 
-    Poiché questa app è un'app di anteprima, per installarla sono necessari alcuni passaggi aggiuntivi. Per i dettagli, vedere [Test di app Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [Gestione magazzino in Microsoft Store](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Per distribuzioni più piccole, potresti voler installare l'app dal relativo store su ciascun dispositivo e quindi configurare manualmente la connessione agli ambienti che stai utilizzando. Tuttavia, puoi anche automatizzare la distribuzione e/o la configurazione delle app. Questo approccio potrebbe essere utile se gestisci molti dispositivi e stai utilizzando una soluzione di gestione dei dispositivi mobili e delle applicazioni mobili come [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Per informazioni su come utilizzare Intune per aggiungere applicazioni, vedi [Aggiungere app in Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **Android:** [Gestione magazzino in Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>Scaricare l'app da Microsoft App Center
+
+Come alternativa all'installazione da un app store, puoi invece scaricare l'app dal Microsoft App Center. L'App Center fornisce pacchetti installabili che è possibile trasferire localmente. Oltre alla versione corrente, l'App Center consente anche di scaricare versioni precedenti e può fornire versioni di anteprima con funzionalità imminenti che puoi provare. Per scaricare le versioni correnti, precedenti o in anteprima dell'app per dispositivi mobili Gestione magazzino da Microsoft App Center, utilizza uno dei collegamenti seguenti:
+
+- **Windows (UWP):** [Gestione magazzino (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    Per istruzioni su come installare un pacchetto scaricato in un dispositivo Windows e quindi configurare i certificati richiesti, vedi [Installare una build dall'App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **Android:** [Gestione magazzino (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Se scarichi una versione di anteprima, per installarla sono necessari alcuni passaggi aggiuntivi. Per i dettagli, vedere [Test di app Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Creare un'applicazione servizio Web in Azure Active Directory
 
@@ -140,7 +148,7 @@ Per semplificare la gestione e la distribuzione dell'applicazione su molti dispo
 
 Puoi importare le impostazioni di connessione da un file o da un codice QR. Per entrambi gli approcci, devi innanzitutto creare un file di impostazioni che utilizza il formato e la sintassi JavaScript Object Notation (JSON). Il file deve includere un elenco di connessioni che contiene le singole connessioni che devono essere aggiunte. La tabella seguente riepiloga i parametri che è necessario specificare nel file delle impostazioni di connessione.
 
-| Parametro | descrizione |
+| Parametro | Descrizione |
 |---|---|
 | ConnectionName | Specificare il nome dell'impostazione della connessione. La lunghezza massima consentita è di 20 caratteri. Poiché questo valore è l'identificatore univoco per un'impostazione di connessione, assicurati che sia univoco nell'elenco. Se sul dispositivo esiste già una connessione con lo stesso nome, verrà sovrascritta dalle impostazioni del file importato. |
 | ActiveDirectoryClientAppId | Specifica l'ID client di cui hai preso nota durante la configurazione di Azure AD nella sezione [Creare un'applicazione del servizio Web in Azure Active Directory](#create-service). |
