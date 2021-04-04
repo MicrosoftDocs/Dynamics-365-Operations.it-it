@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012434"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478390"
 ---
-# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurare buffer e livelli di scorte
+# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurare buffer scorte e livelli scorte
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento spiega come configurare i buffer e i livelli di scorte che determinano la messaggistica sulla disponibilità delle scorte nei siti Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Dynamics 365 Commerce Headquarters include dati sulle scorte e vari canali come applicazioni POS, vetrine di e-commerce e altre applicazioni integrate personalizzate che eseguono il pull e push delle scorte in modo asincrono. Pertanto, i valori sulle scorte disponibili ottenuti tramite la pagina delle scorte disponibili in Commerce Headquarters, l'interfaccia utente POS e le API di disponibilità delle scorte di e-Commerce non sono sempre accurate al 100% in tempo reale.
 

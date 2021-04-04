@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa92a581a96de6bed26b4a0c6601ebd9d5088347
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b11ab600bb2aa17cf330947304f5b22dd522081
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993427"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477975"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurare un ambiente di valutazione Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento illustra come configurare un ambiente di valutazione di Microsoft Dynamics 365 Commerce dopo il provisioning.
-
-## <a name="overview"></a>Panoramica
 
 Completare le procedure in questo argomento solo dopo aver effettuato il provisioning dell'ambiente di valutazione Commerce. Per informazioni relative a come effettuare il provisioning dell'ambiente di valutazione Commerce, consultare [Provisioning di un ambiente di valutazione Commerce ](provisioning-guide.md).
 

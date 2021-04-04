@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97972d2179c42e9d2d672cbebb75643ef0a02a62
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 5bc9b5c97f855f1d8eb44765c98473b69f96adec
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113088"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466979"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Creare un'app di esportazione dati ricorrente
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In questo articolo viene illustrato come creare un'app di logica Microsoft Azure che esporta dati da Microsoft Dynamics 365 Human Resources in modo ricorrente. Il tutorial utilizza l'API REST del pacchetto DMF di Human Resources per esportare i dati. Dopo che i dati sono stati esportati, l'app di logica salva il pacchetto dati esportato in una cartella di Microsoft OneDrive for Business.
 

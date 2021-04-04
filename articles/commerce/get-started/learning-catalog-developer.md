@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 74dc5eefa3a5cdfc897cbd6ca7e199f932f91dcd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: df37233da30d207ed1bcf97da3b9993cacad560d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009826"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252680"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Catalogo di apprendimento per sviluppatori Dynamics 365 Commerce
 
@@ -30,7 +30,7 @@ Per la formazione sulle funzionalità condivise con altre app Finance and Operat
 
 ## <a name="get-started"></a>Per iniziare<a name="get-started"></a>
 
-| Contenuto  | descrizione  | Formatta  | Durata    |
+| Contenuto  | Descrizione  | Formatta  | Durata    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Questa esperienza di apprendimento illustra un percorso che inizia mostrando come la trasformazione digitale e la potenza delle applicazioni aziendali possono trasformare l'azienda. Verrà illustrato come Dynamics 365 e Power Platform aiuteranno a prendere decisioni informate in base alle esigenze e agli obiettivi dell'organizzazione, attraverso quattro elementi costitutivi della trasformazione digitale: moderni, unificati, intelligenti e adattabili.                                                                    | Percorso di apprendimento online gratuito autonomo | 6.5 ore |
 | [Introduzione a Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)                                                              | Dynamics 365 Commerce, basato sulle funzionalità consolidate di Dynamics 365 Retail, offre una soluzione multicanale completa che unifica le esperienze di back office, punto vendita, servizio clienti e area Digital. Dynamics 365 Commerce consente di sviluppare la fedeltà al marchio mediante servizi personalizzati offerti ai clienti, di aumentare i ricavi con una migliore produttività dei dipendenti, di ottimizzare le operazioni per ridurre i costi e favorire l'efficacia della catena di approvvigionamento e quindi di ottenere risultati aziendali migliori. | Percorso di apprendimento online gratuito autonomo | 2 ore   |
@@ -38,7 +38,7 @@ Per la formazione sulle funzionalità condivise con altre app Finance and Operat
 
 ## <a name="commerce"></a>Commerce<a name="commerce"></a>
 
-| Contenuto  | descrizione  | Formattazione  | Durata    |
+| Contenuto  | Descrizione  | Formattazione  | Durata    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Distribuire ed estendere Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Questo percorso di apprendimento descrive come distribuire gli ambienti Dynamics 365 Commerce ed eseguire operazioni di post-provisioning per implementazioni di successo di Commerce usando la topologia corretta per le esigenze aziendali di ciascun rivenditore. | Percorso di apprendimento online gratuito autonomo | 5 ore |
 

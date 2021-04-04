@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8ae97d0e6aac1b0961427bd73a37612020231a9f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 24892195a9f1c39e891e2dcb95482f019ba05365
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983802"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262335"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -51,7 +51,7 @@ Viene creata una nuova richiesta di modifica. In ogni Scheda dettaglio è ora po
 
 La Scheda dettaglio **Generale** consente di fornire una descrizione di base della richiesta di modifica. Nella tabella seguente vengono illustrati i campi della Scheda dettaglio.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Richiesta di modifica | Immettere un nome per la richiesta di modifica. |
 | Funzione | Immettere un testo che descriva o identifichi brevemente le modifiche nella richiesta. |
@@ -76,11 +76,11 @@ Per aggiungere una riga alla griglia, selezionare **Nuovo** sulla barra degli st
 
 Nella seguente tabella vengono illustrati i campi di ogni riga.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Data e ora creazione | Data e ora di creazione della riga. |
 | Tipo | Tipo di informazioni per cui è stata creata la riga (file, immagine, nota o URL). |
-| descrizione | Immettere un descrizione per la riga. |
+| Descrizione | Immettere un descrizione per la riga. |
 | Restrizione | Valore che indica se le informazioni aggiunte provengono da un'origine interna o esterna. |
 | Allegato | Una casella di controllo selezionata indica che la riga include un allegato (file o immagine). Per scaricare l'allegato, selezionare la riga, quindi selezionare **Apri** sulla barra degli strumenti sopra la griglia. |
 
@@ -173,7 +173,7 @@ Per visualizzare un report sugli ordini di modifica di progettazione, aprire l'o
 
 La maggior parte dei campi sugli ordini di modifica di progettazione sono gli stessi dei campi per prodotti rilasciati, versioni di progettazione, documenti, DBA (righe) e cicli di lavorazione (operazioni). Tuttavia, i campi nella tabella seguente sono univoci per modificare gli ordini.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Motivi della modifica di progettazione | Selezionare il motivo della modifica per il prodotto interessato. |
 | Descrizione della modifica | Immettere una descrizione della modifica. |

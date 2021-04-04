@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 38ceef3d03fae83f7ac509fb05a4cd9603af2465
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967260"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266153"
 ---
 # <a name="product-readiness"></a>Idoneità prodotto
 
@@ -108,16 +108,16 @@ Per lavorare con i criteri di disponibilità del prodotto, andare a **Gestione m
 
 Impostare i seguenti campi nell'intestazione dei criteri di disponibilità del prodotto.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Nome | Immetti un nome per il criterio. |
-| descrizione | Immettere una descrizione dei criteri. |
+| Descrizione | Immettere una descrizione dei criteri. |
 
 ### <a name="general-fasttab"></a>Scheda dettaglio Generale
 
 Impostare i seguenti campi nella scheda dettaglio **Generale** dei criteri di disponibilità del prodotto.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Tipo di prodotto | Selezionare se il criterio si applica ai prodotti di tipo *Articolo* o *Servizio*. Non è possibile modificare questa impostazione dopo aver salvato il record. |
 | Attive | Usare questa opzione per gestire i criteri di disponibilità. Impostare su *Sì* per tutti i criteri di disponibilità in uso. Impostare su *No* per contrassegnare un criterio di disponibilità come inattivo quando non viene utilizzato. Si noti che non è possibile disattivare un criterio di disponibilità assegnato a una categoria di prodotti di progettazione ed è possibile eliminare solo i criteri di rilascio inattivi. |
@@ -133,12 +133,12 @@ Per ogni tipo di controllo di disponibilità che si desidera includere nei crite
 
 Per ogni riga che si aggiunge, impostare i seguenti campi.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 | --- | --- |
 | Area di processo | Selezionare l'area a cui è correlato il controllo. |
 | Tipo | Selezionare se il controllo è un controllo di sistema, un controllo manuale o un elenco di controllo (questionario). |
 | Nome | Se il controllo è un elenco di controllo, immettere un nome. Per i controlli di sistema e manuali, questo campo viene impostato automaticamente. |
-| descrizione | Se il controllo è un elenco di controllo, immettere una descrizione. Per i controlli di sistema e manuali, questo campo viene impostato automaticamente e la descrizione spiega lo scopo del controllo. |
+| Descrizione | Se il controllo è un elenco di controllo, immettere una descrizione. Per i controlli di sistema e manuali, questo campo viene impostato automaticamente e la descrizione spiega lo scopo del controllo. |
 | Applica controlli | Selezionare se la riga deve generare controlli di disponibilità in risposta a un nuovo prodotto rilasciato, una variante rilasciata o una versione rilasciata. |
 | Esegui in | Selezionare se i controlli di disponibilità generati dalla riga si applicano a tutte le società o a una singola società. |
 | Società | Se si imposta il campo **Esegui in** su *Singola società*, selezionare la società. |
