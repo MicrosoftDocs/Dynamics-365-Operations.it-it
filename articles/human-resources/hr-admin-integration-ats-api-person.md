@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e61b768c5194b52178853d48c50dbf072eebbdcd
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: a13222317ba59868686be5ce24c970d6a068f8bc
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125451"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464180"
 ---
 # <a name="person"></a>Persona
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità Persona per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_dirpersonentity
 
-### <a name="description"></a>descrizione
+### <a name="description"></a>Descrizione
 
 Questa entità fornisce le informazioni personali per l'individuo che è il candidato.
 
@@ -123,7 +125,7 @@ Questa entità fornisce le informazioni personali per l'individuo che è il cand
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID entità persona**<br>mshr_dirpersonentityid<br>*GUID* | Sola lettura<br>Richiesto<br>Generato dal sistema | Un identificatore univoco generato dal sistema per il record dell'entità. |
 | **Numero parte**<br>mshr_partynumber<br>*String* | Sola lettura<br>Richiesto<br>Generato dal sistema | Un identificatore univoco generato dal sistema leggibile dall'utente per il record della persona.  |
@@ -166,7 +168,7 @@ Questa entità fornisce le informazioni personali per l'individuo che è il cand
 | **Indirizzo valido fino a**<br>mshr_addressvalidto<br>*Data* | Lettura/scrittura<br>Facoltativo | La data fino alla quale è valido l'indirizzo principale della persona. |
 | **CAP indirizzo**<br>mshr_addresszipcode<br>*String* | Lettura/scrittura<br>Facoltativo | Il CAP dell'indirizzo principale della persona. Impostalo nell'entità mshr_logisticsaddresspostalcodeentity. |
 | **L'indirizzo è privato**<br>mshr_addressisprivate<br>*set di opzioni mshr_noyes* | Lettura/scrittura<br>Facoltativo | Determina se l'indirizzo principale della persona è condiviso con altri nell'organizzazione. |
-| **Descrizione indirizzo**<br>mshr_addressdescription<br>*String* | Lettura/scrittura<br>Facoltativo | La descrizione dell'indirizzo principale della persona. |
+| **Descrizione indirizzo**<br>mshr_addressdescription<br>*String* | Lettura/scrittura<br>Facoltativo | Descrizione dell'indirizzo principale della persona. |
 | **E-mail contatto principale**<br>mshr_primarycontactemail<br>*String* | Lettura/scrittura<br>Facoltativo | L'indirizzo e-mail principale della persona. |
 | **Descrizione e-mail di contatto principale**<br>mshr_primarycontactemaildescription<br>*String* | Lettura/scrittura<br>Facoltativo | Una descrizione fornita per l'indirizzo e-mail principale. |
 | **E-mail contatto principale è IM**<br>mshr_primarycontactemailisim<br>*set di opzioni mshr_noyes* | Lettura/scrittura<br>Facoltativo | Determina se l'indirizzo e-mail principale è disponibile per i messaggi immediati. |
@@ -184,18 +186,18 @@ Questa entità fornisce le informazioni personali per l'individuo che è il cand
 | **Descrizione telex di contatto principale**<br>mshr_primarycontacttelexdescription<br>*String* | Lettura/scrittura<br>Facoltativo | Descrizione fornita per il numero di telex principale della persona. |
 | **Scopo telex contatto principale**<br>mshr_primarycontacttelexpurpose<br>*String* | Lettura/scrittura<br>Facoltativo | Lo scopo del numero di telex principale della persona. Impostalo nell'entità mshr_logisticslocationroleentity. |
 | **URL di contatto principale**<br>mshr_primarycontacturl<br>*String* | Lettura/scrittura<br>Facoltativo | L'URL principale. |
-| **Descrizione URL del contatto principale**<br>mshr_primarycontacturldescription<br>*String* | Lettura/scrittura<br>Facoltativo | La descrizione fornita dell'URL principale della persona. |
+| **Descrizione URL del contatto principale**<br>mshr_primarycontacturldescription<br>*String* | Lettura/scrittura<br>Facoltativo | Descrizione fornita dell'URL principale della persona. |
 | **Scopo URL contatto principale**<br>mshr_primarycontacturldescription<br>*String* | Lettura/scrittura<br>Facoltativo | Lo scopo dell'URL principale della persona. Impostalo nell'entità mshr_logisticslocationroleentity. |
 | **Contatto principale di Facebook**<br>mshr_primarycontactfacebook<br>*String* | Lettura/scrittura<br>Facoltativo | Account Facebook principale. Identificato da ID utente. |
-| **Descrizione contatto principale di Facebook**<br>mshr_primarycontactfacebookdescription<br>*String* | Lettura/scrittura<br>Facoltativo | La descrizione fornita dell'account principale della persona Facebook. |
+| **Descrizione contatto principale di Facebook**<br>mshr_primarycontactfacebookdescription<br>*String* | Lettura/scrittura<br>Facoltativo | Descrizione fornita dell'account principale della persona Facebook. |
 | **Il contatto principale di Facebook è privato**<br>mshr_primarycontactfacebookisprivate<br>*set di opzioni mshr_noyes* | Lettura/scrittura<br>Facoltativo | Determina se l'account principale di Facebook è visibile ad altri utenti. |
 | **Scopo del contatto principale di Facebook**<br>mshr_primarycontactfacebookpurpose<br>*String* | Lettura/scrittura<br>Facoltativo | Lo scopo dell'account principale della persona di Facebook. Impostalo nell'entità mshr_logisticslocationroleentity. |
 | **Contatto principale di LinkedIn**<br>mshr_primarycontactlinkedin<br>*String* | Lettura/scrittura<br>Facoltativo | Account LinkedIn principale. Identificato da nome utente. |
-| **Descrizione contatto LinkedIn principale**<br>mshr_primarycontactlinkedindescription<br>*String* | Lettura/scrittura<br>Facoltativo | La descrizione fornita dell'account LinkedIn principale della persona. |
+| **Descrizione contatto LinkedIn principale**<br>mshr_primarycontactlinkedindescription<br>*String* | Lettura/scrittura<br>Facoltativo | Descrizione fornita dell'account LinkedIn principale della persona. |
 | **Il contatto principale di LinkedIn è privato**<br>mshr_primarycontactlinkedinisprivate<br>*set di opzioni mshr_noyes* | Lettura/scrittura<br>Facoltativo | Determina se le informazioni dell'account LinkedIn principale della persona vengono condivise con altri utenti. |
 | **Scopo contatto principale di LinkedIn**<br>mshr_primarycontactlinkedinpurpose<br>*String* | Lettura/scrittura<br>Facoltativo | Lo scopo dell'account principale di LinkedIn della persona principale. Impostalo nell'entità mshr_logisticslocationroleentity. |
 | **Contatto principale di Twitter**<br>mshr_primarycontacttwitter<br>*String* | Lettura/scrittura<br>Facoltativo | L'account Twitter principale della persona. Identificato da @username. |
-| **Descrizione contatto principale di Twitter**<br>mshr_primarycontacttwitterdescription<br>*String* | Lettura/scrittura<br>Facoltativo | La descrizione fornita dell'account Twitter principale della persona. |
+| **Descrizione contatto principale di Twitter**<br>mshr_primarycontacttwitterdescription<br>*String* | Lettura/scrittura<br>Facoltativo | Descrizione fornita dell'account Twitter principale della persona. |
 | **Il contatto principale di Twitter è privato**<br>mshr_primarycontacttwitterisprivate<br>*set di opzioni mshr_noyes* | Lettura/scrittura<br>Facoltativo | Determina se le informazioni dell'account Twitter principale della persona vengono condivise con altri utenti. |
 | **Scopo contatto principale di Twitter**<br>mshr_primarycontacttwitterpurpose<br>*String* | Lettura/scrittura<br>Facoltativo | Lo scopo dell'account principale di Twitter della persona principale. Impostalo nell'entità mshr_logisticslocationroleentity. |
 | **Tipo parte**<br>mshr_partytype<br>*String* | Lettura/scrittura<br>Facoltativo | Il tipo di parte della persona. Sarà sempre **Persona** per i candidati. |

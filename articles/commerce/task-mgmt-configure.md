@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e880305d02fd9f10464fe3f65a2774a44da258c6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ba2283bbfa2fdce75d3fbef6fcff47dd872c7998
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006237"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478046"
 ---
 # <a name="configure-task-management"></a>Configurare la gestione delle attività
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come configurare le funzionalità di gestione delle attività in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Prima che i manager e i dipendenti Dynamics 365 Commerce possano utilizzare le funzionalità di gestione delle attività in Commerce, la gestione delle attività deve essere configurata. I passaggi della configurazione includono la concessione di autorizzazioni a manager e dipendenti, la distribuzione delle autorizzazioni ai clienti del punto vendita (POS), l'impostazione delle notifiche POS e la configurazione del riquadro **Attività** sulla home page di un'applicazione POS.
 

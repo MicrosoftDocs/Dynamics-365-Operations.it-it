@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e76a5ad741dca5831b609a5b991aa70e3753c621
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 96798c052a24f3a1ad0856c34bd26051f1196110
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234271"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
@@ -79,7 +79,7 @@ Un nuovo modello di stato è stato introdotto nella routine di registrazione dei
 
 Nella tabella seguente vengono descritti i vari stati e il relativo ordine durante il processo di calcolo.
 
-| Ordine stato | Stato/regione      | descrizione |
+| Ordine stato | Stato/regione      | Descrizione |
 |-------------|------------|-------------|
 | 1           | Avviata    | Il rendiconto è stato creato ed è pronto per essere calcolato. |
 | 2           | Contrassegnato     | Le transazioni nell'ambito di un rendiconto vengono identificate in base ai parametri del rendiconto e vengono contrassegnate con l'ID del rendiconto. |
@@ -87,7 +87,7 @@ Nella tabella seguente vengono descritti i vari stati e il relativo ordine duran
 
 Nella tabella seguente vengono descritti i vari stati e il relativo ordine durante il processo di registrazione.
 
-| Ordine stato | Stato/regione                   | descrizione |
+| Ordine stato | Stato/regione                   | Descrizione |
 |-------------|-------------------------|-------------|
 | 1           | Verificato                 | Vengono effettuate molteplici convalide correlate ai parametri (ad esempio l'addebito di smaltimento) nonché al rendiconto e alle righe del rendiconto (ad esempio la differenza tra l'importo conteggiato e l'importo della transazione). |
 | 2           | Aggregato              | Le transazioni di vendita per i clienti con e senza nome vengono aggregate in base alla configurazione. Ogni transazione aggregata viene convertita in un ordine cliente. |

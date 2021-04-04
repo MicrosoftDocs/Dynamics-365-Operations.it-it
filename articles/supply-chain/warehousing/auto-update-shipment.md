@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1f75e9421ab9cac0b62e1cdee17ecf74796783cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f10c5c5dd1d287b51a6dda482614d6520bb3a1f9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001226"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233153"
 ---
 # <a name="shipment-auto-updates"></a>Aggiornamenti automatici delle spedizioni
 
@@ -124,7 +124,7 @@ Per aggiungere una riga ordine cliente, procedere come segue.
 6. Ritornare alla pagina **Tutti gli ordini clienti** e selezionare di nuovo l'ordine cliente.
 7. Nella scheda **Magazzino** del riquadro azioni, nel gruppo **Informazioni correlate**, selezionare **Dettagli spedizione**. Nella pagina **Dettagli spedizione** della Scheda dettaglio **Righe carico**, notare la seconda riga di carico.
 
-Poiché la riga ordine cliente appena aggiunta alla spedizione esistente non è stata prenotata, se a questo punto l'ondata viene elaborata, il lavoro viene creato solo per la quantità nella prima riga ordine di vendita e nella prima riga di carico.
+Poiché la riga ordine cliente appena aggiunta alla spedizione esistente non è stata prenotata, se a questo punto l'ondata viene elaborata, il lavoro viene creato solo per la quantità nella prima riga ordine cliente e nella prima riga di carico.
 
 ### <a name="process-a-wave"></a>Elaborare un'ondata
 

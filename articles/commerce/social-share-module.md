@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 0a5ad1f4a9bb317e128ad14f21a4e6c48cab8a72
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0e7f30686894f9cf92257e99d95cc8b00f76f899
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234319"
 ---
-# <a name="social-share-module"></a>Modulo Condivisione social
+# <a name="social-share-module"></a>Modulo di condivisione social
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli condivisione social e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 I moduli di condivisione social consentono agli utenti di condividere gli URL delle pagine del sito di e-commerce sui social media come Facebook, Twitter, Pinterest e LinkedIn. Gli URL delle pagine del sito possono essere condivisi anche tramite posta elettronica. I moduli di condivisione social sono comunemente utilizzati nelle pagine dei dettagli del prodotto (PDP) per aiutare gli utenti a condividere le informazioni sui prodotti.
 
@@ -44,13 +42,13 @@ La seguente illustrazione evidenzia un esempio di un modulo di condivisione soci
 
 ## <a name="social-share-module-properties"></a>Proprietà del modulo di condivisione social
 
-| Nome proprietà             | Valore                 | descrizione |
+| Nome proprietà             | Valore                 | Descrizione |
 |---------------------------|-----------------------|-------------|
 | Titolo                  | Testo | Questa proprietà specifica una didascalia per il modulo. |
 | Orientamento | **Verticale** o **Orizzontale**  | Questa proprietà definisce l'orientamento del layout per gli elementi dei social media. |
 
 ## <a name="social-share-item-module-properties"></a>Proprietà del modulo articoli di condivisione social
-| Nome proprietà             | Valore                 | descrizione |
+| Nome proprietà             | Valore                 | Descrizione |
 |---------------------------|-----------------------|-------------|
 | Social media              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **Mail** | Un menu a discesa con un elenco di piattaforme di social media. |
 | Icona |Immagine    | Questa sarà l'immagine che verrà mostrata per i rispettivi social media. Come procedura consigliata, fare riferimento all'SDK della piattaforma di social media per l'immagine consigliata da utilizzare per ciascuna piattaforma. |
