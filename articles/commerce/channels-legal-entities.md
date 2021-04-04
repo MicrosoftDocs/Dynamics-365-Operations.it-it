@@ -1,5 +1,5 @@
 ---
-title: Creare persone giuridiche
+title: Crea persone giuridiche
 description: In questo argomento viene descritto come creare persone giuridiche in Microsoft Dynamics 365 Commerce, che deve essere creato e configurato prima di creare canali.
 author: samjarawan
 manager: annbe
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9491feb004366a02155225bfb323773e130f3dc9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 016b67631a53139d12d65dfaf594f49b030326b1
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993605"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478214"
 ---
-# <a name="create-legal-entities"></a>Creare persone giuridiche
-
+# <a name="create-legal-entities"></a>Crea persone giuridiche
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come creare persone giuridiche in Microsoft Dynamics 365 Commerce, che deve essere creato e configurato prima di creare canali.
-
-## <a name="overview"></a>Panoramica
 
 Una persona giuridica è un'organizzazione dotata di una struttura legale istituita o registrata. Le persone giuridiche possono stipulare contratti e hanno l'obbligo di preparare rendiconti sul loro rendimento.
 

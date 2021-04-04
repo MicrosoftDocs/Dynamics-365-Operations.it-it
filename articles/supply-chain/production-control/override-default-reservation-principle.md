@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078275"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501104"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Ignorare il principio di prenotazione predefinito per i materiali in produzione
 
@@ -38,11 +39,11 @@ Ad esempio, se si dispone di materie prime o ingredienti che richiedono un lavor
 Prima di poter utilizzare questa funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Controllo produzione*
-- **Nome funzionalità:** *Ignora prenotazione di produzione predefinita*
+- **Nome funzionalità:** *(Anteprima) Ignora prenotazione di produzione predefinita*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Assegnare un criterio di prenotazione di produzione a un gruppo di modelli di articoli
 
-1. Passare a **Gestione costi &gt; Impostazioni criteri contabili inventario &gt; Gruppi di modelli di articoli**.
+1. Passare a **Gestione costi \> Impostazioni criteri contabili inventario \> Gruppi di modelli di articoli**.
 1. Creare o selezionare un gruppo di modelli di articoli.
 1. Nella Scheda dettaglio **Criteri di inventario**, selezionare la casella di controllo **Ignora prenotazione di produzione articolo**.
 1. Nel campo **Prenotazione** selezionare il principio di prenotazione per gli articoli che appartengono al gruppo di modelli selezionato. Questi articoli includono articoli che si trovano su una distinta base o una riga formula.

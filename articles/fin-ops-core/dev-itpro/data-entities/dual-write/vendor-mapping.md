@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 272962b58d8d654c2640a51ef2dbdcd1b05cf8c9
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744517"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560315"
 ---
 # <a name="integrated-vendor-master"></a>Dati master fornitori integrati
 
@@ -54,7 +53,7 @@ In entrambi gli approcci, i dati del fornitore sono integrati in Dynamics 365 Su
 
 I dati dei fornitori includono tutte le informazioni sul fornitore, ad esempio il gruppo di fornitori, indirizzi, informazioni di contatto, il profilo di pagamento, il profilo fattura. Una raccolta di mappe della tabella funziona in combinazione durante l'interazione con i dati dei fornitori, come illustrato nella seguente tabella.
 
-App di Finance and Operations | Altre app Dynamics 365     | descrizione
+App di Finance and Operations | Altre app Dynamics 365     | Descrizione
 ----------------------------|-----------------------------|------------
 Fornitore V2                   | Conto                     | Le società che utilizzano la tabella Conto per archiviare le informazioni sui fornitori possono continuare a usarlo nello stesso modo. Possono inoltre sfruttare la funzionalità fornitore esplicita imminente con l'integrazione delle app Finance and Operations.
 Fornitore V2                   | Msdyn\_vendors              | Le società che utilizzano una soluzione personalizzata per i fornitori possono sfruttare il concetto di fornitore predefinito introdotto in Dataverse a causa dell'integrazione con le app Finance and Operations. 

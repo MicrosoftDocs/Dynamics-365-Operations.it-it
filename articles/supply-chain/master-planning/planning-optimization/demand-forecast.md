@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983546"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501128"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pianificazione generale con previsioni della domanda
 
@@ -249,7 +249,7 @@ Di conseguenza, vengono creati i seguenti ordini pianificati.
 Una chiave di riduzione previsionale viene utilizzata nei metodi **Transazioni - chiave di riduzione** e **Percentuale - chiave di riduzione** per ridurre i requisiti di previsione. Attenersi alla procedura seguente per creare e impostare una chiave di riduzione.
 
 1. Andare a **Pianificazione generale \> Impostazione \> Copertura \> Chiavi di riduzione**.
-2. Selezionare **Nuovo** o premere **CTRL+N** per creare una chiave di riduzione.
+2. Selezionare **Nuovo** per creare una chiave di riduzione.
 3. Nel campo **Chiave di riduzione**, immettere un identificatore univoco per la chiave di riduzione previsionale. Quindi, nel campo **Nome** immettere un nome. 
 4. Definire i periodi e la percentuale della chiave di riduzione in ciascun periodo:
 
@@ -265,8 +265,8 @@ Una chiave di riduzione previsionale deve essere assegnata al gruppo di copertur
 2. Nella Scheda dettaglio **Altro**, nel campo **Chiave di riduzione**, selezionare la chiave di riduzione da assegnare al gruppo di copertura. La chiave di riduzione viene quindi applicata a tutti articoli appartenenti al gruppo di copertura.
 3. Per calcolare la riduzione previsionale durante la programmazione generale utilizzando una chiave di riduzione, è necessario definire questa impostazione nella configurazione del piano previsionale o del piano generale. Passare a una delle pagine seguenti:
 
-    - Pianificazione generale \> Impostazioni \> Piani \> Piani previsionali
-    - Pianificazione generale \> Impostazioni \> Piani \> Piani generali
+    - **Pianificazione generale \> Impostazioni \> Piani \> Piani previsionali**
+    - **Pianificazione generale \> Impostazioni \> Piani \> Piani generali**
 
 4. Nella pagina **Piani previsionali** o **Piani generali**, nel campo **Metodo utilizzato per ridurre i requisiti di previsione** della Scheda dettaglio **Generale**, selezionare **Percentuale - chiave di riduzione** o **Transazioni - chiave di riduzione**.
 
@@ -274,5 +274,69 @@ Una chiave di riduzione previsionale deve essere assegnata al gruppo di copertur
 
 Quando si seleziona **Transazioni - chiave di riduzione** o **Transazioni - periodo dinamico** come metodo per ridurre i requisiti previsti, è possibile specificare le transazioni che riducono la previsione. Nella pagina **Gruppi di copertura** , nella scheda dettaglio **Altro**, nel campo **Riduci previsione per** , selezionare **Tutte le transizioni** se tutte le transazioni devono ridurre la previsione oppure **Ordini** se solo gli ordini cliente devono ridurre la previsione.
 
+## <a name="forecast-models-and-submodels"></a>Modelli e sottomodelli previsionali
+
+Questa sezione descrive come creare modelli previsionali e come combinare più modelli previsionali impostando sottomodelli.
+
+Un *modello previsionale* denomina e identifica una previsione specifica. Dopo aver creato il modello di previsione, è possibile aggiungervi righe di previsione. Per aggiungere righe di previsione per più articoli, utilizzare la pagina **Righe di previsione della domanda**. Per aggiungere righe di previsione per uno specifico articolo selezionato, utilizzare la pagina **Prodotti rilasciati**.
+
+Un modello previsionale può includere previsioni di altri modelli previsionali. Per ottenere questo risultato, si aggiungono altri modelli previsionali come *sottomodelli* di un modello previsionale padre. È necessario creare ogni modello pertinente prima di poterlo aggiungere come sottomodello di un modello previsionale padre.
+
+La struttura risultante offre un modo potente per controllare le previsioni, poiché consente di combinare (aggregare) l'input di più previsioni individuali. Pertanto, dal punto di vista della pianificazione, è facile combinare previsioni per simulazioni. Ad esempio, si potrebbe impostare una simulazione basata sulla combinazione di una previsione regolare con la previsione per una promozione primaverile.
+
+### <a name="submodel-levels"></a>Livelli di sottomodelli
+
+Non vi è alcun limite al numero di sottomodelli che possono essere aggiunti a un modello previsionale padre. Tuttavia, la struttura può comportare un solo livello. In altre parole, un modello previsionale che è un sottomodello di un altro modello previsionale non può avere sottomodelli. Quando si aggiungono sottomodelli a un modello previsionale, il sistema verifica se tale modello previsionale è già un sottomodello di un altro modello previsionale.
+
+Se la pianificazione generale rileva un sottomodello che ha dei sottomodelli, viene visualizzato un messaggio di errore.
+
+#### <a name="submodel-levels-example"></a>Esempio di livelli di sottomodelli
+
+Il modello previsionale A ha il modello previsionale B come sottomodello. Pertanto, il modello previsionale B non può avere sottomodelli. Se si tenta di aggiungere un sottomodello al modello previsionale B, viene visualizzato il seguente messaggio di errore: "Il modello previsionale B è un sottomodello per il modello A."
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Aggregazione di previsioni tra modelli previsionali
+
+Le righe di previsione che si verificano lo stesso giorno verranno aggregate nel rispettivo modello previsionale e nei relativi sottomodelli.
+
+#### <a name="aggregation-example"></a>Esempio di aggregazione
+
+Il modello previsionale A ha i modelli previsionali B e C come sottomodelli.
+
+- Il modello previsionale A include una previsione della domanda per 2 pezzi (pz) il 15 giugno.
+- Il modello previsionale B include una previsione della domanda per 3 pz il 15 giugno.
+- Il modello previsionale C include una previsione della domanda per 4 pz il 15 giugno.
+
+La previsione della domanda risultante sarà una singola domanda per 9 pezzi (2 + 3 + 4) il 15 giugno.
+
+> [!NOTE]
+> Ogni sottomodello utilizza parametri propri, non quelli del modello previsionale padre.
+
+### <a name="create-a-forecast-model"></a>Creare un modello previsionale
+
+Per creare un modello previsionale, attenersi alla procedura seguente.
+
+1. Selezionare **Pianificazione generale \> Impostazioni \> Previsione della domanda \> Modelli previsionali**.
+1. Nel Riquadro azioni selezionare **Nuovo**.
+1. Impostare i seguenti campi per il nuovo modello previsionale:
+
+    - **Modello** - Immettere un identificatore univoco per il modello.
+    - **Nome** – Immettere un nome descrittivo per il modello.
+    - **Interrotto** - Di solito, questa opzione deve essere impostata su *No*. Impostarla su *Sì* solo se si desidera impedire la modifica di tutte le righe di previsione assegnate al modello.
+
+    > [!NOTE]
+    > Il campo **Includi in previsioni di cassa** e i campi nella Scheda dettaglio **Progetto** non sono correlati alla pianificazione generale. Pertanto, puoi ignorarli in questo contesto. È necessario considerarli solo quando si lavora con le previsioni per il modulo **Gestione progetti e contabilità**.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Assegnare sottomodelli a un modello previsionale
+
+Per assegnare sottomodelli a un modello previsionale, attenersi alla procedura seguente.
+
+1. Selezionare **Gestione articoli \> Impostazioni \> Previsione \> Modelli previsionali**.
+1. Nel riquadro elenco, selezionare il modello previsionale per il quale impostare un sottomodello.
+1. Nella Scheda dettaglio **Sottomodello**, selezionare **Aggiungi** per aggiungere una riga alla griglia.
+1. Nella nuova riga, impostare i seguenti campi.
+
+    - **Sottomodello** - Selezionare il modello previsionale da aggiungere come sottomodello. Questo modello previsionale deve già esistere e non deve avere sottomodelli.
+    - **Nome** – Immettere un nome descrittivo per il sottomodello. Ad esempio, questo nome potrebbe indicare la relazione del sottomodello con il modello previsionale padre.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

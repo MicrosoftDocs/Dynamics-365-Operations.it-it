@@ -16,18 +16,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 350193a0054ef879ece3dd2dfcc4105476981837
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078277"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501176"
 ---
 # <a name="small-parcel-shipping"></a>Spedizione pacchi di piccole dimensioni
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-La funzionalità per la spedizione di pacchi di piccole dimensioni consente a Microsoft Dynamics 365 Supply Chain Management di interagire direttamente con i vettori fornendo un framework per la comunicazione tramite le API del vettore. Questa funzionalità è utile quando si spediscono singoli ordini cliente tramite vettori di spedizione commerciali invece di utilizzare la spedizione in container o la spedizione a carico parziale (LTL).
+La funzionalità per la spedizione di pacchi di piccole dimensioni consente a Microsoft Dynamics 365 Supply Chain Management di interagire direttamente con i vettori fornendo un framework per la comunicazione tramite le API del vettore. Questa funzionalità è utile quando si spediscono singoli ordini cliente tramite vettori di spedizione commerciali invece di utilizzare la spedizione in contenitori o la spedizione a carico parziale (LTL).
 
 La funzione di spedizione di pacchi di piccole dimensioni con il tuo corriere tramite un apposito *motore tariffe*. La tua organizzazione deve sviluppare questo motore tariffe in collaborazione con il vettore o il servizio hub del vettore. Il motore tariffe consente a Supply Chain Management di inviare i dettagli su un contenitore imballato al vettore, quindi ricevere un'etichetta di spedizione, una tariffa di spedizione e un numero di riferimento da quel vettore.
 
@@ -238,7 +239,7 @@ Segui questi passaggi per creare un ordine cliente.
 
     Viene creato il lavoro per spostare gli articoli dall'ubicazione di prelievo alla stazione di imballaggio.
 
-1. Nella sezione **Righe ordine di vendita**, seleziona **Magazzino \> Dettagli spedizione**.
+1. Nella sezione **Righe ordine cliente**, seleziona **Magazzino \> Dettagli spedizione**.
 1. Nella pagina **Dettagli spedizione**, prendi nota dell'ID spedizione. Ne avrai bisogno quando imballerai il pacco per spedizione alla stazione di imballaggio.
 1. Chiudi la pagina **Dettagli spedizione** per tornare all'ordine cliente.
 1. Prendi nota del numero dell'ordine cliente, quindi passa a **Gestione magazzino \> Lavoro \> Tutti i lavori**.

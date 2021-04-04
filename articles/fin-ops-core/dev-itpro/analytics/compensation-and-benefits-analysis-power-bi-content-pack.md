@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 69149f55371f64b4907f6040e9de03843fc11717
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 07a8be0a4c333e9d465341d9384e4b9a706f9e75
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687208"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559823"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>Contenuto Power BI di retribuzioni e benefit
 
@@ -56,7 +55,7 @@ I dati dell'applicazione vengono utilizzati per compilare i report nel pacchetto
 | Forzalavoro\_PosizioneGeografica     | Città, provincia, codice postale e stato/regione o provincia                                                           | Forzalavoro\_LavoratoreCorrente, Forzalavoro\_LavoratoreCongedato, Forzalavoro\_TendenzaLavoratore |
 | Forzalavoro\_Mansione                    | Funzione, tipo e titolo                                                                                  | Forzalavoro\_PosizioneCorrente, Forzalavoro\_LavoratoreCorrente |
 | Forzalavoro\_AssegnazionePosizionePrecedente | Motivo dell'assegnazione, data di inizio, data di fine e mansione                                                           | Forzalavoro\_OffsetCalendario, Forzalavoro\_Data, Forzalavoro\_Mansione, Forzalavoro\_Posizione |
-| Forzalavoro\_Prestazioni            | Valutazione, descrizione e modello di valutazione                                                                      | Forzalavoro\_LavoratoreCorrente, Forzalavoro\_LavoratoreCongedato, Forzalavoro\_TendenzaLavoratore |
+| Forzalavoro\_Prestazioni            | Valutazione, Descrizione e modello di valutazione                                                                      | Forzalavoro\_LavoratoreCorrente, Forzalavoro\_LavoratoreCongedato, Forzalavoro\_TendenzaLavoratore |
 | Forzalavoro\_Posizione               | Reparto, FTE, posizione, tipo di posizione e titolo                                                        | Forzalavoro\_PosizioneCorrente, Forzalavoro\_LavoratoreCorrente |
 | Forzalavoro\_TendenzaPosizione          | Posizioni nel tempo, FTE e mansione                                                                          | Forzalavoro\_OffsetCalendario, Forzalavoro\_Data, Forzalavoro\_Mansione, Forzalavoro\_Posizione |
 | Forzalavoro\_NomeSuperiore    | Nome, cognome e nome completo                                                                       | Forzalavoro\_LavoratoreCorrente, Forzalavoro\_LavoratoreCongedato, Forzalavoro\_TendenzaLavoratore |

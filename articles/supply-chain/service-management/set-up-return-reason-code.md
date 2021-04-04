@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991717"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470670"
 ---
-# <a name="set-up-return-reason-codes"></a>Impostare codici motivo reso   
+# <a name="set-up-return-reason-codes"></a>Impostare i codici motivo dei resi   
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="set-up-return-reason-code-groups"></a>Impostare gruppi di codici motivo reso 
 
-1.  Fare clic su **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Gruppi codici motivo reso**.
+1.  Selezionare **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Gruppi codici motivo reso**.
 
-2.  Premere CTRL+N per creare una nuova riga di gruppo di codici motivo reso.
+2.  Selezionare **Nuovo** per creare una nuova riga di gruppo di codici motivo reso.
 
 3.  Nel campo **Gruppo di codici motivo reso** digitare un identificatore per il gruppo.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4991717"
 
 Questa procedura consente di impostare i codici motivo reso che è possibile utilizzare per indicare il motivo per cui un prodotto è stato restituito dal cliente.
 
-1.  Fare clic su **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Codici motivo reso**.
+1.  Selezionare **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Codici motivo reso**.
 
 2.  Premere CTRL+N per creare una nuova riga di codice motivo reso.
 

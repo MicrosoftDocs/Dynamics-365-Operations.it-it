@@ -1,12 +1,11 @@
 ---
-title: Contenuto Power BI sull'analisi delle spese di acquisto
-description: In questo argomento viene descritto cosa è incluso nel contenuto di Power BI per l'analisi delle spese di acquisto.
+title: Contenuto Analisi delle spese di acquisto di Power BI
+description: In questo argomento viene descritto cosa è incluso nel contenuto Analisi delle spese di acquisto di Power BI.
 author: FrankDahl
 manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5914abaafab509e278d7a85441928feddb0b5164
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a4149b13754b544558dbb5666fbec7df97e5c5d8
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093444"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559551"
 ---
-# <a name="purchase-spend-analysis-power-bi-content"></a>Contenuto Power BI sull'analisi delle spese di acquisto
+# <a name="purchase-spend-analysis-power-bi-content"></a>Contenuto Analisi delle spese di acquisto di Power BI
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto di Power BI **Analisi delle spese di acquisto**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto **Analisi delle spese di acquisto** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -131,7 +130,7 @@ I seguenti dati vengono utilizzati per compilare le pagine di report nel contenu
 
 Le misure di aggregazione in questo pacchetto di contenuti sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Acquisiti in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità in [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md). Le seguenti misure di aggregazione chiave sono disponibili direttamente dall'entità delle righe della fattura e sono utilizzate come base del contenuto.
 
-| Entità        | Misure di aggregazione chiave | Origine dati                                 | Campo              | descrizione                            |
+| Entità        | Misure di aggregazione chiave | Origine dati                                 | Campo              | Descrizione                            |
 |---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
 | Righe fattura | Acquisti                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Importo nella valuta di contabilizzazione. |
 

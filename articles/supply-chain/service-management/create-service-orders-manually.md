@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c10990f96fecf55e005650257f83c28423203b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 72b600bc59119a6304fa043240a34051435f8691
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001413"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470955"
 ---
 # <a name="create-service-orders-manually"></a>Creare ordini di assistenza manualmente    
 
@@ -36,17 +36,17 @@ ms.locfileid: "5001413"
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Creare un ordine di assistenza manualmente da un contratto di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Selezionare **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Selezionare un contratto di assistenza oppure crearne uno nuovo.
 
-3.  Fare clic sulla scheda **Consegna** e nel gruppo **Creare** fare clic su **Ordini di assistenza pianificati** per aprire il modulo **Crea ordini di assistenza**.
+3.  Selezionare la scheda **Consegna** e nel gruppo **Creare** selezionare **Ordini di assistenza pianificati** per aprire il modulo **Crea ordini di assistenza**.
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Creare un ordine di assistenza manualmente nel modulo Ordini di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1.  Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
-2.  Premere CTRL+N per creare un nuovo ordine di assistenza.
+2.  Selezionare **Nuovo** per creare un nuovo ordine di assistenza.
 
 3.  Creare le righe dell'ordine di assistenza.
 
@@ -55,9 +55,9 @@ ms.locfileid: "5001413"
 
 ## <a name="create-a-service-order-from-a-project"></a>Creare un ordine di assistenza da un progetto
 
-1.  Fare clic su **Gestione progetti e contabilità** \> **Comune** \> **Progetti** \> **Tutti i progetti**.
+1.  Selezionare **Gestione progetti e contabilità** \> **Comune** \> **Progetti** \> **Tutti i progetti**.
 
-2.  Nel **riquadro azioni** del modulo **Progetti**, fai clic sulla scheda **Gestisci** \> **Assistenza** \> **Ordini di assistenza**.
+2.  Nel **riquadro azioni** del modulo **Progetti**, selezionare la scheda **Gestisci** \> **Assistenza** \> **Ordini di assistenza**.
 
 3.  Utilizzare la procedura precedente per la creazione manuale di un ordine di assistenza nel modulo **Ordini di assistenza**. Nel campo **ID progetto** verrà visualizzato il riferimento del progetto.
 
@@ -68,19 +68,19 @@ ms.locfileid: "5001413"
 
 È possibile creare un ordine di assistenza dal modulo **Ordini cliente** utilizzando la procedura guidata **Crea un nuovo ordine di assistenza in base all'ordine cliente**.
 
-1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini cliente** \> **Tutti gli ordini cliente**.
+1.  Selezionare **Vendite e marketing** \> **Comune** \> **Ordini cliente** \> **Tutti gli ordini cliente**.
 
 2.  Aprire l'ordine cliente rilevante.
 
-3.  Nella scheda **Ordine cliente**, fare clic su **Ordine di assistenza** per avviare la procedura guidata **Crea un nuovo ordine di assistenza in base all'ordine cliente**.
+3.  Nella scheda **Ordine cliente**, selezionare **Ordine di assistenza** per avviare la procedura guidata **Crea un nuovo ordine di assistenza in base all'ordine cliente**.
 
-4.  Fare clic su **Avanti \>** e quindi completare i passaggi seguenti nella pagina **Seleziona contratto per ordine di assistenza**:
+4.  Selezionare **Avanti \>** e quindi completare i passaggi seguenti nella pagina **Seleziona contratto per ordine di assistenza**:
     
       - Utilizzare il campo **Contratto di assistenza** per selezionare il contratto di assistenza a cui associare il nuovo ordine di assistenza.
     
       - Facoltativo: utilizzare il campo **ID progetto** per associare l'ordine di assistenza a un determinato progetto.
 
-5.  Fare clic su **Avanti \>** e quindi completare i passaggi seguenti nella pagina **Crea riga ordine di assistenza**:
+5.  Selezionare **Avanti \>** e quindi completare i passaggi seguenti nella pagina **Crea riga ordine di assistenza**:
     
       - Immettere una data e un'ora in cui iniziare la chiamata di assistenza nel campo **Ora assistenza preferita**.
     
@@ -90,7 +90,7 @@ ms.locfileid: "5001413"
     
       - Nel campo **ID contatto** selezionare la persona all'interno della società del cliente che deve essere contattata riguardo all'ordine di assistenza specificato.
 
-6.  Fare clic su **Avanti \>**, quindi scegliere **Fine**.
+6.  Selezionare **Avanti \>** e quindi **Fine**.
 
 
 ## <a name="see-also"></a>Vedere anche

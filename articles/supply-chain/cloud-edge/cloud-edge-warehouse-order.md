@@ -19,12 +19,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c04127b9fe621d962be2d7fe06358b3bd1b78916
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5105714"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556364"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Ordini di magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -36,7 +36,7 @@ ms.locfileid: "5105714"
 
 ## <a name="what-are-warehouse-orders"></a>Cosa sono gli ordini di magazzino?
 
-Gli *ordini di magazzino* sono un tipo di ordine creato per supportare le distribuzioni di hub e unità di scala in magazzino. Ti consentono di ricevere le scorte quando esegui un carico di lavoro di magazzino su un'unità di scala. Attualmente sono utilizzati solo con ordini di acquisto.
+Gli *ordini di magazzino* sono un tipo di ordine creato per supportare le distribuzioni di hub e unità di scala in magazzino. Ti consentono di ricevere le scorte quando esegui un carico di lavoro di magazzino su un'unità di scala. Attualmente sono utilizzati solo con ordini fornitore.
 
 Gli ordini di magazzino vengono utilizzati come parte dell'elaborazione della gestione del magazzino, ad esempio quando l'app di magazzino viene utilizzata per registrare le scorte fisiche disponibili durante l'elaborazione di un ordine fornitore in entrata. Gli ordini di magazzino vengono creati come parte del processo *Rilascia in magazzino* disponibile per ordini fornitore che specificano un magazzino di unità di scala e articoli abilitati all'utilizzo dei processi di gestione magazzino.
 
@@ -50,7 +50,9 @@ Per creare un ordine di magazzino, segui questi passaggi.
 1. Accedi all'istanza di Microsoft Dynamics 365 Supply Chain Management in esecuzione nell'hub. Devi avviare il processo *Rilascia in magazzino* mentre sei connesso all'hub.
 1. Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.
 1. Nel riquadro azioni, nella scheda **Magazzino**, nel gruppo **Azioni**, selezionare **Rilascia in magazzino**.
-1. Per visualizzare le righe dell'ordine di magazzino correlate, apri l'ordine fornitore acquisto pertinente, seleziona una riga nella sezione **Righe ordine di acquisto**, quindi, sulla barra degli strumenti, seleziona **Magazzino \> Righe ordine di magazzino**. Per visualizzare tutte le righe, vai a **Gestione magazzino \> Richieste e segnalazioni \> Righe ordine di magazzino**.
+1. Per visualizzare le righe dell'ordine di magazzino correlate, apri l'ordine fornitore acquisto pertinente, seleziona una riga nella sezione **Righe ordine fornitore**, quindi, sulla barra degli strumenti, seleziona **Magazzino \> Righe ordine di magazzino**. Per visualizzare tutte le righe, vai a **Gestione magazzino \> Richieste e segnalazioni \> Righe ordine di magazzino**.
+
+Puoi anche attivare il processo *Rilascia in magazzino* da un processo batch selezionando **Gestione del magazzino > Rilascio in magazzino > Rilascio automatico degli ordini cliente**. Quando si imposta il processo batch, è possibile selezionare righe di ordine fornitore specifiche in base a una query. Uno scenario tipico sarebbe impostare un processo batch ricorrente che rilascia tutte le righe di ordine fornitore confermate che dovrebbero arrivare il giorno successivo.
 
 ## <a name="cancel-a-warehouse-order"></a>Annullare un ordine di magazzino
 

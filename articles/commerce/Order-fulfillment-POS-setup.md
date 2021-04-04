@@ -16,18 +16,16 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2519dcaf657b495a494b6f45f93930d980d89a65
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965319"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477806"
 ---
-# <a name="set-up-order-fulfillment-for-stores"></a>Impostazione dell'evasione ordini nel punto vendita
+# <a name="set-up-order-fulfillment-for-stores"></a>Impostare l'evasione degli ordini nel punto vendita
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>Panoramica
 
 Molti rivenditori vorrebbero ottimizzare l'evasione dell'ordine consentendo ai punti vendita di eseguire gli ordini. L'evasione degli ordini a livello di punto vendita può semplificare gli scenari di scorte in eccesso per un punto vendita specifico o potrebbe essere necessaria da un punto di vista logistico nei casi in cui un punto vendita disponga di capacità aggiuntiva o si trovi a una distanza di spedizione più vicina al cliente. Per rispondere a questa esigenza, un'operazione di evasione degli ordini unificata è disponibile presso il POS.
 
@@ -76,7 +74,7 @@ La visualizzazione di evasione ordini elenca le righe dell'ordine per l'evasione
 
 - Numero ordine
 - Numero prodotto
-- descrizione
+- Descrizione
 - Quantità ordinata
 - Data di consegna richiesta
 - Nome cliente

@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997602"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477758"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurare più tenant B2C in un ambiente Commerce
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive quando e come impostare più tenant Microsoft Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione dell'utente in un ambiente Dynamics 365 Commerce dedicato.
-
-## <a name="overview"></a>Panoramica
 
 Dynamics 365 Commerce usa il servizio di identità cloud Azure AD B2C per supportare le credenziali dell'utente e i flussi di autenticazione. Gli utenti possono utilizzare i flussi di autenticazione per iscriversi, accedere e reimpostare la propria password. Azure AD B2C memorizza le informazioni di autenticazione sensibili di un utente, come il nome utente e la password. Il record utente è univoco per ciascun tenant B2C e utilizza le credenziali del nome utente (indirizzo e-mail) o del provider di identità social.
 

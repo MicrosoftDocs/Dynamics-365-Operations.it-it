@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b93e5f15e281c20f8688d496fc78f8b46b8aa996
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679322"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560363"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Siti e magazzini integrati
 
@@ -39,7 +38,7 @@ In questo argomento viene descritta l'integrazione dei dati di siti e magazzini 
 
 Grazie all'integrazione con Dataverse, tali concetti e tutte le informazioni correlate sono disponibili in Dataverse utilizzando le tabelle di dati di siti e magazzini nella tabella seguente.
 
-App di Finance and Operations | Altre app Dynamics 365 | descrizione
+App di Finance and Operations | Altre app Dynamics 365 | Descrizione
 --------------------------|---------------------------|---
 Siti | msdyn_operationalsites | 
 Magazzini | msdyn_warehouses | 

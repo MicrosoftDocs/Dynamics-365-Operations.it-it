@@ -3,7 +3,7 @@ title: Impostare tassi d'interesse per un codice interessi
 description: I codici interessi contengono le impostazioni che determinano quando gli interessi vengono addebitati e come vengono calcolati nei conti scaduti.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971631"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555367"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Impostare tassi d'interesse per un codice interessi
 
@@ -46,10 +46,19 @@ Quando si utilizza un codice interessi per calcolare gli interessi, viene creata
 
 - L'importo degli interessi si applica a tutte le valute.
 - È possibile immettere limiti per l'importo interessi facoltativi.
-- <strong>Percentuale</strong> è selezionato nel campo <strong>Calcola interessi in base a</strong> nella pagina <strong>Imposta codici interessi</strong>.
+- **Percentuale** è selezionato nel campo **Calcola interessi in base a** nella pagina **Imposta codici interessi**.
 
 Ad esempio, per impostare un codice interessi che valuta un interesse del 5% per ogni due mesi in cui il pagamento della fattura supera la data di scadenza della transazione, immettere 2 nel campo **Calcola interessi ogni** quindi selezionare **Mese**.
 
+> [!NOTE] 
+> Il nuovo algoritmo per il calcolo della nota di interesse viene aggiunto utilizzando Gestione funzionalità. Per utilizzare questo algoritmo, abilitare la funzionalità **(GBL) Consenti calcolo dell'interesse giornaliero come percentuale annua divisa per 365**. Per informazioni su come abilitare la funzionalità, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> La formula per il calcolo dell'importo della nota d'interesse è: 
+>  
+> Importo nota di interesse = Importo dovuto * % interesse annuale / 365 * Numero di giorni di ritardo
+>  
+> Questa funzionalità è disponibile nella versione 10.0.18 o successiva.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Tassi d'interesse in base agli importi
 È possibile impostare tassi d'interesse che calcolano una quantità specificata per valuta.
 - Un importo interessi è specificato per ciascuna valuta relativa al codice interessi.

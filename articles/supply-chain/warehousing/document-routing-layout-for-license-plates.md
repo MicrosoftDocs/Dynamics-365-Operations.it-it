@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973762"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558264"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout della distribuzione del documento per le etichette della targa
 
 [!include [banner](../includes/banner.md)]
+
 
 Il layout di distribuzione del documento definisce il layout delle etichette della targa e dei dati che vi vengono stampati. Configurare i punti di attivazione della stampa quando si impostano le voci di menu del dispositivo mobile e i modelli di lavoro.
 
@@ -51,6 +52,10 @@ Come parte del processo di stampa delle etichette, il testo `$LicensePlateId$` i
 Per vedere i valori che verranno stampati, andare a **Gestione magazzino \> Richieste di informazioni e report \> Etichette della targa**.
 
 Diversi strumenti di generazione di etichette ampiamente disponibili possono aiutare a formattare il testo per il layout dell'etichetta. Molti di questi strumenti supportano il formato `$FieldName$`. Inoltre, Microsoft Dynamics 365 Supply Chain Management utilizza una logica di formattazione speciale come parte della mappatura dei campi per il layout della distribuzione del documento.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Attivare questa funzionalità per il sistema
+
+Se il sistema non include già le funzionalità descritte in questo argomento, andare a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Layout etichette targa migliorati*.
 
 ## <a name="custom-number-formats"></a>Formati numerici personalizzati
 

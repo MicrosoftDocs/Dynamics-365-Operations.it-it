@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c4cad56389c7a8fd6d37591c1ff335fff715707
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001826"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476701"
 ---
 # <a name="inventory-statuses"></a>Stati inventario
 
@@ -45,6 +45,9 @@ Uno stato inventario è una delle dimensioni nel gruppo di dimensioni di immagaz
 
 È possibile utilizzare gli articoli di magazzino con stati inventario disponibile o non disponibile per il lavoro in entrata. Ad esempio, si crea uno stato disponibile denominato *Pronto*, uno stato non disponibile denominato *Danneggiato* e uno stato bloccato denominato *Bloccato*. Quando si crea un ordine acquisto per articoli ricevuti o resi, se gli articoli sono danneggiati o rotti, è possibile modificare lo stato inventario di tali articoli in *Danneggiato* nella riga dell'ordine acquisto. Dopo la ricezione degli articoli, lo stato viene automaticamente impostato su *Bloccato*. Se si esegue la scansione degli articoli danneggiati con un dispositivo mobile, Supply Chain Management può utilizzare le direttive di ubicazione e i modelli di lavoro per mostrare le informazioni relative a un'ubicazione appropriata o a un gruppo di ubicazioni in cui è possibile stoccare tali articoli. Per i resi, viene creato un problema di tipo *Prenotazione* nella pagina **Transazioni di magazzino**.
 
+> [!NOTE]
+> Non è possibile modificare lo stato dell'inventario nelle ubicazioni in cui esistono lavori aperti. Ad esempio, se si è effettuata l'entrata acquisto per un articolo, ma non lo stoccaggio, esisterebbe del lavoro aperto per l'ubicazione di ricezione e verrebbe visualizzato un errore se si tenta di modificare lo stato dell'inventario in quell'ubicazione. Il completamento o l'annullamento del lavoro correlato consentirebbe di modificare lo stato.
+ 
 Per il lavoro in uscita, utilizzare articoli con uno stato inventario disponibile. Se si dispone di articoli con stato *Rotto* e la pianificazione generale viene eseguita su tali articoli, questi vengono considerati mancanti e l'inventario viene automaticamente rifornito.
 
 Dopo aver impostato gli stati inventario, è possibile impostare lo stato inventario predefinito per un sito, un articolo e un magazzino. È inoltre possibile impostare uno stato predefinito per ordini acquisto, di trasferimento e cliente. Lo stato predefinito per gli ordini cliente e l'ordine di trasferimento in uscita non possono disporre del set di opzioni **Blocco scorte** su *Sì*. Lo stato inventario che viene ereditato dalle impostazioni predefinite in un sito, magazzino, articolo, ordine acquisto, di trasferimento o cliente può essere modificato utilizzando il dispositivo mobile oppure nella riga dell'ordine acquisto, cliente o di trasferimento.

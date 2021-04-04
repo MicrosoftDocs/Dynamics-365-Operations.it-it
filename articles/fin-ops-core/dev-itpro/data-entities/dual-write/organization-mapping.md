@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: f265d49a87383e2abf129b8d1d67567fc4b9e0de
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744695"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559581"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Gerarchia organizzativa in Dataverse
 
@@ -47,7 +46,7 @@ Le mappe della tabella della gerarchia organizzativa sono disponibili per la sin
 
 Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sulla relativa definizione, come le dimensioni prodotto o le dimensioni di tracciabilità e di immagazzinamento. Come mostrato nella tabella seguente, una raccolta di mappe della tabella viene creata per sincronizzare i prodotti e le informazioni correlate.
 
-App di Finance and Operations | Altre app Dynamics 365 | descrizione
+App di Finance and Operations | Altre app Dynamics 365 | Descrizione
 -----------------------|--------------------------------|---
 Scopi gerarchia organizzativa | msdyn_internalorganizationhierarchypurposes | Questo modello consente la sincronizzazione unidirezionale di tabella scopo gerarchia organizzativa.
 Tipo di gerarchia organizzativa | msdyn_internalorganizationhierarchytypes | Questo modello consente la sincronizzazione unidirezionale di tabella tipo di gerarchia organizzativa.

@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125427"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500624"
 ---
 # <a name="recruiting-request"></a>Richiesta di selezione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive l'entità della richiesta di selezione per Dynamics 365 Human Resources.
 
 Nome fisico: mshr_hcmrecruitingrequestentity
 
-### <a name="description"></a>descrizione
+### <a name="description"></a>Descrizione
 
 Descrive una richiesta di reclutamento per un lavoro.
 
@@ -72,7 +74,7 @@ Descrive una richiesta di reclutamento per un lavoro.
 
 ### <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
 | **ID richiesta di selezione**<br>mshr_recruitingrequestid<br>*String* | Sola lettura<br>Richiesto<br>Generato dal sistema | Un identificatore univoco leggibile dall'utente per la richiesta visualizzata nell'applicazione HR. Sequenza numerica. |
 | **ID entità richiesta di selezione**<br>mshr_hcmrecruitingrequestentityid<br>*GUID* | Sola lettura<br>Richiesto<br>Generato dal sistema | Un valore GUID generato dal sistema per identificare in modo univoco la richiesta di selezione. |
@@ -98,7 +100,8 @@ Descrive una richiesta di reclutamento per un lavoro.
 | **Valore ID tipo lavoro**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Sola lettura<br>Facoltativo<br>Chiave esterna: mshr_hcmjobtypeentityid dell'entità mshr_hcmjobtypenentity | L'identificatore univoco generato dal sistema del tipo di lavoro associato al processo per la richiesta di selezione. |
 | **Stato esenzione**<br>mshr_exemptstatus<br>Set di opzioni *JobExemptStatus* | Sola lettura<br>Facoltativo | Lo stato di esenzione FLSA in base al tipo di lavoro. |
 | **La data di inizio stimata**<br>mshr_estimatedstartdate<br>*Data* | Lettura/scrittura<br>Richiesto | La data stimata in cui un candidato inizierà a lavorare. |
-| **Descrizione esterna**<br>mshr_externaldescription<br>*String* | Lettura/scrittura<br>Facoltativo | Una descrizione dei candidati del lavoro/posizione. | Soglia bassa di retribuzione<br>mshr_compensationlowthreshold<br>*Double* | Lettura/scrittura<br>Facoltativo | Limite inferiore per il livello di retribuzione. |
+| **Descrizione esterna**<br>mshr_externaldescription<br>*String* | Lettura/scrittura<br>Facoltativo | Una descrizione dei candidati del lavoro/posizione. | 
+| **Soglia bassa di retribuzione**<br>mshr_compensationlowthreshold<br>*Double* | Lettura/scrittura<br>Facoltativo | Limite inferiore per il livello di retribuzione. |
 | **Punto di controllo della retribuzione**<br>mshr_compensationcontrolpoint<br>*Double* | Lettura/scrittura<br>Facoltativo | Punto di controllo per il livello di retribuzione. |
 | **Soglia alta di retribuzione**<br>mshr_compensationhighthreshold<br>*Double* | Lettura/scrittura<br>Facoltativo | Limite superiore per il livello di retribuzione. |
 | **Livello retributivo**<br>mshr_compensationlevelid<br>*String* | Lettura/scrittura<br>Facoltativo | Il livello di retribuzione del lavoro. Un lavoro può essere impostato con più livelli di retribuzione. Questo attributo indica il livello di retribuzione del lavoro selezionato per questa richiesta. |

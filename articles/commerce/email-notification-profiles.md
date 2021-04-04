@@ -1,9 +1,9 @@
 ---
 title: Impostare un profilo di notifica tramite posta elettronica
 description: In questo argomento viene descritto come creare un profilo di notifica tramite posta elettronica in Microsoft Dynamics 365 Commerce.
-author: samjarawan
+author: bicyclingfool
 manager: annbe
-ms.date: 03/31/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -13,26 +13,23 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9378fb200a239433f2023bb90f72840dace1c0eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d82a1abe68ff6e162acb75c6fdc1e207af11c279
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000826"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555309"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Impostare un profilo di notifica tramite posta elettronica
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come creare un profilo di notifica tramite posta elettronica in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Panoramica
-
-Prima di creare canali, è consigliabile impostare un profilo per garantire l'invio di notifiche tramite posta elettronica per vari eventi, come la creazione di ordini, lo stato della spedizione dell'ordine e il mancato pagamento.
+Quando si creano canali, è possibile impostare un profilo di notifica e-mail. In tal modo, le e-mail possono essere inviate ai clienti per vari eventi transazionali, come la creazione dell'ordine, lo stato di spedizione dell'ordine e il mancato pagamento.
 
 Per ulteriori informazioni di configurazione della posta elettronica, vedere [Configurare e inviare messaggi di posta elettronica](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -48,7 +45,7 @@ Per creare un profilo di notifica tramite posta elettronica, attenersi alla segu
 
 ### <a name="create-an-email-template"></a>Crea un modello di messaggio di posta elettronica
 
-Prima di poter creare una notifica tramite posta elettronica, è necessario creare un modello e-mail per l'organizzazione che contenga le informazioni di posta elettronica del mittente e il modello e-mail.
+Prima di poter abilitare un tipo di notifica tramite posta elettronica, è necessario creare un modello di posta elettronica dell'organizzazione in Commerce Headquarters. Questo modello definisce l'oggetto, il mittente, la lingua predefinita e il corpo del messaggio di posta elettronica per ciascuna lingua che si desidera supportare.
 
 Per creare un modello e-mail attenersi alla procedura seguente.
 
@@ -58,7 +55,7 @@ Per creare un modello e-mail attenersi alla procedura seguente.
 1. Nel campo **Nome mittente** immettere il nome del mittente.
 1. Nel campo **Descrizione messaggio di posta elettronica** immettere una descrizione pertinente.
 1. Nel campo **Indirizzo di posta elettronica del mittente** immettere l'indirizzo di posta elettronica del mittente.
-1. Nella sezione **Generale**, immettere tutte le informazioni facoltative necessarie (come la priorità di posta elettronica).
+1. Nella sezione **Generale**, selezionare una lingua predefinita per il modello di messaggio di posta elettronica. La lingua predefinita verrà utilizzata quando non esiste alcun modello localizzato per la lingua specificata.
 1. Espandere la sezione **Contenuto messaggio posta elettronica** e selezionare **Nuovo** per creare il contenuto del modello. Per ogni elemento di contenuto, selezionare la lingua e fornire la riga dell'oggetto dell'e-mail. Se l'e-mail avrà un corpo, assicurarsi che la casella **Con corpo** è selezionata.
 1. Nel riquadro azioni, selezionare **Messaggio di posta elettronica** per fornire un modello di corpo dell'email.
 

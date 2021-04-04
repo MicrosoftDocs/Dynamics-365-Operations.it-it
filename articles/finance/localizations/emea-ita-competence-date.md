@@ -3,7 +3,7 @@ title: Data di competenza per le transazioni e il report giornale di registrazio
 description: In questo argomento vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia
 author: anasyash
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd947e064c09af6c3d02b2e42068024d0889583d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9942bbb091e759295fc0b22fd9ba02f5408041c0
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962644"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557438"
 ---
 # <a name="competence-date-for-transactions-and-the-fiscal-journal-report"></a>Data di competenza per le transazioni e il report giornale di registrazione fiscale
 
@@ -61,7 +61,7 @@ In questo report sono inclusi i seguenti campi:
 -   Data del documento
 -   Nome e numero del conto CoGe
 -   Nome e numero del conto cliente o fornitore
--   descrizione
+-   Descrizione
 -   Valuta
 -   Importo in Dare o in Avere del documento
 
@@ -90,5 +90,22 @@ L'anno fiscale della società inizia l'1 gennaio e termina il 31 dicembre. Lo st
 8. Nella pagina **Transazioni giustificativo** aggiungere la colonna **Data transazione**.
 9. Verificare il campo **Data** sia impostato sul 31 dicembre e il campo **Data transazione** sia impostato sul 15 aprile.
 
+## <a name="fiscal-journal-page-numbering-improvements"></a>Miglioramenti alla numerazione delle pagine del giornale fiscale
+
+È possibile abilitare la funzionalità **(Italia) Miglioramenti alla numerazione delle pagine del giornale fiscale** nell'area di lavoro **Gestione funzionalità**.
+
+Questa funzionalità migliora la logica di calcolo per la numerazione delle pagine nel report del giornale fiscale italiano. Per aggiornare e memorizzare i numeri di pagina, stampare il rapporto su una schermata con la funzionalità **Visualizzatore PDF report** abilitata o stampare il report su un file in formato PDF. I numeri di pagina vengono calcolati utilizzando il nuovo algoritmo quando il report del giornale fiscale viene stampato in formato PDF. I numeri di pagina vengono memorizzati in modo che le pagine del report del mese successivo inizino in sequenza utilizzando il numero successivo a quello memorizzato. Questa funzionalità abilita anche un algoritmo per raggruppare righe con gli stessi valori di colonna in una riga, in modo che solo le pagine necessarie siano incluse nella stampa del report.
+
+Se è necessario calcolare il numero di documenti inclusi nel giornale di registrazione fiscale, completare i seguenti passaggi.
+
+1.  Stampare il report in un formato di file PDF.
+2.  Convertire il PDF in Microsoft Excel utilizzando un software di conversione.
+3.  Creare una tabella pivot e nel campo **Righe**, selezionare **N. doc.**.
+
+    ![Tabella pivot di Excel](media/ExcelPivotTable.png)
+
+Il numero di documenti è uguale al numero di righe nella tabella pivot.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

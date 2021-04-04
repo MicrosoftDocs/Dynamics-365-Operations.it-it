@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974662"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470739"
 ---
 # <a name="create-service-task-relations"></a>Creare relazioni di attività di assistenza tecnica    
 
@@ -32,13 +32,13 @@ ms.locfileid: "4974662"
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Creare una relazione con un contratto di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Selezionare **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Selezionare un contratto di assistenza esistente o crearne uno nuovo.
 
-3.  Nel riquadro azioni fare clic sul pulsante **Attività di assistenza tecnica**.
+3.  Nel riquadro azioni selezionare il pulsante **Attività di assistenza tecnica**.
 
-4.  Nel modulo **Attività di assistenza tecnica** premere CTRL+N per creare una nuova riga, quindi selezionare dall'elenco **Attività di assistenza tecnica** l'attività di assistenza tecnica da collegare al contratto di assistenza.
+4.  Nel modulo **Attività di assistenza tecnica** selezionare **Nuovo** per creare una nuova riga, quindi selezionare dall'elenco **Attività di assistenza tecnica** l'attività di assistenza tecnica da collegare al contratto di assistenza.
 
 5.  Nella scheda **Descrizione** immettere le descrizioni di note interne o esterne nei campi a testo libero.
 
@@ -50,13 +50,13 @@ Una relazione di attività di assistenza tecnica creata in un contratto di assis
 
 ## <a name="create-a-relation-with-a-service-order"></a>Creare una relazione con un ordine di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1.  Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
 2.  Selezionare un ordine di assistenza esistente o crearne uno nuovo.
 
-3.  Nel riquadro azioni fare clic sul pulsante **Attività di assistenza tecnica**.
+3.  Nel riquadro azioni selezionare il pulsante **Attività di assistenza tecnica**.
 
-4.  Nel modulo **Attività di assistenza tecnica** premere CTRL+N per creare una nuova riga, quindi selezionare dall'elenco **Attività di assistenza tecnica** le attività di assistenza tecnica da collegare al contratto di assistenza.
+4.  Nel modulo **Attività di assistenza tecnica** selezionare **Nuovo** per creare una nuova riga, quindi selezionare dall'elenco **Attività di assistenza tecnica** le attività di assistenza tecnica da collegare all'ordine di assistenza.
 
 5.  Nella scheda **Descrizione** immettere le descrizioni di note interne o esterne nei campi a testo libero.
 
