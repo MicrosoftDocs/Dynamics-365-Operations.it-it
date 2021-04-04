@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 7cb6baefb9880ac0135405c4a3b2449814afd4a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019881"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246623"
 ---
 # <a name="onboard-vendors"></a>Inserimento di fornitori
 
@@ -56,7 +56,7 @@ La richiesta di registrazione del fornitore potenziale è un'entità di Supply C
 
 Nella seguente tabella sono riportate le informazioni che contiene questa entità e che possono essere importate.
 
-| Campo                        | descrizione |
+| Campo                        | Descrizione |
 |------------------------------|-------------|
 | Nome fornitore                  | Nome del fornitore. |
 | Motivazione aziendale       | Motivazione o motivazioni per la richiesta. |
@@ -95,7 +95,7 @@ La procedura guidata riflette la configurazione della richiesta fornitore. Il pa
 
 Per ulteriori informazioni sulla configurazione della richiesta fornitore, vedere [Impostare e gestire la collaborazione fornitore](set-up-maintain-vendor-collaboration.md). Nella seguente tabella viene fornita una panoramica delle finestre della procedura guidata e lo scopo di ogni pagina.
 
-| Pagina                       | descrizione |
+| Pagina                       | Descrizione |
 |----------------------------|-------------|
 | Paese             | Il paese determina la configurazione delle richieste fornitore applicata alle pagine rimanenti della procedura guidata. Vengono inoltre determinati i valori della ricerca **Stato imposta**. |
 | Termini e condizioni       | Questa pagina potrebbe essere disponibile, a seconda della configurazione della richiesta fornitore. Se è disponibile, l'utente deve accettare i termini e le condizioni per continuare. |
@@ -125,7 +125,7 @@ La richiesta fornitore deve essere inviata a un flusso di lavoro e deve essere i
 
 La seguente tabella mostra gli stati che possono avere le richieste del fornitore.
 
-| Stato                     | descrizione |
+| Stato                     | Descrizione |
 |----------------------------|-------------|
 | Bozze                      | La richiesta fornitore non è stata ancora inviata. |
 | Rich. inviata          | La richiesta fornitore è stata inviata e la prima fase del flusso di lavoro è di elaborazione. |

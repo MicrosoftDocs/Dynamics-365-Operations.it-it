@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: af847ed36187c0d0629ce4063d9c17cb0fa8cfcf
-ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
+ms.openlocfilehash: fc3bb035686a46030514aca1f5ad03a2681845fd
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "5060844"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463528"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Novità o modifiche in Dynamics 365 Human Resources 21 gennaio 2021
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources.
 
@@ -57,7 +59,7 @@ Questa versione include le seguenti correzioni di bug.
 > [!NOTE]
 > Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
 
-| Numero problema | Uscita |  descrizione |
+| Numero problema | Uscita |  Descrizione |
 | --- | --- | --- |
 | 533079 | Errore di navigazione "Il modulo è stato richiamato in modo errato" quando proviamo a esaminare le detrazioni. | Risolto errore durante la visualizzazione delle detrazioni sui benefit con vista **Ad oggi**. |
 | 543641 | Il codice postale non viene compilato nella creazione dei report elettronici.  | Risolto un bug interno sul codice postale che non veniva visualizzato nei report elettronici ACA per la gestione dei benefit quando il codice di copertura è compreso tra M e Q. |

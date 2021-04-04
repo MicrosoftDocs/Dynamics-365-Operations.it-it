@@ -3,7 +3,7 @@ title: Emissione di fatture elettroniche in Finance e Supply Chain Management
 description: Questo argomento spiega come emettere le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management con il componente aggiuntivo per la fatturazione elettronica.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104399"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486955"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Emissione di fatture elettroniche in Finance e Supply Chain Management
 
@@ -35,25 +35,35 @@ Questo argomento spiega come emettere le fatture elettroniche in Microsoft Dynam
 
 ## <a name="feature-activation"></a>Attivazione della funzionalità
 
-Per iniziare a emettere fatture elettroniche tramite il componente aggiuntivo Fatturazione elettronica, è necessario attivare il Riferimento funzionalità in Finance e Supply Chain Management.
+Per emettere fatture elettroniche tramite il componente aggiuntivo Fatturazione elettronica, è necessario attivare il Riferimento funzionalità in Finance e Supply Chain Management.
 
-Ogni riferimento alla funzionalità corrisponde a una specifica funzionalità di fatturazione elettronica conforme ai requisiti di fatturazione elettronica di un paese/area geografica.
+Ogni funzionalità corrisponde a una specifica funzionalità di fatturazione elettronica conforme ai requisiti di fatturazione elettronica per un paese/area geografica.
 
-La tabella seguente mostra l'elenco dei riferimenti alle funzionalità supportati dal componente aggiuntivo Fatturazione elettronica.
+La tabella seguente mostra l'elenco delle funzionalità supportati dal componente aggiuntivo Fatturazione elettronica.
 
-| Riferimento funzionalità | Nome                                              | Paese/area geografica |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e federale - Fattura elettronica brasiliana       | Brasile         |
-| BR-00095          | Fatture elettroniche brasiliane NFS-e               | Brasile         |
-| DK-00001          | Fatturazione elettronica al settore pubblico (OIOUBL) - DK    | Danimarca        |
-| EG-00008          | Fatturazione elettronica per l'Egitto                             | Egitto          |
-| ES-00025          | Fattura elettronica per il settore pubblico           | Spagna          |
-| EUR-00023         | Fatturazione elettronica Unione Europea per il settore pubblico       | Europa         |
-| ITA-00036         | IT - Fattura elettronica a settore pubblico (FatturaPA) | Italia          |
-| MX-00010          | Fatturazione elettronica CFDI                                  | Messico         |
-| MX-00016          | Fatturazione elettronica CFDI - Processo di annullamento           | Messico         |
+| Nome                                              | Paese/area geografica |
+|---------------------------------------------------|----------------|
+|Fattura elettronica austriaca                        |Austria         |
+|Fattura elettronica belga                         |Belgio         |
+|NF-e federale - Fattura elettronica brasiliana       |Brasile          |
+|NFS-e - Fattura elettronica del servizio brasiliano (città)|Brasile          |
+|Fattura elettronica danese                          |Danimarca         |
+|Fattura elettronica egiziana                        |Egitto           |
+|Fattura elettronica estone                        |Estonia         |
+|Fattura elettronica finlandese                         |Finlandia         |
+|Fattura elettronica francese                          |Francia          |
+|Fattura elettronica tedesca                          |Germania         |
+|PEPPOL - Fattura elettronica globale                 |Globali          |
+|Fattura elettronica italiana                         |Italia           |
+|CFDI - Fattura elettronica messicana                  |Messico          |
+|Fattura elettronica olandese                           |Paesi Bassi     |
+|Fattura elettronica norvegese                       |Norvegia          |
+|Fattura elettronica spagnola                         |Spagna           |
 
-Nei casi in cui è presente una funzionalità di fatturazione elettronica legacy, supportata dall'ambito di localizzazione del paese, l'attivazione del Riferimento funzionalità consente l'emissione di fatture elettroniche tramite il componente aggiuntivo Fatturazione elettronica e disattiva la funzionalità precedente.
+Quando è presente una funzionalità di fatturazione elettronica legacy supportata dall'ambito di localizzazione di un paese/area geografica, l'attivazione di una di queste funzionalità disattiva la funzionalità legacy e consente l'emissione di fatture elettroniche tramite il componente aggiuntivo Fatturazione elettronica.
+
+> [!IMPORTANT]
+> Dopo l'abilitazione della funzionalità di integrazione del componente aggiuntivo Fatturazione elettronica, la nuova esperienza di fatturazione elettronica è disattivata per impostazione predefinita. È possibile utilizzare il concetto di funzionalità per abilitare selettivamente nuove esperienze per persone giuridiche che utilizzano funzionalità specifiche per paese/area geografica. L'opzione **Globale** controlla la nuova esperienza per il paese/le aree geografiche rimanenti che non sono specificatamente elencate nella tabella.
 
 ## <a name="submit-electronic-documents"></a>Invia documenti elettronici
 
