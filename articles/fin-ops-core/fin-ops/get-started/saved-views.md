@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 54f8c4bcac53f7cceb25f73b24311e93884be95d
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: eaf3c530553d2908f14829a31537927c3306400a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077451"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566402"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -167,7 +166,7 @@ Sebbene tutti gli utenti dispongano di una scheda **Visualizzazioni personali** 
 
 Per l'elenco di tutte le visualizzazioni pubblicate per la pagina, si ha a disposizione il set di azioni seguente. 
 
-- **Ripubblica**: utilizzare l'azione **Ripubblica** per pubblicare di nuovo una visualizzazione dopo che i parametri di pubblicazione (nome, descrizione, ruoli di sicurezza o persone giuridiche) sono stati modificati.
+- **Ripubblica**: utilizzare l'azione **Ripubblica** per pubblicare di nuovo una visualizzazione dopo che i parametri di pubblicazione (nome, Descrizione, ruoli di sicurezza o persone giuridiche) sono stati modificati.
 - **Pubblica**: utilizzare l'azione **Pubblica** per pubblicare una visualizzazione attualmente non pubblicata. 
 - **Annulla pubblicazione**: utilizza l'azione **Annulla pubblicazione** per rendere inattiva una visualizzazione. La visualizzazione sarà ancora disponibile nel sistema, ma gli utenti non la vedranno nel selettore di visualizzazione fino a quando non verrà nuovamente pubblicata.
 - **Salva come personale**: utilizzare l'azione **Salva come personale** per creare una bozza personale della visualizzazione pubblicata. Questa funzionalità consente di comprendere i contenuti di una visualizzazione non pubblicata o che non è stata ancora pubblicata. È possibile usarla per modificare e quindi ripubblicare una visualizzazione.

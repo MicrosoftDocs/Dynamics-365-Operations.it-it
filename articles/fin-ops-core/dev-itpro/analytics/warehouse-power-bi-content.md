@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 29acf305a275ac9d7047c3aceec726019951654c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092818"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563801"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto Power BI per **prestazioni di magazzino**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto **Prestazioni di magazzino** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -46,7 +45,7 @@ Il contenuto di Power BI **Prestazioni di magazzino** viene mostrato nella pagin
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Metriche incluse nel contenuto Power BI
 Il contenuto di Power BI **Prestazioni di magazzino** include un report. Il report è costituito da un set di metriche visualizzate come grafici, riquadri e tabelle. Nella seguente tabella viene fornita una panoramica delle visualizzazioni nel contenuto Power BI per **Prestazioni di magazzino**.
 
-| Pagina di report                 | Grafici                                   | descrizione |
+| Pagina di report                 | Grafici                                   | Descrizione |
 |-----------------------------|------------------------------------------|-------------|
 | Prestazioni in entrata         | Totale stoccaggio                          | Numero di righe di lavoro di stoccaggio elaborate nel periodo specificato. |
 | Prestazioni in entrata         | Tempo medio di stoccaggio                    | Il tempo medio, in ore, per tutte le righe di stoccaggio dell'ordine fornitore elaborate, dalla registrazione degli articoli fino all'elaborazione dell'ultimo stoccaggio. |

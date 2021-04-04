@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.openlocfilehash: 134aeb58db86486195019b4ae6bbbf549542cc07
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959603"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561254"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -121,7 +120,7 @@ Le fatture di vendita vengono create in Supply Chain Management e sincronizzate 
 
 Prospect per uno scenario di liquidazione include una raccolta di mappe della tabella di base che funzionano in combinazione durante l'interazione con i dati, come illustrato nella seguente tabella.
 
-| App di Finance and Operations | App di interazione con i clienti | descrizione |
+| App di Finance and Operations | App di interazione con i clienti | Descrizione |
 |-----------------------------|-----------------------------------|-------------|
 | Intestazioni fattura di vendita V2    | fatture                          | La tabella delle intestazioni delle fatture di vendita V2 nell'app Finance and Operations contiene fatture per ordini cliente e fatture a testo libero. Viene applicato un filtro in Dataverse per la doppia scrittura che filtrerà qualsiasi documento di fattura a testo libero. |
 | Righe fattura di vendita V2      | invoicedetails                    |             |

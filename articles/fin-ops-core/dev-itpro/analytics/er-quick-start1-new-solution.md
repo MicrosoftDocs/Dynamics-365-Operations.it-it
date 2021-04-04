@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c5bbfae36fb15437f2baadc66663cbfdb28691e8
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680244"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562613"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Progettare una nuova soluzione ER per stampare un report personalizzato
 
@@ -187,7 +186,7 @@ Completando i passaggi nella sezione [Importare una nuova configurazione del mod
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importare una nuova configurazione del modello di dati
 
-1. Scaricare il file [Questionarios model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
+1. Scaricare il file [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
 2. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Configurazioni report**.
 4. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
