@@ -2,11 +2,9 @@
 title: Home page di cespiti
 description: I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
@@ -17,43 +15,43 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d35d1a734ebff3abdf49083c282b5dfb64b445bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1825ee4617d14b421d4a7e6151d645a653a9fcbb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212423"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815670"
 ---
-# <a name="fixed-assets-home-page"></a><span data-ttu-id="f4f67-103">Home page di cespiti</span><span class="sxs-lookup"><span data-stu-id="f4f67-103">Fixed assets home page</span></span>
+# <a name="fixed-assets-home-page"></a><span data-ttu-id="3eeac-103">Home page di cespiti</span><span class="sxs-lookup"><span data-stu-id="3eeac-103">Fixed assets home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f4f67-104">I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature.</span><span class="sxs-lookup"><span data-stu-id="f4f67-104">Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</span></span> 
+<span data-ttu-id="3eeac-104">I cespiti sono articoli di valore di proprietà di un utente o di un'organizzazione, ad esempio edifici, veicoli, terreni e attrezzature.</span><span class="sxs-lookup"><span data-stu-id="3eeac-104">Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</span></span> 
 
-<span data-ttu-id="f4f67-105">È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestire i cespiti utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione per determinare l'ammortamento.</span><span class="sxs-lookup"><span data-stu-id="f4f67-105">You can set up and enter acquisition information for fixed assets, and then manage them by depreciating them and setting a capitalization threshold to determine depreciation.</span></span> <span data-ttu-id="f4f67-106">È inoltre possibile calcolare le rettifiche ai cespiti ed eseguire la dismissione dei cespiti.</span><span class="sxs-lookup"><span data-stu-id="f4f67-106">You can calculate adjustments to the fixed assets, and also dispose of them.</span></span> <span data-ttu-id="f4f67-107">Quando si utilizza Contabilità generale in combinazione con Cespiti, è possibile visualizzare il valore corrente di tutti i cespiti.</span><span class="sxs-lookup"><span data-stu-id="f4f67-107">When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.</span></span> <span data-ttu-id="f4f67-108">La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese/area geografica.</span><span class="sxs-lookup"><span data-stu-id="f4f67-108">The way in which fixed assets are handled must correspond to both international accounting standards and the accounting legislation in each country/region.</span></span> <span data-ttu-id="f4f67-109">I requisiti possono includere regole per la registrazione di transazioni di acquisizione e dismissione, ammortamento, durata, rivalutazione e svalutazione di cespiti.</span><span class="sxs-lookup"><span data-stu-id="f4f67-109">Requirements might include rules for recording acquisition and disposal transactions, depreciation, lifetimes, and write-ups and write-downs of fixed assets.</span></span> <span data-ttu-id="f4f67-110">Nelle funzionalità relative ai cespiti sono integrati molti di questi standard e regole.</span><span class="sxs-lookup"><span data-stu-id="f4f67-110">The Fixed assets functionality incorporates many of these standards and rules.</span></span>
+<span data-ttu-id="3eeac-105">È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestire i cespiti utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione per determinare l'ammortamento.</span><span class="sxs-lookup"><span data-stu-id="3eeac-105">You can set up and enter acquisition information for fixed assets, and then manage them by depreciating them and setting a capitalization threshold to determine depreciation.</span></span> <span data-ttu-id="3eeac-106">È inoltre possibile calcolare le rettifiche ai cespiti ed eseguire la dismissione dei cespiti.</span><span class="sxs-lookup"><span data-stu-id="3eeac-106">You can calculate adjustments to the fixed assets, and also dispose of them.</span></span> <span data-ttu-id="3eeac-107">Quando si utilizza Contabilità generale in combinazione con Cespiti, è possibile visualizzare il valore corrente di tutti i cespiti.</span><span class="sxs-lookup"><span data-stu-id="3eeac-107">When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.</span></span> <span data-ttu-id="3eeac-108">La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese/area geografica.</span><span class="sxs-lookup"><span data-stu-id="3eeac-108">The way in which fixed assets are handled must correspond to both international accounting standards and the accounting legislation in each country/region.</span></span> <span data-ttu-id="3eeac-109">I requisiti possono includere regole per la registrazione di transazioni di acquisizione e dismissione, ammortamento, durata, rivalutazione e svalutazione di cespiti.</span><span class="sxs-lookup"><span data-stu-id="3eeac-109">Requirements might include rules for recording acquisition and disposal transactions, depreciation, lifetimes, and write-ups and write-downs of fixed assets.</span></span> <span data-ttu-id="3eeac-110">Nelle funzionalità relative ai cespiti sono integrati molti di questi standard e regole.</span><span class="sxs-lookup"><span data-stu-id="3eeac-110">The Fixed assets functionality incorporates many of these standards and rules.</span></span>
 
-<span data-ttu-id="f4f67-111">[![Processo aziendale](./media/FA-process.PNG)](./media/FA-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="f4f67-111">[![Business process](./media/FA-process.PNG)](./media/FA-process.PNG)</span></span>
+<span data-ttu-id="3eeac-111">[![Processo aziendale](./media/FA-process.PNG)](./media/FA-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="3eeac-111">[![Business process](./media/FA-process.PNG)](./media/FA-process.PNG)</span></span>
 
 
 
-### <a name="additional-resources"></a><span data-ttu-id="f4f67-112">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="f4f67-112">Additional resources</span></span>
+### <a name="additional-resources"></a><span data-ttu-id="3eeac-112">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="3eeac-112">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="f4f67-113">Novità rilasciate e in via di sviluppo</span><span class="sxs-lookup"><span data-stu-id="f4f67-113">What's new and in development</span></span>
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="3eeac-113">Novità rilasciate e in via di sviluppo</span><span class="sxs-lookup"><span data-stu-id="3eeac-113">What's new and in development</span></span>
 
-<span data-ttu-id="f4f67-114">Passare ai [piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità che sono state pianificate.</span><span class="sxs-lookup"><span data-stu-id="f4f67-114">Go to the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features have been planned.</span></span> 
+<span data-ttu-id="3eeac-114">Passare ai [piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità che sono state pianificate.</span><span class="sxs-lookup"><span data-stu-id="3eeac-114">Go to the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features have been planned.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="f4f67-115">Blog</span><span class="sxs-lookup"><span data-stu-id="f4f67-115">Blogs</span></span>
+#### <a name="blogs"></a><span data-ttu-id="3eeac-115">Blog</span><span class="sxs-lookup"><span data-stu-id="3eeac-115">Blogs</span></span>
 
-<span data-ttu-id="f4f67-116">Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="f4f67-116">You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+<span data-ttu-id="3eeac-116">Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="3eeac-116">You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
 
-<span data-ttu-id="f4f67-117">Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="f4f67-117">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
+<span data-ttu-id="3eeac-117">Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="3eeac-117">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
 
-#### <a name="task-guides"></a><span data-ttu-id="f4f67-118">Guide attività</span><span class="sxs-lookup"><span data-stu-id="f4f67-118">Task guides</span></span>
-<span data-ttu-id="f4f67-119">Informazioni aggiuntive sono disponibili come guide attività.</span><span class="sxs-lookup"><span data-stu-id="f4f67-119">Additional help is available as task guides.</span></span> <span data-ttu-id="f4f67-120">Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.</span><span class="sxs-lookup"><span data-stu-id="f4f67-120">To access task guides, click the Help button on any page.</span></span>
+#### <a name="task-guides"></a><span data-ttu-id="3eeac-118">Guide attività</span><span class="sxs-lookup"><span data-stu-id="3eeac-118">Task guides</span></span>
+<span data-ttu-id="3eeac-119">Informazioni aggiuntive sono disponibili come guide attività.</span><span class="sxs-lookup"><span data-stu-id="3eeac-119">Additional help is available as task guides.</span></span> <span data-ttu-id="3eeac-120">Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.</span><span class="sxs-lookup"><span data-stu-id="3eeac-120">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="f4f67-121">Video</span><span class="sxs-lookup"><span data-stu-id="f4f67-121">Videos</span></span>
+#### <a name="videos"></a><span data-ttu-id="3eeac-121">Video</span><span class="sxs-lookup"><span data-stu-id="3eeac-121">Videos</span></span>
 
-<span data-ttu-id="f4f67-122">Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="f4f67-122">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="3eeac-122">Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="3eeac-122">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 

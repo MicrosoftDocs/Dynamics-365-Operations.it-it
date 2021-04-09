@@ -2,11 +2,9 @@
 title: Configurare scenari di pagamento delle fatture
 description: In questo argomento viene descritto come configurare Dynamics 365 Commerce per supportare vari scenari di pagamento delle fatture.
 author: josaw1
-manager: AnnBe
 ms.date: 11/14/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +15,34 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6f818fa552fe5651dc7d56de265fe989c57fa822
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08d3cf48c0bea6f0e13dda49e53b314a6037860d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257075"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804555"
 ---
-# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="beb1a-103">Configurare scenari di pagamento delle fatture</span><span class="sxs-lookup"><span data-stu-id="beb1a-103">Set up pay invoice scenarios</span></span>
+# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="84db5-103">Configurare scenari di pagamento delle fatture</span><span class="sxs-lookup"><span data-stu-id="84db5-103">Set up pay invoice scenarios</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="beb1a-104">La funzionalità Paga fattura in Dynamics 365 Commerce è stata espansa in modo da supportare:</span><span class="sxs-lookup"><span data-stu-id="beb1a-104">The Pay invoice functionality in Dynamics 365 Commerce has been expanded to support:</span></span>
+<span data-ttu-id="84db5-104">La funzionalità Paga fattura in Dynamics 365 Commerce è stata espansa in modo da supportare:</span><span class="sxs-lookup"><span data-stu-id="84db5-104">The Pay invoice functionality in Dynamics 365 Commerce has been expanded to support:</span></span>
 
-- <span data-ttu-id="beb1a-105">Il pagamento di più fatture di ordini cliente in un'unica transazione POS.</span><span class="sxs-lookup"><span data-stu-id="beb1a-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
-- <span data-ttu-id="beb1a-106">Il pagamento di vari tipi di fattura cliente incluse le fatture a testo libero, le fatture basate su progetto e le note di accredito.</span><span class="sxs-lookup"><span data-stu-id="beb1a-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
+- <span data-ttu-id="84db5-105">Il pagamento di più fatture di ordini cliente in un'unica transazione POS.</span><span class="sxs-lookup"><span data-stu-id="84db5-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
+- <span data-ttu-id="84db5-106">Il pagamento di vari tipi di fattura cliente incluse le fatture a testo libero, le fatture basate su progetto e le note di accredito.</span><span class="sxs-lookup"><span data-stu-id="84db5-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
 
-<span data-ttu-id="beb1a-107">Per attivare questi scenari, il profilo della funzionalità per i punti vendita deve essere configurato come illustrato di seguito.</span><span class="sxs-lookup"><span data-stu-id="beb1a-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
+<span data-ttu-id="84db5-107">Per attivare questi scenari, il profilo della funzionalità per i punti vendita deve essere configurato come illustrato di seguito.</span><span class="sxs-lookup"><span data-stu-id="84db5-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
 
-1. <span data-ttu-id="beb1a-108">Accedere a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili funzionalità** e selezionare un profilo collegato ai punti vendita che si desidera modificare.</span><span class="sxs-lookup"><span data-stu-id="beb1a-108">Go to **Retail and Commerce \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
-2. <span data-ttu-id="beb1a-109">Nella scheda **Funzioni**, configurare i seguenti parametri in base alle esigenze.</span><span class="sxs-lookup"><span data-stu-id="beb1a-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
+1. <span data-ttu-id="84db5-108">Accedere a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili funzionalità** e selezionare un profilo collegato ai punti vendita che si desidera modificare.</span><span class="sxs-lookup"><span data-stu-id="84db5-108">Go to **Retail and Commerce \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
+2. <span data-ttu-id="84db5-109">Nella scheda **Funzioni**, configurare i seguenti parametri in base alle esigenze.</span><span class="sxs-lookup"><span data-stu-id="84db5-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
 
-    - <span data-ttu-id="beb1a-110">**Fattura ordine cliente**: selezionare **Sì** per consentire agli utenti di pagare una o più fatture basate sugli ordini cliente in un'unica transazione POS.</span><span class="sxs-lookup"><span data-stu-id="beb1a-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="beb1a-111">**Fattura a testi libero**: selezionare **Sì** per consentire agli utenti di pagare una o più fatture a testo libero in un'unica transazione POS.</span><span class="sxs-lookup"><span data-stu-id="beb1a-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="beb1a-112">**Fattura progetto**: selezionare **Sì** per consentire agli utenti di pagare una o più fatture progetto in un'unica transazione POS.</span><span class="sxs-lookup"><span data-stu-id="beb1a-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="beb1a-113">**Ordine cliente - Nota di accredito**: selezionare **Sì** per consentire agli utenti di liquidare più note di accredito basate su ordini cliente a fronte di fatture aperte o elaborare un rimborso al cliente per una nota di accredito aperta.</span><span class="sxs-lookup"><span data-stu-id="beb1a-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
+    - <span data-ttu-id="84db5-110">**Fattura ordine cliente**: selezionare **Sì** per consentire agli utenti di pagare una o più fatture basate sugli ordini cliente in un'unica transazione POS.</span><span class="sxs-lookup"><span data-stu-id="84db5-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="84db5-111">**Fattura a testi libero**: selezionare **Sì** per consentire agli utenti di pagare una o più fatture a testo libero in un'unica transazione POS.</span><span class="sxs-lookup"><span data-stu-id="84db5-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="84db5-112">**Fattura progetto**: selezionare **Sì** per consentire agli utenti di pagare una o più fatture progetto in un'unica transazione POS.</span><span class="sxs-lookup"><span data-stu-id="84db5-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="84db5-113">**Ordine cliente - Nota di accredito**: selezionare **Sì** per consentire agli utenti di liquidare più note di accredito basate su ordini cliente a fronte di fatture aperte o elaborare un rimborso al cliente per una nota di accredito aperta.</span><span class="sxs-lookup"><span data-stu-id="84db5-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="beb1a-114">Il pagamento o la liquidazione di importi parziali non è supportato.</span><span class="sxs-lookup"><span data-stu-id="beb1a-114">Payment or settlement of partial amounts is not yet supported.</span></span>
+> <span data-ttu-id="84db5-114">Il pagamento o la liquidazione di importi parziali non è supportato.</span><span class="sxs-lookup"><span data-stu-id="84db5-114">Payment or settlement of partial amounts is not yet supported.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

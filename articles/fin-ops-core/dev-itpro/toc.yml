@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform update 10.0.16 (febbraio 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: Platform update 10.0.15 (gennaio 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Lavoratore, mansione e posizione integrati'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Rubrica globale e parte
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Utilizzo di Power Portal con il modello di dati parte
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Integrazione della nota
                               href: data-entities/dual-write/notes-integration.md
                             - name: Riferimento di mapping
@@ -526,13 +528,15 @@
                   items:
                     - name: Impostare progetti locali in LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Impostare e distribuire ambienti locali
+                    - name: Impostare e distribuire gli ambienti locali (Platform update 41 e successivi)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Impostare e distribuire gli ambienti locali (Platform update da 12 a 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Passaggi di installazione per i componenti del canale Retail in un ambiente locale
                       href: deployment/deploy-retail-onprem.md
                     - name: Sviluppare e distribuire modelli personalizzati in ambienti locali
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Manutenzione dell'ambiente
+                - name: Operazioni dell'ambiente
                   items:
                     - name: Applicare aggiornamenti a una distribuzione locale
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Configurare nodi AOS solo batch e solo interattivi nelle distribuzioni locali
                       href: deployment/onprem-batchonly.md
+                    - name: Configurare la disponibilità elevata per i nodi di SQL Server Reporting Services (SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: Configurare proxy per ambienti locali
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnostica locale
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integrazione di Microsoft Power Platform
           items:
-            - name: Integrazione di Microsoft Power Platform con Finance and Operations
-              href: power-platform/overview.md
-            - name: Panoramica dei componenti aggiuntivi
-              href: power-platform/add-ins-overview.md
-            - name: Modellazione di entità
-              href: power-platform/entity-modeling.md
-            - name: Gestione del ciclo di vita dell'applicazione
-              href: power-platform/application-lifecycle-management.md
-            - name: Riferimento amministratore Finance and Operations e Dataverse
-              href: power-platform/admin-reference.md
-            - name: Portali Power Apps con Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: Domande frequenti sulle entità virtuali di Finance and Operations
-              href: power-platform/faq.md
+            - name: Entità virtuali
+              items:
+                - name: Integrazione di Microsoft Power Platform con Finance and Operations
+                  href: power-platform/overview.md
+                - name: Modellazione di entità
+                  href: power-platform/entity-modeling.md
+                - name: Gestione del ciclo di vita dell'applicazione
+                  href: power-platform/application-lifecycle-management.md
+                - name: Riferimento amministratore Finance and Operations e Dataverse
+                  href: power-platform/admin-reference.md
+                - name: Portali Power Apps con Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Domande frequenti sulle entità virtuali di Finance and Operations
+                  href: power-platform/faq.md
+            - name: Componenti aggiuntivi
+              items:
+                - name: Panoramica dei componenti aggiuntivi
+                  href: power-platform/add-ins-overview.md
         - name: Piattaforma mobile
           items:
             - name: Risorse piattaforma mobile
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Esercitazione su Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
+            - name: Configurare utenti non amministratori
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Procedure consigliate
               href: perf-test/rsat/rsat-best-practices.md
             - name: Test di diagnostica dei dati utilizzando Regression Suite Automation Tool
