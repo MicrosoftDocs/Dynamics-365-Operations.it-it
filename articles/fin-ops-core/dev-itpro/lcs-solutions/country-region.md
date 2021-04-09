@@ -2,7 +2,6 @@
 title: Risorse di globalizzazione
 description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità e offerte specifiche del paese/area geografica.
 author: kfend
-manager: AnnBe
 ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26411c24751f698a6789bbbd687aca8f378f7d65
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560920"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748467"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 

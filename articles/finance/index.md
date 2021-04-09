@@ -2,11 +2,9 @@
 title: Home page di Finance
 description: In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218885"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813485"
 ---
 # <a name="finance-home-page"></a>Home page di Finance
 
@@ -71,8 +69,10 @@ Le normative del paese/area geografica incidono sull'impostazione fiscale e su a
 
 ### <a name="additional-content"></a>Contenuti aggiuntivi
 
-Le funzionalità di Supply Chain Management coprono parti del processo di approvvigionamento per pagamento, che include la richiesta, l'ordine, la ricezione, la fatturazione e il pagamento delle merci e dei servizi acquistati dall'organizzazione. Fare riferimento alla [home page di Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) per informazioni sulle funzionalità relative a gestione degli acquisti, inventario e produzione. 
+Le funzionalità di Supply Chain Management coprono parti del processo di approvvigionamento per pagamento, che include la richiesta, l'ordine, la ricezione, la fatturazione e il pagamento delle merci e dei servizi acquistati dall'organizzazione. Fare riferimento alla [home page di Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) per informazioni sulle funzionalità relative a gestione degli acquisti, inventario e produzione.
 
+## <a name="elearning-courses"></a>Corsi eLearning
 
+Per corsi online e formazione, vedere [Dynamics 365 Finance su Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

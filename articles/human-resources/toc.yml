@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 marzo 2021
+          href: hr-whats-new-2021-03-22.md
         - name: 8 marzo 2021
           href: hr-whats-new-2021-03-08.md
         - name: 22 febbraio 2021
@@ -265,6 +267,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Ottimizzare le prestazioni con attività di pulizia automatica
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Reimpostare i processi batch bloccati
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: I report analitici non sono aggiornati
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Impossibile creare un ambiente nell'interfaccia di amministrazione di Power Apps

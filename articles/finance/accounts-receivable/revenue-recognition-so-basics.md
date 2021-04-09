@@ -2,11 +2,9 @@
 title: Riconoscimento ricavi negli ordini cliente
 description: In questo argomento viene descritta la funzionalità di base per il riconoscimento ricavi negli ordini cliente e nelle fatture. Il riconoscimento ricavi è disponibile nell'ordine cliente e nella fattura corrispondente creata dall'ordine cliente.
 author: kweekley
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b59e7506f5b02ba7d5d522dd22f4e4bfd3e0c10b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9c6423a7fb604005d4fb7f1eca05a1ef7d210e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245642"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817223"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Riconoscimento ricavi negli ordini cliente
 
