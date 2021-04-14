@@ -2,7 +2,6 @@
 title: Importare versioni aggiornate delle configurazioni ER
 description: In questo argomento viene descritto come importare le versioni aggiornate delle configurazioni per la creazione di report elettronici (ER) dall'archivio globale del servizio di configurazione.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0c65315c4fa6a42b4bbb0d008b58f8df9cc0ea3d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561880"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753362"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importare versioni aggiornate delle configurazioni ER
 

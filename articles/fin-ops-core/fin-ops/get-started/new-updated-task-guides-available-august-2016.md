@@ -2,7 +2,6 @@
 title: Guide attività nuove o aggiornate (agosto 2016)
 description: In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (agosto 2016 - tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: cc31a15f020a7a0bb3d5f1ea92e95d86d9794931
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 71204a3a913aa3c048d02e6b0ca28d2aad26cbd9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566482"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749756"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Guide attività nuove o aggiornate (agosto 2016)
 

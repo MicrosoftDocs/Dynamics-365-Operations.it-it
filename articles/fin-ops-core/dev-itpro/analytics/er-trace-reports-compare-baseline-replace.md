@@ -2,7 +2,6 @@
 title: Miglioramenti nella tracciatura dei risultati dei report ER generati e nella comparazione degli stessi con i valori di base
 description: Questo argomento descrive i miglioramenti alla funzionalità di base ER in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1579a0bb0dcf21ae16a54969e57ca88301041076
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 483d3ac7cd3192ffd4c785c4031a168af503f087
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568951"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743607"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Miglioramenti nella tracciatura dei risultati dei report ER generati e nella comparazione degli stessi con i valori di base
 

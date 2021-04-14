@@ -2,7 +2,6 @@
 title: Utilizzare le origini dati del codice a barre per generare immagini di codici a barre
 description: Questo argomento spiega come utilizzare le origini dati del codice a barre per generare immagini di codici a barre.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: bf71caf2ff14fb815999e63d6b7ee91afccbdd1b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 08b9d03517a600cf46b1093cfa3bc454621eabd0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563681"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748367"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utilizzare le origini dati del codice a barre per generare immagini di codici a barre
 
