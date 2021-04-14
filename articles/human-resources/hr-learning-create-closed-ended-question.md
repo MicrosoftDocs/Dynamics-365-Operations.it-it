@@ -2,11 +2,9 @@
 title: Creare una domanda chiusa
 description: Le domande chiuse consentono di fornire opzioni tra cui l'intervistato può scegliere.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion, HcmLearningWorkspace
 audience: Application User
@@ -16,59 +14,59 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09bf57b26111be0e3de358a6c955b3df7bf50668
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 41e12e6f35237ea125756b502d5cebed58c6bf55
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467893"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790646"
 ---
-# <a name="create-a-closed-ended-question"></a><span data-ttu-id="dfb53-103">Creare una domanda chiusa</span><span class="sxs-lookup"><span data-stu-id="dfb53-103">Create a closed ended question</span></span>
+# <a name="create-a-closed-ended-question"></a><span data-ttu-id="45656-103">Creare una domanda chiusa</span><span class="sxs-lookup"><span data-stu-id="45656-103">Create a closed ended question</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="dfb53-104">Le domande chiuse consentono di fornire opzioni tra cui l'intervistato può scegliere.</span><span class="sxs-lookup"><span data-stu-id="dfb53-104">Closed-ended questions allow you to provide options for the respondent to choose from.</span></span> <span data-ttu-id="dfb53-105">È necessario innanzitutto creare il gruppo di risposte, quindi creare la domanda che utilizzerà il gruppo di risposte.</span><span class="sxs-lookup"><span data-stu-id="dfb53-105">First, you need to create the Answer group with the answers, then create the question that will use the answer group.</span></span> <span data-ttu-id="dfb53-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="dfb53-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="45656-104">Le domande chiuse consentono di fornire opzioni tra cui l'intervistato può scegliere.</span><span class="sxs-lookup"><span data-stu-id="45656-104">Closed-ended questions allow you to provide options for the respondent to choose from.</span></span> <span data-ttu-id="45656-105">È necessario innanzitutto creare il gruppo di risposte, quindi creare la domanda che utilizzerà il gruppo di risposte.</span><span class="sxs-lookup"><span data-stu-id="45656-105">First, you need to create the Answer group with the answers, then create the question that will use the answer group.</span></span> <span data-ttu-id="45656-106">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="45656-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-an-answer-group"></a><span data-ttu-id="dfb53-107">Creare un gruppo di risposte</span><span class="sxs-lookup"><span data-stu-id="dfb53-107">Create an answer group</span></span>
-1. <span data-ttu-id="dfb53-108">Andare a Questionario > Progettazione > Gruppi di risposte.</span><span class="sxs-lookup"><span data-stu-id="dfb53-108">Go to Questionnaire > Design > Answer groups.</span></span>
-2. <span data-ttu-id="dfb53-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="dfb53-109">Click New.</span></span>
-3. <span data-ttu-id="dfb53-110">Digitare un valore nel campo Gruppo di risposte.</span><span class="sxs-lookup"><span data-stu-id="dfb53-110">In the Answer group field, type a value.</span></span>
-4. <span data-ttu-id="dfb53-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="dfb53-111">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="dfb53-112">Utilizzare la funzionalità dei parametri casuali per posizionare in modo casuale le risposte un ordine diverso ogni volta che il gruppo di risposte viene utilizzato per una domanda.</span><span class="sxs-lookup"><span data-stu-id="dfb53-112">Use the Randomize functionality to randomly place the answers in a different order each time the answer group is used for a question.</span></span>  
-5. <span data-ttu-id="dfb53-113">Fare clic su Risposta.</span><span class="sxs-lookup"><span data-stu-id="dfb53-113">Click Answer.</span></span>
-6. <span data-ttu-id="dfb53-114">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="dfb53-114">Click New.</span></span>
-    * <span data-ttu-id="dfb53-115">Un numero progressivo controlla l'ordine in cui le risposte vengono visualizzate, a meno che l'opzione Parametri casuali non sia selezionata per il gruppo di risposte.</span><span class="sxs-lookup"><span data-stu-id="dfb53-115">Sequence number controls the order in which the answers are displayed, unless Randomize is selected for the Answer group.</span></span>  
-    * <span data-ttu-id="dfb53-116">Alle risposte possono essere assegnati punti da utilizzare per l'assegnazione di punteggio nel questionario.</span><span class="sxs-lookup"><span data-stu-id="dfb53-116">Points can be awarded to answers for use in scoring the questionnaire.</span></span>  
-7. <span data-ttu-id="dfb53-117">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="dfb53-117">In the Points field, enter a number.</span></span>
-    * <span data-ttu-id="dfb53-118">La risposta corretta può essere contrassegnata per indicare che la risposta selezionata è quella corretta.</span><span class="sxs-lookup"><span data-stu-id="dfb53-118">The correct answer can be marked to indicate that the selected answer is the correct one.</span></span> <span data-ttu-id="dfb53-119">Questo può essere utilizzato per assegnare punteggio nel questionario.</span><span class="sxs-lookup"><span data-stu-id="dfb53-119">This can be used for scoring the questionnaire.</span></span>  
-8. <span data-ttu-id="dfb53-120">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="dfb53-120">In the Answer field, type a value.</span></span>
-    * <span data-ttu-id="dfb53-121">Continuare a creare opzioni di selezione della risposta per il gruppo di risposte.</span><span class="sxs-lookup"><span data-stu-id="dfb53-121">Continue to create answer selection options for the answer group.</span></span>  
-9. <span data-ttu-id="dfb53-122">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="dfb53-122">Click New.</span></span>
-10. <span data-ttu-id="dfb53-123">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="dfb53-123">In the Points field, enter a number.</span></span>
-11. <span data-ttu-id="dfb53-124">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="dfb53-124">In the Answer field, type a value.</span></span>
-12. <span data-ttu-id="dfb53-125">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="dfb53-125">Click New.</span></span>
-13. <span data-ttu-id="dfb53-126">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="dfb53-126">In the Points field, enter a number.</span></span>
-14. <span data-ttu-id="dfb53-127">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="dfb53-127">In the Answer field, type a value.</span></span>
-15. <span data-ttu-id="dfb53-128">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="dfb53-128">Click New.</span></span>
-16. <span data-ttu-id="dfb53-129">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="dfb53-129">In the Points field, enter a number.</span></span>
-17. <span data-ttu-id="dfb53-130">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="dfb53-130">In the Answer field, type a value.</span></span>
-18. <span data-ttu-id="dfb53-131">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="dfb53-131">Click New.</span></span>
-19. <span data-ttu-id="dfb53-132">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="dfb53-132">In the Points field, enter a number.</span></span>
-20. <span data-ttu-id="dfb53-133">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="dfb53-133">In the Answer field, type a value.</span></span>
-21. <span data-ttu-id="dfb53-134">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="dfb53-134">Close the page.</span></span>
-22. <span data-ttu-id="dfb53-135">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="dfb53-135">Close the page.</span></span>
+## <a name="create-an-answer-group"></a><span data-ttu-id="45656-107">Creare un gruppo di risposte</span><span class="sxs-lookup"><span data-stu-id="45656-107">Create an answer group</span></span>
+1. <span data-ttu-id="45656-108">Andare a Questionario > Progettazione > Gruppi di risposte.</span><span class="sxs-lookup"><span data-stu-id="45656-108">Go to Questionnaire > Design > Answer groups.</span></span>
+2. <span data-ttu-id="45656-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="45656-109">Click New.</span></span>
+3. <span data-ttu-id="45656-110">Digitare un valore nel campo Gruppo di risposte.</span><span class="sxs-lookup"><span data-stu-id="45656-110">In the Answer group field, type a value.</span></span>
+4. <span data-ttu-id="45656-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="45656-111">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="45656-112">Utilizzare la funzionalità dei parametri casuali per posizionare in modo casuale le risposte un ordine diverso ogni volta che il gruppo di risposte viene utilizzato per una domanda.</span><span class="sxs-lookup"><span data-stu-id="45656-112">Use the Randomize functionality to randomly place the answers in a different order each time the answer group is used for a question.</span></span>  
+5. <span data-ttu-id="45656-113">Fare clic su Risposta.</span><span class="sxs-lookup"><span data-stu-id="45656-113">Click Answer.</span></span>
+6. <span data-ttu-id="45656-114">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="45656-114">Click New.</span></span>
+    * <span data-ttu-id="45656-115">Un numero progressivo controlla l'ordine in cui le risposte vengono visualizzate, a meno che l'opzione Parametri casuali non sia selezionata per il gruppo di risposte.</span><span class="sxs-lookup"><span data-stu-id="45656-115">Sequence number controls the order in which the answers are displayed, unless Randomize is selected for the Answer group.</span></span>  
+    * <span data-ttu-id="45656-116">Alle risposte possono essere assegnati punti da utilizzare per l'assegnazione di punteggio nel questionario.</span><span class="sxs-lookup"><span data-stu-id="45656-116">Points can be awarded to answers for use in scoring the questionnaire.</span></span>  
+7. <span data-ttu-id="45656-117">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="45656-117">In the Points field, enter a number.</span></span>
+    * <span data-ttu-id="45656-118">La risposta corretta può essere contrassegnata per indicare che la risposta selezionata è quella corretta.</span><span class="sxs-lookup"><span data-stu-id="45656-118">The correct answer can be marked to indicate that the selected answer is the correct one.</span></span> <span data-ttu-id="45656-119">Questo può essere utilizzato per assegnare punteggio nel questionario.</span><span class="sxs-lookup"><span data-stu-id="45656-119">This can be used for scoring the questionnaire.</span></span>  
+8. <span data-ttu-id="45656-120">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="45656-120">In the Answer field, type a value.</span></span>
+    * <span data-ttu-id="45656-121">Continuare a creare opzioni di selezione della risposta per il gruppo di risposte.</span><span class="sxs-lookup"><span data-stu-id="45656-121">Continue to create answer selection options for the answer group.</span></span>  
+9. <span data-ttu-id="45656-122">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="45656-122">Click New.</span></span>
+10. <span data-ttu-id="45656-123">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="45656-123">In the Points field, enter a number.</span></span>
+11. <span data-ttu-id="45656-124">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="45656-124">In the Answer field, type a value.</span></span>
+12. <span data-ttu-id="45656-125">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="45656-125">Click New.</span></span>
+13. <span data-ttu-id="45656-126">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="45656-126">In the Points field, enter a number.</span></span>
+14. <span data-ttu-id="45656-127">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="45656-127">In the Answer field, type a value.</span></span>
+15. <span data-ttu-id="45656-128">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="45656-128">Click New.</span></span>
+16. <span data-ttu-id="45656-129">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="45656-129">In the Points field, enter a number.</span></span>
+17. <span data-ttu-id="45656-130">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="45656-130">In the Answer field, type a value.</span></span>
+18. <span data-ttu-id="45656-131">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="45656-131">Click New.</span></span>
+19. <span data-ttu-id="45656-132">Nel campo Punti immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="45656-132">In the Points field, enter a number.</span></span>
+20. <span data-ttu-id="45656-133">Digitare un valore nel campo Risposta.</span><span class="sxs-lookup"><span data-stu-id="45656-133">In the Answer field, type a value.</span></span>
+21. <span data-ttu-id="45656-134">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="45656-134">Close the page.</span></span>
+22. <span data-ttu-id="45656-135">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="45656-135">Close the page.</span></span>
 
-## <a name="create-the-question"></a><span data-ttu-id="dfb53-136">Creare la domanda</span><span class="sxs-lookup"><span data-stu-id="dfb53-136">Create the question</span></span>
-1. <span data-ttu-id="dfb53-137">Andare a Questionario > Progettazione > Domande.</span><span class="sxs-lookup"><span data-stu-id="dfb53-137">Go to Questionnaire > Design > Questions.</span></span>
-2. <span data-ttu-id="dfb53-138">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="dfb53-138">Click New.</span></span>
-3. <span data-ttu-id="dfb53-139">Utilizzare il campo Tipo per raggruppare domande correlate.</span><span class="sxs-lookup"><span data-stu-id="dfb53-139">Use the Type field to group related questions together.</span></span>
-    * <span data-ttu-id="dfb53-140">È possibile utilizzare i tipi di input casella di controllo, pulsante alternativo o casella combinata per le domande chiuse.</span><span class="sxs-lookup"><span data-stu-id="dfb53-140">You can use input types of Check box, Alternative button, or Combo box for closed-ended questions.</span></span>  
-4. <span data-ttu-id="dfb53-141">Nel campo Tipo di input selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="dfb53-141">In the Input type field, select an option.</span></span>
-5. <span data-ttu-id="dfb53-142">Nel campo Gruppo di risposte immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="dfb53-142">In the Answer group field, enter or select a value.</span></span>
-6. <span data-ttu-id="dfb53-143">Digitare un valore nel campo Testo.</span><span class="sxs-lookup"><span data-stu-id="dfb53-143">In the Text field, type a value.</span></span>
+## <a name="create-the-question"></a><span data-ttu-id="45656-136">Creare la domanda</span><span class="sxs-lookup"><span data-stu-id="45656-136">Create the question</span></span>
+1. <span data-ttu-id="45656-137">Andare a Questionario > Progettazione > Domande.</span><span class="sxs-lookup"><span data-stu-id="45656-137">Go to Questionnaire > Design > Questions.</span></span>
+2. <span data-ttu-id="45656-138">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="45656-138">Click New.</span></span>
+3. <span data-ttu-id="45656-139">Utilizzare il campo Tipo per raggruppare domande correlate.</span><span class="sxs-lookup"><span data-stu-id="45656-139">Use the Type field to group related questions together.</span></span>
+    * <span data-ttu-id="45656-140">È possibile utilizzare i tipi di input casella di controllo, pulsante alternativo o casella combinata per le domande chiuse.</span><span class="sxs-lookup"><span data-stu-id="45656-140">You can use input types of Check box, Alternative button, or Combo box for closed-ended questions.</span></span>  
+4. <span data-ttu-id="45656-141">Nel campo Tipo di input selezionare un'opzione.</span><span class="sxs-lookup"><span data-stu-id="45656-141">In the Input type field, select an option.</span></span>
+5. <span data-ttu-id="45656-142">Nel campo Gruppo di risposte immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="45656-142">In the Answer group field, enter or select a value.</span></span>
+6. <span data-ttu-id="45656-143">Digitare un valore nel campo Testo.</span><span class="sxs-lookup"><span data-stu-id="45656-143">In the Text field, type a value.</span></span>
 
 
 

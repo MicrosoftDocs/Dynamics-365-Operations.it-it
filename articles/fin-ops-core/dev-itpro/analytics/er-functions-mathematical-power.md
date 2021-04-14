@@ -2,7 +2,6 @@
 title: Funzione ER POWER
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione POWER della creazione di report elettronici (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,52 +15,52 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c45e7f9b47a3f0ff4445b1dd160def0ada3a56e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ce1f4c735f815c46003ded35156bb47febf177a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570424"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750158"
 ---
-# <a name="power-er-function"></a><span data-ttu-id="ed367-103">Funzione ER POWER</span><span class="sxs-lookup"><span data-stu-id="ed367-103">POWER ER function</span></span>
+# <a name="power-er-function"></a><span data-ttu-id="59521-103">Funzione ER POWER</span><span class="sxs-lookup"><span data-stu-id="59521-103">POWER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ed367-104">La funzione `POWER` restituisce un valore *Reale* che rappresenta il risultato dell'aumento del numero positivo specificato alla potenza specificata.</span><span class="sxs-lookup"><span data-stu-id="ed367-104">The `POWER` function returns a *Real* value that represents the result of raising the specified positive number to the specified power.</span></span>
+<span data-ttu-id="59521-104">La funzione `POWER` restituisce un valore *Reale* che rappresenta il risultato dell'aumento del numero positivo specificato alla potenza specificata.</span><span class="sxs-lookup"><span data-stu-id="59521-104">The `POWER` function returns a *Real* value that represents the result of raising the specified positive number to the specified power.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ed367-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="ed367-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="59521-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="59521-105">Syntax</span></span>
 
 ```vb
 POWER (number, power)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="ed367-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="ed367-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="59521-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="59521-106">Arguments</span></span>
 
-<span data-ttu-id="ed367-107">`number`: *Reale* o *Intero*</span><span class="sxs-lookup"><span data-stu-id="ed367-107">`number`: *Real* or *Integer*</span></span>
+<span data-ttu-id="59521-107">`number`: *Reale* o *Intero*</span><span class="sxs-lookup"><span data-stu-id="59521-107">`number`: *Real* or *Integer*</span></span>
 
-<span data-ttu-id="ed367-108">Un valore numerico che deve essere elevato alla potenza specificata.</span><span class="sxs-lookup"><span data-stu-id="ed367-108">A numeric value that must be raised to the specified power.</span></span>
+<span data-ttu-id="59521-108">Un valore numerico che deve essere elevato alla potenza specificata.</span><span class="sxs-lookup"><span data-stu-id="59521-108">A numeric value that must be raised to the specified power.</span></span>
 
-<span data-ttu-id="ed367-109">`power`: *Reale* o *Intero*</span><span class="sxs-lookup"><span data-stu-id="ed367-109">`power`: *Real* or *Integer*</span></span>
+<span data-ttu-id="59521-109">`power`: *Reale* o *Intero*</span><span class="sxs-lookup"><span data-stu-id="59521-109">`power`: *Real* or *Integer*</span></span>
 
-<span data-ttu-id="ed367-110">Un valore numerico che rappresenta la potenza specifica.</span><span class="sxs-lookup"><span data-stu-id="ed367-110">A numeric value that represents the specific power.</span></span>
+<span data-ttu-id="59521-110">Un valore numerico che rappresenta la potenza specifica.</span><span class="sxs-lookup"><span data-stu-id="59521-110">A numeric value that represents the specific power.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="ed367-111">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="ed367-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="59521-111">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="59521-111">Return values</span></span>
 
-<span data-ttu-id="ed367-112">*Reale*</span><span class="sxs-lookup"><span data-stu-id="ed367-112">*Real*</span></span>
+<span data-ttu-id="59521-112">*Reale*</span><span class="sxs-lookup"><span data-stu-id="59521-112">*Real*</span></span>
 
-<span data-ttu-id="ed367-113">Il valore numerico risultante.</span><span class="sxs-lookup"><span data-stu-id="ed367-113">The resulting numeric value.</span></span>
+<span data-ttu-id="59521-113">Il valore numerico risultante.</span><span class="sxs-lookup"><span data-stu-id="59521-113">The resulting numeric value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="ed367-114">Esempio 1</span><span class="sxs-lookup"><span data-stu-id="ed367-114">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="59521-114">Esempio 1</span><span class="sxs-lookup"><span data-stu-id="59521-114">Example 1</span></span>
 
-<span data-ttu-id="ed367-115">`POWER (10, 2)` restituisce **100**.</span><span class="sxs-lookup"><span data-stu-id="ed367-115">`POWER (10, 2)` returns **100**.</span></span>
+<span data-ttu-id="59521-115">`POWER (10, 2)` restituisce **100**.</span><span class="sxs-lookup"><span data-stu-id="59521-115">`POWER (10, 2)` returns **100**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="ed367-116">Esempio 2</span><span class="sxs-lookup"><span data-stu-id="ed367-116">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="59521-116">Esempio 2</span><span class="sxs-lookup"><span data-stu-id="59521-116">Example 2</span></span>
 
-<span data-ttu-id="ed367-117">`POWER (4, 0.5)` restituisce **2**.</span><span class="sxs-lookup"><span data-stu-id="ed367-117">`POWER (4, 0.5)` returns **2**.</span></span>
+<span data-ttu-id="59521-117">`POWER (4, 0.5)` restituisce **2**.</span><span class="sxs-lookup"><span data-stu-id="59521-117">`POWER (4, 0.5)` returns **2**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ed367-118">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="ed367-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="59521-118">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="59521-118">Additional resources</span></span>
 
-[<span data-ttu-id="ed367-119">Funzioni matematiche</span><span class="sxs-lookup"><span data-stu-id="ed367-119">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+[<span data-ttu-id="59521-119">Funzioni matematiche</span><span class="sxs-lookup"><span data-stu-id="59521-119">Mathematical functions</span></span>](er-functions-category-mathematical.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
