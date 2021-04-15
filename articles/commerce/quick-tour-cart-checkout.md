@@ -2,11 +2,9 @@
 title: Panoramica delle pagine del checkout e del carrello
 description: Questo argomento fornisce una panoramica delle pagine carrello e checkout in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f7c708aa7f1a858e78cdbda809b90b944606022
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244793"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792245"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Panoramica delle pagine di checkout e del carrello
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica delle pagine carrello e checkout in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 La pagina carrello di un sito Web di e-Commerce visualizza tutti gli articoli che un cliente ha aggiunto al carrello. La pagina carrello viene generata utilizzando il modulo Carrello. Il modulo Carrello è un contenitore che ospita tutti i moduli necessari per visualizzare gli articoli nel carrello. Il modulo Carrello può anche utilizzare altri moduli per visualizzare un riepilogo dell'ordine ed eventuali codici promozionali applicati all'ordine cliente.
 

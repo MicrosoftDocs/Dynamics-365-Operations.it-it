@@ -2,11 +2,9 @@
 title: Nascondere le modalità di consegna non vettore dalle opzioni di spedizione nel POS
 description: In questo argomento viene descritta un'opzione di configurazione che può impedire la visualizzazione delle modalità di consegna non vettore per la selezione quando gli ordini di spedizione vengono creati nell'applicazione POS.
 author: hhainesms
-manager: annbe
 ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: c06dfa697e3e0eab7a7f4183da9f178af818a6d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a5f08fc86dc093fd0ead219b808fa720a43f6b6b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206164"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797120"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>Nascondere le modalità di consegna non vettore dalle opzioni di spedizione nel POS
 

@@ -2,11 +2,9 @@
 title: Creare un cliente predefinito
 description: Questo argomento descrive come creare un cliente predefinito da utilizzare durante la creazione di un canale in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f988732549ce82919f02c87b320623d8d4218735
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477902"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799181"
 ---
 # <a name="create-a-default-customer"></a>Creare un cliente predefinito
 
@@ -67,14 +65,14 @@ L'immagine seguente mostra un esempio di rubrica.
 
 ![Rubrica](media/address-book.png)
 
-## <a name="create-a-default-customer"></a>Creare un cliente predefinito
+## <a name="create-a-default-customer&quot;></a>Creare un cliente predefinito
 
 Per creare un cliente predefinito, completare i passaggi seguenti.
 
 1. Nel pannello di navigazione, andare a **Moduli \> Vendita al dettaglio e commercio \> Clienti \> Tutti i clienti**.
 1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Nell'elenco a discesa **Tipo** selezionare "Persona".
-1. Nell'elenco a discesa **Conto cliente**, selezionare o inserire un numero di conto (ad esempio "100001").
+1. Nell'elenco a discesa **Tipo** selezionare &quot;Persona&quot;.
+1. Nell'elenco a discesa **Conto cliente**, selezionare o inserire un numero di conto (ad esempio &quot;100001").
 1. Nell'elenco a discesa **Nome**, selezionare o inserire un nome (ad esempio, "Predefinito").
 1. Nell'elenco a discesa **Secondo nome**, selezionare o inserire un nome (ad esempio, "Al dettaglio").
 1. Nell'elenco a discesa **Cognome**, selezionare o inserire un nome (ad esempio, "Cliente").

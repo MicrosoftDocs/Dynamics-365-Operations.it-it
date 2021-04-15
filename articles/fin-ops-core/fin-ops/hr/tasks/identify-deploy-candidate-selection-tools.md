@@ -2,7 +2,6 @@
 title: Identificare e distribuire strumenti per la selezione dei candidati
 description: Individuare un pool qualificato di candidati per coprire le posizioni aperte può essere difficile, in particolare quando una posizione richiede un set univoco di competenze.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58a4d0d6a2ccb79d602bcb8c236a6740d38ee1cd
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a9e0b300692d817024455c669c226a81e601366e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569761"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751912"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificare e distribuire strumenti per la selezione dei candidati
 

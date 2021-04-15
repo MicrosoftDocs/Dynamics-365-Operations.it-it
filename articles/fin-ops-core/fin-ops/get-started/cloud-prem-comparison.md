@@ -2,7 +2,6 @@
 title: Confronto tra funzionalità cloud e locali
 description: Questo argomento fornisce informazioni sulla disponibilità delle funzionalità cloud e locali supportate.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 52dfff77fa7d14e560ce20596a4d79edeadb5390
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566638"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744053"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Confronto tra funzionalità cloud e locali
 
@@ -43,9 +42,9 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformità e certificazioni        |                                                                                           | Sì       | Sì             |
 |                                      | Certificazione SOC 1 tipo 1                                                                | Sì       | Nessuno              |
-| Gestione dati e integrazione      |                                                                                           | Sì       | Sì             
+| Gestione dati e integrazione      |                                                                                           | Sì       | Sì             |
 |                                      | Esportazione di dati nel proprio magazzino dati                                                    | Sì       | Sì             |
-|                                      | Attivazione dell'esportazione di aggiornamenti incrementali in un'entità di dati                                 | Sì       | Sì              |
+|                                      | Attivazione dell'esportazione di aggiornamenti incrementali in un'entità di dati                                 | Sì       | Sì             |
 |                                      | Integrazioni di dati                                                                         | Sì       | Sì             |
 | Gestione documenti                  |                                                                                           | Sì       | Sì             |
 | Gestione finanziaria                 |                                                                                           | Sì       | Sì             |
@@ -62,7 +61,7 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 |                                      | Aree di lavoro analitiche                                                                     | Sì       | Nessuno              |
 |                                      | Processo aziendale intelligente: suggerimenti                                             | Sì       | Nessuna              |
 |                                      | Creazione di report Power BI con OData utilizzando il desktop Power BI o gli strumenti PowerQuery di Excel    | Sì       | Nessuna              |
-|                                      | SQL Server Reporting Services (SSRS) supporta la scalabilità orizzontale                                 | Sì       | Nessuno              |
+|                                      | SQL Server Reporting Services (SSRS) supporta la scalabilità orizzontale                                 | Sì       | Sì             |
 |                                      | La telemetria viene trasferita nel cloud                                                   | Sì       | Nessuno              |
 | Lifecycle Services                   |                                                                                           | Sì       | Sì             |
 |                                      | Processi aziendali configurabili                                                           | Sì       | Nessuno              |
@@ -85,7 +84,7 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 
 | **Area**                | **Funzionalità**             | **Cloud** | **Locale** |
 |-------------------------|-------------------|-----------|-----------------|
-| Gestione cespiti                     |                                                                                           | Sì       | Nessuno |
+| Gestione cespiti                     |                                                                                           | Sì       | Nessuno              |
 | Conformità e certificazioni        |                                                                                           | Sì       | Sì             |
 |                                      | Certificazione SOC 1 tipo 1                                                                | Sì       | Nessuna              |
 | Contabilità industriale                      |                                                                                           | Sì       | Sì             |
@@ -96,7 +95,7 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 | Gestione dati e integrazione      |                                                                                           | Sì       | Sì             |
 |                                      | Estensione basata sulla configurazione                                                            | Sì       | No              |
 |                                      | Esportazione di dati nel proprio magazzino dati                                                    | Sì       | Sì             |
-|                                      | Attivazione dell'esportazione di aggiornamenti incrementali in un'entità di dati                                 | Sì       | Sì              |
+|                                      | Attivazione dell'esportazione di aggiornamenti incrementali in un'entità di dati                                 | Sì       | Sì             |
 |                                      | Integrazioni di dati                                                                         | Sì       | Sì             |
 | Gestione documenti                  |                                                                                           | Sì       | Sì             |
 | ?                                 |                                                                                           | Sì       | Nessuno              |
@@ -111,8 +110,8 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 |                                      | Aree di lavoro analitiche                                                                     | Sì       | Nessuno              |
 |                                      | Processo aziendale intelligente: suggerimenti                                             | Sì       | Nessuna              |
 |                                      | Creazione di report Power BI con OData utilizzando il desktop Power BI o gli strumenti PowerQuery di Excel    | Sì       | Nessuna              |
-|                                      | SQL Server Reporting Services (SSRS) supporta la scalabilità orizzontale                                 | Sì       | No              |
-|                                      | La telemetria viene trasferita nel cloud                                                   | Sì       | No              |
+|                                      | SQL Server Reporting Services (SSRS) supporta la scalabilità orizzontale                                 | Sì       | Sì             |
+|                                      | La telemetria viene trasferita nel cloud                                                   | Sì       | Nessuno              |
 | Gestione inventario                 |                                                                                           | Sì       | Sì             |
 | Lifecycle Services                   |                                                                                           | Sì       | Sì             |
 |                                      | Processi aziendali configurabili                                                           | Sì       | No              |

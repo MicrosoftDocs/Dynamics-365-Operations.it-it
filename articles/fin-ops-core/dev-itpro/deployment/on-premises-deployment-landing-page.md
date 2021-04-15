@@ -2,8 +2,7 @@
 title: Home page delle distribuzioni locali
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564062"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749307"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page delle distribuzioni locali
 
@@ -38,14 +37,16 @@ ms.locfileid: "5564062"
 
 ## <a name="onboard"></a>Inserisci
 - [Impostare progetti locali in Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Impostare e distribuire ambienti locali (aggiornamento piattaforma 12 e successive)](setup-deploy-on-premises-pu12.md)
+- [Impostare e distribuire ambienti locali (aggiornamento piattaforma 41 e successive)](setup-deploy-on-premises-pu41.md)
+- [Impostare e distribuire gli ambienti locali (Platform update da 12 a 40)](setup-deploy-on-premises-pu12.md)
 - [Installare le stampanti di rete in ambienti locali](../analytics/install-network-printer-onprem.md)
 - [Configurare SQL Server Reporting Services per le distribuzioni locali](../analytics/configure-ssrs-on-premises.md)
 - [Sviluppare e distribuire modelli personalizzati in ambienti locali](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Utilizzare la distribuzione locale
+- [Configurare la disponibilità elevata per i nodi di SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [Configurare la gestione dei documenti](../../fin-ops/organization-administration/configure-document-management.md)
-- [Importare configurazioni per la creazione di report elettronici (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Importare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Generazione, pubblicazione e stampa di documenti nelle distribuzioni locali](../analytics/printing-capabilities-on-premises.md)
 - [Configurare proxy per ambienti locali](onprem-reverseproxy.md)
 - [Impostare il supporto tecnico per le app Finance and Operations](../lifecycle-services/support-experience.md)
