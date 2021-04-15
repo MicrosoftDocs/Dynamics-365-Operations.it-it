@@ -2,11 +2,9 @@
 title: Moduli e pagine gestione conti
 description: In questo argomento vengono descritti le pagine e i moduli di gestione account in Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206633"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796296"
 ---
 # <a name="account-management-pages-and-modules"></a>Moduli e pagine gestione conti
 
@@ -51,9 +49,9 @@ La pagina Storico ordini utilizza il modulo Storico ordini per visualizzare tutt
 
 La pagina Dettagli ordine fornisce informazioni dettagliate per ogni ordine ed è accessibile dalla pagina Storico ordini. Utilizza il modulo Dettagli ordine, che richiede l'ID vendita o l'ID transazione per recuperare i dettagli dell'ordine.
 
-### <a name="user-profile-page"></a>Pagina Profilo utente
+### <a name="my-profile-page"></a>Pagina profilo
 
-La pagina Profilo utente visualizza i dettagli sull'account utente, ad esempio un nome e un indirizzo di posta elettronica dell'utente. Utilizza i dettagli del profilo utente e i moduli di modifica del profilo utente. L'indirizzo di posta elettronica non può essere rimosso, ma può essere modificato. La pagina del profilo utente mostra anche le preferenze dell'utente che consentono di attivare o disattivare alcune funzionalità come la personalizzazione degli elenchi dei suggerimenti. 
+La pagina Profilo personale mostra i dettagli del profilo dell'account utente utilizzando il modulo del profilo dell'account. La pagina mostra l'indirizzo e-mail associato all'account utente, nonché le preferenze impostate per l'account. Se si impostano attributi cliente personalizzati, anche la sezione "Informazioni aggiuntive" visualizzerà tali attributi. Gli utenti possono modificare il proprio nome, le preferenze o le informazioni aggiuntive (se disponibili).
 
 ### <a name="user-address-page"></a>Pagina Indirizzi utente
 

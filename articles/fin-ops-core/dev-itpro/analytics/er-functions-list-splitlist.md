@@ -2,8 +2,7 @@
 title: Funzione ER SPLITLIST
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione SPLITLIST della creazione di report elettronici (ER).
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559140"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745571"
 ---
 # <a name="splitlist-er-function"></a>Funzione ER SPLITLIST
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559140"
 
 La funzione `SPLITLIST` divide l'elenco specificato in elenchi secondari (o batch), ciascuno dei quali contiene il numero specificato di record. Quindi restituisce il risultato come nuovo valore *Elenco di record* costituito dai batch.
 
-## <a name="syntax"></a>Sintassi
+## <a name="syntax-1"></a>Sintassi 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Sintassi 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argomenti
@@ -44,6 +49,10 @@ Il percorso valido di un'origine dati del tipo di dati *Elenco di record*.
 `number`: *Intero*
 
 Il numero massimo di record per batch.
+
+`on-demand reading flag`: *Booleano*
+
+Un valore *Booleano* che specifica se gli elementi degli elenchi secondari devono essere generati su richiesta.
 
 ## <a name="return-values"></a>Valori restituiti
 
@@ -62,6 +71,8 @@ L'elenco di batch restituito contiene i seguenti elementi:
 - **BatchNumber:** *Intero*
 
     Il numero del batch corrente nell'elenco restituito.
+
+Quando il flag di lettura su richiesta è impostato su **True**, gli elenchi secondari vengono generati su richiesta, il che consente una riduzione del consumo di memoria ma può causare un degrado delle prestazioni se gli elementi non vengono utilizzati in sequenza.
 
 ## <a name="example"></a>Esempio
 

@@ -1,8 +1,7 @@
 ---
-title: Panoramica delle risorse umane
-description: Risorse umane consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell'organizzazione. Fornisce inoltre una struttura per il personale delle risorse umane per gestire le aree di supervisione. Queste aree prevedono la selezione e l'assunzione di dipendenti, l'amministrazione di benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche.
+title: Panoramica Human Resources
+description: Human resources semplifica le attività di conservazione dei record di routine, automatizza i processi relativi al personale dell'organizzazione, nonché fornisce una struttura per il personale per le risorse umane (HR) per gestire le aree di supervisione.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566700"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752182"
 ---
-# <a name="human-resources-overview"></a>Panoramica delle risorse umane
+# <a name="human-resources-overview"></a>Panoramica Human Resources
 
 [!include [banner](../includes/banner.md)]
 

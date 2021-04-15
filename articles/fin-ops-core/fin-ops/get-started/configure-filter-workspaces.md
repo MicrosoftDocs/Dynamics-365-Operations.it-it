@@ -2,7 +2,6 @@
 title: Configurare e filtrare aree di lavoro
 description: Questo articolo fornisce una panoramica sul modo in cui configurare e filtrare le aree di lavoro.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4f587608b03512aabce1d9b76ec4b9d6ec9227b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559434"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744029"
 ---
 # <a name="configure-and-filter-workspaces"></a>Configurare e filtrare aree di lavoro
 
@@ -55,9 +54,9 @@ Quando si fa clic per aprire il filtro, verranno visualizzate varie opzioni.
 
 Selezionare un'opzione per filtrare l'area di lavoro in base a tale opzione.
 
-### <a name="workspace-section-filters"></a>Filtri sezione dell'area di lavoro
+### <a name="workspace-section-filters&quot;></a>Filtri sezione dell'area di lavoro
 
-Se per le singole sezioni dell'area di lavoro sono presenti filtri, è possibile filtrare separatamente ciascuna sezione. Nella figura seguente il filtro (ovvero il campo che contiene il testo "Filtro") è un esempio di un filtro del campo a testo libero.
+Se per le singole sezioni dell'area di lavoro sono presenti filtri, è possibile filtrare separatamente ciascuna sezione. Nella figura seguente il filtro (ovvero il campo che contiene il testo &quot;Filtro") è un esempio di un filtro del campo a testo libero.
 
 [![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 

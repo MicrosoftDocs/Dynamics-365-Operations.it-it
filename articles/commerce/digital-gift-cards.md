@@ -2,11 +2,9 @@
 title: Gift card digitali per l'e-commerce
 description: Questo argomento descrive il funzionamento delle gift card digitali nell'implementazione dell'e-commerce di Microsoft Dynamics 365 Commerce. Fornisce inoltre una panoramica di importanti passaggi di configurazione.
 author: anupamar-ms
-manager: annbe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: cbfa84770e4671fdf289e168345d8b815caee4f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230560"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792873"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Gift card digitali per l'e-commerce
 
