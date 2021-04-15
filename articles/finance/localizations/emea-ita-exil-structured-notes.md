@@ -2,11 +2,9 @@
 title: Gestione note avanzate
 description: Questo argomento spiega come impostare e stampare note predefinite per clienti, fornitori e prodotti.
 author: ilkond
-manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCROrderNotes
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 460ea65292e46669bb44addd32f107d93e03096f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 58d3fc32e3ad1f9293de58543626723e6dfa31f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224627"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814926"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 

@@ -2,11 +2,9 @@
 title: Plafond fiscale
 description: Questo argomento spiega come impostare e lavorare con il plafond fiscale, un processo di esenzione fiscale.
 author: ilkond
-manager: AnnBe
 ms.date: 02/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: edf0574fa6171ad3e45e202c81b3780e45030cfa
-ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
+ms.openlocfilehash: e7a21894848e898ae7ba58afa1a74e12d6b1a905
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5557468"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814924"
 ---
 # <a name="tax-plafond"></a>Plafond fiscale
 

@@ -1,12 +1,10 @@
 ---
-title: Configurare i nomi di campo app nell'app di magazzino
-description: In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app in Dynamics 365 Supply Chain Management.
+title: Configurare i campi per l'app per dispositivi mobili Gestione magazzino
+description: In questo argomento viene descritto come definire e configurare i nomi e le priorità dei campi mostrato nell'app per dispositivi mobili Gestione magazzino.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232961"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808824"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Configurare i nomi di campo app nell'app di magazzino
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurare i campi per l'app per dispositivi mobili Gestione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app in Dynamics 365 Supply Chain Management. 
+In questo argomento viene descritto come definire e configurare i nomi e le priorità dei campi mostrato nell'app per dispositivi mobili Gestione magazzino.
 
 > [!NOTE]
-> Questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Magazzino. Per informazioni dettagliate su come configurare la connessione in Magazzino, fare riferimento all'esercitazione [Panoramica sull'installazione e sulla configurazione dell'app del magazzino](install-configure-warehousing-app.md).
+> Questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. L'app per dispositivi mobili Gestione magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità dei campi dell'app per dispositivi mobili Gestione magazzino e viene descritto come utilizzarli.
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurare i nomi di campo dell'app Magazzino
 
@@ -142,7 +140,7 @@ I metadati rimanenti, ad esempio l'ubicazione, non verranno visualizzati nella p
 <a name="additional-resources"></a>Risorse aggiuntive
 --------
 
-[Panoramica sull'installazione e sulla configurazione dell'app di magazzino](install-configure-warehousing-app.md)
+[Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

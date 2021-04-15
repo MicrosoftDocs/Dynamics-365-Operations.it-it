@@ -2,11 +2,9 @@
 title: Configurare e gestire la registrazione del database
 description: Puoi tenere traccia delle modifiche a tabelle e campi in Dynamics 365 Human Resources con la registrazione del database.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467651"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801337"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurare e gestire la registrazione del database
 
@@ -68,7 +66,22 @@ Per migliorare le prestazioni, limitare le voci del registro selezionando campi 
 Puoi anche usare la procedura guidata **Registrazione modifiche database** per impostare la registrazione del database. La procedura guidata fornisce un modo flessibile per impostare la registrazione per tabelle o campi.
 
 1. Vai ad **Amministrazione sistema> Collegamenti> Database > Impostazione registro database**. Seleziona **Nuovo** per avviare la procedura guidata **Registrazione modifiche database**.
-2. Completare la procedura guidata.
+2. Selezionare **Avanti**. 
+3. Nella pagina **Tabelle e campi** della procedura guidata, seleziona le tabelle e i campi in cui vuoi abilitare la registrazione del database e seleziona **Avanti**.
+
+   > [!Note]
+   > La registrazione del database non è disponibile su tutte le tabelle nel database Human Resources La selezione di **Mostra tutte le tabelle** sotto l'elenco espande l'elenco di tabelle e campi per mostrare tutte le tabelle di database per le quali è disponibile la registrazione del database, ma questo sarà un sottoinsieme dell'elenco completo delle tabelle di database.
+
+4. Nella pagina **Tipi di modifica** della procedura guidata, seleziona le operazioni sui dati per le quali vuoi tenere traccia delle modifiche per ciascuna delle tabelle e dei campi, quindi seleziona **Avanti**. Vedere la tabella seguente per una descrizione delle operazioni sui dati disponibili per la registrazione.
+5. Nella pagina **Fine** rivedi le modifiche che verranno apportate e seleziona **Fine**.
+
+| Operazione | descrizione |
+| -- | -- |
+| Tieni traccia delle nuove transazioni | Crea un registro per i nuovi record che vengono creati nella tabella. |
+| Aggiornamento | Creare un registro per gli aggiornamenti ai record della tabella o per gli aggiornamenti ai campi selezionati individualmente nella tabella. Se selezioni di registrare gli aggiornamenti per la tabella, viene creato un record di registro ogni volta che viene effettuato un aggiornamento a qualsiasi campo di qualsiasi record nella tabella. Se selezioni di registrare gli aggiornamenti per campi specifici, viene creato un record di registro solo quando vengono effettuati aggiornamenti a quei campi dei record di tabella. |
+| CANC | Crea un registro per i record eliminati dalla tabella. |
+| Rinomina chiave | Crea un record di registro quando una chiave di tabella viene rinominata. |
+
 
 ## <a name="clean-up-database-logs"></a>Pulisci i log del database
 

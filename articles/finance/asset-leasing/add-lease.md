@@ -2,11 +2,9 @@
 title: Aggiungere o copiare leasing (anteprima)
 description: In questo argomento viene descritto come creare un nuovo leasing inserendo le relative informazioni in Leasing cespite o copiando le informazioni da un leasing esistente.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 325a1b7948f3cb8033fa93b7c36f1f1f6b7dbb27
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b495c9a02a872d4b360b5f7216b1db3f7d366daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220013"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814154"
 ---
 # <a name="add-or-copy-leases-preview"></a>Aggiungere o copiare leasing (anteprima)
 

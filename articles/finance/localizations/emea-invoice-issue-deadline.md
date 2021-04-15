@@ -2,11 +2,9 @@
 title: Scadenza emissione fattura
 description: In questo articolo viene illustrato come impostare i parametri per calcolare le date di scadenza per l'emissione di fatture cliente e fatture fornitore nell'Unione Europea (UE).
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7109fa574bd05884fab4a4159999ee89bffe6e84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 95505808bd7df29de97ff204a95fe294f293bb0c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212953"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814981"
 ---
 # <a name="invoice-issue-deadline"></a>Scadenza emissione fattura
 

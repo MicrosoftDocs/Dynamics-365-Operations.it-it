@@ -2,11 +2,9 @@
 title: Gerarchia dimensioni
 description: In questo argomento vengono fornite informazioni sulle gerarchie di dimensioni. È possibile utilizzare una gerarchia di dimensioni per definire la struttura di report, i criteri di costo e l'impostazione di sicurezza nella contabilità industriale.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217388"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810176"
 ---
 # <a name="dimension-hierarchy"></a>Gerarchia dimensioni
 
@@ -124,12 +122,13 @@ Una gerarchia di dimensioni che soddisfa i requisiti di reporting dell'organizza
 
 La gerarchia di dimensioni per il reporting può essere impostata come indicato di seguito.
 
-|                   | Intervalli membro di dimensione   |                         |
+**Intervalli membro di dimensione**
+
+|   Nodi           |   Membro di dimensione di inizio   |   Membro di dimensione di fine   |
 |-------------------|---------------------------|-------------------------|
-| **Nodi**         | **Membro di dimensione di inizio** | **Membro di dimensione di fine** |
 | Organizzazione      |                           |                         |
 | &nbsp;&nbsp;Amministratore         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Dati finanziari   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Dati finanziari   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;Risorse umane        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Produzione    |                           |                         |
@@ -146,12 +145,13 @@ Una gerarchia di dimensioni che soddisfa i requisiti di criteri può essere impo
 
 La gerarchia di dimensioni per i criteri può essere impostata come indicato di seguito.
 
-|                   | Intervalli membro di dimensione   |                         |
+**Intervalli membro di dimensione**
+
+|   Nodi           |   Membro di dimensione di inizio   |   Membro di dimensione di fine   |
 |-------------------|---------------------------|-------------------------|
-| **Nodi**         | **Membro di dimensione di inizio** | **Membro di dimensione di fine** |
 | Comportamento costo     |                           |                         |
 | &nbsp;&nbsp;Costo fisso    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Costo variabile | 40001                     | 40010                   |
+| &nbsp;&nbsp;Costo variabile | 40001                     | 40010                   |
 
 > [!NOTE]
 > Sotto **Intervalli membro di dimensione**, un nodo può contenere 1:_n_ intervalli membro di dimensione. È possibile inserire ID membro di dimensione non ancora esistenti come membri di dimensione. Questo comportamento rende la gerarchia resiliente per il futuro.  
@@ -297,9 +297,10 @@ Potenzialmente, tutti i responsabili potranno accedere ai dati aziendali altamen
 
 Una nuova scheda dettaglio **Utenti** è disponibile nella finestra di progettazione della gerarchia. È possibile inserire uno o più ID utente per ogni nodo della gerarchia.
 
-|                 | Utenti            | Intervalli membro di dimensione   |                         |
+**Utenti e intervalli membro di dimensione**
+
+|   Nodi         |   ID utente        |   Membro di dimensione di inizio   |   Membro di dimensione di fine   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Nodi**       | **ID utente**      | **Membro di dimensione di inizio** | **Membro di dimensione di fine** |
 | Organizzazione    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Amministratore         | aprile            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Dati finanziari   | Alicia           | CC002                     | CC003                   |

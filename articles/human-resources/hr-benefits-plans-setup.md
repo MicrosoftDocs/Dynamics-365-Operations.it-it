@@ -2,11 +2,9 @@
 title: Creare un piano di benefit
 description: Impostare piani di benefit in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d398da8fa53f39cfbdc3911d5acd0967f0c5d5b
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: da11799d3340798067fc03061159896f44750c77
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464280"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805732"
 ---
-# <a name="create-a-benefits-plan"></a>Creare un piano di benefit
+# <a name="create-a-benefit-plan"></a>Creare un piano di benefit
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -46,9 +44,8 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
    | **Programma** | Specifica un programma a cui assegnare facoltativamente il piano. |
    | **Pacchetto** | Specifica un pacchetto a cui assegnare facoltativamente il piano. |
    | **Generale** | Specifica se il piano è il piano generale dell'aggregazione a cui è assegnato. |
-   | **Stato** | Indica lo stato corrente del piano di benefit. Il valore predefinito è Attivo. Se si modifica lo stato in Inattivo, il piano non sarà disponibile come selezione durante l'iscrizione. |
    | **Ora e data di inizio validità** | Data e ora di inizio validità del piano. Il valore predefinito è la data di sistema corrente. |
-   | **Ora e data di fine validità** | Data e ora di fine validità del piano (lo stato è Inattivo). 31/12/2154 (che significa mai) è il valore predefinito. |
+   | **Ora e data di fine validità** | Data e ora di fine validità del piano. 31/12/2154 (che significa mai) è il valore predefinito. |
 
 4. Nella scheda **Configurazione**, specificare i valori per i seguenti campi, a seconda del tipo di piano che si sta creando:
 
@@ -56,18 +53,18 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
    | --- | --- | --- |
    | Medico (medico, dentale, visione, HMO) | COBRA | Specifica se il piano è idoneo per COBRA (Consolidated Omnibus Budget Reconciliation Act). |
    | Medico (medico, dentale, visione, HMO) | HIPAA | Specifica se il piano è idoneo per HIPAA (Health Insurance Portability and Accountability Act). |
-   | <ul><li>Medico (medico, dentale, visione, HMO)</li><li>Altro (PTO, Fitness)</li><li>Altro</li><li>Disabilità a lungo termine</li><li>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)</li><li>Risparmio (ad esempio, 401(k))</li><li>FSA</li></ul> | Lordo di imposte idoneo | Specifica se è possibile versare contributi per il piano prima dell'applicazione delle imposte. |
-   | <ul><li>Medico (medico, dentale, visione, HMO)</li><li>Altro (PTO, Fitness)</li><li>Disabilità a lungo termine</li><li>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)</li><li>Risparmio (ad esempio, 401(k))</li><li>FSA</li></ul> | Netto di imposte idoneo | Specifica se è possibile versare contributi per il piano dopo l'applicazione delle imposte. |
-   | <ul><li>Medico (medico, dentale, visione, HMO)</li><li>Altro (PTO, Fitness)</li><li>Disabilità a lungo termine</li><li>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)</li><li>Risparmio (ad esempio, 401(k))</li><li>FSA</li></ul> | Collaboratore | Specifica chi versa contributi per il piano: il dipendente, il datore di lavoro o entrambi. |
-   | <ul><li>Disabilità a lungo termine</li><li>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)</li></ul> | Copertura minima | L'importo minimo di copertura assicurativa richiesto per il piano. |
-   | <ul><li>Disabilità a lungo termine</li><li>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)</li></ul> | Copertura massima | L'importo massimo di copertura assicurativa richiesto per il piano. |
-   | <ul><li>Disabilità a lungo termine</li><li>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)</li></ul> | Usa incrementi di copertura | Specifica se convalidare che l'importo di copertura corrisponde a un importo incrementale valido. |
-   | <ul><li>Disabilità a lungo termine</li><li>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)</li></ul> | Importo incrementale | L'importo incrementale della copertura assicurativa per il piano. Ad esempio, se l'importo incrementale è 1.000, un dipendente non può avere $200.500 di assicurazione; il valore deve essere arrotondato a $201.000 o a $200.000. |
-   | <ul><li>Disabilità a lungo termine</li><li>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)</li></ul> | Direzione incrementale | Specifica la direzione di arrotondamento (per eccesso o difetto) quando l'importo di copertura non soddisfa il valore dell'importo incrementale. |
+   | Medico (medico, dentale, visione, HMO)<br><br>Altro (PTO, Fitness)<br><br>Altro<br><br>Disabilità a lungo termine<br><br>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)<br><br>Risparmio (ad esempio, 401(k))<br><br>FSA | Lordo di imposte idoneo | Specifica se è possibile versare contributi per il piano prima dell'applicazione delle imposte. |
+   | Medico (medico, dentale, visione, HMO)<br><br>Altro (PTO, Fitness)<br><br>Disabilità a lungo termine<br><br>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)<br><br>Risparmio (ad esempio, 401(k))<br><br>FSA | Netto di imposte idoneo | Specifica se è possibile versare contributi per il piano dopo l'applicazione delle imposte. |
+   | Medico (medico, dentale, visione, HMO)<br><br>Altro (PTO, Fitness)<br><br>Disabilità a lungo termine<br><br>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria)<br><br>Risparmio (ad esempio, 401(k))<br><br>FSA | Collaboratore | Specifica chi versa contributi per il piano: il dipendente, il datore di lavoro o entrambi. |
+   | Disabilità a lungo termine<br><br>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria) | Copertura minima | L'importo minimo di copertura assicurativa richiesto per il piano. |
+   | Disabilità a lungo termine<br><br>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria) | Copertura massima | L'importo massimo di copertura assicurativa richiesto per il piano. |
+   | Disabilità a lungo termine<br><br>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria) | Usa incrementi di copertura | Specifica se convalidare che l'importo di copertura corrisponde a un importo incrementale valido. |
+   | Disabilità a lungo termine<br><br>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria) | Importo incrementale | L'importo incrementale della copertura assicurativa per il piano. Ad esempio, se l'importo incrementale è 1.000, un dipendente non può avere $200.500 di assicurazione; il valore deve essere arrotondato a $201.000 o a $200.000. |
+   | Disabilità a lungo termine<br><br>ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria) | Direzione incrementale | Specifica la direzione di arrotondamento (per eccesso o difetto) quando l'importo di copertura non soddisfa il valore dell'importo incrementale. |
    | ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria) | Prova di assicurabilità | Specifica se un dipendente deve fornire una prova di assicurabilità. |
    | ADD (assicurazione sulla vita di base, assicurazione sulla vita volontaria) | Periodo | Importo nella valuta di contabilizzazione. Questo campo è attivo solo se è selezionata la casella di controllo Prova di assicurabilità. |
-   | <ul><li>Risparmio (ad esempio, 401(k))</li><li>FSA</li></ul> | Contribuzione annuale minima | L'importo di contribuzione minimo richiesto per il piano. |
-   | <ul><li>Risparmio (ad esempio, 401(k))</li><li>FSA</li></ul> | Contribuzione annuale massima | L'importo di contribuzione massimo richiesto per il piano. |
+   | Risparmio (ad esempio, 401(k))<br><br>FSA | Contribuzione annuale minima | L'importo di contribuzione minimo richiesto per il piano. |
+   | Risparmio (ad esempio, 401(k))<br><br>FSA | Contribuzione annuale massima | L'importo di contribuzione massimo richiesto per il piano. |
    | Risparmio (ad esempio, 401(k)) | Importo annuale massimo datore di lavoro | L'importo massimo che un datore di lavoro può versare per un piano di risparmio dei dipendenti durante un periodo di benefit. È necessario selezionare la casella di controllo Corrispondenza datore di lavoro per utilizzare questo campo. |
    | Risparmio (ad esempio, 401(k)) | Corrispondenza datore di lavoro | Specifica se il datore di lavoro versa contributi per un piano di risparmio dei dipendenti. |
    | Risparmio (ad esempio, 401(k)) | Percentuale corrispondenza datore di lavoro | La percentuale dei contributi di un dipendente che il datore di lavoro corrisponderà. |
@@ -122,7 +119,7 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Piani**, selezionare **Piani di benefit**.
 
-2. Selezionare **Lavoratori iscritti**.
+2. Nella scheda **Benefit** nella barra di spostamento seleziona **Lavoratori iscritti**.
 
 ## <a name="attach-coverage-options"></a>Collega opzioni di copertura
 
@@ -130,7 +127,7 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Piani**, selezionare **Piani di benefit**.
 
-2. Selezionare **Collega opzioni di copertura**.
+2. Nella scheda **Benefit** nella barra di spostamento seleziona **Collega opzioni di copertura**.
 
 ## <a name="override-eligibility-rules"></a>Sostituire le regole di idoneità
 
@@ -138,7 +135,7 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Piani**, selezionare **Piani di benefit**.
 
-2. Selezionare **Sostituzione regole di idoneità**.
+2. Nella scheda **Benefit** nella barra di spostamento seleziona **Sostituzione regole di idoneità**.
 
 ## <a name="view-attached-periods"></a>Visualizzare i periodi associati
 
@@ -146,21 +143,21 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Piani**, selezionare **Piani di benefit**.
 
-2. Selezionare **Periodi**.
+2. Seleziona la scheda **Periodi** nella barra di spostamento.
 
-## <a name="view-plan-information"></a>Visualizza informazioni su un piano
+## <a name="view-plan-description"></a>Visualizzare la descrizione del piano
 
-È possibile fornire una descrizione del piano per aiutare i dipendenti a scegliere i benefit. Le informazioni sul piano immesse qui sono visualizzate in Dipendente self-service quando si passa il mouse nell'elenco delle opzioni di copertura.
+È possibile fornire una descrizione del piano per aiutare i dipendenti a scegliere i benefit. La descrizione del piano immessa qui è visualizzata in Dipendente self-service quando si passa il mouse nell'elenco delle opzioni di copertura.
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Piani**, selezionare **Piani di benefit**.
 
-2. Selezionare **Informazioni sul piano**.
+2. Nella scheda **Benefit** nella barra di spostamento seleziona **Descrizione piano**.
 
 ## <a name="view-flex-credit-programs"></a>Visualizza programmi di crediti flessibili
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Piani**, selezionare **Piani di benefit**.
 
-2. Selezionare **Programmi di crediti flessibili**.
+2. Nella scheda **Benefit** nella barra di spostamento seleziona **Programmi di crediti flessibili**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

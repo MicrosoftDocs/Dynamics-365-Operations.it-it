@@ -2,7 +2,6 @@
 title: Interfaccia attrezzatura movimentazione materiali (MHAX)
 description: In questo argomento viene descritto come impostare l'interfaccia attrezzatura movimentazione materiali (MHAX) di modo che sia possibile connettersi a sistemi di movimentazione materiali (MH) fisici esterni.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571844"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810512"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interfaccia attrezzatura movimentazione materiali (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 È possibile usare l'*interfaccia attrezzatura movimentazione materiali* (MHAX) per connettere i sistemi di movimentazione materiali (MH) fisici esterni a un magazzino gestito mediante la gestione avanzata del magazzino (WMS) in Microsoft Dynamics 365 Supply Chain Management. L'interfaccia tra i sistemi WMS e MH è costituita da due code: una per gli eventi in uscita (da WMS a MH) e una per gli eventi in entrata (da MH a WMS). Il sistema WMS genera eventi in uscita in base alle righe di lavoro che vengono create durante i vari processi di creazione ed esecuzione del lavoro. Il sistema MH quindi esegue regolarmente il polling di nuovi eventi nel sistema WMS ed elabora le risposte. Dopo che il sistema MH ha terminato la gestione degli eventi in conformità con le istruzioni di lavoro, invia eventi in entrata, come il completamento della riga di lavoro e il prelievo in difetto.
 
