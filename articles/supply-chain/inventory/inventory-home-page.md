@@ -2,11 +2,9 @@
 title: Panoramica di Gestione articoli
 description: In questo argomento viene fornita una panoramica di Gestione articoli.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
@@ -18,45 +16,45 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a76177a083aded953aab13fbb81681d7f117828d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2bdf4a1ae691e50f7e41374db6c2dde10b9329cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225028"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809568"
 ---
-# <a name="inventory-management-overview"></a><span data-ttu-id="fe24b-103">Panoramica di Gestione articoli</span><span class="sxs-lookup"><span data-stu-id="fe24b-103">Inventory management overview</span></span>
+# <a name="inventory-management-overview"></a><span data-ttu-id="48ba2-103">Panoramica di Gestione articoli</span><span class="sxs-lookup"><span data-stu-id="48ba2-103">Inventory management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fe24b-104">È possibile utilizzare Gestione articoli per effettuare le seguenti attività:</span><span class="sxs-lookup"><span data-stu-id="fe24b-104">You can use Inventory management to perform the following tasks:</span></span>
+<span data-ttu-id="48ba2-104">È possibile utilizzare Gestione articoli per effettuare le seguenti attività:</span><span class="sxs-lookup"><span data-stu-id="48ba2-104">You can use Inventory management to perform the following tasks:</span></span>
 
--  [<span data-ttu-id="fe24b-105">Operazioni in entrata</span><span class="sxs-lookup"><span data-stu-id="fe24b-105">Inbound operations</span></span>](arrival-overview.md)
--  [<span data-ttu-id="fe24b-106">Controllo qualità</span><span class="sxs-lookup"><span data-stu-id="fe24b-106">Quality assurance</span></span>](quality-management-processes.md)
--  [<span data-ttu-id="fe24b-107">Attività magazzino</span><span class="sxs-lookup"><span data-stu-id="fe24b-107">Inventory activities</span></span>](inventory-journals.md)
--  [<span data-ttu-id="fe24b-108">Operazioni in uscita</span><span class="sxs-lookup"><span data-stu-id="fe24b-108">Outbound operations</span></span>](outbound-process.md)
--  [<span data-ttu-id="fe24b-109">Controllo scorte</span><span class="sxs-lookup"><span data-stu-id="fe24b-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
+-  [<span data-ttu-id="48ba2-105">Operazioni in entrata</span><span class="sxs-lookup"><span data-stu-id="48ba2-105">Inbound operations</span></span>](arrival-overview.md)
+-  [<span data-ttu-id="48ba2-106">Controllo qualità</span><span class="sxs-lookup"><span data-stu-id="48ba2-106">Quality assurance</span></span>](quality-management-processes.md)
+-  [<span data-ttu-id="48ba2-107">Attività magazzino</span><span class="sxs-lookup"><span data-stu-id="48ba2-107">Inventory activities</span></span>](inventory-journals.md)
+-  [<span data-ttu-id="48ba2-108">Operazioni in uscita</span><span class="sxs-lookup"><span data-stu-id="48ba2-108">Outbound operations</span></span>](outbound-process.md)
+-  [<span data-ttu-id="48ba2-109">Controllo scorte</span><span class="sxs-lookup"><span data-stu-id="48ba2-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
 
-## <a name="learning-map"></a><span data-ttu-id="fe24b-110">Mappa di apprendimento</span><span class="sxs-lookup"><span data-stu-id="fe24b-110">Learning map</span></span>
+## <a name="learning-map"></a><span data-ttu-id="48ba2-110">Mappa di apprendimento</span><span class="sxs-lookup"><span data-stu-id="48ba2-110">Learning map</span></span>
 
-<span data-ttu-id="fe24b-111">Nella mappa di apprendimento vengono visualizzati i concetti e le attività principali che costituiscono il framework del modulo Gestione articoli.</span><span class="sxs-lookup"><span data-stu-id="fe24b-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="fe24b-112">Fare clic sulla mappa di apprendimento per espanderla.</span><span class="sxs-lookup"><span data-stu-id="fe24b-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="fe24b-113">Questa mappa di apprendimento fornisce informazioni per iniziare a utilizzare il modulo.</span><span class="sxs-lookup"><span data-stu-id="fe24b-113">This learning map will help you get started.</span></span>
+<span data-ttu-id="48ba2-111">Nella mappa di apprendimento vengono visualizzati i concetti e le attività principali che costituiscono il framework del modulo Gestione articoli.</span><span class="sxs-lookup"><span data-stu-id="48ba2-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="48ba2-112">Fare clic sulla mappa di apprendimento per espanderla.</span><span class="sxs-lookup"><span data-stu-id="48ba2-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="48ba2-113">Questa mappa di apprendimento fornisce informazioni per iniziare a utilizzare il modulo.</span><span class="sxs-lookup"><span data-stu-id="48ba2-113">This learning map will help you get started.</span></span>
 
 
-<span data-ttu-id="fe24b-114">[![Mappa di apprendimento di Gestione articoli](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="fe24b-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
+<span data-ttu-id="48ba2-114">[![Mappa di apprendimento di Gestione articoli](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="48ba2-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="fe24b-115">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="fe24b-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="48ba2-115">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="48ba2-115">Additional resources</span></span>
 
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="fe24b-116">Novità rilasciate e in via di sviluppo</span><span class="sxs-lookup"><span data-stu-id="fe24b-116">What's new and in development</span></span>
-<span data-ttu-id="fe24b-117">Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo.</span><span class="sxs-lookup"><span data-stu-id="fe24b-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="48ba2-116">Novità rilasciate e in via di sviluppo</span><span class="sxs-lookup"><span data-stu-id="48ba2-116">What's new and in development</span></span>
+<span data-ttu-id="48ba2-117">Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) per un elenco delle nuove funzionalità rilasciate e di quelle in via di sviluppo.</span><span class="sxs-lookup"><span data-stu-id="48ba2-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
 
-### <a name="inventory-accounting"></a><span data-ttu-id="fe24b-118">Contabilità inventario</span><span class="sxs-lookup"><span data-stu-id="fe24b-118">Inventory accounting</span></span> 
-<span data-ttu-id="fe24b-119">Per ulteriori informazioni, vedere [Chiusura inventario](../cost-management/inventory-close.md).</span><span class="sxs-lookup"><span data-stu-id="fe24b-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
+### <a name="inventory-accounting"></a><span data-ttu-id="48ba2-118">Contabilità inventario</span><span class="sxs-lookup"><span data-stu-id="48ba2-118">Inventory accounting</span></span> 
+<span data-ttu-id="48ba2-119">Per ulteriori informazioni, vedere [Chiusura inventario](../cost-management/inventory-close.md).</span><span class="sxs-lookup"><span data-stu-id="48ba2-119">To learn more, see [Inventory close](../cost-management/inventory-close.md).</span></span>
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="fe24b-120">Blog sulla gestione della produzione e Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="fe24b-120">Manufacturing and Supply Chain Management blogs</span></span>
-<span data-ttu-id="fe24b-121">Opinioni, notizie e altre informazioni su Gestione articoli e altre soluzioni sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span><span class="sxs-lookup"><span data-stu-id="fe24b-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
+### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="48ba2-120">Blog sulla gestione della produzione e Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="48ba2-120">Manufacturing and Supply Chain Management blogs</span></span>
+<span data-ttu-id="48ba2-121">Opinioni, notizie e altre informazioni su Gestione articoli e altre soluzioni sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span><span class="sxs-lookup"><span data-stu-id="48ba2-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
 
-### <a name="task-guides"></a><span data-ttu-id="fe24b-122">Guide attività</span><span class="sxs-lookup"><span data-stu-id="fe24b-122">Task guides</span></span>
-<span data-ttu-id="fe24b-123">Ulteriori informazioni sono disponibili come guide attività.</span><span class="sxs-lookup"><span data-stu-id="fe24b-123">Additional help is available as task guides.</span></span> <span data-ttu-id="fe24b-124">Per accedere alle guide attività, fare clic sul pulsante **?** in qualsiasi pagina</span><span class="sxs-lookup"><span data-stu-id="fe24b-124">To access task guides, click the **Help** button on any page</span></span>
+### <a name="task-guides"></a><span data-ttu-id="48ba2-122">Guide attività</span><span class="sxs-lookup"><span data-stu-id="48ba2-122">Task guides</span></span>
+<span data-ttu-id="48ba2-123">Ulteriori informazioni sono disponibili come guide attività.</span><span class="sxs-lookup"><span data-stu-id="48ba2-123">Additional help is available as task guides.</span></span> <span data-ttu-id="48ba2-124">Per accedere alle guide attività, fare clic sul pulsante **?** in qualsiasi pagina</span><span class="sxs-lookup"><span data-stu-id="48ba2-124">To access task guides, click the **Help** button on any page</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
