@@ -1,12 +1,10 @@
 ---
 title: Stato della manutenzione
 description: In questo argomento viene illustrato come calcolare lo stato della manutenzione in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetStatusCalculate, EntAssetStatus
 audience: Application User
@@ -14,56 +12,56 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f65bfc7b5ef9651853a12bab2ed83dbb8562ba6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253736"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808618"
 ---
-# <a name="maintenance-status"></a><span data-ttu-id="e4b24-103">Stato della manutenzione</span><span class="sxs-lookup"><span data-stu-id="e4b24-103">Maintenance status</span></span>
+# <a name="maintenance-status"></a><span data-ttu-id="17fb3-103">Stato della manutenzione</span><span class="sxs-lookup"><span data-stu-id="17fb3-103">Maintenance status</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="e4b24-104">In Gestione cespiti, è possibile eseguire un calcolo per un periodo specifico per visualizzare una panoramica delle richieste di intervento di manutenzione nuove, attive e completate, degli ordini di lavoro e delle attività dei tempi di fermo per la manutenzione.</span><span class="sxs-lookup"><span data-stu-id="e4b24-104">In Asset Management, you can make an overview calculation for a specific period for new, active, and completed maintenance requests, work orders, and maintenance downtime activities.</span></span> <span data-ttu-id="e4b24-105">È inoltre possibile visualizzare il numero di valutazioni delle condizioni completate per lo stesso periodo.</span><span class="sxs-lookup"><span data-stu-id="e4b24-105">You can also see the number of completed condition assessments for the same period.</span></span> <span data-ttu-id="e4b24-106">Utilizzare questo calcolo per ottenere una panoramica del carico di lavoro relativo alle richieste di intervento di manutenzione ricevute e completate e agli ordini di lavoro.</span><span class="sxs-lookup"><span data-stu-id="e4b24-106">Use this calculation to get an overview of workload for incoming and completed maintenance requests and work orders.</span></span>
+<span data-ttu-id="17fb3-104">In Gestione cespiti, è possibile eseguire un calcolo per un periodo specifico per visualizzare una panoramica delle richieste di intervento di manutenzione nuove, attive e completate, degli ordini di lavoro e delle attività dei tempi di fermo per la manutenzione.</span><span class="sxs-lookup"><span data-stu-id="17fb3-104">In Asset Management, you can make an overview calculation for a specific period for new, active, and completed maintenance requests, work orders, and maintenance downtime activities.</span></span> <span data-ttu-id="17fb3-105">È inoltre possibile visualizzare il numero di valutazioni delle condizioni completate per lo stesso periodo.</span><span class="sxs-lookup"><span data-stu-id="17fb3-105">You can also see the number of completed condition assessments for the same period.</span></span> <span data-ttu-id="17fb3-106">Utilizzare questo calcolo per ottenere una panoramica del carico di lavoro relativo alle richieste di intervento di manutenzione ricevute e completate e agli ordini di lavoro.</span><span class="sxs-lookup"><span data-stu-id="17fb3-106">Use this calculation to get an overview of workload for incoming and completed maintenance requests and work orders.</span></span>
 
-## <a name="make-a-maintenance-status-calculation"></a><span data-ttu-id="e4b24-107">Eseguire il calcolo di uno stato di manutenzione</span><span class="sxs-lookup"><span data-stu-id="e4b24-107">Make a maintenance status calculation</span></span>
+## <a name="make-a-maintenance-status-calculation"></a><span data-ttu-id="17fb3-107">Eseguire il calcolo di uno stato di manutenzione</span><span class="sxs-lookup"><span data-stu-id="17fb3-107">Make a maintenance status calculation</span></span>
 
-1. <span data-ttu-id="e4b24-108">Fare clic su **Gestione cespiti** > **Richieste di informazioni** > **Stato della manutenzione**.</span><span class="sxs-lookup"><span data-stu-id="e4b24-108">Click **Asset management** > **Inquiries** > **Maintenance status**.</span></span>
+1. <span data-ttu-id="17fb3-108">Fare clic su **Gestione cespiti** > **Richieste di informazioni** > **Stato della manutenzione**.</span><span class="sxs-lookup"><span data-stu-id="17fb3-108">Click **Asset management** > **Inquiries** > **Maintenance status**.</span></span>
 
-2. <span data-ttu-id="e4b24-109">Nella finestra di dialogo **Calcola stato**, selezionare l'intervallo di tempo per il quale si desidera eseguire il calcolo nei campi **Dal** e **Al**.</span><span class="sxs-lookup"><span data-stu-id="e4b24-109">In the **Calculate status** dialog, select the time range that you want to make the calculation in the **From date** and **To date** fields.</span></span>
+2. <span data-ttu-id="17fb3-109">Nella finestra di dialogo **Calcola stato**, selezionare l'intervallo di tempo per il quale si desidera eseguire il calcolo nei campi **Dal** e **Al**.</span><span class="sxs-lookup"><span data-stu-id="17fb3-109">In the **Calculate status** dialog, select the time range that you want to make the calculation in the **From date** and **To date** fields.</span></span>
 
-3. <span data-ttu-id="e4b24-110">È possibile utilizzare il campo **Livello** per indicare il livello di dettagli delle righe di manutenzione in relazione alle unità funzionali.</span><span class="sxs-lookup"><span data-stu-id="e4b24-110">You can use the **Level** field to indicate how detailed you want the maintenance lines to be regarding functional locations.</span></span> 
+3. <span data-ttu-id="17fb3-110">È possibile utilizzare il campo **Livello** per indicare il livello di dettagli delle righe di manutenzione in relazione alle unità funzionali.</span><span class="sxs-lookup"><span data-stu-id="17fb3-110">You can use the **Level** field to indicate how detailed you want the maintenance lines to be regarding functional locations.</span></span> 
 
-  <span data-ttu-id="e4b24-111">Ad esempio, se si inserisce "1" nel campo e si ha una struttura di unità funzionali multilivello, tutte le righe di manutenzione per un'unità funzionale verranno visualizzate nel livello principale, quindi lo stato in una riga può essere aggiunto dalle unità funzionali situate a un livello inferiore.</span><span class="sxs-lookup"><span data-stu-id="e4b24-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance lines for a functional location will be shown on the top level, and therefore the status on a line may be added up from functional locations located at a lower level.</span></span> 
+  <span data-ttu-id="17fb3-111">Ad esempio, se si inserisce "1" nel campo e si ha una struttura di unità funzionali multilivello, tutte le righe di manutenzione per un'unità funzionale verranno visualizzate nel livello principale, quindi lo stato in una riga può essere aggiunto dalle unità funzionali situate a un livello inferiore.</span><span class="sxs-lookup"><span data-stu-id="17fb3-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance lines for a functional location will be shown on the top level, and therefore the status on a line may be added up from functional locations located at a lower level.</span></span> 
   
-  <span data-ttu-id="e4b24-112">Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe di manutenzione in tutti i livelli di unità funzionali a cui sono correlate.</span><span class="sxs-lookup"><span data-stu-id="e4b24-112">If you insert the number "0" in the **Level** field, you see a detailed result showing all maintenance lines on all the functional location levels to which they are related.</span></span>
+  <span data-ttu-id="17fb3-112">Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe di manutenzione in tutti i livelli di unità funzionali a cui sono correlate.</span><span class="sxs-lookup"><span data-stu-id="17fb3-112">If you insert the number "0" in the **Level** field, you see a detailed result showing all maintenance lines on all the functional location levels to which they are related.</span></span>
 
-4. <span data-ttu-id="e4b24-113">Fare clic su **OK** per avviare il calcolo.</span><span class="sxs-lookup"><span data-stu-id="e4b24-113">Click **OK** to start the calculation.</span></span>
+4. <span data-ttu-id="17fb3-113">Fare clic su **OK** per avviare il calcolo.</span><span class="sxs-lookup"><span data-stu-id="17fb3-113">Click **OK** to start the calculation.</span></span>
 
-5. <span data-ttu-id="e4b24-114">Fare clic sui pulsanti **Raggruppa per** per visualizzare il livello di dettagli necessario per il calcolo.</span><span class="sxs-lookup"><span data-stu-id="e4b24-114">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="e4b24-115">I pulsanti **Raggruppa per** selezionati sono evidenziati.</span><span class="sxs-lookup"><span data-stu-id="e4b24-115">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="e4b24-116">Fare clic su un pulsante per attivarlo o disattivarlo.</span><span class="sxs-lookup"><span data-stu-id="e4b24-116">Click on a button to activate or deactivate it.</span></span>
+5. <span data-ttu-id="17fb3-114">Fare clic sui pulsanti **Raggruppa per** per visualizzare il livello di dettagli necessario per il calcolo.</span><span class="sxs-lookup"><span data-stu-id="17fb3-114">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="17fb3-115">I pulsanti **Raggruppa per** selezionati sono evidenziati.</span><span class="sxs-lookup"><span data-stu-id="17fb3-115">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="17fb3-116">Fare clic su un pulsante per attivarlo o disattivarlo.</span><span class="sxs-lookup"><span data-stu-id="17fb3-116">Click on a button to activate or deactivate it.</span></span>
 
-6. <span data-ttu-id="e4b24-117">Ricordarsi di fare clic sul pulsante **Aggiorna** per aggiornare il calcolo ogni volta che si apportano modifiche attivando o disattivando i pulsanti **Raggruppa per**, oppure eseguendo un calcolo per un nuovo periodo.</span><span class="sxs-lookup"><span data-stu-id="e4b24-117">Remember to click the **Update** button to update the calculation each time you make changes by activating or deactivating **Group by** buttons, or by making a calculation for a new period.</span></span>
+6. <span data-ttu-id="17fb3-117">Ricordarsi di fare clic sul pulsante **Aggiorna** per aggiornare il calcolo ogni volta che si apportano modifiche attivando o disattivando i pulsanti **Raggruppa per**, oppure eseguendo un calcolo per un nuovo periodo.</span><span class="sxs-lookup"><span data-stu-id="17fb3-117">Remember to click the **Update** button to update the calculation each time you make changes by activating or deactivating **Group by** buttons, or by making a calculation for a new period.</span></span>
 
-7. <span data-ttu-id="e4b24-118">Fare clic su **Stato** se si desidera creare un nuovo calcolo dello stato della manutenzione.</span><span class="sxs-lookup"><span data-stu-id="e4b24-118">Click **Status** if you want to create a new maintenance status calculation.</span></span>
+7. <span data-ttu-id="17fb3-118">Fare clic su **Stato** se si desidera creare un nuovo calcolo dello stato della manutenzione.</span><span class="sxs-lookup"><span data-stu-id="17fb3-118">Click **Status** if you want to create a new maintenance status calculation.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="e4b24-119">I risultati visualizzati in **Stato della manutenzione** includono solo le richieste di intervento di manutenzione e gli ordini di lavoro che hanno una data di inizio e di fine effettive.</span><span class="sxs-lookup"><span data-stu-id="e4b24-119">The results shown in **Maintenance status** only include maintenance requests and work orders that have an actual start date and time.</span></span> <span data-ttu-id="e4b24-120">La data e l'ora di fine possono essere vuote.</span><span class="sxs-lookup"><span data-stu-id="e4b24-120">End date and time may be blank.</span></span>
+><span data-ttu-id="17fb3-119">I risultati visualizzati in **Stato della manutenzione** includono solo le richieste di intervento di manutenzione e gli ordini di lavoro che hanno una data di inizio e di fine effettive.</span><span class="sxs-lookup"><span data-stu-id="17fb3-119">The results shown in **Maintenance status** only include maintenance requests and work orders that have an actual start date and time.</span></span> <span data-ttu-id="17fb3-120">La data e l'ora di fine possono essere vuote.</span><span class="sxs-lookup"><span data-stu-id="17fb3-120">End date and time may be blank.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="e4b24-121">Esempio 1</span><span class="sxs-lookup"><span data-stu-id="e4b24-121">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="17fb3-121">Esempio 1</span><span class="sxs-lookup"><span data-stu-id="17fb3-121">Example 1</span></span>
 
-<span data-ttu-id="e4b24-122">Nella schermata seguente, i pulsanti **Mese** e **Anno** sono stati attivati.</span><span class="sxs-lookup"><span data-stu-id="e4b24-122">In the screenshot below, the **Year** and **Month** buttons have been activated.</span></span> <span data-ttu-id="e4b24-123">Con le opzioni **Raggruppa per** selezionate, si ha una panoramica generale su base mensile del carico di lavoro e della produttività relativi alle richieste di intervento di manutenzione e agli ordini di lavoro.</span><span class="sxs-lookup"><span data-stu-id="e4b24-123">With these **Group by** options selected, you get a general overview on a monthly basis of workload and throughput related to maintenance requests and work orders.</span></span> 
+<span data-ttu-id="17fb3-122">Nella schermata seguente, i pulsanti **Mese** e **Anno** sono stati attivati.</span><span class="sxs-lookup"><span data-stu-id="17fb3-122">In the screenshot below, the **Year** and **Month** buttons have been activated.</span></span> <span data-ttu-id="17fb3-123">Con le opzioni **Raggruppa per** selezionate, si ha una panoramica generale su base mensile del carico di lavoro e della produttività relativi alle richieste di intervento di manutenzione e agli ordini di lavoro.</span><span class="sxs-lookup"><span data-stu-id="17fb3-123">With these **Group by** options selected, you get a general overview on a monthly basis of workload and throughput related to maintenance requests and work orders.</span></span> 
 
 ![Esempio del carico di lavoro mensile](media/13-controlling-and-reporting.png)
 
-## <a name="example-2"></a><span data-ttu-id="e4b24-125">Esempio 2</span><span class="sxs-lookup"><span data-stu-id="e4b24-125">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="17fb3-125">Esempio 2</span><span class="sxs-lookup"><span data-stu-id="17fb3-125">Example 2</span></span>
 
-<span data-ttu-id="e4b24-126">Nella schermata seguente, sono state aggiunte le informazioni sulle unità funzionali.</span><span class="sxs-lookup"><span data-stu-id="e4b24-126">In the screenshot below, information about functional locations has been added.</span></span> <span data-ttu-id="e4b24-127">A questo punto, è possibile confrontare il carico di lavoro e la produttività nelle unità funzionali, che possono rappresentare le ubicazioni geografiche, gli stabilimenti o le aree di lavoro.</span><span class="sxs-lookup"><span data-stu-id="e4b24-127">Now it is possible to compare workload and throughput across functional locations, which may represent geographical locations, factories, or work areas.</span></span> 
+<span data-ttu-id="17fb3-126">Nella schermata seguente, sono state aggiunte le informazioni sulle unità funzionali.</span><span class="sxs-lookup"><span data-stu-id="17fb3-126">In the screenshot below, information about functional locations has been added.</span></span> <span data-ttu-id="17fb3-127">A questo punto, è possibile confrontare il carico di lavoro e la produttività nelle unità funzionali, che possono rappresentare le ubicazioni geografiche, gli stabilimenti o le aree di lavoro.</span><span class="sxs-lookup"><span data-stu-id="17fb3-127">Now it is possible to compare workload and throughput across functional locations, which may represent geographical locations, factories, or work areas.</span></span> 
 
 ![Esempio del carico di lavoro mensile con unità funzionali](media/14-controlling-and-reporting.png)
 

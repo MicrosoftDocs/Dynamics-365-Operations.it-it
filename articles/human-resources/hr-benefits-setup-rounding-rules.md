@@ -2,11 +2,9 @@
 title: Impostare le regole di arrotondamento
 description: È possibile impostare regole di arrotondamento in Dynamics 365 Human Resources per soddisfare le esigenze dell'organizzazione.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,26 +16,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c3e6c091ad6a6ef9f4310d41ba61f854918db9b1
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3f759246b166d301444f743ee47a372cc6a7d450
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468373"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801025"
 ---
-# <a name="set-up-rounding-rules"></a><span data-ttu-id="81b36-103">Impostare le regole di arrotondamento</span><span class="sxs-lookup"><span data-stu-id="81b36-103">Set up rounding rules</span></span>
+# <a name="set-up-rounding-rules"></a><span data-ttu-id="d38a8-103">Impostare le regole di arrotondamento</span><span class="sxs-lookup"><span data-stu-id="d38a8-103">Set up rounding rules</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="81b36-104">È possibile impostare regole di arrotondamento in Dynamics 365 Human Resources per soddisfare le esigenze dell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="81b36-104">You can set up rounding rules in Dynamics 365 Human Resources to meet the needs of your organization.</span></span>
+<span data-ttu-id="d38a8-104">È possibile impostare regole di arrotondamento in Dynamics 365 Human Resources per soddisfare le esigenze dell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="d38a8-104">You can set up rounding rules in Dynamics 365 Human Resources to meet the needs of your organization.</span></span>
 
-1. <span data-ttu-id="81b36-105">Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Regole di arrotondamento**.</span><span class="sxs-lookup"><span data-stu-id="81b36-105">In the **Benefits management** workspace, under **Setup**, select **Rounding rules**.</span></span>
+1. <span data-ttu-id="d38a8-105">Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Regole di arrotondamento**.</span><span class="sxs-lookup"><span data-stu-id="d38a8-105">In the **Benefits management** workspace, under **Setup**, select **Rounding rules**.</span></span>
 
-2. <span data-ttu-id="81b36-106">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="81b36-106">Select **New**.</span></span>
+2. <span data-ttu-id="d38a8-106">Selezionare **Nuovo**.</span><span class="sxs-lookup"><span data-stu-id="d38a8-106">Select **New**.</span></span>
 
-3. <span data-ttu-id="81b36-107">Specificare i valori per **Arrotondamento all'unità più vicina**, **Scenario** e **Tipo di arrotondamento**.</span><span class="sxs-lookup"><span data-stu-id="81b36-107">Specify values for **Round to the nearest**, **Scenario**, and **Rounding form**.</span></span>
+3. <span data-ttu-id="d38a8-107">Specificare i valori per **Arrotondamento all'unità più vicina**, **Scenario** e **Tipo di arrotondamento**.</span><span class="sxs-lookup"><span data-stu-id="d38a8-107">Specify values for **Round to the nearest**, **Scenario**, and **Rounding form**.</span></span>
 
-4. <span data-ttu-id="81b36-108">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="81b36-108">Select **Save**.</span></span> 
+4. <span data-ttu-id="d38a8-108">Selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="d38a8-108">Select **Save**.</span></span> 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
