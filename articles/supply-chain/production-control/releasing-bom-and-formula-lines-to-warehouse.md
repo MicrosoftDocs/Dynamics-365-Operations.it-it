@@ -2,11 +2,9 @@
 title: Rilascio delle righe di formula e DBA nel magazzino
 description: In questo argomento viene descritto il processo per il rilascio di materie prime per righe DBA e righe formula nel magazzino.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 62808c2e488e2c38b7dedfc258d9f2bf3e78c23c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209301"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811680"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
 

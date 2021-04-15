@@ -2,11 +2,9 @@
 title: Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
 description: Questo argomento spiega come integrare il modulo Gestione cespiti in Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides per trarre vantaggio dalle guide alla realtà mista nei flussi di lavoro quotidiani di assistenza e manutenzione.
 author: kamaybac
-manager: tfehr
 ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e3e9e74397faec12f6eecff1f562fd9d731ac5e2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230154"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813919"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
 

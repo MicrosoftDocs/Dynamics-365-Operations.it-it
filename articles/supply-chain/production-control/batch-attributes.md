@@ -2,11 +2,9 @@
 title: Attributi batch
 description: Questo argomento fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'argomento illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup, WHSBatchAttribReserve
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 744c8d65d8f1b28dc8197f3f8dd1803f916958b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 064b3dc7f0209b5c81580d4eb80384df74155aee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246479"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811848"
 ---
 # <a name="batch-attributes"></a>Attributi batch
 

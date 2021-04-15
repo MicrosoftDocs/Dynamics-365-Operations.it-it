@@ -2,11 +2,9 @@
 title: Liquidare un pagamento parziale prima della data dello sconto e del pagamento finale dopo la data dello sconto
 description: In questo articolo viene descritto uno scenario in cui vengono eseguiti più pagamenti parziali, alcuni nel periodo dello sconto di cassa e altri fuori dello stesso periodo.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227330"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810344"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Liquidare un pagamento parziale prima della data dello sconto e del pagamento finale dopo la data dello sconto
 
@@ -48,9 +46,9 @@ Il 2 luglio, April desidera liquidare 300,00 della fattura. Il pagamento è idon
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
-| Data sconto di cassa           | 9/07/2015 |
+| Data sconto di cassa           | 7/09/2015 |
 | Importo sconto di cassa         | -10.00    |
 | Utilizzare lo sconto di cassa            | Normale    |
 | Sconto di cassa applicato          | 0,00      |
@@ -73,7 +71,7 @@ April paga il resto della fattura il 15 luglio, che è dopo il periodo di sconto
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni**. April può visualizzare che ha già applicato uno sconto di 3,00.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
 | Data sconto di cassa           | 7/09/2015 |
 | Importo sconto di cassa         | 0,00      |
@@ -99,10 +97,10 @@ Se il fornitore consente ad April di applicare uno sconto anche se paga dopo la 
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni**.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
 | Data sconto di cassa           | 7/09/2015 |
-| Importo sconto di cassa         | 7,00      |
+| Importo sconto di cassa         | 7.00      |
 | Utilizzare lo sconto di cassa            | Sempre    |
 | Sconto di cassa applicato          | -3,00     |
 | Importo sconto di cassa da applicare | -7,00     |

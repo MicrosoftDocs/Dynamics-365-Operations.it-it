@@ -2,11 +2,9 @@
 title: Applicare uno sconto di cassa fuori del periodo dello sconto di cassa
 description: Questo articolo fornisce due scenari che illustrano come applicare uno sconto di cassa anche se il pagamento viene effettuato al di fuori del periodo dello sconto di cassa.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df635e78fff1994b9a9e1abc99c67470852ad81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 47acacf9b1e9667e86fcdd5ce1ed62e79d8afec3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235863"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810224"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Applicare uno sconto di cassa fuori del periodo dello sconto di cassa
 
@@ -43,7 +41,7 @@ April contrassegna la fattura per il pagamento. Non viene applicato alcuno scont
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni**.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
 | Data sconto di cassa           | 12/7/2015 |
 | Importo sconto di cassa         | -20,00    |
@@ -61,7 +59,7 @@ Se sono stati registrati sia la fattura che il pagamento, lo sconto di cassa pu�
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**. L'importo dello sconto da applicare è 20,00, poiché l'importo da liquidare per la fattura è l'importo predefinito, 1.980,00.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
 | Data sconto di cassa           | 12/7/2015 |
 | Importo sconto di cassa         | -20,00    |
@@ -78,7 +76,7 @@ April aggiorna il valore nel campo **Importo da liquidare** in **500,00**. Il va
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**. Il valore nel campo **Importo sconto di cassa da applicare** è **5,05**, poiché l'importo da liquidare per la fattura è stato modificato nell'importo del pagamento, 500,00.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
 | Data sconto di cassa           | 12/7/2015 |
 | Importo sconto di cassa         | -20,00    |

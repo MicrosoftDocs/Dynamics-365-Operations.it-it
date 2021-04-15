@@ -2,11 +2,9 @@
 title: Configurare l'interfaccia di esecuzione dell'area di produzione
 description: Questo argomento descrive come creare una o più configurazioni per l'interfaccia di esecuzione dell'area di produzione. Quando si apre l'interfaccia di esecuzione dell'area di produzione, viene automaticamente caricata una configurazione selezionata e un filtro di processo specifici per il browser e il dispositivo. Nella configurazione si impostano i criteri che devono essere applicabili per un utilizzo specifico.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556316"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814732"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 I lavoratori del reparto di produzione usano l'interfaccia di esecuzione dell'area di produzione per registrare il loro lavoro quotidiano, ad esempio ora di inizio dei lavori, invio del feedback sui lavori, registrazione delle attività indirette e segnalazione delle assenze. Queste registrazioni sono la base per monitorare l'avanzamento e il costo degli ordini di produzione e per calcolare la base per la retribuzione dei lavoratori.
 
@@ -67,6 +64,8 @@ Questa funzione aggiunge un pulsante all'interfaccia di esecuzione dell'area di 
 - Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Questa funzionalità aggiunge una scheda di gestione dei cespiti all'interfaccia di esecuzione del piano di produzione. I lavoratori possono utilizzare questa scheda per selezionare un cespite connesso a una risorsa macchina che si trova all'interno del filtro selezionato dell'elenco lavori. Per il cespite macchina selezionato, il lavoratore può visualizzare lo stato e l'integrità del cespite dai valori contatore per un massimo di quattro contatori selezionati. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

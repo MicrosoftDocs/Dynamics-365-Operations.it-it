@@ -2,11 +2,9 @@
 title: Certificazione unica
 description: Questo argomento fornisce informazioni sulla certificazione unica per le società in Italia.
 author: ilkond
-manager: AnnBe
 ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 094cb5e934ecf4549c9e14774a18e0b0bf8ac2be
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 578e453f06b5a86acc9d34b00bdc6af5e4594a50
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246835"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814922"
 ---
 # <a name="unique-certification"></a>Certificazione unica
 

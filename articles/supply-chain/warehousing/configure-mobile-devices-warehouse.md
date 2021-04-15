@@ -2,11 +2,9 @@
 title: Impostare i dispositivi mobili per il lavoro di magazzino
 description: Viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db4c3a8c4bae226b5e154f4761e30b7341bc527b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232985"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808800"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
@@ -64,7 +62,7 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 | Cancella cache sequenza numerica | Eliminare i numeri della sequenza numerica dalla cache della sequenza numerica. Questa attività in genere viene eseguita da un amministratore di sistema per risolvere i problemi di cache quando si utilizzano i dispositivi mobili. |
 | Modifica smaltimento batch | Consentire a un lavoratore di specificare un codice smaltimento batch per un articolo e un batch. Questa selezione aggiornerà il codice smaltimento specificato per il batch. |
 | Visualizza elenco lavori aperti | Visualizzare un elenco di lavoro disponibile per un utente specifico. L'utente può selezionare il lavoro da eseguire e verrà diretto al lavoro stesso. Questo elenco può essere visualizzato sui dispositivi tablet con dimensioni dello schermo di 7 pollici o più. Quando si seleziona questa opzione, le voci di menu **Modifica query** ed **Elenco campi** sono abilitate. Nella pagina **Modifica query** è possibile impostare i criteri per il lavoro riportato nell'elenco. Nella pagina **Elenco campi** è possibile selezionare i campi che vengono visualizzati nell'elenco di lavoro. Ad esempio, è possibile ridurre il numero di campi visibili per rendere più rapida per l'utente la selezione degli elementi di lavoro più appropriati. Nella scheda dettaglio **Generale**, nel campo **Record per pagina**, è inoltre possibile selezionare il numero di record visualizzati per pagina. Se l'opzione **Consenti agli utenti di filtrare il lavoro in base al tipo di transazione** è selezionata, nell'elenco sarà presente un controllo aggiuntivo **Filtra lavoro** che consente di applicare un filtro in base al tipo di transazione. Nell'elenco gli utenti vedranno solo il lavoro per cui dispongono delle autorizzazioni di accesso. Verificare che gli utenti dispongano delle autorizzazione per una o più voci di menu definite dall'utente che supportano i tipi della classe di lavoro specifici a cui è necessario accedere. Le autorizzazioni vengono verificate quando l'utente tenta di eseguire il lavoro dall'elenco.|
-| Crea ordine di trasferimento da targhe | Consente agli addetti al magazzino di creare ed elaborare ordini di trasferimento direttamente nell'app di magazzino. Gli addetti al magazzino iniziano selezionando il magazzino di destinazione e possono quindi eseguire la scansione di una o più targhe utilizzando l'app. Quando l'addetto al magazzino seleziona **Completa ordine**, un processo batch creerà l'ordine di trasferimento richiesto e le righe dell'ordine in base alle scorte disponibili registrate per tali targhe. Per ulteriori informazioni, vedi [Creare ordini di trasferimento nell'app di magazzino](create-transfer-order-from-warehouse-app.md)
+| Crea ordine di trasferimento da targhe | Consente agli addetti al magazzino di creare ed elaborare ordini di trasferimento direttamente nell'app per dispositivi mobili Gestione magazzino. Gli addetti al magazzino iniziano selezionando il magazzino di destinazione e possono quindi eseguire la scansione di una o più targhe utilizzando l'app. Quando l'addetto al magazzino seleziona **Completa ordine**, un processo batch creerà l'ordine di trasferimento richiesto e le righe dell'ordine in base alle scorte disponibili registrate per tali targhe. Per ulteriori informazioni, vedi [Creare ordini di trasferimento nell'app di magazzino](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurare voci di menu per creare il lavoro per un altro lavoratore o processo

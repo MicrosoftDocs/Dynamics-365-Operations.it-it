@@ -2,11 +2,9 @@
 title: Liquidazione provvigione su pagamento
 description: Questo argomento fornisce informazioni sulla liquidazione delle provvigioni sui pagamenti.
 author: ilkond
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a74d17046317ca20092e061c97fa45cfbc7e9493
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f42cddc0434c62ca9a904a822f2a3c17e7f42697
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212916"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814946"
 ---
 # <a name="commission-settlement-on-payments"></a>Liquidazione provvigione su pagamento
 
