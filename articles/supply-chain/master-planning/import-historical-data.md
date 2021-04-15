@@ -2,11 +2,9 @@
 title: Importare dati storici per le previsioni della domanda
 description: Per ottenere le previsioni della domanda accurate, sono necessari i dati storici della domanda per singolo articolo o chiave di allocazione articolo. In questo argomento viene descritto come utilizzare le entità di dati per importare i dati storici della domanda da un sistema, in modo da disporre di uno storico più ampio dei dati di previsione della domanda.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d415895bd05b9ab1a2311ab69cc3757047df91db
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9bb3c178a698bdcd46e7c596247360ba9233b398
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204618"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816486"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importare dati storici per le previsioni della domanda
 
