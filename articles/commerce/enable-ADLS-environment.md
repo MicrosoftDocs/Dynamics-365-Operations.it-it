@@ -2,11 +2,9 @@
 title: Abilitare Azure Data Lake Storage in un ambiente di Dynamics 365 Commerce
 description: Questo argomento spiega come abilitare e testare Azure Data Lake Storage per un ambiente di Dynamics 365 Commerce, che è un prerequisito per abilitare i suggerimenti sui prodotti.
 author: bebeale
-manager: AnnBe
 ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,100 +16,100 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5887ae7983fd817a929a185327671b301808b354
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478238"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792609"
 ---
-# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a><span data-ttu-id="fcb85-103">Abilitare Azure Data Lake Storage in un ambiente di Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="fcb85-103">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a><span data-ttu-id="13543-103">Abilitare Azure Data Lake Storage in un ambiente di Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="13543-103">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="fcb85-104">Questo argomento spiega come abilitare e testare Azure Data Lake Storage per un ambiente di Dynamics 365 Commerce, che è un prerequisito per abilitare i suggerimenti sui prodotti.</span><span class="sxs-lookup"><span data-stu-id="fcb85-104">This topic explains how to enable and test Azure Data Lake Storage for a Dynamics 365 Commerce environment, which is a prerequisite for enabling product recommendations.</span></span>
+<span data-ttu-id="13543-104">Questo argomento spiega come abilitare e testare Azure Data Lake Storage per un ambiente di Dynamics 365 Commerce, che è un prerequisito per abilitare i suggerimenti sui prodotti.</span><span class="sxs-lookup"><span data-stu-id="13543-104">This topic explains how to enable and test Azure Data Lake Storage for a Dynamics 365 Commerce environment, which is a prerequisite for enabling product recommendations.</span></span>
 
-<span data-ttu-id="fcb85-105">Nella soluzione Dynamics 365 Commerce, tutte le informazioni su prodotti e transazioni vengono tracciate nell'archivio entità dell'ambiente.</span><span class="sxs-lookup"><span data-stu-id="fcb85-105">In the Dynamics 365 Commerce solution, all product and transaction information is tracked in the environment's Entity store.</span></span> <span data-ttu-id="fcb85-106">Per rendere questi dati accessibili ad altri servizi di Dynamics 365, come analisi dei dati, business intelligence e suggerimenti personalizzati, è necessario connettere l'ambiente a una soluzione Azure Data Lake Storage Gen 2 di proprietà del cliente.</span><span class="sxs-lookup"><span data-stu-id="fcb85-106">To make this data accessible to other Dynamics 365 services, such as data analytics, business intelligence, and personalized recommendations, it is necessary to connect the environment to a customer-owned Azure Data Lake Storage Gen 2 solution.</span></span>
+<span data-ttu-id="13543-105">Nella soluzione Dynamics 365 Commerce, tutte le informazioni su prodotti e transazioni vengono tracciate nell'archivio entità dell'ambiente.</span><span class="sxs-lookup"><span data-stu-id="13543-105">In the Dynamics 365 Commerce solution, all product and transaction information is tracked in the environment's Entity store.</span></span> <span data-ttu-id="13543-106">Per rendere questi dati accessibili ad altri servizi di Dynamics 365, come analisi dei dati, business intelligence e suggerimenti personalizzati, è necessario connettere l'ambiente a una soluzione Azure Data Lake Storage Gen 2 di proprietà del cliente.</span><span class="sxs-lookup"><span data-stu-id="13543-106">To make this data accessible to other Dynamics 365 services, such as data analytics, business intelligence, and personalized recommendations, it is necessary to connect the environment to a customer-owned Azure Data Lake Storage Gen 2 solution.</span></span>
 
-<span data-ttu-id="fcb85-107">Poiché Azure Data Lake Storage è configurato in un ambiente, tutti i dati necessari vengono sottoposti a mirroring dall'archivio entità pur essendo protetti e sotto il controllo del cliente.</span><span class="sxs-lookup"><span data-stu-id="fcb85-107">As Azure Data Lake Storage is configured in an environment, all necessary data is mirrored from the Entity store while still being protected and under customer's control.</span></span>
+<span data-ttu-id="13543-107">Poiché Azure Data Lake Storage è configurato in un ambiente, tutti i dati necessari vengono sottoposti a mirroring dall'archivio entità pur essendo protetti e sotto il controllo del cliente.</span><span class="sxs-lookup"><span data-stu-id="13543-107">As Azure Data Lake Storage is configured in an environment, all necessary data is mirrored from the Entity store while still being protected and under customer's control.</span></span>
 
-<span data-ttu-id="fcb85-108">Se nell'ambiente sono abilitati anche suggerimenti sui prodotti o personalizzati, allo stack dei suggerimenti sui prodotti verrà concesso l'accesso alla cartella dedicata in Azure Data Lake Storage per recuperare i dati del cliente e calcolare i suggerimenti basati sugli stessi.</span><span class="sxs-lookup"><span data-stu-id="fcb85-108">If product recommendations or personalized recommendations are also enabled in the environment, then the product recommendations stack will be granted access to the dedicated folder in Azure Data Lake Storage to retrieve the customer’s data and compute recommendations based on it.</span></span>
+<span data-ttu-id="13543-108">Se nell'ambiente sono abilitati anche suggerimenti sui prodotti o personalizzati, allo stack dei suggerimenti sui prodotti verrà concesso l'accesso alla cartella dedicata in Azure Data Lake Storage per recuperare i dati del cliente e calcolare i suggerimenti basati sugli stessi.</span><span class="sxs-lookup"><span data-stu-id="13543-108">If product recommendations or personalized recommendations are also enabled in the environment, then the product recommendations stack will be granted access to the dedicated folder in Azure Data Lake Storage to retrieve the customer’s data and compute recommendations based on it.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="fcb85-109">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="fcb85-109">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="13543-109">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="13543-109">Prerequisites</span></span>
 
-<span data-ttu-id="fcb85-110">I clienti devono avere Azure Data Lake Storage configurato in una sottoscrizione di Azure di loro proprietà.</span><span class="sxs-lookup"><span data-stu-id="fcb85-110">Customers need to have Azure Data Lake Storage configured in an Azure subscription that they own.</span></span> <span data-ttu-id="fcb85-111">Questo argomento non copre l'acquisto di una sottoscrizione di Azure o la configurazione di un account di archiviazione abilitato per Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="fcb85-111">This topic does not cover the purchase of an Azure subscription or the setup of an Azure Data Lake Storage-enabled storage account.</span></span>
+<span data-ttu-id="13543-110">I clienti devono avere Azure Data Lake Storage configurato in una sottoscrizione di Azure di loro proprietà.</span><span class="sxs-lookup"><span data-stu-id="13543-110">Customers need to have Azure Data Lake Storage configured in an Azure subscription that they own.</span></span> <span data-ttu-id="13543-111">Questo argomento non copre l'acquisto di una sottoscrizione di Azure o la configurazione di un account di archiviazione abilitato per Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="13543-111">This topic does not cover the purchase of an Azure subscription or the setup of an Azure Data Lake Storage-enabled storage account.</span></span>
 
-<span data-ttu-id="fcb85-112">Per ulteriori informazioni su Azure Data Lake Storage, vedere la [documentazione ufficiale di Azure Data Lake Storage Gen2](https://azure.microsoft.com/pricing/details/storage/data-lake).</span><span class="sxs-lookup"><span data-stu-id="fcb85-112">For more information about Azure Data Lake Storage, see [Azure Data Lake Storage Gen2 official documentation](https://azure.microsoft.com/pricing/details/storage/data-lake).</span></span>
+<span data-ttu-id="13543-112">Per ulteriori informazioni su Azure Data Lake Storage, vedere la [documentazione ufficiale di Azure Data Lake Storage Gen2](https://azure.microsoft.com/pricing/details/storage/data-lake).</span><span class="sxs-lookup"><span data-stu-id="13543-112">For more information about Azure Data Lake Storage, see [Azure Data Lake Storage Gen2 official documentation](https://azure.microsoft.com/pricing/details/storage/data-lake).</span></span>
   
-## <a name="configuration-steps"></a><span data-ttu-id="fcb85-113">Passaggi di configurazione</span><span class="sxs-lookup"><span data-stu-id="fcb85-113">Configuration steps</span></span>
+## <a name="configuration-steps"></a><span data-ttu-id="13543-113">Passaggi di configurazione</span><span class="sxs-lookup"><span data-stu-id="13543-113">Configuration steps</span></span>
 
-<span data-ttu-id="fcb85-114">Questa sezione illustra le fasi di configurazione necessarie per abilitare Azure Data Lake Storage in un ambiente in relazione ai consigli sul prodotto.</span><span class="sxs-lookup"><span data-stu-id="fcb85-114">This section covers the configuration steps necessary for enabling Azure Data Lake Storage in an environment as it relates to product recommendations.</span></span>
-<span data-ttu-id="fcb85-115">Per una panoramica più approfondita dei passaggi necessari per abilitare Azure Data Lake Storage, vedere [Rendere disponibile l'archivio entità come Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span><span class="sxs-lookup"><span data-stu-id="fcb85-115">For a more in-depth overview of the steps required to enable Azure Data Lake Storage, see [Make entity store available as a Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span></span>
+<span data-ttu-id="13543-114">Questa sezione illustra le fasi di configurazione necessarie per abilitare Azure Data Lake Storage in un ambiente in relazione ai consigli sul prodotto.</span><span class="sxs-lookup"><span data-stu-id="13543-114">This section covers the configuration steps necessary for enabling Azure Data Lake Storage in an environment as it relates to product recommendations.</span></span>
+<span data-ttu-id="13543-115">Per una panoramica più approfondita dei passaggi necessari per abilitare Azure Data Lake Storage, vedere [Rendere disponibile l'archivio entità come Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span><span class="sxs-lookup"><span data-stu-id="13543-115">For a more in-depth overview of the steps required to enable Azure Data Lake Storage, see [Make entity store available as a Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span></span>
 
-### <a name="enable-azure-data-lake-storage-in-the-environment"></a><span data-ttu-id="fcb85-116">Abilitare Azure Data Lake Storage nell'ambiente</span><span class="sxs-lookup"><span data-stu-id="fcb85-116">Enable Azure Data Lake Storage in the environment</span></span>
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a><span data-ttu-id="13543-116">Abilitare Azure Data Lake Storage nell'ambiente</span><span class="sxs-lookup"><span data-stu-id="13543-116">Enable Azure Data Lake Storage in the environment</span></span>
 
-1. <span data-ttu-id="fcb85-117">Accedere al portale di back office dell'ambiente.</span><span class="sxs-lookup"><span data-stu-id="fcb85-117">Log in to the environment's back office portal.</span></span>
-1. <span data-ttu-id="fcb85-118">Cercare **Parametri di sistema** e selezionare la scheda **Connessioni dati**.</span><span class="sxs-lookup"><span data-stu-id="fcb85-118">Search for **System Parameters** and navigate to the **Data connections** tab.</span></span> 
-1. <span data-ttu-id="fcb85-119">Impostare **Abilita l'integrazione di Data Lake** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="fcb85-119">Set **Enable Data Lake integration** to **Yes**.</span></span>
-1. <span data-ttu-id="fcb85-120">Impostare **Aggiornamento afflusso Data Lake** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="fcb85-120">Set **Trickle update Data Lake** to **Yes**.</span></span>
-1. <span data-ttu-id="fcb85-121">Successivamente, immettere le informazioni necessarie seguenti:</span><span class="sxs-lookup"><span data-stu-id="fcb85-121">Next, enter the following required information:</span></span>
-    1. <span data-ttu-id="fcb85-122">**ID applicazione** // **Segreto applicazione** // **Nome DNS** - Necessario per connettersi a KeyVault in cui è archiviato il segreto Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="fcb85-122">**Application ID** // **Application Secret** // **DNS Name** - Needed to connect to KeyVault where the Azure Data Lake Storage secret is stored.</span></span>
-    1. <span data-ttu-id="fcb85-123">**Nome segreto** - Il nome segreto memorizzato in KeyVault e utilizzato per l'autenticazione con Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="fcb85-123">**Secret name** - The secret name stored in KeyVault and used to authenticate with Azure Data Lake Storage.</span></span>
-1. <span data-ttu-id="fcb85-124">Salvare le modifiche nell'angolo in alto a sinistra della pagina.</span><span class="sxs-lookup"><span data-stu-id="fcb85-124">Save your changes in the top left corner of the page.</span></span>
+1. <span data-ttu-id="13543-117">Accedere al portale di back office dell'ambiente.</span><span class="sxs-lookup"><span data-stu-id="13543-117">Log in to the environment's back office portal.</span></span>
+1. <span data-ttu-id="13543-118">Cercare **Parametri di sistema** e selezionare la scheda **Connessioni dati**.</span><span class="sxs-lookup"><span data-stu-id="13543-118">Search for **System Parameters** and navigate to the **Data connections** tab.</span></span> 
+1. <span data-ttu-id="13543-119">Impostare **Abilita l'integrazione di Data Lake** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="13543-119">Set **Enable Data Lake integration** to **Yes**.</span></span>
+1. <span data-ttu-id="13543-120">Impostare **Aggiornamento afflusso Data Lake** su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="13543-120">Set **Trickle update Data Lake** to **Yes**.</span></span>
+1. <span data-ttu-id="13543-121">Successivamente, immettere le informazioni necessarie seguenti:</span><span class="sxs-lookup"><span data-stu-id="13543-121">Next, enter the following required information:</span></span>
+    1. <span data-ttu-id="13543-122">**ID applicazione** // **Segreto applicazione** // **Nome DNS** - Necessario per connettersi a KeyVault in cui è archiviato il segreto Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="13543-122">**Application ID** // **Application Secret** // **DNS Name** - Needed to connect to KeyVault where the Azure Data Lake Storage secret is stored.</span></span>
+    1. <span data-ttu-id="13543-123">**Nome segreto** - Il nome segreto memorizzato in KeyVault e utilizzato per l'autenticazione con Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="13543-123">**Secret name** - The secret name stored in KeyVault and used to authenticate with Azure Data Lake Storage.</span></span>
+1. <span data-ttu-id="13543-124">Salvare le modifiche nell'angolo in alto a sinistra della pagina.</span><span class="sxs-lookup"><span data-stu-id="13543-124">Save your changes in the top left corner of the page.</span></span>
 
-<span data-ttu-id="fcb85-125">L'immagine seguente mostra un esempio di configurazione Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="fcb85-125">The following image shows an example Azure Data Lake Storage configuration.</span></span>
+<span data-ttu-id="13543-125">L'immagine seguente mostra un esempio di configurazione Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="13543-125">The following image shows an example Azure Data Lake Storage configuration.</span></span>
 
 ![Esempio dI configurazione Azure Data Lake Storage](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-azure-data-lake-storage-connection"></a><span data-ttu-id="fcb85-127">Testare la connessione Azure Data Lake Storage</span><span class="sxs-lookup"><span data-stu-id="fcb85-127">Test the Azure Data Lake Storage connection</span></span>
+### <a name="test-the-azure-data-lake-storage-connection"></a><span data-ttu-id="13543-127">Testare la connessione Azure Data Lake Storage</span><span class="sxs-lookup"><span data-stu-id="13543-127">Test the Azure Data Lake Storage connection</span></span>
 
-1. <span data-ttu-id="fcb85-128">Testare la connessione a KeyVault usando il collegamento **Testa Azure Key Vault**.</span><span class="sxs-lookup"><span data-stu-id="fcb85-128">Test the connection to KeyVault using the **Test Azure Key Vault** link.</span></span>
-1. <span data-ttu-id="fcb85-129">Testare la connessione a Azure Data Lake Storage usando il collegamento **Testa Archiviazione di Azure**.</span><span class="sxs-lookup"><span data-stu-id="fcb85-129">Test the connection to Azure Data Lake Storage using the **Test Azure Storage** link.</span></span>
+1. <span data-ttu-id="13543-128">Testare la connessione a KeyVault usando il collegamento **Testa Azure Key Vault**.</span><span class="sxs-lookup"><span data-stu-id="13543-128">Test the connection to KeyVault using the **Test Azure Key Vault** link.</span></span>
+1. <span data-ttu-id="13543-129">Testare la connessione a Azure Data Lake Storage usando il collegamento **Testa Archiviazione di Azure**.</span><span class="sxs-lookup"><span data-stu-id="13543-129">Test the connection to Azure Data Lake Storage using the **Test Azure Storage** link.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="fcb85-130">Se i test falliscono, ricontrollare che tutte le informazioni KeyVault aggiunte sopra siano corrette, quindi riprovare.</span><span class="sxs-lookup"><span data-stu-id="fcb85-130">If the tests fail, double-check that all of the KeyVault information added above is correct, then try again.</span></span>
+> <span data-ttu-id="13543-130">Se i test falliscono, ricontrollare che tutte le informazioni KeyVault aggiunte sopra siano corrette, quindi riprovare.</span><span class="sxs-lookup"><span data-stu-id="13543-130">If the tests fail, double-check that all of the KeyVault information added above is correct, then try again.</span></span>
 
-<span data-ttu-id="fcb85-131">Una volta che i test di connessione hanno esito positivo, è necessario abilitare l'aggiornamento automatico per l'archivio entità.</span><span class="sxs-lookup"><span data-stu-id="fcb85-131">Once the connection tests are successful, you must enable automatic refresh for Entity store.</span></span>
+<span data-ttu-id="13543-131">Una volta che i test di connessione hanno esito positivo, è necessario abilitare l'aggiornamento automatico per l'archivio entità.</span><span class="sxs-lookup"><span data-stu-id="13543-131">Once the connection tests are successful, you must enable automatic refresh for Entity store.</span></span>
 
-<span data-ttu-id="fcb85-132">Per abilitare l'aggiornamento automatico per l'archivio entità, attenersi alla seguente procedura.</span><span class="sxs-lookup"><span data-stu-id="fcb85-132">To enable automatic refresh for Entity store, follow these steps.</span></span>
+<span data-ttu-id="13543-132">Per abilitare l'aggiornamento automatico per l'archivio entità, attenersi alla seguente procedura.</span><span class="sxs-lookup"><span data-stu-id="13543-132">To enable automatic refresh for Entity store, follow these steps.</span></span>
 
-1. <span data-ttu-id="fcb85-133">Cercare **Archivio entità**.</span><span class="sxs-lookup"><span data-stu-id="fcb85-133">Search for **Entity Store**.</span></span>
-1. <span data-ttu-id="fcb85-134">Nell'elenco a sinistra, selezionare la voce **RetailSales** e selezionare **Modifica**.</span><span class="sxs-lookup"><span data-stu-id="fcb85-134">In the list on the left, navigate to the **RetailSales** entry, and select **Edit**.</span></span>
-1. <span data-ttu-id="fcb85-135">Assicurarsi che **Aggiornamento automatico attivato** sia impostato su **Sì**, selezionare **Aggiorna**, quindi selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="fcb85-135">Ensure that **Automatic Refresh Enabled** is set to **Yes**, select **Refresh**, and then select **Save**.</span></span>
+1. <span data-ttu-id="13543-133">Cercare **Archivio entità**.</span><span class="sxs-lookup"><span data-stu-id="13543-133">Search for **Entity Store**.</span></span>
+1. <span data-ttu-id="13543-134">Nell'elenco a sinistra, selezionare la voce **RetailSales** e selezionare **Modifica**.</span><span class="sxs-lookup"><span data-stu-id="13543-134">In the list on the left, navigate to the **RetailSales** entry, and select **Edit**.</span></span>
+1. <span data-ttu-id="13543-135">Assicurarsi che **Aggiornamento automatico attivato** sia impostato su **Sì**, selezionare **Aggiorna**, quindi selezionare **Salva**.</span><span class="sxs-lookup"><span data-stu-id="13543-135">Ensure that **Automatic Refresh Enabled** is set to **Yes**, select **Refresh**, and then select **Save**.</span></span>
 
-<span data-ttu-id="fcb85-136">L'immagine seguente mostra un esempio di archivio entità con aggiornamento automatico abilitato.</span><span class="sxs-lookup"><span data-stu-id="fcb85-136">The following image shows an example of Entity store with automatic refresh enabled.</span></span>
+<span data-ttu-id="13543-136">L'immagine seguente mostra un esempio di archivio entità con aggiornamento automatico abilitato.</span><span class="sxs-lookup"><span data-stu-id="13543-136">The following image shows an example of Entity store with automatic refresh enabled.</span></span>
 
 ![Esempio di archivio entità con aggiornamento automatico abilitato](./media/exampleADLSConfig2.png)
 
-<span data-ttu-id="fcb85-138">Azure Data Lake Storage è ora configurato per l'ambiente.</span><span class="sxs-lookup"><span data-stu-id="fcb85-138">Azure Data Lake Storage is now configured for the environment.</span></span> 
+<span data-ttu-id="13543-138">Azure Data Lake Storage è ora configurato per l'ambiente.</span><span class="sxs-lookup"><span data-stu-id="13543-138">Azure Data Lake Storage is now configured for the environment.</span></span> 
 
-<span data-ttu-id="fcb85-139">Se non è già stato fatto, seguire la procedura per [abilitare la personalizzazione e i suggerimenti sui prodotti](enable-product-recommendations.md) per l'ambiente.</span><span class="sxs-lookup"><span data-stu-id="fcb85-139">If not completed already, follow the steps for [enabling product recommendations and personalization](enable-product-recommendations.md) for the environment.</span></span>
+<span data-ttu-id="13543-139">Se non è già stato fatto, seguire la procedura per [abilitare la personalizzazione e i suggerimenti sui prodotti](enable-product-recommendations.md) per l'ambiente.</span><span class="sxs-lookup"><span data-stu-id="13543-139">If not completed already, follow the steps for [enabling product recommendations and personalization](enable-product-recommendations.md) for the environment.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="fcb85-140">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="fcb85-140">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="13543-140">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="13543-140">Additional resources</span></span>
 
-[<span data-ttu-id="fcb85-141">Rendere disponibile l'archivio entità come Data Lake</span><span class="sxs-lookup"><span data-stu-id="fcb85-141">Make entity store available as a data lake</span></span>](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+[<span data-ttu-id="13543-141">Rendere disponibile l'archivio entità come Data Lake</span><span class="sxs-lookup"><span data-stu-id="13543-141">Make entity store available as a data lake</span></span>](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
 
-[<span data-ttu-id="fcb85-142">Panoramica suggerimenti sul prodotto</span><span class="sxs-lookup"><span data-stu-id="fcb85-142">Product recommendations overview</span></span>](product-recommendations.md)
+[<span data-ttu-id="13543-142">Panoramica suggerimenti sul prodotto</span><span class="sxs-lookup"><span data-stu-id="13543-142">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="fcb85-143">Abilita suggerimenti sul prodotto</span><span class="sxs-lookup"><span data-stu-id="fcb85-143">Enable product recommendations</span></span>](enable-product-recommendations.md)
+[<span data-ttu-id="13543-143">Abilita suggerimenti sul prodotto</span><span class="sxs-lookup"><span data-stu-id="13543-143">Enable product recommendations</span></span>](enable-product-recommendations.md)
 
-[<span data-ttu-id="fcb85-144">Abilitare i suggerimenti personalizzati</span><span class="sxs-lookup"><span data-stu-id="fcb85-144">Enable personalized recommendations</span></span>](personalized-recommendations.md)
+[<span data-ttu-id="13543-144">Abilitare i suggerimenti personalizzati</span><span class="sxs-lookup"><span data-stu-id="13543-144">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="fcb85-145">Rifiuto esplicito dei suggerimenti personalizzati</span><span class="sxs-lookup"><span data-stu-id="fcb85-145">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+[<span data-ttu-id="13543-145">Rifiuto esplicito dei suggerimenti personalizzati</span><span class="sxs-lookup"><span data-stu-id="13543-145">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
 
-[<span data-ttu-id="fcb85-146">Abilitare gli elementi consigliati "acquista prodotti simili"</span><span class="sxs-lookup"><span data-stu-id="fcb85-146">Enable "shop similar looks" recommendations</span></span>](shop-similar-looks.md)
+[<span data-ttu-id="13543-146">Abilitare gli elementi consigliati "acquista prodotti simili"</span><span class="sxs-lookup"><span data-stu-id="13543-146">Enable "shop similar looks" recommendations</span></span>](shop-similar-looks.md)
 
-[<span data-ttu-id="fcb85-147">Aggiungere suggerimenti sul prodotto nel POS</span><span class="sxs-lookup"><span data-stu-id="fcb85-147">Add product recommendations on POS</span></span>](product.md)
+[<span data-ttu-id="13543-147">Aggiungere suggerimenti sul prodotto nel POS</span><span class="sxs-lookup"><span data-stu-id="13543-147">Add product recommendations on POS</span></span>](product.md)
 
-[<span data-ttu-id="fcb85-148">Aggiungere suggerimenti alla schermata della transazione</span><span class="sxs-lookup"><span data-stu-id="fcb85-148">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
+[<span data-ttu-id="13543-148">Aggiungere suggerimenti alla schermata della transazione</span><span class="sxs-lookup"><span data-stu-id="13543-148">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
 
-[<span data-ttu-id="fcb85-149">Regolare i risultati dei suggerimenti AI-ML</span><span class="sxs-lookup"><span data-stu-id="fcb85-149">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+[<span data-ttu-id="13543-149">Regolare i risultati dei suggerimenti AI-ML</span><span class="sxs-lookup"><span data-stu-id="13543-149">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
 
-[<span data-ttu-id="fcb85-150">Creare manualmente suggerimenti mirati</span><span class="sxs-lookup"><span data-stu-id="fcb85-150">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+[<span data-ttu-id="13543-150">Creare manualmente suggerimenti mirati</span><span class="sxs-lookup"><span data-stu-id="13543-150">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
 
-[<span data-ttu-id="fcb85-151">Crea suggerimenti con dati dimostrativi</span><span class="sxs-lookup"><span data-stu-id="fcb85-151">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+[<span data-ttu-id="13543-151">Crea suggerimenti con dati dimostrativi</span><span class="sxs-lookup"><span data-stu-id="13543-151">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
 
-[<span data-ttu-id="fcb85-152">Domande frequenti su suggerimenti prodotto</span><span class="sxs-lookup"><span data-stu-id="fcb85-152">Product recommendations FAQ</span></span>](faq-recommendations.md)
+[<span data-ttu-id="13543-152">Domande frequenti su suggerimenti prodotto</span><span class="sxs-lookup"><span data-stu-id="13543-152">Product recommendations FAQ</span></span>](faq-recommendations.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Funzione ER UPPER
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione UPPER della creazione di report elettronici (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,44 +15,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb89ca48c0035e672b2de6820d6ef08d36c02af
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0e0e9837765914c657a72c5ce04c6f565fa13788
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559991"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749143"
 ---
-# <a name="upper-er-function"></a><span data-ttu-id="c0082-103">Funzione ER UPPER</span><span class="sxs-lookup"><span data-stu-id="c0082-103">UPPER ER function</span></span>
+# <a name="upper-er-function"></a><span data-ttu-id="53017-103">Funzione ER UPPER</span><span class="sxs-lookup"><span data-stu-id="53017-103">UPPER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c0082-104">La funzione `UPPER` restituisce la stringa di testo specificata come valore *Stringa* dopo che è stata convertita in lettere maiuscole.</span><span class="sxs-lookup"><span data-stu-id="c0082-104">The `UPPER` function returns the specified text string as a *String* value after it has been converted to uppercase letters.</span></span>
+<span data-ttu-id="53017-104">La funzione `UPPER` restituisce la stringa di testo specificata come valore *Stringa* dopo che è stata convertita in lettere maiuscole.</span><span class="sxs-lookup"><span data-stu-id="53017-104">The `UPPER` function returns the specified text string as a *String* value after it has been converted to uppercase letters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c0082-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="c0082-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="53017-105">Sintassi</span><span class="sxs-lookup"><span data-stu-id="53017-105">Syntax</span></span>
 
 ```vb
 UPPER (text )
 ```
 
-## <a name="arguments"></a><span data-ttu-id="c0082-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="c0082-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="53017-106">Argomenti</span><span class="sxs-lookup"><span data-stu-id="53017-106">Arguments</span></span>
 
-<span data-ttu-id="c0082-107">`text`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="c0082-107">`text`: *String*</span></span>
+<span data-ttu-id="53017-107">`text`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="53017-107">`text`: *String*</span></span>
 
-<span data-ttu-id="c0082-108">Il percorso valido di un'origine dati del tipo *Stringa*.</span><span class="sxs-lookup"><span data-stu-id="c0082-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="53017-108">Il percorso valido di un'origine dati del tipo *Stringa*.</span><span class="sxs-lookup"><span data-stu-id="53017-108">The valid path of a data source of the *String* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="c0082-109">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="c0082-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="53017-109">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="53017-109">Return values</span></span>
 
-<span data-ttu-id="c0082-110">*Stringa*</span><span class="sxs-lookup"><span data-stu-id="c0082-110">*String*</span></span>
+<span data-ttu-id="53017-110">*Stringa*</span><span class="sxs-lookup"><span data-stu-id="53017-110">*String*</span></span>
 
-<span data-ttu-id="c0082-111">Il valore di testo risultante.</span><span class="sxs-lookup"><span data-stu-id="c0082-111">The resulting text value.</span></span>
+<span data-ttu-id="53017-111">Il valore di testo risultante.</span><span class="sxs-lookup"><span data-stu-id="53017-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="c0082-112">Esempio</span><span class="sxs-lookup"><span data-stu-id="c0082-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="53017-112">Esempio</span><span class="sxs-lookup"><span data-stu-id="53017-112">Example</span></span>
 
-<span data-ttu-id="c0082-113">`UPPER ("Sample")` restituisce **"SAMPLE"**.</span><span class="sxs-lookup"><span data-stu-id="c0082-113">`UPPER ("Sample")` returns **"SAMPLE"**.</span></span>
+<span data-ttu-id="53017-113">`UPPER ("Sample")` restituisce **"SAMPLE"**.</span><span class="sxs-lookup"><span data-stu-id="53017-113">`UPPER ("Sample")` returns **"SAMPLE"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c0082-114">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="c0082-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="53017-114">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="53017-114">Additional resources</span></span>
 
-[<span data-ttu-id="c0082-115">Funzioni di testo</span><span class="sxs-lookup"><span data-stu-id="c0082-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="53017-115">Funzioni di testo</span><span class="sxs-lookup"><span data-stu-id="53017-115">Text functions</span></span>](er-functions-category-text.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
