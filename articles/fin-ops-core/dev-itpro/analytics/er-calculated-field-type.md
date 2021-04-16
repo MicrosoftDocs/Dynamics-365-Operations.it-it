@@ -2,7 +2,6 @@
 title: Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 description: In questo argomento vengono fornite informazioni su come utilizzare il tipo Campo calcolato per le origini dati ER.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569203"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749491"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 
@@ -194,7 +193,7 @@ Nella pagina **Progettazione formati**, il campo calcolato parametrizzato config
 
 ![Elenco espanso dei livelli del campo calcolato](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Utilizzare il campo calcolato configurato per associare elementi di formato
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Utilizzare il campo calcolato configurato per associare elementi di formato
 
 1. Selezionare **Model.Data2.Levels** per selezionare il campo calcolato configurato.
 2. Selezionare l'elemento di formato **Statement.Taxation.Regular**.
@@ -215,7 +214,7 @@ Nella pagina **Progettazione formati**, il campo calcolato parametrizzato config
 9. Selezionare **Associa**.
 10. Selezionare **Sì** per confermare la sostituzione dell'origine dati attualmente utilizzata, **Level3**, con la nuova origine dati, **Livelli**, in tutti gli elementi di formato nidificati sotto l'elemento di formato selezionato.
 
-   Quando si specifica l'argomento del campo calcolato parametrizzato per l'elemento XML che rappresenta il livello di tassazione (ad esempio **Model.Data2.Levels("Ridotto")** come valore di testo) non è necessario effettuare la stessa operazione per gli attributi XML nidificati: le relative associazioni erediteranno automaticamente il valore dell'argomento definito nel livello principale (**Model.Data2.Levels.aggregated.Base**, non **Model.Data2.Levels("Reduced").aggregated.Base**).
+   Quando si specifica l'argomento del campo calcolato parametrizzato per l'elemento XML che rappresenta il livello di tassazione (ad esempio **Model.Data2.Levels(&quot;Ridotto")** come valore di testo) non è necessario effettuare la stessa operazione per gli attributi XML nidificati: le relative associazioni erediteranno automaticamente il valore dell'argomento definito nel livello principale (**Model.Data2.Levels.aggregated.Base**, non **Model.Data2.Levels("Reduced").aggregated.Base**).
 
 Le chiamate ricorrenti di qualsiasi campo calcolato parametrizzato non sono supportate.
 

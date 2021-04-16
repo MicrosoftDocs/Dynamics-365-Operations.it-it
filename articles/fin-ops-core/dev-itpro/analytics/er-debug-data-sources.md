@@ -2,7 +2,6 @@
 title: Eseguire il debug delle origini dati di un formato ER eseguito per analizzare il flusso e la trasformazione dei dati
 description: Questo argomento spiega come eseguire il debug delle origini dati di un formato ER eseguito per comprendere meglio il flusso e la trasformazione dei dati configurati.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: bda81da80996d8cba38ac48e29c47ffef61d3bdb
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fe3e6a4223fc8b26e523a982a2e1752a34b370de
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562192"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753674"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Eseguire il debug delle origini dati di un formato ER eseguito per analizzare il flusso e la trasformazione dei dati
 

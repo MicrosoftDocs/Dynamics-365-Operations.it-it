@@ -2,7 +2,6 @@
 title: Delegare elementi di lavoro in un flusso di lavoro
 description: Se si prevede di restare assenti dall'ufficio o di non essere disponibili per intervenire su alcuni elementi di lavoro, è possibile delegare o riassegnare i propri elementi di lavoro ad altri utenti.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 054e183374d2b24f38b0f90ff90acfeeca013861
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ed21f6d32cdcf74eb153daba32c20b7cef94d4e4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560557"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747371"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Delegare elementi di lavoro in un flusso di lavoro
 
