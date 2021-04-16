@@ -2,11 +2,9 @@
 title: Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.12 (agosto 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258973"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832204"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.12 (agosto 2020)
 
@@ -47,11 +45,11 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 
 - [Informazioni dettagliate di base di intelligenza IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Per ulteriori informazioni, vedere [Home page intelligence IoT](../iot/iot-intelligence-home-page.md).
 
-- [Miglioramenti alla ricezione della targa per l'app di magazzino (continua)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Per ulteriori informazioni, vedere [Ricevimento della targa tramite l'app di magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Miglioramenti alla ricezione della targa per l'app di magazzino (continua)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Per ulteriori informazioni, vedi [Ricezione della targa con l'app per dispositivi mobili Gestione magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Distribuzione di massa dell'app di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Per ulteriori informazioni, vedere [Panoramica sull'installazione e sulla configurazione dell'app di magazzino](../warehousing/install-configure-warehousing-app.md).
+- [Distribuzione di massa dell'app di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Per ulteriori informazioni, vedi [Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md).
 
-- [Tempo di esecuzione massimo per il processo di pulizia voci disponibili di gestione magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Per ulteriori informazioni, vedere [Processo di pulizia delle voci disponibili per la gestione del magazzino](../warehousing/onhand-cleanup.md).
+- [Tempo di esecuzione massimo per il processo di pulizia scorte disponibili di gestione magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Per ulteriori informazioni, vedere [Processo di pulizia delle voci disponibili per la gestione del magazzino](../warehousing/onhand-cleanup.md).
 
 - [Supporto di Ottimizzazione pianificazione per i contratti di acquisto commerciali](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Per ulteriori informazioni, vedere [Pianificazione generale con accordi commerciali di acquisto](../master-planning/planning-optimization/purchase-trade-agreement.md).
 

@@ -2,11 +2,9 @@
 title: Limiti stoccaggio ubicazione
 description: Questo argomento descrive la funzionalità per i limiti di stoccaggio dell'ubicazione.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216983"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831268"
 ---
 # <a name="location-stocking-limits"></a>Limiti stoccaggio ubicazione
 
@@ -83,7 +81,7 @@ In questo esempio, verrà eseguito un flusso di ricezione dell'ordine fornitore 
 
 Si riceve prima una quantità di *4* unità *PL* nella taglia *S* e rivedere le ubicazioni della riga di stoccaggio per il lavoro creato. Si riceve poi una quantità di *4* unità *PL* nella taglia *L* e rivedere le ubicazioni della riga di stoccaggio per il lavoro creato.
 
-1. Nell'app del magazzino accedere utilizzando *24* come ID utente e *1* come password.
+1. Nell'app per dispositivi mobili Gestione magazzino accedi utilizzando *24* come ID utente e *1* come password.
 1. Selezionare **In entrata** \> **Entrata acquisto**.
 1. Ricevere *4* *PL* del numero di articolo *D0013* nella taglia *S*.
 1. Rivedere il lavoro di stoccaggio che è stato creato. Si dovrebbero vedere i seguenti risultati:

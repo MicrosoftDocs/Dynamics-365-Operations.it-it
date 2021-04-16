@@ -2,11 +2,9 @@
 title: Gruppi di costi
 description: I gruppi di costi rappresentano la base per la segmentazione e l'analisi dei contributi costi nel costo calcolato di un articolo prodotto, ad esempio i contributi costi per il materiale, la manodopera e i costi generali. Per la segmentazione per gruppi di costi vengono utilizzati diversi sinonimi negli ambienti di produzione, ad esempio scomposizione dei costi o classificazione dei costi.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd7f9b8e7a1b15dd94ee8ebe5b6c70b0d85495a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6ec09fe3611542c9f4c4c65628a15cc690a3b437
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251004"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839393"
 ---
 # <a name="cost-groups"></a>Gruppi di costi
 

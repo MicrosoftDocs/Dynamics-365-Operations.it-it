@@ -2,11 +2,9 @@
 title: Rivalutazione valuta estera per contabilità generale
 description: 'In questo argomento viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario.'
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2f24c60b3fb82532f50e58dde9a19f5fefb25d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249265"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832924"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Rivalutazione valuta estera per contabilità generale
 
@@ -83,7 +81,7 @@ Il conto principale viene rivalutato il 31 gennaio.  La perdita/il profitto non 
 
 | Saldo corrente in valuta della transazione | Saldo corrente in valuta di contabilizzazione | Tasso di cambio alla rivalutazione | Nuovo importo nella valuta di contabilizzazione | Perdita/profitto non realizzato    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EURO                                     | 1000 USD                                   | 166,6667                         | 833,33 EURO (500 x 1,666667)        | Perdita 166,67 (833,33 - 1000) |
+| 500 EURO                                     | 1000 USD                                   | 166.6667                         | 833.33 USD (500 x 1,666667)        | Perdita 166,67 (833,33 - 1000) |
 
 Verrà creata la voce contabile che segue.
 

@@ -2,7 +2,6 @@
 title: Transazioni in eccesso/in difetto
 description: Questo argomento fornisce informazioni che consentono di impostare i dettagli dei criteri relativi alle transazioni in eccesso/in difetto, di modo che il sistema possa determinare come gestire l'elaborazione in eccesso e in difetto delle merci al momento del ricevimento.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500984"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833739"
 ---
 # <a name="overunder-transactions"></a>Transazioni in eccesso/in difetto
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Quando gli ordini di un viaggio vengono elaborati, il sistema prevede che la quantità degli articoli ricevuta nel magazzino di destinazione finale per il consumo corrisponda alla quantità specificata nelle righe di ordine fornitore associate al viaggio. Tuttavia, poiché la quantità esatta nelle righe di ordine fornitore non viene sempre ricevuta in magazzino, il modulo **Costo sbarcato** definisce un insieme di regole che vengono utilizzate per gestire il ricevimento in eccesso e in difetto di merci. Queste regole sono particolarmente importanti poiché l'ordine fornitore originale è stato fatturato e non può più essere modificato. Mediante la configurazione dei dettagli dei criteri relativi alle transazioni in eccesso/in difetto, il sistema determina il modo in cui gestire l'elaborazione in eccesso e in difetto delle merci al momento del ricevimento. È anche possibile gestire manualmente le scorte in eccesso e in difetto utilizzando la, pagina **Transazioni in eccesso/in difetto**.
 

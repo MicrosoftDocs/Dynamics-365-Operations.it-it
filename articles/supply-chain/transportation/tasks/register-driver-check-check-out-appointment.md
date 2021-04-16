@@ -2,11 +2,9 @@
 title: Registrare il check-in e il check-out del conducente per un appuntamento
 description: In questa procedura viene descritto come registrare il check-in e il check-out di un conducente.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d7d2f368b933054f4ea1248868b97808d05ed229
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c1f97612f308063edeaca2c31eafa3caa5c42a31
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233777"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838492"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Registrare il check-in e il check-out del conducente per un appuntamento
 

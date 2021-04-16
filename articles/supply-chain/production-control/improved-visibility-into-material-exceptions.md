@@ -2,13 +2,11 @@
 title: Visibilità nelle eccezioni materiali
 description: In questo argomento viene descritto come è possibile migliorare la visibilità delle eccezioni per le materie prime per gli ordini di produzione e gli ordini batch.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246167"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831988"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilità nelle eccezioni materiali
 
@@ -59,9 +57,13 @@ Quando si selezionano i riquadri, viene aperta la pagina **Rilascia in magazzino
 
 Quando una DBA o una riga formula viene rilasciata, viene aggiunta a una nuova ondata di produzione o a un'ondata aperta esistente, in base alla configurazione del modello di ondata di produzione. Tramite la configurazione del modello d'ondata, si può anche impostare un'ondate in modo che venga elaborata automaticamente quando viene rilasciata una distinta base o una riga formula Quando l'ondata viene elaborata, il lavoro di magazzino per il prelievo della materia prima viene creato. Se il modello d'ondata è configurato in modo tale che le ondate non vengano elaborate al momento del rilascio, l'ondata rimane in uno stato non elaborato. Il riquadro **Ondate inevase che richiedono attenzione** indica il numero di DBA e righe formula rilasciate in magazzino in ondate non elaborate e con data di materie prime precedente o uguale alla data dell'area di lavoro. Le righe devono essere utilizzate anche da una risorsa operativa che si applica al filtro dell'area di lavoro.
 
-Quando il riquadro è selezionato, la pagina **Tutte le ondate di produzione** si apre. Questa pagina viene filtrata per numero di ondate aperte che contengono righe d'ondata di DBA e righe formula rilasciate che soddisfano i criteri per il riquadro. Nella pagina **Tutte le ondate di produzione** è possibile elaborare manualmente l'ondata.
+Quando il riquadro è selezionato, la pagina **Tutte le ondate di produzione** viene aperta. Questa pagina viene filtrata per numero di ondate aperte che contengono righe d'ondata di DBA e righe formula rilasciate che soddisfano i criteri per il riquadro.
 
-## <a name="open-warehouse-work-needing-attention"></a>Lavoro magazzino aperto che richiede attenzione
+### <a name="manually-maintain-production-waves"></a>Mantenere manualmente i cicli di produzione
+
+Sulla pagina **Tutti i cicli di produzione** puoi usare i pulsanti della scheda **Ciclo** del riquadro azioni per **elaborare** e **rilasciare** manualmente un ciclo. Puoi anche usare l'opzione **Mantieni produzioni** per visualizzare e mantenere i dati del **pool DBA di produzione** che vengono utilizzati per gestire il processo di ciclo.
+
+## <a name="open-warehouse-work-needing-attention"></a>Lavoro di magazzino aperto che richiede attenzione
 
 Il riquadro **Lavoro magazzino aperto che richiede attenzione** indica il numero di DBA e righe formula rilasciate in magazzino con lavoro non elaborato e con data di materie prime precedente o uguale alla data dell'area di lavoro. Le righe devono essere utilizzate anche da una risorsa operativa che si applica al filtro dell'area di lavoro.
 

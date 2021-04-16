@@ -2,11 +2,9 @@
 title: Risolvere i problemi di configurazione della previsione del flusso di cassa
 description: Questo argomento fornisce le risposte alle domande che potrebbero sorgere quando si configura la previsione del flusso di cassa. Risponde alle domande frequenti (FAQ) sulla configurazione del flusso di cassa, sugli aggiornamenti del flusso di cassa e sul flusso di cassa Power BI.
 author: panolte
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1cde9321259753bd0cacab3706c7f8455598ff3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b4760d7a0d0c14e2df8df20c2f81ec41e077cc0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232491"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827316"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Risolvere i problemi di configurazione della previsione del flusso di cassa
 
@@ -47,11 +45,19 @@ La previsione del flusso di cassa deve essere impostata per ogni persona giuridi
 
 ## <a name="why-did-cash-flow-power-bi-work-in-previous-versions-but-is-now-blank"></a>Perché il flusso di cassa Power BI funziona nelle versioni precedenti ma ora è vuoto?
 
-Verifica che le misure "Misura flusso di cassa V2" e "LedgerCovLiquidityMeasurement" dall'archivio entità siano state configurate. Per ulteriori informazioni su come lavorare con i dati nell'archivio entità, vedi [Integrazione di Power BI con l'archivio entità](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md) Verifica che tutti i passaggi necessari per visualizzare il contenuto Power BI siano stati completati. Per ulteriori informazioni, vedere [Contenuto di Power BI della panoramica situazione di cassa](Cash-Overview-Power-BI-content.md).
+Verifica che le misure "Misura flusso di cassa V2" e "LedgerCovLiquidityMeasurement" dall'archivio entità siano state configurate. Per ulteriori informazioni su come utilizzare i dati nell'archivio entità, vedi [Integrazione di Power BI con l'archivio entità](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). Verifica che tutti i passaggi necessari per visualizzare i contenuti di Power BI siano stati completati. Per ulteriori informazioni, vedere [Contenuto di Power BI della panoramica situazione di cassa](Cash-Overview-Power-BI-content.md).
 
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Le entità dell'archivio entità sono state aggiornate?
 
 È necessario aggiornare periodicamente le entità per garantire che i dati siano aggiornati e accurati. Per aggiornare manualmente un'entità specifica, vai a **Amministrazione di sistema \> Impostazione \> Archivio entità**, seleziona l'entità e quindi seleziona **Aggiorna**. I dati possono anche essere aggiornati automaticamente. Nella pagina **Archivio entità** imposta l'opzione **Aggiornamento automatico abilitato** su **Sì**.
 
+## <a name="which-calculation-method-should-be-used-when-calculating-cash-flow-forecasts"></a>Quale metodo di calcolo deve essere utilizzato per calcolare le previsioni del flusso di cassa?
+
+Il metodo di calcolo della previsione del flusso di cassa ha due importanti opzioni di selezione. L'opzione **Nuovo** calcolerà le previsioni del flusso di cassa per i nuovi documenti e documenti che sono stati modificati dall'ultimo processo batch eseguito. Questa opzione tende a essere eseguita più velocemente perché elabora un sottoinsieme più piccolo di documenti. L'opzione **Totale** ricalcola le previsioni del flusso di cassa per ogni documento nel sistema. Questa opzione richiede più tempo perché ha più lavoro da completare.
+
+### <a name="how-do-i-improve-the-performance-of-the-cash-flow-forecasting-recurring-batch-job"></a>Come si migliorano le prestazioni del processo batch ricorrente di previsione del flusso di cassa?
+
+Ti consigliamo di eseguire la previsione del flusso di cassa una volta al giorno durante le ore non di punta utilizzando il metodo di calcolo **Nuovo** . Utilizza questo approccio sei giorni alla settimana. Quindi esegui una previsione del flusso di cassa una volta alla settimana utilizzando il metodo di calcolo **Totale** nel giorno con la minor quantità di attività.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

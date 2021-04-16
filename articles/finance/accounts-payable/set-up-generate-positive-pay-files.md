@@ -2,11 +2,9 @@
 title: Impostare e generare file pagamenti sicuri
 description: In questo argomento viene descritto come impostare un pagamento sicuro e generare file pagamenti sicuri.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830714"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Impostare e generare file pagamenti sicuri
 
@@ -140,6 +138,9 @@ Questi file vengono creati tramite entità di dati. Prima di generare un file pa
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> I nomi XML nell'XSLT devono corrispondere all'ortografia dei nodi nell'XML. Entrambi i file XSLT e XML fanno distinzione tra maiuscole e minuscole. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Assegnare il formato pagamenti sicuri a un conto bancario
 Per ogni conto bancario per il quale generare le informazioni pagamenti sicuri, è necessario assegnare il formato pagamenti sicuri specificato nella sezione precedente. Nella pagina **Conti bancari** selezionare il formato pagamenti sicuri che corrisponde al conto bancario. Nel campo **Data di inizio pagamenti sicuri** immettere la prima data per generare i file pagamenti sicuri. È importante immettere una data in questo campo. In caso contrario, il file pagamenti sicuri generato includerà tutti gli assegni creati per questo conto bancario.

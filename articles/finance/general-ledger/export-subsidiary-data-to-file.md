@@ -2,11 +2,9 @@
 title: Esportare i dati delle filiali in file
 description: Questo argomento spiega come prepararsi all'esportazione di dati da Microsoft Dynamics 365 Finance e quindi importarli in una persona giuridica consolidata.
 author: jinniew
-manager: AnnBe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 33c17cc2c1dcaa57244bf0bfaa661b11b221e2f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bae0a28c59f327e47378eef6392d5e304bbde9a8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205501"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826180"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Esportare i dati delle filiali in file
 

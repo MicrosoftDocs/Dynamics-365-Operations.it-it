@@ -2,11 +2,9 @@
 title: Risolvere i problemi di aggiornamento e migrazione alla gestione avanzata del magazzino
 description: Questo argomento descrive come risolvere i problemi comuni che potrebbero verificarsi durante l'aggiornamento e la migrazione alla gestione avanzata del magazzino.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208089"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826397"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Risolvere i problemi di aggiornamento e migrazione alla gestione avanzata del magazzino
 
@@ -34,11 +32,11 @@ Questo argomento descrive come risolvere i problemi comuni che potrebbero verifi
 
 ### <a name="issue-description"></a>Descrizione del problema
 
-Viene visualizzato questo messaggio di errore nell'app del magazzino, perché i certificati autofirmati non sono attendibili su Android 8+ in ambienti locali.
+Viene visualizzato questo messaggio di errore nell'app per dispositivi mobili Gestione magazzino, perché i certificati autofirmati non sono attendibili su Android 8+ in ambienti locali.
 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
-Utilizzare un'autorità di certificazione (CA) esterna (pubblica). Una correzione per questo problema è disponibile nella versione 1.9.0.0 dell'app del magazzino. Per ulteriori informazioni su questo problema e su come risolverlo, vedere [Risolvere i problemi di connessione delle app di magazzino](troubleshoot-warehouse-app-connection.md).
+Utilizzare un'autorità di certificazione (CA) esterna (pubblica). Una correzione per questo problema è disponibile nella versione 1.9.0.0 dell'app del magazzino. Per ulteriori informazioni su questo problema e su come risolverlo, vedere [Risolvere i problemi di connessione dell'app per dispositivi mobili Gestione magazzino](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Qual è il processo approvato per il passaggio dal magazzino di base a quello avanzato?
 

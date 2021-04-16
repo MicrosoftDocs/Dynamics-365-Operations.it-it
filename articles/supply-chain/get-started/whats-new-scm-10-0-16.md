@@ -2,11 +2,9 @@
 title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.16 (febbraio 2021)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236077"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829982"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.16 (febbraio 2021)
 
@@ -35,11 +33,13 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa versione include le seguenti funzionalità. Alcune delle funzionalità elencate sono ancora in anteprima, mentre altre potrebbero essere già generalmente disponibili. Seguire i collegamenti del [piano di rilascio](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
+Questa versione include le seguenti funzionalità. Seguire i collegamenti del [piano di rilascio](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
 
 - [Interfaccia di esecuzione del reparto di produzione personalizzabile](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Per ulteriori informazioni, vedere [Impostare un dispositivo per eseguire l'interfaccia di esecuzione del reparto di produzione](../production-control/production-floor-execution-setup.md).
 
 - [Componente aggiuntivo Visibilità magazzino per Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Per ulteriori informazioni, vedere [Componente aggiuntivo Visibilità magazzino](../inventory/inventory-visibility.md)
+
+- Sequenza numerica unificata per gli ID processo<br> - Per ulteriori informazioni, vedi [Sequenza numerica unificata per ID lavoro](../production-control/unified-job-ids.md).
 
 - [Convalidare le targhe sulle righe del documento di origine](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Per ulteriori informazioni, vedere [Panoramica della configurazione del magazzino](../warehousing/warehouse-configuration.md).
 
@@ -75,7 +75,7 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 - [Risolvere problemi relativi agli ordini cliente](../sales-marketing/troubleshooting-sales.md)
 - [Risolvere problemi relativi alle offerte di vendita](../sales-marketing/troubleshooting-salesquotation.md)
 - [Risolvere i problemi di aggiornamento e migrazione alla gestione avanzata del magazzino](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Risolvere i problemi di connessione dell'app di magazzino](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Risolvere i problemi di connessione dell'app per dispositivi mobili Gestione magazzino](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Risolvere i problemi della configurazione del magazzino](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Risolvere i problemi di rifornimento del magazzino](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Risolvere i problemi di configurazione del magazzino](../warehousing/troubleshoot-warehouse-setup.md)
