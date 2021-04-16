@@ -1,12 +1,10 @@
 ---
 title: Conferma di prelievo pezzi
-description: In questo argomento viene descritto come impostare e applicare la conferma di prelievo dei pezzi da un dispositivo mobile.
+description: Il prelievo dei pezzi consente di confermare ogni pezzo di magazzino tramite lavoro di prelievo o conteggio su un dispositivo mobile.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
@@ -16,20 +14,20 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 852bd29ae18b4903906aa7fb97a06389cd7cd3bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3f9da533998341de60d210e196baae64d285d372
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232865"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818850"
 ---
 # <a name="piece-picking-confirmation"></a>Conferma di prelievo pezzi
 
 [!include [banner](../includes/banner.md)]
 
-Il prelievo dei pezzi consente di confermare ogni pezzo di magazzino tramite lavoro di prelievo o conteggio su un dispositivo mobile. Per i prelievi, è possibile confermare la quantità di lavoro da elaborare fino a quella specificata sul lavoro da prelevare. Per il lavoro di conteggio, è possibile analizzare le scorte in fase di conteggio e registrare l'importo totale.
+Il prelievo dei pezzi consente di confermare ogni pezzo di magazzino tramite lavoro di prelievo o conteggio su un dispositivo mobile. Per i prelievi, è possibile confermare la quantità di lavoro da elaborare fino a quella specificata sul lavoro da prelevare. Per il lavoro di conteggio, puoi analizzare le scorte in fase di conteggio e registrare l'importo totale.
 
-Quando si abilita il prelievo dei pezzi, la conferma del prodotto viene selezionata automaticamente. Per i prelievi di tipo lavoro, il numero massimo di pezzi è abilitato. Consente di impostare un valore massimo per il numero di pezzi che devono essere confermati durante il processo di lavoro. La quantità massima è basata sull'unità di lavoro corrente in corso di elaborazione. Il tipo di lavoro conteggio non consente un valore massimo.
+Quando si abilita il prelievo dei pezzi, la conferma del prodotto viene selezionata automaticamente. Per i prelievi di tipo lavoro, puoi impostare il numero massimo di pezzi. Consente di impostare un valore massimo per il numero di pezzi che devono essere confermati durante il processo di lavoro. La quantità massima è basata sull'unità di lavoro corrente in corso di elaborazione. Il tipo di lavoro conteggio non consente un valore massimo.
 
 È inoltre possibile utilizzare la quantità e l'unità di misura (UOM) associata a un codice a barre letto tramite scanner. Questo funzionerà per il ricevimento sui flussi in entrata incluso il ricevimento di numero di identificazione, articolo ordine fornitore, articolo ordine di trasferimento e articolo di carico. Funziona anche con il prelievo dei pezzi in cui scansione del codice a barre aggiunge la quantità al numero totale di pezzi confermati che eseguono la conversione tra l'unità di misura sul codice a barre e l'unità di lavoro. Se durante il conteggio dell'unità di misura sul codice a barre, viene confermato che la quantità è consentita per il conteggio per il gruppo di sequenze, la quantità verrà aggiunto al conto totale.
 

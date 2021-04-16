@@ -1,12 +1,10 @@
 ---
 title: flusso di lavoro delle richieste di acquisto
 description: Il processo del flusso di lavoro fa avanzare le richieste di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di Bozza fino allo stato finale di Approvata. Nel momento in cui si crea e si invia una richiesta di acquisto per la revisione, ha inizio il processo del flusso di lavoro. In seguito all'approvazione della richiesta di acquisto, è possibile generare un ordine fornitore per le righe della richiesta di acquisto e inviarlo al fornitore per evasione dell'ordine.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67bad698584c4a49cc5ce82682bb32cd1e32bbd5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 12497e4b6dde44cc7f3701cf6e00c90f109ff16c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215915"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825376"
 ---
 # <a name="purchase-requisition-workflow"></a>flusso di lavoro delle richieste di acquisto
 

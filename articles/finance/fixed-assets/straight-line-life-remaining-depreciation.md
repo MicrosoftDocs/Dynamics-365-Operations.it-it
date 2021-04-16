@@ -2,11 +2,9 @@
 title: Ammortamento basato sulla vita utile rimanente a quote costanti
 description: Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile rimanente a quote costanti.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 823b2569670adfbf04038abca656e34f0199fce1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd7bc6d773d85a1ba02151b96bf80f970845d4a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210097"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818514"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Ammortamento basato sulla vita utile rimanente a quote costanti
 
@@ -57,9 +55,9 @@ Se si seleziona **Fiscale** nel campo **Anno di ammortamento**, viene utilizzato
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Esempio di ammortamento a quote costanti di un cespite non modificato
 A un cespite sono associate le seguenti caratteristiche.
 
-|                     |        |
+| Campo               | Valore  |
 |---------------------|--------|
-| Costo di acquisizione    | 11.000 |
+| Costo di acquisizione    | 11,000 |
 | Valore di realizzo       | 1.000  |
 | Base di ammortamento   | 10.000 |
 | Anni vita utile  | 5      |

@@ -2,11 +2,9 @@
 title: Elenco scorte disponibili
 description: Questo argomento descrive come utilizzare la pagina Elenco scorte disponibili per esaminare i relativi dettagli. La pagina mostra come le varie opzioni di filtro e ordinamento interagiscono tra loro e in che modo tali opzioni possano talvolta produrre risultati imprevisti quando vengono combinate.
 author: sherry-zheng
-manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f16a1cc7ba2ed9eb6751173e55ba071e9b4bb9d3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1e054c4010f730519532b67fe900573480ea2a67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220898"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825989"
 ---
 # <a name="inventory-on-hand-list"></a>Elenco scorte disponibili
 

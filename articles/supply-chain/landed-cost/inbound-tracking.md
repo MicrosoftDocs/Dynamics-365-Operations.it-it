@@ -2,7 +2,6 @@
 title: Tenere traccia dei viaggi in entrata e dei percorsi dei contenitori di spedizione
 description: In questo argomento viene descritto come è possibile utilizzare la pagina Tracciabilità in entrata per tenere traccia dell'avanzamento dei viaggi e dei percorsi dei contenitori di spedizione.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 678f2b6cda0592e0393bb15f372cb4be84778932
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 40f8e48b8e52c109023cf0ea5a55657754e1d5b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501248"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823387"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>Tenere traccia dei viaggi in entrata e dei percorsi dei contenitori di spedizione
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La pagina **Tracciabilità in entrata** consente di tenere traccia dell'avanzamento dei viaggi e dei percorsi dei contenitori di spedizione. Ogni viaggio e percorso è suddiviso per *attività*, ognuna dei quali ha una propria riga nella pagina. È possibile utilizzare la pagina per visualizzare e immettere date stimate e date effettive per attività.
 

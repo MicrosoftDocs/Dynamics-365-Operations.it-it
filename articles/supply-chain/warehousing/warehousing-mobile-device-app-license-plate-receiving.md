@@ -1,12 +1,10 @@
 ---
-title: Ricevimento della targa tramite l'app di magazzino
-description: Questo argomento spiega come configurare l'app di magazzino per supportare l'utilizzo di un processo di ricevimento della targa per ricevere l'inventario fisico.
+title: Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino
+description: Questo argomento spiega come configurare l'app per dispositivi mobili Gestione magazzino per supportare l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245156"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823193"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Ricevimento della targa tramite l'app di magazzino
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come configurare l'app di magazzino in modo che supporti l'utilizzo di un processo di Ricevimento della targa per ricevere l'inventario fisico.
+Questo argomento spiega come configurare l'app per dispositivi mobili Gestione magazzino in modo che supporti l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 
 È possibile utilizzare questa funzionalità per registrare rapidamente l'entrata di inventario in entrata correlata a un avviso di spedizione anticipata (ASN). Il sistema crea automaticamente un ASN quando i processi di gestione del magazzino vengono utilizzati per spedire un ordine di trasferimento. Per il processo dell'ordine fornitore, un ASN può essere registrato manualmente oppure può essere importato automaticamente utilizzando un processo dell'entità dati ASN in entrata.
 
@@ -72,7 +70,7 @@ Per rendere disponibile questa funzionalità nel sistema, attivare *Migliorament
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Visualizzare o ignorare la pagina di riepilogo del ricevimento
 
-È possibile utilizzare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* per sfruttare un ulteriore flusso dettagliato dell'app Magazzino come parte del processo di ricevimento della targa.
+È possibile utilizzare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* per sfruttare un ulteriore flusso dettagliato dell'app per dispositivi mobili Gestione magazzino come parte del processo di ricevimento della targa.
 
 Quando questa funzione è attivata, le voci di menu del dispositivo mobile per il ricevimento della targa o il ricevimento e lo stoccaggio della targa forniranno l'impostazione **Visualizza la pagina di riepilogo di ricevimento**. Questa impostazione ha le seguenti opzioni:
 

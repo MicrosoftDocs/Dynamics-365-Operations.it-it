@@ -2,11 +2,9 @@
 title: Integrazione della pianificazione del budget con altri moduli
 description: I piani di budget possono essere generati tramite molteplici risorse differenti. Gli elementi di base del processo periodico sono uguali per tutte le risorse.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d94e95c921d8237d8f69f793dbf48f1f40632964
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1ccefb5c9738641577571ce979a95a8dd048939c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210339"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822157"
 ---
 # <a name="budget-planning-integration-with-other-modules"></a>Integrazione della pianificazione del budget con altri moduli
 

@@ -2,11 +2,9 @@
 title: Regola Rilascia in magazzino
 description: Questo argomento fornisce informazioni sulla funzionalità della regola Rilascia in magazzino, che offre flessibilità durante il rilascio al magazzino. Aggiunge un'opzione di configurazione che controlla se il sistema consente il rilascio di righe ordine parzialmente prenotate.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b23ef104b918f44eed6508319d9b58f2b8355ff1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 77714d6bda27d8d29b10177dd87e61839295e47e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228419"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823265"
 ---
 # <a name="release-to-warehouse-rule"></a>Regola Rilascia in magazzino
 
