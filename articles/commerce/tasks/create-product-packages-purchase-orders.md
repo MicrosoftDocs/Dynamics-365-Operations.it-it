@@ -2,11 +2,9 @@
 title: " Creare i colli prodotto per gli ordini fornitore"
 description: In questa procedura vengono descritti i passaggi per creare un collo di prodotti e utilizzarlo in un ordine fornitore.
 author: josaw1
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,62 +13,62 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d16c5c576ce6b35687fb7edab835d52f6f58e6a0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4c84c829ca1344d70dee294da35b659299d6fa37
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256975"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802721"
 ---
-# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="b99cc-103"> Creare i colli prodotto per gli ordini fornitore</span><span class="sxs-lookup"><span data-stu-id="b99cc-103">Create product packages for purchase orders</span></span>
+# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="0857e-103"> Creare i colli prodotto per gli ordini fornitore</span><span class="sxs-lookup"><span data-stu-id="0857e-103">Create product packages for purchase orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b99cc-104">In questa procedura vengono descritti i passaggi per creare un collo di prodotti e utilizzarlo in un ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="b99cc-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="b99cc-105">L'ordine fornitore verrà utilizzato per creare un ordine per un set predefinito di prodotti.</span><span class="sxs-lookup"><span data-stu-id="b99cc-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="b99cc-106">Questa procedura utilizza la società di dati dimostrativi USRT.</span><span class="sxs-lookup"><span data-stu-id="b99cc-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="0857e-104">In questa procedura vengono descritti i passaggi per creare un collo di prodotti e utilizzarlo in un ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="0857e-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="0857e-105">L'ordine fornitore verrà utilizzato per creare un ordine per un set predefinito di prodotti.</span><span class="sxs-lookup"><span data-stu-id="0857e-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="0857e-106">Questa procedura utilizza la società di dati dimostrativi USRT.</span><span class="sxs-lookup"><span data-stu-id="0857e-106">This procedure uses the USRT demo data company.</span></span>
 
 
-## <a name="create-a-product-package"></a><span data-ttu-id="b99cc-107">Creare un collo di prodotti</span><span class="sxs-lookup"><span data-stu-id="b99cc-107">Create a product package</span></span>
-1. <span data-ttu-id="b99cc-108">Passare a Retail e Commerce > Gestione inventario > Rifornimento > Colli prodotti.</span><span class="sxs-lookup"><span data-stu-id="b99cc-108">Go to Retail and Commerce > Inventory management > Replenishment > Product packages.</span></span>
-2. <span data-ttu-id="b99cc-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="b99cc-109">Click New.</span></span>
-3. <span data-ttu-id="b99cc-110">Nel campo Numero collo, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="b99cc-110">In the Package number field, type a value.</span></span>
-4. <span data-ttu-id="b99cc-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="b99cc-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="b99cc-112">Nel campo Conto fornitore fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="b99cc-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="b99cc-113">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b99cc-113">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="b99cc-114">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="b99cc-114">Click Add.</span></span>
-8. <span data-ttu-id="b99cc-115">Nel campo Numero articolo digitare '0160'.</span><span class="sxs-lookup"><span data-stu-id="b99cc-115">In the Item number field, type '0160'.</span></span>
-9. <span data-ttu-id="b99cc-116">Nel campo Dimensione fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="b99cc-116">In the Size field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="b99cc-117">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b99cc-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="b99cc-118">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="b99cc-118">In the Quantity field, enter a number.</span></span>
-12. <span data-ttu-id="b99cc-119">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="b99cc-119">Click Add.</span></span>
-13. <span data-ttu-id="b99cc-120">Nel campo Numero articolo digitare '0160'.</span><span class="sxs-lookup"><span data-stu-id="b99cc-120">In the Item number field, type '0160'.</span></span>
-14. <span data-ttu-id="b99cc-121">Nel campo Numero variante fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="b99cc-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="b99cc-122">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b99cc-122">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="b99cc-123">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="b99cc-123">In the Quantity field, enter a number.</span></span>
-17. <span data-ttu-id="b99cc-124">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="b99cc-124">Click Add.</span></span>
-18. <span data-ttu-id="b99cc-125">Nel campo Numero articolo digitare '0175'.</span><span class="sxs-lookup"><span data-stu-id="b99cc-125">In the Item number field, type '0175'.</span></span>
-19. <span data-ttu-id="b99cc-126">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="b99cc-126">In the Quantity field, enter a number.</span></span>
-20. <span data-ttu-id="b99cc-127">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="b99cc-127">Click Save.</span></span>
-21. <span data-ttu-id="b99cc-128">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="b99cc-128">Close the page.</span></span>
+## <a name="create-a-product-package"></a><span data-ttu-id="0857e-107">Creare un collo di prodotti</span><span class="sxs-lookup"><span data-stu-id="0857e-107">Create a product package</span></span>
+1. <span data-ttu-id="0857e-108">Passare a Retail e Commerce > Gestione inventario > Rifornimento > Colli prodotti.</span><span class="sxs-lookup"><span data-stu-id="0857e-108">Go to Retail and Commerce > Inventory management > Replenishment > Product packages.</span></span>
+2. <span data-ttu-id="0857e-109">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="0857e-109">Click New.</span></span>
+3. <span data-ttu-id="0857e-110">Nel campo Numero collo, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="0857e-110">In the Package number field, type a value.</span></span>
+4. <span data-ttu-id="0857e-111">Nel campo Descrizione digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="0857e-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="0857e-112">Nel campo Conto fornitore fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="0857e-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="0857e-113">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="0857e-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="0857e-114">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="0857e-114">Click Add.</span></span>
+8. <span data-ttu-id="0857e-115">Nel campo Numero articolo digitare '0160'.</span><span class="sxs-lookup"><span data-stu-id="0857e-115">In the Item number field, type '0160'.</span></span>
+9. <span data-ttu-id="0857e-116">Nel campo Dimensione fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="0857e-116">In the Size field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="0857e-117">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="0857e-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="0857e-118">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="0857e-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="0857e-119">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="0857e-119">Click Add.</span></span>
+13. <span data-ttu-id="0857e-120">Nel campo Numero articolo digitare '0160'.</span><span class="sxs-lookup"><span data-stu-id="0857e-120">In the Item number field, type '0160'.</span></span>
+14. <span data-ttu-id="0857e-121">Nel campo Numero variante fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="0857e-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="0857e-122">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="0857e-122">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="0857e-123">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="0857e-123">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="0857e-124">Scegliere Aggiungi.</span><span class="sxs-lookup"><span data-stu-id="0857e-124">Click Add.</span></span>
+18. <span data-ttu-id="0857e-125">Nel campo Numero articolo digitare '0175'.</span><span class="sxs-lookup"><span data-stu-id="0857e-125">In the Item number field, type '0175'.</span></span>
+19. <span data-ttu-id="0857e-126">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="0857e-126">In the Quantity field, enter a number.</span></span>
+20. <span data-ttu-id="0857e-127">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="0857e-127">Click Save.</span></span>
+21. <span data-ttu-id="0857e-128">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="0857e-128">Close the page.</span></span>
 
-## <a name="add-package-to-purchase-order"></a><span data-ttu-id="b99cc-129">Aggiungere il collo all'ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="b99cc-129">Add package to purchase order</span></span>
-1. <span data-ttu-id="b99cc-130">Fare clic su Contabilità fornitori > Ordini fornitore > Tutti gli ordini fornitore.</span><span class="sxs-lookup"><span data-stu-id="b99cc-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="b99cc-131">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="b99cc-131">Click New.</span></span>
-3. <span data-ttu-id="b99cc-132">Nel campo Conto fornitore fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="b99cc-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="b99cc-133">Nell'elenco, selezionare lo stesso fornitore per cui è stato creato il collo di prodotti in precedenza, se un fornitore è stato selezionato.</span><span class="sxs-lookup"><span data-stu-id="b99cc-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
-5. <span data-ttu-id="b99cc-134">Attivare/disattivare l'espansione della sezione Generale.</span><span class="sxs-lookup"><span data-stu-id="b99cc-134">Toggle the expansion of the General section.</span></span>
-6. <span data-ttu-id="b99cc-135">Nel campo Sito fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="b99cc-135">In the Site field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="b99cc-136">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b99cc-136">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="b99cc-137">Nel campo Magazzino fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="b99cc-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="b99cc-138">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="b99cc-138">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="b99cc-139">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="b99cc-139">Click OK.</span></span>
-11. <span data-ttu-id="b99cc-140">Attivare/disattivare l'espansione della sezione Dettagli riga.</span><span class="sxs-lookup"><span data-stu-id="b99cc-140">Toggle the expansion of the Line details section.</span></span>
-12. <span data-ttu-id="b99cc-141">Fare clic sulla scheda Colli prodotti.</span><span class="sxs-lookup"><span data-stu-id="b99cc-141">Click the Product packages tab.</span></span>
-13. <span data-ttu-id="b99cc-142">Fare clic su Riga ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="b99cc-142">Click Purchase order line.</span></span>
-14. <span data-ttu-id="b99cc-143">Fare clic su Crea righe da collo.</span><span class="sxs-lookup"><span data-stu-id="b99cc-143">Click Create lines from package.</span></span>
-15. <span data-ttu-id="b99cc-144">Nell'elenco, individuare e selezionare il collo di prodotti creato nel passaggio precedente.</span><span class="sxs-lookup"><span data-stu-id="b99cc-144">In the list, find and select the product package created in previous step.</span></span>
-16. <span data-ttu-id="b99cc-145">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="b99cc-145">In the Quantity field, enter a number.</span></span>
-17. <span data-ttu-id="b99cc-146">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="b99cc-146">Click Create.</span></span>
-18. <span data-ttu-id="b99cc-147">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="b99cc-147">Click Save.</span></span>
+## <a name="add-package-to-purchase-order"></a><span data-ttu-id="0857e-129">Aggiungere il collo all'ordine fornitore</span><span class="sxs-lookup"><span data-stu-id="0857e-129">Add package to purchase order</span></span>
+1. <span data-ttu-id="0857e-130">Fare clic su Contabilità fornitori > Ordini fornitore > Tutti gli ordini fornitore.</span><span class="sxs-lookup"><span data-stu-id="0857e-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="0857e-131">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="0857e-131">Click New.</span></span>
+3. <span data-ttu-id="0857e-132">Nel campo Conto fornitore fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="0857e-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="0857e-133">Nell'elenco, selezionare lo stesso fornitore per cui è stato creato il collo di prodotti in precedenza, se un fornitore è stato selezionato.</span><span class="sxs-lookup"><span data-stu-id="0857e-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
+5. <span data-ttu-id="0857e-134">Attivare/disattivare l'espansione della sezione Generale.</span><span class="sxs-lookup"><span data-stu-id="0857e-134">Toggle the expansion of the General section.</span></span>
+6. <span data-ttu-id="0857e-135">Nel campo Sito fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="0857e-135">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="0857e-136">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="0857e-136">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="0857e-137">Nel campo Magazzino fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="0857e-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="0857e-138">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="0857e-138">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="0857e-139">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="0857e-139">Click OK.</span></span>
+11. <span data-ttu-id="0857e-140">Attivare/disattivare l'espansione della sezione Dettagli riga.</span><span class="sxs-lookup"><span data-stu-id="0857e-140">Toggle the expansion of the Line details section.</span></span>
+12. <span data-ttu-id="0857e-141">Fare clic sulla scheda Colli prodotti.</span><span class="sxs-lookup"><span data-stu-id="0857e-141">Click the Product packages tab.</span></span>
+13. <span data-ttu-id="0857e-142">Fare clic su Riga ordine fornitore.</span><span class="sxs-lookup"><span data-stu-id="0857e-142">Click Purchase order line.</span></span>
+14. <span data-ttu-id="0857e-143">Fare clic su Crea righe da collo.</span><span class="sxs-lookup"><span data-stu-id="0857e-143">Click Create lines from package.</span></span>
+15. <span data-ttu-id="0857e-144">Nell'elenco, individuare e selezionare il collo di prodotti creato nel passaggio precedente.</span><span class="sxs-lookup"><span data-stu-id="0857e-144">In the list, find and select the product package created in previous step.</span></span>
+16. <span data-ttu-id="0857e-145">Nel campo Quantità immettere un numero.</span><span class="sxs-lookup"><span data-stu-id="0857e-145">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="0857e-146">Fare clic su Crea.</span><span class="sxs-lookup"><span data-stu-id="0857e-146">Click Create.</span></span>
+18. <span data-ttu-id="0857e-147">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="0857e-147">Click Save.</span></span>
 
 
 
