@@ -2,11 +2,9 @@
 title: Utilizzare le direttive di ubicazione
 description: Questo argomento descrive come utilizzare le direttive di ubicazione. Le direttive ubicazione sono regole definite dall'utente che aiutano a identificare le ubicazioni di prelievo e stoccaggio per il movimento scorte.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470521"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838396"
 ---
 # <a name="work-with-location-directives"></a>Utilizzare le direttive di ubicazione
 
@@ -152,7 +150,7 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
     > [!IMPORTANT]
     > Per eseguite stoccaggi multi-articolo e per una singola unità di stockkeeping, è necessario specificare due righe con la stessa struttura e la stessa impostazione, ma è necessario impostare l'opzione **Più SKU** su *Sì* per una riga e su *No* per l'altra. Di conseguenza, per le operazioni di stoccaggio, è necessario disporre di due direttive ubicazioni identiche, anche se non è necessario fare distinzione tra unità di stockkeeping singole e più unità di stockkeepng in un iD lavoro. Spesso, se non si impostano entrambe queste direttive di ubicazione, le ubicazioni dei processi aziendali impreviste deriveranno dalla direttiva di ubicazione applicata. È necessario utilizzare una configurazione simile per le direttive di ubicazione **Tipo di lavoro** uguale a *prelievo* se è necessario elaborare ordini che includono più unità di stockkeeping.
 
-    Utilizzare l'opzione **Più SKU** per le righe di lavoro che gestiscono più di un numero di articolo. Il numero dell'articolo sarà vuoto nei dettagli del lavoro e verrà visualizzato come **Multiplo** nelle pagine di elaborazione nell'app di magazzino.
+    Utilizzare l'opzione **Più SKU** per le righe di lavoro che gestiscono più di un numero di articolo. Il numero dell'articolo sarà vuoto nei dettagli del lavoro e verrà visualizzato come **Multiplo** nelle pagine di elaborazione nell'app per dispositivi mobili Gestione magazzino.
 
     In uno scenario di esempio tipico, un modello di lavoro è impostato in modo che abbia più di una coppia prelievo/stoccaggio. In questo caso, è opportuno cercare un'ubicazione di gestione temporanea specifica da utilizzare per le righe con un **Tipo di lavoro** uguale a *Stoccaggio*.
 
@@ -171,7 +169,7 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
     > [!NOTE]
     > Questo campo è disponibile solo per i tipi di ordine di lavoro selezionati in cui è consentito il rifornimento. Per un elenco completo, vedere la sezione [Campi specifici per i tipi di ordine di lavoro](#fields-specific-types).
 
-- **Codice smaltimento** - Questo campo viene utilizzato per le direttive di ubicazione con tipo di ordine di lavoro uguale a *Ordini fornitore*, *Stoccaggio prodotti finiti* oppure *Ordini di reso* e un tipo di lavoro uguale a *Stoccaggio*. Utilizzarlo per guidare il flusso per utilizzare una direttiva di ubicazione specifica, a seconda del codice di smaltimento che un lavoratore ha selezionato nell'app di magazzino. Ad esempio, è possibile indirizzare le merci restituite a un'ubicazione di ispezione prima che vengano restituite nelle scorte. Un codice di smaltimento può essere collegato a uno stato dell'inventario. In questo modo, può essere utilizzato per modificare lo stato dell'inventario come parte di un processo di ricevimento. Ad esempio, può essere presente un codice di smaltimento *QA* che imposta lo stato dell'inventario su *QA*. È quindi possibile disporre di una direttiva di ubicazione separata per spostare l'inventario in una posizione di quarantena.
+- **Codice smaltimento** - Questo campo viene utilizzato per le direttive di ubicazione con tipo di ordine di lavoro uguale a *Ordini fornitore*, *Stoccaggio prodotti finiti* oppure *Ordini di reso* e un tipo di lavoro uguale a *Stoccaggio*. Utilizzarlo per guidare il flusso per utilizzare una direttiva di ubicazione specifica, a seconda del codice di smaltimento che un lavoratore ha selezionato nell'app per dispositivi mobili Gestione magazzino. Ad esempio, è possibile indirizzare le merci restituite a un'ubicazione di ispezione prima che vengano restituite nelle scorte. Un codice di smaltimento può essere collegato a uno stato dell'inventario. In questo modo, può essere utilizzato per modificare lo stato dell'inventario come parte di un processo di ricevimento. Ad esempio, può essere presente un codice di smaltimento *QA* che imposta lo stato dell'inventario su *QA*. È quindi possibile disporre di una direttiva di ubicazione separata per spostare l'inventario in una posizione di quarantena.
 
     > [!NOTE]
     > Questo campo è disponibile solo per i tipi di ordine di lavoro selezionati in cui è consentito il rifornimento. Per un elenco completo, vedere la sezione [Campi specifici per i tipi di ordine di lavoro](#fields-specific-types).

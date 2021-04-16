@@ -2,11 +2,9 @@
 title: Installare e connettere l'app del magazzino
 description: Questo argomento spiega come installare l'app del magazzino su ciascuno dei tuoi dispositivi mobili e come configurarla affinché si connetta all'ambiente Microsoft Dynamics 365 Supply Chain Management. Puoi configurare manualmente ciascun dispositivo oppure importare le impostazioni di connessione tramite un file o scansionando un codice QR.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486979"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835570"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app di magazzino
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> In questo argomento viene descritto come e configurare la vecchia app di magazzino. Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino, vedere [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
+> Questo argomento descrive come configurare la vecchia app di magazzino (che ora è deprecata). Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino, vedere [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > In questo argomento viene descritto come configurare l'app di magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare l'app di magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

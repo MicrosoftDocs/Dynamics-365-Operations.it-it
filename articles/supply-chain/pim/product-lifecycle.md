@@ -2,11 +2,9 @@
 title: Panoramica dello stato del ciclo di vita del prodotto
 description: Uno stato del ciclo di vita del prodotto documenta lo stato del ciclo di vita di un prodotto rilasciato o di una variante di prodotto.
 author: cvocph
-manager: tfehr
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: aaa3747dd13d56726251b150a8e0a3ec2dced614
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1def67750fe6328087fe6bf7eeb22105232390fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247840"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820204"
 ---
 # <a name="product-lifecycle-state-overview"></a>Panoramica dello stato del ciclo di vita del prodotto
 

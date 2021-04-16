@@ -2,11 +2,9 @@
 title: Crea suggerimenti con dati dimostrativi
 description: Questo argomento fornisce una guida su come utilizzare i consigli sui prodotti omnicanale in ambienti one-box di livello 1 utilizzando dati dimostrativi precompilati e personalizzabili.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 378acccc9b3afb190d0b8f79bec3d64cd6a41fdb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 01bffd9519697f6f807e453191430f5261d160bf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231058"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795623"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Crea suggerimenti con dati dimostrativi
 

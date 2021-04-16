@@ -1,12 +1,10 @@
 ---
 title: Risolvere i problemi relativi alla gestione dei costi
 description: Questo argomento descrive come risolvere i problemi che potresti riscontrare mentre si lavora con la gestione dei costi.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262455"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834291"
 ---
 # <a name="troubleshoot-cost-management"></a>Risolvere i problemi relativi alla gestione dei costi
 
@@ -37,7 +35,7 @@ Le funzionalità [archiviazione del report di aging dell'inventario](inventory-a
 
 I totali parziali possono causare problemi durante l'esportazione del risultato, soprattutto se gli utenti modificano la sequenza del record.
 
-Per controllare i subtotali, è possibile esportare il risultato in Microsoft Excel. In alternativa, se si desidera controllare i totali parziali in Supply Chain Management, utilizzare [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare le funzionalità *Nuovo controllo griglia* e *(Anteprima) Raggruppamento in griglie* che forniscono un modo molto più flessibile per vedere il totale parziale di qualsiasi gruppo per colonna. Per ulteriori informazioni, vedere [Funzionalità di griglia](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+Per controllare i subtotali, è possibile esportare il risultato in Microsoft Excel. In alternativa, se vuoi controllare i totali parziali in Supply Chain Management, utilizza [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare le funzionalità *Nuovo controllo griglia* e *Raggruppamento in griglie* che forniscono un modo molto più flessibile per vedere il totale parziale di qualsiasi gruppo per colonna. Per ulteriori informazioni, vedere [Funzionalità di griglia](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>Il report di archiviazione valori di magazzino non supporta le informazioni sul conto di contabilità generale
 

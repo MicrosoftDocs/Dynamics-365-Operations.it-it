@@ -2,11 +2,9 @@
 title: Migliorare una pagina prodotto
 description: In questo argomento viene descritto come migliorare una pagina prodotto in Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d7899ac79805abeb55323bd21f83b3af38e09b4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f6c1a9474ed514426386b1d7b4a72b62129cdb8a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238680"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799048"
 ---
 # <a name="enrich-a-product-page"></a>Migliorare una pagina prodotto
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come migliorare una pagina prodotto in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Per impostazione predefinita, il sito utilizza una pagina generica per visualizzare i dati del prodotto. Questa pagina include le informazioni di base sul prodotto e i controlli necessari per venderlo. Tuttavia, è possibile aggiungere ulteriori immagini o testo per un prodotto specifico alle informazioni di Commerce Scale Unit. Questo processo è noto come miglioramento della pagina prodotto.
 

@@ -2,11 +2,9 @@
 title: Crea una nuova regola kanban duplicando una regola esistente
 description: Questa procedura è incentrata sulla creazione di un duplicato di una regola kanban esistente.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b89fca4e55aa852bd127eb9b1bda07c0e5bcdc0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d80bf0318234f858e51fb461894238894e01717c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255135"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829068"
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Crea una nuova regola kanban duplicando una regola esistente
 

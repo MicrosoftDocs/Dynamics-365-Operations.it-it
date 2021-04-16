@@ -2,7 +2,6 @@
 title: Anteprima di Dynamics 365 Supply Chain Management 10.0.18 (maggio 2021)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
-manager: annbe
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0a75cd0b02c48421edebac0b83576095bea65bb6
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571790"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832132"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.18 (maggio 2021)
 
@@ -36,17 +35,17 @@ Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa versione include le seguenti funzionalità. Alcune delle funzionalità elencate sono ancora in anteprima, mentre altre potrebbero essere già generalmente disponibili. Seguire i collegamenti del [piano di rilascio](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
+Questa versione include le seguenti funzionalità. Seguire i collegamenti del [piano di rilascio](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
 
 - Rilascio automatico degli ordini fornitore (miglioramento per [Esecuzione del magazzino con unità di scala nel cloud](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Per ulteriori informazioni, vedere [Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-warehousing.md).
 
 - [Archiviazione e miglioramenti delle prestazioni dell'inventario su scala aziendale](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Per ulteriori informazioni, vedere [Archiviare transazioni di magazzino](../inventory/archive-inventory-transactions.md)
 
-- [Gestione degli sconti](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)
+- [Gestione degli sconti](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Per ulteriori informazioni, vedi [Panoramica del modulo di gestione degli sconti](../rebate-management/rebate-management-overview.md)
 
 - Interfaccia semplificata solo per l'ora di entrata e di uscita (miglioramento per [Interfaccia di esecuzione dell'area di produzione migliorata per la produzione](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Per ulteriori informazioni, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md).
 
-La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
+La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate. Alcune delle funzionalità elencate sono ancora in anteprima, mentre altre potrebbero essere già generalmente disponibili. 
 
 ## <a name="new-and-updated-documentation-resources"></a>Risorse della documentazione nuove e aggiornate
 

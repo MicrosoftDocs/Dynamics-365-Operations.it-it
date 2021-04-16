@@ -2,11 +2,9 @@
 title: Controllo unificato della data di registrazione
 description: In questo argomento viene illustrato come configurare il controllo cronologico per le date di registrazione delle fatture.
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6c1426c0ee0b7fc6f70e35d164ca7aca4281149c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: db74b34bf0c11a7b3b38f4b3f41b475464722b6e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226194"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830411"
 ---
 # <a name="unified-posting-date-control"></a>Controllo unificato della data di registrazione
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 In questo argomento viene illustrato come configurare il controllo cronologico delle date di registrazione delle fatture all'interno di una specifica sezione del libro IVA.
 

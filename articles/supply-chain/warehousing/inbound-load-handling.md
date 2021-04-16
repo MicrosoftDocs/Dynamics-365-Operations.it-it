@@ -2,11 +2,9 @@
 title: Gestione magazzino dei carichi in entrata per gli ordini fornitore
 description: Questo argomento descrive il processo di gestione del magazzino per i carichi in entrata per gli ordini fornitore.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235342"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835632"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -66,7 +64,7 @@ Quando un carico in entrata arriva per la prima volta in magazzino, gli addetti 
 
 - **Un menu del dispositivo mobile configurato per supportare la ricezione del carico**
 
-    L'[app di magazzino](install-configure-warehousing-app.md) per dispositivi mobili supporta i seguenti processi di creazione del lavoro:
+    L'[app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md) per dispositivi mobili supporta i seguenti processi di creazione del lavoro:
 
     - Ricezione articoli di carico
     - Ricevimento e stoccaggio articoli di carico
@@ -285,7 +283,7 @@ Per elaborare questi scenari utilizzando i record e i valori di esempio specific
 
 Prima che gli addetti al ricevimento del magazzino possano utilizzare un dispositivo mobile per registrare l'inventario in entrata collegato a un carico, è necessario creare una voce di menu del dispositivo mobile a tale scopo.
 
-In questa sezione, si crea una voce di menu del dispositivo mobile e la si aggiunge a un menu esistente. Un addetto al magazzino può quindi selezionare la voce di menu nell'app di magazzino.
+In questa sezione, si crea una voce di menu del dispositivo mobile e la si aggiunge a un menu esistente. Un addetto al magazzino può quindi selezionare la voce di menu nell'app per dispositivi mobili Gestione magazzino.
 
 1. Andare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile** e verificare che il menu del dispositivo mobile includa una voce di menu con le seguenti impostazioni:
 

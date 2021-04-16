@@ -2,11 +2,9 @@
 title: Liquidare un pagamento cliente parziale che ha più periodi di sconto
 description: Questo articolo illustra come vengono liquidati i pagamenti cliente se sono presenti più periodi di sconto.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241716"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835102"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidare un pagamento cliente parziale che ha più periodi di sconto
 
@@ -56,7 +54,7 @@ Il 28 giugno, il cliente 4031 effettua un pagamento parziale di 294,00. Poiché 
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**. Se non si modifica il valore di **Importo da liquidare** in **294,00**, i valori di **Importo sconto di cassa** visualizzati saranno differenti. Tuttavia, quando viene registrato il pagamento, verrà applicato lo sconto di cassa pari a 6,00 poiché la liquidazione rettifica automaticamente il valore di **Importo da liquidare**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Data sconto di cassa           | 30/6/2015 |
 | Importo sconto di cassa         | 20,00     |
@@ -75,7 +73,7 @@ L'8 luglio, il cliente salda la parte restante dell'importo della fattura. Lo sc
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Data sconto di cassa           | 9/07/2015 |
 | Importo sconto di cassa         | 30,00     |

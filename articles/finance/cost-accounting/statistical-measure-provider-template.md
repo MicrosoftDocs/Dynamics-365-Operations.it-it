@@ -2,11 +2,9 @@
 title: Modelli di fornitori per membri di dimensioni statistiche e provider misure
 description: Questo argomento fornisce informazioni sui membri di dimensione statistica e i modelli provider misure statistiche. I membri di dimensione statistica possono essere utilizzati come base di allocazione nei criteri quali la distribuzione dei costi e l'allocazione dei costi. Possono essere utilizzati anche per dichiarare il consumo dei costi non monetari.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208825"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833068"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Modelli di fornitori per membri di dimensioni statistiche e provider misure
 
@@ -162,7 +160,7 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 **Voci statistiche**
 
-| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |  Descrizione        | Grandezza |
+| Oggetto di costo |  descrizione  | Data di registrazione | Membro di dimensione statistica |  descrizione        | Grandezza |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | Risorse umane | 31-01-2017      | FTE                         | Dipendenti a tempo pieno | 1,00      |
 | CC002       | FI | 31-01-2017      | FTE                         | Dipendenti a tempo pieno | 2.00      |
@@ -328,7 +326,7 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 **Voci statistiche**
 
-| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |      Descrizione                   | Grandezza  |
+| Oggetto di costo | descrizione | Data di registrazione | Membro di dimensione statistica |      descrizione                   | Grandezza  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | Risorse umane | 31-01-2017      | Elettricità                  | Consumo di elettricità | 2,450.00   |
 | CC002       | FI | 31-01-2017      | Elettricità                  | Consumo di elettricità | 4,100.00   |
@@ -336,11 +334,11 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 Se la base di allocazione del membro di dimensione predefinito di Elettricità è assegnata come base di allocazione in una regola di distribuzione costi, il costo verrà distribuito utilizzando il seguente fattore di allocazione.
 
-| Oggetto di costo |    | Grandezza | Fattore di allocazione          |
-|-------------|----|-----------|----------------------------|
-| CC001       | Risorse umane | 2,450.00  | (2,450 ÷ 21,550) × Importo  |
-| CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × Importo  |
-| CC003       | TS | 15.000,00 | (15,000 ÷ 21,550) × Importo |
+| Oggetto di costo | descrizione   | Grandezza | Fattore di allocazione          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | Risorse umane            | 2,450.00  | (2,450 ÷ 21,550) × Importo  |
+| CC002       | FI            | 4,100.00  | (4,100 ÷ 21,550) × Importo  |
+| CC003       | TS            | 15.000,00 | (15,000 ÷ 21,550) × Importo |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
