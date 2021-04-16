@@ -2,11 +2,9 @@
 title: Caricare immagini
 description: In questo argomento viene descritto come caricare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51571ce221714598b2e2d39c76cb69dcb57cc52b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0a2fdb275cbeb65c06c01128e90ba660f98c9b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213796"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799231"
 ---
 # <a name="upload-images"></a>Caricare immagini
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come caricare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 La libreria multimediale Creazione di siti Web Commerce consente di caricare le immagini, singolarmente o in blocco, utilizzando le cartelle. È sempre necessario caricare la versione dell'immagine con la risoluzione e la qualità più alte, perché il componente di dimensionamento immagine ottimizza automaticamente l'immagine per essere adatta a diversi riquadri di visualizzazione e ai punti di interruzione.
 
@@ -58,7 +54,8 @@ La convenzione di denominazione predefinita varia in base alla categoria:
 - Le immagini dei dipendenti devono essere denominate "**/Workers/\{WorkerNumber\}.jpg**"
 - Le immagini dei prodotti devono essere denominate "**/Products/\{ProductNumber\}_000_001.png**"
     - 001 è la sequenza dell'immagine e può essere 001, 002, 003, 004 o 005
-- Le immagini varianti dei prodotti devono essere denominate "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
+- Le immagini varianti dei prodotti devono essere denominate "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
+    - Ad esempio: 93039 \^ \^ 2 \^ Black \^_000_001.png
 
 ## <a name="upload-an-image"></a>Caricare un'immagine
 

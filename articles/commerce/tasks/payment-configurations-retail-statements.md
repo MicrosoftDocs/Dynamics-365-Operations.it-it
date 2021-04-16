@@ -2,11 +2,9 @@
 title: " Configurazioni dei pagamenti per rendiconti di vendita al dettaglio"
 description: In questa procedura sono illustrate le configurazioni per i metodi di pagamento di punto vendita di commercio che interessano la modalità di creazione e registrazione dei rendiconti.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTenderTypeTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8723f786c2eaf5f045007de32ce5cbe57563eaf9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: edd4a73523934e1fd70995c9275c564a50809957
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205699"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796708"
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Configurazioni dei pagamenti per rendiconti di vendita al dettaglio
 

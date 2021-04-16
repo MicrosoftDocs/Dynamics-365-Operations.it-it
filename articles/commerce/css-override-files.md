@@ -2,11 +2,9 @@
 title: Utilizzare i file di sostituzione CSS
 description: Questo argomento descrive perché, quando e come utilizzare i file di sostituzione CSS (Cascading Style Sheets) in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 41fb0be51f7af25faba1b860319aea84ae7a8b56
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ef96070fe77b46622667301c7c7c402909ee7dfc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207801"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799495"
 ---
 # <a name="work-with-css-override-files"></a>Utilizzare i file di sostituzione CSS
-
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive perché, quando e come utilizzare i file di sostituzione CSS (Cascading Style Sheets) in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Gli stili permanenti del sito dovrebbero generalmente essere gestiti attraverso un tema del sito. I temi forniscono i CSS e le impostazioni di stile fondamentali per i moduli su qualsiasi pagina del tuo sito. I temi vengono creati utilizzando l'SDK online di Dynamics 365 Commerce vengono distribuiti ai siti Web tramite Lifecycle Services (LCS) di Microsoft Dynamics. Le funzionalità di debug dei temi e le configurazioni dell'interfaccia del modulo nell'SDK aiutano gli sviluppatori del sito a creare pacchetti di progettazione del sito personalizzabili e coerenti. Quando questi pacchetti di progettazione vengono distribuiti in un sito, gli autori del sito possono concentrarsi sulla creazione, la modifica e la pubblicazione di contenuti anziché sullo sviluppo del sito.
 

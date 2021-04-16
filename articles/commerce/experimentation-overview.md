@@ -2,11 +2,9 @@
 title: Sperimentazione in Dynamics 365 Commerce
 description: La sperimentazione consente la creazione, la modifica e la gestione dei layout di pagina e dei trattamenti di contenuti in Creazione di siti Web. Il supporto per la sperimentazione end-to-end è abilitato per le pagine e le entità di e-commerce in una pagina.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d836f0e431c444c07186da123579f5cce9895be5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238608"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798989"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Sperimentazione in Dynamics 365 Commerce
 Usa la sperimentazione in Dynamics 365 Commerce per convalidare ipotesi sull'efficacia delle pagine di e-commerce e prendere decisioni con fiducia in base ai dati. Commerce supporta i test A/B su pagine, moduli e frammenti e ti consente di misurare l'impatto delle modifiche proposte sul tuo sito web.

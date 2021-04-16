@@ -2,11 +2,9 @@
 title: Creare e aprire richieste relative alla mansione lavorativa
 description: I progetti di selezione facilitano la gestione del processo di selezione.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: human-resources
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 858c97e1563dac59f3dd5aff7191427f104d7aed
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 65c79459735050bafc75c2d062a4b21ed3ddf479
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467773"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803563"
 ---
 # <a name="create-and-open-job-requisition"></a>Creare e aprire richieste relative alla mansione lavorativa
 

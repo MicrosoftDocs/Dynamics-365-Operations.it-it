@@ -2,11 +2,9 @@
 title: Aggiungere una favicon
 description: In questo argomento viene descritto come aggiungere un favicon al sito.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 786ba02c312b7cdb3cf7f0689737084887d536bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9268bc74a4131256f5a2e88df833104db271b56a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206345"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797721"
 ---
 # <a name="add-a-favicon"></a>Aggiungere una favicon
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere un favicon al sito.
-
-## <a name="overview"></a>Panoramica
 
 Un favicon è un piccolo file di grafica che viene visualizzato, tra l'altro, in una scheda del browser Web, nella barra degli indirizzi, nella cronologia delle esplorazioni e in segnalibri o preferiti. È consigliabile aggiungere un favicon al sito, poiché rappresenta e rinforza il marchio e consente di differenziare il proprio sito da altri siti visitati dai clienti.
 

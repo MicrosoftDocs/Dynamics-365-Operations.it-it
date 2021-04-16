@@ -2,11 +2,9 @@
 title: Configurare ed eseguire il processo per registrare i rendiconti
 description: In questa procedura vengono descritti i passaggi per configurare ed eseguire un processo batch ricorrente al fine di registrare i rendiconti per un punto vendita o un gruppo di punti vendita selezionato.
 author: josaw1
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b1401d51491205731843abe6e2278f798c5c979
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232739"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804235"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Configurare ed eseguire il processo per registrare i rendiconti
 

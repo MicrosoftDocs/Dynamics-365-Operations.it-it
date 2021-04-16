@@ -2,11 +2,9 @@
 title: Posizione cluster piena
 description: In questo argomento vengono fornite informazioni sulla funzionalità Posizione cluster piena. Questa funzione offre un'alternativa all'applicazione più rigida delle regole di interruzione del lavoro quando viene utilizzato il prelievo del cluster perché consente un margine di errore più ampio nei vincoli volumetrici dei contenitori o dei totali.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233009"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808848"
 ---
 # <a name="cluster-position-full"></a>Posizione cluster piena
 
@@ -213,7 +211,7 @@ Dovrebbero essere stati creati due ID lavoro, ciascuno dei quali ha due righe di
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Esecuzione del flusso del dispositivo mobile: impostazione della conferma del lavoro per il prodotto
 
-1. Accedere all'app di magazzino come utente nel magazzino *61*.
+1. Accedi all'app per dispositivi mobili Gestione magazzino come utente nel magazzino *61*.
 1. Andare a **In uscita \> Creazione prelievo del cluster**.
 
     Viene visualizzata la pagina **ATTIVITÀ: assegnare il lavoro al cluster**.

@@ -2,11 +2,9 @@
 title: Vincoli di tabella definiti dall'utente e dal sistema
 description: "In questo articolo vengono descritti i due tipi di vincoli di tabella per i componenti di un modello di configurazione prodotto: definiti dall'utente e definiti dal sistema. I vincoli di tabella rappresentano le matrici delle combinazioni di attributo consentite, in cui ogni riga definisce un insieme di valori di attributi possibili."
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e922e7961cad5880e45cb2e86e3c084a52cd6b7c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237450"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812685"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>Vincoli di tabella definiti dall'utente e dal sistema
 
