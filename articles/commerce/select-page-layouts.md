@@ -2,11 +2,9 @@
 title: Selezionare layout di pagina
 description: In questo argomento viene descritto come selezionare layout di pagina in Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,68 +14,68 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22c5d0cba477ea7f254c3dfd74810cc248d39afe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a87128e3e6802781a89274d3f601b8ed4b1c7cd0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254747"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794093"
 ---
-# <a name="select-page-layouts"></a><span data-ttu-id="4e657-103">Selezionare i layout di pagina</span><span class="sxs-lookup"><span data-stu-id="4e657-103">Select page layouts</span></span>
+# <a name="select-page-layouts"></a><span data-ttu-id="bf2d1-103">Selezionare i layout di pagina</span><span class="sxs-lookup"><span data-stu-id="bf2d1-103">Select page layouts</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="4e657-104">In questo argomento viene descritto come selezionare layout di pagina in Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="4e657-104">This topic explains how to create and select page layouts in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="bf2d1-104">In questo argomento viene descritto come selezionare layout di pagina in Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-104">This topic explains how to create and select page layouts in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="create-layouts-for-an-existing-page"></a><span data-ttu-id="4e657-105">Creare layout per una pagina esistente</span><span class="sxs-lookup"><span data-stu-id="4e657-105">Create layouts for an existing page</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="4e657-106">È possibile creare layout per una pagina esistente solo se la pagina dispone di almeno due moduli nello slot principale.</span><span class="sxs-lookup"><span data-stu-id="4e657-106">You can create layouts for an existing page only if that page has at least two modules under the main slot.</span></span>
-
-<span data-ttu-id="4e657-107">Per creare layout per una pagina esistente, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="4e657-107">To create layouts for an existing page, follow these steps.</span></span>
-
-1. <span data-ttu-id="4e657-108">Passare a **Pagine** e trovare la pagina esistente nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="4e657-108">Go to **Pages**, and find the existing page in the list.</span></span> <span data-ttu-id="4e657-109">Utilizzare la funzionalità di ricerca come necessario.</span><span class="sxs-lookup"><span data-stu-id="4e657-109">Use the search feature as you require.</span></span>
-1. <span data-ttu-id="4e657-110">Selezionare la pagina, selezionare **Modifica** per estrarla, quindi selezionare il nome della pagina per aprirla.</span><span class="sxs-lookup"><span data-stu-id="4e657-110">Select the page, select **Edit** to check it out, and then select the page name to open it.</span></span> <span data-ttu-id="4e657-111">Prendere nota dell'ordine dei moduli.</span><span class="sxs-lookup"><span data-stu-id="4e657-111">Make a note of the module order.</span></span>
-1. <span data-ttu-id="4e657-112">Selezionare **Salva come nuovo layout**.</span><span class="sxs-lookup"><span data-stu-id="4e657-112">Select **Save as New Layout**.</span></span>
-1. <span data-ttu-id="4e657-113">Immettere un nome per il layout e quindi selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="4e657-113">Enter a name for the layout, and then select **OK**.</span></span>
-1. <span data-ttu-id="4e657-114">Selezionare **Converti in layout incorporato**.</span><span class="sxs-lookup"><span data-stu-id="4e657-114">Select **Convert to Embedded Layout**.</span></span>
-1. <span data-ttu-id="4e657-115">Modificare l'ordine dei moduli come necessario e prendere nota del nuovo ordine.</span><span class="sxs-lookup"><span data-stu-id="4e657-115">Change the order of the modules as you require, and make a note of the new order.</span></span>
-1. <span data-ttu-id="4e657-116">Selezionare **Salva come nuovo layout**.</span><span class="sxs-lookup"><span data-stu-id="4e657-116">Select **Save as New Layout**.</span></span>
-1. <span data-ttu-id="4e657-117">Immettere un nome per il layout e quindi selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="4e657-117">Enter a name for the layout, and then select **OK**.</span></span>
-1. <span data-ttu-id="4e657-118">Selezionare **Modifica layout**, selezionare il primo layout creato e quindi **OK**.</span><span class="sxs-lookup"><span data-stu-id="4e657-118">Select **Change Layout**, select the first layout that you created, and then select **OK**.</span></span> <span data-ttu-id="4e657-119">Prendere nota dell'ordine dei moduli.</span><span class="sxs-lookup"><span data-stu-id="4e657-119">Make a note of the module order.</span></span> <span data-ttu-id="4e657-120">Modificarlo di modo che corrisponda all'ordine dei moduli salvato con il layout.</span><span class="sxs-lookup"><span data-stu-id="4e657-120">Change it so that it matches the module order that was saved with the layout.</span></span>
-1. <span data-ttu-id="4e657-121">Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.</span><span class="sxs-lookup"><span data-stu-id="4e657-121">Select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span> 
-
-## <a name="select-a-different-layout-for-an-existing-page"></a><span data-ttu-id="4e657-122">Selezionare un layout diverso per una pagina esistente</span><span class="sxs-lookup"><span data-stu-id="4e657-122">Select a different layout for an existing page</span></span>
+## <a name="create-layouts-for-an-existing-page"></a><span data-ttu-id="bf2d1-105">Creare layout per una pagina esistente</span><span class="sxs-lookup"><span data-stu-id="bf2d1-105">Create layouts for an existing page</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4e657-123">È possibile selezionare un layout diverso per una pagina esistente solo se il modello utilizzato per creare quella pagina dispone di più layout.</span><span class="sxs-lookup"><span data-stu-id="4e657-123">You can select a different layout for an existing page only if the template that was used to create that page has more than one layout.</span></span>
+> <span data-ttu-id="bf2d1-106">È possibile creare layout per una pagina esistente solo se la pagina dispone di almeno due moduli nello slot principale.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-106">You can create layouts for an existing page only if that page has at least two modules under the main slot.</span></span>
 
-<span data-ttu-id="4e657-124">Per selezionare un layout differente per una pagina esistente, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="4e657-124">To select a different layout for an existing page, follow these steps.</span></span>
+<span data-ttu-id="bf2d1-107">Per creare layout per una pagina esistente, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-107">To create layouts for an existing page, follow these steps.</span></span>
 
-1. <span data-ttu-id="4e657-125">Passare a **Pagine** e trovare la pagina esistente nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="4e657-125">Go to **Pages**, and find the existing page in the list.</span></span> <span data-ttu-id="4e657-126">Utilizzare la funzionalità di ricerca come necessario.</span><span class="sxs-lookup"><span data-stu-id="4e657-126">Use the search feature as you require.</span></span>
-1. <span data-ttu-id="4e657-127">Selezionare la pagina, selezionare **Modifica** per estrarla, quindi selezionare il nome della pagina per aprirla.</span><span class="sxs-lookup"><span data-stu-id="4e657-127">Select the page, select **Edit** to check it out, and then select the page name to open it.</span></span>
-1. <span data-ttu-id="4e657-128">Selezionare **Modifica layout**.</span><span class="sxs-lookup"><span data-stu-id="4e657-128">Select **Change layout**.</span></span>
-1. <span data-ttu-id="4e657-129">Selezionare il nuovo layout per la pagina e selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="4e657-129">Select the new layout for the page, and then select **OK**.</span></span> <span data-ttu-id="4e657-130">L'editor di pagine viene aggiornato per visualizzare il nuovo layout.</span><span class="sxs-lookup"><span data-stu-id="4e657-130">The page editor is refreshed to show the new layout.</span></span>
-1. <span data-ttu-id="4e657-131">Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.</span><span class="sxs-lookup"><span data-stu-id="4e657-131">Select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
+1. <span data-ttu-id="bf2d1-108">Passare a **Pagine** e trovare la pagina esistente nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-108">Go to **Pages**, and find the existing page in the list.</span></span> <span data-ttu-id="bf2d1-109">Utilizzare la funzionalità di ricerca come necessario.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-109">Use the search feature as you require.</span></span>
+1. <span data-ttu-id="bf2d1-110">Selezionare la pagina, selezionare **Modifica** per estrarla, quindi selezionare il nome della pagina per aprirla.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-110">Select the page, select **Edit** to check it out, and then select the page name to open it.</span></span> <span data-ttu-id="bf2d1-111">Prendere nota dell'ordine dei moduli.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-111">Make a note of the module order.</span></span>
+1. <span data-ttu-id="bf2d1-112">Selezionare **Salva come nuovo layout**.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-112">Select **Save as New Layout**.</span></span>
+1. <span data-ttu-id="bf2d1-113">Immettere un nome per il layout e quindi selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-113">Enter a name for the layout, and then select **OK**.</span></span>
+1. <span data-ttu-id="bf2d1-114">Selezionare **Converti in layout incorporato**.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-114">Select **Convert to Embedded Layout**.</span></span>
+1. <span data-ttu-id="bf2d1-115">Modificare l'ordine dei moduli come necessario e prendere nota del nuovo ordine.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-115">Change the order of the modules as you require, and make a note of the new order.</span></span>
+1. <span data-ttu-id="bf2d1-116">Selezionare **Salva come nuovo layout**.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-116">Select **Save as New Layout**.</span></span>
+1. <span data-ttu-id="bf2d1-117">Immettere un nome per il layout e quindi selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-117">Enter a name for the layout, and then select **OK**.</span></span>
+1. <span data-ttu-id="bf2d1-118">Selezionare **Modifica layout**, selezionare il primo layout creato e quindi **OK**.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-118">Select **Change Layout**, select the first layout that you created, and then select **OK**.</span></span> <span data-ttu-id="bf2d1-119">Prendere nota dell'ordine dei moduli.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-119">Make a note of the module order.</span></span> <span data-ttu-id="bf2d1-120">Modificarlo di modo che corrisponda all'ordine dei moduli salvato con il layout.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-120">Change it so that it matches the module order that was saved with the layout.</span></span>
+1. <span data-ttu-id="bf2d1-121">Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-121">Select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span> 
 
-## <a name="additional-resources"></a><span data-ttu-id="4e657-132">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="4e657-132">Additional resources</span></span>
+## <a name="select-a-different-layout-for-an-existing-page"></a><span data-ttu-id="bf2d1-122">Selezionare un layout diverso per una pagina esistente</span><span class="sxs-lookup"><span data-stu-id="bf2d1-122">Select a different layout for an existing page</span></span>
 
-[<span data-ttu-id="4e657-133">Modificare una pagina del sito esistente</span><span class="sxs-lookup"><span data-stu-id="4e657-133">Modify an existing site page</span></span>](modify-existing-page.md)
+> [!NOTE]
+> <span data-ttu-id="bf2d1-123">È possibile selezionare un layout diverso per una pagina esistente solo se il modello utilizzato per creare quella pagina dispone di più layout.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-123">You can select a different layout for an existing page only if the template that was used to create that page has more than one layout.</span></span>
 
-[<span data-ttu-id="4e657-134">Aggiungere una nuova pagina del sito</span><span class="sxs-lookup"><span data-stu-id="4e657-134">Add a new site page</span></span>](add-new-page.md)
+<span data-ttu-id="bf2d1-124">Per selezionare un layout differente per una pagina esistente, effettuare le seguenti operazioni.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-124">To select a different layout for an existing page, follow these steps.</span></span>
 
-[<span data-ttu-id="4e657-135">Gestire i metadati SEO</span><span class="sxs-lookup"><span data-stu-id="4e657-135">Manage SEO metadata</span></span>](manage-seo-metadata.md)
+1. <span data-ttu-id="bf2d1-125">Passare a **Pagine** e trovare la pagina esistente nell'elenco.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-125">Go to **Pages**, and find the existing page in the list.</span></span> <span data-ttu-id="bf2d1-126">Utilizzare la funzionalità di ricerca come necessario.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-126">Use the search feature as you require.</span></span>
+1. <span data-ttu-id="bf2d1-127">Selezionare la pagina, selezionare **Modifica** per estrarla, quindi selezionare il nome della pagina per aprirla.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-127">Select the page, select **Edit** to check it out, and then select the page name to open it.</span></span>
+1. <span data-ttu-id="bf2d1-128">Selezionare **Modifica layout**.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-128">Select **Change layout**.</span></span>
+1. <span data-ttu-id="bf2d1-129">Selezionare il nuovo layout per la pagina e selezionare **OK**.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-129">Select the new layout for the page, and then select **OK**.</span></span> <span data-ttu-id="bf2d1-130">L'editor di pagine viene aggiornato per visualizzare il nuovo layout.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-130">The page editor is refreshed to show the new layout.</span></span>
+1. <span data-ttu-id="bf2d1-131">Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.</span><span class="sxs-lookup"><span data-stu-id="bf2d1-131">Select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
 
-[<span data-ttu-id="4e657-136">Salvare, visualizzare in anteprima e pubblicare una pagina</span><span class="sxs-lookup"><span data-stu-id="4e657-136">Save, preview, and publish a page</span></span>](save-preview-publish-page.md)
+## <a name="additional-resources"></a><span data-ttu-id="bf2d1-132">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="bf2d1-132">Additional resources</span></span>
 
-[<span data-ttu-id="4e657-137">Migliorare una pagina prodotto</span><span class="sxs-lookup"><span data-stu-id="4e657-137">Enrich a product page</span></span>](enrich-product-page.md)
+[<span data-ttu-id="bf2d1-133">Modificare una pagina del sito esistente</span><span class="sxs-lookup"><span data-stu-id="bf2d1-133">Modify an existing site page</span></span>](modify-existing-page.md)
 
-[<span data-ttu-id="4e657-138">Migliorare una pagina di destinazione di categoria</span><span class="sxs-lookup"><span data-stu-id="4e657-138">Enrich a category landing page</span></span>](enrich-category-page.md)
+[<span data-ttu-id="bf2d1-134">Aggiungere una nuova pagina del sito</span><span class="sxs-lookup"><span data-stu-id="bf2d1-134">Add a new site page</span></span>](add-new-page.md)
 
-[<span data-ttu-id="4e657-139">Verificare l'accessibilità del contenuto della pagina</span><span class="sxs-lookup"><span data-stu-id="4e657-139">Verify page content accessibility</span></span>](verify-accessibility.md)
+[<span data-ttu-id="bf2d1-135">Gestire i metadati SEO</span><span class="sxs-lookup"><span data-stu-id="bf2d1-135">Manage SEO metadata</span></span>](manage-seo-metadata.md)
 
-[<span data-ttu-id="4e657-140">Creare pagine di e-commerce dinamiche in base ai parametri URL</span><span class="sxs-lookup"><span data-stu-id="4e657-140">Create dynamic e-commerce pages based on URL parameters</span></span>](create-dynamic-pages.md)
+[<span data-ttu-id="bf2d1-136">Salvare, visualizzare in anteprima e pubblicare una pagina</span><span class="sxs-lookup"><span data-stu-id="bf2d1-136">Save, preview, and publish a page</span></span>](save-preview-publish-page.md)
+
+[<span data-ttu-id="bf2d1-137">Migliorare una pagina prodotto</span><span class="sxs-lookup"><span data-stu-id="bf2d1-137">Enrich a product page</span></span>](enrich-product-page.md)
+
+[<span data-ttu-id="bf2d1-138">Migliorare una pagina di destinazione di categoria</span><span class="sxs-lookup"><span data-stu-id="bf2d1-138">Enrich a category landing page</span></span>](enrich-category-page.md)
+
+[<span data-ttu-id="bf2d1-139">Verificare l'accessibilità del contenuto della pagina</span><span class="sxs-lookup"><span data-stu-id="bf2d1-139">Verify page content accessibility</span></span>](verify-accessibility.md)
+
+[<span data-ttu-id="bf2d1-140">Creare pagine di e-commerce dinamiche in base ai parametri URL</span><span class="sxs-lookup"><span data-stu-id="bf2d1-140">Create dynamic e-commerce pages based on URL parameters</span></span>](create-dynamic-pages.md)
 
 
 
