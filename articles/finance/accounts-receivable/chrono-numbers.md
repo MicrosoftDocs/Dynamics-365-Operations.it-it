@@ -2,11 +2,9 @@
 title: Numerazione cronologica di documenti e giustificativi
 description: Questo argomento spiega come impostare e utilizzare i numeri cronologici per i documenti applicabili e i relativi giustificativi.
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254525"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838863"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numerazione cronologica di documenti e giustificativi
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 In alcuni paesi, esiste l'obbligo legale di numerare i documenti e i relativi giustificativi in ordine cronologico. La cronologia deve essere supportata in base a periodi. Tutti i numeri che appartengono a periodi precedenti devono essere inferiori ai numeri che appartengono a periodi successivi. Per soddisfare questo requisito, è stata implementata la funzionalità di numerazione cronologica. Questo argomento spiega come configurare e utilizzare i numeri cronologici per i documenti applicabili e i relativi giustificativi.
 

@@ -2,11 +2,9 @@
 title: Risolvere i problemi di lavoro di magazzino
 description: Questo argomento descrive come risolvere i problemi comuni che si possono verificare quando si utilizza il lavoro di magazzino in Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237061"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837443"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Risolvere i problemi di lavoro di magazzino
 
@@ -40,11 +38,11 @@ Non è possibile spostare una targa utilizzando la voce di menu **Spostamento** 
 
 Questo problema verrà risolto dalle modifiche distribuite in [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687). Queste modifiche renderanno il campo **Numero di serie** facoltativo quando sono consentiti entrate o uscite non specificate.
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Quando elaboro i movimenti viene visualizzato il seguente messaggio di errore nell'app di magazzino: "Il proprietario dell'inventario %1 non è autorizzato in questo processo."
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Quando elaboro i movimenti viene visualizzato il seguente messaggio di errore nell'app per dispositivi mobili Gestione magazzino: "Il proprietario dell'inventario %1 non è autorizzato in questo processo."
 
 ### <a name="issue-description"></a>Descrizione del problema
 
-La dimensione di tracciabilità **Proprietario** non è presente quando l'app del magazzino viene utilizzata per effettuare gli spostamenti. Un regolare giornale di registrazione trasferimento magazzino dal client Supply Chain Management sembra funzionare come previsto e può essere registrato solo se la dimensione **Proprietario** è compilata.
+La dimensione di tracciabilità **Proprietario** non è presente quando l'app per dispositivi mobili Gestione magazzino viene utilizzata per effettuare gli spostamenti. Un regolare giornale di registrazione trasferimento magazzino dal client Supply Chain Management sembra funzionare come previsto e può essere registrato solo se la dimensione **Proprietario** è compilata.
 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 

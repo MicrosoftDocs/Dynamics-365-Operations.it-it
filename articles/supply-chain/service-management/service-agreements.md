@@ -2,11 +2,9 @@
 title: Panoramica dello sviluppo e della definizione dei contratti di assistenza
 description: I contratti di assistenza consentono di definire sia le risorse utilizzate durante un intervento ordinario, sia la modalità di fatturazione di tali risorse a carico del cliente.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86855e8893cdf5d6e53cb34465480ade06a6da95
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5f906beb4f239add265cf280f6bfade66cb9eadc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258496"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835944"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Panoramica dello sviluppo e della definizione dei contratti di assistenza
 

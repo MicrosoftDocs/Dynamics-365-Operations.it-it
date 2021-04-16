@@ -2,11 +2,9 @@
 title: Divisione lavoro
 description: In questo argomento vengono fornite informazioni sulla funzionalità di suddivisione del lavoro. Questa funzionalità consente di suddividere gli ordini di lavoro di grandi dimensioni in diversi ordini di lavoro più piccoli che è possibile quindi assegnare a più lavoratori di magazzino. In questo modo, lo stesso lavoro può essere prelevato contemporaneamente da più magazzinieri.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245084"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830764"
 ---
 # <a name="work-split"></a>Divisione lavoro
 
@@ -69,7 +67,7 @@ La funzionalità *Suddivisione lavoro* aggiunge i seguenti due pulsanti alla sch
 >
 > - Il lavoro è attualmente suddiviso da un altro utente. Se si tenta di aprire la pagina di suddivisione per il lavoro già suddiviso da un altro utente, viene visualizzato il seguente messaggio di errore: "Il lavoro con ID \#\#\#\# è attualmente suddiviso. Riprovare tra qualche minuto. Se si continua a ricevere questo messaggio, contattare un supervisore."
 
-Un nuovo motivo di blocco del lavoro, *Suddivisione lavoro*, indica quando l'ID lavoro è suddiviso. È mostrato nella pagina **Suddivisione lavoro** e nell'app del magazzino se un utente tenta di eseguire il lavoro. Quando vengono utilizzati motivi di blocco, il nome del campo **Ciclo bloccato** dell'ID lavoro viene modificato in **Bloccato**.
+Un nuovo motivo di blocco del lavoro, *Suddivisione lavoro*, indica quando l'ID lavoro è suddiviso. È mostrato nella pagina **Suddivisione lavoro** e nell'app per dispositivi mobili Gestione magazzino se un utente tenta di eseguire il lavoro. Quando vengono utilizzati motivi di blocco, il nome del campo **Ciclo bloccato** dell'ID lavoro viene modificato in **Bloccato**.
 
 ## <a name="initiate-a-work-split"></a>Iniziare una suddivisione del lavoro
 
@@ -147,9 +145,9 @@ Per finire la suddivisione del lavoro, il motivo di blocco *Suddivisione lavoro*
 
 Dopo che il motivo di blocco *Suddivisione lavoro* viene rimosso, il lavoro può essere eseguito sul dispositivo mobile, a condizione che lo stato **Bloccato** è impostato su *No* sull'ID lavoro.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Blocco dell'utente sull'app warehouse
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Blocco dell'utente nell'app per dispositivi mobili Gestione magazzino
 
-Se si tenta di usare l'app del magazzino per eseguire un lavoro di prelievo per un ID lavoro suddiviso, viene visualizzato il seguente messaggio di errore: "Il lavoro con ID \#\#\#\# è attualmente suddiviso." Se viene visualizzato questo messaggio di errore, selezionare **Annulla**. È quindi possibile continuare a elaborare altri lavori.
+Se tenti di usare l'app per dispositivi mobili Gestione magazzino per eseguire un lavoro di prelievo per un ID lavoro suddiviso, viene visualizzato il seguente messaggio di errore: "Il lavoro con ID \#\#\#\# è attualmente suddiviso." Se viene visualizzato questo messaggio di errore, selezionare **Annulla**. È quindi possibile continuare a elaborare altri lavori.
 
 ## <a name="other-blocked-operations"></a>Altre operazioni bloccate
 

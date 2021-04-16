@@ -2,11 +2,9 @@
 title: Inviare le fatture al sistema del flusso di lavoro e abbinare le righe di entrata prodotti
 description: In questo argomento viene descritto il processo di invio di fatture fornitore al sistema del flusso di lavoro e di abbinamento automatico delle righe di entrata prodotti registrate alle righe di fattura fornitore.
 author: abruer
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231544"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827820"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Inviare le fatture al sistema del flusso di lavoro e abbinare le righe di entrata prodotti
 
@@ -41,7 +39,9 @@ Il valore **Inviata da** nel flusso di lavoro è l'ID utente immesso per l'attiv
 
 Come parte di un processo di fatturazione della contabilità fornitori senza contatto, il sistema può abbinare automaticamente le entrate prodotti registrate a righe di fattura. Per questa attività è necessario definire criteri di abbinamento a tre elementi di verifica. Questa funzionalità è disponibile se la funzionalità **Automazione fattura fornitore** è stata abilitata nella pagina **Gestione funzionalità**.
 
-Il processo verrà eseguito fino a quando la quantità delle entrate prodotti abbinate non sarà uguale alla quantità della fattura. Come parte di questo processo, puoi specificare il numero massimo di tentativi del sistema di abbinare le entrate prodotti a una riga di fattura prima che il sistema consideri il processo come non riuscito. Il processo verrà eseguito in background, ogni ora o ogni giorno. Puoi eseguire il processo di abbinamento automatizzato come parte del processo di invio di fatture al sistema del flusso di lavoro. In alternativa, puoi eseguirlo come processo autonomo. Le impostazioni per il processo di abbinamento di entrate prodotto a righe di fattura sono configurate nella scheda **Automazione fattura fornitore** della pagina **Parametri contabilità fornitori** (**Contabilità fornitori \> Impostazione \> Parametri contabilità fornitori**).
+Il processo di corrispondenza verrà eseguito fino a quando la quantità delle entrate prodotti abbinate non sarà uguale alla quantità della fattura. Tuttavia, se sono presenti più entrate prodotto per una singola riga di fattura, sarà necessario eseguire il processo più volte per ottenere la piena corrispondenza della quantità. Puoi specificare il numero massimo di tentativi del sistema di abbinare le entrate prodotti a una riga di fattura prima che il sistema consideri il processo come non riuscito. Il processo verrà eseguito in background, ogni ora o ogni giorno. 
+
+Puoi eseguire il processo di abbinamento automatizzato come parte del processo di invio di fatture al sistema del flusso di lavoro. In alternativa, puoi eseguirlo come processo autonomo. Le impostazioni per il processo di abbinamento di entrate prodotto a righe di fattura sono configurate nella scheda **Automazione fattura fornitore** della pagina **Parametri contabilità fornitori** (**Contabilità fornitori \> Impostazione \> Parametri contabilità fornitori**).
 
 Le righe di fattura che hanno criteri di abbinamento a tre elementi di verifica, in cui la quantità di entrata prodotti abbinata è inferiore alla quantità di fattura, verranno incluse nel processo di abbinamento automatico all'entrata prodotti.
 

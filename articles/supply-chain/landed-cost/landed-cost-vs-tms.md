@@ -2,7 +2,6 @@
 title: Moduli Costo sbarcato e Gestione trasporto
 description: Microsoft Dynamics 365 Supply Chain Management fornisce due diversi moduli per il trasporto, Gestione trasporto (TMS) e Costo sbarcato. Questo argomento riassume le funzionalità che i due moduli hanno in comune e ne evidenzia le differenze.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500720"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833859"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Moduli Costo sbarcato e Gestione trasporto
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management fornisce due diversi moduli per il trasporto: **Gestione trasporto** (TMS) e **Costo sbarcato**. Questo argomento riassume le funzionalità che i due moduli hanno in comune e ne evidenzia le differenze. È possibile utilizzare queste informazioni per decidere quale modulo è più appropriato per le proprie pratiche aziendali. In effetti, alcune pratiche aziendali funzionano meglio con TMS, mentre altre funzionano meglio con Costo sbarcato. Quindi, a seconda dei requisiti aziendali, potresti scegliere di utilizzare esclusivamente un modulo oppure combinare i due moduli.
 
@@ -158,15 +156,15 @@ TMS e Costo sbarcato forniscono funzionalità per la gestione della ricezione de
 
 ### <a name="tms-receiving-by-container-features"></a>Funzionalità di ricevimento tramite contenitore di TMS
 
-TMS supporta ASN in entrata, tutte le varianti di ricevimento tramite l'app warehouse e tutti i metodi di ricevimento tramite il client Supply Chain Management.
+TMS supporta ASN in entrata, tutte le varianti di ricevimento tramite l'app per dispositivi mobili Gestione magazzino e tutti i metodi di ricevimento tramite il client Supply Chain Management.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Funzionalità di ricevimento tramite contenitore di Costo sbarcato
 
 Per supportare il ricevimento tramite contenitore, Costo sbarcato crea record contenitore di spedizione e associa ordini fornitore a uno specifico contenitore di spedizione utilizzando il relativo ID contenitore. I costi generali possono quindi essere applicati a quel contenitore di spedizione e suddivisi in modo da essere associati agli ordini fornitore pertinenti.
 
-I contenitori in Costo sbarcato possono essere ricevuti tramite un nuovo tipo di ricezione noto come *ricezione merci in transito*, tramite giornali di registrazione arrivi o tramite il ricevimento con dispositivi mobili. Quando si utilizzano giornali di registrazione arrivi, le quantità possono essere inizializzate dall'ordine merci in transito o dalle righe dell'ordine fornitore originale nel contenitore. Costo sbarcato fornisce due tipi di lavoro per il ricevimento tramite l'app di magazzino.
+I contenitori in Costo sbarcato possono essere ricevuti tramite un nuovo tipo di ricezione noto come *ricezione merci in transito*, tramite giornali di registrazione arrivi o tramite il ricevimento con dispositivi mobili. Quando si utilizzano giornali di registrazione arrivi, le quantità possono essere inizializzate dall'ordine merci in transito o dalle righe dell'ordine fornitore originale nel contenitore. Costo sbarcato fornisce due tipi di lavoro per il ricevimento tramite l'app per dispositivi mobili Gestione magazzino.
 
-Costo sbarcato non fornisce un ASN per la ricezione elettronica delle merci. Inoltre, non supporta i flussi delle app di magazzino che elaborano il ricevimento di carichi, targhe o targhe miste.
+Costo sbarcato non fornisce un ASN per la ricezione elettronica delle merci. Inoltre, non supporta i flussi dell'app per dispositivi mobili Gestione magazzino che elaborano il ricevimento di carichi, targhe o targhe miste.
 
 ## <a name="rate-shopping-by-vendor"></a>Carrello tariffe in base al venditore
 
