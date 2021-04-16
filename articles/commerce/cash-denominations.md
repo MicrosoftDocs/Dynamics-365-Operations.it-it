@@ -2,11 +2,9 @@
 title: Configurare le denominazioni del contante per il POS
 description: Le denominazioni del contante per banconote e monete possono essere definite nel back office per l'uso da parte di cassieri, assistenti alle vendite e responsabili nel punto vendita dal POS.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b2fb6676f45bc7efa4652de60e829b507292ac37
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5dbef67728e86259ee48b51c48921f6e44a61015
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213188"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793059"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configurare le denominazioni del contante per il POS
 

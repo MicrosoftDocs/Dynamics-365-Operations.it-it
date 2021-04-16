@@ -2,30 +2,27 @@
 title: Elaborazione di prodotti a peso variabile con la gestione magazzino
 description: Questo argomento descrive come utilizzare i modelli di lavoro e le direttive di ubicazione per stabilire come e dove il lavoro viene effettuato nel magazzino.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233081"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808920"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Esposizione della funzionalità
 
@@ -52,7 +49,7 @@ Poiché il peso delle scorte all'arrivo in magazzino può differire da quello de
 > [!NOTE]
 > L'attività del dispositivo mobile attiverà le rettifiche delle transazioni solo se il metodo di scostamento del peso in uscita dei criteri di gestione di articoli a peso variabile è **Consenti scostamento peso**.
 
-**Esempio 1**
+### <a name="example-1"></a>Esempio 1
 
 Durante un processo di produzione **Dichiarazione di finito**, il peso di entrata acquisito di una targa che contiene otto scatole di un prodotto a peso variabile è di 80,1 chilogrammi. La targa viene quindi conservata nell'area dei prodotti finiti e durante il periodo di immagazzinamento, una parte del peso viene persa nell'atmosfera.
 
@@ -60,7 +57,7 @@ Successivamente, in un processo di prelievo ordine cliente, il peso acquisito de
 
 In questo caso, il sistema rettifica automaticamente la differenza registrando una transazione per i 300 g mancanti.
 
-**Esempio 2**
+### <a name="example-2"></a>Esempio 2
 
 Nella relativa definizione, un prodotto è impostato per tollerare un peso minimo di 8 chilogrammi e un peso massimo di 12 chilogrammi per l'unità a peso variabile **Scatola**.
 
@@ -106,7 +103,7 @@ Inoltre, quando un articolo viene tracciato con tag, è disponibile un parametro
 **Quando si utilizza la tracciabilità dei tag a peso variabile**, un tag deve essere sempre creato per ogni unità di peso variabile ricevuta e ogni tag deve sempre essere associato a un peso.
 
 Ad esempio, **Scatola** è l'unità a peso variabile e si riceve un pallet di otto scatole. In questo caso, otto tag a peso variabile univoci devono essere creati e un peso deve essere associato a ogni tag. A seconda del tag a peso variabile in entrata, è possibile acquisire il peso di tutte e otto le scatole, e il peso medio può quindi essere distribuito a ciascuna scatola, oppure un peso univoco per ogni scatola.
-Quando si utilizza la funzionalità **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti** con il processo abilitato tramite una voce di menu di un dispositivo mobile, l'inventario viene aggiornato in base alle informazioni esistenti sull'etichetta del peso variabile. Di conseguenza, l'app di magazzino non richiede l'acquisizione dei dati dei tag di peso variabile come parte di un report di produzione come operazione finita.
+Quando si utilizza la funzionalità **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti** con il processo abilitato tramite una voce di menu di un dispositivo mobile, l'inventario viene aggiornato in base alle informazioni esistenti sull'etichetta del peso variabile. Di conseguenza, l'app per dispositivi mobili Gestione magazzino non richiede l'acquisizione dei dati dei tag di peso variabile come parte di un report di produzione come operazione finita.
 
 **Quando la tracciabilità dei tag a peso variabile non viene utilizzata**, il peso può essere acquisito per ogni set di dimensioni (ad esempio, per ogni targa e dimensione di tracciabilità). In alternativa, il peso può essere acquisito in base a un livello di aggregazione, ad esempio cinque targhe (pallet).
 
@@ -194,7 +191,11 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 
 ### <a name="catch-weight-tags"></a>Tag di peso variabile
 
-Un tag di peso variabile può essere creato tramite un processo dell'app del magazzino, manualmente nel modulo oppure utilizzando un processo di entità di dati. Se un tag di peso variabile è associato a una riga in entrata di documento di origine, ad esempio una riga ordine fornitore, il tag verrà registrato. Se la riga viene utilizzata per l'elaborazione in uscita, il tag verrà aggiornato come spedito.
+Un tag di peso variabile può essere creato tramite un processo dell'app per dispositivi mobili Gestione magazzino, manualmente nel modulo **Gestione magazzino > Richieste di informazioni e report > Tag di peso variabile** oppure utilizzando un processo di entità di dati. Se un tag di peso variabile è associato a una riga in entrata di documento di origine, ad esempio una riga ordine fornitore, il tag verrà registrato. Se la riga viene utilizzata per l'elaborazione in uscita, il tag verrà aggiornato come spedito. È possibile visualizzare tutti gli eventi storici di registrazione dei tag di peso variabile tramite l'opzione **Registrazione tag di peso variabile** della pagina **Tag di peso variabile**.
+
+Puoi usare l'opzione **Modifica tag di peso variabile** per aggiornare manualmente il valore del tag di peso variabile. Tieni presente che il peso dell'inventario disponibile non verrà regolato come parte di questo processo manuale, ma puoi facilmente utilizzare la pagina **Discrepanze scorte disponibili per gli articoli con tag di peso variabile** per cercare eventuali discrepanze tra i tag di peso variabile attualmente attivi e l'inventario corrente.
+
+Altre opzioni manuali sono **Registra tag** per una riga del documento di origine e **Registra lavoro** per un lavoro di magazzino esistente.
 
 Oltre alle restrizioni attualmente in vigore per i prodotti a peso variabile, ai prodotti a peso variabile con tag si applicano altre restrizioni.
 

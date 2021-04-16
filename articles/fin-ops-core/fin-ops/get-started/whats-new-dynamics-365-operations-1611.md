@@ -2,7 +2,6 @@
 title: Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 description: Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 for Operations versione 1611.
 author: sericks007
-manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e5627b605b72b8f9c84a967f88bbfdc0c54173fc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: dbde0d374a70aba94fc13086c1bce69bb532cb40
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564375"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750206"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 

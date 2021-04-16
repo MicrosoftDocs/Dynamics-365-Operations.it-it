@@ -2,11 +2,9 @@
 title: Conti separati per note di credito
 description: Questo argomento spiega come impostare e utilizzare account separati per le note di credito.
 author: ilkond
-manager: AnnBe
 ms.date: 09/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 61d5915d730c953a6e96fb9cf08f2e1e6be311ca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7453bbbd810dc37391351df39557eaf6b0fe62cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214466"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814928"
 ---
 # <a name="separate-accounts-for-credit-notes"></a>Conti separati per note di credito
 

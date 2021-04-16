@@ -2,11 +2,9 @@
 title: Utilizzare i frammenti
 description: In questo argomento viene descritto perché, quando e come utilizzare frammenti in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3df2d99ef10f909cedef16167fb8d5a0024683b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210949"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793947"
 ---
 # <a name="work-with-fragments"></a>Utilizzare i frammenti 
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto perché, quando e come utilizzare frammenti in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 I frammenti consentono un'esperienza di creazione centralizzata per le configurazioni di moduli che devono essere riutilizzate in tutto il sito. Ad esempio, intestazioni, piè di pagina e banner sono spesso configurati come frammenti, in quanto sono condivisi da molte pagine. È possibile considerare i frammenti come pagine Web in miniatura inseribili in altre pagine del sito. I frammenti hanno un ciclo di vita proprio. In altre parole, vengono creati, utilizzati come riferimento, aggiornati ed eliminati come entità indipendenti negli strumenti di creazione.
 

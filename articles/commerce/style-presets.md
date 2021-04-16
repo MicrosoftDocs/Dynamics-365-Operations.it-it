@@ -2,11 +2,9 @@
 title: Utilizzare le impostazioni predefinite degli stili
 description: In questo argomento viene descritto come utilizzare set di impostazioni di stile in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 55d333c3ae94b17dabaef3c697c698f068a06543
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7279b52f801c2cb2f156d220d1a456b773d10f33
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226593"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791753"
 ---
 # <a name="work-with-style-presets"></a>Utilizzare le impostazioni predefinite degli stili
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare set di impostazioni di stile in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Un set di impostazioni di stile è un insieme memorizzato di tutti i valori di stile modificabili nel tema di un sito. Può essere utilizzato per modificare immediatamente l'aspetto di un sito tramite Creazione di siti Web. I set di impostazioni di stile consentono ai creatori di Creazione di siti Web di modificare, visualizzare in anteprima e attivare rapidamente un insieme di valori di stile nel proprio sito, senza dover utilizzare Cascading Style Sheets (CSS) o distribuire temi. Stili di caratteri, stili di pulsanti e colori di sito sono esempi tipici di variabili di stile che possono essere gestite tramite set di impostazioni di stile.
 
