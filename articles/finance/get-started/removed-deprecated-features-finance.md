@@ -2,11 +2,9 @@
 title: Funzionalità rimosse o deprecate in Dynamics 365 Finance
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474065"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836915"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -39,7 +37,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Repository LCS come opzione di archiviazione per configurazioni di report elettronici
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Sostituito con il nuovo repository globale di Regulatory Configuration Service (RCS) |
 | **Sostituita da un'altra funzionalità?**   | Sì |
@@ -51,7 +49,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Formati di dichiarazione elettronica "Dichiarazione IVA (CZ)" e "Esportazione dichiarazione di controllo (CZ)" per la Repubblica ceca
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Sostituito con nuovi formati |
 | **Sostituita da un'altra funzionalità?**   | Sì |
@@ -61,7 +59,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>Formato di creazione di report elettronici "Ledger transaction export format (BE)" e rispettivo modello "Ledger transaction export (BE)" per il Belgio
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato di creazione report elettronici "Standard Audit File (SAF-T)".  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
@@ -71,7 +69,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Report "VAT 100" per il Regno Unito nel formato SSRS
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato per la creazione di report elettronici: formato "Excel di dichiarazione IVA (UK)" in "Modello di dichiarazione fiscale".  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
@@ -83,7 +81,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Il supporto di Internet Explorer 11 per Dynamics 365 è deprecato
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
 | **Sostituita da un'altra funzionalità?**   | Consigliamo ai clienti di passare a Microsoft Edge.|
@@ -95,7 +93,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Report SSRS polacchi: registro IVA vendite, registro IVA acquisti, registro IVA riepilogativo UE - Riferimento funzione PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Non obbligatorio per legge.  |
 | **Sostituita da un'altra funzionalità?**   | Sì (formato Excel per file di controllo standard con dichiarazione IVA - JPK_VDEK) |
@@ -107,7 +105,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="norwegian-standard-main-accounts"></a>Conti principali standard per la Norvegia
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Riprogettazione  |
 | **Sostituita da un'altra funzionalità?**   | Sì (sostituito con parametri specifici dell'applicazione in formato ER) |
@@ -118,7 +116,8 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.7
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>La finestra di dialogo per la modifica della richiesta del flusso di lavoro non include più l'elenco a discesa per la selezione dell'utente
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Modificato nella funzionalità con selezione di gruppi di conti.  |
 | **Sostituita da un'altra funzionalità?**   | Sì |

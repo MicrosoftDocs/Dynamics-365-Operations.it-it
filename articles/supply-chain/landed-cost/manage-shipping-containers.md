@@ -2,7 +2,6 @@
 title: Gestire contenitori di spedizione
 description: In questo argomento viene descritto come utilizzare i contenitori di spedizione. I contenitori di spedizione sono utilizzati per raggruppare le merci che sono raggruppate fisicamente. Sono utilizzati anche nei casi in cui i costi devono essere condivisi solo tra quelle merci, in genere perché sono raggruppate fisicamente.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: e75deb5f4acd647408e93957bb99f04f548108f6
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9b42292194d40f6b0cc6203130bedc1fbb45eec8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501344"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833811"
 ---
 # <a name="manage-shipping-containers"></a>Gestire contenitori di spedizione
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 I contenitori di spedizione sono utilizzati per raggruppare le merci che sono raggruppate fisicamente. Sono utilizzati anche nei casi in cui i costi devono essere condivisi solo tra quelle merci, in genere perché sono raggruppate fisicamente.
 

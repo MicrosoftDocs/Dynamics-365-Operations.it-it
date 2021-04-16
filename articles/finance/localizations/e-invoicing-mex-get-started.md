@@ -1,12 +1,10 @@
 ---
-title: Introduzione al componente aggiuntivo per la fatturazione elettronica per il Messico
-description: Questo argomento fornisce informazioni introduttive sul componente aggiuntivo per la fatturazione elettronica per il Messico in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
+title: Introduzione alla fatturazione elettronica per il Messico
+description: Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per il Messico.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,25 +15,25 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592648"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840054"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Introduzione al componente aggiuntivo per la fatturazione elettronica per il Messico
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>Introduzione alla fatturazione elettronica per il Messico
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Il componente aggiuntivo per la fatturazione elettronica per il Messico potrebbe attualmente non supportare tutte le funzioni disponibili nel documento Comprobante Fiscal Digital por Internet (CFDI) e nella relativa integrazione incorporata in Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management.
+> La fatturazione elettronica per il Messico potrebbe attualmente non supportare tutte le funzioni disponibili nel documento Comprobante Fiscal Digital por Internet (CFDI) e nella relativa integrazione incorporata in Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management.
 
-Questo argomento fornisce informazioni introduttive sul componente aggiuntivo per la fatturazione elettronica per il Messico. Ti guida attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e Finance. Inoltre, guida l'utente attraverso i passaggi da seguire in Finance per inviare fatture CFDI tramite il servizio e spiega come esaminare i risultati dell'elaborazione e lo stato delle fatture CFDI.
+Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per il Messico. Ti guida attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e Finance. Inoltre, guida l'utente attraverso i passaggi da seguire in Finance per inviare fatture CFDI tramite il servizio e spiega come esaminare i risultati dell'elaborazione e lo stato delle fatture CFDI.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di completare i passaggi in questo argomento, è necessario completare i passaggi in [Introduzione al componente aggiuntivo per la fatturazione elettronica](e-invoicing-get-started.md).
+Prima di completare i passaggi in questo argomento, è necessario completare i passaggi in [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>Impostazioni RCS
 
@@ -47,7 +45,7 @@ Durante la configurazione RCS, completerai queste attività:
 4. Pubblica la funzionalità per la fatturazione elettronica per le fatture CFDI.
 
 > [!NOTE]
-> "La funzionalità per la fatturazione elettronica" è il nome generico della risorsa configurata e pubblicata per utilizzare il server del componente aggiuntivo per la fatturazione elettronica. In questo caso, le fatture CFDI (MX) rappresentano la funzionalità per la fatturazione elettronica che configurerai.
+> "La funzionalità per la fatturazione elettronica" è il nome generico della risorsa configurata e pubblicata per utilizzare il server della fatturazione elettronica. In questo caso, le fatture CFDI (MX) rappresentano la funzionalità per la fatturazione elettronica che configurerai.
 
 ## <a name="import-the-e-invoicing-feature"></a>Importare la funzionalità per la fatturazione elettronica
 
@@ -153,9 +151,9 @@ Per inviare l'annullamento della fattura CFDI, sono obbligatorie le configurazio
 
 ![Modifica dello stato della funzionalità di fatturazione elettronica](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>Configurare l'integrazione del componente aggiuntivo per la fatturazione elettronica in Finance
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Configurare l'integrazione della fatturazione elettronica in Finance
 
-Per configurare il componente aggiuntivo per la fatturazione elettronica in Finance, completerai queste attività:
+Per configurare la fatturazione elettronica in Finance, completerai queste attività:
 
 1. Importa il modello di dati ER, il mapping del modello di dati ER e i formati richiesti per le fatture CFDI.
 2. Configura i tipi di risposta per l'aggiornamento delle fatture CFDI. Questi tipi di risposta vengono utilizzati per la risposta dal server PAC (provider di certificazione autorizzato).
@@ -194,7 +192,7 @@ Per configurare il componente aggiuntivo per la fatturazione elettronica in Fina
     - Per **Giornale di registrazione fatture cliente**, immetti **Contesto della fattura cliente**.
     - Per **Fattura di progetto**, immetti **Contesto della fattura di progetto**.
 
-4. Seleziona **Tipi di risposta** per configurare i tipi di risposta che possono essere restituiti dal componente aggiuntivo per la fatturazione elettronica e inclusi in un giornale di registrazione fatture cliente o in una fattura di progetto.
+4. Seleziona **Tipi di risposta** per configurare i tipi di risposta che possono essere restituiti dalla fatturazione elettronica e inclusi in un giornale di registrazione fatture cliente o in una fattura di progetto.
 5. Seleziona **Nuovo**, quindi nel campo **Tipo di risposta**, seleziona **Risposta**.
 6. Nel campo **Stato invio**, seleziona **In sospeso**.
 7. Nel campo **Mapping modello**, seleziona **Formato di importazione dei messaggi di risposta: mapping del modello dal messaggio di risposta**.
@@ -206,7 +204,7 @@ Per configurare il componente aggiuntivo per la fatturazione elettronica in Fina
 
 ## <a name="process-electronic-invoices-in-finance"></a>Elaborazione di fatture elettroniche in Finance 
 
-Durante l'elaborazione delle fatture CFDI in Finance tramite il componente aggiuntivo per la fatturazione elettronica, è possibile eseguire le seguenti attività:
+Durante l'elaborazione delle fatture CFDI in Finance tramite la fatturazione elettronica, è possibile eseguire le seguenti attività:
 
 - Inviare le fatture CFDI.
 - Visualizzare i log di esecuzione dell'invio.
@@ -214,7 +212,7 @@ Durante l'elaborazione delle fatture CFDI in Finance tramite il componente aggiu
 
 ### <a name="submit-cfdi-invoices"></a>Inviare le fatture CFDI
 
-Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile**, il processo **Esporta/Importa fattura elettronica** (**Contabilità clienti \>Fatture \> Fatture elettroniche**) per l'invio di fatture CFDI non possono più essere utilizzati. È sostituito da un nuovo processo denominato **Invia documenti elettronici**.
+Dopo aver attivato la funzionalità **Integrazione della fatturazione elettronica configurabile**, il processo **Esporta/Importa fattura elettronica** (**Contabilità clienti \>Fatture \> Fatture elettroniche**) per l'invio di fatture CFDI non possono più essere utilizzati. È sostituito da un nuovo processo denominato **Invia documenti elettronici**.
 
 > [!NOTE]
 > Prima di utilizzare il nuovo processo **Invia documenti elettronici**, verifica che la configurazione obbligatoria per le fatture elettroniche messicane sia stata completata. Per altre informazioni, vedi [Versione layout CFDI 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
@@ -226,7 +224,7 @@ Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per
 ![Invio di un documento CFDI](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
-> Durante il tuo primo tentativo di inviare un documento tramite il servizio, ti verrà chiesto di confermare la connessione con il componente aggiuntivo per la fatturazione elettronica. Seleziona **Fai clic qui per connetterti al servizio di invio documenti elettronici**.
+> Durante il tuo primo tentativo di inviare un documento tramite il servizio, ti verrà chiesto di confermare la connessione con la fatturazione elettronica. Seleziona **Fai clic qui per connetterti al servizio di invio documenti elettronici**.
 
 ### <a name="view-submission-logs"></a>Visualizzare i registri di invio
 
@@ -234,7 +232,7 @@ Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per
 
 #### <a name="view-all-submission-logs"></a>Visualizzare tutti i registri di invio
 
-Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile**, è disponibile una nuova pagina che consente di completare il processo di invio del documento. È possibile utilizzare questa pagina per visualizzare i registri di invio per tutti i documenti inviati.
+Dopo aver attivato la funzionalità **Integrazione della fatturazione elettronica configurabile**, è disponibile una nuova pagina che consente di completare il processo di invio del documento. È possibile utilizzare questa pagina per visualizzare i registri di invio per tutti i documenti inviati.
 
 1. Vai a **Amministrazione organizzazione \> Periodico \> Documenti elettronici \> Registro di invio documenti elettronici**.
 2. Nel campo **Tipo di documento**, seleziona **Giornale di registrazione fatture cliente** per filtrare i documenti elettronici obbligatori.
@@ -249,26 +247,26 @@ Le informazioni nei registri di invio sono suddivise in tre Schede dettaglio:
 
 - **Azioni di elaborazione**: questa Scheda dettaglio mostra il registro di esecuzione delle azioni configurate nella versione della funzionalità configurata in RCS. La colonna **Stato** mostra se l'azione è stata eseguita correttamente.
 - **File di azione**: questa Scheda dettaglio mostra i file intermedi che sono stati generati durante l'esecuzione delle azioni. Puoi selezionare **Visualizza** per scaricare e visualizzare il file.
-- **Registro azioni di elaborazione**: questa scheda dettaglio mostra i risultati della comunicazione tra il componente aggiuntivo per la fatturazione elettronica e il servizio Web di destinazione. Mostra anche ciò che è stato restituito dall'elaborazione del servizio Web. La colonna **Codice di errore** mostra il codice di reso che è stato restituito dal servizio Web di autorizzazione.
+- **Registro azioni di elaborazione**: questa scheda dettaglio mostra i risultati della comunicazione tra la fatturazione elettronica e il servizio Web di destinazione. Mostra anche ciò che è stato restituito dall'elaborazione del servizio Web. La colonna **Codice di errore** mostra il codice di reso che è stato restituito dal servizio Web di autorizzazione.
 
 Quando la fattura CFDI inviata viene autorizzata, il suo stato viene aggiornato su **Approvata**.
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>Visualizzare i registri di invio dalle fatture CFDI
 
-Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile** puoi anche visualizzare i registri di invio dalle fatture CFDI.
+Dopo aver attivato la funzionalità **Integrazione della fatturazione elettronica configurabile** puoi anche visualizzare i registri di invio dalle fatture CFDI.
 
 1. Passa a **Contabilità clienti \> Richieste di informazioni e report \> CFDI (fatture elettroniche)**.
-2. Seleziona una fattura CFDI inviata dopo l'attivazione della funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile**.
+2. Seleziona una fattura CFDI inviata dopo l'attivazione della funzionalità **Integrazione della fatturazione elettronica configurabile**.
 3. Nel riquadro azioni, nella scheda **Cronologia**, seleziona **Registro documenti elettronici**.
 
 ![Visualizzazione dei registri di invio dalle fatture CFDI](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> Per le fatture CFDI presentate prima dell'attivazione della funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile**, è disponibile il pulsante **Cronologia**. Il pulsante **Cronologia** non è disponibile per le fatture CFDI inviate dopo l'attivazione della funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile**.
+> Per le fatture CFDI presentate prima dell'attivazione della funzionalità **Integrazione della fatturazione elettronica configurabile**, è disponibile il pulsante **Cronologia**. Il pulsante **Cronologia** non è disponibile per le fatture CFDI inviate dopo l'attivazione della funzionalità **Integrazione della fatturazione elettronica configurabile**.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>Inviare l'annullamento delle fatture CFDI
 
-Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile**, il vecchio processo per l'annullamento delle fatture CFDI non può più essere utilizzato. Viene sostituito da un nuovo processo di annullamento incorporato nella pagina **Registro di invio documenti elettronici**.
+Dopo aver attivato la funzionalità **Integrazione della fatturazione elettronica configurabile**, il vecchio processo per l'annullamento delle fatture CFDI non può più essere utilizzato. Viene sostituito da un nuovo processo di annullamento incorporato nella pagina **Registro di invio documenti elettronici**.
 
 1. Passa a **Contabilità clienti \> Richieste di informazioni e report \> CFDI (fatture elettroniche)**.
 2. Se la fattura CFDI ha uno stato **Approvato**, seleziona **Funzioni \> Annulla CFDI**.
@@ -295,9 +293,9 @@ L'abilitazione della funzionalità **CFDI - Fattura elettronica messicana (MX)**
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Panoramica del componente aggiuntivo per la fatturazione elettronica](e-invoicing-service-overview.md)
-- [Introduzione al componente aggiuntivo per la fatturazione elettronica](e-invoicing-get-started.md)
-- [Configurare il componente aggiuntivo per la fatturazione elettronica](e-invoicing-setup.md)
+- [Panoramica della fatturazione elettronica](e-invoicing-service-overview.md)
+- [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md)
+- [Impostare la fatturazione elettronica](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

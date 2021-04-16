@@ -2,11 +2,9 @@
 title: Pubblicare documenti e righe di giornale di registrazione da Excel
 description: In questo argomento viene descritto come immettere e pubblicare righe dei giornali di registrazione generale da Microsoft Excel. Sono riportate informazioni sui diversi modelli che è possibile utilizzare, a seconda del tipo di transazioni che si sta immettendo.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f87ce1dcbae779f875abcbffd1781bbf076b1b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2211f666b2b1dc7600639007794ab8133b58b2cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230252"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834478"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Pubblicare documenti e righe di giornale di registrazione da Excel
 
@@ -32,9 +30,8 @@ In questo argomento viene descritto come immettere e pubblicare righe dei giorna
 
 Gli utenti possono immettere e pubblicare righe per i giornali di registrazione finanziari da Microsoft Excel. Dopo che un utente ha creato un giornale di registrazione, il pulsante **Apri righe in Excel** visualizza i modelli disponibili. I modelli sono progettati per supportare scenari specifici, tuttavia non tutte le combinazioni di tipo di conto sono supportate nel giornale di registrazione. La tabella seguente mostra i modelli disponibili e i tipi di conto supportati.
 
-|                          |                                                                                                                         |                                                                                         |
+| Modello             | Tipi di conto supportati | Come accedere al modello                                                          |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Modello**             | **Tipi di conto supportati**                                                                                             | **Come accedere al modello**                                                          |
 | Righe giornale di registrazione contabile     | Conto: contabilità generale, cliente, fornitore, il conto di contropartita bancario: contabilità generale, cliente, fornitore, interaziendale bancario è supportato.       | Giornale di registrazione generale                                                                         |
 | Registro fatture         | Conto: Conto di contropartita fornitore: il sistema di gestione interaziendale di contabilità generale non è supportato.                                                    | Registro fatture contabilità fornitori                                                                     |
 | Giornale di registrazione fatture          | Conti: Conto di contropartita fornitore: il sistema di gestione interaziendale di contabilità generale è supportato.                                                      | Giornale di registrazione fatture contabilità fornitori                                                                      |

@@ -2,11 +2,9 @@
 title: Dettagli delle dichiarazioni IVA per l'Italia
 description: In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxYearlyCom_IT, TaxAuthority, TaxPeriod
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Italy
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 359cc55ac3a405ace79654b25758d227ab2131aa
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 11b75a3dd93f1b5037597def5b7a9e2d557356cd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247968"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826485"
 ---
 # <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 

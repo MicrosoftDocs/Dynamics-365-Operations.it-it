@@ -2,11 +2,9 @@
 title: Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 description: Questo argomento fornisce informazioni sulla funzionalità che consente alle unità di scala di eseguire processi selezionati dal carico di lavoro di gestione del magazzino dell'utente.
 author: perlynne
-manager: tfeyr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, SysSecRolesEditUsers
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580967"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832396"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -70,7 +68,7 @@ L'hub possiede i seguenti dati:
 - Allocazione degli ordini ed elaborazione del carico in uscita
 - Processi di rilascio in magazzino, creazione della spedizione, creazione e finalizzazione e del ciclo
 
-Le unità di scala prevedono l'effettiva elaborazione del ciclo (come l'allocazione del lavoro, il lavoro di rifornimento e la creazione del lavoro in base alla domanda) dopo il rilascio del ciclo. Pertanto, gli addetti al magazzino possono elaborare il lavoro in uscita utilizzando un'app di magazzino connessa all'unità di scala.
+Le unità di scala prevedono l'effettiva elaborazione del ciclo (come l'allocazione del lavoro, il lavoro di rifornimento e la creazione del lavoro in base alla domanda) dopo il rilascio del ciclo. Pertanto, gli addetti al magazzino possono elaborare il lavoro in uscita utilizzando un'app per dispositivi mobili Gestione magazzino connessa all'unità di scala.
 
 ![Flusso di elaborazione ciclo](./media/wes-wave-processing-ga.png "Flusso di elaborazione ciclo")
 
@@ -94,7 +92,7 @@ Per utilizzare il processo *Rilascia in magazzino* è necessario accedere all'hu
 
 Quando si utilizza **Rilascio automatico degli ordini cliente**, è possibile selezionare righe di ordine fornitore specifiche in base a una query. Uno scenario tipico sarebbe impostare un processo batch ricorrente che rilascia tutte le righe di ordine fornitore confermate che dovrebbero arrivare il giorno successivo.
 
-L'addetto al magazzino può eseguire il processo di ricevimento utilizzando un'app di magazzino connessa all'unità di scala. I dati vengono quindi registrati dall'unità di scala e indicati rispetto all'ordine di magazzino in entrata. Anche la creazione e l'elaborazione dello stoccaggio successivo saranno gestite dall'unità di scala.
+L'addetto al magazzino può eseguire il processo di ricevimento utilizzando un'app per dispositivi mobili Gestione magazzino connessa all'unità di scala. I dati vengono quindi registrati dall'unità di scala e indicati rispetto all'ordine di magazzino in entrata. Anche la creazione e l'elaborazione dello stoccaggio successivo saranno gestite dall'unità di scala.
 
 Se non utilizzi il processo *rilascio in magazzino* e pertanto non utilizzi *ordini di magazzino*, l'hub può elaborare il ricevimento in magazzino e l'elaborazione del lavoro indipendentemente dalle unità di scala.
 
@@ -117,10 +115,10 @@ Agli utenti che agiscono come responsabili di magazzino nell'hub e nelle unità 
 I seguenti processi di esecuzione del magazzino possono essere abilitati per un carico di lavoro WES su un'unità di scala:
 
 - Metodi di ciclo selezionati per ordini cliente e trasferimento (allocazione, rifornimento della domanda, containerizzazione, creazione di lavoro e stampa di etichette del ciclo)
-- Elaborazione del lavoro di magazzino a fronte di ordini di vendite e trasferimento utilizzando l'app di magazzino (incluso il lavoro di rifornimento)
-- Esecuzione di query sulle scorte disponibili utilizzando l'app di magazzino
-- Creazione ed esecuzione di movimenti di inventario utilizzando l'app di magazzino
-- Registrazione di ordini fornitore ed esecuzione del lavoro di stoccaggio utilizzando l'app di magazzino
+- Elaborazione del lavoro di magazzino a fronte di ordini di vendite e trasferimento utilizzando l'app per dispositivi mobili Gestione magazzino (incluso il lavoro di rifornimento)
+- Esecuzione di query sulle scorte disponibili utilizzando l'app per dispositivi mobili Gestione magazzino
+- Creazione ed esecuzione di movimenti di inventario utilizzando l'app per dispositivi mobili Gestione magazzino
+- Registrazione di ordini fornitore ed esecuzione del lavoro di stoccaggio utilizzando l'app per dispositivi mobili Gestione magazzino
 
 I seguenti tipi di ordine di lavoro sono attualmente supportati per i carichi di lavoro WES su distribuzioni di unità di scala:
 
@@ -133,7 +131,7 @@ I seguenti tipi di ordine di lavoro sono attualmente supportati per i carichi di
 Nessun altro tipo di lavoro di magazzino o di elaborazione dei documenti di origine è al momento supportato sulle unità di scala. Ad esempio, per un carico di lavoro WES su un'unità di scala, non è possibile eseguire un processo di ricevimento di ordini di trasferimento (ricevuta di trasferimento) o lavoro di conteggio del ciclo di elaborazione.
 
 > [!NOTE]
-> I pulsanti e le voci di menu del dispositivo mobile per le funzionalità non supportate non vengono visualizzati nell'_app di magazzino_ quando è connesso a una distribuzione di unità di scala.
+> I pulsanti e le voci di menu del dispositivo mobile per le funzionalità non supportate non vengono visualizzati nell'_app per dispositivi mobili Gestione magazzino_ quando è connesso a una distribuzione di unità di scala.
 
 > [!WARNING]
 > Quando si esegue un carico di lavoro su un'unità di scala, non è possibile eseguire processi non supportati per il magazzino specifico nell'hub. Le tabelle fornite più avanti in questo argomento documentano le funzionalità supportate.
@@ -164,7 +162,7 @@ La seguente funzionalità di gestione del magazzino non è attualmente supportat
 - Elaborazione del lavoro di magazzino con note di spedizione
 - Elaborazione del lavoro di magazzino con attivazione della soglia di conteggio ciclo
 - Elaborazione del lavoro di magazzino con movimentazione dei materiali/Warehouse Automation
-- Utilizzo dell'immagine dei dati master del prodotto (ad esempio, sull'app del magazzino)
+- Utilizzo dell'immagine dei dati master del prodotto (ad esempio, sull'app per dispositivi mobili Gestione magazzino)
 
 > [!WARNING]
 > Alcune funzionalità di magazzino non saranno disponibili per i magazzini che eseguono i carichi di lavoro di gestione del magazzino su un'unità di scala e inoltre non sono supportate sull'hub o sul carico di lavoro dell'unità di scala.
@@ -253,7 +251,7 @@ La tabella seguente mostra le operazioni di magazzino e le funzionalità di gest
 | Movimento                                           | Sì | Sì                          |
 | Movimento per modello                               | Sì | Sì                          |
 | Trasferimento di magazzino                                 | Sì | Nessuno                           |
-| Creare un ordine di trasferimento dall'app di magazzino           | Sì | Nessuno                           |
+| Creare ordini di trasferimento dall'app per dispositivi mobili Gestione magazzino           | Sì | Nessuno                           |
 | Rettifica (in ingresso/uscita)                                | Sì | Nessuno                           |
 | Modifica stato magazzino                            | Sì | Nessuno                           |
 | Conteggio ciclo ed elaborazione di discrepanza conteggio | Sì | Nessuno                           |

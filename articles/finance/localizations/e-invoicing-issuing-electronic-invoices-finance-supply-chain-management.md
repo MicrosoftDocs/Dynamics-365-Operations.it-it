@@ -1,12 +1,10 @@
 ---
 title: Emissione di fatture elettroniche in Finance e Supply Chain Management
-description: Questo argomento spiega come emettere le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management con il componente aggiuntivo per la fatturazione elettronica.
+description: Questo argomento spiega come emettere le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management con la fatturazione elettronica.
 author: gionoder
-manager: AnnBe
-ms.date: 02/26/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,29 +15,27 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 8d6ef59b64a96e13bdc2e5ddf299ef7ab98e105c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486955"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840078"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Emissione di fatture elettroniche in Finance e Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
-Questo argomento spiega come emettere le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management con il componente aggiuntivo per la fatturazione elettronica.
+Questo argomento spiega come emettere le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management con la fatturazione elettronica.
 
 
 ## <a name="feature-activation"></a>Attivazione della funzionalità
 
-Per emettere fatture elettroniche tramite il componente aggiuntivo Fatturazione elettronica, è necessario attivare il Riferimento funzionalità in Finance e Supply Chain Management.
+Per emettere fatture elettroniche tramite Fatturazione elettronica, è necessario attivare il Riferimento funzionalità in Finance e Supply Chain Management.
 
 Ogni funzionalità corrisponde a una specifica funzionalità di fatturazione elettronica conforme ai requisiti di fatturazione elettronica per un paese/area geografica.
 
-La tabella seguente mostra l'elenco delle funzionalità supportati dal componente aggiuntivo Fatturazione elettronica.
+La tabella seguente mostra l'elenco delle funzionalità supportati da Fatturazione elettronica.
 
 | Nome                                              | Paese/area geografica |
 |---------------------------------------------------|----------------|
@@ -60,19 +56,19 @@ La tabella seguente mostra l'elenco delle funzionalità supportati dal component
 |Fattura elettronica norvegese                       |Norvegia          |
 |Fattura elettronica spagnola                         |Spagna           |
 
-Quando è presente una funzionalità di fatturazione elettronica legacy supportata dall'ambito di localizzazione di un paese/area geografica, l'attivazione di una di queste funzionalità disattiva la funzionalità legacy e consente l'emissione di fatture elettroniche tramite il componente aggiuntivo Fatturazione elettronica.
+Quando è presente una funzionalità di fatturazione elettronica legacy supportata dall'ambito di localizzazione di un paese/area geografica, l'attivazione di una di queste funzionalità disattiva la funzionalità legacy e consente l'emissione di fatture elettroniche tramite Fatturazione elettronica.
 
 > [!IMPORTANT]
-> Dopo l'abilitazione della funzionalità di integrazione del componente aggiuntivo Fatturazione elettronica, la nuova esperienza di fatturazione elettronica è disattivata per impostazione predefinita. È possibile utilizzare il concetto di funzionalità per abilitare selettivamente nuove esperienze per persone giuridiche che utilizzano funzionalità specifiche per paese/area geografica. L'opzione **Globale** controlla la nuova esperienza per il paese/le aree geografiche rimanenti che non sono specificatamente elencate nella tabella.
+> Dopo l'abilitazione della funzionalità di integrazione di Fatturazione elettronica, la nuova esperienza di fatturazione elettronica è disattivata per impostazione predefinita. È possibile utilizzare il concetto di funzionalità per abilitare selettivamente nuove esperienze per persone giuridiche che utilizzano funzionalità specifiche per paese/area geografica. L'opzione **Globale** controlla la nuova esperienza per il paese/le aree geografiche rimanenti che non sono specificatamente elencate nella tabella.
 
 ## <a name="submit-electronic-documents"></a>Invia documenti elettronici
 
-Il processo di invio dei documenti elettronici rappresenta l'unico punto di comunicazione tra Finance e Supply Chain Management e il componente aggiuntivo Fatturazione elettronica. Durante ogni evento di invio, la comunicazione scorre in entrambe le direzioni:
+Il processo di invio dei documenti elettronici rappresenta l'unico punto di comunicazione tra Finance e Supply Chain Management e Fatturazione elettronica. Durante ogni evento di invio, la comunicazione scorre in entrambe le direzioni:
 
-- **Da Finance e Supply Chain Management al componente aggiuntivo per la fatturazione elettronica** - Finance e Supply Chain Management inviano le fatture astratte al componente aggiuntivo Fatturazione elettronica. Come richiesto, inviano anche il contenuto delle variabili che sono state configurate come parte delle funzionalità di fatturazione elettronica.
-- **Dal componente aggiuntivo per la fatturazione elettronica a Finance e Supply Chain Management** - A seconda della funzione di fatturazione elettronica, Finance e Supply Chain Management ricevono aggiornamenti dal componente aggiuntivo Fatturazione elettronica sui risultati dell'elaborazione delle fatture inoltrate in precedenza. Ricevono anche il contenuto delle variabili che sono state configurate come parte delle funzionalità di fatturazione elettronica.
+- **Da Finance e Supply Chain Management al componente aggiuntivo per la fatturazione elettronica** - Finance e Supply Chain Management inviano le fatture astratte a Fatturazione elettronica. Come richiesto, inviano anche il contenuto delle variabili che sono state configurate come parte delle funzionalità di fatturazione elettronica.
+- **Dal componente aggiuntivo per la fatturazione elettronica a Finance e Supply Chain Management** - A seconda della funzione di fatturazione elettronica, Finance e Supply Chain Management ricevono aggiornamenti da Fatturazione elettronica sui risultati dell'elaborazione delle fatture inoltrate in precedenza. Ricevono anche il contenuto delle variabili che sono state configurate come parte delle funzionalità di fatturazione elettronica.
 
-Per inviare documenti elettronici al componente aggiuntivo Fatturazione elettronica, in Finance e Supply Chain Management, vai a **Amministrazione organizzazione &gt; Periodico &gt; Documenti elettronici &gt; Invia documenti elettronici**.
+Per inviare documenti elettronici a Fatturazione elettronica, in Finance e Supply Chain Management, vai a **Amministrazione organizzazione &gt; Periodico &gt; Documenti elettronici &gt; Invia documenti elettronici**.
 
 Il punto di partenza è una fattura registrata. Questa fattura può provenire da origini diverse, ad esempio ordini di vendita, fatture di progetto o fatture a testo libero.
 
@@ -83,25 +79,25 @@ Il processo di invio può essere eseguito manualmente o in background.
 
 ## <a name="view-the-submission-logs"></a>Visualizzare i registri di invio
 
-In Finance e Supply Chain Management, puoi utilizzare i registri di invio per visualizzare i risultati dell'elaborazione dell'invio al componente aggiuntivo Fatturazione elettronica. Vai a **Amministrazione organizzazione &gt; Periodico &gt; Documenti elettronici &gt; Invio documenti elettronici**, e poi, nel campo **Tipo di documento** seleziona un valore per filtrare il tipo di fatture visualizzate nei registri.
+In Finance e Supply Chain Management, puoi utilizzare i registri di invio per visualizzare i risultati dell'elaborazione dell'invio a Fatturazione elettronica. Vai a **Amministrazione organizzazione &gt; Periodico &gt; Documenti elettronici &gt; Invio documenti elettronici**, e poi, nel campo **Tipo di documento** seleziona un valore per filtrare il tipo di fatture visualizzate nei registri.
 
 Ci sono tre possibili stati di invio:
 
-- **Programmato** - Il componente aggiuntivo Fatturazione elettronica ha ricevuto l'invio da Finance e Supply Chain Management ed è in corso l'elaborazione della funzione di fatturazione elettronica.
-- **Completato** - Il componente aggiuntivo Fatturazione elettronica ha elaborato correttamente la funzione di fatturazione elettronica così come è stata configurata per eseguirla.
-- **Non riuscito** - Il componente aggiuntivo Fatturazione elettronica ha riscontrato un errore o è stato interrotto da un'eccezione durante l'elaborazione della funzione di fatturazione elettronica.
+- **Programmato** - Fatturazione elettronica ha ricevuto l'invio da Finance e Supply Chain Management ed è in corso l'elaborazione della funzione di fatturazione elettronica.
+- **Completato** - Fatturazione elettronica ha elaborato correttamente la funzione di fatturazione elettronica così come è stata configurata per eseguirla.
+- **Non riuscito** - Fatturazione elettronica ha riscontrato un errore o è stato interrotto da un'eccezione durante l'elaborazione della funzione di fatturazione elettronica.
 
 > [!IMPORTANT]
-> Lo stato di invio si riferisce allo stato dell'elaborazione che il componente aggiuntivo Fatturazione elettronica esegue sulla funzione di fatturazione elettronica. Non si riferisce allo stato finale della fattura elettronica stessa.
+> Lo stato di invio si riferisce allo stato dell'elaborazione che Fatturazione elettronica esegue sulla funzione di fatturazione elettronica. Non si riferisce allo stato finale della fattura elettronica stessa.
 >
-> Ad esempio, se una fattura elettronica deve essere inviata a un servizio Web esterno per l'approvazione, lo stato di invio potrebbe essere **Completato**, ma lo stato della fattura elettronica potrebbe essere **Rifiutato**. In questo caso, il componente aggiuntivo Fatturazione elettronica ha elaborato correttamente la funzione di fatturazione elettronica così come è stata configurata per eseguirla. Tuttavia, la fattura elettronica è stata rifiutata perché non soddisfaceva i criteri stabiliti dal servizio Web per l'approvazione della fattura.
+> Ad esempio, se una fattura elettronica deve essere inviata a un servizio Web esterno per l'approvazione, lo stato di invio potrebbe essere **Completato**, ma lo stato della fattura elettronica potrebbe essere **Rifiutato**. In questo caso, Fatturazione elettronica ha elaborato correttamente la funzione di fatturazione elettronica così come è stata configurata per eseguirla. Tuttavia, la fattura elettronica è stata rifiutata perché non soddisfaceva i criteri stabiliti dal servizio Web per l'approvazione della fattura.
 
 I registri di invio includono le seguenti funzioni aggiuntive:
 
 - **Dettagli invio** - Visualizza i dettagli dell'invio principale. La visualizzazione mostra il registro di esecuzione completo delle azioni configurate nella funzione di fatturazione elettronica. Consente inoltre agli utenti di scaricare i file creati durante l'elaborazione. Negli scenari in cui la fattura deve essere approvata da un servizio Web esterno, consente agli utenti di visualizzare lo stato della fattura.
 - **Invii correlati** - Visualizza i dettagli degli invii secondari.
-- **Annulla invii** - Questa funzione abilita un processo di invio speciale in scenari in cui la fattura elettronica deve essere approvata da un servizio web esterno. Indica al componente aggiuntivo Fatturazione elettronica di inviare al servizio Web un messaggio specifico che ha lo scopo di annullare lo stato di una fattura elettronica approvata nel database del servizio Web.
-- **Invia di nuovo documento** - Invia nuovamente un documento elettronico che è già stato inviato al componente aggiuntivo Fatturazione elettronica. Viene creato un registro completamente nuovo nella pagina **Dettagli invio**.
+- **Annulla invii** - Questa funzione abilita un processo di invio speciale in scenari in cui la fattura elettronica deve essere approvata da un servizio web esterno. Indica a Fatturazione elettronica di inviare al servizio Web un messaggio specifico che ha lo scopo di annullare lo stato di una fattura elettronica approvata nel database del servizio Web.
+- **Invia di nuovo documento** - Invia nuovamente un documento elettronico che è già stato inviato a Fatturazione elettronica. Viene creato un registro nuovo nella pagina **Dettagli invio**.
 - **Esegui invio correlato**
 
 

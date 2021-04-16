@@ -2,11 +2,9 @@
 title: Creazione di ordini di lavoro
 description: Nell'argomento viene descritto come creare ordini di lavoro in Gestione cespiti.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500576"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836736"
 ---
 # <a name="creating-work-orders"></a>Creazione di ordini di lavoro
 
@@ -62,8 +60,6 @@ Per creare ordini di lavoro basati sul programma di manutenzione, segui questi p
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Raggruppare le righe ordine di lavoro che vengono create automaticamente durante l'esecuzione di un piano di manutenzione
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Questa funzionalità consente di definire le regole per raggruppare le righe dell'ordine di lavoro in un unico ordine di lavoro quando il sistema è configurato per generare automaticamente gli ordini di lavoro, in base a un piano di manutenzione. In precedenza, gli ordini di lavoro generati automaticamente potevano contenere solo una riga. Tuttavia, ora puoi raggruppare gli ordini di lavoro per, ad esempio, cespite, tipo di cespite o unità funzionale. Gli ordini di lavoro generati manualmente potrebbero già essere raggruppati in questo modo, come descritto nella sezione precedente di questo argomento.
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Abilitare il raggruppamento per gli ordini di lavoro generati automaticamente
@@ -71,7 +67,7 @@ Questa funzionalità consente di definire le regole per raggruppare le righe del
 Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione cespiti*
-- **Nome funzionalità:** *(Anteprima) Applica regole per raggruppare ordini di lavoro durante l'esecuzione di un piano di manutenzione*
+- **Nome funzionalità:** *Applica regole per raggruppare ordini di lavoro durante l'esecuzione di un piano di manutenzione*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Configurare il raggruppamento per gli ordini di lavoro generati automaticamente
 

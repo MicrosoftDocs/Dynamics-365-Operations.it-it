@@ -2,11 +2,9 @@
 title: Tipi di registrazione di leasing
 description: In questo argomento vengono descritti i tipi di registrazione utilizzati per le transazioni di leasing di cespiti.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229504"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841143"
 ---
 # <a name="lease-posting-types"></a>Tipi di registrazione di leasing
 
@@ -90,15 +88,6 @@ Il conto è associato al conto contro-asset dell'asset ROU. Viene eseguito un ac
 **Esempi di scritture contabili:** ratei di ammortamento<br>
 **Dare:** spesa di ammortamento XXX<br>
 **Avere:** Ammortamento accumulato XXX
-
-## <a name="retained-earnings"></a>Utili non distribuiti
-
-Il conto è associato agli utili non distribuiti. Questo conto potrebbe essere addebitato o accreditato in una registrazione contabile di rettifica di transizione utilizzando il metodo retrospettivo completo o il metodo dell'opzione di recupero cumulativo A. La differenza tra l'asset ROU iniziale e l'obbligazione sul leasing viene registrata negli utili non distribuiti. In rari casi, gli utili non distribuiti potrebbero essere influenzati anche durante la modifica del leasing, se la classificazione di un leasing viene modificata da finanziaria a operativa per aumentare o diminuire l'asset ROU in modo che sia uguale all'obbligazione sul leasing.
-
-**Scritture contabili di esempio:** rettifica di transizione (metodo retrospettivo completo o dell'opzione A di recupero cumulativo)<br>
-**Dare:** obbligazione sul leasing XXX<br>
-**Avere:** cespite del leasing XXX<br>
-**Avere:** utili non distribuiti XXX
 
 ## <a name="variable-payment"></a>Pagamento variabile
 

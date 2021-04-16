@@ -2,11 +2,9 @@
 title: Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 description: Questo argomento fornisce informazioni sulle unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240439"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836712"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 
@@ -124,10 +122,10 @@ Per ulteriori informazioni, vedere i [dettagli sul carico di lavoro delle unità
 Per la gestione del magazzino, le unità di scala nel cloud e nella rete perimetrale offrono le seguenti funzionalità, anche quando le unità della rete perimetrale non sono connesse al cloud:
 
 - L'elaborazione dei metodi di ciclo selezionati è abilitata per gli ordini cliente e il rifornimento della domanda.
-- Gli addetti al magazzino possono eseguire le vendite e il lavoro di rifornimento del magazzino in base alla domanda utilizzando l'app di magazzino.
-- Gli addetti al magazzino possono richiedere informazioni sulle scorte disponibili utilizzando l'app di magazzino.
-- Gli addetti al magazzino possono creare ed eseguire movimenti di scorte utilizzando l'app di magazzino.
-- Gli addetti al magazzino possono registrare gli ordini fornitore ed eseguire lo stoccaggio utilizzando l'app di magazzino.
+- Gli addetti al magazzino possono eseguire le vendite e il lavoro di rifornimento del magazzino in base alla domanda utilizzando l'app per dispositivi mobili Gestione magazzino.
+- Gli addetti al magazzino possono richiedere informazioni sulle scorte disponibili utilizzando l'app per dispositivi mobili Gestione magazzino.
+- Gli addetti al magazzino possono creare ed eseguire movimenti di scorte utilizzando l'app per dispositivi mobili Gestione magazzino.
+- Gli addetti al magazzino possono registrare gli ordini fornitore ed eseguire lo stoccaggio utilizzando l'app per dispositivi mobili Gestione magazzino.
 
 Per ulteriori informazioni, vedere i [dettagli sul carico di lavoro delle unità di scala di magazzino](cloud-edge-workload-warehousing.md).
 

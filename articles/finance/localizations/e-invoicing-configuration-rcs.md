@@ -1,12 +1,10 @@
 ---
-title: Configurare il componente aggiuntivo per la fatturazione elettronica in Regulatory Configuration Services (RCS)
-description: Questo argomento spiega come configurare il componente aggiuntivo per la fatturazione elettronica in Dynamics 365 Regulatory Configuration Services (RCS).
+title: Configurare la fatturazione elettronica in Regulatory Configuration Services (RCS)
+description: Questo argomento spiega come configurare la fatturazione elettronica in Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,32 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592624"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840246"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Configurare il componente aggiuntivo per la fatturazione elettronica in Regulatory Configuration Services (RCS)
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurare la fatturazione elettronica in Regulatory Configuration Services (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
+Questo argomento fornisce informazioni sulle funzionalità di configurazione della fatturazione elettronica in Dynamics 365 Regulatory Configuration Services (RCS).
 
-Questo argomento fornisce informazioni sulle funzionalità di configurazione del componente aggiuntivo per la fatturazione elettronica in Dynamics 365 Regulatory Configuration Services (RCS).
-
-È grazie alle funzionalità di configurazione che il componente aggiuntivo Fatturazione elettronica consente di soddisfare i requisiti aziendali e normativi delle fatture elettroniche senza dover eseguire alcuna codifica. Negli scenari in cui le fatture elettroniche devono essere approvate elettronicamente da un servizio Web, le funzionalità di configurazione aiutano anche a soddisfare i requisiti per lo scambio di messaggi con un servizio Web, senza scrivere alcun codice.
+È grazie alle funzionalità di configurazione che Fatturazione elettronica consente di soddisfare i requisiti aziendali e normativi delle fatture elettroniche senza dover eseguire alcuna codifica. Negli scenari in cui le fatture elettroniche devono essere approvate elettronicamente da un servizio Web, le funzionalità di configurazione aiutano anche a soddisfare i requisiti per lo scambio di messaggi con un servizio Web, senza scrivere alcun codice.
 
 ## <a name="electronic-reporting"></a>Creazione di report elettronici
 
-La creazione di report elettronici (ER) supporta il componente aggiuntivo per la fatturazione elettronica.
+La creazione di report elettronici (ER) supporta la fatturazione elettronica.
 
-Il mapping e i formati del modello di dati sono componenti configurabili che vengono creati e gestiti tramite ER e utilizzati nel componente aggiuntivo Fatturazione elettronica. La progettazione formato ER è lo strumento per creare e mantenere i formati di file. Viene utilizzato per configurare le funzionalità di fatturazione elettronica.
+Il mapping e i formati del modello di dati sono componenti configurabili che vengono creati e gestiti tramite ER e utilizzati nella Fatturazione elettronica. La progettazione formato ER è lo strumento per creare e mantenere i formati di file. Viene utilizzato per configurare le funzionalità di fatturazione elettronica.
 
 Per ulteriori informazioni, vedi [Panoramica dello strumento di creazione di report elettronici](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="electronic-invoicing-features"></a>Funzioni di fatturazione elettronica
 
-Le funzioni di fatturazione elettronica sono responsabili della generazione di fatture elettroniche tramite il componente aggiuntivo Fatturazione elettronica. Incapsulano le regole di configurazione e le usano per elaborare i dati che Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management inviano al componente aggiuntivo Fatturazione elettronica e alle fatture elettroniche.
+Le funzioni di fatturazione elettronica sono responsabili della generazione di fatture elettroniche tramite la Fatturazione elettronica. Incapsulano le regole di configurazione e le usano per elaborare i dati che Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management inviano alla Fatturazione elettronica e alle fatture elettroniche.
 
 Le funzionalità supportano anche scenari in cui è richiesta la conformità con le specifiche del formato di file e l'output è un file elettronico autonomo. Nella maggior parte dei casi, le specifiche del formato di file sono pubblicate dall'ufficio tributario.
 
@@ -81,13 +77,13 @@ La tabella seguente mostra le funzionalità di fatturazione elettronica attualme
 
 Le funzionalità di fatturazione elettronica sono costituite dai seguenti gruppi di componenti configurabili:
 
-- **Formati** - I formati consentono di configurare ciò che il componente aggiuntivo Fatturazione elettronica deve generare quando un documento elettronico diventa una fattura elettronica. I formati includono la configurazione del formato per la fattura elettronica e per file e messaggi utilizzati per inviare richieste e ricevere risposte quando è richiesta la comunicazione con un servizio Web esterno.
-- **Azioni** - Le azioni consentono di configurare il modo in cui il componente aggiuntivo Fatturazione elettronica genera la trasformazione di un documento elettronico inviato da Finance e Supply Chain Management in una fattura elettronica.
-- **Regole di applicabilità** - Le regole di applicabilità consentono di configurare il contesto che il componente aggiuntivo Fatturazione elettronica deve considerare per elaborare una funzione di fatturazione elettronica.
-- **Variabili** - Le variabili consentono di configurare il supporto per la costruzione della logica di configurazione. Le variabili possono funzionare come input di valori per eseguire un'azione specifica. In alternativa, possono funzionare come scambio di valori tra Finance e Supply Chain Management e il componente aggiuntivo Fatturazione elettronica.
-- **Mapping del modello di documento elettronico** - Il mapping del modello di documento elettronico consente di configurare il mapping del modello ER. Il mapping del modello definisce il mapping dei dati della fattura astratta che viene integrata nel componente aggiuntivo Fatturazione elettronica quando vengono inviati documenti elettronici.
+- **Formati** - I formati consentono di configurare ciò che Fatturazione elettronica deve generare quando un documento elettronico diventa una fattura elettronica. I formati includono la configurazione del formato per la fattura elettronica e per file e messaggi utilizzati per inviare richieste e ricevere risposte quando è richiesta la comunicazione con un servizio Web esterno.
+- **Azioni** - Le azioni consentono di configurare il modo in cui Fatturazione elettronica genera la trasformazione di un documento elettronico inviato da Finance e Supply Chain Management in una fattura elettronica.
+- **Regole di applicabilità** - Le regole di applicabilità consentono di configurare il contesto che Fatturazione elettronica deve considerare per elaborare una funzione di fatturazione elettronica.
+- **Variabili** - Le variabili consentono di configurare il supporto per la costruzione della logica di configurazione. Le variabili possono funzionare come input di valori per eseguire un'azione specifica. In alternativa, possono funzionare come scambio di valori tra Finance e Supply Chain Management e i Fatturazione elettronica.
+- **Mapping del modello di documento elettronico** - Il mapping del modello di documento elettronico consente di configurare il mapping del modello ER. Il mapping del modello definisce il mapping dei dati della fattura astratta che viene integrata in Fatturazione elettronica quando vengono inviati documenti elettronici.
 - **Modello di contesto della fattura** - Il modello del contesto della fattura consente di configurare il modello del contesto della fattura ER e definire il contesto di una funzione di fatturazione elettronica.
-- **Tipi di risposta** - I tipi di risposta consentono di configurare ciò che il componente aggiuntivo Fatturazione elettronica deve aggiornare in Finance e Supply Chain Management come risultato dell'elaborazione della fattura elettronica.
+- **Tipi di risposta** - I tipi di risposta consentono di configurare ciò che Fatturazione elettronica deve aggiornare in Finance e Supply Chain Management come risultato dell'elaborazione della fattura elettronica.
 
 ### <a name="formats"></a>Formati
 
@@ -237,7 +233,7 @@ Le versioni delle funzionalità di fatturazione elettronica seguono un ciclo di 
 
 - **Bozza** - Se la versione di una funzione si trova in questo stato, è possibile modificare i suoi attributi di configurazione e tutti i suoi artefatti (ad esempio, configurazioni del formato di file).
 - **Completata** - Se una versione della funzionalità si trova in questo stato, è stata pubblicata nel repository globale associato alla propria organizzazione. Non è più possibile modificare la versione della funzione o uno dei componenti ER.
-- **Pubblicata** - Se una versione della funzione si trova in questo stato, è stata pubblicata nel componente aggiuntivo Fatturazione elettronica. Non è più possibile modificare la versione della funzione o uno dei componenti ER.
+- **Pubblicata** - Se una versione della funzione si trova in questo stato, è stata pubblicata in Fatturazione elettronica. Non è più possibile modificare la versione della funzione o uno dei componenti ER.
 
 ### <a name="feature-configurations"></a>Configurazioni delle funzioni
 
@@ -266,14 +262,14 @@ Attraverso l'impostazione dell'applicazione, è possibile configurare la parte d
 
 In RCS, usi il comando **Distribuisci** per pubblicare come destinazione una versione della funzione di fatturazione elettronica. Seleziona **Distribuisci**, quindi seleziona una delle seguenti opzioni per definire la destinazione della distribuzione: 
 
-- **Ambiente del servizio** - Quando l'obiettivo della distribuzione è l'ambiente del servizio, la versione della funzione di fatturazione elettronica viene pubblicata nell'ambiente del servizio. Il componente aggiuntivo Fatturazione elettronica è quindi pronto per ricevere ed elaborare i documenti elettronici inviati da Finance e Supply Chain Management.
+- **Ambiente del servizio** - Quando l'obiettivo della distribuzione è l'ambiente del servizio, la versione della funzione di fatturazione elettronica viene pubblicata nell'ambiente del servizio. Fatturazione elettronica è quindi pronto per ricevere ed elaborare i documenti elettronici inviati da Finance e Supply Chain Management.
 - **Applicazione connessa** - Quando la destinazione della distribuzione è l'applicazione connessa, la configurazione fornita dall'impostazione dell'applicazione viene scritta nell'istanza di Finance e Supply Chain Management precedentemente associata ad essa.
 
 Solo le versioni delle funzionalità di fatturazione elettronica con stato **Completato** possono essere distribuite in un ambiente del servizio o in un'applicazione connessa.
 
 ### <a name="removing-feature-versions"></a>Rimozione delle versioni delle funzionalità
 
-In RCS, usi il comando **Annulla distribuzione** per rimuovere una versione specifica della funzione di fatturazione elettronica da un ambiente del servizio nel componente aggiuntivo Fatturazione elettronica.
+In RCS, usi il comando **Annulla distribuzione** per rimuovere una versione specifica della funzione di fatturazione elettronica da un ambiente del servizio in Fatturazione elettronica.
 
 > [!IMPORTANT]
 > Il comando **Annulla distribuzione** funziona solo negli ambienti del servizio. Non rimuove le versioni della funzione di fatturazione elettronica dalle applicazioni connesse.

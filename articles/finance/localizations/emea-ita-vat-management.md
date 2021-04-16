@@ -2,11 +2,9 @@
 title: Gestione e reporting IVA per data di effettuazione dell'operazione (data del libro IVA)
 description: In questo argomento vengono fornite informazioni sulle modifiche alla gestione dell'Imposta sul Valore Aggiunto (IVA) in Italia.
 author: LizaGolub
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ef2da24b1298e14570a6f7d295caa506b6c2ccc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7867794c9c00e1a811d9e563a4d901aa11799738
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247970"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836849"
 ---
 # <a name="vat-management-and-reporting-by-tax-point-date-date-of-vat-register"></a>Gestione e reporting IVA per data di effettuazione dell'operazione (data del libro IVA)
 
@@ -59,23 +57,6 @@ Quando questa opzione è impostata su **Sì**, il processo **Liquida e registra 
 > - Impostare l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità generale** su **No** se il valore del campo **Data del libro IVA** di qualsiasi transazione IVA rientra in un intervallo chiuso del periodo di liquidazione IVA, ma le transazioni sono state registrate in un intervallo aperto del periodo di liquidazione IVA.
 > - Disattivare la funzionalità Data del libro IVA nell'area di lavoro **Gestione funzionalità** se l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità generale** è impostata su **Sì** in almeno una persona giuridica.
 
-## <a name="sales-tax-transactions-extension-consistency-check"></a>Verifica di coerenza Estensione delle transazioni IVA
-
-Il campo **Data del libro IVA** si trova in una tabella TaxTrans_W. Questa tabella è un'estensione della tabella TaxTrans. Se una società imposta l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità generale** su **Sì**, il comportamento delle query relative all'origine dati in alcune pagine del sistema cambia. Tali query sono ora incluse nella tabella TaxTrans_W. Di conseguenza, gli utenti potrebbero non vedere le transazioni IVA registrate in un periodo precedente. Questo problema si verifica in quanto la tabella TaxTrans_W non è stata utilizzata in precedenza e di conseguenza non vi sono transazioni corrispondenti nella tabella.
-
-Per evitare tale problema, è possibile eseguire la verifica di coerenza **Estensione delle transazioni IVA**. Selezionare **Amministrazione sistema** \> **Attività periodiche** \> **Database** \> **Verifica coerenza**. Nella finestra di dialogo **Verifica coerenza**, espandere **Programma** \> **Contabilità generale** \> **IVA** e quindi selezionare la casella di controllo **Estensione delle transazioni IVA**. Non è necessario selezionare le caselle di controllo di livello superiore se si desidera eseguire solo la verifica di coerenza **Estensione delle transazioni IVA**.
-
-![ Finestra di dialogo Verifica coerenza con la casella di controllo Estensione delle transazioni IVA evidenziata](./media/date-of-vat-consistency-check.png)
-
-Quando si esegue la verifica di coerenza **Estensione delle transazioni IVA**, impostare le seguenti opzioni:
-
-- **Verifica** - Determina se mancano delle transazioni nella tabella TaxTrans_W. Il sistema notificherà il numero di transazioni presenti nella tabella TaxTrans per le quali non vi sono record corrispondenti nella tabella TaxTrans_W.
-- **Correggi** - Compensa i record mancanti nella tabella TaxTrans_W. Il sistema inserirà i record corrispondenti nella tabella TaxTrans_W. Le transazioni IVA registrate in periodi precedenti saranno di nuovo visibili nel sistema. 
-
-Assicurarsi di selezionare la data corretta nel campo **Data iniziale** della finestra di dialogo **Verifica coerenza**. Lasciare vuoto il campo **Data iniziale** se si desidera recuperare tutte le transazioni IVA nel sistema.
-
-La verifica di coerenza **Estensione delle transazioni IVA** è disponibile nella versione build 10.0.234.21 e versioni successive per la versione 10.0.6 dell'applicazione e per la versione 10.0.7 e versioni successive. In queste versioni, è disponibile solo quando la funzionalità Data del libro IVA è abilitata nell'area di lavoro **Gestione funzionalità**.
-
 ## <a name="changes-in-the-italian-sales-tax-payment-report"></a>Modifiche nel report Liquidazione IVA italiana
 
 È possibile eseguire il report **Liquidazione IVA italiana** utilizzando uno dei seguenti metodi:
@@ -94,7 +75,7 @@ Tuttavia, l'impostazione dell'opzione **Data del libro IVA** nella pagina **Para
 
 Quando l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità generale** è impostata su **Sì**, il report **Liquidazione IVA italiana** fornisce le seguenti informazioni:
 
-- Le pagine delle sezioni dei libri IVA includono una nuova colonna **Momento di effettuazione dell'operazione**. Questa colonna rappresenta il valore del campo **Data del libro IVA** per la transazione IVA.
+- Le pagine delle sezioni dei libri IVA includono una nuova colonna **della data di registrazione dell'IVA** chiamata **Momento di effettuazione dell'operazione**. Questa colonna rappresenta il valore del campo **Data del libro IVA** per la transazione IVA.
 - I totali di ogni sezione del libro IVA sono rappresentati da tre gruppi:
 
     - Operazioni nel periodo effettivo con una data di competenza nel periodo effettivo

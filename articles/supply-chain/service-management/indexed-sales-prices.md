@@ -2,11 +2,9 @@
 title: Prezzi di vendita indicizzati
 description: L'indice per un prezzo di vendita di sottoscrizione viene creato quando si crea una commissione di sottoscrizione.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionCreateDialog
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540946a50e86e2e8933a9e045d911eac87b3270c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8eebb6aa044a24efc549f4be0b668e60e78c7954
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247341"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841337"
 ---
 # <a name="indexed-sales-prices"></a>Prezzi di vendita indicizzati  
 
