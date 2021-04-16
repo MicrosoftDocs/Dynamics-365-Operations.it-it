@@ -2,11 +2,9 @@
 title: Liquidare un pagamento parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
 description: Questo articolo illustra l'effetto della liquidazione dei pagamenti delle fatture per i clienti. Lo scenario si concentra sugli effetti della contabilità secondaria, non della contabilità generale.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250556"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835149"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Liquidare un pagamento parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
 
@@ -48,10 +46,10 @@ Il 2 luglio il cliente 4027 effettua un pagamento parziale di 297,00 per la fatt
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**. Se non si modifica il valore di **Importo da liquidare** in 297,00, i valori di **Importo sconto di cassa** visualizzati saranno differenti. Tuttavia, quando viene registrato il pagamento, verrà applicato lo sconto di cassa pari a 3,00, poiché la liquidazione rettifica automaticamente il valore di **Importo da liquidare**.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
-| Data sconto di cassa           | 9/07/2015 |
-| Importo sconto di cassa         | 10,00     |
+| Data sconto di cassa           | 7/09/2015 |
+| Importo sconto di cassa         | 10.00     |
 | Utilizzare lo sconto di cassa            | Normale    |
 | Sconto di cassa applicato          | 0,00      |
 | Importo sconto di cassa da applicare | 3,00      |
@@ -73,7 +71,7 @@ L'11 luglio, che è dopo il periodo di sconto, il cliente 4027 paga il resto del
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
 | Data sconto di cassa           | 7/09/2015 |
 | Importo sconto di cassa         | 0,00      |
@@ -89,10 +87,10 @@ Se Arnie cambia il valore nel campo **Utilizzare lo sconto di cassa** su **Sempr
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**.
 
-|                              |           |
+| Campo                        | Valore     |
 |------------------------------|-----------|
 | Data sconto di cassa           | 7/09/2015 |
-| Importo sconto di cassa         | 7,00      |
+| Importo sconto di cassa         | 7.00      |
 | Utilizzare lo sconto di cassa            | Sempre    |
 | Sconto di cassa applicato          | 3,00      |
 | Importo sconto di cassa da applicare | 7,00      |
