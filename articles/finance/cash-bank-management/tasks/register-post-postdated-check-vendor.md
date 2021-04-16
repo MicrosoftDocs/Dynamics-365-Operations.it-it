@@ -2,11 +2,9 @@
 title: Registrare un assegno postdatato per un fornitore
 description: Utilizzare il giustificativo giornale di registrazione per registrare i dettagli di un assegno postdatato prima di emettere l'assegno a favore di un fornitore.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffd482facc629e65a79f328cb237fd72f6f6b5c5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cb7f9935b20d042551b0ce77fd6bdbf55e9f9669
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225323"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834670"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Registrare un assegno postdatato per un fornitore
 

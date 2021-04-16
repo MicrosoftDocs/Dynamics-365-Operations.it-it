@@ -2,11 +2,9 @@
 title: Spedizione pacchi di piccole dimensioni
 description: In questo argomento vengono fornite informazioni sulla funzionalità di spedizione di pacchi di piccole dimensioni. Questa funzionalità consente a Microsoft Dynamics 365 Supply Chain Management di inviare i dettagli su un contenitore imballato al vettore, quindi ricevere un'etichetta di spedizione, una tariffa di spedizione e un numero di riferimento da quel vettore.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501176"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831172"
 ---
 # <a name="small-parcel-shipping"></a>Spedizione pacchi di piccole dimensioni
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La funzionalità per la spedizione di pacchi di piccole dimensioni consente a Microsoft Dynamics 365 Supply Chain Management di interagire direttamente con i vettori fornendo un framework per la comunicazione tramite le API del vettore. Questa funzionalità è utile quando si spediscono singoli ordini cliente tramite vettori di spedizione commerciali invece di utilizzare la spedizione in contenitori o la spedizione a carico parziale (LTL).
 

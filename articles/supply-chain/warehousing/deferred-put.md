@@ -2,11 +2,9 @@
 title: Elaborazione differita di lavoro di magazzino
 description: In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio del lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
 author: josaw1
-manager: tfehr
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2f670a3b4b75434853ddcd3d790ad2c55971d72a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243921"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838324"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Elaborazione differita di lavoro di magazzino
 

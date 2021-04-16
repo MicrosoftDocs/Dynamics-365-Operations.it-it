@@ -2,11 +2,9 @@
 title: Risolvere i problemi di allestimento del carico e spedizioni
 description: Questo argomento descrive come risolvere i problemi comuni che si possono verificare quando si utilizza l'allestimento del carico e le spedizioni in Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c7dc9cc9de4d5089d497c36759931669ee2e9e55
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9964376a794661058da78152879d2142dd7ec51
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259508"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828204"
 ---
 # <a name="troubleshoot-load-building-and-shipments"></a>Risolvere i problemi di allestimento del carico e spedizioni
 

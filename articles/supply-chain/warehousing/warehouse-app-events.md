@@ -2,11 +2,9 @@
 title: Eventi dell'app di magazzino
 description: In questo argomento viene descritta l'elaborazione degli eventi dell'app di magazzino utilizzata per elaborare messaggi di evento dell'app di magazzino come parte di un processo batch.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248645"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837395"
 ---
 # <a name="warehouse-app-event-processing"></a>Elaborazione degli eventi dell'app di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-I processi batch in esecuzione in Supply Chain Management possono utilizzare i dati di una coda per elaborare eventi emessi dall'app di magazzino per reagire come necessario agli eventi segnalati. Questa funzionalità aggiunge eventi pertinenti alla coda in risposta a determinati tipi di azioni intraprese dai lavoratori che utilizzano l'app. Un esempio è quando si utilizza la funzionalità **Crea ed elabora ordini di trasferimento nell'app di magazzino**, l'intestazione e le righe dell'ordine di trasferimento vengono create e aggiornate nel back-end quando il sistema esegue il processo batch **Elabora eventi dell'app di magazzino**.
+I processi batch in esecuzione in Supply Chain Management possono utilizzare i dati di una coda per elaborare eventi emessi dall'app per dispositivi mobili Gestione magazzino per reagire come necessario agli eventi segnalati. Questa funzionalità aggiunge eventi pertinenti alla coda in risposta a determinati tipi di azioni intraprese dai lavoratori che utilizzano l'app. Un esempio è quando si utilizza la funzionalità *Crea ed elabora ordini di trasferimento nell'app di magazzino*, l'intestazione e le righe dell'ordine di trasferimento vengono create e aggiornate nel back-end quando il sistema esegue il processo batch **Elabora eventi dell'app di magazzino**.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Abilitare la funzionalità Elabora eventi dell'app di magazzino
 
@@ -50,11 +48,11 @@ Configura un processo batch pianificato per elaborare gli eventi dell'app di mag
 
 ## <a name="query-warehouse-app-events"></a>Eseguire query sugli eventi dell'app di magazzino
 
-Puoi visualizzare la coda degli eventi e i messaggi di eventi generati dall'app di magazzino selezionando **Gestione magazzino \> Richieste di informazioni e report \> Log dispositivo mobile \> Eventi dell'app di magazzino**.
+Puoi visualizzare la coda degli eventi e i messaggi di eventi generati dall'app per dispositivi mobili Gestione magazzino selezionando **Gestione magazzino \> Richieste di informazioni e report \> Log dispositivo mobile \> Eventi dell'app di magazzino**.
 
 ## <a name="the-standard-event-queue-process"></a>Elaborazione della coda di eventi standard
 
-La coda degli eventi delle app di magazzino verrà in genere utilizzata con il flusso descritto di seguito:
+La coda degli eventi dell'app di magazzino verrà in genere utilizzata con il flusso descritto di seguito:
 
 1. Un evento viene aggiunto alla coda con un messaggio di evento. Il nuovo messaggio ha inizialmente lo stato di evento **In attesa**, il che significa che il processo batch **Elabora eventi dell'app di magazzino** non preleverà ed elaborerà questo messaggio.
 1. Non appena lo stato del messaggio viene aggiornato a **In coda**, il processo batch degli eventi **Elabora l'app di magazzino** verrà prelevato ed elaborerà l'evento.

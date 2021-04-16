@@ -2,11 +2,9 @@
 title: Ordini di magazzino per unità di scala nel cloud e nella rete perimetrale
 description: In questo argomento vengono fornite informazioni sulla capacità degli ordini di magazzino utilizzata come parte del carico di lavoro dell'unità di scala di magazzino.
 author: perlynne
-manager: tfeyr
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
@@ -19,12 +17,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556364"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836688"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Ordini di magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -38,7 +36,7 @@ ms.locfileid: "5556364"
 
 Gli *ordini di magazzino* sono un tipo di ordine creato per supportare le distribuzioni di hub e unità di scala in magazzino. Ti consentono di ricevere le scorte quando esegui un carico di lavoro di magazzino su un'unità di scala. Attualmente sono utilizzati solo con ordini fornitore.
 
-Gli ordini di magazzino vengono utilizzati come parte dell'elaborazione della gestione del magazzino, ad esempio quando l'app di magazzino viene utilizzata per registrare le scorte fisiche disponibili durante l'elaborazione di un ordine fornitore in entrata. Gli ordini di magazzino vengono creati come parte del processo *Rilascia in magazzino* disponibile per ordini fornitore che specificano un magazzino di unità di scala e articoli abilitati all'utilizzo dei processi di gestione magazzino.
+Gli ordini di magazzino vengono utilizzati come parte dell'elaborazione della gestione del magazzino, ad esempio quando l'app per dispositivi mobili Gestione magazzino viene utilizzata per registrare le scorte fisiche disponibili durante l'elaborazione di un ordine fornitore in entrata. Gli ordini di magazzino vengono creati come parte del processo *Rilascia in magazzino* disponibile per ordini fornitore che specificano un magazzino di unità di scala e articoli abilitati all'utilizzo dei processi di gestione magazzino.
 
 > [!IMPORTANT]
 > Gli ordini di magazzino sono disponibili solo nelle distribuzioni che utilizzano [carichi di lavoro di gestione del magazzino per unità di scala cloud e perimetrali](cloud-edge-workload-warehousing.md).
@@ -70,7 +68,7 @@ Per annullare le righe dell'ordine di magazzino, segui questi passaggi.
 
 ## <a name="monitor-a-warehouse-order"></a>Monitorare un ordine di magazzino
 
-Nella visualizzazione **Righe ordine di magazzino** è possibile monitorare l'avanzamento del ricevimento in entrata rivedendo i valori nella colonna **Quantità rimasta da ricevere**. Per visualizzare i dettagli relativi al lavoro svolto utilizzando l'app di magazzino, segui uno di questi passaggi.
+Nella visualizzazione **Righe ordine di magazzino** è possibile monitorare l'avanzamento del ricevimento in entrata rivedendo i valori nella colonna **Quantità rimasta da ricevere**. Per visualizzare i dettagli relativi al lavoro svolto utilizzando l'app per dispositivi mobili Gestione magazzino, segui uno di questi passaggi.
 
 - Vai a **Gestione magazzino \> Richieste e segnalazioni \> Righe ordine di magazzino** e utilizza il filtro per trovare le righe che stai cercando.
 - Vai a **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore** e apri l'ordine fornitore pertinente. Nella sezione **Righe ordine fornitore**, seleziona una o più righe, quindi, sulla barra degli strumenti, seleziona **Magazzino \> Voci di ricevimento magazzino**.

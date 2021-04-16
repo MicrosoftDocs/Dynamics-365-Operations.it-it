@@ -2,11 +2,9 @@
 title: Risolvere i problemi delle prenotazioni in Gestione magazzino
 description: Questo argomento descrive come risolvere i problemi comuni che si possono verificare quando si utilizzano le prenotazioni dei magazzini in Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,18 +15,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9a5d20732a802fc58c392853af8334bbc07de73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0d73396772ed9e8397797d6685fb550d911303b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248717"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828108"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Risolvere i problemi delle prenotazioni in Gestione magazzino
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento descrive come risolvere i problemi comuni che si possono verificare quando si utilizzano le prenotazioni dei magazzini in Microsoft Dynamics 365 Supply Chain Management.
+
+Per argomenti relativi alle registrazioni di batch e numeri di serie, vedi [Risolvere i problemi relativi a gerarchie di prenotazione batch e numeri di serie di magazzino](troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md).
 
 ## <a name="i-receive-the-following-error-message-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations"></a>Viene visualizzato il seguente messaggio di errore "Impossibile rimuovere le prenotazioni perché è presente lavoro creato che si basa sulle prenotazioni".
 
@@ -63,20 +63,6 @@ Questo problema può verificarsi se il sistema non è in grado di aggiornare una
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
 Questo problema è probabilmente causato da un lavoro aperto. Completare il lavoro o ricevere senza crearlo. Assicurarsi che nessuna transazione di magazzino stia prenotando fisicamente la quantità. Ad esempio, queste transazioni potrebbero essere ordini di controllo qualità aperti, record di blocco dell'inventario o ordini di uscita.
-
-## <a name="i-receive-the-following-error-message-to-be-assigned-to-wave-load-lines-must-specify-the-dimensions-above-the-location-to-assign-these-dimensions-reserve-and-recreate-the-load-line"></a>Viene visualizzato il seguente messaggio di errore: "Per essere assegnate al ciclo, le righe di carico devono specificare le dimensioni sopra l'ubicazione. Per assegnare queste dimensioni, prenotare e ricreare la riga di carico. "
-
-### <a name="issue-description"></a>Descrizione del problema
-
-Quando si utilizza un articolo che ha una gerarchia di prenotazione "sopra il batch" (con la dimensione **Numero batch** posizionata *sopra* la dimensione **Ubicazione**), il comando **Rilascia in magazzino** nella pagina **Workbench di pianificazione del carico** per una quantità parziale non funziona. Viene visualizzato questo messaggio di errore e non viene creato alcun lavoro per la quantità parziale.
-
-Tuttavia se si utilizza un articolo che ha una gerarchia di prenotazione "sotto il batch" (con la dimensione **Numero batch** posizionata *sotto* la dimensione **Ubicazione**), è possibile rilasciare il carico dalla pagina **Workbench di pianificazione del carico** per una quantità parziale.
-
-### <a name="issue-resolution"></a>Risoluzione dei problemi
-
-Questo comportamento è predefinito. Se si inserisce una dimensione sopra la dimensione **Ubicazione** nella gerarchia di prenotazione, deve essere specificata prima del rilascio al magazzino. Microsoft ha valutato questo problema e ha stabilito che si tratta di una limitazione della funzionalità durante i rilasci al magazzino dal workbench di pianificazione del carico. Le quantità parziali non possono essere rilasciate se una o più dimensioni sopra **Ubicazione** non sono specificate.
-
-Per ulteriori informazioni, vedere [Criteri flessibili di prenotazione delle dimensioni a livello di magazzino](flexible-warehouse-level-dimension-reservation.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

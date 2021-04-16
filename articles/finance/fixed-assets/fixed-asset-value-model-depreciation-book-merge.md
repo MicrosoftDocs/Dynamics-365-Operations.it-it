@@ -2,11 +2,9 @@
 title: Unione del modello di valore cespite e registro beni ammortizzabili
 description: 'Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations (1611), le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro.'
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26409b6416a5b4e93ccd051b1625633ea12e22ac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212471"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826740"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Unione del modello di valore cespite e registro beni ammortizzabili
 
@@ -34,9 +32,8 @@ La nuova funzionalità dei libri si basa sulla precedente funzionalità dei mode
 ## <a name="setup"></a>Imposta
 Per impostazione predefinita, i libri registrano sia nella contabilità generale che nel giornale di registrazione cespiti secondario. I libri hanno una nuova opzione **Registra nella contabilità generale** che consente di disabilitare la registrazione nella contabilità generale e registrare solo nel giornale di registrazione cespiti secondario. Questa funzionalità somiglia al precedente comportamento di registrazione per i registri beni ammortizzabili. L'impostazione dei nomi di giornale di registrazione ha un nuovo livello di registrazione denominato Nessuno. Tale livello di registrazione è stato aggiunto specificamente per le transazioni cespiti. Per registrare transazioni per libri che non registrano nella contabilità generale è necessario usare un nome di giornale di registrazione il cui livello di registrazione è impostato su **Nessuno**.
 
-|                                                  |                                 |                                 |                                                         |
+| &nbsp;                                           | Registro beni ammortizzabili               | Modello di valore                     | Libro (Nuovo)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-|                                                  | Registro beni ammortizzabili               | Modello di valore                     | Libro (Nuovo)                                              |
 | Registra nella contabilità generale                                   | Mai                           | Sempre                          | Opzione per effettuare registrazioni nella contabilità generale                                |
 | Livelli di registrazione                                   | Non applicabile                  | 3: Corrente, Operazioni e Imposta | 11: Corrente, Operazioni, Imposta, 7 livelli personalizzati e Nessuno |
 | Nomi giornale di registrazione                                    | Nomi giornale di registrazione per registri beni ammortizzabili | Contabilità generale - Nomi giornale di registrazione              | Contabilità generale - Nomi giornale di registrazione                                      |
@@ -46,9 +43,8 @@ Per impostazione predefinita, i libri registrano sia nella contabilità generale
 ## <a name="processes"></a>Processi
 I processi ora utilizzano una pagina comune. Alcuni processi sono consentiti solo se l'opzione **Registra nella contabilità generale** l'è impostata su **No** nell'impostazione del libro.
 
-|                                |                           |                     |                                          |
+| &nbsp;                                           | Registro beni ammortizzabili               | Modello di valore                     | Libro (Nuovo)                                              |
 |--------------------------------|---------------------------|---------------------|------------------------------------------|
-|                                | Registro beni ammortizzabili         | Modello di valore         | Libro (Nuovo)                               |
 | Immissione transazione              | Giornale di registrazione per registri beni ammortizzabili | Giornale di registrazione cespiti | Giornale di registrazione cespiti                      |
 | ammortamento straordinario             | Consentito                   | Non consentito         | Consentito                                  |
 | Elimina le transazioni storiche | Consentito                   | Non consentito         | Consentito, a meno che si sta registrando nella contabilità generale |
@@ -57,9 +53,8 @@ I processi ora utilizzano una pagina comune. Alcuni processi sono consentiti sol
 ## <a name="inquiries-and-reports"></a>Richieste di informazioni e report
 Le richieste di informazioni e i report supportano tutti i libri. I report non inclusi nella seguente tabella prima supportavano sia i registri beni ammortizzabili che i modelli di valore e ora continueranno a supportare tutti i tipi di libri. Il campo **Livello di registrazione** è stato aggiunto anche ai report, in modo da poter identificare più facilmente le registrazioni delle transazioni.
 
-|                                       |                                |                          |                          |
+| &nbsp;                                           | Registro beni ammortizzabili               | Modello di valore                     | Libro (Nuovo)                                              |
 |---------------------------------------|--------------------------------|--------------------------|--------------------------|
-|                                       | Registro beni ammortizzabili              | Modello di valore              | Libro (Nuovo)               |
 | Informazioni                             | Transazioni registro beni ammortizzabili | Transazioni cespiti | Transazioni cespiti |
 | Rendiconto cespiti                 | Non consentito                    | Consentito                  | Consentito                  |
 | Base ammortamento cespiti                     | Consentito                        | Non consentito              | Consentito                  |

@@ -1,12 +1,10 @@
 ---
 title: Creare ordini di trasferimento nell'app di magazzino
-description: In questo argomento viene descritto come creare ed elaborare ordini di trasferimento nella funzionalità App di magazzino
+description: In questo argomento viene descritto come creare ed elaborare ordini di trasferimento nell'app per dispositivi mobili Gestione magazzino
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 855b057706bc2f8315084a3cebec6f855a4d01e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214132"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838372"
 ---
-# <a name="create-transfer-orders-from-the-warehouse-app"></a>Creare ordini di trasferimento nell'app di magazzino
+# <a name="create-transfer-orders-from-the-warehouse-app"></a>Creare ordini di trasferimento dall'app di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Questa funzionalità consente agli addetti al magazzino di creare ed elaborare ordini di trasferimento direttamente nell'app di magazzino. Gli addetti al magazzino iniziano selezionando il magazzino di destinazione e possono quindi eseguire la scansione di una o più targhe utilizzando l'app per aggiungere le targhe all'ordine di trasferimento. Quando l'addetto al magazzino seleziona **Completa ordine**, un processo batch creerà l'ordine di trasferimento richiesto e le righe dell'ordine in base alle scorte disponibili registrate per tali targhe.
+Questa funzionalità consente agli addetti al magazzino di creare ed elaborare ordini di trasferimento direttamente nell'app per dispositivi mobili Gestione magazzino. Gli addetti iniziano selezionando il magazzino di destinazione e possono quindi eseguire la scansione di una o più targhe utilizzando l'app per aggiungere le targhe all'ordine di trasferimento. Quando l'addetto al magazzino seleziona **Completa ordine**, un processo batch creerà l'ordine di trasferimento richiesto e le righe dell'ordine in base alle scorte disponibili registrate per tali targhe.
 
-## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Abilitare la funzionalità Crea ordini di trasferimento nell'app di magazzino
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Abilitare la funzionalità Crea ordini di trasferimento nell'app di magazzino
 
 Prima di utilizzare questa funzionalità, devi abilitarla nel sistema insieme ai relativi prerequisiti. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla se necessario.
 
@@ -50,8 +48,8 @@ Di seguito sono riportate le linee guida generali per l'impostazione di una voce
 1. Seleziona **Nuovo** per aggiungere una nuova voce di menu. Quindi effettua le seguenti impostazioni per iniziare:
 
     - **Nome voce di menu** - Assegna il nome che deve essere visualizzato in Supply Chain Management.
-    - **Titolo** - Assegna al menu il nome che sarà visibile ai lavoratori nell'app di magazzino.
-    - **Modalità** - Imposta *Indiretta* (questa app di magazzino non creerà lavoro).
+    - **Titolo** - Assegna al menu il nome che sarà visibile ai lavoratori nell'app per dispositivi mobili Gestione magazzino.
+    - **Modalità** - Imposta *Indiretta* (questa voce di menu non creerà lavoro).
     - **Codice attività** - Imposta su *Crea ordine di trasferimento da targhe* per consentire agli addetti al magazzino di creare un ordine di trasferimento basato su una o più targhe sottoposte a scansione.
 
 1. Utilizza l'impostazione **Criteri di creazione di righe dell'ordine di trasferimento** per controllare il modo in cui verranno create le righe dell'ordine di trasferimento mediante questa voce di menu. Le righe verranno create/aggiornate in base alle scorte disponibili registrate per le targhe scansionate. Scegli uno dei seguenti valori:
@@ -74,7 +72,7 @@ Di seguito sono riportate le linee guida generali per l'impostazione di una voce
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>Creare un ordine di trasferimento basato su targhe
 
-L'app di magazzino include un semplice processo per creare ordini di trasferimento basati su targhe. A tale scopo, il lavoratore esegue quanto segue utilizzando l'app di magazzino:
+L'app per dispositivi mobili Gestione magazzino include un semplice processo per creare ordini di trasferimento basati su targhe. A tale scopo, il lavoratore esegue quanto segue utilizzando l'app per dispositivi mobili Gestione magazzino:
 
 1. Crea l'ordine di trasferimento e identifica il magazzino di destinazione.
 1. Identifica ogni targa da spedire.
@@ -258,9 +256,9 @@ Per l'esempio citato, sono utilizzati due **eventi dell'app di magazzino** (*Cre
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Richiedere informazioni su eventi dell'app di magazzino
 
-Puoi visualizzare la coda degli eventi e i messaggi di eventi generati dall'app di magazzino selezionando **Gestione magazzino \> Richieste di informazioni e report \> Log dispositivo mobile \> Eventi dell'app di magazzino**.
+Puoi visualizzare la coda degli eventi e i messaggi di eventi generati dall'app per dispositivi mobili Gestione magazzino selezionando **Gestione magazzino \> Richieste di informazioni e report \> Log dispositivo mobile \> Eventi dell'app di magazzino**.
 
-I messaggi dell'evento *Crea ordine di trasferimento* avranno lo stato *In attesa*, il che significa che il processo batch **Elabora eventi dell'app di magazzino** non preleverà ed elaborerà i messaggi di evento. Non appena lo stato del messaggio dell'evento diventa *In coda*, il processo batch elaborerà gli eventi. Ciò avverrà contemporaneamente alla creazione dell'evento *Completa ordine di trasferimento* (quando un lavoratore seleziona il pulsante **Completa ordine** nell'app di magazzino). Dopo che i messaggi dell'evento *Crea ordine di trasferimento* sono stati elaborati, lo stato diventa *Completato* o *Non riuscito*. Quando lo stato di *Completa ordine di trasferimento* diventa *Completato*, tutti gli eventi correlati vengono eliminati dalla coda.
+I messaggi dell'evento *Crea ordine di trasferimento* avranno lo stato *In attesa*, il che significa che il processo batch **Elabora eventi dell'app di magazzino** non preleverà ed elaborerà i messaggi di evento. Non appena lo stato del messaggio dell'evento diventa *In coda*, il processo batch elaborerà gli eventi. Ciò avverrà contemporaneamente alla creazione dell'evento *Completa ordine di trasferimento* (quando un lavoratore seleziona il pulsante **Completa ordine** nell'app per dispositivi mobili Gestione magazzino). Dopo che i messaggi dell'evento *Crea ordine di trasferimento* sono stati elaborati, lo stato diventa *Completato* o *Non riuscito*. Quando lo stato di *Completa ordine di trasferimento* diventa *Completato*, tutti gli eventi correlati vengono eliminati dalla coda.
 
 Poiché gli **eventi dell'app di magazzino** per la creazione dei dati dell'ordine di trasferimento non verranno elaborati dal processo batch prima che lo stato dei messaggi diventi *In coda*, dovrai cercare i numeri dell'ordine di trasferimento richiesti nel campo **Identificatore**. Il campo **Identificatore** si trova nell'intestazione della pagina **Eventi dell'app di magazzino**.
 
@@ -276,11 +274,11 @@ Per ulteriori informazioni, vedi [Elaborazione di eventi dell'app di magazzino](
 
 Nel corso di questo scenario, si è verificato quanto segue:
 
-1. Utilizzando l'app di magazzino, hai selezionato una voce di menu che utilizza il codice attività **Crea ordine di trasferimento da targhe**.
+1. Utilizzando l'app per dispositivi mobili Gestione magazzino, hai selezionato una voce di menu che utilizza il codice attività **Crea ordine di trasferimento da targhe**.
 1. L'app ti richiede di selezionare il magazzino di destinazione per l'ordine di trasferimento. Il magazzino di origine è sempre quello a cui hai attualmente accesso come Lavoratore.
 1. Nella selezione del magazzino di destinazione, il sistema ha riservato un numero ID per l'ordine di trasferimento imminente (in base alla sequenza numerica dell'ordine di trasferimento definita nel sistema) ma non ha ancora creato l'ordine di trasferimento.
 1. Quando hai eseguito la scansione della targa *LP10* contenente le scorte disponibili che devono essere spostate nel nuovo magazzino, un **evento dell'app di magazzino** è stato aggiunto alla coda degli eventi per essere elaborato in seguito. L'evento di magazzino conteneva i dettagli del messaggio sulla scansione, incluso il numero dell'ordine di trasferimento previsto.
-1. Nell'app di magazzino quando il pulsante **Completa ordine** è selezionato, un nuovo evento dell'app di magazzino, **Completa ordine di trasferimento**, viene creato e lo stato dell'evento esistente correlato, **Crea ordine di trasferimento**, diventa **In coda**.
+1. Nell'app per dispositivi mobili Gestione magazzino quando il pulsante **Completa ordine** è selezionato, un nuovo evento dell'app di magazzino, **Completa ordine di trasferimento**, viene creato e lo stato dell'evento esistente correlato, **Crea ordine di trasferimento**, diventa **In coda**.
 1. Nel back-end, il **processo batch Elabora eventi dell'app di magazzino** ha prelevato l'evento **In coda** e raccolto le scorte disponibili correlate alla targa sottoposta a scansione. In base alle disponibilità, sono stati creati il record dell'ordine di trasferimento effettivo e le righe associate. Il processo ha anche popolato il campo **Criteri di spedizione in uscita** per l'ordine di trasferimento in base al valore configurato di *Rilascio e conferma spedizione* e collegato la targa alle righe per la strategia **Targa guidata**.
 1. In base al valore del campo **Criteri di spedizione in uscita** della riga dell'ordine di trasferimento, la query **Processo batch Rilascio automatico degli ordini di trasferimento** ha generato il rilascio dell'ordine di trasferimento al magazzino di spedizione. Inoltre, per via della configurazione dei campi **Modello ondata**, **Modello di lavoro** e **Direttive ubicazione** utilizzati, per il lavoro sono stati generati processi automatici a seguito dei quali lo **stato del carico** è diventato *Caricato*.
 1. Il **processo batch Elabora spedizioni in uscita** viene eseguito per il carico, determinando la spedizione dell'ordine di trasferimento e la generazione di un avviso ASN (Advance Shipment Notice).
@@ -294,13 +292,13 @@ Nel corso di questo scenario, si è verificato quanto segue:
 
 La funzionalità *Crea ed elabora ordini di trasferimento nell'app di magazzino* deve essere abilitata. Per ulteriori informazioni, vedi [Abilitare la funzionalità Crea ordini di trasferimento nell'app di magazzino](#enable-create-transfer-order-from-warehouse-app).
 
-### <a name="warehouse-app-processes"></a>Processi dell'app di magazzino
+### <a name="warehouse-management-mobile-app-processes"></a>Processi dell'app per dispositivi mobili Gestione magazzino
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>Perché il pulsante di menu "Completa ordine"?
 
 Devi avere almeno una targa assegnata all'ordine di trasferimento.
 
-#### <a name="can-several-warehouse-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Più utenti dell'app di magazzino possono aggiungere contemporaneamente targhe allo stesso ordine di trasferimento?
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Più utenti dell'app per dispositivi mobili Gestione magazzino possono aggiungere contemporaneamente targhe allo stesso ordine di trasferimento?
 
 Sì, più addetti al magazzino possono eseguire la scansione di targhe nello stesso ordine di trasferimento.
 
@@ -312,11 +310,11 @@ No, una targa può essere aggiunta solo a un ordine di trasferimento alla volta.
 
 No, non puoi aggiungere più targhe a un ordine di trasferimento con un evento di app di magazzino **Completa ordine di trasferimento**.
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Come posso trovare ordini di trasferimento esistenti da utilizzare mediante il pulsante "Seleziona ordine di trasferimento" nell'app di magazzino se l'ordine non è stato ancora creato nel sistema back-end?
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Come posso trovare ordini di trasferimento esistenti da utilizzare mediante il pulsante "Seleziona ordine di trasferimento" nell'app per dispositivi mobili Gestione magazzino se l'ordine non è stato ancora creato nel sistema back-end?
 
 Al momento non puoi cercare ordini di trasferimento nell'app, ma puoi trovare i numeri degli ordini di trasferimento nella pagina **Eventi dell'app di magazzino**. Per ulteriori informazioni, vedi [Richiedere informazioni su eventi dell'app di magazzino](#inquire-the-warehouse-app-events).
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-app"></a>Posso selezionare manualmente il numero dell'ordine di trasferimento da utilizzare nell'app di magazzino?
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Posso selezionare manualmente il numero dell'ordine di trasferimento da utilizzare nell'app per dispositivi mobili Gestione magazzino?
 
 Sono supportati solo i numeri di ordine di trasferimento generati automaticamente tramite sequenze numeriche.
 

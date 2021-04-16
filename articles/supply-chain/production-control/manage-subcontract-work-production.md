@@ -2,11 +2,9 @@
 title: Gestire il lavoro in conto lavoro in produzione
 description: In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Dynamics 365 Supply Chain Management. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
 author: cvocph
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup, ProdBOMVendorListPagePreviewPane, ProdBOMVendor
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66aed16cc3e2c3b33dfd40982d2211816c4e5047
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 11728694565b10bf0336671f6c1b5f43cbcadf78
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245999"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825821"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gestire il lavoro in conto lavoro in produzione
 

@@ -2,22 +2,20 @@
 title: Report di comunicazione IVA trimestrale
 description: Questo argomento fornisce informazioni sul report di comunicazione IVA trimestrale in Italia.
 author: LizaGolub
-manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
 ms.author: elgolu
-ms.openlocfilehash: 082ae61fada98209aae009459cf4cabaff320030
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a70b4e40bd732687a4e6a2cfdbb8936f2738d8d4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247976"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836853"
 ---
 # <a name="quarterly-vat-communication-report"></a>Report di comunicazione IVA trimestrale
 

@@ -2,11 +2,9 @@
 title: Stati inventario
 description: Questo articolo descrive come utilizzare gli stati di magazzino per classificare e tenere traccia delle scorte.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
-ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
+ms.openlocfilehash: e3c8b467f29037bbb869189e3607e11f40aad2c2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476701"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829862"
 ---
 # <a name="inventory-statuses"></a>Stati inventario
 
@@ -45,10 +43,14 @@ Uno stato inventario è una delle dimensioni nel gruppo di dimensioni di immagaz
 
 È possibile utilizzare gli articoli di magazzino con stati inventario disponibile o non disponibile per il lavoro in entrata. Ad esempio, si crea uno stato disponibile denominato *Pronto*, uno stato non disponibile denominato *Danneggiato* e uno stato bloccato denominato *Bloccato*. Quando si crea un ordine acquisto per articoli ricevuti o resi, se gli articoli sono danneggiati o rotti, è possibile modificare lo stato inventario di tali articoli in *Danneggiato* nella riga dell'ordine acquisto. Dopo la ricezione degli articoli, lo stato viene automaticamente impostato su *Bloccato*. Se si esegue la scansione degli articoli danneggiati con un dispositivo mobile, Supply Chain Management può utilizzare le direttive di ubicazione e i modelli di lavoro per mostrare le informazioni relative a un'ubicazione appropriata o a un gruppo di ubicazioni in cui è possibile stoccare tali articoli. Per i resi, viene creato un problema di tipo *Prenotazione* nella pagina **Transazioni di magazzino**.
 
+Puoi specificare quali stati di magazzino sono stati di blocco tramite le caselle di controllo **Blocco scorte** nella pagina **Stati inventario**. Non è possibile utilizzare gli stati di magazzino come stati di blocco per ordini cliente, ordini di trasferimento o integrazioni di progetto.
+
+Per il lavoro in uscita, puoi utilizzare diversi stati di inventario non di blocco per controllare per quale inventario prenotare. Se hai articoli con stato *Blocco* e la pianificazione generale viene eseguita su tali articoli, questi vengono considerati mancanti e l'inventario viene automaticamente rifornito. Inoltre, per gli ordini di controllo qualità associati al lavoro in uscita, non è possibile aggiornare lo **Stato dell'inventario** come parte della convalida dell'ordine di controllo qualità.
+
 > [!NOTE]
 > Non è possibile modificare lo stato dell'inventario nelle ubicazioni in cui esistono lavori aperti. Ad esempio, se si è effettuata l'entrata acquisto per un articolo, ma non lo stoccaggio, esisterebbe del lavoro aperto per l'ubicazione di ricezione e verrebbe visualizzato un errore se si tenta di modificare lo stato dell'inventario in quell'ubicazione. Il completamento o l'annullamento del lavoro correlato consentirebbe di modificare lo stato.
- 
-Per il lavoro in uscita, utilizzare articoli con uno stato inventario disponibile. Se si dispone di articoli con stato *Rotto* e la pianificazione generale viene eseguita su tali articoli, questi vengono considerati mancanti e l'inventario viene automaticamente rifornito.
+>
+> Di solito, lo stato delle scorte disponibili relative al lavoro di magazzino aperto viene modificato solo dai lavoratori che utilizzano l'app per dispositivi mobili Gestione magazzino, ad esempio durante l'esecuzione di un processo di movimento.
 
 Dopo aver impostato gli stati inventario, è possibile impostare lo stato inventario predefinito per un sito, un articolo e un magazzino. È inoltre possibile impostare uno stato predefinito per ordini acquisto, di trasferimento e cliente. Lo stato predefinito per gli ordini cliente e l'ordine di trasferimento in uscita non possono disporre del set di opzioni **Blocco scorte** su *Sì*. Lo stato inventario che viene ereditato dalle impostazioni predefinite in un sito, magazzino, articolo, ordine acquisto, di trasferimento o cliente può essere modificato utilizzando il dispositivo mobile oppure nella riga dell'ordine acquisto, cliente o di trasferimento.
 

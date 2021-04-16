@@ -2,11 +2,9 @@
 title: Conto lavoro
 description: In questo argomento vengono fornite le informazioni dettagliate per creare un conto lavoro nella produzione in Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255543"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825184"
 ---
 # <a name="subcontracting"></a>Conto lavoro
 
@@ -210,7 +208,7 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
 
     ![Due set di lavoro per il prelievo della materia prima nella pagina Lavoro.](./media/subcontract22_work-page.png)
 
-26. Avviare l'app di magazzino per elaborare il lavoro di magazzino per l'operazione 10.
+26. Avviare l'app per dispositivi mobili Gestione magazzino per elaborare il lavoro di magazzino per l'operazione 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
     - Nel campo **Da oper. n.** selezionare **10**.
     - Nel campo **A oper. n.** selezionare **10**.
 
-    ![Valori impostati nella scheda Generale](./media/subcontract23_start-dialog.png)
+    ![Valori impostati nella scheda Generale 1](./media/subcontract23_start-dialog.png)
 
 31. Selezionare **OK** per chiudere la finestra di dialogo **Avvio** e tornare alla pagina **Tutti gli ordini di produzione**.
 
     Notare che lo stato dell'ordine di produzione è ora impostato su **Avviato**. I materiali per l'operazione 10 vengono consumati da una registrazione automatica del giornale di registrazione distinte di prelievo. Il consumo di tempo per l'operazione 10 viene considerato da una registrazione automatica di un giornale di registrazione schede cicli di lavorazione.
 
-32. Avviare l'app di magazzino per elaborare il lavoro di magazzino per l'operazione 20.
+32. Avviare l'app per dispositivi mobili Gestione magazzino per elaborare il lavoro di magazzino per l'operazione 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
     - Nel campo **Quantità** immettere **10**.
     - Impostare l'opzione **Registra distinta di prelievo ora** su **No**.
 
-    ![Valori impostati nella scheda Generale](./media/subcontract24_general-tab.png)
+    ![Valori impostati nella scheda Generale 2](./media/subcontract24_general-tab.png)
 
 35. Selezionare **OK** per chiudere la finestra di dialogo **Avvio** e tornare alla pagina **Tutti gli ordini di produzione**.
 

@@ -2,11 +2,9 @@
 title: Ritenuta d'acconto per l'Italia
 description: In questo argomento viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
 author: Anasyash
-manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b5e7482c1a4f3a6a3f439ad4ff0d399c3756f2f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 988ea4267195566da9a2d13b4e026004ef5e722d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247966"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826483"
 ---
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 

@@ -2,11 +2,9 @@
 title: Risolvere i problemi relativi alle operazioni di magazzino in entrata
 description: Questo argomento descrive come risolvere i problemi comuni che si possono verificare quando si utilizzano le operazioni di magazzino in entrata in Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250884"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828228"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Risolvere i problemi relativi alle operazioni di magazzino in entrata
 
@@ -65,5 +63,22 @@ Una nuova funzione di gestione del carico in entrata, *Entrata in eccesso di qua
 
 Per ulteriori informazioni, vedere [Registrare le quantità di prodotto registrate rispetto a ordini fornitore](inbound-load-handling.md#post-registered-quantities).
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Quando registro gli ordini in entrata, ricevo il seguente messaggio di errore: "La quantità non è valida".
+
+### <a name="issue-description"></a>Descrizione del problema
+
+Se il campo **Criteri di raggruppamento delle targhe** è impostato su *Definito dall'utente* per una voce di menu del dispositivo mobile utilizzata per registrare gli ordini in entrata, viene visualizzato un messaggio di errore ("La quantità non è valida") e non è possibile completare la registrazione.
+
+### <a name="issue-cause"></a>Causa del problema
+
+Quando *Definito dall'utente* viene utilizzato come criterio di raggruppamento delle targhe, il sistema suddivide l'inventario in entrata in targhe separate, come indicato dal gruppo di sequenze unità. Se vengono utilizzati numeri di batch o di serie per tenere traccia dell'articolo ricevuto, le quantità di ciascun batch o serie devono essere specificate per targa registrata. Se la quantità specificata per una targa supera la quantità che deve ancora essere ricevuta per le dimensioni correnti, viene visualizzato il messaggio di errore.
+
+### <a name="issue-resolution"></a>Risoluzione dei problemi
+
+Quando registri un artciolo utilizzando una voce di menu del dispositivo mobile in cui il campo **Criterio di raggruppamento delle targhe** è impostato su *Definito dall'utente*, il sistema potrebbe richiedere la conferma o l'immissione di numeri di targa, numeri di lotto o numeri di serie.
+
+Nella pagina di conferma della targa, il sistema mostrerà la quantità allocata per la targa corrente. Sulle pagine di conferma del batch o della serie, il sistema mostrerà la quantità che deve ancora essere ricevuta sulla targa corrente. Comprenderà anche un campo in cui è possibile inserire la quantità da registrare per quella combinazione di targa e batch o numero di serie. In questo caso, assicurati che la quantità che si sta registrando per la targa non superi la quantità che deve ancora essere ricevuta.
+
+In alternativa, se vengono generate troppe targhe durante la registrazione dell'ordine in entrata, il valore del campo **Criterio di raggruppamento delle targhe** può essere modificato in *Raggruppamento targhe*, è possibile assegnare un nuovo gruppo di sequenze di unità all'articolo o l'opzione **Raggruppamento targhe** per il gruppo di sequenze di unità può essere disattivata.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

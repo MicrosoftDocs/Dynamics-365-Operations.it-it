@@ -2,11 +2,9 @@
 title: Rilascio automatico della spedizione della versione per cross-docking
 description: In questo argomento viene descritta una strategia di cross-docking che consente di rilasciare automaticamente un ordine di domanda nel magazzino quando l'ordine di produzione che fornisce la quantità della domanda viene dichiarato finito, in modo che la quantità viene spostata direttamente dall'ubicazione di uscita della produzione nell'ubicazione in uscita.
 author: omulvad
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233177"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831436"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Rilascio automatico della spedizione della versione per cross-docking
 
@@ -163,7 +161,7 @@ Per eseguire il cross-dock della quantità di prodotti finiti nell'ubicazione in
 8. Nella pagina **Ordine di produzione**, nel riquadro azioni, nella scheda **Ordine di produzione**, nel gruppo **Processo** selezionare **Stima** e quindi **OK**. L'ordine viene stimato e la quantità di materie prime viene prenotata per la produzione.
 9. Nel riquadro azioni, nella scheda **Ordine di produzione**, nel gruppo **Processo** selezionare **Rilascio** e quindi **OK**. Il lavoro di prelievo di magazzino viene creato per le materie prime.
 10. Aprire ed esaminare il lavoro. Nella scheda **Magazzino** del riquadro azioni, nel gruppo **Generale**, selezionare **Dettagli lavoro**. Prendere nota dell'ID lavoro.
-11. Accedi all'app di magazzino per eseguire il lavoro nel magazzino 51.
+11. Accedi all'app per dispositivi mobili Gestione magazzino per eseguire il lavoro nel magazzino 51.
 12. Andare a **Produzione** \> **Prelievo di produzione**.
 13. Immettere l'ID lavoro per avviare e completare il prelievo delle materie prime. 
 
