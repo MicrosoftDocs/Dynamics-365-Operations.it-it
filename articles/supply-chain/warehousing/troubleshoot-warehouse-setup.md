@@ -2,11 +2,9 @@
 title: Risolvere i problemi di impostazione del magazzino
 description: Questo argomento descrive come risolvere i problemi comuni che si possono verificare durante l'impostazione dei magazzini in Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f2e111930431e908e5aaa2f08d04adbb2d952f0f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d1ed8e3b6f13f83e3c870b17b423cf42ad0ecc1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208113"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828060"
 ---
 # <a name="troubleshoot-warehouse-setup"></a>Risolvere i problemi di impostazione del magazzino
 
@@ -38,7 +36,7 @@ Non è possibile utilizzare un ruolo tranne quello dell'amministratore per acced
 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
-L'emulatore dell'app per dispositivi mobili è impostato per funzionare solo con l'account amministratore. Per tutti gli scopi di test e processo live, consigliamo di utilizzare l'app di magazzino stessa.
+L'emulatore dell'app per dispositivi mobili è impostato per funzionare solo con l'account amministratore. Per tutti gli scopi di test e processo live, consigliamo di utilizzare l'app per dispositivi mobili Gestione magazzino stessa.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

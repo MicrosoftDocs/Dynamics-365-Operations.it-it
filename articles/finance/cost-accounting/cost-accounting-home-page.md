@@ -2,11 +2,9 @@
 title: Home page Contabilità industriale
 description: In questo articolo sono elencati gli argomenti della Guida e altre risorse disponibili per la Contabilità industriale.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db93078c862cd468ec692d490876d825725f4253
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3485818ff67e20a5354e4bebc4903faaa36f6286
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219965"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841119"
 ---
 # <a name="cost-accounting-home-page"></a>Home page della contabilità industriale
 
@@ -36,7 +34,7 @@ Nella mappa di apprendimento vengono visualizzati i concetti e le attività prin
 
 ## <a name="quick-links"></a>Collegamenti rapidi
 
-|      |   |
+| &nbsp; | &nbsp;  |
 |------|---|
 |  [Configurare le entità di base (eLearning)](https://mbspartner.microsoft.com/Home) (richiede l'account CustomerSource)  |[Dimensioni elemento di costo](cost-elements.md)  |
 |  [Gerarchia dimensioni](dimension-hierarchy.md)  |[Definire unità di controllo costi](./tasks/define-cost-control-units.md)| 
@@ -46,7 +44,7 @@ Nella mappa di apprendimento vengono visualizzati i concetti e le attività prin
 
 ## <a name="get-started-videosbr"></a>Video introduttivi<br/>
 
-|  |  |                             |
+| &nbsp; | &nbsp;  | &nbsp;  |
 |------------------------|--------------------|-----------------------------|
 | [Introduzione alla contabilità industriale](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Area di lavoro mobile del modulo Contabilità industriale](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Utilizzo di Excel per l'analisi della contabilità industriale](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 

@@ -2,11 +2,9 @@
 title: Rifornimento superiore alla capacità dell'ubicazione
 description: Questo argomento fornisce informazioni sulla funzionalità di rifornimento superiore alla capacità dell'ubicazione. Questa funzionalità consente a tutto il lavoro di rifornimento da eseguire obbligatoriamente durante la giornata di essere creato e gestisce la disponibilità di tale lavoro di rifornimento per garantire che l'ubicazione di prelievo non esaurisca le scorte né superi la capacità.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228395"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823241"
 ---
 # <a name="replenishment-over-location-capacity"></a>Rifornimento superiore alla capacità dell'ubicazione
 
@@ -241,7 +239,7 @@ A seconda delle quantità disponibili, le quantità di lavoro create potrebbero 
 
 #### <a name="on-hand-inventory-license-plate-id"></a>ID targa delle scorte disponibili
 
-Più avanti in questo scenario, si utilizzerà l'app del magazzino (o un emulatore), dove sarà necessario identificare la targa per completare gli scenari di prelievo e rifornimento.
+Più avanti in questo scenario, si utilizzerà l'app per dispositivi mobili Gestione magazzino (o un emulatore), dove sarà necessario identificare la targa per completare gli scenari di prelievo e rifornimento.
 
 Per trovare gli ID targa necessari in seguito, attenersi alla seguente procedura.
 
@@ -266,7 +264,7 @@ Verrà eseguito il rifornimento dell'ubicazione di magazzino per i primi due ID 
 
 #### <a name="replenishment"></a>Rifornimento
 
-1. Accedere all'app di magazzino come utente nel magazzino *61*. (Immettere *61* come ID utente e *1* come password).
+1. Accedi all'app per dispositivi mobili Gestione magazzino come utente nel magazzino *61*. (Immettere *61* come ID utente e *1* come password).
 1. Passare a **Inventario \> Rifornimento**.
 
     Viene richiesto di completare il primo lavoro di rifornimento. Vengono visualizzati il numero, la quantità e l'ubicazione di prelievo dell'articolo.
@@ -296,7 +294,7 @@ Fino a quando non viene prelevata una quantità sufficiente di scorte dall'ubica
 
 Prima che l'attività di rifornimento rimanente possa essere completata, le scorte nell'ubicazione di prelievo devono diminuire fino a un livello in cui è possibile sbloccare il rimanente lavoro di rifornimento. In altre parole, la somma della quantità di scorte disponibili nell'ubicazione e la quantità di rifornimento non possono superare il valore **Quantità di overflow**. Quando questa somma è inferiore alla quantità di overflow, il restante lavoro di rifornimento verrà sbloccato.
 
-1. Accedere all'app di magazzino come utente nel magazzino *61*. (Immettere *61* come ID utente e *1* come password).
+1. Accedi all'app per dispositivi mobili Gestione magazzino come utente nel magazzino *61*. (Immettere *61* come ID utente e *1* come password).
 1. Passare a **In uscita \> Prelievo vendite**.
 1. Immettere il primo ID lavoro per l'ordine cliente 1.
 

@@ -2,11 +2,9 @@
 title: Panoramica dei contratti di assistenza
 description: I gruppi di contratti di assistenza sono utili per ordinare e filtrare i contratti di assistenza.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c046d6007c79cbe7cb30ae80485552523c265e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c4e2aa8babf2337114b889e50f4f427124aa4298
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219199"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835968"
 ---
 # <a name="service-agreements-overview"></a>Panoramica dei contratti di assistenza
 

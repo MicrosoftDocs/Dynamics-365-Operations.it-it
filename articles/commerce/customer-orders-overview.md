@@ -2,11 +2,9 @@
 title: Ordini cliente in Point of Sale (POS)
 description: In questo argomento vengono fornite informazioni sugli ordini cliente in Point of Sale (POS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220512"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821010"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in Point of Sale (POS)
 
@@ -61,7 +59,8 @@ In Commerce versione 10.0.12 e successive, le organizzazioni possono definire se
 
 Quando si lavora con gli ordini clienti in POS, è necessario considerare alcune delle impostazioni del canale del punto vendita. Queste impostazioni si trovano nella pagina **Punti vendita** in Commerce headquarters.
 
-- **Magazzino** - Questo campo indica il magazzino utilizzato per evadere gli ordini configurati per la spedizione dal punto vendita.
+- **Magazzino** - Questo campo indica il magazzino che verrà utilizzato quando si decrementa l'inventario per cash and carry e gli ordini di ritiro dei clienti legati a questo negozio. Come procedura consigliata, incoraggiamo l'uso di magazzini univoci per ogni canale di negozio, per evitare problemi di logica aziendale in conflitto tra i negozi.
+- **Magazzino di spedizione** - Questo campo indica il magazzino che verrà utilizzato quando si decrementa l'inventario per gli ordini cliente da spedire al negozio selezionato. Se la funzionalità **Possibilità di specificare le ubicazioni come "Spedizione" o "Ritiro" abilitata nel gruppo di evasione** è stato abilitata nel tuo ambiente, gli utenti POS possono scegliere un magazzino specifico da cui spedire in POS, invece di scegliere un negozio da cui spedire. Pertanto, quando questa funzione è abilitata, il magazzino di spedizione non viene più utilizzato, poiché l'utente sceglierà il magazzino specifico da cui spedire l'ordine al momento della creazione dell'ordine.
 - **Assegnazione del gruppo di evasione** - Selezionare questo pulsante (nella scheda **Impostazione** del riquadro azioni) per collegare i gruppi di evasione ordini a cui si fa riferimento e mostrare le opzioni per le ubicazioni di prelievo o le origini della spedizione quando gli ordini dei clienti vengono creati in POS.
 - **Utilizza imposta basata su destinazione** - Questa opzione indica se l'indirizzo di spedizione viene utilizzato per determinare il gruppo imposte applicato alle righe ordine spedite all'indirizzo del cliente.
 - **Utilizza imposta basata su cliente** - Questa opzione indica se il gruppo imposte definito per l'indirizzo di consegna del cliente viene utilizzato per tassare gli ordini dei clienti creati in POS per la spedizione all'indirizzo del cliente.
