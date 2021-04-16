@@ -2,7 +2,6 @@
 title: Impostazione automatica dei costi
 description: In questo argomento viene descritto come impostare le regole relative ai costi per vari livelli di viaggio in entrata. Sulla base di queste regole, il sistema calcola i costi e li aggiunge automaticamente. Pertanto, gli utenti non devono aggiungere manualmente i costi.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501152"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841961"
 ---
 # <a name="auto-costs-setup"></a>Impostazione automatica dei costi
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 È possibile utilizzare la pagina **Costi automatici** per impostare le regole relative ai costi per varie aree di costo (come viaggi, contenitori di spedizione, registrazioni, ordini fornitore, articoli o righe di ordine di trasferimento). In base alle regole e ai campi selezionati dagli utenti quando creano record per una delle aree di costo, il sistema calcola i costi e li aggiunge automaticamente. Pertanto, gli utenti non devono aggiungere manualmente i costi.
 

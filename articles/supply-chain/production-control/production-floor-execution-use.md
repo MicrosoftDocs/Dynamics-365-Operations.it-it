@@ -2,11 +2,9 @@
 title: Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 description: Questo argomento descrive come utilizzare l'interfaccia di esecuzione dell'area di produzione dal punto di vista di un lavoratore.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500792"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814658"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 L'interfaccia di esecuzione dell'area di produzione è ottimizzata per l'interazione a tocco. Il design offre un contrasto visivo che soddisfa i requisiti di accessibilità per gli ambienti di produzione. Offre tutte le stesse capacità funzionali del dispositivo scheda di processo. Tuttavia, consente anche di avviare più processi in parallelo da un elenco di processi. (Questa funzionalità è nota anche come *raggruppamento di processi*.) Inoltre, da un elenco di processi i lavoratori possono aprire una guida creata in Microsoft Dynamics 365 Guides. In questo modo, possono ottenere istruzioni visive in un HoloLens.
 
@@ -90,7 +87,7 @@ La scheda **Macchina personale** include le seguenti colonne. I numeri corrispon
 
 1. **Impostazioni** - Seleziona l'icona dell'ingranaggio per aprire una finestra di dialogo in cui è possibile scegliere quali contatori visualizzare per il cespite di tipo macchina selezionato. I valori di questi contatori sono visualizzati nella parte superiore della scheda **Gestione cespiti** tab. Il menu **Impostazioni** (mostrato nella schermata seguente) consente di abilitare fino a quattro contatori. Per ogni contatore che desideri abilitare, utilizza il campo di ricerca nella parte superiore del riquadro per selezionare un contatore. Il campo di ricerca elenca tutti i contatori associati al cespite selezionato nella parte superiore della pagina **Gestione cespiti**. Imposta ogni contatore per monitorare il valore **Aggregato** valore o il valore **Effettivo** più recente per il contatore. Ad esempio, se imposti un contatore che tiene traccia del numero di ore di funzionamento della macchina, dovresti impostarlo su **Aggregato**. Se imposti un contatore per misurare l'ultima temperatura o pressione aggiornata, dovresti impostarlo su **Effettivo**. Selezionare **OK** per salvare le impostazioni e chiudere la finestra di dialogo.
 
-    ![Scheda Macchina personale](media/pfei-my-machine-tab-settings.png "Scheda Macchina personale")
+    ![Impostazioni della scheda Macchina personale](media/pfei-my-machine-tab-settings.png "Impostazioni della scheda Macchina personale")
 
 1. **Richiedi manutenzione** - Seleziona questo pulsante per aprire una finestra di dialogo in cui puoi creare una richiesta di manutenzione. Sarai in grado di fornire una descrizione e una nota. La richiesta verrà portata all'attenzione di un utente di Supply Chain Management, che potrà poi convertire la richiesta di manutenzione in un ordine di lavoro di manutenzione.
 1. **Registra tempo di inattività** - Selezionare questo pulsante per aprire una finestra di dialogo in cui è possibile registrare i tempi di fermo macchina. Potrai selezionare un codice motivo e inserire una data/un intervallo di tempo per il tempo di inattività. La registrazione dei tempi di fermo macchina viene utilizzata per calcolare l'efficienza del cespite di tipo macchina.

@@ -1,12 +1,10 @@
 ---
-title: Introduzione al componente aggiuntivo per la fatturazione elettronica per l'Italia
-description: Questo argomento fornisce informazioni introduttive sul componente aggiuntivo per la fatturazione elettronica per l'Italia in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
+title: Introduzione alla fatturazione elettronica per l'Italia
+description: Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per l'Italia.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259222"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840102"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Introduzione al componente aggiuntivo per la fatturazione elettronica per l'Italia
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Introduzione alla fatturazione elettronica per l'Italia
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> Il componente aggiuntivo per la fatturazione elettronica per l'Italia potrebbe attualmente non supportare tutte le funzioni disponibili per le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management. 
+> La fatturazione elettronica per l'Italia potrebbe attualmente non supportare tutte le funzioni disponibili per le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management. 
 
-Questo argomento fornisce informazioni introduttive sul componente aggiuntivo per la fatturazione elettronica per l'Italia. Ti guida attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e Finance. Inoltre, guida l'utente attraverso il processo di invio delle fatture elettroniche generate nel formato **FatturaPA** specifico per l'Italia tramite il servizio e spiega come rivedere i risultati dell'elaborazione.
+Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per l'Italia. Ti guida attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e Finance. Inoltre, guida l'utente attraverso il processo di invio delle fatture elettroniche generate nel formato **FatturaPA** specifico per l'Italia tramite il servizio e spiega come rivedere i risultati dell'elaborazione.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di completare i passaggi in questo argomento, è necessario completare i passaggi in [Introduzione al componente aggiuntivo per la fatturazione elettronica](e-invoicing-get-started.md).
+Prima di completare i passaggi in questo argomento, è necessario completare i passaggi in [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>Impostazioni RCS
 
@@ -48,7 +46,7 @@ Durante la configurazione RCS, completerai queste attività:
 4. Pubblica la funzionalità per la fatturazione elettronica.
 
 > [!NOTE]
-> "La funzionalità per la fatturazione elettronica" è il nome generico della risorsa configurata e pubblicata per utilizzare il server del componente aggiuntivo per la fatturazione elettronica. In questo caso, l'esportazione delle fatture elettroniche dei clienti rappresenta la funzionalità di fatturazione elettronica che configurerai.
+> "La funzionalità per la fatturazione elettronica" è il nome generico della risorsa configurata e pubblicata per utilizzare il server della fatturazione elettronica. In questo caso, l'esportazione delle fatture elettroniche dei clienti rappresenta la funzionalità di fatturazione elettronica che configurerai.
 
 ## <a name="import-the-e-invoicing-feature"></a>Importare la funzionalità per la fatturazione elettronica
 
@@ -153,7 +151,7 @@ I passaggi e le impostazioni necessari per configurare la funzionalità **Fattur
 
 ![Modifica dello stato della funzionalità di fatturazione elettronica](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Configurare l'integrazione del componente aggiuntivo per la fatturazione elettronica in Finance
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Configurare l'integrazione della fatturazione elettronica in Finance
 
 Durante la configurazione di Finance, completerai queste attività:
 
@@ -193,17 +191,17 @@ Durante la configurazione di Finance, completerai queste attività:
 
 Durante l'elaborazione in Finance, completerai queste attività:
 
-1. Generare fatture elettroniche italiane tramite il componente aggiuntivo per la fatturazione elettronica
+1. Generare fatture elettroniche italiane tramite la fatturazione elettronica
 2. Visualizzare i log di esecuzione e rivedere i risultati dell'elaborazione
 
 ### <a name="generate-electronic-invoices"></a>Generare fatture elettroniche
 
-Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per la fatturazione elettronica configurabile** e la funzionalità **IT00036**, il vecchio processo di Finance per la generazione di fatture elettroniche italiane non può più essere utilizzato. È sostituito da un nuovo processo denominato **Invia documenti elettronici**.
+Dopo aver attivato la funzionalità **Integrazione della fatturazione elettronica configurabile** e la funzionalità **IT00036**, il vecchio processo di Finance per la generazione di fatture elettroniche italiane non può più essere utilizzato. È sostituito da un nuovo processo denominato **Invia documenti elettronici**.
 
 È possibile inviare i documenti manualmente, in base alla richiesta di documenti di fatturazione elettronica.
 
 > [!NOTE]
-> Prima di continuare, verifica che la configurazione obbligatoria per le fatture elettroniche italiane sia stata completata. Per ulteriori informazioni, vedi [Fatture elettroniche dei clienti](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Tieni presente che alcuni dei passaggi di configurazione descritti in tale argomento potrebbero non essere disponibili a causa dell'attivazione del componente aggiuntivo per la fatturazione elettronica.
+> Prima di continuare, verifica che la configurazione obbligatoria per le fatture elettroniche italiane sia stata completata. Per ulteriori informazioni, vedi [Fatture elettroniche dei clienti](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Tieni presente che alcuni dei passaggi di configurazione descritti in tale argomento potrebbero non essere disponibili a causa dell'attivazione della fatturazione elettronica.
 
 1. Vai a **Amministrazione organizzazione \> Periodico \> Documenti elettronici \> Invia documenti elettronici**.
 2. Per il primo invio di qualsiasi documento, imposta l'opzione **Invia di nuovo i documenti** su **No**. Se devi inviare nuovamente un documento tramite il servizio, imposta questa opzione su **Sì**.
@@ -220,7 +218,7 @@ Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per
 2. Seleziona **OK** per chiudere la finestra di dialogo **Richiesta**.
 3. Seleziona **OK** per inviare i documenti selezionati.
 
-> ![NOTE] Durante il tuo primo tentativo di inviare un documento tramite il servizio, ti verrà chiesto di confermare la connessione con il componente aggiuntivo per la fatturazione elettronica. Seleziona **Fai clic qui per connetterti al servizio di invio documenti elettronici**.
+> ![NOTA] Durante il tuo primo tentativo di inviare un documento tramite il servizio, ti verrà chiesto di confermare la connessione con la fatturazione elettronica. Seleziona **Fai clic qui per connetterti al servizio di invio documenti elettronici**.
 
 #### <a name="view-submission-logs"></a>Visualizzare i registri di invio
 
@@ -242,9 +240,9 @@ Dopo aver attivato la funzionalità **Integrazione del componente aggiuntivo per
 
 ## <a name="related-topics"></a>Argomenti correlati
 
-- [Panoramica del componente aggiuntivo per la fatturazione elettronica](e-invoicing-service-overview.md)
-- [Introduzione al componente aggiuntivo per la fatturazione elettronica](e-invoicing-get-started.md)
-- [Configurare il componente aggiuntivo per la fatturazione elettronica](e-invoicing-setup.md)
+- [Panoramica della fatturazione elettronica](e-invoicing-service-overview.md)
+- [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md)
+- [Impostare la fatturazione elettronica](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

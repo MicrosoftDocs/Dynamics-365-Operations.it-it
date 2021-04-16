@@ -2,11 +2,9 @@
 title: Risolvere i problemi della configurazione del magazzino
 description: Questo argomento descrive come risolvere i problemi comuni che si possono verificare durante la configurazione di Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487099"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814394"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Risolvere i problemi della configurazione del magazzino
 
@@ -38,7 +36,7 @@ Viene visualizzato questo messaggio di errore quando si esegue la scansione di u
 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
-Assicurarsi che l'ID targa non sia prenotato da qualcos'altro. Questo problema si verificava quando il valore scansionato da un utente nell'app del magazzino era sia un'ubicazione valida che un ID targa valido. Tuttavia, questo problema è stato risolto nella versione 10.0.11.
+Assicurarsi che l'ID targa non sia prenotato da qualcos'altro. Questo problema si verificava quando il valore scansionato da un utente nell'app per dispositivi mobili Gestione magazzino era sia un'ubicazione valida che un ID targa valido. Tuttavia, questo problema è stato risolto nella versione 10.0.11.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>Viene visualizzato il seguente messaggio di errore: "La targa deve essere specificata per questa ubicazione."
 
@@ -82,7 +80,7 @@ Le direttive di ubicazione del tipo di ordine di lavoro *Ordini cliente* e il ti
 
 Una nuova funzionalità, *Valuta tutte le azioni per le direttive di ubicazione per più SKU*, è stato aggiunta nella versione 10.0.15 (vedere [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Questa funzionalità valuta tutte le azioni per le direttive di ubicazioni per più SKU. Se è necessaria questa funzione, usare [Gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivarla.
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>Impossibile utilizzare l'app del magazzino per effettuare prelievi parziali.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>Impossibile utilizzare l'app per dispositivi mobili Gestione magazzino per effettuare prelievi parziali.
 
 ### <a name="issue-description"></a>Descrizione del problema
 
@@ -100,7 +98,7 @@ Si desidera modificare lo stato dell'inventario per una quantità parziale di un
 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
-Per consentire ai lavoratori di apportare questa modifica, è possibile creare una voce di menu per l'app del magazzino. Creare o modificare una voce di menu per una delle seguenti impostazioni nella pagina **Voci di menu del dispositivo mobile**:
+Per consentire ai lavoratori di apportare questa modifica, è possibile creare una voce di menu per l'app per dispositivi mobili Gestione magazzino. Creare o modificare una voce di menu per una delle seguenti impostazioni nella pagina **Voci di menu del dispositivo mobile**:
 
 - **Modalità:** *Lavoro*
 - **Utilizza lavoro esistente:** *No*

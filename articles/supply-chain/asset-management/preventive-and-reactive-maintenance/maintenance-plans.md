@@ -1,12 +1,10 @@
 ---
 title: Piani di manutenzione
 description: In questo argomento vengono descritti i piani di manutenzione in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500816"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839609"
 ---
 # <a name="maintenance-plans"></a>Piani di manutenzione
 
@@ -195,8 +193,6 @@ Nella figura seguente è illustrato un esempio di un piano di manutenzione confi
 
 ## <a name="counter-based-maintenance-enhancements"></a>Miglioramenti alla manutenzione basati su contatore
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 La funzionalità *Miglioramenti alla manutenzione basata su contatore* introduce le seguenti funzionalità:
 
 - L'opzione per inserire automaticamente un contatore che ha un valore pari a *0* (zero) quando viene creato un cespite. Questa opzione può essere utile quando si utilizza la manutenzione predittiva basata sui contatori. Quando la funzionalità *Miglioramenti alla manutenzione basata su contatore* non viene utilizzata, i contatori che hanno un valore pari a *0* (zero) devono essere inseriti manualmente.
@@ -209,7 +205,7 @@ La funzionalità *Miglioramenti alla manutenzione basata su contatore* introduce
 Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione cespiti*
-- **Nome funzionalità:** *(anteprima) Migliroamenti della manutenzione basata su contatore*
+- **Nome funzionalità:** *Miglioramenti della manutenzione basata su contatore*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Creare e inizializzare i contatori quando viene creato un cespite
 

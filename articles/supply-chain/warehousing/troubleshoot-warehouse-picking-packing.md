@@ -2,11 +2,9 @@
 title: Risolvere i problemi di prelievo e imballaggio
 description: Questo argomento descrive come risolvere i problemi comuni che si possono verificare durante il prelievo e l'imballaggio in Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 01e33b63e09a035f5243bd57faf53b522737c987
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a54fa9dc21fb1691d74905a1215f4dfea31f136
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223244"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828132"
 ---
 # <a name="troubleshoot-picking-and-packing"></a>Risolvere i problemi di prelievo e imballaggio
 
@@ -44,7 +42,7 @@ Il campo **Ubicazione predefinita entrata** è vuoto per un magazzino di transit
 
 ### <a name="issue-description"></a>Descrizione del problema
 
-Viene visualizzato questo messaggio di errore nell'app del magazzino quando si esegue la scansione di un ID targa.
+Viene visualizzato questo messaggio di errore nell'app per dispositivi mobili Gestione magazzino quando si esegue la scansione di un ID targa.
 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
@@ -68,7 +66,7 @@ Viene visualizzato questo messaggio di errore quando si tenta di eseguire un *pr
 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
-Il magazziniere deve utilizzare il processo *Prelievo breve* nell'app del magazzino. Se si tenta di prelevare più batch dalla stessa ubicazione, è possibile anche utilizzare l'opzione **Completo** nell'app del magazzino.
+Il magazziniere deve utilizzare il processo *Prelievo breve* nell'app per dispositivi mobili Gestione magazzino. Se tenti di prelevare più batch dalla stessa ubicazione, puoi anche utilizzare l'opzione **Completo** nell'app per dispositivi mobili Gestione magazzino.
 
 ## <a name="i-cant-move-inventory-to-a-location-that-is-license-platecontrolled"></a>Non èpossibile spostare l'inventario in un'ubicazione controllata dalla targa.
 
