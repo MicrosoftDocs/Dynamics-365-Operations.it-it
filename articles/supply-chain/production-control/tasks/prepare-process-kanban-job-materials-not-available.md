@@ -2,11 +2,9 @@
 title: Preparare un processo kanban quando non sono disponibili materiali per la cella di lavoro
 description: Questa procedura riguarda la preparazione del processo kanban di lavorazione quando alcuni materiali non sono disponibili per la cella di lavoro ed è pertanto necessario prelevarvi dal magazzino.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
@@ -16,40 +14,40 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 742ac97c4b730d3552f532c53409ef54320b263a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 72fd083edc48504b35f540ea7bdc8c8c736418f3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204570"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828636"
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="9ec61-103">Preparare un processo kanban quando non sono disponibili materiali per la cella di lavoro</span><span class="sxs-lookup"><span data-stu-id="9ec61-103">Prepare a process kanban job when materials are not available for the work cell</span></span>
+# <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a><span data-ttu-id="289f0-103">Preparare un processo kanban quando non sono disponibili materiali per la cella di lavoro</span><span class="sxs-lookup"><span data-stu-id="289f0-103">Prepare a process kanban job when materials are not available for the work cell</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9ec61-104">Questa procedura riguarda la preparazione del processo kanban di lavorazione quando alcuni materiali non sono disponibili per la cella di lavoro ed è pertanto necessario prelevarvi dal magazzino.</span><span class="sxs-lookup"><span data-stu-id="9ec61-104">This procedure focuses on preparing a process kanban job when some materials are not available for the work cell, therefore it's necessary to pick materials from the warehouse.</span></span> <span data-ttu-id="9ec61-105">La procedura Preparare un processo kanban quando sono disponibili materiali per la cella di lavoro" è un prerequisito per creare questa procedura.</span><span class="sxs-lookup"><span data-stu-id="9ec61-105">The procedure "Prepare a process kanban job when materials are available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="9ec61-106">Questa procedura è destinata all'operatore.</span><span class="sxs-lookup"><span data-stu-id="9ec61-106">This procedure is intended for the machine operator.</span></span> <span data-ttu-id="9ec61-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="9ec61-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="289f0-104">Questa procedura riguarda la preparazione del processo kanban di lavorazione quando alcuni materiali non sono disponibili per la cella di lavoro ed è pertanto necessario prelevarvi dal magazzino.</span><span class="sxs-lookup"><span data-stu-id="289f0-104">This procedure focuses on preparing a process kanban job when some materials are not available for the work cell, therefore it's necessary to pick materials from the warehouse.</span></span> <span data-ttu-id="289f0-105">La procedura Preparare un processo kanban quando sono disponibili materiali per la cella di lavoro" è un prerequisito per creare questa procedura.</span><span class="sxs-lookup"><span data-stu-id="289f0-105">The procedure "Prepare a process kanban job when materials are available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="289f0-106">Questa procedura è destinata all'operatore.</span><span class="sxs-lookup"><span data-stu-id="289f0-106">This procedure is intended for the machine operator.</span></span> <span data-ttu-id="289f0-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="289f0-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="9ec61-108">Andare a Controllo produzione > Kanban > Bacheca kanban per i processi di lavorazione.</span><span class="sxs-lookup"><span data-stu-id="9ec61-108">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="9ec61-109">Nel campo Cella di lavoro fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="9ec61-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="9ec61-110">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="9ec61-110">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="9ec61-111">Selezionare la cella di lavoro 1250.</span><span class="sxs-lookup"><span data-stu-id="9ec61-111">Select work cell 1250.</span></span>  
-4. <span data-ttu-id="9ec61-112">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="9ec61-112">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="9ec61-113">Selezionare Kanban 000356</span><span class="sxs-lookup"><span data-stu-id="9ec61-113">Select Kanban 000356.</span></span>  
-5. <span data-ttu-id="9ec61-114">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="9ec61-114">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="9ec61-115">Nell'elenco deselezionare la riga 4.</span><span class="sxs-lookup"><span data-stu-id="9ec61-115">In the list, deselect row 4.</span></span> <span data-ttu-id="9ec61-116">Selezionarla se non è stata completata l'attività "Preparare un processo kanban quando sono disponibili materiali".</span><span class="sxs-lookup"><span data-stu-id="9ec61-116">or Select row 4 if you haven't completed the task "Prepare a process kanban job when materials are available."</span></span>  
-6. <span data-ttu-id="9ec61-117">Attivare/disattivare l'espansione della sezione Distinta di prelievo.</span><span class="sxs-lookup"><span data-stu-id="9ec61-117">Toggle the expansion of the Picking list section.</span></span>
-    * <span data-ttu-id="9ec61-118">L'icona che indica nessuna voce nello stato fornitura mostra che 48 unità dell'articolo P0002 sono mancanti per la cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="9ec61-118">The No entry icon in the supply status indicates that 48 ea of item P0002 are missing for the work cell.</span></span>  
+1. <span data-ttu-id="289f0-108">Andare a Controllo produzione > Kanban > Bacheca kanban per i processi di lavorazione.</span><span class="sxs-lookup"><span data-stu-id="289f0-108">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="289f0-109">Nel campo Cella di lavoro fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="289f0-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="289f0-110">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="289f0-110">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="289f0-111">Selezionare la cella di lavoro 1250.</span><span class="sxs-lookup"><span data-stu-id="289f0-111">Select work cell 1250.</span></span>  
+4. <span data-ttu-id="289f0-112">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="289f0-112">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="289f0-113">Selezionare Kanban 000356</span><span class="sxs-lookup"><span data-stu-id="289f0-113">Select Kanban 000356.</span></span>  
+5. <span data-ttu-id="289f0-114">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="289f0-114">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="289f0-115">Nell'elenco deselezionare la riga 4.</span><span class="sxs-lookup"><span data-stu-id="289f0-115">In the list, deselect row 4.</span></span> <span data-ttu-id="289f0-116">Selezionarla se non è stata completata l'attività "Preparare un processo kanban quando sono disponibili materiali".</span><span class="sxs-lookup"><span data-stu-id="289f0-116">or Select row 4 if you haven't completed the task "Prepare a process kanban job when materials are available."</span></span>  
+6. <span data-ttu-id="289f0-117">Attivare/disattivare l'espansione della sezione Distinta di prelievo.</span><span class="sxs-lookup"><span data-stu-id="289f0-117">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="289f0-118">L'icona che indica nessuna voce nello stato fornitura mostra che 48 unità dell'articolo P0002 sono mancanti per la cella di lavoro.</span><span class="sxs-lookup"><span data-stu-id="289f0-118">The No entry icon in the supply status indicates that 48 ea of item P0002 are missing for the work cell.</span></span>  
 
-## <a name="transfer-materials-to-work-cell"></a><span data-ttu-id="9ec61-119">Trasferire materiali nella cella di lavoro</span><span class="sxs-lookup"><span data-stu-id="9ec61-119">Transfer materials to work cell</span></span>
-1. <span data-ttu-id="9ec61-120">Attivare/disattivare l'espansione della sezione Processi di trasferimento.</span><span class="sxs-lookup"><span data-stu-id="9ec61-120">Toggle the expansion of the Transfer jobs section.</span></span>
-2. <span data-ttu-id="9ec61-121">Utilizzare il filtro rapido per filtrare il campo Numero articolo in base al valore "P0002".</span><span class="sxs-lookup"><span data-stu-id="9ec61-121">Use the Quick Filter to filter on the Item number field with a value of 'P0002'.</span></span>
-3. <span data-ttu-id="9ec61-122">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="9ec61-122">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="9ec61-123">Fare clic su Inizia.</span><span class="sxs-lookup"><span data-stu-id="9ec61-123">Click Start.</span></span>
-    * <span data-ttu-id="9ec61-124">Trasferimento in corso.</span><span class="sxs-lookup"><span data-stu-id="9ec61-124">Transfer is in progress.</span></span>  
-5. <span data-ttu-id="9ec61-125">Fare clic su Completa.</span><span class="sxs-lookup"><span data-stu-id="9ec61-125">Click Complete.</span></span>
-    * <span data-ttu-id="9ec61-126">L'articolo P0002 ora è disponibile nella distinta di prelievo per il processo kanban.</span><span class="sxs-lookup"><span data-stu-id="9ec61-126">Item P0002 is now available in the picking list for the kanban job.</span></span> <span data-ttu-id="9ec61-127">Ciò significa che è possibile preparare il processo kanban con tutti i materiali necessari.</span><span class="sxs-lookup"><span data-stu-id="9ec61-127">This means that we can prepare the kanban with all the needed materials.</span></span>  
-6. <span data-ttu-id="9ec61-128">Fare clic su Prepara.</span><span class="sxs-lookup"><span data-stu-id="9ec61-128">Click Prepare.</span></span>
-    * <span data-ttu-id="9ec61-129">Si noti che un'icona nello stato del processo indica che il processo ora è pronto.</span><span class="sxs-lookup"><span data-stu-id="9ec61-129">Notice that an icon in the Job status indicates that the job is now ready.</span></span>  
+## <a name="transfer-materials-to-work-cell"></a><span data-ttu-id="289f0-119">Trasferire materiali nella cella di lavoro</span><span class="sxs-lookup"><span data-stu-id="289f0-119">Transfer materials to work cell</span></span>
+1. <span data-ttu-id="289f0-120">Attivare/disattivare l'espansione della sezione Processi di trasferimento.</span><span class="sxs-lookup"><span data-stu-id="289f0-120">Toggle the expansion of the Transfer jobs section.</span></span>
+2. <span data-ttu-id="289f0-121">Utilizzare il filtro rapido per filtrare il campo Numero articolo in base al valore "P0002".</span><span class="sxs-lookup"><span data-stu-id="289f0-121">Use the Quick Filter to filter on the Item number field with a value of 'P0002'.</span></span>
+3. <span data-ttu-id="289f0-122">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="289f0-122">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="289f0-123">Fare clic su Inizia.</span><span class="sxs-lookup"><span data-stu-id="289f0-123">Click Start.</span></span>
+    * <span data-ttu-id="289f0-124">Trasferimento in corso.</span><span class="sxs-lookup"><span data-stu-id="289f0-124">Transfer is in progress.</span></span>  
+5. <span data-ttu-id="289f0-125">Fare clic su Completa.</span><span class="sxs-lookup"><span data-stu-id="289f0-125">Click Complete.</span></span>
+    * <span data-ttu-id="289f0-126">L'articolo P0002 ora è disponibile nella distinta di prelievo per il processo kanban.</span><span class="sxs-lookup"><span data-stu-id="289f0-126">Item P0002 is now available in the picking list for the kanban job.</span></span> <span data-ttu-id="289f0-127">Ciò significa che è possibile preparare il processo kanban con tutti i materiali necessari.</span><span class="sxs-lookup"><span data-stu-id="289f0-127">This means that we can prepare the kanban with all the needed materials.</span></span>  
+6. <span data-ttu-id="289f0-128">Fare clic su Prepara.</span><span class="sxs-lookup"><span data-stu-id="289f0-128">Click Prepare.</span></span>
+    * <span data-ttu-id="289f0-129">Si noti che un'icona nello stato del processo indica che il processo ora è pronto.</span><span class="sxs-lookup"><span data-stu-id="289f0-129">Notice that an icon in the Job status indicates that the job is now ready.</span></span>  
 
 
 

@@ -2,7 +2,6 @@
 title: Funzione ER COUNTIFS
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione COUNTIFS della creazione di report elettronici (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,66 +15,66 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bc0beb20f600afdea2d58187dd2a9c26a775ec1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 667002aa01537f846c616d38bba436da18f6e05f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561328"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755278"
 ---
-# <a name="countifs-er-function"></a><span data-ttu-id="c65d6-103">Funzione ER COUNTIFS</span><span class="sxs-lookup"><span data-stu-id="c65d6-103">COUNTIFS ER function</span></span>
+# <a name="countifs-er-function"></a><span data-ttu-id="34ed7-103">Funzione ER COUNTIFS</span><span class="sxs-lookup"><span data-stu-id="34ed7-103">COUNTIFS ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c65d6-104">La funzione `COUNTIFS` restituisce un valore *Intero* che rappresenta il numero di elementi di formato raccolti quando sono stati utilizzati per generare un documento in uscita durante l'esecuzione del formato e che soddisfano le condizioni specificate.</span><span class="sxs-lookup"><span data-stu-id="c65d6-104">The `COUNTIFS` function returns an *Integer* value that represents the number of format elements that was collected when the format elements were used to generate an outbound document during the format run, and that satisfies the specified conditions.</span></span> <span data-ttu-id="c65d6-105">Ogni condizione è costituita da un intervallo di chiavi e un valore chiave.</span><span class="sxs-lookup"><span data-stu-id="c65d6-105">Each condition consists of a key range and a key value.</span></span>
+<span data-ttu-id="34ed7-104">La funzione `COUNTIFS` restituisce un valore *Intero* che rappresenta il numero di elementi di formato raccolti quando sono stati utilizzati per generare un documento in uscita durante l'esecuzione del formato e che soddisfano le condizioni specificate.</span><span class="sxs-lookup"><span data-stu-id="34ed7-104">The `COUNTIFS` function returns an *Integer* value that represents the number of format elements that was collected when the format elements were used to generate an outbound document during the format run, and that satisfies the specified conditions.</span></span> <span data-ttu-id="34ed7-105">Ogni condizione è costituita da un intervallo di chiavi e un valore chiave.</span><span class="sxs-lookup"><span data-stu-id="34ed7-105">Each condition consists of a key range and a key value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c65d6-106">Sintassi</span><span class="sxs-lookup"><span data-stu-id="c65d6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="34ed7-106">Sintassi</span><span class="sxs-lookup"><span data-stu-id="34ed7-106">Syntax</span></span>
 
 ```vb
 COUNTIFS (condition 1 range, condition 1 value[, condition 2 range, condition 2 value, …, condition N range, condition N value])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="c65d6-107">Argomenti</span><span class="sxs-lookup"><span data-stu-id="c65d6-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="34ed7-107">Argomenti</span><span class="sxs-lookup"><span data-stu-id="34ed7-107">Arguments</span></span>
 
-<span data-ttu-id="c65d6-108">`condition 1 range`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="c65d6-108">`condition 1 range`: *String*</span></span>
+<span data-ttu-id="34ed7-108">`condition 1 range`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="34ed7-108">`condition 1 range`: *String*</span></span>
 
-<span data-ttu-id="c65d6-109">Un valore che viene restituito dall'espressione che è stata configurata nella proprietà **Nome chiave dati raccolti** di un componente di formato creazione di report elettronici (ER).</span><span class="sxs-lookup"><span data-stu-id="c65d6-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of an Electronic reporting (ER) format component.</span></span> <span data-ttu-id="c65d6-110">Questo argomento è obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="c65d6-110">This argument is mandatory.</span></span>
+<span data-ttu-id="34ed7-109">Un valore che viene restituito dall'espressione che è stata configurata nella proprietà **Nome chiave dati raccolti** di un componente di formato creazione di report elettronici (ER).</span><span class="sxs-lookup"><span data-stu-id="34ed7-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of an Electronic reporting (ER) format component.</span></span> <span data-ttu-id="34ed7-110">Questo argomento è obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="34ed7-110">This argument is mandatory.</span></span>
 
-<span data-ttu-id="c65d6-111">`condition 1 value`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="c65d6-111">`condition 1 value`: *String*</span></span>
+<span data-ttu-id="34ed7-111">`condition 1 value`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="34ed7-111">`condition 1 value`: *String*</span></span>
 
-<span data-ttu-id="c65d6-112">Un valore che viene restituito dall'espressione che è stata configurata nella proprietà **Valore chiave dati raccolti** di un componente del formato ER.</span><span class="sxs-lookup"><span data-stu-id="c65d6-112">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="c65d6-113">Questo argomento è obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="c65d6-113">This argument is mandatory.</span></span>
+<span data-ttu-id="34ed7-112">Un valore che viene restituito dall'espressione che è stata configurata nella proprietà **Valore chiave dati raccolti** di un componente del formato ER.</span><span class="sxs-lookup"><span data-stu-id="34ed7-112">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="34ed7-113">Questo argomento è obbligatorio.</span><span class="sxs-lookup"><span data-stu-id="34ed7-113">This argument is mandatory.</span></span>
 
-<span data-ttu-id="c65d6-114">`condition N range`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="c65d6-114">`condition N range`: *String*</span></span>
+<span data-ttu-id="34ed7-114">`condition N range`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="34ed7-114">`condition N range`: *String*</span></span>
 
-<span data-ttu-id="c65d6-115">Un valore che viene restituito dall'espressione che è stata configurata nella proprietà **Nome chiave dati raccolti** di un componente del formato ER.</span><span class="sxs-lookup"><span data-stu-id="c65d6-115">A value that is returned by the expression that has been configured in the **Collected data key name** property of an ER format component.</span></span> <span data-ttu-id="c65d6-116">Questi argomenti aggiuntivi sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="c65d6-116">These additional arguments are optional.</span></span>
+<span data-ttu-id="34ed7-115">Un valore che viene restituito dall'espressione che è stata configurata nella proprietà **Nome chiave dati raccolti** di un componente del formato ER.</span><span class="sxs-lookup"><span data-stu-id="34ed7-115">A value that is returned by the expression that has been configured in the **Collected data key name** property of an ER format component.</span></span> <span data-ttu-id="34ed7-116">Questi argomenti aggiuntivi sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="34ed7-116">These additional arguments are optional.</span></span>
 
-<span data-ttu-id="c65d6-117">`condition N value`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="c65d6-117">`condition N value`: *String*</span></span>
+<span data-ttu-id="34ed7-117">`condition N value`: *Stringa*</span><span class="sxs-lookup"><span data-stu-id="34ed7-117">`condition N value`: *String*</span></span>
 
-<span data-ttu-id="c65d6-118">Un valore che viene restituito dall'espressione che è stata configurata nella proprietà **Valore chiave dati raccolti** di un componente del formato ER.</span><span class="sxs-lookup"><span data-stu-id="c65d6-118">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="c65d6-119">Questi argomenti aggiuntivi sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="c65d6-119">These additional arguments are optional.</span></span>
+<span data-ttu-id="34ed7-118">Un valore che viene restituito dall'espressione che è stata configurata nella proprietà **Valore chiave dati raccolti** di un componente del formato ER.</span><span class="sxs-lookup"><span data-stu-id="34ed7-118">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="34ed7-119">Questi argomenti aggiuntivi sono facoltativi.</span><span class="sxs-lookup"><span data-stu-id="34ed7-119">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="c65d6-120">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="c65d6-120">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="34ed7-120">Valori restituiti</span><span class="sxs-lookup"><span data-stu-id="34ed7-120">Return values</span></span>
 
-<span data-ttu-id="c65d6-121">*Intero*</span><span class="sxs-lookup"><span data-stu-id="c65d6-121">*Integer*</span></span>
+<span data-ttu-id="34ed7-121">*Intero*</span><span class="sxs-lookup"><span data-stu-id="34ed7-121">*Integer*</span></span>
 
-<span data-ttu-id="c65d6-122">Il valore numerico risultante.</span><span class="sxs-lookup"><span data-stu-id="c65d6-122">The resulting numeric value.</span></span>
+<span data-ttu-id="34ed7-122">Il valore numerico risultante.</span><span class="sxs-lookup"><span data-stu-id="34ed7-122">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="c65d6-123">Note sull'utilizzo</span><span class="sxs-lookup"><span data-stu-id="c65d6-123">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="34ed7-123">Note sull'utilizzo</span><span class="sxs-lookup"><span data-stu-id="34ed7-123">Usage notes</span></span>
 
-<span data-ttu-id="c65d6-124">Le proprietà **Nome chiave dati raccolti** e **Valore chiave dei dati raccolti** possono essere configurate per entrambi i componenti **Sequenza** o **Elemento XML** di un formato ER che risiede nel componente **Common\\File** in cui è attivata l'opzione **Raccogli dettagli di output**.</span><span class="sxs-lookup"><span data-stu-id="c65d6-124">The **Collected data key name** and **Collected data key value** properties can be configured for either the **Sequence** component or the **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
+<span data-ttu-id="34ed7-124">Le proprietà **Nome chiave dati raccolti** e **Valore chiave dei dati raccolti** possono essere configurate per entrambi i componenti **Sequenza** o **Elemento XML** di un formato ER che risiede nel componente **Common\\File** in cui è attivata l'opzione **Raccogli dettagli di output**.</span><span class="sxs-lookup"><span data-stu-id="34ed7-124">The **Collected data key name** and **Collected data key value** properties can be configured for either the **Sequence** component or the **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
 
-<span data-ttu-id="c65d6-125">Questa funzione restituisce un valore **0** (zero) se l'opzione **Raccogli dettagli di output** del componente corrente **Common\\File** è disattivata.</span><span class="sxs-lookup"><span data-stu-id="c65d6-125">This function returns a **0** (zero) value when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
+<span data-ttu-id="34ed7-125">Questa funzione restituisce un valore **0** (zero) se l'opzione **Raccogli dettagli di output** del componente corrente **Common\\File** è disattivata.</span><span class="sxs-lookup"><span data-stu-id="34ed7-125">This function returns a **0** (zero) value when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
 
-<span data-ttu-id="c65d6-126">Negli argomenti `condition range`, il carattere jolly **"\*"** può essere usato per rappresentare più caratteri.</span><span class="sxs-lookup"><span data-stu-id="c65d6-126">In `condition range` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="34ed7-126">Negli argomenti `condition range`, il carattere jolly **"\*"** può essere usato per rappresentare più caratteri.</span><span class="sxs-lookup"><span data-stu-id="34ed7-126">In `condition range` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-<span data-ttu-id="c65d6-127">Negli argomenti `condition value`, il carattere jolly **"\*"** può essere usato per rappresentare più caratteri.</span><span class="sxs-lookup"><span data-stu-id="c65d6-127">In `condition value` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="34ed7-127">Negli argomenti `condition value`, il carattere jolly **"\*"** può essere usato per rappresentare più caratteri.</span><span class="sxs-lookup"><span data-stu-id="34ed7-127">In `condition value` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-## <a name="example"></a><span data-ttu-id="c65d6-128">Esempio</span><span class="sxs-lookup"><span data-stu-id="c65d6-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="34ed7-128">Esempio</span><span class="sxs-lookup"><span data-stu-id="34ed7-128">Example</span></span>
 
-<span data-ttu-id="c65d6-129">Per ulteriori informazioni sull'utilizzo di questa funzione, fare riferimento alla guida attività [ER Utilizzare i dati dell'output del formato per il conteggio e la somma](tasks/er-format-counting-summing-1.md) che è parte del processo aziendale **Acquisire/sviluppare componenti di soluzioni/servizi IT**.</span><span class="sxs-lookup"><span data-stu-id="c65d6-129">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
+<span data-ttu-id="34ed7-129">Per ulteriori informazioni sull'utilizzo di questa funzione, fare riferimento alla guida attività [ER Utilizzare i dati dell'output del formato per il conteggio e la somma](tasks/er-format-counting-summing-1.md) che è parte del processo aziendale **Acquisire/sviluppare componenti di soluzioni/servizi IT**.</span><span class="sxs-lookup"><span data-stu-id="34ed7-129">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c65d6-130">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="c65d6-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="34ed7-130">Risorse aggiuntive</span><span class="sxs-lookup"><span data-stu-id="34ed7-130">Additional resources</span></span>
 
-[<span data-ttu-id="c65d6-131">Funzioni raccolta dati</span><span class="sxs-lookup"><span data-stu-id="c65d6-131">Data collection functions</span></span>](er-functions-category-data-collection.md)
+[<span data-ttu-id="34ed7-131">Funzioni raccolta dati</span><span class="sxs-lookup"><span data-stu-id="34ed7-131">Data collection functions</span></span>](er-functions-category-data-collection.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

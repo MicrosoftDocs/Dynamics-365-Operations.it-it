@@ -1,49 +1,47 @@
 ---
 title: Inviare e approvare una revisione budget di progetto
 description: Questa procedura fornisce le informazioni per la revisione del budget di un progetto.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb17cffea70aefe117bdcdc727f807137bef1ee7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2934e0a46fd3f0c89f8e1240f5722e9409ca2796
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222875"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811136"
 ---
-# <a name="submit-and-approve-project-budget-revision"></a><span data-ttu-id="da5ce-103">Inviare e approvare una revisione budget di progetto</span><span class="sxs-lookup"><span data-stu-id="da5ce-103">Submit and approve project budget revision</span></span>
+# <a name="submit-and-approve-project-budget-revision"></a><span data-ttu-id="91d66-103">Inviare e approvare una revisione budget di progetto</span><span class="sxs-lookup"><span data-stu-id="91d66-103">Submit and approve project budget revision</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="da5ce-104">Questa procedura fornisce le informazioni per la revisione del budget di un progetto.</span><span class="sxs-lookup"><span data-stu-id="da5ce-104">This procedure provides information about revising a project budget.</span></span> <span data-ttu-id="da5ce-105">È possibile rivedere un budget del progetto un numero illimitato di volte, ma non è possibile visualizzare l'importo di una singola revisione se il budget è stato rivisto più volte.</span><span class="sxs-lookup"><span data-stu-id="da5ce-105">You can revise a project budget as many times as necessary, however you can't see the amount of an individual revision if the budget has been revised more than one time.</span></span> 
+<span data-ttu-id="91d66-104">Questa procedura fornisce le informazioni per la revisione del budget di un progetto.</span><span class="sxs-lookup"><span data-stu-id="91d66-104">This procedure provides information about revising a project budget.</span></span> <span data-ttu-id="91d66-105">È possibile rivedere un budget del progetto un numero illimitato di volte, ma non è possibile visualizzare l'importo di una singola revisione se il budget è stato rivisto più volte.</span><span class="sxs-lookup"><span data-stu-id="91d66-105">You can revise a project budget as many times as necessary, however you can't see the amount of an individual revision if the budget has been revised more than one time.</span></span> 
 
-<span data-ttu-id="da5ce-106">Questa attività utilizza il set di dati dimostrativi SSI.</span><span class="sxs-lookup"><span data-stu-id="da5ce-106">This task uses the SSI data set.</span></span>
+<span data-ttu-id="91d66-106">Questa attività utilizza il set di dati dimostrativi SSI.</span><span class="sxs-lookup"><span data-stu-id="91d66-106">This task uses the SSI data set.</span></span>
 
-1. <span data-ttu-id="da5ce-107">Passare a Gestione progetti e contabilità > Progetti > Tutti i progetti.</span><span class="sxs-lookup"><span data-stu-id="da5ce-107">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="da5ce-108">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="da5ce-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="da5ce-109">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="da5ce-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="da5ce-110">Nel riquadro azioni fare clic su Piano.</span><span class="sxs-lookup"><span data-stu-id="da5ce-110">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="da5ce-111">Fare clic su Budget progetto.</span><span class="sxs-lookup"><span data-stu-id="da5ce-111">Click Project budget.</span></span>
-6. <span data-ttu-id="da5ce-112">Fare clic su Nuova revisione.</span><span class="sxs-lookup"><span data-stu-id="da5ce-112">Click New revision.</span></span>
-7. <span data-ttu-id="da5ce-113">Espandere la sezione Costi.</span><span class="sxs-lookup"><span data-stu-id="da5ce-113">Expand the Costs section.</span></span>
-8. <span data-ttu-id="da5ce-114">Immettere un numero nel campo Importo revisione.</span><span class="sxs-lookup"><span data-stu-id="da5ce-114">In the Revision amount field, enter a number.</span></span>
-9. <span data-ttu-id="da5ce-115">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="da5ce-115">Click Save.</span></span>
-10. <span data-ttu-id="da5ce-116">Fare clic su Flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="da5ce-116">Click Workflow.</span></span>
-11. <span data-ttu-id="da5ce-117">Fare clic su Invia.</span><span class="sxs-lookup"><span data-stu-id="da5ce-117">Click Submit.</span></span>
-12. <span data-ttu-id="da5ce-118">Digitare un valore nel campo Commento.</span><span class="sxs-lookup"><span data-stu-id="da5ce-118">In the Comment field, type a value.</span></span>
-13. <span data-ttu-id="da5ce-119">Fare clic su Invia.</span><span class="sxs-lookup"><span data-stu-id="da5ce-119">Click Submit.</span></span>
+1. <span data-ttu-id="91d66-107">Passare a Gestione progetti e contabilità > Progetti > Tutti i progetti.</span><span class="sxs-lookup"><span data-stu-id="91d66-107">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="91d66-108">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="91d66-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="91d66-109">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="91d66-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="91d66-110">Nel riquadro azioni fare clic su Piano.</span><span class="sxs-lookup"><span data-stu-id="91d66-110">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="91d66-111">Fare clic su Budget progetto.</span><span class="sxs-lookup"><span data-stu-id="91d66-111">Click Project budget.</span></span>
+6. <span data-ttu-id="91d66-112">Fare clic su Nuova revisione.</span><span class="sxs-lookup"><span data-stu-id="91d66-112">Click New revision.</span></span>
+7. <span data-ttu-id="91d66-113">Espandere la sezione Costi.</span><span class="sxs-lookup"><span data-stu-id="91d66-113">Expand the Costs section.</span></span>
+8. <span data-ttu-id="91d66-114">Immettere un numero nel campo Importo revisione.</span><span class="sxs-lookup"><span data-stu-id="91d66-114">In the Revision amount field, enter a number.</span></span>
+9. <span data-ttu-id="91d66-115">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="91d66-115">Click Save.</span></span>
+10. <span data-ttu-id="91d66-116">Fare clic su Flusso di lavoro.</span><span class="sxs-lookup"><span data-stu-id="91d66-116">Click Workflow.</span></span>
+11. <span data-ttu-id="91d66-117">Fare clic su Invia.</span><span class="sxs-lookup"><span data-stu-id="91d66-117">Click Submit.</span></span>
+12. <span data-ttu-id="91d66-118">Digitare un valore nel campo Commento.</span><span class="sxs-lookup"><span data-stu-id="91d66-118">In the Comment field, type a value.</span></span>
+13. <span data-ttu-id="91d66-119">Fare clic su Invia.</span><span class="sxs-lookup"><span data-stu-id="91d66-119">Click Submit.</span></span>
 
 
 
