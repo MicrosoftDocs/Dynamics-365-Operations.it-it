@@ -2,11 +2,9 @@
 title: Assegnare uno stato del ciclo di vita prodotto a una rappresentazione generale prodotto rilasciato
 description: In questa procedura viene illustrato come assegnare uno stato del ciclo di vita del prodotto a una rappresentazione generale prodotto rilasciato e alle varianti.
 author: cvocph
-manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,44 +12,44 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a5d7f6532e3c0b61fcc5758f383257d4a9a09b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 66859c7f7f5be6eaadd9470fd9b792daa28ce33d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226739"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807890"
 ---
-# <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="a5a55-103">Assegnare uno stato del ciclo di vita prodotto a una rappresentazione generale prodotto rilasciato</span><span class="sxs-lookup"><span data-stu-id="a5a55-103">Assign a product lifecycle state to a released product master</span></span>
+# <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="e8d20-103">Assegnare uno stato del ciclo di vita prodotto a una rappresentazione generale prodotto rilasciato</span><span class="sxs-lookup"><span data-stu-id="e8d20-103">Assign a product lifecycle state to a released product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a5a55-104">In questa procedura viene illustrato come assegnare uno stato del ciclo di vita del prodotto a una rappresentazione generale prodotto rilasciato e alle varianti.</span><span class="sxs-lookup"><span data-stu-id="a5a55-104">This procedure shows how to assign a product lifecycle state to a released product master and its variants.</span></span> <span data-ttu-id="a5a55-105">Prerequisito: è necessario esegure la guida di attività "Creare un nuovo stato del ciclo di vita prodotto" per verificare di avere creato almeno uno stato del ciclo di vita del prodotto prima di poter eseguire la guida attività.</span><span class="sxs-lookup"><span data-stu-id="a5a55-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that you have at least one product lifecycle state created before you can play this task guide.</span></span>
+<span data-ttu-id="e8d20-104">In questa procedura viene illustrato come assegnare uno stato del ciclo di vita del prodotto a una rappresentazione generale prodotto rilasciato e alle varianti.</span><span class="sxs-lookup"><span data-stu-id="e8d20-104">This procedure shows how to assign a product lifecycle state to a released product master and its variants.</span></span> <span data-ttu-id="e8d20-105">Prerequisito: è necessario esegure la guida di attività "Creare un nuovo stato del ciclo di vita prodotto" per verificare di avere creato almeno uno stato del ciclo di vita del prodotto prima di poter eseguire la guida attività.</span><span class="sxs-lookup"><span data-stu-id="e8d20-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that you have at least one product lifecycle state created before you can play this task guide.</span></span>
 
 
-## <a name="find-a-released-product-master"></a><span data-ttu-id="a5a55-106">Trovare una rappresentazione generale prodotto rilasciata</span><span class="sxs-lookup"><span data-stu-id="a5a55-106">Find a released product master</span></span>
-1. <span data-ttu-id="a5a55-107">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="a5a55-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="a5a55-108">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="a5a55-108">In the list, find and select the desired record.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="a5a55-109">Una rappresentazione generale prodotto include la rappresentazione generale del prodotto.</span><span class="sxs-lookup"><span data-stu-id="a5a55-109">A product master has the Product subtype Product master.</span></span>  
-
-## <a name="update-the-lifecycle-state"></a><span data-ttu-id="a5a55-110">Aggiornare lo stato del ciclo di vita</span><span class="sxs-lookup"><span data-stu-id="a5a55-110">Update the lifecycle state</span></span>
-1. <span data-ttu-id="a5a55-111">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="a5a55-111">Click Edit.</span></span>
-2. <span data-ttu-id="a5a55-112">Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="a5a55-112">In the Product lifecycle state field, enter or select a value.</span></span>
-3. <span data-ttu-id="a5a55-113">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="a5a55-113">Click Save.</span></span>
-4. <span data-ttu-id="a5a55-114">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="a5a55-114">Click Yes.</span></span>
+## <a name="find-a-released-product-master"></a><span data-ttu-id="e8d20-106">Trovare una rappresentazione generale prodotto rilasciata</span><span class="sxs-lookup"><span data-stu-id="e8d20-106">Find a released product master</span></span>
+1. <span data-ttu-id="e8d20-107">Fare clic su Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="e8d20-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="e8d20-108">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="e8d20-108">In the list, find and select the desired record.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a5a55-115">Se è stato selezionato Sì, tutte le varianti prodotto rilasciate correlati con lo stesso stato originale della rappresentazione generale prodotto rilasciata verranno aggiornate sullo stato del ciclo di vita di prodotti.</span><span class="sxs-lookup"><span data-stu-id="a5a55-115">If Yes is selected, all the related released product variants that have the same original status as the released product master are also updated to the new product lifecycle state.</span></span> <span data-ttu-id="a5a55-116">Se è stato selezionato No, tutte le varianti mantengono lo stato corrente.</span><span class="sxs-lookup"><span data-stu-id="a5a55-116">If No is selected, all variants keep their actual state.</span></span> <span data-ttu-id="a5a55-117">Le varianti con uno stato del ciclo di vita del prodotto diverso dalla rappresentazione generale prodotto rilasciato non vengono aggiornate.</span><span class="sxs-lookup"><span data-stu-id="a5a55-117">Variants that have a different product lifecycle state from the released product master are not updated.</span></span>  
+> <span data-ttu-id="e8d20-109">Una rappresentazione generale prodotto include la rappresentazione generale del prodotto.</span><span class="sxs-lookup"><span data-stu-id="e8d20-109">A product master has the Product subtype Product master.</span></span>  
 
-## <a name="verify-the-lifecycle-state-of-the-variants"></a><span data-ttu-id="a5a55-118">Verificare lo stato del ciclo di vita delle varianti</span><span class="sxs-lookup"><span data-stu-id="a5a55-118">Verify the lifecycle state of the variants</span></span>
-1. <span data-ttu-id="a5a55-119">Fare clic su Varianti prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="a5a55-119">Click Released product variants.</span></span>
+## <a name="update-the-lifecycle-state"></a><span data-ttu-id="e8d20-110">Aggiornare lo stato del ciclo di vita</span><span class="sxs-lookup"><span data-stu-id="e8d20-110">Update the lifecycle state</span></span>
+1. <span data-ttu-id="e8d20-111">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="e8d20-111">Click Edit.</span></span>
+2. <span data-ttu-id="e8d20-112">Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="e8d20-112">In the Product lifecycle state field, enter or select a value.</span></span>
+3. <span data-ttu-id="e8d20-113">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="e8d20-113">Click Save.</span></span>
+4. <span data-ttu-id="e8d20-114">Fare clic su Sì.</span><span class="sxs-lookup"><span data-stu-id="e8d20-114">Click Yes.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a5a55-120">Tenere presente che tutte le varianti hanno ereditato lo stato selezionato del ciclo di vita della rappresentazione generale prodotto rilasciato.</span><span class="sxs-lookup"><span data-stu-id="a5a55-120">Note that all variants have inherited the selected lifecycle state from the released product master.</span></span>  
+> <span data-ttu-id="e8d20-115">Se è stato selezionato Sì, tutte le varianti prodotto rilasciate correlati con lo stesso stato originale della rappresentazione generale prodotto rilasciata verranno aggiornate sullo stato del ciclo di vita di prodotti.</span><span class="sxs-lookup"><span data-stu-id="e8d20-115">If Yes is selected, all the related released product variants that have the same original status as the released product master are also updated to the new product lifecycle state.</span></span> <span data-ttu-id="e8d20-116">Se è stato selezionato No, tutte le varianti mantengono lo stato corrente.</span><span class="sxs-lookup"><span data-stu-id="e8d20-116">If No is selected, all variants keep their actual state.</span></span> <span data-ttu-id="e8d20-117">Le varianti con uno stato del ciclo di vita del prodotto diverso dalla rappresentazione generale prodotto rilasciato non vengono aggiornate.</span><span class="sxs-lookup"><span data-stu-id="e8d20-117">Variants that have a different product lifecycle state from the released product master are not updated.</span></span>  
 
-2. <span data-ttu-id="a5a55-121">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="a5a55-121">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="a5a55-122">Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="a5a55-122">In the Product lifecycle state field, enter or select a value.</span></span>
+## <a name="verify-the-lifecycle-state-of-the-variants"></a><span data-ttu-id="e8d20-118">Verificare lo stato del ciclo di vita delle varianti</span><span class="sxs-lookup"><span data-stu-id="e8d20-118">Verify the lifecycle state of the variants</span></span>
+1. <span data-ttu-id="e8d20-119">Fare clic su Varianti prodotti rilasciati.</span><span class="sxs-lookup"><span data-stu-id="e8d20-119">Click Released product variants.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="e8d20-120">Tenere presente che tutte le varianti hanno ereditato lo stato selezionato del ciclo di vita della rappresentazione generale prodotto rilasciato.</span><span class="sxs-lookup"><span data-stu-id="e8d20-120">Note that all variants have inherited the selected lifecycle state from the released product master.</span></span>  
+
+2. <span data-ttu-id="e8d20-121">Nell'elenco contrassegnare la riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="e8d20-121">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="e8d20-122">Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="e8d20-122">In the Product lifecycle state field, enter or select a value.</span></span>
 
 
 
