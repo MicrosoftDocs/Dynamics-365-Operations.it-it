@@ -2,11 +2,9 @@
 title: Creare un account di Archiviazione di Azure e un Azure Key Vault
 description: Questo argomento spiega come creare un account di Archiviazione di Azure e Azure Key Vault.
 author: gionoder
-manager: AnnBe
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
-ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
+ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2021
-ms.locfileid: "5479347"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840222"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Creare un account di Archiviazione di Azure e un Azure Key Vault
 
@@ -44,7 +42,7 @@ In questo argomento, completerai due passaggi principali:
 
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>Configurare l'account di Archiviazione di Azure per ottenere l'URI dell'account di archiviazione
 
-1. Apri l'account di archiviazione che intendi utilizzare con il componente aggiuntivo per la fatturazione elettronica.
+1. Apri l'account di archiviazione che intendi utilizzare con la fatturazione elettronica.
 2. Vai a **Servizio BLOB** \> **Contenitori** e crea un nuovo contenitore.
 3. Immetti un nome per il contenitore e imposta il campo **Livello di accesso pubblico** su **Privato (nessun accesso anonimo)**.
 4. Apri il contenitore e vai a **Impostazioni \> Criteri di accesso**.
@@ -63,12 +61,12 @@ In questo argomento, completerai due passaggi principali:
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Configurare Azure Key Vault per archiviare l'URI dell'account di archiviazione
 
-1. Apri l'Azure Key Vault che intendi utilizzare con il componente aggiuntivo per la fatturazione elettronica.
+1. Apri l'Azure Key Vault che intendi utilizzare con la fatturazione elettronica.
 2. Vai a **Impostazioni** \> **Segreti**, quindi seleziona **Genera/Importa** per creare un nuovo segreto.
 3. Nella pagina **Crea un segreto**, nel campo **Opzioni di caricamento**, seleziona **Manuale**.
 4. Immettere il nome del segreto. Questo nome verrà utilizzato durante la configurazione del servizio in Regulatory Configuration Service (RCS) e verrà indicato come *nome segreto di Azure Key Vault*.
 5. Nel campo **Valore**, seleziona **URI della firma di accesso condiviso** e quindi seleziona **Crea**.
-6. Configura i criteri di accesso per concedere al componente aggiuntivo per la fatturazione elettronica il livello corretto di accesso protetto al segreto creato. Vai a **Impostazioni \> Criteri di accesso** e seleziona **Aggiungi criteri di accesso**.
+6. Configura i criteri di accesso per concedere alla fatturazione elettronica il livello corretto di accesso protetto al segreto creato. Vai a **Impostazioni \> Criteri di accesso** e seleziona **Aggiungi criteri di accesso**.
 7. Imposta le autorizzazioni segrete per le operazioni **Ottieni** ed **Elenco**.
 
     ![Concessione dell'accesso al servizio](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)

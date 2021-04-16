@@ -2,11 +2,9 @@
 title: Importare tassi di cambio valutari
 description: In questo argomento vengono fornite informazioni sui requisiti per l'importazione di tassi di cambio estero di riferimento pubblicati dai fornitori di tassi di cambio.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249121"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823742"
 ---
 # <a name="import-currency-exchange-rates"></a>Importare tassi di cambio valutari
 
@@ -35,9 +33,8 @@ Nelle sezioni seguenti viene descritto il flusso di informazioni utilizzato per 
 ## <a name="configure-an-exchange-rate-provider"></a>Configurare un provider di tassi di cambio
 Prima di poter importare i tassi di cambio, è necessario impostare le informazioni richieste dai provider di tassi di cambio. Utilizzare la pagina **Configura provider di tassi di cambio** per selezionare i provider di tassi di cambio. Alcuni provider di tassi di cambio sono inclusi nei dati dimostrativi in Dynamics 365 Finance. Nella tabella riportata di seguito sono incluse le descrizioni relative ai controlli presenti nella pagina.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Campo** | **Descrizione**                                                                                                                                                                                                             |
+| Campo | descrizione                   |
+|-----------|-----------------------------------|
 | **Nome**  | Nome del provider di tassi di cambio.                                                                                                                                                                                     |
 | **Chiave**   | Identificatore univoco per ogni informazione di configurazione richiesta dal provider. Queste informazioni vengono aggiunte automaticamente per ciascun fornitore del tasso di cambio aggiunto. |
 | **Value** | Informazioni per ogni chiave. Queste informazioni vengono aggiunte per ciascun fornitore del tasso di cambio aggiunto.                                                                                         |
@@ -45,9 +42,8 @@ Prima di poter importare i tassi di cambio, è necessario impostare le informazi
 ## <a name="import-currency-exchange-rates"></a>Importare tassi di cambio valutari
 È possibile importare i tassi di cambio dall'origine dei provider di tassi di cambio e aggiungerli alla pagina **Tassi di cambio valutario**. Utilizzare la pagina **Importa tassi di cambio valutari** per importare i tassi di cambio. Nella tabella seguente vengono descritti i campi necessari per completare correttamente il processo di importazione.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Campo**                              | **Descrizione**                                                                                                                                                                                                                                                                                                                                                             |
+| Campo | descrizione                   |
+|-----------|-----------------------------------|
 | **Tipo di tasso di cambio**                 | Tipo di tasso di cambio.                                                                                                                                                                                                                                                                                                                                                      |
 | **Provider di tassi di cambio**             | Provider di tassi di cambio.                                                                                                                                                                                                                                                                                                                                                  |
 | **Data di inizio importazione**                       | Questo parametro determina se eseguire l'importazione alla data corrente o in base a un intervallo di date specifico. Se si desidera utilizzare un intervallo di date, immettere o selezionare le date di inizio e fine.                                                                                                                                                                                                                |

@@ -2,11 +2,9 @@
 title: Comunicazione annuale imposte
 description: Questo argomento fornisce informazioni sul report di comunicazione annuale delle imposte in Italia.
 author: anasyash
-manager: AnnBe
 ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a673d283cdfbf386482cd7b17a1403ded7c61f2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1e1920ecc01d3057d6a5c22c7dd239a59254b546
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230184"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826481"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
