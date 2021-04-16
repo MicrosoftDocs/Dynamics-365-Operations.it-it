@@ -2,11 +2,9 @@
 title: Stoccaggio a parete - stoccaggio in magazzino
 description: Questo argomento fornisce informazioni sulla funzionalità Stoccaggio a parete - stoccaggio in magazzino. Questa funzionalità consente di gestire scenari in cui è necessario consolidare un prodotto in un'area di gestione temporanea di preimballaggio, in base a criteri configurabili. Aiuta a ridurre i tempi di prelievo perché consente di prelevare una singola targa di destinazione singola e può utilizzare più posizioni di stoccaggio rispetto a un prelievo cluster.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228515"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823289"
 ---
 # <a name="put-to-wall---put-to-store"></a>Stoccaggio a parete - stoccaggio in magazzino
 
@@ -524,7 +522,7 @@ Ora che tutte le scorte sono state stoccate nella posizione di ordinamento, devo
 
 Se le posizioni di ordinamento devono essere chiuse manualmente, l'opzione **Chiudi automaticamente posizione ordinamento** per il modello di ordinamento in uscita deve essere impostata su *No* e la chiusura deve essere eseguita prima che le scorte possano essere spostate nell'area Portellone. Le posizioni possono essere chiuse in vari modi:
 
-- Via l'app di magazzino:
+- Con l'app per dispositivi mobili Gestione magazzino:
 
     - L'utente può eseguire la scansione di uno degli articoli già presenti nella posizione e quindi selezionare **Chiudi** per chiudere la posizione.
     - Se l'utente esegue la scansione di un contenitore che è già stato ordinato, viene visualizzato un messaggio di errore. Tuttavia, l'utente può comunque continuare a chiudere la posizione.

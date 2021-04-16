@@ -1,27 +1,26 @@
 ---
 title: Definizioni di albero gerarchico nei report finanziari
 description: Questo articolo descrive le definizioni dell'albero gerarchico. Una definizione dell'albero gerarchico è un componente del report che definisce la struttura di un'organizzazione.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568777"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819940"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definizioni di albero gerarchico nei report finanziari
 
@@ -74,7 +73,7 @@ Completare i passaggi seguenti per creare una definizione di albero gerarchico:
     | Includi/Posizione caratteri       | Questa sezione elenca le dimensioni definite nei dati finanziari e mostra il numero di caratteri nel valore più lungo definito per ogni dimensione. Selezionare la casella di controllo di una dimensione per includere la dimensione nella gerarchia dell'albero gerarchico. |
     | Gerarchia e intervalli di segmenti     | Questa sezione mostra la gerarchia di dimensioni. È possibile spostare le dimensioni nell'elenco per modificare il relativo ordine gerarchico. Nei campi **Da dimensione** e **A dimensione** è possibile specificare un intervallo di valori all'interno di ciascuna dimensione. Se non si specifica un intervallo, tutti i valori di dimensione vengono inseriti nell'albero gerarchico.<blockquote>[!NOTE] Se si utilizza più di una dimensione, nei risultati verranno restituite solo combinazioni di dimensioni registrate.</blockquote> |
 
-    Per una schermata che mostra un esempio della finestra di dialogo **Inserisci unità gerarchiche da dimensioni**, vedere la sezione "Esempio della finestra di dialogo Inserisci unità gerarchiche da dimensioni" più avanti in questo articolo.
+    Per una figura che mostra un esempio della finestra di dialogo **Inserisci unità gerarchiche da dimensioni**, vedi la sezione "Esempio della finestra di dialogo Inserisci unità gerarchiche da dimensioni" più avanti in questo articolo.
 
 5. Per creare segmenti aggiuntivi, ad esempio dividendo un segmento in due più brevi segmenti, fare clic sulla posizione corretta nel campo **Posizione caratteri** quindi fare clic su **Dividi segmenti**.
 6. Per unire due segmenti in un segmento, fare clic in uno dei due riquadri di segmenti da unire e quindi fare clic su **Combina segmenti**.
@@ -186,23 +185,23 @@ Ecco la struttura delle unità gerarchiche nel seguente albero gerarchico:
 - Le unità gerarchiche di dettaglio di livello inferiore (Home Sales, Auto Sales, Client Services e Operations) rappresentano reparti nei dati finanziari. Queste unità gerarchiche sono nell'area ombreggiata del diagramma.
 - Le unità di riepilogo di livello superiore riepilogano le informazioni dalle unità di dettaglio.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Struttura del report di riepilogo Contoso - Esempio 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Struttura di unità gerarchiche - Esempio 2
 
 Nel seguente diagramma viene illustrato un albero gerarchico che ha una struttura organizzativa che viene suddivisa per funzione aziendale.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Struttura del report di riepilogo Contoso - Esempio 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Esempio della finestra di dialogo Inserisci unità gerarchiche da dimensioni
 
 L'illustrazione seguente mostra un esempio della finestra di dialogo **Inserisci unità gerarchiche da dimensioni**. Per questo esempio, i risultati restituiranno la combinazione di business unit, centri di costo e reparti.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Inserisci unità gerarchiche](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 La definizione di albero gerarchico risultante è ordinata per business unit, quindi per centro di costo e poi per reparto. La dimensione per la quinta unità gerarchica è **Business Unit = \[001\], Cost Center =\[\], Department = \[022\]** e identifica un'unità gerarchica per i conti che sono specifici per la business unit 001 e il reparto 022.
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Illustrazione dell'albero gerarchico](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Esempi di rollup dei dati
 
@@ -210,11 +209,11 @@ Negli esempi seguenti vengonoi mostrate le informazioni possibili utilizzate in 
 
 #### <a name="example-1"></a>Esempio 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Rollup con più società](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Esempio 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Rollup del reparto interaziendale](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

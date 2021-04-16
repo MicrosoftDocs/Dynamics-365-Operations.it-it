@@ -2,11 +2,9 @@
 title: Impostare i materiali pericolosi
 description: Questo argomento spiega come impostare i dati necessari per classificare gli articoli come materiali pericolosi. Quando crei un ordine cliente che include un articolo classificato come materiale pericoloso, il sistema genera la documentazione relativa ai materiali pericolosi per l'ordine cliente quando viene spedito.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0f0b706568048480cf5bf85cfcb4388666432212
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cf323272926936ba6397a9f98cfff8d8a31d091
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266105"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820348"
 ---
 # <a name="set-up-hazardous-materials"></a>Impostare i materiali pericolosi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Per utilizzare la funzionalità relativa ai materiali pericolosi, è necessario prima impostare i dati necessari per classificare gli articoli come materiali pericolosi. Pertanto quando crei un ordine cliente che include un articolo classificato come materiale pericoloso, il sistema genera la documentazione relativa ai materiali pericolosi per l'ordine cliente quando viene spedito.
 

@@ -2,11 +2,9 @@
 title: Report Modello 770
 description: In questo argomento vengono fornite informazioni sul Modello 770 per l'Italia.
 author: ilkond
-manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Taxreport770Table_IT
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cddad5e9b68accc6d95289b4cc04f29b5889e90a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 45627075930f570e421846880947e63a784c3f28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252139"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814916"
 ---
 # <a name="modello-770-report"></a>Report Modello 770
 

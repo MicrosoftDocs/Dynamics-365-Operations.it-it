@@ -2,11 +2,9 @@
 title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.15 (gennaio 2021)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.15.
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258901"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821155"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.15 (gennaio 2021)
 
@@ -35,7 +33,7 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa versione include le seguenti funzionalità. Alcune delle funzionalità elencate sono ancora in anteprima, mentre altre potrebbero essere già generalmente disponibili. Seguire i collegamenti del [piano di rilascio](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
+Questa versione include le seguenti funzionalità. Seguire i collegamenti del [piano di rilascio](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
 
 - Gestione delle unità di scala cloud ed edge con carichi di lavoro di esecuzione di produzione e magazzino<br> - Per ulteriori informazioni, vedere [Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino](../cloud-edge/cloud-edge-landing-page.md).
 

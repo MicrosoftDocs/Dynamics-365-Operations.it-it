@@ -2,11 +2,9 @@
 title: Richieste di informazioni e report sui materiali pericolosi
 description: Questo argomento spiega come lavorare con i vari report relativi ai materiali pericolosi. Molti di questi report sono necessari per mantenere la conformità con le varie normative sui materiali pericolosi durante la spedizione e lo stoccaggio.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: cee824e9e8f7577d1d4a6c0a21c7341608e1f588
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243131"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820324"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Richieste di informazioni e report sui materiali pericolosi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management fornisce vari report relativi ai materiali pericolosi. Molti di questi report sono necessari per mantenere la conformità con le varie normative sui materiali pericolosi durante la spedizione e lo stoccaggio.
 

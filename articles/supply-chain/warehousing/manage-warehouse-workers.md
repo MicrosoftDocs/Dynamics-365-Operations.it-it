@@ -1,12 +1,10 @@
 ---
 title: Gestione degli addetti magazzino
-description: In questo articolo viene descritto come utilizzare l'app di magazzino per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
+description: In questo articolo viene descritto come utilizzare l'app per dispositivi mobili Gestione magazzino per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216837"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818970"
 ---
 # <a name="manage-warehouse-workers"></a>Gestione degli addetti magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene descritto come utilizzare l'app di magazzino per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
+In questo articolo viene descritto come utilizzare l'app per dispositivi mobili Gestione magazzino per agevolare il controllo e il monitoraggio del lavoro svolto dai dipendenti nei magazzini.
 
 Se si utilizza la funzionalità di gestione magazzino, tutte le operazioni del lavoratore di magazzino sono indicate come *lavoro*. Ad esempio il lavoro di prelievo, spostamento e conteggio delle scorte disponibili viene registrato utilizzando i dispositivi mobili. Prima che un lavoratore di magazzino possa completare il lavoro, deve essere associato a un lavoratore nelle Risorse umane. Ogni account **lavoratore** può avere più utenti di lavoro di magazzino associati. Tali utenti di lavoro possono lavorare in magazzini diversi e possono avere diversi livelli di accesso a vari menu del dispositivo mobile. È possibile pensare agli utenti di lavoro di magazzino come a diversi accessi per il lavoratore selezionato. A ogni utente di lavoro è associato un magazzino predefinito e i flussi di lavoro specifici sono esposti dalle voci di menu disponibili per tale utente di lavoro. 
 

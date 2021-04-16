@@ -2,11 +2,9 @@
 title: Libri IVA italiani
 description: Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, LedgerJournalSetup, ProjJournalName, TaxBook, TaxBookSection, TaxBookSectionLookupVoucherSeries, TaxBookStatus, TaxBookTable, VendParameters, LedgerParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e24e75a201a84bc3fce5e41583d435309a64dbff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953de67ced3a55faefaae8b50665182314697eb3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236286"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814918"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 

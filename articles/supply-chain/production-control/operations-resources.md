@@ -2,11 +2,9 @@
 title: Risorse Operations
 description: Le risorse operative eseguono le attività di un progetto o di un processo di produzione. Possono essere di diversi tipi e possono avere capacità diverse.
 author: sorenva
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability, WrkCtrResourceGroup, WrkCtrResourceAbilityMap, OpResCapacityPlanningWorkspace, WrkCtrCapResGraph, WrkCtrResourceRequirementPart, WrkCtrCapResGraphDialog, WrkCtrResourceCopy, WrkCtrCapResStatistic
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 890645e28830d9d53296c4a2530ed1072f9d47e3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 57495de069a11f2ab41c20d17cfbe87df276ef47
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260433"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817895"
 ---
 # <a name="operations-resources"></a>Risorse Operations
 

@@ -2,11 +2,9 @@
 title: Report block list italiano
 description: Informazioni su come impostare e gestire il report black list italiano.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BlackListTable_IT, IntrastatParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ca9a9145ebbead6b7dbaeeeb95a6fd5e4c5f4a8c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 26738ccb89aa70761021eb787aa738ae76e5e60a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212930"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814958"
 ---
 # <a name="italian-black-list-report"></a>Report block list italiano
 

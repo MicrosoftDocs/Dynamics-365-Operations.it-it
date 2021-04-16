@@ -2,11 +2,9 @@
 title: 'Assegni fornitore di esempio per la creazione di report elettronici '
 description: In questo argomento sono riportate le informazioni generali sull'utilizzo dei formati di assegni di esempio per la creazione di report elettronici.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 72581a6d852fe6eb5b4ad894027c1f5a3b5363e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a48a20939b346b2d8536128107a730761b13f71c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250604"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820715"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Assegni fornitore di esempio per la creazione di report elettronici 
 

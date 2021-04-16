@@ -2,11 +2,9 @@
 title: Rivalutazione valuta per la contabilità fornitori e la contabilità clienti
 description: Le fluttuazioni nei tassi di cambio causano la variazione nel tempo del valore teorico (contabile) delle transazioni aperte in valuta estera. Questo articolo fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a95e446184b48be6d48347155ce14554602accbe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254013"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815910"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Rivalutazione valuta per la contabilità fornitori e la contabilità clienti
 

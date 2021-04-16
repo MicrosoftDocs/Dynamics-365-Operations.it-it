@@ -2,7 +2,6 @@
 title: Elaborazione merci in transito
 description: In questo argomento viene descritto come utilizzare gli ordini merci in transito. Quando un ordine o un viaggio viene configurato per utilizzare l'elaborazione merci in transito, le merci possono essere fatturate prima di essere ricevute nel magazzino per l'utilizzo.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500406"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823411"
 ---
 # <a name="goods-in-transit-processing"></a>Elaborazione merci in transito
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento viene descritto come utilizzare gli ordini merci in transito. Questo tipo di ordine viene utilizzato solo nel modulo **Costo sbarcato**. Quando un ordine o un viaggio viene configurato per utilizzare l'elaborazione merci in transito, non è necessario attendere il ricevimento delle merci per fatturarle. Le merci vengono invece fatturate quando lasciano il magazzino o il porto di origine del fornitore e i costi finanziari vengono riconosciuti quando ha inizio il viaggio. Questa funzionalità consente di assumere correttamente la proprietà delle merci in quanto queste spesso diventano di proprietà della propria organizzazione quando lasciano il porto di spedizione.
 
@@ -135,7 +133,7 @@ Costo sbarcato aggiunge i seguenti processi di creazione di lavoro alle voci di 
 
 Le impostazioni di configurazione per questi processi sono simili alle impostazioni per i [processi di creazione lavoro: ricevimento e stoccaggio ordine fornitore](https://technet.microsoft.com/library/dn553216.aspx). Tuttavia, il processo *Ricevimento e stoccaggio articoli merci in transito* aggiunge anche il seguente campo.
 
-- **Abilita contenitore di spedizione completo** - Se questa opzione è impostata su *Sì*, quando il lavoro di stoccaggio è completato, l'app di magazzino fornirà un'opzione aggiuntiva denominata **Contenitore di spedizione completo**. Quando questa opzione è selezionata, al lavoratore verrà chiesto di confermare che il contenitore è completo. A quel punto, tutte le entrate incomplete verranno elaborate come transazione in difetto.
+- **Abilita contenitore di spedizione completo** - Se questa opzione è impostata su *Sì*, quando il lavoro di stoccaggio è completato, l'app per dispositivi mobili Gestione magazzino fornirà un'opzione aggiuntiva denominata **Contenitore di spedizione completo**. Quando questa opzione è selezionata, al lavoratore verrà chiesto di confermare che il contenitore è completo. A quel punto, tutte le entrate incomplete verranno elaborate come transazione in difetto.
 
 ### <a name="location-directives"></a>Direttive ubicazione
 

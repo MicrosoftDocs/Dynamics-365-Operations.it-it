@@ -2,11 +2,9 @@
 title: Sconti fornitore
 description: Questo argomento fornisce una panoramica della maggior parte delle attività comuni che si potrebbero eseguire quando si utilizzano gli sconti fornitore. Gli sconti fornitore consentono alle società di gestire meglio i relativi programmi sconti fornitore automatizzando le attività necessarie per amministrare, tenere traccia e riscuotere gli sconti ottenuti.
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: b0bbb97625b9746f8332eb75cac0ab0b904ca7e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246599"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822469"
 ---
 # <a name="vendor-rebates"></a>Sconti fornitore
 
