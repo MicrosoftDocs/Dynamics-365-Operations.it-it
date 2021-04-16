@@ -2,11 +2,9 @@
 title: EUR-00012 - Ricevere un certificato di entrata UE
 description: Questa procedura mostra come registrare un certificato di entrata UE rilasciato da un terzo e ricevuto dal cliente.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustEntryCertificateJour_W
 audience: Application User
@@ -15,31 +13,31 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a38dc241c48b719c800a4ee2fad6a73adfcfe97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b7ee14445746f117edbc71fa51b4b013a95adc99
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227952"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822576"
 ---
-# <a name="eur-00012-receive-an-eu-entry-certificate"></a><span data-ttu-id="4ede9-103">EUR-00012 - Ricevere un certificato di entrata UE</span><span class="sxs-lookup"><span data-stu-id="4ede9-103">EUR-00012 Receive an EU entry certificate</span></span>
+# <a name="eur-00012-receive-an-eu-entry-certificate"></a><span data-ttu-id="5c23f-103">EUR-00012 - Ricevere un certificato di entrata UE</span><span class="sxs-lookup"><span data-stu-id="5c23f-103">EUR-00012 Receive an EU entry certificate</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4ede9-104">Questa procedura mostra come registrare un certificato di entrata UE rilasciato da un terzo e ricevuto dal cliente.</span><span class="sxs-lookup"><span data-stu-id="4ede9-104">This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</span></span>
+<span data-ttu-id="5c23f-104">Questa procedura mostra come registrare un certificato di entrata UE rilasciato da un terzo e ricevuto dal cliente.</span><span class="sxs-lookup"><span data-stu-id="5c23f-104">This procedure walks you through registering an EU entry certificate issued by a third-party and received from your customer.</span></span>
 
 
 
-<span data-ttu-id="4ede9-105">La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.</span><span class="sxs-lookup"><span data-stu-id="4ede9-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="5c23f-105">La società di dati dimostrativi utilizzata per creare questa procedura è DEMF.</span><span class="sxs-lookup"><span data-stu-id="5c23f-105">The demo data company used to create this procedure is DEMF.</span></span>
 
-1. <span data-ttu-id="4ede9-106">Fare clic su Contabilità clienti > Richieste di informazioni e report > Giornale di registrazione certificati di entrata.</span><span class="sxs-lookup"><span data-stu-id="4ede9-106">Go to Accounts receivable > Inquiries and reports > Entry certificate journal.</span></span>
-2. <span data-ttu-id="4ede9-107">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="4ede9-107">Click New.</span></span>
-3. <span data-ttu-id="4ede9-108">Digitare un valore nel campo Certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="4ede9-108">In the Entry certificate field, type a value.</span></span>
-4. <span data-ttu-id="4ede9-109">Nel campo Conto cliente fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="4ede9-109">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="4ede9-110">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="4ede9-110">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="4ede9-111">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="4ede9-111">Click Save.</span></span>
-    * <span data-ttu-id="4ede9-112">Allegare informazioni aggiuntive al giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="4ede9-112">Attach additional information to the journal.</span></span>  
-    * <span data-ttu-id="4ede9-113">Ad esempio, allegare un'immagine digitalizzata del certificato di entrata UE nel giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="4ede9-113">For example, attach a scanned image of the EU Entry certificate to the journal.</span></span>  
+1. <span data-ttu-id="5c23f-106">Fare clic su Contabilità clienti > Richieste di informazioni e report > Giornale di registrazione certificati di entrata.</span><span class="sxs-lookup"><span data-stu-id="5c23f-106">Go to Accounts receivable > Inquiries and reports > Entry certificate journal.</span></span>
+2. <span data-ttu-id="5c23f-107">Fare clic su Nuovo.</span><span class="sxs-lookup"><span data-stu-id="5c23f-107">Click New.</span></span>
+3. <span data-ttu-id="5c23f-108">Digitare un valore nel campo Certificato di entrata.</span><span class="sxs-lookup"><span data-stu-id="5c23f-108">In the Entry certificate field, type a value.</span></span>
+4. <span data-ttu-id="5c23f-109">Nel campo Conto cliente fare clic sul pulsante a discesa per aprire la ricerca.</span><span class="sxs-lookup"><span data-stu-id="5c23f-109">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="5c23f-110">Nell'elenco fare clic sul collegamento nella riga selezionata.</span><span class="sxs-lookup"><span data-stu-id="5c23f-110">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="5c23f-111">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="5c23f-111">Click Save.</span></span>
+    * <span data-ttu-id="5c23f-112">Allegare informazioni aggiuntive al giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="5c23f-112">Attach additional information to the journal.</span></span>  
+    * <span data-ttu-id="5c23f-113">Ad esempio, allegare un'immagine digitalizzata del certificato di entrata UE nel giornale di registrazione.</span><span class="sxs-lookup"><span data-stu-id="5c23f-113">For example, attach a scanned image of the EU Entry certificate to the journal.</span></span>  
 
 
 
