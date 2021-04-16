@@ -2,10 +2,8 @@
 title: Ristampare e annullare etichette ondata
 description: Questo argomento spiega come annullare e ristampare le etichette ondata esistenti.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
@@ -13,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3d67052d47cf23acbb51354773fbd306545bbfa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b309a0e40541463db4d71fa9e7cac5db2d799be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228371"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817367"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Ristampare e annullare etichette ondata
 
@@ -218,5 +216,8 @@ Le eccezioni lavoro controllano il comportamento del prelievo in difetto. Per im
 1. Selezionare il codice di eccezione lavoro creato per questo scenario.
 1. Se è stata selezionata l'eccezione corretta, la casella di controllo **Annulla e ristampa** deve essere disponibile. Selezionare questa casella e confermare. Dopo la conferma, la sequenza di rotoli di etichette identificata dal campo **ID build etichetta** viene ricalcolata in base alla quantità della riga di lavoro modificata. Viene quindi ristampata sulla stampante specificata.
 
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Stampa di etichette ciclo](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

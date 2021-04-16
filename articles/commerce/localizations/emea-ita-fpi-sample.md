@@ -2,11 +2,9 @@
 title: Esempio di integrazione di stampante fiscale per l'Italia
 description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia.
 author: josaw
-manager: annbe
 ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 478c9f9b0dc85229926537137c30892c8057bbb2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8de72b91d9ae100918fdc49a0fc001ec42fc08ef
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225695"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798807"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
