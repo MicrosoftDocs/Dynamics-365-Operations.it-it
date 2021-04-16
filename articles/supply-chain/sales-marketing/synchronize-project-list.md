@@ -2,11 +2,9 @@
 title: Sincronizzare l'elenco dei progetti da Supply Chain Management a Field Service
 description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare progetti da Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 author: ChristianRytt
-manager: tfehr
 ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,54 +16,54 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 3d17b226cabd0668bcdb52e9a7fdfc5973fe49b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cb7f8b9a3107a7787c787ace71ab574457b1646
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243059"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828492"
 ---
-# <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a><span data-ttu-id="1f2f2-103">Sincronizzare l'elenco dei progetti da Supply Chain Management a Field Service</span><span class="sxs-lookup"><span data-stu-id="1f2f2-103">Synchronize project list from Supply Chain Management to Field Service</span></span>
+# <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a><span data-ttu-id="5fbc3-103">Sincronizzare l'elenco dei progetti da Supply Chain Management a Field Service</span><span class="sxs-lookup"><span data-stu-id="5fbc3-103">Synchronize project list from Supply Chain Management to Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="1f2f2-104">Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare progetti da Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-104">This topic discusses the templates and underlying tasks that are used to synchronize projects from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
+<span data-ttu-id="5fbc3-104">Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare progetti da Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-104">This topic discusses the templates and underlying tasks that are used to synchronize projects from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
 
-<span data-ttu-id="1f2f2-105">[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span><span class="sxs-lookup"><span data-stu-id="1f2f2-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span></span>
+<span data-ttu-id="5fbc3-105">[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span><span class="sxs-lookup"><span data-stu-id="5fbc3-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span></span>
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="1f2f2-106">Modelli e attività</span><span class="sxs-lookup"><span data-stu-id="1f2f2-106">Templates and tasks</span></span>
-<span data-ttu-id="1f2f2-107">Il seguente modello e le attività sottostanti vengono utilizzati per sincronizzare i progetti da Supply Chain Management a Field Service.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-107">The following template and underlying tasks are used to run synchronization of projects from Supply Chain Management to Field Service.</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="5fbc3-106">Modelli e attività</span><span class="sxs-lookup"><span data-stu-id="5fbc3-106">Templates and tasks</span></span>
+<span data-ttu-id="5fbc3-107">Il seguente modello e le attività sottostanti vengono utilizzati per sincronizzare i progetti da Supply Chain Management a Field Service.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-107">The following template and underlying tasks are used to run synchronization of projects from Supply Chain Management to Field Service.</span></span>
 
-<span data-ttu-id="1f2f2-108">**Modello in Integrazione dati**</span><span class="sxs-lookup"><span data-stu-id="1f2f2-108">**Template in Data integration**</span></span>
-- <span data-ttu-id="1f2f2-109">Progetti (da Supply Chain Management a Field Service)</span><span class="sxs-lookup"><span data-stu-id="1f2f2-109">Projects (Supply Chain Management to Field Service)</span></span>
+<span data-ttu-id="5fbc3-108">**Modello in Integrazione dati**</span><span class="sxs-lookup"><span data-stu-id="5fbc3-108">**Template in Data integration**</span></span>
+- <span data-ttu-id="5fbc3-109">Progetti (da Supply Chain Management a Field Service)</span><span class="sxs-lookup"><span data-stu-id="5fbc3-109">Projects (Supply Chain Management to Field Service)</span></span>
 
-<span data-ttu-id="1f2f2-110">**Attività nel progetto di Integrazione dati**</span><span class="sxs-lookup"><span data-stu-id="1f2f2-110">**Task in the Data integration project**</span></span>
-- <span data-ttu-id="1f2f2-111">Progetti</span><span class="sxs-lookup"><span data-stu-id="1f2f2-111">Projects</span></span>
+<span data-ttu-id="5fbc3-110">**Attività nel progetto di Integrazione dati**</span><span class="sxs-lookup"><span data-stu-id="5fbc3-110">**Task in the Data integration project**</span></span>
+- <span data-ttu-id="5fbc3-111">Progetti</span><span class="sxs-lookup"><span data-stu-id="5fbc3-111">Projects</span></span>
 
-<span data-ttu-id="1f2f2-112">Le attività di sincronizzazione seguenti sono necessarie prima della sincronizzazione dell'elenco di progetti:</span><span class="sxs-lookup"><span data-stu-id="1f2f2-112">The following synchronization tasks are required before synchronization of project list can occur:</span></span>
-- <span data-ttu-id="1f2f2-113">Conti (da Sales a Supply Chain Management)</span><span class="sxs-lookup"><span data-stu-id="1f2f2-113">Accounts (Sales to Supply Chain Management)</span></span> 
+<span data-ttu-id="5fbc3-112">Le attività di sincronizzazione seguenti sono necessarie prima della sincronizzazione dell'elenco di progetti:</span><span class="sxs-lookup"><span data-stu-id="5fbc3-112">The following synchronization tasks are required before synchronization of project list can occur:</span></span>
+- <span data-ttu-id="5fbc3-113">Conti (da Sales a Supply Chain Management)</span><span class="sxs-lookup"><span data-stu-id="5fbc3-113">Accounts (Sales to Supply Chain Management)</span></span> 
 
-## <a name="entity-set"></a><span data-ttu-id="1f2f2-114">Insieme di entità</span><span class="sxs-lookup"><span data-stu-id="1f2f2-114">Entity set</span></span>
-| <span data-ttu-id="1f2f2-115">Field Service</span><span class="sxs-lookup"><span data-stu-id="1f2f2-115">Field Service</span></span>           | <span data-ttu-id="1f2f2-116">Gestione della supply chain</span><span class="sxs-lookup"><span data-stu-id="1f2f2-116">Supply Chain Management</span></span>  |
+## <a name="entity-set"></a><span data-ttu-id="5fbc3-114">Insieme di entità</span><span class="sxs-lookup"><span data-stu-id="5fbc3-114">Entity set</span></span>
+| <span data-ttu-id="5fbc3-115">Field Service</span><span class="sxs-lookup"><span data-stu-id="5fbc3-115">Field Service</span></span>           | <span data-ttu-id="5fbc3-116">Gestione della supply chain</span><span class="sxs-lookup"><span data-stu-id="5fbc3-116">Supply Chain Management</span></span>  |
 |-------------------------|-------------------------|
-|<span data-ttu-id="1f2f2-117">msdynce_externalprojects</span><span class="sxs-lookup"><span data-stu-id="1f2f2-117">msdynce_externalprojects</span></span> | <span data-ttu-id="1f2f2-118">Progetti</span><span class="sxs-lookup"><span data-stu-id="1f2f2-118">Projects</span></span>                |
+|<span data-ttu-id="5fbc3-117">msdynce_externalprojects</span><span class="sxs-lookup"><span data-stu-id="5fbc3-117">msdynce_externalprojects</span></span> | <span data-ttu-id="5fbc3-118">Progetti</span><span class="sxs-lookup"><span data-stu-id="5fbc3-118">Projects</span></span>                |
 
-## <a name="entity-flow"></a><span data-ttu-id="1f2f2-119">Flusso di entità</span><span class="sxs-lookup"><span data-stu-id="1f2f2-119">Entity flow</span></span>
-<span data-ttu-id="1f2f2-120">I progetti vengono creati in Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-120">Projects are created in Supply Chain Management.</span></span> <span data-ttu-id="1f2f2-121">I progetti con **Tipo di progetto** impostato su **Tempistica e materiali** e **Fase progetto** impostato su **In corso** saranno sincronizzati all'entità **Progetto esterno** in Field Service, incluse le informazioni Numero progetto, Nome progetto, Fase progetto e Conto cliente.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-121">Projects with **Project type** set to **Time and material** and **Project stage** set to **In process** will synchronize to the **External Project** entity in Field Service, including Project number, Project name, Project stage, and Customer account information.</span></span> <span data-ttu-id="1f2f2-122">L'elenco **Progetto esterno** viene utilizzato per associare gli ordini di assistenza Field Service ai progetti Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-122">The **External Project** list is used to pair Field service work orders with Supply Chain Management projects.</span></span>
+## <a name="entity-flow"></a><span data-ttu-id="5fbc3-119">Flusso di entità</span><span class="sxs-lookup"><span data-stu-id="5fbc3-119">Entity flow</span></span>
+<span data-ttu-id="5fbc3-120">I progetti vengono creati in Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-120">Projects are created in Supply Chain Management.</span></span> <span data-ttu-id="5fbc3-121">I progetti con **Tipo di progetto** impostato su **Tempistica e materiali** e **Fase progetto** impostato su **In corso** saranno sincronizzati all'entità **Progetto esterno** in Field Service, incluse le informazioni Numero progetto, Nome progetto, Fase progetto e Conto cliente.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-121">Projects with **Project type** set to **Time and material** and **Project stage** set to **In process** will synchronize to the **External Project** entity in Field Service, including Project number, Project name, Project stage, and Customer account information.</span></span> <span data-ttu-id="5fbc3-122">L'elenco **Progetto esterno** viene utilizzato per associare gli ordini di assistenza Field Service ai progetti Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-122">The **External Project** list is used to pair Field service work orders with Supply Chain Management projects.</span></span>
 
-## <a name="field-service-crm-solution"></a><span data-ttu-id="1f2f2-123">Soluzione CRM Field Service</span><span class="sxs-lookup"><span data-stu-id="1f2f2-123">Field Service CRM solution</span></span>
-<span data-ttu-id="1f2f2-124">L'entità **Progetto esterno** ottiene tutti i progetti da Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-124">The **External Project** entity gets all the projects from Supply Chain Management.</span></span> <span data-ttu-id="1f2f2-125">Il campo **Progetto esterno** è stato aggiunto all'entità **Ordine di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-125">The **External Project** field has been added to the **Work Order** entity.</span></span> <span data-ttu-id="1f2f2-126">Questo è un campo di ricerca e pertanto contrassegnando l'ordine di lavoro con un progetto, l'ordine cliente verrà collegato a un progetto in Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-126">This is a lookup field, so by tagging your work order with a project, the sales order will be connected to a project within Supply Chain Management.</span></span> <span data-ttu-id="1f2f2-127">Quando **Stato sistema** passa da **Aperto - In corso (690,970,000)** a uno stato superiore, il campo **Progetto esterno** verrà bloccato e non sarà più possibile aggiungere, rimuovere o cambiare il valore.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-127">After the **System Status** changes **Open – In Progress(690,970,000)** to a higher status, the **External Project** field will be locked and you can no longer add, remove, or change the value.</span></span>
+## <a name="field-service-crm-solution"></a><span data-ttu-id="5fbc3-123">Soluzione CRM Field Service</span><span class="sxs-lookup"><span data-stu-id="5fbc3-123">Field Service CRM solution</span></span>
+<span data-ttu-id="5fbc3-124">L'entità **Progetto esterno** ottiene tutti i progetti da Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-124">The **External Project** entity gets all the projects from Supply Chain Management.</span></span> <span data-ttu-id="5fbc3-125">Il campo **Progetto esterno** è stato aggiunto all'entità **Ordine di lavoro**.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-125">The **External Project** field has been added to the **Work Order** entity.</span></span> <span data-ttu-id="5fbc3-126">Questo è un campo di ricerca e pertanto contrassegnando l'ordine di lavoro con un progetto, l'ordine cliente verrà collegato a un progetto in Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-126">This is a lookup field, so by tagging your work order with a project, the sales order will be connected to a project within Supply Chain Management.</span></span> <span data-ttu-id="5fbc3-127">Quando **Stato sistema** passa da **Aperto - In corso (690,970,000)** a uno stato superiore, il campo **Progetto esterno** verrà bloccato e non sarà più possibile aggiungere, rimuovere o cambiare il valore.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-127">After the **System Status** changes **Open – In Progress(690,970,000)** to a higher status, the **External Project** field will be locked and you can no longer add, remove, or change the value.</span></span>
 
-## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="1f2f2-128">Prerequisiti e impostazione del mapping</span><span class="sxs-lookup"><span data-stu-id="1f2f2-128">Prerequisites and mapping setup</span></span>
-### <a name="supply-chain-management"></a><span data-ttu-id="1f2f2-129">Gestione della supply chain</span><span class="sxs-lookup"><span data-stu-id="1f2f2-129">Supply Chain Management</span></span>
-<span data-ttu-id="1f2f2-130">Abilitare il rilevamento delle modifiche per progetti entità di dati.</span><span class="sxs-lookup"><span data-stu-id="1f2f2-130">Enable change tracking for Data entity projects.</span></span>
+## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="5fbc3-128">Prerequisiti e impostazione del mapping</span><span class="sxs-lookup"><span data-stu-id="5fbc3-128">Prerequisites and mapping setup</span></span>
+### <a name="supply-chain-management"></a><span data-ttu-id="5fbc3-129">Gestione della supply chain</span><span class="sxs-lookup"><span data-stu-id="5fbc3-129">Supply Chain Management</span></span>
+<span data-ttu-id="5fbc3-130">Abilitare il rilevamento delle modifiche per progetti entità di dati.</span><span class="sxs-lookup"><span data-stu-id="5fbc3-130">Enable change tracking for Data entity projects.</span></span>
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="1f2f2-131">Mapping dei modelli in Integrazione dati</span><span class="sxs-lookup"><span data-stu-id="1f2f2-131">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="5fbc3-131">Mapping dei modelli in Integrazione dati</span><span class="sxs-lookup"><span data-stu-id="5fbc3-131">Template mapping in Data integration</span></span>
 
 
-### <a name="projects-supply-chain-management-to-field-service-projects"></a><span data-ttu-id="1f2f2-132">Progetti (da Supply Chain Management a Field Service): Progetti</span><span class="sxs-lookup"><span data-stu-id="1f2f2-132">Projects (Supply Chain Management to Field Service): Projects</span></span>
+### <a name="projects-supply-chain-management-to-field-service-projects"></a><span data-ttu-id="5fbc3-132">Progetti (da Supply Chain Management a Field Service): Progetti</span><span class="sxs-lookup"><span data-stu-id="5fbc3-132">Projects (Supply Chain Management to Field Service): Projects</span></span>
 
-<span data-ttu-id="1f2f2-133">[![Mapping dei modelli in Integrazione dati](./media/FSProject1.png)](./media/FSProject1.png)</span><span class="sxs-lookup"><span data-stu-id="1f2f2-133">[![Template mapping in Data integration](./media/FSProject1.png)](./media/FSProject1.png)</span></span>
+<span data-ttu-id="5fbc3-133">[![Mapping dei modelli in Integrazione dati](./media/FSProject1.png)](./media/FSProject1.png)</span><span class="sxs-lookup"><span data-stu-id="5fbc3-133">[![Template mapping in Data integration](./media/FSProject1.png)](./media/FSProject1.png)</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
