@@ -2,11 +2,9 @@
 title: Aggiornare un processo
 description: Microsoft Dynamics 365 Human Resources è un vero software come un servizio (SaaS, software as a service) che fornisce aggiornamenti di servizio continui e touchless per modifiche di applicazioni o piattaforme.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466834"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791535"
 ---
 # <a name="update-process"></a>Aggiornare un processo
 
@@ -58,14 +56,14 @@ Quando necessario, Human Resources fornisce anche i seguenti tipi di correzioni:
 
 I rilasci sono verificati, testati e convalidati in un ambiente interno. Dopo essere state autorizzate, le build vengono distribuite alla produzione.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Eccezioni di cadenza di rilascio nel 2020
+## <a name="release-cadence-exceptions-in-2021"></a>Eccezioni di cadenza di rilascio nel 2021
 
-Per tenere conto delle festività, il programma di rilascio per novembre e dicembre 2020 è il seguente:
+Per tenere conto delle festività, il programma di rilascio per novembre e dicembre 2021 è il seguente:
 
-- Versione di novembre: 2 novembre - 13 novembre
-- Versione di dicembre: 30 dicembre - 11 dicembre
+- Versione di novembre: 1 novembre - 14 novembre
+- Versione di dicembre: 29 dicembre - 12 dicembre
  
-La cadenza di rilascio bisettimanale riprenderà come al solito l'11 gennaio 2021.
+La cadenza di rilascio bisettimanale riprenderà come al solito l'10 gennaio 2022.
 
 ## <a name="communications"></a>Comunicazioni
 

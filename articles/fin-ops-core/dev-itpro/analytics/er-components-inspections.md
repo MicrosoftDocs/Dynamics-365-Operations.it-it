@@ -2,7 +2,6 @@
 title: Ispezionare il componente ER configurato per evitare problemi di runtime
 description: Questo argomento spiega come ispezionare i componenti di creazione di report elettronici (ER) configurati per prevenire problemi di runtime che potrebbero verificarsi.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574127"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753842"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Ispezionare il componente ER configurato per evitare problemi di runtime
 
@@ -351,7 +350,7 @@ La funzione ER [FILTER](er-functions-list-filter.md) incorporata viene utilizzat
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
 1. Iniziare a configurare il componente di mapping del modello ER.
-2. Aggiungere un'origine dati di tipo **Dynamics 365 for Operations \\ Record di tabella**.
+2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
 3. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella VendTable.
 4. Aggiungere un'origine dati del tipo **Campo calcolato**.
 5. Assegnare un nome alla nuova origine dati **FornitoreFiltrato** e configurarla in modo che contenga l'espressione `FILTER(Vendor, Vendor.AccountNum="US-101")`.
@@ -666,19 +665,19 @@ La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avv
 
 ![Errore di runtime che si verifica durante l'esecuzione del mapping del formato nella pagina Progettazione formati](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Risoluzione automatica
+### <a name="automatic-resolution&quot;></a>Risoluzione automatica
 
 Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
 
-### <a name="manual-resolution"></a>Risoluzione manuale
+### <a name=&quot;manual-resolution&quot;></a>Risoluzione manuale
 
-#### <a name="option-1"></a>Opzione 1
+#### <a name=&quot;option-1&quot;></a>Opzione 1
 
 Rimuovere il flag **Cache** dall'origine dati **Fornitore**. L'origine dati **FilteredVendor** diventerà quindi eseguibile, ma l'origine dati **Fornitore** a cui si fa riferimento nella tabella VendTable sarà accessibile ogni volta che viene chiamata l'origine dati **FilteredVendor**.
 
-#### <a name="option-2"></a>Opzione 2
+#### <a name=&quot;option-2&quot;></a>Opzione 2
 
-Cambiare l'espressione dell'origine dati **FornitoreFiltrato** da `FILTER(Vendor, Vendor.AccountNum="US-101")` a `WHERE(Vendor, Vendor.AccountNum="US-101")`. In questo caso, l'origine dati **Fornitore** a cui si fa riferimento nella tabella VendTable sarà accessibile solo durante la prima chiamata dell'origine dati **Fornitore**. Tuttavia, la selezione dei record verrà eseguita in memoria. Pertanto, questo approccio può causare prestazioni ridotte.
+Cambiare l'espressione dell'origine dati **FornitoreFiltrato** da `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` a `WHERE(Vendor, Vendor.AccountNum="US-101")`. In questo caso, l'origine dati **Fornitore** a cui si fa riferimento nella tabella VendTable sarà accessibile solo durante la prima chiamata dell'origine dati **Fornitore**. Tuttavia, la selezione dei record verrà eseguita in memoria. Pertanto, questo approccio può causare prestazioni ridotte.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Associazione mancante
 
