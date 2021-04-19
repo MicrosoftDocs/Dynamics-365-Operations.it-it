@@ -2,7 +2,6 @@
 title: Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate
 description: Questo argomento spiega come migliorare le prestazioni delle soluzioni di creazione di report elettronici (ER) aggiungendo origini dati CAMPO CALCOLATO parametrizzato.
 author: NickSelin
-manager: AnnBe
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c63d64774b5b97a562da20655400078ed47c5675
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 299570d6a94b0f9e7ee7cf490d4c1aeeb86d5716
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569227"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749515"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate
 
