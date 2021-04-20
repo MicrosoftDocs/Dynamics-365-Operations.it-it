@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: Utilizzo di Power Portal con il modello di dati parte
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Eseguire l'aggiornamento al modello di parte e di rubrica globale
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Integrazione della nota
                               href: data-entities/dual-write/notes-integration.md
                             - name: Riferimento di mapping
@@ -714,6 +716,8 @@
               items:
                 - name: Funzionalità del debugger e X++
                   href: dev-tools/new-x-debugger-features.md
+                - name: Requisiti di Visual Studio 2017 per X++
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: Debug del codice X++
                   href: dev-tools/debug-xpp.md
                 - name: Classi EventHandlerResult in scenari di risposta o richiesta
@@ -1026,11 +1030,15 @@
                       href: perf-test/atl-faq.md
             - name: Validità della data
               href: dev-tools/date-effectivity.md
-            - name: Licenze ISV
-              href: dev-tools/isv-licensing.md
-            - name: Licenze ISV locali
-              href: dev-tools/isv-licensing-on-prem.md
-        - name: Regolamento generale sulla protezione dei dati (GDPR)
+            - name: Sviluppo per fornitori di software indipendenti
+              items:
+                - name: Collegare i moduli X++ ai pacchetti tramite ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: Licenze ISV
+                  href: dev-tools/isv-licensing.md
+                - name: Licenze ISV locali
+                  href: dev-tools/isv-licensing-on-prem.md
+        - name: Regolamento generale sulla protezione dei dati (RGDP)
           items:
             - name: Panoramica sul Regolamento generale sulla protezione dei dati
               href: gdpr/gdpr-guide.md
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integrazione di Microsoft Power Platform
           items:
+            - name: Integrazione di Microsoft Power Platform con Finance and Operations
+              href: power-platform/overview.md
             - name: Entità virtuali
               items:
-                - name: Integrazione di Microsoft Power Platform con Finance and Operations
-                  href: power-platform/overview.md
                 - name: Modellazione di entità
                   href: power-platform/entity-modeling.md
                 - name: Gestione del ciclo di vita dell'applicazione
@@ -1454,6 +1462,8 @@
               href: lifecycle-services/support-experience.md
             - name: Gestire le esperienze di supporto per le app Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Supporto e monitoraggio della produzione
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Amministrazione sistema
           items:
             - name: Home page amministrazione sistema
