@@ -932,8 +932,10 @@
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Definire dimensioni finanziarie
                   href: general-ledger/tasks/define-financial-dimensions.md
-                - name: Gestire modelli predefiniti di dimensione finanziaria
+                - name: Gestire i modelli predefiniti di dimensione finanziaria
                   href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Set di dimensioni finanziarie
+                  href: general-ledger/financial-dimension-sets.md
                 - name: Creare strutture dei conti
                   href: general-ledger/tasks/create-account-structures.md
                 - name: Dimensioni finanziarie e registrazione
@@ -1414,38 +1416,66 @@
           items:
             - name: Risorse di globalizzazione
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
+            - name: Servizi di globalizzazione
+              items:
+                - name: Panoramica dei servizi di globalizzazione
+                  href: localizations/globalization-services-overview.md
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: Panoramica di Regulatory Configuration Service
+                      href: localizations/rcs-overview.md
+                    - name: Regulatory Configuration Service - Funzionalità di globalizzazione
+                      href: localizations/rcs-globalization-feature.md
+                    - name: Creare configurazioni ER in Regulatory Configuration Service e caricarle nel repository globale
+                      href: localizations/rcs-global-repo-upload.md
+                - name: Fatturazione elettronica
+                  items:
+                    - name: Panoramica della fatturazione elettronica
+                      href: localizations/e-invoicing-service-overview.md
+                    - name: Componenti di amministrazione della fatturazione elettronica
+                      href: localizations/e-invoicing-service-administration.md
+                    - name: Configurare la fatturazione elettronica in Regulatory Configuration Services (RCS)
+                      href: localizations/e-invoicing-configuration-rcs.md
+                    - name: Emissione di fatture elettroniche in Finance e Supply Chain Management
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                    - name: Creare un account di archiviazione di Azure e un Key Vault
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                    - name: Introduzione
+                      items:
+                        - name: Introduzione all'amministrazione dei servizi per la fatturazione elettronica
+                          href: localizations/e-invoicing-get-started-service-administration.md
+                        - name: Introduzione alla fatturazione elettronica
+                          href: localizations/e-invoicing-get-started.md
+                        - name: Introduzione alla fatturazione elettronica per il Brasile
+                          href: localizations/e-invoicing-bra-get-started.md
+                        - name: Introduzione alla fatturazione elettronica per l'Egitto
+                          href: localizations/e-invoicing-eg-get-started.md
+                        - name: Introduzione alla fatturazione elettronica per l'Italia
+                          href: localizations/e-invoicing-ita-get-started.md
+                        - name: Introduzione alla fatturazione elettronica per il Messico
+                          href: localizations/e-invoicing-mex-get-started.md
+                        - name: Impostare la fatturazione elettronica
+                          href: localizations/e-invoicing-setup.md
+                    - name: Domande frequenti sulla fatturazione elettronica
+                      href: localizations/e-invoicing-faq.md
+                - name: Calcolo imposte
+                  items:
+                    - name: Panoramica del calcolo delle imposte
+                      href: localizations/global-tax-calcuation-service-overview.md
+                    - name: Introduzione al calcolo delle imposte
+                      href: localizations/global-get-started-with-tax-calculation-service.md
+                    - name: Supporto della funzione fiscale per ordini di trasferimento
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                    - name: Aggiungere campi dati nelle configurazioni imposte
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                    - name: Aggiungere campi dati nell'integrazione fiscale usando le estensioni
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                    - name: Più numeri di registrazione IVA
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Configurare un ambiente per la ricerca dei dati master
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
             - name: Aggiornamenti normativi
               href: localizations/regulatory-updates.md
-            - name: Fatturazione elettronica
-              items:
-                - name: Panoramica della fatturazione elettronica
-                  href: localizations/e-invoicing-service-overview.md
-                - name: Componenti di amministrazione della fatturazione elettronica
-                  href: localizations/e-invoicing-service-administration.md
-                - name: Configurare la fatturazione elettronica in Regulatory Configuration Services (RCS)
-                  href: localizations/e-invoicing-configuration-rcs.md
-                - name: Emissione di fatture elettroniche in Finance e Supply Chain Management
-                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
-                - name: Creare un account di archiviazione di Azure e un Key Vault
-                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Introduzione
-                  items:
-                    - name: Introduzione all'amministrazione dei servizi per la fatturazione elettronica
-                      href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Introduzione alla fatturazione elettronica
-                      href: localizations/e-invoicing-get-started.md
-                    - name: Introduzione alla fatturazione elettronica per il Brasile
-                      href: localizations/e-invoicing-bra-get-started.md
-                    - name: Introduzione alla fatturazione elettronica per l'Egitto
-                      href: localizations/e-invoicing-eg-get-started.md
-                    - name: Introduzione alla fatturazione elettronica per l'Italia
-                      href: localizations/e-invoicing-ita-get-started.md
-                    - name: Introduzione alla fatturazione elettronica per il Messico
-                      href: localizations/e-invoicing-mex-get-started.md
-                    - name: Impostare la fatturazione elettronica
-                      href: localizations/e-invoicing-setup.md
-                - name: Domande frequenti sulla fatturazione elettronica
-                  href: localizations/e-invoicing-faq.md
             - name: Australia
               items:
                 - name: Panoramica Australia
@@ -1468,6 +1498,8 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: Dichiarazione IVA
                   href: localizations/emea-aut-vat-statement-details.md
+                - name: Report sui servizi transfrontalieri
+                  href: localizations/emea-aut-cross-border-services-report.md
             - name: Bahrein
               items:
                 - name: Panoramica Bahrein
@@ -1492,6 +1524,8 @@
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Report di riconciliazione
                   href: localizations/emea-bel-reconciliation-reports.md
+                - name: Report giornale di registrazione
+                  href: localizations/emea-bel-journal-reports.md
                 - name: Impostare la dichiarazione di saldo pagamenti
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: Impostare e gestire PRODCOM
@@ -1692,7 +1726,7 @@
               items:
                 - name: Panoramica Cina
                   href: localizations/china.md
-                - name: Finance and Operations gestita da 21Vianet in Cina
+                - name: Finance and Operations gestito da 21Vianet in Cina
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
                 - name: Confronto di distinte base
                   href: localizations/apac-chn-bom-comparison.md
@@ -2118,32 +2152,6 @@
                       href: localizations/ind-news-letter-10-0-13.md
                     - name: Novità o modifiche in 10.0.14
                       href: localizations/apac-ind-news-letter-10-0-14.md
-                - name: Cespiti
-                  items:
-                    - name: Panoramica cespiti India
-                      href: localizations/apac-ind-fixed-assets.md
-                    - name: Collegare un calendario basato sul giorno a un libro cespiti
-                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: Calcola ammortamento turno
-                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: Creare un gruppo di modelli inventariali per articoli di capitali
-                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: Creare e registrare l'ammortamento
-                      href: localizations/apac-ind-calculate-post-depreciation.md
-                    - name: Definire il tipo di turno e di settore dei registri e collegarlo al cespite
-                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Storno delle transazioni cespiti
-                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: Calcolo ammortamento shift
-                      href: localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: Impostare a un calendario fiscale basato sul giorno
-                      href: localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: Impostare i parametri per calcolare l'ammortamento
-                      href: localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: Impostare l'ammortamento del gruppo cespiti per i registri beni ammortizzabili
-                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Trasferire elementi capitali nel cespite
-                      href: localizations/tasks/apac-ind-transfer-capital-items.md
                 - name: Imposte indirette
                   items:
                     - name: GST India
@@ -2300,6 +2308,10 @@
                                   href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
                                 - name: Rimborsi pagamenti clienti
                                   href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Transazioni della gestione progetti
+                              items:
+                                - name: Transazioni di progetto per l'Imposta sui Beni e Servizi (GST)
+                                  href: localizations/apac-ind-gst-project-transactions.md
                             - name: Rettifica imposte
                               items:
                                 - name: Rettifica importo imposta
@@ -2336,6 +2348,32 @@
                           href: localizations/apac-ind-tax-thresholds.md
                         - name: Imposta prelevata alla fonte sulla vendita di merci
                           href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                - name: Cespiti
+                  items:
+                    - name: Panoramica cespiti India
+                      href: localizations/apac-ind-fixed-assets.md
+                    - name: Collegare un calendario basato sul giorno a un libro cespiti
+                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
+                    - name: Calcola ammortamento turno
+                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
+                    - name: Creare un gruppo di modelli inventariali per articoli di capitali
+                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
+                    - name: Creare e registrare l'ammortamento
+                      href: localizations/apac-ind-calculate-post-depreciation.md
+                    - name: Definire il tipo di turno e di settore dei registri e collegarlo al cespite
+                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
+                    - name: Storno delle transazioni cespiti
+                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
+                    - name: Calcolo ammortamento shift
+                      href: localizations/apac-ind-calculation-shift-depreciation.md
+                    - name: Impostare a un calendario fiscale basato sul giorno
+                      href: localizations/tasks/apac-ind-day-based-calendar.md
+                    - name: Impostare i parametri per calcolare l'ammortamento
+                      href: localizations/tasks/apac-ind-set-up-depreciation.md
+                    - name: Impostare l'ammortamento del gruppo cespiti per i registri beni ammortizzabili
+                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                    - name: Trasferire elementi capitali nel cespite
+                      href: localizations/tasks/apac-ind-transfer-capital-items.md
             - name: Italia
               items:
                 - name: Panoramica Italia
@@ -2958,6 +2996,8 @@
                       href: localizations/rus-cash-flow-tax-registers.md
                     - name: Registri delle spese classificate
                       href: localizations/rus-rated-expenses-registers.md
+                    - name: Registri delle imposte a debito di contabilità fornitori e annullamento delle somme dovute
+                      href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
             - name: Arabia Saudita
               items:
                 - name: Panoramica Arabia Saudita
@@ -3034,14 +3074,20 @@
                   href: localizations/thailand.md
                 - name: Report scheda scorte
                   href: localizations/apac-tha-stock-card-reports.md
+                - name: Fatture fiscali
+                  href: localizations/apac-tha-tax-invoices.md
                 - name: Fattura imposta di rettifica o sostituzione
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: IVA non realizzata
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: IVA media per transazioni di acquisto
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Dimensioni della divisione di contabilità fiscale
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: Report IVA
+                - name: Report IVA a debito
                   href: localizations/apac-tha-sales-vat-report.md
+                - name: IVA media per transazioni di acquisto
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Ritenuta d'acconto
                   href: localizations/apac-tha-withholding-tax.md
             - name: Emirati Arabi Uniti (UAE)
@@ -3869,10 +3915,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: Modificare ed eseguire formati per utilizzare i file di gestione dei documenti
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                    - name: Debug delle origini dati
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Utilizzare BARCODE per generare immagini di codici a barre
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Configurare le origini dati LOOKUP per utilizzare i parametri specifici dell'applicazione ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Debug delle origini dati
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Configurare i mapping dei modelli
                   items:
                     - name: Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese
