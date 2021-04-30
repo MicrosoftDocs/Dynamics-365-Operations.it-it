@@ -1,6 +1,6 @@
 ---
 title: Reimpostare i processi batch bloccati
-description: Questo argomento spiega come risolvere i problemi con i processi batch bloccati.
+description: Questo argomento spiega come risolvere i problemi con processi batch bloccati.
 author: andreabichsel
 ms.date: 03/19/2021
 ms.topic: article
@@ -15,44 +15,44 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 01ef0bf8ccc486614eec42d3fb6f0b2941fc47c0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 906a391b3c28d15445f6ddf0fc547ebcf842ba19
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794951"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881762"
 ---
-# <a name="reset-stuck-batch-jobs"></a><span data-ttu-id="cc4fc-103">Reimpostare i processi batch bloccati</span><span class="sxs-lookup"><span data-stu-id="cc4fc-103">Reset stuck batch jobs</span></span>
+# <a name="reset-stuck-batch-jobs"></a><span data-ttu-id="d2931-103">Reimpostare i processi batch bloccati</span><span class="sxs-lookup"><span data-stu-id="d2931-103">Reset stuck batch jobs</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="issue"></a><span data-ttu-id="cc4fc-104">Uscita</span><span class="sxs-lookup"><span data-stu-id="cc4fc-104">Issue</span></span>
+## <a name="issue"></a><span data-ttu-id="d2931-104">Uscita</span><span class="sxs-lookup"><span data-stu-id="d2931-104">Issue</span></span>
 
-<span data-ttu-id="cc4fc-105">In Microsoft Dynamics 365 Human Resources possono verificarsi problemi con i processi batch bloccati in uno stato **In esecuzione** o **Annullamento** che non vengono completati.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-105">Microsoft Dynamics 365 Human Resources can experience issues with batch jobs that are stuck in either an **Executing** or **Canceling** state and don't complete.</span></span>
+<span data-ttu-id="d2931-105">In Microsoft Dynamics 365 Human Resources possono verificarsi problemi con i processi batch bloccati in uno stato **In esecuzione** o **Annullamento** che non vengono completati.</span><span class="sxs-lookup"><span data-stu-id="d2931-105">Microsoft Dynamics 365 Human Resources can experience issues with batch jobs that are stuck in either an **Executing** or **Canceling** state and don't complete.</span></span>
 
-## <a name="resolution"></a><span data-ttu-id="cc4fc-106">Risoluzione</span><span class="sxs-lookup"><span data-stu-id="cc4fc-106">Resolution</span></span>
+## <a name="resolution"></a><span data-ttu-id="d2931-106">Risoluzione</span><span class="sxs-lookup"><span data-stu-id="d2931-106">Resolution</span></span>
 
-<span data-ttu-id="cc4fc-107">Quando un processo batch è bloccato in uno stato **In esecuzione** o **Annullamento** puoi reimpostare lo stato forzando l'annullamento del processo.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-107">When a batch job is stuck in an **Executing** or **Canceling** state, you can reset the status by forcing the cancellation of the job.</span></span> <span data-ttu-id="cc4fc-108">Dopo averlo annullato, è possibile ripristinare il processo batch impostandolo su uno stato **In attesa**.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-108">After you cancel it, you can reset the batch job by setting it to a **Waiting** status.</span></span> <span data-ttu-id="cc4fc-109">Verrà quindi nuovamente prelevato per l'esecuzione nella successiva esecuzione batch pianificata.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-109">It will then be picked up again for execution in the next scheduled batch run.</span></span>
+<span data-ttu-id="d2931-107">Quando un processo batch è bloccato in uno stato **In esecuzione** o **Annullamento** puoi reimpostare lo stato forzando l'annullamento del processo.</span><span class="sxs-lookup"><span data-stu-id="d2931-107">When a batch job is stuck in an **Executing** or **Canceling** state, you can reset the status by forcing the cancellation of the job.</span></span> <span data-ttu-id="d2931-108">Dopo averlo annullato, è possibile ripristinare il processo batch impostandolo su uno stato **In attesa**.</span><span class="sxs-lookup"><span data-stu-id="d2931-108">After you cancel it, you can reset the batch job by setting it to a **Waiting** status.</span></span> <span data-ttu-id="d2931-109">Verrà quindi nuovamente prelevato per l'esecuzione nella successiva esecuzione batch pianificata.</span><span class="sxs-lookup"><span data-stu-id="d2931-109">It will then be picked up again for execution in the next scheduled batch run.</span></span>
 
-1. <span data-ttu-id="cc4fc-110">Nell'area di lavoro **Amministrazione di sistema** seleziona la pagina **Collegamenti** e seleziona **Processi batch**.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-110">In the **System administration** workspace, select the **Links** page, and select **Batch jobs**.</span></span>
+1. <span data-ttu-id="d2931-110">Nell'area di lavoro **Amministrazione di sistema** seleziona la pagina **Collegamenti** e seleziona **Processi batch**.</span><span class="sxs-lookup"><span data-stu-id="d2931-110">In the **System administration** workspace, select the **Links** page, and select **Batch jobs**.</span></span>
 
-2. <span data-ttu-id="cc4fc-111">Nella pagina elenco **Processo batch** seleziona il processo che deve essere ripristinato.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-111">On the **Batch job** list page, select the job that needs to be reset.</span></span>
+2. <span data-ttu-id="d2931-111">Nella pagina elenco **Processo batch** seleziona il processo che deve essere ripristinato.</span><span class="sxs-lookup"><span data-stu-id="d2931-111">On the **Batch job** list page, select the job that needs to be reset.</span></span>
 
-3. <span data-ttu-id="cc4fc-112">Sulla barra multifunzione seleziona **Forza annullamento** e conferma l'azione.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-112">On the action ribbon, select **Force cancel**, and confirm the action.</span></span>
+3. <span data-ttu-id="d2931-112">Sulla barra multifunzione seleziona **Forza annullamento** e conferma l'azione.</span><span class="sxs-lookup"><span data-stu-id="d2931-112">On the action ribbon, select **Force cancel**, and confirm the action.</span></span>
 
    > [!NOTE]
-   > <span data-ttu-id="cc4fc-113">L'azione **Forza annullamento** è disponibile solo quando il processo batch selezionato ha lo stato **In esecuzione** o **Annullamento** e nessun processo di esecuzione o annullamento batch è in esecuzione per il processo.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-113">The **Force cancel** action is only available when the selected batch job has a status of either **Executing** or **Canceling**, and no batch execution or cancellation processes are running for the job.</span></span>
+   > <span data-ttu-id="d2931-113">L'azione **Forza annullamento** è disponibile solo quando il processo batch selezionato ha lo stato **In esecuzione** o **Annullamento** e nessun processo di esecuzione o annullamento batch è in esecuzione per il processo.</span><span class="sxs-lookup"><span data-stu-id="d2931-113">The **Force cancel** action is only available when the selected batch job has a status of either **Executing** or **Canceling**, and no batch execution or cancellation processes are running for the job.</span></span>
 
-4. <span data-ttu-id="cc4fc-114">Nella barra multifunzione seleziona **Cambia stato**.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-114">On the action ribbon, select **Change status**.</span></span>
+4. <span data-ttu-id="d2931-114">Nella barra multifunzione seleziona **Cambia stato**.</span><span class="sxs-lookup"><span data-stu-id="d2931-114">On the action ribbon, select **Change status**.</span></span>
 
-5. <span data-ttu-id="cc4fc-115">Nella pagina **Seleziona nuovo stato** seleziona **In attesa** e quindi seleziona **OK**.</span><span class="sxs-lookup"><span data-stu-id="cc4fc-115">On the **Select new status** page, select **Waiting**, and then select **OK**.</span></span>
+5. <span data-ttu-id="d2931-115">Nella pagina **Seleziona nuovo stato** seleziona **In attesa** e quindi seleziona **OK**.</span><span class="sxs-lookup"><span data-stu-id="d2931-115">On the **Select new status** page, select **Waiting**, and then select **OK**.</span></span>
 
    ![Selezionare un nuovo stato del processo batch](./media/hr-admin-reset-batch-job-status.png)
 
-## <a name="see-also"></a><span data-ttu-id="cc4fc-117">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="cc4fc-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d2931-117">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="d2931-117">See also</span></span>
 
-[<span data-ttu-id="cc4fc-118">Ottimizzare le prestazioni programmando i processi batch dopo ore</span><span class="sxs-lookup"><span data-stu-id="cc4fc-118">Optimize performance by scheduling batch jobs after hours</span></span>](hr-admin-troubleshooting-batch-jobs.md)<br>
-[<span data-ttu-id="cc4fc-119">Ottimizzare le prestazioni con attività di pulizia automatica</span><span class="sxs-lookup"><span data-stu-id="cc4fc-119">Optimize performance with auto cleanup tasks</span></span>](hr-admin-troubleshooting-batch-history.md)
+[<span data-ttu-id="d2931-118">Ottimizzare le prestazioni programmando i processi batch dopo ore</span><span class="sxs-lookup"><span data-stu-id="d2931-118">Optimize performance by scheduling batch jobs after hours</span></span>](hr-admin-troubleshooting-batch-jobs.md)<br>
+[<span data-ttu-id="d2931-119">Ottimizzare le prestazioni con attività di pulizia automatica</span><span class="sxs-lookup"><span data-stu-id="d2931-119">Optimize performance with auto cleanup tasks</span></span>](hr-admin-troubleshooting-batch-history.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
