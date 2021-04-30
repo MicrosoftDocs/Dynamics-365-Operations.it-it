@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751234"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893580"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurare destinazioni ER dipendenti dall'azione
 
@@ -60,7 +60,7 @@ Se selezioni il tipo di documento **Qualsiasi**, **Rilevamento automatico** vien
     - Quando viene fornita l'azione **Invia** in fase di esecuzione, viene applicata la destinazione ER **E-mail**.
     - Quando viene fornita l'azione **Stampa** in fase di esecuzione, viene applicata la destinazione ER **Stampante**.
 
-Ad esempio, puoi utilizzare il formato ER **Fattura a testo libero (Excel)** per stampare una [fattura a testo libero](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) quando la pubblichi. Per instradare un documento generato, è necessario configurare le destinazioni ER per questo formato ER. Ad esempio, potrebbe essere necessario configurare queste destinazioni ER per eseguire quanto segue su un documento generato:
+Ad esempio, puoi utilizzare il formato ER **Fattura a testo libero (Excel)** per stampare una [fattura a testo libero](../../../finance/accounts-receivable/create-free-text-invoice-new.md) quando la pubblichi. Per instradare un documento generato, è necessario configurare le destinazioni ER per questo formato ER. Ad esempio, potrebbe essere necessario configurare queste destinazioni ER per eseguire quanto segue su un documento generato:
 
 - Archivia il documento se viene eseguito il formato ER ma non viene fornito alcun codice di azione (ad esempio, quando il documento viene inviato elettronicamente).
 - Visualizza l'anteprima del documento in un browser Web quando un utente esegue l'azione **Visualizza**.
@@ -82,7 +82,7 @@ La figura seguente mostra come ottenere la stessa configurazione delle destinazi
 
 Quando viene eseguito un formato ER, se le azioni dell'utente sono state fornite da utenti che dispongono delle [autorizzazioni](electronic-reporting-destinations.md#security-considerations) appropriate per modificare le impostazioni di destinazione configurate in fase di esecuzione, viene visualizzata una finestra di dialogo che offre la possibilità di modificare le impostazioni di destinazione configurate. Questa finestra di dialogo è facoltativa e il suo aspetto dipende da come è stata implementata la chiamata effettuata dal framework ER per eseguire un formato ER. Se viene visualizzata questa finestra di dialogo, le destinazioni ER in essa contenute verranno abilitate in base all'azione dell'utente fornita.
 
-La figura seguente mostra un esempio di finestra di dialogo **Destinazione del formato per la creazione di report elettronici** che appare quando una fattura a testo libero viene [registrata](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) e il formato ER **Fattura a testo libero (Excel)** viene eseguito per generare questo documento, se è stato eseguito il provisioning dell'azione **Stampante** e le destinazioni ER sono state configurate per questo formato, come mostrato in precedenza in questo argomento.
+La figura seguente mostra un esempio di finestra di dialogo **Destinazione del formato per la creazione di report elettronici** che appare quando una fattura a testo libero viene [registrata](../../../finance/accounts-receivable/create-free-text-invoice-new.md) e il formato ER **Fattura a testo libero (Excel)** viene eseguito per generare questo documento, se è stato eseguito il provisioning dell'azione **Stampante** e le destinazioni ER sono state configurate per questo formato, come mostrato in precedenza in questo argomento.
 
 ![Finestra di dialogo che offre la possibilità di modificare le destinazioni ER configurate inizialmente per il formato ER in esecuzione](./media/er-destination-action-dependent-02.gif)
 

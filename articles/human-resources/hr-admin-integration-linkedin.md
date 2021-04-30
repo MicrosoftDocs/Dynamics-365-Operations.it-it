@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efcac2bd82956015eb822c6a493b8625a35cd194
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 208998b5c09416407612352da7a8ef5dd9491914
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805060"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889982"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrazione con LinkedIn Talent Hub
 
@@ -130,7 +130,7 @@ Dopo aver salvato e chiuso il nuovo utente dell'applicazione nella sezione prece
 ### <a name="create-the-table-in-dataverse"></a>Crea la tabella in Dataverse
 
 > [!IMPORTANT]
-> L'integrazione con LinkedIn Talent Hub dipende dalle tabelle virtuali in Dataverse per Human Resources. Come prerequisito per questo passaggio della configurazione, è necessario configurare le tabelle virtuali. Per informazioni su come configurare le tabelle virtuali, vedi [Configurare tabelle virtuali Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> L'integrazione con LinkedIn Talent Hub dipende dalle tabelle virtuali in Dataverse per Human Resources. Come prerequisito per questo passaggio della configurazione, è necessario configurare le tabelle virtuali. Per informazioni su come configurare le tabelle virtuali, vedi [Configurare tabelle virtuali Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 1. In Human Resources, aprire la pagina **Integrazione di Dataverse**.
 
@@ -189,7 +189,7 @@ I seguenti dettagli vengono importati e inclusi nel record del nuovo dipendente:
 ## <a name="see-also"></a>Vedere anche
 
 [Configurare tabelle virtuali in Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Che cos'è Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[Che cos'è Microsoft Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5051bbf9e550add6a0cfc5e23f3aeb7b379ef03
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789638"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890749"
 ---
 # <a name="performance-management"></a>Gestione delle prestazioni
 
@@ -93,7 +93,7 @@ Per revisioni più dettagliate, è possibile effettuare il pull degli obiettivi 
 
 È possibile creare nuove revisioni basate sui modelli creati. Ad esempio, è possibile avere un modello per le riunioni a due, i piani di sviluppo o le revisioni periodiche. È possibile selezionare il modello quando si crea una nuova revisione.
 
-Per stampare le revisioni, selezionare il pulsante **Stampa revisione**. Se il pulsante non è visualizzato nella pagina **Revisione**, assicurarsi di aver abilitato la funzionalità nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni sulla gestione funzionalità, vedere [Panoramica della gestione funzionalità](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Per stampare le revisioni, selezionare il pulsante **Stampa revisione**. Se il pulsante non è visualizzato nella pagina **Revisione**, assicurarsi di aver abilitato la funzionalità nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni sulla gestione funzionalità, vedere [Panoramica della gestione funzionalità](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
 > La possibilità di stampare revisioni delle prestazioni è disponibile solo in Human Resources. Non è disponibile in Dynamics 365 Finance.

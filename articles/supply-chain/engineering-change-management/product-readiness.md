@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842012"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909721"
 ---
 # <a name="product-readiness"></a>Idoneità prodotto
 
@@ -142,7 +142,7 @@ Per ogni riga che si aggiunge, impostare i seguenti campi.
 | Società | Se si imposta il campo **Esegui in** su *Singola società*, selezionare la società. |
 | Tipo di proprietario | Seleziona se i controlli di disponibilità generati dalla riga devono essere assegnati a una persona o a un team. |
 | Proprietario | Seleziona la persona o il team a cui devono essere assegnati i controlli di disponibilità generati dalla riga. |
-| Gestione questionari | Seleziona il questionario da utilizzare per l'elenco di controllo. L'elenco di controllo è un elenco di controllo locale nella società in cui viene effettuato il controllo di disponibilità. Il sistema deve essere in grado di valutare se l'elenco di controllo ha una risposta corretta. Pertanto, l'elenco di controllo deve essere impostato in modo che venga eseguita una valutazione basata su risposte corrette. Per ulteriori informazioni su come creare questionari, vedere [Utilizzo dei questionari](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) e gli argomenti correlati. |
+| Gestione questionari | Seleziona il questionario da utilizzare per l'elenco di controllo. L'elenco di controllo è un elenco di controllo locale nella società in cui viene effettuato il controllo di disponibilità. Il sistema deve essere in grado di valutare se l'elenco di controllo ha una risposta corretta. Pertanto, l'elenco di controllo deve essere impostato in modo che venga eseguita una valutazione basata su risposte corrette. Per ulteriori informazioni su come creare questionari, vedere [Utilizzo dei questionari](/dynamicsax-2012/appuser-itpro/using-questionnaires) e gli argomenti correlati. |
 | Approvazione automatica | I record del controllo di disponibilità includono una casella di controllo **Approvato** che indica lo stato di approvazione. Selezionare la casella di controllo **Approvazione automatica** per i controlli che devono essere impostati su approvato immediatamente dopo essere stati completati dall'utente assegnato. Deselezionare questa casella di controllo per richiedere l'approvazione esplicita come passaggio aggiuntivo. |
 | Obbligatorio | Selezionare questa casella di controllo per i controlli che devono essere completati dall'utente assegnato. I controlli obbligatori non possono essere ignorati. |
 

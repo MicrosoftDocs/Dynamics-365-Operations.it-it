@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835570"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909381"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app di magazzino
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835570"
 > Questo argomento descrive come configurare la vecchia app di magazzino (che ora è deprecata). Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino, vedere [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> In questo argomento viene descritto come configurare l'app di magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare l'app di magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> In questo argomento viene descritto come configurare l'app di magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare l'app di magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 L'app del magazzino è disponibile da Google Play Store e Microsoft Store. Viene fornito come componente autonomo. Pertanto, devi scaricarla su ciascun dispositivo e configurarla per connettersi all'ambiente Microsoft Dynamics 365 Supply Chain Management.
 
@@ -54,7 +54,7 @@ Usa uno dei seguenti collegamenti per scaricare l'app:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Magazzino su Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 su Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Per distribuzioni più piccole, potresti voler installare l'app dal relativo store su ciascun dispositivo e quindi configurare manualmente la connessione agli ambienti che stai utilizzando. Tuttavia, nella versione 1.7.0.0 e successive dell'app del magazzino, puoi anche automatizzare la distribuzione e/o la configurazione dell'app. Questo approccio potrebbe essere utile se gestisci molti dispositivi e stai utilizzando una soluzione di gestione dei dispositivi mobili e delle applicazioni mobili come [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Per informazioni su come utilizzare Intune per aggiungere applicazioni, vedi [Aggiungere app in Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Per distribuzioni più piccole, potresti voler installare l'app dal relativo store su ciascun dispositivo e quindi configurare manualmente la connessione agli ambienti che stai utilizzando. Tuttavia, nella versione 1.7.0.0 e successive dell'app del magazzino, puoi anche automatizzare la distribuzione e/o la configurazione dell'app. Questo approccio potrebbe essere utile se gestisci molti dispositivi e stai utilizzando una soluzione di gestione dei dispositivi mobili e delle applicazioni mobili come [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Per informazioni su come utilizzare Intune per aggiungere applicazioni, vedi [Aggiungere app in Microsoft Intune](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Creare un'applicazione servizio Web in Azure Active Directory
 
@@ -89,11 +89,11 @@ Per abilitare l'app del magazzino per interagire con un server Supply Chain Mana
 
 Per ulteriori informazioni su come impostare le applicazioni dei servizi Web in Azure AD, vedi le seguenti risorse:
 
-- Per istruzioni che mostrano come utilizzare Windows PowerShell per configurare le applicazioni del servizio Web in Azure AD, vedi [Procedure: Usare Azure PowerShell per creare un'entità servizio con un certificato](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Per istruzioni che mostrano come utilizzare Windows PowerShell per configurare le applicazioni del servizio Web in Azure AD, vedi [Procedure: Usare Azure PowerShell per creare un'entità servizio con un certificato](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Per i dettagli completi su come creare manualmente un'applicazione di servizio Web in Azure AD, vedi i seguenti argomenti:
 
-    - [Guida introduttiva: Registrare un'applicazione con Microsoft Identity Platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Procedure: Usare il portale per creare un'applicazione Azure AD e un'entità servizio che possano accedere alle risorse](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Guida introduttiva: Registrare un'applicazione con Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app)
+    - [Procedure: Usare il portale per creare un'applicazione Azure AD e un'entità servizio che possano accedere alle risorse](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Creare e configurare un account utente in Supply Chain Management
 
@@ -121,7 +121,7 @@ L'autenticazione con Azure AD fornisce un modo sicuro per connettere un disposit
 
 I certificati possono essere utilizzati come segreti per dimostrare l'identità dell'applicazione quando viene richiesto un token. La parte pubblica del certificato viene caricata nella registrazione dell'app nel portale di Azure, mentre il certificato completo deve essere distribuito su ogni dispositivo in cui è installata l'app del magazzino. La tua organizzazione è responsabile della gestione del certificato in termini di rotazione e così via. Puoi utilizzare certificati autofirmati, ma è sempre necessario utilizzare certificati non esportabili.
 
-Devi rendere il certificato disponibile localmente su ciascun dispositivo su cui viene eseguita l'app del magazzino. Per informazioni su come gestire i certificati per i dispositivi controllati da Intune se utilizzi Intune, vedi [Usare i certificati per l'autenticazione in Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Devi rendere il certificato disponibile localmente su ciascun dispositivo su cui viene eseguita l'app del magazzino. Per informazioni su come gestire i certificati per i dispositivi controllati da Intune se utilizzi Intune, vedi [Usare i certificati per l'autenticazione in Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurare l'applicazione importando le impostazioni di connessione
 

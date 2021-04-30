@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745839"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907913"
 ---
 # <a name="create-new-users"></a>Creare nuovi utenti
 
@@ -29,10 +29,10 @@ Prima di poter accedere alle app Finance and Operations, devi prima essere aggiu
 Per informazioni su come acquistare e ottenere la licenza per le app Finance and Operations, vedi la [Guida alle licenze Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Assegnare una licenza a un utente
-Gli amministratori di sistema possono [assegnare licenze a utenti](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) nell'[interfaccia di amministrazione di Microsoft 365](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide).
+Gli amministratori di sistema possono [assegnare licenze a utenti](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) nell'[interfaccia di amministrazione di Microsoft 365](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Aggiungere un utente esterno in Azure AD e assegnare una licenza 
-Gli utenti esterni devono essere rappresentati nella directory del tenant (Azure Active Directory (Azure AD)) in modo che possano essere assegnate loro le licenze. Tali utenti esterni devono essere aggiunti al tenant in Azure AD come utenti guest e devono quindi esservi assegnate le licenze appropriate. Un requisito per le app Finance and Operations prevede che l'azienda dell'utente ospite debba utilizzare Azure AD. Per ulteriori informazioni, vedere [Aggiungere utenti di collaborazione B2B Azure Active Directory nel portale di Azure ](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Gli utenti esterni devono essere rappresentati nella directory del tenant (Azure Active Directory (Azure AD)) in modo che possano essere assegnate loro le licenze. Tali utenti esterni devono essere aggiunti al tenant in Azure AD come utenti guest e devono quindi esservi assegnate le licenze appropriate. Un requisito per le app Finance and Operations prevede che l'azienda dell'utente ospite debba utilizzare Azure AD. Per ulteriori informazioni, vedere [Aggiungere utenti di collaborazione B2B Azure Active Directory nel portale di Azure ](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Importare nuovi utenti da Azure AD 
 1. Passa a **Amministrazione sistema** \> **Utente** \> **Utenti**.
@@ -57,7 +57,7 @@ Gli utenti esterni devono essere rappresentati nella directory del tenant (Azure
 7. Nel campo **Azienda** seleziona la società di avvio predefinita per l'utente. 
 8. Selezionare **Salva**.
 
-I valori per il provider di identità e l'ID di telemetria verranno aggiornati in base a una chiamata [Microsoft Graph](https://docs.microsoft.com/graph/overview), quando il record dell'utente viene salvato. L'ID di telemetria si basa sull'ID oggetto/ identificatore di sicurezza (SID) dell'utente in Azure AD.
+I valori per il provider di identità e l'ID di telemetria verranno aggiornati in base a una chiamata [Microsoft Graph](/graph/overview), quando il record dell'utente viene salvato. L'ID di telemetria si basa sull'ID oggetto/ identificatore di sicurezza (SID) dell'utente in Azure AD.
 
 > [!NOTE]
 > Dopo aver aggiunto un utente, è necessario assegnare ruoli e organizzazioni in base alle esigenze. Per ulteriori informazioni, vedere [Assegnare utenti a ruoli di sicurezza](assign-users-security-roles.md). A seconda delle condizioni, potrebbe anche essere necessario associare l'utente a un **Utente tipo** e aggiornare le **opzioni dell'utente** come la lingua.

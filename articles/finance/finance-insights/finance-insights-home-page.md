@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818562"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898062"
 ---
 # <a name="finance-insights-home-page-preview"></a>Home page informazioni dettagliate finanziarie (anteprima)
 
@@ -31,7 +31,7 @@ Informazioni dettagliate finanziarie fornisce modelli configurabili ed estendibi
 
 È disponibile un'anteprima di Informazioni dettagliate finanziarie per le distribuzioni di valutazione negli Stati Uniti, in Europa e nel Regno Unito. Microsoft sta aggiungendo in modo incrementale il supporto per più aree geografiche.
 
-Le funzionalità di anteprima possono e devono essere attivate solo negli ambienti sandbox di livello 2. I modelli di configurazione e intelligenza artificiale creati in un ambiente sandbox non possono essere migrati in un ambiente di produzione. Per ulteriori informazioni, vedi [Condizioni integrative per le versioni di anteprima di Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Le funzionalità di anteprima possono e devono essere attivate solo negli ambienti sandbox di livello 2. I modelli di configurazione e intelligenza artificiale creati in un ambiente sandbox non possono essere migrati in un ambiente di produzione. Per ulteriori informazioni, vedi [Condizioni integrative per le versioni di anteprima di Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -43,7 +43,7 @@ Per candidarti al programma di anteprima, compila il [contratto per l'anteprima 
 
 ### <a name="system-requirements"></a>Requisiti di sistema
 
-È necessario un ambiente sandbox di livello 2 (multi-box) per visualizzare in anteprima Informazioni finanziarie dettagliate. Per informazioni di background sugli ambienti, vedere [Pianificazione ambiente](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+È necessario un ambiente sandbox di livello 2 (multi-box) per visualizzare in anteprima Informazioni finanziarie dettagliate. Per informazioni di background sugli ambienti, vedere [Pianificazione ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Requisiti di versione
 
@@ -79,7 +79,7 @@ Dovrai creare un progetto di integrazione di dati in modo da creare un flusso di
 Dopo aver completato i passaggi di configurazione e configurato i dati demo, è necessario attivare e configurare ogni funzionalità che prevedi di utilizzare: previsioni di pagamento del cliente, previsione di cassa e proposte di budget.
 
 ### <a name="enable-customer-payment-predictions"></a>Abilitare le previsioni di pagamento del cliente
-Se utilizzi i dati dimostrativi per testare le previsioni di pagamento dei clienti, è consigliabile importare dati dimostrativi aggiuntivi per creare correttamente il tuo modello di intelligenza artificiale. Per i passaggi specifici per importare i dati demo, vedi [Configurare i dati dimostrativi per le previsioni di pagamento](set-up-demo-data.md).
+Se utilizzi i dati dimostrativi per testare le previsioni di pagamento dei clienti, è consigliabile importare dati dimostrativi aggiuntivi per creare correttamente il tuo modello di intelligenza artificiale. 
 
 Per abilitare le previsioni di pagamento del cliente, è necessario completare una serie di passaggi per creare un modello di apprendimento automatico che utilizza i dati della tua organizzazione per generare previsioni su quando è probabile che i clienti paghino le fatture in sospeso e quando è probabile che vengano pagate fatture specifiche. Per ulteriori informazioni e per i passaggi specifici da completare, vedi [Abilitare le previsioni di pagamento dei clienti](enable-cust-paymnt-prediction.md). 
 

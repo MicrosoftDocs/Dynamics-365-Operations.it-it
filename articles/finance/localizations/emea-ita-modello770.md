@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 45627075930f570e421846880947e63a784c3f28
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ad1ff7bc9b7f29a687801d17a697a7d41061b4fb
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814916"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894728"
 ---
 # <a name="modello-770-report"></a>Report Modello 770
 
@@ -78,7 +78,7 @@ Scaricare le *versioni effettive* delle configurazioni delle dichiarazioni elett
 - **Modello dati:** modello dei report fiscali italiani
 - **Formato:** Modello 770 (IT)
  
-Per istruzioni su come scaricare le configurazioni dei report elettronici, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Per istruzioni su come scaricare le configurazioni dei report elettronici, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 ## <a name="create-and-export-the-model-770-report"></a>Creare ed esportare il Modello 770
 Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli uffici tributari. Il nome del file ASCII deve essere \[partita IVA della società\] 77S\[*AA*\].77s, dove **AA** corrisponde alle ultime due cifre dell'anno di riferimento. Per ulteriori informazioni sul completamento e la presentazione del Modello 770, vedere il sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).

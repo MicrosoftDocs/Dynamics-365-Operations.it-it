@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823459"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907693"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrazione all'ottimizzazione di pianificazione per la pianificazione generale
 
@@ -63,8 +63,12 @@ Attualmente le eccezioni per la migrazione di Ottimizzazione pianificazione sono
 
 Dopo che le funzionalità richieste diventano disponibili, Microsoft fornirà un periodo di tolleranza fino alla scadenza dell'eccezione. L'amministratore dell'ambiente verrà informato quando le funzionalità richieste saranno disponibili e il periodo di tolleranza è iniziato.
 
+Il diagramma di flusso seguente riepiloga le informazioni fornite in questo argomento in modo da poter scoprire rapidamente se è necessario richiedere un'eccezione. Se devi richiedere un'eccezione, compila e invia il [questionario sulla migrazione e sulle eccezioni di Ottimizzazione pianificazione](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Diagramma di flusso delle eccezioni](media/exception-diagram.png "Diagramma di flusso delle eccezioni")
+
 > [!NOTE]
-> Puoi richiedere un'eccezione solo per gli ambienti di produzione, non per gli ambienti sandbox. Se è necessario disabilitare l'errore di eccezione di Ottimizzazione pianificazione su un ambiente sandbox IaaS (Infrastructure as a Service), eseguire la query SQL fornita in [Ambienti sandbox](#faq-sandbox).
+> È possibile richiedere un'eccezione solo per i tenant che attualmente includono, o includeranno, un ambiente di produzione, non solo per tenant con ambienti sandbox. Se è necessario disabilitare l'errore di eccezione di Ottimizzazione pianificazione su un ambiente sandbox IaaS (Infrastructure as a Service), eseguire la query SQL fornita in [Ambienti sandbox](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 

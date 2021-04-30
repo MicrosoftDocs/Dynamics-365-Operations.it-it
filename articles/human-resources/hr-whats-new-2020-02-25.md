@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc79c464f74961fd431f1d42583e4dcd67c30fb9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e0ff8fa382ea186426b6f6ceff6044dc35496373
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790406"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893378"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (25 febbraio 2020)
 
@@ -103,7 +103,7 @@ Le seguenti funzionalità di anteprima diventano disponibili a partire dal 3 feb
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
 

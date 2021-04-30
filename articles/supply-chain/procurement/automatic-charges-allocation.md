@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841481"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910163"
 ---
 # <a name="automatic-allocation-of-charges"></a>Allocazione automatica degli addebiti
 
@@ -144,7 +144,7 @@ Dopo aver impostato i codici di addebito, seguire questi passaggi per definire g
     - **Sito** e **Magazzino** - Specificare un sito e un magazzino se gli addebiti devono essere applicati solo per un sito e un magazzino specifici.
     - **Conserva** – Selezionare questa casella di controllo per conservare le transazioni addebiti dopo il completamento della fatturazione, in modo che l'addebito venga applicato ogni volta che si crea una nuova fattura per il conto cliente selezionato.
 
-1. **Solo per ordini cliente:** Se si desidera calcolare gli addebiti a più livelli, vedere [Addebiti a più livelli sugli ordini cliente](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) per informazioni.
+1. **Solo per ordini cliente:** Se si desidera calcolare gli addebiti a più livelli, vedere [Addebiti a più livelli sugli ordini cliente](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) per informazioni.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Allocare gli addebiti dall'intestazione a una riga
 

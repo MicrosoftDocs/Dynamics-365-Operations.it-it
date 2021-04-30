@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 184f0f22d4587b25b02ca3d425ab26a6f8ab23f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836616"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907743"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Giorni negativi e giorni negativi dinamici
 
@@ -247,7 +247,7 @@ Per garantire l'immissione dei valori corretti per la propria società, è neces
 
 ## <a name="see-also"></a>Vedere anche
 
-Per ulteriori informazioni, vedere il post del blog [Altre informazioni sui giorni negativi (dinamici)](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+Per ulteriori informazioni, vedere il post del blog [Altre informazioni sui giorni negativi (dinamici)](/archive/blogs/axmfg/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

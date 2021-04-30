@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840102"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894779"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Introduzione alla fatturazione elettronica per l'Italia
 
@@ -201,7 +201,7 @@ Dopo aver attivato la funzionalità **Integrazione della fatturazione elettronic
 È possibile inviare i documenti manualmente, in base alla richiesta di documenti di fatturazione elettronica.
 
 > [!NOTE]
-> Prima di continuare, verifica che la configurazione obbligatoria per le fatture elettroniche italiane sia stata completata. Per ulteriori informazioni, vedi [Fatture elettroniche dei clienti](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Tieni presente che alcuni dei passaggi di configurazione descritti in tale argomento potrebbero non essere disponibili a causa dell'attivazione della fatturazione elettronica.
+> Prima di continuare, verifica che la configurazione obbligatoria per le fatture elettroniche italiane sia stata completata. Per ulteriori informazioni, vedi [Fatture elettroniche dei clienti](./emea-ita-e-invoices.md). Tieni presente che alcuni dei passaggi di configurazione descritti in tale argomento potrebbero non essere disponibili a causa dell'attivazione della fatturazione elettronica.
 
 1. Vai a **Amministrazione organizzazione \> Periodico \> Documenti elettronici \> Invia documenti elettronici**.
 2. Per il primo invio di qualsiasi documento, imposta l'opzione **Invia di nuovo i documenti** su **No**. Se devi inviare nuovamente un documento tramite il servizio, imposta questa opzione su **Sì**.

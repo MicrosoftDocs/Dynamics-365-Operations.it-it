@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792027"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906651"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Impostare buoni sconto per le vendite al dettaglio
 
@@ -38,6 +38,8 @@ Per creare un buono sconto, verranno creati separatamente lo sconto e il buono s
 
 > [!NOTE]
 > Dopo che un buono sconto è stato collegato a uno sconto, diversi campi presenti nella pagina dei buoni sconto in Commerce diventano di sola lettura, poiché vengono gestiti dalle impostazioni del buono sconto. Questi campi includono i campi per lo stato e gli intervalli di date standard.
+> 
+> Durante l'utilizzo del coupon nel canale del call center, è necessario selezionare il pulsante **Ricalcola** **(Scheda Vendi > Calcola > Ricalcola)** affinché venga applicato lo sconto associato al coupon. Questo passaggio aggiuntivo verrà rimosso in una versione futura.
 
 ### <a name="limited-use-coupons"></a>Buoni sconti a utilizzo limitato
 

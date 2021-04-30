@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791535"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892277"
 ---
 # <a name="update-process"></a>Aggiornare un processo
 
@@ -39,7 +39,7 @@ Gli aggiornamenti vengono rilasciati a cadenza regolare per tutti gli ambienti. 
 
 Gli aggiornamenti di Human Resources vengono applicati automaticamente a tutti gli ambienti. Human Resources fornisce due tipi di rilasci:
 
-- **Aggiornamenti del servizio**: aggiornamenti bisettimanali che includono correzioni di bug e nuove funzionalità. Gli aggiornamenti del servizio includono anche gli aggiornamenti applicabili della piattaforma quando vengono rilasciati. Per avere un'idea di quando vengono rilasciati gli aggiornamenti della piattaforma, vedere [Tabella 3: versioni della piattaforma ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Gli aggiornamenti bisettimanali prevedono un'implementazione globale in fasi tra le regioni. Per ulteriori informazioni sugli aggiornamenti bisettimanali, vedere [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Aggiornamenti del servizio**: aggiornamenti bisettimanali che includono correzioni di bug e nuove funzionalità. Gli aggiornamenti del servizio includono anche gli aggiornamenti applicabili della piattaforma quando vengono rilasciati. Per avere un'idea di quando vengono rilasciati gli aggiornamenti della piattaforma, vedere [Tabella 3: versioni della piattaforma ](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Gli aggiornamenti bisettimanali prevedono un'implementazione globale in fasi tra le regioni. Per ulteriori informazioni sugli aggiornamenti bisettimanali, vedere [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Tutti i datacenter supportati vengono aggiornati ogni due settimane, salvo diversa indicazione. Gli Stati Uniti, l'Australia, l'Europa, il Regno Unito, l'Asia e il Canada sono inclusi negli aggiornamenti bisettimanali. 
 
@@ -71,11 +71,11 @@ La cadenza di rilascio bisettimanale riprenderà come al solito l'10 gennaio 202
 
 - [Roadmap di Dynamics 365 Human Resources](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Piani di rilascio di Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Piani di rilascio di Dynamics 365](/dynamics365/release-plans/)
 
 - [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [Ricerca di problemi in Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (solo per bug relativi alla piattaforma)
+- [Ricerca di problemi in Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (solo per bug relativi alla piattaforma)
 
 - [Blog di Human Resources](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ La cadenza di rilascio bisettimanale riprenderà come al solito l'10 gennaio 202
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Funzionalità di anteprima in un ambiente sandbox
 
-È possibile convalidare le funzionalità di anteprima in un ambiente sandbox prima di abilitarle nell'ambiente di produzione. Per ulteriori informazioni sull'abilitazione delle funzionalità, vedere [Panoramica della gestione funzionalità](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+È possibile convalidare le funzionalità di anteprima in un ambiente sandbox prima di abilitarle nell'ambiente di produzione. Per ulteriori informazioni sull'abilitazione delle funzionalità, vedere [Panoramica della gestione funzionalità](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Tutte le nuove funzionalità rimangono in anteprima per almeno 30 giorni e in genere per 30-60 giorni. Le principali funzionalità sono generalmente disponibili in ottobre e aprile di ogni anno successivo al periodo di anteprima. Non appena nuove funzioni sono presenti nell'area di lavoro Gestione funzionalità, è possibile attivarle. Alcune funzionalità possono essere attive per impostazione predefinita.
 
@@ -101,9 +101,9 @@ Durante il test delle funzionalità di anteprima o di nuove funzionalità, è po
 
 ## <a name="see-also"></a>Vedere anche
 
-[Piani di rilascio di Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Piani di rilascio di Dynamics 365 e Power Platform](/dynamics365/release-plans)</br>
 [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
-[Criteri del ciclo di vita del software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Criteri del ciclo di vita del software](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

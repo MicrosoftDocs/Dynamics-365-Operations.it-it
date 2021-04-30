@@ -2,11 +2,11 @@
 title: Registrare i leasing in valuta estera
 description: In questo argomento viene illustrato come registrare i leasing in valute diverse dalla valuta contabile o di dichiarazione.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f1f9153d627eba4c3c79a764cffec6a2f008818
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 989977fd038ecc6e3276085d795192f5dcab42eb
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819748"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881592"
 ---
 # <a name="record-leases-in-foreign-currencies"></a>Registrare i leasing in valuta estera
 

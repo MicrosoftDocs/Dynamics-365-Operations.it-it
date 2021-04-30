@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791949"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857275"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -142,6 +142,9 @@ UWP, nel caso di periferiche, è correlato a supporto di Windows per i dispositi
 ### <a name="keyboard-wedge"></a>Lettore collegato alla tastiera
 
 I lettori collegati alla tastiera inviano i dati nel computer come se tali dati fossero digitati su una tastiera. Pertanto, per impostazione predefinita, il campo attivo nel POS riceverà i dati sottoposti a scansione o passati. In alcuni casi, questo comportamento può determinare la scansione del tipo errato di dati nel campo errato. Ad esempio, un codice a barre può essere letto in un campo che viene utilizzato per l'entrata dei dati della carta di credito. In molti casi, esiste una logica nel POS che determina se i dati letti o passati sono un codice a barre o un passaggio di carta. Di conseguenza, i dati vengono gestiti correttamente. Tuttavia, quando i dispositivi sono impostati come OPOS anziché come lettori collegati alla tastiera, c'è più controllo su come i dati da queu dispositivi possono essere consumati, poiché si "sa" di più del dispositivo da cui derivano i dati. Ad esempio, i dati da uno scanner di codice a barre vengono riconosciuti automaticamente come codice a barre e il record associato nel database viene trovato più facilmente e più velocemente rispetto a se una stringa di ricerca generica fosse utilizzata, come nel caso dei lettori collegati alla tastiera.
+
+> [!NOTE]
+> Quando nel POS vengono utilizzati scanner con lettore collegato alla tastiera, è necessario programmarli per inviare un ritorno a capo, o un evento **Immetti**, dopo l'ultimo carattere sottoposto a scansione. Se questa configurazione non viene eseguita, gli scanner con lettore collegato alla tastiera non funzioneranno correttamente. Consultare la documentazione fornita dal produttore del dispositivo per i dettagli su come aggiungere l'evento di ritorno a capo.  
 
 ### <a name="native-printer"></a>Stampante nativa
 

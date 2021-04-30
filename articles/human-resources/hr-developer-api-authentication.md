@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94d76a9f6d4a3d7afcb9b85d961899880ca9fc75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793683"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893450"
 ---
 # <a name="authentication"></a>Autenticazione
 
@@ -82,7 +82,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Per le app Web, fornire l'URL di base dell'app. Ad esempio, `http://localhost:31544` potrebbe essere l'URL di un'app Web in esecuzione sul computer locale. Gli utenti quindi utilizzano questo URL per accedere a un'app client Web.
         - Per le app client pubbliche, fornire l'URI che Azure AD utilizza per restituire risposte token. Immettere un valore specifico alla propria app, ad esempio `myapp://auth`.
 
-        Per vedere esempi specifici di app Web o app native, vedere le guide introduttive in [Piattaforma di identità Microsoft (precedentemente nota come Azure Active Directory per gli sviluppatori)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Per vedere esempi specifici di app Web o app native, vedere le guide introduttive in [Piattaforma di identità Microsoft (precedentemente nota come Azure Active Directory per gli sviluppatori)](/azure/active-directory/develop/#quickstarts).
 
 5. Sotto **Autorizzazioni API**, selezionare **Aggiungi un'autorizzazione**. Quindi, nella scheda **API utilizzate dalla mia organizzazione**, cercare **Dynamics 365 Human Resources** e aggiungere l'autorizzazione **user\_impersonation** all'app. L'ID applicazione per Human Resources è f9be0c49-aa22-4ec6-911a-c5da515226ff. Utilizzare questo ID per assicurarsi di aver scelto l'applicazione corretta.
 

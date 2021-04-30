@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810176"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897578"
 ---
 # <a name="dimension-hierarchy"></a>Gerarchia dimensioni
 
@@ -331,7 +331,7 @@ Le impostazioni per la gerarchia dell'elenco accessi vengono utilizzate per cont
     - Le visualizzazioni dei dati di Power BI sono incorporate nel client Dynamics 365 Finance
 
 > [!NOTE] 
-> - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La gerarchia elenco accessi non rende sicura l'esportazione dei dati in Excel. Di conseguenza, lo strumento di creazione report dovrà essere utilizzato solo dai responsabili e dai contabili che devono avere l'accesso completo per visualizzare i dati.
 
 

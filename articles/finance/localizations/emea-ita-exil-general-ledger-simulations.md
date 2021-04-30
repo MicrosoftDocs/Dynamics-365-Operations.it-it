@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 05f53dda7bba09bc155437ce221c86bb4ec88db7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3063f2b4ab21efb887ee983bf902729092b0ea81
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814942"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894752"
 ---
 # <a name="general-ledger-simulations"></a>Simulazioni di contabilità generale
 
@@ -38,7 +38,7 @@ Questa funzionalità è disponibile solo per le persone giuridiche con un indiri
 Per poter utilizzare le simulazioni di contabilità generale, è necessario soddisfare i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica è in italia.
-- Abilitare la funzionalità **Simulazioni di contabilità generale** nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- Abilitare la funzionalità **Simulazioni di contabilità generale** nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Impostazione 
 

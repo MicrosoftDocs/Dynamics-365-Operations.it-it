@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753578"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894078"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Progettare una nuova configurazione ER per generare report in formato Word
 
@@ -38,7 +38,7 @@ Per utilizzare un documento Word come modello per report in formato Word, è pos
 Il componente di formato ER della soluzione deve contenere l'elemento di formato **Excel\\File** e tale elemento di formato deve essere collegato al documento di Word che verrà utilizzato come modello per i report generati in fase di esecuzione. Per configurare il componente formato ER, è necessario aprire la versione [bozza](general-electronic-reporting.md#component-versioning) della configurazione ER creata nella finestra di progettazione del formato ER. Quindi aggiungere l'elemento **Excel\\File**, allegare il modello di Word al formato ER modificabile e collegare tale modello all'elemento **Excel\\File** aggiunto.
 
 > [!NOTE]
-> Quando si collega manualmente un modello, devi utilizzare un [tipo di documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) che è stato [configurato](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) in precedenza nei parametri ER per archiviare i modelli dei formati ER.
+> Quando si collega manualmente un modello, devi utilizzare un [tipo di documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) che è stato [configurato](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) in precedenza nei parametri ER per archiviare i modelli dei formati ER.
 
 ![Allegare un modello nella pagina Progettazione formati](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ Puoi aggiungere gli elementi nidificati **Excel\\Intervallo** ed **Excel\\Cella*
 
 ![Aggiunta degli elementi nidificati nella pagina Progettazione formati](./media/er-design-configuration-word-image4.gif)
 
-Quando si salvano le modifiche al formato ER in fase di progettazione, la struttura gerarchica del formato viene archiviata nel modello Word allegato come [parte XML personalizzata](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) denominata **Report**. È necessario accedere al modello modificato, scaricarlo da Finance, archiviarlo localmente e aprirlo nell'applicazione desktop Word. La figura seguente mostra il modello di esempio archiviato localmente per il report di controllo che contiene la parte XML personalizzata **Report**.
+Quando si salvano le modifiche al formato ER in fase di progettazione, la struttura gerarchica del formato viene archiviata nel modello Word allegato come [parte XML personalizzata](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) denominata **Report**. È necessario accedere al modello modificato, scaricarlo da Finance, archiviarlo localmente e aprirlo nell'applicazione desktop Word. La figura seguente mostra il modello di esempio archiviato localmente per il report di controllo che contiene la parte XML personalizzata **Report**.
 
 ![Visualizzazione in anteprima del modello di report di esempio nell'applicazione desktop di Word](./media/er-design-configuration-word-image5.gif)
 
-Quando le associazioni degli elementi di formato **Excel\\Intervallo** e **Excel\\Cella** vengono eseguiti in fase di esecuzione, i dati forniti da ogni associazione entrano nel documento Word generato come un singolo campo della parte XML personalizzata **Report**. Per inserire i valori dai campi della parte XML personalizzata in un documento generato, è necessario aggiungere i [controlli del contenuto](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) Word appropriati al modello di Word per fungere da segnaposto per i dati che verranno compilati in fase di esecuzione. Per specificare la modalità di compilazione dei controlli del contenuto, eseguire il mapping di ogni controllo del contenuto al campo appropriato della parte XML personalizzata **Report**.
+Quando le associazioni degli elementi di formato **Excel\\Intervallo** e **Excel\\Cella** vengono eseguiti in fase di esecuzione, i dati forniti da ogni associazione entrano nel documento Word generato come un singolo campo della parte XML personalizzata **Report**. Per inserire i valori dai campi della parte XML personalizzata in un documento generato, è necessario aggiungere i [controlli del contenuto](/office/client-developer/word/content-controls-in-word) Word appropriati al modello di Word per fungere da segnaposto per i dati che verranno compilati in fase di esecuzione. Per specificare la modalità di compilazione dei controlli del contenuto, eseguire il mapping di ogni controllo del contenuto al campo appropriato della parte XML personalizzata **Report**.
 
 ![Aggiunta e mapping dei controlli del contenuto nell'applicazione desktop Word](./media/er-design-configuration-word-image6.gif)
 

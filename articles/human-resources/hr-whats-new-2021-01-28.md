@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36509cc5663073fd1e3b7f41a600c7816bfbdff6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4fbf3034805146c3900b46f5ccce76e63b0805a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791247"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893079"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Novità o modifiche in Dynamics 365 Human Resources 28 gennaio 2021
 
@@ -31,7 +31,7 @@ Questo argomento descrive le funzionalità nuove, modificate o presto disponibil
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
-Per ulteriori informazioni sulle nuove funzionalità e sulle date di disponibilità generale previste, vedere [Panoramica del secondo ciclo di rilascio del 2021 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Per ulteriori informazioni sulle nuove funzionalità e sulle date di disponibilità generale previste, vedere [Panoramica del secondo ciclo di rilascio del 2021 di Dynamics 365 Human Resources](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>In questa versione
 
@@ -68,8 +68,8 @@ Le seguenti nuove funzionalità sono in anteprima. Per ulteriori informazioni su
 
 | Funzionalità | Piano di rilascio | Documentazione |
 | --- | --- | --- |
-| App Human Resources in Microsoft Teams | [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [App Human Resources in Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Gestire le richieste di congedo in Teams](hr-teams-leave-app.md) |
-| Visualizzazione interaziendale del congedo per responsabili | [Visualizzazione interaziendale del congedo dei dipendenti per responsabili](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Configurare i parametri di congedo e assenza](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
+| App Human Resources in Microsoft Teams | [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [App Human Resources in Teams](./hr-admin-teams-leave-app.md)<br>[Gestire le richieste di congedo in Teams](hr-teams-leave-app.md) |
+| Visualizzazione interaziendale del congedo per responsabili | [Visualizzazione interaziendale del congedo dei dipendenti per responsabili](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Configurare i parametri di congedo e assenza](./hr-leave-and-absence-parameters.md) |
 
 ## <a name="coming-soon"></a>Presto disponibili
 
@@ -78,20 +78,20 @@ Le seguenti nuove funzionalità sono in anteprima. Per ulteriori informazioni su
 | Conferma tramite e-mail per le iscrizioni dei benefit | Questa funzione fornirà un'opzione per inviare un e-mail di conferma ai dipendenti quando effettuano il check-out dalle esperienze di registrazione dei vantaggi in self-service dei dipendenti. Questa funzione sarà disponibile il 1° febbraio. Per ulteriori informazioni, vedi [Configurare i parametri di gestione dei benefit per azienda](hr-benefits-setup-parameters-per-company.md). |
 | Le competenze immesse da un manager per i propri dipendenti possono essere approvate automaticamente da un flusso di lavoro | Presto disponibili. |
 
-Per un elenco completo delle funzionalità pianificate e delle relative versioni pianificate, vedi [Panoramica del primo ciclo di rilascio del 2021 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Per un elenco completo delle funzionalità pianificate e delle relative versioni pianificate, vedi [Panoramica del primo ciclo di rilascio del 2021 di Dynamics 365 Human Resources](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Aggiornamenti terminologici per Microsoft Dataverse
 
-A partire da novembre 2020, Common Data Service è stato rinominato in [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). Vedi l'[ annuncio ufficiale](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) sul blog Power Apps per saperne di più. Insieme a questo cambio di nome, è stata aggiornata un po 'di terminologia in Dataverse. Ad esempio, *entità* è ora *tabella* e *campo* è ora *colonna*. Per ulteriori informazioni, vedere [Aggiornamenti della terminologia](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
+A partire da novembre 2020, Common Data Service è stato rinominato in [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro). Vedi l'[ annuncio ufficiale](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) sul blog Power Apps per saperne di più. Insieme a questo cambio di nome, è stata aggiornata un po 'di terminologia in Dataverse. Ad esempio, *entità* è ora *tabella* e *campo* è ora *colonna*. Per ulteriori informazioni, vedere [Aggiornamenti della terminologia](/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
 
 In questa versione, la terminologia relativa all'integrazione Dynamics 365 Human Resources con Dataverse è stata aggiornata in tutta l'applicazione per riflettere questi cambiamenti. Ad esempio, il modulo **Integrazione Common Data Service** è ora **Integrazione Microsoft Dataverse**.
 
-Per saperne di più sull'integrazione di Dynamics 365 Human Resources con Microsoft Dataverse, vedi [Configura integrazione Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) e [Configura tabelle virtuali di Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Per saperne di più sull'integrazione di Dynamics 365 Human Resources con Microsoft Dataverse, vedi [Configura integrazione Microsoft Dataverse](./hr-admin-integration-common-data-service.md) e [Configura tabelle virtuali di Microsoft Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica del primo ciclo di rilascio del 2021 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Panoramica del primo ciclo di rilascio del 2021 di Dynamics 365 Human Resources](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
 

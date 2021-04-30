@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814658"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907719"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -136,7 +136,7 @@ Il lavoratore seleziona il terzo processo nella scheda **Tutti i processi** e qu
 
 ## <a name="working-on-indirect-activities"></a>Utilizzo delle attività indirette
 
-Le attività indirette sono attività che non sono direttamente correlate a un ordine di produzione. Le attività indirette possono essere definite in modo flessibile, come descritto in [Impostare attività indirette per orario e presenze](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Le attività indirette sono attività che non sono direttamente correlate a un ordine di produzione. Le attività indirette possono essere definite in modo flessibile, come descritto in [Impostare attività indirette per orario e presenze](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Ad esempio, Shannon, una lavoratrice del reparto produzione presso Contoso, desidera partecipare a una riunione aziendale e le riunioni sono considerate un'attività indiretta. Si applica uno dei due scenari seguenti:
 

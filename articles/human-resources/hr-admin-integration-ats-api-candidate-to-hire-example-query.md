@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea6fc745ffb5892a32196394cb28cb5e646b7639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a8c3655e7ff609eedbf92fa90a36b65002f40306
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795071"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893474"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Query di esempio per il candidato da assumere
 
@@ -27,7 +27,7 @@ ms.locfileid: "5795071"
 
 Questo argomento fornisce una query di esempio per l'entità Candidato da assumere in Dynamics 365 Human Resources.
 
-Questo argomento fornisce un esempio che dimostra come utilizzare *inserti profondi* per creare tutti i dettagli di un nuovo record candidato in una singola operazione API. Per ulteriori informazioni sugli inserti profondi, vedi [Crea record di entità correlate in un'unica operazione ](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+Questo argomento fornisce un esempio che dimostra come utilizzare *inserti profondi* per creare tutti i dettagli di un nuovo record candidato in una singola operazione API. Per ulteriori informazioni sugli inserti profondi, vedi [Crea record di entità correlate in un'unica operazione ](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 L'entità **mshr_hcmcandidatetohireentity** è unica a causa della sua relazione con l'entità **mshr_dirpersonentity**. Molte delle proprietà su **mshr_hcmcandidatetohireentity** (ad esempio,**mshr_firstname**, **mshr_lastname** e **mshr_birthdate**) sono derivati dal record **mshr_dirpersonentity**. Se pubblichi un nuovo record candidato in **mshr_hcmcandidatetohireentity** senza utilizzare inserti profondi, puoi definire i valori per queste proprietà direttamente nel record **mshr_hcmcandidatetohireentity**. Il record associato **mshr_dirpersonentity** viene creato implicitamente con i valori definiti per le proprietà. Puoi quindi creare qualsiasi altro record di entità correlato (ad esempio competenze o istruzione) come chiamate API separate.
 

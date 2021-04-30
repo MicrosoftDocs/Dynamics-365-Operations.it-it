@@ -2,7 +2,7 @@
 title: Guida
 description: Questo argomento fornisce una panoramica della Guida per le app Finance and Operations.
 author: edupont04
-ms.date: 05/11/2020
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46168dd9001921471114c219c57856b7bedf6465
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749830"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897818"
 ---
 # <a name="help-system"></a>Guida
 
@@ -161,7 +161,7 @@ Nella tabella riportata di seguito sono elencati i nostri siti Web. I siti con u
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Questo sito ospita contenuto delle versioni precedenti. |
 | [Community di Dynamics](https://community.dynamics.com/) | Questo sito ospita blog, forum e video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Questo sito fornisce informazioni su vendite e valutazione. |
-| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Questo sito ospita risorse di formazione, report e white paper scaricabili ed è il sito principale del supporto per i titolari di piani di assistenza. L'accesso ad alcune risorse su questo sito potrebbe richiedere un piano di servizio. |
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 58d3fc32e3ad1f9293de58543626723e6dfa31f1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a056fcc3d2656cc4468cbd0c6190788c28e1d679
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814926"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894736"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -30,7 +30,7 @@ La funzione di gestione avanzata delle note ti consente di impostare note predef
 
 Prima di iniziare la configurazione, è necessario soddisfare i seguenti prerequisiti:
 
-- La funzionalità **Gestione avanzata delle note** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Gestione avanzata delle note** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="advanced-notes-setup"></a>Impostazioni note libere
 

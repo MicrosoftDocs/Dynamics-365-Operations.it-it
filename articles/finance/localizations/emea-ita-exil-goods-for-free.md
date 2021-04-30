@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: mrolecki
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c4f980f688cb7322f545a16fbafd41ab786e0010
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86fd4cb7ef8490ce3239f6cfec80fec02cd53ad7
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814940"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894750"
 ---
 # <a name="tax-invoice-for-goods-delivered-for-free"></a>Fattura fiscale per le merci consegnate gratuitamente
 
@@ -38,7 +38,7 @@ la causale della consegna sulla fattura determina il caso da utilizzare.
 ## <a name="prerequisites"></a>Prerequisiti
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- Nell'area di lavoro **Gestione funzionalità**, attivare la funzionalità **Fattura fiscale per le merci consegnate gratuitamente**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- Nell'area di lavoro **Gestione funzionalità**, attivare la funzionalità **Fattura fiscale per le merci consegnate gratuitamente**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-summary-update-parameters"></a>Impostare i parametri di aggiornamento riepilogativo
 

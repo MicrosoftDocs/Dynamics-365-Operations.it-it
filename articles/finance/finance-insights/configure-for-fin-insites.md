@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818802"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908832"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Configurazione per Informazioni finanziarie dettagliate (anteprima)
 
@@ -69,7 +69,7 @@ Puoi completare i passaggi di configurazione manuale che seguono oppure accelera
     13. Seleziona **Risorse \> Tutte le impostazioni legacy**.
     14. Nella barra di spostamento in alto, seleziona **Impostazioni** e quindi seleziona **Personalizzazioni**.
     15. Seleziona **Risorse per sviluppatori**.
-    16. Imposta il campo **ID informazioni di riferimento istanza** sull'ID organizzazione di Dataverse di cui hai preso nota in precedenza.
+    16. Copia il valore di **ID organizzazione Dataverse**.
     17. Nella barra degli indirizzi del browser, prendi nota dell'URL dell'organizzazione Dataverse. Ad esempio, l'URL potrebbe essere `https://org42b2b3d3.crm.dynamics.com`.
 
 2. Se prevedi di utilizzare la funzionalità Previsioni di cassa o Previsioni di budget, segui questi passaggi per aggiornare il limite di annotazioni per la tua organizzazione ad almeno 50 megabyte (MB):
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[Utilizzare uno script di Windows PowerShell](#tab/use-a-powershell-script)
 
-È stato fornito uno script di Windows PowerShell, in modo da poter configurare facilmente le risorse di Azure descritte in [Configurare l'esportazione in Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Se preferisci eseguire la configurazione manuale, salta questa procedura e continua con la procedura della sezione [Configurazione manuale](#manual-setup).
+È stato fornito uno script di Windows PowerShell, in modo da poter configurare facilmente le risorse di Azure descritte in [Configurare l'esportazione in Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). Se preferisci eseguire la configurazione manuale, salta questa procedura e continua con la procedura della sezione [Configurazione manuale](#manual-setup).
 
 > [!NOTE]
 > Segui i passaggi seguenti per eseguire lo script di PowerShell. L'opzione "Provalo" dell'interfaccia della riga di comando di Azure o l'esecuzione dello script sul PC potrebbe non funzionare.
 
-Attieniti alla seguente procedura per configurare Azure utilizzando lo script di Windows PowerShell. Devi disporre dei diritti per creare un gruppo di risorse di Azure, risorse di Azure e un'applicazione Azure AD. Per informazioni sulle autorizzazioni obbligatorie, vedi [Controllare le autorizzazioni di Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Attieniti alla seguente procedura per configurare Azure utilizzando lo script di Windows PowerShell. Devi disporre dei diritti per creare un gruppo di risorse di Azure, risorse di Azure e un'applicazione Azure AD. Per informazioni sulle autorizzazioni obbligatorie, vedi [Controllare le autorizzazioni di Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. Nel [portale di Azure](https://portal.azure.com), vai alla sottoscrizione di Azure di destinazione. Seleziona il pulsante **Cloud Shell** a destra del campo **Cerca**.
 2. Seleziona **PowerShell**.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>Configurare l'archivio entità
 
-Segui questi passaggi per configurare l'archivio entità nel tuo ambiente Finance.
-
-1. Vai ad **Amministrazione sistema \> Imposta \> Parametri di sistema \> Connessioni dati**.
-2. Imposta l'opzione **Abilita l'integrazione di Data Lake** su **Sì**.
-3. Imposta i seguenti campi di Key Vault:
-
-    - **ID applicazione (client)**: immetti l'ID client dell'applicazione creato in precedenza.
-    - **Segreto applicazione**: immetti il segreto che hai salvato per l'applicazione che hai creato in precedenza.
-    - **Nome DNS**: puoi trovare il nome DNS (Domain Name System) nella pagina dei dettagli dell'applicazione per l'applicazione creata in precedenza.
-    - **Nome segreto**: immetti **storage-account-connection-string**.
 
 ## <a name="configure-the-data-lake"></a>Configurare il data lake
 
@@ -991,6 +980,19 @@ Il componente aggiuntivo verrà installato in pochi minuti.
     | ID tenant CDS (ID directory da AAD)               | L'ID tenant dell'istanza di Dataverse. Per trovare questo valore, apri il [portale di Azure](https://portal.azure.com), vai ad **Azure Active Directory** e copia il valore **ID tenant**. |
     | Specificare l'ID oggetto utente con ruolo di amministratore di sistema | L'ID oggetto utente Azure AD dell'utente in Dataverse. Questo utente deve essere un amministratore di sistema dell'istanza di Dataverse. Per trovare questo valore, apri il [portale di Azure](https://portal.azure.com), vai ad **Azure Active Directory\> Utenti**, seleziona l'utente, quindi, nella sezione **Identità**, copia il valore **ID oggetto**. |
     | È questo l'ambiente CDS predefinito per il tenant?      | Se l'istanza di Dataverse è stata la prima istanza di produzione creata, seleziona questa casella di controllo. Se l'istanza di Dataverse è stata creata manualmente, deseleziona questa casella di controllo. |
+
+## <a name="configure-the-entity-store"></a>Configurare l'archivio entità
+
+Segui questi passaggi per configurare l'archivio entità nel tuo ambiente Finance.
+
+1. Vai ad **Amministrazione sistema \> Imposta \> Parametri di sistema \> Connessioni dati**.
+2. Impostare l'opzione **Abilita l'integrazione di Data Lake** su **Sì**.
+3. Imposta i seguenti campi di Key Vault:
+
+    - **ID applicazione (client)**: immetti l'ID client dell'applicazione creato in precedenza.
+    - **Segreto applicazione**: immetti il segreto che hai salvato per l'applicazione che hai creato in precedenza.
+    - **Nome DNS**: puoi trovare il nome DNS (Domain Name System) nella pagina dei dettagli dell'applicazione per l'applicazione creata in precedenza.
+    - **Nome segreto**: immetti **storage-account-connection-string**.
 
 ## <a name="feedback-and-support"></a>Feedback e supporto
 

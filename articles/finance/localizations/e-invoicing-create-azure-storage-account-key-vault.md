@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840222"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893804"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Creare un account di Archiviazione di Azure e un Azure Key Vault
 
@@ -30,8 +30,8 @@ ms.locfileid: "5840222"
 
 Prima di poter completare i passaggi in questo argomento, è necessario accertarsi che le seguenti attività siano state completate:
 
-- Crea una risorsa Azure Key Vault. Per ulteriori informazioni sulle misure, vedi [Informazioni su Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview).
-- Creare un account di Archiviazione di Azure (archiviazione BLOB). Per ulteriori informazioni, vedi [Gestione dell'account di Archiviazione di Azure](https://docs.microsoft.com/azure/storage/blobs/).
+- Crea una risorsa Azure Key Vault. Per ulteriori informazioni sulle misure, vedi [Informazioni su Azure Key Vault](/azure/key-vault/general/overview).
+- Creare un account di Archiviazione di Azure (archiviazione BLOB). Per ulteriori informazioni, vedi [Gestione dell'account di Archiviazione di Azure](/azure/storage/blobs/).
 
 ## <a name="overview"></a>Panoramica
 
@@ -83,4 +83,3 @@ In questo argomento, completerai due passaggi principali:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

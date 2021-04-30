@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: adfedbfeb3f4602d0c4d9b8cccec80749eaae2a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b2b9f2b244f0f49d1ae0bd1cb220653583ee23a5
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790526"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890984"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (7 febbraio 2020)
 
@@ -55,7 +55,7 @@ Le seguenti funzionalità di anteprima sono disponibili a partire dal 3 febbraio
 
 ### <a name="platform-update-32"></a>Update 32 della piattaforma 
 
-L'update 32 della piattaforma sarà presto disponibile. [Ulteriori informazioni sull'update 32 della piattaforma sono disponibili qui](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+L'update 32 della piattaforma sarà presto disponibile. [Ulteriori informazioni sull'update 32 della piattaforma sono disponibili qui](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ### <a name="updated-dataverse-solution"></a>Soluzione Dataverse aggiornata
 
@@ -75,7 +75,7 @@ Una nuova soluzione Dataverse sarà presto disponibile con le seguenti modifiche
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
 

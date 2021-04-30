@@ -2,7 +2,7 @@
 title: Funzionalità rimosse o deprecate in Dynamics 365 Finance
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Finance.
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836915"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898289"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -31,7 +31,20 @@ In questo argomento vengono descritte le funzionalità rimosse, o di cui è stat
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
 > [!NOTE]
-> Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+> Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.20
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>Configurazione del formato RTIR Query Invoice Data Request (HU)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Escluso dall'elaborazione della messaggistica elettronica dell'interoperabilità con il sistema di fatturazione online ungherese |
+| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Aree del prodotto interessate**         | Domanda di lavoro |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Obsoleto: entro il 15 aprile 2022, prevediamo di non supportare più la configurazione del formato "RTIR Query Invoice Data Request (HU)". |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.17
 

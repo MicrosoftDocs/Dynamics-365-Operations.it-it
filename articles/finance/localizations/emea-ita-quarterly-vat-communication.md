@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
 ms.author: elgolu
-ms.openlocfilehash: a70b4e40bd732687a4e6a2cfdbb8936f2738d8d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5523f85450204fb8cdac2aa98fec6208d024dff5
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836853"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894724"
 ---
 # <a name="quarterly-vat-communication-report"></a>Report di comunicazione IVA trimestrale
 
@@ -53,7 +53,7 @@ Ad esempio:
 
    ![Impostare una sequenza numerica per il report Comunicazione trimestrale IVA (LIPE)](./media/num-seq.png)
 
-Per ulteriori informazioni su come impostare le sequenze numeriche vedi la sezione [Impostare sequenze numeriche](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-number-sequences).
+Per ulteriori informazioni su come impostare le sequenze numeriche vedi la sezione [Impostare sequenze numeriche](/dynamicsax-2012/appuser-itpro/set-up-number-sequences).
 
 ### <a name="import-and-update-electronic-reporting-configurations"></a>Importare e aggiornare configurazioni per la creazione di report elettronici
 
@@ -65,7 +65,7 @@ Per ulteriori informazioni su come impostare le sequenze numeriche vedi la sezio
     | Mapping del modello Comunicazione IVA trimestrale | Mapping modello    | Il mapping del modello per la raccolta dei dati da Microsoft Dynamics 365 Finance al report **Comunicazione IVA trimestrale (LIPE)**. |
     | Comunicazione IVA Trimestrale               | Formato di esportazione | Il formato ER per il report **Comunicazione IVA trimestrale italiana (LIPE)** in formato XML.                                              |
 
-    Per ulteriori informazioni, vedi [Scaricare configurazioni ER dall'archivio globale](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo).
+    Per ulteriori informazioni, vedi [Scaricare configurazioni ER dall'archivio globale](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
     > [!IMPORTANT]
     > Assicurati di importare le versioni più recenti di queste configurazioni. La descrizione di ciascuna versione include in genere il numero dell'articolo della Microsoft Knowledge Base (KB) che spiega le modifiche introdotte in quella versione.

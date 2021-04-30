@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801121"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889862"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Creare un'app di esportazione dati ricorrente
 
@@ -43,12 +43,12 @@ Questo tutorial utilizza le seguenti tecnologie:
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)**- L'origine dati master per i lavoratori che verranno esportati.
 - **[App per la logica di Azure](https://azure.microsoft.com/services/logic-apps/)** - La tecnologia che fornisce l'orchestrazione e la pianificazione dell'esportazione ricorrente.
 
-    - **[Connettori](https://docs.microsoft.com/azure/connectors/apis-list)** - La tecnologia utilizzata per connettere l'app per la logica agli endpoint richiesti.
+    - **[Connettori](/azure/connectors/apis-list)** - La tecnologia utilizzata per connettere l'app per la logica agli endpoint richiesti.
 
-        - Connettore [HTTP con Azure AD](https://docs.microsoft.com/connectors/webcontents/)
-        - Connettore [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)
+        - Connettore [HTTP con Azure AD](/connectors/webcontents/)
+        - Connettore [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness)
 
-- **[API REST del pacchetto DMF](../dev-itpro/data-entities/data-management-api.md)** - La tecnologia utilizzata per attivare l'esportazione e monitorarne l'avanzamento.
+- **[API REST del pacchetto DMF](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** - La tecnologia utilizzata per attivare l'esportazione e monitorarne l'avanzamento.
 - **[OneDrive for Business](https://onedrive.live.com/about/business/)** - La destinazione per i lavoratori esportati.
 
 ## <a name="prerequisites"></a>Prerequisiti
@@ -84,11 +84,11 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
     ![Pagina di creazione dell'app per la logica](media/integration-logic-app-creation-1.png)
 
 2. Nella finestra di progettazione di app per la logica, iniziare con un'app per la logica vuota.
-3. Aggiungere un [trigger di programmazione della ricorrenza ](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) per eseguire l'app per la logica ogni 24 ore (o in base alla programmazione scelta).
+3. Aggiungere un [trigger di programmazione della ricorrenza ](/azure/connectors/connectors-native-recurrence) per eseguire l'app per la logica ogni 24 ore (o in base alla programmazione scelta).
 
     ![Finestra di dialogo Ricorrenza](media/integration-logic-app-recurrence-step.png)
 
-4. Chiamare l'API REST DMF [ExportToPackage ](../dev-itpro/data-entities/data-management-api.md#exporttopackage) per pianificare l'esportazione del pacchetto di dati.
+4. Chiamare l'API REST DMF [ExportToPackage ](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) per pianificare l'esportazione del pacchetto di dati.
 
     1. Utilizzare l'azione **Richiama richiesta HTTP** dal connettore HTTP con Azure AD.
 
@@ -122,13 +122,13 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
     > [!TIP]
     > È possibile che si intenda rinominare ogni passaggio di modo che risulti più descrittivo del nome predefinito, **Richiamare una richiesta HTTP**. Ad esempio, è possibile rinominare questo passaggio **ExportToPackage**.
 
-5. [Inizializzare una variabile](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) per memorizzare lo stato di esecuzione della richiesta **ExportToPackage**.
+5. [Inizializzare una variabile](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) per memorizzare lo stato di esecuzione della richiesta **ExportToPackage**.
 
     ![Azione Inizializza variabile](media/integration-logic-app-initialize-variable-step.png)
 
 6. Attendere fino a quando lo stato di esecuzione dell'esportazione dei dati è **Operazione completata**.
 
-    1. Aggiungere un [ciclo Until](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) che si ripete fino a che il valore della variabile **ExecutionStatus** non è **Operazione completata**.
+    1. Aggiungere un [ciclo Until](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) che si ripete fino a che il valore della variabile **ExecutionStatus** non è **Operazione completata**.
     2. Aggiungere un'azione **Ritarda** che attende cinque secondi prima di eseguire il polling dello stato di esecuzione corrente dell'esportazione.
 
         ![Contenitore del ciclo Until](media/integration-logic-app-until-loop-step.png)
@@ -136,9 +136,9 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
         > [!NOTE]
         > Impostare il valore del limite su **15** per attendere un massimo di 75 secondi (15 iterazioni × 5 secondi) per il completamento dell'esportazione. Se l'esportazione richiede più tempo, regolare il valore del limite in base alle esigenze.        
 
-    3. Aggiungere un'azione **Richiama richiesta HTTP** per chiamare l'API REST DMF [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) e impostare la variabile **ExecutionStatus** sul risultato della risposta **GetExecutionSummaryStatus**.
+    3. Aggiungere un'azione **Richiama richiesta HTTP** per chiamare l'API REST DMF [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) e impostare la variabile **ExecutionStatus** sul risultato della risposta **GetExecutionSummaryStatus**.
 
-        > Questo esempio non esegue il controllo degli errori. L'API **GetExecutionSummaryStatus** può restituire stati terminali non riusciti (ovvero stati diversi da **Operazione completata**). Per ulteriori informazioni, vedere la [documentazione API](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
+        > Questo esempio non esegue il controllo degli errori. L'API **GetExecutionSummaryStatus** può restituire stati terminali non riusciti (ovvero stati diversi da **Operazione completata**). Per ulteriori informazioni, vedere la [documentazione API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **Metodo:** POST
         - **URL della richiesta:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -156,7 +156,7 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
 
 7. Ottenere l'URL di download del pacchetto esportato.
 
-    - Aggiungere un'azione **Richiama richiesta HTTP** per chiamare l'API REST DMF [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
+    - Aggiungere un'azione **Richiama richiesta HTTP** per chiamare l'API REST DMF [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
 
         - **Metodo:** POST
         - **URL della richiesta:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -166,7 +166,7 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
 
 8. Scaricare il pacchetto esportato.
 
-    - Aggiungere una richiesta **GET** HTTP (un'[azione del connettore HTTP](https://docs.microsoft.com/azure/connectors/connectors-native-http)) integrata per scaricare il pacchetto dall'URL restituito nel passaggio precedente.
+    - Aggiungere una richiesta **GET** HTTP (un'[azione del connettore HTTP](/azure/connectors/connectors-native-http)) integrata per scaricare il pacchetto dall'URL restituito nel passaggio precedente.
 
         - **Metodo:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -179,9 +179,9 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
         > [!NOTE]
         > Questa richiesta non richiede alcuna autenticazione aggiuntiva, in quanto l'URL che l'API **GetExportedPackageUrl** restituisce include un token di firme di accesso condiviso che concede l'accesso per scaricare il file.
 
-9. Salvare il pacchetto scaricato utilizzando il connettore [OneDrive for Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness).
+9. Salvare il pacchetto scaricato utilizzando il connettore [OneDrive for Business](/azure/connectors/connectors-create-api-onedriveforbusiness).
 
-    - Aggiungere l'azione [Crea file](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file) di OneDrive for Business.
+    - Aggiungere l'azione [Crea file](/connectors/onedriveforbusinessconnector/#create-file) di OneDrive for Business.
     - Connettersi all'account OneDrive for Business, come necessario.
 
         - **Percorso cartella:** una cartella qualsiasi

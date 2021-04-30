@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c28d0dc76195cc0aedc132f348a229af0421c43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8109826df93f9916914a2db3876ee0f9107985f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790430"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890960"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (18 febbraio 2020)
 
@@ -33,7 +33,7 @@ Questo articolo descrive le funzionalità nuove o modificate in Dynamics 365 Hum
 
 ## <a name="platform-update-32"></a>Update 32 della piattaforma 
 
-L'update 32 della piattaforma è ora disponibile. Per ulteriori informazioni, vedere [Novità o modifiche introdotte nell'update 32 della piattaforma per app Finance and Operations (febbraio 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+L'update 32 della piattaforma è ora disponibile. Per ulteriori informazioni, vedere [Novità o modifiche introdotte nell'update 32 della piattaforma per app Finance and Operations (febbraio 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>I valori di ricerca vengono memorizzati quando si modificano le opzioni di visualizzazione nel modulo dipendente semplificato (383833)
 
@@ -81,7 +81,7 @@ Una nuova soluzione Dataverse sarà presto disponibile con le seguenti modifiche
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
 

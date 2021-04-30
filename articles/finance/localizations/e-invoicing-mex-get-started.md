@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840054"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894885"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Introduzione alla fatturazione elettronica per il Messico
 
@@ -86,7 +86,7 @@ Quando importi la funzionalità **Fatture CFDI (MX)** dal repository globale, ve
 
     ![Apertura della pagina Progettazione formati](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. Utilizza la pagina **Progettazione formati** per modificare e visualizzare le configurazioni dei file in formato ER. Per ulteriori informazioni, vedi [Creare configurazioni di creazione di report elettronici (ER)](../../dev-itpro/analytics/electronic-reporting-configuration.md).
+3. Utilizza la pagina **Progettazione formati** per modificare e visualizzare le configurazioni dei file in formato ER. Per ulteriori informazioni, vedi [Creare configurazioni di creazione di report elettronici (ER)](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Pagina Progettazione formati](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
@@ -161,7 +161,7 @@ Per configurare la fatturazione elettronica in Finance, completerai queste attiv
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>Importare il modello di dati ER, il mapping del modello di dati ER e le configurazioni del contesto per le fatture CFDI
 
 1. Accedi a Finance.
-2. Nell'area di lavoro **Creazione di report elettronici**, nella sezione **Provider di configurazione**, seleziona il riquadro **Microsoft**. Assicurati che questo provider di configurazione sia impostato su **Attivo**. Per ulteriori informazioni su come impostare un provider su **Attivo**, vedi [Creare provider di configurazioni e contrassegnarli come attivi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Nell'area di lavoro **Creazione di report elettronici**, nella sezione **Provider di configurazione**, seleziona il riquadro **Microsoft**. Assicurati che questo provider di configurazione sia impostato su **Attivo**. Per ulteriori informazioni su come impostare un provider su **Attivo**, vedi [Creare provider di configurazioni e contrassegnarli come attivi](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Selezionare **Archivi**.
 4. Seleziona **Risorsa globale \> Apri**.
 5. Importa **Modello di fattura**, **Mapping modello di fattura**, **Formato fattura CFDI (MX)**, **Formato di richiesta annullamento fattura CFDI (MX)** e **Formato di annullamento della fattura CFDI (MX)**.
@@ -215,7 +215,7 @@ Durante l'elaborazione delle fatture CFDI in Finance tramite la fatturazione ele
 Dopo aver attivato la funzionalità **Integrazione della fatturazione elettronica configurabile**, il processo **Esporta/Importa fattura elettronica** (**Contabilità clienti \>Fatture \> Fatture elettroniche**) per l'invio di fatture CFDI non possono più essere utilizzati. È sostituito da un nuovo processo denominato **Invia documenti elettronici**.
 
 > [!NOTE]
-> Prima di utilizzare il nuovo processo **Invia documenti elettronici**, verifica che la configurazione obbligatoria per le fatture elettroniche messicane sia stata completata. Per altre informazioni, vedi [Versione layout CFDI 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Prima di utilizzare il nuovo processo **Invia documenti elettronici**, verifica che la configurazione obbligatoria per le fatture elettroniche messicane sia stata completata. Per altre informazioni, vedi [Versione layout CFDI 3.3](./latam-mex-cfdi-3-3.md).
 
 1. Vai a **Amministrazione organizzazione \> Periodico \> Documenti elettronici \> Invia documenti elettronici**.
 2. Per il primo invio di qualsiasi documento, imposta sempre l'opzione **Invia di nuovo i documenti** su **No**. Se devi inviare nuovamente un documento tramite il servizio, imposta questa opzione su **Sì**.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e316cda9b9c5361c0a2837e7ed6c050e76cc39b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8ddb74a2f0b6265c5be3c13a009211455ea862da
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793611"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893402"
 ---
 # <a name="dataverse-tables"></a>Tabelle Dataverse
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793611"
 Microsoft Dynamics 365 Human Resources utilizza Dataverse per abilitare scenari di estendibilità e integrazione.
 
 > [!NOTE]
-> Le entità di Human Resources corrispondono alle tabelle Dataverse. Per ulteriori informazioni su Dataverse (in precedenza Common Data Service) e aggiornamenti terminologici, vedi [ Cosa è Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Le entità di Human Resources corrispondono alle tabelle Dataverse. Per ulteriori informazioni su Dataverse (in precedenza Common Data Service) e aggiornamenti terminologici, vedi [ Cosa è Microsoft Dataverse ?](/powerapps/maker/data-platform/data-platform-intro)
 
 Le seguenti tabelle Dataverse sono disponibili in base alle entità di Human Resources.
 
@@ -181,8 +181,8 @@ Le seguenti tabelle Dataverse sono disponibili in base alle entità di Human Res
 [Configurare l'integrazione di Dataverse](hr-admin-integration-common-data-service.md)<br>
 [Configurare tabelle virtuali in Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Domande frequenti sulle tabelle virtuali in Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Che cos'è Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Aggiornamenti terminologici](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Che cos'è Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Aggiornamenti terminologici](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

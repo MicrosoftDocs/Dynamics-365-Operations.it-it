@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 586c0f807cf45908bacd88ff4e4d5793db054e4d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ab53f4b8888f77cd41ccbd7956ed307ba1b54ff
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815406"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897138"
 ---
 # <a name="reverse-journal-posting"></a>Stornare registrazione del giornale di registrazione
 
@@ -65,7 +65,7 @@ Se il giustificativo include più di 100 righe, il processo di storno verrà ese
 
 Se il numero di righe giustificativo è pari o inferiore a 100 righe, il processo di storno verrà eseguito immediatamente. I risultati verranno visualizzati in una finestra di dialogo contenente tutti i giustificativi che non è possibile stornare insieme al motivo. Selezionare **OK** per chiudere la finestra di dialogo.
 
-Le transazioni possono essere stornate solo se soddisfano le regole business per lo storno. I pagamenti fornitore non possono essere stornati utilizzando la funzionalità descritta in questo argomento. I pagamenti fornitore devono essere stornati tramite i passaggi elencati in [Stornare un pagamento fornitore](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
+Le transazioni possono essere stornate solo se soddisfano le regole business per lo storno. I pagamenti fornitore non possono essere stornati utilizzando la funzionalità descritta in questo argomento. I pagamenti fornitore devono essere stornati tramite i passaggi elencati in [Stornare un pagamento fornitore](../accounts-payable/reverse-vendor-payment.md).
 
 
 

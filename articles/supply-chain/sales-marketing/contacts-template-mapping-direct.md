@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 81cf79c866ad70bf5bf2a9475a235bf3135d6e50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840799"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908110"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizzare contatti direttamente da Sales con contatti o clienti in Supply Chain Management
 
@@ -30,7 +30,7 @@ ms.locfileid: "5840799"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Microsoft Dataverse per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Microsoft Dataverse per le app](/powerapps/administrator/data-integrator).
 
 Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare direttamente le tabelle Contatto (Contatti) e Contatto (Clienti) da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
 

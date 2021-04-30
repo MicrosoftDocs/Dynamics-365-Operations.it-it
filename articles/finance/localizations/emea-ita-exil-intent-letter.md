@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6e55e2e5aa97332bc7c65fac49ab8730eaf4c235
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3486d18e95daea7417bb2aeaa526a3991e329a6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814936"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894746"
 ---
 # <a name="intent-letters---invoicing-of-usual-exporters"></a>Lettere di intento - Fatturazione di esportatori abituali
 
@@ -31,7 +31,7 @@ Per ricevere una fornitura di beni o servizi esente da IVA in Italia, le societ�
 Prima di fatturare, è necessario soddisfare i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- La funzionalità **Lettere di intento - Fatturazione di esportatori usuali** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Lettere di intento - Fatturazione di esportatori usuali** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-accounts-receivable-parameters"></a>Impostazione dei parametri di Contabilità clienti
 

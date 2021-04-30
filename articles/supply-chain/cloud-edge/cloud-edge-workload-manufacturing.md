@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809784"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899097"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
 
@@ -29,9 +29,10 @@ ms.locfileid: "5809784"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> Il carico di lavoro di esecuzione della produzione è attualmente disponibile in anteprima.
 > Alcune funzionalità aziendali non sono completamente supportate nell'anteprima pubblica quando vengono utilizzate le unità di scala del carico di lavoro.
 
-Nell'esecuzione della produzione, le unità di scala nel cloud e nella rete perimetrale offrono le seguenti funzionalità, anche quando le unità della rete perimetrale non sono connesse all'hub:
+Nell'esecuzione della produzione, le unità di scala offrono le seguenti funzionalità:
 
 - Gli operatori macchine e i supervisori del reparto di produzione possono accedere al piano di produzione operativo.
 - Gli operatori possono mantenere il piano aggiornato eseguendo lavori di produzione discreti e di elaborazione.
@@ -108,5 +109,6 @@ Per esaminare la cronologia dei processi di produzione elaborati su un'unità di
 
 Il processo _Elaborazione messaggi da hub di produzione a unità di scala_ elabora i dati dall'hub all'unità di scala. Questo processo viene avviato automaticamente quando viene distribuito il carico di lavoro di esecuzione della produzione. Tuttavia, è possibile eseguirlo manualmente in qualsiasi momento andando a **Controllo produzione \> Attività periodiche \> Gestione carico di lavoro di backoffice \> Elaborazione messaggi da hub di produzione a unità di scala**.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

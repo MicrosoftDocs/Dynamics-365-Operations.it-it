@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832396"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899169"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832396"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Esecuzione nel magazzino su unità di scala
 
-Questa funzione consente alle unità di scala di eseguire processi selezionati dalle funzionalità di gestione del magazzino. Le unità di scala nel cloud eseguono i propri carichi di lavoro nel cloud utilizzando la capacità di elaborazione dedicata nell'area di Microsoft Azure dell'utente selezionata. Per le unità di scala nella rete perimetrale, è possibile eseguire alcuni carichi di lavoro in modo indipendente in locale, anche mentre le unità di scala sono temporaneamente disconnesse dal cloud.
+Questa funzione consente alle unità di scala di eseguire processi selezionati dalle funzionalità di gestione del magazzino.
 
 In questo argomento, le esecuzioni di gestione del magazzino in un magazzino definito come unità di scala sono conosciute come *Sistema di esecuzione nel magazzino* (*WES*, Warehouse Execution System).
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-È necessario disporre di un hub Dynamics 365 Supply Chain Management e di un'unità di scala distribuita con il carico di lavoro di gestione del magazzino. Per ulteriori informazioni sull'architettura e sul processo di distribuzione, vedere [Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino](cloud-edge-landing-page.md).
+È necessario disporre di un hub Dynamics 365 Supply Chain Management e di un'unità di scala distribuita con il carico di lavoro di gestione del magazzino. Per ulteriori informazioni sull'architettura e sul processo di distribuzione, vedere [Utilizzare unità di scala per aumentare la resilienza per i carichi di lavoro di Supply Chain Management](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Come funziona il carico di lavoro WES su unità di scala
 
@@ -297,6 +297,8 @@ Nel carico di lavoro nelle unità di scala, è possibile gestire i processi batc
 - Elaborare record di tabelle ciclo
 - Hub di magazzino per processore messaggi unità di scala
 - Elabora richieste aggiornamento quantità per righe ordine di magazzino
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

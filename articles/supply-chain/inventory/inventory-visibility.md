@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821131"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910427"
 ---
 # <a name="inventory-visibility-add-in"></a>Componente aggiuntivo Visibilità magazzino
 
@@ -39,7 +39,7 @@ Questo argomento descrive come installare e configurare il componente aggiuntivo
 
 È necessario installare il componente aggiuntivo Visibilità magazzino utilizzando Microsoft Dynamics Lifecycle Services (LCS). LCS è un portale di collaborazione che fornisce un ambiente e una serie di servizi regolarmente aggiornati che aiutano a gestire il ciclo di vita dell'applicazione delle app Dynamics 365 Finance and Operations.
 
-Per ulteriori informazioni, vedere [Risorse Lifecycle Services](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Per ulteriori informazioni, vedere [Risorse Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>Prerequisiti
 
@@ -48,10 +48,13 @@ Prima di poter installare il componente aggiuntivo Visibilità magazzino è nece
 - Ottenere un progetto di implementazione LCS con almeno un ambiente distribuito.
 - Assicurati che i prerequisiti per la configurazione dei componenti aggiuntivi forniti in [Panoramica dei componenti aggiuntivi](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) siano stati soddisfatti. Visibilità magazzino non richiede un collegamento a doppia scrittura.
 - Contattare il team di Visibilità magazzino all'indirizzo [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) per ottenere i seguenti tre file:
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (se la versione di Supply Chain Management in esecuzione è precedente alla versione 10.0.18)
+- Segui le istruzioni fornite in [Avvio rapido: registrare un'applicazione con la piattaforma di identità Microsoft](/azure/active-directory/develop/quickstart-register-app) per registrare un'applicazione e aggiungere un segreto client ad AAD nella sottoscrizione di Azure.
+    - [Registrare un'applicazione](/azure/active-directory/develop/quickstart-register-app)
+    - [Aggiungere un segreto cliente](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - **ID applicazione (client)**, **Segreto cliente** e **ID tenant** verrà utilizzato nei seguenti passaggi.
 
 > [!NOTE]
 > I paesi e le regioni attualmente supportati includono Canada, Stati Uniti e Unione europea (UE).
@@ -64,7 +67,7 @@ Per configurare Dataverse, effettuare le seguenti operazioni.
 
 1. Aggiungere un principio di servizio al tenant:
 
-    1. Installare Azure AD PowerShell Module v2 come descritto in [Installare Azure Active Directory PowerShell per Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Installare Azure AD PowerShell Module v2 come descritto in [Installare Azure Active Directory PowerShell per Graph](/powershell/azure/active-directory/install-adv2).
     1. Eseguire il comando PowerShell seguente.
 
         ```powershell
@@ -80,7 +83,12 @@ Per configurare Dataverse, effettuare le seguenti operazioni.
     1. Selezionare **Nuovo**. Impostare l'ID applicazione su *3022308a-b9bd-4a18-b8ac-2ddedb2075e1* (l'ID oggetto verrà caricato automaticamente quando si salvano le modifiche). È possibile personalizzare il nome. Ad esempio, è possibile modificarlo in *Visibilità magazzino*. Al termine, selezionare **Salva**.
     1. Selezionare **Assegna ruolo** e quindi selezionare **Amministratore di sistema**. Se è presente un ruolo denominato **Utente Common Data Service**, selezionarlo.
 
-    Per ulteriori informazioni, vedere [Creare un utente applicazione](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    Per ulteriori informazioni, vedere [Creare un utente applicazione](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Se la lingua predefinita di Dataverse non è **inglese**:
+
+    1. Vai a **Impostazioni avanzate \> Amministrazione \> Lingue**,
+    1. Seleziona **Inglese (LanguageCode = 1033)** e seleziona **Applica**.
 
 1. Importare il file `Inventory Visibility Dataverse Solution.zip`, che include entità relative alla configurazione di Dataverse e Power Apps:
 
@@ -158,12 +166,12 @@ Assicurarsi che le seguenti funzionalità siano attivate nell'ambiente Supply Ch
 
     Trovare l'area di Azure dell'ambiente LCS e quindi immettere l'URL. Il formato dell'URL è come segue:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     Ad esempio, se si è in Europa, l'ambiente avrà uno dei seguenti URL:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     Sono attualmente disponibili le seguenti regioni:
 
@@ -212,13 +220,13 @@ Ottenere un token del servizio di sicurezza effettuando le seguenti operazioni:
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -255,6 +263,43 @@ Ottenere un token del servizio di sicurezza effettuando le seguenti operazioni:
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Esempio di richiesta
+
+Per riferimento, di seguito è illustrata una richiesta http di esempio; puoi utilizzare qualsiasi strumento o linguaggio di codifica per inviare questa richiesta, ad esempio ``Postman``.
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Configurare l'API di Visibilità magazzino
 
@@ -338,7 +383,7 @@ Ecco una query di esempio sul prodotto con combinazione di colore e dimensione.
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ Ecco una query di esempio sul prodotto con combinazione di colore e dimensione.
     "returnNegative": true
 }
 ```
+
+Per il campo `filters`, attualmente solo `ProductId` supporta più valori. Se `ProductId` è un array vuoto, verrà eseguita una query su tutti i prodotti.
 
 #### <a name="custom-measurement"></a>Misura personalizzata
 

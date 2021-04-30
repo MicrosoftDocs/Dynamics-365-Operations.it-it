@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4679ce27b248770b9998914407cd2eb21d7dd16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825400"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909158"
 ---
 # <a name="create-purchase-orders"></a>Creazione degli ordini fornitore
 
@@ -65,7 +65,7 @@ In alcuni casi, è possibile che si voglia dividere la quantità che è stata or
 Le spese possono essere aggiunte automaticamente alle righe dell'ordine se le spese automatiche sono state impostate per il fornitore o il gruppo di spese del fornitore e per l'articolo o il gruppo di spese dell'articolo. Tuttavia, in genere, le spese vengono aggiunte manualmente a livello di riga dell'ordine. Per aggiungere una spesa, aprire la pagina **Gestisci spese** utilizzando l'azione **Gestisci spese** nel menu **Dati finanziari** della visualizzazione **Righe**. Il vantaggio dell'aggiunta di spese direttamente a livello di riga è che l'addebito può essere allocato come un costo di magazzino. Per impostare i codici di addebito in modo da registrare il costo del prodotto, utilizzare l'opzionedi addebito **Articolo**. Questi tipi di spese devono essere allocati dall'intestazione dell'ordine fornitore alle righe prima di poter confermare l'ordine. Ad esempio, si potrebbe desiderare di allocare le spese in base alla quantità di ciascuna riga. La categoria di spesa influisce anche su come le spese vengono registrate. Ad esempio, le spese fisse specificano un importo fisso e le spese percentuali vengono calcolate come percentuale dell'importo netto per la riga ordine. I PO possono essere assegnati a un carico e il carico può includere una stima della spesa prevista per il costo di trasporto. È possibile allocare questa spesa dal carico alle righe dell'ordine fornitore.
 
 ## <a name="purchase-order-actions"></a>Azioni degli ordini fornitore
-Dopo aver aggiunto l'intestazione e righe all'ordine fornitore, spesso è necessario completare passaggi aggiuntivi prima che l'ordine sia pronto per essere confermato. Perché così tante opzioni sono disponibili, potrebbe essere utile utilizzare [Ricerca di azioni](../../fin-and-ops/get-started/action-search.md) per trovare la voce di menu desiderata.  
+Dopo aver aggiunto l'intestazione e righe all'ordine fornitore, spesso è necessario completare passaggi aggiuntivi prima che l'ordine sia pronto per essere confermato. Perché così tante opzioni sono disponibili, potrebbe essere utile utilizzare [Ricerca di azioni](../../fin-ops-core/fin-ops/get-started/action-search.md) per trovare la voce di menu desiderata.  
 
 È possibile configurare i prodotti nell'ordine in modo che abbiano articoli supplementari. Gli articoli supplementari sono prodotti che devono o possono essere acquistati con altri prodotti. Prodotti supplementari possono essere aggiunti come prodotti di accompagnamento gratuiti, o potrebbe essere possibile decidere se si aggiungerli all'ordine o no. È possibile esaminare gli articoli supplementari dopo ogni riga di ordine che viene aggiunta. Tuttavia, è probabilmente più comodo rivedere e aggiungere articoli supplementari pertinenti per tutte le righe ordine utilizzando la pagina **Articoli supplementari** che è possibile aprire dal riquadro azioni.  
 

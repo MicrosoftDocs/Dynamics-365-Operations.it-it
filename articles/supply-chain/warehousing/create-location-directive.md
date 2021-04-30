@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838396"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911298"
 ---
 # <a name="work-with-location-directives"></a>Utilizzare le direttive di ubicazione
 
@@ -44,8 +44,8 @@ Prima di poter creare una direttiva di ubicazione, è necessario seguire questi 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Magazzino \> Magazzini**.
 1. Creare un magazzino.
 1. Nella scheda **Magazzino**, impostare l'opzione **Usa processi di gestione magazzino** su *Sì*.
-1. Creare le ubicazioni, i tipi di ubicazione, i profili e i formati delle ubicazioni. Per ulteriori informazioni, vedere [Configurare le ubicazioni in un magazzino abilitato WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Creare siti, zone e gruppi di zone. Per ulteriori informazioni, vedere [Impostare un magazzino](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) e [Configurare le ubicazioni in un magazzino abilitato WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Creare le ubicazioni, i tipi di ubicazione, i profili e i formati delle ubicazioni. Per ulteriori informazioni, vedere [Configurare le ubicazioni in un magazzino abilitato WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Creare siti, zone e gruppi di zone. Per ulteriori informazioni, vedere [Impostare un magazzino](../../commerce/channels-setup-warehouse.md) e [Configurare le ubicazioni in un magazzino abilitato WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Tipi di ordine di lavoro per direttive di ubicazione
 
@@ -143,7 +143,7 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
 - **Codice direttiva** - Selezionare il codice della direttiva da associare a un modello di lavoro o un modello di rifornimento. Nella pagina **Codice direttiva**, è possibile creare nuovi codici che possono essere utilizzati per collegare modelli di lavoro o di rifornimento a direttive di ubicazione. I codici di direttiva possono essere utilizzati anche per impostare il collegamento tra una qualsiasi riga del modello di lavoro e una direttiva di ubicazione (ad esempio l'ubicazione finale o di gestione temporanea).
 
     > [!TIP]
-    > Se è impostato un codice di direttiva, il sistema non cercherà le direttive di ubicazione per numero di sequenza quando il lavoro deve essere generato. Cercherà invece per codice di direttiva. In questo modo, è possibile essere più precisi riguardo il modello di ubicazione utilizzato per un passaggio particolare in un modello di lavoro, ad esempio la gestione temporanea dei materiali.
+    > Se è impostato un codice di direttiva, il sistema non cercherà le direttive di ubicazione per numero di sequenza quando il lavoro deve essere generato. Cercherà invece per codice di direttiva. In questo modo, è possibile essere più precisi riguardo la direttiva di ubicazione utilizzata per un passaggio particolare in un modello di lavoro, ad esempio la gestione temporanea dei materiali.
 
 - **Più SKU** - Impostare questa opzione su *Sì* per abilitare l'utilizzo di più unità di stockkeeping in un'ubicazione. Ad esempio, è necessario abilitare più unità di stockkeeping per un'ubicazione finale. Se si abilitano più unità di stockkeeping, l'ubicazione di stoccaggio verrà specificata nel lavoro, come previsto. Tuttavia, l'ubicazione di stoccaggio sarà in grado di gestire solo uno stoccaggio multi-articolo (se il lavoro include unità di stockkeeping diverse che devono essere prelevate e stoccate). Non sarà in grado di gestire uno stoccaggio per una singola unità di stockkeeping. Se si imposta questa opzione su *No*, l'ubicazione di stoccaggio verrà specificata solo se lo stoccaggio prevede un solo tipo di unità di stockkeeping.
 
@@ -249,7 +249,7 @@ Per questo scenario, è necessario definire due azioni di direttiva ubicazione. 
 
 ## <a name="next-step"></a>Passaggio successivo
 
-Una volta create le direttive ubicazione, è possibile associare ciascun codice di direttiva a un codice di modello di lavoro per la creazione del lavoro. Per ulteriori informazioni, vedere [Rifornimento e Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Una volta create le direttive ubicazione, è possibile associare ciascun codice di direttiva a un codice di modello di lavoro per la creazione del lavoro. Per ulteriori informazioni, vedere [Rifornimento e Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

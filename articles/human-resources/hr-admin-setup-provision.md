@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfabda7ab4caafc43926595655352fbfe49d8ff7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805011"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889790"
 ---
 # <a name="provision-human-resources"></a>Provisioning di Human Resources
 
@@ -80,7 +80,7 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Huma
     
 3. Selezionare **Includi dati dimostrativi** se si desidera che l'ambiente includa lo stesso set di dati dimostrativi utilizzato nell'esperienza dei test drive di Human Resources. I dati dimostrativi sono utili per ambienti dimostrativi o di formazione a lungo termine e non devono mai essere utilizzati per ambienti di produzione. È necessario scegliere questa opzione al momento della distribuzione iniziale. Non è possibile aggiornare una distribuzione esistente in seguito.
 
-4. Il provisioning di Human Resources viene sempre eseguito in un ambiente Microsoft Power Apps per consentire l'integrazione e l'estendibilità di Power Apps. Leggere la sezione relativa alla selezione di un ambiente Power Apps in questo articolo prima di continuare. Se non si dispone già di un ambiente Power Apps, selezionare Gestione ambienti in LCS o accedere all'interfaccia di amministrazione di Power Apps. Attenersi quindi alla procedura indicata di seguito per [Creare un ambiente Power Apps](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. Il provisioning di Human Resources viene sempre eseguito in un ambiente Microsoft Power Apps per consentire l'integrazione e l'estendibilità di Power Apps. Leggere la sezione relativa alla selezione di un ambiente Power Apps in questo articolo prima di continuare. Se non si dispone già di un ambiente Power Apps, selezionare Gestione ambienti in LCS o accedere all'interfaccia di amministrazione di Power Apps. Attenersi quindi alla procedura indicata di seguito per [Creare un ambiente Power Apps](/powerapps/administrator/create-environment).
 
 5. Selezionare l'ambiente in cui eseguire il provisioning di Human Resources.
 
@@ -124,7 +124,7 @@ Utilizzare le seguenti linee guida per la determinazione dell'ambiente Power App
  
 ## <a name="grant-access-to-the-environment"></a>Concedere l'accesso all'ambiente
 
-Per impostazione predefinita, l'accesso è consentito solo all'amministratore globale che ha creato ambiente. È necessario concedere esplicitamente l'accesso ad altri utenti dell'applicazione. È necessario aggiungere utenti e assegnare loro i ruoli appropriati nell'ambiente Human Resources. L'amministratore globale che ha distribuito Human Resources deve inoltre avviare Attract e Onboard per completare l'inizializzazione e abilitare l'accesso per altri utenti del tenant. Se questa operazione non viene eseguita, gli altri utenti non potranno accedere ad Attract e Onboard e riceveranno errori di violazione dell'accesso. Per ulteriori informazioni, vedere [Creare nuovi utenti](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Assegnare gli utenti ai ruoli di sicurezza](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Per impostazione predefinita, l'accesso è consentito solo all'amministratore globale che ha creato ambiente. È necessario concedere esplicitamente l'accesso ad altri utenti dell'applicazione. È necessario aggiungere utenti e assegnare loro i ruoli appropriati nell'ambiente Human Resources. L'amministratore globale che ha distribuito Human Resources deve inoltre avviare Attract e Onboard per completare l'inizializzazione e abilitare l'accesso per altri utenti del tenant. Se questa operazione non viene eseguita, gli altri utenti non potranno accedere ad Attract e Onboard e riceveranno errori di violazione dell'accesso. Per ulteriori informazioni, vedere [Creare nuovi utenti](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Assegnare gli utenti ai ruoli di sicurezza](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

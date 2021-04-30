@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 19ddd9eb34d5e5248f782aafc9ac9dee1b38dadb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26f0dc3b128daf8c7d8a05d6f3cacc5b7de0c756
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825352"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909110"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Area di lavoro Approvazione ordine fornitore
 
@@ -36,7 +36,7 @@ L'area di lavoro mobile **Approvazione di ordine fornitore** consente di visuali
 I prerequisiti variano a seconda della versione di Supply Chain Management che è stata installata nell'organizzazione.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Prerequisiti si utilizza Supply Chain Management 
-Se nell'organizzazione è stato distribuito Supply Chain Management, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Approvazione ordine fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se nell'organizzazione è stato distribuito Supply Chain Management, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Approvazione ordine fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se si usa Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva
 Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva, l'amministratore di sistema deve soddisfare i prerequisiti seguenti. 
@@ -55,16 +55,16 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 <td>Amministratore di sistema</td>
 <td>l'articoloo KB 4017918 è un aggiornamento X++ o aggiornamento rapido dei metadati contenente l'area di lavoro mobile <strong>Approvazione ordine fornitore</strong>. Per implementare l'articolo KB 4017918, l'amministratore di sistema deve completare i passaggi seguenti:
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Scaricare l'hotfix metadati da Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installare l'aggiornamento rapido dei metadati</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Applicare il pacchetto distribuibile</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Scaricare l'hotfix metadati da Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installare l'aggiornamento rapido dei metadati</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Applicare il pacchetto distribuibile</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Pubblicare l'area di lavoro mobile <strong>Approvazione ordine fornitore</strong>.</td>
 <td>Amministratore di sistema</td>
-<td>Vedere <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Pubblicare un'area di lavoro mobile</a>.</td>
+<td>Vedere <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Pubblicare un'area di lavoro mobile</a>.</td>
 </tr>
 </tbody>
 </table>

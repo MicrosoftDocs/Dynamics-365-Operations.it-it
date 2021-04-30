@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839369"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908784"
 ---
 # <a name="cost-management-home-page"></a>Home page della gestione costi
 
@@ -43,7 +43,7 @@ Ad esempio, è possibile definire i metodi di valutazione per le scorte, come [F
 
 La contabilità di produzione consente di gestire la [determinazione costi per commessa](production-order-cost-analysis.md) negli ordini di produzione e negli ordini batch, nonché la [determinazione costi di tipo backflush](backflush-costing.md) in lean manufacturing.
 
-Il [contenuto Power BI per la gestione dei costi](../../dev-itpro/analytics/cost-management-content-pack.md) fornisce analisi manageriali dell'inventario e delle scorte WIP e di come il costo procede attraverso questi per categoria nel tempo. Le informazioni possono essere utilizzate anche come supplemento dettagliato al rendiconto finanziario.
+Il [contenuto Power BI per la gestione dei costi](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) fornisce analisi manageriali dell'inventario e delle scorte WIP e di come il costo procede attraverso questi per categoria nel tempo. Le informazioni possono essere utilizzate anche come supplemento dettagliato al rendiconto finanziario.
 
 ### <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -57,7 +57,7 @@ Nel white paper [Calcolo DBA tramite uno schema di determinazione dei costi](htt
 
 #### <a name="blogs"></a>Blog
 
-Opinioni, notizie e altre informazioni sulla gestione costi sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm). Sebbene alcuni di questi post siano stati scritti per la versione precedente della gestione costi, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
+Opinioni, notizie e altre informazioni sulla gestione costi sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](/archive/blogs/axmfg/) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm). Sebbene alcuni di questi post siano stati scritti per la versione precedente della gestione costi, gli stessi concetti si applicano ancora e le procedure sono simili nella versione corrente.
 
 #### <a name="task-guides"></a>Guide attività
 

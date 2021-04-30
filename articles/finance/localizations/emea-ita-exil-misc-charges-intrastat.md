@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c0ccba4a5a377f6cff2e7324d7840dc056b6013a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b4a32caafd0e4d30e886dbc0ea1b13b076cacd1c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814932"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894742"
 ---
 # <a name="miscellaneous-charges-per-kilogram-in-an-intrastat-declaration"></a>Spese varie per chilogrammo in una dichiarazione Intrastat
 
@@ -31,7 +31,7 @@ Tra gli altri elementi di segnalazione, una dichiarazione Intrastat contiene inf
 ## <a name="prerequisites"></a>Prerequisiti
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- Nell'area di lavoro **Gestione funzionalità** attivare la funzionalità **Spese varie per chilogrammo in una dichiarazione Intrastat**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- Nell'area di lavoro **Gestione funzionalità** attivare la funzionalità **Spese varie per chilogrammo in una dichiarazione Intrastat**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-miscellaneous-charges-per-kilogram"></a>Impostare le spese varie per chilogrammo
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1a086f1b710de9bad898abc740286c174ae3be7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 26a228229a09e74809a048675a3ff90025f2a26c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797987"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892229"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Impossibile creare un ambiente nell'interfaccia di amministrazione di Power Apps
 
@@ -43,7 +43,7 @@ Assicurati che l'amministratore del tenant abbia assegnato una licenza Power App
 Da notare che oltre alle unità di stockkeeping di Power Apps Piano 2, anche varie unità di stockkeeping di Microsoft Office forniscono quel diritto. L'aspetto importante è che una di queste unità di stockkeeping deve essere presente.
 
 1. Accedere a [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
-2. Creare gli ambienti seguendo le istruzioni in [Eseguire il provisioning di Human Resources](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
+2. Creare gli ambienti seguendo le istruzioni in [Eseguire il provisioning di Human Resources](/dynamics365/unified-operations/talent/provisioning-talent).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

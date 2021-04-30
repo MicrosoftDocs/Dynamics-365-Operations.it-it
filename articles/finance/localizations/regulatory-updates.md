@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822759"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890778"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822759"
 
 In questo argomento sono elencati gli aggiornamenti normativi pianificati e rilasciati per le localizzazioni supportate di Dynamics 365 Finance. Le scadenze di consegna potrebbero variare e la funzionalità prevista potrebbe essere diversa o non essere rilasciata. Per altre informazioni, vedi i [criteri Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Gli aggiornamenti normativi sono funzionalità implementate per supportare una nuova legislazione o una legislazione modificata specifica del paese. Per ulteriori informazioni sulle funzionalità specifiche del paese pianificate e rilasciate, fare riferimento ai [piani di rilascio di Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes/index).
+Gli aggiornamenti normativi sono funzionalità implementate per supportare una nuova legislazione o una legislazione modificata specifica del paese. Per ulteriori informazioni sulle funzionalità specifiche del paese pianificate e rilasciate, fare riferimento ai [piani di rilascio di Dynamics 365 e Power Platform](/business-applications-release-notes/index).
 
 Microsoft cerca di implementare i nuovi requisiti normativi il prima possibile. La data di implementazione effettiva dipende da quella di annuncio della legge, dalla disponibilità dei dettagli relativi ai requisiti presso le autorità locali, dalla disponibilità degli strumenti di convalida e dalla dimensione e dalla complessità della modifica.
 
