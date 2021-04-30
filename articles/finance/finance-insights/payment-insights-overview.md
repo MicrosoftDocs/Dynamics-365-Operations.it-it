@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 079ac1e8020c5fb80618b0237c4cf3a747b1e85c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4151b56b8b385e29d3926dc7e245728158cbcd34
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827268"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898014"
 ---
 # <a name="customer-payment-predictions-preview"></a>Previsioni di pagamento cliente (anteprima)
 
@@ -71,7 +71,7 @@ In passato, era generalmente difficile sviluppare e distribuire una soluzione di
 
 È disponibile un'anteprima pubblica di Informazioni dettagliate finanziarie da provare per le distribuzioni negli Stati Uniti, in Europa e nel Regno Unito. Microsoft sta aggiungendo in modo incrementale il supporto per altre aree geografiche.
 
-Le funzionalità di anteprima pubblica possono essere attivate solo negli ambienti sandbox di livello 2. I modelli di configurazione e intelligenza artificiale creati in un ambiente sandbox non possono essere migrati in un ambiente di produzione. Per ulteriori informazioni, vedi [Condizioni integrative per le versioni di anteprima di Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Le funzionalità di anteprima pubblica possono essere attivate solo negli ambienti sandbox di livello 2. I modelli di configurazione e intelligenza artificiale creati in un ambiente sandbox non possono essere migrati in un ambiente di produzione. Per ulteriori informazioni, vedi [Condizioni integrative per le versioni di anteprima di Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
 

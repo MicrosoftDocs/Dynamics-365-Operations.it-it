@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810200"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897626"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Diritti di accesso per i controller oggetto di costo
 
@@ -62,9 +62,8 @@ Nel seguente esempio viene illustrato cosa è una gerarchia di dimensioni.
 
 È possibile utilizzare la scheda dettaglio **Utenti** nella finestra di progettazione della gerarchia per inserire una o più ID utente in ogni nodo.
 
-|                                   | Utenti            | Intervalli membro di dimensione   |                         |
+|             Nodi                 | Utenti            | Membro di dimensione di inizio     |   Membro di dimensione di fine   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Nodi**                         | **ID utente**      | **Membro di dimensione di inizio** | **Membro di dimensione di fine** |
 | Organizzazione                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Amministratore                 | aprile            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Dati finanziari   | Alicia           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ Le impostazioni per la gerarchia dell'elenco accessi vengono utilizzate per cont
     - Le visualizzazioni dei dati di Power BI sono incorporate nel client Dynamics 365 Finance
 
 > [!IMPORTANT]
-> - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - In questo argomento vengono illustrati i prerequisiti che devono essere definiti prima di poter utilizzare l'area di lavoro **Controllo costi**.
 
 Risorse aggiuntive
 
 - [Area di lavoro controllo costi](cost-control-workspace.md)
 - [Gerarchia dimensioni](dimension-hierarchy.md)
-- [Impostare la sicurezza per il pacchetto di contenuti della contabilità industriale](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Impostare la sicurezza per il pacchetto di contenuti della contabilità industriale](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

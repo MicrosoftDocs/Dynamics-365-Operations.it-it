@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822133"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898212"
 ---
 # <a name="budget-planning-overview"></a>Panoramica della pianificazione del budget
 
@@ -75,7 +75,7 @@ La seguente illustrazione mostra un esempio in cui la sede centrale aziendale st
 
 Nella pagina **Gerarchia organizzativa**, è possibile specificare una gerarchia organizzativa come gerarchia di pianificazione del budget per ciascun processo di pianificazione del budget. La gerarchia di pianificazione del budget non deve corrispondere alla gerarchia di organizzazione normale utilizzata per altri scopi. Poiché la gerarchia viene utilizzata per aggregare e distribuire i dati, è possibile desiderare che abbia una struttura diversa. Nello schema di esempio, i reparti vendite sono sotto un livello della sede centrale che include i reparti di amministrazione e budget. Questa struttura probabilmente è diversa dalla struttura utilizzata per gestire le operazioni per i reparti vendite. Una sola gerarchia organizzativa può essere assegnata a ogni processo di pianificazione del budget.
 
-Per ulteriori informazioni sulle gerarchie organizzative, vedere [Organizzazioni e gerarchie organizzative](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Per ulteriori informazioni sulle gerarchie organizzative, vedere [Organizzazioni e gerarchie organizzative](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Sicurezza utente
 
@@ -163,7 +163,7 @@ Oltre alle colonne per gli importi del budget, è possibile definire le colonne 
 
 Per lo schema di esempio, è possibile voler creare colonne per gli scenari "Vendite anno fiscale", "Contratti" e "Previsione". La seguente illustrazione mostra la sezione rilevante dello schema. È quindi possibile suddividere uno o tutti questi scenari in colonne separate per ogni trimestre dell'anno fiscale, in modo che il responsabile del reparto vendite possa correttamente immettere gli importi di previsione per ciascun periodo.
 
-[![Colonne](./media/columns.png)](./media/columns.png)
+[![Illustrazione delle sezioni dello schema per l'aggiunta di colonne](./media/columns.png)](./media/columns.png)
 
 Inoltre, è possibile specificare se ogni elemento di layout (colonna) è modificabile e se è disponibile in qualsiasi modello del foglio di lavoro creato per il layout. Per lo schema di esempio, nel layout utilizzato per la fase di "stima", le colonne di "previsione" sono modificabili, mentre le colonne di "vendite anno fiscale" e dei "contratti" sono di sola lettura.
 

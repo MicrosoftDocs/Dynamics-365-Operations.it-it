@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 812f8c66c5f0353abdbabaf5874032648a4b5ca6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a1a9bac01c9688161e3ae363d6cd5f57e5c3d79
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793467"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892995"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>Benvenuto/a in Dynamics 365 Human Resources
 
@@ -53,7 +53,7 @@ Human Resources connette le persone e i dati sulle operazioni per consentire all
 [Gestire le funzionalità](hr-admin-manage-features.md)</br>
 [Esplorare l'interfaccia utente](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
 [Risorse di documentazione](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Risolvere problemi relativi a Human Resources](hr-admin-troubleshooting-support.md)</br>
+[Risolvere problemi relativi a Human Resources](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)</br>
 
 ## <a name="developer-guide"></a>Guida per gli sviluppatori
 

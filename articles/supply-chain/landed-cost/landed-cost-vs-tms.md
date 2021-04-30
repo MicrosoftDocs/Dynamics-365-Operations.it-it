@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833859"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909477"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Moduli Costo sbarcato e Gestione trasporto
 
@@ -51,8 +51,8 @@ TMS e Costo sbarcato non condividono i dati di riferimento per entità come l'im
 
 I seguenti report non sono utilizzabili insieme alla funzionalità Merci in transito di Costo sbarcato:
 
-- [Report Totali merci in transito interaziendali](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Report Totali merci in transito interaziendali](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Report Totali merci in transito interaziendali](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Report Totali merci in transito interaziendali](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 Questi report presumono che le merci siano messe in transito non appena si emette un documento di trasporto e che vengano integrate nelle scorte di transito al momento del ricevimento. Tuttavia, le merci in transito non vengono elaborate in questo modo. Pertanto, se si utilizzano le funzionalità Merci in transito e Interaziendale insieme, i risultati per entrambi questi report non saranno corretti.
 

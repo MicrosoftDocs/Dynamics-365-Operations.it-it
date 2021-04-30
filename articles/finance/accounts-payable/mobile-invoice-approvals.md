@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828036"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897698"
 ---
 # <a name="mobile-invoice-approvals"></a>Approvazioni fatture per dispositivi mobili
 
@@ -32,7 +32,7 @@ Le funzionalità mobili consentono agli utenti aziendali di progettare esperienz
 
 | Prerequisito                                                                                            | Descrizione                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lettura preventiva del manuale sulle funzionalità mobili                                                                                |[Piattaforma mobile](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Lettura preventiva del manuale sulle funzionalità mobili                                                                                |[Piattaforma mobile](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Un ambiente con versione 1611 e aggiornamento 3 della piattaforma (novembre 2016)                   |
 | Installare l'aggiornamento rapido KB 3204341.                                                                              | Registrazione attività può registrare per errore due comandi di chiusura per le finestre di dialogo a discesa. Incluso nell'aggiornamento 3 della piattaforma (aggiornamento di novembre 2016) |
 | Installare l'aggiornamento rapido KB 3207800.                                                                              | Questo aggiornamento rapido consente agli allegati di essere visualizzati sul client mobile. Incluso nell'aggiornamento 3 della piattaforma (aggiornamento di novembre 2016).           |
@@ -60,7 +60,7 @@ La progettazione dell'esperienza mobile per le approvazioni fatture varierà in 
 
 In generale quando si lavora con lo strumento di progettazione mobile, assicurarsi di "pubblicare" le modifiche per evitare la perdita degli aggiornamenti.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Progettazione di uno scenario semplice di approvazione fatture per Contoso
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Progettazione di uno scenario di approvazione fatture semplice per Contoso
 <table>
 <colgroup>
 <col width="50%" />
@@ -213,7 +213,7 @@ Per progettare la pagina dei dettagli fattura per l'ambiente mobile, utilizzare 
 
 11. Dopo che tutti i campi dai due passaggi precedenti sono stati aggiunti, fare clic su **Fine**. La pagina deve essere simili alla figura seguente.
     
-    [![Pagina dopo l'aggiunta dei campi](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Illustrazione che mostra i campi aggiuntivi aggiunti](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Fare clic su **Fine** per uscire dalla modalità di modifica.
 

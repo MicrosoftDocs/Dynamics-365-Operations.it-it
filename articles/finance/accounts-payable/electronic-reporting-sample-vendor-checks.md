@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a48a20939b346b2d8536128107a730761b13f71c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a405fee368bb1789addbdf4316a007e85616d98d
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820715"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897090"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Assegni fornitore di esempio per la creazione di report elettronici 
 
@@ -34,13 +34,13 @@ Microsoft Dynamics 365 Finance include un formato di esempio in cui l'assegno è
 
 ## <a name="what-do-i-have-to-set-up"></a>Cosa devo impostare?
 
-- Prima di poter stampare assegni tramite la creazione di report elettronici, almeno una configurazione dell'assegno attiva deve essere importata nelle configurazioni della creazione di report elettronici. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+- Prima di poter stampare assegni tramite la creazione di report elettronici, almeno una configurazione dell'assegno attiva deve essere importata nelle configurazioni della creazione di report elettronici. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 - Quando si configurano gli assegni in Gestione cassa e banche per il conto bancario, selezionare la casella di controllo **Formato esportazione elettronica generica** e selezionare il formato dell'assegno appropriato come configurazione del formato esportazione.
 - È inoltre necessario specificare il numero di righe divise che verranno stampate sulla rimessa. Assicurarsi di includere le righe di intestazione quando si calcola questo numero. Per i due formati di assegni di esempio, il numero di righe divise consigliato è 17. Tuttavia, questo numero varia in base alle scorte dell'assegno e ai driver della stampante.
 - Si consiglia di stampare una assegno di test per convalidare il layout degli assegni. Per stampare un assegno di test, selezionare l'opzione **Stampa di prova**. I formati di assegni di esempio funzionano meglio se **Margini** è impostato su **Nessuno** nelle proprietà avanzate della stampante per Microsoft Excel. Dopo che l'assegno di test è stato generato, attivare la modifica dell'output di Excel e configurare il layout di pagina in modo da impostare tutti margini su **0** (zero). Confrontare la copia di test degli assegni con le scorte degli assegni e modificare le impostazioni fino a soddisfare le necessità di allineamento.
 - Quando vengono generati i pagamenti per il conto bancario configurato nel giornale di registrazione pagamenti, gli assegni verranno stampati utilizzando il formato specificato.
 
-Per ulteriori informazioni, vedere [Modificare un formato per la creazione di report elettronici](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+Per ulteriori informazioni, vedere [Modificare un formato per la creazione di report elettronici](../../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

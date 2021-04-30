@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829692"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909429"
 ---
 # <a name="master-planning-setup-wizard"></a>Impostazione guidata della pianificazione generale
 
@@ -45,13 +45,13 @@ La prima pagina della procedura guidata chiede dei requisiti specifici della soc
 
 Se il numero di thread calcolato supera il 75% del numero di thread disponibile, viene limitato al 75% del numero di thread disponibile per ogni cliente. Il numero di thread disponibili verrà determinato per ogni cliente.
 
-Per ulteriori informazioni, vedere [Numero di thread](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Per ulteriori informazioni, vedere [Numero di thread](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Dimensioni aggregazione
 
 Le dimensioni di aggregazione verranno impostate su **1**. Questo valore è spesso il migliore valore, poiché consente di migliorare le prestazioni della pianificazione generale.
 
-Per ulteriori informazioni, vedere [Numero di attività nell'aggregazione helper](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Per ulteriori informazioni, vedere [Numero di attività nell'aggregazione helper](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Dimensioni aggregazione di stabilizzazione
 
@@ -64,7 +64,7 @@ Calcolo di aggregazione = (numero degli ordini pianificati × (Intervallo tempor
 
 Le dimensioni della cache verranno impostate su **Massimo**. Questo valore è spesso il migliore valore, poiché consente di migliorare le prestazioni della pianificazione generale.
 
-Per ulteriori informazioni, vedere [Allocare tempo ai processi in un'aggregazione di processi](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Per ulteriori informazioni, vedere [Allocare tempo ai processi in un'aggregazione di processi](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Impostazione della produzione
 
@@ -88,7 +88,7 @@ Le domande rimanenti in questa pagina e le relative risposte seguono lo stesso s
 - **Sì, come definito nel piano generale** - L'opzione **Intervallo temporale di piano previsionale** verrà impostata su **Sì**. Numero di giorni immesso verrà utilizzato e sovrascriverà i valori impostati nei gruppi di copertura.
 - **Sì, come definito nel gruppo di copertura** - L'opzione **Intervallo temporale di piano previsionale** verrà impostata su **No**.
 
-Per ulteriori informazioni, vedere [Programmazione processo](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Per ulteriori informazioni, vedere [Programmazione processo](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Opzioni di programmazione
 
@@ -99,7 +99,7 @@ La risposta alla prima domanda di questa pagina ("È necessario programmare oper
 - **Sì** - La programmazione dei processi verrà utilizzata.
 - **No** - La programmazione delle operazioni verrà utilizzata.
 
-Per ulteriori informazioni, vedere [Programmazione operazioni](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) e [Programmazione processo](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Per ulteriori informazioni, vedere [Programmazione operazioni](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) e [Programmazione processo](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Aggiornamenti di domanda e offerta
 

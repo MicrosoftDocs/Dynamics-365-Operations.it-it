@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1e1920ecc01d3057d6a5c22c7dd239a59254b546
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cff13c916eabda869d08abcc1a6d08b2fe080106
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826481"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894722"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
@@ -42,7 +42,7 @@ Configurare i libri IVA italiani seguendo le istruzioni in [Libri IVA italiani](
     - **Comunicazione annuale imposte (IT)**
     - **Mapping dei modelli di comunicazione annuale IVA**
 
-Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 5. In Finance andare a **Imposte \> Impostazione \> Parametri \> Parametri di Contabilità generale**.
 6. Nella scheda **Sequenze numeriche** selezionare una sequenza numerica per il riferimento **ID comunicazione imposte**.
@@ -211,7 +211,7 @@ Nella colonna **Formato** è possibile specificare un formato di campo. Oltre a 
     |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | ID comunicazione imposte | Numero di identificazione del report **Comunicazione annuale imposte**.                                                                                                                                                                                                                                                      |
     | Anni                | Anno della comunicazione imposte. Questo campo viene automaticamente impostato sull'anno precedente. Se si crea il report nel 2020, questo campo è ad esempio impostato su **2019**.                                                                                                                                                |
-    | Codice ATECOFIN        | Codice imposta associato alla classificazione di possibili attività della società. Questo campo viene compilato dalla pagina **Libri IVA italiani**. Per ulteriori informazioni, vedere [Libri IVA italiani](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-fiscal-books#set-up-sales-tax-books). |
+    | Codice ATECOFIN        | Codice imposta associato alla classificazione di possibili attività della società. Questo campo viene compilato dalla pagina **Libri IVA italiani**. Per ulteriori informazioni, vedere [Libri IVA italiani](./emea-ita-fiscal-books.md#set-up-sales-tax-books). |
     | Esportato             | Valore che indica se il file con estensione ivc è stato esportato. Questo campo e i due campi successivi vengono impostati automaticamente quando si seleziona **Esporta e genera file**.                                                                                                                                                     |
     | Data di esportazione       | Data in cui è stato esportato il file con estensione .ivc.                                                                                                                                                                                                                                                                                  |
     | Nome file di esportazione     | Nome del file con estensione ivc che è stato esportato.                                                                                                                                                                                                                                                                               |
@@ -1097,7 +1097,7 @@ I campi con **Totale** selezionato nel campo **Calcolo** sono contrassegnati in 
 
 ## <a name="appendix-2-example-of-the-yearly-tax-communication-setup-for-2020"></a>Appendice 2. Esempio di impostazioni comunicazione annuale imposte per il 2020
 
-Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impostazione di esempio IVA 2020](https://docs.microsoft.com/dynamics/s-e/ax/ItalianAnnualVATdeclaration_delta). Per accedere al collegamento, è necessario avere accesso a CustomerSource.
+Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impostazione di esempio IVA 2020](/dynamics/s-e/ax/ItalianAnnualVATdeclaration_delta). Per accedere al collegamento, è necessario avere accesso a CustomerSource.
 
 1. Andare a **Imposta \> Impostazione \> IVA \> Impostazioni comunicazione annuale imposte**.
 2. Selezionare il pulsante **Apri in Microsoft Office**, quindi in **Apri in Excel** selezionare **Impostazioni comunicazione annuale imposte (DEMF)**.

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750060"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893179"
 ---
 # <a name="electronic-reporting-er-overview"></a>Panoramica dei report elettronici
 
@@ -183,11 +183,11 @@ Da notare che questo tipo di archivio è accessibile negli ambienti seguenti:
 
 Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici](./electronic-reporting-import-ger-configurations.md).
 
-L'archivio **RCS** consente l'accesso all'elenco delle configurazioni di una determinata istanza di [Regulatory Configuration Services (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) selezionata nella fase di registrazione dell'archivio. ER consente di importare configurazioni completate o condivise dall'istanza RCS selezionata nell'istanza corrente in modo da poterle utilizzare per la creazione di report elettronici.
+L'archivio **RCS** consente l'accesso all'elenco delle configurazioni di una determinata istanza di [Regulatory Configuration Services (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) selezionata nella fase di registrazione dell'archivio. ER consente di importare configurazioni completate o condivise dall'istanza RCS selezionata nell'istanza corrente in modo da poterle utilizzare per la creazione di report elettronici.
 
 Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici da RCS](./rcs-download-configurations.md).
 
-Un archivio **Archivio globale** fornisce l'accesso all'elenco di configurazioni all'interno dell'archivio globale in [Regulatory Configuration Service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Questo tipo di archivio ER può essere registrato solo per i fornitori di Microsoft. Nell'archivio globale, è possibile importare le ultime versioni delle configurazioni ER nell'istanza corrente.
+Un archivio **Archivio globale** fornisce l'accesso all'elenco di configurazioni all'interno dell'archivio globale in [Regulatory Configuration Service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Questo tipo di archivio ER può essere registrato solo per i fornitori di Microsoft. Nell'archivio globale, è possibile importare le ultime versioni delle configurazioni ER nell'istanza corrente.
 
 Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici dall'archivio globale di Regulatory Configuration Service (RCS)](./er-download-configurations-global-repo.md).
 

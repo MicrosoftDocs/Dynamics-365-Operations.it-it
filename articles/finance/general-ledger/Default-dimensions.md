@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823862"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897310"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensioni finanziarie e registrazione 
 
@@ -83,17 +83,17 @@ La dimensione predefinita nell'intestazione del giornale di registrazione implic
 
 Tuttavia, alla registrazione delle riga, viene applicata la dimensione fissa e la riga viene registrata nel reparto 022. L'illustrazione seguente mostra il giustificativo registrato, dove la dimensione fissa è applicata per il conto vendite.
 
-[![Transazioni giustificativo](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Transazioni giustificativo con dimensione fissa applicata](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Esempio 2
 
 In questo esempio viene utilizzata la stessa impostazione del primo esempio. Aggiungeremo tuttavia un secondo componente e utilizzeremo la dimensione Reparto come dimensione di bilanciamento. Nell'illustrazione seguente, **Reparto** è impostato come dimensione finanziaria di bilanciamento per la contabilità generale USMF.
 
-[![Contabilità generale](./media/ledger.png)](./media/ledger.png)
+[![Illustrazione che mostra Reparto come dimensione finanziaria di bilanciamento](./media/ledger.png)](./media/ledger.png)
 
 Quando si utilizza la stessa impostazione dell'intestazione del giornale di registrazione e si registra la stessa transazione, la dimensione fissa viene applicata per prima. Viene quindi applicata la logica di bilanciamento per garantire che ogni reparto ha una voce bilanciata. L'illustrazione seguente mostra transazioni giustificativo che includono la voce di bilanciamento dopo l'applicazione della dimensione fissa.
 
-[![Transazioni giustificativo](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Transazioni giustificative dopo l'applicazione della voce di bilanciamento](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Esempio 3
 
@@ -119,11 +119,11 @@ Alcune delle seguenti risorse fanno riferimento a una versione precedente del no
 
 [Definire il piano dei conti](plan-chart-of-accounts.md) 
 
-[Blog Pianificazione del piano dei conti in AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Collegamento al primo di una serie di sette articoli.
+[Blog Pianificazione del piano dei conti in AX 2012](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – Collegamento al primo di una serie di sette articoli.
 
-[Impostazione predefinita delle dimensioni nelle distribuzioni contabili](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Impostazione predefinita delle dimensioni nelle distribuzioni contabili](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Impostazione predefinita delle dimensioni nel framework di dimensioni](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Impostazione predefinita delle dimensioni nel framework di dimensioni](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825208"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908037"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaborazione fornitore con i clienti
 
@@ -31,7 +31,7 @@ In questo argomento viene descritto come utilizzare la collaborazione fornitore 
 - **Conferma ordine fornitore** - Controllare e rispondere agli ordini fornitore.
 - **Offerta fornitore** - Visualizzare richieste di offerta (RdO) e rispondere immettendo le offerte.
 - **Informazioni fornitore** - Visualizzare e aggiornare dati master del fornitore.
-- **Fatturazione** - Utilizzare le fatture. In questo argomento non viene trattata l'area di lavoro **Fatturazione**. Per ulteriori informazioni su questa area di lavoro, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Fatturazione** - Utilizzare le fatture. In questo argomento non viene trattata l'area di lavoro **Fatturazione**. Per ulteriori informazioni su questa area di lavoro, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 I fornitori possono inoltre controllare le informazioni sull'inventario spedizione.
 
@@ -138,7 +138,7 @@ Se una RdO viene modificata, è necessario immettere una nuova offerta. È possi
 
 Come fornitore, è possibile accedere a parte delle informazioni che il cliente mantiene aggiornate nel record dei dati master fornitore. Di conseguenza, è possibile mantenere le informazioni aggiornate. Per aggiornare le informazioni, è necessario disporre del ruolo di amministratore fornitore (esterno).
 
-Le informazioni accessibili sono il nome del fornitore, gli indirizzi, le informazioni di contatto, le persone di contatto e le loro informazioni di contatto, i numeri di identificazione, i numeri di partita IVA, le categorie di approvvigionamento che il fornitore è autorizzato a vendere al cliente e le informazioni sulle certificazioni.
+Le informazioni accessibili sono il nome del fornitore, gli indirizzi, le informazioni di contatto, le persone di contatto e le loro informazioni di contatto, i numeri di identificazione, le partite IVA, le categorie di approvvigionamento che il fornitore è autorizzato a vendere al cliente e le informazioni sulle certificazioni.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

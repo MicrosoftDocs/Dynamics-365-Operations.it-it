@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743729"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891795"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Progettare una nuova soluzione ER per stampare un report personalizzato
 
@@ -119,7 +119,7 @@ I passaggi seguenti spiegano come un utente con il ruolo di amministratore di si
 
 - [Risorse aggiuntive](#References)
 
-In questo esempio, creerai una nuova soluzione ER per il modulo [Gestione questionari](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Questa nuova soluzione ER consente di progettare un report utilizzando un foglio di lavoro Microsoft Excel come modello. È quindi possibile generare il report **Gestione questionari** in formato Excel o PDF, oltre a generare il report SQL Server Reporting Services (SSRS) esistente. È inoltre possibile modificare il nuovo report in un secondo momento, su richiesta. Non è richiesta alcuna codifica.
+In questo esempio, creerai una nuova soluzione ER per il modulo [Gestione questionari](../../../human-resources/hr-learning-questionnaires.md). Questa nuova soluzione ER consente di progettare un report utilizzando un foglio di lavoro Microsoft Excel come modello. È quindi possibile generare il report **Gestione questionari** in formato Excel o PDF, oltre a generare il report SQL Server Reporting Services (SSRS) esistente. È inoltre possibile modificare il nuovo report in un secondo momento, su richiesta. Non è richiesta alcuna codifica.
 
 1. Per eseguire il report esistente, vai a **Gestione questionari** \> **Progettazione** \> **Report dei questionari**.
 

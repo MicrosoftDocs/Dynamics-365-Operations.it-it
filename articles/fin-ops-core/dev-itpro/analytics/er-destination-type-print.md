@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 83081f8c17a903cd447a34596df2e61ebda0cafc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753434"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894006"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destinazione stampante
 
@@ -30,7 +30,7 @@ ms.locfileid: "5753434"
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di iniziare, è necessario installare e configurare l'agente di distribuzione documenti e quindi registrare le stampanti di rete. Per ulteriori informazioni, vedere [Installare l'agente di distribuzione documenti per abilitare la stampa di rete](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent).
+Prima di iniziare, è necessario installare e configurare l'agente di distribuzione documenti e quindi registrare le stampanti di rete. Per ulteriori informazioni, vedere [Installare l'agente di distribuzione documenti per abilitare la stampa di rete](./install-document-routing-agent.md).
 
 ## <a name="make-the-printer-destination-available"></a>Rendere disponibile la destinazione Stampante
 

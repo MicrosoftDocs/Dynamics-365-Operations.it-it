@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825520"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909206"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Home page di approvvigionamento
 
@@ -83,12 +83,12 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 ## <a name="prices-and-discounts"></a>Prezzi e sconti
 -   [Contratti di acquisto](purchase-agreements.md)
 -   [Creare un contratto di acquisto](tasks/create-purchase-agreement.md)
--   [Sconti fornitore](https://docs.microsoft.com/dynamics/s-e/) (white paper)
+-   [Sconti fornitore](/dynamics/s-e/) (white paper)
 
 ## <a name="product-receipt-and-invoicing"></a>Entrata prodotti e fatturazione
 -   [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
--   [Panoramica delle fatture fornitore](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Profili registrazione fornitori](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Panoramica delle fatture fornitore](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Profili registrazione fornitori](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Flussi di lavoro di approvvigionamento
 -   [Panoramica dell'approvvigionamento](procurement-sourcing-overview.md)

@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e7a21894848e898ae7ba58afa1a74e12d6b1a905
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5fc2d99f076c2c8ecba1bba874c30f3d0bd076be
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814924"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894734"
 ---
 # <a name="tax-plafond"></a>Plafond fiscale
 
@@ -35,7 +35,7 @@ Questo argomento descrive come completare queste attività:
 ## <a name="prerequisites"></a>Prerequisiti
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- Nell'area di lavoro **Gestione funzionalità**, abilita la funzionalità **Plafond fiscale**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- Nell'area di lavoro **Gestione funzionalità**, abilita la funzionalità **Plafond fiscale**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - È previsto un periodo di liquidazione IVA (**Imposta** > **Imposte indirette** > **IVA** > **Periodi liquidazione IVA**) per il periodo in cui si prevede di creare un plafond fiscale e lettere di intenti e di registrare documenti fiscali con riferimento alle lettere di intenti.
 
 ## <a name="set-up-parameters"></a>Imposta parametri

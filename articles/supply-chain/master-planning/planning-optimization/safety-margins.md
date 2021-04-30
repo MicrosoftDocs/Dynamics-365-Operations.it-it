@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b66951b9c742af4aa11f681af8f9583a2d97d8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841865"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908295"
 ---
 # <a name="safety-margins"></a>Margini di sicurezza
 
@@ -87,7 +87,7 @@ Si noti che quando viene applicato un margine su uscita, le date relative al fab
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>Attivare i margini di sicurezza in Gestione funzionalità
 
-Prima di poter utilizzare questa funzione con Planning Optimization, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Prima di poter utilizzare questa funzione con Planning Optimization, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
 
 - **Modulo:** _Pianificazione generale_
 - **Nome funzionalità:** _Margini per Planning Optimization_

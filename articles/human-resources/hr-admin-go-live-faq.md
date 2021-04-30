@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4a06da220fd90de91fb9091c41f35a1fb95442c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e1b4b336953ef6bd74da009b3bb44fbcf2eab5a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804019"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892325"
 ---
 # <a name="go-live-faq"></a>Domande frequenti fase operativa 
 
@@ -48,7 +48,7 @@ Per un elenco dei prerequisiti, vedere  [Preparazione per la fase operativa](h
 
 ## <a name="what-is-a-go-live-assessment"></a>Cos'è una valutazione della fase operativa?  
 
-La valutazione della fase operativa fa parte del  [programma Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). Durante questa revisione, un solution architect valuta se un progetto di implementazione è pronto per il passaggio e la fase operativa di successo. Questa revisione è obbligatoria per ogni progetto di implementazione prima di poter richiedere la fase operativa in un ambiente di produzione. 
+La valutazione della fase operativa fa parte del  [programma Microsoft FastTrack](/dynamics365/fasttrack/). Durante questa revisione, un solution architect valuta se un progetto di implementazione è pronto per il passaggio e la fase operativa di successo. Questa revisione è obbligatoria per ogni progetto di implementazione prima di poter richiedere la fase operativa in un ambiente di produzione. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>I nostri ambienti Sandbox vengono distribuiti nel data center degli Stati Uniti centrali. Vogliamo che i nostri ambienti di produzione vengano distribuiti nel data center degli Stati Uniti occidentali. È possibile selezionare Stati Uniti occidentali come data center nella configurazione di produzione? 
 
@@ -56,7 +56,7 @@ LCS non impedisce di selezionare un data center diverso quando si distribuisce u
 
 Se si desidera che l'ambiente di produzione si trovi nel data center degli Stati Uniti occidentali, è necessario prima ridistribuire gli ambienti Sandbox nel data center degli Stati Uniti occidentali, testarli e disconnetterli. 
 
-Per informazioni sulla selezione del data center corretto, vedere [Requisiti di rete](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements). 
+Per informazioni sulla selezione del data center corretto, vedere [Requisiti di rete](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements). 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>Quale livello di accesso alle risorse di Azure è disponibile per gli ambienti Human Resources?  
 
@@ -64,7 +64,7 @@ L'accesso agli ambienti Human Resources è limitato. Non è possibile accedere a
 
 Sebbene non sia possibile accedere alle risorse di Azure o all'ambiente Dynamics 365 Human Resources direttamente, ci sono funzionalità aggiuntive che è possibile utilizzare per accedere ai dati:
 
-- È possibile distribuire un database SQL di Azure nel proprio tenant di Azure e usare la funzionalità per portare il proprio database (BYOD) per sincronizzare i dati. Per ulteriori informazioni, vedere [Portare il proprio database (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
+- È possibile distribuire un database SQL di Azure nel proprio tenant di Azure e usare la funzionalità per portare il proprio database (BYOD) per sincronizzare i dati. Per ulteriori informazioni, vedere [Portare il proprio database (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
 
 - È possibile usare l'integrazione di Dataverse per sincronizzare le entità selezionate nel database Dataverse. Per ulteriori informazioni, vedi [Tabelle Dataverse](hr-developer-entities.md). 
 
@@ -80,11 +80,11 @@ I database sono protetti da backup automatici con le seguenti frequenze:
 
 Microsoft conserva backup sufficienti per consentire il ripristino temporizzato (PITR) negli ultimi 14 giorni. 
 
-Per ulteriori informazioni, vedere  [Informazioni sui backup automatici del database SQL](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+Per ulteriori informazioni, vedere  [Informazioni sui backup automatici del database SQL](/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>È possibile richiedere una copia del backup del database di produzione? 
 
-N. Tuttavia, è possibile inviare una richiesta di servizio di aggiornamento del database per copiare l'ambiente di produzione nell'ambiente Sandbox. È possibile distribuire un database SQL di Azure nel proprio tenant di Azure e usare la funzionalità BYOD per sincronizzare i dati dall'ambiente di produzione. Per ulteriori informazioni, vedere [Portare il proprio database (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
+N. Tuttavia, è possibile inviare una richiesta di servizio di aggiornamento del database per copiare l'ambiente di produzione nell'ambiente Sandbox. È possibile distribuire un database SQL di Azure nel proprio tenant di Azure e usare la funzionalità BYOD per sincronizzare i dati dall'ambiente di produzione. Per ulteriori informazioni, vedere [Portare il proprio database (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>Come è possibile spostare l'ambiente Sandbox in Produzione per la fase operativa? 
 
@@ -94,7 +94,7 @@ Si consiglia di mantenere un elenco chiaro di entità configurate nell'ambiente 
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Cosa fare se l'ambiente di produzione non funziona? 
 
-Per segnalare un'interruzione di produzione, seguire la procedura descritta in  [Segnalare un'interruzione di produzione](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
+Per segnalare un'interruzione di produzione, seguire la procedura descritta in  [Segnalare un'interruzione di produzione](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md). 
 
  ## <a name="see-also"></a>Vedere anche
 

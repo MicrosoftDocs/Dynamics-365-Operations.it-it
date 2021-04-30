@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824920"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908086"
 ---
 # <a name="credit-limits-for-customers"></a>Limiti di credito per i clienti
 
@@ -90,7 +90,7 @@ Utilizzare il modulo **Parametri contabilità clienti** per specificare le infor
 
 **Dove sono utilizzate le informazioni sul credito rimanente di un cliente?**
 
-Le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolate e salvate quando si crea lo snapshot di aging e sono visualizzate nel modulo **Riscossioni**. Gli importi visualizzati nel modulo **Riscossioni** potrebbero non includere tutte le attività di transazione fino a che non viene creato un nuovo snapshot di aging. Per ulteriori informazioni, vedere [Riscossioni e crediti in Contabilità clienti](https://technet.microsoft.com/library/hh209221.aspx).
+Le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolate e salvate quando si crea lo snapshot di aging e sono visualizzate nel modulo **Riscossioni**. Gli importi visualizzati nel modulo **Riscossioni** potrebbero non includere tutte le attività di transazione fino a che non viene creato un nuovo snapshot di aging. Per ulteriori informazioni, vedere [Riscossioni e crediti in Contabilità clienti](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 In base ai documenti selezionati, le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolati quando gli ordini cliente, i documenti di trasporto e le fatture cliente vengono aggiornati. Se l'importo del documento su cui si sta lavorando causasse il superamento del limite di credito, viene visualizzato un messaggio.
 

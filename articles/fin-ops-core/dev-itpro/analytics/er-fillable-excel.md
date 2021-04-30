@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753314"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893910"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -159,7 +159,7 @@ Per un singolo componente **Foglio**, è possibile aggiungere diversi componenti
 
 Sotto il componente **Piè di pagina** aggiunto, aggiungere i componenti nidificati necessari di tipo **Testo\\Stringa**, **Testo\\DataTime** o di altro tipo. Configurare le associazioni per tali componenti per specificare come viene riempito il piè di pagina.
 
-È anche possibile usare [codici di formattazione](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) speciali per formattare correttamente il contenuto di un piè di pagina generato. Per informazioni su come utilizzare questo approccio, seguire i passaggi nell'[Esempio 1](#example-1) più avanti in questo argomento.
+È anche possibile usare [codici di formattazione](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) speciali per formattare correttamente il contenuto di un piè di pagina generato. Per informazioni su come utilizzare questo approccio, seguire i passaggi nell'[Esempio 1](#example-1) più avanti in questo argomento.
 
 > [!NOTE]
 > Quando si configurano i formati ER, assicurarsi di considerare il [limite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) di Excel e il numero massimo di caratteri per una singola intestazione o piè di pagina.

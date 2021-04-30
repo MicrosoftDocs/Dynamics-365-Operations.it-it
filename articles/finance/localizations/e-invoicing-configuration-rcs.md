@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840246"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897722"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurare la fatturazione elettronica in Regulatory Configuration Services (RCS)
 
@@ -50,6 +50,14 @@ Infine, le funzionalità supportano lo scambio di messaggi con servizi web ester
 
 La disponibilità delle funzionalità di fatturazione elettronica dipende dal paese o dalla regione. Sebbene alcune funzionalità siano generalmente disponibili, altre sono in anteprima.
 
+#### <a name="generally-available-features"></a>Funzionalità generalmente disponibili
+
+La tabella seguente mostra le funzionalità di fatturazione elettronica generalmente disponibili.
+
+| Paese/area geografica | Nome funzionalità                         | Documento aziendale |
+|----------------|--------------------------------------|-------------------|
+| Egitto          | Fattura elettronica egiziana (EG) | Fatture di vendita e fatture di progetto |
+
 #### <a name="preview-features"></a>Funzionalità di anteprima
 
 La tabella seguente mostra le funzionalità di fatturazione elettronica attualmente in anteprima.
@@ -61,7 +69,6 @@ La tabella seguente mostra le funzionalità di fatturazione elettronica attualme
 | Brasile         | NF-e brasiliano (BR)                  | Documento fiscale modello 55, lettere di correzione, annullamenti e rifiuti |
 | Brasile         | Brasiliano NFS-e ABRASF Curitiba (BR) | Documenti fiscali di servizio |
 | Danimarca        | Fattura elettronica danese (DK)       | Fatture di vendita e fatture di progetto |
-| Egitto          | Fattura elettronica egiziana (EG) | Fatture di vendita e fatture di progetto |
 | Estonia        | Fattura elettronica estone (EE)     | Fatture di vendita e fatture di progetto |
 | Finlandia        | Fattura elettronica finlandese (FI)      | Fatture di vendita e fatture di progetto |
 | Francia         | Fattura elettronica francese (FR)       | Fatture di vendita e fatture di progetto |
@@ -202,6 +209,91 @@ La tabella seguente elenca le azioni disponibili e se sono attualmente generalme
 | Chiama servizio PAC messicano                      | Integrazione con il servizio PAC messicano per l'invio CFDI.                      | In anteprima           |
 | Elabora risposta                              | Analizza la risposta ricevuta dalla chiamata al servizio Web.                     | Generalmente disponibile  |
 | Usa MS Power Automate                         | Integrazione con il flusso integrato in Microsoft Power Automate.                       | In anteprima           |
+
+### <a name="applicability-rules"></a>Regole di applicabilità
+
+Le regole di applicabilità sono clausole configurabili definite a livello della funzionalità Fatturazione elettronica. Le regole sono configurate per fornire un contesto per l'esecuzione delle funzionalità di fatturazione elettronica tramite il set di funzionalità Fatturazione elettronica.
+
+Quando un documento aziendale di Finance o Supply Chain Management viene inviato alla fatturazione elettronica, il documento aziendale non contiene un riferimento esplicito che consente al set di funzionalità Fatturazione elettronica impostata per chiamare una particolare funzionalità di fatturazione elettronica per elaborare l'invio.
+
+Tuttavia, se correttamente configurato, il documento aziendale contiene gli elementi necessari che consentono alla fatturazione elettronica di stabilire quale funzionalità di fatturazione elettronica deve essere selezionata e quindi di generare la fattura elettronica.
+
+Le regole di applicabilità consentono al set di funzionalità Fatturazione elettronica di trovare le caratteristiche esatte di fatturazione elettronica che devono essere utilizzate per elaborare l'invio. Ciò avviene abbinando i contenuti del documento aziendale inviato alle clausole delle regole di applicabilità.
+
+Ad esempio, due funzionalità di fatturazione elettronica con le regole di applicabilità correlate vengono distribuite nel set di funzionalità Fatturazione elettronica.
+
+| Funzionalità di fatturazione elettronica | Regole di applicabilità        |
+|------------------------------|--------------------------- |
+| A                            | <p>Paese = BR</p><p>e</p><p>Persona giuridica = BRMF</p>  |
+| B                            | <p>Paese = MX</p><p>e</p><p>Persona giuridica = MXMF</p>  |
+
+Se un documento aziendale di Finance o Supply Chain Management viene inviato al set di funzionalità Fatturazione elettronica, il documento aziendale contiene i seguenti attributi compilati come:
+
+- Paese = BR
+- Persona giuridica = BRMF
+
+Il set di funzionalità Fatturazione elettronica selezionerà la funzionalità di fatturazione elettronica **A** per elaborare l'invio e generare la fattura elettronica.
+
+Allo stesso modo, se il documento aziendale contiene:
+
+- Paese = MX
+- Persona giuridica = MXMF
+
+La funzionalità di fatturazione elettronica **B** è selezionata per generare la fattura elettronica.
+
+La configurazione delle regole di applicabilità non può essere ambigua. Ciò significa che due o più funzionalità di fatturazione elettronica non possono avere le stesse clausole, altrimenti non comporterà alcuna selezione. In caso di duplicazione delle funzionalità di fatturazione elettronica, per evitare ambiguità, utilizzare clausole aggiuntive per consentire al set di funzionalità Fatturazione elettronica impostata di distinguere tra le due funzionalità di fatturazione elettronica.
+
+Ad esempio, considerare la funzionalità di fatturazione elettronica **C**. Questa funzionalità è una copia della funzionalità di fatturazione elettronica **A**.
+
+| Funzionalità di fatturazione elettronica | Regole di applicabilità        |
+|------------------------------|--------------------------- |
+| A                            | <p>Paese = BR</p><p>e</p><p>Persona giuridica = BRMF</p>  |
+| C                            | <p>Paese = BR</p><p>e</p><p>Persona giuridica = BRMF</p>  |
+
+In questo esempio, la funzionalità **C** si trova davanti a un documento aziendale inviato che contiene quanto segue:
+
+- Paese = BR
+- Persona giuridica = BRMF
+
+La funzionalità Fatturazione elettronica non è in grado di distinguere quale funzionalità di fatturazione elettronica deve essere utilizzata per elaborare l'invio perché gli invii contengono esattamente le stesse clausole.
+
+Per creare una distinzione tra le due funzionalità tramite le regole di applicabilità, è necessario aggiungere una nuova clausola a una delle funzionalità per consentire al set di funzionalità Fatturazione elettronica di selezionare la funzionalità di fatturazione elettronica appropriata.
+
+| Funzionalità di fatturazione elettronica | Regole di applicabilità        |
+|------------------------------|--------------------------- |
+| A                            | <p>Paese = BR</p><p>e</p><p>Persona giuridica = BRMF</p>  |
+| C                            | <p>Paese = BR</p><p>e</p><p>Persona giuridica = BRMF</p><p>e</p><p>Modello=55</p>  |
+
+Per supportare la creazione di clausole più complesse, sono disponibili le seguenti risorse:
+
+Operatori logici:
+- E
+- O
+
+Tipi di operatori:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Uguale o maggiore di
+- Uguale o minore di
+- Contains
+- Inizia con
+
+Tipi di dati:
+- String
+- Numero
+- Boolean
+- Data
+- UUID
+
+Funzionalità per raggruppare e separare clausole.
+Un esempio è illustrato di seguito.
+
+| Funzionalità di fatturazione elettronica | Regole di applicabilità        |
+|------------------------------|--------------------------- |
+| C                            | <p>Paese = BR</p><p>e</p><p>( Persona giuridica = BRMF</p><p>o</p><p>Modello=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Provider di configurazione
 

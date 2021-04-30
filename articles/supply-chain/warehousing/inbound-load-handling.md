@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835632"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910017"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
 Questo argomento descrive il processo di gestione del magazzino per i carichi in entrata per gli ordini fornitore.
 
-Per ciascun carico in entrata, il sistema deve già includere un ordine cliente correlato e può contenere anche una specifica del carico e/o un piano di trasporto correlati. Per ulteriori informazioni su come creare e gestire i carichi in entrata, vedere [Processo aziendale: pianificazione del trasporto per carichi in entrata](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Per ciascun carico in entrata, il sistema deve già includere un ordine cliente correlato e può contenere anche una specifica del carico e/o un piano di trasporto correlati. Per ulteriori informazioni su come creare e gestire i carichi in entrata, vedere [Processo aziendale: pianificazione del trasporto per carichi in entrata](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Panoramica: come vengono creati, registrati e ricevuti i carichi in entrata
 
@@ -38,11 +38,11 @@ La seguente illustrazione mostra il flusso tipico per la gestione di carichi in 
 
 1. **Viene creato un record di carico in entrata per pianificare l'arrivo e il suo contenuto.**
 
-    Il record di carico in entrata rappresenta una spedizione fornitore di uno o più ordini fornitore. Il carico arriva al magazzino come unità di trasporto fisica (ad esempio un camion). Il record di carico in entrata viene utilizzato a fini della pianificazione e consente al coordinatore della logistica di tenere traccia dell'avanzamento del carico dal fornitore. Viene anche utilizzato per registrare le quantità della riga ordine e gestire i progressi attraverso le operazioni di magazzino, come i lavori di arrivo e di stoccaggio. I carichi possono essere creati automaticamente o manualmente e possono essere basati su un ordine fornitore o un avviso di spedizione avanzato (ASN) dal fornitore. Per ulteriori informazioni, vedere [Creare o modificare un carico in entrata](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Il record di carico in entrata rappresenta una spedizione fornitore di uno o più ordini fornitore. Il carico arriva al magazzino come unità di trasporto fisica (ad esempio un camion). Il record di carico in entrata viene utilizzato a fini della pianificazione e consente al coordinatore della logistica di tenere traccia dell'avanzamento del carico dal fornitore. Viene anche utilizzato per registrare le quantità della riga ordine e gestire i progressi attraverso le operazioni di magazzino, come i lavori di arrivo e di stoccaggio. I carichi possono essere creati automaticamente o manualmente e possono essere basati su un ordine fornitore o un avviso di spedizione avanzato (ASN) dal fornitore. Per ulteriori informazioni, vedere [Creare o modificare un carico in entrata](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Il fornitore conferma la spedizione del carico.**
 
-    Quando il fornitore spedisce il carico, il coordinatore della logistica presso il magazzino ricevente conferma la spedizione del carico. Se la società ricevente utilizza il modulo **Gestione trasporto** la conferma della spedizione in entrata attiverà altri processi di gestione dei carichi associati ai carichi in entrata. Per ulteriori informazioni, vedere [Confermare un carico per la spedizione](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Quando il fornitore spedisce il carico, il coordinatore della logistica presso il magazzino ricevente conferma la spedizione del carico. Se la società ricevente utilizza il modulo **Gestione trasporto** la conferma della spedizione in entrata attiverà altri processi di gestione dei carichi associati ai carichi in entrata. Per ulteriori informazioni, vedere [Confermare un carico per la spedizione](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Il carico arriva al magazzino e i lavoratori registrano le quantità.**
 

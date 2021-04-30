@@ -2,11 +2,11 @@
 title: Gestire i leasing tramite il framework di importazione dei leasing
 description: Questo argomento spiega come utilizzare il framework di importazione dei leasing per rettificare più leasing contemporaneamente.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 083adf0a4bb74ac65e6f8b5077f65c74eb3fa337
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819796"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880912"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Gestire i leasing tramite il framework di importazione dei leasing
 
@@ -51,9 +51,9 @@ Per visualizzare i dati di staging del leasing prima dell'esecuzione dell'elabor
 La funzione di confronto consente di confrontare un record che stai importando con il record corrispondente che è già nel tuo sistema. Per confrontare un singolo record di leasing, seleziona un leasing, quindi seleziona **Confronta**. È necessario completare questo passaggio per generare un report **Differenze** prima di migrare i record di leasing. La funzionalità Confronta mette a confronto i valori nei dati di gestione temporanea con i valori per i leasing attualmente nel sistema.
 
 > [!NOTE]
-> La funzionalità Confronta non funziona per i leasing con tipo di processo **Aggiungi record**, perché non c'è niente da confrontare con quel leasing.
+> La funzionalità Confronta non funzionerà per i leasing con tipo di processo **Aggiungi record**, perché non c'è niente da confrontare con quel leasing.
 >
-> Per confrontare più leasing contemporaneamente, vai a **Leasing cespite \> Framework di importazione leasing \> Periodico \> Confronta** e seleziona **Confronta**.
+> Per confrontare più leasing contemporaneamente, vai a **Leasing cespite \> Framework di importazione leasing \> Periodico** e seleziona **Confronta**.
 
 Per ogni entità, puoi visualizzare le differenze tra ciò che è attualmente nel sistema e ciò che è nelle tabelle temporanee. Per ogni entità nelle tabelle di gestione temporanea, seleziona **Visualizza differenze**. La finestra di dialogo che appare mostra il valore corrente e il valore di gestione temporanea proposto.
 
@@ -62,17 +62,17 @@ Per ogni entità, puoi visualizzare le differenze tra ciò che è attualmente ne
 Puoi convalidare i leasing per garantire che i record possano essere importati nel sistema senza introdurre errori. Prima che un record di leasing venga migrato, il sistema esegue diverse convalide per garantire che il record venga importato correttamente. Per convalidare un singolo leasing, seleziona **Convalida**.
 
 > [!NOTE]
-> Per convalidare più leasing contemporaneamente, vai a **Leasing cespite \> Framework di importazione leasing \> Periodico \> Convalida** e seleziona **Confronta**.
+> Per convalidare più leasing contemporaneamente, vai a **Leasing cespite \> Framework di importazione leasing \> Periodico** e seleziona **Convalida**.
 
 Per elaborare un singolo leasing, seleziona **Esegui migrazione record di leasing** nella pagina **Importa intestazione**. Quando un leasing viene migrato, il sistema esegue l'azione specificata nel campo **Tipo di processo**.
 
 > [!NOTE]
-> Per convalidare più leasing contemporaneamente, vai a **Leasing cespite \> Framework di importazione leasing \> Periodico \> Convalida** e seleziona **Confronta**.
+> Per migrare più leasing contemporaneamente, vai a **Leasing cespite \> Framework di importazione leasing \> Periodico** e seleziona **Esegui migrazione**.
 
 Dopo aver confrontato i leasing, è possibile eseguire un report per visualizzare le differenze per ogni leasing incluso nell'ID di importazione. Per eseguire il report per un leasing, selezionare tale leasing nei dati di gestione temporanea, quindi seleziona **Confronta e visualizza report \> Report sulle differenze**.
 
 > [!NOTE]
-> Per convalidare più leasing contemporaneamente, vai a **Leasing cespite \> Richieste di informazioni e report \> Report differenze** e seleziona **Confronta**.
+> Per confrontare più leasing contemporaneamente, vai a **Leasing cespite \> Framework di importazione leasing \> Periodico** e seleziona **Confronta**. 
 
 ## <a name="set-up-update-fields"></a>Configurare i campi di aggiornamento
 

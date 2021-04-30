@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752968"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908343"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Visualizzare e aggiornare i dati entità con Excel 
 
@@ -45,7 +45,7 @@ Per ulteriori informazioni sull'utilizzo del componente aggiuntivo di Excel, gua
 2. Selezionare l'opzione **Apri in Excel** e aprire la cartella di lavoro generata. Questa cartella di lavoro contiene dati vincolanti per l'entità, un puntatore all'ambiente in uso e un puntatore al componente aggiuntivo di Excel.
 3. In Excel selezionare **Abilita modifica** per attivare il componente aggiuntivo di Excel da eseguire. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4. Se si esegue per la prima volta il componente aggiuntivo di Excel, selezionare **Considera attendibile questo componente aggiuntivo**.
-5. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso all'app Finance and Operations. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente dal browser e consentirà l'acceso automatico, se possibile. Per informazioni sul browser utilizzato in base al sistema operativo, vedere [Browser utilizzati dai componenti aggiuntivi di Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Per assicurarti che l'accesso sia riuscito, verifica il nome utente nell'angolo in alto a destra del componente aggiuntivo di Excel. 
+5. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso all'app Finance and Operations. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente dal browser e consentirà l'acceso automatico, se possibile. Per informazioni sul browser utilizzato in base al sistema operativo, vedere [Browser utilizzati dai componenti aggiuntivi di Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Per assicurarti che l'accesso sia riuscito, verifica il nome utente nell'angolo in alto a destra del componente aggiuntivo di Excel. 
 
 Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità selezionata. Tenere presente che non saranno disponibili dati nella cartella di lavoro finché il componente aggiuntivo di Excel la leggerà.
 
@@ -60,7 +60,7 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 
 6. Selezionare **OK**, quindi **Sì** per confermare la modifica. Il componente aggiuntivo di Excel viene riavviato e carica i metadati.
 
-    Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel è un pulsante **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni, vedere "Viene visualizzato il pulsante Carica applet" nella sezione [Risoluzione dei problemi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) di questo argomento.
+    Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel è un pulsante **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni, vedere "Viene visualizzato il pulsante Carica applet" nella sezione [Risoluzione dei problemi](../office-integration/use-excel-add-in.md#troubleshooting) di questo argomento.
 
 7. Selezionare **Struttura**. Il componente aggiuntivo di Excel recupera i metadati dell'entità.
 8. Selezionare **Aggiungi tabella**. Verrà visualizzato un elenco di entità. Le entità vengono elencate nel formato "Nome - Etichetta".
@@ -138,7 +138,7 @@ Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni se
 
 - **Viene visualizzato il pulsante Carica applet** - Se il componente aggiuntivo di Excel mostra un pulsante **Carica applet** dopo l'accesso, è probabile che la modalità di accesso non sia corretta. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, selezionarlo, disconnettersi e accedere di nuovo.
 - **Viene visualizzato un messaggio "Non consentito"** - Se si riceve un messaggio "Non consentito" mentre il componente aggiuntivo di Excel sta caricando i metadati, l'account cui si accede nel componente aggiuntivo di Excel non dispone dell'autorizzazione a utilizzare il servizio, l'istanza o il database di destinazione. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, selezionarlo, disconnettersi e accedere di nuovo.
-- **Una pagina Web vuota viene visualizzata sopra Excel** - Se una pagina Web vuota viene aperta durante il processo di accesso, l'account richiede AD FS, ma la versione di Excel in cui è in esecuzione il componente aggiuntivo di Excel non è abbastanza recente per caricare la finestra di dialogo di accesso. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si è in un'azienda che si trova sul canale differito, utilizzare lo [strumento di distribuzione di Office](https://technet.microsoft.com/library/jj219422.aspx) per [spostare dal canale differito al canale corrente](https://technet.microsoft.com/library/mt455210.aspx).
+- **Una pagina Web vuota viene visualizzata sopra Excel** - Se una pagina Web vuota viene aperta durante il processo di accesso, l'account richiede AD FS, ma la versione di Excel in cui è in esecuzione il componente aggiuntivo di Excel non è abbastanza recente per caricare la finestra di dialogo di accesso. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si è in un'azienda che si trova sul canale differito, utilizzare lo [strumento di distribuzione di Office](/deployoffice/overview-office-deployment-tool) per [spostare dal canale differito al canale corrente](/deployoffice/overview-update-channels).
 - **Si riceve un timeout durante la pubblicazione delle modifiche ai dati** - Se ricevi messaggi di timeout mentre stai tentando di pubblicare le modifiche ai dati in un'entità, valuta la possibilità di ridurre le dimensioni del batch di pubblicazione per la cartella di lavoro interessata. Le entità che attivano quantità maggiori di logica sulle modifiche ai record potrebbero richiedere l'invio di aggiornamenti in batch più piccoli per evitare timeout.
 
 

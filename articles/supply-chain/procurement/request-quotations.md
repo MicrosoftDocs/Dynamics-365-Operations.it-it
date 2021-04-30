@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df430dada52ac1aa910a3d2007aacf65d8032383
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 48830c975f1bdfd953f57e7c0b6601a78e3a521b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812549"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910041"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Panoramica delle richieste di offerta (RdO)
 
@@ -43,7 +43,7 @@ Nell'illustrazione riportata di seguito viene mostrata una panoramica del proces
 
 Dopo che si prepara il caso RdO e aggiungere i fornitori, selezionare **Invia** (**Invia e pubblica** per il settore pubblico) nel caso RdO. Un giornale di registrazione RdO viene generato per ciascun fornitore a cui viene inviata una RdO. È possibile configurare le opzioni di stampa per l'azione Invia così da stampare un report per ogni fornitore in un archivio o per inviare un report all'indirizzo di posta elettronica di ogni fornitore. Inoltre, il giornale di registrazione di RdO per ciascun fornitore può essere utilizzato per generare un report da inviare o inviare successivamente a un fornitore. È inoltre possibile configurare l'azione Invio per generare automaticamente un foglio di risposta che il fornitore può completare.
 
-In questo argomento vengono illustrati il processo di gestione delle richieste di offerta quando la collaborazione fornitore non viene utilizzata. Se il sistema è impostato per la collaborazione fornitori, i fornitori possono immettere le offerte direttamente in Supply Chain Management. Per ulteriori informazioni, vedere [Collaborazione fornitore con i clienti](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
+In questo argomento vengono illustrati il processo di gestione delle richieste di offerta quando la collaborazione fornitore non viene utilizzata. Se il sistema è impostato per la collaborazione fornitori, i fornitori possono immettere le offerte direttamente in Supply Chain Management. Per ulteriori informazioni, vedere [Collaborazione fornitore con i clienti](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
 
 Se è necessario modificare una RdO dopo averla inviata, è possibile inviare la RdO ai fornitori al termine utilizzando le due azioni di modifica: Crea e Finalizza.
 
@@ -165,7 +165,7 @@ Se si configura il processo di modifica in modo che risulti più restrittivo, pr
 
 Se si configura il processo meno restrittivo delle modifiche, non è necessario selezionare **Crea** prima di poter modificare i campi in un caso RdO che è già stato inviato. Tuttavia, è necessario aggiungere manualmente una nota delle modifiche nella RdO e inviare di nuovo il caso. Tenere presente che tale approccio può essere utilizzato solo se nessuna delle risposte (Offerte) è stata modificata. Se è stata specificata una risposte ma non ha stato **Ricevuta**, il pulsante **Invia** non sarà disponibile. In questo caso, è necessario selezionare **Crea** e **Finalizza**, come nel processo più restrittivo. La risposta viene reimpostata per riflettere le modifiche nel caso RdO.
 
-Se i fornitori utilizzano l'interfaccia di collaborazione fornitore per immettere le offerte, è necessario utilizzare sempre il processo di modifica per informare i fornitori delle modifiche al caso RdO. Questo processo aiuta a prevenire la situazione in cui i venditori fanno offerte per una richiesta RdO obsoleta mentre la loro offerta è in corso. Per ulteriori informazioni sulle funzionalità di collaborazione fornitore, vedere [Collaborazione fornitore con i fornitori esterni](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Se i fornitori utilizzano l'interfaccia di collaborazione fornitore per immettere le offerte, è necessario utilizzare sempre il processo di modifica per informare i fornitori delle modifiche al caso RdO. Questo processo aiuta a prevenire la situazione in cui i venditori fanno offerte per una richiesta RdO obsoleta mentre la loro offerta è in corso. Per ulteriori informazioni sulle funzionalità di collaborazione fornitore, vedere [Collaborazione fornitore con i fornitori esterni](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Se si desidera invitare altri fornitori a fare un'offerta e non sono state apportate modifiche al caso RdO, è possibile utilizzare il pulsante **Invia**. I fornitori aggiunti verranno visualizzati nella pagina **Invia** e riceveranno un invito di posta elettronica.
 

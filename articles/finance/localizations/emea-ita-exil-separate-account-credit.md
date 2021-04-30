@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7453bbbd810dc37391351df39557eaf6b0fe62cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02e467e82ba7c85deeea6811fefb6493f45b05b1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814928"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894738"
 ---
 # <a name="separate-accounts-for-credit-notes"></a>Conti separati per note di credito
 
@@ -29,7 +29,7 @@ In Italia, una società può definire i criteri contabili in modo che gli import
 ## <a name="prerequisites"></a>Prerequisiti
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- Nell'area di lavoro **Gestione funzionalità**, attivare la funzionalità **Conti separati per note di credito**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- Nell'area di lavoro **Gestione funzionalità**, attivare la funzionalità **Conti separati per note di credito**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-posting-accounts"></a>Impostare i conti di registrazione
 

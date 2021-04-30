@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: ''
 ms.search.region: Italy
 ms.author: v-oloski
-ms.openlocfilehash: ee032e456c8ef6685a29d33bb78a088fa0fd44b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d07b84e4130dfac1567e77d499b1fcf30340e72e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814948"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894760"
 ---
 # <a name="customer-electronic-invoices"></a>Fatture elettroniche dei clienti
 
@@ -240,7 +240,7 @@ Microsoft Dynamics 365 Finance supporta il formato di firma **XAdES-BES**. Per c
 
 ### <a name="destination-for-xml-file-output"></a><a id="destination"></a>Destinazione per l'output dei file XML
 
-Se i file XML devono essere inviati come output a una posizione specifica quando vengono registrate le fatture (ad esempio, se devono essere inviate a una cartella SharePoint), impostare un tipo di documento, quindi impostare una destinazione. Per ulteriori informazioni su questi passaggi, vedere [Configurare la gestione dei documenti](../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md) e [Destinazioni dei report elettronici (ER)](../../dev-itpro/analytics/electronic-reporting-destinations.md).
+Se i file XML devono essere inviati come output a una posizione specifica quando vengono registrate le fatture (ad esempio, se devono essere inviate a una cartella SharePoint), impostare un tipo di documento, quindi impostare una destinazione. Per ulteriori informazioni su questi passaggi, vedere [Configurare la gestione dei documenti](../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md) e [Destinazioni dei report elettronici (ER)](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md).
 
 > [!NOTE]
 > L'opzione **Stampa fattura** deve essere impostata su **Sì**. Se la destinazione è impostata, lo stato del record della fattura elettronica per la fattura viene automaticamente impostato su **Inviata**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747323"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890860"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Impostare sequenze numeriche singole
 
@@ -30,7 +30,7 @@ Questo argomento spiega come impostare sequenze numeriche singole. Le sequenze n
 2. Selezionare **Sequenza numerica**.
 3. Nel campo **Codice sequenza numerica** selezionare un valore.
 4. Digitare un valore nel campo **Nome**.
-5. Nella Scheda dettaglio **Parametri di ambito** selezionare un ambito per la sequenza numerica e selezionare i valori dell'ambito dall'elenco a discesa. L'ambito definisce quali organizzazioni utilizzano la sequenza numerica. Inoltre, le sequenze numeriche con un ambito diverso da **Condiviso** possono avere segmenti corrispondenti al loro ambito. Una sequenza numerica con un ambito di **Persona giuridica**, ad esempio, può avere un segmento persona giuridica. Per ulteriori informazioni sugli ambiti, vedere [Panoramica delle sequenze numeriche](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
+5. Nella Scheda dettaglio **Parametri di ambito** selezionare un ambito per la sequenza numerica e selezionare i valori dell'ambito dall'elenco a discesa. L'ambito definisce quali organizzazioni utilizzano la sequenza numerica. Inoltre, le sequenze numeriche con un ambito diverso da **Condiviso** possono avere segmenti corrispondenti al loro ambito. Una sequenza numerica con un ambito di **Persona giuridica**, ad esempio, può avere un segmento persona giuridica. Per ulteriori informazioni sugli ambiti, vedere [Panoramica delle sequenze numeriche](../number-sequence-overview.md). 
 6. Espandere la sezione **Segmenti**.
     - Definire il formato della sequenza numerica aggiungendo, eliminando e riorganizzando i segmenti.  
     - Le sequenze numeriche di tutti gli ambiti possono contenere *segmenti costanti* e *segmenti alfanumerici*. I segmenti costanti contengono un insieme di caratteri alfanumerici che non cambiano. Utilizzare questo tipo di segmento per aggiungere un trattino o altri separatori tra i segmenti della sequenza numerica. I segmenti alfanumerici contengono una combinazione di simboli numerici (#) e commerciali (&). Questi caratteri rappresentano lettere e numeri che aumentano ogni volta che viene utilizzato un numero della sequenza. Utilizzare un simbolo di numero (#) per rappresentare i numeri che aumentano e la e commerciale (&) per rappresentare le lettere che aumentano. Il formato `#####_2014`, ad esempio, consente di ottenere la sequenza `00001_2014`, `00002_2014` e così via. Deve essere presente almeno un segmento alfanumerico. I segmenti ambito, ad esempio società o persona giuridica, non sono obbligatori. Tuttavia, se non si inseriscono segmenti ambito nel formato, i numeri per il riferimento selezionato vengono comunque generati per ambito.  

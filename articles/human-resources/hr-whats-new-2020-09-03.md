@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 965f3ca859c601d26470038a889b0f21d2bdff5f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 10978d8843e7bce2800d62b63e58152569be9631
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800119"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891771"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (3 settembre 2020)
 
@@ -31,7 +31,7 @@ ms.locfileid: "5800119"
 
 Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Human Resources. Le modifiche si applicano alla build 8.1.3504. I numeri tra parentesi in alcune intestazioni si riferiscono ai numeri del supporto in Lifecycle Services (LCS) per riferimento.
 
-Per ulteriori informazioni sulle funzionalità future di Human Resources, vedere [Panoramica del secondo ciclo di rilascio del 2019 di Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Per ulteriori informazioni sul processo di aggiornamento per Human Resources, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
+Per ulteriori informazioni sulle funzionalità future di Human Resources, vedere [Panoramica del secondo ciclo di rilascio del 2019 di Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Per ulteriori informazioni sul processo di aggiornamento per Human Resources, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
 ## <a name="in-this-release"></a>In questa versione
 
@@ -76,21 +76,21 @@ Il report di analisi ora visualizza le informazioni corrette per **Tariffa retri
 
 I dipendenti possono visualizzare i congedi e richiederli in Microsoft Teams. Possono interagire con un bot per creare richieste di congedo. Per ulteriori informazioni, vedere:
 
-- [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) nel piano della prima ondata di rilascio di Dynamics 365 2020
-- [App Human Resources in Teams](https://go.microsoft.com/fwlink/?linkid=2127841) nella documentazione di Human Resources
+- [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) nel piano della prima ondata di rilascio di Dynamics 365 2020
+- [App Human Resources in Teams](./hr-admin-teams-leave-app.md) nella documentazione di Human Resources
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Funzioni di anteprima dell'app Human Resources in Teams
  
 -  **Notifiche**: i mittenti e gli approvatori delle richieste di permesso verranno informati nell'app Human Resources in Teams. Gli approvatori potranno approvare o rifiutare le richieste di permesso. I mittenti riceveranno una notifica se la richiesta è stata approvata o rifiutata. Per ulteriori informazioni, vedere:
-   - [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) nel piano del primo ciclo di rilascio del 2020 di Dynamics 365
-   - [Abilitare le notifiche per l'app Human Resources in Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) nella documentazione di Human Resources
-   - [Attivare o disattivare le notifiche di Teams per i singoli utenti](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) nella documentazione di Human Resources
-   - [Notifiche di Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) nella documentazione di Human Resources
-   - [Visualizzare il calendario dei congedi della team](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) nella documentazione di Human Resources
+   - [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) nel piano del primo ciclo di rilascio del 2020 di Dynamics 365
+   - [Abilitare le notifiche per l'app Human Resources in Teams](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) nella documentazione di Human Resources
+   - [Attivare o disattivare le notifiche di Teams per i singoli utenti](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) nella documentazione di Human Resources
+   - [Notifiche di Teams](./hr-teams-leave-app.md#respond-to-teams-notifications) nella documentazione di Human Resources
+   - [Visualizzare il calendario dei congedi della team](./hr-teams-leave-app.md#view-your-teams-leave-calendar) nella documentazione di Human Resources
  
 - **Calendario permessi del responsabile**: i responsabili potranno vedere i permessi approvati e in sospeso per i loro diretti subalterni in una visualizzazione calendario. Questa visualizzazione fornisce una facile comprensione di quando i membri del team non sono al lavoro. Per ulteriori informazioni, vedere:
-   - [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) nel piano del primo ciclo di rilascio del 2020 di Dynamics 365
-   - [Visualizzare il calendario dei congedi della team](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) nella documentazione di Human Resources
+   - [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) nel piano del primo ciclo di rilascio del 2020 di Dynamics 365
+   - [Visualizzare il calendario dei congedi della team](./hr-teams-leave-app.md#view-your-teams-leave-calendar) nella documentazione di Human Resources
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Opzione di configurazione per posizionare l'elenco Elementi di lavoro assegnati all'utente (477004)
 
@@ -98,7 +98,7 @@ I dipendenti possono visualizzare i congedi e richiederli in Microsoft Teams. Po
 
 Questa funzione promuove anche le opzioni del flusso di lavoro che appaiono nei moduli delle azioni del personale. Le opzioni del flusso di lavoro vengono visualizzate anche sopra la scheda dettaglio Azione per un accesso rapido. Per ulteriori informazioni, vedere: 
 
-- [Miglioramenti all'esperienza del flusso di lavoro di organizzazione e gestione del personale](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) nel piano del secondo ciclo di rilascio del 2020 di Dynamics 365
+- [Miglioramenti all'esperienza del flusso di lavoro di organizzazione e gestione del personale](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) nel piano del secondo ciclo di rilascio del 2020 di Dynamics 365
 
 ![Elementi di lavoro assegnati all'utente](./media/hr-workflow-work-items-assigned-to-me.png)
 
@@ -117,7 +117,7 @@ I codici motivo per la gestione dei vantaggi verranno presto combinati con i cod
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
 

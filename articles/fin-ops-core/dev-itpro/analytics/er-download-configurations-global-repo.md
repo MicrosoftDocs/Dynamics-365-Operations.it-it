@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3a232cd319970e572580bc11f2dbaccbe208f127
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753386"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893982"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Scaricare configurazioni ER dall'archivio globale del servizio di configurazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come scaricare le [configurazioni per la creazione di report elettronici (ER)](general-electronic-reporting.md#Configuration) dall'archivio globale del servizio di configurazione. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, Servizio di configurazione](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+In questo argomento viene descritto come scaricare le [configurazioni per la creazione di report elettronici (ER)](general-electronic-reporting.md#Configuration) dall'archivio globale del servizio di configurazione. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, Servizio di configurazione](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Aprire l'archivio delle configurazioni
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819282"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908930"
 ---
 # <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
@@ -79,7 +79,7 @@ Prima che un ciclo di lavorazione possa essere utilizzato nella pianificazione o
 
 Ogni ciclo di lavorazione può essere approvato o non approvato separatamente. Tuttavia, se un ciclo di lavorazione non è approvato, anche tutte le versioni del ciclo di lavorazione correlate non sono approvate. Nei parametri di controllo produzione, è possibile specificare se i cicli di lavorazione possono essere non approvati e se i cicli di lavorazione approvati possono essere modificati.  
 
-Se è necessario tenere un registro per registrare chi approva ciascun ciclo di lavorazione è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando una [firma elettronica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Se è necessario tenere un registro per registrare chi approva ciascun ciclo di lavorazione è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando una [firma elettronica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Un'operazione costituisce un passaggio del processo di produzione. Ciascuna operazione ha un ID e una descrizione semplice. Nelle tabelle seguenti sono indicati gli esempi comuni delle operazioni di un'officina meccanica.
@@ -185,7 +185,7 @@ Se si attiva una versione del ciclo di lavorazione, si designa tale versione com
 
 ### <a name="electronic-signatures"></a>Firme elettroniche
 
-Se è necessario tenere un registro per registrare chi approva e attiva ciascuna versione del ciclo di lavorazione è possibile richiedere firme elettroniche per queste attività. Gli utenti che approvano e attivano le versioni del ciclo di lavorazione dovranno quindi confermare la propria identità utilizzando una [firma elettronica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Se è necessario tenere un registro per registrare chi approva e attiva ciascuna versione del ciclo di lavorazione è possibile richiedere firme elettroniche per queste attività. Gli utenti che approvano e attivano le versioni del ciclo di lavorazione dovranno quindi confermare la propria identità utilizzando una [firma elettronica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Modifica dei prodotti con gestione dei casi
 
@@ -253,7 +253,7 @@ Di conseguenza, quando l'opzione Attivazione è selezionata per Sovrapposizione,
 
 - [Capacità risorsa](resource-capabilities.md)
 
-- [Panoramica delle firme elettroniche](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Panoramica delle firme elettroniche](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

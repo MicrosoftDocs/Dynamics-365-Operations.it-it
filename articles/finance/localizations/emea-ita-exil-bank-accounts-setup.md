@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b9e106cc13cd03cc1a3a313ad2936280cd1f4326
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8e598c2922dd6e0fdf1ccbc944fb1806dcea5b0
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814950"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894758"
 ---
 # <a name="bank-data-usability-enhancement"></a>Miglioramento dell'usabilità dei dati bancari
 
@@ -31,11 +31,11 @@ Le aziende spesso devono inserire e conservare una grande quantità di informazi
 Prima di iniziare, è necessario soddisfare i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- La funzionalità **Miglioramento della configurazione del conto bancario** deve essere attivata nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Miglioramento della configurazione del conto bancario** deve essere attivata nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="import-bank-groups"></a>Importare gruppi bancari
 
-È possibile importare l'elenco delle banche utilizzando l'entità **Gruppi bancari** e il framework Gestione dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../../dev-itpro/data-entities/data-import-export-job.md).
+È possibile importare l'elenco delle banche utilizzando l'entità **Gruppi bancari** e il framework Gestione dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
 
 I dati di origine utilizzati per importare i gruppi bancari possono essere presentati come un file di Microsoft Excel con i seguenti nomi di colonna:
 

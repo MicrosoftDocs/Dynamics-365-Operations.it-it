@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793827"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889838"
 ---
 # <a name="manage-features-in-human-resources"></a>Gestisci funzionalità in Human Resources
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793827"
 
 Nell'ambito della continua implementazione di nuove funzionalità per Microsoft Dynamics 365 Human Resources, vogliamo consentire ai clienti di utilizzare al più presto le nuove funzionalità. Forniamo funzionalità di anteprima che sono quasi pronte per la disponibilità generale e che sono state sottoposte a test esaurienti. Il nostro scopo è di ottenere un ultimo riscontro e la convalida dai clienti prima del rilascio delle funzionalità per una disponibilità generale.
 
-Per ulteriori informazioni sulle nuove funzionalità in Human Resources, vedere [Novità o modifiche in Human Resources](hr-admin-whats-new.md) e [Piano di rilascio di Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Per ulteriori informazioni sulle nuove funzionalità in Human Resources, vedere [Novità o modifiche in Human Resources](hr-admin-whats-new.md) e [Piano di rilascio di Dynamics 365 e Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-L'area di lavoro **Gestione funzionalità** fornisce l'elenco delle funzionalità offerte in ciascuna versione. Per impostazione predefinita, le nuove funzionalità sono disabilitate. È possibile utilizzare l'area di lavoro per accendere alle funzionalità e visualizzare la documentazione correlata. Per ulteriori informazioni sulla gestione funzionalità, vedere [Panoramica della gestione funzionalità](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+L'area di lavoro **Gestione funzionalità** fornisce l'elenco delle funzionalità offerte in ciascuna versione. Per impostazione predefinita, le nuove funzionalità sono disabilitate. È possibile utilizzare l'area di lavoro per accendere alle funzionalità e visualizzare la documentazione correlata. Per ulteriori informazioni sulla gestione funzionalità, vedere [Panoramica della gestione funzionalità](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Tutte le nuove funzionalità rimangono in anteprima per almeno 30 giorni e in genere per 30-60 giorni. Le principali funzionalità sono generalmente disponibili in ottobre e aprile di ogni anno successivo al periodo di anteprima. Non appena nuove funzioni sono presenti nell'area di lavoro **Gestione funzionalità**, è possibile attivarle. Alcune funzionalità possono essere attive per impostazione predefinita.
 
@@ -93,6 +93,6 @@ Si raccomanda di non includere dati personali (qualsiasi informazione che possa 
 ## <a name="see-also"></a>Vedere anche
 
 - [Novità in Risorse umane](hr-admin-whats-new.md)
-- [Piani di rilascio di Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Piani di rilascio di Dynamics 365 e Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

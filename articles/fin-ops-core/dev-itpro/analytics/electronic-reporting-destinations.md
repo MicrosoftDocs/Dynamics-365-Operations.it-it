@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751318"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893606"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici
 
@@ -57,7 +57,7 @@ Il comportamento predefinito per una configurazione di formato ER dipende dal ti
 
 Nella finestra di dialogo **Report Intrastat**, nella Scheda dettaglio **Esecuzione in background**, se si imposta l'opzione **Elaborazione batch** su **No**, un formato ER viene eseguito immediatamente in modalità interattiva. Quando questa esecuzione viene completata correttamente, un documento in uscita generato viene reso disponibile per il download.
 
-Se si imposta l'opzione **Elaborazione batch** su **Sì**, un formato ER viene eseguito in modalità [batch](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Il processo batch appropriato viene creato in base ai parametri specificati nella scheda **Esecuzione in background** della finestra di dialogo **Parametri ER**.
+Se si imposta l'opzione **Elaborazione batch** su **Sì**, un formato ER viene eseguito in modalità [batch](../sysadmin/batch-processing-overview.md). Il processo batch appropriato viene creato in base ai parametri specificati nella scheda **Esecuzione in background** della finestra di dialogo **Parametri ER**.
 
 > [!NOTE]
 > La descrizione mansione informa l'utente dell'esecuzione di un mapping di formato ER. Include inoltre il nome del componente ER eseguito.
@@ -70,7 +70,7 @@ Se si imposta l'opzione **Elaborazione batch** su **Sì**, un formato ER viene e
 - Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Processi di creazione report elettronici** per verificare lo stato del processo programmato e i risultati dell'esecuzione del processo completato. Al termine dell'esecuzione del processo, selezionare **Mostra file** nella pagina **Processi di creazione report elettronici** per ottenere un documento in uscita generato.
 
     > [!NOTE]
-    > Questo documento è archiviato come allegato del record del processo corrente ed è controllato dal framework [Gestione documenti](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Il [tipo di documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) che viene utilizzato per memorizzare gli elementi ER di questo tipo è configurato in [Parametri ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+    > Questo documento è archiviato come allegato del record del processo corrente ed è controllato dal framework [Gestione documenti](../../fin-ops/organization-administration/configure-document-management.md). Il [tipo di documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) che viene utilizzato per memorizzare gli elementi ER di questo tipo è configurato in [Parametri ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 - Nella pagina **Processi di creazione report elettronici** selezionare **Mostra file** per visualizzare l'elenco di eventuali errori e avvisi generati durante l'esecuzione del lavoro.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753362"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893958"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importare versioni aggiornate delle configurazioni ER
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753362"
 
 Gli [archivi](general-electronic-reporting.md#Repository) per la creazione di report elettronici sono usati per condividere le [configurazioni ER](general-electronic-reporting.md#Configuration). Puoi [importare](download-electronic-reporting-configuration-lcs.md) configurazioni ER da diversi archivi nell'istanza di Microsoft Dynamics 365 Finance. Quando importi le configurazioni ER, i [provider di configurazione](general-electronic-reporting.md#Provider) possono pubblicare nuove [versioni](general-electronic-reporting.md#component-versioning) di archivi in modo che possano essere condivisi.
 
-In questo argomento viene descritto come importare le versioni aggiornate delle configurazioni ER dall'archivio globale del servizio di configurazione. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, Servizio di configurazione](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+In questo argomento viene descritto come importare le versioni aggiornate delle configurazioni ER dall'archivio globale del servizio di configurazione. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, Servizio di configurazione](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Rivedere le versioni aggiornate disponibili
 

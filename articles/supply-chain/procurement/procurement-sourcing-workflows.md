@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807946"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909233"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Flussi di lavoro di approvvigionamento
 
@@ -47,7 +47,7 @@ Per Approvvigionamento sono disponibili i tipi di flusso di lavoro indicati di s
 | Flusso di lavoro richieste aggiunta fornitore | Creare flussi di lavoro di revisione e approvazione per l'aggiunta di nuovi fornitori tramite le richieste fornitore. |
 
 > [!IMPORTANT]
-> Quando si aggiunge un nuovo flusso di lavoro, potrebbero essere visualizzati anche i seguenti flussi di lavoro obsoleti elencati nella finestra di dialogo **Crea flusso di lavoro**. Questi sono relativi alla funzionalità *conferma di ricevuta* che era disponibile in [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), ma che ora è stato deprecato. Questi flussi di lavoro non sono attualmente supportati.
+> Quando si aggiunge un nuovo flusso di lavoro, potrebbero essere visualizzati anche i seguenti flussi di lavoro obsoleti elencati nella finestra di dialogo **Crea flusso di lavoro**. Questi sono relativi alla funzionalità *conferma di ricevuta* che era disponibile in [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), ma che ora è stato deprecato. Questi flussi di lavoro non sono attualmente supportati.
 > 
 > - Flusso di lavoro di notifica data di scadenza consegna
 > - Flusso di lavoro di notifica fattura ricevuta

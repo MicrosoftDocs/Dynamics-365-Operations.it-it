@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830738"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897164"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Panoramica dei bonifici SEPA
 
@@ -54,7 +54,7 @@ Il formato di pagamento dei bonifici per i paesi europei è implementato utilizz
 È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'argomento che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.
 
 ## <a name="what-do-i-have-to-set-up"></a>Cosa devo impostare?
--   Prima di poter creare file di bonifico, almeno una configurazione attiva di bonifico deve essere importata nelle configurazioni ER. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+-   Prima di poter creare file di bonifico, almeno una configurazione attiva di bonifico deve essere importata nelle configurazioni ER. Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Quando si configurano i metodi di pagamento per la contabilità fornitori, selezionare la casella di controllo **Report elettronici generici**, quindi selezionare il formato di bonifico appropriato (ad esempio **Bonifico ISO 20022 (AT)**) come configurazione del formato di esportazione.
 -   È inoltre necessario impostare la persona giuridica e le informazioni sul conto bancario.
 -   I numeri di conto bancario, IBAN, e talvolta i codici SWIFT (BIC) o altri ID sono necessari per creare pagamenti tramite bonifico validi. Di conseguenza, è necessario impostarli per il conto bancario del fornitore e il conto bancario per l'organizzazione che richiede il trasferimento.

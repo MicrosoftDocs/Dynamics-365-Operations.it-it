@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838276"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907989"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout della distribuzione del documento per le etichette della targa
 
@@ -73,7 +73,7 @@ I seguenti esempi mostrano come personalizzare il campo della quantità di lavor
 - Per mostrare sempre quattro cifre (usando zeri come segnaposto) utilizzare `$Qty:0000$`. Ad esempio, se la quantità è 10, l'etichetta mostrerà "0010".
 - Per mostrare sempre due cifre decimali, utilizzare `$Qty:0.00$`. Ad esempio, se la quantità è 10, l'etichetta mostrerà "10.00".
 
-Per l'elenco completo delle stringhe di formato numerico disponibili, vedere [Stringhe di formato numerico personalizzate](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Per l'elenco completo delle stringhe di formato numerico disponibili, vedere [Stringhe di formato numerico personalizzate](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Formati di stringa personalizzati
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 In questo esempio, la data del 30 aprile 2020 verrà stampata come "30-04-2020".
 
-Per l'elenco completo dei formati data/ora disponibili, vedere [Stringhe di formato data/ora personalizzate](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Per l'elenco completo dei formati data/ora disponibili, vedere [Stringhe di formato data/ora personalizzate](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Stampa di singole righe da dati multiriga
 

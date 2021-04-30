@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: e98f1803e43df0fbd5ab700b959faaeee017b7a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834502"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897770"
 ---
 # <a name="one-voucher"></a>Un giustificativo
 
@@ -48,7 +48,7 @@ La funzionalità esistente per giornali di registrazione finanziari (il giornale
 
 ## <a name="issues-with-one-voucher"></a>Problemi con un giustificativo
 
-La funzionalità Un giustificativo genera problemi durante liquidazione, calcolo delle imposte, storno transazione, riconciliazione tra contabilità secondaria e contabilità generale, creazione di report finanziari e altro. (Per ulteriori informazioni sui problemi che possono verificarsi durante la liquidazione, vedere, ad esempio, [Giustificativo singolo con più record cliente o fornitore](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Per funzionare e segnalare correttamente, questi processi e questi report necessitano dei dettagli delle transazioni. Sebbene alcuni scenari funzionino comunque correttamente, in base alle impostazioni dell'organizzazione, si verificano spesso problemi quando si immettono più transazioni in un unico giustificativo.
+La funzionalità Un giustificativo genera problemi durante liquidazione, calcolo delle imposte, storno transazione, riconciliazione tra contabilità secondaria e contabilità generale, creazione di report finanziari e altro. (Per ulteriori informazioni sui problemi che possono verificarsi durante la liquidazione, vedere, ad esempio, [Giustificativo singolo con più record cliente o fornitore](../accounts-payable/single-voucher-multiple-customer-vendor-records.md).) Per funzionare e segnalare correttamente, questi processi e questi report necessitano dei dettagli delle transazioni. Sebbene alcuni scenari funzionino comunque correttamente, in base alle impostazioni dell'organizzazione, si verificano spesso problemi quando si immettono più transazioni in un unico giustificativo.
 
 Ad esempio, si registra il giustificativo plurimo seguente.
 

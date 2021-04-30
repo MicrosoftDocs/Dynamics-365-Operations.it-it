@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: f42cddc0434c62ca9a904a822f2a3c17e7f42697
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e63d2fc47a1332d8c82b633fb837e0b1c4225f21
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814946"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894754"
 ---
 # <a name="commission-settlement-on-payments"></a>Liquidazione provvigione su pagamento
 
@@ -31,7 +31,7 @@ In Italia, le società in genere non liquidano le provvigioni agli agenti di ven
 Prima di poter utilizzare la funzionalità per la liquidazione delle provvigioni su pagamenti, devono essere soddisfatti i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- La funzionalità **Liquidazione delle provvigioni sui pagamenti** deve essere attivata nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Liquidazione delle provvigioni sui pagamenti** deve essere attivata nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="a-namedefault-commission-settlement-periodset-up-the-default-commission-settlement-method"></a><a name="default-commission-settlement-period">Impostare il metodo di liquidazione delle provvigioni predefinito
 

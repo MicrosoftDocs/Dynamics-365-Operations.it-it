@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 399c710b99c5721ff9867ce332b815bd362d6103
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a6f23adedc287b85018fe0b0af445677f6dc597c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795023"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889910"
 ---
 # <a name="remove-an-instance"></a>Rimuovere un'istanza
 
@@ -81,7 +81,7 @@ Per ripristinare l'ambiente:
 
 1. Seguire le istruzioni in [Ripristinare l'ambiente Power Apps](/power-platform/admin/recover-environment.md).
 
-2. Contattare il supporto per ripristinare l'ambiente Human Resources. Per ulteriori informazioni, vedere [Ottenere supporto](hr-admin-troubleshooting-support.md).
+2. Contattare il supporto per ripristinare l'ambiente Human Resources. Per ulteriori informazioni, vedere [Ottenere supporto](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 > [!Warning]
 > Gli ambienti Power Apps vengono salvati solo per sette giorni dopo l'eliminazione. È necessario ripristinare l'ambiente entro il periodo di sette giorni.
