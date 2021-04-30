@@ -2,7 +2,8 @@
 title: Modulo Selettore punto vendita
 description: In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798635"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853419"
 ---
 # <a name="store-selector-module"></a>Memorizzare il modulo di selezione
 
@@ -32,11 +33,32 @@ I clienti possono utilizzare il modulo di selezione del punto vendita per ritira
 
 Il modulo di selezione del punto vendita consente agli utenti di inserire una posizione (città, stato, indirizzo e così via) per cercare punti vendita all'interno di un raggio di ricerca. Quando il modulo viene aperto per la prima volta, utilizza la posizione del browser del cliente per trovare i punti vendita (se viene fornito il consenso).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Utilizzo del modulo selettore punto vendita in e-Commerce
+## <a name="store-selector-module-usage"></a>Utilizzo del modulo di selezione del punto vendita
 
 - Un modulo di selezione del punto vendita può essere utilizzato in una pagina dei dettagli del prodotto per selezionare un punto vendita per il ritiro.
 - Un modulo di selezione del punto vendita può essere utilizzato in una pagina del carrello per selezionare un punto vendita per il ritiro.
 - Un modulo di selezione del punto vendita può essere utilizzato in una pagina autonoma che mostra tutti i punti vendita disponibili.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Configurare gruppi di evasione in Commerce Headquarters
+
+Affinché il modulo di selezione del punto vendita visualizzi i punti vendita disponibili, il gruppo di evasione deve essere impostato in Commerce Headquarters. Per ulteriori informazioni, vedere [Impostare gruppi di evasione](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Inoltre, per ogni punto vendita nel gruppo di evasione, la latitudine e la longitudine dell'ubicazione del punto vendita devono essere definite in Commerce Headquarters.
+
+Per immettere i valori di latitudine e longitudine per l'ubicazione di un punto vendita in Commerce Headquarters, procedere come segue.
+
+1. Selezionare **Gestione inventario \> Impostazioni \> Suddivisione scorte**.
+1. Selezionare l'ubicazione del magazzino nel riquadro a sinistra.
+1. Nella Scheda dettaglio **Indirizzi**, selezionare **Avanzate**.
+
+    ![Esempio di dettagli del punto vendita in Commercial Headquarters](./media/Store-address.png)
+
+1. Nel riquadro azioni, seleziona **Modifica**.
+1. Nella Scheda dettaglio **Generale**, immettere i valori per **Latitudine** e **Longitudine**.
+
+    ![Esempio di configurazione di latitudine e longitudine per un punto vendita in Commercial Headquarters](./media/Store-latitude-longitude.png)
+
+1. Nel riquadro azioni selezionare **Salva**. 
 
 ## <a name="bing-maps-integration"></a>Integrazione di Bing Maps
 
@@ -48,6 +70,7 @@ Per l'API REST Suggerimenti automatici, è necessario assicurarsi che i seguenti
 - Alla direttiva **img-src**, aggiungere **&#42; virtualearth.net**.
 - Alla direttiva **script-src**, **aggiungere &#42;.bing.com, &#42;.virtualearth.net**.
 - Alla direttiva **script style-src**, aggiungere **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>Modalità Preleva nel punto vendita
 

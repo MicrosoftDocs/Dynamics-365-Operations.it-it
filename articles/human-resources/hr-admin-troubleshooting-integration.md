@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794855"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892253"
 ---
 # <a name="integration-with-finance-faq"></a>Domande frequenti sull'integrazione con Finance
 
@@ -50,7 +50,7 @@ Per impostazione predefinita, l'integrazione Dataverse è disattivata nei nuovi 
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Posso creare un nuovo mapping senza utilizzare modelli?
 
-I modelli rappresentano il punto di inizio. È possibile creare un modello personalizzato, ma un modello è sempre necessario durante la creazione di un progetto di integrazione. Per ulteriori informazioni sull'integratore di dati, i modelli e i progetti, vedere [Integrare i dati in Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+I modelli rappresentano il punto di inizio. È possibile creare un modello personalizzato, ma un modello è sempre necessario durante la creazione di un progetto di integrazione. Per ulteriori informazioni sull'integratore di dati, i modelli e i progetti, vedere [Integrare i dati in Microsoft Dataverse](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>È possibile mappare le dimensioni finanziarie per il trasferimento tra Human Resources e Finance?
 
@@ -145,7 +145,7 @@ L'integrazione con Finance è un processo in due fasi. La prima consiste nel ver
 
 Se i dati non sono visualizzati come previsto in Dataverse, verificare che l'entità sia supportata nell'integrazione. Per includere ulteriori dati in Dataverse, sarà necessaria una modifica lato Microsoft.
 
-Se l'entità è supportata e i dati sono disponibili in Dataverse, verificare che il mapping sia corretto nell'integratore di dati. Se il mapping dell'integratore sembra corretto, verificare che i processi di gestione dei dati siano stati eseguiti correttamente. È possibile che si verifichino degli errori durante l'esecuzione dei processi batch. Per ulteriori informazioni sulla gestione dei dati, vedere [Gestione dei dati](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Se l'entità è supportata e i dati sono disponibili in Dataverse, verificare che il mapping sia corretto nell'integratore di dati. Se il mapping dell'integratore sembra corretto, verificare che i processi di gestione dei dati siano stati eseguiti correttamente. È possibile che si verifichino degli errori durante l'esecuzione dei processi batch. Per ulteriori informazioni sulla gestione dei dati, vedere [Gestione dei dati](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Gli indirizzi dei dipendenti risultano non corretti dopo l'importazione degli stessi in Finance. Cosa fare?
 
@@ -172,15 +172,15 @@ Aggiornare le entità di dati in Finance selezionando **Gestione dati \> Paramet
 
 - Integratore di dati (ID): 
 
-  - [Integrazione dei dati in Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Integrazione dei dati in Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [Gestione e risoluzione degli errori nell'integratore di dati](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [Gestione e risoluzione degli errori nell'integratore di dati](/powerapps/administrator/data-integrator-error-management)
 
-  - [Rispondere alle richieste DSR per log generati dal sistema in Power Apps, Microsoft Power Automate e Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Rispondere alle richieste DSR per log generati dal sistema in Power Apps, Microsoft Power Automate e Dataverse](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Gestione dei dati:
 
-  - [Gestione dei dati](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Gestione dei dati](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

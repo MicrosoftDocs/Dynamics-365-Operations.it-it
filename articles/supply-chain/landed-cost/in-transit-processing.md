@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823411"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909453"
 ---
 # <a name="goods-in-transit-processing"></a>Elaborazione merci in transito
 
@@ -40,7 +40,7 @@ Quando si abilita il modulo **Costo sbarcato**, l'entità *termini di consegna* 
 
 Quando l'opzione **Gestione merci in transito** è impostata su *Sì* per i termini di consegna applicabili, le merci vengono integrate nel magazzino merci in transito. Questa azione viene attivata solo se l'entrata in magazzino non viene elaborata prima dell'elaborazione di una fattura. Quando i termini di consegna di un ordine sono impostati per utilizzare le merci in transito, gli utenti non possono più registrare un'entrata prodotti per l'ordine fornitore. Se ci provano, si verifica un errore. Il messaggio di errore indica che devono utilizzare la funzionalità merci in transito per procedere.
 
-Per utilizzare le informazioni sui termini di consegna per le merci in transito, selezionare **Approvvigionamento \> Impostazioni \> Distribuzione \> Termini di consegna**. La tabella seguente descrive i campi che il modulo **Costo sbarcato** aggiunge alla pagina **Termini di consegna** per supportare la funzionalità merci in transito. Entrambi i campi sono nella Scheda dettaglio **Generale**. Per ulteriori informazioni sugli altri campi in questa pagina, vedere [Termini di consegna (modulo)](https://technet.microsoft.com/library/aa575567.aspx).
+Per utilizzare le informazioni sui termini di consegna per le merci in transito, selezionare **Approvvigionamento \> Impostazioni \> Distribuzione \> Termini di consegna**. La tabella seguente descrive i campi che il modulo **Costo sbarcato** aggiunge alla pagina **Termini di consegna** per supportare la funzionalità merci in transito. Entrambi i campi sono nella Scheda dettaglio **Generale**. Per ulteriori informazioni sugli altri campi in questa pagina, vedere [Termini di consegna (modulo)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Campo | Descrizione |
 |---|---|
@@ -55,7 +55,7 @@ Il modulo Costo sbarcato aggiunge due nuovi tipi di magazzino: *merci in transit
 
 Il tipo di magazzino *merci in transito* verrà associato al magazzino merci in transito e tale magazzino verrà utilizzato per elaborare le merci negli ordini merci in transito prima che vengano ricevute nel magazzino di destinazione finale. In generale, un magazzino merci in transito è sufficiente per ogni sito se Sito e Magazzino sono le uniche dimensioni inventariali utilizzate per la gestione degli articoli. Se viene utilizzata anche la dimensione inventariale Ubicazione, è necessario impostare un magazzino merci in transito per ciascuna combinazione di sito e magazzino, in modo da poter specificare anche l'ubicazione predefinita.
 
-Per utilizzare le impostazioni relative alle merci in transito per i magazzini in uso, selezionare **Gestione articoli \> Impostazioni \> Suddivisione scorte \> Magazzini**. La tabella seguente descrive i campi che il modulo **Costo sbarcato** aggiunge alla pagina **Magazzini** per supportare la funzionalità merci in transito. Entrambi i campi sono visualizzati nella Scheda dettaglio **Generale**. Per informazioni sugli altri campi nella pagina, vedere [Magazzini (modulo)](https://technet.microsoft.com/library/aa620570.aspx).
+Per utilizzare le impostazioni relative alle merci in transito per i magazzini in uso, selezionare **Gestione articoli \> Impostazioni \> Suddivisione scorte \> Magazzini**. La tabella seguente descrive i campi che il modulo **Costo sbarcato** aggiunge alla pagina **Magazzini** per supportare la funzionalità merci in transito. Entrambi i campi sono visualizzati nella Scheda dettaglio **Generale**. Per informazioni sugli altri campi nella pagina, vedere [Magazzini (modulo)](/dynamicsax-2012//warehouses-form).
 
 | Campo | Descrizione |
 |---|---|
@@ -109,7 +109,7 @@ Per utilizzare gli ordini merci in transito, selezionare **Costo sbarcato \> Att
     - **Crea da merci in transito** - Impostare questa opzione su *Sì* per prelevare quantità dalle righe in transito selezionate per il viaggio, il contenitore o il folio selezionato.
     - **Crea da righe ordine** - Impostare questa opzione su *Sì* per impostare la quantità predefinita nel giornale di registrazione arrivi in base alle righe di ordine fornitore. La quantità predefinita nel giornale di registrazione arrivi può essere impostata in questo modo solo se la quantità nella riga di ordine fornitore corrisponde alla quantità nell'ordine merci in transito.
 
-1. Elaborare il giornale di registrazione arrivi come descritto in [Registrare le entrate articoli con un giornale di registrazione arrivi articoli](https://technet.microsoft.com/library/aa571129.aspx).
+1. Elaborare il giornale di registrazione arrivi come descritto in [Registrare le entrate articoli con un giornale di registrazione arrivi articoli](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal).
 
 > [!NOTE]
 > Il giornale di registrazione arrivi è generalmente utilizzato in situazioni in cui vengono utilizzate ubicazioni e tracciabilità batch/seriale, ma non la gestione del magazzino.
@@ -131,15 +131,14 @@ Costo sbarcato aggiunge i seguenti processi di creazione di lavoro alle voci di 
 - Ricevimento articoli merci in transito
 - Ricevimento e stoccaggio articoli merci in transito
 
-Le impostazioni di configurazione per questi processi sono simili alle impostazioni per i [processi di creazione lavoro: ricevimento e stoccaggio ordine fornitore](https://technet.microsoft.com/library/dn553216.aspx). Tuttavia, il processo *Ricevimento e stoccaggio articoli merci in transito* aggiunge anche il seguente campo.
+Le impostazioni di configurazione per questi processi sono simili alle impostazioni per i [processi di creazione lavoro: ricevimento e stoccaggio ordine fornitore](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). Tuttavia, il processo *Ricevimento e stoccaggio articoli merci in transito* aggiunge anche il seguente campo.
 
 - **Abilita contenitore di spedizione completo** - Se questa opzione è impostata su *Sì*, quando il lavoro di stoccaggio è completato, l'app per dispositivi mobili Gestione magazzino fornirà un'opzione aggiuntiva denominata **Contenitore di spedizione completo**. Quando questa opzione è selezionata, al lavoratore verrà chiesto di confermare che il contenitore è completo. A quel punto, tutte le entrate incomplete verranno elaborate come transazione in difetto.
 
 ### <a name="location-directives"></a>Direttive ubicazione
 
-Costo sbarcato aggiunge un nuovo tipo di ordine di lavoro denominato *Merci in transito* alla pagina **Direttive ubicazione**. Questo tipo di ordine di lavoro deve essere configurato allo stesso modo dei [tipi di ordine di lavoro di ordine fornitore](https://technet.microsoft.com/library/dn553184.aspx).
+Costo sbarcato aggiunge un nuovo tipo di ordine di lavoro denominato *Merci in transito* alla pagina **Direttive ubicazione**. Questo tipo di ordine di lavoro deve essere configurato allo stesso modo dei [tipi di ordine di lavoro di ordine fornitore](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Modelli di lavoro
 
-Costo sbarcato aggiunge un nuovo tipo di ordine di lavoro denominato *Merci in transito* alla pagina **Modelli di lavoro**. Questo tipo di ordine di lavoro deve essere configurato allo stesso modo dei [modelli di lavoro di ordine fornitore](https://technet.microsoft.com/library/dn553184.aspx).
-
+Costo sbarcato aggiunge un nuovo tipo di ordine di lavoro denominato *Merci in transito* alla pagina **Modelli di lavoro**. Questo tipo di ordine di lavoro deve essere configurato allo stesso modo dei [modelli di lavoro di ordine fornitore](/dynamicsax-2012/appuser-itpro/create-a-work-template).

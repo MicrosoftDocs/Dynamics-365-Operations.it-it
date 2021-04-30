@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811290"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897038"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione a Financial Reporting 
 
@@ -148,7 +148,7 @@ Problema 1: Progettazione report non si avvia quando si seleziona **Nuovo** o **
 * In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili. Nell'area denominata Livello di sicurezza per questa zona, impostare l'opzione in **Medio-basso**.
 * Disabilitare il blocco popup nel browser.
 * Le workstation sono necessarie per l'installazione di Microsoft .NET Fremework 4.6.2 o versione successiva. È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Se stai utilizzando il browser Chrome, è necessario installare l'estensione ClickOnce per scaricare il client Progettazione report. Se si utilizza Chrome in modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. Per ulteriori informazioni sull'estensione ClickOnce di Chrome, vedere [Requisiti di sistema per le distribuzioni cloud](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Se stai utilizzando il browser Chrome, è necessario installare l'estensione ClickOnce per scaricare il client Progettazione report. Se si utilizza Chrome in modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. Per ulteriori informazioni sull'estensione ClickOnce di Chrome, vedere [Requisiti di sistema per le distribuzioni cloud](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Se stai utilizzando Microsoft Edge con un browser Chrome, non è necessario installare un'estensione ClickOnce per Edge Chromium. Tuttavia, è necessario abilitare l'opzione ClickOnce per scaricare il client Report Designer. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità.
      1. Apri un nuovo browser in Microsoft Edge.
      2. Immetti **edge://flags** e premi **INVIO**.

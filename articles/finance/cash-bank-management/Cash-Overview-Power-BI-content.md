@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830594"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897454"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenuto di Power BI della panoramica situazione di cassa
 
@@ -38,7 +38,7 @@ La seguente impostazione deve essere completata per visualizzare i dati nelle ra
 2. Vai a **Contabilità generale> Calendari > Calendari fiscali** per convalidare le date del calendario fiscale assegnate al periodo di tempo attivo.
 3. Passare a **Contabilità generale > Impostazioni > Contabilità generale** per impostare **Valuta di contabilizzazione** e **Tipo di tasso di cambio**.
 4. Definire i tassi di cambio tra le valute della transazioni e la valuta di contabilizzazione, la valuta di contabilizzazione e la valuta di sistema, la valuta di contabilizzazione e le valute delle banche. A tale scopo, andare a **Contabilità generale > Valute > Tassi di cambio valutario**.
-5. Configurare ed eseguire Previsione di cassa. Per ulteriori informazioni su come impostare Previsione di cassa, vedere [Previsione di cassa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Configurare ed eseguire Previsione di cassa. Per ulteriori informazioni su come impostare Previsione di cassa, vedere [Previsione di cassa](./cash-flow-forecasting.md). 
 6. Passare a **Amministrazione sistema > Impostazioni > Archivio entità** per aggiornare la misura di aggregazione **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI

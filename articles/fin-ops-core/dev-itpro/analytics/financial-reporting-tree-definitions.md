@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
+ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819940"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866304"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definizioni di albero gerarchico nei report finanziari
 
@@ -52,9 +52,7 @@ Una definizione di albero gerarchico contiene le colonne descritte nella seguent
 | Descrizione unità      | Il titolo dell'unità gerarchica viene visualizzato nell'intestazione o nel piè di pagina del report se si immette **UnitDesc** come codice nella scheda **Intestazioni e piè di pagina** della definizione di report. Il titolo viene visualizzato nella descrizione della riga del report se si immette **UnitDesc** nella cella **Descrizione** della definizione di riga. |
 | Dimensioni            | Un'unità gerarchica che attinge le informazioni direttamente dai dati finanziari. Definisce il posizionamento logico e le lunghezze per il conto e i segmenti correlati. Ogni riga di unità gerarchica deve avere una dimensione in questa colonna. È anche possibile inserire una dimensione in una riga di unità di riepilogo (ad esempio, per le spese che sono direttamente correlate a tale unità). Se si immette una dimensione in una riga di unità di riepilogo, i conti utilizzati nelle unità padre non devono essere utilizzati in unità figlio. In caso contrario, gli importi potrebbero essere duplicati. |
 | Definizioni di riga       | Il nome della definizione di riga per l'unità gerarchica. Per tutte le unità dell'albero gerarchico viene utilizzata la stessa definizione di riga. Quando si genera un report, viene utilizzata questa definizione di riga per ogni unità gerarchica. La definizione di riga può includere più collegamenti di dimensioni finanziarie. Se viene specificata una definizione di riga nell'albero gerarchico, selezionare la casella di controllo **Usa definizione di riga da albero gerarchico** nella scheda **Report** della definizione del report. |
-| Collegamento riga              | Collegamento di riga da utilizzare per l'unità gerarchica. I collegamenti di riga vengono definiti affinché la definizione di riga identifichi le dimensioni finanziarie a cui effettuare il collegamento. |
-| Collegamento esterno         | Collegamento di riga da utilizzare per l'unità gerarchica. Collegamenti riga vengono definiti perché la definizione di riga identifichi il report a cui collegarsi. |
-| File esterno         | Percorso del file del foglio di lavoro del report finanziario da cui estrarre i dati. |
+| Collegamento Dimensione finanziarie| Il collegamento Dimensioni finanziarie da utilizzare per l'unità gerarchica. I collegamenti Dimensioni finanziarie vengono definiti affinché la definizione di riga identifichi le dimensioni finanziarie a cui effettuare il collegamento. |
 | Opzioni pagina          | Questa colonna controlla se i dettagli per l'unità gerarchica vengono eliminati quando il report viene visualizzato o stampato. |
 | % rollup              | La percentuale dell'unità gerarchica da allocare alla unità padre. La percentuale immessa nella colonna viene applicata a ogni riga della definizione di riga prima che il valore nella riga venga aggiunto al report padre. Ad esempio, se un'unità figlio deve essere divisa equamente tra due reparti, gli importi in ogni riga verranno moltiplicati per 50 percento prima di aggiungere il valore al report del reparto. Un'unità gerarchica non può avere due unità padre. Per allocare gli importi da un'unità gerarchica a due unità padre, creare un'altra unità gerarchica con la stessa dimensione per eseguire il rollup del 50 percento aggiuntivo. Immettere percentuali intere senza separatore decimale. Ad esempio, **25** rappresenta l'allocazione del 25% al padre. Se si include un separatore decimale (**25**), 0,25% viene allocato all'elemento padre. Per utilizzare una percentuale minore di 1%, utilizzare l'opzione **Consenti rollup &lt;1%** nella definizione di report. Questa opzione è nella scheda **Opzioni aggiuntive** nella finestra di dialogo **Impostazioni del report**. Accedere alla finestra di dialogo dal pulsante **Altro** nella scheda **Impostazioni** della definizione di report. |
 | Sicurezza dell'unità         | Le restrizioni su quali utenti e gruppi possono accedere alle informazioni dell'unità gerarchica. |
@@ -113,10 +111,10 @@ Ogni definizione di albero gerarchico viene visualizzata in visualizzazioni univ
 
 I seguenti tipi di punti di unità gerarchica vengono utilizzati nei report finanziari:
 
-- Un'unità di dettaglio attinge le informazioni direttamente dai dati finanziari, un foglio di lavoro di Excel, o un altro foglio di lavoro di report finanziari.
+- Un'unità di dettaglio attinge le informazioni direttamente dai dati finanziari.
 - Un'unità di riepilogo riassume i dati delle unità di livello inferiore.
 
-Un'unità gerarchica padre è un'unità di riepilogo che aggrega informazioni riepilogative da un'unità di dettaglio. Un'unità di riepilogo può essere sia un'unità di dettaglio che di riepilogo. Pertanto, un'unità di riepilogo può attingere informazioni da un foglio di lavoro di Excel, i dati finanziari o un'unità di livello inferiore. Un'unità padre può essere unità figlio di un'unità padre di livello superiore. Un'unità gerarchica figlio può essere un'unità di dettaglio che effettua il pull di informazioni direttamente dai dati finanziari o un foglio di lavoro di Excel. Un'unità gerarchica figlio può essere anche un'unità di riepilogo intermedia. In altre parole, può essere l'unità padre di un'unità di livello inferiore e anche l'unità figlio di un'unità di riepilogo di livello superiore. Nello scenario più comune per le unità gerarchiche, le unità padre hanno una cella vuota nella colonna **Dimensioni** e le unità figlio hanno collegamenti a combinazioni di dimensioni specifiche o jolly.
+Un'unità gerarchica padre è un'unità di riepilogo che aggrega informazioni riepilogative da un'unità di dettaglio. Un'unità di riepilogo può essere sia un'unità di dettaglio che di riepilogo. Pertanto, un'unità di riepilogo può attingere informazioni dai dati finanziari o da un'unità di livello inferiore. Un'unità padre può essere unità figlio di un'unità padre di livello superiore. Un'unità gerarchica figlio può essere un'unità di dettaglio che effettua il pull di informazioni direttamente dai dati finanziari. Un'unità gerarchica figlio può essere anche un'unità di riepilogo intermedia. In altre parole, può essere l'unità padre di un'unità di livello inferiore e anche l'unità figlio di un'unità di riepilogo di livello superiore. Nello scenario più comune per le unità gerarchiche, le unità padre hanno una cella vuota nella colonna **Dimensioni** e le unità figlio hanno collegamenti a combinazioni di dimensioni specifiche o jolly.
 
 ### <a name="organize-reporting-units"></a> Organizzare le unità gerarchiche
 
@@ -160,20 +158,7 @@ Una voce di testo aggiuntivo è una stringa di testo statica lunga fino a 255 ca
 1. In Progettazione report, aprire l'albero gerarchico da modificare.
 2. Fare doppio clic sulla cella **Sicurezza dell'unità** per la riga dell'unità gerarchica a cui rimuovere l'accesso.
 3. Nella finestra di dialogo **Sicurezza dell'unità** selezionare un nome, quindi fare clic su **Rimuovi**.
-4. Scegliere **OK**.
-
-### <a name="link-to-reports"></a>Collegamento ai report
-
-Dopo aver creato una colonna di **report** nella definizione di riga e si è specificato il report da includere nel report, è necessario aggiornare l'albero gerarchico con la colonna collegata e le informazioni sul report. Un report può essere importato in qualsiasi unità nell'albero gerarchico.
-
-### <a name="identify-the-report-in-a-reporting-tree"></a>Identificare il report in un albero gerarchico
-
-1. In Progettazione report, aprire l'albero gerarchico da modificare.
-2. Nella colonna **Definizioni di riga**, le informazioni nelle celle sono basare sulle informazioni della riga selezionata, poiché la stessa definizione di riga deve essere utilizzata in tutte le unità dell'albero gerarchico. Fare doppio clic sulla cella **Definizioni di riga** quindi selezionare la definizione di riga contenente informazioni sul report.
-3. Nella cella **Collegamento al foglio di lavoro** per un'unità gerarchica, selezionare il nome del collegamento corrispondente al report.
-4. Nella cella **Percorso cartella di lavoro o report** per un'unità gerarchica, digitare il nome del report o cercare e selezionare il report.
-5. Per specificare un foglio di lavoro in un report, immettere il nome del foglio di lavoro della cella **Nome del foglio di lavoro**.
-6. Ripetere i passaggi da 3 a 5 per ogni unità gerarchica che deve ricevere i dati da un report. Per impedire che dati errati siano visualizzati nel report, assicurarsi che i nomi dei report corretti compaiano nella corrispondente unità dell'albero gerarchico.
+4. Fare clic su **OK**.
 
 ## <a name="examples"></a>Esempi
 ### <a name="reporting-unit-structure--example-1"></a>Struttura di unità gerarchiche - Esempio 1

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818626"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897914"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Valutare il modello di previsione di pagamento del cliente iniziale (anteprima)
 
@@ -41,7 +41,7 @@ Questo collegamento reindirizza ad AI Builder, dove puoi saperne di più sul mod
 
 La pagina che viene aperta mostra le informazioni seguenti:
 
-- Nella sezione **Prestazioni**, il grado di prestazione del modello fornisce una prospettiva sulla qualità del modello. Per ulteriori informazioni su questo grado, vedi [Prestazioni del modello di previsione](https://docs.microsoft.com/ai-builder/prediction-performance) nella documentazione di AI Builder.
+- Nella sezione **Prestazioni**, il grado di prestazione del modello fornisce una prospettiva sulla qualità del modello. Per ulteriori informazioni su questo grado, vedi [Prestazioni del modello di previsione](/ai-builder/prediction-performance) nella documentazione di AI Builder.
 - La sezione **Dati più influenti** mostra l'importanza dei diversi tipi di input di dati per il modello. Puoi valutare questo elenco e le percentuali corrispondenti per determinare se le informazioni sono coerenti con ciò che sai della tua azienda e del tuo mercato.
 
     [![Sezioni Prestazioni e Dati più influenti per il modello di previsione](./media/models.png)](./media/models.png)

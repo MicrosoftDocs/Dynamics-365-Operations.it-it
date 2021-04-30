@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a9500efb2a2bab19c3ee1c81455adfda8bef03f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822493"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910067"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborazione con i fornitori tramite il portale fornitori
 
@@ -97,7 +97,7 @@ Nella tabella riportata di seguito viene mostrato un esempio di modifica allo st
 
 [Sicurezza degli utenti del portale fornitori](configure-security-vendor-portal-users.md)
 
-[Area di lavoro fatturazione di collaborazione fornitore](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Area di lavoro fatturazione di collaborazione fornitore](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 

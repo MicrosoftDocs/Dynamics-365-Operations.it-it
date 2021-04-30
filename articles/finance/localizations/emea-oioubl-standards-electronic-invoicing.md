@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9aa3e1f6fc14d2c0c8f35307f1084d09399c08f5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d46b87428e642d970a5efd8c6d4c4a462f3a3ea
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832710"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894716"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Standard supportati per la fatturazione elettronica in Europa
 
@@ -44,7 +44,7 @@ Sono disponibili i seguenti formati di fatture elettroniche specifici di ciascun
 -   Formato specifico estone versione 1.2
 -   Finvoice 3.0 per la Finlandia
 
-La fatturazione elettronica è basata sulla [creazione di report elettronici (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Un modello di dati **Modello di fattura**, un mapping modello di fattura e varie configurazioni di formati di report elettronici (ER) specifici di ciascun paese/area geografica sono state create per i seguenti paesi/aree geografiche: 
+La fatturazione elettronica è basata sulla [creazione di report elettronici (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). Un modello di dati **Modello di fattura**, un mapping modello di fattura e varie configurazioni di formati di report elettronici (ER) specifici di ciascun paese/area geografica sono state create per i seguenti paesi/aree geografiche: 
 
 - Austria (AT)
 - Danimarca (DK)
@@ -105,7 +105,7 @@ La configurazione e le specifiche delle fatture elettroniche variano in base al 
 - [PEPPOL](https://support.microsoft.com/help/4490320)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-Per ulteriori informazioni su come impostare le fatture elettroniche, è possibile riprodurre le seguenti [Guide attività](../../fin-and-ops/get-started/help-overview.md#task-guides) nel riquadro della Guida:
+Per ulteriori informazioni su come impostare le fatture elettroniche, è possibile riprodurre le seguenti [Guide attività](../../fin-ops-core/fin-ops/get-started/help-overview.md#task-guides) nel riquadro della Guida:
 
  - Impostare la fatturazione elettronica OIOUBL
  - Importare le configurazioni della fatturazione elettronica OIOUBL

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819652"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897406"
 ---
 # <a name="cash-flow-forecasting"></a>Previsione di cassa
 
@@ -144,7 +144,7 @@ L'area di lavoro **Panoramica situazione di cassa - tutte le società** mostra l
 
 L'area di lavoro **Panoramica situazione di cassa - società corrente** mostra l'analisi di previsione di cassa nella valuta di contabilizzazione definita della società. La valuta di contabilizzazione utilizzata per l'analisi è definita nella pagina **Contabilità generale**. Questa area di lavoro visualizza una panoramica dei saldi del conto bancario e delle previsioni di cassa per la società corrente. Un grafico delle entrate e delle uscite di cassa fornisce una panoramica dei saldi e dei movimenti di cassa futuri nella valuta di contabilizzazione, insieme a informazioni dettagliate sulle transazioni previsionali. È inoltre possibile vedere i saldi previsti in valuta.
 
-Per ulteriori informazioni sull'analisi di previsione di cassa, vedere l'argomento [Contenuto di Power BI della panoramica situazione di cassa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
+Per ulteriori informazioni sull'analisi di previsione di cassa, vedere l'argomento [Contenuto di Power BI della panoramica situazione di cassa](./cash-overview-power-bi-content.md).
 
 Inoltre, è possibile visualizzare i dati di previsione di cassa per conti, ordini e articoli specifici nelle pagine seguenti:
 

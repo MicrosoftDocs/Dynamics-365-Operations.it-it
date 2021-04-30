@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 36be4a85dbbd28839afd45b6ed167b4c8181ae72
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826421"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909503"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configurazione dello scenario per l'Intelligence IoT
 
@@ -42,7 +42,7 @@ Lo scenario **Tempo di inattività dell'attrezzatura** ha le seguenti dipendenze
 Per configurare lo scenario, attieniti a questa procedura.
 
 1. Accedere a Supply Chain Management.
-2. Abilita il flag della funzionalità di Intelligence IoT. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+2. Abilita il flag della funzionalità di Intelligence IoT. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 3. Configurare le metriche. Per ulteriori informazioni, vedi [Come configurare le metriche](iot-metrics-setup.md#configure-metrics).
 4. Andare a **Controllo di produzione \> Impostazione \> Intelligence IoT \> Gestione scenari**.
 6. Nel riquadro **Tempi di inattività dell'attrezzatura** selezionare **Configura** per aprire la configurazione guidata.

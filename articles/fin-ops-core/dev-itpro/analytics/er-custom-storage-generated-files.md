@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753698"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894150"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Specificare percorsi di archiviazione personalizzati per i documenti generati
 
@@ -27,7 +27,7 @@ L'API del framework per la creazione di report elettronici (ER) consente di este
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Distribuire una topologia che supporta la compilazione continua. Per ulteriori informazioni, vedere [Distribuire topologie che supportano la compilazione continua e l'automazione dei test](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). È inoltre necessario avere accesso a questa topologia per uno dei seguenti ruoli:
+Distribuire una topologia che supporta la compilazione continua. Per ulteriori informazioni, vedere [Distribuire topologie che supportano la compilazione continua e l'automazione dei test](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). È inoltre necessario avere accesso a questa topologia per uno dei seguenti ruoli:
 
 - Sviluppatore per la creazione di report elettronici
 - Consulente funzionale per la creazione di report elettronici
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modificare la classe `AssetRollForwardService` esistente e scrivere il codice per impostare una factory di destinazione personalizzata per l'esecutore del report. Si noti che quando viene creata una factory di destinazione personalizzata, viene passato il parametro basato sull'applicazione che specifica una cartella di destinazione. In questo modo, quella cartella di destinazione viene utilizzata per memorizzare i file generati.
 
     > [!NOTE] 
-    > Assicurarsi che la cartella specificata (**c:\\0** in questo esempio) è presente nel file system locale del server che esegue il servizio AOS. Altrimenti, verrà lanciata un'eccezione [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) in fase di esecuzione.
+    > Assicurarsi che la cartella specificata (**c:\\0** in questo esempio) è presente nel file system locale del server che esegue il servizio AOS. Altrimenti, verrà lanciata un'eccezione [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) in fase di esecuzione.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

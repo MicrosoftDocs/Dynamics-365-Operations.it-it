@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46b232da404fe2106ce4b5455ea4d682a08aaa53
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5ec5b8d0ad1e85a9c4fc7c3eb762c2c7b0b52e8d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743631"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893302"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizzare le configurazioni dei rapporti elettronici per generare un documento elettronico
 
@@ -667,8 +667,8 @@ Lo stato della versione 32.6.7.2 viene modificato da **Bozza** in **Completato**
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
 - [Scaricare configurazioni ER da Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](er-download-configurations-global-repo.md)
-- [Crea una fattura a testo libero](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
-- [Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+- [Crea una fattura a testo libero](../../../finance/accounts-receivable/create-free-text-invoice-new.md)
+- [Creare e utilizzare campi personalizzati](../../fin-ops/get-started/user-defined-fields.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
