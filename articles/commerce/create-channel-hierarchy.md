@@ -2,7 +2,7 @@
 title: Creare una gerarchia di navigazione nei canali
 description: In questo argomento viene descritto come creare una gerarchia di navigazione nei canali in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 358f3d40c7a21184c20da342d6b2bf72dd4e7bbd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795837"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951910"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Creare una gerarchia di navigazione nei canali
 
@@ -77,7 +77,7 @@ Per aggiungere prodotti a nodi di categoria, attenersi alla seguente procedura.
 1. Nel riquadro azioni selezionare **Salva**.
 
 > [!NOTE]
-> L'aggiunta di prodotti a un nodo all'interno della gerarchia di navigazione nei canali non è sufficiente per visualizzare i prodotti in un canale selezionato in quanto i prodotti devono anche essere assortiti in un prodotto.
+> L'aggiunta di prodotti a un nodo all'interno della gerarchia di navigazione nei canali non è sufficiente per visualizzare i prodotti in un canale selezionato in quanto i prodotti devono anche essere assortiti in un canale. Per ulteriori informazioni sugli assortimenti, vedere [Gestione dell'assortimento](assortments.md).
 
 L'immagine seguente mostra un esempio di nodo con prodotti aggiunti.
 

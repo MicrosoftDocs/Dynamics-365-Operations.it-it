@@ -1,8 +1,8 @@
 ---
-title: Utilizzare le unità di scala per aumentare la resilienza per i carichi di lavoro di Supply Chain Management
+title: Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 description: Questo argomento fornisce informazioni sulle unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino.
 author: cabeln
-ms.date: 04/13/2021
+ms.date: 04/22/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c47088edd89413d196e904bc7eaa115585bf8464
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
+ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899145"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938302"
 ---
-# <a name="use-scale-units-to-help-increase-resilience-for-supply-chain-management-workloads"></a>Utilizzare le unità di scala per aumentare la resilienza per i carichi di lavoro di Supply Chain Management
+# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 
 [!include [banner](../includes/banner.md)]
 

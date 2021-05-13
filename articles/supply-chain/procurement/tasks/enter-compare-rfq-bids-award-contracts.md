@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811992"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920583"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Immettere e confrontare le offerte RdO e assegnare i contratti
 
@@ -32,7 +32,7 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Immettere una risposta come fornitore
 
-1. Nel dashboard, selezionare **Offerta fornitore**.
+1. Vai a **Collaborazione fornitore \> Aree di lavoro \> Offerta fornitore**.
 2. Nell'elenco **Nuovi inviti di offerta**, trovare una richiesta di offerta appena inviata. Selezionare la richiesta di offerta per verificare quanto è stato ordinato.
 3. Selezionare **Allegati RdO** per esaminare gli eventuali allegati aggiunti.
 4. Selezionare **Offerta** per rendere i campi modificabili. Si noti che il campo **Avanzamento offerta** è impostato su **Aggiornamento in corso del fornitore**.

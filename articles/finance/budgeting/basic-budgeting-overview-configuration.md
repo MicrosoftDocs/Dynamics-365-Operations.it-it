@@ -1,8 +1,8 @@
 ---
 title: Panoramica di Impostazione budget
 description: Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 Finance devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827460"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960051"
 ---
 # <a name="budgeting-overview"></a>Panoramica dell'impostazione budget 
 
@@ -71,7 +71,7 @@ La funzionalità che è stata introdotta in Microsoft Dynamics 365 Finance versi
 
 La funzionalità **Solo voci del registro della quantità** consente di registrare una voce del registro di budget con gli importi solo per quantità. Ad esempio, è possibile registrare una voce del budget con una quantità pari a 32 e un prezzo pari a zero, che determina un importo pari a zero. È quindi possibile utilizzare la quantità nel contesto di un report finanziario per determinare il prezzo per quantità. Tenere presente che le richieste di informazioni o i report non sono stati aggiornati come parte di questa funzionalità; la funzionalità consente di registrare per un importo pari a zero.
 
-Con la funzionalità **Voci del registro di budget predefinite per tipo di importo**, il tipo predefinito dell'importo in una voce del registro di budget può essere un tipo di importo diverso spese. La riga della voce del registro di budget ora verrà automaticamente impostata come spesa quando il tipo di conto principale è spesa; verrà automaticamente impostata come ricavi quando il tipo di conto principale spesa; e verrà automaticamente impostata come spesa per tutti gli altri tipi di conto.
+Con la funzionalità **Voci del registro di budget predefinite per tipo di importo**, il tipo predefinito dell'importo in una voce del registro di budget può essere un tipo di importo diverso spese. La riga della voce del registro di budget ora verrà automaticamente impostata come spesa quando il tipo di conto principale è spesa; verrà automaticamente impostata come ricavi quando il tipo di conto principale è ricavi; e verrà automaticamente impostata come spesa per tutti gli altri tipi di conto.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Utilizzo delle aree di lavoro e delle pagine di richiesta per tenere traccia del budget rispetto valori effettivi
 Il responsabile budget può verificare lo stato corrente di un budget nell'area di lavoro **Budget contabili e previsioni**. Le schede relative alle **spese sul budget** e ai **ricavi da budget** offrono una rapida panoramica delle combinazioni delle dimensioni finanziarie dove gli obiettivi del budget non sono stati rispettati o sono vicini alla soglia. È possibile personalizzare la percentuale della soglia del budget e i set di dimensioni finanziarie che sono utilizzati in queste schede facendo clic su **Configura area di lavoro personale**. È possibile fare clic su **Responsabili unità** per vedere i lavoratori che sono responsabili di specifiche combinazioni dimensioni finanziarie che sono selezionate in tali schede. Ad esempio, se si nota che il budget di spesa del reparto Operazioni sta per superare la soglia del budget, è possibile trovare e contattare il responsabile del reparto per discutere del problema. 

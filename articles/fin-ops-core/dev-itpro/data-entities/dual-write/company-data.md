@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c3af66c0b8daa120c6ba19bd910f7531ffada0e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751412"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941031"
 ---
 # <a name="company-concept-in-dataverse"></a>Concetto di società in Dataverse
 
@@ -89,7 +89,7 @@ Esistono diversi modi per compilare automaticamente il nome dell'azienda nelle a
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Scelta di una riga per cambiare la società predefinita.":::
 
-+ Se si è un configuratore o un amministratore di sistema e si desidera compilare automaticamente i dati aziendali in un modulo personalizzato, è possibile utilizzare gli [eventi di modulo](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Aggiungere un riferimento JavaScript a **msdyn_/DefaultCompany.js** e utilizzare i seguenti eventi. È possibile utilizzare qualsiasi modulo predefinito, ad esempio il modulo **Account**.
++ Se si è un configuratore o un amministratore di sistema e si desidera compilare automaticamente i dati aziendali in un modulo personalizzato, è possibile utilizzare gli [eventi di modulo](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Aggiungere un riferimento JavaScript a **msdyn_/DefaultCompany.js** e utilizzare i seguenti eventi. È possibile utilizzare qualsiasi modulo predefinito, ad esempio il modulo **Account**.
 
     + L'evento **OnLoad** per il modulo: impostare la colonna **defaultCompany**.
     + L'evento **OnChange** per la colonna **Società**: impostare la colonna **updateDefaultCompany**.

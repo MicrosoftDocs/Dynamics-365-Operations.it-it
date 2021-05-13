@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830030"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954647"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -139,13 +139,14 @@ Durante la revisione di una richiesta per la modifica, nella scheda **Richiesta 
 
 Come descritto in [Società di progettazione e regole sulla proprietà dei dati](engineering-org-data-ownership-rules.md), i dati di prodotto che è possibile modificare variano a seconda del tipo di persona giuridica in cui si lavora (società operativa o di progettazione). Le regole sulla proprietà dei dati vengono applicate anche agli ordini di modifica di progettazione. Pertanto, a seconda della persona giuridica in cui si crea un ordine di modifica di progettazione, è possibile apportare diversi tipi di modifiche. Di seguito sono riportati alcuni esempi.
 
-- Per gli ordini di modifica di progettazione in una **società di progettazione**, è possibile apportare modifiche di base ai dati di progettazione. Ad esempio, è possibile creare nuove versioni di un prodotto, modificare la struttura di un prodotto tramite la DBA e modificare i valori degli attributi di progettazione. Per ogni prodotto interessato, selezionare uno dei seguenti valori nel campo **Impatto**:
+- Per gli ordini di modifica di progettazione in una *società di progettazione*, è possibile apportare modifiche di base ai dati di progettazione. Ad esempio, è possibile creare nuove versioni di un prodotto, modificare la struttura di un prodotto tramite la DBA e modificare i valori degli attributi di progettazione. Per ogni prodotto interessato, selezionare uno dei seguenti valori nel campo **Impatto**:
 
     - **Nessuno** - Aggiorna la versione del prodotto esistente (aggiornamento nella versione).
     - **Nuova versione** - Crea una nuova versione basata sulla versione del prodotto selezionata.
-    - **Nuovo prodotto** - Crea un prodotto completamente nuovo o una variante prodotto basata sulla versione di prodotto selezionata.
+    - **Nuovo prodotto** - Crea un prodotto completamente nuovo basato sulla versione di prodotto selezionata.
+    - **Nuova variante** - Crea una nuova variante basata sulla versione del prodotto selezionata. La sua distinta base e le informazioni sul ciclo di lavorazione verranno copiate.
 
-- Per gli ordini di modifica di progettazione in una **società operativa**, è possibile modificare i dati logistici del prodotto. Ad esempio, è possibile arricchire la DBA esistente con le impostazioni per l'approvvigionamento, aggiungere cicli di lavorazione o DBA locali e anche arricchire una DBA aggiungendo nuove righe DBA per materiali di imballaggio locali, fluidi lubrificanti o istruzioni nella lingua locale. I miglioramenti apportati dagli utenti nella società operativa verranno mantenuti quando vengono inviati nuovi aggiornamenti dalla società di progettazione. Per ulteriori informazioni, vedere [Società di progettazione e regole sulla proprietà dei dati](engineering-org-data-ownership-rules.md).
+- Per gli ordini di modifica di progettazione in una *società operativa*, è possibile modificare i dati logistici del prodotto. Ad esempio, è possibile arricchire la DBA esistente con le impostazioni per l'approvvigionamento, aggiungere cicli di lavorazione o DBA locali e anche arricchire una DBA aggiungendo nuove righe DBA per materiali di imballaggio locali, fluidi lubrificanti o istruzioni nella lingua locale. I miglioramenti apportati dagli utenti nella società operativa verranno mantenuti quando vengono inviati nuovi aggiornamenti dalla società di progettazione. Per ulteriori informazioni, vedere [Società di progettazione e regole sulla proprietà dei dati](engineering-org-data-ownership-rules.md).
 
     Quando gli ordini di modifica di progettazione vengono elaborati nella società di progettazione, i prodotti vengono creati e/o aggiornati solo nella società di progettazione. Pertanto, se devono essere aggiornati anche i dati master del prodotto, è necessario rilasciare i prodotti anche alle società operative.
 

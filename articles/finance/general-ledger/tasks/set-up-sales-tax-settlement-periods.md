@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd11068a31b5324d87416e7c00f75a59743f695a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83587df3963d215fec020150e6b707e431c1b6eb
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813509"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944779"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Impostare i periodi di liquidazione IVA
 
@@ -37,9 +37,7 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 7. Nel campo **Termini di pagamento** fare clic sul record desiderato del menu a discesa. L'ufficio IVA relativo può essere impostato come fornitore e la liquidazione VAT creerà una fattura fornitore aperta. Termini di pagamento definisce la data di scadenza della fattura fornitore aperta.  
 8. Selezionare un tipo per gli intervalli del periodo di liquidazione.
 9. Immettere il numero di unità dell'intervallo periodico per periodo. Ad esempio, un trimestre ha 3 mesi.
-10. Selezionare o deselezionare la casella di controllo **Utilizza elaborazione batch per liquidazione IVA**. Il processo di liquidazione per il periodo di liquidazione può essere elaborato come processo batch in background. Si consigliano tantissime transazioni IVA all'interno di un intervallo periodico.  
-    > [!NOTE]
-    > Attualmente questo non è supportato in Spagna, in Giappone e nei Paesi Bassi.
+10. Selezionare o deselezionare la casella di controllo **Utilizza elaborazione batch per liquidazione IVA**. Il processo di liquidazione per il periodo di liquidazione può essere elaborato come processo batch in background. Si consigliano tantissime transazioni IVA all'interno di un intervallo periodico.
 11. Selezionare o deselezionare la casella di controllo **Impedisci generazione transazioni contropartita fiscale**. Per impostazione predefinita, il sistema genera transazioni di contropartita fiscale durante il processo di liquidazione, la cui causa può creare problemi in caso di un numero elevato di transazioni fiscali in un determinato intervallo periodico. Selezionare questa casella di controllo per impedire la generazione di transazioni di contropartita fiscale.
 12. Espandere la scheda **Intervalli periodici**.
 13. Selezionare **Aggiungi**.

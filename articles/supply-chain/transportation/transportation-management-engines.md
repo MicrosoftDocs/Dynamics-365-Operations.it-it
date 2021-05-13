@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828371"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920111"
 ---
 # <a name="transportation-management-engines"></a>Motori di gestione del trasporto
 
@@ -94,8 +94,14 @@ I metadati per i motori di gestione del trasporto vengono configurati in modo di
 | 1        | Codice postale origine            | Assegnazione | Stringa    | CAP    | Selezionata  |
 | 2        | Stato/regione di destinazione             | Assegnazione | Stringa    | Statale          |           |
 | 3        | Codice postale di inizio destinazione | Assegnazione | Stringa    | CAP    | Selezionata  |
-| 4        | Codice postale di fine destinazione   | Assegnazione | Stringa    | CAP    | Selezionata  |
-| 5        | Paese di destinazione           | Assegnazione | Stringa    | Paese |           |
+| 4        | Codice postale di fine destinazione   | Assegnazione | Stringa    | CAP    | Selezionate  |
+| 5        | Paese di destinazione           | Assegnazione | String    | Paese/area geografica |           |
+
+### <a name="whitepaper"></a>White paper
+
+Per ulteriori informazioni, scarica il seguente white paper (scritto per supportare AX2012, ma è ancora valido per Dynamics 365 Supply Chain Management)
+
+- [Motori di gestione trasporto](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

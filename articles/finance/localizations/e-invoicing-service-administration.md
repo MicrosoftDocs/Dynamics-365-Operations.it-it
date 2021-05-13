@@ -2,7 +2,7 @@
 title: Componenti di amministrazione della fatturazione elettronica
 description: In questo argomento vengono fornite informazioni sui componenti correlati all'amministrazione della Fatturazione elettronica.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840030"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963193"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Componenti di amministrazione della fatturazione elettronica
 
@@ -31,7 +31,7 @@ In questo argomento vengono fornite informazioni sui componenti correlati all'am
 
 ## <a name="azure"></a>Azure
 
-Usa Microsoft Azure per creare i segreti per l'insieme di credenziali delle chiavi e l'account di archiviazione. Quindi utilizza i segreti nella configurazione della Fatturazione elettronica.
+Usa Microsoft Azure per creare i segreti per Key Vault e l'account di archiviazione. Quindi utilizza i segreti nella configurazione della Fatturazione elettronica.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -87,10 +87,12 @@ Il servizio Fatturazione elettronica è responsabile dell'archiviazione di tutti
 - Un account di Archiviazione di Azure (Archiviazione BLOB) che archivia le fatture elettroniche
 - Un Azure Key Vault che archivia i certificati e l'URI (Uniform Resource Identifier) dell'account di archiviazione
 
-> [!NOTE]
-> Un insieme di credenziali delle chiavi dedicato e un account di archiviazione del cliente devono essere allocati specificamente per l'utilizzo con la fatturazione elettronica.
 
-Per ulteriori informazioni, vedi [Creare un account di archiviazione di Azure e Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
+Un Key Vault dedicato e un account di archiviazione del cliente devono essere allocati specificamente per l'utilizzo con la fatturazione elettronica. Per ulteriori informazioni, vedi [Creare un account di archiviazione di Azure e Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Per monitorare l'integrità di Key Vault e ricevere avvisi, configurare Monitoraggio di Azure per Key Vault. Abilitando la registrazione di Key Vault, è possibile monitorare come, quando e chi accede ai Key Vault. Per ulteriori informazioni, vedere [Monitoraggio e avvisi per Azure Key Vault](/azure/key-vault/general/alert) e [Come abilitare la registrazione di Key Vault](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+Come procedura consigliata, ruota periodicamente i segreti. Per ulteriori informazioni, vedere la [documentazione sui segreti](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Utenti
 

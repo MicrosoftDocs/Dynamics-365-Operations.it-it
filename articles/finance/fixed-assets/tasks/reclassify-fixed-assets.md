@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8935213c4629de408a48df5e54a2122324e1b3e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fbfb754459fad1f3b1509f4f9c65c20e0385b013
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823934"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944715"
 ---
 # <a name="reclassify-fixed-assets"></a>Riclassifica i cespiti
 
@@ -27,11 +27,25 @@ Per riclassificare un cespite, è necessario trasferirlo in un nuovo gruppo cesp
 
 Quando un cespite viene riclassificato:
 
-* Per il nuovo cespite vengono creati tutti i libri del cespite esistente. Le informazioni impostate per il cespite originario vengono copiate nel nuovo cespite. Lo stato dei libri del cespite originario è Chiuso. 
+- Per il nuovo cespite vengono creati tutti i libri del cespite esistente. Le informazioni impostate per il cespite originario vengono copiate nel nuovo cespite. Lo stato dei libri del cespite originario è Chiuso. 
 
-* Nei nuovi libri del nuovo cespite è contenuta la data di riclassificazione presente nel campo **Data di acquisizione**. La data nel campo **Data esecuzione ammortamento** viene copiata dalle informazioni relative al cespite originario. Se l'ammortamento è già iniziato, nel campo **Data ultimo ammortamento** viene visualizzata la data di riclassificazione. 
+- Nei nuovi libri del nuovo cespite è contenuta la data di riclassificazione presente nel campo **Data di acquisizione**. La data nel campo **Data esecuzione ammortamento** viene copiata dalle informazioni relative al cespite originario. Se l'ammortamento è già iniziato, nel campo **Data ultimo ammortamento** viene visualizzata la data di riclassificazione. 
 
-* Le transazioni cespiti esistenti per il cespite originario vengono annullate e rigenerate per il nuovo cespite.
+- Le transazioni cespiti esistenti per il cespite originario vengono annullate e rigenerate per il nuovo cespite.
+
+- Quando un cespite che ha una transazione di trasferimento è stato riclassificato, il sistema visualizzerà un messaggio nel **Centro azioni** per indicare che una transazione di trasferimento non è stata completata durante il processo di riclassificazione. È necessario completare una transazione di trasferimento per spostare le transazioni di riclassificazione esistenti nelle dimensioni finanziarie appropriate. 
+
+   Durante il processo di riclassificazione, il sistema esegue le seguenti azioni per riclassificare il saldo cespiti dal cespite originale al nuovo. 
+   
+   - Il processo di riclassificazione copia i dati dal libro cespiti originale al nuovo libro cespiti.
+
+   - La transazione di riclassificazione utilizza le informazioni dall'acquisizione registrata originale che include le informazioni sulla dimensione finanziaria incluse nella transazione di acquisizione.  
+   
+   - Allo stesso tempo, il processo di riclassificazione storna le transazioni di acquisizione e trasferimento cespite originali. 
+
+Il diagramma e la procedura seguenti forniscono un esempio del processo di riclassificazione. 
+
+[![Diagramma che mostra il processo di riclassificazione](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
 
 Seguire questi passaggi per riclassificare un cespite:
 
@@ -42,7 +56,7 @@ Seguire questi passaggi per riclassificare un cespite:
     * Se il nuovo gruppo cespite è collegato a una sequenza numerica, il campo **Nuovo numero cespite** verrà aggiornato con il numero della sequenza numerica del nuovo gruppo cespite. In caso contrario, il campo **Nuovo numero cespite** viene aggiornato con il numero della sequenza numerica impostata nella pagina **Parametri cespite**. Se una sequenza numerica non è configurata nella pagina **Parametri cespite**, immettere un numero nel campo **Nuovo numero cespite**.  
 5. Immettere una data nel campo **Riclassificazione**.
 6. Nel campo **Serie giustificativi** immettere o selezionare un valore.
-7. Fare clic su **OK**.
+7. Selezionare **OK**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

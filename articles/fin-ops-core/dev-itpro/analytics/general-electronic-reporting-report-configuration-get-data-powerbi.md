@@ -2,7 +2,7 @@
 title: Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI
 description: In questo argomento viene descritto come utilizzare la configurazione Creazione di report elettronici (ER) per definire il trasferimento di dati dalla propria istanza ai servizi Power BI.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750084"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944439"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI
 
@@ -68,10 +68,10 @@ Per completare l'esempio riportato in questo argomento, è necessario disporre d
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Utilizzare un modello dati ER come origine dati
 È necessario disporre di un modello dati ER come origine dei dati aziendali che verranno utilizzati nei report di Power BI. Questo modello dati viene caricato dall'archivio delle configurazioni ER. Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](download-electronic-reporting-configuration-lcs.md) o riprodurre la guida attività **Importare con ER una configurazione da Lifecyle Services**. Selezionare **Intrastat** come modello dati che verrà caricato dall'archivio delle configurazioni ER selezionato. In questo esempio viene utilizzata la versione 1 del modello. È quindi possibile accedere alla configurazione del modello di report elettronico **Intrastat** nella pagina **Configurazioni**.
 
-[![Pagina Configurazioni](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Configurazione del modello ER Intrastat nella pagina Configurazioni](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Progettare una configurazione di formato ER
-È necessario creare una nuova configurazione di formato ER che utilizza il modello dati **Intrastat** come origine dei dati aziendali. Questa configurazione di formato deve generare i risultati di output come documenti elettronici nel formato OpenXML (file di Excel). Per ulteriori informazioni, riprodurre la guida attività **Creare con ER una configurazione per report in OPENXML**. Assegnare alla nuova configurazione il nome **Attività di esportazione/importazione**, come illustrato nella figura seguente. Utilizzare il file Excel [Data ER - Dettagli di esportazione e importazione](https://go.microsoft.com/fwlink/?linkid=845208) come modello quando si progetta il formato ER. Per informazioni su come importare un modello di formato, riprodurre la guida attività.
+È necessario creare una nuova configurazione di formato ER che utilizza il modello dati **Intrastat** come origine dei dati aziendali. Questa configurazione di formato deve generare i risultati di output come documenti elettronici nel formato OpenXML (file di Excel). Per ulteriori informazioni, riprodurre la guida attività **Creare con ER una configurazione per report in OPENXML**. Assegnare alla nuova configurazione il nome **Attività di esportazione/importazione**, come illustrato nella figura seguente. Utilizzare il file Excel [Data ER - Dettagli di esportazione e importazione](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) come modello quando si progetta il formato ER. Per informazioni su come importare un modello di formato, riprodurre la guida attività.
 
 [![Configurazione Attività di esportazione/importazione](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Fare clic sul pulsante **Impostazioni** per il nuovo record di destinazione. Qui
 1. Nella pagina **Configurazioni** (**Amministrazione organizzazione** &gt; **Creazione di report elettronici** &gt; **Configurazioni**), nell'albero delle configurazioni, selezionare la configurazione creata in precedenza **Attività di esportazione/importazione**.
 2. Modificare lo stato della versione 1.1 da **Bozza** in **Completato** per rendere questo formato disponibile per l'utilizzo.
 
-    [![Pagina Configurazioni](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Configurazione delle attività di importazione/esportazione nella pagina Configurazioni](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Selezionare la versione completata della configurazione **Attività di importazione/esportazione** e fare clic su **Esegui**. Si noti che la destinazione configurata viene applicata al risultato di output generato in formato di Excel.
 4. Impostare l'opzione **Elaborazione batch** su **Sì** per eseguire il report in modalità automatica.
@@ -187,11 +187,11 @@ Impostare l'integrazione con Power BI. Per ulteriori informazioni, vedere [Confi
 2. Selezionare il report di Power BI **Dettagli di esportazione e importazione** creato, per visualizzare il report come elemento di azione nella pagina selezionata.
 3. Fare clic sull'elemento di azione per aprire la pagina che mostra il report progettato in Power BI.
 
-    [![Report dettagli di esportazione e importazione](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Report dettagli di esportazione e importazione progettato in Power BI](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Destinazioni dei report elettronici (ER)](electronic-reporting-destinations.md)
+[Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 
 [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
 

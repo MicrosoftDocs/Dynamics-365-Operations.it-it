@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821010"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936732"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in Point of Sale (POS)
 
@@ -42,7 +42,7 @@ Prima di provare a utilizzare la funzionalità di ordine cliente in POS, assicur
 
 ### <a name="configure-modes-of-delivery"></a>Configurare le modalità di consegna
 
-Per utilizzare gli ordini cliente è necessario configurare le modalità di consegna che il canale del punto vendita può utilizzare. È necessario definire almeno una modalità di consegna che può essere utilizzata quando le righe ordine vengono spedite a un cliente da un punto vendita. È necessario anche definire almeno una modalità di prelievo di consegna che può essere utilizzata quando le righe ordine vengono prelevate dal punto vendita. Le modalità di consegna sono definite nella pagina **Modalità di consegna** in Commerce headquarters. Per altre informazioni su come configurare le modalità di consegna per i canali Commerce, vedere [Definire le modalità di consegna](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Per utilizzare gli ordini cliente è necessario configurare le modalità di consegna che il canale del punto vendita può utilizzare. È necessario definire almeno una modalità di consegna che può essere utilizzata quando le righe ordine vengono spedite a un cliente da un punto vendita. È necessario anche definire almeno una modalità di prelievo di consegna che può essere utilizzata quando le righe ordine vengono prelevate dal punto vendita. Le modalità di consegna sono definite nella pagina **Modalità di consegna** in Commerce headquarters. Per altre informazioni su come configurare le modalità di consegna per i canali Commerce, vedere [Definire le modalità di consegna](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Pagina Modalità di consegna](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Prima di provare a creare ordini cliente in POS, è necessario configurare i par
 - **Percentuale spese di annullamento** - se un addebito viene applicato quando un ordine cliente viene annullato, specificare l'importo dell'addebito.
 - **Codice spese di annullamento** - Specificare il codice spese della contabilità clienti da utilizzare quando viene applicato una spesa di annullamento agli ordini cliente annullati tramite POS. Il codice di spesa definisce la logica di registrazione finanziaria per la spesa di annullamento.
 - **Codice spese di spedizione** - Se l'opzione **Utilizza addebiti automatici avanzati** è impostata su **Sì**, questa impostazione del parametro non ha effetto. Se questa opzione è impostata su **No**, agli utenti verrà richiesto di inserire manualmente una spesa di spedizione quando creano gli ordini cliente in POS. Utilizzare questo parametro per mappare un codice di addebito della contabilità clienti che verrà applicato agli ordini quando gli utenti inseriscono una spesa di spedizione. Il codice di spesa definisce la logica di registrazione finanziaria per la spesa di spedizione.
-- **Utilizza addebiti automatici avanzati** - Impostare questa opzione su **Sì** per utilizzare gli addebiti automatici calcolati dal sistema quando gli ordini cliente vengono creati in POS. Questi addebiti automatici possono essere utilizzati per calcolare le spese di spedizione o altre spese specifiche per ordine o articolo. Per ulteriori informazioni su come impostare e usare le spese automatiche avanzate, vedere [Spese automatiche avanzate omnicanale](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Utilizza addebiti automatici avanzati** - Impostare questa opzione su **Sì** per utilizzare gli addebiti automatici calcolati dal sistema quando gli ordini cliente vengono creati in POS. Questi addebiti automatici possono essere utilizzati per calcolare le spese di spedizione o altre spese specifiche per ordine o articolo. Per ulteriori informazioni su come impostare e usare le spese automatiche avanzate, vedere [Spese automatiche avanzate omnicanale](./omni-auto-charges.md).
 
 ![Scheda Ordini cliente nella pagina Parametri di commercio](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Aggiornare i layout delle schermate delle transazioni in POS
 
-Assicurarsi che il [layout dello schermo](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) in POS sia configurato per supportare la creazione e la gestione degli ordini cliente e che tutte le operazioni POS richieste siano configurate. Ecco alcune delle operazioni POS consigliate per supportare correttamente la creazione e la gestione degli ordini cliente:
+Assicurarsi che il [layout dello schermo](./pos-screen-layouts.md) in POS sia configurato per supportare la creazione e la gestione degli ordini cliente e che tutte le operazioni POS richieste siano configurate. Ecco alcune delle operazioni POS consigliate per supportare correttamente la creazione e la gestione degli ordini cliente:
 - **Spedisci tutti i prodotti** - Questa operazione viene utilizzata per specificare che tutte le righe nel carrello delle transazioni verranno spedite a una destinazione.
 - **Spedisci prodotti selezionati** - Questa operazione viene utilizzata per specificare che le righe selezionate nel carrello delle transazioni verranno spedite a una destinazione.
 - **Preleva tutti i prodotti** - Questa operazione viene utilizzata per specificare che tutte le righe nel carrello delle transazioni verranno prelevate da un'ubicazione selezionata del punto vendita.
 - **Preleva prodotti selezionati** - Questa operazione viene utilizzata per specificare che le righe selezionate nel carrello delle transazioni verranno prelevate da un'ubicazione selezionata del punto vendita.
 - **Esegui tutti i prodotti** - Questa operazione viene utilizzata per specificare che verranno eseguite tutte le righe nel carrello delle transazioni. Se questa operazione viene utilizzata in POS, l'ordine cliente verrà convertito in una transazione cash and carry.
-- **Esegui prodotti selezionati** - Questa operazione viene utilizzata per specificare che le righe selezionate nel carrello delle transazioni vengono eseguite dal cliente al momento dell'acquisto. Questa operazione è utile solo in uno scenario di [ordine ibrido](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders).
+- **Esegui prodotti selezionati** - Questa operazione viene utilizzata per specificare che le righe selezionate nel carrello delle transazioni vengono eseguite dal cliente al momento dell'acquisto. Questa operazione è utile solo in uno scenario di [ordine ibrido](./hybrid-customer-orders.md).
 - **Richiama ordine** - Questa operazione viene utilizzata per cercare e recuperare gli ordini cliente in modo che gli utenti POS possano modificare, annullare o eseguire operazioni relative all'evasione degli ordini come richiesto.
 - **Modifica modalità di consegna** - Questa operazione può essere utilizzata per modificare rapidamente la modalità di consegna per le righe già configurate per la spedizione, senza richiedere che gli utenti eseguano nuovamente il flusso "Spedisci tutti i prodotti" o "Spedisci prodotti selezionati".
 - **Sostituzione deposito** - Questa operazione può essere utilizzata per modificare l'importo del deposito che il cliente pagherà per l'ordine cliente selezionato.
@@ -128,7 +128,7 @@ Assicurarsi che il [layout dello schermo](https://docs.microsoft.com/dynamics365
 Gli ordini al dettaglio creati nel canale online o in negozio possono essere richiamati e modificati tramite POS secondo necessità.
 
 > [!IMPORTANT]
-> Non tutti gli ordini di vendita al dettaglio possono essere modificati tramite l'applicazione POS. Gli ordini creati in un canale del call center non possono essere modificati tramite POS se l'impostazione [Attiva completamento ordine](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) è attivata per il canale del call center. Per garantire una corretta elaborazione dei pagamenti, gli ordini originati in un canale del call center e che utilizzano la funzionalità Abilita completamento ordine devono essere modificati tramite l'applicazione del call center in Commerce headquarters.
+> Non tutti gli ordini di vendita al dettaglio possono essere modificati tramite l'applicazione POS. Gli ordini creati in un canale del call center non possono essere modificati tramite POS se l'impostazione [Attiva completamento ordine](./set-up-order-processing-options.md#enable-order-completion) è attivata per il canale del call center. Per garantire una corretta elaborazione dei pagamenti, gli ordini originati in un canale del call center e che utilizzano la funzionalità Abilita completamento ordine devono essere modificati tramite l'applicazione del call center in Commerce headquarters.
 
 Nella versione 10.0.17 e successive, gli utenti possono modificare gli ordini idonei tramite l'applicazione POS, anche se l'ordine è parzialmente evaso. Tuttavia, gli ordini completamente fatturati non possono ancora essere modificati tramite POS. Per abilitare questa capacità attiva la funzionalità **Modificare gli ordini parzialmente evasi nel punto vendita** nell'area di lavoro **Gestione funzionalità**. Se questa funzione non è abilitata o se stai utilizzando la versione 10.0.16 o precedente, gli utenti potranno modificare gli ordini cliente nel POS solo se l'ordine è completamente aperto. Inoltre, se la funzione è abilitata, puoi limitare i punti vendita che possono modificare gli ordini parzialmente evasi. L'opzione per disabilitare questa funzionalità per punti vendita specifici può essere configurata tramite il **Profilo funzionalità** nella scheda dettaglio **Generale**.
 
@@ -153,7 +153,7 @@ Nella versione 10.0.17 e successive, gli utenti possono modificare gli ordini id
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Finalizzare la spedizione dell'ordine cliente o il ritiro dal POS
 
-Dopo aver creato un ordine, gli articoli verranno ritirati dal cliente in un punto vendita o spediti, a seconda della configurazione dell'ordine. Per ulteriori informazioni su questo processo, vedere la documentazione sull'[evasione degli ordini del punto vendita](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview).
+Dopo aver creato un ordine, gli articoli verranno ritirati dal cliente in un punto vendita o spediti, a seconda della configurazione dell'ordine. Per ulteriori informazioni su questo processo, vedere la documentazione sull'[evasione degli ordini del punto vendita](./order-fulfillment-overview.md).
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Flusso asincrono della transazione per gli ordini cliente
 

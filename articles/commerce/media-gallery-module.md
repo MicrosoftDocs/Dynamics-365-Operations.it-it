@@ -2,7 +2,8 @@
 title: Modulo Galleria multimediale
 description: In questo argomento vengono descritti i moduli Galleria multimediale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802817"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937388"
 ---
 # <a name="media-gallery-module"></a>Modulo raccolta multimediale
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo argomento vengono descritti i moduli Galleria multimediale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
@@ -49,11 +51,13 @@ Nell'esempio nella figura seguente, una casella acquisti in una PDP ospita le im
 |---------------|--------|-------------|
 | Origine immagine | **Contesto pagina** o **ID prodotto** | Il valore predefinito è **Contesto pagina**. Se **Contesto pagina** è selezionato, il modulo prevede che la pagina fornisca le informazioni sull'ID prodotto. Se **ID prodotto** è selezionato, l'ID prodotto per un'immagine deve essere fornito come valore della proprietà **ID prodotto**. Questa funzionalità è disponibile in Commerce versione 10.0.12. |
 | ID prodotto | Un ID prodotto | Questa proprietà è applicabile solo se il valore della proprietà **Origine immagine** è **ID prodotto**. |
-| Zoom immagine | **In linea** o **Contenitore** | Questa proprietà consente all'utente di ingrandire le immagini nel modulo Galleria multimediale. Un'immagine può essere ingrandita in linea o in un contenitore separato accanto all'immagine. Questa funzionalità è disponibile in 10.0.12 |
-| Scala zoom | Un numero decimale | Questa proprietà specifica il fattore di scala per lo zoom delle immagini. Ad esempio, se il valore è impostato su **2,5**, le immagini vengono ingrandite 2,5 volte.|
+| Zoom immagine | **In linea** o **Contenitore** | Questa proprietà consente all'utente di ingrandire le immagini nel modulo Galleria multimediale. Un'immagine può essere ingrandita in linea o in un contenitore separato accanto all'immagine. Questa funzionalità è disponibile in 10.0.12. |
+| Fattore di zoom | Un numero decimale | Questa proprietà specifica il fattore di scala per lo zoom delle immagini. Ad esempio, se il valore è impostato su **2,5**, le immagini vengono ingrandite 2,5 volte. |
 | Schermo intero | **True** o **False** | Questa proprietà specifica se le immagini possono essere visualizzate in modalità a schermo intero. In modalità a schermo intero, le immagini possono essere ulteriormente ingrandite se la funzione di zoom è attivata. Questa funzionalità è disponibile in Commerce versione 10.0.13. |
+| Qualità dell'immagine ingrandita | Un numero compreso tra 1 e 100 che rappresenta una percentuale e che viene selezionato utilizzando un controllo trackbar | Questa proprietà definisce la qualità dell'immagine per le immagini ingrandite. Può essere impostato al 100% per garantire che un'immagine ingrandita utilizzi sempre la massima risoluzione possibile. Questa proprietà non è applicabile ai file PNG, perché utilizzano un formato senza perdita di dati. Questa funzionalità è disponibile a partire da Commerce versione 10.0.19. |
 | Immagini | Immagini selezionate dalla libreria multimediale Creazione di siti Web | Oltre al rendering eseguito da un prodotto, le immagini possono essere curate per un modulo Galleria multimediale. Queste immagini verranno aggiunte a tutte le immagini dei prodotti disponibili. Questa funzionalità è disponibile in Commerce versione 10.0.12. |
 | Orientamento dell'anteprima | **Verticale** o **Orizzontale** | Questa proprietà specifica se le immagini di anteprima devono essere visualizzate in una striscia verticale o in una striscia orizzontale. |
+| Nascondere le immagini della rappresentazione generale prodotto per la variante | **True** o **False** | Se questa proprietà è impostata su **True**, quando viene selezionata una variante, le immagini della rappresentazione generale prodotto vengono nascoste a meno che la variante non abbia immagini. Questa proprietà non influisce sui prodotti che non hanno varianti. |
 
 La seguente illustrazione mostra un esempio di un modulo Galleria multimediale in cui sono disponibili le opzioni di schermo intero e zoom.
 

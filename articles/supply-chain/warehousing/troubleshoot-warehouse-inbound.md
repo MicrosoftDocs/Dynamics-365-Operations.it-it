@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828228"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920989"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Risolvere i problemi relativi alle operazioni di magazzino in entrata
 
@@ -56,7 +56,7 @@ Dopo aver eseguito l'attività periodica *Aggiorna entrate prodotti*, il sistema
 
 ### <a name="issue-resolution"></a>Risoluzione dei problemi
 
-Una nuova funzione di gestione del carico in entrata, *Entrata in eccesso di quantità di carico*, risolve questo problema. Per attivare questa funzionalità andare in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità (in questo ordine):
+Una nuova funzione di gestione del carico in entrata, *Entrata in eccesso di quantità di carico*, risolve questo problema. Per attivare questa funzionalità andare all'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare le seguenti funzionalità (in questo ordine):
 
 1. Associa operazioni di magazzino ordine fornitore con carico
 1. Entrata in eccesso di quantità di carico

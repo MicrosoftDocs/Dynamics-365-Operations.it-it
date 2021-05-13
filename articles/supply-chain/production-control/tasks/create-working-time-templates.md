@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1885aba11b5c6878cc9dca615cea98b77b4df63f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed1981b7c1427c902f237f0aa95f63e89bc345ab
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811584"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920931"
 ---
 # <a name="create-working-time-templates"></a>Creare modelli di orario di lavoro
 
@@ -27,55 +27,58 @@ ms.locfileid: "5811584"
 
 I modelli di orario di lavoro definiscono le ore lavorative di una settimana e vengono utilizzati per generare gli orari di lavoro per un periodo di tempo. Questa procedura consente di definire un modello di orario di lavoro utilizzando le proprietà di programmazione dell'orario di lavoro per classificare gli intervalli di orario di lavoro. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.
 
-1. Andare a Tutte le aree di lavoro > Gestione ciclo di vita risorse.
-2. Fare clic su Modelli di orario di lavoro.
+1. Andare a **Aree di lavoro > Gestione ciclo di vita risorse**.
+1. Selezionare **Modelli di orario di lavoro**
 
 ## <a name="create-working-time-template"></a>Creare un modello di orario di lavoro
-1. Fare clic su Nuovo.
-2. Nel campo Modello di orario di lavoro, immettere un valore.
-3. Digitare un valore nel campo Nome.
-4. Espandere la sezione Lunedì.
-5. Scegliere Aggiungi.
-6. Nel campo Da immettere un'ora.
+
+1. Selezionare **Nuovo**.
+1. Nel campo **Modello di orario di lavoro**, immettere un valore.
+1. Digitare un valore nel campo **Nome**.
+1. Espandere la sezione **Lunedì**.
+1. Selezionare **Aggiungi**.
+1. Nel campo **Da** immettere un'ora.
     * Specificare l'ora in cui inizia il lavoro di mattina.  
-7. Nel campo A immettere un'ora.
+1. Nel campo **A** immettere un'ora.
     * Specificare l'ora in cui i lavoratori iniziano la pausa pranzo.  
-8. Scegliere Aggiungi.
-9. Nel campo Da immettere un'ora.
+1. Selezionare **Aggiungi**.
+1. Nel campo **Da** immettere un'ora.
     * Specificare l'ora in cui il lavoro riprende dopo il pranzo.  
-10. Nel campo A immettere un'ora.
+1. Nel campo **A** immettere un'ora.
     * Specificare la fine della giornata lavorativa.  
 
 ## <a name="replicate-working-times-to-all-week-days"></a>Replicare gli orari di lavoro per tutti i giorni della settimana
-1. Fare clic su Copia giorno.
+
+1. Seleziona **Copia giorno**.
     * Copiare le definizioni di orario di lavoro da lunedì a martedì.  
-2. Fare clic su OK.
-3. Fare clic su Copia giorno.
+1. Selezionare **OK**.
+1. Seleziona **Copia giorno**.
     * Copiare le definizioni di orario di lavoro da lunedì a mercoledì.  
-4. Selezionare un'opzione nel campo Al giorno feriale.
-5. Fare clic su OK.
-6. Fare clic su Copia giorno.
+1. Selezionare un'opzione nel campo **Al giorno feriale**.
+1. Selezionare **OK**.
+1. Seleziona **Copia giorno**.
     * Copiare le definizioni di orario di lavoro da lunedì a giovedì.  
-7. Selezionare un'opzione nel campo Al giorno feriale.
-8. Fare clic su OK.
-9. Fare clic su Copia giorno.
+1. Selezionare un'opzione nel campo **Al giorno feriale**.
+1. Selezionare **OK**.
+1. Seleziona **Copia giorno**.
     * Copiare le definizioni di orario di lavoro da lunedì a venerdì.  
-10. Selezionare un'opzione nel campo Al giorno feriale.
-11. Fare clic su OK.
+1. Selezionare un'opzione nel campo **Al giorno feriale**.
+1. Selezionare **OK**.
 
 ## <a name="define-time-slots-for-special-operations"></a>Definire le fasce orarie per le operazioni speciali
-1. Espandere la sezione Venerdì.
-2. Nell'elenco trovare e selezionare il record desiderato.
-3. Nel campo Proprietà immettere o selezionare un valore.
-4. Nell'elenco trovare e selezionare il record desiderato.
-5. Nel campo Proprietà immettere o selezionare un valore.
+
+1. Espandere la sezione **Venerdì**.
+1. Nell'elenco trovare e selezionare il record desiderato.
+1. Nel campo **Proprietà** immettere o selezionare un valore.
+1. Nell'elenco trovare e selezionare il record desiderato.
+1. Nel campo **Proprietà** immettere o selezionare un valore.
 
 ## <a name="mark-weekend-days-as-closed-for-pickup"></a>Contrassegnare i giorni del fine settimana come chiusi per prelievo
-1. Espandere la sezione Sabato.
-2. Selezionare Sì nel campo Chiuso per prelievo.
-3. Espandere la sezione Domenica.
-4. Selezionare Sì nel campo Chiuso per prelievo.
 
+1. Espandere la sezione **Sabato**.
+1. Selezionare *Sì* nel campo **Chiuso per prelievo**.
+1. Espandere la sezione **Domenica**.
+1. Selezionare *Sì* nel campo **Chiuso per prelievo**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

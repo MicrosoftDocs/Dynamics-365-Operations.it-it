@@ -1,5 +1,5 @@
 ---
-title: Area di lavoro per l'immissione della fattura fornitore
+title: Area di lavoro Automazione fattura fornitore
 description: Questo argomento spiega come impostare l'area di lavoro correlata alle fatture fornitore e che mostra le informazioni disponibili tramite Microsoft Power BI.
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837259"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954137"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Area di lavoro per l'immissione della fattura fornitore
+# <a name="vendor-invoice-automation-workspace"></a>Area di lavoro Automazione fattura fornitore
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ Questo argomento spiega come impostare l'area di lavoro correlata alle fatture f
 
 ## <a name="overview"></a>Panoramica
 
-Nell'area di lavoro **Inserimento fatture fornitore** vengono visualizzate le informazioni correlate all'elaborazione delle fatture del fornitore. Include una visualizzazione **Lavoro personale** e una pagina **Analisi - Tutte le società**. Nella visualizzazione **Lavoro personale** vengono visualizzati i riquadri di riepilogo, le griglie di transazione fornitore e le informazioni correlate al fornitore. La pagina **Analisi - Tutte le società** utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate alle fatture fornitore.
+Nell'area di lavoro **Automazione fattura fornitore** vengono visualizzate le informazioni correlate all'elaborazione delle fatture del fornitore. Include una visualizzazione **Lavoro personale** e una pagina **Analisi - Tutte le società**. Nella visualizzazione **Lavoro personale** vengono visualizzati i riquadri di riepilogo, le griglie di transazione fornitore e le informazioni correlate al fornitore. La pagina **Analisi - Tutte le società** utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate alle fatture fornitore.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Impostare l'area di lavoro per visualizzare il contenuto Power BI
 
-È necessario completare questa configurazione prima che i dati possano essere visualizzati nelle visualizzazioni Power BI nell'area di lavoro **Inserimento fatture fornitore**.
+È necessario completare questa configurazione prima che i dati possano essere visualizzati nelle visualizzazioni Power BI nell'area di lavoro **Automazione fattura fornitore**.
 
 1. Nell'area di lavoro **Gestione delle funzionalità**, filtrare l'elenco per trovare la funzionalità **Automazione fatture fornitore**.
 3. Selezionare **Abilita ora**.
@@ -54,7 +54,7 @@ Per visualizzare le informazioni visualizzate nell'area di lavoro, è necessario
 
 ### <a name="company-selection"></a>Selezione società
 
-Quando la funzionalità **Automatizza fatture fornitore** è attivata, il campo **Società** viene visualizzato nella parte superiore dell'area di lavoro. La selezione del campo **Società** influisce su tutte le informazioni visualizzate nell'area di lavoro. Per impostazione predefinita, la vista mostra le informazioni per l'azienda a cui è stato effettuato l'accesso. Selezionando una società diversa nel campo **Società** è possibile visualizzare le informazioni per quella società nell'area di lavoro. È quindi possibile selezionare un riquadro nell'area di lavoro per andare alla pagina correlata nella società selezionata.
+Quando la funzionalità **Automazione fattura fornitore** è attivata, il campo **Società** viene visualizzato nella parte superiore dell'area di lavoro. La selezione del campo **Società** influisce su tutte le informazioni visualizzate nell'area di lavoro. Per impostazione predefinita, la vista mostra le informazioni per l'azienda a cui è stato effettuato l'accesso. Selezionando una società diversa nel campo **Società** è possibile visualizzare le informazioni per quella società nell'area di lavoro. È quindi possibile selezionare un riquadro nell'area di lavoro per andare alla pagina correlata nella società selezionata.
 
 ### <a name="summary-tiles"></a>Sezioni Riepilogo
 

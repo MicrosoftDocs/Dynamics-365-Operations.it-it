@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a091e059d4528c356a5038c750cac3a3f31a7edb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3758ff51de8217a209b40d7dd461e42ea9632f0a
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799652"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936884"
 ---
 # <a name="call-center-catalogs"></a>Cataloghi del servizio clienti
 
@@ -39,7 +39,7 @@ Le società di marketing che si rivolgono direttamente ai consumatori sono conce
 
 Passare a **Retail e Commerce** \> **Cataloghi e assortimenti** \> **Tutti i cataloghi** per configurare un catalogo.
 
-Quando si crea un nuovo catalogo, è necessario prima di tutto collegarlo a uno o più canali. Questa operazione viene eseguita nella Scheda dettaglio **Canali di commercio** del modulo di **impostazione del catalogo**. Fare clic su **Aggiungi** e selezionare uno o più canali. Per la creazione del catalogo possono essere utilizzati solo gli articoli collegati al canale selezionato [assortimenti](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments).
+Quando si crea un nuovo catalogo, è necessario prima di tutto collegarlo a uno o più canali. Questa operazione viene eseguita nella Scheda dettaglio **Canali di commercio** del modulo di **impostazione del catalogo**. Fare clic su **Aggiungi** e selezionare uno o più canali. Per la creazione del catalogo possono essere utilizzati solo gli articoli collegati al canale selezionato [assortimenti](/dynamics365/unified-operations/retail/assortments).
 
 Per aggiungere prodotti a un catalogo, è necessario selezionare una gerarchia di navigazione. La gerarchia di navigazione supporta la struttura di categorie del catalogo. È necessario selezionare una delle gerarchie di navigazione collegate ai canali di vendita al dettaglio selezionati nella Scheda dettaglio **Canali di commercio** della pagina **Catalogo**. Se un canale di navigazione non viene collegato prima a un canale, passare a **Retail e Commerce** \> **Impostazione canale** \> **Categorie canale e attributi del prodotto** per collegare l'impostazione predefinita della gerarchia di navigazione a ognuno dei canali.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fdfe4d5042e0a6a7948a09334dc675e210e765a1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a8adf8cd736dd74e8a706e3692df93d7957a3402
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909817"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935835"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.9 (aprile 2020)
 
@@ -71,7 +71,7 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 
 - [Dimensioni di imballaggio e di stoccaggio](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 
-- [Stabilizzazione parallela degli ordini pianificati](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Per ulteriori informazioni, vedere [Stabilizzazione parallela](../master-planning/maintain-planned-orders.md#parallelize-firming) e anche il video [Prestazioni MRP e miglioramenti dell'usabilità](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+- [Stabilizzazione parallela degli ordini pianificati](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Per ulteriori informazioni, vedere [Stabilizzare ordini pianificati](../master-planning/planning-optimization/planned-order-firming.md) e il video [Prestazioni MRP e miglioramenti dell'usabilità](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 
 - [Ottimizzazione della pianificazione per la distribuzione](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Per ulteriori informazioni, vedere [Panoramica dell'ottimizzazione di pianificazione](../master-planning/planning-optimization/planning-optimization-overview.md).
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 53a24866786f209a1d0f6932bb4f782bf936bd21
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e255c60889fdb49dfd8a1fd01be839b6405b02c6
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819258"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919871"
 ---
 # <a name="process-review-and-post-rebates"></a>Elaborare, rivedere e registrare gli sconti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento viene descritto come elaborare le transazioni di gestione degli sconti, calcolare gli sconti, rivedere le transazioni generate, registrare le transazioni e rivedere le registrazioni.
 

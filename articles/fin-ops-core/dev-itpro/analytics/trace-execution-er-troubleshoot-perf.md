@@ -2,7 +2,7 @@
 title: Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni
 description: In questo argomento vengono fornite informazioni su come utilizzare la funzionalità di traccia delle prestazioni in Creazione di report elettronici (ER, Electronic Reporting) per risolvere problemi relativi alle prestazioni.
 author: NickSelin
-ms.date: 06/12/2019
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0cf76a9b9af0fc648cb61cefbe92dc7aaa436692
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754218"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944655"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Generare la traccia dell'esecuzione di formati ER per risolvere problemi relativi alle prestazioni
 
@@ -47,10 +47,10 @@ Per completare gli esempi in questa esercitazione, è necessario disporre del se
 
 | File                                  | Contenuto                               |
 |---------------------------------------|---------------------------------------|
-| Performance trace model.version.1     | [Configurazione del modello di dati ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)    |
-| Performance trace metadata.version.1  | [Configurazione dei metadati ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)      |
-| Performance trace mapping.version.1.1 | [Configurazione del mapping di modello ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performance trace format.version.1.1  | [Configurazione di formato ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
+| Performance trace model.version.1     | [Configurazione del modello di dati ER di esempio](https://download.microsoft.com/download/0/a/a/0aa84e48-8040-4c46-b542-e3bf15c9b2ad/Performancetracemodelversion.1.xml)    |
+| Performance trace metadata.version.1  | [Configurazione dei metadati ER di esempio](https://download.microsoft.com/download/a/9/3/a937e8c4-1f8a-43e4-83ee-7d599cf7d983/Performancetracemetadataversion.1.xml)      |
+| Performance trace mapping.version.1.1 | [Configurazione del mapping di modello ER di esempio](https://download.microsoft.com/download/7/7/3/77379bdc-7b22-4cfc-9b64-a9147599f931/Performancetracemappingversion1.1.xml) |
+| Performance trace format.version.1.1  | [Configurazione di formato ER di esempio](https://download.microsoft.com/download/8/6/8/868ba581-5a06-459e-b173-fb00f038b37f/Performancetraceformatversion1.1.xml)       |
 
 ### <a name="configure-er-parameters"></a>Configurare i parametri ER
 
@@ -84,7 +84,7 @@ Per essere disponibile nel campo di ricerca **Altri**, un tipo di documento DM d
 Si supponga di aver iniziato a progettare una nuova soluzione ER per generare un nuovo report che presenta le transazioni fornitore. Attualmente, è possibile trovare le transazioni di un fornitore selezionato nella pagina **Transazioni fornitore** (accedere a **Contabilità fornitori \> Fornitori \> Tutti i fornitori**, selezionare un fornitore e quindi, nel riquadro Azioni, nella scheda **Fornitore**, nel gruppo **Transazioni**, selezionare **Transazioni**). Tuttavia, si desidera avere tutte le transazioni fornitore contemporaneamente in un documento elettronico in formato XML. Questa soluzione comporterà diverse configurazioni ER contenenti il modello dati, i metadati, il mapping di modello e i componenti formato necessari.
 
 1. Accedere all'istanza di RCS di cui è stato eseguito il provisioning per la società.
-2. In questa esercitazione si creeranno e modificheranno configurazioni per la società di esempio **Litware, Inc**. Di conseguenza, verificare che questo provider di configurazioni sia stato aggiunto a RCS e sia selezionato come attivo. Per istruzioni, vedere la procedura [Creare provider di configurazioni e contrassegnarli come attivi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. In questa esercitazione si creeranno e modificheranno configurazioni per la società di esempio **Litware, Inc**. Di conseguenza, verificare che questo provider di configurazioni sia stato aggiunto a RCS e sia selezionato come attivo. Per istruzioni, vedere la procedura [Creare provider di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare il riquadro **Configurazioni report**.
 4. Nella pagina **Configurazioni**, importare le configurazioni ER scaricate come prerequisito in RCS, nel seguente ordine: modello dati, metadati, mapping di modello, formato. Per ogni configurazione, procedere come segue:
 
@@ -101,7 +101,7 @@ Presupponiamo di aver completato la progettazione della prima versione della sol
 ### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importare una configurazione ER da RCS in Finance and Operations
 
 1. Accedere all'istanza dell'applicazione.
-2. Per questa esercitazione, si importeranno le configurazioni dall'istanza di RCS (in cui si progettano i componenti ER) nell'istanza (dove vengono testati e infine utilizzati). Di conseguenza, è necessario assicurarsi che tutti gli elementi necessari siano stati preparati. Per istruzioni, vedere la procedura [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
+2. Per questa esercitazione, si importeranno le configurazioni dall'istanza di RCS (in cui si progettano i componenti ER) nell'istanza (dove vengono testati e infine utilizzati). Di conseguenza, è necessario assicurarsi che tutti gli elementi necessari siano stati preparati. Per istruzioni, vedere la procedura [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](rcs-download-configurations.md).
 3. Seguire questi passaggi per importare le configurazioni da RCS nell'applicazione:
 
     1. Nell'area di lavoro **Creazione di report elettronici**, nel riquadro del provider di configurazioni **Litware, Inc.**, selezionare **Archivi**.

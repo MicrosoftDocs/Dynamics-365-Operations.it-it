@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799447"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936782"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Impostare pagine personalizzate per l'accesso degli utenti
 
@@ -32,7 +32,7 @@ Per utilizzare pagine personalizzate create in Dynamics 365 Commerce per gestire
 Le pagine personalizzate di Commerce possono essere generate utilizzando il modulo Accesso, Iscrizione, Modifica profilo account, Reimpostazione password o AAD generico. Agli URL di pagina pubblicati per queste pagine personalizzate è quindi necessario fare riferimento nelle configurazioni dei criteri B2C di Azure AD nel portale di Azure.
 
 > [!WARNING] 
-> Azure AD B2C ritirerà i vecchi flussi di utenti (legacy) entro il 1° agosto 2021. Pertanto, è necessario pianificare la migrazione dei flussi utente alla nuova versione consigliata. La nuova versione fornisce funzionalità uguali e nuove funzionalità. Per ulteriori informazioni, vedi [Flussi utente in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> Azure AD B2C ritirerà i vecchi flussi di utenti (legacy) entro il 1° agosto 2021. Pertanto, è necessario pianificare la migrazione dei flussi utente alla nuova versione consigliata. La nuova versione fornisce funzionalità uguali e nuove funzionalità. Per ulteriori informazioni, vedi [Flussi utente in Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
 
 >La libreria del modulo per Commerce versione 10.0.15 o successiva deve essere utilizzata con i flussi utente B2C consigliati. Le pagine dei criteri utente predefiniti offerte in Azure AD B2C possono essere utilizzate e consentono l'aggiunta di immagini di sfondo, del logo e del colore di sfondo relativi al marchio aziendale. Sebbene più limitate in capacità di progettazione, le pagine dei criteri utente predefiniti forniscono la funzionalità dei criteri Azure AD B2C senza creare e configurare pagine personalizzate dedicate. 
 

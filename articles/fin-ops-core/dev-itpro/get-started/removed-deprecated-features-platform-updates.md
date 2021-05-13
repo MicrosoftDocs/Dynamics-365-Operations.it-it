@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814322"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923540"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -30,7 +30,7 @@ In questo argomento vengono descritte le funzionalità rimosse, o di cui è stat
 
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
-Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Funzionalità rimossa a partire dal 28 gennaio 2021
 
@@ -123,7 +123,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | In generale, il codice personalizzato offre vantaggi limitati e, allo stesso tempo, richiede risorse significative ed elaborazione per il supporto. Il codice personalizzato viene utilizzato principalmente dagli autori di report per chiamare metodi pubblici da un assembly di codice personalizzato. Tuttavia, il servizio ospitato nel cloud non supporta i riferimenti ad assembly personalizzati per i report SSRS. |
-| **Sostituita da un'altra funzionalità?**   | Gli autori dei report possono scegliere di continuare a fare riferimento ad API .NET pubbliche per operazioni di matematica, conversione e formattazione da qualsiasi espressione della casella di testo. Per ulteriori informazioni, vedere [Aggiungere codice a un report (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Sostituita da un'altra funzionalità?**   | Gli autori dei report possono scegliere di continuare a fare riferimento ad API .NET pubbliche per operazioni di matematica, conversione e formattazione da qualsiasi espressione della casella di testo. Per ulteriori informazioni, vedere [Aggiungere codice a un report (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
 | **Aree del prodotto interessate**         | Sottoinsieme di progetti di report dell'applicazione definiti in RDL che contengono codice personalizzato. |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Con la versione 10.0.13, il compilatore inizierà a emettere un avviso per le istanze in cui viene rilevato codice personalizzato in una definizione di report SSRS. Per risolvere il problema, aprire la definizione di progettazione del report e rimuovere tutti gli elementi di codice personalizzati. Questo avviso verrà sostituito con un errore del compilatore in un aggiornamento futuro.   |
@@ -178,7 +178,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Il processo per spostare l'IP in elenchi sicuri è cambiato. Il self-service non supporta più gli elenchi sicuri IP. |
-| **Sostituita da un'altra funzionalità?**   | Per ulteriori informazioni, vedere [Configurazione dell'accesso condizionale di Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Sostituita da un'altra funzionalità?**   | Per ulteriori informazioni, vedere [Configurazione dell'accesso condizionale di Azure Active Directory](/appcenter/general/configuring-aad-conditional-access).|
 | **Aree del prodotto interessate**         | Sicurezza |
 | **Opzione di distribuzione**              | Cloud |
 | **Stato**                         | **Deprecato:** questa funzionalità è completamente deprecata per le distribuzioni self-service. |
@@ -223,7 +223,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Sostituita da un'altra funzionalità?**   | Nessuno |
 | **Aree del prodotto interessate**         | Flusso di lavoro |
 | **Opzione di distribuzione**              | Tutte |
-| **Stato**                         | L'elenco a discesa di selezione dell'utente è stato rimosso dalla finestra di dialogo di modifica della richiesta nell'aggiornamento 32 della piattaforma. Le richieste di modifica della richiesta verranno inviate automaticamente al mittente come previsto. Per ulteriori informazioni su questa funzionalità, vedere [Azioni nei processi di approvazione del flusso di lavoro](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
+| **Stato**                         | L'elenco a discesa di selezione dell'utente è stato rimosso dalla finestra di dialogo di modifica della richiesta nell'aggiornamento 32 della piattaforma. Le richieste di modifica della richiesta verranno inviate automaticamente al mittente come previsto. Per ulteriori informazioni su questa funzionalità, vedere [Azioni nei processi di approvazione del flusso di lavoro](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>I collegamenti drill-through incorporati non sono più supportati nei documenti impaginati visualizzati dal servizio ospitato su cloud 
 
@@ -233,7 +233,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Sostituita da un'altra funzionalità?**   | Nessuna |
 | **Aree del prodotto interessate**         | Reporting |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Questa funzione è attivamente rimossa dal servizio.<br><br>Il client moderno offre numerose opzioni per la produzione di visualizzazioni che includono collegamenti generati automaticamente per facilitare l'esplorazione dell'applicazione. I documenti impaginati visualizzati dal servizio sono consigliati per le comunicazioni esterne che vengono inviate via e-mail, archiviate e stampate per i destinatari. Abbiamo migliorato l'esperienza per l'anteprima dei documenti direttamente nel browser, che offre accesso diretto alle stampanti locali. Per ulteriori informazioni, vedere [Anteprima dei documenti PDF con un visualizzatore incorporato](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents). |
+| **Stato**                         | Questa funzione è attivamente rimossa dal servizio.<br><br>Il client moderno offre numerose opzioni per la produzione di visualizzazioni che includono collegamenti generati automaticamente per facilitare l'esplorazione dell'applicazione. I documenti impaginati visualizzati dal servizio sono consigliati per le comunicazioni esterne che vengono inviate via e-mail, archiviate e stampate per i destinatari. Abbiamo migliorato l'esperienza per l'anteprima dei documenti direttamente nel browser, che offre accesso diretto alle stampanti locali. Per ulteriori informazioni, vedere [Anteprima dei documenti PDF con un visualizzatore incorporato](../analytics/preview-pdf-documents.md). |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annunci precedenti sulle funzionalità rimosse o deprecate
 Per ulteriori informazioni sulle funzionalità che sono state rimosse o deprecate nelle versioni precedenti, vedere [Funzionalità rimosse o deprecate nelle versioni precedenti](../migration-upgrade/deprecated-features.md).

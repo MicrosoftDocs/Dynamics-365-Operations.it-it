@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748747"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923482"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisiti di dimensionamento hardware per ambienti locali
 
@@ -134,7 +134,7 @@ Per la versione di disponibilità generale è possibile distribuire un solo nodo
 
 ## <a name="environment-orchestrator"></a>Agente di orchestrazione dell'ambiente
 
-L'Agente di orchestrazione è il servizio che gestisce la distribuzione e la comunicazione correlata con LCS. Questo servizio viene distribuito come servizio primario Service Fabric e richiede almeno tre VM. Questo servizio è posizionato insieme ai servizi di orchestrazione Service Fabric. Questo servizio deve essere dimensionato al carico di picco del cluster. Per ulteriori informazioni, vedere [Pianificare e preparare la distribuzione del cluster Service Fabric autonomo](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+L'Agente di orchestrazione è il servizio che gestisce la distribuzione e la comunicazione correlata con LCS. Questo servizio viene distribuito come servizio primario Service Fabric e richiede almeno tre VM. Questo servizio è posizionato insieme ai servizi di orchestrazione Service Fabric. Questo servizio deve essere dimensionato al carico di picco del cluster. Per ulteriori informazioni, vedere [Pianificare e preparare la distribuzione del cluster Service Fabric autonomo](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizzazione e oversubscription
 

@@ -2,7 +2,8 @@
 title: Impostare un sito di e-commerce B2B
 description: Questo argomento descrive come impostare un sito di e-commerce business-to-business (B2B) in Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799759"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937508"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Creare un sito di e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 I siti di e-commerce business-to-business (B2B) forniscono alcune funzionalità chiave che ottimizzano il flusso di lavoro per un utente B2B. Questo argomento descrive come impostare un sito di e-commerce B2B in Microsoft Dynamics 365 Commerce. Passa attraverso i moduli e le impostazioni del sito che devono essere configurati per abilitare scenari specifici B2B.
 
@@ -283,9 +285,35 @@ Per creare una pagina con l'elenco dei dettagli delle fatture in Creazione di si
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 1. Pubblica l'URL della pagina.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Aggiungere un modulo di aggiunta rapida alla pagina del carrello
+
+Il modulo di aggiunta rapida fornisce un modo per aggiungere rapidamente più articoli al carrello utilizzando gli ID articolo (noti anche come ID unità di stockkeeping \[SKU\] ). Il modulo di aggiunta rapida viene aggiunto alla pagina del carrello di un sito.
+
+Per aggiungere un modulo di aggiunta rapida alla pagina carrello in Creazione di siti di Commerce, effettua le seguenti operazioni.
+
+1. Vai a **Modelli** e seleziona il modello di pagina del carrello del tuo sito.
+1. Seleziona **Modifica**.
+1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** seleziona il modulo **Aggiungi rapido** e quindi **OK**.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
+1. Vai a **Pagine** e seleziona la pagina del carrello del tuo sito.
+1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nel riquadro delle proprietà del modulo **Contenitore**, in **Larghezza** seleziona **Riempi contenitore**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** seleziona il modulo **Aggiungi rapido** e quindi **OK**.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
+
+> [!NOTE] 
+> Il modulo di aggiunta rapida è disponibile a partire dalla versione Commerce 10.0.17. Se stai aggiornando da una versione precedente di Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni, vedi [SDK e aggiornamenti della libreria moduli](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica della libreria moduli](../starter-kit-overview.md)
+
+[SDK e aggiornamenti della libreria moduli](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Panoramica della pagina di creazione](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Per creare una pagina con l'elenco dei dettagli delle fatture in Creazione di si
 
 [Modulo blocco contenuto](../add-hero-module.md)
 
-[Raccolta prodotti](../product-collection-module-overview.md)
+[Modulo Raccolta prodotti](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799855"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936658"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gestisci gli utenti dei partner commerciali sui siti di e-commerce B2B
 
@@ -43,7 +43,7 @@ Per attivare le funzionalità di e-commerce B2B in Commerce Headquarters, segui 
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Crea una sequenza numerica e aggiungila ai parametri condivisi di Commerce
 
-Le sequenze numeriche vengono utilizzate per generare identificatori univoci leggibili per record transazioni e dati master che richiedono identificatori. Per ulteriori informazioni sulle sequenze numeriche, vedere [Panoramica delle sequenze numeriche](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
+Le sequenze numeriche vengono utilizzate per generare identificatori univoci leggibili per record transazioni e dati master che richiedono identificatori. Per ulteriori informazioni sulle sequenze numeriche, vedere [Panoramica delle sequenze numeriche](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
 
 Per creare una sequenza numerica e aggiungerla ai parametri condivisi di Commerce in Commerce Headquarters, segui questi passaggi.
 
@@ -136,7 +136,7 @@ Per eseguire l'onboarding di partner commerciali e degli utenti in Commerce Head
 
 [Impostare limiti di quantità di prodotti per i siti di e-commerce B2B](quantity-limits.md)
 
-[Panoramica delle sequenze numeriche](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[Panoramica delle sequenze numeriche](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

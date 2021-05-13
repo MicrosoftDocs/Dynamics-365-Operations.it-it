@@ -2,25 +2,25 @@
 title: Calcolo dell'IVA nelle righe giornale di registrazione generale
 description: Questo argomento spiega come viene calcolata l'IVA per diversi tipi di conti (fornitore, cliente, contabilità generale e progetto) sulle righe del giornale di registrazione generale.
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815334"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937308"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Calcolo dell'IVA nelle righe giornale di registrazione generale
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ In questa sezione viene descritto come viene calcolato il segno dell'importo del
 
 ![Pagina delle transazioni IVA](media/sales-tax-amount-sign.jpg)
 
-Nella tabella seguente viene illustrata la regola generica per determinare il segno degli importi IVA nella tabella IVA temporanea.
+Nella tabella seguente viene illustrata la regola generica per determinare la direzione dell'IVA e il segno degli importi IVA nella tabella IVA temporanea.
 
 | Importo riga giornale di registrazione | Tipo di IVA  | Segno dell'importo IVA |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ Nella tabella seguente viene illustrata la regola generica per determinare il se
 | Negativo            | IVA a credito | Negativo              |
 | Negativo            | IVA a debito    | Positivo              |
 
-Esiste una regola speciale per i giustificativi con righe solo righe **Contabilità generale** o **Progetto**, quando una fascia IVA o fascia VAT articoli è selezionata nella riga **Contabilità generale**. Questa regola è controllata dalla funzionalità di abilitazione del calcolo dell'IVA indipendente per i giornali di registrazione generali. Quando questa funzionalità è disattivata, l'importo IVA della riga **Contabilità generale** utilizza la direzione Dare/Avere della riga **Progetto**. Quando la funzionalità è attivata, l'importo IVA della riga **Contabilità generale** utilizza la propria direzione Dare/Avere. Nelle tabelle seguente è illustrata la regola per ogni scenario. 
+Esiste una regola speciale per i giustificativi con righe solo righe **Contabilità generale** o **Progetto**, quando una fascia IVA o fascia VAT articoli è selezionata nella riga **Contabilità generale**. Questa regola è controllata dalla funzionalità **Abilitare il calcolo dell'IVA indipendente per i giornali di registrazione generali**. Quando questa funzionalità è disattivata, l'importo IVA della riga **Contabilità generale** utilizza la direzione Dare/Avere della riga **Progetto**. Quando la funzionalità è attivata, l'importo IVA della riga **Contabilità generale** utilizza la propria direzione Dare/Avere. Nelle tabelle seguente è illustrata la regola per ogni scenario. 
 
 **Regola quando la funzionalità è attivata**
 

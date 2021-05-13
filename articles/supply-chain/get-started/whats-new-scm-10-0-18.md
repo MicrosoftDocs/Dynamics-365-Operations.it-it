@@ -1,5 +1,5 @@
 ---
-title: Anteprima di Dynamics 365 Supply Chain Management 10.0.18 (maggio 2021)
+title: Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.18 (maggio 2021)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909355"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934969"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.18 (maggio 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.18 (maggio 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della versione 10.0.18. di Microsoft Dynamics 365 Supply Chain Management. Questa versione ha il numero di build 10.0.793 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.18. Questa versione ha il numero di build 10.0.793 ed è disponibile come segue:
 
 - **Anteprima della versione:** marzo 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** aprile 2021
@@ -43,9 +42,17 @@ Questa versione include le seguenti funzionalità. Seguire i collegamenti del [p
 
 - [Gestione degli sconti](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Per ulteriori informazioni, vedi [Panoramica del modulo di gestione degli sconti](../rebate-management/rebate-management-overview.md)
 
+- [Criteri di impostazione dell'esportazione dell'entità di dati di vendita](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Registrazione riga ordine di reso vendita con precisione decimale con e senza peso variabile](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Conferma dell'ordine cliente con un solo clic](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Criteri di eliminazione della riga ordine cliente nell'ordine fornitore](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Interfaccia semplificata solo per l'ora di entrata e di uscita (miglioramento per [Interfaccia di esecuzione dell'area di produzione migliorata per la produzione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Per ulteriori informazioni, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md).
 
-La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate. Alcune delle funzionalità elencate sono ancora in anteprima, mentre altre potrebbero essere già generalmente disponibili. 
+La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 ## <a name="new-and-updated-documentation-resources"></a>Risorse della documentazione nuove e aggiornate
 

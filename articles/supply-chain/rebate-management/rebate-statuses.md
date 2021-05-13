@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 3fd347607f5d64d54d3058f4ef1b0ed60ca54e66
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e226fa2189ff5ddd04dbd0af27f343451dc6379
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831676"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919895"
 ---
 # <a name="rebate-statuses"></a>Stati di sconto
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Gli stati di sconto ti aiutano a monitorare lo stato di ogni transazione di gestione degli sconti. È inoltre possibile utilizzarli per la creazione di report e per scopi di indagine. Puoi impostare e nominare tutti i valori di stato di sconto necessari per supportare il processo aziendale. 
 

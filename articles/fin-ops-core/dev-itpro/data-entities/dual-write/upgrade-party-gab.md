@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857372"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941085"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Eseguire l'aggiornamento al modello di parte e di rubrica globale
 
@@ -52,11 +52,11 @@ Questi prerequisiti sono obbligatori:
 
 2. Accedi a [Microsoft Azure](https://portal.azure.com/).
 
-3. Crea un [gruppo di risorse](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
+3. Crea un [gruppo di risorse](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
-4. Crea un [account di archiviazione](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) nel gruppo di risorse che hai creato.
+4. Crea un [account di archiviazione](/azure/storage/common/storage-account-create?tabs=azure-portal) nel gruppo di risorse che hai creato.
 
-5. Crea un [data factory](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) nel gruppo di risorse sopra che hai creato.
+5. Crea un [data factory](/azure/data-factory/quickstart-create-data-factory-portal) nel gruppo di risorse sopra che hai creato.
 
 6. Apri il data factory e seleziona il riquadro **Creare e monitorare**.
 
@@ -81,7 +81,7 @@ Questi prerequisiti sono obbligatori:
     FO Linked Service_properties_type Properties_service Principal Id | Specifica l'ID client dell'applicazione.
     Dynamics Crm Linked Service_properties_type Properties_username | Il nome utente per la connessione a Dynamics.
 
-    Per ulteriori informazioni, vedi [Promuovere manualmente un modello di Resource Manager per ogni ambiente](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Proprietà del servizio collegato](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties) e [Copiare dati usando Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Per ulteriori informazioni, vedi [Promuovere manualmente un modello di Resource Manager per ogni ambiente](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Proprietà del servizio collegato](/azure/data-factory/connector-dynamics-ax#linked-service-properties) e [Copiare dati usando Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Dopo la distribuzione, convalidare i set di dati, il flusso di dati e il servizio collegato del data factory.
 
@@ -158,7 +158,7 @@ Questi prerequisiti sono obbligatori:
 8. Importa i nuovi record **Parte** nell'app Finance and Operations.
 
     + Scarica il file `FONewParty.csv` da archiviazione BLOB di Azure. Il percorso è `partybootstrapping/output/FONewParty.csv`.
-    + Converti il file `FONewParty.csv` in un file Excel e importa il file Excel nell'app Finance and Operations.  Se l'importazione del file CSV funziona, puoi importare direttamente il file CSV. L'esecuzione dell'importazione potrebbe richiedere alcune ore, a seconda del volume di dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + Converti il file `FONewParty.csv` in un file Excel e importa il file Excel nell'app Finance and Operations.  Se l'importazione del file CSV funziona, puoi importare direttamente il file CSV. L'esecuzione dell'importazione potrebbe richiedere alcune ore, a seconda del volume di dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../data-import-export-job.md).
 
     ![Importare i record Parte di Datavers](media/data-factory-import-party.png)
 

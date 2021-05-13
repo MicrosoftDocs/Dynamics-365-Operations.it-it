@@ -1,74 +1,109 @@
 ---
 title: Creare varianti prodotto predefinite
 description: Questa procedura guida nella creazione di varianti prodotto per una rappresentazione generale prodotto mediante le combinazioni di dimensioni prodotto.
-author: ShylaThompson
-ms.date: 08/29/2018
+author: t-benebo
+manager: tfehr
+ms.date: 04/22/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
+ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart, EcoResProductVariantSuggestionsEnhanced
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8340d295ffd072c95d9b174507ef4203131c8165
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: acd2e3f1464dfed09ee24764270b06970b747d7c
+ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809352"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938204"
 ---
-# <a name="create-predefined-product-variants"></a>Creare varianti prodotto predefinite
+# <a name="predefined-product-variants"></a>Varianti prodotto predefinite
 
 [!include [banner](../../includes/banner.md)]
 
-Questa procedura guida nella creazione di varianti prodotto per una rappresentazione generale prodotto mediante le combinazioni di dimensioni prodotto. La società dimostrativa utilizzata per creare questa procedura è USMF.
+## <a name="example-scenario-create-predefined-product-variants"></a>Scenario di esempio: Creare varianti prodotto predefinite
 
+Questa scenario di esempio mostra come creare varianti prodotto per una rappresentazione generale prodotto mediante combinazioni di dimensioni prodotto.
 
-## <a name="create-a-product-master"></a>Creare una rappresentazione generale prodotto
-1. Andare a Gestione informazioni sul prodotto > Prodotti > Rappresentazioni generali prodotto.
-2. Fare clic su Nuovo.
-3. Nel campo Numero prodotto, digitare un valore.
-    * Immettere un numero prodotto manualmente è obbligatorio solo se nessuna sequenza numerica è stata impostata per il campo relativo al numero di prodotto. In altre parole, ignorare il passaggio se la sequenza numerica è stata impostata per il campo.  
-4. Digitare un valore nel campo Nome prodotto.
-5. Nel campo Gruppo di dimensioni prodotto immettere o selezionare un valore.
-    * Selezionare il gruppo di dimensioni prodotto SizeCol (dimensione e colore).  
-6. Fare clic su OK.
+### <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
-## <a name="add-product-dimensions"></a>Aggiungere dimensioni prodotto
-1. Fare clic su Dimensioni prodotto.
-    * In questo esempio viene illustrato come immettere manualmente le dimensioni prodotto. È inoltre possibile scegliere di selezionare un gruppo di dimensioni, colore o stile che include i valori della dimensione prodotto si desidera utilizzare.  
-2. Fare clic su Nuovo.
-3. Nell'elenco contrassegnare la riga selezionata.
-4. Nel campo Sito immettere o selezionare un valore.
-5. Digitare un valore nel campo Nome.
-6. Fare clic su Nuovo.
-7. Nell'elenco contrassegnare la riga selezionata.
-8. Nel campo Sito immettere o selezionare un valore.
-9. Digitare un valore nel campo Nome.
-10. Fare clic sulla scheda Colori.
-11. Fare clic su Nuovo.
-12. Nell'elenco contrassegnare la riga selezionata.
-13. Nel campo Colore immettere o selezionare un valore.
-14. Digitare un valore nel campo Nome.
-15. Fare clic su Nuovo.
-16. Nell'elenco contrassegnare la riga selezionata.
-17. Nel campo Colore immettere o selezionare un valore.
-18. Digitare un valore nel campo Nome.
-19. Fare clic su Salva.
-20. Chiudere la pagina.
+Per eseguire questo scenario usando i valori soggeriti qui, i dati dimostrativi devono essere installati ed è necessario selezionare la persona giuridica *USMF*.
 
-## <a name="generate-product-variants"></a>Generare varianti prodotto
-1. Fare clic su Varianti prodotto.
-2. Fare clic su Suggerimenti variante.
-3. Fare clic su Seleziona tutto.
-    * In questo esempio sono selezionate tutte le possibili varianti. Se solo un sottoinsieme delle possibili combinazioni di dimensione prodotto verrà utilizzato per creare le varianti, è possibile selezionare le singole voci.  
-4. Fare clic su Crea.
-    * È possibile generare le descrizioni per tutte le varianti in base alla combinazione di valori di dimensione prodotto. La descrizioni sono facoltativa.  
-5. Fare clic su Salva.
+### <a name="step-1-create-a-product-master"></a>Passaggio 1: Creare una rappresentazione generale prodotto
 
+Per creare una rappresentazione generale prodotto:
 
+1. Andare a **Gestione informazioni sul prodotto > Prodotti > Rappresentazioni generali prodotto**.
+1. Selezionare **Nuovo**.
+1. Se il campo **Numero prodotto** non mostra già un numero, inserisci un valore. Questo è obbligatorio solo se nessuna sequenza numerica è stata impostata per il campo.
+1. Immettere un nome nel campo **Nome prodotto**.
+1. Nel campo **Gruppo di dimensioni prodotto** selezionare il gruppo di dimensioni prodotto *SizeCol* (dimensione e colore).
+1. Selezionare **OK** per creare e aprire la nuova rappresentazione generale del prodotto.
+
+### <a name="step-2-add-product-dimensions"></a>Passaggio 2: Aggiungere dimensioni prodotto
+
+In questo esempio viene illustrato come immettere manualmente le dimensioni prodotto. È inoltre possibile scegliere di selezionare un gruppo di dimensioni, colore o stile che include i valori della dimensione prodotto si desidera utilizzare.
+
+Per aggiungere dimensioni prodotto:
+
+1. Con la nuova rappresentazione generale prodotto ancora aperta, selezionare **Dimensioni prodotto** nel riquadro azioni.
+1. Apri la scheda **Dimensione** e seleziona **Nuovo** sulla barra degli strumenti per aggiungere una riga alla griglia. Per ogni nuova riga, effettua le seguenti impostazioni:
+    - **Dimensione:** seleziona un valore di dimensione.
+    - **Nome**: immetti un nome per la dimensione.
+1. Selezionare **Nuovo** sulla barra degli strumenti e aggiungi una seconda dimensione alla griglia con nuovi **Dimensione** e **Nome**.
+1. Apri la scheda **Colori** e seleziona **Nuovo** sulla barra degli strumenti per aggiungere una riga alla griglia. Per ogni nuova riga, effettua le seguenti impostazioni:
+    - **Colore:** Seleziona un valore di colore.
+    - **Nome**: immetti un nome per il colore.
+1. Selezionare **Nuovo** sulla barra degli strumenti e aggiungi un secondo colore alla griglia con nuovi **Colore** e **Nome**.
+1. Selezionare **Salva**.
+1. Chiudi la pagina per tornare alla tua nuova rappresentazione generale prodotto.
+
+### <a name="step-3-generate-product-variants"></a>Passaggio 3: Generare varianti prodotto
+
+> [!NOTE]
+> Questa sezione descrive come generare varianti prodotto quando la funzionalità *Miglioramenti della pagina Suggerimenti variante* non è abilitata. Consulta la sezione successiva per i dettagli su come generare varianti prodotto quando tale funzionalità è disponibile.
+
+Per generare varianti prodotto:
+
+1. Con la nuova rappresentazione generale prodotto ancora aperta, selezionare **Varianti prodotto** nel riquadro azioni.
+1. Nel riquadro azioni seleziona **Suggerimenti variante**.
+1. Il sistema genera un elenco con tutte le possibili combinazioni delle dimensioni e dei colori definiti per il prodotto. Selezionare **Seleziona tutto** sulla barra degli strumenti.
+    - In questo esempio selezionare tutte le possibili varianti. Se si desidera utilizzare solo un sottoinsieme delle possibili combinazioni di dimensioni prodotto, selezionare solo le caselle di controllo richieste in base alle esigenze.  
+1. Selezionare **Crea**.
+1. Selezionare **Salva**.
+
+## <a name="improved-variant-suggestions"></a>Miglioramenti ai suggerimenti variante
+
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
+
+La funzionalità *Miglioramenti della pagina Suggerimenti variante* migliora la pagina **Suggerimenti variante** per affrontare i problemi di prestazioni e usabilità per le aziende che hanno un numero elevato di combinazioni di dimensioni prodotto. Il processo migliorato per la selezione dei valori delle dimensioni prodotto per cui generare suggerimenti di varianti rende più veloce e più facile identificare e rilasciare la serie pertinente di varianti del prodotto.
+
+I seguenti miglioramenti vengono aggiunti da questa funzione:
+
+- **Generazione posticipata di suggerimenti su varianti:** la pagina **Suggerimenti variante** non mostra più i suggerimenti quando viene aperta per la prima volta. Invece, è necessario scegliere esplicitamente i valori necessari e quindi selezionare il pulsante **Suggerisci** per generare le combinazioni. Ciò rende il processo più visibile e interattivo.
+- **Selezione di valori di dimensioni:** Quando si dispone di molti valori di dimensione, in genere si è interessati a generare suggerimenti di varianti che ne includano solo alcuni (ad esempio quando si introduce un nuovo set di colori o stili). Con il design migliorato, è possibile selezionare i valori di dimensione per i quali si desidera generare suggerimenti di varianti di prodotto. Ciò aumenta notevolmente la rilevanza delle varianti suggerite e migliora sia le prestazioni del sistema sia la produttività dell'utente.
+
+### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>Attivare la funzionalità Miglioramenti della pagina Suggerimenti variante
+
+Prima di poter utilizzare la funzionalità *Miglioramenti della pagina Suggerimenti variante*, tale funzionalità deve essere attivata nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione informazioni sul prodotto*
+- **Nome funzionalità:** *Miglioramenti della pagina Suggerimenti variante*
+
+### <a name="work-with-the-improved-variant-suggestions"></a>Lavorare con i suggerimenti di varianti migliorati
+
+Per generare suggerimenti di varianti prodotto quando la funzionalità *Miglioramenti della pagina Suggerimenti variante* è abilitata:
+
+1. Aprire o creare una rappresentazione generale del prodotto e aggiungervi le dimensioni del prodotto richieste, come descritto nella sezione precedente.
+1. Con la rappresentazione generale prodotto aperta, selezionare **Varianti prodotto** nel riquadro azioni.
+1. Nel riquadro azioni seleziona **Suggerimenti variante**.
+1. Selezionare i valori da usare per ognuna delle dimensioni.
+1. Nella barra degli strumenti in alto, seleziona **Suggerisci**.
+1. Il sistema genera un elenco con tutte le possibili combinazioni delle dimensioni e dei colori selezionati. Nella scheda dettaglio **Varianti suggerite**, selezionare la casella di controllo per ciascuna combinazione di dimensioni prodotto che si desidera utilizzare oppure selezionare **Seleziona tutto** sulla barra degli strumenti per selezionarle tutte.  
+1. Selezionare **Crea** per aggiungere le varianti alla rappresentazione generale prodotto corrente.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

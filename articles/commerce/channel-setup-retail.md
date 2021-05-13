@@ -2,7 +2,7 @@
 title: Impostare un canale di vendita al dettaglio
 description: In questo argomento viene descritto come creare un nuovo canale di vendita al dettaglio in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800593"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937536"
 ---
 # <a name="set-up-a-retail-channel"></a>Impostare un canale di vendita al dettaglio
 
@@ -68,7 +68,7 @@ L'immagine seguente mostra un esempio di configurazione di un canale di vendita 
 
 ## <a name="additional-channel-set-up"></a>Ulteriori operazioni di impostazione di canali
 
-Ulteriori elementi che devono essere impostati per un canale si trovano nel **Riquadro azioni** sotto la sezione **Imposta**.
+Ulteriori elementi che devono essere impostati per un canale si trovano nel Riquadro azioni sotto la sezione **Imposta**.
 
 Ulteriori attività necessarie per l'impostazione di un canale online includono l'impostazione di metodi di pagamento, riepilogo di cassa, modalità di consegna, conto ricavi/spese, sezioni, assegnazione del gruppo di adempimento e casseforti.
 
@@ -102,7 +102,7 @@ L'immagine seguente illustra un esempio di riepilogo di cassa.
 
 ### <a name="set-up-modes-of-delivery"></a>Impostare le modalità di consegna
 
-È possibile visualizzare le modalità di consegna configurate selezionando **Modalità di consegna** nella scheda **Imposta** del **Riquadro azioni**.  
+È possibile visualizzare le modalità di consegna configurate selezionando **Modalità di consegna** nella scheda **Imposta** del Riquadro azioni.  
 
 Per modificare o aggiungere una modalità di consegna, attenersi alla seguente procedura.
 
@@ -166,11 +166,42 @@ Per impostare casseforti, effettuare le seguenti operazioni.
 1. Immettere un nome per la cassaforte.
 1. Nel riquadro azioni selezionare **Salva**.
 
+### <a name="ensure-unique-transaction-ids"></a>Garantire ID transazione univoci
+
+A partire dalla versione Commerce 10.0.18, gli ID transazione generati per il POS sono sequenziali e includono le seguenti parti:
+
+- Una parte fissa, che è una concatenazione di ID punto vendita e ID terminale. 
+- Una parte sequenziale, che è una sequenza numerica. 
+
+Nello specifico, il formato è *{store}-{terminal}-{numbersequence}*. 
+
+Poiché gli ID transazione possono essere generati in modalità offline e online, ci sono stati casi di generazione di ID transazione duplicati. L'eliminazione degli ID di transazione duplicati richiede molte correzioni manuali dei dati. 
+
+Con Commerce versione 10.0.19, il formato dell'ID transazione è stato aggiornato per rimuovere la parte sequenziale e utilizza invece un numero di 13 cifre generato calcolando il tempo in millisecondi dal 1970. Con questa modifica, il nuovo formato dell'ID transazione è *{store}-{terminal}-{millisecondsSince1970}*. Questo aggiornamento rende l'ID transazione non sequenziale e garantisce che gli ID transazione siano sempre univoci. 
+
+> [!NOTE]
+> Gli ID transazione sono destinati esclusivamente all'uso interno del sistema, quindi non è necessario che siano sequenziali. Tuttavia, molti paesi/aree geografiche richiedono che gli ID delle ricevute siano sequenziali.
+
+La nuova funzionalità del formato dell'ID transazione può essere abilitata dall'area di lavoro **Gestione funzionalità**. 
+
+Per abilitare l'uso dei nuovi ID transazione, segui questi passaggi:
+
+1. In Commerce Headquarters andare a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
+1. Filtra per il modulo "Retail e Commerce".
+1. Cerca il nome della funzionalità **Abilita nuovo ID transazione per evitare ID transazione duplicati**.
+1. Selezionare la funzionalità, quindi nel riquadro destro, selezionare **Abilita ora**.  
+1. Selezionare **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**.
+1. Esegui i processi **1070 Configurazione canale** e **1170 Registrazione attività POS** per sincronizzare la funzione abilitata nei punti vendita.
+1. Dopo che le modifiche sono state inviate ai punti vendita, i terminali POS devono essere chiusi e riaperti per utilizzare il nuovo formato dell'ID transazione. 
+
+> [!NOTE]
+> Dopo che la nuova funzionalità di formato dell'ID transazione è stata abilitata, non sarai in grado di disabilitarla. Se deve essere disabilitata, contatta il supporto di Commerce.
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei canali](channels-overview.md)
 
-[Prerequisiti di impostazione dei canali](channels-prerequisites.md)
+[Prerequisiti dell'impostazione dei canali](channels-prerequisites.md)
 
 [Impostare un canale online](channel-setup-online.md)
 

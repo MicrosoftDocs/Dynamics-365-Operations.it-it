@@ -2,7 +2,7 @@
 title: Panoramica dei processi di importazione ed esportazione dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751002"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937332"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -161,19 +161,7 @@ Per accelerare l'importazione di dati, è possibile abilitare l'elaborazione par
     - Nel campo **Conteggio dei record di soglia importazione** immettere il conteggio dei record di soglia per l'importazione. Ciò determina il conteggio dei record che deve essere elaborato da un thread. Se un file ha 10.000 record, un conteggio di record di 2500 con un conteggio di attività 4 significa che ogni thread elaborerà 2500 record.
     - Nel campo **Conteggio attività importazione** inserire il conteggio delle attività di importazione. Questo valore non deve superare il numero massimo di thread in batch assegnati per l'elaborazione batch in **Amministrazione di sistema \>Configurazione del server**.
 
-## <a name="clean-up-the-staging-tables"></a>Pulire le tabelle di gestione temporanea
-Introduzione all'aggiornamento della piattaforma 29, questa funzionalità è stata rimossa. Questo viene sostituita da una nuova versione di funzionalità di pulizia di storico processi illustrato sotto.
-
-È possibile pulire le tabelle di gestione temporanea utilizzando la funzione **Pulizia gestione temporanea** nell'area di lavoro **Gestione dati**. È possibile utilizzare le seguenti opzioni per selezionare i record che devono essere eliminati dalla tabella di gestione temporanea:
-
-- **Entità**: se si specifica una sola entità, vengono eliminati tutti i record della tabella di gestione temporanea di quell'entità. Selezionare questa opzione per pulire tutti i dati dell'entità in tutti i progetti di dati e in tutti i processi.
-- **ID processo**: se si specifica un solo ID processo, vengono eliminati tutti i record di tutte le entità nel processo selezionato dalle tabelle di gestione temporanea appropriate.
-- **Progetti dati**: se si seleziona un solo progetto di dati, vengono eliminati tutti i record di tutte le entità e in tutti i processi per il progetto di dati selezionato.
-
-È anche possibile combinare le opzioni per definire ulteriormente il set di record da eliminare.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Pulizia storico processi (disponibile nell'aggiornamento della piattaforma 29 e successivi)
-
+## <a name="job-history-clean-up"></a>Pulizia Storico processi 
 La funzionalità di pulizia dello storico processi nella gestione dei dati deve essere utilizzata per programmare una pulizia periodica dello storico di esecuzione. Questa funzionalità sostituisce la funzionalità precedente della pulizia delle tabelle di gestione temporanea, ora deprecata. Le seguenti tabelle verranno pulite dal processo di pulizia.
 
 -   Tutte le tabelle di gestione temporanea

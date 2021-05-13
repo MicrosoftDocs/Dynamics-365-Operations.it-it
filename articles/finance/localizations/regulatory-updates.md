@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890778"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941142"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -47,6 +47,7 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 |      Brasile         |   2020 ottobre      | 10.0.16      |   Dichiarazione DRCST SC - SEF 262/2020   |
 |      Brasile         |   2020 ottobre      | 10.0.16      |   SPED Fiscal ICMS / IPI record C176   |
 |      Brasile         |   2020 dicembre      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Identificazione dell'intermediario della piattaforma digitale (Aggiornamenti regole di convalida e layout)   |
+|      Brasile         |   2021 marzo         | 10.0.17, 10.0.18, 10.0.19         |    Layout SPED REINF 1.5.1
 |      Europa        |   2021 gennaio       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Impatto del protocollo dell'Irlanda del Nord sulle relazioni di commercio intracomunitario nei paesi dell'UE  |
 |      Germania        |   2021 gennaio       | 10.0.16HF      |   Il formato di notifica anticipata IVA ELSTER UstVA è stato ampliato con due nuovi riquadri 37,50 per cancellazione debiti irrecuperabili  |
 |      Germania        |   2021 gennaio       | 10.0.17      |   Modifiche alla struttura XML di notifica anticipata IVA ELSTER (UstVA)  |

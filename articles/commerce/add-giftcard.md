@@ -2,7 +2,7 @@
 title: Modulo Gift card
 description: Questo argomento tratta i moduli Gift card e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a4e4e06ab7032d68fcd36a8e80bc714ebaaac821
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8db7e597241f1fd552f6b960c2b57b0ba83da949
+ms.sourcegitcommit: efde05c758b2e02960760d875569d780d77d5550
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797673"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5962765"
 ---
 # <a name="gift-card-module"></a>Modulo gift card
 
@@ -57,12 +57,32 @@ Valori supportati:
 ## <a name="site-settings-for-gift-card-modules"></a>Impostazioni del sito per i moduli Gift card
 
 In Creazione di siti Web di Commerce sotto **Impostazioni del sito \> Estensioni**, è disponibile un'impostazione del moduli Gift card chiamata **Tipo di gift card supportato**. Questa impostazione supporta tre valori:
-- **Gift card Dynamics 365** - Quando si applica questa impostazione, il moduli Gift card consente solo il riscatto di gift card Dynamics 365. Questa impostazione è supportata solo per gli utenti che hanno effettuato l'accesso al sito di e-Commerce.
-- **Gift card SVS e gift card Givex** - Quando si applica questa impostazione, il moduli Gift card consente solo il riscatto di gift card Givex e SVS. Questa impostazione è supportata per gli utenti anonimi che hanno effettuato l'accesso al sito di e-Commerce.
-- **Gift card Dynamics 365, SVS e Givex** - Quando si applica questa impostazione, il moduli Gift card consente solo il riscatto di gift card Dynamics 365, SVS e Givex. Questa impostazione è supportata solo per gli utenti che hanno effettuato l'accesso al sito di e-Commerce.
+- **Gift card Dynamics 365** - Quando si applica questa impostazione, il modulo Gift card consente solo il riscatto di gift card Dynamics 365. Questa impostazione è supportata solo per gli utenti che hanno effettuato l'accesso al sito di e-Commerce.
+- **Gift card SVS e gift card Givex** - Quando si applica questa impostazione, il modulo Gift card consente solo il riscatto di gift card Givex e SVS. Questa impostazione è supportata per gli utenti anonimi che hanno effettuato l'accesso al sito di e-Commerce.
+- **Gift card Dynamics 365, SVS e Givex** - Quando si applica questa impostazione, il modulo Gift card consente solo il riscatto di gift card Dynamics 365, SVS e Givex. Questa impostazione è supportata solo per gli utenti che hanno effettuato l'accesso al sito di e-Commerce.
 
 > [!IMPORTANT]
 > Queste impostazioni sono disponibili in Dynamics 365 Commerce versione 10.0.11 e sono richiesti solo se è necessario il supporto per le gift card SVS o Givex. Se stai aggiornando da una versione precedente di Dynamics 365 Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni sull'aggiornamento del file appsettings.json, vedi [Aggiornamenti dell'SDK e della libreria dei moduli](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+
+## <a name="extend-internal-gift-cards-for-use-in-e-commerce-storefronts"></a>Estendere le gift card interne per l'uso in punti vendita e-commerce
+
+Per impostazione predefinita, le gift card interni non sono ottimizzati per l'utilizzo in punti vendita di e-commerce. Pertanto, prima di consentire l'utilizzo delle gift card interne per il pagamento, è necessario configurarle con estensioni che contribuiscano a renderle più sicure. Di seguito sono riportate le aree delle  gift card che dovresti estendere prima di consentire l'utilizzo delle  gift card interne nella produzione:
+
+- **Numero della  gift card** - Le sequenze numeriche vengono utilizzate per generare numeri di  gift card per  gift card interne. Poiché le sequenze numeriche possono essere facilmente previste, è necessario estendere la generazione di numeri di gift card in modo che vengano utilizzate stringhe casuali e crittograficamente sicure per i numeri di  gift card emesse.
+- **GetBalance** - L'API **GetBalance** viene utilizzata per cercare i saldi delle  gift card. Per impostazione predefinita, l'API è pubblica. Se non è necessario un PIN per cercare i saldi delle gift card, c'è il rischio che attacchi di forza bruta possano utilizzare l'API **GetBalance** per tentare di cercare i numeri delle gift card che hanno saldi. Implementando sia i requisiti del PIN per  gift card interni sia la limitazione dell'API, puoi contribuire a mitigare il rischio.
+- **PIN** - Per impostazione predefinita, le  gift card interne non supportano i PIN. È necessario estendere le gift card interni in modo che sia necessario un PIN per cercare i saldi. Questa funzionalità può essere utilizzata anche per bloccare le gift card dopo tentativi errati consecutivi di inserire il PIN.
+
+## <a name="enable-gift-card-payments-for-guest-checkout"></a>Abilitare i pagamenti con gift card per il checkout come guest
+
+Per impostazione predefinita, i pagamenti con gift card non sono abilitati per il checkout come guest (anonimo). Per abilitarli, attenersi alla procedura seguente.
+
+1. In Commerce Headquarters vai a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> POS \> Operazioni POS**.
+1. Seleziona e tieni premuta (o fai clic con il pulsante destro del mouse) l'intestazione della griglia, quindi seleziona **Inserisci colonne**.
+1. Nella finestra di dialogo **Inserisci colonne** selezionare la casella di controllo **AllowAnonymousAccess**.
+1. Selezionare **Aggiornamento**.
+1. Per le operazioni **520** (Saldo goft card) e **214**, impostare il valore **AllowAnonymousAccess** su **1**.
+1. Selezionare **Salva**.
+1. Eseguire il processo Retail Scheduler **1090** per sincronizzare le modifiche nel database del canale. 
 
 ## <a name="add-a-gift-card-module-to-a-page"></a>Aggiungere un moduli Gift card a una pagina
 

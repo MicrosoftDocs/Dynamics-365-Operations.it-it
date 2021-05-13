@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745265"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921425"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
@@ -37,7 +37,7 @@ Questo argomento descrive le funzionalità che sono state rimosse o deprecate in
 
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
-Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finanza 10.0.7 con Platform update 31
 
@@ -147,7 +147,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Allineamento dell'intestazione ad altri prodotti Dynamics e Office. Per ulteriori informazioni, vedere [Barra di navigazione aggiornata allineata all'intestazione di Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Motivo del deprecamento/rimozione** | Allineamento dell'intestazione ad altri prodotti Dynamics e Office. Per ulteriori informazioni, vedere [Barra di navigazione aggiornata allineata all'intestazione di Office](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Sostituita da un'altra funzionalità?**   | A partire dall'aggiornamento della piattaforma 24,è stata introdotta una barra di navigazione aggiornata che dispone di funzionalità di ricerca. |
 | **Aree del prodotto interessate**         | Client Web |
 | **Opzione di distribuzione**              | Tutte |
@@ -161,7 +161,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Il comportamento precedente delle azioni predefinite nelle griglie determina una colonna inattesa con il collegamento all'azione predefinita dopo il riordinamento delle colonne della griglia tramite la personalizzazione. La nuova funzionalità di azione predefinita permanente corregge questo problema. Per ulteriori informazioni, vedere [Azioni predefinite permanenti nelle griglie](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Motivo del deprecamento/rimozione** | Il comportamento precedente delle azioni predefinite nelle griglie determina una colonna inattesa con il collegamento all'azione predefinita dopo il riordinamento delle colonne della griglia tramite la personalizzazione. La nuova funzionalità di azione predefinita permanente corregge questo problema. Per ulteriori informazioni, vedere [Azioni predefinite permanenti nelle griglie](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Sostituita da un'altra funzionalità?**   | A partire dall'aggiornamento 21 della piattaforma, è stata introdotta una funzionalità per "azioni predefinite permanenti". Questa funzionalità può essere abilitata nella pagina **Opzioni di prestazioni client**. |
 | **Aree del prodotto interessate**         | Griglie nel client Web |
 | **Opzione di distribuzione**              | Tutte |
@@ -172,7 +172,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | L'esperienza di filtro "è uno di" è stata riprogettata nell'aggiornamento 22 della piattaforma, con l'idea di renderla la sola esperienza di filtro "è uno di". |
-| **Sostituita da un'altra funzionalità?**   | A partire dall'aggiornamento 22 della piattaforma, un'esperienza di filtro "è uno di" migliorata è diventata disponibile nella pagina **Opzioni di prestazioni client**. Per ulteriori informazioni, vedere [Esperienza di filtro "è uno di" ottimizzata](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Sostituita da un'altra funzionalità?**   | A partire dall'aggiornamento 22 della piattaforma, un'esperienza di filtro "è uno di" migliorata è diventata disponibile nella pagina **Opzioni di prestazioni client**. Per ulteriori informazioni, vedere [Esperienza di filtro "è uno di" ottimizzata](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Aree del prodotto interessate**         | Client Web |
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Deprecata: a partire da aprile 2020, l'esperienza "è uno di" migliorata sarà il comportamento predefinito, senza un meccanismo per tornare al comportamento precedente. |
@@ -1333,7 +1333,7 @@ La funzionalità Sites Services consente di costruire i siti Web che estendono i
 
 ### <a name="virtual-company-accounts"></a>Account società virtuali
 
-La funzionalità virtuale di più società non è supportata in Dynamics AX. La funzionalità relativa alle società virtuali consente agli utenti di impostare le tabelle da condividere da un insieme di società. Per una descrizione della funzionalità, vedere [Account società e account società virtuali](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Il funzionamento della funzionalità delle tabelle di raggruppamento le attività assegnate alle società virtuali, ovvero gruppi di società “reali„ esistenti. Le query vengono creati in modo che tutte società nella società virtuale possano accedere ai dati nelle tabelle delle raccolte di tabelle associate.
+La funzionalità virtuale di più società non è supportata in Dynamics AX. La funzionalità relativa alle società virtuali consente agli utenti di impostare le tabelle da condividere da un insieme di società. Per una descrizione della funzionalità, vedere [Account società e account società virtuali](../../fin-ops/get-started/ax4-content-retired.md). Il funzionamento della funzionalità delle tabelle di raggruppamento le attività assegnate alle società virtuali, ovvero gruppi di società “reali„ esistenti. Le query vengono creati in modo che tutte società nella società virtuale possano accedere ai dati nelle tabelle delle raccolte di tabelle associate.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

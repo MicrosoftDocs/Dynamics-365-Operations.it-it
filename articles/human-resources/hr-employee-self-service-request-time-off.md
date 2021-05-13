@@ -2,7 +2,7 @@
 title: Richiedere permessi
 description: Richiedere permessi in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790694"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924856"
 ---
 # <a name="request-time-off"></a>Richiedere permessi
 
@@ -45,7 +45,7 @@ ms.locfileid: "5790694"
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Aggiungere un allegato a una richiesta esistente
 
-Quando si aggiorna una richiesta di permesso esistente, è possibile aggiungere un allegato. È anche posibile vedere tutte le richieste correlate per una data specifica. 
+Quando si aggiorna una richiesta di permesso esistente, è possibile aggiungere un allegato. È anche posibile vedere tutte le richieste correlate per una data specifica.
 
 ## <a name="view-leave-balances"></a>Visualizzare saldi di congedo
 
@@ -58,6 +58,20 @@ Quando si aggiorna una richiesta di permesso esistente, è possibile aggiungere 
 1. Nell'area di lavoro **Self-service dipendenti**, selezionare **Altro** nel riquadro **Saldi permessi**.
 
 2. Per visualizzare le richieste di permesso approvate, selezionare **Permesso approvato**. Per visualizzare le richieste di permesso in sospeso, selezionare **Richieste di permesso**.
+
+## <a name="cancel-time-off-requests"></a>Annullare richieste di permesso
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. Nell'area di lavoro **Self-service dipendenti**, selezionare **Visualizza tempo libero** nel riquadro **Saldi permessi**.
+
+2. Nel modulo **Tempo libero** selezionare una o più richieste di permessi da annullare.
+
+3. Seleziona il pulsante **Annulla**.
+
+4. Nel riquadro **Dettagli annullamento**, immettere un commento e quindi selezionare **Invia**.
+
+   ![Annullare una richiesta di congedo](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Vedere anche
 

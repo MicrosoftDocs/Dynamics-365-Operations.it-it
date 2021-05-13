@@ -2,7 +2,7 @@
 title: Differire l'esecuzione di elementi XML in formati ER
 description: Questo argomento spiega come differire l'esecuzione di un elemento XML in un formato ER.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894054"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944487"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Differire l'esecuzione di elementi XML in formati ER
 
@@ -44,7 +44,7 @@ L'opzione **Esecuzione differita** non è supportata per elementi XML che si tro
 
 ## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Esempio: Differire l'esecuzione di un elemento XML in un formato ER
 
-I seguenti passaggi spiegano come un utente con [ruolo ](../sysadmin/tasks/assign-users-security-roles.md) di amministratore di sistema o consulente funzionale per la creazione di report elettronici può configurare un formato ER che contiene un elemento XML in cui l'ordine di esecuzione differisce dall'ordine nella gerarchia dei formati.
+I seguenti passaggi spiegano come un utente con [ruolo](../sysadmin/tasks/assign-users-security-roles.md) di amministratore di sistema o consulente funzionale per la creazione di report elettronici può configurare un formato ER che contiene un elemento XML in cui l'ordine di esecuzione differisce dall'ordine nella gerarchia dei formati.
 
 Queste operazioni possono essere eseguite nella società fittizia **USMF** in Microsoft Dynamics 365 Finance.
 
@@ -59,14 +59,14 @@ Se l'esempio nell'argomento [Differire l'esecuzione di elementi di sequenza in f
 
 | Descrizione contenuto            | Nome file |
 |--------------------------------|-----------|
-| Configurazione del modello di dati ER    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configurazione del mapping di modello ER | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configurazione del modello di dati ER    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configurazione del mapping di modello ER | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Prima di iniziare, è inoltre necessario scaricare e salvare la seguente configurazione della soluzione ER di esempio sul computer locale.
 
 | Descrizione contenuto     | Nome file |
 |-------------------------|-----------|
-| Configurazione di formato ER | [Format to learn deferred XML elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configurazione di formato ER | [Format to learn deferred XML elements.version.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importare le configurazioni ER di esempio
 
@@ -164,7 +164,7 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
 1. Nella pagina **Progettazione formati**, selezionare **Esegui**.
 2. Scaricare il file proposto dal browser Web e aprirlo per esaminarlo.
 
-    ![File scaricato](./media/ER-DeferredXml-Run.png)
+    ![File scaricato in formato importato](./media/ER-DeferredXml-Run.png)
 
 Si noti che il nodo di riepilogo presenta la somma dei valori di imposta per le transazioni elaborate. Poiché il formato è configurato per utilizzare il binding **model.Data.Summary.Total** per restituire questa somma, la somma viene calcolata chiamando l'aggregazione **TotalSum** dell'origine dati **Raggruppate** di tipo *GroupBy* nel mapping di modello. Per calcolare questa aggregazione, il mapping di modello esegue l'iterazione su tutte le transazioni che sono state selezionate nell'origine dati **Filtrate**. Confrontando i tempi di esecuzione del nodo di riepilogo e dell'ultimo nodo di record, è possibile determinare che il calcolo della somma ha richiesto 12 millisecondi (ms). Confrontando i tempi di esecuzione del primo e dell'ultimo nodo di record, è possibile determinare che la generazione di tutti i nodi di record ha richiesto 9 ms. Pertanto, sono stati necessari in totale 21 ms.
 
@@ -196,7 +196,7 @@ Se il volume della transazione è molto più grande del volume nell'esempio corr
 11. Selezionare **Salva** e quindi selezionare **Esegui**.
 12. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato](./media/ER-DeferredXml-Run1.png)
+    ![Elenco generato del valore dell'imposta con il totale parziale](./media/ER-DeferredXml-Run1.png)
 
     L'ultimo nodo di record contiene il totale corrente dei valori di imposta calcolato per tutte le transazioni elaborate utilizzando l'output generato come origine dati. Questa origine dati comincia all'inizio del report e continua fino all'ultima transazione fiscale. Il nodo di riepilogo contiene la somma dei valori di imposta di tutte le transazioni elaborate calcolate nel mapping di modello utilizzando l'origine dati di tipo *GroupBy*. Si noti che questi valori sono uguali. Pertanto, è possibile utilizzare la somma basata sull'output al posto di **GroupBy**. Confrontando i tempi di esecuzione del primo nodo di record e del nodo di riepilogo, è possibile determinare che la generazione di tutti i nodi di record e della somma ha richiesto 11 ms. Pertanto, per quanto riguarda la generazione dei nodi di record e della somma dei valori di imposta, il formato modificato è circa due volte più veloce del formato originale.
 
@@ -205,7 +205,7 @@ Se il volume della transazione è molto più grande del volume nell'esempio corr
 15. Selezionare **Salva** e quindi selezionare **Esegui**.
 16. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato](./media/ER-DeferredXml-Run2.png)
+    ![Elenco dei valori delle imposte generato utilizzando la formula modificata](./media/ER-DeferredXml-Run2.png)
 
     Si noti che il totale corrente dei valori di imposta nell'ultimo nodo di record è ora uguale alla somma nel nodo di riepilogo.
 
@@ -218,7 +218,7 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 3. Selezionare **Salva** e quindi selezionare **Esegui**.
 4. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato](./media/ER-DeferredXml-Run3.png)
+    ![File scaricato dei valori delle imposte per l'intestazione del report](./media/ER-DeferredXml-Run3.png)
 
     Si noti che la somma dei valori di imposta nel nodo di riepilogo ora è uguale a 0 (zero), poiché questa somma viene ora calcolata in base all'output generato. Quando viene generato il primo nodo di record, l'output generato non contiene ancora nodi di record che hanno dettagli delle transazioni. È possibile configurare questo formato per differire l'esecuzione dell'elemento **Report\\Message\\Summary** fino a che l'elemento **Report\\Message\\Record** non è stato eseguito per tutte le transazioni fiscali.
 
@@ -232,7 +232,7 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 3. Selezionare **Salva** e quindi selezionare **Esegui**.
 4. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato](./media/ER-DeferredXml-Run4.png)
+    ![File scaricato - esecuzione differita](./media/ER-DeferredXml-Run4.png)
 
     L'elemento **Report\\Message\\Summary** viene ora eseguito solo dopo l'esecuzione di tutti gli altri elementi nidificati sotto l'elemento padre **Report\\Message**. Pertanto, viene eseguito dopo l'esecuzione dell'elemento **Report\\Message\\Record** per tutte le transazioni fiscali dell'origine dati **model.Data.List**. I tempi di esecuzione del primo e dell'ultimo nodo di record e dei nodi di intestazione e di riepilogo rivelano tale condizione.
 

@@ -2,7 +2,7 @@
 title: 'ER Utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel (Parte 1: progettare il formato)'
 description: Questo argomento descrive come configurare un formato di creazione di report elettronici (ER) per generare report come file di fogli di lavoro OPENXML (Excel). (Parte 1)
 author: NickSelin
-ms.date: 08/29/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9eef9ffaadbd7010129cc9850ded1ba67bc281d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af3d7bdf6bf0de371fa0896bf5f668c98498640d
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745013"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944607"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel (Parte 1: progettare il formato)
 
@@ -34,7 +34,7 @@ Per effettuare queste operazioni, è necessario completare queste tre guide atti
 
 "ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)"
 
-È inoltre necessario scaricare e salvare una copia locale del modello con un report di esempio disponibile qui, [Report servizio Web dimensioni finanziarie di esempio](https://go.microsoft.com/fwlink/?linkid=862266).
+È inoltre necessario scaricare e salvare una copia locale del modello con un report di esempio disponibile qui, [Report servizio Web dimensioni finanziarie di esempio](https://download.microsoft.com/download/3/1/3/313e2090-bc0a-421f-bf96-c58da9bc0dea/SampleFinDimWsReport.xlsx).
 
 Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 

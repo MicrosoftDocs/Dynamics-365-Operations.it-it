@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4767d5dc3944d2595a5b2a74a6d5c7c0ea0c849a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2c945756997b0580ac7ffb19261f9184e53a1c10
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809448"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920509"
 ---
 # <a name="approve-a-product-configuration-model"></a>Approvare un modello di configurazione prodotto
 
@@ -26,25 +26,24 @@ ms.locfileid: "5809448"
 
 L'esecuzione di questa procedura richiede almeno un modello di configurazione prodotto disponibile. Nella procedura viene utilizzato il modello High end speaker della società di dati dimostrativi USMF. Si noti che il modello è già stato approvato, ma nella procedura è incluso il processo completo.
 
-1. Fare clic su Definizione modello di variante prodotto.
-2. Fare clic su Modelli di configurazione prodotto.
-3. Nell'elenco trovare e selezionare il record desiderato.
+1. Vai a **Gestione informazioni sul prodotto \> Prodotti \> Modelli di configurazione prodotto**.
+1. Nell'elenco trovare e selezionare il record desiderato.
     * Selezionare il modello High end speaker per questa procedura.  
-4. Fare clic su Versioni.
-5. Fare clic su Nuovo.
-6. Nel campo Numero prodotto immettere o selezionare un valore.
+1. Seleziona **Versioni**.
+1. Selezionare **Nuovo**.
+1. Nel campo **Numero prodotto** immettere o selezionare un valore.
     * Il riferimento a un prodotto rappresenta una versione di un modello di configurazione prodotto. Solo le rappresentazioni generali prodotto con la tecnologia di configurazione basata su vincoli verranno visualizzate nell'elenco.  
-7. Immettere una data nel campo Dal.
+1. Immettere una data nel campo **Dal**.
     * Selezionare quando la versione del modello prodotto sarà disponibile.  
-8. Nel campo Data finale immettere una data.
+1. Nel campo **Al** immettere una data.
     * Selezionare una data di fine se questa versione del modello prodotto scade oppure selezionare Mai.  
-9. Fare clic su Approva per aprire la finestra di dialogo a discesa.
-10. Nel campo Approvato da immettere o selezionare un valore.
+1. Fare clic su **Approva** per aprire la finestra di dialogo a discesa.
+1. Nel campo **Approvato da** immettere o selezionare un valore.
     * Selezionare la persona responsabile dell'approvazione dei modelli prodotto per l'utilizzo nelle operazioni.  
-11. Fare clic su OK.
-12. Selezionare un'opzione nel campo Metodo di determinazione prezzo.
+1. Selezionare **OK**.
+1. Selezionare un'opzione nel campo **Metodo di determinazione prezzo**.
     * Attivare la versione del modello prodotto. È possibile avere un solo prodotto attivo per un modello prodotto alla volta.  
-13. Chiudere la pagina.
+1. Chiudere la pagina.
 
 
 

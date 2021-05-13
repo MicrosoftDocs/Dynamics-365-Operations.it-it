@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62d789edea1bcce544693046d47d52473e2280f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7449f4874bf5c280218a2771e0af35e4b2b62a0b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820132"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921061"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Creare un codice a barre per un prodotto
 
@@ -26,19 +26,18 @@ ms.locfileid: "5820132"
 
 In questa argomento viene illustrato come creare un codice a barre manualmente usando il numero di articolo M0001 come esempio. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
-1. Selezionare **Gestione prodotti rilasciati** in home page.
-2. Passare a **Prodotti > Prodotti rilasciati** nella sezione **Collegamenti**.
-3. Nell'elenco trovare e selezionare il record desiderato. Per questo esempio, selezionare il numero articolo **M0001**.
-4. Nel riquadro azioni, fare clic su **Gestione articoli**.
-5. Selezionare **Codici a barre**.
-6. Selezionare **Nuovo**.
-7. Contrassegnare la riga selezionata creata nell'elenco seguente.
-8. Nel campo **Impostazione codice a barre** immettere o selezionare un valore.
-9. Nel campo **Codice a barre** immettere o selezionare un valore.
-10. Digitare un valore nel campo **Codice a barre**.  
-11. Nel campo **Quantità** immettere un numero.
-12. Selezionare **Salva**.
-13. Chiudere la pagina. 
+1. Fare clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
+1. Nell'elenco trovare e selezionare il record desiderato. Per questo esempio, selezionare il numero articolo **M0001**.
+1. Nel riquadro azioni, fare clic su **Gestione articoli**.
+1. Selezionare **Codici a barre**.
+1. Selezionare **Nuovo**.
+1. Contrassegnare la riga selezionata creata nell'elenco seguente.
+1. Nel campo **Impostazione codice a barre** immettere o selezionare un valore.
+1. Nel campo **Codice a barre** immettere o selezionare un valore.
+1. Digitare un valore nel campo **Codice a barre**.  
+1. Nel campo **Quantità** immettere un numero.
+1. Selezionare **Salva**.
+1. Chiudere la pagina. 
 
 
 

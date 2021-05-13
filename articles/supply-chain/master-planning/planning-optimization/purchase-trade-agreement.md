@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 138bf58e07d4d6df3c2106e4176e02fcdb0a6dba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
+ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820420"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961707"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Pianificazione generale con accordi commerciali di acquisto
 
@@ -67,7 +67,7 @@ Dopo aver preparato il sistema come descritto nella sezione precedente, è neces
 1. Ripetere questa procedura per ogni prodotto pertinente.
 
 > [!NOTE]
-> La valuta nella riga dell'accordo commerciale di acquisto deve corrispondere alla valuta del fornitore selezionato. La pianificazione generale includerà solo le informazioni nelle righe dell'accordo commerciale di acquisto in cui la valuta corrisponde alla valuta del fornitore.
+> Ottimizzazione pianificazione supporta gli accordi commerciali di acquisto commerciali con più valute. Quando si cerca un accordo commerciale utilizzando l'opzione **Prezzo unitario più basso**, il sistema prenderà in considerazione le righe degli accordi commerciali di acquisto con valute diverse a condizione che sia stato definito un tasso di cambio tra la valuta della riga dell'accordo commerciale e la valuta contabile della persona giuridica. In caso contrario, la riga dell'accordo commerciale verrà ignorata e verrà visualizzato un errore durante la pianificazione generale. Pertanto, la pianificazione generale includerà le informazioni da tutte le righe degli accordi commerciali di acquisto pertinenti in cui i prezzi possono essere convertiti nella valuta contabile.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Esempi di come l'ottimizzazione della pianificazione trova il fornitore e i lead time
 

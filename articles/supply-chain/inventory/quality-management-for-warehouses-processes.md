@@ -2,7 +2,7 @@
 title: Gestione qualità per i processi di magazzino
 description: Questo argomento fornisce informazioni sulla funzionalità Gestione qualità per i processi di magazzino. Questa funzionalità estende le capacità di gestione della qualità e consente agli utenti di integrare i controlli di campionamento degli articoli nel processo di ricezione del magazzino utilizzando la gestione avanzata del magazzino.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834267"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956084"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestione qualità per i processi di magazzino
 
@@ -620,5 +620,8 @@ Sono stati impostati i dati di lavoro e ubicazione per il magazzino 51, per gara
 > [!NOTE]
 > Prendere in considerazione l'aggiunta della voce di qualità a una voce di menu di un dispositivo mobile in cui si trova il codice attività *Visualizza elenco lavori aperti*. Per un esempio, vedere la voce di menu del dispositivo mobile denominata **Elenco di lavoro** nei dati dimostrativi. Per prima cosa aggiungere la classe di lavoro *Ordine di controllo qualità* a una voce di menu definita dall'utente, poiché questa classe di lavoro è necessaria per visualizzare il lavoro nell'elenco di lavoro. Quindi aggiungere la classe *Ordine di controllo qualità* alla voce del menu **Elenco di lavoro**. Gli utenti che hanno accesso all'elenco di lavoro potranno quindi selezionare ed elaborare il lavoro generato automaticamente dalla convalida dell'ordine di controllo qualità.
 
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Panoramica sulla gestione della qualità e della non conformità](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907965"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935607"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.17 (aprile 2021)
 
@@ -35,7 +35,7 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 Questa versione include le seguenti funzionalità.  Seguire i collegamenti del [piano di rilascio](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
 
-La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate. Alcune delle funzionalità elencate potrebbero essere ancora in anteprima, sebbene la maggioranza siano già generalmente disponibili.
+La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 ### <a name="asset-management"></a>Gestione cespiti
 
@@ -71,13 +71,13 @@ La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione
 
 - [Funzionalità di gestione dei cespiti nell'interfaccia di esecuzione dell'area di produzione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Per ulteriori informazioni, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md).
 
-- Sequenza numerica unificata per gli ID processo<br> - Per ulteriori informazioni, vedi 
+- [Esecuzione della produzione con unità di scala nel cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Per ulteriori informazioni, vedere [Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-manufacturing.md).
 
 - [Sostituire il principio di prenotazione predefinito per i materiali in produzione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Per ulteriori informazioni, vedere [Ignorare il principio di prenotazione predefinito per i materiali in produzione](../production-control/override-default-reservation-principle.md).
 
 - [Visualizzazioni salvate per il controllo della produzione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Per ulteriori informazioni, vedere [Visualizzazioni salvate standard per Supply Chain Management](saved-views-scm.md).
 
-- [Esecuzione della produzione con unità di scala nel cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Per ulteriori informazioni, vedere [Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-manufacturing.md).
+- Sequenza numerica unificata per gli ID processo<br> - Per ulteriori informazioni, vedi [Sequenza numerica unificata per ID lavoro](../production-control/unified-job-ids.md).
 
 ### <a name="planning"></a>Pianificazione
 

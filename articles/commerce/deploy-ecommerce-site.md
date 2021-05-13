@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fff5d47d6eb3e08288d17853fcd94f9eab843c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b228babfd32a4191eeed2a6d924a8b99f1a5311
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801951"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936708"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Distribuire un nuovo tenant di e-commerce
 
@@ -29,13 +29,13 @@ In questo argomento viene descritto come distribuire un nuovo sito di e-commerce
 
 Microsoft Dynamics Lifecycle Services (LCS) è un'area di lavoro collaborativa basata su cloud che i partner e i clienti possono utilizzare per gestire progetti e ambienti, visualizzare le informazioni più recenti su prodotti e funzionalità di Microsoft Dynamics nonché per creare, tenere traccia ed esaminare richieste di supporto. Le funzionalità di gestione di e-commerce sono integrate in LCS.
 
-Per ulteriori informazioni su LCS, vedere [Manuale dell'utente di Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
+Per ulteriori informazioni su LCS, vedere [Manuale dell'utente di Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
 ## <a name="get-started"></a>Attività iniziali
 
 Prima di inizializzare e-commerce, è necessario inizializzare un progetto, un ambiente e Retail Cloud Scale Unit (RCSU). Per eseguire l'inizializzazione in LCS, è necessario disporre delle autorizzazioni per il ruolo Proprietario progetto o Responsabile ambiente. Le topologie dell'ambiente di produzione e sandbox sono supportate.
 
-Per ulteriori informazioni sugli ambienti, vedere [Pianificazione ambiente](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Per ulteriori informazioni su RCSU, vedere [Inizializzare Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
+Per ulteriori informazioni sugli ambienti, vedere [Pianificazione ambiente](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Per ulteriori informazioni su RCSU, vedere [Inizializzare Retail Cloud Scale Unit](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>Inizializzare e-commerce
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 79f7e481b65ec40f0fb7e259037cd4988b3b5c07
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5a8bbfaff05b665cb85e9166cfc76363c4aedb64
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831700"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919845"
 ---
 # <a name="rebate-reduction-principles"></a>Principi di riduzione degli sconti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Puoi raggruppare le transazioni di gestione degli sconti in *principi di riduzione* per ridurre altri accantonamenti associati a un articolo e/o ridurre i valori risultanti dei calcoli degli sconti. Dopo aver impostato i principi di riduzione degli sconti, è possibile facoltativamente assegnarli, come richiesto, alle righe delle transazioni di gestione degli sconti.
 

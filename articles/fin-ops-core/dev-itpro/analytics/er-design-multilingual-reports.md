@@ -2,7 +2,7 @@
 title: Progettare report multilingue nella creazione di report elettronici
 description: Questo argomento spiega come utilizzare le etichette della creazione di report elettronici (ER) per progettare e generare report multilingue.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753554"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951987"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Progettare report multilingue nella creazione di report elettronici
 
@@ -158,6 +158,31 @@ ER supporta diversi modi per specificare una lingua per un report generato. Nel 
 - **Definito in fase di esecuzione** - Genera un report in una lingua specificata in fase di esecuzione. Se si seleziona questo valore nel campo **Lingua**, configurare un'espressione ER che restituisce il codice per la lingua, ad esempio la lingua del cliente corrispondente.
 
     ![Specificare nella pagina della progettazione dell'operazione ER una lingua definita in fase di esecuzione come lingua di un report generato](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Formattazione specifica della lingua
+
+ER supporta diversi modi per specificare la lingua per un report generato. Pertanto, è possibile utilizzare la formattazione specifica della lingua corretta per i valori di data, ora e numerici. Quando si progetta un formato ER, nella scheda **Formato**, nel campo **Preferenze cultura** è possibile selezionare uno dei seguenti valori per ogni componente di formato del tipo **Comune\\File**, **Excel\\File**, **PDF\\File**, o **Unione\\PDF**:
+
+- **Preferenza utente** - Formatta i valori in base alla lingua preferita dell'utente. La lingua è definita nel campo **Formato data, ora e numero** nella scheda **Preferenze** della pagina **Opzioni utente**.
+
+    ![Definizione della lingua preferita dell'utente come lingua di un report generato nella finestra di progettazione delle operazioni ER](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Definito esplicitamente** - Formatta i valori in base alla lingua specificata in fase di progettazione.
+
+    ![Definizione della lingua specificata in fase di progettazione come lingua di un report generato nella finestra di progettazione delle operazioni ER](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Definito in fase di esecuzione** - Formatta i valori in base alla lingua specificata in fase di esecuzione. Se selezioni questo valore, nella scheda **Mapping**, nel campo **Formato data, ora e numero**, configurare un'espressione ER che restituisca il codice lingua per la cultura, ad esempio la lingua del cliente corrispondente.
+
+    ![Definizione della lingua definita in fase di progettazione come lingua di un report generato nella finestra di progettazione delle operazioni ER](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> Un componente ER per cui si definisce una lingua specifica potrebbe contenere componenti ER figlio che sono stati configurati per inserire un valore di testo. Per impostazione predefinita, la lingua del componente padre viene utilizzata per formattare i valori di tali componenti. È possibile utilizzare le seguenti funzioni ER incorporate per configurare le associazioni per quei componenti e applicare una lingua alternativa per la formattazione del valore:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> Nella versione 10.0.20 e successive, le impostazioni locali dei componenti di formato di tipo **Comune\\File** e **Excel\\File** vengono utilizzate per formattare i valori durante la [conversione PDF](electronic-reporting-destinations.md#OutputConversionToPDF) di un documento generato.
 
 ## <a name="translation"></a>Traduzione
 

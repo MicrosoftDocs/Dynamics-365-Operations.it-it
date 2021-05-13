@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836400"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919943"
 ---
 # <a name="create-a-new-trade-agreement"></a>Creare un nuovo accordo commerciale
 
@@ -26,8 +26,8 @@ ms.locfileid: "5836400"
 
 Questa procedura illustra come creare un accordo commerciale in cui si registra un nuovo prezzo di vendita del prodotto accordato con un cliente specifico. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. Se si utilizzano i propri dati, prima di iniziare questa guida è necessario assicurarsi che sia presente un nome di giornale di registrazione per accordi commerciali in cui la relazione predefinita sia impostata su "Prezzo (vend.)".
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Creare e registrare un nuovo giornale di registrazione degli accordi commerciali
+
 1. Andare a **Pannello di navigazione > Moduli > Vendite e marketing > Prezzi e sconti > Giornali di registrazione accordi commerciali**.
 2. Fare clic su **Nuovo**.
 3. Nel campo **Nome** fare clic sul pulsante a discesa per aprire la ricerca.
@@ -58,22 +58,26 @@ Questa procedura illustra come creare un accordo commerciale in cui si registra 
 20. Fare clic su **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Visualizzare accordi commerciali per un prodotto
+
 1. Andare a **Pannello di navigazione > Moduli > Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati**.
 2. Nell'elenco individuare e selezionare il prodotto il cui prezzo è stato aggiornato.
 3. Nel **riquadro azioni** fare clic su **Vendi**.
 4. Fare clic su **Visualizza accordi commerciali**.
     
-    Esaminare i dettagli dell'accordo commerciale sui prezzi creato.    
+    Esaminare i dettagli dell'accordo commerciale sui prezzi creato.
 
 5. Chiudere la pagina.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 ### <a name="whitepaper"></a>White paper
+
 Per ulteriori informazioni, scarica il seguente white paper (scritto per supportare AX2012, ma è ancora valido per Dynamics 365 Supply Chain Management)
-- [Accordi commerciali](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Accordi commerciali](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Blog della community
+
 - [Prezzi di vendita in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

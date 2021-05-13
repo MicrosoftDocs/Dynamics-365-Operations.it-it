@@ -2,7 +2,7 @@
 title: Differire l'esecuzione di elementi di sequenza in formati ER
 description: Questo argomento spiega come differire l'esecuzione di un elemento di sequenza in un formato ER.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894102"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944511"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Differire l'esecuzione di elementi di sequenza in formati ER
 
@@ -42,7 +42,7 @@ L'opzione **Esecuzione differita** non è applicabile alle sequenze che sono sta
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Esempio: differire l'esecuzione di un elemento di sequenza in un formato ER
 
-I seguenti passaggi spiegano come un utente con [ruolo ](../sysadmin/tasks/assign-users-security-roles.md) di amministratore di sistema o consulente funzionale per la creazione di report elettronici può configurare un formato ER che contiene un elemento un elemento di sequenza in cui l'ordine di esecuzione differisce dall'ordine nella gerarchia dei formati.
+I seguenti passaggi spiegano come un utente con [ruolo](../sysadmin/tasks/assign-users-security-roles.md) di amministratore di sistema o consulente funzionale per la creazione di report elettronici può configurare un formato ER che contiene un elemento un elemento di sequenza in cui l'ordine di esecuzione differisce dall'ordine nella gerarchia dei formati.
 
 Queste operazioni possono essere eseguite nella società fittizia **USMF** in Microsoft Dynamics 365 Finance.
 
@@ -57,14 +57,14 @@ Se l'esempio nell'argomento [Differire l'esecuzione di elementi XML in formati E
 
 | Descrizione contenuto            | Nome file |
 |--------------------------------|-----------|
-| Configurazione del modello di dati ER    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configurazione del mapping di modello ER | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configurazione del modello di dati ER    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configurazione del mapping di modello ER | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Prima di iniziare, è inoltre necessario scaricare e salvare la seguente configurazione della soluzione ER di esempio.
 
 | Descrizione contenuto     |Nome file |
 |-------------------------|----------|
-| Configurazione di formato ER | [Format to learn deferred sequences.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configurazione di formato ER | [Format to learn deferred sequences.version.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importare le configurazioni ER di esempio
 
@@ -169,7 +169,7 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
 1. Nella pagina **Progettazione formati**, selezionare **Esegui**.
 2. Scaricare il file proposto dal browser Web e aprirlo per esaminarlo.
 
-    ![File scaricato](./media/ER-DeferredSequence-Run.png)
+    ![File di report di esempio scaricato](./media/ER-DeferredSequence-Run.png)
 
 Si noti che la riga di riepilogo 22 presenta la somma dei valori di imposta per le transazioni elaborate. Poiché il formato è configurato per utilizzare il binding **model.Data.Summary.Total** per restituire questa somma, la somma viene calcolata chiamando l'aggregazione **TotalSum** dell'origine dati **Raggruppate** di tipo *GroupBy* che utilizza il mapping di modello. Per calcolare questa aggregazione, il mapping di modello esegue l'iterazione su tutte le transazioni che sono state selezionate nell'origine dati **Filtrate**. Confrontando i tempi di esecuzione delle righe 21 e 22, è possibile determinare che il calcolo della somma ha richiesto 10 millisecondi (ms). Confrontando i tempi di esecuzione delle righe 2 e 21, è possibile determinare che la generazione di tutte le righe transazionali ha richiesto 7 millisecondi (ms). Pertanto, sono stati necessari in totale 17 ms.
 
@@ -202,7 +202,7 @@ Se il volume delle transazioni è molto più grande del volume nell'esempio corr
 12. Selezionare **Salva** e quindi selezionare **Esegui**.
 13. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato](./media/ER-DeferredSequence-Run1.png)
+    ![File scaricato: somma dei valori di imposta](./media/ER-DeferredSequence-Run1.png)
 
     La riga 21 contiene il totale corrente dei valori di imposta calcolato per tutte le transazioni elaborate utilizzando l'output generato come origine dati. Questa origine dati comincia all'inizio del report e continua fino all'ultima transazione fiscale. La riga 22 contiene la somma dei valori di imposta di tutte le transazioni elaborate calcolate nel mapping di modello utilizzando l'origine dati di tipo *GroupBy*. Si noti che questi valori sono uguali. Pertanto, è possibile utilizzare la somma basata sull'output al posto di **GroupBy**. Confrontando i tempi di esecuzione delle righe 2 e 21, è possibile determinare che la generazione di tutte le righe transazionali e della somma ha richiesto 9 millisecondi (ms). Pertanto, per quanto riguarda la generazione di righe dettagliate e della somma dei valori di imposta, il formato modificato è circa due volte più veloce del formato originale.
 
@@ -211,7 +211,7 @@ Se il volume delle transazioni è molto più grande del volume nell'esempio corr
 16. Selezionare **Salva** e quindi selezionare **Esegui**.
 17. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato](./media/ER-DeferredSequence-Run2.png)
+    ![File scaricato con formula modificata](./media/ER-DeferredSequence-Run2.png)
 
     Si noti che il totale corrente dei valori di imposta nell'ultima riga dei dettagli delle transazioni è ora uguale alla somma nella riga di riepilogo.
 
@@ -224,7 +224,7 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 3. Selezionare **Salva** e quindi selezionare **Esegui**.
 4. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato](./media/ER-DeferredSequence-Run3.png)
+    ![File scaricato per la somma nell'intestazione del report](./media/ER-DeferredSequence-Run3.png)
 
     Si noti che la somma dei valori di imposta nella riga di riepilogo 2 è ora uguale a 0 (zero), poiché questa somma viene ora calcolata in base all'output generato. Quando viene generata la riga 2, l'output generato non contiene ancora righe che hanno dettagli delle transazioni. È possibile configurare questo formato per differire l'esecuzione dell'elemento di sequenza **Report\\Lines\\Summary** fino a che l'elemento di sequenza **Report\\Lines\\Record** non è stato eseguito per tutte le transazioni fiscali.
 
@@ -238,7 +238,7 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 3. Selezionare **Salva** e quindi selezionare **Esegui**.
 4. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato](./media/ER-DeferredSequence-Run4.png)
+    ![File scaricato - esecuzione differita](./media/ER-DeferredSequence-Run4.png)
 
     L'elemento di sequenza **Report\\Lines\\Summary** viene ora eseguito solo dopo l'esecuzione di tutti gli altri elementi nidificati sotto l'elemento padre **Report\\Lines**. Pertanto, viene eseguito dopo l'esecuzione dell'elemento di sequenza **Report\\Lines\\Record** per tutte le transazioni fiscali dell'origine dati **model.Data.List**. I tempi di esecuzione delle righe 1, 2 e 3 e dell'ultima riga, 22, rivelano questa condizione.
 

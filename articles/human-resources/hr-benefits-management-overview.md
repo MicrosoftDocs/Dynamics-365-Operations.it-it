@@ -2,7 +2,7 @@
 title: Panoramica di gestione dei benefit
 description: Panoramica della funzionalità di Gestione benefit in Dynamics 365 Human Resources. Offrire opzioni di benefit estese ai propri dipendenti con un'esperienza online di facile utilizzo.
 author: andreabichsel
-ms.date: 09/17/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34b0916e0bf618590bcc56a9a3bc7c61576361cc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4ad94d81d7e8bedd3622b3e073e431bc4abaafff
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805780"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924232"
 ---
 # <a name="benefits-management-overview"></a>Panoramica di Gestione benefit
 
@@ -40,6 +40,10 @@ Per rimanere competitivi, è necessario offrire una ricca gamma di benefit per a
 - L'elaborazione di eventi reali qualificati supporta eventi reali futuri.
 
 Se si desidera accedere ai dati dimostrativi, sarà necessario ridistribuire l'ambiente sandbox.
+
+>[!NOTE]
+>È ora possibile personalizzare i moduli di Gestione benefit. È ora possibile aggiungere campi personalizzati relativi ai tassi di copertura al modulo **Opzione di copertura** per piani di benefit. Per ulteriori informazioni sull'uso dei campi personalizzati, vedere [Campi personalizzati](hr-developer-custom-fields.md).
+>![Campi personalizzati nei moduli Gestione benefit](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Abilitare Gestione benefit
 

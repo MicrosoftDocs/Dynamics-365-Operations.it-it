@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898289"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965312"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -104,15 +104,15 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.12
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Report SSRS polacchi: registro IVA vendite, registro IVA acquisti, registro IVA riepilogativo UE - Riferimento funzione PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Non deprecato: Report SSRS polacchi: registro IVA vendite, registro IVA acquisti, registro IVA riepilogativo UE - Riferimento funzione PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Non obbligatorio per legge.  |
 | **Sostituita da un'altra funzionalità?**   | Sì (formato Excel per file di controllo standard con dichiarazione IVA - JPK_VDEK) |
-| **Aree del prodotto interessate**         | Richiesta |
+| **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato: entro il 1° luglio 2021 non verranno più supportati i report SSRS: **Registro IVA vendite, Registro IVA acquisti, Registro IVA riepilogativo UE - Riferimento funzione PL-00014**. Verrà introdotto un esempio di formato Excel per il file di audit standard con dichiarazione IVA (JPK_VDEK). |
+| **Stato**                         | Non deprecato: da 27 aprile 2021 continueremo a supportare i report SSRS: **Registro IVA vendite, Registro IVA acquisti, Registro IVA riepilogativo UE - Riferimento funzione PL-00014**. È stato anche introdotto un esempio di formato Excel per il file di audit standard con dichiarazione IVA (JPK_VDEK). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.11
 

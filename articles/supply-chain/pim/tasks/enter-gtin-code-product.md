@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18df36fe2d147ce395c113eacaf69d8016b38303
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c0163844d7999468e288ba2d612662d1dd6f22df
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818063"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921391"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Immettere il codice GTIN per un prodotto
 
@@ -26,18 +26,17 @@ ms.locfileid: "5818063"
 
 I codici GTIN sono assegnati dall'organizzazione GS1. In questo esempio, immettere un codice per il numero prodotto M0001 nella società USMF di dati dimostrativi.
 
-1. Fare clic su Gestione prodotti rilasciati.
-2. Fare clic su Prodotti rilasciati.
-3. Espandere il Dettaglio informazioni Immagine prodotto.
-4. Nell'elenco trovare e selezionare il record desiderato.
-5. Nel riquadro azioni, fare clic su Gestione articoli.
-6. Fare clic su Codici GTIN.
-7. Fare clic su Nuovo.
-8. Nell'elenco contrassegnare la riga selezionata.
-9. Nel campo Unità immettere o selezionare un valore.
-10. Selezionare un'opzione nel campo Codice GTIN.
-11. Digitare un valore nel campo GTIN.
-12. Chiudere la pagina.
+1. Fare clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
+1. Espandere il Dettaglio informazioni **Immagine prodotto**.
+1. Nell'elenco trovare e selezionare il record desiderato.
+1. Nel riquadro azioni, fare clic su **Gestione articoli**.
+1. Selezionare **Codici GTIN**.
+1. Selezionare **Nuovo**.
+1. Nell'elenco contrassegnare la riga selezionata.
+1. Nel campo **Unità** immettere o selezionare un valore.
+1. Selezionare un'opzione nel campo **Codice GTIN**.
+1. Nel **Campo GTIN** digitare un valore.
+1. Chiudere la pagina.
 
 
 

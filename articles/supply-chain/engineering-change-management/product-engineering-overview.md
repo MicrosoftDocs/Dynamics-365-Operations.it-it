@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842083"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947522"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -48,7 +48,7 @@ Per poter utilizzare la gestione delle modifiche di progettazione, è necessario
 
 Innanzi tutto, attivare le funzionalità procedendo come segue.
 
-1. Andare a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Andare all'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Controllare gli aggiornamenti.
 1. Attiva la funzionalità denominata **Gestione modifiche di progettazione**.
 1. Per utilizzarla, attivare anche la funzionalità **Versione dimensione prodotto**.
@@ -58,8 +58,11 @@ Successivamente, attivare le chiavi di configurazione procedendo come segue.
 1. Mettere il sistema in modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
 1. Espandere il nodo **Commercio**
-1. Selezionare la casella di controllo **Gestione delle modifiche di progettazione**.
-1. Per utilizzarla, selezionare anche la casella di controllo **Dimensione prodotto - Versione**.
+1. Abilitare la chiave di configurazione per la funzionalità principale selezionando la casella di controllo **Gestione delle modifiche di progettazione**. (Non è necessario espandere il nodo a meno che non si desideri anche disabilitare una o entrambe le sue funzionalità secondarie.)
+1. Per usare anche la dimensione versione, selezionare la casella di controllo **Dimensione prodotto - Versione**. (Questa casella di controllo è più in basso nell'elenco, non nidificata sotto il nodo **Gestione delle modifiche di progettazione**.)
 1. Disattivare la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+> [!IMPORTANT]
+> A partire da aprile 2022, le chiavi di licenza per **Gestione delle modifiche di progettazione** e **Dimensione prodotto - Versione** saranno abilitate per impostazione predefinita per tutte le nuove installazioni, ma potrai comunque disabilitarle se necessario.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

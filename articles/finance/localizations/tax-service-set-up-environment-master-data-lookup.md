@@ -2,7 +2,7 @@
 title: Configurare un ambiente per la ricerca dei dati master
 description: In questo argomento viene descritto come configurare l'ambiente per l'utilizzo della funzionalità di ricerca di dati master Calcolo imposte.
 author: kai-cloud
-ms.date: 03/31/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,43 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eda093a75898bace2f3c7968933b83ccafa7fabb
-ms.sourcegitcommit: 66095f1b7e0fd2756aa29fd7deb9ce5392b7e0b2
+ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5869076"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924156"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>Configurare un ambiente per la ricerca dei dati master
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 In questo argomento viene descritto come configurare l'ambiente per l'utilizzo della funzionalità di ricerca di dati master Calcolo imposte.
 
 1. Configurare l'integrazione di Power Platform in Lifecycle Services (LCS). Per ulteriori informazioni, vedere [Panoramica di Integrazione di Microsoft Power Platform - Componenti aggiuntivi](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md).
 2. Configurare Dynamics 365 Finance e Microsoft Dataverse. Per ulteriori informazioni, vedere [Ottenere la soluzione](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) e [Autenticazione e autorizzazione](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization).
-3. Importare la *soluzione per entità virtuale del servizio fiscale prerequisito* da [Entità virtuale servizio fiscale](https://go.microsoft.com/fwlink/?linkid=2158160).
+3. Impostare le seguenti entità. Per ulteriori informazioni, vedere [Abilitare entità virtuali](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities).
+      - CompanyInfoEntity
+      - CurrencyEntity
+      - CustCustomerV3Entity
+      - DeliveryTermsEntity
+      - EcoResProductCategoryEntity
+      - EcoResReleasedProductV2Entity
+      - LogisticsAddressCityEntity
+      - LogisticsAddressCountryRegionTranslationEntity
+      - LogisticsAddressStateEntity
+      - PurchProcurementChargeCDSEntity
+      - SalesChargeCDSEntity
+      - TaxGroupEntity
+      - TaxItemGroupHeadingEntity
+      - VendVendorV2Entity
 4. Configurare Dynamics 365 Regulatory Configuration Service (RCS). 
 5. Creare una richiesta di servizio per Microsoft per abilitare le versioni di anteprima delle seguenti funzionalità:
 
       - ERCdsFeature
       - TaxServiceCDSFeature
 
-6. In Finance, accedere all'area di lavoro **Gestione funzionalità** e abilitare le seguente funzionalità:
+6. Accedere all'area di lavoro **Gestione funzionalità** e abilitare le seguente funzionalità:
 
       - (Anteprima) Supporto origini dati Dataverse per creazione di report elettronici
       - (Anteprima) Supporto origini dati Dataverse per servizio imposte
