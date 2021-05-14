@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748467"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920859"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
 ## <a name="local-and-regional-deployments"></a>Distribuzioni locali e regionali
 Se le normative governative locali richiedono che i dati vengano memorizzati o gestiti in modo diverso rispetto a quanto richiesto per altri paesi/aree geografiche, per la distribuzione potrebbe essere necessario tenere in considerazione dei requisiti locali specifici. Tenere presente le seguenti risorse che potrebbero essere rilevanti per distribuzioni specifiche:
 
-[App Finance and Operations gestite da 21Vianet in Cina](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[App Finance and Operations gestite de 21Vianet in Cina](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 
@@ -60,7 +60,7 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 -   [Inviare gli avvisi relativi alle funzionalità per la normativa specifiche del paese/area geografica](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Piani di rilascio di Dynamics 365
-I [piani di rilascio di Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
+I [piani di rilascio di Dynamics 365](/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novità delle app Finance and Operations
 La [home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse nelle versioni specifiche delle app Finance and Operations.

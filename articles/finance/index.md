@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813485"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890331"
 ---
 # <a name="finance-home-page"></a>Home page di Finance
 
@@ -38,11 +38,11 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
         - [Contabilità industriale](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Gestione spese](expense-management/expense-management.md)
-        - [Creazione di report finanziari](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Gestione spese](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Creazione di report finanziari](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Cespiti](fixed-assets/fixed-assets.md)
         - [Creazione di report finanziari e contabilità generale](general-ledger/general-ledger.md) 
-        - [Gestione progetti e contabilità](project-management/overview-project-management-accounting.md)
+        - [Gestione progetti e contabilità](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Settore pubblico](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su
 
 ### <a name="countryregion-functionality"></a>Funzionalità paese/area geografica
 
-Le normative del paese/area geografica incidono sull'impostazione fiscale e su altre aree della gestione finanziaria. Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) della Guida per informazioni sulle funzionalità specifiche del paese/area geografica.
+Le normative del paese/area geografica incidono sull'impostazione fiscale e su altre aree della gestione finanziaria. Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) della Guida per informazioni sulle funzionalità specifiche del paese/area geografica.
 
 ### <a name="additional-content"></a>Contenuti aggiuntivi
 
@@ -73,6 +73,6 @@ Le funzionalità di Supply Chain Management coprono parti del processo di approv
 
 ## <a name="elearning-courses"></a>Corsi eLearning
 
-Per corsi online e formazione, vedere [Dynamics 365 Finance su Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
+Per corsi online e formazione, vedere [Dynamics 365 Finance su Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811312"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923027"
 ---
 # <a name="financial-reporting-faq"></a>Domande frequenti sulla creazione di report finanziari 
 
-In questo argomento vengono riportate le domande relative alla creazione di report finanziari poste da altri utenti. 
-
+In questo argomento vengono fornite risposte alle domande frequenti sulla creazione di report finanziari. 
 
 ## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Come si limita l'accesso a un report utilizzando la sicurezza dell'albero?
 
-Scenario: la società dimostrativa USMF dispone di un report stato patrimoniale che non desidera rendere visibile a tutti gli utenti dei report finanziari in D365. Soluzione: è possibile utilizzare la sicurezza dell'albero per limitare l'accesso a un singolo report in modo che solo determinati utenti possano utilizzarlo. 
+L'esempio seguente mostra come limitare l'accesso a un report utilizzando la sicurezza dell'albero.
 
-1.  Accedere a Progettazione report dello strumento di creazione report finanziari
+La società dimostrativa USMF dispone di un report stato patrimoniale che non desidera rendere accessibile a tutti gli utenti dei report finanziari. È possibile utilizzare la sicurezza dell'albero per limitare l'accesso a un singolo report in modo che solo determinati utenti possano utilizzarlo. Per limitare l'accesso, seguire questi passaggi: 
 
-2.  Creare una nuova definizione dell'albero (File | Nuovo | Definizione di albero) a.    Fare doppio clic sulla riga **Riepilogo** nella colonna **Sicurezza unità**.
-  i.    Fare clic su Utenti e gruppi.  
-          1. Selezionare il gruppo o gli utenti che possono accedere a questo report. 
-          
-[![Schermata dell'utente](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+1. Accedere a Financial Reporter Report Designer.
+2. Creare una nuova definizione di albero. Andare a **File> Nuovo> Definizione di albero**.
+3. Fare doppio clic sulla riga **Riepilogo** nella colonna **Sicurezza unità**.
+4. Selezionare **Utenti e gruppi**.  
+5. Selezionare gli utenti o i gruppi che devono accedere a questo report. 
+6. Selezionare **Salva**.
+7. Nella definizione di report, aggiungere la nuova definizione di albero.
+8. Nella definizione di albero, selezionare **Impostazione**. In **Selezione unità gerarchica** selezionare **Includi tutte le unità**.
 
-[![Schermata della sicurezza](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a>Come identificare quali conti non corrispondono ai saldi?
 
-  b.    Fare clic su **Salva**.
-  
-[![Pulsante salva](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+Se si dispone di un report che non corrisponde ai saldi, ecco alcuni passaggi che è possibile eseguire per identificare ognuno dei conti e degli scostamenti. 
 
-3.  Nella definizione del report, aggiungere la nuova definizione di albero
+**Financial Reporter Report Designer**
+1. In Financial Reporter Report Designer creare una nuova definizione di riga. 
+2. Selezionare **Modifica > Inserisci righe da dimensioni**.
+3. Selezionare **MainAccount**.  
+4. Selezionare **OK**.
+5. Salvare la definizione di riga.
+6. Creare una nuova definizione di colonna
+7. Creare una nuova definizione di report.
+8. Selezionare **Impostazioni** e deselezionare questa opzione.  
+9. Generare il report. 
+10. Esportare il report in Microsoft Excel.
 
-[![Modulo di definizione di albero](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
+**Dynamics 365 Finance** 
+1. In Dynamics 365 Finance andare a **Contabilità generale > Richieste di informazioni e report > Bilancio di verifica**.
+2. Impostare i parametri riportati di seguito.
+   - **Dal** - Immettere l'inizio dell'anno fiscale.
+   - **Al** - Immettere la data per la quale si sta generando il report.
+   - **Dimensione finanziaria** - Imposta questo campo su **Set di conti principali**.
+ 3. Selezionare **Calcola**.
+ 4. Esportare il report in Microsoft Excel.
 
-A.  Nella definizione di albero, fare clic su Impostazioni e in "Selezione unità gerarchica" selezionare "Includi tutte le unità"
-
-[![Modulo di selezione dell'unità gerarchica](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
-
-**Prima:** [![Screenshot della schermata prima](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
-
-**Dopo:** [![Screenshot della schermata dopo](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
-
-Nota: il motivo del messaggio precedente è che l'utente non ha accesso al report dopo l'applicazione di Sicurezza unità
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>Come si determina quali conti non corrispondono ai saldi in D365?
-
-Quando si dispone di un report che non corrisponde a quello che ci si aspetterebbe in D365, ecco alcuni passaggi che è possibile eseguire per identificare i conti e gli scostamenti. 
-
-### <a name="in-financial-reporter-report-designer"></a>In Progettazione report dello strumento di creazione report finanziari
-
-1.  Creare una nuova definizione di riga a.    Fare clic su Modifica | Inserisci righe da dimensioni i.  Seleziona MainAccount [![Schermata della selezione di Conto principale_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Fare clic su OK b.    Salvare la definizione di riga
-
-2.  Creare una nuova definizione di colonna     [![Creare una nuova definizione di colonna](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
-
-3.  Creare una nuova definizione di report a.    Fare clic su Impostazioni e deselezionare [![Modulo Impostazioni](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Generare il report. 
-
-5.  Esportare il report in Excel.
-
-### <a name="in-d365"></a>In D365: 
-1.  Fare clic su Contabilità generale | Richieste di informazioni e report | Bilancio di verifica a.    Parametri i.  Dal: inizio dell'anno fiscale ii. Al: data per cui è stato generato il report iii.    Set di dimensioni finanziarie "Set di conti principali" [![Modulo conto principale](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Fare clic su Calcola
-
-2.  Esportare il report in Excel
-
-Ora si possono copiare i dati dal report di Excel della creazione di report finanziari e nel report D365 Bilancio di verifica e confrontare le colonne "Saldo finale".
-
+Ora si possono copiare i dati dal report di Excel dello strumento di creazione report finanziari nel report Bilancio di verifica per confrontare le colonne **Saldo finale**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

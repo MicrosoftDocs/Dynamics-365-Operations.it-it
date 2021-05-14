@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 237a2a594abba7d74e7c1aba33a6f4e72b1e2e69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e5abef8a25513898d6dbef2604d10373394c95c6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830522"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897430"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Home page di Gestione cassa e banche
 
@@ -83,7 +83,7 @@ quali distinte di deposito, assegni, effetti attivi ed effetti passivi. È inolt
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare ai [piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità che sono state pianificate. 
+Passare ai [piani di rilascio di Microsoft Dynamics 365](/dynamics365/release-plans/) per visualizzare le nuove funzionalità che sono state pianificate. 
 
 #### <a name="blogs"></a>Blog
 
