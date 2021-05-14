@@ -94,12 +94,12 @@
                   items:
                     - name: Home page Novità o modifiche in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19 (luglio 2021)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (maggio 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17 (aprile 2021)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: Commerce 10.0.16 (febbraio 2021)
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Incorporare app canvas da Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Incorporare app di terze parti
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Trovare informazioni utilizzando le ricerche
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Modificare la data per una sessione
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Installazione e configurazione di Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
+                - name: Distribuzione di massa dei componenti self-service Commerce sigillati
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Distribuzione di massa dei componenti self-service legacy
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Eventi dei componenti Commerce per la diagnostica e la risoluzione dei problemi
@@ -368,7 +372,7 @@
                       href: pos-operations.md
                     - name: Attivazione dispositivi di un'istanza di Modern POS
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: Abilitare l'autenticazione Azure Active Directory per l'accesso al POS
+                    - name: Configurare l'autenticazione Azure Active Directory per l'accesso al POS
                       href: aad-pos-logon.md
                     - name: Ricerca di prodotti e clienti nel POS
                       href: POS-search-improvements.md
@@ -628,15 +632,17 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Definire gli sconti specifici del canale
                   href: define-channel-specific-discounts.md
-                - name: Opzioni per impedire sconti sui prodotti al dettaglio
+                - name: Opzioni per impedire sconti sui prodotti di vendita al dettaglio
                   href: prevent-discounts.md
                 - name: Sconti basati sui metodi di pagamento
                   href: tender_based_discounts.md
                 - name: Panoramica sugli sconti per spedizione
                   href: retail-shipping-discount.md
+                - name: Configurare regalo con promozioni di acquisto
+                  href: gift-with-purchase.md
                 - name: Impostare buoni sconto
                   href: retail-coupons.md
-                - name: Mostra sconti in POS
+                - name: Mostrare sconti in POS
                   href: discounts-pos.md
                 - name: Report prezzi
                   href: price-report.md
@@ -758,8 +764,10 @@
                   href: order-fulfillment-pos-setup.md
                 - name: Mostrare le notifiche degli ordini in POS
                   href: notifications-pos.md
-                - name: Vendita di programmi di continuità ed elaborazione degli ordini cliente
+                - name: Programmi di continuità delle vendite ed elaborazione degli ordini cliente
                   href: tasks/use-continuity-program.md
+                - name: Abilitare le notifiche di check-in del cliente nel POS
+                  href: enable-customer-check-in.md
             - name: Resi
               items:
                 - name: Rimborsi collegati
@@ -922,9 +930,11 @@
                   href: manage-csp.md
                 - name: Rifiutare esplicitamente la raccolta eventi di attività Web
                   href: web-activity-opt-out.md
+                - name: Applicare le impostazioni dell'unità di misura
+                  href: unit-of-measure.md
             - name: Gestire il contenuto del sito
               items:
-                - name: Modalità di aggiungere contenuti
+                - name: Modalità di aggiunta contenuti
                   href: add-manage-content.md
                 - name: Glossario del modello di pagina
                   href: page-elements-overview.md
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Modulo di informazioni sul ritiro
                       href: pickup-info-module.md
+                    - name: Check-in per il modulo di ritiro
+                      href: check-in-pickup-module.md
                     - name: Modulo Dettagli ordini
                       href: order-confirmation-module.md
                     - name: Modulo gift card
@@ -1192,8 +1204,10 @@
               href: assess-customer-product-profitability.md
             - name: Analizzare le prestazioni del punto vendita
               href: store-performance-information.md
-            - name: 'Impostare l''analisi Recency, Frequency e Monetary (RFM)'
+            - name: 'Impostare l''analisi di Recency, Frequenza e Monetaria (RFM)'
               href: set-up-rfm-analysis.md
+            - name: Configurare Microsoft Clarity in Dynamics 365 Commerce
+              href: set-up-clarity.md
         - name: Globalizzazione
           items:
             - name: Panoramica dell'integrazione fiscale per il canale Commerce
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Profili certificato definiti dall'utente per i punti vendita al dettaglio
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Panoramica di Regulatory Configuration Service
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service - Funzionalità di globalizzazione
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: Creare configurazioni ER in Regulatory Configuration Service e caricarle nel repository globale
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
                 - name: Esempio di integrazione del servizio di registrazione fiscale per l'Austria
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: File props.autogenerated.ts del modulo
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Impostazioni predefinite di configurazione del modulo
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Sviluppare i moduli
                   items:
                     - name: Creare nuovo modulo
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Aggiungere pulsanti personalizzati alla barra di intestazione del POS
                   href: dev-itpro/pos-header-bar.md
+                - name: SDK per l'imballaggio indipendente del POS
+                  items:
+                    - name: Panoramica dell'estensione POS
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Operazioni preliminari all'utilizzo delle estensioni POS
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: Creare un progetto di pacchetto di estensioni POS
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Crea un file appx con estensione Modern POS
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: Eseguire il debug di un'estensione POS
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Estendibilità dell'Hardware Station
               items:
                 - name: Hardware Station ed estendibilità

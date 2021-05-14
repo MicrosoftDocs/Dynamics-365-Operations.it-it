@@ -72,12 +72,12 @@
                   items:
                     - name: Home page Novità o modifiche di Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.19 (luglio 2021)
+                      href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (maggio 2021)
                       href: get-started/whats-new-scm-10-0-18.md
                     - name: Supply Chain Management 10.0.17 (aprile 2021)
                       href: get-started/whats-new-scm-10-0-17.md
-                    - name: Supply Chain Management 10.0.16 (febbraio 2021)
-                      href: get-started/whats-new-scm-10-0-16.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -164,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Incorporare app canvas da Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Incorporare app di terze parti
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Trovare informazioni utilizzando le ricerche
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Modificare la data per una sessione
@@ -179,7 +181,7 @@
                 - name: Architettura per le app Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
-                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                  href: /dynamics365/fasttrack/
                 - name: Integrare un progetto di implementazione
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pianificazione ambiente
@@ -206,6 +208,64 @@
           items:
             - name: Risorse di globalizzazione
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Servizi di globalizzazione
+              items:
+                - name: Panoramica dei servizi di globalizzazione
+                  href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: Panoramica di Regulatory Configuration Service
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory Configuration Service - Funzionalità di globalizzazione
+                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Creare configurazioni ER in Regulatory Configuration Service e caricarle nel repository globale
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Fatturazione elettronica
+                  items:
+                    - name: Panoramica della fatturazione elettronica
+                      href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Componenti di amministrazione della fatturazione elettronica
+                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Configurare la fatturazione elettronica in Regulatory Configuration Services (RCS)
+                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Emissione di fatture elettroniche in Finance e Supply Chain Management
+                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Creare un account di archiviazione di Azure e un Key Vault
+                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Introduzione
+                      items:
+                        - name: Introduzione all'amministrazione dei servizi per la fatturazione elettronica
+                          href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Introduzione alla fatturazione elettronica
+                          href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Introduzione alla fatturazione elettronica per il Brasile
+                          href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Introduzione alla fatturazione elettronica per l'Egitto
+                          href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Introduzione alla fatturazione elettronica per l'Italia
+                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Introduzione alla fatturazione elettronica per il Messico
+                          href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Impostare la fatturazione elettronica
+                          href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Domande frequenti sulla fatturazione elettronica
+                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Calcolo imposte
+                  items:
+                    - name: Panoramica del calcolo delle imposte
+                      href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Introduzione al calcolo delle imposte
+                      href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Supporto della funzione fiscale per ordini di trasferimento
+                      href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Aggiungere campi dati nelle configurazioni imposte
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Aggiungere campi dati nell'integrazione fiscale usando le estensioni
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Più numeri di registrazione IVA
+                      href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Configurare un ambiente per la ricerca dei dati master
+                      href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: Aggiornamenti normativi
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: India
@@ -224,12 +284,18 @@
           items:
             - name: Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
               href: cloud-edge/cloud-edge-landing-page.md
+            - name: Distribuire unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD
+              href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
               href: cloud-edge/cloud-edge-workload-warehousing.md
             - name: Ordini di magazzino per unità di scala nel cloud e nella rete perimetrale
               href: cloud-edge/cloud-edge-warehouse-order.md
+            - name: Rettifica scorte magazzino
+              href: cloud-edge/cloud-edge-warehouse-inventory-adjustment.md
+            - name: Messaggi dell'elaboratore messaggi
+              href: cloud-edge/cloud-edge-message-processor-messages.md
         - name: Gestione cespiti
           items:
             - name: Panoramica della gestione cespiti
@@ -1363,24 +1429,46 @@
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Gestione qualità
               items:
-                - name: Panoramica gestione qualità
-                  href: inventory/enable-quality-management.md
-                - name: Processi di gestione qualità
+                - name: Panoramica sulla gestione di qualità e non conformità
                   href: inventory/quality-management-processes.md
-                - name: Gestione qualità per i processi di magazzino
-                  href: inventory/quality-management-for-warehouses-processes.md
-                - name: Gestione della non conformità
-                  href: inventory/enable-nonconformance-management.md
-                - name: Impostare i parametri per la gestione
-                  href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
-                - name: Creare ed elaborare una conformità
-                  href: inventory/tasks/create-process-non-conformance.md
-                - name: Ordini di quarantena
-                  href: inventory/quarantine-orders.md
-                - name: Impostare ordini di controllo qualità
-                  href: inventory/tasks/set-up-quality-orders.md
+                - name: Abilitare e configurare la gestione di qualità e non conformità
+                  items:
+                    - name: Abilitare la gestione di qualità e non conformità
+                      href: inventory/enable-quality-management.md
+                    - name: Strumenti di test per la gestione della qualità
+                      href: inventory/quality-test-instruments.md
+                    - name: Test per la gestione della qualità
+                      href: inventory/quality-tests.md
+                    - name: Variabili dei test per la gestione della qualità
+                      href: inventory/quality-test-variables.md
+                    - name: Gruppi di test per la gestione della qualità
+                      href: inventory/quality-test-groups.md
+                    - name: Gruppi di elementi per la gestione della qualità
+                      href: inventory/quality-groups.md
+                    - name: Campionamento di elementi per la gestione della qualità
+                      href: inventory/quality-item-sampling.md
+                    - name: Associazioni di controllo qualità
+                      href: inventory/quality-associations.md
+                    - name: Lavoratori responsabili dell'approvazione delle non conformità
+                      href: inventory/quality-responsible-workers.md
+                    - name: Tipi di problemi di non conformità
+                      href: inventory/quality-problem-types.md
+                    - name: Zone di quarantena della non conformità
+                      href: inventory/quality-quarantine-zones.md
+                    - name: Tipi di diagnosi della non conformità
+                      href: inventory/quality-diagnostic-types.md
+                    - name: Operazioni di non conformità
+                      href: inventory/quality-operations.md
+                    - name: Addebiti per le operazioni di non conformità
+                      href: inventory/quality-charges.md
+                - name: Lavorare con gli ordini di controllo qualità
+                  href: inventory/quality-orders.md
                 - name: Verificare la qualità delle merci
                   href: inventory/tasks/inspect-quality-goods.md
+                - name: Creare ed elaborare una non conformità
+                  href: inventory/tasks/create-process-non-conformance.md
+                - name: Lavorare con gli ordini in quarantena
+                  href: inventory/quarantine-orders.md
                 - name: Blocco scorte
                   href: inventory/inventory-blocking.md
                 - name: Creare e gestire un blocco scorte
@@ -1509,10 +1597,10 @@
                   href: master-planning/planning-optimization/product-lifecycle-state.md
                 - name: Intervalli temporali di copertura
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Approva ordini pianificati
+                - name: Approvare ordini pianificati
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Stabilizzazione automatica con l'ottimizzazione della pianificazione
-                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Stabilizzare ordini pianificati
+                  href: master-planning/planning-optimization/planned-order-firming.md
                 - name: Pianificazione con quantità disponibili negative
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Visualizzare i registri di pianificazione e dello storico del piano
@@ -1628,7 +1716,7 @@
                 - name: Controllo costi
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gestione spese
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Scorte disponibili
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Approvazioni fatture
@@ -1636,11 +1724,11 @@
                 - name: Team personale
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Panoramica delle applicazioni per dispositivi mobili Project
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Immissione ora progetto
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Foglio presenze progetto
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Approvazione ordine fornitore
                   href: procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ordini cliente
@@ -1923,13 +2011,19 @@
                   href: ../finance/accounts-payable/vendor-posting-profiles.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurazioni richiesta fornitore
                   href: procurement/vendor-request-configurations.md
-                - name: Integrazione fornitori
+                - name: Onboarding fornitori
                   href: procurement/vendor-onboarding.md
                 - name: Collaborazione fornitore con i fornitori esterni
                   href: procurement/vendor-collaboration-work-external-vendors.md
+                - name: Mantenere la certificazione del fornitore
+                  href: ../finance/public-sector/manage-vendor-certification.md
+                - name: Richieste di categoria dai fornitori
+                  href: procurement/category-requests-from-vendors.md
                 - name: Collaborazione fornitore con i clienti
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
-                - name: Importare cataloghi fornitore
+                - name: Conservare le informazioni sul conto corrente del fornitore
+                  href: ../finance/accounts-payable/maintain-vendor-bank-info.md
+                - name: Importare i cataloghi del fornitore
                   href: procurement/vendor-catalogs-import.md
                 - name: Impostare un catalogo esterno per eProcurement PunchOut
                   href: procurement/set-up-external-catalog-for-punchout.md
@@ -1979,6 +2073,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Creare varianti prodotto predefinite
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Gestire unità di misura
+                  href: pim/tasks/manage-unit-measure.md
                 - name: Conversione di unità di misura per varianti prodotto
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Creare un prodotto rilasciato per una singola società
@@ -2141,6 +2237,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Struttura rilascio prodotto
               href: engineering-change-management/release-product-structure.md
+            - name: Domande frequenti sulla gestione delle modifiche di progettazione
+              href: engineering-change-management/change-management-faq.md
         - name: Controllo produzione
           items:
             - name: Panoramica processo di produzione
@@ -2167,8 +2265,6 @@
                       href: production-control/phantom-items.md
                     - name: Calcoli DBA
                       href: cost-management/bom-calculations.md
-                    - name: Gestire unità di misura
-                      href: pim/tasks/manage-unit-measure.md
                     - name: Parametri di produzione di Esecuzione produzione
                       href: production-control/production-parameters-manufacturing-execution.md
                     - name: Risorse operative
@@ -2849,6 +2945,10 @@
               href: transportation/tasks/load-template.md
             - name: Profili valutazione
               href: transportation/tasks/setup-a-rating-profile.md
+            - name: Classi LTL
+              href: transportation/ltl-class.md
+            - name: Codici NMFC
+              href: transportation/nmfc-codes.md
             - name: Impostare un indice carburante vettore
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Impostare un metodo di pagamento del trasporto
@@ -2937,6 +3037,8 @@
                   href: warehousing/location-product-dimension-mixing.md
                 - name: Cluster di stoccaggio
                   href: warehousing/putaway-clusters.md
+                - name: Gestione qualità per i processi di magazzino
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Controllo qualità
                   href: warehousing/quality-check.md
                 - name: Risolvere i problemi relativi alle operazioni di magazzino in ingresso
@@ -3065,10 +3167,12 @@
                       href: warehousing/move-inventory-associated-work.md
                     - name: Creare una classe di lavoro
                       href: warehousing/tasks/create-work-class.md
-                    - name: Gestione degli addetti magazzino
+                    - name: Gestire gli addetti magazzino
                       href: warehousing/manage-warehouse-workers.md
                     - name: Elaborazione del lavoro di magazzino rinviata
                       href: warehousing/deferred-put.md
+                    - name: Elaborazione differita dell'operazione di movimento scorte manuale
+                      href: warehousing/deferred-processing-manual-inventory-movement.md
                 - name: Cross-docking
                   items:
                     - name: Eseguire il cross-docking da ordini di produzione a banchine di uscita
@@ -3237,6 +3341,40 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Estendere le entità di dati delle scorte disponibili
               href: inventory/extend-on-hand-entities.md
+        - name: Risoluzione dei problemi
+          items:
+            - name: Gestione magazzino
+              items:
+                - name: Impossibile confermare una spedizione a causa di un problema con il calendario
+                  href: troubleshooting/warehousing/load-has-active-appo.md
+                - name: Impossibile confermare una spedizione a causa di lavori incompleti o mancanti
+                  href: troubleshooting/warehousing/open-or-no-work-exis.md
+                - name: Impossibile confermare una spedizione perché gli articoli non sono stati prelevati
+                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
+                - name: Impossibile confermare una spedizione perché la quantità è pari a zero
+                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
+                - name: Impossibile confermare una spedizione perché la quantità eccede la percentuale del limite massimo di fornitura
+                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
+                - name: Impossibile confermare una spedizione perché la quantità eccede la percentuale del limite minimo di fornitura
+                  href: troubleshooting/warehousing/quantity-exceeds-und.md
+                - name: L'ultima riga di lavoro chiusa deve essere di tipo Inserisci
+                  href: troubleshooting/warehousing/the-last-closed-work.md
+                - name: I campi del peso sulle linee di carico non corrispondono ai campi del peso durante il carico
+                  href: troubleshooting/warehousing/the-weight-fields-on.md
+                - name: Il ciclo non è idoneo per la pulizia
+                  href: troubleshooting/warehousing/wave-is-not-eligible.md
+                - name: Il peso deve essere positivo
+                  href: troubleshooting/warehousing/weight-must-be-posit.md
+                - name: Il lavoro non può essere annullato perché è bloccato
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
+                - name: Il lavoro non può essere annullato a causa dello stato
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
+                - name: Il lavoro non è bloccato
+                  href: troubleshooting/warehousing/work-is-not-blocked.md
+                - name: Il lavoro resta bloccato
+                  href: troubleshooting/warehousing/work-remains-blocked.md
+                - name: Impossibile annullare il lavoro su un utente
+                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Sviluppo e amministrazione delle app Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
