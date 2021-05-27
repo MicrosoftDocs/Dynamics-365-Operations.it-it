@@ -361,13 +361,11 @@
                   href: asset-management/objects/object-timeline.md
                 - name: Visualizzazione cespiti
                   href: asset-management/objects/object-view.md
-                - name: Panoramica degli attributi dei cespiti
+                - name: Panoramica dell'attributo del cespite
                   href: asset-management/objects/object-specification-overview.md
             - name: Impostazione per le richieste di intervento di manutenzione
               items:
-                - name: Richieste di intervento di manutenzione
-                  href: asset-management/setup-for-maintenance-requests/requests.md
-                - name: Stati del ciclo di vita delle richieste di intervento di manutenzione
+                - name: Stati del ciclo di vita della richiesta di intervento di manutenzione
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Tipi di richieste di intervento di manutenzione
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: Risoluzione dei problemi
           items:
+            - name: Gestione costi
+              items:
+                - name: Impostazioni di campo mancanti per la copia di gruppi di modelli di articoli in un'altra persona giuridica
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: Il report "Costi indiretti in esecuzione" include gli ordini di produzione eliminati
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: Accantonamento acquisti registrato con importo zero per l'entrata prodotti a valore zero
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Gli ordini fornitore ricevuti fisicamente non vengono visualizzati nel report di chiusura dell'inventario
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: Non è presente alcuna data di inizio nella scheda Prezzi attivi della pagina Prezzo articolo
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Gestione inventario
+              items:
+                - name: Più transazioni di inventario per numeri di batch senza "aggiornamento fisico"
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: Lo storno di un report come finito crea una transazione aperta imprevista
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: Impossibile mostrare le nuove note collegate a un giornale di registrazione nel report della distinta di prelievo
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: La quantità di un ordine di quarantena avviato non si aggiorna quando l'ordine viene suddiviso
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: Il campo "Ultima data di test" non viene aggiornato quando si creano più ordini di controllo qualità
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: 'Quando si divide una quantità di peso variabile, viene utilizzata la quantità minima anziché nominale'
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Pianificazione generale
+              items:
+                - name: Gli ordini consolidati direttamente derivati vengono elaborati da un flusso di lavoro in revisione
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: La pianificazione generale genera ordini pianificati per prodotti fittizi
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: Ordine fornitore pianificato creato quando esiste un acquisto entro un numero di giorni negativo
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Impossibile caricare il prezzo di costo nelle voci di previsione della domanda
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Impossibile rimuovere la dimensione di previsione della domanda di magazzino dalle righe di previsione
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Approvvigionamento
+              items:
+                - name: Impossibile fatturare un ordine cliente rivolto al cliente nella società VEL
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: Impossibile aggiungere una riga a una richiesta di acquisto dopo aver richiesto una modifica
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Gestione informazioni sul prodotto
+              items:
+                - name: Impossibile applicare un modello per creare un prodotto rilasciato
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Impossibile importare un articolo utilizzando l'entità Prodotti rilasciati V2
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: Gli ordini fornitore non mostrano il testo del prodotto tradotto
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Controllo produzione
+              items:
+                - name: Le impostazioni del principio di cancellazione nelle righe DBA non vengono rispettate
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: Il numero di batch viene cancellato selezionando un nuovo ID lotto
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: La selezione posticipata non viene rispettata durante il ripristino degli ordini di produzione tramite processo batch
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: Gli utenti possono annullare la selezione delle righe di materiale per i prodotti che sono stati dichiarati come finiti
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Errore durante la registrazione del giornale di registrazione dichiarato come finito
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Il magazzino nel giornale di registrazione distinte di prelievo non viene aggiornato in una riga DBA
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: Gestione degli sconti
+              items:
+                - name: L'accumulo degli sconti cliente utilizzando i gruppi di sconti articolo non riesce
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Vendite e marketing
+              items:
+                - name: Gli amministratori di sistema non possono cancellare le sospensioni degli ordini perché non sono autorizzati
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Gestione trasporto
+              items:
+                - name: È possibile aggiungere solo il conto principale come conto di credito per motivi di riconciliazione
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestione magazzino
               items:
+                - name: Si verifica un errore alla scelta della posizione per la registrazione della distinta di prelievo
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: La stazione di imballaggio non mostra le note del prodotto
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: 'Il profilo di ubicazione non consente l''inventario negativo, ma sono consentite le scorte negative'
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Viene stampata una sola etichetta per più intestazioni di lavoro in un'unica ricevuta
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: Impossibile confermare una spedizione a causa di un problema con il calendario
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: Impossibile confermare una spedizione a causa di lavori incompleti o mancanti
