@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791056"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018608"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791056"
 
 In questo argomento vengono descritte le funzionalità per il raggruppamento delle spese automatiche a livello di intestazione e la ripartizione proporzionale delle stesse nelle righe di vendita di commercio. Questa funzionalità è disponibile per le transazioni create nel POS in Retail versione 10.0.1 e le vendite create in una call center in Retail versione 10.0.2.
 
-Questa funzionalità è disponibile solo se le funzionalità di [addebito automatico avanzato](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) sono abilitate utilizzando l'opzione nella pagina **Parametri di commercio**. Inoltre, il metodo di calcolo aggiornato per le spese automatiche può essere applicato solo agli ordini cliente creati tramite i canali di commercio (il POS, un call center e la piattaforma e-commerce di Dynamics).
+Questa funzionalità è disponibile solo se le funzionalità di [addebito automatico avanzato](/dynamics365/unified-operations/retail/omni-auto-charges) sono abilitate utilizzando l'opzione nella pagina **Parametri di commercio**. Inoltre, il metodo di calcolo aggiornato per le spese automatiche può essere applicato solo agli ordini cliente creati tramite i canali di commercio (il POS, un call center e la piattaforma e-commerce di Dynamics).
 
 Questa nuova funzionalità fornisce alle organizzazioni una maggiore flessibilità nel modo in cui le spese automatiche a livello di intestazione vengono calcolate e applicate per le transazioni di vendita.
 
@@ -38,7 +38,7 @@ Nelle versioni dell'app precedenti alla versione 10.0.1, gli addebiti automatici
 
 Ad esempio, le spese automatiche a livello di intestazione sono definite per la modalità di consegna **99** e la modalità di consegna **11**. Un ordine cliente viene creato e la modalità di consegna **99** viene definita nell'intestazione dell'ordine. Tuttavia, alcune delle righe di vendita vengono impostate in modo che siano spedite utilizzando la modalità di consegna **11**. In questo caso, solo le spese a livello di intestazione relative alla modalità di consegna **99** vengono considerate e applicate all'ordine cliente.
 
-In Commerce, le spese a livello di intestazione hanno una funzionalità che consente di definire una [configurazione di spese a livelli](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) basata sul valore dell'ordine. Ad esempio, se il valore dell'ordine è compreso tra $50,00 e $200,00, un'organizzazione potrebbe addebitare delle spese trasporto di $5,00. Tuttavia, se il valore dell'ordine è compreso tra $200,01 e $500,00, le spese di trasporto potrebbero essere di $4,00.
+In Commerce, le spese a livello di intestazione hanno una funzionalità che consente di definire una [configurazione di spese a livelli](/dynamics365/unified-operations/retail/configure-call-center-delivery) basata sul valore dell'ordine. Ad esempio, se il valore dell'ordine è compreso tra $50,00 e $200,00, un'organizzazione potrebbe addebitare delle spese trasporto di $5,00. Tuttavia, se il valore dell'ordine è compreso tra $200,01 e $500,00, le spese di trasporto potrebbero essere di $4,00.
 
 Alcune organizzazioni vogliono usufruire dei vantaggi derivanti dal calcolo delle spese a livelli fornito con le spese a livello di intestazione. Tuttavia, negli scenari che includono modalità di consegna miste, vogliono anche assicurarsi che le spese calcolate siano basate su una corrispondenza con la modalità di consegna definita in ciascuna riga di vendita.
 
@@ -72,7 +72,7 @@ Un ordine cliente viene creato nel call center e la modalità di consegna è imp
 
 In questo scenario, l'intero ordine viene valutato rispetto alla tabella delle spese automatiche per la modalità di consegna **99**. Il totale complessivo di tutte le righe di vendita viene utilizzato per determinare un livello corrispondente nella configurazione delle spese automatiche e queste spese vengono applicate a livello di intestazione dell'ordine. In questo esempio, il totale dell'ordine è $165,00 e le spese di trasporto di $15,00 sono applicate all'intestazione dell'ordine. Le spese automatiche configurate per la modalità di consegna **11** non sono applicate o non esiste nessun riferimento alle stesse.
 
-In questo scenario, se un cliente restituisce alcuni degli articoli nell'ordine e se il [codice spese è stato configurato di modo che venga eseguito un rimborso](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), le spese totali a livello di intestazione vengono sistematicamente applicate al rimborso, anche se solo alcuni degli articoli vengono restituiti.
+In questo scenario, se un cliente restituisce alcuni degli articoli nell'ordine e se il [codice spese è stato configurato di modo che venga eseguito un rimborso](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), le spese totali a livello di intestazione vengono sistematicamente applicate al rimborso, anche se solo alcuni degli articoli vengono restituiti.
 
 ### <a name="scenario-2"></a>Scenario 2
 

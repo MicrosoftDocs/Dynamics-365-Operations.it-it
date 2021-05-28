@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMRebateDeal
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: e255c60889fdb49dfd8a1fd01be839b6405b02c6
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 5188fa271cd9eb24140a9edcf507a3da72b61074
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5919871"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020533"
 ---
 # <a name="process-review-and-post-rebates"></a>Elaborare, rivedere e registrare gli sconti
 
@@ -60,7 +59,7 @@ Quando si elabora una transazione, il sistema calcola tutti gli sconti e le roya
     - **Elabora \> Gestione degli sconti** - Elabora una serie di transazioni che forniscono il valore dello sconto per ogni transazione.
     - **Elabora \> Fuori catalogo** - Annulla le transazioni registrate in precedenza per annullarle in modo da poter calcolare nuove transazioni di sconto.
 
-1. Nella finestra di dialogo che appare, imposta i campi **Data di inizio** e **Data di fine** per definire l'intervallo di date per il calcolo.
+1. Nella finestra di dialogo che appare, imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per il calcolo.
 1. Seleziona **OK** per eseguire il calcolo.
 
 ### <a name="process-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Elaborare una o più righe di contratto specifiche per una transazione selezionata
@@ -75,7 +74,7 @@ Quando si elabora una transazione, il sistema calcola tutti gli sconti e le roya
     - **Elabora \> Gestione degli sconti** - Elabora una serie di transazioni che forniscono il valore dello sconto per ogni riga di transazione.
     - **Elabora \> Fuori catalogo** - Annulla le transazioni registrate in precedenza per annullarle in modo da poter calcolare nuove transazioni di sconto.
 
-1. Nella finestra di dialogo che appare, imposta i campi **Data di inizio** e **Data di fine** per definire l'intervallo di date per il calcolo.
+1. Nella finestra di dialogo che appare, imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per il calcolo.
 1. Seleziona **OK** per eseguire il calcolo.
 
 ### <a name="process-deals-using-a-batch-job"></a>Elaborare le transazioni utilizzando un processo batch
@@ -88,8 +87,8 @@ Invece di elaborare transazioni o righe di transazioni specifiche, è possibile 
     - Vai a **Gestione degli sconti \> Attività periodiche \> Elabora \> Gestione degli sconti** per elaborare una serie di transazioni che forniscono il valore dello sconto per ogni transazione.
     - Vai a **Gestione degli sconti \> Attività periodiche \> Elabora \> Fuori catalogo** per stornare le transazioni registrate in precedenza e annullarle in modo da poter calcolare nuove transazioni di sconto.
 
-1. Nella finestra di dialogo che appare, nella scheda dettagli **Parametri** nella sezione **Periodo**, imposta i campi **Data di inizio** e **Data di fine** per definire l'intervallo di date per le transazioni per il calcolo.
-1. Nella sezione **Periodo di garanzia** imposta i campi **Data di inizio** e **Data di fine** per definire l'intervallo di date per le garanzie del calcolo.
+1. Nella finestra di dialogo che appare, nella scheda dettagli **Parametri** nella sezione **Periodo**, imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per le transazioni per il calcolo.
+1. Nella sezione **Periodo di garanzia** imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per le garanzie del calcolo.
 1. Nella scheda dettaglio **Record da includere** puoi impostare i filtri per limitare il set di offerte che il processo batch elaborerà. Queste impostazioni funzionano come per altri tipi di processi batch.
 1. Nella Scheda dettaglio **Esecuzione in background** puoi impostare l'elaborazione batch e le opzioni di programmazione come richiesto. Queste impostazioni funzionano come per altri tipi di processi batch.
 1. Seleziona **OK** per eseguire e/o pianificare il calcolo.
@@ -116,7 +115,7 @@ Quando elabori una o più transazioni, il sistema crea le transazioni che puoi v
         - **Imposta non richiesto \> Tutti** - Contrassegna tutte le transazioni come non richieste.
         - **Imposta non richiesto \> Selezionato** - Contrassegna le transazioni selezionate come non richieste.
 
-    - Per registrare la richiesta per una o più righe, seleziona le righe pertinenti, quindi, nel riquadro azioni, seleziona **Registra**. (Il pulsante **Registra** è disponibile solo per le transazioni di sconto. Non è disponibile per le transazioni di accantonamento e annullamento.) Nella finestra di dialogo **Registra** i campi **Data di inizio** e **Data di fine** vengono impostati automaticamente. Imposta il campo **Data registrazione** quindi seleziona **OK**.
+    - Per registrare la richiesta per una o più righe, seleziona le righe pertinenti, quindi, nel riquadro azioni, seleziona **Registra**. (Il pulsante **Registra** è disponibile solo per le transazioni di sconto. Non è disponibile per le transazioni di accantonamento e annullamento.) Nella finestra di dialogo **Registra** i campi **Data iniziale** e **Data finale** vengono impostati automaticamente. Imposta il campo **Data registrazione** quindi seleziona **OK**.
     - Per modificare l'importo visualizzato per qualsiasi transazione aperta o non registrata, seleziona la transazione, quindi segui uno di questi passaggi:
 
         - Modifica il valore nel campo **Importo corretto**.
@@ -145,7 +144,7 @@ Se non stai utilizzando la registrazione automatica, dopo aver elaborato le tran
     - **Registra \> Gestione degli sconti** - Registra le transazioni di sconti disponibili che hai creato.
     - **Registra \> Annullamento** - Registra le transazioni di annullamento disponibili che hai creato.
 
-1. Nella finestra di dialogo visualizzata, imposta il campo **Data di registrazione**. Quindi imposta i campi **Data di inizio** e **Data di fine** per definire l'intervallo di date per la transazione che deve essere registrata.
+1. Nella finestra di dialogo visualizzata, imposta il campo **Data di registrazione**. Quindi imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per la transazione che deve essere registrata.
 1. Seleziona **OK** per registrare le transazioni.
 
 ### <a name="post-transactions-for-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Registrare le transazioni per una o più righe di contratto specifiche per una transazione selezionata
@@ -162,7 +161,7 @@ Se non stai utilizzando la registrazione automatica, dopo aver elaborato le tran
     - **Registra \> Gestione degli sconti** - Registra le transazioni di sconti disponibili che hai creato.
     - **Registra \> Annullamento** - Registra le transazioni di annullamento disponibili che hai creato.
 
-1. Nella finestra di dialogo visualizzata, imposta il campo **Data di registrazione**. Quindi imposta i campi **Data di inizio** e **Data di fine** per definire l'intervallo di date per la transazione che deve essere registrata.
+1. Nella finestra di dialogo visualizzata, imposta il campo **Data di registrazione**. Quindi imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per la transazione che deve essere registrata.
 1. Seleziona **OK** per registrare le transazioni.
 
 ### <a name="post-transactions-using-a-batch-job"></a>Registrare le transazioni utilizzando un processo batch
@@ -175,8 +174,8 @@ Invece di registrare le transazioni per transazioni o righe di transazioni speci
     - Vai a **Gestione degli sconti \> Attività periodiche \> Registra \> Gestione degli sconti** per registrare le transazioni di sconto disponibili che hai creato.
     - Vai a **Gestione degli sconti \> Attività periodiche \> Registra \> Annullamento** per registrare le transazioni di annullamento disponibili che hai creato.
 
-1. Nella finestra di dialogo che appare, nella scheda dettaglio **Parametri** nella sezione **Periodo** imposta il campo **Data di pubblicazione**. Quindi imposta i campi **Data di inizio** e **Data di fine** per definire l'intervallo di date per la transazione che deve essere registrata. 
-1. Nella sezione **Periodo di garanzia** imposta i campi **Data di inizio** e **Data di fine** per definire l'intervallo di date per le garanzie che devono essere registrate.
+1. Nella finestra di dialogo che appare, nella scheda dettaglio **Parametri** nella sezione **Periodo** imposta il campo **Data di pubblicazione**. Quindi imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per la transazione che deve essere registrata. 
+1. Nella sezione **Periodo di garanzia** imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per le garanzie che devono essere registrate.
 1. Nella scheda dettaglio **Record da includere** puoi impostare i filtri per limitare il set di offerte che il processo batch elaborerà. Queste impostazioni funzionano come per altri tipi di processi batch.
 1. Nella Scheda dettaglio **Esecuzione in background** puoi impostare l'elaborazione batch e le opzioni di programmazione come richiesto. Queste impostazioni funzionano come per altri tipi di processi batch.
 1. Seleziona **OK** per eseguire e/o pianificare il calcolo.

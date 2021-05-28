@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808666"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016136"
 ---
 # <a name="cost-and-date-control"></a>Controllo dei costi e delle date
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-In Gestione cespiti, è possibile calcolare i costi per ottenere una panoramica dei costi effettivi comparati ai costi in budget in cespiti, unità funzionali e ordini di lavoro. I costi effettivi sono basati sulle transazioni registrate. 
+In Gestione cespiti, è possibile calcolare i costi per ottenere una panoramica dei costi effettivi comparati ai costi in budget in cespiti, unità funzionali e ordini di lavoro. I costi effettivi sono basati sulle transazioni registrate.
 
 È inoltre possibile eseguire un calcolo delle date se si desidera confrontare le date di inizio e fine programmate alle date di inizio e di fine effettive negli ordini di lavoro.
 
@@ -46,8 +44,8 @@ I calcoli effettuati per cespiti, aree funzionali e ordini di lavoro sono quasi 
 
 5. È possibile utilizzare il campo **Livello** per indicare il livello di dettagli delle righe del controllo dei costi in relazione alle unità funzionali. 
 
-    Ad esempio, se si inserisce "1" nel campo e si ha una gerarchia di unità funzionali multilivello, tutte le righe di controllo dei costi di un'unità funzionale verranno visualizzate nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore. 
-    
+    Ad esempio, se si inserisce "1" nel campo e si ha una gerarchia di unità funzionali multilivello, tutte le righe di controllo dei costi di un'unità funzionale verranno visualizzate nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore.
+
     Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe del controllo dei costi in tutti i livelli di unità funzionali a cui sono correlate.
 
 6. Impostare l'interruttore **Mostra costo impegnato aperto** su "Sì" se si desidera includere quella colonna nel calcolo.
@@ -64,7 +62,7 @@ I calcoli effettuati per cespiti, aree funzionali e ordini di lavoro sono quasi 
 
 10. Nella pagina **Controllo costi cespiti**, fare clic sul pulsante **Raggruppa per** per visualizzare il livello di dettagli necessario per il calcolo. I pulsanti **Raggruppa per** selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
 
-## <a name="example"></a>Esempio
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Esempio di risultati del calcolo in Controllo costi cespiti
 
 Nella schermata seguente viene illustrato un esempio di risultati di calcolo in **Controllo costi cespiti**.
 
@@ -76,7 +74,6 @@ Nella schermata seguente viene illustrato un esempio di risultati di calcolo in 
 ![Esempio di risultati del calcolo in Controllo costi cespiti](media/02-controlling-and-reporting.png)
 
 Un altro metodo di eseguire un calcolo dei costi è la selezione di molteplici cespiti in **Tutti i cespiti** o **Cespiti attivi**. Quindi, fare clic sul pulsante **Controllo costi** nella scheda **Generale**. Nella finestra di dialogo **Controllo costi cespiti**, i cespiti selezionati vengono inseriti automaticamente nel campo **Cespite** della Scheda dettaglio **Record da includere**. Fare clic **OK**. Viene visualizzato un calcolo dei costi per i cespiti selezionati. La stessa procedura può essere eseguita per le unità funzionali in **Tutte le unità funzionali** o **Unità funzionali attive** e per gli ordini di lavoro in **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
-
 
 ## <a name="work-order-date-control"></a>Controllo data dell'ordine di lavoro
 
@@ -94,7 +91,7 @@ Utilizzare questa pagina per ottenere una panoramica delle date di inizio e di f
 
 6. Fare clic sui pulsanti **Raggruppa per** per visualizzare il livello di dettagli necessario per il calcolo. I pulsanti **Raggruppa per** selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
 
-## <a name="example"></a>Esempio
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Esempio di risultati del calcolo in Controllo data dell'ordine di lavoro
 
 Nella schermata seguente viene illustrato un esempio di risultati di calcolo in **Controllo date ordini di lavoro**.
 

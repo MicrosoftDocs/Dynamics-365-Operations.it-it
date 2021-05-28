@@ -2,7 +2,7 @@
 title: Quando reimpostare un data mart
 description: Questo argomento elenca le circostanze che potrebbero essere migliorate reimpostando un data mart e le circostanze in cui è improbabile che la reimpostazione del data mart sia di aiuto.
 author: jinniew
-ms.date: 12/15/2020
+ms.date: 05/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,46 +12,42 @@ ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jiwo
-ms.search.validFrom: 2020-12-15
+ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c88994a336528650bf8ab6e239c873fa6cd36c46
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bc2c4ee490f3bebd6e7c91609a06f8dfedfcb628
+ms.sourcegitcommit: 5916ea2a94ab9af7aac21f0fc44e194d5ce82917
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754146"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "5988994"
 ---
 # <a name="when-to-reset-a-data-mart"></a>Quando reimpostare un data mart
 
 La reimpostazione di un data mart può richiedere molto tempo. A seconda delle circostanze, questa azione potrebbe non essere la soluzione necessaria. Questo argomento elenca le circostanze che potrebbero essere migliorate reimpostando un data mart, nonché le circostanze in cui è improbabile che la reimpostazione del data mart sia di aiuto.  
 
-## <a name="when-do-you-need-to-do-a-data-mart-reset"></a>Quando è necessario eseguire un ripristino del data mart?
+## <a name="when-do-i-need-to-do-a-data-mart-reset"></a>Quando devo eseguire la reimpostazione del data mart?
 Considera le seguenti domande prima di reimpostare un data mart. La risposta affermativa a una o più domande potrebbe indicare che l'organizzazione può trarre vantaggio dalla reimpostazione del data mart.
 
-- Il database dell'applicazione è stato ripristinato, ma non è stato ripristinato il database data mart.
-- Vengono visualizzati dati errati per un periodo contabile, che non sono il risultato di un problema con la progettazione del report.
-- Vengono visualizzati dati errati per un periodo contabile e i record sono elencati in Tentativi di integrazione nella pagina **Stato integrazione** in Progettazione report (avvia Progettazione report e seleziona **Strumenti> Stato integrazione**).
-- Hai aperto un incidente di supporto e un tecnico del supporto ti ha chiesto di reimpostare il data mart come parte di un passaggio di risoluzione dei problemi.
+- Il database dell'applicazione è stato ripristinato?
+- Se hai aperto un incidente di supporto e un tecnico del supporto ti ha chiesto di reimpostare il data mart come parte di un passaggio di risoluzione dei problemi.
  
-## <a name="when-its-not-appropriate-to-reset-a-data-mart"></a>Quando non è opportuno reimpostare un data mart?
+## <a name="when-is-it-not-appropriate-to-reset-a-data-mart"></a>Quando non è opportuno reimpostare un data mart?
 In alcune circostanze non è consigliabile reimpostare un data mart, tra cui le seguenti. 
 
-- Ogni volta che il motivo non è elencato in questo argomento.
-- Stai riscontrando problemi di prestazioni associati a una sincronizzazione dei dati. In questa circostanza, la reimpostazione del data mart probabilmente non è di aiuto.
+- Stai riscontrando problemi di prestazioni associati a una sincronizzazione dei dati. 
 - Se si dispone di uno schema di ripristino ricorrente dovuto a uno dei seguenti motivi: 
-  - **Dati mancanti** - In primo luogo, elimina i problemi di progettazione dei report e i problemi di sincronizzazione dei dati, ad esempio, osservi che la mappa dei fatti non è stata eseguita da quando sono stati pubblicati i dati mancanti.
-  - **Stato di integrazione bloccato** - Se l'integrazione è lenta o sembra bloccata, è improbabile che il ripristino del data mart risolva il problema.
-  - **I tentativi di ripristino non hanno avuto successo** - Se sono stati effettuati diversi tentativi per completare un ripristino e non hanno avuto successo a causa della mancanza di dati, si consiglia di aprire un incidente di supporto e di collaborare con un tecnico dell'assistenza per analizzare la situazione prima di tentare di ripristinare nuovamente il data mart.
-  - **Record obsoleti** - I record obsoleti da soli non giustificano necessariamente il ripristino del data mart. Se si dispone di un set di dati di grandi dimensioni, l'esecuzione del processo di ripristino richiederà un po' di tempo, ma è improbabile che si verifichi un miglioramento.
+  - **Dati mancanti** 
+  - **Stato di integrazione bloccato** 
+  - **Record obsoleti** - I record obsoleti da soli non giustificano necessariamente la reimpostazione del data mart. Se si dispone di un set di dati di grandi dimensioni, l'esecuzione del processo di reimpostazione richiederà un po' di tempo, ma è improbabile che si verifichi un miglioramento.
  
-## <a name="what-a-data-mart-reset-does-not-do"></a>Cosa non fa un ripristino del data mart  
-- Un ripristino inizierà solo al termine delle attività esistenti. Ciò garantisce che i vecchi dati non vengano inseriti. A questo punto potrebbe essere visualizzato un messaggio del tipo "Impossibile elaborare il ripristino del data mart a causa di un'attività attiva. Riprova più tardi."
-- Il ripristino disabiliterà le attività di integrazione ed eliminerà tutti i dati del data mart. L'integrazione viene nuovamente abilitata.
+## <a name="what-is-a-data-mart-reset"></a>Cos'è una reimpostazione di un data mart?
+- Una reimpostazione inizierà solo al termine delle attività esistenti. Ciò garantisce che i vecchi dati non vengano inseriti. A questo punto potrebbe essere visualizzato un messaggio del tipo "Impossibile elaborare la reimpostazione del data mart a causa di un'attività attiva. Riprova più tardi."
+- La reimpostazione disabiliterà le attività di integrazione ed eliminerà tutti i dati del data mart. L'integrazione viene nuovamente abilitata.
 
-> [!NOTE]
-> I seguenti punti specificano due cose che il ripristino di un data mart *non* fa. <br>
-> - I ripristini non cancellano le progettazioni di report. <br>
-> - I ripristini non cancellano i dati della società o dei dati dell'utente a meno che non siano selezionati.
-
+## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Se reimposto il data mart, perderò i report che ho già progettato? 
+No, i report vengono archiviati in tabelle SQL che non sono influenzate da una reimpostazione del data mart. Se sei preoccupato di perdere i report che hai progettato, puoi eseguire il backup dei dati che non vuoi rischiare di perdere. Per eseguire il backup, apri Report Designer e vai a **Società > Società > Blocchi predefinit > Esporta**.
+ 
+## <a name="is-it-necessary-for-all-users-to-exit-the-system-to-reset-the-data-mart"></a>È necessario che tutti gli utenti escano dal sistema per reimpostare il data mart?
+No, gli utenti possono continuare a lavorare nel sistema durante la reimpostazione del data mart. Tuttavia, non potranno accedere ai report creati con Financial Reporter fino al termine della reimpostazione. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

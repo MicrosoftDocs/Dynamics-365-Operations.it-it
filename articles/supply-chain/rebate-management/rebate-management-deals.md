@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMRebateDeal
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 3c2e638aeed967db055948dc3addcb4d59f210a5
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920087"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020509"
 ---
 # <a name="rebate-management-deals"></a>Transazioni della gestione degli sconti
 
@@ -152,8 +151,8 @@ Nella seguente tabella vengono descritti i campi disponibili per ogni riga di da
 
 | Campo | descrizione |
 |---|---|
-| Data di inizio | Immetti la prima data a cui si applica la riga di data. Se le date di "inizio" e "fine" sono specificate nell'intestazione della transazione, vengono utilizzate come valori predefiniti per ogni nuova riga di data. |
-| Data di fine | Immetti l'ultima data a cui si applica la riga di data. Se le date di "inizio" e "fine" sono specificate nell'intestazione della transazione, vengono utilizzate come valori predefiniti per ogni nuova riga di data. |
+| Data iniziale | Immetti la prima data a cui si applica la riga di data. Se le date di "inizio" e "fine" sono specificate nell'intestazione della transazione, vengono utilizzate come valori predefiniti per ogni nuova riga di data. |
+| Data finale | Immetti l'ultima data a cui si applica la riga di data. Se le date di "inizio" e "fine" sono specificate nell'intestazione della transazione, vengono utilizzate come valori predefiniti per ogni nuova riga di data. |
 | Per | Specifica la frequenza con cui deve essere calcolata la linea di transazione. Immetti un numero intero qui, quindi seleziona un'unità nel campo **Cumula per**. Ad esempio, per calcolare ogni due settimane, imposta il campo **Per** su *2* e il campo **Cumula per** su *Settimane*. |
 | Cumula per | Seleziona l'unità che si applica all'impostazione **Per**. Seleziona *Durata* per calcolare sull'intera durata della riga di transazione. Seleziona *Periodo personalizzato* per selezionare un periodo definito nella contabilità generale. In questo caso, è necessario impostare anche il campo **Tipo di periodo**. |
 | Tipo di periodo | Questo campo è disponibile solo quando il campo **Cumula per** è impostato su *Periodo personalizzato*. I valori disponibili per la selezione provengono dai tipi di periodo definiti nella contabilità generale. |

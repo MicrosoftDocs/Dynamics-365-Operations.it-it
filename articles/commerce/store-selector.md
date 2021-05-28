@@ -2,7 +2,6 @@
 title: Modulo Selettore punto vendita
 description: In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853419"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021466"
 ---
 # <a name="store-selector-module"></a>Memorizzare il modulo di selezione
 
@@ -62,7 +61,7 @@ Per immettere i valori di latitudine e longitudine per l'ubicazione di un punto 
 
 ## <a name="bing-maps-integration"></a>Integrazione di Bing Maps
 
-Il modulo di selezione del punto vendita è integrato nelle [interfacce di programmazione delle applicazioni REST (API) di Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/) per utilizzare le funzionalità di geocodifica e suggerimenti automatici di Bing. È richiesta una chiave API di Bing Maps che deve essere aggiunta alla pagina Parametri condivisi di commercio in Commerce Headquarters. L'API di geocodifica viene utilizzata per convertire una posizione in valori di latitudine e longitudine. L'integrazione con l'API Suggerimenti automatici viene utilizzata per mostrare suggerimenti di ricerca quando gli utenti immettono posizioni nel campo di ricerca.
+Il modulo di selezione del punto vendita è integrato nelle [interfacce di programmazione delle applicazioni REST (API) di Bing Maps](/bingmaps/rest-services/) per utilizzare le funzionalità di geocodifica e suggerimenti automatici di Bing. È richiesta una chiave API di Bing Maps che deve essere aggiunta alla pagina Parametri condivisi di commercio in Commerce Headquarters. L'API di geocodifica viene utilizzata per convertire una posizione in valori di latitudine e longitudine. L'integrazione con l'API Suggerimenti automatici viene utilizzata per mostrare suggerimenti di ricerca quando gli utenti immettono posizioni nel campo di ricerca.
 
 Per l'API REST Suggerimenti automatici, è necessario assicurarsi che i seguenti URL siano consentiti in base ai criteri di sicurezza dei contenuti del sito. Questa configurazione viene eseguita durante la creazione del sito di Commerce, aggiungendo gli URL consentiti a varie direttive CSP per il sito (ad esempio, **img-src**). Per altre informazioni, vedere [Criteri di sicurezza dei contenuti](manage-csp.md). 
 
@@ -78,14 +77,14 @@ Il modulo di selezione del punto vendita supporta una modalità **Preleva nel pu
 
 Il modulo di selezione del punto vendita può essere aggiunto a un modulo casella acquisti su una pagina dei dettagli del prodotto (PDP) per visualizzare i punti vendita in cui un prodotto è disponibile per il ritiro. Può anche essere aggiunto a un modulo carrello. In questo caso, il modulo di selezione del punto vendita mostra le opzioni di ritiro per ciascuna voce di articolo nel carrello. Il modulo di selezione del punto vendita può essere aggiunto ad altre pagine o moduli tramite estensioni e personalizzazioni.
 
-Affinché lo scenario funzioni, i prodotti devono essere configurati in modo da utilizzare la modalità di consegna **ritiro**. Altrimenti, il modulo non verrà mostrato nelle pagine del prodotto. Per altre informazioni su come configurare la modalità di consegna, vedere [Impostare le modalità di consegna](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Affinché lo scenario funzioni, i prodotti devono essere configurati in modo da utilizzare la modalità di consegna **ritiro**. Altrimenti, il modulo non verrà mostrato nelle pagine del prodotto. Per altre informazioni su come configurare la modalità di consegna, vedere [Impostare le modalità di consegna](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 L'immagine seguente mostra un esempio di un modulo selettore punto vendita utilizzato su un PDP.
 
 ![Esempio di un modulo selettore punto vendita utilizzato su un PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Nella versione 10.0.16 e successive, è possibile abilitare una nuova funzionalità che consente a un'organizzazione di definire più modalità di ritiro delle opzioni di consegna per i clienti.  Se questa funzione è abilitata, il selettore punto vendita e altri moduli di e-commerce verranno migliorati per consentire all'acquirente di scegliere tra potenzialmente più opzioni di consegna del ritiro, se configurate.  Per saperne di più su questa funzione, fare riferimento a [questa documentazione](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Nella versione 10.0.16 e successive, è possibile abilitare una nuova funzionalità che consente a un'organizzazione di definire più modalità di ritiro delle opzioni di consegna per i clienti.  Se questa funzione è abilitata, il selettore punto vendita e altri moduli di e-commerce verranno migliorati per consentire all'acquirente di scegliere tra potenzialmente più opzioni di consegna del ritiro, se configurate.  Per saperne di più su questa funzione, fare riferimento a [questa documentazione](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Modalità Trova punti vendita
 
@@ -157,11 +156,11 @@ Per configurare il modulo di selezione del punto vendita in modo da mostrare i p
 
 [Demo veloce di carrello e check out](quick-tour-cart-checkout.md)
 
-[Imposta la modalità di consegna](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Imposta la modalità di consegna](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Gestire Bing Mappe per la tua organizzazione](dev-itpro/manage-bing-maps.md)
 
-[API REST Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/)
+[API REST Bing Maps](/bingmaps/rest-services/)
 
 [Modulo mappe](map-module.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95862a0dc55ec1d77b7d1a53209ba41fed48f82a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 125cc9dd1fb2ba0d3aeced8018d15e615b5d78e6
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820763"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027844"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creare pagamenti fornitore utilizzando una proposta di pagamento
 
@@ -62,7 +62,7 @@ La query della proposta di pagamento contiene le varie schede, ciascuna delle qu
 | 3075   | 1003    | 15 giugno      | 250,00         | 29 giugno  |                    | 0,00                 |
 | 3100   | 1004    | 17 giugno      | 100,00         | 17 luglio  | 1 luglio             | 1,00                 |
 
-Il 1° luglio April paga i fornitori. Utilizza una proposta di pagamento per consentire il completamento dell'attività in modo più efficiente.
+Il 1° luglio April paga i fornitori. Utilizza una proposta di pagamento per completare questa attività in modo più efficiente.
 
 ### <a name="option-1-by-cash-discount"></a>Opzione 1: per sconto di cassa
 

@@ -2,11 +2,9 @@
 title: Rettifica scorte magazzino
 description: In questo argomento vengono fornite informazioni sul giornale di registrazione e sull'elaborazione della rettifica scorte magazzino quando si utilizzano unità di scala.
 author: perlynne
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventoryAdjustmentJournal, InventJournalCount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: be386539ea7addf20256ac2b1f8a2a72736fcbec
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: a451816078ca2e77f30379828777209dc48bd849
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938228"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026135"
 ---
 # <a name="warehouse-inventory-adjustment"></a>Rettifica scorte magazzino
 
@@ -40,7 +38,7 @@ I seguenti processi di lavoro dell'app di magazzino utilizzano attualmente il **
 - Conteggio ciclo
 - Caricamento targa
 
-Diverse transazioni di magazzino vengono create come parte del processo di rettifica magazzino su cloud e rete perimetrale perché le distribuzioni hub e unità di scala condividono i record di inventario.
+Diverse transazioni di magazzino vengono create come parte di ogni processo di rettifica magazzino su cloud e rete perimetrale perché le distribuzioni hub e unità di scala condividono i record di inventario.
 
 ## <a name="inventory-adjustment-example"></a>Esempio di rettifica magazzino
 

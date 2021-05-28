@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMCostAutoSetup
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d057522afbf6a6d706c51f7c9e69b656483c7eb1
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841961"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021662"
 ---
 # <a name="auto-costs-setup"></a>Impostazione automatica dei costi
 
@@ -82,8 +81,8 @@ Nella seguente tabella vengono descritti tutti i campi disponibili in ogni riga.
 | **Valuta** | Selezionare la valuta a cui si applica la riga. Questa valuta è correlata all'ordine fornitore. Quando il sistema cerca di trovare i costi automatici da applicare a un viaggio e alle relative righe di viaggio, selezionerà la riga che ha la stessa valuta dell'ordine fornitore. Questo campo è disponibile solo quando il campo **Area di costo** è impostato su *Ordine fornitore* o *Articolo*. |
 | **Codice tipo di costo** | Il tipo di costo. |
 | **Metodo di ripartizione** | <p>Il metodo utilizzato per distribuire i costi alle righe. Di seguito vengono illustrate le opzioni disponibili.</p><ul><li><p>**Percentuale** - Il valore del campo **Valore di costo** è una percentuale che si applica al valore totale delle merci.</p><p>Ad esempio, se il campo **Valore di costo** è impostato su *10* e il valore totale delle merci è $800, il valore del costo è $80 (= $800 × 10 percento).</p></li><li>**Quantità** - Il costo verrà ripartito in base alla quantità delle merci.</li><li>**Importo** - Il costo verrà ripartito in base al valore delle merci.</li><li>**Volume** - Il costo verrà ripartito in base al volume delle merci. Il volume è specificato nel record generale dell'articolo.</li><li>**Peso** - Il costo verrà ripartito in base al peso delle merci. Il peso è specificato nel record generale dell'articolo.</li><li>**Volumetrico** - Il costo verrà ripartito in base alla misura volumetrica della merce.</li><li><p>**Misura** - Questa opzione consente di specificare una misura nel modulo **Costo sbarcato**. È spesso utilizzata dalle organizzazioni che non conoscono il volume o il peso individuale delle merci, ma che richiedono una ripartizione più accurata rispetto a quella mediante le opzioni **Importo** e **Quantità**. Lo spedizioniere o l'agente fornirà all'organizzazione il peso o la misura cubica, a livello di articolo o di ordine fornitore.</p><p>Ad esempio, il trasporto marittimo è pari a $900. L'articolo A ha un peso di 800 chilogrammi (kg) e un volume di 2 metri cubi (m³). L'articolo B ha un peso di 100 kg e un volume di 1 m³. Di seguito sono riportati i risultati della ripartizione in base al peso:</p><ul><li>Articolo A = $800</li><li>Articolo B = $100</li></ul><p>Di seguito sono riportati i risultati della ripartizione in base al volume:</p><ul><li>Articolo A = $600</li><li>Articolo B = $300</li></ul><p>**Nota:** quando il campo **Metodo di ripartizione** è impostato su *Misura*, il sistema utilizza le misure immesse sia per l'area di costo (il contenitore di spedizione) che per le righe. Queste misure non devono necessariamente sommarsi al totale previsto. Tuttavia, se ne si richiede l'aggiunta al totale previsto, è possibile eseguire un controllo utilizzando le statistiche per esaminare la misura totale. L'impostazione del prompt di misura e l'aggiornamento automatico della misura a livello di spedizione o contenitore vengono impostati nell'intestazione del viaggio.</p></li></ul> |
-| **Data di inizio** | Specificare l'inizio dell'intervallo di date per la determinazione dei costi, se esiste un intervallo di date. Questa è la prima data in cui verrà applicato il costo automatico. |
-| **Data di fine** | Specificare la fine dell'intervallo di date per la determinazione dei costi, se esiste un intervallo di date. Questa è l'ultima data in cui verrà applicato il costo automatico. |
+| **Data iniziale** | Specificare l'inizio dell'intervallo di date per la determinazione dei costi, se esiste un intervallo di date. Questa è la prima data in cui verrà applicato il costo automatico. |
+| **Data finale** | Specificare la fine dell'intervallo di date per la determinazione dei costi, se esiste un intervallo di date. Questa è l'ultima data in cui verrà applicato il costo automatico. |
 | **Categoria** | <p>Selezionare il metodo che deve essere utilizzato per calcolare il costo. Di seguito vengono illustrate le opzioni disponibili.</p><ul><li>**Fisso** - Il costo verrà ripartito in base al metodo di ripartizione.</li><li>**Pezzi** - Il costo verrà allocato per pezzo. Pertanto, il metodo di ripartizione non verrà utilizzato.</li><li>**Percentuale** - Verrà aggiunta una percentuale del valore delle merci. Pertanto, il metodo di ripartizione non verrà utilizzato.</li><li>**Aliquota** - Selezionare questa opzione se sono presenti scomposizioni in base alla quantità. Il campo **Metodo di ripartizione** per la riga deve essere impostato su *Misura*.</li><ul> |
 | **Suddiviso per quantità** | <p>Selezionare questa casella di controllo per rendere disponibile il pulsante **Suddivisioni per quantità** nella Scheda dettaglio **Righe**. Le suddivisioni per quantità consentono di suddividere il costo e di variare i diversi costi, a seconda della quantità nella riga di ordine fornitore del viaggio. Questa funzionalità viene spesso utilizzata quando la modalità di consegna è per via aerea. Il campo **Categoria** per la riga deve essere impostato su *Aliquota*.</p><p>La quantità è relativa all'opzione selezionata nel campo **Metodo di ripartizione**. Il valore del costo sarà fino alla quantità immessa nel campo **Valore di costo**.<p>Ad esempio, quantità di 45-100 kg producono una spesa di $6,00 per misura (come kg/m³). Quantità superiori a 100 kg generano una spesa di $5,50 per misura (come kg/m³).</p> |
 | **Valore di costo** | Immettere il valore del costo. |

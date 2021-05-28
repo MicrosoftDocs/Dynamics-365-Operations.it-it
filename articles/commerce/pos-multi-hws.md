@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ad75430c606f959b17c887531fb62bd37caec624
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8a3c7eb9580f9155dd33f6351f37eb1edd269a3d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804309"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018635"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminali di pagamento dedicati e prompt per una stampante e un cassetto di cassa
 
@@ -50,13 +50,13 @@ La funzionalità descritta in questo argomento è supportata da Modern POS per W
 
 Questa funzionalità supporta terminali di pagamento e stampanti di ricevute utilizzabili in rete. È possibile fornire supporto per cassetti di cassa collegando il cassetti di cassa alla stampante di ricevute utilizzabile in rete tramite la porta d/k.
 
-Il supporto predefinito per questa funzionalità è fornito dal [Connettore pagamenti di Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Tuttavia, altri connettori pagamenti potrebbero essere supportati tramite il kit SDK di Commerce per pagamenti. Le stampanti di ricevute supportate includono stampanti per ricevute utilizzabili in rete di Star Micronics ed Epson.
+Il supporto predefinito per questa funzionalità è fornito dal [Connettore pagamenti di Dynamics 365 per Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Tuttavia, altri connettori pagamenti potrebbero essere supportati tramite il kit SDK di Commerce per pagamenti. Le stampanti di ricevute supportate includono stampanti per ricevute utilizzabili in rete di Star Micronics ed Epson.
 
 Per configurare le stampanti di ricevute Star Micronics, utilizzare l'utility per stampanti Star Micronics per configurare il dispositivo di modo che possa essere utilizzato in rete. Questa utility fornirà anche l'indirizzo IP del dispositivo.
 
 Per configurare le stampanti di ricevute Epson, utilizzare l'utility ePOS-Print di Epson per configurare il dispositivo in modo da utilizzare i protocolli di rete.
 
-Per ulteriori informazioni su come configurare le periferiche di rete, vedere [Panoramica sul supporto delle periferiche di rete](https://go.microsoft.com/fwlink/?linkid=2129965).
+Per ulteriori informazioni su come configurare le periferiche di rete, vedere [Panoramica sul supporto delle periferiche di rete](./dev-itpro/network-peripherals.md).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Configurare un terminale di pagamento dedicato e un prompt per una stampante e un cassetto di cassa
 
@@ -75,9 +75,9 @@ Per configurare il profilo hardware assegnato al registratore di cassa, atteners
 
     | Dispositivo | Tipo | Nome periferica | Dettagli aggiuntivi |
     |---|---|---|---|
-    | Stampante | Fallback | *Alcune* | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. L'**ID profilo ricevuta** dovrebbe essere uguale all'**ID profilo ricevuta** mappato alla stampante di rete configurata nel profilo hardware assegnato alla stazione hardware a livello di canale. |
-    | Cassetto di cassa | Fallback | *Alcune* | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |
-    | Servizio EFT | Adyen | Non applicabile | Per informazioni su come configurare il connettore Adyen predefinito, vedere [Connettore pagamenti di Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Altri connettori pagamenti possono essere supportati tramite il [kit SDK di Commerce per pagamenti](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | Stampante | Rete | *Alcune* | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. L'**ID profilo ricevuta** dovrebbe essere uguale all'**ID profilo ricevuta** mappato alla stampante di rete configurata nel profilo hardware assegnato alla stazione hardware a livello di canale. |
+    | Cassetto della cassa | Rete | *Alcune* | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |
+    | Servizio EFT | Adyen | Non applicabile | Per informazioni su come configurare il connettore Adyen predefinito, vedere [Connettore pagamenti di Dynamics 365 per Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Altri connettori pagamenti possono essere supportati tramite il [kit SDK di Commerce per pagamenti](./dev-itpro/end-to-end-payment-extension.md). |
     | Tastierino PIN | Rete | **MicrosoftAdyenDeviceV001** | Nessuna. |
 
 5. In Dynamics 365 Commerce, cercare **Registratori di cassa**.
@@ -85,7 +85,7 @@ Per configurare il profilo hardware assegnato al registratore di cassa, atteners
 7. Assegnare il profilo hardware appena creato al registratore di cassa che deve utilizzare un terminale di pagamento dedicato. Il dispositivo mappato a questo registratore di cassa deve utilizzare l'applicazione Modern POS per Windows o Modern POS per Android.
 8. Selezionare **Salva**.
 9. Nel riquadro azioni, nella scheda **Registratori di cassa**, selezionare **Configura indirizzi IP**.
-10. Nella Scheda dettaglio **Tastierino PIN**, immettere l'indirizzo IP del terminale di pagamento. Per informazioni su come ottenere l'indirizzo IP del terminale di pagamento utilizzando il connettore Adyen, vedere [Connettore di pagamento Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
+10. Nella Scheda dettaglio **Tastierino PIN**, immettere l'indirizzo IP del terminale di pagamento. Per informazioni su come ottenere l'indirizzo IP del terminale di pagamento utilizzando il connettore Adyen, vedere [Connettore di pagamento Dynamics 365 per Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3).
 11. Selezionare **Salva**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Configurare un profilo hardware per la stampante di ricevute e il cassetto di cassa
@@ -100,7 +100,7 @@ Per configurare il profilo hardware utilizzato per raggruppare la stampante di r
     | Dispositivo | Tipo | Descrizione | Dettagli aggiuntivi |
     |---|---|---|---|
     | Stampante | Rete | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. L'**ID profilo ricevuta** dovrebbe essere uguale all'**ID profilo ricevuta** mappato alla stampante di rete configurata nel profilo hardware assegnato al registratore di cassa. |
-    | Cassetto di cassa | Rete | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |
+    | Cassetto di cassa | Fallback | **Epson** o **Star** | Per il nome di dispositivo viene fatta la distinzione tra maiuscole e minuscole. Impostare l'opzione **Consenti uso turno condiviso** su **Sì**. |
 
 5. Selezionare **Salva**.
 
@@ -148,9 +148,9 @@ Agli addetti del punto vendita viene richiesto di selezionare una stazione hardw
 
 ## <a name="related-articles"></a>Articoli correlati
 
-- [Configurare l'app POS Hybrid su Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [Connettore pagamenti di Dynamics 365 per Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Panoramica sul supporto delle periferiche di rete](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [Configurare l'app POS Hybrid su Android e iOS](./dev-itpro/hybridapp.md)
+- [Connettore pagamenti di Dynamics 365 per Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [Panoramica sul supporto delle periferiche di rete](./dev-itpro/network-peripherals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

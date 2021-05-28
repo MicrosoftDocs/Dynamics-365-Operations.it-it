@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792873"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019935"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Gift card digitali per l'e-commerce
 
@@ -51,12 +51,12 @@ I prodotti della gift card digitale devono essere configurati in Commerce headqu
 
     ![Campo del prodotto gift card in Commerce headquarters](./media/PostGiftcard.png)
 
-- Se una gift card deve supportare più importi predefiniti (ad esempio, $25, $50 e $100), il campo **Dimensioni** deve essere utilizzato per impostare tali importi predefiniti. Ogni importo predefinito sarà una variante. Per ulteriori informazioni sulle dimensioni prodotto, vedi [Dimensioni del prodotto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Se una gift card deve supportare più importi predefiniti (ad esempio, $25, $50 e $100), il campo **Dimensioni** deve essere utilizzato per impostare tali importi predefiniti. Ogni importo predefinito sarà una variante. Per ulteriori informazioni sulle dimensioni prodotto, vedi [Dimensioni del prodotto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Se i clienti devono essere in grado di specificare un importo personalizzato per una gift card, imposta prima una variante che consenta un importo personalizzato. Quindi, apri il prodotto dalla pagina **Prodotti rilasciati nella categoria** quindi nella scheda dettaglio **Commerce** imposta il campo **Specifica prezzo** su **È necessario digitare un nuovo prezzo**, come mostrato nell'illustrazione seguente. Questa impostazione garantisce che i clienti possano inserire un prezzo quando esplorano il prodotto su una pagina PDP.
 
     ![Digitare il campo del prezzo in Commerce headquarters](./media/KeyInPrice.png)
 
-- La modalità di consegna di una gift card digitale deve essere impostata su **Elettronico**. Nella pagina **Modalità di consegna** (**Retail e Commerce \> Impostazione canale \> Modalità di consegna**), seleziona la modalità di consegna **Elettronico** nel riquadro elenco, quindi aggiungi il prodotto della gift card digitale alla griglia nella scheda dettaglio **Prodotti** come mostrato nell'illustrazione seguente. Per ulteriori informazioni, vedi [Impostare modalità di consegna](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- La modalità di consegna di una gift card digitale deve essere impostata su **Elettronico**. Nella pagina **Modalità di consegna** (**Retail e Commerce \> Impostazione canale \> Modalità di consegna**), seleziona la modalità di consegna **Elettronico** nel riquadro elenco, quindi aggiungi il prodotto della gift card digitale alla griglia nella scheda dettaglio **Prodotti** come mostrato nell'illustrazione seguente. Per ulteriori informazioni, vedi [Impostare modalità di consegna](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Prodotti gift card digitali nella pagina Modalità di consegna in Commerce headquarters](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Per configurare un importo personalizzato per una gift card digitale in Creazion
 
 [Creare un nuovo prodotto in Commerce](create-new-product-commerce.md)
 
-[Imposta la modalità di consegna](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Imposta la modalità di consegna](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Dimensioni prodotto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Dimensioni prodotto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [Impostare un profilo di notifica tramite posta elettronica](email-notification-profiles.md)
 

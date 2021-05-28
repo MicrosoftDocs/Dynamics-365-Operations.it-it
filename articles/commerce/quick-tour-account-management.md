@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792269"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027965"
 ---
 # <a name="account-management-pages-overview"></a>Panoramica delle pagine di gestione del conto
 
@@ -39,7 +39,7 @@ Nella figura seguente è illustrato un esempio della pagina di destinazione di g
 
 ### <a name="my-profile-page"></a>Pagina profilo
 
-La pagina **Profilo** visualizza informazioni sull'account del cliente, come il nome e il numero di telefono. Il cliente può aggiornare le informazioni del suo profilo in questa pagina. Questa pagina può essere personalizzata in modo da includere ulteriori preferenze sull'account del cliente, ad esempio un'opzione per acconsentire i messaggii e-mail di marketing.
+La pagina **Profilo** visualizza informazioni sull'account del cliente, come il nome e il numero di telefono. Il cliente può aggiornare le informazioni del profilo in questa pagina. Questa pagina può essere personalizzata in modo da includere ulteriori preferenze sull'account del cliente, ad esempio un'opzione per acconsentire i messaggii e-mail di marketing.
 
 Nella figura seguente è illustrato un esempio di pagina **Profilo** creata utilizzando la libreria di moduli.
 

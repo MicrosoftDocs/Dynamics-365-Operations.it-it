@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842059"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016958"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Transazioni e stati del ciclo di vita del prodotto
 
@@ -74,5 +74,24 @@ I seguenti campi sono disponibili per ogni processo elencato nella scheda dettag
 
 Se stai aggiungendo più regole dello stato del ciclo di vita come personalizzazione, puoi visualizzare tali regole nell'interfaccia utente selezionando **Aggiorna processi** nel riquadro superiore. I pulsante **Aggiorna processi** è disponibile solo per gli amministratori.
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Stati del ciclo di vita per prodotti rilasciati e varianti prodotto
+
+Per un prodotto che ha varianti (master e varianti), il prodotto (master) avrà uno stato del ciclo di vita e ciascuna delle varianti può anche avere uno stato del ciclo di vita diverso.
+
+Per specifici processi, se la variante o il prodotto è bloccato, anche il processo verrà bloccato. Nello specifico, per determinare se un processo è bloccato, il sistema effettuerà i seguenti controlli:
+
+- Per prodotti con controllo tecnico:
+  - Se la versione di progettazione corrente è bloccata, il processo viene bloccato.
+  - Se la variante corrente è bloccata, il processo viene bloccato.
+  - Se il prodotto rilasciato è bloccato, il processo viene bloccato.
+- Per prodotti standard:
+  - Se la variante corrente è bloccata, il processo viene bloccato.
+  - Se il prodotto rilasciato è bloccato, il processo viene bloccato.
+
+Ad esempio, supponi di voler vendere solo una variante (rossa) di un determinato prodotto (t-shirt) e di bloccare per ora le vendite di tutte le altre varianti. Potresti fare ciò utilizzando la seguente configurazione:
+
+- Assegna al prodotto uno stato del ciclo di vita che consenta il processo. Ad esempio, assegna al prodotto t-shirt lo stato del ciclo di vita *Vendibile*, che consente il processo di business *Ordine cliente*.
+- Assegna alla variante vendibile uno stato del ciclo di vita che consente il processo. Ad esempio, assegna anche alla variante rossa lo stato del ciclo di vita *Vendibile*.
+- A tutte le altre varianti viene assegnato un altro stato del ciclo di vita quando il processo viene bloccato. Ad esempio, assegna alla variante bianca (e a tutte le altre varianti) lo stato del ciclo di vita *Non vendibile*, che blocca il processo di business *Ordine cliente*.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

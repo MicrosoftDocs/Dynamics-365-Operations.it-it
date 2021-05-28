@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857275"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018833"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -158,7 +158,7 @@ i cassetti di cassa, le stampanti di ricevute e i terminali di pagamento indiriz
 
 ### <a name="dedicated"></a>Dedicata
 
-Client Modern POS per Windows e Android includono stazioni hardware integrate o **Dedicate**. Tali client possono comunicare direttamente con le periferiche utilizzando la logica aziendale integrata nelle applicazioni. L'applicazione Android supporta solo dispositivi di rete. Per ulteriori informazioni sul supporto periferico per Android, consultare l'articolo [Impostare l'app POS Hybrid su Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Client Modern POS per Windows e Android includono stazioni hardware integrate o **Dedicate**. Tali client possono comunicare direttamente con le periferiche utilizzando la logica aziendale integrata nelle applicazioni. L'applicazione Android supporta solo dispositivi di rete. Per ulteriori informazioni sul supporto periferico per Android, consultare l'articolo [Impostare l'app POS Hybrid su Android e iOS](./dev-itpro/hybridapp.md).
 
 Per utilizzare la stazione hardware dedicata, assegnare un profilo hardware a un registratore di cassa che utilizzerà Modern POS per le applicazioni Windows o Android. Quindi creare una stazione hardware di tipo **Dedicato** per il punto vendita in cui il registratore di cassa verrà utilizzato. Avviare il Modern POS  in modalità non cassetto e utilizzare l'operazione **Gestisci stazioni hardware** per attivare le funzionalità della stazione hardware; la stazione hardware dedicata sarà attiva per impostazione predefinita. Quindi, disconnettersi dal Modern POS, quindi accedere nuovamente e aprire un turno e le periferiche configurate nel profilo hardware saranno utilizzabili. 
 
@@ -199,7 +199,7 @@ Per informazioni, vedere [Configurare, installare e attivare Modern POS (MPOS)](
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Installazione e configurazione di Modern POS per Android e iOS
 
-Per informazioni, vedere [Impostare l'app POS Hybrid su Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Per informazioni, vedere [Impostare l'app POS Hybrid su Android e iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Installazione e configurazione di dispositivi OPOS
 
@@ -494,7 +494,7 @@ Questa configurazione è la configurazione più tipica per i registratori di cas
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS per Android con una stazione hardware IPC (integrata)
 
-**Nuovo per 10.0.8** - Le stampanti di rete Epson e i cassetti di cassa collegati a tali stampanti tramite la porta DK sono ora supportati per l'app Modern POS per Android. Per dettagli, consultare l'articolo [Impostare l'app POS Hybrid su Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Nuovo per 10.0.8** - Le stampanti di rete Epson e i cassetti di cassa collegati a tali stampanti tramite la porta DK sono ora supportati per l'app Modern POS per Android. Per dettagli, consultare l'articolo [Impostare l'app POS Hybrid su Android e iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Tutti i client Modern POS hanno una stazione hardware IIS "condivisa" approvata
 
@@ -614,6 +614,9 @@ Le periferiche seguenti sono state testate utilizzando la stazione hardware IPC 
 | Star         | TSP650II | Personalizzata    | Collegato tramite la rete   |
 | Star         | mPOP     | OPOS      | Collegato tramite Bluetooth |
 | HP           | F7M67AA  | OPOS      | USB alimentato             |
+
+> [!NOTE]
+> La stampante Star TSP 100 non è supportata per la stazione hardware integrata. La stazione hardware integrata utilizza un processo a 64 bit, che non è compatibile con i driver Star TP 100 esistenti. 
 
 #### <a name="bar-code-scanner"></a>Scanner di codice a barre
 

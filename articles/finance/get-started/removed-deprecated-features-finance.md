@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965312"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980899"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -35,7 +35,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.20
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>Configurazione del formato RTIR Query Invoice Data Request (HU)
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>Configurazione di formato "RTIR Query Invoice Data Request (HU)" per la creazione di report elettronici
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Obsoleto: entro il 15 aprile 2022, prevediamo di non supportare più la configurazione del formato "RTIR Query Invoice Data Request (HU)". |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>Formato per la creazione di report elettronici "File di controllo FEC in francese" per la Francia in "Output file di controllo in tedesco"
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato "File di controllo FEC (FR)" |
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Domanda di lavoro |
+| **Opzione di distribuzione**              | Tutti |
+| **Stato**                         | Deprecato: a partire dal 1 maggio 2022, prevediamo di non supportare più il formato "File di controllo FEC in francese" per la creazione di report elettronici per la Francia in "Output file di controllo in tedesco". Il nuovo formato di file di controllo FEC (FR) viene invece introdotto in "Modello di esportazione dati". |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.17
 

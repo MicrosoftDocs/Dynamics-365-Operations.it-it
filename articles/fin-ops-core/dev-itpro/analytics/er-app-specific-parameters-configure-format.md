@@ -2,7 +2,6 @@
 title: Configurare i formati di ER per utilizzare i parametri specifici per la persona giuridica
 description: In questo argomento viene descritto come configurare i formati per la creazione di report elettronici (ER) specifici per la persona giuridica.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853495"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018288"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurare i formati di ER per utilizzare i parametri specifici per la persona giuridica
 

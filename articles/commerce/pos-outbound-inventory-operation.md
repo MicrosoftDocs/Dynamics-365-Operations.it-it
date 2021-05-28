@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795647"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022733"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operazione di magazzino in uscita in POS
 
@@ -71,7 +71,7 @@ I lavori batch creati vengono utilizzati per elaborare i documenti che hanno res
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Prerequisito: aggiungere l'operazione in uscita al layout dello schermo del POS
 
-Prima che l'organizzazione possa utilizzare la funzionalità dell'operazione in uscita, è necessario configurare l'operazione del POS **Operazione in uscita** su uno o più [layout dello schermo del POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Prima di distribuire la nuova operazione in un ambiente di produzione, assicurarsi di testarla a lungo e addestrare gli utenti a usarla.
+Prima che l'organizzazione possa utilizzare la funzionalità dell'operazione in uscita, è necessario configurare l'operazione del POS **Operazione in uscita** su uno o più [layout dello schermo del POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Prima di distribuire la nuova operazione in un ambiente di produzione, assicurarsi di testarla a lungo e addestrare gli utenti a usarla.
 
 ## <a name="overview"></a>Panoramica
 

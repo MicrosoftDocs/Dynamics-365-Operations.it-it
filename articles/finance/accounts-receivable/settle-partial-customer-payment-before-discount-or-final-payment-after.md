@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835149"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027530"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Liquidare un pagamento parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto
 
@@ -38,7 +38,7 @@ Il 25 giugno, Arnie immette e registra una fattura di 1.000,00 per il cliente 40
 | FTI-10020 | Fattura          | 25/6/2015 | 10020   | 1.000,00                             |                                       | 1.000,00 | GBP      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Pagamento parziale prima della data dello sconto di cassa
-Il 2 luglio il cliente 4027 effettua un pagamento parziale di 297,00 per la fattura. Il pagamento è idoneo per uno sconto di cassa, poiché Fabrikam offre gli sconti di cassa su pagamenti parziali e il pagamento parziale viene effettuato prima della data dello sconto di cassa. Di conseguenza, il cliente 4027 ottiene uno sconto di cassa di 3,00. Arnie registra il pagamento per il cliente 4027 utilizzando il giornale di registrazione pagamenti. Arnie apre quindi la pagina **Liquida transazioni**, in modo che sia possibile contrassegnare la fattura per la liquidazione.
+Il 2 luglio il cliente 4027 effettua un pagamento parziale di 297,00 per la fattura. Il pagamento è idoneo per uno sconto di cassa, poiché Fabrikam offre gli sconti di cassa su pagamenti parziali e il pagamento parziale viene effettuato prima della data dello sconto di cassa. Di conseguenza, il cliente 4027 ottiene uno sconto di cassa di 3,00. Arnie registra il pagamento per il cliente 4027 utilizzando il giornale di registrazione pagamenti. Arnie apre quindi la pagina **Liquida transazioni**, in modo che possa contrassegnare la fattura per la liquidazione.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo Dare in valuta transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
@@ -95,7 +95,7 @@ Le informazioni di sconto vengono visualizzate nella parte inferiore della pagin
 | Sconto di cassa applicato          | 3,00      |
 | Importo sconto di cassa da applicare | 7,00      |
 
-Arnie imposta il valore nel campo **Utilizzare lo sconto di cassa** di nuovo su **Normale**, poiché non ha intenzione di applicare per il cliente lo sconto di cassa rimanente di 7,00. Arnie, quindi, registra il pagamento. Quando Arnie apre la pagina **Transazioni cliente**, vede che la fattura ha un saldo pari a 0,00. Vede inoltre che sono disponibili due pagamenti. Un pagamento è di 297,00 e ha uno sconto di cassa di 3,00 e l'altro pagamento è di 700,00.
+Arnie imposta il valore nel campo **Utilizzare lo sconto di cassa** di nuovo su **Normale**, poiché non ha intenzione di applicare per il cliente lo sconto di cassa rimanente di 7,00. Arnie, quindi, registra il pagamento. Quando Arnie apre la pagina **Transazioni cliente**, vede che la fattura ha un saldo pari a 0,00. Sono disponibili due pagamenti: Un pagamento è di 297,00 e ha uno sconto di cassa di 3,00 e l'altro pagamento è di 700,00.
 
 | Giustificativo    | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

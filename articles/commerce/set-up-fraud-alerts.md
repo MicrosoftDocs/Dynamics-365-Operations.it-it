@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8334b46f7e943e888c3a4db7580eeca30d49ad39
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 401fb9af5d2d50a14c288363af3e0b814dcbf7c6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793971"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018543"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Impostazione e utilizzo degli avvisi di frode del servizio clienti
 
@@ -34,13 +34,13 @@ In questo argomento viene descritto come impostare criteri e regole per sospende
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Attivazione della funzionalità di verifica frodi
 
-Per utilizzare la funzionalità di verifica frodi, è necessario impostare l'opzione **Attiva completamento ordine** nel canale su **Sì** quando il canale servizio clienti viene [definito](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Quando il completamento dell'ordine è attivato, gli utenti del servizio clienti devono selezionare **Completa** nella pagina dell'ordine cliente per tutti gli ordini cliente creati. L'azione Completa Complete determina l'apertura della pagina **Riepilogo ordine cliente**. Dopo che gli utenti immettono la data di pagamento richiesta nella pagina **Riepilogo ordine cliente**, selezionano **Invia** per finalizzare l'ordine. Quando l'ordine viene inviato, la funzionalità di verifica frodi viene attivata e tutte le regole che sono attivate nel sistema vengono convalidate automaticamente.
+Per utilizzare la funzionalità di verifica frodi, è necessario impostare l'opzione **Attiva completamento ordine** nel canale su **Sì** quando il canale servizio clienti viene [definito](/dynamics365/unified-operations/retail/set-up-order-processing-options). Quando il completamento dell'ordine è attivato, gli utenti del servizio clienti devono selezionare **Completa** nella pagina dell'ordine cliente per tutti gli ordini cliente creati. L'azione Completa Complete determina l'apertura della pagina **Riepilogo ordine cliente**. Dopo che gli utenti immettono la data di pagamento richiesta nella pagina **Riepilogo ordine cliente**, selezionano **Invia** per finalizzare l'ordine. Quando l'ordine viene inviato, la funzionalità di verifica frodi viene attivata e tutte le regole che sono attivate nel sistema vengono convalidate automaticamente.
 
-Gli utenti del servizio clienti possono mettere gli ordini clienti manualmente in attesa di un esame di frode prima di selezionare **Invia**. Per mettere manualmente un ordine cliente in attesa, nella pagina **Riepilogo ordine cliente** selezionare **Pausa** \> **Sospensione manuale per frode**. Verrà quindi chiesto di immettere un commento per spiegare il motivo della sospensione dell'ordine. Questo commento verrà visualizzato nel workbench [Sospensioni ordine](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) per fornire contesto all'utente che esamina gli ordini in attesa per determinare se l'ordine deve essere rilasciato.
+Gli utenti del servizio clienti possono mettere gli ordini clienti manualmente in attesa di un esame di frode prima di selezionare **Invia**. Per mettere manualmente un ordine cliente in attesa, nella pagina **Riepilogo ordine cliente** selezionare **Pausa** \> **Sospensione manuale per frode**. Verrà quindi chiesto di immettere un commento per spiegare il motivo della sospensione dell'ordine. Questo commento verrà visualizzato nel workbench [Sospensioni ordine](/dynamics365/unified-operations/retail/work-with-order-holds) per fornire contesto all'utente che esamina gli ordini in attesa per determinare se l'ordine deve essere rilasciato.
 
 Oltre alla configurazione dell'opzione **Attiva completamento ordine** nel canale, è necessario configurare la funzionalità di verifica frodi nei parametri del servizio clienti. Passare a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Parametri servizio clienti**. Nella pagina **Parametri servizio clienti** nella scheda **Sospensioni** impostare l'opzione **Verifica frodi** su **Sì**.
 
-Nella scheda **Sospensioni** occorre anche definire i [codici sospensione](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) che saranno applicati a un ordine che messo manualmente o automaticamente in attesa di esame per frode. Impostare i codici sospensione nei campi **Codice sospensione manuale per frode** e **Codice sospensione per frode**. Potrebbe essere utile creare due codici sospensione univoci, in modo che gli utenti che lavorano nel workbench delle sospensioni possano facilmente filtrare e distinguere le sospensioni automatiche da quelle manuali.
+Nella scheda **Sospensioni** occorre anche definire i [codici sospensione](/dynamics365/unified-operations/retail/work-with-order-holds) che saranno applicati a un ordine che messo manualmente o automaticamente in attesa di esame per frode. Impostare i codici sospensione nei campi **Codice sospensione manuale per frode** e **Codice sospensione per frode**. Potrebbe essere utile creare due codici sospensione univoci, in modo che gli utenti che lavorano nel workbench delle sospensioni possano facilmente filtrare e distinguere le sospensioni automatiche da quelle manuali.
 
 Perché la funzionalità di verifica frodi funzioni correttamente, è inoltre necessario impostare il campo **Punteggio minimo**. Ogni criterio e regola di frode definita nel sistema ha un punteggio. Quando un ordine cliente viene controllato alla ricerca di corrispondenze con frodi, se vengono rilevate una o più corrispondenze, i punteggi vengono aggiunti insieme per assegnare all'ordine un punteggio totale per frode. Se il punteggio totale di frode per un ordine supera il valore del campo **Punteggio minimo**, l'ordine viene messo automaticamente in attesa. È possibile utilizzare gli altri campi correlati al punteggio nella scheda **Sospensioni** per definire il punteggio di posta elettronica, il punteggio di telefono, il punteggio di codice postale/CAP e il punteggio di codice postale esteso. Se non si specifica un punteggio per questi criteri per frode statici quando li si definisce nella pagina **Dati fraudolenti statici**, il sistema assegna loro un punteggio utilizzando punteggi predefiniti che si specificano nella scheda **Sospensioni** della pagina **Parametri servizio clienti**.
 
@@ -65,7 +65,7 @@ L'ordine viene salvato, ma viene impostato il flag **Non elaborare**. Il flag as
 
 Per visualizzare e gestire gli ordini in attesa per la revisione antifrode, passare a **Retail e Commerce** \> **Clienti** \> **Sospensioni ordine**. Nella pagina **Sospensioni ordine** selezionare una voce nell'elenco e quindi fare clic su **Ordine sospeso** per avere una visualizzazione più dettagliata che include informazioni sul motivo della sospensione. Nella Scheda dettaglio **Dettagli frode**, è possibile visualizzare i criteri di frode sistematici che sono stati trovati corrispondere per l'ordine e i punteggi che sono stati applicati. Se l'ordine è stato messo in attesa manualmente, è possibile rivedere i commenti che sono stati immessi dall'utente che ha messo l'ordine in attesa guardando la sezione **Note frode** nella Scheda dettaglio **Note**.
 
-Per ulteriori informazioni su come utilizzare gli ordini sospesi, vedere [Sospensioni ordine](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+Per ulteriori informazioni su come utilizzare gli ordini sospesi, vedere [Sospensioni ordine](/dynamics365/unified-operations/retail/work-with-order-holds).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

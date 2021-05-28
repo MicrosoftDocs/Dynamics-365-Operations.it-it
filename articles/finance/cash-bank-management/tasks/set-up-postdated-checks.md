@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834598"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026207"
 ---
 # <a name="set-up-postdated-checks"></a>Impostare gli assegni postdatati
 
@@ -53,7 +53,11 @@ Il ruolo di questa procedura è Tesoriere. Questa procedura utilizza la società
     * Selezionare il conto bancario utilizzato per detrarre l'importo della fattura.  
 18. Fare clic su Salva.
 19. Chiudere la pagina.
-
-
+> [!NOTE]
+> Per poter registrare un assegno postdatato in un conto bancario quando la data della sessione è successiva o uguale alla data di scadenza, è necessario abilitare la funzionalità **Convalida della data di scadenza della registrazione del giornale di registrazione pagamenti con assegni postdatati sul conto bancario**. Questa funzionalità consente di registrare giornali di registrazione pagamenti per fornitori o clienti con assegni postdatati, quando la data della sessione è successiva o uguale alla data di scadenza.
+> 
+> Quando si imposta il **Metodo di pagamento** (**Contabilità fornitori > Impostazione pagamenti > Metodi di pagamento**), non riempire il campo **Conto provvisorio**. In questo caso, il conto di contropartita viene compilato con il conto bancario, impostato in **Metodo di pagamento**.
+>  
+> Quando la funzionalità è abilitata e la data della sessione è antecedente alla data di scadenza, viene visualizzato il seguente messaggio di errore durante la registrazione di un giornale di registrazione pagamenti: "La data di scadenza deve essere antecedente o uguale alla data della sessione se il tipo di conto di contropartita è Banca". Se la funzionalità non è abilitata, è possibile registrare un giornale di registrazione pagamenti con un assegno postdatato quando la data della sessione è inferiore alla data di scadenza.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

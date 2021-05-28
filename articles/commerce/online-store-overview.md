@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791080"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022474"
 ---
 # <a name="e-commerce-site-overview"></a>Panoramica del sito di e-commerce
 
@@ -37,11 +37,11 @@ In Dynamics 365 Commerce, si utilizza un canale punto vendita online per stabili
 
 Solo un canale punto vendita online deve essere impostato prima di poter iniziare a usare Dynamics 365 Commerce. Tuttavia, un singolo sito e-commerce può fornire l'esperienza online per più negozi online. Ad esempio, se più negozi online sono impostati per supportare diverse aree geografiche, è possibile utilizzare un singolo set di pagine e-commerce per fornire le esperienze uniche definite da ciascun negozio. Per ulteriori informazioni su come configurare un sito per supportare più negozi online, vedere [Associare un sito online a un canale](associate-site-online-store.md).
 
-Dopo aver configurato un negozio online, può essere associato al sito Dynamics 365 Commerce che fungerà da vetrina online. Per ulteriori informazioni sui negozi online e su come configurarli, vedere [Impostare i negozi online](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+Dopo aver configurato un negozio online, può essere associato al sito Dynamics 365 Commerce che fungerà da vetrina online. Per ulteriori informazioni sui negozi online e su come configurarli, vedere [Impostare i negozi online](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Distribuire un nuovo tenant di e-commerce
 
-Durante l'inizializzazione di un sito di e-commerce, viene richiesto un nome di dominio. Per ulteriori informazioni sui domini in Commerce, vedere [Configurare il nome di dominio](configure-your-domain-name.md) e [Domini in Dynamics 365 Commerce](domains-commerce.md). Per distribuire un nuovo tenant di e-commerce utilizzando [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), seguire i passaggi in [Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md). Dopo che il tenant e-commerce è stato impostato in LCS, verrà fornito un collegamento al generatore di siti di Commerce. È quindi possibile utilizzare il generatore di siti di Commerce per inizializzare e configurare i siti di e-commerce.
+Durante l'inizializzazione di un sito di e-commerce, viene richiesto un nome di dominio. Per ulteriori informazioni sui domini in Commerce, vedere [Configurare il nome di dominio](configure-your-domain-name.md) e [Domini in Dynamics 365 Commerce](domains-commerce.md). Per distribuire un nuovo tenant di e-commerce utilizzando [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), seguire i passaggi in [Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md). Dopo che il tenant e-commerce è stato impostato in LCS, verrà fornito un collegamento al generatore di siti di Commerce. È quindi possibile utilizzare il generatore di siti di Commerce per inizializzare e configurare i siti di e-commerce.
 
 ## <a name="initialize-your-e-commerce-site"></a>Inizializzare il sito e-commerce
 

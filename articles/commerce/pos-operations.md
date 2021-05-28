@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804283"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027650"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -64,7 +64,7 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 642 | Esegui tutti i prodotti | Imposta la modalità di consegna per tutte le righe su **Esegui**. | Sì | Sì | No | Sì\* | No |
 | 641 | Esegui prodotti selezionati | Imposta la modalità di consegna per le righe selezionate su **Esegui**. | Sì | Sì | Nessuno | Sì\* | Nessuno |
 | 647 | Modifica modalità di consegna | Cambiare modalità di consegna per le righe di vendita di spedizione preconfigurate. | Sì | Sì | Nessuno | Nessuno| Nessuno |
-| 1215 | Modifica password | Questa operazione consente all'utente del POS di modificare la sua password. | Sì | Sì | Sì | No | No |
+| 1215 | Modifica password | Questa operazione consente all'utente del POS di modificare la propria password. | Sì | Sì | Sì | Nessuno | Nessuno |
 | 123 | Modifica unità di misura | Modifica l'unità di misura per la voce selezionata. | Sì | Sì | No | Sì | No |
 | 639 | Cancella rappresentante predefinito su transazione | Rimuove il gruppo di vendite con provvigione (rappresentante) dalla transazione. | Sì | Sì | No | Sì | No |
 | 106 | Cancella quantità | Reimposta la quantità della riga correntemente selezionata su **1**. | Sì | Sì | No | Sì | No |

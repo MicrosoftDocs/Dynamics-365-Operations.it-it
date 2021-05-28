@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c32ffc8435c05c644bf836bb184400d067269208
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796880"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020653"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Abilitare più modalità di consegna ritiro per gli ordini cliente
 
@@ -82,7 +82,7 @@ Quando sono disponibili più modalità di consegna ritiro per un canale, viene f
 
 ## <a name="considerations-for-distributed-order-management"></a>Considerazioni per la gestione di ordini distribuiti
 
-Le funzioni di [gestione ordini distribuiti (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) in Commerce ignorano le righe di vendita contrassegnate per il ritiro in negozio. Queste funzionalità sono state aggiornate per garantire che le righe di vendita collegate alle modalità di consegna ritiro configurate ignorino la logica DOM e non vengano riallocate a un nuovo magazzino di evasione ordini.
+Le funzioni di [gestione ordini distribuiti (DOM)](./dom.md) in Commerce ignorano le righe di vendita contrassegnate per il ritiro in negozio. Queste funzionalità sono state aggiornate per garantire che le righe di vendita collegate alle modalità di consegna ritiro configurate ignorino la logica DOM e non vengano riallocate a un nuovo magazzino di evasione ordini.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

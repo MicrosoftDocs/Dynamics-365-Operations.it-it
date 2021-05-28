@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818754"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028205"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Risultati dei modelli di Machine Learning (anteprima)
 
@@ -63,8 +63,8 @@ Per iniziare ad affrontare questa domanda, considera l'accuratezza di un'ipotesi
 
 Un altro aspetto è degno di nota. Considera uno scenario in cui viene utilizzato un test medico per individuare una malattia in un paziente. Questo problema è un problema di classificazione binaria in cui un risultato positivo indica che il paziente ha la malattia. In questo scenario, devi pensare all'impatto dei seguenti errori:
 
-- Falsi positivi, dove il test dice che un paziente ha la malattia, ma in realtà non ce l'ha
-- Falsi negativi, dove il test dice che un paziente non ha la malattia, ma in realtà ce l'ha
+- Falsi positivi, dove il test dice che un paziente ha la malattia, ma in realtà non ce l'ha.
+- Falsi negativi, dove il test dice che un paziente non ha la malattia, ma in realtà ce l'ha.
 
 Ovviamente entrambi i tipi di errore non sono auspicabili, ma qual è il peggiore? Di nuovo, dipende. Nel caso di una malattia pericolosa per la vita che richiede un trattamento rapido, la riduzione al minimo dei falsi negativi (si spera seguita da test aggiuntivi) ha la priorità. In altre situazioni meno critiche, i creatori del modello potrebbero invece ridurre al minimo i falsi positivi. In ogni caso, una conclusione ragionevole è che per determinare in modo efficace la qualità di un modello, è necessario disporre di più informazioni di quelle fornite da una metrica di accuratezza.
 

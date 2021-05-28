@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827341"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028229"
 ---
 # <a name="position-forecasting"></a>Previsione delle posizioni
 
@@ -67,9 +67,9 @@ L'organizzazione in cui lavora Jodi prevede un rimborso spese di formazione pari
 
 Jodi non vuole che i responsabili possano modificare l'importo del benefit. Di conseguenza, seleziona l'opzione **Non consentire modifiche costo** nel campo **Sostituzione posizione prevista**. L'organizzazione desidera che il costo venga assegnato ogni mese in ugual misura. Di conseguenza, Jodi seleziona **Trimestrale** nel campo **Metodo di allocazione**. 
 
-In seguito, Jodi aggiunge una riga di calcolo dei costi, imposta le date e un conto principale e immette **5,00** come percentuale. L'organizzazione ha stabilito un tetto massimo di $ 5.000 all'anno per il benefit. Di conseguenza, Jodi immette tale importo come limite annuale. 
+In seguito, Jodi aggiunge una riga di calcolo dei costi, imposta le date e un conto principale e immette **5,00** come percentuale. L'organizzazione ha un tetto massimo di $ 5.000 all'anno per questo benefit. Di conseguenza, Jodi immette tale importo come limite annuale. 
 
-Infine, Jodi aggiunge tutti gli elementi di costo di reddito utilizzati per la retribuzione di base come base di calcolo. Il relativo elemento di costo del budget ora è pronto per essere utilizzato.
+Infine, Jodi aggiunge tutti gli elementi di costo di reddito utilizzati per la retribuzione di base come base di calcolo. L'elemento di costo del budget ora è pronto per essere utilizzato.
 
 ### <a name="compensation-groups"></a>Gruppi di retribuzione
 
@@ -137,7 +137,7 @@ Le righe dell'elemento di costo budget devono essere ricalcolate quando il valor
 
 **Esempio** 
 
-L'organizzazione sta valutando due opzioni per ridurre il costo di una posizione da contabile. Un'opzione consiste nella conclusione della posizione durante l'anno. L'altra opzione è di modificare la posizione a tempo a ridotto per l'intero anno. Brad ha creato una posizione prevista per la posizione esistente del contabile in uno scenario di base. Copia questa posizione prevista di base nello scenario A, fissa la data di pensionamento al 31 maggio e ricalcola. Brad quindi copia la posizione prevista di base nello scenario B, modifica il valore FTE su **0,50** e ricalcola. Brad ora ha tre versioni, ciascuna delle quali ha totali di costo allineati rispetto alle relative opzioni.
+L'organizzazione sta valutando due opzioni per ridurre il costo di una posizione da contabile. Un'opzione consiste nella conclusione della posizione durante l'anno. L'altra opzione è di modificare la posizione a tempo a ridotto per l'intero anno. Brad ha creato una posizione prevista per la posizione esistente del contabile in uno scenario di base. Brad copia questa posizione prevista di base nello scenario A, fissa la data di pensionamento al 31 maggio e ricalcola. Brad quindi copia la posizione prevista di base nello scenario B, modifica il valore FTE su **0,50** e ricalcola. Ora ha tre versioni, ciascuna delle quali ha totali di costo allineati rispetto alle opzioni.
 
 #### <a name="assigning-a-compensation-group"></a>Assegnazione di un gruppo di retribuzione
 

@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aa00e9331693600ced2f4ead399a0c005b77ad08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d29e560d0f7b2bbc2415d7a0f6fe18f2ca17dc7c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801509"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020734"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>Impossibile configurare un gruppo di sicurezza per Creazione di siti di Commerce durante la distribuzione iniziale
 
@@ -38,7 +37,7 @@ Quando si creano i componenti di e-commerce come parte del processo di distribuz
 ### <a name="provision-the-e-commerce-site-with-a-user-in-the-correct-tenant"></a>Effettuare il provisioning del sito di e-commerce con un utente nel tenant corretto
 
 1. Accedi al [portale di Azure](https://portal.azure.com/).
-1. Sotto il tenant per cui è stato eseguito il provisioning del progetto LCS per il sito di e-commerce, seguire le istruzioni in [Creare un gruppo di base e aggiungere membri utilizzando Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+1. Sotto il tenant per cui è stato eseguito il provisioning del progetto LCS per il sito di e-commerce, seguire le istruzioni in [Creare un gruppo di base e aggiungere membri utilizzando Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 1. Accedere a [LCS](https://lcs.dynamics.com/) utilizzando un account che condivide lo stesso tenant del gruppo di sicurezza Azure AD appena creato. L'account deve avere accesso per visualizzare il gruppo di sicurezza Azure AD.
 1. Completa i passaggi di configurazione per configurare il sito di e-commerce. Quando si esegue il provisioning dei componenti di e-commerce, il gruppo di sicurezza deve apparire come opzione nella finestra di dialogo.
 
@@ -47,6 +46,6 @@ Quando si creano i componenti di e-commerce come parte del processo di distribuz
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Creare un gruppo di base e aggiungere membri utilizzando Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+[Creare un gruppo di base e aggiungere membri utilizzando Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 [Distribuire un nuovo tenant di e-commerce](../deploy-ecommerce-site.md)

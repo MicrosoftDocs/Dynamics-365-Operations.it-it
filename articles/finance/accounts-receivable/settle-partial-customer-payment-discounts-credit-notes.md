@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e785d591c25669d90c91ca1b676388522da3da36
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1296dc994e43d75fd9b834acf345134494b4810
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835174"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027506"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidare un pagamento cliente parziale con sconti sulle note di accredito
 
@@ -39,7 +39,7 @@ Il cliente 4035 ha una fattura di 1.000,00 e una nota di accredito di 100,00. Ci
 | CCRN-10050 | Nota di accredito      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | GBP      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Consente di liquidare una nota di accredito con una fattura.
-Nella pagina **Transazioni cliente** Arnie apre la pagina **Liquida transazioni**. Può utilizzare la pagina **Liquida transazioni** per liquidare la fattura e la nota di accredito. Durante il processo di liquidazione visualizza le date e gli importi dello sconto di cassa. Contrassegna i due documenti e quindi fa clic su **Registra** per liquidare le transazioni. È presente uno sconto del -1,00 sulla nota di accredito, perché Fabrikam consente sconti sulle note di accredito.
+Nella pagina **Transazioni cliente** Arnie apre la pagina **Liquida transazioni**. Può utilizzare la pagina **Liquida transazioni** per liquidare la fattura e la nota di accredito. Durante il processo di liquidazione, Arnie visualizza le date e gli importi dello sconto di cassa. Contrassegna i due documenti e quindi fa clic su **Registra** per liquidare le transazioni. È presente uno sconto del -1,00 sulla nota di accredito, perché Fabrikam consente sconti sulle note di accredito.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo    | Conto | Data      | Data di scadenza  | Fattura  | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|

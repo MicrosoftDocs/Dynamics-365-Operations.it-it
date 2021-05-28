@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 829c9c5549c337c5c2b118f3027111831f2632ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814298"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027796"
 ---
 # <a name="three-way-matching-policies"></a>Criteri di abbinamento a tre elementi di verifica
 
@@ -37,9 +37,9 @@ Fabrikam opera con più persone giuridiche e dipendenti in tutto il mondo. Con l
 
 I criteri di abbinamento fatture in questo esempio sono di supporto alle persone con i ruoli seguenti nel raggiungimento di questi obiettivi:
 
--   Ken è il supervisore dell'impresa Fabrikam. Può aiutare le persone nella propria organizzazione a identificare e correggere i problemi relativi a ordini, entrate e pagamenti di articoli (beni e servizi) dei fornitori.
+-   Ken è il supervisore dell'impresa Fabrikam. Ken può aiutare le persone nell'organizzazione a identificare e correggere i problemi relativi a ordini, entrate e pagamenti di articoli (beni e servizi) dei fornitori.
 -   Phyllis e April sono responsabili della contabilità nel reparto contabilità fornitori della divisione statunitense di Fabrikam. Possono applicare i criteri aziendali e assicurarsi che le fatture vengano pagate solo dopo che sono state abbinate all'ordine fornitore e alle entrate di beni e servizi, ove applicabile.
--   Tony è responsabile di produzione nella divisione statunitense di Fabrikam. Insieme ad altri membri del personale di produzione può assicurarsi che gli articoli vengano ricevuti come sono stati ordinati ai fornitori e siano conteggiati in modo che il personale disponga del necessario per lo svolgimento delle relative mansioni.
+-   Tony è responsabile di produzione nella divisione statunitense di Fabrikam. Tony e altri membri del personale di produzione possono assicurarsi che gli articoli vengano ricevuti come sono stati ordinati ai fornitori e siano conteggiati in modo che il personale disponga del necessario per lo svolgimento delle relative mansioni.
 
 ### <a name="prerequisites"></a>Prerequisiti
 
@@ -51,13 +51,13 @@ I criteri di abbinamento fatture in questo esempio sono di supporto alle persone
 
     | Numero articolo                 | Quantità | Prezzo unitario | Importo netto | Codice spese        | Valore spese |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 - Computer CNC Milicron | 5        | 8.000,00   | 40.000,00  | Spedizione | 3.000,00      |
+    | 1500 - Computer CNC Milicron | 5        | 8.000,00   | 40.000,00  | Spedizione | 3,000.00      |
 
 -   Arnie, un addetto della contabilità clienti in Contoso, verifica le spedizioni per la settimana. Seleziona le transazioni di spedizione da fatturare a Fabrikam per la consegna dei computer CNC Milicron e include un addebito per la spedizione. Fabrikam considererà l'addebito come parte del costo del cespite.
 
 ### <a name="scenario"></a>Scenario
 
-1.  Sammy, un lavoratore nel reparto addetto al ricevimento in Fabrikam, riceve la quantità totale di computer forniti da Contoso. Immette una quantità di 5 in un'entrata prodotti. Poiché l'ordine fornitore è stato interamente ricevuto, lo stato dell'ordine fornitore cambia in Ricevuto.
+1.  Sammy, un lavoratore nel reparto addetto al ricevimento in Fabrikam, riceve la quantità totale di computer forniti da Contoso. Sammy immette una quantità di 5 in un'entrata prodotti. Poiché l'ordine fornitore è stato interamente ricevuto, lo stato dell'ordine fornitore cambia in Ricevuto.
 2.  April, che coordina la contabilità fornitori in Fabrikam, immette e verifica la fattura che viene inviata da Contoso. Verifica le informazioni seguenti:
     -   Per gli articoli che richiedono i criteri di abbinamento a tre elementi di verifica, la quantità nella riga fattura corrisponde alla quantità ricevuta. La quantità ricevuta è indicata nell'entrata prodotti abbinata alla fattura.
     -   Per gli articoli che richiedono i criteri di abbinamento a due o a tre elementi di verifica, i prezzi nella riga fattura rientrano nelle tolleranze definite in Microsoft Dynamics 365 Finance. Sono inclusi i seguenti tipi di abbinamento prezzi:
@@ -87,7 +87,7 @@ Riepilogo: Ken è il supervisore presso la sede centrale aziendale di una person
 Il volume e gli importi sono di piccola entità e si sono verificati dei problemi di consegna da parte di alcuni fornitori in Malaysia. Per questi motivi, Cassie imposta il livello di controllo per determinate combinazioni di fornitore e articolo che vengono ottenute in Malaysia sui criteri di abbinamento a tre elementi di verifica. 
 
 I criteri di abbinamento fatture in questo esempio sono di supporto alle persone con i ruoli seguenti nel raggiungimento di questi obiettivi:
--   Ken è il supervisore dell'impresa Fabrikam. Può aiutare le persone nella propria organizzazione a identificare e correggere i problemi relativi a ordini, entrate e pagamenti di articoli (beni e servizi) dei fornitori.
+-   Ken è il supervisore dell'impresa Fabrikam. Ken può aiutare le persone nell'organizzazione a identificare e correggere i problemi relativi a ordini, entrate e pagamenti di articoli (beni e servizi) dei fornitori.
 -   Cassie si occupa della contabilità nella divisione di Fabrikam in Malaysia. Può applicare i criteri aziendali e assicurarsi che le fatture vengano pagate solo dopo che sono state abbinate alle righe ordine fornitore e alle entrate prodotti che rappresentano il ricevimento di beni e servizi. Inoltre, aumenta il livello di controllo dei criteri di abbinamento a tre elementi di verifica per articoli specifici allo scopo di tenere sotto controllo i costi operativi.
 
 ### <a name="prerequisites"></a>Prerequisiti

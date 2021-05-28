@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5d4fab0eefb8e5faf36649ec4e9b1e220d18bcc8
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 8de1a51acd8eec67cb776c7e524c630968e3bc52
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5635459"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019641"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Catalogo di apprendimento per i ruoli di marketing e vendite dei partner Microsoft Commerce per Dynamics 365 Commerce
 
@@ -31,9 +31,9 @@ Per la formazione sulle funzionalità condivise con altre app Finance and Operat
 
 | Contenuto  | Descrizione  | Formatta  | Durata    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Questa esperienza di apprendimento illustra un percorso che inizia mostrando come la trasformazione digitale e la potenza delle applicazioni aziendali possono trasformare l'azienda. Verrà illustrato come Dynamics 365 e Power Platform aiuteranno a prendere decisioni informate in base alle esigenze e agli obiettivi dell'organizzazione, attraverso quattro elementi costitutivi della trasformazione digitale: moderni, unificati, intelligenti e adattabili. | Percorso di apprendimento online gratuito autonomo | 6.5 ore |
-| [Introduzione a Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, basato sulle funzionalità consolidate di Dynamics 365 Retail, offre una soluzione multicanale completa che unifica le esperienze di back office, punto vendita, servizio clienti e area Digital. Dynamics 365 Commerce consente di sviluppare la fedeltà al marchio mediante servizi personalizzati offerti ai clienti, di aumentare i ricavi con una migliore produttività dei dipendenti, di ottimizzare le operazioni per ridurre i costi e favorire l'efficacia della catena di approvvigionamento e quindi di ottenere risultati aziendali migliori. | Percorso di apprendimento online gratuito autonomo | 2 ore   |
-| [Introduzione a Dynamics 365 Fraud Protection](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection è una soluzione basata sul cloud progettata per e-commerce, negozi fisici e fornitori multicanale, per aiutare a proteggere i ricavi e la reputazione fornendo strumenti e funzionalità per ridurre frodi e abusi, diminuire le spese operative e aumentare i tassi di accettazione, proteggendo al contempo gli account utente dall'esposizione a frodi. | Percorso di apprendimento online gratuito autonomo | 35 minuti |
+| [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Questa esperienza di apprendimento illustra un percorso che inizia mostrando come la trasformazione digitale e la potenza delle applicazioni aziendali possono trasformare l'azienda. Verrà illustrato come Dynamics 365 e Power Platform aiuteranno a prendere decisioni informate in base alle esigenze e agli obiettivi dell'organizzazione, attraverso quattro elementi costitutivi della trasformazione digitale: moderni, unificati, intelligenti e adattabili. | Percorso di apprendimento online gratuito autonomo | 6.5 ore |
+| [Introduzione a Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, basato sulle funzionalità consolidate di Dynamics 365 Retail, offre una soluzione multicanale completa che unifica le esperienze di back office, punto vendita, servizio clienti e area Digital. Dynamics 365 Commerce consente di sviluppare la fedeltà al marchio mediante servizi personalizzati offerti ai clienti, di aumentare i ricavi con una migliore produttività dei dipendenti, di ottimizzare le operazioni per ridurre i costi e favorire l'efficacia della catena di approvvigionamento e quindi di ottenere risultati aziendali migliori. | Percorso di apprendimento online gratuito autonomo | 2 ore   |
+| [Introduzione a Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection è una soluzione basata sul cloud progettata per e-commerce, negozi fisici e fornitori multicanale, per aiutare a proteggere i ricavi e la reputazione fornendo strumenti e funzionalità per ridurre frodi e abusi, diminuire le spese operative e aumentare i tassi di accettazione, proteggendo al contempo gli account utente dall'esposizione a frodi. | Percorso di apprendimento online gratuito autonomo | 35 minuti |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

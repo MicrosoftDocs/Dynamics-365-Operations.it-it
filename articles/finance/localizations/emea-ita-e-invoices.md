@@ -2,7 +2,7 @@
 title: Fatture elettroniche dei clienti
 description: Questo argomento fornisce informazioni sulla gestione delle fatture elettroniche dei clienti per l'Italia.
 author: v-oloski
-ms.date: 02/24/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.: ''
 ms.technology: ''
@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: ''
 ms.search.region: Italy
 ms.author: v-oloski
-ms.openlocfilehash: d07b84e4130dfac1567e77d499b1fcf30340e72e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: ff97c806125d50c65b0002ae5447af787ff6ca21
+ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894760"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025366"
 ---
 # <a name="customer-electronic-invoices"></a>Fatture elettroniche dei clienti
 
@@ -204,6 +204,32 @@ Per definire specifici gruppi reverse charge per specifici prodotti o categorie,
 Inoltre, è necessario impostare parametri specifici dell'applicazione che utilizzano questi gruppi reverse charge.
 
 Per ulteriori informazioni su questa funzionalità, vedere la sezione "Configurazione di reverse charge" in [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
+
+### <a name="automatically-assigned-natura-codes"></a>Codici Natura assegnati automaticamente
+
+Il sistema assegna automaticamente i seguenti codici Natura, a seconda dell'operazione.
+
+| Codice    | Descrizione | Configurazione richiesta |
+|---------|-------------|------------------------|
+| N1      | Escluso ai sensi dell'art. 15 | Il campo **Tipo di IVA** del codice IVA è impostato su **Esente** e il codice IVA è associato al codice esenzione contrassegnato come **Esenzione art.15** nel campo **Motivo esenzione**. |
+| N2.2    | Non soggetto a IVA - Altri casi | Il campo **Tipo di IVA** del codice IVA è impostato su **Non soggetto a IVA**.|
+| N3.1    | Non imponibile - Esportazioni | Il campo **Tipo di IVA** del codice IVA è impostato su **Zero** e l'indirizzo del cliente è al di fuori dell'UE.|
+| N3.2    | Non imponibile - Trasferimenti intracomunitari | Il campo **Tipo di IVA** del codice IVA è impostato su **Zero** e l'indirizzo del cliente è nell'UE.|
+| N3.3    | Non imponibile - Vendite a San Marino | Il campo **Tipo di IVA** del codice IVA è impostato su **Zero** e l'indirizzo del cliente è a San Marino.|
+| N3.5    | Non imponibile - A seguito di dichiarazioni di intenti | Il campo **Tipo di IVA** del codice IVA è impostato su **Zero** e una lettera di intenti valida è registrata.|
+| N3.6    | Non imponibile - Altri casi | Questo codice è il valore predefinito per tutti gli altri casi in cui il campo **Tipo di IVA** del codice IVA non è impostato su **Standard**.|
+| N4      | Esente | Il campo **Tipo di IVA** del codice IVA è impostato su **Esente** e il codice IVA è associato a un codice esenzione non contrassegnato come **Esenzione art.15** o **Regime bordo** nel campo **Motivo esenzione**.|
+| N5      | Schema di margine/IVA non indicati sulla fattura | Il campo **Tipo di IVA** del codice IVA è impostato su **Esente** e il codice IVA è associato al codice di esenzione contrassegnato come **Regime bordo** nel campo **Motivo esenzione**.|
+| N6.1    | Reverse charge - Trasferimento di scarti e altri materiali riciclati | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Scarti** nei parametri specifici dell'applicazione.|
+| N6.2    | Reverse charge - Trasferimento di oro e argento puro | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Oro** nei parametri specifici dell'applicazione. |
+| N6.3    | Reverse charge - Conto lavoro nel settore delle costruzioni | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Conto lavoro** nei parametri specifici dell'applicazione. |
+| N6.4    | Reverse charge - Vendita di fabbricati | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Fabbricati** nei parametri specifici dell'applicazione. |
+| N6.5    | Reverse charge - Vendita di telefoni cellulari | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Telefoni cellulari** nei parametri specifici dell'applicazione.|
+| N6.6    | Reverse charge - Vendita di prodotti elettronici | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Prodotti elettronici** nei parametri specifici dell'applicazione.|
+| N6.7    | Reverse charge - Servizi per il settore edile e settori affini | Il codice IVA è contrassegnato come **Settore edile** e il relativo gruppo reverse charge è associato al valore **Scarti** nei parametri specifici dell'applicazione.|
+| N6.8    | Reverse charge - Operazioni nel settore energetico | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Settore energetico** nei parametri specifici dell'applicazione.|
+| N6.9    | Reverse charge - Altri casi | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Altro** nei parametri specifici dell'applicazione.|
+| N7      | IVA pagata in un altro stato dell'UE | Il campo **Tipo di paese** del codice IVA è impostato su **UE**. |
 
 ### <a name="invoice-types"></a><a id="invoicetypes"></a>Tipi di fattura
 

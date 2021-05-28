@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792245"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027941"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Panoramica delle pagine di checkout e del carrello
 
@@ -83,7 +83,7 @@ Il cliente può completare il processo di checkout come utente guest o come uten
 
 ### <a name="order-summary"></a>Riepilogo ordine
 
-La pagina checkout visualizza un riepilogo degli articoli nel carrello, di modo che il cliente possa verificare l'ordine prima di eseguirlo. Gli articoli non possono essere modificati durante il flusso di checkout. Un collegamento al carrello viene tuttavia fornito nel caso in cui l'utente intenda modificare gli articoli.
+La pagina checkout visualizza un riepilogo degli articoli nel carrello, di modo che il cliente possa verificare l'ordine prima di effettuarlo. Gli articoli non possono essere modificati durante il flusso di checkout. Un collegamento al carrello viene tuttavia fornito nel caso in cui l'utente intenda modificare gli articoli.
 
 Dopo che il cliente fornisce le informazioni di spedizione e fatturazione, il riepilogo dell'ordine riflette l'importo dovuto dopo l'applicazione di punti fedeltà, gift card e altri pagamenti.
 

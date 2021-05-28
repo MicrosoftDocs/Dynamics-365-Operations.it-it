@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961707"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015903"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Pianificazione generale con accordi commerciali di acquisto
 
@@ -67,7 +67,7 @@ Dopo aver preparato il sistema come descritto nella sezione precedente, è neces
 1. Ripetere questa procedura per ogni prodotto pertinente.
 
 > [!NOTE]
-> Ottimizzazione pianificazione supporta gli accordi commerciali di acquisto commerciali con più valute. Quando si cerca un accordo commerciale utilizzando l'opzione **Prezzo unitario più basso**, il sistema prenderà in considerazione le righe degli accordi commerciali di acquisto con valute diverse a condizione che sia stato definito un tasso di cambio tra la valuta della riga dell'accordo commerciale e la valuta contabile della persona giuridica. In caso contrario, la riga dell'accordo commerciale verrà ignorata e verrà visualizzato un errore durante la pianificazione generale. Pertanto, la pianificazione generale includerà le informazioni da tutte le righe degli accordi commerciali di acquisto pertinenti in cui i prezzi possono essere convertiti nella valuta contabile.
+> Ottimizzazione pianificazione supporta gli accordi commerciali di acquisto commerciali con più valute. Quando si cerca un accordo commerciale utilizzando l'opzione **Prezzo unitario più basso**, il sistema prenderà in considerazione le righe degli accordi commerciali di acquisto con valute diverse a condizione che sia stato definito un tasso di cambio tra la valuta della riga dell'accordo commerciale e la valuta contabile della persona giuridica. In caso contrario, la riga dell'accordo commerciale verrà ignorata e verrà visualizzato un errore durante la pianificazione generale. Pertanto, la pianificazione generale includerà le informazioni da tutte le righe degli accordi commerciali di acquisto pertinenti in cui i prezzi possono essere convertiti nella valuta contabile. È importante notare che le regole di arrotondamento non saranno prese in considerazione durante la conversione del prezzo di riga dell'accordo commerciale.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Esempi di come l'ottimizzazione della pianificazione trova il fornitore e i lead time
 

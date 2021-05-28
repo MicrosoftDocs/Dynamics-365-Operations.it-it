@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920957"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021371"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Supporto della funzione fiscale per ordini di trasferimento
 
@@ -41,7 +40,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
 
 1. Nella pagina **Funzionalità fiscali**, nella scheda **Versioni** seleziona la versione bozza della funzionalità, quindi selezionare **Modifica**.
 
-    ![Selezione di Modifica](../media/image1.png)
+    ![Selezione di Modifica](../media/tax-feature-support-01.png)
 
 2. Nella pagina **Configurazione funzioni fiscali** nella scheda **Codici imposta** seleziona **Aggiungi** per creare nuovi codici imposta. Per questo esempio, vengono creati tre codici imposta: **NL-Exempt**, **BE-RC-21**, e **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         4. Nella tabella **Tasso** seleziona **Aggiungi**.
         5. Imposta **Esente** su **Sì** nella sezione **Generale**.
 
-        ![Codice imposta NL-Exempt](../media/image2.png)
+        ![Codice imposta NL-Exempt](../media/tax-feature-support-02.png)
 
     - Quando un ordine di trasferimento viene ricevuto in un magazzino in Belgio, il meccanismo di reverse charge viene applicato utilizzando i codici imposta **BE-RC-21** e **BE-RC+21**.
         
@@ -67,7 +66,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         6. Imposta **Reverse Charge** su **Sì** nella sezione **Generale**.
         7. Selezionare **Salva**.
 
-        ![Codice imposta BE-RC-21 per reverse charge](../media/image3.png)
+        ![Codice imposta BE-RC-21 per reverse charge](../media/tax-feature-support-03.png)
         
         Crea il codice imposta **BE-RC+21**.
         1. Seleziona **Aggiungi**, immetti **BE-RC-21** nel campo **Codice imposta**.
@@ -77,7 +76,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         5. Immetti **21** nel campo **Aliquota imposta**.
         6. Selezionare **Salva**.
 
-        ![Codice imposta BE-RC+21 per reverse charge](../media/image4.png)
+        ![Codice imposta BE-RC+21 per reverse charge](../media/tax-feature-support-04.png)
 
 3. Definisci l'applicabilità dei codici imposta.
 

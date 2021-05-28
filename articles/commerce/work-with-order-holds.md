@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800385"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027458"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configurare e utilizzare le sospensioni degli ordini del servizio clienti
 
@@ -53,7 +53,7 @@ Dopo l'immissione e il salvataggio delle informazioni di sospensione, l'utente p
 
 Se il flag **Attiva completamento ordine** è attivato nel canale servizio clienti, non è necessario che venga applicato il pagamento a un ordine messo in attesa. Di contro, per un ordine cliente che non viene messo in attesa, gli utenti non possono uscire dalla pagina di registrazione dell'ordine cliente senza applicare il pagamento. Naturalmente, il pagamento verrà richiesto prima del rilascio della sospensione dell'ordine.
 
-Inoltre, gli utenti del servizio clienti possono inserire una sospensione manuale per frode su ordini che per qualche motivo ritengono sospetti. Gli ordini possono inoltre essere messi in attesa automaticamente quando soddisfano le regole e i criteri di frode attivi. Per ulteriori informazioni su questo tipo di sospensione ordine, vedere [Impostare avvisi antifrode](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Inoltre, gli utenti del servizio clienti possono inserire una sospensione manuale per frode su ordini che per qualche motivo ritengono sospetti. Gli ordini possono inoltre essere messi in attesa automaticamente quando soddisfano le regole e i criteri di frode attivi. Per ulteriori informazioni su questo tipo di sospensione ordine, vedere [Impostare avvisi antifrode](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Visualizzazione e gestione di ordini in attesa
 

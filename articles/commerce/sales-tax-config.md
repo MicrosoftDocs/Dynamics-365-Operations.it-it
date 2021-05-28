@@ -2,7 +2,6 @@
 title: Configurare l'IVA per gli ordini online
 description: Questo argomento fornisce una panoramica della selezione della fascia IVA per diversi tipi di ordine online in Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8df939c1a566fb63bc53e455cc6c2aa85956ac79
-ms.sourcegitcommit: 583801af75c50915ea5ffc60e831fb617d045533
+ms.openlocfilehash: fff4f39703a146412b460dacc3805fde097ab756
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853813"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021442"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Configurare l'IVA per gli ordini online
 
@@ -41,7 +40,7 @@ Quando viene effettuato un ordine online, il motore fiscale di Commerce utilizza
 
 ### <a name="order-pick-up-in-store"></a>Ritiro dell'ordine nel punto vendita
 
-Per le righe ordine con ritiro nel punto vendita o al piano strada specificato, verrà applicato il gruppo fiscale del punto vendita selezionato. Per dettagli su come configurare l'IVA per un determinato punto vendita, vedere [Impostare altre opzioni fiscali per i punti vendita](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+Per le righe ordine con ritiro nel punto vendita o al piano strada specificato, verrà applicato il gruppo fiscale del punto vendita selezionato. Per dettagli su come configurare l'IVA per un determinato punto vendita, vedere [Impostare altre opzioni fiscali per i punti vendita](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
 ## <a name="customer-account-based-taxes-for-online-orders"></a>Imposte basate sull'account del cliente per ordini online
 
@@ -71,15 +70,15 @@ La tabella seguente spiega se per gli ordini online vengono applicate imposte ba
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Impostare le imposte per i punti vendita online in base alla destinazione](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
+[Impostare le imposte per i punti vendita online in base alla destinazione](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
 
-[Panoramica dell'IVA](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
+[Panoramica dell'IVA](../finance/general-ledger/indirect-taxes-overview.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[Metodi di calcolo IVA nel campo Origine](https://docs.microsoft.com/dynamics365/finance/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/commerce/toc.json) 
+[Metodi di calcolo IVA nel campo Origine](../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[Assegnazione e sostituzioni IVA](https://docs.microsoft.com/dynamics365/supply-chain/procurement/tasks/sales-tax-assignment-overrides?toc=/dynamics365/commerce/toc.json) 
+[Assegnazione e sostituzioni IVA](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[Opzioni importo totale e intervallo per i codici IVA](https://docs.microsoft.com/dynamics365/finance/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/commerce/toc.json) 
+[Opzioni importo totale e intervallo per i codici IVA](../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
 [Calcolo dell'esenzione fiscale](tax-exempt-price-inclusive.md) 
 

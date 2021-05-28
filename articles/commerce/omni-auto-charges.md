@@ -1,6 +1,6 @@
 ---
 title: Addebiti automatici avanzati omnicanale
-description: In questo argomento vengono descritte le funzionalità per la gestione delle spese ordine aggiuntive relative agli ordini dei canali di commercio utilizzando funzionalità di addebiti automatici avanzati.
+description: In questo argomento vengono descritte le funzionalità per la gestione di altre spese ordine relative agli ordini dei canali di commercio utilizzando funzionalità di addebiti automatici avanzati.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3326f8740874083746c1566063ee7d265ee90faf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804675"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022709"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Addebiti automatici avanzati omnicanale
 
@@ -29,9 +29,9 @@ ms.locfileid: "5804675"
 
 In questo argomento vengono fornite informazioni sulla configurazione e la distribuzione delle funzionalità di addebiti automatici avanzati disponibili in Dynamics 365 for Retail versione 10.0.
 
-Quando le funzionalità di addebiti automatici avanzati sono abilitate, per gli ordini creati in qualsiasi canale di commercio (POS, servizio clienti e online) è possibile utilizzare le configurazioni degli [addebiti automatici](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definite nell'applicazione ERP per le spese correlate a livello di riga e intestazione.
+Quando le funzionalità di addebiti automatici avanzati sono abilitate, per gli ordini creati in qualsiasi canale di commercio (POS, servizio clienti e online) è possibile utilizzare le configurazioni degli [addebiti automatici](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definite nell'applicazione ERP per le spese correlate a livello di riga e intestazione.
 
-Nelle versioni precedenti alla versione 10.0 di Retail, le configurazioni di [addebiti automatici](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sono accessibili solo tramite ordini creati nei canali e-Commerce e servizio clienti. Nelle versioni 10.0 e successive, gli ordini creati dal POS possono utilizzare le configurazioni degli addebiti automatici. In tal modo, le spese varie aggiuntive possono essere aggiunte in modo sistematico alle transazioni di vendita.
+Nelle versioni precedenti alla versione 10.0 di Retail, le configurazioni di [addebiti automatici](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sono accessibili solo tramite ordini creati nei canali e-Commerce e servizio clienti. Nelle versioni 10.0 e successive, gli ordini creati dal POS possono utilizzare le configurazioni degli addebiti automatici. In tal modo, le spese varie extra possono essere aggiunte in modo sistematico alle transazioni di vendita.
 
 Quando si utilizzano le versioni precedenti alla versione 10.0, a un utente POS viene richiesto di immettere manualmente le spese di spedizione durante la creazione di una transazione POS "Spedisci tutto" o "Spedizione selezionata". Sebbene le funzionalità relative alle spese varie dell'applicazione siano utilizzate secondo il modo in cui le spese sono scritte nell'ordine, non viene fornito un calcolo sistematico; il calcolo è basato sull'input dell'utente per determinare il valore delle spese. Le spese possono essere aggiunte solo come singolo codice spese relativo alla "spedizione" e non possono essere modificate facilmente nel POS dopo la creazione.
 
@@ -39,7 +39,7 @@ L'utilizzo di richieste manuali per l'aggiunta di spese di spedizione è ancora 
 
 Con le funzionalità di addebiti automatici avanzati, gli utenti POS possono avere calcoli sistematici per qualsiasi spese varie definite basate sulle tabelle di impostazione degli addebiti automatici. Inoltre, gli utenti avranno la possibilità di aggiungere o modificare un numero illimitato di spese e commissioni aggiuntive a una transazione di vendita POS a livello di riga o intestazione (per un ordine cliente o cash and carry).
 
-## <a name="enabling-advanced-auto-charges"></a>Abilitazione degli addebiti automatici avanzati
+## <a name="enable-advanced-auto-charges"></a>Abilitare gli addebiti automatici avanzati
 
 Nella pagina **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di commercio**, passare alla scheda **Ordini cliente**. Nella scheda Dettaglio **Addebiti**, immettere **Utilizza addebiti automatici avanzati** su **Sì**.
 
@@ -49,11 +49,11 @@ Quando gli addebiti automatici avanzati sono abilitati, agli utenti non viene pi
 
 Quando gli addebiti automatici avanzati sono abilitati, i **parametri di commercio** esistenti per **Codice spese di spedizione** e **Rimborso spese di spedizione** non sono più utilizzati. Questi parametri sono applicabili solo se il parametro **Utilizza addebiti automatici avanzati** è impostato su **No**.
 
-Prima di abilitare questa funzionalità, assicurarsi di formare i dipendenti, in quanto la funzionalità abilitata modifica il flusso di processo aziendale relativo al modo in cui le spese di spedizione o altre spese sono calcolate e aggiunte agli ordini cliente POS. Assicurarsi di comprendere l'impatto del flusso di processo sulla creazione delle transazioni dal POS. Per gli ordini e-Commerce e del servizio clienti, l'impatto dell'abilitazione degli addebiti automatici avanzati è minimo. Le applicazioni e-Commerce e del servizio clienti continueranno ad avere lo stesso comportamento in relazione alle tabelle di addebiti automatici per calcolare ulteriori spese di ordine. Gli utenti dei canali servizio utenti continueranno ad avere la possibilità di modificare manualmente gli addebiti automatici calcolati dal sistema a livello di riga o intestazione o di aggiungere manualmente ulteriori spese varie a livello di riga o di intestazione.
+Prima di abilitare questa funzionalità, assicurarsi di formare i dipendenti, in quanto la funzionalità abilitata modifica il flusso di processo aziendale relativo al modo in cui le spese di spedizione o altre spese sono calcolate e aggiunte agli ordini cliente POS. Assicurarsi di comprendere l'impatto del flusso di processo sulla creazione delle transazioni dal POS. Per gli ordini e-Commerce e del servizio clienti, l'impatto dell'abilitazione degli addebiti automatici avanzati è minimo. Le applicazioni e-Commerce e del servizio clienti continueranno ad avere lo stesso comportamento in relazione alle tabelle di addebiti automatici per calcolare spese di ordine extra. Gli utenti dei canali servizio utenti continueranno ad avere la possibilità di modificare manualmente gli addebiti automatici calcolati dal sistema a livello di riga o intestazione o di aggiungere manualmente ulteriori spese varie a livello di riga o di intestazione.
 
-## <a name="additional-pos-operations"></a>Ulteriori operazioni POS
+## <a name="add-pos-operations"></a>Aggiungere operazioni POS
 
-Affinché gli addebiti automatici avanzati funzionino correttamente nell'ambiente dell'applicazione POS sono state aggiunte nuove operazioni POS. Queste operazioni devono essere aggiunte ai [layout dello schermo POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) e distribuite ai dispositivi POS quando si distribuiscono gli addebiti automatici avanzati. Se queste operazioni non sono aggiunte, gli utenti non potranno gestire le spese varie nelle transazioni POS e non potranno rettificare o modificare i valori spese calcolati in modo sistematico in base alle configurazioni di addebiti automatici. Si consiglia di distribuire almeno l'operazione **Gestisci spese** al layout POS.
+Affinché gli addebiti automatici avanzati funzionino correttamente nell'ambiente dell'applicazione POS sono state aggiunte nuove operazioni POS. Queste operazioni devono essere aggiunte ai [layout dello schermo POS](/dynamics365/unified-operations/retail/pos-screen-layouts) e distribuite ai dispositivi POS quando si distribuiscono gli addebiti automatici avanzati. Se queste operazioni non sono aggiunte, gli utenti non potranno gestire le spese varie nelle transazioni POS e non potranno rettificare o modificare i valori spese calcolati in modo sistematico in base alle configurazioni di addebiti automatici. Si consiglia di distribuire almeno l'operazione **Gestisci spese** al layout POS.
 
 Le nuove operazioni sono descritte di seguito.
 
@@ -74,7 +74,7 @@ In questa sezione vengono presentati casi di utilizzo di esempio allo scopo di f
 
 #### <a name="use-case-scenario"></a>Scenario del caso di utilizzo
 
-Un rivenditore desidera aggiungere automaticamente le spese di spedizione quando si creano transazioni in qualsiasi canale di commercio che richiedono la spedizione dei prodotti al cliente. Il rivenditore offre due metodi di consegna: Su strada e Via aerea. Se un cliente sceglie la consegna Su strada e il valore dell'ordine è inferiore a $100, il rivenditore vuole addebitare al cliente una spesa di trasporto di $10. Se il valore dell'ordine è superiore a $100 e il cliente sceglie la spedizione via terra, al cliente non saranno addebitate ulteriori spese di spedizione. Se il cliente sceglie la spedizione Via aerea per tutti gli ordini, indipendentemente dal valore totale degli stessi, gli verranno addebitate delle spese di spedizione di $20.
+Un rivenditore desidera aggiungere automaticamente le spese di spedizione quando si creano transazioni in qualsiasi canale di commercio che richiedono la spedizione dei prodotti al cliente. Il rivenditore offre due metodi di consegna: Su strada e Via aerea. Se un cliente sceglie la consegna Su strada e il valore dell'ordine è inferiore a $100, il rivenditore vuole addebitare al cliente una spesa di trasporto di $10. Se il valore dell'ordine è superiore a $100 e il cliente sceglie la spedizione via terra, al cliente non saranno addebitate spese di spedizione extra. Se il cliente sceglie la spedizione Via aerea per tutti gli ordini, indipendentemente dal valore totale degli stessi, gli verranno addebitate delle spese di spedizione di $20.
 
 #### <a name="setup-and-configuration"></a>Impostazione e configurazione
 
@@ -142,7 +142,7 @@ Se la spesa deve essere considerata come una spesa relativa alla "spedizione" ne
 
 Inviare le spese a Commerce Scale Unit/database canale di modo che il POS possa utilizzarle eseguendo il processo **1040 - Programmazione della distribuzione**.
 
-L'operazione **Aggiungi spese intestazione** deve essere configurata nel [layout dello schermo POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) di modo che sia possibile chiamare questa operazione (141) tramite un pulsante accessibile all'utente dal POS. Le modifiche al layout dello schermo devono essere distribuite al canale nonché attraverso la funzione di programmazione della distribuzione.
+L'operazione **Aggiungi spese intestazione** deve essere configurata nel [layout dello schermo POS](/dynamics365/unified-operations/retail/pos-screen-layouts) di modo che sia possibile chiamare questa operazione (141) tramite un pulsante accessibile all'utente dal POS. Le modifiche al layout dello schermo devono essere distribuite al canale nonché attraverso la funzione di programmazione della distribuzione.
 
 #### <a name="sales-processing-of-manual-header-charges"></a>Elaborazione delle vendite delle spese intestazione manuali
 
@@ -164,7 +164,7 @@ Se la spesa deve essere considerata come relativa alla "spedizione" nell'ambito 
 
 Inviare le spese a Commerce Scale Unit/database canale di modo che il POS possa utilizzarle eseguendo il processo **1040 - Programmazione della distribuzione**.
 
-L'operazione **Aggiungi spese riga** deve essere configurata nel [layout dello schermo POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) di modo che sia possibile chiamare questa operazione (140) tramite un pulsante accessibile all'utente dal POS. Le modifiche al layout dello schermo devono essere distribuite al canale nonché attraverso la funzione di programmazione della distribuzione.
+L'operazione **Aggiungi spese riga** deve essere configurata nel [layout dello schermo POS](/dynamics365/unified-operations/retail/pos-screen-layouts) di modo che sia possibile chiamare questa operazione (140) tramite un pulsante accessibile all'utente dal POS. Le modifiche al layout dello schermo devono essere distribuite al canale nonché attraverso la funzione di programmazione della distribuzione.
 
 #### <a name="sales-processing-of-the-manual-line-charge"></a>Elaborazione delle vendite delle spese riga manuali
 
@@ -176,7 +176,7 @@ Lo stesso processo può essere applicato nel call center mediante la funzionalit
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>Modifica delle spese in una transazione di vendita POS
 
-L'operazione **Gestisci spese** (142) deve essere aggiunta al [layout dello schermo POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) di modo che un utente possa visualizzare e modificare o sostituire qualsiasi spesa a livello di riga o di intestazione creata manualmente o calcolata dal sistema. Se l'operazione non viene aggiunta, gli utenti non potranno rettificare il valore delle spese nella transazione POS e nemmeno visualizzare i dettagli delle spese come il tipo di codice spese associato alla spesa.
+L'operazione **Gestisci spese** (142) deve essere aggiunta al [layout dello schermo POS](/dynamics365/unified-operations/retail/pos-screen-layouts) di modo che un utente possa visualizzare e modificare o sostituire qualsiasi spesa a livello di riga o di intestazione creata manualmente o calcolata dal sistema. Se l'operazione non viene aggiunta, gli utenti non potranno rettificare il valore delle spese nella transazione POS e nemmeno visualizzare i dettagli delle spese come il tipo di codice spese associato alla spesa.
 
 Nella pagina **Gestisci spese** nel POS, l'utente può visualizzare i dettagli relativi alle spese a livello di intestazione o riga. L'utente può utilizzare la funzione **Modifica** disponibile in questa pagina per apportare modifiche all'importo addebitato a una specifica riga spese. Quando una riga spese viene sovrascritta manualmente, non verrà ricalcolata in modo sistematico a meno che l'utente non esegua l'operazione **Ricalcola spese**.
 
@@ -197,7 +197,7 @@ Le spese non vengono rimborsate sistematicamente agli **ordini di reso** creati 
 I seguenti elementi di ricevuta sono stati aggiunti alla riga e al piè di pagina delle ricevute per supportare la funzionalità di addebiti automatici avanzati.
 
 - **Spese di spedizione riga** – Questo elemento a livello di riga può essere utilizzato per ricapitolare specifici codici spese applicati alla riga di vendita. Solo i codici spese che sono stati contrassegnati come spese di **Spedizione** nella pagina **Codice spese** saranno visualizzati qui.
-- **Altre spese riga** – Questo elemento a livello di riga può essere utilizzato per ricapitolare qualsiasi codice spese non di spedizione applicato alla riga di vendita. Questi sono codici spese in cui il flag **Spedizione** nella pagina **Codice spese** non è stato abilitato.
+- **Altre spese riga** – Questo elemento a livello di riga può essere utilizzato per ricapitolare qualsiasi codice spese non di spedizione applicato alla riga di vendita. **Altre spese riga** sono codici spese in cui il flag **Spedizione** nella pagina **Codice spese** non è stato abilitato.
 - **Dettagli spese di spedizione ordine** – Questo elemento a livello di piè di pagina visualizza le descrizioni dei codici spese applicati all'ordine che sono stati contrassegnati come spese di **Spedizione** nella pagina di impostazione **Codice spese**.
 - **Spese di spedizione ordine** – Questo elemento a livello di piè di pagina mostra il valore in dollari delle spese correlate alla spedizione.
 - **Dettagli altre spese ordine** – Questo elemento a livello di piè di pagina visualizza la descrizione dei codici spese applicati all'ordine che non sono stati contrassegnati come spese relative alla spedizione.

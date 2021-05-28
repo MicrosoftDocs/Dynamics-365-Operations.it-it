@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944415"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980951"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -58,7 +58,10 @@ Le unità di scala possiedono i seguenti dati:
   - **Ordini di trasferimento** (solo in uscita con semplici operazioni di prelievo e carico)
 
 - **Dati di ricevimento ordini di magazzino** - Questi dati vengono utilizzati solo per gli ordini fornitore rilasciati manualmente a un magazzino.
-- **Dati di targa** - Le targhe possono essere create sull'hub e sull'unità di scala. È stata fornita una gestione dei conflitti dedicata. S noti che questi dati non sono specifici del magazzino.
+- **Dati di targa** - Le targhe possono essere create sull'hub e sulle unità di scala. Viene fornita una gestione dei conflitti dedicata. 
+
+    > [!IMPORTANT]
+    > I dati di targa non sono specifici del magazzino. Se lo stesso numero di targa viene creato sia sull'hub che su un'unità di scala durante lo stesso ciclo di sincronizzazione, la sincronizzazione successiva avrà esito negativo. In questo caso, selezionare **Amministrazione sistema> Richieste di informazioni > Richieste carico di lavoro> Record duplicati**, dove è possibile visualizzare e unire i dati.
 
 ## <a name="outbound-process-flow"></a>Flusso di elaborazione in uscita
 

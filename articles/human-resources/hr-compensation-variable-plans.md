@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800881"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027772"
 ---
 # <a name="create-variable-compensation-plans"></a>Creare piani di retribuzione variabile
 
@@ -49,7 +49,7 @@ Il **piano di retribuzione variabile** contiene le regole, i metodi di calcolo e
 L'importo del premio variabile può basarsi su una percentuale del reddito di base regolare del dipendente o su un numero stabilito di unità.
 
 -   Selezionare l'opzione **Percentuale della base** per immettere una percentuale predefinita e specificare se la base deve essere la tariffa di retribuzione fissa del dipendente o il punto di controllo per il livello retributivo del dipendente. Il livello retributivo viene impostato sulla mansione del dipendente. Uno dei punti di riferimento dalla struttura retributiva può essere impostato come punto di controllo nel piano di retribuzione fissa. Il sistema utilizzerà il livello retributivo della mansione del dipendente e lo incrocerà con il punto di controllo elencato nel piano di retribuzione fissa del dipendente per trovare l'importo del punto di controllo per il livello retributivo del dipendente. L'importo del punto di controllo verrà quindi utilizzato in sostituzione della retribuzione fissa del dipendente come base per il premio.
--   Selezionare l'opzione **Numero di unità** per immettere un numero di unità predefinito, il valore di ciascuna unità e la valuta del valore unitario se il piano di retribuzione è relativo a un premio non in contanti (ad esempio, 200 unità di scorte che vengono valutate a 40 EUR) o solo il numero di unità se il piano di retribuzione è relativo a un premio in contanti. Per un premio in contanti, il dipendente riceverà il numero di unità specificate della valuta utilizzata per il proprio piano di retribuzione fissa, ad esempio 500 unità di 1 EUR. Il controllo della relazione uno-a-uno può essere utilizzato per indicare se esiste un mapping uno-a-uno diretto tra il numero di unità e il valore unitario. Quando si crea un piano di retribuzione variabile per un piano basato su contanti usando il numero di unità, questa viene automaticamente bloccata su **Sì** e il valore unitario è **1,0000**.
+-   Selezionare l'opzione **Numero di unità** per immettere un numero di unità predefinito, il valore di ciascuna unità e la valuta del valore unitario se il piano di retribuzione è relativo a un premio non in contanti (ad esempio, 200 unità di scorte che vengono valutate a 40 EUR) o solo il numero di unità se il piano di retribuzione è relativo a un premio in contanti. Per un premio in contanti, il dipendente riceverà il numero di unità specificate della valuta utilizzata per il piano di retribuzione fissa, ad esempio 500 unità di 1 EUR. Il controllo della relazione uno-a-uno può essere utilizzato per indicare se esiste un mapping uno-a-uno diretto tra il numero di unità e il valore unitario. Quando si crea un piano di retribuzione variabile per un piano basato su contanti usando il numero di unità, questa viene automaticamente bloccata su **Sì** e il valore unitario è **1,0000**.
 
 L'impostazione **Regola di assunzione** consente di specificare se tutti i dipendenti devono ricevere lo stesso aumento, indipendentemente dalla data in cui sono stati assunti (**Regola di assunzione** = **Nessuno**) o se i dipendenti devono ottenere una percentuale del premio in base alla durata dell'impiego durante il ciclo (**Regola di assunzione** = **Percentuale**). 
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9eeaac1c9198502b3888c4bf0a2f43edfc75f185
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7ff7ea28f8417d4c35f87e0d8fef46d647f42e4
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797046"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019104"
 ---
 # <a name="commerce-home-page"></a>Home page di Commerce
 
@@ -44,7 +44,7 @@ Questa versione consente di creare esperienze digitali utilizzando strumenti di 
 
 Selezionare l'area di una funzionalità per ulteriori informazioni.
 - [Configurare un ambiente di anteprima Commerce](provisioning-guide.md)
-- [Architettura di Commerce](retail-components.md)
+- [Architettura di Commerce](./commerce-architecture.md)
 - [Impostare i canali](channels-overview.md)
 - [Merchandising di prodotti e servizi](set-up-retail-products.md)
 - [Gestire gli ordini](Order-fulfillment-overview.md)

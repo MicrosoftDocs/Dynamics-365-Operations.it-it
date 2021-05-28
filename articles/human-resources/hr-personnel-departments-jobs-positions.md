@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803587"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027892"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
 
@@ -120,7 +120,7 @@ Quando si assegna un lavoratore a una posizione, tale posizione viene coperta. �
 
 Le posizioni sono elementi importanti del livello inferiore di una gerarchia organizzativa. Nel modulo Posizione è possibile specificare la posizione gerarchicamente superiore a una posizione. Quando si assegna un lavoratore a una posizione che ha una posizione superiore, viene creata una relazione gerarchica tra i lavoratori assegnati alle due posizioni. Ad esempio, la posizione “Ragioniere-A" risponde alla posizione superiore "Supervisore contabile". Kim Akers viene assegnata alla posizione “Supervisore contabile" e Sanjay Patel alla posizione “Ragioniere-A”. Ciò significa che Kim Akers è il superiore gerarchico di Sanjay Patel. 
 
-Se l'organizzazione utilizza una gerarchia a matrice o un'altra gerarchia personalizzata, è possibile impostare i tipi di gerarchia delle posizioni e aggiungere le relazioni gerarchiche alle posizioni per ogni tipo di gerarchia impostata. Ad esempio, Lori Penor è una responsabile generale in Adventure Works e viene assegnata alla posizione "Responsabile generale". Lori gestisce lo sviluppo di un prodotto che viene utilizzato per eseguire la pulitura dei congegni meccanici. Lori ha bisogno dell'assistenza di un ragioniere per gli aspetti finanziari dello sviluppo del prodotto. Di conseguenza, ha assunto Sanjay Patel come proprio ragioniere. Sanjay risponde direttamente a Kim Akers, ma lavora anche con Lori Penor relativamente agli aspetti finanziari dello sviluppo del prodotto per la pulitura dei congegni. 
+Se l'organizzazione utilizza una gerarchia a matrice o un'altra gerarchia personalizzata, è possibile impostare i tipi di gerarchia delle posizioni e aggiungere le relazioni gerarchiche alle posizioni per ogni tipo di gerarchia impostata. Ad esempio, Lori Penor è una responsabile generale in Adventure Works e viene assegnata alla posizione "Responsabile generale". Lori gestisce lo sviluppo di un prodotto che viene utilizzato per eseguire la pulitura dei congegni meccanici. Lori ha bisogno dell'assistenza di un ragioniere per gli aspetti finanziari dello sviluppo del prodotto. Di conseguenza, ha assunto Sanjay Patel come ragioniere. Sanjay risponde direttamente a Kim Akers, ma lavora anche con Lori Penor relativamente agli aspetti finanziari dello sviluppo del prodotto per la pulitura dei congegni. 
 
 Per l'esempio precedente, vanno completate le seguenti attività per impostare la relazione di lavoro tra Sanjay Patel e Lori Penor:
 1.  Creare un tipo di gerarchia di posizioni personalizzato, denominato "Congegni", per creare una gerarchia che include le posizioni responsabili per le attività sul prodotto per la pulitura dei congegni.
