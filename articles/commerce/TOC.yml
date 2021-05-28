@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Miglioramenti alla gestione di cassa
                       href: cash-mgmt.md
-                    - name: Ricerca in magazzino nel POS
-                      href: product-variants-POS.md
                     - name: Sospendere e riprendere le transazioni nel POS
                       href: pos-suspend-recall-transactions.md
                     - name: Funzionalità POS offline
@@ -710,10 +708,12 @@
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
                     - name: Operazione di magazzino in ingresso in POS
                       href: pos-inbound-inventory-operation.md
-                    - name: Operazione di magazzino in uscita in POS
+                    - name: Operazione di inventario in uscita in POS
                       href: pos-outbound-inventory-operation.md
                     - name: Calcolare la disponibilità scorte per i canali di vendita al dettaglio
                       href: calculated-inventory-retail-channels.md
+                    - name: Operazione di ricerca in magazzino in POS
+                      href: pos-inventory-lookup-operation.md
                 - name: Ordini fornitore
                   items:
                     - name: Panoramica degli ordini fornitore
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: Creare un progetto di pacchetto di estensioni POS
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Crea un file appx con estensione Modern POS
+                    - name: Crea un file .appx per un pacchetto di estensione Modern POS
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Eseguire il debug di un'estensione POS
+                    - name: Eseguire il debug di estensioni POS
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Creazione e distribuzione dei pacchetti di estensione
+                      items:
+                        - name: Creare un pacchetto di estensione Modern POS
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: Firma del codice di un pacchetto di estensione Modern POS (MSIX)
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Creare un pacchetto di estensione Cloud POS
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Migrare un'estensione POS al modello di pacchetto indipendente
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Guida allo sviluppo di estensioni POS
+                      items:
+                        - name: Nozioni di base sull'estensione POS
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Creare una visualizzazione personalizzata in POS
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: Usare i controlli POS nelle estensioni
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Attività
+                          items:
+                            - name: Utilizzare Knockout.js nelle estensioni POS
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Utilizzare le API Commerce headless personalizzate
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Estendibilità dell'Hardware Station
               items:
                 - name: Hardware Station ed estendibilità
