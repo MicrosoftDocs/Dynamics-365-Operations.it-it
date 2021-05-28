@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff16d8e2e75a877e5ca7de604c7915e908473da6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 381d8bb0939f6c4c163477990e49382201487375
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792707"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019909"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>Modificare le dimensioni finanziarie per le transazioni di vendita al dettaglio
 
@@ -34,7 +34,7 @@ Per modificare le dimensioni finanziare per le transazioni di vendita al dettagl
 
 1. Aprire la pagina **Configurazione dimensione finanziaria per integrazione applicazioni**.
 1. Selezionare il record **Integrazione dimensioni predefinite**.
-1. Nella Scheda dettaglio **Dimensioni finanziarie**, assicurarsi che tutte le dimensioni che si desidera modificare nel foglio di lavoro Excel siano presenti nell'elenco **Selezionata**. Per ulteriori informazioni, vedere [Entità di dati](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration#data-entities).
+1. Nella Scheda dettaglio **Dimensioni finanziarie**, assicurarsi che tutte le dimensioni che si desidera modificare nel foglio di lavoro Excel siano presenti nell'elenco **Selezionata**. Per ulteriori informazioni, vedere [Entità di dati](../fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration.md#data-entities).
 1. Scaricare e aprire il file Excel dalla pagina **Rendiconti**, la pagina **Transazioni vendita al dettaglio** o il riquadro **Errori di convalida transazioni** nell'area di lavoro **Dati finanziari punto vendita**.
 1. Per modificare la dimensione finanziaria della transazione, selezionare **Progettazione**, quindi selezionare il simbolo della matita accanto alla riga **Transazione (verificabile)**.
 1. Trovare e selezionare il campo **FinancialDimensionDisplayValue**, selezionare una cella nella parte dell'intestazione del foglio di lavoro di Excel, quindi selezionare **Aggiungi etichetta**.
