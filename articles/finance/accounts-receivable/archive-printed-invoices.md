@@ -5,7 +5,6 @@ author: ilyako
 ms.date: 03/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,50 +15,50 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5b0305381ee709ce52b18d171a1ea274e2126cce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827700"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018980"
 ---
-# <a name="archive-printed-customer-invoices-with-hash-numbers"></a><span data-ttu-id="36887-103">Archiviare le fatture cliente stampate con numeri hash</span><span class="sxs-lookup"><span data-stu-id="36887-103">Archive printed customer invoices with hash numbers</span></span>
+# <a name="archive-printed-customer-invoices-with-hash-numbers"></a><span data-ttu-id="fb0e5-103">Archiviare le fatture cliente stampate con numeri hash</span><span class="sxs-lookup"><span data-stu-id="fb0e5-103">Archive printed customer invoices with hash numbers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="36887-104">In alcuni paesi, esiste un requisito legale per memorizzare i numeri hash calcolati nel sistema insieme alla stampa di alcuni documenti.</span><span class="sxs-lookup"><span data-stu-id="36887-104">In some countries, there is a legal requirement to store calculated hash numbers in the system together with printouts of some documents.</span></span> <span data-ttu-id="36887-105">I numeri hash possono essere utilizzati per il reporting alle autorità e durante gli audit.</span><span class="sxs-lookup"><span data-stu-id="36887-105">Hash numbers can be used for reporting to authorities and during audits.</span></span>
+<span data-ttu-id="fb0e5-104">In alcuni paesi, esiste un requisito legale per memorizzare i numeri hash calcolati nel sistema insieme alla stampa di alcuni documenti.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-104">In some countries, there is a legal requirement to store calculated hash numbers in the system together with printouts of some documents.</span></span> <span data-ttu-id="fb0e5-105">I numeri hash possono essere utilizzati per il reporting alle autorità e durante gli audit.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-105">Hash numbers can be used for reporting to authorities and during audits.</span></span>
 
-<span data-ttu-id="36887-106">In questo argomento viene descritto come configurare l'archiviazione per archiviare fatture cliente stampate con numeri hash.</span><span class="sxs-lookup"><span data-stu-id="36887-106">This topic explains how to configure archiving in order to store printed customer invoices with hash numbers.</span></span>
+<span data-ttu-id="fb0e5-106">In questo argomento viene descritto come configurare l'archiviazione per archiviare fatture cliente stampate con numeri hash.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-106">This topic explains how to configure archiving in order to store printed customer invoices with hash numbers.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="36887-107">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="36887-107">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="fb0e5-107">Prerequisiti</span><span class="sxs-lookup"><span data-stu-id="fb0e5-107">Prerequisites</span></span>
 
-- <span data-ttu-id="36887-108">Nell'area di lavoro **Gestione funzionalità**, attivare la funzionalità **Archivia fatture cliente stampate con numeri hash**.</span><span class="sxs-lookup"><span data-stu-id="36887-108">In the **Feature management** workspace, turn on the feature, **Archive printed customer invoices with hash numbers**.</span></span> <span data-ttu-id="36887-109">Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="36887-109">For more information, see [Feature management overview](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
-- <span data-ttu-id="36887-110">Configurare i formati stampabili dei documenti necessari in **Gestione stampa**.</span><span class="sxs-lookup"><span data-stu-id="36887-110">Configure the printable formats of required documents in **Print management**.</span></span>
+- <span data-ttu-id="fb0e5-108">Nell'area di lavoro **Gestione funzionalità**, attivare la funzionalità **Archivia fatture cliente stampate con numeri hash**.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-108">In the **Feature management** workspace, turn on the feature, **Archive printed customer invoices with hash numbers**.</span></span> <span data-ttu-id="fb0e5-109">Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="fb0e5-109">For more information, see [Feature management overview](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+- <span data-ttu-id="fb0e5-110">Configurare i formati stampabili dei documenti necessari in **Gestione stampa**.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-110">Configure the printable formats of required documents in **Print management**.</span></span>
 
-<span data-ttu-id="36887-111">Questa funzionalità è applicabile ai seguenti documenti.</span><span class="sxs-lookup"><span data-stu-id="36887-111">This functionality is applicable to the following documents.</span></span>
+<span data-ttu-id="fb0e5-111">Questa funzionalità è applicabile ai seguenti documenti.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-111">This functionality is applicable to the following documents.</span></span>
 
-<span data-ttu-id="36887-112">**Contabilità clienti**</span><span class="sxs-lookup"><span data-stu-id="36887-112">**Accounts receivable**</span></span>
-- <span data-ttu-id="36887-113">Fattura cliente</span><span class="sxs-lookup"><span data-stu-id="36887-113">Customer invoice</span></span>
-- <span data-ttu-id="36887-114">Nota di credito cliente</span><span class="sxs-lookup"><span data-stu-id="36887-114">Customer credit note</span></span>
-- <span data-ttu-id="36887-115">Fattura a testo libero</span><span class="sxs-lookup"><span data-stu-id="36887-115">Free text invoice</span></span>
-- <span data-ttu-id="36887-116">Nota di accredito a testo libero</span><span class="sxs-lookup"><span data-stu-id="36887-116">Free text credit note</span></span>
+<span data-ttu-id="fb0e5-112">**Contabilità clienti**</span><span class="sxs-lookup"><span data-stu-id="fb0e5-112">**Accounts receivable**</span></span>
+- <span data-ttu-id="fb0e5-113">Fattura cliente</span><span class="sxs-lookup"><span data-stu-id="fb0e5-113">Customer invoice</span></span>
+- <span data-ttu-id="fb0e5-114">Nota di credito cliente</span><span class="sxs-lookup"><span data-stu-id="fb0e5-114">Customer credit note</span></span>
+- <span data-ttu-id="fb0e5-115">Fattura a testo libero</span><span class="sxs-lookup"><span data-stu-id="fb0e5-115">Free text invoice</span></span>
+- <span data-ttu-id="fb0e5-116">Nota di accredito a testo libero</span><span class="sxs-lookup"><span data-stu-id="fb0e5-116">Free text credit note</span></span>
 
-<span data-ttu-id="36887-117">**Gestione progetti e contabilità**</span><span class="sxs-lookup"><span data-stu-id="36887-117">**Project management and accounting**</span></span>
-- <span data-ttu-id="36887-118">Fattura progetto</span><span class="sxs-lookup"><span data-stu-id="36887-118">Project invoice</span></span>
-- <span data-ttu-id="36887-119">Nota di accredito progetto</span><span class="sxs-lookup"><span data-stu-id="36887-119">Project credit note</span></span>
+<span data-ttu-id="fb0e5-117">**Gestione progetti e contabilità**</span><span class="sxs-lookup"><span data-stu-id="fb0e5-117">**Project management and accounting**</span></span>
+- <span data-ttu-id="fb0e5-118">Fattura progetto</span><span class="sxs-lookup"><span data-stu-id="fb0e5-118">Project invoice</span></span>
+- <span data-ttu-id="fb0e5-119">Nota di accredito progetto</span><span class="sxs-lookup"><span data-stu-id="fb0e5-119">Project credit note</span></span>
 
-## <a name="configure-customer-master-data"></a><span data-ttu-id="36887-120">Configurare i dati master dei clienti</span><span class="sxs-lookup"><span data-stu-id="36887-120">Configure customer master data</span></span>
-<span data-ttu-id="36887-121">Completare i seguenti passaggi per configurare i dati del cliente e attivare la possibilità di salvare automaticamente le fatture stampate come allegati.</span><span class="sxs-lookup"><span data-stu-id="36887-121">Complete the following steps to configure customer data and turn on the ability to automatically save printed invoices as attachments.</span></span>
+## <a name="configure-customer-master-data"></a><span data-ttu-id="fb0e5-120">Configurare i dati master dei clienti</span><span class="sxs-lookup"><span data-stu-id="fb0e5-120">Configure customer master data</span></span>
+<span data-ttu-id="fb0e5-121">Completare i seguenti passaggi per configurare i dati del cliente e attivare la possibilità di salvare automaticamente le fatture stampate come allegati.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-121">Complete the following steps to configure customer data and turn on the ability to automatically save printed invoices as attachments.</span></span>
 
-1. <span data-ttu-id="36887-122">Selezionare **Contabilità clienti** > **Tutti i clienti**.</span><span class="sxs-lookup"><span data-stu-id="36887-122">Go to **Accounts receivable** > **All customers**.</span></span> 
-2. <span data-ttu-id="36887-123">Seleziona un cliente e nella Scheda dettaglio **Fattura e consegna**, nella sezione **FATTURA ELETTRONICA**, nel campo **Allegato fattura elettronica**, selezionare **Sì**.</span><span class="sxs-lookup"><span data-stu-id="36887-123">Select a customer, and on the **Invoice and delivery** FastTab, in the **E-INVOCE** section, in the **eInvoice attachment** field, select **Yes**.</span></span>
+1. <span data-ttu-id="fb0e5-122">Selezionare **Contabilità clienti** > **Tutti i clienti**.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-122">Go to **Accounts receivable** > **All customers**.</span></span> 
+2. <span data-ttu-id="fb0e5-123">Seleziona un cliente e nella Scheda dettaglio **Fattura e consegna**, nella sezione **FATTURA ELETTRONICA**, nel campo **Allegato fattura elettronica**, selezionare **Sì**.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-123">Select a customer, and on the **Invoice and delivery** FastTab, in the **E-INVOCE** section, in the **eInvoice attachment** field, select **Yes**.</span></span>
 
-## <a name="print-invoices"></a><span data-ttu-id="36887-124">Stampare fatture</span><span class="sxs-lookup"><span data-stu-id="36887-124">Print invoices</span></span>
-<span data-ttu-id="36887-125">È possibile registrare e stampare qualsiasi nota di accredito o fattura a testo libero, cliente e di progetto per il cliente configurato nella procedura precedente.</span><span class="sxs-lookup"><span data-stu-id="36887-125">You can post and print any free text, customer, and project invoice or credit note for the customer configured in the previous procedure.</span></span>
+## <a name="print-invoices"></a><span data-ttu-id="fb0e5-124">Stampare fatture</span><span class="sxs-lookup"><span data-stu-id="fb0e5-124">Print invoices</span></span>
+<span data-ttu-id="fb0e5-125">È possibile registrare e stampare qualsiasi nota di accredito o fattura a testo libero, cliente e di progetto per il cliente configurato nella procedura precedente.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-125">You can post and print any free text, customer, and project invoice or credit note for the customer configured in the previous procedure.</span></span>
 
-<span data-ttu-id="36887-126">Aprire la pagina **Allegati** per la fattura stampata.</span><span class="sxs-lookup"><span data-stu-id="36887-126">Open the **Attachments** page for the printed invoice.</span></span> <span data-ttu-id="36887-127">Nella Scheda dettaglio **Allegato**, nel gruppo di campi **Dettagli aggiuntivi**, nel campo **Numero hash documento** trovare il numero hash memorizzato calcolato per la fattura stampata.</span><span class="sxs-lookup"><span data-stu-id="36887-127">On the **Attachment** FastTab, in the **Additional details** field group, in **Document hash number** field, find the stored hash number calculated for the printed invoice.</span></span>
+<span data-ttu-id="fb0e5-126">Aprire la pagina **Allegati** per la fattura stampata.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-126">Open the **Attachments** page for the printed invoice.</span></span> <span data-ttu-id="fb0e5-127">Nella Scheda dettaglio **Allegato**, nel gruppo di campi **Dettagli aggiuntivi**, nel campo **Numero hash documento** trovare il numero hash memorizzato calcolato per la fattura stampata.</span><span class="sxs-lookup"><span data-stu-id="fb0e5-127">On the **Attachment** FastTab, in the **Additional details** field group, in **Document hash number** field, find the stored hash number calculated for the printed invoice.</span></span>
 
 ![Numero hash allegato](media/attach-hash-num.jpg)
 
