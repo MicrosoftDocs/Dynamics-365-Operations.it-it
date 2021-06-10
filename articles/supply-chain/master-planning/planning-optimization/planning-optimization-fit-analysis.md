@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812981"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049438"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
@@ -89,13 +89,13 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Produzione | Piani che includono la sequenza: _\#_ | Questa funzione è in sospeso. Attualmente, la sequenza viene ignorata quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | Ottobre 2021 - aprile 2022 |
 | Produzione | Ordini di produzione rilasciati non ancora avviati, il cui avvio programmato è precedente alla data odierna: _\#_ | Questa funzione è in sospeso. Attualmente, se un ordine di produzione viene ritardato, la pianificazione generale presumerà che sarà completato oggi. Ciò è rilevante per gli ordini di produzione rilasciati in cui una data di consegna è nel passato, ma non è stata ancora completata. | Ottobre 2021 - aprile 2022 |
 | Produzione | Risorse programmate con capacità limitata: _\#_ | Questa funzione è in sospeso. Attualmente, le risorse programmate con capacità limitata vengono ignorate quando è abilitata l'ottimizzazione della pianificazione. La programmazione viene eseguita in base al tempo di consegna predefinito dal prodotto. | Non finita: giugno 2021, Finita: ottobre 2021 |
-| Produzione | Cicli di lavorazione utilizzati nella pianificazione: _\#_ | Questa funzione è in sospeso. Attualmente, i cicli di lavorazione vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. Viene utilizzato il lead time predefinito dal prodotto. | 2021 giugno |
+| Produzione | Cicli di lavorazione utilizzati nella pianificazione: _\#_ | Questa funzione è in sospeso. Attualmente, i cicli di lavorazione vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. Viene utilizzato il lead time predefinito dal prodotto. | Luglio 2021 |
 | Produzione | Prenotazione riga vendite mediante esplosione: _\#_ | La prenotazione della riga di vendita che utilizza l'esplosione non è supportata quando l'ottimizzazione della pianificazione è abilitata. | 2021 ottobre |
 | Produzione | Programmazione con esplosione degli ordini di produzione: _\#_ | La programmazione che utilizza l'esplosione degli ordini di produzione non è supportata quando l'ottimizzazione della pianificazione è abilitata. Gli ordini di produzione possono essere programmati singolarmente. | 2021 ottobre |
 | Richieste di offerta | Piani generali con richieste di offerte abilitate: _\#_ | Questa funzione è in sospeso. Al momento, le richieste di offerta (RdO) non sono considerate richieste quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | Ottobre 2021 - aprile 2022 |
 | Richieste | Piani generali con richieste abilitate: _\#_ | Questa funzionalità è ora supportata. Per ulteriori informazioni, vedi [Richieste di acquisto](purchase-requisitions.md) | Supportata |
-| Margini di sicurezza | Gruppi di copertura con margine di sicurezza: _\#_ | Questa funzionalità è ora parzialmente supportata. Per ulteriori informazioni, vedi [Margini di sicurezza](safety-margins.md) | Margine di ricevimento: supportato. Margine di riordino e margine di emissione: aprile 2021 |
-| Margini di sicurezza | Piani generali con margine di sicurezza: _\#_ | Questa funzionalità è ora parzialmente supportata. Per ulteriori informazioni, vedi [Margini di sicurezza](safety-margins.md) | Margine di ricevimento: supportato. Margine di riordino e margine di emissione: aprile 2021 |
+| Margini di sicurezza | Gruppi di copertura con margine di sicurezza: _\#_ | Questa funzionalità è ora parzialmente supportata. Per ulteriori informazioni, vedi [Margini di sicurezza](safety-margins.md) | Margine di ricevimento: supportato. Margine di riordino e margine di emissione: ottobre 2021 |
+| Margini di sicurezza | Piani generali con margine di sicurezza: _\#_ | Questa funzionalità è ora parzialmente supportata. Per ulteriori informazioni, vedi [Margini di sicurezza](safety-margins.md) | Margine di ricevimento: supportato. Margine di riordino e margine di emissione: ottobre 2021 |
 | Garanzia scorte di sicurezza | Record di copertura articoli con "Soddisfa minimo" diverso da "Data odierna + tempo di approvvigionamento": _\#_ | L'ottimizzazione della pianificazione utilizza sempre *Data odierna + tempo di approvvigionamento*. Questa modifica viene apportata per preparare una configurazione di pianificazione semplificata in futuro e per fornire un risultato utile. Se il tempo di approvvigionamento non è incluso per la scorta di sicurezza, gli ordini pianificati creati per le scorte a disponibilità ridotta saranno sempre posticipati a causa dei tempi di consegna. Questo comportamento può causare disturbi significativi e ordini pianificati indesiderati. Come procedura consigliata cambiare l'impostazione in modo che venga usato *Data odierna + tempo di approvvigionamento*. Aggiorna i dati master per evitare avvisi. | N/D |
 | Offerte di vendita | Piani generali con offerte di vendita abilitate: _\#_ | Questa funzione è in sospeso. Attualmente, le offerte non sono considerate quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | Ottobre 2021 - aprile 2022 |
 | Durata a scaffale | Piani generali con durata a scaffale abilitata: _\#_ | Questa funzione è in sospeso. Attualmente, la durata a scaffale non viene considerata quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | 2021 ottobre |

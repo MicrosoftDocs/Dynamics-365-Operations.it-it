@@ -2,7 +2,7 @@
 title: Visualizzazioni salvate
 description: In questo argomento viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744617"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050558"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -126,17 +126,26 @@ Per pubblicare una visualizzazione, attenersi alla procedura riportata di seguit
 5. **Aggiornamento 10.0.17 o successive:** se la funzionalità **(Anteprima) Supporto alla traduzione per le visualizzazioni dell'organizzazione** è attivata, è possibile aggiungere traduzioni per il nome della visualizzazione in tutte le lingue richieste dalla propria organizzazione selezionando il pulsante **Traduzioni** accanto al campo **Nome**. Il nome della visualizzazione verrà quindi mostrato agli utenti nella loro lingua corrente. È inoltre possibile impostare la lingua predefinita per specificare la traduzione che verrà mostrata agli utenti che utilizzano lingue per le quali non è definita alcuna traduzione.
 5. Facoltativo: immettere una descrizione per la visualizzazione, in modo che gli utenti che ricevono questa visualizzazione possano comprenderne meglio lo scopo. 
 6. Determinare se la visualizzazione deve essere pubblicata come visualizzazione predefinita per gli utenti selezionati. Quando una visualizzazione viene impostata come predefinita, gli utenti la vedranno la prossima volta che apriranno la pagina di destinazione. La visualizzazione predefinita globale singola di ogni utente interessato verrà modificata. Tuttavia, gli utenti possono comunque modificare la visualizzazione predefinita dopo la pubblicazione.
-7. Aggiungere i ruoli di sicurezza corrispondenti agli utenti che sono interessati da questa visualizzazione. 
-8. Determinare se si desidera pubblicare la visualizzazione nei ruoli figlio di ciascun ruolo di sicurezza selezionato. In tal caso, selezionare la casella di controllo **Includi ruoli figlio** nella riga per i ruoli di sicurezza appropriati. Questa casella di controllo non è disponibile per i ruoli che non hanno ruoli figlio.
-9. Aggiungere le persone giuridiche per cui la visualizzazione deve essere disponibile. 
-10. Selezionare **Pubblica**
+
+    > [!NOTE]
+    > Tenere presente quanto segue quando si pubblica una visualizzazione come visualizzazione predefinita: 
+    > -  Se si pubblica una visualizzazione come predefinita su tutte o alcune persone giuridiche, si modifica la visualizzazione predefinita singola **globale** di ogni utente interessato. 
+    > -  Se un utente ha ruoli in cui più visualizzazioni vengono pubblicate come predefinite, l'ultima visualizzazione pubblicata verrà utilizzata come visualizzazione predefinita dell'utente. 
+
+8. Aggiungere i ruoli di sicurezza corrispondenti agli utenti che sono interessati da questa visualizzazione. 
+9. Determinare se si desidera pubblicare la visualizzazione nei ruoli figlio di ciascun ruolo di sicurezza selezionato. In tal caso, selezionare la casella di controllo **Includi ruoli figlio** nella riga per i ruoli di sicurezza appropriati. Questa casella di controllo non è disponibile per i ruoli che non hanno ruoli figlio.
+10. Aggiungere le persone giuridiche per cui la visualizzazione deve essere disponibile. 
+
+    > [!NOTE]
+    > Tenere presente le seguenti aspettative quando si pubblica una visualizzazione per una persona giuridica.
+    > 
+    > Se si pubblica una visualizzazione su una persona giuridica, ma non la si pubblica come visualizzazione predefinita, gli utenti inizialmente vedranno la visualizzazione nel selettore solo per le persone giuridiche specificate. Tuttavia, dopo che la visualizzazione è stata caricata per la prima volta, sarà sempre nel selettore di visualizzazioni dell'utente per quella pagina, indipendentemente dalla persona giuridica.
+
+11. Selezionare **Pubblica**
 
 Da notare che in alcuni ambienti la visualizzazione pubblicata sarà visibile solo dopo un certo tempo (fino a un'ora).
 
-> [!NOTE]
-> Tenere presente le seguenti aspettative quando si pubblica una visualizzazione su una persona giuridica o quando si pubblica una visualizzazione come predefinita.
-> - Se si pubblica una visualizzazione come predefinita su tutte o alcune persone giuridiche, si modifica la visualizzazione predefinita singola globale di ogni utente interessato. Se un utente ha ruoli in cui più visualizzazioni vengono pubblicate come predefinite, l'ultima visualizzazione pubblicata verrà utilizzata come visualizzazione predefinita dell'utente. 
-> - Se si pubblica una visualizzazione su una persona giuridica, ma non la si pubblica come visualizzazione predefinita, gli utenti inizialmente vedranno la visualizzazione nel selettore solo per le persone giuridiche specificate. Tuttavia, dopo che la visualizzazione è stata caricata per la prima volta, sarà sempre nel selettore di visualizzazioni dell'utente per quella pagina, indipendentemente dalla persona giuridica. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Modifica di una visualizzazione pubblicata
 
