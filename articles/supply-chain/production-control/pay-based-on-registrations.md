@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814828"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103001"
 ---
 # <a name="pay-based-on-registrations"></a>Retribuzione basata sulle registrazioni
 
@@ -168,9 +168,9 @@ Per configurare il sistema in modo da distinguere chiaramente l'orario standard 
 
 Nella pagina **Parametri di calcolo**, selezionare **Straordinario** come tipo di specifica profilo e impostare l'opzione **Tempo retribuito** su **No**, come illustrato qui.
 
-| Specifica reg. | Tipo di specifica profilo | Calcolo   |     | Pagato         |     |
+| Specifica reg. | Tipo di specifica profilo | Calcolo   | Impostazione | Retribuito         | Impostazione |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Orario di lavoro       | Straordinario                   | Orario standard | Sì | Tempo retribuito     | No  |
+| Orario di lavoro       | Straordinario                   | Orario standard | Sì | Tempo retribuito     | Nessuno  |
 |                    |                            | Tempo retribuito      | Sì | Straordinario retribuito | Sì |
 
 Dopo la rettifica dei parametri di calcolo, vengono generati gli elementi di retribuzione seguenti.
@@ -559,7 +559,7 @@ Per contro, se la casella di controllo **Detrai straordinario** è deselezionata
 
 Nel seguente esempio viene illustrato come il conto flessibilità di un lavoratore può essere ridotto convertendo il periodo di assenza in un periodo di flessibilità in difetto.
 
-Il lavoratore entra alle 7:00 ed esce alle 13:00. Ha raggiunto un accordo con il supervisore secondo il quale può stare a casa durante il fine settimana se deduce queste ore dal suo conto flessibilità. Quando il lavoratore esce alle 13:00, gli viene richiesto di selezionare un codice assenza, in quanto il periodo di assenza per la parte rimanente della giornata lavorativa interessata non è compresa in un periodo di flessibilità in difetto pianificato. Per convertire la parte rimanente della giornata lavorativa in periodo di flessibilità in difetto, il lavoratore può selezionare un codice assenza impostato per ridurre il proprio conto di flessibilità.
+Il lavoratore entra alle 7:00 ed esce alle 13:00. Il lavoratore ha un contratto per cui può tornare a casa per il fine settimana se deduce queste ore dal proprio account flessibile. Quando il lavoratore esce alle 13:00, gli viene richiesto di selezionare un codice assenza, in quanto il periodo di assenza per la parte rimanente della giornata lavorativa interessata non è compresa in un periodo di flessibilità in difetto pianificato. Per convertire la parte rimanente della giornata lavorativa in periodo di flessibilità in difetto, il lavoratore può selezionare un codice assenza impostato per ridurre il proprio conto di flessibilità.
 
 Per ridurre il saldo delle ore flessibili per i lavoratori che registrano un'assenza in un giorno lavorativo, selezionare **Orario e presenze** &gt; **Impostazione** &gt; **Gruppi** &gt; **Gruppi assenze** e selezionare la casella di controllo **Riduci flessibilità**.
 

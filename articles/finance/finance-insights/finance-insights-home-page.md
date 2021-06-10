@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
+ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898062"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6086991"
 ---
 # <a name="finance-insights-home-page-preview"></a>Home page informazioni dettagliate finanziarie (anteprima)
 
@@ -123,10 +123,5 @@ Dati dimostrativi per una proposta di budget:
 ## <a name="feedback-and-support"></a>Feedback e supporto
 
 Invia un messaggio e-mail a [Informazioni dettagliate sui pagamenti dei clienti (anteprima)](mailto:fiap@microsoft.com) se sei interessato a fornire feedback o hai bisogno di supporto.
-
-## <a name="privacy-notice"></a>Informativa sulla privacy
-
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

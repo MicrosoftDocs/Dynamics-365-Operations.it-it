@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908954"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049318"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installare e connettere l'app per dispositivi mobili Gestione magazzino
 
@@ -295,5 +295,9 @@ Se un dispositivo è perso o compromesso, è necessario rimuovere l'accesso a Su
 1. Sulla barra degli strumenti, seleziona **Elimina**.
 1. Nel messaggio di conferma visualizzato, seleziona **Sì**.
 
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Impostazioni utente dispositivo mobile](mobile-device-user-settings.md)
+- [Assegnare icone e titoli dei passaggi per l'app per dispositivi mobili Warehouse Management](step-icons-titles.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

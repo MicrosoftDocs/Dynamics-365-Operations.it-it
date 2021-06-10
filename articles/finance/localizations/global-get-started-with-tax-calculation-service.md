@@ -2,7 +2,7 @@
 title: Introduzione a Calcolo imposte
 description: In questo argomento viene illustrato come configurare Calcolo imposte.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
+ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018881"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6060565"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Introduzione a Calcolo imposte
 
@@ -41,7 +41,7 @@ La configurazione consiste in quattro passaggi principali:
 
 Prima di poter completare le procedure in questo argomento, è necessario soddisfare i seguenti prerequisiti:
 
-- Hai l'accesso al tuo account LCS e hai distribuito un progetto LCS con un ambiente di livello 2 (o successivo) che esegue Dynamics 365 versione 10.0.18 o successiva.
+- Hai l'accesso al tuo account LCS e hai distribuito un progetto LCS con un ambiente di livello 2 (o successivo) che esegue Dynamics 365 versione 10.0.18 con [KB4616360](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a) o successiva.
 - Hai l'accesso al tuo account RCS.
 - Hai contattato Microsoft per abilitare la versione di anteprima nel tuo ambiente Finance o Supply Chain Management distribuito.
 
@@ -127,7 +127,7 @@ Dopo aver completato la configurazione in RCS, come descritto nella sezione prec
 
 La configurazione in questa sezione viene eseguita dalla persona giuridica. Devi configurarla per ogni persona giuridica per cui vuoi abilitare Calcolo imposte in Finance.
 
-1. In Finance, vai a **Imposta** \> **Impostazioni** \> **Configurazione fiscale** \> **Configurazione del componente aggiuntivo per il calcolo delle imposte (anteprima)**.
+1. In Finance, vai a **Imposta** \> **Impostazioni** \> **Configurazione fiscale** \> **Configurazione del calcolo delle imposte (anteprima)**.
 2. Nella scheda **Generale**, impostare i seguenti campi:
 
     - **Abilita Calcolo imposte** - Seleziona questa casella di controllo per abilitare il componente aggiuntivo Calcolo imposte per la persona giuridica. Se non è abilitato per la persona giuridica corrente, la persona giuridica continuerà a utilizzare il motore fiscale esistente per determinare e calcolare le imposte.

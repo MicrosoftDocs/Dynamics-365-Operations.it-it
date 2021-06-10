@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82104e401f21c459081f48a5d1f9a0a264288106
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c6e329c2219c57f83ef02f9fa224bcac84fb83fa
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794831"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055462"
 ---
 # <a name="create-a-goal"></a>Creare un obiettivo
 
@@ -30,8 +29,8 @@ ms.locfileid: "5794831"
 1. Passare a Tutte le aree di lavoro > Dipendente self-service.
 2. Fare clic su Visualizza tutti gli obiettivi
 3. Fare clic su Nuovo.
-4. Nel campo Nome, digitare 'Completamento del progetto Contoso'.
-5. Nel campo Panoramica, immettere 'Completerò il progetto Contoso in 30 giorni'.
+4. Nel campo Nome, digita "Completamento del progetto Contoso".
+5. Nel campo Panoramica, immetti "Completerò il progetto Contoso in 30 giorni".
     * Gli obiettivi possono essere applicati a un singolo, a un team o a una società. L'impostazione predefinita per gli obiettivi Dipendente è Singolo.  
 6. Nel campo Categoria obiettivo immettere o selezionare un valore.
 7. Nel campo Data di inizio, modificare la data indicata.

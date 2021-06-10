@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673642729aa41fa3c00a09fe8fe205edd0624c7
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832972"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088467"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Supporto a doppia valuta per l'IVA
 [!include [banner](../includes/banner.md)]
@@ -42,8 +42,9 @@ Per ulteriori informazioni sulla doppia valuta, fare riferimento a [Doppia valut
 Come conseguenza del supporto per la doppia valuta, sono disponibili due nuove funzionalità nella gestione delle funzionalità: 
 
 - Conversione IVA (novità nella versione 10.0.13)
+- Immettere le dimensioni finanziarie nei conti profitti/perdite della rettifica valutaria realizzati per la liquidazione dell'imposta sulle vendite (nuovo nella versione 10.0.17)
 
-Il supporto per doppia valuta per l'IVA garantisce che le imposte vengano calcolate accuratamente nella valuta fiscale e che il saldo della liquidazione IVA sia calcolato con precisione sia nella valuta contabile che nella valuta di dichiarazione. 
+Il supporto per doppia valuta per l'IVA garantisce che le imposte vengano calcolate accuratamente nella valuta fiscale e che il saldo della liquidazione IVA sia calcolato con precisione sia nella valuta contabile che nella valuta di dichiarazione.
 
 ## <a name="sales-tax-conversion"></a>Conversione IVA
 
@@ -88,6 +89,10 @@ Questa funzione si applica solo alle nuove transazioni. Per le transazioni impos
 
 Per evitare lo scenario precedente, si consiglia di modificare questo valore di parametro in un nuovo periodo di liquidazione delle imposte (pulito) che non contenga alcuna transazione fiscale non liquidata. Per modificare questo valore nel mezzo di un periodo di dichiarazione fiscale, eseguire il programma "Liquida e registra IVA" per il periodo di liquidazione imposte corrente prima di modificare questo valore di parametro.
 
+Questa funzionalità aggiungerà voci contabili che chiariscono i guadagni e le perdite dagli scambi di valuta. Le registrazioni verranno effettuate nei conti profitti e perdite di rettifica della valuta quando la rivalutazione viene effettuata durante la liquidazione dell'imposta sulle vendite. Per ulteriori informazioni, vedi la sezione [Saldo automatico della liquidazione imposte nella valuta di dichiarazione](#tax-settlement-auto-balance-in-reporting-currency) più avanti in questo argomento.
+
+> [!NOTE]
+> Durante la liquidazione, le informazioni per le dimensioni finanziarie vengono prese dai conti IVA, che sono conti di stato patrimoniale, e inserite nei conti profitti e perdite di rettifica valutaria, che sono conti di conto profitti e perdite. Poiché le restrizioni sul valore delle dimensioni finanziarie differiscono tra i conti dello stato patrimoniale e i conti del conto profitti e perdite, può verificarsi un errore durante il processo di liquidazione e post IVA. Per evitare di dover modificare le strutture dei conti, è possibile attivare la funzione "Compila dimensioni finanziarie nei conti profitti/perdite di rettifica valutaria realizzati per la liquidazione delle imposte sulle vendite". Questa funzionalità costringerà la derivazione delle dimensioni finanziarie ai conti profitti/perdite di aggiustamento valutario. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Tracciare l'importo delle imposte in valuta di dichiarazione
 
@@ -114,7 +119,7 @@ Utilizzando l'esempio precedente per dimostrare questa funzionalità, si suppong
 | Valuta di contabilizzazione             | 100                        | 111                       | 83                       | **83.25**          |
 | Valuta dichiarazione              | 100                        | 111                       | 83                       | **83**             |
 
-Quando si esegue il programma di liquidazione dell'IVA alla fine del mese, la voce contabile sarà la seguente:
+Quando si esegue il programma di liquidazione dell'IVA alla fine del mese, la voce contabile sarà la seguente.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Scenario: conversione IVA = "valuta di contabilizzazione"
 
 | Conto principale           | Valuta transazione (GBP) | Valuta contabile (USD) | Valuta di dichiarazione (GBP) |
