@@ -8,49 +8,48 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd2e0465230d40c95c1bc115a34a2ce3369ccb81
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3c3149749568f07d68022066d7cc9964db5f2ffc
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793515"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058874"
 ---
-# <a name="define-new-departments"></a><span data-ttu-id="fb875-103">Definire nuovi reparti</span><span class="sxs-lookup"><span data-stu-id="fb875-103">Define new departments</span></span>
+# <a name="define-new-departments"></a><span data-ttu-id="8e167-103">Definire nuovi reparti</span><span class="sxs-lookup"><span data-stu-id="8e167-103">Define new departments</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="fb875-104">I reparti sono unità operative che rappresentano un'area funzionale di un'azienda, ad esempio vendite o contabilità.</span><span class="sxs-lookup"><span data-stu-id="fb875-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="fb875-105">Molte società hanno gerarchie organizzative che includono diversi reparti all'interno di un'azienda.</span><span class="sxs-lookup"><span data-stu-id="fb875-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="fb875-106">In questa procedura vengono descritti i passaggi per creare i reparti e aggiungere tali reparti a una gerarchia di reparti delle organizzazioni.</span><span class="sxs-lookup"><span data-stu-id="fb875-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="fb875-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="fb875-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="8e167-104">I reparti sono unità operative che rappresentano un'area funzionale di un'azienda, ad esempio vendite o contabilità.</span><span class="sxs-lookup"><span data-stu-id="8e167-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="8e167-105">Molte società hanno gerarchie organizzative che includono diversi reparti all'interno di un'azienda.</span><span class="sxs-lookup"><span data-stu-id="8e167-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="8e167-106">In questa procedura vengono descritti i passaggi per creare i reparti e aggiungere tali reparti a una gerarchia di reparti delle organizzazioni.</span><span class="sxs-lookup"><span data-stu-id="8e167-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="8e167-107">La società di dati dimostrativi utilizzata per creare questa procedura è USMF.</span><span class="sxs-lookup"><span data-stu-id="8e167-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="fb875-108">Passare a Risorse umane > Reparti > Reparti.</span><span class="sxs-lookup"><span data-stu-id="fb875-108">Go to Human resources > Departments > Departments.</span></span>
-2. <span data-ttu-id="fb875-109">Fare clic su Nuovo per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="fb875-109">Click New to open the drop dialog.</span></span>
-3. <span data-ttu-id="fb875-110">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="fb875-110">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="fb875-111">Esempio: fatturazione progetto</span><span class="sxs-lookup"><span data-stu-id="fb875-111">Example: Project billing</span></span>  
-4. <span data-ttu-id="fb875-112">Digitare un valore nel campo Promemoria.</span><span class="sxs-lookup"><span data-stu-id="fb875-112">In the Memo field, type a value.</span></span>
-    * <span data-ttu-id="fb875-113">Esempio: fatturazione progetto</span><span class="sxs-lookup"><span data-stu-id="fb875-113">Example: Project billing</span></span>  
-5. <span data-ttu-id="fb875-114">Nel campo Responsabile immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="fb875-114">In the Manager field, enter or select a value.</span></span>
-    * <span data-ttu-id="fb875-115">Esempio: Jodi Christiansen</span><span class="sxs-lookup"><span data-stu-id="fb875-115">Example: Jodi Christiansen</span></span>  
-6. <span data-ttu-id="fb875-116">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="fb875-116">Click Save.</span></span>
-7. <span data-ttu-id="fb875-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="fb875-117">Close the page.</span></span>
-8. <span data-ttu-id="fb875-118">Passare a Risorse umane > Reparti > Gerarchia reparti.</span><span class="sxs-lookup"><span data-stu-id="fb875-118">Go to Human resources > Departments > Department hierarchy.</span></span>
-9. <span data-ttu-id="fb875-119">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="fb875-119">Click Edit.</span></span>
-10. <span data-ttu-id="fb875-120">Fare clic su Inserisci.</span><span class="sxs-lookup"><span data-stu-id="fb875-120">Click Insert.</span></span>
-11. <span data-ttu-id="fb875-121">Fare clic su Reparto.</span><span class="sxs-lookup"><span data-stu-id="fb875-121">Click Department.</span></span>
-12. <span data-ttu-id="fb875-122">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="fb875-122">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="fb875-123">Esempio: fatturazione progetto</span><span class="sxs-lookup"><span data-stu-id="fb875-123">Example: Project billing</span></span>  
-13. <span data-ttu-id="fb875-124">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="fb875-124">Click OK.</span></span>
-14. <span data-ttu-id="fb875-125">Fare clic su Pubblica per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="fb875-125">Click Publish to open the drop dialog.</span></span>
-15. <span data-ttu-id="fb875-126">Nel campo Data di validità immettere una data e un'ora.</span><span class="sxs-lookup"><span data-stu-id="fb875-126">In the Effective date field, enter a date and time.</span></span>
-    * <span data-ttu-id="fb875-127">Quando si pubblica la gerarchia del reparto, è possibile selezionare quando rendere effettive le modifiche.</span><span class="sxs-lookup"><span data-stu-id="fb875-127">When publishing the department hierarchy, you can select when to make the changes effective.</span></span> <span data-ttu-id="fb875-128">Le modifiche possono avere una data futura.</span><span class="sxs-lookup"><span data-stu-id="fb875-128">Changes can be future dated.</span></span> <span data-ttu-id="fb875-129">Ad esempio, è possibile che all'inizio dell'anno fiscale si aggiunga un ulteriore reparto.</span><span class="sxs-lookup"><span data-stu-id="fb875-129">For example, you may know that at the beginning of your fiscal year you will be adding an additional department.</span></span> <span data-ttu-id="fb875-130">È possibile impostare la data di validità all'inizio dell'anno fiscale e le modifiche della gerarchia saranno valide in tale data.</span><span class="sxs-lookup"><span data-stu-id="fb875-130">You can set your effective date to the beginning of the fiscal year, and the changes to the hierarchy will be effective on that date.</span></span>  
-16. <span data-ttu-id="fb875-131">Nel campo Descrivi modifiche, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="fb875-131">In the Describe changes field, type a value.</span></span>
-17. <span data-ttu-id="fb875-132">Fare clic su Pubblica.</span><span class="sxs-lookup"><span data-stu-id="fb875-132">Click Publish.</span></span>
+1. <span data-ttu-id="8e167-108">Passare a Risorse umane > Reparti > Reparti.</span><span class="sxs-lookup"><span data-stu-id="8e167-108">Go to Human resources > Departments > Departments.</span></span>
+2. <span data-ttu-id="8e167-109">Fare clic su Nuovo per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="8e167-109">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="8e167-110">Digitare un valore nel campo Nome.</span><span class="sxs-lookup"><span data-stu-id="8e167-110">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="8e167-111">Esempio: fatturazione progetto</span><span class="sxs-lookup"><span data-stu-id="8e167-111">Example: Project billing</span></span>  
+4. <span data-ttu-id="8e167-112">Digitare un valore nel campo Promemoria.</span><span class="sxs-lookup"><span data-stu-id="8e167-112">In the Memo field, type a value.</span></span>
+    * <span data-ttu-id="8e167-113">Esempio: fatturazione progetto</span><span class="sxs-lookup"><span data-stu-id="8e167-113">Example: Project billing</span></span>  
+5. <span data-ttu-id="8e167-114">Nel campo Responsabile immettere o selezionare un valore.</span><span class="sxs-lookup"><span data-stu-id="8e167-114">In the Manager field, enter or select a value.</span></span>
+    * <span data-ttu-id="8e167-115">Esempio: Jodi Christiansen</span><span class="sxs-lookup"><span data-stu-id="8e167-115">Example: Jodi Christiansen</span></span>  
+6. <span data-ttu-id="8e167-116">Fare clic su Salva.</span><span class="sxs-lookup"><span data-stu-id="8e167-116">Click Save.</span></span>
+7. <span data-ttu-id="8e167-117">Chiudere la pagina.</span><span class="sxs-lookup"><span data-stu-id="8e167-117">Close the page.</span></span>
+8. <span data-ttu-id="8e167-118">Passare a Risorse umane > Reparti > Gerarchia reparti.</span><span class="sxs-lookup"><span data-stu-id="8e167-118">Go to Human resources > Departments > Department hierarchy.</span></span>
+9. <span data-ttu-id="8e167-119">Fare clic su Modifica.</span><span class="sxs-lookup"><span data-stu-id="8e167-119">Click Edit.</span></span>
+10. <span data-ttu-id="8e167-120">Fare clic su Inserisci.</span><span class="sxs-lookup"><span data-stu-id="8e167-120">Click Insert.</span></span>
+11. <span data-ttu-id="8e167-121">Fare clic su Reparto.</span><span class="sxs-lookup"><span data-stu-id="8e167-121">Click Department.</span></span>
+12. <span data-ttu-id="8e167-122">Nell'elenco trovare e selezionare il record desiderato.</span><span class="sxs-lookup"><span data-stu-id="8e167-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="8e167-123">Esempio: fatturazione progetto</span><span class="sxs-lookup"><span data-stu-id="8e167-123">Example: Project billing</span></span>  
+13. <span data-ttu-id="8e167-124">Fare clic su OK.</span><span class="sxs-lookup"><span data-stu-id="8e167-124">Click OK.</span></span>
+14. <span data-ttu-id="8e167-125">Fare clic su Pubblica per aprire la finestra di dialogo a discesa.</span><span class="sxs-lookup"><span data-stu-id="8e167-125">Click Publish to open the drop dialog.</span></span>
+15. <span data-ttu-id="8e167-126">Nel campo Data di validità immettere una data e un'ora.</span><span class="sxs-lookup"><span data-stu-id="8e167-126">In the Effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="8e167-127">Quando si pubblica la gerarchia del reparto, è possibile selezionare quando rendere effettive le modifiche.</span><span class="sxs-lookup"><span data-stu-id="8e167-127">When publishing the department hierarchy, you can select when to make the changes effective.</span></span> <span data-ttu-id="8e167-128">Le modifiche possono avere una data futura.</span><span class="sxs-lookup"><span data-stu-id="8e167-128">Changes can be future dated.</span></span> <span data-ttu-id="8e167-129">Ad esempio, è possibile che all'inizio dell'anno fiscale si aggiunga un ulteriore reparto.</span><span class="sxs-lookup"><span data-stu-id="8e167-129">For example, you may know that at the beginning of your fiscal year you will be adding an additional department.</span></span> <span data-ttu-id="8e167-130">È possibile impostare la data di validità all'inizio dell'anno fiscale e le modifiche della gerarchia saranno valide in tale data.</span><span class="sxs-lookup"><span data-stu-id="8e167-130">You can set your effective date to the beginning of the fiscal year, and the changes to the hierarchy will be effective on that date.</span></span>  
+16. <span data-ttu-id="8e167-131">Nel campo Descrivi modifiche, digitare un valore.</span><span class="sxs-lookup"><span data-stu-id="8e167-131">In the Describe changes field, type a value.</span></span>
+17. <span data-ttu-id="8e167-132">Fare clic su Pubblica.</span><span class="sxs-lookup"><span data-stu-id="8e167-132">Click Publish.</span></span>
 
 
 
