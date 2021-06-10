@@ -72,7 +72,9 @@
                   items:
                     - name: Home page Novità o modifiche di Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (luglio 2021)
+                    - name: Supply Chain Management 10.0.20 (luglio 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (giugno 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (maggio 2021)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,7 +389,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Configurazione per gli ordini di lavoro
               items:
-                - name: 'Categorie di tipi di processi di manutenzione e tipi di processi di manutenzione, varianti di tipo di processi di manutenzione, commerci di processi di manutenzione e ed elenchi di controllo di manutenzione'
+                - name: 'Tipi di processo di manutenzione, categorie, varianti, commerci e liste di controllo'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Stati del ciclo di vita ordine di lavoro
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -2225,6 +2227,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Versioni di progettazione e categorie di prodotti di progettazione
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Gestisci le modifiche nelle formule e negli ingredienti
+              href: engineering-change-management/manage-formula-changes.md
             - name: Abilita gestione modifiche su prodotti esistenti
               href: engineering-change-management/change-management-existing-products.md
             - name: Transazioni e stato del ciclo di vita del prodotto
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Sequenza numerica unificata per gli ID processo
               href: production-control/unified-job-ids.md
+            - name: Richiamare i flussi di automazione processi per creare ordini di controllo qualità
+              href: production-control/process-automation-quality-orders.md
             - name: Produzione discreta
               items:
                 - name: Gestione dati master di produzione
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione
                           href: production-control/production-floor-execution-use.md
-                        - name: Stili di controllo dell'interfaccia utente per l'esecuzione dell'area di produzione
+                        - name: Progettare l'interfaccia di esecuzione dell'area di produzione
                           href: production-control/production-floor-execution-styles.md
                     - name: Configurare la scheda processo per dispositivi
                       href: production-control/config-job-card-device.md
@@ -3139,11 +3145,11 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Configurare i criteri di consolidamento della spedizione
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: Scenario 1 - Consolidare le spedizioni quando vengono rilasciate nel magazzino utilizzando il rilascio automatico degli ordini cliente
+                    - name: Scenario 1 - Consolidare le spedizioni rilasciate nel magazzino utilizzando il rilascio automatico degli ordini cliente
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: Scenario 2 - Consolidare le spedizioni quando i criteri di consolidamento delle spedizioni vengono sostituiti dalla pagina di rilascio in magazzino
+                    - name: Scenario 2 - Consolidare le spedizioni quando i criteri di consolidamento delle spedizioni viene sostituito
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: Scenario 3 - Consolidare le spedizioni utilizzando il rilascio in magazzino dal workbench di pianificazione del carico
+                    - name: Scenario 3 - Consolidare le spedizioni tramite il rilascio in magazzino dal workbench di pianificazione del carico
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: Scenario 4 - Consolidare le spedizioni utilizzando il workbench di consolidamento delle spedizioni
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3297,13 +3303,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app per dispositivi mobili Gestione magazzino
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Configurare i campi per l'app per dispositivi mobili Gestione magazzino
+                    - name: Configurare i campi per l'app per dispositivi mobili Warehouse Management
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Impostare i dispositivi mobili per il lavoro di magazzino
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Assegnare icone e titoli ai passaggi
+                      href: warehousing/step-icons-titles.md
                     - name: Elaborazione degli eventi dell'app di magazzino
                       href: warehousing/warehouse-app-events.md
-                    - name: Ricezione della targa con l'app per dispositivi mobili Gestione magazzino
+                    - name: Ricezione della targa con l'app per dispositivi mobili Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Impostare un menu di articoli per dispositivi mobili per completare il lavoro in un ordine fornitore
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3345,7 +3353,7 @@
               items:
                 - name: Impostazioni di campo mancanti per la copia di gruppi di modelli di articoli in un'altra persona giuridica
                   href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Il report "Costi indiretti in esecuzione" include gli ordini di produzione eliminati
+                - name: Il report Costi indiretti in esecuzione include gli ordini di produzione eliminati
                   href: troubleshooting/costing/indirect-costs-in-pr.md
                 - name: Accantonamento acquisti registrato con importo zero per l'entrata prodotti a valore zero
                   href: troubleshooting/costing/posting-to-purchase.md
@@ -3359,11 +3367,11 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Lo storno di un report come finito crea una transazione aperta imprevista
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Impossibile mostrare le nuove note collegate a un giornale di registrazione nel report della distinta di prelievo
+                - name: Il report della distinta di prelievo non include le nuove note collegate a un giornale di registrazione
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: La quantità di un ordine di quarantena avviato non si aggiorna quando l'ordine viene suddiviso
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Il campo "Ultima data di test" non viene aggiornato quando si creano più ordini di controllo qualità
+                - name: Il campo Ultima data di test non viene aggiornato quando si creano più ordini di controllo qualità
                   href: troubleshooting/inventory/the-field-last-test.md
                 - name: 'Quando si divide una quantità di peso variabile, viene utilizzata la quantità minima anziché nominale'
                   href: troubleshooting/inventory/while-splitting-the.md
@@ -3371,17 +3379,21 @@
               items:
                 - name: Gli ordini consolidati direttamente derivati vengono elaborati da un flusso di lavoro in revisione
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Impossibile filtrare gli articoli della pianificazione generale in base ai valori del gruppo di copertura correlato
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: La pianificazione generale genera ordini pianificati per prodotti fittizi
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Ordine fornitore pianificato creato quando esiste un acquisto entro un numero di giorni negativo
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Impossibile caricare il prezzo di costo nelle voci di previsione della domanda
+                - name: Impossibile aggiornare il costo unitario previsto quando si importano record di previsione della domanda
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Impossibile rimuovere la dimensione di previsione della domanda di magazzino dalle righe di previsione
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: Viene richiesto di salvare le impostazioni di copertura degli articoli anche se non sono state apportate modifiche
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Approvvigionamento
               items:
-                - name: Impossibile fatturare un ordine cliente rivolto al cliente nella società VEL
+                - name: Impossibile fatturare un ordine cliente visualizzabile dal cliente
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Impossibile aggiungere una riga a una richiesta di acquisto dopo aver richiesto una modifica
                   href: troubleshooting/procurement/purchase-requisition.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: Gli utenti possono annullare la selezione delle righe di materiale per i prodotti che sono stati dichiarati come finiti
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Errore durante la registrazione del giornale di registrazione dichiarato come finito
+                - name: Errore quando il giornale di registrazione Dichiarato finito viene registrato
                   href: troubleshooting/production/posting-report-as-.md
                 - name: Il magazzino nel giornale di registrazione distinte di prelievo non viene aggiornato in una riga DBA
                   href: troubleshooting/production/the-warehouse-in-pic.md
