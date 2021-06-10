@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017057"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085476"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Modificare la valuta di contabilizzazione o di dichiarazione
 
@@ -30,13 +30,13 @@ In questo argomento viene illustrato come modificare la valuta di contabilizzazi
 
 Si desidera modificare la valuta di contabilizzazione o di dichiarazione o aggiungere una valuta di dichiarazione all'impostazione della contabilità generale. Questo problema si verifica in genere nei seguenti scenari:
 
-- Quando per una persona giuridica impostata è stata specificata una valuta di contabilizzazione o di dichiarazione errata ed è necessario modificare quella valuta.
-- Quando per una persona giuridica impostata non è stata specificata alcuna valuta di dichiarazione. La valuta di dichiarazione è facoltativa, ma ora è necessario aggiungerla.
+- Quando per una persona giuridica impostata viene specificata una valuta di contabilizzazione o di dichiarazione errata ed è necessario modificare quella valuta.
+- Una valuta di dichiarazione è stata specificata per una persona giuridica impostata, ma ora l'organizzazione desidera rimuoverla.
+- L'organizzazione sta eseguendo l'aggiornamento o la migrazione a Microsoft Dynamics 365 Finance e desidera modificare la valuta di contabilizzazione o di dichiarazione.
 
 Un'organizzazione che in precedenza non utilizzava la funzionalità della doppia valuta desidera iniziare a utilizzarla. Questo problema si verifica in genere nei seguenti scenari.
 
-- Una valuta di dichiarazione è stata specificata per una persona giuridica impostata, ma ora l'organizzazione desidera rimuoverla.
-- L'organizzazione sta eseguendo l'aggiornamento o la migrazione a Microsoft Dynamics 365 Finance e desidera modificare la valuta di contabilizzazione o di dichiarazione.
+- Quando per una persona giuridica impostata non è stata specificata alcuna valuta di dichiarazione. La valuta di dichiarazione è facoltativa, ma ora è necessario aggiungerla.
 
 ## <a name="resolution"></a>Risoluzione
 

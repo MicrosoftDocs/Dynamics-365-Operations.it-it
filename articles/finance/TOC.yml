@@ -72,6 +72,8 @@
                   items:
                     - name: Home page novità o modifiche in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (luglio 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (luglio 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (maggio 2021)
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Saldo iniziale mancante nella chiusura di fine anno
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Aprire i modelli di giornale di registrazione finanziario in Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Creazione di report finanziari
           items:
             - name: Introduzione alla creazione di report finanziari
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Aggiungere campi dati nell'integrazione fiscale usando le estensioni
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Più numeri di registrazione IVA
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Configurare un ambiente per la ricerca dei dati master
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Più numeri di registrazione IVA
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Creazione di report per più registrazioni IVA
+                      items:
+                        - name: Creazione di report per più registrazioni IVA
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Dichiarazione dei Paesi Bassi
+                          items:
+                            - name: Dichiarazione IVA
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: Elenco vendite UE
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Aggiornamenti normativi
               href: localizations/regulatory-updates.md
             - name: Australia
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Abilitare l'elaborazione multi-batch per i report GSTR
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: Risoluzione dei problemi di GST
+                          items:
+                            - name: Importo non corretto dell'imposta fiscale dopo il calcolo
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Errori di configurazione imposte
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: L'imposta non viene calcolata
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: L'attivazione delle regole di compensazione richiede più tempo del previsto
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTrans o il giustificativo non viene generato
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: L'ID della transazione fiscale non è corretto
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Imposte dirette
                   items:
                     - name: Ritenuta d'acconto per l'India
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: File di controllo (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: Dichiarazione IVA (Paesi Bassi)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Norvegia
               items:
                 - name: Panoramica Norvegia

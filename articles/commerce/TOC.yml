@@ -94,7 +94,9 @@
                   items:
                     - name: Home page Novità o modifiche in Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19 (luglio 2021)
+                    - name: Commerce 10.0.20 (luglio 2021)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19 (giugno 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (maggio 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Creare e aggiornare le fasce orarie per il ritiro del cliente
                   href: dev-itpro/pickup-timeslots.md
+                - name: Configurare i valori delle dimensioni del prodotto in modo che siano mostrati come campioni
+                  href: dev-itpro/dimensions-swatch.md
         - name: Merchandising di prodotti e servizi
           items:
             - name: 'Categorie, prodotti e assortimenti'
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: Applicare le impostazioni dell'unità di misura
                   href: unit-of-measure.md
+                - name: Applicare le impostazioni di visualizzazione per le dimensioni del prodotto
+                  href: dimension-settings.md
             - name: Gestire il contenuto del sito
               items:
                 - name: Modalità di aggiunta contenuti
@@ -1204,9 +1210,9 @@
               href: assess-customer-product-profitability.md
             - name: Analizzare le prestazioni del punto vendita
               href: store-performance-information.md
-            - name: 'Impostare l''analisi di Recency, Frequenza e Monetaria (RFM)'
+            - name: 'Impostare l''analisi Recency, Frequency e Monetary (RFM)'
               href: set-up-rfm-analysis.md
-            - name: Configurare Microsoft Clarity in Dynamics 365 Commerce
+            - name: Impostare Microsoft Clarity in Dynamics 365 Commerce
               href: set-up-clarity.md
         - name: Globalizzazione
           items:
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Impostazioni app
                       href: e-commerce-extensibility/app-settings.md
+                    - name: Configurare le impostazioni di configurazione globali del generatore di siti in base alle funzionalità abilitate
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: File delle impostazioni della piattaforma
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Estendere una definizione del modulo
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Modifiche di sviluppo e ALM dalla versione 10.0.10 alla 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Impostare una pipeline di compilazione per l'SDK per la creazione di pacchetti indipendenti
+                  href: dev-itpro/build-pipeline.md
                 - name: Unire sistemi di build per Commerce e Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Migrare da Retail SDK da Visual Studio 2015 a Visual Studio 2017
@@ -2386,6 +2396,8 @@
               items:
                 - name: Layout schermo POS
                   href: pos-screen-layouts.md
+                - name: App Store Commerce in Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
                 - name: Aprire l'URL nel POS
                   href: Open-URL-in-POS.md
                 - name: Installare lo strumento di progettazione layout POS

@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 maggio 2021
+          href: hr-whats-new-2021-05-20.md
         - name: 3 maggio 2021
           href: hr-whats-new-2021-05-03.md
         - name: 19 aprile 2021
@@ -785,8 +787,14 @@
           items:
             - name: Panoramica della gestione delle prestazioni
               href: hr-develop-performance-management-overview.md
-            - name: Allineare le competenze della forza lavoro
-              href: hr-develop-skills.md
+            - name: Competenze
+              items:
+                - name: Configurare le competenze
+                  href: hr-develop-skills.md
+                - name: Inserire le competenze
+                  href: hr-develop-enter-skills.md
+                - name: Mappare le competenze
+                  href: hr-develop-map-skills.md
             - name: Aggiungere una voce al giornale di registrazione delle prestazioni
               href: hr-develop-add-performance-journal.md
             - name: Creare un obiettivo

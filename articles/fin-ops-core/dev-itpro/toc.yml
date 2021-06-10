@@ -14,7 +14,9 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
-                - name: Platform update 10.0.19 (luglio 2021)
+                - name: Platform update versione 10.0.20 (luglio 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: Platform update 10.0.19 (giugno 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform update 10.0.18 (maggio 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Novità o modifiche in Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Funzionalità rimosse o deprecate in Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Manuale dell'utente di Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Integrazione progetto
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Gestione del ciclo di vita dell'applicazione
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Proprietario del team specificato dall'utente
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Scollegare e ricollegare ambienti a doppia scrittura
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Mappatura dei concetti tra app
                   items:
                     - name: Dati master clienti integrati
@@ -1166,13 +1170,15 @@
               items:
                 - name: Panoramica dei componenti aggiuntivi
                   href: power-platform/add-ins-overview.md
-        - name: Piattaforma mobile
+            - name: Criteri e comunicazioni
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
+        - name: Piattaforma per dispositivi mobili
           items:
-            - name: Risorse piattaforma mobile
+            - name: Risorse piattaforma per dispositivi mobili
               href: mobile-apps/platform/mobile-platform-home-page.md
             - name: Introduzione
               items:
-                - name: Introduzione alla piattaforma mobile
+                - name: Introduzione alla piattaforma per dispositivi mobili
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Considerazioni sulla progettazione e sull'architettura
                   href: mobile-apps/platform/mobile-platform-architecture.md
