@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
@@ -16,38 +15,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7088bf459373c1c97baf9e8c1bc915fa0243a500
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b85084a2ccb9e9cad09f86af43995bfbce44a1e9
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790862"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051331"
 ---
-# <a name="create-custom-links-in-manager-self-service"></a><span data-ttu-id="17791-103">Creare collegamenti personalizzati in Self-service responsabile</span><span class="sxs-lookup"><span data-stu-id="17791-103">Create custom links in Manager self-service</span></span>
+# <a name="create-custom-links-in-manager-self-service"></a><span data-ttu-id="2ceb7-103">Creare collegamenti personalizzati in Self-service responsabile</span><span class="sxs-lookup"><span data-stu-id="2ceb7-103">Create custom links in Manager self-service</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="17791-104">È possibile aggiungere collegamenti personalizzati nella scheda **Team personale** nel self-service responsabile .</span><span class="sxs-lookup"><span data-stu-id="17791-104">You can add custom links on the **My team** tab in Manager self-service.</span></span> <span data-ttu-id="17791-105">Questa funzione consente di fornire un accesso rapido a informazioni importanti.</span><span class="sxs-lookup"><span data-stu-id="17791-105">This feature lets you provide quick access to important information.</span></span> <span data-ttu-id="17791-106">È simile all'aggiunta di collegamenti personalizzati nella scheda **Informazioni personali** nel Self service dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="17791-106">It's similar to adding custom links in the **My information** tab in Employee self service.</span></span>
+<span data-ttu-id="2ceb7-104">È possibile aggiungere collegamenti personalizzati nella scheda **Team personale** nel self-service responsabile .</span><span class="sxs-lookup"><span data-stu-id="2ceb7-104">You can add custom links on the **My team** tab in Manager self-service.</span></span> <span data-ttu-id="2ceb7-105">Questa funzione consente di fornire un accesso rapido a informazioni importanti.</span><span class="sxs-lookup"><span data-stu-id="2ceb7-105">This feature lets you provide quick access to important information.</span></span> <span data-ttu-id="2ceb7-106">È simile all'aggiunta di collegamenti personalizzati nella scheda **Informazioni personali** nel Self service dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="2ceb7-106">It's similar to adding custom links in the **My information** tab in Employee self service.</span></span>
 
-## <a name="enable-the--feature"></a><span data-ttu-id="17791-107">Abilitare la funzione</span><span class="sxs-lookup"><span data-stu-id="17791-107">Enable the  feature</span></span>
+## <a name="enable-the--feature"></a><span data-ttu-id="2ceb7-107">Abilitare la funzione</span><span class="sxs-lookup"><span data-stu-id="2ceb7-107">Enable the  feature</span></span>
 
-<span data-ttu-id="17791-108">Per utilizzare questa funzione, abilitare **Collegamenti personalizzati in self-service responsabili** nell'area di lavoro **Gestione delle funzionalità**.</span><span class="sxs-lookup"><span data-stu-id="17791-108">To use this feature, enable **Custom links in Manager self-service** in the **Feature management** workspace.</span></span> <span data-ttu-id="17791-109">Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="17791-109">For more information about enabling preview features, see [Manage features](hr-admin-manage-features.md).</span></span>
+<span data-ttu-id="2ceb7-108">Per utilizzare questa funzione, abilitare **Collegamenti personalizzati in self-service responsabili** nell'area di lavoro **Gestione delle funzionalità**.</span><span class="sxs-lookup"><span data-stu-id="2ceb7-108">To use this feature, enable **Custom links in Manager self-service** in the **Feature management** workspace.</span></span> <span data-ttu-id="2ceb7-109">Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="2ceb7-109">For more information about enabling preview features, see [Manage features](hr-admin-manage-features.md).</span></span>
 
-## <a name="set-up-custom-links"></a><span data-ttu-id="17791-110">Impostare collegamenti personalizzati</span><span class="sxs-lookup"><span data-stu-id="17791-110">Set up custom links</span></span>
+## <a name="set-up-custom-links"></a><span data-ttu-id="2ceb7-110">Impostare collegamenti personalizzati</span><span class="sxs-lookup"><span data-stu-id="2ceb7-110">Set up custom links</span></span>
 
-1. <span data-ttu-id="17791-111">In **Parametri di Human Resources**, selezionare **Self service responsabile**.</span><span class="sxs-lookup"><span data-stu-id="17791-111">In **Human Resources parameters**, select **Manager self service**.</span></span>
+1. <span data-ttu-id="2ceb7-111">In **Parametri di Human Resources**, selezionare **Self service responsabile**.</span><span class="sxs-lookup"><span data-stu-id="2ceb7-111">In **Human Resources parameters**, select **Manager self service**.</span></span>
 
-2. <span data-ttu-id="17791-112">Sotto **Imposta collegamenti per responsabili**, è possibile aggiungere, modificare o rimuovere un collegamento.</span><span class="sxs-lookup"><span data-stu-id="17791-112">Under **Set up links for Managers**, you can add, edit, or remove a link.</span></span> <span data-ttu-id="17791-113">È anche possibile raggruppare i collegamenti in modo che vengano visualizzati in un gruppo in Self-service responsabile.</span><span class="sxs-lookup"><span data-stu-id="17791-113">You can also group the links together so they display in a group in Manager self-service.</span></span>
+2. <span data-ttu-id="2ceb7-112">Sotto **Imposta collegamenti per responsabili**, è possibile aggiungere, modificare o rimuovere un collegamento.</span><span class="sxs-lookup"><span data-stu-id="2ceb7-112">Under **Set up links for Managers**, you can add, edit, or remove a link.</span></span> <span data-ttu-id="2ceb7-113">È anche possibile raggruppare i collegamenti in modo che vengano visualizzati in un gruppo in Self-service responsabile.</span><span class="sxs-lookup"><span data-stu-id="2ceb7-113">You can also group the links together so they display in a group in Manager self-service.</span></span>
 
    ![Impostare collegamenti personalizzati in Self-service responsabile](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. <span data-ttu-id="17791-115">Per vedere i collegamenti, andare alla scheda **Team personale** in Self-service dipendenti.</span><span class="sxs-lookup"><span data-stu-id="17791-115">To see the links, go to the **My team** tab in Employee self-service.</span></span>
+3. <span data-ttu-id="2ceb7-115">Per vedere i collegamenti, andare alla scheda **Team personale** in Self-service dipendenti.</span><span class="sxs-lookup"><span data-stu-id="2ceb7-115">To see the links, go to the **My team** tab in Employee self-service.</span></span>
 
    ![Visualizzare collegamenti personalizzati in Self-service responsabile](./media/hr-employee-manager-self-service-custom-links-view.png)
 
-## <a name="see-also"></a><span data-ttu-id="17791-117">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="17791-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2ceb7-117">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="2ceb7-117">See also</span></span>
 
-[<span data-ttu-id="17791-118">Panoramica self-service per dipendenti e manager</span><span class="sxs-lookup"><span data-stu-id="17791-118">Employee and Manager self-service overview</span></span>](hr-employee-manager-self-service-overview.md)
+[<span data-ttu-id="2ceb7-118">Panoramica self-service per dipendenti e manager</span><span class="sxs-lookup"><span data-stu-id="2ceb7-118">Employee and Manager self-service overview</span></span>](hr-employee-manager-self-service-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

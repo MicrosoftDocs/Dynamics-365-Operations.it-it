@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,70 +15,70 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15cedc16fbdbb5d25daa262f094a56bb8fe2f5cc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5bc31740218e3f171d89debace339dee0177d826
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892707"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053973"
 ---
-# <a name="create-a-buy-and-sell-leave-request-workflow"></a><span data-ttu-id="cf2f5-103">Creare un flusso di lavoro di richieste di acquisto e vendita di congedi</span><span class="sxs-lookup"><span data-stu-id="cf2f5-103">Create a buy and sell leave request workflow</span></span>
+# <a name="create-a-buy-and-sell-leave-request-workflow"></a><span data-ttu-id="df62d-103">Creare un flusso di lavoro di richieste di acquisto e vendita di congedi</span><span class="sxs-lookup"><span data-stu-id="df62d-103">Create a buy and sell leave request workflow</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="cf2f5-104">È possibile creare un flusso di lavoro in Dynamics 365 Human Resources per gestire richieste di acquisto e vendita di congedi in modo coerente.</span><span class="sxs-lookup"><span data-stu-id="cf2f5-104">You can create a workflow in Dynamics 365 Human Resources to consistently manage your buy and sell leave requests.</span></span> <span data-ttu-id="cf2f5-105">Un flusso di lavoro **Acquista e vendi congedo** consente di:</span><span class="sxs-lookup"><span data-stu-id="cf2f5-105">A **Buy and sell leave** workflow lets you:</span></span>
+<span data-ttu-id="df62d-104">È possibile creare un flusso di lavoro in Dynamics 365 Human Resources per gestire richieste di acquisto e vendita di congedi in modo coerente.</span><span class="sxs-lookup"><span data-stu-id="df62d-104">You can create a workflow in Dynamics 365 Human Resources to consistently manage your buy and sell leave requests.</span></span> <span data-ttu-id="df62d-105">Un flusso di lavoro **Acquista e vendi congedo** consente di:</span><span class="sxs-lookup"><span data-stu-id="df62d-105">A **Buy and sell leave** workflow lets you:</span></span>
 
-- <span data-ttu-id="cf2f5-106">Definire attività</span><span class="sxs-lookup"><span data-stu-id="cf2f5-106">Define tasks</span></span>
-- <span data-ttu-id="cf2f5-107">Determinare chi deve completare le attività</span><span class="sxs-lookup"><span data-stu-id="cf2f5-107">Determine who must complete the tasks</span></span>
-- <span data-ttu-id="cf2f5-108">Specificare chi può approvare o rifiutare le richieste</span><span class="sxs-lookup"><span data-stu-id="cf2f5-108">Specify who can approve or reject requests</span></span>
+- <span data-ttu-id="df62d-106">Definire attività</span><span class="sxs-lookup"><span data-stu-id="df62d-106">Define tasks</span></span>
+- <span data-ttu-id="df62d-107">Determinare chi deve completare le attività</span><span class="sxs-lookup"><span data-stu-id="df62d-107">Determine who must complete the tasks</span></span>
+- <span data-ttu-id="df62d-108">Specificare chi può approvare o rifiutare le richieste</span><span class="sxs-lookup"><span data-stu-id="df62d-108">Specify who can approve or reject requests</span></span>
 
-## <a name="create-a-buy-and-sell-leave-request-workflow"></a><span data-ttu-id="cf2f5-109">Creare un flusso di lavoro di richieste di acquisto e vendita di congedi</span><span class="sxs-lookup"><span data-stu-id="cf2f5-109">Create a buy and sell leave request workflow</span></span>
+## <a name="create-a-buy-and-sell-leave-request-workflow"></a><span data-ttu-id="df62d-109">Creare un flusso di lavoro di richieste di acquisto e vendita di congedi</span><span class="sxs-lookup"><span data-stu-id="df62d-109">Create a buy and sell leave request workflow</span></span>
 
-1. <span data-ttu-id="cf2f5-110">Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.</span><span class="sxs-lookup"><span data-stu-id="cf2f5-110">On the **Leave and absence** page, select the **Links** tab.</span></span>
+1. <span data-ttu-id="df62d-110">Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.</span><span class="sxs-lookup"><span data-stu-id="df62d-110">On the **Leave and absence** page, select the **Links** tab.</span></span>
 
-2. <span data-ttu-id="cf2f5-111">Sotto **Impostazione**, selezionare **Flussi di lavoro risorse umane**.</span><span class="sxs-lookup"><span data-stu-id="cf2f5-111">Under **Setup**, select **Human resource workflows**.</span></span>
+2. <span data-ttu-id="df62d-111">Sotto **Impostazione**, selezionare **Flussi di lavoro risorse umane**.</span><span class="sxs-lookup"><span data-stu-id="df62d-111">Under **Setup**, select **Human resource workflows**.</span></span>
 
-3. <span data-ttu-id="cf2f5-112">Selezionare **Nuovo**, quindi selezionare **Richiesta di acquisto e vendita di congedi**.</span><span class="sxs-lookup"><span data-stu-id="cf2f5-112">Select **New**, and then select **Buy and sell leave request**.</span></span> 
+3. <span data-ttu-id="df62d-112">Selezionare **Nuovo**, quindi selezionare **Richiesta di acquisto e vendita di congedi**.</span><span class="sxs-lookup"><span data-stu-id="df62d-112">Select **New**, and then select **Buy and sell leave request**.</span></span> 
 
-4. <span data-ttu-id="cf2f5-113">Quando viene visualizzato il messaggio **Aprire questo file?**, selezionare **Apri** e accedi con le credenziali dell'azienda.</span><span class="sxs-lookup"><span data-stu-id="cf2f5-113">When the **Open this file?** message box appears, select **Open** and sign in with your company credentials.</span></span>
+4. <span data-ttu-id="df62d-113">Quando viene visualizzato il messaggio **Aprire questo file?**, selezionare **Apri** e accedi con le credenziali dell'azienda.</span><span class="sxs-lookup"><span data-stu-id="df62d-113">When the **Open this file?** message box appears, select **Open** and sign in with your company credentials.</span></span>
 
-5. <span data-ttu-id="cf2f5-114">Utilizzare l'editor di flusso di lavoro per creare un flusso di lavoro per le richieste di congedo.</span><span class="sxs-lookup"><span data-stu-id="cf2f5-114">Use the workflow editor to create a workflow for your leave requests.</span></span> <span data-ttu-id="cf2f5-115">Per ulteriori informazioni sull'uso dei flussi di lavoro, consultare [Panoramica di creazione di flussi di lavoro](../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=%2fdynamics365%2fcommerce%2ftoc.json.)</span><span class="sxs-lookup"><span data-stu-id="cf2f5-115">For more information about working with workflows, see [Create workflows overview](../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=%2fdynamics365%2fcommerce%2ftoc.json.)</span></span>
+5. <span data-ttu-id="df62d-114">Utilizzare l'editor di flusso di lavoro per creare un flusso di lavoro per le richieste di congedo.</span><span class="sxs-lookup"><span data-stu-id="df62d-114">Use the workflow editor to create a workflow for your leave requests.</span></span> <span data-ttu-id="df62d-115">Per ulteriori informazioni sull'uso dei flussi di lavoro, consultare [Panoramica di creazione di flussi di lavoro](../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=%2fdynamics365%2fcommerce%2ftoc.json.)</span><span class="sxs-lookup"><span data-stu-id="df62d-115">For more information about working with workflows, see [Create workflows overview](../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=%2fdynamics365%2fcommerce%2ftoc.json.)</span></span>
 
-## <a name="leave-and-absence-request-workflow-data-elements"></a><span data-ttu-id="cf2f5-116">Elementi dati di flusso di lavoro di richieste di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="cf2f5-116">Leave and absence request workflow data elements</span></span>
+## <a name="leave-and-absence-request-workflow-data-elements"></a><span data-ttu-id="df62d-116">Elementi dati di flusso di lavoro di richieste di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="df62d-116">Leave and absence request workflow data elements</span></span>
 
-<span data-ttu-id="cf2f5-117">È possibile utilizzare i seguenti elementi dati per creare approvazioni condizionali o automatiche nei flussi di lavoro per le richieste di acquisto e vendita di congedi:</span><span class="sxs-lookup"><span data-stu-id="cf2f5-117">You can use the following data elements to create conditional or automatic approvals in workflows for buy and sell leave requests:</span></span>
+<span data-ttu-id="df62d-117">È possibile utilizzare i seguenti elementi dati per creare approvazioni condizionali o automatiche nei flussi di lavoro per le richieste di acquisto e vendita di congedi:</span><span class="sxs-lookup"><span data-stu-id="df62d-117">You can use the following data elements to create conditional or automatic approvals in workflows for buy and sell leave requests:</span></span>
 
-- <span data-ttu-id="cf2f5-118">**Importo**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-118">**Amount**</span></span>
-- <span data-ttu-id="cf2f5-119">**Criteri di acquisto e vendita congedo**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-119">**Buy and sell leave policy**</span></span>
-- <span data-ttu-id="cf2f5-120">**Società**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-120">**Company**</span></span>
-- <span data-ttu-id="cf2f5-121">**Creato da**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-121">**Created by**</span></span>
-- <span data-ttu-id="cf2f5-122">**Data e ora creazione**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-122">**Created date and time**</span></span>
-- <span data-ttu-id="cf2f5-123">**Data di fine**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-123">**End date**</span></span>
-- <span data-ttu-id="cf2f5-124">**Tipo di congedo**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-124">**Leave type**</span></span>
-- <span data-ttu-id="cf2f5-125">**Autore modifica**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-125">**Modified by**</span></span>
-- <span data-ttu-id="cf2f5-126">**Data e ora modifica**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-126">**Modified date and time**</span></span>
-- <span data-ttu-id="cf2f5-127">**ID richiesta**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-127">**Request ID**</span></span>
-- <span data-ttu-id="cf2f5-128">**Data di inizio**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-128">**Start date**</span></span>
-- <span data-ttu-id="cf2f5-129">**Stato**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-129">**Status**</span></span> 
-- <span data-ttu-id="cf2f5-130">**Data invio**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-130">**Submission date**</span></span>
-- <span data-ttu-id="cf2f5-131">**Inviata da**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-131">**Submitted by**</span></span>
-- <span data-ttu-id="cf2f5-132">**Inviata da Risorse umane**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-132">**Submitted by Human resources**</span></span>
-- <span data-ttu-id="cf2f5-133">**Inviata dal Responsabile**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-133">**Submitted by Manager**</span></span>
-- <span data-ttu-id="cf2f5-134">**Inviata per conto di**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-134">**Submitted on behalf**</span></span>
-- <span data-ttu-id="cf2f5-135">**Lavoro**</span><span class="sxs-lookup"><span data-stu-id="cf2f5-135">**Worker**</span></span>
+- <span data-ttu-id="df62d-118">**Importo**</span><span class="sxs-lookup"><span data-stu-id="df62d-118">**Amount**</span></span>
+- <span data-ttu-id="df62d-119">**Criteri di acquisto e vendita congedo**</span><span class="sxs-lookup"><span data-stu-id="df62d-119">**Buy and sell leave policy**</span></span>
+- <span data-ttu-id="df62d-120">**Società**</span><span class="sxs-lookup"><span data-stu-id="df62d-120">**Company**</span></span>
+- <span data-ttu-id="df62d-121">**Creato da**</span><span class="sxs-lookup"><span data-stu-id="df62d-121">**Created by**</span></span>
+- <span data-ttu-id="df62d-122">**Data e ora creazione**</span><span class="sxs-lookup"><span data-stu-id="df62d-122">**Created date and time**</span></span>
+- <span data-ttu-id="df62d-123">**Data di fine**</span><span class="sxs-lookup"><span data-stu-id="df62d-123">**End date**</span></span>
+- <span data-ttu-id="df62d-124">**Tipo di congedo**</span><span class="sxs-lookup"><span data-stu-id="df62d-124">**Leave type**</span></span>
+- <span data-ttu-id="df62d-125">**Autore modifica**</span><span class="sxs-lookup"><span data-stu-id="df62d-125">**Modified by**</span></span>
+- <span data-ttu-id="df62d-126">**Data e ora modifica**</span><span class="sxs-lookup"><span data-stu-id="df62d-126">**Modified date and time**</span></span>
+- <span data-ttu-id="df62d-127">**ID richiesta**</span><span class="sxs-lookup"><span data-stu-id="df62d-127">**Request ID**</span></span>
+- <span data-ttu-id="df62d-128">**Data di inizio**</span><span class="sxs-lookup"><span data-stu-id="df62d-128">**Start date**</span></span>
+- <span data-ttu-id="df62d-129">**Stato**</span><span class="sxs-lookup"><span data-stu-id="df62d-129">**Status**</span></span> 
+- <span data-ttu-id="df62d-130">**Data invio**</span><span class="sxs-lookup"><span data-stu-id="df62d-130">**Submission date**</span></span>
+- <span data-ttu-id="df62d-131">**Inviata da**</span><span class="sxs-lookup"><span data-stu-id="df62d-131">**Submitted by**</span></span>
+- <span data-ttu-id="df62d-132">**Inviata da Risorse umane**</span><span class="sxs-lookup"><span data-stu-id="df62d-132">**Submitted by Human resources**</span></span>
+- <span data-ttu-id="df62d-133">**Inviata dal Responsabile**</span><span class="sxs-lookup"><span data-stu-id="df62d-133">**Submitted by Manager**</span></span>
+- <span data-ttu-id="df62d-134">**Inviata per conto di**</span><span class="sxs-lookup"><span data-stu-id="df62d-134">**Submitted on behalf**</span></span>
+- <span data-ttu-id="df62d-135">**Lavoro**</span><span class="sxs-lookup"><span data-stu-id="df62d-135">**Worker**</span></span>
 
-## <a name="workflow-examples"></a><span data-ttu-id="cf2f5-136">Esempi di flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="cf2f5-136">Workflow examples</span></span>
+## <a name="workflow-examples"></a><span data-ttu-id="df62d-136">Esempi di flusso di lavoro</span><span class="sxs-lookup"><span data-stu-id="df62d-136">Workflow examples</span></span>
 
-<span data-ttu-id="cf2f5-137">Questi esempi mostrano come è possibile creare diversi tipi di condizioni di flusso di lavoro utilizzando questi elementi dati:</span><span class="sxs-lookup"><span data-stu-id="cf2f5-137">These examples show how you can create different types of workflow conditions by using these data elements:</span></span>
+<span data-ttu-id="df62d-137">Questi esempi mostrano come è possibile creare diversi tipi di condizioni di flusso di lavoro utilizzando questi elementi dati:</span><span class="sxs-lookup"><span data-stu-id="df62d-137">These examples show how you can create different types of workflow conditions by using these data elements:</span></span>
 
-- <span data-ttu-id="cf2f5-138">Utilizzare **Inviata da Risorse umane** e **Inviata dal Responsabile** in un'azione automatica per approvare automaticamente le richieste di acquisto e vendita di congedi inviate da questi ruoli per conto dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="cf2f5-138">Use **Submitted by Human resources** and **Submitted by manager** in an automatic action to automatically approve buy and sell leave requests that these roles submit on behalf of employees.</span></span> <span data-ttu-id="cf2f5-139">Per ulteriori informazioni sulle azioni automatiche, vedere [Configurare i processi di approvazione in un flusso di lavoro](../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="cf2f5-139">For more information about automatic actions, see [Configure approval processes in a workflow](../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md).</span></span>
+- <span data-ttu-id="df62d-138">Utilizzare **Inviata da Risorse umane** e **Inviata dal Responsabile** in un'azione automatica per approvare automaticamente le richieste di acquisto e vendita di congedi inviate da questi ruoli per conto dei dipendenti.</span><span class="sxs-lookup"><span data-stu-id="df62d-138">Use **Submitted by Human resources** and **Submitted by manager** in an automatic action to automatically approve buy and sell leave requests that these roles submit on behalf of employees.</span></span> <span data-ttu-id="df62d-139">Per ulteriori informazioni sulle azioni automatiche, vedere [Configurare i processi di approvazione in un flusso di lavoro](../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="df62d-139">For more information about automatic actions, see [Configure approval processes in a workflow](../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md).</span></span>
 
-- <span data-ttu-id="cf2f5-140">Utilizzare **Tipo di congedo** in un'istruzione condizionale o in un'azione automatica per controllare il modo in cui il flusso di lavoro instrada le richieste con determinati tipi di congedo.</span><span class="sxs-lookup"><span data-stu-id="cf2f5-140">Use **Leave type** in a conditional statement or automatic action to control how the workflow routes requests with certain leave types.</span></span>
+- <span data-ttu-id="df62d-140">Utilizzare **Tipo di congedo** in un'istruzione condizionale o in un'azione automatica per controllare il modo in cui il flusso di lavoro instrada le richieste con determinati tipi di congedo.</span><span class="sxs-lookup"><span data-stu-id="df62d-140">Use **Leave type** in a conditional statement or automatic action to control how the workflow routes requests with certain leave types.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="cf2f5-141">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="cf2f5-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df62d-141">Vedere anche</span><span class="sxs-lookup"><span data-stu-id="df62d-141">See also</span></span>
 
-[<span data-ttu-id="cf2f5-142">Panoramica di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="cf2f5-142">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)<br>
-[<span data-ttu-id="cf2f5-143">Gestire i criteri di acquisto e vendita congedo</span><span class="sxs-lookup"><span data-stu-id="cf2f5-143">Manage buy and sell leave policies</span></span>](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[<span data-ttu-id="df62d-142">Panoramica di congedo e assenza</span><span class="sxs-lookup"><span data-stu-id="df62d-142">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)<br>
+[<span data-ttu-id="df62d-143">Gestire i criteri di acquisto e vendita congedo</span><span class="sxs-lookup"><span data-stu-id="df62d-143">Manage buy and sell leave policies</span></span>](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
 
 
