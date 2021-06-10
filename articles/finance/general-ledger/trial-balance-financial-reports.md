@@ -1,8 +1,8 @@
 ---
 title: Report finanziari del bilancio di verifica
 description: In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti inoltre i blocchi predefiniti associati a questi report e come è possibile modificare i report in modo da soddisfare i requisiti aziendali.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816933"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103660"
 ---
 # <a name="trial-balance-financial-reports"></a>Report finanziari del bilancio di verifica
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816933"
 
 In questo articolo viene descritto i report predefiniti per i bilanci di verifica. Sono descritti inoltre i blocchi predefiniti associati a questi report e come è possibile modificare i report in modo da soddisfare i requisiti aziendali. 
 
-<a name="default-trial-balance-reports"></a>Report predefiniti del bilancio di verifica
------------------------------
+## <a name="default-trial-balance-reports"></a>Report predefiniti del bilancio di verifica
 
 Tre report del bilancio di verifica sono disponibili nei report finanziari.
 
@@ -47,6 +46,9 @@ I report finanziari del bilancio di verifica utilizzano i seguenti blocchi prede
 | Bilancio di verifica dettagliato - Predefinito               | Bilancio di verifica - Predefinito | Bilancio di verifica dettagliato - Predefinito               |
 | Bilancio di verifica riepilogativo - Predefinito                | Bilancio di verifica - Predefinito | Bilancio di verifica riepilogativo - Predefinito                |
 | Bilancio di verifica riepilogativo annuale - Predefinito | Bilancio di verifica - Predefinito | Bilancio di verifica riepilogativo annuale - Predefinito |
+
+> [!NOTE] 
+> Quando si esegue il report **Bilancio di verifica** in Financial Reporting, assicurarsi di selezionare le caselle di controllo per **Visualizza righe senza importi** e **Visualizza report senza righe attive** nella scheda **Impostazioni**.
 
 ### <a name="row-definition"></a>Definizione riga
 
@@ -94,10 +96,7 @@ Ogni report di bilancio di verifica utilizza una definizione di colonna diversa.
     -   **FD** I dati finanziari contenenti solo i debiti per l'anno precedente
     -   **FD** I dati finanziari contenenti solo i crediti per l'anno precedente
 
-
-
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica sulla creazione di report finanziari](financial-reporting-getting-started.md)
 

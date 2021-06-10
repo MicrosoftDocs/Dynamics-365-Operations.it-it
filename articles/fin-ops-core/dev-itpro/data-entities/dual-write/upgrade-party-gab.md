@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018314"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112675"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Eseguire l'aggiornamento al modello di parte e di rubrica globale
 
@@ -22,22 +22,23 @@ ms.locfileid: "6018314"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Il [modello di Azure Data Factory](https://aka.ms/dual-write-gab-adf) consente di aggiornare i dati di tabella **Account**, **Contatto** e **Fornitore** in doppia scrittura al modello di parte e rubrica globale. Il modello riconcilia i dati delle app Finance and Operations e delle applicazioni di interazione con i clienti. Alla fine del processo, i campi **Parte** e **Contatto** per i record **Parte** verranno creati e associati ai record **Account**, **Contatto** e **Fornitore** nelle applicazioni di interazione con i clienti. Un file .csv (`FONewParty.csv`) viene generato per creare nuovi record **Parte** nell'app Finance and Operations. In questo argomento vengono fornite istruzioni per utilizzare il modello Data Factory e aggiornare i dati.
+Il [modello di Microsoft Azure Data Factory](https://aka.ms/dual-write-gab-adf) consente di aggiornare i dati di tabella **Account**, **Contatto** e **Fornitore** in doppia scrittura al modello di parte e rubrica globale. Il modello riconcilia i dati delle app Finance and Operations e delle applicazioni di interazione con i clienti. Alla fine del processo, i campi **Parte** e **Contatto** per i record **Parte** verranno creati e associati ai record **Account**, **Contatto** e **Fornitore** nelle applicazioni di interazione con i clienti. Un file .csv (`FONewParty.csv`) viene generato per creare nuovi record **Parte** nell'app Finance and Operations. In questo argomento vengono fornite istruzioni per utilizzare il modello Data Factory e aggiornare i dati.
 
 Se non disponi di personalizzazioni, puoi utilizzare il modello così com'è. Se hai personalizzazioni per **Account**, **Contatto** e **Fornitore** devi modificare il modello utilizzando le seguenti istruzioni.
 
-> [!Note]
+> [!NOTE]
 > Il modello aiuta ad aggiornare solo i dati **Parte**. In una versione futura verranno inclusi indirizzi postali ed elettronici.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Questi prerequisiti sono obbligatori:
+I seguenti prerequisiti sono necessari per eseguire l'aggiornamento al modello di rubrica indirizzi globale e del gruppo:
 
 + [Sottoscrizione di Azure](https://portal.azure.com/)
 + [Accesso al modello](https://aka.ms/dual-write-gab-adf)
-+ Sei un cliente esistente che utilizza la doppia scrittura.
++ Devi essere un cliente esistente che utilizza la doppia scrittura.
 
 ## <a name="prepare-for-the-upgrade"></a>Preparazione per l'aggiornamento
+Le seguenti attività sono necessarie per preparare l'aggiornamento:
 
 + **Completamente sincronizzato**: entrambi gli ambienti sono completamente sincronizzati per **Account (cliente)**, **Contatto** e **Fornitore**.
 + **Chiavi di integrazione**: le tabelle **Account (cliente)**, **Contatto** e **Fornitore** nelle app di interazione con i clienti utilizzano le chiavi di integrazione fornite immediatamente. Se hai personalizzato le chiavi di integrazione, devi personalizzare il modello.
@@ -78,15 +79,19 @@ Questi prerequisiti sono obbligatori:
     FO Linked Service_properties_type Properties_tenant | Specifica le informazioni sul tenant (nome di dominio o ID tenant) in cui risiede l'applicazione.
     FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO Linked Service_properties_type Properties_service Principal Id | Specifica l'ID client dell'applicazione.
-    Dynamics Crm Linked Service_properties_type Properties_username | Il nome utente per la connessione a Dynamics.
+    Dynamics Crm Linked Service_properties_type Properties_username | Il nome utente per la connessione a Dynamics 365.
 
-    Per ulteriori informazioni, vedi [Promuovere manualmente un modello di Resource Manager per ogni ambiente](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Proprietà del servizio collegato](/azure/data-factory/connector-dynamics-ax#linked-service-properties) e [Copiare dati usando Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Per ulteriori informazioni, fare riferimento ai seguenti argomenti: 
+    
+    - [Promuovere manualmente un modello di Resource Manager per ogni ambiente](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [Proprietà del servizio collegato](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [Copiare i dati usando Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Dopo la distribuzione, convalidare i set di dati, il flusso di dati e il servizio collegato del data factory.
 
    ![Set di dati, flusso di dati e servizio collegato](media/data-factory-validate.png)
 
-11. Vai a **Gestisci**. Sotto **Connessioni**, seleziona **Servizio collegato**. Seleziona **DynamicsCrmLinkedService**. Nel modulo **Modifica servizio collegato (Dynamics CRM)**, inserisci i seguenti valori:
+11. Vai a **Gestisci**. Sotto **Connessioni**, seleziona **Servizio collegato**. Seleziona **DynamicsCrmLinkedService**. Nel modulo **Modifica servizio collegato (Dynamics CRM)**, inserisci i seguenti valori.
 
     Campo | Valore
     ---|---
@@ -102,7 +107,7 @@ Questi prerequisiti sono obbligatori:
 
 ## <a name="run-the-template"></a>Eseguire il modello
 
-1. Interrompi la doppia scrittura seguente di **Account**, **Contatto** e **Fornitore** utilizzando l'app Finance and Operations.
+1. Interrompi i mapping a doppia scrittura seguenti di **Account**, **Contatto** e **Fornitore** utilizzando l'app Finance and Operations.
 
     + Clienti V3 (conti)
     + Clienti V3(contacts)
@@ -125,7 +130,7 @@ Questi prerequisiti sono obbligatori:
 
 5. Nell'app di interazione con i clienti, disabilita i seguenti passaggi del plug-in.
 
-    + Aggiornamento dell'account
+    + Aggiornamento account
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: aggiornamento dell'account
          + Microsoft.Dynamics.FinanceExtended.Plugins.TriggerNotesForCustomerTypeCodes: aggiornamento dell'account
     + Aggiornamento del contatto
@@ -157,13 +162,13 @@ Questi prerequisiti sono obbligatori:
 8. Importa i nuovi record **Parte** nell'app Finance and Operations.
 
     + Scarica il file `FONewParty.csv` da archiviazione BLOB di Azure. Il percorso è `partybootstrapping/output/FONewParty.csv`.
-    + Converti il file `FONewParty.csv` in un file Excel e importa il file Excel nell'app Finance and Operations.  Se l'importazione del file CSV funziona, puoi importare direttamente il file CSV. L'esecuzione dell'importazione potrebbe richiedere alcune ore, a seconda del volume di dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../data-import-export-job.md).
+    + Converti il file `FONewParty.csv` in un file Excel e importa il file Excel nell'app Finance and Operations. Se l'importazione del file CSV funziona, puoi importare direttamente il file CSV. L'esecuzione dell'importazione potrebbe richiedere alcune ore, a seconda del volume di dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../data-import-export-job.md).
 
     ![Importare i record Parte di Datavers](media/data-factory-import-party.png)
 
 9. Nell'app di interazione con i clienti, abilita i seguenti passaggi del plug-in:
 
-    + Aggiornamento dell'account
+    + Aggiornamento account
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: aggiornamento dell'account
          + Microsoft.Dynamics.FinanceExtended.Plugins.TriggerNotesForCustomerTypeCodes: aggiornamento dell'account
     + Aggiornamento del contatto
@@ -198,4 +203,4 @@ Questi prerequisiti sono obbligatori:
 
 ## <a name="learn-more-about-the-template"></a>Ulteriori informazioni sul modello
 
-Puoi trovare commenti relativi al modello nel file [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+Puoi trovare ulteriori informazioni sul modello in [Commenti per il file Leggimi del modello di Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

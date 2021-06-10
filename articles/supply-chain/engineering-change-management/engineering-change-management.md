@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954647"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115001"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -92,9 +92,13 @@ Questo elenco è fornito solo a scopo informativo. Pertanto, è possibile aggiun
 
 La Scheda dettaglio **Origine** consente di tenere traccia del punto di inizio della richiesta di modifica. È utile, ad esempio, se si desidera vedere se la richiesta di modifica è stata creata da un ordine cliente, l'autore della creazione e l'azienda in cui è stata creata.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Valutare l'impatto aziendale di una richiesta di modifica
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Valutare l'impatto aziendale di una richiesta di modifica e inviare le notifiche
 
-Quando si esamina una richiesta di modifica, è possibile cercare le dipendenze. In questo modo, è possibile valutare l'impatto della modifica richiesta sulle transazioni aperte, ad esempio ordini cliente, ordini di produzione e scorte disponibili.
+Quando si esamina una richiesta di modifica, è possibile cercare le dipendenze. In questo modo, è possibile valutare l'impatto della modifica richiesta sulle transazioni aperte, ad esempio ordini cliente, ordini di produzione e scorte disponibili. Mentre esamini le richieste di modifica, puoi inviare notifiche alle persone responsabili dell'adempimento dei vari tipi di ordini correlati.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Rivedi le transazioni interessate, blocca le transazioni selezionate e invia notifiche
+
+Per rivedere le transazioni interessate, blocca le transazioni selezionate e inviare le relative notifiche, segui questi passaggi.
 
 1. Andare a **Gestione modifiche di progettazione \> Comune \> Gestione modifiche di progettazione \> Richieste modifiche di progettazione**.
 1. Aprire una richiesta di modifica esistente o selezionare **Nuovo** nel riquadro azioni per creare una nuova richiesta di modifica.
@@ -103,7 +107,30 @@ Quando si esamina una richiesta di modifica, è possibile cercare le dipendenze.
     - **Cerca** - Esegue la scansione di tutte le transazioni aperte, quindi apre la finestra di dialogo **Impatto aziendale sulle transazioni aperte** in cui sono elencate tutte le transazioni che saranno interessate dalla modifica.
     - **Visualizza ricerca precedente** - Apre la finestra di dialogo **Impatto aziendale sulle transazioni aperte** in cui sono elencati i risultati della ricerca precedente. Non viene eseguita una nuova ricerca.
 
-1. Se il problema che richiede una modifica risulta essere critico, è possibile bloccare le transazioni aperte o avvisare l'utente responsabile utilizzando i pulsanti sulla barra degli strumenti nella finestra di dialogo **Impatto aziendale sulle transazioni aperte**.
+1. La finestra di dialogo **Impatto aziendale sulle transazioni aperte** fornisce una serie di schede, ognuna delle quali mostra un elenco di transazioni interessate di un tipo specifico (**Ordini di vendita**, **Ordini di acquisto**, **Ordini di produzione**, **Inventario**, e così via). Ogni scheda mostra anche un numero che indica il numero di transazioni interessate di quel tipo. Seleziona una scheda per visualizzare l'elenco pertinente.
+1. Per lavorare con una transazione nell'elenco, selezionala, quindi seleziona uno dei seguenti pulsanti sulla barra degli strumenti:
+
+    - **Visualizza transazione**: apri il record della transazione selezionato.
+    - **Blocca ordine**: questo pulsante è disponibile solo nella scheda **Ordini di vendita**. Selezionalo per bloccare l'ordine cliente selezionato.
+    - **Blocca riga**: questo pulsante è disponibile solo nella scheda **Ordini di acquisto**. Selezionalo per bloccare la riga ordine cliente selezionata.
+    - **Notifica responsabile**: questo pulsante è disponibile solo nella scheda **Ordini di vendita**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'ordine cliente selezionato.
+    - **Notifica responsabile ordine**: questo pulsante è disponibile solo nella scheda **Ordini di acquisto**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'ordine di acquisto selezionato.
+    - **Notifica produzione**; questo pulsante è disponibile solo nella scheda **Ordini di produzione**. A differenza degli ordini di vendita e degli ordini di acquisto, gli ordini di produzione non hanno un singolo utente che ne sia responsabile dall'inizio alla fine. Invece, vari supervisori o pianificatori di solito assumono la proprietà di un sito specifico o di una parte specifica della produzione (ad esempio, per risorse o gruppi di risorse specifici). Pertanto, quando si seleziona questo pulsante, tutti gli utenti responsabili di qualsiasi risorsa correlata all'ordine di produzione selezionato ricevono una notifica di modifica.
+    - **Notifica preparatore**: questo pulsante è disponibile solo nella scheda **Richiesta di acquisto**. Selezionalo per inviare una notifica di modifica all'utente impostato come preparatore della richiesta di acquisto selezionata.
+    - **Notifica responsabile vendite**: questo pulsante è disponibile solo nella scheda **Offerte**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'offerta selezionata.
+    - **Scarto**: questo pulsante è disponibile solo nella scheda **Inventario**. Selezionalo per scartare l'inventario selezionato.
+    - **Visualizza cronologia**: apri una cronologia delle azioni che sono state eseguite sulla transazione selezionata utilizzando la finestra di dialogo **Impatto aziendale sulle transazioni aperte**. (Ad esempio, la cronologia mostra se le notifiche sono state inviate o le transazioni sono state bloccate.) 
+    - **Visualizza tutte le transazioni**: apri l'elenco completo di tutte le transazioni, non solo le transazioni aperte.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>Rivedere ed elaborare le notifiche di modifica per le transazioni
+
+Puoi leggere ed elaborare le notifiche di modifica che ricevi nei seguenti modi:
+
+- Tranne nel caso degli ordini di produzione, le notifiche di modifica per le transazioni di cui sei responsabile vengono visualizzate nel Centro azioni. Il pulsante **Mostra messaggi** (simbolo della campana) sul lato destro della barra di spostamento indica quando un messaggio del centro azioni è disponibile per l'utente corrente. Seleziona **Mostra messaggi** per aprire il Centro azioni e rivedere i messaggi.
+- Per visualizzare tutti gli ordini di produzione per cui è stata inviata una notifica di progettazione, andare a **Ordini di produzione \> Ordini di produzione \> Tutti gli ordini di produzione**. Quindi, nel riquadro azioni, nella scheda **Ordine di produzione**, nel gruppo **Richiesta di modifica di progettazione** seleziona **Notifiche di progettazione** per aprire la pagina **Notifiche di progettazione**.
+- Per gli ordini di produzione, puoi scegliere di esaminare solo le notifiche di modifica che si applicano alle risorse di produzione che gestisci. Nell'area di lavoro **Gestione area di produzione** area di lavoro, nel riquadro azioni seleziona **Configura area di lavoro personale** per filtrare la pagina in modo che mostri solo le informazioni sulle unità di produzione, i gruppi e/o le risorse che gestisci. Nella sezione **Riepilogo**, un riquadro denominato **Ordini di produzione con prodotti modificati** mostra un conteggio delle notifiche che corrispondono alle impostazioni del filtro. Seleziona questo riquadro per aprire la pagina **Notifiche di progettazione**, che mostra l'elenco completo delle transazioni che soddisfano i criteri del filtro.
+
+Mentre stai esaminando le notifiche degli ordini di produzione nella pagina **Notifiche di progettazione** è possibile seguire i collegamenti agli ordini di modifica o di produzione correlati selezionando i valori delle colonne o utilizzando i comandi correlati nel riquadro azioni. Dopo aver finito di valutare una modifica e dopo aver annullato o modificato gli ordini di produzione come richiesto, è possibile contrassegnare una notifica come risolta. Seleziona la notifica e quindi, nel riquadro azioni, seleziona **Risolvi**. La notifica viene rimossa dalle visualizzazioni di tutti gli utenti.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Creare un ordine di modifica da una richiesta di modifica
 

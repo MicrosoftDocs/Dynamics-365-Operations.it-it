@@ -2,13 +2,12 @@
 title: Gestire le richieste di congedo in Teams
 description: Questo argomento mostra come richiedere tempo libero nell'app Dynamics 365 Human Resources in Microsoft Teams.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953414"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097261"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
@@ -33,21 +32,13 @@ L'app Dynamics 365 Human Resources in Microsoft Teams ti consente di richiedere 
 
 Puoi trovare l'app Dynamics 365 Human Resources nello store di Teams.
 
-1. In Microsoft Teams, seleziona i puntini di sospensione.
-
-   ![Puntini di sospensione dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-ellipses.png)
+1. In Microsoft Teams, accedi all'elenco delle app.
  
 2. Cerca Dynamics 365 Human Resources, quindi seleziona il riquadro **Human Resources**.
 
-   ![Riquadro HR dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Seleziona il pulsante **Aggiungi** per installare l'app.
 
-   ![Installazione dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-in-store.png)
-
 Se l'app non ti consente di accede automaticamente, seleziona la scheda **impostazioni** per accedere.
-
-![Scheda Impostazioni dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Se non vedi una finestra di accesso, controlla le impostazioni del browser per consentire i popup. 
@@ -61,20 +52,24 @@ Se hai accesso a più di un'istanza di Human Resources, puoi selezionare a quale
 
 Dopo l'installazione dell'app, viene visualizzato un messaggio di benvenuto che ti informa sui tipi di azioni che il bot può eseguire per tuo conto.
 
-![Messaggio di benvenuto del bot dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Quando interagisci per la prima volta con il bot, potresti dover eseguire l'accesso. Se non vedi una finestra di accesso, controlla le impostazioni del browser per consentire i popup.
 
 Puoi chiedere al bot di:
 
-- Inizia una richiesta di ferie per te.
+- Visualizza i saldi attuali delle ferie. Ad esempio, invia un messaggio che dice "Visualizza i saldi delle ferie".
+
+- Inizia una richiesta di ferie per te. Ad esempio, invia un messaggio che dice "Prenditi un periodo di ferie" o "Voglio prendere delle ferie il prossimo giovedì e venerdì" per essere più specifico per la richiesta di ferie per il tipo di ferie. 
 
   ![Avviare una richiesta di congedo nella chat di Teams](./media/hr-teams-leave-app-initiate.png)
 
 - Il chat bot popolerà automaticamente una richiesta di congedo. Selezionare **Richiedere un permesso** e modificare i dettagli della richiesta.
 
-  ![Modificare i dettagli della richiesta di congedo](./media/hr-teams-leave-app-details.png)
+   Se desideri inviare richieste di ferie per più tipi di ferie per la stessa data, seleziona l'opzione **Suddividi giorno con** dal menu **Altre opzioni**. 
+
+   Se selezioni un permesso per metà giornata quando l'unità di richiesta di ferie è in giorni, puoi specificare se desideri richiedere il permesso per la prima metà della giornata o la seconda metà della giornata selezionando l'opzione **Definizione metà giornata** dal menu **Altre opzioni**.
+   
+   ![Definizioni di metà giornata](./media/HalfDayDefinitions.png)
 
 - Dopo la modifica dei dettagli della richiesta di congedo, selezionare **Invia** per inviarla per l'approvazione.
 
@@ -91,42 +86,36 @@ La scheda **Tempo libero** ti consente di visualizzare:
 - Richieste di tempo libero
 
 - Bozza di richieste di congedo
-
-![Scheda Tempo libero dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Crea una nuova richiesta
 
 1. Per creare una nuova richiesta di congedo, seleziona **Nuova richiesta**.
 
-   ![Nuova richiesta dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Immetti il giorno o i giorni che desideri prendere come congedo, quindi seleziona **Aggiungi**.
 
-   ![Aggiungi congedo app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Aggiungi congedo app per i permessi Human Resources in Teams](./media/TimeOffHours.png)
 
 3. Se applicabile, inserisci un codice motivo. Inserisci anche eventuali commenti e aggiungi eventuali allegati.
 
-4. Al termine dell'immissione delle informazioni, digita **Invia** per inviarle per l'approvazione. Puoi anche digitare **Salva come bozza** per tornare più tardi.
+4. Se desideri inviare richieste di ferie per più tipi di ferie per la stessa data, seleziona l'opzione **Suddividi giorno con** dal menu **Altre opzioni**.
+
+5. Seleziona l'opzione **Definizione metà giornata** per specificare se desideri richiedere la prima metà della giornata di permesso o la seconda metà della giornata di permesso. Questa opzione è disponibile quando l'unità richiesta di ferie è in giorni e l'importo richiesto è 0,5 giorni.
+
+6. Al termine dell'immissione delle informazioni, immetti **Invia** per inviarle per l'approvazione. Puoi anche immettere **Salva come bozza** per tornare più tardi.
 
 ### <a name="manage-draft-requests"></a>Gestisci bozze di richiesta
 
 1. Seleziona la scheda **Bozze**.
 
-   ![Scheda Bozze dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Seleziona la matita per modificare la richiesta o seleziona il cestino per eliminare la richiesta.
 
 3. Apporta le modifiche necessarie. Al termine dell'immissione delle informazioni, digita **Invia** per inviarle per l'approvazione. Puoi anche selezionare **Salva come bozza** per tornare più tardi.
-
-   ![Modifica bozza dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Rispondere alle notifiche di Teams
 
 Quando l'utente o un lavoratore per cui l'utente è un approvatore invia una richiesta di congedo, viene ricevuta una notifica nell'app Human Resources in Teams. È possibile selezionare la notifica per visualizzarla. Le notifiche vengono visualizzate anche nell'area **Chat**.
 
 Se l'utente è un approvatore, è possibile selezionare **Approva** o **Rifiuta** nella notifica. È anche possibile fornire un messaggio opzionale.
-
-![Notifica della richiesta di congedo nell'app Human Resources in Teams](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Inviare le informazioni sulla prossima indisponibilità ai tuoi colleghi
 
@@ -138,15 +127,9 @@ Dopo aver installato l'app Human Resources per Teams, puoi inviare facilmente in
 
 2. Seleziona la richiesta di congedo che desideri condividere. Se desideri condividere una bozza di richiesta di congedo, seleziona prima **Bozza**.
 
-   ![Selezionare una richiesta di congedo imminente da condividere](./media/hr-teams-leave-app-chat-search.png)
-
 La tua richiesta di congedo verrà visualizzata nella chat.
 
-![Scheda richiesta di congedo per Human Resources](./media/hr-teams-leave-app-chat-card.png)
-
-Se hai condiviso una bozza di richiesta, verrà visualizzata come bozza:
-
-![Scheda richiesta di congedo per Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
+Se hai condiviso una bozza di richiesta, verrà visualizzata come bozza.
 
 ## <a name="view-your-teams-leave-calendar"></a>Visualizzare un calendario di congedo del team
 
@@ -155,8 +138,6 @@ Se l'utente è un responsabile con diretti subalterni può visualizzare i conged
 1. Nell'app Human Resources in Teams selezionare **Permesso**.
 
 2. Selezionare **Calendario del team**. Il calendario mostra i permessi approvati e in attesa di approvazione dei diretti subalterni.
-
-   ![Visualizzare il calendario nell'app Human Resources in Teams](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > Se il calendario del team non è visibile, chiedere all'amministratore di abilitarlo. Per ulteriori informazioni, vedere [Installare e configurare](hr-admin-teams-leave-app.md#install-and-setup).

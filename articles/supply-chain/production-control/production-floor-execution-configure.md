@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814732"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115025"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -71,6 +71,14 @@ Questa funzionalità aggiunge una scheda di gestione dei cespiti all'interfaccia
 
 - Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione
 
+### <a name="enable-job-search"></a>Abilitare la ricerca di lavoro
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Questa funzionalità consente di aggiungere un campo di ricerca all'elenco dei processi. I lavoratori possono trovare un processo specifico inserendo l'ID lavoro o trovare tutti i lavori per un ordine specifico inserendo l'ID ordine. I lavoratori possono inserire l'ID utilizzando una tastiera o eseguendo la scansione di un codice a barre. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Ricerca del processo per l'interfaccia di esecuzione dell'area di produzione
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Utilizzare le configurazioni di esecuzione dell'area di produzione
 
 Per creare e gestire le configurazioni del dispositivo, andare a **Controllo produzione \> Imposta \> Esecuzione produzione \> Configura esecuzione area di produzione**. La pagina **Configura esecuzione area di produzione** mostra un elenco di configurazioni esistenti. In questa pagina è possibile effettuare le azioni riportate di seguito:
@@ -81,6 +89,7 @@ Per creare e gestire le configurazioni del dispositivo, andare a **Controllo pro
 Successivamente, configurare le varie impostazioni per la configurazione del dispositivo selezionato. Sono disponibili i campi seguenti:
 
 - **Solo ora di entrata e di uscita** - Impostare questa opzione su *Sì* per creare un'interfaccia semplificata che fornisca solo la funzionalità ora di entrata e ora di uscita. Ciò disabilita la maggior parte delle altre opzioni in questa pagina. È necessario rimuovere tutte le righe dalla Scheda dettaglio **Selezione scheda** per poter abilitare questa opzione.
+- **Abilita la ricerca**: imposta questa opzione su *Sì* per includere un campo di ricerca nell'elenco dei lavori. I lavoratori possono trovare un processo specifico inserendo l'ID lavoro o trovare tutti i lavori per un ordine specifico inserendo l'ID ordine. I lavoratori possono inserire l'ID utilizzando una tastiera o eseguendo la scansione di un codice a barre.
 - **Segnala quantità all'uscita** - Impostare questa opzione su *Sì* per richiedere ai lavoratori di fornire il loro feedback sui lavori in corso quando timbrano il cartellino. Se impostato su *No*, ai lavoratori non verrà richiesto di eseguire questa operazione.
 - **Blocca dipendente** - Quando questa opzione è impostata su *No*, i lavoratori verranno disconnessi immediatamente dopo aver effettuato una registrazione (ad esempio un nuovo lavoro). Il dispositivo tornerà quindi alla pagina di accesso. Quando questa opzione è impostata su *Sì*, i lavoratori rimarranno connessi al dispositivo con la scheda lavoro. Tuttavia, un lavoratore può disconnettersi manualmente in modo che un altro lavoratore possa accedere mentre il dispositivo con la scheda lavoro continua a funzionare con lo stesso account utente di sistema. Per ulteriori informazioni su questi tipi di account, vedere [Utenti assegnati](config-job-card-device.md#assigned-users).
 - **Utilizza ora di registrazione effettiva** - Impostare questa opzione su *Sì* affinché l'ora di ogni nuova registrazione sia uguale all'ora esatta in cui la registrazione è stata presentata dal lavoratore. Quando questa opzione è impostata su *No*, viene utilizzata l'ora di accesso. Di solito si imposta questa opzione su *Sì* se sono state impostate le opzioni **Blocca dipendente** e/o **Singolo lavoratore** su *Sì* per i casi dove i lavoratori rimangono spesso connessi per periodi più lunghi.

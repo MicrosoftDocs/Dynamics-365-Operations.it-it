@@ -1,5 +1,5 @@
 ---
-title: Categorie di tipi di processo di manutenzione e tipi di processo di manutenzione, varianti di tipi di processo di manutenzione, settori di processo di manutenzione ed elenchi di controllo di manutenzione
+title: Tipi di lavori di manutenzione, categorie, varianti, scambi e liste di controllo
 description: In questo argomento vengono descritti categorie di tipi di processo di manutenzione e tipi di processo di manutenzione, varianti di tipi di processo di manutenzione, settori di processo di manutenzione ed elenchi di controllo di manutenzione
 author: johanhoffmann
 ms.date: 08/13/2019
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb73fb36ee31d93b2121437d57d959ba6c01a337
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842275"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117085"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorie di tipi di processo di manutenzione e tipi di processo di manutenzione, varianti di tipi di processo di manutenzione, settori di processo di manutenzione ed elenchi di controllo di manutenzione
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tipi di lavori di manutenzione, categorie, varianti, scambi e liste di controllo
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Un tipo cespite è associato a ogni cespite. I tipi di cespite definiscono i tipi di processo di manutenzione (e di conseguenza i processi di manutenzione) che possono essere eseguiti nei cespiti. Quando si crea un ordine di lavoro, è necessario selezionare un tipo di processo di manutenzione. È possibile selezionare solo i tipi di processo di manutenzione correlati all'impostazione del tipo di cespite utilizzato per il cespite.
 

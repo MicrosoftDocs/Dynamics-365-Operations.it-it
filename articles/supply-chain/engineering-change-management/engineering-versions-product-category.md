@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920159"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115147"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versioni di progettazione e categorie di prodotti di progettazione
 
@@ -48,7 +48,8 @@ Quando si utilizzano prodotti di progettazione, ogni prodotto ha almeno una vers
 - La società di progettazione che ha creato ed è proprietaria del prodotto (per ulteriori informazioni, vedere [Società di progettazione e regole della proprietà dei dati](engineering-org-data-ownership-rules.md)).
 - Documenti di progettazione correlati, come un manuale di assemblaggio, istruzioni per l'utente, immagini e collegamenti
 - Gli attributi di progettazione (per ulteriori informazioni, vedere [Attributi di progettazione e ricerca di attributi di progettazione](engineering-attributes-and-search.md).)
-- Le distinte base di progettazione
+- Distinta base (BOM) per prodotti di progettazione
+- Formule per prodotti di processi di produzione
 - I cicli di lavorazione di progettazione
 
 È possibile aggiornare questi dati in una versione esistente o creare una nuova versione utilizzando un *ordine di modifica di progettazione*. Per ulteriori informazioni, vedere [Gestire le modifiche ai prodotti di progettazione](engineering-change-management.md). Se si crea una nuova versione di un prodotto, il sistema copia tutti i dati rilevanti per la progettazione in quella nuova versione. È quindi possibile modificare i dati per quella nuova versione. In questo modo, è possibile tenere traccia di dati specifici per ogni versione consecutiva. Per confrontare le differenze tra versioni di progettazione consecutive, ispezionare l'ordine di modifica di progettazione, che include i tipi di modifica che indicano tutte le modifiche.
@@ -110,6 +111,8 @@ Impostare i seguenti campi nella Scheda dettaglio **Dettagli** di una categoria 
 | Campo | Descrizione |
 |---|---|
 | Tipo di prodotto | Selezionare se la categoria si applica a prodotti o servizi. |
+| Tipo di produzione | Questo campo viene visualizzato solo quando hai abilitato la [gestione delle modifiche alla formula](manage-formula-changes.md) nel tuo sistema. Seleziona il tipo di produzione a cui si applica questa categoria di prodotti di progettazione:<ul><li>**Elemento di pianificazione**: utilizza questa categoria di progettazione per eseguire la gestione del cambiamento di formula per gli elementi di pianificazione. Gli elementi di pianificazione utilizzano formule. Assomigliano a formule, ma vengono utilizzati per produrre solo co-prodotti e sottoprodotti, non prodotti finiti. Le formule vengono utilizzate durante la produzione di processo.</li><li>**BOM**: utilizza questa categoria di progettazione per gestire i prodotti di progettazione, che non utilizzano formule e in genere (ma non necessariamente) includono le distinte materiali.</li><li>**Formula**: utilizza questa categoria di progettazione per eseguire la gestione delle modifiche per i prodotti finiti. Questi articoli avranno una formula ma non una distinta base. Le formule vengono utilizzate durante la produzione di processo.</li></ul> |
+| Peso variabile | Questa opzione viene visualizzata solo quando hai abilitato la [gestione delle modifiche alla formula](manage-formula-changes.md) nel tuo sistema. È disponibile solo quando il campo **Tipo di produzione** è impostato su *Elemento di pianificazione* o *Formula*. Imposta questa opzione su *Sì* se utilizzerai questa categoria di progettazione per gestire gli articoli che richiedono il supporto del peso variabile. |
 | Tenere traccia delle versioni nelle transazioni | Selezionare se la versione del prodotto deve essere apposta su tutte le transazioni (impatto logistico). Ad esempio, se si tiene traccia della versione nelle transazioni, ogni ordine cliente mostrerà quale versione specifica del prodotto è stata venduta in quell'ordine cliente. Se non si tiene traccia della versione nelle transazioni, gli ordini cliente non mostreranno quale versione specifica è stata venduta. Invece, mostrano sempre l'ultima versione.<ul><li>Se questa opzione è impostata su *Sì*, viene creata una rappresentazione generale prodotto per il prodotto e ogni versione del prodotto sarà una variante che utilizza la dimensione del prodotto *versione*. Il campo **Sottotipo di prodotto** viene impostato automaticamente su *Rappresentazione generale prodotto* ed nel campo **Gruppo di dimensioni prodotto** è necessario selezionare un gruppo di dimensioni del prodotto in cui la dimensione *versione* è attiva. Solo gruppi di dimensioni prodotto dove *versione* è una dimensione attiva verranno mostrati. È possibile creare nuovi gruppi di dimensioni prodotto selezionando il pulsante **Modifica** (simbolo della matita).</li><li>Se questa opzione è impostata su *No*, la dimensione del prodotto *versione* non verrà utilizzata. È quindi possibile selezionare se creare un prodotto o una rappresentazione generale prodotto che utilizza le altre dimensioni.</li></ul><p>Questa opzione viene spesso utilizzata per prodotti che presentano una differenza di costo tra le versioni o per prodotti in cui si applicano condizioni diverse in relazione al cliente. Pertanto, è importante indicare quale versione è stata utilizzata in ciascuna transazione.</p> |
 | Sottotipo di prodotto | Selezionare se la categoria conterrà prodotti o rappresentazioni generali prodotto. Per le rappresentazioni generali prodotto, verranno utilizzate le dimensioni del prodotto.
 | Gruppo di dimensioni prodotto | L'impostazione **Tenere traccia delle versioni nelle transazioni** aiuta a selezionare il gruppo di dimensioni del prodotto. Se è stato specificato di voler tenere traccia della versione nelle transazioni, i gruppi di dimensioni prodotto in cui la dimensione *versione* è usata verranno mostrati. In caso contrario, solo gruppi di dimensioni prodotto dove la dimensione *versione* non è utilizzata verranno mostrati. |
@@ -139,7 +142,10 @@ Per ogni riga che si aggiunge alla griglia, impostare i seguenti campi.
 
 ### <a name="readiness-policy-fasttab"></a>Scheda dettaglio Criteri di preparazione
 
-Utilizzare il campo **Criteri di preparazione prodotto** per selezionare i criteri di preparazione che si applicano ai prodotti che appartengono a questa categoria. Per ulteriori informazioni, vedere [Preparazione del prodotto](product-readiness.md).
+Utilizza il campo **Criteri di preparazione prodotto** per selezionare i criteri di preparazione che si applicano ai prodotti che vengono creati in base alla categoria di progettazione. Per ulteriori informazioni, vedere [Preparazione del prodotto](product-readiness.md).
+
+> [!NOTE]
+> IL campo **Criterio di disponibilità del prodotto** funziona in modo leggermente diverso se hai attivato la funzionalità *Controlli di disponibilità del prodotto* nel tuo sistema. (Questa funzionalità consente di applicare i criteri di disponibilità ai prodotti standard\[non ingegneristici\]). Per altre informazioni, vedi [Assegnare criteri di disponibilità a prodotti standard e tecnici](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Scheda dettaglio Criteri di rilascio
 

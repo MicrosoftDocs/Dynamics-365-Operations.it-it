@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944d5794bb535faa18b4f2de8b5382ebfb9bc2ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 4fd0d0d39d19634498f9313aeda4143f9ec81e8f
+ms.sourcegitcommit: f3c28f57d997e824a64485d9a4ce8f198e3bcf23
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022065"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059631"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Novità o modifiche in Dynamics 365 Human Resources (3 maggio 2021)
 
@@ -72,7 +71,6 @@ Le seguenti nuove funzionalità sono in anteprima. Per ulteriori informazioni su
 
 | Funzionalità | Dettagli |
 | --- | --- |
-| Le competenze immesse da un manager per i propri dipendenti possono essere approvate automaticamente da un flusso di lavoro | Presto disponibili. |
 | Platform Update 10.0.18 (42) | L'implementazione dell'aggiornamento della piattaforma 10.0.18 inizierà con la versione di servizio il 17 maggio 2021. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.18 delle app Finance and Operations (maggio 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Supporto per campi personalizzati nelle regole di idoneità di Gestione benefit  | [Supporto per campi personalizzati per l'elaborazione dell'idoneità](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 

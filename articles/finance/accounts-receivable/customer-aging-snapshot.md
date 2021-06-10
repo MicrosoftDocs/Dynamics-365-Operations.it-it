@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039929"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123364"
 ---
 # <a name="customer-aging-snapshots"></a>Snapshot di aging cliente 
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039929"
 In questo argomento vengono fornite informazioni sugli snapshot di aging cliente. Uno snapshot di aging calcola i saldi con aging per un gruppo di clienti in un determinato momento. Puoi creare record di snapshot di aging per tutti i clienti o per i clienti di un pool di clienti.
 
 Le informazioni dello snapshot di aging sono visualizzate nella pagina elenco **Saldi con aging** e nella pagina **Riscossioni**. Per poter utilizzare la pagina elenco **Saldi con aging**, devi innanzitutto creare uno snapshot di aging. La pagina elenco elenca solo i clienti per i quali è stato creato uno snapshot di aging.
+
+L'area di lavoro **Crediti e riscossioni cliente** mostra anche l'aging del cliente. Per ulteriori informazioni, vedi [Contenuto Power BI per la gestione di crediti e riscossioni](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Per ridurre il tempo necessario per creare uno snapshot di aging, attiva la funzionalità **Miglioramento delle prestazioni di aging cliente** nell'area di lavoro **Gestione funzionalità**. Tuttavia, non utilizzare i pool di clienti quando questa funzionalità è attivata. Se un pool di clienti è selezionato, la funzionalità non funzionerà, ma puoi comunque creare uno snapshot di aging.
@@ -62,4 +64,3 @@ Si consiglia di pianificare questo processo in modo per l'esecuzione in batch.
 > [!NOTE]
 > Per migliorare le prestazioni del batch durante la creazione di snapshot di aging, immetti un numero nel campo **Numero massimo di attività batch** nella Scheda dettaglio **Valori predefiniti riscossioni** della scheda **Riscossioni** della pagina **Parametri contabilità clienti**. Nel campo **Saldi con aging cliente**, ti consigliamo di iniziare con il valore predefinito **100** e quindi regola il valore per ottimizzare l'elaborazione per la tua situazione.
 
-L'area di lavoro **Crediti e riscossioni cliente** mostra anche l'aging del cliente. Per ulteriori informazioni, vedi [Contenuto Power BI per la gestione di crediti e riscossioni](credit-collections-power-bi.md).
