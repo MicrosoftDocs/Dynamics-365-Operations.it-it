@@ -2,7 +2,7 @@
 title: Destinazioni dei report elettronici
 description: Questo argomento fornisce informazioni sulla gestione delle destinazioni di report elettronici, i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893606"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085502"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici
 
@@ -199,6 +199,34 @@ Se si genera una configurazione ER in formato Excel e si desidera convertirla in
 > L'orientamento della pagina selezionato viene applicato a tutte le configurazioni ER che vengono generate in formato Excel e quindi convertite in formato PDF.
 >
 > Se una configurazione ER in formato Word viene convertita in formato PDF, l'orientamento della pagina del documento PDF viene preso dal documento Word.
+
+## <a name="output-unfolding"></a>Apertura dell'output
+
+Quando si configura una destinazione per il componente **Cartella** del formato ER, è possibile specificare come l'output di quel componente viene recapitato alla destinazione configurata.
+
+### <a name="make-output-unfolding-available"></a>Rendere disponibile l'apertura dell'output
+
+Per rendere disponibile l'opzione di apertura dell'output nell'istanza corrente di Finance, apri l'area di lavoro **Gestione funzionalità** e attiva la funzionalità **Consenti la configurazione delle destinazioni ER per inviare il contenuto delle cartelle come file separati**.
+
+### <a name="applicability"></a>Applicabilità
+
+L'opzione di apertura dell'output può essere configurata solo per i componenti di formato di tipo **Cartella**. Quando inizi a configurare un componente **Cartella**, la scheda Dettaglio **Generale** diventa disponibile nella pagina **Destinazione di creazione di report elettronici**. 
+
+### <a name="use-the-output-unfolding-option"></a>Utilizzare l'opzione di apertura dell'output
+
+Nella Scheda dettaglio **Generale**, nel campo **Invia cartella come**, seleziona uno dei seguenti valori:
+
+- **Archivio ZIP**: recapita un file generato come file zip.
+- **File separati**: recapita ogni file di un file zip generato come un singolo file.
+
+    > [!NOTE]
+    > Quando selezioni **File separati**, l'output generato viene raccolto in memoria in uno stato compresso. Pertanto, il [limite di dimensione del file](er-compress-outbound-files.md) massimo viene applicato per l'output compresso quando la dimensione reale del file potrebbe superare questo limite. Si consiglia di selezionare questo valore quando si prevede che anche la dimensione dell'output generato sia abbastanza grande.
+
+[![Configurazione di una destinazione per un componente formato cartella](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Limiti
+
+Se imposti il campo **Invia cartella come** su **File separati** per un componente **Cartella** che contiene altri componenti **Cartella**, l'impostazione non viene applicata in modo ricorsivo ai componenti **Cartella**.
 
 ## <a name="security-considerations"></a>Considerazioni sulla sicurezza
 

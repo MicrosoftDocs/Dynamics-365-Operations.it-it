@@ -2,7 +2,7 @@
 title: Modulo dei risultati di ricerca
 description: Questo argomento tratta i moduli dei risultati di ricerca e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3409e9e99329def55b173eb78cf03db4a6764c92
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 645022000d8746db3793a8a8611ab8f17c7bcc6e
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794117"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117135"
 ---
 # <a name="search-results-module"></a>Modulo dei risultati di ricerca
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Questo argomento tratta i moduli dei risultati di ricerca e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
@@ -51,9 +52,12 @@ La tabella seguente elenca le proprietà dei moduli dei risultati di ricerca, in
 | Nascondi visualizzazione gerarchia di categorie | **True** o **False** | Se questa proprietà è impostata su **True**, la visualizzazione della gerarchia delle categorie nella pagina verrà nascosta. Questa proprietà deve essere impostata su **True** se stai usando il [modulo Percorso di navigazione](add-breadcrumb.md) per mostrare la gerarchia delle categorie.|
 | Includi attributi del prodotto nei risultati di ricerca | **True** o **False** | Se questa proprietà è impostata su **True**, verranno restituiti gli attributi per i prodotti nei risultati di ricerca. Sebbene questi attributi possano essere visualizzati su un sito di Commerce, è necessaria un'estensione.|
 | Mostra i prezzi del rapporto | **True** o **False** | Se questa proprietà è impostata su **True**, i prezzi di affiliazione per i prodotti verranno visualizzati nei risultati di ricerca quando un utente che ha eseguito l'accesso naviga alla pagina. |
+| Aggiorna il pannello di affinamento | **True** o **False** | Se questa proprietà è impostata su **Vero**, il pannello dell'affinamento verrà aggiornato quando vengono selezionati gli affinamenti. In questa modalità, alcuni affinamenti a selezione multipla si comporteranno come affinamenti a selezione singola quando il pannello di affinamento viene aggiornato. |
 
 > [!IMPORTANT]
-> In Dynamics 365 Commerce versione 10.0.16 e successive, la configurazione **Mostra prezzi di affiliazione** può essere utilizzata per mostrare i prezzi di affiliazione sulla pagina.
+> In Commerce versione 10.0.16 e successive, la configurazione **Mostra prezzi di affiliazione** può essere utilizzata per mostrare i prezzi di affiliazione sulla pagina.
+>
+> In Commerce versione 10.0.20 e successive, la configurazione **Aggiorna pannello di affinamento** può essere utilizzata per aggiornare il pannello di affinamento durante la selezione dell'affinamento.
 
 ## <a name="supported-modules"></a>Moduli supportati
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921425"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112623"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
@@ -104,6 +104,39 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Deprecato: prevediamo di non supportare il **report Imposta nazionale - Riferimento funzionalità IT-00003** dal 1° ottobre 2020. |
 
+## <a name="october-2019-deprecation-announcement"></a>Annuncio di deprecamento a ottobre 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagrammi di flusso in Modellatore di processi aziendali
+
+<table>
+<tbody>
+<tr>
+<td><strong>Motivo del deprecamento/rimozione</strong></td>
+<td>Il componente diagramma di flusso in Business process modeler (BPM) viene deprecato in ragione dello scarso utilizzo della progettazione legacy.</td>
+</tr>
+<tr>
+<td><strong>Sostituita da un'altra funzionalità?</strong></td>
+<td>Nessuno</td>
+</tr>
+<tr>
+<td><strong>Aree interessate</strong></td>
+<td>Modellatore di processi aziendali</td>
+</tr>
+<tr>
+<td><strong>Stato</strong></td>
+<td>Deprecato: il componente diagrammi di flusso in BPM dovrebbe essere rimosso nel 2020. La seguente funzionalità diventerà non disponibile:
+<ul>
+<li>Tutti i diagrammi di flusso saranno di sola lettura e non disponibili per la modifica. Anche le proprietà della forma associate alle attività del diagramma di flusso non saranno disponibili. Questi diagrammi di flusso includono sia diagrammi di flusso predefiniti che vengono generati automaticamente sia diagrammi di flusso personalizzati che vengono modificati in base a tali diagrammi di flusso predefiniti.</li>
+<li>I passaggi della procedura saranno di sola lettura e non disponibili per la modifica.</li>     
+<li>La funzionalità di analisi degli scostamenti/adeguatezza non sarà disponibile. Pertanto, nessun elenco di scostamenti verrà automaticamente creato o sarà disponibile per l'esportazione.
+<p><strong>Nota:</strong> questa funzionalità era stata precedentemente deprecata e sostituita dalle integrazioni di  Microsoft Azure DevOps.</p>
+</li>
+<li>La cronologia delle versioni del diagramma di flusso non sarà disponibile.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 con aggiornamento 29 della piattaforma
 

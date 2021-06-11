@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e9cd90d74b92754d4a5432485d5dd59c31e34c61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45763d5e602946fc3328cc3b565777fb7e549c61
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841987"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115099"
 ---
 # <a name="release-product-structures"></a>Rilasciare le strutture del prodotto
 
@@ -103,6 +103,7 @@ Impostare i seguenti campi nella scheda dettaglio **Generale** dei criteri di ri
 | Campo | Descrizione |
 |---|---|
 | Tipo di prodotto | Selezionare se il criterio si applica ai prodotti di tipo *Articolo* o *Servizio*. Non è possibile modificare questa impostazione dopo aver salvato il record. |
+| Tipo di produzione | Questo campo viene visualizzato solo quando hai abilitato la [gestione delle modifiche alla formula](manage-formula-changes.md) nel tuo sistema. Seleziona il tipo di produzione a cui si applicano questi criteri di rilascio:<ul><li>**Co-prodotto**: utilizza questi criteri di rilascio per gestire i co-prodotti. I coprodotti vengono prodotti durante la produzione di processo e non sono prodotti di progettazione o versione. I criteri di rilascio per i co-prodotti possono garantire che le impostazioni importanti, come **Gruppo di dimensioni di immagazzinamento** e **Gruppo di dimensioni di tracciabilità**, vengono impostati utilizzando un modello di prodotto rilasciato prima di essere rilasciati a un'azienda.</li><li>**Sottoprodotto**: utilizza questi criteri di rilascio per gestire i sottoprodotti. I sottoprodotti vengono prodotti durante la produzione di processo e non sono prodotti di progettazione o versione. I criteri di rilascio per i sottoprodotti possono garantire che le impostazioni importanti, come **Gruppo di dimensioni di immagazzinamento** e **Gruppo di dimensioni di tracciabilità**, vengono impostati utilizzando un modello di prodotto rilasciato prima di essere rilasciati a un'azienda.</li><li>**Nessuno**: utilizza questi criteri per gestire i prodotti standard che non sono prodotti con versione o di progettazione oppure co-prodotti o sottoprodotti.</li><li>**Elemento di pianificazione**: utilizza questi criteri di rilascio per gestire gli elementi di pianificazione prodotti utilizzando la produzione di processo. Gli elementi di pianificazione utilizzano formule. Assomigliano a formule, ma vengono utilizzati per produrre solo co-prodotti e sottoprodotti, non prodotti finiti.</li><li>**BOM**: utilizza questi criteri di rilascio per gestire i prodotti di progettazione, che non utilizzano formule e in genere (ma non necessariamente) includono le distinte materiali.</li><li>**Formula**: utilizza questi criteri di rilascio per gestire i prodotti finiti prodotti utilizzando la produzione di processo. Questi articoli avranno una formula ma non una distinta base.</li></ul> |
 | Applica modelli | Selezionare una delle seguenti opzioni per specificare se e come applicare i modelli di rilascio del prodotto quando vengono utilizzati i criteri:<ul><li>**Sempre** - Un modello di prodotto rilasciato deve essere sempre utilizzato per le versioni. Se si seleziona questa opzione, utilizzare la scheda dettaglio **Tutti i prodotti** per specificare il modello utilizzato per ciascuna società a cui si rilascia. Se non specifichi un modello per ogni società elencata nella scheda dettaglio **Tutti i prodotti** viene visualizzato un errore quando si prova a salvare il criterio.</li><li>**Facoltativo** - Se un modello di prodotto rilasciato è specificato per una società elencata nella scheda dettaglio **Tutti i prodotti**, quel modello verrà utilizzato quando si rilascia a quella società. In caso contrario, non verrà utilizzato alcun modello. Se si seleziona questa opzione, è possibile salvare i criteri senza assegnare modelli a tutte le società. Non verrà visualizzato alcun avviso.</li><li>**Mai** - Nessun modello di prodotto rilasciato verrà utilizzato per alcuna società a cui si rilascia, anche se un modello è specificato per le società elencate nella scheda dettaglio **Tutti i prodotti**. Le colonne del modello non saranno disponibili.</li></ul> |
 | Attive | Usare questa opzione per gestire i criteri di rilascio. Impostare su *Sì* per tutti i criteri di rilascio in uso. Impostare su *No* per contrassegnare un criterio di rilascio come inattivo quando non viene utilizzato. Si noti che non è possibile disattivare un criterio di rilascio assegnato a una categoria di prodotti di progettazione ed è possibile eliminare solo i criteri di rilascio inattivi. |
 

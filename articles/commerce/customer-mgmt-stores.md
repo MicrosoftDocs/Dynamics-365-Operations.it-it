@@ -2,7 +2,7 @@
 title: Gestione dei clienti nei punti vendita
 description: In questo argomento viene descritto come i rivenditori possono abilitare le funzionalità di gestione dei clienti presso il POS in Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 03/05/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dd17593d84a8bf262712a84b11829f8ec6c49049
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019989"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097210"
 ---
 # <a name="customer-management-in-stores"></a>Gestione dei clienti nei punti vendita
 
@@ -35,7 +35,10 @@ Gli addetti alle vendite possono anche acquisire indirizzi e-mail e numeri di te
 
 ## <a name="default-customer-properties"></a>Proprietà cliente predefinite
 
-I rivenditori possono utilizzare la pagina **Tutti i punti vendita** in Commerce Headquarters (**Retail e Commerce \> Canali \> Punti vendita**) per associare un cliente predefinito a ogni punto vendita. Commerce copia quindi le proprietà definite per il cliente predefinito in tutti i nuovi record cliente creati. Ad esempio, la finestra di dialogo **Crea cliente** mostra le proprietà ereditate dal cliente predefinito associato al punto vendita. Tali proprietà includono il tipo di cliente, il gruppo di clienti, la preferenza di ricevuta, la valuta e la lingua. Anche eventuali affiliazioni (raggruppamenti di clienti) vengono ereditate dal cliente predefinito. Tuttavia, le dimensioni finanziarie vengono ereditate dal gruppo di clienti associato al cliente predefinito, non dal cliente predefinito stesso.
+I rivenditori possono utilizzare la pagina **Tutti i punti vendita** in Commerce Headquarters (**Retail e Commerce \> Canali \> Punti vendita**) per associare un cliente predefinito a ogni punto vendita. Commerce copia quindi le proprietà definite per il cliente predefinito in tutti i nuovi record cliente creati. Ad esempio, la finestra di dialogo **Crea cliente** mostra le proprietà ereditate dal cliente predefinito associato al punto vendita. Tali proprietà includono il **tipo di cliente**, il **gruppo di clienti**, l'**opzione di ricevuta**, la **posta elettronica ricevuta**, la **valuta** e la **lingua**. Anche eventuali **affiliazioni** (raggruppamenti di clienti) vengono ereditate dal cliente predefinito. Tuttavia, le **dimensioni finanziarie** vengono ereditate dal gruppo di clienti associato al cliente predefinito, non dal cliente predefinito stesso.
+
+> [!NOTE]
+> Il valore **posta elettronica ricevuta** viene copiato dal cliente predefinito solo se l'ID e-mail di ricevuta non viene fornito per i clienti appena creati. Ciò significa che se l'ID di posta elettronica ricevuta è presente sul cliente predefinito, tutti i clienti creati dal sito di e-commerce riceveranno lo stesso ID e-mail di ricevuta poiché non esiste un'interfaccia utente per acquisire l'ID e-mail di ricevuta dal cliente. È consigliabile mantenere il campo **posta elettronica di ricevuta** vuoto per il cliente predefinito del punto vendita e di utilizzarlo solo se hai un processo aziendale che dipende dalla presenza di un indirizzo email di ricevuta. 
 
 Gli addetti alle vendite possono acquisire più indirizzi per un cliente. Il nome e il numero di telefono del cliente vengono ereditati dalle informazioni di contatto associate a ciascun indirizzo. La Scheda dettaglio **Indirizzi** di un record cliente include un campo **Scopo** che gli addetti alle vendite possono modificare. Se il tipo di cliente è **Persona**, il valore predefinito è **Domicilio**. Se il tipo di cliente è **Organizzazione**, il valore predefinito è **Azienda**. Altri valori supportati da questo campo includono **Domicilio**, **Ufficio** e **Casella postale**. Il valore del campo **Paese** per un indirizzo viene ereditato dall'indirizzo principale specificato nella pagina **Unità operativa** di Commerce headquarters in **Amministrazione organizzazione \> Organizzazioni \> Unità operative**.
 

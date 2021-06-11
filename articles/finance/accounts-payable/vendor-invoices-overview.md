@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841263"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111696"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Questo argomento fornisce informazioni generali sulle fatture fornitore. Le fatture fornitore sono obbligatorie per il pagamento ricevuto dei prodotti e dei servizi. Le fatture fornitore possono rappresentare una fattura per i servizi correnti oppure possono essere basate su ordini fornitore per articoli e servizi specifici.
 
@@ -71,7 +73,9 @@ Di seguito sono riportati diversi modi per impedire che una fattura venga inviat
 
 - **La fattura contiene addebiti non allocati.** La persona che ha inviato la fattura riceverà un avviso che la fattura contiene addebiti non allocati in modo da poter correggere la fattura prima di inviarla nuovamente al flusso di lavoro. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando sono presenti addebiti non allocati in una fattura fornitore** nella pagina **Gestione funzionalità** è attivato.
 
-- **La fattura contiene lo stesso numero di fattura di un'altra fattura registrata.** La persona che ha inviato la fattura riceverà un avviso che è stata trovata una fattura con un numero duplicato in modo da poterla correggere prima di inviarla nuovamente al flusso di lavoro. Questo avviso viene visualizzato quando il parametro **Verifica il numero di fattura utilizzato** in Contabilità fornitori è impostato su **Rifiuta duplicati**. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando il numero di fattura esiste già in una fattura registrata e il sistema non è impostato per accettare numeri di fattura duplicati** nella pagina **Gestione funzionalità** è attivato.  
+- **La fattura contiene lo stesso numero di fattura di un'altra fattura registrata.** La persona che ha inviato la fattura riceverà un messaggio che indica che è stata trovata una fattura con un numero duplicato. Il numero duplicato può essere corretto prima di inviare nuovamente la fattura al flusso di lavoro. Questo avviso viene visualizzato quando il parametro **Verifica il numero di fattura utilizzato** in Contabilità fornitori è impostato su **Rifiuta duplicati**. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando il numero di fattura esiste già in una fattura registrata e il sistema non è impostato per accettare numeri di fattura duplicati** nella pagina **Gestione funzionalità** è attivato.
+
+- **La fattura contiene una riga in cui la quantità della fattura è inferiore alla quantità di entrata prodotti abbinata.** La persona che invia la fattura o tenta di effettuare la registrazione riceverà un messaggio indicante che le quantità non sono uguali. Questo messaggi offre l'opportunità di correggere i valori prima di inviare nuovamente la fattura al flusso di lavoro. Questa funzione è disponibile se il parametro **Blocca la registrazione e l'invio di fatture fornitore al flusso di lavoro** nella pagina **Gestione funzionalità** è attivata e il parametro **Blocca la pubblicazione e l'invio al flusso di lavoro** nella pagina **Parametri di contabilità fornitori** è attivata.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Abbinamento delle fatture fornitore con le entrate prodotti
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811389"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123392"
 ---
 # <a name="cash-position-preview"></a>Posizione di cassa (anteprima)
 
@@ -31,7 +31,7 @@ La posizione di cassa è la proiezione del flusso di cassa previsto per il breve
 
 Quando il sistema prevede i pagamenti dei clienti, utilizza le previsioni di pagamento dalla funzionalità di previsione dei pagamenti dei clienti. Senza previsioni di pagamento, per calcolare una data di pagamento viene utilizzato il tempo medio necessario per convertire una fattura cliente in un pagamento per ciascun cliente. Per gli ordini cliente aperti, il sistema calcola la data della fattura utilizzando il numero medio di giorni per la fatturazione delle righe ordine per cliente. Quindi utilizza la data della fattura come input per la funzionalità di previsione del pagamento. La funzionalità di previsione del pagamento del cliente calcola una data di pagamento per ciascuna riga dell'ordine. 
 
-<*Ho bisogno di testo da Jarek o Dave su come le previsioni di pagamento vengono convertite in una data*> La data di pagamento per le fatture in sospeso è calcolata in modo approssimativo [*stimata*] a partire dalle previsioni di pagamento selezionando una data che corrisponde al cinquantesimo percentile della funzione di distribuzione cumulativa ottenuta dalle probabilità del bucket previsto.
+La data di pagamento per le fatture in sospeso viene stimata a partire dalle previsioni di pagamento selezionando una data che corrisponde al cinquantesimo percentile della funzione di distribuzione cumulativa ottenuta dalle probabilità del bucket previsto.
 
 Un approccio simile viene utilizzato per prevedere i pagamenti ai fornitori. Per ogni fornitore, il sistema calcola il tempo medio necessario per convertire una fattura fornitore in un pagamento. Tale numero di giorni viene quindi utilizzato per calcolare la data di pagamento. Per gli ordini fornitore aperti, il sistema calcola la data della fattura considerando il numero medio di giorni necessari per convertire le righe ordine in una fattura per ogni fornitore. Per ogni fornitore, il sistema calcola quindi la data di pagamento mediante il tempo medio necessario per convertire una fattura fornitore in un pagamento.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019496"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103630"
 ---
 # <a name="firm-planned-orders"></a>Stabilizza ordini pianificati
 
@@ -77,6 +77,7 @@ Per stabilizzare manualmente gli ordini pianificati, individuare e selezionare g
 
     - **Raggruppa per fornitore** - Imposta questa opzione su *Sì* per raggruppare gli ordini fornitore pianificati e creare un unico ordine fornitore per fornitore durante la stabilizzazione. In alternativa, è possibile creare un unico ordine fornitore con una riga per ciascun ordine pianificato.
     - **Raggruppa per gruppo di acquirenti** –Impostare questa opzione su *Sì* per raggruppare gli ordini fornitore pianificati in modo da creare un unico ordine fornitore che unisca il fornitore e il gruppo di acquirenti. Per utilizzare questa opzione, è necessario anche impostare l'opzione **Raggruppa per fornitore** su *Sì*.
+    - **Raggruppa per contratto di acquisto**: imposta questa opzione su *Sì* per raggruppare ordini di acquisto pianificati che hanno lo stesso fornitore dei contratti di acquisto esistenti e creare un ordine di acquisto per contratto di acquisto. Questa opzione viene abilitata automaticamente quando **Raggruppa per fornitore** è abilitata. Per utilizzare **Raggruppa per contratto di acquisto**, **Trova contratto di acquisto** deve essere impostato su *Sì* nella pagina **Parametri di pianificazione generale**.
     - **Raggruppa per periodo** (nella sezione **Ordini fornitore**): selezionare il periodo per cui raggruppare gli ordini fornitore pianificati. Per utilizzare questa opzione, è necessario selezionare anche l'opzione **Raggruppa per fornitore**.
     - **Raggruppa per periodo** (nella sezione **Trasferimenti**): selezionare il periodo per cui raggruppare gli ordini di trasferimento pianificati. Gli ordini verranno raggruppati in base ai valori di **Magazzino origine** e **Magazzino destinazione**.
 
