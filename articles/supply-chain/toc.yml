@@ -72,7 +72,7 @@
                   items:
                     - name: Home page Novità o modifiche di Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.20 (luglio 2021)
+                    - name: Supply Chain Management 10.0.20 (agosto 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (giugno 2021)
                       href: get-started/whats-new-scm-10-0-19.md
@@ -222,6 +222,8 @@
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Creare configurazioni ER in Regulatory Configuration Service e caricarle nel repository globale
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Regulatory Configuration Service: deprecazione dell''archiviazione di Lifecycle Services'
+                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Fatturazione elettronica
                   items:
                     - name: Panoramica della fatturazione elettronica
@@ -234,6 +236,8 @@
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Creare un account di archiviazione di Azure e un Key Vault
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Dashboard di gestione utilizzo
+                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Introduzione
                       items:
                         - name: Introduzione all'amministrazione dei servizi per la fatturazione elettronica
@@ -1383,8 +1387,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Generare moduli di fatture a testo libero stampabili
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Tenere traccia dell'esecuzione dei formati ER per risolvere i problemi di prestazioni
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Progettare soluzioni per la creazione di report elettronici
+                  items:
+                    - name: Tenere traccia dell'esecuzione dei formati ER per risolvere i problemi di prestazioni
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Risolvere i problemi di prestazioni nelle configurazioni di report elettronici
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gestione documenti aziendali
                   items:
                     - name: Panoramica di Gestione documenti aziendali
@@ -1675,30 +1683,38 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Collaborare con clienti della catena di approvvigionamento interna
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: Previsione della domanda
+            - name: Previsioni
               items:
-                - name: Panoramica previsioni della domanda
-                  href: master-planning/introduction-demand-forecasting.md
-                - name: Impostazione della previsione della domanda
-                  href: master-planning/demand-forecasting-setup.md
-                - name: Importare i dati storici per le previsioni della domanda
-                  href: master-planning/import-historical-data.md
-                - name: Generare una previsione di base statistica
-                  href: master-planning/generate-statistical-baseline-forecast.md
-                - name: Apportare una correzione manuale alla previsione di base
-                  href: master-planning/manual-adjustments-baseline-forecast.md
-                - name: Autorizzare una previsione corretta
-                  href: master-planning/authorize-adjusted-forecast.md
-                - name: Monitorare la precisione della previsione
-                  href: master-planning/monitor-forecast-accuracy.md
-                - name: Eliminare gli outlier dai dati di transazione storici quando si calcolo una previsione della domanda
-                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                - name: Chiavi di riduzione
-                  href: master-planning/reduction-keys.md
-                - name: Creare una previsione di base
-                  href: master-planning/tasks/create-baseline-forecast.md
-                - name: Modificare una previsione della domanda manualmente
-                  href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Previsione della domanda e dell'offerta
+                  items:
+                    - name: Previsioni di inventario
+                      href: master-planning/inventory-forecast.md
+                    - name: 'Guida: modificare una previsione della domanda manualmente'
+                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Previsione della domanda
+                  items:
+                    - name: Panoramica previsioni della domanda
+                      href: master-planning/introduction-demand-forecasting.md
+                    - name: Impostazione della previsione della domanda
+                      href: master-planning/demand-forecasting-setup.md
+                    - name: Generare una previsione di base statistica
+                      href: master-planning/generate-statistical-baseline-forecast.md
+                    - name: Apportare una correzione manuale alla previsione di base
+                      href: master-planning/manual-adjustments-baseline-forecast.md
+                    - name: Autorizzare una previsione corretta
+                      href: master-planning/authorize-adjusted-forecast.md
+                    - name: Importare i dati storici per le previsioni della domanda
+                      href: master-planning/import-historical-data.md
+                    - name: Eliminare gli outlier dai dati transazione storici quando si calcola una previsione della domanda
+                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                    - name: Monitorare la precisione della previsione
+                      href: master-planning/monitor-forecast-accuracy.md
+                    - name: 'Guida: creare una previsione di base'
+                      href: master-planning/tasks/create-baseline-forecast.md
+                - name: Pianificazione generale con previsione
+                  items:
+                    - name: Chiavi di riduzione previsioni
+                      href: master-planning/reduction-keys.md
             - name: Risolvere i problemi di pianificazione generale
               href: master-planning/troubleshoot-masterplanning.md
         - name: App per dispositivi mobili
@@ -3425,6 +3441,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Vendite e marketing
               items:
+                - name: La quantità non può essere ridotta quando si annulla un ordine cliente
+                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: Gli amministratori di sistema non possono cancellare le sospensioni degli ordini perché non sono autorizzati
                   href: troubleshooting/sales/system-administrator.md
             - name: Gestione trasporto

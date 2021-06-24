@@ -14,7 +14,7 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
-                - name: Platform update versione 10.0.20 (luglio 2021)
+                - name: Platform update versione 10.0.20 (agosto 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platform update 10.0.19 (giugno 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -850,12 +850,10 @@
               items:
                 - name: Effettuare tracciature con il parser di traccia
                   href: perf-test/trace-trace-tutorial.md
-                - name: Test dell'ambiente a utente singolo con Registrazione attività e Performance SDK
+                - name: Test dell'ambiente a utente singolo tramite Performance SDK e Registrazione attività
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Test dell'ambiente multiutente con Performance SDK e un controllore di test locale
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Test dell'ambiente multiutente con Performance SDK e Azure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: Test dell'ambiente multiutente tramite Performance SDK
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: Guida alla risoluzione dei problemi per i test con Performance SDK
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Performance SDK e test dell'ambiente multiutente in ambienti locali
@@ -1448,7 +1446,7 @@
                   href: lcs-solutions/country-region.md
                 - name: Classificazione delle funzionalità di localizzazione
                   href: lcs-solutions/classify-localization-features.md
-                - name: Applicare il contesto del paese
+                - name: Applicare il contesto del paese/area geografica
                   href: lcs-solutions/apply-country-context.md
                 - name: Informazioni sulla certificazione normativa nei titoli delle funzionalità
                   href: lcs-solutions/regulatory-certifications.md
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Creare processi batch
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Abilitazione di tentativi automatici su processi batch
+                  href: sysadmin/retryable-batch.md
                 - name: Copiare un processo batch
                   href: sysadmin/copy-batch-job.md
                 - name: Periodi batch attivi
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: 'Aggiornamento AX 2012: elenco di controllo di pre-aggiornamento per aggiornamento dati'
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: 'Aggiornamento di AX 2012: aggiornamento dei dati in ambienti sandbox utilizzando il processo del pacchetto di applicazione livello dati'
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: 'Aggiornamento da AX 2012: replica transazionale SQL'
                   href: database/replication-setup.md
-                - name: 'Aggiornamento AX 2012: aggiornare i dati in ambienti sandbox'
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: 'Aggiornamento da AX 2012: aggiornare i dati in ambienti self-service'
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: 'Aggiornamento AX 2012: ambienti locali'
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: 'Aggiornamento AX 2012: test di Cutover'
