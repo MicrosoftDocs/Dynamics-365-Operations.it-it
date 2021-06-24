@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c4b7221cb5b0ea1fdbb4e05831cdd6dd482e321
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d24035aa326c2232cc77a576d24c15b3a8f9d93b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823542"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188349"
 ---
 # <a name="public-sector-home-page"></a>Home page Settore pubblico
 
@@ -63,8 +63,7 @@ Nella tabella seguente vengono fornite informazioni sul modo in cui questa chiav
 | Chiavi figlio | Chiave di configurazione **Voce di contabilità generale avanzata** (AdvancedLedgerEntry) Chiave di configurazione (Tax1099G) **Settore pubblico 1099G** Chiave di configurazione (Tax1099S) **Settore pubblico 1099S** Chiave di configurazione **Normativa francese** |
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Piano per la funzionalità Settore pubblico](plan-public-sector-functionality.md)
 

@@ -94,7 +94,7 @@
                   items:
                     - name: Home page Novità o modifiche in Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (luglio 2021)
+                    - name: Commerce 10.0.20 (agosto 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (giugno 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -244,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: Requisiti del controllo delle versioni del componente Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: Architettura Commerce Scale Unit
+                - name: Architettura motore Commerce Headless
                   href: dev-itpro/retail-server-architecture.md
                 - name: Selezionare una topologia in punto vendita
                   href: dev-itpro/retail-in-store-topology.md
@@ -258,7 +258,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Architettura Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Architettura di pubblicazione del punto vendita online
+                - name: Pubblicare un canale punto vendita online
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Contenuto Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -546,6 +546,8 @@
                       href: paypal.md
                     - name: Supporto per il pagamento del portafoglio
                       href: wallets.md
+                    - name: Pagamenti avanzati nel checkout dalla vetrina
+                      href: dev-itpro/enhanced-sca.md
                     - name: Domande frequenti sui pagamenti
                       href: dev-itpro/payments-retail.md
                 - name: Posta elettronica e notifiche
@@ -772,8 +774,12 @@
                   href: tasks/use-continuity-program.md
                 - name: Abilitare le notifiche di check-in del cliente nel POS
                   href: enable-customer-check-in.md
-            - name: Resi
+            - name: Resi e rimborsi
               items:
+                - name: Creare resi nel POS
+                  href: POS-returns.md
+                - name: Restituire prodotti controllati dal numero di serie nel POS
+                  href: POS-serial-returns.md
                 - name: Rimborsi collegati
                   href: dev-itpro/linked-refunds.md
                 - name: Vendere e restituire prodotti non inclusi nell'assortimento di un punto vendita
@@ -1230,6 +1236,8 @@
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                 - name: Creare configurazioni ER in Regulatory Configuration Service e caricarle nel repository globale
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Regulatory Configuration Service: deprecazione dell''archiviazione di Lifecycle Services'
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
                 - name: Esempio di integrazione del servizio di registrazione fiscale per l'Austria
@@ -1238,6 +1246,8 @@
               items:
                 - name: Localizzazione di Commerce per il Brasile
                   href: localizations/latam-bra-commerce-localization.md
+                - name: Impostare e distribuire localizzazione di Commerce per il Brasile
+                  href: localizations/latam-bra-deployment.md
             - name: Europa orientale
               items:
                 - name: Comune
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Generare moduli di fatture a testo libero stampabili
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Tenere traccia dell'esecuzione dei formati ER per risolvere i problemi di prestazioni
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Progettare soluzioni per la creazione di report elettronici
+                  items:
+                    - name: Tenere traccia dell'esecuzione dei formati ER per risolvere i problemi di prestazioni
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: Risolvere i problemi di prestazioni nelle configurazioni di report elettronici
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Gestione documenti aziendali
                   items:
                     - name: Panoramica di Gestione documenti aziendali

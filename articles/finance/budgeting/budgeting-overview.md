@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4aa89f27925b88be947f27303957cd53089b8290
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960018"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187918"
 ---
 # <a name="budgeting-home-page"></a>Home page di impostazione del budget
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960018"
 
 In questo argomento viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione budget e delle funzionalità di creazione di report. 
 
-<a name="components-of-budgeting-functionality"></a>Componenti della funzionalità di impostazione del budget
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Componenti della funzionalità di impostazione del budget
 
 Il ciclo di pianificazione delle risorse per un'azienda consiste generalmente nelle attività di pianificazione, impostazione del budget e previsione.
 
