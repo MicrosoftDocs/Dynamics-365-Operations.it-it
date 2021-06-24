@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811363"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193907"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Panoramica consolidamenti finanziari e conversione valuta
 
@@ -165,7 +165,8 @@ I clienti che utilizzano la funzionalità di creazione di report finanziari per 
 - **Conversione della valuta semplificata** - Dopo l'impostazione minima in Finance, è possibile convertire qualsiasi report finanziario in qualsiasi valuta di dichiarazione impostata. È inoltre possibile impostare un numero illimitato di valute di dichiarazione.
 - **Registrare le eliminazioni all'origine** - È possibile creare e stampare un report di eliminazione per verificare le transazioni di eliminazione. È quindi possibile registrare qualsiasi nuova eliminazione come transazione interaziendale standard. È inoltre possibile utilizzare una persona giuridica di eliminazione per qualsiasi transazione che non si desidera nelle persone giuridiche.
 
-## <a name="supported-consolidation-scenarios"></a>Scenari di consolidamento supportati
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Scenari di consolidamento supportati per la creazione di report finanziari
+
 Di seguito sono riportati alcuni degli scenari di consolidamento supportati dalla funzionalità di creazione di report finanziari:
 
 - Consolidamenti a singolo livello e multilivello tra persone giuridiche

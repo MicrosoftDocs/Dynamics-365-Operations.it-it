@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826620"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188442"
 ---
 # <a name="sales-tax-overview"></a>Panoramica dell'IVA
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826620"
 
 Questo argomento fornisce una panoramica del sistema IVA. Descrive gli elementi di configurazione IVA e il modo in cui interagiscono.
 
-<a name="overview"></a>Panoramica
---------
+## <a name="overview"></a>Panoramica
 
 Il framework dell'IVA supporta numerosi tipi di imposte indirette, ad esempio imposta sul valore aggiunto (IVA), Imposta sui Beni e Servizi (GST, Goods and Services Tax), commissioni in base a unità e ritenuta d'acconto. Queste imposte vengono calcolate e documentate nelle transazioni di acquisto e di vendita. Periodicamente, devono essere dichiarate e pagate agli uffici tributari. 
 

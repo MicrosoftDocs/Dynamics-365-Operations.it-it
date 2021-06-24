@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service
 description: Questo argomento fornisce una panoramica delle funzionalità di Regulatory Configuration Service (RCS) e spiega come accedere al servizio.
 author: JaneA07
-ms.date: 04/07/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1eeac7217290e0583fcecdf5b4b5b9153d266240
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019396"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216564"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -59,9 +59,19 @@ RCS è generalmente disponibile nelle seguenti regioni:
 
 Per un elenco completo delle aree geografiche, vedi [Dynamics 365 e Power Platform: disponibilità, posizione dei dati, lingua e localizzazione](https://aka.ms/dynamics_365_international_availability_deck).
 
+## <a name="rcs-default-company"></a>Azienda predefinita RCS
+
+La funzionalità della fase di progettazione utilizzata in RCS è condivisa tra tutte le aziende. Non esiste una funzionalità specifica dell'azienda. Pertanto, ti consigliamo di utilizzare un'azienda, **DAT**, con il tuo ambiente RCS.
+
+Tuttavia, in alcuni scenari, potresti preferire che i formati ER utilizzino parametri correlati a una persona giuridica specifica. Solo in questi scenari, dovresti usare il commutatore di società predefinito. Per un esempio, vedi [Configurare il formato ER per utilizzare i parametri specifici per la persona giuridica](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md).
+
 ## <a name="related-rcs-documentation"></a>Documentazione RCS correlata
 
-Per ulteriori informazioni sui componenti correlati, vedi la documentazione seguente:
+Per ulteriori informazioni sui componenti correlati, vedi gli argomenti seguenti:
+
+- **RCS:**
+
+    - [Creare configurazioni ER in RCS e caricarle nel repository globale](rcs-global-repo-upload.md)
 
 - **Repository globale:**
 
@@ -70,7 +80,20 @@ Per ulteriori informazioni sui componenti correlati, vedi la documentazione segu
     - [Filtro avanzato in Repository globale](enhanced-filtering-global-repo.md)
     - [Scaricare configurazioni ER da Repository globale](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)
     - [Sospendere le configurazioni in Repository globale](discontinuing-configurations-rcs-global-repo.md)
+    - [Regulatory Configuration Service (RCS) – Deprecazione dell'archiviazione di Lifecycle Services (LCS)](rcs-lcs-repo-dep-faq.md)
 
 - **Funzionalità di globalizzazione:**
 
     - [Regulatory Configuration Service (RCS) - Funzionalità di globalizzazione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-finance/regulatory-configuration-service-simplified-globalization-feature-management-globalization-services)
+
+
+## <a name="troubleshooting-rcs-sign-up"></a>Risoluzione dei problemi di iscrizione a RCS
+
+Quando ti iscrivi a RCS dalla pagina del servizio, potresti riscontrare un problema correlato ad Azure Active Directory (Azure AD). Il messaggio di errore che ricevi indica che l'iscrizione a RCS è attualmente disattivata e deve essere attivata prima di poter completare il processo di iscrizione.
+
+![Messaggio di errore di iscrizione a RCS](media/01_RCSSignUpError.jpg)
+
+Il problema si verifica perché la registrazione per abbonamenti ad-hoc è bloccata e la proprietà `AllowAdHocSubscriptions` deve essere abilitata nel tenant. 
+
+- Se il tuo reparto IT gestisce i tenant di Azure della tua organizzazione, contatta tale reparto per segnalare il problema.
+- Se sei responsabile della gestione dei tenant di Azure, puoi risolvere i problemi seguendo i passaggi in [Cos'è l'iscrizione self-service Azure Active Directory](/azure/active-directory/enterprise-users/directory-self-service-signup#how-do-i-control-self-service-settings).

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86fbc81de8ba59f0782bd9af5b50bfcf45d5621a
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811872"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193047"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Allocare tempo ai processi in un'aggregazione di processi
 
@@ -80,7 +80,7 @@ Nella seguente tabella viene illustrata la formula per calcolare il tempo alloca
 ## <a name="net-time-allocation-key"></a>Chiave di allocazione Tempo netto
 Nella seguente tabella viene illustrata la formula per calcolare il tempo allocato, Formula: Tempo calcolato per report = Tempo di aggregazione ÷ Numero di processi
 
-|                              | 09.00–10.00 (1 ora) | 10.00–11.00 (1 ora) | 11.00–13.00 (2 ore) | 13.00–15.00 (2 ore) | Tempo allocato |
+| Esempio                       | 09.00–10.00 (1 ora) | 10.00–11.00 (1 ora) | 11.00–13.00 (2 ore) | 13.00–15.00 (2 ore) | Tempo allocato |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Numero di processi inclusi nell'aggregazione | 1                    | 3                    | 2                     | 1                     | Non applicabile |
 | Processo 1                        | 1 ÷ 1 = 1 ora       | 1 ÷ 3 = 0,33 ore    | Non applicabile        | Non applicabile        | 1,33 ore     |

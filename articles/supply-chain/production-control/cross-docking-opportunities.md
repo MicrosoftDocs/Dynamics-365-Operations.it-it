@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839151"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190090"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Eseguire il cross-docking da ordini di produzione a banchine di uscita
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839151"
 
 In questo argomento viene descritto come gestire il processo del materiale di cross-docking che viene dichiarato finito in una riga di produzione per una banchina di trasporto di uscita.
 
-<a name="introduction"></a>Introduzione
-------------
+## <a name="introduction"></a>Introduzione
 
 Il cross-docking dalla produzione a una posizione di uscita è rilevante per i produttori che producono alti volumi e idealmente desiderano spedire i prodotti finiti non appena vengono dichiarati finiti nelle righe di produzione. L'obiettivo è la spedizione dei prodotti ai centri di distribuzione che si trovano fisicamente vicini alla richiesta di approvvigionamento, anziché l'accumulo nel sito di fabbricazione.
 

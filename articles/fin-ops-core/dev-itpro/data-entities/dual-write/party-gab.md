@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937888"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216614"
 ---
 # <a name="party-and-global-address-book"></a>Rubrica globale e parte
 
@@ -143,16 +143,22 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
 
 ## <a name="setup"></a>Attrezzaggio
 
-1. Installa l'ultima versione (2.2.2.60 o successiva) della [soluzione di orchestrazione delle applicazioni a doppia scrittura](https://aka.ms/dual-write-app).
+1. Aprire l'ambiente dell'app Customer Engagement.
 
-2. Installa le [soluzioni di doppia scrittura per parte e rubrica globale](https://aka.ms/dual-write-gab).
+2. Installa l'ultima versione (2.2.2.60 o successiva) della [soluzione di orchestrazione delle applicazioni a doppia scrittura](https://aka.ms/dual-write-app).
 
-3. Interrompi le seguenti mappe, perché non sono più necessarie. Invece, esegui la mappa `Contacts V2 (msdyn_contactforparties)`.
+3. Installa le [soluzioni di doppia scrittura per parte e rubrica globale](https://aka.ms/dual-write-gab).
+
+4. Aprire l'app Finance and Operations. Passare al modulo Gestione dati e selezionare la scheda Doppia scrittura. Viene visualizzata la pagina di amministrazione della doppia scrittura.
+
+5. Applicare entrambe le soluzioni installate nei passaggi 2 e 3 utilizzando la funzione [Applica soluzione](link-your-environment.md).
+
+6. Interrompi le seguenti mappe, perché non sono più necessarie. Invece, esegui la mappa `Contacts V2 (msdyn_contactforparties)`.
 
     + Contatti CDS V2 e Contatti (si riferisce ai contatti del cliente)
     + Contatti CDS V2 e Contatti (si riferisce ai contatti del fornitore)
 
-4. I seguenti mapping di entità vengono aggiornati per la funzionalità della parte, quindi l'ultima versione deve essere applicata a questi mapping.
+7. I seguenti mapping di entità vengono aggiornati per la funzionalità della parte, quindi l'ultima versione deve essere applicata a questi mapping.
 
     Mappa | Aggiorna a questa versione | Modifiche
     ---|---|---
@@ -176,7 +182,7 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
 
-5. Prima di eseguire le mappe precedenti, è necessario aggiornare manualmente le chiavi di integrazione come descritto nei passaggi seguenti. Quindi selezionare **Salva**.
+8. Prima di eseguire le mappe precedenti, è necessario aggiornare manualmente le chiavi di integrazione come descritto nei passaggi seguenti. Quindi selezionare **Salva**.
 
     | Mappa | Chiavi |
     |-----|------|
@@ -185,7 +191,7 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
     | Contatto per cliente/fornitore | msdyn_contactforpartynumber [Contatto per numero parte]<br>msdyn_associatedcompanyid.cdm_companycode [Società associata (Codice società)] |
     | Fornitore | msdyn_vendoraccountnumber [Numero conto fornitore]<br>msdyn_company.cdm_companycode [Società (Codice società)]|
 
-6. In Dataverse, i limiti di caratteri delle regole di rilevamento duplicati sono aumentati da 450 a 700 caratteri. Questo limite consente di aggiungere una o più chiavi alle regole di rilevamento dei duplicati. Espandere la regola di rilevamento duplicati per la tabella **Conti** impostando i seguenti campi.
+9. In Dataverse, i limiti di caratteri delle regole di rilevamento duplicati sono aumentati da 450 a 700 caratteri. Questo limite consente di aggiungere una o più chiavi alle regole di rilevamento dei duplicati. Espandere la regola di rilevamento duplicati per la tabella **Conti** impostando i seguenti campi.
 
     | Campo | Valore |
     |-------|-------|
@@ -201,7 +207,7 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
 
     ![Regola duplicati per i conti](media/duplicate-rule-1.PNG)
 
-7. Espandere la regola di rilevamento duplicati per la tabella **Contatti** impostando i seguenti campi.
+10. Espandere la regola di rilevamento duplicati per la tabella **Contatti** impostando i seguenti campi.
 
     | Campo | Valore |
     |-------|-------|
@@ -217,9 +223,9 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
 
     ![Regola duplicati per i contatti](media/duplicate-rule-2.PNG)
 
-8. Se sei già un utente con doppia scrittura, segui le istruzioni in [Eseguire l'aggiornamento al modello di parte e di rubrica globale](upgrade-party-gab.md) e aggiorna i tuoi dati.
+11. Se sei già un utente con doppia scrittura, segui le istruzioni in [Eseguire l'aggiornamento al modello di parte e di rubrica globale](upgrade-party-gab.md) e aggiorna i tuoi dati.
 
-9. Esegui le mappe nell'ordine seguente. Se viene visualizzato un messaggio di errore che indica "Convalida del progetto non riuscita. Campo destinazione mancante ...", apri la mappa e seleziona **Aggiorna tabelle**. Quindi esegui la mappa.
+12. Esegui le mappe nell'ordine seguente. Se viene visualizzato un messaggio di errore che indica "Convalida del progetto non riuscita. Campo destinazione mancante ...", apri la mappa e seleziona **Aggiorna tabelle**. Quindi esegui la mappa.
 
     App Finance and Operations | App di interazione con i clienti  
     ----------------------------|------------------------

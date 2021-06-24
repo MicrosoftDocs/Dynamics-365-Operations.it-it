@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825869"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190066"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Supporto della bacheca di trasferimento kanban per i lettori di codici a barre
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825869"
 
 La scheda di trasferimento kanban supporta l'input da uno scanner di codici a barre widget per selezionare, iniziare, completare e svuotare un processo kanban.
 
-<a name="registration-modes"></a>Modalità di registrazione
-------------------
+## <a name="registration-modes"></a>Modalità di registrazione
 
 Nella scheda dettaglio **Registrazione scanner** è possibile selezionare la modalità di registrazione, che controlla l'azione quando si digitalizza un numero di scheda kanban o si digita manualmente il numero nel campo del numero della scheda kanban.
 
@@ -42,8 +41,7 @@ Nella scheda dettaglio **Registrazione scanner** è possibile selezionare la mod
 | Seleziona                | Registra un numero di scheda kanban e seleziona automaticamente il processo di riferimento nell'elenco di processi kanban. |
 
  
-<a name="registration-mode-select"></a>Modalità di registrazione Seleziona
-------------------------
+## <a name="registration-mode-select"></a>Modalità di registrazione Seleziona
 
 Quando si utilizza un lettore di codice a barre per selezionare un processo, la modalità di visualizzazione della bacheca kanban cambia. In questa modalità, sono valide le seguenti condizioni:
 

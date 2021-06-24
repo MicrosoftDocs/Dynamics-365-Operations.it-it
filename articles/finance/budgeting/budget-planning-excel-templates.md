@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80190419176848f10d9a3908350d57ddaadfd8c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822181"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190287"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelli di pianificazione del budget per Excel
 
@@ -66,8 +66,7 @@ Puntare il cursore nella posizione desiderata nel file di Excel. Fare clic su **
 
 ## <a name="select-add-valuemediabpt7png"></a>[![Selezionare Aggiungi valore](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Aggiungere una colonna calcolata alla tabella del modello di documento del piano di budget
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Aggiungere una colonna calcolata alla tabella del modello di documento del piano di budget
 
 A questo punto, le colonne calcolate verranno aggiunte al modello del documento piano di budget generato. Una colonna **Total request** che riepiloga le colonne Request Q1: Request Q4 e una colonna **Adjustment** che ricalcola la colonna **Total Request** in base a un fattore predefinito.
 

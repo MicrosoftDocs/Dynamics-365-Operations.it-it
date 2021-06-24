@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753266"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223988"
 ---
 # <a name="electronic-reporting-formula-language"></a>Linguaggio della formula nella creazione di report elettronici
 
@@ -38,13 +38,13 @@ Le espressioni ER possono contenere qualsiasi o tutti i seguenti elementi:
 - [Percorsi](#Paths)
 - [Funzioni](#Functions)
 
-## <a name=""></a><a name="Constants">Costanti</a>
+## <a name="constants"></a><a name="Constants"></a>Costanti
 
 È possibile utilizzare testo e costanti numeriche (ovvero valori che non vengono calcolati) nella progettazione delle espressioni. Ad esempio, l'espressione `VALUE ("100") + 20` utilizza la costante numerica **20** e la costante di tipo stringa **"100"** e restituisce il valore numerico **120**.
 
 Le sequenze di escape sono supportate in Designer formula ER. Di conseguenza, è possibile specificare una stringa di espressione che deve essere gestita in modo diverso. Ad esempio, l'espressione `"Leo Tolstoy ""War and Peace"" Volume 1"` restituisce la stringa di testo **Leo Tolstoy "Guerra e pace" Volume 1**.
 
-## <a name=""></a><a name="Operators">Operatori</a>
+## <a name="operators"></a><a name="Operators"></a>Operatori
 
 La seguente tabella mostra agli operatori aritmetici che è possibile utilizzare per eseguire le operazioni matematiche di base, ad esempio addizione, sottrazione, moltiplicazione e divisione.
 
@@ -88,9 +88,9 @@ L'ordine in cui le parti di un'espressione composta vengono valutate è importan
 
 Se un'espressione include più operatori consecutivi con la stessa precedenza, tali operazioni vengono valutate da sinistra a destra. Ad esempio, l'espressione `1 + 6 / 2 \* 3 > 5` restituisce **true**. Si consiglia di utilizzare le parentesi per indicare in modo esplicito l'ordine desiderato delle operazione nelle espressioni, per rendere le espressioni più facili da leggere e gestire.
 
-## <a name=""></a><a name="References">Riferimenti</a>
+## <a name="references"></a><a name="References"></a>Riferimenti
 
-Tutte le origini dati del componente ER corrente disponibili nella progettazione di un'espressione possono essere utilizzate come riferimenti denominati. Il componente ER corrente può essere una mappatura del modello o un formato. Ad esempio, la mappatura del modello ER corrente contiene l'origine dati **ReportingDate** che restituisce un valore del tipo di dati *DateTime*. Per formattare correttamente il valore per la generazione del documento, è possibile fare riferimento all'origine dati nell'espressione nel seguente modo: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Tutte le origini dati del componente ER corrente disponibili nella progettazione di un'espressione possono essere utilizzate come riferimenti denominati. Il componente ER corrente può essere una mappatura del modello o un formato. Ad esempio, il mapping del modello ER corrente contiene l'origine dati **ReportingDate** che restituisce un valore del tipo di dati [*DateTime*](er-formula-supported-data-types-primitive.md#datetime). Per formattare correttamente il valore per la generazione del documento, è possibile fare riferimento all'origine dati nell'espressione nel seguente modo: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Tutti i caratteri nel nome di un'origine dati di riferimento che non rappresentano una lettera di alfabeto devono essere preceduti da una virgoletta singola ('). Se il nome di un'origine dati di riferimento contiene almeno un simbolo che non rappresenta una lettera di alfabeto, il nome deve essere racchiuso tra virgolette singole. Ad esempio, i simboli non alfabetici possono essere segni di punteggiatura o altri simboli scritti. Di seguito sono riportati alcuni esempi.
 
@@ -99,7 +99,7 @@ Tutti i caratteri nel nome di un'origine dati di riferimento che non rappresenta
 
 Se i metodi delle origini dati dell'applicazione includono dei parametri, la seguente sintassi viene utilizzata per chiamare i metodi:
 
-- Se il metodo **isLanguageRTL** dell'origine dati **System** ha un parametro **EN-US** del tipo di dati *Stringa*, questo metodo deve corrispondere all'espressione ER nel seguente modo: `System.isLanguageRTL("EN-US")`.
+- Se il metodo **isLanguageRTL** dell'origine dati **System** ha un parametro **EN-US** del tipo di dati [*Stringa*](er-formula-supported-data-types-primitive.md#string), questo metodo deve essere referenziato nell'espressione ER come `System.isLanguageRTL("EN-US")`.
 - Le virgolette non sono richieste quando un nome di metodo contiene solo simboli alfanumerici. Tuttavia, sono obbligatorie per un metodo di tabella se il nome include le parentesi.
 
 Se l'origine dati **System** viene aggiunta a un mapping ER che fa riferimento alla classe dell'applicazione **Global**, l'espressione `System.isLanguageRTL("EN-US ")` restituisce il valore *Booleano* **FALSE**. L'espressione modificata `System.isLanguageRTL("AR")` restituisce il valore *Booleano* **TRUE**.
@@ -107,9 +107,9 @@ Se l'origine dati **System** viene aggiunta a un mapping ER che fa riferimento a
 È possibile limitare il modo in cui i valori vengono passati ai parametri di questo tipo di metodo:
 
 - Solo le costanti possono essere passate ai metodi di questo tipo. I valori delle costanti vengono definiti in fase di progettazione.
-- Solo i tipi di dati primitivi (base) sono supportati per i parametri di questo tipo. I tipi di dati primitivi includono *Intero*, *Reale*, *Booleano* e *Stringa*.
+- Solo i tipi di dati [primitivi](er-formula-supported-data-types-primitive.md) (base) sono supportati per i parametri di questo tipo. I tipi di dati primitivi includono *Intero*, *Reale*, *Booleano* e *Stringa*.
 
-## <a name=""></a><a name="Paths">Percorsi</a>
+## <a name="paths"></a><a name="Paths"></a>Percorsi
 
 Quando un'espressione fa riferimento a un'origine dati strutturata, è possibile utilizzare la definizione di percorso per selezionare un elemento primitivo specifico di tale origine dati. Un carattere di punto (.) viene utilizzato per separare i singoli elementi di origine dati strutturata. Ad esempio, la mappatura del modello ER corrente contiene l'origine dati **InvoiceTransactions** e l'origine dati restituisce un elenco di record. La struttura di record **InvoiceTransactions** contiene i campi **AmountDebit** e **AmountCredit** che restituiscono entrambi valori numerici. Pertanto, è possibile progettare la seguente espressione per calcolare l'importo fatturato: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. La costruzione `InvoiceTransactions.AmountDebit` in questa espressione è il percorso utilizzato per accedere al campo **AmountDebit** dell'origine dati **InvoiceTransactions** del tipo *Elenco di record*.
 
@@ -129,7 +129,7 @@ La parte rimanente del percorso assoluto è anche mostrata in [Editor di formule
 
 Per ulteriori informazioni, vedere [Utilizzare un percorso relativo nelle associazioni dati dei modelli e dei formati ER](relative-path-data-bindings-er-models-format.md).
 
-## <a name=""></a><a name="Functions">Funzioni</a>
+## <a name="functions"></a><a name="Functions"></a>Funzioni
 
 Le funzioni integrate ER possono essere utilizzate nelle espressioni ER. Tutte le origini dati del contesto dell'espressione (vale a dire, la mappatura del modello ER o il formato ER corrente) possono essere utilizzate come parametri di funzioni di chiamata, secondo l'elenco degli argomenti delle funzioni di chiamata. Anche le costanti possono essere utilizzate come parametri delle funzioni di chiamata. Ad esempio, la mappatura del modello ER corrente contiene l'origine dati **InvoiceTransactions** e l'origine dati restituisce un elenco di record. La struttura di record **InvoiceTransactions** contiene i campi **AmountDebit** e **AmountCredit** che restituiscono entrambi valori numerici. Pertanto, per calcolare l'importo fatturato è possibile progettare la seguente espressione che usa la funzione di arrotondamento ER integrata: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [Estendere l'elenco delle funzioni di creazione di report elettronici](general-electronic-reporting-formulas-list-extension.md)
 
+[Tipi di dati primitivi supportati](er-formula-supported-data-types-primitive.md)
+
+[Tipi di dati compositi supportati](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

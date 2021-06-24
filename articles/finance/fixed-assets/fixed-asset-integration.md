@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826836"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189786"
 ---
 # <a name="fixed-assets-integration"></a>Integrazione dei cespiti
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826836"
 
 È possibile integrare Cespiti con Contabilità generale, Gestione articoli, Contabilità clienti e Contabilità fornitori. È inoltre possibile impostare i cespiti per l'integrazione con gli ordini fornitore.
 
-<a name="general-ledger"></a>Contabilità generale
---------------
+## <a name="general-ledger"></a>Contabilità generale
 
 In Contabilità generale il valore di tutti i cespiti viene di solito riepilogato in più conti principali necessari per i report finanziari. Tuttavia, nella pagina **Cespiti** è possibile creare più record relativi ai cespiti. Questi record possono includere le informazioni, ad esempio il prezzo di acquisizione, l'ammortamento e la valutazione. Ogni volta che si registra una transazione per un cespite, vengono aggiornati i conti principali appropriati. Nei conti principali per i cespiti viene sempre riportato il valore aggiornato dei cespiti.
 

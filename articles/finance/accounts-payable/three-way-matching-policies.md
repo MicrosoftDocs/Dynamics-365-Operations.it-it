@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 87ab65469ec4a8154267b88fe45481b65ade5e7a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027796"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189180"
 ---
 # <a name="three-way-matching-policies"></a>Criteri di abbinamento a tre elementi di verifica
 
@@ -28,8 +28,7 @@ ms.locfileid: "6027796"
 
 Questo argomento fornisce esempi di abbinamento a tre elementi di verifica.
 
-<a name="example-three-way-matching-for-items"></a>Esempio: criteri di abbinamento a tre elementi di verifica per gli articoli
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>Esempio: criteri di abbinamento a tre elementi di verifica per gli articoli
 
 **Riepilogo:** Ken è il supervisore presso la sede centrale aziendale di una persona giuridica denominata Fabrikam. Ken stabilisce che tutte le fatture fornitore basate su ordini fornitore devono essere abbinate a righe di ordini fornitore (abbinamento a due elementi di verifica). Per gli acquisti di articoli che verranno utilizzati come cespiti, le fatture devono essere abbinate sia alle righe ordine fornitore che alle righe entrata prodotti (abbinamento a tre elementi di verifica).
 

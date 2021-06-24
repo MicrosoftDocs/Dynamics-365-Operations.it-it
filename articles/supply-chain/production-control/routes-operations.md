@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908930"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188936"
 ---
 # <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
@@ -29,8 +29,7 @@ ms.locfileid: "5908930"
 
 In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni. Un ciclo di lavorazione definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni passaggio (operazione) del processo di produzione insieme all'ordine in cui queste operazioni devono essere eseguite. Per ciascun passaggio, il ciclo di lavorazione definisce inoltre le risorse operative richieste, il tempo di attrezzaggio necessario e il tempo di esecuzione e il modo in cui il costo deve essere calcolato.
 
-<a name="overview"></a>Panoramica
---------
+## <a name="overview"></a>Panoramica
 
 Un ciclo di lavorazione descrive l'ordine delle operazioni necessarie per la produzione di un prodotto o una variante prodotto. Per ciascuna operazione, il ciclo di lavorazione inoltre definisce le risorse operative richieste, il tempo di attrezzaggio ed esecuzione necessario per l'operazione e il modo in cui il costo deve essere calcolato. È possibile utilizzare lo stesso ciclo di lavorazione per produrre i più prodotti oppure definire un ciclo di lavorazione univoco per ogni variante prodotto o prodotto. È inoltre possibile avere più cicli di lavorazione per lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato varia, in base ai fattori quali la quantità che deve essere prodotta. La definizione di un ciclo di lavorazione in Supply Chain Management è costituito da quattro diversi elementi che, insieme, descrivono il processo di produzione:
 

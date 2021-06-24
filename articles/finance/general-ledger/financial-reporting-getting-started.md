@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897038"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188999"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione a Financial Reporting 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897038"
 
 In questo argomento viene descritto dove accedere ai report finanziari e come utilizzare le funzionalità dei report finanziari. Include anche una descrizione dei report finanziari predefiniti forniti.
 
-<a name="accessing-financial-reporting"></a>Accesso ai report finanziari
------------------------------
+## <a name="accessing-financial-reporting"></a>Accesso ai report finanziari
 
 È possibile trovare il menu **Report finanziari** nelle seguenti posizioni:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820986"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189095"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Distribuzioni contabili e scritture contabili per le fatture fornitore
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820986"
 
 Le distribuzioni contabili vengono utilizzate per definire il modo in cui un importo verrà conteggiato, ad esempio le spese e le tasse vengono conteggiate in una fattura fornitore. Ogni importo che deve essere conteggiato quando la fattura fornitore viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili. 
 
-<a name="accounting-distributions"></a>Distribuzioni contabili 
--------------------------
+## <a name="accounting-distributions"></a>Distribuzioni contabili 
 
 È possibile utilizzare i pulsanti riportati di seguito nella pagina Fattura fornitore per visualizzare ed eventualmente modificare le distribuzioni contabili per ogni importo nella fattura fornitore.
 -   **Distribuisci importi**: consente di visualizzare e modificare le distribuzioni contabili per una singola riga e tutte le righe figlio, ad esempio imposte o spese. È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina Transazioni VAT o Transazioni spese.
@@ -227,8 +226,7 @@ Quando si immette una fattura fornitore, ogni importo viene distribuito come ind
 </table>
 
 
-<a name="distributing-taxes"></a>Distribuzione di imposte
-------------------
+## <a name="distributing-taxes"></a>Distribuzione di imposte
 
 impossibile creare distribuzioni contabili per imposte fino a quando queste ultime non verranno calcolate. Per calcolare l'IVA, è necessario completare una delle seguenti attività nella pagina Fattura fornitore:
 -   Visualizzare il totale fattura.

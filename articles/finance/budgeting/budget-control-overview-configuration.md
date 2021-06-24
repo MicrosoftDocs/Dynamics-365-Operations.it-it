@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a4897f34d016da8dd03d3108069e8aaa1369f7
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5959971"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188047"
 ---
 # <a name="budget-control-overview"></a>Panoramica del controllo del budget
 
@@ -28,8 +28,7 @@ ms.locfileid: "5959971"
 
 Questo articolo introduce il concetto di controllo del budget e fornisce informazioni per semplificare la configurazione del controllo del budget in modo che sia possibile gestire le risorse finanziarie.
 
-<a name="overview"></a>Panoramica
---------
+## <a name="overview"></a>Panoramica
 
 Il controllo del budget supporta la gestione delle risorse finanziarie di un'organizzazione tramite il piano dei conti, i flussi di lavoro, i gruppi di utenti, i documenti di origine e i giornali di registrazione, il calcolo configurabile dei fondi disponibili, i cicli di budget e le soglie. Se i controlli sono sul posto, un'organizzazione può programmare, misurare, gestire e programmare le risorse finanziarie nel corso dell'anno fiscale. 
 

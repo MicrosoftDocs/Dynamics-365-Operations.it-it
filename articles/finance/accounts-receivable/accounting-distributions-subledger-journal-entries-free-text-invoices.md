@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837179"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188760"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Distribuzioni contabili e voci di contabilità secondaria per le fatture a testo libero
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837179"
 
 Le distribuzioni contabili vengono utilizzate per definire il modo in cui importo verrà conteggiato, ad esempio i ricavi, le tasse o le spese vengono conteggiate in una fattura a testo libero. Ogni importo che deve essere conteggiato quando la fattura a testo libero viene immessa nel giornale di registrazione avrà una o più distribuzioni contabili.
 
-<a name="accounting-distributions"></a>Distribuzioni contabili
-------------------------
+## <a name="accounting-distributions"></a>Distribuzioni contabili
 
 È possibile utilizzare i pulsanti riportati di seguito nella pagina Fattura testo libero per visualizzare ed eventualmente modificare le distribuzioni contabili per ogni importo nella fattura testo libero.
 

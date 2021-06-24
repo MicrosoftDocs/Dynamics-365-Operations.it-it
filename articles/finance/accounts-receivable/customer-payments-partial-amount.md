@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f89b3d94fd16aa9cf27931d11fd8fff22048d40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c6d96f1f957bfe8002a763d98f170681ad92b23
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824030"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188736"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Pagamenti cliente per un importo parziale
 
@@ -28,8 +28,7 @@ ms.locfileid: "5824030"
 
 Talvolta i clienti effettuano un pagamento inferiore rispetto all'importo della fattura. Questo articolo descrive le varie opzioni per gestire questa situazione. Le opzioni disponibili dipendono dai requisiti aziendali e dalla configurazione.
 
-<a name="partial-payment-with-no-discount"></a>Pagamento parziale senza sconto
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>Pagamento parziale senza sconto
 
 I clienti possono effettuare un pagamento parziale perché non dispongono dei contanti sufficienti a pagare l'intera fattura o perché è aperta una controversia relativamente a un articolo in fattura. In questo caso, la fattura può essere liquidata parzialmente con il pagamento. La fattura rimarrà aperta e indicherà un saldo.
 

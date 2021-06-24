@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980899"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184127"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -39,7 +39,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Escluso dall'elaborazione della messaggistica elettronica dell'interoperabilità con il sistema di fatturazione online ungherese |
+| **Motivo della deprecazione/rimozione** | Escluso dall'elaborazione della messaggistica elettronica dell'interoperabilità con il sistema di fatturazione online ungherese |
 | **Sostituita da un'altra funzionalità?**   | Nessuno |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
@@ -49,7 +49,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato "File di controllo FEC (FR)" |
+| **Motivo della deprecazione/rimozione** | Sostituito con il nuovo formato "File di controllo FEC (FR)" |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
@@ -61,11 +61,11 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo repository globale di Regulatory Configuration Service (RCS) |
+| **Motivo della deprecazione/rimozione** | Sostituito con il nuovo repository globale di Regulatory Configuration Service (RCS) |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Prodotti Dynamics 365 Finance, Supply Chain Management e Project Operations|
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato: entro il 1° aprile 2022, prevediamo di non supportare più il repository Microsoft Dynamics Lifecycle Services (LCS) come opzione di archiviazione per le configurazioni per la creazione di report elettronici (ER). Le nuove configurazioni di Microsoft ER verranno pubblicate per il download esclusivamente dal repository globale. È possibile accedere al repository globale dai prodotti Dynamics 365 e da RCS. Per ulteriori informazioni, vedere [Importare configurazioni ER da RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **Stato**                         | Deprecato: entro il 1° aprile 2022, prevediamo di non supportare più il repository Microsoft Dynamics Lifecycle Services (LCS) come opzione di archiviazione per le configurazioni per la creazione di report elettronici (ER). Le nuove configurazioni di Microsoft ER verranno pubblicate per il download esclusivamente dal repository globale. È possibile accedere al repository globale dai prodotti Dynamics 365 e da RCS. Per ulteriori informazioni, vedere [Importazione di configurazioni ER da RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) e [Regulatory Configuration Service - Deprecazione dell'archiviazione di Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.16
 
@@ -73,7 +73,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con nuovi formati |
+| **Motivo della deprecazione/rimozione** | Sostituito con nuovi formati |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
@@ -83,7 +83,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato di creazione report elettronici "Standard Audit File (SAF-T)".  |
+| **Motivo della deprecazione/rimozione** | Sostituito con il nuovo formato di creazione report elettronici "Standard Audit File (SAF-T)".  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
@@ -93,7 +93,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato per la creazione di report elettronici: formato "Excel di dichiarazione IVA (UK)" in "Modello di dichiarazione fiscale".  |
+| **Motivo della deprecazione/rimozione** | Sostituito con il nuovo formato per la creazione di report elettronici: formato "Excel di dichiarazione IVA (UK)" in "Modello di dichiarazione fiscale".  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
@@ -105,7 +105,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
+| **Motivo della deprecazione/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
 | **Sostituita da un'altra funzionalità?**   | Consigliamo ai clienti di passare a Microsoft Edge.|
 | **Aree del prodotto interessate**         | Tutti i prodotti Dynamics 365 |
 | **Opzione di distribuzione**              | Tutti|
@@ -117,7 +117,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Non obbligatorio per legge.  |
+| **Motivo della deprecazione/rimozione** | Non obbligatorio per legge.  |
 | **Sostituita da un'altra funzionalità?**   | Sì (formato Excel per file di controllo standard con dichiarazione IVA - JPK_VDEK) |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
@@ -129,7 +129,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Riprogettazione  |
+| **Motivo della deprecazione/rimozione** | Riprogettazione  |
 | **Sostituita da un'altra funzionalità?**   | Sì (sostituito con parametri specifici dell'applicazione in formato ER) |
 | **Aree del prodotto interessate**         | Richiesta |
 | **Opzione di distribuzione**              | Tutti |
@@ -141,7 +141,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Modificato nella funzionalità con selezione di gruppi di conti.  |
+| **Motivo della deprecazione/rimozione** | Modificato nella funzionalità con selezione di gruppi di conti.  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Flusso di lavoro |
 | **Opzione di distribuzione**              | Tutti |

@@ -2,7 +2,7 @@
 title: Migliorare il modello di previsione (anteprima)
 description: In questo argomento vengono descritte le funzionalità che puoi utilizzare per migliorare le prestazioni dei modelli di previsione.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810024"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186644"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Migliorare il modello di previsione (anteprima)
 
@@ -77,9 +77,5 @@ Il campo seguente non deve essere selezionato per il training:
 I filtri attualmente non supportano lo scenario di previsione dei pagamenti del cliente. Pertanto, seleziona **Ignora questo passaggio** e vai alla pagina di riepilogo.
 
 [![Modello stato attivo con filtri](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>Informativa sulla privacy
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

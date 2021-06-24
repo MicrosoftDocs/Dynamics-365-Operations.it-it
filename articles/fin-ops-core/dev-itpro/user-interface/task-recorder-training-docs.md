@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744165"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188077"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Creare la documentazione o la formazione con Registrazione attività
 
@@ -31,8 +31,7 @@ In questo argomento vengono illustrate la funzionalità Registrazione attività 
 > [!IMPORTANT]
 > È possibile registrare le proprie guide attività per Dynamics 365 Human Resources ma non sarà possibile salvarle in una libreria del Modellatore di processi aziendali o aprirle dal riquadro della Guida in questo momento. È possibile salvarle in locale o in un percorso di rete, quindi aprirle e riprodurle utilizzando Registrazione attività. 
 
-<a name="learn-about-task-recorder"></a>Informazioni su Registrazione attività
--------------------------
+## <a name="learn-about-task-recorder"></a>Informazioni su Registrazione attività
 
 Registrazione attività è uno strumento che è possibile utilizzare per registrare le azioni eseguite nell'interfaccia utente del prodotto. Quando si utilizza Registrazione attività, tutti eventi generati nell'interfaccia utente ed eseguiti nel server, tra cui l'aggiunta di valori, la modifica delle impostazioni, la rimozione di dati, vengono acquisiti. I passaggi registrati vengono collettivamente denominati *registrazione di attività*. Le registrazioni di attività possono essere utilizzate in molti modi:
 
@@ -111,8 +110,7 @@ Per i passaggi dettagliati della procedura, vedere [Risorse registrazione attivi
 
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Guida](../../fin-ops/get-started/help-overview.md)
 

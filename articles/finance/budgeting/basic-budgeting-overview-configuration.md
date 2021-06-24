@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960051"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187942"
 ---
 # <a name="budgeting-overview"></a>Panoramica dell'impostazione budget 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960051"
 
 Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 Finance devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti.
 
-<a name="overview"></a>Panoramica
---------
+## <a name="overview"></a>Panoramica
 
 Il budget approvato per una persona giuridica viene gestito in un documento noto come *voce del registro di budget*. Le righe di un documento di voci di registro del budget sono note come voci *contabili del budget* e contengono le informazioni sulle dimensioni finanziarie, le date e gli importi del budget approvato. Il documento delle voci del registro di budget è integrato con i report finanziari di base e le pagine di richiesta di informazioni in cui gli importi effettivi di contabilità generale vengono confrontati gli importi del budget. 
 

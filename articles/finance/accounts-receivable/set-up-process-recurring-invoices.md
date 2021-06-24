@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dd6b21207b61dfb96e4d9538b5e6ffc1c6b02d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 834dc64ce531fb614bc7836e0def16f27ecf5e18
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835126"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188640"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Impostare ed elaborare fatture ricorrenti
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835126"
 
 Questo articolo illustra come impostare ed elaborare le fatture ricorrenti. È possibile utilizzare le fatture ricorrenti se è necessario fatturare ai clienti lo stesso importo su base regolare.
 
-<a name="create-a-recurring-free-text-invoice-template"></a>Creare un modello di fattura ricorrente a testo libero
----------------------------------------------
+## <a name="create-a-recurring-free-text-invoice-template"></a>Creare un modello di fattura ricorrente a testo libero
 
 Per fatturare a carico di clienti per gli stessi servizi a intervalli regolari, è necessario definire un modello di fattura a testo libero che può essere riutilizzato per creare le fatture. In questo modello sono incluse le seguenti informazioni:
 
@@ -52,13 +51,11 @@ Un cliente può avere più modelli con frequenze diverse.
 ## <a name="generate-the-recurring-invoices"></a>Generare le fatture ricorrenti
 Nella pagina **Fatture ricorrenti** è presente un'attività che elabora modelli di fattura ricorrente. Specificare la data della fattura e il modello da cui generare le fatture. Le fatture verranno generate e verrà assegnato un singolo numero ID ricorrenza per ciascun gruppo di fatture elaborato.
 
-<a name="post-recurring-free-text-invoices"></a>Registrare fatture a testo libero ricorrenti
----------------------------------
+## <a name="post-recurring-free-text-invoices"></a>Registrare fatture a testo libero ricorrenti
 
 Dopo la generazione delle fatture ricorrenti, gli ID ricorrenza delle fatture vengono visualizzati in un'attività di registrazione nella pagina **Fatture ricorrenti**. È possibile visualizzare tutte le fatture per un ID ricorrenza facendo clic sul collegamento. Durante la revisione delle fatture per ID ricorrenza, è possibile eliminare singole fatture. Le impostazioni di ricorrenza del cliente saranno reimpostate per il modello, in modo da poterlo rigenerare successivamente. È possibile registrare una, molte o tutte le fatture per un ID ricorrenza. Se i flussi di lavoro sono attivati, è necessario fare clic su **Invia** per poter registrare le fatture.
 
-<a name="print-recurring-free-text-invoices"></a>Stampare fatture a testo libero ricorrenti
-----------------------------------
+## <a name="print-recurring-free-text-invoices"></a>Stampare fatture a testo libero ricorrenti
 
 Dopo la registrazione delle fatture ricorrenti, è possibile stampare le fatture dalla pagina elenco delle fatture a testo libero. È possibile stampare le fatture selezionate oppure selezionare un intervallo di fatture da stampare.
 

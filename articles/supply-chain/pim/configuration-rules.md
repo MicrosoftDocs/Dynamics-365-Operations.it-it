@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27d022aeb2e32edb763530a75ae9fd7f1062cc5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70aff927dfea602ee6c4ad5c195274248f831bcb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829572"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190186"
 ---
 # <a name="configuration-rules"></a>Regole di configurazione
 
@@ -36,8 +36,7 @@ Le modifiche apportate successivamente alle regole di configurazione non interes
 
 **Nota:** il metodo **Seleziona** determina la selezione automatica del gruppo di configurazione derivato, del numero di articolo e della configurazione, mentre se si utilizza il metodo **Deseleziona** il gruppo di configurazione derivato, il numero di articolo e la configurazione non possono essere selezionati.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica della configurazione dei prodotti basati su dimensioni](dimension-based-product-configuration.md)
 

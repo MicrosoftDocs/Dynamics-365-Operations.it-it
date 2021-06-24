@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908234"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188412"
 ---
 # <a name="mobile-app-home-page"></a>Home page app per dispositivi mobili
 
@@ -27,8 +27,7 @@ ms.locfileid: "5908234"
 
 In questo argomento viene descritta l'app per dispositivi mobili **Finance and Operations (Dynamics 365)** e vengono forniti i collegamenti alle risorse necessarie per implementarla nell'organizzazione.
 
-<a name="overview"></a>Panoramica
---------
+## <a name="overview"></a>Panoramica
 
 L'app mobile consente all'organizzazione di rendere disponibili i propri processi aziendali nei dispositivi mobili. Dopo che l'amministratore IT attiva le aree di lavoro mobile per l'organizzazione, gli utenti potranno accedere all'app e immediatamente iniziare a eseguire i processi aziendali dai dispositivi mobili. L'app mobile include le seguenti funzionalità che consentono di aumentare la produttività:
 

@@ -2,7 +2,7 @@
 title: Previsioni di pagamento cliente (anteprima)
 description: Questo argomento descrive la funzionalità di previsione dei pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di un cliente. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 4151b56b8b385e29d3926dc7e245728158cbcd34
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898014"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186398"
 ---
 # <a name="customer-payment-predictions-preview"></a>Previsioni di pagamento cliente (anteprima)
 
@@ -72,10 +72,5 @@ In passato, era generalmente difficile sviluppare e distribuire una soluzione di
 È disponibile un'anteprima pubblica di Informazioni dettagliate finanziarie da provare per le distribuzioni negli Stati Uniti, in Europa e nel Regno Unito. Microsoft sta aggiungendo in modo incrementale il supporto per altre aree geografiche.
 
 Le funzionalità di anteprima pubblica possono essere attivate solo negli ambienti sandbox di livello 2. I modelli di configurazione e intelligenza artificiale creati in un ambiente sandbox non possono essere migrati in un ambiente di produzione. Per ulteriori informazioni, vedi [Condizioni integrative per le versioni di anteprima di Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
-
-## <a name="privacy-notice"></a>Informativa sulla privacy
-
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815358"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189375"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Metodi di calcolo IVA nel campo Origine
 
@@ -52,8 +52,7 @@ Se l'importo netto è 10,00, IMPOSTA 1 sarà 1,00 (10,00 x 10%) e IMPOSTA 2 sar�
 | Un solo codice IVA con Origine = Percentuale dell'importo lordo può essere utilizzato per una transazione. Se più di un codice di questo tipo viene determinato per una transazione, verrà visualizzato l'errore che l'IVA non può essere calcolata. |
 
 
-<a name="percentage-of-sales-tax"></a>Percentuale IVA
------------------------
+## <a name="percentage-of-sales-tax"></a>Percentuale IVA
 
 Quando si seleziona Percentuale IVA nel campo Origine, l'IVA viene calcolata come percentuale dell'IVA selezionata nel campo IVA sull'IVA. Viene innanzitutto calcolata l'IVA selezionata nel campo IVA sull'IVA. Il secondo importo IVA viene quindi calcolato in base al primo importo.
 ### <a name="example"></a>Esempio
@@ -119,8 +118,7 @@ Il documento/giornale di registrazione è impostato su Importo IVA inclusa =No I
 
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Aliquote IVA basate su Imponibile marginale e Metodo di calcolo](marginal-base-field.md)
 

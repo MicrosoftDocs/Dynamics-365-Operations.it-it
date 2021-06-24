@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825448"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188274"
 ---
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
@@ -102,8 +102,7 @@ Se si crea un ordine fornitore interaziendale che utilizza il contratto di acqui
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensioni finanziare nei contratti di acquisto
 È possibile copiare le dimensioni finanziarie in intestazioni documento o in singole righe di un contratto di acquisto. Se si modificano le dimensioni nell'intestazione del contratto o nella riga del contratto, la modifica non influisce sugli ordini rilasciati, ma verrà considerata in tutti i nuovi ordini.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creare un contratto di acquisto](tasks/create-purchase-agreement.md)
 

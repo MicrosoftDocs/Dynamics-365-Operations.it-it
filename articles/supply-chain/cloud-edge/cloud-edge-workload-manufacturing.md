@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899097"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6183998"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
 
@@ -72,6 +72,7 @@ Le attività di esecuzione della produzione seguenti possono attualmente essere 
 - Dichiara scarto
 - Attività indiretta
 - Interruzione
+- Dichiarato di finito e stoccato (richiede che venga anche eseguito il carico di lavoro di esecuzione del magazzino sull'unità di scala, vedere anche [Dichiarato di finito e stoccato su un'unità di scala](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Lavorare con i carichi di lavoro di esecuzione della produzione nell'hub
 
@@ -108,6 +109,26 @@ Per esaminare la cronologia dei processi di produzione elaborati su un'unità di
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Processo Elaborazione messaggi da hub di produzione a unità di scala
 
 Il processo _Elaborazione messaggi da hub di produzione a unità di scala_ elabora i dati dall'hub all'unità di scala. Questo processo viene avviato automaticamente quando viene distribuito il carico di lavoro di esecuzione della produzione. Tuttavia, è possibile eseguirlo manualmente in qualsiasi momento andando a **Controllo produzione \> Attività periodiche \> Gestione carico di lavoro di backoffice \> Elaborazione messaggi da hub di produzione a unità di scala**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Dichiarato di finito e stoccato su un'unità di scala
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Nella versione corrente, le operazioni Dichiarato di finito e stoccato (per prodotti finiti, co-prodotti e sottoprodotti) sono supportate dal [carico di lavoro di esecuzione del magazzino](cloud-edge-workload-warehousing.md) (non il carico di lavoro di esecuzione della produzione). Pertanto, per utilizzare questa funzionalità quando è collegato a un'unità di scala, è necessario effettuare le seguenti operazioni:
+
+- Installa sia il carico di lavoro di esecuzione del magazzino che il carico di lavoro di esecuzione della produzione sull'unità di scala.
+- Utilizzare l'app Warehouse Management per dispositivi mobili per dichiarare come finito ed elaborare il lavoro di stoccaggio. L'interfaccia di esecuzione dell'area di produzione non supporta attualmente questi processi.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

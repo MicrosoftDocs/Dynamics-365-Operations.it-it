@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c5087ee04030a76aef774871b88b7970391723c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bdd03dff359e7c2799eff53b0e999580ce8b1c06
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804383"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193105"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Applicazione POS e impostazioni della lingua dell'utente
 
@@ -57,7 +57,7 @@ L'impostazione della lingua dell'utente del POS determina le traduzioni utilizza
 
 L'impostazione della lingua dell'utente viene impostata in **Tutti i lavoratori** nella pagina **Lavoratore** in **Retail e Commerce &gt; Lingua**. Non viene impostata nella scheda Profilo. Questa impostazione non viene utilizzata dal POS. Se la lingua dell'utente non è impostata o è impostata una lingua per cui le traduzioni non sono disponibili, il POS tornerà alla lingua del punto vendita.
 
-|             | Lingua dell'interfaccia utente                   | Lingua dei dati (prodotti, formati ricevuta, visualizzazione riga e così via). |
+| &nbsp;      | Lingua dell'interfaccia utente                   | Lingua dei dati (prodotti, formati ricevuta, visualizzazione riga e così via). |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Società** | Valori predefiniti                    | Valori predefiniti                                                       |
 | **Punto vendita**   | Sovrascrive la società          | Sovrascrive la società                                             |

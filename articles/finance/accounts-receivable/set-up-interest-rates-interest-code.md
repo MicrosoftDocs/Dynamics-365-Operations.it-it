@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835198"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188712"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Impostare tassi d'interesse per un codice interessi
 
@@ -90,7 +90,6 @@ Le informazioni sull'intervallo vengono impostate nel modo indicato di seguito.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Esempio 2: Interessi in base a intervallo = Giorni
---------------------------------------------------
 
 Si imposta un codice interessi che valuta gli interessi una volta per ogni 15 giorni in cui il pagamento della fattura supera la data di scadenza della transazione. Si desidera basare il calcolo su un valore di interesse importo, in base a intervalli di giorni graduali. Il valore degli interessi sarà pari a 10,00 per 15 giorni durante i primi 60 giorni, 15,00 per 15 giorni durante l'intervallo di giorni da 61 a 90 e 20,00 per 15 giorni dal giorno 91 in poi. I valori del campo del codice interessi vengono impostati nel modo indicato di seguito.
 
@@ -111,7 +110,6 @@ Le informazioni sull'intervallo vengono impostate nel modo indicato di seguito.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Esempio 3: Interessi in base a intervallo = Mesi
-----------------------------------------------------
 
 Si imposta un codice interessi che valuta gli interessi una volta per ogni mese in cui il pagamento della fattura supera la data di scadenza della transazione. Si desidera basare il calcolo su un valore di interesse percentuale, in base a intervalli di mesi graduali. Il valore degli interessi sarà dell'1,5% al mese per i primi tre mesi di ritardo, del 2,0% al mese per i tre mesi successivi e del 2,5% al mese per ogni mese successivo ai primi sei. I valori del campo del codice interessi vengono impostati nel modo indicato di seguito.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 502fe22aa0caafbcff059c9d0ae83c7cd030e8d0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837131"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190311"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Impostazione, autorizzazione e acquisizione della carta di credito
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837131"
 
 Questo articolo fornisce una panoramica dell'autorizzazione della carta di credito in Microsoft Dynamics 365 Finance. Sono riportate informazioni sull'impostazione di un servizio di pagamento, sull'aggiunta di una carta di credito a un ordine cliente e sull'annullamento di un'autorizzazione.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Impostazione del servizio di pagamento con carta di credito
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Impostazione del servizio di pagamento con carta di credito
 
 Per utilizzare le carte di credito, è necessario impostare e attivare un servizio di pagamento nella pagina Servizi di pagamento. Un servizio di pagamento funge da tramite tra la persona giuridica e la banca che elabora gli addebiti su carta di credito del cliente. È necessario utilizzare un fornitore della carta di credito che viene elencato nel campo Connettore pagamenti e configurare un conto per tale fornitore. È quindi necessario impostare le altre opzioni nella pagina Servizi di pagamento, impostare i tipi di carta di credito per American Express, Discover, MasterCard e Discover nella pagina dei tipi di carta di credito e attivare il fornitore come fornitore predefinito. Per completare la configurazione, è necessario inoltre attenersi alla procedura seguente:
 -   Nella pagina dei parametri di contabilità clienti specificare i parametri per l'utilizzo delle autorizzazioni della carta di credito.
@@ -39,13 +38,11 @@ Per utilizzare le carte di credito, è necessario impostare e attivare un serviz
 ## <a name="adding-a-new-credit-card"></a>Aggiunta di una nuova carta di credito
 È possibile creare nuovi record della carta di credito nella pagina Clienti tramite le opzioni Cliente, Impostazioni, Carta di credito. È inoltre possibile creare record della carta di credito quando si immettono gli ordini cliente nella pagina Ordine cliente, utilizzando le opzioni Gestisci, Cliente, Carta di credito, Registra.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Aggiunta di una carta di credito a un ordine cliente
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Aggiunta di una carta di credito a un ordine cliente
 
 È possibile aggiungere una carta di credito per un ordine cliente selezionandola nell'area di ricerca relativa nella scheda dettaglio Prezzo e sconti nella pagina Ordine cliente. Per avviare il processo di autorizzazione, nel riquadro azioni, nella scheda Gestisci selezionare Carta di credito, quindi Autorizza.
 
-<a name="authorizing-a-credit-card"></a>Autorizzazione di una carta di credito
--------------------------
+## <a name="authorizing-a-credit-card"></a>Autorizzazione di una carta di credito
 
 Quando una carta di credito viene autorizzata, il numero della carta e il nome del titolare della carta vengono verificati e il saldo in Avere disponibile viene confermato. Facoltativamente, vengono verificati il numero di verifica della carta di credito e l'indirizzo del titolare della carta. Il saldo in Avere disponibile del cliente viene quindi ridotto dell'importo della fattura. Il servizio di pagamento invia le informazioni per segnalare se la carta di credito è stata accettata o rifiutata. L'importo della fattura viene addebitato (acquisito) sulla carta di credito una volta fatturato l'ordine cliente.
 

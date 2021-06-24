@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816534"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189718"
 ---
 # <a name="demand-forecasting-setup"></a>Impostazione della previsione della domanda
 
@@ -88,8 +88,7 @@ Nella scheda **Chiavi di allocazione** è possibile impostare **Parametri dell'a
 - **Suggerimento stagionalità**: per i dati stagionali, fornire un suggerimento al modello previsionale per migliorare la precisione della previsione. Formato: numero intero, che rappresenta il periodo di ripetizione di un modello di domanda. Utilizzare ad esempio "6" per dati che si ripetono ogni 6 mesi.
 - **Percentuale dimensione set di test**: percentuale di dati storici da utilizzare come set di test per il calcolo della precisione della previsione. 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica previsioni della domanda](introduction-demand-forecasting.md)
 

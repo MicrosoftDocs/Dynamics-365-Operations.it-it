@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5544fefbbf0dfc012e868b672f80cc2be30fe7ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f80d1509c7c363e93b83cb47c1b93ab00bf67180
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020864"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193470"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 
@@ -37,9 +37,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="full-dataset-generation-interval-is-deprecated"></a>L'intervallo di generazione completo del set di dati è deprecato
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | A partire da questa versione, nel modulo **Parametri dell'utilità di pianificazione di commercio** modulo in Dynamics 365 headquarters, il campo **Intervallo di generazione completo del set di dati in giorni** sarà deprecato. Anche a partire da questa versione, il campo verrà rimosso visivamente in modo che il valore non possa essere modificato. Rimarrà come valore **0**. |
+| **Motivo della deprecazione/rimozione** | A partire da questa versione, nel modulo **Parametri dell'utilità di pianificazione di commercio** modulo in Dynamics 365 headquarters, il campo **Intervallo di generazione completo del set di dati in giorni** sarà deprecato. Anche a partire da questa versione, il campo verrà rimosso visivamente in modo che il valore non possa essere modificato. Rimarrà come valore **0**. |
 | **Sostituita da un'altra funzionalità?**   | Nessuno |
 | **Aree del prodotto interessate**         | Dynamics 365 Commerce |
 | **Opzione di distribuzione**              | Tutti|
@@ -49,9 +49,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Il supporto di Internet Explorer 11 per Dynamics 365 è deprecato
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
+| **Motivo della deprecazione/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
 | **Sostituita da un'altra funzionalità?**   | Consigliamo ai clienti di passare a Microsoft Edge.|
 | **Aree del prodotto interessate**         | Tutti i prodotti Dynamics 365 |
 | **Opzione di distribuzione**              | Tutti|
@@ -59,36 +59,36 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.11
 ### <a name="data-action-hooks"></a>Hook azioni sui dai
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | La funzione hook di azione dati è stata deprecata a causa di problemi di prestazioni. |
+| **Motivo della deprecazione/rimozione** | La funzione hook di azione dati è stata deprecata a causa di problemi di prestazioni. |
 | **Sostituita da un'altra funzionalità?**   | È consigliabile utilizzare [sostituzioni di azioni sui dai](../e-commerce-extensibility/data-action-overrides.md) per modificare la logica aziendale nel livello di azione dati.|
 | **Aree del prodotto interessate**         | Azioni dati per l'estendibilità dell'e-commerce |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecato: dalla versione 10.0.11 |
 
 ### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Supporto Retail SDK per Visual Studio 2015, msbuild 14.0 e Retail SDK\Librerie e strumenti di riferimento
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Il supporto di Retail SDK per Visual Studio 2015 è stato deprecato e aggiornato per supportare VS 2017, msbuild 15.0 e tutte le librerie di riferimento e gli strumenti del generatore di proxy commerciali nella cartella RetailSDK\References spostati in pacchetti NuGet per semplificare il modello di estensione e il processo di aggiornamento SDK.|
+| **Motivo della deprecazione/rimozione** | Il supporto di Retail SDK per Visual Studio 2015 è stato deprecato e aggiornato per supportare VS 2017, msbuild 15.0 e tutte le librerie di riferimento e gli strumenti del generatore di proxy commerciali nella cartella RetailSDK\References spostati in pacchetti NuGet per semplificare il modello di estensione e il processo di aggiornamento SDK.|
 | **Sostituita da un'altra funzionalità?**   | È consigliabile seguire le informazioni in [Migrare Retail SDK da Visual Studio 2015 a Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) per aggiornare il sistema. |
 | **Aree del prodotto interessate**         | Estensioni di Retail SDK |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecato: dalla versione 10.0.11 |
 
 ### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Estensione di Retail Server mediante IEdmModelExtender e CommerceController
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | L'estensione di Retail server mediante IEdmModelExtender e CommerceController è stata deprecata per fornire un modello di estensione semplificato. La nuova implementazione avrà solo la classe controller senza alcuna implementazione aggiuntiva della classe IEdmModelExtender. Ciò evita anche la dipendenza con una particolare versione di OData (se la versione di OData viene aggiornata potrebbe rompere le estensioni). |
+| **Motivo della deprecazione/rimozione** | L'estensione di Retail server mediante IEdmModelExtender e CommerceController è stata deprecata per fornire un modello di estensione semplificato. La nuova implementazione avrà solo la classe controller senza alcuna implementazione aggiuntiva della classe IEdmModelExtender. Ciò evita anche la dipendenza con una particolare versione di OData (se la versione di OData viene aggiornata potrebbe rompere le estensioni). |
 | **Sostituita da un'altra funzionalità?**   |  Si consiglia di utilizzare il modello di estensione della classe IController importando il pacchetto NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
 | **Aree del prodotto interessate**         | Estensioni di Retail Server |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecato: dalla versione 10.0.11 |
 
 ### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Estensione della stazione hardware mediante IHardwareStationController
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | L'estensione della stazione hardware mediante IHardwareStationController è stata deprecata per fornire un modello di estensione semplificato. La nuova implementazione avrà solo la classe IController senza alcuna implementazione di classe aggiuntiva e per evitare la dipendenza con le librerie delle stazioni hardware core, in precedenza l'estensione deve fare riferimento a più librerie. |
+| **Motivo della deprecazione/rimozione** | L'estensione della stazione hardware mediante IHardwareStationController è stata deprecata per fornire un modello di estensione semplificato. La nuova implementazione avrà solo la classe IController senza alcuna implementazione di classe aggiuntiva e per evitare la dipendenza con le librerie delle stazioni hardware core, in precedenza l'estensione deve fare riferimento a più librerie. |
 | **Sostituita da un'altra funzionalità?**   | Si consiglia di utilizzare il modello di estensione della classe IController importando il pacchetto NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
 | **Aree del prodotto interessate**         | Estensioni della stazione hardware |
 | **Opzione di distribuzione**              | Tutti |
@@ -96,9 +96,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.10
 ### <a name="pos-operation-803---picking-and-receiving"></a>Operazione POS 803 - Fare clic su Prelievo e ricevimento
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Le operazioni di prelievo e ricevimento sono deprecate a causa della ridefinizione di nuove operazioni. |
+| **Motivo della deprecazione/rimozione** | Le operazioni di prelievo e ricevimento sono deprecate a causa della ridefinizione di nuove operazioni. |
 | **Sostituita da un'altra funzionalità?**   | Sì. È sostituita da due nuove operazioni POS: operazione in entrata (804) e operazione in uscita (805).|
 | **Aree del prodotto interessate**         | Applicazione POS (Point of sale) |
 | **Opzione di distribuzione**              | Tutti |
@@ -107,9 +107,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.7
 ### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>API Commerce GetProductAvailabilities e GetAvailableInventoryNearby
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Nuove API ottimizzate sono state create per sostituire le API GetProductAvailabilities e GetAvailableInventoryNearby. |
+| **Motivo della deprecazione/rimozione** | Nuove API ottimizzate sono state create per sostituire le API GetProductAvailabilities e GetAvailableInventoryNearby. |
 | **Sostituita da un'altra funzionalità?**   | Sì: sostituzione tramite le API GetEstimatedAvailabilty e GetEstimatedProductWarehouseAvailability. |
 | **Aree del prodotto interessate**         | SDK dell'applicazione e-Commerce |
 | **Opzione di distribuzione**              | Tutti |

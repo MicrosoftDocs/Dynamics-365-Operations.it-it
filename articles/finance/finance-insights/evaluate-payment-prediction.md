@@ -2,7 +2,7 @@
 title: Valutare il modello di previsione di pagamento del cliente iniziale (anteprima)
 description: In questo argomento vengono descritti i passaggi che è possibile eseguire per comprendere il modello di previsione del pagamento del cliente e valutarne l'efficacia.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897914"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186740"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Valutare il modello di previsione di pagamento del cliente iniziale (anteprima)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento spiega come valutare un modello di previsione dopo aver attivato Informazioni finanziarie dettagliate e quindi generato ed eseguito il training del primo modello. Questo argomento illustra i modelli per la previsione dei pagamenti dei clienti. In questo argomento vengono descritti i passaggi che è possibile eseguire per comprendere il modello di previsione del pagamento del cliente e valutarne l'efficacia.
+Questo argomento spiega come valutare un modello di previsione dopo aver attivato Finance Insights e quindi generato ed eseguito il training del primo modello. Questo argomento illustra i modelli per la previsione dei pagamenti dei clienti. In questo argomento vengono descritti i passaggi che è possibile eseguire per comprendere il modello di previsione del pagamento del cliente e valutarne l'efficacia.
 
 ## <a name="getting-details-about-the-model"></a>Ottenere dettagli sul modello
 
-Nella pagina **Parametri di informazioni finanziarie dettagliate** in Microsoft Dynamics 365 Finance, un collegamento **Migliora la precisione del modello** viene visualizzato accanto al punteggio di precisione.
+Nella pagina **Parametri di Finance Insights** in Microsoft Dynamics 365 Finance, un collegamento **Migliora la precisione del modello** viene visualizzato accanto al punteggio di precisione.
 
 [![Collegamento Migliora la precisione del modello](./media/prediction-model.png)](./media/prediction-model.png)
 
@@ -95,9 +95,5 @@ Dopo aver compreso meglio i risultati del primo modello, è consigliabile miglio
 ## <a name="for-more-information"></a>Ulteriori informazioni
 
 Per ulteriori informazioni su come valutare i modelli di previsione, vedi [Risultati dei modelli di apprendimento automatico](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Informativa sulla privacy
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

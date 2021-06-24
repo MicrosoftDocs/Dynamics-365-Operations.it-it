@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dba501acb3a360f2936ff407b549df6d7eb358ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7dc7c681b86e34f59cbbc3c6231a36fe9ca5327a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841577"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188888"
 ---
 # <a name="product-related-translations-faq"></a>Domande frequenti sulle traduzioni relative ai prodotti
 
@@ -29,8 +29,7 @@ ms.locfileid: "5841577"
 
 In questo argomento viene descritto come gestire le traduzioni per i prodotti, i valori di dimensione prodotto e gli attributi del prodotto. 
 
-<a name="what-product-related-data-can-be-translated"></a>Quali dati relativi al prodotto possono essere tradotti?
---------------------------------------------
+## <a name="what-product-related-data-can-be-translated"></a>Quali dati relativi al prodotto possono essere tradotti?
 
 È possibile creare le traduzioni per le seguenti informazioni relative al prodotto:
 -   Nomi e descrizioni dei prodotti.

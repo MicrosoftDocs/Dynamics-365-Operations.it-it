@@ -1,8 +1,8 @@
 ---
 title: Impostare i cespiti
 description: In questo argomento viene fornita una panoramica dell'impostazione del modulo Cespiti.
-author: ShylaThompson
-ms.date: 01/12/2018
+author: moaamer
+ms.date: 06/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff025984307f979ce98947f2225971041ebbdbae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f624ddc2e7b8f59a2ba002d757ce68ee222a7223
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818538"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216588"
 ---
 # <a name="set-up-fixed-assets"></a>Impostare i cespiti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dell'impostazione del modulo **Cespiti**.
+In questo argomento viene fornita una panoramica dell'impostazione del modulo **Cespiti**. 
 
-## <a name="overview"></a>Panoramica
-
-I parametri controllare il comportamento generale dei cespiti.
-
-I gruppi cespite consentono di raggruppare i cespiti e specificare gli attributi predefiniti per ciascun cespite assegnato a un gruppo. I libri sono assegnati a gruppi cespite. I libri tengono traccia del valore finanziario di un cespite nel tempo utilizzando la configurazione di ammortamento definita nel profilo di ammortamento.
+I parametri controllare il comportamento generale dei cespiti. I gruppi cespite consentono di raggruppare i cespiti e specificare gli attributi predefiniti per ciascun cespite assegnato a un gruppo. I libri sono assegnati a gruppi cespite. I libri tengono traccia del valore finanziario di un cespite nel tempo utilizzando la configurazione di ammortamento definita nel profilo di ammortamento.
 
 I cespiti vengono assegnati a un gruppo nel momento in cui vengono creati. Per impostazione predefinita, i libri assegnati al gruppo cespite vengono assegnati al cespite. I libri configurati per la registrazione nella contabilità generale sono associati a un profilo di registrazione. I conti CoGe vengono definiti per ogni libro nel profili di registrazione e vengono utilizzati nella registrazione delle transazioni cespiti.
 
@@ -49,6 +45,8 @@ Dopo aver impostato i profili di ammortamento, è necessario creare i libri nece
 Un profilo di ammortamento primario viene assegnato a ciascun libro. I libri hanno anche un profilo di ammortamento alternativo, se questo tipo di profilo è applicabile. Per includere automaticamente il libro cespiti nelle esecuzioni di ammortamento, è necessario abilitare l'opzione **Calcola ammortamento**. Se l'opzione non è abilitata per un cespite, la proposta di ammortamento salta il cespite.
 
 È inoltre possibile impostare libri derivati. Le transazioni derivate specificate vengono registrate rispetto ai libri derivati come copia esatta della transazione primaria. Di conseguenza, le transazioni derivate sono impostate in genere per le acquisizioni e le dismissioni, non per le transazioni di ammortamento. Per ulteriori informazioni, vedere [Impostare i modelli di valore](tasks/set-up-value-models.md).
+
+Un'opzione nella pagina **Parametri cespiti** permette di bloccare e sbloccare questa funzionalità. È possibile abilitare questa funzione nell'**area di lavoro Gestione funzionalità**.
 
 ## <a name="fixed-asset-posting-profiles"></a>Profili registrazione cespiti
 
@@ -73,6 +71,8 @@ L'ultimo passaggio è l'aggiornamento dei parametri del cespite.
 Il campo **Soglia di capitalizzazione** determina i cespiti che verranno ammortizzati. Se una riga di acquisto è selezionata come cespite, ma non corrisponde al valore soglia di capitalizzazione, il cespite viene ancora creato o aggiornato, ma l'opzione **Calcola ammortamento** è impostata su **No**. Di conseguenza, il cespite non verrà ammortizzato automaticamente come parte delle proposte di ammortamento.
 
 Un'importante opzione è **Crea automaticamente importi di rettifica all'ammortamento con dismissione**. Quando si imposta questa opzione su **Sì**, l'ammortamento del cespite viene rettificato automaticamente, in base alle impostazioni di ammortamento al momento della dismissione. Un'altra opzione consente di detrarre gli sconti di cassa dall'importo dell'acquisizione quando si acquistano i cespiti utilizzando una fattura fornitore.
+
+Il parametro **Blocca libri cespiti in un giornale di registrazione ammortamenti** permette di bloccare i libri cespiti in un giornale di registrazione degli ammortamenti. Quando vengono registrate le transazioni di ammortamento, il sistema verificherà che lo stesso libro cespiti non sia stato aggiunto a più di un giornale di registrazione degli ammortamenti. In caso affermativo, il libro cespiti verrà bloccato e la registrazione verrà interrotta. Se un ID libro cespiti si trova in un giornale bloccato, verrà sbloccato automaticamente al termine della registrazione per il giornale originale. È anche possibile sbloccare il giornale di registrazione manualmente. 
 
 Nella scheda dettaglio **Ordini fornitore**, è possibile configurare la modalità secondo cui i cespiti vengono creati durante il processo di acquisto. La prima opzione è denominata **Consenti acquisizione cespiti da Acquisto**. Se si imposta questa opzione su **Sì**, l'acquisizione del cespite verrà applicata quando viene registrata la fattura. Se si imposta questa opzione su **No**, sarà comunque possibile inserire un cespite in un ordine fornitore (PO) e in fattura, ma l'acquisizione non verrà registrata. La registrazione deve essere eseguita come passaggio distinto dal giornale di registrazione cespiti. L'opzione **Crea cespite durante la registrazione entrata prodotti o fattura** consente di creare un nuovo cespite immediatamente durante la registrazione. Di conseguenza, il cespite non deve essere impostato come cespite prima della transazione. L'ultima opzione, **Verifica creazione cespiti durante l'immissione riga**, si applica solo alle richieste di acquisto.
 

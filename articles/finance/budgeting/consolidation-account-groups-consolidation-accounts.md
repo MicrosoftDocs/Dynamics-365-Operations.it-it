@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1a819505343eaee93c7bf67b1364e61ad5c9c68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 245b61c8cb85ab1282a921ac99b9ac7c2efbadc5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827363"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189423"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Gruppi di conti di consolidamento e conti di consolidamento aggiuntivi
 
@@ -28,8 +28,7 @@ ms.locfileid: "5827363"
 
 In questo argomento vengono fornite informazioni sui gruppi di conti di consolidamento e sui conti di consolidamento aggiuntivi e viene illustrato come vengono utilizzati in Microsoft Dynamics 365 Finance.
 
-<a name="consolidation-account-groups"></a>Gruppi di conti di consolidamento
-----------------------------
+## <a name="consolidation-account-groups"></a>Gruppi di conti di consolidamento
 
 I gruppi di conti di consolidamento consentono di creare gruppi di conti da utilizzare per consolidare i dati. In genere, un gruppo di conti di consolidamento rappresenta un piano dei conti definito dal Governo o mappa i conti a un gruppo definito dalla sede centrale della società. I gruppi di conti di consolidamento sono disponibili nell'area **Impostazioni** del modulo **Consolidamenti**. Quando si aggiunge un nuovo gruppo, si immette un identificatore univoco per il gruppo di conti e un nome.
 

@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672bb37a4d191c4b4f72b234ba98766ffd223f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d1df15462a39c17710c9300425561bba8b69fc7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826130"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188385"
 ---
 # <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
 
@@ -27,8 +27,7 @@ ms.locfileid: "5826130"
 
 Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell'Unione Europea (UE).
 
-<a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
------------------------
+## <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
 
 Un fornitore che effettua forniture di prodotti o servizi intracomunitarie ad aziende che hanno sede nell'Unione Europea (EU) deve inviare una dichiarazione di forniture intracomunitaria (elenco vendite UE o ESL). In linea generale, la dichiarazione ESL deve essere inviata agli uffici tributari non oltre l'ultimo giorno del mese successivo al periodo coperto dall'elenco vendite UE. Il fornitore deve dichiarare la propria partita IVA sulla dichiarazione ESL e deve inoltre specificare, per cliente, le seguenti informazioni:
 

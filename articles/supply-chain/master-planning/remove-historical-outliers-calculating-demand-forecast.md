@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2131ae11e634f9ced0d9696acb61d7b8a94c59cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: df20a45707d3f6ff2ba963e3310194c1af830234
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841817"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187388"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Eliminare gli outlier dai dati di transazione storici quando si calcolo una previsione della domanda
 
@@ -39,8 +39,7 @@ In questo articolo viene descritto come escludere gli outlier dai dati storici u
 
 **Nota:** È inoltre possibile creare una query in base a una query esistente. Selezionare la query da copiare, quindi fare clic su **Duplicato**. Nel campo **Data query** viene identifica la versione. È possibile utilizzare la query come è, oppure fare clic su **Modifica query** per modificare i criteri. Si può scegliere di modificare il nome e la descrizione della nuova query.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica previsioni della domanda](introduction-demand-forecasting.md)
 

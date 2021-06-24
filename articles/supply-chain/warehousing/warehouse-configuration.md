@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837371"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189553"
 ---
 # <a name="warehouse-configuration-overview"></a>Panoramica della configurazione del magazzino
 
@@ -109,8 +109,7 @@ Come suggerisce il nome, le direttive ubicazione vengono utilizzate per indirizz
 
 Per rendere più semplice e più rapido definire le azioni associate a ogni riga di direttive di ubicazione, utilizzare una delle strategie predefinite. Ad esempio, è possibile utilizzare la strategia **Ubicazione vuota senza alcun lavoro in entrata** per individuare le ubicazioni libere in un magazzino oppure la strategia **Prenotazione batch FEFO** per il prelievo vendite in uscita.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Configurare le ubicazioni in un magazzino abilitato WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 

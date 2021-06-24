@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891795"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224036"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Progettare una nuova soluzione ER per stampare un report personalizzato
 
@@ -285,7 +285,7 @@ Per continuare, saltare la procedura successiva, [Creare una nuova configurazion
 
 Lo stato della versione 1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1 non può più essere modificata. Questa versione contiene il modello di dati configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare il modello di dati **Gestione questionari**.
 
-![Le versioni della configurazione ER modificabile nella pagina Configurazioni](./media/er-quick-start1-model-configuration.png)
+![Le versioni della configurazione modificabile nella pagina Configurazioni](./media/er-quick-start1-model-configuration.png)
 
 Per ulteriori informazioni sul controllo delle versioni per le configurazioni ER, vedere [Panoramica dei report elettronici](general-electronic-reporting.md#component-versioning).
 
@@ -799,7 +799,7 @@ La figura seguente mostra un report generato in formato Excel in cui le domande 
 
 Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata per stampare il report personalizzato. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare il formato del tuo report **Gestione questionari**.
 
-![Le versioni della configurazione ER modificabile nella pagina Configurazioni](./media/er-quick-start1-format-configuration.png)
+![Configurazione ER modificabile nella pagina Configurazioni](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Il formato configurato è la progettazione del report **Gestione questionari** e non contiene alcuna relazione con gli elementi specifici di Finance.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920111"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188852"
 ---
 # <a name="transportation-management-engines"></a>Motori di gestione del trasporto
 
@@ -43,8 +43,7 @@ Nella seguente tabella vengono illustrati i motori di gestione del trasporto dis
 | **Tipo di fattura trasporto**            | Standardizza la fattura di trasporto e le relative righe e viene utilizzato per l'abbinamento automatico della fattura di trasporto.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Che motori è necessario configurare per valutare una spedizione?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Che motori è necessario configurare per valutare una spedizione?
 
 Per valutare una spedizione utilizzando un vettore specifico, è necessario configurare più motori di gestione del trasporto. **Motore tariffe** è necessario, ma per supportare **Motore tariffe** potrebbero essere necessari altri motori di gestione del trasporto. Ad esempio, **Motore tariffe** può essere utilizzato per recuperare i dati dal **motore chilometraggio** per calcolare la tariffa in base al chilometraggio tra l'origine e la destinazione.
 
@@ -62,8 +61,7 @@ Nella maggior parte dei casi, per configurare i dati di inizializzazione è poss
 |  <em>MileageEngineCode</em>  |                       Codice del motore chilometraggio che identifica il record motore chilometraggio nel database.                        |
 | <em>ApportionmentEngine</em> |                        Codice motore generico che identifica il motore di ripartizione nel database.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Come vengono utilizzati i metadati nei motori di gestione del trasporto?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Come vengono utilizzati i metadati nei motori di gestione del trasporto?
 
 I motori di gestione del trasporto che si basano sui dati definiti in Supply Chain Management possono utilizzare diversi schemi di dati. Il sistema di gestione del trasporto consente l'utilizzo delle stesse tabelle di database fisiche generiche da parte dei diversi motori di gestione del trasporto. Per assicurarsi che l'interpretazione dei dati del motore in fase di esecuzione sia corretta, è possibile definire i metadati per le tabelle di database. Questo consente di ridurre il costo della compilazione di nuovi motori di gestione del trasporto poiché in Operations non sono necessarie strutture di tabelle e moduli aggiuntive.
 

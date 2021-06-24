@@ -2,7 +2,7 @@
 title: Dichiarazione IVA per l'Egitto
 description: In questo argomento viene descritto come configurare e generare il modulo di dichiarazione IVA per l'Egitto.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021958"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186616"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Dichiarazione IVA per l'Egitto (EG-00002)
 
@@ -85,6 +85,7 @@ Le seguenti configurazioni di ricerca vengono utilizzate per classificare le tra
 - **VATRateTypeLookup** > Colonna B: tipo di imposta
 - **VATRateTypeLookup** > Colonna C: tipo di elemento di tabella
 - **PurchaseOperationTypeLookup** > Colonna A: tipo di documento
+- **CustomerTypeLookup** > Colonna A: tipo di documento
 - **SalesOperationTypeLookup** > Colonna N: tipo di operazione
 - **SalesItemTypeLookup** > Colonna O: tipo di elemento
 
@@ -98,6 +99,8 @@ Completare i passaggi seguenti per impostare le differenti ricerche utilizzate p
 6. Ripetere i passaggi da 3 a 5 per tutte le ricerche disponibili.
 7. Selezionare **Aggiungi** per includere la riga del record finale e nella colonna **Risultato della ricerca**, selezionare **Non applicabile**. 
 8. Nelle colonne rimanenti, selezionare **Non vuoto**. 
+9. Nel campo **Stato** selezionare **Completato**.
+10. Selezionare **Salva**, quindi chiudere la pagina **Parametri specifici dell'applicazione**.
 
 > [!NOTE]
 > Quando si aggiunge l'ultimo record, **Non applicabile**, si definisce la seguente regola: quando la fascia IVA, la fascia IVA articoli, il codice imposta e il nome passato come argomento non soddisfano nessuna delle regole precedenti, le transazioni non sono incluse nel libro IVA a debito. Sebbene questa regola non sia utilizzata durante la generazione del report, aiuta a evitare errori nella generazione del report quando manca una configurazione di regola.
@@ -138,7 +141,7 @@ Le tabelle seguenti rappresentano un esempio di configurazione suggerita per le 
 | Servizi       | 7    | VAT_SERV                | *Non vuoto* | SaleExempt            |
 | Servizi       | 8    | VAT_SERV                | *Non vuoto* | SalesExemptCreditNote |
 | Rettifiche    | 9    | *Vuoto*                 | VAT_ADJ     | Vendite                 |
-| Rettifiche    | 10   | *Vuoto*                 | VAT_ADJ     | Acquisti              |
+| Rettifiche    | 10   | *Vuoto*                 | VAT_ADJ     | SalesCreditNote       |
 | Non applicabile | 11   | *Non vuoto*             | *Non vuoto* | *Non vuoto*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ Le tabelle seguenti rappresentano un esempio di configurazione suggerita per le 
 | Beni                  | 1    | VAT_GOODS               | *Non vuoto* | Acquisti                 |
 | Beni                  | 2    | VAT_GOODS               | *Non vuoto* | PurchaseCreditNote       |
 | Servizi               | 3    | VAT_SERV                | *Non vuoto* | Acquisti                 |
-| Servizi               | 4    | VAT_SERV                | *Non vuoto*  | PurchaseCreditNote       |
+| Servizi               | 4    | VAT_SERV                | *Non vuoto* | PurchaseCreditNote       |
 | Macchina e attrezzatura  | 5    | VAT_M&E                 | *Non vuoto* | Acquisti                 |
 | Macchina e attrezzatura  | 6    | VAT_M&E                 | *Non vuoto* | PurchaseCreditNote       |
 | Macchina con parti         | 7    | VAT_PARTS               | *Non vuoto* | Acquisti                 |
 | Macchina con parti         | 8    | VAT_PARTS               | *Non vuoto* | PurchaseCreditNote       |
 | Esenzioni             | 9    | VAT_EXE                 | *Non vuoto*  | PurchaseExempt           |
 | Esenzioni             | 10   | VAT_EXE                 | *Non vuoto* | PurchaseExemptCreditNote |
-| Non applicabile         | 11   | *Vuoto*                 | VAT_ADJ     | *Non vuoto*              |
-| Non applicabile         | 12   | *Non vuoto*             | *Non vuoto* | *Non vuoto*              |
-| Non applicabile         | 13   | *Vuoto*                 | *Non vuoto* | *Non vuoto*              |
+| Non applicabile         | 11   | *Non vuoto*             | *Non vuoto* | *Non vuoto*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ Le tabelle seguenti rappresentano un esempio di configurazione suggerita per le 
 | Rettifiche    | 9    | *Vuoto*          | VAT_ADJ     | PurchaseCreditNote       |
 | Rettifiche    | 10   | *Vuoto*          | VAT_ADJ     | Acquisti                 |
 | Non applicabile | 11   | *Non vuoto*      | *Non vuoto* | *Non vuoto*              |
+
+**CustomerTypeLookup**
+
+|    Risultato della ricerca    | Riga | Fascia IVA |
+|---------------------|------|-----------------|
+| Organizzazione        |  1   | VAT_LOCAL       |
+| Organizzazione        |  2   | VAT_EXPORT      |
+| Organizzazione        |  3   | VAT_EXE         |
+| Consumatore finale      |  4   | VAT_FINALC      |
+| Organizzazione pubblica |  5   | VAT_PUBLIO      |
+| Non applicabile      |  6   | *Non vuoto*     |
 
 **VATRateTypeLookup**
 

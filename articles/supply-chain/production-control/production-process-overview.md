@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814586"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188151"
 ---
 # <a name="production-process-overview"></a>Panoramica del processo di produzione
 
@@ -74,8 +74,7 @@ Le seguenti operazioni nel ciclo di vita della produzione possono verificarsi pe
 12. **Chiusura periodo**: alcuni principi della contabilità industriale, ad esempio media periodica, determinazione costi di tipo backflush, FIFO o LIFO, richiedono attività periodiche per chiudere l'inventario o il periodo finanziario. Prima della chiusura dei periodi il sistema tenta in genere di dichiarare qualsiasi consumo di materiale e risorse, nonché di correzioni delle scorte e di scarto. La dichiarazione viene in genere eseguita utilizzando i giornali di registrazione movimenti scorte o di rettifica. L'obiettivo è quello di valutare le prestazioni economiche di unità operative per periodo. In alcuni casi, quando vengono utilizzati ordini di produzione di lunga durata che coprono i periodi di report finanziari, i giornali di registrazione produzione vengono utilizzati per dichiarare lo stato di avanzamento di produzione e il consumo di risorse entro la fine del periodo.
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Riscontro di produzione](production-feedback.md)
 

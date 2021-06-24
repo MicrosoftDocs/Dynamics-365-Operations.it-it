@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67098f6008086788ef8814f45fd0dd5add990460
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42137b9eb24e14518244d87e72e9ea1295be4485
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813701"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188960"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>Autorizzare una previsione modificata
 
@@ -39,8 +39,7 @@ Nella scheda **Dettagli** della pagina **Autorizzazione** è possibile visualizz
 
 È molto importante capire il funzionamento della casella di controllo **Salva le rettifiche manuali apportate alla previsione della domanda di base**. Se sono state apportate rettifiche manuali alla previsione di base statistica, i valori rettificati vengono autorizzati per l'utilizzo anche se questa casella di controllo è deselezionata. Tuttavia, le modifiche vengono rimosse dopo l'autorizzazione. Di conseguenza, alla successiva generazione di una previsione, quest'ultima è solo una previsione statistica e non dispone di sostituzione manuali, anche se l'opzione **Trasferisci correzioni manuali alla previsione della domanda** è selezionata. Di conseguenza, è possibile considerare la casella di controllo **Salva le rettifiche manuali apportate alla previsione della domanda di base** come un meccanismo che consente di mantenere o rimuovere tutte le modifiche manuali.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Implementare correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
 

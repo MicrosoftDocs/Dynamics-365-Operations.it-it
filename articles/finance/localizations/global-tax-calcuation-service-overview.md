@@ -2,7 +2,7 @@
 title: Calcolo imposte (anteprima)
 description: In questo argomento vengono illustrati l'ambito e le funzionalità generali di Calcolo imposte.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b26472e195d9bdbba340a118c106de1a4dc79b34
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9daa6e001200d03a2639974fb6de618d77ddf09d
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021934"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184103"
 ---
 # <a name="tax-calculation-preview"></a>Calcolo imposte (anteprima)
 
@@ -31,6 +31,9 @@ ms.locfileid: "6021934"
 Calcolo imposte è un servizio multitenant iperscalabile che consente al Global Tax Engine di automatizzare e semplificare il processo di determinazione e calcolo delle imposte. Il motore fiscale è completamente configurabile. Gli elementi che possono essere configurati includono, tra gli altri, il modello di dati imponibili, il codice imposta, la matrice di applicabilità fiscale e la formula di calcolo dell'imposta. Il motore fiscale funziona sulla piattaforma di servizi di base Microsoft Azure e offre una tecnologia moderna e la scalabilità esponenziale.
 
 Calcolo imposte si integra con Dynamics 365 Finance e Dynamics 365 Supply Chain Management. Alla fine, si integrerà anche con Dynamics 365 Project Operations, Dynamics 365 Commerce e altre applicazioni proprietarie e di terze parti.
+
+> [!IMPORTANT]
+> Quando si abilita il servizio di calcolo delle imposte, alcune operazioni sui dati correlati potrebbero essere eseguite in un data center diverso da quello che gestisce i dati del servizio. Rivedere i [termini e condizioni](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) prima di abilitare il servizio di calcolo delle imposte. La privacy è molto importante. Per ulteriori informazioni, leggere l'[Informativa sulla privacy](https://go.microsoft.com/fwlink/?LinkId=521839) di Microsoft.
 
 Calcolo imposte è un motore fiscale basato su microservizi che offre scalabilità esponenziale. Ti consente di eseguire le attività descritte di seguito:
 

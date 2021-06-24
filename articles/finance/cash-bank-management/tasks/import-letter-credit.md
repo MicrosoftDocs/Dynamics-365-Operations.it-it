@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ce0a12aff70da1ec556b69198aa5210519b6af2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 841b4b4bb3c2f98ac65491a21bb991945c9f4bc9
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834742"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193931"
 ---
 # <a name="import-letter-of-credit"></a>Importare la lettera di credito
 
@@ -128,7 +128,8 @@ Questa procedura utilizza la società dimostrativa USMF.
 12. Chiudere la pagina.
 13. Chiudere la pagina.
 
-## <a name="verify-import-letter-of-credit-status"></a>Verificare lo stato dell'importazione della lettera di credito
+## <a name="verify-import-letter-of-credit-status-and-printing"></a>Verificare e stampare lo stato dell'importazione della lettera di credito
+
 1. Passare a Gestione cassa e banche > Lettere di credito > Lettera di credito di importazione e pagamento all'importazione.
 2. Nell'elenco trovare e selezionare il record desiderato.
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053661"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193726"
 ---
 # <a name="provision-human-resources"></a>Provisioning di Human Resources
 
@@ -56,7 +56,7 @@ Per utilizzare LCS per la gestione degli ambienti Human Resources, è dapprima n
 1. Accedere a [LCS](https://lcs.dynamics.com/Logon/Index) utilizzando l'account usato per iscriversi a Human Resources.
 
    > [!NOTE]
-   > Per garantire il corretto provisioning, l'account utilizzato per eseguire il provisioning dell'ambiente Human Resources deve essere assegnato al ruolo **Amministratore di sistema** o **Personalizzatore di sistema** nell'ambiente Power Apps associato all'ambiente Human Resources. Vedere [Configurare la sicurezza degli utenti per le risorse](https://docs.microsoft.com/power-platform/admin/database-security) per ulteriori informazioni sull'assegnazione dei ruoli di sicurezza agli utenti in Power Platform.
+   > Per garantire il corretto provisioning, l'account utilizzato per eseguire il provisioning dell'ambiente Human Resources deve essere assegnato al ruolo **Amministratore di sistema** o **Personalizzatore di sistema** nell'ambiente Power Apps associato all'ambiente Human Resources. Vedere [Configurare la sicurezza degli utenti per le risorse](/power-platform/admin/database-security) per ulteriori informazioni sull'assegnazione dei ruoli di sicurezza agli utenti in Power Platform.
 
 2. Selezionare il segno più (**+**) per creare un progetto.
 

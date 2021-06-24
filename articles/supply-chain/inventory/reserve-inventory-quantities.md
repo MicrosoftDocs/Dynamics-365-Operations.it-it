@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1fcdb43f95892c541be2c31101d8f592f5d5e16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 052cb56e026fbfe5cf5f6ad5d265337d7b88dc4d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834195"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193955"
 ---
 # <a name="reserve-inventory-quantities"></a>Prenotare quantità di scorte
 
@@ -46,7 +46,7 @@ I criteri di prenotazione scorte sono impostati nella pagina **Gruppi di modelli
 
 La sezione **Criteri di inventario** contiene i criteri di prenotazione seguenti.
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Criterio di prenotazione**  | **Descrizione**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Controllo in base a data FIFO    | Se si seleziona l'opzione **Controllo in base a data FIFO**, la prenotazione delle scorte viene controllata in base alla data di ordinamento secondo il principio FIFO (First In, First Out). I batch sono prenotati in base alla prima data di entrata degli articoli secondo il principio FIFO (First In, First Out).                                                                                                                                                                                                                                                                       |

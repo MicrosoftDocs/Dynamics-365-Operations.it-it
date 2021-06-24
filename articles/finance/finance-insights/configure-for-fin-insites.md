@@ -1,8 +1,8 @@
 ---
-title: Configurazione per Informazioni finanziarie dettagliate (anteprima)
-description: In questo argomento vengono illustrati i passaggi di configurazione che consentiranno al sistema di utilizzare le funzionalità disponibili in Informazioni finanziarie dettagliate.
+title: Configurazione per Finance Insights (anteprima) - versioni fino alla 10.0.19
+description: In questo argomento vengono illustrati i passaggi di configurazione che consentiranno al sistema di utilizzare le funzionalità disponibili in Finance Insights per le versioni fino alla 10.0.19..
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941228"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186422"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Configurazione per Informazioni finanziarie dettagliate (anteprima)
+# <a name="configuration-for-finance-insights-preview"></a>Configurazione per Finance Insights (anteprima)
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,15 +30,18 @@ ms.locfileid: "5941228"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Informazioni finanziarie dettagliate combina le funzionalità di Microsoft Dynamics 365 Finance con Microsoft Dataverse, Azure e AI Builder per fornire potenti strumenti di previsione per la tua organizzazione. In questo argomento vengono illustrati i passaggi di configurazione che consentiranno al sistema di utilizzare le funzionalità disponibili in Informazioni finanziarie dettagliate.
+> [!NOTE]
+> Le seguenti procedure per l'impostazione di Finance Insights sono valide per Microsoft Dynamics 365 Finance versioni fino alla 10.0.19. 'Per impostare Finance Insight sulla versione 10.0.20 e successive, vedi [Configurazione per Finance Insights (anteprima) - Versioni superiori a 10.0.20](configure-for-fin-insites-PubPrvw.md).
+
+Finance Insights combina le funzionalità di Microsoft Dynamics 365 Finance con Microsoft Dataverse, Azure e AI Builder per fornire potenti strumenti di previsione per la tua organizzazione. In questo argomento vengono illustrati i passaggi di configurazione che consentiranno al sistema di utilizzare le funzionalità disponibili in Finance Insights.
 
 ## <a name="deploy-dynamics-365-finance"></a>Distribuire Dynamics 365 Finance
 
 Distribuisci l'ambiente seguendo questa procedura.
 
 1. In Microsoft Dynamics Lifecycle Services (LCS), crea o aggiorna un ambiente Dynamics 365 Finance. L'ambiente richiede la versione dell'app 10.0.11/Platform update 35 o successive.
-2. L'ambiente deve essere un ambiente ad alta disponibilità (HA) in Sandbox. (Questo tipo di ambiente è noto anche come ambiente Tier-2). Per altre lteriori informazioni, vedi [Pianificazione ambientale](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Se utilizzi i dati demo di Contoso, avrai bisogno di dati di esempio aggiuntivi per utilizzare le funzionalità Previsioni di pagamento del cliente, Previsioni di cassa e Previsioni di budget. 
+2. L'ambiente deve essere un ambiente ad alta disponibilità (HA) in Sandbox. (Questo tipo di ambiente è noto anche come ambiente Tier-2). Per altre informazioni, vedi [Pianificazione ambientale](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+3. Se stai configurando Finance Insights in un ambiente sandbox, potresti dover copiare i dati di produzione in tale ambiente affinché le stime funzionino. Il modello di stima utilizza più anni di dati per creare previsioni. I dati della demo di Contoso non contengono dati storici sufficienti per addestrare adeguatamente il modello di stima. 
 
 ## <a name="configure-dataverse"></a>Configura Dataverse
 
@@ -90,7 +93,7 @@ Utilizzare i seguenti passaggi per configurare Dataverse per Finance Insights.
     2. Seleziona il nome dell'utente.
     3. Copia il valore di **ID oggetto**.
 
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Utilizzare Azure Cloud Shell per configurare le risorse Data Lake di Informazioni finanziarie dettagliate
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Utilizzare Azure Cloud Shell per configurare le risorse Data Lake di Finance Insights
 
 # <a name="use-a-windows-powershell-script"></a>[Utilizzare uno script di Windows PowerShell](#tab/use-a-powershell-script)
 

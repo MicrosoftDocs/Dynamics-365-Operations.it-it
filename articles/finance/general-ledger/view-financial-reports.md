@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897286"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187796"
 ---
 # <a name="view-financial-reports"></a>Visualizzare report finanziari
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897286"
 
 In questo argomento viene descritto come visualizzare ed esplorare i report finanziari. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
 
-<a name="financial-reporting-overview"></a>Panoramica sui report finanziari
-----------------------------
+## <a name="financial-reporting-overview"></a>Panoramica sui report finanziari
 
 ## <a name="open-a-financial-report"></a>Aprire un report finanziario
 Per aprire un report, selezionare il nome del report. La prima volta che un report viene aperto, viene generato automaticamente per il mese precedente. Ad esempio, se si apre un report per la prima volta nell'agosto 2015, il report viene generato per il 31 luglio 2015. Dopo l'apertura di un report, puoi iniziare a esplorarlo eseguendo il drill-down su parti specifiche di dati e modificando le opzioni di report.
@@ -76,8 +75,7 @@ Al termine delle opzioni di stampa, fare clic su **Stampa** per continuare e per
 ## <a name="export-a-financial-report"></a>Esportare un report finanziario
 Per esportare un report finanziario, nel Riquadro azioni fare clic su **Esporta**. Il report viene esportato in Microsoft Excel e il browser chiede di aprire o salvare il file esportato. Le impostazioni di esportazione definite nella progettazione del report vengono applicate al report esportato.    
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

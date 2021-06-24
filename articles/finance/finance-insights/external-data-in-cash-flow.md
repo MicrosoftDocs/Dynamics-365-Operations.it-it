@@ -2,7 +2,7 @@
 title: Utilizzare dati esterni nelle previsioni di cassa (anteprima)
 description: In questo argomento vengono descritti i passaggi di configurazione che è necessario completare in modo che i dati esterni possano essere immessi o importati nelle previsioni di cassa.
 author: rcarlson
-ms.date: 05/01/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 66bdb8bd638859bb4fc5565e3f12a8f671addcff
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897890"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186692"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Utilizzare dati esterni nelle previsioni di cassa (anteprima)
 
@@ -39,7 +39,7 @@ Per immettere dati esterni per le previsioni di cassa, puoi utilizzare l'esperie
 
 - **ID immissione**
 - **Descrizione** (facoltativa)
-- **Nome origine esterna**: seleziona uno dei valori nell'elenco che hai definito durante la configurazione di Informazioni finanziarie dettagliate.
+- **Nome origine esterna**: seleziona uno dei valori nell'elenco che hai definito durante la configurazione di Finance Insights.
 - **Persona giuridica**
 - **Data**
 - **Importo nella valuta della transazione**
@@ -57,9 +57,5 @@ Inoltre, se è necessario spostare i dati di configurazione da un ambiente a un 
 
 - Impostazione origine esterna per previsione di cassa
 - Impostazione persona giuridica origine esterna per previsione di cassa
-
-#### <a name="privacy-notice"></a>Informativa sulla privacy
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

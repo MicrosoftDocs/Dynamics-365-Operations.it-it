@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815766"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189047"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
@@ -149,8 +149,7 @@ Le regole di allocazione costi possono essere impostate come indicato di seguito
 | CC001                                | Totale         | **Servizi HR**        |
 | CC002                                | Totale         | **Servizi finanziari** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Flusso dei costi tra centri di costo 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Flusso dei costi tra centri di costo 
 
 Per sapere come avviene il flusso dei costi tra i centri di costo dell'organizzazione, è possibile creare elementi di costo di tipo **Secondario** per ogni centro di costo. Questi elementi di costo verranno utilizzati per trasferire i saldi tra i centri di costo durante il calcolo dei costi generali.
 

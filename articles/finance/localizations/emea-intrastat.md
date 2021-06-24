@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db97d05d79a100ebdcfb5b4931b37243b77bd352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bafbb908531e003d2184409bf5d09ed5848fc474
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814996"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216789"
 ---
 # <a name="intrastat-overview"></a>Panoramica di Intrastat
 
@@ -73,7 +73,7 @@ Nella seguente tabella vengono elencati i prerequisiti per la dichiarazione Int
 </tr>
 <tr class="odd">
 <td>Gerarchia di categorie di prodotti (gerarchia di vendita, gerarchia di approvvigionamento)</td>
-<td>Assegnare i codici di voce doganale Intrastat ai nodi di categoria <strong>Codici di voce doganale</strong> nella scheda <strong>Gerarchia di categorie</strong> della pagina. Quando si assegna un codice di voce doganale a un nodo di categoria padre, il codice è applicabile a tutti i nodi di categoria figlio. I codici di voce doganale selezionati saranno disponibili nella visualizzazione <strong>Selezionato</strong> quando si seleziona un codice di voce doganale nei dettagli del prodotto rilasciato e nelle righe di ordine cliente, ordine fornitore e ordine di trasferimento.</td>
+<td>Assegnare i codici di voce doganale Intrastat ai nodi di categoria <strong>Codici di voce doganale</strong> nella scheda <strong>Gerarchia di categorie</strong> della pagina. Quando si assegna un codice di voce doganale a un nodo di categoria padre, il codice è applicabile a tutti i nodi di categoria figlio. I codici di voce doganale selezionati saranno disponibili nella visualizzazione <strong>Selezionato</strong> quando si seleziona un codice di voce doganale nei dettagli del prodotto e nelle righe di ordine cliente, ordine fornitore e ordine di trasferimento.</td>
 </tr>
 <tr class="even">
 <td>Dettagli prodotto rilasciato</td>
@@ -84,6 +84,7 @@ Nella seguente tabella vengono elencati i prerequisiti per la dichiarazione Int
 <li><strong>Paese di origine</strong> Consente di selezionare il paese predefinito in cui le merci sono state completamente ottenute o prodotto si.</li>
 <li><strong>Stato/regione o provincia di origine/destinazione</strong> Consente di selezionare lo stato predefinito/regione di destinazione per gli arrivi e il stato/regione o provincia di origine per le spedizioni.</li>
 <li><strong>Peso netto in kg</strong></li>
+<li><strong>Escludi</strong> - Abilitare questo parametro per non trasferire le transazioni con questo prodotto a Intrastat</li>
 </ul></td>
 </tr>
 <tr class="odd">

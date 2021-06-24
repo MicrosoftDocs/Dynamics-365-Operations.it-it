@@ -2,7 +2,7 @@
 title: Creare un progetto di integrazione dei dati (anteprima)
 description: Questo argomento spiega come creare un progetto di integrazione dei dati.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
-ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
+ms.openlocfilehash: 59f85c64ea7b1f539a245e08b76bd6a34797b0ca
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867449"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186470"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Creare un progetto di integrazione dei dati (anteprima)
 
@@ -66,11 +66,6 @@ Questo argomento spiega come creare un progetto di integrazione dei dati.
     2. Imposta la pianificazione appropriata per ogni progetto.
 
 > [!NOTE]
-> Se non vedi le entità richieste in CDS, vai a **Credito e riscossioni > Imposta> Informazioni finanziarie dettagliate > Parametri delle informazioni dettagliate finanziarie**, abilita la funzionalità Previsioni di pagamento del cliente e fai clic sul pulsante **Crea modello di previsione**. Quando la distribuzione del modello di intelligenza artificiale è completata (riuscita o non riuscita), le entità CDS necessarie per creare l'integrazione verranno distribuite in CDS.
-
-## <a name="privacy-notice"></a>Informativa sulla privacy
-
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
+> Se non vedi le entità richieste in CDS, vai a **Credito e riscossioni > Imposta > Finance Insights > Parametri di Finance Insights**, abilita la funzionalità Previsioni di pagamento del cliente e fai clic sul pulsante **Crea modello di previsione**. Quando la distribuzione del modello di intelligenza artificiale è completata (riuscita o non riuscita), le entità CDS necessarie per creare l'integrazione verranno distribuite in CDS.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

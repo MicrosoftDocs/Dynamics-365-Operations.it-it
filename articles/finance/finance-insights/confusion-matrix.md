@@ -2,7 +2,7 @@
 title: Risultati dei modelli di Machine Learning (anteprima)
 description: Questo argomento illustra le matrici di confusione, i problemi di classificazione e l'accuratezza nei modelli di apprendimento automatico. Lo scopo è migliorare la tua comprensione dell'accuratezza nei risultati della previsione ML.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028205"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193542"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Risultati dei modelli di Machine Learning (anteprima)
 
@@ -129,16 +129,12 @@ Per semplificare i calcoli, sono stati creati array di esempio per abbinare i va
 
 Per maggiori dettagli su come funziona questo calcolo, ecco il report di classificazione sklearn.metrics per il modello 1. I tre stati, "Puntuale", "In ritardo" e "Molto tardi", sono rappresentati dalle righe contrassegnate rispettivamente con 1, 2 e 3. La media macro è solo la media della colonna "f1-score".
 
-|           | precisione | richiamo   | f1-score |
+| &nbsp;    | precisione | richiamo   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Come mostrano questi risultati, i due modelli hanno punteggi di accuratezza macro F1 quasi identici. In questo e in molti altri casi, l'accuratezza F1 fornisce un migliore indicatore delle capacità di un modello. Per quanto riguarda l'accuratezza, l'interpretazione dei risultati richiede la comprensione di ciò che è più importante considerare nel modello.
-
-#### <a name="privacy-notice"></a>Informativa sulla privacy
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

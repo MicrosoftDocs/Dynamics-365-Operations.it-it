@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058826"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189752"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
 
@@ -42,8 +42,7 @@ Il seguente esempio viene utilizzato per illustrare i concetti descritti in ques
 |**Risorse umane**|Responsabile risorse umane (Centro)|Responsabile risorse Umane|
 
 
- <a name="departments"></a>Reparti
-------------
+##  <a name="departments"></a>Reparti
 
 Un reparto è un'unità operativa che rappresenta una categoria o un'area funzionale di un'organizzazione, responsabile di un'area specifica dell'organizzazione, ad esempio vendita o contabilità. Un reparto viene utilizzato per i report sulle aree funzionali e può avere responsabilità di profitti e perdite. Inoltre, un reparto può includere un gruppo di centri di costo. Le vendite, la contabilità e le risorse umane sono alcuni esempi di reparti in un'organizzazione.
 
@@ -96,8 +95,7 @@ Utilizzare i tipi di mansione per classificare mansioni simili in categorie. I t
 
 Utilizzare le aree di responsabilità per indicare i ruoli di lavoro, i processi e i prodotti di cui un lavoratore in una posizione di tale mansione è responsabile. Un esempio di un'area di responsabilità per una mansione denominata "Ragioniere" potrebbe essere "Reporting finanziario per il prodotto A".
 
-<a name="positions"></a>Posizioni
-----------
+## <a name="positions"></a>Posizioni
 
 Le posizioni sono un elemento importante del livello inferiore di una gerarchia organizzativa. Una posizione è una singola istanza di un processo. Ad esempio, la posizione "Manager vendite (Est") è solo una delle posizioni associate alla mansione "Manager vendite". Le posizioni esistono in un reparto e vengono assegnate ai lavoratori.
 ### <a name="position-creation-and-maintenance"></a>Creazione e gestione di posizioni

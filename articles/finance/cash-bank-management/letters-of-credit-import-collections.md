@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815934"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188466"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Lettere di credito e pagamenti all'importazione
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815934"
 
 Questo articolo fornisce informazioni generali sulle le previsioni informazioni generali sulle lettere di credito e sui pagamenti all'importazione. Entrambi i tipi di documenti bancari sono spesso utilizzati per la compravendita di merci tra paesi diversi.
 
-<a name="letters-of-credit"></a>Lettere di credito
------------------
+## <a name="letters-of-credit"></a>Lettere di credito
 
 Le lettere di credito vengono utilizzate nell'ambito delle transazioni internazionali e aiutano a garantire che i pagamenti verranno effettuati. Una lettera di credito è un contratto emesso da una banca, nel quale la banca acconsente a garantire un pagamento per conto di un acquirente, purché vengano osservate le condizioni del contratto tra l'acquirente e il venditore. Una lettera di credito è anche denominata credito documentario (DC).
 

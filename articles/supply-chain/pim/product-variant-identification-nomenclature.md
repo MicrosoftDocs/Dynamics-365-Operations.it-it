@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0ccb2ed2a143735c199c36f2da357996ad3fbff3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edab3420cbd39539358c03fe4d6b3646433f8ec5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812837"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190162"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura di nomi e numeri di varianti prodotto
 
@@ -188,8 +188,7 @@ A seconda della nomenclatura, il sistema può tentare di assegnare un numero di 
 
 Durante un passaggio del processo di configurazione viene suggerito automaticamente un valore di configurazione in base alla nomenclatura. In questa fase è possibile modificare manualmente il valore di configurazione. Quando si salva la configurazione, il sistema verifica che il valore di configurazione sia univoco. Se il valore immesso non è univoco, verrà visualizzato un messaggio di errore. Per salvare la configurazione è necessario immettere un valore univoco di configurazione.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 

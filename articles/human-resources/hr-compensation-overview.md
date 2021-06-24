@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058922"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189603"
 ---
 # <a name="compensation-plans"></a>Piani di retribuzione
 
@@ -121,8 +121,7 @@ La seguente tabella elenca le componenti del processo di retribuzione che posson
 ## <a name="process-events"></a>Eventi processo
 Gli eventi processo consentono di calcolare le informazioni sulle retribuzioni in un periodo specifico per tutti i dipendenti iscritti a uno o più piani di retribuzione fissa o variabile. È possibile eseguire ripetutamente un evento processo per effettuare il test o l'aggiornamento dei risultati retributivi calcolati.
 
-<a name="compensation-events"></a>Eventi retributivi
--------------------
+## <a name="compensation-events"></a>Eventi retributivi
 
 Ogni volta che viene eseguito un evento processo, viene creato un evento retribuzione.  Gli eventi retribuzione contengono i risultati del processo retributivo per ciascun dipendente incluso nell'evento processo.  Quando i calcoli sono corretti, è possibile caricare l'evento retribuzione per aggiornare le voci relative alla retribuzione per i dipendenti interessati dall'evento processo.
 

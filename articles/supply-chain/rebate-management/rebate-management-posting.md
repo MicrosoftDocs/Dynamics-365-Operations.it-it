@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020413"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216745"
 ---
 # <a name="rebate-management-posting-setup"></a>Configurazione della registrazione della gestione degli sconti
 
@@ -43,7 +43,7 @@ La tabella seguente descrive le impostazioni disponibili nella sezione dell'inte
 | descrizione | Immetti una descrizione del profilo. |
 | Modulo | Seleziona il tipo di sconti e royalty a cui è associato il profilo (*Cliente* o *Fornitore*). |
 | Tipo | Seleziona il tipo di profilo (*Sconto* o *Royalty*). |
-| Tipo di pagamento | <p>Questo campo determina il formato dell'output dello sconto registrato.<p><p>Quando il campo **Tipo** è impostato su *Sconto*, sono disponibili i seguenti valori:</p><ul><li>*Nessuno* - Non esiste un tipo di registrazione predefinito. Pertanto, è necessario definire il tipo quando esegui l'elaborazione.</li><li>*Paga utilizzando la contabilità fornitori* - Quando si registra lo sconto, viene creata una fattura fornitore per il fornitore della rimessa impostata sul cliente dello sconto.</li><li>*Detrazioni cliente* - Quando si registra lo sconto, viene creato un giornale di registrazione detrazioni cliente per il cliente dello sconto.</li><li>*Detrazioni cliente fattura fiscale* - Quando si registra lo sconto, viene creata una fattura a testo libero per il cliente dello sconto.</li><li>*Fondi per promozioni* - Quando si registra lo sconto, viene creato un giornale di registrazione detrazioni cliente per il cliente dello sconto.</li><li>*Report* - Quando si registra lo sconto, viene creato un giornale di registrazione detrazioni cliente per il cliente dello sconto.</li></ul><p>Quando il campo **Tipo** è impostato su *Royalty*, sono disponibili i seguenti valori:</p><ul><li>*Nessuno* - Non esiste un tipo di registrazione predefinito. Pertanto, è necessario definire il tipo quando esegui l'elaborazione.</li><li>*Paga utilizzando la contabilità fornitori* - Quando si registra lo sconto, viene creato un conto fornitore per lo sconto.</li><li>*Report* - Quando si registra lo sconto, viene creato un conto fornitore per lo sconto.</li></ul><p>Per ulteriori informazioni vedi la sezione seguente [Tipi di pagamento](#payment-types). |
+| Tipo di pagamento | <p>Questo campo determina il formato dell'output dello sconto registrato.<p><p>Quando il campo **Tipo** è impostato su *Sconto*, sono disponibili i seguenti valori:</p><ul><li>*Paga utilizzando la contabilità fornitori* - Quando si registra uno sconto per il cliente, viene creata una fattura fornitore per il fornitore della rimessa impostata sul cliente dello sconto. Quando si registra uno sconto per il cliente, viene creato un conto fornitore per lo sconto.</li><li>*Detrazioni cliente* - Quando si registra lo sconto, viene creato un giornale di registrazione detrazioni cliente per il cliente dello sconto.</li><li>*Detrazioni cliente fattura fiscale* - Quando si registra lo sconto, viene creata una fattura a testo libero per il cliente dello sconto.</li><li>*Fondi per promozioni* - Quando si registra lo sconto, viene creato un giornale di registrazione detrazioni cliente per il cliente dello sconto.</li><li>*Report* - Quando si registra lo sconto, viene creato un giornale di registrazione detrazioni cliente per il cliente dello sconto.</li></ul><p>Quando il campo **Tipo** è impostato su *Royalty*, sono disponibili i seguenti valori:</p><ul><li>*Paga utilizzando la contabilità fornitori* - Quando si registra lo sconto, viene creato un conto fornitore per lo sconto.</li><li>*Report* - Quando si registra lo sconto, viene creato un conto fornitore per lo sconto.</li></ul><p>Per ulteriori informazioni vedi la sezione seguente [Tipi di pagamento](#payment-types). |
 | Società | Seleziona la società (persona giuridica) per cui matureranno gli accantonamenti e da cui verranno pagate le richieste. |
 
 ### <a name="payment-types"></a>Tipi di pagamento

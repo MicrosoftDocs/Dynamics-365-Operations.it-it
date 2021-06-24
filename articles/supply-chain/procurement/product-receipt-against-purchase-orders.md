@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 797c5ee7a731ace8134d016272700aa9d718cf75
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 413b4c96f5ee4a3a698847ce6329773a65a712ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909182"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188319"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Entrata prodotti e ordini fornitore
 
@@ -53,8 +53,7 @@ Dopo che l'entrata prodotti è stato elaborata nell'ordine fornitore, lo stato d
 
 È possibile accedere a questa pagina dal gruppo di azioni **Ricevuta** nella pagina **Ordine fornitore**. Le informazioni nei giornali di registrazione includono informazioni dettagliate sulle dimensioni, quantità e date.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica degli ordini fornitore](purchase-order-overview.md)
 

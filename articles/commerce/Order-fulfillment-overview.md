@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 88665c70b05d9ecf8ec2641862d870d87604092f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796416"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193157"
 ---
 # <a name="store-order-fulfillment"></a>Evasione ordine del punto vendita
 
@@ -33,7 +33,7 @@ L'operazione di evasione dell'ordine presso il POS offre una singola area di lav
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Accedere all'evasione dell'ordine unificato nel POS
 
-L'evasione ordini, [ID operazione 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), può essere utilizzata per accedere all'area di lavoro per l'evasione degli ordini del POS.
+L'evasione ordini, [ID operazione 928](pos-operations.md), può essere utilizzata per accedere all'area di lavoro per l'evasione degli ordini del POS.
 
 L'operazione di evasione degli ordini non dispone di propria autorizzazione immediatamente disponibile, ma in futuro, gli utenti saranno in grado di utilizzare l'autorizzazione **Consenti recupero ordine** per richiamare l'operazione dal POS.
 
@@ -93,7 +93,7 @@ Dopo che un ordine è stato accettato, le righe possono essere selezionate e con
 
 Le distinte di prelievo possono essere stampate presso il POS per supportare i lavoratori nell'esecuzione del processo di prelievo. Una distinta di prelievo stampata può essere trasportata con il lavoratore che esegue il prelievo e mentre i prodotti vengono prelevati, l'operatore li contrassegnerà manualmente come selezionato nella distinta di prelievo.
 
-Il formato della distinta di prelievo è configurato in Commerce e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
+Il formato della distinta di prelievo è configurato in Commerce e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](receipt-templates-printing.md)
 
 Se le righe vengono selezionate e una distinta di prelievo viene stampata per le righe, queste vengono aggiornate automaticamente con stato **Prelievo**.
 
@@ -119,7 +119,7 @@ Le righe ordine possono essere imballate in qualsiasi momento dopo che la riga o
 - **Stato risultante:** Imballato o Imballato in parte
 - **Stato back office risultante:** Consegnato o Consegnato in parte
 
-Questa azione consente di contrassegnare le righe come imballate o parzialmente imballate e stampare un documento di trasporto. Un documento di trasporto può essere stampato per i prodotti che sono stati imballati insieme. Il formato del documento di trasporto è configurato in Commerce e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
+Questa azione consente di contrassegnare le righe come imballate o parzialmente imballate e stampare un documento di trasporto. Un documento di trasporto può essere stampato per i prodotti che sono stati imballati insieme. Il formato del documento di trasporto è configurato in Commerce e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](receipt-templates-printing.md)
 
 **Azione: Contrassegna come imballato**
 

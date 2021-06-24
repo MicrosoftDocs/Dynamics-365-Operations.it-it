@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835222"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189471"
 ---
 # <a name="set-up-collections"></a>Impostare la riscossione
 
@@ -40,8 +40,7 @@ In questo articolo viene descritto come impostare le funzionalità di riscossion
 
 Questi punti sono discussi in maggior dettaglio nel resto di questo argomento. 
 
-<a name="set-up-aging-period-definitions"></a>Imposta le definizioni di periodi di aging
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Imposta le definizioni di periodi di aging
 
 Imposta una definizione di periodo di aging. Impostare una definizione del periodo di aging, ovvero definire le colonne da visualizzare nelle pagine elenco **Saldi con aging**, **Attività di riscossione** e **Casi di riscossione**. Consente inoltre di definire i periodi visualizzati nella pagina **Riscossioni**. Se è stato impostato un pool di clienti, verrà utilizzata la definizione del periodo di aging per il pool. Se non è stato impostato alcun pool di clienti, verrà utilizzata la definizione del periodo di aging predefinita specificata nella pagina **Parametri contabilità clienti**. Se non è stata specificata alcuna definizione del periodo di aging predefinita, viene utilizzata la prima definizione del periodo di aging della pagina **Definizioni periodo di aging**.
 

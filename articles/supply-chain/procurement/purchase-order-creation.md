@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909158"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188247"
 ---
 # <a name="create-purchase-orders"></a>Creazione degli ordini fornitore
 
@@ -80,8 +80,7 @@ I PO possono essere configurati per richiedere che i fondi budget siano allocati
 
 Potrebbe essere necessario ritardare il completamento di un ordine fornitore. Ad esempio, si potrebbero richiedere ulteriori informazioni sui prodotti o servizi, o potrebbe essere necessario ottenere l'autorizzazione per la spesa. Esistono diversi modi per sospendere un ordine. Ad esempio, è possibile attendere per confermare l'ordine. In alternativa, se si utilizza un flusso di lavoro di gestione delle modifiche, non inviare l'ordine per l'approvazione. Se è necessario bloccare tutti gli ordini per un determinato fornitore, è anche possibile contrassegnare il fornitore come **In attesa** di elaborazione nei dati master fornitori. Esistono inoltre circostanze che potrebbero impedire l'elaborazione dell'ordine. Ad esempio, l'elaborazione potrebbe essere impedita se sono stati superati i limiti di credito, o se i fondi budget richiesti non sono disponibili.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica degli ordini fornitore](purchase-order-overview.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980951"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184024"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -289,14 +289,15 @@ La tabella seguente mostra le operazioni di magazzino e le funzionalità di gest
 | Modifica pool di lavoro nel lavoro                           | Sì | Sì                          |
 | Annulla lavoro                                        | Sì | Sì                          |
 
-
 ### <a name="production"></a>Produzione
 
-Gli scenari di produzione della gestione del magazzino non sono attualmente supportati sui carichi di lavoro dell'unità di scala, come indicato nella tabella seguente.
+La tabella seguente riepiloga gli scenari di gestione del magazzino attualmente supportati (e non supportati) sui carichi di lavoro dell'unità di scala.
 
 | Elaborazione | Hub | Carico di lavoro WES su un'unità di scala |
 |---------|-----|------------------------------|
-| <p>Tutti i processi di gestione del magazzino correlati alla produzione. Di seguito sono riportati alcuni esempi.</p><li>Rilascia in magazzino</li><li>Elaborazione di ciclo della produzione</li><li>Prelievo materie prime</li><li>Stoccaggio prodotti finiti e dichiarati finiti</li><li>Stoccaggio co-prodotti e sottoprodotti</li><li>Stoccaggio kanban</li><li>Prelievo kanban</li><li>Avvia ordine di produzione</li><li>Scarti di produzione</li><li>Ultimo pallet produzione</li><li>Registra consumo materiali</li><li>Svuota kanban</li></ul> | Sì | Nessuno |
+| Stoccaggio prodotti finiti e dichiarati finiti | Sì | Sì |
+| Stoccaggio co-prodotti e sottoprodotti | Sì | Sì |
+| <p>Tutti gli altri processi di gestione del magazzino correlati alla produzione, inclusi:</p><li>Rilascia in magazzino</li><li>Elaborazione di ciclo della produzione</li><li>Prelievo materie prime</li><li>Stoccaggio kanban</li><li>Prelievo kanban</li><li>Avvia ordine di produzione</li><li>Scarti di produzione</li><li>Ultimo pallet produzione</li><li>Registra consumo materiali</li><li>Svuota kanban</li></ul> | Sì | Nessuno |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Gestione delle unità di scala per WES
 

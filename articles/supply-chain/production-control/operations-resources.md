@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57495de069a11f2ab41c20d17cfbe87df276ef47
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 191d5aee93217af19364932a0066464b2af89794
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817895"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189278"
 ---
 # <a name="operations-resources"></a>Risorse Operations
 
@@ -29,8 +29,7 @@ ms.locfileid: "5817895"
 
 Le risorse operative eseguono le attività di un progetto o di un processo di produzione. Possono essere di diversi tipi e possono avere capacità diverse. 
 
-<a name="operations-resources"></a>Risorse Operations
---------------------
+## <a name="operations-resources"></a>Risorse Operations
 
 Le risorse operative sono i computer, gli strumenti, i lavoratori, le attrezzature, le aree fisiche o i fornitori che eseguono le attività di un progetto o di un processo di produzione. Possono essere di diversi tipi e possono essere capacità diverse.
 

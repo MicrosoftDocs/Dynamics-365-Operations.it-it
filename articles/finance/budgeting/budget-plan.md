@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822229"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188023"
 ---
 # <a name="budget-planning"></a>Pianificazione del budget
 
@@ -34,8 +34,7 @@ L'obiettivo dell'esercitazione è di fornire una visualizzazione guidata degli a
 - Utilizzo delle allocazioni per rettificare i dati del documento piano di budget
 - Modifica dei dati del documento piano di budget in Excel 
 
-<a name="prerequisites"></a>Prerequisiti 
-------------------
+## <a name="prerequisites"></a>Prerequisiti 
 
 Per questa esercitazione sarà necessario accedere all'ambiente Microsoft Dynamics 365 Finance con dati dimostrativi Contoso ed eseguire il provisioning come amministratore sull'istanza. Non utilizzare la modalità privata del browser per questo lab. Se necessario, uscire da qualsiasi altro account nel browser e accedere con le credenziali amministratore. Quando si esegue l'accesso, è **NECESSARIO** selezionare la casella di controllo "Mantieni l'accesso". In questo modo viene creato un cookie permanente attualmente necessario per l'applicazione Excel. Se si accede all'applicazione utilizzando un browser diverso da Internet Explorer, verrà richiesto di accedere all'applicazione Excel. Quando si fa clic su "Accedi" nell'applicazione Excel, verrà visualizzata una finestra popup di Internet Explorer e, una volta effettuato l'accesso, è **NECESSARIO** selezionare la casella di controllo "Mantieni l'accesso". Se, quando si fa clic su "Accedi" nell'applicazione Excel, non appare alcuna informazione, è necessario cancellare la memoria cache dei cookie di Internet Explorer.
 

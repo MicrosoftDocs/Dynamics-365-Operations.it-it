@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018388"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186788"
 ---
 # <a name="note-integration"></a>Integrazione di note
 
@@ -122,5 +122,9 @@ L'integrazione delle note include una raccolta di mappe della tabella che funzio
 | [Allegati documento fornitore](mapping-reference.md#231) | Annotazioni | Aziende che utilizzano testo normale e URL per acquisire informazioni specifiche sui fornitori (per le organizzazioni e per le persone). |
 | [Allegati documento intestazione ordine cliente](mapping-reference.md#229) | Annotazioni | Aziende che utilizzano testo normale e URL per acquisire informazioni specifiche sugli ordini di vendita. |
 | [Allegati documento intestazione ordine fornitore](mapping-reference.md#232) | Annotazioni | Aziende che utilizzano testo normale e URL per acquisire informazioni specifiche sugli ordine fornitore. |
+
+## <a name="limitations"></a>Limiti
+
+Una volta installata la soluzione per le note, non è possibile disinstallarla. 
 
 Per ulteriori informazioni, vedere [Riferimento per il mapping a doppia scrittura](mapping-reference.md).
