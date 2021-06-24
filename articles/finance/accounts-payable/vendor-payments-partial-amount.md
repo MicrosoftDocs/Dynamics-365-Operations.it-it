@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ee17aeb75e2bdc3b9c36d50914c24aa9d6218b7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841215"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189519"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Pagamenti fornitore per un importo parziale
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841215"
 
 Talvolta è possibile effettuare a un fornitore un pagamento inferiore rispetto all'importo della fattura. Questo articolo descrive le varie opzioni per gestire questa situazione. Le opzioni disponibili dipendono dai requisiti aziendali e dalla configurazione. 
 
-<a name="cash-discount-amounts"></a>Importi sconto di cassa
----------------------
+## <a name="cash-discount-amounts"></a>Importi sconto di cassa
 
 È possibile che un fornitore applichi uno sconto di cassa se il pagamento di una fattura avviene prima della data di scadenza. Si supponga ad esempio di immettere una fattura per un valore 100,00 in cui si specifica uno sconto di cassa del 2% se la fattura viene pagata entro 10 giorni. I termini della data di scadenza sono pari a 30 giorni. Se una proposta di pagamento utilizza lo sconto di cassa come criterio per selezionare una fattura e se la proposta viene effettuata il giorno della data dello sconto di cassa o prima, la fattura viene selezionata per il pagamento e il pagamento viene creato per un valore di 98,00. Uno sconto di cassa può anche essere applicato per un pagamento occasionale creato manualmente.
 

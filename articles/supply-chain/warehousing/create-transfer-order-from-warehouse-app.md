@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838372"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164848"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Creare ordini di trasferimento dall'app di magazzino
 
@@ -330,7 +330,6 @@ Gli ordini di trasferimento vengono creati senza utilizzare **Controllo data di 
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Posso usare una targa con scorte fisiche disponibili negative?
 
-La funzionalità supporta solo quantità fisiche disponibili positive. Assicurati di disporre di quantità fisiche disponibili positive a livello di magazzino e di stato delle scorte prima di assegnare targhe a un ordine di trasferimento.
-
+La funzionalità supporta solo quantità fisiche disponibili positive a livello di targa, ma è possibile avere quantità disponibili fisiche negative a livello di magazzino e inventario superiori quando si assegnano le targhe agli ordini di trasferimento.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2780edc75891d565a184135d6a915a0e6f8504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7d64729d6da5c57267d6d62274cce496888548d7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839079"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189994"
 ---
 # <a name="order-entry-deadlines"></a>Termini per registrazione ordine
 
@@ -99,8 +99,7 @@ Nella seguente tabella viene illustrato in che modo i termini per la registrazio
 
 **Nota:** Se è in vigore l'ora legale, i termini per la registrazione ordine verranno adattati di conseguenza.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Programmazioni consegna](delivery-schedules.md)
 

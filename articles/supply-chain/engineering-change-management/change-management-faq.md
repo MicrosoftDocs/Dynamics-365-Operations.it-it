@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018687"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187273"
 ---
 # <a name="engineering-change-management-faq"></a>Gestione modifiche di progettazione - Domande frequenti
 
@@ -46,7 +46,7 @@ Questa opzione è molto più semplice da gestire, perché se si desidera passare
 
 La maggior parte delle organizzazioni sceglie questa opzione perché fornisce la gestione delle versioni e delle modifiche, ma non aggiunge il sovraccarico aggiuntivo di tenere traccia della versione in ogni transazione, nell'inventario e durante la pianificazione generale.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>Quali campi vengono copiati nel modello di articolo rilasciato?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>Quali campi vengono copiati dal modello di articolo rilasciato?
 
 Quando una società di progettazione crea un prodotto di progettazione, quel prodotto viene creato come prodotto rilasciato nella società di progettazione. Il prodotto rilasciato che viene creato è basato sul *modello di articolo rilasciato* selezionato. (Il modello di articolo rilasciato è esso stesso un prodotto rilasciato esistente.) Il modello di articolo rilasciato viene utilizzato anche quando il prodotto viene rilasciato a una società operativa. In ogni caso, il modello di articolo rilasciato definisce la maggior parte dei valori di campo per il prodotto rilasciato e tali valori provengono dalla pagina **Dettagli prodotto rilasciato** associata.
 

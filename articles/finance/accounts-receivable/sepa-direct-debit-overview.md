@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835270"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188688"
 ---
 # <a name="sepa-direct-debit-overview"></a>Panoramica di addebito diretto SEPA
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835270"
 
 SEPA (Single Euro Payments Area) viene impostata dalla Commissione Europea e determina che tutti i pagamenti elettronici vengono considerati nazionali, indipendentemente dal paese in cui si trovano i singoli individui, le aziende o l'organizzazione e la banca. Non c'è differenza tra i pagamenti nazionali e quelli transfrontalieri. SEPA include i 28 stati membri dell'Unione Europea (UE) oltre all'Islanda, il Liechtenstein, la Norvegia, la Svizzera, Monaco e San Marino. SEPA consente di formare un singolo mercato per le transazioni di pagamento all'interno dell'Area Economica Europea. Infine, SEPA prevede di ridurre il numero dei formati di pagamento con cui lavorano le banche, le aziende e i singoli individui.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Qual è l'obiettivo degli addebiti diretti SEPA?
----------------------------------------
+## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Qual è l'obiettivo degli addebiti diretti SEPA?
 
 Un addebito diretto SEPA consente al creditore di prelevare denaro dal conto corrente bancario del cliente, ammesso che il cliente abbia concesso un mandato firmato al creditore. Il cliente firma un mandato che autorizza il creditore a riscuotere un pagamento e istruisce la banca del cliente a effettuare il pagamento. 
 

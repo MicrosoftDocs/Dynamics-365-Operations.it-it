@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6829f24b8efa29b39f5ed742d8ca99e09bcef01
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 4590a1c1761d72472ec681be0cc3fbd098957d42
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910355"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188514"
 ---
 # <a name="cost-objects"></a>Oggetti di costo
 
@@ -64,8 +64,7 @@ Nella seguente tabella vengono illustrate le definizioni di oggetto di costo e d
 
 **Nota:** Il parametro **Includi valore fisico** non ha alcun effetto sui calcoli precedenti.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Gruppo di dimensioni prodotto](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
 

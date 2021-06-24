@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941111"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219789"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrare l'approvvigionamento tra Supply Chain Management e Field Service
 
@@ -196,23 +196,10 @@ I seguenti modelli sono disponibili per l'integrazione dei documenti relativi ag
 
 | Gestione della supply chain | Field Service | Descrizione |
 |---|---|---|
-| Intestazione ordine fornitore V2 | msdyn\_Purchaseorders | Questa tabella contiene le colonne che rappresentano l'intestazione dell'ordine fornitore. |
-| Entità riga ordine fornitore | msdyn\_PurchaseOrderProducts | Questa tabella contiene le righe che rappresentano righe su un ordine fornitore. Il numero di prodotto viene utilizzato per la sincronizzazione. Ciò identifica il prodotto come unità di stockkeeping (SKU), comprese le dimensioni del prodotto. Per ulteriori informazioni sull'integrazione del prodotto con Dataverse, vedere [Esperienza prodotto unificata](product-mapping.md). |
-| Intestazione entrata prodotti | msdyn\_purchaseorderreceipts | Questa tabella contiene le intestazioni dell'entrata prodotti che vengono create quando un'entrata prodotti viene registrata in Supply Chain Management. |
-| Riga entrata prodotti | msdyn\_purchaseorderreceiptproducts | Questa tabella contiene le righe dell'entrata prodotti che vengono create quando un'entrata prodotti viene registrata in Supply Chain Management. |
-| Entità eliminata temporaneamente della riga ordine fornitore | msdyn\_purchaseorderproducts | Questa tabella contiene informazioni sulle righe ordine fornitore eliminate temporaneamente. Una riga dell'ordine fornitore in Supply Chain Management può essere eliminata temporaneamente solo quando l'ordine fornitore è stato confermato o approvato, se la gestione delle modifiche è attivata. La riga esiste nel database di Supply Chain Management ed è contrassegnata come **IsDeleted**. Poiché Dataverse non prevede un concetto di eliminazione temporanea, è importante che queste informazioni vengano sincronizzate con Dataverse. In questo modo, le righe eliminate temporaneamente in Supply Chain Management possono essere eliminate automaticamente da Dataverse. In questo caso, la logica per eliminare una riga in Dataverse si trova in Supply Chain Management estesa. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Intestazione ordine fornitore V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Questa tabella contiene le colonne che rappresentano l'intestazione dell'ordine fornitore. |
+| [Entità riga ordine fornitore](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Questa tabella contiene le righe che rappresentano righe su un ordine fornitore. Il numero di prodotto viene utilizzato per la sincronizzazione. Ciò identifica il prodotto come unità di stockkeeping (SKU), comprese le dimensioni del prodotto. Per ulteriori informazioni sull'integrazione del prodotto con Dataverse, vedere [Esperienza prodotto unificata](product-mapping.md). |
+| [Intestazione entrata prodotti](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Questa tabella contiene le intestazioni dell'entrata prodotti che vengono create quando un'entrata prodotti viene registrata in Supply Chain Management. |
+| [Riga entrata prodotti](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Questa tabella contiene le righe dell'entrata prodotti che vengono create quando un'entrata prodotti viene registrata in Supply Chain Management. |
+| [Entità eliminata temporaneamente della riga ordine fornitore](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Questa tabella contiene informazioni sulle righe ordine fornitore eliminate temporaneamente. Una riga dell'ordine fornitore in Supply Chain Management può essere eliminata temporaneamente solo quando l'ordine fornitore è stato confermato o approvato, se la gestione delle modifiche è attivata. La riga esiste nel database di Supply Chain Management ed è contrassegnata come **IsDeleted**. Poiché Dataverse non prevede un concetto di eliminazione temporanea, è importante che queste informazioni vengano sincronizzate con Dataverse. In questo modo, le righe eliminate temporaneamente in Supply Chain Management possono essere eliminate automaticamente da Dataverse. In questo caso, la logica per eliminare una riga in Dataverse si trova in Supply Chain Management estesa. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

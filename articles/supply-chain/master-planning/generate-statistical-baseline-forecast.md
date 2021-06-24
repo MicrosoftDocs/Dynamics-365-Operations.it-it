@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816510"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189694"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Generare una previsione di base statistica
 
@@ -67,8 +67,7 @@ Se la previsione non viene generata per un grande set di articoli, ma ad esempio
 > [!NOTE]
 > Una previsione potenzialmente piana può essere dovuta ai dati storici che devono essere relativi a un intervallo storico più lungo (un minimo di 3 periodi di tempo per selezionare gli schemi, ad esempio 3 anni con previsione mensile). Per ottenere un migliore risultato, è possibile provare a modificare la granularità dell'intervallo di tempo o aumentare tale intervallo.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Impostazione della previsione della domanda](demand-forecasting-setup.md)
 

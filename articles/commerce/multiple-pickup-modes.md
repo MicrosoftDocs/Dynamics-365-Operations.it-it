@@ -2,7 +2,7 @@
 title: Abilitare più modalità di consegna ritiro per gli ordini cliente
 description: Questo argomento spiega la funzionalità in Microsoft Dynamics 365 Commerce che consente di creare ordini cliente per il ritiro in un negozio.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020653"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216769"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Abilitare più modalità di consegna ritiro per gli ordini cliente
 
@@ -38,7 +38,7 @@ Dopo aver attivato la funzionalità **Supporto per più modalità di consegna ri
 
 I campi **Modalità di consegna trasporto** e **Modalità di consegna elettronica** e l'opzione **Mostra solo le opzioni della modalità corriere per gli ordini di spedizione**, sono state riposizionate in questa scheda dettaglio.
 
-Prima di configurare modalità di consegna ritiro aggiuntive, è necessario definire le modalità di consegna. Nella pagina **Modalità di consegna** di Commerce headquarters, aggiungere le modalità di consegna da considerare modalità di consegna ritiro. Assicurarsi che tutta la configurazione sia stata completata. Ad esempio, assicurarsi che la modalità di consegna sia collegata ai canali e agli articoli appropriati. Al termine, eseguire il processo **Esegui modalità di consegna** per creare le relazioni tra la modalità di consegna, i canali e gli articoli. Al termine dell'esecuzione del processo, aprire la pagina **Programma di distribuzione** in Commerce headquarters ed eseguire il processo di distribuzione **1120** per garantire che i database dei canali di Commerce pertinenti siano aggiornati con la nuova configurazione della modalità di consegna.
+Prima di configurare modalità di consegna ritiro aggiuntive, è necessario definire le modalità di consegna. Nella pagina **Modalità di consegna** di Commerce headquarters, aggiungere le modalità di consegna da considerare modalità di consegna ritiro. Assicurarsi che tutta la configurazione sia stata completata. Ad esempio, se si offre il ritiro dal piano strada come opzione di consegna per i tuoi acquirenti online per determinati punti vendita, occorre creare una nuova modalità di consegna a questo scopo. È possibile creare questa modalità di consegna utilizzando "ritiro dal piano strada" come descrizione. Quindi occorrerà accertarsi che la modalità di consegna "ritiro dal piano strada" sia mappata a tutti i canali Commerce in grado di offrirla, inclusi gli store online che possono offrire questa opzione e i singoli canali punto vendita che offriranno questo metodo di evasione. Anche le modalità di consegna devono essere collegate ai prodotti. In questo esempio, se alcuni prodotti non possono essere evasi utilizzando il "ritiro dal piano strada", occorre assicurarsi che tali articoli siano esclusi. Una volta completata l'aggiunta di nuove modalità di consegna, eseguire il processo **Elabora modalità di consegna** per creare le relazioni tra la modalità di consegna, i canali e gli articoli. Al termine dell'esecuzione del processo, aprire la pagina **Programma di distribuzione** in Commerce Headquarters ed eseguire il processo di distribuzione **1120** per garantire che i database dei canali di Commerce pertinenti siano aggiornati con la nuova configurazione della modalità di consegna.
 
 ![Esempio di configurazione della modalità di consegna per il ritiro al piano strada](media/pickupmodes.png)
 

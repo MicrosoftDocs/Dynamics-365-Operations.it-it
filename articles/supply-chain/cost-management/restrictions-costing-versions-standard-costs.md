@@ -16,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdbe74f2f71d0fbd3c237cceb6b184747636e9a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d9d828e2413a20c4e61d162a31d3c2ed2b18718b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821491"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187676"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restrizioni per le versioni di determinazione costi per i costi standard
 
@@ -39,8 +39,7 @@ Le restrizioni seguenti aiutano a garantire la conformità ai principi di determ
 
 I dati relativi al costo dell'articolo per i costi standard possono essere copiati in un'altra versione di determinazione costi contenente costi standard o pianificati. Tali dati per i costi pianificati tuttavia non potranno essere copiati in una versione di determinazione costi contenente costi standard, in quanto le restrizioni indicate in precedenza in questo argomento non sono applicabili ai costi pianificati.
 
-<a name="related-topics"></a>Argomenti correlati
---------
+## <a name="related-topics"></a>Argomenti correlati
 
 [Panoramica versioni di determinazione costi](costing-versions.md)
 

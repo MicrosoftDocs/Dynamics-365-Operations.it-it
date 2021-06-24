@@ -2,7 +2,7 @@
 title: Caricare i video
 description: In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799207"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224540"
 ---
 # <a name="upload-videos"></a>Caricare i video
 
@@ -35,7 +35,7 @@ La libreria multimediale Creazione di siti Web Commerce consente di caricare i v
 Quando si carica un video, è possibile specificare le seguenti informazioni.
 
 - **Titolo, Descrizione, parole chiave**: i metadati del video.
-- **Genera automaticamente sottotitoli**: specifica se i sottotitoli devono essere generati automaticamente per il video.
+- **Genera automaticamente sottotitoli**: specifica se i sottotitoli devono essere generati automaticamente per il video (è supportata solo la lingua inglese). 
 - **Sottotitolo**: specifica i sottotitoli da utilizzare.
 - **Audio normale**: specifica la traccia audio normale da utilizzare.
 - **Anteprima**: specifica l'anteprima per il video. Se non specificata, verrà generata automaticamente.

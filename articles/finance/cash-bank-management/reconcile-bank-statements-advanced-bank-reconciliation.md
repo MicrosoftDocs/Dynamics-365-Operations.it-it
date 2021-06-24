@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835006"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188592"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Riconciliare rendiconti bancari utilizzando la riconciliazione estratti conto avanzata
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835006"
 
 La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Dynamics 365 Finance. In questo argomento viene descritto il processo di riconciliazione.  
 
-<a name="import-an-electronic-bank-statement"></a>Importare un rendiconto bancario elettronico
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Importare un rendiconto bancario elettronico
 
 Si importano i rendiconti bancari utilizzando l'azione **Importa rendiconto** nella pagina **Rendiconti bancari**. Sul rendiconto bancario, il conto bancario è identificato tramite una combinazione di valori che vengono impostati nei dettagli del conto bancario. Questi valori comprendono il nome della banca, il numero di conto bancario, il numero di registrazione, il codice SWIFT (Society for Worldwide Interbank Financial Telecommunication) e il numero IBAN (International Bank Account Number). 
 

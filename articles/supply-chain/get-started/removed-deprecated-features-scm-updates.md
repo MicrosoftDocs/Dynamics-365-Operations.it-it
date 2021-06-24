@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947546"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193232"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management
 
@@ -38,9 +38,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="job-card-device"></a>Dispositivo schede processo
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
-| **Motivo del deprecamento/rimozione** | Il [dispositivo scheda processo](../production-control/config-job-card-device.md) viene sostituito dalla nuova [interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md). |
+| **Motivo della deprecazione/rimozione** | Il [dispositivo scheda processo](../production-control/config-job-card-device.md) viene sostituito dalla nuova [interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md). |
 | **Sostituita da un'altra funzionalità?**   | Sì, il [dispositivo scheda processo](../production-control/config-job-card-device.md) viene sostituito dalla nuova [interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md). |
 | **Aree del prodotto interessate** | Supply Chain Management - controllo della produzione |
 | **Opzione di distribuzione** | Cloud e locale |
@@ -50,9 +50,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations- Magazzino (l'app di magazzino)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | A partire da aprile 2021, *Dynamics 365 for Finance and Operations - Magazzino* (l'app di magazzino) è obsoleta e non sarà supportata dopo aprile 2022. È ora sostituita dall'*App per dispositivi mobili Gestione magazzino*, rilasciata con la versione 10.0.17 di Supply Chain Management. La nuova app è una sostituzione completa ma utilizza lo stesso framework sottostante, il che semplifica la migrazione. Se necessario, le due app possono essere utilizzate contemporaneamente per aiutare gli utenti ad adattarsi gradualmente mentre imparano a utilizzare la nuova app.<br><br>Per ulteriori informazioni sulla nuova app per dispositivi mobili Gestione magazzino vedi [Applicazione per dispositivi mobili per la gestione del magazzino](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md). |
+| **Motivo della deprecazione/rimozione** | A partire da aprile 2021, *Dynamics 365 for Finance and Operations - Magazzino* (l'app di magazzino) è obsoleta e non sarà supportata dopo aprile 2022. È ora sostituita dall'*App per dispositivi mobili Gestione magazzino*, rilasciata con la versione 10.0.17 di Supply Chain Management. La nuova app è una sostituzione completa ma utilizza lo stesso framework sottostante, il che semplifica la migrazione. Se necessario, le due app possono essere utilizzate contemporaneamente per aiutare gli utenti ad adattarsi gradualmente mentre imparano a utilizzare la nuova app.<br><br>Per ulteriori informazioni sulla nuova app per dispositivi mobili Gestione magazzino vedi [Applicazione per dispositivi mobili per la gestione del magazzino](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md). |
 | **Sostituita da un'altra funzionalità?**   | Sì, sostituita dalla nuova app per dispositivi mobili Gestione magazzino. |
 | **Aree del prodotto interessate**         | Supply Chain Management - app di magazzino |
 | **Opzione di distribuzione**              | Cloud e locale |
@@ -62,9 +62,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Il supporto di Internet Explorer 11 per Dynamics 365 è deprecato
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
+| **Motivo della deprecazione/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
 | **Sostituita da un'altra funzionalità?**   | Consigliamo ai clienti di passare a Microsoft Edge.|
 | **Aree del prodotto interessate**         | Tutti i prodotti Dynamics 365 |
 | **Opzione di distribuzione**              | Tutti|
@@ -72,9 +72,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Utilizzare il motore di pianificazione generale di Supply Chain Management incorporato per gli scenari di produzione
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Per migliorare le prestazioni e ridurre al minimo il carico del database SQL durante le esecuzioni di pianificazione generale, il motore di pianificazione generale di Supply Chain Management incorporato viene sostituito dall'ottimizzazione pianificazione. L'ottimizzazione di pianificazione consente le esecuzioni di pianificazione rapide anche durante l'orario di ufficio. I pianificatori possono in questo modo rispondere immediatamente ai cambiamenti nella domanda e nei parametri di pianificazione. |
+| **Motivo della deprecazione/rimozione** | Per migliorare le prestazioni e ridurre al minimo il carico del database SQL durante le esecuzioni di pianificazione generale, il motore di pianificazione generale di Supply Chain Management incorporato viene sostituito dall'ottimizzazione pianificazione. L'ottimizzazione di pianificazione consente le esecuzioni di pianificazione rapide anche durante l'orario di ufficio. I pianificatori possono in questo modo rispondere immediatamente ai cambiamenti nella domanda e nei parametri di pianificazione. |
 | **Sostituita da un'altra funzionalità?**   | Sì, l'ottimizzazione di pianificazione sostituirà l'attuale motore di pianificazione generale di Supply Chain Management incorporato. |
 | **Aree del prodotto interessate**         | Supply Chain Management - Pianificazione master |
 | **Opzione di distribuzione**              | Solo cloud. L'ottimizzazione di pianificazione non è supportata con le distribuzioni locali. |
@@ -84,9 +84,9 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Utilizzare il motore di pianificazione generale di Supply Chain Management incorporato per gli scenari di distribuzione
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Per migliorare le prestazioni e ridurre al minimo il carico del database SQL durante le esecuzioni di pianificazione generale, il motore di pianificazione generale di Supply Chain Management incorporato viene sostituito dall'ottimizzazione pianificazione. L'ottimizzazione di pianificazione consente le esecuzioni di pianificazione rapide anche durante l'orario di ufficio. I pianificatori possono in questo modo rispondere immediatamente ai cambiamenti nella domanda e nei parametri di pianificazione. |
+| **Motivo della deprecazione/rimozione** | Per migliorare le prestazioni e ridurre al minimo il carico del database SQL durante le esecuzioni di pianificazione generale, il motore di pianificazione generale di Supply Chain Management incorporato viene sostituito dall'ottimizzazione pianificazione. L'ottimizzazione di pianificazione consente le esecuzioni di pianificazione rapide anche durante l'orario di ufficio. I pianificatori possono in questo modo rispondere immediatamente ai cambiamenti nella domanda e nei parametri di pianificazione. |
 | **Sostituita da un'altra funzionalità?**   | Sì, l'ottimizzazione di pianificazione sostituirà l'attuale motore di pianificazione generale di Supply Chain Management incorporato. |
 | **Aree del prodotto interessate**         | Supply Chain Management - Pianificazione master |
 | **Opzione di distribuzione**              | Solo cloud. L'ottimizzazione di pianificazione non è supportata con le distribuzioni locali. |

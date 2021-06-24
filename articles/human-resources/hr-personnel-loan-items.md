@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4109762a2db3114ad66882092d6729dd9b08364
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052866"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190210"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Gestire gli articoli affidati ai lavoratori
 
@@ -41,14 +41,12 @@ I dipendenti possono visualizzare i record degli articoli che sono stati presta
 
 I responsabili possono visualizzare gli articoli prestati per i propri subordinati diretti. Può anche essere concessa l'autorizzazione per aggiungere nuovi articoli in prestito per conto dei relativi dipendenti.
 
- <a name="account-for-lost-or-misplaced-loan-items"></a>Conto per articoli prestito spostati o andati perduti
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a>Conto per articoli prestito spostati o andati perduti
 
 Se un articolo viene non correttamente collocato o danneggiato, immettere una restituzione fittizia. Successivamente sarà possibile eliminare l'articolo oppure mantenerlo della panoramica e modificare la relativa descrizione per segnalare che non è disponibile.
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Risorse umane](index.md)
 

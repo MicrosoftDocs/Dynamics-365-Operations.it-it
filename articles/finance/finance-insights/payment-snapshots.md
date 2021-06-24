@@ -2,7 +2,7 @@
 title: Panoramica degli snapshot (anteprima)
 description: Questo argomento descrive la funzionalità di snapshot, che consente di salvare una previsione di cassa per l'analisi o il confronto con i valori effettivi in un secondo momento. Quando si genera una previsione di cassa, è possibile salvarla come "snapshot". Puoi quindi utilizzare tali snapshot per modificare i conti inclusi nella previsione o confrontare la previsione nello snapshot con i valori effettivi.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 593d6fa8efdecf1b64ef802e6861783d6f85489c
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827244"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186592"
 ---
 # <a name="snapshots-overview-preview"></a>Panoramica degli snapshot (anteprima)
 
@@ -42,9 +42,5 @@ I flussi di cassa in entrata e in uscita negli snapshot possono essere modificat
 Per confrontare più snapshot, seleziona **Confronta snapshot**. Puoi confrontare due snapshot alla volta. Seleziona i due snapshot da confrontare, quindi seleziona **OK**. La pagina **Confronta snapshot** mostrerà un confronto degli snapshot selezionati. Il grafico nella sezione superiore della pagina mostra un confronto dei flussi di cassa in entrata, in uscita e dei saldi bancari nei periodi sovrapposti tra i due snapshot. La griglia nella sezione inferiore mostra un confronto dettagliato delle due previsioni per ciascun importo di liquidità. La colonna **Varianza** nella griglia mostra la differenza tra i saldi in un periodo.
 
 Per confrontare i risultati finanziari effettivi con una previsione salvata come snapshot, seleziona **Confronta con i valori effettivi**. La pagina **Confronta snapshot** mostrerà un confronto tra gli importi effettivi e la previsione. Il grafico nella sezione superiore della pagina mostra un confronto dei flussi di cassa in entrata, in uscita e dei saldi bancari nei periodi sovrapposti tra i due snapshot. La griglia nella sezione inferiore mostra un confronto dettagliato dei saldi effettivi per periodo e il saldo previsto per ciascun importo di liquidità. La colonna **Varianza** nella griglia mostra la differenza tra il saldo effettivo in un periodo e il saldo previsto.
-
-#### <a name="privacy-notice"></a>Informativa sulla privacy
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831244"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189946"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Rifornimento con kanban di prelievo
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831244"
 Questo argomento descrive come viene utilizzato il kanban di prelievo per il rifornimento di materiale per le attività di produzione.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Flusso di lavoro per il rifornimento di materiale che utilizza il kanban di prelievo
--------------------------------------------------------------------
 
 Il kanban di prelievo può essere utilizzato per spostare un kanban di un singolo articolo tra magazzini e le ubicazioni di produzione in cui il materiale viene consumato. Il kanban di prelievo supporta a una soluzione basata su pull per il rifornimento di materiale, in cui un segnale pull è necessario per attivare l'offerta per una domanda specifica. 
 

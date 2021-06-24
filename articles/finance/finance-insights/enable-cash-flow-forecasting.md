@@ -1,8 +1,8 @@
 ---
 title: Abilitare la previsione di cassa (anteprima)
-description: Questo argomento spiega come attivare la funzionalità Previsioni di cassa in Informazioni finanziarie dettagliate .
+description: Questo argomento spiega come attivare la funzionalità Previsioni di cassa in Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818730"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222560"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Abilitare la previsione di cassa (anteprima)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento spiega come attivare la funzionalità Previsioni di cassa in Informazioni finanziarie dettagliate .
+Questo argomento spiega come attivare la funzionalità Previsioni di cassa in Finance Insights.
 
 > [!NOTE]
 > Per utilizzare le previsioni di pagamento nel flusso di cassa, devi configurare la funzionalità Previsioni di pagamento del cliente come descritto in [Abilitare le previsioni di pagamento dei clienti](enable-cust-paymnt-prediction.md).
@@ -37,7 +37,7 @@ Questo argomento spiega come attivare la funzionalità Previsioni di cassa in In
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > Se la tua distribuzione di Microsoft Dynamics 365 Finance è una distribuzione di Service Fabric, puoi saltare questo passaggio. Il team di Informazioni finanziarie dettagliate dovrebbe aver già attivato la versione di anteprima per te. Se non vedi le funzionalità nell'area di lavoro **Gestione funzionalità** o se si verificano problemi quando tenti di attivarle, contatta  <fiap@microsoft.com>.
+    > Ignora questo passaggio se stai usando la versione 10.0.20 o successiva o una distribuzione di Service Fabric. Il team di Finance Insights dovrebbe aver già attivato la versione di anteprima per te. Se non vedi la funzionalità nell'area di lavoro **Gestione funzionalità** o se si verificano problemi quando tenti di attivarle, contatta <fiap@microsoft.com>.
   
 2. Apri l'area di lavoro **Gestione funzionalità** e segui questi passaggi:
 
@@ -54,16 +54,11 @@ Questo argomento spiega come attivare la funzionalità Previsioni di cassa in In
     > [!NOTE]
     > Se i conti di liquidità non sono configurati, il flusso di cassa non può essere generato.
 
-4. Vai a **Gestione cassa e banche \> Imposta \> Informazioni finanziarie dettagliate (anteprima) \> Previsioni di cassa (anteprima)** e segui questi passaggi:
+4. Vai a **Gestione cassa e banche \> Imposta \> Finance Insights (anteprima) \> Previsioni di cassa (anteprima)** e segui questi passaggi:
 
     1. Nella scheda **Previsione di cassa**, seleziona **Abilita funzionalità**.
     2. Seleziona **Crea modello di previsione**.
 
 Per ulteriori informazioni sulla funzionalità di previsione di cassa, vedi [Previsione di cassa](cash-flow-forecast-intro.md).
-
-## <a name="privacy-notice"></a>Informativa sulla privacy
-
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

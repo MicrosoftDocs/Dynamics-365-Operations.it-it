@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792149"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193284"
 ---
 # <a name="ratings-and-reviews-modules"></a>Moduli Valutazioni e recensioni
 
@@ -54,7 +54,11 @@ Nella figura seguente viene illustrato come la finestra di dialogo **Aggiungi mo
 
 Il modulo Scrivere una recensione include un pulsante **Scrivi una recensione** che consente agli utenti di accedere, assegnare una valutazione e scrivere la recensione di un prodotto. Questo modulo consente inoltre agli utenti di modificare una valutazione o una recensione creata precedentemente. Questo modulo viene in genere visualizzato sopra i moduli Istogramma valutazioni ed Elenco recensioni prodotti in una pagina dettagli prodotto.
 Nella seguente figura è illustrata la finestra di dialogo **Scrivi una recensione** che viene visualizzata quando un cliente seleziona **Scrivi una recensione**. Il cliente può utilizzare questa finestra di dialogo per inviare una valutazione e una recensione.
-![Finestra di dialogo Scrivi una recensione](media/rnr-eCommerce-write-review-module.png) Nella tabella seguente viene illustrata la proprietà del modulo Scrivere una recensione che deve essere configurata nello strumento di creazione.
+
+![Finestra di dialogo Scrivi una recensione](media/rnr-eCommerce-write-review-module.png)
+
+Nella tabella seguente viene illustrata la proprietà del modulo Scrivere una recensione che deve essere configurata nello strumento di creazione.
+
 | Nome proprietà | Valore        | Descrizione della proprietà                 |
 |---------------|--------------|--------------------------------------|
 | Nome          | Scrivi recensione | Il nome del modulo Scrivere una recensione. |

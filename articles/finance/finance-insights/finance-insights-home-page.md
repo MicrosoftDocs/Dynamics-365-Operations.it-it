@@ -2,7 +2,7 @@
 title: Home page informazioni dettagliate finanziarie (anteprima)
 description: Informazioni dettagliate finanziarie fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti.
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6086991"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222512"
 ---
 # <a name="finance-insights-home-page-preview"></a>Home page informazioni dettagliate finanziarie (anteprima)
 
@@ -35,15 +35,15 @@ Le funzionalità di anteprima possono e devono essere attivate solo negli ambien
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Questa sezione elenca i requisiti per l'utilizzo di Informazioni finanziarie dettagliate. Ove possibile, vengono forniti collegamenti a fonti di informazioni aggiuntive.
+Questa sezione elenca i requisiti per l'utilizzo di Finance Insights. Ove possibile, vengono forniti collegamenti a fonti di informazioni aggiuntive.
 
 ### <a name="legal-requirements"></a>Requisiti legali
 
-Per candidarti al programma di anteprima, compila il [contratto per l'anteprima di Informazioni finanziarie dettagliate per Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
+Per candidarti al programma di anteprima, compila il [contratto per l'anteprima di Finance Insights per Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
 
 ### <a name="system-requirements"></a>Requisiti di sistema
 
-È necessario un ambiente sandbox di livello 2 (multi-box) per visualizzare in anteprima Informazioni finanziarie dettagliate. Per informazioni di background sugli ambienti, vedere [Pianificazione ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+È necessario un ambiente sandbox di livello 2 (multi-box) per visualizzare in anteprima Finance Insights. Per informazioni di background sugli ambienti, vedere [Pianificazione ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Requisiti di versione
 
@@ -68,13 +68,15 @@ La conoscenza del processo di creazione e gestione delle risorse in Azure, Micro
 
 ## <a name="configure-finance-insights"></a>Configurare le informazioni dettagliate finanziarie
 
-È necessario completare alcuni passaggi di configurazione prima di poter utilizzare Informazioni finanziarie dettagliate. Per ulteriori informazioni su come configurare Informazioni finanziarie dettagliate, vedi [Configurazione per Informazioni finanziarie dettagliate](configure-for-fin-insites.md).
+È necessario completare alcuni passaggi di configurazione prima di poter utilizzare Finance Insights. Per ulteriori informazioni sulla configurazione di Finance Insights, vedere.
+  - Per le versioni fino alla 10.0.19: [Configurazione per Finance Insights - versioni fino alla 10.0.19](configure-for-fin-insites.md).
+  - Per le versioni 10.0.20 e successive: [Configurazione per Finance Insights (anteprima) - versioni 10.0.20 e successive](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Creare un progetto di integrazione dei dati
 
 Dovrai creare un progetto di integrazione di dati in modo da creare un flusso di dati generati dal modello di apprendimento automatico in Dynamics 365 Finance. Per i passaggi per creare tale progetto, vedi [Crea un progetto di integrazione dei dati](create-data-integrate-project.md).
 
-## <a name="enable-finance-insights-capabilities"></a>Abilitare le funzionalità di Informazioni finanziarie dettagliate
+## <a name="enable-finance-insights-capabilities"></a>Abilitare le funzionalità di Finance Insights
 
 Dopo aver completato i passaggi di configurazione e configurato i dati demo, è necessario attivare e configurare ogni funzionalità che prevedi di utilizzare: previsioni di pagamento del cliente, previsione di cassa e proposte di budget.
 
@@ -84,16 +86,13 @@ Se utilizzi i dati dimostrativi per testare le previsioni di pagamento dei clien
 Per abilitare le previsioni di pagamento del cliente, è necessario completare una serie di passaggi per creare un modello di apprendimento automatico che utilizza i dati della tua organizzazione per generare previsioni su quando è probabile che i clienti paghino le fatture in sospeso e quando è probabile che vengano pagate fatture specifiche. Per ulteriori informazioni e per i passaggi specifici da completare, vedi [Abilitare le previsioni di pagamento dei clienti](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Abilitare la previsione di cassa
-Per abilitare la previsione di cassa, è necessario completare una serie di passaggi per creare un modello di apprendimento automatico che utilizzi i dati dell'organizzazione per generare previsioni di cassa. Per ulteriori informazioni e per i passaggi specifici da completare, vedi [Abilitare le previsioni di cassa](enable-cash-flow-forecasting.md) 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Configurare e utilizzare la previsione di cassa
-Per informazioni su come configurare e utilizzare le previsioni di cassa, vedi [Abilitare la previsione di cassa](enable-cash-flow-forecasting.md). Per ulteriori informazioni su come utilizzare questa funzionalità, vedi [Previsione di cassa](cash-flow-forecast-intro.md).
+Per abilitare la previsione di cassa, è necessario completare una serie di passaggi per creare un modello di apprendimento automatico che utilizzi i dati dell'organizzazione per generare previsioni di cassa. Per ulteriori informazioni e per i passaggi specifici da completare, vedi [Abilitare le previsioni di cassa](enable-cash-flow-forecasting.md).
 
 ### <a name="enable-budget-proposals"></a>Abilitare proposte di budget
 
 La funzione Proposte di budget utilizza un modello di apprendimento automatico insieme ai dati storici della tua organizzazione per generare una proposta di budget. La proposta generata può aiutarti a iniziare un processo di definizione del budget più efficace ed efficiente di un processo manuale. Per i passaggi specifici per abilitare questa funzionalità, vedi [Abilitare proposte di budget](enable-budget-proposal.md). 
 
-## <a name="using-finance-insights-features"></a>Utilizzo delle funzionalità di Informazioni finanziarie dettagliate
+## <a name="using-finance-insights-features"></a>Utilizzo delle funzionalità di Finance Insights
 
 ### <a name="using-customer-payment-predictions"></a>Utilizzo delle previsioni di pagamento del cliente
 
@@ -111,14 +110,12 @@ La funzionalità di previsione di cassa può aiutarti a stimare più accuratamen
 
 - Per conoscere le nuove funzionalità nelle previsioni di cassa, vedi [Previsione di cassa](cash-flow-forecast-intro.md).
 - Per informazioni sull'importazione di dati esterni da includere nella previsione di cassa qui, vedi [Utilizzare dati esterni nelle previsioni di cassa](external-data-in-cash-flow.md). 
-- Per informazioni su come utilizzare un modello di intelligenza artificiale per prevedere il flusso di cassa a lungo termine, vedi [Panoramica delle previsioni di cassa](cash-position.md).
+- Per informazioni su come utilizzare un modello di intelligenza artificiale per prevedere il flusso di cassa a breve termine, vedi [Posizione di cassa](cash-position.md).
 - Per informazioni sul salvataggio delle posizioni dei flussi di cassa e delle previsioni di cassa come snapshot e per confrontare uno snapshot con i valori effettivi, vedi [Panoramica degli snapshot](payment-snapshots.md).
 
 ### <a name="using-budget-proposal"></a>Utilizzo delle proposte di budget
 
 Per informazioni su come accelerare la creazione di un budget, vedi [Proposte di budget](budget-proposals.md). 
-
-Dati dimostrativi per una proposta di budget:
 
 ## <a name="feedback-and-support"></a>Feedback e supporto
 

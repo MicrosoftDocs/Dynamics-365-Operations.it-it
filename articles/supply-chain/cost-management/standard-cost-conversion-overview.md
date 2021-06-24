@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdcb45918b404f8a47f27bcea7c02a8397c9336f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 236743277a95b8a1170ca05f93106575ea1cc8e4
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821443"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187604"
 ---
 # <a name="standard-cost-conversion-overview"></a>Panoramica sulla conversione in costo standard
 
@@ -92,8 +92,7 @@ Il report **Rendiconto analisi scostamento** consente di analizzare lo scostamen
 -   Analizzare i movimenti di scorte retrodatati. Utilizzare il report **Valore inventario** per visualizzare i movimenti delle scorte retrodatati immessi dopo la conversione. La Data iniziale e la Data finale per il report devono corrispondere alla data di inizio della transizione e alla data di conversione, meno un giorno. I criteri di selezione del report devono dare come risultato gli articoli convertiti. Nel report sono visualizzati i movimenti delle scorte effettuati a costo standard durante il periodo di transizione.
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Prerequisiti per la conversione in costo standard](prerequisites-standard-cost-conversion.md)
 

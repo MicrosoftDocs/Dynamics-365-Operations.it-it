@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4b38fd137e6479493da79d4b62d0111b502a632
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835486"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189495"
 ---
 # <a name="vendor-posting-profiles"></a>Profili registrazione fornitori
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835486"
 
 I profili di registrazione fornitore controllano la registrazione delle transazioni fornitore nella contabilità generale.
 
-<a name="vendor-posting-profiles"></a>Profili registrazione fornitori
------------------------
+## <a name="vendor-posting-profiles"></a>Profili registrazione fornitori
 
 I profili registrazione del fornitore consentono di assegnare i conti CoGe e le impostazioni del documento a tutti i fornitori, a un gruppo di fornitori o a un singolo fornitore. Queste impostazioni verranno utilizzate quando si creano ordini fornitore, fatture fornitore e pagamenti in contanti. Per alcune transazioni, è possibile selezionare un profilo registrazione diverso a cui verrà accordata precedenza sui profili registrazione impostati per le transazioni in questa pagina. Il profilo di registrazione predefinito viene definito nella scheda dettaglio **Contabilità generale e IVA** nella pagina **Parametri contabilità fornitori**. Il profilo di registrazione predefinito verrà incluso automaticamente nell'intestazione di nuovi documenti in cui è possibile modificarlo in un profilo registrazione diverso se necessario.
 

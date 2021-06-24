@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821987"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187870"
 ---
 # <a name="audit-policy-rules"></a>Regole dei criteri di controllo
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821987"
 
 È possibile utilizzare i criteri di controllo per valutare le note spese, le fatture fornitore e gli ordini fornitore per assicurare che siano conformi alle regole dei criteri create. Tutte le regole associate ai criteri di controllo vengono eseguite in modalità batch in base a una programmazione specificata.  Ciascuna regola dei criteri è un'istanza di un tipo di regola dei criteri. Può essere attiva solo una regola dei criteri per volta per ciascun tipo di regola dei criteri. 
 
-<a name="queries-and-query-types"></a>Query e tipi di query
------------------------
+## <a name="queries-and-query-types"></a>Query e tipi di query
 
 Quando si crea una regola dei criteri di controllo, è necessario prima selezionare un tipo di regola dei criteri. Il tipo di regola dei criteri consente di specificare la struttura a oggetti applicativi (AOT) da utilizzare come punto di partenza per la creazione della regola dei criteri. Consente inoltre di specificare il tipo di query da utilizzare per la regola dei criteri. La query determina il documento di origine che valuta la regola dei criteri. Nella query vengono inoltre specificati i campi nel documento di origine che identificano la persona giuridica e la data da utilizzare quando i documenti vengono selezionati per il controllo. Il tipo di query gestisce i campi predefiniti nella pagina di query e nella pagina Regola dei criteri di controllo. Nella seguente tabella vengono visualizzati i tipi di query disponibili per le regole dei criteri di controllo.
 
@@ -91,8 +90,7 @@ Tutte le regole dei criteri per determinati criteri di controllo condividono gli
 
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Casi e violazioni dei criteri di controllo](audit-policy-violations-cases.md)
 [Definire i criteri di controllo per i documenti di origine](tasks/define-audit-policies-source-documents.md)
