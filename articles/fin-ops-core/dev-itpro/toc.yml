@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform update 10.0.18 (maggio 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: Platform update 10.0.17 (aprile 2021)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Rendere disponibile l'archivio entità come Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Modificare i dati in Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Operazioni di spostamento del database
           items:
             - name: Panoramica

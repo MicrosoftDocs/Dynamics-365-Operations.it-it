@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (maggio 2021)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17 (aprile 2021)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -238,7 +236,7 @@
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Dashboard di gestione utilizzo
                       href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Introduzione
+                    - name: Attività iniziali
                       items:
                         - name: Introduzione all'amministrazione dei servizi per la fatturazione elettronica
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
@@ -601,8 +599,22 @@
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Utilizzare il pacchetto di contenuti per la creazione di report in Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Utilizzare l'area di lavoro di controllo costi per l'applicazione mobile Finance and Operations
+            - name: Utilizzare l'area di lavoro di controllo costi per l'applicazione per dispositivi mobili Finance and Operations
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Contabilità inventario globale
+          items:
+            - name: Home page di Contabilità inventario globale
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Introduzione a Contabilità inventario globale
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: Documenti aziendali supportati da Contabilità inventario globale
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: Abilitare Power BI per Contabilità inventario globale
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Convenzioni
+              href: global-inventory-accounting/conventions.md
+            - name: Libro contabile di Contabilità inventario globale
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Gestione costi
           items:
             - name: Home page gestione dei costi
@@ -873,6 +885,12 @@
               items:
                 - name: Linguaggio delle formule
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Tipi di dati supportati per le formule per report elettronici
+                  items:
+                    - name: Tipi di dati primitivi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Tipi di dati compositi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Funzioni
                   items:
                     - name: Contenitore
@@ -1417,12 +1435,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Aggiornamento applicazione 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Aggiornamento applicazione 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Specificare un percorso di archiviazione personalizzato per i documenti generati
                   items:
                     - name: Iscriversi a un evento per richiedere una risposta dal gestore di sottoscrizione
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Delegare la creazione di una destinazione report elettronico a una factory di destinazione personalizzata
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Implementare una destinazione personalizzata per i documenti generati
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Avviare i valori dell'origine dati del tipo USER INPUT PARAMETER dal codice sorgente
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Gestione inventario
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Margini di sicurezza
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Tolleranza di ritardo (giorni negativi)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Richieste di acquisto
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Pianificazione della produzione
@@ -1603,6 +1627,8 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Escludere i prodotti con determinati stati del ciclo di vita del prodotto
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Metodi di rifornimento e modifica della quantità
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Intervalli temporali di copertura
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Approvare ordini pianificati
@@ -3035,7 +3061,7 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: Report sui costi di spedizione
               href: landed-cost/landed-cost-reports.md
-        - name: Gestione magazzino
+        - name: Warehouse Management
           items:
             - name: Panoramica gestione del magazzino
               href: warehousing/warehouse-management-overview.md
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Registrare articoli per un articolo abilitato a immagazzinaggio di base tramite un giornale di registrazione arrivi
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Importare gli ASN in entrata tramite l'entità di dati V2
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Cross-docking di prodotti da magazzino ricevente a punti vendita
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
@@ -3065,7 +3093,7 @@
                   href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Operazioni di magazzino in uscita
               items:
-                - name: Prenotazioni in Gestione magazzino
+                - name: Prenotazioni in Warehouse Management
                   items:
                     - name: Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
@@ -3215,7 +3243,9 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Definire il processo di conteggio ciclo ubicazioni parziale
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                    - name: Processo di pulizia delle voci disponibili per la gestione del magazzino
+                    - name: Scenari di esempio di conteggio ciclo
+                      href: warehousing/cycle-counting-scenarios.md
+                    - name: Processo di pulizia delle voci disponibili per Warehouse Management
                       href: warehousing/onhand-cleanup.md
                     - name: Giornali di registrazione magazzino
                       href: inventory/inventory-journals.md
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Risolvere i problemi di lavoro di magazzino
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: App magazzino
+              items:
+                - name: 'Installare, configurare e utilizzare i dispositivi mobili'
+                  items:
+                    - name: Novità o modifiche nell'app per dispositivi mobili Warehouse Management
+                      href: warehousing/whats-new-wma.md
+                    - name: Installare e connettere l'app per dispositivi mobili Warehouse Management
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Installare e connettere l'app di magazzino
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app per dispositivi mobili Warehouse Management
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Risolvere i problemi di connessione dell'app per dispositivi mobili Warehouse Management
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Impostare campi e menu per dispositivi mobili
+                  items:
+                    - name: Configurare i campi per l'app per dispositivi mobili Warehouse Management
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Impostare i dispositivi mobili per il lavoro di magazzino
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Ricezione della targa con l'app per dispositivi mobili Warehouse Management
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Impostare un menu di articoli per dispositivi mobili per completare il lavoro in un ordine fornitore
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Configurare una voce di menu del dispositivo mobile per fornire una panoramica della riga di prelievo
+                      href: warehousing/pick-line-overview.md
+                    - name: Creare un menu di articoli per dispositivi mobili per il consolidamento delle targhe
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Targa mista in ricezione su un dispositivo mobile
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Configurare la visualizzazione dei batch meno recenti di un magazzino su un dispositivo mobile
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Prelevare il batch meno recente su un dispositivo mobile
+                      href: warehousing/pick-oldest-batch.md
+                - name: Impostazioni utente dispositivo mobile
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Elaborazione degli eventi dell'app di magazzino
+                  href: warehousing/warehouse-app-events.md
+                - name: Personalizzare l'app magazzino
+                  items:
+                    - name: Elaborare il framework della guida
+                      href: warehousing/process-guide-framework.md
+                    - name: Assegnare icone e titoli ai passaggi
+                      href: warehousing/step-icons-titles.md
             - name: Impostazione magazzino
               items:
                 - name: Configurazione del magazzino
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Stampa di etichette ciclo
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Programmare la stampa di etichette ciclo durante il ciclo
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Containerizzazione
                           href: warehousing/wave-containerization.md
+                        - name: Strategie di imballaggio dei contenitori
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Aggiornare automaticamente spedizioni
                       href: warehousing/auto-update-shipment.md
                     - name: Creare un profilo di ubicazione
@@ -3309,47 +3389,9 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Risoluzione dei problemi di configurazione del magazzino
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Installare e configurare l'app per dispositivi mobili Gestione magazzino
-                  items:
-                    - name: Installare e connettere l'app per dispositivi mobili Gestione magazzino
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Impostazioni utente dispositivo mobile
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: Installare e connettere l'app di magazzino
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Eseguire la scansione dei codici a barre utilizzando una fotocamera nell'app per dispositivi mobili Gestione magazzino
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Configurare i campi per l'app per dispositivi mobili Warehouse Management
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Impostare i dispositivi mobili per il lavoro di magazzino
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Assegnare icone e titoli ai passaggi
-                      href: warehousing/step-icons-titles.md
-                    - name: Elaborazione degli eventi dell'app di magazzino
-                      href: warehousing/warehouse-app-events.md
-                    - name: Ricezione della targa con l'app per dispositivi mobili Warehouse Management
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Impostare un menu di articoli per dispositivi mobili per completare il lavoro in un ordine fornitore
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Configurare una voce di menu del dispositivo mobile per fornire una panoramica della riga di prelievo
-                      href: warehousing/pick-line-overview.md
-                    - name: Creare un menu di articoli per dispositivi mobili per il consolidamento delle targhe
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Targa mista in ricezione su un dispositivo mobile
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Configurare la visualizzazione dei batch meno recenti di un magazzino su un dispositivo mobile
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Prelevare il batch meno recente su un dispositivo mobile
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Elaborare il framework della guida
-                      href: warehousing/process-guide-framework.md
-                    - name: Risolvere i problemi di connessione dell'app per dispositivi mobili Gestione magazzino
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Aggiornamento e migrazione
                   items:
-                    - name: Aggiornare i processi di gestione magazzino da Microsoft Dynamics AX 2012 a Finance and Operations
+                    - name: Aggiornare i processi di Warehouse Management da Microsoft Dynamics AX 2012 a Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
                     - name: Risolvere i problemi di aggiornamento e migrazione alla gestione avanzata del magazzino
                       href: warehousing/troubleshoot-warehouse-upgrade-migration.md
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Pianificazione generale
               items:
+                - name: Si verifica un errore durante l'esecuzione del motore di pianificazione generale integrato
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: L'articolo non può avere una distinta base o una formula
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: I parametri per il piano generale non esistono
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: 'Per stabilizzare un ordine di produzione pianificato, è innanzitutto necessario programmarlo'
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: Il prodotto è in attesa per le transazioni
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: Il numero formula selezionato non è approvato per un ordine batch.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: Il codice fornitore non è autorizzato per un prodotto e una data specifici
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: Il fornitore non è specificato durante la stabilizzazione degli ordini pianificati
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: Gli ordini consolidati direttamente derivati vengono elaborati da un flusso di lavoro in revisione
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: Impossibile filtrare gli articoli della pianificazione generale in base ai valori del gruppo di copertura correlato
@@ -3449,9 +3507,23 @@
               items:
                 - name: È possibile aggiungere solo il conto principale come conto di credito per motivi di riconciliazione
                   href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Gestione magazzino
+            - name: Warehouse Management
               items:
-                - name: Si verifica un errore alla scelta della posizione per la registrazione della distinta di prelievo
+                - name: Le entrate prodotti annullate non aggiornano lo stato delle transazioni come registrate
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: L'arrotondamento decimale della quantità fisica di aggiornamento non è corretto
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: La quantità fisica rimanente nell'unità deve essere diversa da zero
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: La quantità prelevata non è sufficiente durante la generazione del documento di trasporto
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: La quantità supera la percentuale di consegna in eccesso durante la generazione del documento di trasporto
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: La quantità che si cerca di aggiornare supera la quantità ricevuta/consegnata
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: La quantità supera la percentuale di consegna in difetto durante la generazione del documento di trasporto
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
+                - name: Si verifica un errore alla scelta dell'ubicazione per la registrazione della distinta di prelievo
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: La stazione di imballaggio non mostra le note del prodotto
                   href: troubleshooting/warehousing/packing-station-not-.md
