@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020461"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271055"
 ---
 # <a name="rebate-management-module-overview"></a>Panoramica del modulo di gestione degli sconti
 
@@ -70,7 +70,7 @@ Gli sconti possono essere configurati in base a molti parametri diversi. Ad esem
 
 I risultati del calcolo dello sconto possono essere ridotti anche da altri sconti, a seconda che lo sconto sia impostato per essere calcolato in base all'importo netto.
 
-Dal lato del fornitore, gli sconti possono calcolare il prezzo in base a una regola FIFO (first in, first out), l'ultimo prezzo di acquisto, il prezzo di acquisto medio o il prezzo di vendita.
+Dal lato del fornitore, gli sconti basati su ordini cliente possono calcolare il prezzo in base a una regola FIFO (first in, first out), l'ultimo prezzo di acquisto, il prezzo di acquisto medio o il prezzo di vendita.
 
 ## <a name="rebate-target-transactions"></a>Transazioni di destinazione sconto
 
@@ -84,11 +84,12 @@ Gli output degli articoli creano un ordine cliente per articolo gratuito per sco
 
 La combinazione delle transazioni associate, la frequenza dei calcoli, la base di calcolo e il metodo di calcolo selezionato determina l'accuratezza e la precisione dei calcoli degli sconti. Gli accantonamenti per sconti possono essere utilizzati per accumulare valori registrati e richiesti.
 
-Gli accantonamenti possono essere gestiti giornalmente o mensilmente. Tuttavia, la funzionalità può allocare o pagare lo sconto o riceverne il pagamento, con qualsiasi frequenza definita. Gli utenti possono modificare facilmente un piano o gli importi dei pagamenti in qualsiasi momento durante il pagamento.
+Gli accantonamenti possono essere gestiti giornalmente, settimanalmente, mensilmente o secondo un periodo personalizzato. Tuttavia, la funzionalità può assegnare o pagare lo sconto, o riceverne il pagamento, a qualsiasi frequenza definita che sia uguale o superiore alla frequenza di fornitura. L'annullamento utilizza la stessa frequenza dello sconto. Gli utenti possono modificare facilmente un piano o gli importi dei pagamenti in qualsiasi momento durante il pagamento.
 
 Gli utenti non devono più gestire transazioni o accantonamenti in due passaggi. Gli accantonamenti e gli annullamenti vengono registrati direttamente nel libro mastro. Inoltre, le note di credito possono essere create automaticamente. Pertanto, vi è piena integrazione tra la contabilità fornitori e la contabilità clienti. Durante l'elaborazione, i calcoli prendono in considerazione sconti di liquidazione, fatture pagate, sconti commerciali e note di credito esistenti per garantire che importi e valori siano calcolati accuratamente.
 
-Quando vengono calcolati gli sconti, il processo crea transazioni che possono essere riviste prima della registrazione. È quindi possibile creare un giornale di registrazione, una nota di credito o una transazione di addebito. Un processo separato registra transazioni di sconti e detrazioni. È possibile ottenere dichiarazioni di rendiconti ed elenchi di transazioni per garantire conformità, efficacia e trasparenza.
+Quando vengono calcolati gli sconti, il processo crea transazioni che possono essere riviste prima della registrazione. Un processo separato registra le transazioni di gestione degli sconti. È quindi possibile creare un giornale di registrazione, una nota di accredito o una transazione di addebito durante la registrazione nelle transazioni proposte. È possibile ottenere dichiarazioni di rendiconti ed elenchi di transazioni per garantire conformità, efficacia e trasparenza.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Pagamenti di royalty garantiti
 

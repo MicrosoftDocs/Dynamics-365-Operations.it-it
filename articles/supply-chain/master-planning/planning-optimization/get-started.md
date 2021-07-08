@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103595"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301676"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione della pianificazione
 
@@ -109,6 +109,8 @@ L'impostazione dell'opzione **Usa ottimizzazione di pianificazione** determina i
 
 - **Sì** - L'ottimizzazione di pianificazione viene utilizzata per la pianificazione generale.
 - **No** - Il motore di pianificazione incorporato Supply Chain Management viene utilizzato per la pianificazione generale.
+
+Questa impostazione si applica a tutte le persone giuridiche (società). Non è possibile utilizzare Ottimizzazione pianificazione in alcune persone giuridiche e la pianificazione generale incorporata in altre persone giuridiche.
 
 > [!NOTE]
 > Se vengono attivati processi batch di pianificazione esistenti creati per il motore di pianificazione integrato Supply Chain Management mentre l'opzione **Usa ottimizzazione di pianificazione** è impostata su **Sì**, i processi verranno completati.

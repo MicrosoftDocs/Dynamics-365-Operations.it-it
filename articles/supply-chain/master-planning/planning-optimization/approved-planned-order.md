@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b9b5274481e693f9fa05eb084ec5505ce5bc2eb
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935659"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304369"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Visualizzare, gestire e approvare gli ordini pianificati
 
@@ -46,7 +46,7 @@ Puoi usare il campo **Stato** di ogni ordine pianificato per monitorare i tuoi p
 
 - **Inevaso** - Agli ordini pianificati generati mediante la pianificazione generale viene assegnato questo stato. Gli ordini pianificati con questo stato verranno eliminati durante la successiva esecuzione della pianificazione.
 - **Completato** - Questo stato indica che l'ordine pianificato è stato completato. A un ordine pianificato che si sceglie di non stabilizzare è possibile cambiare manualmente lo stato in *Completato*. Notare che gli stati *Inevaso* e *Completato* sono trattati allo stesso modo dal sistema.
-- **Approvato** - Questo stato indica che l'ordine pianificato è approvato per la stabilizzazione. Se si desidera stabilizzare un ordine pianificato, è possibile modificarne lo stato in *Approvato*. Se si desidera mantenere le modifiche apportate a un ordine pianificato o se si prevede di stabilizzare un ordine pianificato, modificarne lo stato in *Approvato*. Ordini pianificati con stato *Approvato* sono considerati come fornitura fissa e prevista dalla pianificazione generale. Pertanto, non vengono modificati o eliminati durante le successive esecuzioni della pianificazione generale. Per ottenere questo comportamento, la logica di pianificazione copia gli ordini pianificati con stato *Approvato* dalla vecchia versione del piano alla nuova versione del piano durante la pianificazione generale. Notare che gli ordini pianificati con stato *Approvato** sono considerati fornitura solo all'interno del piano generale specifico.
+- **Approvato** - Questo stato indica che l'ordine pianificato è approvato per la stabilizzazione. Se si desidera stabilizzare un ordine pianificato, è possibile modificarne lo stato in *Approvato*. Se si desidera mantenere le modifiche apportate a un ordine pianificato o se si prevede di stabilizzare un ordine pianificato, modificarne lo stato in *Approvato*. Ordini pianificati con stato *Approvato* sono considerati come fornitura fissa e prevista dalla pianificazione generale. Pertanto, non vengono modificati o eliminati durante le successive esecuzioni della pianificazione generale. Per ottenere questo comportamento, la logica di pianificazione copia gli ordini pianificati con stato *Approvato* dalla vecchia versione del piano alla nuova versione del piano durante la pianificazione generale. Nota che gli ordini pianificati con stato *Approvato* sono considerati fornitura solo all'interno del piano generale specifico.
 
 Per modificare lo stato di un singolo ordine pianificato, [aprire qualsiasi pagina elenco degli ordini pianificati](#view-planned-orders), aprire l'ordine e quindi seguire uno di questi passaggi:
 

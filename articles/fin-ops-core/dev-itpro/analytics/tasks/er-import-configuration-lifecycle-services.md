@@ -2,7 +2,7 @@
 title: Importare una configurazione da Lifecycle Services
 description: Questo argomento descrive come importare una nuova versione di una configurazione di creazione di report elettronici (ER) da Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 674d0dc02b4a53e455a15a06fdb7f24ca3036ba3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b58ecb8a7d6f52631dbca7642a4acbcf6ff895a3
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752366"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270839"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importare una configurazione da Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per l'importazione di una [configurazione per la creazione di report elettronici (ER)](../general-electronic-reporting.md#Configuration) dalla [raccolta di cespiti a livello di progetto](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> L'utilizzo di LCS come repository di archiviazione per le configurazioni ER è stato [deprecato](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Per ulteriori informazioni vedi [Regulatory Configuration Service (RCS) – Deprecazione dell'archiviazione di Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
 
 In questo esempio si dovrà selezionare la versione desiderata della configurazione ER e importarla per una società di esempio denominata Litware, Inc. Queste operazioni possono essere completate in qualsiasi società perché le configurazioni per la creazione di report elettronici sono condivise tra tutte le società. Per completare questi passaggi, è necessario completare i passaggi della procedura [Caricare una configurazione ER in Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). È richiesto anche l'accesso a LCS.
 

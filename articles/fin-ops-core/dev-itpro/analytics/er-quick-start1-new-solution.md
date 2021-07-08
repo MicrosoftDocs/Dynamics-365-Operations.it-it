@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224036"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304395"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Progettare una nuova soluzione ER per stampare un report personalizzato
 
@@ -185,7 +185,7 @@ Completando i passaggi nella sezione [Importare una nuova configurazione del mod
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importare una nuova configurazione del modello di dati
 
-1. Scaricare il file [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
+1. Scaricare il file [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) e salvarlo sul computer locale.
 2. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Configurazioni report**.
 4. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
@@ -283,7 +283,7 @@ Per continuare, saltare la procedura successiva, [Creare una nuova configurazion
 3. Nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 4. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1 non può più essere modificata. Questa versione contiene il modello di dati configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare il modello di dati **Gestione questionari**.
+Lo stato della versione 1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1 non può più essere modificata. Questa versione contiene il modello di dati configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per rettificare il modello di dati **Gestione questionari**.
 
 ![Le versioni della configurazione modificabile nella pagina Configurazioni](./media/er-quick-start1-model-configuration.png)
 
@@ -300,7 +300,7 @@ Completando i passaggi nella sezione [Importare una nuova configurazione del map
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importare una nuova configurazione del mapping del modello
 
-1. Scaricare il file [Questionarios mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
+1. Scaricare il file [Questionarios mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) e salvarlo sul computer locale.
 2. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Configurazioni report**.
 4. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
@@ -366,7 +366,7 @@ Un nuovo mapping viene aggiunto automaticamente per la definizione **Root**. Que
     2. Selezionare **Aggiungi**.
     3. Nella finestra di dialogo, nel campo **Nome**, immettere **\$ResultGroup**.
     4. Selezionare **Modifica formula**.
-    5. Nell'[editor di formule ER](general-electronic-reporting-formula-designer.md), nel campo **Formula**, immettere **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** per usare il [percorso](er-formula-language.md#paths) della relazione uno-a-molti tra le tabelle KMCollection e KMQuestionResultGroup.
+    5. Nell'[editor di formule ER](general-electronic-reporting-formula-designer.md), nel campo **Formula**, immettere **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** per usare il [percorso](er-formula-language.md#Paths) della relazione uno-a-molti tra le tabelle KMCollection e KMQuestionResultGroup.
     6. Selezionare **Salva**, quindi chiudere l'editor di formule.
     7. Selezionare **OK** per aggiungere il nuovo campo calcolato.
 
@@ -536,7 +536,7 @@ Poiché è necessario trasformare più volte i risultati del confronto tra valor
 3. Nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 4. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il mapping del modello configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare la configurazione del **mapping del questionario**.
+Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il mapping del modello configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per rettificare la configurazione del **mapping del questionario**.
 
 ![Le versioni della configurazione ER modificabile nella pagina Configurazioni](./media/er-quick-start1-mapping-configuration.png)
 
@@ -547,7 +547,7 @@ Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza
 
 Il framework ER usa modelli predefiniti per creare report nei formati Microsoft Office (cartelle di lavoro di Excel o documenti di Word). Durante la generazione del report richiesto, viene compilato un modello con i dati richiesti in base al flusso di dati configurato. Pertanto, è necessario prima progettare un modello per il report personalizzato. Questo modello deve essere progettato come una cartella di lavoro Excel, la cui struttura rappresenta il layout di un report personalizzato. È necessario denominare ogni elemento di Excel che si prevede di compilare con i dati richiesti.
 
-1. Scaricare il file [Questionarios report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
+1. Scaricare il file [Questionarios report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) e salvarlo sul computer locale.
 2. Aprire il file in Excel e rivedere la struttura della cartella di lavoro.
 
 Come mostra l'illustrazione seguente, il modello scaricato è stato progettato per stampare questionari specifici che presentano le domande di un questionario insieme alle risposte appropriate.
@@ -572,7 +572,7 @@ Completando i passaggi nella sezione [Importare una configurazione in un formato
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importare una configurazione in un formato progettato
 
-1. Scaricare il file [Questionarios format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
+1. Scaricare il file [Questionarios format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) e salvarlo sul computer locale.
 2. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Configurazioni report**.
 4. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
@@ -594,7 +594,7 @@ Per continuare, saltare la procedura successiva, [Creare una nuova configurazion
 
         > [!NOTE]
         > - Se si seleziona una versione specifica del modello di dati di base, la struttura della versione corrispondente del modello di dati verrà presentata come struttura dell'origine dati **Modello** nel formato creato.
-        > - È possibile lasciare vuoto questo campo. In tal caso, la struttura della versione **Bozza** del modello di dati verrà presentata come la struttura dell'origine dati **Modello** nel formato creato. È quindi possibile regolare il modello e visualizzare immediatamente tali regolazioni nel formato. Questo approccio potrebbe migliorare l'efficienza della progettazione della soluzione ER quando si configurano contemporaneamente il modello di dati, il mapping del modello e il formato.
+        > - È possibile lasciare vuoto questo campo. In tal caso, la struttura della versione **Bozza** del modello di dati verrà presentata come la struttura dell'origine dati **Modello** nel formato creato. È quindi possibile rettificare il modello e visualizzare immediatamente tali regolazioni nel formato. Questo approccio potrebbe migliorare l'efficienza della progettazione della soluzione ER quando si configurano contemporaneamente il modello di dati, il mapping del modello e il formato.
         > - Se selezioni una versione specifica del modello di dati di base, puoi passare all'utilizzo della versione **Bozza** in un secondo momento, quando inizi a modificare un formato.
 
     4. Nel campo **Definizione modello dati**, selezionare la definizione **Root**.
@@ -797,7 +797,7 @@ La figura seguente mostra un report generato in formato Excel in cui le domande 
 3. Nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 4. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata per stampare il report personalizzato. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare il formato del tuo report **Gestione questionari**.
+Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata per stampare il report personalizzato. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per rettificare il formato del tuo report **Gestione questionari**.
 
 ![Configurazione ER modificabile nella pagina Configurazioni](./media/er-quick-start1-format-configuration.png)
 
@@ -1127,7 +1127,7 @@ Poiché hai usato il campo **FormatName**, il mapping del modello configurato or
 4. Nella pagina **Configurazioni**, nella struttura delle configurazioni, assicurarsi che la configurazione **Mapping del questionario** sia ancora selezionata. Quindi, nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 5. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.2 non può più essere modificata. Questa versione contiene il mapping del modello configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.3 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare il mapping del modello di dati **Gestione questionari**.
+Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.2 non può più essere modificata. Questa versione contiene il mapping del modello configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.3 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per rettificare il mapping del modello di dati **Gestione questionari**.
 
 ### <a name="modify-a-format"></a><a name="ModifyFormat"></a>Modificare un formato
 
@@ -1162,7 +1162,7 @@ Il formato configurato è stato ora modificato in modo che il suo nome venga ins
 2. Nella pagina **Configurazioni**, nella struttura delle configurazioni, assicurarsi che la configurazione **Report questionario** sia ancora selezionata. Quindi, nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 3. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.2 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.3 di questa configurazione viene creata e ha stato **Bozza**. È possibile modificare questa versione per regolare il report **Gestione questionari**.
+Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.2 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.3 di questa configurazione viene creata e ha stato **Bozza**. È possibile modificare questa versione per rettificare il report **Gestione questionari**.
 
 ### <a name="run-a-format-from-the-application"></a><a name="RunFormatFromApp2"></a>Eseguire un formato dall'applicazione
 

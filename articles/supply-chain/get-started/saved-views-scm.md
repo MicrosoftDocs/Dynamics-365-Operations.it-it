@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821251"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270661"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Visualizzazioni salvate standard per Supply Chain Management
 
@@ -79,16 +79,14 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 ## <a name="saved-views-for-the-production-control-module"></a>Visualizzazioni salvate per il modulo Controllo produzione
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 La tabella seguente descrive le visualizzazioni salvate disponibili per il modulo Controllo produzione.
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Pagina DBA ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | (Anteprima) Visualizzazioni salvate per il controllo di produzione |
-| Pagina dei dettagli dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | (Anteprima) Visualizzazioni salvate per il controllo di produzione |
-| Pagina distinte di prelievo dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | (Anteprima) Visualizzazioni salvate per il controllo di produzione |
-| Pagina elenco degli ordini di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | (Anteprima) Visualizzazioni salvate per il controllo di produzione |
+| Pagina DBA ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione |
+| Pagina dei dettagli dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione |
+| Pagina distinte di prelievo dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione |
+| Pagina elenco degli ordini di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Visualizzazioni salvate per il modulo Vendite e marketing
 

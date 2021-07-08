@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5bc31740218e3f171d89debace339dee0177d826
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9ec21cda4779fea8c28b73d25842219da900da9d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053973"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271486"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>Creare un flusso di lavoro di richieste di acquisto e vendita di congedi
 
@@ -78,7 +78,8 @@ Questi esempi mostrano come è possibile creare diversi tipi di condizioni di fl
 ## <a name="see-also"></a>Vedere anche
 
 [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)<br>
-[Gestire i criteri di acquisto e vendita congedo](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[Gestire i criteri di acquisto e vendita congedo](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)<br>
+[Acquista e vendi congedo](hr-employee-self-service-buy-sell-leave.md)
 
 
 

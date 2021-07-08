@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee342de6d069131e230120c5d65aef58da8e632a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8436842b4f07ba000649075198bdef43ad508f8f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020389"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270959"
 ---
 # <a name="rebate-management-deal-workflows"></a>Flussi di lavoro di transazioni per la gestione degli sconti
 
@@ -27,12 +27,12 @@ ms.locfileid: "6020389"
 
 Per approvare le transazioni di sconti, la gestione degli sconti utilizza la stessa piattaforma del flusso di lavoro delle altre app Finance and Operations. Ad ogni flusso di lavoro sono associati due processi di lavoro:
 
-- Un elemento del flusso di lavoro attiva la transazione in modo che l'utente o il processo del flusso di lavoro possa approvare le transazioni.
 - Un elemento del flusso di lavoro approva la transazione.
+- Un elemento del flusso di lavoro attiva la transazione in modo che l'utente o il processo del flusso di lavoro possa approvare le transazioni.
 
 Prima di poter utilizzare una transazione di sconti, è necessario che sia attiva nel modulo **Gestione degli sconti**. Per attivare una transazione, devi prima creare e configurare un *Flusso di lavoro per la gestione degli sconti*.
 
-Dopo che un flusso di lavoro è stato attivato per la gestione degli sconti, gli utenti non possono approvare manualmente le transazioni. Il flusso di lavoro deve essere sempre utilizzato.
+Gli utenti non possono approvare manualmente le transazioni. Il flusso di lavoro deve essere sempre utilizzato.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Creare e gestire flussi di lavoro di transazioni per la gestione degli sconti
 
@@ -42,4 +42,17 @@ Per lavorare con i flussi di lavoro di transazioni per la gestione dei rimborsi,
 
 Per attivare una transazione tramite un flusso di lavoro, apri la transazione (ad esempio, nella pagina **Tutte le transazioni di gestione degli sconti**). Quindi, nel riquadro azioni seleziona **Flusso di lavoro \> Invia**. Dopo che la nuova transazione è stata elaborata e approvata tramite il flusso di lavoro, sarà attiva e pronta per l'uso.
 
-Dopo che una transazione è stata attivata non puoi modificarne l'impostazione. Se devi modificare una transazione attiva, disattivala e quindi creane una nuova. Se la nuova transazione assomiglierà alla vecchia, puoi crearla copiando la vecchia transazione.
+Dopo che una transazione è stata attivata non puoi modificare la maggior parte dell'impostazione. Se devi modificare una transazione attiva, prima disattivala e quindi creane una nuova. Se la nuova transazione assomiglierà alla vecchia, puoi crearla copiando la vecchia transazione.
+
+Puoi modificare le seguenti impostazioni per una transazione dopo che è stata attivata:
+
+- Riconcilia per
+- Garanzia cumulativa
+- Profilo registrazione
+- Profilo di registrazione per garanzia
+- Note documenti
+- Valuta
+- Data di inizio
+- Data di fine
+
+Inoltre, le righe di sconto possono essere rimosse.

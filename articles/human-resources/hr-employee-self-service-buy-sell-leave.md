@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052075"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271489"
 ---
 # <a name="buy-and-sell-leave"></a>Acquista e vendi congedo
 
@@ -47,6 +47,12 @@ I saldi verranno aggiornati automaticamente o verranno sottoposti a un processo 
 3. Selezionare **Invia** quando si è pronti per inviare la richiesta.
 
 I saldi verranno aggiornati automaticamente o verranno sottoposti a un processo di approvazione prima dell'aggiornamento. Dipende da come sono stati configurati i criteri di acquisto.
+
+
+## <a name="troubleshooting"></a>Risoluzione dei problemi 
+
+Se un flusso di lavoro di richiesta per l'acquisto e la vendita di congedi non riesce, gli utenti con il privilegio **EssLeaveBuySellRequestApprover** possono rivedere il registro dei messaggi per tutte le richieste di acquisto e vendita di congedi. Per farlo, vai su **Congedo e assenza > Collega > Acquista e vendi richieste di congedo > Registro messaggi** (in alto a sinistra). Il **registro messaggi** mostra agli utenti come sono state elaborate le transazioni e la cronologia del flusso di lavoro associata.
+
 
 ## <a name="see-also"></a>Vedere anche
 

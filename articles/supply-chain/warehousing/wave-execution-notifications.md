@@ -11,19 +11,18 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2022-04-01
+ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: fee112d3211f619b2146dd21c4f8a52ad33667d6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 47f270b5fff37e8e231d8a9c4a011172df3d9385
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019156"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271379"
 ---
 # <a name="wave-execution-notifications"></a>Notifiche di esecuzione ciclo
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La funzionalità *Notifiche di esecuzione ciclo* utilizza eventi aziendali e il Centro azioni per inviare notifiche relative all'esecuzione del ciclo. Consente di specificare i tipi di eventi che generano notifiche, i magazzini che li generano e gli utenti che li ricevono.
 

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020485"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271079"
 ---
 # <a name="rebate-management-groups"></a>Gruppi di gestione degli sconti
 
 [!include [banner](../includes/banner.md)]
 
-I calcoli di sconti e detrazioni possono essere guidati da gruppi. È possibile creare gruppi di gestione degli sconti per clienti, fornitori e articoli. Possono essere allegati a un record di dati master.
+I calcoli della gestione degli sconti possono essere guidati da gruppi. È possibile creare gruppi di gestione degli sconti per clienti, fornitori e articoli. Possono essere allegati a un record di dati master.
 
 ## <a name="rebate-management-customer-groups"></a>Gruppi di clienti di gestione degli sconti
 
@@ -49,10 +49,9 @@ Per visualizzare, aggiungere o rimuovere clienti per un gruppo selezionato, segu
 1. Vai a **Gestione degli sconti \> Impostazione gruppi di gestione degli sconti \> Gruppi di clienti**.
 1. Seleziona il gruppo da gestire.
 1. Nel riquadro azioni seleziona **Clienti**. Viene visualizzata la pagina **Gruppi di gestione degli sconti** e mostra un elenco di clienti che sono già membri del gruppo selezionato.
-1. Per aggiungere un nuovo cliente al gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta i seguenti campi per la nuova riga:
+1. Per aggiungere un nuovo cliente al gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta il seguente campo per la nuova riga:
 
     - **Conto cliente** - Seleziona l'ID conto cliente.
-    - **Nome** - Immetti un nome e/o una descrizione del cliente.
 
 1. Per rimuovere un cliente dal gruppo, seleziona il cliente, quindi seleziona **Elimina** nel riquadro azioni.
 
@@ -61,10 +60,9 @@ Per visualizzare, aggiungere o rimuovere le assegnazioni di gruppo per un client
 1. Andare a **Contabilità clienti \> Clienti \> Tutti i clienti**.
 1. Seleziona il cliente con cui lavorare.
 1. Nel riquadro azioni, nella scheda **Cliente**, nel gruppo **Gestione degli sconti** seleziona **Gruppi di gestione degli sconti**. Viene visualizzata la pagina **Gruppi di gestione degli sconti** e mostra un elenco di gruppi a cui il cliente già fa parte.
-1. Per aggiungere il cliente a un nuovo gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta i seguenti campi per la nuova riga:
+1. Per aggiungere il cliente a un nuovo gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta il seguente campo per la nuova riga:
 
     - **Gruppo di gestione degli sconti** - Seleziona il gruppo a cui aggiungere il cliente.
-    - **Descrizione** - Immetti una descrizione del gruppo (ad esempio, per spiegare perché il cliente ne fa parte).
 
 1. Per rimuovere un cliente da un gruppo, seleziona il gruppo, quindi seleziona **Elimina** nel riquadro azioni.
 
@@ -88,10 +86,9 @@ Per visualizzare, aggiungere o rimuovere fornitori per un gruppo selezionato, se
 1. Vai a **Gestione degli sconti \> Impostazione gruppi di gestione degli sconti \> Gruppi di fornitori**.
 1. Seleziona il gruppo da gestire.
 1. Nel riquadro azioni, seleziona **Fornitori**. Viene visualizzata la pagina **Gruppi di gestione degli sconti** e mostra un elenco di fornitori che sono già membri del gruppo selezionato.
-1. Per aggiungere un nuovo fornitore al gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta i seguenti campi per la nuova riga:
+1. Per aggiungere un nuovo fornitore al gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta il seguente campo per la nuova riga:
 
     - **Conto fornitore** - Seleziona l'ID conto fornitore.
-    - **Nome** - Immetti un nome e/o una descrizione del fornitore.
 
 1. Per rimuovere un fornitore dal gruppo, seleziona il fornitore, quindi seleziona **Elimina** nel riquadro azioni.
 
@@ -100,10 +97,9 @@ Per visualizzare, aggiungere o rimuovere le assegnazioni di gruppo per un fornit
 1. Andare a **Contabilità fornitori \>Fornitori \> Tutti i fornitori**.
 1. Seleziona il fornitore con cui lavorare.
 1. Nel riquadro azioni, nella scheda **Fornitore**, nel gruppo **Gestione degli sconti** seleziona **Gruppi di gestione degli sconti**. Viene visualizzata la pagina **Gruppi di gestione degli sconti** e mostra un elenco di gruppi a cui il fornitore già fa parte.
-1. Per aggiungere il fornitore a un nuovo gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta i seguenti campi per la nuova riga:
+1. Per aggiungere il fornitore a un nuovo gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta il seguente campo per la nuova riga:
 
     - **Gruppo di gestione degli sconti** - Seleziona il gruppo a cui aggiungere il fornitore.
-    - **Descrizione** - Immetti una descrizione del gruppo (ad esempio, per spiegare perché il fornitore ne fa parte).
 
 1. Per rimuovere un fornitore da un gruppo, seleziona il gruppo, quindi seleziona **Elimina** nel riquadro azioni.
 
@@ -127,10 +123,9 @@ Per visualizzare, aggiungere o rimuovere articoli per un gruppo selezionato, seg
 1. Vai a **Gestione degli sconti \> Impostazione gruppi di gestione degli sconti \> Gruppi di articoli**.
 1. Seleziona il gruppo da gestire.
 1. Nel riquadro azioni seleziona **Articoli**. Viene visualizzata la pagina **Gruppi di gestione degli sconti** e mostra un elenco di articoli che sono già membri del gruppo selezionato.
-1. Per aggiungere un nuovo articolo al gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta i seguenti campi per la nuova riga:
+1. Per aggiungere un nuovo articolo al gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta il seguente campo per la nuova riga:
 
     - **Conto articolo** - Seleziona l'ID conto articolo.
-    - **Nome del prodotto** - Immetti un nome e/o una descrizione dell'articolo.
 
 1. Per rimuovere un articolo dal gruppo, seleziona l'articolo, quindi seleziona **Elimina** nel riquadro azioni.
 
@@ -139,10 +134,9 @@ Per visualizzare, aggiungere o rimuovere le assegnazioni di gruppo per un artico
 1. Fare clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
 1. Seleziona l'articolo con cui lavorare.
 1. Nel riquadro azioni, nella scheda **Prodotto**, nel gruppo **Gestione degli sconti** seleziona **Gruppi di gestione degli sconti**. Viene visualizzata la pagina **Gruppi di gestione degli sconti** e mostra un elenco di gruppi a cui l'articolo già fa parte.
-1. Per aggiungere l'articolo a un nuovo gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta i seguenti campi per la nuova riga:
+1. Per aggiungere l'articolo a un nuovo gruppo seleziona **Nuovo** nel riquadro azioni per aggiungere una riga alla griglia. Quindi imposta il seguente campo per la nuova riga:
 
     - **Gruppo di gestione degli sconti** - Seleziona il gruppo a cui aggiungere l'articolo.
-    - **Descrizione** - Immetti una descrizione del gruppo (ad esempio, per spiegare perché l'articolo ne fa parte).
 
 1. Per rimuovere un articolo da un gruppo, seleziona il gruppo, quindi seleziona **Elimina** nel riquadro azioni.
 

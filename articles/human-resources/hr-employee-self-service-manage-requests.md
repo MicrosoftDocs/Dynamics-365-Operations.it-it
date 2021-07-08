@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057360"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303246"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Gestire le richieste di congedo e assenza
 
@@ -34,11 +34,9 @@ Gestisci le richieste di permesso dall'area di lavoro **Dipendente self-service*
 
 3. Visualizzare e approvare le richieste di permesso dei membri del proprio team come necessario.
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Anteprima) Miglioramenti dell'esperienza flusso di lavoro richiesta di congedo
+## <a name="leave-request-workflow-experience-enhancements"></a>Miglioramenti dell'esperienza flusso di lavoro richiesta di congedo
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Questa funzionalità di anteprima fornisce i seguenti miglioramenti:
+Questa funzionalità fornisce i seguenti miglioramenti:
 
 - È possibile selezionare più richieste di congedo ed eseguire la stessa azione su tutte loro.
 - La barra multifunzione in alto e un nuovo pulsante del flusso di lavoro sulla pagina mostrano le azioni che puoi intraprendere sulle richieste di congedo.

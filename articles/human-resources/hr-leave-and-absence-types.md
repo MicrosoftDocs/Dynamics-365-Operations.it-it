@@ -2,7 +2,7 @@
 title: Configurare tipi di congedo e assenza
 description: Impostare i tipi di congedo che i dipendenti possono prendere in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056614"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271129"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurare tipi di congedo e assenza
 
@@ -71,7 +71,7 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
    
  3. Impostare **Tipo di congedo riportabile** per il tipo di congedo. Quando si seleziona questa opzione, tutti i saldi riportabili verranno trasferiti al tipo di congedo specificato. Anche il tipo di congedo riportabile deve essere incluso nel piano di congedo e assenza. 
  
- 4. Definire **Regole di scadenza** per il tipo di congedo. Quando si configura questa opzione, è possibile scegliere l'unità di giorni o mesi e impostare la durata per la scadenza. È inoltre possibile impostare la data di validità della regola di scadenza. La data di validità viene utilizzata per determinare quando avviare l'esecuzione del processo batch che elabora la scadenza del congedo o la data alla quale la regola diventa effettiva. La scadenza stessa avverrà sempre alla data di inizio del piano di congedo una volta che il processo batch è impostato per l'elaborazione. Ad esempio, la data di inizio del piano può essere 1/1/2020, ma la regola non è stata creata fino al 6/1/2020. Impostando la data di validità su 6/1/2020, la regola verrà elaborata al limite dell'anno successivo, quindi 1/1/2021. Eventuali saldi di congedi esistenti al momento della scadenza verranno sottratti dal tipo di congedo e si rifletteranno nel saldo di congedi. 
+4. Definire **Regole di scadenza** per il tipo di congedo. Quando si configura questa opzione, è possibile scegliere l'unità di giorni o mesi e impostare la durata per la scadenza. La data di validità della regola di scadenza viene utilizzata per determinare quando avviare l'esecuzione del processo batch che elabora la scadenza del congedo o la data alla quale la regola diventa effettiva. La scadenza stessa avverrà sempre alla data di inizio del periodo di accumulo. Ad esempio, se la data di inizio del periodo di accumulo è il 3 agosto 2021 e la regola di scadenza è stata impostata su 6 mesi, la regola verrà elaborata in base allo scostamento di scadenza dalla data di inizio del periodo di accumulo, quindi verrà eseguita il 3 febbraio, 2022. Eventuali saldi di congedi esistenti al momento della scadenza verranno sottratti dal tipo di congedo e si rifletteranno nel saldo di congedi.
  
 ## <a name="see-also"></a>Vedere anche
 
@@ -79,6 +79,7 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 - [Creare un piano di congedo e assenza](hr-leave-and-absence-plans.md)
 - [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md)
 - [Congedo sospeso](hr-leave-and-absence-suspend-leave.md)
+- [Creare un flusso di lavoro di richieste di acquisto e vendita di congedi](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

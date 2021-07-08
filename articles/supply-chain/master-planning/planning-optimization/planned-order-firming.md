@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193883"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271210"
 ---
 # <a name="firm-planned-orders"></a>Stabilizza ordini pianificati
 
@@ -124,8 +124,6 @@ Se imposti tutti i intervalli temporali menzionati in precedenza su *0* (zero), 
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Stabilizzare gli ordini pianificati utilizzando una query
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 La stabilizzazione basata su query consente di pianificare la stabilizzazione in base a criteri definiti in anticipo. A differenza del stabilizzazione automatica, la stabilizzazione basata su query consente il stabilizzazione automatica di diversi sottoinsiemi di ordini in diversi momenti. Inoltre, è possibile utilizzare operazioni manuali o automatizzate per stabilizzare diversi tipi di ordini pianificati. Puoi anche visualizzare in anteprima quali ordini stabilizzati vengono selezionati in base alle tue impostazioni. Pertanto, puoi confermare che la selezione soddisfa le tue aspettative.
 
 Puoi combinare la stabilizzazione automatica con ia stabilizzazione basata su query. Ad esempio, un processo di stabilizzazione basato su query ha un intervallo temporale in avanti più lungo di quello di una configurazione di copertura di stabilizzazione automatica corrispondente. Pertanto, il processo di stabilizzazione basato su query elaborerà gli ordini pianificati prima che venga attivata la stabilizzazione automatica. È possibile sfruttare questo comportamento per pianificare gli ordini per fornitori specifici in modo diverso rispetto agli ordini per prodotti simili di altri fornitori.
@@ -148,7 +146,7 @@ Per stabilizzare un ordine pianificato utilizzando il processo di stabilizzazion
 
     ![Scheda dettaglio Record da includere nella finestra di dialogo Stabilizzazione ordini pianificati](./media/planned-order-firming-main-2.png "Scheda dettaglio Record da includere nella finestra di dialogo Stabilizzazione ordini pianificati")
 
-1. Selezionare **Anteprima** per visualizzare in anteprima il contenuto del tuo ordine consolidato, in base alle tue impostazioni fino a quel momento. L'elenco degli ordini pianificati che verranno stabilizzati viene visualizzato come messaggio. È quindi possibile regolare le impostazioni come richiesto fino a quando l'anteprima non mostra l'ordine stabilizzato come lo si desidera.
+1. Selezionare **Anteprima** per visualizzare in anteprima il contenuto del tuo ordine consolidato, in base alle tue impostazioni fino a quel momento. L'elenco degli ordini pianificati che verranno stabilizzati viene visualizzato come messaggio. È quindi possibile rettificare le impostazioni come richiesto fino a quando l'anteprima non mostra l'ordine stabilizzato come lo si desidera.
 
     ![Esempio di anteprima di un ordine stabilizzato](./media/planned-order-firming-preview.png "Esempio di anteprima di un ordine stabilizzato")
 

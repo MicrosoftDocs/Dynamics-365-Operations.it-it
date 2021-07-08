@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923309"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270815"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
@@ -160,8 +160,8 @@ I criteri prevedono che tutte le nuove funzionalità saranno attivate per un per
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Perché non esiste una "data di abilitazione obbligatoria" specifica? 
 I tempi di rilascio degli aggiornamenti sono variabili, i tempi di aggiornamento dell'ambiente sono variabili e i clienti possono scegliere di saltare alcuni aggiornamenti. Di conseguenza, le date specifiche sono difficili da determinare. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Dov'è la documentazione per le funzionalità rese obbligatorie? 
-Questa documentazione proviene dai team delle applicazioni. Spesso, questi verranno menzionati in [Funzionalità rimosse o deprecate](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Dov'è la documentazione per le funzionalità obbligatorie? 
+Questa documentazione proviene da ogni team delle applicazioni Dynamics 365. Spesso, queste funzionalità saranno menzionate in [Aggiornamenti agli stati delle funzionalità del client](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) o [Funzionalità rimosse o deprecate](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Esiste una notifica all'interno del prodotto o un segnale che indica che la funzionalità sta per essere abilitata obbligatoriamente? 
 Oggi non esiste un meccanismo di notifica correlato a rendere obbligatoria una funzione.

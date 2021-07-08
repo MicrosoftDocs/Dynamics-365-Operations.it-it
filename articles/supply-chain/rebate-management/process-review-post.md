@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5188fa271cd9eb24140a9edcf507a3da72b61074
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82b8a4e6ba7ebea7df9f5dad5abc3dfc3ce2687d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020533"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270763"
 ---
 # <a name="process-review-and-post-rebates"></a>Elaborare, rivedere e registrare gli sconti
 
@@ -55,9 +55,9 @@ Quando si elabora una transazione, il sistema calcola tutti gli sconti e le roya
 1. Seleziona la riga per ogni transazione che desideri elaborare (o apri la transazione che desideri elaborare).
 1. Nel riquadro azioni, nella scheda **Transazioni di gestione degli sconti** nel gruppo **Genera** seleziona uno dei seguenti comandi:
 
-    - **Elabora \> Accantonamento** - Accantonamento di una serie di ratei per ogni transazione di sconto pertinente che non vengono registrati.
+    - **Elabora \> Accantonamento** - Accantonamento di una serie di ratei per ogni transazione di sconto pertinente che non vengono registrati. Questa voce di menu non è disponibile per le transazioni in cui il campo **Output sconto** è impostato su *Articolo*.
     - **Elabora \> Gestione degli sconti** - Elabora una serie di transazioni che forniscono il valore dello sconto per ogni transazione.
-    - **Elabora \> Fuori catalogo** - Annulla le transazioni registrate in precedenza per annullarle in modo da poter calcolare nuove transazioni di sconto.
+    - **Elabora \> Annulla** – Per ogni transazione di origine per la transazione di sconto e il periodo specificato, elabora lo scostamento tra gli importi registrati per un accantonamento e per la gestione degli sconti. Questa voce di menu non è disponibile per le transazioni in cui il campo **Output sconto** è impostato su *Articolo*.
 
 1. Nella finestra di dialogo che appare, imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per il calcolo.
 1. Seleziona **OK** per eseguire il calcolo.
@@ -70,9 +70,9 @@ Quando si elabora una transazione, il sistema calcola tutti gli sconti e le roya
 1. Nella scheda dettaglio **Gestione degli sconti** seleziona la riga per ciascuna riga della transazione che desideri elaborare.
 1. Sulla barra degli strumenti della scheda dettaglio **Gestione degli sconti** seleziona uno dei seguenti comandi. (Questi comandi sono disponibili solo per le transazioni in cui il campo **Riconcilia per** è impostato su *Riga* .)
 
-    - **Elabora \> Accantonamento** - Accantonamento di una serie di ratei per ogni riga di transazione pertinente che non vengono registrati.
+    - **Elabora \> Accantonamento** - Accantonamento di una serie di ratei per ogni riga di transazione pertinente che non vengono registrati. Questa voce di menu non è disponibile per le transazioni in cui il campo **Output sconto** è impostato su *Articolo*.
     - **Elabora \> Gestione degli sconti** - Elabora una serie di transazioni che forniscono il valore dello sconto per ogni riga di transazione.
-    - **Elabora \> Fuori catalogo** - Annulla le transazioni registrate in precedenza per annullarle in modo da poter calcolare nuove transazioni di sconto.
+    - **Elabora \> Annulla** – Per ogni transazione di origine per la transazione di sconto e il periodo specificato, elabora lo scostamento tra gli importi registrati per un accantonamento e per la gestione degli sconti. Questa voce di menu non è disponibile per le transazioni in cui il campo **Output sconto** è impostato su *Articolo*. 
 
 1. Nella finestra di dialogo che appare, imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per il calcolo.
 1. Seleziona **OK** per eseguire il calcolo.
@@ -115,26 +115,26 @@ Quando elabori una o più transazioni, il sistema crea le transazioni che puoi v
         - **Imposta non richiesto \> Tutti** - Contrassegna tutte le transazioni come non richieste.
         - **Imposta non richiesto \> Selezionato** - Contrassegna le transazioni selezionate come non richieste.
 
-    - Per registrare la richiesta per una o più righe, seleziona le righe pertinenti, quindi, nel riquadro azioni, seleziona **Registra**. (Il pulsante **Registra** è disponibile solo per le transazioni di sconto. Non è disponibile per le transazioni di accantonamento e annullamento.) Nella finestra di dialogo **Registra** i campi **Data iniziale** e **Data finale** vengono impostati automaticamente. Imposta il campo **Data registrazione** quindi seleziona **OK**.
+    - Seleziona **Registra** nel riquadro azioni per registrare la richiesta per tutte le righe pertinenti. Se stai utilizzando una procedura di richiesta (quando l'opzione **Usa procedura di richiesta** è abilitata nella pagina **Parametri gestione sconti**), solo le righe contrassegnate come **Richieste** vengono registrate. In caso contrario, vengono registrate tutte le transazioni di origine per la transazione di sconto selezionata. Il pulsante **Registra** è disponibile solo per le transazioni di sconto. Non è disponibile per le transazioni di accantonamento e annullamento. Nella finestra di dialogo **Registra** i campi **Dal** e **Al** vengono impostati automaticamente. Imposta il campo **Data registrazione** quindi seleziona **OK**.
     - Per modificare l'importo visualizzato per qualsiasi transazione aperta o non registrata, seleziona la transazione, quindi segui uno di questi passaggi:
 
         - Modifica il valore nel campo **Importo corretto**.
         - Nel riquadro azioni, seleziona **Imposta correzione**. Quindi, nella finestra di dialogo a discesa visualizzata, nel campo **Importo corretto**, immetti un valore.
 
 > [!NOTE]
-> Quando elabori il periodo successivo, l'elenco delle transazioni includerà tutte le transazioni non richieste dalla registrazione precedente, più eventuali nuove transazioni per il periodo selezionato.
+> Se stai usando un processo di richiesta, quando elabori il periodo successivo, l'elenco delle transazioni includerà tutte le transazioni non richieste dalla registrazione precedente, più eventuali nuove transazioni per il periodo selezionato.
 
 ## <a name="post-rebates-transactions"></a>Registrare le transazioni di sconto
 
-Per registrare il valore degli sconti e delle detrazioni, è necessario eseguire il processo di registrazione, a meno che non si sia configurato il sistema per registrarli automaticamente.
+Per registrare il valore di un accantonamento elaborato, l'importo della gestione degli sconti e l'annullamento, è necessario eseguire il processo di registrazione. Il processo di registrazione contrassegna le transazioni di accantonamento, gestione degli sconti o di annullamento come registrate e crea la transazione di destinazione. Se non è necessario rivedere la transazione di destinazione, queste transazioni possono essere impostate in modo che vengano registrate automaticamente.
 
-### <a name="set-up-the-system-to-post-all-transactions-automatically"></a>Configurare il sistema per registrare automaticamente tutte le transazioni
+### <a name="set-up-the-system-to-post-all-target-transactions-automatically"></a>Configurare il sistema per registrare automaticamente tutte le transazioni di destinazione
 
-Per configurare il tuo sistema in modo che registri tutte le transazioni non appena vengono generate, attiva l'opzione **Registra automaticamente giornali di registrazione** e/o **Registra automaticamente fatture a testo libero** nella pagina **Parametri di gestione degli sconti**. Per ulteriori informazioni, vedi [Parametri di gestione degli sconti](rebate-management-parameters.md).
+Per configurare il tuo sistema in modo che registri tutte le transazioni di destinazione non appena vengono generate da una registrazione di accantonamento, importo di gestione sconti e annullamento, attiva l'opzione **Registra automaticamente giornali di registrazione** e/o **Registra automaticamente fatture a testo libero** nella pagina **Parametri di gestione degli sconti**. Per ulteriori informazioni, vedi [Parametri di gestione degli sconti](rebate-management-parameters.md).
 
 ### <a name="post-transactions-for-all-lines-for-one-or-more-deals"></a>Registrare le transazioni per tutte le righe per una o più transazioni
 
-Se non stai utilizzando la registrazione automatica, dopo aver elaborato le transazioni pertinenti, segui questi passaggi per esaminare e registrare le transazioni generate per tutte le righe di una o più transazioni.
+Dopo aver elaborato le transazioni pertinenti, segui questi passaggi per esaminare e registrare le transazioni generate per tutte le righe di una o più transazioni.
 
 1. Apri l'appropriata [pagina elenco delle transazioni di sconto](rebate-management-deals.md) per il tipo di transazione con cui desideri lavorare.
 1. Seleziona la riga per ogni transazione che desideri registrare (o apri la transazione che desideri registrare).
@@ -149,7 +149,7 @@ Se non stai utilizzando la registrazione automatica, dopo aver elaborato le tran
 
 ### <a name="post-transactions-for-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Registrare le transazioni per una o più righe di contratto specifiche per una transazione selezionata
 
-Se non stai utilizzando la registrazione automatica, dopo aver elaborato le transazioni pertinenti, segui questi passaggi per esaminare e registrare le transazioni generate per una o più righe di una transazione selezionata.
+Dopo aver elaborato le transazioni pertinenti, segui questi passaggi per esaminare e registrare le transazioni generate per una o più righe di transazioni specifiche per una transazione selezionata. Questa procedura è applicabile solo per le transazioni in cui il campo **Riconcilia per** è impostato su *Riga*.
 
 1. Apri l'appropriata [pagina elenco delle transazioni di sconto](rebate-management-deals.md) per il tipo di transazione con cui desideri lavorare.
 1. Apri la transazione con una riga per la quale desideri registrare le transazioni.
@@ -174,7 +174,7 @@ Invece di registrare le transazioni per transazioni o righe di transazioni speci
     - Vai a **Gestione degli sconti \> Attività periodiche \> Registra \> Gestione degli sconti** per registrare le transazioni di sconto disponibili che hai creato.
     - Vai a **Gestione degli sconti \> Attività periodiche \> Registra \> Annullamento** per registrare le transazioni di annullamento disponibili che hai creato.
 
-1. Nella finestra di dialogo che appare, nella scheda dettaglio **Parametri** nella sezione **Periodo** imposta il campo **Data di pubblicazione**. Quindi imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per la transazione che deve essere registrata. 
+1. Nella finestra di dialogo che appare, nella scheda dettaglio **Parametri** nella sezione **Periodo** imposta il campo **Data di pubblicazione**. Quindi imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per la transazione che deve essere registrata.
 1. Nella sezione **Periodo di garanzia** imposta i campi **Data iniziale** e **Data finale** per definire l'intervallo di date per le garanzie che devono essere registrate.
 1. Nella scheda dettaglio **Record da includere** puoi impostare i filtri per limitare il set di offerte che il processo batch elaborerà. Queste impostazioni funzionano come per altri tipi di processi batch.
 1. Nella Scheda dettaglio **Esecuzione in background** puoi impostare l'elaborazione batch e le opzioni di programmazione come richiesto. Queste impostazioni funzionano come per altri tipi di processi batch.
@@ -182,17 +182,17 @@ Invece di registrare le transazioni per transazioni o righe di transazioni speci
 
 ## <a name="review-rebate-management-journals"></a>Esaminare i giornali di registrazione di Gestione degli sconti
 
-Dopo che le transazioni sono state registrate, è possibile rivedere i giornali di registrazione, i documenti o gli articoli risultanti. Le transazioni di destinazione per sconti e royalty si basano sul tipo di pagamento impostato nel profilo di registrazione e sul tipo di output dello sconto. Ad esempio, se l'output dello sconto è impostato su *Articolo*, verrà creato un ordine cliente che potrà essere visualizzato tramite le transazioni di destinazione. In alternativa, se il pagamento è impostato per utilizzare Contabilità fornitori, verrà creata una fattura fornitore per il fornitore che viene impostata sul cliente per gli sconti cliente.
+Dopo che le transazioni sono state registrate, è possibile rivedere i giornali di registrazione, i documenti o gli articoli risultanti. Le transazioni di destinazione per sconti e royalty si basano sul tipo di pagamento impostato nel profilo di registrazione e sul tipo di output dello sconto. Ad esempio, se l'output dello sconto è impostato su *Articolo*, verrà creato un ordine cliente per uno sconto cliente e un ordine fornitore per uno sconto fornitore. Questi ordini possono essere visualizzati tramite le transazioni di destinazione. In alternativa, se il pagamento è impostato per utilizzare Contabilità fornitori, verrà creata una fattura fornitore per il fornitore che viene impostata sul cliente per gli sconti cliente.
 
 Per esaminare le voci del giornale di registrazione associate a una transazione di gestione degli sconti, attieniti alla seguente procedura.
 
 1. Apri l'appropriata [pagina elenco delle transazioni di sconto](rebate-management-deals.md) per il tipo di transazione con cui desideri lavorare.
 1. Seleziona la transazione per cui vuoi ispezionare le voci del giornale di registrazione.
-1. Nel riquadro azioni, nella scheda **Transazioni di gestione degli sconti** nel gruppo **Transazioni**, seleziona **Transazioni** o **Transazioni di sconto**, a seconda del tipo di transazione che desideri esaminare.
+1. Nel riquadro azioni, nella scheda **Transazioni di gestione degli sconti** nel gruppo **Transazioni**, seleziona **Transazioni** o **Transazioni di garanzia**, a seconda del tipo di transazione che desideri esaminare.
 1. Assicurati che il campo **Mostra** sia impostato su *Tutto* o *Registrato*.
 1. Trova e seleziona la raccolta di transazioni che vuoi ispezionare, quindi, nel riquadro azioni, seleziona uno dei seguenti pulsanti. (Questi pulsanti sono disponibili solo quando esistono registrazioni pertinenti per la raccolta di transazioni selezionata.)
 
     - **Transazioni di destinazione** - Rivedi i giornali di registrazione pertinenti e altri tipi di documenti generati dalla transazione selezionata.
-    - **Articoli** - Rivedi gli articoli pertinenti che sono stati generati dalla transazione selezionata.
+    - **Articoli** – Rivedere gli ordini fornitore o gli ordini cliente pertinenti che sono stati generati dalla transazione selezionata.
 
 1. Viene visualizzato un elenco di giornali di registrazione, documenti o articoli pertinenti. Per visualizzare ulteriori informazioni su qualsiasi giornale di registrazione, documento o articolo, seleziona la riga e quindi, nel riquadro azioni, seleziona **Visualizza dettagli**.

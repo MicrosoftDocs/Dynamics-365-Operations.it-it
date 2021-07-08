@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fdf6df7e393bcc401e770bd1b8afcaedcadc2660
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937436"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270887"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In questo argomento viene descritto come un'azienda può utilizzare Microsoft Dynamics 365 Commerce per visualizzare la disponibilità scorte stimata per i prodotti nei canali online e dei punti vendita.
 
@@ -117,7 +116,7 @@ Devi quindi sincronizzare le modifiche con i canali attraverso il processo di pi
 1. Selezionare **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**.
 1. Eseguire il processo **1070** (**Configurazione canale**).
 
-Al termine della configurazione, le informazioni fornite sulle scorte fisicamente disponibili non utilizzano più una chiamata di servizio in tempo reale quando un utente nell'applicazione POS utilizza l'operazione **Ricerca in magazzino** (visualizzazioni standard e matrice). I dati sulle scorte fisicamente disponibili per il negozio corrente e tutti i negozi nel gruppo di evasione ordini vengono calcolati in base all'ultimo snapshot noto che è stata consegnata al database del canale da Commerce Headquarters. Il valore dello snapshot viene ulteriormente perfezionato dal calcolo sul lato canale per regolare il valore delle scorte fisicamente disponibili, in base alle vendite aggiuntive o alle transazioni di reso esistenti per il prodotto selezionato nel database del canale che non sono state incluse nell'ultimo snapshot sincronizzato dal processo 1130. Se il database del canale non contiene dati transazionali per nessuno dei magazzini o negozi nel gruppo di evasione ordini, non contiene le transazioni aggiuntive che possono essere prese in considerazione in un ricalcolo del valore. Pertanto, la migliore stima delle scorte disponibili che può essere mostrata per quei magazzini o negozi è costituita dai dati dell'ultimo snapshot di Commerce Headquarters noto.
+Al termine della configurazione, le informazioni fornite sulle scorte fisicamente disponibili non utilizzano più una chiamata di servizio in tempo reale quando un utente nell'applicazione POS utilizza l'operazione **Ricerca in magazzino** (visualizzazioni standard e matrice). I dati sulle scorte fisicamente disponibili per il negozio corrente e tutti i negozi nel gruppo di evasione ordini vengono calcolati in base all'ultimo snapshot noto che è stata consegnata al database del canale da Commerce Headquarters. Il valore dello snapshot viene ulteriormente perfezionato dal calcolo sul lato canale per rettificare il valore delle scorte fisicamente disponibili, in base alle vendite aggiuntive o alle transazioni di reso esistenti per il prodotto selezionato nel database del canale che non sono state incluse nell'ultimo snapshot sincronizzato dal processo 1130. Se il database del canale non contiene dati transazionali per nessuno dei magazzini o negozi nel gruppo di evasione ordini, non contiene le transazioni aggiuntive che possono essere prese in considerazione in un ricalcolo del valore. Pertanto, la migliore stima delle scorte disponibili che può essere mostrata per quei magazzini o negozi è costituita dai dati dell'ultimo snapshot di Commerce Headquarters noto.
 
 Le schermate **Evasione ordine** del POS sfruttano anche il calcolo lato canale per mostrare le scorte disponibili per gli articoli quando viene selezionata una riga di evasione dell'ordine e un utente visualizza il pannello **Dettagli** per le scorte disponibili dell'articolo selezionato.
 

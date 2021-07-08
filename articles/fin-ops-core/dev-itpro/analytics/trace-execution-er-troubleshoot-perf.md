@@ -2,7 +2,7 @@
 title: Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni
 description: In questo argomento vengono fornite informazioni su come utilizzare la funzionalità di traccia delle prestazioni in Creazione di report elettronici (ER, Electronic Reporting) per risolvere problemi relativi alle prestazioni.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944655"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295575"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Generare la traccia dell'esecuzione di formati ER per risolvere problemi relativi alle prestazioni
 
@@ -119,12 +119,27 @@ Le versioni corrispondenti delle configurazioni del modello dati e del mapping d
 2. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
 3. Nella finestra di dialogo **Parametri utente**, nella sezione **Traccia esecuzione**, effettuare le seguenti operazioni:
 
-    1. Nel campo **Formato traccia dell'esecuzione**, selezionare **Debug formato traccia** per avviare la raccolta dei dettagli dell'esecuzione del formato ER. Quando questo valore è selezionato, la traccia delle prestazioni raccoglierà informazioni sul tempo dedicato alle seguenti azioni:
+    1. Nel campo **Formato traccia dell'esecuzione** specifica il formato della traccia delle prestazioni generata in cui sono archiviati i dettagli dell'esecuzione per gli elementi del mapping e del formato ER.
 
-        - Esecuzione di ogni origine dati nel mapping di modello chiamato per acquisire i dati
-        - Elaborazione di ogni elemento del formato per immettere dati nell'output generato
+        - **Debug formato traccia** – Seleziona questo valore se prevedi di eseguire in modo interattivo un formato ER con tempi di esecuzione brevi. Viene quindi avviata la raccolta di dettagli sull'esecuzione del formato ER. Quando questo valore è selezionato, la traccia delle prestazioni raccoglie informazioni sul tempo dedicato alle seguenti azioni:
 
-        Il campo **Formato traccia dell'esecuzione** consente di specificare il formato della traccia delle prestazioni generata in cui sono archiviati i dettagli dell'esecuzione per gli elementi del mapping e del formato ER. Selezionando **Esegui debug formato di traccia** come valore, sarà possibile analizzare il contenuto della traccia nella progettazione Operazione ER e vedere gli elementi del mapping o del formato ER menzionati nella traccia.
+            - Esecuzione di ogni origine dati nel mapping di modello chiamato per acquisire i dati
+            - Elaborazione di ogni elemento del formato per immettere dati nell'output generato
+
+            Se selezioni il valore **Debug formato traccia** è possibile analizzare il contenuto della traccia nella progettazione delle operazioni ER. In questa finestra è possibile visualizzare il formato ER o gli elementi di mapping menzionati nella traccia.
+
+        - **Formato traccia aggregato** – Seleziona questo valore se prevedi di eseguire un formato ER con tempi di esecuzione lunghi in modalità batch. Viene quindi avviata la raccolta di dettagli aggregati sull'esecuzione del formato ER. Quando questo valore è selezionato, la traccia delle prestazioni raccoglie informazioni sul tempo dedicato alle seguenti azioni:
+
+            - Esecuzione di ogni origine dati nel mapping di modello chiamato per acquisire i dati
+            - Esecuzione di ogni origine dati nel mapping di formato chiamato per acquisire i dati
+            - Elaborazione di ogni elemento del formato per immettere dati nell'output generato
+
+            Il valore **Formato traccia aggregato** è disponibile in Microsoft Dynamics 365 Finance versione 10.0.20 e successive.
+
+            Nella progettazione formato ER e progettazione mapping di modello ER, è possibile visualizzare il tempo di esecuzione totale per un singolo componente. Inoltre, la traccia contiene i dettagli sull'esecuzione, come il numero di esecuzioni e il tempo minimo e massimo di una singola esecuzione.
+
+            > [!NOTE]
+            > Questa traccia viene raccolta in base al percorso dei componenti tracciati. Pertanto, le statistiche potrebbero non essere corrette quando un singolo componente padre contiene diversi componenti figlio senza nome o quando più componenti figlio hanno lo stesso nome.
 
     2. Impostare le seguenti opzioni su **Sì** per raccogliere dettagli specifici dell'esecuzione dei componenti mapping di modello ER e formato ER:
 

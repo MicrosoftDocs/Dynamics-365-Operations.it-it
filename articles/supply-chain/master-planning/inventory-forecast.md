@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216844"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306417"
 ---
 # <a name="inventory-forecasts"></a>Previsioni di magazzino
 
@@ -353,20 +353,46 @@ Utilizzare la procedura descritta di seguito per elaborare le righe delle transa
 1. Usa la sezione **Dimensioni finanziarie** per aggiornare le dimensioni finanziarie delle righe di previsione. Seleziona le dimensioni finanziarie da modificare, quindi immetti un valore da applicare alle dimensioni selezionate.
 1. Seleziona **OK** per applicare le modifiche.
 
-## <a name="run-forecast-planning"></a>Eseguire la pianificazione delle previsioni
+## <a name="use-forecasts-with-master-planning"></a>Usare le previsioni con la pianificazione generale
 
-Dopo aver immesso le previsioni della domanda e/o dell'offerta, puoi eseguire una pianificazione previsionale per calcolare i fabbisogni lordi di materiali e la capacità, nonché generare gli ordini pianificati.
+Dopo aver immesso la previsione della domanda e/o dell'offerta, è possibile includere le previsioni durante la pianificazione generale per tenere conto della domanda e/o dell'offerta previste nell'esecuzione della pianificazione generale. Quando le previsioni sono incluse nella pianificazione generale, vengono calcolati i fabbisogni lordi di materiali e capacità e vengono generati gli ordini pianificati.
 
-1. Vai a **Pianificazione generale \> Previsione \> Pianificazione delle previsioni**.
-1. Seleziona un piano di previsione nel campo **Piano previsionale**.
-1. Abilita **Traccia ora di elaborazione** per registrare il tempo di elaborazione per ciascuna attività di pianificazione.
-1. Immetti un numero nel campo **Numero di thread**. (Per ulteriori informazioni, vedi [Migliorare le prestazioni della pianificazione generale](master-planning-performance.md) .)
-1. Nel campo **Commento**, immetti il testo per acquisire tutte le informazioni aggiuntive richieste.
-1. Nella Scheda dettaglio **Record da includere**, seleziona **Filtro** per limitare la selezione degli articoli.
-1. Nella scheda dettaglio **Esegui in background**, specifica i parametri del batch.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Impostare un piano generale per includere una previsione di inventario
+
+Per impostare un piano generale in modo che includa una previsione di inventario segui questi passaggi.
+
+1. Andare a **Pianificazione generale \> Impostazioni \> Piani \> Piani generali**.
+1. Selezionare un piano esistente o crearne uno nuovo.
+1. Nella scheda dettaglio **Generale**, impostare i seguenti campi:
+
+    - **Modello previsionale** - Selezionare il modello previsionale da applicare. Questo modello verrà preso in considerazione quando viene generato un suggerimento di fornitura per il piano generale corrente.
+    - **Includi previsione dell'offerta** - Impostare questa opzione su *Sì* per includere la previsione dell'offerta nel piano generale corrente. Se si imposta questa opzione su *No*, le transazioni di previsione dell'offerta non verranno incluse nel piano generale.
+    - **Includi previsione della domanda** - Impostare questa opzione su *Sì* per includere la previsione della domanda nel piano generale corrente. Se si imposta questa opzione su *No*, le transazioni di previsione della domanda non verranno incluse nel piano generale.
+    - **Metodo utilizzato per ridurre i requisiti di previsione** - Selezionare il metodo da utilizzare per ridurre i requisiti di previsione. Per ulteriori informazioni, vedi [Chiavi di riduzione previsioni](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. Nella Scheda dettaglio **Intervallo temporale in giorni**, è possibile impostare i seguenti campi per specificare il periodo durante il quale la previsione è inclusa:
+
+    - **Piano previsionale** - Impostare questa opzione su *Sì* per sostituire l'intervallo temporale del piano previsionale che ha origine dai singoli gruppi di copertura. Impostare l'opzione su *No* per utilizzare i valori dei singoli gruppi di copertura per il piano generale corrente.
+    - **Periodo di tempo previsto** - Se si imposta l'opzione **Piano previsionale** su *Sì*, specificare il numero di giorni (dalla data odierna) in cui deve essere applicata la previsione della domanda.
+
+    > [!IMPORTANT]
+    > L'opzione **Piano previsionale** non è ancora supportata con l'ottimizzazione della pianificazione.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Eseguire un piano generale che include una previsione di inventario
+
+Per eseguire un piano generale che include una previsione di inventario segui questi passaggi.
+
+1. Vai a **Pianificazione generale \> Aree di lavoro \> Pianificazione generale**.
+1. Nel campo **Piano generale** inserisci o seleziona il piano generale che hai impostato nella procedura precedente.
+1. Nel riquadro **Pianificazione generale** seleziona **Esegui**.
+1. Nella finestra di dialogo **Pianificazione generale** imposta l'opzione **Traccia ora di elaborazione** su *Sì*.
+1. Nel campo **Numero di thread** immettere un numero.
+1. Nella scheda dettaglio **Record da includere**, selezionare **Filtro**.
+1. Viene visualizzata la finestra di dialogo dell'editor di query standard. Nella scheda **Intervallo** seleziona la riga in cui il campo **Campo** è impostato su *Numero articolo*.
+1. Nel campo **Criteri** seleziona il numero dell'articolo da includere nel piano.
 1. Selezionare **OK**.
 
-Per visualizzare i requisiti calcolati, apri la pagina **Fabbisogno lordo**. Ad esempio, nella pagina **Prodotti rilasciati**, scheda **Piano**, sezioni **Requisiti**, seleziona **Fabbisogno lordo**.
+Per visualizzare i requisiti calcolati, apri la pagina **Fabbisogno lordo**. Ad esempio, nella pagina **Prodotti rilasciati**, scheda **Piano** del riquadro azioni, nel gruppo **Requisiti**, seleziona **Fabbisogno lordo**.
 
 Per visualizzare gli ordini pianificati che vengono generati, vai a **Pianificazione generale \> Comune \> Ordini pianificati** e seleziona il piano di previsione appropriato.
 
@@ -376,5 +402,6 @@ Per visualizzare gli ordini pianificati che vengono generati, vai a **Pianificaz
 - [Impostazione della previsione della domanda](demand-forecasting-setup.md)
 - [Generare una previsione di base statistica](generate-statistical-baseline-forecast.md)
 - [Implementare correzioni manuali nella previsione di base](manual-adjustments-baseline-forecast.md)
+- [Pianificazione generale con previsioni della domanda](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

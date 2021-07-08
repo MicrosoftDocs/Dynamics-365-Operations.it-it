@@ -1208,9 +1208,9 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: Domande frequenti sulla creazione di report finanziari
               href: general-ledger/financial-reporting-faq.md
-        - name: Informazioni dettagliate finanziarie
+        - name: Finance insights
           items:
-            - name: Home page informazioni dettagliate finanziarie
+            - name: Home page di Finance insights
               href: finance-insights/finance-insights-home-page.md
             - name: Configurazione e amministrazione
               items:
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: Creare un progetto di integrazione dei dati
                   href: finance-insights/create-data-integrate-project.md
-            - name: Utilizzare le informazioni dettagliate finanziarie
+            - name: Utilizzare Finance insights
               items:
                 - name: Proposte di budget
                   href: finance-insights/budget-proposals.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Creare configurazioni ER in Regulatory Configuration Service e caricarle nel repository globale
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service - Eliminare un ambiente RCS
+                      href: localizations/rcs-delete-environment.md
                     - name: 'Regulatory Configuration Service: deprecazione dell''archiviazione di Lifecycle Services'
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Fatturazione elettronica
@@ -1476,7 +1478,7 @@
                       href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: Emissione di fatture elettroniche in Finance e Supply Chain Management
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Creare un conto di archiviazione di Azure e un Key Vault
+                    - name: Creare un account di archiviazione di Azure e un Key Vault
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: Dashboard di gestione utilizzo
                       href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Elenco vendite UE
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Creazione di report per il Regno Unito
+                          items:
+                            - name: Preparazione all'integrazione con MTD per l'IVA
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Aggiornamenti normativi
               href: localizations/regulatory-updates.md
             - name: Australia
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Registri delle imposte a debito di contabilità fornitori e annullamento delle somme dovute
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Fondi per crediti inesigibili in contabilità clienti
+                      href: localizations/rus-bad-debts.md
             - name: Arabia Saudita
               items:
                 - name: Panoramica Arabia Saudita
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Impostare gruppi di imposte IVA per IVA reverse charge
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Digitalizzare le imposte per l'IVA
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Statistiche sul report procedure di pagamento
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Stati Uniti
@@ -3665,6 +3671,12 @@
               items:
                 - name: Linguaggio delle formule
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Tipi di dati supportati per le formule per report elettronici
+                  items:
+                    - name: Tipi di dati primitivi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Tipi di dati compositi
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Funzioni
                   items:
                     - name: Contenitore
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: Pianificare i formati della creazione di report elettronici per generare documenti in uscita in diversi formati
               items:
+                - name: Progettare una configurazione per la generazione di report in formato OPENXML
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Progettare configurazioni per generare documenti in uscita in formato Excel
                   items:
                     - name: Progettare una configurazione per generare documenti in uscita in formato Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: Esempio di generazione di report in formato OPENXML
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Modificare i formati ER riapplicando modelli di Excel
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Aggiungere colonne in modo dinamico a report di Excel come intervalli espandibili orizzontalmente
@@ -4211,12 +4223,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Aggiornamento applicazione 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: Aggiornamento applicazione 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Specificare un percorso di archiviazione personalizzato per i documenti generati
                   items:
                     - name: Iscriversi a un evento per richiedere una risposta dal gestore di sottoscrizione
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Delegare la creazione di una destinazione report elettronico a una factory di destinazione personalizzata
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
+                    - name: Implementare una destinazione personalizzata per i documenti generati
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: Avviare i valori dell'origine dati del tipo USER INPUT PARAMETER dal codice sorgente
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: App per dispositivi mobili

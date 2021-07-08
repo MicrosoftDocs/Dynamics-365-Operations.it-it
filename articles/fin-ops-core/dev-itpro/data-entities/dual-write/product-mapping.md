@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941198"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306391"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -124,7 +124,7 @@ Le dimensioni prodotto sono caratteristiche che identificano una variante prodot
 
 Quando un prodotto ha dimensioni prodotto differenti (ad esempio una rappresentazione generale prodotto ha Colore e Prodotto come dimensioni prodotto, ovvero ogni variante prodotto) è definito come combinazione di tali dimensioni prodotto. Ad esempio, il numero prodotto B0001 è una maglietta nera di taglia XS e il numero prodotto B0002 è una maglietta nera di taglia S. In questo caso, le combinazioni esistenti delle dimensioni prodotto sono definite. Ad esempio, la maglietta dell'esempio precedente può essere nera e di taglia XS, S, M o L, ma non può essere nera e di taglia XL. In altre parole, le dimensioni prodotto che una rappresentazione generale prodotto può avere sono specificate e le varianti possono essere rilasciate in base a tali valori.
 
-Per tenere traccia delle dimensioni prodotto che una rappresentazione generale prodotto può utilizzare, le seguenti tabelle vengono create e mappate in Dataverse per ogni dimensione prodotto. Per ulteriori informazioni, vedere [Panoramica delle informazioni sul prodotto]../../../supply-chain/pim/product-information.md).
+Per tenere traccia delle dimensioni prodotto che una rappresentazione generale prodotto può utilizzare, le seguenti tabelle vengono create e mappate in Dataverse per ogni dimensione prodotto. Per ulteriori informazioni, vedere [Panoramica delle informazioni sul prodotto](../../../../supply-chain/pim/product-information.md). 
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 

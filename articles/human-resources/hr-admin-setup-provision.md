@@ -1,8 +1,8 @@
 ---
-title: Provisioning di Human Resources
-description: Questo articolo descrive il processo di provisioning di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources.
+title: Effettua il provisioning di Human Resources
+description: Questo argomento descrive il processo di provisioning di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193726"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248823"
 ---
-# <a name="provision-human-resources"></a>Provisioning di Human Resources
+# <a name="provision-human-resources"></a>Effettua il provisioning di Human Resources
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Questo articolo descrive il processo di provisioning di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources. In questo articolo si presuppone che Human Resources sia già stato acquistato tramite un provider di soluzioni cloud o un contratto Enterprise Architecture (EA). Se si dispone di una licenza per Microsoft Dynamics 365 che include già il piano di assistenza per Human Resources e non è possibile completare i passaggi in questo articolo, contattare il Supporto tecnico.
+Questo argomento descrive il processo di provisioning di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources. In questo argomento si presuppone che Human Resources sia già stato acquistato tramite un provider di soluzioni cloud o un contratto Enterprise Architecture (EA). Se si dispone di una licenza per Microsoft Dynamics 365 che include già il piano di assistenza per Human Resources e non è possibile completare i passaggi in questo articolo, contattare il Supporto tecnico.
 
 Per iniziare, l'amministratore globale deve accedere a [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) e creare un nuovo progetto Human Resources. A meno che un problema relativo alla licenza impedisca il provisioning di Human Resources, non è necessario rivolgersi al Supporto tecnico o ai rappresentanti di Dynamics Service Engineering (DSE).
+
+## <a name="provision-a-human-resources-trial-environment"></a>Effettuare il provisioning di un ambiente di valutazione per Human Resources
+
+Prima di eseguire il provisioning del tuo primo ambiente di produzione o sandbox, potresti voler eseguire il provisioning di un [Ambiente di valutazione di Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) per convalidare la funzionalità di Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. 
+
+Gli ambienti di valutazione non sono destinati all'utilizzo come ambienti di produzione. Sono limitati a un periodo di valutazione di 60 giorni. Quando un periodo di valutazione scade, l'ambiente e tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. L'ambiente non può essere convertito in sandbox o ambiente di produzione. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
 
 ## <a name="plan-human-resources-environments"></a>Pianificare gli ambienti Human Resources
 
@@ -94,8 +100,6 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Huma
 
     > [!NOTE]
     > Se non sono ancora stati completati i requisiti finali, è possibile distribuire un'istanza di prova di Human Resources nel progetto. È quindi possibile utilizzare l'istanza per testare la soluzione finché non si esegue la conferma. Se si utilizza il nuovo ambiente per i test, è necessario ripetere questa procedura per creare un ambiente di produzione.
-
-    > Considerare la possibilità di un periodo di 60 giorni gratuito per un [ambiente di prova di Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Tali ambienti non sono destinati all'utilizzo come ambienti di produzione. Si noti che quando un ambiente di prova scade dopo 60 giorni, tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
 
 ## <a name="select-a-power-apps-environment"></a>Selezionare un ambiente Power Apps
 

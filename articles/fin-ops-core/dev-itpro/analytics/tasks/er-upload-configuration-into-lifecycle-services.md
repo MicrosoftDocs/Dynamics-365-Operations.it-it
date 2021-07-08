@@ -2,7 +2,7 @@
 title: Caricare una configurazione in Lifecycle Services
 description: Questo argomento illustra come creare una nuova configurazione per la creazione di report elettronici e caricarla in Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0211fea7af303fe1dd7dce26f887bed4ed3b0f1e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 41a8fcf2592bde4901aba703e0cd124b1155dac6
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744917"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270561"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Caricare una configurazione in Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 In questo argomento viene illustrato come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova [configurazione per la creazione di report elettronici (ER)](../general-electronic-reporting.md#Configuration) e caricarla nella [raccolta di cespiti a livello di progetto](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> L'utilizzo di LCS come repository di archiviazione per le configurazioni ER è stato [deprecato](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Per ulteriori informazioni vedi [Regulatory Configuration Service (RCS) – Deprecazione dell'archiviazione di Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
 
 In questo esempio verrà creata una configurazione che sarà caricata in LCS per la società di esempio denominata Litware, Inc. Queste operazioni possono essere completate in qualsiasi società perché le configurazioni per la creazione di report elettronici sono condivise tra tutte le società. Per completare questi passaggi, è necessario dapprima completare i passaggi in [Creare provider di configurazione e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md). È richiesto anche l'accesso a LCS.
 

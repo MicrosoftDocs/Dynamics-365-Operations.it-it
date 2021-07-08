@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938302"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261748"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938302"
 > [!IMPORTANT]
 > La funzionalità di unità di scala per Microsoft Dynamics 365 Supply Chain Management è disponibile in base ai termini che regolano l'utilizzo del servizio. Per ulteriori informazioni, vedere [Informazioni legali di Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Abilitando le unità di scala nel cloud e nella rete perimetrale, l'utente dichiara di comprendere che alcuni dati correlati alla configurazione e all'elaborazione di unità di scala nel cloud e nella rete perimetrale potrebbero essere archiviati in un data center situato negli Stati Uniti. Per ulteriori informazioni sull'elaborazione dei dati per le unità di scala nel cloud e nella rete perimetrale, vedere la sezione [Elaborazione dati durante la gestione di unità scala](#data-processing-management) in questo argomento.
+> Quando abiliti le unità di scala nel cloud e nella rete perimetrale, ti viene richiesto di dichiarare di comprendere che alcuni dati correlati alla configurazione e all'elaborazione di unità di scala nel cloud e nella rete perimetrale potrebbero essere archiviati in un data center situato negli Stati Uniti. Per ulteriori informazioni sull'elaborazione dei dati per le unità di scala nel cloud e nella rete perimetrale, vedere la sezione [Elaborazione dati durante la gestione di unità scala](#data-processing-management) in questo argomento.
 
 ## <a name="core-value-proposition-for-scale-units"></a>Proposta di valori di base per le unità di scala
 

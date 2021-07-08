@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: cbc2b5870e855ff4d4a099a51cbb6887dd30bba7
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: f72ef77a35c484a40e1384baf69001bba6a333f6
+ms.sourcegitcommit: ec272aa133189569abaf4c09b03230611b5a756f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893554"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "6274538"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utilizzare le origini dati del codice a barre per generare immagini di codici a barre
 
@@ -116,14 +116,14 @@ Se l'esempio nell'argomento [Incorporare immagini e forme nei documenti generati
 
 | Descrizione contenuto         | Nome file                   |
 |-----------------------------|-----------------------------|
-| Configurazione del modello di dati ER | Model for cheques.xml       |
-| Configurazione di formato ER     | Cheques printing format.xml |
+| Configurazione del modello di dati ER | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| Configurazione di formato ER     | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 Inoltre, scaricare il seguente file Excel che contiene il modello modificato per la soluzione ER fornita.
 
 | Descrizione contenuto | Nome file                 |
 |---------------------|---------------------------|
-| Modello report     | Check template Excel.xlsx |
+| Modello report     | [Check template Excel.xlsx](https://download.microsoft.com/download/1/f/6/1f671963-73aa-48d5-ae69-45f21fe7dfb4/Cheque%20template.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Attivare un provider di configurazioni
 
@@ -224,7 +224,7 @@ Successivamente, è necessario associare il nuovo elemento di formato all'origin
 
     ![Dettagli sull'origine dati del codice a barre nella pagina della progettazione delle operazioni ER](./media/er-barcode-data-source-bind1.png)
 
-5. Selezionare **Modifica formula** per regolare l'associazione.
+5. Selezionare **Modifica formula** per rettificare l'associazione.
 
     Non si desidera che venga restituito il nome dell'elemento cella. Pertanto, è necessario configurare un'espressione che restituisca il testo contenente l'importo da pagare dell'assegno corrente. Perché l'intervallo **ChequeLines** padre è associato all'origine dati **model.cheques**, l'importo da pagare dell'assegno corrente è disponibile nel campo **model.cheques.attributes.amount** del tipo di dati **Reale**.
 

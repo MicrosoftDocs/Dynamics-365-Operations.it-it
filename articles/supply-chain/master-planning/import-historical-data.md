@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908882"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301652"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importare dati storici per le previsioni della domanda
 
@@ -39,26 +39,6 @@ Per utilizzare questa entità di dati, è necessario disporre di un file di Micr
 
 Per ulteriori informazioni su come importare i dati, incluso come pulire i dati dopo un'importazione, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ed argomenti correlati.
 
-## <a name="example"></a>Esempio
-
-È possibile utilizzare il seguente file come esempio. Scaricare [HistoricalDemandData](/dynamics/s-e/). Questo file contiene i dati storici della domanda per l'articolo D0001. Contiene solo i seguenti campi obbligatori: sito, quantità e data della domanda.
-
-1. Selezionare la società in cui importare i dati storici della domanda.
-2. Aprire l'area di lavoro **Gestione dei dati**.
-3. Selezionare il riquadro **Importa**.
-4. Immettere un nome per il progetto di importazione, ad esempio **Importare dati storici della domanda per l'articolo D0001**.
-5. Nel campo **Formato dati di origine**, selezionare il formato del file da importare. Per importare il file HistoricalDemandData per questo esempio, selezionare **CSV**.
-6. Nel campo **Nome entità**, selezionare **Domanda esterna storica**.
-7. Salvare il file nel computer e quindi caricarlo.
-8. Selezionare **Importa**.
-9. La pagina **Riepilogo esecuzione** viene visualizzata automaticamente. Verificare i dati importati nella pagina.
-
-Dopo aver importato i dati storici della domanda, è possibile generare una previsione della domanda.
-
-## <a name="additional-resources"></a>Risorse aggiuntive
-
-[Generare una previsione di base statistica](generate-statistical-baseline-forecast.md)  
-[Panoramica processi di importazione ed esportazione dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Vedi anche [Generare una previsione di base statistica](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

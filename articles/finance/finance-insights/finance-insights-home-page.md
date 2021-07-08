@@ -1,6 +1,6 @@
 ---
-title: Home page informazioni dettagliate finanziarie (anteprima)
-description: Informazioni dettagliate finanziarie fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti.
+title: Home page di Finance insights (anteprima)
+description: Finance insights fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti.
 author: ShivamPandey-msft
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,35 +15,38 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
+ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222512"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261912"
 ---
-# <a name="finance-insights-home-page-preview"></a>Home page informazioni dettagliate finanziarie (anteprima)
+# <a name="finance-insights-home-page-preview"></a>Home page di Finance insights (anteprima)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Informazioni dettagliate finanziarie fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti. Quando queste nuove funzionalità vengono combinate con l'automazione nei pagamenti e negli incassi dei fornitori, costituiscono un sistema finanziario avanzato e intelligente che guida il processo decisionale e ti aiuta ad agire per rispondere efficacemente alle sfide aziendali attuali e previste.
+Finance insights fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti. Quando queste nuove funzionalità vengono combinate con l'automazione nei pagamenti e negli incassi dei fornitori, costituiscono un sistema finanziario avanzato e intelligente che guida il processo decisionale e ti aiuta ad agire per rispondere efficacemente alle sfide aziendali attuali e previste.
 
-È disponibile un'anteprima di Informazioni dettagliate finanziarie per le distribuzioni di valutazione negli Stati Uniti, in Europa e nel Regno Unito. Microsoft sta aggiungendo in modo incrementale il supporto per più aree geografiche.
+È disponibile un'anteprima di Finance insights per le distribuzioni di valutazione negli Stati Uniti, in Europa e nel Regno Unito. Microsoft sta aggiungendo in modo incrementale il supporto per più aree geografiche.
 
 Le funzionalità di anteprima possono e devono essere attivate solo negli ambienti sandbox di livello 2. I modelli di configurazione e intelligenza artificiale creati in un ambiente sandbox non possono essere migrati in un ambiente di produzione. Per ulteriori informazioni, vedi [Condizioni integrative per le versioni di anteprima di Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
+> [!NOTE]
+> Questa funzionalità viene offerta come un set di funzionalità di anteprima. Come funzionalità di anteprima, non dovresti utilizzare i modelli di machine learning risultanti per guidare o influenzare le tue decisioni aziendali o proposte di budget. L'utilizzo di questa funzione è regolato dalle [Condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).
+
 ## <a name="prerequisites"></a>Prerequisiti
 
-Questa sezione elenca i requisiti per l'utilizzo di Finance Insights. Ove possibile, vengono forniti collegamenti a fonti di informazioni aggiuntive.
+Questa sezione elenca i requisiti per l'utilizzo di Finance insights. Ove possibile, vengono forniti collegamenti a fonti di informazioni aggiuntive.
 
 ### <a name="legal-requirements"></a>Requisiti legali
 
-Per candidarti al programma di anteprima, compila il [contratto per l'anteprima di Finance Insights per Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
+Per candidarti al programma di anteprima, compila il [contratto per l'anteprima di Finance insights per Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
 
 ### <a name="system-requirements"></a>Requisiti di sistema
 
-È necessario un ambiente sandbox di livello 2 (multi-box) per visualizzare in anteprima Finance Insights. Per informazioni di background sugli ambienti, vedere [Pianificazione ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+È necessario un ambiente sandbox di livello 2 (multi-box) per visualizzare in anteprima Finance insights. Per informazioni di background sugli ambienti, vedere [Pianificazione ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Requisiti di versione
 
@@ -66,17 +69,17 @@ Le modifiche verranno apportate a Microsoft Dynamics 365 Finance, Microsoft Dyna
 
 La conoscenza del processo di creazione e gestione delle risorse in Azure, Microsoft Dataverse e LCS sarà utile durante il completamento di questo processo.
 
-## <a name="configure-finance-insights"></a>Configurare le informazioni dettagliate finanziarie
+## <a name="configure-finance-insights"></a>Configurare Finance insights
 
-È necessario completare alcuni passaggi di configurazione prima di poter utilizzare Finance Insights. Per ulteriori informazioni sulla configurazione di Finance Insights, vedere.
-  - Per le versioni fino alla 10.0.19: [Configurazione per Finance Insights - versioni fino alla 10.0.19](configure-for-fin-insites.md).
+È necessario completare alcuni passaggi di configurazione prima di poter utilizzare Finance insights. Per ulteriori informazioni sulla configurazione di Finance insights, vedere.
+  - Per le versioni fino alla 10.0.19: [Configurazione per Finance insights - versioni fino alla 10.0.19](configure-for-fin-insites.md).
   - Per le versioni 10.0.20 e successive: [Configurazione per Finance Insights (anteprima) - versioni 10.0.20 e successive](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Creare un progetto di integrazione dei dati
 
 Dovrai creare un progetto di integrazione di dati in modo da creare un flusso di dati generati dal modello di apprendimento automatico in Dynamics 365 Finance. Per i passaggi per creare tale progetto, vedi [Crea un progetto di integrazione dei dati](create-data-integrate-project.md).
 
-## <a name="enable-finance-insights-capabilities"></a>Abilitare le funzionalità di Finance Insights
+## <a name="enable-finance-insights-capabilities"></a>Abilitare le funzionalità di Finance insights
 
 Dopo aver completato i passaggi di configurazione e configurato i dati demo, è necessario attivare e configurare ogni funzionalità che prevedi di utilizzare: previsioni di pagamento del cliente, previsione di cassa e proposte di budget.
 
@@ -92,7 +95,7 @@ Per abilitare la previsione di cassa, è necessario completare una serie di pass
 
 La funzione Proposte di budget utilizza un modello di apprendimento automatico insieme ai dati storici della tua organizzazione per generare una proposta di budget. La proposta generata può aiutarti a iniziare un processo di definizione del budget più efficace ed efficiente di un processo manuale. Per i passaggi specifici per abilitare questa funzionalità, vedi [Abilitare proposte di budget](enable-budget-proposal.md). 
 
-## <a name="using-finance-insights-features"></a>Utilizzo delle funzionalità di Finance Insights
+## <a name="using-finance-insights-features"></a>Utilizzo delle funzionalità di Finance insights
 
 ### <a name="using-customer-payment-predictions"></a>Utilizzo delle previsioni di pagamento del cliente
 
@@ -100,7 +103,7 @@ La previsione di cassa intelligente si basa sulla funzionalità di previsione di
 
 - Per scoprire come le previsioni di pagamento del cliente possono fornire le informazioni necessarie per svolgere proattivamente le attività di riscossione, vedi [Utilizza le previsioni di pagamento del cliente](use-customer-payment-predictions.md).
 - Per informazioni che possono aiutare a valutare l'efficacia del modello di previsione dopo aver iniziato a utilizzare la funzionalità, vedi [Valutare il modello di previsione del pagamento del cliente iniziale](evaluate-payment-prediction.md).
-- Per informazioni che possono aiutare a regolare i dati utilizzati per costruire la previsione e quindi migliorarne l'efficacia, vedi [Migliorare il modello di previsione](improve-model.md).
+- Per informazioni che possono aiutare a rettificare i dati utilizzati per costruire la previsione e quindi migliorarne l'efficacia, vedi [Migliorare il modello di previsione](improve-model.md).
 
 Per ulteriori informazioni sui risultati dei modelli di previsione IA, vedi [Risultati dei modelli di apprendimento automatico](confusion-matrix.md).
 

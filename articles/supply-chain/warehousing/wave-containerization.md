@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019053"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292739"
 ---
 # <a name="containerization"></a>Containerizzazione
 
@@ -108,6 +108,8 @@ Per impostare un modello di versione del contenitore, effettua le operazioni seg
 
       - **Imballa in tutti i contenitori aperti**: il sistema valuta se la riga di allocazione potrà essere inserita in qualsiasi contenitore creato durante il ciclo di containerizzazione.
       - **Imballa solo nel contenitore corrente**: il sistema valuta solo se la riga di allocazione potrà essere inserita nell'ultimo contenitore creato.
+
+    Per ulteriori informazioni ed esempi che mostrano come lavorare con le strategie di imballaggio dei contenitori, vedi [Strategie di imballaggio dei contenitori](container-packing-strategy-overview.md).
 
 1. Per impostare le regole di imballaggio delle righe di allocazione in contenitori seleziona **Suddivisioni logica combinazione**. È ad esempio possibile creare una regola di permetterà ai lavoratori di imballare le righe di allocazione di due articoli diversi nello stesso contenitore. Per definire una regola di combinazione, completa i passaggi seguenti:
 
