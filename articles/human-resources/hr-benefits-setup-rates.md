@@ -2,7 +2,7 @@
 title: Configurare le tariffe
 description: I tassi in Microsoft Dynamics 365 Human Resources definiscono la quantità di datori di lavoro e dipendenti che versano contributi per un benefit.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054982"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266659"
 ---
 # <a name="configure-rates"></a>Configurare le tariffe
 
@@ -46,7 +46,7 @@ Utilizzare i tassi per determinare la quantità di dipendenti e datori di lavoro
    | **Scadenza** | La data di fine del tasso. 31/12/2154 (che rappresenta mai) è il valore predefinito. |
    | **Usa livelli** | Il livello da utilizzare per il calcolo del tasso di benefit. Livello singolo per un tasso di benefit a un livello o Doppio livello per un tasso di benefit a due livelli. Un esempio di Doppio livello è un livello basato su sesso e età. |
    | **Frequenza pagamenti** | La frequenza di pagamento che determina ogni quanto tempo viene versato il tasso di premio benefit al fornitore del benefit. Ad esempio, se la frequenza di pagamento è mensile, il tasso di benefit rappresenta l'importo del pagamento mensile. |
-   | **Arrotondamento tasso di frequenza pagamenti** | Il metodo per arrotondare il tasso: Standard o Troncato. |
+   | **Arrotondamento tasso di frequenza pagamenti** | I metodi per arrotondare il tasso sono: Standard, Troncato, Normale, Per difetto e Per eccesso. </br></br><ul><li>**Standard** - Arrotonda sempre. Ad esempio, 10,611 verrà arrotondato a 10,62. -10,231 verrà arrotondato a -10,23. </li><li>**Troncato** - Arrotonda sempre per difetto. Ad esempio, 10,619 verrà arrotondato a 10,61. -10,231 verrà arrotondato a -10,24. </li><li>**Normale** - I valori decimali che terminano con 5 o più di 5 verranno arrotondati per difetto. I valori decimali che terminano con 4 o meno di 4 verranno arrotondati allo zero. Ad esempio, 10,615 verrà arrotondato a 10,62. -10,235 verrà arrotondato a -10,24. 10,614 verrà arrotondato a 10,61. -10,234 verrà arrotondato a -10,23. </li><li>**Per difetto** - Arrotonda per difetto. Ad esempio, 10,619 verrà arrotondato a 10,61. -10,231 verrà arrotondato a -10,23. </li><li>**Per eccesso** - Arrotonda in eccesso. Ad esempio, 10,619 verrà arrotondato a 10,62. -10,231 verrà arrotondato a -10,24. |
    | **Importo dipendente non fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |
    | **Importo datore di lavoro non fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |
    | **Importo dipendente fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |

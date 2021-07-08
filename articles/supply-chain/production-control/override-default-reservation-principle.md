@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814804"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270789"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Ignorare il principio di prenotazione predefinito per i materiali in produzione
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 La funzionalità *Ignora prenotazione di produzione predefinita* consente di impostare un principio di prenotazione predefinito per ogni gruppo di modelli di articoli. Pertanto, è possibile applicare automaticamente principi di prenotazione diversi per ogni articolo che fa parte di una distinta base di produzione (BOM) o di una formula di ordine batch. È possibile selezionare se ogni gruppo di modelli di articolo deve ignorare il principio di prenotazione predefinito impostato per un ordine e quale principio di prenotazione deve essere utilizzato al suo posto (*Manuale*, *Stima*, *pianificazione*, *rilascio* o *inizio*).
 
@@ -37,7 +36,7 @@ Ad esempio, se si dispone di materie prime o ingredienti che richiedono un lavor
 Prima di poter utilizzare questa funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Controllo produzione*
-- **Nome funzionalità:** *(Anteprima) Ignora prenotazione di produzione predefinita*
+- **Nome funzionalità:** *Ignora prenotazione di produzione predefinita*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Assegnare un criterio di prenotazione di produzione a un gruppo di modelli di articoli
 
