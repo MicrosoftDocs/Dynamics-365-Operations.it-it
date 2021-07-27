@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812910"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347712"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Migliorare le prestazioni del motore di pianificazione
 
@@ -66,11 +66,11 @@ Ad esempio, considera un ciclo di lavorazione nella tabella e nell'immagine segu
 | 10 | Secondaria&nbsp;1 | | | | 1 | 20 |
 | 20 | Primario | | 3.00 | 1.00 | 3 | 0 |
 
-![Esempio di diagramma di ciclo di lavorazione](media/scheduling-engine-route.png "Esempio di diagramma di ciclo di lavorazione")
+![Esempio di diagramma di ciclo di lavorazione.](media/scheduling-engine-route.png "Esempio di diagramma di ciclo di lavorazione")
 
 Quando inviato al motore, questo ciclo di lavorazione viene suddiviso in otto processi, come mostrato nell'illustrazione seguente (seleziona l'immagine per ingrandirla).
 
-[![Processi del motore di pianificazione](media/scheduling-engine-jobs.png "Processi del motore di pianificazione")](media/scheduling-engine-jobs-large.png)
+[![Processi del motore di pianificazione](media/scheduling-engine-jobs.png "Processi del motore di pianificazione".](media/scheduling-engine-jobs-large.png)
 
 Il collegamento standard tra due processi è `FinishStart`, il che significa che l'ora di fine di un processo deve essere precedente all'ora di inizio di un altro processo. Poiché la configurazione deve essere eseguita dalla stessa risorsa che in seguito eseguirà il processo, ci sono vincoli `OnSameResource` tra gli stessi. Tra i processi per l'operazione primaria e secondaria per 10, ci sono collegamenti `StartStart` e `FinishFinish`, il che significa che i processi devono iniziare e finire allo stesso tempo, e ci sono vincoli `NotOnSameResource` , che impediranno l'utilizzo della stessa risorsa per l'operazione primaria e quella secondaria.
 

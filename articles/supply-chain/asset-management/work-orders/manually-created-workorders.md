@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839561"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354859"
 ---
 # <a name="manually-created-work-orders"></a>Ordini di lavoro creati manualmente
 
@@ -111,7 +111,7 @@ Notare i punti seguenti:
 
 Nella figura seguente è illustrato un esempio della finestra di dialogo **Crea ordine di lavoro correlato**.
 
-![Figura 1](media/03-work-orders.png)
+![Figura 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Se è stata impostata una maschera di ordine di lavoro correlato in **Parametri di gestione cespiti** > scheda **Ordini di lavoro** > campo **Maschera ordini di lavoro correlati**, gli ID di ordine di lavoro saranno creati in base all'impostazione della maschera. Se non è stata impostata una maschera di ordine di lavoro correlato, per gli ordini di lavoro correlati viene utilizzato l'ID di ordine di lavoro disponibile successivo.
@@ -137,7 +137,7 @@ Nella figura seguente è illustrato un esempio della finestra di dialogo **Crea 
 
 Nella figura seguente è illustrato un esempio della finestra di dialogo **Copia ordine di lavoro**.
 
-![Figura 2](media/04-work-orders.png)
+![Figura 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Creare un ordine di lavoro basato su una richiesta di intervento di manutenzione
@@ -157,7 +157,7 @@ Nella figura seguente è illustrato un esempio della finestra di dialogo **Copia
 
 Nella figura seguente è illustrato un esempio della finestra di dialogo **Creare ordine di lavoro**.
 
-![Figura 3](media/05-work-orders.png)
+![Figura 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

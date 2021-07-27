@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7b5f8303ea23f4f38bf27d35de0fa91ab82f4b5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028109"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354471"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Registrazione attività e Guida per Retail Modern POS (MPOS) e Cloud POS
 
@@ -55,14 +55,14 @@ Attenersi alla procedura seguente per creare una nuova registrazione utilizzando
 1. Avviare Retail Modern POS o Cloud POS e accedere.
 2. Nella pagina **Impostazioni**, nella sezione **Registrazione attività**, scegliere **Apri registrazione attività**. Il riquadro **Registrazione attività** viene visualizzato. È possibile fare clic sul pulsante **Chiudi** (**X**) nell'angolo superiore destro per chiudere il riquadro **Registrazione attività** prima di avviare una nuova registrazione. Per riaprire il riquadro, ripeti il passaggio 2.
 
-    [![Riquadro Registrazione attività](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![Riquadro Registrazione attività.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. Immettere un nome e una descrizione per la registrazione, quindi fare clic su **Avvia**. La sessione di registrazione inizia non appena si fa clic su **Avvia**.
 
     > [!NOTE]
     > Se si fa clic sul pulsante **Chiudi** (**X**) nell'angolo superiore destro mentre la registrazione è in corso, il riquadro **Registrazione attività** viene chiuso, ma la sessione di registrazione non viene terminata. Per riaprire il riquadro Registrazione attività, fare clic sul pulsante **Guida** (punto interrogativo) nella parte superiore dello schermo.
     >
-    > [![Punto interrogativo](./media/help.jpg)](./media/help.jpg)
+    > [![Punto interrogativo.](./media/help.jpg)](./media/help.jpg)
 
 4. Dopo aver fatto clic su **Avvia**, la funzione Registrazione attività attiva la modalità di registrazione. Nel riquadro **Registrazione attività** vengono visualizzate le informazioni e i controlli relativi al processo di registrazione.
 5. Eseguire le azioni desiderate nell'interfaccia utente di Retail Modern POS o Cloud POS.
@@ -72,7 +72,7 @@ Attenersi alla procedura seguente per creare una nuova registrazione utilizzando
 
 Dopo aver chiuso la sessione di registrazione, vengono visualizzate diverse opzioni in modo da poter scaricare la registrazione.
 
-[![Opzioni di download](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![Opzioni di download.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>Salva nel PC
 
@@ -88,9 +88,9 @@ Il file di registrazione non elaborato è utile per gli scenari di sviluppo, ad 
 
 ## <a name="recording-controls"></a>Comandi di registrazione
 
-[![Comandi di registrazione](./media/controls.jpg)](./media/controls.jpg)
+[![Comandi di registrazione.](./media/controls.jpg)](./media/controls.jpg)
 
-### <a name="stop"></a>Fine
+### <a name="stop"></a>Arresta
 
 Per chiudere la sessione di registrazione fare clic su **Interrompi**. Tenere presente che non sarà possibile riavviare la sessione dopo che è stata chiusa. Di conseguenza, verificare che la registrazione sia stata completata prima di chiuderla.
 
@@ -117,13 +117,13 @@ Registrazione attività può acquisire schermate dell'interfaccia utente di Reta
 
 Un'annotazione è un testo aggiuntivo che viene aggiunto a un passaggio in una registrazione. Ad esempio, è possibile utilizzare le annotazioni per fornire all'utente più contesto o istruzioni. È possibile aggiungere le annotazioni prima o dopo un passaggio. È possibile aggiungere un'annotazione a qualsiasi passaggio facendo clic sul pulsante **Modifica** (simbolo della matita) a destra del passaggio.
 
-[![Pulsante Modifica per un passaggio](./media/annotate.jpg)](./media/annotate.jpg)
+[![Pulsante Modifica per un passaggio.](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>Testi e note
 
 È possibile utilizzare i campi **Note** e **Testi** per aggiungere il testo che deve essere associato a un passaggio di una guida attività.
 
-[![Campi Testo e Note](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![Campi Testo e Note.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>Testo
 
@@ -137,7 +137,7 @@ Il testo che viene immesso nel campo **Note** viene riportato *sotto* il testo d
 
 Per visualizzare i file di Registrazione attività personalizzati nel riquadro della Guida di Retail Modern POS e Cloud POS in modo che possano essere visualizzati come testo, è necessario salvare i file di Registrazione attività nella libreria BPM, quindi aggiornare i parametri di sistema della Guida in modo che puntino alla libreria BPM. Per ulteriori informazioni vedere [Connessione alla Guida](../fin-ops-core/fin-ops/get-started/help-connect.md). La Guida di Retail Modern POS e Cloud POS esegue le ricerche in LCS in tempo reale. Cerca in tutte le raccolte BPM selezionate nei parametri di sistema della Guida di Commerce e visualizza i risultati rilevanti. Per accedere al menu **Guida**, fare clic sul pulsante **Guida** (punto interrogativo) nella parte superiore della schermata, quindi digitare nella casella di ricerca il nome del processo e selezionare il pulsante di ricerca.
 
-[![Pulsante ?](./media/help.jpg)](./media/help.jpg)
+[![Pulsante ?.](./media/help.jpg)](./media/help.jpg)
 
 Quando si fa clic su una Guida attività nei risultati della ricerca, è possibile visualizzare i passaggi come argomento della Guida o esportare i passaggi in un documento Word.
 

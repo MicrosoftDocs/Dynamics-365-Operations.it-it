@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b79c93c4920d7f40e88aa7d463961128ea9e83c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894006"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347926"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destinazione stampante
 
@@ -39,7 +39,7 @@ Per rendere disponibile la destinazione **Stampante** nell'istanza corrente di M
 1. Convertire i documenti in uscita per la creazione di report elettronici dai formati di Microsoft Office in PDF
 2. Agente di distribuzione dei documenti come destinazione della creazione di report elettronici per i documenti in uscita
 
-[![Attivazione della funzionalità Destinazione stampante ER in Gestione funzionalità](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Attivazione della funzionalità Destinazione stampante ER in Gestione funzionalità.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Applicabilità
 
@@ -55,7 +55,7 @@ La destinazione **Stampante** è implementata solo per le distribuzioni cloud.
 2. Nel campo **Nome stampante**, selezionare la stampante di rete necessaria.
 3. Impostare l'opzione **Salvare nell'archivio di stampa?** su **Sì** per archiviare l'output generato nell'archivio di stampa, di modo che sia disponibile per ulteriori stampe. Per accedere all'output archiviato in un secondo momento, selezionare **Amministrazione organizzazione** \> **Richieste di informazioni e report** \> **Report archivio**.
 
-[![Utilizzare la destinazione Stampante](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Utilizzo della destinazione Stampante.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > L'opzione **Converti in PDF** non deve essere attivata quando si configura la destinazione **Stampante**. La conversione in PDF per scopi di stampa avverrà anche se l'opzione è disattivata.

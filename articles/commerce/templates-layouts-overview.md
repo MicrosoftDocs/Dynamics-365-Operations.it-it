@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804043"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347418"
 ---
 # <a name="templates-and-layouts-overview"></a>Panoramica modelli e layout
 
@@ -32,7 +33,7 @@ Un ottimo modo di iniziare a utilizzare i modelli è comprendere i vantaggi funz
 
 Nella figura seguente è illustrata la gerarchia dei modelli di pagina dietro una pagina Web di cui è stato eseguito il rendering.
 
-![Diagramma del modello di pagina](../commerce/media/page-model-diagram.png)
+![Diagramma del modello di pagina.](../commerce/media/page-model-diagram.png)
 
 | Entità        | Funzione di base |
 |---------------|----------------|
@@ -98,7 +99,7 @@ Il layout preimpostato e i layout personalizzati vengono modificati in diverse p
 
 Le seguenti illustrazioni visualizzano scenari per layout preimpostati e personalizzati.
 
-![Scenari con layout preimpostati e personalizzati](../commerce/media/template-figure1.png)
+![Scenari con layout preimpostati e personalizzati.](../commerce/media/template-figure1.png)
 
 Per iniziare a utilizzare layout preimpostati, vedere [Utilizzare layout preimpostati](work-with-layouts.md).
 

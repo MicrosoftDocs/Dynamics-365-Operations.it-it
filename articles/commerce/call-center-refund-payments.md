@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 130f570646d73e37a790ab90ae9a1d6a48b0f8b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799591"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351371"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Elaborazione di pagamento per il rimborso nei servizi clienti
 
@@ -37,7 +37,7 @@ Il servizio clienti utilizza il metodo di pagamento dell'ordine originale per de
 
     La figura seguente mostra la configurazione per uno scenario in cui un cliente restituisce prodotti da un ordine cliente collegato alla valuta USD e che è stato originariamente pagato utilizzando il tipo di pagamento noAutorizzazione per la restituzione dei materiali o assegno. In questo scenario, verrà emesso un rimborso al cliente tramite un assegno di rimborso generato dal sistema. Il metodo di pagamento AR **REF-CHK** è stato configurato come tipo di pagamento assegno di rimborso.
 
-    ![Configurazione dei metodi di rimborso del servizio clienti per pagamenti noAutorizzazione per la restituzione dei materiali e verifica dei pagamenti originali](media/callcenterrefundmethods.png)
+    ![Configurazione dei metodi di rimborso del servizio clienti per pagamenti noAutorizzazione per la restituzione dei materiali e verifica dei pagamenti originali.](media/callcenterrefundmethods.png)
 
 - **Carta di credito** - Quando un ordine di reso creato fa riferimento a un ordine originale pagato utilizzando una carta di credito, la logica del servizio clienti per i pagamenti di rimborso applica la stessa carta di credito originale all'ordine di reso.
 - **Carta fedeltà** - Quando un ordine di reso creato fa riferimento a un ordine originale pagato utilizzando una carta fedeltà del cliente, la logica del servizio clienti per i pagamenti di rimborso applica il rimborso alla stessa carta fedeltà.
@@ -48,7 +48,7 @@ Se il tipo di pagamento dell'ordine originale è sconosciuto per qualsiasi motiv
 
 La figura seguente mostra il campo **Metodo di pagamento** nella scheda **NAR/Reso** della pagina **Parametri servizio clienti**.
 
-![Campo Metodo di pagamento nella scheda NAR/Reso della pagina Parametri servizio clienti](media/callcenterrefundparameters.png)
+![Campo Metodo di pagamento nella scheda NAR/Reso della pagina Parametri servizio clienti.](media/callcenterrefundparameters.png)
 
 > [!NOTE]
 > Le regole di elaborazione del rimborso descritte in precedenza si applicano anche agli ordini o alle righe ordine che un utente del servizio clienti annulla in Commerce headquarters. Se l'annullamento di un ordine o di righe di ordine specifiche causa pagamenti in eccesso, le stesse regole verranno utilizzate per generare righe di pagamento per il rimborso.
@@ -82,7 +82,7 @@ L'impostazione **Sì** per l'opzione **Applica credito** è applicabile solo qua
 > [!NOTE]
 > Per un ordine di reso che non ha un ordine di sostituzione collegato, un'impostazione di **Sì** per l'opzione **Applica credito** non avrà alcun effetto sulla logica di pagamento dell'ordine di reso, poiché questa impostazione si applica solo agli ordini di sostituzione.
 
-![Campo Applica il metodo di pagamento crediti nella scheda NAR/Reso della pagina Parametri del servizio clienti](media/callcenterrefundparameters1.png)
+![Campo Applica il metodo di pagamento crediti nella scheda NAR/Reso della pagina Parametri del servizio clienti.](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
 > Se gli utenti che creano ordini di sostituzione prevedono di utilizzare l'opzione **Applica credito** non devono eseguire la funzione **Completa** nell'ordine di reso prima di impostare l'opzione **Applica credito** su **Sì**. Dopo che la funzione **Completa** viene eseguita, il pagamento del rimborso viene calcolato e applicato all'ordine di reso cliente. Qualsiasi tentativo di impostare l'opzione **Applica credito** su **Sì** dopo che un pagamento di rimborso è già stato calcolato e applicato non attiverà un ricalcolo del pagamento di rimborso e il metodo di pagamento selezionato nel campo **Applica metodo di pagamento crediti** non verrà applicato. Se l'opzione **Applica credito** deve essere utilizzata in questo contesto, l'utente deve eliminare l'ordine di sostituzione e l'autorizzazione per la restituzione dei materiali, quindi ricominciare e creare una nuova Autorizzazione per la restituzione dei materiali. Questa volta, l'utente deve assicurarsi che l'opzione **Applica credito** sia impostata su **Sì** prima di eseguire la funzione **Completa**.
@@ -91,14 +91,14 @@ L'impostazione **Sì** per l'opzione **Applica credito** è applicabile solo qua
 
 Sebbene la logica del servizio clienti determini sistematicamente il metodo di pagamento del rimborso nel modo descritto in precedenza in questo argomento, gli utenti a volte potrebbero voler sostituire tali pagamenti. Ad esempio, un utente potrebbe modificare o rimuovere righe di pagamento di rimborso esistenti e applicare nuove righe di pagamento. I pagamenti dei rimborsi calcolati dal sistema possono essere modificati solo dagli utenti che dispongono delle autorizzazioni di sostituzione corrette. Queste autorizzazioni possono essere configurate nella pagina **Autorizzazioni di sostituzione** in Retail e Commerce. Per eseguire una sostituzione del pagamento con rimborso, l'utente deve essere collegato a un ruolo di sicurezza in cui l'opzione **Consenti pagamento alternativo** è impostata su **Sì** nella pagina **Autorizzazioni di sostituzione**.
 
-![Consenti opzione di pagamento alternativo nella pagina Autorizzazioni di sostituzione](media/overridepermissions.png)
+![Consenti opzione di pagamento alternativo nella pagina Autorizzazioni di sostituzione.](media/overridepermissions.png)
 
 In alternativa, un'organizzazione può impostare l'opzione **Consenti sostituzione pagamento** su **Sì** nella scheda **NAR/Reso** della pagina **Parametri servizio clienti**. In questo caso, è necessario selezionare un codice di sostituzione di sicurezza nel campo **Codice di sostituzione sicurezza**. Il codice di sostituzione di sicurezza è un codice alfanumerico che deve essere gestito esternamente, poiché gli utenti non possono visualizzarlo in Commerce headquarters dopo che è stato impostato. Il codice di sostituzione della sicurezza deve essere conosciuto solo da poche persone chiave e fidate in un'organizzazione. Quando l'opzione **Consenti sostituzione pagamento** è impostata su **Sì**, se gli utenti che non dispongono delle autorizzazioni di ruolo corrette tentano di modificare il metodo di pagamento in un ordine di reso, avranno la possibilità di inserire il codice di sostituzione di sicurezza. Se non lo sanno o se un responsabile o un supervisore non può inserirlo nella pagina, non potranno sostituire il metodo di pagamento del reso.
 
 > [!NOTE]
 > Se il codice di sostituzione di sicurezza viene perso o dimenticato, l'organizzazione dovrà ripristinarlo definendo un nuovo codice di sostituzione di sicurezza nel campo **Codice di sostituzione di sicurezza** nella scheda **NAR/Reso** della pagina **Parametri servizio clienti**.
 
-![Parametri di sostituzione pagamento nella scheda NAR/Reso della pagina Parametri servizio clienti](media/overridepaymentparameter.png)
+![Parametri di sostituzione pagamento nella scheda NAR/Reso della pagina Parametri servizio clienti.](media/overridepaymentparameter.png)
 
 > [!IMPORTANT]
 > Prima che le organizzazioni provino a sostituire i pagamenti con rimborso che utilizzano i tipi di pagamento con carta di credito, devono verificare che il loro sistema di elaborazione delle carte di credito consenta resi non collegati. Molti sistemi di elaborazione delle carte di credito richiedono che i rimborsi vengano riportati sulla carta originale. Qualsiasi tentativo di emettere un rimborso su una carta che non ha acquisizioni precedenti potrebbe causare errori di registrazione con il sistema di elaborazione delle carte di credito.

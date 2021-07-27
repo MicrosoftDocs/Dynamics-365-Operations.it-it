@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e1d2d600a00ab71348fbef2bc2f30cc53bc5314
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59887b058346d55341e68d553ec5dfbc6eb365d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797793"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347568"
 ---
 # <a name="container-module"></a>Modulo contenitore
 
@@ -42,11 +42,11 @@ Sono supportati tre moduli Contenitore: contenitore, contenitore con 2 slot e co
 
 L'immagine seguente mostra un esempio di un modulo Contenitore che contiene un modulo Sequenza in Creazione di siti Web Commerce. In questo esempio, la proprietà **Larghezza** del modulo Contenitore è impostata su **Riempi schermo**.
 
-![Esempio di modulo Contenitore](./media/ecommerce-container.PNG)
+![Esempio di modulo Contenitore.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Proprietà del modulo Contenitore
 
-| Nome proprietà     | Valori | Descrizione |
+| Nome proprietà     | Valori | descrizione |
 |-------------------|--------|-------------|
 | Intestazione           | Testo e tag di intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**), | Un'intestazione facoltativa può essere fornita per il contenitore. Per impostazione predefinita, il tag di intestazione **H2** è utilizzato per l'intestazione. Tuttavia, il tag può essere modificato per soddisfare i requisiti di accessibilità. |
 | Larghezza             | **Adatta a contenitore** o **Riempi schermo** | Se il valore è **Adatta a contenitore** (il valore predefinito), i moduli nel contenitore sono limitati alla larghezza del contenitore. Se il valore impostato è **Riempi schermo**, i moduli non sono limitati alla larghezza del contenitore ma possono essere visualizzati in modalità a schermo intero. |

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216614"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346622"
 ---
 # <a name="party-and-global-address-book"></a>Rubrica globale e parte
 
@@ -41,7 +41,7 @@ Il modello della parte viene spesso utilizzato per rappresentare relazioni da me
 
 L'immagine seguente mostra il modello di dati per la parte.
 
-![Modello di dati per la parte](media/party-gab-image1.png)
+![Modello di dati per la parte.](media/party-gab-image1.png)
 
 > [!TIP]
 > Quando tenti di creare un nuovo record di conto, utilizza il campo **Parte** per cercare il record in base al nome. In questo modo, se trovi il record, devi solo selezionarlo. Il sistema compila quindi automaticamente tutti i dati della parte. Non è necessario impostare manualmente tutti i campi obbligatori. Questo comportamento può essere trovato nelle pagine predefinite **Conto**, **Contatto** e **Fornitore**.
@@ -58,9 +58,9 @@ A seconda del contesto aziendale, una persona o un'organizzazione potrebbe svolg
 
 Nella figura seguente è illustrato il modello di dati per la rubrica globale.
 
-![Modello di dati per la rubrica globale](media/party-gab-image2.png)
+![Modello di dati per la rubrica globale.](media/party-gab-image2.png)
 
-## <a name="contact"></a>Contatto
+## <a name="contact"></a>Contatti
 
 Nelle app Customer Engagement, un contatto è una persona. Tuttavia, la tabella **Contatto** è stata utilizzata per rappresentare una persona, un utente del portale, un cliente B2C o un fornitore. La rappresentazione è implicita e non è possibile capire la differenza senza esaminare le transazioni correlate. La tabella **Contatto** è stata limitata a una relazione uno-a-uno (1:1) con la tabella **Conto**. Come parte del modello parte e rubrica globale, la doppia scrittura introduce proprietà esplicite per la classificazione e consente relazioni N:N tra un contatto che è una persona e un'organizzazione (entità **Conto** o **Fornitore**).
 
@@ -94,7 +94,7 @@ Queste relazioni vengono archiviate nella tabella **Contatto per la parte**. Puo
     + Se selezioni un valore nel campo **Contatto associato**, stai selezionando il contatto con striping del tipo **Persona**.
     + Se selezioni un valore nel campo **Conto associato** o **Fornitore associato**, stai selezionando un'organizzazione.
 
-    ![Scheda Organizzazioni associate nella pagina Contatto](media/party-gab-image3.png)
+    ![Scheda Organizzazioni associate nella pagina Contatto.](media/party-gab-image3.png)
 
     Indipendentemente dalla tua scelta, l'associazione viene creata a livello di parte e applicabile a tutti i ruoli della parte e archiviata nell'entità **Contatto per la parte**.
 
@@ -109,7 +109,7 @@ Quando apri una riga **Contatto** dove o il campo **Cliente** o **Fornitore** è
 
 Una nuova scheda **Indirizzi** è stata introdotta nelle pagine **Conto**, **Contatto** e **Fornitore**. Questa scheda supporta più indirizzi postali utilizzando una griglia, come mostrato nell'illustrazione seguente.
 
-![Griglia per indirizzi postali](media/party-gab-image4.png)
+![Griglia per indirizzi postali.](media/party-gab-image4.png)
 
 La griglia include le colonne seguenti:
 
@@ -121,7 +121,7 @@ Puoi usare il pulsante **Nuovo indirizzo** sopra la griglia per creare tutti gli
 
 I campi **Indirizzo 1** e **Indirizzo 2** della scheda **Riepilogo** dell apagina **Conto** corrispondono agli indirizzi di **Consegna** e **Fatturazione** rispettivamente.
 
-![Scheda Riepilogo per indirizzi postali](media/party-gab-image5.png)
+![Scheda Riepilogo per indirizzi postali.](media/party-gab-image5.png)
 
 I campi **Indirizzo 1**, **Indirizzo 2** e **Indirizzo 3** della scheda **Riepilogo** della pagina **Contatto** corrispondono agli indirizzi di **Azienda**, **Consegna** e **Fatturazione** rispettivamente.
 
@@ -129,7 +129,7 @@ I campi **Indirizzo 1**, **Indirizzo 2** e **Indirizzo 3** della scheda **Riepil
 
 Una nuova scheda **Indirizzi elettronici** è stata introdotta nelle pagine **Conto**, **Contatto** e **Fornitore**. Questa scheda supporta più indirizzi elettronici utilizzando una griglia, come mostrato nell'illustrazione seguente.
 
-![Griglia per indirizzi elettronici](media/party-gab-image6.png)
+![Griglia per indirizzi elettronici.](media/party-gab-image6.png)
 
 La griglia include le colonne seguenti:
 
@@ -205,7 +205,7 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
     | ID parte (campo) | Corrispondenza esatta |
     | Seleziona (campo) | (vuoto) |
 
-    ![Regola duplicati per i conti](media/duplicate-rule-1.PNG)
+    ![Regola duplicati per i conti.](media/duplicate-rule-1.PNG)
 
 10. Espandere la regola di rilevamento duplicati per la tabella **Contatti** impostando i seguenti campi.
 
@@ -221,7 +221,7 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
     | ID parte (campo) | Corrispondenza esatta |
     | Seleziona (campo) | (vuoto) |
 
-    ![Regola duplicati per i contatti](media/duplicate-rule-2.PNG)
+    ![Regola duplicati per i contatti.](media/duplicate-rule-2.PNG)
 
 11. Se sei già un utente con doppia scrittura, segui le istruzioni in [Eseguire l'aggiornamento al modello di parte e di rubrica globale](upgrade-party-gab.md) e aggiorna i tuoi dati.
 
@@ -300,11 +300,11 @@ Per ulteriori informazioni, vedere [Riferimento per il mapping a doppia scrittur
 + Gli indirizzi elettronici impostati nella scheda corrispondente dei moduli **Conto**, **Contatto** e **Fornitore** provengono dalla tabella `msdyn_partyelectronicaddress`. Queste informazioni non fluiscono nelle transazioni associate come l'ordine cliente, offerta e ordine fornitore. Abbiamo in programma di risolvere questo problema in una versione incrementale. I dati esistenti nei campi dell'indirizzo elettronico nei record conto e contatto continueranno a funzionare su transazioni come ordine cliente, offerta e ordine fornitore.
 + Nelle app Finance and Operations puoi creare un record di contatto dal modulo **Aggiungi contatto**. Quando si tenta di creare un nuovo contatto dal modulo **Visualizza contatto**, l'azione non riesce. Questo è un problema noto.
 
-    ![Problema noto con Aggiungi contatto](media/party-gab-contact-issue.png)
+    ![Problema noto con Aggiungi contatto.](media/party-gab-contact-issue.png)
 
 + **Sincronizzazione iniziale** non supporta i campi di data/ora **Disponibile da** e **Disponibile fino a** in **ContactForParty**, perché DIXF converte il valore in una stringa anziché in un numero intero. La conversione attiva l'errore `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Quando un indirizzo postale viene utilizzato per più di un motivo, ad esempio, indirizzo di comunicazione aziendale e indirizzo di fatturazione, dovrebbe apparire come `Business;Invoice` come mostrato nell'immagine seguente. Se aggiungi uno spazio tra i valori, otterrai un errore.
 
-    ![Problema noto con Indirizzo](media/party-gab-address-issue.png)
+    ![Problema noto con Indirizzo.](media/party-gab-address-issue.png)
 
 + Non puoi immettere un indirizzo postale con validità postdatata utilizzando un'app Finance and Operations con doppia scrittura, perché Dataverse non supporta la validità della data. Se inserisci un indirizzo postale con data futura utilizzando un'app Finance and Operations, si sincronizza con Dataverse completamente e vedrai immediatamente l'indirizzo sull'interfaccia utente. Qualsiasi aggiornamento a questo record comporterà un errore poiché è postdatato e non è corrente nell'app Finance and Operations.

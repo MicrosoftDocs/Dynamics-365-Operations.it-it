@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347810"
 ---
 # <a name="process-collection-letters-example"></a>Esempio di elaborazione di lettere di sollecito
 
@@ -40,7 +40,7 @@ Al termine, procedere come segue.
 
 La figura seguente mostra come le informazioni presenti nella tabella apparirebbero nella pagina **Lettere di sollecito**. 
 
-[![Impostare una sequenza di lettere di sollecito](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Impostare una sequenza di lettere di sollecito.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  È ora necessario impostare i due parametri richiesti per questo esempio.
 
@@ -49,7 +49,7 @@ La figura seguente mostra come le informazioni presenti nella tabella apparirebb
     1. Nella scheda **Riscossioni**, impostare l'opzione **Ignora pagamenti e note di credito durante il calcolo del codice di lettera di sollecito** su **Sì**.
     2. Assicurarsi che il campo **Crea lettera di sollecito per** sia impostato su **Cliente**.
 
-    [![Impostare parametri di contabilità clienti per crediti e riscossioni](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Impostare parametri di contabilità clienti per crediti e riscossioni.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. Selezionare **Contabilità clienti \> Fatture \> Tutte le fatture a testo libero**, selezionare **Nuovo** e quindi procedere come segue:
 
@@ -74,7 +74,7 @@ La figura seguente mostra come le informazioni presenti nella tabella apparirebb
 5. Ripetere il passaggio 4, ma immettere **-200,00** nel campo **Prezzo unitario**.
 6. Selezionare **Contabilità clienti \> Clienti \> Tutti i clienti** e selezionare il cliente **US-045**. Quindi, nel riquadro Azioni, selezionare **Transazioni \> Transazioni** per esaminare le transazioni dei clienti registrate in precedenza.
 
-    [![Revisione delle transazioni cliente registrate](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![Revisione delle transazioni cliente registrate.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     È ora necessario creare lettere di sollecito per il cliente US-045.
 
@@ -93,7 +93,7 @@ La figura seguente mostra come le informazioni presenti nella tabella apparirebb
 
     1. Da notare che il codice di lettera di sollecito nell'intestazione e nelle righe della transazione è **Lettera di sollecito 1**, poiché questa lettera di sollecito è la prima lettera di sollecito nella sequenza (per visualizzare le righe della transazione, potrebbe essere necessario selezionare la Scheda dettaglio **Transazioni**).
 
-   [![Verificare che lo stesso codice di lettera di sollecito sia visualizzato nell'intestazione e nelle righe](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Verificare che lo stesso codice di lettera di sollecito sia visualizzato nell'intestazione e nelle righe.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. Nel riquadro Azioni selezionare **Registra**.
     3. Nel campo **Data di registrazione** immettere **19/1/2021**.
@@ -115,7 +115,7 @@ La figura seguente mostra come le informazioni presenti nella tabella apparirebb
 
     1. Da notare che il codice di lettera di sollecito nell'intestazione è **Lettera di sollecito 1**. Tuttavia, il codice nelle righe della transazione è **Lettera di sollecito 2**.
 
-   [![Verificare che codici di lettera di sollecito differenti siano visualizzati nell'intestazione e nelle righe](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Verificare che codici di lettera di sollecito differenti siano visualizzati nell'intestazione e nelle righe.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   I codici differiscono poiché l'opzione **Ignora pagamenti e note di credito durante il calcolo del codice di lettera di sollecito** è impostata su **Sì**.
 
@@ -123,7 +123,7 @@ La figura seguente mostra come le informazioni presenti nella tabella apparirebb
 
 11. Selezionare **Crediti e le riscossioni \> Impostazioni \> Parametri contabilità clienti** e nella scheda **Solleciti**, impostare l'opzione **Ignora pagamenti e note di credito durante il calcolo del codice di lettera di sollecito** su **No**.
 
-    [![Impostare l'opzione Ignora pagamenti e note di credito durante il calcolo del codice di lettera di sollecito su No](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![Impostare l'opzione Ignora pagamenti e note di credito durante il calcolo del codice di lettera di sollecito su No.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     È ora necessario creare di nuovo lettere di sollecito per il cliente US-045.
 
@@ -140,6 +140,6 @@ La figura seguente mostra come le informazioni presenti nella tabella apparirebb
 
 13. Selezionare **Crediti e riscossioni \> Lettera di sollecito \> Esamina ed elabora lettere di sollecito**. Da notare che il codice di lettera di sollecito nell'intestazione e nelle righe della transazione è **Lettera di sollecito 2**.
 
-    [![Visualizzare di nuovo lo stesso codice di lettera di sollecito nell'intestazione e nelle righe](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Visualizzare di nuovo lo stesso codice di lettera di sollecito nell'intestazione e nelle righe.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     Lo stesso codice appare in entrambe le posizioni poiché l'opzione **Ignora pagamenti e note di credito durante il calcolo del codice di lettera di sollecito** è ora impostata su **No**.

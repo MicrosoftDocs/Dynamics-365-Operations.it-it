@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3fc7cff0a3f8d0fbfb196ec5951b138088afece7
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 45decb55ce5cf3399f48034df367e1565ab689bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019472"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347442"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>Domande frequenti sull'integrazione di Dynamics 365 Commerce e Microsoft Teams
 
@@ -45,7 +45,7 @@ Per assegnare il ruolo di responsabile dell'attività di vendita al dettaglio a 
 
 In Commerce headquarters, la gerarchia di ogni organizzazione è associata a uno o più scopi. Assicurati che la gerarchia in cui desideri eseguire il provisioning in Microsoft Teams abbia lo scopo **Report per vendita al dettaglio** ad essa associato, come mostrato nella seguente immagine di esempio. 
 
-![Esempio di scopo della gerarchia organizzativa in Commerce headquarters](media/d365-commerce-organization-hierarchies-purpose.png)
+![Esempio di scopo della gerarchia organizzativa in Commerce headquarters.](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>Come si consente ai lavoratori dei punti vendita al dettaglio di accedere al POS di Commerce utilizzando Azure Active Directory (Azure AD)?
 

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d523af235d645bd282af07d6a1f617bca5fba2dc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1794c297bef86a62ff5dc24524332df07ea26f39
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809088"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345284"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Riconciliare le spese di trasporto nella gestione del trasporto
 
@@ -35,13 +35,13 @@ La riconciliazione delle spese di trasporto può essere eseguita manualmente opp
 
 Le tariffe di trasporto vengono calcolate dal motore tariffe associato con il vettore di spedizione pertinente. Quando un carico viene confermato, viene generata una fattura di trasporto e le tariffe di trasporto vengono trasferite ad essa. Le tariffe di trasporto vengono ripartite come spese varie nel documento di origine pertinente (ordine fornitore, ordine cliente e/o ordine di trasferimento), a seconda dell'impostazione utilizzata per il normale processo di fatturazione. Il processo di riconciliazione delle spese di trasporto (che è noto anche come il processo di abbinamento) può iniziare non appena arriva la fattura di trasporto dal vettore di spedizione. La fattura può essere ricevuta elettronicamente o su carta. Se si riceve la fattura su carta, è possibile generare una fattura elettronica utilizzando la fattura di trasporto come modello.
 
-[![Processo di riconciliazione spese di trasporto](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![Processo di riconciliazione spese di trasporto.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Riconciliazione manuale
 
 Se si riconciliano manualmente le spese di trasporto, è necessario abbinare ogni riga della fattura con la riga o le righe della fattura di trasporto del carico da fatturare. A tale scopo, abbinare nella pagina **Abbinamento fatture di trasporto e fatture**. Se l'importo nella riga della fattura non corrisponde all'importo della fattura di trasporto, è necessario selezionare un motivo di riconciliazione per la differenza. Se esistono diversi motivi per la riconciliazione, è possibile ripartire sui vari motivi l'importo non abbinato. Il motivo di riconciliazione determina la modalità di registrazione degli importi di differenza nella contabilità generale. Quando la riconciliazione dell'importo della fattura intera è contabilizzata, viene inviata per l'approvazione e quindi la registrazione. Nell'illustrazione che segue viene mostrato come generare una fattura di trasporto ed eseguire la riconciliazione delle spese di trasporto.
 
-[![Attività di riconciliazione trasporto](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![Attività di riconciliazione trasporto.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>Riconciliazione automatica
 

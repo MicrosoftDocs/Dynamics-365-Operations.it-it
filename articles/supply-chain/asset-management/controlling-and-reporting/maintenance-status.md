@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808618"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354978"
 ---
 # <a name="maintenance-status"></a>Stato della manutenzione
 
@@ -57,13 +57,13 @@ In Gestione cespiti, è possibile eseguire un calcolo per un periodo specifico p
 
 Nella schermata seguente, i pulsanti **Mese** e **Anno** sono stati attivati. Con le opzioni **Raggruppa per** selezionate, si ha una panoramica generale su base mensile del carico di lavoro e della produttività relativi alle richieste di intervento di manutenzione e agli ordini di lavoro. 
 
-![Esempio del carico di lavoro mensile](media/13-controlling-and-reporting.png)
+![Esempio di carico di lavoro mensile.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Esempio 2
 
 Nella schermata seguente, sono state aggiunte le informazioni sulle unità funzionali. A questo punto, è possibile confrontare il carico di lavoro e la produttività nelle unità funzionali, che possono rappresentare le ubicazioni geografiche, gli stabilimenti o le aree di lavoro. 
 
-![Esempio del carico di lavoro mensile con unità funzionali](media/14-controlling-and-reporting.png)
+![Esempio di carico di lavoro mensile con unità funzionali.](media/14-controlling-and-reporting.png)
 
 
 

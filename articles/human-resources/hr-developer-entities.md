@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054358"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346300"
 ---
 # <a name="dataverse-tables"></a>Tabelle Dataverse
 
@@ -152,27 +152,27 @@ Le seguenti tabelle Dataverse sono disponibili in base alle entità di Human Res
 
 ### <a name="worker"></a>Lavoro
 
-![Lavoro](./media/HCMCommon-worker-entity-diagram.png)
+![Lavoratore.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Lavoro e posizione lavorativa
 
-![Lavoro e posizione lavorativa](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Lavoro e posizione lavorativa.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
 ### <a name="benefits"></a>Benefit
 
-![Benefit](./media/HCMCommon-benefits-entity-diagram.png)
+![Benefit.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Retribuzione
 
-![Retribuzione](./media/HCMCommon-compensation-entity-diagram.png)
+![Retribuzione.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Uscire
+### <a name="leave"></a>Esci
 
-![Uscire](./media/HCMCommon-leave-entity-diagram.png)
+![Congedo.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Calendario lavorativo
 
-![Calendario lavorativo](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Calendario lavorativo.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Vedere anche
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750620"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346498"
 ---
 # <a name="integrated-vendor-master"></a>Dati master fornitori integrati
 
@@ -39,11 +39,11 @@ In entrambi gli approcci, i dati del fornitore sono integrati in Dynamics 365 Su
 
 È possibile utilizzare il nuovo progetto del fornitore se non si desidera archiviare i dati del fornitore nella tabella **Account/Contatto** in Dataverse.
 
-![Flusso di dati fornitore](media/dual-write-vendor-data-flow.png)
+![Flusso di dati fornitore.](media/dual-write-vendor-data-flow.png)
 
 È possibile utilizzare il progetto del fornitore esteso se si desidera continuare ad archiviare i dati del fornitore nella tabella **Account/Contatto**. Per utilizzare il progetto esteso del fornitore, è necessario configurare i flussi di lavoro del fornitore nel pacchetto della soluzione di doppia scrittura. Per ulteriori informazioni, vedere [Passare da un progetto del fornitore all'altro](vendor-switch.md).
 
-![Flusso di dati esteso fornitore](media/dual-write-vendor-detail.jpg)
+![Flusso di dati esteso fornitore.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > Se si usano i portali Power Apps per i fornitori self-service, le informazioni sui fornitori possono essere inviate direttamente alle app Finance and Operations.

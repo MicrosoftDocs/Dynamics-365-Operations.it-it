@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: mrolecki
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 86fd4cb7ef8490ce3239f6cfec80fec02cd53ad7
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c4f7dbe6a70d00ced75ca8fa575473086f7c60ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894750"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348452"
 ---
 # <a name="tax-invoice-for-goods-delivered-for-free"></a>Fattura fiscale per le merci consegnate gratuitamente
 
@@ -48,7 +48,7 @@ la causale della consegna sulla fattura determina il caso da utilizzare.
 2. Sulla scheda **Aggiornamento riepilogativo**, selezionare **Parametri di aggiornamento riepilogativo**.
 3. Il parametro di aggiornamento riepilogativo **Causale consegna** deve essere selezionato sia per i documenti di trasporto che per le fatture. Sulla scheda **Fattura**, nell'elenco **Disponibili**, selezionare **Causale consegna**. Quindi selezionare il pulsante freccia destra per spostare **Causale consegna** nell'elenco **Selezionato**. Ripetere questo passaggio sulla scheda **Documento di trasporto**.
 
-![Parametri aggiornamento riepilogativo](media/emea-ita-exil-free-goods-summary-update-parameters.jpg)
+![Parametri aggiornamento riepilogativo.](media/emea-ita-exil-free-goods-summary-update-parameters.jpg)
 
 ## <a name="set-up-a-sales-for-free-account"></a>Configura un account Vendite gratuite
 
@@ -58,7 +58,7 @@ Attenersi alla seguente procedura per configurare l'account di contabilità per 
 2. Selezionare l'opzione **Vendite gratuite**.
 3. Impostare l'account principale selezionando le relazioni e i codici conto richiesti.
 
-![Account Vendite gratuite](media/emea-ita-exil-free-goods-sales-free-account.jpg)
+![Account Vendite gratuite.](media/emea-ita-exil-free-goods-sales-free-account.jpg)
 
 ## <a name="set-up-miscellaneous-charges"></a>Impostare le spese varie
 
@@ -68,7 +68,7 @@ Le spese varie non sono sempre richieste o desiderate quando vengono emesse fatt
 2. Selezionare o creare un codice spese esistente.
 2. Impostare l'opzione **Escludi spese nelle fatture gratuite** su **Sì**.
 
-![Codici di spese](media/emea-ita-exil-free-goods-charges-codes.jpg)
+![Codici di spese.](media/emea-ita-exil-free-goods-charges-codes.jpg)
 
 ## <a name="set-up-delivery-reasons"></a>Impostare i motivi della consegna
 
@@ -77,7 +77,7 @@ Le spese varie non sono sempre richieste o desiderate quando vengono emesse fatt
 3. Nel campo **Conto fattura**, selezionare l'account cliente che rappresenta l'azienda.
 4. Nel campo **Termini di pagamento** specificare i termini di pagamento in contanti.
 
-![Causali per la consegna](media/emea-ita-exil-free-goods-delivery-reason.jpg)
+![Causali per la consegna.](media/emea-ita-exil-free-goods-delivery-reason.jpg)
 
 > [!NOTE]
 > La società emette una fattura automatica per contabilizzare le imposte richieste per le merci che vengono consegnate gratuitamente. Oltre alla registrazione della fattura, devono essere generate le voci contabili per il pagamento. Per rendere disponibile tale processo, è necessario disporre di un account cliente che rappresenti la propria azienda. In questo caso, il conto fattura in un ordine cliente verrà impostato sul conto cliente dell'azienda per impostazione predefinita. Pertanto, la fattura emessa sarà una fattura automatica. Quando si specificano i termini di pagamento in contanti, il pagamento si verifica in aggiunta alla fattura automatica. Infine, la transazione del cliente viene chiusa e l'importo viene registrato nel conto di cassa specificato nel campo **Modalità di pagamento**. Questo campo verrà inoltre impostato per impostazione predefinita su un'intestazione dell'ordine cliente.
@@ -92,7 +92,7 @@ Quando si crea un ordine cliente per merci consegnate gratuitamente, il motivo d
 
 La stampa della fattura mostrerà il titolo **Fattura gratuita**. Inoltre, agli articoli verrà aggiunto il prefisso **Articolo gratuito:** se il flag **Merci gratuite** è attivo sul motivo di consegna utilizzato per l'ordine.
 
-![Stampa della fattura gratuita](media/emea-ita-exil-free-tax-invoice-printout.jpg)
+![Stampa della fattura gratuita.](media/emea-ita-exil-free-tax-invoice-printout.jpg)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

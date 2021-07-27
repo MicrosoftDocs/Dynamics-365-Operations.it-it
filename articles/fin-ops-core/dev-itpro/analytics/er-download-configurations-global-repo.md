@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893982"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351748"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Scaricare configurazioni ER dall'archivio globale del servizio di configurazione
 
@@ -40,7 +40,7 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
 3. Nella sezione **Provider di configurazione** selezionare il riquadro **Microsoft**.
 3. Nel riquadro **Microsoft** selezionare **Archivi**.
 
-    ![Area di lavoro Creazione di report elettronici](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Area di lavoro Creazione di report elettronici.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Nella pagina **Archivi di configurazioni** selezionare nella griglia l'archivio esistente di tipo **Globale**. Se questo archivio non viene visualizzato nella griglia, effettuare le seguenti operazioni:
 
@@ -52,7 +52,7 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
 
 5. Selezionare **Apri** per visualizzare l'elenco delle configurazioni ER per l'archivio selezionato.
 
-    ![Pagina Archivi di configurazione](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Pagina Archivi di configurazione.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Importare un'unica configurazione
 
@@ -63,7 +63,7 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
     > [!NOTE]
     > Il pulsante **Importa** non è disponibile per le versioni di configurazione ER già presenti nell'istanza corrente di Finance.
 
-    ![Configurazione della pagina dell'archivio](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Pagina Archivio di configurazione.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importare configurazioni filtrate
 
@@ -77,7 +77,7 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
 4. Nella Scheda dettaglio **Configurazioni**, selezionare **Importa** per scaricare le configurazioni filtrate dall'archivio globale nell'istanza corrente.
 5. Nella Scheda dettaglio **Configurazioni**, selezionare **Reimposta filtro** per ripulire le condizioni di selezione specificate.
 
-    ![Configurazione della pagina dell'archivio](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Pagina Archivio di configurazione.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > A seconda delle impostazioni ER, le configurazioni vengono convalidate dopo l'importazione. È possibile ricevere una notifica per tutti i problemi di incoerenza rilevati. Prima di utilizzare la versione di configurazione importata, è necessario risolvere i problemi. Per ulteriori informazioni, vedere l'elenco delle risorse correlate per questo argomento.

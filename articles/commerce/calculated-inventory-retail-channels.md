@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270887"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350476"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 
@@ -105,7 +105,7 @@ In Commerce versione 10.0.9 e precedenti, l'operazione **Ricerca in magazzino** 
 
 Quando il calcolo lato canale è configurato e gestito correttamente, può fornire una stima più affidabile delle scorte attuali del punto vendita, poiché utilizza i dati transazionali presenti nel database del canale Commerce, ma per i quali Headquarters potrebbe non disporre ancora delle informazioni. Ad esempio, se si utilizza la chiamata di servizio in tempo reale esistente per le ricerche in magazzino nel POS, probabilmente Headquarters non avrà ancora le informazioni su una vendita cash-and-carry appena avvenuta per un prodotto. Pertanto, il valore delle scorte disponibili restituito da Headquarters per quel prodotto supererà probabilmente le scorte disponibili effettive del punto vendita di un'unità. Tuttavia, se si utilizza il calcolo sul lato canale, la vendita cash-and-carry può essere presa in considerazione nel calcolo e detratta dal valore di scorte disponibili che viene mostrato. Sebbene i valori forniti sia dal calcolo lato canale sia dalla chiamata di servizio in tempo reale siano solo stime delle scorte disponibili, il valore fornito dal calcolo lato canale è molto più probabile che sia accurato per il punto vendita corrente.
 
-Per configurare l'operazione **Ricerca in magazzino** POS in Headquarters per utilizzare la logica di calcolo lato canale e disattivare la chiamata di servizio in tempo reale, seguire questi passaggi.
+Per configurare l'operazione **ricerca in magazzino** del POS in Commerce headquarters al fine di utilizzare la logica di calcolo sul lato canale e disattivare la chiamata di servizio in tempo reale, è necessario prima abilitare la funzionalità **Calcolo della disponibilità del prodotto ottimizzato** attraverso l'area di lavoro **Gestione funzionalità** in Commerce Headquarters, quindi attenersi ai passaggi che seguono.
 
 1. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Profili POS \> Profili funzionalità**.
 1. Selezionare un profilo funzionalità.

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271403"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350330"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Applicare le impostazioni delle unità di misura
 
@@ -32,7 +32,7 @@ Un prodotto può essere venduto in unità diverse, ad esempio "pezzo", "coppia" 
 
 Nell'esempio nella figura seguente, un'unità di misura di vendita al dettaglio di **pz** (pezzo) è stata configurata per un prodotto in Commerce Headquarters.
 
-![Esempio di un prodotto configurato con un'unità di misura in Commerce Headquarters](./media/Productunit-headquarters.PNG)
+![Esempio di un prodotto configurato con un'unità di misura in Commerce Headquarters.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Il supporto per l'applicazione e la visualizzazione dell'unità di misura è disponibile a partire dalla versione Commerce 10.0.19.
@@ -54,11 +54,11 @@ I moduli che utilizzano le impostazioni delle unità di misura includono la case
 
 Nell'esempio nella figura seguente, una pagina dei dettagli del prodotto (PDP) mostra l'unità di misura (**pz**) per un prodotto.
 
-![Esempio di un PDP che mostra l'unità di misura](./media/Productunit-PDP.png)
+![Esempio di un PDP che mostra l'unità di misura.](./media/Productunit-PDP.png)
 
 Nell'esempio nella figura seguente, un modulo di raccolta di prodotti mostra l'unità di misura (**pz**) per un prodotto.
 
-![Esempio di un modulo di raccolta prootti che mostra l'unità di misura](./media/Productunit-productcollection.png)
+![Esempio di un modulo di raccolta prootti che mostra l'unità di misura.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

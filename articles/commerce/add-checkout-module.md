@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797817"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347592"
 ---
 # <a name="checkout-module"></a>Modulo Checkout
 
@@ -33,7 +33,7 @@ Un modulo Checkout esegue il rendering dei dati in base all'ID carrello. Questo 
 
 L'immagine seguente mostra un esempio di modulo Checkout in una pagina checkout.
 
-![Esempio di modulo Checkout](./media/Checkout.PNG)
+![Esempio di modulo Checkout.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Proprietà del modulo Checkout
 
@@ -52,13 +52,13 @@ Un modulo Checkout mostra un riepilogo dell'ordine e fornisce la funzionalità p
 
     L'immagine seguente mostra un esempio di modulo Indirizzo di spedizione in una pagina checkout.
 
-    ![Esempio di modulo Indirizzo di spedizione](./media/ecommerce-shippingaddress.PNG)
+    ![Esempio di modulo Indirizzo di spedizione.](./media/ecommerce-shippingaddress.PNG)
 
 - **Opzioni di consegna**: questo modulo consente a un cliente di selezionare una modalità di consegna per un ordine. Per ulteriori informazioni su questo modulo, vedere il [modulo Opzioni di consegna](delivery-options-module.md).
 
     L'immagine seguente mostra un esempio di modulo Opzioni di consegna in una pagina checkout.
  
-    ![Esempio di un modulo Opzioni di consegna](./media/ecommerce-deliveryoptions.PNG)
+    ![Esempio di un modulo Opzioni di consegna.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Contenitore sezione checkout** - Questo modulo è un contenitore in cui è possibile includere più moduli allo scopo di creare una sezione nel flusso di checkout. Ad esempio, è possibile inserire tutti i moduli relativi al pagamento in tale contenitore per visualizzarli come un'unica sezione. Questo modulo influisce solo sul layout del flusso.
 
@@ -70,7 +70,7 @@ Un modulo Checkout mostra un riepilogo dell'ordine e fornisce la funzionalità p
 
     L'immagine seguente mostra un esempio di moduli Gift card, Punti fedeltà e Pagamento in una pagina checkout.
 
-    ![Esempio di moduli Gift card, Punti fedeltà e Pagamento in una pagina checkout](./media/ecommerce-payments.PNG)
+    ![Esempio di moduli Gift card, Punti fedeltà e Pagamento in una pagina checkout.](./media/ecommerce-payments.PNG)
 
 - **Informazioni contatto** - Questo modulo consente a un cliente di aggiungere o modificare le informazioni di contatto (indirizzo di posta elettronica) per un ordine.
 
@@ -80,7 +80,7 @@ Un modulo Checkout mostra un riepilogo dell'ordine e fornisce la funzionalità p
 
     L'immagine seguente mostra un esempio di termini e condizioni in una pagina checkout.
 
-    ![Esempio di termini e condizioni in una pagina di checkout](./media/ecommerce-checkout-terms.PNG)
+    ![Esempio di termini e condizioni in una pagina di checkout.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interazione con Commerce Scale Unit
 

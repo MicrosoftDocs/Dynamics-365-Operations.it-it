@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 38ee9db94b3b222e8c0ce5d0883f47bd5d3e7d22
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f24ee67cd140fe75d65442484f673b17d32c1f93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796924"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354543"
 ---
 # <a name="task-management-in-pos"></a>Gestione delle attività in POS
 
@@ -44,11 +44,11 @@ Gli addetti al negozio possono eseguire le seguenti operazioni di attività nell
 
 La seguente illustrazione mostra la scheda **Attività personali** nell'applicazione POS di Commerce.
 
-![Scheda Attività personali nell'applicazione POS di Commerce](media/POS-task-management.png)
+![Scheda Attività personali nell'applicazione POS di Commerce.](media/POS-task-management.png)
 
 La figura di seguito mostra la scheda **Elenchi di attività**.
 
-![Scheda elenchi di attività nell'applicazione POS di Commerce](media/POS-task-lists-management.png)
+![Scheda elenchi di attività nell'applicazione POS di Commerce.](media/POS-task-lists-management.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

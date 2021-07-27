@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921219"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353542"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversione di unità di misura per varianti prodotto
 
@@ -56,7 +56,7 @@ Per configurare una rappresentazione generale prodotto per supportare la convers
     - **Prodotto**: se selezioni questo valore puoi configurare una conversione unità per la rappresentazione generale prodotto. Questa conversione di unità verrà utilizzata come fallback per tutte le varianti di prodotto per le quali non è definita alcuna conversione di unità.
     - **Variante prodotto**: se selezioni questo valore puoi configurare una conversione unità per una specifica variante prodotto. Usa il campo **Variante prodotto** per selezionare la variante.
 
-    ![Aggiunta di una nuova conversione unità](media/uom-new-conversion.png "Aggiunta di una nuova conversione unità")
+    ![Aggiunta di una nuova conversione unità.](media/uom-new-conversion.png "Aggiunta di una nuova conversione unità")
 
 1. Utilizzare gli altri campi forniti per impostare la conversione unità.
 1. Seleziona **OK** per salvare la nuova conversione unità.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352860"
 ---
 # <a name="general-journal-processing"></a>Elaborazione giornale di registrazione generale
 
@@ -42,14 +42,14 @@ Nella pagina **Nomi giornale di registrazione** è possibile impostare i seguent
 
 Un nome di giornale di registrazione può essere utilizzato solo per le rettifiche. In questo caso, è possibile specificare che solo il tipo di conto **Contabilità generale** è valido per tutte le società. 
 
-[![Tipi di conto di controllo giornale di registrazione](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Tipi di account di controllo giornale di registrazione.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Un nome di giornale di registrazione può essere utilizzato solo per un segmento specifico o per un intervallo di conti principali. 
 
-[![Segmento controllo giornale di registrazione](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Segmento controllo giornale di registrazione.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 L'opzione **Storno automatico** è disponibile nei giornali di registrazione generali. Ad esempio, si dispone di una rettifica di attribuzione per competenza in cui il documento effettivo non è ancora stato elaborato, come illustrato nella figura seguente.
-[![Storno giornale di registrazione generale](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Storno giornale di registrazione generale.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Il componente aggiuntivo di Microsoft Excel per le scritture contabili fornisce un ulteriore livello di automazione e rende l'immissione di dati più semplice. L'azione **Apri righe in Excel** è disponibile nelle pagine **Giornale di registrazione generale** e **Giustificativo giornale di registrazione**. 
 

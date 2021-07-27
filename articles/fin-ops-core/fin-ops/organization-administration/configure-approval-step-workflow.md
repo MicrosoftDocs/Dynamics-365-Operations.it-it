@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86e8787320721a58f449abcfba21c2c4c6b4caf9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 988340d9e5fc12c9329a587c7401fe039c8e5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751778"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350696"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurare i passaggi di approvazione in un flusso di lavoro
 
@@ -156,7 +156,7 @@ Per specificare gli utenti a cui assegnare il passaggio del processo di approvaz
 
     - **Approvatore singolo**: l'azione applicata al documento viene determinata dalla persona che risponde per prima. Si supponga ad esempio che Giorgio abbia inviato una nota spese per un importo pari a USD 15.000. La nota spese è attualmente assegnata a Luisa, Raffaella e Davide. Se Luisa risponde per prima, al documento verrà applicata l'azione eseguita da tale utente. Se Luisa rifiuta il documento, la nota spese rifiutata viene reinviata a Giorgio. Dopo che Luisa avrà approvato il documento, verrà inviato a Elena per l'approvazione.
 
-        ![Flusso di lavoro con processo di approvazione](./media/workflow_multipleusersinstep.gif)
+        ![Flusso di lavoro con processo di approvazione.](./media/workflow_multipleusersinstep.gif)
 
     - **Maggioranza degli approvatori**: l'azione applicata al documento viene determinata dalla maggioranza degli approvatori che rispondono. Si supponga ad esempio che Giorgio abbia inviato una nota spese per un importo pari a USD 15.000. La nota spese è attualmente assegnata a Luisa, Raffaella e Davide. Se Luisa e Raffaella sono i primi due approvatori a rispondere, al documento verrà applicata l'azione eseguita da tali utenti.
 

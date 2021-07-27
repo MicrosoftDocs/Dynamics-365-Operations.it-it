@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a3da8e1b8176eb25fe4e0a320aa3e907c06e09c5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cdac52ed7f11f796b9559e5454456fb139c6ba00
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021394"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346400"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Aggiungere campi dati nell'integrazione fiscale usando l'estensione
 
@@ -41,7 +41,7 @@ Ecco un elenco degli oggetti principali:
 
 Nella figura seguente viene illustrato come questi oggetti sono correlati.
 
-[![Relazione degli oggetti del modello di dati](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
+[![Relazione degli oggetti del modello di dati.](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
 
 Un oggetto **Documento** può contenere molti oggetti **Riga**. Ogni oggetto contiene metadati per il servizio per le imposte.
 

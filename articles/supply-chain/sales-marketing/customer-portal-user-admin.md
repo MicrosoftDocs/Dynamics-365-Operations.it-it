@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c08cee1fc772dbd06aeca3a96fdc40c1ca62413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907767"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353892"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Creare e gestire utenti del portale clienti
 
@@ -38,7 +38,7 @@ Il video su come [invitare i clienti a registrarsi e utilizzare il portale per i
 
 I contatti nei portali Power Apps sono memorizzati come record nella tabella **Contatti** in Microsoft Dataverse. La doppia scrittura quindi sincronizza questi record con Microsoft Dynamics 365 Supply Chain Management come necessario.
 
-![Diagramma di sistema per i contatti del portale clienti](media/customer-portal-contacts.png "Diagramma di sistema per i contatti del portale clienti")
+![Diagramma di sistema per i contatti del portale clienti.](media/customer-portal-contacts.png "Diagramma di sistema per i contatti del portale clienti")
 
 Prima di iniziare a invitare nuovi clienti, assicurarsi di aver abilitato il mapping della tabella **Contatto** in doppia scrittura.
 

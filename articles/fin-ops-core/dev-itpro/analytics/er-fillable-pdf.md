@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753290"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355420"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Progettare le configurazioni ER per completare i modelli PDF
 
@@ -115,11 +115,11 @@ In qualsiasi visualizzatore PDF, aprire i modelli PDF scaricati. Si noti che cia
 
 Nella figura seguente è illustrato il modello PDF per la prima pagina del report.
 
-![Modello 1](media/rcs-ger-filloutpdf-template1.png)
+![Modello 1.](media/rcs-ger-filloutpdf-template1.png)
 
 Nella figura seguente è illustrato il modello PDF per le altre pagine del report.
 
-![Modello 2](media/rcs-ger-filloutpdf-template2.png)
+![Modello 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. Nella pagina **Configurazioni**, selezionare **Progettazione**.
 2. Selezionare **Aggiungi radice**.
@@ -146,7 +146,7 @@ Nella figura seguente è illustrato il modello PDF per le altre pagine del repor
 
 12. Selezionare **OK**.
 
-    ![Importare dalla finestra di dialogo PDF](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Importare dalla finestra di dialogo PDF.](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Nella struttura espandere **Output**.
 
@@ -176,7 +176,7 @@ Nella figura seguente è illustrato il modello PDF per le altre pagine del repor
 
     Si noti che il documento PDF importato è allegato al formato ER modificato.
 
-    ![Anteprima allegato PDF](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![Anteprima allegato PDF.](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Continuare a progettare questo formato importando il secondo modello PDF, aggiungendo i collegamenti necessari alle origini dati e così via.
 20. Selezionare **Salva**.
@@ -215,7 +215,7 @@ A questo punto, verranno importati il formato ER di esempio in precedenza scaric
 1. Nella pagina **Progettazione formati** selezionare la scheda **Mapping**.
 2. Nella struttura espandere **Paging \> Pagine**.
 
-    ![Pagina della progettazione di formule in cui viene espanso l'albero del modello](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Finestra di progettazione formule in cui viene espanso l'albero del modello.](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Considerare i seguenti dettagli:
 
@@ -238,7 +238,7 @@ A questo punto, verranno importati il formato ER di esempio in precedenza scaric
 
     Si noti che l'attributo **Nome** dell'elemento di formato è definito come **Correction 1**. Si noti che l'espressione **Nome** dell'elemento di formato è definita come **Paging.FldName("Correction",\@.Number)**.
 
-![Progettazione formati in cui viene selezionato un mapping](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Progettazione formati in cui viene selezionato un mapping.](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Si noti che l'elemento di formato **Field** viene utilizzato per compilare un singolo campo di un documento PDF compilabile definito come modello dell'elemento padre **File PDF**. L'associazione dell'elemento di formato **File PDF** o dei suoi elementi nidificati, se ne contiene, specifica il valore inserito nei campi PDF corrispondenti. Le diverse proprietà dell'elemento di formato **Campo** possono essere utilizzate per specificare quale campo PDF viene compilato da un singolo elemento di formato:
 
@@ -275,7 +275,7 @@ A questo punto, si caricherà il formato di ER di esempio **Intrastat (import fr
 
     Quando l'opzione **Impostazione predefinita per mapping di modello** è impostata su **Sì**, il formato ER **Intrastat (import from Excel)** importato viene assegnato come origine dati predefinita per la configurazione di formato **Report Intrastat (PDF)**. Quindi, quando viene eseguita la configurazione del formato **Report Intrastat (PDF)**, il contenuto della cartella di lavoro di Excel analizzata dal formato ER **Intrastat (import from Excel)** simulerà le transazioni di commercio estero per cui deve essere creato il report. Nella figura seguente viene illustrato un esempio di una cartella di lavoro di Excel.
 
-    ![Cartella di lavoro di Excel con dati di esempio](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Cartella di lavoro di Excel con dati di esempio.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>Eseguire la configurazione di formato
 
@@ -289,11 +289,11 @@ A questo punto, si caricherà il formato di ER di esempio **Intrastat (import fr
 
 L'illustrazione seguente mostra un esempio della prima pagina del report generato.
 
-![Prima pagina del report generato](media/rcs-ger-filloutpdf-generatedreport.png)
+![Prima pagina del report generato.](media/rcs-ger-filloutpdf-generatedreport.png)
 
 L'illustrazione seguente mostra un esempio di un'altra prima pagina del report generato.
 
-![Altra pagina del report generato](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Altra pagina del report generato.](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

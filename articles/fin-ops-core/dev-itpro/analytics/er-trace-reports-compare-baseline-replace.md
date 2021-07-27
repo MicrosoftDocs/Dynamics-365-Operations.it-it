@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: f6eaf5f9cbc6eed09f6a3067826f7fa15fb94b2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117037"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345866"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Migliorare il tracciamento dei risultati dei report elettronici generati per confrontarli con i valori di base
 
@@ -57,7 +57,7 @@ Per completare i passaggi in questo esempio, completare dapprima i passaggi dell
 
 La base è stata aggiunta per il formato **Formato per ottenere basi ER** selezionato, ma non ancora le regole di base per tale base.
 
-![Pagina Base del formato per la creazione di report elettronici, ancora nessuna regola](media/GER-BaselineSample-AddBaseline2.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici, ancora nessuna regola.](media/GER-BaselineSample-AddBaseline2.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 ### <a name="make-a-new-baseline-rule"></a>Creare un nuova regola di base
 
@@ -70,7 +70,7 @@ La base è stata aggiunta per il formato **Formato per ottenere basi ER** selezi
 7. Selezionare **OK**.
 8. Selezionare **Basi**.
 
-    ![Pagina Basi del formato per la creazione di report elettronici, base selezionata](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+    ![Pagina Basi del formato per la creazione di report elettronici, base selezionata.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
     Il file in uscita generato è stato allegato automaticamente alla base del formato ER eseguito. La regola di base è stata aggiunta automaticamente a questa base e contiene il riferimento al file allegato.
 
@@ -110,14 +110,14 @@ Per completare i passaggi in questo esempio, completare dapprima i passaggi dell
 13. Selezionare **Salva** e quindi selezionare **Test**.
 14. Selezionare di nuovo **Test** per testare di nuovo l'espressione configurata.
 
-    ![Pagina Designer formula](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Schermata della pagina Designer formula")
+    ![Pagina Designer formula.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Schermata della pagina Designer formula")
 
     > [!NOTE]
     > La scheda **Risultato test** indica che l'espressione configurata restituisce un valore di data e ora differente ogni volta che viene richiamata.
 
 15. Chiudere la pagina **Designer formula** quindi selezionare **Salva**.
 
-    ![Pagina Progettazione formati](media/GER-BaselineSample-FormatMappingDesign2.PNG "Schermata della pagina Progettazione formati")
+    ![Pagina Designer formato.](media/GER-BaselineSample-FormatMappingDesign2.PNG "Schermata della pagina Progettazione formati")
 
 16. Chiudere la pagina **Progettazione formati**.
 
@@ -128,7 +128,7 @@ Per completare i passaggi in questo esempio, completare dapprima i passaggi dell
 3. Nell'elenco delle basi, selezionare la base configurata per il formato **Formato per ottenere basi ER**.
 4. Nella Scheda dettaglio **Basi**, selezionare **Elimina** per rimuovere la regola di base configurata in precedenza.
 
-![Pagina Base del formato per la creazione di report elettronici, eliminata](media/GER-BaselineSample-AddBaseline3.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici, eliminata.](media/GER-BaselineSample-AddBaseline3.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Definire le sostituzioni per le associazioni del formato ER progettato
 
@@ -136,7 +136,7 @@ Per completare i passaggi in questo esempio, completare dapprima i passaggi dell
 2. Nella struttura dei componenti del formato, **Output**, espandere **Output\\Documento** e quindi selezionare la casella di controllo per **Output\\Documento\\DataOraElaborazione**.
 3. Selezionare **OK**.
 
-![Pagina Base del formato per la creazione di report elettronici, componenti](media/GER-BaselineSample-AddBaseline4.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici, componenti.](media/GER-BaselineSample-AddBaseline4.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 Il componente del formato ER selezionato è stato aggiunto all'elenco dei componenti nella scheda dettaglio **Sostituzioni**. Quando il formato ER di base viene eseguito in modalità di debug, l'associazione del formato per ogni componente verrà sostituita dall'associazione visualizzata nella colonna **Associazione**. Per modificare l'associazione predefinita per un componente elencata nella scheda dettaglio **Sostituzioni**, selezionare **Modifica**.
 
@@ -144,7 +144,7 @@ Il componente del formato ER selezionato è stato aggiunto all'elenco dei compon
 
 Seguire i passaggi nella sezione "Esempio: automatizzare l'impostazione delle regole di base" vista precedentemente in questo argomento. Una notifica informa che il file in uscita è stato generato utilizzando le impostazioni di base e che si è verificata una sostituzione forzata delle associazioni del formato.
 
-![Notifica sulla pagina Configurazioni](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Schermata della notifica nella pagina Configurazioni")
+![Notifica sulla pagina Configurazioni.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Schermata della notifica nella pagina Configurazioni")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Sopprimere gli avvisi relativi alla sostituzione delle associazioni del formato
 
@@ -192,11 +192,11 @@ Le impostazioni di base esportate possono essere importate in un ambiente differ
 
 Per importare le impostazioni di base da un file XML archiviato in locale, nella pagina **Basi del formato per la creazione di report elettronici**, selezionare **Importa** e quindi **Sfoglia** per selezionare il file XML.
 
-![Finestra di dialogo Importa impostazioni di base](media/GER-BaselineSample-ImportBaseline1.PNG "Schermata della finestra di dialogo Importa impostazioni di base")
+![Finestra di dialogo Importa impostazioni di base.](media/GER-BaselineSample-ImportBaseline1.PNG "Schermata della finestra di dialogo Importa impostazioni di base")
 
 Per importare le impostazioni di base da un file XML archiviato nel server di Microsoft SharePoint, in base alle impostazioni correnti di Gestione documenti e il tipo di documento selezionato, nella pagina **Basi del formato per la creazione di report elettronici**, selezionare **Importa dall'origine**. Selezionare quindi il tipo di documento e il file XML. Il tipo di documento necessario per accedere alla cartella SharePoint deve essere configurato in anticipo.
 
-![Finestra di dialogo Importa dall'origine](media/GER-BaselineSample-ImportBaseline2.PNG "Schermata della finestra di dialogo Importa dall'origine")
+![Finestra di dialogo Importa dall'origine.](media/GER-BaselineSample-ImportBaseline2.PNG "Schermata della finestra di dialogo Importa dall'origine")
 
 > [!NOTE]
 > È possibile utilizzare Registrazione attività per registrare i passaggi per la selezione del tipo di documento richiesto e il nome di file nella finestra dialogo **Importa dall'origine**. In questo modo, è possibile mantenere le impostazioni di base richieste sul server SharePoint e quindi eseguirne l'importazione automaticamente eseguendo una registrazione attività quando si eseguono test automatizzati utilizzando Regression Suite Automation Tool.

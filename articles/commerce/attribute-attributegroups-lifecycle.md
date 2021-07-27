@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936806"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346806"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gestire attributi e gruppi di attributi
 
@@ -70,7 +70,7 @@ Gli attributi si basano sui *tipi di attributo*. Il tipo di attributo identifica
     - Denominare un tipo di attributo **Forma di lente**, quindi aggiungere i seguenti valori: **Ovale**, **Quadrato** e **Rettangolo**.
     - Denominare l'altro tipo di attributo **Marca di occhiali da sole**, quindi aggiungere i seguenti valori: **Ray ban**, **Aviator** e **Oakley**.
 
-![Tipi di attributo](media/AttributeType.png)
+![Tipi di attributo.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Impostare un attributo
 
@@ -79,7 +79,7 @@ Gli attributi si basano sui *tipi di attributo*. Il tipo di attributo identifica
 3. Creare un attributo denominato **Lente**.
 4. Impostare il campo **Tipo di attributo** su **Forma di lente**.
 
-![Attributi](media/Attribute.png)
+![Attributi.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Metadati di attributi
 
@@ -134,7 +134,7 @@ La pagina **Preferenze di visualizzazione filtro** include i seguenti campi:
     - 200 – 500
     - 500 o più
 
-![Impostazioni di filtro di attributi](media/AttributeFilterSettings.PNG)
+![Impostazioni filtro attributi.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Gruppi di attributi
 
@@ -142,7 +142,7 @@ Dopo che gli attributi sono stati definiti, possono essere assegnati a gruppi di
 
 È inoltre possibile impostare i valori predefiniti per gli attributi inclusi in un gruppo di attributi. Ad esempio, si aggiunge un attributo per il colore a un gruppo di attributi e si seleziona **Blu** come valore di attributo predefinito. In questo caso, quando il gruppo di attributi viene aggiunto a un prodotto che include il colore come uno degli attributi, **Blu** apparirà come il colore predefinito per quel prodotto.
 
-![Gruppi di attributi](media/AttributeGroup.png)
+![Gruppi di attributi.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Crea un gruppo attributi
 
@@ -155,7 +155,7 @@ Dopo che gli attributi sono stati definiti, possono essere assegnati a gruppi di
 
 È possibile associare uno o più gruppi di attributi ai nodi di categoria nei seguenti tipi di gerarchie di categorie: Gerarchia di prodotti di Commerce, Gerarchia di categorie di navigazione nei canali e Gerarchia di categorie di prodotti supplementari. Quindi, una volta che i prodotti sono stati classificati in categorie, ereditano gli attributi inclusi nei gruppi di attributi.
 
-![Gerarchia di prodotti - Gruppi di attributi del prodotto](media/AGRetailProdHierarchy.PNG)
+![Gerarchia di prodotti - Gruppi di attributi del prodotto.](media/AGRetailProdHierarchy.PNG)
 
 Attenersi alla procedura seguente per assegnare gruppi di attributi alle categorie nella gerarchia di prodotti di Commerce.
 
@@ -200,7 +200,7 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
     3. Selezionare il nodo della categoria **Accessori di moda**,selezionare la categoria **Occhiali da sole di moda**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
     4. Selezionare il nodo della categoria **Abbigliamento maschile**, selezionare la categoria **Pantaloni**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
 
-![Categorie canale e attributi del prodotto - Gruppi di attributi](media/CCPAttrGrp.png)
+![Categorie canale e attributi del prodotto - Gruppi di attributi.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Sostituzione dei valori di attributi
 
@@ -214,7 +214,7 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 4. Selezionare il prodotto richiesto nella griglia. Quindi, nel riquadro azioni, nella scheda **Prodotto**, nel gruppo **Imposta**, selezionare **Attributi del prodotto**.
 5. Selezionare un attributo nel riquadro sinistro, quindi aggiornare il relativo valore nel riquadro destro.
 
-![Pagina Dettagli prodotto - Gruppi di attributi del prodotto](media/ProdDetailsProdAttrValues.png)
+![Pagina Dettagli prodotto - Gruppi di attributi del prodotto.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Sostituire i valori degli attributi dei prodotti in un catalogo
 
@@ -233,7 +233,7 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
     > [!NOTE]
     > Se vengono creati supporti prodotto condivisi e attributi del prodotto condivisi, questi sono applicati a tutti i prodotti.
 
-![Gruppi di attributi del prodotto del catalogo](media/CatalogProdAttrValues.png)
+![Gruppi di attributi del prodotto del catalogo.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Sostituire i valori degli attributi dei prodotti in un canale
 

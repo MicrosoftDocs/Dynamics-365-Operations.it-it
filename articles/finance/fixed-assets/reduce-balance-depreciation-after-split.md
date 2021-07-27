@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826253"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356777"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Ridurre l'ammortamento a saldi decrescenti dopo una divisione
 
@@ -37,7 +37,7 @@ Ad esempio, sono in vigore le seguenti condizioni:
 - L'ammortamento del primo anno fiscale è pari a $18.000, l'ammortamento mensile è pari a $150 e il cespite viene quindi ammortizzato fino a novembre 2019, per un importo di $738,75.
 - A novembre 2019, l'80% del cespite viene diviso in un altro cespite.
 
-[![Ridurre l'ammortamento a saldi decrescenti dopo una divisione](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Ridurre l'ammortamento a saldi decrescenti dopo una divisione.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 L'importo da ammortizzare per il cespite originale è $1.822,25. Questo importo è uguale al valore contabile netto prima della registrazione della transazione di divisione ($ 9.111,25), più la rettifica di acquisizione generata durante la registrazione della transazione di divisione (- $ 8.000), più la rettifica di ammortamento generata durante la transazione di divisione ($ 711). Pertanto, l'ammortamento per il secondo anno è (1.822,25 × 18 percento) ÷ 12 = $27,33.
 

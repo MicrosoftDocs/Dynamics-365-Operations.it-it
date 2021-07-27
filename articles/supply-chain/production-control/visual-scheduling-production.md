@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908708"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353422"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Diagramma di Gantt per la programmazione dei processi
 
@@ -45,10 +45,10 @@ Il diagramma di Gantt può essere aperto in due diverse visualizzazioni, **Visua
 
 ## <a name="order-view"></a>Visualizzazione ordini
 
-[![Visualizzazione ordini](./media/orderview.png)](./media/orderview.png)
+[![Visualizzazione ordini.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Visualizzazione risorse
-[![Visualizzazione risorse](./media/resview.png)](./media/resview.png)
+[![Visualizzazione risorse.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Attività
 Le attività vengono visualizzate come barre e sono organizzate in una griglia della scala cronologica con una data di inizio e una data di fine programmate e la lunghezza delle barre è proporzionale al tempo necessario per completare l'attività. Le attività vengono visualizzate in base a una scala cronologica. È possibile modificare la scala cronologica nel menu in cui si seleziona una data di fine e un'unità di tempo, ad esempio, ore o giorni. Regolando la scala cronologica è possibile impostare l'elemento attivo su un intervallo di tempo in cui si desidera gestire le attività. 
@@ -102,25 +102,25 @@ Non è possibile programmare un processo al di fuori dell'intervallo di tempo de
 
 In una rete di attività, ad esempio i processi appartenenti allo stesso ordine di produzione, è possibile utilizzare la funzione **Programma processi precedenti** per la programmazione dei processi precedenti rispetto a un processo selezionato nella rete. Nell'esempio che segue l'attività evidenziata è il processo selezionato. Il diagramma mostra il processo selezionato prima della programmazione di un processo precedente e dopo la programmazione di un processo precedente. 
 
-[![Programma processi precedenti](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Programma processi precedenti.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Programma processi successivi
 
 È possibile utilizzare la funzione **Programma processi successivi** per la programmazione dei processi successivi in relazione a un processo selezionato in una rete di attività. Nell'esempio che segue l'attività evidenziata è il processo selezionato. Il diagramma mostra il processo selezionato prima della programmazione del processo successivo e dopo la programmazione del processo successivo. 
 
-[![Programma processi successivi](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Programma processi successivi.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Programmazione su processo
 
 È possibile utilizzare la funzione **Programmazione su processo** per la programmazione del processo successivo e del processo precedente correlati a un processo selezionato in una rete di attività. Nell'esempio che segue l'attività evidenziata è il processo selezionato. Il diagramma mostra il processo selezionato prima della programmazione di un processo e dopo la programmazione di un processo. 
 
-[![Programmazione su processo](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Programmazione su processo.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Disponi processi
 
 È possibile utilizzare la funzione **Disponi** per disporre di attività selezionate nella stessa risorsa. Queste attività possono trovarsi nella stessa rete di attività, ma appartenere anche a reti diverse. Quando si utilizza la funzione di organizzazione, le interruzioni di tempo tra le attività selezionate verranno eliminate. È possibile utilizzare questa funzione per ottimizzare l'uso della capacità delle risorse. Il diagramma mostra il processo selezionato prima della programmazione di un processo e dopo la programmazione di un processo. 
 
-[![Disponi processi](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Disponi processi.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Riassegnare attività da una risorsa a un'altra
 

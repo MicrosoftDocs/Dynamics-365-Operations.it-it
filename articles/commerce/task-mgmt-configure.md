@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791704"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354567"
 ---
 # <a name="configure-task-management"></a>Configurare la gestione delle attività
 
@@ -44,7 +44,7 @@ Per configurare le autorizzazioni di gestione delle attività per i gestori del 
 
 La seguente illustrazione mostra come configurare le autorizzazioni di gestione delle attività per i gestori del negozio.
 
-![Configurazione delle autorizzazioni di gestione delle attività per i gestori del negozio](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Configurazione delle autorizzazioni di gestione delle attività per i gestori del negozio.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Configurare le autorizzazioni per i dipendenti
 
@@ -78,7 +78,7 @@ Per configurare le notifiche POS per le attività, effettuare le seguenti operaz
 
 La seguente illustrazione mostra l'operazione **Gestione delle attività** nella pagina **Operazioni POS**.
 
-![Operazione di gestione delle attività nella pagina Operazioni POS](media/HQ-POS-Tasks-Notifications.png)
+![Operazione di gestione delle attività nella pagina Operazioni POS.](media/HQ-POS-Tasks-Notifications.png)
 
 Per ulteriori informazioni su come configurare le notifiche POS, vedere [Visualizzare le notifiche degli ordini nel POS](notifications-pos.md).
 
@@ -95,7 +95,7 @@ Per configurare il riquadro **Attività** in una home page dell'applicazione POS
 
 Nella figura seguente è illustrato un esempio di un riquadro **Attività** nella home page del POS.
 
-![Riquadro attività in una home page del POS](media/POS-home-screen-tasks-button-image.png)
+![Riquadro attività in una home page del POS.](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

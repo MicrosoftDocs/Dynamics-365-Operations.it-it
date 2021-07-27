@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019959"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348270"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Passare offline con semplicità per le operazioni gift card e nota credito
 
@@ -36,7 +36,7 @@ Tuttavia, se il POS perde la connettività dopo che una gift card è stata aggiu
 
 Per abilitare la funzionalità per concludere le transazioni con gift card dopo essere passati alla modalità offline, andare nella scheda **Registrazione** della pagina **Parametri di commercio**. In quella scheda, individuare la scheda dettaglio **Gift card** e impostare **Consenti chiusura transazioni gift card in modalità offline** su **Sì**.
 
-![Impostazione della gift card offline](../media/gift.png)
+![Impostazione della gift card offline.](../media/gift.png)
 
 I parametri di commercio sono generalmente memorizzati nella cache. Pertanto, dopo aver aggiornato l'impostazione di questo parametro e avviato la programmazione della distribuzione per sincronizzare la modifica nel canale, la modifica può richiedere fino a 24 ore per diventare effettiva. Per rendere immediatamente effettiva la modifica, reimpostare Microsoft Internet Information Services (IIS).
 
@@ -46,7 +46,7 @@ Come le gift card interne, le note di credito sono gestite centralmente in Comme
 
 Per abilitare la funzionalità per concludere le transazioni con nota di credito dopo essere passati alla modalità offline, andare nella scheda **Registrazione** della pagina **Parametri di commercio**. In quella scheda, individuare la scheda dettaglio **Nota di credito** e impostare **Consenti chiusura transazioni nota di credito in modalità offline** su **Sì**.
 
-![Impostazione della nota di credito offline](../media/creditmemo.png)
+![Impostazione della nota di credito offline.](../media/creditmemo.png)
 
 I parametri di commercio sono generalmente memorizzati nella cache. Pertanto, dopo aver aggiornato l'impostazione di questo parametro e avviato la programmazione della distribuzione per sincronizzare la modifica nel canale, la modifica può richiedere fino a 24 ore per diventare effettiva. Per rendere immediatamente effettiva la modifica, reimpostare IIS.
 

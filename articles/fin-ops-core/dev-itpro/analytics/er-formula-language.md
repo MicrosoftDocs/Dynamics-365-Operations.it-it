@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355396"
 ---
 # <a name="electronic-reporting-formula-language"></a>Linguaggio della formula nella creazione di report elettronici
 
@@ -117,15 +117,15 @@ Quando un'espressione fa riferimento a un'origine dati strutturata, è possibile
 
 Se il percorso di un'origine dati strutturata inizia con un segno "at" (@), è un percorso relativo. Viene visualizzato il segno "at" anziché la parte rimanente del percorso assoluto della struttura gerarchica utilizzata. Nella figura seguente viene illustrato un esempio. Qui il percorso assoluto `Ledger.'accountingCurrency()'` indica che il valore della valuta contabile dall'origine dati **Contabilità generale** è inserita nel campo **AccountingCurrency** del modello dati.
 
-![Esempio di percorso assoluto nella pagina di progettazione della mappatura del modello ER](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Esempio di percorso assoluto nella finestra di progettazione mapping modello ER.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 L'esempio nella figura seguente mostra come viene utilizzato un percorso relativo. Il percorso relativo `@.AccountNum` indica che il campo **AccountNum** dell'origine dati **Intrastat** (che appare un livello sopra il campo **AccountNum** nella struttura gerarchica del modello dati) viene utilizzato per inserire il numero di conto cliente o fornitore nel campo del modello dati **AccountNum**.
 
-![Esempio di percorso relativo nella pagina di progettazione della mappatura del modello ER](./media/ER-FormulaLanguage-RelativePath1.png)
+![Esempio di percorso relativo nella finestra di progettazione mapping modello ER.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 La parte rimanente del percorso assoluto è anche mostrata in [Editor di formule ER](general-electronic-reporting-formula-designer.md).
 
-![Parte rimanente del percorso assoluto nella pagina di progettazione della formula ER](./media/ER-FormulaLanguage-RelativePath2.png)
+![Parte rimanente del percorso assoluto nella finestra di progettazione formula ER.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Per ulteriori informazioni, vedere [Utilizzare un percorso relativo nelle associazioni dati dei modelli e dei formati ER](relative-path-data-bindings-er-models-format.md).
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053493"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344666"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Ottimizzare le prestazioni con le attività di pulizia automatiche
 
@@ -41,23 +41,23 @@ Pianificare un'attività automatica per ripulire la cronologia dei processi batc
 
 2. Nella barra **Ricerca**, immettere **Pulizia storico processi batch**.
 
-   ![Cercare Pulizia storico processi batch](media/talent-batch-history-cleanup-search-bar.png)
+   ![Cercare Pulizia storico processi batch.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. In **Limite cronologico (giorni)**, immettere **30**.
 
-   ![Impostare il limite cronologico su 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![Impostare il limite cronologico su 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Selezionare **Esecuzione in background** e quindi selezionare **Ricorrenza**.
 
-   ![Impostare la ricorrenza](media/talent-batch-history-cleanup-recurrence.png)
+   ![Impostare la ricorrenza.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. In **Definisci ricorrenza**, impostare la **Data di inizio** e **Ora di inizio** in modo che si verificano durante le ore non lavorative o nel fine settimana, quindi selezionare **Nessuna data di fine**. 
 
-   ![Definire la data e l'ora di inizio della ricorrenza](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definire la data e l'ora di inizio della ricorrenza.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. In **Criterio di ricorrenza**, selezionare **Giorni** e impostare **Ripeti dopo l'intervallo specificato** su **7**.
 
-   ![Impostare la pulizia con frequenza settimanale](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Impostare la pulizia con frequenza settimanale.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Selezionare **OK**.
 

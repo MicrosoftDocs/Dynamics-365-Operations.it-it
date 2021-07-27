@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5dbef67728e86259ee48b51c48921f6e44a61015
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 356552fd1c2001619785b6a03b8ec4cba92725da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793059"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351323"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configurare le denominazioni del contante per il POS
 
@@ -33,7 +33,7 @@ Le denominazioni del contante per banconote e monete possono essere definite nel
 
 È possibile impostare le denominazioni per punto vendita selezionando **Imposta** \> **Riepilogo di cassa** nella pagina delle proprietà dei punti vendita.
 
-![Opzione Riepilogo di cassa](./media/image1-denomination.png)
+![Opzione Riepilogo di cassa.](./media/image1-denomination.png)
 
 Per definire una denominazione:
 
@@ -41,7 +41,7 @@ Per definire una denominazione:
 1. Specificare il tipo (moneta o banconota).
 1. Specificare l'importo (valore).
 
-![Pagina Denominazioni riepilogo di cassa](./media/image2-denomination.png)
+![Pagina Denominazioni riepilogo di cassa.](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Configurare il profilo funzionalità
 

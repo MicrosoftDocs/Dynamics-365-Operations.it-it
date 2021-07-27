@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222588"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349036"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Abilitare le previsioni di pagamento del cliente (anteprima)
 
@@ -51,7 +51,7 @@ Questo argomento spiega come attivare e configurare la funzionalità Previsioni 
 
     1. Vai a **Credito e riscossioni \> Imposta \> Finance Insights \> Parametri di Finance Insights**.
 
-        [![Pagina dei parametri di Finance Insights prima della configurazione della funzione](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Pagina dei parametri di Finance Insights prima della configurazione della funzione.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. Nella pagina **Parametri di Finance Insights**, nella scheda **Informazioni dettagliate sui pagamenti dei clienti**, seleziona il collegamento **Visualizza i campi dati utilizzati nel modello di previsione** per aprire la pagina **Campi dati per il modello di previsione**. Qui puoi visualizzare l'elenco predefinito dei campi utilizzati per creare il modello di previsione dell'intelligenza artificiale (AI) per le previsioni di pagamento dei clienti.
 
@@ -77,7 +77,7 @@ Questo argomento spiega come attivare e configurare la funzionalità Previsioni 
 
 Dopo che la funzionalità è stata attivata e configurata e il modello di previsione è stato creato e funziona, la sezione **Modello di previsione** della pagina **Parametri di Finance Insights** mostra la precisione del modello, come visualizzato nell'illustrazione seguente.
 
-[![Precisione del modello di previsione nella pagina Parametri di Finance Insights](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Precisione del modello di previsione nella pagina Parametri di Finance Insights.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Dettagli del rilascio
 

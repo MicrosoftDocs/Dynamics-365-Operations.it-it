@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 999163c1b94f53a5856120a325ccf7386f7a2a5d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7c8683160bb8bcc9f546cbeda021d39e000a0777
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894748"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348450"
 ---
 # <a name="improved-inquiry-on-debitcredit-settlement"></a>Richiesta di informazioni migliorata sulla liquidazione dare/avere
 
@@ -44,11 +44,11 @@ La griglia nella parte superiore della pagina mostra le fatture cliente o le fat
 
 La griglia nella parte inferiore della pagina mostra le transazioni di addebito e credito del cliente o fornitore selezionato. Questi tipi di transazione includono fatture, pagamenti e transazioni di rivalutazione in valuta estera. Qualsiasi saldo diverso da zero per le fatture è evidenziato in rosso.
 
-![Pagina Elenco fatture/pagamenti](media/emea-ita-exil-DC-inquiry-vendor-invoice-payment.png)
+![Pagina Elenco fatture/pagamenti.](media/emea-ita-exil-DC-inquiry-vendor-invoice-payment.png)
 
 Nel riquadro azioni selezionare **Parametri** per impostare un filtro in modo che la pagina elenco **Fatture/pagamenti** mostri solo i dati specifici.
 
-![Finestra di dialogo a discesa dei parametri](media/emea-ita-exil-DC-inquiry-parameters.png)
+![Finestra di dialogo a discesa dei parametri.](media/emea-ita-exil-DC-inquiry-parameters.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

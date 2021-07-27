@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: db74b34bf0c11a7b3b38f4b3f41b475464722b6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fd03acc0a216ec4165999601ba693ebcffc14023
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830411"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354268"
 ---
 # <a name="unified-posting-date-control"></a>Controllo unificato della data di registrazione
 
@@ -41,7 +41,7 @@ Completa i seguenti passaggi per configurare il controllo della data di registra
 1. Vai a **Imposta** > **Impostazione** > **IVA** > **Sezioni libro IVA italiano**. 
 2. Nella colonna **Ignora controllo data di registrazione** seleziona se il controllo della data di registrazione è necessario per una sezione del libro IVA selezionata.
 
-![Controllo della data di registrazione](media/emea-ita-post-date-control.jpg)
+![Controllo della data di registrazione.](media/emea-ita-post-date-control.jpg)
 
  - Se il campo non è abilitato, che è l'opzione predefinita, il sistema non consente la registrazione di nuove fatture con date precedenti alla data dell'ultima fattura registrata.  
  - Se il campo è abilitato, il sistema consente la registrazione con qualsiasi data.

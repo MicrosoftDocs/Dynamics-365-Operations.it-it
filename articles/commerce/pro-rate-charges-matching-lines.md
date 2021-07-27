@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018608"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352182"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Spese intestazione con ripartizione proporzionale in righe di vendita corrispondenti
 
@@ -56,9 +56,9 @@ Questo scenario illustra il comportamento quando l'opzione **Ripartisci automati
 
 In questo scenario, l'organizzazione ha definito le spese a livello di intestazione per la relazione tra modalità di consegna **99** e la relazione tra modalità di consegna **11**. Nessuna spesa automatica è configurata per la modalità di consegna **21**.
 
-![Spese automatiche per la modalità di consegna 99 quando la ripartizione automatica nelle righe corrispondenti è disattivata](media/99_disabled.png)
+![Spese automatiche per la modalità di consegna 99 quando la ripartizione automatica nelle righe corrispondenti è disattivata.](media/99_disabled.png)
 
-![Spese automatiche per la modalità di consegna 11 quando la ripartizione automatica nelle righe corrispondenti è disattivata](media/11_disabled.png)
+![Spese automatiche per la modalità di consegna 11 quando la ripartizione automatica nelle righe corrispondenti è disattivata.](media/11_disabled.png)
 
 Un ordine cliente viene creato nel call center e la modalità di consegna è impostata su **99**. Questo ordine contiene cinque articoli. Due righe dell'ordine sono state configurate per utilizzare la modalità di consegna **99**, due righe sono state configurate per utilizzare la modalità di consegna **11** e una riga è stata configurata per l'utilizzo della modalità di consegna **21**, come illustrato nella seguente tabella.
 
@@ -78,9 +78,9 @@ In questo scenario, se un cliente restituisce alcuni degli articoli nell'ordine 
 
 In questo scenario, le spese a livello di intestazione sono definite per la relazione tra modalità di consegna **99** e la relazione tra modalità di consegna **11**. Tuttavia, l'opzione **Ripartisci automaticamente in righe di vendita corrispondenti** è impostata su **Sì** per queste tabelle di spese automatiche.
 
-![Spese automatiche per la modalità di consegna 99 quando la ripartizione automatica nelle righe corrispondenti è attivata](media/99_enabled.png)
+![Spese automatiche per la modalità di consegna 99 quando la ripartizione automatica nelle righe corrispondenti è attivata.](media/99_enabled.png)
 
-![Spese automatiche per la modalità di consegna 11 quando la ripartizione automatica nelle righe corrispondenti è attivata](media/11_enabled.png)
+![Spese automatiche per la modalità di consegna 11 quando la ripartizione automatica nelle righe corrispondenti è attivata.](media/11_enabled.png)
 
 Questo scenario utilizza lo stesso ordine cliente contenente cinque righe. La modalità di consegna nell'intestazione dell'ordine è impostata su **99**, ma la modalità di consegna per ogni articolo dell'ordine cliente è configurata come illustrato nella seguente tabella.
 
@@ -130,9 +130,9 @@ Poiché la configurazione delle spese automatiche è impostata per una ripartizi
     - Valore prodotto totale = $15
     - **Valore spese = $0** (nessuna spesa automatica è stata configurata per questa combinazione di un cliente e di una modalità di consegna).
 
-    ![Spese della modalità di consegna 11 nel livello evidenziato](media/step2mode11.png)
+    ![Spese della modalità di consegna 11 nel livello evidenziato.](media/step2mode11.png)
 
-    ![Spese della modalità di consegna 99 nel livello evidenziato](media/step2mode99.png)
+    ![Spese della modalità di consegna 99 nel livello evidenziato.](media/step2mode99.png)
 
 3. Il sistema calcola il valore spese da applicare a ogni riga, in base alla logica di ripartizione che considera il valore proporzionale della riga in relazione al valore prodotto totale del gruppo.
 
@@ -163,7 +163,7 @@ Poiché la configurazione delle spese automatiche è impostata per una ripartizi
 
 Pertanto, per questo esempio, all'articolo 81334 verranno assegnate delle spese di trasporto di $5,62. È possibile visualizzare tali spese nella pagina **Gestisci spese** per la riga di vendita. L'illustrazione seguente mostra questa pagina per l'articolo 81334.
 
-![Spese ripartite proporzionalmente nella riga di vendita per l'articolo 81334](media/proratedlinecharge.png)
+![Spese ripartite proporzionalmente nella riga di vendita per l'articolo 81334.](media/proratedlinecharge.png)
 
 Quando questo metodo di calcolo viene utilizzato in uno scenario di reso parziale, se il codice spese è rimborsabile, solo la parte delle spese assegnata a tale riga verrà rimborsata quando l'articolo viene restituito.
 

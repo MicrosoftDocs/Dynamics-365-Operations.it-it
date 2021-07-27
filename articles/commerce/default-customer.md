@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799181"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349604"
 ---
 # <a name="create-a-default-customer"></a>Creare un cliente predefinito
 
@@ -47,7 +47,7 @@ Per creare un gruppo di clienti, completare i passaggi seguenti.
 
 L'immagine seguente mostra diversi gruppi di clienti configurati.
 
-![Gruppi di clienti](media/customer-groups.png)
+![Gruppi di clienti.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Creare una nuova rubrica clienti
 
@@ -63,7 +63,7 @@ Per creare una rubrica clienti, procedere come segue.
 
 L'immagine seguente mostra un esempio di rubrica.
 
-![Rubrica](media/address-book.png)
+![Rubrica.](media/address-book.png)
 
 ## <a name="create-a-default-customer&quot;></a>Creare un cliente predefinito
 
@@ -86,11 +86,11 @@ Per creare un cliente predefinito, completare i passaggi seguenti.
 
 L'immagine seguente illustra un esempio di creazione di un cliente.
 
-![Creazione di un cliente predefinito](media/default-customer-creation.png)
+![Creazione di un cliente predefinito.](media/default-customer-creation.png)
 
 L'immagine seguente mostra la configurazione di un cliente predefinito.
 
-![Esporta di configurazione di un cliente](media/default-customer-configuration1.png)
+![Esempio di configurazione di un cliente.](media/default-customer-configuration1.png)
 
 La maggior parte dei valori predefiniti nella schermata dei dettagli cliente può rimanere, ma è necessario modificare due valori.
 
@@ -100,13 +100,13 @@ La maggior parte dei valori predefiniti nella schermata dei dettagli cliente pu�
 
 L'immagine seguente illustra un esempio di configurazione di un cliente.
 
-![Esporta di configurazione di un cliente](media/default-customer-configuration2.png)
+![Esempio di configurazione di un cliente.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei canali](channels-overview.md)
 
-[Prerequisiti di impostazione dei canali](channels-prerequisites.md)
+[Prerequisiti dell'impostazione dei canali](channels-prerequisites.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

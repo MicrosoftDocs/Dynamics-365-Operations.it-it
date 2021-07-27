@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e18439fc0e91619cade33b83b87be0d5c4d1040
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d9470e4d517c5fb0b49ae2e26eb14220ea17aa3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799013"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349402"
 ---
 # <a name="enrich-a-category-landing-page"></a>Migliorare una pagina di destinazione di categoria
 
@@ -31,7 +31,7 @@ Commerce fornisce una pagina di destinazione predefinita per le categorie che vi
 
 Tuttavia, anziché utilizzare la pagina categoria predefinita, è possibile utilizzare una pagina di destinazione per le categorie "migliorata" con più contenuto e più elementi specifici. Un miglioramento tipico potrebbe essere l'aggiunta alla pagina categoria di contenuto marketing specifico alla categoria. Questo contenuto potrebbe includere il posizionamento dei prodotti nelle categorie per scopi di cross-selling, elenchi editoriali, immagini, video e altro testo. È possibile modificare la pagina categoria predefinita o definire un'altra pagina categoria per una categoria specifica.
 
-![Pagina di destinazione di categoria migliorata](./media/CategoryLandingPages.png)
+![Pagina di destinazione di categoria migliorata.](./media/CategoryLandingPages.png)
 
 In Creazione di siti Web di Commerce, la pagina **Prodotti** include un elenco di categorie del canale assegnate al sito. Se lo stato **Migliorata** è selezionato per una pagina categoria, quella pagina è stata migliorata. In caso contrario, la pagina categoria predefinita e il contenuto vengono utilizzati per la categoria. È possibile visualizzare l'anteprima delle pagine categoria migliorate e non migliorate selezionando il nome della categoria.
 

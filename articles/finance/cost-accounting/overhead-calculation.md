@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187999"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355037"
 ---
 # <a name="overhead-calculation"></a>Calcolo generale
 
@@ -48,7 +48,7 @@ Il calcolo dei costi generali si basa sui criteri di contabilità industriale es
 
 Il calcolo dei costi generali viene eseguito indipendentemente dalla versione. Di conseguenza, è possibile calcolare la versione Budget prima della versione Effettivo. Il calcolo dei costi generali è costituito da quattro passaggi, come illustrato nella figura seguente. A ogni passaggio, un'intestazione del giornale di registrazione viene creata con voci del giornale di registrazione. In questa intestazione del giornale di registrazione sono archiviati i dati di input per ogni passaggio di calcolo. I criteri e le regole vengono applicati a ogni riga del giornale di registrazione e le voci di costo vengono generate come output. Di conseguenza, la tracciabilità è sempre completa. 
 
-[![Calcolo dei costi generali](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Calcolo generale.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcolare e allocare il costo generale dell'elettricità
 Nella contabilità finanziaria, alcuni costi, ad esempio l'elettricità, vengono registrati come somma forfettaria. Di conseguenza, l'analisi manageriale dettagliata non viene fornita per la contabilità industriale. In contabilità industriale, per fornire l'analisi manageriale dettagliata corretta in tutte le unità organizzative e livelli, i costi devono essere trasferiti attraverso le unità organizzative. Questo flusso deve basarsi su un record accurato del consumo o su una valutazione equa. Nella contabilità generale, il costo di elettricità può essere registrato come illustrato nella seguente tabella.
@@ -618,7 +618,7 @@ Per ulteriori informazioni, vedere [Eseguire il calcolo generale](cost-rollup.md
 
 L'allocazione è utilizzata per assegnare il saldo di un oggetto costo ad altri oggetti costo applicando una base di allocazione. Finance supporta il metodo di allocazione reciproco. Nel metodo di allocazione reciproco, i servizi reciproci che gli oggetti costo ausiliario si scambiano sono completamente riconosciuti. Il sistema determina automaticamente l'ordine corretto per eseguire le allocazioni. Il saldo di un oggetto costo viene assegnato da una singola base di allocazione. Le allocazioni in più dimensioni di oggetti costo e i rispettivi membri sono supportate. L'ordine di allocazione è controllato dall'unità di controllo dei costi. 
 
-[![Metodo reciproco](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Metodo reciproco.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Definizione dell'allocazione costi
 

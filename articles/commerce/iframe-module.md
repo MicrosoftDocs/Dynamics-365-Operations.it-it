@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7b397b91d1b8a45347ef2d05f42fb7c610ab3912
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55526b34eb057abb9a8c33cbfea1807601da6577
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797072"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348216"
 ---
 # <a name="iframe-module"></a>Modulo Iframe
 
@@ -37,11 +37,11 @@ Un modulo iFrame richiede un URL di destinazione. Ospita quindi il contenuto del
 
 L'immagine seguente mostra esempi di moduli iFrame che presentano video esterni sulle pagine del sito.
 
-![Esempio di moduli iFrame che presentano video esterni](./media/ecommerce-iframe.PNG)
+![Esempio di moduli iFrame che presentano video esterni.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Proprietà del modulo iFrame
 
-| Nome proprietà             | Valore                 | Descrizione |
+| Nome proprietà             | Valore                 | descrizione |
 |---------------------------|-----------------------|-------------|
 | Intestazione | Testo | L'intestazione del modulo. |
 | URL destinazione | URL | L'URL ospitato nel modulo. |

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 16201
+ms.custom:
+- "16201"
+- intro-internal
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a1ee19a052c4a64995e6fcaa4afbe04b3e95fa55
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: b52dc87e4a6a47f0c656c25bd5b5506f9de919c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027554"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344325"
 ---
 # <a name="loyalty-overview"></a>Panoramica fedeltà
 
@@ -41,7 +43,7 @@ I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti pr
 
 È necessario impostare più componenti per abilitare la funzionalità di fedeltà in Commerce. Nel diagramma riportato di seguito vengono illustrati i componenti del programma fedeltà e viene indicato in quale modo fanno riferimento l'uno all'altro.
 
-![Flusso del processo di impostazione del programma fedeltà](./media/loyaltyprocess.gif "Componenti del programma fedeltà e come sono correlati tra loro")
+![Flusso del processo di impostazione del programma fedeltà.](./media/loyaltyprocess.gif "Componenti del programma fedeltà e come sono correlati tra loro")
 
 ## <a name="loyalty-components"></a>Componenti del programma fedeltà
 
@@ -80,15 +82,15 @@ Nella seguente tabella sono descritti i processi che devono essere eseguiti per 
     > [!NOTE]
     > Le regole dei ricavi nello schema del programma fedeltà sono aggiuntive. Ad esempio, se si crea una regola per ricompensare un membro di livello gold con 10 punti per ogni dollaro statunitense e si crea anche una regola per un cliente con un rapporto "veterano" per ricompensarlo con 5 punti per ogni dollaro statunitense, un veterano che è anche membro del livello gold guadagnerebbe 15 punti per 1 dollaro statunitense, poiché il cliente si qualifica per entrambe le righe. Tuttavia, se il cliente veterano non fosse un membro di livello gold, il cliente guadagnerebbe 5 punti per ogni dollaro. Per riflettere le modifiche apportate ai canali, eseguire i processi **Elabora programmi fedeltà** e **1050** (informazioni sui programma fedeltà).
     
-    ![Ricavi basati sul rapporto](./media/Affiliation-based-earning.png "Ricavi basati sul rapporto")
+    ![Ricavi basati sul rapporto.](./media/Affiliation-based-earning.png "Ricavi basati sul rapporto")
 
 - I rivenditori fanno spesso prezzi speciali per un determinato gruppo di clienti ai quali non desiderano applicare i programmi fedeltà. Ad esempio, grossisti o dipendenti che ottengono prezzi speciali e nessun punto programma fedeltà. Comunemente, "i rapporti" sono utilizzati per applicare i prezzi speciali a questi gruppi di clienti. Per limitare il guadagno di punti programma fedeltà di determinati gruppi di clienti, il rivenditore può specificare uno o più rapporti nella sezione **Report esclusi** dello schema programma fedeltà. In tal modo, quando i clienti che appartengono ai rapporti esclusi sono membri effettivi del programma fedeltà, non potranno ottenere i punti del programma fedeltà per gli acquisti. Per riflettere le modifiche apportate ai canali, eseguire i processi **Elabora programmi fedeltà** e **1050** (informazioni sui programma fedeltà).
 
-    ![Rapporti esclusi](./media/Excluded-affiliations.png "Rapporti esclusi dai punti del programma fedeltà")
+    ![Rapporti esclusi.](./media/Excluded-affiliations.png "Rapporti esclusi dai punti del programma fedeltà")
     
 - Il punto vendita consente ai rivenditori la flessibilità di utilizzare le carte fedeltà fisiche o di generare automaticamente un numero di carta fedeltà univoco. Per abilitare la generazione automatica di carte fedeltà nei punti vendita, attivare **Genera numero carta fedeltà** nel profilo della funzionalità associato al punto vendita. Per i canali online, i rivenditori possono utilizzare l'API IssueLoyaltyCard per emettere le carte fedeltà ai clienti. I rivenditori possono fornire un numero di carta fedeltà a questa API, che verrà utilizzato per generare la carta fedeltà, o il sistema utilizzerà la sequenza numerica della carta fedeltà in Commerce. Tuttavia, se la sequenza numerica non è presente e il rivenditore non fornisce un numero di carta fedeltà mentre chiama l'API, verrà visualizzato un errore.
 
-    ![Genera carta fedeltà](./media/Generate-loyalty-card.png "Il numero di carta fedeltà verrà generato automaticamente")
+    ![Genera carta fedeltà.](./media/Generate-loyalty-card.png "Il numero di carta fedeltà verrà generato automaticamente")
 
 - I punti del programma fedeltà guadagnati o rimborsati possono ora essere salvati per ciascuna transazione e ordine cliente rispetto alla riga di vendita, in modo che lo stesso importo possa essere rimborsato o prelevato solo nel caso di resi completi o parziali. Inoltre, avere la visibilità dei punti a livello di riga di vendita garantisce agli utenti dei call center la possibilità di rispondere alle domande dei clienti in merito alla quantità di punti guadagnati o riscattati per ciascuna riga. Prima di questa modifica i punti premio venivano sempre ricalcolati durante i resi, il che generava una quantità diversa dall'originale, se le regole di ricavo o rimborso erano state modificate e inoltre gli utenti dei call center non avevano la visibilità sulla suddivisione dei punti. I punti possono essere visualizzati nel modulo **Transazioni carte** per ogni carta fedeltà. Per attivare questa funzionalità attivare la configurazione **Registra punti fedeltà per riga di vendita** nella scheda **Parametri condivisi di commercio** \> **Generale**.
 
@@ -99,33 +101,33 @@ Nella seguente tabella sono descritti i processi che devono essere eseguiti per 
 
 Inoltre, i rivenditori possono definire il limite massimo di punti premio del programma fedeltà per carta fedeltà. Questo campo può essere utilizzato per ridurre l'impatto delle frodi del programma fedeltà. Quando la quantità massima di punti premio è stata raggiunta, l'utente non può ottenere altri punti. Il rivenditore può decidere di bloccare tali schede finché non avrà verificato l'assenza di una potenziale frode. Se il rivenditore determina la frode, il rivenditore può bloccare la carta fedeltà per il cliente e contrassegnare il cliente come bloccato. A questo scopo, impostare la proprietà **Blocca cliente per iscrizione al programma fedeltà** su **Sì** in **Tutti i clienti** nella scheda dettaglio **Commerce**. I clienti bloccati non potranno ricevere una carta fedeltà su alcuno dei canali.
 
-   ![Distribuzione incentivi e quantità massima di punti premio](./media/Vesting-and-maximum-reward-points.png "Definizione della distribuzione incentivi e della quantità massima di punti premio")
+   ![Distribuzione incentivi e quantità massima di punti premio.](./media/Vesting-and-maximum-reward-points.png "Definizione della distribuzione incentivi e della quantità massima di punti premio")
 
 - I rapporti vengono utilizzati per immettere prezzi e sconti speciali, ma vi sono alcuni rapporti che i rivenditori non desiderano mostrare ai propri clienti. Ad esempio, un rapporto denominato "Cliente con spesa elevata" potrebbe non essere accolto favorevolmente da alcuni . Inoltre, sono disponibili alcuni rapporti che non dovrebbero essere gestiti nel punto vendita, ad esempio, i dipendenti, in quanto non si desidera che i cassieri decidano chi è un dipendente e quindi offrano sconti in base al dipendente. I rivenditori possono ora selezionare i rapporti che devono essere nascosti nei canali. I rapporti contrassegnati come **Nascondi in canali** non possono essere visualizzati, aggiunti né rimossi nel POS. Tuttavia, i prezzi e gli sconti associati al rapporto verranno tuttavia applicati ai prodotti.
 
-    ![Nascondi rapporti](./media/Hide-affiliations.png "Nascondere rapporti nei canali")
+    ![Nascondi rapporti.](./media/Hide-affiliations.png "Nascondere rapporti nei canali")
     
 - Gli utenti dei call center possono ora cercare più facilmente un cliente utilizzando le informazioni sulla carta fedeltà e visualizzare le pagine della carta fedeltà e delle transazioni della carta fedeltà del cliente dalla pagina **Servizio clienti**.
 
-    ![Servizio clienti](./media/Customer-service.png "Trovare informazioni sul programma fedeltà per il cliente")
+    ![Servizio clienti.](./media/Customer-service.png "Trovare informazioni sul programma fedeltà per il cliente")
     
 - Se una carta fedeltà è compromessa, una scheda sostitutiva deve essere generata e i punti esistenti trasferiti nella nuova carta. Il flusso della scheda sostitutiva è stato semplificato in questa versione. Inoltre, i clienti possono donare alcuni o tutti i punti del programma fedeltà ad amici e alla famiglia. Quando i punti vengono trasferiti, voci di rettifica dei punti vengono create per ogni carta fedeltà. La carta sostitutiva e la funzionalità per trasferire il saldo possono essere accessibili dalla pagina **Carte fedeltà**.
 
-    ![Sostituisci e trasferisci punti](./media/Replace-and-transfer-points.png "Sostituire la carta fedeltà o trasferire il saldo")
+    ![Sostituisci e trasferisci punti.](./media/Replace-and-transfer-points.png "Sostituire la carta fedeltà o trasferire il saldo")
     
 - I rivenditori possono voler acquisire l'efficacia di un canale specifico per registrare i clienti in un programma fedeltà. L'origine di iscrizione per le carte fedeltà viene ora salvata in modo che i rivenditori possano eseguire report su questi dati. L'origine delle iscrizioni è catturata automaticamente per tutte le carte fedeltà emesse da MPOS/CPOS o dai canali di commercio elettronico. Per le carte fedeltà emesse dall'applicazione di back office, l'utente dei call center può selezionare un canale appropriato.
 - Nella versioni precedenti i rivenditori potevano utilizzare MPOS/CPOS per riscattare i punti programma fedeltà per i clienti in un punto vendita. Tuttavia, in quelle versioni, dato che il saldo del programma fedeltà appare sotto forma di punti programma fedeltà, il cassiere non poteva visualizzare l'importo del valore della valuta che poteva essere applicato alla transazione in corso. Il cassiere doveva effettuare la conversione da punti a valuta prima di pagare in base ai punti del programma fedeltà. Nella versione esistente, dopo l'aggiunta delle righe alla transazione, il cassiere può visualizzare l'importo che i punti del programma fedeltà possono coprire per la transazione in corso, facilitando l'applicazione di alcuni o tutti punti del programma fedeltà alla transazione. Inoltre, il cassiere può vedere i punti che scadono nei 30 giorni successivi, in modo da potere eseguire l'upselling o il cross-selling per motivare il cliente a spendere i punti in scadenza in quella transazione.
 
-    ![Punti coperti dal saldo del programma fedeltà](./media/Points-covered-by-loyalty-balance.png "Mostrare il saldo coperto dai punti del programma fedeltà")
+    ![Punti coperti dal saldo del programma fedeltà.](./media/Points-covered-by-loyalty-balance.png "Mostrare il saldo coperto dai punti del programma fedeltà")
 
-    ![Punti in scadenza](./media/Expiring-points.png "Visualizzare i punti in scadenza")
+    ![Punti in scadenza.](./media/Expiring-points.png "Visualizzare i punti in scadenza")
 
 - Nella versione 8.1.3, l'opzione "pagamento con programma di fedeltà" è abilitata nel canale servizio clienti. Per abilitare questa opzione, creare un tipo di metodo di pagamento della carta fedeltà e associarlo al servizio clienti. 
 
     > [!NOTE]
     > Poiché i pagamenti del programma fedeltà sono impostati come pagamenti con carta, sarà necessario selezionare una carta nella pagina **Impostazione carta**. 
 
-    ![Impostazione della carta fedeltà](./media/LoyaltyCardSetup.png "Impostazione della carta fedeltà")
+    ![Impostazione della carta fedeltà.](./media/LoyaltyCardSetup.png "Impostazione della carta fedeltà")
 
     Dopo tale impostazione, i clienti possono riscattare i punti fedeltà nel servizio clienti. Inoltre, stiamo ottimizzando l'esperienza utente per visualizzare l'importo coperto dai punti fedeltà affinché gli utenti del servizio clienti non debbano accedere a un'altra schermata per visualizzare il saldo del programma fedeltà.
 

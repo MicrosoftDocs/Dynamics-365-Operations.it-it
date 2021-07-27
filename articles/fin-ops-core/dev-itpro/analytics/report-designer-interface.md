@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a20cd71c9729b492403f02f3b5576351169a6e2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0b2e2ead990332f1afd338a430406e6d1db95347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754352"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350138"
 ---
 # <a name="report-designer-interface"></a>Interfaccia Progettazione report
 
@@ -169,56 +169,56 @@ Nelle tabelle seguenti vengono descritti i pulsanti della barra degli strumenti 
 
 La barra degli strumenti standard consente l'accesso rapido ai comandi di file e modifica. Nella barra degli strumenti sono inclusi i seguenti pulsanti.
 
-| Pulsante                                                                                       | Descrizione |
+| Pulsante                                                                                       | descrizione |
 |----------------------------------------------------------------------------------------------|-------------|
-| [![Pulsante Nuovo](./media/rowc130389.png)](./media/rowc130389.png)                              | Creare una nuova (vuota) definizione di report, definizione di riga, definizione di colonna o definizione di albero gerarchico. |
-| [![Pulsante Apri](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Aprire una definizione di riga, definizione di colonna, definizione di albero gerarchico o definizione di report esistente. |
-| [![Pulsante Salva](./media/savec130389.png)](./media/savec130389.png)                           | Salvare la definizione di riga, definizione di colonna, definizione di albero gerarchico o definizione di report corrente. |
-| [![Pulsante Copia](./media/copyc130389.png)](./media/copyc130389.png)                           | Copiare il testo selezionato negli Appunti. |
-| [![Pulsante Taglia](./media/cutc130389.png)](./media/cutc130389.png)                              | Eliminare il testo selezionato e copiarlo negli Appunti. |
-| [![Pulsante Incolla](./media/pastec130389.png)](./media/pastec130389.png)                        | Inserire il testo dagli Appunti. |
-| [![Pulsante Annulla](./media/undoc130389.png)](./media/undoc130389.png)                           | Annullare l'ultima azione. |
-| [![Pulsante Ripeti](./media/redoc130389.png)](./media/redoc130389.png)                           | Ripristinare l'ultima azione annullata. |
-| [![Pulsante Trova](./media/findc130389.png)](./media/findc130389.png)                           | Aprire la finestra di dialogo **Trova e sostituisci** in cui è possibile cercare e sostituire il testo nella finestra attiva. |
-| [![Pulsante Inserisci riga](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Inserire una riga vuota nella definizione di riga o una riga di intestazione vuota nella definizione di colonna. Questo pulsante è disponibile da una definizione di riga o una definizione di colonna. |
-| [![Pulsante Inserisci colonna](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Inserire una colonna vuota nella definizione di colonna. Questo pulsante è disponibile da una definizione di colonna. |
-| [![Pulsante Blocca](./media/lockc130389.png)](./media/lockc130389.png)                           | Applicare una password al blocco predefinito corrente. Questo pulsante è disponibile per gli utenti con ruolo **Progettazione** o **Amministratore**. |
-| [![Pulsante Collegamento riga](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Aprire la finestra di dialogo **Collegamenti riga** in cui è possibile specificare le origini dei collegamenti dei dati nelle definizioni di riga e nelle definizioni di albero gerarchico. Questo pulsante è disponibile da una definizione di riga. |
-| [![Pulsante Promuovi](./media/promotec130389.png)](./media/promotec130389.png)                  | Promuovere un'unità della definizione di albero gerarchico. Quando si seleziona un'unità figlio quindi si fa clic su **Promuovi**, l'unità figlio verrà spostata nello stesso livello dell'unità padre. |
-| [![Pulsante Abbassa](./media/demotec130389.png)](./media/demotec130389.png)                     | Abbassare un'unità della definizione di albero gerarchico. Quando si seleziona un'unità e quindi si fa clic su **Abbassa**, l'unità diventa un elemento figlio dell'unità che la precede. |
-| [![Pulsante Espandi](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Espandere tutte le unità della definizione di albero gerarchico al livello dell'unità selezionata. |
-| [![Pulsante Comprimi](./media/collapsec130389.png)](./media/collapsec130389.png)               | Comprimere l'albero gerarchico. |
-| [![Pulsante ?](./media/helpc130389.png)](./media/helpc130389.png)                           | Aprire la Guida. |
+| [![Pulsante Nuovo.](./media/rowc130389.png)](./media/rowc130389.png)                              | Creare una nuova (vuota) definizione di report, definizione di riga, definizione di colonna o definizione di albero gerarchico. |
+| [![Pulsante Apri.](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Aprire una definizione di riga, definizione di colonna, definizione di albero gerarchico o definizione di report esistente. |
+| [![Pulsante Salva.](./media/savec130389.png)](./media/savec130389.png)                           | Salvare la definizione di riga, definizione di colonna, definizione di albero gerarchico o definizione di report corrente. |
+| [![Pulsante Copia.](./media/copyc130389.png)](./media/copyc130389.png)                           | Copiare il testo selezionato negli Appunti. |
+| [![Pulsante Taglia.](./media/cutc130389.png)](./media/cutc130389.png)                              | Eliminare il testo selezionato e copiarlo negli Appunti. |
+| [![Pulsante Incolla.](./media/pastec130389.png)](./media/pastec130389.png)                        | Inserire il testo dagli Appunti. |
+| [![Pulsante Annulla.](./media/undoc130389.png)](./media/undoc130389.png)                           | Annullare l'ultima azione. |
+| [![Pulsante Ripeti.](./media/redoc130389.png)](./media/redoc130389.png)                           | Ripristinare l'ultima azione annullata. |
+| [![Pulsante Trova.](./media/findc130389.png)](./media/findc130389.png)                           | Aprire la finestra di dialogo **Trova e sostituisci** in cui è possibile cercare e sostituire il testo nella finestra attiva. |
+| [![Pulsante Inserisci riga.](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Inserire una riga vuota nella definizione di riga o una riga di intestazione vuota nella definizione di colonna. Questo pulsante è disponibile da una definizione di riga o una definizione di colonna. |
+| [![Pulsante Inserisci colonna.](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Inserire una colonna vuota nella definizione di colonna. Questo pulsante è disponibile da una definizione di colonna. |
+| [![Pulsante Blocca.](./media/lockc130389.png)](./media/lockc130389.png)                           | Applicare una password al blocco predefinito corrente. Questo pulsante è disponibile per gli utenti con ruolo **Progettazione** o **Amministratore**. |
+| [![Pulsante Collegamento riga.](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Aprire la finestra di dialogo **Collegamenti riga** in cui è possibile specificare le origini dei collegamenti dei dati nelle definizioni di riga e nelle definizioni di albero gerarchico. Questo pulsante è disponibile da una definizione di riga. |
+| [![Pulsante Promuovi.](./media/promotec130389.png)](./media/promotec130389.png)                  | Promuovere un'unità della definizione di albero gerarchico. Quando si seleziona un'unità figlio quindi si fa clic su **Promuovi**, l'unità figlio verrà spostata nello stesso livello dell'unità padre. |
+| [![Pulsante Abbassa.](./media/demotec130389.png)](./media/demotec130389.png)                     | Abbassare un'unità della definizione di albero gerarchico. Quando si seleziona un'unità e quindi si fa clic su **Abbassa**, l'unità diventa un elemento figlio dell'unità che la precede. |
+| [![Pulsante Espandi.](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Espandere tutte le unità della definizione di albero gerarchico al livello dell'unità selezionata. |
+| [![Pulsante Comprimi.](./media/collapsec130389.png)](./media/collapsec130389.png)               | Comprimere l'albero gerarchico. |
+| [![Pulsante ?.](./media/helpc130389.png)](./media/helpc130389.png)                           | Aprire la Guida. |
 
 ### <a name="formatting-toolbar"></a>Barra degli strumenti di formattazione
 
 La barra degli strumenti di formattazione consente facilmente l'accesso ai comandi di stile. Nella barra degli strumenti sono inclusi i seguenti pulsanti.
 
-| Pulsante                                                                                                       | Descrizione                                             |
+| Pulsante                                                                                                       | descrizione                                             |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Pulsante Stile carattere](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Applicare lo stile del carattere selezionato al testo corrente.      |
-| [![Pulsante Carattere](./media/fonttype.png)](./media/fonttype.png)                                                 | Impostare il carattere selezionato al testo corrente.              |
-| [![Pulsante Dimensione carattere](./media/fontsize.png)](./media/fontsize.png)                                            | Impostare la dimensione carattere selezionata al testo corrente (in punti). |
-| [![Pulsante Grassetto](./media/boldc130389.png)](./media/boldc130389.png)                                           | Rendere il testo in grassetto.                             |
-| [![Pulsante Corsivo](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Rendere il testo in corsivo.                           |
-| [![Pulsante Sottolineatura](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Rendere il testo sottolineato.                             |
-| [![Pulsante Diminuisci rientro](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Ridurre il rientro del testo corrente.                |
-| [![Pulsante Aumenta rientro](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentare il rientro del testo corrente.                |
-| [![Pulsante Colore di sfondo](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Modificare il colore di sfondo della cella corrente.        |
-| [![Pulsante Colore carattere](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Modificare il colore del testo corrente.                   |
+| [![Pulsante Stile carattere.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Applicare lo stile del carattere selezionato al testo corrente.      |
+| [![Pulsante Carattere.](./media/fonttype.png)](./media/fonttype.png)                                                 | Impostare il carattere selezionato al testo corrente.              |
+| [![Pulsante Dimensione carattere.](./media/fontsize.png)](./media/fontsize.png)                                            | Impostare la dimensione carattere selezionata al testo corrente (in punti). |
+| [![Pulsante Grassetto.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Rendere il testo in grassetto.                             |
+| [![Pulsante Corsivo.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Rendere il testo in corsivo.                           |
+| [![Pulsante Sottolineatura.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Rendere il testo sottolineato.                             |
+| [![Pulsante Diminuisci rientro.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Ridurre il rientro del testo corrente.                |
+| [![Pulsante Aumenta rientro.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentare il rientro del testo corrente.                |
+| [![Pulsante Colore di sfondo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Modificare il colore di sfondo della cella corrente.        |
+| [![Pulsante Colore carattere.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Modificare il colore del testo corrente.                   |
 
 ### <a name="report-designer-toolbar"></a>Barra degli strumenti di Progettazione report
 
 La barra degli strumenti di Progettazione report consente l'accesso rapido ai comandi per spostarsi al suo interno. Nella barra degli strumenti sono inclusi i seguenti pulsanti.
 
-| Pulsante                                                                                              | Descrizione |
+| Pulsante                                                                                              | descrizione |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Pulsante Definizione di report](./media/reportc130389.png)](./media/reportc130389.png)                 | Visualizzare la definizione di report elencata nel menu **Finestra**. |
-| [![Pulsante Definizione di riga](./media/rowc130389.png)](./media/rowc130389.png)                          | Visualizzare la definizione di riga assegnata alla definizione di report attiva. |
-| [![Pulsante Definizione di colonna](./media/columnc130389.png)](./media/columnc130389.png)                 | Visualizzare la definizione di colonna assegnata alla definizione di report attiva. |
-| [![Pulsante Definizione di albero gerarchico](./media/treec130389.png)](./media/treec130389.png)             | Visualizzare la definizione di albero gerarchico assegnata alla definizione di report attiva. |
-| [![Pulsante Visualizzatore di report](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Avviare il visualizzatore di report e mostrare la versione più recente del report generato. Questo pulsante è disponibile da una definizione di report se è stato generato almeno un report. |
-| [![Pulsante Genera report](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Genera un report a partire dalla definizione di report attiva. Questo pulsante è disponibile da una definizione di report. |
+| [![Pulsante Definizione di report.](./media/reportc130389.png)](./media/reportc130389.png)                 | Visualizzare la definizione di report elencata nel menu **Finestra**. |
+| [![Pulsante Definizione di riga.](./media/rowc130389.png)](./media/rowc130389.png)                          | Visualizzare la definizione di riga assegnata alla definizione di report attiva. |
+| [![Pulsante Definizione di colonna.](./media/columnc130389.png)](./media/columnc130389.png)                 | Visualizzare la definizione di colonna assegnata alla definizione di report attiva. |
+| [![Pulsante Definizione di albero gerarchico.](./media/treec130389.png)](./media/treec130389.png)             | Visualizzare la definizione di albero gerarchico assegnata alla definizione di report attiva. |
+| [![Pulsante Visualizzatore di report.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Avviare il visualizzatore di report e mostrare la versione più recente del report generato. Questo pulsante è disponibile da una definizione di report se è stato generato almeno un report. |
+| [![Pulsante Genera report.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Genera un report a partire dalla definizione di report attiva. Questo pulsante è disponibile da una definizione di report. |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027965"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352062"
 ---
 # <a name="account-management-pages-overview"></a>Panoramica delle pagine di gestione del conto
 
@@ -35,7 +36,7 @@ Quando un cliente esegue l'accesso e seleziona **Account personale**, viene aper
 
 Nella figura seguente è illustrato un esempio della pagina di destinazione di gestione account.
 
-![Esempio d una pagina di destinazione di gestione account](./media/Account-Management.PNG)
+![Esempio di una pagina di destinazione di gestione account.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Pagina profilo
 
@@ -43,7 +44,7 @@ La pagina **Profilo** visualizza informazioni sull'account del cliente, come il 
 
 Nella figura seguente è illustrato un esempio di pagina **Profilo** creata utilizzando la libreria di moduli.
 
-![Esempio di pagina Profilo](./media/Account-Management-MyProfile.PNG)
+![Esempio di pagina Mio profilo.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Pagina Indirizzi
 
@@ -51,7 +52,7 @@ La pagina **Indirizzi** consente al cliente di aggiungere indirizzi al proprio a
 
 Nella figura seguente è illustrato un esempio della pagina **Indirizzi**.
 
-![Esempio di una pagina Indirizzi](./media/Account-Management-Address.png)
+![Esempio di una pagina Indirizzi.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Pagine Storico ordini e Dettagli ordine
 
@@ -59,11 +60,11 @@ La pagina **Storico ordini** visualizza un riepilogo di tutti gli ordini che il 
 
 Nella figura seguente è illustrato un esempio della pagina **Storico ordini**.
 
-![Esempio di una pagina Storico ordini](./media/Account-Management-OrderHistory.PNG)
+![Esempio di una pagina Storico ordini.](./media/Account-Management-OrderHistory.PNG)
 
 Nella figura seguente è illustrato un esempio della pagina **Dettagli ordine**.
 
-![Esempio di una pagina Dettagli ordine](./media/Account-Management-OrderDetails.PNG)
+![Esempio di una pagina Dettagli ordine.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Pagina Programma fedeltà
 
@@ -71,15 +72,15 @@ La pagina **Programma fedeltà** consente al cliente di diventare membro di un p
 
 Nella figura seguente viene illustrato un esempio di pagina **Programma fedeltà**.
 
-![Esempio di una pagina Programma fedeltà](./media/Account-Management-Loyalty.PNG)
+![Esempio di una pagina Programma fedeltà.](./media/Account-Management-Loyalty.PNG)
 
-### <a name="wishlist-page"></a>Pagina Elenco preferenze
+### <a name="wishlist-page"></a>Pagina lista dei desideri
 
 La pagina **Elenco preferenze** visualizza un elenco degli articoli che il cliente ha aggiunto al suo elenco preferenze. Prodotti e varianti prodotto possono essere aggiunti all'elenco preferenze. Da questa pagina, il cliente può rimuovere un articolo dall'elenco preferenze o aggiungere un articolo direttamente al carrello.
 
 Nella figura seguente viene illustrato un esempio di pagina **Elenco preferenze**.
 
-![Esempio di una pagina Elenco preferenze](./media/Account-Management-Wishlist.PNG)
+![Esempio di una pagina Elenco preferenze.](./media/Account-Management-Wishlist.PNG)
 
 Per ulteriori informazioni sui moduli Gestione account e su come crearli, vedere [Gestione account](account-management.md).
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811680"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350548"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
 
@@ -61,7 +61,7 @@ Nella query per il processo batch **Rilascio automatico di righe di DBA e di for
 
 Nella figura seguente viene illustrato un ordine di produzione con due processi, 10 e 20, relativi all'assemblaggio e all'imballaggio per l'ordine di produzione. Ogni processo viene impostato per il consumo di una quantità di materiale. In questa illustrazione, l'intervallo temporale di rilascio indicato dalla freccia verde sotto la riga del tempo è uguale al numero di giorni specificato nel criterio **(LessThanDate())**. Ad esempio, **(LessThanDate(2))** indica che il processo deve cercare le quantità non rilasciate solo all'interno di un intervallo temporale dei due giorni.
 
-![Esempio di un ordine di produzione con due processi batch](media/bach-job-setup.PNG)
+![Esempio di un ordine di produzione con due processi batch.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Rilasciare materiale per numero operazione o proporzionalmente alla quantità di prodotti finiti
 
@@ -78,7 +78,7 @@ Per controllare le operazioni per cui il materiale deve essere rilasciato, utili
 
 Nella figura seguente viene illustrato un ordine di produzione con due operazioni, 10 e 20. In questo esempio, se si limita il rilascio all'operazione 10, solo il materiale M9203 verrà rilasciato.
 
-![Esempio di rilascio di materiali per numero di operazione](media/two-operations.PNG)
+![Esempio di rilascio di materiali per numero di operazione.](media/two-operations.PNG)
 
 Per una rapida dimostrazione su come rilasciare materiale in proporzione alla quantità di prodotti finiti, quardare questo breve video su YouTube sui [miglioramenti al processo di rilascio di ordini alla produzione](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025450"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353782"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Operazione di ricerca in magazzino nel POS
 
@@ -45,7 +45,10 @@ Per un singolo prodotto, l'operazione di ricerca in magazzino fornisce una visua
 
 La visualizzazione elenco delle ubicazioni include tutti i punti vendita e i magazzini configurati nei gruppi di evasione a cui è collegato il punto vendita corrente, come mostrato nell'immagine di esempio seguente.
 
-![Visualizzazione elenco dell'operazione di ricerca in magazzino](media/inventory-lookup-list-view.png)
+![Visualizzazione elenco dell'operazione di ricerca in magazzino.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Assicurarsi che il negozio sia incluso nei gruppi di evasione ordini associati.
 
 Le seguenti azioni sono disponibili nella barra delle app del POS:
 
@@ -65,7 +68,7 @@ Le seguenti azioni sono disponibili nella barra delle app del POS:
 - **Aggiungi a transazione** - Questa azione aggiunge il prodotto al carrello e reindirizza l'utente alla schermata della transazione.
 
 > [!NOTE]
-> Per un ordinamento basato sull'ubicazione, la distanza tra un'ubicazione e il punto vendita corrente è determinata dalle coordinate (latitudine e longitudine) definite in Commerce Headquarters. Per un punto vendita, le informazioni sull'ubicazione sono definite nell'indirizzo principale dell'unità operativa associata al punto vendita. Per un magazzino non punto vendita, le informazioni sull'ubicazione sono definite nell'indirizzo del deposito. Se il punto vendita corrente non ha coordinate definite correttamente, l'opzione di ordinamento in base all'ubicazione visualizzerà il punto vendita corrente all'inizio dell'elenco e quindi ordinerà le altre ubicazioni in base al nome.
+> Per un ordinamento basato sull'ubicazione, la distanza tra un'ubicazione e il punto vendita corrente è determinata dalle coordinate (latitudine e longitudine) definite in Commerce Headquarters. Per un punto vendita, le informazioni sull'ubicazione sono definite nell'indirizzo principale dell'unità operativa associata al punto vendita. Per un magazzino non punto vendita, le informazioni sull'ubicazione sono definite nell'indirizzo del deposito. Se il punto vendita corrente non ha coordinate definite, l'opzione di ordinamento in base all'ubicazione visualizzerà il punto vendita corrente all'inizio dell'elenco e quindi ordinerà le altre ubicazioni in base al nome.
 
 > [!NOTE]
 > Le azioni **Mostra disponibilità punto vendita**, **Mostra ubicazione punto vendita**, **Preleva al punto vendita** e **Spedizione prodotto** non sono disponibili per le ubicazioni che non sono punti vendita.
@@ -76,7 +79,7 @@ Per un prodotto master con varianti, l'operazione di ricerca in magazzino fornis
 
 La seguente immagine di esempio mostra la visualizzazione matrice della ricerca in magazzino nel POS.
 
-![Visualizzazione matrice dell'operazione di ricerca in magazzino](media/inventory-lookup-matrix-view.png)
+![Visualizzazione matrice dell'operazione di ricerca in magazzino.](media/inventory-lookup-matrix-view.png)
 
 Nella visualizzazione a matrice, ogni cella rappresenta una singola variante e mostra le scorte disponibili (fisiche disponibili) nell'angolo in basso a destra, nonché le scorte **prenotate** (fisiche prenotate) e **ordinate** (ordinate in totale) nell'angolo in alto a sinistra. Nella tabella seguente viene illustrato il significato dei vari valori relativi alla disponibilità delle scorte.
 
@@ -103,7 +106,7 @@ Gli utenti POS possono accedere all'operazione di ricerca in magazzino da altre 
 
 La seguente immagine di esempio mostra i risultati della ricerca in magazzino da una pagina dei dettagli del prodotto nel POS.
 
-![Ricerca in magazzino dalla pagina dei dettagli del prodotto](media/inventory-lookup-from-product-details-page.png)
+![Ricerca in magazzino dalla pagina dei dettagli del prodotto.](media/inventory-lookup-from-product-details-page.png)
 
 Nella pagina dei dettagli del prodotto di un prodotto master, puoi utilizzare l'azione **Visualizza tutte le varianti** nella barra delle app per generare la visualizzazione matrice della ricerca in magazzino che mostra le informazioni sulla disponibilità delle scorte per il punto vendita corrente per tutte le varianti di un prodotto. Per un singolo prodotto, la pagina dei dettagli del prodotto visualizza il valore delle scorte disponibili (fisiche disponibili) di quel prodotto per il punto vendita corrente. Inoltre, puoi selezionare il collegamento **Scorte altri punti vendita** per avviare l'operazione di ricerca in magazzino per verificare la disponibilità delle scorte di un prodotto in altri punti vendita o magazzini.
 
