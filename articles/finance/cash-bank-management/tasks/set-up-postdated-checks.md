@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026207"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309768"
 ---
 # <a name="set-up-postdated-checks"></a>Impostare gli assegni postdatati
 
@@ -58,6 +58,7 @@ Il ruolo di questa procedura è Tesoriere. Questa procedura utilizza la società
 > 
 > Quando si imposta il **Metodo di pagamento** (**Contabilità fornitori > Impostazione pagamenti > Metodi di pagamento**), non riempire il campo **Conto provvisorio**. In questo caso, il conto di contropartita viene compilato con il conto bancario, impostato in **Metodo di pagamento**.
 >  
-> Quando la funzionalità è abilitata e la data della sessione è antecedente alla data di scadenza, viene visualizzato il seguente messaggio di errore durante la registrazione di un giornale di registrazione pagamenti: "La data di scadenza deve essere antecedente o uguale alla data della sessione se il tipo di conto di contropartita è Banca". Se la funzionalità non è abilitata, è possibile registrare un giornale di registrazione pagamenti con un assegno postdatato quando la data della sessione è inferiore alla data di scadenza.    
+> Quando la funzionalità è abilitata e la data della sessione è antecedente alla data di scadenza, viene visualizzato il seguente messaggio di errore durante la registrazione di un giornale di registrazione pagamenti: "La data di scadenza deve essere antecedente o uguale alla data della sessione se il tipo di conto di contropartita è Banca". Se la funzionalità non è abilitata, è possibile registrare un giornale di registrazione pagamenti con un assegno postdatato quando la data della sessione è inferiore alla data di scadenza.
+> Questa funzionalità è disponibile nella versione 10.0.21 o successiva.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

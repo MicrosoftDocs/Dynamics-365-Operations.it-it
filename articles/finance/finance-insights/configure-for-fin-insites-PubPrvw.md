@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222614"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309667"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configurazione di Finance Insights per l'anteprima pubblica (anteprima) - Versione 10.0.20 e successive
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222614"
 Finance Insights combina le funzionalità di Microsoft Dynamics 365 Finance con Dataverse, Azure e AI Builder per fornire potenti strumenti di previsione per la tua organizzazione. Questo argomento spiega come configurare Dynamics 365 Finance version 10.0.20 in modo che il sistema possa usare le funzionalità disponibili in Finance Insights per l'anteprima pubblica.
 
 > [!NOTE]
-> I passaggi di configurazione descritti in questo argomento si applicano solo a Finance versione 10.0.20 e successive. 'Per impostare Finance Insight sulla versione 10.0.19 e precedenti, vedi [Configurazione per Finance Insights - Versioni fino a 10.0.18](configure-for-fin-insites.md).
+> I passaggi di configurazione descritti in questo argomento si applicano solo a Finance versione 10.0.20 e successive. 'Per impostare Finance Insight sulla versione 10.0.19 e precedenti, vedi [Configurazione per Finance Insights - Versioni fino a 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Distribuzione di Finance
 
@@ -748,6 +748,8 @@ Segui questi passaggi per installare il componente aggiuntivo Finance Insights.
 2. Nella sezione **Componenti aggiuntivi per l'ambiente**, selezionare **Installa un nuovo componente aggiuntivo**.
 3. Seleziona il componente aggiuntivo **Finance Insights**.
 4. Accetta le condizioni e seleziona **Installa**.
+
+L'installazione del componente aggiuntivo potrebbe richiedere diversi minuti.
 
 ## <a name="feedback-and-support"></a>Feedback e supporto
 
