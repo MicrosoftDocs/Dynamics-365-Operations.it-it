@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ba6dadf7f96510ae55c41a74d53e3ca89f663ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344076"
 ---
 # <a name="map-module"></a>Modulo mappa
 
@@ -38,11 +38,11 @@ Un modulo mappa interagisce con il modulo selettore punto vendita per determinar
 
 L'immagine seguente mostra un esempio di modulo mappa utilizzato in una pagina delle posizioni dei punti vendita.
 
-![Esempio di un modulo selettore punto vendita](./media/ecommerce-Storelocator.PNG)
+![Esempio di un modulo selettore punto vendita.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Proprietà del modulo
 
-| Nome proprietà             | Valore                 | Descrizione |
+| Nome proprietà             | Valore                 | descrizione |
 |---------------------------|-----------------------|-------------|
 | Intestazione | Testo | L'intestazione del modulo. |
 | Opzioni puntina: icona predefinita | Immagine | L'immagine del simbolo della puntina da utilizzare per i punti vendita mostrati su una mappa. |

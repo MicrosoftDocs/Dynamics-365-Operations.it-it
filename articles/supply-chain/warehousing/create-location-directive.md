@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
+ms.openlocfilehash: a896953a5603d9766f2c4938158088fc9424d5bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911298"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343750"
 ---
 # <a name="work-with-location-directives"></a>Utilizzare le direttive di ubicazione
 
@@ -51,7 +51,7 @@ Prima di poter creare una direttiva di ubicazione, è necessario seguire questi 
 
 Molti campi che possono essere impostati per le direttive di ubicazione sono comuni a tutti i tipi di ordine di lavoro. Tuttavia, altri campi sono specifici per particolari tipi di ordini di lavoro.
 
-![Tipi di ordine di lavoro direttive di ubicazione](media/Location_Directives_Work_Order_Types.png "Tipi di ordine di lavoro direttive di ubicazione")
+![Tipi di ordine di lavoro direttive di ubicazione.](media/Location_Directives_Work_Order_Types.png "Tipi di ordine di lavoro direttive di ubicazione")
 
 > [!NOTE]
 > Due tipi di ordini di lavoro, *Lavoro annullato* e *Conteggio ciclo*, vengono utilizzati solo dal sistema. Non è possibile creare direttive di ubicazione per questi tipi di ordini di lavoro.

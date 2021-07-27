@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837755"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360972"
 ---
 # <a name="functional-location-lifecycle-states"></a>Stati del ciclo di vita delle unità funzionali
 
@@ -56,9 +56,9 @@ Una volta creati gli stati di ciclo di vita necessari per le unità funzionali, 
 1. Selezionare **Gestione cespiti** > **Impostazione** > **Unità funzionali** > **Modelli del ciclo di vita**.
 2. Selezionare **Nuovo** per creare un nuovo modello del ciclo di vita.
 3. Immettere l'ID dello modello del ciclo di vita nel campo **Modello del ciclo di vita** e un nome per il modello del ciclo di vita nel campo **Nome**. Nei campi **Tipi di unità funzionali** e **Stati del ciclo di vita**, sarà possibile visualizzare il numero di tipi di unità funzionali che utilizza il modello del ciclo di vita e il numero degli stati selezionati nel modello del ciclo di vita.
-4. Nella Scheda dettaglio **Stati del ciclo di vita**, selezionare gli stati  che devono essere inclusi nel modello. Questa operazione può essere effettuata facendo clic su uno stato nella sezione **Stati del ciclo di vita rimanenti** e facendo clic sul pulsante ![freccia in avanti](media/02-setup-for-functional-locations.png).
-5. Se si desidera selezionare tutti gli stati disponibili per un modello, fare clic sul pulsante ![Seleziona tutte le fasi disponibili](media/03-setup-for-functional-locations.png). Tutti gli stati verranno trasferiti nella sezione **Stati del ciclo di vita selezionati**.
-6. Se si desidera rimuovere uno stato selezionato dal modello, selezionare lo stato nella sezione **Stati del ciclo di vita selezionati** e quindi fare clic sul pulsante ![freccia Indietro](media/04-setup-for-functional-locations.png).
+4. Nella Scheda dettaglio **Stati del ciclo di vita**, selezionare gli stati  che devono essere inclusi nel modello. Questa operazione può essere effettuata facendo clic su uno stato nella sezione **Stati del ciclo di vita rimanenti** e facendo clic sul pulsante ![freccia avanti](media/02-setup-for-functional-locations.png) .
+5. Se si desidera selezionare tutti gli stati disponibili per un modello, fare clic sul pulsante ![seleziona tutti i passaggi disponibili](media/03-setup-for-functional-locations.png) . Tutti gli stati verranno trasferiti nella sezione **Stati del ciclo di vita selezionati**.
+6. Per rimuovere uno stato selezionato dal modello, selezionare lo stato nella sezione **Stati del ciclo di vita selezionati**, quindi fare clic sul pulsante ![freccia indietro](media/04-setup-for-functional-locations.png) .
 7. Selezionare **Aggiornamenti stati del ciclo di vita** per definire quali stati del ciclo di vita possono seguire uno stato selezionato.
 
 

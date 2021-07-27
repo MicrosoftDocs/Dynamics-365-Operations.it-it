@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2f0118b197f465113bb894e3e57b3e682e04ef36
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a277ef0634c4ddd5769d278ce6186aac5e84ebfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796005"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352520"
 ---
 # <a name="cookie-consent-module"></a>Modulo di consenso sui cookie
 
@@ -35,11 +35,11 @@ Se non si riceve il consenso per i cookie dell'utente del sito, eventuali funzio
 Un modulo consenso per i cookie può essere configurato nel frammento di intestazione della pagina in modo che possa essere applicato al caricamento della pagina. Il modulo consenso per i cookie deve includere un messaggio chiaro che informa l'utente del sito sull'utilizzo dei cookie nel sito e fornire un collegamento alla pagina sulla privacy del sito.
 
 La figura seguente evidenzia un esempio di messaggio di consenso per i cookie con un collegamento alla pagina dell'informativa sulla privacy del sito visualizzata nell'intestazione di una pagina del sito.
-![Esempio di modulo consenso per i cookie](./media/ecommerce-cookieconsent.png)
+![Esempio di un modulo consenso per i cookie.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Proprietà del modulo consenso per i cookie
 
-| Nome proprietà             | Valore                 | Descrizione |
+| Nome proprietà             | Valore                 | descrizione |
 |---------------------------|-----------------------|-------------|
 | RTF                  | RTF | Specifica una notifica RTF per gli utenti del sito indicante che il sito utilizza i cookie del browser e che gli utenti devono accettare l'uso dei cookie affinché il sito sia completamente funzionale. |
 | Collegamenti | URL | È possibile aggiungere uno o più collegamenti alla pagina sulla privacy di un sito che descrive i tipi di cookie tracciati nel sito. |

@@ -2,7 +2,7 @@
 title: Modulo Lettore video
 description: In questo argomento vengono descritti i moduli Lettore video e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa1efa6ce959439c49983553edfaf247c8e8dcd5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797409"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479282"
 ---
 # <a name="video-player-module"></a>Modulo lettore video
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo argomento vengono descritti i moduli Lettore video e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
@@ -43,12 +44,16 @@ Il modulo Lettore video supporta anche tracce audio secondarie. Quando un video 
 
 L'immagine seguente mostra un esempio di modulo Lettore video in una home page.
 
-![Esempio di modulo Lettore video](./media/ecommerce-videoplayer.PNG)
+![Esempio di un modulo Lettore video.](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Proprietà del modulo Lettore video
 
-| Nome proprietà         | Valore                               | Descrizione |
+| Nome proprietà         | Valore                               | descrizione |
 |-----------------------|-------------------------------------|-------------|
+| Intestazione               | Testo e tag di intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Per impostazione predefinita, viene utilizzato il tag di intestazione **H2**, ma è possibile utilizzare un altro tag per soddisfare i requisiti di accessibilità. |
+| RTF             | Testo paragrafo | Il modulo supporta testo di paragrafo in formato RTF. Alcune funzionalità RTF di base sono supportate, ad esempio collegamenti ipertestuali e testo in grassetto, sottolineato e in corsivo. Alcune funzionalità possono essere sostituite dal tema di pagina applicato al modulo. |
+| Collega                  | Testo del collegamento, URL del collegamento, etichetta ARIA e selettore **Apri collegamento in una nuova scheda** | Il modulo supporta uno o più collegamenti "invito all'azione". Se un collegamento viene aggiunto, il testo del collegamento, un URL e un'etichetta ARIA sono necessari. Le etichette ARIA devono essere descrittive per soddisfare i requisiti di accessibilità. I collegamenti possono essere configurati di modo che siano aperti in una nuova scheda. |
+| Sottotesto              | Intestazione, testo o collegamenti | È possibile aggiungere un contesto aggiuntivo per il modulo Lettore video, ad esempio un nome di autore o designer o collegamenti a blog personali. |
 | Riproduzione automatica             | **True** o **False**               | Se il valore è impostato su **True**, il video viene automaticamente riprodotto. |
 | Disattiva audio                  | **True** o **False**               | Se il valore è impostato su **True**, l'audio è disattivato. Per questo lettore, il valore predefinito è **False**. Nel browser Chrome, l'audio dei video riprodotti automaticamente è disattivato per impostazione predefinita e viene attivato solo se l'utente riproduce manualmente il video. |
 | Ciclo                  | **True** o **False**               | Se il valore è impostato su **True**, il video viene ripetuto continuamente. |
@@ -58,6 +63,9 @@ L'immagine seguente mostra un esempio di modulo Lettore video in una home page.
 | Controlli lettore video | **True** o **False**               | Se il valore è impostato su **True**, tutti i controlli lettore video sono visualizzati. Questi controlli includono i pulsanti Riproduci e Pausa, un indicatore di avanzamento e opzioni per sottotitoli. |
 | Nascondi immagine poster     | **True** o **False**               | Un video può avere un fotogramma di anteprima. Quando il valore di questa proprietà è **True**, il fotogramma di anteprima è nascosto. |
 | Livello maschera            | Un numero da **0** a **100** | La maschera che viene applicata al video per la modifica dello stile. |
+
+> [!IMPORTANT]
+> Le proprietà **Intestazione**, **RTF**, **Collegamento** e **Sottotesto** sono disponibili a partire da Dynamics 365 Commerce, versione 10.0.20.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Aggiungere un modulo Lettore video a una pagina
 

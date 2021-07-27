@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985fedc13e28caee90c9db27b145e415d256208d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808295"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360103"
 ---
 # <a name="asset-lifecycle-states"></a>Stati del ciclo di vita del cespite
 
@@ -62,8 +62,8 @@ Dopo aver creato gli stati del ciclo di vita del cespite necessari, è possibile
 5. Nella Scheda dettaglio **Stati del ciclo di vita**, selezionare gli stati del ciclo di vita del cespite che devono essere inclusi nel modello:
 
     - Per utilizzare uno stato del ciclo di vita per il modello, selezionarlo nella sezione **Stati del ciclo di vita rimanenti** e quindi fare clic sul pulsante freccia destra ![Freccia destra](media/15-setup-for-objects.png) per spostarlo nella sezione **Stati del ciclo di vita selezionati**.
-    - Per utilizzare tutti gli stati del ciclo di vita disponibili per il modello, selezionare il pulsante **Tutti gli stati del ciclo di vita disponibili** ![Tutti gli stati del ciclo di vita disponibili](media/20-setup-for-objects.png). Tutti gli stati del ciclo di vita verranno trasferiti nella sezione **Stati del ciclo di vita selezionati**.
-    - Per rimuovere uno stato del ciclo di vita dal modello, selezionarlo nella sezione **Stati del ciclo di vita selezionati** e quindi fare clic sul pulsante freccia sinistra ![Freccia sinistra](media/16-setup-for-objects.png) per spostarlo nella sezione **Stati del ciclo di vita rimanenti**.
+    - Per utilizzare tutti gli stati del ciclo di vita disponibili per il modello, selezionare il pulsante **Tutti gli stati del ciclo di vita disponibili** ![Tutti gli stati del ciclo di vita disponibili.](media/20-setup-for-objects.png). Tutti gli stati del ciclo di vita verranno trasferiti nella sezione **Stati del ciclo di vita selezionati**.
+    - Per rimuovere uno stato del ciclo di vita dal modello, selezionarlo nella sezione **Stati del ciclo di vita selezionati** e quindi fare clic sul pulsante freccia destra ![Freccia destra](media/16-setup-for-objects.png) per spostarlo nella sezione **Stati del ciclo di vita rimanenti**.
 
 6. Selezionare **Aggiornamenti stati del ciclo di vita** per definire quali stati del ciclo di vita del cespite possono seguire uno stato selezionato.
 7. È possibile utilizzare la Scheda dettaglio **Stato del cespite** per gestire i cespiti ricevuti per la riparazione. Nella sezione **In entrata/in uscita**, è possibile selezionare gli stati del ciclo di vita del cespite per indicare il flusso di lavoro di un cespite ricevuto per la riparazione. Se si offrono cespiti in prestito a clienti o reparti, nella sezione **Prestito**, è possibile selezionare gli stati del ciclo di vita per i cespiti di prestito.

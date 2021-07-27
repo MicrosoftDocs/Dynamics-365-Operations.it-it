@@ -2,7 +2,7 @@
 title: Conformità cookie
 description: Questo argomento descrive le considerazioni sulla conformità dei cookie e i criteri predefiniti inclusi in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088389"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333071"
 ---
 # <a name="cookie-compliance"></a>Conformità dei cookie
 
@@ -33,26 +33,27 @@ Per ulteriori informazioni sui principi di base utilizzati da Microsoft per la c
 
 La seguente tabella mostra l'attuale elenco di riferimento dei cookie inseriti dai siti Dynamics 365 Commerce.
 
-| Nome del cookie                               | Uso                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | Archivia cookie di autenticazione Microsoft Azure Active Directory (Azure AD) per Single Sign-On (SSO). Archivia le informazioni principali dell'utente crittografate (nome, cognome, e-mail). |
-| &#95;msdyn365___cart&#95;                           | Archivia l'ID carrello utilizzato per ottenere un elenco di prodotti aggiunti all'istanza del carrello. |
-| &#95;msdyn365___ucc&#95;                            | Tracciamento del consenso per la conformità dei cookie.                          |
-| ai_session                                  | Rileva quante sessioni di attività dell'utente hanno incluso determinate pagine e funzionalità dell'app. |
-| ai_user                                     | Rileva quante persone hanno utilizzato l'app e le sue funzionalità. Gli utenti vengono conteggiati utilizzando ID anonimi. |
-| b2cru                                       | Archivia l'URL di reindirizzamento in modo dinamico.                              |
-| JSESSIONID                                  | Utilizzato dal connettore di pagamento Adyen per archiviare la sessione utente.       |
-| OpenIdConnect.nonce.&#42;                       | Autenticazione                                               |
-| x-ms-cpim-cache:.&#42;                          | Utilizzato per mantenere lo stato della richiesta.                      |
-| x-ms-cpim-csrf                              | Token CRSF (cross-site request forgery) utilizzato per la protezione da CRSF.     |
-| x-ms-cpim-dc                                | Utilizzato per instradare le richieste all'istanza del server di autenticazione di produzione appropriata. |
-| x-ms-cpim-rc.&#42;                              | Utilizzato per instradare le richieste all'istanza del server di autenticazione di produzione appropriata. |
-| x-ms-cpim-slice                             | Utilizzato per instradare le richieste all'istanza del server di autenticazione di produzione appropriata. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Utilizzato per mantenere la sessione SSO.                        |
-| x-ms-cpim-trans                             | Utilizzato per tenere traccia delle transazioni (il numero di schede aperte autenticate rispetto a un sito business-to-consumer (B2C)), inclusa la transazione corrente. |
-| \_msdyn365___muid_                            | Utilizzato se Sperimentazione è attivato per l'ambiente; utilizzato come ID utente per scopi di sperimentazione. |
-| \_msdyn365___exp_                             | Utilizzato se Sperimentazione è attivato per l'ambiente; utilizzato per misurare il bilanciamento del carico delle prestazioni.         |
-| d365mkt                                       | Utilizzato se il rilevamento basato sulla posizione per tenere traccia dell'indirizzo IP di un utente per i suggerimenti sulla posizione del negozio è abilitato nel generatore di siti di Commerce in **Impostazioni sito > Generale > Abilita rilevamento del punto vendita basato sull'ubicazione**.      |
+| Nome del cookie                               | Uso                                                        | Durata |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | Archivia cookie di autenticazione Microsoft Azure Active Directory (Azure AD) per Single Sign-On (SSO). Archivia le informazioni principali dell'utente crittografate (nome, cognome, e-mail). | Sessione |
+| \_msdyn365___cart_                           | Archivia l'ID carrello utilizzato per ottenere un elenco di prodotti aggiunti all'istanza del carrello. | Sessione |
+| \_msdyn365___checkout_cart_                           | Archivia l'ID carrello checkout utilizzato per ottenere un elenco di prodotti aggiunti all'istanza del carrello di checkout. | Sessione |
+| \_msdyn365___ucc_                            | Tracciamento del consenso per la conformità dei cookie.                          | 1 anno |
+| ai_session                                  | Rileva quante sessioni di attività dell'utente hanno incluso determinate pagine e funzionalità dell'app. | 30 minuti |
+| ai_user                                     | Rileva quante persone hanno utilizzato l'app e le sue funzionalità. Gli utenti vengono conteggiati utilizzando ID anonimi. | 1 anno |
+| b2cru                                       | Archivia l'URL di reindirizzamento in modo dinamico.                              | Sessione |
+| JSESSIONID                                  | Utilizzato dal connettore di pagamento Adyen per archiviare la sessione utente.       | Sessione |
+| OpenIdConnect.nonce.&#42;                       | Autenticazione                                               | 11 minuti |
+| x-ms-cpim-cache:.&#42;                          | Utilizzato per mantenere lo stato della richiesta.                      | Sessione |
+| x-ms-cpim-csrf                              | Token CRSF (cross-site request forgery) utilizzato per la protezione da CRSF.     | Sessione |
+| x-ms-cpim-dc                                | Utilizzato per instradare le richieste all'istanza del server di autenticazione di produzione appropriata. | Sessione |
+| x-ms-cpim-rc.&#42;                              | Utilizzato per instradare le richieste all'istanza del server di autenticazione di produzione appropriata. | Sessione |
+| x-ms-cpim-slice                             | Utilizzato per instradare le richieste all'istanza del server di autenticazione di produzione appropriata. | Sessione |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Utilizzato per mantenere la sessione SSO.                        | Sessione |
+| x-ms-cpim-trans                             | Utilizzato per tenere traccia delle transazioni (il numero di schede aperte autenticate rispetto a un sito business-to-consumer (B2C)), inclusa la transazione corrente. | Sessione |
+| \_msdyn365___muid_                            | Utilizzato se la sperimentazione è attivata per l'ambiente; utilizzato come ID utente per scopi di sperimentazione. | 1 anno |
+| \_msdyn365___exp_                             | Utilizzato se la sperimentazione è attivata per l'ambiente; utilizzato per misurare il bilanciamento del carico delle prestazioni.         | 1 ora |
+| d365mkt                                       | Utilizzato se il rilevamento basato sulla posizione per tenere traccia dell'indirizzo IP di un utente per i suggerimenti sulla posizione del negozio è abilitato in Creazione di siti di Commerce in **Impostazioni sito \> Generale \> Abilita rilevamento del punto vendita basato sull'ubicazione**.      | 1 ora |
 
 Se un utente del sito seleziona qualsiasi collegamento ai social media in un sito, anche i cookie nella tabella seguente verranno monitorati nel suo browser.
 

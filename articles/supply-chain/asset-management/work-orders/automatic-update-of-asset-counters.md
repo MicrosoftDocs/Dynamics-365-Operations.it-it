@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15aea2f867de6f0bcf01ecfd046efc44581a1ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1e8a3b34cb359b7ea7f7181d2308f8e021f3c95
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820444"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359127"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Aggiornamento automatico dei contatori di cespiti
 
@@ -49,7 +49,7 @@ Come descritto in precedenza, i contatori automatici possono essere aggiornati d
 
     Nella figura seguente è illustrato un esempio della finestra di dialogo **Aggiornare i contatori di cespiti**.
 
-    ![Figura 1](media/12-work-orders.png)
+    ![Figura 1.](media/12-work-orders.png)
 
 5. Selezionare **OK**. 
 
@@ -59,7 +59,7 @@ Nella pagina **Valore aggregato cespiti**, è possibile ottenere una panoramica 
 
 Nella figura seguente è illustrato un esempio della pagina **Valore aggregato cespiti**.
 
-![Figura 2](media/13-work-orders.png)
+![Figura 2.](media/13-work-orders.png)
 
 Notare i punti seguenti:
 

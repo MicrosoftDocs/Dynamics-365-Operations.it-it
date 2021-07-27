@@ -246,8 +246,6 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Introduzione alla fatturazione elettronica per l'Egitto
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Introduzione alla fatturazione elettronica per l'Italia
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Introduzione alla fatturazione elettronica per il Messico
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Impostare la fatturazione elettronica
@@ -1607,6 +1605,8 @@
                   href: master-planning/planning-optimization/get-started.md
                 - name: Analisi corrispondenza Ottimizzazione pianificazione
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Parametri non utilizzati da Ottimizzazione pianificazione
+                  href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Applicare i filtri a un piano
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Pianificazione generale con previsione della domanda
@@ -1621,6 +1621,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Pianificazione della produzione
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Programmazione con capacità infinita
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Contrassegno scorte con Ottimizzazione pianificazione
                   href: master-planning/planning-optimization/marking.md
                 - name: Pianificazione interaziendale
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurare passaggi di approvazione
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Configurare revisori spese
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurare decisioni manuali
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurare decisioni condizionali

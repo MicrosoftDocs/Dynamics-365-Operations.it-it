@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055102"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360594"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrazione con LinkedIn Talent Hub
 
@@ -48,7 +48,7 @@ Un amministratore di sistema deve completare le attività di configurazione per 
 
 5. Nella pagina **Dynamics 365 Human Resources** selezionare l'ambiente a cui collegare LinkedIn Talent Hub, quindi selezionare **Collega**.
 
-    ![Onboarding di LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![Onboarding di LinkedIn Talent Hub.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > È possibile collegarsi solo ad ambienti in cui l'account utente dispone dell'accesso come amministratore sia all'ambiente Human Resources che a quello Power Apps associato. Se nessun ambiente è elencato nella pagina di collegamento di Human Resources, assicurarsi di disporre di ambienti Human Resources con licenza nel tenant e che l'utente che ha effettuato l'accesso alla pagina di collegamento disponga delle autorizzazioni di amministratore sia per l'ambiente Human Resources che per quello Power Apps.
@@ -91,7 +91,7 @@ Un amministratore di sistema deve completare le attività di configurazione per 
 
 6. Utilizzare il menu a discesa sopra l'elenco per modificare la visualizzazione da quella predefinita **Utenti abilitati** a **Utenti dell'applicazione**.
 
-    ![Visualizzazione Utenti di applicazioni](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Visualizzazione Utenti di applicazioni.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Sulla barra degli strumenti selezionare **Nuovo**.
 
@@ -163,7 +163,7 @@ Dopo che un candidato ha completato il processo di selezione ed è stato assunto
     - Nel campo **Posizione** immettere la sede di lavoro del dipendente.
     - Immettere o verificare l'indirizzo e-mail del dipendente.
 
-![Esportare nel riquadro HRIS in LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Esportare nel riquadro HRIS in LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Completare l'onboarding in Human Resources
 

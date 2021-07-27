@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: bdca4d63fbe04a01cf1bbf2ccd7b095d4718a115
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1beb706812aea0898b2bce9fc9aefa4541bb8924
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910307"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360852"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
 
@@ -38,7 +38,7 @@ L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati
 
 La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati per conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
-[![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flusso di dati in Prospect per uno scenario di liquidazione.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Modello e attività
 
@@ -130,15 +130,15 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping nell'
 
 ### <a name="quoteheader"></a>QuoteHeader
 
-![Mapping dei modelli nell'integratore di dati](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
+![Mapping dei modelli nell'integratore di dati.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="quoteline"></a>QuoteLine
 
-![Mapping dei modelli nell'integratore di dati](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
+![Mapping dei modelli nell'integratore di dati.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
 ## <a name="related-topics"></a>Argomenti correlati
 
-[Prospect to cash](prospect-to-cash.md)
+[Prospect per uno scenario di liquidazione](prospect-to-cash.md)
 
 
 

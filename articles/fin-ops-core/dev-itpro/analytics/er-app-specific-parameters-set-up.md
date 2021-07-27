@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751156"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351892"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Impostare i parametri di un formato ER per la persona giuridica
 
@@ -49,7 +49,7 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
     
     Nella seguente figura sono riportate le configurazioni che si dovranno avere al termine del passaggio.
 
-    ![Pagina delle configurazioni ER](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![Pagina configurazioni ER.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>Impostare i parametri per la società DEMF
 
@@ -59,7 +59,7 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
 2.  Nell'albero delle configurazioni, selezionare il formato **Formato per ottenere ricerche di dati di persona giuridica**.
 3.  Nel riquadro azioni, scheda **Configurazioni**, gruppo **Parametri specifici dell'applicazione**, selezionare **Imposta**.
 
-    ![Pagina Parametri specifici dell'applicazione ER](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Nella pagina **Parametri specifici dell'applicazione**, è possibile configurare le regole per l'origine dati **Selettore** del formato **Formato per ottenere ricerche di dati di persona giuridica**.
     
@@ -75,14 +75,14 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
 
     La ricerca presenta l'elenco dei codici imposta per la selezione. Questo elenco viene restituito dall'origine dati **Model.Data.Tax** che è stata configurata nel formato di ER di base. Poiché l'origine dati contiene il campo **Nome**, immettere il nome di ogni codice imposta visualizzato nella ricerca.
 
-    ![Pagina Parametri specifici dell'applicazione ER](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Selezionare il codice imposta **VAT19**.
 8.  Nel campo **Risultato della ricerca** del nuovo record selezionare la freccia a discesa per aprire la ricerca. La ricerca presenta l'elenco dei valori dell'enumerazione di formato TaxationLevel per la selezione.
 
     Si noti che, se il tedesco è selezionato come la lingua preferita dell'utente attualmente collegato, le etichette dei valori della ricerca saranno in tedesco, a condizione che siano state tradotte nel formato di ER di base. Inoltre, se l'etichetta di un'origine dati di ricerca è stata tradotta, l'etichetta verrà visualizzata nella lingua preferita dall'utente nella scheda **Ricerche**.
 
-    ![Pagina Parametri specifici dell'applicazione ER](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Selezionare il valore **Tassazione regolare**.
 
@@ -120,7 +120,7 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
     
     Aggiungendo questo record, si definisce la seguente regola: ogni volta che il codice imposta che viene passato come argomento non soddisfa nessuna delle regole precedenti, l'origine dati di ricerca restituirà **Altro** come livello di tassazione richiesto.
 
-    ![Pagina Parametri specifici dell'applicazione ER](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Nel campo **Stato** selezionare **Completato**.
 
@@ -144,7 +144,7 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
 6.  Selezionare il codice imposta **InVAT7**.
 7.  Nel riquadro azioni, nella scheda **Codice IVA**, nel gruppo **Richieste di informazioni**, selezionare **IVA registrata** per visualizzare le informazioni sul valore di imposta e sull'aliquota di imposta applicata per codice IVA.
 
-    ![Pagina IVA registrata](./media/GER-AppSpecParms-Statement.PNG)
+    ![Pagina IVA registrata.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  Chiudere la pagina IVA registrata.
 
@@ -160,7 +160,7 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
 
     La ricerca ora presenta l'elenco dei codici imposta per l'imposta della società **USMF** per la selezione.
 
-    ![Pagina Parametri specifici dell'applicazione ER](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Selezionare il codice imposta **ESENTE**.
 9.  Nel campo **Risultato della ricerca** del nuovo record, selezionare il valore **Nessuna tassazione**.
@@ -170,7 +170,7 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
 13. Nel campo **Stato** selezionare **Completato**.
 14. Selezionare **Salva**.
 
-    ![Pagina Parametri specifici dell'applicazione ER](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. Chiudere la pagina **Parametri specifici dell'applicazione**.
 
@@ -225,13 +225,13 @@ Nell'esempio precedente, è stato effettuato l'accesso ai parametri specifici de
 
 1.  Riutilizzare la voce di menu esistente **ERSolutionAppSpecificParametersDesigner** oppure implementare la propria voce di menu **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Pagina Visual Studio](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Pagina Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Eseguire uno dei passaggi riportati di seguito.
 
     1.  Creare un nuovo pulsante voce di menu e collegarlo al record corrispondente dalla tabella **ERSolutionTable** impostando la proprietà **Origine dati** su **ERSolutionTable**.
     
-        ![Pagina Visual Studio](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Pagina Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Creare un pulsante semplice ed eseguire l'override del metodo **selezionato** come illustrato nell'esempio riportato di seguito.
     

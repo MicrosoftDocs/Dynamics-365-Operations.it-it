@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829380"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357001"
 ---
 # <a name="hazardous-materials-overview"></a>Panoramica dei materiali pericolosi
 
@@ -27,7 +28,7 @@ Per rimanere conformi alle normative sulla spedizione e sul trasporto, le organi
 
 Il diagramma seguente illustra i passaggi necessari per impostare e utilizzare la funzione dei materiali pericolosi.
 
-![Impostazione e utilizzo della funzione dei materiali pericolosi](media/hazmat-overview.png "Impostazione e utilizzo della funzione dei materiali pericolosi")
+![Impostazione e utilizzo della funzione dei materiali pericolosi.](media/hazmat-overview.png "Impostazione e utilizzo della funzione dei materiali pericolosi")
 
 La funzione dei materiali pericolosi viene impostata nella gestione delle informazioni sul prodotto e fornisce i documenti che possono essere stampati tramite la gestione del magazzino. Pertanto, in linea di massima, queste sono le due aree principali in cui è possibile rivedere, impostare e utilizzare la funzionalità di questa funzione:
 

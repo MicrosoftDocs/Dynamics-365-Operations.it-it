@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754376"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355372"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Funzione ER Base64StringToContainer
 
@@ -73,11 +73,11 @@ Definire le origini dati seguenti nel mapping di modello:
 
 In questo esempio, l'origine dati **\#MediaAsBase64String** codifica il contenuto binario dell'allegato multimediale corrente come testo che rappresenta un gruppo Base64 di schemi di codifica da binario a testo. L'origine dati **\#BlobFomBase64** decodifica la stringa Base64 e restituisce un valore binario in formato BLOB.
 
-![Origini dati di esempio nella pagina di progettazione del mapping del modello ER](./media/er-functions-container-base64stringtocontainer-1.png)
+![Origini dati di esempio nella finestra di progettazione mapping modello ER.](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Funzioni contenitore](er-functions-category-container.md)
+[Funzioni del contenitore](er-functions-category-container.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

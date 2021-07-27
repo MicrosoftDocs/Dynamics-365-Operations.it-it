@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814780"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360900"
 ---
 # <a name="phantom-items"></a>Articoli fittizi
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814780"
 
 Questo argomento descrive in dettaglio in che modo è possibile usare il tipo di riga Fittizio per le righe di una distinta base (DBA) e una formula. Nella figura seguente, (a) è la DBA per il prodotto H e le parti F e G e (b) è la scheda cicli di lavorazione per i prodotti H e la parte F.
 
-![Prodotto H e parte F](media/product-H-part-F.png)
+![Prodotto H e parte F.](media/product-H-part-F.png)
 
 
 Questa figura mostra un esempio di una struttura DBA a due livelli. Il prodotto finito H rappresenta un prodotto per l'assemblaggio di una macchina. L'assemblaggio della macchina consiste di due parti, un'unità elettrica (F) che ha due materiali (A e B) e un gruppo di materiali da imballaggio (G) che ha anch'esso due materiali (C e D). Un altro materiale (E) viene utilizzato durante l'assemblaggio generale della macchina.
 
-![Prodotto H e parte F](media/product-H-part-B.png)
+![Prodotto H e parte F.](media/product-H-part-B.png)
 
 La figura precedente rappresenta la DBA progettazione per il prodotto H. Questa struttura offre una buona panoramica delle parti e dei componenti dell'intero assemblaggio della macchina. Tuttavia, sebbene i progettisti possano preferire di vedere la DBA rappresentata in questo modo, questa struttura potrebbe non rappresentare correttamente in modo in cui la macchina viene costruita nello shop floor. 
 
@@ -53,23 +53,23 @@ La transizione tra la DBA progettazione e la DBA di produzione viene abilitata a
 ## <a name="multilevel-phantom-bom-structures"></a>Strutture DBA fittizie multilivello
 È possibile utilizzare il tipo di riga fittizio nelle strutture DBA multilivello, come mostrato nell'illustrazione seguente. In questa illustrazione, (a) è la DBA per il prodotto G e (b) è la scheda cicli di lavorazione per le parti E e F e il prodotto G. 
 
-![Prodotto G e parte F con le schede cicli di lavorazione](media/product-G-route-sheet-G.png)
+![Prodotto G e parte F con le schede cicli di lavorazione.](media/product-G-route-sheet-G.png)
 
 
 La figura seguente mostra la DBA di produzione e la scheda cicli di produzione risultanti se la righe DBA per le parti E e F vengono configurate con il tipo di riga fittizio. In questa illustrazione, (a) è la DBA per il prodotto G e (b) è la scheda cicli di lavorazione per il prodotto G.
 
-![Prodotto G](media/product-G.png)
+![Prodotto G.](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>Rete di cicli di lavorazione e fittizia
 La DBA fittizia può essere utilizzata anche per una DBA con una rete di cicli di lavorazione. In una rete di cicli di lavorazione, una o più operazioni vengono eseguite in parallelo. La figura seguente mostra un esempio di una rete di cicli di lavorazione utilizzata in una distinta base multilivello. In questa illustrazione, (a) è la DBA per il prodotto G e la parte F e (b) è la scheda cicli di lavorazione per il prodotto G e la parte F, che ha una rete di cicli di lavorazione.
 
-![Prodotto G e parte F](media/product-G-part-F.png)
+![Prodotto G e parte F.](media/product-G-part-F.png)
 
 
 Nella figura seguente, (a) è la DBA per il prodotto G e la parte F e (b) è la scheda cicli di lavorazione per il prodotto G e la parte F.
 
-![Prodotto G e parte F con le schede cicli di lavorazione](media/product-G-part-F-with-route-sheet.png)
+![Prodotto G e parte F con le schede cicli di lavorazione.](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

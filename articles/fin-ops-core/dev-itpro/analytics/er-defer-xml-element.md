@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: f89c671ae012907a4c3e07c09bdc867c1d67a101
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944487"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348071"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Differire l'esecuzione di elementi XML in formati ER
 
@@ -90,14 +90,14 @@ Prima di iniziare, è inoltre necessario scaricare e salvare la seguente configu
 6. Nella struttura delle configurazioni, espandere **Modello di apprendimento di elementi differiti**.
 7. Esaminare l'elenco delle configurazioni ER importate nella struttura delle configurazioni.
 
-    ![Configurazioni ER importate nella pagina Configurazioni](./media/ER-DeferredXml-Configurations.png)
+    ![Configurazioni ER importate nella pagina Configurazioni.](./media/ER-DeferredXml-Configurations.png)
 
 ### <a name="activate-a-configuration-provider"></a>Attivare un provider di configurazioni
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, verificare che il [provider di configurazione](general-electronic-reporting.md#Provider) per la società di esempio Litware, Inc. (`http://www.litware.com`) sia elencato e contrassegnato come attivo. Se questo provider di configurazione non è elencato o non è contrassegnato come attivo, completare i passaggi dell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![La società di esempio Litware, Inc. nella pagina Configurazioni localizzazione](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
+    ![La società di esempio Litware, Inc. nella pagina Configurazioni localizzazione.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Esaminare il mapping di modello importato
 
@@ -119,7 +119,7 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
     - L'origine dati **Raggruppate** di tipo *GroupBy* è configurata per raggruppare le transazioni fiscali filtrate dell'origine dati **Filtrate**.
     - Il campo di aggregazione **TotalSum** dell'origine dati **Raggruppate** è configurata per riepilogare i valori del campo **\$TaxAmount** dell'origine dati **Filtrate** per tutte le transazioni fiscali filtrate di quell'origine dati.
 
-        ![Campo di aggregazione TotalSum nella pagina di modifica dei parametri "GroupBy"](./media/ER-DeferredXml-GroupByParameters.png)
+        ![Campo di aggregazione TotalSum nella pagina di modifica dei parametri "GroupBy".](./media/ER-DeferredXml-GroupByParameters.png)
 
 9. Verificare in che modo le origini dati configurate sono associate al modello di dati e come espongono i dati consultati per renderli disponibili in un formato ER:
 
@@ -127,7 +127,7 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
     - Il campo **\$TaxAmount** dell'origine dati **Filtrate** è associata al campo **Data.List.Value** del modello di dati.
     - Il campo **TotalSum** dell'origine dati **Raggruppate** è associato al campo **Data.Summary.Total** del modello di dati.
 
-    ![Pagina Progettazione mapping modello](./media/ER-DeferredXml-ModelMapping.png)
+    ![Pagina Progettazione mapping modello.](./media/ER-DeferredXml-ModelMapping.png)
 
 10. Chiudere le pagine **Progettazione mapping modello** e **Mapping modello**.
 
@@ -143,7 +143,7 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
     - L'elemento XML **Report\\Message\\Record** è configurato per riempire il documento in uscita con un singolo record che mostra i dettagli di una singola transazione fiscale.
     - L'elemento XML **Report\\Message\\Summary** è configurato per riempire il documento in uscita con un singolo nodo di riepilogo che mostra la somma dei valori di imposta delle transazioni fiscali elaborate.
 
-    ![Elemento XML Message ed elementi XML nidificati nella pagina Progettazione formati](./media/ER-DeferredXml-Format.png)
+    ![Elemento XML Message ed elementi XML nidificati nella pagina Progettazione formati.](./media/ER-DeferredXml-Format.png)
 
 5. Nella scheda **Mappatura**, esaminare i seguenti dettagli:
 
@@ -157,14 +157,14 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
     - L'attributo **TotalTaxAmount** è associato a **model.Data.Summary.Total** per generare la somma dei valori di imposta delle transazioni fiscali elaborate.
     - L'attributo **ExecutionDateTime** genera la data e l'ora (inclusi i millisecondi) in cui viene aggiunto il nodo di riepilogo.
 
-    ![Scheda Mapping nella pagina Progettazione formati](./media/ER-DeferredXml-Format2.png)
+    ![Scheda Mapping nella pagina Progettazione formati.](./media/ER-DeferredXml-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Eseguire il formato importato
 
 1. Nella pagina **Progettazione formati**, selezionare **Esegui**.
 2. Scaricare il file proposto dal browser Web e aprirlo per esaminarlo.
 
-    ![File scaricato in formato importato](./media/ER-DeferredXml-Run.png)
+    ![File scaricato - formato importato.](./media/ER-DeferredXml-Run.png)
 
 Si noti che il nodo di riepilogo presenta la somma dei valori di imposta per le transazioni elaborate. Poiché il formato è configurato per utilizzare il binding **model.Data.Summary.Total** per restituire questa somma, la somma viene calcolata chiamando l'aggregazione **TotalSum** dell'origine dati **Raggruppate** di tipo *GroupBy* nel mapping di modello. Per calcolare questa aggregazione, il mapping di modello esegue l'iterazione su tutte le transazioni che sono state selezionate nell'origine dati **Filtrate**. Confrontando i tempi di esecuzione del nodo di riepilogo e dell'ultimo nodo di record, è possibile determinare che il calcolo della somma ha richiesto 12 millisecondi (ms). Confrontando i tempi di esecuzione del primo e dell'ultimo nodo di record, è possibile determinare che la generazione di tutti i nodi di record ha richiesto 9 ms. Pertanto, sono stati necessari in totale 21 ms.
 
@@ -178,25 +178,25 @@ Se il volume della transazione è molto più grande del volume nell'esempio corr
 4. Configurare l'espressione **Nome chiave dati raccolti** come `WsColumn`.
 5. Configurare l'espressione **Valore chiave dati raccolti** come `WsRow`.
 
-    ![Registrare l'elemento XML nella pagina Progettazione formati](./media/ER-DeferredXml-Format3.png)
+    ![Registrare l'elemento XML nella pagina Progettazione formati.](./media/ER-DeferredXml-Format3.png)
 
 6. Selezionare l'attributo **Report\\Message\\Record\\TaxAmount**.
 7. Configurare l'espressione **Nome chiave dati raccolti** come `SummingAmountKey`.
 
-    ![Attributo TaxAmount nella pagina Progettazione formati](./media/ER-DeferredXml-Format4.png)
+    ![Attributo TaxAmount nella pagina Progettazione formati.](./media/ER-DeferredXml-Format4.png)
 
     È possibile considerare questa impostazione come la creazione di un foglio di lavoro virtuale, in cui il valore della cella A1 viene aggiunto al valore dell'importo fiscale di ogni transazione fiscale elaborata.
 
 8. Selezionare l'attributo **Report\\Message\\Record\\RunningTotal** e quindi selezionare **Modifica formula**.
 9. Configurare l'espressione `SUMIF(SummingAmountKey, WsColumn, WsRow)` usando la funzione ER [SUMIF](er-functions-datacollection-sumif.md) integrata e quindi selezionare **Salva**.
 
-    ![Espressione SUMIF](./media/ER-DeferredXml-FormulaDesigner.png)
+    ![Espressione SUMIF.](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. Chiudere la pagina **Designer formula**.
 11. Selezionare **Salva** e quindi selezionare **Esegui**.
 12. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![Elenco generato del valore dell'imposta con il totale parziale](./media/ER-DeferredXml-Run1.png)
+    ![Elenco generato del valore dell'imposta con il totale parziale.](./media/ER-DeferredXml-Run1.png)
 
     L'ultimo nodo di record contiene il totale corrente dei valori di imposta calcolato per tutte le transazioni elaborate utilizzando l'output generato come origine dati. Questa origine dati comincia all'inizio del report e continua fino all'ultima transazione fiscale. Il nodo di riepilogo contiene la somma dei valori di imposta di tutte le transazioni elaborate calcolate nel mapping di modello utilizzando l'origine dati di tipo *GroupBy*. Si noti che questi valori sono uguali. Pertanto, è possibile utilizzare la somma basata sull'output al posto di **GroupBy**. Confrontando i tempi di esecuzione del primo nodo di record e del nodo di riepilogo, è possibile determinare che la generazione di tutti i nodi di record e della somma ha richiesto 11 ms. Pertanto, per quanto riguarda la generazione dei nodi di record e della somma dei valori di imposta, il formato modificato è circa due volte più veloce del formato originale.
 
@@ -205,7 +205,7 @@ Se il volume della transazione è molto più grande del volume nell'esempio corr
 15. Selezionare **Salva** e quindi selezionare **Esegui**.
 16. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![Elenco dei valori delle imposte generato utilizzando la formula modificata](./media/ER-DeferredXml-Run2.png)
+    ![Elenco generato dei valori delle imposte utilizzando la formula modificata.](./media/ER-DeferredXml-Run2.png)
 
     Si noti che il totale corrente dei valori di imposta nell'ultimo nodo di record è ora uguale alla somma nel nodo di riepilogo.
 
@@ -218,7 +218,7 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 3. Selezionare **Salva** e quindi selezionare **Esegui**.
 4. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato dei valori delle imposte per l'intestazione del report](./media/ER-DeferredXml-Run3.png)
+    ![File scaricato dei valori delle imposte per l'intestazione del report.](./media/ER-DeferredXml-Run3.png)
 
     Si noti che la somma dei valori di imposta nel nodo di riepilogo ora è uguale a 0 (zero), poiché questa somma viene ora calcolata in base all'output generato. Quando viene generato il primo nodo di record, l'output generato non contiene ancora nodi di record che hanno dettagli delle transazioni. È possibile configurare questo formato per differire l'esecuzione dell'elemento **Report\\Message\\Summary** fino a che l'elemento **Report\\Message\\Record** non è stato eseguito per tutte le transazioni fiscali.
 
@@ -227,12 +227,12 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 1. Nella pagina **Progettazione formati**, nella scheda **Formato** selezionare l'elemento XML **Report\\Message\\Summary**.
 2. Impostare l'opzione **Esecuzione differita** su **Sì**.
 
-    ![Opzione Esecuzione differita dell'elemento XML di riepilogo nella pagina Progettazione formati](./media/ER-DeferredXml-Format5.png)
+    ![Opzione Esecuzione differita dell'elemento XML Summary nella pagina Progettazione formati.](./media/ER-DeferredXml-Format5.png)
 
 3. Selezionare **Salva** e quindi selezionare **Esegui**.
 4. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato - esecuzione differita](./media/ER-DeferredXml-Run4.png)
+    ![File scaricato - esecuzione differita.](./media/ER-DeferredXml-Run4.png)
 
     L'elemento **Report\\Message\\Summary** viene ora eseguito solo dopo l'esecuzione di tutti gli altri elementi nidificati sotto l'elemento padre **Report\\Message**. Pertanto, viene eseguito dopo l'esecuzione dell'elemento **Report\\Message\\Record** per tutte le transazioni fiscali dell'origine dati **model.Data.List**. I tempi di esecuzione del primo e dell'ultimo nodo di record e dei nodi di intestazione e di riepilogo rivelano tale condizione.
 

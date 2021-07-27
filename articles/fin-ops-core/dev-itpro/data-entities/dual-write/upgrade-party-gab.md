@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112675"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346548"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Eseguire l'aggiornamento al modello di parte e di rubrica globale
 
@@ -89,7 +89,7 @@ Le seguenti attività sono necessarie per preparare l'aggiornamento:
 
 10. Dopo la distribuzione, convalidare i set di dati, il flusso di dati e il servizio collegato del data factory.
 
-   ![Set di dati, flusso di dati e servizio collegato](media/data-factory-validate.png)
+   ![Set di dati, flusso di dati e servizio collegato.](media/data-factory-validate.png)
 
 11. Vai a **Gestisci**. Sotto **Connessioni**, seleziona **Servizio collegato**. Seleziona **DynamicsCrmLinkedService**. Nel modulo **Modifica servizio collegato (Dynamics CRM)**, inserisci i seguenti valori.
 
@@ -154,7 +154,7 @@ Le seguenti attività sono necessarie per preparare l'aggiornamento:
 
 7. Nel data factory, esegui il modello selezionando **Attiva ora** come mostrato nell'immagine seguente. Il completamento di questo processo potrebbe richiedere alcune ore in base al volume di dati.
 
-    ![Attiva ora](media/data-factory-trigger.png)
+    ![Attiva ora.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > Se hai personalizzazioni per **Account**, **Contatto** e **Fornitore** devi modificare il modello.
@@ -164,7 +164,7 @@ Le seguenti attività sono necessarie per preparare l'aggiornamento:
     + Scarica il file `FONewParty.csv` da archiviazione BLOB di Azure. Il percorso è `partybootstrapping/output/FONewParty.csv`.
     + Converti il file `FONewParty.csv` in un file Excel e importa il file Excel nell'app Finance and Operations. Se l'importazione del file CSV funziona, puoi importare direttamente il file CSV. L'esecuzione dell'importazione potrebbe richiedere alcune ore, a seconda del volume di dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../data-import-export-job.md).
 
-    ![Importare i record Parte di Datavers](media/data-factory-import-party.png)
+    ![Importare i record Parte di Datavers.](media/data-factory-import-party.png)
 
 9. Nell'app di interazione con i clienti, abilita i seguenti passaggi del plug-in:
 
@@ -199,7 +199,7 @@ Le seguenti attività sono necessarie per preparare l'aggiornamento:
 3. Il data factory viene eseguito in base ai file CSV delimitati da virgole. Se è presente un valore di campo con una virgola, potrebbe interferire con i risultati. Devi rimuovere le virgole.
 4. La scheda **Monitoraggio** fornisce informazioni su tutti i passaggi e i dati elaborati. Seleziona un passaggio specifico per eseguirne il debug.
 
-    ![Scheda Monitoraggio](media/data-factory-monitor.png)
+    ![Scheda Monitoraggio.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Ulteriori informazioni sul modello
 

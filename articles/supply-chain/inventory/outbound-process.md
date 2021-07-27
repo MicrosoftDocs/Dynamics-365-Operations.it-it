@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: e9f9da7d6e3ede9816757fb57f0b802ce4d41360
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 29029cfa032f36c4dc0590ff76f44417dc056ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825941"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348807"
 ---
 # <a name="outbound-process-overview"></a>Panoramica del processo in uscita
 
@@ -37,7 +39,7 @@ Quando le distinte di prelievo vengono generate a partire da ordini cliente o or
 
 Il diagramma seguente mostra una panoramica del processo per gli ordini di uscita. 
 
-[![Panoramica del processo dell'ordine di uscita](./media/outbound-order.png)](./media/outbound-order.png)
+[![Panoramica del processo dell'ordine di uscita.](./media/outbound-order.png)](./media/outbound-order.png)
 
 È possibile impostare regole in uscita per definire la modalità con cui il programma deve gestire il processo in uscita. È possibile utilizzare queste regole per controllare il processo di spedizione. In particolare, è possibile utilizzare le regole per determinare durante quale fase del processo è possibile inviare le spedizioni. Le impostazioni seguenti definiscono il modo in cui i processi in uscita sono gestiti.
 
@@ -45,31 +47,31 @@ Il diagramma seguente mostra una panoramica del processo per gli ordini di uscit
 
 Andare a **Contabilità clienti** \> **Impostazioni** \> **Parametri contabilità clienti**, quindi nella scheda **Aggiornamenti**, selezionare un valore nel campo **Stato ciclo di prelievo**.
 
-[![Campo Stato ciclo di prelievo per ordini cliente](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
+[![Campo Stato ciclo di prelievo per ordini cliente.](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
 
 Se il campo **Stato ciclo di prelievo** è impostato su **Completato**, il processo di prelievo viene eseguito automaticamente durante il processo di generazione delle distinte di prelievo. Se il campo è impostato su **Attivato**, le righe della distinta di prelievo devono essere aggiornate manualmente.
 
 La stessa impostazione si applica agli ordini di trasferimento. Andare a **Gestione articoli** \> **Impostazioni** \> **Parametri di gestione articoli e magazzino**, quindi nella scheda **Trasporto**, selezionare un valore nel campo **Stato ciclo di prelievo**.
 
-[![Campo Stato ciclo di prelievo per ordini di trasferimento](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
+[![Campo Stato ciclo di prelievo per ordini di trasferimento.](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
 
 ## <a name="end-output-inventory-orders"></a>Termina ordine di magazzino in uscita
 
 Andare a **Gestione articoli** \> **Impostazioni** \> **Parametri di gestione articoli e magazzino**, quindi nella scheda **Generale**, impostare l'opzione **Termina ordine di magazzino in uscita**.
 
-[![Opzione Termina ordine di magazzino in uscita](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
+[![Opzione Termina ordine di magazzino in uscita.](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
 Quando il lavoratore di magazzino riduce le quantità della distinta di prelievo, le quantità dell'ordine di magazzino corrispondenti verranno rimosse dalla spedizione. Quando la distinta di prelievo viene aggiornata, le quantità rimanenti vengono registrate di nuovo nell'ordine se l'opzione **Termina ordine di magazzino in uscita** è impostata su **Sì**. Se l'opzione **Termina ordine di magazzino in uscita** è impostata su **No**, le quantità rimanenti vengono mantenute come quantità dell'ordine di uscita aperto e devono essere aggiunte a una nuova distinta di prelievo come parte della funzionalità **Ordini di uscita aperti**. 
 
-[![Comando Ordini di uscita aperti nel menu Funzioni](./media/open-output-order.png)](./media/open-output-order.png)
+[![Comando Ordini di uscita aperti nel menu Funzioni.](./media/open-output-order.png)](./media/open-output-order.png)
 
-[![Menu Funzioni nella pagina Ordini di uscita aperti](./media/open-output-order-function.png)](./media/open-output-order-function.png)
+[![Menu Funzioni nella pagina Ordini di uscita aperti.](./media/open-output-order-function.png)](./media/open-output-order-function.png)
 
 ## <a name="reduce-quantity"></a>Riduci quantità
 
 Il terzo parametro che è possibile utilizzare durante il processo di generazione di distinte di prelievo è **Riduci quantità**. Questo parametro viene utilizzato con l'impostazione **Prenotazione** che attiva un processo di prenotazione durante il rilascio al magazzino.
 
-[![Parametro Riduci quantità](./media/reduce-quantity.png)](./media/reduce-quantity.png)
+[![Parametro Riduci quantità.](./media/reduce-quantity.png)](./media/reduce-quantity.png)
 
 ## <a name="example-of-an-outbound-process-for-a-sales-order"></a>Esempio di un processo in uscita per un ordine cliente
 
@@ -77,11 +79,11 @@ Per questo esempio, si ha un ordine cliente per due articoli. Durante la generaz
 
 Le scorte che non sono ancora state prenotate lo sono durante la generazione della distinta di prelievo. Le scorte non disponibili possono essere eliminate dall'ordine cliente o rilasciate al magazzino per l'elaborazione in uscita in seguito, quando le scorte sono disponibili per il prelievo.
 
-[![Aggiornare la distinta di prelievo](./media/update-picking-list.png)](./media/update-picking-list.png)
+[![Aggiornare la distinta di prelievo.](./media/update-picking-list.png)](./media/update-picking-list.png)
 
 Non appena tutte le righe di prelievo sono state selezionate nella pagina **Registrazione distinta di prelievo**, la spedizione associata viene completata. Il processo per i documenti di trasporto degli ordini cliente può quindi essere inizializzato in base alle scorte prelevate.
 
-[![Aggiornare spedizioni in uscita](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+[![Aggiornare spedizioni in uscita.](./media/outbound-shipments.png)](./media/outbound-shipments.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

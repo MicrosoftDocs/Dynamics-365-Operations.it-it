@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015855"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360402"
 ---
 # <a name="set-up-consignment"></a>Impostare la spedizione
 
@@ -61,7 +61,7 @@ Un ordine di rifornimento spedizione è un documento utilizzato per richiedere e
 
 La dimensione **Proprietario** viene utilizzata per separare le informazioni su quale inventario appartiene al fornitore e quale appartiene alla persona giuridica ricevente. Le righe ordine di rifornimento spedizione hanno uno stato **Ordine aperto** fino a quando l'intera quantità delle righe non è stata ricevuta o annullata. Quando la quantità totale è stata ricevuta o annullata, lo stato viene cambia in **Completato**. L'inventario fisico disponibile correlato a un ordine di rifornimento spedizione può essere registrato mediante un processo di registrazione oltre che un processo di aggiornamento di entrata prodotti. La registrazione può essere effettuata durante il processo di arrivo articoli o manualmente mediante l'aggiornamento delle righe ordine. Quando il processo di aggiornamento dell'entrata prodotti viene utilizzato, viene aggiunta una registrazione nel giornale di registrazione entrata prodotti, che può essere utilizzata per confermare le entrate di merci ai fornitori.
 
-[![Ordini di rifornimento spedizione](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Ordini di rifornimento spedizione.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Giornale di registrazione modifiche proprietà inventario
 
@@ -74,7 +74,7 @@ Le sole transazioni di magazzino creare sono quelle relative al giornale registr
 
 Non è possibile aggiornare la quantità nelle righe di ordine fornitore spedizione dopo che l'ordine è stato creato.
 
-[![Giornale di registrazione modifiche proprietà inventario](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Giornale di registrazione modifiche proprietà inventario.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Collaborazione fornitore nei processi di spedizione
 
@@ -90,13 +90,13 @@ Per ulteriori informazioni su come impostare i fornitori per utilizzare la colla
 
 Per registrare l'inventario spedizione in entrata fisico, è necessario definire un proprietario fornitore. Questo viene effettuato nella pagina **Proprietario inventario**. Quando si seleziona un **Conto fornitore**, vengono generati i valori predefiniti per i campi **Nome** e **Proprietario**. Il valore nel campo **Proprietario** sarà visibile al fornitore, pertanto è possibile modificarlo se i nomi di conto fornitore non sono facili da riconoscere per le persone esterne. È possibile modificare il campo **Proprietario**, ma solo fino al passaggio quando si salva il record **Proprietario inventario**. Il campo **Nome** viene popolato automaticamente con il nome della parte a cui il conto fornitore è associato e non può essere modificato.
 
-[![Proprietari inventario](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Proprietari inventario.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Gruppo di dimensioni di tracciabilità
 
 Gli articoli che verranno utilizzati nei processi di spedizione devono essere associati a un **Gruppo di dimensioni di tracciabilità** dove la dimensione **Proprietario** è impostata su **Attivo**. La dimensione Proprietario ha sempre le opzioni **Inventario fisico** e **Inventario finanziario** selezionate. **Piano di copertura per dimensione** non è mai selezionato.
 
-[![Gruppo di dimensioni di tracciabilità](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![Gruppo di dimensioni di tracciabilità.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

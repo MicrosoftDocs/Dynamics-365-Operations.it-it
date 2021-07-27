@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: c76919c6289fe0c2367cedecc64bbdae9ee86e63
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028229"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358513"
 ---
 # <a name="position-forecasting"></a>Previsione delle posizioni
 
@@ -30,7 +30,7 @@ Le spese relative ai lavoratori costituiscono spesso una grande proporzione dei 
 
 ## <a name="position-forecasting-in-budget-planning"></a>Previsione della posizione nella pianificazione del budget
 
-[![Componenti di previsioni di posizione](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Componenti di previsioni di posizione.](./media/graphic-top.png)](./media/graphic-top.png) 
 
 La previsione della posizione utilizza tre componenti principali per fornire importi di budget accurati per le spese di posizione. Gli importi possono quindi essere introdotti nel piano di budget per i calcoli di budget. 
 
@@ -42,14 +42,14 @@ Un **gruppo di retribuzione** è un componente facoltativo di impostazione utili
 
 ### <a name="position-forecasting-processes"></a>Processi della previsione della posizione
 
-[![Illustrazione dei processi di previsione di posizione](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Illustrazione dei processi di previsione di posizione.](./media/graphic1b.png)](./media/graphic1b.png) 
 
 In un tipico processo per la previsione di posizione, è necessario innanzitutto creare i componenti di impostazione (elementi di costo del budget e gruppi di retribuzione). Le posizioni previste vengono quindi generate, in base alle posizioni esistenti. È quindi possibile apportare modifiche in qualsiasi momento. Ad esempio, è possibile aggiungere o terminare posizioni, modificare retribuzioni e benefit e aggiungere aumenti salariali. È possibile creare più versioni di una posizione prevista per agevolare il confronto tra diversi scenari di budget. In seguito, è possibile includere le posizioni previste nei piani di budget e riportare i costi delle posizioni previste come righe del piano di budget.
 
 È possibile creare versioni aggiuntive di posizione prevista quando il piano di budget viene rivisto. Le nuove versioni forniscono una base per le revisioni.
 
 ## <a name="position-forecasting-setup"></a>Impostazione della previsione della posizione
-[![Illustrazione con le impostazioni evidenziate](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Illustrazione con le impostazioni evidenziate.](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Elementi costo budget
 
@@ -86,7 +86,7 @@ I campi **Programmazione incentivi** e **Data di incentivo** nel gruppo di retri
 L'elemento di costo selezionato nel gruppo di retribuzione viene utilizzato quando si creano redditi per le posizioni previste del gruppo, tra cui le retribuzioni di base e gli incrementi di passaggio. Il campo **Piano di retribuzione fissa** collega il gruppo di retribuzione a un piano di retribuzione fissa in Risorse umane. Questo collegamento consente di assegnare le informazioni di retribuzione fissa di un lavoratore a una posizione prevista e può pertanto realizzare il piano di budget per una pianificazione più accurata. Ricordare che la struttura della griglia di retribuzione (livelli e passaggi) per il gruppo di retribuzione deve corrispondere alla struttura del piano di retribuzione fissa. In caso contrario, il sistema non è viene correttamente collegato al gruppo di retribuzione e al piano di retribuzione fissa.
 
 ## <a name="creating-forecast-positions"></a>Creazione delle posizioni previste
-[![Illustrazione che evidenzia "crea posizioni previste"](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Illustrazione che evidenzia "crea posizioni previste".](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Creazione di posizioni previste per le posizioni esistenti
 
@@ -115,7 +115,7 @@ Quando una posizione prevista è selezionata, selezionare **Copia posizione prev
 È inoltre possibile creare una posizione prevista completamente nuova. Selezionare un processo esistente e selezionare anche un processo di pianificazione del budget e uno scenario del piano di budget. È possibile aggiungere tutti gli altri dettagli da aggiungere. Anche in questo caso, in Risorse umane viene creata contemporaneamente una nuova posizione.
 
 ## <a name="working-with-forecast-positions"></a>Utilizzo delle posizioni previste
-[![Illustrazione che evidenzia "modifica posizioni previste"](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Illustrazione che evidenzia "modifica posizioni previste".](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Più versioni di una posizione prevista
 
@@ -171,7 +171,7 @@ Il processo di ricalcolo viene automaticamente utilizzato in qualsiasi posizione
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Inserimento di posizioni previste nei piani di budget
 
-[![Illustrazione che evidenzia "Aggiungi al piano di budget"](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Illustrazione che evidenzia "Aggiungi al piano di budget".](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Lo scopo della creazione e della modifica delle posizioni di previsione consiste nell'aggiungerle ai piani di budget, in modo che i piani di budget includano importi budget più accurati. Sono disponibili due metodi per l'aggiunta di posizioni previste al piano di budget. È possibile utilizzare un processo di creazione o un processo di selezione nel piano di budget.
 

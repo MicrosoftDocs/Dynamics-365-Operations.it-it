@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 14f0f2b1a4d63101d432b1361379c61a70ac9345
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1e20528cd0af00c46f1376e02097bf3171100769
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271185"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358697"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services
 
@@ -41,7 +41,7 @@ Questo argomento spiega come scaricare la versione più recente di [Configurazio
 3. Nella sezione **Provider di configurazione** selezionare il riquadro **Microsoft**.
 4. Nel riquadro **Microsoft** selezionare **Archivi**.
 
-    [![Riquadro Microsoft nella pagina delle configurazioni di localizzazione](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Riquadro Microsoft nella pagina delle configurazioni di localizzazione.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Nella pagina **Archivi di configurazioni** selezionare nella griglia l'archivio esistente di tipo **LCS**. Se questo archivio non viene visualizzato nella griglia, effettuare le seguenti operazioni:
 
@@ -55,7 +55,7 @@ Questo argomento spiega come scaricare la versione più recente di [Configurazio
 
 6. Selezionare **Apri** per visualizzare l'elenco delle configurazioni ER per l'archivio selezionato.
 
-    [![Pagina Archivi di configurazione](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Pagina Archivi di configurazione.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > Se si verificano problemi con l'accesso all'archivio LCS per scaricare le configurazioni dalla libreria di risorse condivise in LCS, è possibile scaricare le configurazioni dal [repository globale](er-download-configurations-global-repo.md).
@@ -67,7 +67,7 @@ Questo argomento spiega come scaricare la versione più recente di [Configurazio
     > [!NOTE]
     > Il pulsante **Importa** non è disponibile per le versioni di configurazione di creazione di report elettronici già presenti nell'istanza corrente.
 
-    [![Configurazione della pagina dell'archivio](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Pagina Archivio di configurazione.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > A seconda delle impostazioni ER, le configurazioni vengono convalidate dopo l'importazione. È possibile ricevere una notifica per tutti i problemi di incoerenza rilevati. Risolvere i problemi prima di utilizzare la versione di configurazione importata. Per ulteriori informazioni, vedere l'elenco di argomenti correlati per questo argomento.

@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e13e99515d52e1e24970908a106ae99a7e8b0d80
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188412"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360818"
 ---
 # <a name="mobile-app-home-page"></a>Home page app per dispositivi mobili
 
@@ -39,7 +39,7 @@ L'app mobile consente all'organizzazione di rendere disponibili i propri process
 ## <a name="elements-of-the-mobile-app"></a>Elementi dell'app mobile
 La navigazione dell'app mobile è costituita si basa su quattro concetti di base: dashboard, aree di lavoro, pagine e azioni. 
 
-[![Concetti di navigazione nell'app mobile](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Concetti di navigazione nell'app per dispositivi mobili.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. All'avvio dell'app, passare al **dashboard**.
 2. Nel dashboard, è possibile visualizzare un elenco di **aree di lavoro** pubblicate.
@@ -53,7 +53,7 @@ La navigazione dell'app mobile è costituita si basa su quattro concetti di base
 ## <a name="implementation-process"></a>Processo di implementazione
 Nella figura seguente è illustrato il processo per implementare entrambe le aree di lavoro mobili fornite da Microsoft e le aree di lavoro mobili personalizzate. 
 
-[![Processo di implementazione app mobili](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Processo di implementazione app per dispositivi mobili.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per implementare entrambe le aree di lavoro mobili fornite da Microsoft e le aree di lavoro mobili personalizzate. I numeri nella prima colonna corrispondono ai passaggi numerati nella precedente figura.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 3550b2b7b305702ffc337ba0a9bb79f60a9de120
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db7bdfe102fa5e24816f2cfaf2b53351362cddd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023355"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358196"
 ---
 # <a name="set-up-tds-registration-numbers-for-legal-entities"></a>Impostare i numeri di registrazione TDS per persone giuridiche
 
@@ -31,7 +31,7 @@ Questo argomento spiega come impostare i numeri di registrazione dell'imposta de
 
 1. Andare a **Amministrazione organizzazione \> Organizzazioni \> Persone giuridiche**.
 
-    [![Pagina Persone giuridiche](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
+    [![Pagina Persone giuridiche.](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
 
 2. Nella Scheda dettaglio **Informazioni fiscali**, nel campo **Numero conto permanente**, immetti il numero di conto permanente (PAN) della persona giuridica.
 3. Nel campo **Numero circoscrizione**, immetti il numero di circoscrizione dell'autorità TDS.
@@ -41,11 +41,11 @@ Questo argomento spiega come impostare i numeri di registrazione dell'imposta de
 7. Nel riquadro Azioni, seleziona **ID registrazione** per aprire la pagina **Gestisci indirizzi**.
 8. Nella Scheda dettaglio **Informazioni fiscali**, seleziona **Aggiungi** o **Modifica** per aprire la pagina **Gestisci informazioni fiscali**, in cui puoi mantenere la voce di registrazione fiscale.
 
-    [![Pagina Gestisci indirizzi](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
+    [![Pagina Gestisci indirizzi.](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
 
 9. Nella Scheda dettaglio **Ritenuta d'acconto**, nel campo **Numero conto imposta (TAN)**, immetti il numero di registrazione. Questo numero deve essere composto da quattro caratteri alfabetici, quindi cinque caratteri numerici e infine un carattere alfabetico. Ad esempio: **AXDF87645F**.
 10. Nel campo **Nome o descrizione**, immetti una descrizione del numero di registrazione della ritenuta d'acconto.
 
-    [![Pagina Gestisci informazioni fiscali](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
+    [![Pagina Gestisci informazioni fiscali.](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
 
-11. Chiudi la pagina.
+11. Chiudere la pagina.

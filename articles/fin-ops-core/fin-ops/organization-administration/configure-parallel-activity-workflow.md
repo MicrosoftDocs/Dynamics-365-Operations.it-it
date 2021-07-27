@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1a47857cbe65c00ad678b2b0372c642abf01b41
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c0bc97f401ad9e097248dfd5afb0baa8edbb6b3c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747833"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350672"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>Configurare le attività parallele in un flusso di lavoro
 
@@ -45,7 +45,7 @@ Per aggiungere e configurare i rami di questa attività parallela, effettuare le
 1. Fare doppio clic sull'attività parallela per visualizzarne i rami.
 2. Per aggiungere un ramo, trascinare l'elemento **Ramo** dall'area **Elementi flusso di lavoro** in un punto di inserimento nella canvas. Nella figura seguente viene illustrato un punto di inserimento.
 
-    ![Punto di inserimento](./media/workflow_insertionpoint.gif)
+    ![Punto di inserimento.](./media/workflow_insertionpoint.gif)
 
     > [!NOTE]
     > L'ordine dei rami non è determinante, in quanto tutti i rami di un'attività parallela vengono eseguiti contemporaneamente.

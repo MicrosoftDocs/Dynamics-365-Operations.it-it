@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023358"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358220"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>Impostare parametri TDS in Contabilità fornitori e Contabilità clienti
 
@@ -38,12 +38,12 @@ In questo argomento viene illustrato come impostare parametri in Contabilità fo
     - **Richiesta** - Gli utenti ricevono un messaggio che richiede loro di aggiornare il gruppo TDS nelle righe ordine.
 4. Selezionare **OK**.
 
-    [![Finestra di dialogo Aggiorna righe ordine](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Finestra di dialogo Aggiorna righe ordine.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. Vai a **Imposta \> Impostazione \> Parametri \> Parametri contabilità fornitori**.
 6. Nella scheda **Generale**, nella Scheda dettaglio **Dividi in base alle informazioni di consegna**, imposta l'opzione **Entrata prodotti** su **Sì** per registrare e dividere un'entrata prodotti che ha diversi indirizzi di consegna e numeri di conto imposta (TAN). Se questa opzione è impostata su **No**, non è possibile registrare un documento di trasporto di acquisto che ha differenti indirizzi di consegna e TAN.
 7. Imposta l'opzione **Fattura** su **Sì** per registrare e dividere una fattura di acquisto che ha diversi indirizzi di consegna e TAN.
 
-    [![Scheda dettaglio Dividi in base alle informazioni di consegna](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![Scheda dettaglio Dividi in base alle informazioni di consegna.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
-8. Chiudi la pagina.
+8. Chiudere la pagina.

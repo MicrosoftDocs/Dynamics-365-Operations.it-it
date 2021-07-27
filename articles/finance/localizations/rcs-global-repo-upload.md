@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361220"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Creare configurazioni ER in Regulatory Configuration Services (RCS) e caricarle nel repository globale
 
@@ -51,7 +51,7 @@ Se è già stato eseguito il provisioning di un ambiente RCS per la tua azienda,
 5. Immetti un nome e una descrizione, quindi seleziona **Crea configurazione** per creare una nuova versione derivata.
 6. Seleziona la configurazione appena derivata, aggiungi una descrizione della versione, quindi seleziona **OK**. Lo stato della configurazione viene modificato in **Completato**.
 
-![Nuova versione di configurazione in RCS](media/RCS_CompleteConfig.JPG)
+![Nuova versione di configurazione in RCS.](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Quando lo stato della configurazione viene modificato, è possibile che venga visualizzato un messaggio di errore di convalida correlato alle applicazioni connesse. Per disattivare la convalida, nel riquadro azioni della scheda **Configurazioni**, seleziona **Parametri utente**, quindi imposta l'opzione **Ignora convalida alla riassegnazione e alla modifica dello stato della configurazione** su **Sì** 
@@ -63,7 +63,7 @@ Per condividere una configurazione nuova o derivata con la tua organizzazione, p
 1. Seleziona la versione completa della configurazione, quindi **Carica nel repository**.
 2. Seleziona l'opzione **Globale (Microsoft)**, quindi **Carica**.
 
-    ![Carica nelle opzioni del repository](media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Carica nelle opzioni del repository.](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Nella finestra del messaggio di conferma, seleziona **Sì**. 
 4. Aggiorna la descrizione della versione come richiesto, quindi seleziona **OK**. 
@@ -73,7 +73,7 @@ Lo stato della configurazione viene aggiornato su **Condividi** e la configurazi
 - Importala nell'istanza di Dynamics 365. Per ulteriori informazioni, vedi [(ER) Importare le configurazioni da RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
 - Condividila con una terza parte o un'organizzazione esterna, vedi [Configurazioni RCS per la condivisione di report elettronici (ER) con organizzazioni esterne](rcs-global-repo-share-configuration.md)
 
-    ![Versione di configurazione Contoso Intrastat derivata nel repository globale](media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Versione di configurazione Contoso Intrastat derivata nel repository globale.](media/RCS_Config_upload_GlobalRepo.JPG)
 
 ## <a name="delete-a-configuration-from-the-global-repository"></a>Eliminare una configurazione dal repository globale
 Completa i seguenti passaggi per eliminare una configurazione creata dalla tua organizzazione.
@@ -84,11 +84,11 @@ Completa i seguenti passaggi per eliminare una configurazione creata dalla tua o
 4. Nella Scheda dettaglio **Filtro**, trova la configurazione che vuoi eliminare utilizzando la funzionalità **Filtro**.
 5. Nella Scheda dettaglio **Versione**, seleziona la versione della configurazione che desideri eliminare, quindi seleziona **Elimina**:
 
-    ![Eliminare la configurazione dal repository globale](media/RCS_Delete_from_GlobalRepo.JPG)
+    ![Eliminare la configurazione dal repository globale.](media/RCS_Delete_from_GlobalRepo.JPG)
 
 6. Nella finestra del messaggio di conferma, seleziona **Sì**.
 
-    ![Messaggio di conferma di eliminazione della versione di configurazione](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+    ![Messaggio di conferma di eliminazione della versione di configurazione.](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
  
 La versione della configurazione viene eliminata e viene visualizzato un messaggio di conferma. 
 

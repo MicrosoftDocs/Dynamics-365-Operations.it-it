@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017008"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358100"
 ---
 # <a name="inventory-visibility-add-in"></a>Componente aggiuntivo Visibilità magazzino
 
@@ -143,7 +143,7 @@ Dopo aver soddisfatto i prerequisiti, utilizzare la procedura seguente se si pre
 
             Per ulteriori informazioni su questa variabile, vedere la sezione [Impostare l'integrazione di Visibilità magazzino](#setup-inventory-visibility-integration) più avanti in questo argomento.
 
-        ![Trigger di configurazione](media/configuration-trigger.png "Trigger di configurazione")
+        ![Trigger di configurazione.](media/configuration-trigger.png "Trigger di configurazione")
 
     1. Selezionare **Attiva**.
 
@@ -157,7 +157,7 @@ Per installare il componente aggiuntivo Visibilità magazzino effettuare quanto 
 1. Nella pagina dell'ambiente, scorrere verso il basso fino a visualizzare la sezione **Componenti aggiuntivi dell'ambiente** in **Integrazione di Power Platform**, dove è possibile trovare il nome dell'ambiente Dataverse.
 1. Nella sezione **Componenti aggiuntivi per l'ambiente**, selezionare **Installa un nuovo componente aggiuntivo**.
 
-    ![La pagina dell'ambiente in LCS](media/inventory-visibility-environment.png "La pagina dell'ambiente in LCS")
+    ![La pagina dell'ambiente in LCS.](media/inventory-visibility-environment.png "La pagina dell'ambiente in LCS")
 
 1. Selezionare il collegamento **Installare un nuovo componente aggiuntivo**. Si apre un elenco di componenti aggiuntivi disponibili.
 1. Selezionare **Visibilità magazzino** nell'elenco.
@@ -166,7 +166,7 @@ Per installare il componente aggiuntivo Visibilità magazzino effettuare quanto 
     - **ID (client) applicazione AAD**
     - **ID tenant AAD**
 
-    ![Pagina Impostazione del componente aggiuntivo](media/inventory-visibility-setup.png "Pagina Impostazione del componente aggiuntivo")
+    ![Pagina Impostazione del componente aggiuntivo.](media/inventory-visibility-setup.png "Pagina Impostazione del componente aggiuntivo")
 
 1. Accettare le condizioni selezionando la casella di controllo **Condizioni**.
 1. Seleziona **Installa**. Lo stato del componente aggiuntivo verrà visualizzato com e **Installazione**. Al termine, aggiornare la pagina per vedere lo stato cambiare in **Installato**.

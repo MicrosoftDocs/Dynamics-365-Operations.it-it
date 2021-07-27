@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838660"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346204"
 ---
 # <a name="work-hour-control"></a>Controllo delle ore lavorative
 
@@ -66,7 +66,7 @@ Nella schermata seguente viene illustrato un esempio di calcolo **Controllo ore 
 - Nel campo **Ore effettive** sono visualizzate le ore registrate negli ordini di lavoro. 
 - Nel campo **Ore impegnate** sono visualizzate le ore totali della società in relazione agli ordini di lavoro.
 
-![Esempio di calcolo di controllo ore cespiti](media/04-controlling-and-reporting.png)
+![Esempio di calcolo di controllo ore cespiti.](media/04-controlling-and-reporting.png)
 
 Un altro metodo di eseguire un calcolo delle ore è la selezione di molteplici cespiti in **Tutti i cespiti** o **Cespiti attivi**. Quindi fare clic sul pulsante **Controllo ore** nella Scheda dettaglio **Generale**. I cespiti selezionati vengono inseriti automaticamente nel campo **Cespite** della Scheda dettaglio **Record da includere**. Fare clic su **OK** nella finestra di dialogo **Controllo ore cespiti** e viene visualizzato il calcolo dei cespiti selezionati. La stessa procedura può essere eseguita per le unità funzionali in **Tutte le unità funzionali** o **Unità funzionali attive** e per gli ordini di lavoro in **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 

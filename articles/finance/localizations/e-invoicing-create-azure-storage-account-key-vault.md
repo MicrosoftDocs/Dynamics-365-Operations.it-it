@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963241"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357416"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Creare un account di Archiviazione di Azure e un Azure Key Vault
 
@@ -49,7 +49,7 @@ In questo argomento, completerai due passaggi principali:
 5. Seleziona **Aggiungi criteri** per aggiungere un criterio di accesso archiviato.
 6. Imposta i campi **Identificatore** e **Autorizzazioni** in base alle esigenze. Nel campo **Autorizzazioni**, è consigliabile selezionare tutte le autorizzazioni.
 
-    ![Concessione dell'autorizzazione per l'archiviazione BLOB](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![Concessione dell'autorizzazione per l'archiviazione BLOB.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Immetti le date di inizio e di scadenza. La data di scadenza dovrebbe essere nel futuro.
 8. Seleziona **OK** per salvare i criteri, quindi salva le modifiche nel contenitore.
@@ -57,7 +57,7 @@ In questo argomento, completerai due passaggi principali:
 10. Fai clic con il pulsante destro del mouse sul contenitore e quindi seleziona **Ottieni firma di accesso condiviso**.
 11. Nella finestra di dialogo **Firma di accesso condiviso**, copiare e archivia il valore nel campo **URI**. Questo valore verrà utilizzato nella procedura successiva e verrà indicato come *URI della firma di accesso condiviso*.
 
-    ![Selezione e copia del valore URI](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![Selezione e copia del valore URI.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Configurare Azure Key Vault per archiviare l'URI dell'account di archiviazione
 
@@ -69,11 +69,11 @@ In questo argomento, completerai due passaggi principali:
 6. Configura i criteri di accesso per concedere alla fatturazione elettronica il livello corretto di accesso protetto al segreto creato. Vai a **Impostazioni \> Criteri di accesso** e seleziona **Aggiungi criteri di accesso**.
 7. Imposta le autorizzazioni segrete per le operazioni **Ottieni** ed **Elenco**.
 
-    ![Concessione dell'accesso al servizio](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Concessione dell'accesso al servizio.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. Imposta le autorizzazioni del certificato per le operazioni **Ottieni** ed **Elenco**.
 
-    ![Concessione dell'autorizzazione al certificato](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Concessione dell'autorizzazione al certificato.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. Nel campo **Seleziona un'entità**, selezionare **Nessuna selezione**.
 10. Nella finestra di dialogo **Entità di sicurezza**, selezionare l'entità di sicurezza aggiungendo **Servizio di fatturazione elettronica**.

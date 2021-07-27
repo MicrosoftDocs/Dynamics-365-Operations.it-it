@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271210"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360378"
 ---
 # <a name="firm-planned-orders"></a>Stabilizza ordini pianificati
 
@@ -81,7 +81,7 @@ Per stabilizzare manualmente gli ordini pianificati, individuare e selezionare g
     - **Raggruppa per periodo** (nella sezione **Ordini fornitore**): selezionare il periodo per cui raggruppare gli ordini fornitore pianificati. Per utilizzare questa opzione, è necessario selezionare anche l'opzione **Raggruppa per fornitore**.
     - **Raggruppa per periodo** (nella sezione **Trasferimenti**): selezionare il periodo per cui raggruppare gli ordini di trasferimento pianificati. Gli ordini verranno raggruppati in base ai valori di **Magazzino origine** e **Magazzino destinazione**.
 
-    ![Scheda dettaglio Parametri nella finestra di dialogo Stabilizzazione](./media/manual-firming.png "Scheda dettaglio Parametri nella finestra di dialogo Stabilizzazione")
+    ![Scheda dettaglio Parametri nella finestra di dialogo Stabilizzazione.](./media/manual-firming.png "Scheda dettaglio Parametri nella finestra di dialogo Stabilizzazione")
 
 1. Nella scheda dettaglio **Esegui in background**, impostare il processo in modo che venga eseguito in modalità batch. Tuttavia, non ha senso impostare una pianificazione ricorrente quando esegui la stabilizzazione. I campi funzionano esattamente come funzionano per altri tipi di [processi in background](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) in Supply Chain Management. Tuttavia, per la stabilizzazione manuale, il processo batch elaborerà solo gli ordini pianificati attualmente selezionati. Non elaborerà gli ordini che corrispondono ai filtri attualmente applicati alla pagina.
 1. Seleziona **OK** per applicare le impostazioni e generare gli ordini stabilizzati.
@@ -140,15 +140,15 @@ Per stabilizzare un ordine pianificato utilizzando il processo di stabilizzazion
     - **Giorni futuri intervallo temporale di stabilizzazione** – selezionare fino a quando i vari fabbisogni e altre considerazioni devono essere calcolati mediante la pianificazione generale.
     - **Giorni passati intervallo temporale di stabilizzazione** – selezionare fino a quando nel passato i vari fabbisogni e altre considerazioni devono essere calcolati mediante la pianificazione generale.
 
-    ![Scheda dettaglio Parametri nella finestra di dialogo Stabilizzazione ordini pinificati](./media/planned-order-firming-main-1.png "Scheda dettaglio Parametri nella finestra di dialogo Stabilizzazione ordini pinificati")
+    ![Scheda dettaglio Parametri nella finestra di dialogo Stabilizzazione ordini pianificati.](./media/planned-order-firming-main-1.png "Scheda dettaglio Parametri nella finestra di dialogo Stabilizzazione ordini pinificati")
 
 1. Per specificare quali record devono essere inclusi nell'ordine, selezionare il pulsante **Filtro** nella scheda dettaglio **Record da includere**. Viene visualizzata una finestra di dialogo di query standard, in cui è possibile definire criteri di selezione, criteri di ordinamento e join. I campi funzionano esattamente come funzionano per altri tipi di query in Supply Chain Management. I campi qui sono di sola lettura e mostrano i valori correlati alla tua query.
 
-    ![Scheda dettaglio Record da includere nella finestra di dialogo Stabilizzazione ordini pianificati](./media/planned-order-firming-main-2.png "Scheda dettaglio Record da includere nella finestra di dialogo Stabilizzazione ordini pianificati")
+    ![Scheda dettaglio Record da includere nella finestra di dialogo Stabilizzazione ordini pianificati.](./media/planned-order-firming-main-2.png "Scheda dettaglio Record da includere nella finestra di dialogo Stabilizzazione ordini pianificati")
 
 1. Selezionare **Anteprima** per visualizzare in anteprima il contenuto del tuo ordine consolidato, in base alle tue impostazioni fino a quel momento. L'elenco degli ordini pianificati che verranno stabilizzati viene visualizzato come messaggio. È quindi possibile rettificare le impostazioni come richiesto fino a quando l'anteprima non mostra l'ordine stabilizzato come lo si desidera.
 
-    ![Esempio di anteprima di un ordine stabilizzato](./media/planned-order-firming-preview.png "Esempio di anteprima di un ordine stabilizzato")
+    ![Esempio di anteprima di un ordine stabilizzato.](./media/planned-order-firming-preview.png "Esempio di anteprima di un ordine stabilizzato")
 
     > [!WARNING]
     > Questa funzionalità stabilizzerà tutti gli ordini pianificati che corrispondono ai criteri di filtro. La stabilizzazione acritica degli ordini pianificati può causare la creazione di un numero enorme di ordini fornitore, di trasferimento e di produzione indesiderati. Prima di continuare, usa sempre il pulsante **Anteprima** per convalidare i record che verranno inclusi.

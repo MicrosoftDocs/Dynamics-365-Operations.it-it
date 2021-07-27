@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837875"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361157"
 ---
 # <a name="asset-fault-analysis"></a>Analisi degli errori dei cespiti
 
@@ -60,7 +60,7 @@ Nel schermata seguente, solo il pulsante **Sintomo** è selezionato.
 - Le registrazioni di errore sono state effettuate per tre sintomi di errore: "Perdita d'aria", "Fusibile bruciato" e "attrezzatura inceppata".  
 - Nella colonna **% probabilità**, la somma di tutte le percentuali equivale al 100%. La probabilità è basata su tutte le registrazioni di **Sintomi** in questa analisi degli errori.
 
-![Figura 1](media/06-controlling-and-reporting.png)
+![Figura 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Raggruppare per sintomi e periodo di tempo
 
@@ -69,7 +69,7 @@ Nella schermata seguente, sono stati aggiunti **Anno** e **Mese** per mostrare c
 - I sintomi di errore sono ora visualizzati come registrazioni per anno/mese.  
 - Nella colonna **% probabilità**, se si sommano le percentuali di ogni mese, si ottiene 100%. La probabilità è basata su tutte le registrazioni di **Sintomi** in questa analisi degli errori. Se il numero di righe in un cespite è elevato, ma una forte percentuale spicca in una riga, sarebbe un'indicazione di un sintomo di errore da esaminare più attentamente per trovare il modo di limitare il numero di registrazioni per quel sintomo di errore.
 
-![Figura 2](media/07-controlling-and-reporting.png)
+![Figura 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Raggruppare per più sintomi e cespiti
 
@@ -84,7 +84,7 @@ Nella schermata seguente, **Cespite** e **Tipo di cespite** sono stati aggiunti 
 - I sintomi di errore sono ora suddivisi nelle combinazioni **Cespite** / **Tipo di cespite** / **Sintomo**.  
 - Nella colonna **% probabilità**, se si sommano le percentuali della combinazione di rispettivamente **Cespite** / **Tipo di cespite** / **Sintomo**, si ottiene 100%. La probabilità è basata su tutte le registrazioni di **Sintomi** in questa analisi degli errori. Se il numero di righe in un cespite è elevato, ma una forte percentuale spicca in una riga, sarebbe un'indicazione di un sintomo di errore da esaminare più attentamente per trovare il modo di limitare il numero di registrazioni per quel sintomo di errore.
 
-![Figura 3](media/08-controlling-and-reporting.png)
+![Figura 3.](media/08-controlling-and-reporting.png)
 
 **Raggruppare per due sintomi, cespite e tipo di cespite**
 
@@ -92,7 +92,7 @@ Nella schermata seguente, **Area** è stato aggiunto a **Sintomo**, **Cespite** 
 
 - Nella colonna **% probabilità**, se si sommano le percentuali della combinazione di **Cespite** / **Tipo di cespite** / **Sintomo**, si ottiene 100%. La probabilità è basata sulla combinazione di **Sintomo** e **Area** in questa analisi degli errori. Se il numero di righe in un cespite è elevato, ma una forte percentuale spicca in una riga, sarebbe un'indicazione di un'area di errore da esaminare più attentamente per trovare il modo di limitare il numero di registrazioni per quell'area di errore.  
 
-![Figura 4](media/09-controlling-and-reporting.png)
+![Figura 4.](media/09-controlling-and-reporting.png)
 
 **Raggruppare per tre sintomi, cespite e tipo di cespite**
 
@@ -100,7 +100,7 @@ Nel schermata seguente, è stato aggiunto **Tipo** e viene visualizzato il calco
  
 - Nella colonna **% probabilità**, se si sommano le percentuali della combinazione di **Cespite** / **Tipo di cespite** / **Sintomo**, si ottiene 100%. La probabilità è basata sulla combinazione di **Sintomo**, **Area** e **Tipo** in questa analisi degli errori. Se il numero di righe in un cespite è elevato, ma una forte percentuale spicca in una riga, sarebbe un'indicazione di un tipo di errore da esaminare più attentamente per trovare il modo di limitare il numero di registrazioni per quel tipo di errore.
 
-![Figura 5](media/10-controlling-and-reporting.png)
+![Figura 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

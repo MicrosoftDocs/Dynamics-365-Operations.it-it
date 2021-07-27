@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186788"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358981"
 ---
 # <a name="note-integration"></a>Integrazione di note
 
@@ -51,23 +51,23 @@ Per creare una nota in un'app di interazione con i clienti e quindi sincronizzar
 1. Nell'app di interazione con i clienti, aprire il record account per un cliente.
 2. Nel riquadro **Sequenza temporale**, selezionare il segno più (**+**), quindi selezionare **Nota** per creare una nota.
 
-    ![Creare una nota nell'app di interazione con i clienti](media/notes-ce-1.png)
+    ![Creare una nota nell'app di interazione con i clienti.](media/notes-ce-1.png)
 
 3. Immettere un titolo e una descrizione, quindi selezionare **Aggiungi nota**.
 
-    ![Immettere un titolo e una descrizione](media/notes-ce-2.png)
+    ![Immettere un titolo e una descrizione.](media/notes-ce-2.png)
 
     La nuova nota viene aggiunta alla sequenza temporale del cliente.
 
-    ![Nuova nota nella sequenza temporale del cliente](media/notes-ce-3.png)
+    ![Nuova nota nella sequenza temporale del cliente.](media/notes-ce-3.png)
 
 4. Accedere all'app Finance and Operations e aprire lo stesso record cliente. Si noti che il pulsante **Allegati** (simbolo della graffetta) nell'angolo in alto a destra indica che il record ha un allegato.
 
-    ![Notifica su un allegato](media/notes-ce-4.png)
+    ![Notifica su un allegato.](media/notes-ce-4.png)
 
 5. Selezionare il pulsante **Allegati** per aprire la pagina **Allegati**. La nota creata dovrebbe essere nell'app di interazione con i clienti.
 
-    ![Nota nell'app di interazione con i clienti](media/notes-ce-5.png)
+    ![Nota nell'app di interazione con i clienti.](media/notes-ce-5.png)
 
 Tutti gli aggiornamenti della nota vengono sincronizzati tra l'app Finance and Operations e l'app di interazione con i clienti.
 
@@ -79,21 +79,21 @@ Per creare una nota in un'app Finance and Operations e quindi sincronizzarla con
 
 1. Nell'app Finance and Operations, nella pagina **Allegati**, selezionare **Nuovo** \> **Nota**.
 
-    ![Creare una nota nell'app Finance and Operations](media/notes-fo-1.png)
+    ![Creare una nota nell'app Finance and Operations.](media/notes-fo-1.png)
 
 2. Immettere un titolo e una breve serie di istruzioni, quindi selezionare **Salva**.
 
-    ![Immettere un titolo e istruzioni](media/notes-fo-2.png)
+    ![Immettere un titolo e istruzioni.](media/notes-fo-2.png)
 
 3. Nell'app di di interazione con i clienti, aggiornare il record. La nuova nota dovrebbe essere nella sequenza temporale.
 
-    ![Nuova nota nella sequenza temporale dell'app di interazione con i clienti](media/notes-fo-3.png)
+    ![Nuova nota nella sequenza temporale dell'app di interazione con i clienti.](media/notes-fo-3.png)
 
 È possibile classificare una nota come interna o esterna.
 
 - Nell'app Finance and Operations, nella pagina **Allegati**, aprire la nota e nel campo **Restrizione**, selezionare **Interna** o **Esterna**.
 
-    ![Campo Restrizione](media/notes-fo-4.png)
+    ![Campo Restrizione.](media/notes-fo-4.png)
 
 È inoltre possibile creare un URL.
 
@@ -101,13 +101,13 @@ Per creare una nota in un'app Finance and Operations e quindi sincronizzarla con
 2. Immettere un titolo e un URL.
 3. Nel campo **Restrizione**, selezionare **Interna** o **Esterna**.
 
-    ![Creare un URL nell'app Finance and Operations](media/notes-fo-5.png)
+    ![Creare un URL nell'app Finance and Operations.](media/notes-fo-5.png)
 
 4. Selezionare **Salva**.
 
     Poiché le app di interazione dei clienti non hanno un tipo di URL, l'URL è integrato con la doppia scrittura come nota.
 
-    ![URL visualizzato come nota nell'app di interazione con i clienti](media/notes-ce-6.png)
+    ![URL visualizzato come nota nell'app di interazione con i clienti.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Gli allegati di file non sono supportati.

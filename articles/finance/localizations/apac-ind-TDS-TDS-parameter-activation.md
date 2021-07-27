@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: dda276b7d634317aae26728f7d9f51af9ccfb896
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b74a1ab6d0f17367fc16f795e1b28ff5d0c5508e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023356"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358244"
 ---
 # <a name="set-the-tds-parameters"></a>Impostare i parametri TDS
 
@@ -34,13 +34,13 @@ Questo argomento descrive come impostare i parametri per attivare la funzionalit
 3. Imposta l'opzione **Fattura** su **Sì** per attivare i campi utilizzati per calcolare e detrarre la TDS a livello di fattura.
 4. Imposta l'opzione **Pagamento** su **Sì** per attivare i campi utilizzati per calcolare e detrarre la TDS a livello di pagamento.
 
-    [![Scheda Imposte dirette](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
+    [![Scheda Imposte dirette.](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
 
 5. Nella scheda **Sequenze numeriche**, trova la riga in cui il campo **Riferimento** è impostato su **Pagamento ritenuta d'acconto**. Nel campo **Codice sequenza numerica** della riga, seleziona il codice di sequenza numerica. Il codice di sequenza numerica è utilizzato per generare i numeri di giustificativo per il processo di liquidazione TDS periodica.
 
     > [!NOTE]
     > Per eseguire il processo di liquidazione TDS periodico, vai a **Imposta \> Dichiarazioni \> Ritenuta d'acconto \> Pagamento ritenuta d'acconto**.
 
-    [![Scheda Sequenze numeriche](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
+    [![Scheda Sequenze numeriche.](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
 
-6. Chiudi la pagina.
+6. Chiudere la pagina.

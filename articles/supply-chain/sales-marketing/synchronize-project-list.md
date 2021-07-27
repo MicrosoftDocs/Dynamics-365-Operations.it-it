@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5cb7f8b9a3107a7787c787ace71ab574457b1646
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb98f266a217fc16c56c38e2480b85f529fb1862
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828492"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359839"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Sincronizzare l'elenco dei progetti da Supply Chain Management a Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "5828492"
 
 Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare progetti da Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 
-[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service.](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 Il seguente modello e le attività sottostanti vengono utilizzati per sincronizzare i progetti da Supply Chain Management a Field Service.
@@ -63,7 +63,7 @@ Abilitare il rilevamento delle modifiche per progetti entità di dati.
 
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Progetti (da Supply Chain Management a Field Service): Progetti
 
-[![Mapping dei modelli in Integrazione dati](./media/FSProject1.png)](./media/FSProject1.png)
+[![Mapping modello in Integrazione dati.](./media/FSProject1.png)](./media/FSProject1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

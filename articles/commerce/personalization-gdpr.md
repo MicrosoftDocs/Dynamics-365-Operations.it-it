@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 75f41db74512ea758a83de56ffd2a9166712f5e2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804455"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352278"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Rifiuto esplicito dei suggerimenti personalizzati
 
@@ -44,11 +44,11 @@ Nella gestione degli account nel back office di Commerce, i rivenditori possono 
 1. Dalla home page del back office, cercare **Tutti i clienti**.
 1. Cercare e seleziona un cliente, quindi selezionare la scheda dettaglio **Vendita al dettaglio**.
 
-    ![Scheda dettaglio Vendita al dettaglio](./media/Disablepersonalizationpart1.png)
+    ![Scheda dettaglio Vendita al dettaglio.](./media/Disablepersonalizationpart1.png)
 
 1. Sotto **Privacy**, impostare l'opzione **Disabilita personalizzazione** su **Sì**.
 
-    ![Impostazioni di privacy](./media/Disablepersonalizationpart2.png)
+    ![Impostazioni di privacy.](./media/Disablepersonalizationpart2.png)
 
 1. Selezionare **Salva**, quindi chiudere la pagina.
 

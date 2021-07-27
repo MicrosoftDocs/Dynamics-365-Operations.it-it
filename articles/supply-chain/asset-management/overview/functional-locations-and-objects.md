@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa61f9ab9d38a748742733a4143e6d50b82caf4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816751"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351587"
 ---
 # <a name="functional-locations-and-assets"></a>Unità funzionali e cespiti
 
@@ -34,13 +34,13 @@ Questo argomento illustra unità funzionali e cespiti in Gestione cespiti. Gesti
 
 La gestione patrimoniale si integra perfettamente con diversi moduli per altre app Finance and Operations. La figura di seguito mostra le interfacce con altri moduli.
 
-![Diagramma che mostra come Gestione cespiti si interfaccia con altri moduli](media/01-overview-image.png)
+![Diagramma che mostra come Gestione cespiti si interfaccia con altri moduli.](media/01-overview-image.png)
 
 Gestione cespiti consente di gestire e eseguire in modo efficiente tutte le attività correlate alla gestione e alla manutenzione di molti tipi di attrezzature della società. Queste attrezzatture includono macchine, impianti di produzione e veicoli. Gestione cespiti supporta anche soluzioni per numerosi settori.
 
 Nella seguente figura è illustrata una panoramica delle funzionalità principali di Gestione cespiti.
 
-![Diagramma che mostra le funzionalità principali in Gestione cespiti](media/02-overview-image.png)
+![Diagramma che mostra le funzionalità principali in Gestione cespiti.](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Unità funzionali e cespiti
 
@@ -50,11 +50,11 @@ I costi dei cespiti seguono sempre l'ubicazione del cespite. Ovvero se si instal
 
 Il modo in cui sviluppare la gerarchia delle unità funzionali dipende dai requisiti della società per la manutenzione delle attrezzature interne o dei clienti. Nella figura seguente viene illustrato un esempio di unità funzionali basate sulle ubicazioni geografiche.
 
-![Diagramma che mostra le unità funzionali in base alle ubicazioni geografiche](media/03-overview-image.png)
+![Diagramma che mostra le unità funzionali in base alle ubicazioni geografiche.](media/03-overview-image.png)
 
 Nella figura seguente viene illustrato un esempio di unità funzionali basate sui clienti.
 
-![Diagramma che mostra le unità funzionali in base ai clienti](media/04-overview-image.png)
+![Diagramma che mostra le unità funzionali in base ai clienti.](media/04-overview-image.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

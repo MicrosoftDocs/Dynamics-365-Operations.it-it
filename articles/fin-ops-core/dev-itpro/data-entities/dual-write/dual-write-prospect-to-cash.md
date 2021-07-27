@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754090"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361401"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -33,7 +33,7 @@ Un obiettivo importante della maggior parte delle aziende è convertire i prospe
 
 Nelle interfacce delle app, è possibile accedere agli stati di elaborazione e alle informazioni di fatturazione in tempo reale. Pertanto, è possibile gestire più facilmente funzioni come lo stoccaggio dei prodotti, la gestione delle scorte e l'evasione in Supply Chain Management, senza dover ricreare le offerte e gli ordini.
 
-![Flusso di dati doppia scrittura in prospect to cash](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Flusso di dati in doppia scrittura da prospect a contanti.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Per informazioni sull'integrazione di clienti e contatti, vedere [Gestione integrata dei dati dei clienti](customer-mapping.md). Per informazioni sull'integrazione del prodotto, vedere [Esperienza prodotto unificata](product-mapping.md).
 
@@ -48,7 +48,7 @@ Prima di poter sincronizzare le offerte di vendita, è necessario aggiornare le 
 
 In Sales, andare a **Impostazioni \> Amministrazione \> Impostazioni di sistema \> Vendite** e assicurarsi che siano configurate le seguenti impostazioni:
 
-- L'opzione **Usa sistema di calcolo prezzi sistema** sia impostata su **Sì**.
+- L'opzione di sistema **Usa sistema di calcolo prezzi sistema** sia impostata su **Sì**.
 - La colonna **Metodo di calcolo sconto** sia impostato su **Voce**.
 
 ### <a name="sites-and-warehouses"></a>Siti e magazzini

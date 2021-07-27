@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792197"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352014"
 ---
 # <a name="home-page-overview"></a>Panoramica della home page
 
@@ -31,7 +32,7 @@ La home page è la pagina predefinita a cui gli acquirenti accedono quando visit
 
 Nella figura seguente è illustrato un esempio di home pagina creata utilizzando la libreria di moduli e il tema "Fabrikam".
 
-![Esempio di home page](./media/Homepage2.PNG)
+![Esempio di home page.](./media/Homepage2.PNG)
 
 La parte superiore della home page include un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il rivenditore vuole siano visitate dai clienti. La parte inferiore della home page include un piè di pagina contenente collegamenti rapidi a vari argomenti che possono interessare i clienti.
 
@@ -41,13 +42,13 @@ La sezione principale della home page può evidenziare prodotti, categorie o pro
 
     Nella figura seguente è illustrato un esempio di home page in cui il primo elemento nella sezione principale è un layout Hero di un modulo blocco di contenuto denominato "Nuovi arrivi".
 
-    ![Esempio di un modulo Hero](./media/Hero.PNG)
+    ![Esempio di un modulo Hero.](./media/Hero.PNG)
 
 - **Funzionalità** - Un layout Funzionalità di un modulo blocco di contenuto è utilizzato per commercializzare prodotti o promozioni utilizzando una combinazione di immagini e testo. I layout Funzionalità possono essere utilizzati in modo indipendente oppure ospitati in un modulo Sequenza.
 
     Nella figura seguente è illustrato un esempio di layout Funzionalità di un modulo blocco di contenuto in una home page.
 
-    ![Esempi di moduli Funzionalità](./media/Feature.PNG)
+    ![Esempi di moduli Funzionalità.](./media/Feature.PNG)
 
 - **Riquadro** - Un layout Riquadro di un modulo blocco di contenuto è utilizzato per presentare più prodotti o categorie di prodotti utilizzando una combinazione di immagini e testo in un layout con più colonne. Nell'illustrazione di una home page vista in precedenza in questo argomento, un layout Riquadro è utilizzato per il rendering a tre colonne degli articoli **Donna**, **Uomo** e **Accessori**.
 - **Lettore video** - Un modulo Lettore video può essere utilizzato per visualizzare contenuto video nella home page. L'illustrazione di una home page vista in precedenza in questo argomento include un modulo Lettore video.
@@ -56,7 +57,7 @@ La sezione principale della home page può evidenziare prodotti, categorie o pro
 
     Nella figura seguente è illustrato un esempio di moduli Suggerimenti sui prodotti in una home page.
 
-    ![Esempi di moduli Suggerimenti sui prodotti](./media/Recommendations.PNG)
+    ![Esempi di moduli Suggerimenti sui prodotti.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Tutti i moduli elencati qui possono essere utilizzati in qualsiasi pagina del sito. Tuttavia, il posizionamento degli stessi nella home page è importante in quanto quella pagina è dove i clienti interagiscono per la prima volta con il sito.

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797865"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346854"
 ---
 # <a name="cart-module"></a>Modulo carrello
 
@@ -35,15 +35,15 @@ Il modulo Carrello visualizza i dati in base all'ID carrello, che è un cookie d
 
 L'immagine seguente mostra un esempio di una pagina del carrello sul sito Fabrikam.
 
-![Esempio di un modulo carrello sul sito Fabrikam](./media/cart2.PNG)
+![Esempio di un modulo carrello sul sito Fabrikam.](./media/cart2.PNG)
 
 L'immagine seguente mostra un esempio di una pagina del carrello sul sito Fabrikam. In questo esempio, è prevista una commissione di gestione per una voce.
 
-![Esempio di un modulo carrello con una commissione di gestione per un elemento pubblicitario](./media/ecommerce-handling-fee.png)
+![Esempio di un modulo carrello con una commissione di gestione per una voce.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Proprietà e slot del modulo Carrello
 
-| Proprietà | Valori | Descrizione |
+| Proprietà | Valori | descrizione |
 |----------------|--------|-------------|
 | Intestazione | Testo e tag dell'intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Un'intestazione per il carrello, ad esempio "Carrello della spesa" o "Articoli nel carrello". |
 | Mostra errori scorte esaurite | **True** o **False** | Se questa proprietà è impostata su **True**, la pagina del carrello mostrerà errori relativi alle scorte. Ti consigliamo di impostare questa proprietà su **True** se le verifiche delle scorte disponibili vengono applicate sul sito. |

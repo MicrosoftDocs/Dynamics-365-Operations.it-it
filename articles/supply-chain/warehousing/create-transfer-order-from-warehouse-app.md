@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
-ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
+ms.openlocfilehash: fe5983d40033c0cd15674815067eaa969e97d38b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "6164848"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343627"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Creare ordini di trasferimento dall'app di magazzino
 
@@ -95,7 +95,7 @@ Oltre a impostare la creazione dell'ordine di trasferimento nelle voci di menu d
 
 Sei un rivenditore e disponi di più targhe, ciascuna contenente un mix di articoli che si trovano in un'ubicazione specifica in uno dei tuoi magazzini (*Magazzino 51*). Vorresti abilitare il processo che consente ai lavoratori di creare un ordine di trasferimento in un altro magazzino (*Magazzino 61*) per una raccolta di targhe sottoposte a scansione. Spedirai e aggiornerai automaticamente l'ordine di trasferimento non appena sarà stata identificata l'ultima targa dell'ordine.
 
-![Esempio di elaborazione automatizzata dell'ordine di trasferimento](media/create-transfer-order-from-app-example.png "Esempio di elaborazione automatizzata dell'ordine di trasferimento")
+![Esempio di elaborazione automatizzata dell'ordine di trasferimento.](media/create-transfer-order-from-app-example.png "Esempio di elaborazione automatizzata dell'ordine di trasferimento")
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>Creare una voce di menu di dispositivo mobile per creare ordini di trasferimento
 
