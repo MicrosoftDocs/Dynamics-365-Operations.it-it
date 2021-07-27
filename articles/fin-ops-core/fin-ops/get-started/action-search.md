@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41313dd1fde51cb84bc971bb7bb98841222259b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce10817d677f7e48194272b5ebb91b95d657441f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754828"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360288"
 ---
 # <a name="action-search"></a>Ricerca di azioni
 
@@ -31,7 +31,7 @@ In questo articolo viene descritta la funzionalità di ricerca di azioni. La ric
 
 Le pagine espongono principalmente i controlli presenti nei riquadri azioni, sia il riquadro azioni standard visualizzato nella parte superiore di una pagina sia le barre degli strumenti visualizzate in diverse aree della pagina. Nelle versioni precedenti, una funzionalità descrizione dei tasti consente di accedere rapidamente a qualsiasi pulsante in un riquadro azioni premendo il tasto ALT e una serie di lettere.
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![keyTipsAX6.](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 La funzionalità di ricerca delle azioni sostituisce le descrizioni dei tasti che non sono più disponibili. La nuova funzionalità consente di trovare rapidamente ed eseguire un pulsante da qualsiasi riquadro azioni visibile.
 
@@ -45,7 +45,7 @@ Per utilizzare la funzionalità di ricerca azioni, effettuare le operazioni indi
 
 Dopo che il pulsante viene eseguito, lo stato attivo torna all'ultima posizione nella pagina, in modo che sia possibile continuare a lavorare.
 
-[![campo-di-ricerca-azioni](./media/action-search-field.png)](./media/action-search-field.png)
+[![campo-di-ricerca-azioni.](./media/action-search-field.png)](./media/action-search-field.png)
 
 È inoltre possibile avviare la ricerca azioni premendo i tasti CTRL+/ o ALT+Q. Premere di nuovo i tasti di scelta rapida per riportare lo stato attivo all'ultima posizione nella pagina.
 
@@ -61,11 +61,11 @@ Spesso, è necessario conoscere l'ubicazione e il contesto di un pulsante per co
 
 Ad esempio, l'utente digita **tot** nel campo di **ricerca azioni** ed esamina l'elenco risultati. La prima voce, per un pulsante denominato **Totali**, viene evidenziata. Viene inoltre visualizzato un percorso di pulsante di **Ordine cliente** &gt; **Visualizza**. La parte **Ordine cliente** del percorso corrisponde alla scheda **Ordine cliente** nel riquadro azioni e la parte **Visualizza** del percorso corrisponde al gruppo **Visualizza** in quella scheda. Analogamente, il percorso del pulsante **Sconto totale** (**Vendi** &gt; **Calcola**) indica che questo pulsante si trova nel gruppo **Calcola** nella scheda **Vendi** del riquadro azioni. Di conseguenza, queste informazioni aiutano a comprendere esattamente quale pulsante verrà attivato dalla ricerca di azioni (se si seleziona tale pulsante nell'elenco dei risultati).
 
-[![campo-di-ricerca-azioni-con-dati](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![campo-di-ricerca-azioni-con-dati.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 Nell'esempio precedente, la ricerca azioni ha mostrato i risultati dal riquadro azioni standard nella parte superiore della pagina. Tuttavia, la ricerca azioni mostra anche i risultati delle barre degli strumenti visibili situate in altri punti della pagina. Ad esempio, se si cerca il pulsante **Scorte disponibili** situato nella scheda dettaglio **Righe ordine cliente**. In questo caso, il percorso del pulsante nell'elenco dei risultati (**Righe ordine cliente** &gt; **Scorte** &gt; **Visualizza**) indica che questo pulsante è situato sotto l'intestazione **Visualizza** nel pulsante di menu **Scorte** nella scheda dettaglio **Righe ordine cliente**.
 
-[![scorte-disponibili](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![scorte-disponibili.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > Esistono alcuni pulsanti che non vengono visualizzati nella ricerca di azioni. Sono inclusi i pulsanti di dialogo a discesa e i pulsanti di moduli secondari. 

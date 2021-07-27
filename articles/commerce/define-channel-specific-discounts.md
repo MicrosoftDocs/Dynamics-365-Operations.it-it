@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4003bd78e400994f3c164d2f7e8e3aa5ce93146
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76b8111ddc9e634ce689999da7b8621f550afc5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802071"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349578"
 ---
 # <a name="define-channel-specific-discounts"></a>Definire gli sconti specifici del canale
 
@@ -35,9 +35,9 @@ I rivenditori offrono spesso sconti diversi in canali diversi. Questa strategia 
 
 Commerce utilizza i gruppi di prezzi per definire gli sconti specifici del canale. I gruppi di prezzi possono essere assegnati a una o più delle entità seguenti: canali, cataloghi, affiliazioni e programmi fedeltà. In questo articolo vengono illustrati i canali, ma gli stessi concetti si applicano per gli sconti di catalogo, gli sconti di affiliazioni e gli sconti fedeltà.
 
-## <a name="price-groups"></a>Gruppi prezzi
+## <a name="price-groups"></a>Gruppi di prezzi
 
-[![Gruppi prezzi](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![Gruppi prezzi.](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 Il diagramma precedente illustra la relazione tra le entità che possono essere presenti in una transazione (canale, catalogo, affiliazione, cliente, carta fedeltà) e i vari tipi di sconto che possono essere configurati. Tutte le transazioni si verificano in un canale, pertanto il canale è sicuramente presente in una transazione. Le entità rimanenti sono facoltative. In ogni pagina anagrafica è presente un collegamento a una pagina correlata dei gruppi di prezzi in cui è possibile visualizzare e aggiungere i gruppi di prezzi in base alle necessità. Un gruppo di prezzi viene utilizzato per collegare quattro diversi tipi di entità agli sconti, le rettifiche prezzo e gli accordi commerciali. È consigliabile progettare una strategia sui nomi da assegnare ai gruppi di prezzi per tenerli organizzati. Un'opzione consiste nell'utilizzare un prefisso o un suffisso numerico o letterale per distinguere i diversi tipi. Ad esempio, 1-xxxxx per gruppi di prezzi del canale e 2-xxxxx per gruppi di prezzi del catalogo. Sono disponibili quattro pagine di richiesta che si concentrano in ciascuna delle entità di commercio che possono essere associate.
 

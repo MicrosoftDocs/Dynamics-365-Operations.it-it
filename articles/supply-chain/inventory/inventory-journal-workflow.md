@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826013"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354763"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flussi di lavoro di approvazione del giornale di registrazione magazzino
 
@@ -55,7 +55,7 @@ Per creare i flussi di lavoro di approvazione del giornale di registrazione maga
     - **Giornale di registrazione DBA magazzino**
     - **Giornale di registrazione di rettifica magazzino**
 
-    ![La finestra di dialogo Crea flusso di lavoro](media/journal-workflow-create-workflow.png "La finestra di dialogo Crea flusso di lavoro")
+    ![La finestra di dialogo Crea flusso di lavoro.](media/journal-workflow-create-workflow.png "La finestra di dialogo Crea flusso di lavoro")
 
 1. L'app dell'editor del flusso di lavoro viene avviata sul computer. (È possibile che venga richiesto di approvare questa azione.) Usarla per progettare il flusso di lavoro in base alle necessità. Per i dettagli su come utilizzare l'editor del flusso di lavoro, vedere [Panoramica del sistema di flusso di lavoro](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Dopo aver salvato e chiuso l'app dell'editor del flusso di lavoro, è necessario scegliere se attivare questa versione del flusso di lavoro o mantenerla inattiva.
@@ -73,7 +73,7 @@ Per associare un flusso di lavoro del giornale di registrazione magazzino al nom
 1. Selezionare il nome di un giornale di registrazione dalla colonna dell'elenco per aprire la relativa pagina delle impostazioni.
 1. Nella Scheda dettaglio **Generale**, impostare **Flusso di lavoro di approvazione** su **Sì**. Se viene richiesto di approvare l'azione, selezionare **Sì**.
 
-    ![Assegnare un flusso di lavoro al nome di un giornale di registrazione](media/journal-workflow-journal-name.png "Assegnare un flusso di lavoro al nome di un giornale di registrazione")
+    ![Assegnare un flusso di lavoro al nome di un giornale di registrazione.](media/journal-workflow-journal-name.png "Assegnare un flusso di lavoro al nome di un giornale di registrazione")
 
 1. Aprire l'elenco a discesa **Flusso di lavoro** e selezionare il flusso di lavoro appropriato. L'elenco mostra ogni flusso di lavoro attivo creato usando l'app dell'editor del flusso di lavoro.
 
@@ -87,7 +87,7 @@ Dopo aver associato un nome di giornale di registrazione magazzino al relativo f
 1. Completare il giornale di registrazione come richiesto.
 1. Quando si crea o si apre un giornale di registrazione magazzino a cui è associato un flusso di lavoro di approvazione, il pulsante **Flusso di lavoro** sarà attivo nel riquadro azioni. Quando si è pronti per inviare il giornale di registrazione per l'approvazione, selezionare il pulsante **Flusso di lavoro** per aprire una finestra di dialogo a discesa, quindi selezionare **Invia**. La richiesta di approvazione verrà quindi indirizzata al responsabile dell'approvazione pertinente, che verrà avvisato utilizzando il metodo di notifica configurato per il flusso di lavoro.
 
-    ![Sottoporre un giornale di registrazione ad approvazione](media/journal-workflow-inventory-journal.png "Sottoporre un giornale di registrazione ad approvazione")
+    ![Sottoporre un giornale di registrazione ad approvazione.](media/journal-workflow-inventory-journal.png "Sottoporre un giornale di registrazione ad approvazione")
 
 Per richiamare una richiesta di approvazione, aprire il giornale di registrazione pertinente, selezionare il pulsante **Flusso di lavoro** e quindi selezionare **Richiama**. Ciò ripristinerà il flusso di lavoro.
 

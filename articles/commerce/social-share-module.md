@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: c34410a8c817de9fed350bf2cd2dd918a37c230f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0cd19f218e9fa05cd23c52fdf9bbdac6ad82a23b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795359"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357716"
 ---
 # <a name="social-share-module"></a>Modulo di condivisione social
 
@@ -36,11 +36,11 @@ Ogni piattaforma di social media può tenere traccia dei cookie, quindi questo m
 
 La seguente illustrazione evidenzia un esempio di un modulo di condivisione social utilizzato in una pagina dei dettagli del prodotto.
 
-![Esempio di modulo di condivisione social](./media/ecommerce-socialshare.png)
+![Esempio di modulo di condivisione social.](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Proprietà del modulo di condivisione social
 
-| Nome proprietà             | Valore                 | Descrizione |
+| Nome proprietà             | Valore                 | descrizione |
 |---------------------------|-----------------------|-------------|
 | Titolo                  | Testo | Questa proprietà specifica una didascalia per il modulo. |
 | Orientamento | **Verticale** o **Orizzontale**  | Questa proprietà definisce l'orientamento del layout per gli elementi dei social media. |

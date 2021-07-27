@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3b042374179de7aa5bbff73719cbe8546920132e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897310"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360690"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensioni finanziarie e registrazione 
 
@@ -71,29 +71,29 @@ Gli utenti si pongono spesso domande in merito all'ordine in cui i vari componen
 
 L'illustrazione seguente mostra la dimensione predefinita fissa impostata nel conto principale 401100.
 
-[![Dimensioni finanziarie predefinite](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Dimensioni finanziarie predefinite.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 In questo esempio elementare, immetteremo un giornale di registrazione generale in cui la dimensione Reparto è impostata per utilizzare il valore predefinito **023** (Operazioni). Inoltre, immetteremo e registreremo un conto CoGe. L'illustrazione seguente mostra la dimensione finanziaria predefinita nell'intestazione di contabilità generale.
 
-[![Giornali di registrazione generali](./media/general-journal.png)](./media/general-journal.png)
+[![Giornali di registrazione generali.](./media/general-journal.png)](./media/general-journal.png)
 
 La dimensione predefinita nell'intestazione del giornale di registrazione implica l'applicazione, per impostazione predefinita, del dipartimento 23 alla riga del conto vendite. L'illustrazione seguente mostra la riga del giornale di registrazione generale con applicato il valore di dimensione predefinito **023** dell'intestazione.
 
-[![Giustificativo giornale di registrazione](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Giustificativo giornale di registrazione.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Tuttavia, alla registrazione delle riga, viene applicata la dimensione fissa e la riga viene registrata nel reparto 022. L'illustrazione seguente mostra il giustificativo registrato, dove la dimensione fissa è applicata per il conto vendite.
 
-[![Transazioni giustificativo con dimensione fissa applicata](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Transazioni giustificativo con dimensione fissa applicata.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Esempio 2
 
 In questo esempio viene utilizzata la stessa impostazione del primo esempio. Aggiungeremo tuttavia un secondo componente e utilizzeremo la dimensione Reparto come dimensione di bilanciamento. Nell'illustrazione seguente, **Reparto** è impostato come dimensione finanziaria di bilanciamento per la contabilità generale USMF.
 
-[![Illustrazione che mostra Reparto come dimensione finanziaria di bilanciamento](./media/ledger.png)](./media/ledger.png)
+[![Illustrazione che mostra Reparto come dimensione finanziaria di bilanciamento.](./media/ledger.png)](./media/ledger.png)
 
 Quando si utilizza la stessa impostazione dell'intestazione del giornale di registrazione e si registra la stessa transazione, la dimensione fissa viene applicata per prima. Viene quindi applicata la logica di bilanciamento per garantire che ogni reparto ha una voce bilanciata. L'illustrazione seguente mostra transazioni giustificativo che includono la voce di bilanciamento dopo l'applicazione della dimensione fissa.
 
-[![Transazioni giustificative dopo l'applicazione della voce di bilanciamento](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Transazioni giustificative dopo l'applicazione della voce di bilanciamento.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Esempio 3
 
@@ -101,11 +101,11 @@ In questo esempio, aggiungeremo una regola avanzata. La regola avanzata specific
 
 Questo esempio è importante per via dell'ordine. La struttura dei conti viene determinata dopo l'immissione del conto principale. Se si fa riferimento all'impostazione della struttura dei conti, il sistema può determinare che il conto principale, la business unit, il reparto e il centro di costo sono rilevanti. A questo punto, la regola avanzata non è stata attivata, poiché le dimensioni fisse vengono applicate solo dopo l'applicazione delle dimensioni predefinite per il giustificativo del giornale di registrazione durante la registrazione. Nell'illustrazione seguente, il segmento Cliente non è presente poiché i criteri per la regola avanzata non sono stati soddisfatti.
 
-[![Conto CoGe](./media/drop-down.png)](./media/drop-down.png)
+[![Conto CoGe.](./media/drop-down.png)](./media/drop-down.png)
 
 La registrazione non riuscirà poiché la dimensione fissa è stata applicata alla fine del processo. La convalida della dimensione determina che il segmento Cliente è necessario se il conto principale è 401100 e il reparto è 022. La registrazione non può essere eseguita a causa di un errore di convalida. L'illustrazione seguente mostra il messaggio visualizzato dopo che la convalida della dimensione determina che il segmento Cliente è necessario.
 
-[![Dettagli messaggio](./media/message.png)](./media/message.png)
+[![Dettagli messaggio.](./media/message.png)](./media/message.png)
 
 In questo esempio, è necessario sovrascrivere il valore predefinito in modo da attivare la regola avanzata e immettere il segmento Cliente. Tuttavia, questa soluzione non è sempre possibile e alcuni utenti non sono nemmeno a conoscenza delle regole di registrazione. Di conseguenza, è importante comprendere l'ordine in cui le dimensioni predefinite sono applicate quando si imposta il piano dei conti.
 

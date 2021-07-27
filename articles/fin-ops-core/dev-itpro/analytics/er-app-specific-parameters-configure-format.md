@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 629662d274d88d59c9b73a9d6b0d5c178331fe73
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018288"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351916"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurare i formati di ER per utilizzare i parametri specifici per la persona giuridica
 
@@ -78,17 +78,17 @@ In questo esempio verrà creata una configurazione per la società di esempio Li
 
     Il formato ER **Formato per ottenere chiamate parametrizzate** è progettato per generare una dichiarazione fiscale in formato XML che presenti diversi livelli di tassazione (regolare, ridotta e nessuna). Ogni livello ha un numero diverso di dettagli.
 
-    ![Più livelli di formato ER, formato per apprendere le chiamate parametrizzate](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Più livelli di formato ER, formato per apprendere le chiamate parametrizzate.](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Nella scheda **Mapping**, espandere le voci **Modello**, **Dati** e **Riepilogo**.
 
     L'origine dati **Model.Data.Summary** restituisce l'elenco delle transazioni fiscali. Le transazioni vengono riepilogate in base al codice imposta. Per questa origine dati, il campo calcolato **Model.Data.Summary.Level** è stato configurato per restituire il codice del livello di tassazione di ciascun record di riepilogo. Per qualsiasi codice imposta che può essere recuperato dall'origine dati **Model.Data.Summary** in fase di esecuzione, il campo calcolato restituisce il codice a livello di tassazione (**Regolare**, **Ridotto**, **Nessuno** o **Altro**) come valore di testo. Il campo calcolato **Model.Data.Summary.Level** viene utilizzato per filtrare i record dell'origine dati **Model.Data.Summary** e immettere i dati filtrati in ciascun elemento XML che rappresenta un livello di tassazione utilizzando i campi **Model.Data2.Level1**, **Model.Data2.Level2** e **Model.Data2.Level3**.
 
-    ![L'elenco delle origine dati Model.Data.Summary delle transazioni fiscali](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![L'elenco delle origine dati Model.Data.Summary delle transazioni fiscali.](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     Il campo calcolato **Model.Data.Summary.Level** è stato configurato in modo che contenesse un'espressione ER. I codici imposta (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** e **InVAT0**) sono hardcoded nella configurazione. Di conseguenza, il formato di ER dipende dalla persona giuridica in cui i codici imposta sono stati configurati.
 
-    ![Il campo calcolato Model.Data.Summary.Level con codici IVA hardcoded](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![Il campo calcolato Model.Data.Summary.Level con codici imposta hardcoded.](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Per supportare un set di codici imposta diverso per ciascuna persona giuridica, è necessario completare i seguenti passaggi:
 
@@ -128,7 +128,7 @@ A questo punto, si aggiunge una nuova enumerazione di formato ER. I valori dell'
 12. Selezionare **Aggiungi** nuovamente.
 13. Nel campo **Nome** immettere **Altro**.
 
-    ![Nuovo record nella pagina Enumerazioni di formato](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Nuovo record nella pagina Enumerazioni di formato.](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Poiché gli utenti aziendali potrebbero utilizzare lingue diverse per specificare i set di codici imposta dipendenti dall'entità legale, si consiglia di tradurre i valori di questo elenco nelle lingue configurate come lingue preferite per gli utenti in Finance.
 
@@ -141,7 +141,7 @@ A questo punto, si aggiunge una nuova enumerazione di formato ER. I valori dell'
 20. Nel campo **Testo tradotto** immettere **keine Besteuerung**.
 21. Selezionare **Traduci**.
 
-    ![Dispositivo di scorrimento della traduzione del testo](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Dispositivo di scorrimento della traduzione del testo.](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Selezionare **Salva**.
 23. Chiudere la pagina **Enumerazioni di formati**.
@@ -168,13 +168,13 @@ A questo punto, si aggiunte una nuova origine dati per specificare in che modo g
 10. Selezionare l'elemento **Model.Data.Tax.Code**.
 11. Fare clic sul pulsante **Aggiungi** (la freccia a destra).
 
-    ![Dispositivo di scorrimento dell colonne](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Dispositivo di scorrimento delle colonne.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     È stato appena specificato che, per ciascuna regola specificata in questa origine dati per l'individuazione del livello di tassazione, un utente aziendale deve selezionare uno dei codici imposta come condizione. L'elenco dei codici imposta che l'utente aziendale può selezionare viene restituito dall'origine dati **Model.Data.Tax**. Poiché l'origine dati contiene il campo **Nome**, il nome del codice imposta viene visualizzato per ogni valore di codice imposta nella ricerca che viene presentata all'utente aziendale.
     
 12. Selezionare **OK**.
 
-    ![Pagina Progettazione ricerca](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Pagina Progettazione ricerca.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Gli utenti aziendali possono aggiungere più regole come record dell'origine dati. Ogni record viene numerato da un codice riga. Le regole vengono valutate per numero di riga crescente.
 
@@ -188,13 +188,13 @@ A questo punto, si aggiunte una nuova origine dati per specificare in che modo g
 
     Si noti che è stata aggiunta una nuova origine dati che restituisce il livello di tassazione come valore dell'enumerazione di formato **Elenco dei livelli di tassazione** per ogni codice imposta che viene passato all'origine dati come argomento del parametro **Codice** del tipo di dati **Stringa**.
     
-    ![Pagina Progettazione formato con una nuova origine dati](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Pagina Progettazione formato con una nuova origine dati.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     La valutazione delle regole configurate dipende dal tipo di dati dei campi selezionati per definire le condizioni di tali regole. Quando si seleziona un campo configurato come campo di tipo di dati **Numerico** o **Data**, i criteri differiranno dai criteri che sono stati descritti in precedenza per il tipo di dati **Stringa**. Per i campi di tipo **Dati** e **Numerico**, la regola deve essere specificata come intervallo di valori. La condizione della regola viene quindi considerata soddisfatta quando un valore che viene passato all'origine dati è compreso nell'intervallo configurato.
     
     Di seguito viene illustrato un esempio di questo tipo di impostazione. Oltre al campo **Model.Data.Tax.Code** del tipo di dati **Stringa**, il campo **Model.Tax.Summary.Base** del tipo di dati **Reale** viene utilizzato per specificare le condizioni di un'origine dati di ricerca.
     
-    ![Pagina Progettazione ricerca con colonne aggiuntive](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Pagina Progettazione ricerca con colonne aggiuntive.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Poiché i campi **Model.Tax.Summary.Base** e **Model.Data.Tax.Code** sono selezionati per l'origine dati di ricerca, ogni regola dell'origine dati viene configurata nel seguente modo:
     
@@ -223,7 +223,7 @@ Poiché gli utenti aziendali potrebbero utilizzare lingue diverse per specificar
 9.  Selezionare **Traduci**.
 10. Selezionare **OK**.
 
-    ![Dispositivo di scorrimento delle proprietà dell'origine dati](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Dispositivo di scorrimento delle proprietà dell'origine dati.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Aggiungere un nuovo campo per utilizzare la ricerca configurata
 
@@ -236,12 +236,12 @@ Poiché gli utenti aziendali potrebbero utilizzare lingue diverse per specificar
 7.  Nel **campo Formula**, immettere **Model.Selector(Model.Data.Summary.Code)**.
 8.  Selezionare **Salva**.
 
-    ![Aggiunta di Model.Selector(Model.Data.Summary.Code) alla pagina Progettazione formula](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Aggiunta di Model.Selector(Model.Data.Summary.Code) alla pagina Progettazione formula.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Chiudere la pagina **Editor formule**.
 10. Selezionare **OK**.
 
-    ![Pagina Progettazione formato con una nuova formula aggiunta](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Pagina Progettazione formato con una nuova formula aggiunta.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Si noti che il campo calcolato **LevelByLookup** aggiunto restituisce il livello di tassazione come valore dell'enumerazione di formato **Elenco dei livelli di tassazione** per ciascun record di riepilogo delle transazioni fiscali. Il codice imposta del record viene passato all'origine dati di ricerca **Model.Selector** e il set di regole per l'origine dati viene utilizzato per selezionare il livello di tassazione corretto.
 
@@ -269,7 +269,7 @@ A questo punto si modifica il campo calcolato esistente in modo da utilizzare l'
 
 4.  Nel campo **Formula**, immettere **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', "Regolare", TaxationLevel.'Reduced taxation', "Ridotta", TaxationLevel.'No taxation', "Nessuna", "Altro")**.
 
-    ![Pagina della progettazione dell'operazione ER](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![Pagina della progettazione dell'operazione ER.](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     Si noti che l'espressione del campo **Model.Data.Summary.Level** ora restituisce il livello di tassazione in base al codice imposta del record corrente e del set di regole che un utente aziendale configura nell'origine dati di ricerca **Model.Data.Selector**.
     

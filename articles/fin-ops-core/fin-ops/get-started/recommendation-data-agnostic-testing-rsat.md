@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 120a88790b7cdb6a8cfcf97cbafeced4685384f2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4795d11ac370003e48dc845c86ec8a5ba22aa86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744665"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348657"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Test agnostico dei dati utilizzando Regression Suite Automation Tool
 
@@ -30,7 +30,7 @@ Sebbene la convalida funzionale di un'applicazione ERP non possa essere completa
 - Framework ATL
 - Regression Suite Automation Tool (RSAT)
 
-[![Piramide di classificazione test](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Piramide di classificazione test.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Panoramica
 -   **Framework SysTest** - Il framework SysTest è attendibile per la scrittura degli unit test. Poiché gli unit test in genere verificano un metodo o una funzione, devono sempre essere agnostici dai dati e dipendenti solo dai dati di input specificati come parte del test.
@@ -42,7 +42,7 @@ Sebbene la convalida funzionale di un'applicazione ERP non possa essere completa
     - o Immettere gli identificatori univoci, come i numeri di fattura, tramite la sequenza numerica o utilizzando le funzioni di Microsoft Excel come =TEXT(NOW(),"yyyymmddhhmm"). Questa funzione fornirà un numero univoco ogni minuto, che consente di tenere traccia dell'azione eseguita. Può essere usata per le variabili come i numeri di ricevuta del prodotto e i numeri di fattura del fornitore. Questi test continuano a funzionare sullo stesso database, senza richiedere alcun ripristino.
     - Impostare sempre la **modalità di modifica** dell'ambiente su **Lettura** o **Modifica** come primo test case perché l'opzione predefinita è **Automatico**. L'opzione **Automatico** utilizza sempre l'impostazione precedente e può causare test inaffidabili. 
  
-    [![Pagina Opzioni, scheda Prestazioni](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Pagina Opzioni, scheda Prestazioni.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Convalidare solo dopo aver filtrato una determinata transazione anziché effettuare una convalida generica. Ad esempio, per il numero di record, filtrare per il numero di transazione o la data della transazione in modo che la convalida escluda tutte le altre transazioni. 
     - Se si sta verificando un saldo del cliente o un controllo del budget, salvare prima il valore e quindi aggiungere il valore della transazione per convalidare il risultato previsto anziché un valore previsto fisso. 

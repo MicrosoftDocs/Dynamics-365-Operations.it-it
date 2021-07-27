@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813727"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344618"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Tempi di fermo per la manutenzione per ordini di lavoro
 
@@ -45,7 +45,7 @@ ms.locfileid: "5813727"
 
 Nella figura seguente è illustrato un esempio della pagina **Codici motivo dei tempi di fermo per la manutenzione**.
 
-![Figura 1](media/15-work-orders.png)
+![Figura 1.](media/15-work-orders.png)
 
 Dopo aver creato i codici motivo dei tempi di fermo per la manutenzione che si desidera utilizzare, è possibile creare registrazioni di tempi di fermo per la manutenzione per ordini di lavoro e cespiti.
 
@@ -71,15 +71,15 @@ Dopo aver creato i codici motivo dei tempi di fermo per la manutenzione che si d
 
 Nella figura seguente viene illustrato un esempio di una registrazione dei tempi di fermo per la manutenzione.
 
-![Figura 2](media/16-work-orders.png)
+![Figura 2.](media/16-work-orders.png)
 
 Il calendario utilizzato per calcolare una registrazione di tempi di fermo per la manutenzione dipende dalla selezione nell'impostazione dei cespiti e dei parametri. Se una risorsa è selezionata in un cespite nel campo **Risorsa** della scheda dettaglio **Cespite** della pagina **Tutti i cespiti**, viene utilizzata l'impostazione del calendario per il gruppo di risorse associato, come illustrato nella figura seguente.
 
-![Figura 3](media/17-work-orders.png)
+![Figura 3.](media/17-work-orders.png)
 
 Se non si seleziona una risorsa nel cespite, viene utilizzato il calendario standard selezionato nella pagina **Parametri di gestione cespiti**, come illustrato nella figura seguente.
 
-![Figura 4](media/18-work-orders.png)
+![Figura 4.](media/18-work-orders.png)
 
 Fare clic su **Gestione cespiti** > **Richieste di informazioni** > **Tempi di fermo per la manutenzione** per visualizzare una panoramica di tutte le registrazioni di tempi di fermo per la manutenzione.
 

@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e8e598c2922dd6e0fdf1ccbc944fb1806dcea5b0
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5adabb19bdc58cbf89a796205394d672f5879885
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894758"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348458"
 ---
 # <a name="bank-data-usability-enhancement"></a>Miglioramento dell'usabilità dei dati bancari
 
@@ -68,11 +68,11 @@ I dati di origine utilizzati per importare i gruppi bancari possono essere prese
 
 Quando la funzione di miglioramento della configurazione del conto bancario è attivata, due campi descrittivi aggiuntivi, **Nome filiale** e **Città**, diventano disponibili per gruppi bancari.
 
-![Campi Nome filiale e Città](media/emea-ita-exil-bank-pic.jpg)
+![Campi Nome filiale e Città.](media/emea-ita-exil-bank-pic.jpg)
 
 Durante la configurazione di un conto bancario, sono disponibili campi descrittivi aggiuntivi per i gruppi bancari che consentono una selezione più precisa di una banca.
 
-![Campi descrittivi aggiuntivi in una configurazione del conto bancario](media/emea-ita-exil-bank-pic2.jpg)
+![Campi descrittivi aggiuntivi in una configurazione del conto bancario.](media/emea-ita-exil-bank-pic2.jpg)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

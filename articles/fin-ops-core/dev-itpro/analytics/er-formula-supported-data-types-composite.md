@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224098"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355348"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Tipi di dati compositi supportati per le formule di creazione di report elettronici
 
@@ -43,11 +43,11 @@ Il valore predefinito di una *classe* è **null**.
 
 L'immagine seguente mostra come l'origine dati **System information(xInfo)** del tipo **Classe** viene aggiunto all'istanza della classe dell'applicazione **xInfo** e chiama il relativo metodo **productName()** per ricevere il nome dell'applicazione corrente. Il nome dell'applicazione corrente viene recuperato in runtime mediante l'esecuzione del binding `xInfo.productName` configurato per il campo **Nome del software(SoftwareName)** del modello dati ER. Questo binding chiama il metodo `productName()` della classe dell'applicazione **xInfo** rappresentata nel mapping del modello corrente come origine dati **Informazioni di sistema(xInfo)**.
 
-[![Configurazione di un'origine dati Classe nella soluzione di progettazione del mapping del modello ER](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Configurazione di un'origine dati Classe nella finestra di progettazione mapping modello ER.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 L'illustrazione seguente mostra come il formato ER sia configurato per inserire il nome dell'applicazione specificato nei documenti generati. Il campo **Nome software(SoftwareName)** del modello dati usato è stato associato al componente **Stringa** nidificato nell'elemento XML **softwareUsed** del formato ER. Quindi, il nome dell'applicazione corrente viene inserito in runtime nell'elemento XML **softwareUsed** di un documento generato in formato XML.
 
-[![Configurazione della struttura di un documento elettronico in uscita nella soluzione di progettazione del formato ER](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Configurazione della struttura di un documento elettronico in uscita nella finestra di progettazione formato ER.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Contenitore
 
@@ -60,7 +60,7 @@ Il valore predefinito di un *contenitore* è **null**.
 
 L'illustrazione seguente mostra come il campo **Bitmap(Image)** del tipo *Contenitore* sia associato al campo **Logo** del modello dati del tipo **Contenitore** nel mapping del modello **Sales invoice**. Il binding rende disponibile il logo aziendale in qualsiasi formato ER progettato per la definizione radice **SalesInvoice** e che usa questo mapping di modello in runtime.
 
-[![Binding di un campo di tipo Contenitore nella soluzione di progettazione del mapping del modello ER](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Binding di un campo di tipo Contenitore nella soluzione di progettazione del mapping del modello ER.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Registra
 
@@ -109,7 +109,7 @@ Il valore predefinito di un *oggetto* è **null**.
 
 La seguente illustrazione mostra come è stata aggiunta l'origine dati **ReportDataContract** del tipo *Oggetto* per passare le informazioni su una fattura generata dal codice sorgente al mapping del modello **Fattura del progetto**. Ad esempio, il testo dell'istanza della fattura viene passato come parte del contesto di esecuzione. Questo testo viene acquisito dal codice sorgente in runtime mediante l'esecuzione del binding `ReportDataContract.parmInvoiceInstanceText` configurato per il campo **Nota** del modello dati ER. Questo binding chiama il metodo `parmInvoiceInstanceText()` della classe dell'applicazione **PSAProjInvoiceContract** rappresentata nel mapping del modello corrente come origine dati **ReportDataContract**.
 
-[![Configurazione di un'origine dati Oggetto nella soluzione di progettazione del mapping del modello ER](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Configurazione di un'origine dati Oggetto nella finestra di progettazione mapping modello ER.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Per sapere come passare i dettagli del contesto di esecuzione dal codice sorgente alla soluzione ER in esecuzione, vedere [Sviluppare artefatti di applicazioni per chiamare il report progettato](er-quick-start1-new-solution.md#DevelopCustomCode).
 

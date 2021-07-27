@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797481"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348346"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Aggiungere suggerimenti alla schermata della transazione
 
@@ -43,7 +43,7 @@ In questo argomento viene descritto come aggiungere un controllo di suggerimenti
 6. Quando si effettua l'accesso, viene visualizzata una pagina simile a quella riportata di seguito. Il layout sarà diverso a seconda delle personalizzazioni effettuate per il punto vendita.
 
 
-    [![Progettazione layout](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Progettazione layout.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Scelta di un'opzione visualizzata
 
@@ -58,11 +58,11 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 1. Ridurre l'altezza dell'area dei dettagli delle righe di transazione in modo che sia la stessa di quella del pannello del cliente alla sua sinistra.
 
 
-    [![Altezza ridotta dell'area dei dettagli delle righe di transazione](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Altezza ridotta dell'area dei dettagli delle righe di transazione.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Dal menu a sinistra, trascinare il controllo dei suggerimenti tra l'area dei dettagli delle righe di transazione e la griglia dei pulsanti in basso al centro della schermata della transazione. Ridimensionare il controllo in modo da adattarlo a tale spazio.
 
-    [![Controllo per suggerimenti aggiunto al layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Controllo per suggerimenti aggiunto al layout.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Fare clic su **X** per salvare le modifiche e chiudere Progettazione layout.
@@ -77,13 +77,13 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 
 2. Fare clic su **Personalizza**.
 
-    [![Finestra di dialogo Personalizzazione - Controllo scheda](./media/pic-5.png)](./media/pic-5.png)
+    [![Finestra di dialogo Personalizzazione - Controllo scheda.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Fare clic su **Nuova scheda**.
 4. Individuare la nuova scheda appena aggiunta. Potrebbe essere necessario scorrere verso il basso.
 5. Nell'elenco a discesa **Contenuti**, selezionare **Prodotti consigliati**.
 
-    [![Selezione di Prodotti consigliati nel campo Contenuto](./media/pic-6.png)](./media/pic-6.png)
+    [![Selezione di Prodotti consigliati nel campo Contenuto.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Nel campo **Etichetta**, digitare un nome per la scheda dei suggerimenti. Ad esempio, digitare "Prodotti consigliati".
 7. Nel campo **Immagine**, selezionare l'immagine che verrà visualizzata sulla scheda.

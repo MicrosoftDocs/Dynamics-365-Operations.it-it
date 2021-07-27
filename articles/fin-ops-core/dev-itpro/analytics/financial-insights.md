@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193752"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345814"
 ---
 # <a name="financial-analysis"></a>Analisi finanziaria
 
@@ -60,7 +60,7 @@ Per apparire nei rendiconti finanziari e per essere inclusi in altri oggetti vis
 ## <a name="entity-store"></a>Archivio entità
 I dati per **Analisi finanziarie** vengono estratti dall'archivio entità (**Amministrazione sistema** \> **Impostazioni** \> **Archivio entità**). Se si apre l'area di lavoro **Panoramica responsabile finanziario** o **Analisi finanziaria** e viene visualizzato il seguente messaggio di avviso negli oggetti visivi, è necessario aggiornare le entità.
 
-![Avviso](./media/Cantdisplay.png)
+![Avviso.](./media/Cantdisplay.png)
 
 Per visualizzare i dati nell'area di lavoro **Analisi finanziaria**, è necessario aggiornare le seguenti entità:
 
@@ -124,7 +124,7 @@ Gli utenti possono filtrare il report utilizzando il riquadro **Filtro** a sinis
 - **Filtri a livello di oggetto visivo** : questi filtri vengono applicati solo all'oggetto visivo selezionato. Questi filtri vengono applicati sopra i filtri a livello di pagina.
 - **Filtro drill-through**: questo filtro applica il filtro a partire da un oggetto visivo "sorgente" che viene applicato all'oggetto visivo corrente quando si passa dall'oggetto visivo di origine a quello corrente.
 
-![Opzioni di filtro](./media/filter.png)
+![Opzioni filtro.](./media/filter.png)
 
 Per rimuovere un valore specifico di filtro, selezionare il simbolo della gomma accanto ad esso. Non rimuovere un filtro selezionando la X. Se si seleziona la X, il campo su cui stai filtrando viene rimosso come opzione di filtro. Se si deseleziona accidentalmente un campo dal filtro, chiudere l'area di lavoro e quindi riaprila. Le impostazioni di filtro predefinite verranno applicate nuovamente.
 
@@ -169,25 +169,25 @@ Tramite Power BI sono disponibili diversi livelli di drill. Ogni livello ha un n
 
 Nell'illustrazione seguente, il rendiconto del **Bilancio di verifica** viene compresso al livello più alto della gerarchia di righe, il tipo di conto principale.
 
-![Rendiconto del bilancio di verifica](./media/trial-balance.png)
+![Rendiconto bilancio di verifica.](./media/trial-balance.png)
 
 Per visualizzare il livello successivo della gerarchia, le categorie principali del conto, è possibile impostare il campo **Drill** su **Righe** e quindi fare clic sul pulsante **Espandi** il terzo pulsante dopo il campo Drill. Tutte le categorie del conto principale vengono espanse. Attualmente, Power BI non consente di espandere solo una riga o una colonna, ma visualizza anche tutte le altre righe o colonne.
 
-![Analisi del bilancio di verifica sulle righe](./media/trial-balance2.png)
+![Analisi del bilancio di verifica sulle righe.](./media/trial-balance2.png)
 
 Per espandere il conto principale per tutte le righe, è possibile utilizzare di nuovo il pulsante **Espandi**. Tuttavia, per eseguire il drill-down sui conti principali per una sola riga, selezionare innanzitutto il pulsante **Drill-down** (la singola freccia rivolta verso il basso sul lato destro della finestra), quindi selezionare la riga per cui eseguire il drill-down. L'illustrazione seguente mostra il risultato quando viene selezionata la riga **Vendite** dopo aver selezionato il pulsante **Drill-down**.
 
-![Pulsante di espansione del bilancio di prova](./media/trial-balance3.png)
+![Pulsante di espansione bilancio di verifica.](./media/trial-balance3.png)
 
 Dopo aver eseguito il drill-down su una singola riga, sono necessari più clic per tornare al bilancio di verifica completo. Il pulsante **Drill-up** (il primo pulsante dopo il campo **Drill**) esegue il drill-up solo nel contesto della categoria **Vendite**, come mostrato nella seguente illustrazione.
 
-![Pulsante drill up del bilancio di verifica](./media/trial-balance4.png)
+![Pulsante drill up bilancio di verifica.](./media/trial-balance4.png)
 
 È possibile continuare a utilizzare il pulsante **Drill-up** per tornare al più alto livello di riepilogo per le righe.
 
 Power BI dispone anche di un pulsante che consente di passare al livello successivo nella gerarchia (il secondo pulsante dopo il campo **Drill**). L'effetto di questo pulsante differisce dall'effetto del pulsante **Espandi** (il terzo pulsante dopo il campo **Drill**), che viene utilizzato per espandere la gerarchia. Quando si espande la gerarchia, la gerarchia viene mantenuta nel report. Ad esempio, come mostrato in precedenza, se si espande il tipo di conto principale, nel report viene comunque visualizzato il tipo di account principale. Tuttavia, quando si passa al livello successivo nella gerarchia, il report non mostra più il padre nella gerarchia, come mostrato nella figura seguente.
 
-![Pulsante drill back del bilancio di verifica](./media/trial-balance5.png)
+![Pulsante drill back bilancio di verifica.](./media/trial-balance5.png)
 
 Per visualizzare i dettagli della transazione alla base dei saldi riepilogati, è possibile selezionare alcuni importi per eseguire il drill-back in Financial and Operations.
 
@@ -226,7 +226,7 @@ Attualmente, i rendiconti finanziari non supportano le gerarchie organizzative, 
 ## <a name="data-limitations"></a>Limitazioni dei dati
 Agli oggetti visivi del rendiconto finanziario viene applicato un limite relativo al numero di righe che può essere visualizzato. Attualmente, il limite è impostato su 30.000. Se si supera questo limite, all'oggetto visivo sarà associato un simbolo di avviso per informare di questa situazione..
 
-![Limitazioni dei dati](./media/data-limit.png)
+![Limitazioni dati.](./media/data-limit.png)
 
 Se viene superato il valore massimo, i totali visualizzati nel rendiconto finanziario non saranno corretti, poiché non tutte le righe sono state caricate nell'elemento visivo.
 

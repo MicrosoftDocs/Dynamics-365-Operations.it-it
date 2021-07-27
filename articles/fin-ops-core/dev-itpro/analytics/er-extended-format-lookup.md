@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: baba699a1b8efc986b4b274b8faf143d24d69e96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893934"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355783"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Consentire agli utenti di impostare un riferimento al formato ER richiedendo un formato presente nel repository globale
 
@@ -34,27 +34,27 @@ Ad esempio, quando si configurano [parametri per il commercio estero](../../../f
 
 Se l'attuale istanza di Finance non contiene formati ER relativi a processi aziendali Intrastat, questo campo di ricerca sarà vuoto.
 
-[![Pagina Parametri per il commercio estero](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Pagina Parametri per il commercio estero.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Se l'attuale istanza di Finance contiene formati ER relativi a processi aziendali Intrastat, questo campo di ricerca include i formati ER.
 
-[![Pagina Parametri per il commercio estero](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Pagina Parametri per il commercio estero.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 Questa ricerca offre solo i formati ER che sono già stati importati nell'istanza corrente di Finance. Per [importare](./tasks/er-import-configuration-lifecycle-services.md) soluzioni ER nell'istanza corrente di Finance, è necessario disporre delle autorizzazioni per eseguire la funzione appropriata del framework ER che supporta il [ciclo di vita](general-electronic-reporting-manage-configuration-lifecycle.md) delle soluzioni ER che contengono formati ER.
 
 A partire dalla versione 10.0.9 di Finance (versione di aprile 2020), l'interfaccia utente della ricerca di formati ER implementata mediante l'API del framework ER è stata estesa. È ancora possibile selezionare i formati ER esistenti, che si trovano nella scheda dettaglio **Seleziona la configurazione del formato**. Inoltre, la ricerca estesa offre la nuova opzione per la ricerca di formati ER specifici nel repository globale (GR). Tutti i formati ER del repository globale sono disponibili nella scheda dettaglio **Importa da repository globale**.
 
-[![Pagina Parametri per il commercio estero](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Pagina Parametri per il commercio estero.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 Analogamente alla scheda **Seleziona la configurazione del formato**, la scheda dettaglio **Importa da repository globale** mostra solo i formati ER applicabili al processo aziendale per il quale un formato ER è selezionato in questo campo di ricerca. In questo esempio, la generazione della dichiarazione Intrastat. Il formato ER è applicabile per l'azienda a cui l'utente è attualmente connesso, a seconda del contesto del paese dell'azienda.
 
 Quando si seleziona un formato ER nella scheda dettaglio **Importa da repository globale**, la [configurazione](general-electronic-reporting.md#Configuration) di formato ER selezionata viene importata dl repository globale nell'istanza corrente di Finance.
 
-[![Pagina Parametri per il commercio estero](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Pagina Parametri per il commercio estero.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Quindi, se l'importazione viene completata correttamente, il riferimento al formato ER importato viene archiviato in questo campo di ricerca. Quando si accede al repository globale per la prima volta, è necessario seguire il collegamento fornito per iscriversi al servizio [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) utilizzato per gestire l'accesso al repository globale.
 
-[![Pagina Parametri per il commercio estero](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Pagina Parametri per il commercio estero.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Per impostazione predefinita, la scheda dettaglio **Importa da repository globale** visualizza l'elenco di formati ER presenti nell'archivio temporaneo che viene creato automaticamente in base al contenuto del repository globale per miglioramenti delle prestazioni. Ciò avviene quando la scheda dettaglio **Importa da repository globale** viene aperta la prima volta, il che può richiedere alcuni secondi.
 
@@ -64,7 +64,7 @@ Se il formato ER richiesto non è visualizzato nella scheda dettaglio **Importa 
 
 La disponibilità di questa funzionalità è controllata dalla funzionalità **Ricerca estesa di configurazioni di formati ER che consente di consultare il repository globale** in **Gestione funzionalità**. Questo funzionalità è abilitata per impostazione predefinita.
 
-[![Pagina Gestione funzionalità](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
+[![Pagina Gestione funzionalità.](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
 
 ## <a name="security-considerations"></a>Considerazioni sulla sicurezza
 
@@ -72,7 +72,7 @@ Il privilegio **Gestisci repository di configurazioni** (**ERMaintainSolutionRep
 
 La schermata seguente mostra come questo privilegio può essere concesso agli utenti a cui è assegnato il ruolo **Contabile**. Questo ruolo consente agli utenti di configurare i parametri per il commercio estero e impostare i riferimenti ai formati ER nei campi **Mapping formato file** e **Mapping formato report** nella pagina **Parametri per il commercio estero**.
 
-[![Pagina Configurazione sicurezza](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
+[![Pagina Configurazione sicurezza.](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 
 ## <a name="limitations"></a>Limiti
 

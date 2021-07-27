@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795717"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352424"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Creare un nuovo prodotto in Commerce
 
@@ -49,13 +49,13 @@ Un prodotto viene principalmente definito da un numero prodotto, un nome e una d
 
 L'immagine seguente mostra un esempio di prodotto aggiunto.
 
-![Creare un prodotto](media/create-new-product.png)
+![Creare un prodotto.](media/create-new-product.png)
 
 Una volta aggiunto un prodotto, è possibile impostare ulteriori dati per lo stesso, ad esempio **Descrizione prodotto**, **Gruppi di varianti**, **Gruppi di dimensioni**, **Attributi del prodotto** e **Prodotti correlati**.
 
 L'immagine seguente mostra dettagli aggiuntivi di un prodotto.
 
-![Dettagli prodotto](media/create-new-product-2.png)
+![Dettagli prodotto.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Crea varianti prodotto
 
@@ -74,23 +74,23 @@ Per vendere un prodotto, deve essere prima rilasciato a una persona giuridica.
 
 1. Dalla pagina del prodotto, selezionare **Rilascia prodotti**.
 
-    ![Rilasciare un prodotto](media/create-new-product-3.png)
+    ![Rilasciare un prodotto.](media/create-new-product-3.png)
 
 1. Selezionare il prodotto da rilasciare, quindi selezionare **Avanti**.
 
-    ![Scegliere il prodotto da rilasciare](media/create-new-product-4.png)
+    ![Scegliere il prodotto da rilasciare.](media/create-new-product-4.png)
 
 1. Selezionare il set di varianti di prodotto da rilasciare, quindi selezionare **Avanti**.
 
-    ![Scegliere le varianti da rilasciare](media/create-new-product-5.png)
+    ![Scegliere le varianti da rilasciare.](media/create-new-product-5.png)
 
 1. Selezionare la persona giuridica, quindi **Avanti**.
 
-    ![Scegli persona giuridica](media/create-new-product-6.png)
+    ![Scegliere persona giuridica.](media/create-new-product-6.png)
 
 1. Selezionare **Fine**.
 
-    ![Terminare il rilascio del prodotto](media/create-new-product-7.png)
+    ![Terminare il rilascio del prodotto.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Configurare un prodotto rilasciato
 
@@ -105,11 +105,11 @@ Una volta rilasciato il prodotto, sarà necessario eseguire un'ulteriore configu
 
 L'immagine seguente illustra un esempio di configurazione per un prodotto rilasciato.
 
-![Configurare un prodotto rilasciato](media/create-new-product-8.png)
+![Configurare un prodotto rilasciato.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Creare persone giuridiche](channels-legal-entities.md)
+[Crea persone giuridiche](channels-legal-entities.md)
 
 [Creare un gruppo di varianti](create-variant-group.md) 
 

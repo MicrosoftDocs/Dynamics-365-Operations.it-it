@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 74987506699834d86703702106e5abf87bfa45da
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 284fd4047347386b3893684f077a5980f98a6788
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350002"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>Il record TaxTrans non viene generato
 
@@ -26,7 +26,7 @@ ms.locfileid: "6018783"
 
 Se selezioni **IVA registrata** per una transazione, ma la pagina **IVA registrata** non mostra alcuna riga di imposta o manca di una riga di imposta, il record **TaxTrans** potrebbe non essere stato generato.
 
-[![Pagina IVA registrata senza voci](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
+[![Pagina IVA registrata senza voci.](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
 
 Per risolvere questo problema, seguire i passaggi nelle sezioni seguenti come richiesto.
 
@@ -34,7 +34,7 @@ Per risolvere questo problema, seguire i passaggi nelle sezioni seguenti come ri
 
 1. Prima di registrare la transazione, nella pagina **Registrazione fattura**, selezionare **IVA** per controllare il calcolo.
 
-    [![Pulsante IVA nella pagina Registrazione fattura](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
+    [![Pulsante IVA nella pagina Registrazione fattura.](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
 
 2. Nella pagina **Transazioni IVA provvisorie** rivedere il risultato del calcolo. Se non viene calcolata alcuna imposta, vedere [L'imposta non viene calcolata o l'importo dell'imposta è zero](sales-tax-troubleshooting-tax-not-calculated-amount-zero.md).
 
@@ -44,16 +44,16 @@ Per risolvere questo problema, seguire i passaggi nelle sezioni seguenti come ri
 2. Nell'intestazione di colonna **Giustificativo** selezionare il simbolo del filtro per trovare il record **TaxTrans**.
 3. Se trovi i record IVA che stai cercando, controlla la data. Se la data è diversa dalla data dell'intestazione del giornale di registrazione, crea una richiesta di assistenza Microsoft per ulteriore supporto.
 
-    [![Pagina IVA registrata](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
+    [![Pagina IVA registrata.](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
 
 ## <a name="debug-to-check-details"></a>Eseguire il debug per verificare i dettagli
 
 1. Per informazioni su come eseguire il debug e determinare se **TmpTaxWorkTrans** e **TaxUncommitted** sono generati correttamente, vedere [Valore di campo errato in TaxTrans](sales-tax-troubleshooting-field-value-taxtrans-incorrect.md).
 2. Se **TaxTmpWorkTrans** o **TaxUncommitted** viene generato correttamente, aggiungi un punto di interruzione in corrispondenza di **TaxPost::SaveAndPost()** e **Tax::SaveAndPost** per eseguire il debug del motivo per cui **TaxTrans** non è inserito.
 
-    [![Punti di interruzione aggiunti nel codice](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
+    [![Punti di interruzione aggiunti nel codice.](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
 
-    [![Risultati dei punti di interruzione aggiunti](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
+    [![Risultati dei punti di interruzione aggiunti.](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
 
 ## <a name="determine-whether-customization-exists"></a>Determinare se esiste la personalizzazione
 

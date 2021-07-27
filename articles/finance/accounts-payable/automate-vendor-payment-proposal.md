@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820813"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350648"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizzare le proposte di pagamento fornitore
 
@@ -97,11 +97,11 @@ I campi rimanenti per la proposta funzionano esattamente come per la proposta di
 
 Dopo la creazione della serie di automazioni delle proposte di pagamento fornitore, le occorrenze di ciascun pagamento sono visualizzate nella vista settimanale delle automazioni dei processi. Per i pagamenti fornitore, la vista settimanale delle automazioni dei processi è stata aggiunta all'area di lavoro **Pagamenti fornitore** e alla pagina **Automazione processi**.
 
-[![Vista settimanale delle automazioni dei processi nell'area di lavoro Pagamenti fornitore](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Vista settimanale delle automazioni dei processi nell'area di lavoro Pagamenti fornitore.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 La vista settimanale delle automazioni dei processi nell'area di lavoro **Pagamenti fornitore** mostra solo le automazioni delle proposte di pagamento fornitore. Mostra tutte le occorrenze dei pagamenti per la settimana corrente, per tutte le persone giuridiche per le quali l'utente connesso dispone di autorizzazioni di sicurezza. Ad esempio, se l'addetto ai pagamenti delle contabilità fornitori è responsabile dei pagamenti nelle società USMF e USSI, vedrà le occorrenze dell'automazione delle proposte di pagamento fornitore per queste due società ma non per altre società.
 
-[![Vista settimanale delle automazioni dei processi per le società USMF e USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Vista settimanale delle automazioni dei processi per le società USMF e USSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Ogni occorrenza mostra la società in cui il giornale di registrazione dei pagamenti è stato o verrà creato. Se i pagamenti vengono creati utilizzando pagamenti centralizzati, la società visualizzata è la società in cui i pagamenti verranno creati. L'evento non mostra necessariamente quali fatture della società verranno pagate.
 

@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193907"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345382"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Panoramica consolidamenti finanziari e conversione valuta
 
@@ -66,13 +67,13 @@ Di seguito sono riportati alcuni degli scenari di consolidamento supportati da C
 ## <a name="legal-entity-setup"></a>Impostazione della persona giuridica
 Prima di elaborare un consolidamento, è necessario impostare la persona giuridica. È possibile eseguire il consolidamento quante volte è necessario e tutti i dati verranno convertiti dalla valuta di contabilizzazione della società di origine nella valuta definita per la società consolidata. Pertanto, per la seguente struttura organizzativa, se è necessario convertire tutte le società nordamericane prima in dollari USA (USD) e poi in euro (EUR), la valuta della società padre, è necessario disporre di almeno due società di consolidamento.
 
-![Struttura organizzativa](./media/organizational-structure.png "Struttura organizzativa")
+![Struttura organizzativa.](./media/organizational-structure.png "Struttura organizzativa")
 
 Nella struttura organizzativa precedente, è necessario disporre di una persona giuridica per il consolidamento nordamericano, poiché i consolidamenti consolidano sempre dalla valuta di contabilizzazione della società di origine nella valuta della società di consolidamento. In questo esempio, se tutte le società vengono incluse in un unico consolidamento, la società affiliata messicana verrà convertita dai pesos messicani (MXN) in EUR, non da MXN a USD a EUR.
 
 Quando si crea la persona giuridica, è possibile specificare se la società viene utilizzata sia per il processo di consolidamento che per il processo di eliminazione o solo per uno di questi processi. Nella figura seguente la società viene utilizzata per entrambi i processi. Tenere presente che non è possibile registrare i giornali di registrazione giornalieri in una società consolidata, ma è possibile registrarli in una società di eliminazione. Di conseguenza, può essere opportuno disporre di una società di eliminazione separata.
 
-![Persona giuridica che viene utilizzata sia per il consolidamento che per l'eliminazione](./media/sep-elimination-company.png "Persona giuridica che viene utilizzata sia per il consolidamento che per l'eliminazione")
+![Persona giuridica che viene utilizzata sia per il consolidamento che per l'eliminazione.](./media/sep-elimination-company.png "Persona giuridica che viene utilizzata sia per il consolidamento che per l'eliminazione")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Conti principali e gruppi di conti di consolidamento
 Una scelta da affrontare riguarda come consolidare il piano dei conti. Durante il processo di consolidamento, sono disponibili tre opzioni per il consolidamento dei conti principali.
@@ -81,11 +82,11 @@ La prima opzione consiste nell'utilizzare i conti principali dalle società di o
 
 La seconda opzione consiste nello specificare un conto di consolidamento predefinito nella pagina **Conti principali**. Il conto verrà mappato al conto di consolidamento. Questa opzione può essere utile quando sono presenti più piani dei conti diversi o è necessario mappare a un grafico definito dalla sede centrale.
 
-![Conto di consolidamento predefinito specificato nella pagina Conti principali](./media/main-accounts.png "Conto di consolidamento predefinito specificato nella pagina Conti principali")
+![Conto di consolidamento predefinito specificato nella pagina Conti principali.](./media/main-accounts.png "Conto di consolidamento predefinito specificato nella pagina Conti principali")
 
 La terza opzione consiste nell'utilizzare i gruppi di conti di consolidamento. È possibile definire tutti i gruppi di conti di consolidamento necessari. Quindi, nella pagina **Conti di consolidamento aggiuntivi** si esegue il mapping del conto principale dal piano dei conti al conto desiderato per il gruppo.
 
-![Mapping nella pagina dei conti di consolidamento aggiuntivi](./media/additional-consolidation-accounts.png "Mapping nella pagina dei conti di consolidamento aggiuntivi")
+![Mapping nella pagina dei conti di consolidamento aggiuntivi.](./media/additional-consolidation-accounts.png "Mapping nella pagina dei conti di consolidamento aggiuntivi")
 
 ## <a name="consolidating-online"></a>Consolidamento online
 Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidamenti finanziari online](./consolidate-online.md).
@@ -97,7 +98,7 @@ Per visualizzare i risultati del consolidamento, sono disponibili più opzioni:
 - Esaminare la pagina di elenco **Bilancio di verifica** nella società di consolidamento.
 - Nell'elenco delle transazioni di consolidamento nella pagina **Consolidamenti** visualizzare i saldi che sono stati creati in base alla data per ogni società di origine per ogni periodo.
 
-    ![Transazioni di consolidamento nella pagina Consolidamenti](./media/managing-consolidation-transactions.png "Transazioni di consolidamento nella pagina Consolidamenti")
+    ![Transazioni di consolidamento nella pagina Consolidamenti.](./media/managing-consolidation-transactions.png "Transazioni di consolidamento nella pagina Consolidamenti")
 
 Per eseguire nuovamente il consolidamento, è possibile elaborare semplicemente il consolidamento. In alternativa, è possibile prima selezionare **Rimuovi transazioni** nella pagina **Consolidamenti**.
 Nel caso in cui i saldi sul tuo conto consolidato non siano accurati, questi saldi possono essere corretti utilizzando la pagina **Rettifiche periodo di chiusura**.
@@ -118,7 +119,7 @@ L'impostazione delle eliminazioni è disponibile nell'area **Impostazioni** del 
 
 È possibile impostare la data in cui la regola di eliminazione diventa effettiva e la data in cui scade, in base alle esigenze. Se si vuole che la regola di eliminazione sia disponibile nel processo di proposta di eliminazione, è necessario impostare l'opzione **Attiva** su **Sì**. Selezionare un nome di giornale di registrazione di tipo **Eliminazione**.
 
-![Proprietà di base di una regola di eliminazione](./media/ledger-elimination-rule-journal.png "Proprietà di base di una regola di eliminazione")
+![Proprietà di base di una regola di eliminazione.](./media/ledger-elimination-rule-journal.png "Proprietà di base di una regola di eliminazione")
 
 Dopo avere definito le proprietà di base, selezionare **Righe** per definire le regole di elaborazione effettive. Sono disponibili due opzioni per le eliminazioni: è possibile eliminare l'importo netto della modifica o definire un importo fisso.
 
@@ -126,7 +127,7 @@ Selezionare i conti di origine. È possibile utilizzare un asterisco (\*) come c
 
 Dopo aver selezionato i conti di origine, utilizzare il campo **Specifica conto** per specificare il conto che viene utilizzato dalla società di destinazione. Selezionare **Origine** per utilizzare lo stesso conto principale che viene definito nel conto principale. Se si seleziona **Definito dall'utente**, è necessario specificare un conto di destinazione.
 
-![Pagina Riga regola di eliminazione contabile](./media/ledger-elimination-rule-line.png "Pagina Riga regola di eliminazione contabile")
+![Pagina Riga regola di eliminazione contabile.](./media/ledger-elimination-rule-line.png "Pagina Riga regola di eliminazione contabile")
 
 Il campo **Specifica dimensioni** funziona come il campo **Specifica conto**. Selezionare **Origine** per utilizzare le stesse dimensioni nella società di origine e in quella di destinazione. Se si seleziona **Definito dall'utente**, è necessario specificare le dimensioni nella società di destinazione selezionando **Dimensioni di destinazione**. Selezionare quindi le dimensioni di origine e i valori e le dimensioni finanziarie utilizzati come origine dell'eliminazione.
 

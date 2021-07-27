@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822541"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354110"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Imposta gli addetti alla manutenzione preferiti
 
@@ -59,7 +59,7 @@ Più selezioni vengono effettuate per lo stesso record, più specifica sarà l'i
 
     [!NOTE] In genere, quando un addetto alla manutenzione preferito è selezionato durante la programmazione di un ordine di lavoro, Gestione cespiti esamina tutti i record **Addetti alla manutenzione preferiti** per determinare una corrispondenza possibile, sempre verificando dapprima la combinazione più specifica. Se non viene trovata alcuna corrispondenza, viene utilizzato il record "predefinito" con una selezione nel campo **Gruppo di addetti alla manutenzione preferito** o nel campo **Addetto alla manutenzione preferito**.
 
-![Figura 1](media/02-work-order-scheduling.png)
+![Figura 1.](media/02-work-order-scheduling.png)
 
 È anche possibile impostare addetti alla manutenzione *responsabili* che possono essere selezionati quando viene creata una richiesta di intervento di manutenzione o un ordine di lavoro. È possibile modificare la selezione in **Tutti gli ordini di lavoro** e **Tutte le richieste di intervento di manutenzione**, se necessario. Per ulteriori informazioni, vedere [Addetti alla manutenzione responsabili](../setup-for-maintenance-requests/responsible-workers.md).
 

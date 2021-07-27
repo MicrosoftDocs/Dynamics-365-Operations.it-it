@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: a2bc5aa1080709931b3aa71c548a7bf2fb9b1192
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188077"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354295"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Creare la documentazione o la formazione con Registrazione attività
 
@@ -62,21 +62,21 @@ Sia se si crea una nuova registrazione attività sia se si basa la registrazione
 
 Questo è il riquadro di modifica visualizzato quando si aggiunge un'annotazione durante la creazione della registrazione. Immettere un'annotazione del titolo nella casella **Titolo**. 
 
-[![Modifica del riquadro con annotazione del titolo](./media/screen1.png)](./media/screen1.png) 
+[![Modifica del riquadro con annotazione del titolo.](./media/screen1.png)](./media/screen1.png) 
 
 Questo è come l'annotazione del titolo apparirà nel "bolla" della guida attività. 
 
-[![Aspetto dell'annotazione del titolo nella guida attività](./media/screen2.png)](./media/screen2.png)
+[![Aspetto dell'annotazione del titolo nella guida attività.](./media/screen2.png)](./media/screen2.png)
 
 -   **Note:** Un'annotazione delle note verrà visualizzata dopo il testo del passaggio che la registrazione attività genera automaticamente. Nella guida attività sarà visibile solo se l'utente fa clic sul collegamento **Visualizzare altro** nella "bolla" della Guida attività. Utilizzare questo tipo di annotazione per descrivere tutto ciò l'utente necessita di sapere per completare il passaggio.
 
 Questo è il riquadro di modifica visualizzato quando si aggiunge un'annotazione durante la creazione della registrazione. Immettere un'annotazione per le note nella casella **Note**. 
 
-[![Modifica del riquadro con annotazione nel riquadro Note](./media/screen3.png)](./media/screen3.png) 
+[![Modifica del riquadro con annotazione nel riquadro Note.](./media/screen3.png)](./media/screen3.png) 
 
 Così apparirà l'annotazione per le note nella "bolla" della guida attività.
 
-[![Aspetto dell'annotazione delle note nella guida attività](./media/screen4.png)](./media/screen4.png)
+[![Aspetto dell'annotazione delle note nella guida attività.](./media/screen4.png)](./media/screen4.png)
 
 -   **Passaggio informativo**: queste annotazioni vengono create facendo clic con il pulsante destro del mouse su un comando o in un punto qualsiasi su un modulo &lt; **Registrazione attività** &lt; **Aggiungi passaggio informativo.** I passaggi informativi verranno visualizzati come passaggi numerati in qualsiasi punto vengano immessi, anche se non è stata registrata alcuna azione nell'interfaccia utente. È possibile aggiungere un passaggio informativo a livello di modulo o un passaggio informativo associato a un controllo. Quando un passaggio informativo è associato a un modulo, quando la guida attività viene riprodotta la relativa “bolla" verrà visualizzata in qualche parte del modulo, senza puntatore. Quando un passaggio informativo è associato a un controllo, la "bolla" della guida attività punterà al controllo quando la guida attività viene riprodotta. Nel riquadro della Guida, un'annotazione del passaggio informativo verrà visualizzata come passaggio numerato con il testo immesso. Utilizzare i passaggi informativi per preparare l'utente per i passaggi successivi, per descrivere i passaggi che devono essere effettuati al di fuori dell'applicazione o per fare riferimento ad altre registrazioni (sebbene non sia possibile creare collegamenti ipertestuali nelle annotazioni).
 

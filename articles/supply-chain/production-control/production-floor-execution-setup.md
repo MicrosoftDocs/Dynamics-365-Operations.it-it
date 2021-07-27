@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a5911e81547134d3034d1a47ef94c553ccbb331
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814708"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353966"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Impostare un dispositivo per eseguire l'interfaccia di esecuzione dell'area di produzione
 
@@ -70,7 +70,7 @@ Spesso, si eseguirà l'interfaccia di esecuzione dell'area di produzione su un d
 
 La parte superiore della seguente illustrazione mostra l'aspetto predefinito dell'interfaccia. La parte inferiore mostra come appare in modalità a schermo intero quando il riquadro di spostamento è nascosto.
 
-![Interfaccia standard e a schermo intero](media/pfei-full-screen.png "Interfaccia standard e a schermo intero")
+![Interfaccia standard e a schermo intero.](media/pfei-full-screen.png "Interfaccia standard e a schermo intero")
 
 ## <a name="extend-the-session-past-12-hours"></a>Estendere la sessione oltre le 12 ore
 

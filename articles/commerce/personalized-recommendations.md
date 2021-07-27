@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804431"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352302"
 ---
 # <a name="enable-personalized-recommendations"></a>Abilitare i suggerimenti personalizzati
 
@@ -50,7 +50,7 @@ Per attivare la personalizzazione, effettuare le seguenti operazioni.
 1. Selezionare la funzionalità **Suggerimenti sul prodotto personalizzato**.
 1. Nel riquadro delle proprietà **Suggerimenti sul prodotto personalizzato**, selezionare **Abilita ora**.
 
-![Attivare la personalizzazione](./media/FeatureManagement_Personalized.PNG)
+![Attivare la personalizzazione.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Quando si attiva la personalizzazione, viene avviato il processo di generazione di elenchi di suggerimento personalizzati sui prodotti. Potrebbe essere necessario fino a un giorno prima che questi elenchi siano disponibili e visibili online nel POS.
@@ -73,7 +73,7 @@ Affinché l'elenco "Selezioni personalizzate" sia visualizzato su qualsiasi pagi
 
 La seguente illustrazione mostra un esempio di elenco "Selezioni personalizzate" in una pagina del punto vendita online.
 
-![Elenco Selezioni personalizzate online](./media/picksforyou.png)
+![Elenco Selezioni personalizzate online.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Elenchi "Prodotti consigliati" nel POS
 
@@ -81,7 +81,7 @@ Per migliorare l'esperienza di fidelizzazione dei clienti, i rivenditori possono
 
 La seguente illustrazione mostra un esempio di elenco "Prodotti consigliati" in un terminale POS.
 
-![Elenco "Prodotti consigliati" nel POS](./media/picksonpos.png)
+![Elenco "Prodotti consigliati" nel POS.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Applicare la personalizzazione a elenchi di suggerimenti esistenti
 
@@ -89,7 +89,7 @@ I rivenditori possono applicare la personalizzazione a elenchi di suggerimenti e
 
 Ad esempio, un utente che ha effettuato l'accesso ha già acquistato l'orologio nero e gli stivali da lavoro marroni che compaiono nell'elenco "Di tendenza - Predefinito" nella figura seguente. Pertanto, l'utente vedrà dei nuovi prodotti anziché tali prodotti, come mostrato nell'elenco "Di tendenza - Personalizzato".
 
-![Applicare la personalizzazione](./media/applypersonalization.png)
+![Applicare la personalizzazione.](./media/applypersonalization.png)
 
 Per applicare la personalizzazione a un elenco di suggerimenti esistente in Creazione di siti di Commerce, attenersi alla seguente procedura.
 
@@ -99,7 +99,7 @@ Per applicare la personalizzazione a un elenco di suggerimenti esistente in Crea
 1. Nella finestra di dialogo **Seleziona configurazione elenco di prodotti**, sotto **Tipo**, selezionare il tipo di elenco.
 1. Selezionare la casella di controllo **Applica personalizzazione**, quindi selezionare **OK**.
 
-    ![Applicare la personalizzazione a un elenco Di tendenza](./media/ApplyPersonalizationToTrending.PNG)
+    ![Applicare la personalizzazione a un elenco Di tendenza.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Salvare la pagina, finalizzare la modifica e pubblicarla. Dopo la pubblicazione della pagina, gli utenti che hanno effettuato l'accesso vedranno elenchi Di tendenza personalizzati.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937064"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349676"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Modificare l'ordine di visualizzazione per entità di merchandising
 
@@ -51,9 +51,9 @@ Per poter completare questa procedura, i dati dimostrativi devono essere install
 
 L'ordine di visualizzazione della gerarchia di navigazione nei canali verrà riflessa nella sede per la gerarchia di prodotti di Commerce e i prodotti rilasciati per categoria.
 
-![Gerarchia di prodotti ordinata con valori negativi](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Gerarchia di prodotti ordinata con valori negativi.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Prodotti rilasciati per categoria ordinati in base alla gerarchia di prodotti](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Prodotti rilasciati per categoria ordinati in base alla gerarchia di prodotti.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Configurare l'ordine di visualizzazione delle categorie nella gerarchia di navigazione nei canali
 
@@ -77,11 +77,11 @@ Per poter completare questa procedura, i dati dimostrativi devono essere install
 
 L'ordine di visualizzazione della gerarchia di navigazione nei canali è rispecchiato nella sede centrale, nel catalogo e nei canali.
 
-![Ordinamento personalizzato nella gerarchia di navigazione nei canali](./media/ChannelNavCustomSorted.png)
+![Ordinamento personalizzato nella gerarchia di navigazione nei canali.](./media/ChannelNavCustomSorted.png)
 
-![Gerarchia di navigazione nei canali ordinata in base alla gerarchia di navigazione nei canali](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Gerarchia di navigazione nei canali ordinata in base alla gerarchia di navigazione nei canali.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![POS con categorie ordinate](./media/POSChannelCategoriesCustomSorted.png)
+![POS con categorie ordinate.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > Per impostazione predefinita, la personalizzazione della funzionalità di ordinamento è disattivata. Per informazioni su come attivare questa e altre funzionalità, vedere [Gestione funzionalità](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

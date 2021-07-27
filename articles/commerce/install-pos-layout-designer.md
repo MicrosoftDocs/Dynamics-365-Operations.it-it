@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac1495f12a51d72a90ad88fc2d8e0a574418467
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345136"
 ---
 # <a name="install-the-pos-layout-designer"></a>Installare lo strumento di progettazione layout POS
 
@@ -40,7 +40,7 @@ L'interfaccia di progettazione grafica per MPOS o POS cloud viene controllata tr
 5. Dopo che l'installazione è stata completata, nella pagina **Accedi** immettere nome utente e password di Commerce e quindi fare clic **Accedi** per avviare lo strumento di progettazione.
 6. Dopo che le credenziali vengono convalidate e si avvia la progettazione, è possibile iniziare a progettare il proprio layout o modificare il layout esistente.
 
-    [![Layout nello strumento di progettazione con un clic](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![Layout nello strumento di progettazione con un clic.](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Risolvere i problemi relativi all'installazione della progettazione layout
 

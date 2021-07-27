@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027941"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352038"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Panoramica delle pagine di checkout e del carrello
 
@@ -37,7 +38,7 @@ La pagina carrello funge da carrello della spesa e include tutti gli articoli ag
 
 Nella figura seguente è illustrato un esempio di pagina carrello creata utilizzando la libreria di moduli e il tema "Fabrikam".
 
-![Esempio di pagina carrello](./media/cart2.PNG)
+![Esempio di pagina carrello.](./media/cart2.PNG)
 
 La parte principale della pagina carrello visualizza tutti gli articoli che il cliente ha aggiunto al carrello. Tutti gli sconti applicabili sono visualizzati. Tali sconti includono sconti complessi. Ad esempio "Sconto del 10% per 3 articoli acquistati" o "Sconto del 10% per l'acquisto di una borraccia e uno zaino". Il modulo Riepilogo ordine visualizza l'importo dovuto dopo l'applicazione di sconti, costi di spedizione e così via. Esiste anche un modulo Codici promozionali che consente al cliente di applicare o rimuovere codici promozionali.
 
@@ -53,7 +54,7 @@ La pagina checkout consente ai clienti di immettere le informazioni necessarie p
 
 Nella figura seguente è illustrato un esempio di pagina checkout creata utilizzando la libreria di moduli.
 
-![Esempio di pagina checkout](./media/Checkout.PNG)
+![Esempio di pagina checkout.](./media/Checkout.PNG)
 
 La parte principale della pagina checkout è l'area in cui vengono raccolte tutte le informazioni dell'ordine. Queste informazioni includono l'indirizzo di spedizione, le opzioni di consegna e le informazioni di pagamento. Il checkout presenta un flusso dettagliato, poiché le informazioni devono essere immesse in un determinato ordine per essere elaborate. Ad esempio, è necessario immettere l'indirizzo di spedizione per poter calcolare i costi di spedizione e autorizzare il pagamento.
 

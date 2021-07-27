@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796368"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345162"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Ricerca di prodotti e di clienti nel POS
 
@@ -36,7 +36,7 @@ Per impostazione predefinita, le ricerche dei prodotti vengono effettuate nell'a
 
 Nella pagina **Cambia catalogo**, i dipendenti possono selezionare facilmente qualsiasi punto vendita, oppure possono cercare prodotti in tutti i punti vendita.
 
-![Cambiare il catalogo](./media/Changecatalog.png "Cambiare il catalogo")
+![Cambiare il catalogo.](./media/Changecatalog.png "Cambiare il catalogo")
 
 Una ricerca di prodotto locale esegue la ricerca nelle seguenti proprietà di prodotto:
 
@@ -59,7 +59,7 @@ Una ricerca di prodotto locale esegue la ricerca nelle seguenti proprietà di pr
 - I rivenditori possono configurare la ricerca prodotto in modo da visualizzare suggerimenti di ricerca mentre gli utenti digitano nomi di prodotti. Una nuova impostazione per questa funzionalità è disponibile nel profilo della funzionalità POS, in un gruppo denominato **Ricerca prodotto**. L'impostazione è denominata **Mostra suggerimenti di ricerca durante la digitazione**. Questa funzionalità può consentire ai dipendenti di trovare rapidamente il prodotto che stanno cercando, in quanto non devono digitarne il nome completo.
 - L'algoritmo di ricerca prodotto ora cerca i termini anche nella proprietà **Nome di ricerca** del prodotto.
 
-![Suggerimenti su prodotti](./media/Productsuggestions.png "Suggerimenti su prodotti")
+![Suggerimenti su prodotti.](./media/Productsuggestions.png "Suggerimenti su prodotti")
 
 ## <a name="customer-search"></a>Ricerca cliente
 
@@ -83,7 +83,7 @@ Per effettuare una ricerca globale, i dipendenti possono selezionare il pulsante
 
 L'ID cliente non è visualizzato per i clienti cercati di altre persone giuridiche, poiché nessun ID cliente è stata creato per quelle parti nella società corrente. Tuttavia, se un dipendente apre la pagina dei dettagli del cliente, il sistema genera automaticamente un ID cliente per la parte e inoltre associa la rubrica clienti del punto vendita al cliente. Di conseguenza, il cliente sarà visibile nelle ricerche dei punti vendita locali eseguite successivamente.
 
-![Ricerca cliente globale](./media/Globalcustomersearch.png "Ricerca cliente globale")
+![Ricerca cliente globale.](./media/Globalcustomersearch.png "Ricerca cliente globale")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Funzionalità di ricerca di clienti aggiuntive
 
@@ -94,11 +94,11 @@ Quando l'utente cerca un numero di telefono, il sistema ignora caratteri special
 
 La ricerca tradizionale dei clienti può richiedere molto tempo, poiché esegue la ricerca in più campi. I cassieri possono effettuare una ricerca in una singola proprietà del cliente, ad esempio il nome, l'indirizzo di posta elettronica o il numero di telefono. Le proprietà dell'algoritmo di ricerca del cliente sono collettivamente note come *criteri di ricerca del cliente*. L'amministratore di sistema può facilmente configurare uno o più criteri come collegamenti da visualizzare nel POS. Poiché la ricerca è limitata a un unico criterio, vengono visualizzati solo i risultati della ricerca pertinenti, pertanto le prestazioni sono molto superiori rispetto a quelle di una ricerca standard del cliente. La figura riportata di seguito mostra i collegamenti di ricerca del cliente nel POS.
 
-![Collegamenti di ricerca del cliente](./media/SearchShortcutsPOS.png "Collegamenti di ricerca del cliente")
+![Collegamenti di ricerca del cliente.](./media/SearchShortcutsPOS.png "Collegamenti di ricerca del cliente")
 
 Per impostare i criteri di ricerca come collegamenti, l'amministratore deve aprire la pagina **Parametri di commercio** in Commerce, quindi, nella scheda **Criteri di ricerca POS**, selezionare tutti i criteri che devono essere mostrati come collegamenti.
 
-![Configurare i collegamenti di ricerca](./media/ConfigureShortcutsAX.png "Configurare i collegamenti di ricerca")
+![Configurare i collegamenti di ricerca.](./media/ConfigureShortcutsAX.png "Configurare i collegamenti di ricerca")
 
 > [!NOTE]
 > Se si aggiungono troppi collegamenti, il menu a discesa nella barra della ricerca nel POS non riesce a visualizzarli correttamente a scapito della ricerca da parte del dipendente. Si consiglia di aggiungere solo i collegamenti necessari.

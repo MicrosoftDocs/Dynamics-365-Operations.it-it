@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168731"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343960"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisiti di dimensionamento hardware per ambienti locali
 
@@ -36,7 +36,7 @@ Dopo avere esaminato la documentazione, è possibile iniziare il processo di sti
 
 Tutti i fattori mostrati nella figura seguente influiscono sul dimensionamento. Più sono dettagliate le informazioni che si raccolgono e maggiore sarà la precisione con cui si determinerà il dimensionamento. Il dimensionamento hardware senza dati di supporto ha più probabilità di risultare impreciso. Il fabbisogno minimo assoluto dei dati necessari è il carico di riga di transazione di punta all'ora.
 
-[![Dimensionamento hardware per ambienti locali](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Dimensionamento hardware per ambienti locali.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Osservato da sinistra a destra, il primo fattore e il più importante necessario per stimare esattamente il dimensionamento è un profilo di transazione o una caratterizzazione di transazione. È importante trovare sempre il volume transazionale di punta all'ora. Se sono presenti più periodi di punta, è necessario definirli con precisione.
 

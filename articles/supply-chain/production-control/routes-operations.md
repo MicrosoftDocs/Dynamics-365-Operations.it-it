@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188936"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350500"
 ---
 # <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
@@ -45,7 +45,7 @@ Un ciclo di lavorazione descrive l'ordine delle operazioni utilizzate per la pro
 
 Un ciclo di lavorazione semplice è sequenziale ed è disponibile un solo punto di partenza per il ciclo di lavorazione.  
 
-[![Ciclo di lavorazione semplice](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Ciclo di lavorazione semplice.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Se si attiva solo i cicli di lavorazione semplici nei parametri di controllo produzione, Supply Chain Management genera automaticamente i numeri delle operazioni (10, 20, 30 e così via) quando si definisce il ciclo di lavorazione.
 
@@ -53,7 +53,7 @@ Se si attiva solo i cicli di lavorazione semplici nei parametri di controllo pro
 
 Se si consentono reti più complesse del ciclo di lavorazione nei parametri di controllo produzione, è possibile definire cicli di lavorazione con più punti di origine e più operazioni che possono essere eseguite in parallelo.  
 
-[![Rete di cicli di lavorazione](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rete di cicli di lavorazione.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Ciascuna operazione può avere una sola operazione successiva e l'intero ciclo di lavorazione deve terminare con una sola operazione.
@@ -64,7 +64,7 @@ Se si consentono reti più complesse del ciclo di lavorazione nei parametri di c
 
 Talvolta, una combinazione di più risorse operative che hanno caratteristiche diverse sono necessarie per eseguire un'operazione. Ad esempio, un'operazione di assemblaggio potrebbe richiedere una macchina, uno strumento e un lavoratore per ogni due macchine per la supervisione dell'operazione. Questo esempio può essere modellizzato utilizzando le operazioni parallele, in cui un'operazione è indicata come l'operazione primaria e le altre sono secondarie.  
 
-[![Ciclo di lavorazione con operazioni primarie e secondarie](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Ciclo di lavorazione con operazioni primarie e secondarie.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 In genere, l'operazione primaria rappresenta la risorsa collo di bottiglia e detta il tempo di esecuzione per le operazioni secondarie. Tuttavia, durante la programmazione che prevede la capacità limitata, le risorse che sono programmate per l'operazione primaria e le operazioni secondarie devono essere disponibili e avere allo stesso tempo capacità libera.  
 

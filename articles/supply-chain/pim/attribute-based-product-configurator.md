@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c42a11055e98da59e0428a156ca127529589abab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1538b806a60a9a9950f54c29bd19447c66ac9ec2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812932"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359103"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Prezzi di vendita basati su attributi per la configurazione prodotto basata su vincoli
 
@@ -33,7 +33,7 @@ Per impostare la valuta predefinita:
 1. Apri la scheda **Modello di configurazione prodotto basato su vincoli**.
 1. Apri l'elenco a discesa **Valuta predefinita** e seleziona la valuta.
 
-    ![Impostare la valuta predefinita per la configurazione prodotto basata su vincoli](media/prod-config-currency.png "Impostare la valuta predefinita per la configurazione prodotto basata su vincoli")
+    ![Impostare la valuta predefinita per la configurazione prodotto basata su vincoli.](media/prod-config-currency.png "Impostare la valuta predefinita per la configurazione prodotto basata su vincoli")
 
 1. Se desideri allegare un file Excel con una scomposizione prezzo per tutte le righe dell'ordine o dell'offerta, nella sezione **Modello di prezzo**, imposta **Allega** su *Sì*.
 
@@ -60,7 +60,7 @@ L'esempio seguente mostra un prezzo base di un numero statico di 899,95 EUR, che
 - Per la finitura del mobile in palissandro, aggiungi 119,95 EUR.
 - Aggiungi 12,95 EUR per ogni unità di altezza dell'altoparlante.
 
-![Esempio di modello di prezzo](media/prod-config-rules-example.png "Esempio di modello di prezzo")
+![Esempio di modello di prezzo.](media/prod-config-rules-example.png "Esempio di modello di prezzo")
 
 ## <a name="add-support-for-multiple-currencies"></a>Aggiungere supporto per più valute
 
@@ -81,7 +81,7 @@ Per aggiungere prezzi espliciti in una valuta aggiuntiva:
 
 Nell'esempio seguente, _EUR_ è la valuta predefinita e _USD_ è stato aggiunto come valuta aggiuntiva.
 
-![Esempio di un modello con più valute](media/prod-config-rules-currency-example.png "Esempio di un modello con più valute")
+![Esempio di un modello con più valute.](media/prod-config-rules-currency-example.png "Esempio di un modello con più valute")
 
 > [!NOTE]
 > Non è possibile aggiungere regole di espressione univoche per una valuta non predefinita. Per creare regole di espressione pertinenti solo per una valuta diversa dalla valuta predefinita, imposta su zero l'espressione di prezzo per la valuta predefinita. Quindi imposta l'espressione appropriata per la valuta non predefinita.
@@ -93,11 +93,11 @@ Per verificare come funzionano i prezzi di vendita in una sessione di configuraz
 - Utilizzare le impostazioni di configurazione offerte per selezionare le opzioni del prodotto e quindi vedere come influenzano il valore visualizzato in **Prezzo e data di spedizione**.
 - Selezionare **Visualizza scomposizione prezzo** per scaricare un documento Excel che mostra tutti i dettagli su come è stato calcolato il prezzo.
 
-![Testare il modello di prezzo](media/prod-config-test.png "Testare il modello di prezzo")
+![Testare il modello di prezzo.](media/prod-config-test.png "Testare il modello di prezzo")
 
 Il foglio di calcolo scaricato mostra sia il valore assoluto che il contributo come percentuale per ogni elemento di prezzo attivo. Se hai impostato l'opzione **Allega** del modello di prezzo nella pagina **Parametri di gestione informazioni sul prodotto**, questo foglio Excel viene allegato alla riga dell'ordine o dell'offerta.
 
-![Foglio di calcolo Excel che mostra la scomposizione del prezzo](media/prod-config-excel-example.png "Foglio di calcolo Excel che mostra la scomposizione del prezzo")
+![Foglio di calcolo Excel che mostra la scomposizione del prezzo.](media/prod-config-excel-example.png "Foglio di calcolo Excel che mostra la scomposizione del prezzo")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Impostare i criteri di selezione per i modelli di prezzo
 
@@ -116,7 +116,7 @@ Per impostare criteri di selezione per modelli di prezzo:
     - **Valido dal** - Specificare il primo giorno in cui verrà applicata la query.
     - **Data scadenza** - Specifica l'ultima data in cui verrà applicata la query.
 
-    ![Criteri modello di prezzo](media/prod-config-price-model-criteria.png "Criteri modello di prezzo")
+    ![Criteri modello di prezzo.](media/prod-config-price-model-criteria.png "Criteri modello di prezzo")
 
 1. Seleziona la riga per la query che desideri definire, quindi seleziona **Modifica** nel **riquadro azioni**. Viene visualizzata la finestra di dialogo di progettazione di query. Funziona come la maggior parte delle finestre di progettazione di query in Supply Chain Management. Utilizzala per definire le condizioni in base alle quali deve essere applicato il modello di prezzo per la riga selezionata.
 
@@ -137,7 +137,7 @@ Il passaggio finale consiste nello specificare i prezzi di vendita basati su att
 1. Seleziona il modello di configurazione prodotto di destinazione.
 1. Nel riquadro azioni, apri la scheda **Modello** e, nel gruppo **Dettagli modello prodotto**, seleziona **Versioni**.
 1. Viene visualizzata la pagina **Versioni**. Assicurati che **Metodo di determinazione prezzo** sia impostato su **Basato su attributi**.
-    ![Impostare Metodo di determinazione prezzo su Basato su attributi](media/prod-config-versions.png "Impostare Metodo di determinazione prezzo su Basato su attributi")
+    ![Impostare Metodo di determinazione prezzo su Basato su attributi.](media/prod-config-versions.png "Impostare Metodo di determinazione prezzo su Basato su attributi")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

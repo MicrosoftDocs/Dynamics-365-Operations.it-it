@@ -2,7 +2,7 @@
 title: Modulo Banner promozionale
 description: In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796248"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479354"
 ---
 # <a name="promo-banner-module"></a>Modulo banner promozionale
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
@@ -34,7 +35,7 @@ I moduli Banner promozionale supportano un messaggio di testo e un collegamento.
 
 I moduli Banner promozionale sono basati sui dati del sistema di gestione dei contenuti e possono essere utilizzati in qualsiasi pagina.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Esempi di utilizzo di banner promozionali in e-Commerce
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Esempi di utilizzo di banner promozionali in e-commerce
 
 I banner promozionali possono essere utilizzati nell'intestazione del sito per mostrare promozioni o messaggi in tutto il sito, come negli esempi seguenti.
 
@@ -46,11 +47,11 @@ I banner promozionali possono essere utilizzati nell'intestazione del sito per m
 
 L'immagine seguente mostra un esempio di banner promozionale.
 
-![Esempio di modulo banner promozionale](./media/ecommerce-Promobanner.PNG)
+![Esempio di modulo del banner promozionale.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Proprietà dei moduli Banner promozionale
 
-| Nome proprietà             | Valore                              | Descrizione |
+| Nome proprietà             | Valore                              | descrizione |
 |---------------------------|------------------------------------|-------------|
 | Messaggi banner           | Testo e collegamenti                     | Una matrice di testo e collegamenti. |
 | Riproduzione automatica                  | **True** o **False**              | Un valore che indica se i messaggi vengono automaticamente passati in rassegna, se sono configurati più messaggi. |
@@ -59,6 +60,10 @@ L'immagine seguente mostra un esempio di banner promozionale.
 | Mostra flipper sequenza     | **True** o **False**              | Un valore che indica se i flipper della sequenza devono essere visualizzati, di modo che i clienti possano scorrere manualmente più elementi del banner. |
 | Allineamento testo            | **A destra**, **A sinistra** o **Al centro** | L'allineamento del testo nel modulo banner promozionale. |
 | Collega                      | URL A                              | L'URL di un collegamento facoltativo. |
+|Allineamento testo             | **A destra**, **A sinistra** o **Al centro** | Questa proprietà è disponibile come estensione del tema nel tema Adventure Works. Consente a un utente di impostare l'allineamento del testo nel banner promozionale. |
+
+> [!IMPORTANT]
+> Il tema Adventure Works è disponibile a partire dalla versione Dynamics 365 Commerce 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Aggiungere un modulo banner promozionale a una pagina 
 
@@ -78,7 +83,6 @@ Per aggiungere un modulo banner promozionale a una pagina e impostare le proprie
 
 > [!NOTE]
 > Un banner promozionale viene in genere utilizzato nello slot dell'intestazione di pagina o in uno slot del sottotitolo.
-
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

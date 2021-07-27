@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800423"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352666"
 ---
 # <a name="cloud-powered-search-overview"></a>Panoramica della ricerca basata su cloud
 
@@ -41,7 +41,7 @@ La pertinenza e le prestazioni delle ricerche sono fattori chiave nell'esperienz
 
 Nella figura seguente è illustrato un esempio di funzionalità di esplorazione e ricerca tipica.
 
-![Pagina di destinazione della ricerca](./media/SearchLanding.png)
+![Pagina di destinazione della ricerca.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Esplorazione in base a facet e riepilogo delle scelte 
 
@@ -51,7 +51,7 @@ Utilizzando l'esplorazione in base a facet, è possibile configurare differenti 
 
 Nella figura seguente è illustrato un esempio in cui l'esplorazione in base a facet è utilizzata in una ricerca.
 
-![Riepilogo delle scelte](./media/ChoiceSummary.png)
+![Riepilogo delle scelte.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Suggerimento automatico immersivo
 
@@ -61,7 +61,7 @@ Dynamics 365 Commerce supporta inoltre funzionalità per le corrispondenze con p
 
 Nella figura seguente è illustrato un esempio di utilizzo della funzionalità di suggerimento automatico immersivo.
 
-![Suggerimento automatico immersivo](./media/ImmersiveAutoSuggestUX.png)
+![Suggerimento automatico immersivo.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Ordina
 
@@ -69,11 +69,11 @@ L'ordinamento migliorato in Dynamics 365 Commerce consente ai clienti di ordinar
 
 >[!NOTE]
 >Queste funzionalità di ricerca basate su cloud sono disponibili a partire dalla versione 10.0.8. Verifica che in **Parametri di commercio > Parametri di configurazione** c'è una voce per "ProductSearch.UseAzureSearch impostata su 'true'". 
-![Parametri di configurazione per la ricerca basata su cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+![Parametri di configurazione per la ricerca basata su cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite](category-search-page-overview.md)
+[Panoramica della pagina di destinazione di categoria e della pagina dei risultati di ricerca predefinite](category-search-page-overview.md)
 
 [Gestire i metadati SEO](manage-seo-metadata.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841239"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344808"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automazione delle fatture per i documenti digitalizzati
 
@@ -34,7 +34,7 @@ La soluzione di automazione delle fatture è un'interfaccia standard in grado di
 
 Nella figura seguente è illustrato uno scenario di integrazione di esempio in cui Contoso è associato a un provider di servizi OCR per l'elaborazione delle fatture fornitore. I fornitori di Contoso inviano le fatture al provider di servizi tramite posta elettronica. Tramite l'elaborazione OCR, il provider di servizi genera i metadati della fattura (intestazione e/o righe) e un'immagine digitalizzata della fattura. Un livello di integrazione trasforma quindi questi elementi in modo che siano utilizzabili.
 
-![Scenario di integrazione di esempio](media/vendor_invoice_automation_01.png)
+![Scenario di integrazione di esempio.](media/vendor_invoice_automation_01.png)
 
 Più variazioni dello scenario precedente sono possibili se è richiesta l'integrazione delle fatture. La migrazione dei dati è un altro caso di utilizzo in cui questa interfaccia può essere utilizzata per creare fatture e allegati.
 
@@ -92,7 +92,7 @@ Negli scenari in cui le fatture fornitore vengono immesse in Finance and Operati
 
 La nuova pagina elenco delle fatture fornitori è disponibile in **Contabilità fornitori** > **Fatture** > **Errori di importazione** > **Fatture fornitore non importate**. Questa pagina visualizza tutti i record di intestazione delle fatture fornitore dalla tabella di gestione temporanea dell'entità dati intestazione della fattura fornitore. Tieni presente che puoi visualizzare gli stessi record dall'area di lavoro **Gestione dati**. Puoi eseguire le stesse azioni che sono fornite nella funzionalità di gestione delle eccezioni dall'area di lavoro **Gestione dati**. La funzionalità di gestione delle eccezioni è stata ottimizzata per un utente funzionale, il che ne semplifica l'utilizzo.
 
-![Pagina elenco delle eccezioni](media/vendor_invoice_automation_02.png)
+![Pagina elenco delle eccezioni.](media/vendor_invoice_automation_02.png)
 
 Questa pagina elenco include i seguenti campi forniti tramite feed:
 
@@ -134,9 +134,9 @@ La pagina elenco delle eccezioni supporta i costrutti di sicurezza standard che 
 
 + Per ruolo utente
 + Per utente
-+ Per entità giuridica
++ In base all'entità giuridica
 
-![Importare il processo che viene protetto per ruolo utente e per persona giuridica](media/vendor_invoice_automation_04.png)
+![Importare il processo che viene protetto per ruolo utente e per persona giuridica.](media/vendor_invoice_automation_04.png)
 
 Se viene configurata la sicurezza per il processo di importazione della fattura, la pagina elenco delle eccezioni rispetta queste impostazioni. Gli utenti potranno vedere solo i record delle eccezioni fatture che questa impostazione consente loro di visualizzare.
 

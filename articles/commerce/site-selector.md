@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6e8eefe7afe385ca77eca6027638ff938e1356e3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b69156ee79dbbe8cbb8f5eb5988a751f0488d8e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791777"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357740"
 ---
 # <a name="site-selector-module"></a>Modulo di selezione sito
 
@@ -37,11 +37,11 @@ Il modulo di selezione sito deve essere configurato con l'elenco dei siti (merca
 
 La figura seguente mostra un esempio di un modulo di selezione sito presente nell'intestazione di una pagina del sito.
 
-![Esempio di un modulo di selezione sito nell'intestazione di una pagina del sito](./media/ecommerce-sitepicker.PNG)
+![Esempio di un modulo di selezione sito nell'intestazione di una pagina del sito.](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-selector-module-properties"></a>Proprietà del modulo di selezione sito
 
-| Nome proprietà | Valore                 | Descrizione |
+| Nome proprietà | Valore                 | descrizione |
 |---------------|-----------------------|-------------|
 | Intestazione       | Testo                  | L'intestazione del modulo. |
 | Opzioni sito  | Nome, immagine, URL      | Questa proprietà specifica un nome, un collegamento alla home page del sito e un'immagine facoltativa da mostrare per ogni sito incluso nel modulo. L'immagine può essere un flag o una rappresentazione di un mercato, una regione o un'impostazione locale. |

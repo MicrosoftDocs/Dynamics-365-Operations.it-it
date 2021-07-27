@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 0956e7aa51973014ee474d97829d3d15dfdea3b3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a641789adf27e51b7a3f8ab03269cc2e748eef96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909945"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359813"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Sincronizzare gli ordini di lavoro con il progetto da Field Service a Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "5909945"
 
 Questo argomento descrive i modelli e l'attività sottostante utilizzati per sincronizzare ordini di lavoro con un numero di progetto da Dynamics 365 Field Service a Dynamics 365 Supply Chain Management.
 
-[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
+[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 Il modello **Ordini di lavoro con progetto (da Field Service a Supply Chain Management)** utilizzato si basa sul modello **Ordini di lavoro (da Field Service a Supply Chain Management)**. Per ulteriori informazioni, vedere [Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
@@ -61,19 +61,19 @@ Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dat
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Ordini di lavoro con progetto (da Field Service a Supply Chain Management): WorkOrderHeader
 
-[![Mapping dei modelli in Integrazione dati](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Mapping modello in Integrazione dati.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Ordini di lavoro con progetto (da Field Service a Supply Chain Management): WorkOrderHeaderProject
 
-[![Mapping dei modelli in Integrazione dati](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Mapping modello in Integrazione dati.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Ordini di lavoro con progetto (da Field Service a Supply Chain Management): WorkOrderProduct
 
-[![Mapping dei modelli in Integrazione dati](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Mapping modello in Integrazione dati.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Ordini di lavoro con progetto (da Field Service a Supply Chain Management): WorkOrderService
 
-[![Mapping dei modelli in Integrazione dati](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Mapping modello in Integrazione dati.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

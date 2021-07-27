@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: d80c754b7aa154d9636bb0d9fbfb448987d01e48
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841793"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353518"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Garantire le scorte di sicurezza per gli articoli
 
@@ -72,37 +72,50 @@ Nel seguente scenario viene illustrato come questo parametro viene eseguito e qu
 > [!NOTE]
 > Per tutte le illustrazioni in questo argomento, l'asse x rappresenta l'inventario, l'asse y rappresenta i giorni, le barre rappresentano il livello di inventario, le frecce rappresentano le transazioni, come le righe degli ordini cliente, le righe degli ordini fornitore o gli ordini pianificati.
 
-[![Scenario comune di mantenimento delle scorte di sicurezza](./media/Scenario1.png)](./media/Scenario1.png) Il parametro **Soddisfa minimo** può contenere i seguenti valori:
+[![Scenario comune per garanzia scorte di sicurezza.](./media/Scenario1.png)](./media/Scenario1.png)
+Il parametro **Soddisfa minimo** può assumere i seguenti valori:
 ### <a name="todays-date"></a>Data odierna 
 La quantità minima specificata viene soddisfatta alla data di esecuzione della pianificazione generale. Il sistema tenta di soddisfare il più presto possibile il limite di scorta di sicurezza, anche se può essere non realistico a causa del lead time. 
-[![Fabbisogno alla data odierna](./media/TodayReq.png)](./media/TodayReq.png) L'ordine pianificato P1 viene creato per la data odierna per portare l'inventario disponibile sopra il livello di scorte di sicurezza in questa data. Le righe dell'ordine cliente da S1 a S3 continuano a ridurre il livello delle scorte. Gli ordini pianificati P2 a P4 vengono generati dalla pianificazione generale in modo da riportare il livello di scorta al limite di sicurezza dopo ogni fabbisogno dell'ordine cliente.
+[![Fabbisogno alla data odierna.](./media/TodayReq.png)](./media/TodayReq.png)
+L'ordine pianificato P1 viene creato per la data odierna per portare l'inventario disponibile sopra il livello di scorte di sicurezza in questa data. Le righe dell'ordine cliente da S1 a S3 continuano a ridurre il livello delle scorte. Gli ordini pianificati P2 a P4 vengono generati dalla pianificazione generale in modo da riportare il livello di scorta al limite di sicurezza dopo ogni fabbisogno dell'ordine cliente.
 Quando viene usato il codice di copertura **Fabbisogno**, vengono creati più ordini pianificati. È sempre consigliabile utilizzare la copertura **Periodo** o **Min/Max** per gli articoli e i materiali di domande frequenti, per aggregare il rifornimento. Nella figura seguente è illustrato un esempio del codice di copertura **Periodo**.
-[![Periodo. Data odierna](./media/TodayPeriod.png)](./media/TodayPeriod.png) Nella figura seguente è illustrato un esempio del codice di copertura **Min/Max**.
-[![MinMax. Data odierna](./media/TodayMinMax.png)](./media/TodayMinMax.png)
+[![Periodo. Data odierna.](./media/TodayPeriod.png)](./media/TodayPeriod.png)
+Nella figura seguente è illustrato un esempio del codice di copertura **Min/Max**.
+[![MinMax. Data odierna.](./media/TodayMinMax.png)](./media/TodayMinMax.png)
 ### <a name="todays-date--procurement-time"></a>Data odierna + tempo di approvvigionamento 
 La quantità minima specificata viene soddisfatta alla data di esecuzione della pianificazione generale posticipata in base al tempo di produzione o di acquisto. Questa volta include eventuali margini di sicurezza. Se per l'articolo è stato definito un accordo commerciale e la casella di controllo **Trova accordi commerciali** della pagina **Parametri di pianificazione generale** è selezionata, il lead time di consegna indicato nell'accordo commerciale non verrà preso in considerazione. I lead time vengono ricavati dalle impostazioni di copertura articoli o dall'articolo.
 Questa modalità di evasione creerà piani con meno ritardi e meno ordini pianificati indipendentemente dal gruppo di copertura impostato per l'articolo. Nella figura seguente è illustrato il risultato del piano solo se il codice di copertura è **Fabbisogno** o **Periodo**.  
-[![Fabbisogno. Periodo. Data odierna e lead time](./media/TodayPLTReq.png)](./media/TodayPLTReq.png) Nella figura seguente è illustrato il risultato del piano se il codice di copertura è **Min/Max**.  
-[![MinMax. Data odierna e lead time](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
+[![Fabbisogno. Periodo. Data odierna e lead time.](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)
+Nella figura seguente è illustrato il risultato del piano solo se il codice di copertura è **Min/Max**.  
+[![MinMax. Data odierna e lead time.](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
 ### <a name="first-issue"></a>Prima uscita 
 La quantità minima specificata viene soddisfatta alla data in cui le scorte disponibili diminuiscono al di sotto del livello minimo, come illustrato nella figura seguente. Anche se le scorte disponibili sono inferiori al livello minimo alla data in cui viene eseguita la pianificazione principale, **Prima uscita** non tenterà di coprirlo finché non verrà introdotto il fabbisogno successivo.
 Nella figura seguente è illustrato un esempio del codice di copertura **Fabbisogno**.
-[![Pianificazione di un articolo con codice di copertura **Fabbisogno** ed evasione **Prima uscita**](./media/FirstIssueReq.png)](./media/FirstIssueReq.png) Nella figura seguente è illustrato un esempio del codice di copertura **Periodo**.
-[![Pianificazione di un articolo con codice di copertura **Periodo** ed evasione **Prima uscita**](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png) Nella figura seguente è illustrato un esempio del codice di copertura **Min/Max**.
-[![Pianificazione di un articolo con codice di copertura **MinMax** ed evasione **Prima uscita**](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png) Nella data in cui la pianificazione generale viene eseguita, se le scorte disponibili sono ancora nel limite di scorta di sicurezza, **Data odierna** e **Data odierna + tempo di approvvigionamento** attivano immediatamente il rifornimento. **Prima uscita** attenderà fino a quando non ci sarà un'altra transazione di uscita, come l'ordine cliente e il requisito della riga distinta base, per l'articolo, quindi attiverà il rifornimento alla data di questa transazione. Nella data in cui la pianificazione generale viene eseguita, se le scorte disponibili non rientrano nel limite delle scorta di sicurezza, **Data odierna** e **Prima uscita** forniranno esattamente lo stesso risultato, come illustrato nella figura seguente. 
+[![Pianificazione di un articolo con codice di copertura **Fabbisogno** ed evasione **Prima uscita**.](./media/FirstIssueReq.png)](./media/FirstIssueReq.png)
+Nella figura seguente è illustrato un esempio del codice di copertura **Periodo**.
+[![Pianificazione di un articolo con codice di copertura **Periodo** ed evasione **Prima uscita**.](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png)
+Nella figura seguente è illustrato un esempio del codice di copertura **Min/Max**.
+[![Pianificazione di un articolo con codice di copertura **Min/Max** ed evasione **Prima uscita**.](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png)
+Nella data in cui la pianificazione generale viene eseguita, se le scorte disponibili sono ancora nel limite di scorta di sicurezza, **Data odierna** e **Data odierna + tempo di approvvigionamento** attivano immediatamente il rifornimento. **Prima uscita** attenderà fino a quando non ci sarà un'altra transazione di uscita, come l'ordine cliente e il requisito della riga distinta base, per l'articolo, quindi attiverà il rifornimento alla data di questa transazione. Nella data in cui la pianificazione generale viene eseguita, se le scorte disponibili non rientrano nel limite delle scorta di sicurezza, **Data odierna** e **Prima uscita** forniranno esattamente lo stesso risultato, come illustrato nella figura seguente. 
 
-[![NotUnderLimit](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png) Nella data in cui la pianificazione generale viene eseguita, se le scorte disponibili non rientrano nel limite delle scorte di sicurezza, **Data odierna + tempo di approvvigionamento** fornirà il seguente risultato, poiché pospone l'evasione fino alla fine del lead time di approvvigionamento.
-![Pianificazione di un articolo con codice di copertura **Fabbisogno** ed evasione **Prima uscita**](./media/ReqTodayLT.png)
+[![NotUnderLimit.](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png)
+Nella data in cui la pianificazione generale viene eseguita, se le scorte disponibili non rientrano nel limite delle scorte di sicurezza, **Data odierna + tempo di approvvigionamento** fornirà il seguente risultato, poiché pospone l'evasione fino alla fine del lead time di approvvigionamento.
+![Pianificazione di un articolo con codice di copertura **Fabbisogno** ed evasione **Prima uscita**.](./media/ReqTodayLT.png)
 ### <a name="coverage-time-fence"></a>Intervallo temporale di copertura
 La quantità minima specificata viene soddisfatta durante il periodo di tempo specificato nel campo **Intervallo temporale di copertura**. Questa opzione è utile quando la pianificazione generale non consente di utilizzare le scorte disponibili per ordini reali, come vendite o trasferimenti, nel tentativo di mantenere il livello di sicurezza. Tuttavia, in una versione successiva, questa modalità di rifornimento non sarà più necessaria e questa opzione verrà rimossa.
 ## <a name="plan-safety-stock-replenishment-for-first-expired-first-out-fefo-items"></a>Progettare il rifornimento delle scorte di sicurezza per gli articoli FEFO (First expired/First out)
 In qualsiasi momento, l'entrata in magazzino con la data di scadenza più recente verrà utilizzata per le scorte di sicurezza per consentire che la domanda reale, ad esempio righe vendita o DBA, venga soddisfatta nell'ordine FEFO (First expired/First out).
 Per mostrare come funziona, si consideri il seguente scenario:
-[![FEFOScenario](./media/FEFOScenario.png)](./media/FEFOScenario.png) Quando viene eseguita la pianificazione, questa coprirà il primo ordine cliente con le scorte disponibili esistenti e un ulteriore ordine fornitore per la quantità rimanente.
-[![FEFO1](./media/FEFO1.png)](./media/FEFO1.png) Un ordine pianificato viene creato in modo che le scorte disponibili siano riportate di nuovo al limite di sicurezza.
-[![FEFO2](./media/FEFO2.png)](./media/FEFO2.png) Quando il secondo ordine cliente viene pianificato, l'ordine pianificato creato in precedenza che copre le scorte di sicurezza viene utilizzato per coprire questa quantità. Di conseguenza, le scorte di sicurezza vengono costantemente aggiornate.
-[![FEFO3](./media/FEFO3.png)](./media/FEFO3.png) Infine, un altro ordine pianificato viene creato per coprire le scorte di sicurezza.
-[![FEFO4](./media/FEFO4.png)](./media/FEFO4.png) Tutti i processi batch scadono di conseguenza e gli ordini pianificati vengono creati per rifornire le scorte di sicurezza dopo la scadenza.
+[![FEFOScenario.](./media/FEFOScenario.png)](./media/FEFOScenario.png)
+Quando viene eseguita la pianificazione, questa coprirà il primo ordine cliente con le scorte disponibili esistenti e un ulteriore ordine fornitore per la quantità rimanente.
+[![FEFO1.](./media/FEFO1.png)](./media/FEFO1.png)
+Un ordine pianificato viene creato in modo che le scorte disponibili siano riportate di nuovo al limite di sicurezza.
+[![FEFO2.](./media/FEFO2.png)](./media/FEFO2.png)
+Quando il secondo ordine cliente viene pianificato, l'ordine pianificato creato in precedenza che copre le scorte di sicurezza viene utilizzato per coprire questa quantità. Di conseguenza, le scorte di sicurezza vengono costantemente aggiornate.
+[![FEFO3.](./media/FEFO3.png)](./media/FEFO3.png)
+Infine, un altro ordine pianificato viene creato per coprire le scorte di sicurezza.
+[![FEFO4.](./media/FEFO4.png)](./media/FEFO4.png)
+Tutti i processi batch scadono di conseguenza e gli ordini pianificati vengono creati per rifornire le scorte di sicurezza dopo la scadenza.
 
 ## <a name="how-master-planning-handles-the-safety-stock-constraint"></a>Modalità di gestione della pianificazione generale per il vincolo delle scorte di sicurezza
 

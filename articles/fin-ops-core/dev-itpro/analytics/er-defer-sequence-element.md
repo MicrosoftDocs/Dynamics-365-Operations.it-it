@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3a8d4c57ca6b1fee5f4eb1414bfb503470b5e570
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944511"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348094"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Differire l'esecuzione di elementi di sequenza in formati ER
 
@@ -88,14 +88,14 @@ Prima di iniziare, è inoltre necessario scaricare e salvare la seguente configu
 6. Nella struttura delle configurazioni, espandere **Modello di apprendimento di elementi differiti**.
 7. Esaminare l'elenco delle configurazioni ER importate nella struttura delle configurazioni.
 
-    ![Configurazioni ER importate nella pagina Configurazioni](./media/ER-DeferredSequence-Configurations.png)
+    ![Configurazioni ER importate nella pagina Configurazioni.](./media/ER-DeferredSequence-Configurations.png)
 
 ### <a name="activate-a-configurations-provider"></a>Attivare un provider di configurazioni
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, verificare che il [provider di configurazione](general-electronic-reporting.md#Provider) per la società di esempio Litware, Inc. (`http://www.litware.com`) sia elencato e contrassegnato come attivo. Se questo provider di configurazione non è elencato o non è contrassegnato come attivo, completare i passaggi dell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![La società di esempio Litware, Inc. nella pagina Configurazioni localizzazione](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
+    ![La società di esempio Litware, Inc. nella pagina Configurazioni localizzazione.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Esaminare il mapping di modello importato
 
@@ -117,7 +117,7 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
     - L'origine dati **Raggruppate** di tipo *GroupBy* è configurata per raggruppare le transazioni fiscali filtrate dell'origine dati **Filtrate**.
     - Il campo di aggregazione **TotalSum** dell'origine dati **Raggruppate** è configurata per riepilogare i valori del campo **\$TaxAmount** dell'origine dati **Filtrate** per tutte le transazioni fiscali filtrate di quell'origine dati.
 
-        ![Campo di aggregazione TotalSum nella pagina di modifica dei parametri "GroupBy"](./media/ER-DeferredSequence-GroupByParameters.png)
+        ![Campo di aggregazione TotalSum nella pagina di modifica dei parametri "GroupBy".](./media/ER-DeferredSequence-GroupByParameters.png)
 
 9. Verificare in che modo le origini dati configurate sono associate al modello di dati e come espongono i dati consultati per renderli disponibili in un formato ER:
 
@@ -125,7 +125,7 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
     - Il campo **\$TaxAmount** dell'origine dati **Filtrate** è associata al campo **Data.List.Value** del modello di dati.
     - Il campo **TotalSum** dell'origine dati **Raggruppate** è associato al campo **Data.Summary.Total** del modello di dati.
 
-    ![Pagina Progettazione mapping modello](./media/ER-DeferredSequence-ModelMapping.png)
+    ![Pagina Progettazione mapping modello.](./media/ER-DeferredSequence-ModelMapping.png)
 
 10. Chiudere le pagine **Progettazione mapping modello** e **Mapping modello**.
 
@@ -138,12 +138,12 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
 
     - L'elemento di formato sequenza **Report\\Lines** è configurato per riempire il documento in uscita con una singola riga generata a partire dagli elementi di sequenza nidificati (**Header**, **Record**, and **Summary**).
 
-        ![Elemento di formato sequenza Lines ed elementi nidificati nella pagina Progettazione formati](./media/ER-DeferredSequence-Format.png)
+        ![Elemento di formato sequenza Lines ed elementi nidificati nella pagina Progettazione formati.](./media/ER-DeferredSequence-Format.png)
 
     - L'elemento di formato sequenza **Report\\Lines\\Header** è configurato per riempire il documento in uscita con una singola riga di intestazione che mostra la data e l'ora di inizio dell'elaborazione.
     - L'elemento di formato sequenza **Report\\Lines\\Record** è configurato per riempire il documento in uscita con una singolo riga che mostra i dettagli delle singole transazioni fiscali. Queste transazioni fiscali sono separate da un punto e virgola.
 
-        ![Elemento di formato sequenza Record che utilizza un punto e virgola come delimitatore](./media/ER-DeferredSequence-Format1.png)
+        ![Elemento di formato sequenza Record che utilizza un punto e virgola come delimitatore.](./media/ER-DeferredSequence-Format1.png)
 
     - L'elemento di formato sequenza **Report\\Lines\\Summary** è configurato per riempire il documento in uscita con una singolo riga di riepilogo che include la somma dei valori di imposta delle transazioni fiscali elaborate.
 
@@ -162,14 +162,14 @@ Esaminare le impostazioni del componente mapping di modello ER configurato per a
     - L'elemento **TotalTaxAmount** è associato a **model.Data.Summary.Total** per generare la somma dei valori di imposta delle transazioni fiscali elaborate.
     - L'elemento **ExecutionDateTime** genera la data e l'ora (inclusi i millisecondi) in cui viene aggiunta la riga di riepilogo.
 
-    ![Scheda Mapping nella pagina Progettazione formati](./media/ER-DeferredSequence-Format2.png)
+    ![Scheda Mapping nella pagina Progettazione formati.](./media/ER-DeferredSequence-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Eseguire il formato importato
 
 1. Nella pagina **Progettazione formati**, selezionare **Esegui**.
 2. Scaricare il file proposto dal browser Web e aprirlo per esaminarlo.
 
-    ![File di report di esempio scaricato](./media/ER-DeferredSequence-Run.png)
+    ![File di report di esempio scaricato.](./media/ER-DeferredSequence-Run.png)
 
 Si noti che la riga di riepilogo 22 presenta la somma dei valori di imposta per le transazioni elaborate. Poiché il formato è configurato per utilizzare il binding **model.Data.Summary.Total** per restituire questa somma, la somma viene calcolata chiamando l'aggregazione **TotalSum** dell'origine dati **Raggruppate** di tipo *GroupBy* che utilizza il mapping di modello. Per calcolare questa aggregazione, il mapping di modello esegue l'iterazione su tutte le transazioni che sono state selezionate nell'origine dati **Filtrate**. Confrontando i tempi di esecuzione delle righe 21 e 22, è possibile determinare che il calcolo della somma ha richiesto 10 millisecondi (ms). Confrontando i tempi di esecuzione delle righe 2 e 21, è possibile determinare che la generazione di tutte le righe transazionali ha richiesto 7 millisecondi (ms). Pertanto, sono stati necessari in totale 17 ms.
 
@@ -183,12 +183,12 @@ Se il volume delle transazioni è molto più grande del volume nell'esempio corr
 4. Configurare l'espressione **Nome chiave dati raccolti** come `WsColumn`.
 5. Configurare l'espressione **Valore chiave dati raccolti** come `WsRow`.
 
-    ![Elemento di sequenza Lines nella pagina Progettazione formati](./media/ER-DeferredSequence-Format3.png)
+    ![Elemento di sequenza Lines nella pagina Progettazione formati.](./media/ER-DeferredSequence-Format3.png)
 
 6. Selezionare l'elemento numerico **Report\\Lines\\Record\\TaxAmount**.
 7. Configurare l'espressione **Nome chiave dati raccolti** come `SummingAmountKey`.
 
-    ![Elemento numerico TaxAmount nella pagina Progettazione formati](./media/ER-DeferredSequence-Format4.png)
+    ![Elemento numerico TaxAmount nella pagina Progettazione formati.](./media/ER-DeferredSequence-Format4.png)
 
     È possibile considerare questa impostazione come la creazione di un foglio di lavoro virtuale, in cui il valore della cella A1 viene aggiunto al valore dell'importo fiscale di ogni transazione fiscale elaborata.
 
@@ -196,13 +196,13 @@ Se il volume delle transazioni è molto più grande del volume nell'esempio corr
 9. Configurare l'espressione `SUMIF(SummingAmountKey, WsColumn, WsRow)` usando la funzione ER [SUMIF](er-functions-datacollection-sumif.md) integrata.
 10. Selezionare **Salva**.
 
-    ![Espressione SUMIF](./media/ER-DeferredSequence-FormulaDesigner.png)
+    ![Espressione SUMIF.](./media/ER-DeferredSequence-FormulaDesigner.png)
 
 11. Chiudere la pagina **Designer formula**.
 12. Selezionare **Salva** e quindi selezionare **Esegui**.
 13. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato: somma dei valori di imposta](./media/ER-DeferredSequence-Run1.png)
+    ![File scaricato: somma dei valori di imposta.](./media/ER-DeferredSequence-Run1.png)
 
     La riga 21 contiene il totale corrente dei valori di imposta calcolato per tutte le transazioni elaborate utilizzando l'output generato come origine dati. Questa origine dati comincia all'inizio del report e continua fino all'ultima transazione fiscale. La riga 22 contiene la somma dei valori di imposta di tutte le transazioni elaborate calcolate nel mapping di modello utilizzando l'origine dati di tipo *GroupBy*. Si noti che questi valori sono uguali. Pertanto, è possibile utilizzare la somma basata sull'output al posto di **GroupBy**. Confrontando i tempi di esecuzione delle righe 2 e 21, è possibile determinare che la generazione di tutte le righe transazionali e della somma ha richiesto 9 millisecondi (ms). Pertanto, per quanto riguarda la generazione di righe dettagliate e della somma dei valori di imposta, il formato modificato è circa due volte più veloce del formato originale.
 
@@ -211,7 +211,7 @@ Se il volume delle transazioni è molto più grande del volume nell'esempio corr
 16. Selezionare **Salva** e quindi selezionare **Esegui**.
 17. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato con formula modificata](./media/ER-DeferredSequence-Run2.png)
+    ![File scaricato con formula modificata.](./media/ER-DeferredSequence-Run2.png)
 
     Si noti che il totale corrente dei valori di imposta nell'ultima riga dei dettagli delle transazioni è ora uguale alla somma nella riga di riepilogo.
 
@@ -224,7 +224,7 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 3. Selezionare **Salva** e quindi selezionare **Esegui**.
 4. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato per la somma nell'intestazione del report](./media/ER-DeferredSequence-Run3.png)
+    ![File scaricato per la somma nell'intestazione del report.](./media/ER-DeferredSequence-Run3.png)
 
     Si noti che la somma dei valori di imposta nella riga di riepilogo 2 è ora uguale a 0 (zero), poiché questa somma viene ora calcolata in base all'output generato. Quando viene generata la riga 2, l'output generato non contiene ancora righe che hanno dettagli delle transazioni. È possibile configurare questo formato per differire l'esecuzione dell'elemento di sequenza **Report\\Lines\\Summary** fino a che l'elemento di sequenza **Report\\Lines\\Record** non è stato eseguito per tutte le transazioni fiscali.
 
@@ -233,12 +233,12 @@ Se, ad esempio, è necessario presentare la somma dei valori di imposta nell'int
 1. Nella pagina **Progettazione formati**, nella scheda **Formato** selezionare l'elemento di sequenza **Report\\Lines\\Summary**.
 2. Impostare l'opzione **Esecuzione differita** su **Sì**.
 
-    ![Opzione Esecuzione differita dell'elemento di sequenza Summary nella pagina Progettazione formati](./media/ER-DeferredSequence-Format5.png)
+    ![Opzione Esecuzione differita dell'elemento di sequenza Summary nella pagina Progettazione formati.](./media/ER-DeferredSequence-Format5.png)
 
 3. Selezionare **Salva** e quindi selezionare **Esegui**.
 4. Scaricare ed esaminare il file proposto dal browser Web.
 
-    ![File scaricato - esecuzione differita](./media/ER-DeferredSequence-Run4.png)
+    ![File scaricato - esecuzione differita.](./media/ER-DeferredSequence-Run4.png)
 
     L'elemento di sequenza **Report\\Lines\\Summary** viene ora eseguito solo dopo l'esecuzione di tutti gli altri elementi nidificati sotto l'elemento padre **Report\\Lines**. Pertanto, viene eseguito dopo l'esecuzione dell'elemento di sequenza **Report\\Lines\\Record** per tutte le transazioni fiscali dell'origine dati **model.Data.List**. I tempi di esecuzione delle righe 1, 2 e 3 e dell'ultima riga, 22, rivelano questa condizione.
 
