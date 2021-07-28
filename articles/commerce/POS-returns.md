@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345186"
 ---
 # <a name="create-returns-in-pos"></a>Creare resi in POS
 
@@ -48,7 +48,7 @@ Se viene trovata una transazione o un ordine che corrisponde ai criteri di ricer
 
 Per ogni riga d'ordine nell'elenco dei prodotti restituibili, POS mostra le informazioni sulla quantità di acquisto originale e le quantità di eventuali resi precedentemente elaborati. La quantità di reso che un utente immette per una riga d'ordine deve essere inferiore o uguale al valore del campo **Disponibile per il reso**.
 
-![Pagina dei prodotti restituibili](media/returnslist.png)
+![Pagina dei prodotti restituibili.](media/returnslist.png)
 
 Durante l'elaborazione del reso, se un utente ha il prodotto fisico e quel prodotto ha un codice a barre, l'utente può scansionare il codice a barre per registrare il reso. Ogni scansione del codice a barre aumenta la quantità di reso di un articolo. Tuttavia, se l'etichetta del codice a barre ha una quantità incorporata, tale quantità verrà inserita nel campo **Reso immediato**.
 
@@ -97,6 +97,13 @@ Se le informazioni lato canale non sono aggiornate per qualche motivo e viene el
 
 > [!NOTE]
 > Quando la funzione **Esperienza di elaborazione dei resi unificata in POS** è attivata, diventano disponibili nuove funzionalità opzionali che supportano la convalida dei resi dei prodotti con numeri di serie. Per ulteriori informazioni, vedere [Restituire prodotti controllati dal numero di serie in POS](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Abilita il calcolo delle imposte corretto per i resi con quantità parziale
+
+Questa funzione garantisce che quando un ordine viene restituito utilizzando più fatture, le imposte saranno pari all'importo delle imposte addebitato in origine.
+1.  Accedere all'area di lavoro **Gestione funzionalità** e cercare **Abilita il calcolo delle imposte corretto per i resi con quantità parziale**.
+2.  Selezionare **Abilita il calcolo delle imposte corretto per i resi con quantità parziale** e quindi fare clic su **Abilita**.
+
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

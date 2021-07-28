@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893203"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345740"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gestire il ciclo di vita della configurazione per la creazione di report elettronici
 
@@ -80,7 +80,7 @@ Per i motivi ER seguenti, consigliamo di progettare le configurazioni ER nell'am
 
 Le configurazioni ER progettate nell'ambiente di sviluppo possono essere [caricate](#data-persistence-consideration) nell'ambiente di test per la valutazione della configurazione (integrazione del processo appropriata, correttezza dei risultati, prestazioni) e il controllo della qualità (correttezza dei diritti di accesso basati sui ruoli, separazione dei compiti). Le funzionalità che consentono lo scambio di configurazioni ER possono essere utilizzate a tale scopo. Le configurazioni ER testate possono essere caricate in LCS per essere condivise con gli abbonati al servizio oppure possono essere [importate](#data-persistence-consideration) nell'ambiente di produzione per uso interno.
 
-![Ciclo di vita della configurazione ER](./media/ger-configuration-lifecycle.png)
+![Ciclo di vita della configurazione ER.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Considerazione sulla persistenza dei dati
 

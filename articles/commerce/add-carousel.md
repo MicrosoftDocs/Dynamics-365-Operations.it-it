@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5bc2227e08dbbf5f76a37180114e5affff131658
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 69f6b0c6dab5dd5a9e15e2b7ec2a6301d13ab810
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797889"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346878"
 ---
 # <a name="carousel-module"></a>Modulo sequenza
 
@@ -40,11 +40,11 @@ Un modulo Sequenza viene utilizzato per inserire molteplici articoli promozional
 
 L'immagine seguente mostra un esempio di modulo Sequenza utilizzato in una home page. Questo modulo Sequenza contiene molteplici elementi del blocco di contenuto.
 
-![Esempio di modulo Sequenza](./media/Hero.PNG)
+![Esempio di modulo Sequenza.](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Proprietà del modulo Sequenza
 
-| Nome proprietà             | Valore                 | Descrizione |
+| Nome proprietà             | Valore                 | descrizione |
 |---------------------------|-----------------------|-------------|
 | Riproduzione automatica                  | **True** o **False** | Se il valore è impostato su **True**, la transizione tra gli articoli nella sequenza viene eseguita automaticamente. Se il valore è impostato su **False**, non viene eseguita alcuna transizione a meno che il cliente non utilizzi la tastiera o il mouse per passare da un articolo all'articolo successivo. |
 | Intervallo di transizione diapositiva | Un valore in secondi    | L'intervallo delle transizioni tra gli articoli. |

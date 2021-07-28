@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184024"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345502"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -73,7 +73,7 @@ L'hub possiede i seguenti dati:
 
 Le unità di scala prevedono l'effettiva elaborazione del ciclo (come l'allocazione del lavoro, il lavoro di rifornimento e la creazione del lavoro in base alla domanda) dopo il rilascio del ciclo. Pertanto, gli addetti al magazzino possono elaborare il lavoro in uscita utilizzando un'app per dispositivi mobili Gestione magazzino connessa all'unità di scala.
 
-![Flusso di elaborazione ciclo](./media/wes-wave-processing-ga.png "Flusso di elaborazione ciclo")
+![Flusso di elaborazione ciclo.](./media/wes-wave-processing-ga.png "Flusso di elaborazione ciclo")
 
 ### <a name="process-work-and-ship"></a>Elaborare il lavoro e spedire
 
@@ -81,7 +81,7 @@ Non appena il processo di lavoro finale colloca le scorte in un luogo di spedizi
 
 Non appena l'hub ha aggiornato le transazioni in *Prelevato*, può elaborare la conferma della spedizione in uscita e il documento di trasporto vendita associato o la spedizione dell'ordine di trasferimento per il carico.
 
-![Flusso di elaborazione in uscita](./media/WES-outbound-processing-19.png "Flusso di elaborazione in uscita")
+![Flusso di elaborazione in uscita.](./media/WES-outbound-processing-19.png "Flusso di elaborazione in uscita")
 
 ## <a name="inbound-process-flow"></a>Flusso di elaborazione in entrata
 
@@ -107,11 +107,11 @@ L'addetto al magazzino può eseguire il processo di ricevimento utilizzando un'a
 
 Se non utilizzi il processo *rilascio in magazzino* e pertanto non utilizzi *ordini di magazzino*, l'hub può elaborare il ricevimento in magazzino e l'elaborazione del lavoro indipendentemente dalle unità di scala.
 
-![Flusso di elaborazione in entrata](./media/wes-inbound-ga.png "Flusso di elaborazione in entrata")
+![Flusso di elaborazione in entrata.](./media/wes-inbound-ga.png "Flusso di elaborazione in entrata")
 
 Quando si esegue la registrazione in entrata tramite un processo di ricezione dell'app di magazzino rispetto all'ordine di magazzino dell'unità di scala, il carico di lavoro dell'unità di scala segnalerà all'hub di aggiornare le transazioni delle righe ordine fornitore correlate in *Registrato*. Al termine, sarà possibile eseguire un'entrata prodotti dell'ordine fornitore sull'hub.
 
-![Flusso di elaborazione in entrata](./media/WES-inbound-processing-19.png "Flusso di elaborazione in entrata")
+![Flusso di elaborazione in entrata.](./media/WES-inbound-processing-19.png "Flusso di elaborazione in entrata")
 
 ## <a name="supported-processes-and-roles"></a>Processi e ruoli supportati
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894126"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348166"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Specificare un percorso di archiviazione personalizzato per i documenti generati
 
@@ -39,7 +39,7 @@ L'API del framework per la creazione di report elettronici (ER) consente di este
 
 Nella topologia corrente, [creare un nuovo formato ER](tasks/er-format-configuration-2016-11.md) per generare documenti per i quali si intende aggiungere un percorso di archiviazione personalizzato. In alternativa, [importare un formato ER esistente in questa topologia](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Pagina Progettazione formati](media/er-extend-file-storages-format.png)
+![Pagina Progettazione formati.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > Il formato ER creato o importato deve contenere almeno uno dei seguenti elementi di formato:
@@ -58,7 +58,7 @@ Per specificare il modo in cui vengono instradati i documenti generati con forma
 3. Nel campo **Classe**, specificare **Attach file**.
 4. Nel campo **Gruppo**, specificare **File**.
 
-![Pagina Tipi di documento](media/er-extend-file-storages-document-type.png)
+![Pagina Tipi di documento.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > I tipi di documento sono specifici della società. Per utilizzare un formato ER con una destinazione configurata in più società, è necessario configurare un tipo di documento distinto in ogni società.
@@ -113,14 +113,14 @@ L'evento **AttachingFile ()** viene generato quando le seguenti destinazioni ER 
 - **Archivio** - Quando la destinazione viene utilizzata, un nuovo record per il formato ER eseguito viene creato nella tabella ERFormatMappingRunJobTable. Il campo **Archiviato** in questo record è impostato su **False**. Se il formato ER viene eseguito correttamente, il documento generato è allegato a questo record e l'evento **AttachingFile ()** viene generato. Il tipo di documento selezionato in questa destinazione ER determina il percorso di archiviazione per il file allegato (Archiviazione di Microsoft Azure o una cartella Microsoft SharePoint ).
 - **Archivio processi** - Quando questa destinazione viene utilizzata, un nuovo record per il formato ER eseguito viene creato nella tabella ERFormatMappingRunJobTable. Il campo **Archiviato** in questo record è impostato su **True**. Se il formato ER viene eseguito correttamente, il documento generato è allegato a questo record e l'evento **AttachingFile ()** viene generato. Il tipo di documento configurato nei parametri ER determina il percorso di archiviazione per il file allegato (Archiviazione di Azure o una cartella di SharePoint).
 
-![Pagina Parametri per la creazione di report elettronici](media/er-extend-file-storages-parameters.png)
+![Pagina Parametri per la creazione di report elettronici.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Configurare una destinazione ER
 
 1. Configurare la destinazione archiviata per uno degli elementi menzionati in precedenza (file, cartella, merger o allegato) del formato ER creato o importato. Per informazioni, vedere [Configurare destinazioni ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Utilizzare il tipo di documento aggiunto in precedenza per la destinazione configurata. Ad esempio in questo argomento, il tipo di documento è **FileX**.
 
-![Finestra di dialogo Impostazioni destinazione](media/er-extend-file-storages-destination.png)
+![Finestra di dialogo Impostazioni destinazione.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Modificare il codice sorgente
 

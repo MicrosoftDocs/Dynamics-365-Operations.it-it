@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753506"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347998"
 ---
 # <a name="email-er-destination-type"></a>Tipo di destinazione posta elettronica ER
 
@@ -48,13 +48,13 @@ Per inviare un file di output o diversi file di output tramite e-mail, nella pag
 
 È possibile configurare gli indirizzi di posta elettronica per ER in due modi. La configurazione può essere completata come avviene con la funzionalità Gestione stampa oppure è possibile risolvere un indirizzo di posta elettronica utilizzando un riferimento diretto alla configurazione ER mediante una formula.
 
-[![Impostare l'opzione Abilitato su Sì per una destinazione di posta elettronica](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![Impostare l'opzione Abilitato su Sì per una destinazione di posta elettronica.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>Tipi di indirizzo di posta elettronica
 
 Se si seleziona **Modifica** accanto al campo **A** o **Cc** nella finestra di dialogo **Impostazioni destinazione**, viene visualizzata la finestra di dialogo **Destinatario messaggio di posta elettronica**. Selezionare **Aggiungi** e quindi selezionare il tipo di indirizzo di posta elettronica da utilizzare. Due tipi sono attualmente supportati: **Gestione stampa posta elettronica** e **Posta elettronica configurazione**.
 
-[![Selezionare il tipo di indirizzo di posta elettronica](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![Selezione del tipo di indirizzo e-mail.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Gestione stampa posta elettronica
 
@@ -84,7 +84,7 @@ Dopo aver selezionato il ruolo desiderato, selezionare il pulsante **Associa** (
 
 Nella pagina **Designer formula**, nel campo **Formula** immettere un riferimento specifico del documento a un ruolo supportato. Invece di digitare il riferimento, nel riquadro **Origine dati**, trova e seleziona il nodo di origine dati che rappresenta un conto del ruolo configurato, quindi selezionare **Aggiungi origine dati** per aggiornare la formula. Ad esempio, se si configura la destinazione di posta elettronica per la configurazione **bonifico ISO 20022** utilizzata per elaborare i pagamenti fornitore, il nodo che rappresenta un conto fornitore è `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
-![Configurare un conto di origine di posta elettronica](./media/er_destinations-emaildefineaddresssource.gif)
+![Configurazione di un account di origine di posta elettronica.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Se i numeri conto del ruolo configurato sono univoci per l'intera istanza di Microsoft Dynamics 365 Finance, il campo **Società dell'origine posta elettronica** nella finestra di dialogo **Destinatario messaggio di posta elettronica** può rimanere vuota.
 
@@ -108,7 +108,7 @@ Per specificare il tipo di indirizzi di posta elettronica da utilizzare in fase 
 
 Selezionare **Posta elettronica configurazione** come tipo di indirizzo di posta elettronica se la configurazione utilizzata ha un nodo nelle origini dati che restituisce un singolo indirizzo di posta elettronica o più indirizzi di posta elettronica separati da punto e virgola (;). È possibile usare [origini dati](general-electronic-reporting.md#FormatComponentOutbound) e [funzioni](er-formula-language.md#functions) nella designer formula per ottenere un indirizzo di posta elettronica formattato correttamente o indirizzi di posta elettronica formattati correttamente separati da punto e virgola. Ad esempio, se si utilizza la configurazione **bonifico ISO 20022**, il nodo che rappresenta l'indirizzo di posta elettronica principale di un fornitore dai dettagli di contatto del fornitore a cui deve essere inviata la lettera di presentazione è `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![Configurare un'origine di un indirizzo di posta elettronica](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Configurazione dell'origine dell'indirizzo e-mail.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Raggruppare i componenti formato
 
@@ -126,11 +126,11 @@ Per separare i componenti formato, nella scheda dettaglio **Destinazione del fil
 
 La seguente illustrazione mostra la struttura di un formato ER configurato per produrre un file compresso in uscita che contiene una nota della lettera di sollecito e le fatture cliente appropriate in formato PDF.
 
-[![Struttura di un formato ER che genera documenti in uscita](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![Struttura di un formto ER che genera documenti in uscita.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 La seguente illustrazione mostra il processo, come descritto in questo argomento, di raggruppamento di singoli componenti e abilitazione di **Destinazione posta elettronica** per il nuovo gruppo, in modo che una nota di lettera di sollecito venga inviata insieme alle fatture del cliente appropriate come allegati di posta elettronica.
 
-[![Raggruppare singoli componenti e attivare la destinazione posta elettronica](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Raggruppamento di singoli componenti e attivazione della destinazione posta elettronica.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

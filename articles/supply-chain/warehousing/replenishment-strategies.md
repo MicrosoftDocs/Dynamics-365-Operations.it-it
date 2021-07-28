@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8ddc7022a1e9a7db14aaa67efcd442025b0f9d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814514"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344475"
 ---
 # <a name="replenishment-strategies"></a>Strategie di rifornimento
 
@@ -45,7 +45,7 @@ Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. 
 
 Per accedere ai modelli andare a **Gestione magazzino \> Impostazione \> Rifornimento \> Modelli di rifornimento**. Nella sezione **Panoramica** selezionare o creare un modello di rifornimento della domanda ciclo in cui il campo **Tipo di rifornimento** è impostato su *Domanda ciclo*. Quindi impostare le righe del modello di rifornimento nella sezione **Dettagli del modello di rifornimento**. Per ogni riga, nel campo **Strategia di rifornimento** selezionare la strategia di rifornimento che si desidera utilizzare.
 
-![Pagina Modelli di rifornimento](media/ReplenTempWaveDmdMaxLocCap.png "Pagina Modelli di rifornimento")
+![Pagina Modelli di rifornimento.](media/ReplenTempWaveDmdMaxLocCap.png "Pagina Modelli di rifornimento")
 
 Se la colonna **Strategia di rifornimento** non appare nella griglia della sezione **Dettagli del modello di rifornimento** assicurarsi che la funzione sia stata attivata e che il modello di rifornimento selezionato abbia un tipo di rifornimento *Domanda ciclo*.
 
@@ -85,7 +85,7 @@ Se si imposta la strategia di rifornimento su *Capacità massima ubicazione* si 
 - **Lavoro di rifornimento 1:** Scegli 4 scatole dall'ubicazione in blocco e inseriscile nell'ubicazione prelievo-001.
 - **Lavoro di rifornimento 2:** Scegli 5 scatole dall'ubicazione in blocco e inseriscile nell'ubicazione prelievo-002.
 
-[![Esempio 1](media/ReplenTemp_example_1.png "Esempio 1")](media/ReplenTemp_example_1_large.png)
+[![Esempio 1.](media/ReplenTemp_example_1.png "Esempio 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Esempio 2
 
@@ -109,7 +109,7 @@ A seconda dell'impostazione dell'opzione **Consenti divisione** delle direttive 
 
 I risultati differiscono a causa delle informazioni disponibili quando si crea il lavoro. Quando l'opzione **Consenti divisione** è impostata su *Sì* nelle direttive di ubicazione per il prelievo di rifornimento, sono stati trovati 160 pezzi. Pertanto, è possibile creare lavoro per quella quantità. Tuttavia, quando l'opzione **Consenti divisione** è impostata su *No*, non si conosce l'esistenza dei 160 pezzi. Poiché la quantità extra che deve essere reintegrata è di 3 scatole, rilasciare quella quantità extra e riprovare la quantità originale.
 
-[![Esempio 2](media/ReplenTemp_example_2.png "Esempio 2")](media/ReplenTemp_example_2_large.png)
+[![Esempio 2.](media/ReplenTemp_example_2.png "Esempio 2")](media/ReplenTemp_example_2_large.png)
 
 Pertanto, per ottenere la quantità massima nelle ubicazioni rifornite, è necessario impostare l'opzione **Consenti divisione** su *Sì* nelle direttive di ubicazione per il prelievo di rifornimento.
 

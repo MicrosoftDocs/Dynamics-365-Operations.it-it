@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8d6687ddaae28ebf278aca6a78ba798e2e79edd8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41d135af00618dbe4046338c8d0e6f5a01f33892
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791923"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345008"
 ---
 # <a name="retail-statements"></a>Rendiconti di vendita al dettaglio
 
@@ -31,7 +31,7 @@ In Dynamics 365 Commerce il processo di registrazione dei rendiconti viene utili
 
 L'illustrazione seguente mostra il processo di registrazione dei rendiconti. In questo processo le transazioni registrate nel POS vengono trasmesse al client utilizzando l'utilità di pianificazione di commercio. Dopo che il client riceve le transazioni, è possibile creare, calcolare e registrare il rendiconto delle transazioni per il punto vendita.
 
-[![Processo di registrazione dei rendiconti](./media/retail-statements.png)](./media/retail-statements.png)
+[![Processo di registrazione dei rendiconti.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Creazione e registrazione dei rendiconti
 

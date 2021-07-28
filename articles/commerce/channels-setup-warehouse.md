@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800497"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345986"
 ---
 # <a name="warehouse-set-up"></a>impostare un magazzino
 
@@ -45,7 +45,7 @@ Per configurare un sito di magazzino, attenersi alla seguente procedura.
 
 L'immagine seguente mostra un esempio di sito di magazzino.
 
-![Esempio di sito di magazzino](media/warehouse-site.png)
+![Esempio di sito di magazzino.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse&quot;></a>Impostare un magazzino
 
@@ -98,7 +98,7 @@ Per impostare le ubicazioni delle scorte magazzino per scorte standard, danneggi
     
 L'immagine seguente mostra l'impostazione dell'ubicazione delle scorte magazzino a San Francisco.
 
-![Esempio di impostazione dell'ubicazione delle scorte](media/warehouse-inventory-locations.png)
+![Esempio di impostazione dell'ubicazione delle scorte.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Completare l'impostazione del magazzino
 
@@ -121,7 +121,7 @@ Per completare l'impostazione del magazzino, attenersi alla procedura seguente.
 
 L'immagine seguente mostra i dettagli di un magazzino configurato.
 
-![Esempio di magazzino configurato](media/warehouse-sample.png)
+![Esempio di magazzino configurato.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

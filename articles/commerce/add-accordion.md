@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba973299291276fe48d82360e203ca28f02aaffb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ddca8a3cc136080aa63f58cda3ba32bf6d2ca37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796272"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346974"
 ---
 # <a name="accordion-module"></a>Modulo Accordion
 
@@ -34,11 +34,11 @@ In ogni modulo Accordion, è possibile aggiungere uno o più moduli Elemento acc
 
 L'immagine seguente mostra un esempio di modulo Accordion utilizzato per organizzare le informazioni sulla pagina delle domande frequenti di un punto vendita.
 
-![Esempio di modulo Accordion](./media/ecommerce-accordion.PNG)
+![Esempio di modulo Accordion.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Proprietà del modulo Accordion
 
-| Nome proprietà | Valori | Descrizione |
+| Nome proprietà | Valori | descrizione |
 |---------------|--------|-------------|
 | Intestazione | Testo | Questa proprietà specifica un'intestazione di testo facoltativa per il modulo Accordion. |
 | Espandi tutto | **True** o **False** | Se il valore è impostato su **True**, la funzionalità di espansione/compressione è attivata, di modo che tutti gli elementi nel modulo Accordion possano essere espansi e compressi. |

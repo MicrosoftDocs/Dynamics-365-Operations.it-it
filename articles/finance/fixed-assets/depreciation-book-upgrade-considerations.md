@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.custom: 221624
+ms.custom:
+- "221624"
+- intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d42936a94e0f4d50ae227d760d5bee6e1e3a12e6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c7a6bcbccd9ea8c50fbf56ba080d2004dfa05087
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826980"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339819"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Panoramica dell'aggiornamento dei registri beni ammortizzabili
 
@@ -40,19 +42,19 @@ Opzione 1:  **sequenza numerica definita dal sistema-** - Questa è l'opzione pr
     -   Nome costante: **NumberSequenceDefaultParameterPrefix**
     -   Valore predefinito: "FADBUpgr"
 -   **Lunghezza alfanumerica** - La lunghezza del segmento alfanumerico della sequenza numerica.
-    -   Nome costante: **NumberSequenceDefaultParameterAlpanumericLength **
+    -   Nome costante: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Valore predefinito: 9
 -   **Numero iniziale** - Primo numero da utilizzare nella sequenza numerica.
-    -   Nome costante: **NumberSequenceDefaultParameterStartNumber  **
+    -   Nome costante: **NumberSequenceDefaultParameterStartNumber**
     -   Valore predefinito: 1
 
 Opzione 2: **Sequenza numerica definita dall'utente esistente** - Questa opzione consente di definire la sequenza numerica da utilizzare per l'aggiornamento. Può essere opportuno utilizzare questa opzione se si necessita di una configurazione di sequenza numerica avanzata. Per utilizzare una sequenza numerica, sarà necessario modificare la classe ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans di aggiornamento con le seguenti informazioni:
 
 -   **Codice sequenza numerica**: Il codice della sequenza numerica.
-    -   Nome costante: **NumberSequenceExistingCode **
+    -   Nome costante: **NumberSequenceExistingCode**
     -   Valore predefinito: Nessun valore predefinito, questo deve essere aggiornato al codice di sequenza numerica.
 -   **Sequenza numerica condivisa** È un valore booleano per identificare l'ambito della sequenza numerica. Utilizzare "true" per le sequenze numeriche comuni a tutte le società e "false" per un ambito specifico di una società. Quando si usa "false", la sequenza numerica con il nome specificato deve esistere in ciascuna società contenente le transazioni del registro beni ammortizzabili. Le sequenze numeriche condivise esistono in ogni partizione contenente le transazioni del registro beni ammortizzabili.
-    -   Nome costante: **NumberSequenceExistingIsShared **
+    -   Nome costante: **NumberSequenceExistingIsShared**
     -   Valore predefinito: true
 
 I parametri sono situati all'inizio della classe ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 

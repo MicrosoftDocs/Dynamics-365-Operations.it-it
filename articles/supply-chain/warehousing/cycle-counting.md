@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838348"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345260"
 ---
 # <a name="cycle-counting"></a>Conteggio ciclo
 
@@ -34,7 +34,7 @@ Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per c
 2.  **Elaborare il conteggio ciclo**: una volta creato il lavoro di conteggio ciclo, è possibile eseguirlo contando gli articoli in un'ubicazione magazzino e utilizzando un dispositivo mobile per inserire il risultato in Dynamics 365 Supply Chain Management. In alternativa, è possibile contare gli articoli in un'ubicazione magazzino senza creare il lavoro di conteggio ciclo. Questo processo viene definito *conteggio ciclo a campione*.
 3.  **Risolvere le differenze nel valore conteggiato**: dopo un conteggio ciclo, per tutti gli articoli con differenze nel valore conteggiato sarà impostato lo stato di lavoro **Revisione in sospeso** nel modulo **Tutto il lavoro**. È possibile risolvere le differenze nella pagina **Lavoro conteggio ciclo con revisione in sospeso**.
 
-Nella seguente illustrazione viene mostrato il processo di conteggio ciclo. ![Elabora flusso per conteggio ciclo](./media/performcyclecountinginawarehouselocation.jpg)
+Nella seguente illustrazione viene mostrato il processo di conteggio ciclo. ![Elabora flusso per conteggio ciclo.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Prerequisiti di conteggio ciclo
 Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di utilizzare il conteggio ciclo.

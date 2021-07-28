@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744029"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344299"
 ---
 # <a name="configure-and-filter-workspaces"></a>Configurare e filtrare aree di lavoro
 
@@ -32,11 +32,11 @@ Questo articolo fornisce una panoramica sul modo in cui configurare e filtrare l
 
 È possibile modificare l'aspetto e il comportamento di alcune aree di lavoro aggiornando le impostazioni applicabili all'area di lavoro intera. Quando un'area di lavoro può essere configurata, il riquadro azioni include un pulsante su cui fare clic per apportare modifiche di configurazione. Ad esempio, nella figura seguente, il pulsante è denominato **Configura area di lavoro personale**.
 
-[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![configure-and-filter-workspaces.](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 Quando si fa clic sul pulsante, viene visualizzata una finestra di dialogo in cui è possibile modificare le impostazioni predefinite per l'area di lavoro. Le impostazioni specifiche visualizzate nella finestra di dialogo variano per area di lavoro e dipendono dai controlli e dai dati aziendali specifici disponibili nell'area di lavoro.
 
-[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![configure-my-workspace.](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Filtrare un'area di lavoro
 
@@ -46,11 +46,11 @@ Molte aree di lavoro consentono di filtrare il contenuto visualizzato. I control
 
 È possibile filtrare l'intera area di lavoro utilizzando un filtri per l'intera area di lavoro. Un filtro per l'intera area di lavoro sarà disponibile nell'angolo superiore sinistro dell'area di lavoro. Se si seleziona un valore specifico nell'elenco a discesa, il contenuto dell'area di lavoro verrà filtrato in base alla selezione.
 
-[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![workspace-filter.](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 Quando si fa clic per aprire il filtro, verranno visualizzate varie opzioni.
 
-[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![workspace-filter-expanded.](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 Selezionare un'opzione per filtrare l'area di lavoro in base a tale opzione.
 
@@ -58,7 +58,7 @@ Selezionare un'opzione per filtrare l'area di lavoro in base a tale opzione.
 
 Se per le singole sezioni dell'area di lavoro sono presenti filtri, è possibile filtrare separatamente ciascuna sezione. Nella figura seguente il filtro (ovvero il campo che contiene il testo &quot;Filtro") è un esempio di un filtro del campo a testo libero.
 
-[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![workspace-section-filters.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Come per un filtro per l'intera area di lavoro, selezionare o immettere un valore nel campo per filtrare il contenuto della sezione.
 

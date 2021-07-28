@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c94cdfda4bab43cfc753374d517e22fd21da4bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190287"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343840"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelli di pianificazione del budget per Excel
 
@@ -37,17 +37,17 @@ I documenti del piano di budget possono essere visualizzati e modificati utilizz
 1. Aprire l'**elenco dei piani di budget** (**Impostazione budget** &gt; **Piani di budget**). 
 2. Fare clic su **Nuovo** per creare un nuovo documento di piano di budget. 
 
-   [![Elenco piani di budget](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Elenco piani di budget.](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Usare l'opzione **Aggiungi** riga per aggiungere righe. Fare clic su **Layout** visualizzare la configurazione di layout del documento di piano di budget. 
 
-   [![Aggiunta piani di budget](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Aggiunta piani di budget.](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 È possibile rivedere la configurazione del layout e modificarla in base alle necessità. 
 1. Passare a **Modello** &gt; **Genera** per creare un file di Excel per il layout. 
 2. Dopo che il modello viene generato, passare a **Modello** &gt; **Visualizza**  per aprire e rivedere il modello di documento di piano di budget. È possibile salvare il file di Excel nell'unità locale. 
 
-[![Salva con nome](./media/bpt3-1024x545.png)](./media/bpt3.png)
+[![Salva con nome.](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Il layout di documento del piano di budget non può essere modificato dopo che viene associato a un modello di Excel. Per modificare il layout, eliminare il file del modello di Excel associato e rigenerarlo. Questa operazione è necessaria per mantenere i campi nel layout e nel foglio di lavoro sincronizzati. 
@@ -64,7 +64,7 @@ Nella scheda **Progettazione**, fare clic sui campi **Aggiungi** quindi selezion
 
 Puntare il cursore nella posizione desiderata nel file di Excel. Fare clic su **Aggiungi etichetta** per aggiungere l'etichetta del campo nella posizione selezionata. Selezionare **Aggiungi valore** per il campo relativo al valore nel posto selezionato. Fare clic su **Fine** per chiudere la finestra di progettazione.
 
-## <a name="select-add-valuemediabpt7png"></a>[![Selezionare Aggiungi valore](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Selezionare Aggiungi valore.](./media/bpt7.png)](./media/bpt7.png)
 
 ## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Aggiungere una colonna calcolata alla tabella del modello di documento del piano di budget
 
@@ -72,11 +72,11 @@ A questo punto, le colonne calcolate verranno aggiunte al modello del documento 
 
 Fare clic su **Progettazione** in **Connettore dati** per aggiungere colonne alla tabella. Fare clic su **Modifica** accanto all'origine dati **BudgetPlanWorksheet** per avviare l'aggiunta delle colonne.
 
-[![Iniziare ad aggiungere colonne](./media/bpt8-1024x301.png)](./media/bpt8.png) 
+[![Iniziare ad aggiungere colonne.](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
 Il gruppo di campi selezionato visualizza le colonne disponibili nel modello. Fare clic su **Formula** per aggiungere una nuova colonna. Assegnare un nome alla nuova colonna quindi incollare la formula nel campo **Formula**. Fare clic su **Aggiorna** per inserire la colonna.
 
-[![Aggiungere e inserire la colonna](./media/bpt12-1024x565.png)](./media/bpt12.png)
+[![Aggiungere e inserire la colonna.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
 > Per definire la formula, creare la formula nel foglio di calcolo quindi copiarla nella finestra di **Progettazione**. Una tabella associata a Finance and Operations in genere verrà denominata "AXTable1". Ad esempio, per le riepilogare le colonne Request Q1 : Request Q4 del foglio di calcolo, la formula  = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
@@ -85,11 +85,11 @@ Ripetere questi passaggi per inserire la colonna **Adjustment**. Utilizzare la f
 
 Salvare e chiudere il file di Excel. In **Layout**, fare clic su **Modello &gt; Carica** per caricare il modello salvato di Excel da utilizzare per il piano di budget. 
 
-[![Caricare il modello di Excel](./media/bpt10-1024x352.png)](./media/bpt10.png) 
+[![Caricare il modello di Excel.](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
 Chiudere il dispositivo di scorrimento **Layout**. Nel documento **Piano di budget**, fare clic su **Foglio di lavoro** per visualizzare e modificare il documento in Excel. Si noti che il modello Excel rettificato è stato utilizzato per creare questo foglio di lavoro del piano di budget e le colonne calcolate vengono aggiornate mediante le formule definite nei passaggi precedenti. 
 
-[![Visualizzare e modificare il documento in Excel](./media/bpt111-1024x431.png)](./media/bpt111.png)
+[![Visualizzare e modificare il documento in Excel.](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Suggerimenti per creare modelli del piano di budget
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Posso aggiungere e utilizzare origini dati supplementari a un modello di piano di budget?
@@ -102,21 +102,21 @@ Sì, è possibile utilizzare il menu **Progettazione** per aggiungere le entità
 
 Sì. aprire le opzioni del **Connettore dati** per nascondere l'opzione **Progettazione** ad altri utenti.
 
-[![Aprire le opzioni del Connettore dati](./media/bpt13-1024x565.png)](./media/bpt13.png)
+[![Aprire le opzioni del Connettore dati.](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
 Espandere le opzioni del **Connettore dati** e deselezionare la casella di controllo **Abilita progettazione**. Questo nasconderà l'opzione  **Progettazione** dal **Connettori dati**.
 
-[![Nascondere l'opzione Progettazione dal connettore dati](./media/bpt14-1024x592.png)](./media/bpt14.png)
+[![Nascondere l'opzione Progettazione dal Connettore dati.](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
 ### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Posso impedire agli utenti di chiudere accidentalmente il connettore dati mentre utilizzano i dati?
 
 Si consiglia di bloccare il modello per impedire agli utenti di chiuderlo. Per abilitare il blocco, fare clic su  **Connettore dati**, nell'angolo superiore destro viene visualizzata una freccia. 
 
-[![Abilitare il blocco](./media/bpt15-1024x285.png)](./media/bpt15.png) 
+[![Abilitare il blocco.](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
 Fare clic sulla freccia per un menu aggiuntivo. Selezionare **Blocca**.
 
-### <a name="select-lockmediabpt16png"></a>[![Selezionare Blocca](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Selezionare Blocca.](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Posso utilizzare altre funzionalità di Excel, ad esempio formattazione di celle, colori, formattazione condizionale e i grafici con i modelli del piano di budget?
 

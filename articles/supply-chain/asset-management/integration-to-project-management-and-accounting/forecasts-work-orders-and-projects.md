@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813823"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345430"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Previsioni, ordini di lavoro e progetti
 
@@ -58,13 +58,13 @@ Alcune di queste informazioni potrebbero non essere presenti in un ordine di lav
 
 Ad esempio, nell'illustrazione seguente, a causa dell'impostazione del tipo di cespite **Motore camion**, ogni processo di ordine di lavoro creato con il tipo di cespite **Motore camion** sarà un sottoprogetto del progetto 000186.
 
-![Figura 1](media/01-integration-to-pma.png)
+![Figura 1.](media/01-integration-to-pma.png)
 
 Lo scopo dell'ID progetto nel processo di ordine di lavoro e del numero di attività correlato è di tenere traccia dei costi relativi al processo di ordine di lavoro e al cespite selezionato nello stesso nel modulo **Gestione progetti e contabilità**. Per visualizzare l'ID progetto e il numero di attività, selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** e quindi selezionare l'ordine di lavoro. Nella Scheda dettaglio **Dettagli riga**, il campo **ID progetto** mostra l'ID progetto e il campo **Numero attività** visualizza il numero di attività. Per ulteriori informazioni sul controllo dei costi in Gestione cespiti, vedere [Controllo dei costi e delle date](../controlling-and-reporting/cost-and-date-control.md).
 
 Nella figura seguente è illustrata una panoramica grafica dei progetti di ordine di lavoro e delle attività di progetto correlate.
 
-![Figura 2](media/02-integration-to-pma.png)
+![Figura 2.](media/02-integration-to-pma.png)
 
 Quando un nuovo processo di ordine di lavoro viene creato in un ordine di lavoro, un progetto di ordine di lavoro viene automaticamente creato per il processo. Le dimensioni finanziarie per il cespite correlato al processo di ordine di lavoro vengono trasferite automaticamente al progetto di ordine di lavoro.
 
@@ -86,17 +86,17 @@ Per assicurare l'utilizzo corretto degli stati del ciclo di vita di ordine di la
 
 Le illustrazioni seguenti mostrano le associazioni tra gruppi di progetti di ordine di lavoro, tipi di progetto correlati, fasi di progetto e stati del ciclo di vita di ordine di lavoro.
 
-![Figura 3](media/03-integration-to-pma.png)
+![Figura 3.](media/03-integration-to-pma.png)
 
-![Figura 4](media/04-integration-to-pma.png)
+![Figura 4.](media/04-integration-to-pma.png)
 
-![Figura 5](media/05-integration-to-pma.png)
+![Figura 5.](media/05-integration-to-pma.png)
 
 Per ulteriori informazioni su come impostare i progetti di ordine di lavoro, vedere [Impostazione del progetto di ordine di lavoro](../setup-for-work-orders/work-order-project-setup.md). Per ulteriori informazioni su come creare stati del ciclo di vita di ordine di lavoro, vedere [Stati del ciclo di vita ordine di lavoro](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 Nella figura seguente è illustrata una panoramica grafica dei vari progetti creati nel modulo **Gestione cespiti** per consentire l'integrazione con il modulo **Gestione progetti e contabilità**. Sono inoltre visualizzati i processi di lavoro a cui i progetti sono correlati.
 
-![Figura 6](media/06-integration-to-pma.png)
+![Figura 6.](media/06-integration-to-pma.png)
 
 
 

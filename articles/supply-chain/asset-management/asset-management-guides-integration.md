@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344272"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ Per associare una guida a un modello di elenco di controllo di manutenzione, att
     1. Nella Scheda dettaglio **Righe elenco di controllo di manutenzione** selezionare la riga a cui si desidera associare la guida.
     1. Nella scheda dettaglio **Guide associate** selezionare **Aggiungi guida**.
 
-        ![Associare una guida a una riga di elenco di controllo di manutenzione](media/am-guides-integration-add-guide.png "Associare una guida a una riga di elenco di controllo di manutenzione")
+        ![Associare una guida a una riga di elenco di controllo di manutenzione.](media/am-guides-integration-add-guide.png "Associare una guida a una riga di elenco di controllo di manutenzione")
 
     1. Nel campo **Nome** selezionare una guida, quindi selezionare **Salva**.
 
-        ![Selezionare una guida nel campo Nome](media/am-guides-integration-select-guide.png "Selezionare una guida nel campo Nome")
+        ![Selezionare una guida nel campo Nome.](media/am-guides-integration-select-guide.png "Selezionare una guida nel campo Nome")
 
 1. Associare il modello di elenco di controllo di manutenzione a un tipo di processo:
 
     1. [Creare un tipo di processo di manutenzione](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) o selezionare un tipo di processo di manutenzione esistente.
     1. Nel riquadro azioni selezionare **Valori predefiniti tipo di processo di manutenzione**.
 
-        ![Pulsante Valori predefiniti tipo di processo di manutenzione](media/am-guides-integration-job-defaults.png "Pulsante Valori predefiniti tipo di processo di manutenzione")
+        ![Pulsante Valori predefiniti tipo di processo di manutenzione.](media/am-guides-integration-job-defaults.png "Pulsante Valori predefiniti tipo di processo di manutenzione")
 
     1. Creare una riga, quindi selezionare **Salva**.
 
-        ![Creare una riga](media/am-guides-integration-add-line.png "Creare una riga")
+        ![Crea una riga.](media/am-guides-integration-add-line.png "Creare una riga")
 
     1. Nel riquadro azioni selezionare **Elenco di controllo di manutenzione**.
 
-        ![Pulsante Elenco di controllo di manutenzione](media/am-guides-integration-maintenance-checklist.png "Pulsante Elenco di controllo di manutenzione")
+        ![Pulsante Elenco di controllo di manutenzione.](media/am-guides-integration-maintenance-checklist.png "Pulsante Elenco di controllo di manutenzione")
 
     1. Nella Scheda dettaglio **Righe elenco di controllo di manutenzione** aggiungere una riga e quindi modificare il valore del campo **Tipo** in **Modello**.
 
-        ![Modificare il valore Tipo](media/am-guides-integration-checklist-lines.png "Modificare il valore Tipo")
+        ![Modificare il valore Tipo.](media/am-guides-integration-checklist-lines.png "Modificare il valore Tipo")
 
     1. Nella Scheda dettaglio **Dettagli riga** selezionare nel campo **Modello** il modello a cui è stata associata la guida, quindi selezionare **Salva**.
 
-        ![Selezionare il modello](media/am-guides-integration-checklist-line-details.png "Selezionare il modello")
+        ![Selezionare il modello.](media/am-guides-integration-checklist-line-details.png "Selezionare il modello")
 
 1. [Creare un ordine di lavoro](work-orders/manually-created-workorders.md#create-work-order), quindi selezionare il tipo di processo di manutenzione che utilizza il modello di elenco di controllo di manutenzione a cui è stata associata la guida. La guida viene automaticamente associata all'ordine di lavoro.
 
-    ![Selezionare un tipo di processo di manutenzione](media/am-guides-integration-create-work-order.png "Selezionare un tipo di processo di manutenzione")
+    ![Selezionare un tipo di processo di manutenzione.](media/am-guides-integration-create-work-order.png "Selezionare un tipo di processo di manutenzione")
 
 1. Visualizzare la guida associata all'ordine di lavoro e ai lavoratori.
 
@@ -95,11 +95,11 @@ Per associare una guida a un modello di elenco di controllo di manutenzione, att
     1. [Aprire l'elenco di controllo di manutenzione](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) per l'ordine di lavoro.
     1. Selezionare una riga dell'elenco di controllo per visualizzare la guida associata.
 
-        ![Guida associata a una riga dell'elenco di controllo](media/am-guides-integration-show-guide.png "Guida associata a una riga dell'elenco di controllo")
+        ![Guida associata a una riga dell'elenco di controllo.](media/am-guides-integration-show-guide.png "Guida associata a una riga dell'elenco di controllo")
 
     1. Aprire la guida in HoloLens.
 
-        ![Aprire la guida in HoloLens](media/am-guides-integration-hololens-select.png "Aprire la guida in HoloLens")
+        ![Aprire la guida in HoloLens.](media/am-guides-integration-hololens-select.png "Aprire la guida in HoloLens")
 
 > [!NOTE]
 > È inoltre possibile associare una guida direttamente all'elenco di controllo di manutenzione di un ordine di lavoro o di un tipo di processo.

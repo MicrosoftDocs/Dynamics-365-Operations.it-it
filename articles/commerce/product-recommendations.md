@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 044a5c21e4ebf1bf83edc74335e655b9388bc1d4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fc7d47897d1a332ba1af7305525f9e75bca12afd
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795599"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337505"
 ---
 # <a name="product-recommendations-overview"></a>Panoramica suggerimenti sul prodotto
 
@@ -32,6 +32,9 @@ Microsoft Dynamics 365 Commerce può essere utilizzato per visualizzare suggerim
 I suggerimenti sul prodotto consentono ai clienti di individuare facilmente e rapidamente i prodotti desiderati durante un'esperienza ottimale. Il cross-selling e l'up-selling possono inoltre essere utilizzati per consentire ai clienti di individuare ulteriori prodotti che originariamente non intendevano acquistare. Quando i suggerimenti sono utilizzati per aumentare l'individuazione di prodotti, possono creare più opportunità di conversione, aumentare i ricavi da vendite e persino amplificare la soddisfazione e la conservazione dei clienti.
 
 In e-Commerce, i suggerimenti sul prodotto sono generati mediante tecnologie di machine learning del servizio Suggerimenti di Microsoft su vasta scala.
+
+Questo servizio è un componente aggiuntivo per Dynamics 365 Commerce. Per ulteriori informazioni, scaricare l'ultima [guida alle licenze di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
+
 
 ## <a name="recommendation-service"></a>Servizio Suggerimenti
 

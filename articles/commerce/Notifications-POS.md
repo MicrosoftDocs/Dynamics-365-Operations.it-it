@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796488"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345210"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Visualizzare le notifiche degli ordini nel POS
 
@@ -72,14 +72,14 @@ I pulsanti POS possono ora riportare un conteggio per consentire ai lavoratori d
 
 La seguente illustrazione mostra le impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti.
 
-![Impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti](./media/ButtonGridDesigner.png "Impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti")
+![Impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti.](./media/ButtonGridDesigner.png "Impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti")
 
 Per visualizzare il conteggio di notifica su un pulsante, è necessario assicurarsi che venga aggiornato il layout dello schermo corretto. Per determinare il layout dello schermo utilizzato dal POS, selezionare l'icona **Impostazioni** nell'angolo superiore destro e verificare i campi **ID layout schermo** e **Risoluzione layout**. Ora utilizzando il nuovo browser Edge, passare alla pagina **Layout schermo**, cercare **ID layout schermo** e **Risoluzione layout** indicati sopra e selezionare la casella di controllo **Abilita contenuto in tempo reale**. Fare clic su **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione** ed eseguire il processo 1090 (dei registratori di cassa) per sincronizzare le modifiche del layout.
 
-![Individuare il layout dello schermo utilizzato dal POS](./media/Choose_screen_layout.png "Individuare il layout dello schermo")
+![Individuare il layout dello schermo utilizzato dal POS.](./media/Choose_screen_layout.png "Individuare il layout dello schermo")
 
 La seguente illustrazione mostra l'effetto della selezione di **Destra in alto** rispetto a **Centro** nel campo **Allineamento contenuto** per pulsanti di varie dimensioni.
 
-![Contenuto in diretta su pulsanti POS](./media/ButtonsWithLiveContent.png "Contenuto in diretta su pulsanti POS")
+![Contenuto in diretta su pulsanti POS.](./media/ButtonsWithLiveContent.png "Contenuto in diretta su pulsanti POS")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

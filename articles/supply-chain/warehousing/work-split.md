@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830764"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344148"
 ---
 # <a name="work-split"></a>Divisione lavoro
 
@@ -51,7 +51,7 @@ La funzionalità *Suddivisione lavoro* aggiunge i seguenti due pulsanti alla sch
 - **Suddivisione lavoro** – Dividere l'ID lavoro corrente in più ID lavoro di dimensioni minori che possono essere elaborati da lavoratori separati.
 - **Annulla sessione di suddivisione lavoro** - Annullare la sessione di suddivisione del lavoro e rendere il lavoro disponibile per l'elaborazione.
 
-![Pulsanti Suddivisione lavoro e Annulla sessione di suddivisione lavoro](media/Work_split_buttons.png "Pulsanti Suddivisione lavoro e Annulla sessione di suddivisione lavoro")
+![Pulsanti Suddivisione lavoro e Annulla sessione di suddivisione lavoro.](media/Work_split_buttons.png "Pulsanti Suddivisione lavoro e Annulla sessione di suddivisione lavoro")
 
 > [!IMPORTANT]
 > Il pulsante **Suddivisione lavoro** non sarà disponibile se viene soddisfatta una delle seguenti condizioni:
@@ -94,7 +94,7 @@ Per suddividere il lavoro, seguire questi passaggi.
 
     Il campo **Motivo del blocco di lavoro** per il lavoro corrente sarà impostato su *Suddivisione lavoro* e il lavoro verrà bloccato.
 
-    ![Motivo del blocco](media/Blocking_reason.png "Motivo del blocco")
+    ![Motivo del blocco.](media/Blocking_reason.png "Motivo del blocco")
 
 1. Selezionare le righe da rimuovere dall'ID lavoro corrente e aggiungerle a un nuovo ID lavoro. Si verificano gli eventi seguenti:
 

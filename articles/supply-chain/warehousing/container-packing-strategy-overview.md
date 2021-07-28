@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292763"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343726"
 ---
 # <a name="container-packing-strategies"></a>Strategie di imballaggio dei contenitori
 
@@ -251,7 +252,7 @@ Per configurare un criterio di consolidamento spedizione, segui questi passaggi.
 1. Seleziona il criterio **predefinito** nell'elenco.
 1. Nel riquadro azioni, seleziona **Modifica**.
 1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi selezionati**, seleziona la riga in cui il campo **Nome campo** è impostato su *Numero ordine*.
-1. Seleziona il pulsante **Rimuovi** ![Freccia sinistra](media/backward-button.png) per spostare il campo sull'elenco **Campi rimanenti**.
+1. Selezionare il pulsante **Rimuovi** ![Freccia SINISTRA.](media/backward-button.png) per spostare il campo nell'elenco **Campi rimanenti**.
 1. Nel riquadro azioni selezionare **Salva**.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>Impostare le dimensioni fisiche del prodotto

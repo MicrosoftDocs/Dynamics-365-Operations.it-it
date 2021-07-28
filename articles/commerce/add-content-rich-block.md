@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7dbeb8785641960cc2680335436aea10775759d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 20a2e0bc46e182172ccd96f556fd398e8bffc34b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347544"
 ---
 # <a name="text-block-module"></a>Modulo blocco testo
 
@@ -42,11 +42,11 @@ I moduli Blocco di testo possono essere utilizzati nei seguenti modi:
 
 L'immagine seguente mostra un esempio di modulo Blocco di testo utilizzato in una home page.
 
-![Esempio di un modulo Blocco di testo](./media/ecommerce-textblock.PNG)
+![Esempio di un modulo Blocco di testo.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Proprietà dei moduli Blocco di testo
 
-| Nome proprietà     | Valore                                            | Descrizione |
+| Nome proprietà     | Valore                                            | descrizione |
 |-------------------|--------------------------------------------------|-------------|
 | RTF         | RTF                                        | Testo di paragrafo. Alcune funzionalità RTF di base sono supportate, ad esempio testo in grassetto, sottolineato e in corsivo. |
 | Nome classe personalizzato | Il nome di una classe Cascading Style Sheets (CSS)        | Il nome di una classe CSS personalizzata fornita da uno sviluppatore per formattare questo modulo. Il nome della classe deve essere definito nel pacchetto di temi. |

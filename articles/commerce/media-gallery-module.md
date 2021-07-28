@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271282"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346718"
 ---
 # <a name="media-gallery-module"></a>Modulo raccolta multimediale
 
@@ -41,11 +41,11 @@ Ecco alcuni esempi di utilizzo per i moduli Galleria multimediale:
 
 Nell'esempio nella figura seguente, una casella acquisti in una PDP ospita le immagini dei prodotti utilizzando un modulo Galleria multimediale.
 
-![Esempio di una casella acquisti in una pagina dei dettagli del prodotto che ospita le immagini del prodotto utilizzando un modulo Galleria multimediale](./media/ecommerce-pdp-buybox.PNG)
+![Esempio di una casella acquisti in una pagina dei dettagli del prodotto che ospita immagini del prodotto utilizzando un modulo Galleria multimediale.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Proprietà della galleria multimediale
 
-| Nome proprietà | Valori | Descrizione |
+| Nome proprietà | Valori | descrizione |
 |---------------|--------|-------------|
 | Origine immagine | **Contesto pagina** o **ID prodotto** | Il valore predefinito è **Contesto pagina**. Se **Contesto pagina** è selezionato, il modulo prevede che la pagina fornisca le informazioni sull'ID prodotto. Se **ID prodotto** è selezionato, l'ID prodotto per un'immagine deve essere fornito come valore della proprietà **ID prodotto**. Questa funzionalità è disponibile in Commerce versione 10.0.12. |
 | ID prodotto | Un ID prodotto | Questa proprietà è applicabile solo se il valore della proprietà **Origine immagine** è **ID prodotto**. |
@@ -59,11 +59,11 @@ Nell'esempio nella figura seguente, una casella acquisti in una PDP ospita le im
 
 La seguente illustrazione mostra un esempio di un modulo Galleria multimediale in cui sono disponibili le opzioni di schermo intero e zoom.
 
-![Esempio di un modulo Galleria multimediale in cui sono disponibili le opzioni di schermo intero e zoom](./media/ecommerce-media-zoom.png)
+![Esempio di un modulo Galleria multimediale in cui sono disponibili le opzioni di schermo intero e zoom.](./media/ecommerce-media-zoom.png)
 
 La seguente illustrazione mostra un esempio di un modulo Galleria multimediale con immagini curate (ovvero, le immagini specificate non dipendono dall'ID prodotto o dal contesto della pagina).
 
-![Esempio di un modulo Galleria multimediale con immagini curate](./media/ecommerce-media-curated.PNG)
+![Esempio di un modulo Galleria multimediale con immagini curate.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interazione con Commerce Scale Unit
 

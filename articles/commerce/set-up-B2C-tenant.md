@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018582"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344373"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce utilizza Azure AD B2C per supportare le credenziali dell'u
 1. Accedere al [portale Azure](https://portal.azure.com/).
 1. Dal menu del portale di Azure, selezionare **Crea una risorsa**. Assicurarsi di utilizzare la sottoscrizione e la directory che saranno collegati al tuo ambiente Commerce.
 
-    ![Creare una risorsa nel portale di Azure](./media/B2CImage_1.png)
+    ![Creare una risorsa nel portale di Azure.](./media/B2CImage_1.png)
 
 1. Andare a **Identità \> Azure Active Directory B2C**.
 1. Una volta nella pagina **Crea nuovo tenant B2C o collegamento a tenant esistente**, utilizzare una delle opzioni seguenti più adatta alle esigenze dell'azienda:
@@ -52,25 +52,25 @@ Dynamics 365 Commerce utilizza Azure AD B2C per supportare le credenziali dell'u
         1. Per **Paese o area geografica**, selezionare il paese o l'area geografica.
         1. Selezionare **Crea** per creare il tenant.
 
-     ![Creare un nuovo tenant Azure AD](./media/B2CImage_2.png)
+     ![Creare un nuovo tenant Azure AD.](./media/B2CImage_2.png)
 
      - **Collega un tenant Azure AD B2C esistente alla sottoscrizione di Azure**: utilizzare questa opzione se si dispone già di un tenant Azure AD B2C che si desidera collegare.
         1. Selezionare **Collega un tenant Azure AD B2C esistente alla sottoscrizione di Azure**.
         1. Per **Tenant Azure AD B2C**, selezionare il tenant B2C appropriato. Se nella casella di selezione viene visualizzato il messaggio "Nessun tenant B2C idoneo trovato", non si dispone di un tenant B2C idoneo esistente e sarà necessario crearne uno nuovo.
         1. Per **Gruppo di risorse**, selezionare **Crea nuovo**. Immettere un **nome** per il gruppo di risorse che conterrà il tenant, selezionare **Ubicazione del gruppo di risorse**, quindi selezionare **Crea**.
 
-    ![Collegare un tenant Azure AD B2C esistente alla sottoscrizione di Azure](./media/B2CImage_3.png)
+    ![Collegare un tenant Azure AD B2C esistente alla sottoscrizione di Azure.](./media/B2CImage_3.png)
 
 1. Una volta creata la nuova directory Azure AD B2C (l'operazione potrebbe richiedere alcuni istanti) sul dashboard verrà visualizzato un collegamento alla nuova directory. Questo collegamento indirizzerà alla pagina di "Benvenuto in Azure Active Directory B2C".
 
-    ![Collegare alla nuova directory AAD](./media/B2CImage_4.png)
+    ![Collegare alla nuova directory AAD.](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Se sono presenti più sottoscrizioni nell'account Azure o è stato impostato il tenant B2C senza collegamento a una sottoscrizione attiva, un banner **Risoluzione dei problemi** esegue il reindirizzamento al collegamento del tenant a una sottoscrizione. Selezionare il messaggio della risoluzione dei problemi e seguire le istruzioni per risolvere il problema di sottoscrizione.
 
 L'immagine seguente mostra un esempio di banner **Risoluzione dei problemi** Azure AD B2C.
 
-![Avviso indicante che la directory non ha una sottoscrizione attiva](./media/B2CImage_5.png)
+![Avviso indicante che la directory non ha una sottoscrizione attiva.](./media/B2CImage_5.png)
 
 ## <a name="create-the-b2c-application"></a>Creare l'applicazione B2C
 
@@ -136,11 +136,11 @@ Per creare i criteri di accesso e iscrizione nel flusso utente, effettuare le se
 
 L'immagine seguente è un esempio di criteri di accesso e iscrizione Azure AD B2C nel flusso utente.
 
-![Impostazioni dei criteri di iscrizione e accesso](./media/B2CImage_11.png)
+![Impostazioni dei criteri di iscrizione e accesso.](./media/B2CImage_11.png)
 
 L'immagine seguente mostra l'opzione **Esegui flusso utente** nell'iscrizione e accesso Azure AD B2C nel flusso utente.
 
-![Eseguire l'opzione flusso utente nel flusso dei criteri](./media/B2CImage_23.png)
+![Eseguire l'opzione flusso utente nel flusso dei criteri.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Creare i criteri di flusso utente per la modifica del profilo
 
@@ -161,7 +161,7 @@ Per creare i criteri di flusso utente per la modifica del profilo, effettuare le
 
 L'immagine seguente mostra un esempio di flusso utente per la modifica del profilo Azure AD B2C.
 
-![Creare il flusso utente per la modifica del profilo](./media/B2CImage_12.png)
+![Creare il flusso utente per la modifica del profilo.](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Creare un flusso utente per la reimpostazione della password
 
@@ -225,18 +225,18 @@ Per aggiungere e configurare un provider di identità social, attenersi alla seg
 
 L'immagine seguente mostra esempi delle schermate **Aggiungi provider di identità** e **Imposta il provider di identità social** in Azure AD B2C.
 
-![Aggiunta di un provider di identità social all'applicazione](./media/B2CImage_14.png)
+![Aggiunta di un provider di identità social all'applicazione.](./media/B2CImage_14.png)
 
 L'immagine seguente mostra un esempio di come selezionare i provider di identità nella pagina **Provider di identità** di Azure AD B2C.
 
-![Selezionare ciascun provider di identità social da abilitare per i criteri](./media/B2CImage_16.png)
+![Selezionare ciascun provider di identità social da abilitare per i criteri.](./media/B2CImage_16.png)
 
 L'immagine seguente mostra un esempio di schermata di accesso predefinita con un pulsante di accesso del provider di identità social visualizzato.
 
 > [!NOTE]
 > Se usi le pagine personalizzate create in Commerce per i flussi utente, sarà necessario aggiungere i pulsanti per i provider di identità social utilizzando le funzionalità di estensibilità della libreria del modulo Commerce. Inoltre, quando si configurano le applicazioni con uno specifico provider di identità social, in alcuni casi l'URL o le stringhe di configurazione potrebbero fare distinzione tra maiuscole e minuscole. Fai riferimento alle istruzioni di connessione del provider di identità social per ulteriori informazioni.
  
-![Esempio di schermata di accesso predefinita con il pulsante di accesso al provider di identità social visualizzato](./media/B2CImage_17.png)
+![Esempio di schermata di accesso predefinita con il pulsante di accesso al provider di identità social visualizzato.](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>Aggiornare Commerce headquarters con le nuove informazioni Azure AD B2C
 
@@ -291,15 +291,15 @@ Per raccogliere le informazioni sull'applicazione richieste, attenersi alla segu
 
 L'immagine seguente mostra un esempio di pagina **Azure AD B2C - Applicazioni**.
 
-![Passare all'applicazione B2C all'interno del tenant](./media/B2CImage_19.png)
+![Passare all'applicazione B2C all'interno del tenant.](./media/B2CImage_19.png)
 
 L'immagine seguente mostra un esempio di pagina **Proprietà** dell'applicazione in Azure AD B2C. 
 
-![Copiare l'ID applicazione dalle proprietà dell'applicazione B2C](./media/B2CImage_21.png)
+![Copiare l'ID applicazione dalle proprietà dell'applicazione B2C.](./media/B2CImage_21.png)
 
 L'immagine seguente mostra un esempio di criteri di flusso degli utenti nella pagina **Azure AD B2C - Flussi utente (criteri)**.
 
-![Raccogliere i nomi di ciascun flusso di criteri B2C](./media/B2CImage_22.png)
+![Raccogliere i nomi di ciascun flusso di criteri B2C.](./media/B2CImage_22.png)
 
 ### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>Immettere le informazioni sull'applicazione del tenant AAD B2C in Commerce
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 3673705ba4a8d69c32848881d6a280a09047d1e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188023"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343888"
 ---
 # <a name="budget-planning"></a>Pianificazione del budget
 
@@ -47,11 +47,11 @@ Julia lavora come responsabile finanziario presso la società Contoso Entertainm
 
 Lo schema di configurazione del piano di budget per lo scenario appare nel seguente modo:
 
-![Scema di configurazione della pianificazione del budget](./media/screenshot1-300x152.png)
+![Schema di configurazione della pianificazione del budget.](./media/screenshot1-300x152.png)
 
 Julia utilizza il seguente modello Excel per preparare il budget:
 
-[![Modello di Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
+[![Modello di Excel.](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
 ## <a name="exercise-1-configuration"></a>Esercizio 1: configurazione
 
@@ -60,27 +60,27 @@ Poiché tutto il processo di creazione del budget si verifica nel reparto finanz
 
 1.1. Accedere alle gerarchie organizzative (Amministrazione organizzazione &gt; Organizzazioni &gt; Gerarchie organizzative) e fare clic sul pulsante Nuovo.
 
-![Gerarchie organizzative](./media/screenshot3.png) 
+![Gerarchie organizzative.](./media/screenshot3.png) 
 
 1.2. Immettere il nome per la gerarchia organizzativa nella casella Nome e fare clic sul pulsante Assegna scopo.
 
 1.3. Selezionare lo scopo di pianificazione del budget, fare clic su Aggiungi e assegnare la gerarchia organizzativa appena creata. 
 
-[![Assegna scopo](./media/screenshot5.png)](./media/screenshot5.png)
+[![Assegna scopo.](./media/screenshot5.png)](./media/screenshot5.png)
 
 1.4. Ripetere il passaggio precedente per lo scopo organizzativo di sicurezza. Al termine, chiudere il modulo.
 
 1.5. Nel modulo Gerarchie organizzative, fare clic su Visualizza. Fare clic su Modifica nella finestra di progettazione della gerarchia e creare una gerarchia facendo clic su Inserisci.
 
-[![Inserisci](./media/screenshot7.png)](./media/screenshot7.png) 
+[![Inserisci.](./media/screenshot7.png)](./media/screenshot7.png) 
 
 1.6. Selezionare il reparto finanziario per la gerarchia di creazione del budget. 
 
-[![Dati finanziari](./media/screenshot8.png)](./media/screenshot8.png)
+[![Dati finanziari.](./media/screenshot8.png)](./media/screenshot8.png)
 
 1.7. Al termine, fare clic su Pubblica e chiudi. Selezionare 1/1/2015 come data di validità per la pubblicazione della gerarchia.
 
-[![Data di validità](./media/screenshot9.png)](./media/screenshot9.png)
+[![Data di validità.](./media/screenshot9.png)](./media/screenshot9.png)
 
 ### <a name="task-2-configure-user-security"></a>Attività 2: configurare la sicurezza degli utenti
 La pianificazione del budget utilizza criteri di sicurezza per configurare l'accesso ai dati dei piani di budget. Julia deve assegnare l'accesso ai piani di budget finanziari a se stessa. 
@@ -90,15 +90,15 @@ La pianificazione del budget utilizza criteri di sicurezza per configurare l'acc
 
 2.2. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Nella scheda Parametri, impostare il valore del Modello di sicurezza su In base alle organizzazioni di sicurezza. 
 
-[![Parametri](./media/screenshot11.png)](./media/screenshot11.png) 
+[![Parametri.](./media/screenshot11.png)](./media/screenshot11.png) 
 
 2.3. Accedere ad Amministrazione sistema &gt; Utenti &gt; Utenti. Assegnare all'utente amministratore (Julia Funderburk) il ruolo di responsabile budget. 
 
-[![Responsabile budget](./media/screenshot12.png)](./media/screenshot12.png) 
+[![Responsabile budget.](./media/screenshot12.png)](./media/screenshot12.png) 
 
 2.4. Selezionare il ruolo utente e fare clic su Assegna organizzazioni. 
 
-[![Assegna organizzazioni](./media/screenshot13.png)](./media/screenshot13.png)
+[![Assegna organizzazioni.](./media/screenshot13.png)](./media/screenshot13.png)
 
 2.5. Selezionare "Concedi accesso a organizzazioni specifiche". Selezionare la gerarchia organizzativa creata nel primo passaggio. Selezionare il nodo Dati finanziari e fare clic sul pulsante Concedi con figli. 
 
@@ -109,7 +109,7 @@ La pianificazione del budget utilizza criteri di sicurezza per configurare l'acc
 
 *Nota: se si desidera, è possibile creare nuovi scenari per questo esercizio e utilizzare quelli.* 
 
-[![Nuovi scenari](./media/screenshot15.png)](./media/screenshot15.png) 
+[![Nuovi scenari.](./media/screenshot15.png)](./media/screenshot15.png) 
 
 *Nota: poiché Julia non utilizza il processo di approvazione formale per la preparazione del budget, in questo lab ignoreremo l'impostazione dei flussi di lavoro, delle fasi e delle fasi del flusso di lavoro e utilizzeremo l'impostazione esistente per l'approvazione automatica del flusso di lavoro. Vedere l'appendice per questa configurazione del flusso di lavoro.*
 
@@ -118,17 +118,17 @@ Le colonne del piano di budget sono colonne basate sulla liquidità o sulla quan
 
 4.1. Aprire la pagina Colonne in Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Fare clic sul pulsante Office nell'angolo superiore destro del modulo e selezionare Colonne (filtro non applicato). 
 
-[![Colonne non filtrate](./media/screenshot16.png)](./media/screenshot16.png) 
+[![Colonne non filtrate.](./media/screenshot16.png)](./media/screenshot16.png) 
 
 4.2. Il sistema aprirà la cartella di lavoro Excel da utilizzare per l'inserimento dei valori. Se richiesto, fare clic su Abilita modifica e Considera affidabile questa applicazione. 
 
 4.3. Saranno necessarie più colonne per inserire i valori. Fare clic su Progettazione nel riquadro laterale destro per aggiungere le colonne alla griglia. 
 
-[![Progetto](./media/screenshot19.png)](./media/screenshot19.png) 
+[![Progetto.](./media/screenshot19.png)](./media/screenshot19.png) 
 
 4.4. Fare clic sul pulsante della piccola matita accanto a PlanColumns per vedere le colonne disponibili da aggiungere alla griglia. 
 
-[![Modifica](./media/screenshot20.png)](./media/screenshot20.png) 
+[![Modifica.](./media/screenshot20.png)](./media/screenshot20.png) 
 
 4.5. Fare doppio clic su ogni campo disponibile per aggiungerlo ai campi selezionati, quindi fare clic su Aggiorna. 
 
@@ -136,7 +136,7 @@ Le colonne del piano di budget sono colonne basate sulla liquidità o sulla quan
 
 4.7. Tornare all'applicazione e aggiornare la pagina. I valori pubblicati verranno visualizzati. 
 
-[![Aggiornamento](./media/screenshot23.png)](./media/screenshot23.png)
+[![Aggiornamento.](./media/screenshot23.png)](./media/screenshot23.png)
 
 ### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Attività 5: creare modelli e layout del documento del piano di budget
 Il layout determina l'aspetto della griglia delle righe del documento del piano di budget quando l'utente apre il suddetto documento. È inoltre possibile passare al layout per il documento del piano di budget per visualizzare gli stessi dati in angolazioni diverse. Quindi, dopo aver creato le colonne definite da utilizzare con il documento del piano di budget, Julia deve creare un layout del documento del piano di budget, il cui aspetto sarà simile alla tabella Excel che utilizza per creare i dati di budget (vedere la sezione Panoramica dello scenario di questo lab) 
@@ -147,14 +147,14 @@ Il layout determina l'aspetto della griglia delle righe del documento del piano 
 -   Elencare tutte le colonne del piano di budget create nel passaggio precedente nella sezione Elementi. Rendere modificabili tutti i valori effettivi dell'anno precedente.
 -   Fare clic sul pulsante Descrizioni per selezionare le dimensioni finanziarie per cui visualizzare le descrizioni nella griglia.
 
-[![Descrizioni](./media/screenshot24.png)](./media/screenshot24.png) 
+[![Descrizioni.](./media/screenshot24.png)](./media/screenshot24.png) 
 
 In base alla definizione del layout del piano di budget, è possibile creare un modello Excel da utilizzare come metodo alternativo per la modifica dei dati di budget. Poiché il modello Excel deve corrispondere alla definizione del layout del piano di budget, non sarà possibile modificare il layout del piano di budget dopo la generazione del modello Excel; pertanto, è necessario effettuare questa attività dopo aver definito tutti i componenti del layout. 
 
 5.2. Per il layout creato nel passaggio 5.1., fare clic sul pulsante Modello &gt; Genera. Confermare il messaggio di avviso. Per visualizzare il modello, fare clic su Modello &gt; Visualizza. 
 
 *Nota: assicurarsi di selezionare "Salva con nome" e selezionare il luogo in cui il modello deve essere archiviato per modificarlo. Se l'utente seleziona "Apri" nella finestra di dialogo senza salvare, alla chiusura del file le modifiche apportate al file non verranno mantenute.* 
-[![Visualizzazione modello](./media/screenshot25.png)](./media/screenshot25.png) 
+[![Visualizzazione modello.](./media/screenshot25.png)](./media/screenshot25.png) 
 
 5.3. &lt;Passaggio facoltativo&gt; Modificare il modello Excel per renderlo più facile e intuitivo: aggiungere formule totali, campi di intestazione, formattazione e così via. Salvare le modifiche e caricare il file nel piano di budget facendo clic su Layout &gt; Carica. 
 
@@ -174,11 +174,11 @@ Julia deve creare e attivare un nuovo processo di pianificazione del budget che 
 
 *Nota: è possibile creare layout di documento aggiuntivi e assegnarli per renderli disponibili nella fase del flusso di lavoro di pianificazione del budget facendo clic sul pulsante Layout alternativi.* 
 
-[![Layout alternativi](./media/screenshot27.png)](./media/screenshot27.png) 
+[![Layout alternativi.](./media/screenshot27.png)](./media/screenshot27.png) 
 
 6.2. Selezionare Azioni &gt; Attiva per attivare questo flusso di lavoro di pianificazione del budget. 
 
-[![Attiva](./media/screenshot28.png)](./media/screenshot28.png)
+[![Attiva.](./media/screenshot28.png)](./media/screenshot28.png)
 
 ## <a name="exercise-2-process-simulation"></a>Esercizio 2: simulazione del processo
 
@@ -187,26 +187,26 @@ Julia deve creare e attivare un nuovo processo di pianificazione del budget che 
 
 7.2. Accedere a Budget &gt; Piani di budget per cercare un piano di budget creato da Genera processo. 
 
-[![Piano di budget](./media/screenshot30.png)](./media/screenshot30.png) 
+[![Piano di budget.](./media/screenshot30.png)](./media/screenshot30.png) 
 
 7.3. Aprire i dettagli del documento facendo clic sul collegamento ipertestuale Numero di documento. Il piano di budget viene visualizzato come definito nel layout creato in questo lab. 
 
-[![Visualizzazione del piano di budget](./media/screenshot31.png)](./media/screenshot31.png)
+[![Visualizzazione del piano di budget.](./media/screenshot31.png)](./media/screenshot31.png)
 
 ### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Attività 8: creare il budget dell'anno corrente in base ai valori effettivi dell'anno precedente
 I metodi di allocazione possono essere utilizzati nel piano di budget per copiare facilmente le informazioni per i piani di budget da uno scenario all'altro, distribuirle su periodi, allocarle in dimensioni. Utilizzeremo le allocazioni per creare il budget dell'anno corrente dai valori effettivi dell'anno precedente. 
 
 8.1. Selezionare tutte le righe nella griglia del documento del piano di budget e fare clic su Alloca budget. 
 
-[![Tutte le righe](./media/screenshot32.png)](./media/screenshot32.png) 
+[![Tutte le righe.](./media/screenshot32.png)](./media/screenshot32.png) 
 
 8.2. Selezionare il metodo di allocazione, Chiave periodo, Origine e gli scenari di destinazione e fare clic su Alloca. 
 
-[![Alloca](./media/screenshot33.png)](./media/screenshot33.png)
+[![Alloca.](./media/screenshot33.png)](./media/screenshot33.png)
 
 Gli importi effettivi dell'anno precedente verranno copiati sul budget per l'anno corrente e verranno allocati sui periodi utilizzando la chiave del periodo della curva delle vendite. 
 
-[![Curva di vendita](./media/screenshot34.png)](./media/screenshot34.png)
+[![Curva di vendita.](./media/screenshot34.png)](./media/screenshot34.png)
 
 ### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Attività 9: rettificare il documento del piano di budget utilizzando Excel e finalizzare il documento
 9.1. Fare clic sul pulsante del foglio di lavoro per aprire i contenuti del documento in Excel.
@@ -215,9 +215,9 @@ Gli importi effettivi dell'anno precedente verranno copiati sul budget per l'ann
 
 9.3. Tornare al documento di piano di budget. Fare clic sul pulsante Flusso di lavoro &gt; Invia per l'approvazione automatica del documento.
 
-[![Approvazione automatica](./media/screenshot37.png)](./media/screenshot37.png) 
+[![Approvazione automatica.](./media/screenshot37.png)](./media/screenshot37.png) 
 
-Una volta completato il flusso di lavoro, la fase del documento del piano di budget viene modificata in Approvata. [![Approvati](./media/screenshot38.png)](./media/screenshot38.png)
+Una volta completato il flusso di lavoro, la fase del documento del piano di budget viene modificata in Approvata. [![Approvati.](./media/screenshot38.png)](./media/screenshot38.png)
 
 ## <a name="appendix"></a>Appendice
 
@@ -225,21 +225,21 @@ Una volta completato il flusso di lavoro, la fase del documento del piano di bud
 
 A. Impostazione del budget &gt; Impostazione &gt; Pianificazione del budget &gt; Flussi di lavoro impostazione budget. Creare un nuovo flusso di lavoro utilizzando i flussi di lavoro di pianificazione del budget del modello:
 
-[![Creare un nuovo flusso di lavoro](./media/screenshot39.png)](./media/screenshot39.png)
+[![Creare un nuovo flusso di lavoro.](./media/screenshot39.png)](./media/screenshot39.png)
 
 Questo flusso di lavoro conterrà una sola attività - Transizione di fase piano di budget. 
 
-[![Transizione di fase piano di budget](./media/screenshot40.png)](./media/screenshot40.png) 
+[![Transizione di fase piano di budget.](./media/screenshot40.png)](./media/screenshot40.png) 
 
 Salvare e attivare il flusso di lavoro. 
 
 B. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Nella scheda Fasi creare 2 fasi - Iniziale e Inviata. 
 
-[![Iniziale e inviato](./media/screenshot41.png)](./media/screenshot41.png)
+[![Iniziale e inviata.](./media/screenshot41.png)](./media/screenshot41.png)
 
 C. Accedere a Budget &gt; Impostazioni &gt; Pianificazione del budget &gt; Configurazione di pianificazione del budget. Nella scheda Fasi flusso di lavoro associare il flusso di lavoro di approvazione automatica creato nel passaggio A alle fasi Iniziale e Inviata.
 
-[![Pianificazione del budget e controllo del budget](./media/screenshot42.png)](./media/screenshot42.png)  
+[![Pianificazione del budget e controllo del budget.](./media/screenshot42.png)](./media/screenshot42.png)  
 
 
 

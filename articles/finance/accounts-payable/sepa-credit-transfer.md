@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897164"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346452"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Panoramica dei bonifici SEPA
 
@@ -30,7 +32,7 @@ Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che inclu
 
 ## <a name="what-is-a-credit-transfer-message"></a>Che cos'è un messaggio di bonifico?
 Il messaggio di bonifico è una richiesta inviata dalla parte che inizia la transazione (la società) per spostare fondi dal proprio conto a quello di un creditore. Esistono molte implementazioni specifiche per banca e per paese di messaggi di bonifico. Alcune di tali implementazioni sono utilizzate all'interno di un paese e alcune stanno diventando standard. Uno standard globale affermato è ISO 20022 e i relativi messaggi di inizio della transazione, ad esempio Bonifico. La figura riportata di seguito mostra le relazioni e la copertura per messaggi di bonifico selezionati. 
-![Bonifico](./media/credit-transfer.jpg) Messaggi di bonifico 
+![Bonifico.](./media/credit-transfer.jpg) Messaggi di bonifico 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Che cosa sono i pagamenti ISO 20022 e SEPA?
 SEPA (Single Euro Payments Area) viene impostata dalla Commissione Europea e stabilisce che tutti i pagamenti elettronici vengono considerati nazionali, indipendentemente dal paese in cui si trovano i singoli individui, le aziende o l'organizzazione e la banca. Non c'è differenza tra i pagamenti nazionali e quelli transfrontalieri. Il SEPA include i 28 stati membri dell'Unione Europea (UE) oltre all'Islanda, il Liechtenstein, la Norvegia, la Svizzera, Monaco e San Marino. SEPA consente di formare un singolo mercato per le transazioni di pagamento all'interno dell'Area Economica Europea. Infine, SEPA prevede di ridurre il numero dei formati di pagamento con cui lavorano le banche, le aziende e i singoli individui. La Commissione Europea ha stabilito la base legale per i pagamenti SEPA nella direttiva relativa ai servizi di pagamento. L'European Payment Council (EPC) supporta SEPA nelle seguenti attività:

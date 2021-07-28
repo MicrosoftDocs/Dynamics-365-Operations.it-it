@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893278"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345890"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Progettare configurazioni ER per sopprimere i caratteri BOM nei file generati
 
@@ -29,14 +29,14 @@ ms.locfileid: "5893278"
 > [!NOTE]
 > Se il formato contiene un nome di codifica errato, viene generato un errore quando si salvano le modifiche alle impostazioni del formato.
 
-![Aggiunta di un elemento radice nella pagina Progettazione formati](./media/er-suppress-bom-characters-image1.gif)
+![Aggiunta di un elemento radice nella finestra di progettazione Formato.](./media/er-suppress-bom-characters-image1.gif)
 
 Se specifichi **UTF-8**, **UTF-16** o **UTF-32** come codifica, l'opzione **Elimina caratteri BOM** l'opzione diventa disponibile. Imposta questa opzione su **Sì** per eliminare i [caratteri byte order mark (BOM)](/globalization/encoding/byte-order-mark) nei file in uscita che vengono generati in fase di esecuzione quando viene eseguito il formato ER modificabile.
 
 > [!NOTE]
 > Se si lascia vuoto il campo **Codifica**, viene utilizzata la codifica **UTF-8** predefinita.
 
-![Impostazione dell'opzione Sopprimi caratteri BOM nella pagina Progettazione formato](./media/er-suppress-bom-characters-image2.gif)
+![Impostazione dell'opzione Sopprimi caratteri BOM nella finestra di progettazione Formato.](./media/er-suppress-bom-characters-image2.gif)
 
 Per rivedere la funzionalità in fase di esecuzione, completare la procedura appropriata. Ad esempio, completare i passaggi nell'argomento [Posticipa l'esecuzione di elementi XML nei formati ER](er-defer-xml-element.md). Dopo aver completato i passaggi nella sezione [Modificare il formato in modo che il calcolo sia basato sull'output generato](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) di quell'argomento, segui questi passaggi aggiuntivi.
 
@@ -59,7 +59,7 @@ Per rivedere la funzionalità in fase di esecuzione, completare la procedura app
 
     La prima differenza che noterai è nell'intestazione del file. Il file SampleXmlReport.xml contiene un carattere BOM, mentre il file SampleXmlReport (1) .xml no.
 
-    ![Confronto dei file generati utilizzando un'utilità di confronto file](./media/er-suppress-bom-characters-image3.png)
+    ![Confronto dei file generati utilizzando un'utilità di confronto file.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>Vedere anche
 

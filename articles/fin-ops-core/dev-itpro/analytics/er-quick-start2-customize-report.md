@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 189a420089db7612a6f1b9f8a74b36b72a750c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345938"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Modificare un formato ER per generare un documento elettronico personalizzato
 
@@ -142,7 +144,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft D
 5. Nella scheda dettaglio **Versioni** seleziona la versione **1.1** della configurazione del formato ER selezionata.
 6. Seleziona **Importa** per scaricare la versione selezionata dall'archivio Globale nell'istanza corrente di Finance.
 
-![Configurazione della pagina dell'archivio](./media/er-quick-start2-import-solution1.png)
+![Pagina Archivio di configurazione.](./media/er-quick-start2-import-solution1.png)
 
 > [!TIP]
 > In caso di problemi di accesso all'[archivio globale](er-download-configurations-global-repo.md), puoi invece [scaricare le configurazioni](download-electronic-reporting-configuration-lcs.md) da Microsoft Dynamics Lifecycle Services (LCS).
@@ -158,7 +160,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft D
     - **Mapping di modello di pagamento 1611**: questa configurazione contiene il componente ER [mapping del modello](general-electronic-reporting.md#data-model-and-model-mapping-components) che descrive in che modo il modello di dati viene compilato con i dati dell'applicazione in fase di esecuzione.
     - **BACS (Regno Unito)**: questa configurazione contiene i componenti ER [formato](general-electronic-reporting.md#FormatComponentOutbound) e mapping del formato. Il componente di formato specifica il layout del report. Il componente di mapping del formato contiene l'origine dati del modello e specifica come viene compilato il layout del report utilizzando questa origine dati in fase di esecuzione.
 
-![Pagina Configurazioni](./media/er-quick-start2-imported-solution1.png)
+![Pagina Configurazioni.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Preparare un pagamento fornitore per l'elaborazione
 
@@ -177,7 +179,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft D
     5. Nel campo **IBAN**, immetti **GB33BUKB20201555555555**.
     6. Nel campo **Numero di registrazione**, mantieni il valore predefinito, <a id="DefineRoutingNumber"></a>**123456**.
 
-    ![Pagina Conti bancari fornitore](./media/er-quick-start2-bank-account.png)
+    ![Pagina Conti bancari fornitore.](./media/er-quick-start2-bank-account.png)
 
 4. Selezionare **Salva**.
 5. Chiudere la pagina.
@@ -185,7 +187,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft D
 7. Nella pagina dei dettagli del fornitore, seleziona **Modifica** per rendere modificabile la pagina, se necessario.
 8. Nella scheda dettaglio **Pagamento**, nel campo **Conto bancario**, seleziona **GBP OPER**.
 
-    ![Pagina Dettagli fornitore](./media/er-quick-start2-bank-account-reference.png)
+    ![Pagina Dettagli fornitore.](./media/er-quick-start2-bank-account-reference.png)
 
 9. Selezionare **Salva**.
 10. Chiudere la pagina.
@@ -202,11 +204,11 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft D
 6. Nella finestra di dialogo **Proposta di pagamento fornitore**, configura le condizioni per filtrare i record per il conto fornitore **GB_SI_000001**, quindi seleziona **OK**.
 7. Seleziona la riga per la fattura **00000007_Inv**, quindi seleziona **Crea pagamento**.
 
-    ![Finestra di dialogo Proposta di pagamento fornitore](./media/er-quick-start2-payment-proposal.png)
+    ![Finestra di dialogo Proposta di pagamento fornitore.](./media/er-quick-start2-payment-proposal.png)
 
 8. Verifica che il pagamento immesso sia configurato per l'utilizzo del metodo di pagamento **Elettronico**.
 
-    ![Pagina Pagamenti fornitore](./media/er-quick-start2-payment-line.png)
+    ![Pagina Pagamenti fornitore.](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>Elaborare un pagamento fornitore utilizzando il formato ER standard
 
@@ -220,7 +222,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft D
 4. Nella scheda dettaglio **Formati file**, imposta l'opzione **Formato esportazione elettronica generica** su **Sì**.
 5. Nel campo **Esporta configurazione formato** seleziona la configurazione del formato **BACS (Regno Unito)**.
 
-    ![Pagina Metodi di pagamento - Fornitori](./media/er-quick-start2-method-of-payment1.png)
+    ![Pagina Metodi di pagamento - Fornitori.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Selezionare **Salva**.
 
@@ -237,7 +239,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft D
 5. Selezionare **OK**.
 6. Nella finestra di dialogo **Parametri per la creazione di report elettronici**, imposta l'opzione **Stampa report di controllo** su **Sì**, quindi seleziona **OK**.
 
-    ![Pagina Parametri per la creazione di report elettronici](./media/er-quick-start2-payment-dialog1.png)
+    ![Pagina Parametri Creazione di report elettronici.](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > Oltre al file di pagamento, è ora possibile generare il report di controllo.
@@ -249,7 +251,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft D
 
         Si noti che, in conformità con la [struttura](#PositionRoutingNumber) del formato ER fornito, la riga di pagamento nel file generato inizia con il numero di registrazione che era [definito](#DefineRoutingNumber)per il conto bancario configurato.
 
-        ![File di pagamento in formato TXT](./media/er-quick-start2-payment-file1.png)
+        ![File di pagamento in formato TXT.](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>Personalizzare il formato ER standard
 
@@ -265,13 +267,13 @@ In questo caso, in qualità di rappresentante di Litware, Inc., devi creare (der
 4. Nel gruppo di campi **Nuovo**, selezionare l'opzione **Deriva da nome: BACS (Regno Unito), Microsoft**.
 5. Nel campo **Nome**, immetti **BACS (Regno Unito, personalizzato)**.
 
-    ![Finestra di dialogo a discesa Crea configurazione](./media/er-quick-start2-add-derived-format.png)
+    ![Finestra di dialogo a discesa Crea configurazione.](./media/er-quick-start2-add-derived-format.png)
 
 6. Selezionare **Crea configurazione**.
 
 Viene creata la versione 1.1.1 della configurazione del formato ER **BACS (Regno Unito, personalizzato)**. Questa versione ha uno [stato](general-electronic-reporting.md#component-versioning) di **Bozza** e può essere modificata. Il contenuto corrente del tuo formato ER personalizzato corrisponde al contenuto del formato fornito da Microsoft.
 
-![Pagina Configurazioni](./media/er-quick-start2-derived-format-configuration1.png)
+![Pagina Configurazioni.](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Modificare un formato personalizzato
 
@@ -291,7 +293,7 @@ Viene creata la versione 1.1.1 della configurazione del formato ER **BACS (Regno
 
 7. Seleziona l'elemento **transazione**.
 
-    ![Elemento di transazione nella finestra di progettazione Operazioni ER](./media/er-quick-start2-derived-format0.png)
+    ![Elemento transazione nella finestra di progettazione Operazioni ER.](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > Il report fornito è configurato in modo tale che <a id="PositionRoutingNumber"></a>ogni riga di pagamento inizi con il numero di registrazione bancario. L'elemento di formato **vendBankRouteNum** viene utilizzato per questo scopo. 
@@ -309,13 +311,13 @@ Viene creata la versione 1.1.1 della configurazione del formato ER **BACS (Regno
 9. Nell'albero della struttura del formato, seleziona **vendBankSWIFT**.
 10. Seleziona **Sposta su** per spostare l'elemento del formato selezionato di un livello superiore. Ripeti questo passaggio fino a quando l'elemento **vendBankSWIFT** è il <a id="PositionSWIFTCode"></a>primo elemento sotto l'elemento padre **transazione**.
 
-    ![VendBankSWIFT come primo elemento in transazione nella finestra di progettazione Operazioni ER](./media/er-quick-start2-derived-format1.png)
+    ![VendBankSWIFT come primo elemento in transazione nella finestra di progettazione Operazioni ER.](./media/er-quick-start2-derived-format1.png)
 
 11. Mentre **vendBankSWIFT** è ancora selezionato nella struttura ad albero del formato, seleziona la scheda **Mapping**, quindi espandi l'origine dati **modello**.
 12. Espandi **model.Payment**\>**model.Payment.CreditorAgent** e seleziona il campo dell'origine dati **model.Payment.CreditorAgent.BICFI**. Questo campo dell'origine dati espone il codice SWIFT di una banca del fornitore a cui è assegnato il ruolo di agente nel pagamento del fornitore elaborato.
 13. Selezionare **Associa**. L'elemento di formato **vendBankSWIFT** è ora associato al campo dell'origine dati **model.Payment.CreditorAgent.BICFI**, in modo che i codici SWIFT vengano inseriti nei file di pagamento generati.
 
-    ![Elemento del formato vendBankSWIFT associato al campo dell'origine dati model.Payment.CreditorAgent.BICFI nella finestra di progettazione Operazioni ER](./media/er-quick-start2-derived-format2.png)
+    ![Elemento di formato vendBankSWIFT associato al campo dell'origine dati model.Payment.CreditorAgent.BICFI nella finestra di progettazione Operazioni ER.](./media/er-quick-start2-derived-format2.png)
 
 14. Selezionare **Salva**.
 15. Chiudi la pagina della finestra di progettazione.
@@ -333,7 +335,7 @@ Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare 
 5. Nell'albero di configurazione nel riquadro sinistro, seleziona **BACS (Regno Unito, personalizzato)**.
 6. Imposta l'opzione **Esegui bozza** su **Sì**.
 
-    ![Opzione Esegui bozza nella pagina Configurazioni](./media/er-quick-start2-derived-format-configuration2.png)
+    ![Opzione Esegui bozza nella pagina Configurazioni.](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>Elaborare un pagamento fornitore utilizzando il formato ER personalizzato
 
@@ -347,7 +349,7 @@ Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare 
 4. Nella scheda dettaglio **Formatofile**, imposta l'opzione **Formato esportazione elettronica generica** su **Sì**.
 5. Nel campo **Esporta configurazione formato** seleziona la configurazione del formato **BACS (Regno Unito, personalizzato)**.
 
-    ![Pagina Metodi di pagamento - Fornitori](./media/er-quick-start2-method-of-payment2.png)
+    ![Pagina Metodi di pagamento - Fornitori.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Selezionare **Salva**.
 
@@ -376,7 +378,7 @@ Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare 
 
         Si noti che, in conformità con la struttura del formato ER personalizzato, la riga di pagamento nel file generato ora [inizia](#PositionSWIFTCode) con il codice SWIFT [immesso](#DefineSWIFTCode) per il conto bancario del fornitore il cui pagamento è stato elaborato.
 
-        ![File di pagamento in formato TXT](./media/er-quick-start2-payment-file2.png)
+        ![File di pagamento in formato TXT.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Importare nuove versioni delle configurazioni del formato ER standard
 
@@ -393,7 +395,7 @@ Per aggiungere le nuove versioni delle configurazioni ER standard all'istanza co
 5. Nella scheda dettaglio **Versioni** seleziona la versione **3.3** della configurazione del formato ER selezionata.
 6. Seleziona **Importa** per scaricare la versione selezionata dall'archivio Globale nell'istanza corrente di Finance.
 
-![Configurazione della pagina dell'archivio](./media/er-quick-start2-import-solution2.png)
+![Pagina Archivio di configurazione.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > In caso di problemi di accesso all'[archivio globale](er-download-configurations-global-repo.md), puoi invece [scaricare le configurazioni](download-electronic-reporting-configuration-lcs.md) da LCS.
@@ -408,7 +410,7 @@ Per aggiungere le nuove versioni delle configurazioni ER standard all'istanza co
 6. Nella pagina **Progettazione formati**, espandi l'elemento di formato **BACSReportsFolder**.
 7.  Si noti che la versione 3.3 contiene l'elemento di formato **PaymentAdviceReport** utilizzato per generare un report di avviso di pagamento quando viene elaborato un pagamento fornitore.
 
-    ![Elemento di formato PaymentAdviceReport nella finestra di progettazione Operazioni ER](./media/er-quick-start2-imported-solution2.png)
+    ![Elemento di formato PaymentAdviceReport nella finestra di progettazione Operazioni ER.](./media/er-quick-start2-imported-solution2.png)
 
 8. Chiudi la pagina della finestra di progettazione.
 
@@ -434,14 +436,14 @@ Per iniziare a utilizzare la nuova funzionalità della versione 3.3 del formato 
 3. Nella Scheda Dettaglio **Versioni**, seleziona la versione **1.1.2**, quindi seleziona **Riassegna**.
 4. Nella finestra di dialogo **Riassegna**, nel campo **Versione destinazione**, seleziona la versione **3.3** della configurazione di base per applicarla come nuova base e utilizzarla per aggiornare la configurazione.
 
-    ![Finestra di dialogo Riassegna](./media/er-quick-start2-rebase1.png)
+    ![Finestra di dialogo Riassegna.](./media/er-quick-start2-rebase1.png)
 
 5. Selezionare **OK**.
 6. Si noti che il numero della versione bozza è stato modificato da **1.1.2** a **3.3.2** per riflettere la modifica nella versione base.
 
     Quando la versione personalizzata e la nuova versione di base vengono unite, alcuni conflitti potrebbero essere individuati a causa di modifiche di formato che non possono essere unite automaticamente.
 
-    ![Configurazione riassegnata con conflitti nella pagina Configurazioni](./media/er-quick-start2-rebase2.png)
+    ![Configurazione riassegnata con conflitti nella pagina Configurazioni.](./media/er-quick-start2-rebase2.png)
 
     Se vengono rilevati conflitti, devono essere risolti manualmente nella finestra di progettazione del formato.
 
@@ -449,13 +451,13 @@ Per iniziare a utilizzare la nuova funzionalità della versione 3.3 del formato 
 8. Selezionare **Progettazione**.
 9. Nella pagina **Progettazione formato**, sulla Scheda Dettaglio **Dettagli**, seleziona un record di conflitto di riassegnazione e quindi seleziona **Applica valore base**.
 
-    ![Record di conflitto riassegnazione nella finestea di progettazione Operazioni ER](./media/er-quick-start2-rebase3.png)
+    ![Record di conflitto riassegnazione nella finestra di progettazione Operazioni ER.](./media/er-quick-start2-rebase3.png)
 
 10. Selezionare **Salva**.
 
     Il record di conflitto di riassegnazione non dovrebbe più apparire nella scheda Dettaglio **Dettagli**.
 
-    ![Conflitto risolto nella finestea di progettazione Operazioni ER](./media/er-quick-start2-rebase4.png)
+    ![Conflitto risolto nella finestra di progettazione Operazioni ER.](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > Hai risolto il conflitto confermando che la versione 3 del modello base deve essere utilizzata in questo formato ER.
@@ -463,7 +465,7 @@ Per iniziare a utilizzare la nuova funzionalità della versione 3.3 del formato 
 11. Espandi **BACSReportsFolder** \> **file** \> **transazioni** \> **transazione**.
 12. Nella scheda **Mapping**, tieni presente che la versione 3.3.2 del tuo formato ER personalizzato contiene sia la tua personalizzazione (l'elemento di formato **vendBankSWIFT** ed è vincolante) e la nuova funzionalità della versione 3.3 del formato ER di base fornito da Microsoft (l'elemento di formato **PaymentAdviceReport** insieme ai suoi elementi nidificati e ai binding configurati). In pochi clic del mouse, hai adottato le modifiche di una nuova versione di base unendole alla tua personalizzazione.
 
-    ![Formato unito nella finestra di progettazione Operazioni ER](./media/er-quick-start2-rebase5.png)
+    ![Formato unito nella finestra di progettazione Operazioni ER.](./media/er-quick-start2-rebase5.png)
 
 13. Chiudi la pagina della finestra di progettazione.
 
@@ -488,7 +490,7 @@ Per iniziare a utilizzare la nuova funzionalità della versione 3.3 del formato 
     - Impostare l'opzione **Stampa report controllo** su **Sì**.
     - Imposta l'opzione **Stampa avviso di pagamento** su **Sì**.
 
-    ![Finestra di dialogo Parametri per la creazione di report elettronici](./media/er-quick-start2-payment-dialog2.png)
+    ![Finestra di dialogo parametri Creazione di report elettronici.](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > Oltre al file di pagamento, è ora possibile generare sia il report di controllo sia il report dell'avviso di pagamento.
@@ -499,13 +501,13 @@ Per iniziare a utilizzare la nuova funzionalità della versione 3.3 del formato 
     - Il report di controllo in formato Excel
     - Il report di avviso di pagamento in formato Excel
 
-        ![Report di avviso di pagamento in formato Excel](./media/er-quick-start2-payment-advice-report.png)
+        ![Report di avviso di pagamento in formato Excel.](./media/er-quick-start2-payment-advice-report.png)
 
     - Il file di pagamento in formato TXT
 
         Si noti che la riga di pagamento nel file generato ora inizia con il codice SWIFT immesso per il conto bancario del fornitore il cui pagamento è stato elaborato.
 
-        ![File di pagamento in formato TXT](./media/er-quick-start2-payment-file3.png)
+        ![File di pagamento in formato TXT.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Risorse aggiuntive
 

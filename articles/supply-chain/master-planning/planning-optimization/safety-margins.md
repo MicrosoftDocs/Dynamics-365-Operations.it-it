@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908295"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347736"
 ---
 # <a name="safety-margins"></a>Margini di sicurezza
 
@@ -41,7 +41,7 @@ Sono disponibili tre tipi di margini di sicurezza:
 
 L'illustrazione seguente mostra come questi margini di sicurezza si applicano nel tempo.
 
-![Margini di sicurezza](media/safety-margins-1.png)
+![Margini di sicurezza.](media/safety-margins-1.png)
 
 Tutti i margini sono definiti in giorni. Un valore predefinito di *0* (zero) indica che non viene utilizzato il margine. Se si impostano più margini, si aggiungono tutti al tempo totale dalla *data dell'ordine* di offerta alla *data di richiesta* della domanda. Ad esempio, una configurazione non ha tempi di consegna e tutti e tre i tipi di margine sono impostati su un giorno. In questo caso, ci saranno tre giorni tra la data dell'ordine di fornitura e la data del fabbisogno della domanda, quindi se la data dell'ordine è il 1° luglio, la data del fabbisogno sarà il 4 luglio.
 
@@ -51,7 +51,7 @@ Il margine su entrata è probabilmente il più utilizzato dei tre margini di sic
 
 La figura seguente evidenzia il margine su entrata.
 
-![Margine su entrata](media/safety-margins-2.png)
+![Margine su entrata.](media/safety-margins-2.png)
 
 Il margine su entrata viene generalmente utilizzato come buffer per garantire il tempo per la registrazione del magazzino o altri processi dispendiosi in termini di tempo che non vengono acquisiti come parte del lead time generale nel sistema. Per gli acquisti, un vantaggio è che la *data di consegna* dell'ordine fornitore viene spostata in avanti di conseguenza. Se si aumenta il lead time invece di utilizzare un margine di sicurezza, al venditore verrà comunque chiesto di consegnare all'ultimo minuto.
 
@@ -66,7 +66,7 @@ Tenere presente che un margine su entrata non viene applicato quando le scorte d
 
 La figura seguente evidenzia il margine di riordino.
 
-![Margine di riordino](media/safety-margins-3.png)
+![Margine di riordino.](media/safety-margins-3.png)
 
 Il margine di riordino viene aggiunto prima del lead time dell'articolo per tutti gli ordini pianificati durante la pianificazione generale. Pertanto, garantisce tempo aggiuntivo per l'invio di un ordine di fornitura. Questo margine viene generalmente utilizzato come buffer per garantire il tempo ai processi di approvazione o altri processi interni richiesti durante la creazione degli ordini di fornitura. Il margine di riordino viene inserito tra la *data dell'ordine* di fornitura e la *data di inizio*.
 
@@ -77,7 +77,7 @@ Il margine di riordino viene aggiunto prima del lead time dell'articolo per tutt
 
 La figura seguente evidenzia il margine su uscita.
 
-![Margine su uscita](media/safety-margins-4.png)
+![Margine su uscita.](media/safety-margins-4.png)
 
 Il margine di emissione viene detratto dalla data del fabbisogno della domanda durante la pianificazione generale. Aiuta a garantire il tempo per reagire e spedire gli ordini di domanda in arrivo. Questo margine viene generalmente utilizzato come buffer per garantire il tempo per la spedizione e i relativi processi di magazzino in uscita.
 
@@ -165,7 +165,7 @@ La figura seguente presenta una matrice che riepiloga i calendari applicabili qu
 - **Magazzino (WH):** giallo
 - **Fornitore (V):** blu
 
-[![Matrice della panoramica dell'impostazione del calendario](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Matrice della panoramica dell'impostazione del calendario.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Calcolo dei ritardi
 
@@ -173,7 +173,7 @@ Tutti e tre i tipi di margini di sicurezza sono inclusi quando il sistema determ
 
 Ad esempio, un articolo ha un lead time di un giorno e un margine su entrata di tre giorni. Un ordine cliente per questo articolo è impostato come richiesto oggi. In questo caso, il ritardo viene calcolato come *lead time* + *margine su entrata* = quattro giorni. Pertanto, se oggi è il 14 agosto, i quattro giorni di ritardo producono una consegna il 18 agosto. Nella figura seguente viene illustrato questo esempio.
 
-![Esempio di calcolo dei ritardi](media/safety-margins-delays.png)
+![Esempio di calcolo dei ritardi.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

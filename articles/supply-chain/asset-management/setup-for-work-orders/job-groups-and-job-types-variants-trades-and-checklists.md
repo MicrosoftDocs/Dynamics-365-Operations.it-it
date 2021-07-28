@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 252829ac2d070833023f1b49aef615cc376f37b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117085"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344642"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tipi di lavori di manutenzione, categorie, varianti, scambi e liste di controllo
 
@@ -54,7 +54,7 @@ Innanzi tutto, si impostano le categorie e le varianti di tipi di processo di ma
 
     Dopo aver associato categorie dei tipi di processo di manutenzione a tipi di processo di manutenzione, nel campo **Tipi di processo** viene visualizzato il numero di tipi di processo di manutenzione associati a questa categoria di tipi di processo di manutenzione.
 
-![Pagina Categorie di tipi di processi di manutenzione](media/01-setup-for-work-orders.png)
+![Pagina Categorie tipi di processi di manutenzione.](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Creare una variante di tipi di processo di manutenzione
 
@@ -68,7 +68,7 @@ Innanzi tutto, si impostano le categorie e le varianti di tipi di processo di ma
 
     Nella Scheda dettaglio **Dettagli**, il campo **Tipi di processo** visualizza il numero di tipi di processo di manutenzione aggiunti a questa variante.
 
-![Pagina Varianti di tipo di processo di manutenzione](media/02-setup-for-work-orders.png)
+![Pagina Varianti di tipo di processo di manutenzione.](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Creare un settore di processo di manutenzione
 
@@ -89,7 +89,7 @@ Innanzi tutto, si impostano le categorie e le varianti di tipi di processo di ma
 
     Nella Scheda dettaglio **Dettagli**, il campo **Certificati** visualizza il numero di certificati aggiunti a questo settore.
 
-![Pagina Settore processo di manutenzione](media/03-setup-for-work-orders.png)
+![Pagina Settore processo di manutenzione.](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Creare una variabile di elenco di controllo di manutenzione
 
@@ -110,7 +110,7 @@ Quando si creano righe di elenco di controllo di manutenzione nel valore predefi
 6. Nel campo **Valore** immettere una descrizione del valore.
 7. Nel campo **Risultato**, selezionare un risultato per la riga.
 
-![Pagina Variabili elenco di controllo di manutenzione](media/04-setup-for-work-orders.png)
+![Pagina Variabili elenco di controllo di manutenzione.](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Creare un modello di elenco di controllo di manutenzione
 
@@ -139,7 +139,7 @@ I modelli di elenco di controllo di manutenzione possono essere utilizzati come 
 
     Nella Scheda dettaglio **Dettagli**, il campo **Verifiche** mostra il numero totale di righe di elenco di controllo nel modello. Questo numero include le righe nidificate in qualsiasi modello esistente a cui si fa riferimento nel modello.
 
-![Pagina Modelli elenco di controllo di manutenzione](media/05-setup-for-work-orders.png)
+![Pagina Modelli elenco di controllo di manutenzione.](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Creare un tipo di processo di manutenzione
 
@@ -162,7 +162,7 @@ I modelli di elenco di controllo di manutenzione possono essere utilizzati come 
 
 11. Nella Scheda dettaglio **Tipi di cespite**, è possibile aggiungere tipi di cespite al tipo di processo di manutenzione.
 
-![Pagina Tipi di processo di manutenzione](media/06-setup-for-work-orders.png)
+![Pagina Tipi di processo di manutenzione.](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Creare righe predefinite di tipo di processo di manutenzione e le relative previsioni, elenchi di controllo di manutenzione, strumenti, Descrizione e allegati
 
@@ -231,7 +231,7 @@ I modelli di elenco di controllo di manutenzione possono essere utilizzati come 
 31. Per copiare un valore predefinito di tipo di processo di manutenzione in un altro valore predefinito di tipo di processo di manutenzione, selezionare la riga predefinita di tipo di processo di manutenzione in cui copiare un'altra impostazione, selezionare **Copia impostazione**, quindi selezionare il valore predefinito di tipo di processo di manutenzione da copiare.
 32. Per visualizzare un elenco dei cespiti, i piani di manutenzione o i cicli di manutenzione che utilizzano correntemente una riga predefinita di tipo di processo di manutenzione, selezionare la riga e quindi selezionare **Utilizzato da**.
 
-![Pagina Valori predefiniti per il tipo di processo di manutenzione](media/07-setup-for-work-orders.png)
+![Pagina Valori predefiniti per il tipo di processo di manutenzione.](media/07-setup-for-work-orders.png)
 
 Quando il sistema seleziona il valore predefinito di tipo di processo di manutenzione disponibile che deve essere utilizzato in una riga di ordine di lavoro, la selezione è basata sul cespite e sull'impostazione del tipo di cespite associata. Gestione cespiti verifica i record predefiniti di tipo di processo di manutenzione relativi al tipo di processo di manutenzione associato al tipo di cespite per rilevare una possibile corrispondenza. Controlla sempre la combinazione più specifica per prima. In altre parole, per individuare la combinazione più specifica, Gestione cespiti verifica dapprima una possibile corrispondenza con il campo **Settore**. Se non trova corrispondenza, controlla **Variante tipo di processo di manutenzione**. Se non viene trovata alcuna corrispondenza, cerca una corrispondenza con il campo **Tipo di processo di manutenzione** e così via (**Settore** quindi **Variante tipi di processo di manutenzione**, **Tipo di processo di manutenzione**, **Cespite**, **Modello**, **Produttore** e **Tipo di cespite**). Se non viene trovata alcuna corrispondenza, viene utilizzato il record predefinito dove solo il tipo di processo di manutenzione è selezionato.
 
@@ -252,7 +252,7 @@ Dopo avere creato le combinazioni predefinite di tipo di processo di manutenzion
 4. Selezionare una combinazione di tipi di processo di manutenzione per visualizzare l'impostazione correlata per previsioni, strumenti ed elenchi di controllo di manutenzione. La sezione **Dettagli** nella Scheda dettaglio **Valori predefiniti tipo di processo di manutenzione** visualizza il numero di elenchi di controllo di manutenzione, ore previste, articoli correlati e così via, associati alla combinazione di tipi di processo di manutenzione selezionata.
 5. Per visualizzare i dettagli per il tipo di processo di manutenzione selezionato, selezionare **Tipi di processo di manutenzione**.
 
-![Pagina Tipi di processo di manutenzione cespite](media/08-setup-for-work-orders.png)
+![Pagina Tipi di processo di manutenzione cespite.](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Aggiornamento automatico delle previsioni di tipo di processo di manutenzione
 

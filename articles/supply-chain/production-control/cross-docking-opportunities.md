@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190090"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347688"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Eseguire il cross-docking da ordini di produzione a banchine di uscita
 
@@ -42,7 +42,7 @@ Un prodotto viene dichiarato finito per l'ubicazione di uscita di produzione (3
 -   Se un rimorchio è già assegnato all'hangar, l'autista del camion verrà istruito per caricare il prodotto direttamente nel rimorchio.
 -   Se non è presente alcuna attività pianificata per il trasferimento del prodotto, il conducente del carrello elevatore verrà istruito di stoccare il prodotto in un'ubicazione del magazzino interno (5).
 
-[![cross-docking opportunistico](./media/scenario1.png)](./media/scenario1.png)
+[![cross-docking opportunistico.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Configurare il cross-docking
 Il processo di cross-docking si configura nei **criteri di lavoro**. I criteri di lavoro includono un tipo di ordine di lavoro, un'ubicazione e un prodotto. Nel seguente esempio, il cross-docking è configurato per il prodotto X e l'ubicazione Y.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866304"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345788"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definizioni di albero gerarchico nei report finanziari
 
@@ -176,17 +176,17 @@ Ecco la struttura delle unità gerarchiche nel seguente albero gerarchico:
 
 Nel seguente diagramma viene illustrato un albero gerarchico che ha una struttura organizzativa che viene suddivisa per funzione aziendale.
 
-[![Struttura del report di riepilogo Contoso - Esempio 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Struttura del report di riepilogo Contoso - Esempio 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Esempio della finestra di dialogo Inserisci unità gerarchiche da dimensioni
 
 L'illustrazione seguente mostra un esempio della finestra di dialogo **Inserisci unità gerarchiche da dimensioni**. Per questo esempio, i risultati restituiranno la combinazione di business unit, centri di costo e reparti.
 
-[![Inserisci unità gerarchiche](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Inserisci unità gerarchiche.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 La definizione di albero gerarchico risultante è ordinata per business unit, quindi per centro di costo e poi per reparto. La dimensione per la quinta unità gerarchica è **Business Unit = \[001\], Cost Center =\[\], Department = \[022\]** e identifica un'unità gerarchica per i conti che sono specifici per la business unit 001 e il reparto 022.
 
-[![Illustrazione dell'albero gerarchico](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Illustrazione dell'albero gerarchico.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Esempi di rollup dei dati
 
@@ -194,11 +194,11 @@ Negli esempi seguenti vengonoi mostrate le informazioni possibili utilizzate in 
 
 #### <a name="example-1"></a>Esempio 1
 
-[![Rollup con più società](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Rollup con più società.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Esempio 2
 
-[![Rollup del reparto interaziendale](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Rollup del reparto interaziendale.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
