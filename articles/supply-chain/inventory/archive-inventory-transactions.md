@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345526"
 ---
 # <a name="archive-inventory-transactions"></a>Archiviare le transazioni di magazzino
 
@@ -64,7 +64,7 @@ Per archiviare transazioni di magazzino, attenersi alla seguente procedura.
 
     Viene visualizzata la pagina **Archivio transazioni di magazzino** con un elenco dei record di processo archiviati.
 
-    ![Pagina Archivio transazioni di magazzino](media/archive-inventory-empty.png "Pagina Archivio transazioni di magazzino")
+    ![Pagina Archivio transazioni di magazzino.](media/archive-inventory-empty.png "Pagina Archivio transazioni di magazzino")
 
 1. Nel riquadro Azioni selezionare **Archivio transazioni di magazzino** per creare un archivio delle transazioni di magazzino.
 1. Nella finestra di dialogo **Archivio transazioni di magazzino**, nella scheda dettaglio **Parametri**, impostare i seguenti campi:
@@ -72,7 +72,7 @@ Per archiviare transazioni di magazzino, attenersi alla seguente procedura.
     - **Data di inizio del periodo contabile chiuso** - Selezionare la data della prima transazione da includere nell'archivio.
     - **Data di fine del periodo contabile chiuso** - Selezionare la data dell'ultima transazione da includere nell'archivio.
 
-    ![Finestra di dialogo Archivio transazioni di magazzino](media/archive-inventory-dates.png "Finestra di dialogo Archivio transazioni di magazzino")
+    ![Finestra di dialogo Archivio transazioni di magazzino.](media/archive-inventory-dates.png "Finestra di dialogo Archivio transazioni di magazzino")
 
     > [!NOTE]
     > Solo i periodi che soddisfano i [prerequisiti](#prerequisites) saranno selezionabili.
@@ -87,7 +87,7 @@ Per archiviare transazioni di magazzino, attenersi alla seguente procedura.
 
 La pagina **Archivio transazioni di magazzino** mostra la cronologia di archiviazione completa. Ogni riga della griglia mostra informazioni come la data in cui l'archivio è stato creato, l'utente che lo ha creato e il relativo stato.
 
-![Cronologia di archiviazione nella pagina Archivio transazioni di magazzino](media/archive-inventory-full.png "Cronologia di archiviazione nella pagina Archivio transazioni di magazzino")
+![Cronologia di archiviazione nella pagina Archivio transazioni di magazzino.](media/archive-inventory-full.png "Cronologia di archiviazione nella pagina Archivio transazioni di magazzino")
 
 Nell'elenco a discesa nella parte superiore della pagina selezionare uno dei seguenti valori per filtrare gli archivi visualizzati nella griglia:
 
@@ -109,7 +109,7 @@ La barra degli strumenti sopra la griglia include i seguenti pulsanti utilizzabi
 
 - **Transazioni archiviate** - Visualizza i dettagli completi dell'archivio selezionato. La pagina **Transazioni archiviate** visualizzata mostra tutte le transazioni presenti nell'archivio.
 
-    ![Pagina Transazioni archiviate](media/archive-inventory-transactions.png "Pagina Transazioni archiviate")
+    ![Pagina Transazioni archiviate.](media/archive-inventory-transactions.png "Pagina Transazioni archiviate")
 
     Per visualizzare ulteriori informazioni su una transazione specifica nella pagina **Transazioni archiviate**, selezionarla nella griglia, quindi, nel riquadro azioni, selezionare **Dettagli transazione archiviata**. La pagina **Dettagli transazione archiviata** visualizzata mostra informazioni quali la registrazione contabile, i riferimenti della contabilità secondaria correlati e le dimensioni finanziarie.
 

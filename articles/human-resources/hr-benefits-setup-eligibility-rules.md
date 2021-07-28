@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093922"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351659"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurare le regole e le opzioni di idoneità
 
@@ -137,20 +137,20 @@ All'interno di una regola si definiscono i criteri che compongono la regola. Nel
 
 Ad esempio, la regola **Dipendenti attivi** di cui sopra si compone dei seguenti criteri. Affinché il dipendente possa essere idoneo in base alla regola **Dipendenti attivi**, il dipendente deve essere impiegato nella persona giuridica USMF *e* avere un tipo di posizione a tempo pieno.  
 
-![Criteri all'interno di una regola di idoneità](media/CriteriaWithinAnEligibilityRule.png) 
+![Criteri all'interno di una regola di idoneità.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Molteplici condizioni all'interno dei criteri
 
 Le regole possono essere ulteriormente ampliate per utilizzare più condizioni all'interno di un singolo criterio. Il dipendente deve soddisfare almeno una condizione per essere idoneo. Per costruire sull'esempio sopra, la regola **Dipendenti attivi** può essere ulteriormente ampliata per includere i dipendenti che sono anche dipendenti part-time. Di conseguenza, ora il dipendente deve essere un dipendente in USMF *e* un dipendente a tempo pieno o part-time.  
 
-![Molteplici condizioni all'interno dei criteri](media/MultipleConditionsWithinCriteria.png) 
+![Molteplici condizioni all'interno dei criteri.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Condizioni di idoneità all'interno di un criterio di campo personalizzato 
 Analogamente a quanto sopra, i campi personalizzati possono essere utilizzati durante la creazione di regole di idoneità e funzionano allo stesso modo. Ad esempio, potresti voler offrire un rimborso Internet ai dipendenti di Fargo e Copenhagen che lavorano da casa, poiché i costi di Internet sono più alti in quelle località. Per fare ciò, crea due campi personalizzati: **Posizione dell'ufficio** (elenco di selezione) e **Lavoro da casa** (casella di controllo). Quindi crea una regola chiamata **Dipendenti WFH**. Il criterio per la regola è dove **Sede dell'ufficio = Fargo** o **Copenaghen** *e* dove **Lavoro da casa = Sì**.
 
 Le regole di idoneità personalizzate dovrebbero essere impostate come indicato nell'immagine seguente. 
 
-![Condizioni di idoneità all'interno di un criterio di campo personalizzato](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Condizioni di idoneità all'interno di un criterio di campo personalizzato.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Configurare i pacchetti
 

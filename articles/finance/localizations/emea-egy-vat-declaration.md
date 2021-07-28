@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186616"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349899"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Dichiarazione IVA per l'Egitto (EG-00002)
 
@@ -77,7 +77,7 @@ I parametri specifici dell'applicazione consentono di stabilire i criteri della 
 
 I report dei libri acquisti e vendite per l'Egitto includono una serie di colonne che corrispondono a specifiche classificazioni di transazioni come tipi di operazioni, prodotti e documenti specifici per l'Egitto. Anziché includere queste nuove classificazioni come nuovi dati di immissione quando le transazioni vengono registrate, le classificazioni saranno determinate in base alle diverse ricerche introdotte in **Configurazioni** > **Configurare parametri specifici dell'applicazione** > **Impostazioni** per soddisfare i requisiti dei report sull'IVA per l'Egitto. 
 
-![Pagina Parametri specifici dell'applicazione](media/egypt-vat-declaration-setup1.png)
+![Pagina Parametri specifici dell'applicazione.](media/egypt-vat-declaration-setup1.png)
 
 Le seguenti configurazioni di ricerca vengono utilizzate per classificare le transazioni nei report sui libri del'IVA a credito e a debito:
 
@@ -206,7 +206,7 @@ Per generare il report sul modulo di dichiarazione IVA in formato Microsoft Exce
 2. Nella scheda **IVA**, nella sezione **Opzioni imposta**, nel campo **Mapping formato dichiarazione IVA**, selezionare **Excel di dichiarazione IVA (EG)**. Se si lascia il campo vuoto, il report sull'IVA standard verrà generato in formato SSRS.
 3. Selezionare la **gerarchia di categorie**. Questa categoria abilita il codice voce doganale nelle transazioni della scheda Commercio estero per consentire agli utenti di selezionare e classificare beni e servizi. La descrizione di questa classificazione è dettagliata nei report sulle transazioni di vendita e acquisto. Questa configurazione è facoltativa.
 
-![Modulo della dichiarazione](media/egypt-vat-declaration-setup2.png)
+![Modulo della dichiarazione.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Generare un report sulla dichiarazione IVA

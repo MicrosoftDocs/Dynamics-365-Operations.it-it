@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261698"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347760"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Metodi di rifornimento e modifica della quantità
 
@@ -34,15 +34,15 @@ I seguenti codici di copertura possono essere utilizzati in Ottimizzazione piani
 
 - **Periodo** - Il metodo di rifornimento combina tutta la domanda durante un periodo in un ordine per il prodotto. L'ordine verrà pianificato per il primo giorno del periodo e la relativa quantità soddisferà i fabbisogni netti durante il periodo stabilito. Il periodo inizia con la prima domanda del prodotto e copre la lunghezza definita nel tempo. Il periodo successivo inizierà con i requisiti successivi del prodotto. Il codice di copertura *Periodo* viene spesso utilizzato per il prelievo di scorte non prevedibile, prodotti influenzati dalla stagione o prodotti ad alto costo. Nella figura seguente viene illustrato un esempio.
 
-    ![Esempio di utilizzo del codice di copertura del periodo](./media/coverage-code-period.png "Esempio di utilizzo del codice di copertura del periodo")
+    ![Esempio di utilizzo del codice di copertura del periodo.](./media/coverage-code-period.png "Esempio di utilizzo del codice di copertura del periodo")
 
 - **Fabbisogno** - Il metodo di rifornimento in cui il sistema crea un ordine di produzione, trasferimento o fornitore per fabbisogno per il prodtto. Questo metodo viene utilizzato per prodotti costosi che hanno una domanda intermittente. Il codice di copertura *Fabbisogno* viene spesso utilizzato per prodotti configurabili o scenari su ordinazione. Nella figura seguente viene illustrato un esempio.
 
-    ![Esempio di utilizzo del codice di copertura del fabbisogno](./media/coverage-code-requirement.png "Esempio di utilizzo del codice di copertura del fabbisogno")
+    ![Esempio di utilizzo del codice di copertura del fabbisogno.](./media/coverage-code-requirement.png "Esempio di utilizzo del codice di copertura del fabbisogno")
 
 - **Min/Max** – Il metodo di rifornimento si basa sul livello delle scorte. Definisce il rifornimento delle scorte fino a un livello specifico quando il livello di disponibilità previsto è inferiore a una soglia specifica. La quantità di rifornimento sarà la differenza tra il livello massimo e il livello disponibile previsto. Il codice di copertura *Min/Max* viene spesso utilizzato per il prelievo di scorte prevedibile, high runner o prodotti meno costosi. Nella figura seguente viene illustrato un esempio.
 
-    ![Esempio di utilizzo del codice di copertura Min/Max](./media/coverage-code-min-max.png "Esempio di utilizzo del codice di copertura Min/Max")
+    ![Esempio di utilizzo del codice di copertura Min/Max.](./media/coverage-code-min-max.png "Esempio di utilizzo del codice di copertura Min/Max")
 
 - **Manuale** - Il metodo di rifornimento in cui il sistema non suggerisce ordini di produzione, trasferimento o fornitore per il prodotto. Invece, l'addetto alla pianificazione del prodotto è responsabile della creazione degli ordini richiesti per il rifornimento del prodotto. Il codice di copertura *Manuale* viene spesso utilizzato per prodotti per i quali gli ordini pianificati generati dal sistema non sono desiderati.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5f7ae0888656dd452af17e33d600f7894b801b1d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893958"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351724"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importare versioni aggiornate delle configurazioni ER
 
@@ -41,11 +41,11 @@ In questo argomento viene descritto come importare le versioni aggiornate delle 
 2. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 3. Nella pagina **Configurazioni localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Importa aggiornamenti versioni di configurazione**.
 
-    ![Pagina configurazioni Localizzazione](./media/er-download-updated-versions-global-repo1.png)
+    ![Pagina Configurazioni Localizzazione.](./media/er-download-updated-versions-global-repo1.png)
 
 4. Nella finestra di dialogo **Importa aggiornamenti versioni delle configurazioni per la creazione di report elettronici**, nel campo **Modalità di esecuzione**, seleziona **Mostra solo gli aggiornamenti disponibili**. Selezionare **OK**. 
 
-    ![Campo della modalità di esecuzione impostato su Mostra solo gli aggiornamenti disponibili](./media/er-download-updated-versions-global-repo2.png)
+    ![Campo modalità di esecuzione impostato su Mostra solo gli aggiornamenti disponibili.](./media/er-download-updated-versions-global-repo2.png)
 
 5. Rivedi i messaggi che ricevi. Questi messaggi forniscono le seguenti informazioni sulle configurazioni ER nell'istanza di Finance corrente e su come si confrontano con il contenuto dell'archivio globale:
 
@@ -72,14 +72,14 @@ In questo argomento viene descritto come importare le versioni aggiornate delle 
 4. Nella finestra di dialogo **Importa aggiornamenti versioni delle configurazioni per la creazione di report elettronici**, nel campo **Modalità di esecuzione**, seleziona **Importa gli ultimi aggiornamenti** per importare le ultime versioni delle configurazioni ER dall'archivio globale nell'istanza Finance corrente.
 5. Per pianificare un processo batch per l'importazione, nella Scheda dettaglio **Esegui in background**, imposta l'opzione **Elaborazione in batch** su **Sì**. Se vuoi ripetere periodicamente l'importazione, configura la ricorrenza richiesta.
 
-    ![Campo della modalità di esecuzione impostato su Importa gli ultimi aggiornamenti](./media/er-download-updated-versions-global-repo5.png)
+    ![Campo modalità di esecuzione impostato su Importa gli ultimi aggiornamenti.](./media/er-download-updated-versions-global-repo5.png)
 
 6. Selezionare **OK**.
 7. Per sapere quali versioni di configurazione sono state importate, segui uno di questi passaggi:
 
     - Se esegui l'importazione in modo interattivo anziché utilizzare un processo batch, rivedi i messaggi ricevuti.
 
-        ![Messaggi ricevuti durante un'esecuzione di importazione interattiva](./media/er-download-updated-versions-global-repo6.png)
+        ![Messaggi ricevuti durante un'esecuzione di importazione interattiva.](./media/er-download-updated-versions-global-repo6.png)
 
     - Se esegui l'importazione in modalità batch, attieniti alla seguente procedura:
 
@@ -87,7 +87,7 @@ In questo argomento viene descritto come importare le versioni aggiornate delle 
         2. Trova e seleziona il processo **Importa aggiornamenti versioni delle configurazioni per la creazione di report elettronici**, quindi, nel riquadro azioni, nella scheda **Processo in batch**, seleziona **Cronologia dei processi batch** per visualizzare la cronologia dei processi.
         3. Nella pagina **Cronologia dei processi batch**, seleziona **Registro**. Quindi, nel messaggio che ricevi, seleziona il collegamento **Dettagli messaggio** per visualizzare il registro del processo.
 
-        ![Registro del processo](./media/er-download-updated-versions-global-repo7.png)
+        ![Registro processo.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Non è consigliabile pianificare un processo batch ricorrente per importare le versioni aggiornate delle configurazioni ER direttamente dall'archivio globale in un ambiente di produzione, poiché le versioni importate saranno immediatamente disponibili per l'uso. Utilizza invece questo approccio per distribuire le versioni delle configurazioni ER in un ambiente sandbox. Possono quindi essere valutate nell'ambiente sandbox prima di essere distribuite in un ambiente di produzione.

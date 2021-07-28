@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753603"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348046"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Sopprimere i controlli del contenuto di Word nei report generati
 
@@ -63,7 +63,7 @@ Dopo aver completato i passaggi di queste guide attività, vengono preparati i s
     > [!NOTE]
     > Il controllo del contenuto ripetuto è contrassegnato con la chiave **SummaryLines** che corrisponde al campo della parte XML personalizzata a cui è stata mappata.
 
-    ![Layout del modello Word](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Layout del modello Word.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Selezionare la configurazione esistente del report ER
 
@@ -98,7 +98,7 @@ Attualmente, il file SampleVendPaymDocReportBounded.docx viene utilizzato come m
 7. Selezionare **OK**.
 8. Nella finestra di dialogo **Parametri per la creazione di report elettronici**, selezionare **OK** e analizzare l'output generato.
 
-    ![Pagamenti per l'elaborazione nella pagina Pagamenti fornitore](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Pagamenti per l'elaborazione nella pagina Pagamenti fornitore.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     L'output viene presentato in formato Word e contiene la sezione di riepilogo.
 
@@ -149,7 +149,7 @@ Se si desidera sopprimere la sezione di riepilogo in un documento generato, in b
 
 9. Selezionare **Salva** per salvare le modifiche al formato modificabile.
 
-    ![Output generato in formato Word](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Output generato in formato Word.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Eseguire il formato modificato per creare l'output di Word
 
@@ -163,7 +163,7 @@ Se si desidera sopprimere la sezione di riepilogo in un documento generato, in b
 8. Nella finestra di dialogo **Parametri per la creazione di report elettronici**, nel campo **Sopprimi sezione di riepilogo**, selezionare **Sì**.
 9. Selezionare **OK** e analizzare l'output generato.
 
-    ![Output generato in formato Word](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Output generato in formato Word.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Si noti che l'output non contiene la sezione di riepilogo poiché è stata soppressa.
 

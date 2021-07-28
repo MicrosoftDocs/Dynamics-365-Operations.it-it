@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794165"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352230"
 ---
 # <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
 
@@ -46,7 +46,7 @@ Di per sé, un gruppo di prezzi è solo un nome, una descrizione e, facoltativam
 
 La seguente illustrazione mostra come vengono utilizzati i gruppi di prezzi. In questa illustrazione, si noti che "Gruppo di prezzi" è letteralmente al centro della gestione dei prezzi e degli sconti. Le entità commerciali che è possibile utilizzare per gestire prezzi e sconti differenziali si trovano sulla sinistra e i record di prezzo e sconto effettivi sono sulla destra.
 
-![Gruppi di prezzi](./media/PriceGroups.png "Gruppi di prezzi")
+![Gruppi di prezzi.](./media/PriceGroups.png "Gruppi di prezzi")
 
 Quando si creano gruppi di prezzi, evitare utilizzare un singolo gruppo di prezzi per più tipi di entità commerciali. In caso contrario, può essere difficile determinare il motivo per cui un prezzo o uno sconto specifico viene applicato a una transazione.
 

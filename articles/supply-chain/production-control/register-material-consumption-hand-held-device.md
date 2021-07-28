@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2c70b6ecd284acc8817970e090583603d1b8e110
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189644"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345406"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrare il consumo dei materiali usando un dispositivo mobile
 
@@ -30,7 +30,7 @@ In questo argomento viene descritto un flusso di lavoro che consente la registra
 
 ## <a name="introduction"></a>Introduzione
 
-Questo flusso di lavoro è rilevante in presenza di in requisito vincolate per la tracciabilità de materiale. In questi casi, per gestire la tracciabilità dei materiali, l'ora e la quantità esatti devono essere dichiarati per il consumo. Questo processo è l'opposto delle operazioni di pre o backflush, in cui è presente uno scostamento tra l'ora di registrazione e l'ora in cui ha luogo il consumo effettivo. Questo spiega perché una strategia di consumo automatico non può essere utilizzata per alcuni materiali con requisiti di tracciabilità. Esaminiamo uno scenario semplice che spiega come configurare un flusso di lavoro per consentire la registrazione del consumo di materie prime nella produzione tramite un dispositivo portatile. [![Configurare un flusso di lavoro per consentire la registrazione del consumo di materie prime tramite un dispositivo portatile](./media/scenario3.png)](./media/scenario3.png)
+Questo flusso di lavoro è rilevante in presenza di in requisito vincolate per la tracciabilità de materiale. In questi casi, per gestire la tracciabilità dei materiali, l'ora e la quantità esatti devono essere dichiarati per il consumo. Questo processo è l'opposto delle operazioni di pre o backflush, in cui è presente uno scostamento tra l'ora di registrazione e l'ora in cui ha luogo il consumo effettivo. Questo spiega perché una strategia di consumo automatico non può essere utilizzata per alcuni materiali con requisiti di tracciabilità. Esaminiamo uno scenario semplice che spiega come configurare un flusso di lavoro per consentire la registrazione del consumo di materie prime nella produzione tramite un dispositivo portatile. [![Configurare un flusso di lavoro per consentire la registrazione del consumo di materie prime tramite un dispositivo portatile.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Dettagli dello scenario
 

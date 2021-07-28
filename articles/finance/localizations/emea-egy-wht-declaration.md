@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: afb9f95458089e854335399ea3d14ba229c02bbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022813"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349875"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Dichiarazione della ritenuta d'acconto per l'Egitto (EG-00005)
 
@@ -103,7 +103,7 @@ Per generare i report sul modulo della dichiarazione della ritenuta d'acconto in
 2. Nella scheda **Ritenuta d'acconto**, nel campo **Mapping formato declarazione ritenuta d'acconto**, selezionare **Excel di dichiarazione RIT (EG)**. Se si lascia il campo vuoto, il report sull'IVA standard verrà generato in formato SSRS.
 
 
-![Modulo di dichiarazione](media/egypt-wht-declaration-setup1.png)
+![Modulo della dichiarazione.](media/egypt-wht-declaration-setup1.png)
 
 ## <a name="generate-the-withholding-declaration-forms"></a>Genera i moduli della dichiarazione della ritenuta d'acconto
 Il processo di preparazione e di invio di un modulo di dichiarazione della ritenuta d'acconto per un periodo specifico si basa sulle transazioni di ritenuta d'acconto registrate durante il processo di liquidazione e registrazione dell'imposta di pagamento. Per ulteriori informazioni sulla ritenuta d'acconto globale, vedere [Ritenuta d'acconto globale](../general-ledger/global-withholding-tax-overview.md).

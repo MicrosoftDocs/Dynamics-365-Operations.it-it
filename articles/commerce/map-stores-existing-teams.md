@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020221"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346694"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Mappare negozi e team se ci sono team preesistenti in Microsoft Teams
 
@@ -57,7 +57,7 @@ Per mappare i negozi e i team corrispondenti in Commerce headquarters, segui que
 
 L'immagine di esempio seguente mostra il gruppo **Esporta mapping di Teams** in Commerce con gli elementi **Aggiungi entità** e le intestazioni del file CSV esportato evidenziate.
 
-![Gruppo Esporta mapping di Teams in Commerce con gli elementi Aggiungi entità e le intestazioni del file CSV esportato evidenziate](media/d365-commerce-data-mgmt-export-entity.png)
+![Gruppo Esporta mapping di Teams in Commerce con gli elementi Aggiungi entità e le intestazioni del file CSV esportato evidenziate.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > Dopo aver completato i passaggi precedenti, segui i passaggi in [Sincronizzare la gestione delle attività tra Microsoft Teams e POS](synchronize-tasks-teams-pos.md) per sincronizzare la gestione delle attività. 

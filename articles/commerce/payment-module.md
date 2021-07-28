@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804481"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352326"
 ---
 # <a name="payment-module"></a>Modulo pagamento
 
@@ -46,9 +46,9 @@ Il connettore pagamenti Adyen supporta inoltre l'autenticazione avanzata del cli
 
 L'immagine seguente mostra un esempio di moduli Gift card, Punti fedeltà e Pagamento Adyen in una pagina checkout.
 
-![Esempio di moduli Gift card, Punti fedeltà e Pagamento Adyen in una pagina checkout](./media/ecommerce-payments.PNG)
+![Esempio di moduli Gift card, Punti fedeltà e Pagamento Adyen in una pagina checkout.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Connettore pagamenti di Dynamics 365 per PayPal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector per PayPal
 
 A partire dalla versione Commerce 10.0.14, il modulo di pagamento è anche integrato con il connettore di pagamento Dynamics 365 per PayPal. Per ulteriori informazioni su come configurare questo connettore pagamenti, vedere [Connettore pagamenti di Dynamics 365 per PayPal](paypal.md).
  
@@ -59,14 +59,14 @@ Quando il modulo di pagamento è configurato per utilizzare il connettore di pag
 Il connettore di pagamento PayPal non richiede un modulo dell'indirizzo di fatturazione perché tutte le informazioni relative alla fatturazione vengono gestite da PayPal all'interno del suo iframe. Tuttavia, sono richiesti l'indirizzo di spedizione e i moduli delle opzioni di consegna.
 
 La figura seguente mostra un esempio di due moduli di pagamento su una pagina checkout, uno configurato con il connettore di pagamento Adyen e l'altro con il connettore di pagamento PayPal.
-![Esempio di moduli di pagamento Adyen e PayPal in una pagina checkout](./media/ecommerce-paypal.png)
+![Esempio di moduli di pagamento Adyen e PayPal in una pagina checkout.](./media/ecommerce-paypal.png)
 
 La figura seguente mostra un esempio dell'iframe PayPal richiamato utilizzando il pulsante PayPal. 
-![Esempio di iframe Paypal in una pagina di pagamento](./media/ecommerce-paypal-iframe.png)
+![Esempio di iframe Paypal in una pagina di pagamento.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Proprietà del modulo Pagamento
 
-| Nome proprietà | Valori | Descrizione |
+| Nome proprietà | Valori | descrizione |
 |---------------|--------|-------------|
 | Intestazione | Testo dell'intestazione | Un'intestazione facoltativa per il modulo di pagamento. |
 | Altezza dell'iframe | Pixel | L'altezza dell'iframe, in pixel. L'altezza può essere modificata secondo le esigenze. |
@@ -76,7 +76,7 @@ La figura seguente mostra un esempio dell'iframe PayPal richiamato utilizzando i
 |Pagamento primario|  **True** o **False** | Se **Vero**, eventuali messaggi di errore verranno generati dal connettore di pagamento principale nella pagina di pagamento. Se sono configurati entrambi i connettori di pagamento Adyen e PayPal, impostare Adyen su **Vero**, in quanto è stato aggiunto nella versione Commerce 10.0.14.|
 
 La figura seguente mostra un esempio del valore **Tipi di metodo di pagamento supportati** impostato su "PayPal" nella configurazione del connettore di pagamento in Commerce headquarters.
-![Esempio di tipi di metodo di pagamento supportati in Commerce headquarters](./media/ecommerce-paymenttendertypes.png)
+![Esempio di tipi di metodo di pagamento supportati in Commerce headquarters.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Indirizzo fatturazione
 

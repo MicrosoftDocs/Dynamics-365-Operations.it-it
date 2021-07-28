@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4afc19ed103f204fec61ab20b88f767ad5f05b38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1af5676511c16d0492a7c3a61b7bf3a88b43758a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792537"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349258"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Eseguire e monitorare un esperimento
 
@@ -28,7 +28,7 @@ In questo argomento viene descritto come eseguire e monitorare un esperimento in
 
 Il diagramma seguente mostra tutti i passaggi relativi alla configurazione e all'esecuzione di un esperimento su un sito Web di e-commerce in Dynamics 365 Commerce. I passaggi aggiuntivi sono esposti in argomenti separati.
 
-[ ![Percorso utente per sperimentazione - Esecuzione e monitoraggio](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![Percorso utente sperimentazione - Esecuzione e monitoraggio.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 Dopo aver pubblicato le varianti, vengono eseguiti tutti i passaggi necessari in Commerce per completare l'esperimento. Il passaggio successivo consiste nel determinare quale variante mostrare agli utenti quando richiedono una pagina. Il servizio di terze parti prende questa decisione, ma prima devi attivare l'esperimento nel servizio. Poiché i passaggi per l'attivazione di un esperimento variano da servizio a servizio, dovrai seguire le istruzioni fornite dal servizio o dal fornitore. Se l'esperimento non viene attivato, gli utenti vedranno solo la versione predefinita della pagina e non verranno visualizzate le varianti.
 

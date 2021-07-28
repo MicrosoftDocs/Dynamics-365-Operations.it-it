@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5be19949e9d1dbc43fdd3e6def119effa50a34d0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d6813a642aefa59e20a7c77ddcf53ce7d3625eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018412"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347346"
 ---
 # <a name="payment-type-must-be-credit-card-error-on-the-sales-order-page"></a>Errore "Il tipo di pagamento deve essere una carta di credito" nella pagina dell'ordine cliente
 
@@ -32,7 +32,7 @@ Questo argomento fornisce indicazioni per la risoluzione dei problemi che posson
 
 Quando si apre la pagina dell'ordine cliente dopo aver sincronizzato un ordine, viene visualizzato il seguente messaggio di errore: "Il tipo di pagamento deve essere una carta di credito poiché è stato specificato il numero di carta di credito".
 
-![Errore "Il tipo di pagamento deve essere una carta di credito"](media/payment-type-must-be-credit-card.jpg)
+![Errore "Il tipo di pagamento deve essere una carta di credito".](media/payment-type-must-be-credit-card.jpg)
 
 ## <a name="resolution"></a>Risoluzione
 

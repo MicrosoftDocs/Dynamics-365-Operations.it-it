@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750716"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346572"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurare il mapping per le colonne dello stato dell'ordine cliente
 
@@ -100,7 +100,7 @@ Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
 1. In un browser, passa a `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Sostituisci **\<test-name\>** con il collegamento della tua azienda in Sales.
 2. Nella pagina che viene aperta, trova **organizationid** e prendi nota del valore.
 
-    ![Ricerca di organizationid](media/sales-map-orgid.png)
+    ![Ricerca di organizationid.](media/sales-map-orgid.png)
 
 3. In Sales, apri la console del browser ed esegui il seguente script. Utilizza il valore **organizationid** del passaggio 2.
 
@@ -119,33 +119,33 @@ Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
     );
     ```
 
-    ![Codice JavaScript nella console del browser](media/sales-map-script.png)
+    ![Codice JavaScript nella console del browser.](media/sales-map-script.png)
 
 4. Verifica che **IsSOPIntegrationEnabled** sia impostato su **true**. Utilizza l'URL del passaggio 1 per controllare il valore.
 
-    ![IsSOPIntegrationEnabled impostato su true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled impostato su true.](media/sales-map-integration-enabled.png)
 
 Per abilitare l'attributo **isIntegrationUser**, segui questi passaggi.
 
 1. In Sales, vai a **Impostazione \> Personalizzazione \> Personalizza il sistema**, seleziona **Tabella utente** e quindi apri **Modulo \> Utente**.
 
-    ![Apertura del modulo utente](media/sales-map-user.png)
+    ![Apertura del modulo utente.](media/sales-map-user.png)
 
 2. In Esplora campi, trova **Modalità utente integrazione** e fai doppio clic su di esso per aggiungerlo al modulo. Salva le modifiche.
 
-    ![Aggiunta della colonna Modalità utente integrazione al modulo](media/sales-map-field-explorer.png)
+    ![Aggiunta della colonna Modalità utente integrazione al modulo.](media/sales-map-field-explorer.png)
 
 3. In Sales, vai a **Impostazione \> Sicurezza \> Utenti** e cambia la visualizzazione da **Utenti abilitati** a **Utenti dell'applicazione**.
 
-    ![Modifica della visualizzazione da Utenti abilitati a Utenti dell'applicazione](media/sales-map-enabled-users.png)
+    ![Modifica della visualizzazione da Utenti abilitati a Utenti dell'applicazione.](media/sales-map-enabled-users.png)
 
 4. Seleziona le due voci per **DualWrite IntegrationUser**.
 
-    ![Elenco di utenti dell'applicazione](media/sales-map-user-mode.png)
+    ![Elenco di utenti dell'applicazione.](media/sales-map-user-mode.png)
 
 5. Cambi il valore della colonna **Modalità utente integrazione** su **Sì**.
 
-    ![Modifica del valore della colonna Modalità utente integrazione](media/sales-map-user-mode-yes.png)
+    ![Modifica del valore della colonna Modalità utente integrazione.](media/sales-map-user-mode-yes.png)
 
 I tuoi ordini cliente sono ora mappati.
 

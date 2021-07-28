@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792465"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353830"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Creare e configurare garanzie estese
 
@@ -81,7 +81,7 @@ Per creare un articolo garanzia in Commerce, attenersi alla seguente procedura.
 
     Ad esempio, per una garanzia di due anni, impostare il campo **Unità di tempo** su **Anni** e il campo **Periodo di tempo** su **2**. In alternativa, impostare il campo **Unità di tempo** su **Mesi** e il campo **Periodo di tempo** su **24**, come mostrato nella seguente illustrazione.
 
-    ![Pagina dei dettagli del prodotto per un articolo garanzia](./media/ew-time-properties.png)
+    ![Pagina dettagli prodotto per un articolo garanzia.](./media/ew-time-properties.png)
 
 1. Selezionare **Salva** per salvare l'articolo garanzia.
 1. Rilasciare il prodotto garanzia all'azienda in modo che possa essere venduto. Per ulteriori informazioni, vedere [Configurare prodotti di vendita al dettaglio](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Per creare un articolo garanzia in Commerce, attenersi alla seguente procedura.
 
     Ad esempio, la seguente illustrazione mostra il campo **Base scaglione prezzo** impostato su **Prezzo base**, il campo **Limite inferiore** impostato su $500 e il campo **Limite superiore** impostato su $1000.
     
-    ![Pagina dei dettagli del prodotto rilasciato per un articolo garanzia](./media/ew-release-product-details.png)
+    ![Pagina dettagli prodotto rilasciato per un articolo garanzia.](./media/ew-release-product-details.png)
 
 1. Inserire l'articolo garanzia nel canale in cui verrà venduto. Per ulteriori informazioni, vedere [Impostare assortimenti](set-up-assortments.md).
 
@@ -161,11 +161,11 @@ Due operazioni POS consentono agli addetti alle vendite di vendere gli articoli 
 
 La seguente illustrazione mostra un esempio di una pagina terminale POS con la richiesta di aggiungere un articolo garanzia per l'acquisto corrente di un articolo garantibile.
 
-![Esempio di richiesta di aggiunta di un articolo garanzia per l'acquisto corrente](./media/ew-sell-warranty.png)
+![Esempio di richiesta di aggiunta di un articolo garanzia per l'acquisto corrente.](./media/ew-sell-warranty.png)
 
 La seguente illustrazione mostra un esempio della funzione per l'aggiunta di un articolo garanzia per un articolo garantibile precedentemente venduto.
 
-![Esempio della funzione per l'aggiunta di un articolo garanzia per un articolo garantibile precedentemente venduto](./media/ew-add-warranty-existing.png)
+![Esempio di funzionalità per l'aggiunta di un articolo garanzia per un articolo garantibile precedentemente venduto.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Elabora transazioni di garanzia
 

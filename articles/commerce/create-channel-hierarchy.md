@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951910"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352472"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Creare una gerarchia di navigazione nei canali
 
@@ -49,7 +49,7 @@ Per creare una gerarchia di navigazione nei canali, effettuare le seguenti opera
 
 L'immagine seguente mostra un esempio di nodo principale.
 
-![Esempio di nodo principale](media/create-channel-hierarchy-1.png)
+![Esempio di nodo principale.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Creare nodi di categoria di navigazione
 
@@ -65,7 +65,7 @@ Per creare eventuali nodi di categoria di navigazione aggiuntivi per rappresenta
 
 L'immagine seguente mostra un esempio di gerarchia di navigazione nei canali completata.
 
-![Esempio di gerarchia dei canali](media/create-channel-hierarchy-2.png)
+![Esempio di gerarchia dei canali.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Aggiungere prodotti a nodi di categorie
 
@@ -81,7 +81,7 @@ Per aggiungere prodotti a nodi di categoria, attenersi alla seguente procedura.
 
 L'immagine seguente mostra un esempio di nodo con prodotti aggiunti.
 
-![Prodotti aggiunti a un nodo di categoria](media/create-channel-hierarchy-3.png)
+![Prodotti aggiunti a un nodo di categoria.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Aggiungere gruppi di attributi di prodotto a nodi di categoria
 
@@ -97,7 +97,7 @@ Per aggiungere un gruppo di attributi di prodotto a un nodo di categoria, proced
 
 L'immagine seguente mostra un esempio di nodo con gruppi di attributi di prodotto aggiunti.
 
-![Gruppi di attributi di prodotto in un nodo](media/create-channel-hierarchy-4.png)
+![Gruppi di attributi di prodotto in un nodo.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

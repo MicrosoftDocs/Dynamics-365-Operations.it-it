@@ -14,12 +14,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 86f475cc0b78c620309301516b6c3b525b640637
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 25464c89352f44a77a96dee6ad2f633b7a55669e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791559"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350282"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Rifiutare esplicitamente la raccolta eventi di attività Web
 [!include [banner](includes/banner.md)]
@@ -40,7 +40,7 @@ Nella gestione degli account in Commerce headquarters (HQ), gli amministratori p
 1. Nel client HQ, nella pagina **Tutti i clienti**, cerca e seleziona un cliente.
 1. Nella pagina dei dettagli del cliente, nella Scheda dettaglio **Retail**, sezione **Privacy**, imposta l'opzione **Non eseguire la traccia dell'attività Web** su **Sì**.
 
-    ![Impostazioni di privacy](media/Disablepersonalizationpart2.png)
+    ![Impostazioni di privacy.](media/Disablepersonalizationpart2.png)
 
 1. Selezionare **Salva**, quindi chiudere la pagina.
 

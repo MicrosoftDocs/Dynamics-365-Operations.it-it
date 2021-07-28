@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: dce0dd216d552d956ba7fdbcb4eebb6ed85b7115
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897866"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348964"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generare i rendiconti finanziari consolidati
 
@@ -38,19 +38,19 @@ Il metodo più semplice per il consolidamento tramite la creazione di report fin
 
 Nella figura seguente viene illustrato come utilizzare una definizione di albero gerarchico nei report finanziari per identificare ogni società coinvolta nel consolidamento.
 
-![Definizione di albero gerarchico](./media/reporting-tree-definition.png "Definizione di albero gerarchico")
+![Definizione di albero gerarchico.](./media/reporting-tree-definition.png "Definizione di albero gerarchico")
 
 Come viene mostrato nel report consolidato nella figura seguente, quando si utilizza l'albero gerarchico insieme a una definizione di report, è possibile visualizzare ciascuna società separatamente. Gli importi consolidati vengono visualizzati al livello di riepilogo.
 
-![Livello di riepilogo degli importi consolidati](./media/consolidate-amount-summary-level.png "Livello di riepilogo degli importi consolidati")
+![Livello di riepilogo degli importi consolidati.](./media/consolidate-amount-summary-level.png "Livello di riepilogo degli importi consolidati")
 
 È inoltre possibile creare un albero gerarchico multilivello che include tutti i livelli necessari. Nella figura seguente viene illustrata una definizione di albero gerarchico multilivello con rollup per area mondiale.
 
-![Definizione di albero gerarchico multilivello con rollup per area](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Definizione di albero gerarchico multilivello con rollup per area")
+![Definizione di albero gerarchico multilivello con rollup per area.](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Definizione di albero gerarchico multilivello con rollup per area")
 
 Nella figura seguente viene illustrata una definizione di albero gerarchico multilivello con rollup per funzione.
 
-![Definizione di albero gerarchico multilivello con rollup per funzione](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Definizione di albero gerarchico multilivello con rollup per funzione")
+![Definizione di albero gerarchico multilivello con rollup per funzione.](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Definizione di albero gerarchico multilivello con rollup per funzione")
 
 ### <a name="viewing-companies-side-by-side"></a>Visualizzazione affiancata delle società
 Molti clienti preferiscono i report in cui le società vengono visualizzate affiancate e dove una colonna mostra il totale consolidato. Questo formato è facile da ottenere dopo che è stato creato l'albero gerarchico. Di seguito vengono riportati i passaggi di alto livello per visualizzare le società affiancate nei rendiconti finanziari consolidati.
@@ -61,19 +61,19 @@ Molti clienti preferiscono i report in cui le società vengono visualizzate affi
 
 Nella figura seguente viene mostrata una definizione di colonna nel formato affiancato.
 
-![Definizione di colonna in un formato affiancato](./media/column-definition-side-by-side-format.png "Definizione di colonna in un formato affiancato")
+![Definizione di colonna in un formato affiancato.](./media/column-definition-side-by-side-format.png "Definizione di colonna in un formato affiancato")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Consolidamenti che utilizzano strutture organizzative create da persone giuridiche
 Le gerarchie organizzative che contengono dimensioni o persone giuridiche creano dinamicamente definizioni di albero gerarchico nei report finanziari. Un metodo facile per semplificare i consolidamenti consiste nell'aggiungere una gerarchia organizzativa al report nella creazione di report finanziari. In base alla data del report, Financial Reporting selezionerà la gerarchia organizzativa alla data effettiva o prima di questa data, come illustrato nella figura seguente.
 
-![Creare dinamicamente una definizione di albero gerarchico](./media/dynamically-create-reporting-tree-definitions.png "Creare dinamicamente una definizione di albero gerarchico")
+![Creare dinamicamente una definizione di albero gerarchico.](./media/dynamically-create-reporting-tree-definitions.png "Creare dinamicamente una definizione di albero gerarchico")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidamenti che implicano eliminazioni
 Le transazioni di eliminazione sono una parte comune del processo di consolidamento. In questo esempio vengono eliminati cinque conti durante il consolidamento: 142600, 211400, 401420, 401180 e 510820. Le società possono impostare diversamente i relativi conti interaziendali. Ad esempio, alcune società impostano l'ultima cifra su 9 se il conto viene utilizzato nelle transazioni interaziendali. Indipendentemente dal metodo, se si conoscono i conti interaziendali, è possibile mostrare le eliminazioni nei rendiconti finanziari consolidati.
 
 Nella figura seguente viene illustrata una definizione di colonna per un conto economico consolidato. Tre conti interaziendali profitti e perdite vengono definiti per ogni società mediante il filtro dimensioni. Le colonne F, G e H includono i conti di eliminazione solo per le società USMF, USRT e DEMF. Le colonne sono impostate in modo che **non** vengano stampate nel rendiconto finanziario.
 
-![Conto economico consolidato con definizione di colonna](./media/column-definition-consolidated-income-statement.png "Conto economico consolidato con definizione di colonna")
+![Conto economico consolidato con definizione di colonna.](./media/column-definition-consolidated-income-statement.png "Conto economico consolidato con definizione di colonna")
 
 Quando viene generato il report, gli importi di eliminazione vengono calcolati nelle colonne F, G e H, e i totali delle colonne nella colonna I. La colonna J mostra gli importi consolidati. Questi importi di consolidamento escludono le eliminazioni per le società USMF, USRT e DEMF.
 
@@ -82,7 +82,7 @@ Quando viene generato il report, gli importi di eliminazione vengono calcolati n
 
 L'illustrazione seguente mostra il report consolidato.
 
-![Conto economico in report consolidato](./media/consolidated-report-income-statement.png "Conto economico in report consolidato")
+![Conto economico in report consolidato.](./media/consolidated-report-income-statement.png "Conto economico in report consolidato")
 
 Che si utilizzino conti, dimensioni o entrambi, la funzionalità di creazione di report finanziari consente di filtrare le voci di eliminazione utilizzando le funzionalità di filtro delle dimensioni.
 
@@ -95,20 +95,20 @@ Nella definizione di albero gerarchico, immettere la percentuale di proprietà n
 > [!NOTE]
 > È possibile applicare questa percentuale di proprietà a qualsiasi unità gerarchica, non solo a livello di società. 
 
-![Utilizzo della percentuale nella definizione dell'albero gerarchico](./media/Using-reporting-tree-definition-percentage.png "Utilizzo della percentuale nella definizione dell'albero gerarchico")
+![Utilizzo della percentuale nella definizione dell'albero gerarchico.](./media/Using-reporting-tree-definition-percentage.png "Utilizzo della percentuale nella definizione dell'albero gerarchico")
 
 Quando viene generato il report, il report di Contoso Germania mostrerà il 100% dell'importo vendite e l'80% dell'importo verrà allocato con rollup al livello di consolidamento per le vendite.
 
 Se si possiede meno dell'1% della società, è possibile selezionare la casella di controllo **Consenti rollup minore dell'1%** nella scheda **Altre opzioni** della pagina **Impostazioni report**, come mostrato nella figura seguente. In questo caso i valori nella colonna **% rollup** nell'albero gerarchico verranno trattati come se fossero meno dell'1%. Se ad esempio si immette **,8**, verrà eseguito il rollup della percentuale 0,8 al livello di consolidamento, non l'80%. In alternativa è possibile raggiungere lo stesso risultato lasciando deselezionata la casella di controllo **Consenti rollup minore dell'1%** e immettendo **,008** nella colonna **% rollup**.
 
-![Opzioni di impostazione di creazione report](./media/reporting-setting-options.png "Opzioni di impostazione di creazione report")
+![Opzioni di impostazione di creazione report.](./media/reporting-setting-options.png "Opzioni di impostazione di creazione report")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Visualizzazione della proprietà come riga separata nel report consolidato
 Un'altra opzione per gli interessi di minoranza consiste nel visualizzare il 100% della società affiliata per ogni riga del report sottraendo al contempo gli interessi non di controllo dal reddito netto.
 
 Come mostrato nella figura, è possibile utilizzare un'istruzione **IF THEN ELSE** e una limitazione di colonna nella definizione di riga per calcolare l'interesse di minoranza nei report finanziari.
 
-![Visualizzazione della proprietà come riga separata nel report consolidato](./media/Showing-ownership-separate-row-consolidated-report.png "Visualizzazione della proprietà come riga separata nel report consolidato")
+![Visualizzazione della proprietà come riga separata nel report consolidato.](./media/Showing-ownership-separate-row-consolidated-report.png "Visualizzazione della proprietà come riga separata nel report consolidato")
 
 ## <a name="multiple-charts-of-accounts-across-legal-entities"></a>Più piani dei conti tra persone giuridiche
 Persone giuridiche diverse hanno spesso piani dei conti diversi, ma hanno ugualmente la necessità di generare rendiconti finanziari consolidati. In questa situazione, è possibile utilizzare la funzionalità di creazione di report finanziari per consolidare i dati in modo da poter generare report finanziari consolidati. Di seguito vengono riportati i passaggi di alto livello per consolidare persone giuridiche con piani de conti diversi.
@@ -122,11 +122,11 @@ Persone giuridiche diverse hanno spesso piani dei conti diversi, ma hanno ugualm
 > [!TIP]
 > Per ulteriori informazioni sulla cella **Collegamento a dimensioni finanziarie**, vedere Specificare la cella Collegamento a Dimensioni finanziarie.
 
-![Primo collegamento del set di conti alle dimensioni finanziarie](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Primo collegamento del set di conti alle dimensioni finanziarie")
+![Primo collegamento del set di conti alle dimensioni finanziarie.](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Primo collegamento del set di conti alle dimensioni finanziarie")
 
 È possibile utilizzare un albero gerarchico per definire quali collegamenti alle dimensioni finanziarie dalla definizione di riga viene utilizzato per ogni società. Selezionare la definizione di riga nella colonna E quindi selezionare il collegamento di riga appropriato nella colonna F, come illustrato nella figura seguente.
 
-![Utilizzo della definizione di riga di Collegamento a dimensioni finanziarie](./media/link-financial-dimensions-row-definition-used.png "Utilizzo della definizione di riga di Collegamento a dimensioni finanziarie")
+![Utilizzo della definizione di riga di Collegamento a dimensioni finanziarie.](./media/link-financial-dimensions-row-definition-used.png "Utilizzo della definizione di riga di Collegamento a dimensioni finanziarie")
 
 > [!TIP]
 > Quando si creano collegamenti a dimensioni finanziarie, utilizzare la descrizione per identificare le società a cui si applica ciascun collegamento. In questo modo, è possibile selezionare più facilmente la società corretta quando si crea un albero gerarchico. Nella definizione di colonna, il campo **Unità gerarchica** consente di restringere ogni colonna a un'unità dell'albero gerarchico, in modo che si possano visualizzare i dati affiancati. Se non si indica una società specifica per una colonna, verranno visualizzati i dati consolidati per tutte le società.
@@ -146,16 +146,16 @@ Quando si progetta la definizione di colonna per più società con periodi fisca
 
 Nella figura seguente la società USMF viene specificata nel campo **Nome società** nella definizione di report. Il calendario fiscale della società USMF verrà pertanto utilizzato come calendario fiscale di base. In questo esempio, quando viene generato un report per il 30 giugno 2018, la società USMF utilizzerà il periodo BASE, definito come periodo 12 nella definizione di report. La società INMF utilizzerà BASE–6, che corrisponde al periodo 6. Entrambe le colonne comprenderanno i dati per il giugno 2018.
 
-![Periodo di base del report](./media/report-base-period.png "Periodo di base del report")
+![Periodo di base del report.](./media/report-base-period.png "Periodo di base del report")
 
 La figura seguente mostra le opzioni nella definizione di report che consentono di selezionare se il numero di periodo o la data di fine del periodo viene utilizzata per il consolidamento.
 
-![Numero di periodo nelle opzioni della definizione di report](./media/options-report-definition-period-number.png "Numero di periodo nelle opzioni della definizione di report")
+![Numero di periodo nelle opzioni della definizione di report.](./media/options-report-definition-period-number.png "Numero di periodo nelle opzioni della definizione di report")
 
 ## <a name="business-unit-consolidations"></a>Consolidamenti di Business Unit
 Questo argomento è incentrato sull'utilizzo delle definizioni e sulle gerarchie organizzative dell'albero gerarchico nella creazione di report finanziari per scopi di consolidamento. È inoltre possibile utilizzare l'albero gerarchico per creare il consolidamento di Business Unit, ad esempio i report relativi alle vendite o alle operazioni mondiali. Questi report sono un requisito comune. Per crearli, selezionare una società e una dimensione per ogni unità che si vuole utilizzare nel consolidamento. Nella figura seguente ad esempio il rollup della Business Unit viene ottenuto ripetendo ogni società nella colonna **Società** (colonna A) e identificando un gruppo di valori di dimensioni di reparto per società nella colonna **Dimensioni** (colonna D).
 
-![Report di consolidamento di Business Unit](./media/business-unit-consolidation-reports.png "Report di consolidamento di Business Unit")
+![Report di consolidamento di Business Unit.](./media/business-unit-consolidation-reports.png "Report di consolidamento di Business Unit")
 
 ## <a name="consolidations-that-involve-multiple-reporting-currencies"></a>Consolidamenti che includono più valute di dichiarazione
 La creazione di report finanziari offre maggiore flessibilità quando si visualizzano i dati effettivi, di budget, di controllo del budget e di pianificazione del budget in più valute. Se si riuniscono i dati di impostazione chiave, non è necessario impostare altro nella creazione di report finanziari per visualizzare un report, in una valuta qualsiasi, in qualsiasi momento, per un qualsiasi utente.
@@ -168,7 +168,7 @@ Nel conto principale, è necessario impostare i campi **Tipo di tasso di cambio 
 - Nel campo **Tipo di tasso di cambio report finanziari** selezionare il tipo di tasso di cambio che contiene le valute e i tassi di cambio da applicare al conto. Questa tabella di valute e tassi di cambio verrà applicata ai dati effettivi nella creazione di report finanziari.
 - Nel campo **Tipo di conversione valuta** selezionare il metodo che viene utilizzato per calcolare il tasso di cambio per il conto. Questo metodo di valuta viene utilizzato sia per i dati effettivi che per i dati di budget nella creazione di report finanziari.
 
-![Conti principali per la creazione di report finanziari](./media/Financial-reporting-main-accounts.png "Conti principali per la creazione di report finanziari")
+![Conti principali per la creazione di report finanziari.](./media/Financial-reporting-main-accounts.png "Conti principali per la creazione di report finanziari")
 
 Per i dati di budget, di controllo del budget e di pianificazione del budget, il tipo di tasso di cambio viene definito nella pagina **Contabilità generale**. La tabella verrà utilizzata per estrarre i tassi di cambio e verrà utilizzato il tipo di conversione di valuta assegnato al conto.
 
@@ -199,15 +199,15 @@ La rettifica di conversione di valuta (CTA) è la differenza tra i tassi utilizz
 
 - Utilizzare la pagina **Arrotondamento delle rettifiche** nella definizione di riga, come illustrato nella figura seguente.
 
-    ![Rettifiche per arrotondamento delle rettifiche alla conversione di valuta](./media/Currency-translation-adjustment-rounding-adjustments.png "Rettifiche per arrotondamento delle rettifiche alla conversione di valuta")
+    ![Rettifiche per arrotondamento delle rettifiche alla conversione di valuta.](./media/Currency-translation-adjustment-rounding-adjustments.png "Rettifiche per arrotondamento delle rettifiche alla conversione di valuta")
 
     Quando si specifica la riga che deve visualizzare la rettifica per arrotondamento (CTA), la riga del totale cespiti, la riga delle passività totali e del capitale netto e la soglia ottimale, i report finanziari calcoleranno la differenza e la inseriranno nella riga desiderata. Verrà creata una riga denominata **Rettifica per arrotondamento** e verrà visualizzato il drill-down, come mostrato nella figura seguente.
 
-    ![Drill-down della rettifica per arrotondamento](./media/rounding-adjustment-drill-down.png "Drill-down della rettifica per arrotondamento")
+    ![Drill-down della rettifica per arrotondamento.](./media/rounding-adjustment-drill-down.png "Drill-down della rettifica per arrotondamento")
 
 - Inserire tutti i conti in un intervallo, dai cespiti alle spese. Come mostrato nella figura seguente, la differenza sarà lo stesso importo della rettifica per arrotondamento (CTA). Di conseguenza, è possibile utilizzarla come totale di verifica per assicurarsi che la pagina della rettifica per arrotondamento non includa saldi di conti persi.
 
-    ![Verifica della rettifica per arrotondamento](./media/rounding-adjustment-form-check.png "Verifica della rettifica per arrotondamento")
+    ![Verifica della rettifica per arrotondamento.](./media/rounding-adjustment-form-check.png "Verifica della rettifica per arrotondamento")
 
 ### <a name="balance-calculation-approach"></a>Approccio al calcolo del saldo
 Per ottenere la conversione corretta degli importi quando si utilizzano le valute, la creazione di report finanziari utilizza i seguenti metodi di calcolo per i saldi:

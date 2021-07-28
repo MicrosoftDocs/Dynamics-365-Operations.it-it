@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797283"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348709"
 ---
 # <a name="assortment-management"></a>Gestione dell'assortimento
 
@@ -35,27 +35,27 @@ La combinazione generale dei prodotti di un canale è determinata dagli assortim
 
 Nel seguente esempio, un assortimento univoco è configurato per ogni punto vendita. In questo caso, solo il prodotto 1 è disponibile presso il punto vendita 1 e solo il prodotto 2 è disponibile presso il punto vendita 2.
 
-![Ciascun prodotto è disponibile in un punto vendita](./media/Managing-assortments-figure1.png)
+![Ciascun prodotto è disponibile in un punto vendita.](./media/Managing-assortments-figure1.png)
 
 Per rendere disponibile il prodotto 2 presso il punto vendita 1, è possibile aggiungere il prodotto all'assortimento 1.
 
-![Prodotto 2 aggiunto all'assortimento 1](./media/Managing-assortments-figure2.png)
+![Prodotto 2 aggiunto all'assortimento 1.](./media/Managing-assortments-figure2.png)
 
 In alternativa, è possibile aggiungere il punto vendita 1 all'assortimento 2.
 
-![Punto vendita 1 aggiunto all'assortimento 2](./media/Managing-assortments-figure3.png)
+![Punto vendita 1 aggiunto all'assortimento 2.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Gerarchie organizzative
 
 Nelle situazioni in cui più canali condividono gli stessi assortimenti di prodotto, è possibile configurare gli assortimenti utilizzando la gerarchia organizzativa dell'assortimento di articoli di Commerce. Quando i nodi di questa gerarchia vengono aggiunti, tutti i canali nel nodo e i relativi nodi figlio verranno inclusi.
 
-![Gerarchia organizzativa](./media/Managing-assortments-figure4.png)
+![Gerarchia organizzativa.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Categorie prodotti
 
 Analogamente, dal lato del prodotto, è possibile includere i gruppi di prodotti utilizzando le gerarchie di categorie di prodotti. È possibile configurare gli assortimenti includendo uno o più nodi di gerarchia di categorie. In questo caso, l'assortimento includerà tutti i prodotti nel nodo di categoria e nei relativi nodi figlio.
 
-![Categorie prodotti](./media/Managing-assortments-figure5.png)
+![Categorie prodotti.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Categorie o prodotti esclusi
 
@@ -64,7 +64,7 @@ Oltre a includere prodotti e categorie negli assortimenti, è possibile utilizza
 > [!NOTE]
 > Se un prodotto viene incluso ed escluso in uno o più assortimenti per definizione, il prodotto verrà considerato sempre escluso.
 
-![Prodotti esclusi](./media/Managing-assortments-figure6.png)
+![Prodotti esclusi.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Prodotti rilasciati e globali
 

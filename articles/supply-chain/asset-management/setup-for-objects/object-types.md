@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825712"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347166"
 ---
 # <a name="asset-types"></a>Tipi di cespite
 
@@ -45,9 +45,9 @@ Innanzitutto, impostare i tipi di cespite necessari. A questo punto, è possibil
 7. Selezionare **Salva**.
 8. Nella Scheda dettaglio **Tipi di processo di manutenzione**, selezionare i tipi di processo di manutenzione che devono essere associati al tipo di cespite:
 
-    - Per selezionare un tipo di processo di manutenzione, selezionarlo nel campo **Tipi di processo di manutenzione**, quindi fare clic sul pulsante freccia destra ![Pulsante freccia destra](media/29-setup-for-objects.png) per spostarlo nella sezione **Tipi di processo di manutenzione selezionati**.
-    - Per selezionare tutti i disponibili tipi di processo di manutenzione, selezionare il pulsante ![Freccia inoltra tutti](media/30-setup-for-objects.png). Tutti i tipi di processo di manutenzione vengono trasferiti dal campo **Tipi di processo di manutenzione rimanenti** al campo **Tipi di processo di manutenzione selezionati**.
-    - Per annullare la selezione di un tipo di processo di manutenzione, selezionarlo nel campo **Tipi di processo di manutenzione selezionati**, quindi fare clic sul pulsante freccia sinistra ![Pulsante freccia sinistra](media/31-setup-for-objects.png) per spostarlo nel campo **Tipi di processo di manutenzione rimanenti**.
+    - Per selezionare un tipo di processo di manutenzione, selezionarlo nel campo **Tipi di processo di manutenzione rimanenti**, quindi fare clic sul pulsante freccia destra ![Pulsante freccia destra.](media/29-setup-for-objects.png) per spostarlo nella sezione **Tipi di processo di manutenzione selezionati**.
+    - Per selezionare tutti i tipi di processo di manutenzione disponibili, selezionare il pulsante ![Freccia inoltra tutti](media/30-setup-for-objects.png) . Tutti i tipi di processo di manutenzione vengono trasferiti dal campo **Tipi di processo di manutenzione rimanenti** al campo **Tipi di processo di manutenzione selezionati**.
+    - Per annullare la selezione di un tipo di processo di manutenzione, selezionarlo nel campo **Tipi di processo di manutenzione selezionati**, quindi fare clic sul pulsante freccia sinistra ![Pulsante freccia sinistra.](media/31-setup-for-objects.png) per spostarlo nel campo **Tipi di processo di manutenzione rimanenti**.
 
 9. È anche possibile selezionare i contatori che devono essere correlati al tipo di cespite. Nella Scheda dettaglio **Contatori**, selezionare le opzioni desiderate utilizzando i metodi descritti per i tipi di processo di manutenzione nel passaggio 8. Per ulteriori informazioni su come impostare i contatori, vedere [Contatori](counters.md).
 10. è anche possibile selezionare i tipi di attributo che devono essere correlati ai tipi di cespite. Nella Scheda dettaglio **Tipi di attributo**, selezionare le opzioni desiderate utilizzando i metodi descritti per i tipi di processo di manutenzione nel passaggio 8. Quindi, per creare la sequenza preferita dei tipi di attributi, selezionare un tipo di attributo nel campo **Tipi di attributo selezionati** e utilizzare i pulsanti freccia su e giù per spostarlo. La sequenza dei tipi di attributo verrà visualizzata sui cespiti che utilizzano questo tipo di cespite. Per ulteriori informazioni sugli attributi dei cespiti, vedere [Tipi di attributo di manutenzione](../setup-for-functional-locations/specification-types.md).

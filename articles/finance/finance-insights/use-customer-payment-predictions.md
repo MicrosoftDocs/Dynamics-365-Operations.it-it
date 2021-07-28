@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 873a11f3151344de63ee0b01b586ccbffe0df51b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186566"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355629"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Utilizzare previsioni di pagamento del cliente (anteprima)
 
@@ -38,13 +38,13 @@ L'area di lavoro **Gestisci crediti e riscossioni cliente** include due nuovi ri
 - Il riquadro **Previsione pagamento per transazione** mostra il numero di transazioni del cliente aperte con una probabilità di pagamento inferiore al 50% nel bucket **Puntuale**. Puoi selezionare questo riquadro per aprire la pagina elenco **Previsione pagamento per transazione**.
 - Il riquadro **Clienti con saldi in ritardo elevati previsti** mostra il numero di clienti per i quali si prevede che più della metà (50 percento) del saldo totale verrà pagato in ritardo e/o molto in ritardo. Puoi selezionare questo riquadro per aprire la pagina elenco **Previsione pagamento per cliente**.
 
-[![Area di lavoro Gestisci crediti e riscossioni cliente](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
+[![Area di lavoro Gestisci crediti e riscossioni cliente.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
 
 ### <a name="payment-predictions-per-transaction-list-page"></a>Pagina elenco Previsioni pagamento per transazione
 
 Nella pagina elenco **Previsioni pagamento per transazione** puoi visualizzare la probabilità di pagamento per le transazioni aperte nei bucket **Puntuale**, **In ritardo** e **Molto in ritardo**. Per ogni transazione nella griglia, la colonna **Probabilità puntuale** mostra la probabilità che la fattura venga pagata entro la data di scadenza. Se la probabilità di un pagamento puntuale è inferiore al 50%, viene visualizzato un cerchio rosso accanto alla percentuale nella colonna **Probabilità puntuale** per indicare il rischio di pagamento in ritardo.
 
-[![Pagina Previsione pagamento per transazione](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![Pagina Previsione pagamento per transazione.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 Il riquadro **Informazioni correlate** sul lato destro della pagina mostra altri dettagli sulle previsioni:
 
@@ -54,13 +54,13 @@ Il riquadro **Informazioni correlate** sul lato destro della pagina mostra altri
 
 I dati nella sezione **Fattori principali** e nelle Schede dettaglio **Informazioni dettagliate sul cliente** e **Storico cliente** aiutano a spiegare le previsioni di pagamento. Posso contribuire ad aumentare la tua fiducia nell'efficacia delle previsioni.
 
-[![Indicatori grafici per le previsioni di pagamento nel riquadro Informazioni correlate](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![Indicatori grafici per le previsioni di pagamento nel riquadro Informazioni correlate.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
 ### <a name="payment-prediction-per-customer-list-page"></a>Pagina elenco Previsione pagamento per cliente
 
 La pagina elenco **Previsione pagamento per cliente** mostra il saldo totale aperto e l'importo che si prevede verrà pagato nei bucket **Puntuale**, **In ritardo** e **Molto in ritardo**.
 
-[![Pagina Previsioni pagamento per cliente](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![Pagina Previsioni pagamento per cliente.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 L'importo del pagamento in ciascun bucket viene calcolato come la somma della media ponderata del saldo della transazione. Questo importo viene calcolato in base alle probabilità di pagamento in ciascun bucket.
 
@@ -92,11 +92,11 @@ I dati nella sezione **Fattori principali** e nelle Schede dettaglio **Informazi
 
 Puoi visualizzare l'accuratezza delle previsioni di pagamento accedendo a **Credito e riscossion \> Imposta\> Informazioni dettagliate finanziarie \> Parametri di Informazioni dettagliate finanziarie**. Nella scheda **Informazioni dettagliate sui pagamenti dei clienti**, la sezione **Modello di previsione** mostra l'accuratezza del modello di previsione come percentuale.
 
-[![Accuratezza delle previsioni di pagamento](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![Accuratezza delle previsioni di pagamento.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
 Se non sei soddisfatto dell'accuratezza, seleziona il collegamento **Migliora la precisione del modello** per aprire l'esperienza dell'estensione AI Builder. Nell'esperienza dell'estensione AI Builder, puoi selezionare o annullare la selezione dei campi finché non hai selezionato i campi che ritieni più importanti per prevedere con precisione le probabilità di pagamento. Al termine, puoi facilmente eseguire nuovamente il training del modello di previsione e pubblicare le modifiche. Il modello di previsione il cui training è stato appena completato verrà automaticamente selezionato per le previsioni in Dynamics 365 Finance.
 
-[![Esperienza di estensione di AI Builder](./media/ai-builder.png)](./media/ai-builder.png)
+[![Esperienza di estensione di AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
 
 ## <a name="release-details"></a>Dettagli del rilascio
 

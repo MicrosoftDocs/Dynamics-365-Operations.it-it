@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1abf029e6f72c1c6a827a00483bb34c4abcaec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e5cc7d21a9993985d1ad1fc2684777ff7ceb138
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808138"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354134"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Calendario e programmazione degli addetti alla manutenzione
 
@@ -32,7 +32,7 @@ Quando si programmano ordini di lavoro, si crea una programmazione per addetti a
 
 La schermata seguente illustra un esempio di addetto alla manutenzione associato a una risorsa che utilizza il calendario dell'orario di lavoro "Produzione".
 
-![Figura 1](media/01-work-order-scheduling.png)
+![Figura 1.](media/01-work-order-scheduling.png)
 
 La configurazione del calendario per strumenti e cespiti non è necessaria in relazione alla programmazione dell'ordine di lavoro. Si presuppone che gli strumenti e i cespiti siano disponibili 24 ore al giorno per la manutenzione.
 

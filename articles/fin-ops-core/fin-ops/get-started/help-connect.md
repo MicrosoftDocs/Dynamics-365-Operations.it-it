@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745691"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343936"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurare l'esperienza della Guida per le app Finance and Operations
 
@@ -32,7 +32,7 @@ In questo argomento, troverai una panoramica dei componenti del sistema della Gu
 
 Le app Finance and Operations includono panoramiche concettuali e altri argomenti pubblicati sul sito [https://docs.microsoft.com/dynamics365](/dynamics365/). È possibile accedere a questo contenuto dal riquadro della **Guida** interno al prodotto. La figura seguente mostra le parti della Guida.
 
-[![Architettura della Guida](./media/help-architecture.png)](./media/help-architecture.png)
+[![Architettura della Guida.](./media/help-architecture.png)](./media/help-architecture.png)
 
 Il sistema della Guida interno al prodotto estrae articoli da docs.microsoft.com e altri siti Web collegati. Inserisce anche le guide attività archiviate in Business process modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -47,14 +47,14 @@ Nella pagina **Parametri di sistema**, gli amministratori di sistema possono con
 > - Per configurare la Guida, devi eseguire l'accesso utilizzando con un account nello stesso tenant di distribuzione dell'app.
 > - Non è possibile connettere una libreria LCS da un'istanza dell'app in esecuzione su un'unità disco rigido virtuale (VHD) locale.
 
-[![Modulo Parametri di sistema con impostazioni per la Guida](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Modulo Parametri di sistema con impostazioni per la Guida.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Per configurare le guide attività per una soluzione, attieniti alla seguente procedura nella pagina **Parametri di sistema**.
 
 > [!IMPORTANT]
 > La prima volta che si apre la scheda della **Guida**, è necessario connettersi a Lifecycle Services. Assicurati di selezionare il collegamento al centro del modulo, attendi la connessione, chiudi la finestra di dialogo quindi seleziona **OK** per accedere alla pagina **Parametri di sistema**.
 >
-> [![Connetti a LCS](./media/connect-to-lcs-crop-1024x365.png "Connetti a LCS")](./media/connect-to-lcs-crop.png)
+> [![Connetti a LCS](./media/connect-to-lcs-crop-1024x365.png "Connetti a LCS".](./media/connect-to-lcs-crop.png)
 
 1. Selezionare il progetto Lifecycle Services a cui connettersi.
 2. Selezionare le librerie BPM (nel progetto selezionato) da cui recuperare le registrazioni attività.

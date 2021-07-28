@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023345"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348911"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Impostare periodi di liquidazione della ritenuta d'acconto per il tipo di imposta TDS
 
@@ -31,7 +31,7 @@ Questo argomento descrive come impostare i periodi di liquidazione dell'imposta 
 
 1. Vai a **Imposta \> Imposte indirette \> Ritenuta d'acconto \> Periodi liquidazione ritenuta d'acconto**.
 
-    [![Pagina Periodi liquidazione ritenuta d'acconto](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Pagina Periodi liquidazione ritenuta d'acconto.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. Nel campo **Tipo di imposta**, seleziona **TDS** per impostare i periodi di liquidazione della ritenuta d'acconto per il tipo di imposta TDS.
 3. Seleziona **Nuovo** per creare una riga.
@@ -47,6 +47,6 @@ Questo argomento descrive come impostare i periodi di liquidazione dell'imposta 
     > [!NOTE]
     > Per eseguire il processo di liquidazione TDS periodico, vai a **Contabilità generale \> Periodico \> Ritenuta d'acconto \> Pagamento ritenuta d'acconto**.
 
-    [![Pagina Pagamento ritenuta d'acconto](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Pagina Pagamento ritenuta d'acconto.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
-12. Chiudi la pagina.
+12. Chiudere la pagina.

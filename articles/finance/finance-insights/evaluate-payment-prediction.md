@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349012"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Valutare il modello di previsione di pagamento del cliente iniziale (anteprima)
 
@@ -33,32 +33,32 @@ Questo argomento spiega come valutare un modello di previsione dopo aver attivat
 
 Nella pagina **Parametri di Finance Insights** in Microsoft Dynamics 365 Finance, un collegamento **Migliora la precisione del modello** viene visualizzato accanto al punteggio di precisione.
 
-[![Collegamento Migliora la precisione del modello](./media/prediction-model.png)](./media/prediction-model.png)
+[![Collegamento Migliora la precisione del modello.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Questo collegamento reindirizza ad AI Builder, dove puoi saperne di più sul modello attuale e anche adottare misure per migliorarlo. L'illustrazione seguente mostra la pagina che viene aperta.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 La pagina che viene aperta mostra le informazioni seguenti:
 
 - Nella sezione **Prestazioni**, il grado di prestazione del modello fornisce una prospettiva sulla qualità del modello. Per ulteriori informazioni su questo grado, vedi [Prestazioni del modello di previsione](/ai-builder/prediction-performance) nella documentazione di AI Builder.
 - La sezione **Dati più influenti** mostra l'importanza dei diversi tipi di input di dati per il modello. Puoi valutare questo elenco e le percentuali corrispondenti per determinare se le informazioni sono coerenti con ciò che sai della tua azienda e del tuo mercato.
 
-    [![Sezioni Prestazioni e Dati più influenti per il modello di previsione](./media/models.png)](./media/models.png)
+    [![Sezioni Prestazioni e Dati più influenti per il modello di previsione.](./media/models.png)](./media/models.png)
 
 - Nella sezione **Prestazioni**, seleziona **Visualizza dettagli** per saperne di più sul grado e altre considerazioni. Nella figura seguente, i dettagli mostrano che il modello utilizza meno informazioni di quelle consigliate. Pertanto, il sistema ha generato un messaggio di avviso.
 
-    [![Avvisi sulle prestazioni del modello](./media/details.png)](./media/details.png)
+    [![Avvisi sulle prestazioni del modello.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Eseguire un'analisi più approfondita
 
 Sebbene la precisione sia un buon punto di partenza per la valutazione di un modello e il grado di prestazione fornisca una prospettiva, AI Builder fornisce metriche più dettagliate che puoi utilizzare per la tua valutazione. Per scaricare i dettagli, nella sezione **Prestazioni**, seleziona il pulsante con i puntini di sospensione (**...**) accanto al pulsante **Utilizza modello** e quindi seleziona **Scarica metriche dettagliate**.
 
-[![Comando Scarica metriche dettagliate](./media/performance.png)](./media/performance.png)
+[![Comando Scarica metriche dettagliate.](./media/performance.png)](./media/performance.png)
 
 La figura seguente mostra il formato in cui è possibile scaricare i dati.
 
-[![Formato dei dati scaricati](./media/data-format.png)](./media/data-format.png)
+[![Formato dei dati scaricati.](./media/data-format.png)](./media/data-format.png)
 
 Per un'analisi più approfondita dei risultati, un buon punto di partenza è la revisione della metrica "Matrice di confusione". Ad esempio, ecco i dati mostrati per questa metrica nell'illustrazione precedente.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830126"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352714"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Media ponderata con valore fisico e contrassegno
 
@@ -65,7 +65,7 @@ Nello scenario descritto nelle sezioni seguenti sono state registrate un'entrata
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione diretta senza l'opzione Includi valore fisico. 
 
-![Compensazione diretta media ponderata senza l'opzione Includi valore fisico](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Compensazione diretta media ponderata senza l'opzione Includi valore fisico.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -99,7 +99,7 @@ Nel grafico riportato di seguito sono illustrate le seguenti transazioni:
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione riepilogativo senza l'opzione Includi valore fisico. 
 
-![Compensazione riepilogativa media ponderata senza l'opzione Includi valore fisico](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Compensazione riepilogativa media ponderata senza l'opzione Includi valore fisico.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -128,7 +128,7 @@ Nel grafico riportato di seguito sono illustrate le seguenti transazioni:
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione diretta con l'opzione Includi valore fisico. 
 
-![Compensazione diretta media ponderata con l'opzione Includi valore fisico](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Compensazione diretta media ponderata con l'opzione Includi valore fisico.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -161,7 +161,7 @@ Nel grafico riportato di seguito sono illustrate le seguenti transazioni:
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione riepilogativo senza l'opzione Includi valore fisico. 
 
-![Compensazione riepilogativa media ponderata con l'opzione Includi valore fisico](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Compensazione riepilogativa media ponderata con l'opzione Includi valore fisico.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -209,7 +209,7 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata con contrassegno. 
 
-![Media ponderata con contrassegno](./media/weightedaveragewithmarking.gif) 
+![Media ponderata con contrassegno.](./media/weightedaveragewithmarking.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.

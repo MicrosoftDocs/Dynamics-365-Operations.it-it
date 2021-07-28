@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188127"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359863"
 ---
 # <a name="sales-and-marketing-overview"></a>Panoramica di Vendite e marketing
 
@@ -29,18 +31,18 @@ ms.locfileid: "6188127"
 
 ## <a name="marketing"></a>Marketing
 
-Utilizzare campagne e attività di marketing per individuare e sviluppare relazioni con potenziali clienti, in modo che le interazioni iniziali possono trasformarsi in relazioni di vendita. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per il marketing. [![Processo aziendale per il marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
+Utilizzare campagne e attività di marketing per individuare e sviluppare relazioni con potenziali clienti, in modo che le interazioni iniziali possono trasformarsi in relazioni di vendita. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per il marketing. [![Processo aziendale per il marketing.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
-### <a name="relationships"></a>Relazioni
+### <a name="relationships"></a>Rapporti
 
-In vendite e marketing, le interazioni iniziali con potenziali clienti possono verificarsi in diverse situazioni. È possibile, ad esempio, trovare un potenziale cliente mentre si partecipa a una fiera o si potrebbe avere un possibile lead con un cliente dopo l'esecuzione di una campagna di mailing di massa da parte dell'organizzazione. È molto importante comprendere il flusso dell'entità di una parte prima che diventi un cliente. Nell'immagine seguente è illustrato il flusso di relazioni di entità quando un potenziale cliente diventa un cliente effettivo. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+In vendite e marketing, le interazioni iniziali con potenziali clienti possono verificarsi in diverse situazioni. È possibile, ad esempio, trovare un potenziale cliente mentre si partecipa a una fiera o si potrebbe avere un possibile lead con un cliente dopo l'esecuzione di una campagna di mailing di massa da parte dell'organizzazione. È molto importante comprendere il flusso dell'entità di una parte prima che diventi un cliente. Nell'immagine seguente è illustrato il flusso di relazioni di entità quando un potenziale cliente diventa un cliente effettivo. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campagne
 
 Una campagna è destinata ai contatti per i prospect, i clienti potenziali, le opportunità e i clienti selezionati per partecipare alla campagna. In Supply Chain Management, è possibile creare diversi tipi di campagne, quali telemarketing, mailing e campagne di posta elettronica, per massimizzare il potenziale di clienti. Man mano che avanza la campagna e si ricevono risposte positive, è possibile iniziare il processo di vendita con i destinatari che hanno risposto positivamente alla campagna.
 
 ## <a name="sales"></a>Vendite
-Utilizzare la funzionalità di vendita per creare le offerte, effettuare l'upselling e il cross-selling a clienti nuovi ed esistenti, creare ordini cliente e creare fatture di vendita per i clienti. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per le vendite. [![Processo aziendale per le vendite](./media/sales01.jpg)](./media/sales01.jpg)
+Utilizzare la funzionalità di vendita per creare le offerte, effettuare l'upselling e il cross-selling a clienti nuovi ed esistenti, creare ordini cliente e creare fatture di vendita per i clienti. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per le vendite. [![Processo aziendale per le vendite.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Offerte di vendita
 

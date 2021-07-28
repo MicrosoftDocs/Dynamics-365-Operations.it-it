@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c3414d6ef5f2df62f37f1ef2e7e2ff43ce040e5e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ac56dd8f6ecda669f32b298649da45634c5d83c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752252"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360770"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Area di lavoro mobile Approvazioni fatture
 
@@ -72,7 +72,7 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 3.  La prima volta che si accede viene richiesto di inserire il proprio nome utente e la password. Immettere le proprie credenziali.
 4.  Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società. Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.
 
-    [![Effettuare il pull per l'aggiornamento](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Trascinare verso il basso.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Approvare fatture tramite l'area di lavoro Approvazioni fatture
 1.  Sul dispositivo mobile, selezionare l'area di lavoro **Approvazioni fatture**.

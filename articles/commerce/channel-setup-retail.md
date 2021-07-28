@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937536"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346060"
 ---
 # <a name="set-up-a-retail-channel"></a>Impostare un canale di vendita al dettaglio
 
@@ -50,11 +50,11 @@ Prima di creare un canale di vendita al dettaglio, assicurarsi di soddisfare i [
 
 L'immagine seguente mostra la creazione di un nuovo canale di vendita al dettaglio.
 
-![Nuovo canale di vendita al dettaglio](media/channel-setup-retail-1.png)
+![Nuovo canale di vendita al dettaglio.](media/channel-setup-retail-1.png)
 
 L'immagine seguente mostra un esempio di canale di vendita al dettaglio.
 
-![Esempio di canale di vendita al dettaglio](media/channel-setup-retail-2.png)
+![Esempio di canale di vendita al dettaglio.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Altre impostazioni
 
@@ -64,7 +64,7 @@ Inoltre, vedere [Layout di schermo per il POS](pos-screen-layouts.md) per inform
 
 L'immagine seguente mostra un esempio di configurazione di un canale di vendita al dettaglio.
 
-![Esempio di configurazione di un canale di vendita al dettaglio](media/channel-setup-retail-3.png)
+![Esempio di configurazione di un canale di vendita al dettaglio.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Ulteriori operazioni di impostazione di canali
 
@@ -74,7 +74,7 @@ Ulteriori attività necessarie per l'impostazione di un canale online includono 
 
 L'immagine seguente mostra varie ulteriori opzioni di impostazione dei canali di vendita al dettaglio nella scheda **Imposta**.
 
-![Impostare un canale](media/channel-setup-retail-4.png)
+![Impostare un canale.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
 
@@ -89,7 +89,7 @@ Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un
 
 L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
-![Esempio di metodi di pagamento](media/channel-setup-retail-5.png)
+![Esempio di metodi di pagamento.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Impostare il riepilogo di cassa
 
@@ -98,9 +98,9 @@ L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
 L'immagine seguente illustra un esempio di riepilogo di cassa.
 
-![Impostare riepiloghi di cassa](media/channel-setup-retail-6.png)
+![Impostare riepiloghi di cassa.](media/channel-setup-retail-6.png)
 
-### <a name="set-up-modes-of-delivery"></a>Impostare le modalità di consegna
+### <a name="set-up-modes-of-delivery"></a>Imposta la modalità di consegna
 
 È possibile visualizzare le modalità di consegna configurate selezionando **Modalità di consegna** nella scheda **Imposta** del Riquadro azioni.  
 
@@ -112,7 +112,7 @@ Per modificare o aggiungere una modalità di consegna, attenersi alla seguente p
 
 L'immagine seguente illustra un esempio di modalità di consegna.
 
-![Impostare le modalità di consegna](media/channel-setup-retail-7.png)
+![Impostare le modalità di consegna.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Impostare un conto ricavi/spese
 
@@ -129,7 +129,7 @@ Per impostare un conto ricavi/spese, effettuare le seguenti operazioni.
 
 L'immagine seguente mostra un esempio di conto ricavi/spese.
 
-![Impostare conti ricavi/spese](media/channel-setup-retail-8.png)
+![Impostare conti ricavi/spese.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Impostare sezioni
 
@@ -155,7 +155,7 @@ Per impostare l'assegnazione di un gruppo di adempimento, effettuare le seguenti
 
 L'immagine seguente mostra un esempio di impostazione dell'assegnazione di un gruppo di adempimento.
 
-![Impostare l'assegnazione di un gruppo di adempimento](media/channel-setup-retail-9.png)
+![Impostare assegnazioni di gruppi di adempimento.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Impostare casseforti
 

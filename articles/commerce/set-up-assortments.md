@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 447c5f580e5d925efbfeaabc3890e2d67f9688f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790984"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344349"
 ---
 # <a name="set-up-assortments"></a>Impostare gli assortimenti
 
@@ -31,7 +31,7 @@ Questo articolo spiega cos'è un assortimento e come impostare gli assortimenti 
 
 Un assortimento è una raccolta di prodotti correlati, che vengono assegnati a un canale di commercio, a un punto vendita fisico o un punto vendita online. È possibile utilizzare l'assortimento per identificare i prodotti che sono disponibili in ciascun punto vendita. Un assortimento può includere diverse categorie di prodotti. Di conseguenza, tutti i prodotti assegnati a una categoria specifica vengono inclusi nell'assortimento. Un assortimento può includere anche prodotti specifici e varianti specifiche dei prodotti. Impostando un assortimento, è possibile assegnare contemporaneamente migliaia di prodotti ai canali, in qualunque combinazione richiesta dai punti vendita. È possibile impostare tutti gli assortimenti prodotti necessari. Ogni prodotto può essere incluso in uno o più assortimenti e ogni assortimento può essere assegnato a uno o più canali. Ad esempio, è possibile definire un assortimento che include un set di base di prodotti. Tutti i punti vendita riceveranno questo assortimento. Quindi, è possibile definire un altro assortimento che include solo attrezzature sportive di grandi dimensioni che vengono ricevute solo dai punti vendita più grandi. Lo schema seguente illustra la modalità di assegnazione dei prodotti agli assortimenti e la modalità di assegnazione di tali assortimenti ai canali.
 
-![Relazioni di assortimento prodotti](./media/assortments_relationship.gif)
+![Relazioni di assortimento prodotti.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Prerequisiti
 

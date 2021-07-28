@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049366"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344497"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Assegnare icone e titoli dei passaggi per l'app per dispositivi mobili Warehouse Management
 
@@ -25,7 +25,7 @@ In questo argomento viene descritto come assegnare icone e titoli dei passaggi p
 
 Le seguenti illustrazioni mostrano come vengono visualizzati i titoli e le icone dei passaggi nell'app per dispositivi mobili Warehouse Management.
 
-![Esempio di un'icona di passaggio e un titolo di passaggio nell'app per dispositivi mobili Warehouse Management](media/step-icon-example.png "Esempio di un'icona di passaggio e un titolo di passaggio nell'app per dispositivi mobili Warehouse Management")
+![Esempio di un'icona di passaggio e un titolo di passaggio nell'app per dispositivi mobili Warehouse Management.](media/step-icon-example.png "Esempio di un'icona di passaggio e un titolo di passaggio nell'app per dispositivi mobili Warehouse Management")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Attivare la funzionalità nel tuo sistema
 
@@ -350,13 +350,13 @@ Questo esempio spiega come configurare le icone e i titoli dei passaggi per un f
 
 Nella figura seguente viene illustrato questo flusso di attività.
 
-![Diagramma del flusso di attività](media/step-icons-example-task-flow.png "Diagramma del flusso di attività")
+![Diagramma del flusso di attività.](media/step-icons-example-task-flow.png "Diagramma del flusso di attività")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Creare una classe di passaggio per la pagina di input del contenitore
 
 La pagina di input del contenitore consente all'operatore di eseguire la scansione o di inserire un ID contenitore.
 
-![Pagina di input del contenitore](media/step-icons-example-container-input.png "Pagina di input del contenitore")
+![Pagina di input del contenitore.](media/step-icons-example-container-input.png "Pagina di input del contenitore")
 
 Nella pagina di input del contenitore, il nome del controllo del campo di input è `ContainerId`. Poiché questo nome di controllo non è nell'[elenco di ID passaggio](#step-ids-classes), non troverai un passaggio esistente basato su di esso. Pertanto, è necessario creare una classe di passaggio che rappresenti il passaggio. Ecco un esempio.
 
@@ -382,7 +382,7 @@ Per assegnare un'icona di passaggio, imposta `defaultStepIcon` su uno degli ID i
 
 La pagina di input del peso consente al lavoratore di inserire un peso.
 
-![Pagina di input del peso](media/step-icons-example-weight-input.png "Pagina di input del peso")
+![Pagina di input del peso.](media/step-icons-example-weight-input.png "Pagina di input del peso")
 
 Nella pagina di input del peso, il nome del controllo del campo di input è `Weight`, che si trova nell'[elenco di ID di passaggio](#step-ids-classes). Pertanto, se l'icona e il titolo del passaggio definiti nella classe `WHSMobileAppStepWeight` sono accettabili per te, non devi cambiare nulla per questo passaggio.
 

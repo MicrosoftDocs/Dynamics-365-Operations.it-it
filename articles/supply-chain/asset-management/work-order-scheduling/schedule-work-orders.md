@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813751"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347118"
 ---
 # <a name="schedule-work-orders"></a>Programmare ordini di lavoro
 
@@ -56,7 +56,7 @@ Solo gli ordini di lavoro con un ciclo di vita che consente la programmazione po
 
 *Esempio:* nella figura seguente, la formula immessa nel campo **Data di inizio prevista** genererà la programmazione per tutti gli ordini di lavoro la cui data di inizio prevista è almeno una settimana dopo la data corrente. Questa formula può essere utile quando si esegue la programmazione di ordini di lavoro su base continuativa, ma si intende accertarsi che gli ordini di lavoro programmati per i 5-6 giorni successivi non vengano riprogrammati.
 
-![Figura 1](media/03-work-order-scheduling.png)
+![Figura 1.](media/03-work-order-scheduling.png)
 
 Il tipo di ordine di lavoro associato agli ordini di lavoro può impostare la programmazione per un addetto alla manutenzione (**Gestione cespiti** > **Impostazione** > **Ordini di lavoro** > **Tipi di ordine di lavoro** >  interruttore **Un addetto alla manutenzione** impostato su "Sì"). Ciò significa che se il tipo di ordine di lavoro viene utilizzato in un ordine di lavoro, l'interruttore **Un addetto alla manutenzione** viene automaticamente impostato su "Sì" nella pagina dettagli **Tutti gli ordini di lavoro** > visualizzazione **Intestazione** > Scheda dettaglio **Programma**. Durante la programmazione degli ordini di lavoro, tutti i processi di ordine di lavoro creati nell'ordine di lavoro verranno successivamente programmati per lo stesso addetto alla manutenzione. Se necessario, è possibile modificare la selezione di **Un addetto alla manutenzione** in **Tutti gli ordini di lavoro** per consentire la programmazione di uno o più addetti nei processi di ordine di lavoro.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809736"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344546"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>Informazioni su LIFO con valore fisico e contrassegno
 
@@ -53,7 +53,7 @@ In questo esempio, il gruppo di modelli di articoli non è contrassegnato per in
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente a 15,00 EUR. La seguente figura mostra gli effetti del modello inventariale LIFO in questa serie di transazioni quando non viene utilizzata l'opzione **Includi valore fisico**. 
 
-![LIFO senza Includi valore fisico](./media/lifowithoutincludephysicalvalue.gif) 
+![LIFO senza Includi valore fisico.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -89,7 +89,7 @@ La transazione 6a verrà rettificata secondo la transazione in entrata 4b. Il si
 
 La seguente illustrazione mostra gli effetti del modello inventariale LIFO in questa serie di transazioni quando viene utilizzata l'opzione **Includi valore fisico**. 
 
-![LIFO con Includi valore fisico](./media/lifowithincludephysicalvalue.gif) 
+![LIFO con Includi valore fisico.](./media/lifowithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -133,7 +133,7 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 
 Nella seguente illustrazione vengono mostrati gli effetti del modello inventariale LIFO su questa serie di transazioni quando viene utilizzato il contrassegno tra entrate e uscite. 
 
-![LIFO con Contrassegno](./media/lifowithmarking.gif) 
+![LIFO con Contrassegno.](./media/lifowithmarking.gif) 
 
 **Informazioni sul diagramma**
 

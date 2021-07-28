@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7d551a8ba6ba9ca282fd9de3fa7d7c7303e394ed
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 702fffa6b958e5cec26029bd5a12d01b0467ee6d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023364"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358292"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>Calcolo della TDS sulle fatture dalla pagina Fattura a testo libero
 
@@ -31,7 +31,7 @@ Questo argomento descrive come calcolare l'imposta dedotta all'origine (TDS) sul
 
 1. Passa a **Contabilità clienti \> Fatture \> Tutte le fatture a testo libero**.
 
-    [![Pagina della fattura a testo libero](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
+    [![Pagina Fattura a testo libero.](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
 
 2. Seleziona **Nuovo** per creare una fattura a testo libero e immetti i dettagli richiesti.
 3. Seleziona la scheda **Fattura**. Nella sezione **Gruppo ritenute d'acconto**, il campo **Natura soggetto valutato** mostra la natura della categoria di soggetto valutato del cliente.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799916"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349700"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Abilitare e configurare addebiti automatici per canale
 
@@ -66,7 +66,7 @@ Per assegnare una gerarchia predefinita a uno scopo della gerarchia dell'organiz
 1. Nel riquadro azioni selezionare **Esegui adesso**.
 1. Ripetere i due passaggi precedenti per eseguire i processi **1070** (**Configurazione del canale**) e **1110** (**Configurazione globale**).
 
-![Configurazione dello scopo della gerarchia organizzativa per le spese automatiche vendita al dettaglio](media/Auto-charges-org-hierarchy-purpose.png)
+![Configurazione dello scopo della gerarchia organizzativa per le spese automatiche vendita al dettaglio.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Definire le spese automatiche per canale
 
@@ -86,7 +86,7 @@ Per definire le spese automatiche per canale in Commerce, attenersi alla seguent
 1. Nel riquadro azioni selezionare **Esegui adesso**.
 1. Ripetere i due passaggi precedenti per eseguire i processi **1070** (**Configurazione del canale**) e **1110** (**Configurazione globale**).
     
-![Spese automatiche definite per canale](media/Auto-charges-line-charge-by-channel.png)
+![Spese automatiche definite per canale.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Scenario di esempio
 
@@ -94,7 +94,7 @@ L'esempio seguente descrive i passaggi necessari per configurare un prodotto in 
 
 L'organizzazione definisce un codice di spesa denominato **RECYCLE**, come mostrato nella seguente illustrazione.
 
-![Codice di addebito RECYCLE](media/Auto-charges-charge-code.png)
+![Codice di addebito RECYCLE.](media/Auto-charges-charge-code.png)
 
 Una spesa automatica è creata a livello di riga. Ha la seguente configurazione:
 
@@ -112,13 +112,13 @@ Viene creata una riga di spese automatiche. Ha la seguente configurazione:
 - Il campo **Categoria** è impostato su **Fisso**.
 - Il campo **Spese** è impostato su **$ 6,25**.
 
-![Configurazione delle spese automatiche a livello di riga e della riga di spese automatiche](media/Auto-charges-recyclingfee-line-fee.png)
+![Configurazione delle spese automatiche a livello di riga e della riga di spese automatiche.](media/Auto-charges-recyclingfee-line-fee.png)
 
 Nell'applicazione POS, un ordine cliente viene creato nel canale del punto vendita **San Francisco**. La riga **Spese** mostra le spese per il riciclaggio di **$ 6,25**.
 
 Selezionando **Opzioni di transazione \> Spese \> Gestisci spese** nell'applicazione POS, è possibile visualizzare il codice di addebito e la descrizione per le spese per il riciclaggio.
 
-![Spese per il riciclaggio nell'applicazione POS](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Spese per il riciclaggio nell'applicazione POS.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941057"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350814"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Risoluzione dei problemi durante la sincronizzazione iniziale
 
@@ -38,7 +38,7 @@ In questo argomento vengono fornite informazioni sulla risoluzione dei problemi 
 
 Dopo aver abilitato i modelli di mapping, lo stato delle mappe deve essere **In esecuzione**. Se lo stato è **Non in esecuzione**, si sono verificati errori durante la sincronizzazione iniziale. Per visualizzare gli errori, selezionare la scheda **Dettagli sulla sincronizzazione iniziale** nella pagina **Doppia scrittura**.
 
-![Errore nella scheda dei dettagli della sincronizzazione iniziale](media/initial_sync_status.png)
+![Errore nella scheda dei dettagli della sincronizzazione iniziale.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Impossibile completare la sincronizzazione iniziale: 400 Richiesta non valida
 
@@ -85,7 +85,7 @@ Per risolvere il problema, procedere come segue.
 1. Accedere all'app Finance and Operations.
 2. Nella pagina **Applicazioni Azure Active Directory**, eliminare il client **DtAppID**, quindi aggiungerlo di nuovo.
 
-![Client DtAppID nell'elenco di applicazioni Azure AD](media/aad_applications.png)
+![Client DtAppID nell'elenco di applicazioni Azure AD.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Errori di riferimento automatico o di riferimento circolare durante la sincronizzazione iniziale
 
@@ -115,11 +115,11 @@ Se le righe nella tabella fornitore hanno valori nelle colonne **PrimaryContactP
     2. Cercare **primarycontactperson** per trovare la colonna di origine **PrimaryContactPersonId**.
     3. Selezionare **Azioni**, quindi selezionare **Elimina**.
 
-        ![Eliminazione della colonna PrimaryContactPersonId](media/vend_selfref3.png)
+        ![Eliminazione della colonna PrimaryContactPersonId.](media/vend_selfref3.png)
 
     4. Ripetere questi passaggi per eliminare la colonna **InvoiceVendorAccountNumber**.
 
-        ![Eliminazione della colonna InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![Eliminazione della colonna InvoiceVendorAccountNumber.](media/vend-selfref4.png)
 
     5. Salvare le modifiche nel mapping.
 
@@ -129,11 +129,11 @@ Se le righe nella tabella fornitore hanno valori nelle colonne **PrimaryContactP
     2. Selezionare la tabella **Fornitori V2**.
     3. Nel riquadro azioni selezionare **Opzioni**, quindi selezionare **Rilevamento modifiche**.
 
-        ![Selezione dell'opzione Rilevamento modifiche](media/selfref_options.png)
+        ![Selezione dell'opzione Rilevamento modifiche.](media/selfref_options.png)
 
     4. Selezionare **Disabilita rilevamento modifiche**.
 
-        ![Selezione di Disabilita rilevamento modifiche](media/selfref_tracking.png)
+        ![Selezione di Disabilita rilevamento modifiche.](media/selfref_tracking.png)
 
 3. Eseguire la sincronizzazione iniziale per il mapping **Fornitori V2 (msdyn\_vendors)**. La sincronizzazione iniziale deve essere eseguita correttamente senza errori.
 4. Eseguire la sincronizzazione iniziale per il mapping **Contatti CDS V2 (contatti)**. È necessario sincronizzare questo mapping se si desidera sincronizzare la colonna di contatto primario nella tabella fornitori perché la sincronizzazione deve essere eseguita anche per le righe di contatti.
@@ -162,11 +162,11 @@ Se le righe nella tabella cliente hanno valori nelle colonne **ContactPersonID**
     2. Cercare **contactperson** per trovare la colonna di origine **ContactPersonID**.
     3. Selezionare **Azioni**, quindi selezionare **Elimina**.
 
-        ![Eliminazione della colonna ContactPersonID](media/cust_selfref3.png)
+        ![Eliminazione della colonna ContactPersonID.](media/cust_selfref3.png)
 
     4. Ripetere questi passaggi per eliminare la colonna **InvoiceAccount**.
 
-        ![Eliminazione della colonna InvoiceAccount](media/cust_selfref4.png)
+        ![Eliminazione della colonna InvoiceAccount.](media/cust_selfref4.png)
 
     5. Salvare le modifiche nel mapping.
 
@@ -176,11 +176,11 @@ Se le righe nella tabella cliente hanno valori nelle colonne **ContactPersonID**
     2. Selezionare la tabella **Cliente V3**.
     3. Nel riquadro azioni selezionare **Opzioni**, quindi selezionare **Rilevamento modifiche**.
 
-        ![Selezione dell'opzione Rilevamento modifiche](media/selfref_options.png)
+        ![Selezione dell'opzione Rilevamento modifiche.](media/selfref_options.png)
 
     4. Selezionare **Disabilita rilevamento modifiche**.
 
-        ![Selezione di Disabilita rilevamento modifiche](media/selfref_tracking.png)
+        ![Selezione di Disabilita rilevamento modifiche.](media/selfref_tracking.png)
 
 3. Eseguire la sincronizzazione iniziale per il mapping **Clienti V3 (account)**. La sincronizzazione iniziale deve essere eseguita correttamente senza errori.
 4. Eseguire la sincronizzazione iniziale per il mapping **Contatti CDS V2 (contatti)**.
@@ -196,7 +196,7 @@ Se le righe nella tabella cliente hanno valori nelle colonne **ContactPersonID**
 
         La figura seguente mostra un progetto che aggiorna **CustomerAccount** e **ContactPersonId**.
 
-        ![Progetto di integrazione dei dati per aggiornare CustomerAccount e ContactPersonId](media/cust_selfref6.png)
+        ![Progetto di integrazione dei dati per aggiornare CustomerAccount e ContactPersonId.](media/cust_selfref6.png)
 
     2. Aggiungere i criteri dell'azienda nel filtro sul lato Dataverse in modo che solo le righe che soddisfano i criteri di filtro verranno aggiornati nell'app Finance and Operations. Per aggiungere un filtro, selezionare il pulsante del filtro. Nella finestra di dialogo **Modifica query**, è possibile aggiungere una query filtro come **\_msdyn\_company\_value eq '\<guid\>'**. 
 
@@ -204,7 +204,7 @@ Se le righe nella tabella cliente hanno valori nelle colonne **ContactPersonID**
 
         Se non si immette una query filtro per **\_msdyn\_company\_value**, tutte le righe vengono sincronizzate.
 
-        ![Aggiunta di una query filtro](media/cust_selfref7.png)
+        ![Aggiunta di una query filtro.](media/cust_selfref7.png)
 
     La sincronizzazione iniziale delle righe è ora completata.
 

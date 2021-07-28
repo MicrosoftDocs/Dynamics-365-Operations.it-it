@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188175"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353470"
 ---
 # <a name="purchase-requisition-workflow"></a>flusso di lavoro delle richieste di acquisto
 
@@ -51,7 +51,7 @@ La figura di seguito mostra i possibili passaggi di una richiesta di acquisto ne
 -   **Addetto acquisti**: utente che esegue una revisione dell'approvvigionamento e può approvare il documento.
 -   **Il superiore del richiedente**: utente che esegue una revisione manageriale e può approvare il documento.
 
-![Processo di revisione del flusso di lavoro della richiesta di acquisto](./media/purchreqworkflowoverview_submission.gif)  
+![Processo di revisione del flusso di lavoro della richiesta di acquisto.](./media/purchreqworkflowoverview_submission.gif)  
 In questo esempio il processo del flusso di lavoro per la richiesta di acquisto include i passaggi seguenti:
 
 1.  Il preparatore invia una richiesta di acquisto per la revisione.
@@ -74,7 +74,7 @@ I ruoli seguenti sono inclusi nel processo del flusso di lavoro per questo esemp
 -   **Responsabile reparto**: utente che esegue una revisione di spesa e può approvare il documento.
 -   **Responsabile gruppo**: utente che esegue una revisione di autorizzazione della firma e può approvare il documento.
 
-![Processo di revisione del flusso di lavoro per la righe della richiesta di acquisto](./media/purchreqlineworkflowoverview.gif)  
+![Processo di revisione del flusso di lavoro per la riga della richiesta di acquisto.](./media/purchreqlineworkflowoverview.gif)  
 In questo esempio il processo del flusso di lavoro per le righe della richiesta di acquisto include i passaggi seguenti:
 
 1.  Il preparatore invia una richiesta di acquisto per la revisione. Ogni riga viene inviata al revisore configurato per riceverla nel processo del flusso di lavoro.

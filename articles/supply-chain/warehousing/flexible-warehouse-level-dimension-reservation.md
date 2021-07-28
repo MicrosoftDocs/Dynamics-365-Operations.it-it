@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103048"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343776"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -58,7 +58,7 @@ Sebbene la gerarchia di prenotazioni *Batch-below\[location\]* soddisfi pienamen
 
 Per consentire la flessibilità desiderata nel comportamento di prenotazione di batch per gli articoli associati a una gerarchia di prenotazioni di inventario *Batch-below\[location\]*, i responsabili delle scorte devono selezionare la casella di controllo **Consenti prenotazione su ordine con domanda** per il livello **Numero batch** nella pagina **Gerarchie prenotazioni inventario**.
 
-![Rendere flessibile la gerarchia di prenotazioni di inventario](media/Flexible-inventory-reservation-hierarchy.png)
+![Rendere flessibile la gerarchia di prenotazioni di inventario.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Quando il livello **Numero batch** nella gerarchia è selezionato, tutte le dimensioni al di sopra di quel livello e fino al livello **Ubicazione** verranno selezionate automaticamente. (per impostazione predefinita, tutte le dimensioni sopra il livello **Ubicazione** sono preselezionate). Questo comportamento riflette la logica in cui tutte le dimensioni nell'intervallo tra il numero di batch e l'ubicazione vengono automaticamente prenotate dopo la prenotazione di un numero di batch specifico nella riga ordine.
 
@@ -145,7 +145,7 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
 6. Nella pagina **Prenotazione batch**, selezionare la riga per il batch **B11**, quindi selezionare **Prenota riga**. Non esiste una logica designata per l'assegnazione di ubicazioni e targhe durante la prenotazione automatica. È possibile inserire manualmente la quantità nel campo **Prenotazione**. Si noti che nella scheda dettaglio **Numeri batch impegnati nella riga di origine** il batch **B11** è visualizzato come **Impegnato**.
 
-    ![Impegnare un numero di batch specifico in una riga ordine cliente nella pagina Prenotazione batch](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Impegnare un numero di batch specifico in una riga ordine cliente nella pagina Prenotazione batch.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > La prenotazione della quantità in una riga ordine cliente può essere effettuata su più batch. Allo stesso modo, la prenotazione dello stesso batch può essere effettuata in più ubicazioni e targhe (se le targhe sono abilitate per le ubicazioni).
@@ -154,7 +154,7 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
 7. Selezionare **Gestione informazioni sul prodotto** \> **Prodotti** \> **Prodotti rilasciati**. Selezionare l'articolo, quindi selezionare **Gestione articoli** \> **Visualizza** \> **Transazioni**.
 
-    ![Prenotazione impegnata nell'ordine come tipo di operazione di magazzino](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Prenotazione impegnata dall'ordine come tipo di operazione di magazzino.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Esaminare le operazioni di magazzino dell'articolo correlate alla prenotazione nella riga ordine cliente.
 
@@ -172,7 +172,7 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
     - Per creare lavoro, il sistema utilizza modelli di lavoro ma non direttive sull'ubicazione. Tutte le impostazioni standard definite per i modelli di lavoro, come un numero massimo di righe di prelievo o un'unità di misura specifica, verranno applicate per determinare quando è necessario creare un nuovo lavoro. Tuttavia, le regole associate alle direttive sull'ubicazione per l'identificazione delle ubicazioni di prelievo non vengono prese in considerazione poiché la prenotazione impegnata nell'ordine specifica già tutte le dimensioni inventariali. Tali dimensioni inventariali includono le dimensioni a livello di stoccaggio in magazzino. Pertanto, il lavoro eredita tali dimensioni senza dover consultare le direttive sull'ubicazione.
     - Il numero di batch non viene visualizzato nella riga di prelievo (come nel caso della riga di lavoro creata per un articolo a cui è associata la gerarchia di prenotazioni *Batch-below\[location\]*). Invece, il numero di batch "da" e tutte le altre dimensioni di immagazzinamento vengono visualizzati nell'operazione di magazzino della riga lavoro a cui si fa riferimento dalle operazioni di magazzino associate.
 
-        ![Operazione di magazzino per lavori originati da una prenotazione impegnata nell'ordine](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Transazione di magazzino per lavori originati da una prenotazione impegnata dall'ordine.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - Dopo aver creato il lavoro, l'operazione di magazzino dove il campo **Riferimento** è impostato su **Prenotazione impegnata nell'ordine** viene rimossa. L'operazione di magazzino in cui il campo **Riferimento** è impostato su **Lavoro** ora detiene la prenotazione fisica in tutte le dimensioni inventariali della quantità.
 
@@ -207,7 +207,7 @@ Prima di poter utilizzare la prenotazione flessibile della targa, due funzionali
 
 Per abilitare la prenotazione della targa su un ordine, è necessario selezionare la casella di controllo **Consenti prenotazione su ordine con domanda** per il livello **Targa** nella pagina **Gerarchie prenotazioni inventario** per la gerarchia associata all'articolo pertinente.
 
-![Pagina delle gerarchie di prenotazione dell'inventario per una gerarchia di prenotazione flessibile della targa](media/Flexible-LP-reservation-hierarchy.png)
+![Pagina delle gerarchie di prenotazione dell'inventario per una gerarchia di prenotazione targa flessibile.](media/Flexible-LP-reservation-hierarchy.png)
 
 È possibile abilitare la prenotazione della targa sull'ordine in qualsiasi fase della distribuzione. Questa modifica non avrà alcun effetto sulle prenotazioni o i lavori di magazzino aperti creati prima della modifica. Tuttavia, non è possibile deselezionare la casella di controllo **Consenti prenotazione su ordine con domanda** se esistono operazioni di magazzino con stato di uscita del tipo *Ordinato prenotato*, *Fisico prenotato* o *Ordinato* per uno o più articoli associati a quella gerarchia di prenotazioni.
 
@@ -227,7 +227,7 @@ Quando la riga dell'ordine cliente che utilizza una prenotazione della targa imp
 
 Se un articolo di lavoro di magazzino è costituito da righe uguali a un pallet completo e include quantità impegnate nella targa, è possibile ottimizzare il processo di prelievo utilizzando una voce di menu del dispositivo mobile in cui l'opzione **Gestisci per targa** è impostata su *Sì*. Un addetto al magazzino può quindi eseguire la scansione di una targa per completare un prelievo invece di eseguire la scansione degli articoli dal lavoro uno per uno.
 
-![Voce di menu del dispositivo mobile in cui l'opzione Gestisci per targa è impostata su Sì](media/Handle-by-LP-menu-item.png)
+![Voce di menu del dispositivo mobile in cui l'opzione Gestisci per targa è impostata su Sì.](media/Handle-by-LP-menu-item.png)
 
 Poiché la funzionalità **Gestisci per targa** non supporta il lavoro che copre più pallet, è meglio avere un elemento di lavoro separato per diverse targhe. Per utilizzare questo approccio, aggiungere il campo **ID targa impegnata dall'ordine** come interruzione di intestazione di lavoro della pagina **Modello di lavoro**.
 
@@ -249,7 +249,7 @@ Questo scenario fa riferimento a valori e record inclusi nei dati dimostrativi s
 1. Nel campo **Nome**, immettere un valore (ad esempio *FlexibleLP*).
 1. Nel campo **Descrizione**, immettere un valore (ad esempio, *Prenotazione targa flessibile*).
 1. Nell'elenco **Selezionato**, selezionare **Numero di lotto**, **Numero di serie** e **Proprietario**.
-1. Selezionare il pulsante **Rimuovi** ![freccia indietro](media/backward-button.png) per spostare i record selezionati sull'elenco **Disponibili**.
+1. Selezionare il pulsante **Rimuovi** ![Freccia INDIETRO](media/backward-button.png) per spostare i record selezionati nell'elenco **Disponibili**.
 1. Selezionare **OK**.
 1. Nella riga per il livello di dimensione **Targa**, selezionare la casella di controllo **Consenti prenotazione su ordine con domanda**. Il livello **Targa** viene selezionato automaticamente e non è possibile deselezionare la casella di controllo corrispondente.
 1. Selezionare **Salva**.

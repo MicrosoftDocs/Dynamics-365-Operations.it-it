@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fa174bbb257379f6ce906dd21180bbcb19f8bc3f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 647060635813ad7e680ea88be76668818ff606d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021129"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350356"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Errore di sincronizzazione dell'ordine relativo al servizio di pagamento predefinito
 
@@ -32,7 +32,7 @@ Questo argomento fornisce indicazioni per la risoluzione dei problemi che posson
 
 Quando si sincronizza un ordine online, viene visualizzato il seguente messaggio di errore: "Deve essere presente un servizio di pagamento predefinito per elaborare le transazioni con carta di credito".
 
-![Errore dovuto al servizio di pagamento predefinito mancante](media/default-payment-method-error.jpg)
+![Errore dovuto al servizio di pagamento predefinito mancante.](media/default-payment-method-error.jpg)
 
 ## <a name="resolution"></a>Risoluzione
 

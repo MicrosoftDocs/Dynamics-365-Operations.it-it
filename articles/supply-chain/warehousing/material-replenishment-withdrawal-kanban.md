@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189946"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356929"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Rifornimento con kanban di prelievo
 
@@ -35,7 +35,7 @@ Il kanban di prelievo può essere utilizzato per spostare un kanban di un singol
 
 Lo scenario seguente mostra un sistema di rifornimento basato su pull in cui un segnale pull attiva la creazione di un kanban per il rifornimento del materiale per un processo di produzione. 
 
-[![Segnale pull che attiva la creazione di un kanban per il rifornimento di materiale per un processo di produzione](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Segnale pull che attiva la creazione di un kanban per il rifornimento di materiale per un processo di produzione.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanban di prelievo
 2.  Ubicazione "da" e di stoccaggio finale del kanban per lavoro magazzino
@@ -72,7 +72,7 @@ Se la distanza tra ubicazioni di magazzino e l'ubicazione di entrata produzione 
 
 Nel seguente scenario, l'attività di trasferimento del kanban di prelievo viene configurata per il trasferimento tra due ubicazioni nello stesso magazzino. L'attività di trasferimento del kanban di prelievo viene impostata in modo che venga completata automaticamente. 
 
-[![L'attività di trasferimento viene completata automaticamente quando il lavoro di prelievo del kanban viene elaborato](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![L'attività di trasferimento viene completata automaticamente quando il lavoro di prelievo del kanban viene elaborato.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Magazzino condiviso per materie prime e produzione
 2.  Ubicazioni di magazzino per materie prime

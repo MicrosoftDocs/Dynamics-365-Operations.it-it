@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: b07747752dd09f39c3a7a9a647cc3d10cc4b5cc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f97a003ab35192d164741ef2e6b6597d3df46b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829548"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358787"
 ---
 # <a name="country-of-origin"></a>Paese di origine
 
@@ -86,7 +86,7 @@ Quando si genera un report DBA, è possibile includere il paese di origine per c
 
 Viene generato e visualizzato un report con informazioni sul paese di origine di ciascuna parte. Di seguito è riportato un esempio del report.
 
-![Report del paese di origine](media/country-of-origin-report.png "Report del paese di origine")
+![Report del paese di origine.](media/country-of-origin-report.png "Report del paese di origine")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907693"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348759"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrazione all'ottimizzazione di pianificazione per la pianificazione generale
 
@@ -65,7 +65,7 @@ Dopo che le funzionalità richieste diventano disponibili, Microsoft fornirà un
 
 Il diagramma di flusso seguente riepiloga le informazioni fornite in questo argomento in modo da poter scoprire rapidamente se è necessario richiedere un'eccezione. Se devi richiedere un'eccezione, compila e invia il [questionario sulla migrazione e sulle eccezioni di Ottimizzazione pianificazione](https://go.microsoft.com/fwlink/?linkid=2144962).
 
-![Diagramma di flusso delle eccezioni](media/exception-diagram.png "Diagramma di flusso delle eccezioni")
+![Diagramma di flusso delle eccezioni.](media/exception-diagram.png "Diagramma di flusso delle eccezioni")
 
 > [!NOTE]
 > È possibile richiedere un'eccezione solo per i tenant che attualmente includono, o includeranno, un ambiente di produzione, non solo per tenant con ambienti sandbox. Se è necessario disabilitare l'errore di eccezione di Ottimizzazione pianificazione su un ambiente sandbox IaaS (Infrastructure as a Service), eseguire la query SQL fornita in [Ambienti sandbox](#faq-sandbox).
