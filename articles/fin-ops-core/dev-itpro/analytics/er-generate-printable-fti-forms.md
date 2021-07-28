@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751658"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359007"
 ---
 # <a name="generate-printable-fti-forms"></a>Generare moduli FTI stampabili
 
@@ -77,7 +77,7 @@ Per generare i moduli FTI utilizzando il framework di ER, è possibile assegnare
 3. Selezionare il livello di documento per specificare l'ambito delle fatture per l'elaborazione.
 4. Selezionare il formato di ER per il livello di documento specificato.
 
-![Impostazione Gestione stampa](media/FTIbyGER-PMSetting.png)
+![Impostazione Gestione stampa.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Solo i formati di ER che utilizzano il descrittore radice **FreeTextInvoice** del modello dati **CustomersInvoicing** vengono visualizzati nel campo **Ricerca formato di report** per il formato selezionato.
@@ -87,9 +87,9 @@ I moduli FTI vengono generati nel framework di ER in modo analogo ai report SSRS
 
 Per generare i moduli FTI, è possibile selezionare le fatture in base a un intervallo o per selezione. 
 
-![Selezione delle fatture](media/FTIbyGER-InvoiceSelection.png)
+![Selezione fatture.](media/FTIbyGER-InvoiceSelection.png)
 
-![Anteprima della fattura](media/FTIbyGER-InvoiceExcelPreview.png)
+![Anteprima fattura.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Quando si utilizzando i formati di ER per stampare i moduli FTI in questo modo, vengono utilizzate le destinazioni di file di ER predefinite. La descrizione non può essere modificata. Per altre informazioni su come configurare le destinazioni di ER per i formati di ER, vedere [Destinazioni dei report elettronici (ER)](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ Quando si utilizzando i formati di ER per stampare i moduli FTI in questo modo, 
 > - **Nome:** ERFormatDestinationRuntimeMaintain
 > - **Etichetta:** Gestisci destinazione formato di report elettronici in fase di esecuzione
 
-![Destinazione report elettronici](media/FTIbyGER-ERFileDestinationSetting.png)
+![Destinazione Creazione di report elettronici.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Destinazione del formato per la creazione di report elettronici](media/FTIbyGER-ERFileDestinationUsage.png)
+![Destinazione formato Creazione di report elettronici.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 Il framework di ER attualmente supporta le seguenti destinazioni per i documenti generati:
 
@@ -128,7 +128,7 @@ Il framework di ER attualmente supporta le seguenti destinazioni per i documenti
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>Funzionalità che sono implementate nel formato di ER di esempio
 Nella configurazione del formato di ER di esempio, viene utilizzato un file di Excel come modello per generare i moduli FTI.
 
-![Progettazione formati](media/FTIbyGER-ERFormat.png)
+![Finestra di progettazione formati.](media/FTIbyGER-ERFormat.png)
 
 Attualmente, questo formato di ER di esempio supporta le seguenti funzionalità per generare i moduli FTI:
 
@@ -179,7 +179,7 @@ Oltre al modulo di fattura generato, è possibile generare distinte di ordine di
 - Per la persona giuridica che utilizza il contesto di paese/regione per la Finlandia e che dispone di almeno un conto bancario contrassegnato come **Conto ordini di accredito** e **Codice a barre banca**. 
 - Per una fattura contrassegnata come obbligatoria per l'allegato di pagamento associato **Finlandese**.
 
-![Distinta di ordine di accredito](media/FTIbyGER-GiroSlip.PNG)
+![Distinta di ordine di accredito.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > Il formato di ER di esempio è stato configurato per generare facoltativamente le distinte di ordine di accredito del foglio di lavoro separato.
@@ -194,7 +194,7 @@ Utilizzare gli elementi seguenti del formato di ER di esempio per configurare le
 - È possibile accedere al testo dell'oggetto del messaggio di posta elettronica attraverso la seguente espressione di ER: **Emailing.TxtToUse.Subject**.
 - È possibile accedere al testo del corpo del messaggio di posta elettronica attraverso la seguente espressione di ER: **Emailing.TxtToUse.Body**.
 
-![Impostazioni destinazione](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Impostazioni destinazione.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 Il testo predefinito dell'oggetto e del corpo del messaggio di posta elettronica viene definito nel formato di ER di esempio. La lingua dipende dalle etichette del formato. Questo testo predefinito verrà utilizzato per i messaggi di posta elettronica se un modello di messaggio di posta elettronica dell'organizzazione personalizzato dispone dell'ID **ERFTITMP** predefinito.
 
@@ -203,9 +203,9 @@ Il testo predefinito dell'oggetto e del corpo del messaggio di posta elettronica
 
 Se il modello di messaggio di posta elettronica dell'organizzazione che ha l'ID **ERFTITMP** predefinito è stato aggiunto per la persona giuridica per cui si sta elaborando per la fattura, verrà utilizzato il modello per il testo dell'oggetto e del corpo del testo del messaggio di posta elettronica per generare messaggi di posta elettronica. 
 
-![Modelli di posta elettronica a livello di organizzazione](media/FTIbyGER-EmailTemplate.png)
+![Modelli di posta elettronica organizzazione.](media/FTIbyGER-EmailTemplate.png)
 
-![Carica modello di messaggio di posta elettronica](media/FTIbyGER-EmailTemplateBody.png)
+![Caricare il modello di messaggio di posta elettronica.](media/FTIbyGER-EmailTemplateBody.png)
 
 L'espressione di ER **Emailing.TxtToUse.Subject** del formato di ER di esempio viene configurata per sostituire tutte le occorrenze del segnaposto %1 con l'ID fattura in elaborazione.
 
@@ -218,10 +218,10 @@ L'espressione **Emailing.TxtToUse.Body** del formato di esempio viene configurat
 - "%5" viene sostituito con il titolo del contatto della società.
 - "%6" viene sostituito con l'indirizzo email del contatto della società.
 
-![Indirizzo di posta elettronica](media/FTIbyGER-Email.PNG)
+![Messaggio di posta elettronica.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
-[Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
+[Panoramica dei report elettronici](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

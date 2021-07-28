@@ -15,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a3f5d44e008e4092557d75c8f5d830d5ae36a091
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 265a54fc67fba85b23b372af3403cded29545c4f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799051"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349354"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Identificare un'ipotesi e determinare le metriche per un esperimento
 La prima fase del ciclo di vita della sperimentazione include l'identificazione dell'ipotesi per l'esperimento e la determinazione delle metriche da monitorare per valutare l'esito positivo dell'esperimento. Il diagramma seguente mostra tutti i passaggi relativi alla [configurazione e all'esecuzione di un esperimento](experimentation-overview.md) su un sito Web di e-commerce in Dynamics 365 Commerce. I passaggi aggiuntivi sono esposti in argomenti separati. 
 
-[ ![Percorso utente per sperimentazione - Identificazione](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
+[ ![Percorso utente sperimentazione - Identificazione.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 Un'ipotesi è un'asserzione in cui prevedi il risultato dell'esperimento. Molti fattori contribuiscono alla definizione di un'ipotesi, ad esempio la ricerca sul comportamento degli utenti e sui dati del sito Web raccolti. Con l'ipotesi, definirai l'assunto o la teoria che vuoi convalidare con l'esperimento. Un esempio di ipotesi per l'esperimento potrebbe essere "*un'immagine di una t-shirt bianca sulla mia home page genererà una percentuale di clic più alta rispetto a un maglione blu scuro durante i mesi estivi poiché le persone vogliono indossare qualcosa di leggero e di colore chiaro in estate.*" In tal caso, creerai varianti che includono una t-shirt bianca e un maglione blu scuro e pubblicherai entrambi contemporaneamente.
 

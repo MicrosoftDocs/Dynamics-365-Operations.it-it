@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058562"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360570"
 ---
 # <a name="payroll-integration-api-introduction"></a>Introduzione all'API di integrazione retribuzioni
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058562"
 
 Questo documento descrive l'API di integrazione retribuzioni di Dynamics 365 Human Resources. L'API consente integrazioni end-to-end ottimizzate tra Human Resources e i sistemi di gestione delle retribuzioni dei partner. L'esperienza integrata inizia in Human Resources con il profilo del dipendente, lo stipendio e le detrazioni e le informazioni sui contributi. Quando si assume un dipendente e si immettono il profilo richiesto e le informazioni sulla retribuzione in Human Resources, il sistema delle retribuzioni estrae queste informazioni per utilizzarle durante l'elaborazione delle retribuzioni. Anche gli eventuali aggiornamenti alle informazioni sul dipendente o sulle retribuzioni vengono estratti per essere utilizzati nei cicli di pagamenti successivi.
 
-![Flusso di integrazione delle retribuzioni](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Flusso di integrazione retribuzioni.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Per abilitare l'integrazione, Human Resources include i seguenti componenti:
 
@@ -60,7 +60,7 @@ Per informazioni sulla generazione delle tabelle virtuali per l'API, vedi [Confi
 
 Nel diagramma riportato di seguito vengono illustrate le relazioni all'interno dell'API. Diversi tipi hanno chiavi esterne per altre entità preesistenti in Human Resources che non sono illustrate qui. Questo documento fornisce informazioni sulle entità specifiche per gli scenari di integrazione delle retribuzioni. Tuttavia, ci sono molte altre entità nell'API Web di Dataverse per Human Resources potrebbe anche essere rilevante per la tua integrazione. Alcune di queste entità sono referenziate in relazioni di chiavi esterne o proprietà di navigazione.
 
-![Modello di dati dell'API di integrazione retribuzioni](media/hr-admin-payroll-api-data-model.png)
+[![Modello di dati dell'API di integrazione retribuzioni.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Dipendente retribuzioni e entità correlate
 
@@ -68,7 +68,8 @@ Entità:
 
 - [Dipendente retribuzioni](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Indirizzo lavoratore retribuzioni](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Piano di retribuzione fissa retribuzioni](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Piano di retribuzione fissa retribuzioni](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Piano di retribuzione variabile retribuzioni.](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Mansione posizione di retribuzione](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Posizione di retribuzione](hr-admin-integration-payroll-api-payroll-position.md)
 

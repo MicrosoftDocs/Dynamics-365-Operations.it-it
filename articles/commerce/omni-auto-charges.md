@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022709"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353062"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Addebiti automatici avanzati omnicanale
 
@@ -43,7 +43,7 @@ Con le funzionalità di addebiti automatici avanzati, gli utenti POS possono ave
 
 Nella pagina **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di commercio**, passare alla scheda **Ordini cliente**. Nella scheda Dettaglio **Addebiti**, immettere **Utilizza addebiti automatici avanzati** su **Sì**.
 
-![Parametro Addebiti automatici avanzati](media/advancedchargesparameter.png)
+![Parametro Addebiti automatici avanzati.](media/advancedchargesparameter.png)
 
 Quando gli addebiti automatici avanzati sono abilitati, agli utenti non viene più richiesto di immettere manualmente le spese di spedizione nel terminale POS quando si crea un ordine cliente con Spedisci tutto o Spedizione selezionata. Le spese ordine POS sono calcolate in modo sistematico e aggiunte alla transazione POS (se viene trovata una tabella di addebiti automatici corrispondente che soddisfa il criterio dell'ordine creato). Gli utenti possono anche aggiungere o gestire le spese a livello di riga o intestazione manualmente mediante operazioni POS aggiunte di recente che possono essere aggiunte ai layout dello schermo POS.
 
@@ -86,7 +86,7 @@ Configurare due differenti addebiti automatici a livello di intestazione. Config
 
 Per le spese di consegna su strada, nella sezione delle righe della pagina **Spese automatiche**, definire un addebito di $10 che verrà applicato per gli ordini tra $0,01 e $100. Creare un'altra riga spese per indicare che gli ordini superiori a $100,01 non comporteranno spese.
 
-![Esempio di due tabelle di addebiti automatici](media/headerchargesexample.png)
+![Esempio di due tabelle di addebiti automatici.](media/headerchargesexample.png)
 
 Per le spese di consegna via aerea, nella sezione delle righe del modulo degli addebiti automatici, definire un addebito di $20 che verrà applicata a tutti gli ordini (per un valore tra $0,01 e $9.999.999).
 
@@ -116,7 +116,7 @@ Accedere a **Contabilità clienti \> Impostazione spese \> Spese automatiche**.
 
 Impostare il menu a discesa **Livello** su **Riga** e creare un nuovo record di addebiti automatici per tutti i clienti e per lo specifico prodotto o gruppo di prodotti a cui le commissioni di impostazione verranno addebitate.
 
-![Esempio di tabella di addebiti automatici a livello di riga](media/linechargesexample.png)
+![Esempio di tabella di addebiti automatici a livello di riga.](media/linechargesexample.png)
 
 Inviare le spese a Commerce Scale Unit/database canale di modo che il POS possa utilizzarle eseguendo il processo **1040 - Programmazione della distribuzione**.
 
@@ -136,7 +136,7 @@ Un rivenditore sta facendo un'eccezione ai processi tipici fornendo una speciale
 
 Verificare che il codice spese che verrà utilizzato in questo scenario sia stato configurato correttamente selezionando **Contabilità clienti \> Impostazione spese \> Spese** per definire un codice spese appropriato per lo scenario.
 
-![Esempi di spese](media/chargesexample.png)
+![Esempi di spese.](media/chargesexample.png)
 
 Se la spesa deve essere considerata come una spesa relativa alla "spedizione" nell'ambito di sconti o promozioni inerenti allo spedizione, impostare **Spese di spedizione** nel codice spese su **Sì**. Se questa spesa può inoltre essere sistematicamente rimborsata durante l'elaborazione di una transazione di reso nell'applicazione POS, impostare **Rimborsabile** su **Sì**. Il flag **Rimborsabile** è applicabile solo quando il parametro **Utilizza addebiti automatici avanzati** è impostato su **Sì**.
 

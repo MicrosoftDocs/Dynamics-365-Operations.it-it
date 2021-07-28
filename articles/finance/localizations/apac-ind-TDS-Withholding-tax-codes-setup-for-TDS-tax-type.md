@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d56a23f7af7633e1761a8a7c48f71381d6f14df2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023370"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349930"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>Impostare codici di ritenuta d'acconto per il tipo di imposta TDS
 
@@ -31,7 +31,7 @@ Questo argomento descrive come impostare codici di ritenuta d'acconto per l'impo
 
 1. Vai a **Imposta \> Imposte indirette \> Ritenuta d'acconto \> Codici ritenuta d'acconto**.
 
-    [![Pagina Codici ritenuta d'acconto](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
+    [![Pagina Codici ritenuta d'acconto.](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 
 2. Nel riquadro Azioni seleziona **Nuovo** per creare un codice di ritenuta d'acconto per la TDS e immetti i dettagli necessari.
 3. Nella Scheda dettaglio **Generale**, nel campo **Tipo di imposta**, seleziona **TDS** per categorizzare il codice imposta come codice imposta TDS.

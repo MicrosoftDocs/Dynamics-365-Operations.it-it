@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a16006a18e552c00fbed5eda7579fbcb77c315ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908110"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355927"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizzare contatti direttamente da Sales con contatti o clienti in Supply Chain Management
 
@@ -38,7 +38,7 @@ Questo argomento descrive i modelli e le attività sottostanti utilizzati per si
 
 La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
-[![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flusso di dati in Prospect per uno scenario di liquidazione.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
@@ -119,11 +119,11 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 
 ### <a name="contact-to-contact"></a>Da contatto a contatto
 
-![Mapping dei modelli nell'integratore di dati](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Mapping dei modelli nell'integratore di dati.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer"></a>Da contatto a cliente
 
-![Mapping dei modelli nell'integratore di dati](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Mapping dei modelli nell'integratore di dati.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Argomenti correlati

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814682"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347664"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Progettare l'interfaccia di esecuzione dell'area di produzione
 
@@ -32,7 +32,7 @@ Nella pagina **Configura esecuzione area di produzione** è possibile creare e c
 
 Ciascuna scheda è suddivisa in quattro sezioni, come mostrato nell'illustrazione seguente.
 
-![Layout della schede](media/pfe-tab-layout.png "Layout della schede")
+![Layout della schede.](media/pfe-tab-layout.png "Layout della schede")
 
 I seguenti elementi sono mostrati nell'illustrazione:
 
@@ -47,7 +47,7 @@ Per creare e configurare una nuova scheda, effettuare le seguenti operazioni:
 
 1. Selezionare **Progettazione schede** nel riquadro azioni per aprire la pagina **Progettazione schede**.
 
-    ![La pagina Progettazione schede](media/pfe-design-tabs.png "La pagina Progettazione schede")
+    ![La pagina Progettazione schede.](media/pfe-design-tabs.png "La pagina Progettazione schede")
 
 1. Nel Riquadro azioni seleziona **Nuovo**.
 
@@ -67,7 +67,7 @@ Dopo aver progettato tutte le schede necessarie, è possibile associarle a una c
 
 1. Andare a **Controllo produzione \> Imposta \> Esecuzione produzione \> Configura esecuzione area di produzione**.
 
-    ![Configura esecuzione area di produzione](media/pfe-config-prod-floor-execution.png "Configura esecuzione area di produzione")
+    ![Configura esecuzione area di produzione.](media/pfe-config-prod-floor-execution.png "Configura esecuzione area di produzione")
 
 1. Nella Scheda dettaglio **Selezione scheda** selezionare **Aggiungi**.
 

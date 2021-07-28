@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821539"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344570"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data LIFO con valore fisico e contrassegno
 
@@ -55,7 +55,7 @@ In questo esempio, il gruppo di modelli di articoli non è contrassegnato per in
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente a 15,00 EUR. 
 
-La seguente illustrazione mostra gli effetti del modello inventariale Data LIFO quando non viene utilizzata l'opzione **Includi valore fisico**. ![Data LIFO con Includi valore fisico](./media/lifodatewithoutincludephysicalvalue.gif) 
+La seguente illustrazione mostra gli effetti del modello inventariale Data LIFO quando non viene utilizzata l'opzione **Includi valore fisico**. ![Data LIFO con Includi valore fisico.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -90,7 +90,7 @@ La figura di seguito mostra le transazioni:
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente a 20,00 EUR. 
 
-La seguente illustrazione mostra gli effetti del modello inventariale LIFO quando viene utilizzata l'opzione **Includi valore fisico**. ![Data LIFO con Includi valore fisico](./media/lifodatewithincludephysicalvalue.gif) 
+La seguente illustrazione mostra gli effetti del modello inventariale LIFO quando viene utilizzata l'opzione **Includi valore fisico**. ![Data LIFO con Includi valore fisico.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -136,7 +136,7 @@ La figura di seguito mostra le transazioni:
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. 
 
-Nella seguente illustrazione vengono illustrati gli effetti legati alla scelta del modello inventariale LIFO con contrassegno tra entrate e uscite. ![Data LIFO con Contrassegno](./media/lifodatewithmarking.gif) 
+Nella seguente illustrazione vengono illustrati gli effetti legati alla scelta del modello inventariale LIFO con contrassegno tra entrate e uscite. ![Data LIFO con Contrassegno.](./media/lifodatewithmarking.gif) 
 
 **Informazioni sul diagramma**
 

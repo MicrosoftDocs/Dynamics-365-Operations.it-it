@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103170"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359789"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -30,7 +30,7 @@ Per ciascun carico in entrata, il sistema deve già includere un ordine cliente 
 
 La seguente illustrazione mostra il flusso tipico per la gestione di carichi in entrata, che hanno quantità di ordini fornitore quando arrivano al magazzino.
 
-![Il processo di gestione del carico in entrata](media/inbound-process.png "Il processo di gestione del carico in entrata")
+![Il processo di gestione del carico in entrata.](media/inbound-process.png "Il processo di gestione del carico in entrata")
 
 1. **Il fornitore conferma l'ordine fornitore.**
 
@@ -293,7 +293,7 @@ In questa sezione, si crea una voce di menu del dispositivo mobile e la si aggiu
 
     È possibile lasciare tutte le altre impostazioni sui loro valori predefiniti.
 
-    ![Impostazioni delle voci di menu del dispositivo mobile](media/inbound-mobile-menu-items.png "Impostazioni delle voci di menu del dispositivo mobile")
+    ![Impostazioni delle voci di menu del dispositivo mobile.](media/inbound-mobile-menu-items.png "Impostazioni delle voci di menu del dispositivo mobile")
 
     Per ulteriori informazioni su come configurare il menu dei dispositivi mobili, vedere [Configurare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ In questa procedura, verrà creato manualmente un ordine fornitore e un carico a
     - Nella scheda dettaglio **Carica**, il campo **Stato del carico** è impostato su _Aperto_.
     - Nella sezione **Righe di carico**, c'è una sola riga in cui il campo **Quantità** è impostato su _10_ e il campo **Quantità di lavoro creata** è impostato su _0_ (zero).
 
-    ![Dettagli carico](media/inbound-load-details.png "Dettagli carico")
+    ![Dettagli carico.](media/inbound-load-details.png "Dettagli carico")
 
 1. Nel riquadro azioni, nella scheda **Spedizione e ricezione** selezionare **Conferma \> Spedizione in entrata**. Si noti che lo **Stato del carico** è cambiato in _Spedito_.
 1. Prendere nota del valore **ID carico**, in modo da poterlo utilizzare nella procedura successiva.

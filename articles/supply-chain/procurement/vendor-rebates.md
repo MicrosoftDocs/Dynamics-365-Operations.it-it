@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822469"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344222"
 ---
 # <a name="vendor-rebates"></a>Sconti fornitore
 
@@ -53,7 +53,7 @@ Un accordo sugli sconti fornitore è un record di un contratto con un fornitore 
 
 Per aprire la pagina **Accordi sconto fornitore**, selezionare **Approvvigionamento** &gt; **Sconti fornitore** &gt; **Accordi sugli sconti**.
 
-![Contratto di acquisto](media/purchase-agreement.PNG)
+![Contratto di acquisto.](media/purchase-agreement.PNG)
 
 Nella pagina **Accordi sconto fornitore**, è possibile visualizzare dettagli relativi alle condizioni negoziate di un contratto fornitore.
 
@@ -129,7 +129,7 @@ Le assegnazioni approvate possono essere elaborate dalla contabilità fornitori.
 
     Un giornale di registrazione ratei sconto viene registrato per l'importo dell'attestazione. Questa registrazione addebita il conto degli sconti fornitore accumulati da ricevere del credito fornitore previsto e accredita il conto degli sconti fornitore accumulati ricevuti temporaneo dell'importo dell'attestazione.
 
-    ![Messaggio](media/message.png)
+    ![Messaggio.](media/message.png)
 
 5. Nell'elenco degli sconti, selezionare la riga, quindi nel riquadro azioni, selezionare **Transazioni di sconto** per visualizzare e passare al numero batch del giornale di registrazione per questa registrazione dei ratei sconto.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fb5b851c71ac632a045cf09c725a088d13f21ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752916"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360260"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notifiche di avvisi client tramite e-mail
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni su come configurare la posta elettronica, vedere [Con
 
 L'immagine seguente illustra la finestra di dialogo **Crea regola di avviso**, che ora include un'opzione **Invia posta elettronica**.
 
-[![Finestra di dialogo Crea regola di avviso in cui l'opzione Invia posta elettronica è impostata su Sì](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Finestra di dialogo Crea regola di avviso in cui l'opzione Invia posta elettronica è impostata su Sì.](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Quando l'opzione **Invia posta elettronica** è impostata su **Sì**, le notifiche di avviso continueranno a essere consegnate al centro azioni.
@@ -47,7 +47,7 @@ Il servizio invia notifiche tramite posta elettronica utilizzando modelli di mes
 
 Nell'immagine seguente viene illustrata la struttura delle notifiche di avviso ricevute tramite posta elettronica.
 
-[![Notifiche di avviso basate su modelli per la creazione di record, le modifiche ai campi e l'eliminazione di modelli](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![Notifiche di avviso basate su modelli per la creazione di record, le modifiche ai campi e l'eliminazione di modelli.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

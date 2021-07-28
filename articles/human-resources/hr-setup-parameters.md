@@ -2,7 +2,7 @@
 title: Configurare i parametri di Human Resources
 description: In questo argomento viene illustrato come impostare parametri specifici della società in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052411"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356538"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurare i parametri di Human Resources
 
@@ -30,7 +30,7 @@ Le impostazioni di alcuni parametri di Human Resources sono condivise tra societ
 
 Per l'impostazione dei parametri di Human Resources vengono utilizzate due pagine. Per i parametri che vengono condivisi tra le società, si utilizza la pagina **Parametri condivisi Human resources**. Per i parametri che sono specifici della società (vale a dire le impostazioni che si applicano a una singola società), si utilizza la pagina **Parametri Risorse umane**.
 
-![Accedere a Parametri Risorse umane](./media/hr-employee-self-service-human-resources-parameters.png)
+![Accedere a Parametri di Human Resources.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 Nella pagina **Parametri Human Resource** le impostazioni sono suddivise in sei schede:
 
@@ -51,14 +51,15 @@ Ogni scheda contiene informazioni che si riferiscono a una singola società.
 
 Le impostazioni nella scheda **Generale** definiscono l'aspetto delle informazioni sull'assenza, gli infortuni, la malattia e le nuove assunzioni. Le impostazioni di questa scheda definiscono inoltre alcuni valori predefiniti che vengono visualizzati quando si lavora. In particolare, questa scheda consente di:
 
-- Selezionare un colore da applicare alle transazioni assenze aperte
-- Specificare il foglio di stile da utilizzare per i report
-- Abilitare l'integrazione tra i corsi di formazione e la registrazione delle assenze
+- Selezionare un colore da applicare alle transazioni assenze aperte.
+- Specificare il foglio di stile da utilizzare per i report.
+- Abilitare l'integrazione tra i corsi di formazione e la registrazione delle assenze.
 - Selezionare il codice assenza utilizzato per controllare questa integrazione.
 - Indicare per quanto tempo mantenere i casi su eventi di infortunio e malattia.
 - Specificare il numero di identificazione predefinito visualizzato quando viene assunto un nuovo lavoratore.
+- Specificare la data utilizzata per calcolare gli anni di servizio. 
 
-![Scheda Generale](./media/hr-setup-parameters-general.png)
+![Scheda Generale.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>Selezione del personale
 
@@ -76,7 +77,7 @@ In Human Resources, è possibile utilizzare la scheda **Retribuzione** per scegl
 
 Per ulteriori informazioni sulla retribuzione, vedere [Panoramica dei piani di retribuzione](hr-compensation-overview.md).
 
-![Scheda Retribuzione](./media/hr-setup-parameters-compensation.png)
+![Scheda Retribuzione.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Sequenze numeriche
 
@@ -96,13 +97,13 @@ Per ulteriori informazioni, vedere [Panoramica delle sequenze numeriche](../fin-
 > [!NOTE]
 > Il numero di ore lavorate non può superare le 1.250 ore e la durata dell'impiego non può superare i 12 mesi. Questi valori massimi sono definiti in osservanza delle normative federali negli Stati Uniti.
 
-![Scheda Sequenze numeriche](./media/hr-setup-parameters-number-sequences.png)
+![Scheda Sequenze numeriche.](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 Nella scheda FMLA, si impostano i requisiti di idoneità FMLA e le ore di entitlement FMLA. Per ulteriori informazioni, vedere [Configurare i parametri di congedo e assenza](hr-leave-and-absence-parameters.md).
 
-![Scheda FMLA](./media/hr-setup-parameters-fmla.png)
+![Scheda FMLA.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Dipendente self-service
 
@@ -115,7 +116,7 @@ Le impostazioni nella scheda **Dipendente self service** determinano la modalit�
 
 Per ulteriori informazioni sulla configurazione di Dipendente self-service, vedere [Panoramica del dipendente e del responsabile self-service](hr-employee-manager-self-service-overview.md).
 
-![Scheda Dipendente self-service](./media/hr-setup-parameters-employee-self-service.png)
+![Scheda Dipendente self-service.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Responsabile self-service
 
@@ -129,13 +130,13 @@ Le impostazioni della scheda **Responsabile self service** determinano ciò che 
 
 Per ulteriori informazioni sulla configurazione di Responsabile self-service, vedere [Panoramica del dipendente e del responsabile self-service](hr-employee-manager-self-service-overview.md).
 
-![Scheda Responsabile self-service](./media/hr-setup-parameters-manager-self-service.png)
+![Scheda Responsabile self-service.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Gestione benefit
 
 Nella scheda Gestione benefit, è possibile configurare le opzioni di posta elettronica per Gestione benefit. Per informazioni sulla configurazione e sull'utilizzo di Gestione benefit, vedere [Panoramica di Gestione benefit](hr-benefits-management-overview.md).
 
-![Scheda Gestione benefit](./media/hr-setup-parameters-benefits-management.png)
+![Scheda Gestione benefit.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>Congedo e assenza
 
@@ -145,7 +146,7 @@ Per ulteriori informazioni sulla configurazione e sull'utilizzo di Congedo e ass
 
 Nella scheda **Metodi di pagamento**, è possibile selezionare i metodi di pagamento supportati dall'organizzazione. Per ulteriori informazioni sulla configurazione dei piani di retribuzione, vedere [Panoramica di Piani di retribuzione](hr-compensation-overview.md).
 
-![Scheda Metodi di pagamento](./media/hr-setup-parameters-payment-methods.png)
+![Scheda Metodi di pagamento.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

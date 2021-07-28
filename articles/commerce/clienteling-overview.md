@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937014"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352690"
 ---
 # <a name="clienteling-overview"></a>Panoramica della fidelizzazione dei clienti
 
@@ -68,7 +70,7 @@ Per attivare la funzionalità di fidelizzazione dei clienti nel proprio ambiente
 
 1. Nell'area di lavoro **Gestione funzionalità**, filtrare le funzionalità dal modulo **Vendita al dettaglio e commercio**.
 
-    ![Fidelizzazione dei clienti nell'elenco delle funzionalità per il modulo Commercio](./media/Enable_clienteling.png "Fidelizzazione dei clienti nell'elenco delle funzionalità per il modulo Vendita al dettaglio e commercio")
+    ![Fidelizzazione dei clienti nell'elenco delle funzionalità per il modulo Commercio.](./media/Enable_clienteling.png "Fidelizzazione dei clienti nell'elenco delle funzionalità per il modulo Vendita al dettaglio e commercio")
 
 2. Attivare la funzionalità **Fidelizzazione dei clienti** selezionando **Abilita ora**.
 3. Nella pagina **Parametri di commercio**, nella scheda **Sequenza numerica**, selezionare la riga **Identificatore del libro clienti**. Nel campo **Codice sequenza numerica** selezionare una sequenza numerica. Il sistema utilizzerà questa sequenza numerica per assegnare un ID ai libri clienti.
@@ -83,7 +85,7 @@ Per attivare la funzionalità di fidelizzazione dei clienti nel proprio ambiente
 
 6. Nella pagina **Parametri di commercio**, nella scheda **Fidelizzazione dei clienti**, nel campo **Gruppo di attributi del libro clienti**, selezionare il gruppo di attributi appena creato.
 
-    ![Gruppo di attributi del libro clienti selezionato](./media/Client%20book%20attributes.png "Gruppo di attributi del libro clienti selezionato")
+    ![Gruppo di attributi del libro clienti selezionato.](./media/Client%20book%20attributes.png "Gruppo di attributi del libro clienti selezionato")
 
 7. Per acquisire le attività eseguite al POS, definire i tipi di attività nella pagina **Tipi di attività** (**Retail e Commerce \> Clienti \> Tipi di attività**).
 
@@ -95,7 +97,7 @@ Per attivare la funzionalità di fidelizzazione dei clienti nel proprio ambiente
 
 Dopo aver completato questa procedura, gli addetti alle vendite possono aprire la pagina dei dettagli del cliente nel POS e aggiungere clienti al libro clienti, visualizzare e acquisire attività e note per i clienti e indirizzare i clienti utilizzando gli attributi del cliente e del libro clienti per filtrare il libro clienti. Nella figura seguente viene illustrato un esempio di un libro clienti.
 
-![Esempio di un libro clienti](./media/client_book.png "Esempio di un libro clienti")
+![Esempio di un libro clienti.](./media/client_book.png "Esempio di un libro clienti")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Attivare l'integrazione di Customer Insights con Commerce
 

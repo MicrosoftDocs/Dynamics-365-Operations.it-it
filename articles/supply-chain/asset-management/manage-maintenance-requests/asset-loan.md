@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 712f3e7cdfb8d521ae2afb59d90bc5102da53cb7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9be41f459b8ec8ca8ccad2360218b32299cb319e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813389"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354931"
 ---
 # <a name="asset-loans"></a>Cespiti in prestito
 
@@ -44,7 +44,7 @@ Se la società riceve cespiti per i processi di manutenzione o di riparazione da
 
 Per visualizzare un elenco di tutti i cespiti pestati ad altre ubicazioni o clienti, selezionare **Gestione cespiti** \> **Comune** \> **Cespite in prestito** \> **Tutti i cespiti in prestito**. Se la casella di controllo **Finito** è selezionata per un cespite, il cespite è stato registrato come restituito alla società.
 
-![Gestire le richieste di manutenzione](media/06-manage-maintenance-requests.png)
+![Gestire le richieste di manutenzione.](media/06-manage-maintenance-requests.png)
 
 Nella pagina **Prestiti attivi cespiti**, è possibile visualizzare un elenco di tutti i cespiti in prestito che non sono stati restituiti alla società.
 

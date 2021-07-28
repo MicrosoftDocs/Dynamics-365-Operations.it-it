@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051739"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356562"
 ---
 # <a name="understand-date-and-time-fields"></a>Informazioni sui campi di data e ora
 
@@ -36,13 +36,13 @@ I campi **Data e ora** contengono informazioni sul fuso orario, mentre i campi *
 
 Quando si visualizzano i dati in un campo **Data e ora**, Human Resources regola la data e l'ora in base al fuso orario dell'utente impostato nel modulo **Opzioni utente** (**Common > Impostazioni > Opzioni utente**). Le informazioni di data e ora immesse nel campo possono non essere le stesse informazioni scritte nel database.
 
-[![Modulo Opzioni utente](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Modulo Opzioni utente.](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Campi Data e ora nei moduli 
 
 I dati **Data e ora** visualizzati non sono gli stessi dati memorizzati nel database se il fuso orario dell'utente non è impostato su Coordinated Universal Time (UTC). I dati nei campi **Data e ora** vengono sempre memorizzati come UTC.
 
-[![Modulo lavoratore UTC](./media/worker-form.png)](./media/worker-form.png)
+[![Modulo Lavoratore UTC.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Campi Data e ora nel database 
 
@@ -52,7 +52,7 @@ Nell'esempio precedente, l'ora di inizio è un punto nel tempo, non una data spe
   
 Nell'esempio seguente, l'impiego di un dipendente 000724 diventa attivo alla stessa ora indipendentemente dal fuso orario. Il dipendente sarà attivo il 04/30/2019 nel fuso orario GMT, che è lo stesso di 05/01/2019 nel fuso orario GMT+12:00. Entrambi fanno riferimento allo stesso punto nel tempo e non a una data specifica. 
 
-[![Modulo lavoratore GMT](./media/worker-form2.png)](./media/worker-form2.png)
+[![Modulo Lavoratore GMT.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Dati di Data e ora in Data Management Framework, Excel, Dataverse e Power BI 
 
@@ -68,27 +68,27 @@ Quando si utilizzano origini esterne come DMF per visualizzare o creare dati, te
 
 **Human Resources con fuso orario impostato su UTC**
 
-[![Modulo lavoratore impostato su UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![Modulo lavoratore impostato su UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources con fuso orario impostato su GMT +12:00** 
 
-[![Modulo lavoratore impostato su GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![Modulo lavoratore impostato su GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel tramite OData**
 
-[![Excel tramite OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel tramite OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **Gestione temporanea DMF**
 
-[![Gestione temporanea DMF](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![Gestione temporanea DMF.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **Esportazione DMF**
 
-[![Esportazione DMF](./media/DMFexport.png)](./media/DMFexport.png)
+[![Esportazione DMF.](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel tramite Dataverse**
 
-[![Excel tramite Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel tramite Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Vedere anche
 

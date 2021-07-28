@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355085"
 ---
 # <a name="dimension-hierarchy"></a>Gerarchia dimensioni
 
@@ -39,7 +39,7 @@ Le gerarchie di dimensioni vengono utilizzate in varie posizioni nella contabili
 
 Di seguito è riportato un esempio di gerarchia di dimensioni.
 
-![Esempio di gerarchia di dimensioni](./media/dimension-hierarchy.png)
+![Esempio di una gerarchia di dimensioni.](./media/dimension-hierarchy.png)
 
 Una gerarchia di dimensioni può essere creata per i seguenti tipi di dimensioni:
 
@@ -80,7 +80,7 @@ Una gerarchia di dimensioni viene creata come struttura ad albero con le relazio
 
 Una società di piccole dimensioni ha la seguente struttura organizzativa, in cui Finanza e Risorse umane sono reparti in Amministrazione e Assemblaggio e Imballaggio sono i reparti in Produzione.
 
-![Esempio di struttura di un'organizzazione](./media/dimension-hierarchy-org.png)
+![Esempio di struttura di un'organizzazione.](./media/dimension-hierarchy-org.png)
 
 Una dimensione oggetto di costo rappresenta tutti i centri di costo dell'organizzazione.
 

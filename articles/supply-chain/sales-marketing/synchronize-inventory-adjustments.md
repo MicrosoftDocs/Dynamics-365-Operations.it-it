@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 9f3bfe950446a6e87e34c32d2593cba0af84d8e8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fd0a9b10f86699739fb529487cee124f99a0175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838983"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356977"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Sincronizzare i trasferimenti e le rettifiche delle scorte da Field Service a Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5838983"
 
 Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le rettifiche di magazzino e i trasferimenti di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 
-[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
+[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service.](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 Il seguente modello e le attività sottostanti vengono utilizzati per sincronizzare i trasferimenti e le rettifiche delle scorte da Field Service a Supply Chain Management.
@@ -72,12 +72,12 @@ Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dat
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>Rettifica magazzino (da Field Service a Supply Chain Management): Rettifica magazzino
 
-[![Mapping dei modelli in Integrazione dati](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![Mapping modello in Integrazione dati.](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Trasferimento scorte (da Field Service a Supply Chain Management ): Trasferimento scorte
 
-[![Mapping dei modelli in Integrazione dati](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![Mapping modello in Integrazione dati.](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

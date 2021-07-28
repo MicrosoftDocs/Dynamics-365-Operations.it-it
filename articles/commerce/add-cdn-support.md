@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346830"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)
 
@@ -74,11 +74,11 @@ Per configurare un pool back-end in Azure Front Door Service, procedere come seg
 
 Nella seguente figura è illustrata la finestra di dialogo **Aggiungi un back-end** in Azure Front Door Service con il nome host del back-end immesso.
 
-![Finestra di dialogo Aggiungi un pool back-end](./media/CDN_BackendPool.png)
+![Finestra di dialogo Aggiungi un pool back-end.](./media/CDN_BackendPool.png)
 
 Nella seguente figura è illustrata la finestra di dialogo **Aggiungi un back-end** in Azure Front Door Service con il nome host del back-end immesso.
 
-![Finestra di dialogo Aggiungi un pool back-end continua](./media/CDN_BackendPool_2.png)
+![Finestra di dialogo Aggiungi un pool back-end continua.](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Assicurati di disabilitare **Probe integrità** quando configuri il tuo servizio Azure Front Door per Commerce.
@@ -107,13 +107,13 @@ Se il dominio è nuovo e non è un dominio live preesistente, è possibile aggiu
 
 Nella seguente figura è illustrata la finestra di dialogo **Configurazione CNAME** in Azure Front Door Service.
 
-![Finestra di dialogo Configurazione CNAME](./media/CNAME_Configuration.png)
+![Finestra di dialogo Configurazione CNAME.](./media/CNAME_Configuration.png)
 
 È possibile utilizzare Azure Front Door Service per gestire il certificato oppure utilizzare il proprio certificato per il dominio personalizzato.
 
 Nella seguente figura è illustrata la finestra di dialogo **HTTPS dominio personalizzato** in Azure Front Door Service.
 
-![Finestra di dialogo HTTPS dominio personalizzato](./media/Custom_Domain_HTTPS.png)
+![Finestra di dialogo HTTPS dominio personalizzato.](./media/Custom_Domain_HTTPS.png)
 
 Per istruzioni dettagliate sull'aggiunta di un dominio personalizzato a Frontdoor di Azure, vedere [Aggiungere un dominio personalizzato alla frontdoor](/azure/frontdoor/front-door-custom-domain).
 

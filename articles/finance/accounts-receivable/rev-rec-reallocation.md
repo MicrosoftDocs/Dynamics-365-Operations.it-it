@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356127"
 ---
 # <a name="revenue-recognition-reallocation"></a>Riallocazione del riconoscimento ricavi
 
@@ -48,7 +48,7 @@ Poiché la riallocazione può essere eseguita su un ordine cliente parzialmente 
 
 Ogni organizzazione deve decidere se la correzione aggiorna solo la contabilità generale o anche la contabilità clienti. La decisione determina l'impostazione appropriata dell'opzione **Correzioni delle fatture registrate in contabilità clienti** nella scheda **Riconoscimento ricavi** della pagina **Parametri di contabilità generale** (**Riconoscimento ricavi \> Impostazione \> Parametri di contabilità generale**). L'impostazione appropriata dipende dallo scenario specifico. Per ulteriori informazioni sui possibili scenari, utilizzare i collegamenti nella sezione [Scenari per la riallocazione](#scenarios-for-reallocation) più avanti in questo argomento.
 
-[![Scheda Riconoscimento ricavi nella pagina Parametri di contabilità generale](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Scheda Riconoscimento ricavi nella pagina Parametri di contabilità generale.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Se l'opzione **Correzioni delle fatture registrate in contabilità clienti** è impostata su **Sì**, il processo di riallocazione produce il seguente risultato:
 
@@ -76,7 +76,7 @@ Come è stato accennato, è possibile aggiornare solo la contabilità generale o
 
 Per avviare il processo di riallocazione, selezionare **Riallocazione del prezzo con nuove righe ordine** in qualsiasi ordine cliente che è necessario riallocare. In alternativa, andare a **Riconoscimento ricavi \> Attività periodiche \> Riallocazione del prezzo con nuove righe ordine**, quindi inserire i filtri appropriati, ad esempio il conto cliente.
 
-[![Riallocazione del prezzo con nuove righe ordine](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Riallocazione del prezzo con nuove righe ordine.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 La griglia superiore della pagina **Riallocazione del prezzo con nuove righe ordine** è denominata **Vendite**. Elenca gli ordini cliente. Selezionare gli ordini cliente che devono essere riallocati. Non è possibile selezionare ordini cliente di progetto, perché gli ordini cliente di progetto non possono essere riallocati. Inoltre, non è possibile selezionare ordini cliente che hanno già un ID riallocazione, perché gli ordini cliente non di progetto possono essere riallocati solo una volta. Se un ordine cliente ha un ID riallocazione, è già stato contrassegnato per la riallocazione da un altro utente.
 
@@ -86,11 +86,11 @@ Dopo aver selezionato le righe dell'ordine cliente richieste, utilizzare i pulsa
 
 - **Aggiorna riallocazione** - Calcola i nuovi importi del prezzo dei ricavi per le righe dell'ordine cliente selezionate. Se una riga è stata rimossa o annullata, la riallocazione verrà eseguita solo per le righe esistenti selezionate. La figura seguente mostra un esempio di righe ordine cliente prima dell'aggiornamento della riallocazione.
 
-    [![Righe ordine cliente prima dell'aggiornamento della riallocazione](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Righe ordine cliente prima dell'aggiornamento della riallocazione.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     I nuovi importi dei prezzi dei ricavi vengono visualizzati nella colonna **Importo riallocato** della griglia **RIghe**. A questo punto, la riallocazione è stata elaborata, ma non è stata ancora calcolata. La figura seguente mostra un esempio di righe ordine cliente dopo l'aggiornamento della riallocazione.
 
-    [![Righe ordine cliente dopo l'aggiornamento della riallocazione](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Righe ordine cliente dopo l'aggiornamento della riallocazione.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
 - **Elabora** - Elaborare o registrare i prezzi dei ricavi riallocati. Dopo aver selezionato questo pulsante, non è possibile annullare la riallocazione. Se non si seleziona **Aggiorna riallocazione** prima di selezionare **Elabora**, la riallocazione viene eseguita automaticamente.
 
@@ -100,7 +100,7 @@ Dopo aver selezionato le righe dell'ordine cliente richieste, utilizzare i pulsa
 - **Giustificativo previsto** - Mostra un'anteprima delle voci contabili che sono state create per tutte le righe ordine cliente fatturate. Se non sono state fatturate righe, non viene visualizzato nulla. Se non si seleziona **Aggiorna riallocazione** prima di selezionare **Giustificativo previsto**, la riallocazione viene eseguita automaticamente.
 - **Riallocazione dei ricavi** - Aprire una pagina che mostra l'allocazione dei prezzi dei ricavi per tutte le righe selezionate. Non è possibile modificare nessuna delle informazioni sulla pagina. Vengono visualizzati gli importi riga utilizzati per la riallocazione.
 
-    [![Importi riga utilizzati per la riallocazione](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Importi riga utilizzati per la riallocazione.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Reimposta i dati per il cliente selezionato** - Se il processo di riallocazione è stato avviato ma non è stato completato, cancellare i dati nella tabella di riallocazione solo per il cliente selezionato. Ad esempio, se si contrassegnano più righe ordine cliente per la riallocazione, si lascia la pagina aperta senza selezionare **Elabora**, quindi si verifica il timeout della pagina. In questo caso, le righe ordine cliente rimarranno contrassegnate e non saranno disponibili per un altro utente per completare il processo di riallocazione. La pagina potrebbe anche essere vuota quando viene aperta. In questa situazione, il pulsante **Reimposta i dati per il cliente selezionato** può essere utilizzato per cancellare gli ordini cliente non elaborati in modo che un altro utente possa completare il processo di riallocazione.
 

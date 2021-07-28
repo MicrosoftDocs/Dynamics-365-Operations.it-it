@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358671"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurare destinazioni ER dipendenti dall'azione
 
@@ -69,11 +69,11 @@ Ad esempio, puoi utilizzare il formato ER **Fattura a testo libero (Excel)** per
 
 La figura seguente mostra come ottenere questa configurazione delle destinazioni ER come set di record di destinazione individuali quando ogni record è configurato per un'azione di un singolo utente:
 
-![Pagina di destinazione per la creazione di report elettronici con impostazioni di destinazione dipendenti dall'azione per un formato ER quando ogni record di destinazione è configurato per un'azione di un singolo utente](./media/er-destination-action-dependent-01.png)
+![Pagina di destinazione per la creazione di report elettronici con impostazioni di destinazione dipendenti dall'azione per un formato ER quando ogni record di destinazione è configurato per un'azione di un singolo utente.](./media/er-destination-action-dependent-01.png)
 
 La figura seguente mostra come ottenere la stessa configurazione delle destinazioni ER alternativa come set di record di destinazione individuali quando ogni record è configurato per una singola destinazione:
 
-![Pagina di destinazione per la creazione di report elettronici con impostazioni di destinazione dipendenti dall'azione per un formato ER quando ogni record di destinazione è configurato per un'azione di una singola destinazione](./media/er-destination-action-dependent-01a.png)
+![Pagina di destinazione per la creazione di report elettronici con impostazioni di destinazione dipendenti dall'azione per un formato ER quando ogni record di destinazione è configurato per una singola destinazione.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Se viene fornito un codice azione per il formato ER in esecuzione, ma nessuna destinazione è stata configurata per quel codice azione, viene applicato il comportamento di destinazione [predefinito](electronic-reporting-destinations.md#default-behavior).
@@ -84,7 +84,7 @@ Quando viene eseguito un formato ER, se le azioni dell'utente sono state fornite
 
 La figura seguente mostra un esempio di finestra di dialogo **Destinazione del formato per la creazione di report elettronici** che appare quando una fattura a testo libero viene [registrata](../../../finance/accounts-receivable/create-free-text-invoice-new.md) e il formato ER **Fattura a testo libero (Excel)** viene eseguito per generare questo documento, se è stato eseguito il provisioning dell'azione **Stampante** e le destinazioni ER sono state configurate per questo formato, come mostrato in precedenza in questo argomento.
 
-![Finestra di dialogo che offre la possibilità di modificare le destinazioni ER configurate inizialmente per il formato ER in esecuzione](./media/er-destination-action-dependent-02.gif)
+![Finestra di dialogo che offre la possibilità di modificare le destinazioni ER configurate inizialmente per il formato ER in esecuzione.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Se sono state configurate destinazioni ER per diversi componenti del formato ER in esecuzione, verrà offerta un'opzione separatamente per ogni componente configurato del formato ER.
@@ -103,7 +103,7 @@ Attenersi alla seguente procedura per verificare il codice di azione dell'utente
 6. Nella pagina **Registri debug configurazione**, filtra i registri di esecuzione ER per trovare il log per la tua esecuzione in formato ER.
 7. Rivedere le voci di registro che devono contenere il record che presenta il codice di azione utente fornito, se è stata fornita un'azione per l'esecuzione del formato ER.
 
-    ![La pagina dei registri di esecuzione della creazione di report elettronici che contiene informazioni sul codice di azione dell'utente fornito per l'esecuzione filtrata di un formato ER](./media/er-destination-action-dependent-03.png)
+    ![La pagina dei registri di esecuzione della creazione di report elettronici che contiene informazioni sul codice di azione dell'utente fornito per l'esecuzione filtrata di un formato ER.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Elenco dei documenti aziendali (ciclo 1)</a>
 

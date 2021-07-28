@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 615e22234323e2235fba002c50f9ab9c230c021e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 888ce67f1feba9876f71d2988268b47c9a4ca1dd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827892"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358883"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Attribuzione dei costi per progetto nelle entrate acquisti
 
@@ -37,20 +37,20 @@ Contoso Consulting ha avviato un nuovo progetto di distribuzione cloud. Un ordin
 I ratei e risconti passivi devono essere registrati sia a livello finanziario che a quello di progetto a scopo di reporting. L'aggiornamento finanziario dell'entrata prodotti può essere tracciato per l'articoloo e le categorie di approvvigionamento. 
 
 Per gli articoli, nella pagina **Parametri contabilità fornitori**, selezionare l'opzione **Registra entrate prodotti nella contabilità generale**.
-[![Pagina Parametri contabilità fornitori](./media/accruals1-1024x409.png)](./media/accruals1.png) 
+[![Pagina Parametri contabilità fornitori.](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
 Per le categorie di approvvigionamento, nella pagina **Regola dei criteri categorie**, selezionare i criteri **Acquisto**, quindi selezionare **Accumula spese su acquisti in entrata** per ciascuna categoria di approvvigionamento.
-[![Pagina Regola dei criteri categorie](./media/accruals2-1024x569.png)](./media/accruals2.png) 
+[![Pagina Regola dei criteri categorie.](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
 I conti **Spese acquisto non fatturate** e **Competenza acquisti** in **Impostazione di registrazione** verranno utilizzati quando i giustificativi correlati all'entrata prodotti vengono registrati.
 
 Utilizzando questo stesso scenario, esaminiamo come la registrazione di un'entrata prodotti influirà sulla contabilità generale e sulle informazioni relative al progetto. 
 
 **Passaggio 1:** creare e confermare un nuovo ordine fornitore per il progetto per registrare l'acquisto di un computer per $ 1.500 e i servizi di installazione pari a $ 150.
-[![Creare un nuovo ordine fornitore](./media/accruals4-1024x497.png)](./media/accruals4.png) 
+[![Creare un nuovo ordine fornitore.](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
 Quando l'ordine fornitore viene confermato, le transazioni del costo impegnato vengono create per il progetto. 
-[![Transazioni create](./media/accruals5-1024x219.png)](./media/accruals5.png) 
+[![Transazioni create.](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
 > Le transazioni per il costo impegnato avranno il campo **Origine transazione** impostato su **Ordine fornitore**. La creazione e la conferma di un ordine fornitore non creano transazioni per un progetto. 
@@ -58,23 +58,23 @@ Quando l'ordine fornitore viene confermato, le transazioni del costo impegnato v
 **Passaggio 2:** le merci e i servizi vengono consegnati e un'entrata prodotti è registrata. 
 
 La registrazione di un'entrata prodotti genera e registra un giustificativo nella contabilità generale. Il giustificativo addebiterà le spese di acquisto non fatturate e accrediterà il conto ratei di acquisto. 
-[![Transazioni giustificativo](./media/accruals6-1024x214.png)](./media/accruals6.png)
+[![Transazioni giustificativo.](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
 > La registrazione di un'entrata prodotti utilizzerà l'impostazione di registrazione per i prodotti e le categorie di approvvigionamento e non l'impostazione di registrazione per le categorie di progetto. Per riflettere correttamente l'impatto finanziario dei ratei di acquisto, questa impostazione deve essere allineata. 
 
 È possibile mappare le categorie di approvvigionamento alle categorie di progetto nella pagina **Categoria di approvvigionamento**.
-[![Pagina Categoria di approvvigionamento](./media/accruals7-1024x390.png)](./media/accruals7.png)
+[![Pagina Categoria di approvvigionamento.](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
 **Passaggio 3:** creare una bozza della fattura fornitore. 
 
 La registrazione di un'entrata prodotti non influisce sulle informazioni relative al progetto. Come soluzione alternativa, è possibile generare una bozza della fattura fornitore subito aver registrato l'entrata acquisti. Passare alla pagina **Ordine fornitore** &gt; **scheda Fattura** &gt; **Genera** &gt; **Fattura**. Verrà creato un documento di fattura in sospeso che aggiorna le informazioni sul progetto. 
 
 La creazione di una bozza di fattura fornitore genera transazioni di progetto in sospeso. 
-[![Transazioni progetto in sospeso](./media/accruals8-1024x225.png)](./media/accruals8.png) 
+[![Transazioni progetto in sospeso.](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
 Nella pagina **Costo impegnato**, i record creati nel passaggio 1 verranno chiusi e nuovi record verranno creati per riflettere gli impegni di costo derivanti dalla fattura fornitore in sospeso. Il campo **Origine transazione** per il costo impegnato verrà impostato su **Fattura fornitore**.
-[![Pagina Costi impegnati](./media/accruals9-1024x200.png)](./media/accruals9.png)
+[![Pagina Costi impegnati.](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 La fattura fornitore rimane con stato in sospeso finché non arriva la fattura fornitore effettiva.
 

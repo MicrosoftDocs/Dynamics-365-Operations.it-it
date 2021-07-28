@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270537"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352738"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
 
@@ -44,7 +44,7 @@ Questo argomento descrive il funzionamento dei carichi di lavoro di esecuzione d
 
 Come mostrato nella figura seguente, il ciclo di vita della produzione è suddiviso in tre fasi: *Piano*, *Esecuzione* e *Finalizzazione*.
 
-[![Fasi di esecuzione della produzione quando viene utilizzato un unico ambiente](media/mes-phases.png "Fasi di esecuzione della produzione quando viene utilizzato un unico ambiente")](media/mes-phases-large.png)
+[![Fasi di esecuzione della produzione in caso di utilizzo di un unico ambiente](media/mes-phases.png "Fasi di esecuzione della produzione in caso di utilizzo di un unico ambiente".](media/mes-phases-large.png)
 
 La fase di _Piano_ include la definizione del prodotto, la pianificazione, la creazione e la programmazione degli ordini e il rilascio. La fase di rilascio indica il passaggio dalla fase di _Piano_ alla fase di _Esecuzione_. Quando un ordine di produzione viene rilasciato, i processi dell'ordine di produzione saranno visibili nell'area di produzione e pronti per l'esecuzione.
 
@@ -54,7 +54,7 @@ Quando un processo di produzione viene contrassegnato come completato, si posta 
 
 Come mostrato nella figura seguente, quando vengono utilizzate le unità di scala, la fase di _Esecuzione_ viene suddivisa come carico di lavoro separato.
 
-[![Fasi di esecuzione della produzione quando vengono utilizzate le unità di scala](media/mes-phases-workloads.png "Fasi di esecuzione della produzione quando vengono utilizzate le unità di scala")](media/mes-phases-workloads-large.png)
+[![Fasi di esecuzione della produzione in caso di utilizzo di unità di scala](media/mes-phases-workloads.png "Fasi di esecuzione della produzione in caso di utilizzo di unità di scala".](media/mes-phases-workloads-large.png)
 
 Il modello ora passa da un'installazione a istanza singola a un modello basato sull'hub e sulle unità di scala. Le fasi _Piano_ e _Finalizzazione_ vengono eseguite come operazioni di back-office sull'hub, mentre il carico di lavoro di esecuzione della produzione viene eseguito sulle unità di scala. I dati vengono trasferiti in modo asincrono tra l'hub e le unità di scala.
 
@@ -87,7 +87,7 @@ Sebbene il processo di solito venga eseguito automaticamente, è possibile esegu
 
 Per esaminare il registro di elaborazione delle registrazioni, accedere all'hub, andare a **Controllo produzione \> Attività periodiche \> Gestione carico di lavoro di backoffice \> Registro di elaborazione registrazioni non elaborate**. Nella pagina **Registro di elaborazione registrazioni non elaborate** viene visualizzato un elenco di registrazioni non elaborate in corso di elaborazione e lo stato di ogni registrazione.
 
-![Pagina Registro di elaborazione registrazioni non elaborate](media/mes-processing-log.png "Pagina Registro di elaborazione registrazioni non elaborate")
+![Pagina Registro di elaborazione registrazioni non elaborate.](media/mes-processing-log.png "Pagina Registro di elaborazione registrazioni non elaborate")
 
 È possibile utilizzare qualsiasi registrazione nell'elenco selezionandola e quindi selezionando uno dei seguenti pulsanti nel riquadro azioni:
 

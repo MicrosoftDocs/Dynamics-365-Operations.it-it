@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a3daa2286eb444d3aaad1fd29eb6be5737415a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c3670cc1f690e8b65b53beb9128554216b2a95f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801978"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350428"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Layout schermo con dati dimostrativi in Modern POS (MPOS) e Cloud POS
 
@@ -33,13 +33,13 @@ Di seguito vengono descritti i layout schermo inclusi con il set di dati dimostr
 
 I layout schermo di esempio inclusi con i dati dimostrativi di Commerce forniscono contenuto ottimizzato per vari segmenti di vendita al dettaglio, ruoli lavoratore punto vendita e dispositivi. Un singolo layout può contenere varie dimensioni di layout e combinazioni di griglie di pulsanti per assicurare la copertura quando i lavoratori di punti vendita vengono spostati tra dispositivi e stazioni. In questo argomento vengono evidenziate le differenze tra questi layout nonché le operazioni che forniscono e le esperienze globali che offrono.
 
-![Layout con dati dimostrativi per vari dispositivi](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Layout con dati dimostrativi per vari dispositivi.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomia di un ID layout schermo
 
 Per trovare i layout schermo, accedere a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione POS** \> **POS** \> **Layout schermo**.
 
-![Pagina Layout schermo](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Pagina Layout schermo.](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Gli ID layout schermo possono avere un massimo di 10 caratteri. L'ID è una stringa costituita da tre informazioni, in questo ordine:
 
@@ -52,12 +52,12 @@ Gli ID layout schermo possono avere un massimo di 10 caratteri. L'ID è una stri
 | Lettera | Società         |
 |--------|-----------------|
 | A      | Adventure Works |
-| F      | Fabrikam        |
-| Z      | Contoso         |
+| V      | Fabrikam        |
+| C      | Contoso         |
 
 ### <a name="layout-version"></a>Versione layout
 
-| Numero versione | Descrizione                                                                                |
+| Numero versione | descrizione                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | La versione di base che supporta molteplici dimensioni di schermo per vari dispositivi e proporzioni |
 | 3.1            | La versione di base con un supporto aggiuntivo per il pannello **Prodotti consigliati**        |
@@ -79,7 +79,7 @@ F4MGR
 
 Nella figura seguente è illustrato un esempio della schermata di benvenuto per un responsabile punto vendita di Fabrikam.
 
-![Schermata di benvenuto per il responsabile punto vendita di Fabrikam](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Schermata di benvenuto per il responsabile punto vendita di Fabrikam.](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Dimensioni layout
 
@@ -108,7 +108,7 @@ Nella tabella seguente vengono illustrate le dimensioni di layout fornite per ri
 > [!TIP]
 > Il POS seleziona automaticamente le dimensioni di layout in base alla dimensione più vicina disponibile per la risoluzione schermo della finestra dell'app corrente. Per trovare l'ID layout schermo e la risoluzione di layout attualmente utilizzata, in Modern POS (MPOS) o Retail Cloud POS (CPOS), aprire la pagina **Impostazioni** ed esaminare la sezione **Informazioni sessione**. È inoltre possibile visualizzare la risoluzione effettiva della finestra per il frame del browser o dell'applicazione corrente. Dopo aver acquisito queste informazioni, è possibile trovare l'origine del contenuto del layout accedendo a **Impostazione canale** \> **Impostazione POS** \> **POS** \> **Layout schermo**.
 
-![I layout schermo e le risoluzioni/dimensioni di layout in Commerce e nel POS](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![I layout schermo e le risoluzioni/dimensioni di layout in Commerce e nel POS.](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Società e marchi
 
@@ -129,19 +129,19 @@ Nelle figure seguenti vengono illustrati esempi della pagina di benvenuto e dell
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Pagina iniziale con dati dimostrativi per Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Pagina iniziale con dati dimostrativi per Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Pagina delle transazioni con dati dimostrativi per Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Pagina delle transazioni con dati dimostrativi per Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Pagina di benvenuto con dati dimostrativi per Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Pagina di benvenuto con dati dimostrativi per Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Pagina delle transazioni con dati dimostrativi per Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Pagina delle transazioni con dati dimostrativi per Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Layout con dati dimostrativi per Contoso](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Layout con dati dimostrativi per Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Matrice di accesso degli utenti
 
@@ -168,7 +168,7 @@ Degli utenti sono stati specificati per i vari layout schermo. Mediante la segue
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 

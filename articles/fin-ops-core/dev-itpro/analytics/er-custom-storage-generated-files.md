@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894150"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348142"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Specificare percorsi di archiviazione personalizzati per i documenti generati
 
@@ -41,7 +41,7 @@ argomentoTutte le attività in questo argomento possono essere completate nella 
 
 Per generare i documenti per i quali prevedi di aggiungere una posizione di archiviazione personalizzata, [importare](er-download-configurations-global-repo.md) la **configurazione del formato ER roll forward dei cespiti** nella topologia corrente.
 
-![Configurazione della pagina dell'archivio](./media/er-custom-storage-generated-files-import-format.png)
+![Pagina Archivio di configurazione.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Eseguire il report roll forward dei cespiti
 
@@ -52,7 +52,7 @@ Per generare i documenti per i quali prevedi di aggiungere una posizione di arch
 5. Nel campo **Mapping formato**, selezionare **Roll forward dei cespiti**.
 6. Selezionare **OK**.
 
-![Finestra di dialogo Runtime per il report roll forward dei cespiti](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Finestra di dialogo Runtime per il report roll forward dei cespiti.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 In Microsoft Excel, esaminare il documento in uscita generato e disponibile per il download. Questo comportamento è il [comportamento predefinito](electronic-reporting-destinations.md#default-behavior) per un formato ER per cui non sono state configurate [destinazioni](electronic-reporting-destinations.md) e che è in esecuzione in modalità interattiva.
 

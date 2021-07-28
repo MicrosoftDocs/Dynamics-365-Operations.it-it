@@ -12,12 +12,12 @@ ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7867794c9c00e1a811d9e563a4d901aa11799738
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8f8e9d503a6d70badb0ef228c0249d9600131b09
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836849"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344258"
 ---
 # <a name="vat-management-and-reporting-by-tax-point-date-date-of-vat-register"></a>Gestione e reporting IVA per data di effettuazione dell'operazione (data del libro IVA)
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni sulla funzionalità Data del libro IVA, vedere [Data 
 
 Quando la funzionalità Data del libro IVA è attivata, gli utenti nelle persone giuridiche che hanno l'indirizzo principale in Italia potranno impostare l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità generale** su **Sì**.
 
-![Pagina Parametri di contabilità generale con campo Data del libro IVA evidenziato nella scheda IVA](./media/date-of-vat-gl-parameter.png)
+![Pagina Parametri di contabilità generale con campo Data del libro IVA evidenziato nella scheda IVA.](./media/date-of-vat-gl-parameter.png)
 
 Quando questa opzione è impostata su **Sì**, il processo **Liquida e registra IVA** e il report **Liquidazione IVA italiana** considereranno le transazioni IVA in base alla data in cui l'IVA è stata registrata anziché in base alla data in cui la transazione è stata registrata.
 

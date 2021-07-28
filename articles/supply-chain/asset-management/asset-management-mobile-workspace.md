@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837947"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360127"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Utilizzare l'area di lavoro per dispositivi mobili Gestione cespiti
 
@@ -60,7 +60,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società. Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.
 
-    ![Selezionare un'area di lavoro](media/am-mobile-01.png "Selezionare un'area di lavoro")
+    ![Selezionare un'area di lavoro.](media/am-mobile-01.png "Selezionare un'area di lavoro")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Visualizzare processi di ordine di lavoro assegnati in una visualizzazione calendario
 
@@ -72,7 +72,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Selezionare un processo di ordine di lavoro nell'elenco per visualizzare dettagli sui processi: informazioni su cespiti e unità funzionale nonché altri collegamenti di navigazione per visualizzare **Allegati**, **Liste di controllo**, **Strumenti**, **Contatori cespiti**, **Note**, **Giornali di registrazione**.
 
-    ![Visualizzare processi di ordine di lavoro assegnati in una visualizzazione calendario](media/am-mobile-02.png "Visualizzare processi di ordine di lavoro assegnati in una visualizzazione calendario")
+    ![Visualizzare processi di ordine di lavoro assegnati in una visualizzazione calendario.](media/am-mobile-02.png "Visualizzare processi di ordine di lavoro assegnati in una visualizzazione calendario")
 
 ## <a name="create-a-work-order-job"></a>Creare un processo di ordine di lavoro
 
@@ -90,7 +90,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Selezionare **Fine**.
 
-    ![Schermata Aggiungi riga](media/am-mobile-03.png "Schermata Aggiungi riga")
+    ![Schermata Aggiungi riga.](media/am-mobile-03.png "Schermata Aggiungi riga")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Aggiungere un allegato a un processo di ordine di lavoro
@@ -112,7 +112,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Selezionare **Fine**.
 
-    ![Visualizzare e aggiungere allegati per un processo di ordine di lavoro](media/am-mobile-04.png "Visualizzare e aggiungere allegati per un processo di ordine di lavoro")
+    ![Visualizzare e aggiungere allegati per un processo di ordine di lavoro.](media/am-mobile-04.png "Visualizzare e aggiungere allegati per un processo di ordine di lavoro")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Visualizzare l'elenco di controllo di manutenzione in un processo di ordine di lavoro
 
@@ -129,7 +129,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Selezionare il pulsante Indietro (**<**) per tornare alla pagina precedente.
 
-    ![Elenco di controllo di manutenzione e dettagli di riga](media/am-mobile-05.png "Elenco di controllo di manutenzione e dettagli di riga")
+    ![Elenco di controllo di manutenzione e dettagli di riga.](media/am-mobile-05.png "Elenco di controllo di manutenzione e dettagli di riga")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Visualizzare e aggiornare contatori di cespiti in un processo di ordine di lavoro
 
@@ -146,7 +146,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Immettere un nuovo valore per il contatore e selezionare **Fatto**.
 
-    ![Visualizzare e aggiornare i contatori dei cespiti](media/am-mobile-06.png "Visualizzare e aggiornare i contatori dei cespiti")
+    ![Visualizzare e aggiornare i contatori dei cespiti.](media/am-mobile-06.png "Visualizzare e aggiornare i contatori dei cespiti")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Registrare il consumo di un processo di ordine di lavoro
 
@@ -178,7 +178,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
     1. Immettere il **prezzo di costo** per la registrazione delle spese.
     1. Selezionare **Fine**.
 
-    ![Aggiornare un giornale di registrazione degli ordini di lavoro](media/am-mobile-07.png "Aggiornare un giornale di registrazione degli ordini di lavoro")
+    ![Aggiornare un giornale di registrazione degli ordini di lavoro.](media/am-mobile-07.png "Aggiornare un giornale di registrazione degli ordini di lavoro")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Aggiornare lo stato del ciclo di vita di un ordine di lavoro
 
@@ -194,7 +194,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Selezionare **Fine**.
 
-    ![Aggiornare lo stato del ciclo di vita di un ordine di lavoro](media/am-mobile-08.png "Aggiornare lo stato del ciclo di vita di un ordine di lavoro")
+    ![Aggiornare lo stato del ciclo di vita di un ordine di lavoro.](media/am-mobile-08.png "Aggiornare lo stato del ciclo di vita di un ordine di lavoro")
 
 ## <a name="create-a-maintenance-request"></a>Creare una nuova richiesta di intervento di manutenzione
 
@@ -216,7 +216,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Selezionare **Fine**.
 
-    ![Creare una nuova richiesta di intervento di manutenzione](media/am-mobile-09.png "Creare una nuova richiesta di intervento di manutenzione")
+    ![Creare una nuova richiesta di intervento di manutenzione.](media/am-mobile-09.png "Creare una nuova richiesta di intervento di manutenzione")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Aggiungere un allegato a una richiesta di intervento di manutenzione
 
@@ -236,7 +236,7 @@ Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
 
 1. Selezionare **Fine**.
 
-    ![Aggiungere un allegato a una richiesta di intervento di manutenzione](media/am-mobile-10.png "Aggiungere un allegato a una richiesta di intervento di manutenzione")
+    ![Aggiungere un allegato a una richiesta di intervento di manutenzione.](media/am-mobile-10.png "Aggiungere un allegato a una richiesta di intervento di manutenzione")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

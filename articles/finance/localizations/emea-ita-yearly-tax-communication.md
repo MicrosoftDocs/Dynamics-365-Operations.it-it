@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cff13c916eabda869d08abcc1a6d08b2fe080106
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 849b18deaec84a1acdc5dad0973da216f9caaeb7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894722"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348436"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 7. Nella scheda **IVA**, nel campo **Mapping formato** della Scheda dettaglio **Comunicazione annuale imposte** selezionare il formato **Comunicazione annuale imposte (IT)** scaricato in precedenza.
 8. Andare a **Imposta \> Impostazione \> IVA \> Impostazioni comunicazione annuale imposte**.
 
-![Pagina Impostazioni comunicazione annuale imposte](media/1_Yearly_tax_communication_setup.png)
+![Pagina Impostazioni comunicazione annuale imposte.](media/1_Yearly_tax_communication_setup.png)
 
 > [!NOTE]
 > Per visualizzare il modulo "Comunicazione annuale IVA" per l'anno 2020 e le relative istruzioni, vedere [Modello e istruzioni - IVA 2020](https://www.agenziaentrate.gov.it/portale/web/guest/iva-2020/modello-e-istruzioni-imprese).
@@ -149,7 +149,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 
 10. Per i campi in cui il campo **Calcolo** è impostato su **Transazioni fiscali** nella scheda **Codici imposta selezionati**, selezionare **Nuovo** per aggiungere una riga per ogni codice IVA che deve essere reso disponibile come valore di campo.
 
-    ![Pagina Impostazioni comunicazione annuale imposte, scheda Codici imposta selezionati](media/2_Yearly_tax_communication_setup.png)
+    ![Pagina Impostazioni comunicazione annuale imposte, scheda Codici imposta selezionati.](media/2_Yearly_tax_communication_setup.png)
 
 11. Selezionare **Eccezioni** per configurare i conti principali che dovrebbero essere esclusi dalla query.
 
@@ -164,11 +164,11 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 13. Seleziona la riga in cui il campo **Calcolo** è impostato su **Totale**.
 14. Nella scheda **Importo totale** selezionare **Nuovo** per aggiungere righe per tutti i campi da sommare.
 
-    ![Pagina Impostazioni comunicazione annuale imposte, scheda Importo totale](media/3_Yearly_tax_communication_setup.png)
+    ![Pagina Impostazioni comunicazione annuale imposte, scheda Importo totale.](media/3_Yearly_tax_communication_setup.png)
 
 15. Impostare i seguenti campi.
 
-    | Nome campo | Descrizione                                                                                                                 |
+    | Nome campo | descrizione                                                                                                                 |
     |------------|-----------------------------------------------------------------------------------------------------------------------------|
     | Segno       | Immettere **1** se il valore del campo deve essere accettato così com'è. Immettere **-1** se il valore del campo deve essere invertito. |
     | ID campo   | Selezionare il campo da sommare. I campi in cui il campo **Calcolo** è impostato su **Totale** non possono essere selezionato qui. |
@@ -203,7 +203,7 @@ Nella colonna **Formato** è possibile specificare un formato di campo. Oltre a 
 1. Andare a **Imposta \> Dichiarazioni \> IVA \> Comunicazione annuale imposte**.
 2. Selezionare **Creare nuovo** per creare informazioni sull'intestazione per il report **Comunicazione annuale imposte** per l'anno precedente. Il numero di righe create corrisponde al numero di libri IVA italiani.
 
-![Pagina Comunicazione annuale imposte, scheda Panoramica](media/4_Yearly_tax_communication_setup.png)
+![Pagina Comunicazione annuale imposte, scheda Panoramica.](media/4_Yearly_tax_communication_setup.png)
 
 3. Nella scheda **Generale** rivedere le seguenti informazioni:
 
@@ -1102,13 +1102,13 @@ Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impos
 1. Andare a **Imposta \> Impostazione \> IVA \> Impostazioni comunicazione annuale imposte**.
 2. Selezionare il pulsante **Apri in Microsoft Office**, quindi in **Apri in Excel** selezionare **Impostazioni comunicazione annuale imposte (DEMF)**.
 
-    ![Seleziona di Impostazioni comunicazione annuale imposte (DEFM)](media/6_Export_to_Excel.png)
+    ![Selezione di Impostazioni comunicazione annuale imposte (DEFM).](media/6_Export_to_Excel.png)
 
 3. Selezionare **Scarica**.
 4. Apri il file scaricato e abilita la modifica.
 5. Copiare i dati dal file scaricato in precedenza e incollarli nel file che aperto, quindi selezionare **Pubblica**.
 
-    ![Pulsante Pubblica](media/5_Export_to_Excel.png)
+    ![Pulsante Pubblica.](media/5_Export_to_Excel.png)
 
 6. Rivedere le impostazioni e apportare gli aggiornamenti necessari. Ad esempio, impostare i codici IVA esistenti nell'applicazione.
 7. Considerare le seguenti informazioni. Alcuni totali non sono configurati nell'esempio e devono essere calcolati manualmente utilizzando la formula specificata nelle linee guida ufficiali. Di seguito sono riportati tali totali:

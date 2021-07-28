@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910211"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358028"
 ---
 # <a name="small-parcel-shipping"></a>Spedizione pacchi di piccole dimensioni
 
@@ -274,7 +274,7 @@ Segui questi passaggi per imballare la spedizione.
 
     L'etichetta di spedizione dovrebbe ora essere stampata sulla stampante ZPL selezionata in precedenza. Il risultato sarà simile all'esempio seguente.
 
-    ![Etichetta di spedizione di esempio](media/sps-label-example.png "Etichetta di spedizione di esempio")
+    ![Etichetta di spedizione di esempio.](media/sps-label-example.png "Etichetta di spedizione di esempio")
 
 1. Tieni presente che i valori **ID manifesto contenitore** e **Trasporto totale** sono stati aggiunti come ricevuti dal vettore.
 

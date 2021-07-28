@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804235"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347468"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Configurare ed eseguire il processo per registrare i rendiconti
 
@@ -31,9 +31,9 @@ In questa procedura vengono descritti i passaggi per configurare ed eseguire un 
 2. Fare clic su Registra rendiconti in batch.
     * Selezionare una gerarchia organizzativa e quindi nella struttura dei nodi dell'organizzazione, selezionare un punto vendita o un nodo. Selezionare un nodo se si desidera creare il processo batch per un gruppo di punti vendita.  
     * Fare clic sulla freccia per aggiungere la selezione.  
-3. Fare clic sulla scheda Esecuzione in background. ![Esecuzione in background](../dev-itpro/media/runbackground.png "Esecuzione in background") 
+3. Fare clic sulla scheda Esecuzione in background. ![Esecuzione in background.](../dev-itpro/media/runbackground.png "Esecuzione in background") 
 4. Selezionare o deselezionare la casella di controllo Elaborazione batch.
-![Elaborazione batch](../dev-itpro/media/batchprocessing.png "Elaborazione e ricorrenza batch") 
+![Elaborazione batch.](../dev-itpro/media/batchprocessing.png "Elaborazione e ricorrenza batch") 
 5. Fare clic su Ricorrenza.
 6. Nel campo Data di inizio, immettere una data.
 7. Immettere l'ora nel campo Ora di inizio.

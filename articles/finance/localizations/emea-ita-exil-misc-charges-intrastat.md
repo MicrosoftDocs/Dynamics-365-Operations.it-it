@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b4a32caafd0e4d30e886dbc0ea1b13b076cacd1c
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: fd78ae06150bfd75b0c73e2cbb30d06d26b54b89
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348444"
 ---
 # <a name="miscellaneous-charges-per-kilogram-in-an-intrastat-declaration"></a>Spese varie per chilogrammo in una dichiarazione Intrastat
 
@@ -37,7 +37,7 @@ Tra gli altri elementi di segnalazione, una dichiarazione Intrastat contiene inf
 
 Sulla pagina **Dati master prodotti rilasciati**, sulla Scheda dettaglio **Commercio estero**, nella sezione **Intrastat** nel campo **Spese per chilogrammo**, inserire l'importo delle spese per chilogrammo.
 
-![Campo Spese per chilogrammo](media/emea-ita-exil-misc-charge-kg-pic1.jpg)
+![Campo Spese per chilogrammo.](media/emea-ita-exil-misc-charge-kg-pic1.jpg)
 
 > [!NOTE]
 > Verificare che il peso del prodotto sia definito in chilogrammi.
@@ -52,7 +52,7 @@ Se viene anche inserito un valore **Percentuale spese**, nel calcolo vengono uti
 
 *Importo spese statistico* = ( *Importo fattura* × *Percentuale spese*) + ( *Costo di ogni chilogrammo* × *Peso netto \[in chilogrammi\]*)
 
-![Calcolo spese](media/emea-ita-exil-misc-charge-kg-pic2.jpg)
+![Calcolo spese.](media/emea-ita-exil-misc-charge-kg-pic2.jpg)
 
 Per ulteriori informazioni, vedere [Trasferire le transazioni a Intrastat](tasks/transfer-transactions-intrastat.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016136"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354955"
 ---
 # <a name="cost-and-date-control"></a>Controllo dei costi e delle date
 
@@ -58,7 +58,7 @@ I calcoli effettuati per cespiti, aree funzionali e ordini di lavoro sono quasi 
 
     Nella figura seguente viene illustrato un esempio della finestra di dialogo **Controllo costi cespiti**.
 
-    ![Finestra di dialogo Controllo costi cespiti](media/01-controlling-and-reporting.png)
+    ![Finestra di dialogo Controllo costi cespiti.](media/01-controlling-and-reporting.png)
 
 10. Nella pagina **Controllo costi cespiti**, fare clic sul pulsante **Raggruppa per** per visualizzare il livello di dettagli necessario per il calcolo. I pulsanti **Raggruppa per** selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
 
@@ -71,7 +71,7 @@ Nella schermata seguente viene illustrato un esempio di risultati di calcolo in 
 - Nel campo **Costo impegnato aperto** sono visualizzati gli impegni per il pagamento di articoli, ore e servizi ordinati o ricevuti ma non ancora pagati. 
 - Dopo che tutte le registrazioni del consumo sono state registrate, i costi correlati vengono mostrati nel campo **Costo effettivo**.
 
-![Esempio di risultati del calcolo in Controllo costi cespiti](media/02-controlling-and-reporting.png)
+![Esempio di risultati del calcolo in Controllo costi cespiti.](media/02-controlling-and-reporting.png)
 
 Un altro metodo di eseguire un calcolo dei costi è la selezione di molteplici cespiti in **Tutti i cespiti** o **Cespiti attivi**. Quindi, fare clic sul pulsante **Controllo costi** nella scheda **Generale**. Nella finestra di dialogo **Controllo costi cespiti**, i cespiti selezionati vengono inseriti automaticamente nel campo **Cespite** della Scheda dettaglio **Record da includere**. Fare clic **OK**. Viene visualizzato un calcolo dei costi per i cespiti selezionati. La stessa procedura può essere eseguita per le unità funzionali in **Tutte le unità funzionali** o **Unità funzionali attive** e per gli ordini di lavoro in **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
@@ -99,7 +99,7 @@ Nella schermata seguente viene illustrato un esempio di risultati di calcolo in 
 - Il campo **Ritardo fine medio** visualizza la differenza in giorni tra la data di fine programmata per un ordine di lavoro rispetto alla data di fine effettiva. Se, ad esempio, la data di fine effettiva è tre giorni dopo la data di fine programmata, in questo campo viene visualizzato "3".  
 - I campi **Occorrenze** mostrano il numero di scostamenti in relazione alla data di inizio programmata ed effettiva e alla data di fine programmata ed effettiva nell'ordine di lavoro.
 
-![Esempio di risultati del calcolo in Controllo data dell'ordine di lavoro](media/03-controlling-and-reporting.png)
+![Esempio di risultati del calcolo in Controllo data dell'ordine di lavoro.](media/03-controlling-and-reporting.png)
 
 
 

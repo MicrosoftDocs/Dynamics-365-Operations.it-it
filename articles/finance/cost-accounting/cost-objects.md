@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20ae6295389fa3cbaa7c90844d2a90f1e38387c4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d91fc52b184fda73fcf36175598aa514945db48
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818779"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355133"
 ---
 # <a name="cost-object-dimensions"></a>Dimensioni oggetto di costo
 
@@ -34,7 +34,7 @@ Un oggetto di costo può essere qualsiasi tipo di oggetto da stimare, a cui allo
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>Dimensioni oggetto di costo e membri di dimensioni oggetto di costo
 Gli oggetti di costo sono definiti come *dimensioni oggetto di costo*. Una volta deciso a quale entità la dimensione oggetto di costo deve fare riferimento, è necessario specificare i singoli valori di dimensione o importarli nella contabilità industriale da altri sistemi di origine. I singoli valori delle dimensioni vengono denominati *membri delle dimensioni oggetto di costo*. Ad esempio, si desidera utilizzare la dimensione finanziaria denominata Centro di costo come dimensione oggetto di costo. Per visualizzare come i costi fluiscono nei singoli centri di costo, è necessario importare i membri delle dimensioni oggetto di costo. In questo caso, i membri delle dimensioni oggetto di costo sono gli effettivi centri di costo, ad esempio Vendite, Produzione, Amministrazione e Località geografiche. Nella schermata seguente è illustrato un esempio di centri di costo come dimensione oggetto di costo con i relativi centri di costo effettivi come membri della dimensione oggetto di costo. 
 
-[![Screenshot che mostra i centri di costo come dimensione dell'oggetto di costo](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![Screenshot che mostra i centri di costo come dimensione dell'oggetto di costo.](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>Importare i membri delle dimensioni oggetto di costo tramite connettori dati
 Per semplificare l'importazione di membri delle dimensioni oggetto di costo si utilizzano i connettori dati per recuperare i valori dalle entità che si desidera utilizzare come dimensioni oggetto di costo. È possibile utilizzare connettori dati predefiniti oppure crearne di propri personalizzati.

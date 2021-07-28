@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795383"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357764"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Abilitare gli elementi consigliati "acquista prodotti simili"
 
@@ -68,7 +68,7 @@ Per abilitare la funzione di consigli "acquista prodotti simili" in Commerce hea
 
 La figura seguente mostra la funzione **Acquista prodotti simili** nella pagina **Gestione funzionalità** in Commerce headquarters.
 
-![La funzione Acquista prodotti simili nella pagina Gestione funzionalità in Commerce headquarters](./media/enableshopsimilarlooks.png)
+![La funzione Acquista prodotti simili nella pagina Gestione funzionalità in Commerce headquarters.](./media/enableshopsimilarlooks.png)
 
 Dopo che le attività precedenti sono state completate, i terminali POS vengono automaticamente migliorati con un pannello **Acquista prodotti simili** contestuale. Selezionando **Ulteriori informazioni**, gli utenti dei terminali POS possono essere indirizzati a una pagina dedicata "acquista prodotti simili" che può essere filtrata ulteriormente.
 
@@ -88,7 +88,7 @@ Per aggiungere un pulsante **Acquista prodotti simili** alle pagine dei dettagli
 
 La figura seguente mostra la casella di controllo **Abilita collegamento acquista prodotti simili** e **Acquista prodotti simili** in una pagina dei dettagli del prodotto di esempio in Creazione di siti.
 
-![Casella di controllo Abilita collegamento acquista prodotti simili e Acquista prodotti simili in una pagina dei dettagli del prodotto in Creazione di siti](./media/SSLecomtooling.png)
+![Casella di controllo Abilita collegamento acquista prodotti simili e Acquista prodotti simili in una pagina dei dettagli del prodotto in Creazione di siti.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

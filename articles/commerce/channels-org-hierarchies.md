@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4238d1aa277bf2f1df30825ef20dbf3095d13ebc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f6e791ffd15128d2076340515a08b5ea6be70dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346010"
 ---
 # <a name="set-up-organization-hierarchies"></a>Impostare gerarchie organizzative
 
@@ -54,7 +54,7 @@ Per creare una gerarchia organizzativa, effettuare le seguenti operazioni.
 
 L'immagine seguente mostra un esempio di gerarchia organizzativa creata per un gruppo di punti vendita fittizio "Adventure Works".
 
-![Esempio di gerarchie organizzative](media/organizational-hierarchies.png)
+![Esempio di gerarchia organizzativa.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Aggiungere organizzazioni a una gerarchia
 
@@ -67,7 +67,7 @@ Per aggiungere organizzazioni a una gerarchia, effettuare le operazioni indicate
 
 L'immagine seguente mostra una persona giuridica aggiunta alla radice della gerarchia con quattro centri di costo aggiunti per i canali "Centro commerciale", "Outlet", "Online" e "Servizio clienti". A ognuno di questi possono quindi essere aggiunti vari canali di vendita al dettaglio, servizio clienti e online.
 
-![Esempio di finestra di progettazione delle gerarchie](media/hierarchy-designer.png)
+![Esempio di finestra di progettazione delle gerarchie.](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051811"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359679"
 ---
 # <a name="recruit-job-candidates"></a>Selezionare i candidati a una posizione
 
@@ -61,13 +61,13 @@ Se l'organizzazione ha più sedi, è possibile aggiungerle in modo che i richied
 
 3. Nel campo **Posizione della richiesta di selezione** immettere il nome della posizione.
 
-   ![Aggiungere una posizione per la richiesta di selezione](./media/hr-recruit-0a-add-location.png)
+   ![Aggiungere una posizione per la richiesta di selezione.](./media/hr-recruit-0a-add-location.png)
 
 4. Nel campo **Descrizione** immettere una descrizione per la posizione.
 
 5. Sotto **Posizione**, selezionare **Aggiungi**. Se il popout **Nuovo indirizzo** viene visualizzato, immettere l'indirizzo della posizione.
 
-   ![Immettere indirizzo](./media/hr-recruit-0b-address.png)
+   ![Immettere indirizzo.](./media/hr-recruit-0b-address.png)
 
 6. In **Informazioni sui contatti**, inserire le informazioni per il contatto della posizione.
 
@@ -83,11 +83,11 @@ I responsabili possono inviare richieste di selezione in Human Resources. Se si 
 
 3. Selezionare **Richiesta di selezione**.
 
-   ![Avviare una richiesta di selezione](./media/hr-recruit-1-request-to-recruit.png)
+   ![Avviare una richiesta di selezione.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Completare i campi **Descrizione**, **Lavoro** e **Data di inizio stimata**.
 
-   ![Completare la richiesta di selezione](./media/hr-recruit-2-request-to-recruit.png)
+   ![Completare la richiesta di selezione.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Selezionare **Continua**. Viene visualizzata la richiesta di selezione per la posizione.
 
@@ -95,7 +95,7 @@ I responsabili possono inviare richieste di selezione in Human Resources. Se si 
 
 7. In **Lavoro**, modificare le informazioni in base alle esigenze, quindi selezionare **Crea dettagli dal lavoro**.
 
-   ![Crea dettagli dalla mansione](./media/hr-recruit-3-create-details-from-job.png)
+   ![Creare dettagli dalla mansione.](./media/hr-recruit-3-create-details-from-job.png)
 
    Il resto della richiesta di selezione verrà compilato con le informazioni predefinite per il lavoro inserito.
 
@@ -103,13 +103,13 @@ I responsabili possono inviare richieste di selezione in Human Resources. Se si 
 
 9. In **Posizioni**, selezionare **Aggiungi**, quindi selezionare una posizione per questa richiesta di selezione.
 
-   ![Aggiungere una posizione](./media/hr-recruit-4-select-position.png)
+   ![Aggiungere una posizione.](./media/hr-recruit-4-select-position.png)
 
 10. In **Competenze**, selezionare **Aggiungi**, quindi selezionare una competenza.
 
 11. In **Requisiti di istruzione**, selezionare **Aggiungi**, quindi selezionare i valori dai menu a discesa **Istruzione** e **Livello di istruzione**.
 
-   ![Aggiungere i requisiti di istruzione](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Aggiungere i requisiti di istruzione.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. In **Commento**, aggiungere commenti se necessario.
 
@@ -117,7 +117,7 @@ I responsabili possono inviare richieste di selezione in Human Resources. Se si 
 
 14. Quando la richiesta di selezione è completa e si è pronti per iniziare il processo di selezione, selezionare **Attiva** nella barra dei menu.
 
-   ![Attivare la richiesta di selezione](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Attivare la richiesta di selezione.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. Selezionare **Salva**.
 
@@ -131,7 +131,7 @@ Se si è un responsabile e si desidera visualizzare le richieste:
 
 3. In **Informazioni team personale**, selezionare la scheda **Richieste di selezione**.
 
-   ![Selezionare la scheda Richieste di selezione](./media/hr-recruit-7-recruiting-requests.png)
+   ![Selezionare la scheda Richieste di selezione.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Per visualizzare o modificare una richiesta di selezione, selezionarla nella griglia.
 
@@ -141,7 +141,7 @@ Se si è un professionista delle risorse umane e si desidera visualizzare tutte 
 
 2. Selezionare **Richieste di selezione**.
 
-   ![Visualizzare le richieste di selezione in Gestione personale](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Visualizzare le richieste di selezione in Gestione personale.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Per visualizzare o modificare una richiesta di selezione, selezionarla nella griglia.
 
@@ -155,7 +155,7 @@ Se l'organizzazione è integrata con un'altra applicazione per gestire le richie
 
 3. Sotto **Selezione**, selezionare **Candidati**.
 
-   ![Visualizzare i candidati](./media/hr-recruit-9-candidates.png)
+   ![Visualizzare i candidati.](./media/hr-recruit-9-candidates.png)
 
 4. Per aggiungere un candidato, selezionare **Nuovo**. Per modificare un candidato esistente, selezionare il candidato dall'elenco, quindi selezionare **Modifica**. Viene visualizzato il profilo del candidato.
 
@@ -163,7 +163,7 @@ Se l'organizzazione è integrata con un'altra applicazione per gestire le richie
 
 6. Sotto **Richiesta di selezione**, selezionare una richiesta di selezione a cui collegare il candidato. Quindi completare i campi **Data di inizio stimata**, **Responsabile assunzioni**, **Posizione** e **Descrizione** come appropriato.
 
-   ![Collegare una richiesta di selezione](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Collegare una richiesta di selezione.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Completare tutte le informazioni nelle seguenti aree che si desidera includere nel record del candidato:
    - **Commenti**
@@ -182,11 +182,11 @@ Quando si è pronti per assumere un candidato, seguire questa procedura per pass
 
 1. Nel modulo del candidato, selezionare **Assumi**.
 
-   ![Assumere un candidato](./media/hr-recruit-11-hire.png)
+   ![Assumere un candidato.](./media/hr-recruit-11-hire.png)
 
 2. Nel modulo **Assumi nuovo lavoratore** sotto **Dettagli**, completare tutti i campi.
 
-   ![Inserire i dettagli della nuova assunzione](./media/hr-recruit-12-hire-new-worker.png)
+   ![Immettere i dettagli nuova assunzione.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. Sotto **Dettagli posizione**, verificare e modificare le informazioni secondo le necessità.
 
@@ -203,7 +203,7 @@ Se si decide di non assumere un candidato, seguire questa procedura per rimuover
 
 1. Nel modulo del candidato, selezionare **Non assumere**.
 
-   ![Non assumere un candidato](./media/hr-recruit-13-do-not-hire.png)
+   ![Non assumere un candidato.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Selezionare un **Codice motivo** e includere eventuali commenti.
 
@@ -215,7 +215,7 @@ Se necessario, è possibile licenziare un candidato dopo averlo assunto. Ad esem
 
 - Nel modulo del candidato, selezionare **Licenzia candidato**.
 
-  ![Chiudi il candidato](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Licenziare il candidato.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Vedere anche
 

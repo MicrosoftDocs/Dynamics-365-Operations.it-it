@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800617"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346036"
 ---
 # <a name="create-legal-entities"></a>Crea persone giuridiche
 
@@ -44,7 +44,7 @@ Per creare una nuova persona giuridica in Dynamics 365 Commerce, completare i pa
 1. Nel campo **Paese**, immettere o selezionare un valore.
 1. Selezionare **OK**. 
 
-   ![Creazione di persone giuridiche](media/legal-entities.png)
+   ![Creazione di persone giuridiche.](media/legal-entities.png)
 
 1. Nella sezione **Generale**, immettere le seguenti informazioni generali sulla persona giuridica: 
    1. Immettere un nome di ricerca se è richiesto. Un nome di ricerca è un nome alternativo che è possibile utilizzare per cercare questa persona giuridica. 
@@ -67,7 +67,7 @@ Per creare una nuova persona giuridica in Dynamics 365 Commerce, completare i pa
 
 L'immagine seguente illustra un esempio di persona giuridica.
 
-![Sezione generale della persona giuridica](media/legal-entities-general.png)
+![Sezione generale della persona giuridica.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

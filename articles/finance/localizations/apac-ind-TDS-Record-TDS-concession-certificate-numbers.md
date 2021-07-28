@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023346"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358388"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Registrare numeri di certificati di concessione TDS
 
@@ -33,7 +33,7 @@ In questo argomento viene illustrato come registrare i numeri di certificati di 
 2. Nel campo **Tipo di imposta**, seleziona **TDS** per registrare certificati di concessione per il tipo di imposta TDS.
 3. Nella scheda **Panoramica**, seleziona **ALT+N** per creare una riga.
 
-    [![Intestazione della nuova riga](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![Intestazione della nuova riga.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. Nel campo **Codice ritenuta d'acconto**, seleziona il codice imposta TDS per il quale vengono emessi certificati di concessione. Il campo **Nome codice ritenuta d'acconto** mostra il nome del codice imposta TDS.
 5. Nei campo **Data iniziale** e **Data finale**, definisci il periodo di validità del certificato di concessione che utilizza il codice imposta TDS per calcolare la TDS per il fornitore sulla base di una concessione.
@@ -50,6 +50,6 @@ In questo argomento viene illustrato come registrare i numeri di certificati di 
 
 11. Nel campo **Certificato**, immetti il numero di certificato di concessione TDS.
 
-    [![Scheda dettaglio Certificato](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Scheda dettaglio Certificato.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
-12. Chiudi la pagina.
+12. Chiudere la pagina.

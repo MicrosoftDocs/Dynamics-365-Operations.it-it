@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358124"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -41,7 +43,7 @@ RCS fornisce le seguenti funzionalità:
 
 Puoi iscriverti o accedere a RCS dalla [pagina di Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/).
 
-![Iscrizione/accesso a RCS](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![Iscrizione/accesso a RCS.](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 Nella pagina **Regulatory Configuration Service**, esamina e accetta i termini e le condizioni supplementari per l'utilizzo del servizio, quindi seleziona uno dei seguenti pulsanti:
 
@@ -91,7 +93,7 @@ Per ulteriori informazioni sui componenti correlati, vedi gli argomenti seguenti
 
 Quando ti iscrivi a RCS dalla pagina del servizio, potresti riscontrare un problema correlato ad Azure Active Directory (Azure AD). Il messaggio di errore che ricevi indica che l'iscrizione a RCS è attualmente disattivata e deve essere attivata prima di poter completare il processo di iscrizione.
 
-![Messaggio di errore di iscrizione a RCS](media/01_RCSSignUpError.jpg)
+![Messaggio di errore di iscrizione a RCS.](media/01_RCSSignUpError.jpg)
 
 Il problema si verifica perché la registrazione per abbonamenti ad-hoc è bloccata e la proprietà `AllowAdHocSubscriptions` deve essere abilitata nel tenant. 
 

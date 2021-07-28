@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897334"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347836"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Riferimenti a fatture originali nelle note di credito
 
@@ -51,7 +51,7 @@ Segui questi passaggi per impostare il parametro che controlla se i riferimenti 
 1. Andare a **Contabilità clienti** \> **Impostazioni** \> **Parametri contabilità clienti**.
 2. Nella scheda **Aggiornamenti** nella scheda dettaglio **Fattura** imposta l'opzione **Applica il layout di fatturazione delle note di accredito nei report delle fatture di vendita e di progetto** su **Sì**.
 
-![Configurazione dei parametri di contabilità clienti](media/original-invoice-number-in-credit-note.jpg)
+![Configurazione dei parametri di contabilità clienti.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Definire i riferimenti alle fatture originali
 
@@ -65,7 +65,7 @@ Utilizza le seguenti procedure per definire i riferimenti alle fatture originali
 4. Nel riquadro azioni, nel gruppo **Genera** della scheda **Funzioni**, seleziona **Fatturazione note di accredito**.
 5. Immetti il riferimento alla fattura originale e seleziona il motivo della correzione.
 
-![Definizione del riferimento per una fattura a testo libero](media/reference-original-invoice-FTI.jpg)
+![Definizione del riferimento per una fattura a testo libero.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Nota di credito cliente
 
@@ -74,7 +74,7 @@ Utilizza le seguenti procedure per definire i riferimenti alle fatture originali
 3. Nel riquadro azioni, nel gruppo **Nota di accredito** della scheda **Vendi** fai clic su **Nota di accredito**.
 4. Immetti il motivo della correzione. Il riferimento alla fattura originale viene stabilito automaticamente.
 
-![Definizione del riferimento per un ordine cliente](media/reference-original-invoice-SO.jpg)
+![Definizione del riferimento per un ordine cliente.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Nota di accredito progetto
 
@@ -84,13 +84,13 @@ Utilizza le seguenti procedure per definire i riferimenti alle fatture originali
 4. Seleziona **Fatturazione note di accredito**.
 5. Immetti il motivo della correzione. Il riferimento alla fattura originale viene stabilito automaticamente.
 
-![Definizione del riferimento per una fattura di progetto](media/reference-original-invoice-project.jpg)
+![Definizione del riferimento per una fattura di progetto.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Stampa di note di accredito
 
 Quando stampi le note di credito di progetto, del cliente e testo libero, includeranno il riferimento alla fattura originale e il motivo della correzione.
 
-![Nota di credito stampata](media/credit-note-FTI.jpg)
+![Nota di credito stampata.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Assicurati che i formati stampabili dei documenti siano correttamente configurati, ipotizzando che vengano stampati i riferimenti alle fatture originali.

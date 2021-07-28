@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054910"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346276"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Ottimizzare le query di tabelle virtuali di Dataverse
 
@@ -50,11 +50,11 @@ Un esempio in cui è possibile vedere questo impatto è rappresentato dalle quer
 - **Timeout della query**: è possibile che si verifichi il timeout della query e che venga restituito il seguente errore: "È stato ottenuto un token per chiamare Finance and Operations, ma Finance and Operations ha restituito un errore di tipo InternalServerError."
 - **Errore imprevisto**: la query potrebbe restituire un errore 400 con il seguente messaggio: "Si è verificato un errore imprevisto."
 
-  ![Errore 400 su HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![Errore 400 su HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **Limitazione**: la query potrebbe utilizzare in modo eccessivo le risorse del server e diventare soggetta a limitazione. In tal caso, la query restituisce il seguente errore: "È stato ottenuto un token per chiamare Finance and Operations, ma Finance and Operations ha restituito un errore 429." Per ulteriori informazioni sulla limitazione in Human Resources, vedere [Domande frequenti sulla limitazione](./hr-admin-integration-throttling-faq.md).
 
-  ![Errore 429 su HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![Errore 429 su HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
 ## <a name="resolution"></a>Risoluzione
 
@@ -96,7 +96,7 @@ Se si verifica uno dei suddetti segnali di peggioramento delle prestazioni duran
 2. Nella finestra **Ottieni dati**, immettere **Common Data Service** nella casella di ricerca, selezionare il connettore **Common Data Service** e selezionare **Connetti**.
 3. Nel campo **URL server** della finestra Common Data Service, immettere l'URI dell'organizzazione per l'ambiente Dataverse in uso e selezionare **OK**.
   
-   ![Immettere l'URI per l'ambiente Dataverse](./media/PowerBIDataverseURLSetup.png)
+   ![Immettere l'URI per l'ambiente Dataverse.](./media/PowerBIDataverseURLSetup.png)
   
 4. Nella finestra del navigatore, espandere il nodo **Entità**.
 5. Nella casella di ricerca, immettere **mshr_hcmworkerbaseentity** e selezionare l'entità.
@@ -113,7 +113,7 @@ Se si verifica uno dei suddetti segnali di peggioramento delle prestazioni duran
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Aggiornare la query nell'editor avanzato per l'editor di Power Query](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Aggiornare la query nell'editor avanzato per l'editor di Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Selezionare **Fine**.
 
@@ -138,7 +138,7 @@ Ad esempio, se uno dei campi dati inclusi in una pagina nell'app fa riferimento 
 
 È possibile usare [Power Apps Monitor](/powerapps/maker/monitor-overview) per garantire che solo le colonne necessarie siano incluse nella query per ottenere i dati per la Power App. È possibile visualizzare l'URL creato per l'operazione getRows per assicurarsi che le colonne selezionate per l'app siano ottimali per il recupero dei dati.
 
-![Utilizzare di Power Apps Monitor per analizzare l'operazione getData](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![Utilizzare Power Apps Monitor per analizzare l'operazione getData.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>Filtro della query di dati
 

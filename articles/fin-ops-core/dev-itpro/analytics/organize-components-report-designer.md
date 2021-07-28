@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb3e09ad849b250ed3f1d7aec910b44d591cb88e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1672ee1777150a7f78c03d07dc79df118a3632f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751634"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347878"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizzare i componenti del report in Progettazione report
 
@@ -47,7 +47,7 @@ In Progettazione report è possibile rinominare cartelle, definizioni di report,
 ### <a name="create-a-report-group"></a>Creare un gruppo di report.
 
 1. In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
-2. Nel menu **File**, fare clic su **Nuovo** &gt; **Definizione gruppo di report** per aprire un nuovo gruppo di report nella finestra del visualizzatore. In alternativa, fare clic sul pulsante **Gruppo di report** ![Gruppo di report](media/report-group.gif "Gruppo di report") sulla barra degli strumenti.
+2. Nel menu **File**, fare clic su **Nuovo** &gt; **Definizione gruppo di report** per aprire un nuovo gruppo di report nella finestra del visualizzatore. In alternativa, fare clic sul pulsante **Gruppo di report** ![Gruppo di report.](media/report-group.gif "Gruppo di report") sulla barra degli strumenti.
 3. Fare clic sulla scheda **Gruppo di report**. Per ignorare le informazioni sulle singole definizioni di report per la generazione di questo report, selezionare la casella di controllo **Ignora impostazioni società, dettagli e data dalle singole definizioni di report**. Il nome della società, il livello di dettaglio, l'impostazione provvisoria e le informazioni sulla data vengono immessi automaticamente ma è comunque possibile effettuare aggiornamenti.
 4. Selezionare la casella di controllo **Includi tutte le valute di dichiarazione** per generare più report che mostrano tali valute. È quindi possibile accedere a più visualizzazioni facendo clic sul pulsante **Valuta** nel Visualizzatore Web quando si visualizza il report.
 5. Nel campo **Report nel gruppo**, fare clic su **Aggiungi** per selezionare i report da includere nel gruppo di report. Per selezionare più report nella finestra di dialogo **Aggiungi**, tenere premuto il tasto Ctrl mentre si seleziono i report. Una volta terminata la selezione dei report, fare clic su **OK**.
@@ -58,7 +58,7 @@ In Progettazione report è possibile rinominare cartelle, definizioni di report,
 1. In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
 2. Fare doppio clic sul gruppo di report da modificare.
 3. Nella scheda **Gruppo di report** apportare le modifiche desiderate.
-4. Nel menu **File** fare clic su **Salva** per salvare il gruppo di report modificato. In alternativa, fare clic sul pulsante **Salva** ![Salva](media/save.gif "Salva") sulla barra degli strumenti.
+4. Nel menu **File** fare clic su **Salva** per salvare il gruppo di report modificato. In alternativa, fare clic sul pulsante **Salva** ![Salva.](media/save.gif "Salva") sulla barra degli strumenti.
 
 > [NOTA] Se è stata pianificata la generazione di report a intervalli stabiliti, è possibile ignorare tali impostazioni e generare un report immediatamente.
 
@@ -66,7 +66,7 @@ In Progettazione report è possibile rinominare cartelle, definizioni di report,
 
 1. In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
 2. Aprire il gruppo di report da generare.
-3. Fare clic sul pulsante **Genera report** ![Genera report](media/generate-report.gif "Genera report") per generare i report.
+3. Fare clic sul pulsante **Genera report** ![Genera report.](media/generate-report.gif "Genera report") per generare report.
 
 ### <a name="delete-a-report-group"></a>Eliminare un gruppo di report
 

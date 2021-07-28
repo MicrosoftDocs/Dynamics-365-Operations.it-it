@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837899"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346228"
 ---
 # <a name="register-consumption"></a>Registrare il consumo
 
@@ -54,7 +54,7 @@ In alcuni casi, esiste la possibilità di aggiungere o eliminare righe di previs
 
 La schermata seguente mostra un esempio di registrazioni di ore e articoli in un ordine di lavoro in **Giornali di registrazione ordine di lavoro**.
 
-![Figura 1](media/01-consumption.png)
+![Figura 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Suddividere le ore negli ordini di lavoro con più processi di ordine di lavoro
@@ -73,13 +73,13 @@ Se un ordine di lavoro contiene più processi di ordine di lavoro, è possibile 
 
 6. Nel campo **Ore** inserire il numero di ore da suddividere.
 
-    ![Figura 2](media/02-consumption.png)
+    ![Figura 2.](media/02-consumption.png)
 
 7. Fare clic su **OK**.
 
 *Esempio:* nella schermata seguente sono visualizzate le righe del giornale di registrazione per un ordine di lavoro contenente tre processi di ordine di lavoro. La prima riga, contenente tre ore lavorative, è stata suddivisa e un'ora lavorativa è registrata in ciascun processo di ordine di lavoro. Dopo la creazione della registrazione delle tre ore, è necessario decidere cosa fare con la riga di registrazione ore originale (la prima riga nell'esempio). È possibile tenerla così com'è oppure eliminarla. 
 
-![Figura 3](media/03-consumption.png)
+![Figura 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Dimensioni finanziarie nelle registrazioni del consumo
 
