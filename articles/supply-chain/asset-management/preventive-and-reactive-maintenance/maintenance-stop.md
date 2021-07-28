@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837827"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356490"
 ---
 # <a name="maintenance-downtime-activities"></a>Attività dei tempi di fermo per la manutenzione
 
@@ -40,7 +40,7 @@ Dopo la selezione dei cespiti in una registrazione di tempi di fermo per la manu
 
 Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** per visualizzare un elenco di tutte le attività dei tempi di fermo per la manutenzione e alcune delle informazioni relative alle attività. Fare clic su un collegamento nella colonna **Attività tempi di fermo per manutenzione** per visualizzare i dettagli. Nella figura seguente è illustrato un esempio dell'elenco **Attività dei tempi di fermo per la manutenzione**.
 
-![Figura 1](media/19-preventive-maintenance.png)
+![Figura 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Creare un'attività di tempi di fermo per la manutenzione
@@ -61,7 +61,7 @@ Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per 
 
 Nella figura seguente è illustrato un esempio della visualizzazione dettagliata **Attività dei tempi di fermo per la manutenzione**.
 
-![Figura 2](media/20-preventive-maintenance.png)
+![Figura 2.](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >I processi di manutenzione di ordine di lavoro e le righe di programma di manutenzione relativi ai cespiti selezionati vengono aggiornati automaticamente se nuovi ordini di lavoro o righe di programma di manutenzione vengono creati dopo la creazione dell'attività dei tempi di fermo per la manutenzione. Ad esempio, se si programmano piani di manutenzione o cicli di manutenzione nei cespiti due giorni dopo la creazione dell'attività dei tempi di fermo per la manutenzione, nuove righe di programma di manutenzione vengono aggiunte all'attività dei tempi di fermo per la manutenzione.
@@ -72,7 +72,7 @@ Nella figura seguente è illustrato un esempio della visualizzazione dettagliata
 
 10. Fare clic su **OK** per avviare il calcolo. Il numero totale di ore viene visualizzato nella panoramica. **Carico di capacità**. Nella scheda **Carico di capacità** > gruppi di riquadri azioni **Raggruppa per**, fai clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione delle ore previste. Nella figura seguente vengono illustrati i risultati di un calcolo **Carico di capacità**.
 
-![Figura 3](media/21-preventive-maintenance.png)
+![Figura 3.](media/21-preventive-maintenance.png)
 
 11. Dopo aver ottenuto una panoramica del carico di capacità, se si desidera modificare i processi di manutenzione di ordine di lavoro o le righe di programma di manutenzione, ritornare alla visualizzazione dettagli **Attività dei tempi di fermo per la manutenzione** e selezionare le righe da modificare nelle Schede dettaglio **Processi di manutenzione ordine di lavoro risultanti** e **Righe programma di manutenzione**.
 
@@ -89,7 +89,7 @@ Nella figura seguente è illustrato un esempio della visualizzazione dettagliata
 
 16. Fare clic su **OK** per avviare il calcolo. Il numero totale di previsioni articolo è visualizzato nella panoramica **Previsione articolo**. Nella scheda **Previsione articolo** > gruppi di riquadri azioni **Raggruppa per**, fai clic sui pulsanti appropriati per ottenere una panoramica più dettagliata dell'allocazione degli articoli previsti. Nella figura seguente vengono illustrati i risultati di un calcolo **Previsione articolo**.
 
-![Figura 4](media/22-preventive-maintenance.png)
+![Figura 4.](media/22-preventive-maintenance.png)
 
 - È possibile copiare i cespiti da un'attività dei tempi di fermo per la manutenzione a un'altra. In **Tutte le attività tempi di fermo per manutenzione**, selezionare il pulsante **Copia attività tempi di fermo per manutenzione** e apportare le selezioni nei campi **Da attività tempi di fermo per manutenzione** e **A attività tempi di fermo per manutenzione** e fare clic su **OK**.
 - In **Tutte le attività tempi di fermo per manutenzione**, fare clic sul pulsante **Righe programma di manutenzione** o **Ordini di lavoro attivi** per aprire i relativi elenchi e visualizzare le righe associate all'attività dei tempi di fermo per la manutenzione selezionata.

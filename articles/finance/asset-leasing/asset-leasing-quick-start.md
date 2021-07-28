@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892435"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360738"
 ---
 # <a name="asset-leasing-get-started"></a>Attività iniziali per il leasing di cespiti
 
@@ -35,7 +37,7 @@ Per ulteriori informazioni sugli standard contabili, consulta la documentazione 
 ## <a name="asset-leasing-elements"></a>Elementi di leasing di cespiti
 Il diagramma seguente mostra gli elementi principali del processo aziendale per i leasing.
 
-[![Elementi di leasing di cespiti](./media/overview-01.png)](./media/overview-01.png)
+[![Elementi di leasing di cespiti.](./media/overview-01.png)](./media/overview-01.png)
 
 Un cespite in leasing contiene i seguenti componenti principali:
 
@@ -54,7 +56,7 @@ Il leasing di cespiti mappa le informazioni sul leasing, gli scadenziari pagamen
 
 Il diagramma seguente mostra il libro di leasing, il leasing, lo scadenziario pagamenti calcolato, i test di classificazione per leasing e libri di leasing e le relative transazioni contabili.
 
-[![Leasing, libro di leasing e scadenziario pagamento](./media/overview-02.png)](./media/overview-02.png)
+[![Leasing, libro di leasing e scadenziario pagamenti.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Libro di leasing** - Il libro di leasing include tutte le informazioni sui contratti di leasing come i termini del leasing, il valore equo e i canoni di leasing. Include anche lo standard contabile che stai seguendo, il tipo di leasing e le soglie considerate nel test di classificazione del leasing. Il libro di leasing contiene anche le transazioni di leasing registrate nella contabilità generale. 
   
@@ -117,7 +119,7 @@ Il primo periodo inizierà con il periodo zero, se il tipo di annualità è Annu
 
 I test di classificazione includono il trasferimento di proprietà, l'opzione di acquisto, il termine del leasing, il valore netto attuale e l'asset unico. Il diagramma seguente illustra i test di classificazione dei leasing.
 
-[![Test di classificazione dei leasing](./media/overview-03.png)](./media/overview-03.png)
+[![Test di classificazione dei leasing.](./media/overview-03.png)](./media/overview-03.png)
 
 Ogni tipo di leasing gestisce la contabilità in modo diverso per diverse transazioni di leasing. Le transazioni includono la rilevazione iniziale, gli interessi passivi, il canone di leasing dovuto e l'ammortamento del leasing. Si basano sugli standard contabili che stai seguendo (IFRS 16 o ASC 842). I conti CoGe sono definiti nel profilo di registrazione del leasing per ogni tipo di transazione e framework di contabilità.
 
@@ -232,7 +234,7 @@ Completa i passaggi seguenti per creare un nuovo leasing.
 
    La pagina **Scadenziario pagamenti** elenca gli scadenziari di pagamento futuri per un ID leasing. Seleziona **Conferma scadenziario** per poter registrare le transazioni di **rilevazione iniziale**. 
 
-[![Funzione Rilevazione iniziale](./media/overview-13.png)](./media/overview-13.png)
+[![Funzione Riconoscimento iniziale.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Seleziona **Rilevazione iniziale** per creare un giornale di registrazione di riconoscimento iniziale. 
 
@@ -246,7 +248,7 @@ Completa i passaggi seguenti per creare un nuovo leasing.
 
    Nella pagina **Piano di ammortamento cespite** sono visualizzate le transazioni di ammortamento per l'ID leasing selezionato. 
 
-   [![Pagina Transazioni asset ROU](./media/overview-20.png)](./media/overview-20.png)
+   [![Pagina Transazioni asset ROU.](./media/overview-20.png)](./media/overview-20.png)
 
    Nella pagina **Transazioni asset ROU** sono elencati la rilevazione iniziale, l'ammortamento accumulato e il saldo cespiti. 
 

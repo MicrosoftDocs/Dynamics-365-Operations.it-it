@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09e0fc17a288a278b7b1feaba8c7b73425aa2d52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 164ae10eef8ef3692cd3a8b5232de64ec3d83b1b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808162"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354182"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>Calcolare il carico di capacità in ordini di lavoro programmati
 
@@ -48,7 +48,7 @@ ms.locfileid: "5808162"
 
 Nella figura seguente viene illustrato il risultato di un calcolo relativo a tre settimane per il tipo di carico **Prenotato**.
 
-![Figura 1](media/08-work-order-scheduling.png)
+![Figura 1.](media/08-work-order-scheduling.png)
 
 [!NOTE]
 Se si selezionano i tipi di carico **Capacità** o **Residuo** per il calcolo, lo stesso risultato sarà visualizzato se non vengono effettuate prenotazioni per le risorse nel periodo selezionato.

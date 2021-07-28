@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7618bb202dac3295c948d74c482900b0aeae8bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907841"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353940"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Panoramica sul portale clienti per Dynamics 365 Supply Chain Management
 
@@ -63,7 +64,7 @@ I [portali Power Apps](/powerapps/maker/portals/overview) sono una funzionalità
 
 La [doppia scrittura](/powerapps/maker/portals/overview) è un prodotto di infrastruttura predefinito che fornisce interazione quasi in tempo reale tra le app di interazione con i clienti e le app Finance and Operations. La doppia scrittura fornisce un'integrazione bidirezionale tra le app Finance and Operations e Microsoft Dataverse. Di conseguenza, offre un'esperienza utente integrata nelle app. Il portale clienti dipende da tabelle sincronizzate con la doppia scrittura. Affinché i dati di Supply Chain Management siano visualizzati nel portale clienti, è necessario abilitare la doppia scrittura per tutte le tabelle appropriate.
 
-![Dipendenze del portale clienti](media/customer-portal-elements.png "Dipendenze del portale clienti")
+![Dipendenze del portale clienti.](media/customer-portal-elements.png "Dipendenze del portale clienti")
 
 Il portale clienti funge da punto di partenza per le organizzazioni che desiderano utilizzare i portali Power Apps per creare un sito Web rivolto verso l'esterno che utilizza i dati dell'installazione di Supply Chain Management. Consente alle organizzazioni di connettere la doppia scrittura, Supply Chain Management e i portali Power Apps.
 

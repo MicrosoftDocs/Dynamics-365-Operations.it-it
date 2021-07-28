@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193979"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360522"
 ---
 # <a name="enter-skills"></a>Immettere le competenze
 
@@ -45,17 +45,17 @@ Per immettere le competenze senza richiedere l'approvazione, è necessario crear
 
 4. Nel riquadro **Crea flusso di lavoro**, seleziona **Competenze lavoratore**.
 
-   [![Selezionare Flusso di lavoro delle competenze del lavoratore](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Selezionare il flusso di lavoro delle competenze del lavoratore.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. Nella finestra di dialogo **Aprire questo file?**, seleziona **Apri**. Quando viene richiesto, immetti le credenziali.
 
 6. Nell'editor del flusso di lavoro, seleziona l'elemento del flusso di lavoro **Approva competenze** e trascinalo nel canvas.
 
-   [![Selezionare Approva elemento del flusso di lavoro delle competenze](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Selezionare Approva elemento del flusso di lavoro delle competenze.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Connetti l'elemento **Inizio** all'elemento **Approva competenze 1**, quindi connetti l'elemento **Approva competenze 1** all'elemento **Fine**. Potrebbe essere necessario scorrere verso il basso per visualizzare l'elemento **Fine**. Puoi trascinarlo più vicino agli altri elementi.
 
-   [![Connettere elementi del flusso di lavoro](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Connettere elementi del flusso di lavoro.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Fai doppio clic sull'elemento del flusso di lavoro **Approva competenze 1**, quindi fai clic con il pulsante destro del mouse sull'elemento **Passaggio 1**. Fare clic con il pulsante destro del mouse sull'elemento **Passaggio 1**, quindi scegliere **Proprietà**.
 
@@ -65,7 +65,7 @@ Per immettere le competenze senza richiedere l'approvazione, è necessario crear
 
 11. Seleziona **Aggiungi condizione**. Dopo **Dove**, seleziona **Competenze self-service dipendenti** e quindi seleziona **Employee self service skills.Person**. Dopo **è**, seleziona **campo** e quindi seleziona **User to person relationship.Person**.
 
-    [![Specificare la condizione](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Specificare la condizione.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Seleziona **Assegnazione** sulla barra di spostamento a sinistra.
 
@@ -73,7 +73,7 @@ Per immettere le competenze senza richiedere l'approvazione, è necessario crear
 
 14. Nella scheda **Selezione gerarchia**, nel campo **Tipo di gerarchia:**, seleziona **Gerarchia manageriale**.
 
-    [![Specificare la gerarchia manageriale](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Specificare la gerarchia manageriale.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Seleziona **Chiudi**, seleziona **Flusso di lavoro** nel percorso del canvas, quindi seleziona **Salva e chiudi**.
 

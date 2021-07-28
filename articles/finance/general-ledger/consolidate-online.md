@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eca0d30903985126412e1ae0b8e3232c3e4700f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826764"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351686"
 ---
 # <a name="online-financial-consolidations"></a>Consolidamenti finanziari online
 
@@ -31,7 +31,7 @@ Dopo aver completato la configurazione, immettere i dettagli del consolidamento 
 ## <a name="criteria"></a>Criteri
 Nella scheda **Criteri** della pagina **Consolidato [online]**, si definiscono i conti, i periodi e il tipo di dati da consolidare.
 
-![Scheda Criteri](./media/criteria-consolidate-online.png "Scheda Criteri")
+![Scheda Criteri.](./media/criteria-consolidate-online.png "Scheda Criteri")
 
 Ecco una spiegazione dei vari campi nella scheda:
 
@@ -57,16 +57,16 @@ Ecco una spiegazione dei vari campi nella scheda:
 ## <a name="financial-dimensions"></a>Dimensioni finanziarie
 Nella scheda **Dimensioni finanziarie** si definiscono le dimensioni che devono essere incluse nella società di consolidamento. Per selezionare una dimensione, impostare il campo **Specifica** su **Dimensione** e definire l'ordine della dimensione nella società di consolidamento.
 
-![Scheda Dimensioni finanziarie](./media/financial-dimensions-cons.png "Scheda Dimensioni finanziarie")
+![Scheda Dimensioni finanziarie.](./media/financial-dimensions-cons.png "Scheda Dimensioni finanziarie")
 
 Indipendentemente dall'ordine che si definisce, **Conto principale** sarà sempre il primo segmento.
 
 ## <a name="legal-entities"></a>Persone giuridiche
 Nella scheda **Persone giuridiche** si definiscono le società che devono essere incluse nella società di consolidamento. Si definisce inoltre la percentuale di proprietà di tali società. Se si specifica una proprietà inferiore al 100%, verrà eseguito il rollup della percentuale specificata alla società di consolidamento. Per tutte le differenze di conversione, il campo **Tipo di conto per differenze di conversione** viene utilizzato per selezionare il conto principale dall'impostazione nella pagina **Conti per transazioni automatiche**.
 
-![Scheda Persone giuridiche](./media/legal-entities-cons.png "Scheda Persone giuridiche")
+![Scheda Persone giuridiche.](./media/legal-entities-cons.png "Scheda Persone giuridiche")
 
-![Pagina Conti per transazioni automatiche](./media/accounts-for-automatic-cons.png "Pagina Conti per transazioni automatiche")
+![Pagina Conti per transazioni automatiche.](./media/accounts-for-automatic-cons.png "Pagina Conti per transazioni automatiche")
 
 ## <a name="elimination"></a>Eliminazione
 Nella scheda **Eliminazione** sono disponibili tre opzioni per elaborare le eliminazioni:
@@ -75,7 +75,7 @@ Nella scheda **Eliminazione** sono disponibili tre opzioni per elaborare le elim
 - Selezionare la regola di eliminazione, quindi nel campo **Opzioni proposta** selezionare **Registra solo**. Questa opzione elaborerà l'eliminazione durante il processo di consolidamento e registrerà tutto in un unico passaggio.
 - Eseguire una proposta di eliminazione separatamente dal processo di consolidamento utilizzando il giornale di registrazione eliminazioni.
 
-![Scheda Eliminazione](./media/elimination-cons-onl.png "Scheda Eliminazione")
+![Scheda Eliminazione.](./media/elimination-cons-onl.png "Scheda Eliminazione")
 
 Per ulteriori informazioni sulle eliminazioni, vedere [Regole di eliminazione](./elimination-rules.md).
 
@@ -86,7 +86,7 @@ Nella scheda **Conversione valuta** si definiscono la persona giuridica, il cont
 - **Data della transazione** - La data di ogni transazione verrà utilizzata per selezionare un tasso di cambio. Questa opzione viene utilizzata principalmente per i cespiti e spesso è denominata tasso storico. Non è possibile visualizzare un'anteprima del tasso, perché saranno presenti molti tassi per le diverse transazioni nell'intervallo di conti.
 - **Tariffa definita dall'utente** - Dopo avere selezionato questa opzione, è possibile immettere il tasso di cambio desiderato. Questa opzione può essere utile per i tassi di cambio medi o se si esegue il consolidamento in base a un tasso di cambio fisso.
 
-![Scheda Conversione valuta](./media/currency-translation-cons-online.png "Scheda Conversione valuta")
+![Scheda Conversione valuta.](./media/currency-translation-cons-online.png "Scheda Conversione valuta")
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

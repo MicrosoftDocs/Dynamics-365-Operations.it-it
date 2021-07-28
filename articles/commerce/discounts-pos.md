@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792849"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356880"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrare gli sconti nel POS
 
@@ -33,7 +33,7 @@ Le promozioni svolgono un ruolo importante nel motivare i clienti che stanno pre
 
 Commerce include un'operazione denominata "Visualizza tutti gli sconti". Questa operazione mostra tutti gli sconti che sono attualmente in corso in un negozio. L'operazione "Visualizza tutti gli sconti" può essere associata a un pulsante nel punto vendita (POS) e il pulsante può essere aggiunto alla pagina di **benvenuto** o della **transazione**. Nella figura seguente è illustrato un esempio della pagina **Tutti gli sconti** aperta.
 
-![Pagina Tutti gli sconti](./media/View_all_discounts.png "Pagina Tutti gli sconti")
+![Pagina Tutti gli sconti.](./media/View_all_discounts.png "Pagina Tutti gli sconti")
 
 Per mostrare gli sconti, il sistema cerca tutti gli sconti che soddisfano una o più delle seguenti condizioni:
 
@@ -61,11 +61,11 @@ Le seguenti illustrazioni mostrano la logica che determina quali sconti sono mos
 
 La seguente illustrazione mostra la logica utilizzata quando il controllo della concorrenza degli sconti è impostato su **Il miglior prezzo e composto in base alla priorità, mai composto tra le priorità**.
 
-![Logica per il miglior prezzo e composto in base alla priorità, mai composto tra le priorità](./media/Model_1.png "Logica per il miglior prezzo e composto in base alla priorità, mai composto tra le priorità").
+![Logica per il miglior prezzo e composto in base alla priorità, mai composto tra le priorità.](./media/Model_1.png "Logica per il miglior prezzo e composto in base alla priorità, mai composto tra le priorità").
 
 La seguente illustrazione mostra la logica utilizzata quando il controllo della concorrenza degli sconti è impostato su **Il miglior prezzo solo in base alla priorità, sempre composto tra le priorità**.
 
-![Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità](./media/Model_2.png "Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità").
+![Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità.](./media/Model_2.png "Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

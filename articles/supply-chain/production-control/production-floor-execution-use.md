@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349772"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -32,7 +32,7 @@ Prima che i lavoratori possano iniziare a utilizzare il dispositivo, un supervis
 
 Dopo che il dispositivo è stato preparato, viene visualizzata la pagina di accesso. Questa pagina mostra le informazioni sullo stato dei processi per la cella di lavoro locale. Queste informazioni vengono aggiornate periodicamente. Nella pagina, i lavoratori utilizzano i loro ID badge per accedere. Sebbene i lavoratori non debbano disporre di un account utente per Supply Chain Management, devono avere un account *lavoratore registrato nel tempo* che possono utilizzare quando effettuano l'accesso.
 
-![Pagina di accesso all'interfaccia di esecuzione dell'area di produzione](media/pfei-sign-in-page.png "Pagina di accesso all'interfaccia di esecuzione dell'area di produzione")
+![Pagina di accesso all'interfaccia di esecuzione dell'area di produzione.](media/pfei-sign-in-page.png "Pagina di accesso all'interfaccia di esecuzione dell'area di produzione")
 
 Le sezioni rimanenti di questo argomento descrivono il modo in cui i lavoratori interagiscono con l'interfaccia.
 
@@ -40,7 +40,7 @@ Le sezioni rimanenti di questo argomento descrivono il modo in cui i lavoratori 
 
 La scheda **Tutti i processi** fornisce un elenco che mostra tutti i processi di produzione che hanno uno stato di *Non avviato*, *Arrestato* o *Avviato*. Il nome di questa scheda è personalizzabile e potrebbe essere diverso per il tuo sistema.
 
-![Scheda Tutti i processi](media/pfei-all-jobs-tab.png "Scheda Tutti i processi")
+![Scheda Tutti i processi.](media/pfei-all-jobs-tab.png "Scheda Tutti i processi")
 
 L'elenco dei processi ha le seguenti colonne. I numeri corrispondono ai numeri della precedente figura.
 
@@ -59,7 +59,7 @@ L'elenco dei processi ha le seguenti colonne. I numeri corrispondono ai numeri d
 
 La scheda **Processi attivi** mostra un elenco di tutti i lavori che il lavoratore che ha effettuato l'accesso ha già avviato. Il nome di questa scheda è personalizzabile e potrebbe essere diverso per il tuo sistema.
 
-![Scheda Processi attivi](media/pfei-active-jobs-tab.png "Scheda Processi attivi")
+![Scheda Processi attivi.](media/pfei-active-jobs-tab.png "Scheda Processi attivi")
 
 L'elenco dei processi attivi include le seguenti colonne:
 
@@ -76,7 +76,7 @@ L'elenco dei processi attivi include le seguenti colonne:
 
 La scheda **Macchina personale** consente ai lavoratori di selezionare un cespite connesso a una risorsa di tipo macchina all'interno del filtro impostato nella scheda **Tutti i processi**. Il lavoratore può quindi visualizzare lo stato e l'integrità del cespite selezionato leggendo i valori per un massimo di quattro contatori selezionati e gli elenchi delle recenti richieste di manutenzione e dei tempi di fermo registrati. Il lavoratore può anche richiedere la manutenzione per il cespite selezionato e registrare e modificare i tempi di fermo macchina. Il nome di questa scheda è personalizzabile e potrebbe essere diverso per il tuo sistema.
  
-![Scheda Macchina personale](media/pfei-my-machine-tab.png "Scheda Macchina personale")
+![Scheda Macchina personale.](media/pfei-my-machine-tab.png "Scheda Macchina personale")
 
 La scheda **Macchina personale** include le seguenti colonne. I numeri corrispondono ai numeri della precedente figura.
 
@@ -87,7 +87,7 @@ La scheda **Macchina personale** include le seguenti colonne. I numeri corrispon
 
 1. **Impostazioni** - Seleziona l'icona dell'ingranaggio per aprire una finestra di dialogo in cui è possibile scegliere quali contatori visualizzare per il cespite di tipo macchina selezionato. I valori di questi contatori sono visualizzati nella parte superiore della scheda **Gestione cespiti** tab. Il menu **Impostazioni** (mostrato nella schermata seguente) consente di abilitare fino a quattro contatori. Per ogni contatore che desideri abilitare, utilizza il campo di ricerca nella parte superiore del riquadro per selezionare un contatore. Il campo di ricerca elenca tutti i contatori associati al cespite selezionato nella parte superiore della pagina **Gestione cespiti**. Imposta ogni contatore per monitorare il valore **Aggregato** valore o il valore **Effettivo** più recente per il contatore. Ad esempio, se imposti un contatore che tiene traccia del numero di ore di funzionamento della macchina, dovresti impostarlo su **Aggregato**. Se imposti un contatore per misurare l'ultima temperatura o pressione aggiornata, dovresti impostarlo su **Effettivo**. Selezionare **OK** per salvare le impostazioni e chiudere la finestra di dialogo.
 
-    ![Impostazioni della scheda Macchina personale](media/pfei-my-machine-tab-settings.png "Impostazioni della scheda Macchina personale")
+    ![Impostazioni della scheda Macchina personale.](media/pfei-my-machine-tab-settings.png "Impostazioni della scheda Macchina personale")
 
 1. **Richiedi manutenzione** - Seleziona questo pulsante per aprire una finestra di dialogo in cui puoi creare una richiesta di manutenzione. Sarai in grado di fornire una descrizione e una nota. La richiesta verrà portata all'attenzione di un utente di Supply Chain Management, che potrà poi convertire la richiesta di manutenzione in un ordine di lavoro di manutenzione.
 1. **Registra tempo di inattività** - Selezionare questo pulsante per aprire una finestra di dialogo in cui è possibile registrare i tempi di fermo macchina. Potrai selezionare un codice motivo e inserire una data/un intervallo di tempo per il tempo di inattività. La registrazione dei tempi di fermo macchina viene utilizzata per calcolare l'efficienza del cespite di tipo macchina.
@@ -98,7 +98,7 @@ La scheda **Macchina personale** include le seguenti colonne. I numeri corrispon
 
 I lavoratori iniziano un processo di produzione selezionando un processo nella scheda **Tutti i processi** e quindi selezionando **Avvia processo** per aprire la finestra di dialogo **Avvia processo**.
 
-![Finestra di dialogo Avvia processo](media/pfei-start-job-dialog.png "Finestra di dialogo Avvia processo")
+![Finestra di dialogo Avvia processo.](media/pfei-start-job-dialog.png "Finestra di dialogo Avvia processo")
 
 I lavoratori usano la finestra di dialogo **Avvia processo** per confermare la quantità di produzione e quindi avviare il processo. I lavoratori possono regolare la quantità selezionando il campo **Quantità** e quindi utilizzando la tastiera numerica che appare. I lavoratori quindi selezionano **Avvia** per iniziare a lavorare sul processo. La finestra di dialogo **Avvia processo** viene chiusa e il processo viene aggiunto alla scheda **Processi attivi**.
 
@@ -108,13 +108,13 @@ I lavoratori possono iniziare un processo che si trova in qualsiasi stato. Quand
 
 Quando un lavoratore completa o completa parzialmente un processo, può dichiarare le buone quantità prodotte selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara avanzamento**. Quindi, nella finestra di dialogo **Dichiara avanzamento** il lavoratore inserisce la buona quantità utilizzando la tastiera numerica. La quantità è vuota per impostazione predefinita. Dopo aver immesso una quantità, il lavoratore può aggiornare lo stato del processo a *In corso*, *Arrestato* o *Completato*.
 
-![Finestra di dialogo Dichiarazione avanzamento](media/pfei-report-progress-dialog.png "Finestra di dialogo Dichiarazione avanzamento")
+![Finestra di dialogo Dichiarazione avanzamento.](media/pfei-report-progress-dialog.png "Finestra di dialogo Dichiarazione avanzamento")
 
 ## <a name="reporting-scrap"></a>Dichiarazione dello scarto
 
 Quando un lavoratore completa o completa parzialmente un processo, può dichiarare lo scarto selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara scarto**. Quindi, nella finestra di dialogo **Dichiara scarto** il lavoratore inserisce la quantità di scarto utilizzando la tastiera numerica. Il lavoratore seleziona anche un motivo (*Nessuno*, *Macchina*, *Operatore* o *Materiale*).
 
-![Finestra di dialogo Dichiarazione scarto](media/pfei-report-scrap-dialog.png "Finestra di dialogo Dichiarazione scarto")
+![Finestra di dialogo Dichiarazione scarto.](media/pfei-report-scrap-dialog.png "Finestra di dialogo Dichiarazione scarto")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Completare un processo e iniziare un nuovo processo
 

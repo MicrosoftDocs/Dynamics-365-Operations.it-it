@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c865d5e055e3fadf2dda225b49f13a163974768f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e7d2cd7b7ce9446d77eff66433739c8ea6b1f309
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797457"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348298"
 ---
 # <a name="tab-module"></a>Modulo scheda
 
@@ -34,11 +34,11 @@ In ogni modulo Scheda, è possibile aggiungere uno o più moduli Elemento scheda
 
 L'immagine seguente mostra un esempio di modulo Scheda in una pagina di sito. In questo esempio, è selezionata la scheda **Spedizione**.
 
-![Esempio di modulo Scheda](./media/ecommerce-tab.PNG)
+![Esempio di modulo Scheda.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Proprietà dei moduli Scheda
 
-| Nome proprietà | Valori | Descrizione |
+| Nome proprietà | Valori | descrizione |
 |---------------|--------|-------------|
 | Intestazione | Testo | Questa proprietà specifica un'intestazione di testo facoltativa per il modulo Scheda. |
 | Indice scheda attivo | Numero | Questa proprietà specifica la scheda che deve essere attiva per impostazione predefinita quando viene caricata una pagina. Se non viene fornito alcun valore, il primo elemento scheda è attivo per impostazione predefinita. |

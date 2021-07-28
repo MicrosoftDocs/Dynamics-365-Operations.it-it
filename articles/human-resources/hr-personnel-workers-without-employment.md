@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6fbada6feb55b8627b1aa1ddfe367177edb7a0a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 71cb119e533e64b14badf65f55e8c4d5aa4c4b2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051715"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356586"
 ---
 # <a name="workers-without-employment"></a>Lavoratori senza impiego
 
@@ -42,13 +42,13 @@ Nell'elenco **Lavoratori senza impiego**, puoi eliminare le persone elencate. Pe
 
 2. Nella scheda **Privilegi**, filtrare l'elenco **Privilegi** in base a **Gestisci lavoratori**.
 
-   [![Filtra l'elenco dei privilegi](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![Filtrare l'elenco dei privilegi.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
 3. Nella colonna **Riferimenti**, selezionare colonna, selezionare **Voci di menu Visualizza**.
 
 4. In **Voci di menu Visualizza**, selezionare **HcmWorkersWithoutEmployment**.
 
-   [![Seleziona modulo](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![Selezionare il modulo.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
 5. Impostare l'autorizzazione **Elimina** su **Concedi**.
 
@@ -56,6 +56,6 @@ Nell'elenco **Lavoratori senza impiego**, puoi eliminare le persone elencate. Pe
 
 7. Selezionare **Pubblica tutto**.
 
-   [![Pubblica modifiche](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![Pubblicare modifiche.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750888"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351051"
 ---
 # <a name="er-migration-cleanup"></a>Pulizia della migrazione ER 
 
@@ -30,11 +30,11 @@ Quando si gestiscono le istanze di Finance, è possibile decidere di migrare l'i
 
 Se si tenta di eseguire un formato ER che utilizza un modello per generare documenti aziendali, si verifica un'eccezione e si riceve una notifica relativa al modello mancante. Vengono inoltre fornite informazioni sull'utilizzo dell'opzione di pulizia della migrazione ER per eliminare e quindi reimportare la configurazione di formato ER che contiene il modello.
 
-[![Esecuzione di un formato ER](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Esecuzione di un formato ER.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Verrà restituito un errore simile se si accede alla pagina **Configurazioni** (**Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Configurazioni**). Nella struttura delle configurazioni provare dunque a eliminare una configurazione di formato ER che utilizza un modello.
 
-[![Eliminazione di un formato ER](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![Eliminazione di un formato ER.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Completare i seguenti passaggi per risolvere i problemi con i modelli ER a cui non è possibile accedere.
 
@@ -50,7 +50,7 @@ Completare i seguenti passaggi per risolvere i problemi con i modelli ER a cui n
 >
 > Se si utilizza l'opzione di **pulizia della migrazione** per eliminare una configurazione di formato ER quando il modello a cui viene fatto riferimento è disponibile nell'archiviazione BLOB, vengono eliminati solo gli elementi di configurazione correlati nel database dell'applicazione. Il file fisico del modello nell'archivio BLOB viene mantenuto. La sovrascrittura dei file nell'archiviazione BLOB non è più consentita. Per ulteriori informazioni, vedere [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Non sarà inoltre più possibile reimportare le configurazioni eliminate utilizzando la pulizia della migrazione in questo ambiente. Per risolvere questo problema, è necessario trovare il file corrispondente nell'archiviazione BLOB ed eliminarlo manualmente.
 
-[![Importazione di un formato ER](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![Importazione di un formato ER.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Un problema simile può verificarsi se si esegue la migrazione dell'istanza dell'applicazione in un'altra posizione utilizzata più volte come destinazione della migrazione e per la quale l'archiviazione BLOB contiene già file modello ER.
 

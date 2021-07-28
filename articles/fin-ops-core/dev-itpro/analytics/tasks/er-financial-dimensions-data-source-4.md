@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 11d15a9e932eb02fc1bc8960d9c7ecbf4b57a4e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752390"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356297"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER Utilizzare le dimensioni finanziarie come origine dati (Parte 4: eseguire il report)
 
@@ -34,19 +34,19 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 2. Nella struttura espandere 'Modello di esempio dimensioni finanziarie'.
 3. Nella struttura selezionare 'Modello di esempio dimensioni finanziarie\Report dei giornali di registrazione di contabilità generale'.
 4. Fare clic su Esegui.
-![Pagina delle configurazioni ER](../media/er-financial-dimensions-guides-run1.png)
+![Pagina configurazioni ER.](../media/er-financial-dimensions-guides-run1.png)
 5. Nel campo Nome dimensione immettere o selezionare un valore.
     * Per selezionare tutte le dimensioni della società corrente, immettere le seguenti informazioni: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![Pagina delle configurazioni ER](../media/er-financial-dimensions-guides-run2.png)
+![Pagina configurazioni ER.](../media/er-financial-dimensions-guides-run2.png)
 6. Espandere la sezione Record da includere.
 7. Fare clic su Filtro.
 8. Selezionare la riga relativa alla tabella Giornale di registrazione contabile e il campo Numero batch giornale di registrazione.
 9. Nel campo Criteri digitare '00057'.
 10. Fare clic su OK.
 11. Fare clic su OK.
-![Pagina delle configurazioni ER](../media/er-financial-dimensions-guides-run3.png)
+![Pagina configurazioni ER.](../media/er-financial-dimensions-guides-run3.png)
     * Esaminare l'output generato. Per ciascuna transazione del batch selezionato, le dimensioni finanziarie del set di dimensioni corrispondente vengono presentate. Eseguire questo report e selezionare dimensioni diverse per vedere che il report non dipende dal numero di dimensioni selezionate o dal numero di dimensioni configurate per questa istanza.  
-![Pagina delle configurazioni ER](../media/er-financial-dimensions-guides-run4.png)
+![Pagina configurazioni ER.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

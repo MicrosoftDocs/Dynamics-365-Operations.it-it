@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798755"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353110"
 ---
 # <a name="navigation-menu-module"></a>Modulo menu di spostamento
 
@@ -33,11 +33,11 @@ Lo scopo principale dei moduli del menu di spostamento è quello di consentire a
 Il modulo del menu di spostamento può essere aggiunto al modulo dell'intestazione di una pagina. Nel tema Fabrikam, il menu di spostamento mostra due livelli per impostazione predefinita. Nel tema Starter, il menu di spostamento mostra tre livelli per impostazione predefinita. Per passare al numero di livelli, è necessaria un'estensione di visualizzazione per il tema.
 
 La figura seguente mostra un esempio di un menu di spostamento per il sito Fabrikam con due livelli di gerarchia di categorie e alcune voci di menu statiche.
-![Esempio di modulo del menu di spostamento](./media/ecommerce-header.png)
+![Esempio di modulo del menu di spostamento.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Proprietà del modulo menu di spostamento
 
-| Nome proprietà             | Valore                 | Descrizione |
+| Nome proprietà             | Valore                 | descrizione |
 |---------------------------|-----------------------|-------------|
 | Origine                  | **Vendita al dettaglio**, **Creazione manuale**, **Vendita al dettaglio e creazione manuale** | Il valore **Vendita al dettaglio** consente di visualizzare la gerarchia di spostamento del canale da Commerce headquarters nel menu di spostamento. Il valore **Creazione manuale** consente di curare le voci di menu statiche. Il valore **Vendita al dettaglio e creazione manuale** consente una combinazione di entrambi. |
 | Mostrare le immagini di categoria | **True** o **False**    | Se abilitata, questa proprietà visualizza le immagini delle categorie nel menu di spostamento come definito in Commerce headquarters per ciascuna categoria. Aggiunto nella versione Commerce 10.0.14. |
@@ -50,7 +50,7 @@ La figura seguente mostra un esempio di un menu di spostamento per il sito Fabri
 | Menu radice | stringa | Questa proprietà può essere utilizzata per definire il testo per una radice personalizzata se la proprietà **Mostra menu radice** è impostata su **True**. |
 
 La figura seguente mostra un esempio di un'immagine di categoria visualizzata nel menu di spostamento per il sito Fabrikam.
-![Esempio di un modulo menu di spostamento con immagini di categorie](./media/ecommerce-categoryimages.PNG)
+![Esempio di un modulo menu di spostamento con immagini di categorie.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Aggiungere un modulo del menu di spostamento a un modulo di intestazione
 

@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0c4f028367c894c54392963ffc4f6a0f0c04c03a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 85b021f99a1260e4ed640764e4a3e96a80197768
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795263"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354591"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Assegnare elenchi di attività a punti vendita o dipendenti
 
@@ -45,7 +45,7 @@ Per avviare il processo di assegnazione di un elenco di attività, attenersi all
 
 La seguente illustrazione mostra un esempio di come trovare e selezionare i negozi nella finestra di dialogo **Avvia processo**.
 
-![Ricerca e selezione di punti vendita nella finestra di dialogo Avvia processo](media/HQ-Assign-Tasks-Lists.png)
+![Ricerca e selezione di punti vendita nella finestra di dialogo Avvia processo.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Assegnare gli elenchi attività su base ricorrente
 
@@ -62,7 +62,7 @@ A volte i rivenditori hanno attività ricorrenti, come "Elenco di controllo per 
 
 La seguente illustrazione mostra un esempio di come inserire i criteri di frequenza nella finestra di dialogo **Definisci ricorrenza**.
 
-![Immettere i criteri di frequenza nella finestra di dialogo Definisci ricorrenza](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Immettere i criteri di frequenza nella finestra di dialogo Definisci ricorrenza.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Tenere traccia dello stato dell'elenco attività
 

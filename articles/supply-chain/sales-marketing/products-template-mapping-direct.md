@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8976bc69f63fe5b05ab7dcb8d415515436902658
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 613fd4bad93e28360ca6862b7b30b2e4356ca489
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909086"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353398"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Sincronizzare prodotti direttamente da Supply Chain Management con prodotti in Sales
 
@@ -38,7 +38,7 @@ Questo argomento descrive i modelli e le attività sottostanti che vengono utili
 
 La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
-[![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flusso di dati in Prospect per uno scenario di liquidazione.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
@@ -104,7 +104,7 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping in In
 > [!NOTE]
 > Il mapping mostra quali informazioni sui campi verranno sincronizzate da Sales in Supply Chain Management.
 
-![Mapping dei modelli nell'integratore di dati](./media/products-direct-template-mapping-data-integrator-1.png)
+![Mapping dei modelli nell'integratore di dati.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
 ## <a name="related-topics"></a>Argomenti correlati

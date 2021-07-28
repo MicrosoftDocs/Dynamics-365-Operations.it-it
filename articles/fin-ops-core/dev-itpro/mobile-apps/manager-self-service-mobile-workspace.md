@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 06ddad1f2df895da4819a06e3552acab8e9aff78
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5ce0da7eb99d6da876362bb7e3f2cfbb9e561cfd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744735"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358943"
 ---
 # <a name="my-team-mobile-workspace"></a>Area di lavoro mobile Team personale
 
@@ -78,7 +78,7 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 3.  La prima volta che si accede viene richiesto di inserire il proprio nome utente e la password. Immettere le proprie credenziali.
 4.  Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società. Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.
 
-[![Effettuare il pull per l'aggiornamento](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Trascinare verso il basso.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Visualizzare i membri del team utilizzando l'area di lavoro mobile Team personale
 1.  Nell'app mobile, selezionare l'area di lavoro **Team personale**. Viene visualizzato un elenco dei membri del team. L'elenco visualizza inoltre la posizione di ciascun membro del team e qualsiasi suo subalterno diretto.

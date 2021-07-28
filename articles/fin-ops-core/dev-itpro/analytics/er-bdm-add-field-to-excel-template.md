@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 991fe4ea56a2726c5df835cfc90a390cef2d5df5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af9f3dd81b0681579c14e0afb8281706e8aa534d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751132"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351796"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Aggiungere nuovi campi a un modello di documento aziendale in Microsoft Excel
 
@@ -50,36 +50,36 @@ La configurazione del formato ER con **fattura a testo libero (Excel)** di quest
 
 Per ulteriori informazioni su come importare le configurazioni ER, vedere [Gestire il ciclo di vita della configurazione ER](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Pagina Raccolta di risorse condivise LCS](./media/BDM-AddFldExcel-LCS.png)
+![Pagina Raccolta di risorse condivise LCS.](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>Modificare il modello di soluzione ER
 
 1.  Accedere come utente con accesso all'area di lavoro di **Gestione documenti aziendali**.
 2.  Aprire l'area di lavoro di **Gestione documenti aziendali**.
 
-    ![Area di lavoro di Gestione documenti aziendali](./media/BDM-AddFldExcel-Workspace.png)
+    ![Area di lavoro di Gestione documenti aziendali.](./media/BDM-AddFldExcel-Workspace.png)
 
 3.  Nella griglia, selezionare il modello **Fattura a testo libero (Excel)**.
 4.  Nel riquadro a destra, selezionare **Nuovo modello** per creare un nuovo modello basato sul modello selezionato.
-5.  Nel campo **Titolo**, immettere **Fattura a testo libero (Excel) Contoso** come titolo del nuovo modello.
+5.  Nel campo **Titolo** immettere **Fattura a testo libero (Excel) Contoso** come titolo del nuovo modello.
 6.  Selezionare **OK** per confermare l'avvio del processo di modifica.
 
 Viene visualizzata la pagina dell'editor di modelli BDM. È possibile utilizzare Microsoft 365 per modificare il modello selezionato online nel controllo incorporato.
 
-![Pagina dell'editor di modelli BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
+![Pagina dell'editor di modelli BDM.](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>Aggiungere l'etichetta per un nuovo campo al modello
 
 1.  Nella pagina dell'editor di modelli BDM, sulla barra multifunzione di Excel, nella scheda **Visualizza**, selezionare le caselle di controllo **Intestazioni e Linee della griglia** per il modello di Excel modificabile.
 
-    ![Caselle di controllo Intestazioni e Linee della griglia selezionate](./media/BDM-AddFldExcel-EditableTemplate2.png)
+    ![Caselle di controllo Intestazioni e Linee della griglia selezionate.](./media/BDM-AddFldExcel-EditableTemplate2.png)
 
 2.  Selezionare le celle **E8:F8**.
 3.  Sulla barra multifunzione di Excel, nella scheda **Home**, selezionare **Unisci e centra** per unire le celle selezionata in una nuova cella **E8:F8** unita.
 4.  Nella cella unita **E8:F8**, immettere **URL**.
 5.  Selezionare la cella unita **E7:F7**, selezionare **Copia formato** e quindi selezionare la cella unita **E8: 8** per formattarla come la cella unita **E7:F7**.
 
-    ![Etichetta del nuovo campo aggiunta al modello](./media/BDM-AddFldExcel-EditableTemplate3.png)
+    ![Etichetta del nuovo campo aggiunta al modello.](./media/BDM-AddFldExcel-EditableTemplate3.png)
 
 ### <a name="format-the-template-to-reserve-space-for-a-new-field"></a>Formattare il modello in modo da riservare spazio per un nuovo campo
 
@@ -87,13 +87,13 @@ Viene visualizzata la pagina dell'editor di modelli BDM. È possibile utilizzare
 2.  Sulla barra multifunzione di Excel, nella scheda **Home**, selezionare **Unisci e centra** per unire le celle selezionata in una nuova cella **G8:H8** unita.
 3.  Selezionare la cella unita **G7:H7**, selezionare **Copia formato** e quindi selezionare la cella unita **G8:H8** per formattarla come la cella unita **G7:H7**.
 
-    ![Spazio riservato per il nuovo campo](./media/BDM-AddFldExcel-EditableTemplate4.png)
+    ![Spazio riservato per il nuovo campo.](./media/BDM-AddFldExcel-EditableTemplate4.png)
 
 4.  Nel campo **Nome** selezionare **CompanyInfo**.
 
     L'intervallo **CompanyInfo** del modello corrente di Excel contiene tutti i campi utilizzati per completare l'intestazione di un report generato con i dettagli della società corrente come parte venditore.
 
-    ![Intervallo CompanyInfo selezionato](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
+    ![Intervallo CompanyInfo selezionato.](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
 
 ### <a name="add-a-new-field-to-the-template"></a>Aggiungere un nuovo campo al modello
 
@@ -103,7 +103,7 @@ Viene visualizzata la pagina dell'editor di modelli BDM. È possibile utilizzare
     > [!NOTE]
     > È necessario modificare la sezione del modello che si desidera utilizzare come nuovo campo. Questa modifica è già stata applicata per formattare la cella unita **G8:H8**.
 
-    ![Aggiunta di un nuovo campo al modello](./media/BDM-AddFldExcel-AddCell.png)
+    ![Aggiunta di un nuovo campo al modello.](./media/BDM-AddFldExcel-AddCell.png)
 
 3.  Selezionare **Excel\Cella** per aggiungere un nuovo campo come cella nel modello.
 
@@ -114,11 +114,11 @@ Viene visualizzata la pagina dell'editor di modelli BDM. È possibile utilizzare
 4.  Nel campo **Intervallo Excel**, immettere **CompanyURL_Value**.
 5.  Selezionare **OK**.
 
-    ![Il campo CompanyURL_Value aggiunto alla struttura del modello](./media/BDM-AddFldExcel-EditableTemplate5.png)
+    ![Il campo CompanyURL_Value aggiunto alla struttura del modello.](./media/BDM-AddFldExcel-EditableTemplate5.png)
 
 6.  Nel riquadro **Struttura del modello**, selezionare il pulsante con i puntini di sospensione (...) e scegliere **Mostra associazioni**.
 
-    ![Mostra associazioni selezionato](./media/BDM-AddFldExcel-ShowBindings.png)
+    ![Mostra associazioni selezionato.](./media/BDM-AddFldExcel-ShowBindings.png)
 
     Nel riquadro **Struttura del modello** verranno visualizzate le origini dati disponibili nel formato ER sottostante.
 
@@ -126,21 +126,21 @@ Viene visualizzata la pagina dell'editor di modelli BDM. È possibile utilizzare
 8.  Nella sezione **Origini dati** del riquadro **Struttura del modello**, espandere **Modello \> InvoiceBase \> CompanyInfo**.
 9.  In **CompanyInfo**, selezionare la voce **WebsiteURI**.
 
-    ![Voce WebsiteURI selezionata](./media/BDM-AddFldExcel-BindURL.png)
+    ![Voce WebsiteURI selezionata.](./media/BDM-AddFldExcel-BindURL.png)
 
 10. Selezionare **Associa**.
 11. Nel riquadro **Struttura del modello** selezionare **Salva**, quindi chiudere la pagina dell'editor di modelli BDM.
 
 Nell'area di lavoro **Gestione documenti aziendali**, nella scheda **Modello** nel riquadro destro viene visualizzato il modello aggiornato. Nella griglia, notare che il campo **Stato** per il modello modificato è diventato **Bozza** e il campo **Revisione** non è più vuoto. Queste modifiche indicano che il processo di modifica del modello è stato avviato.
 
-![Modello modificato nell'area di lavoro di Gestione documenti aziendali](./media/BDM-AddFldExcel-Workspace2.png)
+![Modello modificato nell'area di lavoro di Gestione documenti aziendali.](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>Esaminare le impostazioni aziendali
 
 1.  Andare a **Amministrazione organizzazione \> Organizzazioni \> Persone giuridiche**.
 2.  Nella Scheda dettaglio **Informazioni sul contatto**, verificare che l'URL della società sia immesso.
 
-![URL della società immesso nella pagina delle persone giuridiche](./media/BDM-AddFldExcel-CompanyInfo.png)
+![URL della società immesso nella pagina delle persone giuridiche.](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>Generare documenti aziendali per verificare il modello aggiornato
 
@@ -150,13 +150,13 @@ Nell'area di lavoro **Gestione documenti aziendali**, nella scheda **Modello** n
 4.  In **Fattura a testo libero** selezionare il livello **Documento originale** per specificare l'ambito delle fatture per l'elaborazione.
 5.  Nel riquadro a destra, nel campo **Formato report**, selezionare il modello **Fattura a testo libero (Excel) Contoso** per il livello di documento specificato.
 
-    ![Modello Fattura a testo libero (Excel) Contoso selezionato](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Modello Fattura a testo libero (Excel) Contoso selezionato.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Premere **ESC** per chiudere la pagina corrente.
 7.  Selezionare **Stampa \> Selezionato**.
 8.  Scaricare il documento generato e aprirlo in Excel.
 
-    ![Fattura a testo libero in Excel](./media/BDM-AddFldExcel-PreviewReport.png)
+    ![Fattura a testo libero in Excel.](./media/BDM-AddFldExcel-PreviewReport.png)
 
 Il modello modificato viene utilizzato per generare il report delle fatture a testo libero per l'articolo selezionato. Per analizzare il modo in cui questo report viene modificato in seguito ai cambiamenti al modello, eseguire il report in una sessione dell'applicazione subito dopo aver modificato il modello in un'altra sessione dell'applicazione.
 

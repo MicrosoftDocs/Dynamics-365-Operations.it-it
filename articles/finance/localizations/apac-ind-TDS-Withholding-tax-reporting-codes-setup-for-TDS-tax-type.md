@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023368"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361288"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Impostare codici reporting di ritenuta d'acconto per il tipo di imposta TDS
 
@@ -31,7 +31,7 @@ I codici reporting di ritenuta d'acconto sono utilizzati per generare dichiarazi
 
 1. Seleziona **Imposta \> Impostazione \> Ritenuta d'acconto \> Codici reporting ritenuta d'acconto**.
 
-    [![Pagina Codici reporting ritenuta d'acconto](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Pagina Codici reporting ritenuta d'acconto.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. Nel campo **Tipo di imposta**, seleziona **TDS** per definire i codici reporting di ritenuta d'acconto per il tipo di imposta TDS.
 3. Nel campo **Componente ritenuta d'acconto** seleziona il componente TDS per il quale stai definendo il codice reporting di ritenuta d'acconto. Il campo **Gruppo componenti ritenuta d'acconto** mostra il gruppo di componenti TDS definito per il componente TDS che stai definendo.

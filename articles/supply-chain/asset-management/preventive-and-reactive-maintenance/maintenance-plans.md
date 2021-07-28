@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839609"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361116"
 ---
 # <a name="maintenance-plans"></a>Piani di manutenzione
 
@@ -145,23 +145,23 @@ Di seguito sono riportati alcuni esempi dell'impostazione delle righe di piano d
 
 **Esempio 1 - Riga di piano di manutenzione basata su tempo:** Un'attività di lubrificazione può essere impostata in un intervallo fisso e si verifica una volta alla settimana. A questo scopo, selezionare "Ripetuto dalla data di piano" nel campo **Tipo di intervallo**. Vedere l'esempio illustrato nella figura seguente.
 
-![Un processo di servizio configurato in un intervallo fisso, che si verifica una volta alla settimana](media/02-preventive-maintenance.png "Un processo di servizio configurato in un intervallo fisso, che si verifica una volta alla settimana")
+![Un processo di servizio configurato in un intervallo fisso, che si verifica una volta alla settimana.](media/02-preventive-maintenance.png "Un processo di servizio configurato in un intervallo fisso, che si verifica una volta alla settimana")
 
 **Esempio 2 - Riga di piano di manutenzione basata su tempo:** Un'attività di ispezione può essere impostata per essere eseguita approssimativamente una volta alla settimana. A questo scopo, selezionare "Ripetuto dall'ultimo ordine di lavoro" nel campo **Tipo di intervallo**. Vedere l'esempio illustrato nella figura seguente.
 
-![Un processo di ispezione da eseguire approssimativamente una volta alla settimana](media/03-preventive-maintenance.png "Un processo di ispezione da eseguire approssimativamente una volta alla settimana")
+![Un processo di ispezione da eseguire approssimativamente una volta alla settimana.](media/03-preventive-maintenance.png "Un processo di ispezione da eseguire approssimativamente una volta alla settimana")
 
 **Esempio 3 - Riga di piano di manutenzione basata su contatore:** La seguente illustrazione grafica mostra un contatore a ore per il quale una nuova riga di programma di manutenzione viene creata ogni volta che vengono superate le 250 ore. Il tipo di intervallo per questa riga basata su contatore è "Ripetuto dalla data di inizio". La data di inizio è la data di inizio dei cespiti associati nella visualizzazione dettagli **Tutti i cespiti** \> Scheda dettaglio **Piani di manutenzione cespiti** \> campo **Data di inizio** o nella visualizzazione dettagli **Unità funzionali** \> Scheda dettaglio **Piani di manutenzione** \> campo **Data di inizio**. Questo è un esempio di piano di manutenzione *preventiva* poiché la riga di programma di manutenzione viene creata automaticamente ogni volta che viene raggiunta la soglia (+ 250).
 
-![Un contaore che crea periodicamente righe di programma di manutenzione](media/04-preventive-maintenance.png "Un contaore che crea periodicamente righe di programma di manutenzione")
+![Un contaore che crea periodicamente righe di programma di manutenzione.](media/04-preventive-maintenance.png "Un contaore che crea periodicamente righe di programma di manutenzione")
 
 **Esempio 4 - Riga di piano di manutenzione basata su contatore:** La seguente illustrazione grafica mostra una diminuzione del valore di contatore, che misura l'usura delle pastiglie dei freni. Una riga di programma di manutenzione viene creata quando una registrazione contatore inferiore a 20 mm viene creata per la pastiglia dei freni. Il tipo di intervallo per questa riga basata su contatore è "Quando inferiore" o "Una volta dall'ultima data di inizio". Questo è un esempio di piano di manutenzione *reattivo* poiché la riga di programma di manutenzione non viene creata fino a che non viene registrata una misura inferiore a 20 mm.
 
-![Una diminuzione del valore del contatore, che misura l'usura delle pastiglie dei freni](media/05-preventive-maintenance.png "Una diminuzione del valore del contatore, che misura l'usura delle pastiglie dei freni")
+![Una diminuzione del valore del contatore, che misura l'usura delle pastiglie dei freni.](media/05-preventive-maintenance.png "Una diminuzione del valore del contatore, che misura l'usura delle pastiglie dei freni")
 
 **Esempio 5 - Riga di piano di manutenzione basata su contatore:** La seguente illustrazione grafica mostra un contatore con una soglia di -18 °C. Una riga di programma di manutenzione viene creata quando viene effettuata una registrazione contatore superiore a -18 °C. Il tipo di intervallo per questa riga basata su contatore è "Quando superiore". Questo è un esempio di piano di manutenzione *reattivo* poiché la riga di programma di manutenzione non viene creata fino a che non viene registrata una misura superiore a -18 °C.
 
-![Un contatore con una soglia di -18 ° Celsius](media/06-preventive-maintenance.png "Un contatore con una soglia di -18 ° Celsius")
+![Un contatore con una soglia di -18 °Celsius.](media/06-preventive-maintenance.png "Un contatore con una soglia di -18 ° Celsius")
 
 - Quando si crea un nuovo cespite e questo utilizza un tipo di cespite relativo a un piano di manutenzione, il piano di manutenzione viene automaticamente immesso in **Tutti gli oggetti \> Scheda dettaglio Piani di manutenzione cespiti**. Inoltre, in **Valori predefiniti tipo di cespite**, nella Scheda dettaglio **Piano di manutenzione**, verranno automaticamente inseriti i piani di manutenzione correlati.
 - Se si aggiungono o rimuovono tipi di cespite o tipi di unità funzionale in **Piani di manutenzione**, tale modifica viene riflessa solo nei nuovi cespiti creati dopo la modifica.
@@ -169,7 +169,7 @@ Di seguito sono riportati alcuni esempi dell'impostazione delle righe di piano d
 
 Nella figura seguente è illustrato un esempio di un piano di manutenzione di "assistenza camion" nella pagina **Piani di gestione**.
 
-![Un esempio di un piano di manutenzione del servizio di camion](media/07-preventive-maintenance.png "Un esempio di un piano di manutenzione del servizio di camion")
+![Un esempio di un piano di manutenzione del servizio di camion.](media/07-preventive-maintenance.png "Un esempio di un piano di manutenzione del servizio di camion")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Aggiungere un piano di manutenzione a un cespite
 
@@ -187,11 +187,11 @@ Nella figura seguente è illustrato un esempio di un piano di manutenzione di "a
 
 Nella figura seguente è illustrato un esempio di un piano di manutenzione configurato per un cespite nella pagina **Tutti i cespiti**.
 
-![Un esempio di piani di manutenzione configurati su un cespite](media/08-preventive-maintenance.png "Un esempio di piani di manutenzione configurati su un cespite")
+![Un esempio di piani di manutenzione configurati su un cespite.](media/08-preventive-maintenance.png "Un esempio di piani di manutenzione configurati su un cespite")
 
 <a id="counter-based-maintenance"></a>
 
-## <a name="counter-based-maintenance-enhancements"></a>Miglioramenti alla manutenzione basati su contatore
+## <a name="counter-based-maintenance-enhancements"></a>Gestione basata sul contatore migliorata
 
 La funzionalità *Miglioramenti alla manutenzione basata su contatore* introduce le seguenti funzionalità:
 

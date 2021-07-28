@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831388"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359765"
 ---
 # <a name="location-license-plate-positioning"></a>Posizionamento targa ubicazione
 
@@ -88,7 +88,7 @@ La funzionalità deve essere attivata nel profilo di ubicazione per ogni ubicazi
 1. Mentre **Targa** è ancora selezionato, seleziona **Aggiungi join tabella**.
 1. Nell'elenco delle tabelle che appare, nella colonna **Relazione**, seleziona **Posizionamento targa ubicazione (targa)**. Quindi seleziona **Seleziona** per aggiungere **Posizionamento targa ubicazione** al join della tabella **Dimensioni inventariali**.
 
-    ![Join di tabella](media/LpTableJoin.png "Join di tabella")
+    ![Join di tabella.](media/LpTableJoin.png "Join di tabella")
 
 1. Seleziona **OK** per confermare le tabelle con join aggiornate e chiudere l'editor delle query.
 1. Nella scheda dettaglio **Azioni direttiva di ubicazione**, seleziona **Modifica query** nuovamente per riaprire l'editor di query.
@@ -100,7 +100,7 @@ La funzionalità deve essere attivata nel profilo di ubicazione per ogni ubicazi
     - **Campo:** *Posizione targa*
     - **Criteri:** *1*
 
-    ![Nuovo intervallo](media/LpPositionCriteria.png "Nuovo intervallo")
+    ![Nuovo intervallo.](media/LpPositionCriteria.png "Nuovo intervallo")
 
 1. Seleziona **OK** per confermare le modifiche e chiudere l'editor di query.
 
@@ -275,7 +275,7 @@ Ora che la funzionalità *Posizionamento targa di ubicazione* è stata impostata
 1. Nella pagina **Esegui scansione ID lavoro/ID targa**, seleziona il campo **ID**, quindi immetti l'ID lavoro dalla riga di vendita.
 1. Si noti che il lavoro di prelievo indirizza l'utente a prelevare l'articolo *A0002* dall'ubicazione *01A01R1S2B*. Ricevi questa istruzione perché l'articolo *A0002* è su una targa che è in posizione *1* in quella ubicazione.
 
-    ![Ubicazione posizione 1](media/LocationLicensePlatePositioning.png "Ubicazione posizione 1")
+    ![Ubicazione posizione 1.](media/LocationLicensePlatePositioning.png "Ubicazione posizione 1")
 
 1. Immetti l'ID targa creato per l'ubicazione, quindi segui le istruzioni per selezionare l'ordine cliente.
 

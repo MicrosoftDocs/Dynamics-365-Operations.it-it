@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355582"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Unione del modello di valore cespite e registro beni ammortizzabili
 
@@ -27,7 +27,7 @@ ms.locfileid: "5826740"
 
 Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations (1611), le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro.
 
-La nuova funzionalità dei libri si basa sulla precedente funzionalità dei modelli di valore ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili. [![Libro come unione di funzionalità dei modelli di valore e dei registri beni ammortizzabili](./media/fixed-assets.png)](./media/fixed-assets.png) A causa di questa unione, è ora possibile usare un singolo insieme di pagine, richieste di informazioni e report per tutti i processi cespiti. Le tabelle in questo argomento descrivono la precedente funzionalità dei modelli di valore e dei registri dei beni ammortizzabili, insieme alle nuove funzionalità per i libri.
+La nuova funzionalità dei libri si basa sulla precedente funzionalità dei modelli di valore ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili. [![Libro come unione di funzionalità dei modelli di valore e dei registri beni ammortizzabili.](./media/fixed-assets.png)](./media/fixed-assets.png) Grazie a questa unione è ora possibile usare un solo set di pagine, richieste di informazioni e report per tutti i processi relativi ai cespiti. Le tabelle in questo argomento descrivono la precedente funzionalità dei modelli di valore e dei registri dei beni ammortizzabili, insieme alle nuove funzionalità per i libri.
 
 ## <a name="setup"></a>Imposta
 Per impostazione predefinita, i libri registrano sia nella contabilità generale che nel giornale di registrazione cespiti secondario. I libri hanno una nuova opzione **Registra nella contabilità generale** che consente di disabilitare la registrazione nella contabilità generale e registrare solo nel giornale di registrazione cespiti secondario. Questa funzionalità somiglia al precedente comportamento di registrazione per i registri beni ammortizzabili. L'impostazione dei nomi di giornale di registrazione ha un nuovo livello di registrazione denominato Nessuno. Tale livello di registrazione è stato aggiunto specificamente per le transazioni cespiti. Per registrare transazioni per libri che non registrano nella contabilità generale è necessario usare un nome di giornale di registrazione il cui livello di registrazione è impostato su **Nessuno**.

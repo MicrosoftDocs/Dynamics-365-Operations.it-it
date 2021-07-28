@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815454"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358859"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Stampare il report Pagamento IVA per codice 
 
@@ -40,11 +40,11 @@ Nell'area di lavoro **Gestione delle funzionalità**, attivare la seguente funzi
     - **Valuta di contabilizzazione** - Stampare gli importi del report nella valuta di contabilizzazione.
     - **Valuta del codice IVA** - Stampare gli importi del report nelle valute dei codici IVA.
 
-    ![Finestra di dialogo Pagamento IVA per codice](media/Sales-tax-payment-by-code.png)
+    ![Finestra di dialogo Pagamento IVA per codice.](media/Sales-tax-payment-by-code.png)
 
 La seguente illustrazione mostra un esempio del report che viene generato. Il report mostra che il codice di segnalazione **101** ha la valuta **Euro** se il campo **Valuta IVA** è impostato su **Euro** per il codice IVA a cui è assegnato il codice di reporting.
 
-![Esempio di report Pagamento IVA per codice](media/Sales-tax-payment-by-code-2.png)
+![Esempio di report Pagamento IVA per codice.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

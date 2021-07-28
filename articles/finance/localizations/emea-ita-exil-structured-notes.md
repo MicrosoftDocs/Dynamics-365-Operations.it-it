@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a056fcc3d2656cc4468cbd0c6190788c28e1d679
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0ef3c63a2ad80e40f6983aef05c2011b9833caad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894736"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348440"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -40,12 +40,12 @@ Se è necessario stampare note simili su documenti per gruppi di clienti, è pos
 
 1. Andare a **Contabilità clienti** \> **Impostazioni** \> **Note avanzate** \> **Gruppi note avanzate clienti**.
 
-![Configurazione di gruppi di note avanzate dei clienti](media/emea-ita-exil-notes-groups.jpg)
+![Configurazione di gruppi di note avanzate dei clienti.](media/emea-ita-exil-notes-groups.jpg)
 
 2. Dopo aver creato i gruppi, andare a **Contabilità clienti**\>**Clienti**\>**Tutti i clienti**. 
 3. Nella Scheda dettaglio **Impostazioni predefinite ordine cliente**, nella sezione **Note avanzate** assegnare i riferimenti per i clienti richiesti ai nuovi gruppi.
 
-![Assegnazione del gruppo clienti](media/emea-ita-exil-notes-cust-groups.jpg)
+![Assegnazione del gruppo clienti.](media/emea-ita-exil-notes-cust-groups.jpg)
 
 ### <a name="set-up-advanced-notes-groups-for-vendors"></a>Impostare gruppi di note avanzate per fornitori
 
@@ -63,13 +63,13 @@ Se è necessario stampare note simili su documenti per gruppi di clienti, è pos
 
 1. Per inserire il testo delle note avanzate per i clienti e impostare l'applicabilità delle note, andare a **Contabilità clienti**\>**Impostazioni**\>**Note avanzate**\>**Impostazione note avanzate clienti**.
 
-![Configurazione di note avanzate dei clienti](media/emea-ita-exil-notes-setup.jpg)
+![Configurazione di note avanzate dei clienti.](media/emea-ita-exil-notes-setup.jpg)
 
 2. Nella parte inferiore della pagina è possibile inserire il testo della nota nella lingua predefinita dell'utente. Per inserire il testo della nota in altre lingue, selezionare **Traduzioni**.
 
 3. Nella parte superiore della pagina **Impostazione note avanzate**, è possibile impostare l'applicabilità alle note avanzate. Selezionare le caselle di controllo appropriate per attivare le note per i vari documenti disponibili. Sulla scheda **Intestazione**, è possibile definire note per tutti i clienti, i singoli clienti o i gruppi di clienti. Sulla scheda **Righe**, è possibile definire le note per tutti gli elementi o per singoli elementi.
 
-![Configurazione di righe di note avanzate dei clienti](media/emea-ita-exil-notes-setup-item.jpg)
+![Configurazione di righe di note avanzate dei clienti.](media/emea-ita-exil-notes-setup-item.jpg)
 
 4. Per impostare le note avanzate per i fornitori, andare a **Contabilità fornitori**\>**Impostazioni**\>**Note avanzate**\>**Impostazione note avanzate fornitori**.
 
@@ -80,20 +80,20 @@ Se è necessario stampare note simili su documenti per gruppi di clienti, è pos
 
 Andare a **Amministrazione organizzazione**\>**Gestione documenti**\>**Tipi di documenti** per definire i tipi di documenti che vengono utilizzati quando vengono creati gli allegati di documenti correlati. Nel campo **Classe**, selezionare **Nota semplice**.
 
-![Configurazione dei tipi di documenti](media/emea-ita-exil-notes-document-type.jpg)
+![Configurazione dei tipi di documenti.](media/emea-ita-exil-notes-document-type.jpg)
 
-### <a name="set-up-forms"></a>Imposta i moduli
+### <a name="set-up-forms"></a>Imposta moduli
 
 Andare a **Contabilità clienti**\>**Impostazioni**\>**Moduli**\>**Impostazione moduli** per impostare i riferimenti ai tipi di documenti per i documenti correlati. Inoltre, è possibile definire se le note sono applicabili all'intestazione, alle righe o a entrambe le cose di un documento.
 
-![Impostazione dei moduli](media/emea-ita-exil-notes-setup-forms.jpg)
+![Impostazione dei moduli.](media/emea-ita-exil-notes-setup-forms.jpg)
 
 ### <a name="direct-attachment-to-documents"></a>Allegato diretto ai documenti
 Le note avanzate possono essere direttamente collegate automaticamente alle conferme degli ordini cliente, alle liste di prelievo, ai documenti di trasporto e alle fatture senza allegato preliminare agli ordini cliente. Per abilitare l'allegato diretto, completare i seguenti passaggi. 
 1. Passare a **Contabilità clienti** \> **Impostazioni** \> **Moduli** \> **Impostazione moduli**.
 2. Nella scheda dettaglio **Generale**, nella sezione **Note avanzate** abilitare il parametro **Allegato diretto ai documenti**.
 
-  ![Pagina di configurazione dei moduli, evidenziazione del parametro Allegato diretto ai documenti](media/attach-documents.jpg)
+  ![Pagina di configurazione dei moduli, evidenziazione del parametro Allegato diretto ai documenti.](media/attach-documents.jpg)
 
 ## <a name="advanced-notes-processing"></a>Elaborazione delle note avanzate
 
@@ -101,7 +101,7 @@ Le note avanzate possono essere direttamente collegate automaticamente alle conf
 
 In Contabilità clienti, le note per conferme, distinte di prelievo, documenti di trasporto e fatture vengono generate automaticamente come allegati agli ordini cliente generati per clienti e prodotti selezionati.
 
-![Note degli ordini cliente](media/emea-ita-exil-notes-order.jpg)
+![Note degli ordini cliente.](media/emea-ita-exil-notes-order.jpg)
 
 Le note per offerte e fatture a testo libero sono generate automaticamente nei documenti appropriati.
 
@@ -111,7 +111,7 @@ In Contabilità fornitori, le note vengono generate automaticamente come allegat
 
 Note avanzate definite come **Esterne** sono stampate nei relativi documenti commerciali a seconda delle impostazioni di **Impostazione moduli**
 
-![Impostazione della stampa delle note avanzate](media/emea-ita-exil-notes-printing.jpg)
+![Impostazione della stampa delle note avanzate.](media/emea-ita-exil-notes-printing.jpg)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

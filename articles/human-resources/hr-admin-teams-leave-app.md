@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357363"
 ---
 # <a name="human-resources-app-in-teams"></a>App Human Resources in Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053565"
 
 L'app Microsoft Dynamics 365 Human Resources in Microsoft Teams consente ai dipendenti di richiedere rapidamente permessi e di visualizzare le informazioni sul loro saldo permessi in Microsoft Teams. I dipendenti possono interagire con un bot per richiedere informazioni. La scheda **Tempo libero** fornisce informazioni più dettagliate. Inoltre, possono inviare alle persone informazioni sull'imminente indisponibilità in team e chat al di fuori dell'app Human Resources.
 
-![Bot dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot.png)
+![Bot dell'app per i congedi Human Resources in Teams.](./media/hr-teams-leave-app-bot.png)
 
-![Scheda Tempo libero dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+![Scheda Tempo libero dell'app per i congedi Human Resources in Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Scheda richiesta di congedo per Human Resources](./media/hr-teams-leave-app-chat-card.png)
+![Scheda richiesta di congedo per Human Resources.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Installa e configura
 
@@ -57,11 +57,11 @@ Se si desidera che gli utenti ricevano le notifiche delle richieste di congedo n
 
 4. Nella scheda **Generale** impostare **Abilita notifiche per l'app Teams** su **Sì**.
 
-   ![Abilitare le notifiche dell'app Teams nei parametri di sistema](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Abilitare le notifiche dell'app Teams nei parametri di sistema.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Per attivare le notifiche di Teams per tutti gli utenti, selezionare **Sì** alla richiesta.
 
-   ![Abilitare le notifiche di Teams per tutti gli utenti](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Abilitare le notifiche di Teams per tutti gli utenti.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Attivare o disattivare le notifiche di Teams per i singoli utenti
 
@@ -77,7 +77,7 @@ Dopo aver abilitato le notifiche per l'app Dynamics 365 Human Resources in Teams
 
 5. Impostare **Abilita le notifiche per l'app Teams** su **Sì** per abilitare le notifiche per l'utente o su **No** per disabilitare le notifiche per l'utente.
 
-   ![Abilitare le notifiche dell'app Teams nella scheda Flusso di lavoro delle opzioni utente](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Abilitare le notifiche dell'app Teams nella scheda Flusso di lavoro delle opzioni utente.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Selezionare **Salva**.
 

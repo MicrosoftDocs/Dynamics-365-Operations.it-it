@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a2bac914330058400a7e4d7d355bd4a00a4522f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86d85d280b32834c36691535a019ef6d5141bf93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816798"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356023"
 ---
 # <a name="inbound-and-outbound-assets"></a>Cespiti in entrata e in uscita
 
@@ -42,7 +42,7 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 3. Selezionare **Aggiorna stato della richiesta di intervento di manutenzione**.
 4. Selezionare **In entrata** (o un altro stato del ciclo di vita creato per i cespiti in entrata), quindi **OK**.
 
-![Registrare cespiti come in entrata](media/07-manage-maintenance-requests.png)
+![Registrare cespiti come in entrata.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Registrare i cespiti in entrata come ricevuti
 
@@ -51,7 +51,7 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 3. Selezionare **Ricevi cespiti**.
 4. Nel campo **Ricevuto** immettere la data e l'ora. Selezionare **OK**. Il record verrà rimosso dalla pagina elenco **Cespiti in entrata**.
 
-![Registrare i cespiti in entrata come ricevuti](media/08-manage-maintenance-requests.png)
+![Registrare i cespiti in entrata come ricevuti.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Registrare cespiti come in uscita
 

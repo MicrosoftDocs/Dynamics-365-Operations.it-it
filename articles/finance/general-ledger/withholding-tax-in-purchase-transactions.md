@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816885"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356678"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Ritenuta d'acconto in transazioni di acquisto
 
@@ -64,15 +64,15 @@ Il gruppo ritenuta d'acconto e gruppo ritenuta d'acconto articolo predefiniti ve
 
 L'importo temporaneo della ritenuta d'acconto è disponibile nel campo **Ritenuta d'acconto rettificata** della scheda **Totali** nella pagina **Ordine d'acquisto**.
 
-![La ritenuta d'acconto è inclusa nell'ordine d'acquisto](media/withholding-tax-adjusted.png)
+![La ritenuta d'acconto è inclusa nell'ordine d'acquisto.](media/withholding-tax-adjusted.png)
 
 La ritenuta d'acconto viene calcolata su **Giornale di registrazione pagamenti fornitore**. Puoi modificare manualmente i codici della ritenuta d'acconto applicabile, nonché gli importi effettivi della ritenuta d'acconto nella scheda **Ritenuta d'acconto** nella pagina **Liquida transazioni**.
 
-![La ritenuta può essere regolata manualmente nella pagina Liquidazione transazioni](media/withholding-tax-vendor-payment-tab.png)
+![La ritenuta può essere regolata manualmente nella pagina Liquidazione transazioni.](media/withholding-tax-vendor-payment-tab.png)
 
 L'importo della ritenuta d'acconto derivato verrà detratto dal pagamento del fornitore e registrato nel conto **Conto della ritenuta d'acconto** in un voucher correlato.
 
-![Conto ritenuta d'acconto con relativo giustificativo](media/withholding-tax-adjusted.png)
+![Conto ritenuta d'acconto con relativo giustificativo.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

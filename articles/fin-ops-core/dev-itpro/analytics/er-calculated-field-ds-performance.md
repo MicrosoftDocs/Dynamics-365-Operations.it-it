@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944841"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349186"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate
 
@@ -56,7 +56,7 @@ Il primo passaggio consiste nell'importare la soluzione ER di esempio per genera
     2. Selezionare **Sfoglia** e selezionare il file appropriato per la configurazione ER in formato XML.
     3. Selezionare **OK**.
 
-![Configurazioni importate nella pagina Configurazioni](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Configurazioni importate nella pagina Configurazioni.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Esaminare le soluzione ER di esempio
 
@@ -76,7 +76,7 @@ Il primo passaggio consiste nell'importare la soluzione ER di esempio per genera
 
     Il mapping di modello in questa configurazione implementa il modello di dati di base per qualsiasi formato ER creato per questo modello ed eseguito in Finance. Di conseguenza, il contenuto dell'origine dati **Transazioni** viene esposto per i formati ER, ad esempio origini dati **modello**.
 
-    ![Origine dati transazioni nella pagina di progettazione del mapping del modello](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Origine dati transazioni nella pagina di progettazione del mapping del modello.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Chiudere la pagina **Progettazione mapping modello**.
 5. Chiudere la pagina **Modello per mapping origine dati**.
@@ -90,7 +90,7 @@ Il primo passaggio consiste nell'importare la soluzione ER di esempio per genera
 
     Questo formato ER è progettato per generare un report sulle transazioni del fornitore in formato XML.
 
-    ![Formattare le origini dati e le associazioni configurate degli elementi di formato nella pagina Progettazione formati](media/er-calculated-field-ds-performance-format.png)
+    ![Formattare le origini dati e le associazioni configurate degli elementi di formato nella pagina Progettazione formati.](media/er-calculated-field-ds-performance-format.png)
 
 5. Chiudere la pagina **Progettazione formati**.
 
@@ -103,7 +103,7 @@ Immaginiamo di aver completato la progettazione della prima versione della soluz
 1. Selezionare la società **DEMF**.
 2. Seguire i passaggi in [Attivare la traccia delle prestazioni ER](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) per generare una traccia delle prestazioni durante l'esecuzione di un formato ER.
 
-    ![Finestra di dialogo Parametri dell'utente](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Finestra di dialogo Parametri dell'utente.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>Eseguire il formato ER
 
@@ -124,7 +124,7 @@ Le nuove informazioni sono ora disponibili per alcuni elementi dell'origine dati
 - Il tempo effettivo impiegato per acquisire dati utilizzando l'origine dati
 - Lo stesso tempo espresso come percentuale del tempo totale impiegato per l'esecuzione dell'intero mapping di modello
 
-![Dettagli sul tempo di esecuzione nella pagina Progettazione mapping di modello](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Dettagli sul tempo di esecuzione nella pagina Progettazione mapping di modello.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 La griglia **Statistiche delle prestazioni** mostra che l'origine dati **Transazioni** chiama la tabella VendTrans una volta. Il valore **\[265\]\[Q:265\]** dell'origine dati **Transazioni** indica che 265 transazioni del fornitore sono state recuperate dalla tabella dell'applicazione e restituite al modello di dati.
 
@@ -137,7 +137,7 @@ La griglia **Statistiche delle prestazioni** mostra anche che il mapping di mode
 
 - La tabella del fornitore viene richiamata per ciascuna transazione fornitore iterata, anche se le transazioni recuperate sono state registrate solo per cinque fornitori. Delle 530 chiamate, 525 sono duplicate. La figura seguente mostra il messaggio ricevuto sulle chiamate duplicate (richieste di database).
 
-![Messaggio sulle richieste di database duplicate nella pagina Progettazione mapping modello](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Messaggio sulle richieste di database duplicate nella pagina Progettazione mapping modello.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Del tempo totale di esecuzione del mapping di modello (circa otto secondi), notare che più dell'80 percento (circa sei secondi) è stato impiegato per recuperare i valori dalla tabella dell'applicazione VendTable. Questa percentuale è troppo grande per due attributi di cinque fornitori, rispetto al volume di informazioni dalla tabella dell'applicazione VendTrans.
 
@@ -172,7 +172,7 @@ Attenersi alla seguente procedura per utilizzare la memorizzazione nella cache e
     3. Nella finestra di dialogo, nel campo **Nome**, immettere **Casella**.
     3. Selezionare **OK**.
 
-    ![Origine dati casella nella pagina di progettazione del mapping del modello](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Origine dati casella nella pagina di progettazione del mapping del modello.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Attenersi alla seguente procedura per aggiungere un'origine dati parametrizzata di tipo **Campo calcolato**:
 
@@ -208,7 +208,7 @@ Attenersi alla seguente procedura per utilizzare la memorizzazione nella cache e
 
 9. Selezionare **Salva**.
 
-    ![Origine dati Vend nella pagina di progettazione del mapping del modello](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Origine dati Vend nella pagina di progettazione del mapping del modello.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Chiudere la pagina **Progettazione mapping modello**.
 11. Chiudere la pagina **Mapping modello**.
@@ -232,11 +232,11 @@ Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in
 
 Si noti che le rettifiche apportate al mapping di modello hanno eliminato le query duplicate al database. Anche il numero di chiamate alle tabelle di database e alle origini dati per questo mapping di modello sono state ridotti.
 
-![Informazioni di traccia nella pagina di progettazione del mapping del modello 1](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Informazioni di traccia nella pagina di progettazione del mapping del modello 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 Il tempo di esecuzione totale è stato ridotto di circa 20 volte (da circa 8 secondi a circa 400 millisecondi). Di conseguenza, le prestazioni dell'intera soluzione ER sono state migliorate.
 
-![Informazioni di traccia nella pagina di progettazione del mapping del modello 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Informazioni di traccia nella pagina di progettazione del mapping del modello 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Appendice 1: scaricare i componenti della soluzione Microsoft ER di esempio
 

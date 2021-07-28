@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810488"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351419"
 ---
 # <a name="outbound-workload-visualization"></a>Visualizzazione del carico di lavoro in uscita
 
@@ -60,7 +60,7 @@ Per impostare una visualizzazione del carico di lavoro in uscita, seguire questi
     - **Giorni da includere** - Immettere il numero di giorni nel passato per i quali il grafico deve essere generato.
     - **Tipo di ordine di lavoro** - Selezionare i tipi di ordini di lavoro in uscita da filtrare.
 
-    ![Configurare la pagina dei filtri](media/work-viz-filters-1.png "Configurare la pagina dei filtri")
+    ![Configurare la pagina dei filtri.](media/work-viz-filters-1.png "Configurare la pagina dei filtri")
 
 1. Chiudere la pagina **Configura filtri** per tornare alla pagina **Visualizzazioni del carico di lavoro in uscita**.
 
@@ -70,11 +70,11 @@ Per impostare una visualizzazione del carico di lavoro in uscita, seguire questi
     - **Ultimo aggiornamento** - Questo campo mostra la data e l'ora dell'ultimo aggiornamento delle informazioni nel grafico.
     - **Tempo stimato/effettivo** - Se gli standard di lavoro sono impostati nel sistema, impostare questa opzione su *Sì* per mostrare i tempi di prelievo stimati accumulati nella parte superiore di ogni colonna nel grafico. Se non si utilizzano gli standard di lavoro, questa opzione non è disponibile.
 
-    ![Visualizzazione di esempio](media/work-viz-chart.png "Visualizzazione di esempio")
+    ![Visualizzazione di esempio.](media/work-viz-chart.png "Visualizzazione di esempio")
 
 1. Selezionare una barra qualsiasi nel grafico per visualizzare i dettagli della riga di lavoro associata.
 
-    ![Dettagli riga di lavoro](media/work-viz-work-details.png "Dettagli riga di lavoro")
+    ![Dettagli riga di lavoro.](media/work-viz-work-details.png "Dettagli riga di lavoro")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Esempio: visualizzazione del carico di lavoro in uscita per le zone
 
@@ -92,7 +92,7 @@ Per questo esempio, si desidera impostare una visualizzazione che mostri le righ
 
 Nella figura seguente è illustrato un esempio del grafico risultante.
 
-![Visualizzazione della zona e dello stato di lavoro](media/work-viz-chart.png "Visualizzazione della zona e dello stato di lavoro")
+![Visualizzazione della zona e dello stato di lavoro.](media/work-viz-chart.png "Visualizzazione della zona e dello stato di lavoro")
 
 Questo grafico mostra due zone denominate **FLOOR** e **BULK**, più una zona denominata **Blank**. La zona **Blank** rappresenta tutte le righe di lavoro che non sono membri di nessuna zona. Il grafico mostra sempre tutti i dati filtrati non correlati come **Blank**, per fornire la massima visibilità possibile. Nella zona **FLOOR**, il grafico mostra tre righe chiuse e quattro righe aperte. Nella zona **BULK**, il grafico mostra quattro righe chiuse, una riga aperta e 24 righe annullate. Infine, il grafico mostra otto righe chiuse che non fanno parte di alcuna zona e sono quindi elencate come **Blank**.
 

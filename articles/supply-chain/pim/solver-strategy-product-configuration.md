@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82332a8ac8a68f5a9092ae08a094514827f39113
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d351066b0092318275491d933b7b90089c6855b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812717"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359935"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Strategia risolutore per la configurazione prodotto
 
@@ -50,7 +50,7 @@ Gli studi di implementazione dei clienti effettivi hanno dimostrato che una modi
 
 Per modificare la strategia risolutore, nella pagina **Modelli di configurazione prodotto**, nel riquadro azioni, selezionare **Proprietà di modelli**. Quindi, nella finestra di dialogo **Modifica i dettagli del modello**, selezionare una strategia risolutore.
 
-[![Modificare la strategia risolutore](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Modificare la strategia risolutore.](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Attualmente non esiste una logica che rilevi automaticamente quale strategia risolutore sarà la strategia più efficiente per la configurazione del prodotto basata su vincoli. Pertanto, è necessario provare le strategie risolutore una ad una.
 

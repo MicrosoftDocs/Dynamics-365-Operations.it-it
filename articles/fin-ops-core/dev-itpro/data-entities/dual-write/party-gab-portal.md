@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: a2ea914344341ee26138e853727c551bdd5d733e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833092"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358619"
 ---
 # <a name="using-power-portal-with-the-party-data-model"></a>Utilizzo di Power Portal con il modello di dati parte
 
@@ -28,11 +28,11 @@ In sintesi, il modo in cui le tabelle interagiscono è cambiato, ma le autorizza
 
 Questo diagramma mostra la relazione tra le tabelle **senza** il modello dei dati la parte e della rubrica globale:
 
-   ![senza modello di parte](media/without-party-model.PNG)
+   ![senza modello di parte.](media/without-party-model.PNG)
 
 Questo diagramma mostra la relazione tra le tabelle **con** il modello dei dati la parte e della rubrica globale:
 
-   ![con il modello di parte](media/with-party-model.png)
+   ![con modello di parte.](media/with-party-model.png)
 
 ## <a name="create-a-new-table-permission"></a>Creare una nuova autorizzazione per la tabella
 

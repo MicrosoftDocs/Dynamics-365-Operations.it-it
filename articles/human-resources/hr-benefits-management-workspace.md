@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193433"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353616"
 ---
 # <a name="benefits-management-workspace"></a>Area di lavoro gestione benefit
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193433"
 In questo argomento viene descritta l'area di lavoro **Gestione benefit** in Dynamics 365 Human Resources.
 
 > [!NOTE]
-> Per visualizzare l'area di lavoro **Gestione benefit**, è necessario dapprima abilitare la funzionalità **(Anteprima) Area di lavoro Gestione benefici** in Gestione funzionalità. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).<br><br>![Abilitare l'area di lavoro Gestione benefit](./media/hr-benefits-management-workspace-enable.png)
+> Per visualizzare l'area di lavoro **Gestione benefit**, è necessario dapprima abilitare la funzionalità **(Anteprima) Area di lavoro Gestione benefici** in Gestione funzionalità. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).<br><br>![Abilitare l'area di lavoro Gestione benefit.](./media/hr-benefits-management-workspace-enable.png)
 
 L'area di lavoro **Gestione benefit** fornisce una rapida visualizzazione dei benefit che richiedono l'attenzione dell'utente. In questa pagina sono visualizzati:
 
@@ -43,13 +43,13 @@ L'area di lavoro **Gestione benefit** fornisce una rapida visualizzazione dei be
 - Lavoratori con eventi reali attivi
 - Lavoratori con iscrizioni aperte che non hanno optato per alcun piano
 
-![Area di lavoro gestione benefit](./media/hr-benefits-management-workspace.png)
+![Area di lavoro gestione benefit.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Visualizzare elementi di azione
 
 Puoi visualizzare le tue azioni selezionando un riquadro o una scheda. Se selezioni una scheda, puoi visualizzare e selezionare i lavoratori direttamente nella pagina dell'area di lavoro.
 
-![Elementi di azione](./media/hr-benefits-management-workspace-action-items.png)
+![Elementi di azione.](./media/hr-benefits-management-workspace-action-items.png)
 
 Se selezioni un riquadro, vai alla pagina relativa a quell'area. Ad esempio, selezionando uno di questi riquadri, viene visualizzata la pagina **Piani di benefit lavoratori**, filtrata per i dipendenti per i quali è richiesta un'azione:
 
@@ -58,21 +58,21 @@ Se selezioni un riquadro, vai alla pagina relativa a quell'area. Ad esempio, sel
 - **Iscritto ai benefit**
 - **Nuova assunzione senza iscrizione**
 
-![Piani di benefit lavoratore](./media/hr-benefits-management-workspace-plans.png)
+![Piani di benefit lavoratore.](./media/hr-benefits-management-workspace-plans.png)
 
 La selezione dei riquadri **Eventi reali attivi** o **Eventi reali futuri** comporta la visualizzazione di un elenco di eventi reali attivi o futuri.
 
-![Eventi reali](./media/hr-benefits-management-workspace-life-events.png)
+![Eventi reali.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>In elaborazione
+## <a name="processing"></a>Elaborazione
 
 Per elaborare l'idoneità di iscrizione, gli eventi reali o gli aggiornamenti del tasso, selezionare l'elemento appropriato nella barra di navigazione.
 
-![In elaborazione](./media/hr-benefits-management-workspace-processing.png)
+![In elaborazione.](./media/hr-benefits-management-workspace-processing.png)
 
 Per visualizzare i risultati del processo, selezionare **Risultati processo** nella pagina.
 
-![Risultati processo](./media/hr-benefits-management-workspace-process-results.png)
+![Risultati processo.](./media/hr-benefits-management-workspace-process-results.png)
 
 Per ulteriori informazioni sull'elaborazione dei benefit, vedi:
 
@@ -86,13 +86,13 @@ Per ulteriori informazioni sull'elaborazione dei benefit, vedi:
 
 Per visualizzare un diverso periodo di benefit, selezionalo nell'elenco a discesa **Periodo**.
 
-![Modifica periodo](./media/hr-benefits-management-workspace-period.png)
+![Modifica periodo.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Visualizzare ulteriori opzioni
 
 Per visualizzare ulteriori informazioni e azioni che puoi eseguire, selezionare **Collegamenti**.
 
-![Collegamenti](./media/hr-benefits-management-workspace-links.png)
+![Collegamenti.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>Vedere anche
 

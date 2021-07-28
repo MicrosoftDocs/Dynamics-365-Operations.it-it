@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799108"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349426"
 ---
 # <a name="recall-order-operation-in-pos"></a>Operazione Richiama ordine nel POS
 
@@ -29,7 +29,7 @@ Per abilitare questa funzionalità, attiva la funzionalità **Operazione Richiam
 
 La configurazione del pulsante dell'operazione **Richiama ordine** consente alle organizzazioni di distribuire l'operazione con una visualizzazione predefinita.
 
-![Configurazione della griglia dei pulsanti](media/recallorderbuttongrid.png)
+![Configurazione della griglia dei pulsanti.](media/recallorderbuttongrid.png)
 
 Le opzioni di visualizzazione sono riportate di seguito.
 - **Nessuna** - Questa opzione distribuisce l'operazione senza una visualizzazione specifica. Quando un utente apre l'operazione con questa configurazione, gli viene richiesto di cercare e trovare ordini o di scegliere da un filtro di ordini predefinito.
@@ -42,11 +42,11 @@ Quando si avvia l'operazione **Richiama ordine** dal POS, se il display è impos
 - Selezione dell'icona **Cerca ordini** o **Cerca e filtra** nella barra dell'applicazione per utilizzare il meccanismo di filtro con cui individuare gli ordini che soddisfano i criteri di filtro.
 - Scelta di un filtro predefinito nel menu a discesa **Mostra ordini** (ordini da evadere, ordini da prelevare o ordini da spedire).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Dopo aver applicato i criteri di ricerca, l'applicazione visualizzerà un elenco di ordini di vendita corrispondenti. È importante notare che quando si utilizzano le opzioni di ricerca/filtro, gli ordini recuperati non devono essere ordini collegati al punto vendita corrente dell'utente. Questo processo di ricerca recupererà e visualizzerà qualsiasi ordine cliente che corrisponde ai criteri di ricerca, anche se l'ordine è stato creato o impostato per essere evaso da un altro punto vendita/canale o ubicazione di magazzino.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Un utente può selezionare un ordine nell'elenco per visualizzare ulteriori dettagli. Il pannello delle informazioni sul lato destro della schermata visualizza le specifiche sull'ordine selezionato, inclusi i dettagli su riga dell'ordine, consegna e evasione.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 6eb052b640d2418f6ddd1a06b1b0d529074b7f89
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189047"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355061"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
@@ -44,13 +44,13 @@ Per evitare queste implicazioni, la contabilità industriale consente di configu
 
 Si supponga che un'organizzazione abbia la seguente struttura con 4 centri di costo.
 
-![Esempio di struttura di un'organizzazione](./media/dimension-hierarchy-org.png)
+![Esempio di struttura di un'organizzazione.](./media/dimension-hierarchy-org.png)
 
 **Dimensione oggetto di costo**
 
-| Centri di costo | Descrizione          |
+| Centri di costo | descrizione          |
 |--------------|-----------|
-| CC001        | Risorse umane        |
+| CC001        | HR        |
 | CC002        | Dati finanziari   |
 | CC003        | Assemblaggio  |
 | CC004        | Imballaggio |

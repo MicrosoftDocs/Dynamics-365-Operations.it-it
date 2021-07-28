@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1fb1c4143db2912b32e3b355abe9d08e104a2b0d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a3872ee4f50c9efa6d3f98bb20501826112862a8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814956"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348464"
 ---
 # <a name="competence-date-for-transactions-and-the-fiscal-journal-report"></a>Data di competenza per le transazioni e il report giornale di registrazione fiscale
 
@@ -63,7 +63,7 @@ In questo report sono inclusi i seguenti campi:
 -   Valuta
 -   Importo in Dare o in Avere del documento
 
-![Transazioni del report Giornale di registrazione fiscale](media/ITA-Competence-date-for-transactions-1-fiscal-journal.png)
+![Transazioni del report Giornale di registrazione fiscale.](media/ITA-Competence-date-for-transactions-1-fiscal-journal.png)
 
 ## <a name="example"></a>Esempio
 
@@ -74,15 +74,15 @@ L'anno fiscale della società inizia l'1 gennaio e termina il 31 dicembre. Lo st
 3. Nel campo **Data transazione** specificare il 15 aprile.
 4. Registrare la transazione.
 
-    ![Pagina del giustificativo giornale di registrazione](media/ITA-Competence-date-for-transactions-2-general-journal.png)
+    ![Pagina del giustificativo giornale di registrazione.](media/ITA-Competence-date-for-transactions-2-general-journal.png)
 
 5. Andare a **Contabilità generale** \> **Richieste di informazioni e report** \> **Giornale di registrazione fiscale** ed eseguire il report. La transazione viene riportata nella riga del giornale di registrazione fiscale. Il campo **Data di registrazione** è impostato sul 15 aprile e il campo **Data competenza** è impostato sul 31 dicembre.
 
-    ![Pagina Giornale di registrazione fiscale](media/ITA-Competence-date-for-transactions-3-fiscal-journal.png)
+    ![Pagina Giornale di registrazione fiscale.](media/ITA-Competence-date-for-transactions-3-fiscal-journal.png)
 
 6. Andare a **Contabilità generale \> Richieste di informazioni e report \> Bilancio di verifica** ed esegui il report.
 
-    ![Descrizione interfaccia utente grafica e descrizione generata automaticamente](media/ITA-Competence-date-for-transactions-4-trial-balance.png)
+    ![Interfaccia utente grafica, descrizione dell'applicazione generata automaticamente.](media/ITA-Competence-date-for-transactions-4-trial-balance.png)
 
 7. Andare a **Contabilità generale** \> **Richieste di informazioni e report** \> **Transazioni giustificativo**.
 8. Nella pagina **Transazioni giustificativo** aggiungere la colonna **Data transazione**.
@@ -100,7 +100,7 @@ Se è necessario calcolare il numero di documenti inclusi nel giornale di regist
 2.  Convertire il PDF in Microsoft Excel utilizzando un software di conversione.
 3.  Creare una tabella pivot e nel campo **Righe**, selezionare **N. doc.**.
 
-    ![Tabella pivot di Excel](media/ExcelPivotTable.png)
+    ![Tabella pivot di Excel.](media/ExcelPivotTable.png)
 
 Il numero di documenti è uguale al numero di righe nella tabella pivot.
 

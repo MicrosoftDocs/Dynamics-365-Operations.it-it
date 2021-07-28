@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944294"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359413"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Riutilizzare le configurazioni ER con i modelli Escel per generare report nel formato Word
 
@@ -54,14 +54,14 @@ Queste procedure riguardano una funzionalità aggiunta in Dynamics 365 for Opera
 5. Selezionare **Progettazione**.
 6. Nella pagina **Progettazione formati** il titolo dell'elemento di formato radice indica che un modello di Excel è attualmente utilizzato.
 
-![Selezione della configurazione esistente](../media/er-design-configuration-word-2016-11-image01.gif)
+![Selezione della configurazione esistente.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>Rivedere il modello di Word scaricato
 
 1. Nell'applicazione desktop Word, apri il file del modello **SampleVendPaymDocReport.docx** scaricato in precedenza.
 2. Verificare che il modello contenga solo il layout di documento che si desidera generare come output ER.
 
-![Il layout del modello di Word nell'applicazione desktop](../media/er-design-configuration-word-2016-11-image02.png)
+![Il layout del modello di Word nell'applicazione desktop.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Sostituire il modello Excel con il modello Word e aggiungere una parte XML personalizzata
 
@@ -84,7 +84,7 @@ Attualmente, il documento di Excel viene utilizzato come modello per generare l'
 
 9. Il titolo dell'elemento di formato radice indica che un modello di Word è attualmente utilizzato.
 
-    ![Sostituzione del modello Excel con il modello Word e aggiunta di una parte XML personalizzata](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![Sostituzione del modello Excel con il modello Word e aggiunta di una parte XML personalizzata.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. Nella scheda **Formato**, selezionare **Allegati**.
 
@@ -110,7 +110,7 @@ Se hai dimestichezza con il processo di progettazione dei documenti Word in form
 1. Nell'applicazione desktop Word, aprire il file del modello **SampleVendPaymDocReportBounded.docx**.
 2. Verificare che il modello contenga il layout di documento che si desidera generare come output ER. I controlli del contenuto utilizzati come segnaposto per i dati che ER inserirà in questo modello in fase di esecuzione si basano sui mapping configurati tra gli elementi della parte XML personalizzata **Report** e i controlli del contenuto del documento di Word.
 
-![Anteprima del modello di Word nell'applicazione desktop](../media/er-design-configuration-word-2016-11-image04.png)
+![Anteprima del modello di Word nell'applicazione desktop.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Caricare il modello di Word in cui la parte XML personalizzata è mappata ai controlli del contenuto
 
@@ -144,7 +144,7 @@ Per eseguire la versione bozza del formato modificabile, è necessario renderla 
 3. Nella pagina **Pagamenti fornitore**, seleziona tutte le righe nella griglia.
 4. Selezionare **Stato del pagamento** \> **Nessuno**.
 
-    ![Pagamenti per l'elaborazione nella pagina Pagamenti fornitore](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Pagamenti per l'elaborazione nella pagina Pagamenti fornitore.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. Nel riquadro azioni, seleziona **Genera pagamenti**.
 6. Nella finestra di dialogo che viene visualizzata, effettuare le seguenti operazioni:
@@ -156,11 +156,11 @@ Per eseguire la versione bozza del formato modificabile, è necessario renderla 
 7. Nella finestra di dialogo **Parametri per la creazione di report elettronici** selezionare **OK**.
 8. L'output generato viene visualizzato nel formato di Word e contiene i dettagli dei pagamenti elaborati. Analizzare l'output generato.
 
-    ![Output generato in formato Word](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Output generato in formato Word.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Progettare una nuova configurazione ER per generare report in formato Word](../er-design-configuration-word.md)
+- [Progettare una configurazione per la generazione di report in formato Word](../er-design-configuration-word.md)
 - [Incorporare immagini e forme nei documenti generati utilizzando ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

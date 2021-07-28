@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825280"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359959"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Miglioramenti cXML per gli acquisti
 
@@ -38,7 +38,7 @@ Dopo aver attivato la funzionalità, è necessario configurare le impostazioni n
 
 La figura seguente riepiloga questa configurazione.
 
-![Aree per la configurazione delle funzionalità cXML](media/cxml-settings-areas.png "Aree per la configurazione delle funzionalità cXML")
+![Aree per la configurazione delle funzionalità cXML.](media/cxml-settings-areas.png "Aree per la configurazione delle funzionalità cXML")
 
 Inoltre, è necessario configurare il [processo batch di richiesta dell'ordine fornitore](#po-batch). Questo processo batch viene utilizzato per inviare gli ordini fornitore confermati.
 
@@ -46,7 +46,7 @@ Inoltre, è necessario configurare il [processo batch di richiesta dell'ordine f
 
 Utilizza la pagina **Parametri cXML** per effettuare alcune impostazioni globali che si applicano alla funzionalità di invio degli ordini fornitore.
 
-![Pagina dei parametri cXML](media/cxml-parameters.png "Pagina dei parametri cXML")
+![Pagina dei parametri cXML.](media/cxml-parameters.png "Pagina dei parametri cXML")
 
 Vai a **Approvvigionamento \> Impostazione \> Gestione cXML \> Parametri cXML** e imposta i seguenti parametri:
 
@@ -67,7 +67,7 @@ Ogni volta che confermi un ordine fornitore in cui l'opzione **Invia ordine forn
 - Per configurare un fornitore in modo che utilizzi automaticamente cXML per tutti i nuovi ordini fornitore creati da una richiesta, vai a **Approvvigionamento \> Fornitori \> Tutti i fornitori** e seleziona o crea un fornitore per aprire la relativa pagina dei dettagli. Quindi, nella Scheda dettaglio **Impostazioni predefinite ordini fornitore**, imposta l'opzione **Invia ordine fornitore tramite cXML** su _Sì_. Se cXML deve essere utilizzato automaticamente anche per i nuovi ordini fornitore che **non** sono creati a partire da una richiesta, è necessario impostare anche la proprietà dell'ordine **ENABLEMANUALPO** su _True_ per il relativo catalogo esterno, come descritto nella sezione [Impostare le proprietà dell'ordine](#set-order-properties) più avanti in questo argomento.
 - Per singoli ordini fornitore, vai a **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore** e seleziona o crea un ordine fornitore per aprire la relativa pagina dei dettagli. Passa alla visualizzazione **Intestazione**, quindi, nella Scheda dettaglio **Impostazione**, imposta l'opzione **Invia ordine fornitore tramite cXML** come richiesto.
 
-![Impostazioni predefinite per gli ordini fornitore](media/cxml-order-defaults.png "Impostazioni predefinite per gli ordini fornitore")
+![Impostazioni predefinite per gli ordini fornitore.](media/cxml-order-defaults.png "Impostazioni predefinite per gli ordini fornitore")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Configurazione di un catalogo esterno per utilizzare cXML
 
@@ -76,7 +76,7 @@ Nella pagina **Cataloghi esterni**, per ciascuno dei tuoi cataloghi, puoi config
 > [!NOTE]
 > Quando confermi un ordine fornitore che può essere inviato tramite cXML, il sistema cerca il fornitore associato all'ordine fornitore e quindi trova il primo catalogo esterno attivo associato a quel fornitore. Il sistema utilizza quindi le impostazioni di quel catalogo esterno per inviare l'ordine fornitore. Se sono configurati più cataloghi esterni, il sistema utilizza solo il primo catalogo esterno che trova, in base al fornitore nell'ordine fornitore. Pertanto, è consigliabile creare un solo catalogo esterno per ogni fornitore.
 
-![Impostazioni del catalogo esterno](media/cxml-supplier-catalog.png "Impostazioni del catalogo esterno")
+![Impostazioni del catalogo esterno.](media/cxml-supplier-catalog.png "Impostazioni del catalogo esterno")
 
 ### <a name="set-the-punchout-protocol-type"></a>Impostare il tipo di protocollo PunchOut
 
@@ -143,11 +143,11 @@ Come è stato accennato nella sezione [Impostare le proprietà dell'ordine](#set
 
 Per impostare i tipi di note che il sistema cercherà, vai a **Approvvigionamento \> Impostazione \> Moduli \> Dalla configurazione**. Quindi, nella scheda **Ordine fornitore**, imposta il campo **Includi documenti di tipo** al tipo di nota che vuoi essere in grado di includere. Verranno incluse solo note di testo, non allegati di documenti.
 
-![Pagina di configurazione del modulo](media/cxml-form-setup.png "Pagina di configurazione del modulo")
+![Pagina di configurazione del modulo.](media/cxml-form-setup.png "Pagina di configurazione del modulo")
 
 Gli allegati verranno inclusi con un ordine fornitore solo se il loro campo **Tipo** è impostato sul valore selezionato nel campo **Includi documenti di tipo** e se il loro campo **Restrizione** è impostato su _Esterno_. Per creare, visualizzare o modificare gli allegati per un ordine fornitore, vai a **Approvvigionamento \> Tutti gli ordini fornitore**, seleziona o crea un ordine fornitore, quindi seleziona il pulsante **Allegati** (simbolo della graffetta) nell'angolo in alto a destra.
 
-![Nota allegata configurata per essere inviata a un fornitore](media/cxml-note-to-vendor.png "Nota allegata configurata per essere inviata a un fornitore")
+![Nota allegata configurata per essere inviata a un fornitore.](media/cxml-note-to-vendor.png "Nota allegata configurata per essere inviata a un fornitore")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Visualizzare il registro dei messaggi del carrello cXML per il PunchOut del catalogo esterno
 
@@ -155,7 +155,7 @@ Quando imposti il campo **Tipo di protocollo Punchout** su _cXML_ per un catalog
 
 Per aprire il registro per un catalogo esterno, seleziona il catalogo pertinente, quindi, nel riquadro azioni, seleziona **Registro messaggi carrello cXML**. La pagina **Registro messaggi carrello cXML** mostra un elenco dei carrelli che sono stati restituiti, l'XML correlato a tali carrelli e le righe che sono state create nella richiesta di acquisto correlata.
 
-![Pagina Registro messaggi carrello cXML](media/cxml-cart-message-log.png "Pagina Registro messaggi carrello cXML")
+![Pagina Registro messaggi carrello cXML.](media/cxml-cart-message-log.png "Pagina Registro messaggi carrello cXML")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Impostare gli elementi estrinseci per il PunchOut del catalogo esterno
 
@@ -178,21 +178,21 @@ Per aggiungere elementi estrinseci a un catalogo esterno, segui questi passaggi.
         - **Cognome**: utilizza il cognome della persona di contatto associata all'utente che accede al catalogo esterno.
         - **Numeto di telefono**: utilizza il numero di telefono principale della persona di contatto associata all'utente che accede al catalogo esterno.
 
-![Impostazioni degli elementi estrinseci](media/cxml-extrinsics.png "Impostazioni degli elementi estrinseci")
+![Impostazioni degli elementi estrinseci.](media/cxml-extrinsics.png "Impostazioni degli elementi estrinseci")
 
 L'utente o l'amministratore non vedrà gli elementi estrinseci, perché non vengono aggiunti finché l'utente non esegue un PunchOut. Verranno automaticamente inseriti tra gli elementic **BuyerCookie** e **BrowserFromPost** nel messaggio di richiesta di configurazione cXML. Pertanto, non è necessario impostarli manualmente nell'XML quando si configura il catalogo esterno.
 
-![Elementi estrinseci aggiunti all'XML](media/cxml-extrinsics-xml.png "Elementi estrinseci aggiunti all'XML")
+![Elementi estrinseci aggiunti all'XML.](media/cxml-extrinsics-xml.png "Elementi estrinseci aggiunti all'XML")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Creare ed elaborare un ordine fornitore
 
 Quando crei un ordine fornitore per un fornitore, erediterà l'impostazione dell'opzione **Invia ordine fornitore tramite cXML** da quel fornitore. Tuttavia, l'impostazione rimane disponibile nella Scheda dettaglio **Impostazione** della visualizzazione **Intestazione** dell'ordine fornitore, in modo da poterlo modificare successivamente secondo necessità.
 
-![Ordine fornitore impostato per utilizzare cXML](media/cxml-purchase-order.png "Ordine fornitore impostato per utilizzare cXML")
+![Ordine fornitore impostato per utilizzare cXML.](media/cxml-purchase-order.png "Ordine fornitore impostato per utilizzare cXML")
 
 Quando crei un ordine fornitore da una richiesta di acquisto proveniente da un flusso PunchOut, verranno compilati tutti i dettagli della riga richiesti. È quindi possibile aggiungere manualmente righe di ordine fornitore o copiarle da altri ordini fornitore. Assicurati di impostare tutti i campi obbligatori. Questi campi obbligatori includono il numero di riferimento esterno, che è il numero del fornitore che verrà utilizzato nel messaggio cXML.
 
-![Esempio di un numero di riferimento esterno](media/cxml-line-details.png "Esempio di un numero di riferimento esterno")
+![Esempio di un numero di riferimento esterno.](media/cxml-line-details.png "Esempio di un numero di riferimento esterno")
 
 Quando hai finito di compilare tutti i dettagli per l'ordine fornitore, assicurati di confermarlo. Nessun messaggio viene inviato a meno che l'ordine fornitore non venga confermato. Per confermare un ordine fornitore, nella scheda **Acquisti** del riquadro azioni, nel gruppo **Azioni**, seleziona **Conferma** . 
 
@@ -200,17 +200,17 @@ Dopo la conferma dell'ordine fornitore, è possibile visualizzare lo stato della
 
 Ogni ordine fornitore può avere molte conferme. Ogni conferma è contrassegnata da un numero incrementale. Nella figura seguente, l'ordine fornitore è *00000275* e la conferma è *00000275-1*. Questa numerazione riflette la funzionalità standard di Supply Chain Management, in cui le modifiche in un ordine fornitore, e quindi il tipo di messaggio cXML che deve essere inviato al fornitore, vengono identificate in base alla conferma. Come mostra l'illustrazione, la pagina **Conferme ordini fornitore** include anche i campi **Stato invio ordine** e **Stato fornitore richiesta ordine**. Per ulteriori informazioni sui vari valori di stato che potresti vedere in questa pagina, consulta la sezione [Monitorare le richieste di ordini fornitore](#monitor-po-requests) più avanti in questo argomento.
 
-![Pagine delle conferme degli ordini fornitore](media/cxml-po-confirmations.png "Pagine delle conferme degli ordini fornitore")
+![Pagine delle conferme degli ordini fornitore.](media/cxml-po-confirmations.png "Pagine delle conferme degli ordini fornitore")
 
 Per visualizzare ulteriori informazioni sul documento, seleziona **Richiesta ordine fornitore** sopra la griglia.
 
 La pagina **Richiesta ordine fornitore** include due griglie. La griglia nella parte superiore della pagina ha un record per ogni ordine fornitore contrassegnato per l'invio. La griglia nella scheda **Cronologia richieste ordini fornitore** nella parte inferiore della pagina potrebbe contenere diversi record per l'ordine fornitore selezionato, per indicare lo stato di ciascuna conferma. La figura seguente mostra l'ordine fornitore 00000275 nella griglia superiore e il documento 00000275-1 nella griglia sulla scheda **Cronologia richieste di ordine fornitore**.
 
-![Pagina richieste ordini fornitore](media/cxml-po-request.png "Pagina richieste ordini fornitore")
+![Pagina di richiesta ordine fornitore.](media/cxml-po-request.png "Pagina richieste ordini fornitore")
 
 Se il processo batch è configurato e in esecuzione, il documento verrà inviato. È possibile visualizzare la modifica dello stato dopo che il documento è stato inviato. Nella figura seguente, il campo **Stato invio ordine** è impostato su _Inviato_. Il campo **Stato fornitore richiesta ordine** è impostato su _Riconosciuto_ per indicare che il fornitore ha ricevuto il documento ed è stato in grado di leggerlo e memorizzarlo nel proprio sistema. La griglia nella scheda **Cronologia richieste ordine fornitore** mostra l'ora in cui il documento è stato inviato. Per ulteriori informazioni sui vari valori di stato che potresti vedere in questa pagina, consulta la sezione [Monitorare le richieste di ordini fornitore](#monitor-po-requests).
 
-![Messaggi di stato nella pagina di richiesta ordine fornitore](media/cxml-po-request-2.png "Messaggi di stato nella pagina di richiesta ordine fornitore")
+![Messaggi di stato nella pagina di richiesta ordine fornitore.](media/cxml-po-request-2.png "Messaggi di stato nella pagina di richiesta ordine fornitore")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Pianificarere il processo batch di richiesta dell'ordine fornitore
 
@@ -226,7 +226,7 @@ Il processo cercherà i documenti di richiesta di ordine fornitore con stato *In
 
 Quando gli ordini che possono essere inviati tramite cXML vengono confermati, entrano nello stato _In attesa_. Come è stato descritto nella sezione [Creare ed elaborare un ordine fornitore](#create-po), è possibile visualizzare lo stato dell'ordine fornitore nella pagina **Richiesta ordine fornitore**. Ogni richiesta di ordine fornitore può avere uno tra diversi stati, a seconda dei suoi parametri e dati. Questa sezione descrive i vari tipi di stato e i valori che possono avere. Queste informazioni possono aiutarti a gestire i problemi e comprendere lo stato dei tuoi ordini fornitore.
 
-![Stato dell'ordine fornitore nella pagina di richiesta ordine fornitore](media/cxml-monitor-po-request.png "Stato dell'ordine fornitore nella pagina di richiesta ordine fornitore")
+![Stato dell'ordine fornitore nella pagina di richiesta ordine fornitore.](media/cxml-monitor-po-request.png "Stato dell'ordine fornitore nella pagina di richiesta ordine fornitore")
 
 La griglia nella parte superiore della pagina **Richiesta ordine fornitore** potrebbe mostrare i seguenti valori di stato:
 
@@ -262,17 +262,17 @@ La griglia sulla scheda **Cronologia richieste ordine fornitore** nella parte in
 
 Per visualizzare l'XML per il messaggio di richiesta dell'ordine fornitore, seleziona la scheda **Testo XML richiesta** nella parte inferiore della pagina **Richiesta ordine fornitore**. Le informazioni in questa scheda possono essere utili durante il test o la convalida degli errori. Per rendere le informazioni più facili da leggere, puoi visualizzarle come un messaggio formattato. Copia il contenuto della scheda in un file di testo e quindi visualizzalo in un editor XML.
 
-![Scheda Testo XML richiesta](media/cxml-request-xml-text.png "Scheda Testo XML richiesta")
+![Scheda Testo XML richiesta.](media/cxml-request-xml-text.png "Scheda Testo XML richiesta")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Visualizzare i dettagli della risposta del fornitore
 
 Per visualizzare il contenuto di un riconoscimento del fornitore o di una risposta all'errore, seleziona la scheda **XML risposta** nella parte inferiore della pagina **Richiesta ordine fornitore**.
 
-![Scheda XML risposta](media/cxml-response-xml.png "Scheda XML risposta")
+![Scheda XML risposta.](media/cxml-response-xml.png "Scheda XML risposta")
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Configurare un catalogo esterno per PunchOut e-procurement](set-up-external-catalog-for-punchout.md)
+- [Impostare un catalogo esterno per eProcurement PunchOut](set-up-external-catalog-for-punchout.md)
 - [Usare cataloghi esterni per PunchOut e-procurement](use-external-catalogs-for-punchout.md)
 
 

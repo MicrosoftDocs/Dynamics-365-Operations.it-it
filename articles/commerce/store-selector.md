@@ -2,7 +2,8 @@
 title: Modulo Selettore punto vendita
 description: In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021466"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479378"
 ---
 # <a name="store-selector-module"></a>Memorizzare il modulo di selezione
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
@@ -50,12 +52,12 @@ Per immettere i valori di latitudine e longitudine per l'ubicazione di un punto 
 1. Selezionare l'ubicazione del magazzino nel riquadro a sinistra.
 1. Nella Scheda dettaglio **Indirizzi**, selezionare **Avanzate**.
 
-    ![Esempio di dettagli del punto vendita in Commercial Headquarters](./media/Store-address.png)
+    ![Esempio di dettagli del punto vendita in Commercial Headquarters.](./media/Store-address.png)
 
 1. Nel riquadro azioni, seleziona **Modifica**.
 1. Nella Scheda dettaglio **Generale**, immettere i valori per **Latitudine** e **Longitudine**.
 
-    ![Esempio di configurazione di latitudine e longitudine per un punto vendita in Commercial Headquarters](./media/Store-latitude-longitude.png)
+    ![Esempio di configurazione di latitudine e longitudine per un punto vendita in Commercial Headquarters.](./media/Store-latitude-longitude.png)
 
 1. Nel riquadro azioni selezionare **Salva**. 
 
@@ -70,7 +72,6 @@ Per l'API REST Suggerimenti automatici, è necessario assicurarsi che i seguenti
 - Alla direttiva **script-src**, **aggiungere &#42;.bing.com, &#42;.virtualearth.net**.
 - Alla direttiva **script style-src**, aggiungere **&#42;.bing.com**.
 
- 
 ## <a name="pickup-in-store-mode"></a>Modalità Preleva nel punto vendita
 
 Il modulo di selezione del punto vendita supporta una modalità **Preleva nel punto vendita** che mostra un elenco di punti vendita in cui un prodotto è disponibile per il ritiro. Mostra anche gli orari del punto vendita e le scorte di prodotto per ciascun punto vendita nell'elenco. Il modulo di selezione del punto vendita richiede il contesto di un prodotto per eseguire il rendering della disponibilità del prodotto e per consentire all'utente di aggiungere il prodotto al carrello, se la modalità di consegna del prodotto è impostata su **Preleva** nel punto vendita selezionato. Per ulteriori informazioni, vedere [Impostazioni relative alle scorte](inventory-settings.md). 
@@ -81,7 +82,7 @@ Affinché lo scenario funzioni, i prodotti devono essere configurati in modo da 
 
 L'immagine seguente mostra un esempio di un modulo selettore punto vendita utilizzato su un PDP.
 
-![Esempio di un modulo selettore punto vendita utilizzato su un PDP](./media/BOPIS.PNG)
+![Esempio di un modulo selettore punto vendita utilizzato su un PDP.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > Nella versione 10.0.16 e successive, è possibile abilitare una nuova funzionalità che consente a un'organizzazione di definire più modalità di ritiro delle opzioni di consegna per i clienti.  Se questa funzione è abilitata, il selettore punto vendita e altri moduli di e-commerce verranno migliorati per consentire all'acquirente di scegliere tra potenzialmente più opzioni di consegna del ritiro, se configurate.  Per saperne di più su questa funzione, fare riferimento a [questa documentazione](./multiple-pickup-modes.md). 
@@ -92,7 +93,7 @@ Il modulo di selezione del punto vendita supporta anche una modalità **Trova pu
 
 La seguente illustrazione mostra un esempio di un modulo di selezione del punto vendita utilizzato insieme a un modulo mappa in una pagina con le posizioni dei punti vendita.
 
-![Esempio di un modulo di selezione del punto vendita e un modulo di mapping su una pagina delle posizioni dei punti vendita](./media/ecommerce-Storelocator.PNG)
+![Esempio di un modulo di selezione del punto vendita e un modulo di mapping su una pagina delle posizioni dei punti vendita.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Eseguire il rendering di una mappa
 
@@ -110,6 +111,10 @@ Il modulo di selezione del punto vendita può essere utilizzato insieme al modul
 | Opzioni di suggerimenti automatici: risultati massimi | Numero | Questa proprietà definisce il numero massimo di risultati di suggerimenti automatici che possono essere visualizzati tramite l'API Suggerimenti automatici di Bing. |
 | Raggio di ricerca | Numero | Questa proprietà definisce il raggio di ricerca dei punti vendita, in miglia. Se non viene specificato alcun valore, viene utilizzato il raggio di ricerca predefinito, ovvero 50 miglia. |
 | Condizioni d'uso | URL |  Questa proprietà specifica l'URL delle condizioni d'uso necessario per utilizzare il servizio Bing Maps. |
+
+## <a name="site-settings"></a>Impostazioni sito
+
+Il modulo selettore punto vendita rispetta le [Impostazioni Aggiungi prodotto a carrello](add-cart-settings.md). Dopo l'aggiunta di un articolo al carrello dal modulo selettore punto vendita, gli utenti del sito vedranno i flussi di lavoro configurati appropriati.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Aggiungere un modulo selettore punto vendita a una pagina
 

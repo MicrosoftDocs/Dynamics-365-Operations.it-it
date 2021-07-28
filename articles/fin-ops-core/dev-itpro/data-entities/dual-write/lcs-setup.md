@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359365"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configurazione a doppia scrittura da Lifecycle Services
 
@@ -40,7 +40,7 @@ Segui questi passaggi per configurare la doppia scrittura dalla pagina **Dettagl
 
 2. Seleziona il pulsante **Applicazione a doppia scrittura**.
 
-    ![Integrazione di Power Platform](media/powerplat_integration_step2.png)
+    ![Integrazione di Power Platform.](media/powerplat_integration_step2.png)
 
 3. Esamina i termini e le condizioni e quindi seleziona **Configura**.
 
@@ -52,7 +52,7 @@ Segui questi passaggi per configurare la doppia scrittura dalla pagina **Dettagl
 
 7. Seleziona **Collegamento all'ambiente Power Platform** per creare un collegamento tra Dataverse e i database dell'ambiente corrente. La configurazione richiede in genere 5 minuti o meno.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Collegamento all'ambiente Power Platform":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Collegamento all'ambiente Power Platform.":::
 
 8. Quando il collegamento è completo, viene visualizzato un collegamento ipertestuale. Utilizza il collegamento per accedere all'area di amministrazione a doppia scrittura nell'ambiente Finance and Operations. Da lì, puoi configurare le mappature delle entità.
 

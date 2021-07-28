@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0788091755fb784621e972a0573f7004952e8e11
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4622b2a26ac6193b1408c029389e4d9f55162418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792101"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355807"
 ---
 # <a name="ratings-and-reviews-overview"></a>Panoramica valutazioni e revisioni
 
@@ -39,7 +39,7 @@ Le funzionalità Valutazioni e recensioni in Dynamics 365 Commerce è una soluzi
 
 Nella figura seguente è illustrato il funzionamento della soluzione con valutazioni e recensioni in Dynamics 365 Commerce.
 
-![Valutazioni e recensioni in Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Valutazioni e recensioni in Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 La soluzione con valutazioni e recensioni in Dynamics 365 Commerce utilizza Azure Cognitive Services per offrire la moderazione automatica di parole improprie in 40 lingue. Poiché l'approvazione umana non è richiesta, i costi di moderazione sono ridotti. Il sistema offre inoltre strumenti di moderazione che possono essere utilizzati per rispondere alle preoccupazioni dei clienti, inviare feedback e richieste di rimozione e per soddisfare le richieste di dati degli utenti.
 

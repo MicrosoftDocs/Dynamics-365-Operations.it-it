@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356514"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
@@ -61,7 +61,7 @@ Puoi chiedere al bot di:
 
 - Inizia una richiesta di ferie per te. Ad esempio, invia un messaggio che dice "Prenditi un periodo di ferie" o "Voglio prendere delle ferie il prossimo giovedì e venerdì" per essere più specifico per la richiesta di ferie per il tipo di ferie. 
 
-  ![Avviare una richiesta di congedo nella chat di Teams](./media/hr-teams-leave-app-initiate.png)
+  ![Avviare una richiesta di congedo nella chat di Teams.](./media/hr-teams-leave-app-initiate.png)
 
 - Il chat bot popolerà automaticamente una richiesta di congedo. Selezionare **Richiedere un permesso** e modificare i dettagli della richiesta.
 
@@ -69,11 +69,11 @@ Puoi chiedere al bot di:
 
    Se selezioni un permesso per metà giornata quando l'unità di richiesta di ferie è in giorni, puoi specificare se desideri richiedere il permesso per la prima metà della giornata o la seconda metà della giornata selezionando l'opzione **Definizione metà giornata** dal menu **Altre opzioni**.
    
-   ![Definizioni di metà giornata](./media/HalfDayDefinitions.png)
+   ![Definizioni di metà giornata.](./media/HalfDayDefinitions.png)
 
 - Dopo la modifica dei dettagli della richiesta di congedo, selezionare **Invia** per inviarla per l'approvazione.
 
-  ![Inviare la richiesta di congedo](./media/hr-teams-leave-app-submit.png)
+  ![Inviare la richiesta di congedo.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Gestire i congedi in Teams
 
@@ -93,7 +93,7 @@ La scheda **Tempo libero** ti consente di visualizzare:
 
 2. Immetti il giorno o i giorni che desideri prendere come congedo, quindi seleziona **Aggiungi**.
 
-   ![Aggiungi congedo app per i permessi Human Resources in Teams](./media/TimeOffHours.png)
+   ![Aggiungi congedo app per i permessi Human Resources in Teams.](./media/TimeOffHours.png)
 
 3. Se applicabile, inserisci un codice motivo. Inserisci anche eventuali commenti e aggiungi eventuali allegati.
 
@@ -123,7 +123,7 @@ Dopo aver installato l'app Human Resources per Teams, puoi inviare facilmente in
 
 1. In un team o in una chat in Teams seleziona il pulsante Human Resources sotto la finestra della chat.
 
-   ![Pulsante Human Resources sotto la finestra della chat](./media/hr-teams-leave-app-chat-button.png)
+   ![Pulsante Human Resources sotto la finestra della chat.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Seleziona la richiesta di congedo che desideri condividere. Se desideri condividere una bozza di richiesta di congedo, seleziona prima **Bozza**.
 
@@ -173,11 +173,11 @@ Se le traduzioni non vengono visualizzate come previsto, assicurarsi che la ling
 
 In Teams, esaminare **Lingua dell'app** in **Impostazioni**.
 
-![Impostazioni di Teams](./media/hr-teams-leave-app-settings.png)
+![Impostazioni di Teams.](./media/hr-teams-leave-app-settings.png)
 
 In Human Resources, selezionare **Impostazioni** e quindi **Opzioni utente**. Verificare che il campo **Lingua** corrisponda al campo **Lingua dell'app** in Teams.
 
-![Opzioni utente di Human Resources](./media/hr-teams-leave-app-user-options.png)
+![Opzioni utente di Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
 Se si riscontrano ancora problemi di traduzione, contattarci. Per informazioni, vedere [Ottenere supporto per le app Finance and Operations o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 

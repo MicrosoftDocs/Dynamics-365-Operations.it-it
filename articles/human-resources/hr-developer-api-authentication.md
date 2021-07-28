@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e73438170294863b7aa092cf1fc027787f57c70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 87e9779dc47494583ad4a299206bada4b85c6a15
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054382"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360474"
 ---
 # <a name="authentication"></a>Autenticazione
 
@@ -85,9 +85,9 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 5. Sotto **Autorizzazioni API**, selezionare **Aggiungi un'autorizzazione**. Quindi, nella scheda **API utilizzate dalla mia organizzazione**, cercare **Dynamics 365 Human Resources** e aggiungere l'autorizzazione **user\_impersonation** all'app. L'ID applicazione per Human Resources è f9be0c49-aa22-4ec6-911a-c5da515226ff. Utilizzare questo ID per assicurarsi di aver scelto l'applicazione corretta.
 
-6. Selezionare **Registro**.
+6. Seleziona **Registro**.
 
-   [![Registrazione di una nuova app nel portale di Azure](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Registrazione di una nuova app nel portale di Azure.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD assegna un ID applicazione univoco (ID client) all'app e visualizza la pagina **Panoramica** per l'app. Per aggiungere più funzionalità all'app, è possibile selezionare altre opzioni di configurazione, come le opzioni per il branding e per i certificati e i segreti.
 

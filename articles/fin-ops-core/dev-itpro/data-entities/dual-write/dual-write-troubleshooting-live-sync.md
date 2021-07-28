@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748899"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350790"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Risoluzione dei problemi di sincronizzazione in tempo reale
 
@@ -73,21 +73,21 @@ Se i dati esistono su entrambi i lati e si conferma che il problema non è relat
 
 È possibile che venga visualizzato un messaggio di errore "Richiesta non valida" simile al seguente esempio quando si creano dati in un'app Finance and Operations.
 
-![Esempio del messaggio di errore Richiesta non valida](media/error_record_id_source.png)
+![Esempio del messaggio di errore Richiesta non valida.](media/error_record_id_source.png)
 
 Per risolvere il problema, è necessario assegnare il ruolo di sicurezza corretto al team della Business Unit Dynamics 365 Sales o Dynamics 365 Customer Service mappata per abilitare il privilegio mancante.
 
 1. Nell'app Finance and Operations, trovare la Business Unit mappata nel set di connessioni Integrazione dati.
 
-    ![Mapping dell'organizzazione](media/mapped_business_unit.png)
+    ![Mapping dell'organizzazione.](media/mapped_business_unit.png)
 
 2. Accedere all'ambiente nell'app basata su modello in Dynamics 365, andare a **Impostazione \> Sicurezza** e trovare il team della Business Unit mappata.
 
-    ![Team della Business Unit mappata](media/setting_security_page.png)
+    ![Team della Business Unit mappata.](media/setting_security_page.png)
 
 3. Aprire la pagina del team per la modifica, quindi selezionare **Gestisci ruoli** per aprire la finestra di dialogo **Gestisci ruoli del team**.
 
-    ![Pulsante Gestisci ruoli](media/manage_team_roles.png)
+    ![Pulsante Gestisci ruoli.](media/manage_team_roles.png)
 
 4. Assegnare il ruolo con il privilegio di lettura/scrittura per le tabelle pertinenti, quindi selezionare **OK**.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838132"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353374"
 ---
 # <a name="work-policies"></a>Criteri di lavoro
 
@@ -200,7 +200,7 @@ L'ordine fornitore è ora ricevuto, ma nessun lavoro è associato ad esso. Le sc
 
 Nel seguente esempio, sono presenti due ordini di produzione, *PRD-001* e *PRD-002*. L'ordine di produzione *PRD-001* ha un'operazione denominata *Assemblaggio*, in cui il prodotto *SC1* viene dichiarato finito nell'ubicazione *001*. L'ordine di produzione *PRD-002* ha un'operazione denominata *Verniciatura* e utilizza il prodotto *SC1* dall'ubicazione *001*. L'ordine di produzione *PRD-002* utilizza anche le materie prime *RM1* dall'ubicazione *001*. Le materie prime *RM1* sono immagazzinate nell'ubicazione *BULK-001* e verranno prelevate nell'ubicazione *001* dal lavoro di magazzino per il prelievo di materie prime. Il lavoro di prelievo viene generato quando l'ordine di produzione *PRD-002* viene rilasciato.
 
-[![Criteri di lavoro magazzino](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Criteri di lavoro magazzino.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Quando si pianifica di configurazione dei criteri di lavoro di magazzino per questo scenario, valutare i seguenti punti:
 

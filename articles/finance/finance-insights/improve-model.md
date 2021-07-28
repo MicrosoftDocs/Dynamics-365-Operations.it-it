@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186644"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355678"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Migliorare il modello di previsione (anteprima)
 
@@ -33,7 +33,7 @@ In questo argomento vengono descritte le funzionalità che puoi utilizzare per m
 
 Seleziona prima uno o più dei tre possibili risultati per le fatture: **Puntuale**, **In ritardo** e **Molto in ritardo**. Tutti e tre i risultati dovrebbero essere selezionati. Se deselezioni la selezione di uno qualsiasi dei risultati, le fatture verranno escluse dal processo di training e l'accuratezza della previsione verrà ridotta.
 
-[![Conferma dei risultati](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Conferma dei risultati.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Se la tua organizzazione richiede solo due risultati, modifica le soglie **In ritardo** e **Molto in ritardo** su 0 (zero) giorni. In questo modo, si comprime efficacemente la previsione in uno stato binario di **Puntuale** o **In ritardo**.
 
@@ -51,7 +51,7 @@ Le sezioni seguenti mostrano i campi disponibili per la fattura e le entità cli
 
 Nella figura seguente vengono mostrati i campi disponibili per la tabella fattura.
 
-[![Campi disponibili per la tabella fattura](./media/available-fields.png)](./media/available-fields.png)
+[![Campi disponibili per la tabella fattura.](./media/available-fields.png)](./media/available-fields.png)
 
 I seguenti campi non devono essere selezionati per il training:
 
@@ -66,7 +66,7 @@ I seguenti campi non devono essere selezionati per il training:
 
 Nella figura seguente vengono mostrati i campi disponibili per la tabella cliente.
 
-[![Campi disponibili per la tabella cliente](./media/related-entities.png)](./media/related-entities.png)
+[![Campi disponibili per la tabella cliente.](./media/related-entities.png)](./media/related-entities.png)
 
 Il campo seguente non deve essere selezionato per il training:
 
@@ -74,8 +74,8 @@ Il campo seguente non deve essere selezionato per il training:
 
 ## <a name="filters"></a>Filtri
 
-I filtri attualmente non supportano lo scenario di previsione dei pagamenti del cliente. Pertanto, seleziona **Ignora questo passaggio** e vai alla pagina di riepilogo.
+È possibile filtrare le fatture utilizzate per la formazione impostando criteri filtro per i campi nella fattura o nelle tabelle cliente. Ad esempio, è possibile impostare una soglia per includere solo le fatture il cui il totale è uguale o superiore a un importo specifico. In alternativa, è possibile escludere le fatture associate ai clienti in uno specifico gruppo di clienti.
 
-[![Modello stato attivo con filtri](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Per ulteriori informazioni sul filtraggio dei dati, vedere [Creare un modello di previsione](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

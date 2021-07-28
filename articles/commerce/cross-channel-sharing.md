@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799519"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349724"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Abilitare e utilizzare la condivisione su più canali
 
@@ -48,15 +48,15 @@ Per abilitare la condivisione multicanale in Creazione di siti Web di Commerce, 
 1. Vai a **Impostazioni sito \> Funzionalità**.
 1. Imposta la funzionalità **Multicanale** su **Attivato**.
 
-    ![Opzione Multicanale impostata su Attivato in Creazione di siti Web di Commerce](./media/enabling-cross-channel-sharing.png)
+    ![Opzione Multicanale impostata su Attivato in Creazione di siti Web di Commerce.](./media/enabling-cross-channel-sharing.png)
 
 Dopo aver abilitato la condivisione multicanale, le relative informazioni verranno visualizzate nella sezione **Canali** in **Impostazioni sito \> Funzionalità**, come mostra l'esempio nell'illustrazione seguente.
 
-![Informazioni sui canali visibili dopo l'abilitazione della condivisione multicanale](./media/channels-cross-channel.png)
+![Informazioni sui canali visibili dopo l'abilitazione della condivisione multicanale.](./media/channels-cross-channel.png)
 
 Inoltre, dopo aver abilitato la condivisione multicanale, il campo **Canale** in alto a destra in Creazione di siti Web di Commerce includerà un'opzione **Punto vendita online multicanale** che puoi utilizzare per gestire il contenuto multicanale, come mostrato nell'illustrazione seguente.
 
-![Opzione Punto vendita online multicanale nel campo Canali dopo aver abilitato la condivisione multicanale](./media/cross-channel-dropdown.png)
+![Opzione Punto vendita online multicanale nel campo Canali dopo aver abilitato la condivisione multicanale.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Creare e utilizzare contenuto multicanale
 

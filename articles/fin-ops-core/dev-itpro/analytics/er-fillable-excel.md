@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893910"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359031"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -39,7 +39,7 @@ Quando si aggiunge una nuova configurazione del formato ER per generare un docum
 
 Per configurare il componente del formato ER della configurazione, seleziona **Progettazione** nel riquadro azioni e apri il componente del formato ER per la modifica nella progettazione dell'operazione ER.
 
-![Pagina Configurazioni](./media/er-excel-format-add-format.png)
+![Pagina Configurazioni.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>Componente del file Excel
 
@@ -47,14 +47,14 @@ Per configurare il componente del formato ER della configurazione, seleziona **P
 
 Devi aggiungere un componente **Excel\\File** nel formato ER configurato per generare un documento in uscita in formato Excel.
 
-![Componente Excel\File](./media/er-excel-format-add-file-component.png)
+![Componente Excel\File.](./media/er-excel-format-add-file-component.png)
 
 Per specificare il layout del documento in uscita, allega una cartella di lavoro di Excel con estensione .xlsx al componente **Excel\\File** come modello per i documenti in uscita.
 
 > [!NOTE]
 > Quando si collega manualmente un modello, devi utilizzare un [tipo di documento](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) che è stato configurato a tale scopo nei [parametri ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
-![Aggiunta di un allegato al componente Excel\File](./media/er-excel-format-add-file-component2.png)
+![Aggiunta di un allegato al componente Excel\File.](./media/er-excel-format-add-file-component2.png)
 
 Per specificare come compilare il modello allegato quando si esegue il formato ER configurato, devi aggiungere componenti **Foglio**, **Intervallo** e **Cella** nidificati al componente **Excel\\File**. Ciascun componente nidificato deve essere associato a un elemento denominato Excel.
 
@@ -62,7 +62,7 @@ Per specificare come compilare il modello allegato quando si esegue il formato E
 
 Puoi selezionare **Importa da Excel** nella scheda **Importa** del riquadro azioni per importare un nuovo modello in un formato ER vuoto. In questo esempio, un componente **Excel\\File** verrà creato automaticamente e il modello importato verrà allegato ad esso. Tutti i componenti ER richiesti verranno inoltre creati automaticamente, in base all'elenco di elementi denominati Excel rilevati.
 
-![Selezione di Importa da Excel](./media/er-excel-format-import-template.png)
+![Selezione di Importa da Excel.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > Se desideri creare l'elemento **Foglio** facoltativo nel formato ER modificabile, imposta l'opzione **Crea elemento in formato foglio Excel** su **Sì**.
@@ -79,7 +79,7 @@ Nella scheda **Mappatura** della progettazione dell'operazione ER, puoi configur
 - Se un'espressione della proprietà **Enabled** è configurata per tornare su **True** in fase di runtime o se nessuna espressione è configurata, il foglio di lavoro appropriato verrà inserito nel documento generato.
 - Se un'espressione della proprietà **Enabled** è configurata per tornare su **False** in fase di runtime, il documento generato non conterrà un foglio di lavoro.
 
-![Esempio di un componente Foglio](./media/er-excel-format-sheet-component.png)
+![Esempio di un componente Foglio.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>Componente Intervallo
 
@@ -182,7 +182,7 @@ Puoi selezionare **Aggiorna da Excel** nella scheda **Importa** del riquadro azi
 >
 > Se il formato ER modificabile era originariamente contenuto negli elementi **Foglio**, ti consigliamo di impostare l'opzione **Crea elemento in formato foglio Excel** su **Sì** quando importi un modello aggiornato. Altrimenti, tutti gli elementi nidificati dell'elemento originale **Foglio** verrà creato da zero. Pertanto, tutti i collegamenti degli elementi di formato ricreati andranno persi nel formato ER aggiornato.
 
-![Crea l'opzione dell'elemento del formato del foglio Excel nella finestra di dialogo Aggiorna da Excel](./media/er-excel-format-update-template.png)
+![Creare l'opzione elemento formato del foglio di Excel nella finestra di dialogo Aggiorna da Excel.](./media/er-excel-format-update-template.png)
 
 Per saperne di più su questa funzionalità, segui i passaggi in [Modificare i formati per la creazione di report elettronici riapplicando modelli di Excel](modify-electronic-reporting-format-reapply-excel-template.md).
 
@@ -190,7 +190,7 @@ Per saperne di più su questa funzionalità, segui i passaggi in [Modificare i f
 
 Quando si convalida un formato ER che può essere modificato, viene eseguito un controllo di coerenza per assicurarsi che il nome Excel sia presente nel modello Excel attualmente utilizzato. Riceverai una notifica di eventuali incoerenze. Per alcune incoerenze, verrà offerta l'opzione per risolvere automaticamente i problemi.
 
-![Messaggio di errore di convalida](./media/er-excel-format-validate.png)
+![Messaggio di errore di convalida.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>Controllare il calcolo delle formule di Excel
 
@@ -209,7 +209,7 @@ Quando viene generato un documento in uscita in un formato di cartella di lavoro
 1. Utilizzare le configurazioni ER fornite per [generare](er-generate-printable-fti-forms.md) un documento di fattura a testo libero stampabile.
 2. Esaminare il piè di pagina del documento generato. Da notare che contiene informazioni sul numero di pagina corrente e sul numero totale di pagine nel documento.
 
-    ![Esaminare il piè di pagina di un documento generato in formato Excel](./media/er-fillable-excel-footer-1.gif)
+    ![Esaminare il piè di pagina di un documento generato in formato Excel.](./media/er-fillable-excel-footer-1.gif)
 
 3. Nella progettazione del formato ER, [aprire](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) il formato ER di esempio per la revisione.
 
@@ -222,7 +222,7 @@ Quando viene generato un documento in uscita in un formato di cartella di lavoro
 
     - Il secondo componente **Stringa** compila il testo che contiene il numero di pagina corrente e il numero totale di pagine nel documento corrente.
 
-    ![Esaminare il componente di formato ER Piè di pagina nella pagina Progettazione formati](./media/er-fillable-excel-footer-2.png)
+    ![Esaminare il componente formato ER piè di pagina nella pagina Progettazione formati.](./media/er-fillable-excel-footer-2.png)
 
 4. Personalizza il formato ER di esempio per modificare il piè di pagina della pagina corrente:
 
@@ -237,20 +237,20 @@ Quando viene generato un documento in uscita in un formato di cartella di lavoro
         1. Aggiungere un componente **Stringa** che allinea la data di elaborazione a destra e la presenta nel carattere "Segoe UI Regular" con la dimensione di 8 punti (**"&R&"Segoe UI,Regular"e8"**).
         2. Aggiungere un componente **Stringa** che riempie la data di elaborazione in un formato personalizzato (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "aaaa-MM-gg")**).
 
-        ![Esaminare il componente di formato ER Piè di pagina nella pagina Progettazione formati](./media/er-fillable-excel-footer-3.png)
+        ![Esaminare il componente formato ER piè di pagina nella pagina Progettazione formati.](./media/er-fillable-excel-footer-3.png)
 
     4. [Completare](er-quick-start2-customize-report.md#CompleteDerivedFormat) la versione bozza del formato ER **Fattura a testo libero (Excel) personalizzata** derivato.
 
 5. [Configurare](er-generate-printable-fti-forms.md#configure-print-management) Gestione stampa per utilizzare il formato ER **Fattura a testo libero (Excel) personalizzata** derivato anziché il formato ER di esempio.
 6. Genera un documento FTI stampabile ed esaminare il piè di pagina del documento generato.
 
-    ![Esaminare il piè di pagina di un documento generato in formato Excel](./media/er-fillable-excel-footer-4.gif)
+    ![Esame del piè di pagina di un documento generato in formato Excel.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica sui report elettronici](general-electronic-reporting.md)
 
-[Progettare una configurazione per la creazione di report nel formato OPENXML](tasks\er-design-reports-openxml-2016-11.md)
+[Progettare una configurazione per la generazione di report in formato OPENXML](tasks\er-design-reports-openxml-2016-11.md)
 
 [Modificare i formati per la creazione di report elettronici riapplicando modelli di Excel](modify-electronic-reporting-format-reapply-excel-template.md)
 

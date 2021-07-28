@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b5c17a65a54ae88118bc5ecaa25cdadb67861129
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 037c9fb8dfc7aca4535540d92aae3e0ce0f8c638
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352158"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Elaborare i ritiri degli ordini dei clienti in POS
 
@@ -32,7 +32,7 @@ Se sei un utente del negozio, puoi eseguire il ritiro utilizzando l'operazione *
 
 Se l'ordine o le righe d'ordine selezionati non sono configurati per il ritiro in quel negozio specifico, o se l'ordine è già stato completamente ritirato, l'operazione **Preleva** non sarà disponibile.
 
-![Operazione preleva](media/pickupoperation.png)
+![Operazione preleva.](media/pickupoperation.png)
 
 In Microsoft Dynamics 365 Commerce versione 10.0.17 e successive, la funzionalità **Esperienza utente migliorata per l'elaborazione degli ordini di ritiro nel punto vendita** può essere attivata tramite la gestione delle funzionalità in Commerce headquarters. Se questa funzione è disattivata, gli utenti non possono selezionare le quantità di prelievo. Per impostazione predefinita, la quantità completa ordinata per la riga è la quantità che verrà prelevata. Questa esperienza può essere problematica, perché gli utenti potrebbero dimenticare di selezionare alcuni articoli per il ritiro quando effettuano il ritiro tramite l'evasione dell'ordine.
 
@@ -40,13 +40,13 @@ La funzionalità **Esperienza utente migliorata per l'elaborazione degli ordini 
 
 Quando la funzionalità **Esperienza utente migliorata per l'elaborazione degli ordini di ritiro nel punto vendita** è attivata e selezioni l'operazione **Preleva**, la finestra di dialogo **Preleva** viene visualizzata. Qui puoi selezionare gli articoli e le quantità che verranno prelevate. Per impostazione predefinita, qualsiasi quantità ordinata con inventario in uno stato prelevato o imballato è considerata idonea per il ritiro. Per impostazione predefinita, tale quantità è impostata come quantità di prelievo. È possibile modificare la quantità immessa, a condizione che la quantità non sia 0 (zero) e non superi la quantità totale aperta (ovvero non fatturata) per la riga selezionata.
 
-![Finestra di dialogo Preleva](media/pickupselect.png)
+![Finestra di dialogo Preleva.](media/pickupselect.png)
 
 Dopo aver selezionato le quantità che verranno prelevate e quindi selezionato **Preleva**, viene visualizzata la pagina della transazione. Se la funzionalità [pagamenti multicanale](omni-channel-payments.md) è attivata e sono presenti pagamenti con carta di credito pre-autorizzati in archivio, è necessario applicare il pagamento.
 
 Nella pagina della transazione, il sistema calcola gli importi dovuti calcolando il totale dovuto per gli articoli di ritiro selezionati e quindi sottraendo eventuali depositi precedentemente applicati o pagamenti con carta di credito autorizzati. È necessario elaborare il pagamento per completare la transazione di ritiro. Se il [layout dello schermo](pos-screen-layouts.md) della pagina della transazione è configurato in modo da includere l'operazione **Concludi transazione** e nessun importo è dovuto, è possibile completare la transazione senza selezionare un metodo di pagamento. Se l'operazione **Concludi transazione** non è disponibile, è possibile selezionare il collegamento **Importo di $ 0,00 dovuto** nel riquadro **Totali** per concludere la transazione senza dover selezionare un metodo di pagamento.
 
-![Pagina Transazione per una transazione di ritiro dell'ordine cliente](media/pickupcart.png)
+![Pagina Transazione per una transazione di ritiro dell'ordine cliente.](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>Modifica delle righe o delle quantità di prelievo
 
@@ -54,7 +54,7 @@ Se è necessario modificare la quantità di prelievo dopo aver selezionato gli a
 
 Se la funzionalità **Esperienza utente migliorata per l'elaborazione degli ordini di ritiro nel punto vendita** è attivata, le organizzazioni possono aggiungere un pulsante per l'opzione **Cambia righe di ritiro** al layout dello schermo della pagina della transazione. Dopo aver creato il carrello delle transazioni di ritiro in POS e aver selezionato gli articoli, è possibile selezionare **Cambia righe di ritiro** se devi cambiare gli articoli da ritirare ma non vuoi annullare l'intera transazione. Nella finestra di dialogo **Cambia righe di ritiro** visualizzata, puoi modificare gli articoli e le quantità di prelievo. Il carrello delle transazioni viene quindi aggiornato per riflettere le modifiche.
 
-![Finestra di dialogo Cambia articoli di prelievo](media/pickupchange.png)
+![Finestra di dialogo Cambia articoli di prelievo.](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

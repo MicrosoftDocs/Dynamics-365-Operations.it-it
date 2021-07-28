@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 75913edcbac0151d5d27d866ff5430b194c62738
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 447d319f5a96851f7eb3104b3330026d269e7dd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815262"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358811"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Specifica IVA per report transazione contabile
 [!include [banner](../includes/banner.md)]
@@ -54,7 +54,7 @@ Quando si genera il report, sono disponibili i seguenti campi predefiniti. È po
 
 Per visualizzare solo i conti non fiscali nel report, impostare una condizione di filtro, ad esempio un asterisco (\*), come illustrato nella figura seguente.
 
-![Report con i conti non fiscali](media/taxspecperledgertrans.png)
+![Report con i conti non fiscali.](media/taxspecperledgertrans.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

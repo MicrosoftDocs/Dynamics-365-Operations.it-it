@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 827f4ca16341d29413f1b1d928965aa1919abf59
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c28ade5bb6a22b9d15380085ea479e79ba246c1e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822517"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354062"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Programmare un ordine di lavoro a una data e un'ora specifiche
 
@@ -38,13 +38,13 @@ Se un ordine di lavoro deve essere programmato a una data *e* un'ora specifiche,
 
 4. Nella Scheda dettaglio **Intestazione ordine di lavoro**, inserire la data di inizio e di fine nei campi **Data di inizio prevista** e **Data di fine prevista**.
 
-    ![Figura 1](media/05-work-order-scheduling.png)
+    ![Figura 1.](media/05-work-order-scheduling.png)
 
 5. Nella scheda **Generale**, fare clic su **Programma** per utilizzare il processo di programmazione standard o fare clic su **Spedisci** se si desidera assegnare l'ordine di lavoro a un lavoratore specifico.
 
 6. Per sostituire tutte le prenotazioni di capacità esistenti in modo da assicurarsi che l'ordine di lavoro sia programmato nel periodo previsto, effettuare le selezioni come illustrato nella figura sotto nella finestra di dialogo **Programma ordini di lavoro** > sezione **Capacità limitata**. Ciò significa che il processo di programmazione ignorerà le prenotazioni della capacità esistenti in quanto l'ordine di lavoro deve iniziare alla data e all'ora previste.
 
-    ![Figura 2](media/06-work-order-scheduling.png)
+    ![Figura 2.](media/06-work-order-scheduling.png)
 
 7. Fare clic su **OK** per avviare la programmazione.
 

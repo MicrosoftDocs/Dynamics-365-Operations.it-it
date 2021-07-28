@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fa602d01cadecbf24c2433360f7b2a8ebb0854a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811439"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355157"
 ---
 # <a name="cost-element-dimensions"></a>Dimensioni elemento di costo
 
@@ -63,7 +63,7 @@ Sono disponibili due tipi di elementi di costo: elementi di costo primari ed ele
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensioni elemento di costo e membri di dimensioni elemento di costo
 Gli elementi di costo vengono indicati come *dimensioni elemento di costo*. I singoli valori delle dimensioni vengono denominati *membri delle dimensioni elemento di costo*. Ad esempio, si dispone di una struttura del piano dei conti statunitense (COA) che costituisce la base per il reporting statutario. Questo COA viene utilizzato come dimensione elemento di costo. I conti, ovvero elementi di costo primari, sono rappresentati come membri della dimensione elemento di costo nella contabilità industriale. Nella schermata seguente è illustrato un esempio dei conti principali come dimensione elemento di costo con i relativi conti principali effettivi come membri della dimensione elemento di costo. 
 
-[![Screenshot dei conti principali come dimensione dell'elemento di costo](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Screenshot dei conti principali come dimensione dell'elemento di costo.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Importare i membri delle dimensioni elemento di costo tramite connettori dati
 Per semplificare l'impostazione dei membri delle dimensioni elemento di costo nella contabilità industriale, è possibile utilizzare connettori dati predefiniti o personalizzati per recuperare gli elementi di costo primari da uno o più sistemi di origine.

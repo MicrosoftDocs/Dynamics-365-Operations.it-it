@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117231"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356904"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Applicare le impostazioni di visualizzazione per le dimensioni del prodotto
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce supporta dimensioni, stile e colore per distinguere le var
 
 In Commerce Site Builder, le impostazioni di dimensione sono definite in **Impostazioni sito \> Estensioni \> Impostazioni dimensione**. La figura seguente mostra un esempio di impostazioni delle dimensioni in Site Builder.
 
-![Esempio di impostazioni del sito in Commerce Site Builder](./dev-itpro/media/swatch_site_settings.PNG)
+![Esempio di impostazioni del sito in Creazione di siti Web Commerce.](./dev-itpro/media/swatch_site_settings.PNG)
 
 Sono disponibili due impostazioni di dimensione:
 
@@ -41,13 +41,13 @@ Sono disponibili due impostazioni di dimensione:
 
     La seguente illustrazione mostra un esempio in cui i colori vengono visualizzati come campioni su un PDP o un sito di e-commerce. In questo esempio, un codice esadecimale è configurato per la dimensione del colore. Pertanto, i campioni vengono visualizzati come colori. Tuttavia, per la dimensione non sono configurati né un codice esadecimale né un URL immagine. Pertanto, viene visualizzato il testo.
 
-    ![Esempio della dimensione del colore mostrata come campioni nella pagina dei dettagli di un prodotto e-commerce](./dev-itpro/media/swatch_pdp.png)
+    ![Esempio della dimensione del colore mostrata come campioni nella pagina dei dettagli di un prodotto e-commerce.](./dev-itpro/media/swatch_pdp.png)
 
 - **Dimensioni da visualizzare nella scheda prodotto**: specifica quali dimensioni devono apparire sulle schede prodotto che vengono mostrate negli elenchi e nelle pagine degli elenchi. Prima che una dimensione possa essere visualizzata su una scheda prodotto, questa impostazione deve essere abilitata per quella dimensione. Anche l'impostazione **Dimensioni da visualizzare come immagine** dovrebbe essere abilitata. Il comportamento di selezione dei campioni sulle schede prodotto è ottimizzato per la dimensione del colore. Per altre dimensioni, potrebbe essere necessaria un'estensione della visualizzazione per personalizzare il comportamento di selezione dei campioni.
 
     La figura seguente mostra un esempio in cui una pagina di elenco su un sito di e-commerce contiene schede prodotto che includono campioni di colore.
 
-    ![Esempio della dimensione del colore mostrata come campioni nella pagina elenco e-commerce](./dev-itpro/media/swatch_searchresults.PNG)
+    ![Esempio della dimensione del colore mostrata come campioni nella pagina elenco e-commerce.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Per informazioni su come configurare le dimensioni del prodotto in modo che vengano visualizzate come campioni nelle pagine del sito, vedi [Configurare i valori delle dimensioni del prodotto in modo che appaiano come campioni](./dev-itpro/dimensions-swatch.md).
 

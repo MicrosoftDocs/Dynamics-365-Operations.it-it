@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: ''
 ms.search.region: Italy
 ms.author: v-oloski
-ms.openlocfilehash: ff97c806125d50c65b0002ae5447af787ff6ca21
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: e4e7a9fd43e51ce4a228b4d94a4c68c28dcff34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025366"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348460"
 ---
 # <a name="customer-electronic-invoices"></a>Fatture elettroniche dei clienti
 
@@ -55,7 +55,7 @@ Prima di poter iniziare a lavorare con la funzionalità di fatturazione elettron
 
 Selezionare le configurazioni utilizzate per creare file XML di fatture elettroniche per fatture di vendita e a testo libero, note di accredito di vendita e a testo libero, fatture progetto e note di accredito di progetto. È possibile trovare queste configurazioni nella scheda **Documento elettronico** della pagina **Parametri contabilità clienti** (**Contabilità clienti** \> **Impostazioni** \> **Parametri contabilità clienti**).
 
-![Scheda Documento elettronico della pagina Parametri contabilità clienti](media/emea-ita-electronic-invocies-AR-parameter-e-invoices.png)
+![Scheda Documento elettronico della pagina Parametri contabilità clienti.](media/emea-ita-electronic-invocies-AR-parameter-e-invoices.png)
 
 > [!NOTE]
 > Le configurazioni devono essere importate prima di poter essere selezionate. Per ulteriori informazioni, vedere [Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
@@ -97,7 +97,7 @@ Perché la funzionalità funzioni, è necessario impostare i seguenti dati:
 
 - Tipi di proprietà di documenti elettronici (**Contabilità clienti** \> **Impostazioni** \> **Tipi di proprietà di documenti elettronici**) e la tabella a cui ciascun tipo di proprietà di documenti è applicabile. Per la funzionalità di fatturazione elettronica, sono utilizzate le tabelle **Clienti** e **Persone giuridiche**.
 
-    ![Impostazione dell'applicabilità nella pagina Tipi di proprietà di documenti elettronici](media/emea-ita-electronic-invocies-electronic-document-property-types.png)
+    ![Impostazione dell'applicabilità nella pagina Tipi di proprietà di documenti elettronici.](media/emea-ita-electronic-invocies-electronic-document-property-types.png)
 
 - Valori richiesti nelle tabelle specificate a livello di cliente e persona giuridica:
 
@@ -149,7 +149,7 @@ Il valore di questo campo viene utilizzato per definire il tipo di comunicazione
 
 In entrambi i casi, il sistema immette il valore di questo campo nel tag **CodiceDestinatario** nel file XML.
 
-![Campo Ufficio di controllo nella scheda dettaglio Dati demografici vendite di un record cliente](media/emea-ita-electronic-invocies-customer-authority-office.png)
+![Campo Ufficio di controllo nella Scheda dettaglio Dati demografici vendite di un record cliente.](media/emea-ita-electronic-invocies-customer-authority-office.png)
 
 Se il campo **Ufficio di controllo** è vuoto, il sistema considera il cliente come un'impresa privata o un professionista (il formato di trasmissione è uguale a **FPR12**) e immette **0000000** nel tag **CodiceDestinatario** nel file XML. In questo caso, deve essere configurato un indirizzo e-mail certificato (PEC). Per ulteriori informazioni, consultare la tabella nella sezione [Proprietà dei documenti elettronici](#edproperties) vista precedentemente in questo argomento.
 
@@ -157,7 +157,7 @@ Se il campo **Ufficio di controllo** è vuoto, il sistema considera il cliente c
 
 Andare a **Contabilità clienti** \> **Clienti** \> **Tutti i clienti** e aprire un record cliente in modalità di **Modifica**. Quindi nella Scheda dettaglio **Fattura e consegna**, nella sezione **Fattura elettronica**, trovare l'opzione **Registro eInvoice**. Se questa opzione è impostata su **Sì**, il sistema crea automaticamente il record nella pagina elenco **Fatture elettroniche clienti**. Per ulteriori informazioni, vedere la sezione [Registro delle fatture elettroniche](#einvoiceregister) più avanti in questo argomento.
 
-![Sezione Fattura elettronica nella Scheda dettaglio Fattura e consegna di un record cliente](media/emea-ita-electronic-invocies-customer-e-invoice.png)
+![Sezione Fattura elettronica nella Scheda dettaglio Fattura e consegna di un record cliente.](media/emea-ita-electronic-invocies-customer-e-invoice.png)
 
 Nella sezione **Fattura elettronica** è possibile anche impostare l'opzione **Allegato fattura elettronica** su **Sì**. In questo caso, dopo aver stampato una fattura (durante o dopo la registrazione), il sistema allega automaticamente il file PDF alla fattura e alla fattura elettronica (vedere la sezione [Registro delle fatture elettroniche](#einvoiceregister)) e il file è incluso nel file XML (blocco **Allegati**).
 
@@ -191,7 +191,7 @@ Seguire questi passaggi per definire i codici Natura e associarli manualmente ai
 6. Selezionare **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA** e selezionare un codice IVA necessario.
 7. Nella scheda Dettaglio **Generale**, nel campo **Codice Natura**, selezionare uno dei codici Natura appena creati.
 
-![Impostazione del campo Codice Natura nella pagina Codici IVA](media/emea-ita-natura.jpg)
+![Impostazione del campo Codice Natura nella pagina Codici IVA.](media/emea-ita-natura.jpg)
 
 ### <a name="reverse-charge-groups"></a>Gruppi reverse charge
 
@@ -199,7 +199,7 @@ I gruppi reverse charge sono necessari quando una società utilizza la funzional
 
 Per definire specifici gruppi reverse charge per specifici prodotti o categorie, selezionare **Imposta** \> **Impostazioni** \> **Gruppi di articoli reverse charge**.
 
-![Pagina dei gruppi di articoli di reverse charge](media/emea-ita-FatturaPA-161-RC-groups.png)
+![Pagina dei gruppi di articoli di reverse charge.](media/emea-ita-FatturaPA-161-RC-groups.png)
 
 Inoltre, è necessario impostare parametri specifici dell'applicazione che utilizzano questi gruppi reverse charge.
 
@@ -251,7 +251,7 @@ Per ulteriori informazioni, vedere la sezione "Configurazione dei tipi di fattur
 
 Selezionare **Contabilità clienti** \> **Impostazioni** \> **Certificati di firma elettronica** per firmare elettronicamente fatture elettroniche utilizzando un certificato di tipo **Società** o **Utente**.
 
-![Pagina Certificati di firma elettronica](media/emea-ita-electronic-invocies-certificate.png)
+![Pagina Certificati di firma elettronica.](media/emea-ita-electronic-invocies-certificate.png)
 
 La parte che emette le fatture deve utilizzare un certificato di firma qualificato per firmare ogni file FatturaPA che viene trasmessa al sistema di scambio (Sistema di Interscambio \[Sdl\]). Un certificato di firma qualificato può essere ottenuto da uno dei certificatori nell'[elenco di certificatori autorizzati](http://www.digitpa.gov.it/firma-digitale/certificatori-accreditati).
 
@@ -324,7 +324,7 @@ Nella pagina **Fatture elettroniche clienti** è possibile effettuare le seguent
 > [!NOTE]
 > La pagina **Fatture elettroniche** (**Gestione progetti e contabilità** \> **Fatture progetto** \> **Fatture elettroniche** \> **Fatture elettroniche**) è simile alla pagina **Fatture elettroniche clienti** e ha le stesse funzioni.
 
-![Pagina Fatture elettroniche clienti](media/emea-ita-electronic-invocies-electronic-customer-invoices.png)
+![Pagina Fatture elettroniche clienti.](media/emea-ita-electronic-invocies-electronic-customer-invoices.png)
 
 ## <a name="additional-functionality-that-affects-the-xml-file"></a><a id="additionalfunctionality"></a>Funzionalità aggiuntiva che riguarda il file XML
 

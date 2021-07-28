@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcec7963bdf70f848249bb2ca5e2208e09f49548
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ece4875b69d3cf797ab90e54f0cc0fda317cc931
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054790"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359655"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Preparare per passare alla fase operativa di Human Resources
 
@@ -32,7 +32,7 @@ Questo argomento descrive come prepararsi per la fase operativa con un progetto 
 
 Questo grafico mostra le fasi del processo per la fase operativa. 
 
-![Processo per la fase operativa](./media/hr-admin-go-live-prepare-process.png)
+![Processo per la fase operativa.](./media/hr-admin-go-live-prepare-process.png)
 
 La tabella seguente elenca tutti i passaggi del processo, la durata prevista e chi è responsabile dell'azione.
 
