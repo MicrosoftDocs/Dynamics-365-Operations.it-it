@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: b285cefc35654695ee631cc73baa0ccc2c1b5ac9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102712"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359887"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizzare e utilizzare il portale clienti
 
@@ -27,7 +27,7 @@ In questo argomento vengono descritte diverse pagine predefinite del portale cli
 
 Il portale clienti include alcune pagine Web e azioni predefinite. La seguente mappa del sito fornisce una panoramica di tali pagine Web e azioni e dei ruoli che possono svolgere le azioni.
 
-![Mappa del sito del portale clienti](media/customer-portal-site-map.png "Mappa del sito del portale clienti")
+![Mappa del sito del portale clienti.](media/customer-portal-site-map.png "Mappa del sito del portale clienti")
 
 ## <a name="typical-customizations"></a>Personalizzazioni tipiche
 
@@ -61,12 +61,12 @@ Di seguito sono riportati i passaggi standard per l'invio di un ordine dal porta
     - **Numero della richiesta** - Immettere il numero di richiesta dell'ordine. Questo campo non è obbligatorio.
     - **Spedisci a paese** - Immettere il paese in cui gli articoli verranno consegnati. Questo campo viene automaticamente impostato per gli utenti non amministratori.
 
-    ![Pagina Informazioni ordine](media/customer-portal-order-information.png "Pagina Informazioni ordine")
+    ![Pagina Informazioni ordine.](media/customer-portal-order-information.png "Pagina Informazioni ordine")
 
 1. Selezionare **Avanti**.
 1. Nella pagina **Articoli** selezionare **Aggiungi articolo**.
 
-    ![Pagina Articoli](media/customer-portal-items.png "Pagina Articoli")
+    ![Pagina Articoli.](media/customer-portal-items.png "Pagina Articoli")
 
 1. Nella finestra di dialogo **Informazioni articolo**, impostare i seguenti campi:
 
@@ -75,14 +75,14 @@ Di seguito sono riportati i passaggi standard per l'invio di un ordine dal porta
     - **Unità** - Specificare l'unità di misura (ad esempio, **unità**, **kg** o **scatola**).
     - **Importo netto stimato** - Il valore viene calcolato come il prezzo stimato dell'articolo × la quantità nell'unità selezionata.
 
-    ![Finestra di dialogo Informazioni articolo](media/customer-portal-item-information.png "Finestra di dialogo Informazioni articolo")
+    ![Finestra di dialogo Informazioni articolo.](media/customer-portal-item-information.png "Finestra di dialogo Informazioni articolo")
 
 1. Selezionare **Invia** per aggiungere l'articolo all'ordine.
 1. Ripetere i passaggi da 4 a 6 fino a quando non sono stati aggiunti tutti gli articoli che si desidera ordinare.
 1. Dopo aver aggiunto gli articoli, selezionare **Avanti** nella pagina **Articoli**.
 1. La pagina **Informazioni ordine** fornisce un riepilogo dell'ordine. Esaminare il contenuto dell'ordine e i dettagli sulla consegna. Se tutto sembra corretto, selezionare **Invia** per inviare l'ordine.
 
-    ![Pagina Informazioni ordine completata](media/customer-portal-order-submit.png "Pagina Informazioni ordine completata")
+    ![Pagina Informazioni ordine completata.](media/customer-portal-order-submit.png "Pagina Informazioni ordine completata")
 
 ### <a name="standard-data-setup"></a>Configurazione dei dati standard
 
@@ -147,19 +147,19 @@ Tutti i controlli nel portale clienti sono integrati nei controlli dei portali P
 
 L'unico controllo personalizzato incluso nel modello di portale clienti è utilizzato per creare i riquadri nella home page.
 
-![Riquadri nella home page](media/customer-portal-home-page-tiles.png "Riquadri nella home page")
+![Riquadri nella home page.](media/customer-portal-home-page-tiles.png "Riquadri nella home page")
 
 Per utilizzare i riquadri, seguire questi passaggi.
 
 1. Aprire l'[app Gestione portali](/powerapps/maker/portals/configure/configure-portal).
 1. Selezionare **Modelli pagina** nel pannello di navigazione a sinistra.
 
-    ![Pannello di navigazione di Gestione portali](media/customer-portal-nav.png "Pannello di navigazione di Gestione portali")
+    ![Pannello di navigazione di Gestione portali.](media/customer-portal-nav.png "Pannello di navigazione di Gestione portali")
 
 1. Selezionare il modello di pagina denominato **Home**.
 1. Nel campo **Modello Web**, selezionare il collegamento **Home** per aprire il codice sorgente di quella pagina.
 
-    ![Campo Modello Web](media/customer-portal-web-template.png "Campo Modello Web")
+    ![Campo Modello Web.](media/customer-portal-web-template.png "Campo Modello Web")
 
 1. Ora dovrebbe essere visualizzato tutto il codice sorgente della home page, che può essere modificato come necessario.
 

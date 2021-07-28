@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6fd2a8548d4929a7a3b3b6d20adbc230c5edf6ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833044"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355229"
 ---
 # <a name="cost-control-workspace"></a>Area di lavoro controllo costi 
 
@@ -116,7 +116,7 @@ L'area di lavoro **Controllo costi** è stata progettata come report Web. Di con
 
 L'elenco dei report disponibili per gli utenti, ad esempio i responsabili, è controllato dall'impostazione dell'opzione **Pubblicato** nella pagina **Configurazioni area di lavoro controllo costi**.
 
-![Report che gli utenti possono visualizzare nell'area di lavoro Controllo costi](./media/report-cost-control.png)
+![Report che gli utenti possono visualizzare nell'area di lavoro Controllo costi.](./media/report-cost-control.png)
 
 Un responsabile può selezionare il periodo del calendario fiscale da visualizzare. La data della sessione viene utilizzata per determinare il periodo corrente predefinito.
 
@@ -136,11 +136,11 @@ Una griglia mostra ciascun elemento di costo associato al nodo gerarchia dimensi
 
 Due grafici mostrano un riepilogo dei valori effettivi rispetto al budget e lo scostamento budget per periodo.
 
-![I grafici che mostrano un riepilogo dei valori effettivi rispetto al budget e lo scostamento budget per periodo](./media/cost-element-details-operations.png)
+![Grafici che mostrano un riepilogo dei valori effettivi rispetto al budget e lo scostamento budget per periodo.](./media/cost-element-details-operations.png)
 
 Gli utenti possono fare clic su **Voci di costo** per eseguire il drill-down dei dettagli della voce in base alle esigenze.
 
-![Voci di costo](./media/cost-entries.png)
+![Voci di costo.](./media/cost-entries.png)
 
 Ad esempio, il noleggio è una spesa che viene distribuita ai centri di costo. Un utente che desidera conoscere il costo del noleggio incluso nel proprio centro di costo può eseguire il drill-down per vedere come è stato calcolato il noleggio.
 
@@ -148,7 +148,7 @@ Se gli utenti fanno clic su **Base di allocazione** nella pagina **Voci di costo
 
 Nel seguente esempio, la base di allocazione è di tipo **Base di allocazione formula** e la formula viene visualizzata. I fattori che definiscono la formula sono elencati. Inoltre, una griglia visualizza il calcolo effettuato per oggetto di costo.
 
-![Calcoli per oggetto di costo](./media/cost-entries-allocation-base.png)
+![Calcoli per oggetto di costo.](./media/cost-entries-allocation-base.png)
 
 Risorse aggiuntive 
 

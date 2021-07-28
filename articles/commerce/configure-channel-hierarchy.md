@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796126"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352592"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurare un canale per utilizzare una gerarchia di navigazione nei canali
 
@@ -45,7 +45,7 @@ Per configurare un canale allo scopo di utilizzare una gerarchia di navigazione 
 
 L'immagine seguente mostra come configurare un canale allo scopo di utilizzare una gerarchia di navigazione nei canali.
 
-![Esempio di configurazione di un canale](media/configure-channel-hierarchy-1.png)
+![Esempio di configurazione di un canale.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Imposta metadati di attributi
 
@@ -61,9 +61,9 @@ Per impostare i metadati di attributi, procedere come segue.
 
 L'immagine seguente mostra un set di esempi di attributi del prodotto del canale configurati in un nodo di categoria del canale.
 
-![Attributi del canale in un nodo di categoria del canale](media/configure-channel-hierarchy-2.png)
+![Attributi del canale in un nodo di categoria del canale.](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Pubblicare le modifiche
+## <a name="publish-changes"></a>Pubblica modifiche
 
 Affinché le modifiche diventino effettive, è necessario pubblicarle.
 
@@ -74,7 +74,7 @@ Per pubblicare le modifiche, attenersi alla procedura riportata di seguito.
 
 L'immagine seguente mostra come pubblicare gli aggiornamenti dei canali.
 
-![Pubblica aggiornamenti canale](media/configure-channel-hierarchy-3.png)
+![Pubblica aggiornamenti canale.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

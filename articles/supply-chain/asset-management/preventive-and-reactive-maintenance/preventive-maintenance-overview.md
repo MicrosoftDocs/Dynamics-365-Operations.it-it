@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 15478776e9a2152b93e4413105145f2a40cdc506
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50fcff4bb675674bc0b32f0bbd5d06796f2dbce9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821659"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354835"
 ---
 # <a name="preventive-maintenance-overview"></a>Panoramica della manutenzione preventiva
 
@@ -34,7 +34,7 @@ I piani di manutenzione sono utilizzati per la manutenzione preventiva e reattiv
 
 Nell'illustrazione seguente viene fornita una panoramica del flusso di lavoro dalla creazione di piani di manutenzione e cicli di manutenzione alla creazione di ordini di lavoro per cespiti, in base a questi piani e cicli di manutenzione.
 
-![Figura 1](media/01-preventive-maintenance.png)
+![Figura 1.](media/01-preventive-maintenance.png)
 
 
 

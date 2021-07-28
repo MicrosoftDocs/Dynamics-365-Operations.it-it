@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 71e4c8ad122bc52103bda04144222785e9a059f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 406f87b5aaa5917fb075daca453e24f452611826
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817247"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359711"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Aggiungere tipi di relazione tra ruolo ubicazione e parte 
 
@@ -32,25 +32,25 @@ Sono disponibili due modi per aggiungere nuovi ruoli ubicazione per le informazi
 
 -  Aggiungerlo tramite la pagina **Tipo informazioni contatto e indirizzo**. Il nuovo ruolo verrà salvato nella tabella **LogisticsLocationRole** con tipo = 0, che indica che il ruolo non è un ruolo di sistema definito nell'enumerazione **LogisticsLocationRoleType** e le relative estensioni. Un utente potrà utilizzare questo ruolo durante la creazione delle informazioni su indirizzo o contatto.
 
-    ![Tipo informazioni contenuto e indirizzo](media/Address-Contact.PNG)
+    ![Scopo informazioni contenuto e indirizzo.](media/Address-Contact.PNG)
 
 -  Aggiungerlo all'estensione di enumerazione **LogisticsLocationRoleType** e popolarlo automaticamente tramite il processo di sincronizzazione del database.
 
     1.  Creare un'estensione all'enumerazione **LogisticsLocationRoleType** e aggiungere il nuovo ruolo nell'estensione. 
   
-        ![Estensione dell'enumerazione LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Estensione all'enumerazione LogisticsLocationRoleType.](media/Logistics.PNG)
 
     2. Creare un nuovo file di risorse per il nuovo ruolo e quindi assegnare un valore per le relative proprietà.
      
-     ![Nuovo file di risorse](media/Resource.PNG)
+     ![Nuovo file di risorse.](media/Resource.PNG)
         
     3.  Creare una classe di popolamento dati e immettere un metodo di gestore per popolare il nuovo ruolo. 
 
-        ![Popolamento dati](media/Dirdata.PNG)
+        ![Popolamento dati.](media/Dirdata.PNG)
 
     4.  Per testare il popolamento del nuovo ruolo ubicazione, è possibile creare una classe eseguibile e richiamare DirDataPopulation::insertLogisticsLocationRoles() in Main(). Al termine del processo, di dovrebbe vedere il nuovo ruolo popolato nella tabella **LogisticsLocationRole** con tipo \> 0. Il nuovo ruolo verrà visualizzato nella pagina **Tipo informazioni contatto e indirizzo**.
 
-        ![Inserire nuova ubicazione](media/InsertNewLocation.PNG)
+        ![Inserire nuova ubicazione.](media/InsertNewLocation.PNG)
 
 ## <a name="add-party-relationship-types"></a>Aggiungere tipi di relazione parte 
 
@@ -58,7 +58,7 @@ Sono disponibili due modi per aggiungere un nuovo tipo di relazione:
 
 -   Aggiungerlo tramite la pagina **Tipi di relazione**. La nuova relazione verrà salvata in **DirRelationshipTypeTable** con systemtype = 0.
 
-    ![Tipi di relazione](media/Relationship.PNG)
+    ![Tipi di relazione.](media/Relationship.PNG)
 
 -  Aggiungerlo all'estensione dell'enumerazione **DirSystemRelationshipType** e popolarlo automaticamente tramite il processo di sincronizzazione del database.
 
@@ -66,11 +66,11 @@ Sono disponibili due modi per aggiungere un nuovo tipo di relazione:
 
     2. Creare un inizializzatore per questo nuovo tipo. È possibile trovare molti esempi nel codice di base, uno di questi è **DirRelationshipTypeChildInitialize**. Si tratta di una classe di inizializzatore per il tipo di relazione della parte "figlio". È possibile iniziare con l'inizializzatore copiando e incollando questo codice e quindi aggiornare le aree evidenziate.
     
-    ![Inizializzatore DirRelationshipChild](media/DirRelationship.PNG)
+    ![Inizializzatore DirRelationshipChild.](media/DirRelationship.PNG)
 
     3.  Per testare il popolamento del nuovo tipo di relazione, è possibile creare una classe eseguibile e richiamare DirDataPopulation::insertDirRelationshipTypes() in Main(). Si dovrebbe visualizzare il nuovo tipo di relazione in **DirRelationshipTypeTable** e il nuovo tipo di relazione sarà disponibile nella pagina **Tipi di relazione**.
 
-        ![Classe eseguibile](media/Runnable.PNG)
+        ![Classe eseguibile.](media/Runnable.PNG)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

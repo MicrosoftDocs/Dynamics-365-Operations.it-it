@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823838"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360714"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Aggiungere dimensioni finanziarie all'area di lavoro Responsabile finanziario
 
@@ -45,14 +45,14 @@ In questo argomento viene descritto come aggiungere dimensioni finanziarie all'a
 11. Impostare **Direzione filtro incrociato** su **Singola**.
 12. Selezionare **Imposta come relazione attiva** e **Considera integrità referenziale**, selezionare **OK** e quindi **Chiudi**.
 
-    [![Creare una relazione](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Creare una relazione.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. Nell'elenco **Campi**, dovrebbe essere visualizzate la tabella e le dimensioni finanziarie disponibili. Trascinare le dimensioni finanziarie desiderate nei filtri a livello di report.
 14. Salvare le modifiche.
 15. Nella struttura a oggetti applicativi (AOT), fare clic con il pulsante destro del mouse sul progetto e scegliere **Sincronizza**.
 16. Generare il progetto, quindi aprire l'applicazione per visualizzare i risultati.
 
-    [![Area di lavoro completata](./media/workspace.png)](./media/workspace.png)
+    [![Area di lavoro completata.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

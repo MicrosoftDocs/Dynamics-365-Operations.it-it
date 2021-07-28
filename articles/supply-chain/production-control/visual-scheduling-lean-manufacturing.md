@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c94834a491877a69a206f827ad60f12455456e3f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c91de72f32f70fba09c6b7e3ca284553d0c858b1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188853"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353446"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Programmazione visiva per lean manufacturing
 
@@ -47,7 +47,7 @@ Un processo kanban può essere costituito da uno o più processi kanban. Sono di
 ## <a name="kanban-schedule-board"></a>Bacheca programmazione kanban
 La pagina **Bacheca programmazione kanban** contiene sette elementi principali, come illustrato nella figura seguente. 
 
-![Bacheca programmazione kanban](./media/kanban-schedule-board-1024x554.png)
+![Bacheca programmazione kanban.](./media/kanban-schedule-board-1024x554.png)
 1.  Riquadro azioni
 2.  Campi filtro
 3.  Pulsante per i processi non pianificati
@@ -71,7 +71,7 @@ Per aumentare la panoramica fornita dalla bacheca della programmazione kanban, �
 ## <a name="plan-unplanned-jobs"></a>Pianifica processi non pianificati
 È possibile programmare i processi kanban non pianificati nella finestra di dialogo **Pianifica processi non pianificati**. Per aprire la finestra di dialogo, fare clic sul pulsante **Processi non pianificati** contenente il numero corrente di processi non pianificati. In alternativa, fare clic su **Pianifica processi non pianificati** nella scheda **Bacheca** del riquadro azioni. Nella finestra di dialogo viene visualizzato un elenco di processi kanban non pianificati per la cella di lavoro. È possibile utilizzare il campo **Filtro** per filtrare tutti i campi nella griglia. Ad esempio, è possibile filtrare i processi kanban relativi a un prodotto specifico. Quando si dispone di un elenco filtrato dei processi che si desidera programmare, selezionarli nell'elenco e fare clic su **OK**. Per utilizzare la pianificazione automatica per la programmazione dei processi, impostare l'opzione **Pianificazione automatica** su **Sì**. In questo caso, i processi vengono programmati in un periodo in base alla relativa data di scadenza. È inoltre possibile definire la programmazione dei processi per periodo. Basta selezionare un periodo nel campo **Periodo**. Nella figura seguente è illustrato un esempio della finestra dialogo **Pianifica processi non pianificati**. 
 
-![Finestra di dialogo Pianifica processi non pianificati](./media/plan-unplanned-jobs-1024x564.png)
+![Finestra di dialogo Pianifica processi non pianificati.](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Processi kanban in sequenza durante lo stesso periodo
 È possibile modificare la sequenza di uno o più processi selezionati in un determinato periodo. Questa funzione può risultare utile se si desidera assegnare la priorità ai processi durante il periodo. In alternativa, è possibile ordinare i processi con gli stessi attributi del prodotto per ottimizzare l'esecuzione del processo. È possibile modificare la sequenza con un'operazione di trascinamento della selezione o utilizzando le voci di menu **Indietro** e **Avanti** della scheda **Bacheca** del riquadro azioni.

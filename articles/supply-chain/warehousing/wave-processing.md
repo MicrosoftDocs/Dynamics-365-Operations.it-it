@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019029"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355484"
 ---
 # <a name="wave-creation-and-processing"></a>Creazione ed elaborazione dei cicli
 
@@ -42,7 +42,7 @@ Puoi specificare quale di queste opzioni dell'ordine di produzione utilizzare pe
 
 Il diagramma seguente mostra il flusso di come vengono creati, elaborati e rilasciati i cicli di spedizione. I numeri corrispondenti alle sezioni riportate di seguito in questa sezione.
 
-![Procedura per la creazione di un ciclo](media/wave-processing-diagram.png "Procedura per la creazione di un ciclo")
+![Procedura per la creazione di un ciclo.](media/wave-processing-diagram.png "Procedura per la creazione di un ciclo")
 
 ### <a name="prerequisites"></a>Prerequisiti
 
@@ -158,7 +158,7 @@ Quando la funzionalità *Pianifica creazione lavoro* è abilitata, l'elaborazion
 
 Il diagramma di flusso seguente mostra come viene creato il lavoro pianificato durante l'elaborazione dell'ondata.
 
-![Programma creazione lavoro](media/schedule-work-creation-process.png)
+![Programma creazione lavoro.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Lavoro pianificato
 

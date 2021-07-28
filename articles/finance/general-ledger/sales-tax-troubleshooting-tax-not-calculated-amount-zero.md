@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020117"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352812"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>L'imposta non viene calcolata o l'importo dell'imposta è zero
 
@@ -32,17 +32,17 @@ Se la transazione non seleziona i codici imposta corretti o se non seleziona alc
 
 1. Nella riga della transazione, nella scheda dettaglio **Dettagli riga**, nella scheda **Impostazioni**, nella sezione **IVA**, verifica che siano selezionate le fasce IVA corrette nei campi **Fascia IVA articoli** e **Fascia IVA**. Se non sono selezionate le fasce IVA corrette, selezionale.
 
-    [![Campi Fascia IVA articoli e Fascia IVA](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![Campi Fascia IVA articoli e Fascia IVA.](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. Passare a **Imposta** \> **Imposte indirette** \> **IVA** \> **Fasce IVA**.
 3. Seleziona la fascia IVA appropriata, quindi, nella Scheda dettaglio **Impostazioni**, prendere nota del codice imposta nel campo **Codice IVA**.
 
-    [![Pagina Fasce IVA](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![Pagina Fasce IVA.](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. Passare a **Imposta** \> **Imposte indirette** \> **IVA** \> **Fasce IVA articoli**.
 5. Selezionare la fascia IVA articoli appropriata e quindi, nel Scheda dettaglio **Impostazioni**, verificare che il codice imposta nel campo **Codice IVA** corrisponde al codice imposta della fascia IVA.
 
-    [![Pagina Fasce IVA articoli](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![Pagina Fasce IVA articoli.](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. Se i codici imposta non corrispondono, aggiorna il codice IVA per uno dei gruppi.
 
@@ -53,12 +53,12 @@ Se i codici imposta sono esenti o se l'aliquota fiscale è 0 (zero), il risultat
 1. Passare a **Imposta** \> **Imposte indirette** \> **IVA** \> **Fasce IVA**.
 2. Seleziona la fascia IVA appropriata, quindi, nella scheda dettaglio **Impostazioni**, verificare che la casella di controllo **Esenzione** è deselezionata. Se è selezionata, deselezionala.
 
-    [![Casella di controllo Esenzione nella pagina Fasce IVA](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![Casella di controllo Esenzione nella pagina Fasce IVA.](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. Vai a **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA**.
 4. Seleziona il codice IVA appropriato, quindi verifica che il valore dell'aliquota fiscale nel campo **Valore** non è 0 (zero). Se è 0, aggiorna il campo in modo che sia impostato sull'aliquota fiscale corretta.
 
-    [![Campo Valorr nella pagina Valori codice IVA](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![Campo Valore nella pagina Valori codice IVA.](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>Determina se zero è l'importo dell'imposta corretto
 
@@ -67,7 +67,7 @@ In alcuni scenari, un importo di imposta pari a 0 (zero) è corretto. Segui ques
 1. Selezionare **Contabilità generale** \> **Impostazione contabilità generale** \> **Parametri di contabilità generale**.
 2. Nella scheda **IVA**, nel campo **Metodo di calcolo**, verifica che **Totale** sia selezionato.
 
-    [![Campo Metodo di calcolo nella pagina Parametri di contabilità generale](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![Campo Metodo di calcolo nella pagina Parametri di contabilità generale.](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. Vai a **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA**.
 4. Seleziona il codice IVA appropriato, seleziona **Calcolo** \> **Base marginale** e verifica che la base marginale sia impostata su **Importo netto del saldo fattura** o **Totale fattura inclusi altri importi IVA**. Per ulteriori informazioni, vedere [Totale fattura inclusi altri importi IVA](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts).

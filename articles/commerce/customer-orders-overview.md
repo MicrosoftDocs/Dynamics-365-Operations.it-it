@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936732"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349628"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in Point of Sale (POS)
 
@@ -44,7 +46,7 @@ Prima di provare a utilizzare la funzionalità di ordine cliente in POS, assicur
 
 Per utilizzare gli ordini cliente è necessario configurare le modalità di consegna che il canale del punto vendita può utilizzare. È necessario definire almeno una modalità di consegna che può essere utilizzata quando le righe ordine vengono spedite a un cliente da un punto vendita. È necessario anche definire almeno una modalità di prelievo di consegna che può essere utilizzata quando le righe ordine vengono prelevate dal punto vendita. Le modalità di consegna sono definite nella pagina **Modalità di consegna** in Commerce headquarters. Per altre informazioni su come configurare le modalità di consegna per i canali Commerce, vedere [Definire le modalità di consegna](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Pagina Modalità di consegna](media/customer-order-modes-of-delivery.png)
+![Pagina Modalità di consegna.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Impostare gruppi di evasione
@@ -53,7 +55,7 @@ Alcuni punti vendita o ubicazioni di magazzino potrebbero non essere in grado di
 
 In Commerce versione 10.0.12 e successive, le organizzazioni possono definire se le combinazioni magazzino o magazzino e punto vendita definite nei gruppi di evasione ordini possono essere utilizzate per la spedizione, per il prelievo o sia per la spedizione che per il prelievo. Ciò consente una maggiore flessibilità per l'azienda nel determinare quali magazzini possono essere selezionati durante la creazione di un ordine cliente per gli articoli da spedire rispetto a quali punti vendita possono essere selezionati quando si crea un ordine cliente per gli articoli da ritirare. Per usare queste opzioni di configurazione, attiva la funzionalità **Possibilità di specificare le ubicazioni come "Spedizione" o "Ritiro" abilitata nel gruppo di evasione**. Se un magazzino collegato a un gruppo di evasione ordini non è un punto vendita, può essere configurato solo come ubicazione di spedizione. Non può essere utilizzato quando gli ordini per il ritiro sono configurati in POS.
 
-![Pagina Gruppi di evasione](media/customer-order-fulfillment-group.png)
+![Pagina Gruppi di evasione.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Configurare impostazioni di canale
 
@@ -65,7 +67,7 @@ Quando si lavora con gli ordini clienti in POS, è necessario considerare alcune
 - **Utilizza imposta basata su destinazione** - Questa opzione indica se l'indirizzo di spedizione viene utilizzato per determinare il gruppo imposte applicato alle righe ordine spedite all'indirizzo del cliente.
 - **Utilizza imposta basata su cliente** - Questa opzione indica se il gruppo imposte definito per l'indirizzo di consegna del cliente viene utilizzato per tassare gli ordini dei clienti creati in POS per la spedizione all'indirizzo del cliente.
 
-![Impostazione del canale del punto vendita nella pagina Punti vendita](media/customer-order-all-stores.png)
+![Impostazione del canale del punto vendita nella pagina Punti vendita.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Impostare i parametri degli ordini cliente
 
@@ -80,7 +82,7 @@ Prima di provare a creare ordini cliente in POS, è necessario configurare i par
 - **Codice spese di spedizione** - Se l'opzione **Utilizza addebiti automatici avanzati** è impostata su **Sì**, questa impostazione del parametro non ha effetto. Se questa opzione è impostata su **No**, agli utenti verrà richiesto di inserire manualmente una spesa di spedizione quando creano gli ordini cliente in POS. Utilizzare questo parametro per mappare un codice di addebito della contabilità clienti che verrà applicato agli ordini quando gli utenti inseriscono una spesa di spedizione. Il codice di spesa definisce la logica di registrazione finanziaria per la spesa di spedizione.
 - **Utilizza addebiti automatici avanzati** - Impostare questa opzione su **Sì** per utilizzare gli addebiti automatici calcolati dal sistema quando gli ordini cliente vengono creati in POS. Questi addebiti automatici possono essere utilizzati per calcolare le spese di spedizione o altre spese specifiche per ordine o articolo. Per ulteriori informazioni su come impostare e usare le spese automatiche avanzate, vedere [Spese automatiche avanzate omnicanale](./omni-auto-charges.md).
 
-![Scheda Ordini cliente nella pagina Parametri di commercio](media/customer-order-parameters.png)
+![Scheda Ordini cliente nella pagina Parametri di commercio.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Aggiornare i layout delle schermate delle transazioni in POS
 
@@ -95,7 +97,7 @@ Assicurarsi che il [layout dello schermo](./pos-screen-layouts.md) in POS sia co
 - **Modifica modalità di consegna** - Questa operazione può essere utilizzata per modificare rapidamente la modalità di consegna per le righe già configurate per la spedizione, senza richiedere che gli utenti eseguano nuovamente il flusso "Spedisci tutti i prodotti" o "Spedisci prodotti selezionati".
 - **Sostituzione deposito** - Questa operazione può essere utilizzata per modificare l'importo del deposito che il cliente pagherà per l'ordine cliente selezionato.
 
-![Operazioni nella schermata delle transazioni POS](media/customer-order-screen-layout.png)
+![Operazioni nella schermata delle transazioni POS.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Utilizzare gli ordini cliente in POS
 

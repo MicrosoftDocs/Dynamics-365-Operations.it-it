@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e895c2d337139aa9a2b1f21b60675f956da9c7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747153"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348555"
 ---
 # <a name="workflow-elements"></a>Elementi flusso di lavoro
 
@@ -60,7 +60,7 @@ Un *processo di approvazione* è costituito da vari passaggi separati. A ogni pa
 
 È possibile creare un flusso di lavoro per elaborare documenti o le voci in un documento. Si supponga ad esempio di aver creato un flusso di lavoro di approvazione per fogli presenze. Verrà fatto riferimento al flusso di lavoro come *flusso di lavoro del documento*. È possibile aggiungere un *flusso di lavoro voci* a tale flusso di lavoro del documento. Quando viene eseguito l'elemento voce, ogni voce nel documento viene inviata per l'elaborazione. È possibile decidere di elaborare tutte le voci tramite lo stesso flusso di lavoro voci oppure elaborare ogni singola voce tramite un flusso di lavoro voci diverso. Si supponga che un dipendente abbia inviato un foglio presenze analogo a quello illustrato nella figura indicata di seguito.
 
-![Flusso di lavoro con voci](./media/workflow_lineitemworkflow.gif)
+![Flusso di lavoro con voci.](./media/workflow_lineitemworkflow.gif)
 
 In questo scenario è possibile creare i flussi di lavoro voci seguenti:
 

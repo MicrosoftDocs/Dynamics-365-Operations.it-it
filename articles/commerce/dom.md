@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792777"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356856"
 ---
 # <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM - Distributed Order Management)
 
@@ -32,11 +32,11 @@ Per contribuire a migliorare l'esperienza dei clienti, i rivenditori al dettagli
 
 La gestione degli ordini distribuiti ottimizza l'evasione degli ordini attraverso una rete complessa di sistemi e processi. Si basa su un'unica visualizzazione globale che copre l'intera organizzazione e consente la gestione intelligente degli ordini, in modo da poterli evadere in maniera accurata e più conveniente. Tramite il miglioramento dell'efficienza della supply chain di un rivenditore, la gestione degli ordini distribuiti garantisce una migliore soddisfazione delle aspettative del cliente da parte del rivenditore al dettaglio.
 
-Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un sistema di gestione degli ordini distribuiti.
+Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un sistema DOM.
 
-![Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti](./media/flow.png "Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti")
+![Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti.](./media/flow.png "Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti")
 
-## <a name="set-up-dom"></a>Impostare la gestione degli ordini distribuiti
+## <a name="set-up-dom"></a>Impostare DOM
 
 1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
 2. Nella scheda **Chiavi di configurazione**, espandere il nodo **Commerce**, quindi selezionare la casella di controllo **Gestione ordini distribuiti**.
@@ -200,7 +200,7 @@ Al momento dell'elaborazione, la gestione degli ordini distribuiti prenderà in 
 
 Dopo aver applicano le regole, i vincoli delle scorte e l'ottimizzazione, la gestione degli ordini distribuiti seleziona l'ubicazione più vicina all'indirizzo di consegna del cliente.
 
-![Criteri dell'ordine cliente](./media/ordercriteria.png "Criteri dell'ordine cliente")
+![Criteri dell'ordine cliente.](./media/ordercriteria.png "Criteri dell'ordine cliente")
 
 ## <a name="results-of-dom-runs"></a>Risultati delle esecuzioni DOM
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c31564fdc40cb0cba82b9ab8fbfdfee7adf4f4ee
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053011"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353688"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definire e gestire un programma di benefit
 
@@ -32,7 +32,7 @@ Human Resources fornisce un set di strumenti che possono essere utilizzati per i
 
 Prima che i lavoratori possano essere iscritti al benefit, è necessario creare gli elementi di ogni benefit. Questi elementi combinano piani di benefit simili e definiscono le impostazioni predefinite, ad esempio le percentuali di detrazione e i dettagli di contabilità. Molte di queste impostazioni possono essere modificate una volta che i lavoratori sono iscritti al benefit. Per ciascun piano di benefit, un'organizzazione può offrire più opzioni di iscrizione oppure un lavoratore può rinunciare all'iscrizione nel piano. 
 
-[![Flusso di elaborazione benefit](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Flusso di elaborazione benefit.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Elementi benefit
 
@@ -44,7 +44,7 @@ Prima di iniziare a creare i benefit e iscrivere i lavoratori, è necessario def
 
 Per ogni tipo di benefit, ad esempio visivo o dentistico, un'organizzazione può offrire uno o più piani ai lavoratori. Per ciascun piano, l'organizzazione può offrire opzioni diverse. Ad esempio, i lavoratori possono acquistare la copertura aggiuntiva dell'assicurazione vitalizia in una, due o tre volte la retribuzione annuale. Ogni combinazione di piano e di opzioni diventa un benefit a cui i lavoratori possono iscriversi. 
 
-[![immagine benefit](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![immagine benefit.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Idoneità
 Molti fattori determinano l'idoneità del lavoratore per diversi tipi di benefit che un datore di lavoro offre. Quando si crea un benefit in Dynamics 365 Human Resources, è possibile impostare il tipo di idoneità applicabile al benefit. 

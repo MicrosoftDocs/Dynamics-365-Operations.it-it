@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271103"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350572"
 ---
 # <a name="message-processor-messages"></a>Messaggi dell'elaboratore messaggi
 
@@ -88,15 +88,15 @@ In questo esempio, l'uso di **Quando si verifica un evento aziendale** con *Micr
 
 1. In [Power Automate](https://preview.flow.microsoft.com), crea un nuovo flusso cloud automatizzato per il trigger di flusso **Quando si verifica un evento aziendale - App Fin & Ops (Dynamics 365)** seguito dai passaggi **Analizza JSON** e **Invia un'e-mail**, come mostrato nell'illustrazione seguente.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flusso cloud automatizzato di Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flusso cloud automatizzato di Power Automate.":::
 
 1. Nel passaggio **Quando si verifica un evento aziendale** puoi cercare o inserire l'**Istanza** hub seguendo la **Categoria** e poi l'**Evento aziendale** *Messaggio elaboratore messaggi elaborato*, come mostrato nell'illustrazione seguente.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Passaggio Power Automate Quando si verifica un evento aziendale":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Passaggio Power Automate Quando si verifica un evento aziendale.":::
 
 1. Per il passaggio **Analizza JSON**, immettere uno **Schema** che definisce i campi estesi. Puoi usare l'opzione *Scarica schema* nella pagina **Catalogo eventi aziendali** in Supply Chain Management o iniziare incollando il testo dello schema di esempio. Questo testo di esempio viene fornito dopo la seguente illustrazione.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Passaggio Power Automate Analizza JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Passaggio Power Automate Analizza JSON.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ In questo esempio, l'uso di **Quando si verifica un evento aziendale** con *Micr
 
 1. Nel passaggio **Invia e-mail**, è possibile selezionare i singoli campi o iniziare incollando l'esempio del corpo dell'email nel campo **Corpo**. Questo esempio viene fornito dopo la seguente illustrazione.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Passaggio Power Automate Invia e-mail":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Passaggio Power Automate Invia e-mail.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

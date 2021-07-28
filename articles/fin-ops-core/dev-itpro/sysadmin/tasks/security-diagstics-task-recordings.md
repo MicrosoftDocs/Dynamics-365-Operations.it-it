@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745767"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358551"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnostica di sicurezza per registrazioni attività
 
@@ -39,7 +39,7 @@ Questo argomento fornisce informazioni su come analizzare e gestire i requisiti 
 
 4. Nel campo **ID utente** selezionare un utente. Se l'utente non dispone delle autorizzazioni per alcune voci di menu, il campo **Autorizzazioni mancanti** verrà modificato in **Sì**.
   
-  ![Pagina dei dettagli delle voci del menu Sicurezza](../media/Security-Menu-Item-Details.png)
+  ![Pagina dei dettagli delle voci del menu Sicurezza.](../media/Security-Menu-Item-Details.png)
 
 5. Selezionare **Aggiungi riferimento** per visualizzare un elenco degli oggetti di sicurezza, inclusi ruoli, compiti e privilegi che concedono l'autorizzazione mancante.
 6. Selezionare un oggetto di sicurezza dall'elenco:

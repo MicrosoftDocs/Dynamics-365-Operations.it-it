@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e51c6914aab7261862a7ce180376b67d01711e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754266"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359461"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Impostare la sicurezza dei contenuti Power BI di analisi contabilità industriale
 
@@ -42,11 +42,11 @@ Per propagare la protezione a livello di accesso a Power BI, il proprietario del
 3. Individuare il set di dati per il contenuto Power BI **Analisi della contabilità industriale**.
 4. Aprire la pagina di protezione.
 
-    ![Apertura della pagina di protezione](./media/CA-picture-1.png)
+    ![Apertura della pagina di protezione.](./media/CA-picture-1.png)
 
 5. Il ruolo **Controller oggetto di costo** è già creato. Aggiungere altri membri che fanno parte della gerarchia organizzativa a livello di accesso della contabilità industriale.
 
-    ![Aggiunta di membri](./media/CA-picture-2.png)
+    ![Aggiunta di membri.](./media/CA-picture-2.png)
 
 Gli utenti aggiunti al ruolo **Controller oggetto di costo** visualizzeranno solo i dati sono autorizzati a visualizzare, in base alla definizione della gerarchia organizzativa a livello di accesso della contabilità industriale.
 

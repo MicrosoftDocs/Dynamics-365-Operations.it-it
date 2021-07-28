@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791681"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354615"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Sincronizzare valutazioni sul prodotto in Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Per verificare che il processo secondario **RetailProductRating** esista, effett
 
 Nella figura seguente è illustrato un esempio dei dettagli del processo secondario in Commerce.
 
-![Dettagli del processo secondario RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![Dettagli del processo secondario RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Se non si trova il processo secondario **RetailProductRating**, è possibile che il processo **Sincronizzare valutazioni di prodotti** e il processo **1040 CDX** siano già stati eseguiti prima di inizializzare l'utilità di pianificazione di commercio. In tal caso, effettuare le operazioni indicate di seguito per eseguire il processo **Sincronizzazione dati completa**.
@@ -83,7 +83,7 @@ Per importare valutazioni di prodotti in Commerce dal servizio Valutazioni e rec
 
 Nella figura seguente è illustrato un esempio di configurazione di processo batch in Commerce.
 
-![Configurazione del processo batch Sincronizza valutazioni di prodotti](media/rnr-hq-batchjob-recurrence.png)
+![Configurazione del processo batch Sincronizza valutazioni di prodotti.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Verificare che il processo batch per la sincronizzazione delle valutazioni di prodotti sia stato eseguito correttamente
 
@@ -95,7 +95,7 @@ Per verificare l'esito positivo del processo batch **Sincronizza valutazioni di 
 
 Nella figura seguente è illustrato un esempio di dettagli di un processo batch in Commerce quando l'esecuzione del processo batch deve avvenire ogni due ore.
 
-![Dettagli del processo batch Sincronizza valutazioni di prodotti](media/rnr-hq-batchjob-status-checking.png)
+![Dettagli del processo batch Sincronizza valutazioni di prodotti.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Rendere le valutazioni di prodotti disponibili nel POS
 
@@ -113,21 +113,21 @@ Per attivare le valutazioni di prodotti nel POS, effettuare le seguenti operazio
 
 Nella figura seguente è illustrato un esempio di configurazione dei parametri di commercio per attivare le valutazioni di prodotti nel POS.
 
-![Configurazione dei parametri di commercio per la valutazioni di prodotti nel POS](media/rnr-hq-enable-ratings-in-pos.png)
+![Configurazione dei parametri di commercio per la valutazioni di prodotti nel POS.](media/rnr-hq-enable-ratings-in-pos.png)
 
 Di seguito viene illustrato un esempio delle valutazioni di prodotti nel POS.
 
-![Valutazioni di prodotti nel POS](media/rnr-pos-catalog-ratings.png)
+![Valutazioni di prodotti nel POS.](media/rnr-pos-catalog-ratings.png)
 
 Di seguito viene illustrato un esempio delle valutazioni di prodotti nei canali servizio clienti.
 
-![Valutazioni di prodotti in un canale servizio clienti](media/rnr-call-center-ratings.png)
+![Valutazioni di prodotti in un canale servizio clienti.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica valutazioni e recensioni](ratings-reviews-overview.md)
+[Panoramica valutazioni e revisioni](ratings-reviews-overview.md)
 
-[Consentire l'utilizzo di valutazioni e recensioni](opt-in-ratings-reviews.md)
+[Consentire utilizzo di valutazioni e sulle revisioni](opt-in-ratings-reviews.md)
 
 [Gestire valutazioni e recensioni](manage-reviews.md)
 

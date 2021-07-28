@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 17251
+ms.custom:
+- "17251"
+- intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 93e5d46d6b9817b7f019e529bf4da6199bc29dbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898212"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355726"
 ---
 # <a name="budget-planning-overview"></a>Panoramica della pianificazione del budget
 
@@ -40,7 +42,7 @@ Un'organizzazione può configurare la pianificazione del budget e quindi imposta
 - **Fasi di pianificazione del budget** Le fasi di pianificazione del budget definiscono i passaggi che un piano di budget deve seguire dall'approvazione iniziale a quella finale. Le fasi di pianificazione del budget sono disposte in flussi di lavoro di pianificazione del budget.
 - **Flussi di lavoro di pianificazione del budget** I flussi di lavoro di pianificazione del budget sono costituiti e definiscono le fasi della pianificazione del budget. I flussi di lavoro di pianificazione del budget sono associati ai flussi di lavoro impostazione budget. I flussi di lavoro impostazione budget sono i processi automatizzati e manuali che spostano i piani di budget tra le fasi di pianificazione del budget.
 
-[![Terminologia relativa alla pianificazione del budget](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Terminologia relativa alla pianificazione del budget.](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>Attività tipiche
 
@@ -65,11 +67,11 @@ Il primo passo facoltativo sebbene consigliato consiste nel creare uno schema co
 
 La figura seguente illustra un esempio generico, in cui flussi di lavoro separati di pianificazione del budget vengono creati per diversi livelli dell'organizzazione. Le fasi sono definite in ciascun flusso di lavoro e vengono assegnati scenari specifici a ciascuna fase per utilizzare i dati di budget. Le attività vengono completate per spostare i dati da una fase alla successiva. Ad esempio, gli importi possono essere aggregati o allocati a diversi conti, approvazioni o altra revisione. In questa illustrazione, il testo corsivo indica uno scenario che non può essere modificato durante la fase oppure i dati dello storico o che sono stati approvati in una fase precedente e pertanto non devono essere modificati.
 
-[![Schema generico di pianificazione del budget](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Schema generico di pianificazione del budget.](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 La seguente illustrazione mostra un esempio in cui la sede centrale aziendale stima gli importi di base del budget iniziale e li distribuisce ai reparti vendite. I reparti vendite quindi stimano e inviano la previsione di nuovo alla sede centrale, dove il responsabile budget aggrega e modifica la previsione. Infine, il responsabile budget invia gli importi del budget rettificati al responsabile finanziario per la revisione, le rettifiche finali e l'approvazione.
 
-[![Esempio di schema di pianificazione del budget](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Esempio di schema di pianificazione del budget.](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>Gerarchia organizzativa per la pianificazione del budget
 
@@ -93,7 +95,7 @@ La procedura consigliata consiste nel creare un flusso di lavoro di pianificazio
 
 Creare il flusso di lavoro impostazione budget per la pianificazione del budget nella pagina **Flussi di lavoro impostazione budget**. Il processo è analogo a quello per creare altri flussi di lavoro. Nella figura seguente viene illustrato un esempio di un flusso di lavoro della sede centrale.
 
-[![Flusso di lavoro impostazione budget per la pianificazione del budget](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Flusso di lavoro impostazione budget per la pianificazione del budget.](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 Il flusso di lavoro contiene i seguenti elementi:
 
@@ -141,11 +143,11 @@ Quando si imposta un'allocazione di fase, associare il flusso di lavoro e la fas
 
 Nello schema di esempio mostrato in precedenza in questo argomento, un'allocazione viene eseguita per trasferire gli importi da un piano di budget e dagli scenari della fase "di base" della sede centrale a un altro piano di budget e agli scenari della fase "di stima" dei reparti vendite. La figura seguente mostra la sezione dello schema di esempio.
 
-[![Allocazioni di fasi](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Allocazioni di fasi.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 Inoltre, nello schema di esempio, un'aggregazione viene eseguita dai piani di budget e dagli scenari della fase "inviata" dei reparti vendite a un piano padre della fase di "aggiornamento cumulativo" delle sedi centrali. La figura seguente mostra la sezione dello schema di esempio.
 
-[![Aggregazione](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Aggregazione.](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Priorità
 
@@ -163,7 +165,7 @@ Oltre alle colonne per gli importi del budget, è possibile definire le colonne 
 
 Per lo schema di esempio, è possibile voler creare colonne per gli scenari "Vendite anno fiscale", "Contratti" e "Previsione". La seguente illustrazione mostra la sezione rilevante dello schema. È quindi possibile suddividere uno o tutti questi scenari in colonne separate per ogni trimestre dell'anno fiscale, in modo che il responsabile del reparto vendite possa correttamente immettere gli importi di previsione per ciascun periodo.
 
-[![Illustrazione delle sezioni dello schema per l'aggiunta di colonne](./media/columns.png)](./media/columns.png)
+[![Illustrazione delle sezioni dello schema per l'aggiunta di colonne.](./media/columns.png)](./media/columns.png)
 
 Inoltre, è possibile specificare se ogni elemento di layout (colonna) è modificabile e se è disponibile in qualsiasi modello del foglio di lavoro creato per il layout. Per lo schema di esempio, nel layout utilizzato per la fase di "stima", le colonne di "previsione" sono modificabili, mentre le colonne di "vendite anno fiscale" e dei "contratti" sono di sola lettura.
 
@@ -201,7 +203,7 @@ Il menu **Azioni** può essere utilizzato per creare un nuovo processo copiandon
 
 Un altro comando utile nel menu **Azioni** è **Visualizza stato del processo di budget**. Questo comando consente di mostrare graficamente i piani di budget all'interno di un processo, insieme ai dati rilevanti, ad esempio lo stato del flusso di lavoro dei piani, i riepiloghi per importo e per unità e la navigazione con un clic ai piani di budget stessi.
 
-[![Stato del processo di pianificazione del budget](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Stato del processo di pianificazione del budget.](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

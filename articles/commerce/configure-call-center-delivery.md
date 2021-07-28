@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796150"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352616"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurare le modalità e le spese di consegna del servizio clienti
 
@@ -65,11 +65,11 @@ Nella sezione **Righe**, è possibile definire una o più spese per valuta, in b
 
 Le società spesso configurano le spese a livelli. In questo caso, l'importo che i clienti pagano per la consegna è basato sul valore dell'ordine. Per configurare le spese a livelli, immettere i valori nei campi **Da importo** e **A importo** oltre a definire le spese stesse nel campo **Valore spese**. Ad esempio, per gli ordini con un valore inferiore a $50, un rivenditore addebita $5,95 per una via terra. Per ordini con un valore uguale o maggiore di $50, ma inferiore a $100 il rivenditore addebita $7,95. Infine, per ordini con un valore uguale o maggiore di $100, il rivenditore offre la spedizione gratuita. Nella seguente figura viene illustrata la configurazione di queste spese.
 
-![Esempio di spese a livelli fisse](media/fixedtieredcharges.png)
+![Esempio di spese a livelli fisse.](media/fixedtieredcharges.png)
 
 È possibile utilizzare un misto di categorie per le spese, in base alle proprie esigenze aziendali. Ad esempio, per tutti gli ordini con un valore inferiore a $100, si applica un addebito fisso di $9,95 per la spedizione. Quindi, per gli ordini con valore uguale o maggiore di $100, le spese di consegna vengono calcolate al tasso del 5% del valore dell'ordine. Nella seguente figura viene illustrata la configurazione di queste spese.
 
-![Esempio di spese a livelli miste](media/mixedtieredcharges.png)
+![Esempio di spese a livelli miste.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Applicare modi di consegna durante la registrazione di ordini in un servizio clienti
 

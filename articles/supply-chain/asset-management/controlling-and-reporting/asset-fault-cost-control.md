@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 44b101c3b386c3edd8aec4c44e8ee834519718ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bbf2d6b8e22981db76ca028073f8170cbe7f40b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811184"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361068"
 ---
 # <a name="asset-fault-cost-control"></a>Controllo costo degli errori dei cespiti
 
@@ -56,7 +56,7 @@ In questo esempio viene illustrato un calcolo del controllo costi dell'errore ce
 - Nel campo **Costo effettivo** sono visualizzati i costi registrati negli ordini di lavoro. 
 - Nel campo **Costo impegnato** sono visualizzati i costi totali della società in relazione agli ordini di lavoro.
 
-    ![Figura 1](media/05-controlling-and-reporting.png)
+    ![Figura 1.](media/05-controlling-and-reporting.png)
 
 Per informazioni su come impostare gli errori, fare riferimento alla sezione [Gestione errori](../setup-for-work-orders/fault-management.md).
 

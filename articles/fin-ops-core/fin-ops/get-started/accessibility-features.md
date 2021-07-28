@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744125"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360302"
 ---
 # <a name="accessibility-features"></a>Funzionalità di accessibilità
 
@@ -52,13 +52,13 @@ Ogni azione che viene fornita in una pagina è disponibile da una tastiera, tram
 
 Si desidera eseguire l'azione **Registro notifiche tramite posta elettronica** che appare nel gruppo **Notifica tramite posta elettronica** della scheda **Ordine cliente** nel riquadro azioni.
 
-![Azione Registro notifiche tramite posta elettronica nel riquadro Azioni](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Azione 'Registro notifiche tramite posta elettronica' nel riquadro Azioni")
+![Azione Registro notifiche tramite posta elettronica nel riquadro Azioni.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Azione 'Registro notifiche tramite posta elettronica' nel riquadro Azioni")
 
 Un'opzione consiste nell'utilizzare la tastiera. Premere CTRL+F6 per spostare lo stato attivo nel riquadro azioni, quindi premere TAB ripetutamente per spostarsi tra tutte le tabulazioni e le azioni fino a raggiungere l'azione **Registro notifiche tramite posta elettronica**.
 
 Tuttavia, è possibile eseguire l'azione più direttamente. Da un punto qualsiasi nella pagina, premere CTRL+Apostrofo (') per visualizzare la casella di ricerca per le azioni.
 
-![Casella di ricerca delle azioni](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Casella di ricerca delle azioni")
+![Casella di ricerca delle azioni.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Casella di ricerca delle azioni")
 
 Nella casella di ricerca, digitare parole che descrivono l'azione. L'azione viene resa disponibile e l'utente può eseguirla direttamente. Ad esempio, digitando **registro**, **notific** (parola parziale) o **posta elettronica**, è possibile passare alla funzionalità Registro notifiche tramite posta elettronica.
 

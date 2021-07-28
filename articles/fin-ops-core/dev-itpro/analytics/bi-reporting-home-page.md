@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754496"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354417"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Home page creazione di report e analisi con Power BI
 
@@ -37,11 +39,11 @@ Le aree di lavoro possono utilizzare contenuti di infografica e oggetti visivi s
 
 Gli utenti possono interagire con i dati facendo clic su o toccando gli oggetti visivi nella pagina. In questo modo è possibile visualizzare eventi di causa/effetto ed eseguire semplici operazioni di tipo what-if senza uscire dall'area di lavoro. Grazie a oggetti visivi accattivanti e interattivi, gli utenti possono esplorare i dati e scoprire tendenze nascoste in modo estremamente semplice.
 
-![Esempio di Power BI in un'area di lavoro](./media/Power-BI-in-D365-Workspace.png)
+![Esempio di Power BI in un'area di lavoro.](./media/Power-BI-in-D365-Workspace.png)
 
 Per ulteriori informazioni, vedere gli argomenti seguenti:
 
-- [Power BI Embedded in aree di lavoro](embed-power-bi-workspaces.md)
+- [Power BI incorporato in aree di lavoro](embed-power-bi-workspaces.md)
 - [Integrazione di Power BI Embedded](power-bi-embedded-integration.md)
 - [Aggiungere analisi alle aree di lavoro tramite Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Proteggere le aree di lavoro e i report analitici con Power BI Embedded](secure-analytical-workspaces.md)
@@ -50,7 +52,7 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 ## <a name="business-documents-and-printing"></a>Documenti aziendali e stampa
 Le soluzioni di creazione report vengono spesso utilizzate per acquisire e comunicare i dettagli di transazioni aziendali. Di conseguenza, una soluzione di creazione report deve essere in grado di produrre manifestazioni fisiche di dati aziendali utilizzando dispositivi esistenti, ad esempio stampanti di rete. Esempi di documenti aziendali includono fatture di vendita, rendiconti cliente e assegni.
 
-[![Esempio di documenti aziendali](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Esempio di documenti aziendali.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Per ulteriori informazioni, vedere gli argomenti seguenti:
 
@@ -61,18 +63,18 @@ Per ulteriori informazioni, vedere gli argomenti seguenti:
 ## <a name="electronic-reporting"></a>Creazione di report elettronici
 Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici conformi ai requisiti legali di vari paesi/aree geografiche. Le applicazioni di creazione di report elettronici includono i controlli finanziari, le dichiarazioni fiscali e la fatturazione elettronica.
 
-[![Esempio di creazione di report elettronici](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Esempio di creazione di report elettronici.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Per ulteriori informazioni, vedere gli argomenti seguenti:
 
-- [Panoramica dei report elettronici](general-electronic-reporting.md)
+- [Panoramica della creazione di report elettronici](general-electronic-reporting.md)
 - [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](general-electronic-reporting-manage-configuration-lifecycle.md)
 - [Creare configurazioni per la creazione di report elettronici](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Creazione di report finanziari
 I report finanziari standard sono forniti per utilizzare le categorie di conti principali predefiniti. È possibile utilizzare la finestra di progettazione report per creare o modificare i rendiconti finanziari tradizionali, ad esempio conti economici e stati patrimoniali. È possibile quindi condividere i risultati con altri membri dell'organizzazione. Esempi di report finanziari includono gli stati patrimoniali, il flusso di cassa e il bilancio di verifica riepilogativo annuale.
 
-[![Esempio di creazione di report finanziari](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Esempio di creazione di report finanziari.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Per ulteriori informazioni, vedere gli argomenti seguenti:
 

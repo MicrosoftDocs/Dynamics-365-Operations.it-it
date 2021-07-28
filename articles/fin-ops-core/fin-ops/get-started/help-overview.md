@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
+ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923448"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373369"
 ---
 # <a name="help-system"></a>Guida
 
@@ -35,7 +37,7 @@ Gli utenti delle seguenti app possono accedere alla Guida sensibile al contesto 
 
 In tutte queste app puoi accedere alla Guida specifica del prodotto dal riquadro **Guida**.
 
-![Riquadro della Guida](./media/help-pane-ops-help.png)
+![Riquadro della Guida.](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Guida sul sito docs.microsoft.com
 
@@ -46,12 +48,23 @@ Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) rap
 
 Puoi trovare contenuti su docs.microsoft.com usando qualsiasi motore di ricerca. Per i risultati ottimali ti consigliamo di utilizzare una ricerca del tipo **site:docs.microsoft.com dynamics 365 "termine di ricerca"**.
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ricevi notifiche sulle modifiche tramite un feed RSS
+<!--## Get notified about changes through an RSS feed
 
-Per iscriverti a un feed RSS (Really Simple Syndication) di tutti gli aggiornamenti relativi al contenuto di docs.microsoft.com, utilizza il seguente collegamento:
+To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
 
-[Feed RSS](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
+> [!NOTE]
+> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+
+Alternatively, you can subscribe to an RSS feed by app:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
 ### <a name="leave-us-feedback"></a>Invia commenti e suggerimenti
 
 Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento nella parte inferiore della pagina.
@@ -60,7 +73,7 @@ Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento n
 
 2. Inizia a digitare i commenti quindi seleziona **Invia commenti e suggerimenti**.
 
-    ![Pubblica un commento](./media/feedback.png)
+    ![Pubblica un commento.](./media/feedback.png)
 
 > [!NOTE]
 > Se desideri inviare un feedback sulla documentazione, devi accedere utilizzando un account GitHub. Per ulteriori informazioni, vedi [Impostazione e gestione del profilo GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -84,11 +97,11 @@ La guida attività è un'esperienza controllata, guidata e interattiva che guida
 
 Microsoft ha rilasciato le librerie delle guide attività per le versioni dei prodotti fino alla versione di dicembre 2017 di Dynamics 365 for Finance and Operations. La sezione [Accesso alle guide attività dal riquadro Guida](#accessing-task-guides-from-the-help-pane) di questo argomento descrive come trovare le guide attività appropriate per il prodotto.
 
-![Visualizzazione lettura delle guide attività](./media/task-guide-ops.png)
+![Visualizzazione lettura della guida attività.](./media/task-guide-ops.png)
 
 Per avviare l'esperienza guidata e interattiva, seleziona **Avvia guida attività** nella parte inferiore del riquadro **Guida**. Un puntatore nero ti mostra dove andare per primo. Seguire le istruzioni visualizzate nell'interfaccia utente e immettere i dati come richiesto.
 
-![Istruzione dettagliata della guida attività](./media/task-guide-step-1-ops.png)
+![Istruzione dettagliata della guida attività.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > I dati immessi quando si riproduce una guida attività sono reali. Se si è in un ambiente di produzione, i dati verranno immessi nella società attualmente utilizzata.
@@ -101,7 +114,7 @@ Alcuni campi hanno descrizioni dei campi per aiutare gli utenti a sbloccarsi qua
 
 Per accedere al contenuto della Guida, seleziona il pulsante **Guida** (**?**), quindi seleziona **Guida**. In alternativa, premi **CTRL + MAIUSC + ?**. In entrambi i casi, verrà visualizzato il riquadro della **Guida**. Dal riquadro **Guida**, puoi accedere ad argomenti concettuali o guide attività pertinenti all'area del prodotto in cui ti trovi attualmente.
 
-![Riquadro della Guida](./media/help-pane-ops-help.png)
+![Riquadro della Guida.](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Accesso agli argomenti della Guida dal riquadro Guida
 
@@ -118,13 +131,13 @@ Affinché si possa accedere alle guide attività dal riquadro **Guida**, un ammi
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -132,7 +145,7 @@ On the **System parameters** page, follow these steps:
 
 Dopo che un amministratore di sistema ha completato questi passaggi, puoi aprire il riquadro della **Guida** e seleziona la scheda **Guide attività**. Vengono visualizzate le guide attività applicabili alla pagina attualmente aperta. Se non viene trovata alcuna guida attività, è possibile immettere le parole chiave per ridefinire la ricerca. Dopo aver selezionato una guida attività, nel riquadro **Guida**, il riquadro **Guida** visualizza le istruzioni dettagliate ed è possibile riprodurre la guida attività.
 
-![Visualizzazione lettura delle guide attività](./media/task-guide-ops.png)
+![Visualizzazione lettura della guida attività.](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Dove sono le guide attività tradotte per le librerie Microsoft?
 
