@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 491809a9828143ffe65391042112fd1f8acf9bb2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5efc7790a27212921839bafd2cf5054d17d1462a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894744"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348446"
 ---
 # <a name="sort-sales-invoice-lines-by-packing-slip"></a>Ordinare le righe fattura di vendita per documento di trasporto
 
@@ -32,18 +32,18 @@ In Italia, le aziende devono spesso emettere *fatture accompagnatorie*. Le fattu
 - Nell'area di lavoro **Gestione funzionalità**, verificare che la funzionalità **Ordinamento righe fattura fornitore per documento di trasporto** sia attivata. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Le fatture clienti devono utilizzare il nuovo layout **SalesInvoice.Report \_IT**. Andare a **Contabilità clienti** /> **Impostazioni** /> **Moduli** /> **Impostazione moduli**, quindi sulla scheda **Generale** selezionare **Gestione stampa**. Sulla pagina **Impostazione Gestione stampa**, sotto **Modulo - Contabilità clienti\> Fattura cliente** selezionare **Originale \<Default\>**. Quindi, nel campo **Formato report** selezionare **SalesInvoice.Report \_IT**.
 
-    ![Nuovo layout selezionato per le fatture cliente](media/emea-ita-exil-invoice-packing-slip-pic2.jpg)
+    ![Nuovo layout selezionato per le fatture cliente.](media/emea-ita-exil-invoice-packing-slip-pic2.jpg)
 
 > [!NOTE]
 > Quando è attivata la funzione **Ordinamento righe fattura fornitore per documento di trasporto** è attivata, il sistema ignora l'impostazione della casella di controllo **Stampa specifiche documento di trasporto** sulla scheda **Fattura** della pagina **Impostazione moduli** ( **Contabilità clienti \>Impostazioni \>Moduli \> Impostazione moduli**). Anche se questa casella di controllo è selezionata, viene trattata come se fosse deselezionata.
 >
-> ![Casella di controllo Stampa specifiche documento di trasporto](media/emea-ita-exil-invoice-packing-slip-pic3.jpg)
+> ![Casella di controllo Stampa specifiche documento di trasporto.](media/emea-ita-exil-invoice-packing-slip-pic3.jpg)
 
 ## <a name="printing-accompanying-invoices"></a>Stampa delle fatture accompagnatorie
 
 Dopo aver attivato e impostato la funzionalità, il report sulla fattura stampato conterrà le righe della fattura raggruppate e ordinate per documento di trasporto.
 
-![Esempio di fattura in cui le righe della fattura sono raggruppate e ordinate per documento di trasporto](media/emea-ita-exil-invoice-packing-slip-pic.jpg)
+![Esempio di fattura in cui le righe sono raggruppate e ordinate per documento di trasporto.](media/emea-ita-exil-invoice-packing-slip-pic.jpg)
 
 > [!NOTE]
 > Il nuovo layout è applicabile solo alle fatture basate su ordini cliente. Non è applicabile alle fatture a testo libero, poiché non utilizzano documenti di trasporto.

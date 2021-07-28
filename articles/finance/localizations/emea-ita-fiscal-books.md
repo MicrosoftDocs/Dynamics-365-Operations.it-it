@@ -2,7 +2,7 @@
 title: Libri IVA italiani
 description: Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
 author: ShylaThompson
-ms.date: 08/25/2020
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953de67ced3a55faefaae8b50665182314697eb3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8885febab77ec5b3c630799a43cfdd6338a8a5eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814918"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348434"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 
@@ -225,13 +225,31 @@ Utilizzare la finestra di dialogo **Cambia numero prima pagina** per modificare 
 | Modificato in        | Immettere il nuovo primo numero di pagina da utilizzare nel report IVA finale. |
 
 ## <a name="using-sales-tax-books"></a>Uso dei libri IVA
-Quando l'impostazione viene completata, i sezionali IVA vengono visualizzati nella scheda **Sequenze numeriche** delle pagine seguenti:
+Una volta completata l'impostazione, la sezione del libro IVA che corrisponde al codice di sequenza numerica appropriato viene visualizzata nella colonna **Sezione libro IVA** sulla scheda **Sequenze numeriche** delle seguenti pagine:
 
 -   Parametri contabilità clienti
 -   Parametri contabilità fornitori
 -   Parametri Gestione progetti e contabilità
 
-I numeri di giustificativo assegnati durante la registrazione devono essere ordinati in sequenza in base alla data di registrazione e le transazioni IVA con lo stesso codice di sequenza numerica devono essere registrate in ordine. Se i numeri di giustificativo non vengono ordinati in sequenza, viene visualizzato un messaggio di errore. Inoltre, se una transazione IVA non viene assegnata ad alcun sezionale IVA durante l'aggiornamento di una fattura, la registrazione verrà interrotta. Ogni volta che un giustificativo viene registrato utilizzando un sezionale IVA, gli identificatori del libro IVA e del sezionale IVA correlati vengono salvati nelle transazioni IVA. Fare clic su  **Imposta** &gt; **Richieste di informazioni su IVA** &gt; **IVA registrata**, quindi fare clic sulla scheda **Registrazione**. Questi dati possono quindi essere utilizzati durante il reporting IVA. I libri IVA italiani vengono utilizzati per filtrare, raggruppare e ordinare il report accessibile in **Imposta** &gt; **Dichiarazioni** &gt; **IVA** &gt; **IVA (Italia)**.
+I numeri di giustificativo assegnati durante la registrazione devono essere ordinati in sequenza per data di registrazione. Le transazioni IVA che utilizzano lo stesso codice di sequenza numerica devono essere registrate in ordine. Se i numeri di giustificativo non vengono ordinati in sequenza, verrà visualizzato un messaggio di errore. Inoltre, se una transazione IVA non viene assegnata ad alcun sezionale IVA durante l'aggiornamento di una fattura, la registrazione verrà interrotta. Quando un giustificativo viene registrato utilizzando un sezionale IVA, gli identificatori del libro IVA e del sezionale IVA correlati vengono salvati nelle transazioni IVA. (Accedere a **Imposta** \> **Richieste di informazioni su IVA** \> **IVA registrata**, quindi selezionare la scheda **Registrazione**). Questi dati possono quindi essere utilizzati durante il reporting IVA. I libri IVA italiani vengono utilizzati per filtrare, raggruppare e ordinare nel report **Imposta sulle vendite (Italia)**.
+
+## <a name="sales-tax-italy-report"></a>Report IVA (Italia)
+
+Per dichiarare l'IVA per l'Italia, attenersi alla seguente procedura.
+
+1. Andare a **Imposta** \> **Dichiarazioni** \> **IVA** \> **IVA (Italia)**.
+2. Nel campo **Periodo di liquidazione** selezionare il periodo di liquidazione IVA per cui generare il report.
+3. Nel campo **Da data** specificare una data nell'intervallo del periodo di liquidazione per cui si desidera generare il report.
+4. Nel campo **Tipo di libro IVA** selezionare il tipo di libro IVA per cui generare il report. Se questo campo è vuoto, il report viene generato per tutti i tipi.
+5. Nei campi **Dal libro IVA** e **Al libro IVA** specificare i libri IVA per cui generare il report. Se questi campi sono vuoti, il report viene generato per tutti i libri IVA.
+6. Nella sezione **Stampato** selezionare la casella di controllo **Libri IVA** per generare un report che includa i dettagli dei documenti imponibili nei libri IVA.
+7. Selezionare la casella di controllo **Riepilogo IVA** per generare un report che includa una sezione di riepilogo dei libri IVA.
+8. Selezionare la casella di controllo **Pagamento IVA** per generare un report che includa la pagina **Pagamento IVA** del report.
+9. Selezionare la casella di controllo **Includi linee zero** se è stata selezionata la casella di controllo **Libri IVA** e si desidera generare un report che includa dettagli e dettagli a riga zero dei documenti imponibili nei libri IVA.
+10. Selezionare la casella di controllo **Includi transazione di storno** se è stata selezionata la casella di controllo **Libri IVA** e si desidera generare un report che includa dettagli e dettagli di transazione di storno dei documenti imponibili nei libri IVA.
+11. Nella Scheda dettaglio **Destinazione** impostare una destinazione in cui deve essere generato il report.
+12. Nella Scheda dettaglio **Esecuzione in background** impostare i parametri batch se si desidera generare il report in modalità batch.
+13. Scegliere **OK** per generare il report.
 
 ## <a name="additional-information"></a>Informazioni aggiuntive
 A causa dei requisiti fiscali della numerazione sequenziale dei documenti e del modo in cui queste informazioni vengono utilizzate nei libri delle imposte sulle vendite, gli utenti in Italia non dovrebbero avere accesso alle seguenti funzioni:
@@ -248,11 +266,11 @@ Per nascondere queste funzioni dall'interfaccia utente per tutti i ruoli di sicu
 3.  Seleziona **Voci del menu azioni** > **TransactionReversal_Cust**. 
 4.  Seleziona **Nega** per **Leggi**, **Aggiorna**, **Crea**, **Elimina**.
 
-![Configurazione sicurezza](./media/security-configuration.png)
+![Configurazione sicurezza.](./media/security-configuration.png)
 
 5.  Nella scheda **Oggetti non pubblicati**, seleziona **Pubblica tutto**.
 
-![Oggetti non pubblicati](./media/unpublished-objects.png)
+![Oggetti non pubblicati.](./media/unpublished-objects.png)
 
 7.  Ripeti questi passaggi per il privilegio, **Storna transazioni fornitore**.
 

@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d3486d18e95daea7417bb2aeaa526a3991e329a6
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 41052e1af1e92a14a80f5216b3cfd223fe4bf752
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894746"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348448"
 ---
 # <a name="intent-letters---invoicing-of-usual-exporters"></a>Lettere di intento - Fatturazione di esportatori abituali
 
@@ -39,14 +39,14 @@ Prima di fatturare, è necessario soddisfare i seguenti prerequisiti:
 2. Nella scheda **Contabilità generale e IVA** nella scheda dettaglio **Esportatori abituali**, nel campo **Fascia IVA esportatori abituali**, definire una fascia IVA che viene utilizzata solo per gli esportatori abituali.
 3. Impostare l'opzione **Assegnazione automatica lettera di intento** su **Sì** per attivare l'assegnazione automatica delle lettere di intento durante la fatturazione.
 
-![Impostazione dei parametri di Contabilità clienti](media/emea-ita-exil-intent-AR-parm.jpg)
+![Impostazione dei parametri di Contabilità clienti.](media/emea-ita-exil-intent-AR-parm.jpg)
 
-## <a name="set-up-sales-tax-codes"></a>Impostare i codici IVA
+## <a name="set-up-sales-tax-codes"></a>Imposta i codici IVA
 
 1. Selezionare **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA**.
 2. Selezionare un codice IVA, quindi nella scheda dettaglio **Generale**, nella sezione **Fatturazione**, impostare l'opzione **Invia lettere di intento** su **Sì**.
 
-![Impostazione di un codice IVA](media/emea-ita-exil-intent-tax-setup.jpg)
+![Impostazione di un codice IVA.](media/emea-ita-exil-intent-tax-setup.jpg)
 
 ## <a name="set-up-customers"></a>Impostare i clienti
 
@@ -81,13 +81,13 @@ Le seguenti azioni sono disponibili per lettere di intento esistenti:
 
 Quando si crea un ordine cliente o una fattura a testo libero per un cliente classificato come esportatore usuale, se la data di creazione è nel periodo di validità della lettera di intento, il valore **Fascia IVA esportatori abituali** viene utilizzato nell'ordine o nella fattura. Inoltre, il numero della lettera di intento viene immesso se l'opzione **Assegnazione automatica lettera di intento** è impostata su **Sì**.
 
-![Nuovo ordine cliente](media/emea-ita-exil-intent-new-order.jpg)
+![Nuovo ordine cliente.](media/emea-ita-exil-intent-new-order.jpg)
 
 L'importo della transazione fattura sarà soggetto al calcolo dell'IVA solo se non supera l'importo della lettera di intento.
 
 I dettagli della lettera di intento saranno inclusi anche in un layout stampabile della fattura.
 
-![Stampa fattura](media/emea-ita-exil-intent-inv-print.jpg)
+![Stampa fattura.](media/emea-ita-exil-intent-inv-print.jpg)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800665"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351202"
 ---
 # <a name="set-up-a-call-center-channel"></a>Impostare un canale del servizio clienti
 
@@ -54,11 +54,11 @@ Per creare e configurare un nuovo canale servizio clienti, effettuare le seguent
 
 L'immagine seguente mostra la creazione di un nuovo canale servizio clienti.
 
-![Nuovo canale servizio clienti](media/channel-setup-callcenter-1.png)
+![Nuovo canale servizio clienti.](media/channel-setup-callcenter-1.png)
 
 L'immagine seguente mostra un esempio di canale servizio clienti.
 
-![Esempio di canale servizio clienti](media/channel-setup-callcenter-2.png)
+![Esempio di canale servizio clienti.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Ulteriori azioni di impostazione di canali
 
@@ -66,7 +66,7 @@ Ulteriori attività necessarie per l'impostazione di canali servizio clienti inc
 
 L'immagine seguente mostra le opzioni di impostazione **Modalità di consegna** e **Metodi di pagamento** nella scheda **Imposta**.
 
-![Ulteriori azioni di impostazione dei canali servizio clienti](media/channel-setup-callcenter-3.png)
+![Ulteriori azioni di impostazione dei canali servizio clienti.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
 
@@ -81,9 +81,9 @@ Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un
 
 L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
-![Esempio di metodi di pagamento](media/channel-setup-callcenter-payments.png)
+![Esempio di metodi di pagamento.](media/channel-setup-callcenter-payments.png)
 
-### <a name="set-up-modes-of-delivery"></a>Impostare le modalità di consegna
+### <a name="set-up-modes-of-delivery"></a>Imposta la modalità di consegna
 
 È possibile visualizzare le modalità di consegna configurate selezionando **Modalità di consegna** nella scheda **Imposta** del **Riquadro azioni**.  
 
@@ -97,7 +97,7 @@ Per modificare o aggiungere una modalità di consegna da associare al canale del
 
 L'immagine seguente illustra un esempio di modalità di consegna.
 
-![Imposta la modalità di consegna](media/channel-setup-retail-7.png)
+![Impostare le modalità di consegna.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Impostare gli utenti del canale
 

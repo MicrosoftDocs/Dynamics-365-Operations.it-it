@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023359"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358268"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Impostazione delle informazioni su gruppo TDS, PAN e TAN per clienti e fornitori
 
@@ -31,7 +31,7 @@ In questo argomento viene illustrato come impostare le informazioni sul gruppo T
 
 1. Andare a **Contabilità fornitori \> Fornitori \> Tutti i fornitori** o **Contabilità clienti \> Clienti \> Tutti i clienti**.
 
-    [![Pagina Tutti i fornitori](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![Pagina Tutti i fornitori.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. Nel riquadro azioni selezionare **Nuovo** per creare un fornitore o un cliente e immettere i dettagli necessari. In alternativa, selezionare un fornitore o un cliente esistente.
 3. Nella Scheda dettaglio **Fattura e consegna**, nella sezione **Ritenuta d'acconto**, impostare l'opzione **Calcola ritenuta d'acconto** su **Sì** per calcolare la ritenuta d'acconto, la TDS o la TCS del fornitore o del cliente.
@@ -60,7 +60,7 @@ In questo argomento viene illustrato come impostare le informazioni sul gruppo T
     - Autorità locale
     - Altro
 
-    [![Scheda dettaglio Informazioni fiscali](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![Scheda dettaglio Informazioni fiscali.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. Nel riquadro azioni, nella scheda **Fornitore**, nel gruppo **Registrazione** , selezionare **ID registrazione** per aprire la pagina **Gestisci indirizzi**.
 10. Nella pagina **Gestisci indirizzi**, nella Scheda dettaglio **Informazioni fiscali**, selezionare **Aggiungi** o **Modifica** per aprire la pagina **Gestisci informazioni fiscali**, in cui è possibile mantenere la voce di registrazione fiscale.

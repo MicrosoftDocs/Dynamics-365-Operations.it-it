@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9c57520622a55e7ae88d7e94a7d6e9a949d2412f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: efaeb4495a3c7fd5e93688ba857c616439e9dd45
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894756"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348456"
 ---
 # <a name="configurable-posting-profiles-for-banks-and-remittance-types"></a>Profili registrazione configurabili per banche e tipi di rimessa
 
@@ -40,7 +40,7 @@ Per impostare i profili di registrazione, è necessario aprire un conto bancario
 1. Per impostare il profilo di pubblicazione, andare a **Gestione cassa e banche** \> **Conti bancari** \> **Conti bancari**.
 2. Nella scheda dettaglio **Generale**, nella sezione **Profili di registrazione**, nei campi **Rimessa per incasso**, **Rimessa per sconto** e **Rimessa effetto passivo**, selezionare un profilo di registrazione, come richiesto.
 
-![Impostazione del conto bancario](media/emea-ita-exil-different-accounts-per-company-bank.png)
+![Impostazione del conto bancario.](media/emea-ita-exil-different-accounts-per-company-bank.png)
 
 ## <a name="use-posting-profiles-in-remittance-journal-posting"></a>Utilizzare i profili di registrazione nella registrazione del giornale di registrazione rimesse
 

@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021991"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352640"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Panoramica dell'integrazione di Dynamics 365 Commerce e Microsoft Teams
 
@@ -50,7 +51,7 @@ I seguenti prerequisiti devono essere soddisfatti prima di poter iniziare a util
 
 La figura seguente mostra l'architettura concettuale dell'integrazione di Dynamics 365 Commerce e Microsoft Teams, utilizzando un negozio di San Francisco come esempio. L'applicazione POS di Teams e Commerce utilizza Microsoft Planner come repository in modo che le attività pubblicate da Teams vengano visualizzate nell'applicazione POS e le attività ad hoc create dai responsabili del negozio nell'applicazione POS vengano visualizzate in Teams, garantendo un'esperienza di gestione delle attività fluida tra le applicazioni.    
 
-![Architettura dell'integrazione di Commerce e Teams](media/d365-commerce-teams-integration-conceptual-architecture.png)
+![Architettura dell'integrazione di Commerce e Teams.](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

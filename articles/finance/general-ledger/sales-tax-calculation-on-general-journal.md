@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937308"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358835"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Calcolo dell'IVA nelle righe giornale di registrazione generale
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ Negli altri casi la direzione dell'IVA è IVA a credito.
 
 Nel diagramma riportato di seguito viene illustrata graficamente la regola.
 
-![Possibilità di direzione dell'IVA per i conti di progetto](media/Sales-Tax-Direction-Vendor.jpg)
+![Possibilità di direzione dell'IVA per i conti di progetto.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Il tipo di conto è Fornitore
 
@@ -73,7 +73,7 @@ Negli altri casi la direzione dell'IVA è IVA a credito.
 
 Nel diagramma riportato di seguito viene illustrata graficamente la regola.
 
-![Possibilità di direzione dell'IVA per i conti di fornitore](media/Sales-Tax-Direction-Vendor.jpg)
+![Possibilità di direzione dell'IVA per i conti di fornitore.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Il tipo di conto è Cliente
 
@@ -89,7 +89,7 @@ Negli altri casi la direzione dell'IVA è IVA a debito.
 
 Nel diagramma riportato di seguito viene illustrata graficamente la regola.
 
-![Possibilità di direzione dell'IVA per i conti di cliente](media/Sales-Tax-Direction-Customer.jpg)
+![Possibilità di direzione dell'IVA per i conti di cliente.](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Il tipo di conto è Contabilità generale
 
@@ -103,7 +103,7 @@ Altrimenti, se l'importo giornale di registrazione è un addebito (positivo) la 
 
 Nel diagramma riportato di seguito viene illustrata graficamente la regola.
 
-![Possibilità di direzione dell'IVA per i conti di contabilità generale](media/Sales-Tax-Direction-Ledger.jpg)
+![Possibilità di direzione dell'IVA per i conti di contabilità generale.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>Sostituire la direzione dell'IVA
 
@@ -115,7 +115,7 @@ Passare a **Contabilità generale \> Piano dei conti \> Conti \> Conti principal
 
 In questa sezione viene descritto come viene calcolato il segno dell'importo dell'IVA.
 
-![Pagina delle transazioni IVA](media/sales-tax-amount-sign.jpg)
+![Pagina delle transazioni IVA.](media/sales-tax-amount-sign.jpg)
 
 Nella tabella seguente viene illustrata la regola generica per determinare la direzione dell'IVA e il segno degli importi IVA nella tabella IVA temporanea.
 

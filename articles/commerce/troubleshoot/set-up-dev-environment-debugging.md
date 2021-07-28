@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019448"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350404"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Configurare un ambiente di sviluppo di e-commerce per eseguire il debug su una macchina virtuale Retail Server di livello 1
 
@@ -38,11 +38,11 @@ Quando si esegue il debug in un ambiente di livello 1, poiché il sito ora chiam
 
 La seguente illustrazione mostra un esempio di errore che potrebbe verificarsi quando una variante viene selezionata in una pagina dei dettagli del prodotto.
 
-![Errore durante la selezione di una variante in una pagina dei dettagli del prodotto](media/unhandled-rejection-error.jpg)
+![Errore durante la selezione di una variante in una pagina dei dettagli del prodotto.](media/unhandled-rejection-error.jpg)
 
 L'illustrazione seguente mostra un esempio di errore simile negli strumenti di debug di un browser (Strumenti di sviluppo F12). Il messaggio di errore menziona la violazione della direttiva sui criteri di sicurezza del contenuto.
 
-![Errore degli strumenti di debug](media/debugger-tools-error.JPG)
+![Errore degli strumenti di debug.](media/debugger-tools-error.JPG)
 
 ## <a name="resolution"></a>Risoluzione
 

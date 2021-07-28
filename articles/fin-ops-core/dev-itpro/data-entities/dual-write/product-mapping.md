@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306391"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358595"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -33,15 +33,15 @@ Quando un ecosistema aziendale è costituito da applicazioni Dynamics 365, come 
 
 Di seguito è riportato il modello di dati di prodotto di Sales.
 
-![Modello di dati per prodotti in CE](media/dual-write-product-4.jpg)
+![Modello di dati per prodotti in CE.](media/dual-write-product-4.jpg)
 
 Di seguito è riportato il modello di dati per prodotti delle app Finance and Operations.
 
-![Modello di dati per prodotti in Finance and Operations](media/dual-write-products-5.jpg)
+![Modello di dati per prodotti in Finance and Operations.](media/dual-write-products-5.jpg)
 
 Questi due modelli di dati di prodotto sono stati integrati in Dataverse come mostrato di seguito.
 
-![Modello di dati per prodotti nelle app Dynamics 365](media/dual-write-products-6.jpg)
+![Modello di dati per prodotti nelle app Dynamics 365.](media/dual-write-products-6.jpg)
 
 Le mappe della tabella di doppia scrittura per i prodotti sono state progettate per un flusso di dati esclusivamente unidirezionale e rappresentano un'esperienza pressoché in tempo reale dalle Finance and Operations app a Dataverse. Tuttavia, l'infrastruttura di prodotto è stata aperta per renderla bidirezionale, se necessario. Sebbene possa essere personalizzata, l'esecuzione è a proprio rischio, in quanto Microsoft non consiglia questo approccio.
 
@@ -86,7 +86,7 @@ Poiché il prodotto è rappresentato come unità di stockkeeping, i concetti di 
 - Le **rappresentazioni generali prodotto** sono utilizzate come prodotti generici che contengono la definizione e le regole che determinano il comportamento nei processi aziendali. In base a queste definizioni, è possibile generare i prodotti specifici noti come varianti prodotto. Ad esempio, Maglietta è la rappresentazione generale prodotto e può avere le dimensioni Colore e Dimensione. È possibile rilasciare varianti che hanno differenti combinazioni di queste dimensioni, come una maglietta blu di taglia S o una maglietta verde di taglia M. Nell'integrazione, una riga per variante viene creato nella tabella dei prodotti. Tale riga contiene informazioni specifiche della variante, come le differenti dimensioni. Le informazioni generiche per il prodotto sono archiviate nella tabella **msdyn\_sharedproductdetails**. (queste informazioni generiche si trovano nella rappresentazione generale prodotto). Le informazioni relative alla rappresentazione generale prodotto vengono sincronizzate con Dataverse non appena viene creata la rappresentazione generale prodotto rilasciata (ma prima del rilascio delle varianti).
 - I **prodotti specifici** fanno riferimento a tutti i prodotti di sottotipo e a tutte le varianti prodotto. 
 
-![Modello di dati per prodotti](media/dual-write-product.png)
+![Modello di dati per prodotti.](media/dual-write-product.png)
 
 Con la funzionalità di doppia scrittura attivata, i prodotti Finance and Operations sono sincronizzate in altri prodotti Dynamics 365 nello stato **Bozza**. Queste vengono aggiunte al primo listino prezzi con la stessa valuta. In altre parole, sono aggiunte al primo listino prezzi in un'app Dynamics 365 che corrisponde alla valuta della persona giuridica in cui il prodotto viene rilasciato in un'app Finance and Operations. Se non esiste un listino prezzi per la valuta data, verrà creato automaticamente un listino prezzi e il prodotto gli verrà assegnato. 
 
@@ -112,7 +112,7 @@ La sincronizzazione dei prodotti avviene dall'app Finance and Operations in Data
 
 Le dimensioni prodotto sono caratteristiche che identificano una variante prodotto. Le quattro dimensioni prodotto (colore, dimensione, stile e configurazione) vengono inoltre mappati a Dataverse per definire le varianti prodotto. Nella figura seguente è illustrato il modello di dati per la dimensione prodotto Colore. Lo stesso modello viene applicato a Dimensioni, Stili e Configurazioni. 
 
-![Modello di dati per dimensioni di prodotto](media/dual-write-product-two.png)
+![Modello di dati per dimensioni di prodotto.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli
 
 Le unità di misura e la relativa conversione sono disponibili in Dataverse mediante il modello di dati visualizzato nel diagramma.
 
-![Modello di dati per unità di misura](media/dual-write-product-three.png)
+![Modello di dati per unità di misura.](media/dual-write-product-three.png)
 
 Il concetto di unità di misura è integrato tra le app Finance and Operations e altre app Dynamics 365. Per ogni classe di unità di misura in un'app Finance and Operations, viene creato un gruppo di unità in un'app Dynamics 365, che contiene le unità appartenenti alla classe di unità di misura. Un'unità di base predefinita viene inoltre creata per ogni gruppo di unità. 
 

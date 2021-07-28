@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261748"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354811"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 
@@ -41,7 +41,7 @@ Le funzionalità del carico di lavoro vengono rilasciate su base continua attrav
 
 Le unità di scala estendono l'ambiente centrale dell'hub di Supply Chain Management aggiungendo capacità di elaborazione dedicata. Le unità di scala possono essere eseguite nel cloud. In alternativa, possono essere eseguite nella rete perimetrale nelle strutture locali dell'utente.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 con unità di scala":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 con unità di scala.":::
 
 Le unità di scala forniscono resilienza, affidabilità e scalabilità per i carichi di lavoro assegnati. Le unità di scala nelle reti perimetrali possono essere temporaneamente disconnesse dall'ambiente hub cloud e i lavoratori continuano a lavorare nei carichi di lavoro assegnati sulla rete perimetrale.
 
@@ -157,7 +157,7 @@ Le unità di scala sono offerte in più unità di stockkeeping (SKU) e opzioni p
 
 Lo SKU semplice è noto come *Base* e lo SKU più efficace è noto come *Standard*. Ogni SKU è precaricato con un numero specifico di transazioni mensili. Tuttavia, è possibile aumentare il budget mensile delle transazioni aggiungendo componenti aggiuntivi in eccesso per ogni SKU.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Componente aggiuntivo per unità di scala nel cloud":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Componente aggiuntivo per unità di scala nel cloud.":::
 
 > [!TIP]
 > Per identificare il dimensionamento che meglio soddisfa le proprie esigenze, collaborare con il partner e Microsoft per comprendere la dimensione della transazione mensile richiesta.
@@ -181,11 +181,11 @@ Se il tenant cercato non è nell'elenco, andare a [LCS](https://lcs.dynamics.com
 
 Per ogni tenant, l'elenco mostra lo stato dell'onboarding.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Elenco di tenant nella scheda Tenant di Dynamics 365":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Elenco di tenant nella scheda Tenant di Dynamics 365.":::
 
 Selezionare **Clicca qui per iniziare** per richiedere l'onboarding per il tenant LCS. È necessario accettare le condizioni. È inoltre necessario fornire un indirizzo e-mail aziendale a cui Microsoft possa inviare comunicazioni correlate al processo di onboarding.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Invio registrazione per un tenant":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Invio registrazione per un tenant.":::
 
 Microsoft esaminerà la richiesta e informerà l'utente sui passaggi successivi inviando un messaggio e-mail all'indirizzo che fornito nel modulo di registrazione. Microsoft lavorerà a stretto contatto con il cliente per abilitare le unità di scala nella topologia ibrida per lo scenario aziendale.
 
@@ -195,13 +195,13 @@ Al termine dell'onboarding, è possibile utilizzare la porta per configurare uni
 
 Andare al [portale di gestione delle unità di scala](https://aka.ms/SCMSUM) e iscriversi con il proprio account tenant. Nella pagina **Configura unità di scala** è possibile aggiungere un ambiente hub, se non è ancora elencato. È quindi possibile selezionare l'hub che si desidera configurare con unità di scala e carichi di lavoro.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Gestione di unità di scala e carichi di lavoro":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Gestione di unità di scala e carichi di lavoro.":::
 
 Per aggiungere una o più unità di scala disponibili nelle sottoscrizioni, selezionare **Aggiungi unità di scala**.
 
 Nella scheda **Carichi di lavoro predefiniti**, utilizzare il pulsante **Crea carico di lavoro** per aggiungere un carico di lavoro di gestione del magazzino a una delle unità di scala. Per ogni carico di lavoro, è necessario specificare il contesto dei processi che saranno di proprietà del carico di lavoro stesso. Per i carichi di lavoro di gestione del magazzino, il contesto è un magazzino specifico in un sito e in una persona giuridica specifici.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Creazione del carico di lavoro":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Creazione del carico di lavoro.":::
 
 > [!TIP]
 > Nel tempo, all'esperienza di gestione delle unità di scala verranno aggiunti miglioramenti incrementali per semplificare le operazioni di gestione del ciclo di vita. Le funzionalità specifiche per la versione corrente sono documentate in un manuale di onboarding disponibile per i clienti che sono in procinto di eseguire l'onboarding alla topologia ibrida distribuita per Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944535"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348681"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -85,7 +85,7 @@ Alcune delle modifiche più tipiche e più importanti che possono essere apporta
 
 Inoltre, i tipi più fondamentali di personalizzazione sono disponibili facendo clic con il pulsante destro del mouse su un elemento e quindi selezionando **Personalizza**. Tenere presente che non tutti gli elementi nella pagina possono essere personalizzati. Quando si utilizza questo metodo di personalizzazione, viene visualizzata la *finestra delle proprietà* dell'elemento.
 
-![Personalizzazione delle proprietà di un elemento](./media/cli-element-property-window.png)
+![Personalizzazione delle proprietà di un elemento.](./media/cli-element-property-window.png)
 
 È possibile utilizzare la finestra delle proprietà per personalizzare un elemento nei seguenti modi:
 
@@ -107,7 +107,7 @@ Se si desidera apportare più modifiche a una pagina o apportare modifiche che n
 - Selezionare **Personalizza questa pagina** nel gruppo **Personalizza** della scheda **Opzioni** del riquadro azioni di qualsiasi pagina.
 - Selezionare il pulsante **Impostazioni** (il simbolo di ingranaggio) sulla barra di navigazione, quindi **Personalizza**.
 
-[![Barra degli strumenti di personalizzazione](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Barra degli strumenti di personalizzazione.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Esplorazione della pagina
 
@@ -147,7 +147,7 @@ Per alcune pagine che includono gli elenchi, la funzionalità di personalizzazio
 > [!NOTE]
 > Se la funzionalità [Visualizzazioni salvate](saved-views.md) è abilitata, il contenuto da sottoporre al push in un'area di lavoro viene direttamente collegato a una visualizzazione. La query della visualizzazione viene utilizzata per recuperare i dati nell'area di lavoro e il riquadro o il collegamento corrispondente nell'area di lavoro apre la pagina in quella visualizzazione, in modo che la query e le personalizzazioni della visualizzazione vengano applicate. Se la visualizzazione viene aggiornata, gli elementi dell'area di lavoro corrispondenti verranno adattati alla nuova definizione della visualizzazione.
 
-[![Aggiungi ad area di lavoro](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Aggiungi ad area di lavoro.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Per aggiungere un elenco a un'area di lavoro, prima di tutto ordinare o filtrare l'elenco nella pagina in modo che mostri le informazioni come si desidera vengano visualizzate nell'area di lavoro. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Elenco**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile selezionare le colonne da visualizzare nell'elenco nell'area di lavoro. È possibile inoltre specificare l'etichetta da utilizzare per l'elenco nell'area di lavoro.
 - Per aggiungere un riquadro a un'area di lavoro, filtrare prima di tutto l'elenco nella pagina in modo da mostrare i dati da riepilogare o a cui si desidera accedere rapidamente. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Riquadro**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile specificare l'etichetta da utilizzare per il riquadro nell'area di lavoro. È inoltre possibile specificare se il riquadro deve visualizzare un conteggio. Una volta che il riquadro è aggiunto all'area di lavoro, è possibile selezionarlo per aprire la pagina corrente dall'area di lavoro. Sarà quindi possibile visualizzare l'elenco filtrato associato al riquadro.

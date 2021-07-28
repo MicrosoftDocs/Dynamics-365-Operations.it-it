@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: beacff21c6468e9c4b387a654e95f25572c0ede9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348370"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilità nelle eccezioni materiali
 
@@ -37,7 +37,7 @@ Una riga DBA o una riga formula non rilasciate richiedono attenzione se la data 
 
 Nella seguente figura, la barra blu rappresenta un processo di produzione programmato per una risorsa. Il processo è programmato per l'inizio il 1° maggio (01/05/2017). Questa data spesso corrisponde alla data della materia prima. Ovvero, i materiali assegnati al processo nella DBA e nelle righe formula devono essere pronti per questa data. L'altra data nella figura, il 6 maggio 2017 (06/05/2017), rappresenta la data dell'area di lavoro. In questo esempio, la data della materia prima è precedente alla data dell'area di lavoro. Pertanto, la data in cui il consumo della materia prima doveva iniziare è passata e la distinta base e le righe formula soddisfano i criteri per richiedere attenzione.
 
-![Esempio di processo di produzione in cui la data della materia prima è precedente alla data dell'area di lavoro](./media/improved-visibility.png)
+![Esempio di processo di produzione in cui la data della materia prima è precedente alla data dell'area di lavoro.](./media/improved-visibility.png)
 
 ## <a name="unreleased-material-lines-needing-attention"></a>Righe materiale non rilasciate che richiedono attenzione
 

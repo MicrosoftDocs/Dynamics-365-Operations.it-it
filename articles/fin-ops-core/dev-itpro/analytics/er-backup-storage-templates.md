@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743849"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351844"
 ---
 # <a name="backup-storage-of-er-templates"></a>Archiviazione di backup di modelli ER
 
@@ -65,19 +65,19 @@ Per configurare il parametro **Esegui automaticamente procedura di ripristino di
 > [!NOTE]
 > Questo parametro è definito come specifico dell'utente dell'applicazione e della società connessa.
 
-![Pagina delle configurazioni ER](./media/GER-BackupTemplates-1.png)
+![Pagina configurazioni ER.](./media/GER-BackupTemplates-1.png)
 
 Nella figura seguente è illustrato un esempio del messaggio visualizzato quando il parametro **Esegui automaticamente procedura di ripristino di modelli danneggiati in batch** è impostato su **Attivato**.
 
-![Pagina Giornale di registrazione pagamenti fornitore](./media/GER-BackupTemplates-2.png)
+![Pagina Giornale di registrazione pagamenti fornitore.](./media/GER-BackupTemplates-2.png)
 
 Nella figura seguente è illustrato il processo batch **Ripristina modelli danneggiati da backup del database interno** nella pagina **Processo batch**.
 
-![Pagina Processo batch](./media/GER-BackupTemplates-3.png)
+![Pagina Processo batch.](./media/GER-BackupTemplates-3.png)
 
 Il registro di esecuzione del processo batch **Ripristina modelli danneggiati da backup del database interno** completato include informazioni sui modelli che sono stati ripristinati dal percorso di archiviazione di backup al percorso di archiviazione principale.
 
-![Pagina Storico processi batch](./media/GER-BackupTemplates-4.png)
+![Pagina Storico processi batch.](./media/GER-BackupTemplates-4.png)
 
 Per impostazione predefinita, il processo di creazione automatica di copie di backup dei modelli che si trovano nelle configurazioni di formato ER è attivato. Per interrompere la creazione di copie di backup dei modelli, impostare l'opzione **Interrompi creazione di copie di backup del modello** su **Sì** nella scheda **Allegati** della pagina **Parametri per la creazione di report elettronici**. È possibile aprire questa pagina dall'area di lavoro **Creazione di report elettronici**.
 
@@ -85,7 +85,7 @@ Se si imposta **Interrompi creazione di copie di backup del modello** su **Sì**
 
 Se l'ambiente è stato aggiornato a Finance and Operations versione 10.0.5 (ottobre 2019) e si desidera eseguire la migrazione a un nuovo ambiente che include configurazioni di formato ER eseguibili, selezionare **Completa archiviazione di backup** nella pagina **Parametri per la creazione di report elettronici** prima di eseguire la migrazione. Questo pulsante avvia il processo di creazione di copie di backup di tutti i modelli disponibili, di modo che possano essere archiviati nel percorso di archiviazione di backup ER per modelli.
 
-![Pagina Parametri per la creazione di report elettronici](./media/GER-BackupTemplates-5.png)
+![Pagina Parametri per la creazione di report elettronici.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Ripristino manuale
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748827"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350742"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
@@ -44,16 +44,16 @@ Dopo aver installato lo strumento di distribuzione pacchetti, installare il pacc
 
 1. Scaricare l'ultimo file del pacchetto della soluzione da Yammer.com. Dopo aver scaricato il file zip del pacchetto, fare clic con il tasto destro del mouse e selezionare **Proprietà**. Selezionare la casella di controllo **Sblocca**, quindi selezionare **Applica**. Se la casella di controllo **Sblocca** non è visibile, il file zip è già sbloccato ed è possibile saltare questo passaggio.
 
-    ![Finestra di dialogo Proprietà](media/unblock_option.png)
+    ![Finestra di dialogo Proprietà.](media/unblock_option.png)
 
 2. Estrarre il file zip del pacchetto e copiare tutti i file nella cartella **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![Contenuto della cartella Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![Contenuto della cartella Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. Incollare tutti i file copiati nella cartella **Strumenti** dello strumento di distribuzione pacchetti. 
 4. Eseguire **PackageDeployer.exe** per selezionare l'ambiente Dataverse e installare le soluzioni.
 
-    ![Contenuto della cartella Strumenti](media/paste_copied_files.png)
+    ![Contenuto della cartella Strumenti.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Abilitare e visualizzare il log di traccia del plug-in Dataverse per visualizzare i dettagli dell'errore
 

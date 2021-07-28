@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022838"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356832"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domini in Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ Durante il provisioning di un ambiente di e-commerce in [Microsoft Dynamics Life
 
 La seguente illustrazione mostra la schermata di provisioning di e-commerce LCS con la casella **Nomi host supportati** evidenziata. 
 
-![Schermata di provisioning di e-commerce LCS con la casella **Nomi host supportati** evidenziata](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Schermata di provisioning di e-commerce LCS con la casella **Nomi host supportati** evidenziata.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 È possibile creare una richiesta di assistenza per aggiungere ulteriori domini a un ambiente se il provisioning è già stato eseguito. Per creare una richiesta di assistenza in LCS, all'interno dell'ambiente andare a **Supporto \> Problemi di supporto** e selezionare **Invia un evento imprevisto**.
 
@@ -56,7 +56,7 @@ Quando si imposta per la prima volta un sito in Creazione di siti Web, viene vis
 
 La figura seguente mostra la finestra di dialogo **Configurare il sito** per un sito denominato "predefinito" quando si accede a Creazione di siti Web per la prima volta.
 
-![Finestra di dialogo **Configurare il sito**](./media/Domains_SetupyoursiteScreen.png)
+![Finestra di dialogo **Configurare il sito**.](./media/Domains_SetupyoursiteScreen.png)
 
 La casella **Seleziona un dominio** consente di associare uno dei nomi host supportati forniti per il sito in LCS al sito in Creazione di siti Web.
 
@@ -79,11 +79,11 @@ Dopo che il sito è stato impostato con un percorso, tutti gli URL associati all
 
 La figura seguente mostra la finestra di dialogo **Nuovo URL** in Creazione di siti Web con un percorso URL di esempio evidenziato. 
 
-![Finestra di dialogo **Nuovo URL** in Creazione di siti Web](./media/Domains_PageSetup2a.png)
+![Finestra di dialogo **Nuovo URL** in Creazione di siti Web.](./media/Domains_PageSetup2a.png)
 
 La figura seguente mostra la pagina **URL** in Creazione di siti Web con un URL di esempio evidenziato nell'elenco.
 
-![Eseguire l'opzione flusso utente nel flusso dei criteri](./media/Domains_URLsInSiteBuilder2a.png)
+![Eseguire l'opzione flusso utente nel flusso dei criteri.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domini in Creazione di siti Web
 

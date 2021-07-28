@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: bdb90f8d629a026a84f8c65e7e95b589169a3e4d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a9e5204c2bb9c0a58b2e4e223a4a3d2d09d53659
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752338"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356265"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Chiavi di configurazione ed entità di dati
 
@@ -52,24 +52,24 @@ La seguente tabella riepiloga in che modo i valori delle chiavi di configurazion
 ### <a name="entity-list-refresh"></a>Aggiornamento dell'elenco di entità
 Quando l'elenco delle entità viene aggiornato, il framework di gestione dei dati crea i metadati della chiave di configurazione per l'utilizzo in runtime. Questi metadati vengono creati utilizzando la logica descritta sopra. Si consiglia vivamente di attendere il completamento dell'aggiornamento dell'elenco delle entità prima di utilizzare i processi e le entità nel framework di gestione dei dati. Se non si attende, i metadati della chiave di configurazione potrebbero non essere aggiornati e determinare esiti imprevisti. Quando l'elenco delle entità viene aggiornato, viene visualizzato il seguente messaggio nella pagina di elenco delle entità.
 
-![Aggiornamento dell'elenco di entità](./media/Entity_refresh_list.png)
+![Aggiornamento dell'elenco di entità.](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Pagina elenco di entità di dati
 La pagina di elenco delle entità di dati nell'area di lavoro Gestione dati mostra le impostazioni della chiave di configurazione per le entità. Iniziare da questa pagina per comprendere l'impatto delle chiavi di configurazione sull'entità di dati.
 
 Queste informazioni vengono visualizzate utilizzando i metadati creati durante l'aggiornamento dell'entità. La colonna della chiave di configurazione mostra il nome della chiave di configurazione associata all'entità di dati. Se questa colonna è vuota, significa che non vi è alcuna chiave di configurazione associata all'entità di dati. La colonna dello stato della chiave di configurazione mostra lo stato della chiave di configurazione. Se è presente un segno di spunta, significa che la chiave è abilitata. Se non è presente un segno di spunta, significa che la chiave è disabilitata o non è associata alcuna chiave.
 
-![Pagina elenco di entità](./media/Data_entity_list_page.png)
+![Pagina elenco di entità.](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Campi di destinazione
 Il passaggio successivo consiste nell'eseguire il drill nell'entità di dati per visualizzare l'impatto delle chiavi di configurazione su tabelle e campi. Il modulo dei campi di destinazione per un'entità di dati mostra la chiave di configurazione e le informazioni sullo stato della chiave per le tabelle e i campi correlati nell'entità di dati. Se l'entità di dati stessa ha la rispettiva chiave di configurazione disabilitata, viene visualizzato un messaggio di avviso che informa che le tabelle e i campi nel modulo dei campi di destinazione per questa entità non saranno disponibili a tutti, indipendentemente dallo stato della chiave di configurazione.
 
-![Campi di destinazione](./media/Target_fields_1.png)
+![Campi di destinazione.](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Entità figlio 
 Alcune entità hanno altre entità come origine dati o entità di dati compositi: le informazioni sulla chiave di configurazione per queste entità sono mostrate nel modulo Entità figlio. Utilizzare questo modulo in modo simile nella pagina elenco di entità descritta in precedenza. Il modulo dei campi di destinazione per l'entità figlio si comporta anche come descritto sopra.
 
-![Campi di destinazione](./media/Target_fields_2.png)
+![Campi di destinazione.](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Utilizzo di entità di dati
 Dopo aver compreso l'impatto completo, se esistente, delle chiavi di configurazione sulle entità di dati che si desidera utilizzare, è possibile utilizzare le entità di dati aggiungendole ai progetti di dati. 
@@ -91,7 +91,7 @@ Utilizzando i metadati della chiave di configurazione creati durante l'elenco di
 ### <a name="managing-configuration-key-changes"></a>Gestione delle modifiche alla chiave di configurazione
 Ogni volta che si aggiornano le chiavi di configurazione a livello di entità, tabella o campo, l'elenco delle entità nel framework di gestione dei dati deve essere aggiornato. Questo processo garantisce che il framework riceva le ultime impostazioni della chiave di configurazione. Fino a quando l'elenco delle entità non viene aggiornato, il seguente avviso verrà visualizzato nella pagina dell'elenco delle entità. Le modifiche della chiave di configurazione aggiornata avranno effetto immediatamente dopo l'aggiornamento dell'elenco delle entità. Si consiglia di convalidare processi e progetti di dati esistenti per assicurarsi che funzionino come previsto dopo che le modifiche alle chiavi di configurazione sono state applicate.
 
-![Campi di destinazione](./media/Target_fields_3.png)
+![Campi di destinazione.](./media/Target_fields_3.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

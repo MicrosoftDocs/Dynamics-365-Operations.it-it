@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102808"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359535"
 ---
 # <a name="trade-allowance-management"></a>Gestione sconto commerciale
 
@@ -59,7 +59,7 @@ Un accordo con sconto commerciale è un programma di incentivi in cui vengono of
 
 I fondi che vengono allocati agli accordi con sconto commerciale vengono registrati nella pagina **Fondi**. Per aprire la pagina **Fondi**, selezionare **Vendite e marketing** \> **Sconti commerciali** \> **Fondi** \> **Fondi**.
 
-![Pagina dei fondi](./media/trade-allowance-management-funds-page.png "Pagina dei fondi")
+![Pagina dei fondi.](./media/trade-allowance-management-funds-page.png "Pagina dei fondi")
 
 Nella pagina **Fondi** è possibile visualizzare i dettagli dei fondi promozionali.
 
@@ -75,7 +75,7 @@ Dopo avere definito il fondo, il passaggio successivo nella pianificazione della
 
 Gli accordi con sconto promozionale vengono registrati nella pagina **Accordi con sconto commerciale**. Per aprire la pagina **Accordi con sconto commerciale**, selezionare **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**.
 
-![Pagina degli accordi con sconto commerciale](./media/trade-allowance-management-agreements-page.png "Pagina degli accordi con sconto commerciale")
+![Pagina degli accordi con sconto commerciale.](./media/trade-allowance-management-agreements-page.png "Pagina degli accordi con sconto commerciale")
 
 #### <a name="header"></a>Intestazione
 
@@ -103,7 +103,7 @@ Nella scheda **Eventi merchandising** vengono visualizzati i tipi di eventi cope
 
 Quando si seleziona un evento di merchandising e quindi si seleziona la scheda **Importi**, i dettagli dell'evento vengono rilevati.
 
-![Righe accordo con sconto commerciale](./media/trade-allowance-management-agreements-lines.png "Righe accordo con sconto commerciale")
+![Righe accordo con sconto commerciale.](./media/trade-allowance-management-agreements-lines.png "Righe accordo con sconto commerciale")
 
 Nella sezione **Righe sconto commerciale** si specificano gli intervalli di quantità o importi che il cliente deve raggiungere per definizioni per ottenere gli sconti.
 

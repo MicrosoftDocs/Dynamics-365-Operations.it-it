@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897770"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356705"
 ---
 # <a name="one-voucher"></a>Un giustificativo
 
@@ -33,18 +33,18 @@ La funzionalità esistente per giornali di registrazione finanziari (il giornale
 
 - Impostare il nome del giornale di registrazione (**Contabilità generale** \> **Impostazione giornale di registrazione** \> **Nomi giornale di registrazione**) in modo da impostare il campo **Nuovo giustificativo** su **Un solo numero di giustificativo**. Ogni riga aggiunta al giornale di registrazione viene ora inclusa nello stesso giustificativo. Di conseguenza, il giustificativo può essere inserito come giustificativo plurimo, ad esempio un conto/conto di contropartita nella stessa riga, o come combinazione.
 
-    [![Riga singola](./media/same-line.png)](./media/same-line.png)
+    [![Riga singola.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > La definizione di Un giustificativo **non** copre i casi in cui i nomi di giornali di registrazione sono impostati come **Un solo numero di giustificativo**, ma l'utente immette poi un giustificativo che include solo tipi di conto CoGe. In questo argomento Un giustificativo significa che c'è un solo giustificativo che contiene più di un fornitore, cliente, banca, cespite o progetto.
 
 - Immettere un giustificativo plurimo in cui non sono presenti conti di contropartita.
 
-    [![Giustificativo plurimo](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Giustificativo plurimo.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Immettere un giustificativo in cui sia il conto che il conto di contropartita contengono un tipo di conto secondario, ad esempio **Fornitore**/**Fornitore**, **Cliente**/**Cliente**, **Fornitore**/**Cliente** o **Banca**/**Banca**.
 
-    [![Giustificativo contabilità generale secondaria](./media/subledger.png)](./media/subledger.png)
+    [![Giustificativo contabilità generale secondaria.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Problemi con un giustificativo
 
@@ -52,11 +52,11 @@ La funzionalità Un giustificativo genera problemi durante liquidazione, calcolo
 
 Ad esempio, si registra il giustificativo plurimo seguente.
 
-[![Esempio di voucher multilinea](./media/example.png)](./media/example.png)
+[![Esempio di giustificativo plurimo.](./media/example.png)](./media/example.png)
 
 Si genera quindi il report **Spese per fornitore** nell'area di lavoro **Informazioni finanziarie dettagliate**. In questo report i saldi del conto spese sono raggruppati per gruppo di fornitori e quindi per fornitore. Durante la generazione del report il sistema non può determinare quali gruppi di fornitori/fornitori hanno sostenuto la spesa di 250,00. Poiché mancano i dettagli della transazione, il sistema suppone che l'intera spesa di 250,00 sia stata sostenuta dal primo fornitore indicato nel giustificativo. Pertanto, l'importo di 250,00, incluso nel saldo del conto principale 600120, viene visualizzato sotto quel gruppo fornitori/fornitore. Tuttavia, è molto probabile che il primo fornitore nel giustificativo non sia il fornitore corretto. Di conseguenza, il report è probabilmente errato.
 
-[![Spese per report fornitore](./media/expenses.png)](./media/expenses.png)
+[![Spese per report fornitore.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Utilizzo futuro della funzionalità Un giustificativo
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a698a8ccc781167060400068dc4011d318b5fe53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023354"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360219"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Aggiornare i numeri e le date dei certificati per transazioni TDS
 
@@ -33,7 +33,7 @@ Segui questi passaggi per aggiornare i numeri e le date dei certificati per tran
 
 1. Seleziona **Imposta \> Dichiarazioni \> Ritenuta d'acconto \> Aggiorna certificato**.
 
-    [![Pagina Aggiorna certificato](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Pagina Aggiorna certificato.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. Nella pagina **Aggiorna certificato**, nella sezione **Seleziona**, nel campo **Tipo di imposta**, seleziona **TDS**.
 3. Nel campo **Numero certificato** seleziona il numero di certificato TDS del cliente o del fornitore.
@@ -60,4 +60,4 @@ Segui questi passaggi per aggiornare i numeri e le date dei certificati per tran
 8. Seleziona **Aggiorna** per aggiornare i campi **Numero certificato** e **Data certificato** per le transazioni TDS nella griglia inferiore.
 10. Vai a **Imposta \> Imposte indirette \> Ritenuta d'acconto \> Certificato recuperabile** e seleziona **Richiesta info** per visualizzare le righe di transazioni aggiornate che hanno nuovi numeri di certificato nella pagina **Transazioni certificato**.
 
-    [![Pagina Transazioni certificato](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Pagina Transazioni certificato.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

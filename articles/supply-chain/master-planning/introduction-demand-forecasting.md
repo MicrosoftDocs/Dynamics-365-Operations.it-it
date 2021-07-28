@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72004
+ms.custom:
+- "72004"
+- intro-internal
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e00c980183708c5b9e995fb2a26d45baf13ca14
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cd029ae873ee604beb841568ce7f15b2e1575060
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348783"
 ---
 # <a name="demand-forecasting-overview"></a>Cenni preliminari sulla previsione della domanda
 
@@ -61,7 +63,7 @@ Nella previsione della domanda sono implementati tre temi principali:
 
 Nel seguente diagramma viene visualizzato il flusso di base nella previsione della domanda.
 
-[![diagramma di introduzione alla previsione della domanda](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
+[![diagramma di introduzione alla previsione della domanda.](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
 La generazione di previsione della domanda inizia in Supply Chain Management. I dati transazionali storici del database transazionale di Supply Chain Management vengono raccolti e usati per popolare una tabella di gestione temporanea. Questa tabella viene successivamente immessa nel servizio di Machine Learning. Con una personalizzazione minima, è possibile inserire le varie origini dati nella tabella di gestione temporanea. Le origini dati possono includere file di Microsoft Excel, file CSV e dati di Microsoft Dynamics AX 2009 e di Microsoft Dynamics AX 2012. È di conseguenza possibile generare previsioni della domanda che considerino i dati storici che sono sparsi in più sistemi. Tuttavia, l'anagrafica, ad esempio i nomi degli articoli e le unità di misura, devono essere uguali tra le varie origini dati.
 

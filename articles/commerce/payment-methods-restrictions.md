@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804529"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352350"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Limitare i metodi di pagamento per i resi senza una ricevuta
 
@@ -38,7 +38,7 @@ Per impostare i metodi di pagamento, è necessario completare le attività indic
 3. Impostare metodi di pagamento per punti vendita. Associare i metodi di pagamento a ogni punto vendita, quindi immettere le impostazioni specifiche del punto vendita per ogni metodo di pagamento.
 4. Impostare metodi di pagamento con carta per punti vendita. Per qualsiasi metodo di pagamento con carta accettato dal punto vendita, è necessario completare l'impostazione della carta.
 
-![Impostazione archivio](media/NoReceiptReturns1.png "Impostazione punto vendita al dettaglio") 
+![Impostazione archivio.](media/NoReceiptReturns1.png "Impostazione punto vendita al dettaglio") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Limitare i metodi di pagamento per i resi senza una ricevuta
@@ -49,12 +49,12 @@ Il valore predefinito è **No**, a indicare che il metodo di pagamento è consen
 
 Quando l'opzione **Limitare per i rimborsi senza ricevuta** è impostata su **Sì**, il metodo di pagamento selezionato non sarà consentito per i rimborsi. 
 
-![Metodo di pagamento punto vendita](media/NoReceiptReturns3.png "Metodo di pagamento punto vendita al dettaglio") 
+![Metodo di pagamento punto vendita.](media/NoReceiptReturns3.png "Metodo di pagamento punto vendita al dettaglio") 
 
 > [!NOTE]
 > Quando un cassiere seleziona un metodo di pagamento che è limitato per il rimborso senza ricevuta, viene visualizzato un messaggio per verificare i metodi di pagamento accettabili.
 
-![Metodi di pagamento accettabili](media/NoReceiptReturns4.png "Metodi di pagamento accettabili") 
+![Metodi di pagamento accettabili.](media/NoReceiptReturns4.png "Metodi di pagamento accettabili") 
 
 Se una transazione ha un reso con ricevuta e un reso senza ricevuta, le condizioni di restrizione non verranno applicate perché la transazione sarà un flusso di lavoro di reso con una ricevuta. 
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 60ad0dd821dc91576a59cf73ec46da4aefd34a2f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94abcf7189dc7c1f5587eb06d47650dc707c5007
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352400"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gestire valutazioni e revisioni
 
@@ -45,7 +45,7 @@ Per leggere una recensione in Creazione di siti Web di Commerce, effettuare le s
 
 Ulteriori filtri consentono di limitare le recensioni per periodo, valutazione, canale o stato (rimossa, risposta o segnalata).
 
-![Home page di moderazione](media/rnr-moderation-home.png) 
+![Home page di moderazione.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Rispondere a una recensione 
 
@@ -59,7 +59,7 @@ Per rispondere a una recensione in Creazione di siti Web di Commerce, effettuare
 1. Immettere il testo della risposta e il nome che deve essere visibile alla persona che risponde. Il nome predefinito della persona che risponde è **Moderatore**.
 1. Al termine, selezionare **Registra risposta**.
 
-![Rispondere a una recensione](media/rnr-moderation-response.png) 
+![Rispondere a una recensione.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Rimuovere una recensione 
 
@@ -82,7 +82,7 @@ Per trovare ed eliminare dati dei clienti in Creazione di siti Web di Commerce, 
 1. Se il cliente svolge una qualsiasi attività di recensione (ad esempio invio di recensioni, voti sull'utilità delle recensioni di un altro cliente o commenti sulla recensione di un altro cliente), i risultati sono visualizzati. Per ogni elemento, è presente un pulsante **Elimina**.
 1. Per ogni elemento che deve essere eliminato, selezionare **Elimina**. Quando viene richiesto di confermare, selezionare **Sì**. 
     
-![Eliminare i dati di un cliente](media/rnr-moderation-delete-reviews.png) 
+![Eliminare i dati di un cliente.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - La rimozione completa di dati dal sistema può richiedere fino a sette giorni. I moderatori devono informare i clienti di tale durata.
@@ -106,25 +106,25 @@ Per visualizzare le tendenze di valutazioni e recensioni in Creazione di siti We
 1. Andare a **Home \> Recensioni \> Report**.
 1. Selezionare **Modello di PowerBI** per scaricare il modello.
 
-    ![Scaricare il modello di Power BI](media/rnr-moderation-reports.png) 
+    ![Scaricare il modello di Power BI.](media/rnr-moderation-reports.png) 
 
 1. Aprire il modello scaricato utilizzando l'app Power BI. Chiudere la finestra di dialogo **Accedi a contenuto Web** e il messaggio di errore "Aggiorna" visualizzati.
 1. Andare a **Home**, selezionare **Modifica query** e quindi selezionare **Impostazioni origine dati**.
 1. Nella finestra di dialogo **Impostazioni origine dati**, selezionare **Cambia origine**.
 1. Nel campo **URL**, immettere il percorso dei dati delle recensioni scaricati nella procedura precedente (ad esempio **c:\\reviews\\ReviewsData.csv**).
 
-    ![Campo URL nella finestra di dialogo Valori separati da virgola](media/rnr-powerbi-datasource-settings.png) 
+    ![Campo URL nella finestra di dialogo Valori separati da virgola.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Selezionare **OK** e quindi selezionare **Applica modifiche**. L'applicazione delle modifiche all'origine dati può durare fino a due minuti.
 1. Selezionare **Foglio tendenze** per visualizzare le tendenze di valutazioni e recensioni.
 
-    ![Tendenze di valutazioni e recensioni](media/rnr-powerbi-dashboard-template.png) 
+    ![Tendenze di valutazioni e recensioni.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica valutazioni e recensioni](ratings-reviews-overview.md)
+[Panoramica valutazioni e revisioni](ratings-reviews-overview.md)
 
-[Consentire l'utilizzo di valutazioni e recensioni](opt-in-ratings-reviews.md)
+[Consentire utilizzo di valutazioni e sulle revisioni](opt-in-ratings-reviews.md)
 
 [Configurare valutazioni e recensioni](configure-ratings-reviews.md)
 

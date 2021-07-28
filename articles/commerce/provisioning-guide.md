@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022424"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352086"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Provisioning di un ambiente di valutazione Dynamics 365 Commerce
 
@@ -90,16 +90,16 @@ Per distribuire l'ambiente, attenersi a questa procedura.
 1. Nel campo **Versione applicazione**, selezionare la versione più recente. Se si ha la necessità di selezionare una versione dell'applicazione diversa dalla versione più recente, non selezionare una versione precedente alla versione **10.0.14**.
 1. Nel campo **Versione piattaforma**, utilizzare la versione della piattaforma che viene scelta automaticamente per la versione dell'applicazione selezionata. 
 
-    ![Selezione delle versioni della piattaforma e dell'applicazione](./media/project1.png)
+    ![Selezione delle versioni della piattaforma e dell'applicazione.](./media/project1.png)
 
 1. Selezionare **Avanti**.
 1. Selezionare **Demo** come topologia dell'ambiente.
 
-    ![Selezionare della topologia dell'ambiente 1](./media/project2.png)
+    ![Selezione della topologia dell'ambiente 1.](./media/project2.png)
 
 1. Nella pagina **Ambiente di distribuzione**, inserire un nome di ambiente. Non modificare le impostazioni avanzate.
 
-    ![Pagina dell'ambiente di distribuzione](./media/project4.png)
+    ![Pagina dell'ambiente di distribuzione.](./media/project4.png)
 
 1. Regolare le dimensioni della VM come richiesto. (Si consiglia un'unità di stockkeeping VM \[SKU\] **D13 v2** .)
 1. Rivedere i termini relativi ai prezzi e alle licenze, quindi selezionare la casella di controllo per accettarli.

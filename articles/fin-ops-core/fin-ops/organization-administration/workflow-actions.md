@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df08bdffb2bda67269eec9f1572bd76af9ae1e11
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2da54d147c7e9c8a42ef9de94abcbe7f36c98295
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747179"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355750"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Azioni nei processi di approvazione in un flusso di lavoro
 
@@ -29,7 +29,7 @@ In questo articolo vengono illustrate le azioni che ciascun partecipante a un pr
 
 Un flusso di lavoro può coinvolgere più gruppi di persone: l'iniziatore, gli assegnatari di attività, i decisori e gli approvatori. Nell'esempio di flusso di lavoro relativo alle note spese indicato di seguito, Giorgio è l'iniziatore, i membri della coda sono gli assegnatari dell'attività, Gianni è un decisore ed Ezio, Luisa ed Elena sono gli approvatori.
 
-[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Nelle sezioni seguenti vengono descritte le azioni del flusso di lavoro che ogni gruppo può eseguire.
 

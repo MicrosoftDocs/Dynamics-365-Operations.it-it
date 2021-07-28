@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941031"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350961"
 ---
 # <a name="company-concept-in-dataverse"></a>Concetto di società in Dataverse
 
@@ -43,7 +43,7 @@ Poiché Business Unit e società non sono equivalenti concetti, non è possibile
 
 Di seguito viene illustrato un esempio di questa impostazione dei dati in Dataverse.
 
-![Impostazione dei dati in Dataverse](media/dual-write-company-1.png)
+![Impostazione dei dati in Dataverse.](media/dual-write-company-1.png)
 
 Grazie a questa configurazione, qualsiasi riga correlata alla società USMF sarà di proprietà di un team collegato alla Business Unit USMF in Dataverse. Pertanto, qualsiasi utente con diritti di accesso a tale Business Unit tramite un ruolo di sicurezza impostato su visibilità a livello Business Unit potrà visualizzare tali righe. Nel seguente esempio viene illustrato come i team possono essere utilizzati per fornire l'accesso corretto a tali righe.
 
@@ -52,21 +52,21 @@ Grazie a questa configurazione, qualsiasi riga correlata alla società USMF sar�
 + Il team "USMF Sales" è collegato alla Business Unit USMF menzionata in precedenza.
 + Di conseguenza, i membri del team "USMF Sales" possono visualizzare qualsiasi conto che appartiene all'utente "USMF DW", proveniente dalla tabella Società USMF in Finance and Operations.
 
-![Come utilizzare i team](media/dual-write-company-2.png)
+![Come utilizzare i team.](media/dual-write-company-2.png)
 
 Come mostra la figura precedente, questo mapping 1:1 tra Business Unit, società e team è solo un punto di partenza. In questo esempio, il nuovo Business Unit "Europe" è stata creata manualmente in Dataverse come padre sia per DEMF che ESMF. La nuova Business Unit principale non è correlata alla doppia scrittura. Tuttavia, è possibile utilizzarla per dare ai membri del team "EUR Sales" accesso ai dati dei conti sia in DEMF che in ESMF impostando la visibilità dei dati su **BU padre/figlio** nel ruolo di sicurezza associato.
 
 Argomento finale da discutere è come la doppia scrittura determina a quale team proprietario assegnare alle righe. Questo funzionamento dipende dalla colonna **Team proprietario predefinito** nella riga cdm\_Company. Quando una riga cdm\_Company è abilitata per la doppia scrittura, un plugin crea automaticamente la Business Unit e il team proprietario (se non esiste già) associati e imposta la colonna **Team proprietario predefinito**. Il amministratore può modificare questa colonna su un valore diverso. Tuttavia, l'amministratore non può cancellare la colonna finché la tabella è abilitata per la doppia scrittura.
 
 > [!div class="mx-imgBorder"]
-![Colonna Team proprietario predefinito](media/dual-write-default-owning-team.jpg)
+![Colonna Team proprietario predefinito.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Striping e bootstrap della società
 
 L'integrazione con Dataverse porta la parità della società utilizzando un identificatore della società per lo striping dei dati. Come nella seguente figura viene illustrato, tutte le tabelle specifiche della società vengono estese in modo che abbiano una relazione molti-a-uno (N:1) con la tabella cdm\_Company.
 
 > [!div class="mx-imgBorder"]
-![La relazione N:1 tra una tabella specifica della società e la tabella cdm_Company](media/dual-write-bootstrapping.png)
+![La relazione N:1 tra una tabella specifica della società e la tabella cdm_Company.](media/dual-write-bootstrapping.png)
 
 + Per le righe, dopo che una società viene aggiunta e salvata, il valore diventa di sola lettura. Di conseguenza, gli utenti devono assicurarsi di scegliere la società corretta.
 + Solo le righe con dati della società sono idonee alla doppia scrittura tra l'applicazione e Dataverse.
@@ -98,7 +98,7 @@ Esistono diversi modi per compilare automaticamente il nome dell'azienda nelle a
 
 Per applicare il filtro in base al contesto della società ai moduli personalizzati o alle colonne di ricerca personalizzate aggiunte ai moduli standard, aprire il modulo e utilizzare la sezione **Filtro record correlati** per applicare il filtro della società. È necessario impostarlo per ogni colonna di ricerca che richiede il filtro in base alla società sottostante in una data riga. L'impostazione è mostrata per **Account** nell'illustrazione seguente.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Applicare il contesto della società":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Applicare il contesto della società.":::
 
 
 

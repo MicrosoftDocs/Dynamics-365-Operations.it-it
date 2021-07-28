@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0a94a74f4eb00c24142f0390bcf352db0594ca0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019861"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349474"
 ---
 # <a name="enable-product-recommendations"></a>Abilita suggerimenti sul prodotto
 
@@ -68,7 +68,7 @@ Per attivare i suggerimenti sul prodotto, effettuare le seguenti operazioni.
 1. Selezionare la funzionalità **Suggerimenti sul prodotto**.
 1. Nel riquadro delle proprietà **Suggerimenti sul prodotto**, selezionare **Abilita ora**.
 
-![Attivazione dei suggerimenti](./media/FeatureManagement_Recommendations.PNG)
+![Attivazione dei suggerimenti.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Questa procedura avvia il processo di generazione di elenchi di suggerimenti sul prodotto. Potrebbero essere necessarie diverse ore prima che gli elenchi siano disponibili e possano essere visualizzati nel punto vendita (POS) o in Dynamics 365 Commerce.

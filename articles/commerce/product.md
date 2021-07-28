@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1a25e3d5bc1cc5c1c7509186451fdfef50dd6cf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792341"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352134"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Aggiungere suggerimenti sul prodotto su POS
 
@@ -39,7 +39,7 @@ I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS. Sono d
 
     - Se un associato del punto vendita visita una pagina **Dettagli prodotto** quando visualizza le transazioni precedenti su più canali diversi, il servizio dei suggerimenti suggerisce articoli aggiuntivi che è probabile vengano acquistati insieme.
 
-    [![Suggerimenti sulla pagina Dettagli prodotto](./media/proddetails.png)](./media/proddetails.png)
+    [![Suggerimenti sulla pagina Dettagli prodotto.](./media/proddetails.png)](./media/proddetails.png)
 
 2. Nella pagina **Transazione**:
 
@@ -48,7 +48,7 @@ I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS. Sono d
     > [!NOTE]
     > Per visualizzare i suggerimenti nella pagina **Transazione**, il rivenditore deve aggiornare il layout dello schermo in Dynamics 365 Commerce. Il controllo **Suggerimenti** deve essere rilasciato nella pagina **Transazione**.
 
-    [![Suggerimenti nella pagina Transazione](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Suggerimenti nella pagina Transazione.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurare Commerce per abilitare i suggerimenti POS
 

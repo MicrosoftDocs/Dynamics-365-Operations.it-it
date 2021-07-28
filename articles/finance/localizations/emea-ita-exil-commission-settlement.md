@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: e63d2fc47a1332d8c82b633fb837e0b1c4225f21
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 185de8cde62deecc328d893e6e2903de3a72d8d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348454"
 ---
 # <a name="commission-settlement-on-payments"></a>Liquidazione provvigione su pagamento
 
@@ -41,13 +41,13 @@ Prima di poter utilizzare la funzionalità per la liquidazione delle provvigioni
     - **Su fattura** - Le provvigioni vengono addebitate durante il processo di fatturazione.
     - **Su pagamento** - Le provvigioni vengono addebitate durante il processo di pagamento.
 
-![Parametri contabilità clienti](media/emea-ita-exil-commission-setup-parameters.PNG)
+![Parametri contabilità clienti.](media/emea-ita-exil-commission-setup-parameters.PNG)
 
 ## <a name="set-up-commission-calculations"></a>Impostare i calcoli della provvigione
 
 È possibile impostare il calcolo delle provvigioni per una provvigione **Su pagamento** andando a **Vendite e marketing** \> **Provvigioni** \> **Calcolo provvigione**.
 
-![Impostare il calcolo della provvigione](media/emea-ita-exil-commission-%20calculation-setup.PNG)
+![Impostare il calcolo della provvigione.](media/emea-ita-exil-commission-%20calculation-setup.PNG)
 
 Se l'opzione **Soglie di pagamento** nella sezione **Provvigioni su pagamento** è impostata su **Sì**, è possibile specificare due limiti (soglie) per i calcoli delle provvigioni:
 
@@ -82,13 +82,13 @@ Dopo aver creato un ordine cliente, un utente può aggiornare la liquidazione de
 2. Selezionare e aprire un ordine cliente.
 3. Nella pagina **Dettagli ordine cliente**, nella visualizzazione **Intestazione**, nella scheda dettaglio **Impostazione** aggiornare il valore del campo **Liquidazione delle provvigioni** come richiesto.
 
-![Liquidazione delle provvigioni sull'ordine cliente](media/emea-ita-exil-commission-sales-order.png)
+![Liquidazione delle provvigioni sull'ordine cliente.](media/emea-ita-exil-commission-sales-order.png)
 
 Per impostazione predefinita, il valore del campo **delle provvigioni** è ereditato dalla pagina **Parametri contabilità clienti**. Per ulteriori informazioni, vedere [Impostare il metodo di liquidazione delle provvigioni predefinito](#default-commission-settlement-period).
 
 È inoltre possibile visualizzare in anteprima il calcolo della provvigione di vendita da un ordine cliente per ordini aperti o fatturati. Nella pagina **Dettagli ordine cliente**, nella scheda **Generale**, selezionare **Informazioni correlate** \> **Anteprima provvigione**.
 
-![Anteprima delle transazioni delle provvigioni](media/emea-ita-exil-commission-preview.PNG)
+![Anteprima delle transazioni delle provvigioni.](media/emea-ita-exil-commission-preview.PNG)
 
 > [!NOTE]
 > Un utente può combinare gli ordini cliente in un'unica fattura se tutti gli ordini cliente per la fatturazione hanno lo stesso valore di **Liquidazione delle provvigioni** nell'intestazione dell'ordine cliente.

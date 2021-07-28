@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 62b4285f2f5ad93e0a888dd47d22ab5f2caa184c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897990"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355558"
 ---
 # <a name="fixed-assets-home-page"></a>Home page Cespiti
 
@@ -30,7 +32,7 @@ I cespiti sono elementi di valore di proprietà di un individuo o di un'organizz
 
 È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestire i cespiti utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione per determinare l'ammortamento. È inoltre possibile calcolare le rettifiche ai cespiti ed eseguire la dismissione dei cespiti. Quando si utilizza Contabilità generale in combinazione con Cespiti, è possibile visualizzare il valore corrente di tutti i cespiti. La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese/area geografica. I requisiti possono includere regole per la registrazione di transazioni di acquisizione e dismissione, ammortamento, durata, rivalutazione e svalutazione di cespiti. Nelle funzionalità relative ai cespiti sono integrati molti di questi standard e regole.
 
-[![Processo aziendale](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Processo aziendale.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 

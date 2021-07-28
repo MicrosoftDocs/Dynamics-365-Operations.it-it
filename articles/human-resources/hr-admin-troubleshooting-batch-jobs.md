@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a5aeaeb7311d87a154882b7058b6da430900bd56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 13482ab7b9ee6303138a7a5e82dce78138e0b8ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053469"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357315"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Ottimizzare le prestazioni pianificando i processi batch dopo le ore lavorative
 
@@ -51,11 +51,11 @@ I seguenti processi batch devono essere eseguiti di notte o dopo le ore lavorati
 
 3. Selezionare **Esecuzione in background** e quindi selezionare **Ricorrenza**.
 
-   ![Impostare la ricorrenza](media/talent-batch-history-cleanup-recurrence.png)
+   ![Impostare la ricorrenza.](media/talent-batch-history-cleanup-recurrence.png)
 
 4. In **Definisci ricorrenza**, impostare la **Data di inizio** e **Ora di inizio** in modo che si verificano durante le ore non lavorative o nel fine settimana. Seleziona **Nessuna data di fine**. 
 
-   ![Definire la data e l'ora di inizio della ricorrenza](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definire la data e l'ora di inizio della ricorrenza.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Selezionare **OK**.
 

@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350162"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utilizzare un percorso relativo nelle associazioni dati dei modelli e dei formati ER
 
@@ -31,20 +31,20 @@ Lo strumento di creazione di report elettronici (ER) consente agli utenti di def
 
 Per migliorare la possibilità di utilizzo delle progettazioni di mapping di modello, è stata introdotta la funzionalità del [percorso relativo](er-formula-language.md#relative-path). Per impostazione predefinita, l'opzione di rappresentazione del percorso è attivata per qualsiasi nuova istanza dell'applicazione dove l'esperienza di progettazione ER è abilitata (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Abbiamo implementato il parametro del percorso relativo di modo che gli utenti possano continuare a utilizzare il percorso completo quando utilizzano questa presentazione delle associazioni ER.
 
-[![Parametri utente](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![Parametri utente.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 Quando il parametro di utilizzo del percorso relativo è attivato, un singolo carattere @ sostituisce il percorso all'articolo padre nell'associazione dell'elemento del modello corrente. L'intero percorso di associazione diventa più breve, rendendo l'intero mapping più ovvio e di più facile comprensione. Nella maggior parte dei casi, non è necessario un ulteriore scorrimento nella progettazione ER per visualizzare tutte le associazioni del modello di dati.
 
-[![Progettazione mapping modello](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![Progettazione mapping modello.](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 Quando si avvia la progettazione di una nuova espressione ER, è necessario immettere solo un carattere per definire un'associazione a un campo dell'articolo padre.
 
-[![Designer formula](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![Designer formula.](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 Quando si decide di modificare l'origine dati dell'articolo del modello padre, con l'utilizzo del percorso assoluto, è necessario associare di nuovo manualmente questo articolo del modello, nonché tutti gli articoli nidificati, a una nuova origine dati. Quando l'utilizzo del percorso relativo è attivato e si seleziona una nuova origine dati da associare a un articolo padre, viene visualizzata un'opzione per associare automaticamente tutti gli elementi nidificati di questo articolo padre con un clic.
 
-[![Sostituire il messaggio del percorso esistente](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![Sostituire il messaggio del percorso esistente.](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 Se si conferma la nuova associazione degli articoli nidificati, il nuovo articolo padre sarà posizionato nel percorso di ogni articolo nidificato contenente l'articolo padre esistente.
 Questa funzionalità non annulla la compatibilità con le versioni precedenti del framework ER. Tutte le configurazioni ER progettate in precedenza potranno essere utilizzate con questa nuova funzionalità e non saranno necessari aggiornamenti o conversioni.

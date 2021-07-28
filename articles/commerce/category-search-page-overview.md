@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794351"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351275"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
 
@@ -31,7 +31,7 @@ In questo argomento viene fornita una panoramica della pagina di destinazione di
 
 La pagina di destinazione di categoria predefinita è la pagina che viene in genere visualizzata quando gli utenti del sito Web selezionano una categoria nella gerarchia di navigazione. La pagina di categoria consente di esaminare i prodotti categorizzati nonché di ordinarli e filtrarli.
 
-![Pagina di destinazione di categoria predefinita](./media/SimpleCategoryLandingDressCategory.png)
+![Pagina di destinazione di categoria predefinita.](./media/SimpleCategoryLandingDressCategory.png)
 
 La parte superiore della pagina è un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il responsabile merchandising ha categorizzato. La configurazione viene effettuata durante quella della gerarchia di navigazione del canale. La parte inferiore della pagina è un piè di pagina che include collegamenti rapidi a vari argomenti a cui un acquirente potrebbe essere interessato.
 
@@ -55,7 +55,7 @@ I seguenti componenti sono essenziali per una categoria:
 
 Se una pagina di destinazione di categoria deve includere un'esperienza più personalizzata per una specifica categoria, è possibile "arricchire" la pagina di destinazione per quella categoria. Ad esempio, è possibile aggiungere un video marketing per catturare l'attenzione dell'acquirente. Per ulteriori informazioni, vedere [Migliorare una pagina di destinazione di categoria](enrich-category-page.md).
 
-![Pagina di destinazione di categoria migliorata](./media/CategoryLandingPages.png)
+![Pagina di destinazione di categoria migliorata.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Pagine di suggerimenti automatici e dei risultati della ricerca
 
@@ -69,11 +69,11 @@ Di seguito sono riportati alcuni tipi di suggerimenti che potrebbero essere visu
 - I **prodotti** forniscono collegamenti diretti alla pagina dettagli prodotto.
 - I **suggerimenti di ricerca in categorie con ambito** elencano varie categorie e consentono agli utenti di cercare la parola chiave in una specifica categoria.
 
-![Suggerimenti automatici immersivi](./media/ImmersiveAutoSuggestUX.png)
+![Suggerimenti automatici immersivi.](./media/ImmersiveAutoSuggestUX.png)
 
 Quando gli utenti selezionano una delle parole chiave o i suggerimenti di ricerca in categorie per ambito, oppure quando non vi sono suggerimenti per il termine di ricerca che hanno immesso, viene visualizzata una pagina dei risultati della ricerca. Gli utenti possono quindi esplorare, ordinare e affinare l'elenco dei risultati della ricerca per trovare l'articolo desiderato.
 
-![Pagina di destinazione della ricerca](./media/SearchLanding.png)
+![Pagina di destinazione della ricerca.](./media/SearchLanding.png)
 
 I seguenti componenti sono essenziali per una pagina dei risultati della ricerca:
 
@@ -94,7 +94,7 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
 
 >[!NOTE]
 >Queste funzionalità di ricerca basate su cloud sono disponibili a partire dalla versione 10.0.8. Verifica che in **Parametri di commercio > Parametri di configurazione** c'è una voce per "ProductSearch.UseAzureSearch impostata su 'true'". 
-![Parametri di configurazione per la ricerca basata su cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+![Parametri di configurazione per la ricerca basata su cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

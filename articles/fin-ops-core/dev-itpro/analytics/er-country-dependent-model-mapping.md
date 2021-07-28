@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 83cd99350f58a56d121d694393edc4eb98af728a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ef74a446356eeeeb86829868043ca2dad4eff77d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753770"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357596"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurare i mapping dei modelli ER dipendenti dal contesto del paese
 
@@ -48,7 +48,7 @@ Alcuni passaggi in questo argomento richiedono l'esecuzione di un formato ER. In
 
 Seguire i passaggi descritti nell'[Appendice 1](#appendix1) in questo argomento per pianificare i componenti ER necessari. È stata creata la configurazione del mapping di modello **Mapping (generale)** contenente il mapping di modello per la definizione **Punto di ingresso 1**.
 
-![Pagina delle configurazioni ER](./media/RCS-Context-specific-mapping-Tree.PNG)
+![Pagina configurazioni ER.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Eseguire il formato configurato
 
@@ -61,7 +61,7 @@ Si noti che il Web browser offre il download del file di testo generato dal form
 
 Seguire i passaggi descritti nell'[Appendice 2](#appendix2) in questo argomento per pianificare i componenti ER necessari. Ora sono disponibili le configurazioni di mapping di modello **Mapping (generale)** e **Mapping (generale) personalizzato**, ognuna delle quali contiene il mapping di modello per la definizione **Punto di ingresso 1**.
 
-![Pagina delle configurazioni ER](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![Pagina configurazioni ER.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Eseguire il formato configurato
 
@@ -71,7 +71,7 @@ Seguire i passaggi descritti nell'[Appendice 2](#appendix2) in questo argomento 
 
 Si noti che l'esecuzione del formato ER selezionato ha esito negativo. Un messaggio di errore informa che esiste più di un mapping di modello per il modello **Modello per ottenere i mapping** e la definizione **Entry point 1** nelle configurazioni di mapping di modello **Mapping (generale)** e **Mapping (generale) personalizzato**. Il messaggio consiglia inoltre di selezionare una delle configurazioni come configurazione predefinita.
 
-![Pagina delle configurazioni ER](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![Pagina configurazioni ER.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Definire una configurazione di mapping predefinita
 
@@ -82,7 +82,7 @@ Seguire questi passaggi per definire la configurazione di mapping di modello **M
 3.  Impostare l'opzione **Impostazione predefinita per mapping di modello** su **Sì**.
 4.  Selezionare **Salva**.
 
-![Pagina delle configurazioni ER](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![Pagina configurazioni ER.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Eseguire il formato configurato
 
@@ -101,7 +101,7 @@ Seguire i passaggi descritti nell'[Appendice 3](#appendix3) in questo argomento 
 
 Si noti che la versione 1 della configurazione di mapping di modello **Mapping (FR)** è configurata in modo che venga applicata solo ai formati ER del modello **Modello per ottenere i mapping** che vengono eseguiti nelle società Finance con il contesto del paese francese.
 
-![Pagina delle configurazioni ER](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![Pagina configurazioni ER.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Eseguire il formato configurato
 
@@ -121,7 +121,7 @@ Seguire questi passaggi per definire la configurazione di mapping di modello **M
 3.  Impostare l'opzione **Impostazione predefinita per mapping di modello** su **Sì**.
 4.  Selezionare **Salva**.
 
-![Pagina delle configurazioni ER](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![Pagina configurazioni ER.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Eseguire il formato configurato
 
@@ -195,7 +195,7 @@ Nella tabella, un segno più (+) indica la presenza di una configurazione di map
 1.  Nel pannello di navigazione andare a **Moduli \> Amministrazione organizzazione \> Creazione di report elettronici \> Registri debug configurazione**.
 2.  Fare clic sul pulsante **Ricaricare la pagina**.
 
-![Pagina dei log di esecuzione ER](./media/RCS-Context-specific-mapping-DebugLog.PNG)
+![Pagina dei log di esecuzione ER.](./media/RCS-Context-specific-mapping-DebugLog.PNG)
 
 Si noti che un nuovo record è stato aggiunto al registro di debug ER per il formato ER eseguito. Poiché il campo **Livello** del record è impostato su **Informazioni**, il record è informativo. Poiché il campo Componente formato è impostato su **Configurazione del mapping**, il record comunica che un mapping di modello è stato utilizzato durante l'esecuzione del formato ER **Formato per ottenere i mapping** (selezionato nel campo **Nome configurazione** ). Il contenuto del campo **Testo generato** comunica che il componente di mapping **Mapping (FR)** che si trova nella configurazione **Mapping (FR)** è stato utilizzato per eseguire il report.
 
@@ -234,9 +234,9 @@ Si noti che la versione bozza 1 della configurazione ER è pronta per la modific
 12. Selezionare **Aggiungi**.
 13. Selezionare **Nuovo**.
 14. Nella finestra di dialogo a discesa, nel campo **Nome**, immettere **Descrizione funzionalità**.
-15. Selezionare **Aggiungi**.
+15. Seleziona **Aggiungi**.
 
-    ![Pagina della progettazione del modello di dati ER](./media/RCS-Context-specific-mapping-Model.PNG)
+    ![Finestra di progettazione modello di dati ER.](./media/RCS-Context-specific-mapping-Model.PNG)
 
 16. Selezionare **Salva**.
 17. Chiudere la pagina.
@@ -276,7 +276,7 @@ Si noti che la versione bozza 1 della configurazione ER è pronta per la modific
 5.  Selezionare **Salva**.
 6.  Chiudere la pagina **Designer formula**.
 
-    ![Pagina della progettazione mapping modello di ER](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![Finestra di progettazione mapping modello ER.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Selezionare **Salva**.
 8.  Chiudere la pagina **Progettazione mapping modello**.
@@ -289,12 +289,12 @@ Si noti che la versione bozza 1 della configurazione ER è pronta per la modific
 15. Selezionare **Salva**.
 16. Chiudere la pagina **Designer formula**.
 
-    ![Pagina della progettazione mapping modello di ER](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![Finestra di progettazione mapping modello ER.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Selezionare **Salva**.
 18. Chiudere la pagina **Progettazione mapping modello**.
 
-    ![Pagina dei mapping di modello ER](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![Pagina dei mapping di modello ER.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Chiudere la pagina **Mapping modello**.
 
@@ -335,7 +335,7 @@ Si noti che la versione bozza 1 della configurazione ER è pronta per la modific
 2.  Selezionare il campo **Descrizione funzionalità**.
 3.  Selezionare **Associa**.
 
-    ![Pagina della progettazione del formato ER](./media/RCS-Context-specific-mapping-Format.PNG)
+    ![Pagina della progettazione del formato ER.](./media/RCS-Context-specific-mapping-Format.PNG)
 
 4.  Selezionare **Salva**.
 5.  Chiudere la pagina.
@@ -369,7 +369,7 @@ Si noti che la versione bozza 1 della configurazione ER è pronta per la modific
 6.  Selezionare **Salva**.
 7.  Chiudere la pagina.
 
-    ![Pagina della progettazione mapping modello di ER](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![Finestra di progettazione mapping modello ER.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Selezionare **Salva**.
 9.  Chiudere la pagina.
@@ -380,12 +380,12 @@ Si noti che la versione bozza 1 della configurazione ER è pronta per la modific
 14. Selezionare **Salva**.
 15. Chiudere la pagina.
 
-    ![Pagina della progettazione mapping modello di ER](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![Finestra di progettazione mapping modello ER.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Selezionare **Salva**.
 17. Chiudere la pagina.
 
-    ![Pagina dei mapping di modello ER](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![Pagina dei mapping di modello ER.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Chiudere la pagina.
 
@@ -432,7 +432,7 @@ Si noti che la versione bozza 1 della configurazione ER è pronta per la modific
 7.  Selezionare **Salva**.
 8.  Chiudere la pagina.
 
-    ![Pagina della progettazione mapping modello di ER](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![Finestra di progettazione mapping modello ER.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Selezionare **Salva**.
 10. Chiudere la pagina.
@@ -444,12 +444,12 @@ Si noti che la versione bozza 1 della configurazione ER è pronta per la modific
 16. Selezionare **Salva**.
 17. Chiudere la pagina.
 
-    ![Pagina della progettazione mapping modello di ER](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![Finestra di progettazione mapping modello ER.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Selezionare **Salva**.
 19. Chiudere la pagina.
 
-    ![Pagina dei mapping di modello ER](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![Pagina dei mapping di modello ER.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Chiudere la pagina.
 

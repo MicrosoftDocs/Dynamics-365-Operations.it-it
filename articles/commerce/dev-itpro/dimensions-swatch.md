@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 08564ce7af7412f2501b917b3496942004402611
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117230"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353864"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurare i valori di dimensione prodotto in modo che appaiano come campioni
 
@@ -39,11 +39,11 @@ La funzione di visualizzazione delle dimensioni come campioni consente a Commerc
 
 La seguente illustrazione mostra un esempio in cui i colori vengono visualizzati come campioni su un PDP di Commerce.
 
-![Esempio di colori mostrati come campioni in una pagina dei dettagli del prodotto](../dev-itpro/media/swatch_pdp.png)
+![Esempio di colori mostrati come campioni in una pagina dei dettagli del prodotto.](../dev-itpro/media/swatch_pdp.png)
 
 La seguente illustrazione mostra un esempio in cui i colori vengono visualizzati come campioni su una pagina con l'elenco di risultati della ricerca di Commerce.
 
-![Esempio di colori mostrati come campioni in una pagina con l'elenco di risultati della ricerca](../dev-itpro/media/swatch_searchresults.PNG)
+![Esempio di colori mostrati come campioni in una pagina con l'elenco di risultati della ricerca.](../dev-itpro/media/swatch_searchresults.PNG)
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Abilitare la funzione di visualizzazione delle dimensioni come campioni in Commerce Headquarters
 
@@ -57,15 +57,15 @@ La configurazione può essere eseguita a uno dei seguenti livelli:
 
 - **Dimensione**: in Commerce Headquarters, apri la pagina per una dimensione cercando **Colore**, **Dimensione** o **Stile**. In ogni pagina, una griglia elenca i valori delle dimensioni. Puoi gestire l'ordine di visualizzazione, il codice esadecimale e i valori dell'URL dell'immagine. Nella figura seguente è illustrato una configurazione di esempio nella pagina **Colori**.
 
-    ![Esempio di configurazione delle dimensioni nella pagina Colori](../dev-itpro/media/swatch_Color.PNG)
+    ![Esempio di configurazione delle dimensioni nella pagina Colori.](../dev-itpro/media/swatch_Color.PNG)
 
 - **Gruppo di dimensioni**: in Dynamics 365 Commerce, puoi usare la proprietà **RefinerGroup** per creare gruppi di dimensioni. Se sono definiti gruppi di dimensioni, apri la pagina appropriata cercando **Gruppo di colori**, **Gruppo di dimensioni** o **Gruppo di stili**. In ogni pagina puoi gestire il codice esadecimale, l'URL dell'immagine e i valori del gruppo di affinamento. Nella figura seguente è illustrato una configurazione di esempio nella pagina **Gruppi di colori**.
 
-    ![Esempio di configurazione delle dimensioni nella pagina Gruppi di colori](../dev-itpro/media/swatch_colorGroup.PNG)
+    ![Esempio di configurazione delle dimensioni nella pagina Gruppi di colori.](../dev-itpro/media/swatch_colorGroup.PNG)
 
 - **Dimensione del prodotto (durante la creazione del prodotto)** quando crei un nuovo prodotto, puoi utilizzare la pagina **Dimensioni del prodotto** per inserire i valori delle dimensioni. Per i prodotti esistenti, i campi **Codice esadecimale**, **URL** (per le immagini) e **RefinerGroup** potrebbero essere già impostati. Tuttavia, è possibile modificare i valori in base alle esigenze. Nella figura seguente è illustrato una configurazione di esempio nella pagina **Dimensioni prodotto**.
 
-    ![Esempio di configurazione delle dimensioni nella pagina Dimensioni prodotto](../dev-itpro/media/swatch_product_dimensions.PNG)
+    ![Esempio di configurazione delle dimensioni nella pagina Dimensioni prodotto.](../dev-itpro/media/swatch_product_dimensions.PNG)
 
 > [!NOTE]
 > Il processo di gestione delle configurazioni del codice esadecimale e dell'URL dell'immagine segue lo stesso modello utilizzato per gestire l'ordine di visualizzazione delle dimensioni.
@@ -76,7 +76,7 @@ Per la maggior parte delle dimensioni colore, è necessario fornire un valore di
 
 La figura seguente mostra un esempio in cui le dimensioni del colore sono configurate utilizzando valori di codice esadecimale.
 
-![Esempio di configurazione delle dimensioni che utilizza codici esadecimali](../dev-itpro/media/swatch_color_hexcode.png)
+![Esempio di configurazione delle dimensioni che utilizza codici esadecimali.](../dev-itpro/media/swatch_color_hexcode.png)
 
 ## <a name="configure-dimension-values-by-using-image-urls"></a>Configurare i valori delle dimensioni utilizzando gli URL delle immagini
 
@@ -86,13 +86,13 @@ Devi caricare ciascuna immagine nel generatore di siti di Commerce e pubblicarla
 
 Nella figura seguente è illustrato un esempio in cui gli URL dell'immagine vengono utilizzati per la configurazione nella pagina **Colori**.
 
-![Esempio di configurazione delle dimensioni che utilizza gli URL dell'immagine](../dev-itpro/media/swatch_color_urls.PNG)
+![Esempio di configurazione delle dimensioni che utilizza gli URL dell'immagine.](../dev-itpro/media/swatch_color_urls.PNG)
 
 Puoi utilizzare un modello multimediale per definire gli URL delle immagini, proprio come puoi fare per le immagini dei prodotti e delle categorie. Quando carichi immagini in Site Builder, le convenzioni sui nomi dei file e i percorsi dei file devono essere coerenti.
 
 Nella figura seguente è illustrato un esempio in cui gli URL dell'immagine vengono utilizzati per la configurazione di un modello multimediale.
 
-![Esempio di configurazione del modello multimediale](../dev-itpro/media/swatch_media_template.PNG)
+![Esempio di configurazione del modello multimediale.](../dev-itpro/media/swatch_media_template.PNG)
 
 ## <a name="configure-dimension-values-by-using-both-hex-codes-and-image-urls"></a>Configurare i valori delle dimensioni utilizzando codici esadecimali e URL delle immagini
 
@@ -100,7 +100,7 @@ Per la maggior parte delle dimensioni colore, puoi configurare sia codici esadec
 
 Nella figura seguente è illustrato un esempio in cui codici esadcimali e gli URL dell'immagine vengono utilizzati per la configurazione nella pagina **Colori**.
 
-![Esempio di configurazione delle dimensioni che utilizza codici esadecimali e URL dell'immagine](../dev-itpro/media/swatch_color_hexandimage.png)
+![Esempio di configurazione delle dimensioni che utilizza codici esadecimali e URL dell'immagine.](../dev-itpro/media/swatch_color_hexandimage.png)
 
 ## <a name="configure-refiner-groups"></a>Configurare i gruppi di affinamento
 
@@ -110,7 +110,7 @@ Ad esempio, se i valori della dimensione del colore sono "blu", "blu plaid", "bl
 
 L'esempio nella figura seguente mostra la relazione tra le proprietà **Colore** e **RefinerGroup** in Commerce Headquarters.
 
-![Esempio di gestione di un gruppo di affinamento](../dev-itpro/media/swatch_refiner_group.png)
+![Esempio di gestione di un gruppo di affinamento.](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>Gestire immagini in Commerce Site Builder
 
@@ -118,7 +118,7 @@ Se vengono utilizzati URL immagine per qualsiasi valore di dimensione, le immagi
 
 La figura seguente mostra un esempio in cui la finestra di dialogo **Carica file** viene utilizzata per caricare le immagini nella libreria multimediale di Site Builder. Evidenzia le categorie **Dimensione**, **Colore** e **Stile** disponibili per la selezione.
 
-![Esempio di categorie di file di immagine durante il caricamento nella libreria multimediale di Site Builder](../dev-itpro/media/swatch_sitebuilder.png)
+![Esempio di categorie di file di immagine durante il caricamento nella libreria multimediale di Creazione di siti Web.](../dev-itpro/media/swatch_sitebuilder.png)
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>Abilitare la visualizzazione dei campioni nelle pagine del sito di e-commerce
 

@@ -2,7 +2,7 @@
 title: Modulo Intestazione
 description: In questo argomento vengono descritti i moduli Intestazione e la procedura per creare intestazioni di pagina in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799915"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479258"
 ---
 # <a name="header-module"></a>Modulo intestazione
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo argomento vengono descritti i moduli Intestazione e la procedura per creare intestazioni di pagina in Microsoft Dynamics 365 Commerce.
 
@@ -33,7 +34,7 @@ Il modulo intestazione include il logo di un sito, collegamenti alla gerarchia d
 
 L'immagine seguente mostra un esempio di modulo Intestazione in una home page.
 
-![Esempio di modulo Intestazione](./media/ecommerce-header.png)
+![Esempio di modulo Intestazione.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Proprietà di un modulo Intestazione
 
@@ -58,9 +59,16 @@ Di seguito sono elencati i moduli che possono essere utilizzati in un modulo Int
 - **Selettore punto vendita** - Il modulo di selezione punto vendita può essere incluso nello slot di selezione del punto vendita del modulo di intestazione. Consente agli utenti di spostarsi e trovare i punti vendita nelle vicinanze. Gli utenti possono anche specificare un punto vendita preferito. Quel punto vendita verrà quindi mostrato nell'intestazione. Quando il modulo di selezione punto vendita è incluso nel modulo di intestazione, la proprietà **Modalità** deve essere impostata su **Trova punti vendita**. Per ulteriori informazioni, vedere [Modulo Selettore punto vendita](store-selector.md).
 
 > [!NOTE]
-> - Il supporto per l'utilizzo del modulo dell'icona del carrello nei moduli di intestazione è disponibile in Dynamics 365 Commerce versione 10.0.11.
-> - Il supporto per l'utilizzo del modulo di selezione sito nei moduli di intestazione è disponibile in Dynamics 365 Commerce versione 10.0.14.
-> - Il supporto per l'utilizzo del modulo di selezione punto vendita nei moduli di intestazione è disponibile in Dynamics 365 Commerce versione 10.0.15.
+> - Il supporto per l'utilizzo del modulo dell'icona del carrello nei moduli di intestazione è disponibile a partire da Dynamics 365 Commerce, versione 10.0.11.
+> - Il supporto per l'utilizzo del modulo di selezione sito nei moduli di intestazione è disponibile a partire da Dynamics 365 Commerce, versione 10.0.14.
+> - Il supporto per l'utilizzo del modulo di selezione del punto vendita nei moduli di intestazione è disponibile a partire da Dynamics 365 Commerce, versione 10.0.15.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Modulo di intestazione nel tema Adventure Works
+
+Nel tema Adventure Works il modulo di intestazione supporta la proprietà **Logo mobile**. Questa proprietà consente di specificare un logo per i riquadri di visualizzazione dei dispositivi mobili. La proprietà **Logo mobile** è disponibile come estensione della definizione del modulo.
+
+> [!IMPORTANT]
+> Il tema Adventure Works è disponibile a partire dalla versione Dynamics 365 Commerce 10.0.20.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Creare un frammento Intestazione per una pagina
 

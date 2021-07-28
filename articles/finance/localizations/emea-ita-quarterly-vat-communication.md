@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
 ms.author: elgolu
-ms.openlocfilehash: 5523f85450204fb8cdac2aa98fec6208d024dff5
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: ec8fb667d73934df11dd32fe0fc605922fea1b66
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894724"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354270"
 ---
 # <a name="quarterly-vat-communication-report"></a>Report di comunicazione IVA trimestrale
 
@@ -51,7 +51,7 @@ Per il numero progressivo viene utilizzata una sequenza numerica di sistema. Vai
 
 Ad esempio:
 
-   ![Impostare una sequenza numerica per il report Comunicazione trimestrale IVA (LIPE)](./media/num-seq.png)
+   ![Impostare una sequenza numerica per il report Comunicazione trimestrale IVA (LIPE).](./media/num-seq.png)
 
 Per ulteriori informazioni su come impostare le sequenze numeriche vedi la sezione [Impostare sequenze numeriche](/dynamicsax-2012/appuser-itpro/set-up-number-sequences).
 
@@ -75,7 +75,7 @@ Per ulteriori informazioni su come impostare le sequenze numeriche vedi la sezio
 4. Seleziona **Modello dei report fiscali italiani** \> **Comunicazione IVA trimestrale** e quindi, nel riquadro azioni, seleziona **Crea configurazione**.
 5. Nella finestra di dialogo a discesa, seleziona l'opzione **Deriva da nome: Comunicazione IVA trimestrale**, immetti un nome e una descrizione per il nuovo formato, quindi seleziona **Crea configurazione**.
 
-    ![Derivare il formato ER per creare il formato per l'azienda](./media/derive-er-format.png)
+    ![Derivare il formato ER per creare il formato per l'azienda.](./media/derive-er-format.png)
 
     Il nuovo formato include tutti i campi e mapping dell'originale. Nel nuovo formato è possibile apportare modifiche per soddisfare i requisiti della propria azienda.
 
@@ -94,12 +94,12 @@ Per ulteriori informazioni su come impostare le sequenze numeriche vedi la sezio
 
     Per impostare i codici imposta per il report, nella pagina **Progettazione formato** nella scheda **Mapping** espandi **Modello** \> **AccountingData** \> **MonthlyData**, seleziona il nodo **ActiveVATOperations** quindi seleziona **Modifica**.
 
-    ![Modificare la formula per operazioni IVA attive](./media/edit-formula-active-vat-operations.png)
+    ![Modificare la formula per operazioni IVA attive.](./media/edit-formula-active-vat-operations.png)
 
 7. Nella finestra di dialogo **Proprietà origine dati "campo calcolato"** seleziona **Modifica formula**.
 8. Aggiorna la formula con i codici imposte utilizzati dalla società e le indicazioni fiscali applicabili alle operazioni della società. Definisci manualmente i codici imposta come valori stringa. Per le indicazioni fiscali, seleziona i valori dall'origine dati **TaxDirection_Type** sul lato sinistro della pagina **Progettazione formula**.
 
-   ![Aggiungere i codici imposta dell'azienda in progettazione formule](./media/formula-designer.png)
+   ![Aggiungere i codici imposta dell'azienda in progettazione formule.](./media/formula-designer.png)
 
    Quando il report viene generato, il sistema utilizzerà le condizioni definite per il nodo **ActiveVATOperations** per calcolare i valori per i tag **TotaleOperazioniAttive** e **IvaEsigibile** del report.
 
@@ -110,21 +110,21 @@ Per ulteriori informazioni su come impostare le sequenze numeriche vedi la sezio
 13. Per specificare la sequenza numerica che il sistema deve utilizzare per i numeri progressivi inclusi nel nome file per il file report, nella pagina **Progettazione formato** nella scheda **Mapping**, seleziona **Aggiungi radice**.
 14. Nella finestra di dialogo a discesa, espandi **Dynamics 365 for Operations** e quindi seleziona **Sequenza numerica**.
 
-      ![Aggiungere la sequenza numerica al formato](./media/add-num-seq.png)
+      ![Aggiungere la sequenza numerica al formato.](./media/add-num-seq.png)
 
 15. Immetti un nome, seleziona la sequenza numerica creata in precedenza, quindi seleziona **OK** per creare la sequenza numerica.
 
-       ![Specificare un nome per la sequenza numerica in formato ER](./media/num0seq-name.png)
+       ![Specificare un nome per la sequenza numerica in formato ER.](./media/num0seq-name.png)
 
 16. Nella pagina **Progettazione formato** seleziona **File** sul lato sinistro, e poi, nella scheda **Mapping**, seleziona il pulsante **Modifica** (simbolo della matita) per il campo **Nome file**.
 
-    ![Modificare la formula per il nome del file con il nome della sequenza numerica](./media/file-name-edit.png)
+    ![Modificare la formula per il nome del file con il nome della sequenza numerica.](./media/file-name-edit.png)
 
 17. Aggiorna **"IT"&model.Frontispiece.FiscalCode&"_LI_00000"** con una formula che include un collegamento alla nuova sequenza numerica:
     
       - **"IT"&model.Frontispiece.FiscalCode&"_LI_"&LIPE_file_num**. Qui, **LIPE_file_num** è il nome che hai dato alla sequenza numerica. Per aggiungere **LIPE_file_num** alla formula, fai clic su **Aggiungi origine dati**. Al termine, selezionare **Salva**.
 
-      ![Modificare la formula per il nome file con il nome della sequenza numerica](./media/file-name-formula-designer.png)
+      ![Modificare la formula per il nome file con il nome della sequenza numerica.](./media/file-name-formula-designer.png)
 
 18. Salva le modifiche nel formato ER e completa la configurazione.
 
@@ -134,13 +134,13 @@ I valori di alcuni tag di formato devono essere inseriti manualmente. I tag sono
 
 Per impostazione predefinita, il formato **Comunicazione IVA trimestrale** include tutti i parametri possibili. Per aggiungere, eliminare o aggiornare i parametri nella finestra di dialogo del report, nella pagina **Progettazione formato** nella scheda **Mapping** passa a **Vista gruppo**, quindi seleziona l'elemento **Contenitori vuoti**.
 
-   ![Contenitori vuoti](./media/empty-containers.png)
+   ![Contenitori vuoti.](./media/empty-containers.png)
 
 L'elemento **Contenitori vuoti** include tutti i parametri di input per il report. Prima di eliminare un parametro di input, è necessario svincolarlo o aggiornare il mapping per il campo corrispondente. Espandi l'albero della struttura del formato sul lato sinistro della pagina **Progettazione formato** trova il campo corrispondente ed elimina o aggiorna l'associazione.
 
 Per aggiungere un parametro di input, aggiungilo nel nodo corrispondente nell'elemento **Contenitori vuoti**, seleziona un tag nella struttura ad albero del formato, quindi seleziona **Associa**.
 
-   ![Associare un parametro di input](./media/binding.png)
+   ![Associare un parametro di input.](./media/binding.png)
 
 Quando hai finito di aggiornare il formato, salvalo, chiudilo e completalo.
 
@@ -151,7 +151,7 @@ Una nuova voce di menu per il report **Comunicazione IVA trimestrale (LIPE)** de
 1. Andare a **Imposta** \> **Impostazione** \> **Parametri** \> **Parametri di contabilità generale**.
 2. Nella scheda **IVA**, nel campo **Mapping formato** della Scheda dettaglio **Comunicazione IVA trimestrale** seleziona il formato **Comunicazione IVA trimestrale** creato.
 
-    ![Impostare il formato di comunicazione IVA trimestrale nei parametri di contabilità generale](./media/gl-parameters-er-format.png)
+    ![Impostare il formato di comunicazione IVA trimestrale nei parametri di contabilità generale.](./media/gl-parameters-er-format.png)
 
 ## <a name="generate-a-quarterly-vat-communication-lipe-report"></a>Generare un report di comunicazione IVA trimestrale (LIPE)
 

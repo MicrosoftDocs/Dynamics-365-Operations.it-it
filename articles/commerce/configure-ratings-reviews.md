@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5161755b9e15e93fbb5eeb6404ea0820f7068ea7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 09930af8b6ce78a2a88382772a44de173875856a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796077"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352544"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configurare valutazioni e revisioni
 
@@ -46,7 +46,7 @@ Per configurare un sito allo scopo di visualizzare valutazioni e recensioni, eff
 
 L'illustrazione seguente mostra questa configurazione in Dynamics 365 Commerce.
 
-![Configurare un sito per visualizzare valutazioni e recensioni](media/rnr-eCommerce-site-appsettings.png)
+![Configurare un sito per visualizzare valutazioni e recensioni.](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Collegare la valutazione di un prodotto alla sezione Recensioni di una pagina dettagli prodotto
 
@@ -60,7 +60,7 @@ Per collegare la valutazione di una prodotto alla sezione **Recensioni** della p
 
 L'illustrazione seguente mostra questa configurazione in Dynamics 365 Commerce.
 
-![Collegare la valutazione di un prodotto alla sezione Recensioni di una pagina dettagli prodotto](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Collegare la valutazione di un prodotto alla sezione Recensioni di una pagina dettagli prodotto.](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Configurare il collegamento per la pagina dell'informativa sulla privacy e delle politiche
 
@@ -75,7 +75,7 @@ Per configurare il collegamento per la pagina dell'informativa sulla privacy e d
 
 L'illustrazione seguente mostra questa configurazione in Dynamics 365 Commerce.
 
-![Configurare il collegamento per la pagina dell'informativa sulla privacy e delle politiche](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Configurare il collegamento per la pagina dell'informativa sulla privacy e dei criteri.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Configurare i moduli di valutazione e recensione nelle pagine dei dettagli del prodotto
 

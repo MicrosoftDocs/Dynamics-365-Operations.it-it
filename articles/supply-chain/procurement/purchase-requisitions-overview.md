@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188199"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349796"
 ---
 # <a name="purchase-requisition-overview"></a>Panoramica della richiesta di acquisto
 
@@ -47,7 +49,7 @@ Quando si crea una richiesta di acquisto, a questa è assegnato uno stato. A ogn
 
 Nel diagramma riportato di seguito vengono illustrati gli stati assegnati a una richiesta di acquisto e a una riga della richiesta di acquisto mentre avanzano nel processo di revisione.  
 
-[![Stati dell'intestazione e delle righe della richiesta di acquisto](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Stati dell'intestazione e delle righe della richiesta di acquisto.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Intestazione richiesta di acquisto e relazioni degli stati delle righe
 
@@ -179,7 +181,7 @@ Per creare un ordine fornitore per le righe della richiesta di acquisto non idon
 
 Il processo per il consolidamento della domanda inizia nel momento in cui una richiesta di acquisto viene approvata in un flusso di lavoro e le prenotazioni budget e gli impegni preliminari di spesa sono stati registrati, se il controllo del budget è configurato per l'organizzazione. Nel seguente diagramma viene illustrato il flusso di processo per il consolidamento della domanda.  
 
-[![Flusso del processo per il consolidamento della domanda](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Flusso del processo per il consolidamento della domanda.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Per consolidare le righe della richiesta di acquisto approvate, attenersi alla seguente procedura:
 

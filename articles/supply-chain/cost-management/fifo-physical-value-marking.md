@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37efef723a7ca5e5f2333ff41cdf8351156e9bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 393239571de8a8d845107a8a8a151748c6b963c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821611"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355999"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>Informazioni su FIFO con valore fisico e contrassegno
 
@@ -51,7 +51,7 @@ In questo esempio, il gruppo di modelli di articoli non è contrassegnato per in
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente. Le seguenti illustrazioni mostrano gli effetti del modello inventariale FIFO in questa serie di transazioni quando non viene utilizzata l'opzione **Includi valore fisico**. 
 
-![FIFO senza Includi valore fisico](./media/fifowithoutincludephysicalvalue.gif) 
+![FIFO senza Includi valore fisico.](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -83,7 +83,7 @@ Se la casella di controllo **Includi valore fisico** è selezionata per un artic
 
 La transazione 5b verrà compensata con la transazione in entrata 1b. Verrà eseguita una rettifica di -11,25 EUR per questa transazione in uscita. Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. La seguente illustrazione mostra gli effetti del modello inventariale FIFO in questa serie di transazioni quando viene utilizzata l'opzione **Includi valore fisico**. 
 
-![FIFO con Includi valore fisico](./media/fifowithincludephysicalvalue.gif) 
+![FIFO con Includi valore fisico.](./media/fifowithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -115,7 +115,7 @@ Il contrassegno è un processo che consente di collegare, o contrassegnare, una 
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. Nella seguente illustrazione vengono mostrati gli effetti del modello inventariale FIFO su questa serie di transazioni quando viene utilizzato il contrassegno tra entrate e uscite. 
 
-![FIFO con Contrassegno](./media/fifowithmarking.gif) 
+![FIFO con Contrassegno.](./media/fifowithmarking.gif) 
 
 **Informazioni sul diagramma**
 

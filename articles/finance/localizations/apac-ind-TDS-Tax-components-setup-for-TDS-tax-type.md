@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023353"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358172"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Configurare componenti di imposta per il tipo di imposta TDS
 
@@ -33,7 +33,7 @@ Per impostare i componenti TDS, procedi come segue:
 
 1. Seleziona **Imposta \> Impostazione \> Ritenuta d'acconto \> Componenti ritenuta d'acconto**.
 
-    [![Pagina Componenti ritenuta d'acconto](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Pagina Componenti ritenuta d'acconto.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. Nel campo **Tipo di imposta**, seleziona **TDS** per impostare i componenti di ritenuta d'acconto per il tipo di imposta TDS.
 3. Nel riquadro azioni seleziona **Nuova** per creare una riga.
@@ -50,7 +50,7 @@ Per impostare i componenti TDS, procedi come segue:
 
     Ad esempio, se l'importo della soglia di eccezione è 5.000, la TDS viene calcolata su una specifica riga di fattura se l'importo della riga di fattura supera 5.000 (in altre parole, è 5.001 o più).
 
-    [![Pagina Soglia](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Pagina Soglia.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > L'importo della soglia di eccezione deve essere inferiore o uguale all'importo della soglia.
@@ -66,6 +66,6 @@ Per impostare i componenti TDS, procedi come segue:
 
 14. Seleziona **OK** per copiare e creare componenti TDS per l'altro gruppo di componenti TDS nella pagina **Componenti ritenuta d'acconto**.
 
-    [![Finestra di dialogo Copia componenti ritenuta d'acconto](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Finestra di dialogo Copia componenti ritenuta d'acconto.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
-15. Chiudi la pagina.
+15. Chiudere la pagina.

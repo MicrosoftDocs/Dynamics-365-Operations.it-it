@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: sndray
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 27b03e42b0022083f0263ab00dce68c6a592ad25
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db31eb45898efc03041c6fac682f2cc428a547f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814954"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348462"
 ---
 # <a name="credit-invoicing-italy"></a>Fatturazione delle note di accredito (Italia)
 
@@ -36,23 +36,23 @@ Per attivare la funzionalità di fatturazione nel modulo **Contabilità clienti*
 
 Nel modulo **Contabilità generale**, passare a **Scritture contabili** \> **Giornale di registrazione generale**, selezionare **Righe**, quindi nel riquadro azioni, selezionare **Funzioni** \> **Fatturazione note di accredito**.
 
-![Pagina Righe giornale di registrazione generale con l'opzione Fatturazione note di accredito](./media/ita-credit-invoicing-gl.png)
+![Pagina Righe giornale di registrazione generale con l'opzione Fatturazione note di accredito.](./media/ita-credit-invoicing-gl.png)
 
 Nel modulo **Contabilità clienti**, passare a **Fatture** \> **Tutte le fatture a testo libero**, quindi nel riquadro azioni, nella scheda **Fattura**, nel gruppo **Funzioni**, selezionare **Fatturazione note di accredito**.
 
-![Pagina Tutte le fatture a testo libero con l'opzione Fatturazione note di accredito](./media/ita-credit-invoicing-fti.png)
+![Pagina Tutte le fatture a testo libero con l'opzione Fatturazione note di accredito.](./media/ita-credit-invoicing-fti.png)
 
 Nel modulo **Contabilità clienti**, passare a **Ordini** \> **Tutti gli ordini cliente**, quindi nel riquadro azioni, nella scheda **Fattura**, nel gruppo **Correzione**, selezionare **Fatturazione note di accredito**.
 
-![Pagina Tutti gli ordini cliente con l'opzione Fatturazione note di accredito](./media/ita-credit-invoicing-so.png)
+![Pagina Tutti gli ordini cliente con l'opzione Fatturazione note di accredito.](./media/ita-credit-invoicing-so.png)
 
 Nel modulo **Contabilità fornitori**, passare a **Fatture** \> **Giornale di registrazione fatture**, selezionare **Righe**, quindi nel riquadro azioni, selezionare **Funzioni** \> **Fatturazione note di accredito**.
 
-![Pagina Righe giornale di registrazione fatture con l'opzione Fatturazione note di accredito](./media/ita-credit-invoicing-apij.png)
+![Pagina Righe giornale di registrazione fatture con l'opzione Fatturazione note di accredito.](./media/ita-credit-invoicing-apij.png)
 
 Nel modulo **Contabilità fornitori**, passare a **Ordini fornitore** \> **Tutti gli ordini fornitore**, quindi nel riquadro azioni, nella scheda **Fattura**, nel gruppo **Introduci**, selezionare **Fatturazione note di accredito**.
 
-![Pagina Tutti gli ordini fornitore con la pagina Fatturazione note di accredito](./media/ita-credit-invoicing-po.png)
+![Pagina Tutti gli ordini fornitore con la pagina Fatturazione note di accredito.](./media/ita-credit-invoicing-po.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

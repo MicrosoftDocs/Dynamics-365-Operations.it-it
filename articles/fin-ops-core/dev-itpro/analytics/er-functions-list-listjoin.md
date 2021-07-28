@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027917"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353732"
 ---
 # <a name="listjoin-er-function"></a>Funzione LISTJOIN ER
 
@@ -66,15 +66,15 @@ Inserire quindi l'origine dati **Record 2** del tipo `Container` . Questa origin
 - **Importo**: Questo campo contiene un'espressione che restituisce un valore del tipo`Real` .
 - **Funzione**: Questo campo contiene un'espressione che restituisce un valore del tipo`Boolean` .
 
-![Pagina della progettazione mapping modello di ER](./media/er-functions-list-listjoin-image1.gif)
+![Finestra di progettazione mapping modello ER.](./media/er-functions-list-listjoin-image1.gif)
 
 In questo caso, l'espressione `LISTJOIN(LIST('Record 1'), LIST('Record 2'))`restituisce un nuovo elenco che contiene due record.
 
-![Pagina di progettazione del mapping di modello ER con due record](./media/er-functions-list-listjoin-image2.gif)
+![Finestra di progettazione mapping modello ER con due record.](./media/er-functions-list-listjoin-image2.gif)
 
 La struttura di questo elenco è costituita da un singolo campo **Importo** di tipo `Real`, perché questo campo è l'unico campo che viene presentato in ogni argomento della funzione chiamata.
 
-![Campo dell'importo della pagina di progettazione del mapping di modello ER](./media/er-functions-list-listjoin-image3.gif)
+![Campo importo finestra di progettazione mapping modello ER.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

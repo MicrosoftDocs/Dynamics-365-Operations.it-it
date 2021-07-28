@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055006"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361229"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Creare un'app di esportazione dati ricorrente
 
@@ -63,13 +63,13 @@ Alla fine di questa esercitazione, si disporrà di un'app per la logica connessa
 
 L'app per la logica completata sarà simile alla seguente illustrazione.
 
-![Panoramica dell'app per la logica](media/integration-logic-app-overview.png)
+![Panoramica dell'app per la logica.](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>Passaggio 1: creare un progetto di esportazione di dati in Human Resources
 
 In Human Resources, creare un progetto di esportazione di dati che esporta i lavoratori. Assegnare al progetto il nome **Esportazione lavoratori** e assicurarsi che l'opzione **Genera pacchetto dati** sia impostata su **Sì**. Aggiungere una singola entità (**Lavoratore**) al progetto e selezionare il formato in cui esportare (in questa esercitazione viene utilizzato il formato Microsoft Excel).
 
-![Progetto dati Esportazione lavoratori](media/integration-logic-app-export-workers-project.png)
+![Progetto dati Esportazione lavoratori.](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Prendere nota del nome del progetto di esportazione di dati. Dovrà essere utilizzato quando si crea l'app per la logica nel passaggio successivo.
@@ -80,12 +80,12 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
 
 1. Nel portale di Azure, creare un'app per la logica.
 
-    ![Pagina di creazione dell'app per la logica](media/integration-logic-app-creation-1.png)
+    ![Pagina di creazione dell'app per la logica.](media/integration-logic-app-creation-1.png)
 
 2. Nella finestra di progettazione di app per la logica, iniziare con un'app per la logica vuota.
 3. Aggiungere un [trigger di programmazione della ricorrenza ](/azure/connectors/connectors-native-recurrence) per eseguire l'app per la logica ogni 24 ore (o in base alla programmazione scelta).
 
-    ![Finestra di dialogo Ricorrenza](media/integration-logic-app-recurrence-step.png)
+    ![Finestra di dialogo Ricorrenza.](media/integration-logic-app-recurrence-step.png)
 
 4. Chiamare l'API REST DMF [ExportToPackage ](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) per pianificare l'esportazione del pacchetto di dati.
 
@@ -97,7 +97,7 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
         > [!NOTE]
         > Il servizio Human Resources non fornisce ancora un connettore che espone tutte le API che compongono l'API REST del pacchetto DMF, come **ExportToPackage**. È invece necessario chiamare le API utilizzando le richieste HTTPS non elaborate tramite il connettore HTTP con Azure AD. Questo connettore utilizza Azure Active Directory (Azure AD) per l'autenticazione e l'autorizzazione a Human Resources.
 
-        ![Connettore HTTP con Azure AD](media/integration-logic-app-http-aad-connector-step.png)
+        ![Connettore HTTP con Azure AD.](media/integration-logic-app-http-aad-connector-step.png)
 
     2. Accedere all'ambiente di Human Resources tramite il connettore HTTP con Azure AD.
     3. Impostare una richiesta **POST** HTTP per chiamare l'API REST DMF **ExportToPackage**.
@@ -116,21 +116,21 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
             }
             ```
 
-        ![Azione Richiama richiesta HTTP](media/integration-logic-app-export-to-package-step.png)
+        ![Azione Richiama richiesta HTTP.](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > È possibile che si intenda rinominare ogni passaggio di modo che risulti più descrittivo del nome predefinito, **Richiamare una richiesta HTTP**. Ad esempio, è possibile rinominare questo passaggio **ExportToPackage**.
 
 5. [Inizializzare una variabile](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) per memorizzare lo stato di esecuzione della richiesta **ExportToPackage**.
 
-    ![Azione Inizializza variabile](media/integration-logic-app-initialize-variable-step.png)
+    ![Azione Inizializza variabile.](media/integration-logic-app-initialize-variable-step.png)
 
 6. Attendere fino a quando lo stato di esecuzione dell'esportazione dei dati è **Operazione completata**.
 
     1. Aggiungere un [ciclo Until](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) che si ripete fino a che il valore della variabile **ExecutionStatus** non è **Operazione completata**.
     2. Aggiungere un'azione **Ritarda** che attende cinque secondi prima di eseguire il polling dello stato di esecuzione corrente dell'esportazione.
 
-        ![Contenitore del ciclo Until](media/integration-logic-app-until-loop-step.png)
+        ![Contenitore del ciclo Until.](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Impostare il valore del limite su **15** per attendere un massimo di 75 secondi (15 iterazioni × 5 secondi) per il completamento dell'esportazione. Se l'esportazione richiede più tempo, regolare il valore del limite in base alle esigenze.        
@@ -146,9 +146,9 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
             > [!NOTE]
             > Potrebbe essere necessario inserire il valore **Corpo della richiesta** nella visualizzazione codice o nell'editor di funzioni nella finestra di progettazione.
 
-        ![Azione Richiama richiesta HTTP 2](media/integration-logic-app-get-execution-status-step.png)
+        ![Azione Richiama richiesta HTTP 2.](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Azione Imposta variabile](media/integration-logic-app-set-variable-step.png)
+        ![Azione Imposta variabile.](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > Il valore dell'azione **Imposta variabile** (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) differirà dal valore del corpo della richiesta **Richiama richiesta HTTP 2** anche se la finestra di progettazione mostrerà i valori allo stesso modo.
@@ -161,7 +161,7 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
         - **URL della richiesta:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Corpo della richiesta:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![Azione GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)
+        ![Azione GetExportedPackageURL.](media/integration-logic-app-get-exported-package-step.png)
 
 8. Scaricare il pacchetto esportato.
 
@@ -173,7 +173,7 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
             > [!NOTE]
             > Potrebbe essere necessario immettere il valore **URI** nella visualizzazione codice o nell'editor di funzioni nella finestra di progettazione.
 
-        ![Azione GET HTTP](media/integration-logic-app-download-file-step.png)
+        ![Azione GET HTTP.](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > Questa richiesta non richiede alcuna autenticazione aggiuntiva, in quanto l'URL che l'API **GetExportedPackageUrl** restituisce include un token di firme di accesso condiviso che concede l'accesso per scaricare il file.
@@ -187,7 +187,7 @@ La maggior parte dell'esercitazione prevede la creazione dell'app per la logica.
         - **Nome file:** worker\_package.zip
         - **Contenuto file:** il corpo del passaggio precedente (contenuto dinamico)
 
-        ![Azione Crea file](media/integration-logic-app-create-file-step.png)
+        ![Azione Crea file.](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>Passaggio 3: testare l'app per la logica
 
@@ -197,7 +197,7 @@ Se viene segnalato un errore per un qualsiasi passaggio, selezionare quel passag
 
 L'illustrazione seguente mostra l'aspetto della finestra di progettazione di app per la logica quando tutti i passaggi dell'app per la logica vengono eseguiti correttamente.
 
-![Esecuzione senza errori dell'app per la logica](media/integration-logic-app-successful-run.png)
+![Esecuzione senza errori dell'app per la logica.](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>Riepilogo
 

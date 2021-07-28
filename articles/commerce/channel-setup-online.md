@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936946"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351178"
 ---
 # <a name="set-up-an-online-channel"></a>Impostare un canale online
 
@@ -55,11 +55,11 @@ Per creare e configurare un nuovo canale online, effettuare le seguenti operazio
 
 L'immagine seguente mostra la creazione di un nuovo canale online.
 
-![Nuovo canale online](media/channel-setup-online-1.png)
+![Nuovo canale online.](media/channel-setup-online-1.png)
 
 L'immagine seguente mostra un esempio di canale online.
 
-![Esempio di canale online](media/channel-setup-online-2.png)
+![Esempio di canale online.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Impostare le lingue
 
@@ -75,7 +75,7 @@ Ulteriori attività necessarie per l'impostazione di un canale online includono 
 
 L'immagine seguente mostra le opzioni di impostazione **Modalità di consegna**, **Metodi di pagamento** e **Assegnazione gruppo di adempimento** nella scheda **Imposta**.
 
-![Ulteriori azioni di impostazione del canale online](media/channel-setup-online-3.png)
+![Ulteriori azioni di impostazione del canale online.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
 
@@ -90,9 +90,9 @@ Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un
 
 L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
-![Esempio di metodi di pagamento](media/channel-setup-retail-5.png)
+![Esempio di metodi di pagamento.](media/channel-setup-retail-5.png)
 
-### <a name="set-up-modes-of-delivery"></a>Impostare le modalità di consegna
+### <a name="set-up-modes-of-delivery"></a>Imposta la modalità di consegna
 
 È possibile visualizzare le modalità di consegna configurate selezionando **Modalità di consegna** nella scheda **Imposta** del **Riquadro azioni**.  
 
@@ -104,7 +104,7 @@ Per modificare o aggiungere una modalità di consegna, attenersi alla seguente p
 
 L'immagine seguente illustra un esempio di modalità di consegna.
 
-![Impostare le modalità di consegna](media/channel-setup-retail-7.png)
+![Impostare le modalità di consegna.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Impostare l'assegnazione di un gruppo di adempimento
 
@@ -118,13 +118,13 @@ Per impostare l'assegnazione di un gruppo di adempimento, effettuare le seguenti
 
 L'immagine seguente mostra un esempio di impostazione dell'assegnazione di un gruppo di adempimento.
 
-![Impostare l'assegnazione di un gruppo di adempimento](media/channel-setup-retail-9.png)
+![Impostare l'assegnazione di un gruppo di adempimento.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei canali](channels-overview.md)
 
-[Prerequisiti di impostazione dei canali](channels-prerequisites.md)
+[Prerequisiti dell'impostazione dei canali](channels-prerequisites.md)
 
 [Impostare un canale di vendita al dettaglio](channel-setup-retail.md)
 

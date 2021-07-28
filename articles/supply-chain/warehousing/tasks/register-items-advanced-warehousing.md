@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830836"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358004"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi
 
@@ -53,14 +53,14 @@ Lo scenario seguente mostra come creare un'intestazione del giornale di registra
 1. Imposta **Numero conto** su *1001*.
 1. Imposta **Numero** sul numero dell'ordine fornitore che hai identificato per questo esercizio.
 
-    ![Giornale di registrazione arrivi articoli](../media/item-arrival-journal-header.png "Giornale di registrazione arrivi articoli")
+    ![Giornale di registrazione arrivi articoli.](../media/item-arrival-journal-header.png "Giornale di registrazione arrivi articoli")
 
 1. Seleziona **OK** per creare l'intestazione del giornale di registrazione.
 1. Nella sezione **Righe giornale di registrazione** seleziona **Aggiungi riga** e inserisci i seguenti dati:
     - **Numero articolo** - Imposta su *M9200*. I campi **Sito**, **Magazzino** e **Quantità** verranno impostati in base ai dati della transazione di inventario per i 10 pallet (1000 cad.).
     - **Ubicazione** - Imposta su *001*. Questa ubicazione specifica non tiene traccia delle targhe.
 
-    ![Riga del giornale di registrazione arrivi articoli](../media/item-arrival-journal-line.png "Riga del giornale di registrazione arrivi articoli")
+    ![Riga del giornale di registrazione arrivi articoli.](../media/item-arrival-journal-line.png "Riga del giornale di registrazione arrivi articoli")
 
     > [!NOTE]
     > Il campo **Data** determina la data in cui la quantità disponibile dell'articolo verrà registrata in magazzino.  

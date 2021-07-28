@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837779"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351515"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurare l'area di lavoro per dispositivi mobili Gestione cespiti
 
@@ -47,7 +47,7 @@ Per rendere disponibili le funzionalità di gestione dei cespiti nell'app per di
 1. In Supply Chain Management, seleziona il pulsante **Impostazioni** (il simbolo dell'ingranaggio nell'angolo in alto a destra), quindi seleziona **App per dispositivi mobili** sul menu.
 1. Nella finestra di dialogo **Gestisci app per dispositivi mobili**, trova il riquadro **Gestione cespiti**. Se contiene il testo "Nei metadati - non pubblicato", l'area di lavoro non è stata ancora pubblicata. Se contiene il testo "Nei metadata - pubblicato", l'area di lavoro è già stata pubblicata e puoi saltare il resto di questa procedura.
 
-    ![Gestire la finestra di dialogo dell'app per dispositivi mobili](media/mobile-workspaces.png "Gestire la finestra di dialogo dell'app per dispositivi mobili")
+    ![Gestire la finestra di dialogo dell'app per dispositivi mobili.](media/mobile-workspaces.png "Gestire la finestra di dialogo dell'app per dispositivi mobili")
 
 1. Seleziona il riquadro **Gestione cespiti**, quindi seleziona **Pubblica** sulla barra degli strumenti. Dopo alcuni secondi, dovresti ricevere una notifica che informa che l'area di lavoro è stata pubblicata correttamente. Inoltre, il testo sul riquadro dovrebbe cambiare in "Nei metadati - pubblicato".
 
@@ -60,14 +60,14 @@ Per rendere disponibili le funzionalità di gestione dei cespiti nell'app per di
 
 1. Apri l'app Finance and Operations (Dynamics 365). Dovrebbe essere visualizzata la pagina di accesso. Nel campo **Accedi**, immetti il tuo URL di Supply Chain Management o seleziona un URL recente nell'elenco **Ambienti recenti**, quindi tocca **Connetti**.
 
-    ![Pagina di accesso](media/mobile-app-sign-in.png "Pagina di accesso")
+    ![Pagina di accesso.](media/mobile-app-sign-in.png "Pagina di accesso")
 
 1. Se viene richiesto di confermare la connessione, seleziona la casella di controllo **Ho capito**, quindi tocca **Connetti**.
 1. Nella pagina **Scegli un account**, usa il tuo account Microsoft per accedere all'applicazione per dispositivi mobili.
 
     Viene visualizzata la pagina **Aree di lavoro**. Elenca ogni area di lavoro per dispositivi mobili che è stata pubblicata dall'istanza di Supply Chain Management.
 
-    ![Elenco delle aree di lavoro](media/mobile-app-workspaces.png "Elenco delle aree di lavoro")
+    ![Elenco delle aree di lavoro.](media/mobile-app-workspaces.png "Elenco delle aree di lavoro")
 
 1. Se è necessario modificare la persona giuridica (azienda), toccar il pulsante Menu (a volte indicato come hamburger o pulsante hamburger) nell'angolo in alto a sinistra, quindi tocca **Cambia azienda**.
 
@@ -75,7 +75,7 @@ Per rendere disponibili le funzionalità di gestione dei cespiti nell'app per di
 
 1. Nella pagina **Aree di lavoro**, seleziona l'area di lavoro con cui desideri lavorare per aprirla.
 
-    ![Area di lavoro mobile di gestione cespiti](media/mobile-app-asset-workspace.png "Area di lavoro mobile di gestione cespiti")
+    ![Area di lavoro mobile di gestione cespiti.](media/mobile-app-asset-workspace.png "Area di lavoro mobile di gestione cespiti")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>Utilizzare l'area di lavoro per dispositivi mobili Gestione cespiti
 

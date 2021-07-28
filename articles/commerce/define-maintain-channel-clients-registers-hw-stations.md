@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64b228954c040050f605d60cd416c112f3b12e25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802047"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349554"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connettere periferiche al POS
 
@@ -78,7 +78,7 @@ Mentre la stazione hardware in sé specificata al livello del canale include inf
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS con i dispositivi periferici collegati
 
-[![POS fisso tradizionale](./media/traditional-300x279.png)](./media/traditional.png)
+[![POS fisso tradizionale.](./media/traditional-300x279.png)](./media/traditional.png)
 
 Per connettere MPOS a periferiche POS in uno scenario POS fisso tradizionale, passare al registratore di cassa stesso e assegnare un profilo hardware. È possibile trovare i registratori di cassa POS in **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**. 
 
@@ -97,7 +97,7 @@ Infine, in MPOS, utilizzare l'operazione **Seleziona stazione hardware** per sel
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS o POS cloud con una stazione hardware autonoma
 
-[![Periferiche condivise](./media/shared-300x254.png)](./media/shared.png)
+[![Periferiche condivise.](./media/shared-300x254.png)](./media/shared.png)
 
 In questo scenario, una stazione hardware autonoma viene condivisa con i client MPOS e POS cloud. Per questo scenario è necessario creare un profilo di stazione hardware per specificare il pacchetto di download, la porta e il profilo hardware che utilizza la stazione hardware. Il profilo stazione hardware è disponibile in **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili stazione hardware**. 
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: c4f663ae36f7d4ea3db9888e618f2fe3bf8c3256
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748949"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350937"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migrazione del tipo di dati valuta per la doppia scrittura
 
@@ -82,13 +82,13 @@ Sono previste alcune limitazioni:
 
 Al termine della migrazione, gli amministratori possono impostare la precisione della valuta. Passare a **Impostazioni \> Amministrazione** e selezionare **Impostazioni di sistema**. Quindi, nella scheda **Generale**, cambiare il valore della colonna **Impostazione della precisione della valuta utilizzata per la determinazione dei prezzi**, come mostrato nella figura seguente.
 
-![Impostazioni di sistema per la valuta](media/currency-system-settings.png)
+![Impostazioni di sistema per la valuta.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gestione aziendale: valute
 
 Se si richiede che la precisione di una valuta specifica differisca dalla precisione della valuta utilizzata per la determinazione dei prezzi, è possibile modificarla. Passare a **Impostazioni \> Gestione aziendale**, selezionare **Valute** e selezionare la valuta da modificare. Quindi impostare la colonna **Precisione valuta** sul numero di posizioni decimali desiderate, come mostrato nella figura seguente.
 
-![Impostazioni della valuta per una valuta locale specifica](media/specific-currency.png)
+![Impostazioni della valuta per una valuta locale specifica.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>tabelle: colonna Valuta
 

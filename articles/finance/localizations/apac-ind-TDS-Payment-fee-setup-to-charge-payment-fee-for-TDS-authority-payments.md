@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023373"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358436"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Impostare commissioni di pagamento per i pagamenti all'autorità TCS
 
@@ -31,7 +31,7 @@ In questo argomento viene illustrato come impostare commissioni di pagamento add
 
 1. Vai a **Contabilità fornitori \> Impostazione pagamenti \> Commissione di pagamento**.
 
-    [![Pagina Commissione di pagamento](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![Pagina Commissione pagamento.](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. Seleziona **Nuovo** per creare una nuova commissione di pagamento e immetti i dettagli richiesti.
 3. Nel campo **Tipo di commissione** seleziona il tipo di commissione pagamento:
@@ -46,7 +46,7 @@ In questo argomento viene illustrato come impostare commissioni di pagamento add
 5. Immetti gli altri dettagli necessari.
 6. Nel riquadro Azioni seleziona **Impostazione commissione pagamento** per aprire la pagina **Impostazione commissione pagamento**, dove è possibile impostare commissioni di pagamento per varie combinazioni di banche, metodi di pagamento, specifiche di pagamento, valute e intervalli di date.
 
-    [![Pagina Impostazione commissione pagamento](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![Pagina Impostazione commissione pagamento.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. Nella scheda **Panoramica**, nel campo **Raggruppamenti**, specifica per quali banche stai impostando la commissione di pagamento:
 
@@ -64,7 +64,7 @@ In questo argomento viene illustrato come impostare commissioni di pagamento add
 15. Nel campo **Valuta commissioni**, specifica il codice valuta della commissione.
 16. Seleziona la scheda **Generale** per visualizzare o modificare i dettagli del conto bancario selezionato.
 
-    [![Scheda Generale](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![Scheda Generale.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. Nel campo **Minimo** immetti l'importo minimo della transazione che attiva la commissione.
 17. Nel campo **Massimo** immetti l'importo massimo della transazione che attiva la commissione.
@@ -74,7 +74,7 @@ In questo argomento viene illustrato come impostare commissioni di pagamento add
 21. Nel campo **Fascia IVA articoli**, seleziona la fascia IVA articoli da utilizzare per calcolare l'IVA articoli per l'importo della commissione.
 22. Seleziona la scheda **Intervallo**. 
 
-    [![Scheda Intervallo](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![Scheda Intervallo.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. Nel campo **Giorni**, immetti il numero di giorni compresi tra la data di registrazione (data di sconto) del pagamento e la data di scadenza dell'effetto passivo.
 24. Nel campo **Percentuale/importo**, indica se la specifica è una percentuale o un importo fisso.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fd48a04612159cbe29a2cc7cafea1c9c4c8745b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b46f2d08c8cee14baa1879b4fd2c02a2e0432f1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795431"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357812"
 ---
 # <a name="shipping-address-module"></a>Modulo indirizzo di spedizione
 
@@ -37,11 +37,11 @@ Sebbene il modulo dell'indirizzo di spedizione non fornisca la convalida dell'in
 
 L'immagine seguente mostra un esempio di un nuovo modulo Indirizzo di spedizione in una pagina checkout.
 
-![Esempio di un modulo dell'indirizzo di spedizione su una pagina Checkout](./media/ecommerce-shippingaddress.PNG)
+![Esempio di un modulo dell'indirizzo di spedizione su una pagina Checkout.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Proprietà del modulo
 
-| Nome proprietà | Valori | Descrizione |
+| Nome proprietà | Valori | descrizione |
 |---------------|--------|-------------|
 | Intestazione | Testo e tag dell'intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Un'intestazione facoltativa per il modulo dell'indirizzo di spedizione. |
 | Mostra tipo di indirizzo | **True** o **False** | Se questa proprietà facoltativa è impostata su **True** verrà visualizzato un tipo di indirizzo, ad esempio **Casa** o **Attività commerciale**. Se non viene specificato alcun tipo di indirizzo, l'indirizzo verrà automaticamente salvato come **Tipo**=**Altro**. |
