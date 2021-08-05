@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (giugno 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
-                    - name: Commerce 10.0.18 (maggio 2021)
-                      href: get-started/whats-new-commerce-10-0-18.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -900,6 +898,8 @@
                   href: set-up-B2C-tenant.md
                 - name: Impostare pagine personalizzate per l'accesso degli utenti
                   href: custom-pages-user-logins.md
+                - name: Abilitare il collegamento automatico dei record di identità agli account dei clienti
+                  href: identity-record-linking.md
                 - name: Configurare più tenant B2C in un ambiente Commerce
                   href: configure-multi-B2C-tenants.md
                 - name: Domini in Dynamics 365 Commerce
@@ -1022,6 +1022,8 @@
                   items:
                     - name: Panoramica del tema Adventure Works
                       href: adventure-works-theme.md
+                    - name: Installa il tema Adventure Works
+                      href: install-adventure-works.md
             - name: Gestire cespiti digitali
               items:
                 - name: Panoramica della gestione cespiti digitali
@@ -1792,7 +1794,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: Generare report nei formati di Office con immagini incorporate
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Dividere i file XML generati in base alla dimensione del file e alla quantità del contenuto
+                - name: Dividere i file XML generati in base alle dimensioni del file e alla quantità del contenuto
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
                 - name: Eliminare i caratteri DBA nei file generati
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/commerce/toc.json

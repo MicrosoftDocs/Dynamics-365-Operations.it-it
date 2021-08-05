@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platform update 10.0.19 (giugno 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Platform update 10.0.18 (maggio 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -366,6 +364,8 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Domande frequenti sulla manutenzione programmata in ambienti self-service
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: Continuità aziendale e ripristino di emergenza
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: Completare l'integrazione di Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute e Finance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Applicare aggiornamenti ed estensioni a Commerce Scale Unit (cloud)
                   href: deployment/Update-retail-channel.md
+                - name: Aggiornamento automatico per Commerce Scale Unit (cloud)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Inizializzare Commerce Scale Unit (cloud)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Migrare i canali a una Commerce Scale Unit diversa
@@ -392,6 +394,8 @@
                       href: deployment/on-premises-overview.md
                     - name: Pianificare e preparare le distribuzioni locali
                       href: deployment/plan-onprem-deployment.md
+                    - name: Software Microsoft Dynamics 365 Finance + Operations (on-premises) supportato
+                      href: deployment/onprem-compatibility.md
                     - name: Requisiti di dimensionamento hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Autenticazione in Dynamics 365 Finance + Operations (on-premises)
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: Configurare ambienti di sviluppo one-box
                   href: dev-tools/configure-developer-vm.md
-                - name: Creare nuovi utenti in computer per lo sviluppo
-                  href: dev-tools/enable-development-machine.md
                 - name: Domande frequenti su sviluppo e configurazione di VM che non consentono l'accesso con diritti di amministratore
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Rinominare gli ambienti locali per accedere ad Azure DevOps
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Rubrica globale e parte
                       href: data-entities/dual-write/party-gab.md
-                    - name: Utilizzo di Power Portal con il modello di dati parte
+                    - name: Utilizzo di portali Microsoft Power Apps con il modello di dati parte
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Eseguire l'aggiornamento al modello di parte e di rubrica globale
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,6 +1606,8 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: 'Aggiornamento AX 2012: fase operativa'
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: Aggiorna da AX 2012 - Domande frequenti sull'aggiornamento dei dati
+                  href: migration-upgrade/upgrade-faq.md
                 - name: Modifiche che influiscono sull'aggiornamento da AX 2012
                   items:
                     - name: Impostare il delimitatore del piano dei conti come univoco

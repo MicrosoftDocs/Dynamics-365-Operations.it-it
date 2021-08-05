@@ -76,8 +76,6 @@
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (giugno 2021)
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: Supply Chain Management 10.0.18 (maggio 2021)
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -1189,7 +1187,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Generare report nei formati di Office con immagini incorporate
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Dividere i file XML generati in base alla dimensione del file e alla quantità del contenuto
+                - name: Dividere i file XML generati in base alle dimensioni del file e alla quantità del contenuto
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Eliminare i caratteri DBA nei file generati
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/supply-chain/toc.json
@@ -2001,9 +1999,7 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Creare un ordine fornitore per un fornitore occasionale
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Creare un ordine di rilascio acquisto quando si crea l'ordine fornitore
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: Creare un ordine fornitore di rilascio da un contratto di acquisto
+                - name: Applicare un contratto di acquisto durante la creazione di un ordine fornitore
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Creare un ordine di reso acquisti
                   href: procurement/tasks/create-purchase-return-order.md

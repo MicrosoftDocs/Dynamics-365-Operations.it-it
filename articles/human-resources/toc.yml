@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 12 luglio 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22 giugno 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20 maggio 2021
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: Domande frequenti sulla fase operativa
           href: hr-admin-go-live-faq.md
+        - name: Domande frequenti sulla fusione dell'infrastruttura di Human Resources
+          href: hr-infrastructure-merge-faq.md
         - name: Risorse di documentazione
           items:
             - name: Guida
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Elaborare i piani di retribuzione
               href: hr-compensation-process.md
+            - name: Contrassegna un dipendente come Pronto per il pagamento
+              href: hr-compensation-payroll.md
         - name: Gestione dei benefit
           items:
             - name: Gestione benefit
@@ -715,9 +721,9 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Configurare i tipi di eventi reali
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Creare i tipi di piano
+                    - name: Panoramica del tipo di piano
                       href: hr-benefits-setup-plan-types.md
-                    - name: Impostare i codici causale
+                    - name: Imposta i codici causale
                       href: hr-benefits-setup-reason-codes.md
                     - name: Impostare i codici livello
                       href: hr-benefits-setup-tier-codes.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Visualizzare i calendari per team e società
               href: hr-employee-self-service-calendar.md
+            - name: Configura il ruolo del responsabile dei congedi
+              href: hr-configure-absence-manager.md
             - name: Gestire i criteri di acquisto e vendita congedo
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Creare flussi di lavoro per l'acquisto e la vendita di congedi

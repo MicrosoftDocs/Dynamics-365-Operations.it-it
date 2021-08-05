@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (giungo 2021)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18 (maggio 2021)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Report sui servizi transfrontalieri
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Imposte acquisti
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Bahrein
               items:
                 - name: Panoramica Bahrein
@@ -1992,6 +1992,10 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: Generare una dichiarazione Intrastat UE
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Intrastat francese
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Intrastat italiano
+                      href: localizations/emea-ita-intrastat.md
                 - name: Report giornale di registrazione magazzino
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Scadenze di emissione fattura
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'Dichiarazione IVA con registri (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: Preparazione per la dichiarazione JPK-V7M
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: Dichiarazione JPK-V7M
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Dettagli di scenari aziendali specifici nella dichiarazione JPK-V7M
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Qatar
               items:
                 - name: Panoramica Qatar
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Fondi per crediti inesigibili in contabilità clienti
                       href: localizations/rus-bad-debts.md
+                    - name: Calcolo dei registri delle attività fiscali e delle passività fiscali
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Arabia Saudita
               items:
                 - name: Panoramica Arabia Saudita
@@ -3997,7 +4009,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Generare report nei formati di Office con immagini incorporate
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-                - name: Dividere i file XML generati in base alla dimensione del file e alla quantità del contenuto
+                    - name: Progettare un formato ER per generare un report in Excel con immagini incorporate nelle intestazioni o piè di pagina
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Dividere i file XML generati in base alle dimensioni del file e alla quantità del contenuto
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Eliminare i caratteri DBA nei file generati
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
