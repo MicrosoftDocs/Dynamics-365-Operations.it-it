@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: ecffbfa00aee1dd3197aeeab3b292aba8aafd82f
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115075"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641158"
 ---
 # <a name="product-readiness"></a>Idoneità prodotto
 
@@ -177,8 +177,6 @@ Per assegnare un criterio di disponibilità a una categoria di progettazione, at
 <a name="standard-products"></a>
 
 ## <a name="readiness-checks-on-standard-products"></a>Controlli di disponibilità su prodotti standard
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 È possibile abilitare i controlli di disponibilità del prodotto per i prodotti standard (non tecnici) attivando la funzionalità *Controlli di disponibilità del prodotto* in Gestione funzionalità. Questa funzionalità apporta alcune piccole modifiche al sistema di controllo della disponibilità in modo che supporti i prodotti standard.
 

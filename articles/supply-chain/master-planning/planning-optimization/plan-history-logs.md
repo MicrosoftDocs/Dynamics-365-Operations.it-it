@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
-ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
+ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187249"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646489"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Visualizzare la cronologia del piano e i log di pianificazione
 
@@ -34,6 +34,19 @@ Per visualizzare lo storico per un piano, aprire il piano andando a **Pianificaz
 La cronologia dei processi per le esecuzioni della pianificazione principale di Ottimizzazione pianificazione conserva solo fino a 60 record per piano generale. Ogni volta che si esegue un nuovo calcolo della pianificazione generale, il primo record cronologico di quel piano viene eliminato.
 
 Oltre a visualizzare l'ora di inizio e lo stato dei processi, è possibile visualizzare il log per un processo specifico. Il log include ulteriori informazioni e gli avvisi. Non tutti i processi hanno un log. Per visualizzare il log per un processo, selezionare **Log**. Le voci del registro vengono archiviate solo per 30 giorni dopo la data di completamento del processo, dopodiché vengono eliminate automaticamente.
+
+Se l'opzione **Elaborazione batch** nella scheda dettaglio **Esegui in background** è stata abilitata quando è stata impostata l'elaborazione della pianificazione principale, il registro del processo batch mostra ulteriori informazioni su eventuali avvisi ed errori generati durante l'esecuzione della pianificazione principale. Ad esempio, gli errori di stabilizzazione automatica vengono acquisiti solo nel registro del processo batch. Non vengono mostrati nei registri della pagina **Cronologia**.
+
+Per visualizzare gli errori di stabilizzazione automatica e altri avvisi o errori che si sono verificati durante un'esecuzione della pianificazione generale, segui questi passaggi.
+
+1. Andare a **Amministrazione sistema \> Richieste di informazioni \> Processi batch**.
+1. Trova e seleziona il record che rappresenta l'esecuzione della pianificazione generale che ti interessa. (Ad esempio, il valore del campo **Descrizione processo** può iniziare con *Pianificazione generale*.)
+1. Segui uno di questi passaggi, a seconda che tu stia utilizzando il *modulo avanzato* o il *modulo legacy (non avanzato)* per la pagina **Processi batch**:
+
+    - Se stai utilizzando il modulo avanzato: nel riquadro azioni, seleziona **Cronologia processi batch**. Quindi nella pagina **Cronologia processi batch** nel riquadro azioni, seleziona **Registro**.
+    - Se stai utilizzando il modulo legacy: nel riquadro azioni, seleziona **Registro** nella scheda **Processo batch**.
+
+1. Seleziona **Dettagli messaggio** per aprire il riquadro **Dettagli messaggio** in cui è possibile visualizzare tutti gli avvisi e gli errori acquisiti durante l'elaborazione.
 
 ## <a name="related-resources"></a>Risorse correlate
 

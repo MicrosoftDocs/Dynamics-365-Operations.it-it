@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350838"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542417"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Risoluzione dei problemi durante l'impostazione iniziale
 
@@ -71,7 +71,7 @@ Per fornire il consenso all'app, attenersi alla seguente procedura.
 
 Per garantire che la doppia scrittura funzioni correttamente, le società selezionate durante la configurazione vengono create nell'ambiente Dataverse. Per impostazione predefinita, queste società sono di sola lettura e la proprietà **IsDualWriteEnable** è impostata su **True**. Inoltre, vengono creati il proprietario e il team della Business Unit proprietaria predefinita e viene incluso il nome dell'azienda. Prima di abilitare le mappe, verificare che sia specificato il proprietario del team predefinito. Per trovare la tabella **Companies (CDM\_Company)**, attenersi alla seguente procedura.
 
-1. Nell'app basata su modello in Dynamics 365, selezionare il filtro nell'angolo in alto a destra.
+1. Nell'app customer engagement, seleziona il filtro nell'angolo in alto a destra.
 2. Nell'elenco a discesa selezionare **Società**.
 3. Selezionare **Esegui** per vedere i risultati.
 4. Selezionare la società che è stata collegata quando è stata configurata la doppia scrittura.

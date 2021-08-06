@@ -2,7 +2,7 @@
 title: Creare opzioni di copertura
 description: Le opzioni di copertura in Microsoft Dynamics 365 Human Resources sono i livelli di copertura per l'idoneità di un partecipante in un piano o programma di benefit.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,21 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9f67a97ec57bade840e1035c6011b94427a77c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1e8f13075a9835963c231a8e4e8a737368a952ba
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055582"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558227"
 ---
 # <a name="create-coverage-options"></a>Creare opzioni di copertura
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Le opzioni di copertura in Microsoft Dynamics 365 Human Resources sono i livelli di copertura per l'idoneità di un partecipante in un piano o programma di benefit. Ad esempio, le opzioni di copertura possono includere **Solo dipendente** per un piano sanitario o **2x stipendio** per un piano di assicurazione sulla vita. Una volta definite, è possibile riutilizzare le opzioni di copertura dei benefit. È possibile associare un'opzione a uno o più piani.
+Le opzioni di copertura determinano chi deve essere coperto o quanta copertura è disponibile in un piano assicurativo. Ad esempio, per un piano medico, potresti avere un'opzione **solo dipendente**, un'opzione **dipendente + 1** e un'opzione **famiglia**. Per l'assicurazione sulla vita, potresti offrire una copertura per **1 x stipendio** o **2 x stipendio**.
 
-Dopo aver definito le opzioni di copertura, associarle a un tipo di piano di benefit. Il tipo di piano viene quindi associato a un piano o programma di benefit. Le opzioni di copertura associate a un tipo di piano sono disponibili per tutti i piani creati con quel tipo di piano. 
+Una volta definite le opzioni di copertura dei benefit, è possibile riutilizzarle. È possibile associare un'opzione a uno o più piani.
 
+> [!IMPORTANT]
+> Dopo aver definito le opzioni di copertura, associarle a un tipo di piano di benefit. Il tipo di piano viene quindi associato a un piano o programma di benefit. Le opzioni di copertura associate a un tipo di piano sono disponibili per tutti i piani creati con quel tipo di piano.
+
+## <a name="create-coverage-options"></a>Creare opzioni di copertura
 1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Opzioni di copertura**.
 
 2. Selezionare **Nuovo**.
@@ -40,7 +44,7 @@ Dopo aver definito le opzioni di copertura, associarle a un tipo di piano di ben
    | --- | --- |
    | **Opzione di copertura** | Un nome di opzione di copertura univoco. |
    | **Descrizione** | Una descrizione dell'opzione di copertura. |
-   | **Codice copertura** | I codici di copertura assegnano importi minimi e massimi per ogni tipo di persona coperta idonea. Un codice di copertura indica chi è coperto o l'importo di copertura consentito per un tipo di piano. È possibile esprimere l'importo di copertura in dollari o come percentuale. Ad esempio:</br></br>- **Dip+1** - Per essere idoneo, il dipendente deve avere una persona a carico selezionata (se sono selezionate più persone a carico, non è più idoneo).</br></br>- **Dip+ famiglia** - Per essere idoneo, il dipendente deve aver selezionato almeno due persone a carico. |
+   | **Codice copertura** | I codici di copertura assegnano importi minimi e massimi per ogni tipo di persona coperta idonea. Un codice di copertura indica chi è coperto o l'importo di copertura consentito per un tipo di piano. È possibile esprimere l'importo di copertura in dollari o come percentuale. Ad esempio:<ul><li>**Dip +1**- Per essere idoneo, il dipendente deve avere una persona a carico selezionata (se sono selezionate più persone a carico, non è più idoneo).</li><li>**Dip+ famiglia** - Per essere idoneo, il dipendente deve aver selezionato almeno due persone a carico.</li></ul> |
    | **Numero massimo** | Il numero massimo di persone a carico. |
    | **Stato** | Lo stato dell'opzione di copertura. Se lo stato dell'opzione di copertura è impostato su Non attivo, l'opzione di copertura non può essere selezionata nei tipi di piano. |
    | **Percentuale** | L'importo in percentuale. Questo campo è attivo solo se % x stipendio è stato selezionato nel campo Codice copertura. |

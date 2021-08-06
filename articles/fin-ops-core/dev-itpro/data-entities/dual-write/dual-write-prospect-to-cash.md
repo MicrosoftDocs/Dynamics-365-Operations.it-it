@@ -4,30 +4,21 @@ description: Questo argomento fornisce informazioni sul prospect to cash in dopp
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0fcbc5b0f571e9f2cf7f1ad7c1e976d022199b47
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361401"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542273"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Un obiettivo importante della maggior parte delle aziende è convertire i prospect in clienti e quindi mantenere un rapporto commerciale costante con tali clienti. Nelle app Microsoft Dynamics 365, il processo prospect to cash avviene tramite preventivi o flussi di lavoro di elaborazione degli ordini e i dati finanziari vengono riconciliati e riconosciuti. L'integrazione di prospect to cash con la doppia scrittura crea un flusso di lavoro che accetta un'offerta e un ordine che hanno origine in Dynamics 365 Sales o Dynamics 365 Supply Chain Management e rende disponibili le offerte e l'ordine in entrambe le app.
 
@@ -70,6 +61,7 @@ Le offerte di vendita possono essere create in Sales o in Supply Chain Managemen
 + Le colonne **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono incluse nei mapping predefiniti. Per mappare queste colonne, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui la tabella viene sincronizzata.
 
 Se si utilizza anche la soluzione Field Service, assicurarsi di riattivare il parametro della **riga di richiesta di offerta della creazione rapida**. La riattivazione del parametro consente di continuare a creare le righe di richiesta di offerta utilizzando la funzione di creazione rapida.
+
 1. Passare all'applicazione Dynamics 365 Sales.
 2. Seleziona l'icona delle impostazioni nella barra di navigazione in alto.
 3. Selezionare **Impostazioni avanzate**.
@@ -119,45 +111,27 @@ Le fatture di vendita vengono create in Supply Chain Management e sincronizzate 
 
 Prospect per uno scenario di liquidazione include una raccolta di mappe della tabella di base che funzionano in combinazione durante l'interazione con i dati, come illustrato nella seguente tabella.
 
-| App di Finance and Operations | App di interazione con i clienti | Descrizione |
+| App di Finance and Operations | App di interazione con i clienti | descrizione |
 |-----------------------------|-----------------------------------|-------------|
-| Intestazioni fattura di vendita V2    | fatture                          | La tabella delle intestazioni delle fatture di vendita V2 nell'app Finance and Operations contiene fatture per ordini cliente e fatture a testo libero. Viene applicato un filtro in Dataverse per la doppia scrittura che filtrerà qualsiasi documento di fattura a testo libero. |
-| Righe fattura di vendita V2      | invoicedetails                    |             |
-| Intestazioni ordine cliente CDS     | salesorders                       |             |
-| Righe ordine cliente CDS       | salesorderdetails                 |             |
-| Codici origine ordine cliente    | msdyn\_salesorderorigins          |             |
-| Intestazione offerta di vendita CDS  | offerte                            |             |
-| Righe di offerta di vendita CDS   | quotedetails                      |             |
+[Tutti i prodotti](mapping-reference.md#138) | msdyn_globalproducts | |
+[Clienti V3](mapping-reference.md#101) | conti | |
+[Clienti V3](mapping-reference.md#116) | contatti | |
+[Contatti V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[Intestazioni ordine cliente CDS](mapping-reference.md#217) | salesorders | |
+[Righe ordine cliente CDS](mapping-reference.md#216) | salesorderdetails | |
+[Intestazione offerta di vendita CDS](mapping-reference.md#215) | offerte | |
+[Righe di offerta di vendita CDS](mapping-reference.md#214) | quotedetails | |
+[Prodotti rilasciati V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[Intestazioni fattura di vendita V2](mapping-reference.md#118) | fatture | La tabella delle intestazioni delle fatture di vendita V2 nell'app Finance and Operations contiene fatture per ordini cliente e fatture a testo libero. Viene applicato un filtro in Dataverse per la doppia scrittura che filtrerà qualsiasi documento di fattura a testo libero. |
+[Righe fattura di vendita V2](mapping-reference.md#117) | invoicedetails | |
+[Codici origine ordine cliente](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-Ecco le mappe della tabella di base correlate per prospect per uno scenario di liquidazione:
-
-+ [Clienti V3 per accounts](customer-mapping.md#customers-v3-to-accounts)
-+ [Contatti CDS V2 per contacts](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [Clienti V3 per contacts](customer-mapping.md#customers-v3-to-contacts)
-+ [Prodotti V2 rilasciati per msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [Tutti i prodotti per msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [Listino prezzi](product-mapping.md)
+Per informazioni sui listini prezzi vedi [Esperienza prodotto unificata](product-mapping.md).
 
 ## <a name="limitations"></a>Limiti
+
 - Gli ordini di reso non sono supportati.
 - Le note di credito non sono supportate.
-- Le dimensioni finanziarie devono essere impostate per i dati master, ad esempio, cliente e fornitore. Quando un cliente viene aggiunto a un'offerta o a un ordine cliente, le dimensioni finanziarie associate al record del cliente fluiscono automaticamente nell'ordine. Attualmente la doppia scrittura non include i dati sulle dimensioni finanziarie per i dati master. 
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
+- Le dimensioni finanziarie devono essere impostate per i dati master, ad esempio, cliente e fornitore. Quando un cliente viene aggiunto a un'offerta o a un ordine cliente, le dimensioni finanziarie associate al record del cliente fluiscono automaticamente nell'ordine. Attualmente la doppia scrittura non include i dati sulle dimensioni finanziarie per i dati master.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Configurare le tariffe
 description: I tassi in Microsoft Dynamics 365 Human Resources definiscono la quantità di datori di lavoro e dipendenti che versano contributi per un benefit.
 author: andreabichsel
-ms.date: 06/15/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 85cf561828aa8ef9d80df31436f473b29406e2fd
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266659"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558347"
 ---
 # <a name="configure-rates"></a>Configurare le tariffe
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-I tassi in Microsoft Dynamics 365 Human Resources definiscono la quantità di datori di lavoro e dipendenti che versano contributi per un benefit. Il valore può essere un importo o crediti flessibili, a seconda della configurazione.
+Le tariffe definiscono la quantità di datori di lavoro e dipendenti che versano contributi per un benefit. Il valore può essere un importo o un numero di crediti flessibili, a seconda della configurazione.
 
 Utilizzare i tassi per determinare la quantità di dipendenti e datori di lavoro che pagano per ogni benefit in base a diversi fattori. I tassi di copertura diventano effettivi a una determinata data, pertanto è possibile conservare un record cronologico dei tassi. 
 
@@ -42,10 +42,10 @@ Utilizzare i tassi per determinare la quantità di dipendenti e datori di lavoro
    | --- | --- |
    | **Tasso** | Il nome univoco che identifica il tasso di benefit. |
    | **Descrizione** | Una descrizione del tasso di benefit. |
-   | **Valido** | La data in cui il tasso entra in vigore. Il valore predefinito è la data di sistema corrente. 
+   | **Valido** | Data in cui la tariffa diventa valida. Il valore predefinito è la data di sistema corrente. Questa data deve essere uguale o precedente al periodo di benefit. Ti consigliamo di impostare questa data sulla data del piano dei benefit. |
    | **Scadenza** | La data di fine del tasso. 31/12/2154 (che rappresenta mai) è il valore predefinito. |
-   | **Usa livelli** | Il livello da utilizzare per il calcolo del tasso di benefit. Livello singolo per un tasso di benefit a un livello o Doppio livello per un tasso di benefit a due livelli. Un esempio di Doppio livello è un livello basato su sesso e età. |
-   | **Frequenza pagamenti** | La frequenza di pagamento che determina ogni quanto tempo viene versato il tasso di premio benefit al fornitore del benefit. Ad esempio, se la frequenza di pagamento è mensile, il tasso di benefit rappresenta l'importo del pagamento mensile. |
+   | **Usa livelli** |  Utilizza questo campo se hai una logica che deve essere utilizzata per determinare una tariffa. Ad esempio, se una tariffa deve aumentare in base all'età, seleziona un valore qui. Seleziona **Livello singolo** per un tasso di benefit a un livello o **Doppio livello** per un tasso di benefit a due livelli. Un esempio di doppio livello è un livello basato su sesso e età. Dopo aver selezionato un valore, seleziona **Azioni**, quindi seleziona **Tassi a livelli**. Se hai una tariffa fissa che non cambia, lascia vuoto questo campo. |
+   | **Frequenza pagamenti** | Specifica la frequenza con cui deve essere corrisposto il tasso di premio benefit al fornitore di benefit. Le tariffe che inserisci nella pagina descritta più avanti in questo argomento si baseranno sulla frequenza di pagamento specificata qui. Ad esempio, se inserisci **Mensile** in questo campo e inserisci una tariffa dipendente di **$100**, si presume che il benefit costerà al dipendente $100 al mese. Tuttavia, un dipendente potrebbe essere pagato due volte al mese, in base alla frequenza di pagamento del benefit impostata nel record del dipendente. In questo caso, quando il dipendente accede al self-service dipendenti, l'importo che paga sarà $50, perché la tariffa mostrata dal self-service dipendenti si basa sulla frequenza di pagamento del dipendente. |
    | **Arrotondamento tasso di frequenza pagamenti** | I metodi per arrotondare il tasso sono: Standard, Troncato, Normale, Per difetto e Per eccesso. </br></br><ul><li>**Standard** - Arrotonda sempre. Ad esempio, 10,611 verrà arrotondato a 10,62. -10,231 verrà arrotondato a -10,23. </li><li>**Troncato** - Arrotonda sempre per difetto. Ad esempio, 10,619 verrà arrotondato a 10,61. -10,231 verrà arrotondato a -10,24. </li><li>**Normale** - I valori decimali che terminano con 5 o più di 5 verranno arrotondati per difetto. I valori decimali che terminano con 4 o meno di 4 verranno arrotondati allo zero. Ad esempio, 10,615 verrà arrotondato a 10,62. -10,235 verrà arrotondato a -10,24. 10,614 verrà arrotondato a 10,61. -10,234 verrà arrotondato a -10,23. </li><li>**Per difetto** - Arrotonda per difetto. Ad esempio, 10,619 verrà arrotondato a 10,61. -10,231 verrà arrotondato a -10,23. </li><li>**Per eccesso** - Arrotonda in eccesso. Ad esempio, 10,619 verrà arrotondato a 10,62. -10,231 verrà arrotondato a -10,24. |
    | **Importo dipendente non fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |
    | **Importo datore di lavoro non fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |
@@ -66,6 +66,9 @@ Utilizzare i tassi per determinare la quantità di dipendenti e datori di lavoro
 
 È anche possibile usare doppi livelli. Se si seleziona **Doppio livello** per il valore **Usa livelli** nel modulo **Impostazione tasso**, è possibile definire i tassi in base a due dimensioni. Ad esempio, si potrebbe configurare un sistema a doppio livello per indicare che per un maschio di età fino a 34,99 anni, l'importo per non fumatori è 2. Per un maschio di età fino a 39,99, l'importo per non fumatori è 3. Per una femmina di età fino a 34,99, l'importo per non fumatori è 1,8. Per una femmina di età fino a 39,99, l'importo per non fumatori è 2,8.
 
+> [!IMPORTANT]
+> Un'opzione sotto **Informazioni personali** sul record del lavoratore viene utilizzata per indicare se il dipendente è un fumatore. Se il dipendente è registrato come fumatore, verrà utilizzata la tariffa fumatori. (L'indicazione del fumatore non viene mai mostrata al dipendente.)
+   
 1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Tassi**.
 
 2. Selezionare uno o più tassi dall'elenco, selezionare **Azioni**, quindi selezionare **Tassi a livelli**.
@@ -92,6 +95,7 @@ Utilizzare i tassi per determinare la quantità di dipendenti e datori di lavoro
    | **Tasso fumatore crediti flessibili** | Il costo del benefit in crediti flessibili, basato sul calcolo definito per il livello per fumatori. |
 
 5. Selezionare **Salva**. 
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056326"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639416"
 ---
 # <a name="request-a-leave-of-absence"></a>Richiedere un congedo
 
@@ -48,6 +48,10 @@ ms.locfileid: "6056326"
 1. Nell'area di lavoro **Dipendente self-service**, selezionare **Altro** nel riquadro **Saldi permessi**.
 
 2. Per visualizzare le richieste di congedo, selezionare **Visualizza congedo**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Importazione delle richieste di congedo da altri sistemi o da sistemi precedenti
+
+Per importare le richieste di congedo da un altro sistema, è necessario seguire il normale flusso di lavoro per creare le transazioni di congedo appropriate. In alternativa, è possibile importare le transazioni bancarie di congedo e le richieste di congedo nello stato completato. Tieni presente che le transazioni bancarie di congedo non vengono create automaticamente se importi solo le richieste di congedo.
 
 ## <a name="see-also"></a>Vedere anche
 

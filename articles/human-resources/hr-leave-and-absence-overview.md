@@ -2,7 +2,7 @@
 title: Panoramica di congedo e assenza
 description: In Dynamics 365 Human Resources, l'area di lavoro Congedo e assenza fornisce una struttura flessibile per la creazione di nuovi piani di congedo. Fornisce inoltre flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per i dipendenti per richiedere il permesso.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339717"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639488"
 ---
 # <a name="leave-and-absence-overview"></a>Panoramica di congedo e assenza
 
@@ -34,7 +34,8 @@ Prima di poter creare piani di congedo per i dipendenti, è necessario eseguire 
 
 - [Configurare i parametri di congedo e assenza](hr-leave-and-absence-parameters.md)
 - [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md)
-- [Creare un flusso di lavoro di richieste di congedo](hr-leave-and-absence-workflow.md)
+- [Creare un flusso di lavoro richiesta di congedo](hr-leave-and-absence-workflow.md)
+- [Configurare il ruolo di responsabile dei congedi](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Creare e gestire piani di congedo
 
@@ -50,8 +51,9 @@ Prima di creare piani di congedo per i lavoratori, è ncessario creare tipi di c
 
 Le richieste di permesso possono essere inviate dai dipendenti e gestite nell'area di lavoro **Self-service dipendenti**.
 
-[Richiedere permessi](hr-employee-self-service-request-time-off.md)
-[Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
+- [Richiedere un permesso](hr-employee-self-service-request-time-off.md)
+- [Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
+- [Configurare il ruolo di responsabile dei congedi](hr-configure-absence-manager.md)
 
 
 

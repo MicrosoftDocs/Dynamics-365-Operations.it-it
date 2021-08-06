@@ -2,7 +2,7 @@
 title: Introduzione a Calcolo imposte
 description: In questo argomento viene illustrato come configurare Calcolo imposte.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336658"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644976"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Introduzione a Calcolo imposte
 
@@ -58,15 +58,16 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 I passaggi in questa sezione non sono correlati a una persona giuridica specifica. Devi completare questa procedura solo una volta e poi puoi completarla in qualsiasi persona giuridica in RCS.
 
 1. Accedere a [RCS](https://marketing.configure.global.dynamics.com/).
-2. Nell'area di lavoro **Creazione di report elettronici**, aggiungi un nuovo provider di configurazioni. Usa il nome della tua azienda come nome del provider. Per ulteriori informazioni, vedi [Creare provider di configurazioni e contrassegnarli come attivi](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Seleziona il provider di configurazione appena creato, quindi seleziona **Imposta attivo**.
-4. Seleziona il provider di configurazioni **Microsoft** e seleziona **Repository**.
-5. Nel campo **Tipo** seleziona **Globale**.
-6. Selezionare **Apri**.
-7. Vai a **Modello dati fiscali**, espandi la struttura ad albero dei file e quindi seleziona **Configurazione fiscale**.
-8. Seleziona la versione più recente, quindi seleziona **Importa**.
-9. Torna all'area di lavoro **Funzionalità di globalizzazione (anteprima)** seleziona **Funzionalità**, seleziona il riquadro **Calcolo imposte**, quindi seleziona **Aggiungi**.
-10. Consente di selezionare uno dei seguenti tipi di funzionalità:
+2. Nell'area di lavoro **Gestione funzionalità** seleziona e abilita la funzionalità **Funzionalità di globalizzazione**.
+3. Nell'area di lavoro **Creazione di report elettronici**, aggiungi un nuovo provider di configurazioni. Usa il nome della tua azienda come nome del provider. Per ulteriori informazioni, vedi [Creare provider di configurazioni e contrassegnarli come attivi](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Seleziona il provider di configurazione appena creato, quindi seleziona **Imposta attivo**.
+5. Seleziona il provider di configurazioni **Microsoft** e seleziona **Repository**.
+6. Nel campo **Tipo** seleziona **Globale**.
+7. Selezionare **Apri**.
+8. Vai a **Modello dati fiscali**, espandi la struttura ad albero dei file e quindi seleziona **Configurazione fiscale**.
+9. Seleziona la versione più recente, quindi seleziona **Importa**.
+10. Torna all'area di lavoro **Funzionalità di globalizzazione** seleziona **Funzionalità**, seleziona il riquadro **Calcolo imposte**, quindi seleziona **Aggiungi**.
+11. Consente di selezionare uno dei seguenti tipi di funzionalità:
 
     - **Nuova funzionalità** - Crea una configurazione della funzionalità con contenuto vuoto.
     - **Basata su funzionalità esistente** - Crea una funzionalità da una funzionalità esistente e copia il contenuto dalla configurazione della funzionalità esistente.

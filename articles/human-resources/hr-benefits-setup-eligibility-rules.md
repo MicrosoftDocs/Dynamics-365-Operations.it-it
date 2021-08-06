@@ -2,7 +2,7 @@
 title: Configurare le regole e le opzioni di idoneità
 description: Impostare le regole e le opzioni di idoneità in Gestione vantaggi in Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351659"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558371"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Configurare le regole e le opzioni di idoneità
+# <a name="configure-eligibility-rules-and-options"></a>Configurare le regole e le opzioni di idoneità 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dopo aver configurato i parametri necessari per Gestione benefit in Microsoft Dynamics 365 Human Resources, è possibile creare regole di idoneità, pacchetti, periodi e programmi da associare ai piani di benefit.
+Dopo aver configurato i parametri necessari per Gestione benefit è possibile creare regole di idoneità, pacchetti, periodi e programmi da associare ai piani di benefit.
+
+Le regole di idoneità vengono utilizzate per determinare se i dipendenti sono idonei per un piano. I dipendenti devono soddisfare la condizione di almeno una regola per essere considerati idonei al benefit. Ad esempio, hai due regole su un piano. La prima regola (riga 1) afferma che il tipo di dipendente deve essere **Dipendente**. La seconda regola (riga 2) afferma che il tipo di dipendente deve essere impegato a tempo pieno. Pertanto, i dipendenti che soddisfano la regola 1 sono idonei anche se sono assunti solo a tempo parziale.
+
+Tuttavia, puoi impostare una singola regola con più condizioni. In questo caso, i dipendenti devono soddisfare tutte le condizioni della regola per essere considerati idonei al benefit. Ad esempio, hai una regola denominata **Dipendente a tempo pieno**. Questa regola stabilisce che il tipo di dipendente deve essere **Dipendente** *e* il lavoratore deve essere assunto a tempo pieno. Pertanto, i dipendenti devono soddisfare entrambe le condizioni della regola per essere idonei.
+
+> [!IMPORTANT]
+> Ad ogni piano di benefit deve essere associata almeno una regola di idoneità. Puoi associare più regole a un benefit.
 
 ## <a name="create-an-eligibility-rule"></a>Creare una regola di idoneità
 
@@ -72,7 +79,7 @@ Durante l'iscrizione aperta, i dipendenti possono selezionare piani di benefit. 
    | **Tipo di posizione idoneo** | Specifica il tipo o i tipi di posizione che soddisfano la regola di idoneità. Ad esempio, a tempo pieno. |
    | **Stato idoneo** | Specifica gli stati o le province che soddisfano la regola di idoneità. Ad esempio, North Dakota USA o Columbia Britannica, Canada. |
    | **Condizioni di impiego idonee** | Specifica le condizioni di impiego che soddisfano la regola di idoneità. Ad esempio, a volontà o contratto di gruppo. |
-   | **Sindacato idoneo** | Specifica le adesioni a un sindacato che soddisfano la regola di idoneità. Ad esempio, Forklift Drivers of America. </br></br>Quando si utilizza una regola di idoneità basata sul sindacato, il record sindacale del lavoratore deve contenere una data di fine. Non è possibile non specificare tale valore. |
+   | **Sindacato idoneo** | Specifica le adesioni a un sindacato che soddisfano la regola di idoneità. Ad esempio, Forklift Drivers of America.</br></br>Quando si utilizza una regola di idoneità basata sul sindacato, il record sindacale del lavoratore deve contenere una data di fine. Non è possibile lasciare il campo vuoto. |
    | **Codice postale/CAP idoneo** | Specifica i codici postali/CAP che soddisfano la regola di idoneità. Ad esempio, 58104. |
 
 5. Sotto **Dettagli aggiuntivi**, è possibile visualizzare i seguenti dettagli aggiuntivi.

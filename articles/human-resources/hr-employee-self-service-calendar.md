@@ -2,7 +2,7 @@
 title: Creare un calendario di team
 description: Visualizzare e creare calendari di team in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cedff4031c6455b446af9c56a770a00f3b2efc80
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052099"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639392"
 ---
 # <a name="view-team-and-company-calendars"></a>Visualizzare i calendari per team e società
 
@@ -30,7 +30,7 @@ ms.locfileid: "6052099"
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Visualizzare il calendario del team come dipendente
 
-1. Nell'area di lavoro **Self-service dipendenti**, selezionare **Calendario assenze team** in **Riepilogo**.
+- Nell'area di lavoro **Self-service dipendenti**, selezionare **Calendario assenze team** in **Riepilogo**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Visualizzare il calendario del team come responsabile
 
@@ -39,6 +39,21 @@ ms.locfileid: "6052099"
 2. Selezionare **Congedo e assenza**, quindi selezionare **Visualizza calendario assenze responsabile**.
 
 I responsabili possono accedere al calendario del team anche da **Richieste di permesso in sospeso per il team**, **Permesso approvato** e **Richieste di permesso**. 
+
+## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>Visualizzare il calendario del responsabile dei congedi come responsabile dei congedi
+
+> [!NOTE]
+> Per visualizzare il calendario del responsabile dei congedi devi prima attivare la funzionalità **(Anteprima) Responsabile dei congedi per la gestione dei congedi** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità di anteprima, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
+
+Gli utenti con il ruolo di responsabile dei congedi possono visualizzare le richieste di permessi nel proprio calendario. Per accedere al calendario dei congedi segui questi passaggi.
+
+1. Nell'area di lavoro **Self-service dipendenti** seleziona **Responsabile dei congedi** e **Calendario responsabile dei congedi**.
+
+2. Immetti la data desiderata nel campo **Data**.
+
+3. Aggiorna le opzioni di visualizzazione come richiesto.
+
+Il calendario del responsabile dei congedi mostra tutti i record per i dipendenti che riportano al responsabile dei congedi nella gerarchia dei congedi.
 
 ## <a name="view-a-company-calendar"></a>Visualizzare un calendario di società
 
@@ -64,13 +79,11 @@ La configurazione del calendario nei parametri di congedo e assenza determina le
 
 È anche possibile filtrare i calendari per responsabile o reparto. L'assegnazione della posizione principale determina i dipendenti visualizzati quando vengono impostati questi filtri. 
 
->[!IMPORTANT]
->La visualizzazione dei permessi e delle assenze tra le aziende è attualmente in anteprima. È necessario abilitarla nell'ambiente **Sandbox**. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).<br><br>
->Quindi è necessario abilitare la funzione in **Parametri condivisi delle risorse umane** per visualizzare il filtro della persona giuridica nei calendari. Per ulteriori informazioni, vedere [Configurare i parametri di congedo e assenza](hr-leave-and-absence-parameters.md).<br><br>
->È possibile filtrare il calendario per persona giuridica. Se si desidera visualizzare tutti i dipendenti indipendentemente dalla persona giuridica, deselezionare la casella del filtro e selezionare Invio. 
+> [!IMPORTANT]
+> Puoi attivare la funzionalità **visualizzazione congedo interaziendale** in Gestione funzionalità. È necessario abilitare la funzione nella pagina **Parametri condivisi delle risorse umane** per visualizzare il filtro della persona giuridica nei calendari. Per ulteriori informazioni, vedere [Configurare i parametri di congedo e assenza](hr-leave-and-absence-parameters.md).
+> 
+> È possibile filtrare il calendario per persona giuridica. Per visualizzare tutti i dipendenti indipendentemente dalla persona giuridica, deseleziona la casella del filtro e seleziona **Invio**. 
 
 Per informazioni sulle impostazioni del calendario, vedere [Configurare i parametri del calendario](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

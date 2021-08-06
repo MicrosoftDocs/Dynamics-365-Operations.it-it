@@ -1,8 +1,8 @@
 ---
-title: Creare i tipi di piano
+title: Panoramica del tipo di piano
 description: Un tipo di piano in Microsoft Dynamics 365 Human Resources è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano ha un codice di tipo di piano che determina le regole per il tipo di piano.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057864"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558275"
 ---
-# <a name="create-plan-types"></a>Creare i tipi di piano
+# <a name="plan-type-overview"></a>Panoramica del tipo di piano
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Un tipo di piano in Microsoft Dynamics 365 Human Resources è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano ha un codice di tipo di piano che determina le regole per il tipo di piano. Ad esempio, il tipo di piano Vita base avrebbe il codice di tipo di piano Vita perché è un tipo di piano di assicurazione sulla vita e deve essere conforme alle regole stabilite per il codice Vita. Un altro tipo di piano potrebbe essere Vita supplementare, anch'esso con il codice di tipo di piano Vita.
+Un tipo di piano è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano ha un codice di tipo di piano che determina le regole per il tipo di piano. Ad esempio, il tipo di piano **Vita base** avrebbe il codice di tipo di piano **Vita** perché è un tipo di piano di assicurazione sulla vita e deve essere conforme alle regole stabilite per il codice **Vita**. Un altro tipo di piano potrebbe essere **Vita supplementare**. Anche questo tipo di piano avrà il codice tipo piano **Vita**.
 
 Ogni tipo di piano indica se un dipendente può iscriversi a uno o più piani di quel tipo. Ad esempio, un dipendente sarebbe probabilmente in grado di iscriversi a entrambe le polizze Vita base e Vita supplementare del tipo di piano Vita. Un dipendente sarebbe probabilmente autorizzato a iscriversi a una sola polizza di tipo Medico.
 
 Se un tipo di piano implica dei contatti, il tipo di piano indica se i contatti sono beneficiari o persone a carico. Ad esempio, un tipo di piano Vita base avrebbe beneficiari, mentre un tipo di piano Medico base avrebbe persone a carico. In alcuni casi, un piano potrebbe non avere contatti personali. Ad esempio, un conto spesa flessibile o un'indennità di parcheggio.
 
 Un tipo di piano può definire opzioni di copertura. Le opzioni di copertura sono definite nel modulo Opzione di copertura. Un'opzione di copertura può specificare l'importo del benefit o i contatti che sono idonei per il tipo di piano. Ad esempio, se il tipo di contatto è Beneficiario, l'opzione di copertura dovrebbe definire i termini di ciò che il beneficiario ha diritto di ricevere quando il benefit viene utilizzato. Se il tipo di contatto è Persona a carico, l'opzione di copertura deve definire la relazione tra la persona a carico e il dipendente. 
+
+> [!IMPORTANT]
+> Il modulo include i dati chiave che influiscono sulle opzioni disponibili quando viene creato un nuovo piano di benefit:
+>
+> - **Codice tipo di piano** – Questo campo influisce su ciò che viene mostrato nella scheda **Configurazione** quando viene impostato il benefit effettivo.  
+> - **Iscrizione simultanea** – Questo campo determina se sono consentite più iscrizioni. (Per un piano medico, questo campo è generalmente impostato su **Una iscrizione**.)
+> - **Tipo di contatto** – Questo campo consente di aggiungere dipendenti o beneficiari a un piano. Se è impostato su **Nessuno**, i dipendenti che si iscrivono ai benefit non avranno la possibilità di selezionare un beneficiario o un dipendente.
+> - **Opzioni di copertura** – Utilizza questo campo per collegare le opzioni di copertura ai tipi di piano. Definisce le persone che saranno coperte da questo tipo di piano o gli importi di copertura disponibili per questo tipo di piano. Ad esempio, è possibile specificare che la copertura per un tipo di piano medico sarà disponibile solo per il dipendente, per il dipendente e un'altra persona o per il dipendente e la sua famiglia.
+
+## <a name="create-plan-types"></a>Creare i tipi di piano
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Tipi di piano**.
 

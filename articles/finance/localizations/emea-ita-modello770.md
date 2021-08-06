@@ -2,7 +2,7 @@
 title: Report Modello 770
 description: In questo argomento vengono fornite informazioni sul Modello 770 per l'Italia.
 author: ilkond
-ms.date: 11/08/2017
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: ad1ff7bc9b7f29a687801d17a697a7d41061b4fb
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 65b1ff430d7397b55ff2d36d46165b6bff841ea1
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894728"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641142"
 ---
 # <a name="modello-770-report"></a>Report Modello 770
 
@@ -26,7 +26,14 @@ ms.locfileid: "5894728"
 
 In questo argomento viene descritto come installare, creare ed esportare il Modello 770 utilizzato per dichiarare le ritenute d'acconto.
 
-Il Modello 770 è un report annuale che fornisce informazioni sulle ritenute d'acconto operate da una società quando questa paga terzisti e lavoratori autonomi. Le società rimettono le ritenute d'acconto direttamente al governo durante l'anno. Quindi, a fine anno, la società crea e trasmette il Modello 770. Questo report dettaglia i pagamenti a favore di ciascun terzista e lavoratore autonomo e le imposte che sono state trattenute nei pagamenti. Il Modello 770 contiene informazioni solo sui terzisti e i lavoratori autonomi per i quali sono state trattenute le imposte nei pagamenti.
+Il Modello 770 è un report annuale che fornisce informazioni sulle ritenute d'acconto operate da una società quando questa paga terzisti e lavoratori autonomi. Le società rimettono le ritenute d'acconto direttamente al governo durante l'anno. A fine anno, la società crea e trasmette il Modello 770. Questo report dettaglia i pagamenti a favore di ciascun terzista e lavoratore autonomo e le imposte che sono state trattenute nei pagamenti. Il Modello 770 contiene informazioni solo sui terzisti e i lavoratori autonomi per i quali sono state trattenute le imposte nei pagamenti. 
+
+Attualmente sono supportati i seguenti tipi di record:
+- Record A: intestazione della dichiarazione
+- Record B: informazioni sulla società e altre informazioni aggiuntive della dichiarazione
+- Record D: operazioni ST, SV, SX, DI 
+- Record Z: quantità di record dichiarati per tipo
+
 
 ## <a name="general-settings-that-are-required-for-the-model-770-report"></a>Impostazioni generali richieste per il Modello 770
 Completare le attività seguenti prima di creare un Modello 770:

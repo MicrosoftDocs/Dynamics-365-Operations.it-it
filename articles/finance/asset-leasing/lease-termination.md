@@ -2,7 +2,7 @@
 title: Proposta della risoluzione del leasing
 description: Questo argomento spiega come proporre un leasing per la risoluzione.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b32f9e8f80827e04269ac8cb6a4fbb5a13af8bc
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 003eaa3f9e5ad653daed2e973044f384972b0331
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881110"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638490"
 ---
 # <a name="propose-a-lease-for-termination"></a>Proporre un leasing per la risoluzione
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Se un leasing viene terminato anticipatamente, il leasing dei beni può registrare una risoluzione della scrittura contabile per annullare l'obbligazione sul leasing, asset Right of use (ROU) e l'ammortamento accumulato e prenotare un guadagno o una perdita. Il processo di risoluzione anticipata termina un leasing e i relativi libri di leasing associati. Non risolve i libri di leasing individuali. Questo argomento descrive la funzionalità che consente di proporre un leasing per la risoluzione e l'elaborazione della scrittura contabile del termine del leasing.
 

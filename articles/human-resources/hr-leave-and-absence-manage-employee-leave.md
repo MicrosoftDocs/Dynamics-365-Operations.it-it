@@ -2,7 +2,7 @@
 title: Gestire il congedo dei dipendenti
 description: Gestire il congedo dei dipendenti in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33080fc5ca43f3d83ee9d17565f4c229ced7b94f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055630"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639464"
 ---
 # <a name="manage-employee-leave"></a>Gestire il congedo dei dipendenti
 
@@ -44,12 +44,11 @@ ms.locfileid: "6055630"
 
 È possibile includere un codice motivo e un commento quando si rettifica il saldo di congedo di un dipendente. 
 
->[!IMPORTANT]
->La visualizzazione di ulteriori informazioni sui saldi dei congedi è in anteprima. È necessario abilitarla nell'ambiente **Sandbox**. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).<br>
->Quando si passa il mouse su un saldo congedo, viene visualizzato:<br>
->- **Disponibile** : Totale di quest'anno - Presi quest'anno
->- **Totale di quest'anno**: Tutti gli accantonamenti, le rettifiche e i riporti in avanti dell'anno
->- **Presi quest'anno** : Tutti i permessi approvati
+Ora, quando passi con il mouse su qualsiasi saldo di congedo, vengono mostrate le seguenti informazioni:
+
+- **Disponibile** - Il valore **Totale di quest'anno** meno il valore **Richiesti quest'anno**.
+- **Totale di quest'anno** - Tutti gli accantonamenti, le rettifiche e i riporti in avanti dell'anno.
+- **Presi quest'anno** - Tutti i congedi approvati.
 
 ## <a name="see-also"></a>Vedere anche
 

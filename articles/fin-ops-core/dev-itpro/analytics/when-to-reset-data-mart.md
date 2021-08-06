@@ -2,7 +2,7 @@
 title: Domande frequenti sul ripristino dei data mart
 description: In questo argomento vengono fornite risposte ad alcune domande frequenti sul ripristino dei data mart.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266611"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638269"
 ---
 # <a name="data-mart-resets-faq"></a>Domande frequenti sul ripristino dei data mart
 
@@ -37,6 +37,9 @@ Se una o più delle seguenti affermazioni si applicano alla tua situazione, la t
 
 - Il database dell'applicazione è stato ripristinato.
 - Hai aperto un ticket di supporto e un tecnico del supporto ti ha chiesto di ripristinare il data mart come parte di un passaggio di risoluzione dei problemi.
+ 
+> [!NOTE]
+> Il processo di reimpostazione di un data mart è influenzato dal numero di transazioni di contabilità generale e budget nel database. A seconda del numero di transazioni nel sistema, un ripristino del data mart può essere completato in appena 15 minuti o possono essere necessarie fino a quattro ore. Tuttavia, se il ripristino richiede più di quattro ore, ti consigliamo di contattare l'assistenza.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Quando non è appropriato ripristinare un data mart?
 

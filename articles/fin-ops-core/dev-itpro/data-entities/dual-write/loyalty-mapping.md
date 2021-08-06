@@ -4,24 +4,17 @@ description: Questo argomento descrive l'integrazione dei dati relativi alle car
 author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: d2c3845c1a7371d9e992495246e8dd0eb8631020
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d70fc6fea0e4e4e8f4ad73de5699b6b3fd481613
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747989"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542615"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>Carte fedeltà e punti premio fedeltà dei clienti
 
@@ -33,16 +26,10 @@ Le aziende classificano i clienti e forniscono servizi sofisticati, basati sui m
 
 ## <a name="templates"></a>Modelli
 
-| App di Finance and Operations | App basate su modello in Dynamics 365 | Descrizione |
+App Finance and Operations | App di interazione con i clienti     | descrizione
 |-----------------------------|-----------------------------------|-------------|
-| Carta fedeltà                | msdyn\_loyaltycards               | Questo modello sincronizza le informazioni delle carte fedeltà dei clienti. |
-| Punti premio fedeltà       | msdyn\_loyaltyrewardpoints        | Questo modello sincronizza le informazioni dei punti premio dei clienti. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
-
-[!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]
-
+[Carta fedeltà](mapping-reference.md#149) | msdyn_loyaltycards | Questo modello sincronizza le informazioni delle carte fedeltà dei clienti. |
+[Livelli fedeltà](mapping-reference.md#226) | msdyn_loyaltylevels | Questo modello sincronizza le informazioni dei punti premio dei clienti. |
+[Punti premio fedeltà](mapping-reference.md#150) | msdyn_loyaltyrewardpoints | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

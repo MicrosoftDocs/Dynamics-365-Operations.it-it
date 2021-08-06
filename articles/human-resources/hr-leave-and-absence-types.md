@@ -2,7 +2,7 @@
 title: Configurare tipi di congedo e assenza
 description: Impostare i tipi di congedo che i dipendenti possono prendere in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 06/15/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 63970f69a437864675eada975c54446325fb60e2
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271129"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639584"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurare tipi di congedo e assenza
 
@@ -73,6 +73,37 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
  
 4. Definire **Regole di scadenza** per il tipo di congedo. Quando si configura questa opzione, è possibile scegliere l'unità di giorni o mesi e impostare la durata per la scadenza. La data di validità della regola di scadenza viene utilizzata per determinare quando avviare l'esecuzione del processo batch che elabora la scadenza del congedo o la data alla quale la regola diventa effettiva. La scadenza stessa avverrà sempre alla data di inizio del periodo di accumulo. Ad esempio, se la data di inizio del periodo di accumulo è il 3 agosto 2021 e la regola di scadenza è stata impostata su 6 mesi, la regola verrà elaborata in base allo scostamento di scadenza dalla data di inizio del periodo di accumulo, quindi verrà eseguita il 3 febbraio, 2022. Eventuali saldi di congedi esistenti al momento della scadenza verranno sottratti dal tipo di congedo e si rifletteranno nel saldo di congedi.
  
+## <a name="configure-the-required-attachment-per-leave-type"></a>Configurare l'allegato richiesto per tipo di congedo
+
+> [!NOTE]
+> Per usare il campo **Allegato richiesto**, è necessario prima attivare la funzione **(Anteprima) Configura l'allegato richiesto per le richieste di congedo** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità di anteprima, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
+
+1. Nella pagina **Congedo e assenza** nella scheda **Collegamenti** sotto **Impostazioni**, seleziona **Tipi di congedo e assenza**.
+
+2. Nell'elenco seleziona un tipo di congedo e assenza. Quindi nella sezione **Generale**, usa il campo **Allegato richiesto** per specificare se è necessario caricare un allegato quando un dipendente invia una nuova richiesta di congedo per il tipo di congedo selezionato. 
+
+Ai dipendenti sarà richiesto di caricare un allegato quando inviano una nuova richiesta di congedo con un tipo di congedo in cui il campo **Allegato richiesto** è abilitato. Per visualizzare l'allegato che è stato caricato come parte di una richiesta di congedo, gli approvatori delle richieste di congedo possono utilizzare l'opzione **Allegati** per gli elementi di lavoro loro assegnati. Se si accede a una richiesta di congedo utilizzando l'app Human Resources in Microsoft Teams, l'opzione **Visualizza dettagli** per la richiesta di congedo può essere utilizzata per visualizzarne i dettagli e gli eventuali allegati.
+
+## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Configurare le unità di congedo (ore/giorni) per il tipo di congedo
+
+> [!NOTE]
+> Per utilizzare la funzionalità unità di congedo per tipo di congedo, è necessario prima attivare la funzione **(Anteprima) Configurare unità di congedo per tipo di congedo** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità di anteprima, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
+
+> [!IMPORTANT]
+> Per impostazione predefinita, i tipi di congedo in una persona giuridica utilizzano le unità di congedo della configurazione dei parametri di congedo a livello di persona giuridica.
+> 
+> L'unità di congedo di un tipo di congedo e assenze può essere modificata solo se non sono presenti transazioni di congedo per quel tipo di congedo.
+> 
+> Una volta attivata, la funzionalità non può essere disattivata.
+
+1. Nella pagina **Congedo e assenza** nella scheda **Collegamenti** sotto **Impostazioni**, seleziona **Tipi di congedo e assenza**.
+
+2. Nell'elenco seleziona un tipo di congedo e assenza. Poi, nella sezione **Generale**, nel campo **Unità** seleziona l'unità di congedo. Puoi selezionare **Ore** o **Giorni**.
+
+3. Facoltativo: se hai selezionato **Ore** nel campo **Unità** puoi usare il campo **Abilita la definizione di mezza giornata** per specificare se i dipendenti possono selezionare la prima mezza giornata o la seconda mezza giornata libera se richiedono una mezza giornata di congedo.
+
+I dipendenti che inviano una nuova richiesta di congedo possono selezionare diversi tipi di congedo per creare la propria richiesta di congedo. Tuttavia, tutti i tipi di congedo selezionati come parte di una singola richiesta di congedo devono avere la stessa unità di congedo. I dipendenti possono visualizzare l'unità di congedo per ogni tipo di congedo nel modulo **Richiedi permesso**.
+
 ## <a name="see-also"></a>Vedere anche
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)

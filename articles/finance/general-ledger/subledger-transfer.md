@@ -1,8 +1,8 @@
 ---
 title: Trasferire il giornale di registrazione secondario alla contabilità generale
-description: In questo argomento vengono descritte le funzionalità di Microsoft Dynamics 365 Finance correlate al processo di trasferimento del giornale di registrazione secondario alla contabilità generale.
-author: roschlom
-ms.date: 09/09/2019
+description: In questo argomento vengono descritte le funzionalità correlate al processo di trasferimento del giornale di registrazione secondario alla contabilità generale.
+author: rcarlson
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,34 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1efdf095e379b73d553ca3525abbeee8ca35bcbb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: a2fdeaadc7453458f8fc7165664eccedee632f5f
+ms.sourcegitcommit: e9cf75545d55bfb2f37b2036df886128879a5b73
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897506"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6646802"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Trasferire il giornale di registrazione secondario alla contabilità generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le funzionalità di Microsoft Dynamics 365 Finance correlate alle regole per il trasferimento di batch delle voci del giornale di registrazione secondario.
+In questo argomento vengono descritte le funzionalità correlate alle regole per il trasferimento di batch delle voci del giornale di registrazione secondario.
 
 Nella versione 8.1, sono state apportate modifiche per consentire il trasferimento di regole che hanno deprecato l'opzione **Sincrona**. Per ulteriori informazioni vedere [Funzionalità rimosse o deprecate per Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
 
-Per il trasferimento di batch del giornale di registrazione secondario sono disponibili le seguenti opzioni. 
+Per il trasferimento di batch del giornale di registrazione secondario sono disponibili le seguenti opzioni:
 
- - Asincrono: questa opzione pianificherà immediatamente il trasferimento delle voci di contabilità del giornale di registrazione secondario alla contabilità generale. Il giustificativo della contabilità generale verrà registrato non appena le risorse possono elaborare questa richiesta sul server. 
+- **Asincrono**: il trasferimento delle voci di contabilità del giornale di registrazione secondario alla contabilità generale viene pianificato immediatamente. Il giustificativo della contabilità generale verrà registrato non appena le risorse possono elaborare la richiesta sul server.
+- **Batch programmato**: i movimenti contabili del giornale di registrazione secondario che devono essere trasferiti vengono aggiunti alla coda di elaborazione nella contabilità generale. Le voci in coda verranno elaborate nell'ordine in cui sono state ricevute. Ogni giustificativo della contabilità generale aggiorna i conti all'ora pianificata se le risorse possono elaborare il processo batch sul server.
 
-- Batch programmato: questa opzione aggiungerà le voci contabili del giornale di registrazione secondario che vengono trasferite alla coda di elaborazione nella contabilità generale, dove le voci verranno elaborate nell'ordine ricevuto. Il giustificativo della contabilità generale verrà registrato all'ora pianificata se le risorse possono elaborare questo processo batch sul server. 
- 
-Nella versione 10.0.8, sono stati apportati dei miglioramenti per migliorare le prestazioni dell'opzione Asincrono. Questa funzionalità è abilitata con il nome **Ottimizzazione delle prestazioni con trasferimento del giornale di registrazione secondario alla contabilità generale**. 
- 
-Questa funzionalità migliora il trasferimento di dati dal giornale di registrazione secondario alla contabilità generale. Rende il processo più efficiente e raggruppa set di transazioni più piccole da trasferire. Ciò consente un uso più efficiente del server batch. Questa funzionalità richiede che il server batch sia configurato, online e funzionante affinché l'opzione di trasferimento Asincrono funzioni. 
+Nella versione 10.0.8, sono stati apportati dei miglioramenti per migliorare le prestazioni dell'opzione **Asincrono**. Questa funzionalità è abilitata con il nome **Ottimizzazione delle prestazioni con trasferimento del giornale di registrazione secondario alla contabilità generale**.
 
+La funzionalità per il trasferimento asincrono dei batch del giornale di registrazione secondario aiuta a migliorare il trasferimento dei dati dal giornale di registrazione secondario alla contabilità generale. Raggruppando set di transazioni più piccole e trasferendo le transazioni in gruppi, la funzionalità elabora le transazioni in modo più efficiente. Quando le transazioni sono raggruppate, le risorse del server batch vengono utilizzate in modo più efficiente.
+
+Il trasferimento asincrono di batch del giornale di registrazione secondario richiede che il server batch sia configurato, online e funzionante. In caso contrario, l'opzione di trasferimento **Asincrono** non funzionerà.
+
+La modifica dell'efficienza a livello di batch utilizza un singolo processo batch ricorrente per tutte le persone giuridiche nel sistema. In fase di esecuzione, viene creato un nuovo processo batch per elaborare i record richiesti che non sono ancora stati trasferiti. È possibile controllare più impostazioni dalla pagina **Automazione processo** nell'amministrazione del sistema. In quella pagina, puoi modificare il processo in background, cambiare la frequenza e definire un periodo di sospensione.
+
+Per ulteriori informazioni sull'impostazione dell'automazione del processo vedi [Automazione del processo](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

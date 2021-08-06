@@ -2,7 +2,7 @@
 title: Panoramica del tema Adventure Works
 description: Questo argomento offre una panoramica del tema Adventure Works e descrive come applicarlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479481"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655634"
 ---
 # <a name="adventure-works-theme-overview"></a>Panoramica del tema Adventure Works
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Questo argomento offre una panoramica del tema Adventure Works e descrive come applicarlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce ha un tema per l'e-commerce chiamato Adventure Works. Il tema Adventure Works mette in mostra prodotti sportivi e ricreativi ed è ottimizzato per un'esperienza di narrazione ricca e migliorata. Fornisce un aspetto moderno, nuovi layout ed effetti di animazione per creare un'esperienza di acquisto online immersiva e coinvolgente per i clienti di e-commerce.
 
-Il tema Adventure Works fornisce i seguenti nuovi flussi di lavoro:
+## <a name="trial-environments-in-commerce"></a>Ambienti di prova in Commerce
 
-- Il modulo del lettore video ora supporta la funzionalità di intestazione, paragrafo e collegamenti per una narrazione aggiuntiva.
-- L'azione Aggiungi al carrello richiama il mini carrello invece di fornire una notifica.
+Per vedere come appare il tema Adventure Works quando viene distribuito per i siti business-to-consumer (B2C) e business-to-business (B2B), visita i seguenti siti di prova:
+
+- [Sito Adventure Works B2C](https://www.adventure-works.com/)
+- [Sito Adventure Works B2B](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Funzionalità di tema
+
+Il tema Adventure Works fornisce le seguenti nuove funzionalità:
+
+- Il modulo del lettore video ora supporta la funzionalità di intestazione, paragrafo e collegamento per una narrazione aggiuntiva.
+- Ci sono migliori transizioni di contenuto per l'animazione.
+- L'azione "Aggiungi al carrello" richiama il mini carrello invece di fornire una notifica.
 - Il modulo di visualizzazione rapida è un riquadro che scorre sia nei riquadri di visualizzazione dei desktop che in quelli dei dispositivi mobili.
-- Un carrello vuoto ora può mostrare le promozioni.
+- Ci sono nuovi layout per le pagine del sito. 
+- I contenuti di marketing possono essere configurati per il carrello e il mini carrello quando sono vuoti.
+- Il mini carrello può mostrare messaggi promozionali, come "Spedizione gratuita per ordini superiori a $50".
+- Le schede descrittive vengono visualizzate nelle pagine di ricerca e di categoria.
 
-Il tema Adventure Works include i seguenti moduli di narrazione nella libreria del modulo Commerce:
+Il tema Adventure Works ora include i seguenti moduli di narrazione nella libreria del modulo Commerce:
 
-- Modulo elenco riquadro
-- Modulo funzionalità interattiva
-- Modulo di iscrizione
-- Modulo dell'immagine attiva
-- Modulo elenco immagini
+- [Modulo Elenco riquadri](tile-list-module.md)
+- [Modulo funzionalità interattiva](interactive-feature-module.md)
+- [Modulo Immagine attiva](active-image-module.md)
+- [Modulo di iscrizione](subscribe-module.md)
+- [Modulo Elenco immagini](image-list-module.md)
 
 Il tema Adventure Works è completamente reattivo e offre un'esperienza ottimizzata per i riquadri di visualizzazione dei desktop, dei dispositivi mobili e dei tablet.
 
@@ -78,11 +90,15 @@ Allo stesso modo, altri moduli includono estensioni di definizione del modulo. A
 
 Per ulteriori informazioni sulle estensioni dei temi, vedere [Estensioni del tema](e-commerce-extensibility/theme-module-extensions.md).
 
+## <a name="install-the-adventure-works-theme"></a>Installare il tema Adventure Works
+
+Per informazioni su come installare il tema Adventure Works, vedi [Installare il tema Adventure Works](install-adventure-works.md).
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica della libreria moduli](starter-kit-overview.md)
 
-[Modulo elenco riquadro](tile-list-module.md)
+[Modulo Elenco riquadri](tile-list-module.md)
 
 [Modulo funzionalità interattiva](interactive-feature-module.md)
 

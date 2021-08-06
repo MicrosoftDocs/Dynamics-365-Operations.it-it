@@ -2,7 +2,7 @@
 title: Gestire le richieste di congedo in Teams
 description: Questo argomento mostra come richiedere tempo libero nell'app Dynamics 365 Human Resources in Microsoft Teams.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356514"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639440"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
@@ -166,6 +166,10 @@ Se si hanno problemi ad accedere o utilizzare l'app Dynamics 365 Human Resources
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Non è possibile accedere all'app Human Resources in Teams
 
 Se non riesci ad accedere all'app, è possibile che l'account che stai utilizzando per accedere a Microsoft Teams non è associato a un record dipendente in Dynamics 365 Human Resources. Contatta l'amministratore di sistema per assicurarti che il record dipendente sia associato correttamente.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Impossibile trovare l'ambiente Dynamics 365 Human Resources in Impostazioni
+
+Se non riesci a selezionare l'ambiente Dynamics 365 corretto, il record utente potrebbe non essere stato sincronizzato correttamente. Contatta l'amministratore di sistema per ricreare il record utente e associarlo alle credenziali dell'utente. Quindi prova ad accedere all'app Human Resources per Microsoft Teams dopo pochi minuti.
 
 ### <a name="translations-dont-display-correctly"></a>Le traduzioni non vengono visualizzate correttamente
 

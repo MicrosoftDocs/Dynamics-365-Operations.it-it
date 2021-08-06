@@ -2,7 +2,7 @@
 title: Previsione di cassa (anteprima)
 description: Questo argomento descrive la funzionalità di previsione di cassa.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3f16c8471123969443af52ff9bed7fc017b8e9c2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f4b48122ea54c201888d71afb5fb731ebcab230d
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339217"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638778"
 ---
 # <a name="cash-flow-forecast-preview"></a>Previsione di cassa (anteprima)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Il flusso di cassa è fondamentale per qualsiasi azienda. Anche le aziende redditizie possono affrontare l'insolvenza se non mantengono il flusso di cassa per soddisfare le esigenze immediate. La funzionalità di previsione di cassa in Finance Insights può aiutare le aziende a monitorare e gestire i propri saldi di cassa in modo efficace. Questa funzionalità utilizza l'apprendimento automatico per aiutare le aziende a prevedere i flussi di cassa in modo più accurato rispetto a prima. Può anche aiutare i responsabili a prendere decisioni che ottimizzano le opportunità nel contesto della loro attuale posizione di cassa. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: c2f362e71832d6f7b17e06ad98142019ced4df14
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303564"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560076"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Novità e modifiche in Dynamics 365 Human Resources 22 giugno 2021
 
@@ -44,7 +44,7 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 | --- | --- | --- |
 | Informa gli utenti della funzione lavoratori senza impiego - Quando l'accesso avanzato è attivo e la funzionalità **Visualizza tutti i lavoratori senza impego** è disabilitata nella gestione delle funzionalità, verrà visualizzato un banner nel modulo lavoratori senza impiego. Il banner indirizzerà l'utente ad attivare la funzionalità **Visualizza tutti i lavoratori senza impiego**. | Non applicabile| [Lavoratori senza impiego](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | Supporto per campi personalizzati delle regole di idoneità di Gestione benefit | [Supporto per campi personalizzati per l'elaborazione dell'idoneità](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[Configurazione delle regole di idoneità](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| Controllo transazione accumulo per congedo | Non applicabile | [Controllo transazione accumulo per congedo](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Controllo transazione accumulo per congedo | Non applicabile | [Controllo transazione accumulo per congedo](hr-leave-and-absence-accrue.md)|
 | Miglioramenti dell'esperienza del flusso di lavoro congedo e assenza | [Miglioramenti dell'esperienza del flusso di lavoro congedo e assenza](https://go.microsoft.com/fwlink/?linkid=2147528) | [Richiedere un permesso](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>Correzioni di bug

@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350790"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542517"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Risoluzione dei problemi di sincronizzazione in tempo reale
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 In questo argomento vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra le app Finance and Operations e Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi relativi alla sincronizzazione in tempo reale.
 
@@ -81,7 +79,7 @@ Per risolvere il problema, è necessario assegnare il ruolo di sicurezza corrett
 
     ![Mapping dell'organizzazione.](media/mapped_business_unit.png)
 
-2. Accedere all'ambiente nell'app basata su modello in Dynamics 365, andare a **Impostazione \> Sicurezza** e trovare il team della Business Unit mappata.
+2. Accedi all'ambiente nell'app customer engagement, vai a **Impostazioni \> Sicurezza** e trova il team della Business Unit mappata.
 
     ![Team della Business Unit mappata.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Per risolvere il problema, è necessario assegnare il ruolo di sicurezza corrett
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Impossibile generare il payload per l'entità CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Creazione del payload non riuscita con errore URI non valido: L'URI è vuoto."}\],"isErrorCountUpdated":true}*
 
-Ecco come si presenta l'errore nell'app basata su modello in Dynamics 365:
+Ecco come appare l'errore nell'app customer engagement:
 
 *Si è verificato un errore imprevisto del codice ISV. (ErrorType = ClientError) Eccezione imprevista dal plug-in (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: impossibile elaborare l'account dell'entità - Tentativo di connessione non riuscito perché la parte connessa non ha risposto correttamente dopo un periodo di tempo o connessione stabilita non riuscita perché l'host connesso non ha risposto*
 
@@ -125,6 +123,5 @@ Per risolvere il problema, procedere come segue.
 
 3. Assicurarsi che la colonna **externalenvironmentURL** abbia l'URL corretto di Dataverse o dell'app. Eliminare tutte le righe duplicate che puntano all'URL Dataverse errato. Eliminare le righe corrispondenti nelle tabelle DUALWRITEPROJECTFIELDCONFIGURATION e DUALWRITEPROJECTCONFIGURATION.
 4. Arrestare il mapping della tabella e quindi riavviarlo
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Utilizzo di Power Portal con il modello di dati parte
-description: In questo argomento vengono descritte le modifiche ai ruoli Web di Power Portal a causa del modello di dati della parte in doppia scrittura.
+title: Utilizzo dei portali Microsoft Power Apps con il modello di dati parte
+description: In questo argomento vengono descritte le modifiche ai ruoli Web dei portali Microsoft Power Apps a causa del modello di dati della parte in doppia scrittura.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358619"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542565"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Utilizzo di Power Portal con il modello di dati parte
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Utilizzo dei portali Microsoft Power Apps con il modello di dati parte
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ Per creare queste nuove autorizzazioni per la tabella, segui questi passaggi:
 
     Devi creare tre nuove autorizzazioni:
 
-    + Connessione da contatto a parte
-    + Connessione da parte a conto
-    + Connessione da conto a ordine
+    + Connessione della tabella da **Contatto** a **Parte**
+    + Connessione della tabella da **Parte** a **Conto**
+    + Connessione della tabella da **Conto** a **Ordine**
 
 4. Crea e salva una nuova autorizzazione per la connessione da contatto a parte, impostando questi parametri:
 
-    + **Nome**: Connessione da parte a conto (o a tua scelta)
+    + **Nome**: Connessione della tabella da **Parte** a **Conto** (o la tua scelta)
     + **Nome tabella**: msdyn_contactforparty
     + **Sito Web**: portale del cliente
     + **Ambito**: Contatto

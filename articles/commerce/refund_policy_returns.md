@@ -2,7 +2,7 @@
 title: Creare e aggiornare una politica su resi e rimborsi per un canale
 description: Questo argomento spiega come impostare una politica su resi e rimborsi per un canale.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345110"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558299"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Creare e aggiornare i criteri per resi e rimborsi di un canale
 
@@ -36,12 +36,21 @@ L'ambito della politica è attualmente limitato alla definizione delle offerte d
 
 ## <a name="enable-return-policy"></a>Abilitare la politica sui resi
 
-Per abilitare la politica sui resi, procedere come segue:
+Per abilitare la funzionalità di politica sui resi del canale in Commerce Headquarters, seguire questi passaggi.
 
 1. Andare all'area di lavoro **Gestione funzionalità** in Dynamics 365 Commerce.
 1. Cercare la funzionalità **Abilita politiche sui resi del canale** nell'elenco dei nomi di funzionalità.
 1. Selezionare **Abilita ora**.
-1. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1110** (Configurazione globale) per distribuire la modifica della funzionalità. 
+1. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1110** (Configurazione globale) per distribuire la modifica della funzionalità.
+
+## <a name="initialize-the-commerce-scheduler"></a>Inizializzare l'utilità di pianificazione di commercio
+
+Dopo aver abilitato la funzionalità **Abilita la politica sui resi del canale** devi inizializzare l'utilità di pianificazione di commercio per garantire che le nuove modifiche al database delle funzionalità vengano aggiunte tramite la sincronizzazione Commerce Data Exchange (CDX). 
+
+Per inizializzare l'utilità di pianificazione di commercio in Commerce headquarters, segui questi passaggi.
+
+- Andare a **Retail e Commerce \> Impostazione sedi centrali \> Utilità di pianificazione di commercio \> Inizializza utilità di pianificazione di commercio**. In alternativa, puoi cercare "Inizializza utilità di pianificazione di commercio".
+- Nella finestra di dialogo **Inizializza utilità di pianificazione di commercio**, verifica che l'opzione **Elimina configurazione esistente** sia impostata su **No** e seleziona **OK**.
 
 ## <a name="configure-return-policy"></a>Configurare la politica sui resi
 

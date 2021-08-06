@@ -2,24 +2,24 @@
 title: Gestisci gli utenti dei partner commerciali sui siti di e-commerce B2B
 description: Questo argomento descrive come gli amministratori possono aggiungere, modificare ed eliminare gli utenti dei partner commerciali sui siti Web di e-commerce business-to-business (B2B).
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936658"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655608"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gestisci gli utenti dei partner commerciali sui siti di e-commerce B2B
 
@@ -67,7 +67,7 @@ Per approvare e impostare un utente amministratore di partner commerciali nella 
 
 1. Vai a **Retail e Commerce IT \> Programmazione della distribuzione** ed esegui il processo **1010** (**Clienti**) per eseguire il push dei record della gerarchia di clienti e clienti appena creati nel database del canale.
 
-Dopo che la richiesta è stata approvata e i record del cliente e della gerarchia del cliente sono stati sincronizzati con il database del canale, il richiedente può accedere al sito Web di e-commerce B2B utilizzando l'indirizzo e-mail fornito quando ha inviato la richiesta. Gli utenti possono utilizzare il flusso di registrazione per definire la password per il proprio account.
+Dopo che la richiesta è stata approvata e i record del cliente e della gerarchia del cliente sono stati sincronizzati con il database del canale, il richiedente può accedere al sito Web di e-commerce B2B utilizzando l'indirizzo e-mail fornito quando ha inviato la richiesta. Gli utenti possono utilizzare il flusso di registrazione per definire la password per il proprio account. Per abilitare il record del provider di identità (Azure AD B2C) da collegare al record del cliente B2B che è stato creato al momento della registrazione o dell'accesso, segui le istruzioni in [Abilitare il collegamento automatico dei record di identità agli account dei clienti](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Eseguire l'onboarding aggiuntivo degli utenti dei partner commerciali
 
@@ -83,7 +83,7 @@ Per eseguire l'onboarding di altri utenti di partner commerciali in un sito Web 
 
 1. Esegui il processo **1010** (**Clienti**) per sincronizzare il nuovo utente del partner commerciale con il database del canale.
 
-Dopo che il record del cliente è stato sincronizzato, lo stato dell'utente sul sito Web di e-commerce B2B viene impostato su **Attivo** e il nuovo utente può accedere al sito Web di e-commerce B2B utilizzando il proprio indirizzo e-mail. Gli utenti possono utilizzare il flusso di registrazione per definire la password per il proprio account.
+Dopo che il record del cliente è stato sincronizzato, lo stato dell'utente sul sito Web di e-commerce B2B viene impostato su **Attivo** e il nuovo utente può accedere al sito Web di e-commerce B2B utilizzando il proprio indirizzo e-mail. Gli utenti possono utilizzare il flusso di registrazione per definire la password per il proprio account. Per abilitare il record del provider di identità (Azure AD B2C) da collegare al record del cliente B2B che è stato creato al momento della registrazione o dell'accesso, segui le istruzioni in [Abilitare il collegamento automatico dei record di identità agli account dei clienti](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Modifica i dettagli dell'utente del partner commerciale
 

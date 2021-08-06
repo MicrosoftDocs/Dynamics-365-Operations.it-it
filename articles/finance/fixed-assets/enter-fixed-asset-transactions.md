@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815718"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645374"
 ---
 # <a name="fixed-asset-transaction-options"></a>Opzioni di transazione cespiti
 
@@ -46,7 +46,7 @@ L'utilizzo del giornale di registrazione Ordine fornitore o Scorte a cespiti per
 ## <a name="general-ledger"></a>Contabilità generale
 Nella pagina Giornale di registrazione generale può essere registrato qualsiasi tipo di transazione cespiti. È inoltre possibile utilizzare i giornali di registrazione in Cespiti per registrare le transazioni cespiti.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Opzioni per l'immissione di tipi di transazioni cespiti
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Opzioni per l'immissione di tipi di transazioni cespiti
 
 
 | Tipo di transazione                    | Modulo                   | Opzioni                                   |
@@ -61,10 +61,20 @@ Nella pagina Giornale di registrazione generale può essere registrato qualsiasi
 | ** **                               | Contabilità generale           | Giornale di registrazione generale                           |
 | ** **                               | Contabilità clienti      | Fattura a testo libero                         |
 
-
 Il valore residuo dei periodi di ammortamento del cespite non viene aggiornato quando una riga del giornale dei tipi di transazioni di ammortamento viene creata manualmente o importata mediante un'entità di dati. Questo valore viene aggiornato quando il processo della proposta di ammortamento viene utilizzato per creare la riga del giornale.
 
 Per ulteriori informazioni, vedere [Integrazione dei cespiti](fixed-asset-integration.md).
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>Transazioni che richiedono numeri di giustificativo diversi
+
+Le seguenti transazioni cespiti utilizzeranno numeri di giustificativo diversi:
+
+- Viene effettuata un'acquisizione aggiuntiva su un cespite e viene calcolata la rideterminazione dell'ammortamento.
+- Un cespite viene diviso.
+- Viene abilitato un parametro per calcolare l'ammortamento su dismissione e quindi viene dismesso il cespite.
+- Una data di messa in servizio di un cespite è precedente alla data di acquisizione. Di conseguenza, una rettifica dell'ammortamento viene registrata.
+
+> [!NOTE]
+> Quando immetti le transazioni, assicurati che tutte le transazioni si applichino allo stesso cespite. Il giustificativo non viene pubblicato se include più di un cespite, anche se il campo **Nuovo giustificativo** è impostato su **Un solo numero di giustificativo** nella pagina **Nomi giornale di registrazione** nella contabilità generale. Se includi più di un cespite nel giustificativo, verrà visualizzato il messaggio "Può essere presente una sola transazione cespiti per giustificativo" e non sarà possibile registrare il giustificativo.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

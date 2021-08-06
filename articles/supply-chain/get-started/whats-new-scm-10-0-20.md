@@ -1,5 +1,5 @@
 ---
-title: Anteprima di Dynamics 365 Supply Chain Management 10.0.20 (agosto 2021)
+title: Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.20 (agosto 2021)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301748"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641058"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.20 (agosto 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.20 (agosto 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della versione 10.0.20. di Microsoft Dynamics 365 Supply Chain Management. Questa versione ha il numero di build 10.0.886 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione 10.0.20. Questa versione ha il numero di build 10.0.886 ed è disponibile come segue:
 
 - **Anteprima della versione:** maggio 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** luglio 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** agosto 2021
 
-
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
 Questa tabella elenca le funzionalità incluse in questa versione. La colonna *Funzionalità* fornisce collegamenti al [piano di rilascio](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), dove puoi vedere le date di rilascio ufficiali per ciascuna funzionalità. La colonna *Ulteriori informazioni* fornisce altri dettagli e/o collegamenti alla documentazione correlata.
 
-La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate. Alcune delle funzionalità elencate sono ancora in anteprima, mentre altre potrebbero essere già generalmente disponibili.
+La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 | Area funzionale | Funzionalità | Ulteriori informazioni |
 |---|---|---|
@@ -49,7 +47,7 @@ Questa tabella elenca i miglioramenti delle funzionalità incluse in questa vers
 
 | Area funzionale | Nome della&nbsp;funzionalità&nbsp;nella gestione&nbsp;delle funzionalità | Ulteriori informazioni |
 |---|---|---|
-| Pianificazione generale | Giorni negativi per l'ottimizzazione della pianificazione | Questa funzionalità di anteprima consente a Ottimizzazione pianificazione di considerare la tolleranza del ritardo basata sul parametro **Giorni negativi** definito in gruppi di copertura. |
+| Pianificazione generale | Giorni negativi per l'ottimizzazione della pianificazione | Questa funzionalità consente a Ottimizzazione pianificazione di considerare la tolleranza del ritardo basata sul parametro **Giorni negativi** definito in gruppi di copertura. |
 | Pianificazione generale | Autorizzazione parallela della previsione della domanda modificata | Questa funzionalità consente l'autorizzazione parallela della previsione della domanda rettificata dalla pagina **Previsione della domanda modificata**. Lo scopo di questa funzione è aumentare le prestazioni quando viene autorizzato un numero elevato di previsioni. Al momento dell'autorizzazione, l'utente può specificare il **Numero di thread** nella finestra di dialogo di autorizzazione. |
 | Pianificazione generale | (Anteprima) Stabilizzazione e consolidamento batch per ordini batch in blocco e di imballaggio pianificati | Questa funzionalità consente di utilizzare i processi batch per stabilizzare e consolidare gli ordini in blocco e di imballaggio pianificati. |
 | Controllo produzione | Copia cicli di lavorazione generici | Questa funzionalità migliora la funzione di copia del percorso per consentire agli utenti di copiare percorsi che non sono specifici dell'elemento. Consente al sistema di aggiornare tutte le informazioni rilevanti (come il sito, il gruppo di percorsi, i requisiti delle risorse e varie volte) dopo che la funzione di copia del percorso è stata utilizzata per sovrascrivere un percorso non ancora assegnato a un elemento. |
@@ -75,7 +73,7 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.20 delle app Finance and Operations (luglio 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.20 delle app Finance and Operations (luglio 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 

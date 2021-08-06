@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0548963de9d5b3bdd884d4e5a5d30d8a2fcb83
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 914da2b111034d98bca5c5553bfb8c63b7fd3edf
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336591"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538901"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -32,6 +32,7 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Comunicazione annuale imposte](emea-ita-yearly-tax-communication.md)
 - [Gestione e dichiarazione IVA per data di effettuazione dell'operazione (data del registro IVA)](emea-ita-vat-management.md)
 - [Data di competenza per le transazioni](emea-ita-competence-date.md)
+- [Intrastat italiano](emea-ita-intrastat.md)
 - [Ammortamento manuale dei cespiti](emea-ita-depreciation-of-fixed-assets.md)
 - [Verifica della data dei documenti di trasporto nelle fatture](emea-ita-packing-slip-date-verification-on-invoice.md)
 - [Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto](emea-ita-packing-slip.md)
