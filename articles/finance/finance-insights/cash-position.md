@@ -2,7 +2,7 @@
 title: Posizione di cassa (anteprima)
 description: Questo argomento descrive in che modo la funzionalità Previsione di cassa prevede la posizione di cassa di un'organizzazione per orari specifici. Descrive inoltre le opzioni disponibili per mostrare le previsioni per periodi diversi.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 1935be3b2d52e19b764e6afdf00a8bc546f801df
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186494"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638754"
 ---
 # <a name="cash-position-preview"></a>Posizione di cassa (anteprima)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La posizione di cassa è la proiezione del flusso di cassa previsto per il breve termine. Si basa sulla proiezione di incassi da clienti che pagano fatture e ordini in sospeso e anche sulla proiezione di esborsi in contanti pagati ai fornitori per fatture e ordini di acquisto.
 

@@ -1,5 +1,5 @@
 ---
-title: Creare un ordine fornitore di rilascio da un contratto di acquisto
+title: Applicare un contratto di acquisto quando si crea un ordine fornitore
 description: Questa procedura mostra come utilizzare un contratto di acquisto quando si crea un ordine fornitore.
 author: kamaybac
 ms.date: 08/09/2019
@@ -12,49 +12,49 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd3f837590cd7fe09ad385d0baac6c16fcf145d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 341d3f37936bcca8d8b273894b4a12debfe6eced
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812259"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647184"
 ---
-# <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Creare un ordine fornitore di rilascio da un contratto di acquisto
+# <a name="apply-a-purchase-agreement-when-creating-a-purchase-order"></a>Applicare un contratto di acquisto quando si crea un ordine fornitore
 
 [!include [banner](../../includes/banner.md)]
 
-Questa procedura mostra come utilizzare un contratto di acquisto quando si crea un ordine fornitore. Il contratto di acquisto deve essere applicato quando si crea l'ordine fornitore perché sono termini generali che devono essere copiati nell'intestazione dell'ordine fornitore. In genere questa attività sarà svolta da un addetto acquisti. Come prerequisito per la guida, è necessario disporre di un contratto di acquisto valido con un impegno quantità di prodotto per un fornitore e gli articoli. La stessa procedura può essere utilizzata se si dispone di un contratto di acquisto con altri tipi di impegni. È possibile eseguire questa guida nella società di dati dimostrativi USMF. Se si utilizza USMF, è possibile "Creare un contratto di acquisto" innanzitutto per impostare i presupposti necessari per la guida.
-
+Questa procedura mostra come utilizzare un contratto di acquisto quando si crea un ordine fornitore. Il contratto di acquisto deve essere applicato quando si crea l'ordine fornitore perché sono termini generali che devono essere copiati nell'intestazione dell'ordine fornitore. In genere questa attività sarà svolta da un addetto acquisti. Come prerequisito per la guida, è necessario disporre di un contratto di acquisto valido con un impegno quantità di prodotto per un fornitore e gli articoli. La stessa procedura può essere utilizzata se si dispone di un contratto di acquisto con altri tipi di impegni.
 
 ## <a name="create-a-purchase-order"></a>Creare un ordine fornitore
-1. Nel **pannello di navigazione**, andare a **Aree di lavoro > Preparazione ordini acquisto**. 
-2. Fare clic su **Nuovo ordine fornitore**.
-3. Nel campo **Conto fornitore** fare clic sul pulsante a discesa per aprire la ricerca.
-4. Nell'elenco trovare e selezionare il record desiderato.
-5. Nell'elenco fare clic sul collegamento nella riga selezionata.
-6. Espandere la Scheda dettaglio **Generale**.
-7. Nel campo **Contratto di acquisto** fare clic sul pulsante a discesa per aprire la ricerca. Tutti i contratti disponibili per il fornitore sono elencati in questo campo. Individuare il contratto valido da utilizzare.  
-8. Nell'elenco fare clic sul collegamento nella riga selezionata.
-9. Fare clic su **Sì**.
-10. Fare clic su **OK**.
 
-## <a name="add-a-line"></a>Aggiungere una riga
-1. Nel campo **Numero articolo**, digitare un valore. Se sono presenti dimensioni inventariali o di ubicazione sull'impegno, è necessario immettere gli stessi valori nella riga ordine fornitore per utilizzare il contratto.  
-2. Nel campo **Sito**, fare clic sul pulsante a discesa per aprire la ricerca. Il sito può già essere popolato con il valore predefinito dall'ordine o dal fornitore. In questo caso, ignorare questo passaggio.  
-3. Nell'elenco trovare e selezionare il record desiderato.
-4. Nell'elenco fare clic sul collegamento nella riga selezionata.
-5. Nel campo **Quantità** immettere un numero. Verificare che il prezzo sia copiato dall'impegno.  
+1. Vai a **Produzione e approvvigionamento \> Spazi di lavoro \> Preparazione ordine fornitore**.
+1. Nel riquadro azioni, selezionare **Nuovo ordine fornitore**.
+1. Viene visualizzata la finestra di dialogo **Crea ordine fornitore**. Seleziona un **conto fornitore**. Ispeziona e regola gli altri campi dell'indirizzo secondo le necessità.
+1. Espandere la Scheda dettaglio **Generale**.
+1. Nel campo **Contratto di acquisto** trova e seleziona il contratto effettivo che vuoi utilizzare. Tutti i contratti disponibili per il fornitore sono elencati in questo campo.  
+1. Selezionare **Sì**.
+1. Selezionare **OK**.
+
+## <a name="add-a-line"></a>Aggiungi a riga
+
+1. Nel campo **Numero articolo**, digitare un valore. Se sono presenti dimensioni inventariali o di ubicazione sull'impegno, è necessario immettere gli stessi valori nella riga ordine fornitore per utilizzare il contratto.
+1. Nel campo **Sito**, seleziona il pulsante a discesa per aprire la ricerca. Il sito può già essere popolato con il valore predefinito dall'ordine o dal fornitore. In questo caso, ignorare questo passaggio.  
+1. Nell'elenco trovare e selezionare il record desiderato.
+1. Nell'elenco fare clic sul collegamento nella riga selezionata.
+1. Nel campo **Quantità** immettere un numero. Verificare che il prezzo sia copiato dall'impegno.  
 
 ## <a name="look-up-the-commitment"></a>Cercare l'impegno
-1. Fare clic su **Aggiorna riga**.
-2. Fare clic su **Collegata**. In questo punto è possibile ottenere i dettagli del contratto di acquisto. Ad esempio, è possibile visualizzare il prezzo e se il prezzo e lo sconto sono fissi. Ciò significa che se si modifica il prezzo o lo sconto nell'ordine fornitore su un valore diverso di quello dell'impegno, il collegamento verrà rimosso in modo che la riga ordine fornitore non soddisfi l'impegno. È inoltre possibile visualizzare se l'opzione Valore massimo applicato è selezionata. In tal caso, la quantità relativa all'impegno non può essere superata sommando tutti gli acquisti correlati all'impegno.  
-3. Chiudere la pagina.
+
+1. Seleziona **Aggiorna riga**.
+1. Seleziona **Allegato**. In questo punto è possibile ottenere i dettagli del contratto di acquisto. Ad esempio, è possibile visualizzare il prezzo e se il prezzo e lo sconto sono fissi. Ciò significa che se si modifica il prezzo o lo sconto nell'ordine fornitore su un valore diverso di quello dell'impegno, il collegamento verrà rimosso in modo che la riga ordine fornitore non soddisfi l'impegno. È inoltre possibile visualizzare se l'opzione Valore massimo applicato è selezionata. In tal caso, la quantità relativa all'impegno non può essere superata sommando tutti gli acquisti correlati all'impegno.  
+1. Chiudere la pagina.
 
 ## <a name="look-up-the-purchase-agreement"></a>Cercare il contratto di acquisto
+
 1. Nel **riquadro azioni** fare clic su **Generale**.
-2. Fare clic su **Contratto di acquisto**.
-3. Chiudere la pagina.
-4. Chiudere la pagina.
+1. Seleziona **Contratto di acquisto**.
+1. Chiudere la pagina.
+1. Chiudere la pagina.
 
 
 

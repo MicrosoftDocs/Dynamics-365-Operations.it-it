@@ -2,7 +2,7 @@
 title: Panoramica
 description: Il manuale dell'utente di Dynamics 365 Human Resources fornisce istruzioni sulla configurazione di Human Resources, l'impostazione di compensazioni e benefit per i dipendenti e la gestione della forza lavoro.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338056"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639512"
 ---
 # <a name="overview"></a>Panoramica
 
@@ -102,6 +102,7 @@ Il manuale dell'utente di Dynamics 365 Human Resources fornisce istruzioni sulla
 [Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)</br>
 [Richiedere un permesso](hr-employee-self-service-request-time-off.md)</br>
 [Visualizzare i calendari per team e società](hr-employee-self-service-calendar.md)</br>
+[Configurare il ruolo di responsabile dei congedi](hr-configure-absence-manager.md)</br>
 
 ## <a name="develop-employees"></a>Sviluppare i dipendenti
 
