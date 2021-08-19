@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270661"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728629"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Visualizzazioni salvate standard per Supply Chain Management
 
@@ -77,6 +77,18 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 | Dettagli ordine fornitore | Gestione finanziaria | Questa visualizzazione semplificata è ottimizzata per l'esecuzione di attività finanziarie, come la fatturazione e il controllo di prezzi, totali e addebiti. | Visualizzazioni salvate per ordini fornitore |
 | Dettagli ordine fornitore | Approvazione degli ordini | Questa visualizzazione semplificata è ottimizzata per l'approvazione degli ordini fornitore. | Visualizzazioni salvate per ordini fornitore |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Visualizzazioni salvate per il modulo Gestione informazioni sul prodotto
+
+La tabella seguente descrive le visualizzazioni salvate disponibili per il modulo Gestione informazioni sul prodotto.
+
+| Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
+|---|---|---|---|
+| Elenco dei prodotti rilasciati | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per prodotti rilasciati |
+| Dettagli prodotto rilasciato | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per prodotti rilasciati |
+| Dettagli prodotto rilasciato | Gestione informazioni sulla logistica | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sulla logistica per prodotti. | Visualizzazioni salvate per prodotti rilasciati |
+| Dettagli prodotto rilasciato | Gestione informazioni sull'acquisto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sull'acquisto per prodotti. | Visualizzazioni salvate per prodotti rilasciati |
+| Dettagli prodotto rilasciato | Gestione informazioni sulla vendita | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni correlate alla vendita per prodotti. | Visualizzazioni salvate per prodotti rilasciati |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Visualizzazioni salvate per il modulo Controllo produzione
 
 La tabella seguente descrive le visualizzazioni salvate disponibili per il modulo Controllo produzione.
@@ -110,8 +122,8 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 | Tutte le spedizioni | Elaborazione in entrata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare spedizioni in entrata. | Visualizzazioni salvate per elaborazione spedizione |
 | Tutte le spedizioni | Elaborazione in uscita | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare spedizioni in uscita. | Visualizzazioni salvate per elaborazione spedizione |
 | Tutte le ondate | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per elaborazione ciclo |
-| Workbench pianificazione carico | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per il workbench di pianificazione del lavoro |
-| Dettagli lavoro | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per la pagina dei dettagli del lavoro |
+| Workbench pianificazione carico | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per il workbench di pianificazione del carico |
+| Dettagli lavoro | Semplificato | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per la pagina dei dettagli del lavoro |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
