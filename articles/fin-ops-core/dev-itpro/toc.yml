@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update versione 10.0.21 (ottobre 2021)
+                  href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Platform update versione 10.0.20 (agosto 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platform update 10.0.19 (giugno 2021)
@@ -446,6 +448,8 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: Script agente locale pre-distribuzione e post-distribuzione
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: Configurazioni di distribuzione per l'agente locale
+                      href: deployment/onprem-localagent-options.md
                     - name: Aggiornare l'agente locale
                       href: lifecycle-services/update-local-agent.md
                 - name: Risoluzione dei problemi
