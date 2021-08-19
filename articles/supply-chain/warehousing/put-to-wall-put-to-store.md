@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712864"
 ---
 # <a name="put-to-wall---put-to-store"></a>Stoccaggio a parete - stoccaggio in magazzino
 
@@ -42,7 +42,7 @@ La funzionalità *Ordinamento in uscita* può essere utilizzata insieme alla fun
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Codice passaggio ondata a livello di organizzazione*
 
-## <a name="setup"></a>Configurazione
+## <a name="setup"></a>Attrezzaggio
 
 Per questa demo, sono utilizzati i dati e il magazzino Contoso standard *62*. Vengono inoltre utilizzate alcune aggiunte che verranno annotate in seguito.
 

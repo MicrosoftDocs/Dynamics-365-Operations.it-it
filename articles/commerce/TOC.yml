@@ -94,6 +94,8 @@
                   items:
                     - name: Home page Novità o modifiche in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.21 (ottobre 2021)
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (agosto 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (giugno 2021)
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Ignorare la finestra di dialogo "modifica in scadenza" in POS
                       href: dev-itpro/skip-change-due.md
-                    - name: Connettore pagamenti Adyen
-                      href: dev-itpro/adyen-connector.md
+                    - name: Dynamics 365 Payment Connector per Adyen
+                      items:
+                        - name: Panoramica connettore pagamenti di Dynamics 365 per Adyen
+                          href: dev-itpro/adyen-connector.md
+                        - name: Impostare Dynamics 365 Payment Connector per Adyen
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Domande frequenti su Dynamics 365 Payment Connector per Adyen
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Risolvere i problemi di Dynamics 365 Payment Connector per Adyen
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Salvare gli strumenti di pagamento online con il connettore Adyen
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Autenticazione avanzata del cliente (SCA) tramite il connettore Adyen
@@ -1176,12 +1186,16 @@
               items:
                 - name: Panoramica della pagina di destinazione di categoria e della pagina dei risultati di ricerca predefinite
                   href: category-search-page-overview.md
-                - name: Panoramica della ricerca basata su cloud
+                - name: Panoramica ricerca basata su cloud
                   href: cloud-powered-search-overview.md
-            - name: Report
+            - name: Creazione di report
               items:
                 - name: Generare report del canale online
                   href: generate-reports.md
+            - name: Destinazione
+              items:
+                - name: 'Destinazioni per dispositivo, mercato e georilevazione'
+                  href: targeting-overview.md
             - name: Sperimentazione
               items:
                 - name: Sperimentazione in Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Localizzazione di Commerce per la Russia
                   href: localizations/rus-commerce-localization.md
+                - name: Impostare la localizzazione di Commerce per la Russia
+                  href: localizations/rus-commerce-setup.md
+                - name: Pagamenti anticipati in Commerce per la Russia
+                  href: localizations/rus-commerce-prepayments.md
             - name: Svezia
               items:
                 - name: Funzionalità registratore di cassa
@@ -2644,9 +2662,9 @@
               items:
                 - name: Il rimborso dell'ordine di reso viene rifiutato
                   href: troubleshoot/refund-declined.md
-                - name: Connettore pagamenti di Dynamics 365 per Adyen
+                - name: Dynamics 365 Payment Connector per Adyen
                   items:
-                    - name: Risolvere i problemi del connettore pagamenti di Dynamics 365 per Adyen
+                    - name: Risolvere i problemi di Dynamics 365 Payment Connector per Adyen
                       href: troubleshoot/adyen-support.md
                     - name: L'opzione Salva per il mio prossimo pagamento non viene visualizzata
                       href: troubleshoot/next-payment-link-not-appearing.md

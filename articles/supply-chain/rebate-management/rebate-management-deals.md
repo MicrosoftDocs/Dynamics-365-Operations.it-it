@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020509"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716494"
 ---
 # <a name="rebate-management-deals"></a>Transazioni della gestione degli sconti
 
@@ -102,6 +102,7 @@ Dopo aver creato una transazione come descritto nella sezione precedente, puoi a
         - *Tutti* - La riga di transazione si applica a tutti gli articoli.
 
     - **Relazione articolo** – Se è stato selezionato *Tabella* nel campo **Codice articolo**, seleziona l'articolo a cui si applica la riga di transazione. Se selezioni *Gruppo*, seleziona il gruppo di articoli. Se selezioni *Tutti*, questo campo non è disponibile.
+    - **Tipo di unità** – Seleziona il tipo di unità che si applica alla riga di transazione (*Unità di magazzino* o *Unità peso variabile*). Tieni presente che questo campo potrebbe essere vuoto per i record più vecchi. In questo caso, il valore *Unità di magazzino* viene usato.
     - **(Parametri di gestione dell'inventario)** - Nei restanti campi della riga di transazione specifica i valori per i parametri di gestione dell'inventario che verranno utilizzati per definire gli articoli inclusi nella transazione (come la dimensione dell'articolo, il colore, lo stile, il sito e il magazzino). Per aggiungere o rimuovere le dimensioni, seleziona **Visualizza dimensioni** nel riquadro azioni.
 
 1. Nel riquadro azioni selezionare **Salva**.
