@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 26 luglio 2021
+          href: hr-whats-new-2021-07-26.md
         - name: 12 luglio 2021
           href: hr-whats-new-2021-07-12.md
         - name: 22 giugno 2021
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 21 gennaio 2021
           href: hr-whats-new-2021-01-21.md
-        - name: 2 dicembre 2020
-          href: hr-whats-new-2020-12-02.md
-        - name: 22 ottobre 2020
-          href: hr-whats-new-2020-10-22.md
-        - name: 6 ottobre 2020
-          href: hr-whats-new-2020-10-06.md
-        - name: 26 settembre 2020
-          href: hr-whats-new-2020-09-26.md
-        - name: 16 settembre 2020
-          href: hr-whats-new-2020-09-16.md
-        - name: 3 settembre 2020
-          href: hr-whats-new-2020-09-03.md
-        - name: 20 agosto 2020
-          href: hr-whats-new-2020-08-20.md
-        - name: 6 agosto 2020
-          href: hr-whats-new-2020-08-06.md
-        - name: 23 luglio 2020
-          href: hr-whats-new-2020-07-23.md
-        - name: 8 luglio 2020
-          href: hr-whats-new-2020-07-08.md
-        - name: 25 giugno 2020
-          href: hr-whats-new-2020-06-23.md
-        - name: 11 giugno 2020
-          href: hr-whats-new-2020-06-11.md
-        - name: 28 maggio 2020
-          href: hr-whats-new-2020-05-28.md
-        - name: 14 maggio 2020
-          href: hr-whats-new-2020-05-14.md
-        - name: 1 maggio 2020
-          href: hr-whats-new-2020-05-01.md
         - name: Archivi delle novità 2020
           items:
+            - name: 2 dicembre 2020
+              href: hr-whats-new-2020-12-02.md
+            - name: 22 ottobre 2020
+              href: hr-whats-new-2020-10-22.md
+            - name: 6 ottobre 2020
+              href: hr-whats-new-2020-10-06.md
+            - name: 26 settembre 2020
+              href: hr-whats-new-2020-09-26.md
+            - name: 16 settembre 2020
+              href: hr-whats-new-2020-09-16.md
+            - name: 3 settembre 2020
+              href: hr-whats-new-2020-09-03.md
+            - name: 20 agosto 2020
+              href: hr-whats-new-2020-08-20.md
+            - name: 6 agosto 2020
+              href: hr-whats-new-2020-08-06.md
+            - name: 23 luglio 2020
+              href: hr-whats-new-2020-07-23.md
+            - name: 8 luglio 2020
+              href: hr-whats-new-2020-07-08.md
+            - name: 25 giugno 2020
+              href: hr-whats-new-2020-06-23.md
+            - name: 11 giugno 2020
+              href: hr-whats-new-2020-06-11.md
+            - name: 28 maggio 2020
+              href: hr-whats-new-2020-05-28.md
+            - name: 14 maggio 2020
+              href: hr-whats-new-2020-05-14.md
+            - name: 1 maggio 2020
+              href: hr-whats-new-2020-05-01.md
             - name: 13 aprile 2020
               href: hr-whats-new-2020-04-13.md
             - name: 3 aprile 2020
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: Richiesta di congedo
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Entità correlate ai vantaggi
+              items:
+                - name: Piano di benefit lavoratore per retribuzioni
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: Set di opzioni
               items:
                 - name: Genere
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: Tipo di processo
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: Tipo di copertura del piano di benefit
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Stato del piano di benefit per dipendenti
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: Manuale dell'utente
       items:
         - name: Panoramica
