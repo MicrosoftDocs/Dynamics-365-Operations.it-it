@@ -2,7 +2,7 @@
 title: Domande frequenti sulla creazione di report finanziari
 description: In questo argomento vengono fornite alcune risposte alle domande frequenti sulla creazione di report finanziari.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733613"
 ---
 # <a name="financial-reporting-faq"></a>Domande frequenti sulla creazione di report finanziari
 
@@ -77,5 +77,29 @@ Il messaggio indica che si è verificato un problema quando il sistema ha tentat
 
 - Rivedere lo stato di integrazione dei dati andando su **Strumenti \> Stato di integrazione** in Report Designer. Se l'integrazione è incompleta, attendere che venga completata. Quindi ripetere l'operazione che si stava facendo quando è stato visualizzato il messaggio.
 - Contattare l'assistenza per identificare e risolvere il problema. È possibile che siano presenti dati incoerenti nel sistema. I tecnici dell'assistenza possono aiutare a identificare il problema sul server e a trovare i dati specifici che potrebbero richiedere un aggiornamento.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>In che modo la selezione della conversione del tasso storico influisce sulle prestazioni del report?
+
+Il tasso storico viene in genere utilizzato con utili non distribuiti, proprietà, impianti e attrezzature e conti capitale netto. Il tasso storico può essere richiesto in base alle linee guida del consiglio per gli standard di contabilità finanziaria (FASB, Financial Accounting Standards Board) o ai principi contabili generalmente accettati (GAAP, Generally Accepted Accounting Principles). Per ulteriori informazioni, vedere [Funzionalità di valuta nei report finanziari](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Quanti tipi di tasso di cambio esistono?
+
+Sono disponibili tre tipi:
+
+- **Tasso corrente**: questo tipo viene in genere utilizzato con i conti dello stato patrimoniale. Di solito è conosciuto come il *tasso di cambio corrente* e può essere il tasso dell'ultimo giorno del mese o di un'altra data prestabilita.
+- **Tasso medio**: questo tipo viene in genere utilizzato con i conti del conto economico (profitti/perdite). È possibile impostare il tasso medio per calcolare la media semplice o la media ponderata.
+- **Tasso storico**: questo tipo viene in genere utilizzato con utili non distribuiti, proprietà, impianti e attrezzature e conti capitale netto. Questi conti potrebbero essere richiesti in base alle linee guida FASB o GAAP.
+
+## <a name="how-does-historical-currency-translation-work"></a>Come funziona la conversione della valuta storica?
+
+I tassi sono specifici della data della transazione. Pertanto, ogni transazione viene convertita individualmente, in base al tasso di cambio più prossimo.
+
+Per la conversione della valuta storica è possibile utilizzare i saldi periodo precalcolati anziché i dettagli delle singole transazioni. Questo comportamento è diverso dal comportamento della conversione del tasso corrente.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>In che modo la conversione della valuta storica influisce sulle prestazioni?
+
+Quando i dati presentati nei report vengono aggiornati, potrebbe verificarsi un ritardo poiché gli importi devono essere ricalcolati controllando i dettagli della transazione. Questo ritardo viene attivato ogni volta che i tassi vengono aggiornati o vengono registrate altre transazioni. Ad esempio, se migliaia di conti sono impostati per la conversione storica un paio di volte al giorno, potrebbe verificarsi un ritardo fino a un'ora prima che i dati del report vengano aggiornati. Se invece c'è un numero contenuto di conti specifici, i tempi di elaborazione per gli aggiornamenti dei dati del report possono essere ridotti a pochi minuti.
+
+Allo stesso modo, quando i report vengono generati utilizzando la conversione di valuta per i conti di tipo storico, vengono effettuati calcoli aggiuntivi per ogni transazione. A seconda del numero di conti, il tempo di generazione dei report può più che raddoppiare.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
