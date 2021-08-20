@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740697"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -142,7 +142,7 @@ I seguenti tipi di ordine di lavoro sono attualmente supportati per i carichi di
 
 - Gestione ordini cliente
 - Uscita di trasferimento
-- Rifornimento
+- Rifornimento (escluse le materie prime per la produzione)
 - Movimento scorte
 - Conteggio ciclo
 - Ordini fornitore (collegati a ordini di magazzino)
@@ -298,6 +298,7 @@ La tabella seguente riepiloga gli scenari di gestione del magazzino attualmente 
 | Stoccaggio prodotti finiti e dichiarati finiti | Sì | Sì |
 | Stoccaggio co-prodotti e sottoprodotti | Sì | Sì |
 | <p>Tutti gli altri processi di gestione del magazzino correlati alla produzione, inclusi:</p><li>Rilascia in magazzino</li><li>Elaborazione di ciclo della produzione</li><li>Prelievo materie prime</li><li>Stoccaggio kanban</li><li>Prelievo kanban</li><li>Avvia ordine di produzione</li><li>Scarti di produzione</li><li>Ultimo pallet produzione</li><li>Registra consumo materiali</li><li>Svuota kanban</li></ul> | Sì | Nessuno |
+| Rifornimento di materie prime | Nessuno | Nessuno |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Gestione delle unità di scala per WES
 
