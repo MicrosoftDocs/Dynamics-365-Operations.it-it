@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641058"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773515"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.20 (agosto 2021)
 
@@ -47,7 +47,6 @@ Questa tabella elenca i miglioramenti delle funzionalità incluse in questa vers
 
 | Area funzionale | Nome della&nbsp;funzionalità&nbsp;nella gestione&nbsp;delle funzionalità | Ulteriori informazioni |
 |---|---|---|
-| Pianificazione generale | Giorni negativi per l'ottimizzazione della pianificazione | Questa funzionalità consente a Ottimizzazione pianificazione di considerare la tolleranza del ritardo basata sul parametro **Giorni negativi** definito in gruppi di copertura. |
 | Pianificazione generale | Autorizzazione parallela della previsione della domanda modificata | Questa funzionalità consente l'autorizzazione parallela della previsione della domanda rettificata dalla pagina **Previsione della domanda modificata**. Lo scopo di questa funzione è aumentare le prestazioni quando viene autorizzato un numero elevato di previsioni. Al momento dell'autorizzazione, l'utente può specificare il **Numero di thread** nella finestra di dialogo di autorizzazione. |
 | Pianificazione generale | (Anteprima) Stabilizzazione e consolidamento batch per ordini batch in blocco e di imballaggio pianificati | Questa funzionalità consente di utilizzare i processi batch per stabilizzare e consolidare gli ordini in blocco e di imballaggio pianificati. |
 | Controllo produzione | Copia cicli di lavorazione generici | Questa funzionalità migliora la funzione di copia del percorso per consentire agli utenti di copiare percorsi che non sono specifici dell'elemento. Consente al sistema di aggiornare tutte le informazioni rilevanti (come il sito, il gruppo di percorsi, i requisiti delle risorse e varie volte) dopo che la funzione di copia del percorso è stata utilizzata per sovrascrivere un percorso non ancora assegnato a un elemento. |
