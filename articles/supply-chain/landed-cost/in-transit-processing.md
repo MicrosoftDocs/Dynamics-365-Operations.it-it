@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021202"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744800"
 ---
 # <a name="goods-in-transit-processing"></a>Elaborazione merci in transito
 
@@ -104,6 +104,7 @@ Per utilizzare gli ordini merci in transito, selezionare **Costo sbarcato \> Att
 1. Aprire il viaggio, il contenitore o la registrazione.
 1. Nel riquadro azioni della scheda **Gestisci** del gruppo **Funzioni**, selezionare **Crea giornale di registrazione arrivi**.
 1. Nella finestra di dialogo **Crea giornale di registrazione arrivi**, impostare i seguenti valori:
+
     - **Inizializza quantità** - Impostare questa opzione su *Sì* per impostare la quantità in base alla quantità in transito. Se questa opzione è impostata su *No*, non viene impostata alcuna quantità predefinita in base alle righe merci in transito.
     - **Crea da merci in transito** - Impostare questa opzione su *Sì* per prelevare quantità dalle righe in transito selezionate per il viaggio, il contenitore o il folio selezionato.
     - **Crea da righe ordine** - Impostare questa opzione su *Sì* per impostare la quantità predefinita nel giornale di registrazione arrivi in base alle righe di ordine fornitore. La quantità predefinita nel giornale di registrazione arrivi può essere impostata in questo modo solo se la quantità nella riga di ordine fornitore corrisponde alla quantità nell'ordine merci in transito.
@@ -140,4 +141,21 @@ Costo sbarcato aggiunge un nuovo tipo di ordine di lavoro denominato *Merci in t
 
 ### <a name="work-templates"></a>Modelli di lavoro
 
+Questa sezione descrive le funzioni che il modulo **Costo di spedizione** aggiunge ai modelli di lavoro.
+
+#### <a name="goods-in-transit-work-order-type"></a>Tipo di ordine di lavoro Merce in transito
+
 Costo sbarcato aggiunge un nuovo tipo di ordine di lavoro denominato *Merci in transito* alla pagina **Modelli di lavoro**. Questo tipo di ordine di lavoro deve essere configurato allo stesso modo dei [modelli di lavoro di ordine fornitore](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Interruzioni intestazione lavoro
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+I modelli di lavoro che hanno un tipo di ordine di lavoro di *Merce in transito* possono essere configurati per dividere le intestazioni di lavoro. Nella pagina **Modelli di lavoro**, effettua una delle seguenti operazioni:
+
+- Nella scheda **Generale** per il modello, imposta i valori massimi dell'intestazione di lavoro. Questi valori massimi funzionano nello stesso modo in cui funzionano per i modelli di lavoro degli ordini fornitore. Per ulteriori informazioni, vedi [modelli di lavoro ordine fornitore](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+- Utilizza il pulsante **Suddivisioni intestazione lavoro** per definire il momento in cui il sistema deve creare nuove intestazioni di lavoro, in base ai campi usati per l'ordinamento. Ad esempio, per creare un'intestazione di lavoro per ogni ID contenitore, seleziona **Modifica query** nel riquadro azioni e quindi aggiungere il campo **ID contenitore** alla scheda **Ordinamento** dell'editor di query. I campi aggiunti alla scheda **Ordinamento** sono disponibili per la selezione come *campi di raggruppamento*. Per impostare i campi di raggruppamento, seleziona **Suddivisioni intestazione lavoro** nel riquadro azioni e quindi, per ogni campo da utilizzare come campo di raggruppamento, seleziona la casella di controllo nella colonna **Raggruppa per questo campo**.
+
+Il costo di spedizione [crea una transazione in eccesso](over-under-transactions.md) se la quantità registrata supera la quantità dell'ordine originale. Quando un'intestazione di lavoro è completata, il sistema aggiorna lo stato delle transazioni di inventario per la quantità dell'ordine entità. Tuttavia, aggiorna prima la quantità collegata alla transazione in eccesso dopo che l'entità è stata completamente acquistata.
+
+Se annulli un'intestazione di lavoro per una transazione in eccesso che è già stata registrata, la transazione in eccesso viene prima ridotta della quantità annullata. Dopo che la transazione in eccesso viene ridotta a una quantità pari a 0 (zero), il record viene rimosso e qualsiasi quantità aggiuntiva viene annullata rispetto alla quantità dell'ordine entità.
