@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773298"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introduzione alla Contabilità inventario globale
 
@@ -42,7 +42,7 @@ Contabilità inventario globale attualmente non supporta tutte le funzionalità 
 > [!IMPORTANT]
 > Per utilizzare Contabilità inventario globale, è necessario disporre di un ambiente ad alta disponibilità abilitato per LCS (non un ambiente OneBox). Inoltre, è necessario eseguire Supply Chain Management versione 10.0.19 o successiva.
 
-Per iscriverti all'anteprima pubblica di Contabilità inventario globale, invia il tuo ID ambiente LCS via e-mail al [Team di Contabilità inventario globale](mailto:GlobalInventoryAccounting@service.microsoft.com). Dopo che sei stato approvato per il programma, il team ti invierà un'e-mail di follow-up che contiene una chiave beta di Contabilità inventario globale e gli endpoint del servizio. Dopo aver ricevuto la chiave beta, puoi [installare il componente aggiuntivo](#install).
+Per iscriverti all'anteprima pubblica di Contabilità inventario globale, invia il tuo ID ambiente LCS via e-mail al [Team di Contabilità inventario globale](mailto:GlobalInvAccount@microsoft.com). Dopo che sei stato approvato per il programma, il team ti invierà un'e-mail di follow-up che contiene una chiave beta di Contabilità inventario globale e gli endpoint del servizio. Dopo aver ricevuto la chiave beta, puoi [installare il componente aggiuntivo](#install).
 
 ## <a name="licensing"></a>Licenze
 
