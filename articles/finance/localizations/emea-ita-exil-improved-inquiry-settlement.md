@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7c8683160bb8bcc9f546cbeda021d39e000a0777
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8bf49610f2e9d4a7c322704340ae83160e9e469fd24c93c1a11809563c2859e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348450"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780803"
 ---
 # <a name="improved-inquiry-on-debitcredit-settlement"></a>Richiesta di informazioni migliorata sulla liquidazione dare/avere
 

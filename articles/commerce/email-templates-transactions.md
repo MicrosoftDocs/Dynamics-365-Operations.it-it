@@ -2,7 +2,7 @@
 title: Crea modelli e-mail per eventi transazionali
 description: Questo argomento descrive come creare, caricare e configurare modelli e-mail per eventi transazionali in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718709"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Creare modelli e-mail per eventi transazionali
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come creare, caricare e configurare modelli e-mail per eventi transazionali in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Dynamics 365 Commerce fornisce una soluzione pronta all'uso per l'invio di e-mail che avvisano i clienti sugli eventi transazionali (ad esempio, quando viene effettuato un ordine, un ordine è pronto per il ritiro o un ordine è stato spedito). Questo argomento descrive i passaggi per la creazione, il caricamento e la configurazione dei modelli e-mail utilizzati per inviare e-mail transazionali.
 
@@ -79,26 +77,33 @@ I seguenti segnaposto recuperano e mostrano i dati definiti a livello di ordine 
 | Nome segnaposto     | Valore segnaposto                                            |
 | -------------------- | ------------------------------------------------------------ |
 | customername         | Il nome del cliente che ha emesso l'ordine.               |
-| salesid              | L'ID delle vendite dell'ordine.                                   |
-| deliveryaddress      | L'indirizzo di consegna per gli ordini spediti.                     |
 | customeraddress      | L'indirizzo del cliente.                                 |
 | customeremailaddress | L'indirizzo e-mail che il cliente ha inserito al momento del pagamento.     |
+| salesid              | L'ID delle vendite dell'ordine.                                   |
+| orderconfirmationid  | ID multicanale generato durante la creazione dell'ordine. |
+| channelid            | ID del canale di vendita al dettaglio o online attraverso il quale è stato effettuato l'ordine. |
+| deliveryname         | Nome specificato per l'indirizzo di consegna.        |
+| deliveryaddress      | L'indirizzo di consegna per gli ordini spediti.                     |
 | deliverydate         | La data di consegna.                                           |
 | shipdate             | La data di spedizione.                                               |
 | modeofdelivery       | La modalità di consegna dell'ordine.                              |
+| ordernetamount       | L'importo totale per l'ordine, meno l'imposta totale.         |
+| sconto             | Lo sconto totale per l'ordine.                            |
 | spese              | Le spese totali per l'ordine.                             |
 | imposta                  | L'imposta totale per l'ordine.                                 |
 | totale                | L'importo totale per l'ordine.                              |
-| ordernetamount       | L'importo totale per l'ordine, meno l'imposta totale.         |
-| sconto             | Lo sconto totale per l'ordine.                            |
 | storename            | Il nome del negozio dove è stato effettuato l'ordine.            |
 | storeaddress         | L'indirizzo del negozio dove è stato effettuato l'ordine.              |
 | storeopenfrom        | L'orario di apertura del negozio dove è stato effettuato l'ordine.         |
 | storeopento          | L'orario di chiusura del negozio dove è stato effettuato l'ordine.         |
-| pickupstorename      | Il nome del negozio in cui verrà ritirato l'ordine.     |
-| pickupstoreaddress   | L'indirizzo del negozio in cui verrà ritirato l'ordine.  |
-| pickupopenstorefrom  | L'orario di apertura del negozio in cui verrà ritirato l'ordine. |
-| pickupopenstoreto    | L'orario di chiusura del negozio in cui verrà ritirato l'ordine. |
+| pickupstorename      | Il nome del negozio in cui verrà ritirato l'ordine.\* |
+| pickupstoreaddress   | L'indirizzo del negozio in cui verrà ritirato l'ordine.\* |
+| pickupopenstorefrom  | L'orario di apertura del negozio in cui verrà ritirato l'ordine.\* |
+| pickupopenstoreto    | L'orario di chiusura del negozio in cui verrà ritirato l'ordine.\* |
+| pickupchannelid      | ID canale del punto vendita specificato per una modalità di consegna con ritiro.\* |
+| packingslipid        | ID del documento di trasporto generato quando le righe di un ordine sono state imballate.\* |
+
+\* Questi segnaposto restituiscono i dati solo quando vengono utilizzati per il tipo di modifica **Ordine pronto per il ritiro**. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Segnaposti righe ordini (livello riga cliente)
 
@@ -106,7 +111,10 @@ I seguenti segnaposti recuperano e mostrano i dati per i singoli prodotti (righe
 
 | Nome segnaposto               | Valore segnaposto |
 |--------------------------------|-------------------|
-| productid                      | L'ID prodotto per la riga. |
+| productid                      | <p>ID del prodotto. Questo ID tiene conto delle varianti.</p><p><strong>Nota:</strong> questo segnaposto è stato deprecato a favore di **lineproductrecid**.</p> |
+| lineproductrecid               | ID del prodotto. Questo ID tiene conto delle varianti. Identifica in modo univoco un articolo a livello di variante. |
+| lineitemid                     | ID del prodotto (questo ID non tiene conto delle varianti). |
+| lineproductvariantid           | ID della variante prodotto. |
 | lineproductname                | Nome del prodotto. |
 | lineproductdescription         | La descrizione del prodotto. |
 | linequantity                   | Il numero di unità che sono state ordinate per la riga, più l'unità di misura (ad esempio, **unità** o **coppia**). |
@@ -125,6 +133,8 @@ I seguenti segnaposti recuperano e mostrano i dati per i singoli prodotti (righe
 | linedeliverydate               | La data di consegna della riga. |
 | linedeliverymode               | La modalità di consegna della riga. |
 | linedeliveryaddress            | L'indirizzo di consegna della riga. |
+| linepickupdate                 | La data di ritiro specificata dal cliente per gli ordini che utilizzano una modalità di consegna con ritiro. |
+| linepickuptimeslot             | L'intervallo di tempo di ritiro specificato dal cliente per gli ordini che utilizzano una modalità di consegna con ritiro. |
 | giftcardnumber                 | Il numero della carta regalo, per i prodotti del tipo di carta regalo. |
 | giftcardbalance                | Il saldo della carta regalo, per i prodotti del tipo di carta regalo. |
 | giftcardmessage                | Il messaggio della carta regalo, per i prodotti del tipo di carta regalo. |

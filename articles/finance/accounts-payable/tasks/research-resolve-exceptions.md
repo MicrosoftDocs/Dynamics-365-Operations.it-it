@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: abc8dc112ab577ddcbd208f898a8d4e487bc2998
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d35504ab2fe6b8143d040bda505a904ab179b6137472073d788515f392faaef9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827772"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722889"
 ---
 # <a name="research-or-resolve-exceptions"></a>Cercare o risolvere eccezioni
 
@@ -62,7 +62,7 @@ Questa registrazione utilizza la società dimostrativa USMF. Il ruolo di respons
 3. Digitare un valore nel campo Nome.
 4. Nel campo Descrizione digitare un valore.
 5. Espandere o comprimere la sezione Organizzazioni criteri.
-6. Nella struttura selezionare "Contoso Entertainment Systems USA"
+6. Nella struttura selezionare "Contoso Entertainment Systems USA".
 7. Scegliere Aggiungi.
 8. Espandere o comprimere la sezione Regole dei criteri.
 9. Fare clic su Crea regola dei criteri.

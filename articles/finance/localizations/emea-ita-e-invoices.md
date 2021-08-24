@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: ''
 ms.search.region: Italy
 ms.author: v-oloski
-ms.openlocfilehash: e4e7a9fd43e51ce4a228b4d94a4c68c28dcff34c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 437fe9a2d6d4430778a6aea7d29817a52004f26f97fe006ebee261109b7da80f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748933"
 ---
 # <a name="customer-electronic-invoices"></a>Fatture elettroniche dei clienti
 

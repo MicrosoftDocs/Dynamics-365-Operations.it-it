@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 988ea4267195566da9a2d13b4e026004ef5e722d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 074a889ed68621da6bb6050dbcb2eb9e453b28e21634c5384c82c9c3e4e4205b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740867"
 ---
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 

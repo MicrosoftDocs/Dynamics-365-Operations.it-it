@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 857d3a224f35c4eeedbf4913aea14011091d5466
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e810badf9b43a3b0e57390b05247113021e26b6a0242cf29022274307c5fd56
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771802"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Creare un giornale di registrazione annullamento per un cliente
 
@@ -77,7 +77,7 @@ Questa guida attività indicherà come impostare i parametri per gli annullament
 1. Andare a **Contabilità clienti > Clienti > Tutti i clienti**.
 2. Selezionare un account cliente. Ad esempio, selezionare US-001 (Contoso Retail San Diego).
 3. Nel **riquadro azioni** fare clic su **Raccolta**.
-4. Fare clic su **Annulla**.
+4. Fare clic su **Annullare**.
 5. Fare clic su **OK**.
 6. Chiudere la pagina.
 

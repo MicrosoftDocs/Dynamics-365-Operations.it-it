@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 11b75a3dd93f1b5037597def5b7a9e2d557356cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 23794fd0c47bcefe6689168e6582ec32401f0b222a9dd91c27cd5c84d55cd987
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721707"
 ---
 # <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 

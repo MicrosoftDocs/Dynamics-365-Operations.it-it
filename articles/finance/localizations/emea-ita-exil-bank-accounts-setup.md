@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5adabb19bdc58cbf89a796205394d672f5879885
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 51c12264b0e2ce94498cac681ae53c2af8bb734324d1a2df38b0896917ed6bdb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348458"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765011"
 ---
 # <a name="bank-data-usability-enhancement"></a>Miglioramento dell'usabilità dei dati bancari
 

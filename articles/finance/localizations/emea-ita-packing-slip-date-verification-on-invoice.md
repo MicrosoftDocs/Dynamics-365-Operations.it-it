@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 45ab9506aa6241928830f35decd9592e93c5c480
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 447b4ffe857d16d18884d7be534eea2183a3cecdfe16b0491c10ef06ce5700fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742139"
 ---
 # <a name="packing-slip-date-verification-on-invoices-for-italy"></a>Verifica della data del documento di trasporto nelle fatture per l'Italia
 

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 8de72b91d9ae100918fdc49a0fc001ec42fc08ef
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bdfbdd6313ec29ff20c914817f88989b0ce7596474aeb661b4925e50b012def6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722014"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
@@ -77,7 +77,7 @@ Gli scenari seguenti sono coperti dall'esempio di integrazione di stampante fisc
 
 ### <a name="default-data-mapping"></a>Mapping dei dati predefiniti
 
-Il mapping dei dati predefiniti seguente è incluso nella configurazione di fornitore di documenti fiscali fornita nell'esempio di integrazione fiscale:
+Il mapping dei dati predefiniti seguente è incluso nella configurazione di provider di documenti fiscali fornita nell'esempio di integrazione fiscale:
 
 - Mapping delle aliquote IVA:
 
@@ -183,9 +183,9 @@ I componenti dell'estensione stazione hardware sono inclusi in Retail SDK. Per c
 Per abilitare il processo di registrazione, seguire questi passaggi per configurare Headquarters: Per ulteriori informazioni, vedere [Configurare un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
 1. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Connettori fiscali**. Importare la configurazione da **RetailSdk\\SampleExtensions\\HardwareStation\\Entension.EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml**.
-2. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Fornitori di documenti fiscali**. Importare la configurazione da **RetailSdk\\SampleExtensions\\CommerceRuntime\\Entension.DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml**.
+2. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Provider di documenti fiscali**. Importare la configurazione da **RetailSdk\\SampleExtensions\\CommerceRuntime\\Entension.DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml**.
 3. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili tecnici del connettore**. Creare un nuovo profilo e selezionare il connettore caricato nel passaggio precedente. Aggiornare le impostazioni di connessione se un aggiornamento è necessario.
-4. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili funzionali del connettore**. Creare un nuovo profilo e selezionare il connettore e il fornitore di documenti caricati nei passaggi precedenti. Aggiornare le impostazioni di mapping dei dati se un aggiornamento è necessario.
+4. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili funzionali del connettore**. Creare un nuovo profilo e selezionare il connettore e il provider di documenti caricati nei passaggi precedenti. Aggiornare le impostazioni di mapping dei dati se un aggiornamento è necessario.
 5. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Gruppo funzionale di connettori**. Creare un nuovo gruppo e selezionare il profilo funzionale del connettore del passaggio precedente.
 6. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processo di registrazione**. Creare un nuovo processo e selezionare il gruppo funzionale di connettori del passaggio precedente.
 7. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Profili POS \> Profili funzionalità**. Aprire il profilo funzionalità collegato al punto vendita in cui il processo di registrazione deve essere attivato. Nella scheda Dettaglio **Processo di registrazione fiscale**, selezionare il processo di registrazione creato nel precedentemente.
@@ -232,7 +232,7 @@ Attenersi alla procedura seguente per creare pacchetti distribuibili contenenti 
 
 ### <a name="commerce-runtime-extension-design"></a>Progettazione dell'estensione di Commerce Runtime
 
-Lo scopo dell'estensione (fornitore di documenti) è di generare documenti specifici per la stampante e di gestire le risposte dalla stampante fiscale.
+Lo scopo dell'estensione (provider di documenti) è di generare documenti specifici per la stampante e di gestire le risposte dalla stampante fiscale.
 
 L'estensione di Commerce Runtime è **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample**.
 
@@ -242,7 +242,7 @@ Per ulteriori informazioni sulla progettazione della soluzione di integrazione f
     
 Il gestore richieste **DocumentProviderEpsonFP90III** è il punto di ingresso per la richiesta di generare documenti dalla stampante fiscale.
 
-Il gestore viene ereditato dall'interfaccia **INamedRequestHandler**. Il metodo **HandlerName** è responsabile della restituzione del nome del gestore. Il nome del gestore deve corrispondere al nome del fornitore di documenti del connettore specificato in Headquarters.
+Il gestore viene ereditato dall'interfaccia **INamedRequestHandler**. Il metodo **HandlerName** è responsabile della restituzione del nome del gestore. Il nome del gestore deve corrispondere al nome del provider di documenti del connettore specificato in Headquarters.
 
 Il connettore supporta le seguenti richieste:
 
@@ -251,7 +251,7 @@ Il connettore supporta le seguenti richieste:
 
 #### <a name="configuration"></a>Configurazione
 
-Il file di configurazione si trova nella cartella **Configuration** del progetto di estensione. Lo scopo del file è di consentire la configurazione delle impostazioni per il fornitore di documenti da Headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale. Vengono aggiunte le seguenti impostazioni:
+Il file di configurazione si trova nella cartella **Configuration** del progetto di estensione. Lo scopo del file è di consentire la configurazione delle impostazioni per il provider di documenti da Headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale. Vengono aggiunte le seguenti impostazioni:
 
 - Mapping codici IVA
 - Mapping aliquote IVA

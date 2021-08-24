@@ -2,7 +2,7 @@
 title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità della griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775244"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
@@ -158,6 +158,13 @@ Se l'organizzazione rileva una pagina che presenta alcuni problemi durante l'uti
  ```this.forceLegacyGrid();```
 
 Questa API verrà rispettata fino alla versione di ottobre 2021 quando il nuovo controllo della griglia diventa obbligatorio. Se qualsiasi problema richiede l'utilizzo di questa API, segnalalo a Microsoft.
+
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forzare una pagina a utilizzare la nuova griglia dopo aver precedentemente disattivato la griglia
+Se hai disattivato l'utilizzo della nuova griglia per una singola pagina, potresti voler riattivare in seguito la nuova griglia dopo che i problemi sottostanti sono stati risolti. Per fare ciò, devi semplicemente rimuovere la chiamata a `forceLegacyGrid()`. La modifica non avrà effetto fino a quando non si verifica una delle seguenti condizioni:
+
+- **Ridistribuzione dell'ambiente**: quando un ambiente viene aggiornato e ridistribuito, la tabella che archivia le pagine che sono state escluse dalla nuova griglia (FormControlReactGridState) viene cancellata automaticamente.
+
+- **Svuotamento manuale della tabella**: per gli scenari di sviluppo, sarà necessario utilizzare SQL per cancellare la tabella FormControlReactGridState e quindi riavviare Microsoft Dynamics AX Application Object Server (AOS). Questa combinazione di azioni ripristinerà la memorizzazione nella cache delle pagine che sono state escluse dalla nuova griglia.  
 
 ## <a name="developer-size-to-available-width-columns"></a>[Sviluppatore] Colonne dalla dimensione alla larghezza disponibile
 Se uno sviluppatore imposta la proprietà **WidthMode** su **SizeToAvailable** per le colonne all'interno della nuova griglia, tali colonne hanno inizialmente la stessa larghezza che avrebbero se la proprietà fosse impostata su **SizeToContent**. Tuttavia, si allungano per utilizzare qualsiasi larghezza extra disponibile all'interno della griglia. Se la proprietà è impostata su **SizeToAvailable** per più colonne, tutte queste colonne condividono qualsiasi larghezza extra disponibile all'interno della griglia. Tuttavia, se un utente ridimensiona manualmente una di queste colonne, la colonna diventa statica. Rimarrà a quella larghezza e non si allungherà più per occupare la larghezza della griglia disponibile in più.  

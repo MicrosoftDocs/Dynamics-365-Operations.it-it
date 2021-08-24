@@ -2,7 +2,7 @@
 title: Tipo di destinazione posta elettronica ER
 description: Questo argomento spiega come configurare una destinazione e-mail per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 12/03/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347998"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769321"
 ---
 # <a name="email-er-destination-type"></a>Tipo di destinazione posta elettronica ER
 
@@ -42,23 +42,43 @@ Quando viene eseguito un formato di reporting elettronico (ER), è possibile gen
 
 È possibile configurare più gruppi di componenti per una singola configurazione del formato ER. In questo modo, puoi configurare una destinazione e-mail per ogni gruppo di componenti e una destinazione e-mail per ogni componente.
 
-## <a name="configure-an-email-destination"></a>Configurare una destinazione e-mail
+## <a name="enable-an-email-destination"></a>Abilitare una destinazione posta elettronica
 
-Per inviare un file di output o diversi file di output tramite e-mail, nella pagina **Destinazione di segnalazione elettronica**, nella scheda dettaglio **Destinazione del file**, selezionare un componente o un gruppo di componenti nella griglia, quindi selezionare **Impostazioni**. Nella finestra di dialogo **Impostazioni di destinazione** che appare, nella scheda **E-mail**, impostare l'opzione **Abilitato** per **Sì**. È possibile specificare i destinatari del messaggio di posta elettronica e modificare l'oggetto e il corpo del messaggio. È possibile impostare testo costante per l'oggetto e il corpo del messaggio di posta elettronica oppure utilizzare le [formule](er-formula-language.md) ER per creare in modo dinamico i testi del messaggio di posta elettronica.
+Per inviare uno o più file di output tramite e-mail, segui questi passaggi.
 
-È possibile configurare gli indirizzi di posta elettronica per ER in due modi. La configurazione può essere completata come avviene con la funzionalità Gestione stampa oppure è possibile risolvere un indirizzo di posta elettronica utilizzando un riferimento diretto alla configurazione ER mediante una formula.
+1. Nella pagina **Destinazione report elettronici**, nella Scheda dettaglio **Destinazione file**, seleziona un componente o un gruppo di componenti nella griglia.
+2. Seleziona **Impostazioni** e quindi nella finestra di dialogo **Impostazioni destinazione**, nella scheda **E-mail**, imposta l'opzione **Abilitato** su **Sì**.
 
 [![Impostare l'opzione Abilitato su Sì per una destinazione di posta elettronica.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
+## <a name="configure-an-email-destination"></a>Configurare una destinazione e-mail
+
+Puoi specificare il mittente e i destinatari del messaggio e-mail e puoi modificare l'oggetto e il corpo del messaggio. Puoi impostare testo costante per l'oggetto e il corpo del messaggio e-mail oppure utilizzare le [formule](er-formula-language.md) ER per creare in modo dinamico i testi del messaggio e-mail.
+
+Per impostazione predefinita, un messaggio e-mail viene inviato per conto dell'utente corrente. Per specificare un mittente differente, devi configurare il campo **Da**.
+
+> [!NOTE]
+> Quando viene configurata una destinazione di posta elettronica, il campo **Da** è visibile solo agli utenti che hanno il privilegio di sicurezza `ERFormatDestinationSenderEmailConfigure`, **Configura l'indirizzo e-mail del mittente per le destinazioni in formato ER**.
+>
+> Quando una destinazione di posta elettronica viene proposta per la modifica al [runtime](electronic-reporting-destinations.md#security-considerations), il campo **Da** è visibile solo agli utenti che hanno il privilegio di sicurezza `ERFormatDestinationSenderEmailMaintain`, **Mantieni l'indirizzo e-mail del mittente per la destinazione in formato ER**.
+>
+> Quando il campo **Da** è configurato per utilizzare un indirizzo e-mail diverso da quello dell'utente corrente, l'autorizzazione **Invia come** o **Invia per conto di** deve essere [impostata](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) correttamente in anticipo. In caso contrario, viene generata la seguente eccezione al runtime: "Impossibile inviare e-mail come \<from email account\> dall'account \<current user account\>. Controlla le autorizzazioni "Invia come" in \<from email account\>."
+
+Puoi configurare il campo **Da** per restituire più di un indirizzo email. In questo caso, il primo indirizzo nell'elenco viene utilizzato come indirizzo del mittente.
+
+Per specificare i destinatari del messaggio e-mail, devi configurare i campi (facoltativi) **A** e **Cc**.
+
+È possibile configurare gli indirizzi di posta elettronica per ER in due modi. La configurazione può essere completata come avviene con la funzionalità Gestione stampa oppure è possibile risolvere un indirizzo di posta elettronica utilizzando un riferimento diretto alla configurazione ER mediante una formula.
+
 ## <a name="email-address-types"></a>Tipi di indirizzo di posta elettronica
 
-Se si seleziona **Modifica** accanto al campo **A** o **Cc** nella finestra di dialogo **Impostazioni destinazione**, viene visualizzata la finestra di dialogo **Destinatario messaggio di posta elettronica**. Selezionare **Aggiungi** e quindi selezionare il tipo di indirizzo di posta elettronica da utilizzare. Due tipi sono attualmente supportati: **Gestione stampa posta elettronica** e **Posta elettronica configurazione**.
+Se si seleziona **Modifica** accanto al campo **Da**, **A** o **Cc** nella finestra di dialogo **Impostazioni destinazione**, viene visualizzata la finestra di dialogo **Mittente messaggio di posta elettronica**, **Destinatario messaggio di posta elettronica** o **Cc messaggio di posta elettronica**. In quella finestra di dialogo puoi configurare il mittente dell'e-mail e i destinatari dell'e-mail. Selezionare **Aggiungi** e quindi selezionare il tipo di indirizzo di posta elettronica da utilizzare. Due tipi sono attualmente supportati: **Gestione stampa posta elettronica** e **Posta elettronica configurazione**.
 
 [![Selezione del tipo di indirizzo e-mail.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Gestione stampa posta elettronica
 
-Se si seleziona **Gestione stampa posta elettronica** come tipo di indirizzo di posta elettronica, è possibile immettere indirizzi di posta elettronica fissi nella finestra di dialogo **Destinatario messaggio di posta elettronica** impostando i seguenti campi:
+Se selezioni **Gestione stampa posta elettronica** come tipo di indirizzo di posta elettronica, puoi immettere indirizzi di posta elettronica fissi nella finestra di dialogo **Mittente messaggio di posta elettronica**, **Destinatario messaggio di posta elettronica** o **Cc messaggio di posta elettronica** impostando i seguenti campi:
 
 - Nel campo **Origine posta elettronica**, selezionare **Nessuna**.
 - Nel campo **Indirizzi di posta elettronica aggiuntivi, separati da ";"**, immettere gli indirizzi di posta elettronica fissi.
@@ -74,6 +94,7 @@ In alternativa, è possibile ottenere indirizzi di posta elettronica dai dettagl
 - Richiedente
 - Fornitore potenziale
 - Fornitore non autorizzato
+- Persona giuridica
 
 Ad esempio, per configurare una destinazione di posta elettronica per un formato ER utilizzato per elaborare i pagamenti del fornitore, selezionare il ruolo **Fornitore**.
 
@@ -106,7 +127,7 @@ Per specificare il tipo di indirizzi di posta elettronica da utilizzare in fase 
 
 ### <a name="configuration-email"></a>Posta elettronica configurazione
 
-Selezionare **Posta elettronica configurazione** come tipo di indirizzo di posta elettronica se la configurazione utilizzata ha un nodo nelle origini dati che restituisce un singolo indirizzo di posta elettronica o più indirizzi di posta elettronica separati da punto e virgola (;). È possibile usare [origini dati](general-electronic-reporting.md#FormatComponentOutbound) e [funzioni](er-formula-language.md#functions) nella designer formula per ottenere un indirizzo di posta elettronica formattato correttamente o indirizzi di posta elettronica formattati correttamente separati da punto e virgola. Ad esempio, se si utilizza la configurazione **bonifico ISO 20022**, il nodo che rappresenta l'indirizzo di posta elettronica principale di un fornitore dai dettagli di contatto del fornitore a cui deve essere inviata la lettera di presentazione è `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Selezionare **Posta elettronica configurazione** come tipo di indirizzo di posta elettronica se la configurazione utilizzata ha un nodo nelle origini dati che restituisce un singolo indirizzo di posta elettronica o più indirizzi di posta elettronica separati da punto e virgola (;). È possibile usare [origini dati](general-electronic-reporting.md#FormatComponentOutbound) e [funzioni](er-formula-language.md#Functions) nella designer formula per ottenere un indirizzo di posta elettronica formattato correttamente o indirizzi di posta elettronica formattati correttamente separati da punto e virgola. Ad esempio, se si utilizza la configurazione **bonifico ISO 20022**, il nodo che rappresenta l'indirizzo di posta elettronica principale di un fornitore dai dettagli di contatto del fornitore a cui deve essere inviata la lettera di presentazione è `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
 [![Configurazione dell'origine dell'indirizzo e-mail.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

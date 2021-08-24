@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: d2d37a58c01a7307fa10bd1d00455c9fd7cebfd7
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a664a31b18c1943f668762722061bc2b72060b1a6e5a4829a6486807b4585643
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894730"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764220"
 ---
 # <a name="posting-invoices-with-zero-amount"></a>Registrazione fatture con importo zero
 

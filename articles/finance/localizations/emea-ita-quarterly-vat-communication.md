@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
 ms.author: elgolu
-ms.openlocfilehash: ec8fb667d73934df11dd32fe0fc605922fea1b66
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2ea1dfb30e140b9ade37aefeaee6c85c9b527ab1be34d047b411e8be5c52de2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760647"
 ---
 # <a name="quarterly-vat-communication-report"></a>Report di comunicazione IVA trimestrale
 

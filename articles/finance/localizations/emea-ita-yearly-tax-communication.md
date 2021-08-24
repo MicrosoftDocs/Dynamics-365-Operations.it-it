@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 849b18deaec84a1acdc5dad0973da216f9caaeb7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6ca4197e6dcea769b4344aa0627247d95bb11e1c115f3da9385730b8f193ef22
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348436"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763072"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 

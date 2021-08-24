@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0ef3c63a2ad80e40f6983aef05c2011b9833caad
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ee224b8acea21265dfac316b38079a68a6dcb132350901e493b1b22665c76048
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750303"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 

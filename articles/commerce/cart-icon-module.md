@@ -2,7 +2,7 @@
 title: Modulo Icona carrello
 description: In questo argomento viene descritto il modulo Icona carrello e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9e3850d98e716d1bbea2017f6e8c9d75f19adc9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735680"
 ---
 # <a name="cart-icon-module"></a>Modulo icona carrello
 
@@ -35,9 +35,14 @@ L'immagine seguente mostra un esempio di un modulo Icona carrello che visualizza
 
 ## <a name="module-properties"></a>Proprietà del modulo
 
-- **Mostra mini carrello** - Se impostata su vero, questa proprietà consente di visualizzare un riepilogo del carrello (mini carrello) quando si passa con il mouse sull'icona del carrello. Questa funzionalità è supportata solo per le porte di visualizzazione desktop.
+- **Mostra mini carrello**: quando questa proprietà è impostata su **Vero** e gli utenti passano con il mouse sull'icona del carrello, viene visualizzato un riepilogo del carrello (mini carrello). Questa funzionalità è supportata solo per le porte di visualizzazione desktop.
+- **Consenti checkout anonimo**: quando questa proprietà è impostata su **Vero**, il mini carrello consente agli utenti che non hanno effettuato l'accesso di effettuare un checkout come guest. Questa proprietà è disponibile nella versione 10.0.21 di Commerce come elemento del pacchetto della libreria di moduli di Commerce.
+- **Ordine degli articoli**: questa proprietà controlla l'ordine in cui gli articoli sono visualizzati nel mini carrello. Quando l'opzione **Nuovi articoli aggiunti all'inizio dell'elenco** è selezionata, i nuovi articoli aggiunti al carrello sono visualizzati all'inizio dell'elenco degli articoli del mini carrello. Quando l'opzione predefinita, ovvero **Nuovi articoli aggiunti alla fine dell'elenco** è selezionata, i nuovi articoli aggiunti al carrello sono visualizzati alla fine dell'elenco degli articoli del mini carrello. Questa proprietà è disponibile a partire dalla versione 10.0.21 di Commerce come elemento del pacchetto della libreria di moduli di Commerce.
 
-## <a name="module-properties-in-the-adventure-works-theme"></a>Proprietà del modulo nel tema Adventure Works
+> [!IMPORTANT]
+> Le proprietà **Consenti checkout anonimo** e **Ordine degli articoli** sono disponibili a partire dalla versione Commerce 10.0.21. Richiedono che sia installata la versione 9.31 del pacchetto della libreria di moduli di Commerce.
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Proprietà del modulo e slot nel tema Adventure Works
 
 Nel tema Adventure Works il modulo Icona carrello include due slot aggiuntivi per il mini carrello. Questi slot sono inclusi come estensione della definizione del modulo.
 

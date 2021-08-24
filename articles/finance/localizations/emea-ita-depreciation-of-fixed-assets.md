@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9d666d255ae51d4eeb2bcdf26e5dac0f419d03db
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7edbb4ca1176cc2c3fd231a9102b758fe5602f8e890dac19d011f77b086dd61c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814952"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780805"
 ---
 # <a name="manual-depreciation-of-fixed-assets-for-italy"></a>Ammortamento manuale dei cespiti per l'Italia
 

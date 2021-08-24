@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c088f6e3fea7c218cfd2108d0f279bccf1292772
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 339f52727b6f5a680f711cf4e6e0b8b0bc290853316fc2f2ff63164c8292d2d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728843"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Impostare criteri di fatture fornitore
 
@@ -57,7 +57,7 @@ In questo argomento viene spiegato come impostare i criteri di fatture fornitore
 3. Immettere valori nei campi **Nome** e **Descrizione**.
 4. Espandere o comprimere la sezione **Organizzazioni criteri**.
 5. Nella struttura selezionare **Contoso Entertainment Systems USA**.
-6. Selezionare **Aggiungi**.
+6. Seleziona **Aggiungi**.
 7. Espandere o comprimere la sezione **Regole dei criteri**.
 8. Selezionare **Crea regola dei criteri**.
 9. Nel campo **Descrizione regola dei criteri**, immettere un valore.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740841"
 ---
 # <a name="copy-an-instance"></a>Copiare un'istanza
 
@@ -52,9 +52,9 @@ I seguenti eventi si verificano quando si copia un database di Human Resources:
 
 - I documenti nell'archivio Blob di Microsoft Azure non vengono copiati da un ambiente all'altro. Di conseguenza, tutti i documenti e i modelli allegati non verranno copiati e rimarranno nell'ambiente di origine.
 
-- Tutti gli utenti tranne l'utente amministratore e altri account utente del servizio interno non saranno disponibili. L'utente amministratore può eliminare o offuscare i dati prima di autorizzare altri utenti nel sistema.
+- Tutti gli utenti eccetto quelli con il ruolo di sicurezza "Amministratore sistema" e altri account utente del servizio interno saranno disponibili. L'utente amministratore può eliminare o offuscare i dati prima di autorizzare altri utenti nel sistema.
 
-- L'utente amministratore deve apportare le modifiche alla configurazione necessarie, come la riconnessione di endpoint di integrazione a servizi o URL specifici.
+- Qualsiasi utente con il ruolo di sicurezza "Amministratore sistema" deve apportare le modifiche necessarie alla configurazione, come la riconnessione di endpoint di integrazione a servizi o URL specifici.
 
 ## <a name="copy-the-human-resources-database"></a>Copiare il database di Human Resources
 
@@ -71,7 +71,7 @@ Per completare questa attività, innanzi tutto copiare un'istanza, quindi accede
 
 4. Nel riquadro attività **Copia un'istanza**, selezionare l'istanza da sovrascrivere, quindi selezionare **Copia**. Attendere che il valore di **Stato copia** diventi **Completata**.
 
-   ![Selezionare l'istanza da sovrascrivere.](./media/copy-instance-select-target-instance.png](./media/copy-instance-select-target-instance.png)
+   ![[Selezionare l'istanza da sovrascrivere.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Selezionare **Power Platform** e accedere all'interfaccia di amministrazione di Microsoft Power Platform.
 
@@ -111,7 +111,7 @@ Alcuni di questi elementi non vengono copiati perché sono specifici dell'ambien
 
 Inoltre, i seguenti stati cambiano quando si copia un'istanza:
 
-- Tutti gli utenti tranne l'utente amministratore sono impostati su **Disabilitato**.
+- Tutti gli utenti tranne quelli con il ruolo di sicurezza "Amministratore sistema" sono impostati su **Disabilitato**.
 
 - Tutti i processi batch, ad eccezione di alcuni processi di sistema, sono impostati su **Trattenuto**.
 

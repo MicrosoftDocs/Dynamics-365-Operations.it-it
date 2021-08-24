@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: mrolecki
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c4f7dbe6a70d00ced75ca8fa575473086f7c60ba
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 74cf5d69778b67f9f5a345bc4e0cb2eb6634e9fad46c549174c105213fad6e05
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781687"
 ---
 # <a name="tax-invoice-for-goods-delivered-for-free"></a>Fattura fiscale per le merci consegnate gratuitamente
 

@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d30d8fe5345117ba016ca14a54a176209ec54be0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a8f006c853829f0edfef53a78f21e5516859fb47ee1f2e37de964a0dfc5d692f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348438"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748123"
 ---
 # <a name="tax-plafond"></a>Plafond fiscale
 

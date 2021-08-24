@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: efaeb4495a3c7fd5e93688ba857c616439e9dd45
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9ac7b9bb02784b0ece28dacdeda45a9e7e487d14cbadb5f97cd6d298052dc2cf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748931"
 ---
 # <a name="configurable-posting-profiles-for-banks-and-remittance-types"></a>Profili registrazione configurabili per banche e tipi di rimessa
 

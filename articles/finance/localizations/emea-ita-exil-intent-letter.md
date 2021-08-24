@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 41052e1af1e92a14a80f5216b3cfd223fe4bf752
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e0367d91ce4b8d6dda4412527680a757c9431e4f0aacae62f0d73666eabcdda
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740869"
 ---
 # <a name="intent-letters---invoicing-of-usual-exporters"></a>Lettere di intento - Fatturazione di esportatori abituali
 

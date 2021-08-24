@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639608"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732347"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurare il ruolo di responsabile dei congedi
 
@@ -89,16 +89,21 @@ Il ruolo di Responsabile dei congedi deve essere assegnato ai dipendenti per con
 
 ## <a name="absence-manager-workspace"></a>Area di lavoro del responsabile delle assenze
 
-Nell'area di lavoro **Self-service dipendenti** la scheda **Responsabile dei congedi** mostra le informazioni sui congedi dei dipendenti assegnati al responsabile dei congedi nella gerarchia dei congedi.
+Nell'area di lavoro **Self-service dipendenti** la scheda **Gestione dei congedi** mostra le informazioni sui congedi dei dipendenti assegnati al responsabile dei congedi nella gerarchia dei congedi. Ci sono alcune opzioni disponibili per il responsabile dei congedi: 
+ - Esaminare richieste di permesso.</br>
+ - Inviare una richiesta di permesso per conto di un dipendente.</br>
+ - Visualizzare tutti i dipendenti a loro assegnati come parte della gerarchia di congedi.</br>
+ - Visualizza il calendario del responsabile dei congedi.</br>
 
-Nella scheda **Congedo e assenza** per ogni dipendente sono disponibili le seguenti opzioni:
-
-- **Permesso** – Visualizza i totali, i permessi approvati e le richieste di permesso per il dipendente selezionato.
-- **Totali dei congedi** – Visualizza un elenco dei totali per i diversi piani di congedo per il dipendente selezionato.
+L'area di lavoro **Gestione dei congedi** include due schede:
+ - **Richieste di permesso** : questa scheda elencherà tutte le richieste di permesso in sospeso che il responsabile dei congedi può approvare. Il responsabile dei congedi può selezionare più record e agire sugli stessi contemporaneamente. Se è abilitata la visualizzazione congedo interaziendale, questo elenco mostrerà le richieste di permesso in sospeso per tutte le persone giuridiche a cui hanno accesso. In caso contrario, mostrerà le richieste di permesso in sospeso per la persona giuridica attualmente selezionata. </br>
+ - **Tutti i dipendenti**: questa scheda elencherà tutti i dipendenti assegnati al responsabile dei congedi nella gerarchia dei congedi. Sono disponibili un paio di opzioni per ogni dipendente:
+    - **Richiedi permesso**: invia una nuova richiesta di permesso per il dipendente selezionato.</br>
+    - **Permesso** – Visualizza i totali, i permessi approvati e le richieste di permesso per il dipendente selezionato.</br>
 
 ## <a name="approve-time-off-requests"></a>Approvare le richieste di permesso
 
-I responsabili dei congedi possono approvare o negare le richieste di permesso per i dipendenti. Possono anche creare richieste per conto dei dipendenti, se necessario.
+I responsabili dei congedi possono approvare o negare le richieste di permesso per i dipendenti. 
 
 > [!IMPORTANT]
 > Prima che i responsabili dei congedi possano approvare o negare le richieste di permesso, il flusso di lavoro della richiesta di congedo deve essere configurato per assegnare loro gli elementi di lavoro della richiesta di congedo per la revisione.
@@ -109,15 +114,13 @@ I responsabili dei congedi possono approvare o negare le richieste di permesso p
 >
 > Per informazioni su come creare il flusso di lavoro delle richieste di congedo, vedi [Creare un flusso di lavoro di richieste di congedo](hr-leave-and-absence-workflow.md).
 
-1. Nell'area di lavoro **Self-Service dipendenti** seleziona la scheda **Responsabile dei congedi**.
+1. Nell'area di lavoro **Self-service dipendenti** seleziona la scheda **Gestione dei congedi**.
 
-2. Nella scheda **Responsabile dei congedi** seleziona il dipendente desiderato.
+2. Nella scheda **Richieste di permesso**, seleziona le richieste di permesso su cui desideri intervenire. Puoi selezionare più record in questa visualizzazione elenco.
 
-3. Seleziona **Dettagli** e poi **Permesso**.
+3. Utilizza i pulsanti di azione nella parte superiore della griglia per approvare, negare o delegare la richiesta di permesso. 
 
-4. Trova la richiesta di permesso e seleziona l'opzione **Approvazione**. È quindi possibile selezionare un'opzione per approvare o annullare la richiesta di permesso.
-
-Lo stato **Annullato** indica che la richiesta è stata respinta. Lo stato **Completato** indica che la richiesta è stata approvata.
+In alternativa, l'utente può anche utilizzare il riquadro **Richieste di permesso** a sinistra per accedere all'elenco di tutti gli elementi di lavoro delle richieste di permesso. 
 
 ## <a name="view-time-off-in-the-calendar"></a>Visualizzare il permesso nel calendario
 
@@ -126,7 +129,7 @@ Gli utenti con il ruolo di responsabile dei congedi possono visualizzare le rich
 > [!IMPORTANT]
 > Un amministratore di sistema deve configurare le opzioni di visualizzazione per il calendario del responsabile dei congedi. Nella pagina **Parametri congedi e assenze** nella scheda **Calendario** ci sono le opzioni per nascondere o mostrare compleanni, assenze senza dettagli, congedi, e richieste di congedo in sospeso. C'è anche un'opzione per filtrare l'opzione di visualizzazione del calendario per tipo di lavoratore.
 
-1. Nell'area di lavoro **Self-service dipendenti** seleziona **Responsabile dei congedi** e **Calendario responsabile dei congedi**.
+1. Nell'area di lavoro **Self-service dipendenti** seleziona **Gestone dei congedi** e **Calendario responsabile dei congedi**.
 
 2. Immetti la data desiderata nel campo **Data**.
 

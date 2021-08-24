@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a3872ee4f50c9efa6d3f98bb20501826112862a8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3776498c1deeea0028c9fa84038e07a5e63f5bd0475131cabde5e2f762d3c146
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776460"
 ---
 # <a name="competence-date-for-transactions-and-the-fiscal-journal-report"></a>Data di competenza per le transazioni e il report giornale di registrazione fiscale
 

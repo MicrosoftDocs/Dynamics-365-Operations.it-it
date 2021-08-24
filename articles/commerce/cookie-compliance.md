@@ -2,7 +2,7 @@
 title: Conformità cookie
 description: Questo argomento descrive le considerazioni sulla conformità dei cookie e i criteri predefiniti inclusi in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747699"
 ---
 # <a name="cookie-compliance"></a>Conformità dei cookie
 
@@ -54,6 +54,10 @@ La seguente tabella mostra l'attuale elenco di riferimento dei cookie inseriti d
 | \_msdyn365___muid_                            | Utilizzato se la sperimentazione è attivata per l'ambiente; utilizzato come ID utente per scopi di sperimentazione. | 1 anno |
 | \_msdyn365___exp_                             | Utilizzato se la sperimentazione è attivata per l'ambiente; utilizzato per misurare il bilanciamento del carico delle prestazioni.         | 1 ora |
 | d365mkt                                       | Utilizzato se il rilevamento basato sulla posizione per tenere traccia dell'indirizzo IP di un utente per i suggerimenti sulla posizione del negozio è abilitato in Creazione di siti di Commerce in **Impostazioni sito \> Generale \> Abilita rilevamento del punto vendita basato sull'ubicazione**.      | 1 ora |
+| \_msdyn365___tuid_                           | Utilizzato solo se la sperimentazione è attivata per un ambiente; genera un GUID che funge da identificatore utente. Il valore cambierà se lo stato di accesso di un utente cambia.      | 1 anno |
+| \_msdyn365___aud_0                          | Memorizza i valori del segmento utilizzati dalla destinazione e viene utilizzato solo se la destinazione è configurata in una pagina o frammento richiesto da un utente del sito. Il cookie viene inserito solo quando i valori del segmento provengono da un provider di segmentazione di terze parti.      | 7 giorni |
+| \_msdyn365___aud_1                           | Memorizza i valori del segmento utilizzati dalla destinazione e viene utilizzato solo se la destinazione è configurata in una pagina o frammento richiesto da un utente del sito. Il cookie viene inserito solo quando i valori del segmento provengono da un provider di segmentazione di terze parti.      | 7 giorni |
+| \_msdyn365___aud_2                           | Memorizza i valori del segmento utilizzati dalla destinazione e viene utilizzato solo se la destinazione è configurata in una pagina o frammento richiesto da un utente del sito. Il cookie viene inserito solo quando i valori del segmento provengono da un provider di segmentazione di terze parti.      | 7 giorni |
 
 Se un utente del sito seleziona qualsiasi collegamento ai social media in un sito, anche i cookie nella tabella seguente verranno monitorati nel suo browser.
 

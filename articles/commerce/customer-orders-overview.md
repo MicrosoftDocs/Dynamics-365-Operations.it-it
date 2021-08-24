@@ -1,8 +1,8 @@
 ---
-title: Ordini cliente in Point of Sale (POS)
-description: In questo argomento vengono fornite informazioni sugli ordini cliente in Point of Sale (POS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
+title: Ordini cliente in POS
+description: In questo argomento vengono fornite informazioni sugli ordini cliente in POS. Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755085"
 ---
-# <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in Point of Sale (POS)
+# <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in POS
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono fornite informazioni su come creare e gestire gli ordini cliente in Point of Sale (POS). Gli ordini cliente possono essere utilizzati per acquisire le vendite in cui gli acquirenti desiderano ritirare i prodotti in un secondo momento, ritirare i prodotti in una posizione diversa o ricevere gli articoli spediti. 
+In questo argomento vengono fornite informazioni su come creare e gestire ordini cliente nell'app POS. Gli ordini cliente possono essere utilizzati per acquisire le vendite in cui gli acquirenti desiderano ritirare i prodotti in un secondo momento, ritirare i prodotti in una posizione diversa o ricevere gli articoli spediti. 
 
 In un mondo commerciale omni-canale, molti rivenditori offrono l'opzione degli ordini cliente, o ordini speciali, per soddisfare vari requisiti di prodotti ed evasione. Di seguito sono riportati alcuni scenari comuni:
 
@@ -132,6 +132,10 @@ Gli ordini al dettaglio creati nel canale online o in negozio possono essere ric
 > [!IMPORTANT]
 > Non tutti gli ordini di vendita al dettaglio possono essere modificati tramite l'applicazione POS. Gli ordini creati in un canale del call center non possono essere modificati tramite POS se l'impostazione [Attiva completamento ordine](./set-up-order-processing-options.md#enable-order-completion) è attivata per il canale del call center. Per garantire una corretta elaborazione dei pagamenti, gli ordini originati in un canale del call center e che utilizzano la funzionalità Abilita completamento ordine devono essere modificati tramite l'applicazione del call center in Commerce headquarters.
 
+> [!NOTE]
+> Si consiglia di non modificare ordini e preventivi in POS creati da un utente non del servizio clienti in Commerce headquarters. Tali ordini e preventivi non utilizzano il motore di determinazione dei prezzi di Commerce, quindi se vengono modificati in POS, il motore di determinazione dei prezzi di Commerce ne aggiorna il prezzo.
+
+
 Nella versione 10.0.17 e successive, gli utenti possono modificare gli ordini idonei tramite l'applicazione POS, anche se l'ordine è parzialmente evaso. Tuttavia, gli ordini completamente fatturati non possono ancora essere modificati tramite POS. Per abilitare questa capacità attiva la funzionalità **Modificare gli ordini parzialmente evasi nel punto vendita** nell'area di lavoro **Gestione funzionalità**. Se questa funzione non è abilitata o se stai utilizzando la versione 10.0.16 o precedente, gli utenti potranno modificare gli ordini cliente nel POS solo se l'ordine è completamente aperto. Inoltre, se la funzione è abilitata, puoi limitare i punti vendita che possono modificare gli ordini parzialmente evasi. L'opzione per disabilitare questa funzionalità per punti vendita specifici può essere configurata tramite il **Profilo funzionalità** nella scheda dettaglio **Generale**.
 
 
@@ -142,7 +146,23 @@ Nella versione 10.0.17 e successive, gli utenti possono modificare gli ordini id
 5. Completare il processo di modifica selezionando un'operazione di pagamento.
 6. Per uscire dal processo di modifica senza salvare le modifiche, puoi utilizzare l'operazione **Annulla transazione**.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Impatto sui prezzi quando gli ordini vengono modificati
 
+Quando gli ordini vengono effettuati in POS o in un sito di e-commerce di Commerce, i clienti accettano un importo. Questo importo include un prezzo e potrebbe anche includere uno sconto. Un cliente che effettua un ordine e successivamente contatta il servizio clienti per modificare tale ordine (ad esempio per aggiungere un altro articolo) avrà aspettative specifiche sull'applicazione degli sconti. Anche se le promozioni sulle righe di ordine esistenti sono scadute, il cliente si aspetterà che gli sconti originariamente applicati a tali righe rimangano in vigore. Tuttavia, se nessun sconto era in vigore quando l'ordine è stato originariamente effettuato, ma in seguito è entrato in vigore uno sconto, il cliente si aspetterà che il nuovo sconto venga applicato all'ordine modificato. In caso contrario, il cliente potrebbe semplicemente annullare l'ordine esistente e quindi creare un nuovo ordine a cui viene applicato il nuovo sconto. Come mostra questo scenario, prezzi e sconti che i clienti hanno accettato devono essere mantenuti. Allo stesso tempo, gli utenti di POS e del servizio clienti devono avere la possibilità di ricalcolare i prezzi e gli sconti per le righe dell'ordine di vendita come necessario.
+
+Quando gli ordini vengono richiamati e modificati in POS, i prezzi e gli sconti delle righe di ordini esistenti sono considerati "bloccati". In altre parole, non cambiano, anche se alcune righe di ordine vengono cancellate o modificate, o se vengono aggiunte nuove righe di ordine. Per modificare i prezzi e gli sconti delle righe di vendita esistenti, l'utente POS deve selezionare **Ricalcola**. Il blocco del prezzo viene quindi rimosso dalle righe di ordine esistenti. Tuttavia, prima del rilascio della versione 10.0.21 di Commerce, questa funzionalità non era disponibile nel servizio clienti. Qualsiasi modifica alle righe di ordine ha invece comportato il ricalcolo di prezzi e sconti.
+
+Nella versione 10.0.21 di Commerce, una nuova funzionalità denominata **Impedisci calcolo non intenzionale dei prezzi per ordini commerciali** è disponibile nell'area di lavoro **Gestione funzionalità**. Per impostazione predefinita, questa funzionalità è attivata. Quando è attivata, una nuova proprietà **Prezzo bloccato** è disponibile per tutti gli ordini e-commerce. Una volta completata l'acquisizione degli ordini effettuati da qualsiasi canale, questa proprietà viene automaticamente abilitata (ovvero, la casella di controllo è selezionata) per tutte le righe di ordine. Il motore di determinazione dei prezzi di Commerce esclude quindi tali righe di ordine da tutti i calcoli di prezzi e sconti. Pertanto, se l'ordine viene modificato, le righe verranno escluse dal calcolo di prezzi e sconti per impostazione predefinita. Tuttavia, gli utenti del servizio clienti possono disabilitare la proprietà (ovvero deselezionare la casella di controllo) per qualsiasi riga di ordine e quindi selezionare **Ricalcola** per includere le righe di ordine esistenti nei calcoli dei prezzi.
+
+Anche quando applicano uno sconto manuale a una riga di vendita esistente, gli utenti del servizio clienti devono disabilitare la proprietà **Prezzo bloccato** della riga di vendita prima di applicare lo sconto manuale.
+
+Gli utenti del servizio clienti possono anche disabilitare la proprietà **Prezzo bloccato** per le righe di ordine in blocco selezionando **Rimuovi blocco prezzo** nel gruppo **Calcola** della scheda **Vendi** nel riquadro azioni della pagina **Ordine cliente**. In questo caso, il blocco del prezzo viene rimosso da tutte le righe di ordine eccetto le righe che non sono modificabili (in altre parole, le righe il cui stato è **Fatturato parzialmente** o **Fatturato**). Quindi, dopo che le modifiche all'ordine sono state completate e inviate, il blocco del prezzo viene riapplicato a tutte le righe di ordine.
+
+> [!IMPORTANT]
+> Quando la funzionalità **Impedisci calcolo non intenzionale dei prezzi per ordini commerciali** è attivata, l'impostazione della valutazione dell'accordo commerciale verrà ignorata nei flussi di lavoro dei prezzi. In altre parole, le finestre di dialogo della valutazione dell'accordo commerciale non mostreranno la sezione **Relativo al prezzo**. Questo comportamento si verifica perché lo scopo dell'impostazione di valutazione dell'accordo commerciale e della funzionalità di blocco del prezzo è simile: impedire modifiche non intenzionali dei prezzi. Tuttavia, l'esperienza utente per la valutazione dell'accordo commerciale non si adatta agli ordini di grandi dimensioni in cui gli utenti devono selezionare una o più righe di ordine per il ricalcolo dei prezzi.
+
+> [!NOTE]
+> La proprietà **Prezzo bloccato** può essere disabilitata per una o più righe selezionate solo quando si utilizza il modulo **Servizio clienti**. Il comportamento del POS rimane invariato. In altre parole, l'utente POS non può sbloccare i prezzi per le righe di ordine selezionate. Tuttavia, può selezionare **Ricalcola** per rimuovere il blocco del prezzo da tutte le righe di ordine esistenti.
 
 ### <a name="cancel-a-customer-order"></a>Annullare un ordine cliente
 

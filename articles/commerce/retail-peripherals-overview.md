@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715336"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -126,12 +126,12 @@ Per contribuire a garantire che il più ampio range di dispositivi possa essere 
 > [!NOTE]
 > Il supporto OPOS non garantisce il supporto per tutti i dispositivi con driver OPOS. Commerce deve prima supportare il tipo o classe di dispositivo tramite OPOS. Inoltre, gli oggetti assistenza potrebbero non essere sempre aggiornati con l'ultima versione dei CCO. È inoltre necessario tenere presente che, in generale, la qualità degli oggetti assistenza varia.
 
-### <a name="windows&quot;></a>Windows
+### <a name="windows"></a>Windows
 
 La stampa della ricevuta nel POS viene ottimizzata per OPOS. OPOS tende a essere molto più veloce della stampa con Windows. Di conseguenza, è consigliabile l'utilizzo di OPOS, soprattutto negli ambienti in cui ricevute a 40 colonne vengono stampate e il tempo delle transazioni deve essere veloce. Per la maggior parte dei dispositivi, verranno utilizzati i controlli OPOS. Tuttavia, alcune stampanti di ricevute OPOS supportano anche i driver Windows. Utilizzando un driver di Windows, è possibile accedere agli caratteri più recenti e collegare in rete una sola stampante per più registratori di cassa. Tuttavia, sono presenti svantaggi nell'uso di driver Windows. Di seguito sono riportati alcuni esempi di svantaggi:
 
 -   Quando i driver di Windows vengono utilizzati, immagini vengono rese in rendering prima della stampa. Di conseguenza, la stampa tende a essere più lenta rispetto alle stampanti che utilizzano i controlli OPOS.
--   I dispositivi connessi tramite la stampante (&quot;connessione a catena") potrebbero non funzionare correttamente quando i driver di Windows vengono utilizzati. Ad esempio, il cassetto della cassa potrebbe non aprirsi o la stampante delle distinte potrebbe non funzionare come previsto.
+-   I dispositivi connessi tramite la stampante ("connessione a catena") potrebbero non funzionare correttamente quando i driver di Windows vengono utilizzati. Ad esempio, il cassetto della cassa potrebbe non aprirsi o la stampante delle distinte potrebbe non funzionare come previsto.
 -   OPOS inoltre supporta una serie di variabili più estesa, specifica delle stampanti di ricevute, ad esempio la stampa di ritagli e distinte.
 -   Le stampanti Windows non sono supportate tramite la stazione hardware IIS. 
 

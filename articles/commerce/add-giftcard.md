@@ -2,7 +2,7 @@
 title: Modulo Gift card
 description: Questo argomento tratta i moduli Gift card e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728341"
 ---
 # <a name="gift-card-module"></a>Modulo gift card
 
@@ -48,11 +48,17 @@ L'immagine seguente mostra un esempio di un moduli Gift card in una pagina check
 
 - **Mostra campi aggiuntivi** - Questa proprietà definisce quali campi devono essere visualizzati per le gift card oltre al numero della gift card, che viene sempre visualizzato per impostazione predefinita. Ad esempio, alcune gift card supportano la visualizzazione di un numero di identificazione personale (PIN) e altre supportano la visualizzazione di un PIN e la data di scadenza. In alternativa, questa proprietà può essere impostata su "Nessuno", che visualizza solo il numero della gift card e nessun campo aggiuntivo.
 
-Valori supportati:
--   PIN
--   Data di scadenza
--   PIN e Data di scadenza 
--   Nessuna priorità
+    Sono supportati i valori seguenti:
+
+    - PIN
+    - Data di scadenza
+    - PIN e Data di scadenza 
+    - Nessuna priorità
+
+- **Abilita per utenti guest**: quando questa proprietà è abilitata, gli utenti guest possono riscattare o controllare i saldi delle gift card. Questa proprietà richiede l'abilitazione dell'accesso anonimo (guest) per gift card in Commerce. Per ulteriori informazioni, vedi [Abilitare i pagamenti con gift card per il checkout come guest](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> La proprietà **Abilita per utenti guest** è disponibile a partire dalla versione 10.0.21 di Commerce. Richiede l'installazione del pacchetto della libreria di moduli di Commerce versione 9.31.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Impostazioni del sito per i moduli Gift card
 

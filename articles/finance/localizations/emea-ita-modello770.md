@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 65b1ff430d7397b55ff2d36d46165b6bff841ea1
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c8d3756545734832b9d00425cb6e0baa9c31897f6cd84cb7ad5ecb35b59c0d28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779354"
 ---
 # <a name="modello-770-report"></a>Report Modello 770
 

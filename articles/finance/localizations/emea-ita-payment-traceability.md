@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: v-lenest
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 820753a7b1c6896d77729f31a443dbdc660a7115
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9acf6f71d134bd18ab9aaed2c0bacd31beaeacdf504a0af525652df8d834e98
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742862"
 ---
 # <a name="italian-localization---payment-traceability"></a>Localizzazione italiana - Tracciabilità dei pagamenti
 

@@ -1,8 +1,8 @@
 ---
 title: Sospensioni credito per ordini cliente
 description: Questo argomento descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito.
-author: mikefalkner
-ms.date: 01/25/2019
+author: JodiChristiansen
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827652"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723969"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Sospensioni credito per ordini cliente
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito. Le regole di blocco della gestione dei crediti possono essere applicate a un singolo cliente o a un gruppo di clienti. Le regole di blocco definiscono le risposte alle seguenti circostanze:
 
@@ -41,6 +42,11 @@ Inoltre, esistono due parametri che controllano scenari aggiuntivi che bloccano 
 
 Quando un cliente avvia una transazione di vendita, le informazioni sull'ordine cliente vengono esaminate rispetto a una serie di regole di blocco che determinano la decisione di estendere o meno il credito al cliente e consentire alla vendita di proseguire. È anche possibile definire esclusioni che sostituiranno le regole di blocco e consentiranno l'elaborazione di un ordine cliente. È possibile impostare regole di blocco e regole di esclusione nella pagina **Gestione crediti > Impostazione> Impostazione gestione crediti > Regole di blocco**.
 
+A partire dalla versione 10.0.21, le regole di blocco in Gestione crediti sono state riprogettate nei seguenti modi, per fornire maggiore flessibilità:
+
+- Le richieste di estendibilità sono state abilitate, in modo che tu possa creare le tue regole di blocco.
+- La casella di controllo **Rilascia ordine cliente** è ora disponibile per tutte le regole di blocco. In precedenza, era disponibile solo per la regola di blocco Ordine cliente. Quando questa casella di controlla è selezionata, la regola di esclusione rilascerà l'ordine cliente senza considerare altre regole che possono bloccare gli ordini cliente. Questa casella di controllo è disponibile solo per il tipo di regola **Esclusione**.
+
 ### <a name="days-overdue"></a>Giorni di ritardo
 
 Aprire la scheda **Giorni in ritardo** se la regola di blocco si applica al cliente con una o più fatture scadute da un certo numero di giorni.
@@ -57,7 +63,7 @@ Aprire la scheda **Giorni in ritardo** se la regola di blocco si applica al clie
 5. Selezionare un **tipo di valore**. La voce predefinita è un numero di giorni fisso. Se si sta creando un'esclusione, è possibile specificare un numero fisso di giorni o un importo. 
 6. Inserire il numero di giorni **In ritardo** che sarà autorizzato per la regola di blocco selezionata prima che un ordine venga messo in attesa della gestione del credito per verifica. Il numero di giorni di ritardo rappresenta un numero supplementare di giorni di tolleranza che vengono aggiunti al numero di giorni oltre la data di scadenza del pagamento che la fattura può avere prima che sia considerata in ritardo. Se è stato specificato il **Tipo di valore** come importo per un'esclusione, inserire un importo e una valuta per tale importo.
 
-### <a name="accounts-status"></a>Stato dei conti
+### <a name="account-status"></a>Stato conto
 
 Aprire la scheda **Stato dei conti** se la regola di blocco si applica a un cliente con lo stato di conto selezionato.
 1. Selezionare il tipo di regola che si sta impostando.  L'opzione **Blocco** creerà una regola che blocca un ordine. L'opzione **Esclusione** cerea una regola che escluderà una regola di blocco di un ordine. 
@@ -102,7 +108,7 @@ Aprire la scheda **Importo scaduto** se la regola di blocco si applica ai client
    - Selezionare **Blocco** per creare una regola che blocca un ordine. 
    - Selezionare **Esclusione** per creare una regola che escluderà un'altra regola di blocco di un ordine. 
 5. Immettere il valore di **Importo scaduto** per la regola di blocco selezionata prima che un ordine venga messo in attesa della gestione del credito per verifica. 
-6. Selezionare l'opzione **Tipo di valore** che definisce il tipo di valore che verrà utilizzato per verificare anche la quantità di limite di credito utilizzata. Le regole di blocco richiedono una percentuale ma un'esclusione può avere una soglia di importo o percentuale La soglia si riferisce al limite di credito.
+6. Selezionare l'opzione **Tipo di valore** che definisce il tipo di valore che verrà utilizzato per verificare anche la quantità di limite di credito utilizzata. Le regole di blocco e le regole di esclusione consentono una percentuale solo per **Importo scaduto**. La soglia si riferisce al limite di credito.
 7. Immettere il valore **Soglia limite di credito** per la regola selezionata prima che un cliente venga messo in attesa della gestione del credito. Questo valore può essere un importo o una percentuale in base al tipo di valore selezionato in Tipo di valore.
 8. La regola controlla se i valori **Importo scaduto** e **Soglia limite di credito** vengono superati. 
 
@@ -122,8 +128,6 @@ Selezionare **Ordine cliente** se la regola di blocco si applica al valore dell'
    - Selezionare **Blocco** per creare una regola che blocca un ordine. 
    - Selezionare **Esclusione** per creare una regola che escluderà un'altra regola di blocco di un ordine. 
 5. Immettere il valore **Importo ordine cliente** per la regola di blocco selezionata prima che un ordine venga messo in attesa della gestione del credito. 
-
-La regola dell'ordine cliente include un'impostazione aggiuntiva che sostituisce tutte le altre regole. Per creare un'esclusione che rilascerà l'ordine cliente senza applicare altre regole, selezionare la casella di controllo **Rilascia ordine cliente** nella riga di esclusione.
 
 ### <a name="credit-limit-used"></a>Limite di credito usato
 

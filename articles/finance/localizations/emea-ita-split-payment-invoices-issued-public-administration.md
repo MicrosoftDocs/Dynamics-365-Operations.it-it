@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1a3c63bbc17e6775ab19134d2f05c105c6fd0fd7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 43cfeee75596207e431d20f227acd026c4649e5015faad0a2b3c6236b0741b0f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778838"
 ---
 # <a name="split-payment-for-invoices-issued-to-the-public-administration"></a>Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
 

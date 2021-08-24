@@ -2,7 +2,7 @@
 title: Panoramica sulla creazione di report finanziari
 description: In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari.
 author: aprilolson
-ms.date: 12/04/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf07b12d83221952aefb80ab6a5b651bb4ef3762
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338159"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748212"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione a Financial Reporting 
 
@@ -47,10 +47,10 @@ Per creare e generare i report finanziari per una persona giuridica, è necessar
 -   Piano dei conti
 -   Valuta
 -   Registrare una transazione su almeno un conto
--   MainAccount è elencato nella colonna Selezionati in **Contabilità generale > Impostazioni contabilità generale > Impostazione report finanziari**
+-   MainAccount è elencato nella colonna **Selezionati** nella pagina **Impostazione report finanziari** (**Contabilità generale > Impostazioni contabilità generale > Impostazione report finanziari**)
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Concessione dell'accesso di sicurezza a Financial Reporting
-Le funzioni di report finanziari disponibili per gli utenti con i privilegi e i compiti appropriati assegnati loro nei rispettivi ruoli di sicurezza. Nelle sezioni seguenti vengono elencati tali compiti e privilegi, insieme ai ruoli associati.
+Le funzioni di Financial Reporting sono disponibili per gli utenti a cui sono stati assegnati privilegi e compiti tramite i rispettivi ruoli di sicurezza. Nelle sezioni seguenti vengono elencati tali compiti e privilegi, insieme ai ruoli associati.
 
 ### <a name="duties"></a>Compiti
 
@@ -79,7 +79,7 @@ Le funzioni di report finanziari disponibili per gli utenti con i privilegi e i 
 | Genera report finanziari            | Genera report finanziari            | CEO, CFO, Contabile                                                            |
 | Visualizza report finanziari                | Esamina prestazioni finanziarie          | Nessuno assegnato                                                                   |
 
-Dopo che un utente viene aggiunto o un ruolo viene modificato, l'utente deve poter accedere ai report finanziari in alcuni minuti. 
+Dopo che un utente viene aggiunto o un ruolo viene modificato, l'utente deve poter accedere a Financial Reporting in alcuni minuti. 
 
 > [!NOTE]
 > Il ruolo sysadmin viene aggiunto a tutti i ruoli nella creazione di report finanziari.
@@ -165,10 +165,47 @@ Problema 2: all'utente non sono state assegnate le autorizzazioni necessarie per
   Se un altro utente può aprire Progettazione report, selezionare **Strumenti**, quindi selezionare **Stato integrazione**. Verificare che la mappa di integrazione "Provider di utenti della società alla società" sia stata eseguita correttamente in quanto si dispone dell'autorizzazione per utilizzare Financial Reporting. 
 * È possibile che un altro errore abbia impedito la conclusione di **Integrazione tra utenti Dynamics e utenti Financial Reporting**. Oppure è possibile che sia stato avviato e non ancora completato un ripristino del datamart o che si sia verificato un altro errore di sistema. Provare a eseguire nuovamente il processo più tardi. Se il problema persiste, contattare l'amministratore di sistema.
 
-Problema 3: è possibile procedere oltre la pagina di accesso di Progettazione report ClickOnce, ma non è possibile completare l'accesso in Progettazione report. 
+Problema 3: è possibile procedere oltre la pagina di accesso di **ClickOnce Report Designer**, ma non è possibile completare l'accesso in Report Designer. 
 
-* L'ora impostata sul computer locale quando si immettono le credenziali di accesso non deve essere sfalsata di cinque minuti rispetto all'ora del server Financial Reporting. Se la differenza è superiore a cinque minuti, il sistema non consentirà l'accesso. 
-* In questo caso, è consigliabile abilitare l'opzione Windows per impostare automaticamente l'ora del PC. 
+* L'ora impostata sul computer locale quando si accede al sistema non deve essere sfalsata di cinque minuti rispetto all'ora del server Financial Reporting. Se la differenza è superiore a cinque minuti, il sistema non consentirà l'accesso. 
+* Se l'ora sul tuo computer è diversa dall'ora del server Financial Reporting, ti consigliamo di abilitare l'opzione di Windows per impostare automaticamente l'ora del computer. 
+
+## <a name="troubleshoot-report-designer-issues-with-event-viewer"></a>Risolvere i problemi di Report Designer con il visualizzatore eventi
+
+Puoi utilizzare il visualizzatore eventi per analizzare alcuni dei problemi che sorgono durante l'utilizzo di Financial Reporting. 
+
+### <a name="what-happens-when-you-have-connections-issues-with-financial-reporting"></a>Cosa succede in caso di problemi di connessione con Financial Reporting? 
+
+Di seguito sono riportati alcuni passaggi che puoi eseguire per rendere più efficace la conversazione con il supporto tecnico Microsoft e ottenere una risoluzione più rapida. 
+ 
+I passaggi seguenti illustrano il processo di attivazione dei messaggi del visualizzatore eventi per Financial Reporting. I registri generati dal visualizzatore eventi aiuteranno i tecnici del supporto tecnico a identificare rapidamente l'origine del problema di connessione. Invia copie di questi registri insieme al ticket quando contatti il supporto.
+
+> 1.    Copia il file RegisterETW.zip nella workstation client (preferibilmente il desktop) ed estrai [RegistratiETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+
+> 2.    Assicurati che il visualizzatore eventi di Windows sia chiuso.
+
+> 3.    Apri un prompt dei comandi di PowerShell per amministratori e accedi alla directory in cui si trova RegisterETW.ps1.
+
+> 4.    Esegui il comando seguente: .\RegisterETW.ps1
+   
+   Un output riuscito in PowerShell verrà verificato con il messaggio **Script RegisterETW completato**.
+Riapri il visualizzatore eventi. Sotto **Microsoft > Dynamics** saranno visualizzati i registri seguenti: * MR-Client * MR-DVT * MR-Integration * MR-Logger * MR-Reporting * MR_SchedulerTasks * MR-Sql * MR-TraceManager
+   
+> 5. Riproduci il problema in Report Designer.
+   
+> 6. Esporta gli eventi MR-Logger utilizzando il visualizzatore eventi.
+
+## <a name="troubleshoot-issues-connecting-to-financial-reporting"></a>Risolvere i problemi di connessione a Financial Reporting
+
+Problema: viene visualizzato l'errore "Impossibile connettersi al server di Financial Reporting".
+
+* Determina se il problema si verifica nei browser Internet Chrome e Edge.
+* Se il problema si verifica solo in un browser, potrebbe trattarsi di un problema ClickOnce. 
+* Quando ricevi il messaggio di errore relativo alla connessione, seleziona **Test** per testare la connessione e vedere quale messaggio appare. 
+* Il problema potrebbe essere dovuto a un altro utente che non ha accesso a Financial Reporting. Se un utente non ha accesso, riceverà un messaggio indicante che non dispone dell'autorizzazione.
+* Se il problema si verifica con più browser, assicurati che l'orologio della workstation sia impostato su Auto.
+* Lavora con un utente che dispone dei diritti di amministratore della sicurezza in Dynamics 365 Finance e dei diritti di amministratore per il dominio di rete per accedere alla workstation e determinare se riesce a connettersi. Se riesce a connettersi, il problema potrebbe essere correlato alle autorizzazioni di rete.
+* Nella workstation, disabilita temporaneamente il firewall. Se sei quindi in grado di connetterti a Report Designer, il problema riguarda il firewall. Collabora con il reparto IT dell'organizzazione per risolvere il problema.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 - [Visualizza report finanziari](view-financial-reports.md)

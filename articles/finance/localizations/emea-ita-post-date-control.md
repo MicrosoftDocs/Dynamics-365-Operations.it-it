@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fd03acc0a216ec4165999601ba693ebcffc14023
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d5d867cb4a1a4bb5254fd42b82fc52be41dafa2cd4fa5b73ba455cde482e8e82
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742860"
 ---
 # <a name="unified-posting-date-control"></a>Controllo unificato della data di registrazione
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768193"
 ---
 # <a name="payroll-employee"></a>Dipendente retribuzioni
 
@@ -33,27 +33,25 @@ Nome fisico: mshr_payrollemployeeentity.
 Questa entità fornisce informazioni sul dipendente. È necessario impostare i [parametri di integrazione retribuzioni](hr-admin-integration-payroll-api-parameters.md) prima di utilizzare questa entità.
 
 >[!IMPORTANT] 
->I campi **FirstName**, **MiddleName**, **LastName**, **NameValidFrom**, e **NameValidTo** non saranno più disponibili su questa entità. Questo per garantire che ci sia una sola data di origine dati effettiva a sostegno di questa entità, che è **HcmEmployment** con i campi **EmploymentStartDate** e **EmploymentEndDate**.
-
->Questi campi saranno disponibili in **DirPersonNameHistoricalEntity**, che è stata rilasciata nell'aggiornamento della piattaforma 43. Esiste una relazione OData da **PayrollEmployeeEntity** a **DirPersonNameHistoricalEntity** nel campo **Persona**. In alternativa, l'entità **DirPersonNameHistoricalEntity** può essere interrogata direttamente tramite OData utilizzando il nome pubblico, **PersonHistoricalNames**.
-
+>I campi **FirstName**, **MiddleName**, **LastName**, **NameValidFrom**, e **NameValidTo** non saranno più disponibili in questa entità. Ciò garantisce che ci sia solo un'origine dati effettiva della data che supporta questa entità.
+>Questi campi saranno disponibili in **DirPersonNameHistoricalEntity**, che è stata rilasciata nell'aggiornamento della piattaforma 43. Esiste una relazione OData da **PayrollEmployeeEntity** a **DirPersonNameHistoricalEntity** nel campo **Persona**. 
 
 ## <a name="properties"></a>Proprietà
 
 | Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
 | --- | --- | --- |
-| **Numero dipendente**<br>mshr_personnelnumber<br>*String* | Sola lettura<br>Richiesto | Il numero personale univoco del dipendente. |
-| **Campo principale**<br>mshr_primaryfield<br>*String* | Richiesto<br>Generato dal sistema |  |
-| **ID persona giuridica**<br>mshr_legalentityID<br>*String* | Sola lettura<br>Richiesto | Specifica la persona giuridica (società). |
-| **Genere**<br>mshr_gender<br>[set di opzioni mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Sola lettura<br>Richiesto | Il sesso del dipendente. |
+| **Numero dipendente**<br>mshr_personnelnumber<br>*String* | Sola lettura | Il numero personale univoco del dipendente. |
+| **Campo principale**<br>mshr_primaryfield<br>*String* | Sola lettura<br>Generato dal sistema |  |
+| **ID persona giuridica**<br>mshr_legalentityID<br>*String* | Sola lettura | Specifica la persona giuridica (società). |
+| **Genere**<br>mshr_gender<br>[set di opzioni mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Sola lettura | Il sesso del dipendente. |
 | **ID entità dipendente retribuzioni**<br>mshr_payrollemployeeentityid<br>*GUID* | Richiesto<br>Generato dal sistema | Un valore GUID generato dal sistema per identificare in modo univoco il dipendente. |
-| **Data di inizio impiego**<br>mshr_employmentstartdate<br>*Offset data/ora* | Sola lettura<br>Richiesto | La data di inizio dell'impiego del dipendente. |
-| **ID tipo di identificazione**<br>mshr_identificationtypeid<br>*String* |Sola lettura<br>Richiesto | Il tipo di identificazione definito per il dipendente. |
-| **Data di fine impiego**<br>mshr_employmentenddate<br>*Offset data/ora* | Sola lettura<br>Richiesto |La data di fine dell'impiego del dipendente.  |
-| **ID area dati**<br>mshr_dataareaid_id<br>*GUID* | Richiesto <br>Generato dal sistema | Valore GUID generato dal sistema che identifica la persona giuridica (società). |
-| **Data di fine validità**<br>mshr_namevalidto<br>*Offset data/ora* |  Sola lettura<br>Richiesto | La data di fine validità delle informazioni sul dipendente. |
-| **Data di nascita**<br>mshr_birthdate<br>*Offset data/ora* | Sola lettura <br>Richiesto | La data di nascita del dipendente |
-| **Numero di identificazione**<br>mshr_identificationnumber<br>*String* | Sola lettura <br>Richiesto |Il numero di identificazione definito per il dipendente.  |
+| **Data di inizio impiego**<br>mshr_employmentstartdate<br>*Offset data/ora* | Sola lettura | La data di inizio dell'impiego del dipendente. |
+| **ID tipo di identificazione**<br>mshr_identificationtypeid<br>*String* |Sola lettura | Il tipo di identificazione definito per il dipendente. |
+| **Data di fine impiego**<br>mshr_employmentenddate<br>*Offset data/ora* | Sola lettura |La data di fine dell'impiego del dipendente.  |
+| **ID area dati**<br>mshr_dataareaid_id<br>*GUID* | Sola lettura <br>Generato dal sistema | Valore GUID generato dal sistema che identifica la persona giuridica (società). |
+| **Data di fine validità**<br>mshr_namevalidto<br>*Offset data/ora* |  Sola lettura | La data di fine validità delle informazioni sul dipendente. |
+| **Data di nascita**<br>mshr_birthdate<br>*Offset data/ora* | Sola lettura | La data di nascita del dipendente |
+| **Numero di identificazione**<br>mshr_identificationnumber<br>*String* | Sola lettura |Il numero di identificazione definito per il dipendente.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Query di esempio per Dipendente retribuzioni
 

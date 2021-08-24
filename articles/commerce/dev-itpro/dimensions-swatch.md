@@ -2,7 +2,7 @@
 title: Configurare i valori di dimensione prodotto in modo che appaiano come campioni
 description: Questo argomento descrive come configurare i valori di dimensione prodotto come campioni in Microsoft Dynamics 365 Commerce Headquarters.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764616"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurare i valori di dimensione prodotto in modo che appaiano come campioni
 
@@ -27,7 +27,7 @@ ms.locfileid: "6638296"
 
 Questo argomento descrive come configurare i valori di dimensione prodotto come campioni in Microsoft Dynamics 365 Commerce Headquarters. Per informazioni sulle dimensioni del prodotto, vedi [Dimensioni prodotto](../../supply-chain/pim/product-dimensions.md).
 
-Dynamics 365 Commerce supporta l'uso di dimensioni, stile e colore per rappresentare le varianti del prodotto. Le dimensioni del prodotto hanno nomi descrittivi che vengono visualizzati nelle pagine dei dettagli del prodotto (PDP) in modo che le varianti del prodotto possano essere selezionate. Esempi di questi nomi descrittivi includono "Small", "Medium" e "Large" per le dimensioni e "Black" e "Brown" per i colori. Tuttavia, se un prodotto supporta molte varianti, sono necessarie più selezioni per visualizzare l'immagine per ciascuna variante di prodotto. Pertanto, può essere un processo lento e noioso per i clienti sfogliare e selezionare le varianti di prodotto.
+Dynamics 365 Commerce supporta l'uso di taglia, stile e colore per rappresentare le varianti del prodotto. Le dimensioni del prodotto hanno nomi descrittivi che vengono visualizzati nelle pagine dei dettagli del prodotto (PDP) in modo che le varianti del prodotto possano essere selezionate. Esempi di questi nomi descrittivi includono "Small", "Medium" e "Large" per le taglie e "Black" e "Brown" per i colori. Tuttavia, se un prodotto supporta molte varianti, sono necessarie più selezioni per visualizzare l'immagine per ciascuna variante di prodotto. Pertanto, può essere un processo lento e noioso per i clienti sfogliare e selezionare le varianti di prodotto.
 
 Quando le dimensioni vengono visualizzate come campioni sui PDP, i clienti ottengono un'anteprima visiva delle variazioni di un prodotto. Possono sfogliare facilmente un'ampia varietà di colori, motivi e trame e possono visualizzare rapidamente diverse combinazioni di variazioni del prodotto.
 
@@ -46,19 +46,19 @@ La seguente illustrazione mostra un esempio in cui i colori vengono visualizzati
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Abilitare la funzione di visualizzazione delle dimensioni come campioni in Commerce Headquarters
 
-Per abilitare la funzione di visualizzazione delle dimensioni come campioni in Commerce Headquarters, vai a **Aree di lavoro \> Gestione funzionalità** e attiva la funzionalità **Abilita il supporto delle immagini per i valori di dimensione del prodotto**. Quando questo flag di funzionalità è abilitato, vengono aggiunti tre nuovi campi per ogni dimensione nelle tabelle appropriate in Commerce Headquarters: **Codice esadecimale**, **URL** (per le immagini) e **RefinerGroup**.
+Per abilitare la funzionalità di visualizzazione delle dimensioni come campioni in Commerce Headquarters, seleziona **Aree di lavoro \> Gestione funzionalità** e attiva la funzionalità **Abilita un meccanismo per rappresentare le dimensioni come campioni**. Quando questo flag di funzionalità è abilitato, vengono aggiunti tre nuovi campi per ogni dimensione nelle tabelle appropriate in Commerce Headquarters: **Codice esadecimale**, **URL** (per le immagini) e **RefinerGroup**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Configurare i valori delle dimensioni in Commerce Headquarters
 
-La funzione di visualizzazione delle dimensioni come campioni è supportata per dimensioni, stile e colore. I valori del codice esadecimale e dell'URL dell'immagine per le dimensioni appropriate possono essere specificati in Commerce Headquarters. Per impostazione predefinita, se non vengono forniti i valori del codice esadecimale e dell'URL dell'immagine per una dimensione, il sistema mostrerà il testo del nome descrittivo della dimensione.
+La funzione di visualizzazione delle dimensioni come campioni è supportata per taglia, stile e colore. I valori del codice esadecimale e dell'URL dell'immagine per le dimensioni appropriate possono essere specificati in Commerce Headquarters. Per impostazione predefinita, se non vengono forniti i valori del codice esadecimale e dell'URL dell'immagine per una dimensione, il sistema mostrerà il testo del nome descrittivo della dimensione.
 
 La configurazione può essere eseguita a uno dei seguenti livelli:
 
-- **Dimensione**: in Commerce Headquarters, apri la pagina per una dimensione cercando **Colore**, **Dimensione** o **Stile**. In ogni pagina, una griglia elenca i valori delle dimensioni. Puoi gestire l'ordine di visualizzazione, il codice esadecimale e i valori dell'URL dell'immagine. Nella figura seguente è illustrato una configurazione di esempio nella pagina **Colori**.
+- **Dimensione**: in Commerce Headquarters, apri la pagina per una dimensione cercando **Colore**, **Taglia** o **Stile**. In ogni pagina, una griglia elenca i valori delle dimensioni. Puoi gestire l'ordine di visualizzazione, il codice esadecimale e i valori dell'URL dell'immagine. Nella figura seguente è illustrato una configurazione di esempio nella pagina **Colori**.
 
     ![Esempio di configurazione delle dimensioni nella pagina Colori.](../dev-itpro/media/swatch_Color.PNG)
 
-- **Gruppo di dimensioni**: in Dynamics 365 Commerce, puoi usare la proprietà **RefinerGroup** per creare gruppi di dimensioni. Se sono definiti gruppi di dimensioni, apri la pagina appropriata cercando **Gruppo di colori**, **Gruppo di dimensioni** o **Gruppo di stili**. In ogni pagina puoi gestire il codice esadecimale, l'URL dell'immagine e i valori del gruppo di affinamento. Nella figura seguente è illustrato una configurazione di esempio nella pagina **Gruppi di colori**.
+- **Gruppo di dimensioni**: in Dynamics 365 Commerce, puoi usare la proprietà **RefinerGroup** per creare gruppi di dimensioni. Se sono definiti gruppi di dimensioni, apri la pagina appropriata cercando **Gruppo di colori**, **Gruppo di taglie** o **Gruppo di stili**. In ogni pagina puoi gestire il codice esadecimale, l'URL dell'immagine e i valori del gruppo di affinamento. Nella figura seguente è illustrato una configurazione di esempio nella pagina **Gruppi di colori**.
 
     ![Esempio di configurazione delle dimensioni nella pagina Gruppi di colori.](../dev-itpro/media/swatch_colorGroup.PNG)
 
@@ -115,7 +115,7 @@ L'esempio nella figura seguente mostra la relazione tra le proprietà **Colore**
 
 Se vengono utilizzati URL immagine per qualsiasi valore di dimensione, le immagini corrispondenti devono essere caricate in Commerce Site Builder. La posizione di ciascuna immagine deve corrispondere al nome del file e al percorso della cartella definiti per l'immagine in Commerce Headquarters. I file di immagine devono essere caricati nelle posizioni delle categorie appropriate in Site Builder. Ad esempio, le immagini a colori devono essere caricate nella cartella della categoria **Colore**. Per ulteriori informazioni su come caricare immagini in Site Builder, vedi [Caricare immagini](../dam-upload-images.md).
 
-La figura seguente mostra un esempio in cui la finestra di dialogo **Carica file** viene utilizzata per caricare le immagini nella libreria multimediale di Site Builder. Evidenzia le categorie **Dimensione**, **Colore** e **Stile** disponibili per la selezione.
+La figura seguente mostra un esempio in cui la finestra di dialogo **Carica file** viene utilizzata per caricare le immagini nella libreria multimediale di Site Builder. Evidenzia le categorie **Taglia**, **Colore** e **Stile** disponibili per la selezione.
 
 ![Esempio di categorie di file di immagine durante il caricamento nella libreria multimediale di Creazione di siti Web.](../dev-itpro/media/swatch_sitebuilder.png)
 
@@ -125,9 +125,22 @@ Prima che i campioni possano essere visualizzati nelle pagine del sito e-commerc
 
 Inoltre, è consigliabile abilitare la proprietà **Includi gli attributi del prodotto nei risultati di ricerca** per i moduli dei risultati di ricerca. Se il tuo sito utilizza pagine di categorie personalizzate, è consigliabile aggiornare i moduli dei risultati di ricerca utilizzati in tali pagine, in modo che la proprietà **Includi gli attributi del prodotto nei risultati di ricerca** sia abilitata. Per ulteriori informazioni, vedi [Modulo dei risultati della ricerca](../search-result-module.md).
 
+## <a name="inventory-awareness-on-swatches"></a>Consapevolezza dell'inventario con campioni
+
+I campioni includono la funzionalità facoltativa di mostrare la disponibilità nell'inventario di un colore o di una dimensione di una variante prodotto. Ad esempio, un prodotto viene venduto in più taglie, ma alcune taglie sono esaurite. In questo caso, i campioni dei prodotti esauriti vengono visualizzati differentemente per indicare che non sono disponibili. Questa funzionalità consente di ridurre il numero di clic dei clienti necessari per determinare la disponibilità di un prodotto.
+
+La funzionalità Disponibilità dell'inventario con campioni può essere configurata per l'uso nelle pagine dei dettagli dei prodotti e nelle pagine di ricerca o di elenco di categorie in cui vengono visualizzati i campioni. Per attivarla, devi impostare la proprietà **Aggiorna multimedia alla selezione delle dimensioni** su **True** nel [modulo Galleria multimediale](../media-gallery-module.md). Questa impostazione consente l'aggiornamento delle immagini nella galleria multimediale quando vengono selezionate le dimensioni. 
+
+> [!IMPORTANT]
+> La funzionalità Disponibilità dell'inventario con campioni è disponibile a partire dalla versione 10.0.21 di Commerce. Richiede l'installazione del pacchetto della libreria di moduli di Commerce versione 9.31.
+
+L'illustrazione seguente mostra un esempio di consapevolezza dell'inventario con campioni delle taglie di una pagina di dettagli del prodotto.
+
+![Esempio di consapevolezza dell'inventario con campioni delle taglie in una pagina dettagli del prodotto](../dev-itpro/media/swatch_inventory.png)
+
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Visualizza i campioni in POS e altri canali
 
-Commerce attualmente non dispone di un'implementazione predefinita che supporti la visualizzazione dei campioni nel punto vendita (POS) e in altri canali. Tuttavia, puoi implementare la funzionalità di visualizzazione dei campioni come un'estensione che fa sì che le API del canale restituiscano i codici esadecimali e gli URL immagine necessari per il rendering dei campioni.
+Commerce attualmente non dispone di un'implementazione predefinita che supporti la visualizzazione dei campioni nel POS e in altri canali. Tuttavia, puoi implementare la funzionalità di visualizzazione dei campioni come estensione poiché le API del canale restituiscono i codici esadecimali e gli URL immagine necessari per il rendering dei campioni.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

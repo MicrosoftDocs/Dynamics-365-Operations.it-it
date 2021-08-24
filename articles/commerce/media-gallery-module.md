@@ -2,7 +2,7 @@
 title: Modulo Galleria multimediale
 description: In questo argomento vengono descritti i moduli Galleria multimediale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733199"
 ---
 # <a name="media-gallery-module"></a>Modulo raccolta multimediale
 
@@ -56,6 +56,10 @@ Nell'esempio nella figura seguente, una casella acquisti in una PDP ospita le im
 | Immagini | Immagini selezionate dalla libreria multimediale Creazione di siti Web | Oltre al rendering eseguito da un prodotto, le immagini possono essere curate per un modulo Galleria multimediale. Queste immagini verranno aggiunte a tutte le immagini dei prodotti disponibili. Questa funzionalità è disponibile in Commerce versione 10.0.12. |
 | Orientamento dell'anteprima | **Verticale** o **Orizzontale** | Questa proprietà specifica se le immagini di anteprima devono essere visualizzate in una striscia verticale o in una striscia orizzontale. |
 | Nascondere le immagini della rappresentazione generale prodotto per la variante | **True** o **False** | Se questa proprietà è impostata su **True**, quando viene selezionata una variante, le immagini della rappresentazione generale prodotto vengono nascoste a meno che la variante non abbia immagini. Questa proprietà non influisce sui prodotti che non hanno varianti. |
+| Aggiornare i file multimediali alla selezione delle dimensioni | **True** o **False** | Se questa proprietà è impostata su **Vero**, le immagini nella libreria multimediale verranno aggiornate quando qualsiasi dimensione (come colore, stile o taglia) e se un'immagine è disponibile. Questa proprietà consente di semplificare l'esperienza di ricerca, poiché non tutte le dimensioni delle varianti prodotto devono essere selezionate per l'immagine corrispondente da aggiornare. Questa proprietà è disponibile nella scheda **Avanzate**. |
+
+> [!IMPORTANT]
+> La proprietà **Aggiornare i file multimediali alla selezione delle dimensioni** è disponibile a partire dalla versione 10.0.21 di Commerce. Richiede l'installazione del pacchetto della libreria di moduli di Commerce versione 9.31.
 
 La seguente illustrazione mostra un esempio di un modulo Galleria multimediale in cui sono disponibili le opzioni di schermo intero e zoom.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639392"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744228"
 ---
 # <a name="view-team-and-company-calendars"></a>Visualizzare i calendari per team e società
 
@@ -47,7 +47,7 @@ I responsabili possono accedere al calendario del team anche da **Richieste di p
 
 Gli utenti con il ruolo di responsabile dei congedi possono visualizzare le richieste di permessi nel proprio calendario. Per accedere al calendario dei congedi segui questi passaggi.
 
-1. Nell'area di lavoro **Self-service dipendenti** seleziona **Responsabile dei congedi** e **Calendario responsabile dei congedi**.
+1. Nell'area di lavoro **Self-service dipendenti** seleziona **Gestone dei congedi** e **Calendario responsabile dei congedi**.
 
 2. Immetti la data desiderata nel campo **Data**.
 
