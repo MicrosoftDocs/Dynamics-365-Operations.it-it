@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Ottenere lo stato di attività dell'operazione
                       href: database/api/v1/reference-get-status.md
-                    - name: Avviare e interrompere gli ambienti
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Dati dimostrativi
           items:
             - name: Panoramica dati dimostrativi
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Continuità aziendale e ripristino di emergenza
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Completare l'integrazione di Azure Resource Manager
+                - name: Completare il processo di integrazione di Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: Completare il processo di integrazione di Azure Resource Manager per i progetti LCS del governo degli Stati Uniti
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute e Finance and Operations
                   href: deployment/expressroute.md
                 - name: Architettura Finance and Operations
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS per i partner
                   href: lifecycle-services/getting-started-lcs.md
+                - name: API RESTful
+                  items:
+                    - name: Avviare e interrompere gli ambienti
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Recuperare i metadati dell'ambiente
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Recuperare la cronologia dell'ambiente
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Recuperare il file ZIP del certificato RSAT dell'ambiente
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Novità o modifiche in Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: Manuale dell'utente di Lifecycle Services
@@ -1138,22 +1148,24 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Risoluzione dei problemi
                       items:
-                        - name: Verificare la configurazione della doppia scrittura nelle app Finance and Operations e Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Risoluzione dei problemi generali
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Risoluzione dei problemi durante l'impostazione iniziale
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Risoluzione dei problemi durante la sincronizzazione iniziale
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Risoluzione dei problemi relativi alla doppia scrittura nelle app Finance and Operations
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Risoluzione dei problemi di sincronizzazione in tempo reale
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Risoluzione dei problemi relativi alla doppia scrittura nelle app Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Risoluzione dei problemi relativi alla parte e alla rubrica globale
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Risoluzione dei problemi relativi alla consapevolezza della soluzione
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Risoluzione dei problemi relativi agli aggiornamenti delle app Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Risoluzione dei problemi generali
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Verificare la configurazione della doppia scrittura nelle app Finance and Operations e Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Domande frequenti sulla scrittura doppia
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Entità virtuali
