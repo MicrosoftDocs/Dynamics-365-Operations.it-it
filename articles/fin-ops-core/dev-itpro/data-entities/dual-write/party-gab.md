@@ -2,19 +2,19 @@
 title: Rubrica globale e parte
 description: In questo argomento vengono descritte le funzionalità della parte e della rubrica globale della doppia scrittura.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729778"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386687"
 ---
 # <a name="party-and-global-address-book"></a>Rubrica globale e parte
 
@@ -139,7 +139,10 @@ La griglia include le colonne seguenti:
 
 Puoi usare il pulsante **Nuovo indirizzo elettronico** sopra la griglia per creare tutti gli indirizzi postali che desideri.
 
-Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle versioni future, tutti i campi degli indirizzi elettronici e postali verranno rimossi da altre schede, ad esempio le schede **Riepilogo** e **Dettagli**.
+Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle versioni future, tutti i campi dell'indirizzo postale e dell'indirizzo elettronico saranno rimossi da altre schede, per esempio le schede **Riepilogo** e **Dettagli** . I dettagli di contatto visualizzati nella scheda **Dettagli** sono copie di sola lettura dell'indirizzo elettronico primario, come telefono primario, email primario, telefono primario, fax primario e ID Twitter primario. Durante il processo di qualificazione dei lead puoi fornire sia un numero di telefono aziendale che un numero di cellulare. Il numero di telefono aziendale è considerato il telefono principale se **IsMobile=No** e il numero di cellulare è considerato il telefono secondario se **IsMobile=Sì**.
+
+> [!TIP]
+> Usa le schede **Indirizzi** e **Indirizzi elettronici** nei moduli **Account** e **Contatti** per gestire gli indirizzi postali ed elettronici. Questo assicura che i dati degli indirizzi si sincronizzino con Finance and Operations apps.
 
 ## <a name="setup"></a>Attrezzaggio
 
@@ -249,13 +252,11 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
     [Intestazioni ordine cliente CDS](mapping-reference.md#217) | salesorders
     [Intestazioni fattura di vendita V2](mapping-reference.md#118) | fatture
 
-> [!Note]
+> [!NOTE]
 > La mappa `CDS Contacts V2 (contacts)` è la mappa che hai interrotto nel passaggio 1. Quando si tenta di eseguire altre mappe, queste 2 mappe potrebbero essere visualizzate nell'elenco delle dipendenze. Non eseguire queste mappe.
-
-> [!Note]
+>
 > Se è installata la soluzione parte e rubrica globale, è necessario disabilitare il pluging denominato `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Se è disinstallata la soluzione parte e rubrica globale, è necessario riabilitare il pluging .
-
-> [!Note]
+>
 > Il campo `msdyn_*partynumber` (un campo di testo a riga singola) incluso nelle tabelle **Conto**, **Contatto** e **Fornitore** non dovrebbero essere utilizzate in futuro. Il nome dell'etichetta ha il prefisso **(Deprecato)** per chiarezza. Utilizza invece il campo **msdyn_partyid**. Il campo è una ricerca nella tabella **msdyn_party**.
 
 > Nome tabella | Vecchio campo | Nuovo campo
@@ -296,7 +297,6 @@ Per ulteriori informazioni, vedere [Riferimento per il mapping a doppia scrittur
 
 + Nelle app Finance and Operations, quando crei un cliente insieme all'indirizzo e lo salvi, l'indirizzo potrebbe non sincronizzarsi nella tabella **Indirizzo**. Ciò è dovuto a un problema di sequenza della piattaforma a doppia scrittura. Come soluzione alternativa, crea prima il cliente e salvalo. Quindi aggiungi l'indirizzo.
 + Nelle app Finance and Operations, quando un record cliente ha un indirizzo principale e crei un nuovo contatto per quel cliente, il record del contatto eredita un indirizzo principale dal record cliente associato. Questo accade anche per il contatto del fornitore. Dataverse attualmente non supporta questo comportamento. Se la doppia scrittura è abilitata, un contatto cliente ereditato con un indirizzo principale dall'app Finance and Operations è sincronizzato con Dataverse insieme al suo indirizzo.
-+ Indirizzi elettronici dalla tabella `msdyn_partyelectronicaddress` non fluiscono nei campi dell'indirizzo elettronico nelle tabelle **Conto** e **Contatto**. Abbiamo in programma di risolvere questo problema in una versione incrementale. I dati esistenti nei campi dell'indirizzo elettronico nelle tabelle **Conto** e **Contatto** non verranno sovrascritte.
 + Gli indirizzi elettronici impostati nella scheda corrispondente dei moduli **Conto**, **Contatto** e **Fornitore** provengono dalla tabella `msdyn_partyelectronicaddress`. Queste informazioni non fluiscono nelle transazioni associate come l'ordine cliente, offerta e ordine fornitore. Abbiamo in programma di risolvere questo problema in una versione incrementale. I dati esistenti nei campi dell'indirizzo elettronico nei record conto e contatto continueranno a funzionare su transazioni come ordine cliente, offerta e ordine fornitore.
 + Nelle app Finance and Operations puoi creare un record di contatto dal modulo **Aggiungi contatto**. Quando si tenta di creare un nuovo contatto dal modulo **Visualizza contatto**, l'azione non riesce. Questo è un problema noto.
 

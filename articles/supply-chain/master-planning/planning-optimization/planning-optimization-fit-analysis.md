@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751100"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344980"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
@@ -51,6 +51,9 @@ Per vedere il risultato dell'analisi di adeguatezza dell'ottimizzazione di piani
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Panoramica dei possibili risultati dell'analisi di adeguatezza
 
 La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'analisi di adeguatezza. Il segno di cancelletto (_\#_) verrà sostituito con un numero che indica il numero di record che presentano il problema elencato. Le funzionalità supportate o in anteprima sono disponibili con la versione 10.0.9 o successiva (a meno che un numero di versione superiore non sia elencato nella colonna "Disponibilità prevista").
+
+> [!NOTE]
+> Alcune incongruenze non possono essere identificate dall'analisi di adattamento di Planning Optimization. Per maggiori informazioni, vedere [Differenze tra la pianificazione generale classica e l'ottimizzazione della pianificazione](planning-optimization-differences-with-built-in.md).
 
 | Funzionalità | Problema elencato | Spiegazione | Disponibilità prevista |
 | --- | --- | --- | --- |
@@ -104,9 +107,13 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 
 [Panoramica sull'ottimizzazione della pianificazione](planning-optimization-overview.md)
 
-[Introduzione all'ottimizzazione della pianificazione](get-started.md)
+[Introduzione a Ottimizzazione pianificazione](get-started.md)
 
-[Visualizzare la cronologia del piano e i log di pianificazione](plan-history-logs.md)
+[Differenze tra la pianificazione classica e l'ottimizzazione della pianificazione](planning-optimization-differences-with-built-in.md)
+
+[Parametri non utilizzati da Ottimizzazione pianificazione](not-used-parameters.md)
+
+[Visualizzare i registri di pianificazione e dello storico del piano](plan-history-logs.md)
 
 [Applicare i filtri a un piano](plan-filters.md)
 

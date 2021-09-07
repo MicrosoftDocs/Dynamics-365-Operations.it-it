@@ -1,8 +1,8 @@
 ---
 title: Scegliere una tecnologia di integrazione dei dati
-description: Questo articolo fornisce informazioni sull'integrazione con i dati gestiti da Human Resources. Descrive diverse tecnologie di integrazione per aiutare a decidere quali tecnologie si adattano meglio alle proprie esigenze.
-author: andreabichsel
-ms.date: 02/28/2020
+description: Questo argomento fornisce informazioni sull'integrazione con i dati gestiti da Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720470"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414716"
 ---
 # <a name="choose-a-data-integration-technology"></a>Scegliere una tecnologia di integrazione dei dati
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720470"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Questo articolo fornisce informazioni sull'integrazione con i dati gestiti da Dynamics 365 Human Resources. Descrive diverse tecnologie di integrazione per aiutare a decidere quali tecnologie si adattano meglio alle proprie esigenze.
+Questo argomento fornisce informazioni per l'integrazione con i dati gestiti da Dynamics 365 Human Resources. Descrive diverse tecnologie di integrazione per aiutare a decidere quali tecnologie si adattano meglio alle proprie esigenze.
 
 ## <a name="data-integration-background"></a>Integrazione dati in background
 
 I dati aziendali sono una risorsa chiave che rende unica l'azienda. I dati della tua azienda sono estremamente preziosi. È possibile utilizzare le relazioni tra i dati raccolti in tutta l'azienda per migliorare i processi aziendali e la business intelligence all'interno dell'organizzazione. Ci impegniamo a fornire un accesso facile, sicuro e stabile ai dati aziendali indipendentemente dal sistema da cui provengono.
 
-Storicamente, l'integrazione dei dati tra più sistemi è stata sempre difficile.
-Microsoft sta implementando delle soluzioni per facilitare l'integrazione dei dati e un grande passo verso questo obiettivo viene realizzato mediante [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Storicamente, l'integrazione dei dati tra più sistemi è stata sempre difficile. Microsoft sta implementando delle soluzioni per facilitare l'integrazione dei dati e un grande passo verso questo obiettivo viene realizzato mediante [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Human Resources utilizza Dataverse come l'interfaccia pubblica preferita per gestire i dati di Human Resources. Prevediamo che in futuro tutti i dati più importanti gestiti dalle risorse umane saranno esposti in Dataverse. Microsoft raccomanda Dataverse come tecnologia da utilizzare per la maggior parte delle applicazioni di integrazione.
 
@@ -47,7 +46,7 @@ Le seguenti sezioni descrivono le diverse tecnologie di integrazione di dati dis
 
 ### <a name="dataverse-tables"></a>Tabelle Dataverse
 
-Dataverse è l'interfaccia di dati pubblici preferita per le risorse umane. È basata sulla piattaforma Dynamics 365 XRM utilizzata dalle soluzioni [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps).
+Dataverse è l'interfaccia di dati pubblici preferita per le risorse umane. È uscita dalla piattaforma Dynamics 365 XRM, che è utilizzata dalle soluzioni [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps) .
 
 Dataverse fornisce una piattaforma e l'API per le tabelle di dati. Quando si distribuisce Human Resources, ci si connette a un'istanza di Dataverse. Le entità per i dati di Human Resources vengono distribuiti nell'istanza di Dataverse. Le tabelle e i dati sono disponibili per qualsiasi applicazione in grado di connettersi all'istanza di Dataverse. Human Resources sincronizza i dati da e verso le tabelle Dataverse.
 

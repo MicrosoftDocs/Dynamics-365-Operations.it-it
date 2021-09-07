@@ -15,18 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7caabeaf92bbce63cc30b2fb76111b33455af1910c2ea822453c550c61e02dd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740886"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343216"
 ---
 # <a name="set-up-lease-journal-names"></a>Configurare nomi di giornale di leasing
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 I nomi dei giornali di leasing specificano i giornali di registrazione in cui vengono registrate le transazioni di Leasing cespite. Solo i nomi di giornale di registrazione assegnati al tipo di giornale di registrazione **Leasing cespite** vengono visualizzati nei campi **Riconoscimento iniziale** e **Nome giornale di registrazione mensile** della pagina **Parametri del leasing cespite**. Solo il tipo di giornale di registrazione **registrazione fattura fornitore** può essere assegnato al campo **Nome giornale di registrazione fatture**.
+
+Il sistema blocca la modifica di determinati campi finanziari per evitare eventuali scostamenti tra le transazioni e le pianificazioni. Alcuni campi bloccati includono: **Conto**, **Importi**, **Dimensioni finanziarie**, **Valuta** e **Tipo di transazione**. Inoltre, non sarà possibile aggiungere o eliminare righe di scrittura contabile in nessuna scrittura contabile del leasing cespiti, poiché ciò potrebbe causare scostamenti tra le pianificazioni e le transazioni.
+
 
 Per configurare i nomi dei giornali di leasing, segui questi passaggi.
 

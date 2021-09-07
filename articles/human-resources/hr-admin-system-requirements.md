@@ -1,8 +1,8 @@
 ---
 title: Requisiti di sistema
-description: Questo articolo descrive i requisiti per Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Questo argomento elenca i requisiti di sistema per Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ef0176926fd6c5c5d2bc852080dde5273d05d0f2edd20e091d97c71e503dce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15770595a0639c03df1138ec25010ca8168bd9a8
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761094"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393475"
 ---
 # <a name="system-requirements"></a>Requisiti di sistema
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo articolo descrive i requisiti per Microsoft Dynamics 365 Human Resources. Vengono descritti inoltre i paesi e le regioni in cui Human Resources è disponibile, oltre a informazioni su lingue e localizzazione per i dati di Human Resources.
+Questo argomento elenca i requisiti di sistema per Microsoft Dynamics 365 Human Resources. Vengono descritti inoltre i paesi e le regioni in cui Human Resources è disponibile, oltre a informazioni su lingue e localizzazione per i dati di Human Resources.
 
 ## <a name="supported-web-browsers"></a>Web browser supportati
 
-Human Resources può essere eseguito in uno dei seguenti Web browser in esecuzione sui sistemi operativi specificati: 
+Gli utenti possono accedere a Microsoft Dynamics 365 Human Resources usando uno qualsiasi dei seguenti browser web che girano sui sistemi operativi specificati: 
 
 *   Microsoft Edge (ultima versione pubblicamente disponibile) su Windows 10
 *   Internet Explorer 11 in Windows 10, Windows 8.1 o Windows 7
@@ -39,14 +39,17 @@ Human Resources può essere eseguito in uno dei seguenti Web browser in esecuzio
 
 Per trovare l'ultima versione rilasciata di ogni Web browser, andare al sito Web del produttore software. 
 
-> [!NOTE]
-> * Per acquisire le immagini generate da Registrazione attività e includerle nei documenti di Microsoft Word, è necessario che sia installata un'estensione Chrome. 
-> * L'editor flusso di lavoro viene avviato come un'applicazione ClickOnce. In Microsoft Edge e Internet Explorer (su una versione supportata di Microsoft Windows) supportano le applicazioni ClickOnce. L'applicazione ClickOnce dell'editor flusso di lavoro richiede un sistema operativo compatibile a 64 bit.
-> * Per visualizzare l'anteprima dei file PDF, si consiglia di utilizzare browser moderni come Microsoft Edge (versione pubblica più recente) su Windows 10 o Google Chrome (versione pubblica più recente) su Windows 10, Windows 8.1, Windows 8, Windows 7 o tablet Google Nexus 10.
->   Requisiti di rete
-> * Human Resources è progettato per reti con latenza pari a 250-300 millisecondi (ms) o inferiore. Questa è la latenza da un client browser al data center Microsoft Azure che ospita Human Resources. Si consiglia di verificare la latenza di rete all'indirizzo [www.azurespeed.com](https://www.azurespeed.com "Test di latenza di Azure").
-> * I requisiti di larghezza di banda per Human Resources dipendono dallo scenario in uso. La maggior parte degli scenari tipici richiede una larghezza di banda superiore a 50 kilobyte al secondo (Kbps).
-> 
+## <a name="special-considerations"></a>Considerazioni speciali
+
+* Per permettere a Task Recorder di catturare screenshot e includerli nei documenti Microsoft Word che vengono generati, è necessario installare un'estensione pre-release di Chrome
+* L'editor flusso di lavoro viene avviato come un'applicazione ClickOnce. In Microsoft Edge e Internet Explorer (su una versione supportata di Microsoft Windows) supportano le applicazioni ClickOnce. L'applicazione ClickOnce dell'editor flusso di lavoro richiede un sistema operativo compatibile a 64 bit.
+* Per visualizzare l'anteprima dei file PDF, si consiglia di utilizzare browser moderni come Microsoft Edge (versione pubblica più recente) su Windows 10 o Google Chrome (versione pubblica più recente) su Windows 10, Windows 8.1, Windows 8, Windows 7 o tablet Google Nexus 10.
+
+## <a name="network-requirements"></a>Requisiti di rete
+
+* Human Resources è progettato per reti con latenza pari a 250-300 millisecondi (ms) o inferiore. Questa è la latenza da un client browser al data center Microsoft Azure che ospita Human Resources. Si consiglia di verificare la latenza di rete all'indirizzo [www.azurespeed.com](https://www.azurespeed.com "Test di latenza di Azure").
+* I requisiti di larghezza di banda per Human Resources dipendono dallo scenario in uso. Gli scenari tipici richiedono una larghezza di banda di più di 50 kilobyte al secondo (KBps).
+ 
 > [!WARNING]
 > Non calcolare i requisiti di larghezza di banda da un'ubicazione client moltiplicando il numero di utenti per i requisiti minimi di larghezza di banda. L'utilizzo simultaneo di una determinata ubicazione è molto difficile da calcolare. Per i clienti con problemi relativi ai requisiti di larghezza di banda, utilizzare una versione di prova di Human Resources.
 
@@ -63,6 +66,5 @@ Per trovare l'ultima versione rilasciata di ogni Web browser, andare al sito Web
 > L'interfaccia utente è localizzata in altre lingue, tuttavia tutti i dati dell'utente sono memorizzati nella lingua in cui sono stati inseriti. È possibile creare e-mail e modelli in altre lingue, ma i dati come le informazioni sulla pianificazione sono disponibili solo in inglese al momento.
 
 Gli sviluppatori interessati a creare personalizzazioni specifiche per paese o regione o per creare una soluzione per un paese o una regione non attualmente supportato da Microsoft possono consultare la pagina [Globalizzazione](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

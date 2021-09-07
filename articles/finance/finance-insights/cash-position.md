@@ -1,5 +1,5 @@
 ---
-title: Posizione di cassa (anteprima)
+title: Posizione cassa
 description: Questo argomento descrive in che modo la funzionalità Previsione di cassa prevede la posizione di cassa di un'organizzazione per orari specifici. Descrive inoltre le opzioni disponibili per mostrare le previsioni per periodi diversi.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 457dd34a2ccddce0e94f956ba2b854c27a270f13341047e508ac702aa1281d25
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717475"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386316"
 ---
-# <a name="cash-position-preview"></a>Posizione di cassa (anteprima)
+# <a name="cash-position"></a>Posizione cassa
 
 [!include [banner](../includes/banner.md)]
 

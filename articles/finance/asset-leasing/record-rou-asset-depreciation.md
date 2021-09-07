@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778364"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345372"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrare l'ammortamento asset Right of use (anteprima)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Per i leasing rilevati nello stato patrimoniale un'organizzazione, l'Asset Right of use (ROU) viene ammortizzato mensilmente. In questo argomento viene illustrato come creare la scrittura contabile per l'ammortamento. L'ammortamento addebita il conto CoGe delle spese e accredita il conto CoGe degli ammortamenti accumulati, in base all'impostazione del profilo di registrazione e al tipo di leasing. Queste voci possono essere create per ogni leasing oppure possono essere create per più leasing utilizzando la funzionalità di giornale di registrazione batch.
 
@@ -36,6 +38,9 @@ Per i leasing rilevati nello stato patrimoniale un'organizzazione, l'Asset Right
 
 2. Seleziona il periodo di ammortamento, quindi seleziona **Crea giornale di registrazione**. Viene visualizzato un messaggio che informa che è stato creato il giornale di registrazione che verrà utilizzato per registrare l'ammortamento.
 3. Seleziona **Giornali di registrazione \> Giornali di registrazione leasing di cespiti** per aprire la pagina **Giornale di registrazione leasing cespite**, in cui è possibile visualizzare la scrittura contabile delle spese di ammortamento creata.
+
+   Il sistema blocca la modifica di determinati campi finanziari per evitare eventuali scostamenti tra le transazioni e le pianificazioni. Alcuni campi bloccati includono: **Conto**, **Importi**, **Dimensioni finanziarie**, **Valuta** e **Tipo di transazione**. Inoltre, non sarà possibile aggiungere o eliminare righe di scrittura contabile in nessuna scrittura contabile del leasing cespiti, poiché ciò potrebbe causare scostamenti tra le pianificazioni e le transazioni.
+
 4. Seleziona la scrittura contabile, quindi seleziona **registra** per registrare il movimento di ammortamento nella contabilità generale.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>Calcolo della spesa di ammortamento dell'asset ROU per leasing operativi

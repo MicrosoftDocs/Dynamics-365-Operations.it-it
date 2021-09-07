@@ -1,8 +1,8 @@
 ---
 title: Elaborare l'idoneità di iscrizione
-description: In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Questo argomento spiega come eseguire il processo di idoneità all'iscrizione.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782074"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417486"
 ---
 # <a name="process-enrollment-eligibility"></a>Elaborare l'idoneità di iscrizione
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
+Questo argomento spiega come eseguire il processo di idoneità all'iscrizione.
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Elaborazione idoneità iscrizione**.
 
@@ -53,13 +53,13 @@ In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità d
 
 ## <a name="view-process-results"></a>Visualizzare i risultati del processo
 
-In questo articolo viene descritto come visualizzare i risultati del processo di idoneità.
+Questo argomento spiega come visualizzare i risultati del processo di idoneità.
 
 1.  Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Risultati processo**.
 
-2.  Nel modulo **Risultati processo** sono specificati i seguenti campi:
+2.  Nella pagina dei **risultati del processo** , vengono specificati i seguenti campi:
 
-   | Campo | Descrizione |
+   | Campo | descrizione |
    | --- | --- |
    | **ID processo** | L'ID univoco per la combinazione di lavoratore, persona giuridica ed esecuzione del processo. |
    | **Tipo di processo** | Identifica il processo che è stato eseguito. Ad esempio: Iscrizione. |

@@ -1,6 +1,6 @@
 ---
-title: Gestisci tipi di codici a barre
-description: Questa procedura mostra come impostare una nuova definizione di codice a barre che potrà quindi essere utilizzata come parte del report distinta di prelievo.
+title: Gestire i tipi di codice a barre
+description: Questa procedura vi mostra come impostare una nuova definizione di codice a barre che può poi essere usata come parte del rapporto della lista di prelievo.
 author: perlynne
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,34 +14,34 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60fa8051ebe71c2606a5d6d3d1e22ec852023dd47301a008c98e9f4d7deaad29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 052311e15aeb20b927cbed217a2bda600dad60a5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755355"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345652"
 ---
-# <a name="maintain-barcode-types"></a>Gestisci tipi di codici a barre
+# <a name="maintain-bar-code-types"></a>Gestire i tipi di codice a barre
 
 [!include [banner](../../includes/banner.md)]
 
-Questa procedura mostra come impostare una nuova definizione di codice a barre che potrà quindi essere utilizzata come parte del report distinta di prelievo. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. Se si utilizza USMF è possibile utilizzare i valori di esempio visualizzati. Queste attività verranno in genere svolte da un responsabile del magazzino.
+Questa procedura vi mostra come impostare una nuova definizione di codice a barre che può poi essere usata come parte del rapporto della lista di prelievo. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. Se si utilizza USMF è possibile utilizzare i valori di esempio visualizzati. Queste attività verranno in genere svolte da un responsabile del magazzino.
 
-1. Passare ai codici a barre.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Impostazione codice a barre.
-4. Nel campo Descrizione digitare un valore.
-5. Nel campo Tipo di codice a barre selezionare un'opzione.
+1. Vai a **Codici a barre**.
+1. Selezionare **Nuovo**.
+1. Nel campo di **impostazione del codice a barre** , digitate un valore.
+1. Digitare un valore nel campo **Descrizione**
+1. Nel campo **Tipo di codice a barre** , selezionate un'opzione.
     * Se si utilizza USMF, è possibile selezionare 'Code 39'.  
-6. Nel campo Dimensioni immettere un numero.
-7. Nel campo Lunghezza massima immettere un numero.
-8. Fare clic su Salva.
-9. Chiudere la pagina.
-10. Passare a Parametri di gestione articoli e magazzino.
-11. Nel campo Impostazione codice a barre immettere o selezionare un valore.
-    * Selezionare l'impostazione codice a barre creata prima, ma tenere presente che il formato di codice a barre deve corrispondere al formato dell'identificatore univoco per il tipo di record utilizzato nel processo. Ad esempio, per i cicli di prelievo, il formato di codice a barre deve corrispondere al formato di riferimento del ciclo di prelievo, che è in genere una sequenza numerica.  
-12. Fare clic su Salva.
-13. Chiudere la pagina.
+1. Nel campo **Dimensione** , inserite un numero.
+1. Nel campo **Lunghezza massima** , inserite un numero.
+1. Selezionare **Salva**.
+1. Chiudere la pagina.
+1. Vai ai **parametri di gestione dell'inventario e del magazzino**.
+1. Nel campo di **impostazione del codice a barre** , inserire o selezionare un valore.
+    * Seleziona l'impostazione del codice a barre che hai creato prima, ma tieni presente che il formato del codice a barre deve corrispondere al formato dell'identificatore unico per il tipo di record usato nel processo. Ad esempio, per i cicli di prelievo, il formato di codice a barre deve corrispondere al formato di riferimento del ciclo di prelievo, che è in genere una sequenza numerica.  
+1. Selezionare **Salva**.
+1. Chiudere la pagina.
 
 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd37c98b64e6074d54b40e20f87f24912abcdd75575aa92e1e2b7345d3cce5a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf2a78a5ffdb95b334f751944fdd010bf8cbf01
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730479"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345199"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Introduzione alla fatturazione elettronica per il Brasile 
 
@@ -55,7 +55,7 @@ Completa questi passaggi prima di distribuire la configurazione dell'applicazion
 
 Questa sezione è a complemento della sezione **Configurazione specifica del paese dell'impostazione dell'applicazione** nell'argomento [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
-1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica*.
+1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
 2. Nella pagina **Funzionalità della fatturazione elettronica**, verifica che la funzionalità di fatturazione elettronica **NF-e brasiliano (BR)** sia selezionata.
 3. Nella scheda **Versioni** verificare che la versione **Bozza** sia selezionata.
 4. Nella scheda **Impostazioni**, selezionare **Impostazione applicazioni** e nel campo **Applicazione connessa**, selezionare l'applicazione in cui si desidera eseguire la distribuzione.

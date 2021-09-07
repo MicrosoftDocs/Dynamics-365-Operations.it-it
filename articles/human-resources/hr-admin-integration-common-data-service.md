@@ -1,8 +1,8 @@
 ---
 title: Configurare l'integrazione di Dataverse
-description: È possibile attivare o disattivare l'integrazione tra Microsoft Dataverse e Dynamics 365 Human Resources. È inoltre possibile visualizzare i dettagli di sincronizzazione, cancellare i dati di tracciabilità e sincronizzare di nuovo una tabella per risolvere problemi relativi ai dati tra i due ambienti.
-author: andreabichsel
-ms.date: 01/25/2021
+description: Questo argomento descrive l'integrazione tra Microsoft Dataverse e Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71afb7fb200f5e36c62569810812f1c73a67b512eafeec1ec73f755025b238d9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c942358772e8ca92774decc3d4b6914fab65e22
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782757"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414611"
 ---
 # <a name="configure-dataverse-integration"></a>Configurare l'integrazione di Dataverse
 

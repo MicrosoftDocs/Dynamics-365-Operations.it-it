@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720600"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343658"
 ---
 # <a name="budgeting-overview"></a>Panoramica dell'impostazione budget 
 
@@ -50,7 +50,7 @@ Successivamente, se esistono criteri che regolano l'approvazione delle voci del 
 
 Nella pagina **Dimensioni impostazione budget** è necessario selezionare le dimensioni finanziarie che vengono utilizzate per l'impostazione del budget, in base alle dimensioni che vengono utilizzate nel piano dei conti. Per l'impostazione del budget è possibile selezionare tutte le dimensioni finanziarie o un sottoinsieme di esse.
 
-Definire un *modello di budget* che corrisponda a tutti o ad alcuni dei budget. È possibile utilizzare un unico modello di budget per tutte le voci del registro di budget. In alternativa, è possibile creare modelli separati basati sul tipo di budget, la posizione geografica o un altro modo in cui un budget può essere classificato. 
+Definisci un *modello di budget* che corrisponda a tutti o ad alcuni dei budget. È possibile utilizzare un unico modello di budget per tutte le voci del registro di budget. In alternativa, è possibile creare modelli separati basati sul tipo di budget, la posizione geografica o un altro modo in cui un budget può essere classificato. 
 
 > [!NOTE] 
 > Se viene utilizzato il controllo del budget, è possibile associare un solo modello di budget a una durata ciclo di budget specifica. 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714332"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384587"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -113,16 +113,16 @@ Per rivedere le transazioni interessate, blocca le transazioni selezionate e inv
     - **Visualizza transazione**: apri il record della transazione selezionato.
     - **Blocca ordine**: questo pulsante è disponibile solo nella scheda **Ordini di vendita**. Selezionalo per bloccare l'ordine cliente selezionato.
     - **Blocca riga**: questo pulsante è disponibile solo nella scheda **Ordini di acquisto**. Selezionalo per bloccare la riga ordine cliente selezionata.
-    - **Notifica responsabile**: questo pulsante è disponibile solo nella scheda **Ordini di vendita**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'ordine cliente selezionato.
-    - **Notifica responsabile ordine**: questo pulsante è disponibile solo nella scheda **Ordini di acquisto**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'ordine di acquisto selezionato.
-    - **Notifica produzione**; questo pulsante è disponibile solo nella scheda **Ordini di produzione**. A differenza degli ordini di vendita e degli ordini di acquisto, gli ordini di produzione non hanno un singolo utente che ne sia responsabile dall'inizio alla fine. Invece, vari supervisori o pianificatori di solito assumono la proprietà di un sito specifico o di una parte specifica della produzione (ad esempio, per risorse o gruppi di risorse specifici). Pertanto, quando si seleziona questo pulsante, tutti gli utenti responsabili di qualsiasi risorsa correlata all'ordine di produzione selezionato ricevono una notifica di modifica.
-    - **Notifica preparatore**: questo pulsante è disponibile solo nella scheda **Richiesta di acquisto**. Selezionalo per inviare una notifica di modifica all'utente impostato come preparatore della richiesta di acquisto selezionata.
-    - **Notifica responsabile vendite**: questo pulsante è disponibile solo nella scheda **Offerte**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'offerta selezionata.
+    - **Notifica responsabile**: questo pulsante è disponibile solo nella scheda **Ordini di vendita**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'ordine cliente selezionato. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Notifica responsabile ordine**: questo pulsante è disponibile solo nella scheda **Ordini di acquisto**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'ordine di acquisto selezionato. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Notifica produzione**; questo pulsante è disponibile solo nella scheda **Ordini di produzione**. A differenza degli ordini di vendita e degli ordini di acquisto, gli ordini di produzione non hanno un singolo utente che ne sia responsabile dall'inizio alla fine. Invece, vari supervisori o pianificatori di solito assumono la proprietà di un sito specifico o di una parte specifica della produzione (ad esempio, per risorse o gruppi di risorse specifici). Pertanto, quando si seleziona questo pulsante, tutti gli utenti responsabili di qualsiasi risorsa correlata all'ordine di produzione selezionato ricevono una notifica di modifica. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Notifica preparatore**: questo pulsante è disponibile solo nella scheda **Richiesta di acquisto**. Selezionalo per inviare una notifica di modifica all'utente impostato come preparatore della richiesta di acquisto selezionata. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Notifica responsabile vendite**: questo pulsante è disponibile solo nella scheda **Offerte**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'offerta selezionata. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
     - **Scarto**: questo pulsante è disponibile solo nella scheda **Inventario**. Selezionalo per scartare l'inventario selezionato.
     - **Visualizza cronologia**: apri una cronologia delle azioni che sono state eseguite sulla transazione selezionata utilizzando la finestra di dialogo **Impatto aziendale sulle transazioni aperte**. (Ad esempio, la cronologia mostra se le notifiche sono state inviate o le transazioni sono state bloccate.) 
     - **Visualizza tutte le transazioni**: apri l'elenco completo di tutte le transazioni, non solo le transazioni aperte.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Rivedere ed elaborare le notifiche di modifica per le transazioni
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Rivedere ed elaborare le notifiche di modifica per le transazioni
 
 Puoi leggere ed elaborare le notifiche di modifica che ricevi nei seguenti modi:
 

@@ -1,8 +1,8 @@
 ---
 title: Elaborare eventi reali
 description: Durante il ciclo di vita dei dipendenti in Microsoft Dynamics 365 Human Resources, per ogni dipendente possono verificarsi varie modifiche agli eventi reali.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6bfbb9e31a7d8973c2b993f3792a7216f41924e0ff4c24b08c0dd954ab327c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 688a47d77dbd75ecd12af23f22a1d401703ed672
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775019"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417550"
 ---
 # <a name="process-life-events"></a>Elaborare eventi reali
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Durante il ciclo di vita dei dipendenti in Microsoft Dynamics 365 Human Resources, per ogni dipendente possono verificarsi varie modifiche agli eventi reali. Ad esempio, un matrimonio, un cambio di lavoro o un modifica relativa a una persona a carico/beneficiario. Per utilizzare gli eventi reali, è necessario abilitarli nel modulo dei parametri dei benefit, impostare i tipi di eventi reali nonché le opzioni degli eventi reali per i tipi di piano.
+Durante il ciclo di vita dei dipendenti in Microsoft Dynamics 365 Human Resources, per ogni dipendente possono verificarsi varie modifiche agli eventi reali. Ad esempio, un matrimonio, un cambio di lavoro o un modifica relativa a una persona a carico/beneficiario. Per usare gli eventi di vita, devi abilitare gli eventi di vita nella pagina dei **parametri dei benefici** , impostare i tipi di eventi di vita e impostare le opzioni degli eventi di vita per i tipi di piano.
 
 Prima di poter elaborare gli eventi reali, è necessario aver già eseguito l'iscrizione aperta almeno una volta durante un periodo di assunzione. Negli Stati Uniti, l'iscrizione aperta è in genere una volta all'anno. Al di fuori degli Stati Uniti, l'iscrizione aperta può essere effettuata al momento dell'assunzione. Un lavoratore non deve selezionare un piano di benefit per poter elaborare eventi reali, ma deve essere stato incluso nell'elaborazione dell'iscrizione aperta. 
 

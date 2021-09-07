@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720086"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386101"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720086"
 
 Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>Versione 2.0.9.0
+
+Questa versione corregge un problema per cui l'app poteva smettere di rispondere se gli utenti salivano di pagina dall'alto di una lista.
+
+## <a name="version-2080"></a>Versione 2.0.8.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Aggiunto il supporto per la [funzione di istruzioni a passi](mobile-app-titles-instructions.md) che è stata introdotta nella versione 10.0.21 di Supply Chain Management.
+- Aggiunta un'animazione per mostrare agli utenti che possono chiudere gli overlay passando il dito verso il basso.
+- Aggiunto il supporto per i tasti funzione nelle liste di azioni e nei menu. Gli utenti possono tenere premuto qualsiasi tasto funzione per tre secondi per ottenere una lista di comandi disponibili.
+- Risolto un problema che causava la visualizzazione del seguente messaggio di errore su alcuni dispositivi: "Impossibile trovare una vista adatta per la dimensione specificata"
+- Risolto un problema per cui la modalità a schermo intero non sempre funzionava quando si usava la tastiera su schermo.
+- Risolto un problema per cui lo scorrimento della pagina non funzionava sui dispositivi Windows.
+- Sono stati risolti vari problemi che causavano il blocco del sistema.
+
+## <a name="version-2070"></a>Versione 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nuove funzionalità, correzioni e miglioramenti nella versione 2.0.7.0
 

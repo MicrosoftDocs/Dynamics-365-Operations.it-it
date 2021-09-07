@@ -1,8 +1,8 @@
 ---
 title: Accedere a indirizzi privati per ruolo di sicurezza
-description: In questo articolo viene descritto come risolvere il problema in cui un cliente non può accedere a indirizzi privati.
-author: andreabichsel
-ms.date: 11/02/2018
+description: Questo argomento spiega come risolvere quando un cliente non può accedere agli indirizzi privati.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,17 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 21919e0bf75a5a47fc64b87410ccd75ff34259fb1c8c2bc1aa82318dcd0572b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b96733946e4ef79de244730d0c442b9900426c1
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719118"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413341"
 ---
-# <a name="access-to-private-addresses-by-security-role"></a>Accesso a indirizzi privati per ruolo di sicurezza
+# <a name="access-to-private-addresses-by-security-role"></a>Accedere a indirizzi privati per ruolo di sicurezza
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

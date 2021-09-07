@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764886"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402227"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Catalogo di apprendimento per amministratori di Dynamics 365 Supply Chain Management
 
@@ -61,6 +61,14 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Finance and Operations: Aggiornamento da 7.x a 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Partecipare alla prossima discussione tecnica durante la quale verrà illustrato il processo di aggiornamento da 7.X a 8.X. Verranno descritti vari scenari e le operazioni da eseguire per l'aggiornamento del codice e dei dati. Verranno descritti inoltre gli scenari di richiesta di estensibilità e come generarli ove opportuno. | Registrazione gratuita di una conferenza Web | 61 minuti |
 | [How to upgrade to 7.2 (July 2017) from 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | In questa sessione verrà spiegato come effettuare l'aggiornamento dall'applicazione Dynamics 365 Finance and Operations v7.0 (RTW) e v7.1 (1611) a v7.2 (luglio 2017). Si applica una chiara differenziazione tra i clienti Live e i progetti in corso (non ancora attivi). | Registrazione gratuita di una conferenza Web | 58 minuti |
 | [AX2012 to Dynamics 365 for Operations Upgrade (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Questa discussione tecnica fornirà una panoramica sull'aggiornamento del codice e dei dati da Dynamics AX 2012 a Dynamics 365 for Operations. | Registrazione gratuita di una conferenza Web | 45 minuti |
+| [AX2009 to Dynamics 365 for Operations Migration Tools (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | Questa sessione riguarderà gli strumenti disponibili per assistere l'utente nella migrazione da AX2009 a D365 for Operations. | Registrazione gratuita di una conferenza Web | 55 minuti |
+| [AX2009 Migration Tool](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | Questa sessione riguarderà gli strumenti disponibili per assistere l'utente nella migrazione da AX2009 a D365 for Operations. | Registrazione gratuita di una conferenza Web | 55 minuti |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| Contenuto | descrizione | Formattazione | Durata |
+|---------|-------------|--------|--------|
+| [Impostare la gestione delle modifiche ingegneristiche per Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | I produttori di oggi richiedono una forte gestione dei dati di prodotto, il controllo delle versioni e la gestione delle modifiche ingegneristiche per avere successo in un mondo di cicli di vita dei prodotti sempre più brevi, maggiori requisiti di qualità e affidabilità e una maggiore attenzione alla sicurezza dei prodotti. Impara come impostare la gestione del cambiamento dell'ingegneria in questo percorso di apprendimento. | Percorso di apprendimento online gratuito autonomo | 4 ore |
 
 ## <a name="servicing"></a>Manutenzione<a name="servicing"></a>
 
@@ -69,6 +77,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Finance and Operations: Gestione funzionalità (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Discussione tecnica sull'esperienza di gestione delle funzionalità. Fornisce un'area di lavoro in cui è possibile visualizzare, abilitare, disabilitare e pianificare le funzioni fornite in ogni versione. Per impostazione predefinita, le nuove funzionalità sono disabilitate. È possibile utilizzare l'area di lavoro per accendere alle funzionalità e visualizzare la documentazione correlata. Partecipare a questa riunione per vedere cosa viene offerto nella versione 10.0.3 e i piani per le versioni future. | Registrazione gratuita di una conferenza Web | 47 minuti |
 | [Finance and Operations: Manutenzione, supporto e gestione della produzione (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Discussione tecnica su come supportare, gestire e servire in modo efficiente l'ambiente di produzione Dynamics 365 for Finance and Operations. | Registrazione gratuita di una conferenza Web | 53 minuti |
 | [Finance And Operations: Microsoft Managed Continuous Updates (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | La cadenza di aggiornamento continuo per Finance and Operations è iniziata. Partecipare per discutere degli aggiornamenti continui gestiti da Microsoft, dell'esperienza utente già disponibile in Lifecycle Services e dei prossimi aggiornamenti. | Registrazione gratuita di una conferenza Web | 61 minuti |
+| [Finance And Operations: Microsoft Managed Continuous Updates: What's new - November 1, 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | Durante questa discussione vengono descritti gli aggiornamenti sulla cadenza degli aggiornamenti continui gestiti da Microsoft e l'esperienza dell'utente in Lifecycle Services. | Registrazione gratuita di una conferenza Web | 59 minuti |
 | [Microsoft Managed Continuous Updates: What's new (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Durante questa discussione vengono spiegate le novità degli annunci iniziali sugli aggiornamenti continui gestiti da Microsoft. Verrà discussa la cadenza degli aggiornamenti, la risposta al prezioso feedback sul processo e la prossima esperienza utente di Lifecycle Services, attraverso la quale è possibile gestire gli aggiornamenti. | Registrazione gratuita di una conferenza Web | 56 minuti |
 | [Microsoft Managed Continuous Updates (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | Verranno descritti i piani di Microsoft per mantenere aggiornato il sistema con l'ultima versione. Verranno indicati i tempi, la cadenza per gli aggiornamenti maggiori e minori, le procedure pianificate, le implicazioni e cosa si deve fare per risultati ottimali. | Registrazione gratuita di una conferenza Web | 62 minuti |
 | [Monitoring, Optimization Advisor & Critical KBs (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Vengono descritte le capacità di monitoraggio e ciò che Microsoft controlla nell'ambiente di produzione, il consulente per l'ottimizzazione e come può essere esteso, l'esperienza di "aggiornamenti X++ critici" in LCS e le best practice per l'opzione "Segnalare l'interruzione della produzione" in LCS. | Registrazione gratuita di una conferenza Web | 40 minuti |
@@ -86,6 +95,5 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | Contenuto  | Descrizione  | Formatta  |
 |----------|--------------|---------|
 | [Dynamics 365 Fundamentals](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Dimostrare di aver compreso Microsoft Dynamics 365, Power Platform, concetti di cloud, opzioni di licenza e opzioni di distribuzione e rilascio. | Esame, i costi variano in base alla regione |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

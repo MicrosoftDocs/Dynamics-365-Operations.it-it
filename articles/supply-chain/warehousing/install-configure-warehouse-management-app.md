@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782349"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384613"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installare e connettere l'app per dispositivi mobili Gestione magazzino
 
@@ -150,7 +150,7 @@ Puoi importare le impostazioni di connessione da un file o da un codice QR. Per 
 | ConnectionName | Specificare il nome dell'impostazione della connessione. La lunghezza massima consentita è di 20 caratteri. Poiché questo valore è l'identificatore univoco per un'impostazione di connessione, assicurati che sia univoco nell'elenco. Se sul dispositivo esiste già una connessione con lo stesso nome, verrà sovrascritta dalle impostazioni del file importato. |
 | ActiveDirectoryClientAppId | Specifica l'ID client di cui hai preso nota durante la configurazione di Azure AD nella sezione [Creare un'applicazione del servizio Web in Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Specifica l'URL principale di Supply Chain Management. |
-| ActiveDirectoryTenant | Specificare il tenant di Azure AD che stai utilizzando con il server Supply Chain Management. Questo valore ha la forma `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Ecco un esempio: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Specifica il nome del dominio Azure AD che stai usando con il server Supply Chain Management. Questo valore ha la forma `https://login.windows.net/<your-Azure-AD-domain-name>`. Ecco un esempio: `https://login.windows.net/contosooperations.onmicrosoft.com`. Per maggiori informazioni su come trovare il tuo nome di dominio Azure AD , vedi [Individuare gli ID importanti per un utente](/partner-center/find-ids-and-domain-names). |
 | Società | Specifica la persona giuridica in Supply Chain Management a cui si desidera connettere l'applicazione. |
 | ConnectionType | (Facoltativo) Specificare se l'impostazione di connessione deve utilizzare un certificato o un segreto client per connettersi a un ambiente. I valori validi sono *"certificato"* e *"clientsecret"*. Il valore predefinito è *"certificato"*.<p>**Nota:** i segreti client non possono essere importati.</p> |
 | IsEditable | (Facoltativo) Specifica se l'utente dell'app deve essere in grado di modificare le impostazioni di connessione. I valori validi sono *"true"* e *"false"*. Il valore predefinito è *"true"*. |
@@ -268,7 +268,7 @@ Se non disponi di un file o codice a matrice, puoi configurare manualmente l'app
         > [!IMPORTANT]
         > Non terminare questo valore con una barra (/).
 
-    - **Tenant di Active directory**: immetti il tenant di Azure AD che stai usando per il server Supply Chain Management. Questo valore ha la forma `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Ecco un esempio: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Tenant Active Directory** - Inserisci il nome del dominio Azure AD che stai usando con il server Supply Chain Management. Questo valore ha la forma `https://login.windows.net/<your-Azure-AD-domain-name>`. Ecco un esempio: `https://login.windows.net/contosooperations.onmicrosoft.com`. Per maggiori informazioni su come trovare il tuo nome di dominio Azure AD , vedi [Individuare gli ID importanti per un utente](/partner-center/find-ids-and-domain-names).
 
         > [!IMPORTANT]
         > Non terminare questo valore con una barra (/).

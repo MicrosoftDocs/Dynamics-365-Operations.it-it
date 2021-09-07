@@ -2,7 +2,7 @@
 title: Impostare un tenant B2C in Commerce
 description: Questo argomento descrive come configurare il tenant Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione del sito dell'utente in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772254"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344500"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -34,6 +34,9 @@ Dynamics 365 Commerce utilizza Azure AD B2C per supportare le credenziali dell'u
  
  > [!NOTE]
  > Gli ambienti di valutazione di Commerce vengono forniti con un tenant Azure AD B2C a scopo dimostrativo. Il caricamento del tuo tenant Azure AD B2C tramite i passaggi seguenti non è richiesto per gli ambienti di valutazione.
+
+> [!TIP]
+> Puoi proteggere ulteriormente gli utenti del tuo sito e migliorare la sicurezza dei tuoi inquilini Azure AD B2C con Azure AD Identity Protection e Conditional Access. Per rivedere le funzionalità disponibili per i tenant Azure AD B2C Premium P1 e Premium P2, vedere [Protezione dell'identità e accesso condizionato per Azure AD B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Creare o collegare un tenant AAD B2C esistente nel portale di Azure
 

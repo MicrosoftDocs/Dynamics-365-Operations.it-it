@@ -1,6 +1,6 @@
 ---
 title: Creare un conto principale
-description: Questa guida attività descrive come aggiungere un conto principale in un piano dei conti esistente.
+description: In questa procedura verrà illustrato come aggiungere un conto principale a un piano dei conti esistente.
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729632"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394638"
 ---
 # <a name="create-a-main-account"></a>Creare un conto principale
 
 [!include [banner](../../includes/banner.md)]
 
-Questa guida attività descrive come aggiungere un conto principale in un piano dei conti esistente. Questa registrazione utilizza la società dimostrativa USMF.  
+In questa procedura verrà illustrato come aggiungere un conto principale a un piano dei conti esistente. Questa registrazione utilizza la società dimostrativa USMF.  
 
 1. Andare a **Pannello di navigazione > Moduli > Contabilità generale > Piano dei conti > Conti > Conti principali**.
 2. Fare clic su **Nuovo**.

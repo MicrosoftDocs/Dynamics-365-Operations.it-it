@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 844e54caa072eef3481e094ef296a82fa099a68bb806d763baa550b1a2226347
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2bf3d41e94e741b628002768f9d6825219666ed
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762700"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343896"
 ---
 # <a name="warehouse-management-overview"></a>Panoramica gestione del magazzino
 
@@ -49,7 +49,7 @@ Per iniziare a lavorare con la gestione del magazzino, è necessario completare 
 - Supporto completo per batch e articoli con numeri di serie
 - Varie funzionalità di ricevimento di articoli
 - Molteplici strategie di prelievo
-- Supporto integrato per la generazione successiva di lettori di codici a barre
+- Supporto out-of-the-box per la prossima generazione di scanner di codici a barre
 - Tipi di contenitori/pallet per processi di magazzino
 - Funzionalità di conteggio avanzate
 - Stampa e trasferimento di etichette con il supporto Zebra ZPL

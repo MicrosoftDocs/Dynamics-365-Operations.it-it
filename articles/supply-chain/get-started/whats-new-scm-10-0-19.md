@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773539"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384661"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.19 (giugno 2021)
 
@@ -41,7 +41,7 @@ La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione
 | Inventario e logistica | [Funzionalità di ricerca per i campi Introduzioni documento e Testo di chiusura documento nella pagina Offerta di vendita](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Questa funzionalità aggiunge la funzionalità di ricerca per i campi **Introduzioni documento** e **Testo di chiusura documento** nella pagina **Offerta di vendita**.<br><br>Questo funzionalità è abilitata per impostazione predefinita. |
 | Inventario e logistica | [Esecuzione di magazzino con unità di scala nella rete perimetrale sul tuo hardware personalizzato](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Distribuzione di unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Produzione | [Esecuzione di produzione con unità di scala nella rete perimetrale sul tuo hardware personalizzato](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Distribuire unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Pianificazione | [Programmazione capacità infinita per Ottimizzazione pianificazione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Questa funzionalità consente la pianificazione della capacità con capacità infinita per l'ottimizzazione della pianificazione. Senza questa funzionalità, gli ordini di produzione pianificati ottengono il loro lead time dal lead time di inventario dei prodotti rilasciati, indipendentemente dal limite temporale di programmazione. |
+| Pianificazione | [Programmazione capacità infinita per Ottimizzazione pianificazione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Programmazione con capacità infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Pianificazione | Stabilizzazione di ordini pianificati basata su query | [Stabilizzare ordini pianificati](../master-planning/planning-optimization/planned-order-firming.md) |
 | Gestione informazioni sul prodotto | [Miglioramenti della pagina Suggerimenti variante](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Creare varianti prodotto predefinite](../pim/tasks/create-predefined-product-variants.md) |
 

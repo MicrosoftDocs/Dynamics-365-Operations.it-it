@@ -1,6 +1,6 @@
 ---
 title: Idoneità prodotto
-description: In questo argomento viene illustrato come utilizzare i controlli di idoneità per garantire che i dati master richiesti siano stati completati per un prodotto prima che venga utilizzato nelle transazioni.
+description: Questo argomento spiega come si possono usare i controlli di prontezza per assicurare che i dati master richiesti siano completati per un prodotto prima che sia usato nelle transazioni.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
+ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723553"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7415323"
 ---
 # <a name="product-readiness"></a>Idoneità prodotto
 
 [!include [banner](../includes/banner.md)]
 
-È possibile i controlli di idoneità per garantire che tutti i dati master richiesti siano stati specificati per un prodotto prima che venga utilizzato nelle transazioni. Quando vengono utilizzati i controlli di idoneità, un utente o un team è responsabile della convalida di dati specifici predefiniti relativi al prodotto. Se è presente un controllo di idoneità aperto per un prodotto, il prodotto non può essere rilasciato o utilizzato nelle transazioni.
+È possibile i controlli di idoneità per garantire che tutti i dati master richiesti siano stati specificati per un prodotto prima che venga utilizzato nelle transazioni. Quando vengono utilizzati i controlli di idoneità, un utente o un team è responsabile della convalida di dati specifici predefiniti relativi al prodotto. Se c'è un controllo di prontezza aperto per un prodotto, il prodotto non può essere usato nelle transazioni.
 
-La casella di controllo **Attiva** per un prodotto di progettazione, una variante o una versione è disponibile solo dopo che tutti i dati richiesti sono stati inseriti e verificati e dopo che tutti i controlli di idoneità sono stati elaborati. A quel punto, il prodotto, la versione o la variante possono essere rilasciati ad altre società e utilizzati nelle transazioni. È possibile creare controlli di disponibilità per nuovi prodotti, nuove varianti e nuove versioni di progettazione.
+La casella di controllo **Attiva** per un prodotto di progettazione, una variante o una versione è disponibile solo dopo che tutti i dati richiesti sono stati inseriti e verificati e dopo che tutti i controlli di idoneità sono stati elaborati. A quel punto, il prodotto, la versione o la variante possono essere usati nelle transazioni. È possibile creare controlli di disponibilità per nuovi prodotti, nuove varianti e nuove versioni di progettazione.
 
 È inoltre possibile applicare controlli di disponibilità a prodotti standard (non tecnici). Per ulteriori informazioni, vedi a sezione [Controlli di idoneità su prodotti standard](#standard-products) più avanti in questo argomento.
 

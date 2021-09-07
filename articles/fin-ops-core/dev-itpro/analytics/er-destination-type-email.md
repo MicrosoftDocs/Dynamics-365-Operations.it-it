@@ -2,7 +2,7 @@
 title: Tipo di destinazione posta elettronica ER
 description: Questo argomento spiega come configurare una destinazione e-mail per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769321"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343862"
 ---
 # <a name="email-er-destination-type"></a>Tipo di destinazione posta elettronica ER
 
@@ -53,9 +53,22 @@ Per inviare uno o più file di output tramite e-mail, segui questi passaggi.
 
 ## <a name="configure-an-email-destination"></a>Configurare una destinazione e-mail
 
-Puoi specificare il mittente e i destinatari del messaggio e-mail e puoi modificare l'oggetto e il corpo del messaggio. Puoi impostare testo costante per l'oggetto e il corpo del messaggio e-mail oppure utilizzare le [formule](er-formula-language.md) ER per creare in modo dinamico i testi del messaggio e-mail.
+### <a name="email-content"></a>Contenuto del messaggio e-mail
 
-Per impostazione predefinita, un messaggio e-mail viene inviato per conto dell'utente corrente. Per specificare un mittente differente, devi configurare il campo **Da**.
+Puoi modificare l'oggetto e il corpo del messaggio e-mail.
+
+Nel campo **Oggetto** , inserite il testo dell'oggetto dell'e-mail che dovrebbe apparire nel campo dell'oggetto di un messaggio elettronico generato in fase di esecuzione. Nel campo **Corpo** , inserisci il testo del corpo dell'e-mail che dovrebbe apparire nel campo corpo di un messaggio elettronico. Puoi impostare un testo costante per l'oggetto e il corpo dell'email, oppure puoi usare le [formule](er-formula-language.md) ER per creare dinamicamente il testo dell'email in tempo reale. La formula configurata deve restituire un valore di tipo [String](er-formula-supported-data-types-primitive.md#string) .
+
+Il corpo dell'e-mail è composto in formato TEXT o HTML, a seconda del client di posta elettronica. Puoi utilizzare qualsiasi layout, stile e marchio HTML e fogli CSS (Cascading Style Sheets) consentiti.
+
+> [!NOTE]
+> I client e-mail impongono limiti di layout e stile che potrebbero richiedere modifiche al codice HTML e CSS che usi per il corpo del messaggio. Si consiglia di familiarizzare con le migliori pratiche per la creazione di HTML che i client di posta elettronica più popolari supportano.
+>
+> Utilizzare la codifica corretta per implementare un ritorno a capo, a seconda della formattazione del corpo. Per maggiori informazioni, vedere la definizione del tipo di dati [String](er-formula-supported-data-types-primitive.md#string) .
+
+### <a name="email-addresses"></a>Indirizzi di posta elettronica
+
+È possibile specificare il mittente e i destinatari dell'e-mail. Per impostazione predefinita, l'e-mail viene inviata a nome dell'utente corrente. Per specificare un mittente differente, devi configurare il campo **Da**.
 
 > [!NOTE]
 > Quando viene configurata una destinazione di posta elettronica, il campo **Da** è visibile solo agli utenti che hanno il privilegio di sicurezza `ERFormatDestinationSenderEmailConfigure`, **Configura l'indirizzo e-mail del mittente per le destinazioni in formato ER**.

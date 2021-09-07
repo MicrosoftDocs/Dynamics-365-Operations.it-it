@@ -1,8 +1,8 @@
 ---
-title: Impostare i parametri di gestione dei benefit e self-service dei dipendenti per tutte le aziende
-description: Configurare i parametri di gestione dei benefit e self-service dei dipendenti in Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 12/07/2020
+title: Impostare la gestione dei benefici e i parametri di self service dei dipendenti per tutte le aziende
+description: Configurare i parametri per la gestione dei benefici e il self service dei dipendenti in Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9c6761c549aaa38d16616f3e9e9084cbff7c93d9350f8adc50720d263efaff25
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cdda08ad2debe6ffe40f1f3fd2ac84ce9fc1d620
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732779"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423425"
 ---
-# <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Impostare i parametri di gestione dei benefit e self-service dei dipendenti per tutte le aziende
+# <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Impostare la gestione dei benefici e i parametri di self service dei dipendenti per tutte le aziende
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -53,7 +53,7 @@ Prima di poter impostare piani di benefit in Microsoft Dynamics 365 Human Resour
 
 3. Selezionare **Salva**.
 
-## <a name="configure-employee-self-service-parameters"></a>Configurare i parametri di self-service dipendenti
+## <a name="configure-employee-self-service-parameters"></a>Configurare i parametri di Dipendente self-service
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Parametri Risorse umane**.
 
@@ -61,7 +61,7 @@ Prima di poter impostare piani di benefit in Microsoft Dynamics 365 Human Resour
 
    | Campo | Descrizione |
    | --- | --- |
-   | **Verifica benefit** | Il testo di verifica da utilizzare durante il checkout dei benefit self-service. |
+   | **Verifica benefit** | Il testo di verifica da utilizzare durante il checkout dei benefici self service. |
    | **Seleziona automaticamente i beneficiari designati** | Specifica se selezionare automaticamente le persone a carico e i beneficiari in base alla loro idoneità per le opzioni del piano. |
 
 3. Selezionare **Salva**.

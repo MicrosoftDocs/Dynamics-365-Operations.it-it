@@ -2,7 +2,7 @@
 title: Creare registrazioni prima nota mensili in un batch
 description: Questo argomento spiega come creare registrazioni prima nota in un batch per aumentare l'efficienza quando vengono registrate le spese di leasing mensili.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb03ebe316b1655b1d0ad1d2b9108c4ead7fc61f7a25b4f554b574186efa03b7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22e2892a6866123ecf0e72511bdce19fe12895df
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737727"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344855"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Creare registrazioni prima nota mensili in un batch
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Questo argomento spiega come creare registrazioni prima nota in un batch per aumentare l'efficienza quando vengono registrate le spese di leasing mensili. L'elaborazione batch può essere utilizzata per creare registrazioni prima nota da più scadenziari. Queste registrazioni prima nota possono includere canoni di leasing, ammortamento delle passività, ammortamento degli Asset ROU e spese per i costi esecutivi. È inoltre possibile utilizzare l'elaborazione batch per eseguire il riconoscimento iniziale di più leasing contemporaneamente o per creare rettifiche di transizione per più leasing contemporaneamente.
 
@@ -35,5 +37,6 @@ Per configurare un processo batch o per elaborare fatture di pagamento, ammortam
 >
 > Le scritture contabili vengono create, ma non verranno registrate finché non selezioni il comando **Esegui**.
 
+Per registrare il giornale di registrazione iniziale in una data diversa dalla data di inizio del leasing, seleziona **Assegnazione data di registrazione riconoscimento iniziale**. Verrà visualizzato un campo **Data** che ti consente di specificare la data di registrazione corretta.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

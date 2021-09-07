@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726189"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423449"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -81,9 +81,9 @@ Poiché il prodotto è rappresentato come unità di stockkeeping, i concetti di 
 
 ![Modello di dati per prodotti.](media/dual-write-product.png)
 
-Con la funzionalità di doppia scrittura attivata, i prodotti Finance and Operations sono sincronizzate in altri prodotti Dynamics 365 nello stato **Bozza**. Queste vengono aggiunte al primo listino prezzi con la stessa valuta. In altre parole, sono aggiunte al primo listino prezzi in un'app Dynamics 365 che corrisponde alla valuta della persona giuridica in cui il prodotto viene rilasciato in un'app Finance and Operations. Se non esiste un listino prezzi per la valuta data, verrà creato automaticamente un listino prezzi e il prodotto gli verrà assegnato.
+Con la funzionalità di doppia scrittura attivata, i prodotti Finance and Operations sono sincronizzate in altri prodotti Dynamics 365 nello stato **Bozza**. Vengono aggiunti al primo listino con la stessa valuta usata nell'app di customer engagement e usando l'ordinamento alfabetico sul nome del listino. In altre parole, sono aggiunte al primo listino prezzi in un'app Dynamics 365 che corrisponde alla valuta della persona giuridica in cui il prodotto viene rilasciato in un'app Finance and Operations. Se non esiste un listino prezzi per la valuta data, verrà creato automaticamente un listino prezzi e il prodotto gli verrà assegnato.
 
-L'attuale implementazione dei plugin a doppia scrittura che associano il listino prezzi predefinito all'unità cerca la valuta associata all'app Finance and Operations e trova il primo listino prezzi nell'app di interazione con i clienti utilizzando l'ordinamento alfabetico sul nome del listino prezzi. Per impostare un listino prezzi predefinito per una valuta specifica quando si dispone di più listini prezzi per quella valuta, è necessario aggiornare il nome del listino prezzi a un nome che appare prima nell'ordine alfabetico rispetto a qualsiasi altro listino prezzi per quella stessa valuta.
+L'attuale implementazione dei plugin a doppia scrittura che associano il listino prezzi predefinito all'unità cerca la valuta associata all'app Finance and Operations e trova il primo listino prezzi nell'app di interazione con i clienti utilizzando l'ordinamento alfabetico sul nome del listino prezzi. Per impostare un listino prezzi predefinito per una valuta specifica quando si dispone di più listini prezzi per quella valuta, è necessario aggiornare il nome del listino prezzi a un nome che appare prima nell'ordine alfabetico rispetto a qualsiasi altro listino prezzi per quella stessa valuta. Se non ha alcun listino per la valuta data, ne viene creato uno nuovo.
 
 Per impostazione predefinita, i prodotti delle app Finance and Operations sono sincronizzati con altre app Dynamics 365 nello stato di **Bozza**. Per sincronizzare il prodotto con stato **Attivo** di modo che sia possibile utilizzarlo direttamente, ad esempio, nelle offerte di ordine cliente, è necessario selezionare **Creare prodotti in stato attivo = Sì** in **Sistema > Amministrazione > Amministrazione sistema > Impostazioni di sistema > Vendite**.
 

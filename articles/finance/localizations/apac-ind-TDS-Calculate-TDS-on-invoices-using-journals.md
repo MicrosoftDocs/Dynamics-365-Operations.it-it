@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfe473f39ee729957924fd7c161aed01138cd507eea56766af35177891676f65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fde81efed6b8a72e2149056f0196e4f9d60e59f2
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778895"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345521"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>Calcolare la TDS sulle fatture utilizzando giornali di registrazione
 
@@ -65,6 +65,6 @@ Inizia aprendo la pagina **Giornali di registrazione generali** (**Contabilità 
 
 8. Immetti gli altri dettagli necessari. Convalida e registra il giornale di registrazione. L'importo TDS calcolato sulle fatture di acquisto viene registrato nel conto fornitori. L'importo TDS calcolato sulle fatture di vendita viene registrato nel conto clienti definito per ogni codice imposta TDS nel gruppo TDS. I conti clienti o fornitori per i codici imposta TDS sono definiti nella pagina **Codici ritenuta d'acconto**.
 
-9. Seleziona **Ritenuta d'acconto registrata** per aprire la pagina **Transazioni** **ritenuta** **d'acconto**. Nel campo **Valore** viene visualizzata la percentuale totale utilizzata per calcolare la TDS per la transazione.
+9. Seleziona **Ritenuta d'acconto registrata** per aprire la pagina **Transazioni ritenuta d'acconto**. Nel campo **Valore** viene visualizzata la percentuale totale utilizzata per calcolare la TDS per la transazione.
 
    I campi nelle schede **Panoramica**, **Generale** e **Importo** nella pagina Transazioni ritenuta d'acconto visualizza dettagli sull'importo TDS calcolato e sull''importo TDS rettificato per ogni codice imposta TDS associato al gruppo TDS.

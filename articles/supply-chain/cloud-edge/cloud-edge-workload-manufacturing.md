@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721465"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345301"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
 
@@ -44,7 +44,7 @@ Questo argomento descrive il funzionamento dei carichi di lavoro di esecuzione d
 
 Come mostrato nella figura seguente, il ciclo di vita della produzione è suddiviso in tre fasi: *Piano*, *Esecuzione* e *Finalizzazione*.
 
-[![Fasi di esecuzione della produzione in caso di utilizzo di un unico ambiente](media/mes-phases.png "Fasi di esecuzione della produzione in caso di utilizzo di un unico ambiente".](media/mes-phases-large.png)
+[![Fasi di esecuzione della produzione quando viene utilizzato un unico ambiente](media/mes-phases.png "Fasi di esecuzione della produzione quando viene utilizzato un unico ambiente.")](media/mes-phases-large.png)
 
 La fase di _Piano_ include la definizione del prodotto, la pianificazione, la creazione e la programmazione degli ordini e il rilascio. La fase di rilascio indica il passaggio dalla fase di _Piano_ alla fase di _Esecuzione_. Quando un ordine di produzione viene rilasciato, i processi dell'ordine di produzione saranno visibili nell'area di produzione e pronti per l'esecuzione.
 
@@ -54,7 +54,7 @@ Quando un processo di produzione viene contrassegnato come completato, si posta 
 
 Come mostrato nella figura seguente, quando vengono utilizzate le unità di scala, la fase di _Esecuzione_ viene suddivisa come carico di lavoro separato.
 
-[![Fasi di esecuzione della produzione in caso di utilizzo di unità di scala](media/mes-phases-workloads.png "Fasi di esecuzione della produzione in caso di utilizzo di unità di scala".](media/mes-phases-workloads-large.png)
+[![Fasi di esecuzione della produzione quando vengono utilizzate le unità di scala](media/mes-phases-workloads.png "Fasi di esecuzione della produzione quando vengono utilizzate le unità di scala.")](media/mes-phases-workloads-large.png)
 
 Il modello ora passa da un'installazione a istanza singola a un modello basato sull'hub e sulle unità di scala. Le fasi _Piano_ e _Finalizzazione_ vengono eseguite come operazioni di back-office sull'hub, mentre il carico di lavoro di esecuzione della produzione viene eseguito sulle unità di scala. I dati vengono trasferiti in modo asincrono tra l'hub e le unità di scala.
 

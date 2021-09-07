@@ -2,7 +2,7 @@
 title: Configurare origini dati Ricerca per utilizzare parametri specifici dell'applicazione ER
 description: In questo argomento viene descritto come configurare origini dati Ricerca nei formati di Creazione di report elettronici (ER) per utilizzare parametri specifici dell'applicazione ER.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723191"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343431"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Configurare origini dati Ricerca per utilizzare parametri specifici dell'applicazione ER 
 
@@ -69,7 +69,7 @@ L'origine dati `Model.Data.Tax` aggiunta è configurata per specificare un codic
 L'illustrazione seguente mostra come l'origine dati `Model.Data.Summary.LevelByLookup` di tipo **Campo calcolato** può essere configurata per chiamare l'origine dati **Ricerca** configurata fornendo i parametri richiesti. Per elaborare questa chiamata al runtime, ER esamina l'elenco di regole configurate nella sequenza definita per individuare la prima regola che soddisfa le condizioni fornite. In questo esempio, è la regola che contiene il codice fiscale che corrisponde a quello fornito. Di conseguenza, viene trovata la regola più appropriata e il valore di enumerazione configurato per la regola trovata viene restituito da questa origine dati.
 
 > [!NOTE]
-> Viene generata un'eccezione quando non viene trovata alcuna regola applicabile. Per evitare queste eccezioni, configurare ulteriori regole alla fine dell'elenco di regole per gestire i casi in cui viene fornito un valore non configurato o nessun valore. Usa le opzioni **\*Non vuoto\*** e **\*Vuoto\*** di conseguenza.  
+> Viene generata un'eccezione quando non viene trovata alcuna regola applicabile. Per evitare queste eccezioni, configurare ulteriori regole alla fine dell'elenco di regole per gestire i casi in cui viene fornito un valore non configurato o nessun valore. Usate di conseguenza le opzioni **\*Not blank**\* e **\*Blank**\* .  
 >
 > ![Aggiungere un'origine dati per chiamare l'origine dati Ricerca configurata.](./media/er-lookup-data-sources-img7.png)
 

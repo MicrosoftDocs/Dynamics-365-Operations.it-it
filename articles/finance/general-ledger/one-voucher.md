@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720528"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344060"
 ---
 # <a name="one-voucher"></a>Un giustificativo
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>Che cos'è Un giustificativo?
@@ -81,7 +82,7 @@ In seguito ad alcune conversazioni con i clienti, Microsoft ha compilato il segu
 
 I seguenti scenari possono essere soddisfatti solo utilizzando la funzionalità Un giustificativo. Se l'organizzazione ha uno di questi scenari, è necessario consentire l'immissione di più transazioni in un giustificativo impostando il parametro **Consenti più transazioni in un giustificativo** nella pagina **Parametri di contabilità generale**. Tali gap funzionali verranno corretti con altre funzionalità nelle versioni successive.
 
-> [!Note]
+> [!NOTE]
 > [Per i seguenti scenari il campo **Consenti più transazioni in un giustificativo** deve essere impostato su Sì nella scheda dettaglio **Generale** della pagina **Parametri di contabilità generale**.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Registrare i pagamenti cliente o fornitore in formato riepilogativo in un conto bancario
@@ -115,15 +116,7 @@ In questo scenario, i clienti nel singolo giustificativo sono lo stesso cliente,
 Se l'attività periodica di rimborso viene eseguita dal modulo Contabilità clienti, viene creata una transazione per spostare il saldo da un cliente a un fornitore. Per questo scenario, Un giustificativo deve essere utilizzato per rimborsare il cliente.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Gestione cespiti: rideterminazione ammortamento, divisione cespite, calcolo ammortamento su dismissione
-Le seguenti transazioni cespiti creano anche più transazioni in un singolo giustificativo:
-
-- Viene effettuata un'acquisizione aggiuntiva su un cespite e viene calcolata la rideterminazione dell'ammortamento.
-- Un cespite viene diviso.
-- Viene abilitato un parametro per calcolare l'ammortamento su dismissione e quindi viene dismesso il cespite.
-- Una data di messa in servizio di un cespite è precedente alla data di acquisizione. Di conseguenza, una rettifica dell'ammortamento viene registrata.
-
-> [!Note]
-> Quando si immettono le transazioni, assicurarsi che tutte le transazioni si applicano allo stesso cespite. Il giustificativo non viene pubblicato se include più di un cespite, anche se il campo **Nuovo giustificativo** è impostato su Un solo numero di giustificativo nella pagina **Nomi giornale di registrazione** nella contabilità generale. Se si include più di un cespite nel giustificativo, verrà visualizzato il messaggio **Può essere presente una sola transazione cespiti per giustificativo** e non sarà possibile registrare il giustificativo.  
+Con la versione 10.0.21 e successive, le transazioni di immobilizzazioni per il recupero dell'ammortamento, il frazionamento di un'attività e il calcolo dell'ammortamento per l'eliminazione di un'attività saranno create utilizzando diversi numeri di voucher.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Effetti attivi ed effetti passivi
 Gli effetti attivi ed effetti passivi richiedono l'utilizzo di Un giustificativo, poiché le transazioni spostano il saldo del cliente o del fornitore da un conto CoGe Contabilità fornitori o Contabilità clienti a un altro, in base allo stato del pagamento.

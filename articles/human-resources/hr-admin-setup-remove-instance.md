@@ -1,8 +1,8 @@
 ---
 title: Rimuovere un'istanza
-description: In questo argomento viene descritto il processo di rimozione di un ambiente test drive o di produzione per Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 08/07/2020
+description: Questo argomento descrive il processo di rimozione di un ambiente test drive o di produzione per Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 978bbbe9ecd57c8a80cfc0c17f1a3e2d8422482fddc1c4f2ea0bc8ac91d6615c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740817"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393499"
 ---
 # <a name="remove-an-instance"></a>Rimuovere un'istanza
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo argomento viene descritto il processo di rimozione di un ambiente test drive o di produzione per Microsoft Dynamics 365 Human Resources.
+Questo argomento spiega il processo di rimozione di un ambiente di prova o di produzione per Microsoft Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>Rimuovere un ambiente test drive
 
@@ -41,7 +41,7 @@ L'ambiente test drive esistente verrà rimosso. Quando viene rimosso, è possibi
 
 ## <a name="remove-a-production-environment"></a>Rimuovere un ambiente di produzione
 
-In questo articolo si presuppone che Human Resources sia già stato acquistato tramite un provider di soluzioni cloud o un contratto Enterprise Architecture (EA). 
+Questo argomento presuppone che tu abbia acquistato Human Resources attraverso un Cloud Solution Provider (CSP) o un accordo di architettura aziendale (EA). 
 
 Poiché un unico ambiente Human Resources è contenuto in unico ambiente Power Apps, è necessario considerare due opzioni. La prima opzione implica prima di tutto la rimozione dell'intero ambiente Power Apps. La seconda opzione implica la rimozione solo di Human Resources. La prima opzione è preferibile se si è creato un ambiente Power Apps appositamente per il provisioning di Human Resources e l'implementazione è appena stata iniziata, oppure se non si hanno integrazioni stabilite. La seconda opzione è appropriata quando si è stabilito un ambiente Power Apps con dati complessi utilizzati in Power Apps e Power Automate..
 

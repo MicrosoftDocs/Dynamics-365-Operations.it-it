@@ -1,6 +1,6 @@
 ---
 title: Impostazione dei parametri di costo sbarcato
-description: In questo argomento viene descritto come definire impostazioni di configurazione e relative a informazioni utilizzate nel modulo Costo sbarcato per registrazione, aggiornamenti dello stato, sequenze numeriche e comportamento.
+description: Questo argomento descrive come impostare le informazioni generali e le impostazioni di configurazione che sono utilizzate in tutto il modulo dei costi a terra per la registrazione, gli aggiornamenti di stato, le sequenze di numeri e il comportamento.
 author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 138ef5b3fc210a6a717200d0c41422ea901373c1dfbf1a53cd558603c11277ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b6678b2579db00a9f8884786fdaacd027fab744
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747987"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403978"
 ---
 # <a name="landed-cost-parameters-setup"></a>Impostazione dei parametri di costo sbarcato
 

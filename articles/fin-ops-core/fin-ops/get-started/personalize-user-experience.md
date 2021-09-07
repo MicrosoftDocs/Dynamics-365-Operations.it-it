@@ -2,7 +2,7 @@
 title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare l'app.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719303"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344376"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -169,7 +169,7 @@ Il dashboard è spesso la prima pagina che si visualizza quando si apre l'app. P
 Una funzionalità di personalizzazione unica disponibile nella dashboard è la possibilità di aggiungere riquadri. 
 
 - Se la funzionalità **App a tutta pagina** è disattivata, aggiungi un nuovo riquadro facendo clic con il pulsante destro del mouse su un elemento nella dashboard e selezionando **Aggiungi un'area di lavoro**. Il nuovo riquadro dell'area di lavoro viene creato nella parte inferiore del dashboard. È possibile rinominare questo nuovo riquadro dell'area di lavoro come si preferisce. È inoltre possibile aggiungere elenchi, riquadri e collegamenti nell'area di lavoro come descritto nella sezione [Aggiunta di riquadri, elenchi e collegamenti a un'area di lavoro](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) di questo argomento.
-- Se la funzionalità **App a tutta pagina** è attivata, aggiungi un nuovo riquadro facendo clic con il pulsante destro del mouse su un elemento nella dashboard e selezionando **Aggiungi un'app**. Nella finestra di dialogo, selezionare se si desidera aggiungere un riquadro per una nuova area di lavoro o un riquadro con contenuto da Power Apps o un sito Web. Quindi seguire i passaggi per configurare l'opzione selezionata. Un nuovo riquadro viene creato nella parte inferiore del dashboard. 
+- Se la funzionalità **App a tutta pagina** è attivata, aggiungi un nuovo riquadro facendo clic con il pulsante destro del mouse su un elemento nella dashboard e selezionando **Aggiungi un'app**. Nella finestra di dialogo, selezionare se si desidera aggiungere un riquadro per una nuova area di lavoro o un riquadro con contenuto da Power Apps o un sito Web. Quindi seguire i passaggi per configurare l'opzione selezionata. Un nuovo riquadro viene creato nella parte inferiore del dashboard. Per ulteriori informazioni su come aggiungere, modificare, eliminare e condividere queste applicazioni incorporate, vedi [Incorporare le applicazioni canvas da Power Apps](embed-power-apps.md) e [Incorporare le applicazioni di terze parti](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Condividere le personalizzazioni
 

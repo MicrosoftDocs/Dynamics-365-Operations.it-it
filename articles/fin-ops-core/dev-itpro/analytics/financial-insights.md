@@ -2,7 +2,7 @@
 title: Analisi finanziaria
 description: Analisi finanziaria utilizza Microsoft Power BI per combinare dati di indicatori di prestazione chiave (KPI) finanziari, grafici, e rendiconti finanziari.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767829"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416307"
 ---
 # <a name="financial-analysis"></a>Analisi finanziaria
 
@@ -36,9 +36,9 @@ ms.locfileid: "6767829"
 > - **Pagina** - Una scheda in un singolo file .pbix. Ogni pagina può contenere uno o più oggetti visivi.
 > - **Oggetto visivo** - Una singola origine dati, ad esempio scheda, KPI, diagramma, grafico, matrice o rendiconto finanziario. Una pagina con un rendiconto finanziario come oggetto visivo non può contenere altri oggetti visivi, a causa della dimensione dei dati inclusi.
 
-Attualmente, l'area di lavoro **Analisi finanziaria** è utilizzata per visualizzare dati relativi alla persona giuridica attiva o a tutte le persone giuridiche. Nelle versioni future, l'area di lavoro verrà trasformata in un punto in cui sarà possibile utilizzare Power BI per modificare e creare oggetti visivi.
+L'area di lavoro dell' **analisi finanziaria** si concentra sulla possibilità di visualizzare e filtrare i dati sui rapporti esistenti. Siete in grado di aggiungere nuove immagini all'area di lavoro dell' **analisi finanziaria** . L'area di lavoro **Analisi finanziaria** è disponibile sia per l'azienda corrente che per tutte le aziende per mostrare i dati di tutte le entità legali, indipendentemente dalle entità legali a cui il ruolo ha accesso.
 
-L'area di lavoro **Panoramica responsabile finanziario** mostra gli stessi oggetti visivi di **Analisi finanziaria**, ma con lo scopo principale di visualizzare e filtrare i dati nei report esistenti. Nelle versioni future, sarà possibile aggiungere nuovi oggetti visivi all'area di lavoro **Analisi finanziaria**. I nuovi oggetti visivi possono anche essere disponibili in aree di lavoro focalizzate su altri ruoli, come project manager o responsabili di contabilità fornitori. L'area di lavoro **Panoramica responsabile finanziario** continuerà a mostrare i dati per tutte le persone giuridiche, indipendentemente dalle persone giuridiche a cui il ruolo ha accesso.
+- [Aggiungi o modifica le visualizzazioni di Power BI sulla tua dashboard](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Impostazione di Dynamics 365 Finance
 **Contabilità generale**

@@ -1,8 +1,8 @@
 ---
 title: Panoramica di gestione dei benefit
-description: Panoramica della funzionalità di Gestione benefit in Dynamics 365 Human Resources. Offrire opzioni di benefit estese ai propri dipendenti con un'esperienza online di facile utilizzo.
-author: andreabichsel
-ms.date: 07/13/2021
+description: Questo argomento fornisce una panoramica della funzione di gestione dei benefici in Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719145"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417411"
 ---
-# <a name="benefits-management-overview"></a>Panoramica di Gestione benefit
+# <a name="benefits-management-overview"></a>Panoramica di gestione dei benefit
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Per rimanere competitivi, è necessario offrire una ricca gamma di benefit per attirare e trattenere i migliori dipendenti. Oltre ai benefit standard come la copertura medica e dentale, è possibile che si voglia offrire anche servizi estesi come assistenza all'adozione, programmi ricreativi e indennità per l'abbigliamento. Gestione benefit in Microsoft Dynamics 365 Human Resources fornisce una soluzione flessibile che supporta una vasta gamma di opzioni di benefit. Human Resources include anche un'esperienza per i dipendenti di facile utilizzo che evidenzia le offerte proposte.
+Per rimanere competitivi, è necessario offrire una ricca gamma di benefit per attirare e trattenere i migliori dipendenti. Oltre ai benefit standard come la copertura medica e dentale, è possibile che si voglia offrire anche servizi estesi come assistenza all'adozione, programmi ricreativi e indennità per l'abbigliamento. La gestione dei benefici in Microsoft Dynamics 365 Human Resources fornisce una soluzione flessibile che supporta un'ampia varietà di opzioni di benefici. Human Resources include anche un'esperienza per i dipendenti di facile utilizzo che evidenzia le offerte proposte.
 
 - I piani di benefit avanzati consentono di creare e gestire piani di benefit unici e supportare tabelle di tassi di benefit complesse e livelli nidificati. È possibile creare facilmente programmi di benefit, pacchetti e regole di iscrizione automatica per un'esperienza per i dipendenti più semplice.
 - I programmi di crediti flessibili consentono una ripartizione per supportare il pensionamento e altri eventi della vita.
@@ -37,13 +37,13 @@ Per rimanere competitivi, è necessario offrire una ricca gamma di benefit per a
 Se si desidera accedere ai dati dimostrativi, sarà necessario ridistribuire l'ambiente sandbox.
 
 > [!NOTE]
-> È ora possibile personalizzare i moduli di Gestione benefit. È ora possibile aggiungere campi personalizzati relativi ai tassi di copertura al modulo **Opzione di copertura** per piani di benefit. Per ulteriori informazioni sull'uso dei campi personalizzati, vedere [Campi personalizzati](hr-developer-custom-fields.md).
+> Ora puoi personalizzare le pagine di gestione dei benefici. I campi personalizzati relativi ai tassi di copertura possono essere aggiunti alla pagina delle **opzioni di copertura** per i piani di benefici. Per ulteriori informazioni sull'uso dei campi personalizzati, vedere [Campi personalizzati](hr-developer-custom-fields.md).
 >
 > ![Campi personalizzati nei moduli Gestione benefit](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Abilitare Gestione benefit
 
-In questo argomento viene descritto come attivare le funzionalità in Human Resources. Indica anche quali funzionalità esistenti in Human Resources sono sostituite da Gestione benefit o vengono disattivate in seguito all'attivazione di Gestione benefit.
+In questo argomento viene descritto come attivare le funzionalità in Human Resources. Spiega anche quali funzioni esistenti in Human Resources sono sostituite da Benefits management e quali funzioni sono disabilitate dopo aver attivato Benefits management.
 
 > [!IMPORTANT]
 > Dopo aver abilitato Gestione benefit in un ambiente di **Produzione** non è possibile disabilitarlo. Si consiglia di abilitare e testare Gestione benefit in un ambiente **sandbox** prima di abilitarlo in un ambiente di **Produzione**. Sono presenti differenze significative tra la funzionalità dei benefit legacy e la nuova funzionalità di Gestione benefit che richiedono una configurazione aggiuntiva e devono essere testati prima di essere messi in produzione.

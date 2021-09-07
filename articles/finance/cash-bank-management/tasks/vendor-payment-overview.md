@@ -1,6 +1,6 @@
 ---
 title: Panoramica pagamenti fornitore
-description: Questa guida attività descrive i vari metodi utilizzati per creare i pagamenti fornitore, ad esempio come utilizzare una proposta di pagamento o immettere manualmente un pagamento occasionale.
+description: Questa procedura ti guida attraverso i vari metodi usati per creare i pagamenti dei fornitori, incluso come usare una proposta di pagamento o inserire manualmente un pagamento una tantum.
 author: kweekley
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 997d505cc89eaa39b2bac273a5ae381c1c892a9537cbaa9b45156ecbb6fd237c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721829"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394440"
 ---
 # <a name="vendor-payment-overview"></a>Panoramica pagamenti fornitore
 
 [!include [banner](../../includes/banner.md)]
 
-Questa guida attività descrive i vari metodi utilizzati per creare i pagamenti fornitore, ad esempio come utilizzare una proposta di pagamento o immettere manualmente un pagamento occasionale. Questa procedura utilizza la società dimostrativa USMF.
+Questa procedura ti guida attraverso i vari metodi usati per creare i pagamenti dei fornitori, incluso come usare una proposta di pagamento o inserire manualmente un pagamento una tantum. Questa procedura utilizza la società dimostrativa USMF.
 
 1. Andare a **Pannello di navigazione > Moduli > Contabilità fornitori > Pagamenti > Giornale di registrazione pagamenti**.
 2. Fare clic su **Nuovo**.
 3. Selezionare il giornale di registrazione pagamenti in cui salvare i pagamenti fornitore. 
 4. Selezionare il giornale di registrazione o immetterlo manualmente.
 5. Fare clic su **Righe**.
-6. Nel **riquadro azioni**, fare clic su **Proposta di pagamento**.
+6. Nel **riquadro Azione**, fare clic su **Proposta di pagamento**.
 7. Fare clic su **Crea proposta di pagamento**. La proposta di pagamento è una query utilizzata per selezionare le fatture per il pagamento. È possibile modificare l'elenco delle fatture da pagare prima della creazione o della generazione dei pagamenti fornitore.
 8. Selezionare le fatture per il pagamento in base alla data di scadenza, allo sconto di cassa oppure a entrambi. 
 9. Immettere la data da confrontare con la data di scadenza o con lo sconto di cassa. 

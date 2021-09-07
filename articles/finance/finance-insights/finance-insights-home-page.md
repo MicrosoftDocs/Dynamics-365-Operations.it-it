@@ -1,5 +1,5 @@
 ---
-title: Home page di Finance insights (anteprima)
+title: Home page di Finance Insights
 description: Finance insights fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8c9d5b9857e978eb5e591f4d854d687f33b438025e81fe2c827ab7ecdb2be4e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768821"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386388"
 ---
-# <a name="finance-insights-home-page-preview"></a>Home page di Finance insights (anteprima)
+# <a name="finance-insights-home-page"></a>Home page di Finance Insights
 
 [!include [banner](../includes/banner.md)]
 

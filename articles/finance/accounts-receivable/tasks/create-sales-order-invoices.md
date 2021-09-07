@@ -1,6 +1,6 @@
 ---
-title: Creare fatture ordine cliente
-description: Questa guida attività descrive la fatturazione di un ordine cliente, inclusa l'unione delle fatture e l'elaborazione batch.
+title: Creare fatture di ordine cliente
+description: Questo argomento come fatturare un ordine cliente, inclusa l'unione delle fatture e l'elaborazione batch.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771826"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394612"
 ---
-# <a name="create-sales-order-invoices"></a>Creare fatture ordine cliente
+# <a name="create-sales-order-invoices"></a>Creare fatture di ordine cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Questa guida attività descrive la fatturazione di un ordine cliente, inclusa l'unione delle fatture e l'elaborazione batch. Questa procedura utilizza la società dimostrativa USMF.
+Questo argomento come fatturare un ordine cliente, inclusa l'unione delle fatture e l'elaborazione batch. Questa procedura utilizza la società dimostrativa USMF.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Creare una fattura da un ordine cliente.
 1. Selezionare **Pannello di navigazione > Moduli > Contabilità clienti > Ordini > Ordini cliente spediti ma non fatturati**.
 2. Selezionare un ordine cliente nell'elenco. 
-3. Nel **riquadro azioni**, fare clic su **Fattura > Gnera > Fattura**. Si noti che all'ordine cliente sono associati più documenti di trasporto. Verrà visualizzata solo la parola <multiple> anziché il numero del documento di trasporto.  
+3. Nel **riquadro azioni**, fare clic su **Fattura > Gnera > Fattura**. Si noti che all'ordine cliente sono associati più documenti di trasporto. Verrà visualizzata solo la parola *più* anziché il numero del documento di trasporto.  
 4. Espandere la sezione **Parametri**.
     - La registrazione deve essere impostata su Sì per registrare la fattura. È inoltre possibile disabilitare la registrazione e stampare solo la fattura. Tuttavia, è possibile ottenere lo stesso risultato creando una fattura proforma anziché una fattura.  
     - Questa opzione viene utilizzata per i processi batch. La query viene eseguita quando viene eseguito il processo batch.

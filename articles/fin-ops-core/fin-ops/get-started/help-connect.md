@@ -2,7 +2,7 @@
 title: Configurare l'esperienza della Guida per le app Finance and Operations
 description: Questo argomento fornisce informazioni sui componenti del sistema della Guida per alcune app Microsoft Dynamics 365.
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714525"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343814"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurare l'esperienza della Guida per le app Finance and Operations
 
@@ -54,7 +54,7 @@ Per configurare le guide attività per una soluzione, attieniti alla seguente pr
 > [!IMPORTANT]
 > La prima volta che si apre la scheda della **Guida**, è necessario connettersi a Lifecycle Services. Assicurati di selezionare il collegamento al centro del modulo, attendi la connessione, chiudi la finestra di dialogo quindi seleziona **OK** per accedere alla pagina **Parametri di sistema**.
 >
-> [![Connetti a LCS](./media/connect-to-lcs-crop-1024x365.png "Connetti a LCS".](./media/connect-to-lcs-crop.png)
+> [![Connetti a LCS](./media/connect-to-lcs-crop-1024x365.png "Connettiti a LCS.")](./media/connect-to-lcs-crop.png)
 
 1. Selezionare il progetto Lifecycle Services a cui connettersi.
 2. Selezionare le librerie BPM (nel progetto selezionato) da cui recuperare le registrazioni attività.

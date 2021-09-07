@@ -10,20 +10,19 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 51f0ab8f76fe3bce91d6e4ed56bdfa8529c1aacbd326a8b4b3d80615f872f8c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729553"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403893"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Dichiarazione della ritenuta d'acconto per l'Egitto (EG-00005)
 
 [!include[banner](../includes/banner.md)]
-
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Panoramica
@@ -113,7 +112,7 @@ Completare i seguenti passaggi per generare il report sulla dichiarazione IVA:
 1. Selezionare **Imposta** > **Dichiarazioni** > **Ritenuta d'acconto** > **Pagamento ritenuta d'acconto*.
 2. Selezionare il periodo di liquidazione, quindi selezionare la data di inizio per il report. 
 3. Immettere la data della transazione e quindi selezionare **OK**.
-4. Nella finestra di dialogo visualizzata, selezionare uno o più dei tipi di modulo **Modulo n. 41**, **Modulo n. 11** o **Nessuno**. Se si seleziona **Nessuno**, viene generato il report standard. 
+4. Nella finestra di dialogo visualizzata, seleziona uno o più dei tipi di modulo **Modulo n. 41**, **Modulo n. 11** o **Nessuno**. Se si seleziona **Nessuno**, viene generato il report standard. 
 5. Selezionare la lingua. Tutti i report vengono tradotti in **en-us** e **ar-eg**.
 6. Immettere la filiale e il nome della banca presso la quale verrà effettuato il pagamento dell'imposta.
 7. Selezionare il tipo di attività e immettere i numeri di assegno e documento. 

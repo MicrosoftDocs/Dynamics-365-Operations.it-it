@@ -1,8 +1,8 @@
 ---
 title: Configurare le tabelle virtuali di Dataverse
-description: In questo argomento viene descritto come configurare le tabelle virtuali per Dynamics 365 Human Resources. Genera e aggiorna tabelle virtuali esistenti e analizza tabelle generate e disponibili.
-author: andreabichsel
-ms.date: 01/25/2021
+description: Questo argomento mostra come configurare, generare, aggiornare le tabelle virtuali esistenti e analizzare le tabelle generate e disponibili per Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721609"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414666"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurare le tabelle virtuali di Dataverse
 
@@ -140,6 +140,9 @@ Il passaggio successivo consiste nel configurare l'origine dati delle tabelle vi
 
      >[!NOTE]
      >Assicurarsi di includere il carattere "**/**" alla fine dell'URL per evitare di ricevere un errore.
+
+     >[!NOTE]
+     >L'URL di destinazione determina l'ambiente delle risorse umane a cui le tabelle virtuali punteranno per i dati. Se crei un ambiente sandbox creando una copia del tuo ambiente di produzione, aggiorna questo valore all'URL dello spazio dei nomi del tuo nuovo ambiente sandbox. Questo assicura che le tabelle virtuali siano collegate ai dati dell'ambiente sandbox piuttosto che continuare a puntare all'ambiente di produzione.
 
    - **ID tenant**: l'ID tenant di Azure Active Directory (Azure AD).
 

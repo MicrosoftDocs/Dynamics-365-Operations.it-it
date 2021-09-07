@@ -8,14 +8,13 @@ audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729045"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416653"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configurazione a doppia scrittura da Lifecycle Services
 
@@ -69,7 +68,7 @@ Per configurare la doppia scrittura per un ambiente Dataverse, è necessario cre
 
 ## <a name="linking-mismatch"></a>Collegamenti non corrispondenti
 
-È possibile che il tuo ambiente LCS sia collegato a un'istanza Dataverse e che il tuo ambiente a doppia scrittura sia collegato a un'altra istanza Dataverse. Questi collegamenti non corrispondenti possono causare un comportamento imprevisto e potrebbero inviare dati all'ambiente sbagliato. L'ambiente consigliato da utilizzare per la doppia scrittura è quello creato come parte dell'integrazione di Power Platform, e a lungo termine, questo sarà l'unico modo di stabilire un collegamento tra ambienti.
+È possibile che il tuo ambiente LCS sia collegato a un'istanza Dataverse e che il tuo ambiente a doppia scrittura sia collegato a un'altra istanza Dataverse. Questi collegamenti non corrispondenti possono causare un comportamento imprevisto e potrebbero inviare dati all'ambiente sbagliato. L'ambiente raccomandato da usare per la doppia scrittura è quello che viene creato come parte dell'integrazione di Power Platform , e a lungo termine, questo sarà l'unico modo per stabilire un collegamento tra gli ambienti.
 
 Se il tuo ambiente presenta collegamenti non corrispondenti, LCS visualizza un avviso nella pagina dei dettagli dell'ambiente simile a "Microsoft ha rilevato che l'ambiente è collegato tramite la doppia scrittura a una destinazione diversa da quella specificata nell'integrazione di Power Platform e ciò è sconsigliato":
 
@@ -78,6 +77,6 @@ Se il tuo ambiente presenta collegamenti non corrispondenti, LCS visualizza un a
 Se vedi questo errore ci sono due opzioni, in base alle tue esigenze:
 
 + [Scollega e ricollega gli ambienti a doppia scrittura (ripristina o modifica il collegamento)](relink-environments.md#scenario-reset-or-change-linking) come specificato nella pagina dei dettagli dell'ambiente LCS. Questa è l'opzione ideale, perché puoi eseguirla senza il supporto Microsoft.  
-+ Se desideri mantenere il collegamento in doppia scrittura, puoi chiedere assistenza al supporto tecnico Microsoft per modificare l'integrazione di Power Platform e utilizzare l'ambiente Dataverse esistente come documentato nella sezione precedente.  
++ Se volete mantenere il vostro collegamento in dual-write, potete chiedere aiuto al supporto Microsoft per cambiare l'integrazione di Power Platform per usare il vostro ambiente esistente Dataverse come documentato nella sezione precedente.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

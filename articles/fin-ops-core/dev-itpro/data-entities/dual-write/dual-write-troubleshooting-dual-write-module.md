@@ -2,26 +2,19 @@
 title: Risoluzione dei problemi di doppia scrittura nelle app Finance and Operations
 description: Questo argomento fornisce informazioni che possono aiutarti a risolvere i problemi relativi al modulo doppia scrittura nelle app Finance and Operations.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6689fae215937f58c93cce72df3fa0a1b5aecd3a5ac9913981b253344a1ba13f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720738"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380142"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Risoluzione dei problemi di doppia scrittura nelle app Finance and Operations
 
@@ -46,7 +39,6 @@ Se non si riesce ad aprire la pagina **Doppia scrittura** selezionando il riquad
 
 *Il codice dello stato della risposta non indica l'esito positivo: 401 (non autorizzato).*
 
-
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Errore quando si apre l'interfaccia utente a doppia scrittura
 
 È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di accedere alla doppia scrittura dall'area di lavoro **Gestione dei dati**:
@@ -61,7 +53,11 @@ Per risolvere il problema, accedere utilizzando una finestra InPrivate in Micros
 
 È possibile che si verifichi il seguente errore durante il collegamento o la creazione di mappe:
 
-*Il codice dello stato della risposta non indica l'esito positivo: 403 (tokenexchange).<br> ID sessione: \<your session id\><br> ID attività radice: \<your root activity id\>*
+```dos
+Response status code does not indicate success: 403 (tokenexchange).
+Session ID: \<your session id\>
+Root activity ID: \<your root activity\> id
+```
 
 Questo errore può verificarsi se non si dispone di autorizzazioni sufficienti per collegare la doppia scrittura o creare mappe. Questo errore può verificarsi anche se l'ambiente Dataverse è stato ripristinato senza scollegare la doppia scrittura. Qualsiasi utente con ruolo di amministratore di sistema nelle app Finance and Operations e Dataverse può collegare gli ambienti. Solo l'utente che imposta la connessione per la doppia scrittura può aggiungere nuove mappe della tabella. Dopo l'impostazione, qualsiasi utente con ruolo di amministratore di sistema può monitorare lo stato e modificare i mapping.
 
@@ -75,16 +71,29 @@ Questo errore si verifica quando l'ambiente Dataverse collegato non è disponibi
 
 Per risolvere il problema, creare un ticket per il team di integrazione dei dati. Collegare la traccia di rete in modo che il team di integrazione dei dati possa contrassegnare le mappe come **Non in esecuzione** nel back-end.
 
-## <a name="error-while-trying-to-start-a-table-mapping"></a>Errore durante il tentativo di avviare un mapping della tabella
+## <a name="errors-while-trying-to-start-a-table-mapping"></a>Errori durante il tentativo di avviare un mapping della tabella
 
-È possibile che venga visualizzato un errore simile al seguente quando si tenta di impostare lo stato di un mapping su **In esecuzione**:
+### <a name="unable-to-complete-initial-data-sync"></a>Impossibile completare la sincronizzazione iniziale dei dati
+
+È possibile che venga visualizzato un errore simile al seguente quando si tenta di eseguire la sincronizzazione iniziale dei dati:
 
 *Impossibile completare la sincronizzazione iniziale dei dati. Errore: errore di doppia scrittura - registrazione del plug-in non riuscita: impossibile creare metadati di ricerca per la doppia scrittura. Errore di riferimento oggetto non impostato sull'istanza di un oggetto.*
 
-La correzione di questo errore dipende dalla causa dell'errore:
+Quando si tenta di impostare lo stato di un mapping su **In esecuzione** potrebbe essere visualizzato questo errore. La correzione dipende dalla causa dell'errore:
 
 + Se il mapping prevede mapping dipendenti, assicurarsi di abilitare i mapping dipendenti di questo mapping della tabella.
 + Nel mapping potrebbero mancare le colonne di origine o destinazione. Se manca una colonna nell'app Finance and Operations, seguire i passaggi nella sezione [Problema delle colonne di tabella mancanti sulle mappe](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se manca una colonna in Dataverse, fare clic sul pulsante **Aggiorna tabelle** sul mapping in modo che le colonne vengano automaticamente compilati nuovamente nel mapping.
 
+### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Errore di mancata corrispondenza della versione e aggiornamento delle soluzioni a doppia scrittura
+
+È possibile che vengano visualizzati i seguenti messaggi di errore quando si tenta di eseguire i mapping della tabella:
+
++ *Gruppi di clienti (msdyn_customergroups): doppia scrittura non riuscita - Soluzione Dynamics 365 for Sales "Dynamics365Company" con mancata corrispondenza della versione. Versione: '2.0.2.10' Versione richiesta: '2.0.133'*
++ Soluzione *Dynamics 365 for Sales "Dynamics365FinanceExtended" con mancata corrispondenza della versione. Versione: "1.0.0.0" Versione richiesta: "2.0.227"*
++ Soluzione *Dynamics 365 for Sales "Dynamics365FinanceAndOperationsCommon" con mancata corrispondenza della versione. Versione: "1.0.0.0" Versione richiesta: "2.0.133"*
++ Soluzione *Dynamics 365 for Sales "CurrencyExchangeRates" con mancata corrispondenza della versione. Versione: "1.0.0.0" Versione richiesta: "2.0.133"*
++ Soluzione *Dynamics 365 for Sales "Dynamics365SupplyChainExtended" con mancata corrispondenza della versione. Versione: "1.0.0.0" Versione richiesta: "2.0.227"*
+
+Per risolvere i problemi, aggiorna le soluzioni a doppia scrittura in Dataverse. Assicurati di eseguire l'aggiornamento alla soluzione più recente che corrisponda alla versione della soluzione richiesta.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

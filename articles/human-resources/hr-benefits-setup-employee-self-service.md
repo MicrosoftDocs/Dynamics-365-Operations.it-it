@@ -1,8 +1,8 @@
 ---
 title: Configurare il dipendente self-service
 description: In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cafd89d30ca3876953df099e2e7b7cc9c3e1fdc0f69bb039310434f8d770f6f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721585"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423320"
 ---
 # <a name="configure-employee-self-service"></a>Configurare il dipendente self-service
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service. I riquadri Piano benefit indirizzano gli utenti ai piani di benefit per i quali sono idonei.
+In Microsoft Dynamics 365 Human Resources, è possibile configurare configurare riquadri per la navigazione di livello superiore in **Self service dipendente**. I riquadri Piano benefit indirizzano gli utenti ai piani di benefit per i quali sono idonei.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Impostare un riquadro Piani di benefit
 
@@ -39,9 +39,9 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per
    | Campo | Descrizione |
    | --- | --- |
    | **ID riquadro** | L'identificatore univoco per il riquadro. |
-   | **Testo etichetta riquadro** | Il testo che verrà visualizzato per il riquadro Self service. |
+   | **Testo etichetta riquadro** | Il testo che apparirà per il riquadro in **Self service dipendente**. |
    | **Descrizione** | Una descrizione del riquadro. |
-   | **Indirizzo Internet** | Immettere l'URL alla pagina Dipendente self-service. |
+   | **Indirizzo Internet** | Inserisci l'URL della pagina di **Self service dipendente** . |
    | **Dimensioni riquadro** | La dimensione del riquadro: Piccolo, Medio o Grande. |
    | **Destinatario** | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
    | **Immagine di sfondo riquadro** | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
@@ -61,9 +61,9 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per
    | Campo | Descrizione |
    | --- | --- |
    | **ID riquadro** | L'identificatore univoco per il riquadro. |
-   | **Testo etichetta riquadro** | Il testo che verrà visualizzato per il riquadro Self service. |
+   | **Testo etichetta riquadro** | Il testo che apparirà per il riquadro in **Self service dipendente**. |
    | **Descrizione** | Una descrizione del riquadro. |
-   | **Indirizzo Internet** | Immettere l'URL alla pagina Dipendente self-service. |
+   | **Indirizzo Internet** | Inserisci l'URL della pagina di **Self service dipendente** . |
    | **Dimensioni riquadro** | La dimensione del riquadro: Piccolo, Medio o Grande. |
    | **Destinatario** | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
    | **Immagine di sfondo riquadro** | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |

@@ -1,8 +1,8 @@
 ---
 title: Effettua il provisioning di Human Resources
-description: Questo argomento descrive il processo di provisioning di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/14/2021
+description: Questo argomento spiega il processo di approvvigionamento di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58ffce072c8b73f4907b18c6c60b022f9a3b55f26cb785238367254021afdc28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756150"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393525"
 ---
 # <a name="provision-human-resources"></a>Effettua il provisioning di Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6756150"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Questo argomento descrive il processo di provisioning di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources. In questo argomento si presuppone che Human Resources sia già stato acquistato tramite un provider di soluzioni cloud o un contratto Enterprise Architecture (EA). Se si dispone di una licenza per Microsoft Dynamics 365 che include già il piano di assistenza per Human Resources e non è possibile completare i passaggi in questo articolo, contattare il Supporto tecnico.
+Questo argomento spiega il processo di approvvigionamento di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources. 
 
-Per iniziare, l'amministratore globale deve accedere a [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) e creare un nuovo progetto Human Resources. A meno che un problema relativo alla licenza impedisca il provisioning di Human Resources, non è necessario rivolgersi al Supporto tecnico o ai rappresentanti di Dynamics Service Engineering (DSE).
+## <a name="prerequisites"></a>Prerequisiti
+
+Prima di iniziare il provisioning di un nuovo ambiente di produzione, i seguenti prerequisiti devono essere presenti:
+
+- Hai acquistato Human Resources tramite un accordo con un Cloud Solution Provider (CSP) o un'architettura aziendale (EA). Se hai una licenza esistente di Microsoft Dynamics 365 che include già il piano di servizio Risorse umane e non riesci a completare i passaggi di questo argomento, contatta il supporto.
+
+- L'amministratore globale ha effettuato l'accesso a [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) e ha creato un nuovo progetto Human Resources. 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Effettuare il provisioning di un ambiente di valutazione per Human Resources
 
@@ -42,7 +48,7 @@ Gli ambienti di valutazione non sono destinati all'utilizzo come ambienti di pro
 
 Prima di creare il primo ambiente Human Resources, è necessario pianificare attentamente le esigenze ambientali per il progetto. Un abbonamento di base a Human Resources include due ambienti: un ambiente di produzione e un ambiente sandbox. A seconda della complessità del progetto, potrebbe essere necessario acquistare ambienti sandbox aggiuntivi per supportare le attività del progetto. 
 
-Le considerazioni per ambienti aggiuntivi includono, ma non sono limitate a, quanto segue:
+Considerazioni per altri ambienti:
 
 - **Migrazione dei dati**: potresti dover considerare un ambiente aggiuntivo per le attività di migrazione dei dati per consentire l'utilizzo del tuo ambiente sandbox a scopo di test durante il progetto. Avere un ambiente aggiuntivo consente alle attività di migrazione dei dati di continuare mentre le attività di test e la configurazione si verificano simultaneamente in un ambiente diverso.
 - **Integrazione**: potresti dover considerare un ambiente aggiuntivo per configurare e testare le integrazioni. Ciò potrebbe includere integrazioni native come le integrazioni LinkedIn Talent Hub di Ceridian Dayforce o integrazioni personalizzate come quelle per le buste paga, i sistemi di tracciamento dei candidati o i sistemi di benefit e i fornitori.
@@ -50,10 +56,11 @@ Le considerazioni per ambienti aggiuntivi includono, ma non sono limitate a, qua
 - **Progetto multifase**: potrebbe essere necessario un ambiente aggiuntivo per supportare la configurazione, la migrazione dei dati, il test o altre attività in una fase del progetto pianificata dopo la fase operativa iniziale del progetto.
 
  > [!IMPORTANT]
- > Si consiglia di utilizzare l'ambiente di produzione in tutto il progetto come ambiente di configurazione GOLD. Questo è importante perché non è possibile copiare un ambiente sandbox in un ambiente di produzione. Pertanto, nella fase di produzione, l'ambiente GOLD è il tuo ambiente di produzione e si completeranno le attività di cutover in questo ambiente.</br></br>
- > Si consiglia di utilizzare la sandbox o un altro ambiente per eseguire un cutover simulato prima della fase operativa. Puoi farlo aggiornando l'ambiente di produzione con la tua configurazione GOLD nel tuo ambiente sandbox.</br></br>
- > Si consiglia di mantenere un elenco di controllo dettagliato del cutover che includa ciascuno dei pacchetti di dati necessari per migrare i dati finali nell'ambiente di produzione durante la fase operativa del cutover.</br></br>
- > Si consiglia inoltre di utilizzare l'ambiente sandbox in tutto il progetto come ambiente di TEST. Se hai bisogno di ambienti aggiuntivi, la tua organizzazione può acquistarli a un costo aggiuntivo.</br></br>
+ > Mentre consideri il tuo ambiente, ti raccomandiamo quanto segue:
+ > - Usa il tuo ambiente di produzione per tutto il progetto come ambiente di configurazione GOLD. Questo è importante perché non è possibile copiare un ambiente sandbox in un ambiente di produzione. Pertanto, nella fase di produzione, l'ambiente GOLD è il tuo ambiente di produzione e si completeranno le attività di cutover in questo ambiente.</br></br>
+ > - Usa la tua sandbox o un altro ambiente per eseguire un finto cutover prima del go-live. Puoi farlo aggiornando l'ambiente di produzione con la tua configurazione GOLD nel tuo ambiente sandbox.</br></br>
+ > - Tenete una lista di controllo dettagliata per il cutover che include ciascuno dei pacchetti di dati richiesti per migrare i dati finali nell'ambiente di produzione durante il go-live cutover.</br></br>
+ > - Usa il tuo ambiente sandbox in tutto il progetto come ambiente di TEST. Se hai bisogno di ambienti aggiuntivi, la tua organizzazione può acquistarli a un costo aggiuntivo.</br></br>
 
 ## <a name="create-an-lcs-project"></a>Creare un progetto LCS
 
@@ -86,7 +93,7 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Huma
     > Il tipo di istanza Human Resources non può essere modificato una volta impostato. Verificare che sia selezionato il tipo di istanza corretto prima di continuare.</br></br>
     > Il tipo di istanza di Human Resources è distinto dal tipo di istanza dell'ambiente Microsoft Power Apps, impostato nell'interfaccia di amministrazione di Power Apps.
     
-3. Selezionare **Includi dati dimostrativi** se si desidera che l'ambiente includa lo stesso set di dati dimostrativi utilizzato nell'esperienza dei test drive di Human Resources. I dati dimostrativi sono utili per ambienti dimostrativi o di formazione a lungo termine e non devono mai essere utilizzati per ambienti di produzione. È necessario scegliere questa opzione al momento della distribuzione iniziale. Non è possibile aggiornare una distribuzione esistente in seguito.
+3. Seleziona l'opzione **Includi dati demo** se vuoi che il tuo ambiente includa lo stesso set di dati demo usato nell'ambiente di prova delle risorse umane. I dati dimostrativi sono utili per ambienti dimostrativi o di formazione a lungo termine e non devono mai essere utilizzati per ambienti di produzione. È necessario scegliere questa opzione al momento della distribuzione iniziale. Non è possibile aggiornare una distribuzione esistente in seguito.
 
 4. Il provisioning di Human Resources viene sempre eseguito in un ambiente Microsoft Power Apps per consentire l'integrazione e l'estendibilità di Power Apps. Leggere la sezione relativa alla selezione di un ambiente Power Apps in questo articolo prima di continuare. Se non si dispone già di un ambiente Power Apps, selezionare Gestione ambienti in LCS o accedere all'interfaccia di amministrazione di Power Apps. Attenersi quindi alla procedura indicata di seguito per [Creare un ambiente Power Apps](/powerapps/administrator/create-environment).
 
@@ -115,7 +122,7 @@ Utilizzare le seguenti linee guida per la determinazione dell'ambiente Power App
 
 4. È consigliabile considerare l'utilizzo di strategie di integrazione e di test di dati, ad esempio Sandbox, UAT o produzione. Si considerino attentamente le implicazioni per la distribuzione, poiché successivamente non è semplice cambiare l'ambiente Human Resources mappato a un ambiente Power Apps.
 
-5. Non è possibile utilizzare i seguenti ambienti Power Apps per Human Resources. Sono filtrati dall'elenco di selezione all'interno di LCS:
+5. I seguenti ambienti Power Apps non possono essere utilizzati per le risorse umane. Sono filtrati dall'elenco di selezione all'interno di LCS:
  
     - **Ambienti Power Apps predefiniti** - Mentre a ciascun tenant viene automaticamente assegnato un ambiente Power Apps predefinito, non è consigliabile utilizzarli con Human Resources. Tutti gli utenti tenant possono accedere all'ambiente Power Apps e potrebbero danneggiare involontariamente i dati di produzione durante i test e le esplorazioni con integrazioni Power Apps o Power Automate.
    
@@ -147,7 +154,7 @@ I dati per l'ambiente Human Resources saranno sempre contenuti nell'area geograf
 
 ## <a name="grant-access-to-the-environment"></a>Concedere l'accesso all'ambiente
 
-Per impostazione predefinita, l'accesso è consentito solo all'amministratore globale che ha creato ambiente. È necessario concedere esplicitamente l'accesso ad altri utenti dell'applicazione. È necessario aggiungere utenti e assegnare loro i ruoli appropriati nell'ambiente Human Resources. L'amministratore globale che ha distribuito Human Resources deve inoltre avviare Attract e Onboard per completare l'inizializzazione e abilitare l'accesso per altri utenti del tenant. Se questa operazione non viene eseguita, gli altri utenti non potranno accedere ad Attract e Onboard e riceveranno errori di violazione dell'accesso. Per ulteriori informazioni, vedere [Creare nuovi utenti](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Assegnare gli utenti ai ruoli di sicurezza](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Per impostazione predefinita, l'accesso è consentito solo all'amministratore globale che ha creato ambiente. È necessario concedere esplicitamente l'accesso ad altri utenti dell'applicazione. È necessario aggiungere utenti e assegnare loro i ruoli appropriati nell'ambiente Human Resources. Per ulteriori informazioni, vedere [Creare nuovi utenti](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Assegnare gli utenti ai ruoli di sicurezza](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

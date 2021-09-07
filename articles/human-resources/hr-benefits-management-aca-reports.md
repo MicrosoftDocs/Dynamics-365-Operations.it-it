@@ -1,8 +1,8 @@
 ---
 title: Genera rapporti Affordable Care Act nella gestione dei vantaggi
-description: Questo argomento descrive come la gestione dei benefici ti aiuta a tenere traccia delle informazioni riportate nel modulo 1.095-B e nel modulo 1.095-C per il mandato del datore di lavoro Affordable Care Act (ACA).
-author: andreabichsel
-ms.date: 12/28/2020
+description: Questo argomento descrive come la gestione dei benefici tiene traccia delle informazioni che sono riportate sul modulo 1095-B e sul modulo 1095-C per il mandato del datore di lavoro dell'Affordable Care Act (ACA).
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d681514f53dbaf4aafce33722d0c1837c3d270407c19d629c3383ff1a2472d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99ac67795cd3f587e54a84361dd4744b79b4dbbd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727067"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416256"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Genera rapporti ACA nella gestione dei vantaggi
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La gestione dei benefici ti aiuta a tenere traccia delle informazioni riportate nel modulo 1.095-B e nel modulo 1.095-C per il mandato del datore di lavoro Affordable Care Act (ACA). Come la capacità di reporting ACA nella vecchia area di lavoro **Benefici**, questa funzionalità si applica solo alle persone giuridiche negli Stati Uniti.
+La gestione dei benefici traccia le informazioni che sono riportate sul modulo 1095-B e sul modulo 1095-C per il mandato del datore di lavoro dell'Affordable Care Act (ACA). Come la capacità di reporting ACA nella vecchia area di lavoro **Benefici**, questa funzionalità si applica solo alle persone giuridiche negli Stati Uniti.
 
 Per utilizzare questa funzionalità, è necessario prima attivarla in **Gestione avanzata dei vantaggi**. Per ulteriori informazioni, comprese importanti avvertenze sulla gestione dei vantaggi, vedi [Abilita o disabilita la gestione dei vantaggi](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -145,7 +145,7 @@ Puoi inoltre generare i moduli ACA 1.095-B e 1.095-C, quindi distribuirli a cias
 2. Modifica i parametri in base alle esigenze, quindi seleziona **OK**.
 
     > [!NOTE]
-    > Quando si stampano moduli 1.095-C per più di 500 dipendenti, si riceveranno più di un file PDF. Ti consigliamo di aumentare il valore del campo **Dimensioni massime del file in megabyte** nella pagina **Parametri di gestione dei documenti** su **150**. Per aprire rapidamente quella pagina, puoi utilizzare il campo di ricerca sulla barra di navigazione.
+    > Quando si stampano moduli 1.095-C per più di 500 dipendenti, si riceveranno più di un file PDF. Ti consigliamo di aumentare il valore del campo **Dimensioni massime del file in megabyte** nella pagina **Parametri di gestione dei documenti** su **150**. (Per aprire rapidamente quella pagina, usa il campo di ricerca sulla barra di navigazione)
     >
     > ![Modifica delle dimensioni massime del file.](./media/hr-benefits-management-aca-maximum-file-size.png)
 

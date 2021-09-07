@@ -4,24 +4,17 @@ description: Questo argomento fornisce informazioni che possono aiutarti a risol
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736376"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416983"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Risoluzione dei problemi durante la sincronizzazione iniziale
 
@@ -46,7 +39,7 @@ Dopo aver abilitato i modelli di mapping, lo stato delle mappe deve essere **In 
 
 È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di eseguire il mapping e la sincronizzazione iniziale:
 
-*(\[Richiesta non valida\]. Il server remoto ha restituito un errore: (400) Richiesta non valida). Si è verificato un errore nell'esportazione AX*
+*(\[Richiesta non valida\]. Il server remoto ha restituito un errore: (400) Richiesta non valida). Si è verificato un errore nell'esportazione AX.*
 
 Di seguito è riportato un esempio del messaggio di errore completo.
 
@@ -198,7 +191,7 @@ Se le righe nella tabella cliente hanno valori nelle colonne **ContactPersonID**
 
         ![Progetto di integrazione dei dati per aggiornare CustomerAccount e ContactPersonId.](media/cust_selfref6.png)
 
-    2. Aggiungere i criteri dell'azienda nel filtro sul lato Dataverse in modo che solo le righe che soddisfano i criteri di filtro verranno aggiornati nell'app Finance and Operations. Per aggiungere un filtro, selezionare il pulsante del filtro. Nella finestra di dialogo **Modifica query**, è possibile aggiungere una query filtro come **\_msdyn\_company\_value eq '\<guid\>'**. 
+    2. Aggiungere i criteri dell'azienda nel filtro sul lato Dataverse in modo che solo le righe che soddisfano i criteri di filtro verranno aggiornati nell'app Finance and Operations. Per aggiungere un filtro, selezionare il pulsante del filtro. Nella finestra di dialogo **Modifica query**, è possibile aggiungere una query filtro come **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [NOTA] Se il pulsante del filtro non è presente, creare un ticket di supporto per chiedere al team di integrazione dei dati di abilitare la funzionalità sul tenant.
 
@@ -210,5 +203,36 @@ Se le righe nella tabella cliente hanno valori nelle colonne **ContactPersonID**
 
 8. Abilitare di nuovo il rilevamento delle modifiche nell'app Finance and Operations per la tabella **Clienti V3**.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Errori di sincronizzazione iniziale su mappe con più di 10 campi di ricerca
+
+È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di eseguire una sincronizzazione iniziale sui mapping **Clienti V3 - Conti**, **Ordini cliente** o qualsiasi mappa con più di 10 campi di ricerca:
+
+*CRMExport: esecuzione pacchetto completa. Descrizione errore 5 tentativi di ottenere dati da https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq 'id')&$orderby=accountnumber asc non riuscito.*
+
+A causa della limitazione della ricerca sulla query, la sincronizzazione iniziale non riesce quando il mapping di entità contiene più di 10 ricerche. Per ulteriori informazioni, vedi [Recuperare i record della tabella correlati con una query](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
+
+Per risolvere questo problema, procedere come segue:
+
+1. Rimuovi i campi di ricerca facoltativi dalla mappa di entità a doppia scrittura in modo che il numero di ricerche sia 10 o inferiore.
+2. Salva la mappa ed esegui la sincronizzazione iniziale.
+3. Quando la sincronizzazione iniziale per il primo passaggio ha esito positivo, aggiungi i campi di ricerca rimanenti e rimuovi i campi di ricerca sincronizzati nel primo passaggio. Assicurati che il numero di campi di ricerca sia 10 o inferiore. Salva la mappa ed esegui la sincronizzazione iniziale.
+4. Ripeti questi passaggi finché tutti i campi di ricerca non sono sincronizzati.
+5. Aggiungi tutti i campi di ricerca alla mappa, salva la mappa ed esegui la mappa con **Salta sincronizzazione iniziale**.
+
+Questo processo abilita la mappa per la modalità di sincronizzazione in tempo reale.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Problema noto durante la sincronizzazione iniziale degli indirizzi postali e degli indirizzi elettronici della parte
+
+È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di eseguire la sincronizzazione iniziale degli indirizzi postali e degli indirizzi elettronici della parte:
+
+*Impossibile trovare il numero della parte in Dataverse.*
+
+C'è un intervallo impostato su **DirPartyCDSEntity** nelle app Finance and Operations che filtra le parti di tipo **Persona** e **Organizzazione**. Di conseguenza, una sincronizzazione iniziale del mapping **Parti CDS – msdyn_parties** non sincronizzerà parti di altri tipi, incluse **Persona giuridica** e **Unità operativa**. Quando la sincronizzazione iniziale viene eseguita per **Indirizzi postali parte CDS (msdyn_partypostaladdresses)** o **Contatti parte V3 (msdyn_partyelectronicaddresses)** potresti ricevere l'errore.
+
+Stiamo lavorando a una soluzione per rimuovere l'intervallo del tipo di parte sull'entità Finance and Operations in modo che le parti di tutti i tipi possano essere sincronizzate con Dataverse correttamente.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Ci sono problemi di prestazioni durante l'esecuzione della sincronizzazione iniziale per i dati dei clienti o dei contatti?
+
+Se hai eseguito la sincronizzazione iniziale per i dati **Cliente**, hai le mappe **Cliente** in esecuzione e quindi esegui la sincronizzazione iniziale per i dati **Contatti**, potrebbero verificarsi problemi di prestazioni durante gli inserimenti e gli aggiornamenti delle tabelle **LogisticsPostalAddress** e **LogisticsPostalAddress** per gli indirizzi **Contatto**. Le stesse tabelle di indirizzi postali e indirizzi elettronici globali vengono monitorate per **CustCustomerV3Entity** e **VendVendorV2Entity** e la doppia scrittura cerca di creare più query per scrivere dati sull'altro lato. Se hai già eseguito la sincronizzazione iniziale per **Cliente**, interrompi la mappa corrispondente durante l'esecuzione della sincronizzazione iniziale per i dati **Contatti**. Fai la stessa cosa per i dati **Fornitore**. Al termine della sincronizzazione iniziale, puoi eseguire tutte le mappe saltando la sincronizzazione iniziale.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

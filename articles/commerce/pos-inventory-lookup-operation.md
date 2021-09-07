@@ -2,7 +2,7 @@
 title: Operazione di ricerca in magazzino nel POS
 description: Questo argomento descrive come utilizzare l'operazione di ricerca in magazzino nel POS di Dynamics 365 Commerce per visualizzare la disponibilità delle scorte dei prodotti in punti vendita e magazzini.
 author: boycezhu
-ms.date: 05/11/2021
+ms.date: 08/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: b697583f2ebf9950ad805d4f415dafb2c891de8052d4a47563b048059475030f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745334"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343838"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Operazione di ricerca in magazzino nel POS
 
@@ -38,10 +38,10 @@ Quando l'operazione di ricerca in magazzino viene avviata dall'applicazione POS,
 
 Per un singolo prodotto, l'operazione di ricerca in magazzino fornisce una visualizzazione elenco della ricerca in magazzino che mostra le seguenti informazioni sui prodotti per un elenco di ubicazioni:
 
-- **Scorte** - Si riferisce alla quantità "fisica disponibile" di un prodotto.
-- **Prenotata** - Si riferisce alla quantità "fisica prenotata" recuperata da Headquarters.
-- **Prenotata** - Si riferisce alla quantità "ordinata in totale" recuperata da Headquarters.
-- **Unità** - Si riferisce all'unità di misura del magazzino configurata in Headquarters.
+- **Inventario** - Si riferisce alla quantità "fisica disponibile" di un prodotto.
+- **Riservato** - Si riferisce alla quantità "riservata fisica" recuperata dalla sede centrale.
+- **Ordinato** - Si riferisce alla quantità "ordinata in totale" recuperata dalla sede centrale.
+- **Unità** - Si riferisce all'unità di misura dell'inventario configurata nella sede centrale.
 
 La visualizzazione elenco delle ubicazioni include tutti i punti vendita e i magazzini configurati nei gruppi di evasione a cui è collegato il punto vendita corrente, come mostrato nell'immagine di esempio seguente.
 
@@ -52,25 +52,26 @@ La visualizzazione elenco delle ubicazioni include tutti i punti vendita e i mag
 
 Le seguenti azioni sono disponibili nella barra delle app del POS:
 
-- **Ordina** - Questa azione consente all'utente del POS di ordinare i dati nella visualizzazione elenco in base a vari criteri. L'ordinamento basato sull'ubicazione è l'opzione predefinita. 
-  - **Georilevazione** (dall'ubicazione più vicina a quella più lontana, rispetto al punto vendita attuale)
-  - **Nome** (in ordine crescente o decrescente)
-  - **Numero punto vendita** (in ordine crescente o decrescente)
-  - **Scorte** (in ordine decrescente)
-  - **Scorte** (in ordine decrescente)
-  - **Ordinate** (in ordine decrescente)
-- **Filtro** - Questa azione consente all'utente del POS di visualizzare i dati filtrati per una specifica ubicazione.
-- **Mostra disponibilità punto vendita** - Questa azione consente all'utente del POS di visualizzare le quantità available-to-promise (ATP) per un prodotto nel punto vendita selezionato.
-- **Mostra ubicazione punto vendita** - Questa azione apre una pagina distinta per mostrare la visualizzazione della mappa, l'indirizzo e gli orari del punto vendita selezionato.
-- **Preleva al punto vendita** - Questa azione crea un ordine cliente per il prodotto che verrà prelevata presso il punto vendita selezionato e reindirizza l'utente alla schermata della transazione.
-- **Spedizione prodotto** - Questa azione crea un ordine cliente per il prodotto che verrà spedito al punto vendita selezionato e reindirizza l'utente alla schermata della transazione.
-- **Visualizza tutte le varianti** - Per un prodotto con varianti, questa azione passa da una visualizzazione elenco a una visualizzazione matrice che mostra le informazioni sulle scorte per tutte le varianti del prodotto.
-- **Aggiungi a transazione** - Questa azione aggiunge il prodotto al carrello e reindirizza l'utente alla schermata della transazione.
+- **Ordina** - Questa azione permette all'utente del POS di ordinare i dati nella vista elenco in base a vari criteri. L'ordinamento basato sull'ubicazione è l'opzione predefinita.
+
+    - **Posizione geografica** (dalla posizione più vicina a quella più lontana, in base alla distanza dal negozio attuale)
+    - **Nome** (in ordine crescente o decrescente)
+    - **Numero punto vendita** (in ordine crescente o decrescente)
+    - **Scorte** (in ordine decrescente)
+    - **Scorte** (in ordine decrescente)
+    - **Ordinate** (in ordine decrescente)
+
+- **Filtro** - Questa azione permette all'utente del POS di visualizzare i dati filtrati per una posizione specifica.
+- **Mostra la disponibilità del negozio** - Questa azione permette all'utente del POS di visualizzare le quantità disponibili alla promessa (ATP) per un prodotto nel negozio selezionato.
+- **Mostra la posizione del negozio** - Questa azione apre una pagina separata per mostrare la vista della mappa, l'indirizzo e gli orari del negozio selezionato.
+- **Ritiro in negozio** - Questa azione crea un ordine del cliente per il prodotto che sarà ritirato dal negozio selezionato, e reindirizza l'utente alla schermata della transazione.
+- **Spedisci prodotto** - Questa azione crea un ordine del cliente per il prodotto che sarà spedito dal negozio selezionato, e reindirizza l'utente alla schermata della transazione.
+- **Visualizza tutte le varianti** - Per un prodotto con varianti, questa azione passa da una vista elenco a una vista matrice che visualizza le informazioni di inventario per tutte le varianti del prodotto.
+- **Aggiungi alla transazione** - Questa azione aggiunge il prodotto al carrello e reindirizza l'utente alla schermata della transazione.
 
 > [!NOTE]
-> Per un ordinamento basato sull'ubicazione, la distanza tra un'ubicazione e il punto vendita corrente è determinata dalle coordinate (latitudine e longitudine) definite in Commerce Headquarters. Per un punto vendita, le informazioni sull'ubicazione sono definite nell'indirizzo principale dell'unità operativa associata al punto vendita. Per un magazzino non punto vendita, le informazioni sull'ubicazione sono definite nell'indirizzo del deposito. Se il punto vendita corrente non ha coordinate definite, l'opzione di ordinamento in base all'ubicazione visualizzerà il punto vendita corrente all'inizio dell'elenco e quindi ordinerà le altre ubicazioni in base al nome.
-
-> [!NOTE]
+> L'ordinamento basato sulla posizione che è stato introdotto nella versione Commerce 10.0.17 mostra il negozio corrente in alto. Per altre località, la distanza tra la località e il negozio attuale è determinata dalle coordinate (latitudine e longitudine) che sono definite nella sede centrale di Commerce. Per un negozio, l'informazione sulla posizione è definita nell'indirizzo primario dell'unità operativa che è associata al negozio. Per un magazzino non punto vendita, le informazioni sull'ubicazione sono definite nell'indirizzo del deposito. Prima della versione 10.0.17, la vista elenco mostrava sempre il negozio corrente in alto e ordinava le altre posizioni in ordine alfabetico.
+>
 > Le azioni **Mostra disponibilità punto vendita**, **Mostra ubicazione punto vendita**, **Preleva al punto vendita** e **Spedizione prodotto** non sono disponibili per le ubicazioni che non sono punti vendita.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Visualizzazione matrice della ricerca in magazzino per le varianti
@@ -93,12 +94,12 @@ L'ordine di visualizzazione dei valori delle dimensioni nella visualizzazione ma
 
 Per ogni cella della visualizzazione matrice sono disponibili le seguenti azioni:
 
-- **Vendi adesso** - Questa azione aggiunge la variante selezionata al carrello e reindirizza l'utente alla schermata della transazione.
-- **Preleva al punto vendita** - Questa azione crea un ordine cliente per la variante selezionata che verrà prelevata presso il punto vendita selezionato e reindirizza l'utente alla schermata della transazione.
-- **Spedizione prodotto** - Questa azione crea un ordine cliente per la variante selezionata che verrà spedita al punto vendita selezionato e reindirizza l'utente alla schermata della transazione.
-- **Disponibilità** - Questa azione visualizza una pagina separata che mostra le quantità ATP per la variante selezionata nel punto vendita selezionato.
-- **Mostra tutte le ubicazioni** - Questa azione mostra la visualizzazione elenco della disponibilità delle scorte standard con le informazioni sulle scorte per la variante selezionata.
-- **Visualizza dettagli prodotto** - Questa azione reindirizza l'utente alla pagina dei dettagli del prodotto della variante selezionata.
+- **Vendi ora** - Questa azione aggiunge la variante selezionata al carrello e reindirizza l'utente alla schermata della transazione.
+- **Ritira in negozio** - Questa azione crea un ordine del cliente per la variante selezionata che sarà ritirato dal negozio selezionato, e reindirizza l'utente alla schermata della transazione.
+- **Spedisci prodotto** - Questa azione crea un ordine del cliente per la variante selezionata che sarà spedita dal negozio selezionato, e reindirizza l'utente alla schermata della transazione.
+- **Disponibilità** - Questa azione porta l'utente ad una pagina separata che mostra le quantità ATP per la variante selezionata nel negozio selezionato.
+- **Mostra tutte le località** - Questa azione passa alla vista standard dell'elenco di disponibilità dell'inventario che mostra le informazioni dell'inventario per la variante selezionata.
+- **Visualizza i dettagli del prodotto** - Questa azione reindirizza l'utente alla pagina dei dettagli del prodotto (PDP) della variante selezionata.
 
 ## <a name="access-inventory-lookup-from-other-pages-in-pos"></a>Accedere alla ricerca in magazzino da altre pagine nel POS
 
@@ -124,7 +125,5 @@ In Commerce versione 10.0.9 e versioni precedenti, il valore **Fisico disponibil
 [Configurazioni visive dell'interfaccia utente POS](pos-screen-layouts.md)
 
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

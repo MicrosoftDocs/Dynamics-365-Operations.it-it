@@ -1,8 +1,8 @@
 ---
 title: Domande frequenti sull'integrazione con Finance
-description: In questo articolo vengono descritti i dati sincronizzati durante l'integrazione di Human Resources con Finance.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Questo argomento spiega quali dati sono sincronizzati in un'integrazione di Risorse Umane e Finanza.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782146"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413378"
 ---
 # <a name="integration-with-finance-faq"></a>Domande frequenti sull'integrazione con Finance
 
@@ -158,8 +158,7 @@ Quando si creano delle connessioni, verificare di scegliere Dynamics 365 Finance
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Durante la sincronizzazione degli impieghi, viene visualizzato l'errore "CompanyInfo_FK inesistente"o "Valore 31/12/2154 23:59:59 non trovato nel campo Data di fine impiego della tabella correlata Impiego". Cosa fare?
 
-Assicurarsi di eseguire il mapping alle persone giuridiche corrette. La sincronizzazione delle persone giuridiche non fa parte del modello predefinito, pertanto è previsto che ogni persona giuridica presente in Human Resources e Dataverse sia anche presente in Finance.
-Inoltre, verificare di selezionare le persone giuridiche corrette per il set di connessioni associato.
+Assicurarsi di eseguire il mapping alle persone giuridiche corrette. La sincronizzazione delle persone giuridiche non fa parte del modello predefinito, pertanto è previsto che ogni persona giuridica presente in Human Resources e Dataverse sia anche presente in Finance. Inoltre, verificare di selezionare le persone giuridiche corrette per il set di connessioni associato.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Dopo la configurazione di un progetto, il mapping dei campi per Finance sembra essere vuoto. Cosa fare?
 

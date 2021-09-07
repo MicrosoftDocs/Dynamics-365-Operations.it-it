@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716623"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402178"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Catalogo di apprendimento per responsabili dei progetti di implementazione con Dynamics 365 Finance
 
@@ -61,7 +61,6 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [How to upgrade to 7.2 (July 2017) from 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | In questa sessione verrà spiegato come effettuare l'aggiornamento dall'applicazione Dynamics 365 Finance and Operations v7.0 (RTW) e v7.1 (1611) a v7.2 (luglio 2017). Si applica una chiara differenziazione tra i clienti Live e i progetti in corso (non ancora attivi). | Tech Talk (webinar registrato) | 58 minuti |
 | [Finance and Operations: Aggiornamento da 7.x a 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Partecipare alla prossima discussione tecnica durante la quale verrà illustrato il processo di aggiornamento da 7.X a 8.X. Verranno descritti vari scenari e le operazioni da eseguire per l'aggiornamento del codice e dei dati. Verranno descritti inoltre gli scenari di richiesta di estensibilità e come generarli ove opportuno. Parte 1 di 2. | Tech Talk (webinar registrato) | 61 minuti |
 | [AX2012 to Dynamics 365 for Operations Upgrade (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Questa discussione tecnica fornirà una panoramica sull'aggiornamento del codice e dei dati da Dynamics AX 2012 a Dynamics 365 for Operations. | Tech Talk (webinar registrato) | 45 minuti |
-| [Reporting Options in Dynamics 365 for Operations (VIR810PAL) ](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | Questa sessione illustra i vari scenari di stampa in D365 for Operations, inclusi suggerimenti e i trucchi per l'agente di distribuzione documenti. | Tech Talk (webinar registrato) | 60 minuti |
 | [Analytics & Reporting Options: Printing and the Document Routing Agent](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| Partecipare questa discussione tecnica su due argomenti correlati. In primo luogo verranno discussi strumenti e modelli di soluzioni di analisi e report per Dynamics 365 for Finance and Operations, Enterprise Edition. In secondo luogo, verranno discussi gli scenari di stampa e l'agente di distribuzione documenti. | Tech Talk (webinar registrato) | 45 minuti |
 | [Course MB-300T01-A: Core common features of Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Questo corso illustra le principali funzionalità comuni di Microsoft Dynamics 365 for Finance and Operations. | Formazione con istruttore dal vivo o online, il costo varia in base alla regione e al partner | 1 giorno |
 | [Course MB-300T02-A: Core configuration in Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Questo corso illustra le attività di configurazione di base per Microsoft Dynamics 365 for Finance and Operations. | Formazione con istruttore dal vivo o online, il costo varia in base alla regione e al partner | 1 giorno |
@@ -93,6 +92,5 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Exam MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di svolgere le seguenti attività tecniche: utilizzare funzionalità e strumenti di implementazione comuni, configurare sicurezza, processi e opzioni, eseguire la migrazione dei dati e convalidare e supportare la soluzione. | Esame, i costi variano in base alla regione |
 | [Esame MB-310: Microsoft Dynamics 365 for Finance and Operations, Financials](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Questo esame misura la capacità di eseguire le seguenti attività tecniche: impostare e configurare la gestione finanziaria; gestire e applicare processi comuni; implementare e gestire la contabilità fornitori e clienti. | Esame, i costi variano in base alla regione |
 | [Microsoft Certified: Consulente funzionale dati finanziari associato di Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Certified: I consulenti funzionali di Dynamics 365 for Finance and Operations unificano i dati finanziari e le operazioni globali e automatizzano le attività e i flussi di lavoro, standardizzano gli ordini dei clienti, le vendite, la fatturazione e la creazione di rapporti. | Certificazione, i costi variano in base alla regione |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,9 @@
 ---
 title: Panoramica dell'integrazione fiscale per i canali di commercio
 description: In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Dynamics 365 Commerce.
-author: josaw
-ms.date: 02/01/2019
+author: EvgenyPopovMBS
+manager: annbe
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,26 +16,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 6545f3ee488cdd98530839f546ca2e6a434194437dfa98712a1a6ac3407afdbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733943"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343289"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Panoramica dell'integrazione fiscale per i canali di commercio
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Introduzione
+In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Dynamics 365 Commerce. 
 
-In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Dynamics 365 Commerce. L'integrazione fiscale include l'integrazione con vari servizi e dispositivi fiscali che consentono la registrazione fiscale delle vendite in conformità con le leggi fiscali locali intese a impedire la frode fiscale nel settore della vendita al dettaglio. Di seguito sono riportati alcuni scenari comuni che possono essere coperti utilizzando l'integrazione fiscale:
+L'integrazione fiscale include l'integrazione con vari servizi e dispositivi fiscali che consentono la registrazione fiscale delle vendite in conformità con le leggi fiscali locali intese a impedire la frode fiscale nel settore della vendita al dettaglio. Di seguito sono riportati alcuni scenari comuni che possono essere coperti utilizzando l'integrazione fiscale:
 
 - Registrare una vendita in un dispositivo fiscale collegato al POS, ad esempio una stampante fiscale, e stampare una ricevuta fiscale per il cliente.
 - Inviare in modo sicuro informazioni relative a vendite e resi completati in Retail POS a un servizio Web esterno gestito dall'ufficio tributario competente.
 - Assicurare l'inalterabilità dei dati delle transazioni di vendita mediante firme digitali.
 
-La funzionalità di integrazione fiscale è un framework che fornisce una soluzione comune per un ulteriore sviluppo e personalizzazione dell'integrazione tra Retail POS e i servizi e i dispositivi fiscali. La funzionalità include inoltre campioni di integrazione fiscale che supportano scenari di base per specifici paesi o aree geografiche e utilizzabili con specifici servizi o dispositivi fiscali. Un esempio di integrazione fiscale è costituito da più estensioni di componenti di Commerce ed è incluso nel kit SDK. Per ulteriori informazioni su esempi di integrazione fiscale, vedere [Esempi di integrazione fiscale in Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Per informazioni su come installare e utilizzare Retail SDK, vedere [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+La funzionalità di integrazione fiscale è un framework che fornisce una soluzione comune per un ulteriore sviluppo e personalizzazione dell'integrazione tra Retail POS e i servizi e i dispositivi fiscali. La funzionalità include inoltre campioni di integrazione fiscale che supportano scenari di base per specifici paesi o aree geografiche e utilizzabili con specifici servizi o dispositivi fiscali. Un esempio di integrazione fiscale è costituito da più estensioni di componenti di Commerce ed è incluso nel kit SDK. Per maggiori informazioni sugli esempi di integrazione fiscale, vedi [Esempi di integrazione fiscale nel Commerce SDK](#fiscal-integration-samples-in-the-commerce-sdk). Per informazioni su come installare e usare il Commerce SDK, vedi [Architettura del kit di sviluppo software (SDK) per la vendita al dettaglio](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Per supportare altri scenari non supportati da un esempio di integrazione fiscale, integrare Retail Retail POS con altri servizi o dispositivi fiscali o soddisfare i requisiti di altri paesi o aree geografiche, è necessario estendere un esempio di integrazione fiscale esistente o creare un nuovo esempio utilizzando un esempio esistente.
 
@@ -55,13 +56,13 @@ Un processo di registrazione fiscale per un registro POS specifico viene definit
 Nell'esempio seguente viene illustrato un flusso di esecuzione di registrazione fiscale tipico per un dispositivo fiscale. Il flusso inizia con un evento nel POS (ad esempio, il completamento di una transazione di vendita) e implementa la seguente sequenza di fasi:
 
 1. Il POS richiede un documento fiscale da CRT.
-2. CRT determina se l'evento corrente richiede la registrazione fiscale.
-3. In base alle impostazioni del processo di registrazione fiscale, CRT identifica un connettore fiscale e un fornitore di documenti fiscali corrispondente da utilizzare per la registrazione fiscale.
-4. CRT esegue il fornitore di documenti fiscali che genera un documento fiscale (ad esempio, un documento XML) che rappresenta l'evento o la transazione.
-5. Il POS invia il documento fiscale preparato da CRT a una stazione hardware.
-6. La stazione hardware esegue il connettore fiscale che elabora il documento fiscale e lo comunica al servizio o al dispositivo fiscale.
-7. Il POS analizza la risposta del servizio o del dispositivo fiscale per determinare se la registrazione fiscale è stata eseguita correttamente.
-8. CRT salva la risposta nel database del canale.
+1. CRT determina se l'evento corrente richiede la registrazione fiscale.
+1. In base alle impostazioni del processo di registrazione fiscale, CRT identifica un connettore fiscale e un fornitore di documenti fiscali corrispondente da utilizzare per la registrazione fiscale.
+1. CRT esegue il fornitore di documenti fiscali che genera un documento fiscale (ad esempio, un documento XML) che rappresenta l'evento o la transazione.
+1. Il POS invia il documento fiscale preparato da CRT a una stazione hardware.
+1. La stazione hardware esegue il connettore fiscale che elabora il documento fiscale e lo comunica al servizio o al dispositivo fiscale.
+1. Il POS analizza la risposta del servizio o del dispositivo fiscale per determinare se la registrazione fiscale è stata eseguita correttamente.
+1. CRT salva la risposta nel database del canale.
 
 ![Schema soluzione.](media/emea-fiscal-integration-solution.png "Schema soluzione")
 
@@ -117,6 +118,8 @@ Una transazione fiscale archivia i seguenti dettagli:
 - Lo stato della registrazione fiscale: **Completata** per una registrazione fiscale riuscita, **Ignorata** se l'operatore ha selezionato l'opzione **Ignora** per una registrazione non riuscita o **Contrassegnata come registrata** se l'operatore ha selezionato l'opzione **Contrassegna come registrata**.
 - Transazioni codice informativo correlate a una transazione fiscale selezionata. Per visualizzare le transazioni codice informativo, nella scheda Dettaglio **Transazioni fiscali**, selezionare una transazione fiscale con stato **Ignorata** o **Contrassegnata come registrata** e quindi selezionare **Transazioni codice informativo**.
 
+Selezionando i **dati estesi**, si possono anche visualizzare alcune proprietà della transazione fiscale. La lista delle proprietà che possono essere visualizzate è specifica della funzionalità di registrazione fiscale che ha generato la transazione fiscale. Per esempio, puoi visualizzare la firma digitale, il numero sequenziale, l'impronta del certificato, l'identificazione dell'algoritmo di hash e altre proprietà della transazione fiscale per la funzionalità di firma digitale per la Francia.
+
 ## <a name="fiscal-texts-for-discounts"></a>Testi fiscali per sconti
 
 Alcuni paesi o aree geografiche hanno requisiti speciali su testi aggiuntivi che devono essere stampati sulle ricevute fiscali quando diversi tipi di sconti vengono applicati. La funzionalità di integrazione fiscale consente di impostare un testo speciale per uno sconto che viene stampato dopo una riga di sconto su una ricevuta fiscale. Per gli sconti manuali, è possibile configurare un testo fiscale per il codice informativo specificato come codice informativo **Sconto prodotti** nel profilo funzionalità POS. Per ulteriori informazioni su come impostare testi fiscali per gli sconti, vedere [Impostare testi fiscali per sconti](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
@@ -128,26 +131,29 @@ La funzionalità di integrazione fiscale supporta la generazione di rendiconti g
 - I nuovi pulsanti che eseguono le operazioni corrispondenti devono essere aggiunti al layout dello schermo POS. Per ulteriori informazioni, vedere [Configurare report X/Z fiscali dal POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
 - Nell'esempio di integrazione fiscale, queste operazioni devono corrispondere alle relative operazioni del dispositivo fiscale.
 
-## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Esempi di integrazione fiscale in Retail SDK
+## <a name="fiscal-integration-samples-in-the-commerce-sdk"></a>Esempi di integrazione fiscale nel Commerce SDK
 
-I seguenti esempi di integrazione fiscale sono attualmente disponibili nel Retail SDK:
+I seguenti esempi di integrazione fiscale sono attualmente disponibili nel Commerce SDK:
 
-- [Esempio di integrazione di stampante fiscale per l'Italia](emea-ita-fpi-sample.md)
-- [Esempio di integrazione di stampante fiscale per la Polonia](emea-pol-fpi-sample.md)
-- [Esempio di integrazione del servizio di registrazione fiscale per l'Austria](emea-aut-fi-sample.md)
-- [Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca](emea-cze-fi-sample.md)
+- [Esempio di integrazione di stampante fiscale per l'Italia](./emea-ita-fpi-sample.md)
+- [Esempio di integrazione di stampante fiscale per la Polonia](./emea-pol-fpi-sample.md)
+- [Esempio di integrazione del servizio di registrazione fiscale per l'Austria](./emea-aut-fi-sample.md)
+- [Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca](./emea-cze-fi-sample.md)
 - [Esempio di integrazione di un'unità di controllo per la Svezia](./emea-swe-fi-sample.md)
 - [Esempio di integrazione del servizio di registrazione fiscale per la Germania](./emea-deu-fi-sample.md)
 
-La seguente funzionalità di integrazione fiscale è disponibile anche in Retail SDK ma attualmente non utilizza il framework di integrazione fiscale. La migrazione di questa funzionalità al framework di integrazione fiscale è prevista negli aggiornamenti successivi.
+La seguente funzionalità di integrazione fiscale è anche implementata utilizzando il framework di integrazione fiscale, ma è disponibile fuori dalla scatola e non è inclusa nel Commerce SDK:
 
+- [Registrazione fiscale per il Brasile](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
+- [Firma digitale per la Francia](./emea-fra-cash-registers.md)
 
-- [Firma digitale per la Francia](emea-fra-cash-registers.md)
-- [Firma digitale per la Norvegia](emea-nor-cash-registers.md)
+La seguente funzionalità di integrazione fiscale è disponibile anche nell'SDK Commerce, ma attualmente non sfrutta il framework di integrazione fiscale. La migrazione di questa funzionalità al framework di integrazione fiscale è prevista negli aggiornamenti successivi.
 
-La seguente funzionalità di integrazione fiscale legacy disponibile in Retail SDK non utilizza il framework di integrazione fiscale e sarà deprecata negli aggiornamenti successivi:
+- [Firma digitale per la Norvegia](./emea-nor-cash-registers.md)
+
+La seguente funzionalità di integrazione fiscale legacy che è disponibile nel Commerce SDK non usa il framework di integrazione fiscale e sarà deprecata negli aggiornamenti successivi:
 
 - [Esempio di integrazione di un'unità di controllo per la Svezia (legacy)](./retail-sdk-control-unit-sample.md)
-
+- [Firma digitale per la Francia (legacy)](./emea-fra-deployment.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

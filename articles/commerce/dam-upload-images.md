@@ -2,7 +2,7 @@
 title: Caricare immagini
 description: In questo argomento viene descritto come caricare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757400"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423257"
 ---
 # <a name="upload-images"></a>Caricare immagini
 
@@ -52,10 +52,17 @@ La convenzione di denominazione predefinita varia in base alla categoria:
 - Le immagini di categoria devono essere denominate "**/Categories/\{CategoryName\}.png**"
 - Le immagini dei clienti devono essere denominate "**/Customers/\{CustomerNumber\}.jpg**"
 - Le immagini dei dipendenti devono essere denominate "**/Workers/\{WorkerNumber\}.jpg**"
-- Le immagini dei prodotti devono essere denominate "**/Products/\{ProductNumber\}_000_001.png**"
+- Le immagini dei prodotti devono essere denominate "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 è la sequenza dell'immagine e può essere 001, 002, 003, 004 o 005
 - Le immagini varianti dei prodotti devono essere denominate "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - Ad esempio: 93039 \^ \^ 2 \^ Black \^_000_001.png
+    - Ad esempio: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- Le immagini delle varianti dei prodotti con la dimensione di configurazione devono essere denominate "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
+    - Ad esempio: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Per le immagini delle varianti di prodotto, se il valore della dimensione è vuoto, devono essere presenti due spazi vuoti tra gli accenti circonflessi nel nome del file.
+
+Gli esempi riportati sopra utilizzano la configurazione predefinita. Il carattere separatore e le dimensioni sono configurabili e la denominazione esatta richiesta può variare tra le distribuzioni. Un metodo per identificare l'esatta convenzione di denominazione richiesta consiste nell'utilizzare la console per sviluppatori del browser per ispezionare le richieste di immagine della variante del prodotto mentre si modificano le dimensioni del prodotto nella pagina dei dettagli del prodotto (PDP) della vetrina.
 
 ## <a name="upload-an-image"></a>Caricare un'immagine
 

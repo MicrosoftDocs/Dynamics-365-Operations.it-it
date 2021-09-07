@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 94657a1c423fafb89d2fe2c16937947e0d898771ddb30a029d0938cc17aaf7d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc87c329f6f5dd9532b1319f8d88fbc41dcd4d14
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716671"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344322"
 ---
 # <a name="create-payment-invoices"></a>Creare fatture di pagamento
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Puoi creare fatture mensili per singoli leasing oppure utilizzare un processo batch per crearli per più leasing. La procedura seguente mostra come creare una singola voce di canone di leasing quando il parametro **Paga a fornitore** nella pagina **Configurazione libro di leasing** è attivata.
 
@@ -39,6 +41,8 @@ Puoi creare fatture mensili per singoli leasing oppure utilizzare un processo ba
 5. Seleziona il giornale di registrazione corretto, quindi seleziona la fattura che deve essere pagata.
 
     Per questo esempio, il parametro **Paga a fornitore** sul libro dei leasing è attivato. Pertanto, la fattura sarà inclusa nel giornale di registrazione fatture. La sezione **Panoramica** mostra un riepilogo della scrittura contabile e la sezione **Righe** mostra i dettagli delle righe di giornale effettive.
+    
+   Il sistema blocca la modifica di determinati campi finanziari per evitare eventuali scostamenti tra le transazioni e le pianificazioni. Alcuni campi bloccati includono: **Conto**, **Importi**, **Dimensioni finanziarie**, **Valuta** e **Tipo di transazione**. Inoltre, non sarà possibile aggiungere o eliminare righe di scrittura contabile in nessuna scrittura contabile del leasing cespiti, poiché ciò potrebbe causare scostamenti tra le pianificazioni e le transazioni.
 
     > [!NOTE]
     > Se il parametro **Paga a fornitore** è disattivato, le scritture contabili dei pagamenti verranno elencate nella pagina **Leasing cespite** per il libro dei leasing e il sistema creerà una voce di leasing di cespite invece di una fattura. La voce di canone di leasing verrà registrata nel nome del giornale di registrazione specificato nel campo **Giornale di registrazione leasing mensile**.

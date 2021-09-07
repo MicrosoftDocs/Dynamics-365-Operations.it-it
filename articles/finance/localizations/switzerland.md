@@ -13,12 +13,12 @@ ms.search.region: Switzerland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac5c3543e1fe519d97356219cd329b692d22988847b9a3a957118a6d93ef186e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5c66718cae6426f1d41dc41460e8f9520ba3dd22
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743772"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343534"
 ---
 # <a name="switzerland-overview"></a>Panoramica per la Svizzera
 
@@ -27,7 +27,8 @@ ms.locfileid: "6743772"
 In questo argomento vengono forniti i collegamenti alle risorse della documentazione per la Svizzera. 
 
 - [Importazione pagamenti cliente PVR](emea-che-esr-customer-payments-import.md)
-- [Fatture QR per la Svizzera](emea-che-swiss-qr-bills.md)
+- [Fatture QR Svizzera](emea-che-swiss-qr-bills.md)
+- [Dichiarazione IVA](emea-che-VAT-declaration-Switzerland.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

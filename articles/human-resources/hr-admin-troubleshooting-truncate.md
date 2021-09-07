@@ -1,8 +1,8 @@
 ---
 title: Evitare il troncamento del testo nella gerarchia posizioni ed esportare in Visio
-description: In questo articolo viene descritto come risolvere un problema in cui i nomi di utenti e posizioni vengono troncati quando i clienti visualizzano la gerarchia posizioni in Microsoft Dynamics 365 Human Resources. Il troncamento di testo può rendere difficile l'acquisizione di una schermata o la stampa della gerarchia.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Questo argomento spiega come risolvere il problema dei nomi troncati degli individui e delle posizioni nella gerarchia delle posizioni in Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779328"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413537"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evitare il troncamento del testo nella gerarchia posizioni ed esportare in Visio
 
@@ -43,7 +43,7 @@ Seguire questa procedura per esportare in Visio.
 
 1. In Human Resources, aprire la pagina elenco **Posizioni**.
 
-    Per includere ulteriori informazioni nel diagramma della struttura organizzativa, aggiungere campi all'elenco **Posizioni**, di modo che siano disponibili quando si utilizza la procedura guidata in seguito in questa procedura.
+    Per includere più informazioni nel diagramma della struttura organizzativa, aggiungi dei campi all'elenco **Posizioni** , in modo che siano disponibili quando usi la **Creazione guidata organigramma** più avanti in questa procedura.
 
 2. Nel riquadro azioni, selezionare il pulsante **Apri in Microsoft Office**, quindi sotto **Esporta in Excel**, selezionare **Posizioni**. In alternativa, premere CTRL+T.
 

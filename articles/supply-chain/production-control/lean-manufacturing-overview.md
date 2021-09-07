@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da812bcc7d31db25abc0ed7e6c1a7f9e5433f80bfdfc5421e4e18d6b8af68884
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1374a451c65b4bafdc6efeb10949d1f6eceb4758
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738917"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343920"
 ---
 # <a name="lean-manufacturing-overview"></a>Panoramica del lean manufacturing
 
@@ -66,7 +66,7 @@ La funzionalità lean manufacturing è una finestra aperta sullo stato corrente 
 Nel seguente elenco vengono descritte le bacheche kanban specifiche:
 -   Programmazione dei processi kanban – Viene fornita una panoramica dei processi kanban. La bacheca visualizza i processi kanban e lo stato per una o più celle di lavoro. I processi sono elencati in base ai periodi di pianificazione (giorni o settimane) che sono definiti nel modello di flusso di produzione. Nella bacheca viene inoltre visualizzato il consumo di capacità per ogni periodo di pianificazione. In questo modo è possibile monitorare il carico programmato. È possibile modificare lo stato dei processi kanban, riprogrammarli in periodi di pianificazione diversi ed eseguire altre attività.
 -   Bacheca kanban per i processi di trasferimento: in questa bacheca viene fornita una panoramica dei processi di trasferimento correnti. È possibile aggiornare e registrare le distinte di prelievo, avviare e completare i processi di trasferimento ed eseguire altre attività.
--   Bacheca kanban per i processi di lavorazione - Questa bacheca è progettata per supportare il flusso di produzione normale e per effettuare una panoramica della situazione corrente in una o più celle di lavoro. Da questa bacheca ai kanban può essere assegnata la priorità, possono prelevati o prodotti. La bacheca è inoltre progettata per supportare lo scansione del codice a barre per la registrazione di kanban.
+-   Bacheca kanban per i processi di lavorazione - Questa bacheca è progettata per supportare il flusso di produzione normale e per effettuare una panoramica della situazione corrente in una o più celle di lavoro. Da questa bacheca ai kanban può essere assegnata la priorità, possono prelevati o prodotti. La scheda è anche progettata per supportare la scansione del codice a barre per la segnalazione dei Kanban.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Processi kanban e integrazione con i processi Supply Chain Management
 I processi kanban sono pienamente integrati con i processi correnti per le operazioni di magazzino in Supply Chain Management.

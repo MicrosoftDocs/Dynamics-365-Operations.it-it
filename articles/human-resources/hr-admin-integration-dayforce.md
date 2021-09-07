@@ -1,8 +1,8 @@
 ---
 title: Configurare l'integrazione con Dayforce
-description: L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo articolo. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Questo argomento descrive i passi di configurazione necessari per l'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782733"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414586"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurare l'integrazione con Dayforce
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo articolo. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
+L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo argomento. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
 
 Quando si utilizza un servizio, ad esempio Dayforce, per completare i cicli di pagamenti, è necessario abilitare l'integrazione in Human Resources. L'integrazione richiede dati specifici da Human Resources. Di conseguenza, è necessario verificare che i dati che vengono mappati a Dayforce siano configurati in Human Resources in modo che supporti l'integrazione. L'integrazione utilizza le seguenti categorie generiche di dati:
 
@@ -35,7 +35,7 @@ Quando si utilizza un servizio, ad esempio Dayforce, per completare i cicli di p
 - Data di retribuzione, ad esempio i cicli di pagamenti, i periodi retributivi e i codici reddito
 - Dati del lavoratore
 
-In questo articolo vengono descritti i passaggi che è necessario completare per abilitare l'integrazione. E vengono descritti i tipi di dati e i dettagli di configurazione necessari all'integrazione.
+Questo argomento descrive i passi da seguire per abilitare l'integrazione e spiega i tipi di dati e i dettagli di configurazione che l'integrazione richiede.
 
 ## <a name="enable-the-integration"></a>Abilitare l'integrazione
 
@@ -50,7 +50,7 @@ Per attivare l'integrazione in Human Resources, seguire questi passaggi.
 
 Quando l'integrazione viene attivata, vengono creati i file e il pacchetto di esportazione dei dati e viene impostata la frequenza. È possibile cambiare la frequenza in base alle esigenze.
 
-Per altre informazioni sugli account di Archiviazione di Azure e sulle stringhe di connessione di Archiviazione di Azure, vedere gli articoli di Azure seguenti:
+Per altre informazioni sugli account di Archiviazione di Azure e sulle stringhe di connessione di Archiviazione di Azure, vedere gli argomenti di Azure seguenti:
 
 - [Account di Archiviazione di Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Configurare le stringhe di connessione di Archiviazione di Azure](/azure/storage/common/storage-configure-connection-string)
@@ -122,10 +122,10 @@ Dayforce crea le seguenti detrazioni, in base all'impatto delle retribuzioni def
 | Solo contribuzione          | Viene creata una detrazione del datore di lavoro.             |
 | Detrazione e contribuzione | Vengono create detrazioni del datore di lavoro e del dipendente. |
 
-Per altre informazioni su come definire e gestire un programma di benefit, vedere gli articoli seguenti:
+Per altre informazioni su come definire e gestire un programma di benefit, vedere gli argomenti seguenti:
 
 - [Realizzare un programma di benefit per i dipendenti](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Crea un nuovo benefit](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Creare un nuovo benefit](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
 - [Definire regole e criteri di idoneità ai benefit](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
 - [Iscrivere e rimuovere benefit da lavoratori](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
@@ -135,10 +135,10 @@ La gestione delle retribuzioni consente di controllare la liquidazione dei premi
 
 Dayforce utilizza le informazioni sulla compensazione per calcolare la retribuzione annuale o oraria di un dipendente. I piani di retribuzione fissa e conversioni della retribuzione sono obbligatori. I dipendenti devono essere associati a un piano di retribuzione fissa.
 
-Per ulteriori informazioni sui piani di retribuzione, vedere gli articoli seguenti:
+Per ulteriori informazioni sui piani di retribuzione, vedere gli argomenti seguenti:
 
-- [Creare piani di retribuzione fissa](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Creare piani di retribuzione variabile](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Creare i piani di retribuzione fissa](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Creare i piani di retribuzione variabile](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 - [Sviluppare una struttura e piani di stipendi/retribuzioni](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
 - [Processo retributivo](/dynamics365/unified-operations/talent/process-compensation)
 - [Definire il processo retributivo e calcolare i risultati](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
@@ -147,7 +147,7 @@ Per ulteriori informazioni sui piani di retribuzione, vedere gli articoli seguen
 
 #### <a name="jobs"></a>Mansioni 
 
-Una mansione è una raccolta delle attività e delle responsabilità proprie della persona assegnata a una mansione. Per ulteriori informazioni, vedere gli articoli seguenti:
+Una mansione è una raccolta delle attività e delle responsabilità proprie della persona assegnata a una mansione. Per ulteriori informazioni, vedere i seguenti argomenti:
 
 - [Impostazione dei componenti di una mansione](/dynamics365/unified-operations/talent/create-job)
 - [Definire nuovi processi](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
@@ -172,7 +172,7 @@ Tenere a mente i seguenti dati e la configurazione quando si impostano le posizi
 
 Se nello stesso reparto più posizioni sono associate alla stessa mansione, vengono consolidate in una singola posizione in Dayforce.
 
-Per ulteriori informazioni, vedere gli articoli seguenti:
+Per ulteriori informazioni, vedere i seguenti argomenti:
 
 - [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Impostare le posizioni](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -181,7 +181,7 @@ Per ulteriori informazioni, vedere gli articoli seguenti:
 
 Un reparto è un'unità operativa che rappresenta una categoria o un'area operativa di un'organizzazione. Un reparto è responsabile di una specifica area dell'organizzazione, ad esempio la vendita, la contabilità o le risorse umane. È possibile utilizzare i reparti per creare report sulle aree operative. I reparti possono essere responsabili di profitti e perdite.
 
-Per ulteriori informazioni, vedere gli articoli seguenti:
+Per ulteriori informazioni, vedere i seguenti argomenti:
 
 - [Creare un reparto e associarlo alla gerarchia reparti](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Definire nuovi reparti](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)

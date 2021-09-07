@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763694"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388935"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Creare e aggiornare i criteri per resi e rimborsi di un canale
 
@@ -42,15 +42,6 @@ Per abilitare la funzionalità di politica sui resi del canale in Commerce Headq
 1. Cercare la funzionalità **Abilita politiche sui resi del canale** nell'elenco dei nomi di funzionalità.
 1. Selezionare **Abilita ora**.
 1. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1110** (Configurazione globale) per distribuire la modifica della funzionalità.
-
-## <a name="initialize-the-commerce-scheduler"></a>Inizializzare l'utilità di pianificazione di commercio
-
-Dopo aver abilitato la funzionalità **Abilita la politica sui resi del canale** devi inizializzare l'utilità di pianificazione di commercio per garantire che le nuove modifiche al database delle funzionalità vengano aggiunte tramite la sincronizzazione Commerce Data Exchange (CDX). 
-
-Per inizializzare l'utilità di pianificazione di commercio in Commerce headquarters, segui questi passaggi.
-
-- Andare a **Retail e Commerce \> Impostazione sedi centrali \> Utilità di pianificazione di commercio \> Inizializza utilità di pianificazione di commercio**. In alternativa, puoi cercare "Inizializza utilità di pianificazione di commercio".
-- Nella finestra di dialogo **Inizializza utilità di pianificazione di commercio**, verifica che l'opzione **Elimina configurazione esistente** sia impostata su **No** e seleziona **OK**.
 
 ## <a name="configure-return-policy"></a>Configurare la politica sui resi
 

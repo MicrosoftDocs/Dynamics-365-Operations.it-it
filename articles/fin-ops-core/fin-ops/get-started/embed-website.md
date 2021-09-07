@@ -2,7 +2,7 @@
 title: Incorporare app di terze parti
 description: In questo argomento viene spiegato come incorporare app di terze parti per aumentare la funzionalità del prodotto.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737801"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345412"
 ---
 # <a name="embed-third-party-apps"></a>Incorporare app di terze parti
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Molti clienti utilizzano una vasta gamma di applicazioni per gestire la propria attività. Alcune di queste applicazioni sono app Web di terze parti che funzionano insieme alle app Finance and Operations. Per fornire un'esperienza utente più integrata, puoi utilizzare la funzionalità **(Anteprima) App a tutta pagina** per incorporare quelle app di terze parti direttamente nelle app Finance and Operations (a condizione che le app di terze parti consentano di essere incorporate). In questo modo, gli utenti possono accedere ai siti Web e alle app di cui hanno bisogno senza dover cambiare scheda o finestra.
+Molti clienti utilizzano una vasta gamma di applicazioni per gestire la propria attività. Alcune di queste applicazioni sono app Web di terze parti che funzionano insieme alle app Finance and Operations. Per fornire un'esperienza utente più integrata, puoi utilizzare la funzionalità **App a tutta pagina** per incorporare quelle app di terze parti direttamente nelle app Finance and Operations (a condizione che le app di terze parti consentano di essere incorporate). In questo modo, gli utenti possono accedere ai siti Web e alle app di cui hanno bisogno senza dover cambiare scheda o finestra.
 
-Prima di poter incorporare app di terze parti nel prodotto, è necessario attivare la funzionalità **(Anteprima) App a tutta pagina** in Gestione funzionalità. È quindi possibile utilizzare uno dei seguenti metodi per incorporare un'app o un sito Web di terze parti. Questi metodi sono analoghi ai metodi utilizzati per incorporare app canvas da Microsoft Power Apps in app Finance and Operations.
+Prima di poter incorporare app di terze parti nel prodotto, è necessario attivare la funzionalità **App a tutta pagina** in Gestione funzionalità. È quindi possibile utilizzare uno dei seguenti metodi per incorporare un'app o un sito Web di terze parti. Questi metodi sono analoghi ai metodi utilizzati per incorporare app canvas da Microsoft Power Apps in app Finance and Operations.
 
 - Incorpora l'app o il sito Web in una pagina esistente come nuova scheda (scheda pivot, scheda dettaglio, pannello o sezione dell'area di lavoro).
 - Crea una nuova esperienza a tutta pagina per l'app o il sito Web dal dashboard.
@@ -64,7 +64,7 @@ Utilizzare questa procedura se si desidera integrare una pagina esistente nel si
 Utilizzare questa procedura se l'app che si desidera incorporare non è correlata a una pagina esistente o se si desidera solo un'esperienza a tutta pagina per l'app all'interno dell'app Finance and Operations.
 
 1. Aprire il dashboard.
-2. Seleziona e tieni premuta la pagina (o fai clic con il pulsante destro del mouse), seleziona **Personalizza** e quindi seleziona **Aggiungi una pagina**.
+2. Seleziona e tieni premuto (o fai clic con il pulsante destro del mouse) sulla dashboard, seleziona **Personalizza** e quindi seleziona **Aggiungi una pagina**.
 3. Nel riquadro **Aggiungi una pagina** fare clic su **Sito Web**.
 4. Configurare l'app incorporata:
 
@@ -76,15 +76,15 @@ Utilizzare questa procedura se l'app che si desidera incorporare non è correlat
     > - L'app o il sito Web devono essere configurati per consentire a se stessi di essere incorporati.
 
 5. Selezionare **Salva** per aggiungere l'app al dashboard come nuovo riquadro.
-6. Seleziona il nuovo riquadro nella dashboard e conferma che l'app viene visualizzata come previsto. Se non viene eseguito il rendering dell'app, vedere la sezione [Risoluzione dei problemi](#troubleshooting) più avanti in questo argomento.
+6. Seleziona il nuovo riquadro nella dashboard e conferma che l'app viene visualizzata come previsto. Se non viene eseguito il rendering dell'app, vedi la sezione [Risoluzione dei problemi](#troubleshooting) più avanti in questo argomento.
 
 ## <a name="sharing-embedded-apps"></a>Condivisione di app incorporate
 
 Dopo aver incorporato un'app utilizzando uno dei metodi descritti nelle sezioni precedenti, potresti voler condividere la visualizzazione con altri utenti nel sistema. Per condividere un'app incorporata, utilizza uno dei seguenti metodi:
 
-- **Pubblica la visualizzazione (consigliato):** Se l'app incorporata è stata salvata in una visualizzazione, il modo consigliato e preferito per condividerla è pubblicare la visualizzazione per gli utenti che dispongono dei ruoli di sicurezza appropriati. Quindi tutti gli utenti che dispongono dei ruoli di sicurezza individuati dalla visualizzazione pubblicata vedranno l'app nelle app Finance and Operations. Per ulteriori informazioni su come pubblicare una visualizzazione, vedere [Pubblicazione di visualizzazioni](saved-views.md#publishing-views).
+- **Pubblica la visualizzazione (consigliato):** se l'app incorporata è stata salvata in una visualizzazione, il modo consigliato e preferito per condividerla è pubblicare la visualizzazione per gli utenti che dispongono dei ruoli di sicurezza appropriati nelle persone giuridiche di destinazione. In questo caso, solo gli utenti desiderati vedranno l'app incorporata in quella pagina. Per ulteriori informazioni su come pubblicare una visualizzazione, vedere [Pubblicazione di visualizzazioni](saved-views.md#publishing-views).
 
-    Puoi anche pubblicare un'app che è stata incorporata come esperienza a tutta pagina dal dashboard. Nel dashboard, seleziona e tieni premuto (o fai clic con il pulsante destro del mouse) il riquadro associato all'app, seleziona **Personalizza** e quindi seleziona **Pubblica pagina**. Attualmente è possibile pubblicare solo nei ruoli di sicurezza. Tuttavia, la capacità di pubblicare per le persone giuridiche verrà aggiunta prima che la funzionalità diventi generalmente disponibile.
+    Puoi anche pubblicare un'app che è stata incorporata come esperienza a tutta pagina dal dashboard. Nel dashboard, seleziona e tieni premuto (o fai clic con il pulsante destro del mouse) il riquadro associato all'app, seleziona **Personalizza** e quindi seleziona **Pubblica pagina**. Un'esperienza simile all'esperienza *Pubblicazione di visualizzazioni* viene mostrata e puoi selezionare i ruoli di sicurezza per cui pubblicare. Nell'aggiornamento 10.0.21 o successivo, se la funzionalità **Supporto migliorato delle persone giuridiche per le visualizzazioni salvate** è attivata, puoi anche pubblicare l'app per le persone giuridiche desiderate.
 
 - **Copia la personalizzazione:** Per le pagine che non supportano le visualizzazioni (ad esempio, finestre di dialogo o aree di lavoro) o per l'esperienza dell'app a tutta pagina, puoi copiare la personalizzazione per gli utenti appropriati. Per ulteriori informazioni, vedere [Condividere le personalizzazioni](personalize-user-experience.md#sharing-personalizations).
 

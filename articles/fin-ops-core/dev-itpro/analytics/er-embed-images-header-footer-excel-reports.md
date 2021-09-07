@@ -1,8 +1,8 @@
 ---
 title: Progettare un formato ER per generare un report in formato Excel con immagini incorporate nelle intestazioni o piè di pagina
-description: Questo argomento spiega come utilizzare Creazione di report elettronici (ER) per generare documenti aziendali con immagini e forme incorporate nelle intestazioni o piè di pagina.
+description: Questo argomento spiega come usare Electronic reporting (ER) per generare documenti aziendali che hanno immagini e forme incorporate nelle intestazioni o nei piè di pagina.
 author: NickSelin
-ms.date: 06/28/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1115be8c33eeaf16c1a533e63b31d87b0fc5f68d6469ff075428f72ac146b2f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746637"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344122"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Progettare un formato ER per generare un report in formato Excel con immagini incorporate nelle intestazioni o piè di pagina
 
@@ -262,7 +262,7 @@ Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare 
 
 1. Passare a **Contabilità clienti** \> **Fatture** \> **Tutte le fatture a testo libero**.
 2. Nella pagina **Fattura a testo libero** selezionare la fattura **FTI-00000002**, quindi, nel riquadro Azione della scheda **Fattura**, nel gruppo **Gestione stampa**, selezionare **Gestione stampa**.
-3. Nella pagina **Impostazione Gestione stampa**, nella struttura a sinistra, espandere **Modulo - contabilità fornitori** \> **Documenti** \> **Fattura a testo libero**, quindi selezionare l'elemento **Originale** **\<Default\>**.
+3. Nella pagina **Impostazione Gestione stampa**, nella struttura a sinistra, espandere **Modulo - contabilità clienti** \> **Documenti** \> **Fattura a testo libero**, quindi selezionare l'elemento **Originale** **\<Default\>**.
 4. Nel campo **Formato report** selezionare **Fattura a testo libero (Excel)** personalizzata.
 5. Selezionare **Esc** per chiudere la pagina **Impostazione Gestione stampa** e tornare alla pagina **Fattura a testo libero**.
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738271"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343479"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Migliorare le prestazioni del motore di pianificazione
 
@@ -70,7 +70,7 @@ Ad esempio, considera un ciclo di lavorazione nella tabella e nell'immagine segu
 
 Quando inviato al motore, questo ciclo di lavorazione viene suddiviso in otto processi, come mostrato nell'illustrazione seguente (seleziona l'immagine per ingrandirla).
 
-[![Processi del motore di pianificazione](media/scheduling-engine-jobs.png "Processi del motore di pianificazione".](media/scheduling-engine-jobs-large.png)
+[![Processi del motore di pianificazione](media/scheduling-engine-jobs.png "Programmazione dei lavori del motore.")](media/scheduling-engine-jobs-large.png)
 
 Il collegamento standard tra due processi è `FinishStart`, il che significa che l'ora di fine di un processo deve essere precedente all'ora di inizio di un altro processo. Poiché la configurazione deve essere eseguita dalla stessa risorsa che in seguito eseguirà il processo, ci sono vincoli `OnSameResource` tra gli stessi. Tra i processi per l'operazione primaria e secondaria per 10, ci sono collegamenti `StartStart` e `FinishFinish`, il che significa che i processi devono iniziare e finire allo stesso tempo, e ci sono vincoli `NotOnSameResource` , che impediranno l'utilizzo della stessa risorsa per l'operazione primaria e quella secondaria.
 

@@ -1,8 +1,8 @@
 ---
 title: Panoramica della liquidazione
 description: Questo argomento fornisce informazioni generali sul processo di liquidazione. Descrive i tipi di transazione che possono essere liquidati e i tempi e il processo necessari per la liquidazione. Viene anche fornita una descrizione dei risultati del processo di liquidazione.
-author: kweekley
-ms.date: 04/10/2020
+author: panolte
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 30a96b377d70c74a29e9e90699ccb077c727b20758378b5336660c6c056c6022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4a4fd0756a4516b0c14e136730d21d062a106a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755692"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344813"
 ---
 # <a name="settlement-overview"></a>Panoramica della liquidazione
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Questo argomento fornisce informazioni generali sul processo di liquidazione. Descrive i tipi di transazione che possono essere liquidati e i tempi e il processo necessari per la liquidazione. Viene anche fornita una descrizione dei risultati del processo di liquidazione.
 
@@ -74,9 +76,25 @@ Le liquidazioni possono anche generare transazioni. Ad esempio, la liquidazione 
 
 Quando si tenta di liquidare una transazione, è possibile notare un simbolo che indica che la transazione è contrassegnata in un'altra posizione. In questo caso, è possibile selezionare la transazione nella pagina **Liquida transazioni** e quindi selezionare **Richiesta \> Liquidazione nella finestra di liquidazione**. La vista per questa richiesta mostra giornali di registrazione, ordini cliente, fatture, proposte di pagamento e posizioni dei clienti che potrebbero bloccare la liquidazione della transazione. Per risolvere il problema, è possibile selezionare il collegamento per passare direttamente dalla richiesta alla posizione bloccata. È quindi possibile aggiornare il documento con le rettifiche necessarie per la liquidazione. È anche possibile usare l'indicatore **Contrassegnato** per identificare altri documenti inclusi nella stessa posizione di blocco.
 
+## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Risolvere i problemi con le transazioni che non possono essere risolte
+
+A volte, non è possibile regolare le transazioni perché un'altra attività sta elaborando il documento. Se si cerca di regolare le transazioni, si verifica un errore, perché quelle transazioni sono in uso. Per risolvere questo problema, puoi usare la pagina **dei dettagli delle transazioni mar** cate per trovare le transazioni marcate per il regolamento e identificare qualsiasi altro processo che vi sta accedendo.
+
+Le transazioni sono segnate per il regolamento quando le fatture dei fornitori vengono pagate o quando i clienti pagano le loro fatture aperte. Occasionalmente, queste fatture potrebbero essere già segnate per il pagamento. Pertanto, gli utenti non possono selezionarli per il pagamento. Le fatture potrebbero essere contrassegnate da un altro giornale di pagamento del cliente, ordine di vendita, giornale di pagamento del fornitore o ordine di acquisto nell'entità legale corrente o in un'altra entità legale.
+
+Se una transazione è bloccata per il regolamento quando si sta inserendo un pagamento del cliente, aprire la pagina dei **dettagli della transazione contrassegnata dal cliente** **(Accounts receivable \> Periodic tasks \> Customer marked transaction details**). Per identificare rapidamente dove una transazione è bloccata, è possibile impostare uno dei seguenti parametri di selezione: **Conto cliente**, **Buono**, **Data** o **Fattura**. Se non impostate alcun parametro di selezione, il sistema mostra tutti i documenti bloccati dell'azienda corrente o di un'altra azienda selezionata. Dopo aver identificato la transazione che è stata bloccata per il regolamento, è possibile selezionarla e poi selezionare **Deseleziona transazioni selezionate**. La transazione selezionata viene quindi rimossa da qualsiasi giornale che la include. Tuttavia, il documento non viene rimosso dall'altra posizione. Solo le informazioni di marcatura vengono rimosse da quel diario.
+
+Se una transazione è bloccata per il regolamento quando si sta inserendo un pagamento di un fornitore, aprire la pagina dei **dettagli della transazione contrassegnata dal fornitore** **(Accounts payable \> Periodic tasks \> Vendor marked transaction details**). Per identificare rapidamente dove una transazione è bloccata, è possibile impostare uno dei seguenti parametri di selezione: **Conto del venditore**, **Buono**, **Data** o **Fattura**. Se non impostate alcun parametro di selezione, il sistema mostra tutti i documenti bloccati dell'azienda corrente o di un'altra azienda selezionata. Dopo che la transazione è stata identificata, puoi selezionarla e poi selezionare **Rimuovi contrassegno da transazioni selezionate** per risolvere il problema del blocco. La transazione selezionata viene poi rimossa da qualsiasi altro giornale in cui è stata selezionata. Tuttavia, il documento non viene rimosso dall'altra posizione. Solo le informazioni di marcatura vengono rimosse da quel diario.
+
+Per identificare tutti i documenti bloccati, aprite la pagina dei **dettagli di tutte le transazioni marcate** **(Conti attivi \> Compiti periodici \> Tutti i dettagli delle transazioni marcate** o **Conti passivi \> Compiti periodici \> Tutti i dettagli delle transazioni marcate**). Per identificare rapidamente dove una transazione è bloccata, è possibile impostare uno dei seguenti parametri di selezione: **Conto cliente**, **conto venditore**, **buono**, **data** o **fattura**. Se non impostate alcun parametro di selezione, il sistema mostra tutti i documenti bloccati dell'azienda corrente o di un'altra azienda selezionata. Dopo che la transazione è stata identificata, puoi selezionarla e poi selezionare **Rimuovi contrassegno da transazioni selezionate** per risolvere il problema del blocco. La transazione selezionata viene poi rimossa da qualsiasi altro giornale in cui è stata selezionata. Tuttavia, il documento non viene rimosso dall'altra posizione. Solo le informazioni di marcatura vengono rimosse da quel diario.
+
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro **Gestione funzionalità** per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+
+- **Modulo:** Gestione della cassa e della banca
+- **Nome della funzione:** Modulo di dettaglio della transazione contrassegnato
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Residuo liquidazione](settle-remainder.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

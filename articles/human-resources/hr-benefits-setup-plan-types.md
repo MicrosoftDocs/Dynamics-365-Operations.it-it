@@ -1,8 +1,8 @@
 ---
 title: Panoramica del tipo di piano
-description: Un tipo di piano in Microsoft Dynamics 365 Human Resources è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano ha un codice di tipo di piano che determina le regole per il tipo di piano.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Un tipo di piano in Microsoft Dynamics 365 Human Resources è un raggruppamento di alto livello di specifici tipi di benefit.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732731"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423346"
 ---
 # <a name="plan-type-overview"></a>Panoramica del tipo di piano
 
@@ -32,10 +32,10 @@ Ogni tipo di piano indica se un dipendente può iscriversi a uno o più piani di
 
 Se un tipo di piano implica dei contatti, il tipo di piano indica se i contatti sono beneficiari o persone a carico. Ad esempio, un tipo di piano Vita base avrebbe beneficiari, mentre un tipo di piano Medico base avrebbe persone a carico. In alcuni casi, un piano potrebbe non avere contatti personali. Ad esempio, un conto spesa flessibile o un'indennità di parcheggio.
 
-Un tipo di piano può definire opzioni di copertura. Le opzioni di copertura sono definite nel modulo Opzione di copertura. Un'opzione di copertura può specificare l'importo del benefit o i contatti che sono idonei per il tipo di piano. Ad esempio, se il tipo di contatto è Beneficiario, l'opzione di copertura dovrebbe definire i termini di ciò che il beneficiario ha diritto di ricevere quando il benefit viene utilizzato. Se il tipo di contatto è Persona a carico, l'opzione di copertura deve definire la relazione tra la persona a carico e il dipendente. 
+Un tipo di piano può definire opzioni di copertura. Le opzioni di copertura sono definite nella pagina **Opzioni di copertura** . Un'opzione di copertura può specificare l'importo del benefit o i contatti che sono idonei per il tipo di piano. Ad esempio, se il tipo di contatto è Beneficiario, l'opzione di copertura dovrebbe definire i termini di ciò che il beneficiario ha diritto di ricevere quando il benefit viene utilizzato. Se il tipo di contatto è Persona a carico, l'opzione di copertura deve definire la relazione tra la persona a carico e il dipendente. 
 
 > [!IMPORTANT]
-> Il modulo include i dati chiave che influiscono sulle opzioni disponibili quando viene creato un nuovo piano di benefit:
+> La pagina include dati chiave che influenzano le opzioni disponibili quando viene creato un nuovo piano di benefici:
 >
 > - **Codice tipo di piano** – Questo campo influisce su ciò che viene mostrato nella scheda **Configurazione** quando viene impostato il benefit effettivo.  
 > - **Iscrizione simultanea** – Questo campo determina se sono consentite più iscrizioni. (Per un piano medico, questo campo è generalmente impostato su **Una iscrizione**.)

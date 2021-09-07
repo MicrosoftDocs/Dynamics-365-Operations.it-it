@@ -1,8 +1,8 @@
 ---
 title: Opzioni di transazione cespiti
 description: Questo articolo descrive i metodi diversi disponibili per creare le transazioni cespiti.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764265"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344692"
 ---
 # <a name="fixed-asset-transaction-options"></a>Opzioni di transazione cespiti
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo articolo descrive i metodi diversi disponibili per creare le transazioni cespiti.
 
@@ -58,14 +59,16 @@ Nella pagina Giornale di registrazione generale può essere registrato qualsiasi
 | Ammortamento                        | Cespiti             | Cespiti                              |
 |                                     | Contabilità generale           | Giornale di registrazione generale                           |
 | Gestione dismissione                            | Cespiti             | Cespiti                              |
-| ** **                               | Contabilità generale           | Giornale di registrazione generale                           |
-| ** **                               | Contabilità clienti      | Fattura a testo libero                         |
+|                                     | Contabilità generale           | Giornale di registrazione generale                           |
+|                                     | Contabilità clienti      | Fattura a testo libero                         |
 
-Il valore residuo dei periodi di ammortamento del cespite non viene aggiornato quando una riga del giornale dei tipi di transazioni di ammortamento viene creata manualmente o importata mediante un'entità di dati. Questo valore viene aggiornato quando il processo della proposta di ammortamento viene utilizzato per creare la riga del giornale.
+Il valore residuo non viene aggiornato per i periodi di ammortamento di un cespite quando una riga del giornale di registrazione dei tipi di transazioni di ammortamento viene creata manualmente o importata mediante un'entità di dati. Il valore residuo viene aggiornato quando il processo della proposta di ammortamento viene utilizzato per creare la riga del giornale di registrazione.
 
 Per ulteriori informazioni, vedere [Integrazione dei cespiti](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Transazioni che richiedono numeri di giustificativo diversi
+Il sistema impedisce di registrare l'ammortamento due volte nello stesso periodo. Ad esempio, se due utenti creano separatamente proposte di ammortamento per gennaio, l'ammortamento del primo utente verrà registrato nel primo giornale di registrazione. Quando il secondo utente registra l'ammortamento nel secondo giornale di registrazione, il sistema controlla la data dell'ultima esecuzione dell'ammortamento e non registrerà una seconda volta l'ammortamento per lo stesso periodo.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Transazioni che richiedono un numero di giustificativo diverso
 
 Le seguenti transazioni cespiti utilizzeranno numeri di giustificativo diversi:
 

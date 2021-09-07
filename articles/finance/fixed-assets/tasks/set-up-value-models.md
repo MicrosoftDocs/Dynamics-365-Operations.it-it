@@ -1,8 +1,8 @@
 ---
 title: Impostare i modelli di valore
 description: In questa procedura viene illustrato come creare un nuovo libro cespiti e associarlo a un gruppo cespite.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741538"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344660"
 ---
 # <a name="set-up-value-models"></a>Impostare i modelli di valore
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 In questa procedura viene illustrato come creare un nuovo libro cespiti e associarlo a un gruppo cespite. Utilizza il ruolo Ragioniere e i dati dimostrativi della persona giuridica USMF.
-
 
 ## <a name="create-a-book"></a>Creare un libro
 1. Passare a Cespiti > Impostazione > Libri.
@@ -48,9 +49,10 @@ In questa procedura viene illustrato come creare un nuovo libro cespiti e associ
 1. Fare clic su Gruppi cespiti.
 2. Nel campo Cespiti immettere o selezionare un valore.
 3. Immettere un numero nel campo Vita utile.
-    * Si noti che il valore del campo Periodi di ammortamento viene calcolato dopo aver impostato Vita utile.  
-    * È possibile impostare la convenzione di ammortamento come richiesto per scopi fiscali.  
 
+  - I periodi di ammortamento sono calcolati dopo aver inserito la vita utile del bene.  
+  - La convenzione di ammortamento può essere impostata come richiesto a fini fiscali.
+  - Per le attività fisse che sono associate a leasing, il valore nel campo **Vita utile** sarà sovrascritto dal minore tra la durata del leasing nel libro delle attività e la vita utile dell'attività. Se il campo **Trasferimento di proprietà** è impostato a **Sì** per il libro delle locazioni, il valore nel campo **Vita** utile sarà sempre la vita utile del bene.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

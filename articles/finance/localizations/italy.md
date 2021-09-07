@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a61cc1ab6c11060961ca33c5802ea0ee7a15c36b25c290cff75537d065886554
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1700eed75128eb2b91d9614543a0b220c2a8604b
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772761"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414652"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -33,6 +33,7 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Gestione e dichiarazione IVA per data di effettuazione dell'operazione (data del registro IVA)](emea-ita-vat-management.md)
 - [Data di competenza per le transazioni](emea-ita-competence-date.md)
 - [Intrastat italiano](emea-ita-intrastat.md)
+- [Pubblicare arrivi e spedizioni per Intrastat](emea-ita-post-arrivals-and-dispatches-for-intrastat.md)
 - [Ammortamento manuale dei cespiti](emea-ita-depreciation-of-fixed-assets.md)
 - [Verifica della data dei documenti di trasporto nelle fatture](emea-ita-packing-slip-date-verification-on-invoice.md)
 - [Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto](emea-ita-packing-slip.md)
