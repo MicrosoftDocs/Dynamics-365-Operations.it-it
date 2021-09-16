@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update versione 10.0.22 (novembre 2021)
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: Platform update versione 10.0.21 (ottobre 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Platform update versione 10.0.20 (agosto 2021)
@@ -154,9 +156,9 @@
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
                         - name: Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Finance and Operations
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Sincronizzare i trasferimenti e le rettifiche delle scorte da Field Service a Finance and Operations
+                        - name: Sincronizzare i trasferimenti e le rettifiche dell'inventario da Field Service a Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Sincronizzare le informazioni sul livello di scorte da Finance and Operations a Field Service
+                        - name: Sincronizzare le informazioni sul livello di inventario da Finance and Operations a Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
                         - name: Sincronizzare i prodotti con l'unità di magazzino da Finance and Operations a Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: Linguaggio di programmazione X++
               items:
-                - name: Funzionalità del debugger e X++
-                  href: dev-tools/new-x-debugger-features.md
-                - name: Requisiti di Visual Studio 2017 per X++
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: Debug del codice X++
-                  href: dev-tools/debug-xpp.md
-                - name: Classi EventHandlerResult in scenari di risposta o richiesta
-                  href: dev-tools/event-handler-result-class.md
-                - name: Scrivere logica di business mediante codice sorgente X++ e C#
-                  href: dev-tools/write-business-logic.md
-                - name: Modifiche al linguaggio X++ e al compilatore X++
-                  href: dev-tools/programming-language-support.md
-                - name: Provider LINQ per C#
-                  href: dev-tools/linq-provider-c.md
-                - name: Scrivere le regole delle procedure consigliate
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Proprietà di Application Explorer
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: Supporto al linguaggio X++
+                  items:
+                    - name: Requisiti di Visual Studio 2017 per X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: Debug del codice X++
+                      href: dev-tools/debug-xpp.md
+                    - name: Classi EventHandlerResult in scenari di risposta o richiesta
+                      href: dev-tools/event-handler-result-class.md
+                    - name: Scrivere logica di business mediante codice sorgente X++ e C#
+                      href: dev-tools/write-business-logic.md
+                    - name: Provider LINQ per C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: Scrivere le regole delle procedure consigliate
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Proprietà di Application Explorer
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: Riferimento al linguaggio X++
                   items:
                     - name: Panoramica riferimento al linguaggio X++
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Librerie
                           href: dev-ref/xpp-library-objects.md
-                        - name: Eventi
+                        - name: Eventi e delegati
                           href: dev-ref/xpp-events.md
                     - name: Manipolazione e selezione dati X++
                       items:
@@ -906,6 +906,8 @@
               href: dev-tools/date-effectivity.md
             - name: Sviluppo per fornitori di software indipendenti
               items:
+                - name: Home page sviluppo ISV
+                  href: dev-tools/isv-dev-home-page.md
                 - name: Collegare i moduli X++ ai pacchetti tramite ISV Studio
                   href: dev-tools/isv-studio-solutions.md
                 - name: Licenze ISV
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Query guida di riferimento dettagliata
               href: lifecycle-services/querycookbook.md
+            - name: Eliminazione di dati e abbonamenti scaduti
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 - Translation Service
               items:
                 - name: Panoramica Dynamics 365 Translation service
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: Considerazioni per la sincronizzazione iniziale
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Limiti per la sincronizzazione in tempo reale
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Configurazione a doppia scrittura da Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
                     - name: Abilitazione della doppia scrittura per le app Finance and Operations esistenti
@@ -1126,7 +1132,7 @@
                       href: data-entities/dual-write/commerce-pricing.md
                     - name: Cespiti interni per l'assistenza
                       href: data-entities/dual-write/in-house-assets.md
-                    - name: Disponibilità scorte
+                    - name: Disponibilità inventario
                       href: data-entities/dual-write/inventory-availability.md
                     - name: 'Lavoratore, mansione e posizione integrati'
                       href: data-entities/dual-write/integrated-hr.md
@@ -1192,7 +1198,7 @@
           items:
             - name: Risorse piattaforma per dispositivi mobili
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Introduzione
+            - name: Attività iniziali
               items:
                 - name: Introduzione alla piattaforma per dispositivi mobili
                   href: mobile-apps/platform/mobile-platform-getting-started.md

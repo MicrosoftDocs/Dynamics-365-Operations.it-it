@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 23 agosto 2021
+          href: hr-whats-new-2021-08-23.md
         - name: 09 agosto 2021
           href: hr-whats-new-2021-08-09.md
         - name: 26 luglio 2021
@@ -543,6 +545,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurare le rubriche
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Gestire i proprietari delle ubicazioni
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
             - name: Sistema flusso di lavoro
               items:
                 - name: Panoramica del sistema del flusso di lavoro
