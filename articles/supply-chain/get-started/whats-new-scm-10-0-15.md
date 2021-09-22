@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da097f99eda239377b56e9ad35f658b3b408b5d588d82e0ec2759e6fbe72b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751148"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471814"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.15 (gennaio 2021)
 
@@ -35,7 +35,7 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 Questa versione include le seguenti funzionalità. Seguire i collegamenti del [piano di rilascio](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
 
-- Gestione delle unità di scala cloud ed edge con carichi di lavoro di esecuzione di produzione e magazzino<br> - Per ulteriori informazioni, vedere [Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino](../cloud-edge/cloud-edge-landing-page.md).
+- Gestione delle unità di scala cloud ed edge con carichi di lavoro di esecuzione di produzione e magazzino<br> - Per ulteriori informazioni, vedere [Unità di scala in una topologia ibrida distribuita](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Crea ed elabora ordini di trasferimento dall'app magazzino](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Per ulteriori informazioni, vedi [Creare ordini di trasferimento nell'app di magazzino](../warehousing/create-transfer-order-from-warehouse-app.md).
 

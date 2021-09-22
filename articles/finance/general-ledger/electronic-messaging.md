@@ -2,7 +2,7 @@
 title: Messaggistica elettronica
 description: In questo argomento vengono fornite informazioni sulla messaggistica elettronica in Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768341"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478726"
 ---
 # <a name="electronic-messaging"></a>Messaggi elettronici
 
@@ -57,6 +57,16 @@ La funzionalità EM supporta i seguenti scenari:
 - Archiviare ed esaminare tutti i report generati.
 - Archiviare ed esaminare tutte le informazioni di registro correlate ad azioni eseguite per un messaggio o un elemento del messaggio.
 - Controllare l'elaborazione mediante vari stati del messaggio e stati di elementi del messaggio.
+
+## <a name="security-privileges"></a>Privilegi di sicurezza
+
+I seguenti privilegi di sicurezza sono disponibili per i messaggi elettronici.
+
+| Privilegio di sicurezza           | Livello di accesso | Associazione |
+|------------------------------|--------------|-------------|
+| Gestisci messaggi elettronici | Questo privilegio fornisce l'accesso completo alle funzionalità EM. Se si dispone di questo privilegio, è possibile impostare la messaggistica elettronica ed eseguire tutta l'elaborazione. | Questo privilegio è incluso nei diritti di sicurezza **Gestire le transazioni IVA**. Tali diritti sono inclusi nel ruolo di sicurezza **Contabile**. |
+| Visualizza messaggi elettronici     | Questo privilegio fornisce l'accesso di sola lettura alle funzionalità EM. Se si dispone di questo privilegio, è possibile visualizzare i messaggi e le impostazioni della messaggistica elettronica. Tuttavia, non è possibile configurare o eseguire alcun elemento. | Questo privilegio è incluso nei diritti di sicurezza **Richiedere informazioni sullo stato delle transazioni IVA**. Tali diritti sono inclusi nei seguenti ruoli di sicurezza:<ul><li>Responsabile riscossioni</li><li>Impiegato contabilità clienti</li><li>Responsabile contabilità clienti</li><li>Fiscalista</li><li>Contabile</li><li>Direttore amministrativo</li><li>Supervisore contabile</li><li>Manager vendite</li><li>Addetto contabilità fornitori</li></ul> |
+| Gestisci messaggi elettronici  | Questo privilegio fornisce solo l'accesso alle pagine **Messaggi elettronici** ed **Elementi del messaggio elettronico**. Se si dispone di questo privilegio, è possibile eseguire tutte le operazioni di elaborazione richiamate da quelle pagine. | Questo privilegio è incluso nei diritti di sicurezza **Eseguire operazioni con i messaggi elettronici**. Tali diritti sono inclusi nel ruolo di sicurezza **Operatore messaggi elettronici**. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Funzionalità normative specifiche del paese supportate dalla funzionalità EM
 

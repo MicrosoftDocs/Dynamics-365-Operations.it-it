@@ -2,7 +2,7 @@
 title: Gestione delle informazioni del cliente per l'Italia
 description: In questo argomento viene descritto come gestire le informazioni relative al cliente nel POS per l'Italia.
 author: sepism
-ms.date: 01/14/2020
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8ef67d95d1df67ab354b2762f3b27c83adbb8fea833b54d29192f22852a31d78
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd8fca058deaaef9d8d93b7e2047af5e4f37087c
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713406"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478657"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 
@@ -33,7 +33,7 @@ In questo argomento viene descritto come è possibile gestire le informazioni re
 È possibile specificare informazioni sul cliente, come il codice fiscale o il codice lotteria, quando si crea o si modifica un record di dati master del cliente nel POS. È inoltre possibile specificare il codice lotteria per una transazione di vendita copiandolo dal cliente della transazione o immettendolo manualmente. Il codice lotteria può quindi essere stampato sia sulle ricevute fiscali e su quelle normali ed essere utilizzato per la lotteria nazionale. I codici fiscali personali possono inoltre essere utilizzati per individuare un cliente in POS.
 
 > [!NOTE]
-> Questa funzionalità è disponibile nella versione 10.0.7 e successive.
+> Non è possibile specificare un codice lotteria per un cliente nel POS quando l'opzione **Crea cliente in modalità asincrona** è abilitata nel profilo di funzionalità POS. Il supporto per la modalità di creazione del cliente asincrono potrebbe essere aggiunto in futuri aggiornamenti.
 
 ## <a name="setup"></a>Attrezzaggio
 

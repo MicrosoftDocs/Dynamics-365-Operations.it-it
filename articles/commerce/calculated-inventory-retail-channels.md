@@ -2,7 +2,7 @@
 title: Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 description: In questo argomento viene descritto come un'azienda può utilizzare Microsoft Dynamics 365 Commerce per visualizzare la disponibilità scorte stimata per i prodotti nei canali online e dei punti vendita.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741814"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472173"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcolare la disponibilità scorte per i canali di vendita al dettaglio
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In questo argomento viene descritto come un'azienda può utilizzare Microsoft Dynamics 365 Commerce per visualizzare la disponibilità scorte stimata per i prodotti nei canali online e dei punti vendita.
 
@@ -43,6 +44,21 @@ Le seguenti modifiche alle scorte sono attualmente considerate nella logica di c
 - Scorte vendute tramite ordini cliente in punto vendita o canale online
 - Scorte restituite al punto vendita
 - Scorte evase (prelievo, imballaggio, spedizione) dal magazzino del punto vendita
+
+Per utilizzare il calcolo dell'inventario lato canale, è necessario abilitare la funzionalità **Calcolo della disponibilità del prodotto ottimizzato**.
+
+Se l'ambiente Commerce in uso è in versione **da 10.0.8 a 10.0.11**, effettuare le seguenti operazioni:
+
+1. In Commerce Headquarters, accedere a **Retail e Commerce** \> **Parametri condivisi di Commerce**.
+1. Nella scheda **Inventario**, nel campo **Processo disponibilità prodotto**, selezionare **Utilizza processo ottimizzato per processo disponibilità prodotto**.
+
+Se l'ambiente Commerce in uso è in versione **da 10.0.12 o successiva**, effettuare le seguenti operazioni:
+
+1. In Commerce headquarters, accedere ad **Aree di lavoro \> Gestione funzionalità**, quindi abilitare la funzionalità **Calcolo della disponibilità del prodotto ottimizzato**.
+1. Se i canali online e del punto vendita utilizzano gli stessi magazzini di evasione ordini, è necessario abilitare anche la funzionalità **Logica di calcolo inventario lato canale e-commerce migliorata**. In questo modo, la logica di calcolo lato canale prenderà in considerazione le transazioni non registrate che vengono create nel canale del punto vendita. (Tali transazioni possono essere cash-and-carry, ordini cliente e resi).
+1. Eseguire il processo **1070** (**Configurazione canale**).
+
+Se l'ambiente Commerce è stato aggiornato da una versione precedente alla versione Commerce 10.0.8, dopo aver abilitato la funzionalità **Calcolo della disponibilità del prodotto ottimizzato**, affinché funzioni è necessario eseguire anche **Inizializza utilità di pianificazione di commercio**. Per eseguire l'inizializzazione, accedere a **Retail e Commerce** \> **Impostazione sedi centrali** \> **Utilità di pianificazione di commercio**.
 
 Per utilizzare il calcolo delle scorte lato canale, come prerequisito uno snapshot periodico dei dati di inventario da Headquarters creato dal processo **Disponibilità prodotto** deve essere inviato ai database del canale. Lo snapshot rappresenta le informazioni presenti in Headquarters in merito alla disponibilità scorte per una combinazione specifica di prodotto o variante di prodotto e magazzino. Include solo le transazioni di inventario che sono state elaborate e registrate in Headquarters nel momento in cui è stato preso lo snapshot e potrebbe non essere preciso al 100% in tempo reale a causa della costante elaborazione delle vendite che si verifica sui server distribuiti.
 
@@ -75,8 +91,6 @@ Entrambe le API utilizzano internamente la logica di calcolo lato canale e resti
 
 Sebbene altre API disponibili in Commerce possano accedere direttamente a Headquarters per recuperare le quantità di scorte disponibili per i prodotti, non è consigliabile utilizzarle in un ambiente di e-commerce a causa di potenziali problemi di prestazioni e del relativo impatto che queste frequenti richieste possono avere sui server Headquarters. Inoltre, con il calcolo lato canale, le due API sopra menzionate possono fornire una stima più accurata della disponibilità di un prodotto tenendo conto delle transazioni create nei canali che non sono ancora noti a Headquarters.
 
-Per utilizzare le due API, devi abilitare la funzionalità **Calcolo della disponibilità del prodotto ottimizzato** attraverso l'area di lavoro **Gestione funzionalità** in Headquarters. Se i tuoi canali online e del punto vendita utilizzano gli stessi magazzini di evasione ordini, devi abilitare anche la funzionalità **Logica di calcolo scorte lato canale e-commerce migliorata** per avere la logica di calcolo lato canale all'interno delle due API per tenere conto delle transazioni non registrate (cash-and-carry, ordini cliente, resi) create nel canale del punto vendita. Dovrai eseguire il processo **1070** (**Configurazione canale**) dopo aver abilitato queste funzioni.
-
 Per definire come deve essere restituita la quantità di prodotto nell'output dell'API, segui questi passaggi.
 
 1. Accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di commercio**.
@@ -93,7 +107,7 @@ Puoi usare il parametri API `QuantityUnitTypeValue` per specificare il tipo di u
 
 L'API **GetEstimatedAvailability** offre i seguenti parametri di input per supportare diversi scenari di query:
 
-- `DefaultWarehouseOnly`- Utilizza questo parametro per le query sulle scorte di un prodotto nel magazzino predefinito del canale online. 
+- `DefaultWarehouseOnly` - Utilizza questo parametro per le query sulle scorte di un prodotto nel magazzino predefinito del canale online. 
 - `FilterByChannelFulfillmentGroup` e `SearchArea` - Utilizza questi due parametri per eseguire query sulle cscorte di un prodotto da tutte le località di prelievo all'interno di una specifica area di ricerca, in base a `longitude`, `latitude` e `radius`. 
 - `FilterByChannelFulfillmentGroup` e `DeliveryModeTypeFilterValue` - Utilizza questi due parametri per eseguire query sulle scorte di un prodotto da magazzini specifici collegati a un gruppo di evasione ordini del canale online e configurati per supportare determinate modalità di consegna. Il parametro `DeliveryModeTypeFilterValue` supporta le opzioni **tutte** (predefinita), **spedizione** e **prelievo**. Ad esempio, in uno scenario in cui un ordine online può essere evaso da più magazzini di spedizione, è possibile utilizzare questi due parametri per eseguire query sulla disponibilità di scorte di un prodotto in tutti quei magazzini di spedizione. L'API in questo caso restituisce la quantità disponibile del prodotto e il livello di scorte in ciascuno dei magazzini di spedizione, più una quantità aggregata e un livello di scorte aggregato da tutti i magazzini di spedizione nell'ambito della query.
  
@@ -136,6 +150,5 @@ Per garantire la migliore stima possibile dell'inventario, è fondamentale utili
 > - Per motivi di prestazioni, quando vengono utilizzati i calcoli delle scorte disponibili sul lato canale per effettuare una richiesta di disponibilità scorte utilizzando l'API e-Commerce o la logica di inventario lato canale POS, il calcolo utilizza una cache per determinare se è trascorso abbastanza tempo per giustificare la nuova esecuzione della logica di calcolo. La cache predefinita è impostata su 60 secondi. Ad esempio, hai attivato il calcolo lato canale per il tuo negozio e hai visualizzato le scorte disponibili per un prodotto nella pagina **Ricerca in magazzino**. Se viene venduta un'unità del prodotto, la pagina **Ricerca in magazzino** non mostrerà l'inventario ridotto fino a quando la cache non sarà stata canCellaata. Dopo che gli utenti registrano le transazioni nel POS, devono attendere 60 secondi prima di verificare che l'inventario disponibile sia stato ridotto.
 
 Se lo scenario aziendale richiede un tempo di cache inferiore, contattare il rappresentante del supporto prodotto per assistenza.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

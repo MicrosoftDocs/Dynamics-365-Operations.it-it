@@ -2,7 +2,7 @@
 title: Creare un account di Archiviazione di Azure e un Azure Key Vault
 description: Questo argomento spiega come creare un account di Archiviazione di Azure e Azure Key Vault.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a0fe265c75138f3ecfbf08de3c30b2c824463afc35414986e21c4a27bf84bb61
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23fec7a00d800719e1a7d2c90f9d0977d56be038
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770538"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463859"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Creare un account di Archiviazione di Azure e un Azure Key Vault
 
@@ -43,9 +43,9 @@ In questo argomento, completerai due passaggi principali:
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>Configurare l'account di Archiviazione di Azure per ottenere l'URI dell'account di archiviazione
 
 1. Apri l'account di archiviazione che intendi utilizzare con la fatturazione elettronica.
-2. Vai a **Servizio BLOB** \> **Contenitori** e crea un nuovo contenitore.
+2. Andare ad **Archiviazione dati** > **Contenitori** e creare un nuovo contenitore.
 3. Immetti un nome per il contenitore e imposta il campo **Livello di accesso pubblico** su **Privato (nessun accesso anonimo)**.
-4. Apri il contenitore e vai a **Impostazioni \> Criteri di accesso**.
+4. Aprire il contenitore e andare a **Impostazioni** > **Criterio di accesso**.
 5. Seleziona **Aggiungi criteri** per aggiungere un criterio di accesso archiviato.
 6. Imposta i campi **Identificatore** e **Autorizzazioni** in base alle esigenze. Nel campo **Autorizzazioni**, è consigliabile selezionare tutte le autorizzazioni.
 
@@ -53,11 +53,11 @@ In questo argomento, completerai due passaggi principali:
 
 7. Immetti le date di inizio e di scadenza. La data di scadenza dovrebbe essere nel futuro.
 8. Seleziona **OK** per salvare i criteri, quindi salva le modifiche nel contenitore.
-9. Torna all'account di archiviazione e apri **Storage Explorer (anteprima)**.
-10. Fai clic con il pulsante destro del mouse sul contenitore e quindi seleziona **Ottieni firma di accesso condiviso**.
-11. Nella finestra di dialogo **Firma di accesso condiviso**, copiare e archivia il valore nel campo **URI**. Questo valore verrà utilizzato nella procedura successiva e verrà indicato come *URI della firma di accesso condiviso*.
-
-    ![Selezione e copia del valore URI.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+9. Andare a **Impostazioni** > **Token di accesso condiviso** e impostare i valori del campo. 
+10. Immettere le date di inizio e di fine. La data di fine dovrebbe essere nel futuro.
+11. Nel campo **Autorizzazioni**, selezionare le seguenti autorizzazioni: **Lettura**, **Aggiugi**, **Crea**, **Scrittura**, **Elimina** ed **Elenco**. 
+12. Selezionare **Genera URL e token SAS**.
+13. Copiare e memorizzare il valore nel campo **URL SAS BLOB**. Questo valore verrà utilizzato nella procedura successiva e verrà indicato come *URI della firma di accesso condiviso*.
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Configurare Azure Key Vault per archiviare l'URI dell'account di archiviazione
 
@@ -65,7 +65,7 @@ In questo argomento, completerai due passaggi principali:
 2. Vai a **Impostazioni** \> **Segreti**, quindi seleziona **Genera/Importa** per creare un nuovo segreto.
 3. Nella pagina **Crea un segreto**, nel campo **Opzioni di caricamento**, seleziona **Manuale**.
 4. Immettere il nome del segreto. Questo nome verrà utilizzato durante la configurazione del servizio in Regulatory Configuration Service (RCS) e verrà indicato come *nome segreto di Azure Key Vault*.
-5. Nel campo **Valore**, seleziona **URI della firma di accesso condiviso** e quindi seleziona **Crea**.
+5. Nel campo **Valore**, immettere l'URI della firma di accesso condiviso copiata nella procedura precedente, quindi selezionare **Crea**.
 6. Configura i criteri di accesso per concedere alla fatturazione elettronica il livello corretto di accesso protetto al segreto creato. Vai a **Impostazioni \> Criteri di accesso** e seleziona **Aggiungi criteri di accesso**.
 7. Imposta le autorizzazioni segrete per le operazioni **Ottieni** ed **Elenco**.
 
@@ -77,7 +77,7 @@ In questo argomento, completerai due passaggi principali:
 
 9. Nel campo **Seleziona un'entità**, selezionare **Nessuna selezione**.
 10. Nella finestra di dialogo **Entità di sicurezza**, selezionare l'entità di sicurezza aggiungendo **Servizio di fatturazione elettronica**.
-11. Seleziona **Aggiungi** e quindi seleziona **Salva le modifiche di Key Vault**.
+11. Selezionare **Aggiungi** e quindi **Salva**.
 12. Nella pagina **Panoramica**, copia il valore **Nome DNS** valore per il Key Vault. Questo valore verrà utilizzato durante la configurazione del servizio in RCS e verrà indicato come *URI di Key Vault*.
 
 > [!NOTE]

@@ -2,7 +2,7 @@
 title: Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 description: Questo argomento fornisce informazioni sulla funzionalità che consente alle unità di scala di eseguire processi selezionati dal carico di lavoro di gestione del magazzino dell'utente.
 author: perlynne
-ms.date: 04/22/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,13 +15,13 @@ ms.search.region: global
 ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7541688e8428dbc17a3c53d696913365580c3db8
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343766"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471718"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -32,71 +32,59 @@ ms.locfileid: "7343766"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Esecuzione nel magazzino su unità di scala
 
-Questa funzione consente alle unità di scala di eseguire processi selezionati dalle funzionalità di gestione del magazzino.
-
-In questo argomento, le esecuzioni di gestione del magazzino in un magazzino definito come unità di scala sono conosciute come *Sistema di esecuzione nel magazzino* (*WES*, Warehouse Execution System).
+I carichi di lavoro di gestione del magazzino consentono alle unità di scala nel cloud e nella rete perimetrale di eseguire processi selezionati dalle funzionalità di gestione del magazzino.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-È necessario disporre di un hub Dynamics 365 Supply Chain Management e di un'unità di scala distribuita con il carico di lavoro di gestione del magazzino. Per ulteriori informazioni sull'architettura e sul processo di distribuzione, vedere [Utilizzare unità di scala per aumentare la resilienza per i carichi di lavoro di Supply Chain Management](cloud-edge-landing-page.md).
+È necessario disporre di un hub Dynamics 365 Supply Chain Management e di un'unità di scala distribuita con il carico di lavoro di gestione del magazzino. Per ulteriori informazioni sull'architettura e sul processo di distribuzione, vedere [Unità di scala in una topologia ibrida distribuita](cloud-edge-landing-page.md).
 
-## <a name="how-the-wes-workload-works-on-scale-units"></a>Come funziona il carico di lavoro WES su unità di scala
+## <a name="how-the-warehouse-execution-workload-works-on-scale-units"></a>Come funziona il carico di lavoro di esecuzione del magazzino su unità di scala
 
 Per i processi nel carico di lavoro di gestione del magazzino, i dati vengono sincronizzati tra l'hub e le unità di scala.
 
-Un'unità di scala può gestire solo i dati che possiede. Il concetto di proprietà dei dati per le unità di scala consente di prevenire conflitti multimaster. Pertanto, è importante comprendere quali processi sono di proprietà dell'hub e quali delle unità di scala.
+Un'unità di scala può gestire solo i dati che possiede. Il concetto di proprietà dei dati per le unità di scala consente di prevenire conflitti multimaster. Pertanto, è importante comprendere quali dati di processo sono di proprietà dell'hub e quali delle unità di scala.
 
-Le unità di scala possiedono i seguenti dati:
+A seconda dei processi aziendali, lo stesso record di dati può cambiare proprietà tra l'hub e le unità di scala. Un esempio di questo scenario è fornito nella sezione seguente.
 
-- **Dati di elaborazione ciclo di spedizione** - I metodi di elaborazione ciclo selezionati vengono gestiti nell'ambito dell'elaborazione del ciclo dell'unità di scala.
-- **Dati di elaborazione del lavoro** - Il lavoro di magazzino creato su un'unità di scala sarà di proprietà di questa specifica unità di scala. Sono supportati i seguenti tipi di elaborazione degli ordini di lavoro:
-
-  - **Movimenti scorte** (movimento manuale e movimento per modello di lavoro)
-  - **Conteggio ciclo** e il processo di approvazione/rifiuto nell'ambito delle operazioni di conteggio
-  - **Ordini fornitore** (lavoro di stoccaggio tramite un ordine di magazzino quando gli ordini fornitore non sono associati ai carichi)
-  - **Ordini cliente** (semplice lavoro di prelievo e di carico)
-  - **Ordini di trasferimento** (solo in uscita con semplici operazioni di prelievo e carico)
-
-- **Dati di ricevimento ordini di magazzino** - Questi dati vengono utilizzati solo per gli ordini fornitore rilasciati manualmente a un magazzino.
-- **Dati di targa** - Le targhe possono essere create sull'hub e sulle unità di scala. Viene fornita una gestione dei conflitti dedicata. 
-
-    > [!IMPORTANT]
-    > I dati di targa non sono specifici del magazzino. Se lo stesso numero di targa viene creato sia sull'hub che su un'unità di scala durante lo stesso ciclo di sincronizzazione, la sincronizzazione successiva avrà esito negativo. In questo caso, selezionare **Amministrazione sistema> Richieste di informazioni > Richieste carico di lavoro> Record duplicati**, dove è possibile visualizzare e unire i dati.
+> [!IMPORTANT]
+> Alcuni dati possono essere creati sia sull'hub che sull'unità di scala. Esempi includono **Targhe** e **Numeri di batch**. La gestione dei conflitti dedicata viene fornita nel caso di uno scenario in cui lo stesso record univoco viene creato sia sull'hub che su un'unità di scala durante lo stesso ciclo di sincronizzazione. Quando ciò accade, la sincronizzazione successiva fallirà e sarà necessario accedere ad **Amministrazione del sistema > Richieste > Richieste del carico di lavoro > Record duplicati**, dove è possibile visualizzare e unire i dati.
 
 ## <a name="outbound-process-flow"></a>Flusso di elaborazione in uscita
 
-L'hub possiede i seguenti dati:
+Il processo di proprietà dei dati in uscita dipende dall'utilizzo o meno del processo di pianificazione del carico. In tutti i casi, l'hub possiede i *documenti di origine*, come ordini cliente e ordini di trasferimento, nonché il processo di allocazione degli ordini e i relativi dati di transazione dell'ordine. Tuttavia, quando si utilizza il processo di pianificazione del carico, i carichi verranno creati sull'hub e quindi inizialmente saranno di proprietà dell'hub. Come parte del processo *Rilascio in magazzino*, la proprietà dei dati di carico viene trasferita alla distribuzione dell'unità di scala dedicata, che diventerà il proprietario della successiva *Elaborazione ciclo di spedizione* (come assegnazione del lavoro, lavoro di rifornimento e creazione di lavoro su richiesta). Pertanto, gli addetti al magazzino possono elaborare le vendite in uscita e gli ordini di trasferimento solo utilizzando un'app per dispositivi mobili Warehouse Management connessa alla distribuzione che esegue il carico di lavoro dell'unità di scala specifica.
 
-- Tutti i documenti di origine, come ordini cliente e ordini di trasferimento
-- Allocazione degli ordini ed elaborazione del carico in uscita
-- Processi di rilascio in magazzino, creazione della spedizione, creazione e finalizzazione e del ciclo
+Non appena il processo di lavoro finale colloca le scorte in un luogo di spedizione finale (Portellone), l'unità di scala segnala all'hub di aggiornare le transazioni di inventario del documento di origine in *Prelevato*. Fino a quando questo processo non viene eseguito e non viene nuovamente sincronizzato, l'inventario disponibile sul carico di lavoro dell'unità di scala sarà prenotato fisicamente a livello di magazzino ed è possibile elaborare immediatamente la conferma della spedizione in uscita senza attendere il completamento della sincronizzazione. Il successivo documento di trasporto della vendita e la fatturazione o la spedizione dell'ordine di trasferimento per il carico verranno gestiti nell'hub.
 
-Le unità di scala prevedono l'effettiva elaborazione del ciclo (come l'allocazione del lavoro, il lavoro di rifornimento e la creazione del lavoro in base alla domanda) dopo il rilascio del ciclo. Pertanto, gli addetti al magazzino possono elaborare il lavoro in uscita utilizzando un'app per dispositivi mobili Gestione magazzino connessa all'unità di scala.
+Il diagramma seguente mostra il flusso in uscita e indica dove si svolgono i singoli processi aziendali. (Selezionare il diagramma per ingrandirlo.)
 
-![Flusso di elaborazione ciclo.](./media/wes-wave-processing-ga.png "Flusso di elaborazione ciclo")
+[![Flusso di elaborazione in uscita.](media/wes_outbound_warehouse_processes-small.png "Flusso di elaborazione in uscita")](media/wes_outbound_warehouse_processes.png)
 
-### <a name="process-work-and-ship"></a>Elaborare il lavoro e spedire
+### <a name="outbound-processing-with-load-planning"></a>Elaborazione in uscita con pianificazione del carico
 
-Non appena il processo di lavoro finale colloca le scorte in un luogo di spedizione finale (Portellone), l'unità di scala segnala all'hub di aggiornare le transazioni di inventario del documento di origine in *Prelevato*. Fino a quando questo processo non viene eseguito e viene nuovamente sincronizzato, le scorte disponibili nel carico di lavoro dell'unità di scala saranno fisicamente prenotate a livello di magazzino.
+Quando si utilizza il processo di pianificazione del carico, i carichi e le spedizioni vengono creati nell'hub e la proprietà dei dati viene trasferita alle unità di scala come parte del processo *Rilascio in magazzino*, come illustrato nella figura seguente.
 
-Non appena l'hub ha aggiornato le transazioni in *Prelevato*, può elaborare la conferma della spedizione in uscita e il documento di trasporto vendita associato o la spedizione dell'ordine di trasferimento per il carico.
+![Elaborazione in uscita con pianificazione del carico.](./media/wes_outbound_processing_with_load_planning.png "Elaborazione in uscita con pianificazione del carico")
 
-![Flusso di elaborazione in uscita.](./media/WES-outbound-processing-19.png "Flusso di elaborazione in uscita")
+### <a name="outbound-processing-without-load-planning"></a>Elaborazione in uscita senza pianificazione del carico
+
+Quando non si utilizza il processo di pianificazione del carico, le spedizioni vengono create sulle unità di scala. Anche i carichi vengono creati sulle unità di scala come parte del processo di ciclo.
+
+![Elaborazione in uscita senza pianificazione del carico.](./media/wes_outbound_processing_without_load_planning.png "Elaborazione in uscita senza pianificazione del carico")
 
 ## <a name="inbound-process-flow"></a>Flusso di elaborazione in entrata
 
 L'hub possiede i seguenti dati:
 
-- Tutti i documenti di origine, come ordini fornitore e ordini di reso vendite
+- Tutti i documenti di origine, come ordini fornitore e ordini di produzione
 - Elaborazione carico in entrata
 - Tutti gli aggiornamenti di costi e finanziari
 
 > [!NOTE]
-> Il flusso degli ordini fornitore in entrata è concettualmente diverso dal flusso in uscita. È possibile gestire lo stesso magazzino sull'unità di scala o sull'hub a seconda che l'ordine fornitore sia stato rilasciato o meno al magazzino. Dopo aver rilasciato un ordine al magazzino, puoi lavorare con quell'ordine solo se hai effettuato l'accesso all'unità di scala.
+> Il flusso degli ordini fornitore in entrata è concettualmente diverso dal flusso in uscita. È possibile gestire lo stesso magazzino sull'unità di scala o sull'hub a seconda che l'ordine fornitore sia stato rilasciato o meno al magazzino. Dopo aver rilasciato un ordine al magazzino, è possibile lavorare con quell'ordine solo se si è effettuato l'accesso all'unità di scala.
 >
 > Se si utilizza il processo di *rilascio a magazzino*, gli [*ordini di magazzino*](cloud-edge-warehouse-order.md) vengono creati e la proprietà del flusso di ricevimento correlato viene assegnata all'unità di scala. L'hub non sarà in grado di registrare il ricevimento in entrata.
 
-Per utilizzare il processo *Rilascia in magazzino* è necessario accedere all'hub. Passare a una delle pagine seguenti per eseguirlo o pianificarlo:
+Per utilizzare il processo *Rilascia in magazzino* è necessario accedere all'hub. Per l'elaborazione dell'ordine fornitore, passare a una delle pagine seguenti per eseguirlo o pianificarlo:
 
 - **Approvvigionamento > Ordini fornitore > Tutti gli ordini fornitore > Magazzino > Azioni > Rilascio in magazzino**
 - **Gestione del magazzino > Rilascio in magazzino > Rilascio automatico degli ordini cliente**
@@ -109,15 +97,17 @@ Se non utilizzi il processo *rilascio in magazzino* e pertanto non utilizzi *ord
 
 ![Flusso di elaborazione in entrata.](./media/wes-inbound-ga.png "Flusso di elaborazione in entrata")
 
-Quando si esegue la registrazione in entrata tramite un processo di ricezione dell'app di magazzino rispetto all'ordine di magazzino dell'unità di scala, il carico di lavoro dell'unità di scala segnalerà all'hub di aggiornare le transazioni delle righe ordine fornitore correlate in *Registrato*. Al termine, sarà possibile eseguire un'entrata prodotti dell'ordine fornitore sull'hub.
+Quando un lavoratore esegue la registrazione in entrata utilizzando un processo di ricezione dell'app per dispositivi mobili Warehouse Management rispetto all'unità di scala, viene registrato un ricevimento rispetto all'ordine di magazzino correlato, che viene archiviato nell'unità di scala. Il carico di lavoro dell'unità di scala segnalerà quindi all'hub di aggiornare le relative transazioni della riga dell'ordine fornitore in *Registrato*. Al termine, sarà possibile eseguire un'entrata prodotti dell'ordine fornitore sull'hub.
 
-![Flusso di elaborazione in entrata.](./media/WES-inbound-processing-19.png "Flusso di elaborazione in entrata")
+Il diagramma seguente mostra il flusso in entrata e indica dove si svolgono i singoli processi aziendali. (Selezionare il diagramma per ingrandirlo.)
+
+[![Flusso di elaborazione in entrata](media/wes_inbound_warehouse_processes-small.png "Flusso di elaborazione in entrata")](media/wes_inbound_warehouse_processes.png)
 
 ## <a name="supported-processes-and-roles"></a>Processi e ruoli supportati
 
-Non tutti i processi di gestione del magazzino sono supportati in un carico di lavoro WES su un'unità di scala. Pertanto, si consiglia di assegnare ruoli che corrispondono alla funzionalità disponibile per ogni utente.
+Non tutti i processi di gestione del magazzino sono supportati in un carico di lavoro di esecuzione del magazzino su un'unità di scala. Pertanto, si consiglia di assegnare ruoli che corrispondono alla funzionalità disponibile per ogni utente.
 
-Per facilitare questo processo, un ruolo di esempio denominato *Responsabile magazzino per il carico di lavoro* è incluso nei dati di esempio in **Amministrazione sistema \> Sicurezza \> Configurazione sicurezza**. Lo scopo di questo ruolo è consentire ai responsabili del magazzino di accedere al WES sull'unità di scala. Il ruolo concede l'accesso alle pagine rilevanti nel contesto di un carico di lavoro ospitato su un'unità di scala.
+Per facilitare questo processo, un ruolo di esempio denominato *Responsabile magazzino per il carico di lavoro* è incluso nei dati di esempio in **Amministrazione sistema \> Sicurezza \> Configurazione sicurezza**. Lo scopo di questo ruolo è consentire ai responsabili del magazzino di accedere al carico di lavoro di esecuzione del magazzino sull'unità di scala. Il ruolo concede l'accesso alle pagine rilevanti nel contesto di un carico di lavoro ospitato su un'unità di scala.
 
 I ruoli utente su un'unità di scala vengono assegnati come parte della sincronizzazione iniziale dei dati dall'hub all'unità di scala.
 
@@ -125,11 +115,11 @@ Per modificare i ruoli assegnati a un utente, andare ad **Amministrazione sistem
 
 Agli utenti che agiscono come responsabili di magazzino nell'hub e nelle unità di scala deve essere assegnato il ruolo *Addetto magazzino*. Tenere presente che questo ruolo concede agli addetti al magazzino l'accesso a funzionalità (come l'elaborazione degli ordini di trasferimento) presenti nell'interfaccia utente, ma non attualmente supportate sulle unità di scala.
 
-## <a name="supported-wes-processes"></a>Processi WES supportati
+### <a name="supported-warehouse-execution-processes"></a>Processi di esecuzione del magazzino supportati
 
-I seguenti processi di esecuzione del magazzino possono essere abilitati per un carico di lavoro WES su un'unità di scala:
+I seguenti processi di esecuzione del magazzino possono essere abilitati per un carico di lavoro di esecuzione del magazzino su un'unità di scala:
 
-- Metodi di ciclo selezionati per ordini cliente e trasferimento (allocazione, rifornimento della domanda, containerizzazione, creazione di lavoro e stampa di etichette del ciclo)
+- Metodi di ciclo selezionati per ordini cliente e di trasferimento (convalida, creazione del carico, allocazione, rifornimento della domanda, containerizzazione, creazione di lavoro e stampa di etichette del ciclo)
 
 - Elaborazione del lavoro di magazzino a fronte di ordini di vendite e trasferimento utilizzando l'app di magazzino (incluso il lavoro di rifornimento)
 - Esecuzione di query sulle scorte disponibili utilizzando l'app di magazzino
@@ -138,97 +128,97 @@ I seguenti processi di esecuzione del magazzino possono essere abilitati per un 
 - Creazione di rettifiche magazzino utilizzando l'app di magazzino
 - Registrazione di ordini fornitore ed esecuzione del lavoro di stoccaggio utilizzando l'app di magazzino
 
-I seguenti tipi di ordine di lavoro sono attualmente supportati per i carichi di lavoro WES su distribuzioni di unità di scala:
+I seguenti tipi di lavoro possono essere creati su un'unità di scala e possono quindi essere elaborati come parte di un carico di lavoro di gestione del magazzino:
 
-- Gestione ordini cliente
-- Uscita di trasferimento
-- Rifornimento (escluse le materie prime per la produzione)
-- Movimento scorte
-- Conteggio ciclo
-- Ordini fornitore (collegati a ordini di magazzino)
+- **Movimenti inventario** - Movimento manuale e movimento per modello di lavoro.
+- **Conteggio ciclo** - Incluso un processo di approvazione/rifiuto della discrepanza nell'ambito delle operazioni di conteggio.
+- **Ordini fornitore** - Lavoro di stoccaggio tramite un ordine di magazzino quando gli ordini fornitore non sono associati ai carichi.
+- **Ordini cliente** - Semplice lavoro di prelievo e di carico.
+- **Uscita di trasferimento** - Prelievo e carico semplici.
+- **Rifornimento** - Non include le materie prime per la produzione.
+- **Stoccaggio prodotti finiti** - Dopo il processo di produzione dichiarato come finito.
+- **Stoccaggio co-prodotti e sottoprodotti** - Dopo il processo di produzione dichiarato come finito.
 
-Nessun altro tipo di lavoro di magazzino o di elaborazione dei documenti di origine è al momento supportato sulle unità di scala. Ad esempio, per un carico di lavoro WES su un'unità di scala, non è possibile eseguire un processo di ricevimento di ordini di trasferimento (ricevuta di trasferimento). Al contrario, l'elaborazione deve avvenire nell'istanza dell'hub.
+Nessun altro tipo di lavoro di magazzino o di elaborazione dei documenti di origine è al momento supportato sulle unità di scala. Ad esempio, per un carico di lavoro di esecuzione del magazzino su un'unità di scala, non è possibile eseguire un processo di ricevimento di ordini di trasferimento (ricevuta di trasferimento). Al contrario, l'elaborazione deve avvenire nell'istanza dell'hub.
 
 > [!NOTE]
 > I pulsanti e le voci di menu del dispositivo mobile per le funzionalità non supportate non vengono visualizzati nell'_app per dispositivi mobili Gestione magazzino_ quando è connesso a una distribuzione di unità di scala.
-
-> [!WARNING]
+> 
 > Quando si esegue un carico di lavoro su un'unità di scala, non è possibile eseguire processi non supportati per il magazzino specifico nell'hub. Le tabelle fornite più avanti in questo argomento documentano le funzionalità supportate.
 >
 > I tipi di lavoro di magazzino selezionati possono essere creati sia sull'hub che sulle unità di scala, ma possono essere gestiti solo dall'hub proprietario o dall'unità di scala (la distribuzione che ha creato i dati).
 >
-> Anche quando un processo specifico è supportato da un'unità di scala, tenere presente che tutti i dati necessari potrebbero non essere sincronizzati dall'hub all'unità di scala o dall'unità di scala all'hub, il che rischia di provocare un'elaborazione imprevista del sistema. Esempi sono:
+> Anche quando un processo specifico è supportato da un'unità di scala, tenere presente che tutti i dati necessari potrebbero non essere sincronizzati dall'hub all'unità di scala o dall'unità di scala all'hub, il che rischia di provocare un'elaborazione imprevista del sistema. Esempi di questo scenario includono:
 > 
 > - Se si utilizza una query della direttiva di ubicazione che unisce un record della tabella dati che esiste solo nella distribuzione dell'hub.
 > - Se utilizzi lo stato della posizione e/o le funzionalità di carico volumetrico della posizione. Questi dati non verranno sincronizzati tra le distribuzioni e quindi funzioneranno solo quando si aggiorna l'inventario delle posizioni disponibile su una delle distribuzioni.
 
 La seguente funzionalità di gestione del magazzino non è attualmente supportata per i carichi di lavoro per le unità di scala:
 
-- Elaborazione in ingresso di righe ordine fornitore assegnate a un carico
-- Elaborazione in entrata di ordini fornitore per un progetto
-- Elaborazione in entrata e in uscita per gli articoli che hanno dimensioni di tracciabilità attive **Proprietario** e/o **Numero di serie**
-- Elaborazione dell'inventario con un valore di stato di blocco
-- Modifica di uno stato di inventario durante qualsiasi processo di movimento del lavoro
-- Prenotazione delle dimensioni a livello di magazzino flessibili impegnate nell'ordine
-- Utilizzo della funzionalità *Stato ubicazione magazzino* (i dati non vengono sincronizzati tra le distribuzioni)
-- Utilizzo della funzionalità *Posizionamento targa ubicazione*
-- Utilizzo di *Filtri di prodotto* e *Gruppi di filtri di prodotto*, tra cui l'impostazione **Numero di giorni per combinare i batch**
-- Integrazione con la gestione della qualità
-- Elaborazione con articoli a peso variabile
-- Elaborazione con articoli abilitati solo per Gestione trasporto
-- Elaborazione con scorte disponibili negative
-- Elaborazione del lavoro di magazzino con tipi di lavoro personalizzati
-- Elaborazione del lavoro di magazzino con note di spedizione
-- Elaborazione del lavoro di magazzino con movimentazione dei materiali/Warehouse Automation
-- Utilizzo dell'immagine dei dati master del prodotto (ad esempio, sull'app per dispositivi mobili Gestione magazzino)
+- Elaborazione in ingresso di righe ordine fornitore assegnate a un carico.
+- Elaborazione in entrata di ordini fornitore per un progetto.
+- Elaborazione in entrata e in uscita per gli articoli che hanno dimensioni di tracciabilità attive **Proprietario** e/o **Numero di serie**.
+- Elaborazione dell'inventario con un valore di stato di blocco.
+- Modifica di uno stato di inventario durante qualsiasi processo di movimento del lavoro.
+- Prenotazione delle dimensioni a livello di magazzino flessibili impegnate nell'ordine.
+- Utilizzo della funzionalità *Stato ubicazione magazzino* (i dati non vengono sincronizzati tra le distribuzioni).
+- Utilizzo della funzionalità *Posizionamento targa ubicazione*.
+- Utilizzo di *Filtri di prodotto* e *Gruppi di filtri di prodotto*, tra cui l'impostazione **Numero di giorni per combinare i batch**.
+- Integrazione con la gestione della qualità.
+- Elaborazione con articoli a peso variabile.
+- Elaborazione con articoli abilitati solo per Gestione trasporto.
+- Elaborazione con scorte disponibili negative.
+- Elaborazione del lavoro di magazzino con note di spedizione.
+- Elaborazione del lavoro di magazzino con movimentazione dei materiali/Warehouse Automation.
+- Utilizzo dell'immagine dei dati master del prodotto (ad esempio, sull'app per dispositivi mobili Warehouse Management).
 
 > [!WARNING]
 > Alcune funzionalità di magazzino non saranno disponibili per i magazzini che eseguono i carichi di lavoro di gestione del magazzino su un'unità di scala e inoltre non sono supportate sull'hub o sul carico di lavoro dell'unità di scala.
 > 
 > Altre funzionalità possono essere elaborate su entrambi, ma richiederanno un uso attento in alcuni scenari, ad esempio quando le scorte disponibili vengono aggiornato per lo stesso magazzino sia sull'hub che sull'unità di scala a causa del processo di aggiornamento asincrono dei dati.
 > 
-> Funzionalità specifiche (come *bloccare il lavoro*) che sono supportati sia sull'hub che sulle unità di scala saranno supportati solo per il proprietario dei dati.
+> Funzionalità specifiche (come *bloccare il lavoro*), che sono supportate sia sull'hub che sulle unità di scala, saranno supportate solo per il proprietario dei dati.
 
 ### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>In uscita (opzione supportata solo per ordini cliente e di trasferimento)
 
 La tabella seguente mostra quali funzionalità in uscita sono supportate e dove sono supportate quando i carichi di lavoro di gestione del magazzino vengono utilizzati in unità di scala cloud e edge.
 
-| Elaborazione                                                      | Hub | Carico di lavoro WES su un'unità di scala |
+| Elaborazione                                                      | Hub | Carico di lavoro di esecuzione del magazzino su un'unità di scala |
 |--------------------------------------------------------------|-----|------------------------------|
 | Elaborazione documenti di origine                                   | Sì | Nessuno |
-| Elaborazione del carico e della gestione trasporto                | Sì | Nessuno |
+| Elaborazione del carico e della gestione trasporto                | Sì, ma solo i processi di pianificazione del carico. L'elaborazione della gestione dei trasporti non è supportata  | Nessuno |
 | Rilascia in magazzino                                         | Sì | Nessuno |
 | Cross-docking pianificato                                        | Nessuno  | Nessuno |
-| Consolidamento spedizioni                                       | Sì | Nessuno |
-| Elaborazione ciclo di spedizione                                     | Sì, ma solo l'inizializzazione e la finalizzazione dello stato del ciclo vengono gestite nell'hub. Ciò significa che solo l'elaborazione degli ordini cliente e di trasferimento in uscita possono essere gestite dall'unità di scala.|<p>No, l'inizializzazione e la finalizzazione vengono gestite dall'hub e la funzionalità **Allestimento del carico e ordinamento** non è supportata<p><b>Nota:</b> l'accesso all'hub è necessario per finalizzare lo stato del ciclo come parte dell'elaborazione del ciclo.</p> |
-| Mantenere le spedizioni per ciclo                                  | Sì | Nessuno |
-| Elaborazione del lavoro di magazzino (inclusa la stampa della targa)        | Nessuno  | <p>Sì, ma solo per le funzionalità supportate sopra menzionate. |
+| Consolidamento spedizioni                                       | Sì, quando si utilizza la pianificazione del carico | Sì |
+| Elaborazione ciclo di spedizione                                     | Nessuno  |Sì, tranne **Allestimento del carico e ordinamento** |
+| Mantenere le spedizioni per ciclo                                  | Nessuno  | Sì|
+| Elaborazione del lavoro di magazzino (inclusa la stampa della targa)        | Nessuno  | Sì, ma solo per le funzionalità supportate menzionate in precedenza |
 | Prelievo cluster                                              | Nessuno  | Sì|
 | Elaborazione manuale dell'imballaggio, inclusa l'elaborazione del lavoro "Prelievo contenitore imballato" | Nessuno <P>Alcune elaborazioni possono essere eseguite dopo un processo di prelievo iniziale gestito da un'unità di scala, ma non consigliato a causa delle seguenti operazioni bloccate.</p>  | Nessuno |
 | Rimuovi contenitore da gruppo                                  | Nessuno  | Nessuno |
 | Elaborazione ordinamento in uscita                                  | Nessuno  | Nessuno |
-| Stampa di documenti relativi al carico                           | Sì | Nessuno |
-| Polizza di carico e generazione di ASN                            | Sì | Nessuno |
-| Conferma della spedizione                                             | Sì | Nessuno |
+| Stampa di documenti relativi al carico                           | Sì | Sì|
+| Polizza di carico e generazione di ASN                            | Nessuno  | Sì|
+| Conferma della spedizione                                             | Nessuno  | Sì|
 | Conferma della spedizione con "Conferma e trasferisci"            | Nessuno  | Nessuno |
 | Elaborazione di fatturazione e documento di trasporto                        | Sì | Nessuno |
-| Prelievo breve (ordini cliente e di trasferimento)                    | Nessuno  | Nessuno |
-| Prelievo eccessivo (ordini cliente e di trasferimento)                     | Nessuno  | Nessuno |
+| Prelievo breve (ordini cliente e di trasferimento)                    | Nessuno  | Sì, senza rimuovere le prenotazioni per i documenti di origine|
+| Prelievo eccessivo (ordini cliente e di trasferimento)                     | Nessuno  | Sì|
 | Modifica delle sedi di lavoro (ordini cliente e di trasferimento)         | Nessuno  | Sì|
 | Lavoro completo (ordini cliente e di trasferimento)                    | Nessuno  | Sì|
-| Stampa report di lavoro                                            | Sì | Nessuno |
+| Stampa report di lavoro                                            | Sì | Sì|
 | Etichetta ondata                                                   | Nessuno  | Sì|
 | Divisione lavoro                                                   | Nessuno  | Sì|
 | Elaborazione del lavoro: gestito da "Caricamento di trasporto"            | Nessuno  | Nessuno |
 | Riduci quantità prelevata                                       | Nessuno  | Nessuno |
 | Storna lavoro                                                 | Nessuno  | Nessuno |
-| Inverti conferma spedizione                                | Sì | Nessuno |
+| Inverti conferma spedizione                                | Nessuno  | Sì|
 
 ### <a name="inbound"></a>In entrata
 
 La tabella seguente mostra quali funzionalità in entrata sono supportate e dove sono supportate quando i carichi di lavoro di gestione del magazzino vengono utilizzati in unità di scala cloud e edge.
 
-| Elaborazione                                                          | Hub | Carico di lavoro WES su un'unità di scala<BR>*(Gli articoli contrassegnati con "Sì" si applicano solo agli ordini di magazzino)*</p> |
+| Elaborazione                                                          | Hub | Carico di lavoro di esecuzione del magazzino su un'unità di scala<BR>*(Gli articoli contrassegnati con "Sì" si applicano solo agli ordini di magazzino)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
 | Elaborazione&nbsp;documenti&nbsp;di origine                             | Sì | Nessuno |
 | Elaborazione del carico e della gestione trasporto                    | Sì | Nessuno |
@@ -238,7 +228,7 @@ La tabella seguente mostra quali funzionalità in entrata sono supportate e dove
 | Ricevimento e stoccaggio articolo ordine acquisto                       | <p>Sì,&nbsp;quando&nbsp;non&nbsp;è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p> |
 | Ricevimento e stoccaggio riga ordine acquisto                       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p></p> |
 | Ricevimento e stoccaggio ordine di reso                              | Sì | Nessuno |
-| Ricevimento e stoccaggio targa mista                       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
+| Ricevimento e stoccaggio targa mista                       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Sì |
 | Ricezione articoli di carico                                              | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
 | Ricevimento e stoccaggio targa                             | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
 | Ricevimento e stoccaggio articolo ordine di trasferimento                       | Sì | Nessuno |
@@ -260,7 +250,7 @@ La tabella seguente mostra quali funzionalità in entrata sono supportate e dove
 
 La tabella seguente mostra le operazioni di magazzino e le funzionalità di gestione delle eccezioni supportate e il punto in cui sono supportate quando i carichi di lavoro di gestione del magazzino vengono utilizzati in unità di scala nel cloud e nella rete perimetrale.
 
-| Elaborazione                                            | Hub | Carico di lavoro WES su un'unità di scala |
+| Elaborazione                                            | Hub | Carico di lavoro di esecuzione del magazzino su un'unità di scala |
 |----------------------------------------------------|-----|------------------------------|
 | Richiesta di informazioni sulla targa                              | Sì | Sì                          |
 | Richiesta informazioni sull'articolo                                       | Sì | Sì                          |
@@ -270,7 +260,7 @@ La tabella seguente mostra le operazioni di magazzino e le funzionalità di gest
 | Movimento per modello                               | Sì | Sì                          |
 | Trasferimento di magazzino                                 | Sì | Nessuno                           |
 | Creare un ordine di trasferimento dall'app di magazzino           | Sì | Nessuno                           |
-| Rettifica (in ingresso/uscita)                                | Sì | Sì, ma non per lo scenario di rettifica in cui la prenotazione delle scorte deve essere rimossa utilizzando l'impostazione **Rimuovi prenotazioni** sui tipi di rettifica magazzino.</p>                           |
+| Rettifica (in ingresso/uscita)                                | Sì | Sì, ma non per lo scenario di rettifica in cui la prenotazione dell'inventario deve essere rimossa utilizzando l'impostazione **Rimuovi prenotazioni** sui tipi di rettifica inventario</p>                           |
 | Modifica stato magazzino                            | Sì | Nessuno                           |
 | Conteggio ciclo ed elaborazione di discrepanza conteggio | Sì | Sì                           |
 | Ristampa etichetta (stampa della targa)             | Sì | Sì                          |
@@ -291,16 +281,16 @@ La tabella seguente mostra le operazioni di magazzino e le funzionalità di gest
 
 ### <a name="production"></a>Produzione
 
-La tabella seguente riepiloga gli scenari di gestione del magazzino attualmente supportati (e non supportati) sui carichi di lavoro dell'unità di scala.
+La tabella seguente riepiloga gli scenari di gestione del magazzino attualmente supportati sui carichi di lavoro dell'unità di scala.
 
-| Elaborazione | Hub | Carico di lavoro WES su un'unità di scala |
+| Elaborazione | Hub | Carico di lavoro di esecuzione del magazzino su un'unità di scala |
 |---------|-----|------------------------------|
 | Stoccaggio prodotti finiti e dichiarati finiti | Sì | Sì |
 | Stoccaggio co-prodotti e sottoprodotti | Sì | Sì |
 | <p>Tutti gli altri processi di gestione del magazzino correlati alla produzione, inclusi:</p><li>Rilascia in magazzino</li><li>Elaborazione di ciclo della produzione</li><li>Prelievo materie prime</li><li>Stoccaggio kanban</li><li>Prelievo kanban</li><li>Avvia ordine di produzione</li><li>Scarti di produzione</li><li>Ultimo pallet produzione</li><li>Registra consumo materiali</li><li>Svuota kanban</li></ul> | Sì | Nessuno |
 | Rifornimento di materie prime | Nessuno | Nessuno |
 
-## <a name="maintaining-scale-units-for-wes"></a>Gestione delle unità di scala per WES
+## <a name="maintaining-scale-units-for-warehouse-execution"></a>Gestione delle unità di scala per l'esecuzione del magazzino
 
 Diversi processi batch vengono eseguiti sia sull'hub che sulle unità di scala.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393525"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441167"
 ---
 # <a name="provision-human-resources"></a>Effettua il provisioning di Human Resources
 
@@ -43,6 +43,11 @@ Prima di iniziare il provisioning di un nuovo ambiente di produzione, i seguenti
 Prima di eseguire il provisioning del tuo primo ambiente di produzione o sandbox, potresti voler eseguire il provisioning di un [Ambiente di valutazione di Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) per convalidare la funzionalità di Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. 
 
 Gli ambienti di valutazione non sono destinati all'utilizzo come ambienti di produzione. Sono limitati a un periodo di valutazione di 60 giorni. Quando un periodo di valutazione scade, l'ambiente e tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. L'ambiente non può essere convertito in sandbox o ambiente di produzione. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
+
+Quando si crea un ambiente di prova Human Resources, viene creato anche un ambiente di prova Power Apps sul tenant e collegato all'ambiente Human Resources. L'ambiente Power Apps, denominato "TestDrive", ha lo stesso periodo di prova dell'ambiente Human Resources.
+
+> [!NOTE]
+> Il provisioning di un ambiente di prova Human Resources fallirà se l'utente autenticato non dispone dell'autorizzazione per creare ambienti di prova Power Apps. L'utente deve essere incluso nel gruppo di utenti in grado di creare ambienti di prova nell'interfaccia di amministrazione di Power Platform. Per ulteriori informazioni, vedere [Controllare chi può creare e gestire ambienti nell'interfaccia di amministrazione di Power Platform](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Pianificare gli ambienti Human Resources
 
@@ -69,7 +74,7 @@ Per utilizzare LCS per la gestione degli ambienti Human Resources, è dapprima n
 1. Accedere a [LCS](https://lcs.dynamics.com/Logon/Index) utilizzando l'account usato per iscriversi a Human Resources.
 
    > [!NOTE]
-   > Per garantire il corretto provisioning, l'account utilizzato per eseguire il provisioning dell'ambiente Human Resources deve essere assegnato al ruolo **Amministratore di sistema** o **Personalizzatore di sistema** nell'ambiente Power Apps associato all'ambiente Human Resources. Vedere [Configurare la sicurezza degli utenti per le risorse](/power-platform/admin/database-security) per ulteriori informazioni sull'assegnazione dei ruoli di sicurezza agli utenti in Power Platform.
+   > Per garantire il corretto provisioning, l'account utilizzato per eseguire il provisioning dell'ambiente Human Resources deve essere assegnato al ruolo **Amministratore di sistema** o **Personalizzatore di sistema** nell'ambiente Power Apps associato all'ambiente Human Resources. Per ulteriori informazioni sull'assegnazione dei ruoli di sicurezza agli utenti in Power Platform, vedere [Configurare la sicurezza degli utenti per le risorse](/power-platform/admin/database-security).
 
 2. Selezionare il segno più (**+**) per creare un progetto.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394514"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465079"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introduzione al calcolo delle imposte
 
@@ -49,13 +49,9 @@ Per un ambiente di produzione, devono essere soddisfatti i seguenti prerequisiti
 - Devi creare un ambiente RCS per la tua organizzazione e devi avere accesso al tuo account. Per maggiori informazioni su come creare un ambiente RCS, vedere [Panoramica di Regulatory Configuration Service](rcs-overview.md).
 - Le seguenti funzioni devono essere attivate nell'area di lavoro di **gestione delle funzioni** del tuo ambiente di Finance o Supply Chain Management distribuito, in base alle tue esigenze aziendali:
 
-    - Calcolo imposte
+    - Servizio di calcolo delle imposte
     - Supporta più numeri di partita IVA
     - Imposta in ordine di trasferimento
-    - Trasferimento elenco vendite UE solo in base alle transazioni di imposta
-    - Segnalazione Intrastat per codice fiscale multiplo
-    - Segnalazione dell'elenco delle vendite UE per ID fiscale multiplo
-    - Dichiarazione dell'imposta sulle vendite per codice fiscale multiplo
 
 - Le seguenti caratteristiche devono essere attivate nell'area di lavoro di **gestione delle caratteristiche** del tuo ambiente RCS distribuito.
 
@@ -65,18 +61,14 @@ Per un ambiente di produzione, devono essere soddisfatti i seguenti prerequisiti
 
 Per un ambiente di prova, devono essere soddisfatti i seguenti prerequisiti:
 
-- Devi avere accesso al tuo account LCS e devi avere un progetto LCS distribuito che ha un ambiente Tier 2 o superiore che esegue Dynamics 365 versione 10.0.18 con KB4616360, o una versione successiva.
+- È necessario avere accesso all'account LCS e avere un progetto LCS distribuito che ha un ambiente Tier 2 o superiore che esegue Dynamics 365 versione 10.0.21 o una versione successiva.
 - Devi creare un ambiente RCS per la tua organizzazione e devi avere accesso al tuo account. Per maggiori informazioni su come creare un ambiente RCS, vedere [Panoramica di Regulatory Configuration Service](rcs-overview.md).
 - Dovete contattare Microsoft, inviando un'e-mail a <taxcalc@microsoft.com>, per abilitare il flighting nel vostro ambiente Finance o Supply Chain Management distribuito.
 - Le seguenti funzioni devono essere attivate nell'area di lavoro di **gestione delle funzioni** del tuo ambiente di Finance o Supply Chain Management distribuito, in base alle tue esigenze aziendali:
 
-    - Calcolo imposte
+    - Servizio di calcolo delle imposte
     - Supporta più numeri di partita IVA
     - Imposta in ordine di trasferimento
-    - Trasferimento elenco vendite UE solo in base alle transazioni di imposta
-    - Segnalazione Intrastat per codice fiscale multiplo
-    - Segnalazione dell'elenco delle vendite UE per ID fiscale multiplo
-    - Dichiarazione dell'imposta sulle vendite per codice fiscale multiplo
 
 - Le seguenti caratteristiche devono essere attivate nell'area di lavoro di **gestione delle caratteristiche** del tuo ambiente RCS distribuito.
 
@@ -103,12 +95,12 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
 7. Vai a **Modello dati fiscali**, espandi la struttura ad albero dei file e quindi seleziona **Configurazione fiscale**.
 8. Seleziona la versione di configurazione fiscale corretta, in base alla tua versione Finance, e poi seleziona **Importa**.
 
-    | Versione di rilascio | Configurazione fiscale                       | Mapping modello                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Configurazione fiscale - Europa 30.12.82     |                                 |
-    | 10.0.19         | Configurazione del calcolo delle tasse 36.38.193 |                                 |
-    | 10.0.20         | Configurazione del calcolo dell'imposta 40.43.208 |                                 |
-    | 10.0.21         | Configurazione del calcolo dell'imposta 40.46.212 | Dataverse Mappatura del modello 40.46.9 |
+    | Versione di rilascio | Configurazione fiscale                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Configurazione fiscale - Europa 30.12.82     |
+    | 10.0.19         | Configurazione del calcolo delle tasse 36.38.193 |
+    | 10.0.20         | Configurazione del calcolo dell'imposta 40.43.208 |
+    | 10.0.21         | Configurazione del calcolo dell'imposta 40.46.212 |
 
 9. Nell'area di lavoro delle **funzioni di globalizzazione** , selezionare **Funzioni**, selezionare il riquadro **Calcolo delle tasse** e poi selezionare **Aggiungi**.
 10. Consente di selezionare uno dei seguenti tipi di funzionalità:

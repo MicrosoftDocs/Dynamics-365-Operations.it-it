@@ -2,7 +2,7 @@
 title: Utilizzare il servizio Fatturazione elettronica per importare fatture fornitore
 description: Questo argomento fornisce informazioni su come importare fatture fornitore utilizzando il servizio Fatturazione elettronica.
 author: gionoder
-ms.date: 08/03/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 434bf1f6a5a727a71592493b85ab166cbeff2f0980c2c968c99973a03f4dc660
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751254"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473378"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Utilizzare il servizio Fatturazione elettronica per importare fatture fornitore
 
@@ -45,13 +45,21 @@ Configura un canale di account di posta elettronica se la funzionalità di Fattu
 
 1. In RCS, seleziona la funzionalità di Fatturazione elettronica che hai creato. Assicurati di selezionare la versione con lo stato **Bozza**.
 2. Nella scheda **Impostazioni**, nella griglia, seleziona un'impostazione di funzionalità e quindi seleziona **Modifica**.
-3. Nella scheda **Canale dati** nel gruppo di campi **Parametri**, seleziona **Indirizzo server** e inserisci il provider dell'account di posta elettronica.
-4. Seleziona **Porta server** e inserisci la porta utilizzata dal provider dell'account di posta elettronica.
-5. Seleziona **Segreto nome utente** e immetti il nome del segreto dell'insieme di credenziali delle chiavi che contiene l'ID dell'account utente di posta elettronica.
-6. Seleziona **Segreto password utente** e immetti il nome del segreto dell'insieme di credenziali delle chiavi che contiene la password dell'account utente di posta elettronica.
-7. Seleziona **Filtro oggetto**. Esamina e aggiorna la stringa che contiene l'oggetto e-mail predefinito per identificare il messaggio e-mail che contiene la fattura fornitore elettronica da importare.
-8. Nella scheda **Regole di applicabilità**, esamina e aggiorna i criteri se necessario. Per ulteriori informazioni, vedi [Regole di applicabilità](e-invoicing-configuration-rcs.md#applicability-rules).
-9. Selezionare **Salva**, quindi chiudere la pagina.
+3. Sulla scheda **Canale dati** nel gruppo di campi **Parametri**, nel campo **Canale dati**, immettere il nome del canale. Il nome del canale non deve contenere più di dieci caratteri.
+4. Nel campo **Indirizzo server**, immettere il provider dell'account di posta elettronica. Ad esempio, l'indirizzo del server per **https://outlook.live.com/** è **imap-mail.outlook.com**.
+5. Nel campo **Porta server**, immettere la porta utilizzata dal provider dell'account di posta elettronica. Ad esempio, la porta del server per **https://outlook.live.com/** è **993**.
+6. Nel campo **Segreto nome utente**, immettere il nome del segreto dell'insieme di credenziali delle chiavi che contiene l'ID dell'account utente di posta elettronica. Questo segreto deve essere creato nell'insieme di credenziali delle chiavi di Azure e configurato nell'ambiente del servizio. 
+7. Nel campo **Segreto password utente**, immettere il nome del segreto dell'insieme di credenziali delle chiavi che contiene la password dell'account utente di posta elettronica.
+8. Facoltativo - Immettere i valori nei campi **Filtro da**, **Filtro oggetto** e **Filtro data**.
+9. Immettere i nomi delle cartelle della casella di posta in cui saranno presenti i messaggi:
+
+    - Importato di: **Cartella principale**
+    - Salvati dopo l'elaborazione riuscita: **Cartella di archivio**
+    - Salvati dopo l'elaborazione non riuscita: **Cartella degli errori** Non è necessario creare queste cartelle nella casella di posta. Le cartelle vengono create automaticamente dopo l'importazione e l'elaborazione della prima fattura elettronica. 
+   
+10. Nel gruppo di campi **Filtro allegati**, aggiungere le informazioni sul filtro dei file. Vengono elaborati solo gli allegati che soddisfano il filtro definito. Ad esempio, è possibile impostare "\*.xml" per gli allegati con estensione xml. Il nome dell'allegato viene utilizzato in Dynamics 365 Finance o Dynamics 365 Supply Chain Management durante la configurazione. 
+11. Nella scheda **Regole di applicabilità**, esaminare e aggiornare i criteri in base alle necessità. Il campo **Canale** deve essere uguale al **Canale dati** fornito in precedenza. Per ulteriori informazioni, vedi [Regole di applicabilità](e-invoicing-configuration-rcs.md#applicability-rules).
+12. Selezionare **Salva**, quindi chiudere la pagina.
 
 ### <a name="configure-a-microsoft-sharepoint-channel"></a>Configurare un canale di Microsoft SharePoint
 
@@ -71,10 +79,10 @@ Configura un canale di Microsoft SharePoint se la funzionalità di Fatturazione 
 
 Per distribuire la funzionalità di Fatturazione elettronica, vedi [Distribuire la funzionalità di fatturazione elettronica nell'ambiente del servizio](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment).
 
-## <a name="set-up-vendor-invoice-import-in-finance-and-supply-chain-management"></a>Configurare l'importazione di fatture fornitore in Finance e Supply Chain Management
+## <a name="set-up-vendor-invoice-import-in-finance-or-supply-chain-management"></a>Configurare l'importazione di fatture fornitore in Finance o Supply Chain Management
 Completa i passaggi nelle due sezioni seguenti per configurare diversi tipi di importazione di fatture fornitore.
 
-### <a name="import-vendor-invoices-from-email"></a>Importare fatture fornitore da messaggi e-mail
+### <a name="import-brazilian-nf-e-from-email"></a>Importare NF-e brasiliana da messaggi e-mail
 
 1. Accedi all'ambiente Finance o Supply Chain Management e verifica di essere nella persona giuridica corretta.
 2. Selezionare **Amministrazione organizzazione** > **Impostazione** > **Parametri documento elettronico**.
@@ -98,30 +106,43 @@ Completa i passaggi nelle due sezioni seguenti per configurare diversi tipi di i
 ### <a name="import-peppol-electronic-vendor-invoices"></a>Importare fatture fornitore elettroniche PEPPOL
 
 1. Accedi all'area di lavoro **Creazione di report elettronici** e seleziona **Configurazioni creazione di report elettronici**.
-2. Seleziona **Modello di contesto della fattura cliente** e crea una configurazione derivata.
-3. Nella versione **Bozza**, seleziona **Progettazione**.
-4. Nell'albero **Modello di dati**, seleziona **Fattura cliente**, quindi seleziona **Mappa modello a origine dati**.
-5. Nell'albero **Definizioni**, seleziona **Fattura cliente** e quindi seleziona **Progettazione**.
-6. Nell'albero **Origini dati** seleziona **Contesto\_Canale**. Nel campo **Valore**, seleziona **PEPPOL**. Questo è il nome del canale specificato nella configurazione del canale dati per la funzionalità di Fatturazione elettronica in RCS. 
+2. Selezionare **Modello contesto fattura cliente**, quindi **Crea configurazione** > **Deriva da Nome: modello di contesto fattura cliente, Microsoft** per creare una configurazione derivata.
+3. Nella versione **Bozza**, selezionare **Progettazione** e nell'albero **Modello di dati**, selezionare **Mappa modello a origine dati**.
+4. Nell'albero **Definizioni**, selezionare **DataChannel** e quindi selezionare **Progettazione**.
+5. Nell'albero **Origine dati**, espandere il contenitore **$Context\_Channel**. Nel campo **Valore**, selezionare **Modifica** e immettere il nome del canale dati. Questo è il nome del canale specificato nella configurazione del canale dati per la funzionalità di Fatturazione elettronica in RCS. 
 7. Selezionare **Salva**, quindi chiudere la pagina.
 8. Chiudere la pagina.
-9. Seleziona **Modello di contesto della fattura cliente** e nella Scheda dettaglio **Versioni** seleziona **Cambia stato** > **Completato**.
+9. Selezionare la configurazione derivata appena creata dal **Modello contesto fattura cliente** e, nella Scheda dettaglio **Versioni**, selezionare **Cambia stato** > **Completato**.
 10. Vai a **Amministrazione organizzazione** > **Impostazione** > **Parametri documento elettronico** e nella scheda **Funzionalità** assicurati che sia selezionato **Fatture elettroniche globali PEPPOL**. 
 11. Nella scheda **Canali esterni**, nel gruppo di campi **Canali**, seleziona **Aggiungi**.
-12. Nel campo **Canale**, immetti **PEPPOL**. Nel campo **Descrizione** immettere una descrizione.
-13. Nel campo **Società**, selezionare la persona giuridica. Nel campo **Contesto documento**, seleziona **Modello di contesto della fattura cliente - Contesto della fattura cliente**.
-14. Selezionare **Salva**, quindi chiudere la pagina.
+12. Nel campo **Canale** immettere il nome del canale di dati e nel campo **Descrizione** immettere una descrizione.
+13. Nel campo **Società**, selezionare la persona giuridica. 
+14. Nel campo **Contesto documento**, selezionare la nuova configurazione derivata da **Modello contesto fattura cliente**. La descrizione del mapping dovrebbe essere **Contesto canale dati**.
+15. Nel gruppo di campi **Importa origini**, seleziona **Aggiungi**.
+16. Nel campo **Nome** immettere **Nome filtro allegati** e nel campo **Nome entità dati**, selezionare **Intestazione fattura fornitore**.
+17. Nel campo **Mapping modello**, selezionare **Importazione fattura fornitore - Importa fattura fornitore**.
+18. Fare clic su **Salva**, quindi chiudere la pagina.
 
 
 ## <a name="receive-electronic-invoices"></a>Ricevere fatture elettroniche
+
+Il servizio di fatturazione elettronica esegue due passaggi durante l'importazione delle fatture dai canali di dati:
+
+1. Accede alla casella di posta ed esegue la lettura dei messaggi e-mail.
+2. Elabora i messaggi e-mail. 
+    
+Per eseguire questi due passaggi, il client deve chiamare il servizio manualmente per ogni passaggio. Tuttavia, si consiglia di impostare batch per la ricezione di documenti elettronici.
+
 Per ricevere fatture elettroniche, procedi come segue:
 
 1. Vai a **Amministrazione organizzazione** > **Periodico** > **Documenti elettronici** > **Ricevi documenti elettronici**.
 2. Seleziona **OK**, quindi chiudi la pagina.
 
+
 ## <a name="view-receive-logs-for-electronic-invoices"></a>Visualizzare i registri di ricevimento di fatture elettroniche
 
 Per visualizzare i registri di ricevimento di fatture elettroniche, vai a **Amministrazione organizzazione** > **Periodico** > **Documenti elettronici** > **Registro di ricevimento documenti elettronici**.
+Se non sono visibili fatture elaborate correttamente, rimuovere il filtro della tabella.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Introduzione all'amministrazione dei servizi per la fatturazione elettronica
 description: Questo argomento spiega come iniziare a usare la fatturazione elettronica.
 author: gionoder
-ms.date: 05/24/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: feb8160cd920906765f7ef4a393e15c2be5d8c2cd60c3646e15648980ff27a06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f77c8fd1696b74f852d04cc0a696d4816ef9af1f
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765646"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463811"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Introduzione all'amministrazione dei servizi per la fatturazione elettronica
 
@@ -33,7 +33,7 @@ ms.locfileid: "6765646"
 Prima di poter completare le procedure in questo argomento, è necessario soddisfare i seguenti prerequisiti:
 
 - Devi avere accesso al tuo account Microsoft Dynamics Lifecycle Services (LCS).
-- Devi disporre di un progetto LCS che includa la versione 10.0.17 o successiva di Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management. Inoltre, queste app devono essere distribuite in una delle seguenti aree geografiche di Azure:
+- È necessario disporre di un progetto LCS che includa la versione 10.0.17 o successiva di Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management. Inoltre, queste app devono essere distribuite in una delle seguenti aree geografiche di Azure:
 
     - Stati Uniti
     - Europa
@@ -47,20 +47,20 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Installa il componente aggiuntivo per microservizi in Lifecycle Services
 
 1. Accedi al tuo account LCS e nella dashboard del progetto LCS, seleziona un progetto LCS.
-2. Nel progetto, nel dashboard dell'ambiente, seleziona il progetto di distribuzione LCS. Il progetto selezionato deve essere in esecuzione.
+2. Nel progetto, nel dashboard **Ambienti**, selezionare il progetto distribuito. L'ambiente selezionato deve essere in esecuzione.
 3. Nella scheda **Integrazione di Power Platform**, nel gruppo di campi **Componenti aggiuntivi dell'ambiente**, seleziona **Installa un nuovo componente aggiuntivo**.
 4. Seleziona **Fatturazione elettronica**.
 5. Nel campo **ID applicazione AAD** inserisci **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Questo è un valore fisso.
-6. Nel campo **ID tenant AAD** immettere l'ID tenant dell'account di sottoscrizione di Azure.
+6. Nel campo **ID tenant AAD** immettere l'ID tenant dell'account di sottoscrizione di Azure. Il tentant Azure Active Directory (Azure AD) specificato deve essere lo stesso tenant utilizzato per RCS.
 7. Esaminare i termini e le condizioni e quindi selezionare la casella di controllo.
-8. Seleziona **Installa**.
+8. Seleziona **Installa**. L'installazione può richiedere fino a diversi minuti.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Configurare i parametri per l'integrazione RCS con la fatturazione elettronica
 
 1. Accedi al tuo account RCS.
-2. Nell'area di lavoro **Creazione di report elettronici**, nella sezione **Collegamenti correlati**, selezionare **Parametri per la creazione di report elettronici**.
-3. Nella scheda **Servizio di fatturazione elettronica** nel campo **URI endpoint del servizio** immetti l'endpoint del servizio appropriato per l'area geografica di Azure, come mostrato nella tabella seguente.
+2. Nell'area di lavoro **Funzionalità di globalizzazione**, nella sezione **Impostazioni correlate**, selezionare **Parametri per la creazione di report elettronici**.
+3. Nella scheda **Fatturazione elettronica**, nel campo **URI endpoint del servizio**, immettere l'endpoint del servizio appropriato per l'area geografica di Azure, come mostrato nella tabella seguente.
 
     | Area geografica del data center di Azure | URI endpoint servizio                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -69,15 +69,15 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
     | Regno Unito             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Asia                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-4. Verifica che il campo **ID applicazione** sia impostato su **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Questo valore è un valore fisso.
-5. Nel campo **ID ambiente LCS** immetti l'ID del tuo ambiente LCS.
+4. Verificare che il campo **ID applicazione** sia impostato su **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Questo valore è un valore fisso.
+5. Nel campo **ID ambiente LCS** immettere l'ID dell'ambiente LCS.
 6. Selezionare **Salva**, quindi chiudere la pagina.
 
 ## <a name="create-key-vault-references"></a>Creare riferimenti insieme di credenziali delle chiavi
 
 1. Accedi al tuo account RCS.
 2. Nell'area di lavoro **Funzionalità di globalizzazione**, nella sezione **Ambiente**, seleziona il riquadro **Fatturazione elettronica**.
-3. Nella pagina **Configurazioni dell'ambiente** nel riquadro azioni seleziona **Ambiente del servizio** e quindi seleziona **Parametri Key Vault**.
+3. Nella pagina **Configurazioni dell'ambiente**, nel riquadro Azioni, selezionare **Ambienti del servizio** e quindi selezionare **Parametri insieme di credenziali delle chiavi**.
 4. Seleziona **Nuovo** per creare un riferimento dell'insieme di credenziali delle chiavi.
 5. Nel campo **Nome** immetti il nome del riferimento dell'insieme di credenziali delle chiavi. Nel campo **Descrizione** immettere una descrizione.
 6. Nel campo **URI Key Vault** incolla il segreto dell'insieme di credenziali delle chiavi da Azure Key Vault. Per ulteriori informazioni, vedi [Creare un account di archiviazione di Azure e Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -94,7 +94,7 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 
 ## <a name="create-a-digital-certificate-secret"></a>Creare un segreto del certificato digitale
 
-1. Nella pagina **Configurazioni dell'ambiente** nel riquadro azioni seleziona **Ambiente del servizio** e quindi seleziona **Parametri Key Vault**.
+1. Nella pagina **Configurazioni dell'ambiente**, nel riquadro Azioni, selezionare **Ambiente del servizio** e quindi selezionare **Parametri insieme di credenziali delle chiavi**.
 2. Seleziona un **Riferimento dell'insieme di credenziali delle chiavi** e quindi nella sezione **Certificati** seleziona **Aggiungi**.
 3. Nel campo **Nome** immetti il nome del segreto del certificato digitale. Per ulteriori informazioni, vedi [Creare un account di archiviazione di Azure e Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
 4. Nel campo **Descrizione** immettere una descrizione.
@@ -113,17 +113,19 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 8. Nel campo **ID utente** immetti l'alias dell'utente. Nel campo **E-mail** immetti l'indirizzo di posta elettronica dell'utente.
 9. Selezionare **Salva**.
 10. Se le fatture specifiche per paese/area geografica richiedono una catena di certificati per applicare una firma digitale, seleziona nel riquadro azioni **Parametri Key Vault**, quindi seleziona **Catena di certificati** e segui questi passaggi:
+
     1. Seleziona **Nuovo** per creare una catena di certificati.
     2. Nel campo **Nome** immettere il nome della catena di certificati. Nel campo **Descrizione** immettere una descrizione.
     3. Nella sezione **Certificati** seleziona **Aggiungi** per aggiungere un certificato alla catena.
     4. Usa il pulsante **Su** o **Giù** per modificare la posizione del certificato nella catena.
     5. Selezionare **Salva**, quindi chiudere la pagina.
     6. Chiudere la pagina.
+
 11. Nella pagina **Ambiente del servizio** nel riquadro azioni, seleziona **Pubblica** per pubblicare l'ambiente nel cloud. Il valore del campo **Stato** viene modificato in **Pubblicato**.
 
 ## <a name="create-a-connected-application"></a>Creare un'applicazione connessa
 
-1. Nella pagina **Configurazioni dell'ambiente**, nel riquadro azioni seleziona **Applicazioni connesse**.
+1. Nella pagina **Configurazione ambienti**, nel riquadro Azioni, selezionare **Applicazioni connesse**.
 2. Seleziona **Nuovo** per creare un'applicazione connessa.
 3. Nel campo **Nome** immettere il nome dell'applicazione da connettere.
 4. Nel campo **Applicazione** immetti l'URL dell'ambiente Finance e Supply Chain Management da connettere.
@@ -133,7 +135,7 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 
 ## <a name="link-connected-applications-to-environments"></a>Collegare le applicazioni connesse agli ambienti
 
-1. Nella pagina **Configurazioni ambiente** seleziona **Nuovo** per assegnare un'applicazione connessa a un ambiente.
+1. Nella pagina **Configurazione ambienti**, selezionare **Nuovo** per assegnare un'applicazione connessa a un ambiente.
 2. Nel campo **Applicazione connessa** seleziona un'applicazione connessa.
 3. Nel campo **Ambiente del servizio**, seleziona un ambiente del servizio.
 4. Selezionare **Salva**, quindi chiudere la pagina.
@@ -149,7 +151,7 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 ### <a name="set-up-the-service-endpoint-url"></a>Configurare l'URL dell'endpoint di servizio
 
 1. Vai a **Amministrazione organizzazione \> Impostazione \> Parametri documento elettronico**.
-2. Nella scheda **Servizio di invio** nel campo **URL endpoint del servizio** immetti l'endpoint del servizio appropriato per l'area geografica di Azure, come mostrato nella tabella seguente.
+2. Nella scheda **Fatturazione elettronica**, nel campo **URL endpoint**, immettere l'endpoint del servizio appropriato per l'area geografica di Azure, come mostrato nella tabella seguente.
 
     | Area geografica del data center di Azure | URI endpoint servizio                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -161,9 +163,8 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 3. Nel campo **Ambiente** immetti il nome dell'ambiente del servizio pubblicato in Fatturazione elettronica.
 4. Selezionare **Salva**, quindi chiudere la pagina.
 
-### <a name="enable-flighting-keys"></a>Abilitare le chiavi della versione di anteprima
+### <a name="enable-flighting-keys-for-finance-or-supply-chain-management-version-10017"></a>Abilitare le chiavi della versione di anteprima per Finance o Supply Chain Management versione 10.0.17
 
-Abilita le chiavi della versione di anteprima per Microsoft Dynamics 365 Finance o Microsoft Dynamics 365 Supply Chain Management versioni 10.0.17 o precedenti. 
 1. Eseguire il seguente comando SQL:
 
     INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BusinessDocumentSubmissionServiceEnabled', 1)

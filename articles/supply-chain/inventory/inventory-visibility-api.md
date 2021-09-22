@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343634"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474654"
 ---
 # <a name="inventory-visibility-public-apis"></a>API pubbliche di visibilità dell'inventario
 
@@ -46,6 +46,9 @@ La seguente tabella elenca le API che sono attualmente disponibili:
 
 Microsoft ha fornito una raccolta di richieste di *Postman* out-of-box. Puoi importare questa collezione nel tuo software *Postman* utilizzando il seguente link condiviso: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
+> [!NOTE]
+> La parte del percorso {environmentId} è l'ID ambiente in Microsoft Dynamics Lifecycle Services (LCS).
+
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Trova l'endpoint secondo il tuo ambiente Lifecycle Services
 
 Il microservizio di Visibilità dell'inventario è distribuito su Microsoft Azure Service Fabric, in più aree geografiche e più regioni. Attualmente non c'è un endpoint centrale che possa reindirizzare automaticamente la tua richiesta alla geografia e alla regione corrispondente. Pertanto, è necessario comporre i pezzi di informazioni in un URL utilizzando il seguente schema:
@@ -54,22 +57,26 @@ Il microservizio di Visibilità dell'inventario è distribuito su Microsoft Azur
 
 Il nome breve della regione può essere trovato nell'ambiente Microsoft Dynamics Lifecycle Services (LCS). La seguente tabella elenca le regioni che sono attualmente disponibili.
 
-| Regione Azure | Nome breve della regione |
-|---|---|
-| Australia orientale | eau |
-| Australia sud-orientale | seau |
-| Canada centrale | cca |
-| Canada orientale | eca |
-| Europa settentrionale | neu |
-| Europa occidentale | weu |
-| Stati Uniti orientali | eus |
-| Stati Uniti occidentali | wus |
-| Regno Unito meridionale | suk |
-| Regno Unito occidentale | wuk |
+| Regione Azure        | Nome breve della regione |
+| ------------------- | ----------------- |
+| Australia orientale      | eau               |
+| Australia sud-orientale | seau              |
+| Canada centrale      | cca               |
+| Canada orientale         | eca               |
+| Europa settentrionale        | neu               |
+| Europa occidentale         | weu               |
+| Stati Uniti orientali             | eus               |
+| Stati Uniti occidentali             | wus               |
+| Regno Unito meridionale            | suk               |
+| Regno Unito occidentale             | wuk               |
+| Giappone orientale          | ejp               |
+| Giappone occidentale          | wjp               |
+| Brasile meridionale        | sbr               |
+| Stati Uniti centro-meridionali    | scus              |
 
 Il numero dell'isola è dove il tuo ambiente LCS è distribuito su Service Fabric. Attualmente non c'è modo di ottenere queste informazioni dal lato utente.
 
-Microsoft ha costruito un'interfaccia utente (UI) in Power Apps in modo da poter ottenere l'endpoint completo del microservizio. Per maggiori informazioni, vedere [Trovare l'endpoint del servizio](inventory-visibility-power-platform.md#get-service-endpoint).
+Microsoft ha costruito un'interfaccia utente (UI) in Power Apps in modo da poter ottenere l'endpoint completo del microservizio. Per maggiori informazioni, vedere [Trovare l'endpoint del servizio](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autenticazione
 
@@ -80,66 +87,66 @@ Per ottenere un token di servizio di sicurezza, seguite questi passi.
 1. Accedi al portale Azure e usalo per trovare i valori `clientId` e `clientSecret` per la tua app Dynamics 365 Supply Chain Management .
 1. Recupera un token Azure AD (`aadToken`) inviando una richiesta HTTP che ha le seguenti proprietà:
 
-    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
-    - **Metodo:** `GET`
-    - **Contenuto del corpo (dati del modulo):**
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **Metodo:** `GET`
+   - **Contenuto del corpo (dati del modulo):**
 
-        | Chiave | Valore |
-        |---|---|
-        | client_id | ${aadAppId} |
-        | client_secret | ${aadAppSecret} |
-        | grant_type | client_credentials |
-        | risorsa | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Chiave           | Valore                                |
+     | ------------- | ------------------------------------ |
+     | client_id     | ${aadAppId}                          |
+     | client_secret | ${aadAppSecret}                      |
+     | grant_type    | client_credentials                   |
+     | risorsa      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
 
-    Dovreste ricevere un token Azure AD (`aadToken`) in risposta. Il risultato sarà simile all'esempio seguente.
+   Dovreste ricevere un token Azure AD (`aadToken`) in risposta. Il risultato sarà simile all'esempio seguente.
 
-    ```json
-    {
-        "token_type": "Bearer",
-        "expires_in": "3599",
-        "ext_expires_in": "3599",
-        "expires_on": "1610466645",
-        "not_before": "1610462745",
-        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-        "access_token": "eyJ0eX...8WQ"
-    }
-    ```
+   ```json
+   {
+       "token_type": "Bearer",
+       "expires_in": "3599",
+       "ext_expires_in": "3599",
+       "expires_on": "1610466645",
+       "not_before": "1610462745",
+       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+       "access_token": "eyJ0eX...8WQ"
+   }
+   ```
 
 1. Formulare una richiesta JSON (JavaScript Object Notation) che assomigli al seguente esempio.
 
-    ```json
-    {
-        "grant_type": "client_credentials",
-        "client_assertion_type": "aad_app",
-        "client_assertion": "{Your_AADToken}",
-        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
-        "context_type": "finops-env"
-    }
-    ```
+   ```json
+   {
+       "grant_type": "client_credentials",
+       "client_assertion_type": "aad_app",
+       "client_assertion": "{Your_AADToken}",
+       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context_type": "finops-env"
+   }
+   ```
 
-    Notare i punti seguenti:
+   Notare i punti seguenti:
 
-    - Il valore `client_assertion` deve essere il token Azure AD (`aadToken`) che avete ricevuto nel passo precedente.
-    - Il valore `context` deve essere l'ID dell'ambiente in cui si desidera distribuire il componente aggiuntivo.
-    - Impostare tutti gli altri valori come mostrato nell'esempio.
+   - Il valore `client_assertion` deve essere il token Azure AD (`aadToken`) che avete ricevuto nel passo precedente.
+   - Il valore `context` deve essere l'ID dell'ambiente LCS in cui si desidera distribuire il componente aggiuntivo.
+   - Impostare tutti gli altri valori come mostrato nell'esempio.
 
 1. Invia una richiesta HTTP che ha le seguenti proprietà:
 
-    - **URL:** `https://securityservice.operations365.dynamics.com/token`
-    - **Metodo:** `POST`
-    - **Intestazione HTTP:** Includere la versione dell'API. (La chiave è `Api-Version`, e il valore è `1.0`.)
-    - **Contenuto del corpo:** Includete la richiesta JSON che avete creato nel passo precedente.
+   - **URL:** `https://securityservice.operations365.dynamics.com/token`
+   - **Metodo:** `POST`
+   - **Intestazione HTTP:** Includere la versione dell'API. (La chiave è `Api-Version`, e il valore è `1.0`.)
+   - **Contenuto del corpo:** Includete la richiesta JSON che avete creato nel passo precedente.
 
-    Dovresti ricevere un token di accesso (`access_token`) in risposta. È necessario utilizzare questo token come token portatore per chiamare l'API di visibilità dell'inventario. Ecco un esempio.
+   Dovresti ricevere un token di accesso (`access_token`) in risposta. È necessario utilizzare questo token come token portatore per chiamare l'API di visibilità dell'inventario. Ecco un esempio.
 
-    ```json
-    {
-        "access_token": "{Returned_Token}",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-    ```
+   ```json
+   {
+       "access_token": "{Returned_Token}",
+       "token_type": "bearer",
+       "expires_in": 3600
+   }
+   ```
 
 Nelle sezioni successive, si userà `$access_token` per rappresentare il token che è stato recuperato nell'ultimo passo.
 
@@ -160,6 +167,9 @@ La tabella seguente riassume il significato di ogni campo nel corpo JSON.
 | `quantities` | La quantità di cui deve essere cambiata la quantità a disposizione. Per esempio, se 10 nuovi libri vengono aggiunti a uno scaffale, questo valore sarà `quantities:{ shelf:{ received: 10 }}`. Se tre libri vengono rimossi dallo scaffale o venduti, questo valore sarà `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | L'origine dei dati delle dimensioni che sono utilizzate nell'evento di modifica del distacco e nella query. Se si specifica l'origine dati, è possibile utilizzare le dimensioni personalizzate dell'origine dati specificata. Visibilità inventario può utilizzare la configurazione delle dimensioni per mappare le dimensioni personalizzate alle dimensioni generali predefinite. Se nessun valore `dimensionDataSource` è specificato, potete usare solo le [dimensioni di base](inventory-visibility-configuration.md#data-source-configuration-dimension) generali nelle vostre query. |
 | `dimensions` | Una coppia chiave-valore dinamica. I valori sono mappati ad alcune delle dimensioni del Supply Chain Management. Tuttavia, puoi anche aggiungere dimensioni personalizzate (per esempio, _Source_) per indicare se l'evento proviene da Supply Chain Management o da un sistema esterno. |
+
+> [!NOTE]
+> I parametri `SiteId` e `LocationId` costruiscono la [configurazione della partizione](inventory-visibility-configuration.md#partition-configuration). Pertanto, è necessario specificarli nelle dimensioni quando si creano eventi di modifica delle scorte disponibili, si impostano o si sostituiscono le quantità delle scorte disponibili o si creano eventi di prenotazione.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Creare un evento di cambiamento a portata di mano
 
@@ -201,6 +211,9 @@ L'esempio seguente mostra un esempio di contenuto del corpo. In questo esempio, 
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "PosMachineId": "0001",
         "ColorId": "Red"
     },
     "quantities": {
@@ -211,7 +224,7 @@ L'esempio seguente mostra un esempio di contenuto del corpo. In questo esempio, 
 }
 ```
 
-Il seguente esempio mostra un esempio di contenuto del corpo senza `dimensionDataSource`.
+Il seguente esempio mostra un esempio di contenuto del corpo senza `dimensionDataSource`. In questo caso, le `dimensions` saranno le [dimensioni di base](inventory-visibility-configuration.md#data-source-configuration-dimension). Se `dimensionDataSource` è impostato, le `dimensions` possono essere le dimensioni dell'origine dati o le dimensioni di base.
 
 ```json
 {
@@ -219,9 +232,9 @@ Il seguente esempio mostra un esempio di contenuto del corpo senza `dimensionDat
     "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensions": {
-        "ColorId": "Red",
         "SiteId": "1",
-        "LocationId": "11"
+        "LocationId": "11",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -275,6 +288,8 @@ L'esempio seguente mostra un esempio di contenuto del corpo.
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+            "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId&quot;: &quot;0001"
         },
         "quantities": {
@@ -284,10 +299,11 @@ L'esempio seguente mostra un esempio di contenuto del corpo.
     {
         "id": "654321",
         "organizationId": "usmf",
-        "productId": "@PRODUCT1",
-        "dimensionDataSource": "pos",
+        "productId": "Pants",
         "dimensions": {
-            "PosMachineId&quot;: &quot;0001"
+            "SiteId": "1",
+            "LocationId": "11",
+            "ColorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -341,6 +357,8 @@ L'esempio seguente mostra un esempio di contenuto del corpo. Il comportamento di
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+             "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId": "0001"
         },
         "quantities": {
@@ -359,6 +377,12 @@ L'esempio seguente mostra un esempio di contenuto del corpo. Il comportamento di
 Per utilizzare l'API di *riserva* , è necessario aprire la funzione di prenotazione e completare la configurazione della prenotazione. Per maggiori informazioni, vedere [Configurazione della prenotazione (opzionale)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Creare un evento di prenotazione
+
+È possibile effettuare una prenotazione su impostazioni dell'origine dati diverse. Per configurare questo tipo di prenotazione, specificare prima l'origine dati nel parametro `dimensionDataSource`. Quindi, nel parametro `dimensions`, specificare le dimensioni in base alle impostazioni delle dimensioni nell'origine dati di destinazione.
+
+Quando si chiama l'API di prenotazione, è possibile controllare la convalida della prenotazione specificando il parametro booleano `ifCheckAvailForReserv` nel corpo della richiesta. Un valore di `True` significa che è richiesta la convalida, mentre un valore di `False` significa che la convalida non è richiesta. Il valore predefinito è `True`.
+
+Se si desidera annullare una prenotazione o annullare la prenotazione di quantità di inventario specificate, impostare la quantità su un valore negativo e impostare il parametro `ifCheckAvailForReserv` su `False` per saltare la convalida.
 
 ```txt
 Path:
@@ -467,14 +491,28 @@ ContentType:
     application/json
 Body:
     {
-        organizationId: string,
+        dimensionDataSource: string, # Optional
         filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
             [dimensionKey:string]: string[],
         },
         groupByValues: string[],
         returnNegative: boolean,
     }
 ```
+
+Nella parte del corpo di questa richiesta, `dimensionDataSource` è ancora un parametro facoltativo. Se non è impostato, i `filters` saranno considerati come *dimensioni di base*. Sono presenti quattro campi obbligatori per `filters`: `organizationId`, `productId`, `siteId` e `locationId`.
+
+- `organizationId` deve contenere un solo valore, ma è ancora una matrice.
+- `productId` può contenere uno o più valori. Se è una matrice vuota, verranno restituiti tutti i prodotti.
+- `siteId` e `locationId` vengono utilizzati in Visibilità inventario per il partizionamento.
+
+Il parametro `groupByValues` dovrebbe seguire la configurazione effettuata per l'indicizzazione. Per maggiori informazioni, vedere [Configurazione della gerarchia degli indici dei prodotti](./inventory-visibility-configuration.md#index-configuration).
+
+Il parametro `returnNegative` controlla se i risultati contengono voci negative.
 
 L'esempio seguente mostra un esempio di contenuto del corpo.
 
@@ -484,7 +522,24 @@ L'esempio seguente mostra un esempio di contenuto del corpo.
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "LocationId": ["11"],
         "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+Gli esempi seguenti mostrano come eseguire query su tutti i prodotti in un sito e in una posizione specifici.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": [],
+        "siteId": ["1"],
+        "LocationId": ["11"],
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true
@@ -512,7 +567,7 @@ Query(Url Parameters):
 Ecco un esempio di URL. Questa richiesta di get è esattamente la stessa dell'esempio di post che è stato fornito prima.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

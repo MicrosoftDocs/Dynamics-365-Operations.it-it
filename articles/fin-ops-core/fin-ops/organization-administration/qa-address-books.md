@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5809d4a29c4209d8fb42bdfd441a3a4fb201ca6c6318abc0315a02ead7c551de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759163"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463626"
 ---
 # <a name="address-books-faq"></a>Domande frequenti sulle rubriche
 
@@ -66,10 +66,12 @@ Talvolta può essere opportuno unire due o più record di parti in un singolo re
 
 È possibile impostare le traduzioni delle informazioni relative all'indirizzo in modo che vengano visualizzate nella lingua dell'utente (lingua del sistema) nel programma, ma in un'altra lingua nei documenti, ad esempio ordini cliente. È possibile immettere traduzioni per i nomi dei paesi, gli scopi di indirizzo e le sequenze nome. Ad esempio, la lingua del sistema è danese e viene creato un ordine cliente per un cliente in Francia. In questo caso, è possibile visualizzare il record cliente in Danese nel programma ma visualizzare le informazioni relative all'indirizzo nell'ordine cliente stampato. Quando vengono impostate le traduzioni, è necessario immetterne una per ogni elemento nell'elenco. Tutti gli articoli per cui non si immette una traduzione appariranno nella lingua del sistema. Ad esempio, la lingua del sistema è danese e viene inviato un documento a un cliente in Spagna. Se non sono state immesse le traduzioni spagnole per le informazioni sull'indirizzo, queste verranno visualizzate in Danese sia nel programma sia nel documento stampato.
 
-## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Perché non è possibile modificare gli indirizzi importati dopo l'accesso ai record?
+## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Dopo aver importato gli indirizzi, perché non posso modificare i record?
 
-Quando si importano indirizzi, è presente un campo etichettato **IsLocationOwner**, che indica se la parte associata all'ubicazione (indirizzo) è il proprietario dell'indirizzo. Se la parte è il proprietario dell'indirizzo, l'indirizzo può essere modificato quando si accede utilizzando la parte nella rubrica globale o il modulo di record (come cliente, fornitore o lavoratore). Se la parte non è il proprietario dell'indirizzo, il record non può essere modificato dai moduli elencati in precedenza. Quando si importano indirizzi, **IsLocationOwner** deve essere impostato su **Sì** acffinché l'indirizzo sia modificabile utilizzando la parte associata. Tuttavia, in alcuni casi questo campo viene importato in modo errato. Per risolvere questo problema, il proprietario dell'ubicazione può essere aggiornato nella rubrica globale del record parte o nella pagina **Conferma proprietari della posizione**. Per aggiornare un singolo record parte, selezionare **Rubrica globale > Indirizzo**. Selezionare **Modifica** per avviare la pagina **Modifica indirizzo** per modificare il proprietario dell'ubicazione. Selezionare **Cambia proprietario ubicazione** per vedere il proprietario precedente dell'ubicazione, in quanto la parte attualmente selezionata è il nuovo proprietario della posizione. Se il proprietario precedente dell'ubicazione è vuoto, significa che non è stato stabilito un proprietario dell'ubicazione. La selezione dell'opzione **Avanzate** aprirà la pagina **Gestisci indirizzi** dove è possibile impostare anche il proprietario dell'ubicazione. Selezionare l'ubicazione da aggiornare, quindi selezionare **Imposta proprietario posizione** dal menu. Per aggiornare il proprietario dell'ubicazione per più record, selezionare **Rubrica globale > Ubicazioni > Conferma proprietari ubicazioni**. L'elenco contiene ubicazioni collegate a una singola parte, ma quella parte non è il proprietario. La selezione di **Conferma proprietario** imposterà l'**ID parte proprietario proposto** come proprietario dell'indirizzo collegato. Dopo l'impostazione della parte come proprietario, l'indirizzo collegato sarà modificabile nel record parte. Per modificare il proprietario dell'ubicazione, è necessario assegnare il privilegio **Imposta proprietario ubicazione** nella pagina **Configurazione sicurezza**.  All'amministratore di sistema viene concesso questo privilegio per impostazione predefinita.
+Quando si importano gli indirizzi, è presente un campo denominato **IsLocationOwner**. Questo campo indica se la parte associata all'ubicazione (indirizzo) è la proprietaria dell'indirizzo. Se la parte è la proprietaria dell'indirizzo, l'indirizzo può essere modificato quando la parte viene utilizzata nella rubrica globale o nella pagina del record di dati master (come cliente, fornitore o lavoratore). Se la parte non è la proprietaria dell'indirizzo, il record non può essere modificato. 
 
+Quando si importano indirizzi, il campo **IsLocationOwner** deve essere impostato su **Sì** se si desidera che l'indirizzo sia modificabile utilizzando la parte associata. Se questo campo viene importato in modo errato, il proprietario dell'ubicazione può essere aggiornato nella rubrica globale.
+
+Per ulteriori informazioni su come modificare il proprietario dell'ubicazione di un indirizzo importato, vedere [Gestione dei proprietari delle ubicazioni](./global-address-book-location-owner.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

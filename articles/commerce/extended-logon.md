@@ -1,8 +1,8 @@
 ---
 title: Impostare la funzionalità di accesso esteso per MPOS e Cloud POS
 description: Questo argomento illustra le opzioni per l'impostazione dell'accesso esteso per POS cloud e Retail Modern POS (MPOS).
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748548"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478673"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Impostare la funzionalità di accesso esteso per MPOS e Cloud POS
 
@@ -58,6 +58,8 @@ Per impostazione predefinita, solo i responsabili possono assegnare l'accesso es
 Per eliminare l'accesso esteso assegnato a un lavoratore, individuare il lavoratore utilizzando l'operazione **Accesso esteso**. Selezionare il lavoratore e fare clic sulla scheda **Annulla assegnazione**. Tutte le credenziali di accesso esteso associate al lavoratore verranno rimosse.
 
 ## <a name="extending-extended-logon"></a>Estensione dell'accesso esteso
+
+L'accesso esteso consente solo cinque caratteri significativi per l'identificatore univoco predefinito. Ad esempio, se si configurano due schede con gli ID "1234567" e "1234578", verranno considerate entrambe "12345". È possibile creare un'estensione per supportare più caratteri. Per istruzioni dettagliate, consultare l'argomento [Impostare la funzionalità di accesso esteso per MPOS e Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 Il servizio di accesso può essere esteso per supportare dispositivi di accesso estesi aggiuntivi, ad esempio scanner palmari. Per ulteriori informazioni, vedere la documentazione di POS sull'estendibilità.
 

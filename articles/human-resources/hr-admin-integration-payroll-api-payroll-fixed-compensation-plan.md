@@ -2,7 +2,7 @@
 title: Piano di retribuzione fissa retribuzioni
 description: Questo argomento fornisce dettagli e una query di esempio per l'entità Piano di retribuzione fissa retribuzioni in Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429233"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Piano di retribuzione fissa retribuzioni
 
@@ -34,18 +34,27 @@ Nome fisico: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà</br>**Nome fisico**</br>**_Tipo_** | Utilizza | descrizione |
 | --- | --- | --- |
-| **ID dipendente**<br>mshr_fk_employee_id_value<br>*GUID* | Sola lettura<br>Richiesto<br>Chiave esterna: mshr_Employee_id of mshr_payrollemployeeentity entity  | ID dipendente |
-| **Retribuzione**<br>mshr_payrate<br>*Decimali* | Sola lettura<br>Richiesto | La tariffa retributiva definita nel piano di retribuzione fissa. |
-| **ID piano**<br>mshr_planid<br>*String* | Sola lettura<br>Richiesto |Specifica il piano di retribuzione.  |
-| **Data di inizio validità**<br>mshr_validfrom<br>*Offset data/ora* |  Sola lettura<br>Richiesto |La data di inizio validità della retribuzione fissa del dipendente.  |
-| **Entità piano di retribuzione fissa retribuzioni**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Richiesto<br>Generato dal sistema | Un valore GUID generato dal sistema per identificare in modo univoco il piano di retribuzione. |
-| **Frequenza retribuzione**<br>mshr_payfrequency<br>*String* | Sola lettura<br>Richiesto |La frequenza alla quale verrà retribuito il dipendente.  |
-| **Data di fine validità**<br>mshr_validto<br>*Offset data/ora* | Sola lettura <br>Richiesto | La data di fine validità della retribuzione fissa del dipendente. |
-| **ID posizione**<br>mshr_positionid<br>*String* | Sola lettura <br>Richiesto | ID posizione associato al dipendente e l'iscrizione al piano di retribuzione fissa. |
-| **Valuta**<br>mshr_currency<br>*String* | Sola lettura <br>Richiesto |La valuta definita per il piano di retribuzione fissa   |
-| **Numero dipendente**<br>mshr_personnelnumber<br>*String* | Sola lettura<br>Richiesto |Il numero personale univoco del dipendente.  |
+| **ID piano**</br>mshr_planid</br>*String* | Sola lettura | Specifica il piano di retribuzione.  |
+| **Numero dipendente**</br>mshr_personnelnumber</br>*String* | Sola lettura | Il numero personale univoco del dipendente. |
+| **Retribuzione**</br>mshr_payrate</br>*Decimali* | Sola lettura | La tariffa retributiva definita nel piano di retribuzione fissa. |
+| **ID posizione**</br>mshr_positionid</br>*String* | Sola lettura | ID posizione associato al dipendente e l'iscrizione al piano di retribuzione fissa. |
+| **Data di inizio validità**</br>mshr_validfrom</br>*Offset data/ora* |  Sola lettura | La data di inizio validità della retribuzione fissa del dipendente.  |
+| **Data di fine validità**</br>mshr_validto</br>*Offset data/ora* | Sola lettura | La data di fine validità della retribuzione fissa del dipendente. |
+| **Frequenza retribuzione**</br>mshr_payfrequency</br>*String* | Sola lettura | La frequenza alla quale verrà retribuito il dipendente.  |
+| **Valuta**</br>mshr_currency</br>*String* | Sola lettura | La valuta definita per il piano di retribuzione fissa. |
+| **Entità piano di retribuzione fissa retribuzioni**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Generato dal sistema | Un valore GUID generato dal sistema per identificare in modo univoco il piano di retribuzione. |
+
+## <a name="relations"></a>Relazioni
+
+|Valore proprietà | Entità correlata | Proprietà di navigazione | Tipo di raccolta |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Query di esempio
 

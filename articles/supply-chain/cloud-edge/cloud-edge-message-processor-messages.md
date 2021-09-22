@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748861"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471646"
 ---
 # <a name="message-processor-messages"></a>Messaggi dell'elaboratore messaggi
 
@@ -44,7 +44,7 @@ Puoi utilizzare i campi nella parte superiore della pagina **Messaggi elaborator
   - *In coda* - Il messaggio è pronto per essere elaborato dall'elaboratore messaggi.
   - *Elaborato* - Il messaggio è stato elaborato correttamente dall'elaboratore messaggi.
   - *Annullato* - Il messaggio è stato elaborato, ma l'elaborazione non è riuscita.
-- **Contenuto messaggio** - questo filtro esegue una ricerca full-text del contenuto del messaggio. Il contenuto del messaggio non appare nella griglia. Il filtro tratta la maggior parte dei simboli speciali (ad esempio "-") come spazi e tratta tutti i caratteri di spazio come operatori booleani OR. T = Ad esempio, questo significa che se cerchi uno specifico valore `journalid` uguale a "USMF-123456", il sistema troverà tutti i messaggi che contengono "USMF" o "123456", che probabilmente sarà un lungo elenco. Pertanto, sarebbe meglio inserire solo "123456" perché restituirà risultati più specifici.
+- **Contenuto messaggio** - questo filtro esegue una ricerca full-text del contenuto del messaggio. Il contenuto del messaggio non appare nella griglia. Il filtro tratta la maggior parte dei simboli speciali (ad esempio "-") come spazi e tratta tutti i caratteri di spazio come operatori booleani OR. Ad esempio, questo significa che se si cerca uno specifico valore `journalid` uguale a "USMF-123456", il sistema troverà tutti i messaggi che contengono "USMF" o "123456", che probabilmente sarà un lungo elenco. Pertanto, sarebbe meglio inserire solo "123456" perché restituirà risultati più specifici.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Tipo di messaggio di esempio: Richiedi aggiornamento finanziario per rettifica magazzino
 
@@ -65,7 +65,7 @@ La barra degli strumenti nella scheda **Registro** include i seguenti pulsanti:
 
 ## <a name="message-processor-batch-job"></a>Processo batch dell'elaboratore messaggi
 
-Quando si esegue una distribuzione su cloud e rete perimetrale, il processo batch *Elaboratore messaggi* verrà richiamato automaticamente quando viene creato un nuovo messaggio per l'elaborazione, quindi non dovrebbe essere necessario pianificare questo lavoro manualmente.
+Quando si esegue una topologia ibrida distribuita con unità di scala, il processo batch *Elaboratore messaggi* verrà richiamato automaticamente quando viene creato un nuovo messaggio per l'elaborazione, quindi non dovrebbe essere necessario pianificare questo lavoro manualmente.
 
 Se necessario, puoi accedere al processo batch andando su **Amministrazione di sistema > Elaboratore messaggi > Elaboratore messaggi**.
 

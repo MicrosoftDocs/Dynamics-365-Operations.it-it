@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774411"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463627"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -32,7 +32,29 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Avviso di ritiro delle funzionalità in vigore da maggio 2021
+## <a name="feature-deprecation-effective-august-2021"></a>Ritiro delle funzionalità in vigore da agosto 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure Report SQL in Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Stiamo deprecando alcuni report SQL in LCS. Non sarà più necessario monitorare i report poiché questa funzionalità è stata sostituita da altri servizi. |
+| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Aree del prodotto interessate**         | Report SQL: DTU corrente, dettagli DTU correnti, ottenere dettagli blocco, elenco della guida del piano corrente, ottenere elenco di ID query, ottenere il piano di query SQL per un determinato ID piano, ottenere piani di query e stato di esecuzione, ottenere configurazione della limitazione, ottenere statistiche attesa, Elenca le query più costose |
+| **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
+| **Stato**                         | Deprecato: data di rimozione pianificata ottobre 2021. |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azioni SQL di Azure in LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Stiamo deprecando alcune azioni SQL in LCS.  |
+| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Aree del prodotto interessate**         | Azioni SQL: creazione di una guida al piano per forzare l'ID piano, creazione di una guida al piano per aggiungere suggerimenti alla tabella, rimozione della guida al piano, abilitazione/disabilitazione dei blocchi delle pagine e dell'escalation dei blocchi, aggiornamento delle statistiche su una tabella, ricostruzione indice, creazione indice |
+| **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
+| **Stato**                         | Deprecato: data di rimozione pianificata ottobre 2021. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Ritiro delle funzionalità in vigore da maggio 2021
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Portale di globalizzazione in Lifecycle Services (LCS).
 

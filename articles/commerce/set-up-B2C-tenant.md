@@ -2,7 +2,7 @@
 title: Impostare un tenant B2C in Commerce
 description: Questo argomento descrive come configurare il tenant Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione del sito dell'utente in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344500"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466270"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -37,6 +37,26 @@ Dynamics 365 Commerce utilizza Azure AD B2C per supportare le credenziali dell'u
 
 > [!TIP]
 > Puoi proteggere ulteriormente gli utenti del tuo sito e migliorare la sicurezza dei tuoi inquilini Azure AD B2C con Azure AD Identity Protection e Conditional Access. Per rivedere le funzionalità disponibili per i tenant Azure AD B2C Premium P1 e Premium P2, vedere [Protezione dell'identità e accesso condizionato per Azure AD B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>Prerequisiti dell'ambiente Dynamics
+
+Prima di iniziare, assicurati che il tuo ambiente e canale e-commerce Dynamics 365 Commerce siano opportunamente configurati soddisfacendo i seguenti prerequisiti.
+
+- Imposta il valore operazioni POS **AllowAnonymousAccess** su "1" in Commerce headquarters:
+    1. Vai a **Operazioni POS**.
+    1. Nella griglia operazioni fare clic con il pulsante destro del mouse e selezionare **Personalizza**.
+    1. Selezionare **Aggiungi un campo**.
+    1. Nell'elenco delle colonne disponibili, seleziona la colonna **AllowAnonymousAccess** per aggiungerlo.
+    1. Selezionare **Aggiornamento**.
+    1. Per il **612** operazione "Aggiunta cliente", modifica **AllowAnonymousAccess** su "1."
+    1. Esegui il processo **1090 (Registri)**.
+- Imposta l'attributo /**Manuale/** dell'account cliente della sequenza numerica su /**No/** in Commerce Headquarters:
+    1. Accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri contabilità clienti**.
+    1. Selezionare **Sequenze numeriche**.
+    1. Nella riga **Conto cliente**, fare doppio clic sul valore **Codice sequenza numerica**.
+    1. Nella Scheda dettaglio /**Generale/** della sequenza numerica, impostare /**Manuale/** su /**No/**.
+
+Dopo la distribuzione del tuo ambiente Dynamics 365 Commerce, si consiglia inoltre di [Inizializzare i dati iniziali](enable-configure-retail-functionality.md) nell'ambiente.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Creare o collegare un tenant AAD B2C esistente nel portale di Azure
 

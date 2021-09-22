@@ -1,5 +1,5 @@
 ---
-title: Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
+title: Unità di scala in una topologia ibrida distribuita
 description: Questo argomento fornisce informazioni sulle unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780676"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471742"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unità di scala in una topologia ibrida distribuita
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780676"
 >
 > Quando abiliti le unità di scala nel cloud e nella rete perimetrale, ti viene richiesto di dichiarare di comprendere che alcuni dati correlati alla configurazione e all'elaborazione di unità di scala nel cloud e nella rete perimetrale potrebbero essere archiviati in un data center situato negli Stati Uniti. Per ulteriori informazioni sull'elaborazione dei dati per le unità di scala nel cloud e nella rete perimetrale, vedere la sezione [Elaborazione dati durante la gestione di unità scala](#data-processing-management) in questo argomento.
 
-## <a name="core-value-proposition-for-scale-units"></a>Proposta di valori di base per le unità di scala
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Proposta di valori di base per una topologia ibrida distribuita
 
-Le aziende che lavorano con la produzione e la distribuzione devono essere in grado di eseguire processi aziendali chiave 24 ore su 24, 7 giorni su 7, senza interruzioni e su larga scala. Le unità di scala nel cloud e nella rete perimetrale consentono alle aziende di eseguire processi di produzione e magazzino cruciali senza interruzioni, anche di fronte a problemi di latenza o di connettività di rete occasionali.
+Le aziende che lavorano con la produzione e la distribuzione devono essere in grado di eseguire processi aziendali chiave 24 ore su 24, 7 giorni su 7, senza interruzioni e su larga scala. Una topologia ibrida distribuita consente alle aziende di eseguire processi di produzione e magazzino cruciali senza interruzioni, anche di fronte a problemi di latenza o di connettività di rete occasionali.
 
-Le unità di scala nel cloud e nella rete perimetrale consentono la distribuzione dei carichi di lavoro di esecuzione nel reparto produzione e nel magazzino tra ambienti diversi. Questa funzionalità può aiutare a migliorare le prestazioni, prevenire le interruzioni del servizio e massimizzare il tempo di attività. Le unità di scala vengono fornite tramite i seguenti componenti aggiuntivi per l'abbonamento a Supply Chain Management:
+Una topologia ibrida distribuita introduce il concetto di *unità di scala*, che consente la distribuzione dei carichi di lavoro di esecuzione del reparto produzione e del magazzino tra ambienti diversi. Questa funzionalità può aiutare a migliorare le prestazioni, prevenire le interruzioni del servizio e massimizzare il tempo di attività. Le unità di scala vengono fornite tramite i seguenti componenti aggiuntivi per l'abbonamento a Supply Chain Management:
 
 - Componente aggiuntivo unità di scala nel cloud per Dynamics 365 Supply Chain Management (*disponibile da aprile 2021*)
 - Componente aggiuntivo unità di scala nella rete perimetrale per Dynamics 365 Supply Chain Management (*disponibile a breve*)

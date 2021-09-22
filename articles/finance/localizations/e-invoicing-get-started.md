@@ -2,7 +2,7 @@
 title: Introduzione alla fatturazione elettronica
 description: Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732983"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463842"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Introduzione alla fatturazione elettronica
 
@@ -43,11 +43,11 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 2. Nell'area di lavoro **Funzionalità di globalizzazione**, nella sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
 3. Selezionare **Importa** e quindi selezionare **Sincronizza**.
 4. Filtra la colonna **Provider di configurazioni** per il termine **Microsoft**.
-5. Seleziona il nome di una funzione di fatturazione elettronica dalla tabella all'inizio di questo argomento, quindi seleziona **Importa**.
+5. Selezionare il nome di una funzione di fatturazione elettronica dalla tabella, quindi selezionare **Importa**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Crea una funzionalità di fatturazione elettronica nel provider dell'organizzazione
 
-1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
+1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, selezionare il riquadro **Fatturazione elettronica**.
 2. Seleziona **Aggiungi** > **Basato su funzionalità esistente** e nel campo **Nome** immetti il nome della funzione di fatturazione elettronica.
 3. Nel campo **Descrizione** immettere una descrizione della funzione.
 4. Nel **campo funzione di base**, seleziona la funzionalità di fatturazione elettronica importata dal provider di configurazioni Microsoft.
@@ -113,7 +113,7 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
     | Fattura elettronica spagnola (ES)      | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
     | Fattura elettroniche PEPPOL            | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
 
-7. Per ogni nome di tabella creato, seleziona e inserisci un valore contesto secondo la tabella seguente.
+6. Per ogni nome di tabella creato, seleziona e inserisci un valore contesto secondo la tabella seguente.
 
     | Nome funzionalità                         | Documento aziendale | Contesto |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
     | Fattura elettronica spagnola (ES)      | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
     | Fattura elettroniche PEPPOL            | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
 
-8. Per ogni nome di tabella e contesto, seleziona e immetti un valore mapping documento aziendale secondo la tabella seguente.
+7. Per ogni nome di tabella e contesto, seleziona e immetti un valore mapping documento aziendale secondo la tabella seguente.
 
     | Nome funzionalità                         | Documento aziendale | Mapping di documento aziendale |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Distribuire la funzionalità di fatturazione elettronica nell'applicazione connessa
 
 1. Nella scheda **Versioni** seleziona una versione della funzione di fatturazione elettronica che vuoi distribuire.
-4. Seleziona **Distribuisci**.
-5. Imposta l'opzione **Distribuisci in applicazione connessa** su **Sì**.
-6. Nel campo **Connetti applicazione** seleziona la connessione associata all'istanza di Finance o Supply Chain Management.
-7. Imposta l'opzione **Distribuisci in ambiente del servizio** su **No**.
-10. Selezionare **OK**.
+2. Seleziona **Distribuisci**.
+3. Imposta l'opzione **Distribuisci in applicazione connessa** su **Sì**.
+4. Nel campo **Connetti applicazione** seleziona la connessione associata all'istanza di Finance o Supply Chain Management.
+5. Imposta l'opzione **Distribuisci in ambiente del servizio** su **No**.
+6. Selezionare **OK**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Attivare la funzione per la fatturazione elettronica in Finance o Supply Chain Management
 
@@ -213,7 +213,7 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
 ## <a name="issue-electronic-invoices"></a>Emissione di fatture elettroniche
 
 1. Vai a **Amministrazione organizzazione** \> **Periodico** \> **Documenti elettronici** \> **Invia documenti elettronici**.
-2. Nella scheda dettaglio **Record da includere**, seleziona **Filtro**.
+2. Nella scheda dettaglio **Record da includere**, selezionare **Filtro**.
 3. Seleziona **Aggiungi** per aggiungere un nome di tabella al filtro di query.
 4. Seleziona la tabella che contiene le fatture.
 

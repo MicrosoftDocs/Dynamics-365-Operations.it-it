@@ -2,7 +2,7 @@
 title: Progettare report multilingue nella creazione di report elettronici
 description: Questo argomento spiega come utilizzare le etichette della creazione di report elettronici (ER) per progettare e generare report multilingue.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718431"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473407"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Progettare report multilingue nella creazione di report elettronici
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Panoramica
 
@@ -229,10 +231,14 @@ Come descritto in precedenza in questo argomento, gli attributi **Etichetta** e 
 - Il valore di un'etichetta ER collegata agli attributi **Etichetta** sono memorizzati nel campo **Etichetta** del record restituito.
 - Il valore di un'etichetta ER collegata agli attributi **Descrizione** sono memorizzati nel campo **Descrizione** del record restituito.
 
+## <a name="performance"></a><a name=performance></a>Prestazioni
+
+Quando si configura un componente in formato ER per generare un report nella [lingua](#language) preferita o per importare un documento in entrata in cui il contenuto viene analizzato dalla lingua preferita, consigliamo di abilitare la funzionalità **Memorizza nella cache la lingua preferita dell'utente corrente per esecuzioni ER** nell'area di lavoro [Gestione funzionalità](../../fin-ops/get-started/feature-management/feature-management-overview.md). Questa funzionalità aiuta a migliorare le prestazioni, in particolare per i componenti in formato ER che contengono più riferimenti a etichette in formule e associazioni ER e molte regole di [convalida](general-electronic-reporting-formula-designer.md#TestFormula) per generare messaggi utente nella lingua preferita.
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
-- [Funzioni di creazione di report elettronici](er-formula-language.md#functions)
+- [Funzioni di creazione di report elettronici](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

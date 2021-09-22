@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384587"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467424"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -122,6 +122,9 @@ Per rivedere le transazioni interessate, blocca le transazioni selezionate e inv
     - **Visualizza cronologia**: apri una cronologia delle azioni che sono state eseguite sulla transazione selezionata utilizzando la finestra di dialogo **Impatto aziendale sulle transazioni aperte**. (Ad esempio, la cronologia mostra se le notifiche sono state inviate o le transazioni sono state bloccate.) 
     - **Visualizza tutte le transazioni**: apri l'elenco completo di tutte le transazioni, non solo le transazioni aperte.
 
+> [!IMPORTANT]
+> Il pulsante **Notifica produzione** è disponibile solo se la funzionalità *Notifiche di progettazione per la produzione* è attivata nel sistema. Per istruzioni, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
+
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Rivedere ed elaborare le notifiche di modifica per le transazioni
 
 Puoi leggere ed elaborare le notifiche di modifica che ricevi nei seguenti modi:
@@ -131,6 +134,9 @@ Puoi leggere ed elaborare le notifiche di modifica che ricevi nei seguenti modi:
 - Per gli ordini di produzione, puoi scegliere di esaminare solo le notifiche di modifica che si applicano alle risorse di produzione che gestisci. Nell'area di lavoro **Gestione area di produzione** area di lavoro, nel riquadro azioni seleziona **Configura area di lavoro personale** per filtrare la pagina in modo che mostri solo le informazioni sulle unità di produzione, i gruppi e/o le risorse che gestisci. Nella sezione **Riepilogo**, un riquadro denominato **Ordini di produzione con prodotti modificati** mostra un conteggio delle notifiche che corrispondono alle impostazioni del filtro. Seleziona questo riquadro per aprire la pagina **Notifiche di progettazione**, che mostra l'elenco completo delle transazioni che soddisfano i criteri del filtro.
 
 Mentre stai esaminando le notifiche degli ordini di produzione nella pagina **Notifiche di progettazione** è possibile seguire i collegamenti agli ordini di modifica o di produzione correlati selezionando i valori delle colonne o utilizzando i comandi correlati nel riquadro azioni. Dopo aver finito di valutare una modifica e dopo aver annullato o modificato gli ordini di produzione come richiesto, è possibile contrassegnare una notifica come risolta. Seleziona la notifica e quindi, nel riquadro azioni, seleziona **Risolvi**. La notifica viene rimossa dalle visualizzazioni di tutti gli utenti.
+
+> [!IMPORTANT]
+> La possibilità di inviare notifiche per ordini di produzione richiede che la funzionalità *Notifiche di progettazione per la produzione* sia attivata nel sistema. Per istruzioni, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Creare un ordine di modifica da una richiesta di modifica
 

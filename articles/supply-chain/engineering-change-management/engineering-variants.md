@@ -10,18 +10,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766151"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471838"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Generare varianti per prodotti di progettazione
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Questo argomento descrive come generare varianti per prodotti di progettazione.
+
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Attivare la generazione di varianti per prodotti di progettazione
+
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione delle modifiche di progettazione*
+- **Nome della funzionalità:** *Generazione di varianti per prodotti di progettazione*
+
+> [!IMPORTANT]
+> La funzionalità *Generazione di varianti per prodotti di progettazione* sarà visibile nel sistema solo dopo aver abilitato la chiave di configurazione *Gestione delle modifiche di progettazione*. Per istruzioni, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Generare una o più nuove varianti di un prodotto di progettazione
 
@@ -38,10 +49,15 @@ La procedura seguente fornisce un esempio di come creare diverse varianti che in
 1. Aggiungi una distinta base (DBA) e indirizzala alla variante secondo necessità.
 1. Nel riquadro azioni, apri la scheda **Prodotto** e nel gruppo **Rappresentazione generale prodotto**, seleziona **Dimensioni prodotto**.
 1. Si apre la pagina **Dimensioni prodotto**. Questa pagina include una scheda per ogni dimensione disponibile. In ogni scheda, aggiungi una riga per ogni valore che supporterai per ogni dimensione pertinente. (Per questo esempio, potresti aggiungere righe nella scheda **Colore** per *Bianco*, *Giallo*, e *Verde*).
-1. Chiudi la pagina e seleziona **Varianti prodotti rilasciati**. Nota che appare la prima variante creata (bianco V-1).
-1. Seleziona **Suggerimenti varianti**.
-1. Il sistema suggerisce le varianti con i valori di colore creati (ad esempio, bianco V-1, giallo V-1 e verde V-1).
-1. Seleziona le varianti suggerite e seleziona **OK** per rilasciare le varianti alla società di progettazione. Nota che si applicano le seguenti condizioni: 
+1. Chiudere la pagina, quindi selezionare **Varianti prodotti rilasciati**. Viene visualizzata la prima variante creata (V-1 blu).
+1. Nel riquadro Azioni, nella scheda **Variante prodotto**, selezionare **Suggerimenti variante**.
+1. Nella finestra di dialogo **Suggerimenti variante**, effettuare uno dei seguenti passaggi:
+
+    - Nella parte superiore della finestra di dialogo è presente una sezione per ogni dimensione disponibile. Per ogni dimensione, selezionare la casella di controllo per ogni valore per il quale si desidera generare un suggerimento di variante, quindi selezionare **Suggerisci** sulla barra degli strumenti. I suggerimenti pertinenti vengono aggiunti alla sezione **Varianti suggerite**.
+    - Selezionare **Suggerisci tutto** sulla barra degli strumenti per generare suggerimenti di varianti per tutte le combinazioni disponibili di valori di dimensione. I suggerimenti vengono aggiunti alla sezione **Varianti suggerite**.
+
+1. Nella sezione **Varianti suggerite**, selezionare la casella di controllo per ogni variante che si desidera creare. Quindi, selezionare **Crea** per generare e rilasciare le varianti selezionate alla società di progettazione. Vengono applicate le seguenti condizioni:
+
     - Nessuna delle varianti create avrà una DBA o un ciclo di lavorazione.
     - Gli attributi per queste varianti saranno quelli predefiniti della categoria di progettazione e non verranno copiati dalla variante precedente.
 

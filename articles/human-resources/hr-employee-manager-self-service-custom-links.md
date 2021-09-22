@@ -1,8 +1,8 @@
 ---
-title: Creare collegamenti personalizzati in Self-service responsabile
-description: Questo argomento descrive come creare collegamenti personalizzati nel self-service responsabile in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 11/30/2020
+title: Creare collegamenti personalizzati nel responsabile self-service
+description: Questo argomento descrive come creare collegamenti personalizzati in Self-service responsabile in Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bca6d5f079a0b356e9ec2a3c40a34ace5b49be5f268b846ff596489a95275f47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1aac3c50cbe40d65abc9bedcdd2a64a6e5a1c1ad
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713056"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431186"
 ---
-# <a name="create-custom-links-in-manager-self-service"></a>Creare collegamenti personalizzati in Self-service responsabile
+# <a name="create-custom-links-in-manager-self-service"></a>Creare collegamenti personalizzati nel responsabile self-service
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-È possibile aggiungere collegamenti personalizzati nella scheda **Team personale** nel self-service responsabile . Questa funzione consente di fornire un accesso rapido a informazioni importanti. È simile all'aggiunta di collegamenti personalizzati nella scheda **Informazioni personali** nel Self service dei dipendenti.
+È possibile aggiungere collegamenti personalizzati nella scheda **Team personale** in **Self-service responsabile**. Questa funzione consente di fornire un accesso rapido a informazioni importanti. È simile all'aggiunta di collegamenti personalizzati nella scheda **Informazioni personali** in **Self service dipendenti**.
 
-## <a name="enable-the--feature"></a>Abilitare la funzione
+## <a name="enable-the-feature"></a>Abilitare la funzionalità
 
-Per utilizzare questa funzione, abilitare **Collegamenti personalizzati in self-service responsabili** nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).
+Per utilizzare questa funzionalità, abilitare **Collegamenti personalizzati in Self-service responsabile** nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).
 
 ## <a name="set-up-custom-links"></a>Impostare collegamenti personalizzati
 
@@ -46,7 +46,7 @@ Per utilizzare questa funzione, abilitare **Collegamenti personalizzati in self-
 
 ## <a name="see-also"></a>Vedere anche
 
-[Panoramica self-service per dipendenti e manager](hr-employee-manager-self-service-overview.md)
+[Panoramica del dipendente e del responsabile self-service](hr-employee-manager-self-service-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

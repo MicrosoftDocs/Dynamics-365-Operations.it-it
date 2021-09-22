@@ -1,5 +1,5 @@
 ---
-title: Impostare la visibilità dell'inventario
+title: Installare il componente aggiuntivo Visibilità magazzino
 description: Questo argomento descrive come installare Il componente aggiuntivo di visibilità dell'inventario per Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343586"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474822"
 ---
-# <a name="set-up-inventory-visibility"></a>Impostare la visibilità dell'inventario
+# <a name="install-and-set-up-inventory-visibility"></a>Installare e configurare Visibilità inventario
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Prima di installare la Visibilità dell'inventario, è necessario completare i s
     - `Inventory Visibility Integration.zip` (se la versione di Supply Chain Management in esecuzione è precedente alla versione 10.0.18)
 
 > [!NOTE]
-> I paesi e le regioni attualmente supportati includono il Canada (CCA, ECA), gli Stati Uniti (WUS, EUS), l'Unione Europea (NEU, WEU), il Regno Unito (SUK, WUK) e l'Australia (EAU, SEAU).
+> I paesi e le aree geografiche attualmente supportati includono il Canada (CCA, ECA), gli Stati Uniti (WUS, EUS), l'Unione Europea (NEU, WEU), il Regno Unito (SUK, WUK), l'Australia (EAU, SEAU), il Giappone (EJP, WJP) e il Brasile (SBR, SCUS).
 
 Se hai domande su questi prerequisiti, contatta il team del prodotto Visibilità dell'inventario.
 
@@ -119,6 +119,9 @@ Dopo aver registrato un'applicazione e aggiunto un segreto del cliente a Azure A
 1. Accetta i termini e le condizioni selezionando la casella di controllo **Termini e condizioni** .
 1. Seleziona **Installa**. Lo stato del componente aggiuntivo è mostrato come **Installazione in corso**. Quando l'installazione è completata, aggiorna la pagina. Lo stato dovrebbe cambiare in **Installato**.
 
+> [!IMPORTANT]
+> Se è disponibile più di un ambiente LCS, creare un'applicazione Azure AD diversa per ogni ambiente. Se si utilizza lo stesso ID applicazione e ID tenant per installare il componente aggiuntivo Visibilità inventario per ambienti diversi, si verificherà un problema relativo al token per gli ambienti meno recenti. Sarà valido solo l'ultimo installato.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Disinstallare il componente aggiuntivo per la visibilità dell'inventario
 
 Per disinstallare il componente aggiuntivo di Visibilità dell'inventario, seleziona **Disinstalla** nella pagina LCS. Il processo di disinstallazione termina il componente aggiuntivo di Visibilità dell'inventario, disregistra il componente aggiuntivo da LCS ed elimina qualsiasi dato temporaneo che è memorizzato nella cache dei dati di Visibilità dell'inventario componente aggiuntivo. Tuttavia, i dati dell'inventario primario che sono memorizzati nel tuo abbonamento Dataverse non vengono cancellati.
@@ -133,7 +136,7 @@ Per disinstallare i dati dell'inventario che sono memorizzati nel tuo abbonament
 
 Dopo aver cancellato queste soluzioni, anche i dati memorizzati nelle tabelle saranno cancellati.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Impostare Supply Chain Management
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurare Visibilità inventario in Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Distribuire il pacchetto di integrazione di Visibilità magazzino
 
@@ -151,10 +154,25 @@ Assicurarsi che le seguenti funzionalità siano attivate nell'ambiente Supply Ch
 | Abilitare o disabilitare l'utilizzo delle dimensioni inventariali nella tabella InventSum      | 10.0.11 | InventUseDimOfInventSumToggle      |
 | Abilitare o disabilitare l'utilizzo delle dimensioni inventariali nella tabella InventSumDelta | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
 
-### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Impostare l'integrazione di Visibilità magazzino
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Imposta integrazione di Visibilità magazzino
 
-1. In Supply Chain Management, aprire l'area di lavoro **[Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e attivare la funzionalità *Integrazione di Visibilità magazzino*.
-1. Selezionare **Gestione articoli \> Impostazioni \> Parametri di integrazione di Visibilità magazzino** e immettere l'URL dell'ambiente in cui si esegue Visibilità magazzino. Per maggiori informazioni, vedere [Trovare l'endpoint del servizio](inventory-visibility-power-platform.md#get-service-endpoint).
+Dopo aver installato il componente aggiuntivo, preparare il sistema Supply Chain Management per utilizzarlo effettuando le seguenti operazioni:
+
+1. In Supply Chain Management, aprire l'area di lavoro **[Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e attivare le seguenti funzionalità:
+    - *Integrazione di Visibilità inventario* - Obbligatoria.
+    - *Integrazione di Visibilità inventario con offset della prenotazione* - Consigliata ma facoltativa. Richiede la versione 10.0.22 o successiva. Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md).
+
+1. Andare a **Gestione inventario \> Impostazione \> Parametri di integrazione di Visibilità inventario**.
+1. Aprire la scheda **Generale** ed effettuare le seguenti impostazioni:
+    - **Endpoint Visibilità inventario** - Immettere l'URL dell'ambiente in cui si sta eseguendo Visibilità inventario. Per maggiori informazioni, vedere [Trovare l'endpoint del servizio](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Numero massimo di record in una singola richiesta** - Impostare il numero massimo di record da includere in una singola richiesta. È necessario inserire un numero intero positivo minore o uguale a 1.000. Il valore predefinito è 512. Si consiglia vivamente di mantenere il valore predefinito a meno che il supporto tecnico Microsoft non abbia fornito indicazioni che sia necessario modificarlo o si sia altrimenti sicuri di tale necessità.
+
+1. Se è stata abilitata la funzionalità *Integrazione di Visibilità inventario con offset della prenotazione*, aprire la scheda **Offset prenotazione** ed effettuare le seguenti impostazioni:
+    - **Abilita offset prenotazione** - Impostare su *Sì* per abilitare questa funzionalità.
+    - **Modificatore offset prenotazione** - Selezionare lo stato della transazione di inventario che eseguirà l'offset delle prenotazioni effettuato su Visibilità inventario. Questa impostazione determina la fase di elaborazione dell'ordine che attiva gli offset. La fase è tracciata dallo stato di transazione dell'inventario dell'ordine. Sono disponibili le seguenti opzioni:
+        - *Su ordine* - Per lo stato *On transaction* , un ordine invierà una richiesta di offset quando viene creato. La quantità su cui è stato eseguito l'offset sarà la quantità dell'ordine creato.
+        - *Riserva* - Per lo stato di *transazione Riserva ordinata* , un ordine invierà una richiesta di compensazione quando viene prenotato, prelevato, imbucato o fatturato. La richiesta sarà attivata solo una volta, per il primo passo quando si verifica il processo menzionato. La quantità su cui è stato eseguito l'offset sarà la quantità da cui lo stato della transazione di inventario è stato modificato da *Merci ordinate in corso di consegna* a *Ordinato prenotato* (o stato successivo) nella riga dell'ordine corrispondente.
+
 1. Selezionare **Gestione articoli \> Periodico \> Integrazione di Visibilità magazzino** e abilitare il processo. Tutti gli eventi di modifica delle scorte di Supply Chain Management verranno ora registrati in Visibilità magazzino.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

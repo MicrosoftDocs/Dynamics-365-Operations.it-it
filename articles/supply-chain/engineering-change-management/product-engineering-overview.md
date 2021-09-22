@@ -2,7 +2,7 @@
 title: Panoramica della gestione delle modifiche di progettazione
 description: Questo argomento fornisce una panoramica della gestione delle modifiche di progettazione, che consente di pianificare e gestire il controllo delle versioni del prodotto e gestire i cicli di vita del prodotto e le modifiche di progettazione.
 author: t-benebo
-ms.date: 11/11/2020
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f2d577d9e48ced9d4c516a66e4f53671417875cbfb51bd6bdc2cb0938d83c01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: Release 10.0.21
+ms.openlocfilehash: b4fe2d62bc8084cf8c0d10b7bcb94f08cc618900
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714958"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467400"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -43,9 +43,11 @@ La gestione delle modifiche di progettazione consente di pianificare e gestire i
 
 Il video precedente ([Cambia capacità di gestione in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) è incluso nella[playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
-## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Attivare le funzionalità Gestione delle modifiche di progettazione e Dimensione versione prodotti per il sistema
+## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Attivare le funzionalità di gestione delle modifiche di progettazione per il sistema
 
-Per poter utilizzare la gestione delle modifiche di progettazione, è necessario abilitare la funzionalità *Gestione delle modifiche di progettazione* e la relativa chiave di configurazione. Se inoltre si desidera monitorare la dimensione della versione dei prodotti nelle transazioni (facoltativo), si deve abilitare anche la funzionalità *Dimensione versione prodotti* e la relativa chiave di configurazione.
+Per poter utilizzare la gestione delle modifiche di progettazione, è necessario abilitare la funzionalità *Gestione delle modifiche di progettazione* e la relativa chiave di configurazione. Se inoltre si desidera monitorare la dimensione della versione dei prodotti nelle transazioni (facoltativo), si deve abilitare sia la funzionalità *Dimensione versione prodotti* sia la relativa chiave di configurazione. Dopo che questi prerequisiti sono stati impostati come richiesto, è possibile attivare funzionalità aggiuntive facoltative per la gestione delle modifiche di progettazione.
+
+### <a name="turn-on-the-basic-engineering-change-management-features"></a>Attivare le funzionalità di gestione delle modifiche di progettazione di base
 
 Innanzi tutto, attivare le funzionalità procedendo come segue.
 
@@ -53,6 +55,8 @@ Innanzi tutto, attivare le funzionalità procedendo come segue.
 1. Controllare gli aggiornamenti.
 1. Attiva la funzionalità denominata *Gestione modifiche di progettazione*.
 1. Per utilizzarla, attivare anche la funzionalità *Versione dimensione prodotto*.
+
+### <a name="turn-on-the-required-configuration-keys"></a>Attivare le chiavi di configurazione richieste
 
 Successivamente, attivare le chiavi di configurazione procedendo come segue.
 
@@ -70,5 +74,18 @@ Successivamente, attivare le chiavi di configurazione procedendo come segue.
 
 > [!IMPORTANT]
 > A partire da aprile 2022, le chiavi di licenza per **Gestione delle modifiche di progettazione** e **Dimensione prodotto - Versione** saranno abilitate per impostazione predefinita per tutte le nuove installazioni, ma potrai comunque disabilitarle se necessario.
+
+### <a name="turn-on-additional-engineering-change-management-features"></a>Attivare le funzionalità di gestione delle modifiche di progettazione aggiuntive
+
+Dopo aver attivato le funzionalità di base di gestione delle modifiche di progettazione e le relative chiavi di configurazione, vengono aggiunte diverse funzionalità aggiuntive e facoltative di gestione delle modifiche di progettazione. Ciascuna di tali funzionalità è elencata nel modulo **Gestione modifiche di progettazione**. La tabella seguente descrive ogni funzione facoltativa e fornisce collegamenti per ulteriori informazioni.
+
+| Nome della funzionalita in gestione funzionalità | descrizione |
+|---|---|
+| Abilita gestione modifiche su prodotti esistenti | <p>Questa funzionalità consente di convertire i prodotti esistenti in prodotti di progettazione in modo da iniziare a utilizzarli tramite la gestione delle modifiche di progettazione.</p><p>Per ulteriori informazioni, vedere [Abilitare la gestione delle modifiche in prodotti esistenti](change-management-existing-products.md).</p> |
+| Notifiche di progettazione per la produzione | <p>Quando un prodotto viene modificato in fase di progettazione, potrebbe essere importante informare la produzione in relazioni a tali modifiche. In questo modo, gli addetti alla produzione possono intraprendere le azioni appropriate, come la sostituzione dei componenti, della distinta base (DBA) o del percorso. Questa funzionalità consente di notificare al reparto produzione le modifiche ai prodotti in fase di produzione stessa.</p><p>Per ulteriori informazioni, vedere [Gestire le modifiche ai prodotti di progettazione](engineering-change-management.md).</p> |
+| Ereditarietà degli attributi migliorata per la gestione modifiche di progettazione | <p>Questa funzionalità semplifica la gestione degli attributi per prodotti finiti o articoli intermedi. Quando questa funzione è attivata, è più facile identificare tutti gli attributi che appartengono a un articolo ed è possibile selezionare gli attributi che devono essere propagati da quell'articolo al relativo articolo padre. Questa funzione è utile quando, ad esempio, un componente di un prodotto finito è fragile, tossico o infiammabile, perché è possibile identificare facilmente l'attributo fragile, tossico o infiammabile e propagarlo al prodotto finito.</p><p>Per ulteriori informazioni, vedere [Attributi di progettazione e ricerca di attributi di progettazione](engineering-attributes-and-search.md).</p> |
+| Controlli di disponibilità prodotto | <p>Tale funzionalità consente di configurare controlli di disponibilità standard (non tecnici). Utilizzare i controlli di disponibilità del prodotto per garantire che ogni prodotto sia completamente definito e che tutti i criteri richiesti siano configurati prima che il prodotto sia reso disponibile e utilizzato nelle transazioni. Se si disattiva questa funzione dopo averla utilizzata per un certo periodo di tempo, tutti i controlli di disponibilità esistenti per i prodotti standard verranno eliminati.</p><p>Per ulteriori informazioni, vedere [Preparazione del prodotto](product-readiness.md).</p> |
+| Gestisci modifiche a formule e relativi ingredienti | <p>Questa funzionalità consente di tenere traccia delle modifiche agli ingredienti della formula, ai coprodotti e ai sottoprodotti.</p><p>Per altre informazioni, vedi [Gestisci le modifiche nelle formule e nei loro ingredienti](manage-formula-changes.md).</p> |
+| Generazione di varianti per prodotti di progettazione | <p>Questa funzionalità consente di generare varianti per prodotti di progettazione, in base ai valori delle dimensioni disponibili.</p><p>Per ulteriori informazioni, vedere [Generare varianti per prodotti di progettazione](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

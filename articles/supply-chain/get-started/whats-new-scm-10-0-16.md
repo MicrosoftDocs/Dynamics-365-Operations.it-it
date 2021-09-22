@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712051"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474918"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.16 (febbraio 2021)
 
@@ -56,30 +56,6 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 - [Panoramica dei materiali pericolosi](../pim/hazmat-overview.md) (e argomenti correlati)
 - [Migrazione a Ottimizzazione pianificazione per la pianificazione generale](../master-planning/new-master-planning-engine.md)
 - [Miglioramenti cXML per gli acquisti](../procurement/purchasing-cxml-enhancements.md)
-- [Risolvere i problemi relativi alla gestione dei costi](../cost-management/troubleshoot-costmanagement.md)
-- [Risolvere i problemi relativi alle operazioni di magazzino in ingresso](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Risolvere i problemi di allestimento del carico e spedizioni](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Risolvere i problemi di pianificazione generale](../master-planning/troubleshoot-masterplanning.md)
-- [Risolvere i problemi relativi alle operazioni di magazzino in uscita](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Risolvere i problemi relativi a rilasci parziali e spedizioni parziali](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Risolvere i problemi di configurazione del prodotto](../pim/troubleshooting-productconfigurator.md)
-- [Risolvere i problemi relativi alle informazioni sul prodotto](../pim/troubleshooting-productinformation.md)
-- [Risolvere problemi relativi ai flussi di lavoro di Approvvigionamento](../procurement/troubleshoot-procurementworkflows.md)
-- [Risolvere i problemi relativi agli ordini fornitore](../procurement/troubleshoot-purchaseorders.md)
-- [Risolvere i problemi relativi a prezzi, sconti, accordi e ribassi](../procurement/troubleshooting-pricediscountagreements.md)
-- [Risolvere problemi relativi a entrate prodotti e fatturazione](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Risolvere i problemi di produzione discreta](../production-control/troubleshoot-discretemanufacturing.md)
-- [Risolvere i problemi relativi a prelievo e imballaggio](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Risolvere i problemi di produzione di processo](../production-control/troubleshoot-processmanufacturing.md)
-- [Risolvere i problemi relativi alle prenotazioni nella gestione del magazzino](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Risolvere problemi relativi agli ordini cliente](../sales-marketing/troubleshooting-sales.md)
-- [Risolvere problemi relativi alle offerte di vendita](../sales-marketing/troubleshooting-salesquotation.md)
-- [Risolvere i problemi di aggiornamento e migrazione alla gestione avanzata del magazzino](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Risolvere i problemi di connessione dell'app per dispositivi mobili Gestione magazzino](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Risolvere i problemi della configurazione del magazzino](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Risolvere i problemi di rifornimento del magazzino](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Risolvere i problemi di configurazione del magazzino](../warehousing/troubleshoot-warehouse-setup.md)
-- [Risolvere i problemi di lavoro di magazzino](../warehousing/troubleshoot-warehouse-work.md)
 - [Cluster di stoccaggio](../warehousing/putaway-clusters.md)
 - [Strategie di rifornimento](../warehousing/replenishment-strategies.md)
 - [Divisione lavoro](../warehousing/work-split.md)

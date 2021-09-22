@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753482"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463591"
 ---
 # <a name="reverse-journal-posting"></a>Stornare registrazione del giornale di registrazione
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753482"
 
 In questo argomento vengono descritte le funzionalità di Microsoft Dynamics 365 Finance che consentono di stornare un intero giornale di registrazione o stornare uno o più giustificativi dell'elenco delle transazioni giustificativi indipendentemente dall'origine. 
 
+Prima di poter utilizzare una delle funzionalità descritte in questo argomento, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro **Gestione funzionalità** per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+ - Modulo: Contabilità generale
+ - Nome funzione: **Storno di massa per più documenti**
+
 ## <a name="reversing-journals"></a>Storno dei giornali di registrazione
 
 È possibile stornare singolarmente le righe del giornale di registrazione. Con lo storno della registrazione del giornale di registrazione, è inoltre possibile stornare un intero giornale finanziario. Per stornare un giornale di registrazione: 
 
-- Aprire il giornale finanziario e filtrare i giornali di registrazione pubblicati.
+- Filtrare i giornali di registrazione pubblicati e aprire la visualizzazione **Righe** nel giornale di registrazione.
 - Selezionare il menu **Storna** nella parte superiore della pagina.
-- Viene visualizzato il numero totale di giustificativi e righe giustificativo nonché il totale delle righe stornate
+- Viene visualizzato il numero totale di giustificativi e righe giustificativo nonché il totale delle righe stornate.
 - Selezionare **Sì** per utilizzare le date di transazione esistenti o **No** per immetterne una nuova. In alcuni casi, il periodo della transazione originale potrebbe essere chiuso ed è necessario immettere una nuova data di transazione per lo storno.
 - Se si seleziona **No**, immettere una data di transazione per lo storno. 
 - Immettere un commento che si desidera aggiungere alla transazione di storno.
@@ -52,7 +56,7 @@ Se il numero di righe giustificativo è pari o inferiore a 100 righe, il process
 
 Per stornare uno o più giustificativi: 
 
-- Selezionare il menu **Storna** nella parte superiore della pagina
+- Selezionare **Storna intero giornale di registrazione nel menu** a discesa nella parte superiore della pagina.
 - Viene visualizzato il numero totale di giustificativi e righe giustificativo nonché il totale delle righe stornate.
 - Selezionare **Sì** per utilizzare le date di transazione esistenti o **No** per immetterne una nuova. In alcuni casi, il periodo della transazione originale potrebbe essere chiuso ed è necessario immettere una nuova data di transazione per lo storno.
 - Se si seleziona **No**, immettere una data di transazione per lo storno. 

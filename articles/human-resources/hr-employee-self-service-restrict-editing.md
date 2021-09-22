@@ -1,8 +1,8 @@
 ---
 title: Impedire la modifica delle informazioni personali
 description: Impedire ai dipendenti di modificare i dettagli di contatto in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 03/03/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87977ff004e0785ec1d31fe3abac2728f87e7083348895b58e58f46cd3e79925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c4a13818103434df5005ad2805ac2ea7495bb767
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748885"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431407"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Impedire la modifica delle informazioni personali
 
@@ -54,7 +54,7 @@ In questo argomento viene descritto come impedire ai dipendenti di modificare i 
 
 Dopo aver impedito ai dipendenti l'aggiunta o la modifica dei dettagli di contatto, questi possono vedere le informazioni, ma non possono modificarle.
 
-In questo esempio, in cui ai dipendenti viene impedito di modificare i dettagli di contatto **Attività commerciale**, questi possono ancora vedere le informazioni in Dipendente self-service:
+In questo esempio, in cui ai dipendenti viene impedito di modificare i dettagli di contatto **Attività commerciale**, questi possono ancora vedere le informazioni in **Self-service dipendenti**:
 
 ![Visualizzare i dettagli di contatto aziendali.](./media/hr-employee-self-service-restrict-view.png)
 

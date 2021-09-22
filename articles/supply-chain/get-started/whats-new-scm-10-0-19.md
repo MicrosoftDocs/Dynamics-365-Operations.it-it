@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384661"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474894"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.19 (giugno 2021)
 
@@ -67,7 +67,6 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 | Gestione informazioni sul prodotto | [Gestire unità di misura](../pim/tasks/manage-unit-measure.md)<br><br>[Calcoli per il modello di configurazione prodotto](../pim/config-model-calculations.md) |
 | Controllo produzione | [Sequenza numerica unificata per gli ID processo](../production-control/unified-job-ids.md) |
 | Gestione trasporto | [Classi LTL](../transportation/ltl-class.md)<br><br>[Codici NMFC](../transportation/nmfc-codes.md) |
-| Gestione magazzino | [Risolvere i problemi relativi a gerarchie di prenotazione seriale e batch di magazzino](../warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md) |
 | Gestione del magazzino, creazione ed elaborazione dei cicli | [Creazione ed elaborazione del ciclo](../warehousing/wave-processing.md)<br><br>[Parametri di magazzino per l'elaborazione del ciclo](../warehousing/wave-warehouse-parameters.md)<br><br>[Modelli di ciclo](../warehousing/wave-templates.md)<br><br>[Allocazione ciclo](../warehousing/wave-allocation-method.md)<br><br>[Programmare la creazione del lavoro durante il ciclo](../warehousing/configure-wave-schedule-work-creation.md)<br><br>[Containerizzazione](../warehousing/wave-containerization.md)<br><br>[Notifiche di esecuzione ciclo](../warehousing/wave-execution-notifications.md) |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

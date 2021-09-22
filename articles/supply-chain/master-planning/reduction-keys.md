@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736625"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474774"
 ---
 # <a name="forecast-reduction-keys"></a>Chiavi di riduzione previsionali
 
@@ -86,7 +86,18 @@ In questo caso, se si esegue una programmazione previsionale il 1° gennaio, i r
 
 ### <a name="transactions--reduction-key"></a>Transazioni - chiave di riduzione
 
-Se si seleziona **Transazioni - chiave di riduzione**, i requisiti di previsione vengono ridotti in base alle transazioni effettuate durante i periodi definiti dalla chiave di riduzione.
+Se si imposta il campo **Metodo utilizzato per ridurre i requisiti di previsione** in *Transazioni - chiave di riduzione*, i requisiti previsti vengono ridotti dalle transazioni della domanda qualificata che si verificano durante i periodi definiti dalla chiave di riduzione.
+
+La domanda qualificata è definita dal campo **Riduci previsione per** sulla pagina **Gruppi di copertura**. Se si imposta il campo **Riduci previsione per** su *Ordini*, solo le transazioni dell'ordine cliente sono considerate domanda qualificata. Se si lo imposta su *Tutte le transazioni*, qualsiasi transazione di inventario in uscita non interaziendale è considerata domanda qualificata. Se anche gli ordini cliente interaziendali devono essere considerati domanda qualificata, impostare l'opzione **Includi ordini interaziendali** su *Sì*.
+
+La riduzione della previsione inizia con il primo record di previsione della domanda (meno recente) nel periodo della chiave di riduzione. Se la quantità di transazioni di inventario qualificate è maggiore della quantità di righe di previsione della domanda nello stesso periodo della chiave di riduzione, il saldo della quantità delle transazioni di inventario verrà utilizzato per ridurre la quantità di previsione della domanda nel periodo precedente (se è presente una previsione non consumata).
+
+Se non rimane alcuna previsione non consumata nel precedente periodo della chiave di riduzione, il saldo della quantità delle transazioni di inventario verrà utilizzato per ridurre la quantità prevista nel mese successivo (se è presente una previsione non consumata).
+
+Il valore del campo **Percentuale** sulle righe della chiave di riduzione non viene utilizzato quando il campo **Metodo utilizzato per ridurre i requisiti di previsione** è impostato su *Transazioni - chiave di riduzione*. Solo le date vengono utilizzate per definire il periodo della chiave di riduzione.
+
+> [!NOTE]
+> Qualsiasi previsione registrata entro la data odierna verrà ignorata e non verrà utilizzata per creare ordini pianificati. Ad esempio, se la previsione della domanda per il mese viene generata il 1° gennaio e si esegue una pianificazione generale che include la previsione della domanda il 2 gennaio, il calcolo ignorerà la riga della previsione della domanda datata 1° gennaio.
 
 #### <a name="example-transactions--reduction-key"></a>Esempio: Transazioni - chiave di riduzione
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423346"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431394"
 ---
 # <a name="plan-type-overview"></a>Panoramica del tipo di piano
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423346"
 
 Un tipo di piano è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano ha un codice di tipo di piano che determina le regole per il tipo di piano. Ad esempio, il tipo di piano **Vita base** avrebbe il codice di tipo di piano **Vita** perché è un tipo di piano di assicurazione sulla vita e deve essere conforme alle regole stabilite per il codice **Vita**. Un altro tipo di piano potrebbe essere **Vita supplementare**. Anche questo tipo di piano avrà il codice tipo piano **Vita**.
 
-Ogni tipo di piano indica se un dipendente può iscriversi a uno o più piani di quel tipo. Ad esempio, un dipendente sarebbe probabilmente in grado di iscriversi a entrambe le polizze Vita base e Vita supplementare del tipo di piano Vita. Un dipendente sarebbe probabilmente autorizzato a iscriversi a una sola polizza di tipo Medico.
+Ogni tipo di piano indica se un dipendente può iscriversi a uno o più piani di quel tipo. Ad esempio, un dipendente sarebbe probabilmente in grado di iscriversi a entrambe le polizze **Vita base** e **Vita supplementare** del tipo di piano Vita. Un dipendente sarebbe probabilmente autorizzato a iscriversi a una sola polizza di tipo Medico.
 
-Se un tipo di piano implica dei contatti, il tipo di piano indica se i contatti sono beneficiari o persone a carico. Ad esempio, un tipo di piano Vita base avrebbe beneficiari, mentre un tipo di piano Medico base avrebbe persone a carico. In alcuni casi, un piano potrebbe non avere contatti personali. Ad esempio, un conto spesa flessibile o un'indennità di parcheggio.
+Se un tipo di piano implica dei contatti, il tipo di piano indica se i contatti sono beneficiari o persone a carico. Ad esempio, un tipo di piano **Vita base** avrebbe beneficiari, mentre un tipo di piano Medico base avrebbe persone a carico. In alcuni casi, un piano potrebbe non avere contatti personali. Ad esempio, un conto spesa flessibile o un'indennità di parcheggio.
 
-Un tipo di piano può definire opzioni di copertura. Le opzioni di copertura sono definite nella pagina **Opzioni di copertura** . Un'opzione di copertura può specificare l'importo del benefit o i contatti che sono idonei per il tipo di piano. Ad esempio, se il tipo di contatto è Beneficiario, l'opzione di copertura dovrebbe definire i termini di ciò che il beneficiario ha diritto di ricevere quando il benefit viene utilizzato. Se il tipo di contatto è Persona a carico, l'opzione di copertura deve definire la relazione tra la persona a carico e il dipendente. 
+
+Un tipo di piano può definire opzioni di copertura. Le opzioni di copertura sono definite nella pagina **Opzioni di copertura**. Un'opzione di copertura può specificare l'importo del benefit o i contatti che sono idonei per il tipo di piano. Ad esempio, se il tipo di contatto è **Beneficiario**, l'opzione di copertura dovrebbe definire i termini di ciò che il beneficiario ha diritto di ricevere quando il benefit viene utilizzato. Se il tipo di contatto è **Persona a carico**, l'opzione di copertura deve definire la relazione tra la persona a carico e il dipendente. 
 
 > [!IMPORTANT]
-> La pagina include dati chiave che influenzano le opzioni disponibili quando viene creato un nuovo piano di benefici:
+> La pagina **Tipi di piano** include dati chiave che influenzano le opzioni disponibili quando viene creato un nuovo piano di benefici:
 >
 > - **Codice tipo di piano** – Questo campo influisce su ciò che viene mostrato nella scheda **Configurazione** quando viene impostato il benefit effettivo.  
 > - **Iscrizione simultanea** – Questo campo determina se sono consentite più iscrizioni. (Per un piano medico, questo campo è generalmente impostato su **Una iscrizione**.)

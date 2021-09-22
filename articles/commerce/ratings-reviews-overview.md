@@ -15,21 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8b8d8e838b3c42f7dd02ce4adabcb1f412a3834006ad913e8f40191da751c08d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765243"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473479"
 ---
 # <a name="ratings-and-reviews-overview"></a>Panoramica valutazioni e revisioni
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritte le valutazioni e le recensioni in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Le valutazioni e le recensioni sono cruciali per i clienti di e-Commerce che vogliono sapere il modo in cui gli altri clienti percepiscono un prodotto. Possono inoltre consentire ai consumatori di prendere decisioni di acquisto. In Dynamics 365 Commerce, la soluzione con valutazioni e recensioni consente ai rivenditori di acquisire valutazioni e recensioni sui prodotti effettuate dai clienti. I rivenditori possono quindi visualizzare informazioni di base su valutazioni e recensioni nel loro sito Web di e-Commerce.
 

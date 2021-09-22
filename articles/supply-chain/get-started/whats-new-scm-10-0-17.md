@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760516"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474605"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.17 (aprile 2021)
 
@@ -99,10 +99,6 @@ La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione
 
 Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argomenti della guida. Non sono necessariamente correlati alle nuove funzionalità aggiunte per questa versione, come elencato nella sezione precedente, ma possono aiutare a ottenere di più dalle funzionalità esistenti.
 
-### <a name="cost-management"></a>Gestione costi
-
-- [Risolvere i problemi relativi alla gestione dei costi](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>Gestione cespiti
 
 - [Impostare l'area di lavoro mobile di gestione cespiti](../asset-management/set-up-asset-management-mobile.md)
@@ -114,8 +110,6 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 - [Conteggio ciclo ubicazioni parziale](../warehousing/partial-location-cycle-counting.md)
 
 - [Raggruppamento righe prelievo](../warehousing/pick-line-grouping.md)
-
-- [Risolvere i problemi relativi alle operazioni di inventario](../inventory/troubleshoot-inventory-operations.md)
 
 - [Assegnazione magazzino](../warehousing/warehouse-slotting.md)
 
