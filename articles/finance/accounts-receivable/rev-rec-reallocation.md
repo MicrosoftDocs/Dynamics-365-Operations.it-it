@@ -2,7 +2,7 @@
 title: Riallocazione del riconoscimento ricavi
 description: Questo argomento fornisce informazioni sulla riallocazione, che consente alle organizzazioni di ricalcolare i prezzi dei ricavi quando vengono modificati i termini di una vendita contrattuale. Include i collegamenti ad altri argomenti che descrivono come riconoscere i ricavi in più scenari.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745039"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487020"
 ---
 # <a name="revenue-recognition-reallocation"></a>Riallocazione del riconoscimento ricavi
 
@@ -35,10 +35,22 @@ L'organizzazione deve determinare autonomamente se è necessaria la riallocazion
 Ci sono alcune importanti limitazioni al processo di riallocazione:
 
 - Il processo può essere eseguito solo una volta. Pertanto, è importante eseguirlo solo dopo aver finalizzato tutte le modifiche.
+
+    - Questa limitazione è stata rimossa nella versione 10.0.17 e successive.
+
 - Il processo non può essere eseguito sugli ordini cliente del progetto.
+
+    - Questa limitazione è stata rimossa nella versione 10.0.17 e successive.
+
 - Se sono coinvolti più ordini cliente, devono essere per lo stesso conto cliente.
 - Tutti gli ordini cliente riallocati devono essere nella stessa valuta di transazione.
 - Il processo non può essere stornato o annullato dopo essere stato eseguito.
+
+    - Questa limitazione è stata rimossa nella versione 10.0.17 e successive.
+
+- La riallocazione può essere eseguita solo per gli ordini cliente o gli ordini cliente di progetto. Non può essere eseguita per una combinazione di ordini cliente e ordini cliente di progetto.
+
+    - Questa limitazione è stata rimossa nella versione 10.0.17 e successive.
 
 ## <a name="set-up-reallocation"></a>Impostare la riallocazione
 
@@ -78,7 +90,7 @@ Per avviare il processo di riallocazione, selezionare **Riallocazione del prezzo
 
 [![Riallocazione del prezzo con nuove righe ordine.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-La griglia superiore della pagina **Riallocazione del prezzo con nuove righe ordine** è denominata **Vendite**. Elenca gli ordini cliente. Selezionare gli ordini cliente che devono essere riallocati. Non è possibile selezionare ordini cliente di progetto, perché gli ordini cliente di progetto non possono essere riallocati. Inoltre, non è possibile selezionare ordini cliente che hanno già un ID riallocazione, perché gli ordini cliente non di progetto possono essere riallocati solo una volta. Se un ordine cliente ha un ID riallocazione, è già stato contrassegnato per la riallocazione da un altro utente.
+La griglia superiore della pagina **Riallocazione del prezzo con nuove righe ordine** è denominata **Vendite**. Elenca gli ordini cliente. Selezionare gli ordini cliente che devono essere riallocati. Se un ordine cliente ha un ID riallocazione, è già stato contrassegnato per la riallocazione da un altro utente. Se uno o più ordini cliente sono stati riallocati in precedenza e devono essere inclusi in un'altra riallocazione, la riallocazione di tali ordini cliente deve prima essere annullata. Quindi, possono essere inclusi in una nuova riallocazione. Per informazioni più dettagliate, vedere le sezioni [Annullare una riallocazione](#undo-a-reallocation) e [Riallocare più volte](#reallocate-multiple-times) più avanti in questo argomento.
 
 La griglia inferiore della pagina è denominata **Righe**. Dopo aver selezionato uno o più ordini cliente nella griglia **Vendite**, la griglia **Righe** mostra le righe dell'ordine cliente. Selezionare le righe ordine cliente che devono essere riallocate. Se è stato selezionato un solo ordine cliente, le righe dello stesso ordine cliente devono essere riallocate. Questa situazione può verificarsi quando una delle righe dell'ordine cliente è stata precedentemente fatturata e quindi è stata aggiunta una nuova riga oppure una riga esistente è stata rimossa o annullata. Se una riga è stata rimossa, non viene inclusa nella griglia. Pertanto, non può essere selezionata. Tuttavia, verrà comunque considerata quando viene eseguito il processo di riallocazione.
 
@@ -104,6 +116,26 @@ Dopo aver selezionato le righe dell'ordine cliente richieste, utilizzare i pulsa
 
 - **Reimposta i dati per il cliente selezionato** - Se il processo di riallocazione è stato avviato ma non è stato completato, cancellare i dati nella tabella di riallocazione solo per il cliente selezionato. Ad esempio, se si contrassegnano più righe ordine cliente per la riallocazione, si lascia la pagina aperta senza selezionare **Elabora**, quindi si verifica il timeout della pagina. In questo caso, le righe ordine cliente rimarranno contrassegnate e non saranno disponibili per un altro utente per completare il processo di riallocazione. La pagina potrebbe anche essere vuota quando viene aperta. In questa situazione, il pulsante **Reimposta i dati per il cliente selezionato** può essere utilizzato per cancellare gli ordini cliente non elaborati in modo che un altro utente possa completare il processo di riallocazione.
 
+## <a name="undo-a-reallocation"></a>Annullare una riallocazione
+
+Una riallocazione viene annullata eseguendo un'altra riallocazione. La riallocazione viene di nuovo eseguita e l'utente seleziona diverse righe dell'ordine cliente da includere nel secondo processo di riallocazione.
+
+Se è stata eseguita una riallocazione su due o più ordini cliente separati, può essere annullata selezionando **Riallocazione del prezzo con nuove righe ordine** da qualsiasi ordine cliente incluso nella riallocazione. Non è possibile andare a **Riconoscimento ricavi \> Attività periodiche \> Riallocazione del prezzo con nuove righe ordine** per annullare la riallocazione, perché la pagina che viene aperta in questo modo mostra solo gli ordini cliente che non hanno un ID riallocazione. L'ID riallocazione viene assegnato dopo che il documento è stato riallocato.
+
+Nella pagina **Riallocazione del prezzo con nuove righe ordine** deselezionare eventuali ordini cliente che devono essere esclusi dall'accordo contrattuale. Utilizzare i pulsanti appropriati nel riquadro azioni, ad esempio **Aggiorna riallocazione** ed **Elabora**, per elaborare la riallocazione. Se eccetto l'ordine cliente attivo tutti gli ordini cliente non sono contrassegnati, l'ID riallocazione viene rimosso quando viene elaborata la modifica.
+
+Se è stata eseguita una riallocazione aggiungendo una nuova riga a un ordine cliente interamente o parzialmente fatturato, la riallocazione può essere annullata solo rimuovendo la riga dall'ordine cliente ed eseguendo nuovamente la riallocazione. La riga dell'ordine cliente deve essere rimossa perché si presume che tutte le righe di un ordine cliente facciano parte dello stesso contratto. Non è possibile deselezionare una riga dell'ordine cliente nella pagina **Riallocazione del prezzo con nuove righe ordine**.
+
+## <a name="reallocate-multiple-times"></a>Riallocare più volte
+
+È possibile eseguire più riallocazioni sullo stesso ordine cliente se sono state apportate più modifiche al contratto. Ogni riallocazione attiva l'assegnazione di un ID riallocazione all'ordine cliente o al gruppo di ordini cliente, per raggruppare le modifiche. Se vengono eseguite più riallocazioni, ogni riallocazione aggiuntiva utilizza lo stesso ID della prima riallocazione.
+
+Ad esempio, viene immesso l'ordine cliente 00045 che dispone di più righe. Dopo che l'ordine cliente è stato completamente fatturato, viene aggiunta una nuova riga dell'ordine cliente. La riallocazione viene quindi eseguita aprendo la pagina **Riallocazione del prezzo con nuove righe ordine** dall'ordine cliente 00045 o andando in **Riconoscimento ricavi \> Attività periodiche \> Riallocazione del prezzo con nuove righe ordine**. L'ID di riallocazione **Reall000001** viene assegnato all'ordine cliente.
+
+Un secondo ordine cliente, 00052, viene creato per lo stesso contratto. La riallocazione può essere eseguita nuovamente aprendo la pagina **Riallocazione del prezzo con nuove righe ordine** dall'ordine cliente 00045, ma non dall'ordine cliente 00052. Se si apre la pagina **Riallocazione del prezzo con nuove righe ordine** dall'ordine cliente 00052, l'ordine cliente 00045 non viene mostrato perché gli è stato assegnato un ID riallocazione. La pagina mostra solo gli ordini cliente senza ID riallocazione.
+
+Sono disponibili due modi per eseguire la seconda riallocazione. È possibile annullare la riallocazione dell'ordine cliente 00045. In questo caso, l'ID riallocazione viene rimosso ed è quindi possibile eseguire la riallocazione dall'ordine cliente 00045 o dall'ordine cliente 00052. In alternativa, è possibile aprire la pagina **Riallocazione del prezzo con nuove righe ordine** dall'ordine cliente 00045 e aggiungere il secondo ordine cliente. Quando viene elaborata la riallocazione, l'ID riallocazione **Reall000001** viene assegnato sia all'ordine cliente 00045 che all'ordine cliente 00052.
+
 ## <a name="scenarios-for-reallocation"></a>Scenari per la riallocazione
 
 I seguenti argomenti trattano vari scenari per il riconoscimento dei ricavi:
@@ -112,6 +144,5 @@ I seguenti argomenti trattano vari scenari per il riconoscimento dei ricavi:
 - [Riallocazione del riconoscimento dei ricavi - Scenario 2](rev-rec-reallocation-scenario-2.md) - Vengono immessi due ordini cliente e quindi il cliente aggiunge un articolo al contratto dopo che il primo ordine cliente è stato fatturato.
 - [Riallocazione del riconoscimento dei ricavi - Scenario 3](rev-rec-reallocation-scenario-3.md) - Viene aggiunta una nuova riga a un ordine cliente fatturato esistente.
 - [Riallocazione del riconoscimento dei ricavi - Scenario 4](rev-rec-reallocation-scenario-4.md) - Viene rimossa una riga da un ordine cliente fatturato parzialmente.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

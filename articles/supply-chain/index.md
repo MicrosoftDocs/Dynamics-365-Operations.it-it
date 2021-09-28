@@ -2,7 +2,7 @@
 title: Home page di Supply Chain Management
 description: In questa pagina viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di Supply Chain Management.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ac5a8005851dc2894a0fbed74f47be6e1e14b58
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416553"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487866"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page di Supply Chain Management
 
@@ -60,9 +60,8 @@ In questo breve video vengono riepilogate le nuove funzionalità di gestione del
 
 - [Sincronizzare un ordine di lavoro tra Field Service e Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-In questi brevi video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dicembre 2017).
+In questi brevi video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (dicembre 2017).
 
-- [Prospect di liquidazione integrazione](https://youtu.be/AVV9x5x-XCg) 
 - [Consulente dell'ottimizzazione](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Utilizzare il modello di magazzino per copiare la configurazione](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 

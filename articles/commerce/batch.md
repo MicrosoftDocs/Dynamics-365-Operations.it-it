@@ -1,8 +1,8 @@
 ---
 title: Gestione migliorata degli articoli di cui viene tenuta traccia in batch
-description: In questo argomento vengono descritti i miglioramenti apportati alla gestione dei batch di articoli di cui viene tenuta traccia durante il processo di registrazione dei rendiconti.
+description: In questo argomento viene descritta la gestione migliorata dei batch di articoli di cui viene tenuta traccia durante il processo di registrazione dei rendiconti in Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2019
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,34 +15,41 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e3bea1d73325596458bafd9f952e69809b174c386eb2c053daa0a2b5b4bed4de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739564"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485785"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Gestione migliorata degli articoli di cui viene tenuta traccia in batch
 
-
 [!include [banner](includes/banner.md)]
 
+In questo argomento viene descritta la gestione migliorata dei batch di articoli di cui viene tenuta traccia durante il processo di registrazione dei rendiconti in Microsoft Dynamics 365 Commerce.
 
-Nei POS, non è possibile acquisire i numeri batch per gli articoli di cui viene tenuta traccia in batch al momento della vendita. Per configurazioni specifiche, tuttavia, quando le vendite vengono registrate nelle sedi tramite ordini cliente o registrazione rendiconti, il sistema Microsoft Dynamics prevede che i numeri batch validi per gli articoli di cui viene tenuta traccia in batch esistano e vengano utilizzati durante il processo di fatturazione.
+Nei POS di Dynamics 365 Commerce i numeri batch non possono essere acquisiti per gli articoli di cui viene tenuta traccia in batch al momento della vendita. Per configurazioni specifiche, tuttavia, quando le vendite vengono registrate in Commerce headquarters tramite ordini cliente o registrazione rendiconti, Commerce prevede che i numeri batch validi per gli articoli di cui viene tenuta traccia in batch esistano e vengano utilizzati durante il processo di fatturazione.
 
-Se per i prodotti sono disponibili numeri di batch validi, questi ultimi vengono utilizzati nel processo di fatturazione degli ordini cliente e in quello di fatturazione degli stessi ordini dalla registrazione rendiconti. In caso contrario, il processo di fatturazione degli ordini cliente non può essere registrato e l'utente POS riceve un messaggio di errore. A questo punto nella registrazione rendiconti si verifica un errore. Questo stato di errore si verifica anche quando per i prodotti è stato attivato l'inventario negativo.
+Se per i prodotti sono disponibili numeri di batch validi, questi ultimi vengono utilizzati nel processo di fatturazione degli ordini cliente e in quello di fatturazione degli stessi ordini dalla registrazione rendiconti. Se i numeri di batch validi non sono disponibili per i prodotti, il processo di fatturazione dell'ordine cliente non può essere registrato e l'utente POS riceve un messaggio di errore. La registrazione del rendiconto passa quindi in uno stato di errore, anche se è stato attivato l'inventario negativo per i prodotti.
 
-I miglioramenti apportati in Retail 10.0.4 e versioni successive garantiscono che, qualora l'inventario negativo sia stato attivato per gli articoli di cui viene tenuta traccia in batch, la fatturazione degli ordini cliente eseguita tramite la registrazione rendiconti non venga bloccata per tali articoli se il valore di inventario è pari a 0 (zero) o se un numero batch non è disponibile. Quando i numeri batch non sono disponibili, la nuova funzionalità utilizza un ID batch predefinito per le righe di vendita.
+I miglioramenti apportati a Commerce garantiscono che, qualora l'inventario negativo sia stato attivato per gli articoli di cui viene tenuta traccia in batch, la fatturazione degli ordini cliente eseguita tramite la registrazione rendiconti non venga bloccata per tali articoli se il valore di inventario è pari a 0 (zero) o se un numero batch non è disponibile. Quando i numeri batch non sono disponibili, la funzionalità migliorata utilizza un ID batch predefinito per le righe di vendita.
 
-Per definire l'ID batch predefinito utilizzato per gli ordini cliente, nella scheda **Ordini cliente** della pagina **Parametri di commercio** impostare il campo **ID batch predefinito** nella Scheda dettaglio **Ordine**.
+## <a name="define-the-default-batch-id-that-is-used-for-customer-orders"></a>Definire l'ID batch predefinito utilizzato per gli ordini cliente
 
-Per definire l'ID batch utilizzato per la fatturazione degli ordini cliente tramite la registrazione rendiconti, nella scheda **Registrazione** della pagina **Parametri di commercio** impostare il campo **ID batch predefinito** nella Scheda dettaglio **Aggiorna inventario**.
+Per definire l'ID batch predefinito utilizzato per gli ordini cliente, effettuare le seguenti operazioni.
+
+1. In Commerce headquarters accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di commercio**.
+1. Nella Scheda dettaglio **Ordine** della scheda **Ordini cliente** immettere un valore nel campo **ID batch predefinito**.
+
+## <a name="define-the-default-batch-id-that-is-used-for-sales-order-invoicing-through-statement-posting"></a>Definire l'ID batch predefinito utilizzato per la fatturazione degli ordini cliente tramite la registrazione del rendiconto
+
+Per definire l'ID batch predefinito utilizzato per la fatturazione degli ordini cliente tramite la registrazione del rendiconto, effettuare le seguenti operazioni.
+
+1. In Commerce headquarters accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di commercio**.
+1. Nella Scheda dettaglio **Aggiornamento dell'inventario** della scheda **Registrazione** immettere un valore nel campo **ID batch predefinito**.
 
 > [!NOTE]
-> Questa funzionalità è disponibile solo quando i processi di magazzino avanzati sono attivati per il magazzino e gli articoli del punto vendita. In una versione successiva, la funzionalità sarà supportata anche per scenari in cui la gestione avanzata magazzino non viene utilizzata.
-
-> [!NOTE]
-> Il supporto per una migliore gestione degli articoli di cui viene tenuta traccia in batch durante la registrazione dei rendiconti per scenari diversi dalla gestione avanzata magazzino è stato introdotto in Retail versione 10.0.5.
-
+> - La funzionalità ID batch predefinito è disponibile solo quando i processi di magazzino avanzati sono abilitati per il magazzino e gli articoli del punto vendita. In una versione successiva, la funzionalità sarà supportata anche per scenari in cui la gestione avanzata magazzino non viene abilitata.
+> - Il supporto per una migliore gestione degli articoli di cui viene tenuta traccia in batch durante la registrazione dei rendiconti per scenari diversi dalla gestione avanzata magazzino è stato introdotto in Commerce versione 10.0.5.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1007,7 +1007,11 @@
                 - name: Domande frequenti sulla finestra della manutenzione pianificata
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Monitoraggio e diagnostica
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Strumenti di monitoraggio e diagnostica
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Usare Esplora dati di Azure per eseguire query sui registri di informazioni non elaborate
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Riavviare i servizi dell'ambiente
               href: lifecycle-services/restart-environment-services.md
             - name: Segnalare un'interruzione della produzione

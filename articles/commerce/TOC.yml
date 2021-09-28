@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (agosto 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (giugno 2021)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Creare accordi commerciali utilizzando regole per prezzi di categoria
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Ritardare il calcolo del prezzo esatto e dello sconto
+                  href: delayed-price-calculation.md
             - name: Suggerimenti
               items:
                 - name: Panoramica suggerimenti sul prodotto
@@ -1328,6 +1328,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Registrare documenti fiscali brasiliani tramite rendiconti della vendita al dettaglio in Commerce headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Dynamics 365 Payment Connector per Adyen in Commerce POS per il Brasile
+                  href: localizations/latam-bra-adyen.md
             - name: Europa orientale
               items:
                 - name: Comune
@@ -1838,7 +1840,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
                         - name: Eseguire formati per aggiungere dinamicamente colonne ai report di Excel
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
-                - name: Configurazioni di progetto per generare report in formato di Word
+                - name: Progettare le configurazioni per generare report in formato Word
                   items:
                     - name: Progettare una configurazione per la generazione di report in formato Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/commerce/toc.json
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Azioni sui dati di base
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Chiamare API Retail Server
+                    - name: Chiamare le API Commerce Scale Unit
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: Chiamare le API dell'estensione Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Impostare una pipeline di compilazione per l'SDK per la creazione di pacchetti indipendenti
                   href: dev-itpro/build-pipeline.md
-                - name: Unire sistemi di build per Commerce e Finance and Operations
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Migrare da Retail SDK da Visual Studio 2015 a Visual Studio 2017
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Esempi di estendibilità di Retail SDK
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Estendibilità dell'Hardware Station
               items:
-                - name: Hardware Station ed estendibilità
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Integrare POS con un nuovo dispositivo hardware
                   href: dev-itpro/hardware-device-extension.md
             - name: Estendibilità Retail Server

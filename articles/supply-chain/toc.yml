@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (agosto 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (giugno 2021)
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -1189,7 +1187,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Eseguire formati per aggiungere dinamicamente colonne ai report di Excel
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurazioni di progetto per generare report in formato di Word
+                - name: Progettare le configurazioni per generare report in formato Word
                   items:
                     - name: Progettare una configurazione per la generazione di report in formato Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/supply-chain/toc.json
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Programmazione con capacità infinita
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Programmazione con selezione delle risorse in base alla capacità
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Contrassegno inventario con Ottimizzazione pianificazione
                   href: master-planning/planning-optimization/marking.md
                 - name: Pianificazione interaziendale
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: Creare una richiesta di offerta
                   href: procurement/tasks/create-request-quotation.md
+                - name: Offerta nascosta per RdO
+                  href: procurement/sealed-bidding.md
                 - name: Creare una richiesta che usa una RdO
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Creare un metodo di assegnazione punteggi per RdO
