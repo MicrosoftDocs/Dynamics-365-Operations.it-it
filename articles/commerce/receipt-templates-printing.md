@@ -2,7 +2,7 @@
 title: Impostare e progettare formati di ricevute
 description: In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Dynamics 365 Commerce include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715360"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500172"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Impostare e progettare formati di ricevute
 
@@ -46,7 +46,12 @@ In questo articolo viene descritto come modificare layout modulo per controllare
 
 ## <a name="print-images"></a>Stampare le immagini
 
-La finestra di progettazione ricevuta include una variabile **Logo** che può essere utilizzata per specificare le immagini da stampare sulla ricevuta. Le immagini incluse nelle ricevute utilizzando la variabile **Logo** devono essere di tipi di file bitmap monocromatici (.bmp). Se un'immagine .bmp è specificata nella finestra di progettazione ricevuta, ma non viene stampata quando viene inviata alla stampante, la dimensione del file potrebbe essere troppo grande o le dimensioni in pixel dell'immagine non sono compatibili con la stampante. In tal caso, prova a ridurre la risoluzione del file di immagine.   
+La finestra di progettazione della ricevuta include una variabile **Logo**. Puoi utilizzare questa variabile per specificare un'immagine da stampare sulle ricevute. Le immagini stampate sulle ricevute utilizzando la variabile **Logo** devono essere di tipi di file bitmap monocromatici (.bmp). Se un'immagine bitmap è specificata nella finestra di progettazione della ricevuta ma non viene stampata quando la ricevuta viene inviata alla stampante, la causa potrebbe essere uno dei seguenti problemi:
+
+- La dimensione del file è troppo grande o le dimensioni in pixel dell'immagine non sono compatibili con la stampante. In questo caso, prova a ridurre la risoluzione o le dimensioni del file immagine.
+- Alcuni driver di stampante Object Linking and Embedding for Point of Sale (OPOS) non implementano il metodo **PrintMemoryBitmap** utilizzato dalle stazioni hardware per stampare le immagini del logo. In questo caso, prova ad aggiungere il seguente flag al file **HardwareStation.Extension.config** della stazione hardware dedicata o condivisa:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Progettare un formato di ricevuta
 

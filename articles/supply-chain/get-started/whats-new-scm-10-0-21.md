@@ -1,5 +1,5 @@
 ---
-title: Anteprima di Dynamics 365 Supply Chain Management 10.0.21 (ottobre 2021)
+title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.21 (ottobre 2021)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391210"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500557"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.21 (ottobre 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.21 (ottobre 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della versione 10.0.21. di Microsoft Dynamics 365 Supply Chain Management. Questa versione ha il numero di build 10.0.960 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione 10.0.21. Questa versione ha il numero di build 10.0.960 ed è disponibile come segue:
 
 - **Anteprima della versione:** agosto 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** settembre 2021
@@ -46,13 +45,14 @@ Il deployment funzionerà nonostante l'avvertimento. Tuttavia, i seguenti proble
 
 Questa tabella elenca le funzionalità incluse in questa versione. La colonna *Funzionalità* fornisce collegamenti al [piano di rilascio](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), dove puoi vedere le date di rilascio ufficiali per ciascuna funzionalità. La colonna *Ulteriori informazioni* fornisce altri dettagli e/o collegamenti alla documentazione correlata.
 
-La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate. Alcune delle funzionalità elencate sono ancora in anteprima, mentre altre potrebbero essere già generalmente disponibili.
+La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
 | Area funzionale | Funzionalità | Ulteriori informazioni |
 |---|---|---|
-| Inventario&nbsp;e&nbsp;logistica | [Componente aggiuntivo Contabilità inventario globale per Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Home page di Contabilità inventario globale](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Inventario&nbsp;e&nbsp;logistica | [Componente aggiuntivo Contabilità inventario globale per Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Home page di Contabilità inventario globale](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Inventario&nbsp;e&nbsp;logistica | [Registrare le rettifiche delle scorte disponibili utilizzando codici collegati ai conti di contropartita](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Codici motivo per il conteggio scorte](../warehousing/reason-codes-for-counting-journals.md) |
 | Inventario&nbsp;e&nbsp;logistica | [Criteri di esportazione dati a cui fa riferimento l'offerta di vendita](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Scegli se le modifiche ai dati di riferimento per offerta non determineranno l'inclusione delle offerte (o delle righe) nella successiva esportazione incrementale. Le tue esportazioni incrementali verranno eseguite più rapidamente se scegli di non includere tali offerte o righe.<br><br>Questa funzionalità aggiunge un'impostazione chiamata **Ignora i dati di riferimento delle offerte di vendita durante il rilevamento delle modifiche** alla pagina **Parametri contabilità clienti**. |
+| Inventario&nbsp;e&nbsp;logistica | Offerta nascosta <!-- KFM: Add RP link when available --> | [Offerta nascosta per RdO](../procurement/sealed-bidding.md) |
 | Inventario&nbsp;e&nbsp;logistica | [Scansiona i codici a barre nel magazzino utilizzando gli standard di formato GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Codici a barre GS1 e codici QR](../warehousing/gs1-barcodes.md) |
 | Inventario&nbsp;e&nbsp;logistica | [Prenotazione soft per l'add-in di visibilità dell'inventario](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Prenotazioni di visibilità dell'inventario](../inventory/inventory-visibility-reservations.md) |
 | Inventario&nbsp;e&nbsp;logistica | [Detrazioni e miglioramenti peso variabile per la gestione degli sconti](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Gestire le detrazioni usando il workbench detrazioni](../rebate-management/deduction-workbench.md )<br><br>[Elaborazione, revisione e registrazione degli sconti](../rebate-management/process-review-post.md)<br><br>[Transazioni di gestione degli sconti](../rebate-management/rebate-management-deals.md) |

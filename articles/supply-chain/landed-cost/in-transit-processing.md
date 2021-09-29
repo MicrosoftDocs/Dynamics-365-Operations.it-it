@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744800"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500281"
 ---
 # <a name="goods-in-transit-processing"></a>Elaborazione merci in transito
 
@@ -148,8 +148,6 @@ Questa sezione descrive le funzioni che il modulo **Costo di spedizione** aggiun
 Costo sbarcato aggiunge un nuovo tipo di ordine di lavoro denominato *Merci in transito* alla pagina **Modelli di lavoro**. Questo tipo di ordine di lavoro deve essere configurato allo stesso modo dei [modelli di lavoro di ordine fornitore](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 #### <a name="work-header-breaks"></a>Interruzioni intestazione lavoro
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 I modelli di lavoro che hanno un tipo di ordine di lavoro di *Merce in transito* possono essere configurati per dividere le intestazioni di lavoro. Nella pagina **Modelli di lavoro**, effettua una delle seguenti operazioni:
 

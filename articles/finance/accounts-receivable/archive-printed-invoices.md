@@ -1,8 +1,8 @@
 ---
 title: Archiviare le fatture cliente stampate con numeri hash
 description: In questo argomento viene descritto come abilitare l'archiviazione per archiviare le fatture cliente stampate con numeri hash.
-author: ilyako
-ms.date: 03/05/2021
+author: ilkond
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 474f5f19d709f3f04a2dbf4383360f58db7ecc8953e8624d9eef92286c52d4d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093b1b8c516c0c659e7970d17d3f84b2ed0ccf8f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724209"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500529"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Archiviare le fatture cliente stampate con numeri hash
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 In alcuni paesi, esiste un requisito legale per memorizzare i numeri hash calcolati nel sistema insieme alla stampa di alcuni documenti. I numeri hash possono essere utilizzati per il reporting alle autorità e durante gli audit.
 

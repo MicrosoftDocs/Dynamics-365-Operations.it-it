@@ -1,8 +1,8 @@
 ---
 title: Configurare tipi di congedo e assenza
 description: Impostare i tipi di congedo che i dipendenti possono prendere in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730420"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485809"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurare tipi di congedo e assenza
 
@@ -65,9 +65,9 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 
 1. Impostare opzioni di arrotondamento per il tipo di congedo. Le opzioni includono **Nessuno**, **Su**, **Giù** e **Al più vicino**. È inoltre possibile impostare la precisione di arrotondamento per il tipo di congedo.
 
-2. Impostare **Correzione giorni festivi** per il tipo di congedo. Quando si seleziona questa opzione, Human Resources utilizza il numero di giorni festivi che cadono in un giorno lavorativo per determinare come accumulare permessi per il tipo di congedo. Ad esempio, se il giorno di Natale cade di lunedì, Human Resources sottrarrà un giorno dal tipo di congedo durante l'elaborazione degli accumuli.
+2. Impostare **Correzione giorni festivi** per il tipo di congedo. Quando si seleziona questa opzione, il numero di giorni festivi che cadono in un giorno lavorativo viene usato per determinare come accumulare permessi per il tipo di congedo. Ad esempio, se il giorno di Natale cade di lunedì, Human Resources sottrarrà un giorno dal tipo di congedo durante l'elaborazione degli accumuli.
 
-   i giorni festivi sono impostati nel calendario orario lavorativo. Per ulteriori informazioni, vedere [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md).
+   i giorni festivi sono impostati nel calendario orario lavorativo. Per ulteriori informazioni, vedi [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md).
    
  3. Impostare **Tipo di congedo riportabile** per il tipo di congedo. Quando si seleziona questa opzione, tutti i saldi riportabili verranno trasferiti al tipo di congedo specificato. Anche il tipo di congedo riportabile deve essere incluso nel piano di congedo e assenza. 
  
@@ -76,7 +76,7 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 ## <a name="configure-the-required-attachment-per-leave-type"></a>Configurare l'allegato richiesto per tipo di congedo
 
 > [!NOTE]
-> Per usare il campo **Allegato richiesto**, è necessario prima attivare la funzione **(Anteprima) Configura l'allegato richiesto per le richieste di congedo** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità di anteprima, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
+> Per usare il campo **Allegato richiesto**, è necessario prima attivare la funzione **Configura l'allegato richiesto per le richieste di congedo** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
 
 1. Nella pagina **Congedo e assenza** nella scheda **Collegamenti** sotto **Impostazioni**, seleziona **Tipi di congedo e assenza**.
 
@@ -87,7 +87,7 @@ Ai dipendenti sarà richiesto di caricare un allegato quando inviano una nuova r
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Configurare le unità di congedo (ore/giorni) per il tipo di congedo
 
 > [!NOTE]
-> Per utilizzare la funzionalità unità di congedo per tipo di congedo, è necessario prima attivare la funzione **(Anteprima) Configurare unità di congedo per tipo di congedo** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità di anteprima, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
+> Per utilizzare la funzionalità unità di congedo per tipo di congedo, è necessario prima attivare la funzione **Configurare unità di congedo per tipo di congedo** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
 > Per impostazione predefinita, i tipi di congedo in una persona giuridica utilizzano le unità di congedo della configurazione dei parametri di congedo a livello di persona giuridica.

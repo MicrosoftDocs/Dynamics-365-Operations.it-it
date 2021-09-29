@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744180"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488204"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Abilitare la gestione delle modifiche in prodotti esistenti
 
@@ -47,7 +47,9 @@ Pertanto, se si dispone di un prodotto specifico, è possibile modificarlo solo 
 
 Una *categoria di prodotto di progettazione* deve essere assegnata a ogni prodotto di progettazione. Questa assegnazione verrà eseguita quando si esegui la procedura guidata **Convertire in prodotto di progettazione**. Le categorie di prodotti di progettazione devono esistere per tutti i prodotti standard pertinenti *prima* di poter convertire quei prodotti.
 
-La categoria di prodotti di progettazione fornisce una base per la creazione di un prodotto di progettazione e stabilisce una serie di criteri e valori predefiniti. La categoria di prodotti di progettazione deve corrispondere al prodotto a cui viene assegnata. Ad esempio, il tipo di prodotto e il gruppo di dimensioni devono corrispondere sia al prodotto che alla relativa categoria di prodotti di progettazione. Per ulteriori informazioni, vedere [Versioni di progettazione e categorie di prodotti di progettazione](engineering-versions-product-category.md).
+La categoria di prodotti di progettazione fornisce una base per la creazione di un prodotto di progettazione e stabilisce una serie di criteri e valori predefiniti. Gli attributi di progettazione e i loro valori predefiniti (come definiti per la categoria di progettazione) vengono applicati anche al prodotto di progettazione risultante. È possibile modificare i valori degli attributi e/o aggiungere altri attributi di progettazione al prodotto risultante, se necessario.
+
+La categoria di prodotti di progettazione deve corrispondere al prodotto a cui viene assegnata. Ad esempio, il tipo di prodotto e il gruppo di dimensioni devono corrispondere sia al prodotto che alla relativa categoria di prodotti di progettazione. Per ulteriori informazioni, vedere [Versioni di progettazione e categorie di prodotti di progettazione](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > La procedura guidata **Convertire in prodotto di progettazione** può convertire il prodotto solo in prodotti di progettazione in cui non si tiene traccia della versione nelle transazioni. Quindi, l'opzione **Tenere traccia delle versioni nelle transazioni** deve essere impostata su *No* per le categorie di prodotti di progettazione create per convertire i prodotti esistenti.

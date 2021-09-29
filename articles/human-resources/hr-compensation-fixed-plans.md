@@ -1,8 +1,8 @@
 ---
 title: Creare piani di retribuzione fissa
-description: La retribuzione fissa fa riferimento allo stipendio lordo regolare o alle retribuzioni del dipendente. Questo articolo descrive i componenti che devono essere impostati per creare un piano di retribuzione fissa e iscrivere i dipendenti.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Questo articolo descrive i componenti che devono essere impostati per creare un piano di retribuzione fissa e iscrivere i dipendenti.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ae6f31db40c792c9b65a6f21395e05528a053acbc4b9dc8b56978675c635e0f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 141666963ca70e320f6acd02a0344f00c780dcac
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732491"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484123"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Creare piani di retribuzione fissa
 
@@ -33,7 +33,7 @@ Gli importi di retribuzione fissa possono essere calcolati per i dipendenti in b
 ## <a name="fixed-compensation-components"></a>Componenti di retribuzione fissa
 ### <a name="compensation-levels"></a>Livelli retributivi
 
-È possibile utilizzare **livelli retributivi** per impostare la retribuzione per lavori diversi. In questo modo si garantisce che i dipendenti responsabili di quei lavori vengano pagati adeguatamente. Nella pagina **Livelli retributivi** è possibile impostare i livelli retributivi per ogni scala, fascia o grado. Utilizzare i pulsanti **Su** e **Giù** per inserire i livelli nell'ordine corretto, in base al relativo tipo. Impostando i livelli retributivi su una mansione, è possibile garantire che tutti i dipendenti che detengono una posizione per tale mansione vengano retribuiti allo stesso livello.
+Puoi utilizzare **livelli retributivi** per impostare la retribuzione per lavori diversi. In questo modo garantisci che i dipendenti responsabili di quei lavori vengano pagati adeguatamente. Nella pagina **Livelli retributivi** è possibile impostare i livelli retributivi per ogni scala, fascia o grado. Utilizzare i pulsanti **Su** e **Giù** per inserire i livelli nell'ordine corretto, in base al relativo tipo. Impostando i livelli retributivi su una mansione, è possibile garantire che tutti i dipendenti che detengono una posizione per tale mansione vengano retribuiti allo stesso livello.
 
 ### <a name="reference-points"></a>Punti di riferimento
 
@@ -56,13 +56,13 @@ L'impostazione **Tolleranza non compresa nell'intervallo** consente di specifica
 
 L'impostazione **Regola di assunzione** consente di specificare se tutti i dipendenti devono ricevere lo stesso aumento, indipendentemente dalla data in cui sono stati assunti (**Regola di assunzione** = **Nessuno**) o se i dipendenti devono ottenere una percentuale del premio, in base alla durata di assunzione durante il ciclo (**Regola di assunzione** = **Percentuale**). 
 
-Una **matrice di utilizzo del range** è utile se si desidera ridurre il tempo necessario affinché i dipendenti raggiungano il punto intermedio del rispettivo range o aumentare il tempo necessario affinché i dipendenti raggiungano il punto di riferimento massimo nel range. Ad esempio, si desidera assegnare ai dipendenti che si trovano nella fascia del 25 percento di livello inferiore del rispettivo range il 110 percento del loro premio per raggiungimento obiettivi, ma si desidera assegnare ai dipendenti che si trovano nella fascia del 25 percento di livello superiore del rispettivo range solo l'80 percento del loro premio per raggiungimento obiettivi, in modo da impedire loro il raggiungimento del valore massimo altrettanto rapidamente. 
+Una **matrice di utilizzo del range** è utile se vuoi ridurre il tempo necessario affinché i dipendenti raggiungano il punto intermedio del rispettivo range o aumentare il tempo necessario affinché i dipendenti raggiungano il punto di riferimento massimo nel range. Ad esempio, si desidera assegnare ai dipendenti che si trovano nella fascia del 25 percento di livello inferiore del rispettivo range il 110 percento del loro premio per raggiungimento obiettivi, ma si desidera assegnare ai dipendenti che si trovano nella fascia del 25 percento di livello superiore del rispettivo range solo l'80 percento del loro premio per raggiungimento obiettivi, in modo da impedire loro il raggiungimento del valore massimo altrettanto rapidamente. 
 
 Dopo aver definito gli elementi di base del piano di retribuzione fissa, è possibile impostare la struttura retributiva per il piano. Fare clic su **Imposta retribuzione**. Viene visualizzato un dispositivo di scorrimento che offre tre opzioni:
 
--   Creare una nuova griglia di retribuzione selezionando un'impostazione di punti di riferimento e immettendo un nome per la griglia.
--   Creare una nuova griglia di retribuzione effettuando una copia di una griglia esistente che è possibile utilizzare come punto di partenza.
--   Utilizzare una griglia di retribuzione esistente che è già stata definita. Tutti i piani di retribuzione che utilizzano la stessa griglia ricevono aggiornamenti se la griglia viene modificata.
+-   **Crea una nuova matrice di retribuzione** selezionando un'impostazione di punti di riferimento e immettendo un nome per la griglia.
+-   **Crea una nuova matrice di retribuzione** effettuando una copia di una griglia esistente che è possibile utilizzare come punto di partenza.
+-   **Utilizza una matrice di retribuzione esistente** che è già stata definita. Tutti i piani di retribuzione che utilizzano la stessa griglia ricevono aggiornamenti se la griglia viene modificata.
 
 Una volta selezionata un'opzione, verrà visualizzata la pagina **Struttura retributiva** e sarà possibile apportare modifiche alla griglia di retribuzione nuova o esistente.
 
@@ -73,7 +73,7 @@ Il primo passaggio per l'iscrizione dei dipendenti a un piano di retribuzione fi
 
 **Nota:** le regole di idoneità vengono utilizzate per determinare l'idoneità per i piani di retribuzione fissa e variabile. 
 
-La regola di idoneità considera il valore di campi specifici nei record Mansione, Posizione e Dipendente per stabilire se un dipendente è idoneo per un piano di retribuzione.
+La regola di idoneità considera il valore di campi specifici nei record **Mansione**, **Posizione**, e **Dipendente** per stabilire se un dipendente è idoneo per un piano di retribuzione.
 
 -   Nella pagina **Mansione**, la regola di idoneità considera i seguenti campi:
     -   Il campo **Mansione**
@@ -93,9 +93,9 @@ Ad esempio, se la retribuzione fissa viene impostata per un dipendente, è possi
 
 È ora possibile assegnare un piano di retribuzione fissa a un dipendente. Aprire la pagina **Dipendenti**, quindi selezionare il dipendente per iscriverlo al piano di retribuzione. Nel riquadro azioni fare clic su **Retribuzione** &gt; **Piano fisso**. È ora possibile creare una nuova azione di retribuzione fissa per tale dipendente. 
 
-**Nota:** il campo del piano di retribuzione indica solo i piani per i quali un dipendente è idoneo in base alle regole di idoneità impostate per ciascun piano. Se non si specifica alcuna regola di idoneità per un piano, nessun dipendente sarà idoneo per tale piano. 
+**Nota:** il campo del **piano di retribuzione** indica solo i piani per i quali un dipendente è idoneo in base alle regole di idoneità impostate per ciascun piano. Se non si specifica alcuna regola di idoneità per un piano, nessun dipendente sarà idoneo per tale piano. 
 
-Il sistema verifica che l'importo di retribuzione specificato per un piano di retribuzione del tipo di grado o fascia rientri nei punti di riferimento minimo e massimo per il livello retributivo specificato sulla mansione del dipendente. Se l'importo di retribuzione non rientra nell'intervallo consentito, viene visualizzato un messaggio di errore o di avviso, a seconda del livello di tolleranza impostato nel piano di retribuzione fissa.
+L'importo di retribuzione specificato per un piano di retribuzione del tipo di grado o fascia viene verificato in modo che rientri nei punti di riferimento minimo e massimo per il livello retributivo specificato sulla mansione del dipendente. Se l'importo di retribuzione non rientra nell'intervallo consentito, viene visualizzato un messaggio di errore o di avviso, a seconda del livello di tolleranza impostato nel piano di retribuzione fissa.
 
 
 

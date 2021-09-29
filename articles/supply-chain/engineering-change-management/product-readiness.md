@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415323"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500600"
 ---
 # <a name="product-readiness"></a>Idoneità prodotto
 
 [!include [banner](../includes/banner.md)]
 
-È possibile i controlli di idoneità per garantire che tutti i dati master richiesti siano stati specificati per un prodotto prima che venga utilizzato nelle transazioni. Quando vengono utilizzati i controlli di idoneità, un utente o un team è responsabile della convalida di dati specifici predefiniti relativi al prodotto. Se c'è un controllo di prontezza aperto per un prodotto, il prodotto non può essere usato nelle transazioni.
+È possibile i controlli di idoneità per garantire che tutti i dati master richiesti siano stati specificati per un prodotto prima che venga utilizzato nelle transazioni. Quando vengono utilizzati i controlli di idoneità, un utente o un team è responsabile della convalida di dati specifici predefiniti relativi al prodotto.
 
-La casella di controllo **Attiva** per un prodotto di progettazione, una variante o una versione è disponibile solo dopo che tutti i dati richiesti sono stati inseriti e verificati e dopo che tutti i controlli di idoneità sono stati elaborati. A quel punto, il prodotto, la versione o la variante possono essere usati nelle transazioni. È possibile creare controlli di disponibilità per nuovi prodotti, nuove varianti e nuove versioni di progettazione.
+Puoi selezionare la casella di controllo **Attiva** per un prodotto di progettazione, una variante o una versione solo dopo che tutti i dati richiesti sono stati inseriti e verificati e dopo che tutti i controlli di idoneità sono stati elaborati. Se uno o più controlli non sono stati elaborati per il prodotto, la versione o la variante, quando tenti di contrassegnare la casella di controllo **Attiva**, riceverai un messaggio di avviso che non tutti i controlli sono stati completati.
 
-È inoltre possibile applicare controlli di disponibilità a prodotti standard (non tecnici). Per ulteriori informazioni, vedi a sezione [Controlli di idoneità su prodotti standard](#standard-products) più avanti in questo argomento.
+È possibile creare controlli di disponibilità per nuovi prodotti, varianti e versioni di progettazione. È inoltre possibile applicare controlli di disponibilità per prodotti standard (non tecnici) (vedi anche [Controlli di disponibilità sui prodotti standard](#standard-products)). 
+
+Puoi utilizzare prodotti standard nelle transazioni anche se non sono stati completati tutti i controlli di disponibilità. Se è necessario impedire l'utilizzo di un prodotto nelle transazioni, utilizza il relativo stato del ciclo di vita. Puoi assegnare uno stato del ciclo di vita che impedisce l'utilizzo di un prodotto nelle transazioni e quindi, dopo che tutti i controlli di disponibilità sono stati completati, assegnare un nuovo stato del ciclo di vita che consente le transazioni richieste.
 
 ## <a name="types-of-readiness-checks"></a>Tipi di controlli di disponibilità
 

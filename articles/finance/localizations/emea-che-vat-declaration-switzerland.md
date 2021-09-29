@@ -2,7 +2,7 @@
 title: Dichiarazione IVA (Svizzera)
 description: In questo argomento vengono fornite informazioni su come impostare e generare una dichiarazione di imposta sul valore aggiunto per la Svizzera.
 author: anasyash
-ms.date: 08/12/2021
+ms.date: 09/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 787f2b22f23680e8daf03988181951e2256eb253
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c2d1e617743a1859f9b1b55387fc5f4b4afb408
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7351108"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487940"
 ---
 # <a name="vat-declaration-switzerland"></a>Dichiarazione IVA (Svizzera)
 
@@ -309,7 +309,7 @@ Segui questi passaggi per impostare i messaggi elettronici per raccogliere dati 
 1. Vai a **Aree di lavoro** > **Gestione funzionalità**.
 2. Trova e seleziona la funzionalità **Query interaziendali per le azioni di popolamento dei record** nell'elenco, quindi seleziona **Abilita ora**.
 3. Vai a **Imposta** > **Impostazione** > **Messaggi elettronici** > **Azioni di popolamento record**.
-4. Nella pagina **Azione di popolamento record**, seleziona la riga per **FR Compila i record di dichiarazione IVA**.
+4. Nella pagina **Azione di popolamento record**, seleziona la riga per **CH Compila i record di dichiarazione IVA**.
 
    Nella griglia **Impostazione origini dati**, è disponibile un nuovo campo **Società**. Per i record esistenti, questo campo mostra l'identificatore della persona giuridica corrente.
 

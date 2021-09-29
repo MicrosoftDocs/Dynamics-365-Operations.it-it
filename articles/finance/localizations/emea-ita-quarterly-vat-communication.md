@@ -1,8 +1,8 @@
 ---
 title: Report di comunicazione IVA trimestrale
 description: Questo argomento fornisce informazioni sul report di comunicazione IVA trimestrale in Italia.
-author: LizaGolub
-ms.date: 02/09/2021
+author: liza-golub
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
 ms.author: elgolu
-ms.openlocfilehash: 2ea1dfb30e140b9ade37aefeaee6c85c9b527ab1be34d047b411e8be5c52de2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccca7390d506d66364075138b921948d36c0e53a
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760647"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500047"
 ---
 # <a name="quarterly-vat-communication-report"></a>Report di comunicazione IVA trimestrale
 
@@ -148,7 +148,7 @@ Quando hai finito di aggiornare il formato, salvalo, chiudilo e completalo.
 
 Una nuova voce di menu per il report **Comunicazione IVA trimestrale (LIPE)** deve essere associata al formato creato e aggiornato per la persona giuridica.
 
-1. Andare a **Imposta** \> **Impostazione** \> **Parametri** \> **Parametri di contabilità generale**.
+1. Vai a **Imposta** > **Impostazione** > **Parametri** > **Parametri di contabilità generale**.
 2. Nella scheda **IVA**, nel campo **Mapping formato** della Scheda dettaglio **Comunicazione IVA trimestrale** seleziona il formato **Comunicazione IVA trimestrale** creato.
 
     ![Impostare il formato di comunicazione IVA trimestrale nei parametri di contabilità generale.](./media/gl-parameters-er-format.png)

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a102f1d77362f650c060ce5d0aee5b62d2102532
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 63f3bc6cb7563ee6ff719272a0795efffcb40bc8
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344956"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500198"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Differenze tra la pianificazione generale integrata e l'ottimizzazione della pianificazione
 
@@ -33,6 +33,8 @@ I risultati di Planning Optimization potrebbero differire dai risultati del moto
 | Copia del piano, cancellazione del piano e pulizia della versione del piano | <p>I seguenti elementi sono disabilitati sotto **Pianificazione principale \> Pianificazione principale \> Mantenere i piani** nel pannello di navigazione:</p><ul><li>Copia del piano</li><li>Elimina piano</li><li>Pulitura versione piano</li></ul> |
 | Ordini di reso | Gli ordini di ritorno non sono considerati. |
 | Caratteristiche relative alla programmazione | Per i dettagli, vedere [Programmazione con capacità infinita](infinite-capacity-planning.md#limitations). |
+| Garanzia scorte di sicurezza | Ottimizzazione pianificazione utilizza sempre l'opzione *Data odierna + tempo di approvvigionamento* per il campo **Soddisfa minimo** della pagina **Copertura articolo**. Consente di impedire ordini pianificati indesiderati e altri problemi perché se il tempo di approvvigionamento non è incluso per la scorta di sicurezza, gli ordini pianificati creati per le scorte a disponibilità ridotta saranno sempre posticipati a causa dei tempi di consegna. |
+| Pegging delle scorte di sicurezza e fabbisogni netti | Il tipo di requisito *Scorta di sicurezza* non è incluso e non viene visualizzato nella pagina **fabbisogni netti**. Le scorte di sicurezza non rappresentano la domanda e non sono associate a una data di fabbisogno. Imposta invece un vincolo sulla quantità di scorte che deve essere sempre presente. In ogni caso, il valore del campo **Minimo** viene ancora preso in considerazione durante il calcolo degli ordini pianificati durante la pianificazione generale. Ti consigliamo di ispezionare la colonna **Quantità accumulata** nella pagina **fabbisogni netti** per controllare che questo valore sia stato considerato. |
 | Calendari di trasporto | Il valore nella colonna **Calendario di trasporto** nella pagina **Modalità di consegna** è ignorato. |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

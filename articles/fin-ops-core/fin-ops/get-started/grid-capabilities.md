@@ -2,7 +2,7 @@
 title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità della griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775244"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483856"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
@@ -30,7 +30,7 @@ Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che 
 -  Calcolo totali in corso
 -  Digitare prima del sistema
 -  Valutare espressioni matematiche 
--  Raggruppamento di dati tabulari (abilitato separatamente utilizzando la funzionalità **(Anteprima) Raggruppamento in griglie**)
+-  Raggruppamento di dati tabulari (abilitato separatamente utilizzando la funzionalità **Raggruppamento in griglie**)
 -  Blocco delle colonne
 
 ## <a name="calculating-totals"></a>Calcolo totali in corso
@@ -93,7 +93,7 @@ Come booster di produttività, gli utenti possono inserire formule matematiche n
 Per fare in modo che il sistema riconosca un valore come espressione, iniziare il valore con un segno uguale (**=**). Per ulteriori informazioni sugli operatori supportati e sulla sintassi, vedere [Simboli matematici supportati](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Raggruppamento di dati tabulari
-Gli utenti aziendali devono spesso eseguire analisi ad hoc dei dati. Sebbene questa operazione possa essere eseguita esportando dati in Microsoft Excel e usando tabelle pivot, la funzionalità **Raggruppamento in griglie** che generalmente è disponibile nella versione 10.0.16/Platform update 40 e dipende dalla nuova funzionalità controllo griglia consente agli utenti di organizzare i dati tabulari in modi interessanti nelle app Finance and Operations. Poiché questa funzionalità estende la funzionalità **Totali**, **Raggruppamento** consente di ottenere informazioni dettagliate significative sui dati fornendo subtotali a livello di gruppo.
+Gli utenti aziendali devono spesso eseguire analisi ad hoc dei dati. Sebbene questa operazione possa essere eseguita esportando dati in Microsoft Excel e usando tabelle pivot, la funzionalità **Raggruppamento in griglie** che dipende dalla nuova funzionalità controllo griglia consente agli utenti di organizzare i dati tabulari in modi interessanti nelle app Finance and Operations. Poiché questa funzionalità estende la funzionalità **Totali**, **Raggruppamento** consente di ottenere informazioni dettagliate significative sui dati fornendo subtotali a livello di gruppo.
 
 Per utilizzare questa funzionalità, fare clic con il pulsante destro del mouse sulla colonna in base alla quale eseguire il raggruppamento e selezionare **Raggruppa in base a questa colonna**. Questa azione ordina i dati in base alla colonna selezionata, aggiunge una nuova colonna **Raggruppa per** all'inizio della griglia e inserisce "righe di intestazione" all'inizio di ciascun gruppo. Queste righe di intestazione forniscono le seguenti informazioni su ciascun gruppo: 
 -  Valore dei dati per il gruppo 
@@ -108,9 +108,6 @@ Dopo aver raggruppato i dati in una singola colonna, puoi raggruppare i dati in 
 
 In qualsiasi momento, puoi rimuovere il raggruppamento su qualsiasi colonna facendo clic con il pulsante destro del mouse su quella colonna e selezionando **Separa**. È possibile anche rimuovere il raggruppamento da tutte le colonne selezionando **Opzioni griglia** e poi **Separa tutto**.   
 
-Tenere presente che, prima della versione 10.0.16/Platform update 40, è supportato solo un livello di raggruppamento. In queste versioni, se i dati sono raggruppati e si seleziona **Raggruppa in base a questa colonna** per una colonna diversa, il raggruppamento originale viene sostituito.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Espansione e compressione di gruppi
 Il raggruppamento iniziale di dati avrà tutti i gruppi espansi. È possibile creare visualizzazioni riepilogative dei dati comprimendo i singoli gruppi oppure è possibile utilizzare l'espansione e la compressione del gruppo per facilitare lo spostamento tra i dati. Per espandere o comprimere un gruppo, selezionare il pulsante con la freccia (>) nella riga dell'intestazione del gruppo corrispondente. Tenere presente che lo stato di espansione/compressione dei singoli gruppi **non** è salvato nella personalizzazione.
 
@@ -118,10 +115,10 @@ Il raggruppamento iniziale di dati avrà tutti i gruppi espansi. È possibile cr
 Come è possibile selezionare (o deselezionare) tutte le righe nella griglia selezionando la casella di controllo nella parte superiore della prima colonna nella griglia, è possibile anche selezionare rapidamente (o deselezionare) tutte le righe in un gruppo selezionando la casella di controllo nella riga dell'intestazione del gruppo corrispondente. La casella di controllo nella riga di intestazione del gruppo rifletterà sempre lo stato di selezione corrente delle righe di quel gruppo, indipendentemente dal fatto che tutte le righe siano selezionate, non sia selezionata alcuna riga o solo alcune righe siano selezionate.
 
 ### <a name="hiding-column-names"></a>Nascondere i nomi delle colonne
-Quando si raggruppano i dati, il comportamento predefinito è mostrare il nome della colonna nella riga dell'intestazione del gruppo. A partire dalla versione 10.0.14/aggiornamento della piattaforma 38, è possibile scegliere di nascondere il nome della colonna nelle righe di intestazione del gruppo selezionando **Opzioni griglia** > **Nascondi nome della colonna del gruppo**.
+Quando si raggruppano i dati, il comportamento predefinito è mostrare il nome della colonna nella riga dell'intestazione del gruppo. Puoi scegliere di nascondere il nome della colonna nelle righe di intestazione del gruppo selezionando **Opzioni griglia** > **Nascondi nome della colonna del gruppo**.
 
 ## <a name="freezing-columns"></a>Blocco delle colonne
-Alcune colonne in una griglia potrebbero essere abbastanza importanti per il contesto da non desiderare che scorrano fuori dalla visualizzazione. Invece, è consigliabile fare in modo che i valori in tali colonne siano sempre visibili. Nella versione 10.0.17, la funzionalità **Blocca colonne nella griglia** fornisce questa flessibilità agli utenti. 
+Alcune colonne in una griglia potrebbero essere abbastanza importanti per il contesto da non desiderare che scorrano fuori dalla visualizzazione. Invece, è consigliabile fare in modo che i valori in tali colonne siano sempre visibili. La funzionalità **Blocca colonne nella griglia** fornisce questa flessibilità agli utenti. 
 
 Per bloccare una colonna, fare clic con il pulsante destro del mouse nell'intestazione della colonna, quindi selezionare **Blocca colonna**. La prima volta che si completa questo passaggio, la colonna selezionata diventa la prima colonna e non scorrerà più fuori dalla visualizzazione. Qualsiasi colonna successiva che blocchi verrà aggiunta a destra dell'ultima colonna bloccata. È possibile utilizzare la funzionalità di spostamento standard per riordinare le colonne bloccate in base alle proprie esigenze. Tuttavia, le colonne bloccate non possono essere spostate in modo che vengano visualizzate nel set di colonne non congelate. Allo stesso modo, le colonne non bloccate non possono essere spostate in modo che vengano visualizzate nel set di colonne bloccate.
 
@@ -132,32 +129,16 @@ Notare che la selezione della riga e le colonne dello stato della riga nella nuo
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Come si abilita il nuovo controllo della griglia nell'ambiente? 
 
-**10.0.9 / Platform update 33 e successive**
+La funzionalità **Nuovo controllo griglia** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Dopo aver abilitato la funzionalità in Gestione funzionalità, tutte le sessioni utente successive utilizzeranno il nuovo controllo della griglia. 
 
-La funzionalità **Nuovo controllo griglia** è disponibile direttamente in Gestione funzionalità in qualsiasi ambiente. Come altre funzionalità di anteprima pubblica, l'abilitazione di questa funzionalità in produzione è soggetta alle [condizioni d'uso supplementari](public-preview-terms.md).  
-
-**10.0.8 / Platform update 32 e 10.0.7 / Platform update 31**
-
-La funzionalità **Nuovo controllo griglia** può essere abilitata in ambienti di Livello 1 (Sviluppo/Test) e Livello 2 (Sandbox) al fine di fornire ulteriori test e modifiche di progettazione seguendo i passaggi seguenti.
-
-1.  **Abilitare l'anteprima**: Eseguire la seguente istruzione SQL: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **Reimpostare IIS** per liberare la cache statica delle versioni di anteprima. 
-
-3.  **Individuare la funzionalità**: spostarsi nell'area di lavoro **Gestione funzionalità**. Se **Nuovo controllo griglia** non appare nell'elenco delle funzioni, selezionare **Controlla aggiornamenti**.   
-
-4.  **Abilitare la funzionalità**: Individuare la funzionalità **Nuovo controllo griglia** nell'elenco delle funzionalità e selezionare **Abilita ora** nel riquadro dei dettagli. Si noti che è richiesto un aggiornamento del browser. 
-
-Tutte le sessioni utente successive verranno avviate con il nuovo controllo griglia abilitato.
+Questa funzionalità è abilitata per impostazione predefinita a partire dalla versione 10.0.21 ed è destinata a diventare obbligatoria con la versione 10.0.25. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Sviluppatore] Rifiuto di singole pagine dall'uso della nuova griglia 
-Se l'organizzazione rileva una pagina che presenta alcuni problemi durante l'utilizzo della nuova griglia, è disponibile un'API a partire dalla versione 10.0.13/Platform update 37 per consentire a un singolo modulo di utilizzare il controllo della griglia legacy, consentendo comunque al resto del sistema di utilizzare il nuovo controllo della griglia. Per rifiutare esplicitamente una singola pagina della nuova griglia, aggiungere il seguente post di chiamata `super()` nel metodo `run()` del modulo.
+Se l'organizzazione rileva una pagina che presenta alcuni problemi durante l'utilizzo della nuova griglia, è disponibile un'API per consentire a un singolo modulo di utilizzare il controllo della griglia legacy, consentendo comunque al resto del sistema di utilizzare il nuovo controllo della griglia. Per rifiutare esplicitamente una singola pagina della nuova griglia, aggiungere il seguente post di chiamata `super()` nel metodo `run()` del modulo.
 
  ```this.forceLegacyGrid();```
 
-Questa API verrà rispettata fino alla versione di ottobre 2021 quando il nuovo controllo della griglia diventa obbligatorio. Se qualsiasi problema richiede l'utilizzo di questa API, segnalalo a Microsoft.
+Questa API sarà onorata fino a quando il nuovo controllo della griglia non diventerà obbligatorio, che è attualmente previsto per aprile 2022. Se qualsiasi problema richiede l'utilizzo di questa API, segnalalo a Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forzare una pagina a utilizzare la nuova griglia dopo aver precedentemente disattivato la griglia
 Se hai disattivato l'utilizzo della nuova griglia per una singola pagina, potresti voler riattivare in seguito la nuova griglia dopo che i problemi sottostanti sono stati risolti. Per fare ciò, devi semplicemente rimuovere la chiamata a `forceLegacyGrid()`. La modifica non avrà effetto fino a quando non si verifica una delle seguenti condizioni:

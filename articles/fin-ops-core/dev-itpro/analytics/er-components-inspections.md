@@ -2,7 +2,7 @@
 title: Ispezionare il componente ER configurato per evitare problemi di runtime
 description: Questo argomento spiega come ispezionare i componenti di creazione di report elettronici (ER) configurati per prevenire problemi di runtime che potrebbero verificarsi.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718625"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488116"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Ispezionare il componente ER configurato per evitare problemi di runtime
 
@@ -229,6 +229,12 @@ Nella seguente tabella viene fornita una panoramica delle ispezioni che ER offre
 <p>Le intestazioni/piè di pagina (&lt;tipo di componente: intestazione o piè di pagina&gt;) sono incoerenti</p>
 <p><b>Runtime:</b> l'ultimo componente configurato viene utilizzato in fase di runtime se viene eseguita la versione bozza del formato ER configurato.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Impostazione incoerente del componente Pagina</a></td>
+<td>Integrità dei dati</td>
+<td>Errore</td>
+<td>Sono presenti più di due componenti intervallo senza replica. Rimuovere i componenti non necessari.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Modificare il formato configurato eliminando uno dei componenti **Excel\\Intesta
 #### <a name="option-2"></a>Opzione 2
 
 Modifica il valore della proprietà **Aspetto intestazione/piè di pagina** per uno dei componenti **Excel\\Intestazione** o **Excel\\Piè di pagina** incoerenti.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Impostazione incoerente del componente Pagina
+
+Quando [configuri](er-fillable-excel.md) un componente di formato ER per utilizzare un modello di Excel per generare un documento in uscita, puoi aggiungere il componente **Excel\\Pagina** per impaginare un documento generato utilizzando le formule ER. Per ogni componente **Excel\\Pagina** che aggiungi, puoi aggiungere molti componenti nidificati [Intervallo](er-fillable-excel.md#range-component) e rimangono comunque conformi alla [struttura](er-fillable-excel.md#page-component-structure) seguente:
+
+- Il primo componente nidificato **Intervallo** può essere configurato in modo che la proprietà **Direzione replica** è impostata su **Nessuna replica**. Questo intervallo viene utilizzato per creare intestazioni di pagina nei documenti generati.
+- Puoi aggiungere molti altri componenti nidificati **Intervallo** in cui la proprietà **Direzione replica** è impostata su **Verticale**. Questi intervalli vengono utilizzati per compilare i documenti generati.
+- L'ultimo componente nidificato **Intervallo** può essere configurato in modo che la proprietà **Direzione replica** è impostata su **Nessuna replica**. Questo intervallo viene utilizzato per creare piè di pagina nei documenti generati e per aggiungere le interruzioni di pagina richieste.
+
+Se non segui questa struttura per un formato ER in Progettazione formato ER in fase di progettazione, si verifica un errore di convalida e viene visualizzato il seguente messaggio di errore: "Sono presenti più di due componenti intervallo senza replica. Rimuovere i componenti non necessari."
+
+### <a name="automatic-resolution"></a>Risoluzione automatica
+
+Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
+
+### <a name="manual-resolution"></a>Risoluzione manuale
+
+#### <a name="option-1"></a>Opzione 1
+
+Modifica il formato configurato cambiando la proprietà **Direzione replica** per tutti i componenti incoerenti **Excel\\Intervallo**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417084"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486948"
 ---
 # <a name="swedish-intrastat"></a>Intrastat svedese
 
@@ -48,7 +48,7 @@ Per ulteriori informazioni, vedere [Scaricare configurazioni ER dall'archivio gl
 3. Nel campo **Mapping di formato report** seleziona **Report Intrastat**.
 4. Nella scheda dettaglio **Gerarchia di codici di voce doganale**, nel campo **Gerarchia di categorie** seleziona **Intrastat**.
 5. Nel campo **Codice transazione**, seleziona il codice transazione per i trasferimenti di proprietà. Utilizzi questo codice per le transazioni che producono trasferimenti effettivi o pianificati di proprietà dietro compensazione (finanziaria o di altro tipo). Lo usi anche per le correzioni. Le aziende in Svezia utilizzano codici di transazione a una cifra.
-6. Nel campo **Nota di accredito**, seleziona il codice transazione per il reso della merce. Utilizzi questo codice per la restituzione della merce dopo che la transazione è stata registrata sotto il codice della transazione. Le aziende in Svezia utilizzano codici di transazione a una cifra.
+6. Nel campo **Nota di accredito**, seleziona il codice transazione per il reso della merce.
 7. Nella scheda **Proprietà paese/area geografica**, nel campo **Paese/area geografica**, elenca tutti i paesi o le aree geografiche con cui la tua società ha relazioni commerciali. Per ogni paese che fa parte della UE, nel campo **Tipo di paese/area geografica**, seleziona **UE**, in modo che il paese appaia nel report Intrastat.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>Impostare i parametri di prodotto per la dichiarazione Intrastat

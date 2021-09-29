@@ -1,27 +1,39 @@
 ---
 title: Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 description: Questo argomento elenca le funzionalità nuove e modificate per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386101"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485624"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20100"></a>Versione 2.0.10.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Aggiunta animazione durante lo scorrimento di elenchi e pagine.
+- Il testo ora va a capo correttamente nella pagina di errore di connessione.
+- Le caselle combinate senza valori predefiniti ora vengono visualizzate correttamente.
+- Le informazioni nell'area del sottotitolo ora vengono mostrate solo nella pagina dei dettagli completi.
+- I campi di input vuoti non vengono più visualizzati nella scheda dei dettagli.
+- I valori di conferma non vengono più duplicati nella scheda dei dettagli.
+- Sono stati risolti vari problemi che causavano il blocco del sistema.
 
 ## <a name="version-2090"></a>Versione 2.0.9.0
 

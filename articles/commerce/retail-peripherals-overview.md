@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715336"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500305"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -562,7 +562,7 @@ Questa configurazione può essere utilizzata per tutti i client Modern POS che c
 > Se i dispositivi usano spesso diverse stazioni hardware, si consiglia di configurare Modern POS per chiedere ai cassieri di selezionare una stazione hardware quando avviano il processo di incasso. Fare clic su **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**. Selezionare il registratore di cassa quindi impostare l'opzione **Seleziona al momento del pagamento** su **Sì**. Utilizzare la programmazione di distribuzione **1090** per sincronizzare le modifiche nel database del canale.
 
 ## <a name="extensibility"></a>Estendibilità
-Per informazioni sugli scenari di estendibilità per la stazione hardware, vedere [Estendibilità delle stazioni hardware](dev-itpro/hardware-station-extensibility.md).
+Per informazioni sugli scenari di estensibilità per la stazione hardware, vedi [Integrare il POS con un nuovo dispositivo hardware e generare il programma di installazione dell'estensione](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Sicurezza
 A seconda degli standard di sicurezza correnti, le seguenti impostazioni devono essere utilizzate in un ambiente di produzione: 

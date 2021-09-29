@@ -2,7 +2,7 @@
 title: Programmazione con capacità infinita
 description: Questo argomento fornisce informazioni sulla programmazione della capacità infinita per l'ottimizzazione della pianificazione. Descrive inoltre le attuali limitazioni delle funzionalità.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471670"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506809"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Programmazione con capacità infinita
 
@@ -27,7 +27,12 @@ La funzionalità *Programmazione capacità infinita per l'ottimizzazione della p
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Attivare la funzionalità Programmazione capacità infinita
 
-Se il sistema in uso non include già la funzionalità descritta in questo argomento, aprire l'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Programmazione capacità infinita per l'ottimizzazione della pianificazione*.
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Pianificazione generale*
+- **Nome della funzionalità:** *Programmazione capacità infinita per Ottimizzazione pianificazione*
+
+Per ulteriori informazioni su questa funzione, vedi [Pianificazione con selezione delle risorse in base alla capacità](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a>Funzionalità aggiunta
 
@@ -42,7 +47,7 @@ Durante il processo di programmazione, il sistema considera anche i *requisiti d
 - Tipo di risorsa
 - Risorsa
 - Gruppo di risorse
-- Capacità
+- Capacità. Per ulteriori informazioni su questa funzione, vedi [Pianificazione con selezione delle risorse in base alla capacità](capability-based-scheduling.md).
 
 > [!NOTE]
 > I requisiti relativi alle risorse umane, ad esempio competenze o requisiti dei certificati, non sono ancora supportati.
@@ -55,7 +60,6 @@ In sintesi, la programmazione per l'ottimizzazione della pianificazione supporta
 
 Le seguenti limitazioni si applicano quando si utilizza la programmazione per l'ottimizzazione della pianificazione:
 
-- La funzionalità supporta solo la programmazione del lavoro. Le impostazioni relative alla programmazione delle operazioni non vengono considerate durante la programmazione, indipendentemente dal metodo di programmazione nei piani principali.
 - La funzionalità supporta solo la capacità infinita.
 - La funzionalità non supporta la funzionalità del carico di risorse.
 - La funzionalità non considera lo scarto del ciclo di lavorazione.

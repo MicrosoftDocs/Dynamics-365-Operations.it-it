@@ -1,8 +1,8 @@
 ---
 title: Supporto della funzione fiscale per ordini di trasferimento
 description: In questo argomento viene illustrato il nuovo supporto della funzione fiscale per gli ordini di trasferimento utilizzando il servizio di calcolo delle imposte.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c47c327841b8c712220e440e2aa6b4fe2b31b4a1ccd03dc0a200dbeb7394071
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721691"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500078"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Supporto della funzione fiscale per ordini di trasferimento
 
@@ -53,7 +53,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         4. Nella tabella **Tasso** seleziona **Aggiungi**.
         5. Imposta **Esente** su **Sì** nella sezione **Generale**.
 
-        ![Codice imposta NL-Exempt.](../media/tax-feature-support-02.png)
+           ![Codice imposta NL-Exempt.](../media/tax-feature-support-02.png)
 
     - Quando un ordine di trasferimento viene ricevuto in un magazzino in Belgio, il meccanismo di reverse charge viene applicato utilizzando i codici imposta **BE-RC-21** e **BE-RC+21**.
         
@@ -66,7 +66,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         6. Imposta **Reverse Charge** su **Sì** nella sezione **Generale**.
         7. Selezionare **Salva**.
 
-        ![Codice imposta BE-RC-21 per reverse charge.](../media/tax-feature-support-03.png)
+           ![Codice imposta BE-RC-21 per reverse charge.](../media/tax-feature-support-03.png)
         
         Crea il codice imposta **BE-RC+21**.
         1. Seleziona **Aggiungi**, immetti **BE-RC-21** nel campo **Codice imposta**.
@@ -76,7 +76,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         5. Immetti **21** nel campo **Aliquota imposta**.
         6. Selezionare **Salva**.
 
-        ![Codice imposta BE-RC-21 per reverse charge.](../media/tax-feature-support-04.png)
+           ![Codice imposta BE-RC-21 per reverse charge.](../media/tax-feature-support-04.png)
 
 3. Definisci l'applicabilità dei codici imposta.
 
@@ -97,6 +97,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         7. Nel campo **Gruppo di imposte** e **Gruppo di imposte articolo**, immetti la fascia IVA correlata e la fascia IVA articolo definite nel sistema Finance.
         
         Aggiungi un'altra regola per la ricezione dell'ordine di trasferimento.
+        
         1. Nella tabella **Regole di applicabilità** seleziona **Aggiungi**.
         2. Nel campo **Processo aziendale** seleziona **Inventario** per rendere la regola applicabile a un ordine di trasferimento.
         3. Nel campo **Spedisci da Paese/Regione** inserisci **NLD**.
@@ -105,7 +106,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         6. Nel campo **Codici imposta** seleziona **BE-RC+21** e **BE-RC-21**.
         7. Nel campo **Gruppo di imposte** e **Gruppo di imposte articolo**, immetti la fascia IVA correlata e la fascia IVA articolo definite nel sistema Finance.
 
-        ![Regole di applicabilità.](../media/image5.png)
+           ![Regole di applicabilità.](../media/image5.png)
 
 4. Completa e pubblica la nuova versione della funzione fiscale.
 
@@ -115,7 +116,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
 
 Per impostare le imposte per gli ordini di trasferimento, effettua i passaggi descritti di seguito.
 
-1. In Finance, via a **Aree di lavoro** \> **Gestione funzionalità**.
+1. In Finance, vai a **Aree di lavoro** > **Gestione funzionalità**.
 2. Nell'elenco, trova e seleziona la funzionalità **Imposta in ordine di trasferimento**, quindi seleziona **Abilita ora** per attivarla.
 
     > [!IMPORTANT]
@@ -128,10 +129,10 @@ Per impostare le imposte per gli ordini di trasferimento, effettua i passaggi de
     > [!IMPORTANT]
     > È necessario completare questo passaggio per ogni persona giuridica in Finance in cui si desidera rendere disponibili il servizio fiscale e la funzionalità per le imposte negli ordini di trasferimento.
 
-    1. Vai a **Imposte** \> **Impostazioni** \> **Configurazione fiscale** \> **Configurazione del servizio fiscale**.
+    1. Vai a **Imposte** > **Impostazioni** > **Configurazione fiscale** > **Configurazione del servizio fiscale**.
     2. Nel campo **Processo aziendale** seleziona **Inventario**.
 
-    ![Impostazione del campo Processo aziendale.](../media/image8.png)
+      ![Impostazione del campo Processo aziendale.](../media/image8.png)
 
 4. Verificare che il meccanismo di reverse charge sia impostato. Vai a **Contabilità generale** \> **Impostazioni** \> **Parametri** e poi nella scheda **Reverse charge** verifica che l'opzione **Abilita reverse charge** sia impostata su **Sì**.
 
@@ -140,10 +141,10 @@ Per impostare le imposte per gli ordini di trasferimento, effettua i passaggi de
 5. Verifica che i codici imposta, i gruppi di imposte, i gruppi di imposte articoli e i numeri di registrazione IVA correlati siano stati impostati in Finance in base alle indicazioni del servizio fiscale.
 6. Crea un conto di transito provvisorio. Questo passaggio è necessario solo quando l'imposta applicata a un ordine di trasferimento non è applicabile a un meccanismo di esenzione fiscale o di reverse charge.
 
-    1. Vai a **Imposta** \> **Impostazioni** \> **IVA** \> **Gruppi registrazione contabile**.
+    1. Vai a **Imposta** > **Impostazioni** > **IVA** \ **Gruppi registrazione contabile**.
     2. Nel campo **Transito provvisorio** seleziona un conto CoGe.
 
-    ![Selezione di un conto di transito provvisorio.](../media/image10.png)
+       ![Selezione di un conto di transito provvisorio.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Impostare l'inventario di base per le transazioni di ordini di trasferimento
 
@@ -151,7 +152,7 @@ Segui questi passaggi per impostare l'inventario di base per abilitare le transa
 
 1. Crea siti di partenza e destinazione della spedizione per i tuoi magazzini in diversi paesi o regioni e aggiungi l'indirizzo principale per ogni sito.
 
-    1. Vai a **Gestione magazzino** \> **Impostazione** \> **Magazzino** \> **Siti**.
+    1. Vai a **Gestione magazzino** > **Impostazione** > **Magazzino** > **Siti**.
     2. Seleziona **Nuovo** per creare il sito che in seguito assegnerai a un magazzino.
     3. Ripeti il passaggio 2 per tutti gli altri siti che è necessario creare.
 
@@ -162,11 +163,11 @@ Segui questi passaggi per impostare l'inventario di base per abilitare le transa
 
 2. Crea magazzini di partenza, transito e consegna. Qualsiasi informazione sull'indirizzo conservata in un magazzino sovrascriverà l'indirizzo del sito durante il calcolo delle imposte.
 
-    1. Vai a **Gestione magazzino** \> **Impostazioni** \> **Magazzino** \> **Magazzini**.
+    1. Vai a **Gestione magazzino** > **Impostazioni** > **Magazzino** > **Magazzini**.
     2. Seleziona **Nuovo** per creare il magazzino e assegnarlo al sito corrispondente.
     3. Ripeti il passaggio 2 per creare un magazzino per ogni sito come richiesto.
 
-    ![Impostazione dei magazzini.](../media/image12.png)
+       ![Impostazione dei magazzini.](../media/image12.png)
 
     > [!NOTE]
     > Per un magazzino di partenza, è necessario selezionare un magazzino di transito nel campo **Magazzino di transito** per le transazioni dell'ordine di trasferimento.
@@ -175,7 +176,7 @@ Segui questi passaggi per impostare l'inventario di base per abilitare le transa
 
 3. Verifica che la configurazione di registrazione inventario sia configurata per le transazioni degli ordini di trasferimento.
 
-    1. Andare a **Gestione scorte**\>**Impostazioni**\>**Registrazione**\>**Registrazione**.
+    1. Vai a **Gestione scorte** > **Impostazioni** > **Registrazione** > **Registrazione**.
     2. Nella scheda **Inventario** verifica che sia impostato un conto contabile per le registrazioni **Uscita inventario** e **Entrata inventario**.
 
         ![Impostazione dell'uscita di scorte e della registrazione delle entrate scorte.](../media/image14.png)
@@ -187,3 +188,6 @@ Segui questi passaggi per impostare l'inventario di base per abilitare le transa
     4. Verifica che sia impostato un conto contabile per la registrazione **Contabilità clienti tra unità**.
 
         ![Impostazione della registrazione contabilità clienti tra unità.](../media/image16.png)
+        
+        
+  [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

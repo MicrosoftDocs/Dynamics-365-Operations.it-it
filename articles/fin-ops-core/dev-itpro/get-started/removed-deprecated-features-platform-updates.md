@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463627"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500111"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -38,7 +38,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo della deprecazione/rimozione** | Stiamo deprecando alcuni report SQL in LCS. Non sarà più necessario monitorare i report poiché questa funzionalità è stata sostituita da altri servizi. |
+| **Motivo della deprecazione/rimozione** |   Tutte le attività e il monitoraggio saranno eseguiti internamente, dalla piattaforma, attraverso l'automazione. Ciò non richiederà alcun intervento manuale.|
 | **Sostituita da un'altra funzionalità?**   | Nessuno |
 | **Aree del prodotto interessate**         | Report SQL: DTU corrente, dettagli DTU correnti, ottenere dettagli blocco, elenco della guida del piano corrente, ottenere elenco di ID query, ottenere il piano di query SQL per un determinato ID piano, ottenere piani di query e stato di esecuzione, ottenere configurazione della limitazione, ottenere statistiche attesa, Elenca le query più costose |
 | **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
@@ -181,7 +181,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Sostituita da un'altra funzionalità?**   | Il [nuovo controllo della griglia](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Aree del prodotto interessate**         | Client Web |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Nella versione 10.0.13, il nuovo controllo della griglia è generalmente disponibile e i clienti possono facoltativamente attivare questa funzione. Il nuovo controllo della griglia diventerà obbligatorio nella versione di ottobre 2021. Quando il nuovo controllo della griglia diventa obbligatorio, l'API **forceLegacyGrid()** non sarà più rispettata. |
+| **Stato**                         | Nella versione 10.0.13, il nuovo controllo della griglia è generalmente disponibile e i clienti possono facoltativamente attivare questa funzione. Il nuovo controllo della griglia verrà attivato per impostazione predefinita con la versione di ottobre 2021 ed è attualmente destinato a diventare obbligatorio nell'aprile 2022. Quando il nuovo controllo della griglia diventa obbligatorio, l'API **forceLegacyGrid()** non sarà più rispettata. |
 
 ### <a name="personalization-without-saved-views"></a>Personalizzazione senza visualizzazioni salvate 
 

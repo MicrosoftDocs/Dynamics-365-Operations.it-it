@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471718"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500429"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -157,6 +157,7 @@ La seguente funzionalità di gestione del magazzino non è attualmente supportat
 
 - Elaborazione in ingresso di righe ordine fornitore assegnate a un carico.
 - Elaborazione in entrata di ordini fornitore per un progetto.
+- Gestione dei costi sbarcati, utilizzo dei percorsi e monitoraggio delle merci in transito.
 - Elaborazione in entrata e in uscita per gli articoli che hanno dimensioni di tracciabilità attive **Proprietario** e/o **Numero di serie**.
 - Elaborazione dell'inventario con un valore di stato di blocco.
 - Modifica di uno stato di inventario durante qualsiasi processo di movimento del lavoro.
@@ -187,7 +188,8 @@ La tabella seguente mostra quali funzionalità in uscita sono supportate e dove 
 |--------------------------------------------------------------|-----|------------------------------|
 | Elaborazione documenti di origine                                   | Sì | Nessuno |
 | Elaborazione del carico e della gestione trasporto                | Sì, ma solo i processi di pianificazione del carico. L'elaborazione della gestione dei trasporti non è supportata  | Nessuno |
-| Rilascia in magazzino                                         | Sì | Nessuno |
+| Costo sbarcato e ricezione delle merci in transito                                         | Sì | Nessuno |
+| Rilascio in magazzino                                         | Sì | Nessuno |
 | Cross-docking pianificato                                        | Nessuno  | Nessuno |
 | Consolidamento spedizioni                                       | Sì, quando si utilizza la pianificazione del carico | Sì |
 | Elaborazione ciclo di spedizione                                     | Nessuno  |Sì, tranne **Allestimento del carico e ordinamento** |

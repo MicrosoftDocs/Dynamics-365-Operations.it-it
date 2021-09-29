@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729412"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500477"
 ---
 # <a name="process-review-and-post-rebates"></a>Elaborare, rivedere e registrare gli sconti
 
@@ -43,8 +43,6 @@ L'attività periodica **Calcola il prezzo di acquisto FIFO** deve essere eseguit
 Vai a **Gestione degli sconti \> Attività periodiche \> Calcola il prezzo di acquisto FIFO**. Nella finestra di dialogo che appare, seleziona **OK** per eseguire il calcolo.
 
 ## <a name="create-source-transactions"></a>Creare transazioni di origine
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 È possibile creare gli ordini cliente o gli ordini fornitore con transazioni di origine prima o dopo aver creato un contratto di gestione sconti applicabile.
 
@@ -158,8 +156,6 @@ Invece di elaborare transazioni o righe di transazioni specifiche, è possibile 
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Elaborare le transazioni utilizzando il workbench sconti
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Invece di elaborare transazioni o righe di transazioni specifiche, puoi usare il *workbench sconti* per elaborare più transazioni contemporaneamente. Facoltativamente, puoi applicare filtri ai record e/o impostare una pianificazione ricorrente. Non è necessario selezionare alcuna riga. Il sistema elaborerà tutte le righe che soddisfano i requisiti di data e filtro impostati.
 
 Per elaborare le transazioni usando il workbench sconti, segui questi passaggi.
@@ -213,8 +209,6 @@ Per visualizzare e modificare le transazioni di gestione sconti utilizzando la p
 > Se stai usando un processo di richiesta, quando elabori il periodo successivo, l'elenco delle transazioni includerà tutte le transazioni non richieste dalla registrazione precedente, più eventuali nuove transazioni per il periodo selezionato.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Visualizzare e modificare le transazioni di gestione sconti utilizzando il workbench sconti
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Per visualizzare e modificare le transazioni di gestione sconti utilizzando il workbench sconti, segui questi passaggi.
 
@@ -295,8 +289,6 @@ Invece di registrare le transazioni per transazioni o righe di transazioni speci
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Registrare le transazioni utilizzando il workbench sconti
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Dopo aver elaborato le transazioni di accantonamento, sconto o annullamento, segui questi passaggi per utilizzare il workbench sconti per rivedere e registrare le transazioni generate per una o più righe di transazione specifiche per tutte le transazioni.
 
 1. Vai a **Gestione degli sconti \> Transazioni di gestione degli sconti \> Workbench sconti**.
@@ -332,8 +324,6 @@ Per esaminare le voci del giornale di registrazione associate a una transazione 
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Esaminare i giornali di registrazione utilizzando il workbench sconti
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Per esaminare i giornali di registrazione usando il workbench sconti, segui questi passaggi.
 
 1. Vai a **Gestione degli sconti \> Transazioni di gestione degli sconti \> Workbench sconti**.
@@ -342,8 +332,6 @@ Per esaminare i giornali di registrazione usando il workbench sconti, segui ques
 1. Viene visualizzato un elenco di giornali di registrazione, documenti o articoli pertinenti. Per visualizzare ulteriori informazioni su qualsiasi giornale di registrazione, documento o articolo, seleziona la riga e quindi, nel riquadro azioni, seleziona **Visualizza dettagli**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Transazioni di gestione sconti nel workbench detrazioni
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Quando registri una transazione di gestione sconti che presenta uno dei seguenti valori di **Tipo di pagamento**, il sistema crea un giornale di registrazione detrazioni cliente o una fattura a testo libero per il conto cliente pertinente:
 
@@ -358,8 +346,6 @@ Per ulteriori informazioni, vedi [Gestire le detrazioni utilizzando il workbench
 
 ## <a name="purge-unposted-transactions"></a>Eliminare le transazioni non registrate
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Dopo aver elaborato le transazioni di accantonamento, sconto o annullamento, segui questi passaggi per eliminare le transazioni non registrate selezionate.
 
 1. Vai a **Gestione degli sconti \> Transazioni di gestione degli sconti \> Workbench sconti**.
@@ -368,8 +354,6 @@ Dopo aver elaborato le transazioni di accantonamento, sconto o annullamento, seg
 4. Seleziona **OK** per eliminare le transazioni non registrate.
 
 ## <a name="cancel-a-posted-provision"></a>Annullare un accantonamento registrato
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Dopo aver elaborato e registrato un accantonamento, segui questi passaggi per annullare le transazioni di accantonamento registrate.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474894"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506857"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.19 (giugno 2021)
 
@@ -40,9 +40,8 @@ La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione
 | Inventario e logistica | [Miglioramenti incrementali per le funzionalità di esecuzione del magazzino con unità di scala](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Messaggi dell'elaboratore messaggi](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Rettifica scorte magazzino](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Inventario e logistica | [Funzionalità di ricerca per i campi Introduzioni documento e Testo di chiusura documento nella pagina Offerta di vendita](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Questa funzionalità aggiunge la funzionalità di ricerca per i campi **Introduzioni documento** e **Testo di chiusura documento** nella pagina **Offerta di vendita**.<br><br>Questo funzionalità è abilitata per impostazione predefinita. |
 | Inventario e logistica | [Esecuzione di magazzino con unità di scala nella rete perimetrale sul tuo hardware personalizzato](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Distribuzione di unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Produzione | [Esecuzione di produzione con unità di scala nella rete perimetrale sul tuo hardware personalizzato](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Distribuire unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Pianificazione | [Programmazione capacità infinita per Ottimizzazione pianificazione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Programmazione con capacità infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) |
-| Pianificazione | Stabilizzazione di ordini pianificati basata su query | [Stabilizzare ordini pianificati](../master-planning/planning-optimization/planned-order-firming.md) |
+| Produzione | [Esecuzione di produzione con unità di scala nella rete perimetrale sul tuo hardware personalizzato](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Distribuzione di unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Pianificazione | Stabilizzazione di ordini pianificati basata su query | [Stabilizza ordini pianificati](../master-planning/planning-optimization/planned-order-firming.md) |
 | Gestione informazioni sul prodotto | [Miglioramenti della pagina Suggerimenti variante](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Creare varianti prodotto predefinite](../pim/tasks/create-predefined-product-variants.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Miglioramento delle funzionalità inclusi in questa versione

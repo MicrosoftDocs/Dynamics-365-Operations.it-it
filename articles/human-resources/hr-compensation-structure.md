@@ -1,8 +1,8 @@
 ---
 title: Sviluppare una struttura di retribuzione
-description: In questo articolo viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità.
-author: andreabichsel
-ms.date: 02/10/2020
+description: In questo argomento viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec30d6259b755bf7c304e8796b32d373027ce7ff
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732371"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483954"
 ---
 # <a name="develop-a-compensation-structure"></a>Sviluppare una struttura di retribuzione
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo articolo viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità. Questo articolo utilizza i dati dimostrativi USMF e si applica ai responsabili retribuzione e benefit.
+In questo argomento viene descritto come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità. Questo argomento utilizza i dati dimostrativi USMF e si applica ai responsabili retribuzione e benefit.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Creare un piano di retribuzione fissa
 
@@ -42,7 +42,7 @@ In questo articolo viene illustrato come creare un piano di retribuzione fissa e
 
 7. Nel campo **Tipo**, selezionare se il piano di retribuzione fissa è un piano di tipo **Fascia**, **Scala** o **Fase**.
 
-8. La casella di controllo **Suggerimento consentito** funge da valore predefinito per tutte le azioni aggiunte al piano in un evento di processo. L'autorizzazione di consigli consente di ignorare l'importo di riferimento calcolato quando si elabora la retribuzione.
+8. La casella di controllo **Suggerimento consentito** è il valore predefinito per tutte le azioni aggiunte al piano in un evento di processo. L'autorizzazione di consigli consente di ignorare l'importo di riferimento calcolato quando si elabora la retribuzione.
 
 9. Il campo **Tolleranza non compresa nell'intervallo** consente di specificare la modalità di gestione degli importi di retribuzione che non rientrano nell'intervallo specificato nella struttura retributiva per il livello specificato. L'impostazione del campo **Tolleranza non compresa nell'intervallo** su **Nessuno** consente di utilizzare qualsiasi importo di retribuzione. Una **tolleranza flessibile** consentirà di avvisare l'utente se l'importo di retribuzione è inferiore all'importo del punto di riferimento minimo per il livello o superiore all'importo massimo per tale livello. Gli utenti possono ignorare l'avviso e continuare. Nella **tolleranza rigida** viene generato un errore se la retribuzione di un dipendente viene stabilita all'esterno dei punti di riferimento minimo e massimo per il livello e la retribuzione del dipendente verrà automaticamente modificata perché rientri nell'intervallo.
 

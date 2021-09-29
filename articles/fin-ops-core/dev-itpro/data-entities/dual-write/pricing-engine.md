@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
-ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
+ms.openlocfilehash: 4467d313aa2518b23434ec05989eb3e87cd35dfa
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7481317"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485736"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sincronizzare su richiesta con il motore di determinazione del prezzo di Supply Chain Management
 
@@ -60,6 +60,7 @@ Quando le colonne in Sales sono compilate, si applicano le seguenti limitazioni:
 + L'impostazione degli addebiti e delle allocazioni degli addebiti in Supply Chain Management non viene replicata in Sales.
 + Il prezzo non considera i prezzi al dettaglio speciali specificati nella colonna **Canale al dettaglio** della pagina della riga ordine cliente in Supply Chain Management.
 + Gli sconti definiti nella sezione **Gestione indennità commerciali** di Supply Chain Management non sono considerati.
++ Il prezzo non tiene conto dei contratti di vendita.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
