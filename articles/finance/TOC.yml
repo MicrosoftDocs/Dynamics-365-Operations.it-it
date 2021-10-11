@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Gestione contratti royalty
               href: accounts-payable/royalty-contract.md
+            - name: Riferimenti a fatture originali nelle note di credito (fatture fornitore)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Pagamenti e liquidazioni
               items:
                 - name: Pagamenti centralizzati per la contabilità fornitori
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Panoramica degli snapshot
                   href: finance-insights/payment-snapshots.md
+            - name: Domande frequenti sulla risoluzione dei problemi relativi a Finance Insights
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Gestione progetti e contabilità
           items:
             - name: Panoramica gestione progetti e contabilità
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Creazione di report per più partite IVA
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Dichiarazione dell'Austria
+                          items:
+                            - name: Dichiarazione IVA
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Dichiarazione della Francia
                           items:
                             - name: Dichiarazione IVA
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Report sui servizi transfrontalieri
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Report Intrastat
+                - name: Intrastat austriaca
                   href: localizations/emea-aut-intrastat.md
                 - name: Responsabilità acquisti
                   href: localizations/emea-aut-purchase-duties.md
+                - name: Dichiarazione IVA
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahrein
               items:
                 - name: Panoramica Bahrein
@@ -2676,9 +2686,7 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Report dichiarazione IVA trimestrale
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Report black list
-                  href: localizations/emea-ita-black-list-report.md
-                - name: Data competenza e giornale fiscale
+                - name: Data competenza e giornale di registrazione fiscale
                   href: localizations/emea-ita-competence-date.md
                 - name: Ammortamento dei cespiti
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
@@ -3801,6 +3809,8 @@
           items:
             - name: Panoramica della creazione di report elettronici
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Componenti per la creazione di report elettronici
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Configurazioni
               items:
                 - name: Creare configurazioni
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Configurare la rubrica globale
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Impostazione indirizzo
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Domande frequenti sulle rubriche
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Configurare le rubriche

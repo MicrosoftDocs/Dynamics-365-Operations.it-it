@@ -5,6 +5,8 @@
       items:
         - name: Novità o modifiche in Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 settembre 2021
+          href: hr-whats-new-2021-09-20.md
         - name: 06 settembre 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23 agosto 2021
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Reimpostare i processi batch bloccati
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Reimpostare la sincronizzazione di Dataverse
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: I report analitici non sono aggiornati
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Impossibile creare un ambiente nell'interfaccia di amministrazione di Power Apps
@@ -481,10 +485,16 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: Richiesta di congedo
                   href: hr-admin-integration-payroll-api-leave-request.md
-            - name: Entità correlate ai vantaggi
+            - name: Entità correlate ai benefit
               items:
                 - name: Piano di benefit lavoratore per retribuzioni
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Altre entità
+              items:
+                - name: Storico nome della persona
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Tasso di conversione
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Set di opzioni
               items:
                 - name: Genere
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurare la rubrica globale
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Impostazione indirizzo
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: Domande frequenti sulle rubriche
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurare le rubriche
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: Reporting pari opportunità
                   href: hr-benefits-management-aca-reports.md
+                - name: Rendiconto benefit
+                  href: hr-benefits-statement.md
             - name: Definire e gestire un programma di benefit
               href: hr-benefits-manage-program.md
             - name: Criteri di idoneità benefit

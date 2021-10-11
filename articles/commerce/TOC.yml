@@ -1398,12 +1398,16 @@
               items:
                 - name: Localizzazione di Commerce per la Russia
                   href: localizations/rus-commerce-localization.md
-                - name: Formato dell'indirizzo del cliente semplificato in POS di Commerce per la Russia
-                  href: localizations/rus-simplified-address.md
                 - name: Impostare la localizzazione di Commerce per la Russia
                   href: localizations/rus-commerce-setup.md
                 - name: Pagamenti anticipati in Commerce per la Russia
                   href: localizations/rus-commerce-prepayments.md
+                - name: Formato dell'indirizzo del cliente semplificato in POS di Commerce per la Russia
+                  href: localizations/rus-simplified-address.md
+                - name: Esempio di integrazione di stampante fiscale per la Russia
+                  href: localizations/rus-fpi-sample.md
+                - name: Gestione delle informazioni cliente per la Russia
+                  href: localizations/rus-customer-information.md
             - name: Svezia
               items:
                 - name: Funzionalità registratore di cassa
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurare la rubrica globale
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Impostazione indirizzo
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Domande frequenti sulle rubriche
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurare le rubriche
@@ -2328,8 +2334,12 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: Estendibilità
           items:
-            - name: Sviluppo ed estendibilità del commercio
-              href: dev-itpro/dev-retail-home-page.md
+            - name: Sviluppo ed estendibilità di Commerce
+              items:
+                - name: Commerce per professionisti IT e sviluppatori
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Impostare un ambiente di sviluppo locale
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Estendibilità del canale online
               items:
                 - name: Panoramica dell'estendibilità del canale online

@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Parametri non utilizzati da Ottimizzazione pianificazione
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Programmazione fornitura
+                  href: master-planning/supply-schedule.md
                 - name: Applicare i filtri a un piano
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Pianificazione generale con previsione della domanda
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Visualizza una domanda interaziendale pianificata in uscita
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Collaborare con clienti della catena di approvvigionamento interna
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Requisiti netti e informazioni di pegging con la pianificazione generale integrata
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Previsioni
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Area di lavoro mobile per approvazione ordine fornitore
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Creare e fatturare un ordine fornitore interaziendale per uso interno
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Verifica discrepanze tra prezzi ordini interaziendali
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Registrare l'entrata di merci sull'ordine fornitore
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Creazione ordine fornitore
               items:
                 - name: Creare manualmente ordini fornitore
@@ -2725,10 +2729,66 @@
               items:
                 - name: Simulazione prezzo
                   href: sales-marketing/price-simulation.md
-                - name: Creazione di massa di offerte di vendita
+                - name: Creazione di massa offerte di vendita
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Creare e modificare offerte di vendita
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: Commercio interaziendale
+              items:
+                - name: Impostare il commercio interaziendale
+                  items:
+                    - name: Impostare il commercio interaziendale
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Parametri interaziendali
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Impostare fornitori, clienti e articoli per il commercio interaziendale'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Impostare spese sugli ordini interaziendali
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Impostare i parametri per la registrazione di un ordine interaziendale
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Sincronizzare le informazioni interaziendali
+                  items:
+                    - name: Sincronizzare prezzi e sconti interaziendali
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Sincronizzare gli addebiti interaziendali
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Sincronizzare le informazioni cliente interaziendali
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Sincronizzare i codici smaltimento interaziendali
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Ordini cliente e fatture interaziendali
+                  items:
+                    - name: Creazione di ordini cliente e ordini fornitore interaziendali in più società
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Ordini interaziendali e ordini di reso
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Creare un ordine cliente interaziendale per uso interno
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Creare e fatturare un ordine cliente interaziendale per un cliente esterno
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Prenotazioni interaziendali
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Modificare o eliminare un ordine cliente interaziendale originale
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Modificare ordini interaziendali
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Batch e numeri di serie interaziendali
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Documenti di trasporto interaziendali
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Registrare automaticamente i pagamenti per le fatture cliente interaziendali
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Ordini fornitore interaziendali
+                  items:
+                    - name: Creare e fatturare un ordine fornitore interaziendale per uso interno
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Verifica discrepanze tra prezzi ordini interaziendali
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Conversioni di valuta interaziendali
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Programmazione generale interaziendale
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: Resi
               items:
                 - name: Resi su vendite
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Impostare e configurare il modulo costo di spedizione
               items:
+                - name: Attivare il modulo Costo di spedizione per il sistema
+                  href: landed-cost/landed-cost-enable.md
                 - name: Parametri costo di spedizione
                   href: landed-cost/landed-cost-parameters.md
                 - name: Parametri di approvvigionamento costo di spedizione
@@ -3183,8 +3245,10 @@
                       href: warehousing/pick-line-grouping.md
                     - name: Assegnazione magazzino
                       href: warehousing/warehouse-slotting.md
-                    - name: Aging prelievo inventario per direttiva ubicazione
+                    - name: Periodo di aging prelievo inventario per direttiva ubicazione
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Ancoraggio
+                      href: warehousing/anchoring.md
                     - name: Ordinamento in uscita
                       href: warehousing/outbound-sorting.md
                     - name: Stoccaggio a parete - Stoccaggio in magazzino
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Prelevare il batch meno recente su un dispositivo mobile
                       href: warehousing/pick-oldest-batch.md
+                - name: Parametri globali del dispositivo mobile
+                  href: warehousing/mobile-device-parameters.md
                 - name: Impostazioni utente dispositivo mobile
                   href: warehousing/mobile-device-user-settings.md
                 - name: Elaborazione degli eventi dell'app di magazzino
