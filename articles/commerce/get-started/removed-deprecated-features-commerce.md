@@ -2,7 +2,7 @@
 title: Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Commerce.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386743"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559561"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 
@@ -37,6 +37,18 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 [!include [banner](../includes/preview-banner.md)]
 
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Impostazione Gestione sconti sovrapposti nei parametri di Commerce
+
+L'impostazione **Gestione sconti sovrapposti** nella pagina **Parametri di Commerce** è deprecata nella versione Commerce 10.0.21. In futuro, il motore di determinazione dei prezzi di Commerce utilizzerà un singolo algoritmo per determinare la combinazione ottimale di sconti sovrapposti.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | <p>L'impostazione **Gestione sconti sovrapposti** nei parametri di Commerce controlla il modo in cui il motore di determinazione dei prezzi di Commerce ricerca e determina la combinazione ottimale di sconti sovrapposti. Attualmente offre tre opzioni:<p><ul><li> **Prestazioni ottimali** - Questa opzione utilizza un algoritmo euristico avanzato e un metodo di [classificazione del valore marginale](../optimal-combination-overlapping-discounts.md) per stabilire le priorità, valutare e determinare la migliore combinazione di sconti in modo tempestivo.</li><li>**Calcolo bilanciato** - Nella base di codice corrente, questa opzione funziona esattamente come l'opzione **Prestazioni ottimali**. Pertanto, è essenzialmente un'opzione duplicata.</li><li>**Calcolo esaustivo** - Questa opzione utilizza un vecchio algoritmo che esamina tutte le possibili combinazioni di sconti durante il calcolo del prezzo. Per gli ordini con righe e quantità di grandi dimensioni, questa opzione potrebbe causare problemi di prestazioni.</li></ul><p>Per semplificare la configurazione, migliorare le prestazioni e ridurre gli incidenti causati dal vecchio algoritmo, rimuoveremo completamente l'impostazione **Gestione sconti sovrapposti** e aggiorneremo la logica interna del motore di determinazione dei prezzi di Commerce in modo che ora utilizzi solo l'algoritmo avanzato (ovvero l'algoritmo alla base dell'opzione **Prestazioni ottimali**).</p> |
+| **Sostituita da un'altra funzionalità?**   | N. Raccomandiamo alle organizzazioni che utilizzano l'opzione **Calcolo bilanciato** o **Calcolo esaustivo** di passare all'opzione **Prestazioni ottimali** prima che questa funzionalità venga rimossa. |
+| **Aree del prodotto interessate**         | Prezzi e sconti |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | A partire dalla versione 10.0.21, l'impostazione **Gestione sconti sovrapposti** verrà rimossa dai parametri di Commerce nell'ottobre 2022. |
+
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK distribuito utilizzando Lifecycle Services
 
 Il Retail SDK viene spedito in Lifecycle Services (LCS). Questo modo di distribuzione è deprecato nella versione 10.0.21. In futuro, i pacchetti di riferimento del Retail SDK, le librerie e gli esempi saranno pubblicati in repository pubblici su GitHub.
@@ -55,7 +67,7 @@ I pacchetti distribuibili al dettaglio generati usando il Retail SDK MSBuild è 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo della deprecazione/rimozione** | Un pacchetto distribuibile al dettaglio è un pacchetto combinato che contiene un insieme completo di pacchetti di estensione e installatori. Questo pacchetto combinato rende complessa la distribuzione, poiché le estensioni CSU vanno all'unità di scala Cloud e gli installatori sono distribuiti nei negozi. Gli installatori includono l'estensione e il prodotto base, il che rende difficili gli aggiornamenti. Con ogni aggiornamento, è necessaria una fusione del codice e la generazione di pacchetti. Per semplificare questo processo, i pacchetti di estensione sono ora separati in componenti per una facile distribuzione e gestione. Con il nuovo approccio, le estensioni e gli installatori del prodotto di base sono separati e possono essere assistiti e aggiornati in modo indipendente senza una fusione del codice o un repackaging.|
+| **Motivo della deprecazione/rimozione** | Un pacchetto distribuibile al dettaglio è un pacchetto combinato che contiene un insieme completo di pacchetti di estensione e installatori. Questo pacchetto combinato rende complessa la distribuzione, poiché le estensioni CSU vanno all'unità di scala Cloud e gli installatori sono distribuiti nei negozi. Gli installatori includono l'estensione e il prodotto base, il che rende difficili gli aggiornamenti. Con ogni aggiornamento,una fusione del codice e la generazione di pacchetti sono necessarie. Per semplificare questo processo, i pacchetti di estensione sono ora separati in componenti per una facile distribuzione e gestione. Con il nuovo approccio, le estensioni e gli installatori del prodotto di base sono separati e possono essere assistiti e aggiornati in modo indipendente senza una fusione del codice o un repackaging.|
 | **Sostituita da un'altra funzionalità?**   | Estensioni CSU, installatori di estensioni POS, installatori di estensioni di stazioni hardware |
 | **Aree del prodotto interessate**         | Dynamics 365 Commerce estensione e distribuzione |
 | **Opzione di distribuzione**              | Tutti |
@@ -103,7 +115,7 @@ Lo sviluppo di estensioni POS utilizzando ModernPos.sln, CloudPOs.sln, POS.Exten
 | **Motivo della deprecazione/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
 | **Sostituita da un'altra funzionalità?**   | Consigliamo ai clienti di passare a Microsoft Edge.|
 | **Aree del prodotto interessate**         | Tutti i prodotti Dynamics 365 |
-| **Opzione di distribuzione**              | Tutti|
+| **Opzione di distribuzione**              | Tutte|
 | **Stato**                         | Deprecato. Internet Explorer 11 non sarà supportato dopo agosto 2021.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.11

@@ -2,7 +2,7 @@
 title: Impostare i codici IVA
 description: In questo argomento viene illustrato come impostare i codici IVA in Dynamics 365 Finance.
 author: twheeloc
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5ce2c8d9a117871191dd1c2d32d822bcc72d76fabaec146d9b8c27fc85dc058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719200"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562104"
 ---
 # <a name="set-up-sales-tax-codes"></a>Impostare i codici IVA
 
@@ -38,11 +38,19 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 8. Nel **Riquadro azioni** nella parte superiore dell'interfaccia, selezionare **Codice IVA**.
 9. Selezionare **Valori**.
 10. Immettere il valore per questo codice IVA nella colonna **valore**.
-    - Nella Scheda dettaglio **Calcolo**, nel campo Origine, se Importo unitario è selezionato, il valore verrà moltiplicato per la quantità della transazione per calcolare l'importo IVA.  Se il codice IVA non è un'imposta basata sull'unità, il valore è una percentuale applicata all'origine per il codice IVA per calcolare l'importo IVA.     
+
+    Nella Scheda dettaglio **Calcolo**, nel campo **Origine**, se **Importo unitario** è selezionato, il valore verrà moltiplicato per la quantità della transazione per calcolare l'importo IVA.  Se il codice IVA non è un'imposta basata sull'unità, il valore è una percentuale applicata all'origine per il codice IVA per calcolare l'importo IVA.     
+
 11. Selezionare **Salva**.
 12. Chiudere la pagina.
 13. Selezionare **Salva**.
 
+A partire da Microsoft Dynamics 365 Finance versione 10.0.22, se si utilizza [Servizio fiscale](../../localizations/global-tax-calcuation-service-overview.md) e la funzionalità [**Supporta più numeri di partita IVA**](../../localizations/emea-multiple-vat-registration-numbers.md) è abilitata nell'area di lavoro **Gestione funzionalità**, è possibile utilizzare il campo **Tipo di imposta** per specificare il tipo di codice imposta. Sono disponibili i valori seguenti:
 
+- IVA standard
+- IVA ridotta
+- IVA 0%
+- Consumi
+- Altro
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

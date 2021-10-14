@@ -1,7 +1,7 @@
 ---
 title: Rilascio automatico della spedizione della versione per cross-docking
 description: In questo argomento viene descritta una strategia di cross-docking che consente di rilasciare automaticamente un ordine di domanda nel magazzino quando l'ordine di produzione che fornisce la quantità della domanda viene dichiarato finito, in modo che la quantità viene spostata direttamente dall'ubicazione di uscita della produzione nell'ubicazione in uscita.
-author: omulvad
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 74e26953fc964a3cfdee182433a017bb53fa45d62beab442b2c224e8365adef0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755956"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577938"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Rilascio automatico della spedizione della versione per cross-docking
 

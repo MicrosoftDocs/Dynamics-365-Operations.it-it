@@ -1,7 +1,7 @@
 ---
 title: Creare richieste articoli per gli ordini di assistenza
-description: Se è necessario prenotare articoli specifici per un ordine di assistenza, è possibile creare le richieste articolo di magazzino.
-author: ShylaThompson
+description: In questo argomento viene descritto come creare richieste articoli per gli ordini di assistenza.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 800f8ec8c016f95fbbf88a89184ffc45d183969ef02df526bbc6b9b3b78be3ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75a05147883f1592b3a09e02e238661f6c20cf27
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773984"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575293"
 ---
-# <a name="create-item-requirements-for-service-orders"></a>Creare richieste articoli per gli ordini di assistenza 
+# <a name="create-item-requirements-for-service-orders"></a>Creare richieste articoli per gli ordini di assistenza
 
 [!include [banner](../includes/banner.md)]
-
 
 È possibile creare un ordine di assistenza per tenere traccia dei e gestire i servizi forniti ai clienti. Se è necessario prenotare articoli specifici per un ordine di assistenza, è possibile creare le richieste articolo di magazzino. Una richiesta articolo può essere immediatamente utilizzata dal magazzino oppure può avviare un ordine di produzione per l'articolo.
 
@@ -35,40 +34,24 @@ Le richieste articoli per gli ordini di assistenza vengono elaborati nel corso d
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Creare una richiesta articoli per un ordine di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
-
-2.  Selezionare l'ordine di assistenza per cui si desidera creare una richiesta di articoli.
-
-3.  Nel **riquadro azioni** fare clic su **Richiesta articolo** nella scheda **Spedisci**.
-
-4.  Nel modulo **Richieste articoli** immettere le informazioni relative all'articolo richiesto. Per ulteriori informazioni su specifici campi, consultare [Richieste articoli (modulo)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
+1. Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1. Selezionare l'ordine di assistenza per cui si desidera creare una richiesta di articoli.
+1. Nel **riquadro Azioni**, sulla scheda **Spedisci**, selezionare **Richiesta articolo**.
+1. Nel modulo **Richieste articoli** immettere le informazioni relative all'articolo richiesto. Per ulteriori informazioni su specifici campi, consultare [Richieste articoli (modulo)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Creare una richiesta di articoli per un contratto di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
-
-2.  Aprire il contratto di assistenza per cui si desidera creare una richiesta di articoli.
-
-3.  Nella Scheda dettaglio **Righe** fare clic su **Aggiungi** per creare una nuova riga.
-
-4.  Nel campo **Tipo di transazione**, selezionare **Articolo**.
-
-5.  Nel campo **Impostazioni articolo**, selezionare **Richiesta articolo**.
-
-6.  Nel campo **Numero articolo** selezionare l'articolo necessario per il contratto di assistenza.
-
-7.  Nella Scheda dettaglio **Dettagli riga**, nel campo **Sito** della scheda **Dimensioni prodotto**, selezionare il sito di magazzino per l'articolo.
-
-8.  Per creare un ordine di assistenza dalla riga contratto, nella Scheda dettaglio **Righe** fare clic su **Crea ordini di assistenza**, quindi immettere le informazioni rilevanti nel modulo **Crea ordini di assistenza**. 
-
+1. Selezionare **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1. Aprire il contratto di assistenza per cui si desidera creare una richiesta di articoli.
+1. Nella Scheda dettaglio **Righe** selezionare **Aggiungi** per creare una nuova riga.
+1. Nel campo **Tipo di transazione**, selezionare **Articolo**.
+1. Nel campo **Impostazioni articolo**, selezionare **Richiesta articolo**.
+1. Nel campo **Numero articolo** selezionare l'articolo necessario per il contratto di assistenza.
+1. Nella Scheda dettaglio **Dettagli riga**, nel campo **Sito** della scheda **Dimensioni prodotto**, selezionare il sito di magazzino per l'articolo.
+1. Per creare un ordine di assistenza dalla riga contratto, nella Scheda dettaglio **Righe**, selezionare **Crea ordini di assistenza**, quindi immettere le informazioni rilevanti nel modulo **Crea ordini di assistenza**.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Creare ordini di assistenza automaticamente](create-service-orders-automatically.md).
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

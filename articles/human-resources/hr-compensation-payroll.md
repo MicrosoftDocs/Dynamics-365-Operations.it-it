@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483784"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559609"
 ---
 # <a name="ready-to-pay"></a>Pronto per il pagamento
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Se vuoi contrassegnare un dipendente come pronto per il pagamento, devi prima abilitare la funzionalità **(Anteprima) Integrazione retribuzioni** nella gestione delle funzionalità. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Se una di queste convalide non riesce, non puoi contrassegnare il dipendente com
 
 Se il campo **Pronto per il pagamento** è **No**, indica che è necessario eseguire un'azione per garantire che il profilo del lavoratore sia completo. Ciò non interromperà l'esposizione dei dati nelle entità di dati. 
 
-## <a name="known-issues"></a>Problemi noti
+## <a name="process-automation"></a>Automazione processi
 
-- Devi disabilitare la funzione **Inserimento dipendenti semplificato** nella gestione delle funzionalità. I riquadri nell'area di lavoro di gestione delle retribuzioni non funzioneranno correttamente se si utilizza questa funzionalità.
-- Nella pagina **Lavoratore**, la scheda **Retribuzioni**, il gruppo **Pronto per il pagamento** è disponibile per qualsiasi ruolo utente. 
+È possibile automatizzare la convalida di tutti i dipendenti utilizzando [Automazione del processo](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). Nell'area di lavoro **Gestione retribuzioni**, andare a **Collegamenti** \> **Parametri** \> **Automazioni di processo**.
 
 ## <a name="see-also"></a>Vedere anche
 

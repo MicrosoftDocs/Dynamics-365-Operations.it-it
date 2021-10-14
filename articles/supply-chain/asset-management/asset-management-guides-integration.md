@@ -1,7 +1,7 @@
 ---
 title: Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
 description: Questo argomento spiega come integrare il modulo Gestione cespiti in Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides per trarre vantaggio dalle guide alla realtà mista nei flussi di lavoro quotidiani di assistenza e manutenzione.
-author: kamaybac
+author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: johanho
 ms.search.validFrom: 2020-04-28
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 94d98aa011d0db3991c14596f5d6bdecc0fb6c831915ae124f623fa57277fcfe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721537"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568257"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
+
+[!include [banner](../includes/banner.md)]
 
 È possibile integrare il modulo **Gestione cespiti** in Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides per trarre vantaggio dalle guide alla realtà mista nei flussi di lavoro quotidiani di assistenza e manutenzione. Se una guida è associata a un ordine di lavoro Gestione cespiti, un lavoratore che apre l'elenco di controllo di manutenzione dell'ordine di lavoro nell'app mobile Supply Chain Management (Dynamics 365) vede che è disponibile una guida. Il lavoratore può quindi trovare e aprire la guida nell'app Dynamics 365 Guides HoloLens.
 

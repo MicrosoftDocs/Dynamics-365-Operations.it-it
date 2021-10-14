@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722633"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559585"
 ---
 # <a name="payroll-position-job"></a>Mansione posizione di retribuzione
 
@@ -34,16 +34,22 @@ Nome fisico: mshr_payrollpositionjobentity.
 
 ## <a name="properties"></a>Proprietà
 
-| Proprietà<br>**Nome fisico**<br>**_Tipo_** | Utilizza | descrizione |
+| Proprietà</br>**Nome fisico**</br>**_Tipo_** | Utilizza | Descrizione |
 | --- | --- | --- |
-| **ID lavoro**<br>mshr_jobid<br>*String* | Sola lettura<br>Richiesto |L'ID della mansione. |
-| **Data di inizio validità**<br>mshr_validto<br>*Offset data/ora* | Sola lettura <br>Richiesto | La data di inizio validità della relazione tra posizione e mansione. |
-| **Data di fine validità**<br>mshr_validto<br>*Offset data/ora* | Sola lettura <br>Richiesto | La data di fine validità della relazione tra posizione e mansione.  |
-| **ID posizione**<br>mshr_positionid<br>*String* | Sola lettura<br>Richiesto | L'ID della posizione. |
-| **Campo principale**<br>mshr_primaryfield<br>*String* | Richiesto<br>Generato dal sistema |  |
-| **Valore ID mansione posizione**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Sola lettura<br>Richiesto<br>Chiave esterna:mshr_PayrollPositionJobEntity of the mshr_payrollpositionjobentity |L'ID della mansione associata alla posizione.|
-| **Valore ID piano di retribuzione fissa**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Sola lettura<br>Richiesto<br>Chiave esterna: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | L'ID del piano di retribuzione fissa associato alla posizione. |
-| **ID entità mansione posizione di retribuzione**<br>mshr_payrollpositionjobentityid<br>*GUID* | Richiesto<br>Generato dal sistema. | Un valore GUID generato dal sistema per identificare in modo univoco la mansione.  |
+| **ID posizione**</br>mshr_positionid</br>*String* | Sola lettura | L'ID della posizione. |
+| **Data di inizio validità**</br>mshr_validto</br>*Offset data/ora* | Sola lettura | La data di inizio validità della relazione tra posizione e mansione. |
+| **Data di fine validità**</br>mshr_validto</br>*Offset data/ora* | Sola lettura | La data di fine validità della relazione tra posizione e mansione. |
+| **ID lavoro**</br>mshr_jobid</br>*String* | Sola lettura | L'ID della mansione. |
+| **Campo principale**</br>mshr_primaryfield</br>*String* | Generato dal sistema | Campo principale. |
+| **ID entità mansione posizione di retribuzione**</br>mshr_payrollpositionjobentityid</br>*GUID* | Generato dal sistema. | Un valore dell'identificatore univoco globale (GUID) generato dal sistema per identificare la mansione in modo univoco. |
+
+## <a name="relations"></a>Relazioni
+
+| Valore proprietà | Entità correlata | Proprietà di navigazione | Tipo di raccolta |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | Non applicabile |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Query di esempio
 

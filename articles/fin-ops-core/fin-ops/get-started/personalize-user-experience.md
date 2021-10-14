@@ -2,7 +2,7 @@
 title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare l'app.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344376"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581067"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -119,7 +119,8 @@ Nella barra degli strumenti **Personalizzazione** sono disponibili gli strumenti
 
 - Utilizzare lo strumento **Selezione** per selezionare e modificare le proprietà di un elemento. Per utilizzare questo strumento, selezionare il pulsante **Selezione** sulla barra degli strumenti quindi selezionare l'elemento desiderato. Viene visualizzata la finestra delle proprietà dell'elemento in cui è possibile modificare qualsiasi proprietà di tale elemento. È possibile ripetere il processo per altri elementi che possono essere personalizzati nella pagina. Tenere presente che alcune proprietà di personalizzazione potrebbero non essere disponibili in alcuni scenari. Ad esempio, non è possibile bloccare un campo obbligatorio.
 - Utilizzare lo strumento **Nascondi** per nascondere un elemento nella pagina. Per utilizzare questo strumento, selezionare il pulsante **Nascondi** sulla barra degli strumenti quindi selezionare l'elemento da nascondere. Quando si usa lo strumento **Nascondi**, tutti gli elementi correntemente nascosti diventano visibili, ma vengono visualizzati in un contenitore ombreggiato. È possibile rendere visibile un elemento selezionandolo. Per vedere come apparirà la pagina quando gli elementi sono nascosti, passare a un altro strumento di personalizzazione o chiudere la barra degli strumenti della personalizzazione.
-- Utilizzare lo strumento **Aggiungi campi** per aggiungere campi nella pagina. Quando si utilizza questo strumento, è possibile aggiungere solo i campi che fanno parte della definizione della pagina. Per informazioni su come creare nuovi campi che non fanno parte della definizione della pagina corrente, vedere [Creare e utilizzare campi personalizzati](user-defined-fields.md). Dopo aver selezionato il pulsante **Aggiungi campi** sulla barra degli strumenti, è necessario prima di tutto selezionare la griglia o sezione in cui si desidera aggiungere un campo. Viene visualizzata una finestra di dialogo con l'elenco di campi correlati alla griglia o alla sezione selezionata. Nella finestra di dialogo selezionare uno o più campi da aggiungere e quindi selezionare **Aggiorna**. Per rimuovere un campo aggiunto in precedenza, ripetere il processo, ma deselezionare il campo nella finestra di dialogo.
+- Utilizzare lo strumento **Aggiungi campi** per aggiungere campi nella pagina. Quando si utilizza questo strumento, è possibile aggiungere solo i campi che fanno parte della definizione della pagina. Per informazioni su come creare nuovi campi che non fanno parte della definizione della pagina corrente, vedere [Creare e utilizzare campi personalizzati](user-defined-fields.md). Dopo aver selezionato il pulsante **Aggiungi campi** sulla barra degli strumenti, è necessario prima di tutto selezionare la griglia o sezione in cui si desidera aggiungere un campo. Viene visualizzata una finestra di dialogo con l'elenco di campi correlati alla griglia o alla sezione selezionata. Nella finestra di dialogo, selezionare uno o più campi da aggiungere dall'elenco **Campi consigliati** o **Tutti i campi**. Dopo aver scelto i campi desiderati, selezionare **Aggiorna**. Per rimuovere un campo aggiunto in precedenza, ripetere il processo, ma deselezionare il campo nella finestra di dialogo.
+    - L'elenco **Campi consigliati** mostra i campi che sono stati precedentemente aggiunti da altri utenti dell'organizzazione. Questo elenco di campi viene aggiornato in base alla frequenza di ricorrenza del **Processo batch raccomandazione**. È disponibile un'esperienza simile quando si aggiungono nuovi campi di filtro utilizzando il riquadro Filtro in una pagina.
 - Utilizzare lo strumento **Sposta** se si desidera spostare un elemento in un punto diverso nel gruppo corrente di elementi. Si noti che non è possibile spostare un elemento al di fuori del gruppo padre. Per utilizzare questo strumento, selezionare il pulsante **Sposta** sulla barra degli strumenti quindi selezionare l'elemento da spostare. Quando si seleziona un elemento, l'app determina le posizioni in cui l'elemento può essere spostato. Queste posizioni sono note come *aree di rilascio*. Man mano che si trascina l'elemento nel gruppo corrente, ogni zona di rilascio viene visualizzata come singola riga colorata e in grassetto accanto all'area in cui l'elemento può essere rilasciato.
 - Utilizzare lo strumento **Ignora** per rimuovere un elemento dalla sequenza di tabulazione della tastiera nella pagina. Quando si seleziona il pulsante **Ignora** sulla barra degli strumenti, tutti gli elementi correntemente ignorati vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere o rimuovere i campi in modo interattivo nella sequenza della scheda.
 - Utilizzare lo strumento **Mostra su intestazione** quando si desidera che un campo venga visualizzato nella sezione di riepilogo della Scheda dettaglio. Quando si seleziona il pulsante **Mostra su intestazione** sulla barra degli strumenti, tutti i campi che sono stati selezionati come campi riepilogativi vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere e rimuovere in modo interattivo i campi dal riepilogo della Scheda dettaglio selezionando i campi interessati.

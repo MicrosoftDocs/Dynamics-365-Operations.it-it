@@ -1,8 +1,8 @@
 ---
 title: Previsione di cassa
 description: In questo argomento viene fornita una panoramica del processo di previsione di cassa. E viene illustrato come la previsione di cassa è integrata con altri moduli nel sistema.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779448"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547957"
 ---
 # <a name="cash-flow-forecasting"></a>Previsione di cassa
 
@@ -83,7 +83,10 @@ Nel campo **Conto liquidità per i pagamenti** è specificato il conto liquidit�
 
 ### <a name="budgeting"></a>Impostazione budget
 
-È possibile includere i budget creati dai modelli di budget nelle previsioni di cassa. Nella scheda **Impostazione budget** della pagina **Impostazione previsione di cassa**, selezionare i modelli di budget da includere nella previsione. Per impostazione predefinita, le nuove voci del registro di budget vengono incluse nella previsione dopo che il modello di budget è stato attivato per le previsioni di cassa. L'inclusione nella previsione di cassa può essere sovrascritta nelle singole voci del registro di budget.
+È possibile includere i budget creati dai modelli di budget nelle previsioni di cassa. Nella pagina **Impostazione di previsione di cassa** sulla scheda **Impostazione budget**, selezionare i modelli di budget da includere nella previsione. Per impostazione predefinita, le nuove voci del registro di budget vengono incluse nella previsione dopo che il modello di budget è stato attivato per le previsioni di cassa.
+
+Le voci del registro di budget possono essere incluse nella previsione di cassa su base individuale attraverso la personalizzazione. Quando si aggiunge la colonna "Includi in previsioni di cassa" alla pagina **Voce di registro budget**, il sistema sovrascriverà le impostazioni sulla pagina **Impostazione di previsione di cassa** per includere una singola voce del registro di budget nella previsione.
+
 
 ### <a name="inventory-management"></a>Gestione inventario
 
@@ -144,7 +147,7 @@ L'area di lavoro **Panoramica situazione di cassa - tutte le società** mostra l
 
 L'area di lavoro **Panoramica situazione di cassa - società corrente** mostra l'analisi di previsione di cassa nella valuta di contabilizzazione definita della società. La valuta di contabilizzazione utilizzata per l'analisi è definita nella pagina **Contabilità generale**. Questa area di lavoro visualizza una panoramica dei saldi del conto bancario e delle previsioni di cassa per la società corrente. Un grafico delle entrate e delle uscite di cassa fornisce una panoramica dei saldi e dei movimenti di cassa futuri nella valuta di contabilizzazione, insieme a informazioni dettagliate sulle transazioni previsionali. È inoltre possibile vedere i saldi previsti in valuta.
 
-Per ulteriori informazioni sull'analisi di previsione di cassa, vedere l'argomento [Contenuto di Power BI della panoramica situazione di cassa](./cash-overview-power-bi-content.md).
+Per ulteriori informazioni sull'analisi di previsione di cassa, vedere [Contenuto di Power BI della panoramica situazione di cassa](Cash-Overview-Power-BI-content.md).
 
 Inoltre, è possibile visualizzare i dati di previsione di cassa per conti, ordini e articoli specifici nelle pagine seguenti:
 
