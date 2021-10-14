@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718359"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595264"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Progettare una nuova configurazione ER per generare report in formato Word
 
@@ -46,7 +46,7 @@ Puoi aggiungere gli elementi nidificati **Excel\\Intervallo** ed **Excel\\Cella*
 
 ![Aggiunta di elementi nidificati nella pagina Progettazione formati.](./media/er-design-configuration-word-image4.gif)
 
-Quando si salvano le modifiche al formato ER in fase di progettazione, la struttura gerarchica del formato viene archiviata nel modello Word allegato come [parte XML personalizzata](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) denominata **Report**. È necessario accedere al modello modificato, scaricarlo da Finance, archiviarlo localmente e aprirlo nell'applicazione desktop Word. La figura seguente mostra il modello di esempio archiviato localmente per il report di controllo che contiene la parte XML personalizzata **Report**.
+Quando si salvano le modifiche al formato ER in fase di progettazione, la struttura gerarchica del formato viene archiviata nel modello Word allegato come [parte XML personalizzata](/visualstudio/vsto/custom-xml-parts-overview) denominata **Report**. È necessario accedere al modello modificato, scaricarlo da Finance, archiviarlo localmente e aprirlo nell'applicazione desktop Word. La figura seguente mostra il modello di esempio archiviato localmente per il report di controllo che contiene la parte XML personalizzata **Report**.
 
 ![Visualizzazione in anteprima del modello di report di esempio nell'applicazione desktop Word.](./media/er-design-configuration-word-image5.gif)
 

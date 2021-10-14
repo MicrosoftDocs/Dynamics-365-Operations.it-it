@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343862"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595205"
 ---
 # <a name="email-er-destination-type"></a>Tipo di destinazione posta elettronica ER
 
@@ -75,7 +75,7 @@ Il corpo dell'e-mail è composto in formato TEXT o HTML, a seconda del client di
 >
 > Quando una destinazione di posta elettronica viene proposta per la modifica al [runtime](electronic-reporting-destinations.md#security-considerations), il campo **Da** è visibile solo agli utenti che hanno il privilegio di sicurezza `ERFormatDestinationSenderEmailMaintain`, **Mantieni l'indirizzo e-mail del mittente per la destinazione in formato ER**.
 >
-> Quando il campo **Da** è configurato per utilizzare un indirizzo e-mail diverso da quello dell'utente corrente, l'autorizzazione **Invia come** o **Invia per conto di** deve essere [impostata](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) correttamente in anticipo. In caso contrario, viene generata la seguente eccezione al runtime: "Impossibile inviare e-mail come \<from email account\> dall'account \<current user account\>. Controlla le autorizzazioni "Invia come" in \<from email account\>."
+> Quando il campo **Da** è configurato per utilizzare un indirizzo e-mail diverso da quello dell'utente corrente, l'autorizzazione **Invia come** o **Invia per conto di** deve essere [impostata](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) correttamente in anticipo. In caso contrario, viene generata la seguente eccezione al runtime: "Impossibile inviare e-mail come \<from email account\> dall'account \<current user account\>. Controlla le autorizzazioni "Invia come" in \<from email account\>."
 
 Puoi configurare il campo **Da** per restituire più di un indirizzo email. In questo caso, il primo indirizzo nell'elenco viene utilizzato come indirizzo del mittente.
 

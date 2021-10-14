@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
-ms.date: 09/17/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500111"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595147"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -32,14 +32,26 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.21 delle app Finance and Operations
+
+### <a name="skype-for-business-online-support"></a>Supporto Skype for Business Online
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Skype for business Online è stato ritirato. Per ulteriori informazioni, vedere [Il servizio Skype for Business Online è stato ritirato](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Sostituita da un'altra funzionalità?**   | Non attualmente, anche se potremmo considerare di aggiungere la presenza da Teams in futuro.|
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato. L'impostazione **Skype abilitato** è stata disattivata a partire dalla versione 10.0.21. La rimozione di questa impostazione è prevista per aprile 2022; tuttavia, la funzione smetterà di funzionare dopo che il team di Skype chiuderà il servizio. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Ritiro delle funzionalità in vigore da agosto 2021
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure Report SQL in Lifecycle Services (LCS)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo della deprecazione/rimozione** |   Tutte le attività e il monitoraggio saranno eseguiti internamente, dalla piattaforma, attraverso l'automazione. Ciò non richiederà alcun intervento manuale.|
-| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Motivo della deprecazione/rimozione** | Tutte le attività e il monitoraggio saranno eseguiti internamente, dalla piattaforma, attraverso l'automazione. Ciò non richiederà alcun intervento manuale.|
+| **Sostituita da un'altra funzionalità?**   | Sì, ora esiste un sistema automatizzato che rende obsolete queste funzionalità. |
 | **Aree del prodotto interessate**         | Report SQL: DTU corrente, dettagli DTU correnti, ottenere dettagli blocco, elenco della guida del piano corrente, ottenere elenco di ID query, ottenere il piano di query SQL per un determinato ID piano, ottenere piani di query e stato di esecuzione, ottenere configurazione della limitazione, ottenere statistiche attesa, Elenca le query più costose |
 | **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
 | **Stato**                         | Deprecato: data di rimozione pianificata ottobre 2021. |
@@ -48,8 +60,8 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo della deprecazione/rimozione** | Stiamo deprecando alcune azioni SQL in LCS.  |
-| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Motivo della deprecazione/rimozione** | Stiamo deprecando alcune azioni SQL in LCS. Tutte le attività e il monitoraggio saranno eseguiti internamente, dalla piattaforma, attraverso l'automazione. Ciò non richiederà alcun intervento manuale. |
+| **Sostituita da un'altra funzionalità?**   | Sì, ora esiste un sistema automatizzato che rende obsolete queste funzionalità. |
 | **Aree del prodotto interessate**         | Azioni SQL: creazione di una guida al piano per forzare l'ID piano, creazione di una guida al piano per aggiungere suggerimenti alla tabella, rimozione della guida al piano, abilitazione/disabilitazione dei blocchi delle pagine e dell'escalation dei blocchi, aggiornamento delle statistiche su una tabella, ricostruzione indice, creazione indice |
 | **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
 | **Stato**                         | Deprecato: data di rimozione pianificata ottobre 2021. |
@@ -158,7 +170,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | In generale, il codice personalizzato offre vantaggi limitati e, allo stesso tempo, richiede risorse significative ed elaborazione per il supporto. Il codice personalizzato viene utilizzato principalmente dagli autori di report per chiamare metodi pubblici da un assembly di codice personalizzato. Tuttavia, il servizio ospitato nel cloud non supporta i riferimenti ad assembly personalizzati per i report SSRS. |
-| **Sostituita da un'altra funzionalità?**   | Gli autori dei report possono scegliere di continuare a fare riferimento ad API .NET pubbliche per operazioni di matematica, conversione e formattazione da qualsiasi espressione della casella di testo. Per ulteriori informazioni, vedere [Aggiungere codice a un report (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Sostituita da un'altra funzionalità?**   | Gli autori dei report possono scegliere di continuare a fare riferimento ad API .NET pubbliche per operazioni di matematica, conversione e formattazione da qualsiasi espressione della casella di testo. Per ulteriori informazioni, vedere [Aggiungere codice a un report (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Aree del prodotto interessate**         | Sottoinsieme di progetti di report dell'applicazione definiti in RDL che contengono codice personalizzato. |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Con la versione 10.0.13, il compilatore inizierà a emettere un avviso per le istanze in cui viene rilevato codice personalizzato in una definizione di report SSRS. Per risolvere il problema, aprire la definizione di progettazione del report e rimuovere tutti gli elementi di codice personalizzati. Questo avviso verrà sostituito con un errore del compilatore in un aggiornamento futuro.   |
