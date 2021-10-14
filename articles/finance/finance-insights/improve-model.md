@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: de753eda43cb358dfa9edc76f102d4b268291b4e
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 804c18c1b165fff99390db1fda22da0137249373
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386440"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595039"
 ---
 # <a name="improve-the-prediction-model"></a>Migliorare il modello di stima
 
@@ -75,6 +75,6 @@ Il campo seguente non deve essere selezionato per il training:
 
 È possibile filtrare le fatture utilizzate per la formazione impostando criteri filtro per i campi nella fattura o nelle tabelle cliente. Ad esempio, è possibile impostare una soglia per includere solo le fatture il cui il totale è uguale o superiore a un importo specifico. In alternativa, è possibile escludere le fatture associate ai clienti in uno specifico gruppo di clienti.
 
-Per ulteriori informazioni sul filtraggio dei dati, vedere [Creare un modello di previsione](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
+Per ulteriori informazioni sul filtraggio dei dati, vedere [Creare un modello di previsione](/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

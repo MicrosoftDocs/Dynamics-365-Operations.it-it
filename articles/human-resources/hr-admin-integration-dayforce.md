@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414586"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559463"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurare l'integrazione con Dayforce
 
@@ -64,7 +64,6 @@ L'attivazione dell'integrazione delle retribuzioni comporta due effetti primari:
 
 > [!NOTE]
 > Il pacchetto dati trasferito all'endpoint SFTP viene codificato utilizzando una chiave univoca per il pacchetto. La chiave è un Azure Key Vault accessibile solo da Ceridian. Non è possibile decrittografare ed esaminare il contenuto del pacchetto dati. Se è necessario esaminare il contenuto del pacchetto dati, esportare manualmente il progetto dati "Esportazione integrazione delle retribuzioni", scaricarlo e quindi aprirlo. L'esportazione manuale non comporta la crittografia o il trasferimento del pacchetto.
-> Per le istanze in cui i file di integrazione vengono inviati da un ambiente Sandbox o UAT di Dynamics 365 Human Resources a un ambiente Ceridian Dayforce Test, è possibile utilizzare il seguente URL dell'insieme di credenziali delle chiavi: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Configurare i dati 
 

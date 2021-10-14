@@ -2,7 +2,7 @@
 title: Esempio di integrazione di stampante fiscale per l'Italia
 description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia.
 author: josaw
-ms.date: 10/08/2019
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: bdfbdd6313ec29ff20c914817f88989b0ce7596474aeb661b4925e50b012def6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71cac2406a8d2a9f0affe1b2af8c0710d749a306
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722014"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512489"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
@@ -184,17 +184,17 @@ Per abilitare il processo di registrazione, seguire questi passaggi per configur
 
 1. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Connettori fiscali**. Importare la configurazione da **RetailSdk\\SampleExtensions\\HardwareStation\\Entension.EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml**.
 2. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Provider di documenti fiscali**. Importare la configurazione da **RetailSdk\\SampleExtensions\\CommerceRuntime\\Entension.DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml**.
-3. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili tecnici del connettore**. Creare un nuovo profilo e selezionare il connettore caricato nel passaggio precedente. Aggiornare le impostazioni di connessione se un aggiornamento è necessario.
-4. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili funzionali del connettore**. Creare un nuovo profilo e selezionare il connettore e il provider di documenti caricati nei passaggi precedenti. Aggiornare le impostazioni di mapping dei dati se un aggiornamento è necessario.
-5. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Gruppo funzionale di connettori**. Creare un nuovo gruppo e selezionare il profilo funzionale del connettore del passaggio precedente.
-6. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processo di registrazione**. Creare un nuovo processo e selezionare il gruppo funzionale di connettori del passaggio precedente.
+3. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili tecnici del connettore**. Creare un nuovo profilo, quindi selezionare il connettore caricato nel passaggio precedente. Aggiornare le impostazioni di connessione se un aggiornamento è necessario.
+4. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili funzionali del connettore**. Creare un nuovo profilo, quindi selezionare il connettore e il provider di documenti caricati nei passaggi precedenti. Aggiornare le impostazioni di mapping dei dati se un aggiornamento è necessario.
+5. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Gruppo funzionale di connettori**. Creare un nuovo gruppo, quindi selezionare il profilo funzionale del connettore del passaggio precedente.
+6. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processo di registrazione**. Creare un nuovo processo, quindi selezionare il gruppo funzionale di connettori del passaggio precedente.
 7. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Profili POS \> Profili funzionalità**. Aprire il profilo funzionalità collegato al punto vendita in cui il processo di registrazione deve essere attivato. Nella scheda Dettaglio **Processo di registrazione fiscale**, selezionare il processo di registrazione creato nel precedentemente.
 8. Andare a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**. Aprire il profilo hardware collegato alla stazione hardware a cui la stampante fiscale sarà collegata. Nella scheda Dettaglio **Periferiche fiscali**, selezionare il profilo tecnico del connettore.
-9. Aprire la programmazione della distribuzione (**Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**) e selezionare i processi **1070** e **1090** per trasferire i dati al database del canale.
+9. Aprire la programmazione della distribuzione (**Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**), quindi selezionare i processi **1070** e **1090** per trasferire i dati al database del canale.
 
 ### <a name="production-environment"></a>Ambiente di produzione
 
-Attenersi alla procedura seguente per creare pacchetti distribuibili contenenti componenti Commerce e per applicare quei pacchetti a un ambiente di produzione.
+Per creare pacchetti distribuibili contenenti componenti Commerce e per applicare quei pacchetti a un ambiente di produzione, attenersi alla procedura seguente.
 
 1. Completare la procedura descritta nella sezione [Abilitare le estensioni](#enable-extensions) vista in precedenza in questo argomento.
 2. Apportare le seguenti modifiche nei file di configurazione dei pacchetti nella cartella **RetailSdk\\Assets** :
@@ -225,7 +225,7 @@ Attenersi alla procedura seguente per creare pacchetti distribuibili contenenti 
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Avviare il prompt dei comandi di MSBuild per l'utilità Visual Studio ed eseguire **msbuild** nella cartella Retail SDK per creare pacchetti distribuibili.
+4. Avviare il prompt dei comandi di MSBuild per l'utilità Visual Studio, quindi eseguire **msbuild** nella cartella Retail SDK per creare pacchetti distribuibili.
 5. Applicare i pacchetti via Microsoft Dynamics Lifecycle Services (LCS) o manualmente. Per ulteriori informazioni, vedere [Creare pacchetti distribuibili](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>Progettazione delle estensioni

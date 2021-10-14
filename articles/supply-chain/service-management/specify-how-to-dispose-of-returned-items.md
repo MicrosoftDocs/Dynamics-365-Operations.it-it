@@ -1,7 +1,7 @@
 ---
 title: Specificare la modalità di smaltimento dei resi
 description: Specificare la modalità di smaltimento dei resi.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 594832f4d89a630bd88b18f665a6afbc7a918f0e5c9627f835f18d4b1a4d2cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722249"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571331"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Specificare la modalità di smaltimento dei resi 
+# <a name="specify-how-to-dispose-of-returned-items"></a>Specificare la modalità di smaltimento dei resi
 
 [!include [banner](../includes/banner.md)]
-
 
 Quando si gestisce un ordine di reso, è necessario specificare un codice motivo reso per identificare poiché il prodotto viene restituito. È inoltre necessario specificare un codice smaltimento e un'azione di smaltimento per determinare cosa deve essere effettuato con il prodotto restituito.
 
@@ -35,9 +34,9 @@ Quando si gestisce un ordine di reso, è necessario specificare un codice motivo
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ Per ogni codice smaltimento definito, è necessario selezionare un'azione di sma
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ Per ogni codice smaltimento definito, è necessario selezionare un'azione di sma
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Selezionare un codice smaltimento per un ordine di quarantena
 
-1.  Fare clic su **Gestione articoli** \> **Periodico** \> **Gestione qualità** \> **Ordini di quarantena**.
-
-2.  In caso di ordini di quarantena esistenti, selezionare un'azione nel campo **Codice smaltimento** della scheda **Panoramica**.
-
-
+1. Andare a **Gestione articoli** \> **Periodico** \> **Gestione qualità** \> **Ordini di quarantena**.
+1. In caso di ordini di quarantena esistenti, selezionare un'azione nel campo **Codice smaltimento** della scheda **Panoramica**.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Ordine di quarantena (modulo)](/dynamicsax-2012//quarantine-order-form)
 
 [Codici smaltimento (modulo)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

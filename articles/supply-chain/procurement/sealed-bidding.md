@@ -1,22 +1,22 @@
 ---
 title: Offerta nascosta per RdO
 description: Questo argomento descrive come impostare un'offerta nascosta per mantenere segrete le risposte all'offerta del fornitore fino a quando non vengono sbloccate dal personale addetto agli acquisti.
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500636"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578082"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Offerta nascosta per RdO
 
@@ -53,7 +53,11 @@ Prima di iniziare a configurare o utilizzare questa funzionalità, devi assicura
 Supply Chain Management utilizza chiavi di crittografia per proteggere tutte le offerte nascoste e mantenerle segrete fino al momento opportuno. Usa le capacità di Key Vault per generare e gestire le chiavi richieste. Pertanto, è necessario configurare una connessione da Supply Chain Management a un key vault per abilitare il sistema.
 
 > [!IMPORTANT]
-> Il key vault deve essere creato in una sottoscrizione di Azure di proprietà dell'organizzazione (non la sottoscrizione in cui si esegue Supply Chain Management).
+> Gli insiemi di credenziali delle chiavi per offerta nascosta devono soddisfare i seguenti requisiti:
+>
+> - Se si utilizza un sandbox per lo sviluppo e il test, è necessario disporre di un insieme di credenziali delle chiavi dedicato per il sandbox e uno separato per la produzione.
+> - Ogni insieme di credenziali delle chiavi deve essere creato in una sottoscrizione di Azure di proprietà dell'organizzazione (non la sottoscrizione in cui si esegue Supply Chain Management).
+> - Ogni insieme di credenziali delle chiavi deve essere utilizzato esclusivamente per offerta nascosta. Non è possibile utilizzare gli insieme di credenziali delle chiavi per offerta nascosta per alcun altro scopo.
 
 Ogni offerta recupera la propria chiave segreta. Questa chiave viene utilizzata ogni volta che un utente visualizza, aggiorna o sblocca l'offerta.
 

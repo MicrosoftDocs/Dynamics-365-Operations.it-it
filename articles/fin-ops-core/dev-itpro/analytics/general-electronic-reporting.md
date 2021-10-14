@@ -2,7 +2,7 @@
 title: Panoramica dello strumento di creazione di report elettronici
 description: Viene fornita una panoramica dello strumento di creazione di report elettronici. Descrive concetti chiave, scenari supportati e formati che fanno parte della soluzione.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9bb0b427f4fe30ab95efabf8ab9871b681e35d51c0fbaf5a162235640d2f376
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723167"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562178"
 ---
 # <a name="electronic-reporting-er-overview"></a>Panoramica dei report elettronici
 
@@ -50,7 +50,14 @@ Il motore ER presenta le seguenti funzionalità:
 
 ### <a name="components"></a>Componenti
 
-ER supporta due tipi di componenti: **Modello dati** e **Formato**.
+ER supporta i seguenti tipi di componenti:
+
+- Modello dati
+- Mapping modello
+- Formattazione
+- Metadati
+
+Per ulteriori informazioni, vedere [Componenti di Creazione di report elettronici](er-overview-components.md).
 
 #### <a name="data-model-and-model-mapping-components"></a>Componenti di mapping di modelli e modelli dati
 
@@ -71,13 +78,13 @@ Si noti che le entità aziendali (ad esempio società e transazioni di pagamento
 Un mapping di modello che supporta documenti elettronici in uscita ha le seguenti funzionalità:
 
 - È possibile utilizzare diversi tipi di dati come origini dati per un modello di dati. Ad esempio, è possibile utilizzare le tabelle, le entità di dati, metodi o le enumerazioni.
-- Supporta parametri di input dell'utente che possono essere definiti ome origini dati del modello dati quando è necessario specificare alcuni dati in fase di esecuzione.
+- Supporta parametri di input dell'utente che possono essere definiti come origini dati del modello dati quando è necessario specificare alcuni dati in fase di esecuzione.
 - Supporta la trasformazione di dati in gruppi richiesti. È inoltre possibile filtrare, ordinare e sommare i dati e aggiungere i campi calcolati logici progettati tramite formule simili alle formule di Microsoft Excel. Per ulteriori informazioni, vedere [Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md).
 
 Un mapping di modello che supporta documenti elettronici in entrata ha le seguenti funzionalità:
 
 - Può includere elementi di dati aggiornabili diversi come obiettivi. Questi elementi dati includono tabelle, entità di dati e visualizzazioni. I dati possono essere aggiornati utilizzando i dati dei documenti elettronici in entrata. Diverse destinazioni possono essere utilizzate in un singolo mapping di modelli.
-- Supporta parametri di input dell'utente che possono essere definiti ome origini dati del modello dati quando è necessario specificare alcuni dati in fase di esecuzione.
+- Supporta parametri di input dell'utente che possono essere definiti come origini dati del modello dati quando è necessario specificare alcuni dati in fase di esecuzione.
 
 Un componente del modello dati è progettato per ciascun dominio aziendale da utilizzare come origine dati unificata per la creazione di report che isola la creazione di report dall'implementazione fisica delle origini dati. Rappresenta i concetti e le funzionalità aziendali specifici del dominio in una forma che rende più efficiente la progettazione iniziale dei formati di report e la successiva manutenzione.
 

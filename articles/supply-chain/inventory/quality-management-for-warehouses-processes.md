@@ -11,15 +11,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 241892e8f6ea04616aa9c605b4a2019d2de0ebe868ee7ebc1d5b56f5ce172bd5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: d81441fcc8cb86927923e76bd1a4d16a141ddc75
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723505"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571883"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestione qualità per i processi di magazzino
+
+[!include [banner](../includes/banner.md)]
 
 La funzione _Gestione qualità per i processi di magazzino_ consente di integrare i controlli di campionamento degli articoli nel processo di ricezione del magazzino utilizzando la gestione avanzata del magazzino. Il lavoro di magazzino può essere generato automaticamente per spostare le scorte nell'ubicazione di controllo qualità, in base a una percentuale o una quantità fissa, oppure in base a ogni *n* targhe. Dopo che un ordine di controllo qualità è stato completato, il lavoro può essere generato automaticamente per spostare le scorte nella posizione successiva del processo, a seconda dei risultati di qualità.
 

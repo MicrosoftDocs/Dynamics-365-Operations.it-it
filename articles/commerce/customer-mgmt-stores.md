@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472227"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563063"
 ---
 # <a name="customer-management-in-stores"></a>Gestione dei clienti nei punti vendita
 
@@ -45,7 +45,8 @@ Gli addetti alle vendite possono acquisire più indirizzi per un cliente. Il nom
 
 ## <a name="sync-customers-and-async-customers"></a>Clienti sincroni e clienti asincroni
 
-> [IMPORTANTE] Se il POS è offline, il sistema crea automaticamente i clienti in modo asincrono, anche se la modalità di creazione di clienti asincrona è disabilitata. Pertanto, indipendentemente dalla selezione tra la creazione cliente sincrona o asincrona, gli amministratori di Commerce Headquarters devono creare e pianificare un processo batch ricorrente per il **Processo P**, il processo **Sincronizza clienti e partner commerciali dalla modalità asincrona** (in precedenza definito processo **Sincronizza clienti e partner commerciali dalla modalità asincrona**) e il processo **1010**, in modo che tutti i clienti asincroni vengano convertiti in clienti sincroni in Commerce Headquarters.
+> [!IMPORTANT]
+> Se il POS è offline, il sistema crea automaticamente i clienti in modo asincrono, anche se la modalità di creazione di clienti asincrona è disabilitata. Pertanto, indipendentemente dalla selezione tra la creazione cliente sincrona o asincrona, gli amministratori di Commerce Headquarters devono creare e pianificare un processo batch ricorrente per il **Processo P**, il processo **Sincronizza clienti e partner commerciali dalla modalità asincrona** (in precedenza definito processo **Sincronizza clienti e partner commerciali dalla modalità asincrona**) e il processo **1010**, in modo che tutti i clienti asincroni vengano convertiti in clienti sincroni in Commerce Headquarters.
 
 In Commerce, vi sono due modalità di creazione di clienti: sincrona e asincrona. Per impostazione predefinita, i clienti vengono creati in modalità sincrona. In altre parole, vengono creati in Commerce Headquarters in tempo reale. La creazione di clienti in modalità sincrona è vantaggiosa perché i nuovi clienti sono immediatamente disponibili per la ricerca nei canali. Tuttavia, ha anche uno svantaggio. Poiché genera chiamate [Commerce Data Exchange: Servizio in tempo reale](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) a Commerce Headquarters, le prestazioni possono essere alterate se vengono effettuate molte chiamate simultanee per la creazione di clienti.
 

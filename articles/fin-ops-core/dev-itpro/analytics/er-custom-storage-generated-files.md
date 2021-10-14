@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 83b2d3c35e3e68aaad22bc03a46b17abc1526073895057717fd055dacdfbee5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718479"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594911"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Specificare percorsi di archiviazione personalizzati per i documenti generati
 
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modificare la classe `AssetRollForwardService` esistente e scrivere il codice per impostare una factory di destinazione personalizzata per l'esecutore del report. Si noti che quando viene creata una factory di destinazione personalizzata, viene passato il parametro basato sull'applicazione che specifica una cartella di destinazione. In questo modo, quella cartella di destinazione viene utilizzata per memorizzare i file generati.
 
     > [!NOTE] 
-    > Assicurarsi che la cartella specificata (**c:\\0** in questo esempio) è presente nel file system locale del server che esegue il servizio AOS. Altrimenti, verrà lanciata un'eccezione [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) in fase di esecuzione.
+    > Assicurarsi che la cartella specificata (**c:\\0** in questo esempio) è presente nel file system locale del server che esegue il servizio AOS. Altrimenti, verrà lanciata un'eccezione [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) in fase di esecuzione.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

@@ -3,7 +3,7 @@ title: Panoramica dell'integrazione fiscale per i canali di commercio
 description: In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 manager: annbe
-ms.date: 08/10/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 323d9f4816a4f622143692ead3d1871980b19b52
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343289"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512582"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Panoramica dell'integrazione fiscale per i canali di commercio
 
@@ -141,6 +141,7 @@ I seguenti esempi di integrazione fiscale sono attualmente disponibili nel Comme
 - [Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca](./emea-cze-fi-sample.md)
 - [Esempio di integrazione di un'unità di controllo per la Svezia](./emea-swe-fi-sample.md)
 - [Esempio di integrazione del servizio di registrazione fiscale per la Germania](./emea-deu-fi-sample.md)
+- [Esempio di integrazione di stampante fiscale per la Russia](./rus-fpi-sample.md)
 
 La seguente funzionalità di integrazione fiscale è anche implementata utilizzando il framework di integrazione fiscale, ma è disponibile fuori dalla scatola e non è inclusa nel Commerce SDK:
 

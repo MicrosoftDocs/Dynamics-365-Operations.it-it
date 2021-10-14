@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9996b4d6ab84070cc3e9863a454c4fd8ed14091490273cde0eec1ea2bc508fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756227"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594720"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Meccanismo di reverse charge per schema IVA/GST
 
@@ -45,7 +45,6 @@ Per applicare l'IVA reverse charge, è necessario completare le seguenti imposta
 Si consiglia di utilizzare codici IVA separati per le operazioni di vendita e le operazioni di acquisto.
 
 <table>
-<body>
 <tr>
 <td><strong>Codice IVA per le vendite</strong></td>
 <td>Creare un codice IVA per le operazioni di vendita in reverse charge (<strong>Imposta</strong> &gt; <strong>Imposte indirette</strong> &gt; <strong>IVA</strong> &gt; <strong>Codici IVA</strong>).
@@ -62,7 +61,6 @@ Il codice IVA negativo deve essere assegnato a una fascia IVA articoli, che verr
 <p>Per ulteriori informazioni, vedere la sezione successiva &quot;Impostare fasce IVA e fasce IVA articoli.&quot;</p>
 </td>
 </tr>
-</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Impostare fasce IVA e fasce IVA articoli

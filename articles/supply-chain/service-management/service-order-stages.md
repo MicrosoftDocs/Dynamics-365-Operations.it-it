@@ -1,7 +1,7 @@
 ---
 title: Fasi dell'ordine di assistenza
 description: Tramite la definizione delle fasi di un ordine di assistenza e la loro assegnazione ai lavoratori, è possibile controllare il flusso di un ordine di assistenza tramite le attività che varie persone eseguono nell'organizzazione che presta tale servizio.
-author: ShylaThompson
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ef52171efd422fdbd8593af4c2a5fd968dac1209ddff6cb695e22534a94678b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a43cbe0cf5993a305ff500f34f0da5d3763084c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711617"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576330"
 ---
 # <a name="service-order-stages"></a>Fasi dell'ordine di assistenza   
 

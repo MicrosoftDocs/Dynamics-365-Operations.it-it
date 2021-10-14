@@ -2,7 +2,7 @@
 title: Visualizzare e aggiornare i dati entità con Excel
 description: In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo di Excel di Microsoft Dynamics.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761356"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592667"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Visualizzare e aggiornare i dati entità con Excel 
 
@@ -60,9 +60,9 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 
 6. Selezionare **OK**, quindi **Sì** per confermare la modifica. Il componente aggiuntivo di Excel viene riavviato e carica i metadati.
 
-    Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel è un pulsante **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni, vedere "Viene visualizzato il pulsante Carica applet" nella sezione [Risoluzione dei problemi](../office-integration/use-excel-add-in.md#troubleshooting) di questo argomento.
+    Il pulsante **Progettazione** è ora disponibile. Se il componente aggiuntivo di Excel ha un collegamento **Carica applet**, è probabile che la modalità di accesso non sia corretta. Per ulteriori informazioni su come risolvere questo problema, vedere l'argomento della sezione sulla risoluzione dei problemi [Carica applet](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane).
 
-7. Selezionare **Struttura**. Il componente aggiuntivo di Excel recupera i metadati dell'entità.
+7. Seleziona **Progettazione**. Il componente aggiuntivo di Excel recupera i metadati dell'entità.
 8. Selezionare **Aggiungi tabella**. Verrà visualizzato un elenco di entità. Le entità vengono elencate nel formato "Nome - Etichetta".
 9. Selezionare un'entità nell'elenco, ad esempio **Cliente - Clienti**, quindi selezionare **Avanti**.
 10. Per aggiungere un campo dell'elenco **Campi disponibili** all'elenco **Campi selezionati**, selezionare il campo, quindi **Aggiungi**. In alternativa, fare doppio clic sul campo nell'elenco **Campi disponibili**.
@@ -136,7 +136,7 @@ I dati letti nella cartella di lavoro di un ambiente possono essere copiati in u
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni semplici passaggi.
 
-- **Viene visualizzato il pulsante Carica applet** - Se il componente aggiuntivo di Excel mostra un pulsante **Carica applet** dopo l'accesso, è probabile che la modalità di accesso non sia corretta. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, selezionarlo, disconnettersi e accedere di nuovo.
+- **Viene mostrato il collegamento "Carica applet"** - Per ulteriori informazioni su questo problema, vedere l'argomento della sezione sulla risoluzione dei problemi [Carica applet](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane). 
 - **Viene visualizzato un messaggio "Non consentito"** - Se si riceve un messaggio "Non consentito" mentre il componente aggiuntivo di Excel sta caricando i metadati, l'account cui si accede nel componente aggiuntivo di Excel non dispone dell'autorizzazione a utilizzare il servizio, l'istanza o il database di destinazione. Per risolvere questo problema, verificare che il nome utente corretto sia visualizzato nell'angolo superiore destro del componente aggiuntivo di Excel. Se viene visualizzato un nome utente errato, selezionarlo, disconnettersi e accedere di nuovo.
 - **Una pagina Web vuota viene visualizzata sopra Excel** - Se una pagina Web vuota viene aperta durante il processo di accesso, l'account richiede AD FS, ma la versione di Excel in cui è in esecuzione il componente aggiuntivo di Excel non è abbastanza recente per caricare la finestra di dialogo di accesso. Per risolvere questo problema, aggiornare la versione di Excel in uso. Per aggiornare la versione di Excel quando si è in un'azienda che si trova sul canale differito, utilizzare lo [strumento di distribuzione di Office](/deployoffice/overview-office-deployment-tool) per [spostare dal canale differito al canale corrente](/deployoffice/overview-update-channels).
 - **Si riceve un timeout durante la pubblicazione delle modifiche ai dati** - Se ricevi messaggi di timeout mentre stai tentando di pubblicare le modifiche ai dati in un'entità, valuta la possibilità di ridurre le dimensioni del batch di pubblicazione per la cartella di lavoro interessata. Le entità che attivano quantità maggiori di logica sulle modifiche ai record potrebbero richiedere l'invio di aggiornamenti in batch più piccoli per evitare timeout.
