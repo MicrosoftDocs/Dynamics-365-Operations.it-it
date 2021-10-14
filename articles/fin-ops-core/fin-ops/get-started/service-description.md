@@ -2,19 +2,19 @@
 title: Descrizione del servizio per le app Finance and Operations
 description: Questo argomento fornisce la descrizione del servizio per le app Finance and Operations.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472507"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581818"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrizione del servizio per le app Finance and Operations
 
@@ -28,7 +28,7 @@ Le app Finance and Operations sono offerte di software come servizio (SaaS) ERP 
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Insieme a [business intelligence](/power-bi/fundamentals/power-bi-service-overview), [infrastruttura](https://azure.microsoft.com/global-infrastructure/), [calcolare](/azure/service-fabric/service-fabric-overview) e [servizi di database](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview), queste app consentono alle organizzazioni di eseguire processi aziendali e operativi specifici del settore. Supportati dal partner di implementazione, i clienti determinano la configurazione della logica dell'applicazione aziendale che meglio si adatta ai loro processi aziendali unici. Funzionalità e processi aziendali possono essere aumentati o estesi attraverso una o una combinazione delle seguenti soluzioni:
+Insieme a [business intelligence](/power-bi/fundamentals/power-bi-service-overview), [infrastruttura](https://azure.microsoft.com/global-infrastructure/), [calcolare](/azure/service-fabric/service-fabric-overview) e [servizi di database](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/), queste app consentono alle organizzazioni di eseguire processi aziendali e operativi specifici del settore. Supportati dal partner di implementazione, i clienti determinano la configurazione della logica dell'applicazione aziendale che meglio si adatta ai loro processi aziendali unici. Funzionalità e processi aziendali possono essere aumentati o estesi attraverso una o una combinazione delle seguenti soluzioni:
 
 - [esperienza di personalizzazione](personalize-user-experience.md) integrata
 - Strumenti di [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)
@@ -197,17 +197,17 @@ La tabella seguente descrive alcuni scenari e attività tipiche per il servizio.
 | Effettua il provisioning di tutte le istanze di produzione e non di produzione. | X | |
 | Convalida le istanze di produzione e non di produzione distribuite. | | X |
 | **Aggiornamenti del servizio** | |
-| Microsoft applica gli aggiornamenti del servizio alle istanze designate non di produzione e di produzione. | X | X |
-| Scarica l'aggiornamento da LCS, definisci, sviluppa e testa l'aggiornamento e fornisci il pacchetto di aggiornamento del codice a LCS. | | X |
-| Richiedi che gli aggiornamenti delle estensioni vengano applicati all'istanza di produzione. | | X |
+| Applicare gli aggiornamenti del servizio alle istanze designate non di produzione e di produzione. | X | |
+| Applicare manualmente gli aggiornamenti del servizio da LCS alle istanze sandbox. Definire, sviluppare, testare l'aggiornamento e fornire il pacchetto di aggiornamento del codice a LCS. | | X |
+| Richiede e programmare le operazioni in modo che gli aggiornamenti delle estensioni vengano applicati all'istanza di produzione. | | X |
 | Crea un backup del codice e dei dati per l'istanza di produzione prima che vengano applicati gli aggiornamenti. | X | |
 | In caso di errore, eseguire il rollback dell'istanza di produzione al backup del codice e dei dati. | X | |
 | **Gestione dati (backup, ripristino e aggiornamento)** | | |
 | Eseguire il backup del database. | X | |
 | Determinare l'alta disponibilità e un piano di ripristino di emergenza. | X | |
-| Monitora le prestazioni del database dell'istanza di produzione. | X | X |
-| Ottimizza le prestazioni del database dell'istanza di produzione. | X | X |
-| Avvia la copia del database dell'istanza di produzione in un'istanza non di produzione. | | X |
+| Monitora le prestazioni del database dell'istanza di produzione. | X | |
+| Ottimizza le prestazioni del database dell'istanza di produzione. | X | |
+| Eseguire l'aggiornamento temporizzato del database delle istanze di produzione su un'istanza non di produzione. | | X |
 | **Aggiornamento dell'infrastruttura** | | |
 | Pianifica gli aggiornamenti regolari dell'infrastruttura. | X | |
 | **Scalabilità verso l'alto e verso il basso (utenti, spazio di archiviazione e istanze)** | | |
@@ -215,7 +215,7 @@ La tabella seguente descrive alcuni scenari e attività tipiche per il servizio.
 | Aggiorna le modifiche all'utilizzo nello Strumento di stima degli abbonamenti LCS. | | X |
 | Segnalare eventuali problemi di prestazioni significativi che influiscono sull'utilizzo del servizio. | | X |
 | Gestire in modo proattivo le risorse necessarie per il servizio applicabile. | X | |
-| Indagare e risolvere gli incidenti. | X | X |
+| Indagare e risolvere gli incidenti. | X | |
 | **Sicurezza (accesso utente)** | | |
 | Fornire all'utente l'accesso al servizio. | | X |
 | Fornire l'accesso al progetto LCS per la gestione e il funzionamento delle istanze che sono state distribuite tramite LCS. | | X |

@@ -1,7 +1,7 @@
 ---
 title: Panoramica dei contratti di assistenza
 description: Nel contratto di servizio, il cliente accetta un tempo minimo di risposta basato sulla data in cui la società di servizi registra l'uscita e quando il problema viene risolto.
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cda21ba84af2f38dd24d60903d0aacd21e07ae0722f8800c935aef43a81ee3c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 745d332b7839ea70e64053fe6aea83fd47ff327d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780968"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570107"
 ---
 # <a name="service-level-agreements-overview"></a>Panoramica dei contratti di assistenza       
 

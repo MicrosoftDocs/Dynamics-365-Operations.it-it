@@ -4,18 +4,18 @@ description: Questo argomento descrive le funzionalità nuove o modificate in Dy
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500557"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579738"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.21 (ottobre 2021)
 
@@ -26,20 +26,6 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 - **Anteprima della versione:** agosto 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** settembre 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** ottobre 2021
-
-## <a name="known-deployment-issue"></a>Problema di distribuzione noto
-
-Durante la distribuzione della versione 10.0.21 su IaaS, potresti ricevere il seguente avviso di distribuzione:
-
-**Codice avviso:** 95017
-
-**Messaggio di avvertimento:** Script \[SetupDiagnostics\] ha fallito l’esecuzione rispetto alla VM
-
-Il deployment funzionerà nonostante l'avvertimento. Tuttavia, i seguenti problemi noti possono verificarsi in Lifecycle Services (LCS):
-
-- Nella pagina **Monitoraggio ambiente** il collegamento **Visualizza informazioni dettagliate sulla versione** non verrà visualizzato, quindi non sarai in grado di vedere le versioni specifiche dei moduli installati nel tuo ambiente. Senza questi dati, gli aggiornamenti rapidi successivi potrebbero non riuscire perché il processo che applica gli aggiornamenti rapidi utilizza questi dati per verificare che i prerequisiti della versione del modulo siano soddisfatti. Poiché non è possibile utilizzare la build PEAP/anteprima in produzione o applicare aggiornamenti rapidi, l'impatto dovrebbe essere minimo.
-- Le schede **Metriche prestazioni** e **Analisi indice** della pagina **Monitoraggio ambiente** in SQL Insights non visualizzerà alcun dato. Tutte le altre funzionalità **Monitoraggio ambiente** funzioneranno come previsto.
-- La pagina **Diagnostica completa di sistema** non sarà accessibile. Anche i dati associati sullo stato delle esecuzioni del raccoglitore notturne e sui problemi rilevati dalle sue regole non verranno visualizzati.
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 

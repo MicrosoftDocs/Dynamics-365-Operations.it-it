@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772280"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581139"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operazione di magazzino in uscita in POS
 
@@ -116,7 +116,7 @@ Nella pagina **Elenco completo ordini**, è possibile selezionare manualmente un
 
 ### <a name="over-delivery-shipping-validations"></a>Convalide della spedizione per consegna in eccesso
 
-Le convalide si verificano durante il processo di ricezione per le righe del documento. Includono le convalide per consegna in eccesso. Se un utente tenta di ricevere più scorte di quelle ordinate in un ordine fornitore ma la consegna in eccesso non è configurata o la quantità ricevuta supera la tolleranza di consegna in eccesso configurata per la riga dell'ordine fornitore, l'utente riceve un errore e non è consentito ricevere la quantità in eccesso.
+Le convalide si verificano durante il processo di evasione per le righe del documento. Includono le convalide per consegna in eccesso. Se un utente tenta di spedire più scorte di quelle ordinate in un ordine di trasferimento ma la consegna in eccesso non è configurata o la quantità spedita supera la tolleranza di consegna in eccesso configurata per la riga dell'ordine di trasferimento, l'utente riceve un errore e non è consentito spedire la quantità in eccesso.
 
 ### <a name="underdelivery-close-lines"></a>Riga chiusura limite minimo di fornitura
 

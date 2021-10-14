@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83e75eee54516539be939e9547a8b637bbf2ab107ae96c07c4bbefaad75f1022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d4eb4fd4ea32db5aa19e9d2b1300818b3aaf6fc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768443"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594986"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Riutilizzare le configurazioni ER con i modelli Escel per generare report nel formato Word
 
@@ -90,7 +90,7 @@ Attualmente, il documento di Excel viene utilizzato come modello per generare l'
 
 È possibile eseguire ora il mapping degli elementi della parte XML personalizzata **Report** ai controlli di contenuto del documento Word.
 
-Se hai dimestichezza con il processo di progettazione dei documenti Word in formati che contengono [controli di contenuto](/office/client-developer/word/content-controls-in-word) mappati agli elementi di [parti XML personalizzate](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), completa tutti i passaggi della procedura successiva per creare il documento. Per ulteriori informazioni, vedere [Creare moduli che gli utenti completano o stampano in Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). In caso contrario, ignora la procedura successiva.
+Se hai dimestichezza con il processo di progettazione dei documenti Word in formati che contengono [controli di contenuto](/office/client-developer/word/content-controls-in-word) mappati agli elementi di [parti XML personalizzate](/visualstudio/vsto/custom-xml-parts-overview), completa tutti i passaggi della procedura successiva per creare il documento. Per ulteriori informazioni, vedere [Creare moduli che gli utenti completano o stampano in Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). In caso contrario, ignora la procedura successiva.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Ottenere un documento di Word che abbia una parte XML personalizzata ed eseguire il mapping dei dati
 

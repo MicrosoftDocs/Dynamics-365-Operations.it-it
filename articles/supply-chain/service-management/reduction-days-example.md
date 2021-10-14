@@ -1,7 +1,7 @@
 ---
 title: Esempio di giorni di riduzione
 description: Esempio di giorni di riduzione.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,30 +15,29 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ba0cfde66476d052f0c9a048977026341a5295c21603385c5b3774a15be5232
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727800"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567945"
 ---
-# <a name="reduction-days-example"></a>Esempio di giorni di riduzione 
+# <a name="reduction-days-example"></a>Esempio di giorni di riduzione
 
 [!include [banner](../includes/banner.md)]
-
 
 È stata creata una transazione di sottoscrizione per la sottoscrizione di manutenzione di un cliente come descritto nella seguente tabella.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,21 +65,20 @@ ms.locfileid: "6727800"
 </tbody>
 </table>
 
-
 Il cliente segnala che la copertura del servizio non è necessaria per due giorni (10 marzo e 11 marzo). Si concorda quindi di applicare una riduzione della sottoscrizione per i due giorni citati.
 
 Viene quindi creata una nuova transazione di tipo **Giorni riduzione** come descritto nella seguente tabella.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -108,16 +106,10 @@ Viene quindi creata una nuova transazione di tipo **Giorni riduzione** come desc
 </tbody>
 </table>
 
-
 Quando le transazioni per marzo 2011 vengono fatturate, il prezzo di vendita di EUR 200 viene ridotto a EUR 12,90. L'importo addebitabile per la transazione di sottoscrizione è pertanto EUR 187,10 e vengono fatturate due transazioni per un totale di EUR 187,10.
 
 ## <a name="see-also"></a>Vedere anche
 
 [Ridurre i giorni delle commissioni di sottoscrizione](reduce-the-days-on-subscription-fees.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

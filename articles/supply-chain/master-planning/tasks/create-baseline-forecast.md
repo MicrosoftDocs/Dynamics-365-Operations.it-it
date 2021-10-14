@@ -1,7 +1,7 @@
 ---
 title: 'Guida: creare una previsione di base'
 description: Un responsabile di pianificazione della produzione può creare una previsione di base utilizzando i modelli previsionali delle serie temporali o copiando la domanda storica.
-author: ShylaThompson
+author: ChristianRytt
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupA
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34a82dac3ea8cf87eeb184dee05ce27c83707e3082469e955e9ffbaf6da5c638
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 843e0b3827851e1251a2c77269859bb7903f69ec
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733470"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578322"
 ---
 # <a name="guide-create-a-baseline-forecast"></a>Guida: creare una previsione di base
 

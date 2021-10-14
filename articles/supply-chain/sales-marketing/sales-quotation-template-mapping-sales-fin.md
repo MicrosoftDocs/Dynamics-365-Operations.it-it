@@ -1,7 +1,7 @@
 ---
 title: Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
 description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a39b6b5fff88a02b71d81fd870e8c92ab055bc4d257e14c9b84cac0deac2c5c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46584f397e83bc68878ff5ef2848a251912811af
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771325"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566409"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
 
@@ -130,11 +130,11 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping nell'
 
 ### <a name="quoteheader"></a>QuoteHeader
 
-![Mapping dei modelli nell'integratore di dati.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
+![Mapping dei modelli nell'integratore di dati, QuoteHeader.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="quoteline"></a>QuoteLine
 
-![Mapping dei modelli nell'integratore di dati.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
+![Mapping dei modelli nell'integratore di dati, QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
 ## <a name="related-topics"></a>Argomenti correlati
 

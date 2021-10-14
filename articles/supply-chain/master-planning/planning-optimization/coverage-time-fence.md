@@ -16,14 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f32c3fd523c3272665b4b45b6d3e136591d12cda191766970ebfaf74b81f0558
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32bf890d1ff74155a75862afd6b0e861fbfc10e2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726860"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567321"
 ---
 # <a name="coverage-time-fences"></a>Intervalli temporali di copertura
+
+[!include [banner](../../includes/banner.md)]
 
 Questo argomento descrive come configurare gli *intervalli temporali di copertura* quando si utilizza Ottimizzazione pianificazione. I responsabili della pianificazione possono definire l'orizzonte di pianificazione (l'intervallo temporale di copertura in giorni) ed escludere la domanda e l'offerta che superano tale orizzonte. Pertanto, gli intervalli temporali di copertura aiutano a prevenire i "disturbi" causati da suggerimenti di domanda a cui non è necessario reagire per mesi. Gli esempi includono la previsione del prossimo anno e gli ordini dei clienti che vengono effettuati ben oltre il normale lead time.
 

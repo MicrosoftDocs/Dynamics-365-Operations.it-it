@@ -1,7 +1,7 @@
 ---
 title: Accumulo delle sottoscrizioni
 description: Con le sottoscrizioni di assistenza è possibile accumulare ricavi manualmente nei periodi successivi alla data in cui è stata fatturata una transazione sbilanciata.
-author: ShylaThompson
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d51bcdcc268cf0662ef3d82e6cc8581fd4894bba4b2f1f905b9dfd324cce98
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719577"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580482"
 ---
 # <a name="accruing-subscriptions"></a>Accumulo delle sottoscrizioni 
 
@@ -65,7 +65,7 @@ Per poter accumulare ricavi per le sottoscrizioni, è necessario che la casella 
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>Attivare l'attribuzione per competenza dei ricavi per un gruppo di sottoscrizioni
 
-1.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Sottoscrizioni assistenza** \> **Gruppo di sottoscrizioni**.
+Fare clic su **Gestione assistenza** \> **Impostazione** \> **Sottoscrizioni assistenza** \> **Gruppo di sottoscrizioni**.
 
 ## <a name="periods"></a>Periodi
 
@@ -75,8 +75,8 @@ Nella seguente tabella viene fornita una panoramica dei periodi di attribuzione 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

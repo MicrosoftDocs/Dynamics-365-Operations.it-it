@@ -1,8 +1,8 @@
 ---
 title: Area di lavoro gestione benefit
 description: In questo argomento viene descritta l'area di lavoro Gestione benefit in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/24/2021
+author: twheeloc
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719094"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512476"
 ---
 # <a name="benefits-management-workspace"></a>Area di lavoro gestione benefit
 
@@ -47,7 +47,7 @@ L'area di lavoro **Gestione benefit** fornisce una rapida visualizzazione dei be
 
 ## <a name="view-action-items"></a>Visualizzare elementi di azione
 
-Puoi visualizzare le tue azioni selezionando un riquadro o una scheda. Se selezioni una scheda, puoi visualizzare e selezionare i lavoratori direttamente nella pagina dell'area di lavoro.
+È possibile visualizzare le proprie azioni selezionando un riquadro o una scheda. Se si seleziona una scheda, è possibile visualizzare e selezionare i lavoratori dalla pagina dell'area di lavoro.
 
 ![Elementi di azione.](./media/hr-benefits-management-workspace-action-items.png)
 
@@ -60,11 +60,11 @@ Se selezioni un riquadro, vai alla pagina relativa a quell'area. Ad esempio, sel
 
 ![Piani di benefit lavoratore.](./media/hr-benefits-management-workspace-plans.png)
 
-La selezione dei riquadri **Eventi reali attivi** o **Eventi reali futuri** comporta la visualizzazione di un elenco di eventi reali attivi o futuri.
+La selezione di **Eventi reali attivi** o **Eventi reali futuri** comporta la visualizzazione di un elenco di eventi reali attivi o futuri.
 
 ![Eventi reali.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>Elaborazione
+## <a name="processing"></a>In elaborazione
 
 Per elaborare l'idoneità di iscrizione, gli eventi reali o gli aggiornamenti del tasso, selezionare l'elemento appropriato nella barra di navigazione.
 
@@ -84,13 +84,46 @@ Per ulteriori informazioni sull'elaborazione dei benefit, vedi:
 
 ## <a name="change-period"></a>Modifica periodo
 
-Per visualizzare un diverso periodo di benefit, selezionalo nell'elenco a discesa **Periodo**.
+Per visualizzare un diverso periodo di benefit, selezionarlo nell'elenco a discesa **Periodo**.
 
 ![Modifica periodo.](./media/hr-benefits-management-workspace-period.png)
 
+
+## <a name="open-enrollment-tab"></a>Scheda Iscrizione aperta
+
+È possibile visualizzare le proprie azioni selezionando un riquadro o una scheda. Se si seleziona una scheda, è possibile visualizzare e selezionare i lavoratori sulla pagina dell'area di lavoro.
+La scheda **Iscrizione aperta** fornisce le metriche chiave per il processo di iscrizione aperta. 
+
+Le informazioni relative all'iscrizione aperta verranno visualizzate 30 giorni prima della **Data di inizio iscrizione**. Questa data è definita nella configurazione **Periodi** in **Gestione benefit** > **Collegamenti** > **Periodi**, nel campo **Data di inizio iscrizione**.  Per modificare questa impostazione, andare a **Parametri condivisi Risorse umane** > **Gestione benefit** > **Opzioni iscrizione aperta** e aggiornare il campo **Numero di**.  
+
+Le seguenti informazioni sono disponibili sulla scheda **Iscrizione aperta**:
+ - Dipendenti che non hanno avviato il processo di iscrizione aperta
+ - Dipendenti con idoneità in corso
+ - Dipendenti con processo di idoneità completato
+ - Selezioni non confermate
+
+**Sezioni Riepilogo**
+
+- **Non avviato** - Il riquadro **Non avviato** mostra il numero dei dipendenti che non hanno avviato il processo di iscrizione. Il riquadro **Non avviato** è un elenco filtrato che mostra solo i dipendenti che non hanno alcun piano selezionato, che hanno rinunciato o con piani estratti per il periodo del piano dell'iscrizione aperta. I piani obbligatori vengono ignorati e non sono inclusi perché sono selezionati per impostazione predefinita per il dipendente.  È possibile eseguire il drill-back su questo riquadro per visualizzare un elenco di dipendenti che non hanno avviato il processo di iscrizione aperta sulla pagina **Piano di benefit del lavoratore**.
+
+  > [!NOTE]
+  > Se non si desidera monitorare lo stato di avanzamento dell'iscrizione aperta per un **Tipo di piano**, è possibile escluderlo andando a **Gestione benefit** > **Collegamenti** > **Parametri self-service dipendenti** > **Configurazione riquadro piani di benefit** e aggiornando il campo **Monitora stato di avanzamento iscrizione aperta**.  Ad esempio, potrebbero essere presenti piani creati in cui **Tipo di piano** = **Altro**. Questi piani potrebbero essere piani facoltativi per i quali non si desidera monitorare lo stato di avanzamento dell'iscrizione. Se non si seleziona questo tipo di piano, i piani di queste tipologie verranno ignorati durante il monitoraggio dello stato di avanzamento o di completamento dell'iscrizione sulla scheda **Iscrizione aperta**. Questa impostazione si applica al tipo di piano selezionato per tutti i periodi e le persone giuridiche.
+
+- **In corso** - Il riquadro **In corso** fornisce il numero dei dipendenti con idoneità in corso. Il riquadro **In corso** è un elenco filtrato che mostra solo i dipendenti che hanno almeno un piano selezionato e a cui hanno rinunciato. I piani obbligatori vengono ignorati e non sono inclusi perché sono selezionati per impostazione predefinita per il dipendente. È possibile eseguire il drill-back da questo riquadro per visualizzare i piani selezionati e a cui hanno rinunciato sulla pagina **Aggiornamento in blocco dei piani di benefit per lavoratori**.
+
+- **Iscritto ai benefit** - Il riquadro **Iscritto ai benefit** fornisce il,numero dei dipendenti con iscrizione completa ai benefit. Il riquadro **Iscritto ai benefit** è un elenco filtrato che mostra i dipendenti che hanno selezionato o rinunciato a tutti i piani. La query escluderà i piani che non vengono monitorati per l'iscrizione aperta sulla pagina **Parametri self-service dipendenti**. È possibile eseguire il drill-back da questo riquadro per visualizzare un elenco di dipendenti sulla pagina **Piani di benefit lavoratori**.
+
+- **Selezioni non confermate** - Il riquadro **Selezioni non confermate** mostra il numero dei dipendenti che hanno piani selezionati o a cui hanno rinunciato e che devono essere confermati. È possibile eseguire il drill-back da questo riquadro per visualizzare la pagina **Aggiornamento in blocco dei piani di benefit per lavoratori**.
+
+**Attività**
+
+- **Non avviato** - La scheda **Non avviato** mostra un elenco dei dipendenti che non hanno avviato il processo di iscrizione. Il riquadro **Non avviato** è un elenco filtrato che mostra i dipendenti che non hanno alcun piano selezionato, che hanno rinunciato o con piani estratti per il periodo del piano dell'iscrizione aperta. I piani obbligatori vengono ignorati e non sono inclusi perché sono selezionati per impostazione predefinita per il dipendente. È possibile eseguire il drill-down sul lavoratore per visualizzare la pagina **Dettaglio piani di benefit del lavoratore**.
+
+- **Idoneità in corso** - La scheda **Idoneità in corso** mostra un elenco di dipendenti con idoneità in corso. Il riquadro **Idoneità in corso** è un elenco filtrato che mostra i dipendenti che hanno almeno un piano selezionato e a cui hanno rinunciato. I piani obbligatori vengono ignorati e non sono inclusi perché sono selezionati per impostazione predefinita per il dipendente. È possibile eseguire il drill-down sul lavoratore per visualizzare la pagina **Dettaglio piani di benefit del lavoratore**.
+
 ## <a name="view-more-options"></a>Visualizzare ulteriori opzioni
 
-Per visualizzare ulteriori informazioni e azioni che puoi eseguire, selezionare **Collegamenti**.
+Per visualizzare ulteriori informazioni e/o azioni aggiuntive, selezionare **Collegamenti**.
 
 ![Collegamenti.](./media/hr-benefits-management-workspace-links.png)
 

@@ -2,7 +2,7 @@
 title: Gestione delle informazioni del cliente per l'Italia
 description: In questo argomento viene descritto come gestire le informazioni relative al cliente nel POS per l'Italia.
 author: sepism
-ms.date: 09/07/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fd8fca058deaaef9d8d93b7e2047af5e4f37087c
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: 240276c0f7a85f2b277b7317d0b3c4c1932df98e
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478657"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512599"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 
@@ -63,7 +63,7 @@ Nella pagina **Griglie dei pulsanti**, selezionare la griglia dei pulsanti in cu
 
 Se le informazioni del cliente non sono specificate per una transazione di vendita, una richiesta per tali informazioni può essere attivata automaticamente dopo la finalizzazione della transazione. Questo approccio è un'alternativa all'operazione **Aggiungi informazioni cliente**.
 
-Per attivare la richiesta di informazioni cliente, impostare l'opzione **Abilita richiesta informazioni sul cliente nelle transazioni di vendita** su **Sì** nella sezione **Parametri imposte** della Scheda dettaglio **Funzioni** della pagina **Profili funzionalità POS**.
+Per attivare la richiesta di informazioni cliente, abilitare la funzionalità **(Italia) Gestione delle informazioni cliente in Retail POS** nell'area di lavoro **Gestione funzionalità** e impostare l'opzione **Abilita richiesta informazioni sul cliente nelle transazioni di vendita** su **Sì** nella sezione **Parametri fiscali** nella Scheda dettaglio **Funzioni** della pagina **Profili funzionalità POS**.
 
 ### <a name="set-up-receipt-formats"></a>Impostare formati di ricevuta
 

@@ -1,23 +1,23 @@
 ---
 title: Allocazione automatica degli addebiti
 description: La funzionalità degli addebiti in Microsoft Dynamics 365 Supply Chain Management aiuta ad allocare automaticamente gli addebiti agli ordini fornitori o agli ordini clienti.
-author: dasani-madipalli
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753941"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592542"
 ---
 # <a name="automatic-allocation-of-charges"></a>Allocazione automatica degli addebiti
 
@@ -26,6 +26,16 @@ ms.locfileid: "6753941"
 In base al cliente con cui si sta lavorando o all'articolo che si sta vendendo, è possibile voler applicare addebiti aggiuntivi specifici. La funzionalità degli *addebiti* in Microsoft Dynamics 365 Supply Chain Management aiuta ad allocare automaticamente gli addebiti agli ordini fornitori o agli ordini clienti.
 
 Gli addebiti automatici vengono applicati automaticamente quando si crea un ordine cliente o un ordine fornitore. È possibile definire gli addebiti automatici per fornitori, clienti, gruppi di fornitori o articoli. È inoltre possibile definire gli addebiti automatici applicabili a tutti i fornitori, clienti o articoli.
+
+## <a name="set-up-parameters"></a>Imposta parametri
+
+La pagina **Parametri di approvvigionamento** ha alcune impostazioni che sono particolarmente pertinenti quando si desidera allocare gli addebiti automaticamente. Per completare questa impostazione, attenersi alla procedura seguente.
+
+1. Passare a **Approvvigionamento \> Impostazione \> Parametri di approvvigionamento**.
+1. Aprire la scheda **Prezzi**.
+1. Nella Scheda dettaglio **Prezzi**, effettuare le seguenti impostazioni:
+    - **Trova addebiti automatici per intestazione** - Specifica se gli addebiti devono essere allocati automaticamente per le intestazioni ordine fornitore. Impostare questa opzione su *Sì* per utilizzare l'allocazione automatica degli addebiti.
+    - **Trova addebiti automatici per riga** - Specifica se gli addebiti devono essere allocati automaticamente per le righe ordine fornitore. Impostare questa opzione su *Sì* per utilizzare l'allocazione automatica degli addebiti.
 
 ## <a name="set-up-charges-codes"></a>Impostare i codici di addebito
 

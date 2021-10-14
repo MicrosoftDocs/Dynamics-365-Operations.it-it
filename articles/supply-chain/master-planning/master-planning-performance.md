@@ -1,7 +1,7 @@
 ---
 title: Migliorare le prestazioni di pianificazione generale
 description: In questo argomento vengono illustrate le varie opzioni che consentono di migliorare le prestazioni di pianificazione generale o risolvere i problemi.
-author: t-benebo
+author: ChristianRytt
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 45e77ee43f6f96edb29924fc420172525e95e46f98f19177ba7253a2119db9ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717294"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570923"
 ---
 # <a name="improve-master-planning-performance"></a>Migliorare le prestazioni di pianificazione generale
 

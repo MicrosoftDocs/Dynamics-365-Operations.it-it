@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343814"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594859"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurare l'esperienza della Guida per le app Finance and Operations
 
@@ -30,7 +30,7 @@ In questo argomento, troverai una panoramica dei componenti del sistema della Gu
 
 ## <a name="help-architecture"></a>Architettura della Guida
 
-Le app Finance and Operations includono panoramiche concettuali e altri argomenti pubblicati sul sito [https://docs.microsoft.com/dynamics365](/dynamics365/). È possibile accedere a questo contenuto dal riquadro della **Guida** interno al prodotto. La figura seguente mostra le parti della Guida.
+Le app Finance and Operations includono panoramiche concettuali e altri argomenti pubblicati sul sito della [documentazione di Microsoft Dynamics 365](/dynamics365/). È possibile accedere a questo contenuto dal riquadro della **Guida** interno al prodotto. La figura seguente mostra le parti della Guida.
 
 [![Architettura della Guida.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ Il sistema della Guida interno al prodotto estrae articoli da docs.microsoft.com
 ## <a name="adding-task-guides"></a>Aggiunta di guide per le attività
 
 > [!NOTE]
-> La scheda **Guide attività** non è attualmente disponibile in Human Resources o Commerce. <!--We are currently working to enable this functionality in a future release.--> Tuttavia, le guide attività nell'esperienza Attività iniziali in Human Resources rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è disponibile nel sito [https://docs.microsoft.com/dynamics365](/dynamics365/) per Human Resources e Commerce.
+> La scheda **Guide attività** non è attualmente disponibile in Human Resources o Commerce. <!--We are currently working to enable this functionality in a future release.--> Tuttavia, le guide attività nell'esperienza Attività iniziali in Human Resources rimangono disponibili per coprire le funzionalità di base. La Guida sulle procedure è disponibile nel sito della [documentazione di Microsoft Dynamics 365](/dynamics365/) per Human Resources e Commerce.
 
 Nella pagina **Parametri di sistema**, gli amministratori di sistema possono configurare l'accesso alle librerie della guida attività pertinenti per un'implementazione.
 
