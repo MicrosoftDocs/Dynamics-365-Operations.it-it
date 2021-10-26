@@ -2813,6 +2813,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Creare un nuovo accordo commerciale
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Miglioramenti prestazioni di pulizia storico vendite
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Gestione assistenza
           items:
             - name: Panoramica gestione dei servizi
@@ -3711,6 +3713,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Vendite e marketing
               items:
+                - name: Il processo di pulizia dello storico aggiornamenti vendite non riesce o presenta problemi di prestazioni
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: Un articolo in aggregazione non è supportato in un processo interaziendale
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: Impossibile annullare un ordine fornitore interaziendale collegato a un ordine cliente

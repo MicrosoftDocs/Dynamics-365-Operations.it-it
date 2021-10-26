@@ -1194,6 +1194,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Funzionalità di valuta nei report finanziari
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: Calcolo degli utili non distribuiti in Creazione di report finanziari
+              href: general-ledger/retained-earnings-enhancements.md
             - name: Report finanziari dello stato patrimoniale
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Generare report finanziari

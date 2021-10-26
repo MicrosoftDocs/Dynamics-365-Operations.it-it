@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733613"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605281"
 ---
 # <a name="financial-reporting-faq"></a>Domande frequenti sulla creazione di report finanziari
 
@@ -101,5 +101,28 @@ Per la conversione della valuta storica è possibile utilizzare i saldi periodo 
 Quando i dati presentati nei report vengono aggiornati, potrebbe verificarsi un ritardo poiché gli importi devono essere ricalcolati controllando i dettagli della transazione. Questo ritardo viene attivato ogni volta che i tassi vengono aggiornati o vengono registrate altre transazioni. Ad esempio, se migliaia di conti sono impostati per la conversione storica un paio di volte al giorno, potrebbe verificarsi un ritardo fino a un'ora prima che i dati del report vengano aggiornati. Se invece c'è un numero contenuto di conti specifici, i tempi di elaborazione per gli aggiornamenti dei dati del report possono essere ridotti a pochi minuti.
 
 Allo stesso modo, quando i report vengono generati utilizzando la conversione di valuta per i conti di tipo storico, vengono effettuati calcoli aggiuntivi per ogni transazione. A seconda del numero di conti, il tempo di generazione dei report può più che raddoppiare.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Quali sono gli intervalli di integrazione di data mart stimati?
+
+Financial Reporter utilizza 16 attività per copiare i dati da Dynamics 365 Finance nel database di Financial Reporter. La tabella seguente elenca queste 16 attività e mostra l'intervallo che specifica la frequenza di esecuzione di ciascuna attività. Gli intervalli non possono essere modificati.
+
+| Nome                                                       | Intervallo | Intervallo di tempo |
+|------------------------------------------------------------|----------|-----------------|
+| Da categorie di conti AX 2012 a Categoria di conti            | 41       | Minuti         |
+| Da conti AX 2012 a conto                                | 7        | Minuti         |
+| Da società AX 2012 a società                               | 300      | Secondi         |
+| Da società AX 2012 all'organizzazione                          | 23       | Minuti         |
+| Da combinazioni di dimensioni AX 2012 a combinazione di dimensioni    | 1        | Minuti         |
+| Da valori di dimensione AX 2012 a valore di dimensione                | 11       | Minuti         |
+| Da dimensioni AX 2012 a dimensione                            | 31       | Minuti         |
+| Da tassi di cambio AX 2012 a tasso di cambio                    | 17       | Minuti         |
+| Da anni fiscali AX 2012 ad anno fiscale                        | 13       | Minuti         |
+| Da transazioni di contabilità generale AX 2012 a fatto                | 1        | Minuti         |
+| Da gerarchie organizzative AX 2012 ad albero                   | 3.600    | Secondi         |
+| Da scenari AX 2012 a scenario                              | 29       | Minuti         |
+| Qualificatori del tipo di transazione AX 2012 al qualificatore del tipo di fatto | 19       | Minuti         |
+| Attività di manutenzione                                           | 1        | Minuti         |
+| Da definizioni di report MR a report finanziari AX7             | 45       | Secondi         |
+| Da versioni di report MR a versioni di report finanziario AX         | 45       | Secondi         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

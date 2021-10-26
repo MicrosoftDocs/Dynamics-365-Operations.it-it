@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: Rimborsi collegati
                   href: dev-itpro/linked-refunds.md
+                - name: Elaborare i rimborsi non collegati con Dynamics 365 Commerce Payment Connector per Adyen
+                  href: dev-itpro/unlinked-refunds.md
                 - name: Vendere e restituire prodotti non inclusi nell'assortimento di un punto vendita
                   href: sell-return-outside-assortments.md
                 - name: Configurare ed elaborare uno scambio in un ordine di reso
