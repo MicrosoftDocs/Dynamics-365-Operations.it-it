@@ -1,8 +1,8 @@
 ---
 title: Panoramica dei consolidamenti finanziari e delle conversioni di valuta
 description: In questo argomento vengono descritti i consolidamenti finanziari e le conversioni di valuta nella contabilità generale.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748982"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615937"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Panoramica consolidamenti finanziari e conversione valuta
 
@@ -182,5 +182,17 @@ Di seguito sono riportati alcuni degli scenari di consolidamento supportati dall
 ## <a name="generating-consolidated-financial-statements"></a>Generazione di rendiconti finanziari consolidati
 Per informazioni sugli scenari in cui si potrebbero generare rendiconti finanziari consolidati, vedere [Generare rendiconti finanziari consolidati](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Prestazioni migliorate per consolidamenti di grandi dimensioni
+
+Gli ambienti con molte transazioni di contabilità generale potrebbero essere eseguiti più lentamente di quanto non sia ottimale. Per risolvere questo problema, è possibile impostare l'elaborazione parallela dei batch che utilizza un numero di date definito dall'utente. Per garantire che la soluzione funzioni come previsto, aggiungere un punto di estensione al consolidamento per restituire un contenitore di intervalli di date. L'implementazione di base deve contenere un intervallo di date per lo stato di inizio e la data di fine del consolidamento. Gli intervalli di date nell'implementazione di base verranno convalidati per garantire che non contengano lacune o sovrapposizioni. Gli intervalli di date verranno utilizzati per creare aggregazioni batch parallele per ciascuna azienda.
+
+Puoi personalizzare il numero di intervalli di date per soddisfare i requisiti della tua organizzazione. Personalizzando il numero di intervalli di date, puoi semplificare i test e ridurre al minimo l'impatto sul codice esistente, poiché non esiste una logica di allocazione. Gli unici nuovi test richiesti convalidano la creazione di aggregazioni in batch, convalidano intervalli di date e testano un sottoinsieme di intervalli di date per verificare che i batch possano essere riuniti per l'attività batch finale. 
+
+Questa funzionalità migliora il processo di consolidamento in Contabilità generale quando il processo viene eseguito in batch. Il miglioramento ottimizza le prestazioni del processo di consolidamento della contabilità generale suddividendo il consolidamento in più attività che possono essere elaborate in parallelo. Nel metodo predefinito di esecuzione di un consolidamento, ogni attività elabora otto giorni di attività di contabilità generale. Tuttavia, è stato aggiunto un punto di estensione che consente di personalizzare il numero di attività create.
+
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro **Gestione funzionalità** per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+
+- **Modulo:** Contabilità generale
+- **Nome funzionalità:** Prestazioni migliorate per consolidamenti di grandi dimensioni
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

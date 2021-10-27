@@ -1,8 +1,8 @@
 ---
 title: Impostare buoni sconto per le vendite al dettaglio
-description: In questo argomento viene fornita una panoramica dei buoni sconto e illustra come configurarli.
-author: scott-tucker
-ms.date: 06/04/2020
+description: In questo argomento viene fornita una panoramica dei buoni sconto e illustra come configurarli in Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bc79970528e23397b756fa15a715fba834edcc06e4522c6c35b64aede4976300
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745310"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603125"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Impostare buoni sconto per le vendite al dettaglio
 
@@ -40,6 +40,8 @@ Per creare un buono sconto, verranno creati separatamente lo sconto e il buono s
 > Dopo che un buono sconto è stato collegato a uno sconto, diversi campi presenti nella pagina dei buoni sconto in Commerce diventano di sola lettura, poiché vengono gestiti dalle impostazioni del buono sconto. Questi campi includono i campi per lo stato e gli intervalli di date standard.
 > 
 > Durante l'utilizzo del coupon nel canale del call center, è necessario selezionare il pulsante **Ricalcola** **(Scheda Vendi > Calcola > Ricalcola)** affinché venga applicato lo sconto associato al coupon. Questo passaggio aggiuntivo verrà rimosso in una versione futura.
+
+Per applicare un buono sconto a una transazione di vendita nel punto vendita (POS), puoi utilizzare **Codice buono sconto** o **Codice a barre buono sconto**. Per usare **Codice buono sconto**, l'operazione **Aggiungi il codice buono sconto** deve essere configurata nel POS **Transazione** [layout dello schermo](pos-screen-layouts.md). Seleziona **Aggiungi il codice buono sconto** e inserisci il codice buono sconto. In alternativa, per usare **Codice a barre buono sconto**, scansiona il codice a barre o inserisci il codice a barre utilizzando la tastiera numerica nella schermata **Transazione**.
 
 ### <a name="limited-use-coupons"></a>Buoni sconti a utilizzo limitato
 

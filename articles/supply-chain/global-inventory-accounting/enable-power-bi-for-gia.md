@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773347"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641113"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Abilitare Power BI per contabilità inventario globale
 
@@ -49,7 +49,10 @@ Seguire questi passaggi per configurare Power BI.
 1. Configura il report Power BI **Contabilità inventario globale** seguendo questi passaggi:
 
     1. Vai a **Area di lavoro personale**, trova il set di dati per Contabilità inventario globale, quindi, sul menu **Opzioni** seleziona **Impostazioni**.
-    1. In **Impostazioni per Contabilità inventario globale**, espandi **Parametri** e aggiorna tutti i parametri come richiesto.
+    1. In **Impostazioni per Contabilità inventario globale**, espandi **Parametri** e aggiorna tutti i parametri come richiesto. In particolare, assicurati di controllare le seguenti impostazioni:
+        1. Sovrascrivi i valori predefiniti **URL Dataverse** e **ID ambiente** utilizzando i valori trovati nella pagina **Dettagli ambiente** in LCS (nella sezione **Integrazione di Power Platform**).
+        1. Seleziona il collegamento **Modifica credenziali** accanto all'etichetta **CD** nella sezione **Credenziali dell'origine dati**. Quindi accedi al tuo account Dataverse utilizzando il metodo di autenticazione **OAuth2**.
+    1. Verificare che i report Power BI trovati in **Area di lavoro personale \> Report \> Contabilità inventario globale** ora funzionano correttamente e visualizzano il contenuto dal tuo sistema.
 
 1. Registra l'applicazione come descritto in [Configurare l'integrazione di PowerBI.com](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
 1. Integra il file di report Power BI **Contabilità inventario globale** in Dynamics 365 Supply Chain Management seguendo questi passaggi:

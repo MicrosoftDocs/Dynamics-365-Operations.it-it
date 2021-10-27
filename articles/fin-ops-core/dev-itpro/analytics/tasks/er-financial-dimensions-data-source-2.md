@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 921077cb3bc2d01c418f653194e948a2f29cc90dbd562d022ca69aa083a6ef54
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713896"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605407"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)
 
@@ -56,14 +56,14 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 21. Selezionare Sì nel campo Chiedi conto principale.
     * Impostare "Chiedi conto principale" su Sì per consentire agli utenti di selezionare il conto principale come parte dell'elenco delle dimensioni.   Se l'opzione impostata su No, il conto principale non verrà incluso nell'elenco delle dimensioni e l'opzione "Conto principale obbligatorio" è abilitata. Se "Conto principale obbligatorio" è impostato su Sì, include il conto principale nell'elenco delle dimensioni indipendentemente dalla selezione dell'utente.  
 22. Fare clic su OK.
-![Finestra di progettazione mapping modello ER.](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Le proprietà dell'origine dati dei dettagli delle dimensioni finanziarie scorrono verso l'esterno.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Nella struttura selezionare 'Dynamics 365 for Operations\Record di tabella'.
 24. Fare clic su Aggiungi radice.
 25. Nel campo Nome digitare 'LedgerJournal'.
 26. Selezionare Sì nel campo Chiedi query.
 27. Nel campo Tabella digitare 'LedgerJournalTable'.
 28. Fare clic su OK.
-![Finestra di progettazione mapping modello ER.](../media/er-financial-dimensions-guides-model-mapping2.png)
+![Pagina di progettazione mapping del modello, tipo di origine dati record tabella.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Mappare gli elementi del modello dati alle origini dati aggiunte
 1. Nella struttura espandere 'Giornale di registrazione'.
@@ -94,7 +94,7 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 25. Nella struttura selezionare 'LedgerJournal\<Relazioni\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Conto principale e dimensioni'.
 26. Nella struttura selezionare 'Giornale di registrazione\Transazione\Dati dimensioni'.
 27. Fare clic su Associa.
-![Finestra di progettazione mapping modello ER.](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Pagina di progettazione mapping modello, scheda Mapping, albero origini dati.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Nella struttura selezionare 'LedgerJournal\<Relazioni\LedgerJournalTrans\Dare(AmountCurDebit)'.
 29. Nella struttura selezionare 'Giornale di registrazione\Transazione\Dare'.
 30. Fare clic su Associa.
@@ -144,7 +144,7 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 3. Fare clic su Cambia stato.
 4. Fare clic su Completa.
 5. Fare clic su OK.
-![Finestra di progettazione mapping modello ER.](../media/er-financial-dimensions-guides-model-mapping5.png)
+![Pagina delle configurazioni ER.](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9972c5761a8445c6802f58b0ffad6226cf8ee38c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 14f0e07913af708e9eb3491ab4bc99e85462e5dd
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568689"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645808"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Differenze tra la pianificazione generale integrata e l'ottimizzazione della pianificazione
 
@@ -29,7 +29,7 @@ I risultati di Planning Optimization potrebbero differire dai risultati del moto
 | Dimensioni estensibili | Le dimensioni estensibili sono vuote sugli ordini pianificati, anche quando la casella di controllo **Piano di copertura per dimensione** è selezionata nella pagina **Gruppi di dimensioni di stoccaggio** o **Gruppi di dimensioni di monitoraggio** . |
 | Corse di produzione filtrate | Per i dettagli, vedere [Pianificazione della produzione - Filtri](production-planning.md#filters). |
 | Pianificazione previsionale | La pianificazione delle previsioni non è supportata. Si consiglia di utilizzare la pianificazione principale in cui un modello di previsione è assegnato al piano principale. |
-| Sequenze di numeri per ordini pianificati | Le sequenze di numeri per gli ordini pianificati non sono supportate. I numeri d'ordine pianificati sono generati sul lato servizio. |
+| Sequenze di numeri per ordini pianificati | Le sequenze di numeri per gli ordini pianificati non sono supportate. I numeri d'ordine pianificati sono generati sul lato servizio. Il numero dell'ordine pianificato viene normalmente visualizzato con 10 cifre, ma la sequenza è in realtà costituita da 20 caratteri, con 10 cifre allocate per il conteggio dell'esecuzione della pianificazione e le altre 10 cifre per il conteggio degli ordini pianificati. |
 | Copia del piano, cancellazione del piano e pulizia della versione del piano | <p>I seguenti elementi sono disabilitati sotto **Pianificazione principale \> Pianificazione principale \> Mantenere i piani** nel pannello di navigazione:</p><ul><li>Copia del piano</li><li>Elimina piano</li><li>Pulitura versione piano</li></ul> |
 | Ordini di reso | Gli ordini di ritorno non sono considerati. |
 | Caratteristiche relative alla programmazione | Per i dettagli, vedere [Programmazione con capacità infinita](infinite-capacity-planning.md#limitations). |

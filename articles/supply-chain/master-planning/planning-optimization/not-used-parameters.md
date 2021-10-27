@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 61cdbe3d966d06193b1dc5c145233e53be3946ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7e1b4e6df2c514b55ec101c0edf22590041628
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571067"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645760"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parametri non utilizzati da Ottimizzazione pianificazione
 
@@ -53,18 +53,6 @@ Ottimizzazione pianificazione non utilizza i seguenti parametri o opzioni nella 
   - **Ora ricevuta**: in attesa del supporto *Programmazione*.
   - **Produzione**: in attesa del supporto *Programmazione*.
   - Campi nella sezione **Progetto**: in attesa del supporto *Pianificazione*.
-
-- Scheda **Aggiornamento standard**:
-
-  - **Aggiorna contrassegno**: in attesa del supporto *Stabilizzazione*.
-  - **Interrompi stabilizzazione se si verifica un errore**: in attesa del supporto *Stabilizzazione*.
-  - **Raggruppa per fornitore**: in attesa del supporto *Stabilizzazione*.
-  - **Raggruppa per gruppo acquirenti**: in attesa del supporto *Stabilizzazione*.
-  - **Raggruppa per contratto di acquisto**: in attesa del supporto *Stabilizzazione*.
-  - **Raggruppa per periodo**: in attesa del supporto *Stabilizzazione*.
-  - **Trova contratto di acquisto**: in attesa del supporto *Stabilizzazione*.
-  - **Raggruppa per priorità pianificazione**: in attesa del supporto *Stabilizzazione*.
-  - **Raggruppa per periodo**: in attesa del supporto *Stabilizzazione*.
 
 ## <a name="coverage-groups-page"></a>Pagina Gruppi di copertura
 

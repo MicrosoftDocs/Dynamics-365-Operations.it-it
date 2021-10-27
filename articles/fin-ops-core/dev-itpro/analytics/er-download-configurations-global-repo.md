@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724419"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605333"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Scaricare configurazioni ER dall'archivio globale del servizio di configurazione
 
@@ -63,7 +63,7 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
     > [!NOTE]
     > Il pulsante **Importa** non è disponibile per le versioni di configurazione ER già presenti nell'istanza corrente di Finance.
 
-    ![Pagina Archivio di configurazione.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Pagina dell'archivio di configurazione, scheda dettaglio Configurazioni.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importare configurazioni filtrate
 
@@ -77,7 +77,7 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
 4. Nella Scheda dettaglio **Configurazioni**, selezionare **Importa** per scaricare le configurazioni filtrate dall'archivio globale nell'istanza corrente.
 5. Nella Scheda dettaglio **Configurazioni**, selezionare **Reimposta filtro** per ripulire le condizioni di selezione specificate.
 
-    ![Pagina Archivio di configurazione.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Pagina archivio di configurazione, scheda dettaglio Versioni, pulsante Importa.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > A seconda delle impostazioni ER, le configurazioni vengono convalidate dopo l'importazione. È possibile ricevere una notifica per tutti i problemi di incoerenza rilevati. Prima di utilizzare la versione di configurazione importata, è necessario risolvere i problemi. Per ulteriori informazioni, vedere l'elenco delle risorse correlate per questo argomento.

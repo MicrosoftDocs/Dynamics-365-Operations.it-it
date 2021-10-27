@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500429"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641162"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -171,7 +171,8 @@ La seguente funzionalità di gestione del magazzino non è attualmente supportat
 - Elaborazione con scorte disponibili negative.
 - Elaborazione del lavoro di magazzino con note di spedizione.
 - Elaborazione del lavoro di magazzino con movimentazione dei materiali/Warehouse Automation.
-- Utilizzo dell'immagine dei dati master del prodotto (ad esempio, sull'app per dispositivi mobili Warehouse Management).
+- Immagini rappresentazione generale prodotto (ad esempio, sull'app per dispositivi mobili Warehouse Management).
+- Condivisione dati interaziendali per prodotti.
 
 > [!WARNING]
 > Alcune funzionalità di magazzino non saranno disponibili per i magazzini che eseguono i carichi di lavoro di gestione del magazzino su un'unità di scala e inoltre non sono supportate sull'hub o sul carico di lavoro dell'unità di scala.
@@ -188,8 +189,7 @@ La tabella seguente mostra quali funzionalità in uscita sono supportate e dove 
 |--------------------------------------------------------------|-----|------------------------------|
 | Elaborazione documenti di origine                                   | Sì | Nessuno |
 | Elaborazione del carico e della gestione trasporto                | Sì, ma solo i processi di pianificazione del carico. L'elaborazione della gestione dei trasporti non è supportata  | Nessuno |
-| Costo sbarcato e ricezione delle merci in transito                                         | Sì | Nessuno |
-| Rilascio in magazzino                                         | Sì | Nessuno |
+| Rilascia in magazzino                                         | Sì | Nessuno |
 | Cross-docking pianificato                                        | Nessuno  | Nessuno |
 | Consolidamento spedizioni                                       | Sì, quando si utilizza la pianificazione del carico | Sì |
 | Elaborazione ciclo di spedizione                                     | Nessuno  |Sì, tranne **Allestimento del carico e ordinamento** |
@@ -222,9 +222,10 @@ La tabella seguente mostra quali funzionalità in entrata sono supportate e dove
 
 | Elaborazione                                                          | Hub | Carico di lavoro di esecuzione del magazzino su un'unità di scala<BR>*(Gli articoli contrassegnati con "Sì" si applicano solo agli ordini di magazzino)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Elaborazione&nbsp;documenti&nbsp;di origine                             | Sì | Nessuno |
-| Elaborazione del carico e della gestione trasporto                    | Sì | Nessuno |
-| Conferma della spedizione in entrata                                    | Sì | Nessuno |
+| Elaborazione&nbsp;documenti&nbsp;di origine                             | Sì | No |
+| Elaborazione del carico e della gestione trasporto                    | Sì | No |
+| Costo sbarcato e ricezione delle merci in transito                       | Sì | No |
+| Conferma della spedizione in entrata                                    | Sì | No |
 | Rilascio ordine fornitore al magazzino (elaborazione ordine di magazzino) | Sì | Nessuno |
 | Annullamento di righe ordine di magazzino<p>Notare che questo è supportato solo quando non è avvenuta alcuna registrazione sulla riga</p> | Sì | Nessuno |
 | Ricevimento e stoccaggio articolo ordine acquisto                       | <p>Sì,&nbsp;quando&nbsp;non&nbsp;è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p> |

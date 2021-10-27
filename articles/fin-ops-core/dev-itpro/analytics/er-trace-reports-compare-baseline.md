@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769926"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605207"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Tenere traccia dei risultati dei report generati e confrontarli con i valori di base
 
@@ -76,7 +76,7 @@ Per completare i passaggi in questo esempio, è necessario dapprima completare i
 3. Nella finestra di dialogo a discesa, nel campo **Nome**, immettere **Modello per ottenere basi ER**.
 4. Selezionare **Crea configurazione** per confermare la creazione di una nuova voce del modello di dati ER.
 
-![Finestra di dialogo a discesa Crea configurazione.](media/GER-BaselineSample-ModelAdd.PNG "Schermata della finestra di dialogo a discesa Crea configurazione")
+![Finestra di dialogo Crea configurazione, aggiungi una nuova configurazione del modello ER.](media/GER-BaselineSample-ModelAdd.PNG "Schermata della finestra di dialogo a discesa Crea configurazione")
 
 ### <a name="design-a-data-model"></a>Progettare un modello di dati
 
@@ -99,7 +99,7 @@ Per completare i passaggi in questo esempio, è necessario dapprima completare i
 3. Nel campo **Nome**, immettere **Formato per ottenere basi ER**.
 4. Selezionare **Crea configurazione** per confermare la creazione di una nuova voce del formato ER.
 
-![Finestra di dialogo a discesa Crea configurazione.](media/GER-BaselineSample-FormatAdd.PNG "Schermata della finestra di dialogo a discesa Crea configurazione")
+![Finestra di dialogo Crea configurazione, aggiungi una nuova configurazione del formato ER.](media/GER-BaselineSample-FormatAdd.PNG "Schermata della finestra di dialogo a discesa Crea configurazione")
 
 ### <a name="design-a-format"></a>Progettare un formato
 
@@ -107,41 +107,41 @@ Per questo esempio, si creerà un formato ER semplice per generare documenti XML
 
 1. Nella pagina **Configurazioni**, nel riquadro azioni, selezionare **Progettazione**.
 2. Selezionare **Aggiungi radice**.
-2. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
+3. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
 
     1. Nella struttura selezionare **Comune\\File**.
     2. Nel campo **Nome** immettere **Output**.
     3. Selezionare **OK**.
 
-3. Selezionare **Aggiungi**.
-4. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
+4. Selezionare **Aggiungi**.
+5. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
 
     1. Nella struttura selezionare **XML\\Elemento**.
     2. Nel campo **Nome** immettere **Documento**.
     3. Selezionare **OK**.
 
-5. Nella struttura selezionare **Output\\Documento**.
-6. Selezionare **Aggiungi**.
-7. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
+6. Nella struttura selezionare **Output\\Documento**.
+7. Selezionare **Aggiungi**.
+8. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
 
     1. Nella struttura selezionare **XML\\Attributo**.
     2. Nel campo **Nome** immettere **ID**.
     3. Selezionare **OK**.
 
-    ![Pagina Progettazione formati.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Schermata della pagina Progettazione formati")
+    ![Pagina della progettazione dei formati, attributo XML selezionato nell'albero.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Schermata della pagina Progettazione formati")
 
-8. Nella scheda **Mapping**, selezionare **Elimina**.
-9. Selezionare **Aggiungi radice**.
-10. Nella finestra di dialogo a discesa, nella struttura, selezionare **Generale\\Parametro di input utente** e quindi eseguire quanto segue:
+9. Nella scheda **Mapping**, selezionare **Elimina**.
+10. Selezionare **Aggiungi radice**.
+11. Nella finestra di dialogo a discesa, nella struttura, selezionare **Generale\\Parametro di input utente** e quindi eseguire quanto segue:
 
     1. Nel campo **Nome** immettere **ID**.
     2. Nel campo **Etichetta**, immettere **Immetti ID**.
     3. Selezionare **OK**.
 
-11. Nella struttura selezionare **Output\\Documento\\Id**.
-12. Selezionare **Associa** e quindi **Salva**.
+12. Nella struttura selezionare **Output\\Documento\\Id**.
+13. Selezionare **Associa** e quindi **Salva**.
 
-![Pagina Progettazione formati.](media/GER-BaselineSample-FormatMappingDesign.PNG "Schermata della pagina Progettazione formati")
+![Pagina della progettazione dei formati, scheda Mapping.](media/GER-BaselineSample-FormatMappingDesign.PNG "Schermata della pagina Progettazione formati")
 
 In base alla struttura progettata, il formato configurato genererà un file XML. Questo XML contiene l'elemento **Radice** con l'attributo **ID** impostato sul valore che l'utente immette nella finestra di dialogo Runtime ER.
 
@@ -201,7 +201,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 10. Nel campo **Base**, immettere o selezionare l'allegato **out.Admin**.
 11. Selezionare **Salva**.
 
-![Pagina Base del formato per la creazione di report elettronici.](media/GER-BaselineSample-SetupBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina basi dei formati per la creazione di report elettronici, scheda dettaglio Basi con una base selezionata.](media/GER-BaselineSample-SetupBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Eseguire il formato ER progettato ed esaminare il registro per analizzare i risultati
 
@@ -212,7 +212,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 5. Selezionare **OK**.
 6. Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Registri debug configurazione**.
 
-    ![Pagina Voci di registro report elettronici.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Schermata della pagina Voci di registro report elettronici")
+    ![Pagina dei registri di esecuzione dei rapporti elettronici, con basi uguali.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Schermata della pagina Voci di registro report elettronici")
 
     > [!NOTE]
     > Il registro di esecuzione contiene informazioni sui risultati del confronto tra il file generato e la base configurata. In questo esempio, il registro indica che il file generato e la base sono uguali.
@@ -228,7 +228,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 5. Selezionare **OK**.
 6. Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Registri debug configurazione**.
 
-    ![Pagina Voci di registro report elettronici.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Schermata della pagina Voci di registro report elettronici")
+    ![Pagina dei registri di esecuzione dei rapporti elettronici, con basi diverse.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Schermata della pagina Voci di registro report elettronici")
 
     > [!NOTE]
     > Il registro di esecuzione contiene informazioni sui risultati del confronto tra il file generato e la base configurata. In questo esempio, il registro indica che il file generato e la base differiscono.

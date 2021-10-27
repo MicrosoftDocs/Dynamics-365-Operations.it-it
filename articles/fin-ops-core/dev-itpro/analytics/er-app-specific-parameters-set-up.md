@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749826"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605257"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Impostare i parametri di un formato ER per la persona giuridica
 
@@ -58,8 +58,6 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
 1.  Selezionare la persona giuridica **DEMF**.
 2.  Nell'albero delle configurazioni, selezionare il formato **Formato per ottenere ricerche di dati di persona giuridica**.
 3.  Nel riquadro azioni, scheda **Configurazioni**, gruppo **Parametri specifici dell'applicazione**, selezionare **Imposta**.
-
-    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Nella pagina **Parametri specifici dell'applicazione**, è possibile configurare le regole per l'origine dati **Selettore** del formato **Formato per ottenere ricerche di dati di persona giuridica**.
     
@@ -75,14 +73,14 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
 
     La ricerca presenta l'elenco dei codici imposta per la selezione. Questo elenco viene restituito dall'origine dati **Model.Data.Tax** che è stata configurata nel formato di ER di base. Poiché l'origine dati contiene il campo **Nome**, immettere il nome di ogni codice imposta visualizzato nella ricerca.
 
-    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![Pagina dei parametri specifici dell'applicazione ER, ricerca campi codice.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Selezionare il codice imposta **VAT19**.
 8.  Nel campo **Risultato della ricerca** del nuovo record selezionare la freccia a discesa per aprire la ricerca. La ricerca presenta l'elenco dei valori dell'enumerazione di formato TaxationLevel per la selezione.
 
     Si noti che, se il tedesco è selezionato come la lingua preferita dell'utente attualmente collegato, le etichette dei valori della ricerca saranno in tedesco, a condizione che siano state tradotte nel formato di ER di base. Inoltre, se l'etichetta di un'origine dati di ricerca è stata tradotta, l'etichetta verrà visualizzata nella lingua preferita dall'utente nella scheda **Ricerche**.
 
-    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![Pagina dei parametri specifici dell'applicazione ER, risultati di ricerca visualizzati nella lingua preferita: tedesco.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Selezionare il valore **Tassazione regolare**.
 
@@ -120,7 +118,7 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
     
     Aggiungendo questo record, si definisce la seguente regola: ogni volta che il codice imposta che viene passato come argomento non soddisfa nessuna delle regole precedenti, l'origine dati di ricerca restituirà **Altro** come livello di tassazione richiesto.
 
-    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![Pagina dei parametri specifici dell'applicazione ER, scheda dettaglio Condizioni con l'ultimo record di Altro.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Nel campo **Stato** selezionare **Completato**.
 
@@ -160,7 +158,7 @@ Per completare gli esempi in questo argomento, è necessario disporre dell'acces
 
     La ricerca ora presenta l'elenco dei codici imposta per l'imposta della società **USMF** per la selezione.
 
-    ![Pagina Parametri specifici dell'applicazione ER.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![Pagina dei parametri specifici dell'applicazione ER, ricerca del campo Codice che mostra l'elenco dei codici fiscali per la società USMF.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Selezionare il codice imposta **ESENTE**.
 9.  Nel campo **Risultato della ricerca** del nuovo record, selezionare il valore **Nessuna tassazione**.
@@ -225,13 +223,13 @@ Nell'esempio precedente, è stato effettuato l'accesso ai parametri specifici de
 
 1.  Riutilizzare la voce di menu esistente **ERSolutionAppSpecificParametersDesigner** oppure implementare la propria voce di menu **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Pagina Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Pagina di Visual Studio, riquadro Proprietà.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Eseguire uno dei passaggi riportati di seguito.
 
     1.  Creare un nuovo pulsante voce di menu e collegarlo al record corrispondente dalla tabella **ERSolutionTable** impostando la proprietà **Origine dati** su **ERSolutionTable**.
     
-        ![Pagina Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Pagina di Visual Studio, riquadri Progettazione.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Creare un pulsante semplice ed eseguire l'override del metodo **selezionato** come illustrato nell'esempio riportato di seguito.
     
