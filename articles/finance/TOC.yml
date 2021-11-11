@@ -74,12 +74,12 @@
                   items:
                     - name: Home page Novità o modifiche in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (novembre 2021)
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (ottobre 2021)
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: Finance 10.0.20 (agosto 2021)
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -240,6 +240,10 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Opzioni di configurazione per l'automazione delle fatture fornitore
                   href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Panoramica dell'applicazione automatica dei pagamenti anticipati alle fatture fornitore
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: Generare righe di fattura durante l'importazione di fatture fornitore
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: Inviare le fatture al sistema del flusso di lavoro e abbinare le righe di entrata prodotti
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Visualizzare i risultati dell'automazione delle fatture dei fornitori
@@ -272,6 +276,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Profili registrazione fornitori
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Date di fattura fornitore
+              href: accounts-payable/vendor-invoice-dates.md
             - name: Rivalutazione valuta estera per la contabilità fornitori e la contabilità clienti
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Approvazioni fatture per dispositivi mobili
@@ -990,6 +996,8 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: Definire il piano dei conti
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Definire il piano dei conti locale
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Liquidare le transazioni tra conti CoGe
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: Impostare un alias di conto CoGe
@@ -1104,6 +1112,8 @@
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Creare un pagamento IVA
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Arrotondamento della liquidazione imposte in base a cifre decimali della valuta personalizzata
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: Creare transazioni IVA in documenti
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: Impostare gruppi di registrazione contabile per l'IVA
@@ -1546,7 +1556,9 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Introduzione alla fatturazione elettronica per il Messico
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Utilizzare il servizio di fatturazione elettronica per importare le fatture dei fornitori
+                        - name: Introduzione alla fatturazione elettronica per l'Arabia Saudita
+                          href: localizations/e-invoicing-sa-get-started.md
+                        - name: Utilizzare il servizio di fatturazione elettronica per importare le fatture fornitore
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Impostare la fatturazione elettronica
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
@@ -1568,6 +1580,8 @@
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: Applicabilità dell'IVA e logica di determinazione della fascia IVA
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                        - name: Utilizzo dei parametri di giurisdizione fiscale per l'impostazione del calcolo dello sconto di cassa
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Calcolo
                       items:
                         - name: Calcolare le imposte da aggiungere al prezzo quando l'opzione per i prezzi con le imposte è abilitata
@@ -1594,6 +1608,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Elenco vendite UE
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Dichiarazione della Spagna
+                          items:
+                            - name: 'Fornitura immediata di informazioni sull''IVA (Suministro Inmediato de Información del IVA, SII)'
+                              href: localizations/emea-esp-sii-spain.md
                         - name: Dichiarazione della Svezia
                           items:
                             - name: Dichiarazione IVA
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Dichiarazione del Regno Unito
                           items:
-                            - name: Preparazione all'integrazione con Digitalizzare le imposte per l'IVA
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: Dichiarazione IVA
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: Abilitare il calcolo delle imposte per l'ordine di trasferimento
                       items:
                         - name: Supporto della funzione fiscale per ordini di trasferimento
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                        - name: Stampare le informazioni fiscali sui documenti dell'ordine di trasferimento
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Estensione
                       items:
                         - name: Aggiungere campi dati nelle configurazioni imposte
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Aggiungere campi dati nell'integrazione fiscale usando le estensioni
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: Personalizzare le configurazioni fiscali per la ricerca dei dati master
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: Domande frequenti sul calcolo imposte
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Aggiornamenti normativi
               href: localizations/regulatory-updates.md
             - name: Australia
@@ -1684,6 +1708,8 @@
                   href: localizations/emea-bel-prodcom-report.md
                 - name: Elenco IVA annuale delle vendite nazionali
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: Intrastat belga
+                  href: localizations/emea-bel-intrastat.md
             - name: Brasile
               items:
                 - name: Panoramica Brasile
@@ -2312,6 +2338,8 @@
                   href: localizations/apac-ind-scope.md
                 - name: Novità o modifiche per la localizzazione in India
                   items:
+                    - name: Novità o modifiche in 10.0.20 - 10.0.22
+                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: Novità o modifiche in 10.0.15 - 10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: Novità o modifiche in 10.0.14
@@ -2680,6 +2708,12 @@
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
                         - name: Aggiornare i numeri e le date dei certificati per le transazioni TDS
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: Indonesia
+              items:
+                - name: Panoramica Indonesia
+                  href: localizations/indonesia.md
+                - name: Dichiarazione IVA per l'Indonesia
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: Italia
               items:
                 - name: Panoramica Italia
@@ -3024,6 +3058,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: Dichiarazione IVA (Paesi Bassi)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Intrastat olandese
+                  href: localizations/emea-nl-intrastat.md
                 - name: Elenco vendite UE
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Nuova Zelanda
@@ -3352,6 +3388,8 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: Allocare le spese del documento bancario a una spedizione
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: Fatture elettroniche dei clienti in Arabia Saudita
+                  href: localizations/emea-sau-e-invoices.md
             - name: Singapore
               items:
                 - name: Panoramica Singapore
@@ -3378,6 +3416,8 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: IVA intracomunitaria
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: Intrastat spagnolo
+                  href: localizations/emea-esp-intrastat.md
                 - name: Clienti occasionali
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: Stampa assegni con un layout spagnolo
@@ -3462,28 +3502,26 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Impostare gruppi di imposte IVA per IVA reverse charge
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Dichiarazione del Regno Unito
+                - name: Digitalizzazione delle imposte (MTD) per l'IVA
                   items:
-                    - name: MTD (Making Tax Digital) per l'IVA
-                      items:
-                        - name: Invio recupero IVA MTD (Making Tax Digital) nel Regno Unito
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: Preparare l'ambiente per l'interoperabilità con il servizio Web IVA MTD di HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Lista di controllo per l'impostazione dei messaggi elettronici per l'IVA MTD
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Testare l'interoperabilità con la sandbox IVA MTD
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Autorizzare l'ambiente Finance per l'interoperabilità con il servizio Web IVA MTD di HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Inviare un recupero IVA al servizio Web MTD di HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: Recuperare informazioni su pagamenti e passività IVA da HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: Dettagli di impostazione IVA per le dichiarazioni IVA nel Regno Unito
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: Generare una dichiarazione IVA in formato cartaceo (report IVA 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: Invio recupero IVA con digitalizzazione delle imposte (MTD) nel Regno Unito
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Preparare l'ambiente per l'interoperabilità con il servizio Web IVA MTD di HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: Lista di controllo per l'impostazione dei messaggi elettronici per l'IVA MTD
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: Testare l'interoperabilità con la sandbox IVA MTD
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: Autorizzare l'ambiente Finance per l'interoperabilità con il servizio Web IVA MTD di HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: Inviare un recupero IVA al servizio Web MTD di HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: Recuperare informazioni su pagamenti e passività IVA da HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: Dettagli di impostazione IVA per le dichiarazioni IVA nel Regno Unito
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: Generare una dichiarazione IVA in formato cartaceo (report IVA 100)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Statistiche sul report procedure di pagamento
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Stati Uniti
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: Aggiornamento applicazione 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: Aggiornamento applicazione 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: Specificare un percorso di archiviazione personalizzato per i documenti generati
                   items:
                     - name: Iscriversi a un evento per richiedere una risposta dal gestore di sottoscrizione
@@ -4433,6 +4477,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: Modificare il codice per permettere agli utenti di configurare e utilizzare le destinazioni ER nominate
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: Implementare un'origine ER personalizzata di documenti in entrata
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: App per dispositivi mobili
           items:
             - name: Home page app per dispositivi mobili
