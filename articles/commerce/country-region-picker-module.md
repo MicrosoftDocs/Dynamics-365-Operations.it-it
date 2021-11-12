@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 35d78cdcc356d35776940147e9b0afee0f0be2a2
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472633"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674725"
 ---
 # <a name="countryregion-picker-module"></a>Modulo di selezione paese/area geografica
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In questo argomento viene descritto il modulo di selezione paese/area geografica e la procedura per configurarlo in Microsoft Dynamics 365 Commerce.
 
@@ -35,13 +34,13 @@ Ad esempio, un cliente in Canada richiede l'URL di un sito non associato al Cana
 
 ![Esempio di una finestra di dialogo di selezione paese/area geografica in una home page.](./media/Geo_country-region-module-insitu.png)
 
-## <a name="countryregion-picker-module-properties&quot;></a>Proprietà del modulo di selezione paese/area geografica
+## <a name="countryregion-picker-module-properties"></a>Proprietà del modulo di selezione paese/area geografica
 
 | Nome proprietà              | Valore       | descrizione |
 | -------------------------- | ----------- | ----------- |
 | Intestazione                    | Testo        | L'intestazione che appare nella parte superiore della finestra di dialogo. |
 | Intestazione secondaria                 | Testo        | Il sottotitolo che appare sotto l'intestazione. |
-| Paese: stringa di visualizzazione    | Testo        | Il nome visualizzato per un'opzione URL (ad esempio, &quot;Canada"). |
+| Paese: stringa di visualizzazione    | Testo        | Il nome visualizzato per un'opzione URL (ad esempio, "Canada"). |
 | Paese: sottostringa di visualizzazione | Testo        | Una sottostringa di visualizzazione facoltativa per un'opzione URL (ad esempio, "inglese" o "francese"). |
 | Paese: immagine del paese     | Risorsa multimediale | Un'immagine facoltativa associata a un'opzione URL (ad esempio, un'immagine della bandiera canadese). |
 | Paese: URL del paese       | Testo        | L'URL che corrisponde al canale e alle impostazioni internazionali configurate per il paese o l'area geografica sulla pagina **Canali** in Creazione di siti di Commerce (**Impostazioni sito \> Canali**). Questo URL deve corrispondere esattamente all'URL configurato sulla pagina **Canali**. |

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 9f461837c65c30eace3358c231618aedf428f487
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416653"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675299"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configurazione a doppia scrittura da Lifecycle Services
 
@@ -28,8 +28,8 @@ Questo argomento spiega come abilitare la doppia scrittura da Microsoft Dynamics
 
 Devi completare l'integrazione di Power Platform come descritto nei seguenti argomenti:
 
-+ [Integrazione di Power Platform: abilita durante la distribuzione dell'ambiente](../../power-platform/overview.md#enable-during-environment-deployment)
-+ [Integrazione di Power Platform: configura dopo la distribuzione dell'ambiente](../../power-platform/overview.md#set-up-after-environment-deployment)
++ [Integrazione di Power Platform: abilita durante la distribuzione dell'ambiente](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
++ [Integrazione di Power Platform: abilita dopo la distribuzione dell'ambiente](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Configurare la doppia scrittura per i nuovi ambienti Dataverse
 

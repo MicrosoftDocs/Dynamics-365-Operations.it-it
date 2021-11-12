@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576930"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647191"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -74,6 +74,12 @@ Questa funzionalità aggiunge una scheda di gestione dei cespiti all'interfaccia
 Questa funzionalità consente di aggiungere un campo di ricerca all'elenco dei processi. I lavoratori possono trovare un processo specifico inserendo l'ID lavoro o trovare tutti i lavori per un ordine specifico inserendo l'ID ordine. I lavoratori possono inserire l'ID utilizzando una tastiera o eseguendo la scansione di un codice a barre. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Ricerca del processo per l'interfaccia di esecuzione dell'area di produzione
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Abilitare la dichiarazione in co-prodotti e sottoprodotti
+
+Questa funzionalità consente ai lavoratori di utilizzare l'interfaccia di esecuzione del reparto di produzione per dichiarare lo stato di avanzamento degli ordini batch. Questo report include la dichiarazione di co-prodotti e sottoprodotti. Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Report sui sotto/co-prodotti dall'interfaccia di esecuzione dell'area di produzione
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Utilizzare le configurazioni di esecuzione dell'area di produzione
 

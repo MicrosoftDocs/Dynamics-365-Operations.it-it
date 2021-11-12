@@ -2,7 +2,7 @@
 title: Funzione ER JSONVALUE
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione JSONVALUE della creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 12/11/2019
+ms.date: 10/25/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b034755602a2f999892d2b976c80550b7a3d7f3cd179816dd7aa1edefe6a0270
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff33098e5be4dd9748d01d45b596360617305724
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733775"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700065"
 ---
 # <a name="jsonvalue-er-function"></a>Funzione ER JSONVALUE
 
@@ -41,21 +41,45 @@ Il percorso valido di un'origine dati del tipo di dati *Stringa* che contiene da
 
 `path`: *Stringa*
 
-L'identificatore di un valore scalare dei dati JSON.
+L'identificatore di un valore scalare dei dati JSON. Usa una barra (/) per separare i nomi dei nodi JSON correlati. Utilizzare la parentesi (\[\]) per specificare l'indice di un particolare valore in un array JSON. Si noti che per questo indice viene utilizzata la numerazione in base zero.
 
 ## <a name="return-values"></a>Valori restituiti
 
-*Stringa*
+*String*
 
 Il valore di testo risultante.
 
-## <a name="example"></a>Esempio
+## <a name="example-1"></a>Esempio 1
 
 L'origine dati **JsonField** contiene i dati seguenti nel formato JSON: **{"BuildNumber":"7.3.1234.1", "KeyThumbprint":"7366E"}**. In questo caso, l'espressione `JSONVALUE (JsonField, "BuildNumber")` restituisce il seguente valore del tipo di dati *Stringa*: **"7.3.1234.1"**.
+
+## <a name="example-2"></a>Esempio 2
+
+L'origine dati **JsonField** del tipo *Campo calcolato* contiene l'espressione seguente: `"{""workers"": [ {""name"": ""Adam"", ""age"": 30, ""emails"": [""AdamS@Contoso.com"", ""AdamS@Hotmail.com"" ]}, { ""name"": ""John"", ""age"": 21, ""emails"": [""JohnS@Contoso.com"", ""JohnS@Aol.com""]}]}"`
+
+Questa espressione è configurata per restituire un valore [*Stringa*](er-formula-supported-data-types-primitive.md#string) che rappresenta i dati seguenti in formato JSON.
+
+```json
+{
+    "workers": [
+        {
+            "name": "Adam",
+            "age": 30,
+            "emails": [ "AdamS@Contoso.com", "AdamS@Hotmail.com" ]
+        },
+        {
+            "name": "John",
+            "age": 21,
+            "emails": [ "JohnS@Contoso.com", "JohnS@Aol.com" ]
+        }
+    ]
+}
+```
+
+In questo caso, l'espressione `JSONVALUE(json, "workers/[1]/emails/[0]")` restituisce il valore seguente del tipo di dati *Stringa*: `JohnS@Contoso.com`.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di testo](er-functions-category-text.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

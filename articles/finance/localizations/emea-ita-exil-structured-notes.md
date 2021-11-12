@@ -2,7 +2,7 @@
 title: Gestione note avanzate
 description: Questo argomento spiega come impostare e stampare note predefinite per clienti, fornitori e prodotti.
 author: ilkond
-ms.date: 06/04/2020
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: ee224b8acea21265dfac316b38079a68a6dcb132350901e493b1b22665c76048
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21b9b49c64f24c2839afd9dd9f832fab349bc93e
+ms.sourcegitcommit: 2949636d2fd6aea8507e102379cf9b1a188e4529
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750303"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7650940"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -94,6 +94,9 @@ Le note avanzate possono essere direttamente collegate automaticamente alle conf
 2. Nella scheda dettaglio **Generale**, nella sezione **Note avanzate** abilitare il parametro **Allegato diretto ai documenti**.
 
   ![Pagina di configurazione dei moduli, evidenziazione del parametro Allegato diretto ai documenti.](media/attach-documents.jpg)
+
+> [!NOTE]
+> Se **Riepilogo aggiornamento** è abilitata, abilitare il parametro **Allegato diretto ai documenti** quando si registrano i documenti interessati.
 
 ## <a name="advanced-notes-processing"></a>Elaborazione delle note avanzate
 

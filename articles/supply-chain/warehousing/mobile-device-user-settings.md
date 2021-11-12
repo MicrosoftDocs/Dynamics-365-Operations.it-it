@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769421"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647487"
 ---
 # <a name="mobile-device-user-settings"></a>Impostazioni utente dispositivo mobile
 
@@ -54,7 +54,7 @@ Usare la pagina **Impostazioni utente dispositivo mobile** per creare, visualizz
 
 Seguire questi passaggi per creare e gestire impostazioni utente per i dispositivi mobili.
 
-1. Selezionare **Gestione magazzino \> Dispositivo mobile \> Impostazioni utente dispositivo mobile**.
+1. Selezionare **Warehouse Management \> Impostazione \> Dispositivo mobile \> Impostazioni utente dispositivo mobile**.
 1. Selezionare un profilo di impostazioni utente esistente nel riquadro elenco per aprire il relativo record. In alternativa, selezionare **Nuovo** nel riquadro Azioni per creare un nuovo profilo.
 
     Ogni profilo nel riquadro elenco è etichettato per indicare l'ID marchio, modello e/o utente a cui si applica il profilo. I profili più generali hanno il valore *Tutti* per alcune o tutte queste caratteristiche.
@@ -83,7 +83,7 @@ Utilizzare la pagina **Marchi di dispositivi mobili** per visualizzare, creare e
 
 Seguire questi passaggi per creare e gestire marchi e modelli di dispositivi mobili.
 
-1. Selezionare **Gestione magazzino \> Dispositivo mobile \> Marchi di dispositivi mobili**.
+1. Vai a **Warehouse Management \> Impostazione \> Dispositivo mobile \> Marchi di dispositivi mobili**.
 1. Nel riquadro elenco, selezionare una marchio di dispositivo mobile per aprirne il record. In alternativa, selezionare **Nuovo** nel riquadro Azioni per creare un nuovo marchio.
 1. Nella sezione dell'intestazione del record per il marchio di dispositivo nuovo o selezionato, impostare i seguenti campi:
 

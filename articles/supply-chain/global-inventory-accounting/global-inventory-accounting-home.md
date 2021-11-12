@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
-ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
+ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557394"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678497"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Home page di Contabilità inventario globale
 
-[!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Le organizzazioni internazionali sono sottoposte a crescenti pressioni da parte delle autorità per conformarsi agli standard contabili locali e globali. La valutazione dell'inventario svolge un ruolo significativo nel garantire la conformità. Il componente aggiuntivo Contabilità inventario globale per Microsoft Dynamics 365 Supply Chain Management fornisce una soluzione completa che consente alle organizzazioni (soprattutto le organizzazioni internazionali) di utilizzare più libri contabili di determinazione dei costi per eseguire la contabilità dell'inventario. Pertanto, tali organizzazioni possono conformarsi contemporaneamente a più standard contabili e alla contabilità di gestione interna.
 

@@ -2,7 +2,7 @@
 title: Elenco delle funzioni ER della categoria testo
 description: Questo argomento fornisce informazioni sulle funzioni di testo supportate nella creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741016"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647562"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Elenco delle funzioni ER della categoria testo
 
@@ -40,7 +40,8 @@ Le funzioni di testo della creazione di report elettronici (ER) possono essere u
 | [Sinistra](er-functions-text-left.md) | Questa funzione restituisce un valore *Stringa* che presenta il numero specificato di caratteri dall'inizio della stringa specificata. |
 | [Len](er-functions-text-len.md) | Questa funzione restituisce un valore *Intero* che presenta il numero specificato di caratteri nella stringa specificata. |
 | [Lower](er-functions-text-lower.md) | Questa funzione restituisce la stringa di testo specificata come un valore *Stringa* dopo che è stato convertito in lettere minuscole. |
-| [Mid](er-functions-text-mid.md) | Questa funzione restituisce un valore *Stringa* che presenta il numero specificato di caratteri della stringa specificata all'inizio della posizione specificata. |
+| [Mid](er-functions-text-mid.md) | Questa funzione restituisce un valore *[Stringa](er-formula-supported-data-types-primitive.md#string)* che presenta il numero specificato di caratteri della stringa specificata all'inizio della posizione specificata. |
+| [NewGUID](er-functions-text-newguid.md) | Questa funzione restituisce un valore *[GUID](er-formula-supported-data-types-primitive.md#guid)* appena generato. |
 | [NumberFormat](er-functions-text-numberformat.md) | Questa funzione restituisce un valore *Stringa* che presenta il numero specificato nel formato specificato e nelle impostazioni cultura specificate facoltativamente. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Questa funzione restituisce il numero specificato come un valore *Stringa* dopo che è stato enunciato (ovvero convertito in stringhe di testo) nella lingua specificata. |
 | [PadLeft](er-functions-text-padleft.md) | Questa funzione restituisce un valore *Stringa* della lunghezza specificata in cui l'inizio della stringa specificata viene riempita con una o più istanze dei caratteri specificati. |

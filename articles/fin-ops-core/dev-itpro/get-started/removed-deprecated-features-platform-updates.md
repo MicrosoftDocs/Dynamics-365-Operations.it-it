@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595147"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725051"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -31,6 +31,64 @@ In questo argomento vengono descritte le funzionalità rimosse, o di cui è stat
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
 Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+
+## <a name="feature-removal-effective-october-2021"></a>Rimozione delle funzionalità in vigore da ottobre 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure Report SQL in Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Tutte le attività e il monitoraggio saranno eseguiti internamente, dalla piattaforma, attraverso l'automazione. Ciò non richiederà alcun intervento manuale.|
+| **Sostituita da un'altra funzionalità?**   | Sì, ora esiste un sistema automatizzato che rende obsolete queste funzionalità. |
+| **Aree del prodotto interessate**         | Report SQL: DTU corrente, dettagli DTU correnti, ottenere dettagli blocco, elenco della guida del piano corrente, ottenere elenco di ID query, ottenere il piano di query SQL per un determinato ID piano, ottenere piani di query e stato di esecuzione, ottenere configurazione della limitazione, ottenere statistiche attesa, Elenca le query più costose |
+| **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
+| **Stato**                         | Rimosso |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azioni SQL di Azure in LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Stiamo deprecando alcune azioni SQL in LCS. Tutte le attività e il monitoraggio saranno eseguiti internamente, dalla piattaforma, attraverso l'automazione. Ciò non richiederà alcun intervento manuale. |
+| **Sostituita da un'altra funzionalità?**   | Sì, ora esiste un sistema automatizzato che rende obsolete queste funzionalità. |
+| **Aree del prodotto interessate**         | Azioni SQL: creazione di una guida al piano per forzare l'ID piano, creazione di una guida al piano per aggiungere suggerimenti alla tabella, rimozione della guida al piano, abilitazione/disabilitazione dei blocchi delle pagine e dell'escalation dei blocchi, aggiornamento delle statistiche su una tabella, ricostruzione indice, creazione indice |
+| **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
+| **Stato**                         | Rimosso |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Ritiro delle funzionalità in vigore da ottobre 2021
+
+### <a name="show-related-document-attachments-feature"></a>Funzione "Mostra allegati di documenti correlati"
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | La funzione restituiva risultati imprevisti. |
+| **Sostituita da un'altra funzionalità?**   | N. Eventuali ulteriori piani relativi a questa funzionalità verranno comunicati attraverso il nostro processo di divulgazione del ciclo di rilascio standard. |
+| **Aree del prodotto interessate**         | Client Web - Esperienza con allegati di documenti |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.23 delle app Finance and Operations
+
+### <a name="ondbsynchronize-event"></a>Evento OnDBSynchronize
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Non esiste alcun controllo per eseguire questo evento. |
+| **Sostituita da un'altra funzionalità?**   | Sì, sposta i metodi esistenti sottoscritti dall'evento **OnDBSynchronzie** in una classe estesa SysSetup. |
+| **Aree del prodotto interessate**         | Sincronizzazione del database |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato. La data prevista per la rimozione è ottobre 2022. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>API SystemNotificationsManager.AddNotification
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Microsoft richiede parametri aggiuntivi quando si aggiungono notifiche. |
+| **Sostituita da un'altra funzionalità?**   | Sì, l'API **SystemNotificationsManager.AddSystemNotification()**. Questa API richiede l'impostazione esplicita di ExpirationDateTime e RuleID per le notifiche generate. |
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutte |
+| **Stato**                         | Deprecato. La data prevista per la rimozione è aprile 2023. |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.21 delle app Finance and Operations
 

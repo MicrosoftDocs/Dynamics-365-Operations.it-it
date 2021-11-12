@@ -2,7 +2,7 @@
 title: Ricerca di prodotti e di clienti nel POS
 description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716397"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700091"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Ricerca di prodotti e di clienti nel POS
 
@@ -47,7 +47,7 @@ Una ricerca di prodotto locale esegue la ricerca nelle seguenti proprietà di pr
 - Codice a barre
 - Cerca nome
 
-### <a name="additional-local-product-search-capabilities"></a>Funzionalità di ricerca di prodotti locali aggiuntive
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Ulteriori funzionalità di ricerca di prodotti locali (ricerca full-text SQL convenzionale) 
 
 - Per le ricerche con più parole chiave (ovvero le ricerche che utilizzano termini di ricerca), i rivenditori possono stabilire se i risultati della ricerca includono i risultati corrispondenti a *qualsiasi* termine di ricerca o solo i risultati che corrispondono a *tutti* i termini di ricerca. L'impostazione per questa funzionalità è disponibile nel profilo della funzionalità POS, in un nuovo gruppo denominato **Ricerca prodotto**. L'impostazione predefinita è **Abbina alcuni termini di ricerca**. Questa impostazione è quella consigliata. Quando si utilizza l'impostazione **Abbina alcuni termini di ricerca**, nei risultati vengono restituiti tutti i prodotti che corrispondono completamente o parzialmente a uno o più termini di ricerca. Tali risultati vengono ordinati automaticamente in ordine crescente in base ai prodotti che hanno il maggior numero di corrispondenze (complete o parziali) con le parole chiave.
 
@@ -55,6 +55,8 @@ Una ricerca di prodotto locale esegue la ricerca nelle seguenti proprietà di pr
 
     - La ricerca viene effettuata in singole proprietà di prodotto. Ad esempio, vengono restituiti solo i prodotti che hanno tutte le parole chiave cercate in almeno una proprietà di prodotto.
     - La ricerca non viene eseguita nelle dimensioni.
+> [!NOTE]
+> Le seguenti configurazioni di **Trova qualsiasi termine di ricerca**/**Trova tutti i termini di ricerca** nei profili di funzionalità POS sono applicabili solo per le esperienze di ricerca di prodotto **locali** (ricerca full-text SQL convenzionale). Questa configurazione non ha effetto sulle esperienze di ricerca basate su cloud. Il nuovo motore di ricerca ha il proprio algoritmo avanzato che potenzia la pertinenza della ricerca per i risultati della ricerca del prodotto. 
 
 - I rivenditori possono configurare la ricerca prodotto in modo da visualizzare suggerimenti di ricerca mentre gli utenti digitano nomi di prodotti. Una nuova impostazione per questa funzionalità è disponibile nel profilo della funzionalità POS, in un gruppo denominato **Ricerca prodotto**. L'impostazione è denominata **Mostra suggerimenti di ricerca durante la digitazione**. Questa funzionalità può consentire ai dipendenti di trovare rapidamente il prodotto che stanno cercando, in quanto non devono digitarne il nome completo.
 - L'algoritmo di ricerca prodotto ora cerca i termini anche nella proprietà **Nome di ricerca** del prodotto.
@@ -147,7 +149,5 @@ Il seguente elenco mostra come la funzionalità di ricerca di clienti basata su 
 > La funzionalità di ricerca di clienti che usa il servizio Azure Cognitive Services è disponibile in aree limitate per l'anteprima. La funzionalità di ricerca di clienti *non* è disponibile nelle seguenti aree geografiche:
 > - Brasile
 > - India
-> - Canada
-> - Regno Unito
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

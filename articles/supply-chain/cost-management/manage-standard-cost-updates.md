@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579762"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678667"
 ---
 # <a name="manage-standard-cost-updates"></a>Gestire gli aggiornamenti di costo standard
 
@@ -43,8 +43,6 @@ Nell'esempio seguente viene illustrato come i metodi basati su una o due version
 Nell'esempio è stata utilizzata una versione di determinazione costi aggiuntiva per la gestione degli aggiornamenti durante l'anno 2020. È possibile utilizzare più versioni di determinazione costi aggiuntive, ad esempio una per ciascun batch di aggiornamenti. Quando si utilizza più di una determinazione costi aggiuntiva, il fallback deve essere espresso come costi attivi, poiché questi vengono distribuiti su più versioni di determinazione costi.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Dimensioni finanziarie per la rivalutazione dei costi standard
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 L'attivazione di un nuovo prezzo standard rivaluterà in genere il valore delle scorte disponibili mediante transazioni di rivalutazione dei costi standard. Di solito, le dimensioni finanziarie dell'articolo vengono quindi registrate nelle transazioni. Tuttavia, se si desidera controllare se e come vengono registrate le dimensioni finanziarie, utilizzare la [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare la funzionalità denominata *Opzioni di dimensioni finanziarie predefinite per la rivalutazione del costo standard dell'inventario*. Dopo aver abilitato questa funzionalità, vai a **Gestione costi> Impostazione criteri contabili inventario > Parametri** e imposta il nuovo elenco a discesa **Origine della dimensione finanziaria** con uno dei seguenti valori:
 

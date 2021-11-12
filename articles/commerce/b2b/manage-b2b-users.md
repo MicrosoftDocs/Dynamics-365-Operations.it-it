@@ -2,7 +2,7 @@
 title: Gestisci gli utenti dei partner commerciali sui siti di e-commerce B2B
 description: Questo argomento descrive come gli amministratori possono aggiungere, modificare ed eliminare gli utenti dei partner commerciali sui siti Web di e-commerce business-to-business (B2B).
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734945"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713695"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gestisci gli utenti dei partner commerciali sui siti di e-commerce B2B
 
@@ -68,6 +68,18 @@ Per approvare e impostare un utente amministratore di partner commerciali nella 
 1. Vai a **Retail e Commerce IT \> Programmazione della distribuzione** ed esegui il processo **1010** (**Clienti**) per eseguire il push dei record della gerarchia di clienti e clienti appena creati nel database del canale.
 
 Dopo che la richiesta è stata approvata e i record del cliente e della gerarchia del cliente sono stati sincronizzati con il database del canale, il richiedente può accedere al sito Web di e-commerce B2B utilizzando l'indirizzo e-mail fornito quando ha inviato la richiesta. Gli utenti possono utilizzare il flusso di registrazione per definire la password per il proprio account. Per abilitare il record del provider di identità (Azure AD B2C) da collegare al record del cliente B2B che è stato creato al momento della registrazione o dell'accesso, segui le istruzioni in [Abilitare il collegamento automatico dei record di identità agli account dei clienti](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Notifica i potenziali clienti B2B quando vengono approvati o rifiutati
+
+Quando approvi o rifiuti una richiesta di onboarding di un potenziale cliente B2B, puoi inviare automaticamente una notifica via e-mail al potenziale cliente. 
+
+Per impostare le notifiche e-mail in Commerce headquarters per gli eventi del tipo di notifica cliente potenziale B2B approvato o cliente potenziale B2B rifiutato, seguire questi passaggi.
+
+1. Crea modelli e-mail per le e-mail che verranno inviate ai potenziali clienti quando viene attivato il tipo di notifica del potenziale cliente B2B approvato o rifiutato del potenziale cliente B2B.
+
+    Per informazioni sui segnaposto supportati dai tipi di notifica del potenziale cliente B2B approvato e del potenziale cliente B2B rifiutato, vedi [Tipi di notifica](../email-templates-transactions.md#notification-types). Per informazioni su come creare modelli di posta elettronica, vedi [Crea un modello e-mail](../email-templates-transactions.md#create-an-email-template). 
+
+1. Aggiungi i tipi di notifica per i potenziali clienti B2B approvati e per i potenziali clienti B2B rifiutati al tuo profilo di notifica e-mail e mappali ai modelli e-mail che hai creato. Per ulteriori informazioni sui profili di notifica e-mail, vedi [Configura un profilo di notifica e-mail](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Eseguire l'onboarding aggiuntivo degli utenti dei partner commerciali
 

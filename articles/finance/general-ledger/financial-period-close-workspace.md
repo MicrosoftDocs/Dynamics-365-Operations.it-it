@@ -1,7 +1,7 @@
 ---
 title: Area di lavoro chiusura periodo finanziario
 description: Questo articolo fornisce una panoramica dell'area di lavoro Chiusura periodo finanziario e della configurazione collegata.
-author: ShylaThompson
+author: kweekley
 ms.date: 11/29/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
-ms.author: saraschi
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 157d7e7503a3153f74e705c20b4afac76a81229e807ae6f39b52fc05c733487b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ab203a18229cd426f8483ed6d0483c98614af9c
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739956"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7727066"
 ---
 # <a name="financial-period-close-workspace"></a>Area di lavoro chiusura periodo finanziario
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo fornisce una panoramica dell'area di lavoro Chiusura periodo finanziario e della configurazione collegata.
+Questo argomento fornisce una panoramica dell'area di lavoro **Chiusura periodo finanziario** e della configurazione collegata.
 
 Area di lavoro chiusura periodo finanziario
 

@@ -2,7 +2,7 @@
 title: Tasti di scelta rapida
 description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app Finance and Operations.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743173"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647538"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'immissione dei dati nelle app Finance and Operations.
 
@@ -148,14 +149,15 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Alternare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT + MAIUSC + H                     |
 | Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |
 | Aprire il filtro griglia per la colonna corrente (con stato attivo nella riga di intestazione)                                              | INVIO                           |
+| Ridimensiona la colonna corrente per adattarla al contenuto (con lo stato attivo nella riga di intestazione)                                           | A                               |
 
 ## <a name="input-control-shortcuts"></a>Tasti di scelta rapida per il controllo dell'input
 
-| Azione                                                                   | Tasti di premere                         |
+| Azione                                                                   | Premere                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Aprire il collegamento ipertestuale                                                           | Ctrl + INVIO                    |
-| Immettere la data della sessione in un campo data                                       | D                         |
-| Immettere la data corrente in un campo data                                       | M                         |
+| Immettere la data della sessione in un campo data                                       | D                             |
+| Immettere la data corrente in un campo data                                       | M                             |
 | Aprire ricerca, casella combinata, selezione data, finestra di dialogo a discesa                         | ALT + Freccia GIÙ                |
 | Chiudere ricerca, casella combinata, selezione data, finestra di dialogo a discesa                        | ESC                           |
 | Spostare lo stato attivo in una ricerca (quando la ricerca è già aperta)                   | ALT + Freccia GIÙ                |
@@ -202,8 +204,8 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Utilizzare lo strumento Sposta (quando in modalità di personalizzazione)                                                                       | M                                   |
 | Selezionare il controllo corrente come quello da spostare (quando si utilizza lo strumento Sposta e nessun controllo da spostare è stato selezionato)  | INVIO o Barra spaziatrice                      |
 | Deselezionare il controllo da spostare (quando si utilizza lo strumento Sposta)                                                                   | ESC                                 |
-| Spostarsi alla posizione successiva per il controllo selezionato (quando si utilizza lo strumento Sposta)                                          | TAB o Freccia DESTRA o Freccia GIÙ    |
-| Spostarsi alla posizione precedente per il controllo selezionato (quando si utilizza lo strumento Sposta)                                      | MAIUSC + TAB o Freccia SINISTRA o Freccia SU |
+| Sposta il controllo selezionato alla posizione successiva (quando si utilizza lo strumento Sposta)                                              | TAB o Freccia DESTRA o Freccia GIÙ    |
+| Sposta il controllo selezionato alla posizione precedente (quando si utilizza lo strumento Sposta)                                          | MAIUSC + TAB o Freccia SINISTRA o Freccia SU |
 | Utilizzare lo strumento Nascondi (quando in modalità di personalizzazione)                                                                       | H                                   |
 | Visualizzare o nascondere il controllo corrente (quando si utilizza lo strumento Nascondi)                                     | INVIO o Barra spaziatrice                      |
 | Utilizzare lo strumento Ignora (quando in modalità di personalizzazione)                                                                       | K                                   |

@@ -1,5 +1,5 @@
 ---
-title: Anteprima di Dynamics 365 Supply Chain Management 10.0.22 (Novembre 2021)
+title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.22 (novembre 2021)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.22.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3f5166338aebe784fe7f95372a437d4ed660de77
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579714"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678837"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.22 (Novembre 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.22 (novembre 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della versione 10.0.22. di Microsoft Dynamics 365 Supply Chain Management. Questa versione ha il numero di build 10.0.995 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione 10.0.22. Questa versione ha il numero di build 10.0.995 ed è disponibile come segue:
 
 - **Anteprima della versione:** settembre 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** ottobre 2021
@@ -40,13 +39,12 @@ Questa tabella elenca le funzionalità incluse in questa versione. La colonna *F
 
 Questa tabella elenca i miglioramenti delle funzionalità incluse in questa versione. Ciascuno di questi miglioramenti fornisce un miglioramento incrementale a una funzionalità esistente. Poiché sono solo miglioramenti, non sono elencati nel [piano di rilascio](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Tuttavia, per garantire che questi miglioramenti non siano in conflitto con le personalizzazioni o le preferenze esistenti, ognuno di essi è disattivato per impostazione predefinita (se non diversamente specificato). Se desideri utilizzare una di queste funzionalità, devi abilitarle esplicitamente in [gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Area funzionale | Nome della funzionalita in gestione funzionalità | Ulteriori informazioni |
+| Modulo | Nome della funzionalita in gestione funzionalità | Ulteriori informazioni |
 |---|---|---|
 | Gestione costi | Creare giustificativi correlati per rivalutazioni di arrotondamento costi standard | <p>Quando viene effettuata una registrazione finanziaria di magazzino (come una fattura di un ordine cliente o una transazione di magazzino), questa funzionalità fa sì che il sistema crei un giustificativo separato per qualsiasi rivalutazione di arrotondamento dei costi standard correlata e lo alleghi al giustificativo della registrazione finanziaria come giustificativo correlato.</p><p>Senza questa funzione, il sistema registra le rivalutazioni di arrotondamento dei costi standard sulla stessa registrazione del giustificativo. Tale comportamento può talvolta causare informazioni sulla data in conflitto, poiché le rivalutazioni utilizzano la sessione o la data di sistema, mentre le registrazioni finanziarie utilizzano la data di registrazione.</p> |
 | Topologia ibrida distribuita | *(Non è richiesta alcuna gestione delle funzionalità).* | <p>Questa versione espande le capacità di pianificazione del carico in uscita del carico di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale.</p><p>Per ulteriori informazioni, vedere [Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Gestione modifiche di progettazione | Generazione di varianti per prodotti di progettazione | <p>Questa funzione consente di generare diverse varianti per un prodotto tecnico, in base al colore, alle dimensioni, allo stile o alle dimensioni della configurazione.</p><p>Per ulteriori informazioni, vedere [Generare varianti per prodotti di progettazione](../engineering-change-management/engineering-variants.md).</p> |
 | Gestione articoli e magazzino | Integrazione visibilità inventario con offset prenotazione | <p>Questa funzione può essere abilitata solo dopo aver abilitato la funzionalità *Integrazione della visibilità dell'inventario*. Fornisce funzionalità per compensare le prenotazioni effettuate su Visibilità inventario.</p><p>Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](../inventory/inventory-visibility-reservations.md).</p> |
-| Vendite e marketing | Limita il numero di ordini cliente che è possibile selezionare per la registrazione | <p>Questa funzionalità viene abilitata automaticamente. Aggiunge un campo **Numero massimo di ordini cliente per la registrazione** alla pagina **Parametri contabilità clienti**. Questo campo permette di definire il numero massimo di ordini cliente che possono essere selezionati quando vengono registrate conferme, distinte di prelievo, documenti di trasporto e fatture dalla pagina della lista degli ordini cliente. Il valore predefinito è *100*.</p><p>La funzione aiuta a migliorare le prestazioni della pagina dell'elenco degli ordini cliente quando viene selezionato un numero considerevole di ordini cliente. Non ha alcun impatto sul numero di ordini di vendita che possono essere elaborati da un compito periodico.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Risorse della documentazione nuove e aggiornate
 
@@ -63,7 +61,7 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.22 delle app Finance and Operations (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.22 delle app Finance and Operations (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 

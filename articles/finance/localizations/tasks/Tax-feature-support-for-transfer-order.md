@@ -2,7 +2,7 @@
 title: Supporto della funzione fiscale per ordini di trasferimento
 description: In questo argomento viene illustrato il nuovo supporto della funzione fiscale per gli ordini di trasferimento utilizzando il servizio di calcolo delle imposte.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500078"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647715"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Supporto della funzione fiscale per ordini di trasferimento
 
@@ -31,7 +31,7 @@ In questo argomento vengono fornite informazioni sul calcolo delle imposte e sul
 Per configurare e utilizzare questa funzionalità, è necessario completare tre passaggi principali:
 
 1. **Configurazione RCS:** In Regulatory Configuration Service, imposta la funzione fiscale, i codici imposta e l'applicabilità dei codici imposta per la determinazione del codice imposta negli ordini di trasferimento.
-2. **Configurazione Finance:** In Microsoft Dynamics 365 Finance, attiva la funzionalità **Imposta in ordine di trasferimento**, imposta i parametri del servizio fiscale per l'inventario e imposta i parametri fiscali di base.
+2. **Configurazione Dynamics 365 Finance:** In Finance, attiva la funzionalità **Imposta in ordine di trasferimento**, imposta i parametri del servizio di calcolo imposte per l'inventario e imposta i parametri fiscali di base.
 3. **Configurazione inventario:** Imposta la configurazione dell'inventario per le transazioni degli ordini di trasferimento.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Impostare RCS per le transazioni di imposte e ordini di trasferimento
@@ -39,8 +39,6 @@ Per configurare e utilizzare questa funzionalità, è necessario completare tre 
 Segui questi passaggi per configurare l'imposta applicata in un ordine di trasferimento. Nell'esempio mostrato qui, l'ordine di trasferimento è dai Paesi Bassi al Belgio.
 
 1. Nella pagina **Funzionalità fiscali**, nella scheda **Versioni** seleziona la versione bozza della funzionalità, quindi selezionare **Modifica**.
-
-    ![Selezione di Modifica.](../media/tax-feature-support-01.png)
 
 2. Nella pagina **Configurazione funzioni fiscali** nella scheda **Codici imposta** seleziona **Aggiungi** per creare nuovi codici imposta. Per questo esempio, vengono creati tre codici imposta: **NL-Exempt**, **BE-RC-21**, e **BE-RC+21**.
 
@@ -52,8 +50,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         3. Selezionare **Salva**.
         4. Nella tabella **Tasso** seleziona **Aggiungi**.
         5. Imposta **Esente** su **Sì** nella sezione **Generale**.
-
-           ![Codice imposta NL-Exempt.](../media/tax-feature-support-02.png)
+        6. Nel campo **Codice esenzione** immetti **EC**.
 
     - Quando un ordine di trasferimento viene ricevuto in un magazzino in Belgio, il meccanismo di reverse charge viene applicato utilizzando i codici imposta **BE-RC-21** e **BE-RC+21**.
         
@@ -65,8 +62,6 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         5. Immetti **-21** nel campo **Aliquota imposta**.
         6. Imposta **Reverse Charge** su **Sì** nella sezione **Generale**.
         7. Selezionare **Salva**.
-
-           ![Codice imposta BE-RC-21 per reverse charge.](../media/tax-feature-support-03.png)
         
         Crea il codice imposta **BE-RC+21**.
         1. Seleziona **Aggiungi**, immetti **BE-RC-21** nel campo **Codice imposta**.
@@ -76,16 +71,26 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         5. Immetti **21** nel campo **Aliquota imposta**.
         6. Selezionare **Salva**.
 
-           ![Codice imposta BE-RC-21 per reverse charge.](../media/tax-feature-support-04.png)
-
-3. Definisci l'applicabilità dei codici imposta.
+3. Definisci la fascia IVA.
+    1. Seleziona **Gestisci colonne**, quindi seleziona il campo riga **Fascia IVA**.
+    2. Seleziona **->** e quindi seleziona **OK**.
+    3. Seleziona **Aggiungi** per aggiungere una fascia IVA.
+    4. Nella colonna **Fascia IVA** immetti **AR-EU** e poi seleziona il codice imposta **NL-Exempt**.
+    5. Seleziona **Aggiungi** per aggiungere una fascia IVA.
+    6. Nella colonna **Fascia IVA** immetti **RC-VAT** e poi seleziona i codici imposta **BE-RC-21** e **BE-RC+21**.
+4. Definisci la fascia IVA dell'articolo.
+    1. Seleziona **Gestisci colonne**, quindi seleziona il campo riga **Fascia IVA articolo**.
+    2. Seleziona **->** e quindi seleziona **OK**.
+    3. Seleziona **Aggiungi** per aggiungere una fascia IVA dell'articolo.
+    4. Immetti **COMPLETO** nella colonna **Fascia IVA articolo**. Seleziona i codici imposta **BE-RC-21**, **BE-RC+21**, e **NL-Exempt**.
+5. Definisci l'applicabilità della fascia IVA.
 
     1. Seleziona **Gestisci colonne** e quindi seleziona le colonne da utilizzare per creare la tabella di applicabilità.
 
         > [!NOTE]
         > Assicurati di aggiungere le colonne **Processo aziendale** e **Indicazioni fiscali** alla tabella. Entrambe le colonne sono essenziali per la funzionalità dell'imposta negli ordini di trasferimento.
 
-    2. Aggiungi le regole di applicabilità. Non lasciare i campi **Codici imposta**, **Gruppo di imposte**, e **Gruppo di imposte articolo** vuoti.
+    2. Aggiungi le regole di applicabilità. Non lasciare vuoto il campo **Fascia IVA**.
         
         Aggiungi una nuova regola per la spedizione dell'ordine di trasferimento.
         1. Nella tabella **Regole di applicabilità** seleziona **Aggiungi**.
@@ -93,8 +98,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         3. Nel campo **Spedisci da Paese/Regione** inserisci **NLD**.
         4. Nel campo **Spedisci a Paese/Regione** inserisci **BEL**.
         5. Nel campo **Direzione fiscale** seleziona **Output** per rendere la regola applicabile alla spedizione dell'ordine di trasferimento.
-        6. Nel campo **Codici imposta** seleziona **NL-Exempt**.
-        7. Nel campo **Gruppo di imposte** e **Gruppo di imposte articolo**, immetti la fascia IVA correlata e la fascia IVA articolo definite nel sistema Finance.
+        6. Nel campo **Fascia IVA** seleziona **AR-EU**.
         
         Aggiungi un'altra regola per la ricezione dell'ordine di trasferimento.
         
@@ -103,14 +107,19 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         3. Nel campo **Spedisci da Paese/Regione** inserisci **NLD**.
         4. Nel campo **Spedisci a Paese/Regione** inserisci **BEL**.
         5. Nel campo **Direzione fiscale** seleziona **Input** per rendere la regola applicabile alla ricezione dell'ordine di trasferimento.
-        6. Nel campo **Codici imposta** seleziona **BE-RC+21** e **BE-RC-21**.
-        7. Nel campo **Gruppo di imposte** e **Gruppo di imposte articolo**, immetti la fascia IVA correlata e la fascia IVA articolo definite nel sistema Finance.
+        6. Nel campo **Fascia IVA** seleziona **RC-VAT**.
 
-           ![Regole di applicabilità.](../media/image5.png)
+6. Definisci l'applicabilità della fascia IVA dell'articolo.
 
-4. Completa e pubblica la nuova versione della funzione fiscale.
+    1. Seleziona **Gestisci colonne** e quindi seleziona le colonne da utilizzare per creare la tabella di applicabilità.
+    2. Aggiungi le regole di applicabilità. Non lasciare vuoto il campo **Fascia IVA articolo**.
+        
+        Aggiungi una nuova regola per la spedizione dell'ordine di trasferimento e il ricevimento.
+        1. Nella pagina **Regole di applicabilità** seleziona **Aggiungi**.
+        2. Nel campo **Processo aziendale** seleziona **Inventario** per rendere la regola applicabile all'ordine di trasferimento.
+        3. Nel campo **Fascia IVA articolo** seleziona **COMPLETO**.
+7. Completa e pubblica la nuova versione della funzione fiscale.
 
-    [![Modifica dello stato della nuova versione.](../media/image6.png)](../media/image6.png)
 
 ## <a name="set-up-finance-for-transfer-order-transactions"></a>Impostare Finance per le transazioni di ordini di trasferimento
 
@@ -120,28 +129,26 @@ Per impostare le imposte per gli ordini di trasferimento, effettua i passaggi de
 2. Nell'elenco, trova e seleziona la funzionalità **Imposta in ordine di trasferimento**, quindi seleziona **Abilita ora** per attivarla.
 
     > [!IMPORTANT]
-    > La funzionalità **Imposta in ordine di trasferimento** è completamente dipendente dal servizio fiscale. Pertanto, può essere attivata solo dopo aver installato il servizio fiscale.
+    > La funzionalità **Imposta in ordine di trasferimento** è completamente dipendente dal servizio di calcolo imposte. Pertanto, può essere attivata solo dopo aver installato il servizio di calcolo imposte.
 
     ![Funzionalità imposta in ordine di trasferimento.](../media/image7.png)
 
-3. Abilita il servizio fiscale e seleziona il processo aziendale **Inventario**.
+3. Abilita il servizio calcolo imposte e seleziona il processo aziendale **Inventario**.
 
     > [!IMPORTANT]
-    > È necessario completare questo passaggio per ogni persona giuridica in Finance in cui si desidera rendere disponibili il servizio fiscale e la funzionalità per le imposte negli ordini di trasferimento.
+    > È necessario completare questo passaggio per ogni persona giuridica in Finance in cui si desidera rendere disponibili il servizio calcolo imposte e la funzionalità per le imposte negli ordini di trasferimento.
 
-    1. Vai a **Imposte** > **Impostazioni** > **Configurazione fiscale** > **Configurazione del servizio fiscale**.
+    1. Vai a **Imposta** > **Impostazioni** > **Configurazione imposta** > **Parametri calcolo imposta**.
     2. Nel campo **Processo aziendale** seleziona **Inventario**.
-
-      ![Impostazione del campo Processo aziendale.](../media/image8.png)
 
 4. Verificare che il meccanismo di reverse charge sia impostato. Vai a **Contabilità generale** \> **Impostazioni** \> **Parametri** e poi nella scheda **Reverse charge** verifica che l'opzione **Abilita reverse charge** sia impostata su **Sì**.
 
     ![Abilitare l'opzione di inversione contabile.](../media/image9.png)
 
-5. Verifica che i codici imposta, i gruppi di imposte, i gruppi di imposte articoli e i numeri di registrazione IVA correlati siano stati impostati in Finance in base alle indicazioni del servizio fiscale.
+5. Verifica che i codici imposta, i gruppi di imposte, i gruppi di imposte articoli e i numeri di registrazione IVA correlati siano stati impostati in Finance in base alle indicazioni del servizio di calcolo imposte.
 6. Crea un conto di transito provvisorio. Questo passaggio è necessario solo quando l'imposta applicata a un ordine di trasferimento non è applicabile a un meccanismo di esenzione fiscale o di reverse charge.
 
-    1. Vai a **Imposta** > **Impostazioni** > **IVA** \ **Gruppi registrazione contabile**.
+    1. Vai a **Imposta** > **Impostazioni** > **IVA** > **Gruppi registrazione contabile**.
     2. Nel campo **Transito provvisorio** seleziona un conto CoGe.
 
        ![Selezione di un conto di transito provvisorio.](../media/image10.png)

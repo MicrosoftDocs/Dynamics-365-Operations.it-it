@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474678"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678473"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Visibilità inventario
 
@@ -366,16 +366,12 @@ L'indice permette di interrogare l'inventario in mano nei seguenti modi:
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configurazione della prenotazione (opzionale)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 La configurazione della prenotazione è necessaria se si vuole usare la funzione di prenotazione soft. La configurazione consiste in due parti fondamentali:
 
 - Mappatura morbida delle prenotazioni
 - Gerarchia delle prenotazioni soft
 
 ### <a name="soft-reservation-mapping"></a>Mappatura morbida delle prenotazioni
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Quando fate una prenotazione, potreste voler sapere se l'inventario disponibile è attualmente disponibile per la prenotazione. La convalida è legata a una misura calcolata che rappresenta una formula di calcolo di una combinazione di misure fisiche.
 
@@ -446,8 +442,6 @@ Pertanto, se si cerca di fare prenotazioni su `iv.SoftReservOrdered`, e la quant
 > Quando si chiama l'API di prenotazione, è possibile controllare la convalida della prenotazione specificando il parametro booleano `ifCheckAvailForReserv` nel corpo della richiesta. Un valore di `True` significa che è richiesta la convalida, mentre un valore di `False` significa che la convalida non è richiesta. Il valore predefinito è `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Gerarchia delle prenotazioni soft
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La gerarchia delle prenotazioni descrive la sequenza delle dimensioni che devono essere specificate quando si fanno le prenotazioni. Funziona nello stesso modo in cui la gerarchia degli indici dei prodotti funziona per le query on-hand.
 
@@ -747,8 +741,6 @@ La tabella seguente mostra la configurazione predefinita dell'indice.
 Questa sezione descrive la configurazione predefinita delle prenotazioni.
 
 #### <a name="reservation-mapping"></a>Mappatura delle prenotazioni
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La tabella seguente mostra la mappatura predefinita delle prenotazioni.
 

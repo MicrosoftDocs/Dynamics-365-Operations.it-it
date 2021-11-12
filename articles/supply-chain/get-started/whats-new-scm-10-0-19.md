@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7638472"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647217"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.19 (giugno 2021)
 
@@ -48,7 +48,7 @@ La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione
 
 Questa tabella elenca i miglioramenti delle funzionalità incluse in questa versione. Ciascuno di questi fornisce un miglioramento incrementale a una funzionalità esistente. Poiché sono solo miglioramenti, non sono elencati nel [piano di rilascio](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Tuttavia, per garantire che questi miglioramenti non siano in conflitto con le personalizzazioni o le preferenze esistenti, ognuno di essi è disattivato per impostazione predefinita (se non diversamente specificato). Se desideri utilizzare una di queste funzionalità, devi abilitarle esplicitamente in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Area funzionale | Nome della&nbsp;funzionalità&nbsp;nella gestione&nbsp;delle funzionalità | Ulteriori informazioni |
+| Modulo | Nome della&nbsp;funzionalità&nbsp;nella gestione&nbsp;delle funzionalità | Ulteriori informazioni |
 |---|---|---|
 | Vendite e marketing | Miglioramenti delle prestazioni di pulizia della cronologia delle vendite | La pulizia della cronologia delle vendite può richiedere molto tempo se eseguita raramente in ambienti con un volume elevato di aggiornamenti delle vendite. Per ridurre la durata e migliorare l'affidabilità, questa funzionalità suddivide la pulizia in batch che vengono eseguiti per una durata limitata. Ove possibile, le funzionalità del database verranno sfruttate per ridurre al minimo il blocco ed evitare di unire tabelle transazionali durante la pulizia. Per ulteriori informazioni, vedi [Miglioramenti delle prestazioni di pulizia della cronologia delle vendite](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Vendite e marketing | Aggiorna data di ricevimento richiesta con data confermata per ordini interaziendali | Questa funzionalità consente di controllare cosa accadrà ai valori dei campi della data di acquisto e di vendita quando si utilizza la consegna diretta interaziendale. Puoi scegliere se il sistema aggiornerà le date richieste o ignorerà l'aggiornamento. Se ignori l'aggiornamento, le date richieste rappresenteranno ciò che il cliente ha richiesto. Se abiliti l'aggiornamento, le date richieste (quando si utilizza il controllo della data di consegna) rappresentano inizialmente solo ciò che il cliente ha richiesto. Controllo della data di consegna, se diversa da *Nessuna*, annullerà quanto inizialmente richiesto. È possibile impostare questa opzione utilizzando la nuova impostazione **Aggiorna data di ricevimento richiesta con data confermata** nelle impostazioni del fornitore o del cliente interaziendale.<br><br>Se la funzionalità è disabilitata, il sistema sovrascriverà la data di ricezione richiesta sugli ordini di vendita originali in base alla regola di controllo della data di consegna, ma la data di spedizione richiesta rimarrà invariata. |

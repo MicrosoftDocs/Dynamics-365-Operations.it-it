@@ -2,7 +2,7 @@
 title: Panoramica calcolo delle imposte
 description: In questo argomento vengono illustrati l'ambito e le funzionalità generali di Calcolo imposte.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394588"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647059"
 ---
 # <a name="tax-calculation-overview"></a>Panoramica calcolo delle imposte
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Calcolo imposte è un servizio multitenant iperscalabile che consente al Global Tax Engine di automatizzare e semplificare il processo di determinazione e calcolo delle imposte. Il motore fiscale è completamente configurabile. Gli elementi che possono essere configurati includono, tra gli altri, il modello di dati imponibili, il codice imposta, la matrice di applicabilità fiscale e la formula di calcolo dell'imposta. Il motore fiscale funziona sulla piattaforma di servizi di base Microsoft Azure e offre una tecnologia moderna e la scalabilità esponenziale.
 
@@ -115,10 +113,14 @@ Le seguenti transazioni sono supportate nella versione 10.0.21:
     - Spese varie intestazione richiesta di offerta
     - Spese varie riga richiesta di offerta
 
-- Scorte
+- Inventario
 
     - Ordine di trasferimento - spedizione
     - Ordine di trasferimento - ricezione
+
+Le seguenti transazioni sono supportate nella versione 10.0.23: 
+
+- Fattura a testo libero
 
 ## <a name="supported-countriesregions"></a>Paesi/regioni supportati
 
@@ -145,6 +147,28 @@ I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono 
 - Svizzera
 - Regno Unito
 - Stati Uniti
+
+I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.22:
+
+- Australia
+- Bahrein
+- Canada
+- Egitto
+- RAS di Hong Kong
+- Kuwait
+- Nuova Zelanda
+- Oman
+- Qatar
+- Arabo Saudita
+- Sudafrica
+- Emirati Arabi Uniti
+
+I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.23:
+
+- Thailandia
+- Giappone
+- Malaysia
+- Singapore
 
 ## <a name="related-resources"></a>Risorse correlate
 

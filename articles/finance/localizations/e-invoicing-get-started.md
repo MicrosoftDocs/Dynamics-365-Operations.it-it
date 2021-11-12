@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463842"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700381"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Introduzione alla fatturazione elettronica
 
@@ -84,6 +84,7 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
 | Fattura elettronica norvegese (NO)    | <p>Modello contesto fattura cliente</p><p>Modello di fattura</p> |
 | Fattura elettronica spagnola (ES)      | <p>Modello contesto fattura cliente</p><p>Modello di fattura</p> |
 | Fattura elettroniche PEPPOL            | <p>Modello contesto fattura cliente</p><p>Modello di fattura</p> |
+| Fattura elettronica in Arabia Saudita (SA)| <p>Modello contesto fattura cliente</p><p>Modello di fattura</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Configurare l'impostazione dell'applicazione
@@ -112,6 +113,7 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
     | Fattura elettronica norvegese (NO)    | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
     | Fattura elettronica spagnola (ES)      | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
     | Fattura elettroniche PEPPOL            | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
+    | Fattura elettronica in Arabia Saudita (SA)| <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
 
 6. Per ogni nome di tabella creato, seleziona e inserisci un valore contesto secondo la tabella seguente.
 
@@ -133,6 +135,7 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
     | Fattura elettronica norvegese (NO)    | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
     | Fattura elettronica spagnola (ES)      | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
     | Fattura elettroniche PEPPOL            | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
+    | Fattura elettronica in Arabia Saudita (SA)| <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
 
 7. Per ogni nome di tabella e contesto, seleziona e immetti un valore mapping documento aziendale secondo la tabella seguente.
 
@@ -154,6 +157,7 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
     | Fattura elettronica norvegese (NO)    | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Mapping di modello di fattura - Fattura cliente</p><p>Mapping di modello di fattura - Fattura di progetto</p> |
     | Fattura elettronica spagnola (ES)      | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Mapping di modello di fattura - Fattura cliente</p><p>Mapping di modello di fattura - Fattura di progetto</p> |
     | Fattura elettroniche PEPPOL            | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Mapping di modello di fattura - Fattura cliente</p><p>Mapping di modello di fattura - Fattura di progetto</p> |
+    | Fattura elettronica in Arabia Saudita (SA)| <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Mapping di modello di fattura - Fattura cliente</p><p>Mapping di modello di fattura - Fattura di progetto</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Configurazione specifica del paese dell'impostazione dell'applicazione
@@ -207,6 +211,8 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
     | Fattura elettronica norvegese (NO)                     | Norvegia          |
     | Fattura elettroniche PEPPOL                             | Globali          |
     | Fattura elettronica spagnola (ES)                       | Spagna           |
+    | Fattura elettronica in Arabia Saudita (SA)                 | Arabia Saudita    |
+    
 
 4. Selezionare **Salva**.
 
@@ -244,6 +250,7 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
 - [Introduzione alla fatturazione elettronica per il Messico](e-invoicing-mex-get-started.md)
 - [Introduzione alla fatturazione elettronica per l'Italia](e-invoicing-ita-get-started.md)
 - [Fatture elettroniche dei clienti in Egitto](emea-egy-e-invoices.md)
+- [Fatture elettroniche dei clienti in Arabia Saudita](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

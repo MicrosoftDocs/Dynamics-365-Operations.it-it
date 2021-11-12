@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384613"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647622"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installare e connettere l'app per dispositivi mobili Gestione magazzino
 
@@ -109,7 +109,7 @@ Per ulteriori informazioni su come impostare le applicazioni dei servizi Web in 
     - [Guida introduttiva: Registrare un'applicazione con Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app)
     - [Procedure: Usare il portale per creare un'applicazione Azure AD e un'entità servizio che possano accedere alle risorse](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Creare e configurare un account utente in Supply Chain Management
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Creare e configurare un account utente in Supply Chain Management
 
 Per consentire a Supply Chain Management di utilizzare la tua applicazione Azure AD, attieniti alla seguente procedura.
 
@@ -117,17 +117,24 @@ Per consentire a Supply Chain Management di utilizzare la tua applicazione Azure
 
     1. In Supply Chain Management, vai a **Amministrazione sistema \> Utenti \> Utenti**.
     1. Crea un utente.
-    1. Assegna l'utente del dispositivo mobile al magazzino.
+    1. Assegna il ruolo *Utente dispositivo mobile magazzino* all'utente.
 
     ![Assegna l'utente del dispositivo mobile al magazzino.](media/app-connect-app-users.png "Assegna l'utente del dispositivo mobile al magazzino")
 
 1. Associa l'applicazione Azure AD all'utente dell'app per dispositivi mobili Gestione magazzino:
 
     1. Vai a **Amministrazione sistema \> Impostazioni \> Applicazioni Azure Active Directory**.
-    1. Crea una riga.
-    1. Inserisci l'ID client di cui hai preso nota nella sezione precedente, assegnagli un nome e seleziona l'utente che hai appena creato. Ti consigliamo di taggare tutti i tuoi dispositivi. Quindi, se un dispositivo viene perso, puoi rimuovere facilmente il suo accesso a Supply Chain Management da questa pagina.
+    1. Seleziona **Nuovo** nel riquadro azioni per creare una riga.
+    1. Nel campo **ID cliente** inserisci l'ID cliente di cui hai preso nota nella sezione precedente.
+    1. Nel campo **Nome** immettere un nome.
+    1. Nel campo **ID utente**, seleziona l'ID utente che hai appena creato.
 
     ![Applicazioni di Azure Active Directory.](media/app-connect-aad-apps.png "Applicazioni di Azure Active Directory")
+
+> [!TIP]
+> Un modo per usare queste impostazioni consiste nel creare un ID client in Azure per ciascuno dei tuoi dispositivi fisici e quindi aggiungere ogni ID client alla pagina delle **applicazioni Azure Active Directory**. Quindi, se un dispositivo viene perso, puoi rimuovere facilmente il suo accesso a Supply Chain Management rimuovendo il relativo ID client da questa pagina. Questo approccio funziona perché le credenziali di connessione salvate su ogni dispositivo specificano anche un ID client, come descritto più avanti in questo argomento.
+>
+> Inoltre, la lingua predefinita, il formato del numero e le impostazioni del fuso orario per ciascun ID client sono stabiliti dalle preferenze impostate per il valore **ID utente** mappato qui. Pertanto, potresti utilizzare tali preferenze per stabilire le impostazioni predefinite per ciascun dispositivo o raccolta di dispositivi, in base all'ID client. Tuttavia, queste impostazioni predefinite verranno sovrascritte se sono definite anche per l'*account utente dell'app di magazzino* che un lavoratore utilizza per accedere al dispositivo. Per ulteriori informazioni, vedere [Account utente dispositivo mobile](mobile-device-work-users.md).
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticazione utilizzando un certificato o un segreto client
 

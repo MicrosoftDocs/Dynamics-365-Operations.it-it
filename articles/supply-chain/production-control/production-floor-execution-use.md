@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569339"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678691"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -93,7 +93,6 @@ La scheda **Macchina personale** include le seguenti colonne. I numeri corrispon
 1. **Registra tempo di inattività** - Selezionare questo pulsante per aprire una finestra di dialogo in cui è possibile registrare i tempi di fermo macchina. Potrai selezionare un codice motivo e inserire una data/un intervallo di tempo per il tempo di inattività. La registrazione dei tempi di fermo macchina viene utilizzata per calcolare l'efficienza del cespite di tipo macchina.
 1. **Visualizza o modifica** - Selezionare questo pulsante per aprire una finestra di dialogo in cui è possibile modificare o visualizzare i record dei tempi di inattività esistenti.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Avvio e completamento dei processi di produzione
 
 I lavoratori iniziano un processo di produzione selezionando un processo nella scheda **Tutti i processi** e quindi selezionando **Avvia processo** per aprire la finestra di dialogo **Avvia processo**.
@@ -109,6 +108,32 @@ I lavoratori possono iniziare un processo che si trova in qualsiasi stato. Quand
 Quando un lavoratore completa o completa parzialmente un processo, può dichiarare le buone quantità prodotte selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara avanzamento**. Quindi, nella finestra di dialogo **Dichiara avanzamento** il lavoratore inserisce la buona quantità utilizzando la tastiera numerica. La quantità è vuota per impostazione predefinita. Dopo aver immesso una quantità, il lavoratore può aggiornare lo stato del processo a *In corso*, *Arrestato* o *Completato*.
 
 ![Finestra di dialogo Dichiarazione avanzamento.](media/pfei-report-progress-dialog.png "Finestra di dialogo Dichiarazione avanzamento")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Dichiarazione di buone quantità su ordini batch che hanno co-prodotti e sottoprodotti
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+I lavoratori possono utilizzare l'interfaccia di esecuzione del reparto di produzione per dichiarare lo stato di avanzamento degli ordini batch. Questo report include la dichiarazione di co-prodotti e sottoprodotti.
+
+Alcuni produttori, soprattutto nei settori della trasformazione, utilizzano ordini batch per gestire i propri processi di produzione. Gli ordini batch vengono creati da formule che possono essere definite in modo che abbiano co-prodotti e sottoprodotti come output. Quando viene dichiarato il feedback su tali ordini batch, la quantità di output deve essere registrata nell'elemento della formula e anche nei co-prodotti e sottoprodotti.
+
+Quando un lavoratore completa totalmente o parzialmente un lavoro su un ordine batch, può dichiarare quantità buone o scartate per ogni prodotto definito come output per l'ordine. I prodotti definiti come output per un ordine batch possono essere di tipo *Formula*, *Co-prodotto*, o *Sottoprodotto*.
+
+Per dichiarare le buone quantità sui prodotti, un lavoratore seleziona un processo nella scheda **Processi attivi** e poi seleziona **Dichiarazione avanzamento**.
+
+Poi, nella finestra di dialogo **Dichiarazione avanzamento**, il lavoratore può selezionare tra i prodotti definiti come output per l'ordine batch di cui deve dichiarare l'avanzamento. L'operatore può selezionare uno o più prodotti nell'elenco, quindi seleziona **Dichiarazione avanzamento**. Per ogni prodotto, la quantità è vuota per impostazione predefinita e il lavoratore può utilizzare la tastierina numerica per inserire la quantità. Il lavoratore può utilizzare i pulsanti **Indietro** e **Avanti** per spostarsi tra i prodotti selezionati. Dopo aver immesso la quantità per ogni prodotto, il lavoratore può aggiornare lo stato del processo a *In corso*, *Arrestato* o *Completato*.
+
+![Dichiara co-prodotti e sottoprodotti.](media/report-co-by-products.png "Dichiarazione co-prodotti e sottoprodotti")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Dichiarazione negli ordini batch per gli elementi di pianificazione
+
+Quando un lavoratore completa un processo su un ordine batch per un elemento di pianificazione, dichiara le quantità solo su coprodotti e sottoprodotti, perché gli elementi di pianificazione non contengono un elemento di tipo *Formula*.
+
+### <a name="reporting-co-product-variation"></a>Dichiarazione di variazione co-prodotto
+
+Se viene creato un ordine batch da una versione della formula in cui l'opzione **Variazioni co-prodotti** è impostata su *Sì*, il lavoratore può dichiarare i co-prodotti che non fanno parte della definizione per gli ordini batch. Questa funzionalità viene utilizzata in scenari in cui può verificarsi un output di prodotto imprevisto nel processo di produzione.
+
+In questo caso, il lavoratore può specificare il coprodotto e la quantità da dichiarare selezionando **Variazioni co-prodotti** nella finestra di dialogo Dichiarazione avanzamento. Il lavoratore può quindi selezionare tra tutti i prodotti rilasciati che sono definiti come co-prodotti.
 
 ## <a name="reporting-scrap"></a>Dichiarazione dello scarto
 

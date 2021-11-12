@@ -2,7 +2,7 @@
 title: Elenco delle funzioni ER nella categoria data e ora
 description: Questo argomento fornisce informazioni sulle funzioni di data e ora supportate nella creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760052"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647265"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Elenco delle funzioni ER nella categoria data e ora
 
@@ -31,8 +31,9 @@ Le funzioni di data e ora della creazione di report elettronici (ER) possono ess
 
 | Funzione | Descrizione |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Questa funzione restituisce un valore *DateTime* che è il numero specificato di giorni prima o dopo una data di inizio specificata. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Questa funzione restituisce un valore *Stringa* che presenta un valore specifico di data come testo nel formato specificato e nelle impostazioni cultura specificate facoltativamente. |
+| [AddDays](er-functions-datetime-adddays.md) | Questa funzione restituisce un valore *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* che è il numero specificato di giorni prima o dopo una data di inizio specificata. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Questa funzione restituisce un valore *DateTime* che viene convertito da un determinato valore di data/ora in un fuso orario a un valore di data/ ora in un altro fuso orario. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Questa funzione restituisce un valore *[Stringa](er-formula-supported-data-types-primitive.md#string)* che presenta un valore specifico di data come testo nel formato specificato e nelle impostazioni cultura specificate facoltativamente. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Questa funzione restituisce un valore *Stringa* che presenta un valore specifico di data/ora come testo nel formato specificato e nelle impostazioni cultura specificate facoltativamente. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Questa funzione restituisce un valore *DateTime* che viene convertito da un determinato valore di testo nel formato specificato e nelle impostazioni cultura specificate facoltativamente in un valore data/ora. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Questa funzione restituisce un valore *DateTime* che viene convertito da un determinato valore di data a un valore di data / ora in Coordinated Universal Time (Greenwich Mean Time \[GMT\]). |

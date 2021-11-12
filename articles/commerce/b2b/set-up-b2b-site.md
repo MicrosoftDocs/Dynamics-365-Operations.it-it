@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721009"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713750"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Creare un sito di e-commerce B2B
 
@@ -37,7 +37,7 @@ I siti di e-commerce business-to-business (B2B) forniscono alcune funzionalità 
 
 Puoi accedere alle impostazioni a livello di sito in Creazione di siti Web, in **Impostazioni sito \> Estensioni**. Le due impostazioni a livello di sito seguenti si applicano agli scenari B2B:
 
-- **Abilita i pagamenti dell'account cliente**: questa proprietà consente agli utenti di pagare gli ordini utilizzando gli account dei clienti. I valori disponibili sono **Abilitato per i clienti B2B**, **Abilitato per i clienti B2C**, **Abilitato per tutti i clienti** e **Disabilitato per tutti i clienti**. Se il tuo sito B2B supporta gli account dei clienti, devi selezionare **Abilitato per i clienti B2C**.
+- **Abilita i pagamenti dell'account cliente**: questa proprietà consente agli utenti di pagare gli ordini utilizzando gli account dei clienti. I valori disponibili sono **Abilitato per i clienti B2B**, **Abilitato per i clienti B2C**, **Abilitato per tutti i clienti** e **Disabilitato per tutti i clienti**. Se il tuo sito B2B supporta gli account dei clienti, devi selezionare **Abilitato per i clienti B2B**.
 - **Abilita i limiti di quantità dell'ordine**: questa proprietà consente di impostare dei limiti sul numero di articoli che possono essere ordinati per ogni prodotto o categoria. I valori disponibili sono **Abilitato per i clienti B2B**, **Abilitato per i clienti B2C**, **Abilitato per tutti i clienti** e **Disabilitato per tutti i clienti**.
 
 > [!NOTE]

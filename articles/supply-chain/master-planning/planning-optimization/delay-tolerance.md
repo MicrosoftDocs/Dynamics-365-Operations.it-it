@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577482"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678569"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolleranza di ritardo (giorni negativi)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 La funzionalità di tolleranza al ritardo consente a Ottimizzazione pianificazione di considerare il valore **Giorni negativi** impostato per i gruppi di copertura. Viene utilizzata per estendere il periodo di tolleranza di ritardo applicato durante la pianificazione generale. In questo modo, è possibile evitare di creare nuovi ordini di fornitura se la fornitura esistente è in grado di coprire la domanda con un breve ritardo. Lo scopo della funzionalità è determinare se ha senso creare un nuovo ordine di fornitura per una determinata domanda.
 

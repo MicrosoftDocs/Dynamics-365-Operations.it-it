@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cdb2d119e9b49887bb66fa737f97c3d91e5b793ceea1b2389072a02b5c463ba9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 369b6996c09f4bd1a4da8c7b3902221495c58bf2
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726867"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678813"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Documenti aziendali supportati da Contabilità inventario globale
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Dopo che il componente aggiuntivo Contabilità inventario globale è stato completamente configurato, è pronto per elaborare i documenti relativi all'inventario immessi in Microsoft Dynamics 365 Supply Chain Management.
 

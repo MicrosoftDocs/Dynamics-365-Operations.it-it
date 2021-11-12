@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: db1d9d2cddfab5ca5abb50cc3ecb9c841e06b8b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580986"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647316"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.20 (agosto 2021)
 
@@ -46,7 +46,7 @@ La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione
 
 Questa tabella elenca i miglioramenti delle funzionalità incluse in questa versione. Ciascuno di questi fornisce un miglioramento incrementale a una funzionalità esistente. Poiché sono solo miglioramenti, non sono elencati nel [piano di rilascio](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Tuttavia, per garantire che questi miglioramenti non siano in conflitto con le personalizzazioni o le preferenze esistenti, ognuno di essi è disattivato per impostazione predefinita (se non diversamente specificato). Se desideri utilizzare una di queste funzionalità, devi abilitarle esplicitamente in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Area funzionale | Nome della&nbsp;funzionalità&nbsp;nella gestione&nbsp;delle funzionalità | Ulteriori informazioni |
+| Modulo | Nome della&nbsp;funzionalità&nbsp;nella gestione&nbsp;delle funzionalità | Ulteriori informazioni |
 |---|---|---|
 | Pianificazione generale | Autorizzazione parallela della previsione della domanda modificata | Questa funzionalità consente l'autorizzazione parallela della previsione della domanda rettificata dalla pagina **Previsione della domanda modificata**. Lo scopo di questa funzione è aumentare le prestazioni quando viene autorizzato un numero elevato di previsioni. Al momento dell'autorizzazione, l'utente può specificare il **Numero di thread** nella finestra di dialogo di autorizzazione. |
 | Pianificazione generale | (Anteprima) Stabilizzazione e consolidamento batch per ordini batch in blocco e di imballaggio pianificati | Questa funzionalità consente di utilizzare i processi batch per stabilizzare e consolidare gli ordini in blocco e di imballaggio pianificati. |

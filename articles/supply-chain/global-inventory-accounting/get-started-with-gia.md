@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773298"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678861"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introduzione alla Contabilità inventario globale
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Contabilità inventario globale ti consente di eseguire più contabilità di inventario nei libri contabili di Contabilità inventario globale impostati. È necessario associare ogni libro contabile di Contabilità inventario globale a una *convenzione*. Una convenzione è la raccolta dei seguenti tipi di principi contabili:
 
@@ -60,9 +60,9 @@ Prima di poter abilitare la funzionalità del componente aggiuntivo, è necessar
 1. Nella finestra di dialogo **Configurazione ambiente Power Platform** seleziona la casella di controllo, quindi seleziona **Impostazioni**. In genere, la configurazione richiede tra 60 e 90 minuti.
 1. Quando la configurazione dell'ambiente Microsoft Power Platform è completata viene visualizzata la pagina con il nome del tuo ambiente. Inoltre, la sezione **Integrazione di Power Platform** mostra il messaggio "Configurazione dell'ambiente Power Platform completata." Contabilità inventario globale non richiede un'applicazione a doppia scrittura.
 
-Per ulteriori informazioni, vedere [Configurare dopo la distribuzione dell'ambiente](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Per ulteriori informazioni, vedi [Abilitare dopo la distribuzione dell'ambiente](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Configurare Dataverse
+### <a name="set-up-dataverse"></a>Configura Dataverse
 
 Prima di configurare Dataverse, aggiungi i principi del servizio Contabilità inventario globale al tuo tenant seguendo questi passaggi.
 

@@ -2,7 +2,7 @@
 title: Destinazioni dei report elettronici
 description: Questo argomento fornisce informazioni sulla gestione delle destinazioni di report elettronici, i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743313"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647095"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici
 
@@ -164,12 +164,12 @@ Per rendere disponibile l'opzione di conversione PDF nell'istanza corrente, di F
 
 ### <a name="applicability"></a>Applicabilità
 
-L'opzione di conversione PDF può essere attivata solo per i componenti di file utilizzati per generare l'output in formato Office (Excel o Word) (**file Excel**). Quando questa opzione è attivata, l'output generato in formato Office viene automaticamente convertito in formato PDF. Nelle versioni di Finance **antecedenti alla versione 10.0.18**, è possibile attivare questa opzione solo per i componenti di tipo **Excel\\File** utilizzati per generare output in formato [Excel](er-fillable-excel.md) o [Word](er-design-configuration-word.md). Tuttavia, nella **versione 10.0.18 e successive**, è anche possibile attivare questa opzione per i componenti di tipo **Comune\\File**.
+Nelle versioni di Finance **antecedenti alla versione 10.0.18**, l'opzione di conversione PDF può essere abilitata solo per i componenti **Excel\\File** utilizzati per generare output in formato Office (Excel o Word). Quando questa opzione è attivata, l'output generato in formato Office viene automaticamente convertito in formato PDF. Tuttavia, nella **versione 10.0.18 e successive**, è anche possibile attivare questa opzione per i componenti di tipo **Comune\\File**.
 
 > [!NOTE]
 > Prestare attenzione al messaggio di avviso visualizzato quando si attiva l'opzione di conversione PDF per un componente ER di tipo **Comune\\File**. Questo messaggio indica che non esiste alcun modo di garantire, in fase di progettazione, che il componente file selezionato esporrà il contenuto in formato PDF o il contenuto convertibile in PDF in fase di runtime. Pertanto, è necessario attivare l'opzione solo se si è certi che il componente file selezionato è stato configurato per esporre il contenuto in formato PDF o il contenuto convertibile in PDF in fase di runtime.
 > 
-> Se si attiva l'opzione di conversione PDF per un componente di tipo **Excel\\File**, se quel componente espone il contenuto in un formato diverso da PDF e se il contenuto esposto non può essere convertito in formato PDF, si verificherà un'eccezione in fase di runtime. Il messaggio che si riceve indica che il contenuto generato non può essere convertito in formato PDF.
+> Se si attiva l'opzione di conversione PDF per un componente di formato, se quel componente espone il contenuto in un formato diverso da PDF e se il contenuto esposto non può essere convertito in formato PDF, si verificherà un'eccezione in fase di runtime. Il messaggio che si riceve indica che il contenuto generato non può essere convertito in formato PDF.
 
 ### <a name="limitations"></a>Limiti
 
@@ -189,16 +189,26 @@ Per attivare la conversione PDF per una destinazione file, selezionare la casell
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Selezionare un orientamento di pagina per la conversione PDF</a>
 
-Se si genera una configurazione ER in formato Excel e si desidera convertirla in formato PDF, è possibile specificare l'orientamento della pagina del documento PDF. Quando si seleziona la casella di controllo **Converti in PDF** per attivare la conversione PDF per una destinazione di file che produce un file di output in formato Excel, il campo **Orientamento pagina** diventa disponibile nella scheda dettaglio **Impostazioni di conversione PDF**. Nel campo **Orientamento pagina**, selezionare l'orientamento preferito.
+Se si genera una configurazione ER in formato Excel e si desidera convertirla in formato PDF, è possibile specificare esplicitamente l'orientamento della pagina del documento PDF. Quando si seleziona la casella di controllo **Converti in PDF** per attivare la conversione PDF per una destinazione di file che produce un file di output in formato Excel, il campo **Orientamento pagina** diventa disponibile nella scheda dettaglio **Impostazioni di conversione PDF**. Nel campo **Orientamento pagina**, selezionare l'orientamento preferito.
 
 [![Selezione di un orientamento di pagina per la conversione PDF.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> Per avere la possibilità di selezionare l'orientamento della pagina PDF, è necessario installare Finance versione 10.0.10 o successiva.
->
-> L'orientamento della pagina selezionato viene applicato a tutte le configurazioni ER che vengono generate in formato Excel e quindi convertite in formato PDF.
->
-> Se una configurazione ER in formato Word viene convertita in formato PDF, l'orientamento della pagina del documento PDF viene preso dal documento Word.
+Per avere la possibilità di selezionare l'orientamento della pagina PDF, installare Finance versione 10.0.10 o successiva. Nelle versioni di Finance **prima della versione 10.0.23**, questa opzione offre le seguenti opzioni di orientamento della pagina:
+
+- Verticale
+- Orizzontale
+
+L'orientamento della pagina selezionato viene applicato a tutte le pagine di un documento in uscita che vengono generate in formato Excel e quindi convertite in formato PDF.
+
+Tuttavia, nella **versione 10.0.23 e successive**, l'elenco delle opzioni di orientamento della pagina è stato ampliato come segue:
+
+- Verticale
+- Orizzontale
+- Specifico del foglio di lavoro
+
+Quando si seleziona l'opzione **Specifico del foglio di lavoro**, ogni foglio di lavoro di una cartella di lavoro Excel generato viene convertito in PDF utilizzando l'orientamento della pagina che è stato configurato per questo foglio di lavoro nel modello Excel utilizzato. Quindi, potresti avere un documento PDF finale contenente pagine verticali e orizzontali. 
+
+Se una configurazione ER in formato Word viene convertita in formato PDF, l'orientamento della pagina del documento PDF viene sempre preso dal documento Word.
 
 ## <a name="output-unfolding"></a>Apertura dell'output
 

@@ -2,7 +2,7 @@
 title: Introduzione a Calcolo imposte
 description: In questo argomento viene illustrato come configurare Calcolo imposte.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562128"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647436"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introduzione al calcolo delle imposte
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Questo argomento fornisce informazioni su come iniziare a usare Calcolo imposte. Ti guida attraverso i passi di configurazione in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance, e Dynamics 365 Supply Chain Management. Esamina quindi il processo comune per l'utilizzo della funzionalità Calcolo imposte nelle transazioni di Finance e Supply Chain Management.
 
@@ -41,29 +39,10 @@ La configurazione consiste in quattro passaggi principali:
 
 Prima di poter completare le procedure in questo argomento, i prerequisiti devono essere presenti per ogni tipo di ambiente.
 
-### <a name="for-a-production-environment"></a>Per un ambiente di produzione
-
-Per un ambiente di produzione, devono essere soddisfatti i seguenti prerequisiti:
+È necessario soddisfare i seguenti prerequisiti:
 
 - Devi avere accesso al tuo account LCS e devi avere un progetto LCS distribuito che ha un ambiente Tier 2 o superiore che esegue Dynamics 365 versione 10.0.21 o successiva.
 - Devi creare un ambiente RCS per la tua organizzazione e devi avere accesso al tuo account. Per maggiori informazioni su come creare un ambiente RCS, vedere [Panoramica di Regulatory Configuration Service](rcs-overview.md).
-- Le seguenti funzioni devono essere attivate nell'area di lavoro di **gestione delle funzioni** del tuo ambiente di Finance o Supply Chain Management distribuito, in base alle tue esigenze aziendali:
-
-    - Servizio di calcolo delle imposte
-    - Supporta più numeri di partita IVA
-    - Imposta in ordine di trasferimento
-
-- Le seguenti caratteristiche devono essere attivate nell'area di lavoro di **gestione delle caratteristiche** del tuo ambiente RCS distribuito.
-
-    - Funzionalità di globalizzazione
-
-### <a name="for-a-test-environment-public-preview"></a>Per un ambiente di prova (Anteprima pubblica)
-
-Per un ambiente di prova, devono essere soddisfatti i seguenti prerequisiti:
-
-- È necessario avere accesso all'account LCS e avere un progetto LCS distribuito che ha un ambiente Tier 2 o superiore che esegue Dynamics 365 versione 10.0.21 o una versione successiva.
-- Devi creare un ambiente RCS per la tua organizzazione e devi avere accesso al tuo account. Per maggiori informazioni su come creare un ambiente RCS, vedere [Panoramica di Regulatory Configuration Service](rcs-overview.md).
-- Dovete contattare Microsoft, inviando un'e-mail a <taxcalc@microsoft.com>, per abilitare il flighting nel vostro ambiente Finance o Supply Chain Management distribuito.
 - Le seguenti funzioni devono essere attivate nell'area di lavoro di **gestione delle funzioni** del tuo ambiente di Finance o Supply Chain Management distribuito, in base alle tue esigenze aziendali:
 
     - Servizio di calcolo delle imposte

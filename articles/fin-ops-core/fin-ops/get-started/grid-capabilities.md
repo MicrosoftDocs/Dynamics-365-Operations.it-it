@@ -2,7 +2,7 @@
 title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità della griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483856"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700139"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che possono essere utilizzate per migliorare la produttività degli utenti, creare viste più interessanti dei dati e ottenere informazioni dettagliate significative sui dati. In questo articolo vengono illustrate le seguenti funzionalità: 
@@ -32,6 +33,8 @@ Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che 
 -  Valutare espressioni matematiche 
 -  Raggruppamento di dati tabulari (abilitato separatamente utilizzando la funzionalità **Raggruppamento in griglie**)
 -  Blocco delle colonne
+-  Adatta automaticamente larghezza colonna
+-  Colonne estensibili
 
 ## <a name="calculating-totals"></a>Calcolo totali in corso
 Nelle app Finance and Operations, gli utenti hanno la possibilità di vedere i totali nella parte inferiore delle colonne numeriche nelle griglie. Questi totali sono visualizzati in una sezione a piè di pagina nella parte inferiore della griglia. 
@@ -43,7 +46,7 @@ C'è un'area per i piè di pagina nella parte inferiore di ogni griglia tabulare
 - I totali complessivi nella parte inferiore delle colonne numeriche configurate
 - Il numero di righe nel set di dati 
 
-Questo piè di pagina è nascosto per impostazione predefinita, ma può essere attivato. Per visualizzare il piè di pagina per una griglia, fare clic con il tasto destro del mouse sull'intestazione di una colonna nella griglia e selezionare l'opzione **Mostra piè di pagina**. Dopo aver attivato il piè di pagina per una griglia particolare, tale impostazione verrà memorizzata fino a quando l'utente non sceglierà di nasconderlo. Per nascondere il piè di pagina, fare clic con il pulsante destro del mouse su un'intestazione di colonna e selezionare **Nascondi piè di pagina**.  L'azione **Mostra piè di pagina/Nascondi piè di pagina** potrebbe essere spostata in una nuova posizione in un aggiornamento futuro. 
+Questo piè di pagina è nascosto per impostazione predefinita, ma può essere attivato. Per visualizzare il piè di pagina per una griglia, seleziona il pulsante **Opzioni griglia** nell'intestazione della griglia, quindi seleziona l'opzione **Mostra piè di pagina**. Dopo aver attivato il piè di pagina per una griglia particolare, tale impostazione verrà memorizzata fino a quando l'utente non sceglierà di nasconderlo. Per nascondere il piè di pagina, seleziona **Nascondi piè di pagina** nel menu **Opzioni griglia**.  
 
 ### <a name="specifying-columns-with-totals"></a>Specificare colonne con totali
 Al momento, nessuna colonna mostra i totali per impostazione predefinita. Questa è considerata come un'attività di impostazione unica, simile alla regolazione della larghezza delle colonne nelle griglie. Dopo aver specificato che si desidera visualizzare i totali per una colonna, tale impostazione verrà ricordata alla successiva visita della pagina.  
@@ -82,7 +85,7 @@ Per supportare questo nuovo comportamento, una nuova colonna per lo stato della 
 Quando gli utenti inseriscono dei dati prima della posizione in cui il server sta elaborando, possono prevedere qualche degrado nell'esperienza di immissione dei dati, come la mancanza di ricerche, la convalida a livello di controllo e l'inserimento di valori predefiniti. Gli utenti che necessitano di un elenco a discesa per trovare un valore sono invitati ad attendere che il server raggiunga la riga corrente. La convalida a livello di controllo e l'inserimento dei valori predefiniti si verificheranno quando il server elabora quella riga.   
 
 ### <a name="pasting-from-excel"></a>Incollare da Excel
-Gli utenti sono sempre stati in grado di esportare i dati dalle griglie nelle app Finance and Operations in Excel utilizzando il meccanismo **Esporta in Excel**. Tuttavia, la possibilità di inserire i dati prima del sistema, consente alla nuova griglia di supportare la copia delle tabelle da Excel e incollarle direttamente nelle griglie nelle app Finance and Operations. La cella della griglia da cui viene avviata l'operazione "incolla" determina da dove inizia l'operazione incolla della tabella copiata. Il contenuto della griglia viene sovrascritto dal contenuto della tabella copiata, tranne in due casi:
+Gli utenti sono sempre stati in grado di esportare i dati dalle griglie nelle app Finance and Operations in Microsoft Excel utilizzando il meccanismo **Esporta in Excel**. Tuttavia, la possibilità di inserire i dati prima del sistema, consente alla nuova griglia di supportare la copia delle tabelle da Excel e incollarle direttamente nelle griglie nelle app Finance and Operations. La cella della griglia da cui viene avviata l'operazione "incolla" determina da dove inizia l'operazione incolla della tabella copiata. Il contenuto della griglia viene sovrascritto dal contenuto della tabella copiata, tranne in due casi:
 
 - Se il numero di colonne nella tabella copiata supera il numero di colonne che rimangono nella griglia, a partire dalla posizione incolla, l'utente viene avvisato che le colonne extra sono state ignorate. 
 - Se il numero di righe nella tabella copiata supera il numero di righe nella griglia, a partire dalla posizione incolla, le celle esistenti vengono sovrascritte dal contenuto incollato e tutte le righe aggiuntive dalla tabella copiata vengono inserite come nuove righe nella parte inferiore della griglia. 
@@ -125,6 +128,9 @@ Per bloccare una colonna, fare clic con il pulsante destro del mouse nell'intest
 Per sbloccare una colonna, fare clic con il pulsante destro del mouse nell'intestazione della colonna bloccata, quindi selezionare **Sblocca colonna**. 
 
 Notare che la selezione della riga e le colonne dello stato della riga nella nuova griglia sono sempre bloccate come le prime due colonne. Pertanto, quando queste colonne sono incluse in una griglia, saranno sempre visibili all'utente, indipendentemente dalla posizione di scorrimento orizzontale nella griglia. Queste due colonne non possono essere riordinate.
+
+## <a name="autofit-column-width"></a>Adatta automaticamente larghezza colonna
+Come per Excel, gli utenti possono forzare automaticamente il ridimensionamento di una colonna in base al contenuto attualmente mostrato in quella colonna. Per fare ciò, fai doppio clic sui quadratini di ridimensionamento nella colonna o mettendo lo stato attivo nell'intestazione della colonna e premendo **A** (per adattamento automatico). Questa funzionalità è disponibile a partire dalla versione 10.0.23.  
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Come si abilita il nuovo controllo della griglia nell'ambiente? 

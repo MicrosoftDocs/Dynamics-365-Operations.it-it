@@ -1,7 +1,7 @@
 ---
-title: Ricalcolare i costi di sostituzione e i valori assicurati per i gruppi di cespiti
-description: Questo articolo illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
-author: ShylaThompson
+title: Ricalcolare i costi di sostituzione e i valori assicurati per gruppi cespite
+description: Questo argomento illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
+author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,21 @@ ms.reviewer: roschlom
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 074a976e3d815211f4a4fe24268ffc7ac7e9c4f4b4449167d288876a93749e1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763144"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674878"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Ricalcolare i costi di sostituzione e i valori assicurati per i gruppi di cespiti
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Ricalcolare i costi di sostituzione e i valori assicurati per gruppi cespite
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
+Questo argomento illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
 
 È possibile che periodicamente si riceva una notifica relativa al cambiamento del costo di sostituzione o assicurazione di cespiti specifici. È ad esempio possibile che il proprio superiore richieda di aumentare del 3% il costo di sostituzione di tutti i cespiti a causa dell'inflazione del 3% registrata l'anno precedente. 
 

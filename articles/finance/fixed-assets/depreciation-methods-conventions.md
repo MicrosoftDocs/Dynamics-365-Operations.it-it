@@ -1,7 +1,7 @@
 ---
 title: Metodi e convenzioni di ammortamento
 description: Questo articolo fornisce una panoramica delle convenzioni e dei metodi di ammortamento che sono supportati da Microsoft Dynamics 365 Finance.
-author: ShylaThompson
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa8f70e12a8c837a599ead5ef8b98aaf13e8cc827853de8b0332611ed2e257e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713236"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674528"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Metodi e convenzioni di ammortamento
 
@@ -32,7 +32,7 @@ Questo articolo fornisce una panoramica delle convenzioni e dei metodi di ammort
 
 Se si utilizzano le convenzioni di ammortamento e si modifica la data di esecuzione dell'ultimo ammortamento di un cespite, determinando l'annullamento di alcuni ammortamenti, l'ammortamento relativo all'ultimo anno può risultare maggiore o minore del previsto. L'ammortamento viene rettificato in base al numero di periodi di ammortamento interessati dalla modifica della data di esecuzione dell'ultimo ammortamento.
 
-Ad esempio, se si utilizza la convenzione di ammortamento semestrale su tre anni, l'ammortamento viene in genere eseguito su 3 anni e mezzo. Se durante questo intervallo di tempo la data di esecuzione dell'ultimo ammortamento viene modificata, il numero di periodi interessati nell'ultimo anno di ammortamento viene esteso. Se si sposta la data di tre mesi, nell'ultimo anno verranno considerati nove mesi di ammortamento, mentre normalmente dovrebbero essere solo sei.
+Ad esempio, se si utilizza la convenzione di ammortamento semestrale su tre anni, l'ammortamento viene in genere eseguito su tre anni e mezzo. Se durante questo intervallo di tempo la data di esecuzione dell'ultimo ammortamento viene modificata, il numero di periodi interessati nell'ultimo anno di ammortamento viene esteso. Se si sposta la data di tre mesi, nell'ultimo anno verranno considerati nove mesi di ammortamento, mentre normalmente dovrebbero essere solo sei.
 
 È possibile selezionare una delle convenzioni di ammortamento riportate di seguito.
 
@@ -63,7 +63,7 @@ Ad esempio, se si utilizza la convenzione di ammortamento semestrale su tre anni
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Ammortamento dei cespiti](fixed-asset-depreciation.md)
+[Ammortamento cespiti](fixed-asset-depreciation.md)
 
 [Ammortamento a quote costanti basato sulla vita utile](Straight-line-service-life-depreciation.md)
 
@@ -77,7 +77,7 @@ Ad esempio, se si utilizza la convenzione di ammortamento semestrale su tre anni
 
 [Ammortamento basato sulla vita utile rimanente a quote costanti](straight-line-life-remaining-depreciation.md)
 
-[Riduzione del 125% dell'ammortamento del saldo](125-percent-reducing-balance-depreciation.md)
+[Ammortamento a saldi decrescenti del 125%](125-percent-reducing-balance-depreciation.md)
 
 [Riduzione del 150% dell'ammortamento del saldo](150-percent-reducing-balance-depreciation.md)
 

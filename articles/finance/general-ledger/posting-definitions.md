@@ -1,7 +1,7 @@
 ---
 title: Definizioni di registrazione
-description: Questo articolo fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle. Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili.
-author: ShylaThompson
+description: Questo argomento fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle. Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili.
+author: kweekley
 ms.date: 09/03/2019
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22a261c1ac139d5caa51e05ff90675eca89e40fd804ff7e87a7c69a18c1f3e4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d409f154823a74e032adb71253ce97f8e3b2f101
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753506"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726968"
 ---
 # <a name="posting-definitions"></a>Definizioni di registrazione
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle.
+Questo argomento fornisce informazioni sulle definizioni di registrazione e sul modo in cui definirle e collegarle.
 Per i tipi di registrazione e i documenti supportati è possibile utilizzare definizioni di registrazione anziché profili di registrazione per classificare i conti principali e le dimensioni finanziarie nelle voci contabili. È possibile visualizzare i documenti e i tipi di registrazione supportati nella pagina **Definizioni di registrazione transazioni**. 
 
 Per iniziare a utilizzare le definizioni di registrazione, selezionare l'opzione **Usa definizioni di registrazione** nella pagina **Parametri di contabilità generale**. Anche quando si utilizzano le definizioni di registrazione, è ancora necessario definire i profili di registrazione per le voci di origine e i documenti e i tipi di registrazione non supportati. 

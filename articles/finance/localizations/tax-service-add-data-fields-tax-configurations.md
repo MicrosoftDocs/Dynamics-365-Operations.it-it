@@ -2,7 +2,7 @@
 title: Aggiungere campi dati nelle configurazioni imposte
 description: Questo argomento spiega come personalizzare le configurazioni imposte aggiungendo campi dati.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb10fb5feb317dca5253eea6e5694a3960a58a7d
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 590c2d62995f260ba4277e1031349b0dc43f1417
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500148"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674902"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Aggiungere campi dati nelle configurazioni imposte
 
@@ -31,8 +31,12 @@ Questo argomento spiega come personalizzare le configurazioni imposte utilizzand
 ## <a name="customize-the-tax-data-model"></a>Personalizzare il modello di dati fiscali
 
 1. In Microsoft Dynamics 365 Finance, vai a **Creazione di report elettronici** > **Configurazioni imposte**.
-2. Nell'albero di configurazione seleziona **Modello di dati fiscali - Europa**. Nel riquadro azioni, seleziona **Crea configurazione**.
-3. Nella casella di dialogo a discesa, seleziona **Modello di documento imponibile derivato da Nome: Modello di dati fiscali - Europa, Microsoft**, immetti un nome per il nuovo modello di dati fiscali, quindi seleziona **Crea configurazione**.
+2. Nell'albero di configurazione seleziona **Modello di dati per il calcolo delle imposte**. Nel riquadro azioni, seleziona **Crea configurazione**. 
+
+  > [!NOTE] 
+  > Se non è disponibile alcun provider di configurazione, creane uno e rendilo attivo per la tua configurazione fiscale. Per ulteriori informazioni, vedi [Creare provider di configurazioni e contrassegnarli come attivi](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+  
+3. Nella casella di dialogo a discesa, seleziona **Modello di documento imponibile derivato da Nome: Modello di dati per il calcolo delle imposte, Microsoft**, immetti un nome per il nuovo modello di dati fiscali, quindi seleziona **Crea configurazione**.
 4. Seleziona il modello di dati fiscali appena creato e quindi, nel riquadro azioni, seleziona **Progettazione**.
 5. Espandi l'albero del modello di dati, seleziona **Righe** e quindi seleziona **Nuovo**.
 6. Nella finestra di dialogo **Crea nodo** immetti un nome, specifica il tipo di elemento e quindi seleziona **Aggiungi**.
@@ -43,8 +47,8 @@ Questo argomento spiega come personalizzare le configurazioni imposte utilizzand
 ## <a name="customize-the-tax-configuration"></a>Personalizzare la configurazione imposte
 
 1. In Finance, vai a **Creazione di report elettronici** > **Configurazioni imposte**.
-2. Nell'albero di configurazione seleziona **Configurazione imposte - Europa**. Nel riquadro azioni, seleziona **Crea configurazione**.
-3. Nella casella di dialogo a discesa, seleziona **Configurazione del servizio per le imposte derivata da Nome: Modello di dati fiscali - Europa, Microsoft**, immetti un nome per la nuova configurazione imposte, quindi seleziona **Crea configurazione**.
+2. Nell'albero di configurazione seleziona **Configurazione calcolo delle imposte**. Nel riquadro azioni, seleziona **Crea configurazione**.
+3. Nella casella di dialogo a discesa, seleziona **Configurazione del servizio per le imposte derivata da Nome: Configurazione calcolo delle imposte, Microsoft**, immetti un nome per la nuova configurazione imposte, quindi seleziona **Crea configurazione**.
 4. Seleziona la configurazione imposte appena creata e quindi, nel riquadro azioni, seleziona **Progettazione**.
 5. Nella sezione **Proprietà** nel campo **Modello di dati** seleziona il modello di dati fiscali personalizzato creato in precedenza.
 6. Nel campo **Versione modello di dati** seleziona la versione completa del modello di dati fiscali.

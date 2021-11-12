@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472631"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675119"
 ---
 # <a name="order-lookup-module"></a>Modulo di ricerca ordini
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In questo argomento viene descritto il modulo di ricerca ordini e la procedura per configurarlo in Microsoft Dynamics 365 Commerce.
 
@@ -34,11 +33,11 @@ L'illustrazione seguente mostra un esempio del modulo di cui viene eseguito il r
 
 ![Modulo di ricerca ordini su una pagina.](./media/OrderLookup_module.PNG)
 
-## <a name="order-lookup-module-properties&quot;></a>Proprietà del modulo di ricerca ordini
+## <a name="order-lookup-module-properties"></a>Proprietà del modulo di ricerca ordini
 
 | Nome proprietà     | Valore     | descrizione |
 |-------------------|-----------|-------------|
-| Intestazione           | Testo      | Intestazione che appare nella parte superiore del modulo (ad esempio &quot;Trova ordine"). |
+| Intestazione           | Testo      | Intestazione che appare nella parte superiore del modulo (ad esempio "Trova ordine"). |
 | RTF         | RTF | Testo esplicativo facoltativo che appare sotto l'intestazione. |
 | Tipo di stato dell'ordine | Enum      | <p>Seleziona il tipo di informazioni richieste al cliente oltre all'ID di conferma dell'ordine. Attualmente sono supportati valori seguenti:</p><ul><li><b>E-mail</b>: nel modulo è incluso un campo in cui i clienti possono inserire l'indirizzo e-mail che hanno utilizzato quando hanno effettuato l'ordine.</li><li><b>Nessuno</b>: non viene richiesta alcuna informazione oltre all'ID di conferma dell'ordine.</li></ul> |
 

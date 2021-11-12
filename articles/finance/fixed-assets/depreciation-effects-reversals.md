@@ -1,7 +1,7 @@
 ---
 title: Effetti di ammortamento con storni
 description: In questo articolo vengono illustrate le implicazioni potenziali dello storno di una transazione cespiti.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37f0412166404e6903819840debcdd0ab0630115dcdb68297e0072723adacb53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760664"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674552"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Effetti di ammortamento con storni
 
@@ -30,14 +30,14 @@ In questo articolo vengono illustrate le implicazioni potenziali dello storno di
 
 È possibile stornare le transazioni cespiti e le transazioni associate a un cespite. Una transazione stornata può anche essere revocata. 
 
-È possibile stornare o revocare una transazione se non è la più recente registrata nel libro per il cespite. È innanzitutto necessario determinare se sono state registrate transazioni di ammortamento dopo la transazione da stornare. Ciò è dovuto al fatto che l'ammortamento non viene ricalcolato quando si storna una transazione. Pertanto, l'ammortamento viene spesso sopravvalutato o sottovalutato dopo lo storno, come illustrato negli esempi. 
+È possibile stornare o revocare una transazione se non è la più recente registrata nel libro per il cespite. Determinare per prima cosa se sono state registrate transazioni di ammortamento dopo la transazione da stornare. Questo passaggio è necessario in quanto l'ammortamento non viene ricalcolato quando si storna una transazione. Pertanto, l'ammortamento viene spesso sopravvalutato o sottovalutato dopo lo storno, come illustrato negli esempi. 
 
 Per assicurarsi che l'ammortamento sia corretto quando si storna una transazione, sospendere l'operazione di storno se si riceve un messaggio in cui viene segnalato che l'ammortamento non verrà ricalcolato. Sarà necessario prima stornare la transazione di ammortamento registrata dopo la transazione che si è tentato di stornare, quindi procedere con lo storno. Non verrà visualizzato alcun avviso relativo al ricalcolo dell'ammortamento e sarà possibile procedere con lo storno. 
 
 Negli esempi riportati di seguito vengono illustrati i calcoli che verranno eseguiti se si sceglie di continuare nonostante il messaggio di avviso senza stornare prima le transazioni di ammortamento.
 
 ## <a name="example-1-depreciation-is-overstated"></a>Esempio 1: ammortamento sopravvalutato
-Un cespite viene impostato con una vita utile di 5 anni e un ammortamento a quote costanti (60 periodi di ammortamento). In questo esempio l'ammortamento è sopravvalutato.
+Un cespite viene impostato con una vita utile di cinque anni e un ammortamento a quote costanti (60 periodi di ammortamento). In questo esempio l'ammortamento è sopravvalutato.
 #### <a name="asset-transaction-history"></a>Storico transazioni cespiti
 
 | Data       | Tipo di transazione                                                          | Importo                                    |
@@ -61,7 +61,7 @@ Un cespite viene impostato con una vita utile di 5 anni e un ammortamento a quot
 L'ammortamento è sopravvalutato di 16,95 (1000 - 983,05).
 
 ## <a name="example-2-depreciation-is-understated"></a>Esempio 2: ammortamento sottovalutato
-Un cespite viene impostato con una vita utile di 5 anni e un ammortamento a quote costanti (60 periodi di ammortamento). In questo esempio l'ammortamento è sottovalutato.
+Un cespite viene impostato con una vita utile di cinque anni e un ammortamento a quote costanti (60 periodi di ammortamento). In questo esempio l'ammortamento è sottovalutato.
 #### <a name="asset-transaction-history"></a>Storico transazioni cespiti
 
 | Data       | Tipo di transazione                                                          | Importo                                      |
