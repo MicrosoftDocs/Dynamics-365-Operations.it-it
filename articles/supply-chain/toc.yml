@@ -74,12 +74,12 @@
                   items:
                     - name: Home page Novità o modifiche di Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (novembre 2021)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (ottobre 2021)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20 (agosto 2021)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Pianificazione generale con accordi commerciali di acquisto
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Parametri di data e ora utilizzati da Ottimizzazione pianificazione
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Margini di sicurezza
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Tolleranza di ritardo (giorni negativi)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurare la rubrica globale
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Impostazione indirizzo
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Domande frequenti sulle rubriche
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurare le rubriche
@@ -2427,19 +2431,7 @@
                       href: production-control/release-production-orders.md
                     - name: Dichiarare finiti gli ordini di produzione
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Configurare e utilizzare l'interfaccia di esecuzione dell'area di produzione
-                      items:
-                        - name: Configurare l'interfaccia di esecuzione dell'area di produzione
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Progettare l'interfaccia di esecuzione dell'area di produzione
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Configurare un dispositivo per eseguire l'interfaccia dell'area di produzione
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione
-                          href: production-control/production-floor-execution-use.md
-                        - name: Progettare l'interfaccia di esecuzione dell'area di produzione
-                          href: production-control/production-floor-execution-styles.md
-                    - name: Configurare la scheda processo per dispositivi
+                    - name: Configura scheda processo per dispositivi
                       href: production-control/config-job-card-device.md
                     - name: Dichiarazione di finito dal dispositivo scheda di processo
                       href: production-control/report-finished-job-device.md
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Registrazione produzione
                       href: cost-management/production-posting.md
+            - name: Configurare e utilizzare l'interfaccia di esecuzione dell'area di produzione
+              items:
+                - name: Configurare l'interfaccia di esecuzione dell'area di produzione
+                  href: production-control/production-floor-execution-configure.md
+                - name: Progettare l'interfaccia di esecuzione dell'area di produzione
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Configurare un dispositivo per eseguire l'interfaccia dell'area di produzione
+                  href: production-control/production-floor-execution-setup.md
+                - name: Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione
+                  href: production-control/production-floor-execution-use.md
+                - name: Progettare l'interfaccia di esecuzione dell'area di produzione
+                  href: production-control/production-floor-execution-styles.md
         - name: Gestione degli sconti
           items:
             - name: Panoramica modulo di gestione degli sconti
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Personalizzare i titoli dei passaggi e le istruzioni per l'app per dispositivi mobili Warehouse Management
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Configurare i campi promossi per i passaggi nel dispositivo mobile
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
+                      href: warehousing/warehouse-app-detours.md
                     - name: Ricezione della targa con l'app per dispositivi mobili Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Impostare un menu di articoli per dispositivi mobili per completare il lavoro in un ordine fornitore
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Parametri globali del dispositivo mobile
                   href: warehousing/mobile-device-parameters.md
+                - name: Account utente dispositivo mobile
+                  href: warehousing/mobile-device-work-users.md
                 - name: Impostazioni utente dispositivo mobile
                   href: warehousing/mobile-device-user-settings.md
                 - name: Elaborazione degli eventi dell'app di magazzino
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestione magazzino
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: L'ancoraggio di trust per il percorso di certificazione non è stato trovato durante la configurazione della connessione dell'app
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: L'ancoraggio di trust per il percorso di certificazione non è stato trovato durante l'aggiornamento e la migrazione a WMS
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: La richiesta di prenotazione automatica per il numero di batch viene mostrata anche con inventario disponibile
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Il lavoro di prelievo non può essere sbloccato a causa di lavori di rifornimento incompiuti
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: Non è possibile spostare l'inventario in un'ubicazione controllata dalla targa
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: L'ancoraggio di trust per il percorso di certificazione non è stato trovato durante la configurazione della connessione dell'app
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Impossibile trovare il profilo del cluster
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: La correzione della bolla di consegna non può essere elaborata
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: Impossibile annullare la prenotazione dell'inventario su una riga dell'ordine cliente
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: L'ancoraggio di trust per il percorso di certificazione non è stato trovato durante l'aggiornamento e la migrazione a WMS
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Impossibile confermare una spedizione perché il cliente è in attesa
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: Impossibile confermare una spedizione perché la quantità delle righe di carico è pari a zero
