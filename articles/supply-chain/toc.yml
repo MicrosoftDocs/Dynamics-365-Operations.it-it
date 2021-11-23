@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: Rettificare i valori di costo dell'inventario disponibile
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Report di archiviazione valori di magazzino
+                - name: Report valore di magazzino
                   href: cost-management/inventory-value-report-storage.md
+                - name: Esempi e logica di report di valore dell'inventario
+                  href: cost-management/inventory-value-report-examples.md
                 - name: Archiviazione report di aging dell'inventario
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Esempi e logica di report di aging dell'inventario
@@ -837,7 +839,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aggiungere dimensioni finanziarie alle misure di aggregazione
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Creare report analitici utilizzando Power BI Desktop
+                - name: Creare report analitici utilizzando PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1673,6 +1675,8 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Programmazione con selezione delle risorse in base alla capacità
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Pianificazione basata sulle priorità
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Contrassegno inventario con Ottimizzazione pianificazione
                   href: master-planning/planning-optimization/marking.md
                 - name: Pianificazione interaziendale
@@ -1719,6 +1723,8 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Garantire le scorte di sicurezza per gli articoli
                   href: master-planning/safety-stock-replenishment.md
+                - name: Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima per gli articoli
+                  href: master-planning/safety-stock-journal.md
                 - name: Ritardi
                   href: master-planning/delays.md
                 - name: Annullare un processo di pianificazione principale
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: Richiamare i flussi di automazione processi per creare ordini di controllo qualità
               href: production-control/process-automation-quality-orders.md
+            - name: Effettuare l'integrazione con sistemi di esecuzione della produzione di terze parti
+              href: production-control/mes-integration.md
             - name: Produzione discreta
               items:
                 - name: Gestione dati master di produzione
@@ -2647,8 +2655,10 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione
                   href: production-control/production-floor-execution-use.md
-                - name: Progettare l'interfaccia di esecuzione dell'area di produzione
+                - name: Creare lo stile per l'interfaccia di esecuzione dell'area di produzione
                   href: production-control/production-floor-execution-styles.md
+                - name: Personalizzare l'interfaccia di esecuzione dell'area di produzione
+                  href: production-control/production-floor-execution-customize.md
         - name: Gestione degli sconti
           items:
             - name: Panoramica modulo di gestione degli sconti
