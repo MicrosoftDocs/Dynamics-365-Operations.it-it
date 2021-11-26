@@ -34,7 +34,7 @@ Questa enumerazione fornisce un set di opzioni per le proprietà sì/no che cons
 | --- | --- | --- |
 | 200000000 | Vuoto | Non è stato selezionato alcun valore. |
 | 200000001 | Sì | Sì. |
-| 200000002 | Nessuno | N. |
+| 200000002 | No | N. |
 
 ## <a name="see-also"></a>Vedere anche
 

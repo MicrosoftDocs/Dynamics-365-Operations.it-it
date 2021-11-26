@@ -40,7 +40,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | Escluso dall'elaborazione della messaggistica elettronica dell'interoperabilità con il sistema di fatturazione online ungherese |
-| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Sostituita da un'altra funzionalità?**   | No |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Obsoleto: entro il 15 aprile 2022, prevediamo di non supportare più la configurazione del formato "RTIR Query Invoice Data Request (HU)". |

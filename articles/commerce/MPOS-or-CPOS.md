@@ -70,8 +70,8 @@ Oltre alla piattaforma e al fattore di forma, i rivenditori devono scegliere anc
 | Applicazione POS         | Commerce Scale Unit | Disponibile offline |
 |-------------------------|---------------|-------------------|
 | MPOS per Windows        | Cloud o RSSU | Sì               |
-| MPOS per iOS o Android | Cloud o RSSU | Nessuno                |
-| POS cloud               | Cloud o RSSU | Nessuno                |
+| MPOS per iOS o Android | Cloud o RSSU | No                |
+| POS cloud               | Cloud o RSSU | No                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
 

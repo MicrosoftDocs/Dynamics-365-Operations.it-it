@@ -92,8 +92,8 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
     | Data transazione       | 1/1/2022 |
     | Periodi rimanenti      | 84       |
     | Registra                   | Sì      |
-    | Visualizza anteprima prima della registrazione | Nessuno       |
-    | Chiudi libro             | Nessuno       |
+    | Visualizza anteprima prima della registrazione | No       |
+    | Chiudi libro             | No       |
 
 6. Una scrittura contabile di spesa per riduzione del valore è stata creata e registrata. Per visualizzarla, accedi al giornale di registrazione dei leasing del cespite nel libro di leasing. Tieni presente che l'importo della riduzione di valore è stato addebitato sul conto di registrazione delle spese di riduzione di valore ed è stato accreditato sul conto di registrazione dell'asset ROU.
 7. Per visualizzare l'effetto netto della riduzione del valore, consulta le tabelle delle transazioni di passività e attività. Tien presente che la spesa per riduzione di valore ha diminuito l'asset ROU, ma il valore contabile dell'obbligazione sul leasing non è cambiato.

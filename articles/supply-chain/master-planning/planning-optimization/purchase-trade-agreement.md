@@ -75,14 +75,14 @@ La tabella seguente fornisce esempi che mostrano in che modo le varie impostazio
 
 | Prodotto rilasciato: Fornitore | Impostazioni ordine predefinite: Lead time | Copertura articolo: Sostituisci fornitore | Copertura articolo: Sostituisci lead time | Accordo commerciale: Fornitore | Accordo commerciale: Lead time | Accordo commerciale: Ignora lead time | Fornitore risultante | Lead time risultante |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | Nessuno | Nessuno | US003 | 3 | Nessuno | _ *US001** | **1** |
-| US001 | 1 | ***Sì: US002** _ | _*_Sì: 2_*_ | US003 | 3 | Nessuno | _ *US002** | **2** |
-| *(Vuoto)* | 1 | Nessuno | Nessuno | ***US003** _ | _*_3_*_ | Nessuno | _ *US003** | **3** |
-| *(Vuoto)* | ***1** _ | Nessuno | Nessuno | _*_US003_*_ | 3 | Sì | _ *US003** | **1** |
-| *(Vuoto)* | ***1** _ | _*_Sì: US002_*_ | Nessuno | US003 | 3 | Nessuno | _ *US002** | **1** |
-| *(Vuoto)* | ***1** _ | _*_Sì: US002_*_ | Nessuno | US003 | 3 | Nessuno | _ *US002** | **1** |
-| *(Vuoto)* | 1 | Nessuno | Sì: 2 | ***US003** _ | _*_3_*_ | Nessuno | _ *US003** | **3** |
-| *(Vuoto)* | 1 | Nessuno | ***Sì: 2** _ | _*_US003_*_ | 3 | Sì | _ *US003** | **2** |
+| ***US001** _ | _*_1_*_ | No | No | US003 | 3 | No | _ *US001** | **1** |
+| US001 | 1 | ***Sì: US002** _ | _*_Sì: 2_*_ | US003 | 3 | No | _ *US002** | **2** |
+| *(Vuoto)* | 1 | No | No | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
+| *(Vuoto)* | ***1** _ | No | No | _*_US003_*_ | 3 | Sì | _ *US003** | **1** |
+| *(Vuoto)* | ***1** _ | _*_Sì: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
+| *(Vuoto)* | ***1** _ | _*_Sì: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
+| *(Vuoto)* | 1 | No | Sì: 2 | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
+| *(Vuoto)* | 1 | No | ***Sì: 2** _ | _*_US003_*_ | 3 | Sì | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

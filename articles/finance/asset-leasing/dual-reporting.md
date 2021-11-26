@@ -47,7 +47,7 @@ Il libro IFRS 16 è configurato in modo da essere conforme al principio contabil
 | Configurazione valore corrente/valore equo cespite | 0,00           |
 | Soglia a breve termine                    | 12             |
 | Soglia valore basso                     | 5,000.00       |
-| Pagamento al fornitore                           | Nessuno             |
+| Pagamento al fornitore                           | No             |
 
 **Libro statutario**
 
@@ -64,7 +64,7 @@ Il libro statutario è un libro di cassa in cui la società contabilizzerà le s
 | Configurazione valore corrente/valore equo cespite | 0,00        |
 | Soglia a breve termine                    | 0           |
 | Soglia valore basso                     | 0           |
-| Pagamento al fornitore                           | Nessuno          |
+| Pagamento al fornitore                           | No          |
 
 **Libro storno statutario**
 
@@ -81,7 +81,7 @@ Il libro di storno statutario è configurato allo stesso modo del libro statutar
 | Configurazione valore corrente/valore equo cespite | 0,00                           |
 | Soglia a breve termine                    | 0                              |
 | Soglia valore basso                     | 0                              |
-| Pagamento al fornitore                           | Nessuno                             |
+| Pagamento al fornitore                           | No                             |
 
 Per questo esempio, è stato creato un contratto di leasing con le seguenti impostazioni nelle schede **Generale** e **Righe scadenzario pagamenti**.
 

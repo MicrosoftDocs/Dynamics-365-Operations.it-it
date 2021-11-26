@@ -34,7 +34,7 @@ Questa enumerazione fornisce un set di opzioni per le proprietà booleane tipich
 
 | Valore | Etichetta | Descrizione |
 | --- | --- | --- |
-| 200000000 | Nessuno | N. |
+| 200000000 | No | N. |
 | 200000001 | Sì | Sì. |
 
 ## <a name="see-also"></a>Vedere anche

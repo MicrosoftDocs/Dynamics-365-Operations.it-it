@@ -178,7 +178,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Gli artefatti dei metadati associati a Dynamics AX 2012 Enterprise Portal (EP) sono stati deprecati, poiché EP non è mai stato supportato nelle app Finance and Operations. |
-| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Sostituita da un'altra funzionalità?**   | No |
 | **Aree del prodotto interessate**         | Client Web |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecata: tutto il codice EP dovrebbe essere rimosso nella versione di ottobre 2021. |
@@ -325,7 +325,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Questo era un problema di sicurezza perché la richiesta di modifica poteva essere inviata a un utente non intenzionale. Anche questo era un problema di usabilità perché costringeva l'utente a determinare chi era il creatore del flusso di lavoro e selezionarlo manualmente.  |
-| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Sostituita da un'altra funzionalità?**   | No |
 | **Aree del prodotto interessate**         | Flusso di lavoro |
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | L'elenco a discesa di selezione dell'utente è stato rimosso dalla finestra di dialogo di modifica della richiesta nell'aggiornamento 32 della piattaforma. Le richieste di modifica della richiesta verranno inviate automaticamente al mittente come previsto. Per ulteriori informazioni su questa funzionalità, vedere [Azioni nei processi di approvazione del flusso di lavoro](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change). |
@@ -335,7 +335,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Gli URL di spostamento incorporati nei documenti visualizzati dal servizio possono contenere dati aziendali sensibili. Verrà rimosso il supporto per i collegamenti drill-through incorporati nei documenti come precauzione di sicurezza per proteggere ulteriormente i dati dei clienti. Gli utenti trarranno inoltre vantaggio da prestazioni migliori producendo in modo interattivo documenti a seguito di questo cambiamento.  |
-| **Sostituita da un'altra funzionalità?**   | Nessuna |
+| **Sostituita da un'altra funzionalità?**   | No |
 | **Aree del prodotto interessate**         | Reporting |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Questa funzione è attivamente rimossa dal servizio.<br><br>Il client moderno offre numerose opzioni per la produzione di visualizzazioni che includono collegamenti generati automaticamente per facilitare l'esplorazione dell'applicazione. I documenti impaginati visualizzati dal servizio sono consigliati per le comunicazioni esterne che vengono inviate via e-mail, archiviate e stampate per i destinatari. Abbiamo migliorato l'esperienza per l'anteprima dei documenti direttamente nel browser, che offre accesso diretto alle stampanti locali. Per ulteriori informazioni, vedere [Anteprima dei documenti PDF con un visualizzatore incorporato](../analytics/preview-pdf-documents.md). |

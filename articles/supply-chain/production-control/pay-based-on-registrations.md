@@ -170,7 +170,7 @@ Nella pagina **Parametri di calcolo**, selezionare **Straordinario** come tipo d
 
 | Specifica reg. | Tipo di specifica profilo | Calcolo   | Impostazione | Retribuito         | Impostazione |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Orario di lavoro       | Straordinario                   | Orario standard | Sì | Tempo retribuito     | Nessuno  |
+| Orario di lavoro       | Straordinario                   | Orario standard | Sì | Tempo retribuito     | No  |
 |                    |                            | Tempo retribuito      | Sì | Straordinario retribuito | Sì |
 
 Dopo la rettifica dei parametri di calcolo, vengono generati gli elementi di retribuzione seguenti.

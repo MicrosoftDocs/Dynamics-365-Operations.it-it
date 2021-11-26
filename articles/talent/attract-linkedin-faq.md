@@ -99,9 +99,9 @@ Nella tabella seguente vengono descritte le varie opzioni per la pubblicazione d
 |---|---|---|---|
 | **Descrizione** | Attract pubblica le posizioni in LinkedIn come feed XML. | La società stipula un contratto con LinkedIn e fornisce un feed XML per la pubblicazione delle posizioni. | Il cliente usa l'API per sincronizzare le informazioni tra Attract e LinkedIn Recruiter. |
 | **Che tipo di posizione posso pubblicare?** | Inserzioni limitate | Slot di lavoro Premium o Inserzioni limitate | Inserzioni limitate |
-| **Posso promuovere una posizione in LinkedIn?** | Nessuno | Slot di lavoro Premium: sì<br>Inserzioni limitate: no | Nessuno |
+| **Posso promuovere una posizione in LinkedIn?** | No | Slot di lavoro Premium: sì<br>Inserzioni limitate: no | No |
 | **Con quale frequenza LinkedIn pubblica le posizioni?** | Una volta al giorno | Una volta al giorno | Più volte al giorno, come definito dall'API |
-| **Consigliato da LinkedIn?** | Nessuno | Sì | Nessuno |
+| **Consigliato da LinkedIn?** | No | Sì | No |
 | **Quali sono i requisiti?** | Acquisto di Attract | Contratto di wrapping del lavoro con LinkedIn e acquisto di slot di lavoro Premium | Accordo di API con LinkedIn | 
 | **Dove è possibile trovare ulteriori informazioni?** | [Impostazione dell'integrazione con LinkedIn per Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md) | [JWrapping del lavoro attraverso LinkedIn Recruiter - Panoramica](https://www.linkedin.com/help/recruiter/answer/79037) | [Recruiter System Connect](https://docs.microsoft.com/linkedin/talent/recruiter-system-connect) |
 
@@ -117,6 +117,3 @@ Nella tabella seguente vengono descritte le varie opzioni per la pubblicazione d
 [Selezionare i candidati con LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [Risoluzione dei problemi di integrazione con LinkedIn e Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

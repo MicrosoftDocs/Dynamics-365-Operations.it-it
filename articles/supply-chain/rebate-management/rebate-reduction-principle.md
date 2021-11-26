@@ -47,11 +47,11 @@ La tabella seguente mostra alcuni esempi tipici di impostazioni del principio di
 
 | Principio di riduzione degli sconti | descrizione | Applicare la riduzione | Base di riduzione | Escludere dalla riduzione |
 |---|---|---|---|---|
-| Differito | Riduci sconto | Sì | Entrambi | Nessuno |
+| Differito | Riduci sconto | Sì | Entrambi | No |
 | Exclreb | Escludi sconto | Sì | Sconto | Sì |
 | Multiplo | Sconti multipli | Sì | Entrambi | Sì |
-| Nessuna priorità | Solo accantonamento e sconto | Nessuno | Entrambi | Sì |
-| Esegui provisioning | Solo accantonamento | Sì | Esegui provisioning | Nessuno |
+| Nessuno | Solo accantonamento e sconto | No | Entrambi | Sì |
+| Esegui provisioning | Solo accantonamento | Sì | Esegui provisioning | No |
 | Sconto | Solo sconto | Sì | Sconto | Sì |
 
 ## <a name="examples-of-rebate-reduction-principle-calculations"></a>Esempi di calcoli del principio di riduzione dello sconto

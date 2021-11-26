@@ -34,8 +34,8 @@ Ad esempio, un prodotto tipico nell'ambito dei televisori può avere i seguenti 
 
 | Categoria   | Attributo                | Valori permessi          | Valore predefinito |
 |------------|--------------------------|-----------------------------|---------------|
-| TV e video | Marchio                    | Qualsiasi valore di marchio valido       | Nessuna          |
-| TV         | Dimensioni schermo              | 20-80 pollici                | Nessuna          |
+| TV e video | Marchio                    | Qualsiasi valore di marchio valido       | Nessuno          |
+| TV         | Dimensioni schermo              | 20-80 pollici                | Nessuno          |
 |            | Risoluzione verticale      | 480i, 720p, 1080i o 1080p | 1080p         |
 |            | Frequenza di aggiornamento schermo      | 60 hz, 120 hz o 240 hz       | 60 hz          |
 |            | Ingressi HDMI              | 0–10                        | 3             |

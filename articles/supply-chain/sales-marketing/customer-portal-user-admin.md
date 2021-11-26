@@ -88,9 +88,9 @@ La tabella seguente mostra quali ordini cliente sono visibili agli utenti per ci
 
 | Ordine cliente | Amministratore | Rappresentante del cliente&nbsp;X | Utente autorizzato: Jane | Utente autorizzato: Sam | Utente non autorizzato: May |
 |---|---|---|---|---|---|
-| Autore ordine cliente&nbsp;X: &nbsp;Jane | Sì | Sì | Sì | Nessuna | Nessuna |
-| Autore ordine cliente&nbsp;X: &nbsp;Sam | Sì | Sì | Nessuna | Sì | Nessuna |
-| Autore cliente&nbsp;Y: &nbsp;May | Sì | Nessuna | Nessuna | Nessuna | Nessuna |
+| Autore ordine cliente&nbsp;X: &nbsp;Jane | Sì | Sì | Sì | No | No |
+| Autore ordine cliente&nbsp;X: &nbsp;Sam | Sì | Sì | No | Sì | No |
+| Autore cliente&nbsp;Y: &nbsp;May | Sì | No | No | No | No |
 
 > [!NOTE]
 > Anche se Sam e Jane sono contatti che lavorano per il cliente X, possono vedere solo gli ordini che essi stessi hanno effettuato e nient'altro. Sebbene May abbia un ordine nel sistema, non può vederlo nel portale clienti, poiché è un utente non autorizzato. Inoltre, deve aver effettuato l'ordine attraverso un canale diverso dal portale clienti.

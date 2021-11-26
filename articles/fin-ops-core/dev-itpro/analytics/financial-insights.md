@@ -89,8 +89,8 @@ La seguente tabella di confronto aiuterà a differenziare le due opzioni:
 
 | Funzionalità                                                   | Financial Reporting                                               | Analisi finanziaria |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Modifica report predefiniti**                                 | Sì                                                               | Nessuno |
-| **Creazione nuovi report**                                   | Sì                                                               | Nessuno |
+| **Modifica report predefiniti**                                 | Sì                                                               | No |
+| **Creazione nuovi report**                                   | Sì                                                               | No |
 | **Stampa i report**                                        | Sì                                                               | No |
 | **Esporta in Excel**                                      | Sì                                                               | Esportazione limitata di dati non elaborati in Excel, non in un report formattato |
 | **Supporto creazione di report con gerarchia/gerarchia organizzativa**   | Sì                                                               | No |

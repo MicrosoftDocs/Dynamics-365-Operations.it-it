@@ -40,12 +40,12 @@ Quando è attivata la gestione delle modifiche, i PO passano attraverso sei stat
 
 | Stato approvazione | Descrizione                                                                      | Richiedi modifica è abilitata |
 |-----------------|----------------------------------------------------------------------------------|---------------------------|
-| Bozze           | L'ordine fornitore è una bozza e non è stato sottoposto ad approvazione nel flusso di lavoro.     | Nessuno                        |
+| Bozze           | L'ordine fornitore è una bozza e non è stato sottoposto ad approvazione nel flusso di lavoro.     | No                        |
 | In revisione       | L'ordine fornitore è stato inviato per l'approvazione nel flusso di lavoro. L'approvazione è in sospeso.       | No                        |
 | Rifiutati        | L'ordine fornitore è stato rifiutato durante il processo di approvazione.                                 | No                        |
 | Approvati        | L'ordine fornitore è stato approvato.                                                             | Sì                       |
 | Confermato       | L'ordine fornitore è stato confermato. Un ordine fornitore non può essere confermato finché non viene approvato.        | Sì                       |
-| Finalizzato       | L'ordine fornitore è stato reso finale. È ora finanziariamente chiuso e non può più essere modificato. | Nessuno                        |
+| Finalizzato       | L'ordine fornitore è stato reso finale. È ora finanziariamente chiuso e non può più essere modificato. | No                        |
 
 ## <a name="confirming-purchase-orders"></a>Conferma di ordini fornitore
 I PO che hanno uno stato di approvazione di **Approvato** possono passare attraverso passaggi aggiuntivi prima di essere confermati. Ad esempio, potrebbe essere necessario inviare una richiesta di informazioni sull'acquisto al fornitore per informazioni su prezzi, sconti o le date di consegna. In questo caso, è possibile impostare l'ordine fornitore sullo stato **In revisione esterna** utilizzando l'azione **Richiesta informazioni su acquisto**.

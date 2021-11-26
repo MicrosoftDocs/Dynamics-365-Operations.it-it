@@ -203,7 +203,7 @@ Per lavorare con associazioni di controllo qualità, vai a **Gestione articoli \
 <td rowspan="3">Operazione ciclo di lavorazione</td>
 <td rowspan="3">Dichiarazione di finito</td>
 <td rowspan="2">Prima di</td>
-<td>Nessuna priorità</td>
+<td>Nessuno</td>
 <td rowspan="3">ID specifico, Gruppo o Tutti e Specifico risorsa, Gruppo o Tutti</td>
 </tr>
 <tr>
@@ -211,13 +211,13 @@ Per lavorare con associazioni di controllo qualità, vai a **Gestione articoli \
 </tr>
 <tr>
 <td>Dopo</td>
-<td>Nessuna priorità</td>
+<td>Nessuno</td>
 </tr>
 <tr>
 <td rowspan="3">Produzione co-prodotti</td>
 <td>Registrazione</td>
 <td>Non applicabile</td>
-<td rowspan="3">Nessuna priorità</td>
+<td rowspan="3">Nessuno</td>
 <td rowspan="3">Tutti</td>
 </tr>
 <tr>
@@ -344,7 +344,7 @@ Se durante la produzione, si imposta il campo **Tipo di evento** su *Dichiarato 
 </tr>
 <tr>
 <td>Quantità fissa: 1</td>
-<td>Nessuno</td>
+<td>No</td>
 <td>
 <p>Numero batch: No</p>
 <p>Numero di serie: No</p>
@@ -399,7 +399,7 @@ Se durante la produzione, si imposta il campo **Tipo di evento** su *Dichiarato 
 </tr>
 <tr>
 <td>Quantità fissa: 2</td>
-<td>Nessuno</td>
+<td>No</td>
 <td>
 <p>Numero batch: Sì</p>
 <p>Numero di serie: Sì</p>

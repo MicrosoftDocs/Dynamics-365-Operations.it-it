@@ -187,34 +187,34 @@ La tabella seguente mostra quali funzionalità in uscita sono supportate e dove 
 
 | Elaborazione                                                      | Hub | Carico di lavoro di esecuzione del magazzino su un'unità di scala |
 |--------------------------------------------------------------|-----|------------------------------|
-| Elaborazione documenti di origine                                   | Sì | Nessuno |
-| Elaborazione del carico e della gestione trasporto                | Sì, ma solo i processi di pianificazione del carico. L'elaborazione della gestione dei trasporti non è supportata  | Nessuno |
-| Rilascia in magazzino                                         | Sì | Nessuno |
-| Cross-docking pianificato                                        | Nessuno  | Nessuno |
+| Elaborazione documenti di origine                                   | Sì | No |
+| Elaborazione del carico e della gestione trasporto                | Sì, ma solo i processi di pianificazione del carico. L'elaborazione della gestione dei trasporti non è supportata  | No |
+| Rilascia in magazzino                                         | Sì | No |
+| Cross-docking pianificato                                        | No  | No |
 | Consolidamento spedizioni                                       | Sì, quando si utilizza la pianificazione del carico | Sì |
-| Elaborazione ciclo di spedizione                                     | Nessuno  |Sì, tranne **Allestimento del carico e ordinamento** |
-| Mantenere le spedizioni per ciclo                                  | Nessuno  | Sì|
-| Elaborazione del lavoro di magazzino (inclusa la stampa della targa)        | Nessuno  | Sì, ma solo per le funzionalità supportate menzionate in precedenza |
-| Prelievo cluster                                              | Nessuno  | Sì|
-| Elaborazione manuale dell'imballaggio, inclusa l'elaborazione del lavoro "Prelievo contenitore imballato" | Nessuno <P>Alcune elaborazioni possono essere eseguite dopo un processo di prelievo iniziale gestito da un'unità di scala, ma non consigliato a causa delle seguenti operazioni bloccate.</p>  | Nessuno |
-| Rimuovi contenitore da gruppo                                  | Nessuno  | Nessuno |
-| Elaborazione ordinamento in uscita                                  | Nessuno  | Nessuno |
+| Elaborazione ciclo di spedizione                                     | No  |Sì, tranne **Allestimento del carico e ordinamento** |
+| Mantenere le spedizioni per ciclo                                  | No  | Sì|
+| Elaborazione del lavoro di magazzino (inclusa la stampa della targa)        | No  | Sì, ma solo per le funzionalità supportate menzionate in precedenza |
+| Prelievo cluster                                              | No  | Sì|
+| Elaborazione manuale dell'imballaggio, inclusa l'elaborazione del lavoro "Prelievo contenitore imballato" | No <P>Alcune elaborazioni possono essere eseguite dopo un processo di prelievo iniziale gestito da un'unità di scala, ma non consigliato a causa delle seguenti operazioni bloccate.</p>  | No |
+| Rimuovi contenitore da gruppo                                  | No  | No |
+| Elaborazione ordinamento in uscita                                  | No  | No |
 | Stampa di documenti relativi al carico                           | Sì | Sì|
-| Polizza di carico e generazione di ASN                            | Nessuno  | Sì|
-| Conferma della spedizione                                             | Nessuno  | Sì|
-| Conferma della spedizione con "Conferma e trasferisci"            | Nessuno  | Nessuno |
-| Elaborazione di fatturazione e documento di trasporto                        | Sì | Nessuno |
-| Prelievo breve (ordini cliente e di trasferimento)                    | Nessuno  | Sì, senza rimuovere le prenotazioni per i documenti di origine|
-| Prelievo eccessivo (ordini cliente e di trasferimento)                     | Nessuno  | Sì|
-| Modifica delle sedi di lavoro (ordini cliente e di trasferimento)         | Nessuno  | Sì|
-| Lavoro completo (ordini cliente e di trasferimento)                    | Nessuno  | Sì|
+| Polizza di carico e generazione di ASN                            | No  | Sì|
+| Conferma della spedizione                                             | No  | Sì|
+| Conferma della spedizione con "Conferma e trasferisci"            | No  | No |
+| Elaborazione di fatturazione e documento di trasporto                        | Sì | No |
+| Prelievo breve (ordini cliente e di trasferimento)                    | No  | Sì, senza rimuovere le prenotazioni per i documenti di origine|
+| Prelievo eccessivo (ordini cliente e di trasferimento)                     | No  | Sì|
+| Modifica delle sedi di lavoro (ordini cliente e di trasferimento)         | No  | Sì|
+| Lavoro completo (ordini cliente e di trasferimento)                    | No  | Sì|
 | Stampa report di lavoro                                            | Sì | Sì|
-| Etichetta ondata                                                   | Nessuno  | Sì|
-| Divisione lavoro                                                   | Nessuno  | Sì|
-| Elaborazione del lavoro: gestito da "Caricamento di trasporto"            | Nessuno  | Nessuno |
-| Riduci quantità prelevata                                       | Nessuno  | Nessuno |
-| Storna lavoro                                                 | Nessuno  | Nessuno |
-| Inverti conferma spedizione                                | Nessuno  | Sì|
+| Etichetta ondata                                                   | No  | Sì|
+| Divisione lavoro                                                   | No  | Sì|
+| Elaborazione del lavoro: gestito da "Caricamento di trasporto"            | No  | No |
+| Riduci quantità prelevata                                       | No  | No |
+| Storna lavoro                                                 | No  | No |
+| Inverti conferma spedizione                                | No  | Sì|
 
 ### <a name="inbound"></a>In entrata
 
@@ -226,27 +226,27 @@ La tabella seguente mostra quali funzionalità in entrata sono supportate e dove
 | Elaborazione del carico e della gestione trasporto                    | Sì | No |
 | Costo sbarcato e ricezione delle merci in transito                       | Sì | No |
 | Conferma della spedizione in entrata                                    | Sì | No |
-| Rilascio ordine fornitore al magazzino (elaborazione ordine di magazzino) | Sì | Nessuno |
-| Annullamento di righe ordine di magazzino<p>Notare che questo è supportato solo quando non è avvenuta alcuna registrazione sulla riga</p> | Sì | Nessuno |
+| Rilascio ordine fornitore al magazzino (elaborazione ordine di magazzino) | Sì | No |
+| Annullamento di righe ordine di magazzino<p>Notare che questo è supportato solo quando non è avvenuta alcuna registrazione sulla riga</p> | Sì | No |
 | Ricevimento e stoccaggio articolo ordine acquisto                       | <p>Sì,&nbsp;quando&nbsp;non&nbsp;è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p> |
 | Ricevimento e stoccaggio riga ordine acquisto                       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p></p> |
-| Ricevimento e stoccaggio ordine di reso                              | Sì | Nessuno |
+| Ricevimento e stoccaggio ordine di reso                              | Sì | No |
 | Ricevimento e stoccaggio targa mista                       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Sì |
-| Ricezione articoli di carico                                              | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
-| Ricevimento e stoccaggio targa                             | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
-| Ricevimento e stoccaggio articolo ordine di trasferimento                       | Sì | Nessuno |
-| Ricevimento e stoccaggio riga ordine di trasferimento                       | Sì | Nessuno |
+| Ricezione articoli di carico                                              | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
+| Ricevimento e stoccaggio targa                             | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
+| Ricevimento e stoccaggio articolo ordine di trasferimento                       | Sì | No |
+| Ricevimento e stoccaggio riga ordine di trasferimento                       | Sì | No |
 | Annulla lavoro (in entrata)                                            | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, ma solo quando l'opzione <b>Annulla registrazione entrata quando si annulla il lavoro</b> (nella pagina <b>Parametri di gestione magazzino</b>) viene deselezionata</p> |
-| Elaborazione ricevimento prodotto ordine fornitore                        | Sì | Nessuno |
+| Elaborazione ricevimento prodotto ordine fornitore                        | Sì | No |
 | Ricevimento degli ordini fornitore con limite minimo di fornitura                      | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Sì, ma solo effettuando una richiesta di cancellazione dall'hub |
 | Ricevimento degli ordini fornitore con limite massimo di fornitura                       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Sì  |
-| Ricevimento con creazione di lavoro *Cross docking*                 | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
-| Ricevimento con creazione di lavoro *Ordine di controllo qualità*                  | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
-| Ricevimento con creazione di lavoro *Campionamento di articoli di qualità*          | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
-| Ricevimento con creazione di lavoro *Qualità nel controllo qualità*       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
-| Ricevimento con creazione ordine di controllo qualità                            | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | Nessuno |
-| Elaborazione del lavoro: gestito da *Stoccaggio cluster*                 | Sì | Nessuno |
-| Elaborazione del lavoro con *Prelievo in difetto*                               | Sì | Nessuno |
+| Ricevimento con creazione di lavoro *Cross docking*                 | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
+| Ricevimento con creazione di lavoro *Ordine di controllo qualità*                  | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
+| Ricevimento con creazione di lavoro *Campionamento di articoli di qualità*          | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
+| Ricevimento con creazione di lavoro *Qualità nel controllo qualità*       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
+| Ricevimento con creazione ordine di controllo qualità                            | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
+| Elaborazione del lavoro: gestito da *Stoccaggio cluster*                 | Sì | No |
+| Elaborazione del lavoro con *Prelievo in difetto*                               | Sì | No |
 | Caricamento targa                                           | Sì | Sì |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Operazioni di magazzino e gestione delle eccezioni
@@ -261,20 +261,20 @@ La tabella seguente mostra le operazioni di magazzino e le funzionalità di gest
 | Modifica magazzino                                   | Sì | Sì                          |
 | Movimento                                           | Sì | Sì                          |
 | Movimento per modello                               | Sì | Sì                          |
-| Trasferimento di magazzino                                 | Sì | Nessuno                           |
-| Creare un ordine di trasferimento dall'app di magazzino           | Sì | Nessuno                           |
+| Trasferimento di magazzino                                 | Sì | No                           |
+| Creare un ordine di trasferimento dall'app di magazzino           | Sì | No                           |
 | Rettifica (in ingresso/uscita)                                | Sì | Sì, ma non per lo scenario di rettifica in cui la prenotazione dell'inventario deve essere rimossa utilizzando l'impostazione **Rimuovi prenotazioni** sui tipi di rettifica inventario</p>                           |
-| Modifica stato magazzino                            | Sì | Nessuno                           |
+| Modifica stato magazzino                            | Sì | No                           |
 | Conteggio ciclo ed elaborazione di discrepanza conteggio | Sì | Sì                           |
 | Ristampa etichetta (stampa della targa)             | Sì | Sì                          |
-| Compilazioni targa                                | Sì | Nessuno                           |
-| Suddivisioni targa                                | Sì | Nessuno                           |
-| Imballa in targhe nidificate                                | Sì | Nessuno                           |
-| Check-in conducente                                    | Sì | Nessuno                           |
-| Check-out conducente                                   | Sì | Nessuno                           |
+| Compilazioni targa                                | Sì | No                           |
+| Suddivisioni targa                                | Sì | No                           |
+| Imballa in targhe nidificate                                | Sì | No                           |
+| Check-in conducente                                    | Sì | No                           |
+| Check-out conducente                                   | Sì | No                           |
 | Codice di modifica smaltimento batch                      | Sì | Sì                          |
 | Visualizza elenco lavori aperti                             | Sì | Sì                          |
-| Consolida targhe                         | Sì | Nessuno                           |
+| Consolida targhe                         | Sì | No                           |
 | Elaborazione del rifornimento soglia min/max e di zona| Sì <p>Il consiglio è di non includere le stesse ubicazioni come parte delle query</p>| Sì                          |
 | Elaborazione di rifornimento per assegnazione                  | Sì  | Sì<p>Notare che la configurazione deve essere eseguita sull'unità di scala</p>                           |
 | Blocco e sblocco del lavoro                             | Sì | Sì                          |
@@ -290,8 +290,8 @@ La tabella seguente riepiloga gli scenari di gestione del magazzino attualmente 
 |---------|-----|------------------------------|
 | Stoccaggio prodotti finiti e dichiarati finiti | Sì | Sì |
 | Stoccaggio co-prodotti e sottoprodotti | Sì | Sì |
-| <p>Tutti gli altri processi di gestione del magazzino correlati alla produzione, inclusi:</p><li>Rilascia in magazzino</li><li>Elaborazione di ciclo della produzione</li><li>Prelievo materie prime</li><li>Stoccaggio kanban</li><li>Prelievo kanban</li><li>Avvia ordine di produzione</li><li>Scarti di produzione</li><li>Ultimo pallet produzione</li><li>Registra consumo materiali</li><li>Svuota kanban</li></ul> | Sì | Nessuno |
-| Rifornimento di materie prime | Nessuno | Nessuno |
+| <p>Tutti gli altri processi di gestione del magazzino correlati alla produzione, inclusi:</p><li>Rilascia in magazzino</li><li>Elaborazione di ciclo della produzione</li><li>Prelievo materie prime</li><li>Stoccaggio kanban</li><li>Prelievo kanban</li><li>Avvia ordine di produzione</li><li>Scarti di produzione</li><li>Ultimo pallet produzione</li><li>Registra consumo materiali</li><li>Svuota kanban</li></ul> | Sì | No |
+| Rifornimento di materie prime | No | No |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Gestione delle unità di scala per l'esecuzione del magazzino
 

@@ -101,7 +101,7 @@ Lo sviluppo di estensioni POS utilizzando ModernPos.sln, CloudPOs.sln, POS.Exten
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | A partire da questa versione, nel modulo **Parametri dell'utilità di pianificazione di commercio** modulo in Dynamics 365 headquarters, il campo **Intervallo di generazione completo del set di dati in giorni** sarà deprecato. Anche a partire da questa versione, il campo verrà rimosso visivamente in modo che il valore non possa essere modificato. Rimarrà come valore **0**. |
-| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Sostituita da un'altra funzionalità?**   | No |
 | **Aree del prodotto interessate**         | Dynamics 365 Commerce |
 | **Opzione di distribuzione**              | Tutti|
 | **Stato**                         | Deprecato. Non utilizzare questo campo né modificarne il valore.|

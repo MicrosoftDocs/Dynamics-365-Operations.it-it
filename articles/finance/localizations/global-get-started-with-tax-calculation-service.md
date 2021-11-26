@@ -201,7 +201,7 @@ La configurazione in questa sezione viene eseguita dalla persona giuridica. Devi
 3. Nella scheda **Calcolo** definisci la regola di arrotondamento prevista per la persona giuridica. Per maggiori informazioni sulla logica di arrotondamento, vedere [Regole di arrotondamento del calcolo delle tasse](https://go.microsoft.com/fwlink/?linkid=2166988).
 4. Nella scheda **Gestione degli errori** definisci il metodo di gestione degli errori previsti per la persona giuridica. Sono disponibili tre opzioni:
 
-    - Nessuno
+    - No
     - Avviso
     - Errore
 

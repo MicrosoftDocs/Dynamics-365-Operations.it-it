@@ -48,9 +48,9 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 135 | Aggiungi rapporto dall'elenco | Consente di aggiungere un rapporto a una transazione selezionandolo in un elenco. | Sì | Sì | Sì | Sì | No |
 | 137 | Aggiungere un rapporto a un cliente | Aggiungere un rapporto a un cliente nella pagina **Dettagli cliente**. | No | No | No | Sì | No |
 | 138 | Rimuovere il rapporto dal cliente | Rimuovere un rapporto da un cliente nella pagina **Dettagli cliente**. | No | No | No | Sì | No |
-| 643 | Aggiungi codice buono sconto | Consente di aggiungere un buono sconto immettendone il codice nel POS. | Sì | Sì | Nessuno | Sì | Nessuno |
-| 141 | Aggiungi spese intestazione | Aggiungere spese varie all'intestazione dell'ordine. | Sì | Sì | Nessuno | Nessuno| Nessuno |
-| 141 | Aggiungi spese riga | Aggiungere spese varie a una riga di vendita selezionata. | Sì | Sì | Nessuno | Nessuno| Nessuno |
+| 643 | Aggiungi codice buono sconto | Consente di aggiungere un buono sconto immettendone il codice nel POS. | Sì | Sì | No | Sì | No |
+| 141 | Aggiungi spese intestazione | Aggiungere spese varie all'intestazione dell'ordine. | Sì | Sì | No | No| No |
+| 141 | Aggiungi spese riga | Aggiungere spese varie a una riga di vendita selezionata. | Sì | Sì | No | No| No |
 | 117 | Aggiungi carta fedeltà | Richiede all'utente di immettere un numero di carta fedeltà che verrà aggiunta alla transazione corrente. | Sì | Sì | No | Sì | No |
 | 136 | Aggiungi numero di serie | Questa operazione consente all'utente di specificare un numero di serie per il prodotto attualmente selezionato. | Sì | Sì | No | Sì | No |
 | 1214 | Aggiungi indirizzo di spedizione | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
@@ -62,17 +62,17 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 1053 | Chiusura forzata turno | Imposta la chiusura forzata per il turno corrente e disconnette l'utente. Un turno con chiusura forzata viene chiuso per ulteriori transazioni ma rimane aperto per le operazioni relative al cassetto, ad esempio rimozione del metodo di pagamento e riepilogo incassi. | Sì | Sì | Sì | No | No |
 | 310 | Calcola totale | Quando il calcolo dello sconto viene ritardato, questa operazione avvia il calcolo per la transazione corrente. | Sì | Sì | No | Sì | No |
 | 642 | Esegui tutti i prodotti | Imposta la modalità di consegna per tutte le righe su **Esegui**. | Sì | Sì | No | Sì\* | No |
-| 641 | Esegui prodotti selezionati | Imposta la modalità di consegna per le righe selezionate su **Esegui**. | Sì | Sì | Nessuno | Sì\* | Nessuno |
-| 647 | Modifica modalità di consegna | Cambiare modalità di consegna per le righe di vendita di spedizione preconfigurate. | Sì | Sì | Nessuno | Nessuno| Nessuno |
-| 1215 | Modifica password | Questa operazione consente all'utente del POS di modificare la propria password. | Sì | Sì | Sì | Nessuno | Nessuno |
+| 641 | Esegui prodotti selezionati | Imposta la modalità di consegna per le righe selezionate su **Esegui**. | Sì | Sì | No | Sì\* | No |
+| 647 | Modifica modalità di consegna | Cambiare modalità di consegna per le righe di vendita di spedizione preconfigurate. | Sì | Sì | No | No| No |
+| 1215 | Modifica password | Questa operazione consente all'utente del POS di modificare la propria password. | Sì | Sì | Sì | No | No |
 | 123 | Modifica unità di misura | Modifica l'unità di misura per la voce selezionata. | Sì | Sì | No | Sì | No |
 | 639 | Cancella rappresentante predefinito su transazione | Rimuove il gruppo di vendite con provvigione (rappresentante) dalla transazione. | Sì | Sì | No | Sì | No |
 | 106 | Cancella quantità | Reimposta la quantità della riga correntemente selezionata su **1**. | Sì | Sì | No | Sì | No |
 | 640 | Cancella rappresentante su riga | Rimuove il gruppo di vendite con provvigione (rappresentante) dalla riga correntemente selezionata. | Sì | Sì | No | Sì | No |
 | 121 | Cancella venditore | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
-| 1055 | Chiudi turno | Chiude il turno corrente, stampa un Z-report e disconnette l'utente dal sistema. | Sì | Sì | Sì | Nessuno | Nessuno |
-| 139 | Concludi transazione | Invita l'utente a selezionare il metodo di pagamento | Sì | Sì | Nessuno | Sì | Nessuno |
-| 620 | Crea ordine cliente | Converte la transazione POS in un ordine cliente | Sì | Sì | Nessuno | Sì\* | Nessuno |
+| 1055 | Chiudi turno | Chiude il turno corrente, stampa un Z-report e disconnette l'utente dal sistema. | Sì | Sì | Sì | No | No |
+| 139 | Concludi transazione | Invita l'utente a selezionare il metodo di pagamento | Sì | Sì | No | Sì | No |
+| 620 | Crea ordine cliente | Converte la transazione POS in un ordine cliente | Sì | Sì | No | Sì\* | No |
 | 925 | Copia assegno bancario | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | Sì |
 | 620 | Crea ordine cliente | Converte la transazione POS in un ordine cliente | Sì | Sì | No | Sì\* | No |
 | 621 | Crea offerta | Converte la transazione POS in un'offerta di vendita. | Sì | Sì | No | Sì\* | No |
@@ -95,12 +95,12 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 614 | Modifica ordine cliente | Richiama l'ordine selezionato in modo da poterlo modificare nel POS. | No | No | No | No | No |
 | 615 | Modifica offerta | Richiama l'offerta selezionata in modo da poterla modificare nel POS. | No | No | No | No | No |
 | 518 | Conti spese | Registra il denaro rimosso dal cassetto della cassa per le spese occasionali. | Sì | Sì | Sì | Sì | No |
-| 919 | Accesso esteso | Assegna o rimuove l'autorizzazione all'accesso tramite la scansione di un codice a barre o il passaggio di una carta. | Sì | Sì | Sì | Sì | Nessuno |
+| 919 | Accesso esteso | Assegna o rimuove l'autorizzazione all'accesso tramite la scansione di un codice a barre o il passaggio di una carta. | Sì | Sì | Sì | Sì | No |
 | 1201 | Transazione fondo di cassa | Questa operazione consente all'utente di aggiungere ulteriore denaro al cassetto o al turno corrente. | Sì | Sì | Sì | Sì | No |
 | 1218 | Sblocca forzatamente periferica | Il sistema utilizza questa operazione internamente per sbloccare le periferiche POS. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 520 | Saldo gift card | Visualizza il saldo di una gift card. | Sì | Sì | No | No | No |
-| 708 | Disattiva dispositivo | Disattiva il dispositivo corrente, in modo che non possa essere utilizzato come registratore di cassa POS. | Nessuno | Nessuno | Nessuno | Nessuno | Nessuno |
-| 804 | Operazione in entrata | Accedere alle funzionalità di gestione del magazzino del negozio in entrata. | Sì | Nessuno | Sì | Nessuno| Nessuno |
+| 708 | Disattiva dispositivo | Disattiva il dispositivo corrente, in modo che non possa essere utilizzato come registratore di cassa POS. | No | No | No | No | No |
+| 804 | Operazione in entrata | Accedere alle funzionalità di gestione del magazzino del negozio in entrata. | Sì | No | Sì | No| No |
 | 517 | Conti ricavi | Registra il denaro messo nel cassetto della cassa per motivi diversi dalla vendita. | Sì | Sì | Sì | Sì | No |
 | 801 | Ricerca in magazzino | Cerca le quantità disponibili, in ordinazione e available-to-promise (ATP) per il punto vendita corrente e altre ubicazioni disponibili. | Sì | Sì | Sì | No | No |
 | 122 | Commento sulla fattura | Questa operazione consente all'utente di immettere un commento sulla transazione corrente. | Sì | Sì | No | Sì | No |
@@ -111,13 +111,13 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 301 | Percentuale sconto riga | Consente di immettere una percentuale di sconto per una voce nella transazione. Questa operazione riguarda unicamente gli articoli scontabili e l'importo non può superare i limiti di sconto specificati. | Sì | Sì | No | Sì | No |
 | 703 | Blocca registratore di cassa | Blocca il registratore corrente di modo che non possa essere utilizzato, ma non disconnette l'utente corrente. | No | No | No | Sì | No |
 | 701 | Disconnessione | Disconnette l'utente corrente dal registratore di cassa. | Sì | Sì | Sì | Sì | No |
-| 521 | Saldo punti carta fedeltà | Visualizza il saldo dei punti per la carta fedeltà specificata. | Sì | Sì | Nessuno | Nessuno | Nessuno |
-| 142 | Gestisci spese | Visualizzare e gestire le spese varie applicate alla transazione. | Sì | Sì | Nessuno | Nessuno| Nessuno |
+| 521 | Saldo punti carta fedeltà | Visualizza il saldo dei punti per la carta fedeltà specificata. | Sì | Sì | No | No | No |
+| 142 | Gestisci spese | Visualizzare e gestire le spese varie applicate alla transazione. | Sì | Sì | No | No| No |
 | 918 | Gestisci turni | Visualizza un elenco di turni attivi, sospesi e con chiusura forzata. | Sì | Sì | Sì | No | No |
 | 914 | Riduci a icona la finestra POS | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 1000 | Apri cassetto | Esegue un'operazione "senza vendita" e apre il cassetto attualmente selezionato. | Sì | Sì | Sì | Sì | No |
-| 928 | Evasione ordine | Questa operazione consente agli utenti di prelevare, imballare, spedire o richiamare gli ordini per il punto vendita scelto. | Sì | Sì | Sì | Nessuno | Nessuno |
-| 805 | Operazioni in uscita | Accedere alle funzionalità per la gestione delle spedizioni degli ordini di trasferimento in uscita. | Sì | Nessuno | Sì | Nessuno| Nessuno |
+| 928 | Evasione ordine | Questa operazione consente agli utenti di prelevare, imballare, spedire o richiamare gli ordini per il punto vendita scelto. | Sì | Sì | Sì | No | No |
+| 805 | Operazioni in uscita | Accedere alle funzionalità per la gestione delle spedizioni degli ordini di trasferimento in uscita. | Sì | No | Sì | No| No |
 | 129 | Forza imposta prodotto riga | Sostituisce l'imposta sulla voce selezionata con un'imposta specificata diversa. | Sì | Sì | No | Sì | No |
 | 130 | Forza imposta prodotto riga dall'elenco | Consente di sostituire l'imposta sulla voce selezionata con un'imposta che l'utente seleziona in un elenco. | Sì | Sì | No | Sì | No |
 | 127 | Forza imposta di transazione | Sostituisce l'imposta sulla transazione con un'imposta specificata diversa. | Sì | Sì | No | Sì | No |
@@ -149,8 +149,8 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 100 | Vendita prodotto | Aggiunge un prodotto specificato alla transazione. | Sì | Sì | Sì | Sì | No |
 | 108 | Ricerca prodotto | Questa operazione consente all'utente di cercare un prodotto accedendo alla pagina di ricerca di prodotti nel POS. | Sì | Sì | Sì | Sì | No |
 | 633 | Data di scadenza offerta | Questa operazione consente all'utente di visualizzare o modificare la data di scadenza di un'offerta di vendita. | Sì | Sì | No | Sì\* | No |
-| 627 | Ricalcola | Ricalcola tutte le righe e le imposte dell'ordine cliente in base alla configurazione corrente. | Sì | Sì | Nessuno | Sì\* | Nessuno |
-| 143 | Ricalcola addebiti | Ricalcolare gli addebiti automatici applicati all'ordine. | Sì | Sì | Nessuno | Nessuno| Nessuno |
+| 627 | Ricalcola | Ricalcola tutte le righe e le imposte dell'ordine cliente in base alla configurazione corrente. | Sì | Sì | No | Sì\* | No |
+| 143 | Ricalcola addebiti | Ricalcolare gli addebiti automatici applicati all'ordine. | Sì | Sì | No | No| No |
 | 515 | Richiama ordine | Questa operazione consente all'utente di cercare e richiamare ordini cliente e offerte di vendita. | Sì | Sì | Sì | No | No |
 | 504 | Richiama transazione | Questa operazione consente all'utente di richiamare una transazione sospesa in precedenza dal punto vendita corrente. | Sì | Sì | No | Sì‡ | No |
 | 305 | Riscatta punti fedeltà | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | Sì |
@@ -163,9 +163,9 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 114 | Transazione di reso | Richiama una transazione precedente in base al relativo numero di ricevuta per restituire alcuni o tutti i prodotti. | Sì | Sì | Sì | Sì§ | No |
 | 1211 | Deposito in cassaforte | Esegue un deposito in cassaforte per il trasferimento di denaro dal registratore di cassa a una cassaforte. | Sì | Sì | Sì | Sì | No |
 | 516 | Fattura di vendita | Questa operazione consente al cliente di effettuare i pagamenti per la fattura di vendita selezionata. | Sì | Sì | No | No | No |
-| 502 | Venditore | L'operazione consente all'utente di impostare il valore di **Incaricato vendite** in un ordine cliente per gli ordini cliente nel POS. | Sì | Sì | Nessuno | Sì\* | Nessuno |
-| 2000 | Gestione programmazione | Questa operazione non è ancora supportata. | Sì | Sì | Sì | Nessuno | Nessuno |
-| 2001 | Richieste di programmazione | Questa operazione non è ancora supportata. | Sì | Sì | Sì | Nessuno | Nessuno |
+| 502 | Venditore | L'operazione consente all'utente di impostare il valore di **Incaricato vendite** in un ordine cliente per gli ordini cliente nel POS. | Sì | Sì | No | Sì\* | No |
+| 2000 | Gestione programmazione | Questa operazione non è ancora supportata. | Sì | Sì | Sì | No | No |
+| 2001 | Richieste di programmazione | Questa operazione non è ancora supportata. | Sì | Sì | Sì | No | No |
 | 622 | Cerca ordini | Questa operazione consente agli utenti di preconfigurare i pulsanti del POS per eseguire ricerche per articolo, cliente o categoria. | Sì | Sì | Sì | Sì | No |
 | 1213 | Cerca indirizzo di spedizione | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 709 | Seleziona stazione hardware | Questa operazione consente all'utente di selezionare una stazione hardware in un elenco di stazioni hardware disponibili. | Sì | Sì | Sì | Sì | No |
@@ -194,8 +194,8 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 500 | Annulla transazione | Annulla la transazione corrente. | Sì | Sì | No | Sì | No |
 | 916 | Windows Workflow Foundation | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 924 | X-report per carte bancarie | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | Sì |
-| 311 | Rimuovere gli sconti di sistema dalle transazioni | Rimuovere tutti gli sconti applicati dal sistema, inclusi gli sconti basati su coupon, dalla transazione. Ciò non rimuove gli sconti manuali. | Sì | Sì | Sì | Sì | Nessuno |
-| 312 | Riapplicare gli sconti di sistema | Riapplicare gli sconti di sistema sulla transazione se sono stati rimossi utilizzando l'operazione **Rimuovere gli sconti di sistema dalle transazioni**. | Sì | Sì | Sì | Sì | Nessuno |
+| 311 | Rimuovere gli sconti di sistema dalle transazioni | Rimuovere tutti gli sconti applicati dal sistema, inclusi gli sconti basati su coupon, dalla transazione. Ciò non rimuove gli sconti manuali. | Sì | Sì | Sì | Sì | No |
+| 312 | Riapplicare gli sconti di sistema | Riapplicare gli sconti di sistema sulla transazione se sono stati rimossi utilizzando l'operazione **Rimuovere gli sconti di sistema dalle transazioni**. | Sì | Sì | Sì | Sì | No |
 
 \* L'operazione è disponibile in modalità offline solo quando si crea un ordine cliente o un'offerta di vendita e solo se la creazione offline di ordini cliente e offerte di vendita viene configurata nel profilo funzionalità POS. L'operazione non può essere eseguita quando gli ordini sono creati tramite il servizio in tempo reale, oppure quando gli ordini vengono richiamati o modificati.
 

@@ -139,12 +139,12 @@ Lo stato del processo selezionato e lo stato di tutti i processi sottoposti a pe
 <tr class="even">
 <td>Trasferimento o processo</td>
 <td>Non è stata rilevata una scheda kanban</td>
-<td>Nessuna</td>
-<td>Nessuna</td>
-<td>Nessuna</td>
-<td>Nessuna</td>
-<td>Nessuna</td>
-<td>Nessuna</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
 </tr>
 <tr class="odd">
 <td>Trasferimento o processo</td>

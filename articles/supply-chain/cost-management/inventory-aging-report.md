@@ -42,7 +42,7 @@ Il sistema di esempio contiene la seguente configurazione delle dimensioni di im
 | Nome      | Attive | Inventario fisico | Inventario finanziario |
 |-----------|--------|--------------------|---------------------|
 | Sito      | Sì    | Sì                | Sì                 |
-| Magazzino | Sì    | Sì                | Nessuna                  |
+| Magazzino | Sì    | Sì                | No                  |
 
 ### <a name="inventory-model"></a>Modello inventariale
 

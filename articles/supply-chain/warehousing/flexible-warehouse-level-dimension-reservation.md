@@ -119,7 +119,7 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
     | Magazzino | Numero batch | Ubicazione | Targa | Quantità |
     |-----------|--------------|----------|---------------|----------|
-    | 24        | B11          | BULK-001 | Nessuna          | 10       |
+    | 24        | B11          | BULK-001 | Nessuno          | 10       |
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
@@ -421,7 +421,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>
 <ol>
 <li>Seleziona la voce di menu <strong>Ignora ubicazione</strong> nell'app per dispositivi mobili Gestione magazzino quando inizi il lavoro di prelievo.</li>
@@ -498,7 +498,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>La quantità viene prenotata nuovamente per lo stesso batch e per le stesse ubicazione e targa (se l'ubicazione è controllata dalla targa) immesse durante l'annullamento del prelievo.</td>
@@ -539,7 +539,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Tutte le prenotazioni esistenti interessate dal movimento di quantità dall'ubicazione specificata vengono ripetute per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>Tutte le prenotazioni esistenti interessate dal movimento di quantità dall'ubicazione indicata vengono ripetute per lo stesso batch e per la nuova targa e ubicazione "a" (se l'ubicazione è controllata dalla targa).</td>
@@ -573,7 +573,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>La quantità viene prenotata nuovamente per lo stesso batch e per l'ubicazione e la targa in cui la quantità è stata lasciata al momento dello storno.</td>
@@ -595,7 +595,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>La quantità viene prenotata nuovamente per lo stesso batch e per l'ubicazione e la targa a cui la quantità è stata assegnata al momento dello storno.</td>
@@ -657,7 +657,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>Vedere la riga precedente.</td>
 <td>
 <ul>
@@ -686,7 +686,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Tutte le prenotazioni esistenti interessate dalla rettifica della quantità nell'ubicazione del prelievo in difetto vengono ripetute per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>Tutte le prenotazioni esistenti interessate dalla rettifica della quantità nell'ubicazione del prelievo in difetto vengono rimosse per lo stesso batch.</td>
@@ -719,7 +719,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 </tr>
 <tr>
 <td>Un'eccezione lavoro di tipo <strong>Prelievo in difetto</strong> è impostata, dove <strong>Riallocazione articolo</strong> = <strong>Manuale</strong>, <strong>Correggi magazzino</strong> = <strong>Sì</strong> e <strong>Rimuovi prenotazioni</strong> = <strong>No</strong>. Inoltre, l'opzione <strong>Consenti riallocazione manuale articolo</strong> è abilitata per il lavoratore.</td>
-<td>Nessuno</td>
+<td>No</td>
 <td>
 <ol>
 <li>Seleziona la voce di menu <strong>Prelievo in difetto</strong> nell'app per dispositivi mobili Gestione magazzino quando esegui il lavoro di prelievo.</li>
@@ -732,7 +732,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 </tr>
 <tr>
 <td>Un'eccezione lavoro di tipo <strong>Prelievo in difetto</strong> è impostata, dove <strong>Riallocazione articolo</strong> = <strong>Manuale</strong>, <strong>Correggi magazzino</strong> = <strong>Sì</strong> e <strong>Rimuovi prenotazioni</strong> = <strong>Sì</strong>. Inoltre, l'opzione <strong>Consenti riallocazione manuale articolo</strong> è abilitata per il lavoratore.</td>
-<td>Nessuno</td>
+<td>No</td>
 <td>
 <ol>
 <li>Seleziona la voce di menu <strong>Prelievo in difetto</strong> nell'app per dispositivi mobili Gestione magazzino quando esegui il lavoro di prelievo.</li>
@@ -807,7 +807,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 </td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>Vedere la riga precedente.</td>
 <td>Le modifiche allo stato dell'inventario non sono consentite per le quantità prenotate per il lavoro.</td>
 <td>
@@ -833,7 +833,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>Nessuno</td>
+<td>No</td>
 <td>Vedere la riga precedente.</td>
 <td>Le modifiche allo stato dell'inventario non sono consentite per le quantità prenotate per il lavoro.</td>
 <td>Le modifiche allo stato dell'inventario non sono consentite.</td>

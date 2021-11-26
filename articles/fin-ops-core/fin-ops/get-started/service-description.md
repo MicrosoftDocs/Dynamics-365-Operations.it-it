@@ -311,9 +311,9 @@ I piani e le procedure di ripristino di emergenza di Microsoft vengono esaminati
 
 | Responsabilità di Microsoft | Responsabilità del cliente |
 |---|---|
-| Microsoft effettua il provisioning di un ambiente secondario nel data center associato di Azure quando viene distribuita l'istanza di produzione primaria. Per ulteriori informazioni, vedi [Continuità aziendale e ripristino di emergenza: aree associate di Azure](/azure/best-practices-availability-paired-regions). | Nessuna priorità |
-| Microsoft abilita la ridondanza geografica di Azure SQL e Archiviazione BLOB di Azure quando viene distribuita l'istanza di produzione primaria. | Nessuna priorità |
-| Microsoft abilita il backup automatico sui database SQL di Azure. | Nessuna priorità |
+| Microsoft effettua il provisioning di un ambiente secondario nel data center associato di Azure quando viene distribuita l'istanza di produzione primaria. Per ulteriori informazioni, vedi [Continuità aziendale e ripristino di emergenza: aree associate di Azure](/azure/best-practices-availability-paired-regions). | Nessuno |
+| Microsoft abilita la ridondanza geografica di Azure SQL e Archiviazione BLOB di Azure quando viene distribuita l'istanza di produzione primaria. | Nessuno |
+| Microsoft abilita il backup automatico sui database SQL di Azure. | Nessuno |
 | <p>Quando si verifica un'interruzione, Microsoft determina se è necessario eseguire un failover per il cliente e se si verificherà una perdita di dati. La perdita di dati può durare fino a cinque secondi. Per ulteriori informazioni, vedere [Ripristino geografico del database SQL di Azure](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>In caso di perdita di dati, Microsoft richiederà l'approvazione del cliente per un failover.</p> | In caso di perdita di dati, il cliente potrebbe dover fornire un'autorizzazione scritta per attivare il failover. |
 | Quando si verifica un failover, il servizio applicabile funziona in modalità limitata. La manutenzione degli aggiornamenti non può essere attivata in modalità di failover. | Il cliente non può richiedere distribuzioni di pacchetti o altre richieste di intervento di manutenzione regolare in modalità di failover. |
 | Quando il data center diventa operativo, Microsoft esegue il failback all'istanza di produzione nell'area di Azure primaria. Riprendono le normali operazioni. | Il cliente potrebbe dover disconnettersi in caso di failback all'istanza di produzione nell'area di Azure primaria. |
@@ -333,9 +333,9 @@ Microsoft offre ai clienti Finance and Operations tre piani di supporto: Premier
 | Invio illimitato di interruzioni/riparazioni di incidenti | Sì | Sì | Sì |
 | Accesso 24 ore su 24, 7 giorni su 7 tramite LCS | Sì | Sì | Sì |
 | Tempo di risposta all'incidente | Meno di un'ora | Meno di un'ora | Il giorno lavorativo successivo |
-| Orari di consulenza | Pool acquisiti per accordo. | Nessuno | Nessuno |
-| Account manager di supporto dedicato | Sì | Nessuno | Nessuno |
-| Tecnico di supporto dedicato | Impegnato con un contratto separato | Nessuno | Nessuno |
+| Orari di consulenza | Pool acquisiti per accordo. | No | No |
+| Account manager di supporto dedicato | Sì | No | No |
+| Tecnico di supporto dedicato | Impegnato con un contratto separato | No | No |
 
 Per ulteriori informazioni, vedere [Panoramica sul supporto](/power-platform/admin/support-overview).
 
