@@ -2,7 +2,7 @@
 title: Progettare una configurazione per generare documenti in uscita in formato Excel
 description: Questo argomento descrive come progettare un formato di report elettronico (ER) per compilare un modello Excel e quindi generare documenti in formato Excel in uscita.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488140"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731640"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -85,6 +85,8 @@ Nella scheda **Mappatura** della progettazione dell'operazione ER, puoi configur
 
 Il componente **Intervallo** indica un intervallo Excel che deve essere controllato da questo componente ER. Il nome dell'intervallo è definito nella proprietà **Excel range** di questo componente.
 
+### <a name="replication"></a>Replica dati
+
 La proprietà **Replication direction** specifica se e come verrà ripetuto l'intervallo in un documento generato:
 
 - Se la proprietà **Replication direction** è impostata su **Nessuna replica**, l'intervallo Excel appropriato non verrà ripetuto nel documento generato.
@@ -92,6 +94,8 @@ La proprietà **Replication direction** specifica se e come verrà ripetuto l'in
 - Se la proprietà **Replication direction** è impostata su **Orizzontale**, l'intervallo Excel appropriato verrà ripetuto nel documento generato. Ciascun intervallo replicato viene inserito a destra dell'intervallo originale in un modello di Excel. Il numero di ripetizioni è definito dal numero di record in un'origine dati di tipo **Elenco di record** associato a questo componente ER.
 
 Per ulteriori informazioni sulla replica orizzontale, segui i passaggi [Utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel](tasks/er-horizontal-1.md).
+
+### <a name="nested-components"></a>Componenti annidati
 
 Il componente **Intervallo** può avere altri componenti ER nidificati che vengono utilizzati per immettere valori negli intervalli denominati Excel appropriati.
 
@@ -105,11 +109,40 @@ Il componente **Intervallo** può avere altri componenti ER nidificati che vengo
     > [!NOTE]
     > Utilizza questo modello per abilitare l'applicazione Excel a formattare i valori immessi in base alle impostazioni internazionali del computer locale che apre il documento in uscita.
 
+### <a name="enabling"></a>Abilitazione
+
 Nella scheda **Mappatura** della progettazione dell'operazione ER, puoi configurare la proprietà **Enabled** per un componente **Intervallo** per specificare se il componente deve essere inserito in un documento generato:
 
 - Se un'espressione della proprietà **Enabled** è configurata per tornare su **True** in fase di runtime o se nessuna espressione è configurata, l'intervallo appropriato verrà compilato nel documento generato.
 - Se un'espressione della proprietà **Enabled** è configurata per tornare su **False** in fase di runtime e se questo intervallo non rappresenta le colonne e le righe intere, l'intervallo appropriato non verrà compilato nel documento generato.
 - Se un'espressione della proprietà **Enabled** è configurata per tornare su **False** in fase di runtime e se questo intervallo rappresenta le colonne e le righe intere, l'intervallo generato conterrà queste righe e colonne come righe e colonne nascoste.
+
+### <a name="resizing"></a>Ridimensionamento
+
+Puoi configurare il tuo modello Excel in modo che utilizzi le celle per presentare dati testuali. Per assicurarti che l'intero testo in una cella sia visibile in un documento generato, puoi configurare quella cella in modo che il testo al suo interno vada a capo. Puoi anche configurare la riga che contiene quella cella per regolarne automaticamente l'altezza se il testo a capo non è completamente visibile. Per ulteriori informazioni, vedi la sezione "Testo a capo in una cella" in [Correggere i dati tagliati nelle celle](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> A causa di una nota [Limitazione di Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353), anche se configuri le celle per il testo a capo e configuri le righe che contengono quelle celle per regolare automaticamente la loro altezza in modo che si adatti al testo a capo, potresti non essere in grado di utilizzare le funzionalità di Excel **Adattamento automatico** e **Testo a capo** per le celle unite e le righe che le contengono. 
+
+A partire da Dynamics 365 Finance versione 10.0.23, puoi forzare ER a calcolare, in un documento generato, l'altezza di ogni riga che è stata configurata per adattare automaticamente la sua altezza al contenuto delle celle nidificate ogni volta che quella riga contiene almeno una cella unita che è stata configurata per mandare a capo il testo al suo interno. L'altezza calcolata viene quindi utilizzata per ridimensionare la riga per garantire che tutte le celle della riga siano visibili nel documento generato. Per iniziare a utilizzare questa funzionalità quando si eseguono formati ER configurati per l'utilizzo di modelli Excel per generare documenti in uscita, attieniti alla seguente procedura.
+
+1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
+2. Nella pagina **Configurazioni localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Parametri per la creazione di report elettronici**.
+3. Nella pagina **Parametri per la creazione di report elettronici**, nella scheda **Runtime**, imposta l'opzione **Adattamento automatico altezza riga** su **Sì**.
+
+Quando vuoi modificare questa regola per un singolo formato ER, aggiorna la versione bozza di quel formato seguendo questi passaggi.
+
+1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
+2. Nella pagina **Configurazioni localizzazione**, nella sezione **Configurazioni**, selezionare **Configurazioni report**.
+3. Nella pagina **Configurazioni**, nell'albero delle configurazioni nel riquadro sinistro, seleziona una configurazione ER progettata per utilizzare un modello Excel per generare documenti in uscita.
+4. Nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
+5. Nel riquadro azioni selezionare **Progettazione**.
+6. Nella pagina **Progettazione formato** nell'albero dei formati nel riquadro di sinistra, seleziona il componente Excel collegato al modello Excel.
+7. Nella scheda **Formato**, nel campo **Regola altezza riga**, seleziona un valore per specificare se ER deve essere forzato, in fase di esecuzione, a modificare l'altezza delle righe in un documento in uscita generato dal formato ER modificato:
+
+    - **Predefinito** – Utilizza l'impostazione generale configurata nel campo **Adattamento automatico altezza riga** della pagina **Parametri per la creazione di report elettronici**.
+    - **Sì** – Ignora l'impostazione generale e modifica l'altezza della riga in fase di esecuzione.
+    - **No** – Ignora l'impostazione generale e non modificare l'altezza della riga in fase di esecuzione.
 
 ## <a name="cell-component"></a>Componente cellulare
 

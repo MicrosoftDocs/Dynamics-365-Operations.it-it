@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745178"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753028"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
@@ -84,7 +84,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Deprecato: prevediamo di non supportare il metodo **setUtcString()** dal 1° ottobre 2020. In alternativa, gli sviluppatori devono utilizzare il metodo **setUtcDateTime()**. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Report blacklist (IT) - Riferimento funzionalità IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Report elenco elementi bloccati (IT) - Riferimento funzionalità IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -360,7 +360,7 @@ Funzionalità per la creazione di modelli per nuovi registri delle imposte sui p
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | La funzionalità non è compatibile con il modello di estendibilità di Finance and Operations. |
-| **Sostituita da un'altra funzionalità?**   | Nessuna |
+| **Sostituita da un'altra funzionalità?**   | No |
 | **Aree del prodotto interessate**         | Imposta sul reddito |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Rimossa da Finance and Operations 8.1 con aggiornamento 20 della piattaforma. |

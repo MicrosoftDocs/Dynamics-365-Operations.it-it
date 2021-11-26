@@ -2,7 +2,7 @@
 title: Previsioni di pagamento del cliente
 description: Questo argomento descrive la funzionalità di previsione dei pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di un cliente. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 21a773b37020aeff969469e29be68e7f7ef44d93
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386663"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752739"
 ---
 # <a name="customer-payment-predictions"></a>Previsioni di pagamento del cliente
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento descrive la funzionalità di previsione dei pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di un cliente. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli.
 
@@ -67,11 +68,5 @@ In molte aziende, il processo di riscossione è stato un'attività reattiva. In 
 ## <a name="methodology"></a>Metodologia
 
 In passato, era generalmente difficile sviluppare e distribuire una soluzione di intelligenza artificiale. Il processo richiedeva un team di data scientist, esperti in materia e ingegneri che lavorano per un lungo periodo di tempo per formulare, sviluppare, implementare e mantenere una soluzione AI utilizzabile. Le previsioni di pagamento dei clienti semplificano la distribuzione e l'utilizzo di una soluzione di intelligenza artificiale in Microsoft Dynamics 365 Finance. Microsoft sta preparando soluzioni di intelligenza artificiale basate su Microsoft AI Builder. Pertanto, gli utenti possono distribuire la soluzione di intelligenza artificiale con un solo clic del mouse per sfruttare i vantaggi delle previsioni intelligenti. Se non sei soddisfatto della precisione delle previsioni, un utente esperto, sempre utilizzando un solo clic, può accedere all'esperienza dell'estensione AI Builder, quindi selezionare o deselezionare i campi utilizzati per generare previsioni. Quando sei pronto, puoi "eseguire il training" del modello e pubblicare le modifiche. Il modello il cui training è stato appena completato verrà automaticamente selezionato per generare le previsioni in Dynamics 365 Finance.
-
-## <a name="release-details"></a>Dettagli del rilascio
-
-È disponibile un'anteprima pubblica di Informazioni dettagliate finanziarie da provare per le distribuzioni negli Stati Uniti, in Europa e nel Regno Unito. Microsoft sta aggiungendo in modo incrementale il supporto per altre aree geografiche.
-
-Le funzionalità di anteprima pubblica possono essere attivate solo negli ambienti sandbox di livello 2. I modelli di configurazione e intelligenza artificiale creati in un ambiente sandbox non possono essere migrati in un ambiente di produzione. Per ulteriori informazioni, vedi [Condizioni integrative per le versioni di anteprima di Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

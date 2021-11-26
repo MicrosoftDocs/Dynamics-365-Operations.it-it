@@ -2,7 +2,7 @@
 title: Abilitare le previsioni di cassa
 description: Questo argomento spiega come attivare la funzionalità Previsioni di cassa in Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,45 +15,37 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b5e54772b132b4098df8259e954a484a0838ee38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386713"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752690"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Abilitare le previsioni di cassa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento spiega come attivare la funzionalità Previsioni di cassa in Finance Insights.
 
 > [!NOTE]
 > Per utilizzare le previsioni di pagamento nel flusso di cassa, devi configurare la funzionalità Previsioni di pagamento del cliente come descritto in [Abilitare le previsioni di pagamento dei clienti](enable-cust-paymnt-prediction.md).
-
-1. Utilizza le informazioni dalla pagina dell'ambiente in Microsoft Dynamics Lifecycle Services (LCS) per connetterti all'istanza primaria di Azure SQL per quell'ambiente. Esegui il seguente comando Transact-SQL (T-SQL) per attivare le versioni temporanee dell'ambiente sandbox. Potrebbe essere necessario attivare l'accesso per il tuo indirizzo IP in LCS prima di poterti connettere in remoto a Application Object Server \[AOS\].
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Ignora questo passaggio se stai usando la versione 10.0.20 o successiva o una distribuzione di Service Fabric. Il team di Finance Insights dovrebbe aver già attivato la versione di anteprima per te. Se non vedi la funzionalità nell'area di lavoro **Gestione funzionalità** o se si verificano problemi quando tenti di attivarle, contatta <fiap@microsoft.com>.
   
-2. Apri l'area di lavoro **Gestione funzionalità** e segui questi passaggi:
+1. Apri l'area di lavoro **Gestione funzionalità** e segui questi passaggi:
 
     1. Selezionare **Controlla aggiornamenti**.
-    2. Attiva le seguenti funzionalità:
+    2. Nella scheda **Tutto**, cerca **Previsioni di cassa**. Se non trovi tale funzionalità, ceca **Previsioni di cassa (anteprima)**. 
+    3. Attiva la funzionalità.
 
-        - Nuovo controllo griglia
-        - Raggruppamento in griglie (anteprima) 
-        - Previsioni di pagamento cliente (anteprima)
-        - Previsioni di cassa (anteprima)
-
-3. Vai a **Gestione cassa e banche \> Impostazione di previsione di cassa** e aggiungi i conti di liquidità che dovrebbero essere inclusi nelle previsioni.
+2. Vai a **Gestione cassa e banche \> Impostazione di previsione di cassa** e aggiungi i conti di liquidità che dovrebbero essere inclusi nelle previsioni. Configura anche il conto liquidità per i pagamenti nelle schede **Contabilità clienti** e **Contabilità fornitori**. Assicurati di ricalcolare la previsione del flusso di cassa.
 
     > [!NOTE]
     > Se i conti di liquidità non sono configurati, il flusso di cassa non può essere generato.
+    >
+    > Per ulteriori informazioni su come impostare Previsione di cassa, vedere [Previsione di cassa](../cash-bank-management/cash-flow-forecasting.md).
 
-4. Vai a **Gestione cassa e banche \> Imposta \> Finance Insights (anteprima) \> Previsioni di cassa (anteprima)** e segui questi passaggi:
+3. Vai a **Gestione cassa e banche \> Imposta \> Finance Insights (anteprima) \> Previsioni di cassa (anteprima)** e segui questi passaggi:
 
     1. Nella scheda **Previsione di cassa**, seleziona **Abilita funzionalità**.
     2. Seleziona **Crea modello di previsione**.

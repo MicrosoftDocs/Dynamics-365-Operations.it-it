@@ -1,8 +1,8 @@
 ---
 title: Elaborare l'idoneità al benefit
 description: In questa procedura vengono descritti i passaggi per utilizzare il processo di idoneità al benefit.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: e93c5d57f5bc36e633a5f2147fe5d2f754a5e1cc30a3b8b64582f7229314a338
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db8dd3e9c3401129ea5474d47f5401c552cab72b
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756993"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771384"
 ---
 # <a name="benefit-eligibility-process"></a>Elaborare l'idoneità al benefit
 
@@ -26,33 +26,31 @@ ms.locfileid: "6756993"
 
 In questa procedura vengono descritti i passaggi per utilizzare il processo di idoneità al benefit. Al termine del processo, sarà possibile visualizzare i risultati. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
-1. Andare a Risorse umane > Benefit > Benefit.
+1. Vai a **Risorse umane \> Benefit \> Benefit**.
 2. Nell'elenco trovare e selezionare il record desiderato.
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-4. Fare clic su Modifica.
-5. Nel campo Idoneità, selezionare 'Basato su regole'.
-6. Nel campo Tipo di regola, selezionare la regola dei criteri di benefit che si desidera applicare al benefit.
-7. Nel riquadro azioni fare clic su Benefit.
-8. Fare clic su Crea evento di idoneità per aprire la finestra di dialogo a discesa.
-9. Digitare un valore nel campo Evento.
-10. Digitare un valore nel campo Descrizione.
-11. Nel campo Tipo di evento, selezionare 'Iscrizione aperta'.
-12. Nel campo Data di inizio copertura immettere una data e un'ora.
-13. Nel campo Data di inizio periodo iscrizione immettere una data e un'ora.
-14. Nel campo Giorni per l'iscrizione immettere un numero.
-15. Fare clic su Crea evento.
-16. Fare clic su Aggiungi nella scheda dettaglio Lavoratori.
-17. Nel campo Visualizza per tipo, selezionare 'Dipendenti'.
-18. Nel campo Visualizza per persona giuridica, selezionare 'Persona giuridica corrente'.
+4. Seleziona **Modifica**.
+5. Nel campo **Idoneità**, seleziona **Basato su regole**.
+6. Nel campo **Tipo di regola**, seleziona la regola dei criteri di benefit da applicare al benefit.
+7. Nel riquadro azioni seleziona **Benefit**.
+8. Seleziona **Crea evento di idoneità**.
+9. Nella finestra di dialogo a discesa, nel campo **Evento**, immetti un valore.
+10. Nel campo **Descrizione** immettere un valore.
+11. Nel campo **Tipo di evento**, seleziona **Iscrizione aperta**.
+12. Nel campo **Data di inizio copertura** immetti una data e un'ora.
+13. Nel campo **Data di inizio periodo iscrizione** immetti una data e un'ora.
+14. Nel campo **Giorni per l'iscrizione** immetti un numero.
+15. Seleziona **Crea evento**.
+16. Nella Scheda dettaglio **Lavoratori** seleziona **Aggiungi**.
+17. Nel campo **Visualizza per tipo**, seleziona **Dipendenti**.
+18. Nel campo **Visualizza per persona giuridica**, seleziona **Persona giuridica corrente**.
 19. Nell'elenco contrassegnare tutte le righe o rimuoverne il contrassegno.
-20. Fare clic su OK.
-21. Fare clic su Elabora.
-22. Fare clic su OK.
+20. Seleziona **OK**.
+21. Seleziona **Elabora**.
+22. Seleziona **OK**.
 23. Aggiorna la pagina.
-24. Fare clic su Mostra risultati.
-25. Apri filtro di colonna Stato.
-26. Ordina da A a Z
-
-
+24. Seleziona **Mostra risultati**.
+25. Apri il filtro della colonna **Stato**.
+26. Ordina la colonna dalla A alla Z.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

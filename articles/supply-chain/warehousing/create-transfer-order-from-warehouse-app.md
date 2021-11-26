@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746821"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777817"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Creare ordini di trasferimento dall'app di magazzino
 
@@ -36,7 +36,7 @@ Prima di utilizzare questa funzionalità, devi abilitarla nel sistema insieme ai
 1. Quindi abilita la funzionalità *Crea ordini di trasferimento nell'app di magazzino*, elencata come segue:
     - **Modulo**: Gestione magazzino
     - **Nome funzionalità** - Crea ed elabora ordini di trasferimento nell'app di magazzino
-1. Per automatizzare l'elaborazione delle spedizioni in uscita, devi abilitare anche la funzionalità [Conferma spedizioni in uscita in processi batch](confirm-outbound-shipments-from-batch-jobs.md). Questa funzionalità è elencata come segue:
+1. Per automatizzare l'elaborazione delle spedizioni in uscita, devi abilitare anche la funzionalità [Conferma spedizioni in uscita in processi batch](confirm-outbound-shipments-from-batch-jobs.md). A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla o disabilitarla se necessario. La funzione viene elencata come:
     - **Modulo**: Gestione magazzino
     - **Nome funzionalità** - Conferma spedizioni in uscita in processi batch
 

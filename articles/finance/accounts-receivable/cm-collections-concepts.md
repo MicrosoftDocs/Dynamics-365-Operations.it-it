@@ -1,7 +1,7 @@
 ---
 title: Concetti chiave della gestione delle riscossioni
 description: Gli argomenti definiscono i concetti chiave della gestione delle riscossioni.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c0a6cbdb79f0ee0c51b2e1fb7af93931da490c1bb514dfed89d48412f6779fdf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba64910498732855303e14d3884618597d21510d
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724041"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753948"
 ---
 # <a name="collections-management-key-concepts"></a>Concetti chiave della gestione delle riscossioni
 
@@ -36,7 +36,7 @@ Prima di iniziare a impostare o a utilizzare le riscossioni, è necessario compr
 
 Questo argomento descrive ogni concetto.
 
-## <a name="customer-aging-snapshots"></a>Snapshot di aging cliente 
+## <a name="customer-aging-snapshots"></a>Snapshot di aging cliente
 
 Uno snapshot di aging contiene i saldi con aging calcolati per un cliente in un determinato momento. Queste informazioni vengono visualizzate nella pagina elenco **Saldi con aging** e nella pagina **Riscossioni**. Per visualizzare le informazioni nelle pagine elenco di riscossione, è necessario creare uno snapshot di aging (**Saldi con aging**, **Attività di riscossione** e **Casi di riscossione**).
 
@@ -46,7 +46,7 @@ L'intestazione dello snapshot di aging contiene l'importo totale dovuto, il limi
 
 Per ogni periodo di aging nella definizione del periodo di aging viene creato un record di dettaglio dello snapshot di aging. Ogni record di dettaglio contiene l'ID del periodo di aging e l'importo totale delle transazioni che hanno date comprese nel periodo di aging. Le transazioni vengono assegnate a un periodo di aging, ad esempio 30 giorni oltre la scadenza. La data è relativa alla data in **Aging a partire da** specificata al momento della creazione dello snapshot di aging. Queste informazioni vengono visualizzate nella pagina elenco **Saldi con aging** e nel riquadro Dettaglio informazioni **Saldi con aging** nella pagina **Riscossioni**.
 
-## <a name="collections-customer-pools"></a> Pool di clienti per riscossioni 
+## <a name="collections-customer-pools"></a>Pool di clienti per riscossioni
 
 I pool di clienti sono query che definiscono un gruppo di record cliente. È possibile utilizzare questi record raggruppati per visualizzare informazioni per i conti cliente inclusi e per gestire i processi di riscossione o di aging per tali account. È possibile utilizzare i pool di clienti per filtrare le informazioni presenti nelle pagine elenco di riscossione. È anche possibile utilizzarli per filtrare i conti cliente inclusi quando vengono creati gli snapshot di aging.
 
@@ -72,7 +72,7 @@ Per poter visualizzare le informazioni sulle pagine elenco di riscossione, è ne
 - Se sono presenti pool di clienti, è necessario che un utente sia impostato come agente di riscossione per utilizzare i pool per filtrare le informazioni nelle pagine elenco di riscossione. Le informazioni sono limitate ai clienti inclusi nel pool di clienti selezionato.
 - Se un utente viene impostato come agente di riscossione, nelle pagine elenco di riscossione saranno disponibili solo i pool selezionati per tale agente di riscossione. Se il pulsante **Consenti ad agente di visualizzare tutti i pool di clienti** è selezionato nella pagina **Agenti di riscossione** per l'agente di riscossione, tutti i pool sono disponibili per tale agente.
 
-## <a name="collections-page"></a> Pagina Riscossioni
+## <a name="collections-page"></a>Pagina Riscossioni
 
 È possibile utilizzare la pagina **Riscossioni** per visualizzare, gestire e intraprendere le azioni necessarie sui casi, le attività e le informazioni sulla riscossione per un cliente.
 

@@ -2,7 +2,7 @@
 title: Introduzione alla fatturazione elettronica
 description: Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700381"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779696"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Introduzione alla fatturazione elettronica
 
@@ -57,7 +57,12 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 
 A seconda del paese o dell'area geografica, la funzione Fatturazione elettronica potrebbe richiedere una configurazione specifica. 
 
-Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per il tuo paese o area geografica.
+> [!NOTE]
+> Quando abiliti la funzionalità di fatturazione elettronica per la Finlandia, i parametri specifici dell'applicazione nelle ricerche non sono supportati. Per risolvere questo problema, nel modulo **Creazione di report elettronici**, rivedi le configurazioni per i formati di fattura di vendita e fattura di progetto. Configura manualmente il campo calcolato per il mapping **$PaymentMethodSubstitution**, quindi associa tale campo al campo **EpiPaymentMeansCode** dai formati fattura di vendita e fattura progetto.
+>
+> Quando abiliti la funzionalità di fatturazione elettronica per l'Italia, i parametri specifici dell'applicazione nelle ricerche non sono supportati. Per risolvere questo problema, nel modulo **Creazione di report elettronici**, configura manualmente il campo calcolato per il mapping **$NaturaReverseCharge**.
+>
+> Per i passaggi specifici relativi ad altre posizioni, vedi la documentazione "Introduzione" disponibile per il tuo paese o area geografica.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Importare le configurazioni di mapping modello dalla creazione di report elettronici
 
@@ -241,6 +246,14 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
 
 3. Seleziona una fattura nella griglia, quindi seleziona **Richiedi informazioni** \> **Dettagli invio**.
 
+## <a name="download-an-electronic-document-file"></a>Scarica un file di documento elettronico
+
+1. Vai a **Amministrazione organizzazione** \> **Periodico** \> **Documenti elettronici** \> **Registro di invio documenti elettronici**.
+2. Nel campo **Tipo di documento** seleziona la tabella che contiene le fatture.
+3. Seleziona un documento nella griglia, quindi seleziona **Documento elettronico** \> **Scarica file**. Verrà suggerito per il download un archivio contenente il file del documento elettronico.
+
+> [!NOTE]
+> Prima di poter scaricare i file, l'opzione **Esporta risultato** deve essere attivata per l'azione correlata nella configurazione della funzionalità di fatturazione elettronica in RCS.
 
 ## <a name="related-topics"></a>Argomenti correlati
 

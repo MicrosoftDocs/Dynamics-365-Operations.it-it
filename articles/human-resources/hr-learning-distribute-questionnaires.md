@@ -1,8 +1,8 @@
 ---
 title: Distribuire e programmare questionari
-description: In questo articolo viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili per la persona o il gruppo di persone che li completeranno.
-author: andreabichsel
-ms.date: 04/04/2017
+description: In questo argomento viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili alla persona o al gruppo di persone che li dovranno completare.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60354a3e7fed5403321d5ec4440cece84b13233bef80fcd5c5f61d72e5e3aa85
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755517"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729005"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuire e programmare questionari
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo articolo viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili per la persona o il gruppo di persone che li completeranno. 
+In questo argomento viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili alla persona o al gruppo di persone che li dovranno completare. 
 
 Sono disponibili più metodi per distribuire un questionario:
 
--   Contrassegnare il questionario come attivo. Il questionario è così attivo e disponibile per tutti i dipendenti a meno che un gruppo di questionari non venga impostato per limitare l'accesso al questionario.
+-   Contrassegna il questionario come **attivo**. Il questionario è così attivo e disponibile per tutti i dipendenti a meno che un gruppo di questionari non venga impostato per limitare l'accesso al questionario.
 -   Assegnare i diritti a un gruppo di questionari. Il questionario è quindi disponibile per tutti i membri del gruppo selezionato.
 -   Creare sessioni di risposte pianificate. Il questionario è quindi disponibile solo per una persona specifica.
 -   Crea una programmazione. Il questionario può quindi essere disponibile per più persone.

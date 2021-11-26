@@ -1,7 +1,7 @@
 ---
 title: Panoramica sui pagamenti omnicanale
 description: In questo argomento viene fornita una panoramica dei pagamenti omnicanale in Dynamics 365 Commerce.
-author: rubendel
+author: BrianShook
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 11198795ebc09acd740546e0b18260e8ea2ddfc1dcc2ff38feafecc220655f1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b01a5b08304b04b924da20310b6eee0c50e9d0e
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743409"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779720"
 ---
 # <a name="omni-channel-payments-overview"></a>Panoramica sui pagamenti omnicanale
 
@@ -34,7 +34,7 @@ In questo argomento viene fornita una panoramica dei pagamenti omnicanale in Dyn
 
 | Termine | Descrizione |
 |---|---|
-| Token  | Una stringa di dati che un sistema di elaborazione dei pagamenti fornisce come riferimento. I token possono rappresentare numeri di carte di pagamento, autorizzazioni di pagamento e acquisizioni di pagamento precedenti. I token sono importanti in quanto consentono di mantenere dati riservati al di fuori del sistema POS. Talvolta sono denominati *riferimenti*. |
+| Token | Una stringa di dati che un sistema di elaborazione dei pagamenti fornisce come riferimento. I token possono rappresentare numeri di carte di pagamento, autorizzazioni di pagamento e acquisizioni di pagamento precedenti. I token sono importanti in quanto consentono di mantenere dati riservati al di fuori del sistema POS. Talvolta sono denominati *riferimenti*. |
 | Token carta di credito | Un token che un sistema di elaborazione dei pagamenti fornisce per l'archiviazione nel sistema POS. Un token carta di credito può essere utilizzato solo dall'esercente che lo riceve. I token carta di credito sono a volte denominati *riferimenti di carte di credito*. |
 | Token di autorizzazione | Un ID univoco che un sistema di elaborazione dei pagamenti fornisce come parte della risposta che invia a un sistema POS dopo questo esegue una richiesta di autorizzazione. Un token di autorizzazione può essere utilizzato successivamente se al sistema di elaborazione viene richiesto di eseguire azioni come lo storno o l'annullamento dell'autorizzazione. Tuttavia, è utilizzato soprattutto per acquisire fondi quando un ordine viene evaso o una transazione viene finalizzata. I token di autorizzazione sono a volte denominati *riferimenti di autorizzazione*. |
 | Token di acquisizione | Un riferimento che un sistema di elaborazione dei pagamenti fornisce a un sistema POS quando un pagamento viene finalizzato o acquisito. Il token di acquisizione può quindi essere utilizzato per fare riferimento all'acquisizione di pagamento nelle operazioni successive, ad esempio richieste di rimborso. | 

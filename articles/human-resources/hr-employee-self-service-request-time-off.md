@@ -1,8 +1,8 @@
 ---
 title: Richiedere permessi
 description: Richiedere permessi in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756102"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771414"
 ---
 # <a name="request-time-off"></a>Richiedere permessi
 
@@ -42,7 +42,7 @@ ms.locfileid: "6756102"
 
 6. Selezionare **Invia** quando si è pronti per inviare la richiesta. Altrimenti, selezionare **Salva bozza**.
 
-I dipendenti che inviano una nuova richiesta di congedo possono selezionare diversi tipi di congedo per creare la propria richiesta di congedo. Tuttavia, tutti i tipi di congedo selezionati come parte di una singola richiesta di congedo devono avere la stessa unità di congedo. I dipendenti possono visualizzare l'unità di congedo per ogni tipo di congedo nel modulo **Richiedi permesso**.
+I dipendenti che inviano una nuova richiesta di congedo possono selezionare diversi tipi di congedo per creare la propria richiesta di congedo. Tuttavia, tutti i tipi di congedo selezionati come parte di una singola richiesta di congedo devono avere la stessa unità di congedo. I dipendenti possono visualizzare l'unità di congedo per ogni tipo di congedo nella pagina **Richiedi permesso**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Aggiungere un allegato a una richiesta esistente
 
@@ -64,7 +64,7 @@ Quando si aggiorna una richiesta di permesso esistente, è possibile aggiungere 
 
 1. Nell'area di lavoro **Self-service dipendenti**, selezionare **Visualizza tempo libero** nel riquadro **Saldi permessi**.
 
-2. Nel modulo **Tempo libero** selezionare una o più richieste di permessi da annullare.
+2. Nella pagina **Tempo libero** selezionare una o più richieste di permessi da annullare.
 
 3. Seleziona il pulsante **Annulla**.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 39f462ae325aa1104a25a8290daed70388e624ec
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 074be71d7b6ec1acab6307a79e397c2a2a045c39
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7476749"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778427"
 ---
 # <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>L'unità e la quantità unitaria non funzionano correttamente nel giornale di registrazione dell'inventario
 
@@ -31,7 +31,7 @@ Potresti riscontrare uno o entrambi i seguenti problemi quando lavori con unità
 
 Per risolvere questo problema, procedere come segue.
 
-1. Nell'area di lavoro **Gestione funzionalità**, assicurati che la funzionalità *Utilizzo di unità di misura e quantità unitaria nei giornali di registrazione magazzino* sia attivata. Questa funzionalità aggiunge i campi **Unità** e **Quantità unitaria** al giornale di registrazione.
+1. Nell'area di lavoro **Gestione funzionalità**, assicurati che la funzionalità *Utilizzo di unità di misura e quantità unitaria nei giornali di registrazione magazzino* sia attivata. Questa funzionalità aggiunge i campi **Unità** e **Quantità unitaria** al giornale di registrazione. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
 1. Dopo che la funzionalità è stata attivata, utilizza i campi **Quantità**, **Quantità unitaria** e **Unità** nel modo seguente:
 
     - **Quantità**: specifica la quantità utilizzando l'unità predefinita definita per il prodotto rilasciato. Tuttavia, l'unità predefinita stessa non viene mostrata qui. Se viene configurata una conversione tra l'unità predefinita e l'unità selezionata nel campo **Unità**, il campo **Quantità** viene aggiornato automaticamente, in base alle selezioni nei campi **Quantità unitaria** e **Unità**.

@@ -1,8 +1,8 @@
 ---
 title: Fare una domanda in base alla risposta della domanda precedente
 description: Le domande condizionali consentono di specificare la domanda successiva da presentare a un intervistato, in base alla risposta alla domanda precedente.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, Hc
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9397b3dfa353398a5d326ae68ec8269369ebf85b7b2e61c73013db76c5dd475
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11787aa0b32c0d7493e4528b00304e51f01a655f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745696"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728908"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Fare una domanda in base alla risposta della domanda precedente
 
@@ -30,28 +30,28 @@ Le domande condizionali consentono di specificare la domanda successiva da prese
 
 
 ## <a name="find-the-existing-questionnaire"></a>Individuare il questionario esistente
-1. Andare a Questionario > Progettazione > Questionari.
+1. Vai a **Questionario** > **Progettazione** > **Questionari**.
 2. Nell'elenco selezionare il questionario WorkFH.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Aggiungere tutte le domande e le domande secondarie al questionario
-1. Fare clic su Domande.
-2. Fare clic su Nuovo.
-3. Nel campo Domanda selezionare il numero di domanda 00016.
+1. Fai clic su **Domande**.
+2. Fare clic su **Nuovo**.
+3. Nel campo **Domanda** seleziona il numero di domanda 00016.
 4. Nell'elenco trovare e selezionare il record desiderato.
 5. Nell'elenco fare clic sul collegamento nella riga selezionata.
-6. Fare clic su Salva.
+6. Fare clic su **Salva**.
 7. Chiudere la pagina.
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Impostare la sequenza del questionario su Condizionale e rendere la domanda dipendente dalla domanda appropriata
-1. Fare clic su Modifica.
-2. Espandere la sezione Impostazione.
-3. Nel campo Ordine domande selezionare "Condizionale".
-4. Fare clic su Domanda condizionale.
+1. Fare clic su **Modifica**.
+2. Espandere la sezione **Impostazione**.
+3. Nel campo **Ordine domande** seleziona "Condizionale".
+4. Fai clic sulla domanda **Condizionale**.
 5. Nella struttura selezionare "Domande\Spiegare i motivi della risposta precedente".
-6. Nel campo Domanda primaria il numero di domanda 00009.
+6. Nel campo **Domanda primaria** il numero di domanda 00009.
 7. Nell'elenco fare clic sul collegamento nella riga selezionata.
-8. Nel campo Risposta immettere l'ID della sequenza di risposta dell'opzione di risposta da cui si desidera che la domanda sia dipendente. Ad esempio, immettere 1 per la prima opzione di risposta.
-9. Fare clic su Salva.
+8. Nel campo **Risposta** immetti l'ID della sequenza di risposta dell'opzione di risposta da cui si desidera che la domanda sia dipendente. Ad esempio, immettere 1 per la prima opzione di risposta.
+9. Fare clic su **Salva**.
 10. Nella struttura selezionare "Domande\Sono pagato equamente per il lavoro che svolgo".
     * Si noti che la struttura delle domande viene aggiornata per visualizzare la dipendenza.  
 

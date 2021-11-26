@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579882"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778259"
 ---
 # <a name="work-split"></a>Divisione lavoro
 
@@ -33,7 +33,7 @@ La funzionalità di suddivisione del lavoro consente di suddividere gli ID ordin
 
 Prima di poter utilizzare la funzionalità di suddivisione del lavoro, è necessario attivare la funzionalità e la relativa funzionalità prerequisito nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzioni e se necessario abilitarle.
 
-Innanzitutto, attivare la funzionalità prerequisito *Blocco del lavoro a livello di organizzazione* se non è già attivata. Nell'area di lavoro **Gestione funzionalità**, questa funzione è elencata nel modo seguente:
+Innanzitutto, attivare la funzionalità prerequisito *Blocco del lavoro a livello di organizzazione* se non è già attivata. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo. Tuttavia, la funzionalità viene ancora elencata in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Blocco del lavoro a livello di organizzazione*

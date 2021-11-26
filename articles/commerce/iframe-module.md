@@ -2,7 +2,7 @@
 title: Modulo iFrame
 description: In questo argomento viene descritto il modulo iFrame e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767292"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754016"
 ---
 # <a name="iframe-module"></a>Modulo Iframe
 
@@ -66,10 +66,13 @@ Per aggiungere un modulo iFrame a una pagina per mostrare un video esterno, atte
 1. Impostare altre proprietà, ad esempio **Intestazione** e **Altezza**, in base alle esigenze.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 1. Andare alla pagina di marketing sul sito. Il rendering del video nel modulo iFrame dovrebbe essere visibile.
- 
+
+> [!NOTE]
+> Poiché il modulo iframe ospita contenuto esterno, gli autori del sito devono garantire che il contenuto ospitato all'interno di un modulo iframe non violi i criteri di restrizione dei contenuti nel rispettivo mercato. Se si verifica una violazione del contenuto su una pagina che utilizza il modulo iframe, l'autore del sito può rimuovere il modulo iframe aprendo la pagina nel generatore di siti, selezionando **Rimuovi modulo** nello slot del modulo iframe, quindi salvare e ripubblicare la pagina.
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica della libreria dei moduli](starter-kit-overview.md)
+[Panoramica della libreria moduli](starter-kit-overview.md)
 
 [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md)
 

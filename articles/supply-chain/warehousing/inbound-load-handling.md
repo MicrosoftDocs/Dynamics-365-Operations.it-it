@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577842"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778061"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -196,7 +196,7 @@ Quando l'utente seleziona **OK** per confermare la registrazione dell'entrata de
 
 Il campo **Consenti l'entrata di più prodotti per carico** consente alle società di scegliere criteri di ricezione del carico in entrata. A seconda dei flussi operativi, le aziende possono scegliere di consentire o negare più registrazioni di entrate di prodotti per lo stesso carico. Consigliamo al responsabile della logistica di impostare il campo **Consenti l'entrata di più prodotti per carico** su uno dei seguenti valori:
 
-- **No** - Selezionare questo valore se gli addetti al ricevimento del magazzino registrano sempre tutte le quantità degli ordini che arrivano con ciascun carico entro un periodo di tempo designato. Se le quantità di carico non sono registrate, il sistema presume che non siano arrivate o che non fossero presenti nel carico e pertanto non considerate come parte del carico. La registrazione dell'entrata del prodotto eseguita da un carico utilizza lo stesso presupposto. Oltre all'entrata del prodotto, che aggiorna tutte le quantità registrate (la funzione principale), dichiara il carico completo e chiuso per ulteriore elaborazione. In questo caso, tutte le quantità delle righe di carico vengono automaticamente aggiornate alle quantità registrate, le righe di carico che non hanno quantità registrate vengono eliminate e lo stato del carico viene modificato in _Ricevuto_. 
+- **No** - Selezionare questo valore se gli addetti al ricevimento del magazzino registrano sempre tutte le quantità degli ordini che arrivano con ciascun carico entro un periodo di tempo designato. Se le quantità di carico non sono registrate, il sistema presume che non siano arrivate o che non fossero presenti nel carico e pertanto non considerate come parte del carico. La registrazione dell'entrata del prodotto eseguita da un carico utilizza lo stesso presupposto. Oltre all'entrata del prodotto, che aggiorna tutte le quantità registrate (la funzione principale), dichiara il carico completo e chiuso per ulteriore elaborazione. In questo caso, tutte le quantità delle righe di carico vengono automaticamente aggiornate alle quantità registrate, le righe di carico che non hanno quantità registrate vengono eliminate e lo stato del carico viene modificato in _Ricevuto_.
 - **Sì** - Selezionare questo valore se gli addetti al ricevimento del magazzino richiedono più tempo per registrare tutte le quantità sul carico che è arrivato, ma nel frattempo devono registrare all'entrata prodotti le quantità che sono già state registrate. In questo caso, il responsabile della logistica vorrà mantenere il carico aperto anche dopo l'esecuzione del processo di registrazione dell'entrata del prodotto, in modo tale che le quantità di carico rimanenti possano essere registrate e che l'entrata del prodotto venga aggiornata nel registro su base continuativa.
 - **Richiesta** - Selezionare questo valore se le procedure di ricezione del carico sono miste ed è necessaria una decisione ogni volta che viene eseguita la registrazione dell'entrata del prodotto.
 
@@ -205,7 +205,7 @@ Nella tabella seguente sono riepilogati gli effetti dell'impostazione **Consenti
 | Consenti l'entrata di più prodotti per carico | Quantità di carico | Stato carico | Nota |
 |---|---|---|---|
 | Quando questo campo non è disponibile (versioni precedenti a 10.0.10) | <p>La quantità di carico è impostata in modo che sia uguale alla quantità registrata.</p><p>Se la quantità di carico viene aggiornata su 0 (zero), ossia non è stata effettuata alcuna registrazione, la riga di carico viene eliminata.</p><p>Se non ci sono righe di carico sul carico, il carico viene eliminato.</p> | _Ricevuti_ | Se esistono più carichi per la quantità registrata della riga ordine, solo lo stato del carico da cui è stata registrata l'entrata viene aggiornato su _Ricevuto_. |
-| Nessuna | <p>La quantità di carico è impostata in modo che sia uguale alla quantità registrata associata all'ID carico.</p><p>Se non viene registrato alcun ID carico per la transazione di inventario, il comportamento corrisponde a quello delle versioni precedenti alla 10.0.10.</p> | _Ricevuti_ | |
+| No | <p>La quantità di carico è impostata in modo che sia uguale alla quantità registrata associata all'ID carico.</p><p>Se non viene registrato alcun ID carico per la transazione di inventario, il comportamento corrisponde a quello delle versioni precedenti alla 10.0.10.</p> | _Ricevuti_ | |
 | Sì | Nessun aggiornamento | _Ricevuto_, se la quantità di carico totale registrata è uguale o superiore alla quantità di carico | |
 | Sì | Nessun aggiornamento | _Spedito_ o _In corso_, se la quantità di carico totale registrata è minore della quantità di carico | |
 
@@ -267,7 +267,7 @@ Questi scenari richiedono la funzionalità _Registrazioni entrata di più prodot
 
 1. Aprire l'area di lavoro **Gestione funzionalità**. (Per i dettagli completi su come trovare e utilizzare questo spazio di lavoro, vedere [Panoramica sulla gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Attivare la funzionalità _Associa transazioni di inventario dell'ordine fornitore al carico_, elencata nel modo seguente:
+1. Verificare che la funzionalità _Associa transazioni di inventario dell'ordine fornitore al carico_ sia attivata. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo. Tuttavia, la funzionalità viene ancora elencata in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nel modo seguente:
 
     - **Modulo:** _Gestione magazzino_
     - **Nome della funzione:** _Associa transazioni di inventario dell'ordine fornitore al carico_

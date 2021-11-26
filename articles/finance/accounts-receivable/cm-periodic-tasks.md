@@ -1,7 +1,7 @@
 ---
 title: Attività periodiche di gestione dei crediti
 description: In questo argomento vengono descritte le attività periodiche che sono una parte necessaria del processo di gestione dei limiti di credito per i clienti.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f6b04c28c0f7b5e4d58d464ad45d42478cde4e0ffb584e5afa43c99ebaed7166
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724017"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753509"
 ---
 # <a name="periodic-credit-management-tasks"></a>Attività periodiche di gestione crediti
 

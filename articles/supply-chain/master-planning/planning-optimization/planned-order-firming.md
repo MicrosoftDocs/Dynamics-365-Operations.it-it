@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764838"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778523"
 ---
 # <a name="firm-planned-orders"></a>Stabilizza ordini pianificati
 
@@ -39,7 +39,7 @@ La maggior parte delle funzionalità degli ordini pianificati sono disponibili i
 
 La stabilizzazione parallela aiuta ad accelerare il processo di stabilizzazione parallelizzandolo su più thread. Questo approccio può essere utile quando molti ordini pianificati vengono stabilizzati.
 
-Per rendere disponibile questa funzionalità nel tuo sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Stabilizzazione parallela degli ordini pianificati*.
+Per rendere disponibile questa funzionalità nel tuo sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Stabilizzazione parallela degli ordini pianificati*. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Abilitare la stabilizzazione degli ordini pianificati con il filtraggio
 
@@ -51,7 +51,7 @@ Per rendere disponibile questa funzionalità nel tuo sistema, vai a [Gestione fu
 
 La stabilizzazione automatica consente di stabilizzare gli ordini pianificati nel processo di pianificazione generale durante il intervallo temporale stabilito. La stabilizzazione automatica è sempre supportata per il motore di pianificazione integrato in Supply Chain Management. Tuttavia, per utilizzarlo anche con l'ottimizzazione della pianificazione, è necessario attivare la funzionalità.
 
-Per rendere disponibile questa funzionalità nel tuo sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*.
+Per rendere disponibile questa funzionalità nel tuo sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
 
 ## <a name="manually-firm-planned-orders"></a>Stabilizzare manualmente ordini pianificati
 

@@ -2,7 +2,7 @@
 title: Risoluzione dei problemi di configurazione di Finance Insights
 description: Questo argomento elenca i problemi che possono verificarsi quando si utilizzano le funzionalità di Finance Insights. Spiega anche come risolvere questi problemi.
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512892"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752619"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Risoluzione dei problemi di configurazione di Finance Insights
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento elenca i problemi che possono verificarsi quando si utilizzano le funzionalità di Finance Insights. Spiega anche come risolvere questi problemi.
 
@@ -53,6 +54,12 @@ Seguire questi passaggi nell'[interfaccia di amministrazione Power Platform](htt
 
 1. Se si sta utilizzando una versione di anteprima di Finance Insights, rimuovere il progetto DI associato al modello **Risultati delle informazioni dettagliate sui pagamenti dei clienti (da CDS a Fin and Ops)**.
 2. Seguire i passaggi in [Creare un progetto di integrazione dei dati](create-data-integrate-project.md). Utilizzare il modello **Risultato delle analisi di pagamenti cliente (da CDS a Fin and Ops 10.0.17 e versioni successive)**.
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Sintomo: quando provo ad aprire AI Builder utilizzando i collegamenti nella pagina di configurazione delle previsioni di pagamento del cliente, perché ricevo il seguente messaggio di errore: "Siamo spiacenti, si è verificata una disconnessione"?
+
+### <a name="resolution"></a>Risoluzione
+
+Gli utenti di Dynamics 365 Finance devono avere un account utente di Microsoft Power Apps per l'ambiente e tale account utente deve avere il ruolo di Addetto alla personalizzazione del sistema. L'amministratore di sistema di Microsoft Power Apps può creare l'account utente e assegnare il ruolo. Puoi quindi andare su <https://make.preview.powerapps.com/>, accedere utilizzando quell'account utente e riprovare i collegamenti.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Sintomo: perché la scheda Previsione di cassa nell'area di lavoro Previsione di cassa non mostra alcun dato?
 

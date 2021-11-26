@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574667"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778355"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout della distribuzione del documento per le etichette della targa
 
@@ -53,7 +53,7 @@ Diversi strumenti di generazione di etichette ampiamente disponibili possono aiu
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Attivare questa funzionalità per il sistema
 
-Se il sistema non include già le funzionalità descritte in questo argomento, andare a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Layout etichette targa migliorati*.
+Se il sistema non include già le funzionalità descritte in questo argomento, andare a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Layout etichette targa migliorati*. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
 
 ## <a name="custom-number-formats"></a>Formati numerici personalizzati
 

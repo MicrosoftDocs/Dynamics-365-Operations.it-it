@@ -2,7 +2,7 @@
 title: Panoramica organizzazioni e gerarchie organizzative
 description: Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715991"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798348"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Panoramica delle organizzazioni e delle gerarchie organizzative
 
@@ -64,9 +64,19 @@ Un team è un'organizzazione i cui membri condividono una responsabilità, un in
 
 Impostare le gerarchie organizzative per la visualizzazione e il reporting sull'attività aziendale da diverse prospettive. È possibile impostare, ad esempio, una gerarchia di persone giuridiche per il reporting fiscale, legale o statutario. Impostare una gerarchia che si basa sulle unità operative per il reporting di informazioni finanziarie non obbligatorio per legge, ma utilizzato per il controllo interno. È ad esempio possibile creare una gerarchia per gli acquisti che controlli i criteri di acquisto, le relative regole e processi aziendali.
 
+> [!NOTE]
+> Dopo che un'unità operativa è stata aggiunta a una gerarchia, non può essere eliminata. 
+
 A ogni gerarchia viene assegnato uno scopo. Lo scopo di una gerarchia determina i tipi di organizzazioni che è possibile includere nella gerarchia. Lo scopo consente inoltre di determinare gli scenari di applicazione per la gerarchia.
 
 Le organizzazioni di una gerarchia possono condividere parametri, criteri e transazioni. Le organizzazioni possono ereditare o sostituire i parametri della relativa organizzazione padre. Tuttavia, i dati master condivisi, ad esempio prodotti e rubriche, vengono applicati a tutta l'organizzazione e non possono essere sostituiti per le singole organizzazioni. La creazione di organizzazioni e gerarchie richiede una pianificazione attenta. Per ulteriori informazioni, vedere [Pianificazione della gerarchia organizzativa](plan-organizational-hierarchy.md).
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+- [Pianificazione della gerarchia organizzativa](plan-organizational-hierarchy.md)
+- [Creare una gerarchia organizzativa](tasks/create-organization-hierarchy.md)
+- [Creare una nuova persona giuridica](tasks/create-legal-entity.md)
+- [Creare una unità operativa](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

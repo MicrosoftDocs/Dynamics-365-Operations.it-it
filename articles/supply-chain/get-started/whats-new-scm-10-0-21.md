@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715256"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777939"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.21 (ottobre 2021)
 
@@ -70,10 +70,10 @@ Questa tabella elenca le funzionalità attivate per impostazione predefinita in 
 | Annullamento ordine di trasferimento | 1/9/2021 | 13/7/2020 | In base all'impostazione predefinita | Gestione articoli e magazzino |
 | Sblocca giornale di registrazione magazzino | 1/9/2021 | 17/8/2020 | In base all'impostazione predefinita | Gestione articoli e magazzino |
 | Visualizzazioni salvate per gestione inventario | 1/9/2021 | 30/9/2020 | In base all'impostazione predefinita | Gestione articoli e magazzino |
-| Passaggio alla versione DBA da righe DBA. | 1/9/2021 | 11/11/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
-| Utilizzo dell'unità di misura e della quantità unitaria nei giornali di registrazione magazzino. | 1/9/2021 | 11/11/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
+| Passaggio alla versione DBA da righe DBA | 1/9/2021 | 11/11/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
+| Utilizzo dell'unità di misura e della quantità unitaria nei giornali di registrazione magazzino | 1/9/2021 | 11/11/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
 | Consenti valori di attributi batch vuoti | 1/9/2021 | 11/11/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
-| Incremento automatico dei numeri di riga delle righe ordine di trasferimento scorte. | 1/9/2021 | 11/10/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
+| Incremento automatico dei numeri di riga delle righe ordine di trasferimento scorte | 1/9/2021 | 11/10/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
 | Flusso di lavoro per approvazione giornale di registrazione magazzino | 1/9/2021 | 6/1/2020 | In base all'impostazione predefinita | Gestione articoli e magazzino |
 | Abilita funzionalità di avviso parametri di gestione qualità scorte | 1/9/2021 | 7/10/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
 | Crea ordine di trasferimento da riga di vendita. | 1/9/2021 | 31/8/2019 | In base all'impostazione predefinita | Gestione articoli e magazzino |
@@ -93,12 +93,12 @@ Questa tabella elenca le funzionalità attivate per impostazione predefinita in 
 | Visualizzazioni salvate per prodotti rilasciati | 1/9/2021 | 30/9/2020 | In base all'impostazione predefinita | Gestione informazioni sul prodotto |
 | Miglioramenti alle finestre di dialogo Approva processi e Processi di trasferimento | 1/9/2021 | 11/10/2019 | In base all'impostazione predefinita | Controllo produzione |
 | Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo | 1/9/2021 | 31/8/2019 | In base all'impostazione predefinita | Controllo produzione |
-| Un nuovo pulsante Interrompi pausa è stato aggiunto alla pagina del terminale della scheda processo. | 1/9/2021 | 19/2/2020 | In base all'impostazione predefinita | Controllo produzione |
+| Un nuovo pulsante Interrompi pausa è stato aggiunto alla pagina del terminale della scheda processo | 1/9/2021 | 19/2/2020 | In base all'impostazione predefinita | Controllo produzione |
 | Abilitare l'entrata parziale di articoli in conto lavoro e correggere un problema con il calcolo dello scarto per le righe DBA di tipo fornitore. | 1/9/2021 | 11/11/2019 | In base all'impostazione predefinita | Controllo produzione |
 | Visualizzazioni salvate per controllo di produzione | 1/9/2021 | 17/8/2020 | In base all'impostazione predefinita | Controllo produzione |
 | Dynamics 365 Guides per produzione | 1/9/2021 | 13/7/2020 | In base all'impostazione predefinita | Controllo produzione |
 | Esecuzione area di produzione | 1/9/2021 | 30/9/2020 | In base all'impostazione predefinita | Controllo produzione |
-| Funzionalità per bloccare il dispositivo della scheda processo e il terminale della scheda processo in modo che possano essere igienizzati. | 1/9/2021 | 10/5/2020 | In base all'impostazione predefinita | Controllo produzione |
+| Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti | 1/9/2021 | 10/5/2020 | In base all'impostazione predefinita | Controllo produzione |
 | Allocazione spese in un ordine cliente | 1/9/2021 | 30/9/2020 | In base all'impostazione predefinita | Vendite e marketing |
 | Limita il numero di ordini cliente che è possibile selezionare per la registrazione | 1/9/2021 | 1/9/2021 | In base all'impostazione predefinita | Vendite e marketing |
 | Pulisci storico aggiornamento ordini cliente | 1/9/2021 | 1/9/2021 | In base all'impostazione predefinita | Vendite e marketing |

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: c2fbaa6945cf46b7ef09232e6004f09b487ea7c822e72225dc00d3d28ecb008e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780200"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729029"
 ---
 # <a name="apply-filters-to-a-plan"></a>Applicare i filtri a un piano
 
@@ -43,7 +43,7 @@ Viene impostato un filtro del piano che include gli articoli A, B e C. Le esecuz
 - **Filtro del runtime che include tutti gli articoli (filtro vuoto):** Gli articoli A, B e C sono inclusi nell'esecuzione della pianificazione e l'output di pianificazione precedente per gli articoli A e B viene sovrascritto.
 
 > [!NOTE]
-> È necessario evitare di impostare un filtro del piano sul piano selezionato come **Piano generale dinamico corrente** nella pagina **Parametri di pianificazione generale**. In caso contrario, la funzionalità del piano principale dinamico è limitata agli articoli filtrati. Ad esempio, se i requisiti netti vengono aggiornati per un articolo che non fa parte del filtro del piano, non verrà generato alcun risultato.
+> Se imposti un filtro del piano sul piano selezionato come **Piano generale dinamico attuale** nella pagina **Parametri di pianificazione generale**, la funzionalità del piano principale dinamico sarà limitata agli elementi filtrati. Ad esempio, se i requisiti netti vengono aggiornati per un articolo che non fa parte del filtro del piano, non verrà generato alcun risultato.
 
 ## <a name="related-resources"></a>Risorse correlate
 

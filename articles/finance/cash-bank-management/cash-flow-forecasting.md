@@ -2,7 +2,7 @@
 title: Previsione di cassa
 description: In questo argomento viene fornita una panoramica del processo di previsione di cassa. E viene illustrato come la previsione di cassa è integrata con altri moduli nel sistema.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547957"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752906"
 ---
 # <a name="cash-flow-forecasting"></a>Previsione di cassa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 È possibile utilizzare gli strumenti di previsione di cassa per analizzare il calcolo delle previsioni di cassa e dei fabbisogni valutari per stimare l'esigenza di contanti futura della società. Per ottenere una previsione del flusso di cassa, procedere come segue:
 
@@ -93,9 +94,12 @@ Le voci del registro di budget possono essere incluse nella previsione di cassa 
 Le previsioni di offerta e domanda di magazzino possono essere incluse nella previsione di cassa. Nella scheda **Gestione inventario** della pagina **Impostazione previsione di cassa**, selezionare il modello di previsione da includere nella previsione di cassa. L'inclusione nella previsione di cassa può essere sovrascritta nelle singole righe della previsione della domanda e dell'offerta.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurazione di dimensioni per la previsione di cassa
-Una nuova scheda nella pagina **Configurazione della previsione di cassa** consente di controllare quali dimensioni finanziarie utilizzare per filtrare nell'area di lavoro **Previsione di cassa**. Questa scheda verrà visualizzata solo quando la funzione Previsioni di cassa è abilitata. 
+Una nuova scheda nella pagina **Configurazione della previsione di cassa** consente di controllare quali dimensioni finanziarie utilizzare per filtrare nell'area di lavoro **Previsione di cassa**. Questa scheda viene visualizzata solo quando la funzione Previsioni di cassa di Finance Insights è abilitata. 
 
 Nella scheda **Dimensioni**, scegli dall'elenco delle dimensioni da utilizzare per i filtri e utilizza i tasti freccia per spostarle nella colonna di destra. È possibile selezionare solo due dimensioni per filtrare i dati di previsione di cassa. 
+
+### <a name="setting-up-external-source"></a>Configurazione dell'origine esterna
+I dati esterni possono essere inseriti o importati nelle previsioni di cassa. Prima di immettere o importare dati esterni, è necessario configurare le origini esterne. Nella scheda **Origine esterna**, confgura le categorie di flussi di cassa esterne. Una categoria può essere **In uscita** o **In entrata**. **Liquidità** deve essere selezionato come tipo di registrazione. Nella griglia **Impostazioni persona giuridica**, seleziona le persone giuridiche e i corrispondenti conti principali a cui si applicano le categorie di flussi di cassa esterni.
 
 ### <a name="project-management-and-accounting"></a>Gestione progetti e contabilità
 

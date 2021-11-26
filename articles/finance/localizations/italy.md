@@ -2,7 +2,7 @@
 title: Panoramica Italia
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Italia.
 author: kfend
-ms.date: 08/25/2020
+ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1700eed75128eb2b91d9614543a0b220c2a8604b
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: af4f72546ed454b096a77db11c7073901414c27a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414652"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779478"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -32,8 +32,10 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Comunicazione annuale imposte](emea-ita-yearly-tax-communication.md)
 - [Gestione e dichiarazione IVA per data di effettuazione dell'operazione (data del registro IVA)](emea-ita-vat-management.md)
 - [Data di competenza per le transazioni](emea-ita-competence-date.md)
-- [Intrastat italiano](emea-ita-intrastat.md)
-- [Pubblicare arrivi e spedizioni per Intrastat](emea-ita-post-arrivals-and-dispatches-for-intrastat.md)
+- Intrastat
+  - [Intrastat italiano](emea-ita-intrastat.md)
+  - [Pubblicare arrivi e spedizioni per Intrastat](emea-ita-post-arrivals-and-dispatches-for-intrastat.md)
+  - [Formato file Intrastat (IT)](/dynamics/s-e/365business/dynamices365finance_itintrastatfile)
 - [Ammortamento manuale dei cespiti](emea-ita-depreciation-of-fixed-assets.md)
 - [Verifica della data dei documenti di trasporto nelle fatture](emea-ita-packing-slip-date-verification-on-invoice.md)
 - [Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto](emea-ita-packing-slip.md)

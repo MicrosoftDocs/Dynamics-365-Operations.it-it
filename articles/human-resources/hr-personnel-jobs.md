@@ -1,26 +1,26 @@
 ---
-title: Impostare i componenti di una mansione
-description: In questo articolo sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione.
-author: andreabichsel
-ms.date: 06/24/2021
+title: Impostare le componenti di una mansione
+description: In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754778"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731542"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Impostare i componenti di una mansione
 
@@ -60,7 +60,7 @@ Le funzioni lavorative descrivono categorie funzionali di alto livello e correla
 Le funzione lavorative vengono gestite mediante la pagina **Funzioni lavorative**. Nella pagina **Funzioni lavorative**, immettere un codice di identificazione e una breve descrizione della funzione lavorativa.
 
 ## <a name="compensation"></a>Retribuzione
-Per assegnare un piano di retribuzione fissa a un dipendente con una determinata posizione, è necessario impostare livelli di retribuzione. Il livello di retribuzione viene utilizzato quando gli importi minimo, medio e massimo sono impostati in una struttura retributiva (griglia retributiva). Quando viene creato un piano di retribuzione fisso, viene selezionata la struttura retributiva. La struttura retributiva comprende anche il livello retributivo. Quando si seleziona un piano di retribuzione fissa per un dipendente, i livelli di retribuzione disponibili per la selezione dipendono dalla mansione a cui è associata la posizione del dipendente. Per ulteriori informazioni sull'impostazione della retribuzione, vedere [Piani di retribuzione](hr-compensation-overview.md).
+Per assegnare un piano di retribuzione fissa a un dipendente con una determinata posizione, è necessario impostare livelli di retribuzione. Il **livello di retribuzione** viene utilizzato quando gli importi minimo, medio e massimo sono impostati in una struttura retributiva (griglia retributiva). Quando viene creato un piano di retribuzione fisso, viene selezionata la struttura retributiva. La struttura retributiva comprende anche il livello retributivo. Quando si seleziona un piano di retribuzione fissa per un dipendente, i livelli di retribuzione disponibili per la selezione dipendono dalla mansione a cui è associata la posizione del dipendente. Per ulteriori informazioni sull'impostazione della retribuzione, vedere [Piani di retribuzione](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Competenze mansione
 Le competenze mansione descrivono le abilità necessarie per svolgere un lavoro. Un livello di competenza deve essere associato a ogni abilità della mansione. I livelli di competenze sono definiti dall'utente. Indicano il livello di conoscenza o competenza richiesto. Ad esempio, le aziende potrebbero impostare livelli numerici, ad esempio da 1 a 5, dove **1** indica un principiante e **5** indica un esperto. In alternativa, le aziende potrebbero impostare livelli etichettati **Principiante**, **Intermedio** o **Esperto**. Dopo aver impostato il livello di competenza, è anche possibile impostare l'importanza della competenza. Ad esempio, se a un contabile è richiesta una conoscenza approfondita di Microsoft Excel, è possibile creare una competenza di nome **Conoscenza di Excel**. Il livello di competenza può quindi essere impostato su **Intermedio** e l'importanza può essere impostata su **Maggiore**.

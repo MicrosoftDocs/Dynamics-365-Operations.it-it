@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 943eee819c08704212ceb5e02921c36e7f1032dc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728629"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777841"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Visualizzazioni salvate standard per Supply Chain Management
 
@@ -47,15 +47,15 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Elenco scorte disponibili | Dati finanziari | Questa visualizzazione semplificata ti consente di concentrarti sulle informazioni finanziarie mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario |
-| Elenco scorte disponibili | Controllo qualità | Questa visualizzazione semplificata ti consente di concentrarti sul controllo della qualità mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario |
-| Elenco scorte disponibili | Ricevimento | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di ricevimento mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario |
-| Elenco scorte disponibili | Spedizione | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di spedizione mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario |
-| Transazioni | Semplificata | Questa visualizzazione semplificata consente di esaminare lo stato dell'inventario senza essere distratti dalle informazioni finanziarie e da altri campi utilizzati meno spesso. | Visualizzazioni salvate per gestione inventario |
-| Ordini di trasferimento | Spedizione | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di spedizione mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario |
-| Ordini di trasferimento | Ricevimento | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di ricevimento mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario |
-| Ordini di trasferimento | Controllo qualità | Questa visualizzazione semplificata ti consente di concentrarti sul controllo della qualità mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario |
-| Ordini di trasferimento | Dati finanziari | Questa visualizzazione semplificata ti consente di concentrarti sulle informazioni finanziarie mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario |
+| Elenco scorte disponibili | Dati finanziari | Questa visualizzazione semplificata ti consente di concentrarti sulle informazioni finanziarie mentre gestisci le scorte disponibili. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Elenco scorte disponibili | Controllo qualità | Questa visualizzazione semplificata ti consente di concentrarti sul controllo della qualità mentre gestisci le scorte disponibili. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Elenco scorte disponibili | Ricevimento | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di ricevimento mentre gestisci le scorte disponibili. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Elenco scorte disponibili | Spedizione | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di spedizione mentre gestisci le scorte disponibili. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Transazioni | Semplificato | Questa visualizzazione semplificata consente di esaminare lo stato dell'inventario senza essere distratti dalle informazioni finanziarie e da altri campi utilizzati meno spesso. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Ordini di trasferimento | Spedizione | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di spedizione mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Ordini di trasferimento | Ricevimento | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di ricevimento mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Ordini di trasferimento | Controllo qualità | Questa visualizzazione semplificata ti consente di concentrarti sul controllo della qualità mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Ordini di trasferimento | Dati finanziari | Questa visualizzazione semplificata ti consente di concentrarti sulle informazioni finanziarie mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per la gestione dell'inventario (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Visualizzazioni salvate per il modulo Pianificazione generale
 
@@ -83,11 +83,11 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Elenco dei prodotti rilasciati | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per prodotti rilasciati |
-| Dettagli prodotto rilasciato | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per prodotti rilasciati |
-| Dettagli prodotto rilasciato | Gestione informazioni sulla logistica | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sulla logistica per prodotti. | Visualizzazioni salvate per prodotti rilasciati |
-| Dettagli prodotto rilasciato | Gestione informazioni sull'acquisto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sull'acquisto per prodotti. | Visualizzazioni salvate per prodotti rilasciati |
-| Dettagli prodotto rilasciato | Gestione informazioni sulla vendita | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni correlate alla vendita per prodotti. | Visualizzazioni salvate per prodotti rilasciati |
+| Elenco dei prodotti rilasciati | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per i prodotti rilasciati (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Dettagli prodotto rilasciato | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per i prodotti rilasciati (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Dettagli prodotto rilasciato | Gestione informazioni sulla logistica | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sulla logistica per prodotti. | Visualizzazioni salvate per i prodotti rilasciati (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Dettagli prodotto rilasciato | Gestione informazioni sull'acquisto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sull'acquisto per prodotti. | Visualizzazioni salvate per i prodotti rilasciati (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Dettagli prodotto rilasciato | Gestione informazioni sulla vendita | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni correlate alla vendita per prodotti. | Visualizzazioni salvate per i prodotti rilasciati (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Visualizzazioni salvate per il modulo Controllo produzione
 
@@ -95,10 +95,10 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Pagina DBA ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione |
-| Pagina dei dettagli dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione |
-| Pagina distinte di prelievo dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione |
-| Pagina elenco degli ordini di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione |
+| Pagina DBA ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Pagina dei dettagli dell'ordine di produzione | Semplificato | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Pagina distinte di prelievo dell'ordine di produzione | Semplificato | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
+| Pagina elenco degli ordini di produzione | Semplificato | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per il controllo della produzione (attivata per impostazione predefinita a partire dalla versione 10.0.21.) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Visualizzazioni salvate per il modulo Vendite e marketing
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576114"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778209"
 ---
 # <a name="replenishment-over-location-capacity"></a>Rifornimento superiore alla capacità dell'ubicazione
 
@@ -32,7 +32,7 @@ La funzionalità consente di creare una quantità di lavoro di rifornimento supe
 
 Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in quest'ordine):
 
-1. Blocco lavoro a livello di organizzazione
+1. Blocco lavoro a livello di organizzazione (a partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
 1. Rifornimento superiore alla capacità dell'ubicazione
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurare la funzionalità per lo scenario di esempio

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576954"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777742"
 ---
 # <a name="configure-job-card-for-devices"></a>Configura scheda processo per dispositivi
 
@@ -34,19 +34,19 @@ Alcune delle impostazioni descritte in questo argomento devono essere abilitate 
 
 Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nell'ordine in cui sono elencate):
 
-1. Targa per la dichiarazione di finito aggiunta al dispositivo scheda processo
+1. Targa per la segnalazione del prodotto come finito aggiunta al dispositivo scheda processo(a partire dalla versione 10.0.21 di Supply Chain Management, questa funzione è attivata per impostazione predefinita).
 1. Abilitare la generazione automatica del numero di identificazione durante la dichiarazione di finito nel dispositivo scheda processo
 
 ### <a name="print-label"></a>Stampa etichetta
 
 Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nell'ordine in cui sono elencate):
 
-1. Targa per la dichiarazione di finito aggiunta al dispositivo scheda processo
+1. Targa per la segnalazione del prodotto come finito aggiunta al dispositivo scheda processo(a partire dalla versione 10.0.21 di Supply Chain Management, questa funzione è attivata per impostazione predefinita).
 1. Stampa etichetta dal dispositivo scheda processo
 
 ### <a name="allow-locking-of-touch-screen"></a>Consenti blocco del touchscreen
 
-Per rendere disponibile questa funzionalità, abilitare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti
 

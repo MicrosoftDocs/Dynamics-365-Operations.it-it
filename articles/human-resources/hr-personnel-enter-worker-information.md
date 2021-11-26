@@ -1,8 +1,8 @@
 ---
 title: Immettere informazioni sui lavoratori
 description: Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0025fcc29eed31fb301052c1080b1631f9eb7ec5201d9d4b7ea8a825d14bf0c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7929a89d1f503fa42b214dc1f1019a2c26e607b
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770434"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731590"
 ---
 # <a name="enter-worker-information"></a>Immettere informazioni sui lavoratori
 
@@ -26,20 +26,20 @@ ms.locfileid: "6770434"
 
 
 
-Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. I dati dimostrativi contengono un progetto di assunzione collettiva aperto. Per iniziare questa procedura, andare a Risorse umane > Selezione del personale > Progetti di assunzione collettiva.
+Dopo che un responsabile della selezione ha creato un progetto di assunzione collettiva e generato le posizioni, il passaggio successivo è quello di immettere le informazioni dei lavoratori per le persone che verranno assunte. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. I dati dimostrativi contengono un progetto di assunzione collettiva aperto. Per iniziare questa procedura, andare a **Risorse umane** > **Selezione del personale** > **Progetti di assunzione collettiva**.
 
 1. Nell'elenco contrassegnare la riga selezionata.
-2. Fare clic su Dettagli posizioni.
-    * Modificare la data di inizio per il lavoratore.  
-    * Modificare la data di fine per il lavoratore.  
-    * Modificare il tipo di lavoratore, se necessario.  
-3. Digitare un valore nel campo Nome.
-4. Digitare un valore nel campo Secondo nome.
-5. Digitare un valore nel campo Cognome.
+2. Fare clic su **Dettagli posizioni**.
+    * Modificare la **data di inizio** per il lavoratore.  
+    * Modificare la **data di fine** per il lavoratore.  
+    * Modificare il **tipo di lavoratore**, se necessario.  
+3. Digitare un valore nel campo **Nome**.
+4. Digitare un valore nel campo **Secondo nome**.
+5. Digitare un valore nel campo **Cognome**.
     * Modificare la mansione per il lavoratore, se necessario.  
     * Modificare il reparto per il lavoratore, se necessario.  
     * Modificare lo stato di equivalenza a tempo pieno per il lavoratore, se necessario.  
-6. Fare clic su OK.
+6. Fare clic su **OK**.
 7. Nell'elenco trovare e selezionare il record desiderato.
 8. Nell'elenco deselezionare la riga selezionata.
     * Selezionare la posizione di progetto successiva e continuare a immettere le informazioni dei lavoratori per ogni persona che si assume.  

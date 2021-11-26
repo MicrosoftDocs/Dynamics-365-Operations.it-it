@@ -2,22 +2,21 @@
 title: Progettare l'interfaccia di esecuzione dell'area di produzione
 description: L'argomento spiega come configurare i controlli del modulo in modo che vengano applicati gli stili di esecuzione del piano di produzione predefiniti.
 author: johanhoffmann
-ms.date: 02/22/2021
+ms.date: 11/08/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.search.form: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 32e49458f6ea7c484bc4200e414d930381b31891
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7652024"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790892"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>Progettare l'interfaccia di esecuzione dell'area di produzione
 
@@ -29,9 +28,9 @@ L'argomento spiega come configurare i controlli del modulo in modo che vengano a
 
 Gli stili possono essere applicati a un modulo o a una finestra di dialogo solo se vengono soddisfatti i seguenti requisiti:
 
-- Se il modulo deve assomigliare al modulo di avanzamento del report esistente, il nome del modulo o della finestra di dialogo deve iniziare con **JmgProductionFloorExecutionCustomInputDialog**.
-- Il modulo o la finestra di dialogo può contenere una parte del modulo di dettaglio. Per applicare gli stili, il nome della parte del modulo di dettaglio deve iniziare con **JmgProductionFloorExecutionCustomDetailsDialog**.
-- Se il modulo o la finestra di dialogo deve avere una vista semplice, il nome della vista semplice deve iniziare con **JmgProductionFloorExecutionCustomDialog**. Esempi di moduli che hanno una visualizzazione semplice includono il modulo di inizio e il modulo dell'attività indiretta.
+- Se il modulo deve assomigliare al modulo di avanzamento del report esistente, il nome del modulo o della finestra di dialogo deve iniziare con `JmgProductionFloorExecutionCustomInputDialog`.
+- Il modulo o la finestra di dialogo può contenere una parte del modulo di dettaglio. Per applicare gli stili, il nome della parte del modulo di dettaglio deve iniziare con `JmgProductionFloorExecutionCustomDetailsDialog`.
+- Se il modulo o la finestra di dialogo deve avere una vista semplice, il nome della vista semplice deve iniziare con `JmgProductionFloorExecutionCustomDialog`. Esempi di moduli che hanno una visualizzazione semplice includono il modulo di inizio e il modulo dell'attività indiretta.
 - Tutti i controlli nella finestra di dialogo devono essere configurati come descritto in questo argomento.
 
 > [!IMPORTANT]
@@ -40,23 +39,75 @@ Gli stili possono essere applicati a un modulo o a una finestra di dialogo solo 
 Gli stili possono essere applicati al pulsante **OK** in una finestra di dialogo solo se vengono soddisfatti i seguenti requisiti:
 
 - Il pulsante è contenuto in un gruppo di moduli.
-- Il nome del gruppo inizia con **OkButtonGroup**.
+- Il nome del gruppo inizia con `OkButtonGroup`.
 
 Gli stili possono essere applicati al pulsante **Annulla** in una finestra di dialogo solo se vengono soddisfatti i seguenti requisiti:
 
 - Il pulsante è contenuto in un gruppo di moduli.
-- Il nome del gruppo inizia con **CancelButtonGroup**.
+- Il nome del gruppo inizia con `CancelButtonGroup`.
+
+### <a name="header"></a>Intestazione
+
+L'illustrazione seguente mostra un modulo tipico o un'intestazione di finestra di dialogo.
+
+![Modulo tipico o intestazione della finestra di dialogo.](media/pfe-styles-header.png "Modulo tipico o intestazione della finestra di dialogo")
+
+In Visual Studio, le intestazioni vengono create utilizzando una struttura come quella mostrata nell'illustrazione seguente.
+
+![Tipica struttura del codice per la creazione di un'intestazione.](media/pfe-styles-header-code-structure.png "Tipica struttura del codice per la creazione di un'intestazione")
+
+Per aggiungere testo all'intestazione, utilizza un codice come il seguente esempio.
+
+```xpp
+private void setCaption()
+{
+    HeaderFieldWithSeparatorText1.text("Report Progress");
+    HeaderFieldWithSeparatorText2.text(ProdId);
+
+    …
+
+    HeaderFieldText.text(OprNum);
+}
+```
+
+Quando scrivi il codice dell'intestazione, applica le seguenti regole:
+
+- Il nome del gruppo principale deve essere `TableRowHeaderGroup`.
+- Ogni blocco di testo (separato da punti elenco) deve iniziare con `HeaderFieldWithSeparatorText`.
+- Il nome dell'ultimo testo deve iniziare con `HeaderFieldText`.
+- `CaptionImage` può essere ignorato.
+
+### <a name="progress-indicator"></a>Indicatore di stato
+
+Puoi includere un indicatore di avanzamento, mostrato a destra dell'intestazione. L'illustrazione seguente mostra un indicatore di avanzamento.
+
+![Indicatore di avanzamento tipico.](media/pfe-styles-header-progress.png "Indicatore di avanzamento tipico")
+
+Per mostrare l'indicatore di avanzamento, il campo di testo deve essere denominato `ShowProgress`.
 
 ## <a name="grid"></a>Griglia
 
 Gli stili vengono applicati automaticamente. Non è richiesta alcuna configurazione specifica.
+
+La griglia dovrebbe avere uno stile `TabularView` e il metodo `run()` nel modulo personalizzato deve essere sovrascritto, perché una nuova griglia non è ancora supportata. Aggiungi il seguente codice.
+
+```xpp
+public void run()
+{
+    super();
+    // To opt out a page from the new grid
+    this.forceLegacyGrid();
+}
+```
+
+Per aggiornare i dati in una visualizzazione principale, è consigliabile utilizzare qualcosa come `this.parmParentForm().updateLayout();` in un metodo `click` della tua azione. (Ad esempio, guarda la classe `JmgProductionFloorExecutionReportFeedbackAction`.) Assicurati solo che `parmDataSource` sia impostato nel metodo `init` del tuo nuovo modulo (`formCaller.parmDataSource(this.dataSource(1));`). Ad esempio, guarda il modulo `JmgProductionFloorExecutionMainGrid`.
 
 ## <a name="card-view"></a>Visualizzazione scheda
 
 Gli stili possono essere applicati ai controlli della visualizzazione scheda solo se vengono soddisfatti i seguenti requisiti:
 
 - Ogni visualizzazzione scheda è contenuta in un gruppo di moduli.
-- Il nome del gruppo inizia con **CardGroup** (ad esempio, **CardGroupJobsView**).
+- Il nome del gruppo inizia con `CardGroup` (ad esempio, `CardGroupJobsView`).
 
 L'illustrazione seguente mostra una visualizzazione scheda senza controlli al suo interno.
 
@@ -73,14 +124,14 @@ Le seguenti illustrazioni mostrano le visualizzazioni scheda che contengono cont
 Gli stili possono essere applicati ai controlli della carta aziendale solo se vengono soddisfatti i seguenti requisiti:
 
 - Ogni carta aziendale è contenuta in un gruppo di moduli.
-- Il nome del gruppo inizia con **BusinessCardGroup** (ad esempio, **BusinessCardGroupJobsList**).
+- Il nome del gruppo inizia con `BusinessCardGroup` (ad esempio, `BusinessCardGroupJobsList`).
 
 Imposta le seguenti proprietà nella carta aziendale:
 
-- **Stile**: **elenco**
-- **Stile esteso**: **cardList**
-- **Selezione multipla**: **No**
-- **Mostra etichette colonna**: **No**
+- **Stile:** *elenco*
+- **Stile esteso:** *cardList*
+- **Selezione multipla:** *No*
+- **Mostra etichette colonna:** *No*
 
 ![Carta aziendale.](media/pfe-styles-business-card.png)
 
@@ -89,12 +140,12 @@ Imposta le seguenti proprietà nella carta aziendale:
 Gli stili possono essere applicati ai pulsanti di opzione solo se vengono soddisfatti i seguenti requisiti:
 
 - Ogni pulsante di opzione è contenuto in un gruppo di moduli.
-- Il nome del gruppo inizia con **RadioTextBelow** o **RadioTextRight**, a seconda di dove vuoi che appaia il testo.
+- Il nome del gruppo inizia con `RadioTextBelow` o `RadioTextRight`, a seconda di dove vuoi che appaia il testo.
 
 Imposta le seguenti proprietà nel pulsante di opzione:
 
-- **Interruttore**: **Controllo**
-- **Valore interruttore**: **Attiva** se il pulsante di opzione deve essere selezionato; altrimenti, **Disattiva**
+- **Interruttore:** *Controllo*
+- **Valore interruttore:** *Attiva* se il pulsante di opzione deve essere selezionato; altrimenti, *Disattiva*
 
 L'illustrazione seguente mostra un esempio in cui il testo viene visualizzato sotto i pulsanti di opzione.
 
@@ -119,18 +170,18 @@ Gli stili possono essere applicati ai pulsanti solo se vengono soddisfatti i seg
 
 Imposta le seguenti proprietà nei pulsanti:
 
-- **Visualizzazione pulsante**: **TextWithImageLeft**.
-- **Immagine normale**: questa proprietà non può essere vuota. Ad esempio, utilizza **CoffeeScript**.
-- **Testo**: questa proprietà non può essere vuota. Ad esempio, utilizza **Inizio pausa**.
-- **Larghezza**: **Automatico**.
-- **Altezza**: **Automatico**.
+- **Visualizzazione pulsante:** *TextWithImageLeft*
+- **Immagine normale:** questa proprietà non può essere vuota. Ad esempio, utilizza *CoffeeScript*.
+- **Testo:** questa proprietà non può essere vuota. Ad esempio, utilizza *Inizio pausa*.
+- **Larghezza:** *Auto* o *SizeToContent*
+- **Altezza:** *Auto* o *SizeToContent*
 
 ### <a name="primary-button"></a>Pulsante primario
 
 Gli stili possono essere applicati a un pulsante primario solo se vengono soddisfatti i seguenti requisiti:
 
 - Il pulsante è contenuto in un gruppo di moduli.
-- Il nome del gruppo inizia con **DefaultButtonGroup** o **PrimaryButtonGroup** (ad esempio, **DefaultButtonGroup10**).
+- Il nome del gruppo inizia con `DefaultButtonGroup` o `PrimaryButtonGroup` (ad esempio `DefaultButtonGroup10`).
 
 ![Pulsante primario.](media/pfe-styles-first.png)
 
@@ -139,7 +190,7 @@ Gli stili possono essere applicati a un pulsante primario solo se vengono soddis
 Gli stili possono essere applicati a un pulsante secondario solo se vengono soddisfatti i seguenti requisiti:
 
 - Il pulsante è contenuto in un gruppo di moduli.
-- Il gruppo è denominato **Pannello destro**, o il nome del gruppo inizia con **SecondaryButtonGroup**.
+- Il gruppo è denominato **Pannello destro**, o il nome del gruppo inizia con `SecondaryButtonGroup`.
 
 ![Pulsante secondario.](media/pfe-styles-second.png)
 
@@ -148,7 +199,7 @@ Gli stili possono essere applicati a un pulsante secondario solo se vengono sodd
 Gli stili possono essere applicati a un pulsante del terzo gruppo solo se vengono soddisfatti i seguenti requisiti:
 
 - Il pulsante è contenuto in un gruppo di moduli.
-- Il gruppo è denominato **Pannello sinistro**, o il nome del gruppo inizia con **ThirdButtonGroup**.
+- Il gruppo è denominato **Pannello sinistro**, o il nome del gruppo inizia con `ThirdButtonGroup`.
 
 ![Pulsante del terzo gruppo.](media/pfe-styles-third.png)
 
@@ -157,15 +208,15 @@ Gli stili possono essere applicati a un pulsante del terzo gruppo solo se vengon
 Gli stili possono essere applicati a un pulsante del quarto gruppo solo se vengono soddisfatti i seguenti requisiti:
 
 - Il pulsante è contenuto in un gruppo di moduli.
-- Il nome del gruppo inizia con **FourthButtonGroup**.
+- Il nome del gruppo inizia con `FourthButtonGroup`.
 
 Imposta le seguenti proprietà nel pulsante:
 
-- **Visualizzazione pulsante**: **TextOnly**.
-- **Immagine normale**: questa proprietà deve essere vuota.
-- **Testo**: questa proprietà non può essere vuota. Ad esempio, usa **Visualizza** o **Modifica**.
-- **Larghezza**: **Automatico**.
-- **Altezza**: **Automatico**.
+- **Visualizzazione pulsante:** *TextOnly*
+- **Immagine normale:** questa proprietà deve essere vuota.
+- **Testo:** questa proprietà non può essere vuota. Ad esempio, usa *Visualizza* o *Modifica*.
+- **Larghezza:** *Automatico*
+- **Altezza:** *Automatico*
 
 ![Pulsante del quarto gruppo.](media/pfe-styles-fourth.png)
 
@@ -174,17 +225,34 @@ Imposta le seguenti proprietà nel pulsante:
 Gli stili possono essere applicati a un pulsante Flat solo se vengono soddisfatti i seguenti requisiti:
 
 - Il pulsante è contenuto in un gruppo di moduli.
-- Il nome del gruppo inizia con **FlatButtonGroup**.
+- Il nome del gruppo inizia con `FlatButtonGroup`.
 
 Imposta le seguenti proprietà nel pulsante:
 
-- **Visualizzazione pulsante**: **ImageOnly**.
-- **Immagine normale**: questa proprietà non può essere vuota. Ad esempio, utilizza **CoffeeScript**.
-- **Testo**: questa proprietà deve essere vuota.
-- **Larghezza**: **Automatico**.
-- **Altezza**: **Automatico**.
+- **Visualizzazione pulsante:** *ImageOnly*
+- **Immagine normale:** questa proprietà non può essere vuota. Ad esempio, utilizza *CoffeeScript*.
+- **Testo:** questa proprietà deve essere vuota.
+- **Larghezza:** *Auto* o *SizeToContent*
+- **Altezza:** *Auto* o *SizeToContent*
 
 ![Pulsante Flat.](media/pfe-styles-flat-button.png)
+
+### <a name="continue-button"></a>Pulsante Continua
+
+Gli stili possono essere applicati a un pulsante Continua solo se vengono soddisfatti i seguenti requisiti:
+
+- Il pulsante è contenuto in un gruppo di moduli.
+- Il nome del gruppo inizia con `ContinueButtonGroup`.
+
+Imposta le seguenti proprietà nel pulsante:
+
+- **Visualizzazione pulsante:** *ImageOnly*
+- **Immagine normale:** *Inoltra*
+- **Testo:** questa proprietà deve essere vuota.
+- **Larghezza:** *Auto* o *SizeToContent*
+- **Altezza:** *Auto* o *SizeToContent*
+
+![Pulsante Continua.](media/pfe-styles-continue-button.png)
 
 ## <a name="combo-box"></a>Casella combinata
 
@@ -193,9 +261,9 @@ Una casella combinata è una combinazione di tre controlli: un controllo di inpu
 Gli stili possono essere applicati a una casella combinata solo se vengono soddisfatti i seguenti requisiti:
 
 - La casella combinata è contenuta in un gruppo di moduli.
-- Il nome del gruppo inizia con **Combobox**.
-- All'interno del gruppo, il primo controllo è un controllo **AxFormStringControl**. Questo controllo mostra il valore corrente ed è qui che l'utente immette il valore richiesto.
-- Il secondo controllo è un controllo **CommonButton**, e il suo nome inizia con **ClearButton**. Questo pulsante deve contenere un codice che utilizza la proprietà **abilita** per mostrare o nascondere il pulsante. Ad esempio, per mostrare o nascondere il pulsante **Cancella** mentre l'utente sta digitando le informazioni nel controllo di input, è possibile utilizzare il codice seguente.
+- Il nome del gruppo inizia con `Combobox`.
+- All'interno del gruppo, il primo controllo è un controllo `AxFormStringControl`. Questo controllo mostra il valore corrente ed è qui che l'utente immette il valore richiesto.
+- Il secondo controllo è un controllo `CommonButton`, e il suo nome inizia con `ClearButton`. Questo pulsante deve contenere un codice che utilizza la proprietà `enable` per mostrare o nascondere il pulsante. Ad esempio, per mostrare o nascondere il pulsante **Cancella** mentre l'utente sta digitando le informazioni nel controllo di input, è possibile utilizzare il codice seguente.
 
     ```xpp
     public void textChange()
@@ -220,7 +288,7 @@ Gli stili possono essere applicati a una casella combinata solo se vengono soddi
     }
     ```
 
-    Utilizza il seguente codice per il metodo **cliccato** del pulsante **Cancella**.
+    Utilizza il seguente codice per il metodo `clicked` del pulsante **Cancella**.
 
     ```xpp
     public void clicked()
@@ -230,9 +298,9 @@ Gli stili possono essere applicati a una casella combinata solo se vengono soddi
     }
     ```
 
-    Imposta il valore del controllo di input, **AxFormStringControl**, quando il modulo viene inizializzato usando il metodo **init**. Se il valore non è vuoto, abilita il pulsante **Cancella**. Se il valore è vuoto, disabilita il pulsante **Cancella**.
+    Imposta il valore del controllo di input, `AxFormStringControl`, quando il modulo viene inizializzato usando il metodo `init`. Se il valore non è vuoto, abilita il pulsante **Cancella**. Se il valore è vuoto, disabilita il pulsante **Cancella**.
 
-- Il terzo controllo è un controllo **CommonButton**, e il suo nome inizia con **SearchButton**.
+- Il terzo controllo è un controllo `CommonButton`, e il suo nome inizia con `SearchButton`.
 
 L'illustrazione seguente mostra due controlli di casella combinata. La casella combinata a sinistra ha una casella di testo vuota e il pulsante **Cancella** è disabilitato. La casella combinata a destra ha il testo nella casella di testo e il pulsante **Cancella** è abilitato.
 
@@ -243,14 +311,40 @@ L'illustrazione seguente mostra due controlli di casella combinata. La casella c
 Il controllo del filtro rapido aggiunge un campo di ricerca alla pagina. Puoi applicare gli stili a un filtro rapido purché siano soddisfatti i seguenti requisiti:
 
 - Il filtro rapido è contenuto in un gruppo di moduli.
-- Il nome del gruppo inizia con **SearchInputGroup**.
-- All'interno del gruppo, il primo controllo è un controllo **QuickFilter**. (Qui è dove l'utente immette la stringa di ricerca.)
-- Il secondo controllo è un **FormStaticTextControl** con il nome **NumberOfResults**. (Questo controllo è facoltativo e mostra il numero di elementi trovati se incluso.)
-- Il terzo controllo è un controllo **CommonButton** con un nome che inizia con **ClearButton**.
+- Il nome del gruppo inizia con `SearchInputGroup`.
+- All'interno del gruppo, il primo controllo è un controllo `QuickFilter`. (Qui è dove l'utente immette la stringa di ricerca.)
+- Il secondo controllo è un `FormStaticTextControl` denominato `NumberOfResults`. (Questo controllo è facoltativo. Se incluso, mostra il numero di elementi trovati).
+- Il terzo controllo è un controllo `CommonButton`, e il suo nome inizia con `ClearButton`.
 
 L'illustrazione seguente mostra due controlli di filtro rapido. Il filtro rapido a sinistra ha un filtro rapido vuoto e il numero di risultati non è visibile. Il filtro rapido a destra contiene una stringa di ricerca e mostra il numero di risultati.
 
 ![Esempi di un controllo di filtro rapido con e senza una stringa di ricerca.](media/pfe-styles-quick-filter.png "Esempi di un controllo di filtro rapido con e senza una stringa di ricerca")
 
+## <a name="center-align-elements-on-a-tab"></a>Allinea al centro gli elementi su una scheda
+
+Per allineare gli elementi al centro di una scheda, il nome del gruppo deve iniziare con `TabContentGroup` e il gruppo deve avere le seguenti proprietà:
+
+- **Modalità larghezza:** `SizeToAvailable`
+- **Modalità altezza:** `SizeToAvailable`
+
+## <a name="align-a-grid-detail-part-and-quick-filter"></a>Allinea una griglia, una parte di dettaglio e un filtro rapido
+
+Per organizzare una griglia personalizzata, una parte di dettaglio e un filtro rapido in modo che assomiglino al design standard, tieni presente i seguenti punti quando li metti tutti insieme:
+
+- Se la griglia ha un filtro rapido, sia la griglia che il filtro rapido dovrebbero trovarsi all'interno del gruppo il cui nome inizia con `GridGroup`.
+- Per applicare gli stili a una parte del dettaglio, il nome del gruppo deve iniziare con `DetailInformationGroup`.
+
+L'illustrazione seguente mostra una griglia tipica che include un filtro rapido e una parte di dettaglio sulla destra.
+
+![Griglia tipica che include una parte di dettaglio e un filtro rapido](media/pfe-styles-align-grid.png "Griglia tipica che include una parte di dettaglio e un filtro rapido")
+
+In Visual Studio, una griglia, la parte di dettaglio e il filtro rapido possono essere creati utilizzando una struttura come quella mostrata nell'illustrazione seguente.
+
+![Struttura di codice tipica che allinea una griglia, la parte di dettaglio e un filtro rapido](media/pfe-styles-header-code-structure2.png "Struttura di codice tipica che allinea una griglia, la parte di dettaglio e un filtro rapido")
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Personalizzare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-customize.md)
+- [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

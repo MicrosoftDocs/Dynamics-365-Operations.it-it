@@ -2,7 +2,7 @@
 title: Creare un progetto di integrazione dei dati
 description: Questo argomento spiega come creare un progetto di integrazione dei dati.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386364"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752666"
 ---
-# <a name="create-a-data-integrator-project"></a>Creare un progetto di integrazione dei dati
+# <a name="create-a-data-integration-project"></a>Creare un progetto di integrazione dei dati
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento spiega come creare un progetto di integrazione dei dati.
 
@@ -33,7 +34,7 @@ Questo argomento spiega come creare un progetto di integrazione dei dati.
 3. Apri il [portale di Power Apps](https://make.powerapps.com/) e segui questi passaggi:
 
     1. Seleziona l'ambiente appropriato.
-    2. Nel riquadro di spostamento sinistro, seleziona **Dati \> Connessioni**.
+    2. Nel riquadro di spostamento sinistro, seleziona **Dataverse \> Connessioni**.
     3. Connettiti alle istanze appropriate dei seguenti elementi:
 
         - Dynamics 365
@@ -57,8 +58,7 @@ Questo argomento spiega come creare un progetto di integrazione dei dati.
 
     1. Crea progetti di integrazione dati per i seguenti modelli utilizzando il set di connessione appena creato:
 
-        - Risultati delle informazioni dettagliate sui pagamenti dei clienti (da CDS a Fin and Ops)
-            - Se si utilizza la versione 10.0.17 o successiva, è necessario utilizzare il modello denominato Risultato delle analisi di pagamenti cliente (da CDS a Fin and Ops 10.0.17+).
+        - Risultato delle informazioni dettagliate sui pagamenti dei clienti (da CDS a Fin and Ops 10.0.17+)
         - Risultati delle serie temporali del flusso di cassa (da CDS a Fin and Ops)
         - Risultati delle serie temporali del budget (da CDS a Fin and Ops)
 

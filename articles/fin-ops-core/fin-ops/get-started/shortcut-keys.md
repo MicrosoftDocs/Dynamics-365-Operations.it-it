@@ -2,7 +2,7 @@
 title: Tasti di scelta rapida
 description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app Finance and Operations.
 author: jasongre
-ms.date: 10/12/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647538"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800195"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -128,32 +128,34 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 ## <a name="grid-shortcuts"></a>Tasti di scelta rapida della griglia
 
-| Azione                                                                                                             | Tasti di premere                           |
+| Azione                                                                                                             | Premere                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Scorrimento verticale                                                                                                     | Rotellina del mouse                     |
+| Scorrimento orizzontale                                                                                                   | MAIUSC + rotellina del mouse             |
 | Spostarsi sulla colonna successiva/precedente                                                                                       | TAB/MAIUSC + TAB                 |
 | Spostarsi sulla riga successiva/precedente                                                                                          | Freccia GIÙ/Freccia SU           |
 | Spostarsi sulla riga successiva/precedente senza selezionare<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote> | CTRL + Freccia SU/CTRL + Freccia GIÙ |
 | Selezionare/deselezionare la riga corrente<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>                    | CTRL + Barra spaziatrice/CTRL + clic         |
 | Aggiungere la riga successiva/precedente al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>   | MAIUSC + BARRA SPAZIATRICE                     |
 | Aggiungere un intervallo di righe al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>         | MAIUSC + clic                     |
-| Passare alla pagina di dati successiva/precedente                                                                                   | Pagina SU/Pagina GIÙ              |
+| Passare alla pagina di dati successiva/precedente                                                                                   | Pagina SU/Pagina GIÙ             |
 | Crea una nuova riga in fondo alla griglia                                                                             | Freccia GIÙ (dall'ultima riga)  |
 | Passa al primo record                                                                                               | CTRL + HOME                       |
 | Passa all'ultimo record                                                                                                | CTRL + FINE                        |
 | Seleziona o deseleziona tutte le righe                                                                                               | CTRL + MAIUSC + O                    |
-| Passa alla prima riga contrassegnata                                                                                           | ALT + MAIUSC + M, F                    |
-| Passa alla riga contrassegnata successiva                                                                                            | ALT + MAIUSC + M, L                    |
-| Passa alla riga contrassegnata precedente                                                                                        | ALT + MAIUSC + M, P                    |
-| Passa alla ultima riga contrassegnata                                                                                           | ALT + MAIUSC + M, N                    |
+| Passa alla prima riga contrassegnata                                                                                           | ALT + MAIUSC + M, F                  |
+| Passa alla riga contrassegnata successiva                                                                                            | ALT + MAIUSC + M, L                  |
+| Passa alla riga contrassegnata precedente                                                                                        | ALT + MAIUSC + M, P                  |
+| Passa alla ultima riga contrassegnata                                                                                           | ALT + MAIUSC + M, N                  |
 | Eseguire l'azione predefinita in una griglia<blockquote>[!NOTE] Questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.</blockquote> | INVIO                           |
 | Alternare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT + MAIUSC + H                     |
 | Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |
 | Aprire il filtro griglia per la colonna corrente (con stato attivo nella riga di intestazione)                                              | INVIO                           |
-| Ridimensiona la colonna corrente per adattarla al contenuto (con lo stato attivo nella riga di intestazione)                                           | A                               |
+| Ridimensiona la colonna corrente per adattarla al contenuto (con lo stato attivo nella riga di intestazione)                                           | A (o fare doppio clic sulla maniglia di ridimensionamento della colonna) |
 
 ## <a name="input-control-shortcuts"></a>Tasti di scelta rapida per il controllo dell'input
 
-| Azione                                                                   | Premere                          |
+| Azione                                                                   | Premere                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Aprire il collegamento ipertestuale                                                           | Ctrl + INVIO                    |
 | Immettere la data della sessione in un campo data                                       | D                             |
@@ -235,12 +237,12 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Passare al controllo successivo/precedente nella pagina (quando lo stato attivo è nel controllo di input)                                          | TAB/MAIUSC + TAB                  |
 | Passare al campo di input successivo/precedente del riquadro a comparsa (quando lo stato attivo è nell'elenco a discesa)                               | TAB/MAIUSC + TAB                  |
 | Spostarsi su/giù di una riga nella ricerca                                                                                        | Freccia SU/Freccia GIÙ            |
-| Spostarsi su/giù di una pagina nella ricerca                                                                                       | Pagina SU/Pagina GIÙ               |
+| Spostarsi su/giù di una pagina nella ricerca                                                                                       | Pagina SU/Pagina GIÙ              |
 | Passare alla parte superiore/inferiore della ricerca                                                                                    | HOME/FINE                       |
 
 ## <a name="task-recorder-shortcuts"></a>Tasti di scelta rapida di [Registrazione attività](../../dev-itpro/user-interface/task-recorder.md) 
 
-| Azione                                                                    | Premere                       |
+| Azione                                                                    | Premere                      |
 |-------------------------------------------------------------------------------|----------------------------|
 | Arrestare la registrazione (durante la registrazione)                                          | ALT + R,S                    |
 | Attivare/disattivare la visibilità del riquadro Registrazione attività (durante la registrazione)             | ALT + R,T                    |

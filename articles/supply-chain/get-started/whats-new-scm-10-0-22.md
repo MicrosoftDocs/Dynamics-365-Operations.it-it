@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678837"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778159"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.22 (novembre 2021)
 
@@ -31,7 +31,7 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 Questa tabella elenca le funzionalità incluse in questa versione. La colonna *Funzionalità* fornisce collegamenti al [piano di rilascio](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), dove puoi vedere le date di rilascio ufficiali per ciascuna funzionalità. La colonna *Ulteriori informazioni* fornisce altri dettagli e/o collegamenti alla documentazione correlata. Per determinare come attivare una funzione, vedere la colonna *Abilitato da*. Per ulteriori informazioni su come utilizzare gestione delle funzionalità, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Potremmo aggiornare questo argomento per includere le funzionalità che sono state inserite nella build dopo che questo argomento è stato inizialmente pubblicato.
 
-| Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da   |
+| Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da |
 |---|---|---|---|
 | Pianificazione | [Supporto all'ottimizzazione della pianificazione per l'allocazione delle risorse basata sulle capacità](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Pianificazione con selezione delle risorse in base alla capacità](../master-planning/planning-optimization/capability-based-scheduling.md) | Gestione funzionalità: (*Programmazione capacità infinita per Ottimizzazione pianificazione*) |
 
@@ -41,7 +41,6 @@ Questa tabella elenca i miglioramenti delle funzionalità incluse in questa vers
 
 | Modulo | Nome della funzionalita in gestione funzionalità | Ulteriori informazioni |
 |---|---|---|
-| Gestione costi | Creare giustificativi correlati per rivalutazioni di arrotondamento costi standard | <p>Quando viene effettuata una registrazione finanziaria di magazzino (come una fattura di un ordine cliente o una transazione di magazzino), questa funzionalità fa sì che il sistema crei un giustificativo separato per qualsiasi rivalutazione di arrotondamento dei costi standard correlata e lo alleghi al giustificativo della registrazione finanziaria come giustificativo correlato.</p><p>Senza questa funzione, il sistema registra le rivalutazioni di arrotondamento dei costi standard sulla stessa registrazione del giustificativo. Tale comportamento può talvolta causare informazioni sulla data in conflitto, poiché le rivalutazioni utilizzano la sessione o la data di sistema, mentre le registrazioni finanziarie utilizzano la data di registrazione.</p> |
 | Topologia ibrida distribuita | *(Non è richiesta alcuna gestione delle funzionalità).* | <p>Questa versione espande le capacità di pianificazione del carico in uscita del carico di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale.</p><p>Per ulteriori informazioni, vedere [Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Gestione modifiche di progettazione | Generazione di varianti per prodotti di progettazione | <p>Questa funzione consente di generare diverse varianti per un prodotto tecnico, in base al colore, alle dimensioni, allo stile o alle dimensioni della configurazione.</p><p>Per ulteriori informazioni, vedere [Generare varianti per prodotti di progettazione](../engineering-change-management/engineering-variants.md).</p> |
 | Gestione articoli e magazzino | Integrazione visibilità inventario con offset prenotazione | <p>Questa funzione può essere abilitata solo dopo aver abilitato la funzionalità *Integrazione della visibilità dell'inventario*. Fornisce funzionalità per compensare le prenotazioni effettuate su Visibilità inventario.</p><p>Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](../inventory/inventory-visibility-reservations.md).</p> |

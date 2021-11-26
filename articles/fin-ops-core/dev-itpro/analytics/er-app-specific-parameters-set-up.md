@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675396"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733465"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Impostare i parametri di un formato ER per la persona giuridica
 
@@ -226,15 +226,6 @@ I parametri specifici dell'applicazione di un formato di ER sono dipendenti dall
 Se si configurano parametri specifici dell'applicazione per una versione di un formato ER e quindi si importa una versione successiva dello stesso formato nell'istanza Finance corrente, i parametri specifici dell'applicazione esistenti non verranno applicati alla versione importata a meno che non si utilizzi la funzionalità **Utilizza parametri specifici dell'applicazione delle versioni precedenti dei formati ER**. Per ulteriori informazioni, vedi la sezione [Riutilizza parametri esistenti](#reuse-existing-parameters) più avanti in questo argomento.
 
 Quando si seleziona un file per l'importazione, la struttura dei parametri specifici dell'applicazione in quel file viene confrontata con la struttura delle origini dati corrispondente del tipo **Ricerca** nel formato ER selezionato per l'importazione. Per impostazione predefinita, l'importazione viene eseguita solo quando la struttura di ciascun parametro specifico dell'applicazione corrisponde alla struttura dell'origine dati corrispondente nel formato ER selezionato per l'importazione. Se le strutture non corrispondono, viene visualizzato un messaggio di avviso che informa che non è possibile completare l'importazione. Se si forza l'importazione, i parametri specifici dell'applicazione esistenti per il formato ER selezionato verranno cancellati e sarà necessario configurarli dall'inizio.
-
-A partire da Dynamics 365 Finance versione 10.0.23, puoi modificare il comportamento predefinito ed evitare di ricevere un messaggio di avviso abilitando la funzionalità **Allinea i parametri specifici dell'applicazione ER durante l'importazione** nell'area di lavoro **Gestione delle funzionalità**. Quando questa funzionalità è abilitata, se la struttura dei parametri specifici dell'applicazione che stai importando è diverso dalla struttura delle origini dati corrispondenti nel formato ER di destinazione selezionato per l'importazione, l'importazione verrà completata correttamente nei seguenti casi:
-
-- La struttura del formato ER di destinazione è stata modificata aggiungendo nuove colonne di condizione a qualsiasi origine dati esistente del tipo **Cerca**. Al termine dell'importazione, i parametri specifici dell'applicazione vengono aggiornati. In tutti i record importati di parametri specifici dell'applicazione, i valori in ogni colonna delle condizioni aggiunte vengono inizializzati con il valore predefinito per il [tipo di dati](er-formula-supported-data-types-primitive.md) di quella colonna.
-- La struttura del formato ER di destinazione è stata modificata rimuovendo alcune colonne di condizione da qualsiasi origine dati esistente del tipo **Cerca**. Al termine dell'importazione, i parametri specifici dell'applicazione vengono aggiornati. In tutti i record importati di parametri specifici dell'applicazione, i valori in ogni colonna di condizione rimossa vengono eliminati.
-- La struttura del formato ER di destinazione è stata modificata aggiungendo nuove origini dati del tipo **Cerca**. Al termine dell'importazione, i parametri specifici dell'applicazione vengono aggiunti alle ricerche.
-- La struttura del formato ER di destinazione è stata modificata rimuovendo alcune delle origini dati esistenti del tipo **Cerca**. Al termine dell'importazione, tutti gli artefatti correlati alle origini dati del tipo **Cerca** che sono stati rimossi dal formato ER di destinazione vengono eliminati dai parametri specifici dell'applicazione importati.
-
-Al termine dell'importazione, oltre alle modifiche appena descritte, lo stato dei parametri specifici dell'applicazione importati viene modificato in **In corso**. Un messaggio di avviso informa che i parametri specifici dell'applicazione regolati automaticamente devono essere modificati manualmente.
 
 ### <a name="reuse-existing-parameters"></a>Riutilizza parametri esistenti
 

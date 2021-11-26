@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647191"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777963"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -39,7 +39,7 @@ L'interfaccia di esecuzione dell'area di produzione stessa, più molte delle imp
 
 ### <a name="the-production-floor-execution-interface"></a>Interfaccia di esecuzione dell'area di produzione
 
-Questa è la funzionalità principale descritta in questo argomento. Aggiunge l'interfaccia di esecuzione dell'area di produzione al sistema. Per abilitarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Questa è la funzionalità principale descritta in questo argomento. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Aggiunge l'interfaccia di esecuzione dell'area di produzione al sistema. Per abilitarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Esecuzione dell'area di produzione
 
@@ -47,19 +47,19 @@ Questa è la funzionalità principale descritta in questo argomento. Aggiunge l'
 
 Queste funzioni rendono la funzionalità targa disponibile all'interfaccia di esecuzione dell'area di produzione. Per usarle, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in quest'ordine):
 
-1. Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo
+1. Targa per la segnalazione del prodotto come finito aggiunta al dispositivo scheda processo(a partire dalla versione 10.0.21 di Supply Chain Management, questa funzione è attivata per impostazione predefinita).
 1. Abilitare la generazione automatica del numero di identificazione durante la dichiarazione di finito nel dispositivo scheda processo
 
 ### <a name="print-labels"></a>Stampa etichette
 
 Queste funzioni rendono la funzionalità stampa dell'etichetta disponibile all'interfaccia di esecuzione dell'area di produzione. Per usarle, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in quest'ordine):
 
-1. Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo
+1. Targa per la segnalazione del prodotto come finito aggiunta al dispositivo scheda processo(a partire dalla versione 10.0.21 di Supply Chain Management, questa funzione è attivata per impostazione predefinita).
 1. Stampa etichetta dal dispositivo scheda processo
 
 ### <a name="allow-locking-the-touch-screen"></a>Consenti blocco del touchscreen
 
-Questa funzione aggiunge un pulsante all'interfaccia di esecuzione dell'area di produzione che consente ai lavoratori di sanificare il touch screen. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Aggiunge un pulsante all'interfaccia di esecuzione dell'area di produzione che consente ai lavoratori di sanificare il touch screen. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti
 

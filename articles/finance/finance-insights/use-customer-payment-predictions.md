@@ -2,7 +2,7 @@
 title: Utilizzare previsioni di pagamento del cliente
 description: In questo argomento vengono illustrati i prerequisiti e i passaggi generali necessari per utilizzare una versione di valutazione di Informazioni dettagliate finanziarie.
 author: ShivamPandey-msft
-ms.date: 07/17/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 156136508c5465dc9351434251afc3bbdb9c6052
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386292"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752786"
 ---
 # <a name="use-customer-payment-predictions"></a>Utilizzare previsioni di pagamento del cliente
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento spiega come utilizzare le previsioni di pagamento del cliente. Prima di utilizzare questa funzionalità, assicurati di aver completato la procedura di configurazione. Per ulteriori informazioni, vedi [Abilitare le previsioni di pagamento cliente](enable-cust-paymnt-prediction.md).
 
@@ -34,12 +35,7 @@ Puoi visualizzare le previsioni di pagamento del cliente nell'area di lavoro **G
 
 L'area di lavoro **Gestisci crediti e riscossioni cliente** include due nuovi riquadri, **Previsione pagamento per transazione** e **Clienti con saldi in ritardo elevati previsti**.
 
-- Il riquadro **Previsione pagamento per transazione** mostra il numero di transazioni del cliente aperte con una probabilità di pagamento inferiore al 50% nel bucket **Puntuale**. Puoi selezionare questo riquadro per aprire la pagina elenco **Previsione pagamento per transazione**.
-- Il riquadro **Clienti con saldi in ritardo elevati previsti** mostra il numero di clienti per i quali si prevede che più della metà (50 percento) del saldo totale verrà pagato in ritardo e/o molto in ritardo. Puoi selezionare questo riquadro per aprire la pagina elenco **Previsione pagamento per cliente**.
-
-[![Area di lavoro Gestisci crediti e riscossioni cliente.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
-
-### <a name="payment-predictions-per-transaction-list-page"></a>Pagina elenco Previsioni pagamento per transazione
+### <a name="transaction-payment-predictions-list-page"></a>Pagina elenco Previsioni pagamento per transazione
 
 Nella pagina elenco **Previsioni pagamento per transazione** puoi visualizzare la probabilità di pagamento per le transazioni aperte nei bucket **Puntuale**, **In ritardo** e **Molto in ritardo**. Per ogni transazione nella griglia, la colonna **Probabilità puntuale** mostra la probabilità che la fattura venga pagata entro la data di scadenza. Se la probabilità di un pagamento puntuale è inferiore al 50%, viene visualizzato un cerchio rosso accanto alla percentuale nella colonna **Probabilità puntuale** per indicare il rischio di pagamento in ritardo.
 
@@ -55,7 +51,7 @@ I dati nella sezione **Fattori principali** e nelle Schede dettaglio **Informazi
 
 [![Indicatori grafici per le previsioni di pagamento nel riquadro Informazioni correlate.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
-### <a name="payment-prediction-per-customer-list-page"></a>Pagina elenco Previsione pagamento per cliente
+### <a name="customer-payment-predictions-list-page"></a>Pagina elenco Previsioni pagamento per cliente
 
 La pagina elenco **Previsione pagamento per cliente** mostra il saldo totale aperto e l'importo che si prevede verrà pagato nei bucket **Puntuale**, **In ritardo** e **Molto in ritardo**.
 
@@ -81,11 +77,11 @@ In questo caso, viene effettuata la proiezione dei pagamenti per ciascun bucket 
 
 La sezione **Informazioni correlate** sul lato destro della pagina mostra altri dettagli sulle previsioni:
 
-- Per la transazione selezionata nella griglia, la Scheda dettaglio **Previsioni pagamento** mostra i dettagli delle previsioni di pagamento nei bucket **Puntuale**, **In ritardo** e **Molto in ritardo**. La sezione **Fattori principali** mostra i principali fattori che hanno influenzato i pagamenti. I fattori principali sono gli attributi della transazione selezionata e/o del cliente per quella transazione.
+- Per la transazione selezionata nella griglia, la Scheda dettaglio **Previsioni pagamento** mostra i dettagli delle previsioni di pagamento nei bucket **Puntuale**, **In ritardo** e **Molto in ritardo**.
 - La Scheda dettaglio **Informazioni dettagliate sul cliente** mostra le statistiche correnti di fatture, pagamenti e incassi per il cliente per la transazione selezionata.
 - La Scheda dettaglio **Storico cliente** mostra la cronologia dei pagamenti del cliente nei bucket **Puntuale**, **In ritardo** e **Molto in ritardo**.
 
-I dati nella sezione **Fattori principali** e nelle Schede dettaglio **Informazioni dettagliate sul cliente** e **Storico cliente** aiutano a spiegare le previsioni di pagamento. Posso contribuire ad aumentare la tua fiducia nell'efficacia delle previsioni.
+I dati nella sezione **Customer Insights** e nelle Schede dettaglio **Storico cliente** aiutano a spiegare le previsioni di pagamento. Posso contribuire ad aumentare la tua fiducia nell'efficacia delle previsioni.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Miglioramento dell'accuratezza delle previsioni di pagamento
 
@@ -96,11 +92,5 @@ Puoi visualizzare l'accuratezza delle previsioni di pagamento accedendo a **Cred
 Se non sei soddisfatto dell'accuratezza, seleziona il collegamento **Migliora la precisione del modello** per aprire l'esperienza dell'estensione AI Builder. Nell'esperienza dell'estensione AI Builder, puoi selezionare o annullare la selezione dei campi finché non hai selezionato i campi che ritieni più importanti per prevedere con precisione le probabilità di pagamento. Al termine, puoi facilmente eseguire nuovamente il training del modello di previsione e pubblicare le modifiche. Il modello di previsione il cui training è stato appena completato verrà automaticamente selezionato per le previsioni in Dynamics 365 Finance.
 
 [![Esperienza di estensione di AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
-
-## <a name="release-details"></a>Dettagli del rilascio
-
-È disponibile un'anteprima pubblica di Informazioni dettagliate finanziarie da provare per le distribuzioni negli Stati Uniti, in Europa e nel Regno Unito. Microsoft sta aggiungendo in modo incrementale il supporto per più aree geografiche.
-
-Le funzionalità di anteprima pubblica possono e devono essere attivate solo negli ambienti sandbox di livello 2. I modelli di configurazione e intelligenza artificiale creati in un ambiente sandbox non possono essere migrati in un ambiente di produzione. Per ulteriori informazioni, vedi [Condizioni integrative per le versioni di anteprima di Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

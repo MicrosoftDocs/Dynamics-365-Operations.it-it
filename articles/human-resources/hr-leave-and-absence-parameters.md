@@ -1,8 +1,8 @@
 ---
 title: Configurare i parametri di congedo e assenza
-description: Definire i parametri delle risorse umane per congedo e assenza in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 11/02/2020
+description: Questo argomento descrive come definire i parametri delle risorse umane per i congedi e le assenze in Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab4b2b3adefa388acfadc77c7b25a6b47d01571f0e58f6ab81101e25d1b548e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777961"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728859"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurare i parametri di congedo e assenza
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources, è una buona idea verificare le impostazioni per tutti i parametri delle risorse umane correlati, tra cui:
+Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources, è una buona idea verificare le impostazioni per tutti i **parametri delle risorse umane** correlati, tra cui:
 
 - La sequenza numerica per richieste di congedo
 - Impostazioni relative alla normativa per il congedo per motivi medici e familiari (FMLA)
@@ -74,7 +74,7 @@ Prima di impostare i piani di congedo e assenza in Dynamics 365 Human Resources,
 
     - Selezionare **Calcolo del saldo** per visualizzare i saldi a partire dalla data odierna o dal periodo di competenza. Se viene selezionato **Saldo dalla data odierna**, il saldo mostra il totale di tutti gli accumuli, rettifiche e richieste all data odierna. Se viene selezionato **Saldo dal periodo di competenza**, il saldo mostra il totale di tutti gli accumuli, rettifiche e richieste dal periodo di competenza definito dalla frequenza nel piano di ferie. 
 
-    - Impostare l'ora di inizio per il processo batch con scadenza di riporto.  
+    - Impostare l'**ora di inizio** per il processo batch con **scadenza di riporto**.  
     
     - Selezionare **Sì** per **Consenti a dipendenti di acquistare congedi** e **Consenti a dipendenti di vendere congedi**. Se si seleziona **Sì** per queste opzioni, è possibile creare criteri di acquisto e vendita di congedi e consentire ai dipendenti di inviare richieste di acquisto e vendita di congedi.
 

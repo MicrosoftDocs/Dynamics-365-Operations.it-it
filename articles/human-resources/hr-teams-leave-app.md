@@ -1,8 +1,8 @@
 ---
 title: Gestire le richieste di congedo in Teams
 description: Questo argomento mostra come richiedere tempo libero nell'app Dynamics 365 Human Resources in Microsoft Teams.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94fa4dca7ff8372d4cf1aeee225e821574f4104048db5ad8a816be2bce496de8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725868"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771533"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
@@ -41,7 +41,7 @@ Puoi trovare l'app Dynamics 365 Human Resources nello store di Teams.
 Se l'app non ti consente di accede automaticamente, seleziona la scheda **impostazioni** per accedere.
 
 > [!NOTE]
-> Se non vedi una finestra di accesso, controlla le impostazioni del browser per consentire i popup. 
+> Se non vedi una finestra di accesso, aggiorna le impostazioni del browser per consentire i popup. 
 
 Se hai accesso a più di un'istanza di Human Resources, puoi selezionare a quale ambiente vuoi connetterti nella scheda **Impostazioni**.
 
@@ -53,7 +53,7 @@ Se hai accesso a più di un'istanza di Human Resources, puoi selezionare a quale
 Dopo l'installazione dell'app, viene visualizzato un messaggio di benvenuto che ti informa sui tipi di azioni che il bot può eseguire per tuo conto.
 
 > [!NOTE]
-> Quando interagisci per la prima volta con il bot, potresti dover eseguire l'accesso. Se non vedi una finestra di accesso, controlla le impostazioni del browser per consentire i popup.
+> Quando interagisci per la prima volta con il bot, potresti dover eseguire l'accesso. Se non vedi una finestra di accesso, aggiorna le impostazioni del browser per consentire i popup.
 
 Puoi chiedere al bot di:
 
@@ -199,7 +199,7 @@ Se viene visualizzato un errore quando si tenta di approvare le richieste di con
 
 2. Assicurati che gli utenti abbiano effettuato l'accesso alla scheda **Chat** con le stesse credenziali che utilizzano per approvare le richieste di congedo. Utilizzare i messaggi "disconnettersi" e quindi "accedere" per accedere con le credenziali corrette.
 
-3. Se il problema persiste, controllare lo stato del processo batch di sistema Eventi aziendali come amministratore di sistema. Se è in una fase di attesa o di esecuzione, ricontrolla tra qualche minuto. Se lo stato rimane invariato, registra un ticket di supporto in modo che il nostro team possa aiutare a risolvere il problema.
+3. Se il problema persiste, controllare lo stato del processo batch di sistema **Eventi aziendali** come amministratore di sistema. Se è in una fase di **attesa** o di **esecuzione**, ricontrolla tra qualche minuto. Se lo stato rimane invariato, registra un ticket di supporto in modo che il nostro team possa aiutare a risolvere il problema.
 
 ## <a name="known-accessibility-issues"></a>Problemi di accessibilità noti
 

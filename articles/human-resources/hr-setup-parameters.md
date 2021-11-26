@@ -1,8 +1,8 @@
 ---
 title: Configurare i parametri di Human Resources
 description: In questo argomento viene illustrato come impostare parametri specifici della società in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739253"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771437"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurare i parametri di Human Resources
 
@@ -65,7 +65,7 @@ Le impostazioni nella scheda **Generale** definiscono l'aspetto delle informazio
 
 Le impostazioni nella scheda **Selezione del personale** definiscono i tipi di documento utilizzati per la corrispondenza inviata automaticamente ai candidati. È inoltre possibile indicare il progetto di selezione utilizzato per candidature spontanee.
 
-Il periodo definito per l'aging del progetto di selezione determina i progetti di selezione inclusi nel riquadro **Progetti di aging** nell'area di lavoro **Gestione della selezione del personale**. Il periodo definito per l'avviso di scadenza della domanda di lavoro viene utilizzato per visualizzare i progetti di selezione che si avvicinano alla scadenza della domanda nel riquadro **Scadenza domanda di lavoro imminente** nell'area di lavoro **Selezione del personale**.
+Il periodo che viene definito per l'**aging del progetto di selezione** determina i progetti di selezione che sono inclusi nel riquadro **Progetti di aging** nell'area di lavoro **Gestione della selezione del personale**. Il periodo che viene definito per l'avviso di scadenza della domanda di lavoro viene utilizzato per visualizzare i progetti di selezione che si avvicinano alla scadenza della domanda nel riquadro **Scadenza domanda di lavoro imminente** nell'area di lavoro **Selezione del personale**.
 
 Per ulteriori informazioni sulla selezione, vedere [Selezione dei candidati](hr-personnel-recruit.md).
 
@@ -107,20 +107,20 @@ Nella scheda FMLA, si impostano i requisiti di idoneità FMLA e le ore di entitl
 
 ## <a name="employee-self-service"></a>Dipendente self-service
 
-Le impostazioni nella scheda **Dipendente self service** determinano la modalità di visualizzazione di Dipendente self-service ai dipendenti. In questa scheda è possibile:
+Le impostazioni nella scheda **Dipendente self service** determinano la modalità di visualizzazione di **Dipendente self-service** ai dipendenti. In questa scheda è possibile effettuare le seguenti attività:
 
-- Immettere il nome dell'area di lavoro Dipendente self-service
+- Immettere il nome dell'area di lavoro **Dipendente self-service**
 - Selezionare le informazioni che un manager può immettere per i dipendenti
 - Aggiungere collegamenti utili per i dipendenti
 - Impedire ai dipendenti di aggiungere o modificare i dettagli di contatto aziendali. Per ulteriori informazioni, vedere [Impedire la modifica delle informazioni personali](hr-employee-self-service-restrict-editing.md).
 
-Per ulteriori informazioni sulla configurazione di Dipendente self-service, vedere [Panoramica del dipendente e del responsabile self-service](hr-employee-manager-self-service-overview.md).
+Per ulteriori informazioni sulla configurazione di **Dipendente self-service**, vedere [Panoramica del dipendente e del responsabile self-service](hr-employee-manager-self-service-overview.md).
 
 ![Scheda Dipendente self-service.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Responsabile self-service
 
-Le impostazioni della scheda **Responsabile self service** determinano ciò che i responsabili vedono in Responsabile self service. In questa scheda è possibile configurare le seguenti opzioni:
+Le impostazioni della scheda **Responsabile self service** determinano ciò che i responsabili vedono in **Responsabile self service**. In questa scheda è possibile configurare le seguenti opzioni:
 
 - L'intervallo per i record in scadenza
 - Le informazioni che i responsabili possono visualizzare nei record in scadenza
@@ -128,13 +128,13 @@ Le impostazioni della scheda **Responsabile self service** determinano ciò che 
 - Visualizzazioni dei lavoratori prossimi a fine rapporto di impiego
 - Collegamenti utili per i responsabili
 
-Per ulteriori informazioni sulla configurazione di Responsabile self-service, vedere [Panoramica del dipendente e del responsabile self-service](hr-employee-manager-self-service-overview.md).
+Per ulteriori informazioni sulla configurazione di **Responsabile self-service**, vedere [Panoramica del dipendente e del responsabile self-service](hr-employee-manager-self-service-overview.md).
 
 ![Scheda Responsabile self-service.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Gestione benefit
 
-Nella scheda Gestione benefit, è possibile configurare le opzioni di posta elettronica per Gestione benefit. Per informazioni sulla configurazione e sull'utilizzo di Gestione benefit, vedere [Panoramica di Gestione benefit](hr-benefits-management-overview.md).
+Nella scheda **Gestione benefit**, è possibile configurare le opzioni di posta elettronica per Gestione benefit. Per informazioni sulla configurazione e sull'utilizzo di Gestione benefit, vedere [Panoramica di Gestione benefit](hr-benefits-management-overview.md).
 
 ![Scheda Gestione benefit.](./media/hr-setup-parameters-benefits-management.png)
 

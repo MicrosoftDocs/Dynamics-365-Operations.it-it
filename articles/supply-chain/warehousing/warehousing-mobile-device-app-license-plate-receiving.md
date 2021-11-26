@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576042"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777604"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino
 
@@ -77,7 +77,7 @@ Quando questa funzione è attivata, le voci di menu del dispositivo mobile per i
 - **Visualizza un riepilogo dettagliato** - Durante il ricevimento della targa, i lavoratori vedranno una pagina aggiuntiva che mostra le informazioni ASN complete.
 - **Ignora il riepilogo** - I lavoratori non vedranno le informazioni ASN complete. Inoltre, gli addetti al magazzino non saranno in grado di impostare un codice smaltimento o aggiungere eccezioni durante il processo di ricevimento.
 
-Per rendere disponibile questa funzionalità nel sistema, attivare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per rendere disponibile questa funzionalità nel sistema, attivare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Impedire che le targhe spedite dall'ordine di trasferimento vengano utilizzate in magazzini diversi dal magazzino di destinazione
 

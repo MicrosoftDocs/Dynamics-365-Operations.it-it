@@ -1,7 +1,7 @@
 ---
 title: Periferiche
 description: In questo argomento vengono descritti i concetti correlati alle periferiche di Commerce.
-author: rubencdelgado
+author: BrianShook
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: dbf78eec6c1b25056342f9709f3b047a8bb822ff
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500305"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779848"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -327,7 +327,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <td>OPOS</td>
 </tr>
 <tr class="odd">
-<td>Terminale di pagamento </td>
+<td>Terminale di pagamento</td>
 <td><ul>
 <li>Supporto dispositivi personalizzato</li>
 <li>Rete (Per ulteriori informazioni, vedere la documentazione del connettore pagamenti).</li>
@@ -410,7 +410,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 <td>OPOS</td>
 </tr>
 <tr class="even">
-<td>Terminale di pagamento </td>
+<td>Terminale di pagamento</td>
 <td><ul>
 <li>Supporto dispositivi personalizzato</li>
 <li>Rete (Per ulteriori informazioni, vedere la documentazione del connettore pagamenti).</li>
@@ -465,7 +465,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Terminale di pagamento </td>
+<td>Terminale di pagamento</td>
 <td><ul>
 <li>Supporto dispositivi personalizzato</li>
 <li>Rete (Per ulteriori informazioni, vedere la documentazione del connettore pagamenti).</li>
@@ -636,7 +636,7 @@ Le periferiche seguenti sono state testate utilizzando la stazione hardware IPC 
 |--------------|--------|-----------|-------------------------------------------------|
 | VeriFone     | 1000SE | OPOS      | È richiesta la personalizzazione del connettore pagamenti |
 
-#### <a name="payment-terminal"></a>Terminale di pagamento 
+#### <a name="payment-terminal"></a>Terminale di pagamento
 
 | Produttore | Modello | Interfaccia | Commenti                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -709,7 +709,7 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 |--------------|--------|-----------|-------------------------------------------------|
 | VeriFone     | 1000SE | OPOS      | È richiesta la personalizzazione del connettore pagamenti |
 
-#### <a name="payment-terminal"></a>Terminale di pagamento 
+#### <a name="payment-terminal"></a>Terminale di pagamento
 
 | Produttore | Modello | Interfaccia | Commenti                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -770,7 +770,7 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 | Star         | TSP650II | Personalizzazione    | Collegato tramite la rete     |
 | HP           | F7M67AA  | OPOS      | USB alimentato               |
 
-#### <a name="payment-terminal"></a>Terminale di pagamento 
+#### <a name="payment-terminal"></a>Terminale di pagamento
 
 | Produttore | Modello | Interfaccia | Commenti                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
@@ -817,7 +817,7 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 -   Se la periferica è condivisa in più dispositivi POS, verificare che appartenga a una delle seguenti categorie:
     -   Cassetto della cassa
     -   Stampante di ricevute
-    -   Terminale di pagamento 
+    -   Terminale di pagamento
 
     Se la periferica non appartiene a una di queste categorie, la stazione hardware non è progettata per consentire all'unità periferica di essere condivisa tra più dispositivi POS.
 -   Talvolta, i driver di dispositivo possono determinare che gli oggetti controlli comuni (CCO) smettano di funzionare correttamente. Se un dispositivo è stato installato di recente ma non funziona bene o si notano altri problemi, è spesso possibile risolvere il problema reinstallando i CCO. Per scaricare i CCO, visitare <http://monroecs.com/oposccos_current.htm>.

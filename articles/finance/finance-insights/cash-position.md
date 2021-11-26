@@ -2,7 +2,7 @@
 title: Posizione cassa
 description: Questo argomento descrive in che modo la funzionalità Previsione di cassa prevede la posizione di cassa di un'organizzazione per orari specifici. Descrive inoltre le opzioni disponibili per mostrare le previsioni per periodi diversi.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386316"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752882"
 ---
 # <a name="cash-position"></a>Posizione cassa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 La posizione di cassa è la proiezione del flusso di cassa previsto per il breve termine. Si basa sulla proiezione di incassi da clienti che pagano fatture e ordini in sospeso e anche sulla proiezione di esborsi in contanti pagati ai fornitori per fatture e ordini di acquisto.
 
@@ -44,8 +45,5 @@ La sezione inferiore della scheda **Posizione di cassa** mostra i dettagli per l
 - La griglia **Conto bancario** mostra l'impatto dei flussi di cassa in entrata e in uscita previsti sul saldo bancario.
 
 Per salvare e modificare la posizione di cassa, crea uno snapshot. Per ulteriori informazioni su come utilizzare gli snapshot, vedi [Panoramica degli snapshot](payment-snapshots.md).
-
-#### <a name="privacy-notice"></a>Informativa sulla privacy
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

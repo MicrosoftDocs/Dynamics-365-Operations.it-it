@@ -2,7 +2,7 @@
 title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare l'app.
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581067"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777987"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -220,7 +220,10 @@ Se le visualizzazioni salvate non sono abilitate, seguire questi passaggi per co
 
 Un altro modo per condividere le personalizzazioni è tramite esportazione e importazione. I singoli utenti o un amministratore che agisce per loro conto possono utilizzare questo metodo per esportare le loro personalizzazioni o visualizzazioni e quindi fornire il file esportato ad altri utenti per l'importazione. In alternativa, gli utenti possono fornire le proprie personalizzazioni esportate a un utente che dispone dei privilegi di amministratore e tale utente può quindi utilizzare la pagina di amministrazione **Personalizzazione** per applicare il file di personalizzazione a più utenti contemporaneamente.
 
-#### <a name="export"></a>Esportazione
+> [!IMPORTANT]
+> Poiché le personalizzazioni persistono tra gli aggiornamenti, la reimportazione di tutte le personalizzazioni dopo un aggiornamento del servizio o in qualsiasi altro momento non è necessaria e altamente sconsigliata.   
+
+#### <a name="export"></a>Esporta
 
 In generale, puoi esportare una delle tue visualizzazioni o personalizzazioni aprendo la pagina appropriata, aprendo la barra degli strumenti **Personalizzazione**, quindi selezionando **Esporta**. Per ulteriori informazioni sulla barra degli strumenti, vedere la sezione [Barra degli strumenti di personalizzazione](#personalization-toolbar) precedente in questo argomento. In alternativa, se le [visualizzazioni salvate](saved-views.md) sono abilitate, puoi andare a **Impostazioni \> Opzioni utente \> Personalizzazione** per visualizzare un elenco di tutte le tue personalizzazioni nel sistema. Da lì è possibile selezionare le visualizzazioni o le personalizzazioni da esportare, quindi selezionare **Esporta**.
 

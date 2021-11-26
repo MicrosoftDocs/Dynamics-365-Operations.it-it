@@ -2,7 +2,7 @@
 title: Configurare la fatturazione elettronica in Regulatory Configuration Services (RCS)
 description: Questo argomento spiega come configurare la fatturazione elettronica in Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757976"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779672"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurare la fatturazione elettronica in Regulatory Configuration Services (RCS)
 
@@ -73,6 +73,7 @@ La tabella seguente mostra le funzionalità di fatturazione elettronica generalm
 | Spagna          | Fattura elettronica spagnola (ES)      | Fatture di vendita e fatture di progetto |
 | Europa         | Fattura elettroniche PEPPOL            | Fatture di vendita e fatture di progetto PEPPOL |
 | Europa         | Fattura fornitore PEPPOL                | Fatture fornitore importazione PEPPOL |
+| Arabia Saudita   | Fattura elettronica in Arabia Saudita (SA)| Fatture di vendita e fatture di progetto |
 
 ### <a name="preview-features"></a>Funzionalità di anteprima
 
@@ -197,6 +198,11 @@ Gli elenchi seguenti mostrano le configurazioni del formato ER disponibili per l
 - Fattura di vendita (ES)
 - Fattura di progetto (ES)
 
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Fattura elettronica per l'Arabia Saudita: fatture di vendita e di progetto per l'Arabia Saudita
+
+- Fattura elettronica di vendita (SA)
+- Fattura elettronica di progetto (SA)
+
 Oltre alle configurazioni del formato ER immediatamente disponibili per l'utilizzo con il servizio di fatturazione elettronica, è anche possibile creare le proprie configurazioni del formato ER. Tuttavia, le configurazioni di formato create per essere utilizzate con le funzionalità di fatturazione elettronica non supportano il riferimento diretto alle tabelle Finance o Supply Chain Management o ai metadati corrispondenti. Sono supportati solo i riferimenti alla mappatura del modello ER.
 
 ### <a name="actions"></a>Azioni
@@ -274,7 +280,7 @@ Operatori logici:
 - E
 - O
 
-Tipi di operatori:
+Tipi di operatore:
 - Equal
 - Not equal
 - Greater than

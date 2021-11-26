@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78be9c67eeac1307d67d70ef75751adebbc246ee69e093b1b9dbc8f408d63258
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726335"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752642"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenuto Power BI per la gestione dei costi
 
@@ -30,11 +30,6 @@ ms.locfileid: "6726335"
 ## <a name="overview"></a>Panoramica
 
 Il contenuto Microsoft Power BI **Gestione costi** è destinato ai contabili di inventario o agli utenti nell'organizzazione responsabili o interessati allo stato dell'inventario o WIP o ai responsabili o interessati all'analisi degli scostamenti dei costi standard.
-
-> [!NOTE]
-> Il contenuto Power BI **Gestione costi** descritto in questo argomento si applica a Dynamics 365 Finance and Operations 8.0.
-> 
-> Il pacchetto di contenuti Power BI **Gestione costi**, disponibile sul sito AppSource, è stato deprecato. Per ulteriori informazioni sulla deprecazione, vedere [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Il contenuto Power BI si presenta in un formato strutturato in categorie che aiuta a monitorare le prestazioni degli inventari e a visualizzare il flusso dei costi. È possibile estrapolare informazioni approfondite manageriali, ad esempio l'indice di rotazione, il numero di giorni in cui l'inventario è a disposizione, la precisione e la "classificazione ABC" al livello di aggregazione preferito (società, articolo, gruppo di articoli o sito). Le informazioni disponibili possono essere utilizzate anche come supplemento dettagliato al rendiconto finanziario.
 

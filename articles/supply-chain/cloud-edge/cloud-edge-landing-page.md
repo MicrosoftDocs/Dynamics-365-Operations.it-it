@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471742"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733441"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unità di scala in una topologia ibrida distribuita
 
@@ -32,8 +32,8 @@ Le aziende che lavorano con la produzione e la distribuzione devono essere in gr
 
 Una topologia ibrida distribuita introduce il concetto di *unità di scala*, che consente la distribuzione dei carichi di lavoro di esecuzione del reparto produzione e del magazzino tra ambienti diversi. Questa funzionalità può aiutare a migliorare le prestazioni, prevenire le interruzioni del servizio e massimizzare il tempo di attività. Le unità di scala vengono fornite tramite i seguenti componenti aggiuntivi per l'abbonamento a Supply Chain Management:
 
-- Componente aggiuntivo unità di scala nel cloud per Dynamics 365 Supply Chain Management (*disponibile da aprile 2021*)
-- Componente aggiuntivo unità di scala nella rete perimetrale per Dynamics 365 Supply Chain Management (*disponibile a breve*)
+- Componente aggiuntivo unità di scala nel cloud per Dynamics 365 Supply Chain Management
+- Componente aggiuntivo unità di scala nella rete perimetrale per Dynamics 365 Supply Chain Management
 
 Le funzionalità del carico di lavoro vengono rilasciate su base continua attraverso miglioramenti incrementali.
 
@@ -51,21 +51,12 @@ Un *carico di lavoro* è un insieme definito di funzionalità aziendali che può
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Funzionalità di carico di lavoro di gestione del magazzino dedicate in un'unità di scala
 
-Il carico di lavoro di gestione del magazzino è il primo carico di lavoro distribuito per unità di scala che è stato rilasciato per la disponibilità generale.
-
-Per la gestione del magazzino, le unità di scala offrono le seguenti funzionalità:
-
-- Il sistema può elaborare metodi di ciclo selezionati per ordini cliente e il rifornimento della domanda.
-- Gli addetti al magazzino possono eseguire le vendite e il lavoro di rifornimento del magazzino in base alla domanda utilizzando l'app per dispositivi mobili Gestione magazzino.
-- Gli addetti al magazzino possono richiedere informazioni sulle scorte disponibili utilizzando l'app per dispositivi mobili Gestione magazzino.
-- Gli addetti al magazzino possono creare ed eseguire movimenti di scorte utilizzando l'app per dispositivi mobili Gestione magazzino.
-- Gli addetti al magazzino possono registrare gli ordini fornitore ed eseguire lo stoccaggio utilizzando l'app per dispositivi mobili Gestione magazzino.
-
+Il carico di lavoro di gestione del magazzino consente di eseguire processi di gestione del magazzino su una distribuzione isolata.
 Per ulteriori informazioni, vedere [Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Funzionalità di carico di lavoro di esecuzione della produzione dedicate in un'unità di scala
 
-La prima versione del carico di lavoro di produzione è attualmente in anteprima e offre le seguenti funzionalità:
+Il carico di lavoro di produzione offre le seguenti funzionalità:
 
 - Gli operatori macchine e i supervisori del reparto di produzione possono accedere al piano di produzione operativo.
 - Gli operatori possono mantenere il piano aggiornato eseguendo lavori di produzione discreti e di elaborazione.
@@ -191,17 +182,33 @@ Microsoft esaminerà la richiesta e informerà l'utente sui passaggi successivi 
 
 Al termine dell'onboarding, è possibile utilizzare la porta per configurare unità di scala e carichi di lavoro.
 
-### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gestire unità di scala e carichi di lavoro utilizzando il portale di gestione delle unità di scala
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gestire unità di scala e carichi di lavoro utilizzando il portale di gestione delle unità di scala
 
 Andare al [portale di gestione delle unità di scala](https://aka.ms/SCMSUM) e iscriversi con il proprio account tenant. Nella pagina **Configura unità di scala** è possibile aggiungere un ambiente hub, se non è ancora elencato. È quindi possibile selezionare l'hub che si desidera configurare con unità di scala e carichi di lavoro.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Gestione di unità di scala e carichi di lavoro.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Portale di gestione delle unità di scala, pagina Configura unità di scala.":::
 
 Per aggiungere una o più unità di scala disponibili nelle sottoscrizioni, selezionare **Aggiungi unità di scala**.
 
 Nella scheda **Carichi di lavoro predefiniti**, utilizzare il pulsante **Crea carico di lavoro** per aggiungere un carico di lavoro di gestione del magazzino a una delle unità di scala. Per ogni carico di lavoro, è necessario specificare il contesto dei processi che saranno di proprietà del carico di lavoro stesso. Per i carichi di lavoro di gestione del magazzino, il contesto è un magazzino specifico in un sito e in una persona giuridica specifici.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Creazione del carico di lavoro.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Finestra di dialogo Definisci carichi di lavoro.":::
+
+#### <a name="manage-workloads"></a>Gestire i carichi di lavoro
+
+Quando uno o più carichi di lavoro sono abilitati, utilizza l'opzione **Gestisci carichi di lavoro** per avviare e gestire processi come quelli elencati nella tabella seguente.
+
+| Elaborazione | Description |
+|---|---|
+| Sospendere la comunicazione dell'unità di scala | Sospendi i messaggi della pipeline tra l'hub e un'unità di scala. Questo processo interromperà la comunicazione e ridurrà la pipeline di dati tra l'hub e le unità di scala. Devi eseguire questo processo prima di eseguire un'operazione di manutenzione di Supply Chain Management sull'hub o sull'unità di scala, ma è possibile utilizzarlo anche in altre situazioni. |
+| Riprendere la comunicazione dell'unità di scala | Riprendi i messaggi della pipeline tra l'hub e un'unità di scala. Potrebbe essere necessario utilizzare questo processo, ad esempio, dopo aver eseguito un'operazione di manutenzione di Supply Chain Management sull'hub o sull'unità di scala. |
+| Aggiornare i carichi di lavoro | Sincronizza le nuove funzionalità tra l'hub e i carichi di lavoro dell'unità di scala. Potrebbe essere necessario utilizzare questo processo, ad esempio, quando la manutenzione ha causato la modifica delle query di scambio dati e/o ha aggiunto nuove tabelle o campi al carico di lavoro. |
+| Trasferire i carichi di lavoro a un'unità di scala | Pianifica un carico di lavoro attualmente in esecuzione nell'hub per essere spostato su un'unità di scala. Quando questo processo viene eseguito, verrà eseguita la sincronizzazione dei dati e sia l'hub che l'unità di scala verranno impostati per modificare la proprietà del carico di lavoro. |
+| Trasferire unità di scala all'hub | Pianifica un carico di lavoro attualmente in esecuzione su un'unità di scala per essere spostato nell'hub. Quando questo processo viene eseguito, verrà eseguita la sincronizzazione dei dati e sia l'hub che l'unità di scala verranno impostati per modificare la proprietà del carico di lavoro.
+| Transizione di emergenza all'hub | <p>Trasferisci immediatamente un carico di lavoro esistente all'hub. *Questo processo modificherà la proprietà solo dei dati attualmente disponibili nell'hub.*</p><p><strong>Avvertimento:</strong> questo processo può causare la perdita di dati per i dati non sincronizzati ed errori nell'elaborazione aziendale. Pertanto, dovrebbe essere utilizzato solo in caso di emergenza, in cui i processi aziendali devono essere elaborati sull'hub perché l'unità di scala ha un'interruzione del servizio che non può essere mitigata entro un tempo ragionevole.</p> |
+| Ritirare la topologia distribuita | Rimuovere la distribuzione di un'unità di scalabilità ed eseguirla solo nell'hub, senza elaborazione del carico di lavoro. |
+
+:::image type="content" source="media/sum-manage-workloads.png" alt-text="Gestione di unità di scala e carichi di lavoro.":::
 
 > [!TIP]
 > Nel tempo, all'esperienza di gestione delle unità di scala verranno aggiunti miglioramenti incrementali per semplificare le operazioni di gestione del ciclo di vita. Le funzionalità specifiche per la versione corrente sono documentate in un manuale di onboarding disponibile per i clienti che sono in procinto di eseguire l'onboarding alla topologia ibrida distribuita per Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

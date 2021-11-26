@@ -1,8 +1,8 @@
 ---
 title: App Human Resources in Teams
 description: Questo argomento introduce l'app Microsoft Dynamics 365 Human Resources in Microsoft Teams.
-author: andreabichsel
-ms.date: 02/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3b717cf2fb8663ed8e4981981d563672c9e645c4f9b592ee1896cfef4236396
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e44b9fa40971710d8316c055c4d2ac51f9ab266
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772719"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771508"
 ---
 # <a name="human-resources-app-in-teams"></a>App Human Resources in Teams
 
@@ -106,7 +106,7 @@ I seguenti elementi di lavoro sono previsti per le versioni future:
 | --- | --- |
 | Il saldo non è corretto quando richiedi permessi per una data futura. | Le previsioni non sono ancora disponibili. Il saldo visualizza la data corrente. |
 | Impossibile annullare una richiesta **In revisione**. | Questa funzionalità non è attualmente supportata e verrà aggiunta in una versione futura. |
-| Le informazioni sul saldo sono calcolate a partire da oggi. | Il sistema al momento non visualizza i saldi al momento del periodo di competenza, anche se configurato nei parametri congedo e assenza. |
+| Le informazioni sul saldo sono calcolate a partire da oggi. | Il sistema al momento non visualizza i saldi al momento del periodo di competenza, anche se configurato nella pagina **Parametri di congedi e assenze**. |
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 
@@ -130,7 +130,7 @@ Se un utente vede un errore quando tenta di approvare le richieste di congedo ne
 
 2. Assicurati che gli utenti abbiano effettuato l'accesso alla scheda **Chat** con le stesse credenziali che utilizzano per approvare le richieste di congedo. Utilizzare i messaggi "disconnettersi" e quindi "accedere" per accedere con le credenziali corrette.
 
-3. Se il problema persiste, controllare lo stato del processo batch di sistema Eventi aziendali come amministratore di sistema. Se è in una fase di attesa o di esecuzione, ricontrolla tra qualche minuto. Se lo stato rimane invariato, registra un ticket di supporto in modo che il nostro team possa aiutare a risolvere il problema.
+3. Se il problema persiste, controllare lo stato del processo batch di sistema **Eventi aziendali** come amministratore di sistema. Se è in una fase di **attesa** o di **esecuzione**, ricontrolla tra qualche minuto. Se lo stato rimane invariato, registra un ticket di supporto in modo che il nostro team possa aiutare a risolvere il problema.
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
 

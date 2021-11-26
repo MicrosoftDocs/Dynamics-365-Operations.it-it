@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575389"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777623"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaborazione fornitore con i clienti
 
@@ -102,7 +102,7 @@ Le persone che lavorano nel settore pubblico possono visualizzare le richieste d
 
     Se si è stati invitati a fornire un'offerta, è possibile individuare la stessa RdO nella pagina **Nuovi inviti di offerta**. In alcuni casi, potrebbe essere necessario fare un'offerta per una RdO aperta, ma non si è stati invitati all'offerta. In questo caso, potrebbe essere possibile invitare se stessi, a condizione che il cliente abbia abilitato l'invito automatico per il caso RdO.
 
-    Migliora l'accessibilità del collegamento **Apri richieste di offerta pubblicate** attivando la funzionalità **Visualizza il collegamento "Apri richieste di offerta pubblicate" come riquadro**. Questa funzione converte il collegamento in un riquadro e lo sposta in una posizione prominente, in modo che sia facile da trovare.
+    Migliora l'accessibilità del collegamento **Apri richieste di offerta pubblicate** attivando la funzionalità **Visualizza il collegamento "Apri richieste di offerta pubblicate" come riquadro**. Questa funzione converte il collegamento in un riquadro e lo sposta in una posizione prominente, in modo che sia facile da trovare. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
 
 - Selezionare il collegamento **Richieste di offerta pubblicate chiuse** per visualizzare un elenco delle richieste di offerta chiuse che sono state rese disponibili al pubblico. La RdO chiusa una RdO scaduta. È possibile trovare la data e l'ora di scadenza nell'intestazione della RdO.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd1906200038c27e63f9434bba27e7146f4c80c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575610"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778133"
 ---
 # <a name="monitor-a-master-planning-run"></a>Monitorare un'esecuzione di pianificazione generale
 
@@ -33,7 +33,7 @@ Nella pagina **Visualizza stato pianificazione generale**, è possibile visualiz
 Per utilizzare questa funzionalità, attenersi alla seguente procedura.
 
 1. Nell'area di lavoro **Gestione funzionalità**, scheda **Nuovo**, selezionare **Visualizzazione stato pianificazione generale** nell'elenco. Se la funzionalità non è presente nella scheda **Nuovo**, considerare le schede **Tutto** e **Non abilitato**.
-1. Selezionare **Abilita ora**. In alternativa, selezionare **Programmazione** e quindi selezionare l'ora in cui si desidera che la funzionalità sia abilitata.
+1. Selezionare **Abilita ora**. In alternativa, selezionare **Programmazione** e quindi selezionare l'ora in cui si desidera che la funzionalità sia abilitata. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
 
 Nella pagina **Visualizza stato pianificazione generale** possono essere visualizzati entrambi i processi della pianificazione storica e i processi di pianificazione attivi. 
 

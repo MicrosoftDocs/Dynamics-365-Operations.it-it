@@ -1,8 +1,8 @@
 ---
-title: Configurare un ambiente per la ricerca dei dati master
-description: In questo argomento viene descritto come configurare l'ambiente per l'utilizzo della funzionalità di ricerca di dati master Calcolo imposte.
+title: Abilitare la ricerca dei dati anagrafici per la configurazione del calcolo delle tasse
+description: In questo argomento viene descritto come configurare e abilitare a funzionalità di ricerca di dati master per il calcolo delle imposte.
 author: kai-cloud
-ms.date: 10/26/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
+ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700406"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749512"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>Configurare un ambiente per la ricerca dei dati master
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Abilitare la ricerca dei dati anagrafici per la configurazione del calcolo delle tasse 
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come configurare l'ambiente per l'utilizzo della funzionalità di ricerca di dati master Calcolo imposte.
+In questo argomento viene descritto come configurare e abilitare a funzionalità di ricerca di dati master per il calcolo delle imposte. È disponibile un elenco a discesa per selezionare i valori nella configurazione del calcolo dell'imposta per campi quali **Conto fornitore**, **Codice articolo** e **Termini di consegna**. Questi valori provengono dall'ambiente Microsoft Dynamics 365 Finance connesso utilizzando l'origine dati Microsoft Dataverse.
 
 1. Imposta l'integrazione di Microsoft Power Platform in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni, vedere [Panoramica di Integrazione di Microsoft Power Platform - Componenti aggiuntivi](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Dopo aver completato questo passaggio, il nome dell'ambiente Microsoft Power Platform apparirà nella sezione **Integrazione di Power Platform**.
 2. Vai all'[interfaccia di amministrazione di Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) e seleziona il nome dell'ambiente. Viene fornito l'URL dell'ambiente.

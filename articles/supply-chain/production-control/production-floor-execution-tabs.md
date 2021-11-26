@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6752d79a71a673fedb0caff7b6ad1023093269c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570179"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790868"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Progettare l'interfaccia di esecuzione dell'area di produzione
 
@@ -53,13 +53,13 @@ Per creare e configurare una nuova scheda, effettuare le seguenti operazioni:
 
 1. Effettuare le seguenti impostazioni nell'intestazione della pagina:
 
-    - **Nome scheda** - Specificare un nome per la scheda.
-    - **Visualizzazione principale** - Selezionare tra i due elenchi di processi predefiniti (*Processi attivi*, *Tutti i processi* o *Macchina personale*).
-    - **Visualizzazione dei dettagli** - Selezionare tra un valore vuoto o **Dettagli processo**. Se si seleziona il valore vuoto, non ci sarà una visualizzazione dettagliata nella scheda. Se si seleziona **Dettagli processo**, la visualizzazione dettagliata conterrà una descrizione dettagliata del processo selezionato nell'elenco dei processi nella visualizzazione principale.
+    - **Nome scheda**: specificare un nome per la scheda.
+    - **Visualizzazione principale**: selezionare tra gli elenchi di processi predefiniti (*Processi attivi*, *Tutti i processi* e *Macchina personale*).
+    - **Visualizzazione dei dettagli**: selezionare tra un valore vuoto o **Dettagli processo**. Se si seleziona il valore vuoto, non ci sarà una visualizzazione dettagliata nella scheda. Se si seleziona **Dettagli processo**, la visualizzazione dettagliata conterrà una descrizione dettagliata del processo selezionato nell'elenco dei processi nella visualizzazione principale.
 
 1. Nella sezione **Barra degli strumenti principale** scegliere quali pulsanti devono essere disponibili nella barra degli strumenti principale. La colonna **Azioni disponibili** mostra un elenco di tutti i pulsanti che possono essere aggiunti. Le colonne **Azioni selezionate** mostrano un elenco di tutti i pulsanti inclusi nella configurazione corrente. Utilizzare i pulsanti tra le colonne per spostare gli elementi selezionati tra le colonne secondo necessità. Utilizzare i pulsanti su e giù accanto alla colonna **Azioni selezionate** per controllare l'ordine in cui i pulsanti vengono presentati nell'interfaccia utente.
 
-1. Nella sezione **Barra degli strumenti** **secondaria** scegliere quali pulsanti devono essere disponibili nella barra degli strumenti secondaria. La colonna **Azioni disponibili** mostra un elenco di tutti i pulsanti che possono essere aggiunti. Le colonne **Azioni selezionate** mostrano un elenco di tutti i pulsanti inclusi nella configurazione corrente. Utilizzare i pulsanti tra le colonne per spostare gli elementi selezionati tra le colonne secondo necessità. Utilizzare i pulsanti su e giù accanto alla colonna **Azioni selezionate** per controllare l'ordine in cui i pulsanti vengono presentati nell'interfaccia utente.
+1. Nella sezione **Barra degli strumenti** secondaria scegliere quali pulsanti devono essere disponibili nella barra degli strumenti secondaria. La colonna **Azioni disponibili** mostra un elenco di tutti i pulsanti che possono essere aggiunti. Le colonne **Azioni selezionate** mostrano un elenco di tutti i pulsanti inclusi nella configurazione corrente. Utilizzare i pulsanti tra le colonne per spostare gli elementi selezionati tra le colonne secondo necessità. Utilizzare i pulsanti su e giù accanto alla colonna **Azioni selezionate** per controllare l'ordine in cui i pulsanti vengono presentati nell'interfaccia utente.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Associare una scheda a una configurazione
 

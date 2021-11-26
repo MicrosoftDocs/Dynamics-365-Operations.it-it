@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 358f5a87cdb42f0ff646948da8d38475cf49e3f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577914"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778379"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Pianificare la creazione del lavoro nel corso del ciclo
 
@@ -33,7 +33,7 @@ Quando la funzionalità è abilitata, viene automaticamente creato il lavoro pia
 
 Per utilizzare le funzionalità descritte in questo argomento, è necessario attivarle per il sistema. Usa l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità nel seguente ordine:
 
-1. **Blocco del lavoro a livello di organizzazione** - Necessario per la configurazione sia manuale che automatica della creazione del lavoro programmato.
+1. **Blocco del lavoro a livello di organizzazione** - Necessario per la configurazione sia manuale che automatica della creazione del lavoro programmato. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
 1. **Programma creazione lavoro** - Necessario per la configurazione sia manuale che automatica della creazione del lavoro programmato.
 1. **Metodo ciclo "Programma creazione lavoro" a livello di organizzazione** - Necessario per la configurazione sia manuale che automatica della creazione del lavoro programmato. Non hai bisogno di questa funzione se utilizzi solo la configurazione manuale.
 

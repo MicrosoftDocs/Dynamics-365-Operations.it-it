@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569289"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778233"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Dichiarazione di finito dal dispositivo scheda processo
 
@@ -218,7 +218,7 @@ I processi di magazzino avanzati possono utilizzare la dimensione della targa pe
 
 Per utilizzare le funzionalità descritte in questa sezione, è necessario utilizzare la pagina [Gestione funzionalità ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità (in questo ordine):
 
-1. Targa per la dichiarazione di finito aggiunta al dispositivo scheda processo
+1. Targa per la segnalazione del prodotto come finito aggiunta al dispositivo scheda processo(a partire dalla versione 10.0.21 di Supply Chain Management, questa funzione è attivata per impostazione predefinita).
 1. Abilitare la generazione automatica del numero di identificazione durante la dichiarazione di finito nel dispositivo scheda processo
 1. Stampa etichetta dal dispositivo scheda processo
 

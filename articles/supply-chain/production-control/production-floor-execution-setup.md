@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 503ba8ae95119f3ce9533f81cdd16c34cf3a9223
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574547"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752834"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Impostare un dispositivo per eseguire l'interfaccia di esecuzione dell'area di produzione
 
@@ -28,9 +28,9 @@ L'interfaccia di esecuzione dell'area di produzione è configurata per ogni disp
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Impostare la configurazione e i filtri per un dispositivo specifico
 
-Per impostare la configurazione e i filtri dei processi per un dispositivo, accedere alla pagina **Esecuzione area di produzione** utilizzando un account con un ruolo di sicurezza che include il diritto *Supervisore gestione tempo*. (Tra i ruoli di sicurezza predefiniti, solo *Supervisore reparto di produzione* ha questo diritto). Quindi seguire questi passaggi.
+Per impostare la configurazione e i filtri dei processi per un dispositivo, accedere alla pagina **Esecuzione area di produzione** utilizzando un account con un ruolo di sicurezza che include il diritto *Supervisione gestione tempo*. (Tra i ruoli di sicurezza predefiniti, solo *Supervisore reparto di produzione* ha questo diritto). Quindi seguire questi passaggi.
 
-1. Aprire il dispositivo che si desidera configurare e accedere a Microsoft Dynamics 365 Supply Chain Management come supervisore del reparto di produzione. (Utilizzare un account che includa il diritto *Supervisore gestione tempo*).
+1. Aprire il dispositivo che si desidera configurare e accedere a Microsoft Dynamics 365 Supply Chain Management come supervisore del reparto di produzione. (Utilizzare un account che includa il diritto *Supervisione gestione tempo*).
 1. Assicurarti che sia disponibile una configurazione per il dispositivo che si sta impostando. Se non esiste già una configurazione, viene fornita una configurazione predefinita. Per ulteriori informazioni su come impostare una configurazione, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-configure.md).
 1. Andare a **Controllo produzione \> Esecuzione produzione \> Esecuzione area di produzione**.
 

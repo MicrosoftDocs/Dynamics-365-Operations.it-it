@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-oldolg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 28f902c589cd80f1c34dc2758232548309db9aca
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474630"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790940"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Garantire le scorte di sicurezza per gli articoli
 
@@ -189,5 +189,9 @@ L'evasione della transazione del fabbisogno di scorte di sicurezza perde priorit
 Durante la fase di copertura della pianificazione generale, il rifornimento delle scorte di sicurezza non perderà più priorità. Le scorte disponibili in magazzino possono essere utilizzate prima di qualsiasi altro tipo di domanda. Durante il calcolo del ritardo, verrà aggiunta nuova logica per superare le righe di vendita con ritardo, il fabbisogno della riga DBA e tutti gli altri tipi di domanda, per determinare se possono essere consegnati in tempo, a condizione che vengano utilizzate le scorte di sicurezza. Se il sistema determina che può ridurre al minimo i ritardi usando le scorte di sicurezza, le righe di vendita o DBA sostituiranno la relativa copertura iniziale con le scorte di sicurezza e il sistema attiverà invece il rifornimento per le scorte di sicurezza.
 
 Se il piano o l'articolo non è impostato per il calcolo con ritardo, il vincolo delle scorte di sicurezza avrà la stessa avrà priorità di eventuali altri tipi di domanda. Ciò significa che è presente una prenotazione delle scorte disponibili e di altre scorte disponibili prima di altri tipi di domanda.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima per gli articoli](safety-stock-journal.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

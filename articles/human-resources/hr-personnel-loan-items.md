@@ -1,8 +1,8 @@
 ---
 title: Gestire gli articoli affidati ai lavoratori
 description: Gli articoli prestito sono record che consentono ai responsabili di tenere traccia degli articoli fisici che la società presta ai lavoratori.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760588"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728761"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Gestire gli articoli affidati ai lavoratori
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760588"
 
 Gli articoli prestito sono record che consentono ai responsabili di tenere traccia degli articoli fisici che la società presta ai lavoratori. 
 
-I punti di seguito sono esempi di articoli che una società potrebbe prestare ai lavoratori:
+Ecco alcuni esempi di articoli che una società potrebbe prestare ai lavoratori:
+
 -   Telefoni cellulari
 -   Automobili
 -   Attrezzature informatiche
@@ -37,7 +38,7 @@ Ogni articolo fisico deve avere un articolo prestito corrispondente. Per ciascun
 
 Quando un articolo viene concesso in prestito, è necessario immettere la data di inizio del prestito e la data di restituzione pianificata. Quando l'articolo viene restituito, immettere la data di restituzione effettiva.
 
-I dipendenti possono visualizzare i record degli articoli che sono stati prestati utilizzando area di lavoro Dipendente self-service. Possono inoltre modificare i record esistenti o immettere nuovi articoli prestito,se hanno ricevuto articoli fisici aggiuntivi.  Il flusso di lavoro può essere configurato in modo da instradare le modifiche ai nuovi o esistenti articoli prestito tramite un processo di approvazione. 
+I dipendenti possono utilizzare l'area di lavoro **Self-service dipendenti** per visualizzare i record degli articoli che sono stati prestati utilizzando area di lavoro Dipendente self-service. Possono inoltre modificare i record esistenti o immettere nuovi articoli prestito,se hanno ricevuto articoli fisici aggiuntivi. Un flusso di lavoro può essere configurato in modo da instradare le modifiche ai nuovi o esistenti articoli prestito tramite un processo di approvazione. 
 
 I responsabili possono visualizzare gli articoli prestati per i propri subordinati diretti. Può anche essere concessa l'autorizzazione per aggiungere nuovi articoli in prestito per conto dei relativi dipendenti.
 

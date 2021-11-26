@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735898"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777867"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Pianifica la stampa dell'etichetta ciclo durante il ciclo
 
@@ -33,7 +33,7 @@ Quando usi la funzionalità *Stampa etichette ciclo basata su attività* il sist
 Per utilizzare le funzionalità descritte in questo argomento, è necessario attivarle per il sistema. Usa l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le funzionalità nel seguente ordine:
 
 1. *Stampa etichette ciclo* – Questa funzione è necessaria per abilitare il metodo di processo ciclo per la stampa di etichette ciclo.
-1. *Blocco del lavoro a livello di organizzazione* - Questa funzione è necessaria per la configurazione sia manuale che automatica della creazione del lavoro programmato.
+1. *Blocco del lavoro a livello di organizzazione* - Questa funzione è necessaria per la configurazione sia manuale che automatica della creazione del lavoro programmato. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
 1. *Stampa etichette ciclo basata su attività* – Questa funzione è necessaria per suddividere la stampa di etichette ciclo in un ambito di transazione separato.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Abilitare manualmente il nuovo metodo di passaggio ciclo
