@@ -74,10 +74,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Linee guida per l'implementazione di Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: App Finance and Operations gestite da 21Vianet in Cina
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: App Finance and Operations in Francia
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Ottenere supporto
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Aggiornamento e supporto N-1
@@ -1270,10 +1266,12 @@
               href: assess-customer-product-profitability.md
             - name: Analizzare le prestazioni del punto vendita
               href: store-performance-information.md
-            - name: 'Impostare l''analisi Recency, Frequency e Monetary (RFM)'
+            - name: 'Impostare l''analisi Recency, frequenza e valore monetario (RFM)'
               href: set-up-rfm-analysis.md
-            - name: Impostare Microsoft Clarity in Dynamics 36 Commerce
+            - name: Impostare Microsoft Clarity in Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: Analisi di Commerce (anteprima)
+              href: commerce-analytics.md
         - name: Globalizzazione
           items:
             - name: Panoramica dell'integrazione fiscale per il canale Commerce
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Gestione delle informazioni cliente per la Russia
                   href: localizations/rus-customer-information.md
+            - name: Arabia Saudita
+              items:
+                - name: Generare codici QR e stamparli sulle ricevute per l'Arabia Saudita
+                  href: localizations/emea-sau-qr-code.md
             - name: Svezia
               items:
                 - name: Funzionalità registratore di cassa
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Procedure consigliate per il debug per lo sviluppo di Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: Testare le pagine del sito di e-commerce per perdite di memoria
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail SDK
               items:
                 - name: Eseguire la migrazione a Commerce SDK

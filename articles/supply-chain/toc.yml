@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurare l'app Magazzino per distribuzioni locali
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: App Finance and Operations gestite da 21Vianet in Cina
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: App Finance and Operations in Francia
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Novità o modifiche
               items:
                 - name: Novità o modifiche nelle app Finance and Operations
@@ -2147,9 +2143,9 @@
               items:
                 - name: Impostare le informazioni sulle risorse di progetto
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Inviare e approvare budget di progetto
+                - name: Creare e inviare un flusso di lavoro di budget di progetto
                   href: procurement/tasks/submit-approve-project-budget.md
-                - name: Inviare e approvare revisioni di budget di progetto
+                - name: Inviare e approvare revisioni budget di progetto
                   href: procurement/tasks/submit-approve-project-budget-revision.md
             - name: Domande frequenti sull'approvvigionamento
               href: procurement/procurement-faq.md

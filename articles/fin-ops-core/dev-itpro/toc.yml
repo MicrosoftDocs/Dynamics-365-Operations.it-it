@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: 'Estendere, personalizzare e collaborare alla Guida'
                   href: help/contributor-guide.md
+            - name: Considerazioni sulla distribuzione
+              items:
+                - name: Opzioni di distribuzione cloud sovrano e locale per Dynamics 365 Finance e Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance e Supply Chain Management in US Government Community Cloud (GCC)
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance e Supply Chain Management gestiti da 21Vianet in Cina
+                  href: deployment/china-local-deployment.md
+                - name: App Finance and Operations in Francia
+                  href: deployment/france-local-deployment.md
         - name: Sviluppo e personalizzazione
           items:
             - name: Home page sviluppo e personalizzazione
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Eseguire l'aggiornamento al modello di parte e di rubrica globale
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Visualizzare i dati della parte
+                      href: data-entities/dual-write/view-party.md
                     - name: Integrazione della nota
                       href: data-entities/dual-write/notes-integration.md
                     - name: Riferimento di mapping
@@ -1584,7 +1596,7 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Creare processi batch
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Abilitazione di tentativi automatici su processi batch
+                - name: Abilitare i tentativi batch
                   href: sysadmin/retryable-batch.md
                 - name: Copiare un processo batch
                   href: sysadmin/copy-batch-job.md

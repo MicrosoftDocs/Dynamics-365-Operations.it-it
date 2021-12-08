@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurare l'app Magazzino per distribuzioni locali
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: App Finance and Operations gestite da 21Vianet in Cina
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: App Finance and Operations in Francia
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Novità o modifiche
               items:
                 - name: Novità o modifiche nelle app Finance and Operations
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Report di aging clienti
               href: accounts-receivable/customer-aging.md
+            - name: Archiviazione dati di aging cliente
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Creare un giornale di registrazione annullamento per un cliente
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gestione note avanzate
@@ -1476,6 +1474,10 @@
                           items:
                             - name: Dichiarazione IVA
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Dichiarazione della Germania
+                          items:
+                            - name: Dichiarazione IVA
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Dichiarazione dei Paesi Bassi
                           items:
                             - name: Dichiarazione IVA
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Rettifiche di ammortamento per le acquisizioni aggiuntive nel secondo anno
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: Dichiarazione IVA
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Trasmissione elettronica della dichiarazione IVA (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Intrastat tedesco
                   href: localizations/emea-deu-intrastat.md
-                - name: Dichiarazione IVA per la Germania
+                - name: Dichiarazione IVA
                   href: localizations/emea-de-vat-declaration.md
                 - name: Report fatture elettroniche dei clienti
                   href: localizations/emea-deu-e-invoices.md
