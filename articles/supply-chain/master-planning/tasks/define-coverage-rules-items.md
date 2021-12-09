@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567225"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860615"
 ---
 # <a name="define-coverage-rules-for-items"></a>Definire le regole di copertura per gli articoli
 
@@ -111,8 +111,9 @@ Creare regole copertura articoli effettuando le seguenti operazioni:
 1. Selezionare la scheda **Lead time**.
 1. Selezionare la casella sull'intestazione di **Acquisto**.
 1. Nel campo **Ora dell'acquisto** immettere '5'.
-1. Selezionare **Salva**.
+1. Seleziona **Salva**.
 
-
+> [!NOTE]
+> Per gli articoli prodotti, il **Lead time di produzione** viene utilizzato se non esiste un ciclo di lavorazione per l'articolo. Se all'articolo è stato associato un ciclo di lavorazione attivo, la pianificazione generale pianificherà l'ordine e ne calcolerà le date in base ai tempi del ciclo di lavorazione e alla capacità delle risorse (se applicabile).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

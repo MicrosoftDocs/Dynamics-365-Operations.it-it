@@ -2,7 +2,7 @@
 title: Home page di Finance Insights
 description: Finance insights fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3c6320043000dc07eea3128a10c16cfd54b13334
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752858"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813749"
 ---
 # <a name="finance-insights-home-page"></a>Home page di Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti. Quando queste nuove funzionalità vengono combinate con l'automazione nei pagamenti e negli incassi dei fornitori, costituiscono un sistema finanziario avanzato e intelligente che guida il processo decisionale e ti aiuta ad agire per rispondere efficacemente alle sfide aziendali attuali e previste.
+Finance Insights fornisce soluzioni configurabili ed estendibili per aiutarti a prevedere in modo intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Queste funzionalità utilizzano modelli di apprendimento automatico intelligenti per creare modelli con i dati forniti dall'utente (inclusi i dati di terze parti come le informazioni sui report sui consumatori di un ufficio). Queste capacità intelligenti informano il processo decisionale e ti aiutano ad agire per rispondere efficacemente alle sfide aziendali attuali e previste. L'utente è responsabile di tutti i dati utilizzati o emessi da Finance insights.
 
 > [!NOTE]
 > È disponibile un'anteprima di Finance Insights per la distribuzione negli Stati Uniti, in Canada, nel Regno Unito, in Europa, in Asia Pacifico, in Giappone, in Australia e in Nuova Zelanda. Microsoft sta aggiungendo in modo incrementale il supporto per più aree geografiche.

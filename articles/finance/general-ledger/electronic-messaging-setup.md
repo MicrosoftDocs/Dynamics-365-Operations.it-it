@@ -2,7 +2,7 @@
 title: Impostare i messaggi elettronici
 description: Questo argomento fornisce informazioni su come impostare la funzionalità dei messaggi elettronici (EM).
 author: liza-golub
-ms.date: 07/07/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752177"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860560"
 ---
 # <a name="set-up-electronic-messages"></a>Impostare i messaggi elettronici
 
@@ -34,6 +34,7 @@ Se non si importa un pacchetto di entità di dati, è possibile configurare manu
 - [Campi aggiuntivi](#additional)
 - [Impostazioni classe eseguibile](#executable)
 - [Azioni di popolamento record](#populate)
+- [Compilare i record di più aziende](#multiple-companies-populate)
 - [Applicazioni Web](#applications)
 - [Impostazioni servizio Web](#settings)
 - [Azioni di elaborazione messaggi](#actions)
@@ -139,6 +140,38 @@ Nella scheda Dettaglio **Impostazione origini dati**, aggiungere una riga per og
 | Società                | Questo campo è disponibile quando la funzionalità **Query interaziendali per le azioni di popolamento dei record** è attivata nell'area di lavoro **Gestione funzionalità**. Utilizzare questa funzionalità per impostare origini dati interaziendali per le azioni di popolamento dei record. I dati possono essere recuperati da più aziende. |
 | Query utente             | <p>Se imposti una query scegliendo **Modifica query** sopra la griglia e si specificano i criteri che devono essere applicati alla tabella master selezionata da cui vengono compilati i dati, questa casella di controllo viene selezionata automaticamente. In caso contrario, tutti i record vengono completati a partire dall'origine tabella master.</p><p>Quando la funzionalità **Query interaziendali per le azioni di popolamento dei record** è attivata nell'area di lavoro **Gestione funzionalità** e i record devono essere raccolti da diverse società, aggiungere una riga per ogni ulteriori persona giuridica che deve essere inclusa nella creazione di report. Per ogni nuova riga, selezionare **Modifica query** e indicare un criterio correlato che è specifico per la persona giuridica che riportata nel campo **Società** sulla riga. Al termine, la griglia **Impostazione origini dati** conterrà le righe per tutte le persone giuridiche che devono essere incluse nella creazione di report.</p> |
 
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a>Compilare i record di più aziende
+
+Se la tua azienda deve dichiarare per più persone giuridiche nello stesso database Finance, imposta le [azioni di popolamento record](#populate) per tutte le persone giuridiche da cui i dati devono essere inclusi nella dichiarazione.
+
+Segui questi passaggi per abilitare questa funzionalità nell'ambiente Finance. 
+
+1. Vai a **Aree di lavoro** \> **Gestione funzionalità**.
+2. Trova e seleziona la funzionalità **Query interaziendali per le azioni di popolamento dei record** nell'elenco.
+3. Selezionare **Abilita ora**. 
+
+Per impostare le [azioni di popolamento record](#populate) per più società da cui i dati devono essere inclusi nella dichiarazione, attieniti alla seguente procedura.
+
+1. Vai a **Imposta** \> **Impostazione** \> **Messaggi elettronici** \> **Azioni di popolamento record**.
+
+    Quando la funzionalità **Query interaziendali per le azioni di popolamento dei record** è abilitata, la griglia **Impostazione origini dati** nella pagina **Azione di popolamento record** include un campo **Società**. Per i record esistenti che sono stati creati durante l'impostazione generale delle [azioni di popolamento record](#populate), questo campo mostra l'identificatore della persona giuridica corrente.
+
+2. Nella griglia **Impostazione origini dati**, aggiungi una riga per ogni persona giuridica affiliata che deve essere inclusa nella dichiarazione e imposta i seguenti campi.
+
+    | Nome campo             | Valore |
+    |------------------------|-------|
+    | Name                   | Inserisci un valore di testo che ti aiuti a capire da dove proviene questo record. Ad esempio, inserisci **Nome origine dati - Affiliata 1**. |
+    | Tipo di elemento del messaggio      | Seleziona il tipo di elemento del messaggio richiesto per l'elaborazione EM. |
+    | Tipo di account           | Specifica il tipo di account richiesto per l'elaborazione EM. Se la tua elaborazione EM non ha tipi di account specifici, seleziona **Tutto**. |
+    | Nome tabella master      | Specifica il nome della tabella master richiesta per l'elaborazione EM. |
+    | Campo Numero documento  | Specifica il campo che contiene il numero del documento nei record della tua elaborazione EM. |
+    | Campo Data documento    | Specifica il campo che contiene la data del documento nei record della tua elaborazione EM. |
+    | Campo Conto documento | Specifica il campo che contiene l'account del documento nei record della tua elaborazione EM. |
+    | Società                | Seleziona l'ID della persona giuridica affiliata. |
+    | Query utente             | Questa casella di controllo viene selezionata automaticamente quando definisci i criteri selezionando **Modifica query**. |
+
+3. Per ogni nuova riga, seleziona **Modifica query** e indica un criterio correlato per la persona giuridica specificata nel campo **Società** sulla riga.
+
 ## <a name="web-applications"></a><a id="applications"></a>Applicazioni Web
 
 Per configurare un'applicazione Web di modo che supporti Open Authorization (OAuth) 2.0, utilizzare le impostazioni dell'applicazione Web. OAuth è lo standard aperto che consente agli utenti di concedere l'"accesso delegato protetto" all'applicazione per loro conto, senza condividere le loro credenziali di accesso. È anche possibile eseguire il processo di autorizzazione ottenendo un codice di autorizzazione e un token di accesso. È possibile configurare le impostazioni dell'applicazione Web andando a **Imposta** \> **Impostazione** \> **Messaggi elettronici** \> **Applicazioni Web**.
@@ -214,6 +247,7 @@ Nelle tabelle seguenti vengono descritti i campi della pagina **Azioni di elabor
 | Classe eseguibile                          | Selezionare un'impostazione di classe eseguibile esistente. Questo campo è disponibile solo per le azioni **Livello di esecuzione dell'elemento del messaggio** e **Livello di esecuzione dell'elemento del messaggio**. |
 | Azione di popolamento record                   | Selezionare un'azione di popolamento record esistente. Questo campo è disponibile solo per le azioni **Popola record**. |
 | Servizio Web                               | Selezionare un servizio Web esistente. Questo campo è disponibile solo per le azioni di tipo **Servizio Web**. |
+| Nome file da inviare                         | Immetti il nome dell'allegato a un messaggio elettronico che deve essere inviato da questa azione. Se più allegati hanno lo stesso nome file originale, verrà inviato quello più recente. Se non viene trovato alcun allegato con il nome file originale specificato, la richiesta verrà inviata senza contenuto. Questo campo è disponibile solo per le azioni di tipo **Servizio Web**. |
 | Nome file                                 | Specificare il nome del file creato a seguito dell'azione. Questo file può essere la risposta dal server Web o dal report generato. Questo campo è disponibile solo per le azioni di tipo **Servizio Web** e **Messaggio esportazione creazione di report elettronici**. |
 | Collega file ai documenti di origine          | Selezionare questa casella di controllo per allegare i file generati ai record in una tabella master di riferimento per gli elementi EM. Questo campo è disponibile solo per le azioni dei tipi **Esportazione creazione di report elettronici** e **Servizio Web**. |
 | Allega file dall'archivio di output agli elementi | Selezionare questa casella di controllo per estrarre file XML separati dal file di archivio di output e allegarli agli elementi corrispondenti del messaggio elettronico. Questo campo è disponibile solo per le azioni di tipo **Esportazione creazione di report elettronici**. |

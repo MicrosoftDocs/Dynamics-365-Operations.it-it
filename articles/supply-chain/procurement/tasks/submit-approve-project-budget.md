@@ -1,59 +1,45 @@
 ---
-title: Inviare e approvare un budget di progetto
+title: Creare e inviare un flusso di lavoro budget di progetto
 description: In questa procedura viene illustrato come creare e inviare il budget per un progetto.
 author: Henrikan
-ms.date: 08/13/2019
-ms.topic: business-process
-ms.prod: ''
-ms.technology: ''
+ms.date: 11/22/2021
+ms.topic: article
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a4f8102a954fa8337aa7f5de0f8dcd2b3a288
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6f410d824be717537e6dfb5dbd8b71ff7d992e0a
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569372"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860411"
 ---
-# <a name="submit-and-approve-project-budget"></a>Inviare e approvare un budget di progetto
+# <a name="create-and-submit-a-project-budget-workflow"></a>Creare e inviare un flusso di lavoro budget di progetto
 
 [!include [banner](../../includes/banner.md)]
 
-In questa procedura viene illustrato come creare e inviare il budget per un progetto. 
+Quando si crea un budget del progetto è possibile immettere i costi e i ricavi stimati per un progetto e utilizzare i valori per controllare le transazioni di progetto effettive. I budget di progetto richiedono che tutti i budget e le revisioni originali devono essere inviati al flusso di lavoro del progetto per l'approvazione. Il flusso di lavoro consente un controllo maggiore sul processo di budget e crea un record di storico modifiche. Dopo avere creato [un progettot](/dynamicsax-2012/appuser-itpro/create-a-project) usa questa procedura per creare e inviare il budget.
 
-Quando si crea un budget del progetto è possibile immettere i costi e i ricavi stimati per un progetto e di utilizzarli successivamente per controllare le transazioni di progetto effettive. Per i budget di progetto, tutti i budget e le revisioni originali devono essere inviati al flusso di lavoro del progetto per l'approvazione. Il flusso di lavoro consente un controllo maggiore sul processo e consente di creare un record di storico modifiche.
-
-Questa attività è stata creata utilizzando il set di dati USSI.
-
-1. Nel **pannello di navigazione**, andare a **Moduli > Gestione progetti e contabilità > Progetti > Tutti i progetti**.
-2. Nell'elenco trovare e selezionare il record desiderato.
-3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-4. Nel **riquadro azioni**, fare clic su **Piano**.
-5. Fare clic su **Budget progetto**.
-6. Digitare un valore nel campo **Descrizione**
-7. Espandere la Scheda dettaglio **Costo**.
-8. Fare clic su **Nuovo**.
-9. Selezionare un'opzione nel campo **Tipo di transazione**.
-10. Nel campo **Categoria** immettere o selezionare un valore.
-11. Nel campo **Budget originale** immettere un numero.
-12. Espandere la Scheda dettaglio **Ricavi**.
-13. Fare clic su **Nuovo**.
-14. Nell'elenco contrassegnare la riga selezionata.
-15. Selezionare un'opzione nel campo **Tipo di transazione**.
-16. Nel campo **Categoria** immettere o selezionare un valore.
-17. Nel campo **Budget originale** immettere un numero.
-18. Fare clic su **Salva**.
-19. Fare clic su **Flusso di lavoro**.
-20. Fare clic su **Invia**.
-21. Digitare un valore nel campo **Commento**.
-22. Fare clic su **Invia**.
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+1. Vai a **Moduli** > **Gestione progetti e contabilità** > **Progetti** > **Tutti i progetti**.
+1. Seleziona il progetto dall'elenco.
+1. Nella pagina dei dettagli del progetto, seleziona la scheda **Piano**.
+1. Sotto il gruppo **Budget** seleziona **Budget di progetto**.
+1. Nella scheda dettaglio **Generale** immettere le seguenti informazioni:
+   - Digitare un valore nella casella **Descrizione**.
+   - Seleziona l'opzione per **Budget originale**.
+   - Seleziona l'opzione per **Budget rimanente**.
+1. Espandi la scheda dettaglio **Costi** e seleziona **Nuovo**. Quindi effettua le seguenti impostazioni:
+   - Seleziona un'opzione per **Tipo di transazione**.
+   - Seleziona una **Categoria** appropriata.
+   - Inserisci un valore in **Budget originale**.
+1. Espandi la scheda dettaglio **Ricavi** e seleziona **Nuovo**. Quindi effettua le seguenti impostazioni:
+   - Seleziona un'opzione per **Tipo di transazione**.
+   - Seleziona una **Categoria**.
+   - Inserisci un valore per **Budget originale**.
+1. Seleziona **Salva**.
+1. Seleziona **Flusso di lavoro \> Invia**.
+1. Nella pagina **Rivedi il flusso di lavoro del budget originale - Invia**, inserisci un **Commento** e seleziona **Invia**.

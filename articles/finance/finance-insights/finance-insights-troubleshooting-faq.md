@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752619"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827055"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Risoluzione dei problemi di configurazione di Finance Insights
 
@@ -70,3 +70,26 @@ La funzione di previsione di cassa in Gestione cassa e banche e la funzione Prev
 Innanzitutto, configurare e abilitare i conti liquidità e la previsione di cassa. Per ulteriori informazioni, vedi [Previsione di cassa](../cash-bank-management/cash-flow-forecasting.md). Se questa configurazione è stata completata ma non sono visibili i risultati previsti, vedere [Risolvere i problemi di configurazione della previsione del flusso di cassa](../cash-bank-management/cash-flow-forecasting-tsg.md) per maggiori informazioni.
 
 Quindi, confermare che la funzione Previsioni di cassa in Finance Insights (**Gestione cassa e banca \> Impostazioni \> Finance Insights \> Previsioni di cassa**) sia stata abilitato e che il training del modello di intelligenza artificiale sia stato completato. Se il training non è stato completato, selezionare **Esegui previsione ora** per avviare il processo di training del modello.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Sintomo: perché il pulsante Installa un nuovo componente aggiuntivo non è visibile in Microsoft Dynamics Lifecycle Services?
+
+### <a name="resolution"></a>Risoluzione
+
+Innanzitutto, verifica che il ruolo **Responsabile ambiente** o **Proprietario del progetto** sia assegnato all'utente che ha eseguito l'accesso nel campo **Ruolo di sicurezza del progetto** in Microsoft Dynamics Lifecycle Services (LCS). L'installazione dei nuovi componenti aggiuntivi richiede uno di questi ruoli di sicurezza del progetto.
+
+Se ti è stato assegnato il ruolo di sicurezza del progetto corretto, potresti dover aggiornare la finestra del browser per vedere il pulsante **Installa nuovo componente aggiuntivo**.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Sintomo: il componente aggiuntivo Finance insights non sembra essere installato. Perché?
+
+### <a name="resolution"></a>Risoluzione
+
+I seguenti passaggi devono essere stati completati.
+
+- Verifica di avere l'accesso di **Amministratore di sistema** e **Responsabile della personalizzazione del sistema** all'interfaccia di amministrazione di Power Portal.
+- Verifica che una licenza Dynamics 365 Finance o equivalente sia applicata all'utente che sta installando il componente aggiuntivo.
+- Verifica che la seguente app Azure AD sia registrata in Azure AD: 
+
+  | Applicazione                  | ID app           |
+  | ---------------------------- | ---------------- |
+  | CDS microservizi ERP Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  
