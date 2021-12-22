@@ -92,7 +92,9 @@
                   items:
                     - name: Home page Novità o modifiche in Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: Commerce 10.0.24 (febbraio 2022)
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23 (gennaio 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (novembre 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,9 +546,11 @@
                       href: duplicate-payment-protection.md
                     - name: Panoramica dei pagamenti multicanale
                       href: omni-channel-payments.md
+                    - name: Diversi metodi di pagamento disponibili per il ritiro in negozio
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: Pagamenti ordini Commerce multicanale
                       href: dev-itpro/commerce-payments.md
-                    - name: Archiviare i dati della transazione con carta di credito
+                    - name: Archiviare i dati delle transazioni con carta di credito
                       href: dev-itpro/archive-cc-data.md
                     - name: Elaborare carte di credito senza una postazione hardware
                       href: dev-itpro/cnp-pos.md
@@ -814,6 +818,10 @@
           items:
             - name: Gestione dei clienti nei punti vendita
               href: customer-mgmt-stores.md
+            - name: Modalità di creazione clienti asincroni
+              href: async-customer-mode.md
+            - name: Convertire i clienti asincroni in clienti sincroni
+              href: convert-async-to-sync.md
             - name: Gestione profili clienti
               items:
                 - name: Panoramica della fidelizzazione dei clienti
@@ -1330,6 +1338,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Registrare documenti fiscali brasiliani tramite rendiconti della vendita al dettaglio in Commerce headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Funzionalità di integrazione con SAT e documento fiscale CF-e in Commerce POS per il Brasile
+                  href: localizations/latam-bra-cf-e-sat.md
                 - name: Dynamics 365 Payment Connector per Adyen in Commerce POS per il Brasile
                   href: localizations/latam-bra-adyen.md
             - name: Europa orientale
@@ -1372,14 +1382,16 @@
                   href: localizations/emea-deu-fi-sample.md
             - name: India
               items:
-                - name: Integrazione del'Imposta sui Beni e Servizi (GST) per i registratori di cassa
+                - name: Integrazione dell'Imposta sui Beni e Servizi (GST) per i registratori di cassa
                   href: localizations/apac-ind-cash-registers.md
                 - name: Linee guida per la distribuzione dei registratori di cassa
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Supporto per l'aggiornamento e N-1 per l'India
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: Generare codici QR e stamparli sulle ricevute
+                - name: Generare codici QR e stamparli sulle ricevute per l'India
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: Integrazione dell'Imposta sui Beni e Servizi (GST) per i siti di e-commerce
+                  href: localizations/apac-ind-e-commerce.md
             - name: Italia
               items:
                 - name: Esempio di integrazione di stampante fiscale per l'Italia
@@ -1616,7 +1628,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
-                    - name: Elenco
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
+                    - name: List
                       items:
                         - name: Funzioni di elenco
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json

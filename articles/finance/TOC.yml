@@ -70,12 +70,12 @@
                   items:
                     - name: Home page Novità o modifiche in Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (febbraio)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (gennaio)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (novembre 2021)
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: Finance 10.0.21 (ottobre 2021)
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Panoramica dell'impostazione budget
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Fondi budget disponibili
+              href: budgeting/budget-funds-available.md
             - name: Previsione delle posizioni
               href: budgeting/position-forecasting.md
             - name: Documenti di motivazione per pianificazione del budget
@@ -1434,6 +1436,8 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Impostare la fatturazione elettronica
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Riferimento per l'amministratore del plug-in Power Platform
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Domande frequenti sulla fatturazione elettronica
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Calcolo imposte
@@ -1444,6 +1448,14 @@
                       items:
                         - name: Introduzione al calcolo delle imposte
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Impostare i codici imposta
+                          href: localizations/set-up-tax-codes.md
+                        - name: Imposta i gruppi di imposte
+                          href: localizations/set-up-tax-groups.md
+                        - name: Imposta i gruppi di imposte articoli
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Importare ed esportare i calcoli delle imposte
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Configurare un ambiente per la ricerca dei dati master
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Determinazione
@@ -2594,6 +2606,8 @@
               items:
                 - name: Panoramica Indonesia
                   href: localizations/indonesia.md
+                - name: Numerazione e fatturazione delle fatture fiscali
+                  href: localizations/apac-idn-invoicing.md
                 - name: Dichiarazione IVA per l'Indonesia
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Italia
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Fatture elettroniche dei clienti
                   href: localizations/emea-ita-e-invoices.md
+                - name: Fatture elettroniche dei fornitori
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Comunicazione annuale imposte
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Tracciabilità dei pagamenti
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: Dichiarazione IVA
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: Recupero IVA con invio diretto ad Altinn
+                  items:
+                    - name: Panoramica del recupero IVA con invio diretto ad Altinn
+                      href: localizations/emea-nor-vat-return.md
+                    - name: Registrare un punto di integrazione nel portale Web ID-porten
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: Preparare l'ambiente per l'interoperabilità con i servizi Web ID-porten e Altinn
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: Lista di controllo per l'impostazione dei messaggi elettronici per il recupero IVA
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: Autorizzare l'ambiente Finance per l'interoperabilità con i servizi Web ID-Porten e Altinn
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: Inviare un recupero IVA al servizio Web Altinn
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: File di controllo standard per imposta (SAF-T) per la Norvegia
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Fatture elettroniche dei clienti in Norvegia
@@ -3400,7 +3430,7 @@
                       href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
                     - name: Testare l'interoperabilità con la sandbox IVA MTD
                       href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                    - name: Autorizzare l'ambiente Finance per l'interoperabilità con il servizio Web IVA MTD di HMRC
+                    - name: Autorizzare l'ambiente Finance per l'interoperabilità con il servizio Web MTD di HMRC
                       href: localizations/emea-gbr-mtd-vat-integration-authorization.md
                     - name: Inviare un recupero IVA al servizio Web MTD di HMRC
                       href: localizations/emea-gbr-mtd-vat-integration-submission.md
@@ -3831,7 +3861,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Elenco
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
+                    - name: List
                       items:
                         - name: Funzioni di elenco
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
