@@ -2,7 +2,7 @@
 title: Chiusura di fine anno
 description: In questo argomento viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale.
 author: kweekley
-ms.date: 07/10/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5677ebeee6b8260280d4c9c7c8a7a0e18e7bd78f68a42d23967948a2e75120cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778268"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892479"
 ---
 # <a name="year-end-close"></a>Chiusura di fine anno
 
@@ -44,7 +44,7 @@ Nella pagina **Conto principale**:
 Nella pagina **Parametri di contabilità generale** in **Chiusura anno fiscale**:
 
 - L'opzione **Elimina le voci di fine anno esistenti quando si richiude l'anno** viene usata per specificare se la transazione di apertura generata dal sistema da una precedente chiusura di fine anno deve essere eliminata quando la chiusura di fine anno viene nuovamente eseguita. Se l'opzione è impostata su **Sì**, le transazioni di apertura e facoltativamente chiusura precedenti verranno eliminate e una nuova transazione di apertura o chiusura viene creata in base ai saldi correnti. Se l'opzione è impostata su **No**, le precedenti transazioni di apertura e facoltativamente chiusura rimangono e una transazione di apertura o chiusura aggiuntiva viene creata per spostare i saldi in avanti dalle transazioni di rettifica registrate dopo la precedente chiusura di fine anno.
-- L'opzione **Crea transazioni di chiusura durante il trasferimento** viene utilizzata per creare le transazioni di chiusura dell'anno fiscale in chiusura per riportare i saldi dei conti profitti e perdite a 0 (zero). Se l'opzione è impostata su **Sì**, la transazione di apertura e di chiusura vengono entrambe create. Se l'opzione è impostata su **No**, soltanto la transazione di apertura viene creata nell'anno fiscale successivo per trasferire i saldi. I saldi dei conti profitti e perdite rimangono a fine anno fiscale.
+- L'opzione **Crea transazioni di chiusura durante il trasferimento** viene utilizzata per creare le transazioni di chiusura dell'anno fiscale in chiusura per riportare i saldi di tutti i conti principali a 0 (zero). Se l'opzione è impostata su **Sì**, la transazione di apertura e di chiusura vengono entrambe create. Se l'opzione è impostata su **No**, soltanto la transazione di apertura viene creata nell'anno fiscale successivo per trasferire i saldi. I saldi dei conti principali rimangono alla fine dell'anno fiscale.
 - L'opzione **Imposta stato anno fiscale su chiuso in modo permanente** viene utilizzata per impostare un anno fiscale definitivamente allo stato chiuso. Utilizza questa opzione con attenzione, perché i periodi con stato di chiusura permanente non possono essere riaperti. Pertanto, le rettifiche non possono essere registrate nell'anno fiscale. È consigliabile impostare questa opzione su **No**.
 - L'opzione **un numero di giustificativo deve essere completato durante la chiusura di fine anno** è stata rimossa. Ora è necessario un giustificativo quando viene eseguito il processo di chiusura di fine anno. A quel punto, il numero di giustificativo viene inserito manualmente.
 

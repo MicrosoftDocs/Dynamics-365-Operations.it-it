@@ -1,7 +1,7 @@
 ---
 title: Riduzione del 150% dell'ammortamento del saldo
-description: Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 150%.
-author: saraschi2
+description: Questo argomento illustra una panoramica del metodo di ammortamento a saldi decrescenti del 150%.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c9d1db1099b2c118f67a74a49fc104b8b1761288f66543ab55d5001fc43ec31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747157"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883314"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Riduzione del 150% dell'ammortamento del saldo
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 150%.
+Questo argomento illustra una panoramica del metodo di ammortamento a saldi decrescenti del 150%.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Saldo decrescente 150%** nel campo **Metodo** della pagina **Profili di ammortamento**, ai cespiti che sono assegnati al profilo di ammortamento verrà applicata la stessa percentuale di ammortamento in ciascun periodo di ammortamento. Questa percentuale viene calcolata in base alla vita utile del cespite. Ad esempio, se un cespite ha una vita utile di cinque anni, la percentuale viene calcolata come 30% (150% ÷ 5). 
 

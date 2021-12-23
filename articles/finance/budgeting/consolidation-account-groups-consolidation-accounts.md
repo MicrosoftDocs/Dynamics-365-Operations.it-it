@@ -1,7 +1,7 @@
 ---
 title: Gruppi di conti di consolidamento e conti di consolidamento aggiuntivi
-description: In questo argomento vengono fornite informazioni sui gruppi di conti di consolidamento e sui conti di consolidamento aggiuntivi e viene illustrato come vengono utilizzati in Microsoft Dynamics 365 Finance.
-author: aprilolson
+description: In questo argomento vengono fornite informazioni sui gruppi di conti di consolidamento e sui conti di consolidamento aggiuntivi e viene illustrato come vengono utilizzati.
+author: panolte
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
@@ -12,25 +12,25 @@ ms.reviewer: roschlom
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: aolson
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3e6671e5f3ceff671210011913a3a91194613c7c0e4e1d8e8063e4e27e5f3cf5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727422"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883389"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Gruppi di conti di consolidamento e conti di consolidamento aggiuntivi
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sui gruppi di conti di consolidamento e sui conti di consolidamento aggiuntivi e viene illustrato come vengono utilizzati in Microsoft Dynamics 365 Finance.
+In questo argomento vengono fornite informazioni sui gruppi di conti di consolidamento e sui conti di consolidamento aggiuntivi e viene illustrato come vengono utilizzati.
 
 ## <a name="consolidation-account-groups"></a>Gruppi di conti di consolidamento
 
-I gruppi di conti di consolidamento consentono di creare gruppi di conti da utilizzare per consolidare i dati. In genere, un gruppo di conti di consolidamento rappresenta un piano dei conti definito dal Governo o mappa i conti a un gruppo definito dalla sede centrale della società. I gruppi di conti di consolidamento sono disponibili nell'area **Impostazioni** del modulo **Consolidamenti**. Quando si aggiunge un nuovo gruppo, si immette un identificatore univoco per il gruppo di conti e un nome.
+I gruppi di conti di consolidamento consentono di creare gruppi di conti da utilizzare per consolidare i dati. In genere, un gruppo di conti di consolidamento rappresenta un piano dei conti imposto dal governo. Un gruppo di conti di consolidamento può anche mappare i conti a un gruppo definito dalla sede centrale della società. I gruppi di conti di consolidamento sono disponibili nell'area **Impostazioni** del modulo **Consolidamenti**. Quando aggiungi un nuovo gruppo, immetti un identificatore univoco per il gruppo di conti e un nome.
 
 ## <a name="additional-consolidation-accounts"></a>Conti di consolidamento aggiuntivi
 I conti di consolidamento aggiuntivi consentono di assegnare un conto da un piano dei conti esistente a un gruppo di conti di consolidamento. Successivamente è possibile specificare un valore e un nome di conto di consolidamento. 

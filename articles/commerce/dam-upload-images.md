@@ -2,7 +2,7 @@
 title: Caricare immagini
 description: In questo argomento viene descritto come caricare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423257"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891524"
 ---
 # <a name="upload-images"></a>Caricare immagini
 
@@ -41,7 +41,8 @@ Quando si carica un'immagine, è possibile specificare le seguenti informazioni.
 - **Pubblica risorse dopo il caricamento**: quando questa casella di controllo è selezionata, l'immagine o le immagini vengono pubblicate immediatamente dopo il caricamento.
 
 > [!NOTE]
-> Le risorse immagine con una categoria assegnata vengono inoltre automaticamente contrassegnate con la categoria come parola chiave per facilitare la ricerca di risorse di una categoria specifica.
+> - Le risorse immagine con una categoria assegnata vengono inoltre automaticamente contrassegnate con la categoria come parola chiave per facilitare la ricerca di risorse di una categoria specifica.
+> - Le pagine dei dettagli del prodotto generano dinamicamente il **Testo alternativo** utilizzando il nome del prodotto, quindi cambiando il **Testo alternativo** con l'immagine di un prodotto non avrà alcun impatto sull'immagine sottoposta a rendering.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Convenzioni di denominazione per immagini omnicanale 
 

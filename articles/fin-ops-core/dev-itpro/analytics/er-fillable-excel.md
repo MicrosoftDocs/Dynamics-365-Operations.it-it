@@ -2,7 +2,7 @@
 title: Progettare una configurazione per generare documenti in uscita in formato Excel
 description: Questo argomento descrive come progettare un formato di report elettronico (ER) per compilare un modello Excel e quindi generare documenti in formato Excel in uscita.
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731640"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890867"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
 [!include[banner](../includes/banner.md)]
 
-Puoi progettare una configurazione del formato del [report elettronico (ER)](general-electronic-reporting.md) che abbia un [componente del formato](general-electronic-reporting.md#FormatComponentOutbound) ER che puoi configurare per generare un documento in uscita in un formato cartella di lavoro Microsoft Excel. A tale scopo devono essere utilizzati componenti specifici del formato ER.
+Puoi progettare una configurazione del formato del [report elettronico (ER)](general-electronic-reporting.md) che abbia un componente del formato ER che puoi configurare per generare un documento in uscita in un formato cartella di lavoro Microsoft Excel. A tale scopo devono essere utilizzati componenti specifici del formato ER.
 
 Per ulteriori informazioni su questa funzionalità, segui i passaggi nell'argomento [Progettare una configurazione per la generazione di report in formato OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
@@ -330,6 +330,40 @@ Quando viene generato un documento in uscita in un formato di cartella di lavoro
 6. Genera un documento FTI stampabile ed esaminare il piè di pagina del documento generato.
 
     ![Esame del piè di pagina di un documento generato in formato Excel.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Esempio 2: risoluzione del problema EPPlus delle celle unite
+
+È possibile eseguire un formato ER per generare un documento in uscita in un formato cartella di lavoro di Excel. Quando la funzionalità **Abilita l'utilizzo della libreria EPPlus nel framework per la creazione di report elettronici** è abilitata nell'area di lavoro **Gestione funzionalità**, la [Libreria EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) viene utilizzata per produrre l'output di Excel. Tuttavia, a causa del noto [Comportamento di Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) e di una limitazione della libreria EPPlus, potresti riscontrare la seguente eccezione: "Impossibile eliminare/sovrascrivere le celle unite. Un intervallo viene parzialmente unito all'altro intervallo unito." Per sapere che tipo di modelli di Excel possono causare questa eccezione e come risolvere il problema, completa l'esempio seguente.
+
+1. Nell'applicazione desktop Excel, crea una nuova cartella di lavoro di Excel.
+2. Nel foglio di lavoro **Foglio1**, aggiungi il nome **ReportTitle** per la cella **A2**.
+3. Unisci le celle **A1** e **A2**.
+
+    ![Esamina i risultati dell'unione delle celle A1 e A2 nella cartella di lavoro Excel progettata nell'applicazione desktop Excel.](./media/er-fillable-excel-example2-1.png)
+
+3. Nella pagina **Configurazioni** [aggiungi un nuovo formato ER](er-fillable-excel.md#add-a-new-er-format) per generare un documento in uscita in formato cartella di lavoro di Excel.
+4. Nella pagina **Progettazione formati**, [importa](er-fillable-excel.md#template-import) la cartella di lavoro di Excel progettata nel formato ER aggiunto come nuovo modello per i documenti in uscita.
+5. Nella scheda **Mapping** configura l'associazione per il componente **ReportTitle** di tipo [Cella](er-fillable-excel.md#cell-component).
+6. Esegui il formato ER configurato. Viene generata la seguente eccezione: "Impossibile eliminare/sovrascrivere le celle unite. Un intervallo viene parzialmente unito all'altro intervallo unito."
+
+    ![Esamina i risultati dell'esecuzione del formato ER configurato nella pagina Progettazione formato.](./media/er-fillable-excel-example2-2.png)
+
+È possibile risolvere il problema in uno dei seguenti modi:
+
+- **Più facile ma sconsigliato:** Nell'area di lavoro **Gestione funzionalità** disattiva la funzionalità **Abilita l'utilizzo della libreria EPPlus nel framework di creazione di report elettronici**. Sebbene questo approccio sia più semplice, potresti riscontrare altri problemi se lo usi, perché alcune funzionalità ER sono supportate solo quando la funzionalità **Abilita l'utilizzo della libreria EPPlus nel framework di creazione di report elettronici** è abilitata.
+- **Consigliato:** segui questi passaggi:
+
+    1. Nell'applicazione desktop Excel modifica la cartella di lavoro di Excel in uno dei seguenti modi:
+
+        - Sul foglio di lavoro **Foglio1**, separa le celle **A1** e **A2**.
+        - Modifica il riferimento per il nome **ReportTitle** da **=Sheet1!$A$2** a **=Sheet1!$A$1**.
+
+        ![Esamina i risultati della modifica del riferimento nella cartella di lavoro Excel progettata nell'applicazione desktop Excel.](./media/er-fillable-excel-example2-3.png)
+
+    2. Nella pagina **Progettazione formati** [importa](er-fillable-excel.md#template-import) la cartella di lavoro Excel modificata nel formato ER modificabile per aggiornare il modello esistente.
+    3. Esegui il formato ER modificato.
+
+        ![Esamina il documento generato nell'applicazione desktop Excel.](./media/er-fillable-excel-example2-4.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

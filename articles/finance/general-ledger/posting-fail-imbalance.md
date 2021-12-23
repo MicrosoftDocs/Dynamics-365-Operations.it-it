@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605431"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903252"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Insuccesso della pubblicazione del giornale a causa dello squilibrio
 
@@ -52,13 +52,13 @@ In uno scenario supportato, un giustificativo può avere più di una valuta di t
 
 Se tutte le righe di un giustificativo hanno la stessa valuta di transazione, e se gli importi della valuta di transazione sono bilanciati, il sistema verifica che gli importi della valuta contabile siano bilanciati. Se il giustificativo è inserito in una valuta estera, il tasso di cambio sulle righe del giustificativo è usato per tradurre gli importi della valuta della transazione nella valuta contabile. Innanzitutto, ogni riga del voucher viene tradotta e arrotondata a due cifre decimali. Poi le linee vengono sommate per determinare il totale dei debiti e il totale dei crediti. Poiché ogni riga è tradotta, il totale dei debiti e il totale dei crediti potrebbero non essere bilanciati. Tuttavia, se il valore assoluto della differenza è all'interno del valore **massimo di differenza di centesimo** che è definito nella pagina dei **parametri della contabilità generale** , il giustificativo sarà inviato e la differenza sarà automaticamente inviata al conto differenza di penny.
 
-Se il giustificativo ha più di una valuta di transazione, ogni riga del giustificativo viene tradotta nella valuta contabile e arrotondato di due posizioni decimali e poi le righe vengono sommate per determinare i debiti totali e i crediti totali. Per essere considerati bilanciati, i debiti e i crediti devono essere bilanciati, tradotti o quando è inclusa la differenza di arrotondamento al centesimo della valuta contabile.
+Se il giustificativo ha più di una valuta di transazione, ogni riga del giustificativo viene tradotta nella valuta contabile e arrotondato di due posizioni decimali e poi le righe vengono sommate per determinare i debiti totali e i crediti totali. Per essere considerati bilanciati, i debiti e i crediti devono essere bilanciati nella valuta di contabilizzazione.  Un conto con differenza in centesimi non viene mai aggiunto al giustificativo nella valuta contabile per portare in pareggio gli addebiti e gli accrediti. 
 
 ### <a name="reporting-currency"></a>Valuta dichiarazione
 
 Se tutte le righe di un giustificativo hanno la stessa valuta della transazione e se gli importi della valuta della transazione sono bilanciati, il sistema verifica che gli importi della valuta di segnalazione siano bilanciati. Se il giustificativo è inserito in una valuta estera, il tasso di cambio sulle righe del giustificativo è usato per tradurre gli importi della valuta della transazione nella valuta di segnalazione. Innanzitutto, ogni riga del voucher viene tradotta e arrotondata a due cifre decimali. Poi le linee vengono sommate per determinare il totale dei debiti e il totale dei crediti. Poiché ogni riga è tradotta, il totale dei debiti e il totale dei crediti potrebbero non essere bilanciati. Tuttavia, se la differenza è all'interno del valore **massimo di penny-rounding nella valuta di segnalazione** che è definito nella pagina dei **parametri di contabilità generale** , il giustificativo sarà inviato, e la differenza sarà automaticamente inviata al conto della differenza di penny.
 
-Se il giustificativo ha più di una valuta di transazione, ogni riga del giustificativo viene tradotta nella valuta dichiarazione e arrotondato di due posizioni decimali e poi le righe vengono sommate per determinare i debiti totali e i crediti totali. Per essere considerati bilanciati, i debiti e i crediti devono essere bilanciati, tradotti o quando è inclusa la differenza di dichiarazione al centesimo della valuta contabile.
+Se il giustificativo ha più di una valuta di transazione, ogni riga del giustificativo viene tradotta nella valuta dichiarazione e arrotondato di due posizioni decimali e poi le righe vengono sommate per determinare i debiti totali e i crediti totali. Per essere considerati bilanciati, i debiti e i crediti devono essere bilanciati nella valuta di dichiarazione.  Un conto con differenza in centesimi non viene mai aggiunto al giustificativo nella valuta di dichiarazione per portare in pareggio gli addebiti e gli accrediti.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Esempio per uno squilibrio valutario contabile
 

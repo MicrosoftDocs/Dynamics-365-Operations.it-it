@@ -2,7 +2,7 @@
 title: Panoramica dello strumento di creazione di report elettronici
 description: Viene fornita una panoramica dello strumento di creazione di report elettronici. Descrive concetti chiave, scenari supportati e formati che fanno parte della soluzione.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562178"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867282"
 ---
 # <a name="electronic-reporting-er-overview"></a>Panoramica dei report elettronici
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562178"
 
 Viene fornita una panoramica dello strumento di creazione di report elettronici. Sono incluse le informazioni sui concetti chiave e sugli scenari supportati da ER, oltre a un elenco di formati progettati e rilasciati come parte della soluzione.
 
-Creazione di report elettronici è uno strumento che è possibile utilizzare per configurare i formati sia dei documenti elettronici in entrata che di quelli in uscita in conformità con i requisiti legali di vari paesi o aree. ER consente di gestire questi formati durante il ciclo di vita. Ad esempio, è possibile adottare nuovi requisiti normativi e generare documenti aziendali nel formato richiesto per scambiare elettronicamente informazioni con enti governativi, banche e altre parti.
+ER è uno strumento configurabile che ti aiuta a creare e mantenere report e pagamenti elettronici normativi. Si basa sui seguenti tre concetti:
+
+- Configurazione invece di codifica:
+
+    - La configurazione può essere eseguita da un utente aziendale e non richiede uno sviluppatore.
+    - Il modello di dati è definito in termini di azienda.
+    - Gli editor visivi vengono utilizzati per creare tutti i componenti della configurazione ER.
+    - Il linguaggio utilizzato per la trasformazione dei dati è simile al linguaggio utilizzato in Microsoft Excel.
+
+- Una configurazione per più versioni di Dynamics 365 Finance:
+
+    - Gestisci un modello di dati specifico del dominio definito in termini aziendali.
+    - Isola i dettagli della versione dell'applicazione nei mapping del modello di dati dipendente dalla versione.
+    - Mantieni una configurazione di formato per più rilasci della versione corrente, in base al modello di dati.
+
+- Aggiornamento facile o automatico:
+
+    - il controllo delle versioni delle configurazioni ER è supportato.
+    - La libreria dei cespiti Microsoft Dynamics Lifecycle Services (LCS) può essere utilizzata come repository per le configurazioni ER, per lo scambio di versioni.
+    - Le localizzazioni basate sulle configurazioni ER originali possono essere introdotte come versioni figlio.
+    - Viene fornito un albero di configurazione ER come strumento che aiuta a controllare le dipendenze per le versioni.
+    - Le differenze di localizzazione, o configurazione delta, vengono registrate per consentire l'aggiornamento automatico a una nuova versione della configurazione ER originale.
+    - È facile risolvere manualmente i conflitti rilevati durante l'aggiornamento automatico delle versioni di localizzazione.
+
+Lo strumento ER ti consente di definire le strutture dei formati elettronici e descrivere come le strutture devono essere riempite usando dati e algoritmi. È possibile utilizzare un linguaggio di formula simile al linguaggio di Excel per la trasformazione dei dati. Per rendere il mapping dal database al formato più gestibile, riutilizzabile e indipendente dalle modifiche al formato, viene introdotto un concetto di modello di dati intermedio. Questo concetto consente di nascondere i dettagli di implementazione dal mapping di formato e consente di riutilizzare un singolo modello di dati per più mapping di formato.
+
+Puoi utilizzare ER per configurare i formati sia dei documenti elettronici in entrata che di quelli in uscita in conformità con i requisiti legali di vari paesi ed aree. ER consente di gestire questi formati durante il ciclo di vita. Ad esempio, è possibile adottare nuovi requisiti normativi e generare documenti aziendali nel formato richiesto per scambiare elettronicamente informazioni con enti governativi, banche o più parti.
 
 Il motore di ER è rivolto agli utenti aziendali anziché agli sviluppatori. Poiché si configurano formati, non il codice, i processi di creazione e modifica di formati per i documenti elettronici sono più veloci e semplici.
 
-ER attualmente supporta i formati di foglio di lavoro TEXT, XML, documento di Microsoft Word e OPENXML. Tuttavia, un'interfaccia di estensione fornisce supporto per formati aggiuntivi.
+ER attualmente supporta i formati di foglio di lavoro TEXT, XML, JSON, PDF, Microsoft Word, Microsoft Excel e OPENXML.
 
 ## <a name="capabilities"></a>Capacità
 
@@ -48,6 +74,10 @@ Il motore ER presenta le seguenti funzionalità:
 
 ## <a name="key-concepts"></a>Concetti chiave
 
+### <a name="main-data-flow"></a>Flusso di dati principale
+
+[![Flusso di dati principale ER.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Componenti
 
 ER supporta i seguenti tipi di componenti:
@@ -59,74 +89,6 @@ ER supporta i seguenti tipi di componenti:
 
 Per ulteriori informazioni, vedere [Componenti di Creazione di report elettronici](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Componenti di mapping di modelli e modelli dati
-
-Il componente modello dati è una rappresentazione astratta di una struttura dati. È utilizzata per descrivere un'area specifica del dominio aziendale con sufficienti dettagli per soddisfare le esigenze di reporting del dominio. Un componente modello dati è costituito dalle seguenti parti:
-
-- <a name="DataModelComponent"></a>Un modello dati come set di entità aziendali specifiche del dominio e una definizione con struttura gerarchica delle relazioni tra tali entità.
-- <a name="ModelMappingComponent"></a>Un mapping di modello che collega determinate origini dati dell'applicazione a singoli elementi di un modello dati che specifica in fase di esecuzione il flusso di dati e le regole di inserimento dei dati aziendali in un componente modello dati.
-
-Un'entità aziendale di un modello dati è rappresentata come contenitore (record). Le proprietà dell'entità aziendale sono rappresentate come elementi dati (campi). Ciascun elemento di dati dispone di un nome, un'etichetta, una descrizione e un valore univoci. Il valore di ogni elemento di dati può essere progettato in modo che venga riconosciuto come stringa, intero, reale, data, enumerazione, booleano e così via. Inoltre, può essere un altro record o elenco di record.
-
-Un singolo componente modello dati può contenere più gerarchie di entità aziendali specifiche del dominio. Può inoltre contenere i mapping di modello che supportano un flusso di dati specifico di un report in fase di esecuzione. Le gerarchie vengono differenziate da un singolo record che è stato selezionato come radice del mapping di modello. Ad esempio, il modello dati dell'area del dominio pagamenti può supportare i mapping seguenti:
-
-- Società \> Fornitore -\> Transazioni di pagamento del dominio Contabilità fornitori
-- Cliente \> Società -\> Transazioni di pagamento del dominio Contabilità clienti
-
-Si noti che le entità aziendali (ad esempio società e transazioni di pagamento) vengono progettate una volta. Diversi mapping quindi le riutilizzano.
-
-Un mapping di modello che supporta documenti elettronici in uscita ha le seguenti funzionalità:
-
-- È possibile utilizzare diversi tipi di dati come origini dati per un modello di dati. Ad esempio, è possibile utilizzare le tabelle, le entità di dati, metodi o le enumerazioni.
-- Supporta parametri di input dell'utente che possono essere definiti come origini dati del modello dati quando è necessario specificare alcuni dati in fase di esecuzione.
-- Supporta la trasformazione di dati in gruppi richiesti. È inoltre possibile filtrare, ordinare e sommare i dati e aggiungere i campi calcolati logici progettati tramite formule simili alle formule di Microsoft Excel. Per ulteriori informazioni, vedere [Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md).
-
-Un mapping di modello che supporta documenti elettronici in entrata ha le seguenti funzionalità:
-
-- Può includere elementi di dati aggiornabili diversi come obiettivi. Questi elementi dati includono tabelle, entità di dati e visualizzazioni. I dati possono essere aggiornati utilizzando i dati dei documenti elettronici in entrata. Diverse destinazioni possono essere utilizzate in un singolo mapping di modelli.
-- Supporta parametri di input dell'utente che possono essere definiti come origini dati del modello dati quando è necessario specificare alcuni dati in fase di esecuzione.
-
-Un componente del modello dati è progettato per ciascun dominio aziendale da utilizzare come origine dati unificata per la creazione di report che isola la creazione di report dall'implementazione fisica delle origini dati. Rappresenta i concetti e le funzionalità aziendali specifici del dominio in una forma che rende più efficiente la progettazione iniziale dei formati di report e la successiva manutenzione.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Componenti di formato per i documenti elettronici in uscita
-
-Un componente formato è lo schema dell'output della creazione di report che sarà generato in fase di esecuzione. Uno schema comprende i seguenti elementi:
-
-- Un formato che definisce la struttura e il contenuto del documento elettronico in uscita generato in fase di esecuzione.
-- Origini dati come set di parametri di input dell'utente e un modello dati specifico del dominio che usa un mapping di modello selezionato
-- Un mapping di formato come set di associazioni di origini dati di formato che hanno singoli elementi di un formato che specificano in fase di esecuzione il flusso di dati e le regole per la generazione dell'output del formato.
-- Una convalida del formato come set di regole configurabili che controllano la creazione di report in fase di esecuzione a seconda del contesto di esecuzione. Ad esempio, una regola che interrompe la generazione dell'output dei pagamenti di un fornitore e genera un'eccezione quando gli attributi specifici del fornitore selezionato sono mancanti, quali il numero di conto corrente bancario.
-
-Un componente formato supporta le seguenti funzioni:
-
-- Creazione di output di report come singoli file in diversi formati, ad esempio testo, XML, documento di Microsoft Word o foglio di lavoro.
-- Creazione di più file separatamente e incapsulamento di tali file in file zip.
-
-Un componente formato consente di allegare file specifici che possono essere utilizzati nell'output di report:
-
-- Cartekke di lavoro di Excel che contengono un foglio di lavoro utilizzabile come modello per output nel formato foglio di lavoro OPENXML.
-- I file di Word che contengono un documento utilizzabile come modello per output nel formato documento di Microsoft Word.
-- Altri file che è possibile incorporare nell'output del formato come file predefiniti.
-
-Nella figura seguente viene illustrato il flusso dei dati per questi formati.
-
-[![Flusso di dati per i componenti di formato in uscita.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Per eseguire una singola configurazione di formato ER e generare un documento elettronico in uscita, è necessario identificare il mapping della configurazione di formato.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Componenti di formato per i documenti elettronici in entrata
-
-Un componente di formato è lo schema del documento in entrata importato in fase di esecuzione. Uno schema comprende i seguenti elementi:
-
-- Un formato che definisce la struttura e il contenuto del documento elettronico in entrata contenente i dati importati in fase di esecuzione. Un componente di formato viene utilizzato per analizzare un documento in entrata in vari formati, ad esempio testo e XML.
-- Un mapping di formato che associa i singoli elementi di formato agli elementi di un modello dati specifico del dominio. In fase di esecuzione, gli elementi del modello dati specificano il flusso di dati e le regole per importare i dati da un documento in entrata e quindi archiviare i dati in un modello dati.
-- Una convalida del formato come set di regole configurabili che controllano l'importazione dei dati in fase di esecuzione a seconda del contesto di esecuzione. Ad esempio, una regola che interrompe l'importazione dati di un rendiconto bancario con pagamenti di un fornitore e genera un'eccezione quando gli attributi di uno specifico fornitore sono mancanti, quali il codice di identificazione del fornitore.
-
-Nella figura seguente viene illustrato il flusso dei dati per questi formati.
-
-[![Flusso di dati per i componenti di formato in entrata.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Per eseguire una singola configurazione di formato ER per importare i dati di un documento elettronico in entrata, è necessario identificare il mapping desiderato di una configurazione di formato e il punto di integrazione di un mapping di modello. È possibile utilizzare lo stesso mapping di modello e le destinazioni con i diversi formati per tipi diversi di documenti in entrata.
 
 #### <a name="component-versioning"></a>Controllo delle versioni del componente
 

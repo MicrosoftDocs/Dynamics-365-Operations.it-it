@@ -2,7 +2,7 @@
 title: Impostare un sito di e-commerce B2B
 description: Questo argomento descrive come impostare un sito di e-commerce business-to-business (B2B) in Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 04/23/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 171e518258e9600bd7526cf52e3e456d272e6bce
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713750"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891387"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Creare un sito di e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 I siti di e-commerce business-to-business (B2B) forniscono alcune funzionalità chiave che ottimizzano il flusso di lavoro per un utente B2B. Questo argomento descrive come impostare un sito di e-commerce B2B in Microsoft Dynamics 365 Commerce. Passa attraverso i moduli e le impostazioni del sito che devono essere configurati per abilitare scenari specifici B2B.
 
@@ -306,6 +307,30 @@ Per aggiungere un modulo di aggiunta rapida alla pagina carrello in Creazione di
 
 > [!NOTE] 
 > Il modulo di aggiunta rapida è disponibile a partire dalla versione Commerce 10.0.17. Se stai aggiornando da una versione precedente di Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni, vedi [SDK e aggiornamenti della libreria moduli](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Aggiungere un modulo Acquisti in blocco a una pagina dettagli del prodotto
+
+Il modulo di acquisti in blocco in una pagina dei dettagli del prodotto fornisce un'esperienza basata su matrice che consente a un acquirente di aggiungere rapidamente più varianti di un prodotto al carrello. Quando un utente del sito deve ordinare più varianti dello stesso prodotto, questa esperienza elimina la necessità di selezionare la combinazione di dimensioni del prodotto, definire la quantità, aggiungere la variante al carrello e quindi ripetere il processo per altre combinazioni di dimensioni del prodotto.
+
+Per aggiungere un modulo di acquisti in blocco a una pagina dei dettagli del prodotto in Creazione di siti Web di Commerce, segui questi passaggi.
+
+1. Vai a **Modelli** e seleziona il modello di pagina dei dettagli del prodotto del tuo sito.
+1. Seleziona **Modifica**.
+1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** seleziona il modulo **Acquisti in blocco** e quindi seleziona **OK**.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
+1. Vai a **Pagine** e seleziona la pagina dei dettagli del prodotto del tuo sito.
+1. Nello slot **Principale** del modulo **Pagina predefinita**, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nel riquadro delle proprietà del modulo **Contenitore**, in **Larghezza** seleziona **Riempi contenitore**.
+1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
+1. Nella finestra di dialogo **Aggiungi modulo** seleziona il modulo **Acquisti in blocco** e quindi seleziona **OK**.
+1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
+
+> [!NOTE] 
+> Il modulo di acquisti in blocco è disponibile a partire dalla versione Commerce 10.0.24. Se stai aggiornando da una versione precedente di Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni, vedi [SDK e aggiornamenti della libreria moduli](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

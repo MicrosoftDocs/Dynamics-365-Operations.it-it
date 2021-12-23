@@ -1,5 +1,5 @@
 ---
-title: Anteprima di Dynamics 365 Supply Chain Management 10.0.23
+title: Anteprima di Dynamics 365 Supply Chain Management 10.0.23 (gennaio 2022)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777793"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891795"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.23
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.23 (gennaio 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della
 
 - **Anteprima della versione:** ottobre 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** dicembre 2021
+- **Disponibilità generale della versione (aggiornamento automatico):** gennaio 2022
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
@@ -53,6 +54,7 @@ Se vuoi attivare o disattivare una di queste funzioni, devi farlo in [gestione f
 | Gestione articoli e magazzino | \[Russia\] Registra le transazioni di magazzino finanziarie di Storno in base al flag di correzione nel giustificativo finanziario per gli ordini cliente | Questa funzione influisce sulla funzionalità di correzione delle note di credito per la Russia. Consente la registrazione delle transazioni di magazzino per le fatture di vendita in conformità con l'opzione di correzione nella contabilità generale. Quando questa funzione è abilitata, non ci sono più discrepanze tra il contrassegno **Correzione** sul giustificativo finanziario della transazione di inventario e il contrassegno **Storno** delle transazioni di inventario. |
 | Gestione articoli e magazzino | (Russia) Esegui calcolo report Rotazione saldo scorte in batch | Per le localizzazioni russe di Supply Chain Management, la funzionalità consente di eseguire il report *Rotazione saldo scorte* in modalità batch per archiviarlo e visualizzare i report generati in precedenza. |
 | Gestione articoli e magazzino | (Russia) Utilizza le traduzioni nella lingua locale nei moduli primari specifici del paese o dell'area geografica in Gestione inventario | Per le localizzazioni russe di Supply Chain Management, la funzionalità consente di utilizzare le traduzioni russe per nomi di prodotti/articoli e unità di misura negli stampati di inventario specifici per la Russia: elenco di conteggio (INV-3), elenco di conteggio (INV-5) ed elenco di conteggio (INV-6). |
+| Pianificazione generale | Servizio Azure Machine Learning per la previsione della domanda | Questa funzionalità consente al servizio Azure Machine Learning di generare previsioni della domanda in base ai dati storici. Per ulteriori informazioni, vedi [Impostazione della previsione della domanda](../master-planning/demand-forecasting-setup.md). |
 | Approvvigionamento | Pulisci storico aggiornamento ordini fornitore | Questa funzione consente di ripulire i record storici temporanei relativi agli aggiornamenti degli ordini fornitore. Aggiunge un nuovo pulsante chiamato **Pulisci storico aggiornamento acquisti** al riquadro azioni della pagina **Tutti gli ordini fornitore**. Questo funzionalità è abilitata per impostazione predefinita. |
 | Controllo produzione | (Anteprima) Prelievo automatico di materiali pronti per il magazzino per le distinte di prelievo registrate automaticamente | Questa funzionalità consente di prelevare automaticamente e di risolvere le dimensioni inventariali per giornali di distinte di prelievo registrati automaticamente, derivati e di tipo backflush. |
 | Controllo produzione | Convalida la scadenza delle materie prime rispetto alla data di consumo pianificata | Questa funzionalità cambia il modo in cui le date di scadenza del batch vengono convalidate quando si prenota un batch di materie prime da utilizzare durante la produzione. Quando questa funzionalità è abilitata, la data di scadenza del batch viene convalidata rispetto alla data di consumo pianificata (la data delle materie prime), come stabilito nella riga DBA di produzione o nella riga della formula dell'ordine batch. Quando questa funzionalità è disabilitata, la data di scadenza del batch viene convalidata rispetto alla data di consegna pianificata dell'ordine di produzione o batch (come in precedenza). |

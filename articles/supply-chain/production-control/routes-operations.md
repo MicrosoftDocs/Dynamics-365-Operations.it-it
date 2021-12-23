@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b31f949304dfc9cf8723c29c1354c35ff41dbe17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566697"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891955"
 ---
 # <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
@@ -223,7 +223,7 @@ Quando si utilizza questo metodo, la pagina **Relazioni operative** viene impost
 Se non si specifica una risorsa operativa o un gruppo di risorse come parte dei requisiti risorsa per un'operazione, le risorse applicabili possono funzionare secondo velocità diverse. Come risultato, il tempo necessario per elaborare l'operazione potrebbe variare. Per risolvere questo problema, è possibile utilizzare il campo **Formula** della relazione operativa per specificare come viene calcolato il tempo di elaborazione. Sono disponibili le seguenti opzioni:
 
 - **Standard** – (opzione predefinita) nel calcolo vengono utilizzati solo i campi della relazione operativa e viene moltiplicato il tempo di esecuzione specificato per la quantità dell'ordine.
-- **Capacità** – il calcolo include il campo **Capacità** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa. Il valore specificato per la risorsa operativa è la capacità oraria. Il **Tempo di processo** è calcolato come **Quantità dell'ordine** diviso per **Capacità**.
+- **Capacità** – il calcolo include il campo **Capacità** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa. Il valore specificato per la risorsa operativa è la capacità oraria. Il **Tempo di processo** è calcolato come **Quantità dell'ordine** diviso per **Capacità**. Il valore della capacità non è specifico di una particolare unità di misura e quindi non viene convertito in base al campo **Unità di capacità** che è solo un campo descrittivo che non viene utilizzato nei calcoli.
 - **Batch** – una capacità batch viene calcolata utilizzando le informazioni relative alla relazione operativa. Numero di batch e, di conseguenza, il tempo di elaborazione possono quindi essere calcolati in base alla quantità dell'ordine.
 - **Batch risorsa** – questa opzione è fondamentalmente uguale all'opzione **Batch**. Tuttavia, il calcolo include il campo **Capacità batch** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa.
 

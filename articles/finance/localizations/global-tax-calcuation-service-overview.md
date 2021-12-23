@@ -2,7 +2,7 @@
 title: Panoramica calcolo delle imposte
 description: In questo argomento vengono illustrati l'ambito e le funzionalità generali di Calcolo imposte.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647059"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892426"
 ---
 # <a name="tax-calculation-overview"></a>Panoramica calcolo delle imposte
 
@@ -65,9 +65,23 @@ Calcolo imposte viene distribuito nelle seguenti aree geografiche di Azure. Altr
 > [!NOTE]
 > Calcolo imposta non supporta le versioni precedenti di Dynamics 365, come Dynamics AX 2012, o le implementazioni on-premises di Dynamics 365.
 
+## <a name="versions"></a>Versioni
+Ti consigliamo di importare e impostare la configurazione del calcolo delle imposte con la versione che corrisponde alla tua versione di Finance o Supply Chain Management.
+
+| Versione di Finance o Supply Chain Management | Versione di configurazione delle imposte               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Configurazione fiscale - Europa 30.12.82     |
+| 10.0.19         | Configurazione del calcolo delle tasse 36.38.193 |
+| 10.0.20         | Configurazione del calcolo dell'imposta 40.43.208 |
+| 10.0.21         | Configurazione del calcolo dell'imposta 40.48.215 |
+| 10.0.22         | Configurazione del calcolo dell'imposta 40.48.215 |
+| 10.0.23         | Configurazione del calcolo dell'imposta 40.50.221 |
+| 10.0.24         | Configurazione del calcolo dell'imposta 40.50.225 |
+
+
 ## <a name="data-flow"></a>Flusso di dati
 
-Ecco uno schema del processo di flusso dei dati per tCalcolo imposta. 
+Ecco uno schema del processo di flusso dei dati per Calcolo imposta. 
 
 1. In RCS, visualizzare e importare configurazioni di modelli di documenti imponibili e configurazioni di mappatura dei modelli. Se devi estendere le configurazioni per uno scenario avanzato, vedi [Aggiungere campi di dati nelle configurazioni fiscali](tax-service-add-data-fields-tax-configurations.md).
 2. In RCS, creare o mantenere caratteristiche fiscali. È possibile utilizzare le funzioni fiscali per mantenere le aliquote d'imposta e le regole di applicabilità dell'imposta.
@@ -169,6 +183,10 @@ I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono 
 - Giappone
 - Malaysia
 - Singapore
+
+I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.24:
+
+- Messico
 
 ## <a name="related-resources"></a>Risorse correlate
 

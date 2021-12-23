@@ -1,8 +1,8 @@
 ---
 title: Miglioramenti alla funzionalità di registrazione del rendiconto
 description: Questo argomento descrive i miglioramenti apportati alla funzionalità di registrazione dei rendiconti.
-author: josaw1
-ms.date: 05/14/2019
+author: analpert
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,19 +10,20 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49fc9003eae562a155fd8e30345ba4590d36e15b61f9f6a3f0b5896cb720f414
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772206"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891445"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
 [!include [banner](includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Questo argomento descrive il primo set di miglioramenti apportati alla funzionalità di registrazione dei rendiconti. Questi miglioramenti sono disponibili in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -116,9 +117,17 @@ Per un rendiconto vengono eseguite varie operazioni (ad esempio, Crea, Calcola, 
 
 ### <a name="aggregated-transactions"></a>Transazioni aggregate
 
-Durante il processo di registrazione, le transazioni di vendita vengono aggregate in base alla configurazione. Queste transazioni aggregate sono archiviate nel sistema e utilizzate per creare ordini cliente. Ogni transazione aggregata crea un ordine cliente corrispondente nel sistema. È possibile visualizzare le transazioni aggregate utilizzando il pulsante **Transazioni aggregate** nel gruppo **Dettagli esecuzione** del rendiconto.
+Durante il processo di registrazione, le transazioni cash and carry vengono aggregate per cliente e prodotto. Pertanto, il numero di ordini cliente e righe creati è ridotto. Le transazioni aggregate sono archiviate nel sistema e utilizzate per creare ordini cliente. Ogni transazione aggregata crea un ordine cliente corrispondente nel sistema. 
 
-La scheda **Dettagli ordine cliente** di una transazione aggregata visualizza le seguenti informazioni:
+Se un rendiconto non è completamente registrato, puoi visualizzare le transazioni aggregate nel rendiconto. Nel riquadro azioni, nella scheda **Rendiconto**, nel gruppo **Dettagli esecuzione** seleziona **Transazioni aggregate**.
+
+![Pulsante Transazioni aggregate per un rendiconto non completamente registrato.](media/aggregated-transactions.png)
+
+Per i rendiconto registrati puoi visualizzare le transazioni aggregate nella pagina **Rendiconti registrati**. Nel riquadro azioni, seleziona **Richieste di informazioni**, quindi seleziona **Transazioni aggregate**.
+
+![Comando Transazioni aggregate per i rendiconti registrati.](media/aggregated-transactions-posted-statements.png)
+
+La scheda dettaglio **Dettagli ordine cliente** di una transazione aggregata visualizza le seguenti informazioni:
 
 - **ID record** – L'ID della transazione aggregata.
 - **Numero rendiconto** – Il rendiconto a cui appartiene la transazione aggregata.
@@ -127,12 +136,28 @@ La scheda **Dettagli ordine cliente** di una transazione aggregata visualizza le
 - **Numero di righe aggregate** – Il numero totale di righe per la transazione aggregata e l'ordine cliente.
 - **Stato** – L'ultimo stato della transazione aggregata.
 - **ID fattura** – Quando l'ordine cliente per la transazione aggregata viene fatturato, l'ID della fattura di vendita. Se questo campo è vuoto, la fattura dell'ordine cliente non è stata registrata.
+- **Codice di errore** – Questo campo è impostato se l'aggregazione è in uno stato di errore.
+- **Messaggio di errore** – Questo campo è impostato se l'aggregazione è in uno stato di errore. Mostra i dettagli su cosa ha causato l'esito negativo del processo. Puoi utilizzare le informazioni nel codice di errore per risolvere il problema, quindi riavviare manualmente il processo. A seconda del tipo di risoluzione, le vendite aggregate potrebbero dover essere eliminate ed elaborate su un nuovo rendiconto.
 
-Nella scheda **Dettagli transazioni** di una transazione aggregata vengono visualizzate tutte le transazioni inserite nella transazione aggregata. Le righe aggregate nella transazione aggregata visualizzano tutti i record aggregati delle transazioni. Le righe aggregate visualizzano anche dettagli quali articolo, variante, quantità, prezzo, importo netto, unità e magazzino. In pratica, ogni riga aggregata corrisponde a una riga di ordine cliente.
+![Campi nella Scheda dettaglio Dettagli ordine cliente di una transazione aggregata.](media/aggregated-transactions-error-message-view.png)
 
-Dalla pagina **Transazioni aggregate**, è possibile scaricare l'XML per una specifica transazione aggregata utilizzando il pulsante **Esporta ordine cliente XML**. È possibile utilizzare l'XML per il debug dei problemi relativi alla creazione e alla registrazione degli ordini cliente. Scaricare l'XML, caricarlo in un ambiente di test ed eseguire il debug del problema nell'ambiente di test. La funzionalità per il download dell'XML per le transazioni aggregate non è disponibile per i rendiconti registrati.
+Nella scheda dettaglio **Dettagli transazioni** di una transazione aggregata vengono visualizzate tutte le transazioni inserite nella transazione aggregata. Le righe aggregate nella transazione aggregata visualizzano tutti i record aggregati delle transazioni. Le righe aggregate visualizzano anche dettagli quali articolo, variante, quantità, prezzo, importo netto, unità e magazzino. In pratica, ogni riga aggregata corrisponde a una riga di ordine cliente.
 
-La visualizzazione della transazione aggregata fornisce i seguenti vantaggi:
+![Scheda dettaglio Dettagli transazione di una transazione aggregata.](media/aggregated-transactions-sales-details.png)
+
+In alcune situazioni, le transazioni aggregate potrebbero non riuscire a registrare l'ordine cliente consolidato. In queste situazioni, allo stato dell'istruzione verrà associato un codice di errore. Per visualizzare solo le transazioni aggregate che presentano errori, è possibile abilitare il filtro **Mostra solo errori** nella vista delle transazioni aggregate selezionando la casella di controllo. Abilitando questo filtro, limiti i risultati alle transazioni aggregate che contengono errori che richiedono una risoluzione. Per informazioni su come correggere questi errori, vedi [Modificare e verificare l'ordine online e le transazioni asincrone degli ordini dei clienti](edit-order-trans.md).
+
+![Casella di controllo per il filtro Mostra solo errori nella vista delle transazioni aggregate.](media/aggregated-transactions-failure-view.png)
+
+Dalla pagina **Transazioni aggregate**, è possibile scaricare l'XML per una specifica transazione aggregata selezionando **Esporta dati aggregati**. È possibile rivedere l'XML in qualsiasi strumento di formattazione XML per visualizzare i dettagli dei dati effettivi che implicano la creazione e la registrazione di ordini di vendita. La funzionalità per il download dell'XML per le transazioni aggregate non è disponibile per i rendiconti registrati.
+
+![Pulsante Esporta dati di aggregazione nella pagina Transazioni aggregate.](media/aggregated-transactions-export.png)
+
+Nel caso in cui non sia possibile correggere l'errore correggendo i dati sull'ordine di vendita o i dati che supportano l'ordine di vendita, un pulsante **Elimina ordine cliente** è disponibile. Per eliminare un ordine, seleziona la transazione aggregata non riuscita, quindi seleziona **Elimina ordine cliente**. La transazione aggregata e l'ordine cliente corrispondente vengono eliminati. Ora puoi rivedere le transazioni utilizzando la funzionalità di modifica e controllo. In alternativa, possono essere rielaborati attraverso un nuovo rendiconto. Dopo che tutti gli errori sono stati corretti, è possibile riprendere la registrazione del rendiconto eseguendo la funzione di post rendiconto per il rendiconto pertinente.
+
+![Pulsante Elimina ordine cliente nella vista delle transazioni aggregate.](media/aggregated-transactions-delete-cust-order.png)
+
+La visualizzazione delle transazioni aggregate fornisce i seguenti vantaggi:
 
 - L'utente ha visibilità sulle transazioni aggregate non riuscite durante la creazione degli ordini cliente e sugli ordini cliente non riusciti durante la fatturazione.
 - L'utente ha visibilità sul modo in cui le transazioni vengono aggregate.

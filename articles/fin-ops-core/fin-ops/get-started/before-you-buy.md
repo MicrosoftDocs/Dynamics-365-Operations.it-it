@@ -2,7 +2,7 @@
 title: Prima di acquistare
 description: Indicazioni dettagliate da utilizzare quando si intende acquistare Dynamics 365 Finance, Dynamics 365 Supply Chain Management o Dynamics 365 Commerce.
 author: ShellyBakke
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 0218dd93440c3cd76f16ac954dd7956998873931444fa1334e7382a177ff3fc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757197"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874586"
 ---
 # <a name="before-you-buy"></a>Prima di effettuare l'acquisto
 
@@ -42,7 +42,7 @@ Quando si sceglie un'opzione di distribuzione locale, è opportuno effettuare le
 - [Requisiti di sistema per le distribuzioni locali](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Le distribuzioni locali non sono supportate in nessuna infrastruttura di cloud pubblico, incluso Microsoft Azure.
+> Le distribuzioni locali non sono supportate in nessuna infrastruttura di cloud pubblico, incluso Microsoft Azure. Tuttavia, sono supportati per l'esecuzione in [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) e [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Per ulteriori informazioni, vedere [Opzioni di distribuzione](../../dev-itpro/deployment/choose-deployment-type.md)
 

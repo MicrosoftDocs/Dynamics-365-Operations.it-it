@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777769"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900707"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Miglioramenti cXML per gli acquisti
 
@@ -141,7 +141,7 @@ Quando hai finito di configurare tutte le proprietà e la configurazione delle a
 
 Come è stato accennato nella sezione [Impostare le proprietà dell'ordine](#set-order-properties), se desideri che il file cXML consegnato includa il testo delle note allegate all'ordine fornitore e/o ai record del fornitore, puoi impostare la proprietà **POCOMMENTS** e/o **VENDCOMMENTS** su _TRUE_ nella configurazione del catalogo esterno. Questa sezione fornisce maggiori dettagli su come il sistema seleziona ed elabora questi allegati, se vengono utilizzati.
 
-Per impostare i tipi di note che il sistema cercherà, vai a **Approvvigionamento \> Impostazione \> Moduli \> Dalla configurazione**. Quindi, nella scheda **Ordine fornitore**, imposta il campo **Includi documenti di tipo** al tipo di nota che vuoi essere in grado di includere. Verranno incluse solo note di testo, non allegati di documenti.
+Per impostare i tipi di note che il sistema cercherà, vai a **Approvvigionamento \> Impostazione \> Moduli \> Impostazione moduli**. Quindi, nella scheda **Ordine fornitore**, imposta il campo **Includi documenti di tipo** al tipo di nota che vuoi essere in grado di includere. Verranno incluse solo note di testo, non allegati di documenti.
 
 ![Pagina di configurazione del modulo.](media/cxml-form-setup.png "Pagina di configurazione del modulo")
 

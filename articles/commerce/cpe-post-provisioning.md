@@ -2,7 +2,7 @@
 title: Configurare un ambiente di valutazione Dynamics 365 Commerce
 description: Questo argomento illustra come configurare un ambiente di valutazione di Microsoft Dynamics 365 Commerce dopo il provisioning.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416481"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913729"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurare un ambiente di valutazione Dynamics 365 Commerce
 
@@ -39,6 +39,7 @@ Una volta eseguito il provisioning completo dell'ambiente di valutazione Commerc
 1. Selezionare l'ambiente nell'elenco.
 1. Nelle informazioni sull'ambiente a destra, selezionare **Accedi all'ambiente**. Si accederà a Commerce Headquarters.
 1. Assicurarsi che la persona giuridica **USRT** sia selezionata nell'angolo in alto a destra.
+2. Vai a **Parametri di commercio > Parametri di configurazione** e assicurati che ci sia una voce per **ProductSearch.UseAzureSearch** impostata su **true**. Se questa voce è mancante, puoi aggiungerla ed eseguire **Database canale > Sincronizzazione completa** per la Commerce Scale Unit associata al tuo sito Web eCommerce.
 
 Durante le attività di post-provisioning in Commerce headquarters, assicurarsi che la persona giuridica **USRT** sia sempre selezionata.
 
@@ -105,6 +106,12 @@ Per abilitare i processi in Commerce, effettuare le operazioni seguenti.
     1. Selezionare il record.
     1. Nel riquadro azioni, sulla scheda **Processo batch** selezionare **Cambia stato**.
     1. Selezionare **Annullamento** e quindi **OK**.
+
+1. Se lo stato del processo è **Trattenuto**, effettua le seguenti operazioni:
+
+    1. Selezionare il record.
+    1. Nel riquadro azioni, sulla scheda **Processo batch** selezionare **Cambia stato**.
+    1. Selezionare **In attesa** e quindi **OK**.
 
 Facoltativamente, è anche possibile impostare l'intervallo di ricorrenza su un (1) minuto per i seguenti lavori:
 

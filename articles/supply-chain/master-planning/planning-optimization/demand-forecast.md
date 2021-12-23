@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474846"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867249"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pianificazione generale con previsioni della domanda
 
@@ -84,11 +84,11 @@ Questa sezione fornisce informazioni sui differenti metodi utilizzati per ridurr
 
 Quando si include una previsione in un piano generale, è possibile selezionare il modo in cui ridurre i requisiti di previsione quando viene inclusa la domanda effettiva. Si noti che la pianificazione generale esclude i requisiti di previsione passati, il che significa tutti i requisiti di previsione prima della data odierna.
 
-Per includere una previsione in un piano generale e selezionare il metodo utilizzato per ridurre i requisiti di previsione, andare a **Pianificazione generale \> Impostazioni \> Piani \> Piani generali**. Selezionare un modello previsionale nel campo **Modello previsionale**. Nel campo **Metodo utilizzato per ridurre i requisiti di previsione**, selezionare un metodo. Di seguito vengono illustrate le opzioni disponibili.
+Per includere una previsione in un piano generale e selezionare il metodo utilizzato per ridurre i requisiti di previsione, andare a **Pianificazione generale \> Impostazioni \> Piani \> Piani generali**. Selezionare un modello previsionale nel campo **Modello previsionale**. Nel campo **Metodo utilizzato per ridurre i requisiti di previsione**, selezionare un metodo. Sono disponibili le opzioni seguenti:
 
-- Nessuna priorità
+- Nessuno
 - Percentuale - chiave di riduzione
-- Transazioni - chiave di riduzione (non ancora supportata con l'ottimizzazione della pianificazione)
+- Transazioni - chiave di riduzione
 - Transazioni - periodo dinamico
 
 Nelle sezioni seguenti vengono fornite altre informazioni sui ogni opzione.

@@ -2,7 +2,7 @@
 title: Crea modelli e-mail per eventi transazionali
 description: Questo argomento descrive come creare, caricare e configurare modelli e-mail per eventi transazionali in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 10/26/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 69ba8821cde6788d6e0accb37288f92acdfc776c
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713799"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913754"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Creare modelli e-mail per eventi transazionali
 
@@ -136,7 +136,7 @@ Il tipo di notifica Prospect B2B approvato supporta i seguenti segnaposto aggiun
 | `storename`        | Il nome del canale in cui è stato creato il potenziale cliente. |
 | `storeurl`         | Vuoto per impostazione predefinita. È necessario creare un'estensione personalizzata per utilizzare questo segnaposto. |
 
-### <a name="b2b-prospect-approved"></a>Prospect B2B approvato
+### <a name="b2b-prospect-rejected"></a>Prospect B2B rifiutato
 
 Il tipo di notifica *Prospect B2B rifiutato* viene attivato quando la richiesta di onboarding di un potenziale cliente viene rifiutata in Commerce headquarters. Per ulteriori informazioni su come approvare o rifiutare potenziali clienti B2B, vedi [Impostare l'utente amministratore per un nuovo partner commerciale](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
 

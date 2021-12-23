@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8681ef80166f7d5f108c9424b53fa5c6f5324467
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645784"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902561"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione della pianificazione
 
@@ -40,7 +40,7 @@ Prima di attivare l'ottimizzazione di pianificazione, si consiglia vivamente di 
 
 ## <a name="availability"></a>Disponibilità
 
-L'ottimizzazione di pianificazione è attualmente disponibile nelle seguenti aree geografiche di Azure: Stati Uniti, Canada, Europa, Regno Unito, Australia, Asia Pacifico e Giappone. Se si tenta di installare il componente aggiuntivo da un'altra area geografica, LCS mostrerà un messaggio che indica che l'area geografica non è supportata. Per ulteriori informazioni sulle aree geografiche di Azure e sulle aree correlate, vedi [Aree geografiche di Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+L'ottimizzazione di pianificazione è attualmente disponibile nelle seguenti aree geografiche di Azure: Stati Uniti, Canada, Europa, Regno Unito, Australia, Asia Pacifico, Giappone e India. Se si tenta di installare il componente aggiuntivo da un'altra area geografica, LCS mostrerà un messaggio che indica che l'area geografica non è supportata. Per ulteriori informazioni sulle aree geografiche di Azure e sulle aree correlate, vedi [Aree geografiche di Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 L'ottimizzazione di pianificazione non supporta le distribuzioni locali Dynamics 365 Supply Chain Management.
 

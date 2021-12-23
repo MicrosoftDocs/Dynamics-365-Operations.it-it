@@ -1,8 +1,8 @@
 ---
 title: Esempio di integrazione di stampante fiscale per l'Italia
 description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia.
-author: josaw
-ms.date: 09/21/2021
+author: EvgenyPopovMBS
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 71cac2406a8d2a9f0affe1b2af8c0710d749a306
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: d9feeeec934e85dc9c5033e6fcd827a05e73ff5b
+ms.sourcegitcommit: 971456c197820421f108ad7345001cc1b6c99949
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512489"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "7875439"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
@@ -60,7 +60,7 @@ Gli scenari seguenti sono coperti dall'esempio di integrazione di stampante fisc
     - Stampare ricevute fiscali per operazioni di ordini cliente:
 
         - Una ricevuta fiscale non viene stampata per un deposito ordine cliente.
-        - Stampare una ricevuta fiscale per righe di esecuzione di un ordine cliente ibrido.
+        - Stampa una ricevuta fiscale per righe di esecuzione di un ordine cliente ibrido.
         - Stampare una ricevuta fiscale per l'operazione di prelievo per un ordine cliente.
         - Stampare una ricevuta fiscale per un ordine di reso.
 
@@ -79,13 +79,101 @@ Gli scenari seguenti sono coperti dall'esempio di integrazione di stampante fisc
 
 Il mapping dei dati predefiniti seguente è incluso nella configurazione di provider di documenti fiscali fornita nell'esempio di integrazione fiscale:
 
-- Mapping delle aliquote IVA:
+- **Mapping del tipo metodo di pagamento** – Il mapping dei metodi di pagamento configurati per il negozio ai tipi di pagamento supportati dalla stampante fiscale. L'esempio seguente mostra il mapping predefinito.
 
-    *1 : 22.00 ; 2 : 10.00 ; 3 : 4.00 ; 4 : 0.00*
+    ```JSON
+    {"PaymentMethods": [
+        {"StorePaymentMethod":"1", "PrinterPaymentType":"0", "PrinterPaymentIndex":"00"},
+        {"StorePaymentMethod":"3", "PrinterPaymentType":"2", "PrinterPaymentIndex":"00"},
+        {"StorePaymentMethod":"4", "PrinterPaymentType":"2", "PrinterPaymentIndex":"01"},
+        {"StorePaymentMethod":"6", "PrinterPaymentType":"0", "PrinterPaymentIndex":"01"},
+        {"StorePaymentMethod":"8", "PrinterPaymentType":"6", "PrinterPaymentIndex":"01"}
+        ],
+        "DepositPaymentMethod": {"PrinterPaymentType":"2", "PrinterPaymentIndex":"00"}}
+    ```
 
-- Mapping del tipo di metodo di pagamento:
+    Ecco una spiegazione degli attributi nel mapping:
 
-    *1 : 0 ; 2 : 1 ; 3 : 2 ; 4 : 2 ; 5 : 0 ; 6 : 0 ; 7 : 0 ; 8 : 2 ; 9 : 0 ; 10 : 2 ; 11 : 1*
+    - **StorePaymentMethod** è un metodo di pagamento impostato per il negozio in **Retail e Commerce  \> Configurazione canale \> Modalità di pagamento \> Modalità di pagamento**.
+    - **PrinterPaymentType** e **PrinterPaymentIndex** sono il tipo di pagamento e l'indice corrispondenti definiti nella documentazione della stampante fiscale Epson.
+    - **DepositPaymentMethod** viene utilizzato per specificare il tipo di pagamento e l'indice di una stampante per la parte dell'importo del ritiro dell'ordine del cliente che viene saldata con il deposito dell'ordine del cliente.
+
+    La tabella seguente mostra come il mapping di esempio dei metodi di pagamento corrisponda ai metodi di pagamento memorizzati che sono configurati nei dati demo standard.
+
+    | Metodo di pagamento | Nome metodo di pagamento |
+    |----------------|---------------------|
+    | 1              | Cassa                |
+    | 3              | Scheda                |
+    | 4              | Conto cliente    |
+    | 6              | Valuta            |
+    | 8              | Gift card           |
+
+    È necessario modificare il mapping di esempio in base ai metodi di pagamento configurati nell'applicazione.
+
+- **Tipo di codice a barre per il numero di ricevuta** – Il tipo di codice a barre utilizzato per mostrare il numero di ricevuta fiscale. Il mapping predefinito è **CODICE128**.
+- **Stampa i dati fiscali nell'intestazione della ricevuta** – Se questo parametro è attivo, sulla ricevuta fiscale verranno stampate le informazioni sul punto vendita. Queste informazioni includono il nome, l'indirizzo e il codice fiscale del negozio e il nome del cassiere.
+- **Mapping del reparto stampante fiscale** – Il mapping dei reparti della stampante fiscale alle aliquote dell'IVA, ai motivi di esenzione da IVA e ai tipi di prodotto. L'esempio seguente mostra il mapping predefinito.
+
+    ```JSON
+    {"Departments": [
+        {"VATRate":"2200", "VATExemptNature":"", "ProductType":"0", "DepartmentNumber":"01"},
+        {"VATRate":"2200", "VATExemptNature":"", "ProductType":"1", "DepartmentNumber":"02"},
+        {"VATRate":"1000", "VATExemptNature":"", "ProductType":"0", "DepartmentNumber":"03"},
+        {"VATRate":"1000", "VATExemptNature":"", "ProductType":"1", "DepartmentNumber":"04"},
+        {"VATRate":"0500", "VATExemptNature":"", "ProductType":"0", "DepartmentNumber":"05"},
+        {"VATRate":"0500", "VATExemptNature":"", "ProductType":"1", "DepartmentNumber":"06"},
+        {"VATRate":"0400", "VATExemptNature":"", "ProductType":"0", "DepartmentNumber":"07"},
+        {"VATRate":"0400", "VATExemptNature":"", "ProductType":"1", "DepartmentNumber":"08"},
+        {"VATRate":"0000", "VATExemptNature":"", "ProductType":"0", "DepartmentNumber":"09"},
+        {"VATRate":"0000", "VATExemptNature":"", "ProductType":"1", "DepartmentNumber":"10"},
+        {"VATRate":"0000", "VATExemptNature":"NS", "ProductType":"0", "DepartmentNumber":"99"}]}
+    ```
+
+    Ecco una spiegazione degli attributi nel mapping:
+
+    - **VATRate** è un'aliquota IVA supportata configurata come codice IVA. Il valore nel mapping ha due posizioni decimali ma nessun separatore decimale. Per esempio, **2200** rappresenta il 22 percento, e **1000** rappresenta il 10 per cento.
+    - **VATExemptNature** è applicabile solo nei casi in cui l'aliquota IVA è 0 (zero), inclusi i casi in cui non è prevista l'imposta. Attualmente, **VATExemptNature** è supportato solo per le gift card e il valore nel mapping deve corrispondere al valore della proprietà **VATExemptNatureForGiftCard** nel file di configurazione XML.
+    - **ProductType** è il tipo di prodotto. Il valore **0** rappresenta beni mentre il valore **1** rappresenta servizi.
+    - **DepartmentNumber** è il numero del reparto che è configurato nella stampante e che corrisponde ai tre attributi precedenti.
+
+    È necessario modificare il mapping di esempio in base alle aliquote IVA configurate nell'applicazione e ai reparti corrispondenti configurati nella stampante fiscale.
+
+- **Motivo di esenzione IVA per gift card** – Il motivo di esenzione IVA che deve essere applicato quando una gift card viene emessa o ricaricata. Il valore deve corrispondere a una voce nel mapping del reparto della stampante fiscale. Il mapping predefinito è **NS**.
+- **Abilita articoli gratuiti** – Se questo parametro è attivato, lo speciale tipo di rettifica dello sconto *omaggio* è abilitato per gli articoli con uno sconto del 100%.
+- **Codice informativo per origine di reso** – Il codice informativo utilizzato per acquisire l'origine di una transazione di reso se non viene fornita alcuna ricevuta di vendita originale. Questo parametro viene utilizzato insieme ai parametri **Codice informativo per data di vendita originale** e **Mapping origine di reso** per generare un messaggio corretto nello scontrino fiscale circa l'origine di una transazione di reso se non esiste una transazione di vendita originale. 
+
+    Questo codice informativo deve essere configurato per consentire all'utente di selezionare o inserire una delle possibili origini di reso nei negozi. Ad esempio, può essere configurato come un elenco di sottocodici (come **Reso dal sito** o **Reso dal chiosco**). Il parametro **Mapping origine di reso** viene poi utilizzato per tradurre il valore del codice informativo in un comando per la stampante fiscale.
+
+    Il codice informativo selezionato per **Codice informativo per origine di reso** deve essere configurato come un codice informativo obbligatorio che viene attivato una volta per transazione di vendita. Deve essere assegnato come il codice informativo **Reso prodotto** nel profilo della funzionalità POS, in modo che venga attivato quando l'operazione **Reso prodotto** viene eseguita.
+
+    Nessun valore predefinito è specificato per questo mapping. Devi selezionare un codice informativo configurato nella tua applicazione.
+
+- **Codice informativo per data di vendita originale** – Il codice informativo utilizzato per acquisire la data di vendita originale di una transazione di reso se non viene fornita alcuna ricevuta di vendita originale. Questo parametro viene utilizzato insieme ai parametri **Codice informativo per origine di reso** e **Mapping origine di reso** per generare un messaggio corretto nello scontrino fiscale circa l'origine di una transazione di reso se non esiste una transazione di vendita originale.
+
+    Il codice informativo deve essere configurato in modo che il campo **Tipo di input** sia impostato su **Data**. Dovrebbe essere configurato come un codice informativo obbligatorio che viene attivato una volta per transazione di vendita. Dovrebbe anche essere assegnato come **Codice informazioni collegato** per il codice informativo selezionato per il parametro **Codice informativo per origine di reso** , in modo che i due codici informativi vengano attivati uno dopo l'altro.
+
+    Nessun valore predefinito è specificato per questo mapping. Devi selezionare un codice informativo configurato nella tua applicazione.
+
+- **Mapping origine di reso** – Il mapping di origine di reso utilizzato per stampare l'origine di una transazione di reso se non viene fornita alcuna ricevuta di vendita originale. Questo parametro viene utilizzato insieme ai parametri **Codice informativo per origine di reso** e **Codice informativo per data di vendita originale** per generare un messaggio corretto nello scontrino fiscale circa l'origine di una transazione di reso se non esiste una transazione di vendita originale. L'esempio seguente mostra il mapping predefinito.
+
+    ```JSON
+    {"ReturnOrigins": [
+        {"ReturnOrigin":"1", "PrinterReturnOrigin":"POS"},
+        {"ReturnOrigin":"2", "PrinterReturnOrigin":"ND"}
+        ],
+        "PrinterReturnOriginWithoutFiscalData":"POS"}
+    ```
+
+    Ecco una spiegazione degli attributi nel mapping:
+
+    - **ReturnOrigin** è una delle possibili origini do resi nei tuoi negozi. Il valore deve corrispondere a un valore del parametro **Codice informativo per origine di reso**.
+    - **PrinterReturnOrigin** è una delle origini di reso accettate dalla stampante fiscale (**POS**, **VR**, o **ND**).
+    - **PrinterReturnOriginWithoutFiscalData** è l'origine di reso che la stampante fiscale accetta e che corrisponde a una transazione di reso collegata a una transazione di vendita originale che non ha dati fiscali collegati, perché non è stata registrata tramite una stampante fiscale. In questo caso, la data di vendita originale è identificata come la data della transazione di vendita originale.
+
+I seguenti mapping di dati predefiniti sono obsoleti e vengono conservati solo per compatibilità con le versioni precedenti:
+
+- Mapping dei codici IVA
+- Tipo di pagamento deposito
 
 ### <a name="gift-cards"></a>Gift card
 

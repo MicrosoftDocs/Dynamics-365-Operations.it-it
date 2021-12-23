@@ -2,7 +2,7 @@
 title: Panoramica del controllo del budget
 description: Questo argomento introduce la funzionalità di controllo del budget e fornisce informazioni che consentono di configurare il controllo del budget per ottimizzare la gestione delle risorse finanziarie dell'organizzazione.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772881"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890727"
 ---
 # <a name="budget-control-overview"></a>Panoramica del controllo del budget
 
@@ -78,9 +78,7 @@ Successivamente, nella scheda **Autorizzazioni oltre il budget** è possibile sp
 Nella scheda **Fondi budget disponibili** è possibile definire la formula da utilizzare per calcolare i fondi budget disponibili. A seconda della prudenza usata da un'organizzazione per gestire le proprie risorse finanziarie o dei regolamenti o dei requisiti del settore, il calcolo può includere documenti in bozza o non registrati. 
 
 > [!NOTE]
-> Se il calcolo viene modificato durante il ciclo di budget, le modifiche non interessano i documenti che precedentemente hanno superato le verifiche del controllo del budget e sono stati registrati o completati. Nella versione dell'applicazione 10.0.17, la nuova funzionalità **Traccia solo gli importi nel calcolo dei fondi di budget disponibili** è diventata disponibile per limitati clienti. Questa funzione ti consente di modificare quali dati vengono tracciati nelle tabelle BudgetSourceTracking. Quando questa funzione è attivata, gli importi vengono memorizzati solo se selezionati per essere utilizzati nel calcolo dei fondi di budget disponibili. Per richiedere che la funzione **Traccia solo gli importi nel calcolo dei fondi di budget disponibili** sia abilitata, contatta l'assistenza. 
-
-### <a name="documents-and-journals"></a>Documenti e giornali di registrazione
+> Se il calcolo viene modificato durante il ciclo di budget, le modifiche non interessano i documenti che precedentemente hanno superato le verifiche del controllo del budget e sono stati registrati o completati. Una funzionalità denominata **Traccia solo gli importi nel calcolo dei fondi di budget disponibili** consente di modificare i dati registrati nelle tabelle BudgetSourceTracking. Quando questa funzione è attivata, gli importi vengono memorizzati solo se selezionati per essere utilizzati nel calcolo dei fondi di budget disponibili. Per ulteriori informazioni, vedere [Fondi budget disponibili](budget-funds-available.md).
 
 Successivamente, nella pagina **Documenti e giornali di registrazione** è possibile selezionare i documenti di origine e i giornali di registrazione che saranno soggetti alle verifiche del controllo del budget e se le verifiche vengono eseguite all'immissione della riga o per l'intero documento. 
 

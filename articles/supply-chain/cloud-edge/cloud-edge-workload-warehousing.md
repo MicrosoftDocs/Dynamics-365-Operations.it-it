@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813725"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891754"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -50,6 +50,11 @@ A seconda dei processi aziendali, lo stesso record di dati può cambiare proprie
 > Alcuni dati possono essere creati sia sull'hub che sull'unità di scala. Esempi includono **Targhe** e **Numeri di batch**. La gestione dei conflitti dedicata viene fornita nel caso di uno scenario in cui lo stesso record univoco viene creato sia sull'hub che su un'unità di scala durante lo stesso ciclo di sincronizzazione. Quando ciò accade, la sincronizzazione successiva fallirà e sarà necessario accedere ad **Amministrazione del sistema > Richieste > Richieste del carico di lavoro > Record duplicati**, dove è possibile visualizzare e unire i dati.
 
 ## <a name="outbound-process-flow"></a>Flusso di elaborazione in uscita
+
+Prima di distribuire un carico di lavoro di gestione del magazzino su un'unità cloud o di scala edge assicurati di avere la funzionalità *Supporto unità di scala per il rilascio al magazzino degli ordini in uscita* abilitata nell'hub aziendale. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione Magazzino*
+- **Nome funzionalità:** *Supporto unità di scala per il rilascio al magazzino degli ordini in uscita*
 
 Il processo di proprietà dei dati in uscita dipende dall'utilizzo o meno del processo di pianificazione del carico. In tutti i casi, l'hub possiede i *documenti di origine*, come ordini cliente e ordini di trasferimento, nonché il processo di allocazione degli ordini e i relativi dati di transazione dell'ordine. Tuttavia, quando si utilizza il processo di pianificazione del carico, i carichi verranno creati sull'hub e quindi inizialmente saranno di proprietà dell'hub. Come parte del processo *Rilascio in magazzino*, la proprietà dei dati di carico viene trasferita alla distribuzione dell'unità di scala dedicata, che diventerà il proprietario della successiva *Elaborazione ciclo di spedizione* (come assegnazione del lavoro, lavoro di rifornimento e creazione di lavoro su richiesta). Pertanto, gli addetti al magazzino possono elaborare le vendite in uscita e gli ordini di trasferimento solo utilizzando un'app per dispositivi mobili Warehouse Management connessa alla distribuzione che esegue il carico di lavoro dell'unità di scala specifica.
 
@@ -202,7 +207,7 @@ La tabella seguente mostra quali funzionalità in uscita sono supportate e dove 
 | Stampa di documenti relativi al carico                           | Sì | Sì|
 | Polizza di carico e generazione di ASN                            | No  | Sì|
 | Conferma della spedizione                                             | No  | Sì|
-| Conferma della spedizione con "Conferma e trasferisci"            | No  | No |
+| Conferma della spedizione con "Conferma e trasferisci"            | No  | Sì|
 | Elaborazione di fatturazione e documento di trasporto                        | Sì | No |
 | Prelievo breve (ordini cliente e di trasferimento)                    | No  | Sì, senza rimuovere le prenotazioni per i documenti di origine|
 | Prelievo eccessivo (ordini cliente e di trasferimento)                     | No  | Sì|
@@ -212,8 +217,8 @@ La tabella seguente mostra quali funzionalità in uscita sono supportate e dove 
 | Etichetta ondata                                                   | No  | Sì|
 | Divisione lavoro                                                   | No  | Sì|
 | Elaborazione del lavoro: gestito da "Caricamento di trasporto"            | No  | No |
-| Riduci quantità prelevata                                       | No  | No |
-| Storna lavoro                                                 | No  | No |
+| Riduci quantità prelevata                                       | No  | Sì|
+| Storna lavoro                                                 | No  | Sì|
 | Inverti conferma spedizione                                | No  | Sì|
 
 ### <a name="inbound"></a>In entrata
@@ -227,7 +232,7 @@ La tabella seguente mostra quali funzionalità in entrata sono supportate e dove
 | Costo sbarcato e ricezione delle merci in transito                       | Sì | No |
 | Conferma della spedizione in entrata                                    | Sì | No |
 | Rilascio ordine fornitore al magazzino (elaborazione ordine di magazzino) | Sì | No |
-| Annullamento di righe ordine di magazzino<p>Notare che questo è supportato solo quando non è avvenuta alcuna registrazione sulla riga</p> | Sì | No |
+| Annullamento di righe ordine di magazzino<p>Notare che questo è supportato solo quando non è avvenuta alcuna registrazione sulla riga durante l'elaborazione dell'operazione *richiesta di annullamento*</p> | Sì | No |
 | Ricevimento e stoccaggio articolo ordine acquisto                       | <p>Sì,&nbsp;quando&nbsp;non&nbsp;è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p> |
 | Ricevimento e stoccaggio riga ordine acquisto                       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | <p>Sì, quando un ordine fornitore non fa parte di un <i>carico</i></p></p> |
 | Ricevimento e stoccaggio ordine di reso                              | Sì | No |
@@ -246,7 +251,7 @@ La tabella seguente mostra quali funzionalità in entrata sono supportate e dove
 | Ricevimento con creazione di lavoro *Qualità nel controllo qualità*       | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
 | Ricevimento con creazione ordine di controllo qualità                            | <p>Sì, quando non è presente un ordine di magazzino</p><p>No, quando è presente un ordine di magazzino</p> | No |
 | Elaborazione del lavoro: gestito da *Stoccaggio cluster*                 | Sì | No |
-| Elaborazione del lavoro con *Prelievo in difetto*                               | Sì | No |
+| Elaborazione del lavoro con *Prelievo in difetto*                               | Sì | Sì |
 | Caricamento targa                                           | Sì | Sì |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Operazioni di magazzino e gestione delle eccezioni

@@ -1,7 +1,7 @@
 ---
 title: Configurare una voce di menu del dispositivo mobile per fornire una panoramica della riga di prelievo
 description: Questo argomento spiega come definire quando verrà mostrato un elenco di tutte le righe di lavoro ai lavoratori del magazzino che stanno elaborando il lavoro del magazzino su un dispositivo mobile. Questa funzionalità può essere utile per i magazzinieri che spesso richiedono una panoramica delle righe di prelievo in un ordine di lavoro in modo da poter ottimizzare la sequenza di prelievo.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8bb5a7851987b71d5a1df1d37054547f28ecf9a4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7d3a8972c5d2f4c52dddef458ebd6079118cadfe
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580050"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901924"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Configurare una voce di menu del dispositivo mobile per fornire una panoramica della riga di prelievo
 

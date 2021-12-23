@@ -2,7 +2,7 @@
 title: Trasferire il giornale di registrazione secondario alla contabilità generale
 description: In questo argomento vengono descritte le funzionalità correlate al processo di trasferimento del giornale di registrazione secondario alla contabilità generale.
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716647"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900732"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Trasferire il giornale di registrazione secondario alla contabilità generale
 
@@ -39,7 +39,7 @@ Nella versione 10.0.8, sono stati apportati dei miglioramenti per migliorare le 
 
 La funzionalità per il trasferimento asincrono dei batch del giornale di registrazione secondario aiuta a migliorare il trasferimento dei dati dal giornale di registrazione secondario alla contabilità generale. Raggruppando set di transazioni più piccole e trasferendo le transazioni in gruppi, la funzionalità elabora le transazioni in modo più efficiente. Quando le transazioni sono raggruppate, le risorse del server batch vengono utilizzate in modo più efficiente.
 
-Il trasferimento asincrono di batch del giornale di registrazione secondario richiede che il server batch sia configurato, online e funzionante. In caso contrario, l'opzione di trasferimento **Asincrono** non funzionerà.
+Il trasferimento asincrono di batch contabilità ausiliaria richiede che il server batch sia configurato, online e funzionante poiché le attività batch vengono create per l'esecuzione immediata sul server batch. Quando la funzionalità **Trasferimento contabilità ausiliaria all'ottimizzazione delle prestazioni della contabilità generale** è abilitata, anche il processo batch di sistema **Automazione del processo** denominato **Processo di sistema di polling di automazione processi** deve essere abilitato. Per ulteriori informazioni, vedere [Automazione dei processi](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 La modifica dell'efficienza a livello di batch utilizza un singolo processo batch ricorrente per tutte le persone giuridiche nel sistema. In fase di esecuzione, viene creato un nuovo processo batch per elaborare i record richiesti che non sono ancora stati trasferiti. È possibile controllare più impostazioni dalla pagina **Automazione processo** nell'amministrazione del sistema. In quella pagina, puoi modificare il processo in background, cambiare la frequenza e definire un periodo di sospensione.
 

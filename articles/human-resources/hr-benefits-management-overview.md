@@ -2,7 +2,7 @@
 title: Panoramica di gestione dei benefit
 description: Questo argomento fornisce una panoramica della funzione di gestione dei benefici in Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417411"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892504"
 ---
 # <a name="benefits-management-overview"></a>Panoramica di gestione dei benefit
 
@@ -109,21 +109,29 @@ Per ulteriori informazioni su come impostare i piani di benefit, vedi [Impostare
 
 ## <a name="configure-required-employee-information"></a>Configurare le informazioni sui dipendenti obbligatorie
 
-Prima di poter iscrivere dipendenti nei benefit, è necessario fornire le informazioni richieste. Ogni dipendente deve avere una posizione. È necessario iscrivere i dipendenti a un piano di retribuzione fissa alla data di inizio oppure devono disporre di un importo di stipendio annuale per benefit. Inoltre, nella sezione **Dettagli impiego** della pagina **Lavoratore** è necessario selezionare un valore nel campo **Frequenza di pagamento benefit**.
+Prima di poter iscrivere dipendenti nei benefit, è necessario fornire le informazioni richieste. 
 
-Se un dipendente riceve un compenso supplementare come le commissioni, è possibile aggiungere un importo **Retribuzione annuale benefit** dal record dipendente. Le risorse umane useranno l'importo **Retribuzione annuale benefit** nel determinare gli importi di copertura, anziché l'importo annuale di retribuzione fissa. La **Retribuzione annuale benefit** deve essere valida a partire dalla data di inizio dell'impiegato o di quella del periodo di benefit, a seconda di quale è più recente. Se per un dipendente viene registrato sia una retribuzione fissa sia un importo di retribuzione annuale benefit, la retribuzione annuale benefit sarà utilizzata per determinare gli importi della copertura.
+Il dipendente deve avere una **Posizione** assegnata. Una **Posizione** può essere assegnata al dipendente nella pagina **Lavoratore** o **Posizione** aggiornando **Assegnazione lavoratore**. 
+
+Quindi i dipendenti devono essere iscritti a un piano di retribuzione fissa alla data di inizio oppure disporre di un importo di **stipendio annuale per benefit**. Prima di assegnare **Retribuzione fissa** a un dipendente, una **Posizione** deve essere assegnata. 
+
+> [!NOTE] 
+> La **Data di inizio retribuzione fissa** non può essere precedente alla **Data assegnazione posizione**.
+
+In alternativa, se un dipendente riceve un compenso supplementare come le commissioni, è possibile aggiungere un importo **Retribuzione annuale benefit** dal record dipendente. Le risorse umane useranno l'importo **Retribuzione annuale benefit** nel determinare gli importi di copertura, anziché l'**importo annuale di retribuzione fissa**. La **Retribuzione annuale benefit** deve essere valida a partire dalla data di inizio dell'impiegato o di quella del periodo di benefit, a seconda di quale è più recente. Tuttavia, non è richiesta una posizione per assegnare la **Retribuzione annuale benefit**. Per abilitare la funzionalità **Retribuzione annuale benefit** vai alla pagina **Parametri condivisi risorse umane** nella scheda **Gestione benefit**. Questa funzione è disattivata per impostazione predefinita.
+
+> [!IMPORTANT]
+> Se per un dipendente viene registrato sia una **retribuzione fissa** sia un importo di **retribuzione annuale benefit**, la **retribuzione annuale benefit** sarà utilizzata per determinare gli importi della copertura. Nella sezione **Dettagli impiego** della pagina **Lavoratore** è necessario selezionare un valore nel campo **Frequenza di pagamento benefit**.
 
 ## <a name="configure-optional-employee-information"></a>Configurare le informazioni sui dipendenti facoltative
-
 Quando si crea un piano di benefit che utilizza tariffe basate sul genere o sull'età, è necessario immettere una data di nascita e un genere affinché il dipendente possa calcolare il costo del benefit.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Elaborare i dipendenti per determinare l'idoneità
+Prima che i dipendenti possano essere iscritti ai piani, viene eseguita l'elaborazione dell'idoneità per determinare a quali piani sono idonei. È possibile visualizzare i risultati del processo di idoneità nel **visualizzatore dei risultati del processo**. Per ulteriori informazioni, vedi [Elaborare l'idoneità di iscrizione](hr-benefits-process-enrollment-eligibility.md).
 
-Prima che i dipendenti possano essere iscritti ai piani, viene eseguita l'elaborazione dell'idoneità per determinare a quali piani sono idonei. È possibile visualizzare i risultati del processo di idoneità nel visualizzatore dei risultati del processo. Per ulteriori informazioni, vedi [Elaborare l'idoneità di iscrizione](hr-benefits-process-enrollment-eligibility.md).
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>I dipendenti selezionano i piani tramite il **self-service dipendenti** (opzionale)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>I dipendenti selezionano i piani tramite il self-service dipendenti (opzionale)
-
-Quando si verifica un'iscrizione aperta, i dipendenti vengono assunti di recente o si verifica un evento reale, i dipendenti possono selezionare o aggiornare i propri benefit tramite il self-service dipendenti. Per ulteriori informazioni, vedi [Configurare il self-service dipendenti](hr-benefits-setup-employee-self-service.md).
+Quando si verifica un'iscrizione aperta, i dipendenti vengono assunti di recente o si verifica un evento reale, i dipendenti possono selezionare o aggiornare i propri benefit tramite il **self-service dipendenti**. Per ulteriori informazioni, vedi [Configurare il self-service dipendenti](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Confermare le selezioni del piano dei dipendenti
 

@@ -2,7 +2,7 @@
 title: Abilitare la ricerca dei dati anagrafici per la configurazione del calcolo delle tasse
 description: In questo argomento viene descritto come configurare e abilitare a funzionalità di ricerca di dati master per il calcolo delle imposte.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749512"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867354"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Abilitare la ricerca dei dati anagrafici per la configurazione del calcolo delle tasse 
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come configurare e abilitare a funzionalità di ricerca di dati master per il calcolo delle imposte. È disponibile un elenco a discesa per selezionare i valori nella configurazione del calcolo dell'imposta per campi quali **Conto fornitore**, **Codice articolo** e **Termini di consegna**. Questi valori provengono dall'ambiente Microsoft Dynamics 365 Finance connesso utilizzando l'origine dati Microsoft Dataverse.
+In questo argomento viene descritto come configurare e abilitare a funzionalità di ricerca di dati master per il calcolo delle imposte. È disponibile un elenco a discesa per selezionare i valori nella configurazione del calcolo dell'imposta per campi quali **Persona giuridica**, **Conto fornitore**, **Codice articolo**, e **Termini di consegna**. Questi valori provengono dall'ambiente Microsoft Dynamics 365 Finance connesso utilizzando l'origine dati Microsoft Dataverse.
+
+> [!NOTE] 
+> La funzionalità di ricerca dei dati master del calcolo delle imposte è una funzionalità facoltativa. Puoi saltare i seguenti passaggi se disabiliti la funzionalità **Supporto per origini dati Dataverse del servizio imposte** in Regulatory Configuration Service (RCS). Tuttavia, in tal caso, l'elenco a discesa non sarà disponibile nella configurazione del calcolo delle imposte.
 
 1. Imposta l'integrazione di Microsoft Power Platform in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni, vedere [Panoramica di Integrazione di Microsoft Power Platform - Componenti aggiuntivi](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Dopo aver completato questo passaggio, il nome dell'ambiente Microsoft Power Platform apparirà nella sezione **Integrazione di Power Platform**.
 2. Vai all'[interfaccia di amministrazione di Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) e seleziona il nome dell'ambiente. Viene fornito l'URL dell'ambiente.

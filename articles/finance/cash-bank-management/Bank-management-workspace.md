@@ -1,7 +1,7 @@
 ---
 title: Area di lavoro gestione banche
-description: Vengono fornite le informazioni sull'area di lavoro gestione banche. In quest'area di lavoro vengono visualizzate le informazioni relative ai conti bancari della società e comprende una visualizzazione di riepilogo e una pagina di analisi. Nella visualizzazione di riepilogo vengono visualizzati i riquadri di riepilogo, le informazioni sul conto bancario, un grafico del saldo e informazioni correlate. La pagina dell'analisi dei dati utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate ai saldi del conto bancario.
-author: saraschi2
+description: Vengono fornite le informazioni sull'area di lavoro gestione banche. Questa area di lavoro mostra le informazioni relative ai conti bancari della società.
+author: roschlom
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 18171dd17165268fe0f7ac0cf7b3b225f679b9b6b7aeafb7789e837059cf5d79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755716"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883339"
 ---
 # <a name="bank-management-workspace"></a>Area di lavoro gestione banche
 

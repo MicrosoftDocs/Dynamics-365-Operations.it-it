@@ -2,7 +2,7 @@
 title: Abilitare la ricerca degli ordini per checkout guest
 description: Questo argomento descrive come abilitare la ricerca degli ordini per il checkout come guest in Microsoft Dynamics 365 Commerce.
 author: stuharg
-ms.date: 09/01/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674978"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891502"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Abilitare la ricerca degli ordini per checkout guest
 
@@ -63,6 +63,16 @@ Dopo aver modificato il valore del campo **Includi dati personali nella ricerca 
 ## <a name="configure-the-order-lookup-module"></a>Configurare il modulo di ricerca degli ordini
 
 Il modulo di ricerca degli ordini nella libreria del modulo Commerce viene utilizzato per eseguire il rendering del modulo che consente agli utenti guest di cercare gli ordini. Il modulo di ricerca degli ordini può essere incluso nello slot del corpo di qualsiasi pagina che non richiede l'accesso del cliente. Per informazioni su come configurare il modulo, vedere [Modulo ricerca degli ordini](order-lookup-module.md).
+
+## <a name="configure-the-order-details-page"></a>Configurare la pagina dei dettagli dell'ordine
+
+Prima che gli utenti guest possano visualizzare i dettagli dell'ordine, la pagina dei dettagli dell'ordine sul tuo sito di e-commerce deve essere configurata in modo che non richieda l'accesso. Per disattivare il requisito di accesso per la pagina dei dettagli dell'ordine, apri la pagina in Creazione di siti di Commerce, seleziona il riquadro **Pagina predefinita (richiesto)** nella visualizzazione ad albero e deseleziona la casella di controllo **Richiede l'accesso?** nella parte inferiore del riquadro delle proprietà a destra.
+
+## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Aggiungere un collegamento ai dettagli dell'ordine nelle e-mail transazionali
+
+Nelle e-mail relative agli ordini, puoi fornire un collegamento o un pulsante che indirizzi i clienti alla pagina dei dettagli del loro ordine. Per aggiungere questo collegamento o pulsante, crea un collegamento ipertestuale HTML che punta alla pagina dei dettagli dell'ordine sul tuo sito di e-commerce e passa l'ID di conferma dell'ordine e l'indirizzo e-mail del cliente come parametri URL, come mostrato nell'esempio seguente.
+
+`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

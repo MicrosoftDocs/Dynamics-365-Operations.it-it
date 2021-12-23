@@ -2,7 +2,7 @@
 title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità della griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700139"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890871"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
@@ -119,6 +119,9 @@ Come è possibile selezionare (o deselezionare) tutte le righe nella griglia sel
 
 ### <a name="hiding-column-names"></a>Nascondere i nomi delle colonne
 Quando si raggruppano i dati, il comportamento predefinito è mostrare il nome della colonna nella riga dell'intestazione del gruppo. Puoi scegliere di nascondere il nome della colonna nelle righe di intestazione del gruppo selezionando **Opzioni griglia** > **Nascondi nome della colonna del gruppo**.
+
+### <a name="grouping-on-date-and-time-columns"></a>Raggruppamento in colonne di data e ora
+A partire dalla versione 10.0.24, per i campi Data o DateTime, l'opzione è stata aggiunta al gruppo per anno, mese o giorno. Il "valore" del gruppo nella riga di intestazione corrispondente corrisponde al formato di quel campo. Inoltre, per i campi DateTime e Ora, sarai in grado di raggruppare per ora, minuto o secondo.    
 
 ## <a name="freezing-columns"></a>Blocco delle colonne
 Alcune colonne in una griglia potrebbero essere abbastanza importanti per il contesto da non desiderare che scorrano fuori dalla visualizzazione. Invece, è consigliabile fare in modo che i valori in tali colonne siano sempre visibili. La funzionalità **Blocca colonne nella griglia** fornisce questa flessibilità agli utenti. 

@@ -2,7 +2,7 @@
 title: Panoramica Italia
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Italia.
 author: kfend
-ms.date: 11/09/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af4f72546ed454b096a77db11c7073901414c27a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ac5636506621f9eb60a4e6876753764413e3fb55
+ms.sourcegitcommit: 013196e9737acfc9a3d1f842f351e95f79f64d36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779478"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "7878911"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -59,6 +59,7 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Certificazione Unica](emea-ita-exil-unique-certification.md)
 - [Importazione protesto di effetti attivi](emea-ita-exil-protest-boe.md)
 - [Fatture elettroniche dei clienti](emea-ita-e-invoices.md)
+- [Fatture elettroniche del fornitore](emea-ita-vend-e-invoices.md)
 - [Controllo unificato della data di registrazione](emea-ita-post-date-control.md)
 
 

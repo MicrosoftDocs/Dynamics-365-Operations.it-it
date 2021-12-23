@@ -2,7 +2,7 @@
 title: Operazioni POS online e offline
 description: In questo argomento vengono forniti i dettagli relativi alle operazioni POS in Dynamics 365 Commerce. Specifica dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili in modalità offline.
 author: jblucher
-ms.date: 02/21/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc4835258c7a1968c51e4d1a3a4d0eb33aaf2cddf31efd965adff0ac80aa4ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88daca466e0e01bf3870b6eeee0628e0c159fea3
+ms.sourcegitcommit: 971456c197820421f108ad7345001cc1b6c99949
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745286"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "7875479"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
 [!include [banner](includes/banner.md)]
 
-La maggior parte delle azioni che l'utente esegue nel POS sono considerate operazioni. Le operazioni vengono configurate e gestite nel back office di Dynamics 365 Commerce. Molte operazioni possono essere aggiunte ai pulsanti nella griglia dei pulsanti POS. Gli utenti possono quindi selezionare i pulsanti per richiamare le operazioni ed eseguirne la funzione. Altre operazioni fanno parte dell'applicazione POS principale e vengono richiamate mediante pulsanti sullo schermo o come parte di altri flussi di lavoro o processi.
+La maggior parte delle azioni che gli utenti eseguono nel POS sono considerate operazioni. Le operazioni vengono configurate e gestite nel back office di Dynamics 365 Commerce. Molte operazioni possono essere aggiunte ai pulsanti nella griglia dei pulsanti POS. Gli utenti possono quindi selezionare i pulsanti per richiamare le operazioni ed eseguirne la funzione. Altre operazioni fanno parte dell'applicazione POS principale e vengono richiamate mediante pulsanti sullo schermo o come parte di altri flussi di lavoro o processi.
 
 Nella seguente tabella vengono forniti i dettagli relativi alle operazioni disponibili in Modern POS e POS cloud. La tabella specifica anche dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili quando il POS è in modalità offline.
 
@@ -72,18 +72,17 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 121 | Cancella venditore | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 1055 | Chiudi turno | Chiude il turno corrente, stampa un Z-report e disconnette l'utente dal sistema. | Sì | Sì | Sì | No | No |
 | 139 | Concludi transazione | Invita l'utente a selezionare il metodo di pagamento | Sì | Sì | No | Sì | No |
-| 620 | Crea ordine cliente | Converte la transazione POS in un ordine cliente | Sì | Sì | No | Sì\* | No |
 | 925 | Copia assegno bancario | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | Sì |
 | 620 | Crea ordine cliente | Converte la transazione POS in un ordine cliente | Sì | Sì | No | Sì\* | No |
 | 621 | Crea offerta | Converte la transazione POS in un'offerta di vendita. | Sì | Sì | No | Sì\* | No |
-| 636 | Crea transazione di vendita al dettaglio | Questa operazione consente di creare una transazione di vendita standard quando il comportamento predefinito del POS è di creare ordini cliente. | Sì | Sì | No | Sì | No |
+| 636 | Crea transazione di vendita al dettaglio | Creare una transazione di vendita standard quando il comportamento predefinito del POS è di creare ordini cliente. | Sì | Sì | No | Sì | No |
 | 600 | Cliente | Aggiunge il cliente specificato alla transazione. | No | No | No | Sì | No |
 | 1100 | Deposito sul conto cliente | Effettuare un pagamento sul conto del cliente. | Sì | Sì | Sì | Sì | Sì |
-| 612 | Aggiunta cliente | Questa operazione consente all'utente di creare un nuovo record cliente. | Sì | Sì | Sì | Sì† | No |
+| 612 | Aggiunta cliente | Creare un nuovo record cliente. | Sì | Sì | Sì | Sì† | No |
 | 603 | Cancellazione cliente | Rimuove il cliente dalla transazione corrente. | Sì | Sì | No | Sì | No |
-| 602 | Ricerca cliente | Questa operazione consente all'utente di cercare un record cliente accedendo alla pagina di ricerca di clienti nel POS. | Sì | Sì | Sì | Sì | No |
+| 602 | Ricerca cliente | Cercare un record cliente accedendo alla pagina di ricerca di clienti nel POS. | Sì | Sì | Sì | Sì | No |
 | 609 | Transazioni cliente | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
-| 917 | Stato di connessione al database | Questa operazione consente all'utente di visualizzare le impostazioni di connessione correnti e di passare dalla modalità online a quella offline e viceversa. | Sì | Sì | Sì | Sì | No |
+| 917 | Stato di connessione al database | Visualizzare le impostazioni di connessione correnti e di passare dalla modalità online a quella offline e viceversa. | Sì | Sì | Sì | Sì | No |
 | 1200 | Dichiara importo iniziale | Dichiara l'importo iniziale nel cassetto a inizio giornata o turno. | Sì | Sì | Sì | Sì | No |
 | 132 | Sostituzione deposito | Sostituisce il deposito predefinito per gli ordini cliente. | Sì | Sì | No | Sì\* | No |
 | 913 | Disabilitazione modalità progettazione | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
@@ -96,14 +95,14 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 615 | Modifica offerta | Richiama l'offerta selezionata in modo da poterla modificare nel POS. | No | No | No | No | No |
 | 518 | Conti spese | Registra il denaro rimosso dal cassetto della cassa per le spese occasionali. | Sì | Sì | Sì | Sì | No |
 | 919 | Accesso esteso | Assegna o rimuove l'autorizzazione all'accesso tramite la scansione di un codice a barre o il passaggio di una carta. | Sì | Sì | Sì | Sì | No |
-| 1201 | Transazione fondo di cassa | Questa operazione consente all'utente di aggiungere ulteriore denaro al cassetto o al turno corrente. | Sì | Sì | Sì | Sì | No |
+| 1201 | Immissione fondo cassa | Aggiungere ulteriore denaro al cassetto o al turno corrente. | Sì | Sì | Sì | Sì | No |
 | 1218 | Sblocca forzatamente periferica | Il sistema utilizza questa operazione internamente per sbloccare le periferiche POS. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
 | 520 | Saldo gift card | Visualizza il saldo di una gift card. | Sì | Sì | No | No | No |
 | 708 | Disattiva dispositivo | Disattiva il dispositivo corrente, in modo che non possa essere utilizzato come registratore di cassa POS. | No | No | No | No | No |
 | 804 | Operazione in entrata | Accedere alle funzionalità di gestione del magazzino del negozio in entrata. | Sì | No | Sì | No| No |
 | 517 | Conti ricavi | Registra il denaro messo nel cassetto della cassa per motivi diversi dalla vendita. | Sì | Sì | Sì | Sì | No |
 | 801 | Ricerca in magazzino | Cerca le quantità disponibili, in ordinazione e available-to-promise (ATP) per il punto vendita corrente e altre ubicazioni disponibili. | Sì | Sì | Sì | No | No |
-| 122 | Commento sulla fattura | Questa operazione consente all'utente di immettere un commento sulla transazione corrente. | Sì | Sì | No | Sì | No |
+| 122 | Commento sulla fattura | Immettere un commento sulla transazione corrente. | Sì | Sì | No | Sì | No |
 | 511 | Emetti nota credito | Emette una nota di credito per fornire un giustificativo anziché un rimborso. | Sì | Sì | No | No | No |
 | 512 | Emetti gift card | Emette una nuova gift card per l'importo specificato. | Sì | Sì | No | No | No |
 | 625 | Rilascia carta fedeltà | Emette una carta fedeltà a un cliente in modo che il cliente possa partecipare al programma fedeltà del punto vendita. | Sì | Sì | Sì | No | No |
@@ -147,42 +146,42 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 1056 | Stampa X | Stampa un X-report per il turno corrente. | Sì | Sì | Sì | No | No |
 | 103 | Commento sul prodotto | Aggiunge un commento alla voce selezionata nella transazione. | Sì | Sì | No | Sì | No |
 | 100 | Vendita prodotto | Aggiunge un prodotto specificato alla transazione. | Sì | Sì | Sì | Sì | No |
-| 108 | Ricerca prodotto | Questa operazione consente all'utente di cercare un prodotto accedendo alla pagina di ricerca di prodotti nel POS. | Sì | Sì | Sì | Sì | No |
-| 633 | Data di scadenza offerta | Questa operazione consente all'utente di visualizzare o modificare la data di scadenza di un'offerta di vendita. | Sì | Sì | No | Sì\* | No |
+| 108 | Ricerca prodotto | Cercare un prodotto accedendo alla pagina di ricerca di prodotti nel POS. | Sì | Sì | Sì | Sì | No |
+| 633 | Data di scadenza offerta | Visualizzare o modificare la data di scadenza di un'offerta di vendita. | Sì | Sì | No | Sì\* | No |
 | 627 | Ricalcola | Ricalcola tutte le righe e le imposte dell'ordine cliente in base alla configurazione corrente. | Sì | Sì | No | Sì\* | No |
 | 143 | Ricalcola addebiti | Ricalcolare gli addebiti automatici applicati all'ordine. | Sì | Sì | No | No| No |
-| 515 | Richiama ordine | Questa operazione consente all'utente di cercare e richiamare ordini cliente e offerte di vendita. | Sì | Sì | Sì | No | No |
-| 504 | Richiama transazione | Questa operazione consente all'utente di richiamare una transazione sospesa in precedenza dal punto vendita corrente. | Sì | Sì | No | Sì‡ | No |
+| 515 | Richiama ordine | Cercare e richiamare ordini cliente e offerte di vendita. | Sì | Sì | Sì | No | No |
+| 504 | Richiama transazione | Richiamare una transazione sospesa in precedenza dal punto vendita corrente. | Sì | Sì | No | Sì‡ | No |
 | 305 | Riscatta punti fedeltà | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | Sì |
-| 635 | Rimborso spese di spedizione | Questa operazione consente all'utente di rimborsare le spese di spedizione relative a un ordine annullato. | No | No | No | No | No |
+| 635 | Rimborso spese di spedizione | Rimborsare le spese di spedizione per un ordine annullato. | No | No | No | No | No |
 | 644 | Rimuovi codice buono sconto | Richiede all'utente di rimuovere i buoni sconto selezionandoli in un elenco di buoni sconto attualmente associati alla transazione. | Sì | Sì | No | Sì | No |
 | 1057 | Ristampa Z | Stampa il Z-report per il turno precedente o un turno selezionato. | Sì | Sì | Sì | No | No |
 | 1216 | Immettere una nuova password | Questa operazione consente a un utente che dispone di autorizzazioni per la reimpostazione della password di reimpostare la password di un altro dipendente utilizzando una password temporanea. | Sì | Sì | Sì | No | No |
-| 1219 | Aprire un URL nel POS | Questa operazione consente a un utente di aprire un URL configurato dall'amministratore nel POS. | Sì | Sì | Sì | Sì | No | 
+| 1219 | Aprire un URL nel POS | Aprire un URL configurato dall'amministratore in POS. | Sì | Sì | Sì | Sì | No |
 | 109 | Reso prodotto | Consente di effettuare un reso di singoli prodotti. Il prodotto letto tramite scanner successivo viene visualizzato come prodotto reso con un prezzo e una quantità negativi. | Sì | Sì | No | Sì | No |
 | 114 | Transazione di reso | Richiama una transazione precedente in base al relativo numero di ricevuta per restituire alcuni o tutti i prodotti. | Sì | Sì | Sì | Sì§ | No |
 | 1211 | Deposito in cassaforte | Esegue un deposito in cassaforte per il trasferimento di denaro dal registratore di cassa a una cassaforte. | Sì | Sì | Sì | Sì | No |
 | 516 | Fattura di vendita | Questa operazione consente al cliente di effettuare i pagamenti per la fattura di vendita selezionata. | Sì | Sì | No | No | No |
-| 502 | Venditore | L'operazione consente all'utente di impostare il valore di **Incaricato vendite** in un ordine cliente per gli ordini cliente nel POS. | Sì | Sì | No | Sì\* | No |
+| 502 | Venditore | Impostare il valore di **Incaricato vendite** in un ordine cliente per gli ordini cliente nel POS. | Sì | Sì | No | Sì\* | No |
 | 2000 | Gestione programmazione | Questa operazione non è ancora supportata. | Sì | Sì | Sì | No | No |
 | 2001 | Richieste di programmazione | Questa operazione non è ancora supportata. | Sì | Sì | Sì | No | No |
 | 622 | Cerca ordini | Questa operazione consente agli utenti di preconfigurare i pulsanti del POS per eseguire ricerche per articolo, cliente o categoria. | Sì | Sì | Sì | Sì | No |
 | 1213 | Cerca indirizzo di spedizione | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | No |
-| 709 | Seleziona stazione hardware | Questa operazione consente all'utente di selezionare una stazione hardware in un elenco di stazioni hardware disponibili. | Sì | Sì | Sì | Sì | No |
-| 637 | Imposta rappresentante predefinito su transazione | Questa operazione consente all'utente di selezionare uno dei gruppi vendite con provvigione (rappresentanti) come rappresentante predefinito per le righe aggiunte successivamente. | Sì | Sì | No | Sì | No |
+| 709 | Seleziona hardware station | Selezionare una stazione hardware in un elenco di stazioni hardware disponibili. | Sì | Sì | Sì | Sì | No |
+| 637 | Imposta rappresentante predefinito su transazione | Selezionare uno dei gruppi vendite con provvigione (rappresentanti) come rappresentante predefinito per le righe aggiunte successivamente. | Sì | Sì | No | Sì | No |
 | 105 | Imposta quantità | Modifica la quantità di una voce nella transazione. | Sì | Sì | No | Sì | No |
-| 638 | Imposta rappresentante su riga | Questa operazione consente all'utente di selezionare uno dei gruppi vendite con provvigione (rappresentanti) per la riga correntemente selezionata. | Sì | Sì | No | Sì | No |
+| 638 | Imposta rappresentante su riga | Selezionare uno dei gruppi vendite con provvigione (rappresentanti) per la riga correntemente selezionata. | Sì | Sì | No | Sì | No |
 | 630 | Spedisci tutti i prodotti | Imposta la modalità di evasione su **Spedizione** per tutte le voci. | Sì | Sì | No | Sì\* | No |
 | 629 | Spedisci prodotti selezionati | Imposta la modalità di evasione su **Spedizione** per tutte le righe selezionate. | Sì | Sì | No | Sì\* | No |
 | 115 | Mostra giornale di registrazione | Visualizza il giornale di registrazione del punto vendita. È possibile visualizzare le transazioni, ristampare le ricevute, incluse quelle di gift card, e richiamare i resi. | Sì | Sì | Sì | Sì\*\* | No |
-| 802 | Conteggio scorte | Questa operazione consente all'utente di creare o modificare i giornale di registrazione del conteggio scorte per l'inventario fisico o i conteggi di ciclo. | Sì | Sì | Sì | No | No |
+| 802 | Conteggio scorte | Creare o modificare i giornale di registrazione del conteggio scorte per l'inventario fisico o i conteggi di ciclo. | Sì | Sì | Sì | No | No |
 | 401 | Sottomenu | Questa operazione consente di accedere a un'altra griglia di pulsanti collegati. | Sì | Sì | Sì | Sì | No |
 | 1054 | Sospendi turno | Sospende il turno corrente, di modo che un turno nuovo o diverso possa essere attivato nel registratore di cassa corrente. | Sì | Sì | Sì | No | No |
 | 503 | Sospendi transazione | Sospende la transazione di vendita corrente, di modo che possa essere richiamata in seguito nel punto vendita. | Sì | Sì | No | Sì‡ | No |
 | 1004 | Registrazione attività | Apre Registrazione attività per registrare passaggi procedurali nel POS. | No | No | No | Sì | No |
-| 1052 | Riepilogo incassi | Questa operazione consente all'utente di specificare la quantità di denaro nel cassetto per ogni metodo di pagamento conteggiato. | Sì | Sì | Sì | Sì | No |
-| 1210 | Rimozione metodo di pagamento | Questa operazione consente all'utente di rimuovere denaro dal cassetto o turno corrente. | Sì | Sì | Sì | Sì | No |
-| 920 | Orologio | Questa operazione consente agli utenti di marcare le entrate e le uscite durante i turni di lavoro e le pause. | Sì | Sì | Sì | No | No |
+| 1052 | Riepilogo incassi | Specificare la quantità di denaro nel cassetto per ogni metodo di pagamento conteggiato. | Sì | Sì | Sì | Sì | No |
+| 1210 | Rimozione metodo di pagamento | Rimuovere denaro dal cassetto o dal turno corrente. | Sì | Sì | Sì | Sì | No |
+| 920 | Orologio | Marcare le entrate e le uscite durante i turni di lavoro e le pause. | Sì | Sì | Sì | No | No |
 | 302 | Importo sconto totale | Immettere l'importo di sconto per la transazione. Questa operazione è valida solo per gli articoli scontabili e l'importo non può superare i limiti di sconto specificati. | Sì | Sì | No | Sì | No |
 | 303 | Percentuale sconto totale | Immettere una percentuale di sconto per la transazione. Questa operazione è valida solo per gli articoli scontabili e l'importo non può superare i limiti di sconto specificati. | Sì | Sì | No | Sì | No |
 | 501 | Commento transazione | Consente di aggiungere un commento alla transazione corrente. | Sì | Sì | No | Sì | No |

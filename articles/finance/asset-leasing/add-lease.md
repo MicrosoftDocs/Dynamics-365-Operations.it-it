@@ -2,7 +2,7 @@
 title: Aggiungere o copiare leasing (anteprima)
 description: In questo argomento viene descritto come creare un nuovo leasing inserendo le relative informazioni in Leasing cespite o copiando le informazioni da un leasing esistente.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761328"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893647"
 ---
 # <a name="add-or-copy-leases-preview"></a>Aggiungere o copiare leasing (anteprima)
 
@@ -35,6 +35,8 @@ Segui questi passaggi per creare un leasing in Leasing cespite.
 1. Nella pagina **Riepilogo leasing**, nel riquadro azioni, seleziona **Nuovo**.
 2. Immetti le informazioni sul leasing. I campi obbligatori hanno bordi rossi.
 
+> La data di inizio del canone di leasing non può essere anteriore alla data di inizio del leasing. Se inserisci una data di inizio per il canone di leasing precedente alla data di inizio del leasing, riceverai un messaggio di errore.
+  
 ## <a name="create-a-lease-schedule"></a>Creare un programma di leasing
 
 Dopo aver immesso le informazioni per il leasing, segui questi passaggi per creare una pianificazione del leasing.
