@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576018"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920600"
 ---
 # <a name="wave-allocation"></a>Allocazione ciclo
 
@@ -77,7 +77,7 @@ L'elaborazione di allocazione parallela richiede che l'elaborazione del ciclo ve
 
 Se necessario, è possibile annullare ciascuna delle impostazioni configurate per impostazione predefinita quando la funzionalità *Parallelizzazione dei cicli per metodo allocazione del ciclo* viene abilitata automaticamente per la tua istanza. A questo proposito:
 
-- Vai a **Gestione magazzino \> Impostazioni \> Parametri di gestione magazzino**. Nella scheda **Elaborazione ciclo** applica i tuoi valori preferiti per **Elabora cicli in batch** e **Attesa blocco (ms)**.
+- Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**. Nella scheda **Elaborazione ciclo** applica i tuoi valori preferiti per **Elabora cicli in batch** e **Attesa blocco (ms)**.
 - Andare a **Gestione magazzino \> Impostazione \> Ondate \> Metodi di elaborazione ondata**. Seleziona il metodo `allocateWave`. Nel riquadro azioni seleziona **Configurazione attività** per aprire una pagina che elenca ogni magazzino in cui il metodo è impostato per essere eseguito in parallelo. Modifica o elimina il numero di attività batch e il gruppo di cicli assegnato per ogni magazzino elencato in base alle esigenze.
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi

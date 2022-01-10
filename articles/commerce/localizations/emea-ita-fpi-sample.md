@@ -1,31 +1,26 @@
 ---
 title: Esempio di integrazione di stampante fiscale per l'Italia
-description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia.
+description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 11/30/2021
+ms.date: 12/20/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
-audience: Application User
-ms.reviewer: josaw
-ms.search.region: Italy
-ms.search.industry: Retail
-ms.author: sepism
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
+ms.search.region: Global
+ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: d9feeeec934e85dc9c5033e6fcd827a05e73ff5b
-ms.sourcegitcommit: 971456c197820421f108ad7345001cc1b6c99949
+ms.openlocfilehash: 592cecff5b6179e7afd1bacb25beda277dfb8fa3
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7875439"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944636"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
-[!include [banner](../includes/banner.md)]
+[!include[banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Introduzione
+In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia in Microsoft Dynamics 365 Commerce.
 
 La funzionalità di Commerce per l'Italia include un'integrazione di esempio del POS con una stampante fiscale. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) di modo che sia utilizzabile con le stampanti [Epson FP-90III Series](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) di Epson e abilita la comunicazione con una stampante fiscale in modalità server Web via il servizio Web EpsonFPMate utilizzando l'API Fiscal ePOS-Print. L'esempio supporta soltanto la modalità Registratore Telematico (RT). L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
 
@@ -75,7 +70,84 @@ Gli scenari seguenti sono coperti dall'esempio di integrazione di stampante fisc
     - Ignorare la registrazione fiscale, o contrassegnare la transazione come registrata, e includere i codici informativi per acquisire il motivo dell'errore e ulteriori informazioni.
     - Verificare la disponibilità della stampante fiscale prima dell'apertura di una nuova transazione di vendita o della finalizzazione di una transazione di vendita.
 
-### <a name="default-data-mapping"></a>Mapping dei dati predefiniti
+### <a name="gift-cards"></a>Gift card
+
+L'esempio di integrazione della stampante fiscale implementa le seguenti regole relative alle gift card:
+
+- Escludere le righe di vendita correlate alle operazioni *Emetti gift card* e *Aggiungi a gift card* della ricevuta fiscale.
+- Non stampare una ricevuta fiscale se comporta soltanto righe gift card.
+- Dedurre l'importo totale delle gift card emesse o ricaricate in una transazione dalle righe di pagamento della ricevuta fiscale.
+- Salvare le rettifiche calcolate delle righe di pagamento nel database del canale con un riferimento a una transazione fiscale corrispondente.
+- Il pagamento tramite gift card è considerato un pagamento normale.
+
+### <a name="customer-deposits-and-customer-order-deposits"></a>Depositi cliente e depositi ordine cliente
+
+L'esempio di integrazione della stampante fiscale implementa le seguenti regole relative a depositi cliente e a depositi ordine cliente:
+
+- Non stampare una ricevuta fiscale se una transazione è un deposito cliente.
+- Non stampare una ricevuta fiscale se una transazione contiene solo un deposito ordine cliente o un rimborso di deposito ordine cliente.
+- Stampare l'importo del deposito pagato in precedenza su una ricevuta fiscale per un'operazione di prelievo ordine cliente.
+- Dedurre l'importo del deposito ordine cliente dalle righe di pagamento quando si crea un ordine cliente ibrido.
+- Salvare le rettifiche calcolate delle righe di pagamento nel database del canale con un riferimento a una transazione fiscale per un ordine cliente ibrido.
+
+### <a name="limitations-of-the-sample"></a>Limitazioni dell'esempio
+
+- La stampante fiscale supporta solo gli scenari in cui l'IVA è inclusa nel prezzo. Di conseguenza, l'opzione **Prezzi IVA inclusa** deve essere impostata su **Sì** per i punti vendita e i clienti.
+- I report giornalieri (X e Z fiscali) vengono stampati utilizzando il formato incorporato nel firmware della stampante fiscale.
+- Le transazioni miste non sono supportate dalla stampante fiscale. L'opzione **Impedisci di combinare vendite e resi in una ricevuta** deve essere impostata su **Sì** nei profili funzionalità POS.
+- L'esempio supporta l'integrazione solo con una stampante fiscale che funziona in modalità Registrazione Telematico (RT).
+
+## <a name="set-up-fiscal-integration-for-italy"></a>Impostare l'integrazione fiscale per l'Italia
+
+L'esempio di integrazione della stampante fiscale per l'Italia si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e fa parte di Retail SDK. L'esempio si trova nella cartella **src\\FiscalIntegration\\EpsonFP90IIISample** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ad esempio, [l'esempio in release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). L'esempio [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) di un provider di documenti fiscali, che è un'estensione di Commerce Runtime (CRT) e un connettore fiscale, che è un'estensione di Commerce Hardware Station. Per ulteriori informazioni su come utilizzare Retail SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurare una pipeline di compilazione per SDK a pacchetti indipendenti](../dev-itpro/build-pipeline.md).
+
+> [!WARNING]
+> A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questo esempio di integrazione fiscale. È necessario utilizzare la versione precedente di Retail SDK su una macchina virtuale per sviluppatori (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione della stampante fiscale per l'Italia (legacy)](emea-ita-fpi-sample-sdk.md).
+>
+> Il supporto per il nuovo modello di packaging ed estensione indipendente per gli esempi di integrazione fiscale è previsto per le versioni successive.
+
+Completa la procedura di configurazione dell'integrazione fiscale come descritto in [Impostare l'integrazione fiscale per canali di Commerce](setting-up-fiscal-integration-for-retail-channel.md).
+
+1. [Configurare un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Inoltre, prendi nota delle impostazioni per il processo di registrazione fiscale che sono [specifiche dell'esempio di integrazione della stampante fiscale](#set-up-the-registration-process).
+1. [Impostare testi fiscali per sconti](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+1. [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+1. [Configurare report X/Z fiscali dal POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+1. [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Impostare la funzionalità per la gestione delle informazioni del cliente nel POS](emea-ita-customer-information.md#setup).
+1. [Configura i componenti del canale](#configure-channel-components).
+
+### <a name="set-up-the-registration-process"></a>Impostare il processo di registrazione
+
+Per abilitare il processo di registrazione, segui questi passaggi per configurare Commerce headquarters. Per ulteriori informazioni vedi [Impostare l'integrazione fiscale per i canali di Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+
+1. Scarica i file di configurazione per il provider di documenti fiscali e il connettore fiscale:
+
+    1. Apri il repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
+    1. Seleziona una versione del ramo di rilascio corretta in base alla versione dell'SDK/dell'applicazione (ad esempio, **[release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Apri **src \> FiscalIntegration \> EpsonFP90IIISample**.
+    1. Scarica il file di configurazione del provider di documenti fiscali in **CommerceRuntime \> DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml** (ad esempio, [il file per release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml)).
+    1. Scarica il file di configurazione del connettore fiscale in **HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IIISample.xml**, ad esempio, [il file per release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml).
+
+    > [!WARNING]
+    > A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questo esempio di integrazione fiscale. È necessario utilizzare la versione precedente di Retail SDK su una macchina virtuale per sviluppatori in LCS. I file di configurazione per questo esempio di integrazione fiscale si trovano nelle seguenti cartelle di Retail SDK su una macchina virtuale per sviluppatori in LCS:
+    >
+    > - **File di configurazione del provider di documenti fiscali:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extension.DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml
+    > - **File di configurazione del connettore fiscale:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml
+    > 
+    > Il supporto per il nuovo modello di packaging ed estensione indipendente per gli esempi di integrazione fiscale è previsto per le versioni successive.
+
+1. Accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**. Nella Scheda **Generale**, imposta l'opzione **Abilita integrazione fiscale** su **Sì**.
+1. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Provider di documenti fiscali**, e carica il file di configurazione del provider di documenti fiscali che hai scaricato prima.
+1. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Connettori fiscali**, e carica il file di configurazione del connettore fiscale che hai scaricato prima.
+1. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili funzionali del connettore**. Crea un nuovo profilo funzionale del connettore. Seleziona il provider di documenti e il connettore che hai caricato in precedenza. Aggiorna le [impostazioni di mapping dei dati](#default-data-mapping) se necessario.
+1. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili tecnici del connettore**. Crea un nuovo profilo tecnico del connettore, quindi seleziona il connettore fiscale caricato in precedenza. Aggiorna le [impostazioni del connettore](#fiscal-connector-settings) se necessario.
+6. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Gruppi di connettori fiscali**. Crea un nuovo gruppo di connettori fiscali per il profilo funzionale del connettore che hai creato in precedenza.
+7. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**. Crea un nuovo processo di registrazione fiscale e un passaggio del processo di registrazione fiscale e seleziona il gruppo di connettori fiscali creato in precedenza.
+8. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Profili POS \> Profili funzionalità**. Seleziona il profilo funzionalità collegato al punto vendita in cui il processo di registrazione deve essere attivato. Nella scheda Dettaglio **Processo di registrazione fiscale**, seleziona il processo di registrazione fiscale creato precedentemente.
+9. Andare a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**. Seleziona un profilo hardware collegato alla stazione hardware a cui la stampante fiscale sarà collegata. Nella scheda Dettaglio **Periferiche fiscali**, seleziona il profilo tecnico del connettore creato in precedenza.
+10. Aprire la programmazione della distribuzione (**Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**) e selezionare i processi **1070** e **1090** per trasferire i dati al database del canale.
+
+#### <a name="default-data-mapping"></a>Mapping dei dati predefiniti
 
 Il mapping dei dati predefiniti seguente è incluso nella configurazione di provider di documenti fiscali fornita nell'esempio di integrazione fiscale:
 
@@ -175,162 +247,76 @@ I seguenti mapping di dati predefiniti sono obsoleti e vengono conservati solo p
 - Mapping dei codici IVA
 - Tipo di pagamento deposito
 
-### <a name="gift-cards"></a>Gift card
+#### <a name="fiscal-connector-settings"></a>Impostazioni del connettore fiscale
 
-L'esempio di integrazione della stampante fiscale implementa le seguenti regole relative alle gift card:
+Le seguenti impostazioni sono incluse nella configurazione del connettore fiscale fornita nell'esempio di integrazione fiscale:
 
-- Escludere le righe di vendita correlate alle operazioni *Emetti gift card* e *Aggiungi a gift card* della ricevuta fiscale.
-- Non stampare una ricevuta fiscale se comporta soltanto righe gift card.
-- Dedurre l'importo totale delle gift card emesse o ricaricate in una transazione dalle righe di pagamento della ricevuta fiscale.
-- Salvare le rettifiche calcolate delle righe di pagamento nel database del canale con un riferimento a una transazione fiscale corrispondente.
-- Il pagamento tramite gift card è considerato un pagamento normale.
+- **Indirizzo endpoint** - L'URL della stampante.
+- **Sincronizzazione data e ora** - Valore che specifica se la data e l'ora della stampante devono essere sincronizzate con la stazione hardware collegata.
 
-### <a name="customer-deposits-and-customer-order-deposits"></a>Depositi cliente e depositi ordine cliente
+### <a name="configure-channel-components"></a>Configurare i componenti del canale
 
-L'esempio di integrazione della stampante fiscale implementa le seguenti regole relative a depositi cliente e a depositi ordine cliente:
+> [!WARNING]
+> A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questo esempio di integrazione fiscale. È necessario utilizzare la versione precedente di Retail SDK su una macchina virtuale per sviluppatori in LCS. Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione della stampante fiscale per l'Italia (legacy)](emea-ita-fpi-sample-sdk.md).
+>
+> Il supporto per il nuovo modello di packaging ed estensione indipendente per gli esempi di integrazione fiscale è previsto per le versioni successive.
 
-- Non stampare una ricevuta fiscale se una transazione è un deposito cliente.
-- Non stampare una ricevuta fiscale se una transazione contiene solo un deposito ordine cliente o un rimborso di deposito ordine cliente.
-- Stampare l'importo del deposito pagato in precedenza su una ricevuta fiscale per un'operazione di prelievo ordine cliente.
-- Dedurre l'importo del deposito ordine cliente dalle righe di pagamento quando si crea un ordine cliente ibrido.
-- Salvare le rettifiche calcolate delle righe di pagamento nel database del canale con un riferimento a una transazione fiscale per un ordine cliente ibrido.
+#### <a name="set-up-the-development-environment"></a>Impostare un ambiente di sviluppo
 
-### <a name="limitations-of-the-sample"></a>Limitazioni dell'esempio
+Segui questi passaggi per impostare un ambiente di sviluppo in modo da poter testare ed estendere l'esempio.
 
-- La stampante fiscale supporta solo gli scenari in cui l'IVA è inclusa nel prezzo. Di conseguenza, l'opzione **Prezzi IVA inclusa** deve essere impostata su **Sì** per i punti vendita e i clienti.
-- I report giornalieri (X e Z fiscali) vengono stampati utilizzando il formato incorporato nel firmware della stampante fiscale.
-- Le transazioni miste non sono supportate dalla stampante fiscale. L'opzione **Impedisci di combinare vendite e resi in una ricevuta** deve essere impostata su **Sì** nei profili funzionalità POS.
-- L'esempio supporta l'integrazione solo con una stampante fiscale che funziona in modalità RT (Registrazione Telematico).
+1. Clona o scarica il repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Seleziona una versione del ramo di rilascio corretta in base alla versione dell'SDK/dell'applicazione. Per altre informazioni vedi [Scaricare gli esempi Retail SDK e i pacchetti di riferimento da GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Apri la soluzione di integrazione della stampante fiscale in **Dynamics365Commerce.Solutions\\FiscalIntegration\\EpsonFP90IIISample\\EpsonFP90IIISample.sln** e compila.
+1. Installa le estensioni CRT:
 
-## <a name="set-up-commerce-for-italy"></a>Impostazione di Commerce per l'Italia
+    1. Trova il programma di installazione dell'estensione CRT:
 
-### <a name="configure-fiscal-integration"></a>Configurare l'integrazione fiscale
+        - **Commerce Scale Unit:** Nella directory **EpsonFP90IIISample\\ScaleUnit\\ScaleUnit.EpsonFP90III.Installer\\bin\\Debug\\net461** trova il programma di installazione **ScaleUnit.EpsonFP90III.Installer**.
+        - **CRT locale su POS moderno:** Nella cartella **EpsonFP90IIISample\\ModernPOS\\ModernPOS.EpsonFP90III.Installer\\bin\\Debug\\net461** trova il programma di installazione **ModernPOS.EpsonFP90III.Installer**.
 
-Completare la procedura di configurazione dell'integrazione fiscale come descritto in [Impostare l'integrazione fiscale per canali di Commerce](setting-up-fiscal-integration-for-retail-channel.md):
+    1. Avvia il programma di installazione dell'estensione CRT dalla riga di comando:
 
-- [Configurare un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Da notare anche le impostazioni per il processo di registrazione fiscale che sono [specifiche dell'esempio di integrazione della stampante fiscale](#set-up-the-registration-process).
-- [Impostare testi fiscali per sconti](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
-- [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-- [Configurare report X/Z fiscali dal POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-- [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-- [Impostare la funzionalità per la gestione delle informazioni del cliente nel POS](emea-ita-customer-information.md#setup)
+        - **Commerce Scale Unit:**
 
-### <a name="enable-extensions"></a>Abilitare le estensioni
+            ```Console
+            ScaleUnit.EpsonFP90III.Installer.exe install --verbosity 0
+            ```
 
-#### <a name="commerce-runtime-extension-components"></a>Componenti dell'estensione di Commerce Runtime
+        - **CRT locale su Modern POS:**
 
-I componenti dell'estensione di Commerce Runtime sono inclusi in Retail SDK. Per completare le seguenti procedure, aprire la soluzione CRT, **CommerceRuntimeSamples.sln**, in **RetailSdk\\SampleExtensions\\CommerceRuntime**.
+            ```Console
+            ModernPOS.EpsonFP90III.Installer.exe install --verbosity 0
+            ```
 
-1. Individuare il progetto **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample** e compilarlo.
-1. Nella cartella **Extensions.DocumentProvider.EpsonFP90IIISample\\bin\\Debug**, trovare il file assembly **Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll**.
-1. Copiare il file assembly alla cartella dell'estensione CRT:
+1. Installa le estensioni stazione hardware:
 
-    - **Commerce Scale Unit**: copiare l'assembly nella cartella **\\bin\\ext** nella posizione del sito di Commerce Scale Unit Internet Information Services (IIS).
-    - **CRT locale su POS moderno**: copiare l'assembly nella cartella **\\ext** nella posizione del broker client CRT locale.
+    1. Nella cartella **EpsonFP90IIISample\\HardwareStation\\HardwareStation.EpsonFP90III.Installer\\bin\\Debug\\net461** trova il programma di installazione **HardwareStation.EpsonFP90III.Installer**.
+    1. Avvia il programma di installazione dell'estensione dalla riga di comando:
 
-1. Individuare il file di configurazione di estensioni per il CRT:
-
-    - **Commerce Scale Unit**: il file si chiama **commerceruntime.ext.config** e si trova nella cartella bin\\ext nella posizione del sito di Commerce Scale Unit IIS.
-    - **CRT locale sul POS moderno:** il file si chiama **CommerceRuntime.MPOSOffline.Ext.config** e si trova nella posizione del broker client CRT locale.
-
-1. Registrare la modifica CRT nel file di configurazione di estensioni. Aggiungere **source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample"**.
-1. Riavviare Commerce Scale Unit:
-
-    - **Commerce Scale Unit:** riavviare il sito Commerce Scale Unit da IIS Manager.
-    - **Broker client**: terminare il processo **dllhost.exe** in Gestione attività quindi riavviare il POS moderno.
-
-#### <a name="hardware-station-extension-components"></a>Componenti dell'estensione stazione hardware
-
-I componenti dell'estensione stazione hardware sono inclusi in Retail SDK. Per completare le seguenti procedure, aprire la soluzione Stazione hardware, **HardwareStationSamples.sln**, in **RetailSdk\\SampleExtensions\\HardwareStation**.
-
-1. Individuare il progetto **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** e compilarlo.
-2. Nella cartella **Extensions.EpsonFP90IIIFiscalDeviceSample\\bin\\Debug**, trovare il file assembly **Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll**.
-3. Copiare i file in un computer stazione hardware distribuito:
-
-    - **Stazione hardware remota**: copiare i file nella cartella **bin** nella posizione del sito stazione hardware IIS.
-    - **Stazione hardware locale**: copiare i file nella posizione del broker client POS moderno.
-
-4. Individuare il file di configurazione per le estensioni della stazione hardware. Il file si chiama **HardwareStation.Extension.config**:
-
-    - **Stazione hardware remota**: il file si trova sotto la posizione del sito della stazione hardware IIS.
-    - **Stazione hardware locale**: il file si trova nella posizione del broker client POS moderno.
-    
-5. Aggiungere la sezione seguente alla sezione di **composizione** del file di configurazione.
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.EpsonFP90IIIFiscalDeviceSample" />
-    ```
-
-6. Riavviare il servizio della stazione hardware:
-
-    - **Stazione hardware remota**: Riavviare il sito della stazione hardware da Gestione IIS.
-    - **Stazione hardware locale**: terminare il processo **dllhost.exe** in Gestione attività quindi riavviare il POS moderno.
-
-### <a name="set-up-the-registration-process"></a>Impostare il processo di registrazione
-
-Per abilitare il processo di registrazione, seguire questi passaggi per configurare Headquarters: Per ulteriori informazioni, vedere [Configurare un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
-
-1. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Connettori fiscali**. Importare la configurazione da **RetailSdk\\SampleExtensions\\HardwareStation\\Entension.EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml**.
-2. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Provider di documenti fiscali**. Importare la configurazione da **RetailSdk\\SampleExtensions\\CommerceRuntime\\Entension.DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml**.
-3. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili tecnici del connettore**. Creare un nuovo profilo, quindi selezionare il connettore caricato nel passaggio precedente. Aggiornare le impostazioni di connessione se un aggiornamento è necessario.
-4. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili funzionali del connettore**. Creare un nuovo profilo, quindi selezionare il connettore e il provider di documenti caricati nei passaggi precedenti. Aggiornare le impostazioni di mapping dei dati se un aggiornamento è necessario.
-5. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Gruppo funzionale di connettori**. Creare un nuovo gruppo, quindi selezionare il profilo funzionale del connettore del passaggio precedente.
-6. Accedere a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processo di registrazione**. Creare un nuovo processo, quindi selezionare il gruppo funzionale di connettori del passaggio precedente.
-7. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Profili POS \> Profili funzionalità**. Aprire il profilo funzionalità collegato al punto vendita in cui il processo di registrazione deve essere attivato. Nella scheda Dettaglio **Processo di registrazione fiscale**, selezionare il processo di registrazione creato nel precedentemente.
-8. Andare a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**. Aprire il profilo hardware collegato alla stazione hardware a cui la stampante fiscale sarà collegata. Nella scheda Dettaglio **Periferiche fiscali**, selezionare il profilo tecnico del connettore.
-9. Aprire la programmazione della distribuzione (**Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**), quindi selezionare i processi **1070** e **1090** per trasferire i dati al database del canale.
-
-### <a name="production-environment"></a>Ambiente di produzione
-
-Per creare pacchetti distribuibili contenenti componenti Commerce e per applicare quei pacchetti a un ambiente di produzione, attenersi alla procedura seguente.
-
-1. Completare la procedura descritta nella sezione [Abilitare le estensioni](#enable-extensions) vista in precedenza in questo argomento.
-2. Apportare le seguenti modifiche nei file di configurazione dei pacchetti nella cartella **RetailSdk\\Assets** :
-
-    - Nei file di configurazione **CommerceRuntime.MPOSOffline.Ext.config** e **commerceruntime.ext.config**, aggiungere la seguente riga alla sezione **composition**.
-
-        ``` xml 
-        <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
+        ```Console
+        HardwareStation.EpsonFP90III.Installer.exe install --verbosity 0
         ```
 
-    - Nel file di configurazione **HardwareStation.Extension.config**, aggiungere la seguente riga alla sezione **composition**.
+#### <a name="production-environment"></a>Ambiente di produzione
 
-        ``` xml 
-        <add source="assembly" value="Contoso.Commerce.HardwareStation.Extension.EpsonFP90IIIFiscalDeviceSample" />
-        ```
-
-3. Apportare le seguenti modifiche nel file di configurazione di personalizzazione dei pacchetti **BuildTools\\Customization.settings**:
-
-    - Aggiungere la seguente riga per includere l'estensione CRT nei pacchetti distribuibili.
-
-        ``` xml 
-        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
-        ```
-
-    - Aggiungere la seguente riga per includere l'estensione stazione hardware nei pacchetti distribuibili.
-
-        ``` xml 
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
-        ```
-
-4. Avviare il prompt dei comandi di MSBuild per l'utilità Visual Studio, quindi eseguire **msbuild** nella cartella Retail SDK per creare pacchetti distribuibili.
-5. Applicare i pacchetti via Microsoft Dynamics Lifecycle Services (LCS) o manualmente. Per ulteriori informazioni, vedere [Creare pacchetti distribuibili](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+Segui i passaggi in [Configurare una pipeline di compilazione per un esempio di integrazione fiscale](fiscal-integration-sample-build-pipeline.md) per generare e rilasciare Cloud Scale Unit e pacchetti distribuibili self-service per l'esempio di integrazione fiscale. Il file YAML del modello **EpsonFP90III build-pipeline.yml** è disponibile nella cartella **Pipeline\\YAML_Files** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions).
 
 ## <a name="design-of-extensions"></a>Progettazione delle estensioni
+
+L'esempio di integrazione della stampante fiscale per l'Italia si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e fa parte di Retail SDK. L'esempio si trova nella cartella **src\\FiscalIntegration\\EpsonFP90IIISample** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ad esempio, [l'esempio in release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). L'esempio [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) di un provider di documenti fiscali, che è un'estensione di CRT e un connettore fiscale, che è un'estensione di Commerce Hardware Station. Per ulteriori informazioni su come utilizzare Retail SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurare una pipeline di compilazione per SDK a pacchetti indipendenti](../dev-itpro/build-pipeline.md).
+
+> [!WARNING]
+> A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questo esempio di integrazione fiscale. È necessario utilizzare la versione precedente di Retail SDK su una macchina virtuale per sviluppatori in LCS. Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione della stampante fiscale per l'Italia (legacy)](emea-ita-fpi-sample-sdk.md). Il supporto per il nuovo modello di packaging ed estensione indipendente per gli esempi di integrazione fiscale è previsto per le versioni successive.
 
 ### <a name="commerce-runtime-extension-design"></a>Progettazione dell'estensione di Commerce Runtime
 
 Lo scopo dell'estensione (provider di documenti) è di generare documenti specifici per la stampante e di gestire le risposte dalla stampante fiscale.
 
-L'estensione di Commerce Runtime è **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample**.
-
-Per ulteriori informazioni sulla progettazione della soluzione di integrazione fiscale, vedere [Processo di registrazione fiscale ed esempi di integrazione fiscale per dispositivi fiscali](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
-
 #### <a name="request-handler"></a>Gestore richieste
-    
+
 Il gestore richieste **DocumentProviderEpsonFP90III** è il punto di ingresso per la richiesta di generare documenti dalla stampante fiscale.
 
-Il gestore viene ereditato dall'interfaccia **INamedRequestHandler**. Il metodo **HandlerName** è responsabile della restituzione del nome del gestore. Il nome del gestore deve corrispondere al nome del provider di documenti del connettore specificato in Headquarters.
+Il gestore viene ereditato dall'interfaccia **INamedRequestHandler**. Il metodo **HandlerName** è responsabile della restituzione del nome del gestore. Il nome del gestore deve corrispondere al nome del fornitore di documenti del connettore specificato in Commerce headquarters.
 
 Il connettore supporta le seguenti richieste:
 
@@ -339,25 +325,17 @@ Il connettore supporta le seguenti richieste:
 
 #### <a name="configuration"></a>Configurazione
 
-Il file di configurazione si trova nella cartella **Configuration** del progetto di estensione. Lo scopo del file è di consentire la configurazione delle impostazioni per il provider di documenti da Headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale. Vengono aggiunte le seguenti impostazioni:
-
-- Mapping codici IVA
-- Mapping aliquote IVA
-- Mapping tipo di metodo di pagamento
-- Tipo di codice a barre per numero ricevuta
-- Tipo di pagamento deposito
+Il file di configurazione per il provider di documenti fiscali si trova in **src\\FiscalIntegration\\EpsonFP90IIISample\\CommerceRuntime\\DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml** nel repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Lo scopo del file è di consentire la configurazione delle impostazioni per il provider di documenti da Commerce headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale.
 
 ### <a name="hardware-station-extension-design"></a>Progettazione dell'estensione stazione hardware
 
-Lo scopo dell'estensione (connettore fiscale) è di comunicare con la stampante fiscale.
-
-L'estensione stazione hardware è **HardwareStation.Extension.EpsonFP90IIIFiscalDeviceSample**. Questa estensione utilizza il protocollo HTTP per inviare documenti generati dall'estensione di Commerce Runtime per la stampante fiscale. Gestisce inoltre le risposte ricevute dalla stampante fiscale.
+Lo scopo dell'estensione (connettore fiscale) è di comunicare con la stampante fiscale. Questa estensione utilizza il protocollo HTTP per inviare documenti generati dall'estensione CRT per la stampante fiscale. Gestisce inoltre le risposte ricevute dalla stampante fiscale.
 
 #### <a name="request-handler"></a>Gestore richieste
 
 Il gestore richieste **EpsonFP90IIISample** è il punto di ingresso per la trasmissione della richiesta alla periferica fiscale.
 
-Il gestore viene ereditato dall'interfaccia **INamedRequestHandler**. Il metodo **HandlerName** è responsabile della restituzione del nome del gestore. Il nome del gestore deve corrispondere al nome del connettore fiscale specificato in Headquarters.
+Il gestore viene ereditato dall'interfaccia **INamedRequestHandler**. Il metodo **HandlerName** è responsabile della restituzione del nome del gestore. Il nome del gestore deve corrispondere al nome del connettore fiscale specificato in Commerce headquarters.
 
 Il connettore supporta le seguenti richieste:
 
@@ -367,10 +345,6 @@ Il connettore supporta le seguenti richieste:
 
 #### <a name="configuration"></a>Configurazione
 
-Il file di configurazione si trova nella cartella **Configuration** del progetto di estensione. Lo scopo del file è di consentire la configurazione delle impostazioni per il connettore da Headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale. Vengono aggiunte le seguenti impostazioni:
-
-- **Indirizzo endpoint** - L'URL della stampante.
-- **Sincronizzazione data e ora** - Questa impostazione specifica se la data e l'ora della stampante devono essere sincronizzate con la stazione hardware collegata.
-
+Il file di configurazione per il connettore fiscale si trova in **src\\FiscalIntegration\\EpsonFP90IIISample\\HardwareStation\\EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml** nel repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Lo scopo del file è di consentire la configurazione delle impostazioni per il connettore da Commerce headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

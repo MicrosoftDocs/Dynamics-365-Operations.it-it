@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778379"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920115"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Pianificare la creazione del lavoro nel corso del ciclo
 
@@ -54,7 +54,7 @@ Le configurazioni esistenti di elaborazione delle attività e dei cicli verranno
 Se necessario, puoi ripristinare manualmente alcune o tutte le impostazioni effettuate automaticamente quando hai abilitato la funzionalità *Metodo ciclo "Programma creazione lavoro" a livello di organizzazione* effettuando le seguenti operazioni:
 
 - Per i modelli ciclo, vai a **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**. Sostituisci il metodo *Programma creazione lavoro* con *Crea lavoro*.
-- Per i parametri di magazzino, vai a **Gestione magazzino\> Impostazioni \> Parametri di gestione magazzino**. Nella scheda **Elaborazione ciclo** applica i tuoi valori preferiti per **Elabora cicli in batch** e **Attesa blocco (ms)**.
+- Per i parametri di magazzino, vai a **Gestione magazzino \> Impostazioni \> Parametri di gestione magazzino**. Nella scheda **Elaborazione ciclo** applica i tuoi valori preferiti per **Elabora cicli in batch** e **Attesa blocco (ms)**.
 - Per i metodi ciclo, vai a **Gestione magazzino \> Impostazione \> Cicli \> Metodi di elaborazione ciclo**. Seleziona `WHSScheduleWorkCreationWaveStepMethod` e nel riquadro azioni seleziona **Configurazione attività**. Modifica o elimina il numero di attività batch e il gruppo di cicli assegnato per ogni magazzino elencato in base alle esigenze.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Configurare manualmente la creazione del lavoro programmato
@@ -65,7 +65,7 @@ Se non hai abilitato la funzionalità [*Metodo ciclo "Programma creazione lavoro
 
 Per sfruttare un metodo asincrono parallelo per creare il lavoro di magazzino, il processo di ciclo deve essere eseguito in batch. Per configurarlo:
 
-1. Andare a  **Gestione magazzino\>Imposta \> Parametri di gestione magazzino**.
+1. Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**.
 1. Nella scheda **Generale**, imposta **Elabora cicli in batch** su *Sì*. Facoltativamente, puoi anche selezionare un **Gruppo batch elaborazione ondata** per impedire che l'elaborazione della coda batch venga eseguita contemporaneamente ad altri processi.
 1. Imposta il **Tempo di attesa per il blocco (ms)**, che si applica quando il sistema elabora più ondate contemporaneamente. Per la maggior parte dei processi di ondata più grandi, è consigliabile impostare un valore pari a *60000*.
 
@@ -73,8 +73,8 @@ Per sfruttare un metodo asincrono parallelo per creare il lavoro di magazzino, i
 
 Inizia creando il nuovo metodo di passaggio di ondata e abilitandolo per l'elaborazione parallela di attività asincrone.
 
-1. Andare a  **Gestione magazzino \> Imposta \> Ondate \> Metodi di elaborazione ondata**.
-1. Selezionare  **Rigenera metodo** e notare come *WHSScheduleWorkCreationWaveStepMethod* sia stato aggiunto all'elenco dei metodi di elaborazione ondata che puoi utilizzare nei modelli di ondate di spedizione.
+1. Andare a **Gestione magazzino \> Impostazione \> Ondate \> Metodi di elaborazione ondata**.
+1. Seleziona **Rigenera metodo** e nota come *WHSScheduleWorkCreationWaveStepMethod* sia stato aggiunto all'elenco dei metodi di elaborazione ondata che puoi utilizzare nei modelli di ondate di spedizione.
 1. Selezionare il record con il **Nome metodo** *WHSScheduleWorkCreationWaveStepMethod* e selezionare **Configurazione attività**.
 1. Per aggiungere una nuova riga alla griglia, selezionare **Nuovo** nel riquadro azioni e utilizzare le impostazioni seguenti:
 
@@ -84,7 +84,7 @@ Inizia creando il nuovo metodo di passaggio di ondata e abilitandolo per l'elabo
 
 Ora sei pronto per aggiornare un modello di ondata esistente (o crearne uno nuovo) per il metodo di elaborazione ondata *Pianifica creazione lavoro*.
 
-1. Passare a  **Gestione magazzino \> Imposta \> Ondate \> Modelli ondata**.
+1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
 1. Selezionare **Modifica** nel riquadro azioni.
 1. Nel riquadro dell'elenco, seleziona il modello di ondata che desideri aggiornare (se stai testando utilizzando i dati demo, puoi usare *Spedizione predefinita 24*).
 1. Espandi la Scheda dettaglio **Metodi** e seleziona la riga con il **Nome** *Pianifica creazione lavoro* nella griglia **Metodi rimanenti**.

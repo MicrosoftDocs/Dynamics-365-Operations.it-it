@@ -1,8 +1,8 @@
 ---
 title: Configurare e gestire la registrazione del database
 description: Puoi tenere traccia delle modifiche a tabelle e campi in Dynamics 365 Human Resources con la registrazione del database.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781659"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924822"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurare e gestire la registrazione del database
 
@@ -93,14 +93,14 @@ Puoi eliminare tutti o parte dei registri del database, utilizzando le seguenti 
 Per configurare la pulitura del registro del database, effettua le seguenti operazioni: 
 
 1. Vai ad **Amministrazione sistema> Collegamenti> Database > Registro database**. Seleziona **Pulisci registro**.
-
-2. Scegli un metodo di selezione dei registri da eliminare inserendo una delle seguenti opzioni:
+2. Sotto l'intestazione **Record da includere**, seleziona **Filtra**.
+3. Scegli il metodo che verrà utilizzato per selezionare i log da eliminare. Immetti una delle opzioni riportate di seguito:
 
    - ID tabella
    - Tipo di registro
    - Data e ora creazione
 
-3. Usa la scheda **Pulitura registro database** per determinare quando eseguire l'attività di pulizia del registro. Per impostazione predefinita, i registri del database sono disponibili per 30 giorni.
+4. Usa la scheda **Pulitura registro database** per determinare quando eseguire l'attività di pulizia del registro. Per impostazione predefinita, i registri del database sono disponibili per 30 giorni.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
