@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891770"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920275"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>Miglioramenti delle prestazioni di pulizia della cronologia delle vendite
+# <a name="sales-history-cleanup-performance-improvements"></a>Miglioramenti delle prestazioni di pulizia della cronologia delle vendite
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ La funzione migliora il lavoro di pulizia esistente nei seguenti modi:
 
 Dopo aver abilitato la funzionalità, il lavoro in batch **pulizia della cronologia degli aggiornamenti delle vendite** (**Vendite e marketing \> Attività periodo \> Pulizia \> Pulizia della cronologia degli aggiornamenti delle vendite**) verrà eseguito come prima, ma con prestazioni migliori per un massimo di 2 ore. Ciò significa che potrebbe essere necessario eseguirlo più volte per ripulire tutti i dati per un intervallo di tempo di conservazione specifico.
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>Abilita la funzionalità di miglioramento delle prestazioni della pulizia della cronologia delle vendite
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>Abilitare la funzionalità di miglioramento delle prestazioni della pulizia della cronologia delle vendite
 
 Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 

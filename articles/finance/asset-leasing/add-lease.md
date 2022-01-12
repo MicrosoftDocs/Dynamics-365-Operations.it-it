@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893647"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931983"
 ---
 # <a name="add-or-copy-leases-preview"></a>Aggiungere o copiare leasing (anteprima)
 
@@ -50,6 +50,9 @@ Dopo aver immesso le informazioni per il leasing, segui questi passaggi per crea
     La pagina **Dettagli libro** mostra come il leasing viene contabilizzato dai libri che gli sono stati assegnati. Da qui è possibile visualizzare i programmi di leasing.
 
     Lo scadenzario pagamenti contiene gli input dalla scheda **Righe scadenzario pagamenti** nella pagina **Aggiungi leasing**. Puoi comunque modificare ogni importo di pagamento e pagamento variabile. L'obbligazione sul leasing viene calcolata in base allo scadenziario pagamenti modificato.
+    
+> [!NOTE]
+> La data di inizio del canone di leasing deve essere uguale o successiva alla data di inizio del contratto di leasing. Se una data di inizio per il canone di leasing è precedente alla data di inizio del leasing, riceverai un messaggio di errore. 
 
 4. Dopo aver finito di esaminare lo scadenziario pagamenti, seleziona **Conferma scadenziario**. Dopo la conferma dello scadenziario, il leasing non è più disponibile per la modifica.
 

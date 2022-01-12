@@ -2,7 +2,7 @@
 title: Gestire le richieste di congedo in Teams
 description: Questo argomento mostra come richiedere tempo libero nell'app Dynamics 365 Human Resources in Microsoft Teams.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771533"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924749"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
@@ -35,6 +35,9 @@ Puoi trovare l'app Dynamics 365 Human Resources nello store di Teams.
 1. In Microsoft Teams, accedi all'elenco delle app.
  
 2. Cerca Dynamics 365 Human Resources, quindi seleziona il riquadro **Human Resources**.
+
+> [!NOTE]
+> A partire dal 20 dicembre 2021, i servizi bot dell'app Human Resources (versione 1.1.4) ospitati nel tenant Microsoft verranno disattivati. L'estensione più aggiornata (versione 1.1.5) è disponibile per l'installazione. Per ulteriori informazioni, vedi [Gestire richieste di congedo in Teams](hr-admin-teams-leave-app.md#update-app).
 
 3. Seleziona il pulsante **Aggiungi** per installare l'app.
 

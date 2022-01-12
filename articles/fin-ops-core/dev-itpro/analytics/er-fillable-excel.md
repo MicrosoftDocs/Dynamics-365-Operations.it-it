@@ -2,7 +2,7 @@
 title: Progettare una configurazione per generare documenti in uscita in formato Excel
 description: Questo argomento descrive come progettare un formato di report elettronico (ER) per compilare un modello Excel e quindi generare documenti in formato Excel in uscita.
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890867"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943614"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -364,6 +364,22 @@ Quando viene generato un documento in uscita in un formato di cartella di lavoro
     3. Esegui il formato ER modificato.
 
         ![Esamina il documento generato nell'applicazione desktop Excel.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>Limiti
+
+### <a name="known-epplus-library-limitations"></a>Limitazioni note della libreria EPPlus
+
+#### <a name="external-data-sources"></a>Origini dati esterne
+
+Se uno dei tuoi modelli contiene una PivotTable basata su un modello PowerPivot che fa riferimento a un [origine dati esterna](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b), e la funzionalità **Abilita l'utilizzo della libreria EPPlus nel framework di creazione di report elettronici** è abilitata, viene visualizzato il seguente messaggio di errore quando esegui un formato ER che utilizza tale modello per generare un documento in uscita in formato Excel: "Il cachesource non è un foglio di lavoro". Per risolvere il problema, completa le opzioni seguenti:
+
+- **Consigliato:** Riprogetta la soluzione Excel che stai utilizzando:
+
+    1. Isola la parte che contiene i pivot in una cartella di lavoro di Excel separata (cartella di lavoro A). 
+    2. Usa ER per generare una seconda cartella di lavoro di Excel (cartella di lavoro B) da Finance con i dettagli richiesti. 
+    3. Fai riferimento alla cartella di lavoro B nella cartella di lavoro A non appena viene generata la cartella di lavoro B.
+
+- Utilizza un'opzione diversa da EPPlus per disattivare la funzione. 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -2,7 +2,7 @@
 title: Posizione cassa
 description: Questo argomento descrive in che modo la funzionalità Previsione di cassa prevede la posizione di cassa di un'organizzazione per orari specifici. Descrive inoltre le opzioni disponibili per mostrare le previsioni per periodi diversi.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752882"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945803"
 ---
 # <a name="cash-position"></a>Posizione cassa
 
@@ -45,5 +45,17 @@ La sezione inferiore della scheda **Posizione di cassa** mostra i dettagli per l
 - La griglia **Conto bancario** mostra l'impatto dei flussi di cassa in entrata e in uscita previsti sul saldo bancario.
 
 Per salvare e modificare la posizione di cassa, crea uno snapshot. Per ulteriori informazioni su come utilizzare gli snapshot, vedi [Panoramica degli snapshot](payment-snapshots.md).
+
+## <a name="details-of-the-cash-position-capability"></a>Dettagli sulla funzionalità Posizione cassa 
+
+La funzionalità Posizione cassa include le seguenti funzionalità. 
+
+- La funzione Posizione cassa mostra il flusso di cassa in base ai documenti esistenti nel sistema e le righe di entrata e uscita di cassa importate da sistemi esterni.
+- Semplifica l'integrazione dei dati sul flusso di cassa da sistemi esterni a Dynamics 365 Finance. La posizione cassa può anche utilizzare il framework di importazione/esportazione dei dati. Questo framework semplifica l'integrazione con Excel OData. È inoltre possibile combinare i dati da più origini per creare una soluzione completa per la posizione cassa.
+- Introduce una posizione di cassa intelligente. La posizione di cassa viene creata in base al comportamento di pagamento del cliente per prevedere quando un'azienda può aspettarsi l'arrivo di liquidità nei suoi conti.
+- Per gli ordini e le fatture dei clienti, la funzionalità IA di previsione dei pagamenti dei clienti viene utilizzata per determinare il comportamento storico dei pagamenti dei clienti quando viene pagato un ordine o una fattura.
+- Per gli ordini e le fatture del fornitore, utilizziamo il tempo medio tra la spedizione e la fattura e il pagamento di una fattura per fornitore per determinare quando viene pagato un ordine o una fattura del fornitore, rendendo più precisi i flussi di cassa.
+
+Ciò crea una visione più accurata del flusso di cassa basata sul comportamento storico dei pagamenti per il tesoriere. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

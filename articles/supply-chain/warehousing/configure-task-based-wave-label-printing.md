@@ -1,22 +1,22 @@
 ---
 title: Pianifica la stampa dell'etichetta ciclo durante il ciclo
 description: Questo argomento descrive come impostare e utilizzare la funzionalità per la stampa di etichette ciclo basata su attività.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777867"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920151"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Pianifica la stampa dell'etichetta ciclo durante il ciclo
 
@@ -40,7 +40,7 @@ Per utilizzare le funzionalità descritte in questo argomento, è necessario att
 
 Devi prima creare il nuovo metodo di passaggio ciclo e abilitarlo per l'elaborazione parallela di attività asincrone.
 
-1. Andare a  **Gestione magazzino \> Imposta \> Ondate \> Metodi di elaborazione ondata**.
+1. Andare a **Gestione magazzino \> Impostazione \> Ondate \> Metodi di elaborazione ondata**.
 1. Nel riquadro azioni, seleziona **Rigenera metodo**. Nota che *waveLabelPrinting* viene aggiunto all'elenco dei metodi di processo ciclo che è possibile utilizzare nei modelli ciclo di spedizione.
 1. Seleziona il record in cui il campo **Nome metodo** è impostato su *waveLabelPrinting*, quindi, nel riquadro azioni, seleziona **Configurazione attività**.
 1. Nel riquadro azioni seleziona **Nuova** per aggiungere una riga alla griglia. Quindi imposta i seguenti campi per la nuova riga:
@@ -51,7 +51,7 @@ Devi prima creare il nuovo metodo di passaggio ciclo e abilitarlo per l'elaboraz
 
 Ora puoi aggiornare un modello ciclo esistente in modo che utilizzi il metodo di elaborazione ciclo *Stampa etichette ciclo*. In alternativa, puoi creare un nuovo modello ciclo che lo utilizzi.
 
-1. Passare a  **Gestione magazzino \> Imposta \> Ondate \> Modelli ondata**.
+1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
 1. Nel riquadro azioni, seleziona **Modifica**.
 1. Nel riquadro dell'elenco, seleziona il modello ciclo da aggiornare. Se stai utilizzando dati demo a scopo di test, puoi selezionare il magazzino *24 Spedizione predefinita*.
 1. Nella Scheda dettaglio **Metodi**, nella colonna **Metodi rimanenti**, seleziona la riga in cui il campo **Nome** è impostato su *waveLabelPrinting*.

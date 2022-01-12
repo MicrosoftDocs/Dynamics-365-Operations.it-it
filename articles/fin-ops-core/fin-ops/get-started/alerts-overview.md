@@ -1,5 +1,5 @@
 ---
-title: Panoramica degli avvisi
+title: Panoramica degli avvisi (video)
 description: In questo argomento vengono fornite informazioni generali sugli avvisi. È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa.
 author: RichdiMSFT
 ms.date: 09/04/2019
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: d504b751a3a14309ab84192b6af0946018f43b61d8b27d86dd3cbea4299a69ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 857a837872abff44c8c7af5e938f7610fa61d94e
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757245"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937473"
 ---
 # <a name="alerts-overview"></a>Panoramica degli avvisi
 

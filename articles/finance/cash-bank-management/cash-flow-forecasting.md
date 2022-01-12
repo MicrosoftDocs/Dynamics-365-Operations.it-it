@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 7d462992816a5a2dee73979ed4cb1521ca4ce4f7
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752906"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945756"
 ---
 # <a name="cash-flow-forecasting"></a>Previsione di cassa
 
@@ -37,6 +37,7 @@ Dopo aver completato queste attività, è possibile calcolare e analizzare le pr
 È possibile integrare la previsione di cassa con Contabilità generale, Contabilità fornitori, Contabilità clienti, Impostazione budget e Gestione articoli. Il processo di previsione utilizza le informazioni delle transazioni immesse nel sistema e il processo di calcolo prevede l'impatto di cassa previsto per ciascuna transazione. Di seguito sono elencati i tipi di transazione considerati quando viene calcolato il flusso di cassa:
 
 - **Ordini cliente** – Ordini cliente non ancora fatturati che determinano vendite fisiche o finanziarie.
+- **Fatture a testo libero** – Fatture a testo libero non ancora registrate e che generano vendite finanziarie. 
 - **Ordini fornitore** – Ordini fornitore non ancora fatturati che determinano acquisti fisici o finanziari.
 - **Contabilità clienti** – Transazioni cliente aperte (fatture non ancora pagate).
 - **Contabilità fornitori** – Transazioni fornitore aperte (fatture non ancora pagate).
@@ -44,7 +45,9 @@ Dopo aver completato queste attività, è possibile calcolare e analizzare le pr
 - **Voci del registro di budget** - Voci del registro di budget selezionate per le previsioni di cassa.
 - **Previsioni della domanda** - Righe del modello previsionale di magazzino selezionate per le previsioni di cassa.
 - **Previsioni dell'offerta** - Righe del modello previsionale di magazzino selezionate per le previsioni di cassa.
+- **Origine dati esterna** - Dati esterni inseriti o importati nelle previsioni del flusso di cassa utilizzando modelli di fogli di calcolo.
 - **Previsioni di progetto** - Gestione del progetto e previsioni contabili utilizzando il modello previsionale.
+- **Pagamenti dell'ufficio IVA del flusso di cassa** – Importi e tempi di pagamento previsti dell'ufficio IVA che determinano pagamenti finanziari. Abilita la funzionalità Pagamenti dell'ufficio IVA del flusso di cassa.
 
 ## <a name="configuration"></a>Configurazione
 
@@ -94,7 +97,7 @@ Le voci del registro di budget possono essere incluse nella previsione di cassa 
 Le previsioni di offerta e domanda di magazzino possono essere incluse nella previsione di cassa. Nella scheda **Gestione inventario** della pagina **Impostazione previsione di cassa**, selezionare il modello di previsione da includere nella previsione di cassa. L'inclusione nella previsione di cassa può essere sovrascritta nelle singole righe della previsione della domanda e dell'offerta.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurazione di dimensioni per la previsione di cassa
-Una nuova scheda nella pagina **Configurazione della previsione di cassa** consente di controllare quali dimensioni finanziarie utilizzare per filtrare nell'area di lavoro **Previsione di cassa**. Questa scheda viene visualizzata solo quando la funzione Previsioni di cassa di Finance Insights è abilitata. 
+Una nuova scheda nella pagina  **Configurazione della previsione di cassa** consente di controllare quali dimensioni finanziarie utilizzare per filtrare nell'area di lavoro  **Previsione di cassa**. Questa scheda verrà visualizzata solo quando la funzione Previsioni di cassa è abilitata.
 
 Nella scheda **Dimensioni**, scegli dall'elenco delle dimensioni da utilizzare per i filtri e utilizza i tasti freccia per spostarle nella colonna di destra. È possibile selezionare solo due dimensioni per filtrare i dati di previsione di cassa. 
 
@@ -108,6 +111,10 @@ Nella versione 10.0.17, una nuova funzionalità consente l'integrazione di Gesti
 Dopo aver attivato la funzione di previsione del flusso di cassa del progetto, puoi visualizzare la previsione del flusso di cassa per ogni progetto nella pagina **Tutti i progetti**. Nella scheda **Pianifica** del riquadro azione, nel gruppo **Previsione**, seleziona **Previsione flusso di cassa**. Nelle aree di lavoro **Panoramica situazione di cassa** (vedi la sezione [Report](#reporting) più avanti in questo argomento), il tipo di transazione Previsione progetto mostra gli afflussi (entrate previste del progetto) e i deflussi (costi previsti del progetto). Gli importi possono essere inclusi solo se il campo **Fase progetto** nelle aree di lavoro **Panoramica situazione di cassa** è impostato su **In corso**.
 
 Le transazioni di progetto sono ancora incluse nella previsione del flusso di cassa in diversi modi, indipendentemente dal fatto che la funzionalità **Previsione flusso di cassa di progetto** sia attivata o meno. Le fatture di progetto registrate vengono incluse nella previsione nell'ambito delle transazioni fornitore aperte. Gli ordini cliente e fornitore attivati da progetto vengono inclusi nella previsione come ordini aperti una volta immessi nel sistema. È inoltre possibile trasferire le previsioni di progetto a un modello di budget contabile. Questo modello di budget contabile quindi viene incluso nella previsione di cassa come parte delle voci del registro di budget. Se hai attivato la funzionalità **Previsione flusso di cassa di progetto**, non trasferire le previsioni di progetto a un modello di budget contabile, poiché questa azione farà sì che le previsioni di progetto vengano conteggiate due volte.
+
+### <a name="sales-tax-authority-payments"></a>Pagamenti all'ufficio IVA 
+
+La funzionalità Pagamenti all'ufficio IVA del flusso di cassa prevede l'impatto sul flusso di cassa dei pagamenti IVA. Utilizza le transazioni IVA non pagate, i periodi di liquidazione delle imposte e il termine di pagamento del periodo fiscale per prevedere la data e l'importo dei pagamenti del flusso di cassa. 
 
 ### <a name="calculation"></a>Calcolo
 

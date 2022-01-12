@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e0475aab452daa9e1a6f012e17a59e611010da
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726563"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920475"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>L'arrotondamento decimale della quantità di aggiornamento fisico non è corretto
 
@@ -49,10 +49,10 @@ Usare la seguente procedura per rivedere le righe di carico e apportare le modif
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
 1. Seleziona il carico per il quale non è possibile generare il documento di trasporto.
-1. Nel riquadro azioni, nella scheda  **Spedisci e ricevi** nel gruppo  **Storna** seleziona  **Storna conferma spedizione**.
-1. Nella scheda  **Righe carico** seleziona la riga di carico per l'articolo che causa il problema.
+1. Nel riquadro azioni, nella scheda **Spedisci e ricevi** nel gruppo **Storna** seleziona **Storna conferma spedizione**.
+1. Nella scheda **Righe carico** seleziona la riga di carico per l'articolo che causa il problema.
 1. Seleziona **Riduci quantità prelevata** per rettificare la quantità prelevata.
-1. Nella scheda  **Dettagli riga** seleziona **Ordine**.
+1. Nella scheda **Dettagli riga** seleziona **Ordine**.
 1. Imposta il campo **Quantità** sulla quantità prelevata (ovvero, il valore del campo **Quantità di lavoro creata**), in modo che possa procedere la generazione del documento di trasporto.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Rivedere le linee di carico e apportare le modifiche per garantire che l'unità e la quantità siano allineate con la precisione decimale dell'unità

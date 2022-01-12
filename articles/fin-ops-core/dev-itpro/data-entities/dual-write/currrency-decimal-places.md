@@ -2,19 +2,19 @@
 title: Migrazione del tipo di dati valuta per la doppia scrittura
 description: Questo argomento descrive come modificare il numero di posizioni decimali supportate dalla doppia scrittura per la valuta.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782809"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917732"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migrazione del tipo di dati valuta per la doppia scrittura
 
@@ -83,9 +83,20 @@ Se si richiede che la precisione di una valuta specifica differisca dalla precis
 
 ![Impostazioni della valuta per una valuta locale specifica.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tabelle: colonna Valuta
+### <a name="tables-currency-column"></a>Tabelle: colonna Valuta
 
 Il numero di posizioni decimali che è possibile configurare per colonne di valuta specifiche è limitato a quattro.
 
+### <a name="default-currency-decimal-precision"></a>Precisione decimale della valuta predefinita
+Per il comportamento previsto della precisione decimale della valuta predefinita in scenari di migrazione e non migrazione, fai riferimento alla tabella seguente. 
+
+| Data creazione  | Campo Valuta decimale    | Organizzazione esistente (campo valuta non migrato) | Organizzazione esistente (campo valuta migrato) | Nuova organizzazione creata dopo la build 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Campo valuta creato prima della build 9.2.21111.00146  |     |  |       |
+|    | Massima precisione visibile nell'interfaccia utente   | 4 cifre    | 10 cifre    | N/D    |
+| | Massima precisione visibile nel database e nell'interfaccia utente dei risultati delle query DB         | 4 cifre   | 10 cifre   | N/D    |
+| Campo valuta creato dopo la build 9.2.21111.00146 |    |  |     |   |
+|   | Massima precisione decimale visibile nell'interfaccia utente     | 4 cifre   | 10 cifre   | 10 cifre     |
+|          | Massima precisione decimale visibile nel database e nell'interfaccia utente dei risultati delle query DB | 10 cifre. Tuttavia, solo 4 sono significative con tutti gli zeri oltre le 4 cifre decimali. Ciò consente una migrazione più semplice e veloce dell'organizzazione, se necessario. | 10 cifre      | 10 cifre     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

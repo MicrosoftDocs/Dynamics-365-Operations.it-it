@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 00e3da7767b80e16f9351f59b109765bffc0128fe149cefafc1edda3a6cbcb96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc74c5748950b1f0f001fd89acb2e023640065ee
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781347"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920052"
 ---
 # <a name="quantity-exceeds-over-delivery-percentage-during-packing-slip-generation"></a>La quantità supera la percentuale di limite massimo di fornitura durante la generazione del documento di trasporto
 
@@ -50,10 +50,10 @@ Utilizza la seguente procedura per rettificare la quantità della riga di carico
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
 1. Seleziona il carico per il quale non è possibile generare il documento di trasporto.
-1. Nel riquadro azioni, nella scheda  **Spedisci e ricevi** nel gruppo  **Storna** seleziona  **Storna conferma spedizione**.
-1. Nella scheda  **Righe di carico**, seleziona la riga di carico dell'articolo che supera la percentuale di limite massimo di fornitura.
+1. Nel riquadro azioni, nella scheda **Spedisci e ricevi** nel gruppo **Storna** seleziona **Storna conferma spedizione**.
+1. Nella scheda **Righe di carico**, seleziona la riga di carico dell'articolo che supera la percentuale di limite massimo di fornitura.
 1. Seleziona **Riduci quantità prelevata** per rettificare la quantità prelevata.
-1. Nella scheda  **Dettagli riga** seleziona **Ordine**.
+1. Nella scheda **Dettagli riga** seleziona **Ordine**.
 1. Imposta il campo **Quantità** sulla quantità prelevata (ovvero, il valore del campo **Quantità di lavoro creata**), in modo che possa procedere la generazione del documento di trasporto.
 
 ### <a name="adjust-the-over-delivery-percentage"></a>Rettifica la percentuale di limite massimo di fornitura
@@ -62,8 +62,8 @@ Utilizza la seguente procedura per rettificare la percentuale di limite massimo 
 
 1. Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini**.
 1. Selezionare l'ordine cliente per il quale non è possibile registrare un documento di trasporto per il carico.
-1. Nella scheda  **Righe ordine cliente**, seleziona la riga ordine cliente dell'articolo che supera la percentuale di limite massimo di fornitura.
-1. Nella scheda  **Dettagli riga** seleziona **Consegna**.
+1. Nella scheda **Righe ordine cliente**, seleziona la riga ordine cliente dell'articolo che supera la percentuale di limite massimo di fornitura.
+1. Nella scheda **Dettagli riga** seleziona **Consegna**.
 1. Imposta il campo **Limite massimo di fornitura** su una percentuale maggiore che tiene conto della quantità prelevata rispetto alla quantità di carico, in modo che possa procedere la generazione del documento di trasporto.
 
 ### <a name="reverse-and-make-adjustments"></a>Storna e apporta rettifiche
@@ -73,14 +73,14 @@ Storna tutto ciò che è stato registrato per il carico (ad esempio, documento d
 Utilizza la seguente procedura per annullare un documento di trasporto.
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nel riquadro azioni, nella scheda  **Spedisci e ricevi** nel gruppo  **Storna** seleziona  **Annulla documenti di trasporto**.
+1. Nel riquadro azioni, nella scheda **Spedisci e ricevi** nel gruppo **Storna** seleziona **Annulla documenti di trasporto**.
 
 Utilizza la seguente procedura per stornare una conferma di spedizione.
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nel riquadro azioni, nella scheda  **Spedisci e ricevi** nel gruppo  **Storna** seleziona  **Storna conferma spedizione**.
+1. Nel riquadro azioni, nella scheda **Spedisci e ricevi** nel gruppo **Storna** seleziona **Storna conferma spedizione**.
 
 Utilizza la seguente procedura per stornare il lavoro.
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nella scheda  **Lavoro** del riquadro azioni, nel gruppo  **Carichi**, seleziona  **Storna lavoro**.
+1. Nella scheda **Lavoro** del riquadro azioni, nel gruppo **Carichi**, seleziona **Storna lavoro**.

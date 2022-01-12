@@ -1,8 +1,8 @@
 ---
 title: Creare una sequenza di lettere di sollecito
 description: Utilizza questa procedura per creare una sequenza di lettere di sollecito.
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753588"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921201"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Creare una sequenza di lettere di sollecito
 
@@ -31,10 +31,10 @@ Utilizza questa procedura per creare una sequenza di lettere di sollecito. In qu
 3. Nel campo **Sequenza lettere di sollecito**, immettere un ID sequenza che rappresenterà la sequenza. Verrà utilizzato quando si imposta un profilo registrazione.
 4. Digitare un valore nel campo **Descrizione**  I termini di pagamento sono facoltativi. Se si immette un valore in questo campo, la fattura di addebito lettera di sollecito utilizzerà questi termini di pagamento anziché i termini di pagamento archiviati con il cliente.  
 5. Nel campo **Codice lettera di sollecito** selezionare il codice per la prima lettera di sollecito che si desidera inviare. La prima nota d'interesse viene creata in base alla data di scadenza riportata sulla fattura, al valore specificato per il periodo di tolleranza nel campo Giorni e alle altre informazioni immesse in questa riga.  
-6. Digitare un valore nel campo **Descrizione** La valuta per le impostazioni predefinite della commissione nella valuta del cliente. Questo codice valuta può essere diverso dalla valuta della fattura.  
-7. Fare clic su **Aggiungi** per aggiungere la lettera di sollecito successiva che verrà inviata nella sequenza In molti casi, la prima lettera di sollecito è soltanto un avviso. È possibile aggiungere le commissioni se necessario.  
-8. Nel campo Codice lettera di sollecito selezionare la lettera di sollecito successiva che verrà inviata nella sequenza.
-9. Digitare un valore nel campo **Descrizione**
+6. Digitare un valore nel campo **Descrizione** 
+7. La valuta predefinite della commissione è la valuta della persona giuridica. Questo codice valuta può essere diverso dalla valuta della fattura.   
+8. Fare clic su **Aggiungi** per aggiungere la lettera di sollecito successiva che verrà inviata nella sequenza In molti casi, la prima lettera di sollecito è soltanto un avviso. È possibile aggiungere le commissioni se necessario.  
+9. Nel campo **Codice lettera di sollecito** selezionare la lettera di sollecito successiva che verrà inviata nella sequenza.
 10. Nel campo **Conto principale**, selezionare il conto ricavi che verrà utilizzato per le commissioni.
 11. Immettere la commissione che verrà addebitata quando la lettera di sollecito viene registrata.
 12. Nel campo **Fascia IVA articoli** fare clic sul pulsante a discesa per aprire la ricerca. Selezionare una fascia IVA articoli se l'IVA deve essere calcolata sulla commissione.  

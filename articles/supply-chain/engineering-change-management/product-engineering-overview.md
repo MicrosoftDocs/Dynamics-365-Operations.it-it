@@ -1,5 +1,5 @@
 ---
-title: Panoramica della gestione delle modifiche di progettazione
+title: Panoramica della gestione delle modifiche di progettazione (video)
 description: Questo argomento fornisce una panoramica della gestione delle modifiche di progettazione, che consente di pianificare e gestire il controllo delle versioni del prodotto e gestire i cicli di vita del prodotto e le modifiche di progettazione.
 author: t-benebo
 ms.date: 08/26/2021
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 89a3eb584275e52910726ca5a9ed53f744f10b8d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574691"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937662"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -28,7 +28,7 @@ ms.locfileid: "7574691"
 
 I produttori di oggi richiedono una potete gestione di dati del prodotto, controllo della versione e gestione delle modifiche di progettazione per avere successo in un mondo di cicli di vita dei prodotti in costante riduzione, requisiti di qualità e affidabilità aumentati e una maggiore attenzione alla sicurezza del prodotto.
 
-La gestione delle modifiche di progettazione conferisce struttura e disciplina al processo di gestione dei dati di prodotto e consente di definire, rilasciare e rivedere i prodotti in modo controllato e supportato dai flussi di lavoro.Tramite le versioni del prodotto e la gestione delle modifiche di progettazione, è possibile documentare, valutare l'impatto e applicare le modifiche di progettazione durante l'intero ciclo di vita di un prodotto.
+La gestione delle modifiche di progettazione conferisce struttura e disciplina al processo di gestione dei dati di prodotto e consente di definire, rilasciare e rivedere i prodotti in modo controllato e supportato dai flussi di lavoro. Tramite le versioni del prodotto e la gestione delle modifiche di progettazione, è possibile documentare, valutare l'impatto e applicare le modifiche di progettazione durante l'intero ciclo di vita di un prodotto.
 
 La gestione delle modifiche di progettazione consente di pianificare e gestire il controllo delle versioni del prodotto e gestire i cicli di vita del prodotto e le modifiche di progettazione. Ecco un elenco delle sue funzionalità principali:
 

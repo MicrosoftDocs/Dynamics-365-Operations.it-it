@@ -1,0 +1,267 @@
+---
+title: Linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria (legacy)
+description: Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione fiscale per l'Austria da Microsoft Dynamics 365 Commerce Retail software development kit (SDK).
+author: EvgenyPopovMBS
+ms.date: 12/20/2021
+ms.topic: article
+audience: Application User
+ms.reviewer: v-chgriffin
+ms.search.region: Global
+ms.author: epopov
+ms.search.validFrom: 2019-3-1
+ms.openlocfilehash: c038773dc7c1c475f5852f0f0272b59516140593
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944665"
+---
+# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria (legacy)
+
+[!include [banner](../includes/banner.md)]
+
+Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria da Microsoft Dynamics 365 Commerce Retail software development kit (SDK) in una macchina virtuale per lo sviluppo (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per maggiori informazioni sull'esempio di integrazione fiscale, vedi [Esempio di integrazione del servizio di registrazione fiscale per l'Austria](emea-aut-fi-sample.md). 
+
+L'esempio di integrazione fiscale per l'Austria fa parte di Retail SDK. Per informazioni su come installare e utilizzare SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md). L'esempio di integrazione fiscale è costituito da estensioni per Commerce runtime (CRT), stazione hardware e point of sale (POS). Per eseguire questo esempio, è necessario modificare e creare progetti CRT, stazione hardware e POS. Si consiglia di utilizzare un SDK Retail non modificato per apportare le modifiche descritte in questo argomento. Si consiglia inoltre di utilizzare un sistema di controllo del codice sorgente, come Azure DevOps dove nessun file è stato ancora modificato.
+
+## <a name="development-environment"></a>Ambiente di sviluppo
+
+Segui questi passaggi per configurare un ambiente di sviluppo in modo da poter testare ed estendere l'esempio.
+
+### <a name="enable-commerce-runtime-extensions"></a>Abilitare le estensioni di Commerce Runtime
+
+I componenti dell'estensione CRT sono inclusi negli esempi CRT. Per completare le seguenti procedure, apri la soluzione **CommerceRuntimeSamples.sln** in **RetailSdk\\SampleExtensions\\CommerceRuntime**.
+
+#### <a name="documentproviderefrsample-component"></a>Componente DocumentProvider.EFRSample
+
+1. Individua il progetto **Runtime.Extensions.DocumentProvider.EFRSample** e compilalo.
+2. Nella cartella **Runtime.Extensions.DocumentProvider.EFRSample\\bin\\Debug**, trova il file assembly **Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll**.
+3. Copiare il file assembly alla cartella dell'estensione CRT:
+
+    - **Commerce Scale Unit**: copia il file nella cartella **\\bin\\ext** nella posizione del sito Internet Information Services (IIS) Commerce Scale Unit.
+    - **CRT locale su POS moderno**: copia il file nella cartella **\\ext** nella posizione del broker client CRT locale.
+
+4. Individua il file di configurazione dell'estensione per CRT:
+
+    - **Commerce Scale Unit:** il file si chiama **commerceruntime.ext.config** e si trova nella cartella **bin\\ext** nella posizione del sito IIS Commerce Scale Unit.
+    - **CRT locale sul POS moderno:** il file si chiama **CommerceRuntime.MPOSOffline.Ext.config** e si trova nella posizione del broker client CRT locale.
+
+5. Registra la modifica CRT nel file di configurazione dell'estensione.
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EFRSample" />
+    ```
+
+#### <a name="documentproviderdatamodelefr-component"></a>Componente DocumentProvider.DataModelEFR
+
+1. Individua il progetto **Runtime.Extensions.DocumentProvider.DataModelEFR** e compilalo.
+2. Nella cartella **Runtime.Extensions.DocumentProvider.DataModelEFR\\bin\\Debug**, trova il file assembly **Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll**.
+3. Copiare il file assembly alla cartella dell'estensione CRT:
+
+    - **Commerce Scale Unit**: copia il file nella cartella **\\bin\\ext** nella posizione del sito IIS Commerce Scale Unit.
+    - **CRT locale su POS moderno**: copia il file nella cartella **\\ext** nella posizione del broker client CRT locale.
+
+4. Individua il file di configurazione dell'estensione per CRT:
+
+    - **Commerce Scale Unit:** il file si chiama **commerceruntime.ext.config** e si trova nella cartella **bin\\ext** nella posizione del sito IIS Commerce Scale Unit.
+    - **CRT locale sul POS moderno:** il file si chiama **CommerceRuntime.MPOSOffline.Ext.config** e si trova nella posizione del broker client CRT locale.
+
+5. Registra la modifica CRT nel file di configurazione dell'estensione.
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
+    ```
+
+#### <a name="extension-configuration-file"></a>File di configurazione dell'estensione
+
+1. Individua il file di configurazione dell'estensione per CRT:
+
+    - **Commerce Scale Unit:** il file si chiama **commerceruntime.ext.config** e si trova nella cartella **bin\\ext** nella posizione del sito IIS Commerce Scale Unit.
+    - **CRT locale sul POS moderno:** il file si chiama **CommerceRuntime.MPOSOffline.Ext.config** e si trova nella posizione del broker client CRT locale.
+
+2. Registra la modifica CRT nel file di configurazione dell'estensione.
+
+    ``` xml
+    <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsAustria" />
+    <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.RegisterAuditEventAustria" />
+    <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
+    ```
+
+### <a name="enable-hardware-station-extensions"></a>Abilitare le estensioni della stazione hardware
+
+I componenti dell'estensione stazione hardware sono inclusi negli esempi per stazione hardware. Per completare le seguenti procedure, apri la soluzione **HardwareStationSamples.sln** in **RetailSdk\\SampleExtensions\\HardwareStation**.
+
+#### <a name="efrsample-component"></a>Componente EFRSample
+
+1. Individua il progetto **HardwareStation.Extension.EFRSample** e compilalo.
+2. Nella cartella **Extension.EFRSample\\bin\\Debug** trova i seguenti file assembly:
+
+    - Contoso.Commerce.HardwareStation.EFRSample.dll
+    - Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll
+
+3. Copia i file assembly nella cartella delle estensioni stazione hardware:
+
+    - **Stazione hardware condivisa**: copia i file nella cartella **bin** nella posizione del sito stazione hardware IIS.
+    - **Stazione hardware dedicata in Modern POS**: copia i file nella posizione del broker client Modern POS.
+
+4. Individuare il file di configurazione dell'estensione per le estensioni della stazione hardware. Il file si chiama **HardwareStation.Extension.config**.
+
+    - **Stazione hardware condivisa**: il file si trova sotto la posizione del sito della stazione hardware IIS.
+    - **Stazione hardware dedicata in Modern POS**: il file si trova nella posizione del broker client Modern POS.
+
+5. Aggiungi la riga seguente alla sezione **composition** del file di configurazione.
+
+    ``` xml
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
+    ```
+
+### <a name="enable-modern-pos-extension-components"></a>Abilitare i componenti dell'estensione Modern POS
+
+1. Apri la soluzione **ModernPOS.sln** in **RetailSdk\\POS** e assicurati che possa essere compilata senza errori. Inoltre, assicurati di poter eseguire Modern POS da Visual Studio usando il comando **Esegui**.
+
+    > [!NOTE]
+    > Il Modern POS non deve essere personalizzato. È necessario abilitare il controllo dell'account utente (UAC) e disinstallare le istanze di Modern POS installate in precedenza come richiesto.
+
+2. Abilita le estensioni da caricare aggiungendo le seguenti righe nel file **extensions.json**.
+
+    ``` json
+    {
+        "extensionPackages": [
+            {
+                "baseUrl": "Microsoft/AuditEvent.AT"
+            }
+        ]
+    }
+    ```
+
+    > [!NOTE]
+    > Per ulteriori informazioni e per esempi che mostrano come includere le cartelle del codice sorgente e abilitare il caricamento delle estensioni, vedi le istruzioni nel file readme.md nel progetto **Pos.Extensions**.
+
+3. Ricompila la soluzione.
+4. Esegui Modern POS nel debugger e verifica la funzionalità.
+
+### <a name="enable-cloud-pos-extension-components"></a>Abilitare i componenti dell'estensione Cloud POS
+
+1. Apri la soluzione **CloudPOS.sln** in **RetailSdk\\POS** e assicurati che possa essere compilata senza errori.
+2. Abilita le estensioni da caricare aggiungendo le seguenti righe nel file **extensions.json**.
+
+    ``` json
+    {
+        "extensionPackages": [
+            {
+                "baseUrl": "Microsoft/AuditEvent.AT"
+            }
+        ]
+    }
+    ```
+
+    > [!NOTE]
+    > Per ulteriori informazioni e per esempi che mostrano come includere le cartelle del codice sorgente e abilitare il caricamento delle estensioni, vedi le istruzioni nel file readme.md nel progetto **Pos.Extensions**.
+
+3. Ricompila la soluzione.
+4. Esegui la soluzione usando il comando **Esegui** e seguendo i passaggi nel manuale di Retail SDK.
+
+## <a name="production-environment"></a>Ambiente di produzione
+
+Nella procedura precedente sono state abilitate le estensioni che sono componenti dell'esempio di integrazione del servizio di registrazione fiscale. Inoltre devi seguire la procedura seguente per creare pacchetti distribuibili contenenti componenti Commerce e per applicare quei pacchetti a un ambiente di produzione.
+
+1. Apportare le seguenti modifiche nei file di configurazione dei pacchetti nella cartella **RetailSdk\\Assets** :
+
+    - Nei file di configurazione **CommerceRuntime.MPOSOffline.Ext.config** e **commerceruntime.ext.config**, aggiungi le seguenti righe alla sezione **composition**.
+
+        ``` xml
+        <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EFRSample" />
+        <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
+        <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsAustria" />
+        <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.RegisterAuditEventAustria" />
+        <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
+        ```
+
+    - Nel file di configurazione **HardwareStation.Extension.config**, aggiungere la seguente riga alla sezione **composition**.
+
+        ``` xml
+        <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample" />
+        <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
+        ```
+
+2. Apporta le seguenti modifiche nel file di configurazione di personalizzazione dei pacchetti **Customization.settings** nella cartella **BuildTools**:
+
+    - Aggiungi le seguenti righe per includere le estensioni CRT nei pacchetti distribuibili.
+
+        ``` xml
+        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll" />
+        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
+        ```
+
+    - Aggiungere la seguente riga per includere l'estensione stazione hardware nei pacchetti distribuibili.
+
+        ``` xml
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EFRSample.dll" />
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
+        ```
+
+3. Avviare il prompt dei comandi di MSBuild per l'utilità Visual Studio ed eseguire **msbuild** nella cartella Retail SDK per creare pacchetti distribuibili.
+4. Applica i pacchetti via LCS o manualmente. Per ulteriori informazioni, vedere [Creare pacchetti distribuibili](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+5. Completa tutte le attività di configurazione richieste descritte in [Impostare Commerce per l'Austria](emea-aut-fi-sample.md#set-up-commerce-for-austria).
+
+## <a name="design-of-extensions"></a>Progettazione delle estensioni
+
+L'esempio di integrazione del servizio di registrazione fiscale per l'Austria si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Per ulteriori informazioni sulla progettazione della soluzione di integrazione fiscale, vedi [Panoramica di un progetto di esempio di integrazione fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+
+### <a name="commerce-runtime-extension-design"></a>Progettazione dell'estensione di Commerce Runtime
+
+Lo scopo dell'estensione (provider di documenti) è di generare documenti specifici per il servizio e di gestire le risposte dal servizio di registrazione fiscale.
+
+L'estensione CRT è **Runtime.Extensions.DocumentProvider.EFRSample**.
+
+#### <a name="request-handler"></a>Gestore richieste
+
+Esistono due gestori di richieste per i provider di documenti:
+
+- **DocumentProviderEFRFiscalAUT** – Questo gestore viene utilizzato per generare documenti fiscali per il servizio di registrazione fiscale.
+- **DocumentProviderEFRNonFiscalAUT** – Questo gestore viene utilizzato per generare documenti non fiscali per il servizio di registrazione fiscale.
+
+Questi gestori sono ereditati dall'interfaccia **INamedRequestHandler**. Il metodo **HandlerName** è responsabile della restituzione del nome del gestore. Il nome del gestore deve corrispondere al nome del fornitore di documenti del connettore specificato in Commerce headquarters.
+
+Il connettore supporta le seguenti richieste:
+
+- **GetFiscalDocumentDocumentProviderRequest** - Contiene informazioni su quale documento dovrà essere generato. Restituisce un documento specifico del servizio che deve essere registrato nel servizio di registrazione fiscale.
+- **GetNonFiscalDocumentDocumentProviderRequest** - Contiene informazioni su quale documento non fiscale dovrà essere generato. Restituisce un documento specifico del servizio che deve essere registrato nel servizio di registrazione fiscale.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** - Restituisce l'elenco degli eventi da sottoscrivere. Attualmente, sono supportati i seguenti eventi: vendite, stampa di report X, stampa di report Z, depositi conto cliente, depositi ordine cliente, eventi di controllo e transazioni non di vendita.
+- **GetFiscalRegisterResponseToSaveDocumentProviderRequest** – Questa richiesta restituisce la risposta del servizio di registrazione fiscale. Questa risposta viene serializzata per formare una stringa in modo da poter essere salvata.
+
+#### <a name="configuration"></a>Configurazione
+
+I file di configurazione si trovano nella cartella **Configuration** del progetto di estensione:
+
+- **DocumentProviderFiscalEFRSampleAustria** – Per documenti fiscali.
+- **DocumentProviderNonFiscalEFRSampleAustria** – Per documenti non fiscali.
+
+Lo scopo dei file è di consentire la configurazione delle impostazioni per il provider di documenti da Commerce headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale. Viene aggiunta la seguente impostazione:
+
+- Mapping aliquote IVA
+
+### <a name="hardware-station-extension-design"></a>Progettazione dell'estensione stazione hardware
+
+Lo scopo dell'estensione (connettore fiscale) è di comunicare con il servizio di registrazione fiscale.
+
+L'estensione stazione hardware è **HardwareStation.Extension.EFRSample**. Utilizza il protocollo HTTP per inviare documenti generati dall'estensione CRT per il servizio di registrazione fiscale. Gestisce inoltre le risposte ricevute dal servizio di registrazione fiscale.
+
+#### <a name="request-handler"></a>Gestore richieste
+
+Il gestore richieste **EFRHandler** è il punto di ingresso per la trasmissione delle richieste al servizio di registrazione fiscale.
+
+Il gestore viene ereditato dall'interfaccia **INamedRequestHandler**. Il metodo **HandlerName** è responsabile della restituzione del nome del gestore. Il nome del gestore deve corrispondere al nome del connettore fiscale specificato in Commerce headquarters.
+
+Il connettore supporta le seguenti richieste:
+
+- **SubmitDocumentFiscalDeviceRequest** - Invia documenti al servizio di registrazione fiscale e restituisce una risposta.
+- **IsReadyFiscalDeviceRequest** - Viene utilizzata per un controllo di integrità del servizio di registrazione fiscale.
+- **InitializeFiscalDeviceRequest** - Viene utilizzata per inizializzare il servizio di registrazione fiscale.
+
+#### <a name="configuration"></a>Configurazione
+
+Il file di configurazione si trova nella cartella **Configuration** del progetto di estensione. Lo scopo del file è di consentire la configurazione delle impostazioni per il connettore fiscale da Commerce headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale. Vengono aggiunte le seguenti impostazioni:
+
+- **Indirizzo dell'endpoint** – L'URL del servizio di registrazione fiscale.
+- **Timeout** – La quantità di tempo, in millisecondi che il driver trascorre in attesa di una risposta dal servizio di registrazione fiscale.

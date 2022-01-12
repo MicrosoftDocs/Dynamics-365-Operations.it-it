@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
 author: sericks007
-ms.date: 10/28/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725051"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927481"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -74,7 +74,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | Non esiste alcun controllo per eseguire questo evento. |
-| **Sostituita da un'altra funzionalità?**   | Sì, sposta i metodi esistenti sottoscritti dall'evento **OnDBSynchronzie** in una classe estesa SysSetup. |
+| **Sostituita da un'altra funzionalità?**   | Sì, sposta i metodi esistenti sottoscritti dall'evento **OnDBSynchronize** in una classe estesa SysSetup. |
 | **Aree del prodotto interessate**         | Sincronizzazione del database |
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Deprecato. La data prevista per la rimozione è ottobre 2022. |
