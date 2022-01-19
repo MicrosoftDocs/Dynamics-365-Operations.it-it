@@ -1,8 +1,8 @@
 ---
 title: Domande frequenti sulle attività di fine anno
-description: In questo argomento sono riportate informazioni utili per le attività di chiusura di fine anno.
-author: kweekley
-ms.date: 01/25/2021
+description: Questo argomento elenca le domande che possono sorgere in relazione alle attività di chiusura di fine anno e le risposte che possono aiutare per eseguire tali attività.
+author: moaamer
+ms.date: 12/21/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,30 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b7606314b9cf7050a565822b5b9e23beb0cb4978b20e88596c5002d918cfcd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
+ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725076"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947264"
 ---
 # <a name="year-end-activities-faq"></a>Domande frequenti sulle attività di fine anno 
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento sono riportate informazioni utili per le attività di chiusura di fine anno. Le informazioni in questo argomento si concentrano principalmente sulle domande relative alle attività di chiusura di fine anno per la contabilità generale e la contabilità fornitori.
+Questo argomento elenca le domande che possono sorgere in relazione alle attività di chiusura di fine anno e le risposte che possono aiutare per eseguire tali attività. Le informazioni in questo argomento si concentrano principalmente sulle domande relative alle attività di chiusura di fine anno per la contabilità generale e la contabilità fornitori.
+
+## <a name="general-ledger-year-end-enhancements"></a>Miglioramenti per la chiusura di fine anno della contabilità generale 
+Nella versione 10.0.20 è stato introdotto un miglioramento della chiusura di fine anno, abilitato per impostazione predefinita a partire dalla versione 10.0.25. Se l'organizzazione utilizza una versione precedente alla 10.0.25, consigliamo di abilitare questa funzionalità prima di iniziare il processo di chiusura di fine anno. Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro Gestione funzionalità per controllare lo stato della funzionalità e, se necessario, attivarla. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+
+ - Modulo: Contabilità generale
+ - Nome funzionalità: Miglioramenti per la chiusura di fine anno della contabilità generale
+
+La configurazione dei modelli di chiusura di fine anno è stata spostata nella nuova pagina **Configurazione del modello di chiusura di fine anno**. La pagina di chiusura di fine anno esistente cambierà in modo simile alla pagina Rivalutazione valuta estera per la contabilità generale, in cui viene visualizzato un elenco ogni volta che la chiusura di fine anno viene eseguita o stornata. Un direttore amministrativo può avviare la chiusura di fine anno nella nuova pagina. 
+
+Per stornare la chiusura di fine anno, selezionare l'anno fiscale più recente per la persona giuridica appropriata e scegliere il pulsante **Storna chiusura di fine anno**. Lo storno comporta l'eliminazione delle registrazioni contabili per la chiusura di fine anno precedente, ma non la nuova esecuzione della chiusura di fine anno in modo automatico. 
+
+È possibile eseguire nuovamente la chiusura di fine anno riavviando il processo per l'anno fiscale e la persona giuridica. Il processo continua a utilizzare l'impostazione dei parametri di contabilità generale per determinare se la riesecuzione della chiusura di fine anno tiene conto solo delle transazioni nuove o modificate oppure annulla completamente la chiusura precedente, rieseguendo il processo per tutte le transazioni.  
 
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Contabilità generale: come si fa a sapere se è in esecuzione la chiusura di fine anno e non l'annullamento della chiusura di fine anno?
 Abbiamo notato organizzazioni che cercavano di eseguire la chiusura di fine anno e invece stavano eseguendo un annullamento della chiusura di fine anno. Se la chiusura di fine anno termina molto rapidamente o non produce saldi iniziali, convalidare l'impostazione **Annulla chiusura precedente** in **Chiusura di fine anno** (**Contabilità generale > Periodo chiuso > Chiusura di fine anno > Esegui chiusura fiscale**). 
@@ -65,45 +77,74 @@ I set di dimensioni non necessari influiscono anche sul processo batch **BudgetD
 ### <a name="year-end-close-template-configuration"></a>Configurazione del modello di chiusura di fine anno
 Il modello di chiusura di fine anno consente alle organizzazioni di selezionare il livello di dimensione finanziaria da mantenere quando si trasferiscono i saldi di profitti e perdite agli utili non distribuiti. Le impostazioni consentono a un'organizzazione di mantenere le dimensioni finanziarie dettagliate (**Chiudi tutto**) quando si spostano i saldi negli utili non distribuiti o si sceglie di riepilogare gli importi in un singolo valore di dimensione (**Chiudi singolo**). Queste impostazioni possono essere definite per ogni dimensione finanziaria. Per ulteriori informazioni su queste impostazioni, vedere l'argomento [Chiusura di fine anno](year-end-close.md).
 
-Si consiglia di valutare i requisiti dell'organizzazione e, se possibile, chiudere il maggior numero di dimensioni possibile utilizzando l'opzione di fine anno **Chiudi singolo** per migliorare le prestazioni. Chiudendo un valore di dimensione singola (che può anche essere un valore vuoto), il sistema calcola meno dettagli quando determina i saldi per le voci del conto utili non distribuiti.
+Si consiglia di valutare i requisiti dell'organizzazione e, se possibile, chiudere il maggior numero di dimensioni possibile utilizzando l'opzione di fine anno **Chiudi singolo** per migliorare le prestazioni. Se si chiude un valore di dimensione singola (che può anche essere un valore vuoto), il sistema calcola meno dettagli quando determina i saldi per le voci contabili relative a utili non distribuiti.
 
-### <a name="10013-update-or-later"></a>Aggiornamento 10.0.13 o successivo
-Se è stato eseguito l'aggiornamento alla versione 10.0.13 o successiva dopo l'ultima chiusura di fine anno dell'organizzazione, il processo di chiusura di fine anno potrebbe richiedere più tempo a causa dell'[implementazione della funzionalità HashV2](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/verify-hash-function-changes-after-update-to-dynamics-365-finance-2020-release-wave-2). (Il termine *hash* si riferisce a un campo calcolato da altri campi stringa. L'API per calcolare il valore GUID dell'hash è stata aggiornata per migliorare la sicurezza. Per accelerare il processo di chiusura di fine anno, si consiglia di ricostruire i saldi dei set di dimensioni prima di eseguire la chiusura di fine anno. Se i saldi del set di dimensioni sono stati già ricostruiti dopo aver eseguito l'aggiornamento 10.0.13, non è necessario eseguire nuovamente il processo di ricostruzione.
- 
-## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Contabilità generale: cosa accade quando si seleziona Periodo chiuso - Chiusura di fine anno?
+## <a name="degenerate-dimensions"></a>Dimensioni degenerate
+
+Una dimensione degenerata consente poco o nessun riutilizzo da sola e in combinazione con altre dimensioni. Sono presenti due tipi di dimensioni degenerate. Il primo tipo è una dimensione degenerata individualmente. In genere, questo tipo di dimensione degenerata è presente solo in una singola transazione o in piccoli insiemi di transazioni. Il secondo tipo è una dimensione che diventa degenerata in combinazione con una o più dimensioni aggiuntive che mostrano lo stesso potenziale in base alle possibili permutazioni che possono essere generate. Una dimensione degenerata può avere un impatto significativo sulle prestazioni del processo di chiusura di fine anno. Per ridurre i problemi di prestazioni, definire tutte le dimensioni degenerate come **Chiudi singolo** nella configurazione di chiusura di fine anno, come descritto nella sezione precedente.
+
+## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Contabilità generale: cosa accade quando si seleziona Periodo chiuso - Chiusura di fine anno?
  
 [![Periodo chiuso, chiusura di fine anno.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Miglioramenti delle prestazioni per la ricostruzione dei set di dimensioni finanziarie (nuova funzionalità)
+### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Prestazioni migliorate per la ricostruzione dei set di dimensioni finanziarie
 Una nuova funzionalità aggiunta nella versione 10.0.16 migliora le prestazioni dei processi di chiusura e consolidamento di fine anno. La funzione si chiama Miglioramenti delle prestazioni per la ricostruzione dei set di dimensioni finanziarie. Questa funzione cambia il modo in cui vengono ricostruiti i set di dimensioni in modo che vengano ricostruiti solo per un periodo di tempo specifico. Nelle versioni precedenti, i set di dimensioni venivano ricostruiti per tutte le date. Ad esempio, se si sta chiudendo l'anno 2020, il sistema ricostruisce solo i saldi per le transazioni entro l'anno fiscale 2020. Se si esegue il consolidamento per un intervallo di date compreso tra il 1° e il 30 novembre 2020, il sistema ricostruisce solo i saldi per quell'intervallo di date.
 
-Poiché questa funzione è considerata una modifica sostanziale, è necessario abilitarla utilizzando l'area di lavoro **Gestione funzionalità**.
+Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro Gestione funzionalità per controllare lo stato della funzionalità e, se necessario, attivarla. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
  
-[![Chiusura di fine anno.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+- Modulo: Contabilità generale
+- Nome funzionalità: Miglioramenti delle prestazioni per la ricostruzione dei set di dimensioni finanziarie
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Contabilità fornitori: quali modifiche sono state apportate per supportare la creazione di report di fine anno 1099 per il 2020?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Contabilità fornitori: quali modifiche sono state apportate per supportare la creazione di report di fine anno 1099 per il 2021?
 
-Sono state aggiunte due nuove funzionalità normative per le modifiche di fine anno 1099 nel 2020. La prima funzionalità, **Applica le modifiche ai moduli 1099-NEC e 1099-MISC per il 2020**, è stata rilasciata a metà anno come funzionalità obbligatoria. Il suo scopo è garantire che i dati transazionali 1099 per l'anno 2020 possano essere tracciati per il nuovo modulo 1099-NEC. Questa funzionalità ha aggiunto i campi 1099 necessari per supportare il nuovo 1099-NEC e ha aggiornato i campi 1099-MISC. Sono stati aggiornati anche i dati del record fornitore per le informazioni sul riquadro 1099. 
+Nel 2021, i moduli DIV, NEC e MISC sono stati leggermente modificati e sono state aggiunte alcune caselle aggiuntive.
 
-La seconda funzionalità normativa, **Dichiarazioni 1099 aggiornate per la normativa fiscale 2020**, contiene le seguenti modifiche.
+#### <a name="div-new-box2e-2f"></a>DIV: nuova casella 2e, 2f
+ 
+- Casella 2e. Mostra la parte dell'importo nella casella 1a, ovvero il guadagno della sezione 897 attribuibile alla cessione di interessi immobiliari statunitensi (USRPI).  
+- Casella 2f. Mostra la parte dell'importo nella casella 2a, ovvero il guadagno della sezione 897 attribuibile alla cessione USRPI. Si noti che le caselle 2e e 2f si applicano solo a persone ed entità straniere il cui reddito mantiene il proprio carattere quando viene trasferito o distribuito ai relativi proprietari o beneficiari esteri diretti o indiretti. Il valore è generalmente considerato come effettivamente collegato a un'attività commerciale o aziendale negli Stati Uniti. Vedere le istruzioni per la dichiarazione dei redditi. 
+ 
+#### <a name="nec-new-box-2"></a>NEC: nuova casella 2 
+ 
+Se la casella 2 è selezionata, segnala i prodotti di consumo per un totale di 5.000 USD o più che sono stati venduti per la rivendita, in una transazione di compravendita, in una commissione di deposito o su altre basi. In generale, è necessario segnalare qualsiasi reddito derivante dalla vendita di questi prodotti nell'allegato C (modulo 1040). 
+ 
+Nel frattempo, la dimensione del modulo di NEC è cambiata. Durante la stampa, sono presenti tre moduli per pagina. 
+ 
+#### <a name="misc-new-box-11"></a>MISC: nuova casella 11 
+ 
+La casella 11 mostra l'importo pagato per l'acquisto di pesce per la rivendita da parte di qualsiasi persona nel settore ittico. Per dichiarare questo reddito, vedere le istruzioni per la dichiarazione dei redditi. 
+ 
+#### <a name="electronic-filing"></a>Presentazione elettronica 
+Per informazioni sulla presentazione elettronica, vedere [Pubblicazione sui requisiti di presentazione elettronica](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
 
-- 1099-OID - L'IRS ha convertito il modulo per l'utilizzo continuativo.
-   - La terza e la quarta cifra dell'anno di riferimento devono essere compilate al momento della stampa. Usa la terza e la quarta cifra del campo **Anno di riferimento** da **Opzioni di stampa imposta 1099**. 
-
-- 1099-NEC - Un nuovo modulo per il 2020. Viene registrata la retribuzione dei non dipendenti. 
-
--   1099-MISC - A causa della creazione del modulo 1099-NEC, l'IRS ha rivisto il modulo 1099-MISC e ha riorganizzato i numeri di riquadro per la dichiarazione di determinati redditi.
-Di seguito sono elencate le modifiche alla dichiarazione del reddito e ai numeri di riquadro del modulo.
-   - Il contribuente ha effettuato vendite dirette per almeno $5.000 (casella di controllo) nel riquadro 7.
-   - I proventi dell'assicurazione sui raccolti sono riportati nel riquadro 9.
-   - I proventi lordi di un avvocato sono riportati nel riquadro 10.
-   - I differimenti della sezione 409A sono riportati nel riquadro 12.
-   - Il reddito da indennità differita non qualificata è riportato nel riquadro 14.
-   - I riquadri 15, 16 e 17 riportano rispettivamente la trattenuta delle tasse statali, il numero di identificazione statale e l'ammontare del reddito guadagnato nello stato.
-
-- Nessuna modifica a 1099-DIV o 1099-INT nel 2020.
-
-- Presentazione elettronica: il formato è cambiato per adattarsi alle nuove modifiche al modulo NEC e al riquadro MISC sopra descritte. Per informazioni specifiche sui requisiti di presentazione elettronica, vedere [Pubblicazione IRS 1220](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
+Aggiornare le specifiche del formato e i layout dei record per la dichiarazione elettronica 2021 
+- Sez. 2 Record emittente "A". 
+- Codici importo - Posizione campo aumentata 28-45, lunghezza portata a 18. 
+ 
+#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>Sez. 2 Record emittente "A" per la dichiarazione di pagamenti nel modulo 1099-DIV: 
+- Tipo di importo - Aggiunta della sezione 897, Dividendi ordinari, e aggiunta del codice importo H. 
+- Tipo di importo - Aggiunta della sezione 897, Plusvalenze, e aggiunta del codice importo J. 
+ 
+#### <a name="sec-3-payee-b-record"></a>Sez. 3 Record beneficiario "B" 
+- Record informativi generali - Terzo punto aggiornato da 16 a 18 per i campi di importo pagamento. 
+- Titolo del campo Pagamento H - Aggiornati posizione del campo 247-258, titolo del campo, lunghezza e descrizione generale del campo. 
+- Titolo del campo Pagamento J - Aggiornati posizione del campo 259-270, titolo del campo, lunghezza e descrizione generale del campo. 
+- Campo vuoto aggiornato in posizione campo 271-286. 
+- Indicatore di paese estero aggiornato in posizione campo 287. 
+- Campo riga del nome del primo beneficiario aggiornato in posizione campo 288-327. 
+- Campo riga del nome del secondo beneficiario aggiornato in posizione campo 328-367. 
+- Posizioni del layout del record, modulo 1099-MISC - Posizione campo 548 e indicatore dei requisiti di presentazione FATCA del titolo del campo eliminati. 
+- Posizioni layout record, modulo 1099-NEC - Campo 545-546 aggiornato come vuoti, campo 547 aggiornato all'indicatore di vendita diretta, lunghezza, descrizione e osservazioni, campo 548-722 aggiornato come vuoto. 
+ 
+#### <a name="sec-4-end-of-issuer-c-record"></a>Sez. 4 Fine del record emittente "C" 
+- Titolo del campo Pagamento H - Aggiornati posizione del campo 304-321, titolo del campo, lunghezza e descrizione generale del campo. 
+- Titolo del campo Pagamento J - Aggiornati posizione del campo 322-339, titolo del campo, lunghezza e descrizione generale del campo. 
+- Titolo campo 340-499 - Lunghezza aggiornata a 160. 
+ 
+#### <a name="sec-5-state-totals-k-record"></a>Sez. 5 record totale stato "K" 
+- Titolo del campo Pagamento H - Aggiornati posizione del campo 304-321, titolo del campo, lunghezza e descrizione generale del campo. 
+- Titolo del campo Pagamento J - Aggiornati posizione del campo 322-339, titolo del campo, lunghezza e descrizione generale del campo. 
+- Titolo campo 340-499 - Lunghezza aggiornata a 160.  
 
 ## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Contabilità fornitori: 1099 - Come si modifica il riquadro 1099 e i valori per un fornitore che non ha tracciato le informazioni 1099 durante l'anno?
 Usare la funzionalità Aggiorna modulo 1099 (**Contabilità fornitori > Fornitori > Tutti i fornitori > Seleziona un fornitore > scheda Fornitore nella barra multifunzione > Aggiorna modulo 1099**) per esaminare le transazioni di fatture precedentemente pagate e riassegnare i dati 1099 in modo appropriato in base alle impostazioni nella scheda **Imposta 1099** della pagina **Fornitore**.
@@ -111,7 +152,7 @@ Usare la funzionalità Aggiorna modulo 1099 (**Contabilità fornitori > Fornitor
 ## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>È possibile eseguire l'aggiornamento 1099 per tutti i miei fornitori contemporaneamente?
 N. La routine Aggiorna modulo 1099 viene eseguita su un singolo fornitore alla volta. Se questo requisito è necessario per l'organizzazione, votare per l'idea intitolata [Processo batch per l'aggiornamento dei dati 1099 del fornitore](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
 
-## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Contabilità fornitori: 1099 - "Ricalcola importi 1099 esistenti" e "Aggiorna tutto" nell'utilità Aggiorna modulo 1099.
+## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Contabilità fornitori: 1099 - Ricalcola importi 1099 esistenti e Aggiorna tutto nell'utilità Aggiorna modulo 1099
 La casella di controllo **Ricalcola importi 1099 esistenti** reimposta l'importo 1099 sui valori totali pagati, se utilizzato insieme alla casella di controllo **Aggiorna tutto**. 
 
 [![Transazioni fiscali 1099: prima di eseguire la routine di aggiornamento.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)

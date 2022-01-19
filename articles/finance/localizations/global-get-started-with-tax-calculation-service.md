@@ -2,7 +2,7 @@
 title: Introduzione a Calcolo imposte
 description: In questo argomento viene illustrato come configurare Calcolo imposte.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,74 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647436"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952523"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introduzione al calcolo delle imposte
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni su come iniziare a usare Calcolo imposte. Ti guida attraverso i passi di configurazione in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance, e Dynamics 365 Supply Chain Management. Esamina quindi il processo comune per l'utilizzo della funzionalità Calcolo imposte nelle transazioni di Finance e Supply Chain Management.
+Questo argomento fornisce informazioni su come iniziare a usare Calcolo imposte. Le sezioni in questo argomenti ti guidano attraverso i passaggi di progettazione di alto livello e configurazione in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance e Dynamics 365 Supply Chain Management. 
 
-La configurazione consiste in quattro passaggi principali:
+La configurazione consiste in tre passaggi principali.
 
 1. In LCS, installate l'add-in Calcolo imposta.
 2. In RCS, configurazione della funzionalità Calcolo imposte. Questa configurazione non è specifica di una persona giuridica. Può essere condivisa tra le persone giuridiche in Finance and Supply Chain Management.
 3. In Finance and Supply Chain Management, configurazione dei parametri di Calcolo imposte in base alla persona giuridica.
-4. In Finance and Supply Chain Management, creazione delle transazioni come ordini di vendita e utilizzo di Calcolo imposte per determinare e calcolare le imposte.
+
+## <a name="high-level-design"></a>Progettazione di alto livello
+
+### <a name="runtime-design"></a>Progettazione runtime
+
+La figura seguente mostra la progettazione del runtime ad alto livello del calcolo delle imposte. Poiché il calcolo delle imposte può essere integrato con più app Dynamics 365, l'illustrazione utilizza l'integrazione con Finance come esempio.
+
+1. Una transazione, ad esempio un ordine cliente o un ordine fornitore, viene creata in Finance.
+2. Finance utilizza automaticamente i valori predefiniti della fascia IVA e della fascia IVA articoli.
+3. Quando il pulsante **IVA** viene selezionato sulla transazione, viene attivato il calcolo dell'imposta. Finance invia quindi il payload al servizio di calcolo delle imposte.
+4. Il servizio di calcolo delle imposte abbina il payload con le regole predefinite nella funzione imposte per trovare contemporaneamente una fascia IVA e una fascia IVA articoli più accurate.
+
+    - Se il payload può essere abbinato alla matrice **Applicabilità gruppo imposte**, sovrascrive il valore della fascia IVA con il valore del gruppo imposte abbinato nella regola di applicabilità. In caso contrario, continua a utilizzare il valore della fascia IVA di Finance.
+    - Se il payload può essere abbinato alla matrice **Applicabilità gruppo imposte articoli**, sovrascrive il valore della fascia IVA articoli con il valore del gruppo imposte articoli abbinato nella regola di applicabilità. In caso contrario, continua a utilizzare il valore della fascia IVA articoli di Finance.
+
+5. Il servizio di calcolo delle imposte determina i codici imposta finali utilizzando l'intersezione tra la fascia IVA e la fascia IVA articoli.
+6. Il servizio di calcolo delle imposte calcola le imposte in base ai codici imposte finali che ha determinato.
+7. Il servizio di calcolo delle imposte restituisce il risultato del calcolo delle imposte a Finance.
+
+![Progettazione del runtime di calcolo delle imposte.](media/tax-calculation-runtime-logic.png)
+
+### <a name="high-level-configuration"></a>Configurazione di alto livello
+
+I passaggi seguenti forniscono una panoramica di alto livello del processo di configurazione per il servizio di calcolo delle imposte.
+
+1. In LCS, installa il componente aggiuntivo **Calcolo imposte** nel progetto LCS.
+2. In RCS, crea la funzionalità **Calcolo imposte**.
+3. In RCS, configurazione della funzionalità **Calcolo imposte**:
+
+    1. Seleziona la versione di configurazione imposte.
+    2. Crea i codici imposta.
+    3. Creare un gruppo di imposte.
+    4. Crea un gruppo di imposte articoli.
+    5. Facoltativo: crea l'applicabilità della fascia IVA se vuoi sostituire la fascia IVA predefinita immessa dai dati master del cliente o del fornitore.
+    6. Facoltativo: crea l'applicabilità della fascia IVA articoli se vuoi sostituire la fascia IVA articoli predefinita immessa dai dati master dell'articolo.
+
+4. In RCS, completa e pubblica la funzionalità **Calcolo imposte**.
+5. In Finanza, seleziona la funzionalità **Calcolo imposte** pubblicata.
+
+Dopo aver completato questi passaggi, le impostazioni seguenti vengono sincronizzate automaticamente da RCS a Finance.
+
+- Codici IVA
+- Fasce IVA
+- Fasce IVA articoli
+
+Le altre sezioni di questo argomento forniscono ulteriori dettagli sui passaggi di configurazione.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di poter completare le procedure in questo argomento, i prerequisiti devono essere presenti per ogni tipo di ambiente.
-
-È necessario soddisfare i seguenti prerequisiti:
+Prima di poter completare le procedure restanti in questo argomento, è necessario soddisfare i seguenti prerequisiti:<!--TO HERE-->
 
 - Devi avere accesso al tuo account LCS e devi avere un progetto LCS distribuito che ha un ambiente Tier 2 o superiore che esegue Dynamics 365 versione 10.0.21 o successiva.
 - Devi creare un ambiente RCS per la tua organizzazione e devi avere accesso al tuo account. Per maggiori informazioni su come creare un ambiente RCS, vedere [Panoramica di Regulatory Configuration Service](rcs-overview.md).
@@ -72,15 +115,7 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
 5. Nel campo **Tipo** seleziona **Globale**.
 6. Selezionare **Apri**.
 7. Vai a **Modello dati fiscali**, espandi la struttura ad albero dei file e quindi seleziona **Configurazione fiscale**.
-8. Seleziona la versione di configurazione fiscale corretta, in base alla tua versione Finance, e poi seleziona **Importa**.
-
-    | Versione di rilascio | Configurazione fiscale                       |
-    | --------------- | --------------------------------------- |
-    | 10.0.18         | Configurazione fiscale - Europa 30.12.82     |
-    | 10.0.19         | Configurazione del calcolo delle tasse 36.38.193 |
-    | 10.0.20         | Configurazione del calcolo dell'imposta 40.43.208 |
-    | 10.0.21         | Configurazione del calcolo dell'imposta 40.48.215 |
-
+8. Seleziona la [versione di configurazione fiscale](global-tax-calcuation-service-overview.md#versions) corretta, in base alla tua versione Finance, e poi seleziona **Importa**.
 9. Nell'area di lavoro delle **funzioni di globalizzazione** , selezionare **Funzioni**, selezionare il riquadro **Calcolo delle tasse** e poi selezionare **Aggiungi**.
 10. Consente di selezionare uno dei seguenti tipi di funzionalità:
 
@@ -209,42 +244,3 @@ La configurazione in questa sezione viene eseguita dalla persona giuridica. Devi
 
 5. Nella scheda **Registrazione IVA multipla** , puoi attivare separatamente la dichiarazione IVA, l'elenco vendite UE e Intrastat per lavorare in uno scenario di registrazioni IVA multiple. Per maggiori informazioni sulle dichiarazioni fiscali per registrazioni multiple dell'IVA, vedi [Dichiarazione per registrazioni multiple dell'IVA](emea-reporting-for-multiple-vat-registrations.md).
 6. Salvare la configurazione e ripetere i passi precedenti per ogni entità legale aggiuntiva. Quando una nuova versione è pubblicata, e vuoi che sia applicata, imposta il campo **Impostazione funzionalità** nella scheda **Generale** della pagina **Parametri calcolo imposta** (vedi passo 2).
-
-## <a name="transaction-processing"></a>Elaborazione delle transazioni
-
-Dopo aver completato tutte le procedure di configurazione, puoi usare Calcolo imposta per determinare e calcolare le tasse in Finance. I passaggi per elaborare le transazioni rimangono gli stessi. Le seguenti transazioni sono supportate nella versione Finance 10.0.21:
-
-- Processo di vendita
-
-    - Offerta di vendita
-    - Ordine cliente
-    - Conferma
-    - Distinta di prelievo
-    - Documento di trasporto
-    - Fattura di vendita
-    - Nota di accredito
-    - Ordine di reso
-    - Spesa intestazione
-    - Spesa riga
-
-- Processo di acquisto
-
-    - Ordine fornitore
-    - Conferma
-    - Elenco entrate
-    - Entrata prodotti
-    - Fattura acquisto
-    - Spesa intestazione
-    - Spesa riga
-    - Nota di accredito
-    - Ordine di reso
-    - Richiesta di acquisto
-    - Spese riga di richiesta di acquisto
-    - Richiesta di offerta
-    - Spese intestazione richiesta di offerta
-    - Spese riga richiesta di offerta
-
-- Processo magazzino
-
-    - Ordine di trasferimento - spedizione
-    - Ordine di trasferimento - ricezione

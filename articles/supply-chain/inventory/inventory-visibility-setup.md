@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581867"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952498"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Installare e configurare Visibilità inventario
 
@@ -71,6 +71,9 @@ Dopo aver registrato un'applicazione e aggiunto un segreto del cliente a Azure A
 1. Accetta i termini e le condizioni selezionando la casella di controllo **Termini e condizioni** .
 1. Seleziona **Installa**. Lo stato del componente aggiuntivo è mostrato come **Installazione in corso**. Quando l'installazione è completata, aggiorna la pagina. Lo stato dovrebbe cambiare in **Installato**.
 1. In Dataverse, selezionare la sezione **App** nella sezione nel riquadro di spostamento a sinistra e verificare che Power Apps **Visibilità inventario** sia installato correttamente. Se la sezione **App** non esiste, contattare il team del prodotto Visibilità inventario all'indirizzo [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
+
+> [!TIP]
+> Ti consigliamo di unirti al gruppo di utenti del componente aggiuntivo Visibilità inventario, dove puoi trovare guide utili, ricevere i nostri ultimi aggiornamenti e pubblicare eventuali domande sull'utilizzo di Visibilità inventario. Per aderire, invia un'e-mail al team del prodotto Visibilità inventario all'indirizzo [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) e includi il tuo ID ambiente di Supply Chain Management.
 
 > [!IMPORTANT]
 > Se è disponibile più di un ambiente LCS, creare un'applicazione Azure AD diversa per ogni ambiente. Se si utilizza lo stesso ID applicazione e ID tenant per installare il componente aggiuntivo Visibilità inventario per ambienti diversi, si verificherà un problema relativo al token per gli ambienti meno recenti. Sarà valido solo l'ultimo installato.

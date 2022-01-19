@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920102"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952629"
 ---
 # <a name="inventory-visibility-public-apis"></a>API pubbliche di visibilità dell'inventario
 
@@ -48,6 +48,8 @@ Microsoft ha fornito una raccolta di richieste di *Postman* out-of-box. Puoi imp
 
 > [!NOTE]
 > La parte del percorso {environmentId} è l'ID ambiente in Microsoft Dynamics Lifecycle Services (LCS).
+> 
+> L'API in blocco può restituire un massimo di 512 record per ogni richiesta.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Trova l'endpoint secondo il tuo ambiente Lifecycle Services
 
@@ -249,7 +251,7 @@ Il seguente esempio mostra un esempio di contenuto del corpo senza `dimensionDat
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Creare più eventi di cambiamento
 
-Questa API può creare più record allo stesso tempo. Le uniche differenze tra questa API e l' [API a evento singolo](#create-one-onhand-change-event) sono i valori `Path` e `Body` . Per questa API, `Body` fornisce un array di record.
+Questa API può creare più record allo stesso tempo. Le uniche differenze tra questa API e l' [API a evento singolo](#create-one-onhand-change-event) sono i valori `Path` e `Body` . Per questa API, `Body` fornisce un array di record. Il numero massimo di record è 512, il che significa che l'API di modifica in blocco disponibile può supportare fino a 512 eventi di modifica alla volta.
 
 ```txt
 Path:

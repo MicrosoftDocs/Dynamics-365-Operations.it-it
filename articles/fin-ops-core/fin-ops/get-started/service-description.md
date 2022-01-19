@@ -2,19 +2,19 @@
 title: Descrizione del servizio per le app Finance and Operations
 description: Questo argomento fornisce la descrizione del servizio per le app Finance and Operations.
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898391"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952368"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrizione del servizio per le app Finance and Operations
 
@@ -117,7 +117,7 @@ Le app Finance and Operations sono servite da diverse aree di Azure in tutto il 
 ### <a name="countryregion-specific-considerations"></a>Considerazioni specifiche di paese/area geografica
 
 - I clienti del settore regolamentato o le organizzazioni commerciali che fanno affari con entità in Francia che richiedono la residenza dei dati locali dovrebbero rivedere [Finance and Operations in Francia](../../dev-itpro/deployment/france-local-deployment.md).
-- I clienti che hanno operazioni in Cina dovrebbero rivedere [Finance and Operations gestito da 21Vianet in Cina](../../dev-itpro/deployment/china-local-deployment.md).
+- I clienti che hanno operazioni in Cina dovrebbero rivedere [Azure China Playbook](/azure/china/) e [Finance and Operations gestito da 21Vianet in China](../../dev-itpro/deployment/china-local-deployment.md).
 - I clienti che operano in Russia dovrebbero rivedere il [Legge russa sulla localizzazione dei dati personali](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Regolamento generale sulla protezione dei dati (RGDP)
@@ -356,6 +356,7 @@ Microsoft si impegna a un tasso di disponibilità del 99,9% al mese del servizio
 - **[Guida alle licenze](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – Utilizza questa guida per ulteriori informazioni su come ottenere la licenza di Dynamics 365.
 - **[Servizio Clienti](https://dynamics.microsoft.com/support/)** – Ottieni supporto leader del settore per le tue app Dynamics 365.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** – Gestisci il ciclo di vita delle tue applicazioni e passa a implementazioni prevedibili, ripetibili e di alta qualità.
+- **[Guida all'implementazione di Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** - I documenti della Guida all'implementazione di Dynamics 365 sono stati testati nel tempo da Success by Design fornisce principi e indicazioni prescrittive per progettare, creare, testare e distribuire soluzioni Dynamics 365.
 
 ## <a name="definitions"></a>Definizioni
 
@@ -428,6 +429,10 @@ Il contratto di servizio si applica ai servizi online Microsoft. Per ulteriori i
 ### <a name="service-update"></a>Aggiornamento del servizio
 
 Ambienti Finance and Operations dei servizi Microsoft su base coerente attraverso gli aggiornamenti del servizio. I clienti impostano il proprio calendario di aggiornamento del servizio, in base alle proprie esigenze aziendali. Per ulteriori informazioni, vedi [Aggiornamenti del servizio One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+Il framework che guida sistematicamente un'implementazione attraverso una serie di valutazioni nelle fasi critiche per garantire architettura, sicurezza, prestazioni ed esperienza utente ottimali per una soluzione Dynamics 365.
 
 ### <a name="user"></a>Utente
 

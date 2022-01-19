@@ -15,18 +15,18 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: a4aa7369c84836154b8217a5b70267021f4028b1
+ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731542"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "7948477"
 ---
-# <a name="set-up-the-components-of-a-job"></a>Impostare i componenti di una mansione
+# <a name="set-up-the-components-of-a-job"></a>Impostare le componenti di una mansione
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo articolo sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione. 
+In questo argomento sono descritti gli elementi concettuali che una mansione può includere e vengono forniti alcuni esempi di modalità di utilizzo di tali elementi nell'organizzazione. 
 
 Per creare mansioni, è necessario impostare alcune informazioni sui riferimenti. È possibile creare una mansione con un solo nome. Tuttavia, includendo informazioni aggiuntive, ad esempio una qualifica, vengono forniti valori predefiniti per le posizioni assegnate alla mansione. Inoltre, alcune informazioni immesse possono essere utilizzate per filtrare i piani di retribuzione per mansioni specifiche. Se si desidera impostare l'idoneità da poter utilizzare per filtrare i piani di retribuzione per una mansione specifica, è necessario impostare i tipi di mansione e le funzioni lavorative prima delle mansioni. Se si dispone di questi valori predefiniti, l'aggiunta di posizioni alla mansione sarà più rapida. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345372"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947317"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrare l'ammortamento asset Right of use (anteprima)
 
@@ -35,7 +35,7 @@ Per i leasing rilevati nello stato patrimoniale un'organizzazione, l'Asset Right
 1. Nella pagina **Riepilogo leasing**, seleziona un leasing. Quindi seleziona **Libri \> Piano di ammortamento cespite** per aprire la pagina **Piano di ammortamento cespite**.
 
     La scrittura contabile delle spese di ammortamento dell'asset ROU si basa sull'importo nella colonna **Spesa di ammortamento**. Per un esempio della guida per la conformità ai principi contabili, vedi la sezione [Calcolo della spesa di ammortamento dell'asset ROU per leasing finanziari](#calculation-of-rou-asset-amortization-expense-for-finance-leases) più avanti in questo argomento.
-
+    
 2. Seleziona il periodo di ammortamento, quindi seleziona **Crea giornale di registrazione**. Viene visualizzato un messaggio che informa che è stato creato il giornale di registrazione che verrà utilizzato per registrare l'ammortamento.
 3. Seleziona **Giornali di registrazione \> Giornali di registrazione leasing di cespiti** per aprire la pagina **Giornale di registrazione leasing cespite**, in cui è possibile visualizzare la scrittura contabile delle spese di ammortamento creata.
 
@@ -70,6 +70,8 @@ Come già illustrato in precedenza, il costo del leasing a quote costanti è cal
 
 > [!NOTE]
 > Secondo ASC 842, l'ammortamento dell'asset ROU per un leasing operativo è classificato come costo del leasing nel conto economico. Per maggiore visibilità, Leasing cespite descrive la voce come l'ammortamento dell'asset ROU. Tuttavia, la voce di addebito dovrebbe essere assegnata a un conto spese di leasing operativo e la voce di accredito dovrebbe essere assegnata direttamente all'asset ROU per il leasing operativo. Tuttavia, nei parametri di leasing, è possibile specificare che i movimenti di accredito devono essere effettuati in un conto di ammortamento accumulato per gli asset ROU operativi.
+
+Se il leasing è classificato come leasing operativo, l'ammortamento mensile dopo la riduzione del valore sarà calcolato utilizzando l'ammortamento a quote costanti.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Calcolo della spesa di ammortamento dell'asset ROU per leasing finanziari
 

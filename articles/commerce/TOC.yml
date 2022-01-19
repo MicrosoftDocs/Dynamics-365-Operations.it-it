@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Configurare Azure Key Vault per una gestione sicura delle chiavi
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Creare un hook del plug-in della pipeline delle richieste
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Componente immagine
                       href: e-commerce-extensibility/image-component.md
                 - name: Sviluppare azioni sui dati

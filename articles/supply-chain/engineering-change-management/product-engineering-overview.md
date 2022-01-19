@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937662"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952600"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -71,6 +71,7 @@ Successivamente, attivare le chiavi di configurazione procedendo come segue.
 
 1. Per usare anche la dimensione versione, selezionare la casella di controllo **Dimensione prodotto - Versione**. (Questa casella di controllo è più in basso nell'elenco, non nidificata sotto il nodo **Gestione delle modifiche di progettazione**.)
 1. Disattivare la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Esegui una sincronizzazione del database per assicurarti che le chiavi di configurazione siano abilitate correttamente.
 
 > [!IMPORTANT]
 > A partire da aprile 2022, le chiavi di licenza per **Gestione delle modifiche di progettazione** e **Dimensione prodotto - Versione** saranno abilitate per impostazione predefinita per tutte le nuove installazioni, ma potrai comunque disabilitarle se necessario.

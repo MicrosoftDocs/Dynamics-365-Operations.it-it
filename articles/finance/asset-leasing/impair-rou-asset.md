@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890832"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947342"
 ---
 # <a name="impair-right-of-use-assets"></a>Ridurre asset Right of use
 
@@ -44,6 +44,8 @@ Il saldo residuo dell'asset ROU sarà ammortizzato a quote costanti per il numer
 
     > [!NOTE]
     > Dopo che la transazione di riduzione di valore è stata registrata, viene creata una nuova versione del libro.
+
+    > Se il leasing è classificato come leasing operativo, l'ammortamento mensile dopo la riduzione del valore sarà calcolato utilizzando l'ammortamento a quote costanti.
 
 9. Per visualizzare il piano di ammortamento dei cespiti con riduzione del valore, apri il piano di ammortamento dei cespiti per tale libro di leasing. Il cespite verrà ora ammortizzato a quote costanti per il numero di mesi immesso nel campo **Periodi rimanenti**.
 10. Per visualizzare la scrittura contabile di spesa per riduzione di valore, seleziona **Giornale di registrazione leasing cespite** nel riquadro azioni del libro di leasing con riduzione del valore. Il sistema crea una scrittura contabile che addebita il conto di registrazione delle spese di riduzione del valore e accredita il conto di registrazione del cespite del leasing. 
@@ -100,6 +102,7 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
     | Chiudi libro             | No       |
 
 6. Una scrittura contabile di spesa per riduzione del valore è stata creata e registrata. Per visualizzarla, accedi al giornale di registrazione dei leasing del cespite nel libro di leasing. Tieni presente che l'importo della riduzione di valore è stato addebitato sul conto di registrazione delle spese di riduzione di valore ed è stato accreditato sul conto di registrazione dell'asset ROU.
+
 7. Per visualizzare l'effetto netto della riduzione del valore, consulta le tabelle delle transazioni di passività e attività. Tien presente che la spesa per riduzione di valore ha diminuito l'asset ROU, ma il valore contabile dell'obbligazione sul leasing non è cambiato.
 
 La riduzione del valore ha un altro effetto che dovresti considerare. Poiché l'importo dell'asset ROU è ora molto inferiore all'obbligazione sul leasing, l'importo deve essere ammortizzato in modo diverso rispetto a prima. In particolare, il cespite viene ora ammortizzato in modo lineare durante i restanti 84 mesi di leasing, a partire dalla data di transazione.

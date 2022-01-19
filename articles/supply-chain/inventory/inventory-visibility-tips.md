@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f5fb4c7cb941b352bbc6e2fcf5347244e1c8a40c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920806"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952417"
 ---
 # <a name="inventory-visibility-tips"></a>Suggerimenti per Visibilità inventario
 
@@ -28,7 +28,10 @@ Questo argomento illustra alcuni suggerimenti da tenere in considerazione quando
 - Se è disponibile più di un ambiente LCS, creare un'applicazione Azure Active Directory (Azure AD) diversa per ogni ambiente. Se si utilizza lo stesso ID applicazione e ID tenant per installare il componente aggiuntivo Visibilità inventario per ambienti diversi, si verificherà un problema relativo al token per gli ambienti meno recenti. Sarà valida solo l'ultima istanza del componente aggiuntivo Visibilità inventario installato.
 - Visibilità inventario non è attualmente supportata per gli ambienti ospitati nel cloud. È supportato solo per ambienti Tier-2+.
 - L'API attualmente supporta le query fino a 100 singoli elementi con il valore `ProductID`. Più valori `SiteID` e `LocationID` possono anche essere specificati in ogni query. Il limite massimo è definito come `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+- L'API in blocco può restituire un massimo di 512 record per ogni richiesta.
 - L'origine dati `fno` è riservata a Supply Chain Management. Se il tuo componente aggiuntivo Visibilità inventario è integrato con un ambiente Supply Chain Management, ti consigliamo di non eliminare le configurazioni relative a `fno` nell'[origine dati](inventory-visibility-configuration.md#data-source-configuration).
+- Visibilità inventario non può modificare alcun dato per l'origine dati `fno`. Il flusso di dati è unidirezionale, il che significa che tutte le quantità cambiano per l'origine dati `fno` deve provenire dall'ambiente di Supply Chain Management. Pertanto, non è possibile utilizzare l'API per inviare richieste di modifica o prenotazione disponibili per l'origine dati `fno`.
+- Se aggiungi una o più nuove misure al tuo ambiente di Supply Chain Management, dovresti aggiungerle anche in Visibilità inventario. Tuttavia, tutte le modifiche alla quantità per le nuove misure devono provenire dal tuo ambiente di Supply Chain Management.
 - La [configurazione della partizione](inventory-visibility-configuration.md#partition-configuration) attualmente si compone di due dimensioni di base (`SiteId` e `LocationId`) che indicano come sono distribuiti i dati. Le operazioni nella stessa partizione possono fornire prestazioni più elevate a costi inferiori. La soluzione include questa configurazione della partizione per impostazione predefinita. Di conseguenza, *non è necessario ridefinirla*. Non personalizzare la configurazione della partizione predefinita. Se la elimini o la modifichi, è probabile che si verifichi un errore imprevisto.
 - Le dimensioni di base che sono definite nella configurazione della partizione non devono essere definite nella [configurazione della gerarchia dell'indice del prodotto](inventory-visibility-configuration.md#index-configuration).
 

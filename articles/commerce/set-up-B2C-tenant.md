@@ -2,7 +2,7 @@
 title: Impostare un tenant B2C in Commerce
 description: Questo argomento descrive come configurare il tenant Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione del sito dell'utente in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/31/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466270"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952446"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -58,7 +58,9 @@ Prima di iniziare, assicurati che il tuo ambiente e canale e-commerce Dynamics 3
 
 Dopo la distribuzione del tuo ambiente Dynamics 365 Commerce, si consiglia inoltre di [Inizializzare i dati iniziali](enable-configure-retail-functionality.md) nell'ambiente.
 
-## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Creare o collegare un tenant AAD B2C esistente nel portale di Azure
+## <a name="create-or-link-to-an-existing-azure-ad-b2c-tenant-in-the-azure-portal"></a>Creare o collegare un tenant Azure AD B2C esistente nel portale di Azure
+
+Questa sezione descrive la creazione o il collegamento di un tenant Azure AD B2C da utilizzare nel tuo sito Commerce. Per ulteriori informazioni, vedi [Esercitazione: Creare un tenant Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-create-tenant).
 
 1. Accedere al [portale Azure](https://portal.azure.com/).
 1. Dal menu del portale di Azure, selezionare **Crea una risorsa**. Assicurarsi di utilizzare la sottoscrizione e la directory che saranno collegati al tuo ambiente Commerce.
@@ -68,7 +70,7 @@ Dopo la distribuzione del tuo ambiente Dynamics 365 Commerce, si consiglia inolt
 1. Andare a **Identità \> Azure Active Directory B2C**.
 1. Una volta nella pagina **Crea nuovo tenant B2C o collegamento a tenant esistente**, utilizzare una delle opzioni seguenti più adatta alle esigenze dell'azienda:
 
-    - **Creare uno nuovo tenant Azure AD B2C**: utilizzare questa opzione per creare un nuovo tenant AAD B2C.
+    - **Creare uno nuovo tenant Azure AD B2C**: utilizza questa opzione per creare un nuovo tenant Azure AD B2C.
         1. Selezionare **Crea un nuovo tenant Azure AD B2C**.
         1. In **Nome organizzazione**, immettere il nome dell'organizzazione.
         1. In **Nome di dominio iniziale**, immettere il nome del dominio iniziale.
@@ -86,7 +88,7 @@ Dopo la distribuzione del tuo ambiente Dynamics 365 Commerce, si consiglia inolt
 
 1. Una volta creata la nuova directory Azure AD B2C (l'operazione potrebbe richiedere alcuni istanti) sul dashboard verrà visualizzato un collegamento alla nuova directory. Questo collegamento indirizzerà alla pagina di "Benvenuto in Azure Active Directory B2C".
 
-    ![Collegare alla nuova directory AAD.](./media/B2CImage_4.png)
+    ![Collega la nuova directory Azure AD.](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Se sono presenti più sottoscrizioni nell'account Azure o è stato impostato il tenant B2C senza collegamento a una sottoscrizione attiva, un banner **Risoluzione dei problemi** esegue il reindirizzamento al collegamento del tenant a una sottoscrizione. Selezionare il messaggio della risoluzione dei problemi e seguire le istruzioni per risolvere il problema di sottoscrizione.
@@ -104,11 +106,11 @@ Per creare l'applicazione B2C, attenersi alla procedura seguente.
 1. Nel portale di Azure, seleziona **Registrazioni app**, quindi seleziona **Nuova registrazione**.
 1. Sotto **Nome**, inserisci il nome da assegnare a questa applicazione Azure AD B2C.
 1. Sotto **Tipi di account supportati**, seleziona **Account in qualsiasi provider di identità o directory dell'organizzazione (per autenticare gli utenti con flussi utente)**.
-1. Per **URI di reindirizzamento**, inserisci i tuoi URL di risposta dedicati come tipo **Web**. Per informazioni sugli URL di risposta e su come formattarli, vedi [URL di risposta](#reply-urls) di seguito.
+1. Per **URI di reindirizzamento**, inserisci i tuoi URL di risposta dedicati come tipo **Web**. Per informazioni sugli URL di risposta e su come formattarli, vedi [URL di risposta](#reply-urls) di seguito. È necessario inserire un URI di reindirizzamento/URL di risposta per abilitare i reindirizzamenti da Azure AD B2C al tuo sito quando un utente si autentica. L'URL di risposta può essere aggiunto durante il processo di registrazione o può essere aggiunto in un secondo momento selezionando il collegamento **Aggiungi un URI di reindirizzamento** dal menu **Panoramica** nella sezione **Panoramica** dell'applicazione B2C.
 1. Per **Autorizzazioni**, seleziona **Concedi il consenso dell'amministratore alle autorizzazioni openid e offline_access**.
 1. Seleziona **Registro**.
-1. Seleziona l'applicazione appena creata e vai al menu **Autenticazione**. Qui puoi aggiungere altri **URI di reindirizzamento** se necessario (ora o più tardi). Continua con il passaggio successivo se non è attualmente necessario.
-1. Sotto **Concessione implicita**, seleziona entrambi **Token di accesso** e **Token ID** per abilitarli per l'applicazione. Selezionare **Salva**.
+1. Seleziona l'applicazione appena creata e vai al menu **Autorizzazioni API**. 
+1. Se viene inserito un URL di risposta, in **Concessione implicita e flussi ibridi** seleziona entrambe le opzioni **Token di accesso** e **Token ID** per abilitarle per l'applicazione, quindi seleziona **Salva**. Se durante la registrazione non è stato inserito un URL di risposta, è possibile aggiungerlo anche in questa pagina selezionando **Aggiungi una piattaforma**, selezionando **Web** e quindi immettendo l'URI di reindirizzamento dell'applicazione. La sezione **Concessione implicita e flussi ibridi** sarà quindi disponibile per selezionare entrambe le opzioni **Token di accesso** e **Token ID**.
 1. Vai al menu **Panoramica** del portale di Azure e copia l'**ID applicazione (client)**. Prendi nota di questo ID per i passaggi di configurazione successivi (indicato in seguito come **GUID client**).
 
 Per ulteriori riferimenti sulle registrazioni delle app in Azure AD B2C, vedi [La nuova esperienza di registrazione delle app per Azure Active Directory B2C](/azure/active-directory-b2c/app-registrations-training-guide)
@@ -131,7 +133,7 @@ Azure AD B2C offre tre tipi di flusso utente di base:
 - Modifica del profilo
 - Password reimpostata
 
-È possibile scegliere di utilizzare i flussi utente predefiniti forniti da Azure AD, che visualizzano una pagina ospitata da AAD B2C. In alternativa, è possibile creare una pagina HTML per controllare l'aspetto di queste esperienze di flusso utente. 
+È possibile scegliere di utilizzare i flussi utente predefiniti forniti da Azure AD, che visualizzano una pagina ospitata da Azure AD B2C. In alternativa, è possibile creare una pagina HTML per controllare l'aspetto di queste esperienze di flusso utente. 
 
 Per personalizzare le pagine dei criteri utente con le pagine create in Dynamics 365 Commerce vedi [Impostare pagine personalizzate per gli accessi utente](custom-pages-user-logins.md). Per ulteriori informazioni, vedere [Personalizzare l'interfaccia delle esperienze utente in Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-customize-ui).
 
@@ -143,9 +145,9 @@ Per creare i criteri di accesso e iscrizione nel flusso utente, effettuare le se
 1. Nella pagina **Azure AD B2C - Flussi utente (criteri)**, selezionare **Nuovo flusso utente**.
 1. Seleziona il criterio **Iscrizione e accesso**, quindi seleziona la versione **Consigliato**.
 1. Sotto **Nome**, immettere un nome per i criteri. Questo nome verrà visualizzato in seguito con un prefisso assegnato dal portale (ad esempio "B2C_1_").
-1. Sotto **Provider di identità**, selezionare la casella di controllo appropriata.
+1. Sotto **Provider di identità**, nella sezione **Account locali** seleziona **Iscrizione e-mail**. L'autenticazione e-mail viene utilizzata negli scenari più comuni per Commerce. Se stai utilizzando anche l'autenticazione del provider di identità social, può essere selezionata in questo momento.
 1. Sotto **Autenticazione a più fattori**, selezionare la scelta appropriata per l'azienda. 
-1. Sotto **Attributi e attestazioni dell'utente**, selezionare le opzioni per raccogliere gli attributi o restituire le attestazioni, a seconda dei casi. Commerce richiede le seguenti opzioni predefinite:
+1. Sotto **Attributi e attestazioni dell'utente**, selezionare le opzioni per raccogliere gli attributi o restituire le attestazioni, a seconda dei casi. Seleziona **Mostra altro...** per ottenere l'elenco completo degli attributi e delle opzioni di richiesta. Commerce richiede le seguenti opzioni predefinite:
 
     | **Raccogli attributo** | **Restituisci attestazione** |
     | ---------------------- | ----------------- |
@@ -161,9 +163,6 @@ L'immagine seguente è un esempio di criteri di accesso e iscrizione Azure AD B2
 
 ![Impostazioni dei criteri di iscrizione e accesso.](./media/B2CImage_11.png)
 
-L'immagine seguente mostra l'opzione **Esegui flusso utente** nell'iscrizione e accesso Azure AD B2C nel flusso utente.
-
-![Eseguire l'opzione flusso utente nel flusso dei criteri.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Creare i criteri di flusso utente per la modifica del profilo
 
@@ -173,18 +172,22 @@ Per creare i criteri di flusso utente per la modifica del profilo, effettuare le
 1. Nella pagina **Azure AD B2C - Flussi utente (criteri)**, selezionare **Nuovo flusso utente**.
 1. Seleziona **Modifica del profilo**, quindi seleziona la versione **Consigliato**.
 1. Sotto **Nome**, immettere il flusso utente per la modifica del profilo. Questo nome verrà visualizzato in seguito con un prefisso assegnato dal portale (ad esempio "B2C_1_").
-1. Sotto **Provider di identità**, seleziona **Accesso e-mail**.
+1. Sotto **Provider di identità**, nella sezione **Account locali** seleziona **Accesso e-mail**.
 1. In **Attributi utente** selezionare una delle seguenti caselle di controllo:
-    - **Indirizzi e-mail** (solo **Restituisci attestazione**)
-    - **Nome specificato** (**Raccogli attributo** e **Restituisci attestazione**)
-    - **Provider di identità** (solo **Restituisci attestazione**)
-    - **Cognome** (**Raccogli attributo** e **Restituisci attestazione**)
-    - **ID oggetto dell'utente** (solo **Restituisci attestazione**)
+    
+    | **Raccogli attributo** | **Restituisci attestazione** |
+    | ---------------------- | ----------------- |
+    |                        | Indirizzi di posta elettronica   |
+    | Nome specificato             | Nome specificato        |
+    |                        | Provider di identità |
+    | Cognome                | Cognome           |
+    |                        | ID oggetto dell'utente  |
+    
 1. Selezionare **Crea**.
 
 L'immagine seguente mostra un esempio di flusso utente per la modifica del profilo Azure AD B2C.
 
-![Creare il flusso utente per la modifica del profilo.](./media/B2CImage_12.png)
+![Esempio del profilo Azure AD B2C che modifica il flusso utente](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Creare un flusso utente per la reimpostazione della password
 
@@ -324,11 +327,11 @@ L'immagine seguente mostra un esempio di criteri di flusso degli utenti nella pa
 
 ![Raccogliere i nomi di ciascun flusso di criteri B2C.](./media/B2CImage_22.png)
 
-### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>Immettere le informazioni sull'applicazione del tenant AAD B2C in Commerce
+### <a name="enter-your-azure-ad-b2c-tenant-application-information-into-commerce"></a>Immettere le informazioni sull'applicazione del tenant Azure AD B2C in Commerce
 
 È necessario inserire i dettagli del tenant Azure AD B2C in Creazione di siti Web di Commerce prima di associare il tenant B2C ai siti.
 
-Per aggiungere le informazioni dell'applicazione tenant AAD B2C a Commerce, attenersi alla seguente procedura.
+Per aggiungere le informazioni dell'applicazione tenant Azure AD B2C a Commerce, attieniti alla seguente procedura.
 
 1. Accedere come amministratore a Creazione di siti Web di Commerce per l'ambiente.
 1. Nel riquadro di spostamento a sinistra, selezionare **Impostazioni tenant** per espanderlo.

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891928"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952679"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Eseguire l'integrazione con sistemi di esecuzione della produzione di terze parti
 
@@ -37,10 +37,17 @@ La seguente illustrazione mostra una tipica raccolta di eventi aziendali, proces
 
 ## <a name="turn-on-the-mes-integration-feature"></a>Attivare la funzione di integrazione MES
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Prima di poter utilizzare questa funzione, un amministratore deve attivarla nel sistema come descritto nella procedura seguente.
 
-- **Modulo:** *Controllo produzione*
-- **Nome funzionalità:** *Integrazione del sistema di esecuzione della produzione*
+1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
+1. Assicurati che la chiave di licenza **Orario e presenze** sia abilitata (mostra un segno di spunta). Questa chiave di licenza è necessaria perché controlla la funzionalità e i dati del sistema di esecuzione della produzione. Se non è abilitata, procedi nel seguente modo:
+    1. Mettere il sistema in modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+    1. Nella pagina **Configurazione della licenza** seleziona la casella di controllo **Orario e presenze**.
+    1. Disattiva la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. Vai ad **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
+1. Attiva la funzione elencata nel modo seguente (vedi anche [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
+    - **Modulo:** *Controllo produzione*
+    - **Nome funzionalità:** *Integrazione del sistema di esecuzione della produzione*
 
 ## <a name="processes-available-for-mes-integration"></a>Processi disponibili per l'integrazione MES
 
