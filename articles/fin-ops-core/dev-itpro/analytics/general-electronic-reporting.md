@@ -3,7 +3,7 @@ title: Panoramica dello strumento di creazione di report elettronici
 description: Viene fornita una panoramica dello strumento di creazione di report elettronici. Descrive concetti chiave, scenari supportati e formati che fanno parte della soluzione.
 author: NickSelin
 ms.date: 11/02/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867282"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986149"
 ---
 # <a name="electronic-reporting-er-overview"></a>Panoramica dei report elettronici
 
@@ -126,7 +126,7 @@ Una configurazione ER è condivisa per le società dell'applicazione.
 
 #### <a name="provider"></a><a name="Provider"></a>Provider
 
-Il provider ER è l'identificatore della parte che viene utilizzato per indicare l'autore (proprietario) di ciascuna configurazione ER. ER consente di gestire l'elenco di provider di configurazione. Le configurazioni formato rilasciate per documenti elettronici come parte della soluzione Finance and Operations sono contrassegnate come di proprietà del provider di configurazione **Microsoft**.
+Il provider ER è l'identificatore della parte che viene utilizzato per indicare l'autore (proprietario) di ciascuna configurazione ER. ER consente di gestire l'elenco di provider di configurazione. Le configurazioni di formato rilasciate per documenti elettronici come parte della soluzione Finance and Operations sono contrassegnate come di proprietà del provider di configurazione **Microsoft**.
 
 Per informazioni sulla modalità di registrazione di un nuovo provider ER, riprodurre la Guida attività, **Creazione di report elettronici: creare e attivare un provider di configurazione** (parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)** ).
 

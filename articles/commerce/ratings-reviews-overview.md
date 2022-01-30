@@ -3,24 +3,23 @@ title: Panoramica valutazioni e revisioni
 description: In questo argomento vengono descritte le valutazioni e le recensioni in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/01/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473479"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982254"
 ---
 # <a name="ratings-and-reviews-overview"></a>Panoramica valutazioni e revisioni
 
@@ -48,11 +47,19 @@ La soluzione con valutazioni e recensioni fornisce anche un modello di business 
 
 [Consentire l'utilizzo di valutazioni e recensioni](opt-in-ratings-reviews.md)
 
-[Gestire valutazioni e recensioni](manage-reviews.md)
+[Gestire valutazioni e revisioni](manage-reviews.md)
 
 [Configurare valutazioni e recensioni](configure-ratings-reviews.md)
 
 [Sincronizzare valutazioni sul prodotto in Dynamics 365 Commerce](sync-product-ratings.md)
+
+[Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore](manual-publish-rating-reviews.md)
+
+[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
+
+[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
+
+[Recensioni e valutazioni - Domande frequenti](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,8 +96,6 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (gennaio 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: Commerce 10.0.22 (novembre 2021)
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: Funzionalità rimosse o deprecate
                   items:
                     - name: Home page delle funzionalità rimosse o deprecate
@@ -222,7 +220,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Più progetti LCS e ambienti di produzione su un tenant di Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Implementare progetti di Finance and Operations Commerce
+                - name: Implementare progetti Commerce per Finance and Operations
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
                 - name: 'Impostare nuovi ambienti, Azure DevOps e filiali per i progetti'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -712,13 +710,17 @@
                   href: sync-product-ratings.md
                 - name: Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore
                   href: manual-publish-rating-reviews.md
+                - name: Importare ed esportare valutazioni e recensioni
+                  href: import-export-reviews.md
+                - name: Configurare l'autenticazione da servizio a servizio
+                  href: service-to-service-auth.md
                 - name: Domande frequenti su recensioni e valutazioni
                   href: ratings-reviews-faq.md
-            - name: Gestione inventario
+            - name: Gestire l'inventario
               items:
                 - name: Inventario
                   items:
-                    - name: Gestione scorte di inventario magazzino
+                    - name: Gestione scorte punto vendita
                       href: work-with-store-inventory.md
                     - name: Configurare buffer inventario e livelli di inventario
                       href: inventory-buffers-levels.md
@@ -998,8 +1000,6 @@
                       href: style-presets.md
                     - name: Aggiungere una favicon
                       href: add-favicon.md
-                    - name: Aggiungere un messaggio di benvenuto
-                      href: add-welcome-message.md
                     - name: Aggiungere informazioni sul copyright
                       href: add-copyright-notice.md
                     - name: Aggiungere lingue
@@ -2180,7 +2180,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Implementare un'origine ER personalizzata di documenti in entrata
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
-        - name: App per dispositivi mobili Finance and Operations (Dynamics 365)
+        - name: App Finance and Operations (Dynamics 365) per dispositivi mobili
           items:
             - name: Home page app per dispositivi mobili
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
@@ -2758,7 +2758,7 @@
                   href: payment-connector-data-fields.md
                 - name: Attivare la protezione dei pagamenti duplicati per il connettore pagamenti
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Creare pacchetti di pagamento per Commerce per la distribuzione di Finance and Operations
+                - name: Creare pacchetti di pagamento Commerce per la distribuzione di Finance and Operations
                   href: dev-itpro/payment-connector-package.md
             - name: Estendibilità di e-commerce di terze parti
               items:

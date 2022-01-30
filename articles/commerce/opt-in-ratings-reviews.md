@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9fe8e9403ccbdc1e26620ae33c6a3866af06b23c
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: fd6715539693389f25800a40c0beffcdc1b0de72
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473431"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968005"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Consentire utilizzo di valutazioni e sulle revisioni
 
@@ -52,13 +52,19 @@ Per consentire l'utilizzo di valutazioni e recensioni sul sito, procedere come s
 
 [Panoramica valutazioni e revisioni](ratings-reviews-overview.md)
 
-[Gestire valutazioni e recensioni](manage-reviews.md)
+[Gestire valutazioni e revisioni](manage-reviews.md)
 
 [Configurare valutazioni e recensioni](configure-ratings-reviews.md)
 
 [Sincronizzare valutazioni sul prodotto in Dynamics 365 Commerce](sync-product-ratings.md)
 
+[Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore](manual-publish-rating-reviews.md)
 
+[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
+
+[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
+
+[Recensioni e valutazioni - Domande frequenti](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

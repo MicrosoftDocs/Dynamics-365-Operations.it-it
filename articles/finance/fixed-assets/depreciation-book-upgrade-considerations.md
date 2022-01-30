@@ -3,7 +3,7 @@ title: Panoramica dell'aggiornamento dei registri beni ammortizzabili
 description: Questo argomento descrive la funzionalità contabile corrente in Cespiti. Questa funzionalità dei libri si basa sulla funzionalità dei modelli di valore disponibile nelle versioni precedenti, ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili.
 author: moaamer
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c36e0ab53f8a10e81e1bed207417861066dd6917
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675154"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985085"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Panoramica dell'aggiornamento dei registri beni ammortizzabili
 

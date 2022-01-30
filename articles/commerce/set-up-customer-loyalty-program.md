@@ -3,7 +3,7 @@ title: Panoramica fedeltà
 description: In questo argomento vengono descritte le funzionalità del programma fedeltà di Dynamics 365 Commerce e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 author: scott-tucker
 ms.date: 07/21/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: be8090ee8fc3b58d37e221a6e1a5b8caf9704cf242a9ae22f860499c5b5bafcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755059"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985164"
 ---
 # <a name="loyalty-overview"></a>Panoramica fedeltà
 
@@ -144,7 +144,7 @@ Inoltre, i rivenditori possono definire il limite massimo di punti premio del pr
     > Attualmente, il sistema forza gli utenti a impostare una sequenza numerica per "altri tipi di attività", ma ciò non sarà necessario nelle versioni future. Per impostare una sequenza numerica, andare a **Parametri condivisi di commercio** \> **Sequenze numeriche** e selezionare una sequenza numerica per **ID altro tipo di attività fedeltà**.
 
 - Per fornire un servizio clienti ottimale e risolvere efficacemente le query dei clienti, è importante per i cassieri avere accesso al profilo completo di ogni cliente. Nella versione 10.0, i cassieri potranno visualizzare i dettagli dello storico del programma fedeltà insieme al programma fedeltà e ad altre informazioni nel POS.
-- La spedizione gratuita o scontata è uno dei fattori che motiva particolarmente i clienti ad acquistare online. Per consentire ai rivenditori di impostare promozioni di spedizione, nella versione 10.0 è stato introdotto un nuovo tipo di promozione denominata "Sconto di soglia spedizione", in cui il rivenditore può definire le soglie, che una volta raggiunte, qualificheranno i clienti per la spedizione scontata o gratuita. Ad esempio, spendere $35 per una "spedizione in due giorni" gratuita per tutti i clienti del programma di fedeltà. Questa funzionalità utilizza la nuova funzione di addebito automatico avanzato. Consultare la [documentazione sugli addebiti automatici avanzati](/dynamics365/unified-operations/retail/omni-auto-charges). Questi addebiti automatici avanzati devono essere abilitati affinché la promozione di spedizione funzioni. Per farlo, attivare "Utilizza spese automatiche avanzate" nella scheda **Ordini cliente** della pagina **Parametri di commercio**. Inoltre, poiché un rivenditore può impostare più tipi di spese, ad esempio gestione o installazione, il rivenditore deve specificare quali spese sono considerate spese di spedizione. Gli sconti di spedizione sono applicati solo alle spese di spedizione. Per specificare le spese come spese di spedizione, passare al modulo **Codici spese** in **Retail e Commerce** \> **Vendita al dettaglio e commercio IT** \> **Impostazione canale** \> **Spese** e selezionare la casella di controllo "Spese di spedizione" per le spese desiderate. A questo punto accedere al modulo **Sconto di soglia spedizione** e impostare lo sconto.
+- La spedizione gratuita o scontata è uno dei fattori che motiva particolarmente i clienti ad acquistare online. Per consentire ai rivenditori di impostare promozioni di spedizione, nella versione 10.0 è stato introdotto un nuovo tipo di promozione denominata "Sconto di soglia spedizione", in cui il rivenditore può definire le soglie, che una volta raggiunte, qualificheranno i clienti per la spedizione scontata o gratuita. Ad esempio, spendere $35 per una "spedizione in due giorni" gratuita per tutti i clienti del programma di fedeltà. Questa funzionalità utilizza la nuova funzione di addebito automatico avanzato. Consultare la [documentazione sugli addebiti automatici avanzati](/dynamics365/unified-operations/retail/omni-auto-charges). Questi addebiti automatici avanzati devono essere abilitati affinché la promozione di spedizione funzioni. Per farlo, attivare "Utilizza spese automatiche avanzate" nella scheda **Ordini cliente** della pagina **Parametri di commercio**. Inoltre, poiché un rivenditore può impostare più tipi di spese, ad esempio gestione o installazione, il rivenditore deve specificare quali spese sono considerate spese di spedizione. Gli sconti di spedizione sono applicati solo alle spese di spedizione. Per specificare le spese come spese di spedizione, passare al modulo **Codici di spese** in **Retail e Commerce** \> **Vendita al dettaglio e commercio IT** \> **Impostazione canale** \> **Spese** e selezionare la casella di controllo "Spese di spedizione" per le spese desiderate. A questo punto accedere al modulo **Sconto di soglia spedizione** e impostare lo sconto.
 
     Come gli sconti prodotto, questo sconto dispone di tutte le funzionalità di sconto standard esistenti, come consentire al rivenditore di limitare gli sconti con coupon di modo che solo i clienti con coupon possano usufruire di tali sconti. Inoltre, tali sconti utilizzano la funzionalità Gruppi di prezzi per determinarne l'idoneità di tali sconti. Ad esempio, il rivenditore può scegliere di rendere accessibili queste promozioni solo nei canali online e/o attraverso canali per determinati gruppi di clienti ad esempio i clienti del programma fedeltà. Quando le righe di ordine con la modalità di consegna specificata soddisfano la soglia definita, lo sconto di spedizione viene applicato e riduce le spese di spedizione in base allo sconto impostato. 
 

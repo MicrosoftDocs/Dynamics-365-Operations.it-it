@@ -3,7 +3,7 @@ title: Modello di dati per il calcolo delle tasse
 description: Questo argomento fornisce informazioni sul modello di dati delle tasse e su come i valori dei campi di ogni modello di dati sono determinati dal contesto delle transazioni di calcolo delle tasse.
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864262"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985968"
 ---
 # <a name="tax-calculation-data-model"></a>Modello di dati per il calcolo delle tasse
 
 Questo argomento fornisce informazioni su come i valori dei campi nel modello di dati delle tasse sono determinati nelle transazioni di calcolo delle tasse.
 
-Il *modello di dati fiscali* è costituito dai campi necessari per il calcolo delle imposte. Microsoft fornisce il *modello di dati per il calcolo delle tasse*, che include i campi di intestazione e i campi di riga dei documenti di transazione nelle app Finance and Operations. I campi definiti nel modello dati di calcolo delle imposte sono le colonne disponibili delle tabelle delle regole di applicabilità nella configurazione della configurazione della funzione di calcolo delle imposte.
+Il *modello di dati fiscali* è costituito dai campi necessari per il calcolo delle imposte. Microsoft fornisce il *modello di dati per il calcolo delle imposte*, che include i campi di intestazione e i campi di riga dei documenti di transazione nelle app Finance and Operations. I campi definiti nel modello dati di calcolo delle imposte sono le colonne disponibili delle tabelle delle regole di applicabilità nella configurazione della configurazione della funzione di calcolo delle imposte.
 
 > [!NOTE] 
 > Alcuni nodi definiti nel modello di dati, come **ID record** e **ID tabella**, sono per scopi tecnici. Non sono colonne disponibili nella configurazione della funzione di calcolo delle imposte.
@@ -99,7 +99,7 @@ Ventisei modelli di dati vengono inclusi come campi nelle righe di una transazio
 |-------------------------------|---------------------------------------|
 | Periodo                        | <ul><li>**Ordine cliente:** Importo netto</li><li>**Ordine fornitore:** Importo netto</li><li>**Ordine di trasferimento - Distinta di pagamento:** Importo</li><li>**Ordine di trasferimento - Ricevi:** Importo</li><li>**Richiesta di acquisto:** Importo netto</li><li>**Richiesta di offerta:** Importo netto</li><li>**Offerta di vendita:** Importo netto</li><li>**Fattura a testo libero:** Importo netto</li></ul> |
 | Nome categoria                 | <ul><li>**Ordine cliente:** Categoria di vendita</li><li>**Ordine fornitore:** Categoria di approvvigionamento</li><li>**Richiesta di acquisto:** Categoria di approvvigionamento</li><li>**Richiesta di offerta:** Categoria di approvvigionamento</li><li>**Offerta di vendita :** Categoria di vendita</li></ul> |
-| Codice spese                  | <ul><li>**Ordine cliente:** Codice spese</li><li>**Ordine fornitore:** Codice spese</li><li>**Richiesta di acquisto:** Codice spese</li><li>**Richiesta di offerta:** Codice spese</li><li>**Offerta di vendita:** Codice spese</li><li>**Fattura a testo libero:** Codice spese</li></ul> |
+| Codice di spese                  | <ul><li>**Ordine cliente:** Codice di spese</li><li>**Ordine fornitore:** Codice di spese</li><li>**Richiesta di acquisto:** Codice di spese</li><li>**Richiesta di offerta:** Codice di spese</li><li>**Offerta di vendita:** Codice di spese</li><li>**Fattura a testo libero:** Codice di spese</li></ul> |
 | Codice voce doganale                | <ul><li>**Ordine cliente:** Riga &gt; Commercio estero &gt; Voce doganale</li><li>**Ordine fornitore:** Riga &gt; Commercio estero &gt; Voce doganale</li><li>**Ordine di trasferimento:** Spedisci &gt; Commercio estero &gt; Voce doganale</li><li>**Ordine di trasferimento:** Ricevi &gt; Commercio estero &gt; Voce doganale</li><li>**Offerta di vendita:** Riga &gt; Commercio estero &gt; Voce doganale</li><li>**Fattura a testo libero:** Riga &gt; Commercio estero &gt; Voce doganale</li></ul> |
 | Importo costi                   | <ul><li>**Ordine cliente:** Il prezzo di costo dell'articolo in magazzino</li><li>**Offerta di vendita:** Il prezzo di costo dell'articolo in magazzino</li></ul> |
 | Termine di consegna                 | <ul><li>**Ordine cliente:** Termini di consegna</li><li>**Richiesta di offerta:** Termini di consegna</li><li>**Offerta di vendita:** Termini di consegna</li></ul> |

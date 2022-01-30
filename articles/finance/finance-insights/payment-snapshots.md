@@ -3,7 +3,7 @@ title: Panoramica degli snapshot
 description: Questo argomento descrive la funzionalità di snapshot, che consente di salvare una previsione di cassa per l'analisi o il confronto con i valori effettivi in un secondo momento. Quando si genera una previsione di cassa, è possibile salvarla come "snapshot". Puoi quindi utilizzare tali snapshot per modificare i conti inclusi nella previsione o confrontare la previsione nello snapshot con i valori effettivi.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752759"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983519"
 ---
 # <a name="snapshots-overview"></a>Panoramica degli snapshot
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Gli snapshot consentono alle organizzazioni di modificare e salvare le informazioni sulla loro posizione di cassa e le previsioni di cassa in un determinato momento. Puoi confrontare lo snapshot con i dati finanziari effettivi, esaminare la varianza e utilizzare tali informazioni per migliorare le previsioni di cassa nel tempo. In particolare, gli snapshot possono essere utilizzati nei seguenti modi:
 

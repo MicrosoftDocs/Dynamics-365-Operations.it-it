@@ -3,24 +3,23 @@ title: Panoramica di Gestione documenti aziendali
 description: In questo argomento vengono fornite informazioni sull'utilizzo della funzionalità Gestione documenti aziendali del framework ER.
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753078"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986253"
 ---
 # <a name="business-document-management-overview"></a>Panoramica di Gestione documenti aziendali
 
@@ -159,7 +158,7 @@ Utilizzare la seguente procedura per impostare i parametri di base per tutte le 
 Il tipo di documento selezionato è specifico alla società e verrà utilizzato quando l'utente utilizza Gestione documenti aziendali nella società per la quale il tipo di documento selezionato è configurato. Quando l'utente utilizza Gestione documenti aziendali in un'altra società, lo stesso tipo di documento selezionato sarà utilizzato se un tipo non è stato configurato per tale società. Dopo che un tipo di documento è stato configurato, verrà utilizzato al posto di quello selezionato nel campo **Tipo di documento SharePoint**.
 
 > [!NOTE]
-> Il parametro **Tipo di documento SharePoint** definisce una cartella SharePoint come memoria temporanea per modelli modificabili utilizzando Microsoft Excel o Word. È necessario impostare questo parametro se si prevede di utilizzare applicazioni desktop di Office per la modifica dei modelli. Per ulteriori informazioni, vedere [Modificare un modello nell'applicazione desktop di Office](#EditInOfficeDesktopApp). È possibile mantenere vuoto questo parametro se si prevede di modificare il modello utilizzando solo la funzionalità in Microsoft 365. Per ulteriori informazioni, vedi [Modificare un modello in Microsoft 365](#EditInOffice365).
+> Il parametro **Tipo di documento SharePoint** definisce una cartella SharePoint come memoria temporanea per modelli modificabili utilizzando Microsoft Excel o Word. È necessario impostare questo parametro se si prevede di utilizzare applicazioni desktop di Office per la modifica dei modelli. Per ulteriori informazioni, vedere [Modificare un modello nell'applicazione desktop di Office](#EditInOfficeDesktopApp). È possibile mantenere vuoto questo parametro se pensi di modificare il modello utilizzando solo la funzionalità in Microsoft 365. Per ulteriori informazioni, vedere [Modificare un modello in Microsoft 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurare le autorizzazioni di accesso
 
@@ -408,7 +407,7 @@ Quando si modifica il modello da un formato ER di proprietà del provider corren
 
 Si tratta di un problema noto che interessa il reindirizzamento di Microsoft 365. Si verifica quando si accede a Microsoft 365 per la prima volta. Per risolvere questo problema, seleziona **Indietro** nel browser per tornare alla pagina precedente.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>So come modificare un modello utilizzando Microsoft 365 nella prima sessione dell'applicazione e come utilizzare il modello nella seconda sessione dell'applicazione modificando il modello per determinare come le modifiche alterano il documento aziendale generato. Posso utilizzare l'applicazione desktop di Office allo stesso modo?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>So come modificare un modello utilizzando Microsoft 365 nella prima sessione dell'applicazione e come utilizzare il modello nella seconda sessione dell'applicazione e modificare il modello per determinare come le modifiche alterano il documento aziendale generato. Posso utilizzare l'applicazione desktop di Office allo stesso modo?
 
 Sì, è possibile. Nella prima sessione dell'applicazione, selezionare **Apri nell'app desktop**. Il modello verrà memorizzato nell'archiviazione di file temporanea e aperto nell'applicazione desktop di Office. Successivamente, completare la procedura per visualizzare l'anteprima delle modifiche nel documento aziendale generato:
 

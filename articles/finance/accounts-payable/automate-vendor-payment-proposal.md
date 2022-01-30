@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 483621a5de2980212926ac1011c16f1b82e4a3d075bbe9bcbbe6a0e35f06e5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c5012fdc4f3bfab3f91adfee1eab758dd9c1a0f
+ms.sourcegitcommit: 5aecb04178e45e1fdea032b3ef3ce338332005dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749104"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7966717"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizzare le proposte di pagamento fornitore
 
@@ -32,6 +32,9 @@ Le organizzazioni che pagano i fornitori in base a una programmazione ricorrente
 - In quale giornale di registrazione dei pagamenti fornitore vengono salvati i pagamenti risultanti
 
 Le automazioni delle proposte di pagamento non registrano automaticamente i pagamenti. Pertanto, è possibile continuare a utilizzare qualsiasi processo di convalida e flusso di lavoro attualmente utilizzato per approvare i pagamenti creati.
+
+> [!NOTE]
+> La funzionalità **Automazione della proposta di pagamento fornitore** deve essere abilitata in Gestione funzionalità per poter essere utilizzata. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Definire l'occorrenza delle proposte di pagamento fornitore
 

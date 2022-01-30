@@ -3,7 +3,7 @@ title: Panoramica del dipendente e del responsabile self-service
 description: Questo articolo fornisce una panoramica dell'area di lavoro Self-service dipendenti e responsabile.
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cea92092701f960f12aa74efe4c82c379a2b2c6d
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431213"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992045"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Panoramica del dipendente e del responsabile self-service
 
@@ -93,7 +93,7 @@ Visualizzare e gestire i documenti con il riquadro **Allegati**. È possibile ge
 
 Questa sezione fornisce i collegamenti ad altre aree **Self-service dipendenti**, simili alla sezione **Informazioni professionali personali**.
 
-Registrarsi per ottenere vantaggi tramite il collegamento **Vantaggi**. Per ulteriori informazioni sulla gestione dei vantaggi, vedere [Panoramica dei vantaggi](hr-benefits-management-overview.md)
+Registrarsi per ottenere vantaggi tramite il collegamento **Vantaggi**. Per ulteriori informazioni sulla gestione dei vantaggi, vedi [Panoramica dei vantaggi](hr-benefits-management-overview.md).
 
 In **Prestazioni**, è possibile selezionare **Giornale di registrazione prestazioni** per creare voci del giornale di registrazione prestazioni da utilizzare su obiettivi e revisioni delle prestazioni. È possibile selezionare **Invia feedback** per fornire feedback ad altri dipendenti all'interno dell'organizzazione. A seconda delle impostazioni dell'organizzazione, i messaggi e-mail possono essere inviati al destinatario, al mittente e ai manager. È possibile inviare il feedback a tutti i dipendenti all'interno dell'organizzazione. L'invio del feedback non è limitato dalla società.
 

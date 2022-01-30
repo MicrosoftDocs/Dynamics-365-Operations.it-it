@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752786"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968914"
 ---
 # <a name="use-customer-payment-predictions"></a>Utilizzare previsioni di pagamento del cliente
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento spiega come utilizzare le previsioni di pagamento del cliente. Prima di utilizzare questa funzionalità, assicurati di aver completato la procedura di configurazione. Per ulteriori informazioni, vedi [Abilitare le previsioni di pagamento cliente](enable-cust-paymnt-prediction.md).
 
@@ -91,6 +90,6 @@ Puoi visualizzare l'accuratezza delle previsioni di pagamento accedendo a **Cred
 
 Se non sei soddisfatto dell'accuratezza, seleziona il collegamento **Migliora la precisione del modello** per aprire l'esperienza dell'estensione AI Builder. Nell'esperienza dell'estensione AI Builder, puoi selezionare o annullare la selezione dei campi finché non hai selezionato i campi che ritieni più importanti per prevedere con precisione le probabilità di pagamento. Al termine, puoi facilmente eseguire nuovamente il training del modello di previsione e pubblicare le modifiche. Il modello di previsione il cui training è stato appena completato verrà automaticamente selezionato per le previsioni in Dynamics 365 Finance.
 
-[![Esperienza di estensione di AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
+[![Esperienza di estensione AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

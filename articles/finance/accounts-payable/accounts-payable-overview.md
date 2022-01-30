@@ -3,7 +3,7 @@ title: Configurare la panoramica contabilità fornitori
 description: Questo articolo descrive le pagine utilizzate per impostare le funzionalità di base e facoltative per la contabilità fornitori. Vengono descritti i passaggi di configurazione da completare prima di iniziare a impostare la contabilità fornitori.
 author: abruer
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30fe9433e7fe5f240ed46272e869d442d226af6c7da19a42faba87a0baf5131b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4981f317697998298ba0c1ea84d50698f135474f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749176"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984882"
 ---
 # <a name="configure-accounts-payable-overview"></a>Configurare la panoramica contabilità fornitori
 
@@ -77,7 +77,7 @@ Le pagine di impostazione aggiuntive sono organizzate per funzionalità.
 
 **Spese**
 
--   Nella pagina Codice spese, impostare i codici per le spese utilizzate negli ordini fornitore.
+-   Nella pagina Codice di spese, impostare i codici per le spese utilizzate negli ordini fornitore.
 -   Nella pagina Gruppo di addebiti fornitore creare e gestire gruppi di spese per i fornitori.
 -   Nella pagina Gruppi di addebito articoli  creare e gestire i gruppi di spese per gli articoli.
 -   Nella pagina Spese automatiche , definire le spese assegnate automaticamente agli ordini.

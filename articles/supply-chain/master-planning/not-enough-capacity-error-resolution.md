@@ -1,5 +1,5 @@
 ---
-title: Risolvere l'errore del motore di pianificazione "Impossibile trovare capacità sufficiente"
+title: Risolvere l'errore del motore di pianificazione "Impossibile trovare capacità sufficiente" e capcità limitata
 description: Questo argomento fornisce informazioni sui motivi e sulle soluzioni per l'errore del motore di pianificazione "Impossibile programmare l'ordine di produzione %1. Impossibile trovare capacità sufficiente".
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565761"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985032"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Risolvere l'errore del motore di pianificazione "Impossibile trovare capacità sufficiente"
 
@@ -105,5 +105,11 @@ Per esaminare la capacità disponibile sul gruppo di risorse, seguire questi pas
 
 1. Andare a **Amministrazione organizzazione \> Risorse \> Gruppi di risorse** e selezionare un gruppo di risorse applicabile all'ordine che non può essere programmato.
 1. Nel riquadro Azioni, nella scheda **Gruppo di risorse**, nel gruppo **Visualizza** selezionare **Carico di capacità** o **Carico di capacità, grafico** e verificare che ci sia capacità disponibile.
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>La pianificazione generale registra una risorsa quando il calendario delle risorse è chiuso
+
+Quando si utilizza la pianificazione delle operazioni, la pianificazione generale pianificherà la capacità in base al calendario del gruppo di risorse principale. Prenota l'operazione secondaria contemporaneamente all'operazione primaria e non tiene conto dei calendari o della capacità dell'operazione secondaria. Ciò può comportare la pianificazione dell'ordine di produzione in un calendario chiuso o in un momento in cui l'operazione secondaria non è disponibile (calendario chiuso, nessuna capacità).
+
+Quando si utilizza la pianificazione processo, la pianificazione generale terrà conto della capacità e del calendario dell'operazione primaria e secondaria durante la pianificazione dell'ordine. Affinché l'ordine possa essere programmato, i calendari per le risorse di entrambe le operazioni devono essere aperti e avere capacità disponibile.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

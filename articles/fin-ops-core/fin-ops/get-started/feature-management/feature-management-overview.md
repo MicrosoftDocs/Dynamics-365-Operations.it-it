@@ -2,26 +2,25 @@
 title: Panoramica della gestione funzionalità
 description: In questo argomento viene descritta la caratteristica Gestione funzionalità e come è possibile utilizzarla.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488180"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984461"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
@@ -75,9 +74,9 @@ Le funzionalità aggiornate allo stato **Abilitata per impostazione predefinita*
 > [!NOTE]
 > Poiché queste funzionalità verranno abilitate automaticamente, è importante determinare se l'organizzazione è pronta a utilizzarle o se è necessario più tempo. Se è necessario più tempo, potrebbe essere necessario disabilitare temporaneamente queste funzionalità. Nota che la transizione di una funzionalità allo stato **Abilitata per impostazione predefinita** viene in genere eseguita nella versione principale prima che la funzionalità diventi **Obbligatoria**. A quel punto, non avrai la possibilità di disabilitare la funzionalità. 
 
-### <a name="released-features-mandatory"></a>Funzionalità rilasciate (obbligatorie)
+### <a name="mandatory"></a>Obbligatorio
 
-**Rilasciata** è lo stato finale delle funzionalità. Indica che le funzionalità sono abilitate e che non è possibile disabilitarle senza contattare Microsoft. Le funzionalità facoltative dovrebbero diventare obbligatorie dopo due versioni principali. in via eccezionale, le funzionalità critiche possono essere introdotte come obbligatorie.
+**Obbligatorio** è lo stato finale previsto delle funzionalità. Indica che le funzionalità sono abilitate e che non è possibile disabilitarle senza contattare Microsoft. Le funzionalità facoltative dovrebbero diventare obbligatorie dopo due versioni principali. in via eccezionale, le funzionalità critiche possono essere introdotte come obbligatorie.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Esempio di cicli di vita previsti delle funzionalità
 

@@ -2,8 +2,8 @@
 title: Panoramica organizzazioni e gerarchie organizzative
 description: Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda.
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798348"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992081"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Panoramica delle organizzazioni e delle gerarchie organizzative
 
@@ -54,7 +54,7 @@ I tipi di unità operative includono centri di costo, business unit, flussi del 
 | Business Unit       | Unità operativa semi-autonoma creata per conseguire gli obiettivi aziendali strategici. | Viene utilizzata per il reporting finanziario basato su settori o linee di prodotti che l'organizzazione serve indipendentemente dalle persone giuridiche. |
 | Flusso del valore        | Unità operativa che controlla uno o più flussi di produzione. | Viene usato solitamente nella produzione snella per controllare le attività e i flussi necessari per la fornitura di un prodotto o di un servizio ai clienti. |
 | Reparto          | Unità operativa che rappresenta una categoria o parte funzionale di un'organizzazione che svolge attività specifiche, ad esempio la vendita o la contabilità. | Serve per il reporting sulle aree funzionali. Un reparto può avere responsabilità di profitti e perdite e può comprendere un gruppo di centri di costo. |
-| Canale di Commerce      | Un'unità operativa rappresenta un punto vendita fisico, un punto vendita online o un marketplace online. | Utilizzato per il controllo di gestione e operativo di uno o più punti vendita tra le persone giuridiche. |
+| Canale di vendita al dettaglio      | Un'unità operativa rappresenta un punto vendita fisico, un punto vendita online o un servizio clienti. | Utilizzato per il controllo di gestione e operativo di uno o più punti vendita tra le persone giuridiche. |
 
 ### <a name="teams"></a>Team
 

@@ -3,7 +3,7 @@ title: Panoramica di report finanziari e contabilità generale
 description: È possibile utilizzare la contabilità generale per definire e gestire i record finanziari della persona giuridica.
 author: ShylaThompson
 ms.date: 08/14/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143807b6076d2b798de26d2ebd2cf7a40a8fdf89fdc8387acfbb79cecb44e3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715120"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985239"
 ---
 # <a name="general-ledger-home-page"></a>Home page contabilità generale
 
@@ -61,7 +61,7 @@ Andare all'argomento [Panoramica di Financial reporting](../../fin-ops-core/dev-
 
 #### <a name="blogs"></a>Blog
 
-Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Per opinioni, notizie e altre informazioni, fai riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.
 

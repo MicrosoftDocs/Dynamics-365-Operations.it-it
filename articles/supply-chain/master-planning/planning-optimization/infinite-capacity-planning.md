@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0a2bd50ef11e92fb427a61a1e8624fcd7d15e163
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920176"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982152"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Programmazione con capacità infinita
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!--KFM: Preview until 1/14/2022 -->
 
 La funzionalità *Programmazione capacità infinita per l'ottimizzazione della pianificazione* introduzione la programmazione basata sulle informazioni sul ciclo di lavorazione. Consente di programmare i lavori in base a un'ampia gamma di impostazioni del percorso. Pianificazione per l'ottimizzazione della pianificazione copre le impostazioni del ciclo di lavorazione utilizzate di frequente, inclusa la sequenza dell'operazione del ciclo di lavorazione o i requisiti per le risorse dell'operazione del ciclo di lavorazione.
 
@@ -51,7 +49,9 @@ Durante il processo di programmazione, il sistema considera anche i *requisiti d
 - Capacità. Per ulteriori informazioni su questa funzione, vedi [Pianificazione con selezione delle risorse in base alla capacità](capability-based-scheduling.md).
 
 > [!NOTE]
-> I requisiti relativi alle risorse umane, ad esempio competenze o requisiti dei certificati, non sono ancora supportati.
+>
+> - Se la risorsa e/o il gruppo di risorse sono impostati su capacità infinita, la pianificazione generale li considererà come capacità infinita.
+> - I requisiti relativi alle risorse umane, ad esempio competenze o requisiti dei certificati, non sono ancora supportati.
 
 La funzionalità supporta anche le proprietà operative **Tempo di preparazione** e **Tempo di esecuzione**. Quando si impostano queste proprietà su un'operazione del ciclo di lavorazione, il processo di programmazione creerà i lavori di impostazione e processo appropriati.
 

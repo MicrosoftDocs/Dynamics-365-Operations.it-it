@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 7434c2ed486fe0546a746afdd2c4c4aacdcc3d5c
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
+ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817290"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "8015717"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Eseguire l'aggiornamento al modello di parte e di rubrica globale
 
@@ -24,7 +24,7 @@ ms.locfileid: "7817290"
 
 I [modelli di Microsoft Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) consentono di aggiornare i seguenti dati di tabella in doppia scrittura al modello di parte e rubrica globale; dati nelle tabelle **Account**, **Contatto** e **Fornitore** e indirizzi elettronici e postali.
 
-Vengono forniti i tre modelli di Data Factory seguenti. Consentono di riconciliare i dati delle app Finance and Operations e delle app di interazione con i clienti.
+Vengono forniti i tre modelli di Data Factory seguenti. Consentono di riconciliare i dati delle app Finance and Operations e delle app di coinvolgimento del cliente.
 
 - **[Modello di parte](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Aggiorna i dati allo schema Party-GAB in doppia scrittura/arm_template.json)** – Questo modello aiuta l'aggiornamento dei dati **Parte** e **Contatto** associati ai dati **Account**, **Contatto**, e **Fornitore**.
 - **[Modello di indirizzo postale di parte](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Aggiorna i dati allo schema Party-GAB in doppia scrittura/Aggiorna all'indirizzo postale della parte - GAB/arm_template.json)** – Questo modello aiuta ad aggiornare gli indirizzi postali associati ai dati **Account**, **Contatto**, e **Fornitore**.
@@ -43,7 +43,7 @@ Alla fine del processo, vengono generati i seguenti file con valori separati da 
 In questo argomento vengono fornite istruzioni per utilizzare i modelli Data Factory e aggiornare i dati. Se non disponi di personalizzazioni, puoi utilizzare i modelli così come sono. Tuttavia se hai personalizzazioni per i dati **Account**, **Contatto** e **Fornitore** devi modificare i modelli con le seguenti istruzioni.
 
 > [!IMPORTANT]
-> Ci sono istruzioni speciali per l'esecuzione dei modelli di indirizzo postale e indirizzo elettronico della parte. È necessario eseguire prima il modello parte, quindi il modello di indirizzo postale di parte e quindi il modello di indirizzo elettronico di parte.
+> Ci sono istruzioni speciali per l'esecuzione dei modelli di indirizzo postale e indirizzo elettronico della parte. È necessario eseguire prima il modello parte, quindi il modello di indirizzo postale di parte e quindi il modello di indirizzo elettronico di parte. Ogni modello è progettato per l'importazione in un data factory separato.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -57,11 +57,11 @@ I seguenti prerequisiti devono essere soddisfatti prima di poter eseguire l'aggi
 
 Un aggiornamento richiede la seguente preparazione:
 
-+ **Sincronizzazione completa:** Sia l'ambiente Finance and operations che l'ambiente customer engagement sono in uno stato completamente sincronizzato per le tabelle **Account (Cliente)**, **Contatto**, e **Fornitore**.
++ **Sincronizzazione completa:** Sia l'ambiente Finance and operations che l'ambiente di coinvolgimento del cliente sono in uno stato completamente sincronizzato per le tabelle **Account (Cliente)**, **Contatto**, e **Fornitore**.
 + **Chiavi di integrazione**: le tabelle **Account (cliente)**, **Contatto** e **Fornitore** nelle app di interazione con i clienti utilizzano le chiavi di integrazione predefinite. Se hai personalizzato le chiavi di integrazione, devi personalizzare il modello.
 + **Numero parte:** tutti i record **Account (cliente)**, **Contatto**, e **Fornitore** che verranno aggiornati hanno un numero parte. I record che non hanno un numero parte verranno ignorati. Se desideri aggiornare questi record, aggiungici un numero parte prima di iniziare il processo di aggiornamento.
 + **Interruzione del sistema**: durante il processo di aggiornamento, Finance and Operations e ambienti di interazione con i clienti devono essere offline.
-+ **Snapshot**: prendi snapshot delle app Finance and Operations e delle app di interazione dei clienti. Puoi usare gli snapshot per ripristinare lo stato precedente, se necessario.
++ **Snapshot**: esegui uno snapshot delle app Finance and Operations e delle app di coinvolgimento del cliente. Puoi usare gli snapshot per ripristinare lo stato precedente, se necessario.
 
 ## <a name="deployment"></a>Distribuzione
 
@@ -128,7 +128,7 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
 
     | Numero | Name | Tipo | Valore |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | stringa | Questo parametro aggiunge un numero di serie agli indirizzi postali appena creati come prefisso. Assicurati di fornire una stringa che non sia in conflitto con gli indirizzi postali nelle app Finance and Operations e nelle app per il coinvolgimento dei clienti. Ad esempio, utilizza **ADF-PAD-**. |
+    | 1 | PostalAddressIdPrefix | stringa | Questo parametro aggiunge un numero di serie agli indirizzi postali appena creati come prefisso. Assicurati di fornire una stringa che non sia in conflitto con gli indirizzi postali nelle app Finance and Operations e nelle app di coinvolgimento del cliente. Ad esempio, utilizza **ADF-PAD-**. |
 
     ![Parametro globale PostalAddressIdPrefix creato nella scheda Gestisci.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
 
     | Numero | Name | Tipo | Valore |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Questo parametro determina quali indirizzi di sistema primari vengono sostituiti in caso di conflitti. Se il valore è **vero**, gli indirizzi primari nelle app Finance and Operations sostituiranno gli indirizzi primari nelle app di coinvolgimento dei clienti. Se il valore è **falso**, gli indirizzi primari nelle app di coinvolgimento dei clienti sostituiranno gli indirizzi primari nelle app Finance and Operations. |
-    | 2 | ElectronicAddressIdPrefix | stringa | Questo parametro aggiunge un numero di serie agli indirizzi elettronici appena creati come prefisso. Assicurati di fornire una stringa che non sia in conflitto con gli indirizzi elettronici nelle app Finance and Operations e nelle app per il coinvolgimento dei clienti. Ad esempio, utilizza **ADF-EAD-**. |
+    | 1 | IsFOSource | bool | Questo parametro determina quali indirizzi di sistema primari vengono sostituiti in caso di conflitti. Se il valore è **vero**, gli indirizzi primari nelle app Finance and Operations sostituiranno gli indirizzi primari nelle app di coinvolgimento del cliente. Se il valore è **falso**, gli indirizzi primari nelle app di coinvolgimento del cliente sostituiranno gli indirizzi primari nelle app Finance and Operations. |
+    | 2 | ElectronicAddressIdPrefix | stringa | Questo parametro aggiunge un numero di serie agli indirizzi elettronici appena creati come prefisso. Assicurati di fornire una stringa che non sia in conflitto con gli indirizzi elettronici nelle app Finance and Operations e nelle app di coinvolgimento del cliente. Ad esempio, utilizza **ADF-EAD-**. |
 
     ![Parametri globali IsFOSource ed ElectronicAddressIdPrefix creati nella scheda Gestisci.](media/ADF-4.png)
 
@@ -151,7 +151,7 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
 
 ## <a name="run-the-templates"></a>Eseguire i modelli
 
-1. Interrompi i mapping a doppia scrittura seguenti di **Account**, **Contatto** e **Fornitore** che usano l'app Finance and Operations:
+1. Interrompi i mapping a doppia scrittura seguenti di **Account**, **Contatto**, e **Fornitore** che usano l'app Finance and Operations:
 
     + Clienti V3 (conti)
     + Clienti V3(contacts)
@@ -161,7 +161,7 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
 
 2. Assicurati che le mappe vengano rimosse dalla tabella **msdy_dualwriteruntimeconfig** in Dataverse.
 3. Installa le [soluzioni di doppia scrittura per parte e rubrica globale](https://aka.ms/dual-write-gab) da AppSource.
-4. Nell'app Finance and Operations, esegui **Sincronizzazione iniziale** per le seguenti tabelle contengono dati:
+4. Nell'app Finance and Operations, esegui **Sincronizzazione iniziale** per le seguenti tabelle se contengono dati:
 
     + Formule di apertura
     + Tipi di carattere personale
@@ -358,7 +358,7 @@ Questa sezione illustra i passaggi in ogni modello di Data Factory.
 ### <a name="steps-in-the-party-template"></a>Passaggi nel modello Parte
 
 1. I passaggi da 1 a 6 identificano le società abilitate per la doppia scrittura e creano una clausola di filtro.
-2. I passaggi da 7-1 a 7-9 recuperano i dati da entrambe le app Finance and Operations e di coinvolgimento del cliente e predispongono tali dati per l'aggiornamento.
+2. I passaggi da 7-1 a 7-9 recuperano i dati da entrambe l'app Finance and Operations e l'app di coinvolgimento del cliente e predispongono tali dati per l'aggiornamento.
 3. I passaggi da 8 a 9 confrontano il numero della parte per i record **Account**, **Contatto**, e **Fornitore** tra l'app Finance and Operations e l'app di coinvolgimento del cliente. I record che non hanno un numero parte verranno saltati.
 4. Il passaggio 10 genera due file .csv per i record della parte che devono essere creati nell'app di coinvolgimento del cliente e nell'app Finance and Operations.
 
@@ -376,7 +376,7 @@ Questa sezione illustra i passaggi in ogni modello di Data Factory.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Passaggi nel modello di indirizzo postale della parte
 
-1. I passaggi da 1-1 a 1-10 recuperano i dati da entrambe le app Finance and Operations e di coinvolgimento del cliente e predispongono tali dati per l'aggiornamento.
+1. I passaggi da 1-1 a 1-10 recuperano i dati da entrambe l'app Finance and Operations e l'app Customer Engagement e predispongono tali dati per l'aggiornamento.
 2. Il passaggio 2 denormalizza i dati dell'indirizzo postale nell'app Finance and Operations unendo l'indirizzo postale e l'indirizzo postale della parte.
 3. Il passaggio 3 deduplica e unisce i dati dell'account, del contatto e dell'indirizzo del fornitore dall'app di coinvolgimento del cliente.
 4. Il passaggio 4 crea file .csv per l'app Finance and Operations per creare nuovi dati di indirizzo basati su indirizzi di account, contatti e fornitori.
@@ -395,7 +395,7 @@ Questa sezione illustra i passaggi in ogni modello di Data Factory.
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Passaggi nel modello di indirizzo elettronico della parte
 
-1. I passaggi da 1-1 a 1-5 recuperano i dati da entrambe le app Finance and Operations e di coinvolgimento del cliente e predispongono tali dati per l'aggiornamento.
+1. I passaggi da 1-1 a 1-5 recuperano i dati da entrambe l'app Finance and Operations e l'app Customer Engagement e predispongono tali dati per l'aggiornamento.
 2. Il passaggio 2 consolida gli indirizzi elettronici nell'app di coinvolgimento del cliente da entità account, contatti e fornitore.
 3. Il passaggio 3 unisce i dati dell'indirizzo elettronico primario dall'app di coinvolgimento del cliente e dall'app Finance and Operations.
 4. Il passaggio 4 crea i file .csv.

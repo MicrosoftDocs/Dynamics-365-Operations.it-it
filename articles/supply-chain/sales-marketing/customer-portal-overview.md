@@ -3,22 +3,21 @@ title: Panoramica del portale per i clienti per Dynamics 365 Supply Chain Manage
 description: Questo argomento introduce il portale clienti e spiega chi dovrebbe usarlo e come funziona.
 author: Henrikan
 ms.date: 06/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c1383ee3c8e72f630d29a557de4150cdd3aa905f
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 04a1a06dce79259e35ce66dda469e9b157d7ed1c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937506"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983240"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Panoramica sul portale clienti per Dynamics 365 Supply Chain Management
 
@@ -43,7 +42,7 @@ Il modello di portale clienti include tutte le funzionalità di personalizzazion
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-Il video della [panoramica del modello del portale clienti in Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8)(mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+Il video della [panoramica del modello del portale clienti in Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (mostrato sopra) è incluso nella playlist di [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 ## <a name="who-should-use-it"></a>Chi dovrebbe usarlo?
 

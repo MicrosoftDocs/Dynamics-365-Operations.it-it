@@ -2,7 +2,7 @@
 title: Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 description: Questo argomento elenca le funzionalità nuove e modificate per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901890"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007576"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20140"></a>Versione 2.0.14.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Risolto un problema che disabilitava il pulsante Invia predefinito.
+
+## <a name="version-20130"></a>Versione 2.0.13.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+ 
+- Scorrimento tra le pagine migliorato con animazioni più fluide.
+- Risolte le risposte controintuitive ai movimenti di scorrimento e ai blocchi occasionali dello schermo.
+- Migliorate le combinazioni di colori di sfondo e testo in modalità scura per una migliore leggibilità.
+- Risolto un problema per cui il testo poteva diventare molto piccolo durante il ridimensionamento della finestra dell'app.
+- Risolto un problema che talvolta poteva causare l'arresto anomalo dell'app durante la scansione dei codici a barre.
+- Aggiunta la possibilità di sostituire un dispositivo di scorrimento con un pulsante.
+- Risolto un problema che poteva causare la visualizzazione del messaggio di errore dell'app "AADSTS7000215: fornito un segreto client non valido".
+- Risolto il problema con l'animazione del suggerimento che mostrava come chiudere una pagina utilizzando un gesto di scorrimento verso il basso.
+- Aggiunta la possibilità di chiudere una pagina utilizzando un gesto di scorrimento verso il basso.
+- Risolto un problema per cui i titoli dell'elenco a discesa non venivano mostrati nella pagina **Impostazioni utente**.
+- Risolto un problema di localizzazione per cui l'app non riconosceva una virgola (,) come separatore decimale.
+- Accessibilità migliorata.
+- Corretta la navigazione della pagina **Nuova connessione** per fornire una migliore accessibilità.
+- Risolto un problema per cui la tastiera software (su schermo) non veniva visualizzata alla selezione di un campo di input.
+- Risolto un problema che poteva causare l'arresto anomalo dell'app se gli utenti ridimensionavano rapidamente la finestra.
+- Risolto un problema per cui una pressione rapida di un tasto a volte veniva interpretata come una pressione prolungata.
+- Risolto un problema per cui il layout dell'app poteva essere danneggiato a causa delle personalizzazioni dei campi effettuate in Supply Chain Management.
+- Risolto un problema per cui le posizioni degli oggetti non venivano visualizzate correttamente.
+- Risolto un problema relativo al prelievo breve per il flusso di lavoro della variante di prodotto.
+- Rimossa la convalida non necessaria dei campi contenenti valori predefiniti preimpostati.
+- Prestazioni migliorate.
+- Aggiunta una nuova impostazione che consente agli utenti di scegliere come filtrare e ordinare i campi nella pagina della scheda.
 
 ## <a name="version-20110"></a>Versione 2.0.11.0
 

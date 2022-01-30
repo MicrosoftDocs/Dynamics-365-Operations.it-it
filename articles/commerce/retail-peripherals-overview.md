@@ -3,7 +3,7 @@ title: Periferiche
 description: In questo argomento vengono descritti i concetti correlati alle periferiche di Commerce.
 author: BrianShook
 ms.date: 02/06/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dbf78eec6c1b25056342f9709f3b047a8bb822ff
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ec991f34fcaa1a71a7e7aa3d1eaac4c6988acfa7
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779848"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986228"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -220,9 +220,9 @@ Nella seguente tabella vengono illustrate le topologie e gli scenari di distribu
 | Cliente      | Stazione hardware IPC | Stazione hardware IIS |
 |-------------|----------------------|----------------------|
 | App Windows | Sì                  | Sì                  |
-| POS cloud   | Nessuno                   | Sì                  |
+| POS cloud   | No                   | Sì                  |
 | Android     | Sì                  | Sì                  |
-| iOS         | Nessuno                   | Sì                  |
+| iOS         | No                   | Sì                  |
 
 ### <a name="network-peripherals"></a>Periferiche di rete
 
@@ -231,9 +231,9 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 | Cliente      | Stazione hardware IPC | Stazione hardware IIS |
 |-------------|----------------------|----------------------|
 | App Windows | Sì                  | Sì                  |
-| POS cloud   | Nessuno                   | Sì                  |
+| POS cloud   | No                   | Sì                  |
 | Android     | Sì                  | Sì                  |
-| iOS         | Nessuno                   | Sì                  |
+| iOS         | No                   | Sì                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Tipi di dispositivi supportati per tipo di stazione hardware
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS per Windows con una stazione hardware IPC (integrata)

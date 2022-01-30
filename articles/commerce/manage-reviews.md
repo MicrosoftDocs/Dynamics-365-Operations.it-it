@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dce22b77862c41bc702f46735da8ce1100bb5e7d
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473306"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968229"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gestire valutazioni e revisioni
 
@@ -127,6 +127,14 @@ Per visualizzare le tendenze di valutazioni e recensioni in Creazione di siti We
 [Configurare valutazioni e recensioni](configure-ratings-reviews.md)
 
 [Sincronizzare valutazioni sul prodotto in Dynamics 365 Retail](sync-product-ratings.md)
+
+[Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore](manual-publish-rating-reviews.md)
+
+[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
+
+[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
+
+[Recensioni e valutazioni - Domande frequenti](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

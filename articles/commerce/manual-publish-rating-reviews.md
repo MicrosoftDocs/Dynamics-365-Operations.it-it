@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675051"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968205"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore
 
@@ -68,3 +68,17 @@ L'illustrazione seguente mostra un esempio in cui tre valutazioni e recensioni n
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica valutazioni e revisioni](ratings-reviews-overview.md)
+
+[Consentire utilizzo di valutazioni e sulle revisioni](opt-in-ratings-reviews.md)
+
+[Gestire valutazioni e revisioni](manage-reviews.md)
+
+[Configurare valutazioni e recensioni](configure-ratings-reviews.md)
+
+[Sincronizzare valutazioni sul prodotto](sync-product-ratings.md)
+
+[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
+
+[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
+
+[Recensioni e valutazioni - Domande frequenti](ratings-reviews-faq.md)

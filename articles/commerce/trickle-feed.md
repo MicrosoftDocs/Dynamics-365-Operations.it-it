@@ -2,7 +2,7 @@
 title: Creazione di ordini basata su inserimento continuo per le transazioni punto vendita al dettaglio
 description: In questo argomento viene descritta la creazione di ordini basata su inserimento continuo per le transazioni punto vendita in Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921247"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964631"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Creazione di ordini basata su inserimento continuo per le transazioni punto vendita al dettaglio
 
 [!include [banner](includes/banner.md)]
 
-In Microsoft Dynamics 365 Commerce versione 10.0.5 e successive, si consiglia di eseguire la transizione di tutti i processi di registrazione dei rendiconti ai processi di registrazione dei rendiconti basata su inserimento continuo. L'uso della funzionalità basata su inserimento continuo è associato a prestazioni elevate e vantaggi aziendali. Le transazioni di vendita vengono elaborate durante l'intera giornata. L'elaborazione delle transazioni di gestione cassa e metodi di pagamento viene eseguita sul rendiconto finanziario a fine giornata. La funzionalità basata su inserimento continuo consente l'elaborazione continua di ordini cliente, fatture e pagamenti. Inventario, ricavi e pagamenti possono pertanto essere aggiornati e riconosciuti quasi in tempo reale.
+In Microsoft Dynamics 365 Commerce versione 10.0.5 e successive, si consiglia di eseguire la transizione di tutti i processi di registrazione dei rendiconti ai processi di registrazione dei rendiconti basata su inserimento continuo. L'uso della funzionalità basata su inserimento continuo è associato a prestazioni elevate e vantaggi aziendali. Le transazioni di vendita vengono elaborate durante l'intera giornata. L'elaborazione delle transazioni di gestione cassa e metodi di pagamento viene eseguita sul rendiconto finanziario a fine giornata. La funzionalità basata su inserimento continuo consente l'elaborazione continua di ordini cliente, fatture e pagamenti. Inventario, ricavi e pagamenti possono vengono aggiornati e riconosciuti quasi in tempo reale.
 
 ## <a name="use-trickle-feed-based-posting"></a>Usare la registrazione basata su inserimento continuo
 
@@ -47,6 +47,10 @@ Programmare una frequenza di esecuzione elevata per i processi:
 ### <a name="financial-statements"></a>Rendiconti finanziari
 
 Il processo di elaborazione dei rendiconti finanziari deve essere eseguito a fine giornata. L'elaborazione di questo tipo di rendiconto supporta solo il metodo di chiusura **Turno** e rileverà esclusivamente i turni chiusi. I rendiconti sono limitati alla riconciliazione finanziaria. Verranno creati solo i giornali di registrazione per gli importi di differenza tra l'importo conteggiato e l'importo della transazione dei metodi di pagamento e i giornali di registrazione per altre transazioni di gestione di cassa.
+
+I rendiconti finanziari consentono inoltre di esaminare le transazioni di riepilogo incassi, pagamento, metodo di pagamento bancario e pagamento in cassaforte. La pagina dei dettagli di pagamento è visibile solo quando viene selezionato un rendiconto finanziario.
+
+![Immagine che mostra la sezione dei dettagli di pagamento del modulo dei rendiconti registrati solo quando viene selezionato un rendiconto finanziario.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Programmare l'ora di inizio e di fine dei seguenti processi di rendiconto finanziario in base alla fine giornata prevista:
 

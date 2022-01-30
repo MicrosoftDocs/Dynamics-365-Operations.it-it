@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e86294b8b467367d954013764a029f7b20270b95
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860669"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013836"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Abilitare Power BI per contabilità inventario globale
 
@@ -51,8 +51,9 @@ Seguire questi passaggi per configurare Power BI.
 
     1. Vai a **Area di lavoro personale**, trova il set di dati per Contabilità inventario globale, quindi, sul menu **Opzioni** seleziona **Impostazioni**.
     1. In **Impostazioni per Contabilità inventario globale**, espandi **Parametri** e aggiorna tutti i parametri come richiesto. In particolare, assicurati di controllare le seguenti impostazioni:
-        1. Sovrascrivi i valori predefiniti **URL Dataverse** e **ID ambiente** utilizzando i valori trovati nella pagina **Dettagli ambiente** in LCS (nella sezione **Integrazione di Power Platform**).
-        1. Seleziona il collegamento **Modifica credenziali** accanto all'etichetta **CD** nella sezione **Credenziali dell'origine dati**. Quindi accedi al tuo account Dataverse utilizzando il metodo di autenticazione **OAuth2**.
+        1. Sovrascrivi i valori predefiniti **URL Dataverse** usando i valori trovati in **Informazioni sull'ambiente Power Platform** in LCS (nella sezione **Integrazione di Power Platform**).
+        1. Sovrascrivi i valori predefiniti **ID ambiente** utilizzando i valori trovati in **Dettagli ambiente** in LCS (nella sezione **Gestione ambiente**).
+        1. Seleziona il collegamento **Modifica credenziali** accanto all'etichetta **CDS** nella sezione **Credenziali dell'origine dati**. Quindi accedi al tuo account Dataverse utilizzando il metodo di autenticazione **OAuth2**.
     1. Verificare che i report Power BI trovati in **Area di lavoro personale \> Report \> Contabilità inventario globale** ora funzionano correttamente e visualizzano il contenuto dal tuo sistema.
 
 1. Registra l'applicazione come descritto in [Configurare l'integrazione di PowerBI.com](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).

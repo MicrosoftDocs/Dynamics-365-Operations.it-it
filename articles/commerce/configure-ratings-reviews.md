@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473551"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968104"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configurare valutazioni e revisioni
 
@@ -87,9 +87,17 @@ Per informazioni sulla configurazione dei moduli di valutazione e recensione nel
 
 [Gestire valutazioni e revisioni](manage-reviews.md)
 
-[Configurare i moduli di valutazione e recensione nelle pagine dei dettagli del prodotto](ratings-reviews-modules.md)
-
 [Sincronizzare valutazioni sul prodotto in Dynamics 365 Retail](sync-product-ratings.md)
+
+[Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore](manual-publish-rating-reviews.md)
+
+[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
+
+[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
+
+[Recensioni e valutazioni - Domande frequenti](ratings-reviews-faq.md)
+
+[Moduli Valutazioni e recensioni](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

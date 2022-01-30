@@ -1,8 +1,8 @@
 ---
 title: Immettere manualmente i dati del candidato e della domanda di lavoro
 description: Questa procedura illustra come gestire manualmente informazioni sui candidati e sulla relativa domanda di lavoro.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,52 +13,61 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52805c56ed5be13c9e940cf887ece55487060539c0cae97ae5a1bcecd491fbcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712511"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964708"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Immettere manualmente i dati del candidato e della domanda di lavoro
 
 [!include [banner](../../includes/banner.md)]
 
-Questa procedura illustra come gestire manualmente informazioni sui candidati e sulla relativa domanda di lavoro.   È possibile immettere e gestire informazioni personali, date e ore del colloquio, referenze, competenze e richieste di facilitazione per i candidati. È inoltre possibile aggiornare lo stato delle domande di lavoro dei candidati e creare lettere o messaggi di posta elettronica per comunicare con i candidati. Quando si crea un record candidato, viene creato un record per il candidato nella Rubrica globale.       La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
-
+Questa procedura illustra come gestire manualmente informazioni sui candidati e sulla relativa domanda di lavoro. È possibile immettere e gestire informazioni personali, date e ore del colloquio, referenze, competenze e richieste di facilitazione per i candidati. È inoltre possibile aggiornare lo stato delle domande di lavoro dei candidati e creare lettere o messaggi di posta elettronica per comunicare con i candidati. Quando si crea un record candidato, viene creato un record per il candidato nella Rubrica globale. La società di dati dimostrativi **USMF** è stata utilizzata per creare questa procedura.
 
 ## <a name="create-a-new-applicant-record"></a>Creare un nuovo record della domanda di lavoro
-1. Andare a Risorse umane > Selezione del personale > Candidati > Candidati.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Nome.
-4. Digitare un valore nel campo Cognome.
-    * È possibile immettere informazioni aggiuntive del candidato se sono disponibili. Ad esempio, le informazioni possono includere il titolo di studio più alto del candidato, la posizione corrente o il datore di lavoro precedente.  
-5. Attivare/disattivare l'espansione della sezione Informazioni di contatto.
-6. Scegliere Aggiungi.
-7. Nel campo Descrizione digitare "Posta elettronica per le comunicazioni".
-8. Selezionare un'opzione nel campo Tipo.
-9. Digitare un valore nel campo Numero/indirizzo contatto.
-    * Questo indirizzo di posta elettronica verrà utilizzato per generare comunicazioni con il candidato.  
-10. Scegliere Aggiungi.
-11. Nel campo Descrizione digitare un valore.
-12. Digitare un valore nel campo Numero/indirizzo contatto.
-    * Informazioni personali del candidato.  
-    * È possibile immettere le informazioni personali aggiuntive per il candidato, se necessario, ad esempio data di nascita, origine etnica, sesso o stato civile.  
-13. Nel riquadro azioni fare clic su Competenze.
-    * È possibile immettere il profilo di competenza del candidato, incluse competenze, esperienze professionali, formazione, test o certificati.  
-    * Queste informazioni possono essere utilizzate per eseguire il mapping delle competenze del candidato alle competenze associate alle mansioni definite nei dati della società.   
+
+1. Vai a **Risorse umane \> Selezione del personale \> Candidati \> Candidati**.
+2. Selezionare **Nuovo**.
+3. Immetti un valore nel campo **Nome**.
+4. Nel campo **Cognome** immetti un valore.
+
+    È possibile immettere informazioni aggiuntive del candidato se sono disponibili. Ad esempio, le informazioni possono includere il titolo di studio più alto del candidato, la posizione corrente o il datore di lavoro precedente.
+
+5. Espandere la sezione **Informazioni sul contatto**.
+6. Seleziona **Aggiungi**.
+7. Nel campo **Descrizione** immetti **Posta elettronica per le comunicazioni**.
+8. Selezionare un'opzione nel campo **Tipo**.
+9. Immetti un valore nel campo **Numero/indirizzo contatto**.
+
+    Questo indirizzo di posta elettronica verrà utilizzato per generare comunicazioni con il candidato.
+
+10. Seleziona **Aggiungi**.
+11. Nel campo **Descrizione** immettere un valore.
+12. Immetti un valore nel campo **Numero/indirizzo contatto**.
+
+    Utilizza questo campo per inserire ulteriori informazioni personali sul candidato, secondo le necessità. Ad esempio le informazioni possono includere la data di nascita, l'origine etnica, il sesso o lo stato civile del candidato.
+
+13. Nel riquadro azioni, seleziona **Competenze**.
+
+    È possibile immettere il profilo di competenza del candidato, incluse competenze, esperienze professionali, formazione, test o certificati. Queste informazioni possono essere utilizzate per eseguire il mapping delle competenze del candidato alle competenze associate alle mansioni definite nei dati della società.
 
 ## <a name="create-an-application-for-the-applicant"></a>Creare una domanda di lavoro per il candidato
-1. Fare clic su Domande di lavoro
-2. Fare clic su Nuovo.
-3. Nel campo Progetto di selezione fare clic sul pulsante a discesa per aprire la ricerca.
-    * Selezionando un progetto di selezione, il candidato verrà associato a una posizione aperta specifica associata al progetto di selezione.  
+
+1. Seleziona **Candidature**.
+2. Selezionare **Nuovo**.
+3. Nel campo **Progetto di selezione** seleziona la freccia a discesa per aprire la ricerca.
+
+    Selezionando un progetto di selezione, garantisci che il candidato venga associato a una posizione aperta specifica inclusa nel progetto di selezione.
+
 4. Nell'elenco trovare e selezionare il record desiderato.
 5. Nell'elenco fare clic sul collegamento nella riga selezionata.
-    * Per impostazione predefinita, la mansione e il reparto sono basati sul progetto di selezione scelto.  
-6. Fare clic su Salva.
-    * Dopo aver salvato la domanda di lavoro, è possibile allegarvi documenti, ad esempio esperienza del candidato, premi e lettera di presentazione.  
 
+    Per impostazione predefinita, la mansione e il reparto sono basati sul progetto di selezione scelto.
 
+6. Seleziona **Salva**.
+
+    Dopo aver salvato l'applicazione, puoi allegare dei documenti. Questi documenti possono includere l'esperienza, i premi e la lettera di presentazione del candidato.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

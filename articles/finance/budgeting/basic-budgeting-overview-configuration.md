@@ -3,7 +3,7 @@ title: Panoramica di Impostazione budget
 description: Quasi tutte le società che utilizzano la funzionalità Dati finanziari in Microsoft Dynamics 365 Finance devono poter creare report di confronto tra budget e valori effettivi. In questo articolo viene descritta la configurazione minima richiesta per creare budget in Finance and Operations o per caricarli da un programma di terze parti.
 author: panolte
 ms.date: 04/29/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343658"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986512"
 ---
 # <a name="budgeting-overview"></a>Panoramica dell'impostazione budget 
 

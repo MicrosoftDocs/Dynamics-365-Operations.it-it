@@ -13,18 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 37484ce022085dfac66edba31b7adf9af4095df8
+ms.sourcegitcommit: bbe8ab054ad7cc00a63c63e02dc90bfa8ede15bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890871"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974383"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che possono essere utilizzate per migliorare la produttività degli utenti, creare viste più interessanti dei dati e ottenere informazioni dettagliate significative sui dati. In questo articolo vengono illustrate le seguenti funzionalità: 
 
@@ -85,7 +83,7 @@ Per supportare questo nuovo comportamento, una nuova colonna per lo stato della 
 Quando gli utenti inseriscono dei dati prima della posizione in cui il server sta elaborando, possono prevedere qualche degrado nell'esperienza di immissione dei dati, come la mancanza di ricerche, la convalida a livello di controllo e l'inserimento di valori predefiniti. Gli utenti che necessitano di un elenco a discesa per trovare un valore sono invitati ad attendere che il server raggiunga la riga corrente. La convalida a livello di controllo e l'inserimento dei valori predefiniti si verificheranno quando il server elabora quella riga.   
 
 ### <a name="pasting-from-excel"></a>Incollare da Excel
-Gli utenti sono sempre stati in grado di esportare i dati dalle griglie nelle app Finance and Operations in Microsoft Excel utilizzando il meccanismo **Esporta in Excel**. Tuttavia, la possibilità di inserire i dati prima del sistema, consente alla nuova griglia di supportare la copia delle tabelle da Excel e incollarle direttamente nelle griglie nelle app Finance and Operations. La cella della griglia da cui viene avviata l'operazione "incolla" determina da dove inizia l'operazione incolla della tabella copiata. Il contenuto della griglia viene sovrascritto dal contenuto della tabella copiata, tranne in due casi:
+Gli utenti sono sempre stati in grado di esportare i dati dalle griglie delle app Finance and Operations in Microsoft Excel in Excel utilizzando il meccanismo **Esporta in Excel**. Tuttavia, la possibilità di inserire i dati prima del sistema, consente alla nuova griglia di supportare la copia delle tabelle da Excel e incollarle direttamente nelle griglie nelle app Finance and Operations. La cella della griglia da cui viene avviata l'operazione "incolla" determina da dove inizia l'operazione incolla della tabella copiata. Il contenuto della griglia viene sovrascritto dal contenuto della tabella copiata, tranne in due casi:
 
 - Se il numero di colonne nella tabella copiata supera il numero di colonne che rimangono nella griglia, a partire dalla posizione incolla, l'utente viene avvisato che le colonne extra sono state ignorate. 
 - Se il numero di righe nella tabella copiata supera il numero di righe nella griglia, a partire dalla posizione incolla, le celle esistenti vengono sovrascritte dal contenuto incollato e tutte le righe aggiuntive dalla tabella copiata vengono inserite come nuove righe nella parte inferiore della griglia. 

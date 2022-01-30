@@ -3,7 +3,7 @@ title: Ordini cliente in POS
 description: In questo argomento vengono fornite informazioni sugli ordini cliente in POS. Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
 author: josaw1
 ms.date: 08/02/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755085"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982820"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in POS
 
@@ -78,8 +78,8 @@ Prima di provare a creare ordini cliente in POS, è necessario configurare i par
 - **Modalità di prelievo per consegna** - Specificare la modalità di consegna da applicare alle righe dell'ordine di vendita configurate per il ritiro in POS.
 - **Esegui modalità di consegna** - Specificare la modalità di consegna da applicare alle righe ordine di vendita che sono considerate righe ordine di esecuzione quando viene creato un carrello misto, in cui alcune righe verranno prelevate o spedite e altre righe verranno eseguite immediatamente dal cliente.
 - **Percentuale spese di annullamento** - se un addebito viene applicato quando un ordine cliente viene annullato, specificare l'importo dell'addebito.
-- **Codice spese di annullamento** - Specificare il codice spese della contabilità clienti da utilizzare quando viene applicato una spesa di annullamento agli ordini cliente annullati tramite POS. Il codice di spesa definisce la logica di registrazione finanziaria per la spesa di annullamento.
-- **Codice spese di spedizione** - Se l'opzione **Utilizza addebiti automatici avanzati** è impostata su **Sì**, questa impostazione del parametro non ha effetto. Se questa opzione è impostata su **No**, agli utenti verrà richiesto di inserire manualmente una spesa di spedizione quando creano gli ordini cliente in POS. Utilizzare questo parametro per mappare un codice di addebito della contabilità clienti che verrà applicato agli ordini quando gli utenti inseriscono una spesa di spedizione. Il codice di spesa definisce la logica di registrazione finanziaria per la spesa di spedizione.
+- **Codice di spese di annullamento** - Specificare il codice di spese della contabilità clienti da utilizzare quando viene applicato una spesa di annullamento agli ordini cliente annullati tramite POS. Il codice di spese definisce la logica di registrazione finanziaria per la spesa di annullamento.
+- **Codice di spese di spedizione** - Se l'opzione **Utilizza addebiti automatici avanzati** è impostata su **Sì**, questa impostazione del parametro non ha effetto. Se questa opzione è impostata su **No**, agli utenti verrà richiesto di inserire manualmente una spesa di spedizione quando creano gli ordini cliente in POS. Utilizzare questo parametro per mappare un codice di spese della contabilità clienti che verrà applicato agli ordini quando gli utenti inseriscono una spesa di spedizione. Il codice di spese definisce la logica di registrazione finanziaria per la spesa di spedizione.
 - **Utilizza addebiti automatici avanzati** - Impostare questa opzione su **Sì** per utilizzare gli addebiti automatici calcolati dal sistema quando gli ordini cliente vengono creati in POS. Questi addebiti automatici possono essere utilizzati per calcolare le spese di spedizione o altre spese specifiche per ordine o articolo. Per ulteriori informazioni su come impostare e usare le spese automatiche avanzate, vedere [Spese automatiche avanzate omnicanale](./omni-auto-charges.md).
 
 ![Scheda Ordini cliente nella pagina Parametri di commercio.](media/customer-order-parameters.png)

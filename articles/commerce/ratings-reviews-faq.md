@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d3642392ed2cf231f261b24428756c6e32a79f98
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c6356f7c085b93e3e3f292e72f813f823e924487
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674576"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968179"
 ---
 # <a name="ratings-and-reviews-faq"></a>Recensioni e valutazioni - Domande frequenti
 
@@ -41,5 +41,17 @@ Per istruzioni su come abilitare e applicare la pubblicazione manuale di valutaz
 [Consentire utilizzo di valutazioni e sulle revisioni](opt-in-ratings-reviews.md)
 
 [Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore](manual-publish-rating-reviews.md)
+
+[Gestire valutazioni e revisioni](manage-reviews.md)
+
+[Configurare valutazioni e recensioni](configure-ratings-reviews.md)
+
+[Sincronizzare valutazioni sul prodotto](sync-product-ratings.md)
+
+[Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore](manual-publish-rating-reviews.md)
+
+[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
+
+[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
 
 [Il perfezionatore delle valutazioni viene visualizzato nei risultati di ricerca e nelle pagine delle categorie quando la soluzione per valutazioni e recensioni non è abilitata](troubleshoot/hide-ratings-refiner.md)

@@ -3,7 +3,7 @@ title: Configurare la contabilità clienti, i crediti e le riscossioni
 description: Configurare i moduli Contabilità clienti e Crediti e riscossioni per tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti.
 author: ShivamPandey-msft
 ms.date: 08/22/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e70655c0eba94a5d4fd8dff5393a4b4838374d2f9916dde2b0fbb699120be345
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 744170988351bf2c0ecb04e419045056965398c0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724233"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983545"
 ---
 # <a name="configure-accounts-receivable-and-credit-and-collections"></a>Configurare la contabilità clienti, i crediti e le riscossioni
 
@@ -49,7 +49,7 @@ Nella tabella seguente sono elencate le pagine che supportano la configurazione 
 | Configurazione dei giornali di registrazione della contabilità clienti             | Nomi giornale di registrazione                        | Consente di creare e gestire modelli di giornale di registrazione, inclusa la gestione delle restrizioni di registrazione per utenti o gruppi utenti selezionati.                                                                                                                                                 |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
 | Configurazione delle fatture cliente                        | Codici di fatturazione                        | Consente di impostare codici facoltativi per la fatturazione delle spese da utilizzare nelle righe di fattura a testo libero.                                                                                                                                                                                                      |
-|                                                      | Codice spese                         | Consente di impostare i codici relativi alle spese da utilizzare negli ordini cliente e fornitore, ad esempio le spese di fatturazione, trasporto e assicurazione.                                                                                                                                                            |
+|                                                      | Codice di spese                         | Consente di impostare i codici relativi alle spese da utilizzare negli ordini cliente e fornitore, ad esempio le spese di fatturazione, trasporto e assicurazione.                                                                                                                                                            |
 |                                                      | Testo piè di pagina                          | Consente di specificare il testo del piè di pagina per un record di Gestione stampa in più lingue. Al momento della stampa, la lingua del testo del piè di pagina verrà determinata in base a quella del documento.                                                                                                   |
 |                                                      | Note moduli                           | Consente di modificare il testo standard visualizzato nelle diverse pagine utilizzate dall'organizzazione, quali fatture, ordini cliente e note d'interesse.                                                                                                                                         |
 |                                                      | Impostazione moduli                           | Consente di definire i parametri relativi alle note delle pagine per le offerte, le conferme, le distinte di prelievo, i documenti di trasporto, le fatture cliente, le fatture a testo libero e le note d'interesse.                                                                                                                               |

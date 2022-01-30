@@ -2,23 +2,22 @@
 title: Panoramica della gestione delle modifiche di progettazione (video)
 description: Questo argomento fornisce una panoramica della gestione delle modifiche di progettazione, che consente di pianificare e gestire il controllo delle versioni del prodotto e gestire i cicli di vita del prodotto e le modifiche di progettazione.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952600"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985214"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -39,9 +38,9 @@ La gestione delle modifiche di progettazione consente di pianificare e gestire i
 - Richieste di modifiche di progettazione supportate dai flussi di lavoro
 - Ordini di modifiche di progettazione supportati dai flussi di lavoro
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Il video precedente ([Cambia capacità di gestione in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) è incluso nella[playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+Il video precedente ([Cambia capacità di gestione in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Attivare le funzionalità di gestione delle modifiche di progettazione per il sistema
 
@@ -71,7 +70,9 @@ Successivamente, attivare le chiavi di configurazione procedendo come segue.
 
 1. Per usare anche la dimensione versione, selezionare la casella di controllo **Dimensione prodotto - Versione**. (Questa casella di controllo è più in basso nell'elenco, non nidificata sotto il nodo **Gestione delle modifiche di progettazione**.)
 1. Disattivare la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Esegui una sincronizzazione del database per assicurarti che le chiavi di configurazione siano abilitate correttamente.
+1. Il database deve essere sincronizzato per assicurarti che le chiavi di configurazione siano abilitate correttamente. Esegui una delle seguenti operazioni, a seconda del tipo di ambiente su cui stai lavorando:
+    - **Per ambienti di livello 1 (sviluppo)**: Apri il tuo progetto in Microsoft Visual Studio e quindi seleziona **Dynamics 365 \> Sincronizza database \> Sincronizza**.
+    - **Per ambienti di livello 2 (e superiori)**: il database si sincronizza automaticamente dopo che l'ambiente è entrato e uscito dalla modalità di manutenzione, quindi puoi saltare questo passaggio.
 
 > [!IMPORTANT]
 > A partire da aprile 2022, le chiavi di licenza per **Gestione delle modifiche di progettazione** e **Dimensione prodotto - Versione** saranno abilitate per impostazione predefinita per tutte le nuove installazioni, ma potrai comunque disabilitarle se necessario.

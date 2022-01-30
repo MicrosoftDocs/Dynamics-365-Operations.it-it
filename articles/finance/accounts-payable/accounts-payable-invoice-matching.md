@@ -3,7 +3,7 @@ title: Panoramica dell'abbinamento fatture della contabilità fornitori
 description: Il processo di abbinamento fatture Contabilità fornitori consente di abbinare le informazioni relative a fatture fornitore, ordini fornitore ed entrate prodotti.
 author: sunfzam
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: befc9b9ef3dcd5545ff3f252a706cab546165cb0
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: a7ffcd731b127b9a51551d4fe966dcfd69a34e54
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595067"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984079"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Panoramica dell'abbinamento fatture della contabilità fornitori
 
@@ -165,12 +165,12 @@ Gli stessi importi riga vengono confrontati nella pagina dei dettagli abbinament
 Criteri di abbinamento a tre vie controllati per la persona giuridica dal campo Criteri di abbinamento riga della pagina Parametri contabilità fornitori. A seconda della selezione effettuata nel campo Consenti di ignorare i criteri di abbinamento, nella pagina Criteri di abbinamento è possibile selezionare l'abbinamento a tre elementi di verifica per un fornitore, un articolo o una combinazione di articolo e fornitore specifici. Nella pagina Ordine acquisto è possibile selezionare l'abbinamento a due elementi di verifica per un ordine fornitore specifico.
 
 ## <a name="charges-matching"></a>Abbinamento spese
-È possibile utilizzare l'abbinamento spese per assicurarsi gli importi spese non si discostino dagli importi previsti oltre una percentuale accettabile. Gli importi totali relativi a ogni codice spesa che si applica alla fattura e all'ordine fornitore vengono confrontati nella pagina Confronta valori spese - Fattura, come illustrato nella tabella riportata di seguito. Se la tolleranza consentita per il codice spese è pari al 25%, la percentuale di scostamento 99.999.999.999,99% per il codice spese Licenza viene considerata una discrepanza di abbinamento.
+È possibile utilizzare l'abbinamento spese per assicurarsi gli importi spese non si discostino dagli importi previsti oltre una percentuale accettabile. Gli importi totali relativi a ogni codice di spese che si applica alla fattura e all'ordine fornitore vengono confrontati nella pagina Confronta valori spese - Fattura, come illustrato nella tabella riportata di seguito. Se la tolleranza consentita per il codice di spese è pari al 25%, la percentuale di scostamento 99.999.999.999,99% per il codice di spese Licenza viene considerata una discrepanza di abbinamento.
 
 > [!NOTE] 
 > Una percentuale di scostamento pari al 99.999.999.999,99% indica che l'importo previsto basato sull'ordine fornitore è pari a zero e l'importo effettivo della fattura corrisponde a un valore positivo. 
 
-| Stato di abbinamento spese | Codice spese fattura | Valore calcolato totale effettivo | Valore calcolato totale previsto | Importo scostamento | Percentuale di scostamento | Percentuale di tolleranza |
+| Stato di abbinamento spese | Codice di spese fattura | Valore calcolato totale effettivo | Valore calcolato totale previsto | Importo scostamento | Percentuale di scostamento | Percentuale di tolleranza |
 |----------------------|----------------------|-------------------------------|---------------------------------|-----------------|---------------------|----------------------|
 | Non riuscita               | Licenza              | 25                            | 0                               | 25              | 99.999.999.999,99%  | 25%                  |
 | Superata               | Spese di trasporto              | 200                           | 200                             | 0               | 0%                  | 25%                  |
@@ -179,7 +179,7 @@ Criteri di abbinamento a tre vie controllati per la persona giuridica dal campo 
 L'abbinamento spese è controllato per la persona giuridica da Abbina spese nella pagina dei parametri di contabilità fornitori. È possibile impostare le percentuali di tolleranza scostamento nella pagina Tolleranze spese.
 
 > [!NOTE]
-> L'abbinamento spese viene eseguito solo sui codici spese per il quale l'ordine fornitore di confrontare e il cambio di stato operative di valori di fattura è selezionato nella pagina di codice spese.
+> L'abbinamento spese viene eseguito solo sui codici di spese per il quale l'ordine fornitore di confrontare e il cambio di stato operative di valori di fattura è selezionato nella pagina di codice di spese.
 
 ## <a name="related-functionality"></a>Funzionalità correlate
 Anziché sugli ordini fornitore, spesso le fatture fornitore si basano sulle entrate prodotti che rappresentano le spedizioni effettive. Talvolta, gli importi fatturati non corrispondono agli importi degli ordini fornitori e in alcuni casi le quantità spedite non corrispondono alle quantità fatturate. È possibile semplificare la gestione di queste informazioni nei modi indicati di seguito.

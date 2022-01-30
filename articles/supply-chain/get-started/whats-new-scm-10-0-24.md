@@ -1,5 +1,5 @@
 ---
-title: Anteprima di Dynamics 365 Supply Chain Management 10.0.24 (febbraio 2022)
+title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.24 (febbraio 2022)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.24.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920550"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986305"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.24 (febbraio 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.24 (febbraio 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della versione 10.0.24. di Microsoft Dynamics 365 Supply Chain Management. Questa versione ha il numero di build 10.0.1084 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione 10.0.24. Questa versione ha il numero di build 10.0.1084 ed è disponibile come segue:
 
 - **Versione di anteprima:** Dicembre 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** gennaio 2022
@@ -69,9 +68,9 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per app Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.24 delle app Finance and Operations (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.24 delle app Finance and Operations (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 

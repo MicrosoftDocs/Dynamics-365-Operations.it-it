@@ -3,7 +3,7 @@ title: Panoramica delle sequenze numeriche
 description: Le sequenze numeriche vengono utilizzate per generare identificatori univoci leggibili per record transazioni e dati master che richiedono identificatori.
 author: SunilGarg
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d65eb3824cfa158e6b382ee7bae2c86aab9396b
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 48e395cc3e3ccd0f93ab9523add455ef16f612ba
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778331"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985683"
 ---
 # <a name="number-sequences-overview"></a>Panoramica delle sequenze numeriche
 

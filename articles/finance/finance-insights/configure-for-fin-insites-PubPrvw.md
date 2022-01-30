@@ -1,6 +1,6 @@
 ---
-title: Configurazione di Finance Insights per l'anteprima pubblica (anteprima) - Versione 10.0.20 e successive
-description: Questo argomento spiega come configurare il sistema per utilizzare le funzionalità disponibili in Finance Insights per l'anteprima pubblica nella versione 10.0.20 e successive.
+title: Configurazione per Finance Insights - versione 10.0.20 e successive
+description: Questo argomento spiega come configurare il sistema per utilizzare le funzionalità disponibili in Finance Insights nella versione 10.0.20 e successive.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927406"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968964"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configurazione di Finance Insights per l'anteprima pubblica (anteprima) - Versione 10.0.20 e successive
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configurazione per Finance Insights - versione 10.0.20 e successive
 
 [!include [banner](../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finance Insights combina le funzionalità di Microsoft Dynamics 365 Finance con Dataverse, Azure e AI Builder per fornire potenti strumenti di previsione per la tua organizzazione. Questo argomento spiega come configurare Dynamics 365 Finance version 10.0.20 in modo che il sistema possa usare le funzionalità disponibili in Finance Insights per l'anteprima pubblica.
+Finance Insights combina le funzionalità di Microsoft Dynamics 365 Finance con Dataverse, Azure e AI Builder per fornire potenti strumenti di previsione per la tua organizzazione. Questo argomento spiega come configurare Dynamics 365 Finance versione 10.0.20 in modo che il sistema possa usare le funzionalità disponibili in Finance Insights.
 
 > [!NOTE]
 > I passaggi di configurazione descritti in questo argomento si applicano solo a Finance versione 10.0.20 e successive. 'Per impostare Finance Insight sulla versione 10.0.19 e precedenti, vedi [Configurazione per Finance Insights - Versioni fino a 10.0.19](configure-for-fin-insites.md).
@@ -38,7 +38,7 @@ Finance Insights combina le funzionalità di Microsoft Dynamics 365 Finance con 
 
 Attieniti a questa procedura per distribuire gli ambienti.
 
-1. In Microsoft Dynamics Lifecycle Services (LCS), crea o aggiorna un ambiente Finance. L'ambiente richiede la versione dell'app 10.0.20 o successiva delle app Finance and Operations.
+1. In Microsoft Dynamics Lifecycle Services (LCS), crea o aggiorna un ambiente Finance. L'ambiente richiede l'app versione 10.0.20 o successive delle app Finance and Operations.
 2. L'ambiente deve essere un ambiente ad alta disponibilità (HA) in Sandbox. (Questo tipo di ambiente è noto anche come ambiente Tier-2). Per altre informazioni, vedi [Pianificazione ambientale](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Se stai configurando Finance Insights in un ambiente sandbox, potresti dover copiare i dati di produzione in tale ambiente affinché le stime funzionino. Il modello di stima utilizza più anni di dati per creare previsioni. I dati della demo di Contoso non contengono dati storici sufficienti per addestrare adeguatamente il modello di stima. 
 
@@ -90,7 +90,7 @@ Attieniti alla seguente procedura per usare lo script Windows PowerShell per con
 2. Seleziona **Gestisci \> Applicazioni aziendali**.
 3. Cerca le seguenti applicazioni per ID app.
 
-    | Domanda di lavoro                              | ID app                               |
+    | Applicazione                              | ID app                               |
     |------------------------------------------|--------------------------------------|
     | Microservizi ERP Microsoft Dynamics     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
     | CDS microservizi ERP Microsoft Dynamics | 703e2651-d3fc-48f5-942c-74274233dba8 |
@@ -126,7 +126,7 @@ Se non riesci a trovare nessuna delle applicazioni precedenti, prova i seguenti 
         - **Prestazioni**: è compatibile selezionare **Standard**.
         - **Tipo di account**: devi selezionare **StorageV2**.
 
-    3. Nella finestra di dialogo **Opzioni avanzate**, per l'opzione **Data Lake Storage Gen2**, seleziona **Abilita** nella funzionalità **Spazi dei nomi gerarchici**. Se non abiliti questa funzionalità, non puoi utilizzare i dati che le app Finance and Operations scrivono utilizzando servizi come i flussi di dati di Power BI.
+    3. Nella finestra di dialogo **Opzioni avanzate**, per l'opzione **Data Lake Storage Gen2**, seleziona **Abilita** nella funzionalità **Spazi dei nomi gerarchici**. Se non abiliti questa funzionalità, non puoi utilizzare i dati che le app Finance and Operations scrivono usando i servizi come i flussi di dati di Power BI.
     4. Seleziona **Rivedi e crea**. Al termine della distribuzione, la nuova risorsa verrà visualizzata nel portale di Azure.
     5. Vai all'account di archiviazione che hai creato.
     6. Nel menu a sinistra, seleziona **Chiavi di accesso**.
@@ -752,6 +752,6 @@ L'installazione del componente aggiuntivo potrebbe richiedere diversi minuti.
 
 ## <a name="feedback-and-support"></a>Feedback e supporto
 
-Se vuoi fornire un feedback o hai bisogno di supporto, invia un'e-mail a [Finance Insights (anteprima)](mailto:fiap@microsoft.com).
+Se vuoi fornire un feedback o hai bisogno di supporto, invia un'e-mail a [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
