@@ -1,6 +1,6 @@
 ---
-title: Documentazione per l'applicazione Finance and Operations
-description: Documentazione per le app Finance and Operations.
+title: Documentazione delle applicazioni Finance and Operations
+description: Documentazione per le applicazioni Finance and Operations.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782134"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075399"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentazione per l'applicazione Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Documentazione delle applicazioni Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Informazioni su come utilizzare le applicazioni Finance and Operations nell'azienda con le risorse indicate in questo argomento per individuare contenuti efficaci per utenti finali, sviluppatori e professionisti IT. 
+Informazioni su come sfruttare le applicazioni Finance and Operations nell'azienda, utilizzando le risorse indicate in questo argomento per individuare contenuti efficaci per utenti finali, sviluppatori e professionisti IT. 
 
 La maggior parte di questo contenuto si applica anche ai prodotti correlati Dynamics 365 Commerce e Dynamics 365 Human Resources. 
 
@@ -80,16 +80,18 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Settore pubblico</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Funzionalità relative alle normative locali</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
+<h3><a href="hr/hr-landing-page.md">Risorse umane</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Dipendente self-service</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Gestione del personale</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Congedo e assenza</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Benefit</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Sviluppo e formazione dei dipendenti</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Questionari</a></p>
-<p><a href="hr/manage-recruiting-process.md">Selezione del personale</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Retribuzioni negli Stati Uniti</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Sviluppo del dipendente</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Apprendimento</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">Retribuzioni negli Stati Uniti</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Supply Chain Management</a></h3>
+<h3><a href="../../supply-chain/index.md">Gestione Supply Chain</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Gestione costi</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Gestione inventario</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Pianificazione generale</a></p>
@@ -131,11 +133,6 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 <p><a href="../../commerce/define-maintain-retail-channels.md">Impostazione e gestione del canale</p>
 <p><a href="../../commerce/retail-peripherals-overview.md">MPOS e Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Sviluppo e amministrazione di commercio</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Guida per gli amministratori</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Guida per gli sviluppatori</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Manuale dell'utente</a></p>
 
 
 </td>

@@ -2,7 +2,7 @@
 title: Convalidare le transazioni punto vendita per il calcolo dei rendiconti
 description: In questo argomento vengono descritte le funzionalità per la convalida delle transazioni punto vendita in Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/15/2021
+ms.date: 01/31/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924773"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087451"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Convalidare le transazioni punto vendita per il calcolo dei rendiconti
 
@@ -51,7 +51,7 @@ Il processo batch **Convalida transazioni punto vendita** controlla la coerenza 
 
 Nella tabella seguente sono elencate le regole di convalida delle intestazioni delle transazioni che vengono verificate a fronte dell'intestazione delle transazioni di vendita al dettaglio prima che tali transazioni vengano passate alla registrazione dei rendiconti.
 
-| Titolo | Descrizione |
+| Regola | Descrizione |
 |-------|-------------|
 | Data attività | Questa regola verifica che la data attività della transazione sia associata a un periodo fiscale aperto in contabilità generale. |
 | Arrotondamento valuta | Questa regola verifica che gli importi delle transazioni vengano arrotondati in base alla regola di arrotondamento valuta. |
@@ -72,7 +72,7 @@ Nella tabella seguente sono elencate le regole di convalida delle intestazioni d
 
 Nella tabella seguente sono elencate le regole di convalida delle righe di transazione che vengono verificate a fronte delle transazioni di vendita al dettaglio prima che tali transazioni vengano passate alla registrazione dei rendiconti.
 
-| Titolo | Descrizione |
+| Regola | Descrizione |
 |-------|-------------|
 | Codice a barre | Questa regola verifica che tutti i codici a barre degli articoli usati nelle righe di transazione siano presenti nel database. |
 | Righe addebiti | Questa regola verifica che la somma dell'importo calcolato e dell'importo esente da imposta delle righe addebiti corrisponda all'importo calcolato originale. |

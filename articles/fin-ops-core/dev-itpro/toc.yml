@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update versione 10.0.25 (aprile 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: Aggiornamento piattaforma per la versione 10.0.24 (febbraio 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: Aggiornamento piattaforma per la versione 10.0.23 (gennaio 2022)
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Disinstallare un pacchetto
                   href: deployment/uninstall-deployable-package.md
+                - name: Eseguire script X++ personalizzati senza tempi di inattività
+                  href: deployment/run-custom-scripts.md
                 - name: Risolvere i problemi relativi alle applicazioni del pacchetto
                   href: deployment/deployable-package-troubleshooting.md
             - name: Distribuire la Guida personalizzata
@@ -854,6 +858,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: Filtro SysTest tramite attributi di classe e metodo
                   href: perf-test/systest-filtering.md
+                - name: Attributo SysTestRow per testare più valori
+                  href: perf-test/systest-row.md
                 - name: Libreria ATL
                   items:
                     - name: Risorse libreria ATL

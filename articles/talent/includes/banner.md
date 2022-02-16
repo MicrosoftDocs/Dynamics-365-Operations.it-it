@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b88ccbbb55e4c08c3a8e6cd415f8701d5ff1e9361dc8675eef23f35d76acd528
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e235ba4ef2412c50101bc69f467836dd9a9d11e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735754"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061961"
 ---
 > [!IMPORTANT]
-> Le app Dynamics 365 Talent: Attract e Onboard vengono ritirate. Ulteriori informazioni sul [ritiro delle app Dynamics 365 Talent: Attract e Onboard](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps).
+> Le app Dynamics 365 Talent: Attract e Onboard vengono ritirate a partire dal 1° febbraio 2022. Ulteriori informazioni sul [ritiro delle app Dynamics 365 Talent: Attract e Onboard](../../human-resources/hr-talent-retire.md).
