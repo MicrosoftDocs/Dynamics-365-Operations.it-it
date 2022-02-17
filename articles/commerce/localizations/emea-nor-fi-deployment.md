@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c7e64dbfe6a300c097b5b3711ac4310f3386df11
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944742"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077142"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Linee guida per la distribuzione dei registratori di cassa per la Norvegia
 
@@ -29,7 +29,7 @@ Questo argomento fornisce indicazioni su come abilitare la funzionalità del reg
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>Configurare la registrazione fiscale per la Norvegia
 
-L'esempio di registrazione fiscale per la Norvegia si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e fa parte di Retail SDK. L'esempio si trova nella cartella **src\\FiscalIntegration\\SequentialSignatureNorway** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ad esempio, [l'esempio in release/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). L'esempio [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) di un provider di documenti fiscali e di un connettore fiscale, che sono estensioni di Commerce Runtime (CRT). Per ulteriori informazioni su come utilizzare Retail SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurare una pipeline di compilazione per SDK a pacchetti indipendenti](../dev-itpro/build-pipeline.md).
+L'esempio di registrazione fiscale per la Norvegia si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e fa parte di Retail SDK. L'esempio si trova nella cartella **src\\FiscalIntegration\\SequentialSignatureNorway** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ad esempio, [l'esempio in release/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). L'esempio [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) di un provider di documenti fiscali e di un connettore fiscale, che sono estensioni di Commerce Runtime (CRT). Per ulteriori informazioni su come utilizzare Retail SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurare una pipeline di compilazione per SDK a pacchetti indipendenti](../dev-itpro/build-pipeline.md).
 
 Completa la procedura di configurazione della registrazione fiscale come descritto in [Impostare l'integrazione fiscale per canali di Commerce](./setting-up-fiscal-integration-for-retail-channel.md):
 

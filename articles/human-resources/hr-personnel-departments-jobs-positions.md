@@ -2,7 +2,7 @@
 title: Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
 description: Questo argomento include informazioni di concetto su reparti, mansioni e posizioni sono elementi organizzativi che vengono gestiti in Risorse umane.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731810"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071465"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -48,32 +51,18 @@ Un reparto è un'unità operativa che rappresenta una categoria o un'area funzio
 
 ## <a name="jobs-and-positions"></a>Mansioni e posizioni
 Una mansione è una raccolta di attività e responsabilità proprie della persona assegnata alla mansione. Una posizione è una singola istanza di un processo. Le aree di responsabilità, le attività associate alla mansione, le funzioni lavorative, le competenze, le informazioni di formazione e i certificati necessari per una mansione vengono inoltre richiesti per le posizioni associate a una mansione.
+
 ### <a name="job-tasks"></a>Mansioni di lavoro
+
 È possibile creare attività per una mansione che descrivono le attività di base che un lavoratore in una posizione per tale mansione deve completare. La stessa attività associata a una mansione può essere aggiunta a più mansioni e le posizioni di tali mansioni erediteranno tali attività. Esempi di attività di mansioni sono elencati nella seguente tabella.
 
-<table>
-<thead>
-<tr class="header">
-<th>Processo</th>
-<th>Mansione di lavoro</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Manager vendite</td>
-<td><ul>
-<li><span class="input">Verifica-prestazioni</span>: verificare le prestazioni di ciascun venditore.</li>
-<li><span class="input">Verifica-assenze</span>: approvare o rifiutare le richieste o le registrazioni di assenza di ciascun venditore.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Ragioniere</td>
-<td><span class="input">Report-finanziario</span>: presentare report finanziari settimanali al responsabile finanziario.</td>
-</tr>
-</tbody>
-</table>
+| Processo           | Mansione di lavoro                                                |
+|---------------|-------------------------------------------------------------|
+| Manager vendite | Verifica-prestazioni: verificare le prestazioni di ciascun venditore.    |
+| Contabile    | Verifica-assenze: approvare o rifiutare le richieste o le registrazioni di assenza di ciascun venditore. |
 
-### <a name="job-functions"></a>Funzioni lavorative
+
+### <a name="job-functions"></a>Funzioni di lavoro
 
 Le funzioni lavorative sono simili alle attività associate alle mansioni. Una funzione lavorativa descrive una o più attività, compiti o responsabilità assegnati a una mansione. Le funzioni lavorative possono essere assegnate alle mansioni e utilizzate per impostare e implementare le regole di idoneità per i piani di retribuzione. Esempi di funzioni di mansioni sono elencati nella seguente tabella.
 

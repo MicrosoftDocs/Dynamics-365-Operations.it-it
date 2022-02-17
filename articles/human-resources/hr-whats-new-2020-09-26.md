@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a01e172f5c62b746f4733e03d25ea43f0247790003ea1a1470bc28e98db12deb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741407"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061386"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 26 settembre 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -39,7 +39,7 @@ Questa versione include le seguenti nuove funzionalità e correzioni di bug. Le 
 
 La seguente funzione è generalmente disponibile con questa versione:
 
-- **L'aggiornamento della piattaforma 10.0.13 è ora disponibile**: Per ulteriori informazioni sull'aggiornamento, vedere [Aggiornamenti della piattaforma per la versione 10.0.13 delle app Finance and Operations (ottobre 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+- **L'aggiornamento della piattaforma 10.0.13 è ora disponibile**: Per ulteriori informazioni sull'aggiornamento, vedere [Aggiornamenti della piattaforma per la versione 10.0.13 delle app per finanza e operazioni (ottobre 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52740246f745272f238ec3dcf8e53f7310e4b24271da4a5d6388a1b9c4706521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774851"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074969"
 ---
 # <a name="safety-margins"></a>Margini di sicurezza
 
@@ -61,9 +61,6 @@ Tenere presente che un margine su entrata non viene applicato quando le scorte d
 
 ### <a name="reorder-margin"></a>Margine di riordino
 
-> [!NOTE]
-> **Presto disponibile:** questa funzione non è ancora supportata per Planning Optimization. Fino ad allora, tutti i valori immessi per **Margine di riordino aggiunto al lead time dell'articolo** saranno trattati come *0* (zero).
-
 La figura seguente evidenzia il margine di riordino.
 
 ![Margine di riordino.](media/safety-margins-3.png)
@@ -71,9 +68,6 @@ La figura seguente evidenzia il margine di riordino.
 Il margine di riordino viene aggiunto prima del lead time dell'articolo per tutti gli ordini pianificati durante la pianificazione generale. Pertanto, garantisce tempo aggiuntivo per l'invio di un ordine di fornitura. Questo margine viene generalmente utilizzato come buffer per garantire il tempo ai processi di approvazione o altri processi interni richiesti durante la creazione degli ordini di fornitura. Il margine di riordino viene inserito tra la *data dell'ordine* di fornitura e la *data di inizio*.
 
 ### <a name="issue-margin"></a>Margine su uscita
-
-> [!NOTE]
-> **Presto disponibile:** questa funzione non è ancora supportata per Planning Optimization. Fino ad allora, tutti i valori immessi per **Margine su uscita da magazzino detratto dalla data del fabbisogno** saranno trattati come *0* (zero).
 
 La figura seguente evidenzia il margine su uscita.
 

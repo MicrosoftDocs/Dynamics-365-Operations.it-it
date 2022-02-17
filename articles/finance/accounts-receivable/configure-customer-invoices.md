@@ -1,26 +1,26 @@
 ---
 title: Creare una fattura cliente
-description: Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente.
+description: Una fattura cliente per un ordine cliente è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente.
 author: ShivamPandey-msft
-ms.date: 01/12/2018
+ms.date: 02/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723873"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087425"
 ---
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
@@ -30,7 +30,7 @@ Una **fattura cliente per un ordine cliente** è una fattura correlata a una ven
 
 Una **fattura a testo libero** non è correlata a un ordine cliente. Contiene righe ordine che includono conti CoGe, descrizioni a testo libero e un importo di vendita immesso manualmente. Non è possibile immettere un numero articolo in questo tipo di fattura. È necessario immettere le informazioni sull'IVA appropriate. In ogni riga fattura viene indicato il conto principale per la vendita, che può essere distribuito in più conti CoGe facendo clic su **Distribuisci importi** nella **fattura a testo libero**. Il saldo cliente, inoltre, viene registrato nel conto riepilogativo dal profilo di registrazione utilizzato per la fattura a testo libero.
 
-Per ulteriori informazioni, vedere: 
+Per ulteriori informazioni, vedere:
 
 [Crea fatture a testo libero](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -42,6 +42,23 @@ Per ulteriori informazioni, vedere:
 
 
 Una **fattura proforma** è una fattura preparata come stima degli importi effettivi prima della registrazione della fattura vera e propria. È possibile stampare una fattura proforma sia per una fattura cliente basata su un ordine cliente che per una fattura a testo libero.
+
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Utilizzo delle entità dei dati della fattura cliente dell'ordine cliente
+È possibile utilizzare le entità dati per importare ed esportare informazioni su una fattura cliente per un ordine cliente. Esistono diverse entità per le informazioni sull'intestazione della fattura di vendita e le righe della fattura di vendita.
+
+Le seguenti entità sono disponibili per le informazioni sull'intestazione della fattura di vendita:
+
+- Entità **Intestazione giornale di registrazione fattura di vendita** (SalesInvoiceJournalHeaderEntity)
+- Entità **Intestazioni fattura di vendita V2** (SalesInvoiceHeaderV2Entity)
+
+È consigliabile utilizzare l'entità **Intestazione giornale di registrazione fattura di vendita**, perché fornisce un'esperienza più efficace per l'importazione e l'esportazione di intestazioni di vendita. Questa entità non contiene la colonna **Importo IVA** (INVOICEHEADERTAXAMOUNT), che rappresenta il valore dell'IVA nell'intestazione della fattura di vendita. Se il tuo scenario aziendale richiede tali informazioni, utilizza l'entità **Intestazioni fattura di vendita V2** per importare ed esportare le informazioni sull'intestazione della fattura di vendita.
+
+Le seguenti entità sono disponibili per le informazioni sulle righe della fattura di vendita:
+
+- Entità **Righe fattura cliente** (BusinessDocumentSalesInvoiceLineItemEntity)
+- Entità **Righe fattura di vendita V3** (SalesInvoiceLineV3Entity)
+
+Quando si determina quale entità di riga utilizzare per le esportazioni, prendi in considerazione se verrà utilizzato un push completo o un push incrementale. Inoltre, considera la composizione dei dati. L'entità **Righe fattura di vendita V3** supporta scenari più complessi (ad esempio, mapping ai campi dell'inventario). Supporta anche scenari di esportazione full-push. Per push incrementali, è consigliabile utilizzare l'entità **Righe fattura cliente**. Questa entità contiene una composizione dei dati molto più semplice rispetto all'entità **Righe fattura di vendita V3** ed è preferito, soprattutto se l'integrazione del campo inventario non è richiesta. A causa delle differenze nel supporto del mapping tra le entità di riga, l'entità **Righe fattura cliente** in genere ha prestazioni più veloci rispetto all'entità **Righe fattura di vendita V3**.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Registrare e stampare le singole fatture cliente basate sugli ordini cliente
 Utilizzare questa procedura per creare una fattura basata su un ordine cliente. È possibile effettuare questa operazione se si decide di fatturare al cliente prima di consegnare le merci o servizi. 

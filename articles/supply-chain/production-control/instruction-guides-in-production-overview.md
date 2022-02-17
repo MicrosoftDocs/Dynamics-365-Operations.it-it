@@ -18,17 +18,17 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576906"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062954"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fornire guide alla realtà mista per i lavoratori nei reparti di produzione
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 I lavoratori nei processi di produzione beneficeranno di istruzioni pertinenti fornite al momento giusto nel contesto del loro lavoro. Le *istruzioni* si applicano in diversi settori di lavoro, tra cui assembly, servizio, operazioni, certificazione e sicurezza. In tutte queste funzioni aziendali principali, le istruzioni di formazione continua possono aiutare i lavoratori a ottenere di più e lavorare meglio.
 

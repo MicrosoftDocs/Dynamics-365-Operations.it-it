@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777623"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022976"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaborazione fornitore con i clienti
 
@@ -78,7 +78,7 @@ Se si utilizza l'inventario spedizione, è possibile utilizzare l'interfaccia di
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Utilizzo di richieste di offerta nell'area di lavoro Offerta fornitore
 
-L'area di lavoro **Offerta fornitore** consente di visualizzare le richieste di offerta (RdO) a cui la società è stata invitata a rispondere. È inoltre possibile rispondere alle richieste di offerta. 
+L'area di lavoro **Offerta fornitore** consente di visualizzare le richieste di offerta (RdO) a cui la società è stata invitata a rispondere. È inoltre possibile rispondere alle richieste di offerta.
 
 L'area di lavoro mostra inoltre tutte le richieste di offerta vinte o perse. Inoltre, se il sistema è configurato per il settore pubblico, l'area di lavoro mostra le richieste di offerta pubblicamente disponibili.
 
@@ -100,9 +100,17 @@ Le persone che lavorano nel settore pubblico possono visualizzare le richieste d
 
 - Selezionare il collegamento **Richieste di offerta pubblicate aperte** per visualizzare un elenco delle richieste di offerta aperte che sono state rese disponibili al pubblico. Una RdO aperta è una RdO non ancora scaduta. È possibile trovare la data e l'ora di scadenza nell'intestazione della RdO.
 
-    Se si è stati invitati a fornire un'offerta, è possibile individuare la stessa RdO nella pagina **Nuovi inviti di offerta**. In alcuni casi, potrebbe essere necessario fare un'offerta per una RdO aperta, ma non si è stati invitati all'offerta. In questo caso, potrebbe essere possibile invitare se stessi, a condizione che il cliente abbia abilitato l'invito automatico per il caso RdO.
+    Se si è stati invitati a fornire un'offerta, è possibile individuare la stessa RdO nella pagina **Nuovi inviti di offerta**. In alcuni casi, potrebbe essere necessario fare un'offerta per una RdO aperta, ma non si è stati invitati all'offerta. In questo caso, potrebbe essere possibile invitare se stessi, a condizione che il cliente abbia abilitato l'invito automatico per il caso RdO. 
 
-    Migliora l'accessibilità del collegamento **Apri richieste di offerta pubblicate** attivando la funzionalità **Visualizza il collegamento "Apri richieste di offerta pubblicate" come riquadro**. Questa funzione converte il collegamento in un riquadro e lo sposta in una posizione prominente, in modo che sia facile da trovare. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
+    La pagina **Nuovi inviti di offerta** può fornire un filtro che consente di visualizzare le richieste di offerta aperte e identificare quelle che contengono righe che corrispondono alle categorie di approvvigionamento approvate. Per rendere disponibile questo filtro, devi attivare la funzionalità *Consenti ai fornitori di cercare le richieste di offerta per categoria di approvvigionamento* nel tuo sistema. Gli amministratori possono utilizzare l'area di lavoro **Gestione funzionalità** per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+
+    - **Modulo:** *Contabilità fornitori*
+    - **Nome funzionalità:** *consenti ai fornitori di cercare le richieste di offerta per categoria di approvvigionamento* <!-- KFM: I don't see this here, is this right? -->
+
+    Puoi migliorare l'accessibilità del collegamento **Apri richieste di offerta pubblicate** attivando la funzionalità *Visualizza il collegamento "Apri richieste di offerta pubblicate" come riquadro*. Questa funzione converte il collegamento in un riquadro e lo sposta in una posizione prominente, in modo che sia facile da trovare. Gli amministratori possono utilizzare l'area di lavoro **Gestione funzionalità** per controllare lo stato della funzionalità e attivarla se necessario. (A partire da Supply Chain Management versione 10.0.21, la funzionalità è attivata per impostazione predefinita.) In questo punto, la funzionalità è elencata nel modo seguente:
+
+    - **Modulo:** *Attività di approvvigionamento*
+    - **Nome funzionalità:** *Visualizza il collegamento Richieste di offerta pubblicate aperte come riquadro*
 
 - Selezionare il collegamento **Richieste di offerta pubblicate chiuse** per visualizzare un elenco delle richieste di offerta chiuse che sono state rese disponibili al pubblico. La RdO chiusa una RdO scaduta. È possibile trovare la data e l'ora di scadenza nell'intestazione della RdO.
 

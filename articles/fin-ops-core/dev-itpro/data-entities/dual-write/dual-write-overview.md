@@ -1,6 +1,6 @@
 ---
 title: Panoramica della doppia scrittura
-description: Questo argomento illustra una panoramica sulla doppia scrittura che fornisce interazione quasi in tempo reale tra le app di coinvolgimento del cliente e le app Finance and Operations.
+description: Questo argomento illustra una panoramica sulla doppia scrittura che fornisce interazione quasi in tempo reale tra le app di coinvolgimento del cliente e le app per finanza e operazioni.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
@@ -9,26 +9,26 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e71d1496da24b21949259e8f43a32cd4ff60249c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f39322a0c2ef50ef2bbeb256c80096e0687c4642
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984143"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061336"
 ---
 # <a name="dual-write-overview"></a>Panoramica della doppia scrittura
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 
 ## <a name="what-is-dual-write"></a>Che cos'è la doppia scrittura?
 
-La doppia scrittura è un'infrastruttura predefinita che fornisce interazione quasi in tempo reale tra le app di coinvolgimento del cliente e le app Finance and Operations. Quando i dati su clienti, prodotti, persone e operazioni scorrono oltre i confini delle applicazioni, tutti i reparti di un'organizzazione sono potenziati.
+La doppia scrittura è un'infrastruttura predefinita che fornisce interazione quasi in tempo reale tra le app di coinvolgimento del cliente e le app per finanza e operazioni. Quando i dati su clienti, prodotti, persone e operazioni scorrono oltre i confini delle applicazioni, tutti i reparti di un'organizzazione sono potenziati.
 
-La doppia scrittura fornisce un'integrazione bidirezionale strettamente connessa tra le app Finance and Operations e Dataverse. Qualsiasi modifica dei dati nelle app Finance and Operations causa scritture in Dataverse e qualsiasi modifica dei dati in in Dataverse causa scritture nelle app Finance and Operations. Questo flusso di dati automatizzato offre un'esperienza utente integrata tra le app.
+La doppia scrittura fornisce un'integrazione bidirezionale strettamente connessa tra le app per finanza e operazioni e Dataverse. Qualsiasi modifica dei dati nelle app per finanza e operazioni causa scritture in Dataverse e qualsiasi modifica dei dati in in Dataverse causa scritture nelle app per finanza e operazioni. Questo flusso di dati automatizzato offre un'esperienza utente integrata tra le app.
 
 ![Rapporto dei dati tra le app.](media/dual-write-overview.jpg)
 
@@ -51,7 +51,7 @@ L'infrastruttura a doppia scrittura è estensibile e affidabile e include le seg
 
 ### <a name="application"></a>Applicazione
 
-La doppia scrittura crea una mappatura tra i concetti nelle app Finance and Operations e concetti nelle app di coinvolgimento del cliente. Questa integrazione supporta i seguenti scenari:
+La doppia scrittura crea una mappatura tra i concetti nelle app per finanza e operazioni e concetti nelle app di coinvolgimento del cliente. Questa integrazione supporta i seguenti scenari:
 
 + Dati master clienti integrati
 + Accesso alle carte fedeltà dei clienti e ai punti premio
@@ -80,15 +80,15 @@ La doppia scrittura fornisce l'integrazione dei dati tra le applicazioni Microso
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Cosa significa la doppia scrittura per sviluppatori e architetti di app di coinvolgimento del cliente?
 
-La doppia scrittura automatizza il flusso di dati tra le app Finance and Operations e di coinvolgimento del cliente. La doppia scrittura è composta da due soluzioni AppSource installate su Dataverse. Le soluzioni espandono lo schema delle tabelle, i plug-in e i flussi di lavoro in Dataverse in modo che possano scalare alla dimensione ERP. Per un'implementazione corretta, gli sviluppatori e gli architetti delle app di coinvolgimento del cliente devono comprendere questi cambiamenti e collaborare con le loro controparti delle app Finance and Operations.
+La doppia scrittura automatizza il flusso di dati tra le app per finanza e operazioni e di coinvolgimento del cliente. La doppia scrittura è composta da due soluzioni AppSource installate su Dataverse. Le soluzioni espandono lo schema delle tabelle, i plug-in e i flussi di lavoro in Dataverse in modo che possano scalare alla dimensione ERP. Per un'implementazione corretta, gli sviluppatori e gli architetti delle app di coinvolgimento del cliente devono comprendere questi cambiamenti e collaborare con le loro controparti delle app per finanza e operazioni.
 
-Per creare parità con le applicazioni Finance and Operations, la doppia scrittura apporta alcune modifiche cruciali nello schema Dataverse. Se si comprende il piano, è possibile evitare alcune modifiche di progettazione e sviluppo in futuro.
+Per creare parità con le applicazioni Finanza e operazioni, la doppia scrittura apporta alcune modifiche cruciali nello schema Dataverse. Se si comprende il piano, è possibile evitare alcune modifiche di progettazione e sviluppo in futuro.
 
-+ Quando il il pacchetto AppSource di doppia scrittura è installato, Dataverse avrà nuovi concetti come società e parte. Questi concetti aiutano le applicazioni basate su Dataverse, inclusi Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service e Dynamics 365 Field Service, a interagire perfettamente con le app Finance and Operations.
++ Quando il il pacchetto AppSource di doppia scrittura è installato, Dataverse avrà nuovi concetti come società e parte. Questi concetti aiutano le applicazioni basate su Dataverse, inclusi Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service e Dynamics 365 Field Service, a interagire perfettamente con le app per finanza e operazioni.
 
 + Le attività e le note sono unificate e ampliate per supportare sia i C1 (utenti del sistema) che i C2 (clienti del sistema).
 
-+ Per evitare la perdita di dati durante la trasmissione di valuta tra le app Finance and Operations e Dataverse, è possibile estendere il numero di cifre decimali nel tipo di dati di valuta delle app di coinvolgimento del cliente. La funzione converte automaticamente le righe esistenti nel nuovo stato esteso a livello dei metadati. Durante questo processo, il valore della valuta viene convertito in dati decimali anziché in dati monetari e il valore della valuta supporta 10 cifre decimali. Questa funzione richiede il consenso esplicito e le organizzazioni che non richiedono più di 4 cifre decimali di precisione non hanno bisogno di aderire. Per ulteriori informazioni, vedere [Migrazione del tipo di dati valuta per la doppia scrittura](currrency-decimal-places.md).
++ Per evitare la perdita di dati durante la trasmissione di valuta tra le app per finanza e operazioni e Dataverse, è possibile estendere il numero di cifre decimali nel tipo di dati di valuta delle app di coinvolgimento del cliente. La funzione converte automaticamente le righe esistenti nel nuovo stato esteso a livello dei metadati. Durante questo processo, il valore della valuta viene convertito in dati decimali anziché in dati monetari e il valore della valuta supporta 10 cifre decimali. Questa funzione richiede il consenso esplicito e le organizzazioni che non richiedono più di 4 cifre decimali di precisione non hanno bisogno di aderire. Per ulteriori informazioni, vedere [Migrazione del tipo di dati valuta per la doppia scrittura](currrency-decimal-places.md).
 
 + [Validità della data](../../dev-tools/date-effectivity.md) sarà aggiunta a Dataverse. Supporterà i dati passati, presenti e futuri nella stessa tabella.
 

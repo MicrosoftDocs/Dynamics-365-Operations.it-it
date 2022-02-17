@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345301"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068846"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> Il carico di lavoro di esecuzione della produzione è attualmente disponibile in anteprima.
+> [!IMPORTANT]
+> Il carico di lavoro di esecuzione della produzione è attualmente disponibile solo in anteprima.
+>
 > Alcune funzionalità aziendali non sono completamente supportate nell'anteprima pubblica quando vengono utilizzate le unità di scala del carico di lavoro.
+>
+> Non puoi eseguire il carico di lavoro di esecuzione del magazzino in anteprima su un'unità di scala in cui è installato anche il carico di lavoro di esecuzione del magazzino.
 
 Nell'esecuzione della produzione, le unità di scala offrono le seguenti funzionalità:
 
@@ -128,6 +131,22 @@ Nella versione corrente, le operazioni Dichiarato di finito e stoccato (per prod
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Abilitare e utilizzare l'operazione di avvio su un'unità di scala
+
+Nella versione corrente, l'operazione di avvio per la produzione e gli ordini in batch è supportata dal [carico di lavoro di esecuzione del magazzino](cloud-edge-workload-warehousing.md) (non il carico di lavoro di esecuzione della produzione). Pertanto, per utilizzare questa funzionalità quando sei connesso a un'unità di scala, devi completare queste attività:
+
+- Installa sia il carico di lavoro di esecuzione del magazzino che il carico di lavoro di esecuzione della produzione sull'unità di scala.
+- Abilita la funzionalità *Iniziare l'ordine di produzione nel carico di lavoro di gestione del magazzino per l'unità cloud e di scala edge* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Utilizza l'app per dispositivi mobili Warehouse Management per avviare la produzione o l'ordine batch.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Abilitare e utilizzare il consumo di materiale su un'unità di scala
+
+Nella versione corrente, il flusso nell'app per dispositivi mobili Warehouse Management per la registrazione del consumo di materiale è supportato dal [carico di lavoro di esecuzione del magazzino](cloud-edge-workload-warehousing.md) (non il carico di lavoro dell'esecuzione della produzione). Pertanto, per utilizzare questa funzionalità quando sei connesso a un'unità di scala, devi completare queste attività:
+
+- Installa sia il carico di lavoro di esecuzione del magazzino che il carico di lavoro di esecuzione della produzione sull'unità di scala.
+- Abilita la funzionalità *Registra il consumo materiali nell'app per dispositivi mobili in un'unità di scala* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Utilizza l'app per dispositivi mobili Warehouse Management per registrare il consumo di materiale.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

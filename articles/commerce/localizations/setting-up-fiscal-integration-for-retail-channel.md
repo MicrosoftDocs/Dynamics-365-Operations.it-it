@@ -1,31 +1,43 @@
 ---
 title: Impostare l'integrazione fiscale per canali di commercio
 description: In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio.
-author: josaw
-ms.date: 08/10/2021
+author: EvgenyPopovMBS
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
-audience: Application User
-ms.reviewer: josaw
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: epopov
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 38ad2cc3dc7e511ac6e2ac9484d10ebd2d1d425d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: fd37934e1ebd103d66c5181e0bfb75047f4cb6a3
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343315"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076965"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Impostare l'integrazione fiscale per canali di commercio
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio. Per ulteriori informazioni sull'integrazione fiscale, vedere [Panoramica dell'integrazione fiscale per i canali di commercio](fiscal-integration-for-retail-channel.md).
+
+## <a name="set-up-commerce-parameters"></a>Configurare parametri di commercio
+
+1. Nella pagina **Parametri condivisi di commercio**, nella scheda **Generale**, impostare l'opzione **Abilita integrazione fiscale** su **Sì**.
+1. Nella scheda **Sequenze numeriche**, definire le sequenze numeriche per i seguenti riferimenti:
+
+    - Numero del profilo tecnico fiscale
+    - Numero del gruppo di connettori fiscali
+    - Numero del processo di registrazione
+
+1. Nella pagina **Parametri di commercio** definire la sequenza numerica per il numero di profilo funzionale fiscale.
+
+    > [!NOTE]
+    > Le sequenze numeriche sono facoltative. I numeri per tutte le entità di integrazione fiscale possono essere generati a partire da sequenze numeriche o manualmente.
+
+## <a name="set-up-a-fiscal-registration-process"></a>Configurare un processo di registrazione fiscale
 
 Il processo di impostazione dell'integrazione fiscale include le seguenti attività:
 
@@ -35,116 +47,147 @@ Il processo di impostazione dell'integrazione fiscale include le seguenti attivi
 - Assegnare il processo di registrazione fiscale ai profili funzionalità POS.
 - Assegnare profili tecnici di connettore a profili hardware.
 
-## <a name="set-up-a-fiscal-registration-process"></a>Configurare un processo di registrazione fiscale
+### <a name="upload-configurations-of-fiscal-document-providers"></a>Caricare le configurazioni di fornitori di documenti fiscali
 
-Prima di utilizzare la funzionalità di integrazione fiscale, è necessario configurare le impostazioni descritte di seguito.
+Un fornitore di documenti fiscali è responsabile della generazione di documenti fiscali che rappresentano eventi e transazioni registrati nel POS in un formato utilizzato anche per l'interazione con un dispositivo o servizio fiscale. Ad esempio, un fornitore di documenti fiscali potrebbe generare una rappresentazione di una ricevuta fiscale in un formato XML.
 
-1. Aggiornare parametri di commercio.
+Per caricare le configurazioni di fornitori di documenti fiscali segui questi passaggi.
 
-    1. Nella pagina **Parametri condivisi di commercio**, nella scheda **Generale**, impostare l'opzione **Abilita integrazione fiscale** su **Sì**. Nella scheda **Sequenze numeriche**, definire le sequenze numeriche per i seguenti riferimenti:
+1. In Commerce headquarters, vai alla pagina **Provider di documenti fiscali** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Provider di documenti fiscali**).
+1. Carica una configurazione XML per ogni dispositivo o servizio che intendi utilizzare.
 
-        - Numero del profilo tecnico fiscale
-        - Numero del gruppo di connettori fiscali
-        - Numero del processo di registrazione
+> [!TIP]
+> Se si seleziona **Visualizza**, è possibile visualizzare tutti i profili funzionali relativi al fornitore di documenti fiscali corrente.
 
-    1. Nella pagina **Parametri di commercio** definire la sequenza numerica per il numero di profilo funzionale fiscale.
+> [!NOTE]
+> Il mapping dei dati viene considerato parte di un fornitore di documenti fiscali. Per impostare mapping di dati differenti per lo stesso connettore (ad esempio le normative specifiche di stato), è necessario creare diversi fornitori di documenti fiscali.
 
-    > [!NOTE]
-    > Le sequenze numeriche sono facoltative. I numeri per tutte le entità di integrazione fiscale possono essere generati a partire da sequenze numeriche o manualmente.
+### <a name="upload-configurations-of-fiscal-connectors"></a>Caricare le configurazioni dei connettori fiscali
 
-1. Caricare le configurazioni di connettori fiscali e di fornitori di documenti fiscali.
+Un connettore fiscale è responsabile della comunicazione con un dispositivo o servizio fiscale. Ad esempio, un connettore fiscale potrebbe inviare una ricevuta fiscale che un fornitore di documenti fiscali ha creato in un formato XML per una stampante fiscale. Per ulteriori informazioni sui componenti di integrazione fiscale, vedere [Processo di registrazione fiscale ed esempi di integrazione fiscale per dispositivi fiscali e servizi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-    Un fornitore di documenti fiscali è responsabile della generazione di documenti fiscali che rappresentano eventi e transazioni registrati nel POS in un formato utilizzato anche per l'interazione con un dispositivo o servizio fiscale. Ad esempio, un fornitore di documenti fiscali potrebbe generare una rappresentazione di una ricevuta fiscale in un formato XML.
+Per caricare le configurazioni di connettori fiscali segui questi passaggi.
 
-    Un connettore fiscale è responsabile della comunicazione con un dispositivo o servizio fiscale. Ad esempio, un connettore fiscale potrebbe inviare una ricevuta fiscale che un fornitore di documenti fiscali ha creato in un formato XML per una stampante fiscale. Per ulteriori informazioni sui componenti di integrazione fiscale, vedere [Processo di registrazione fiscale ed esempi di integrazione fiscale per dispositivi fiscali](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+1. In Commerce headquarters, vai alla pagina **Connettori fiscali** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Connettori fiscali**).
+1. Carica una configurazione XML per ogni dispositivo o servizio che intendi utilizzare per scopi di integrazione fiscale.
 
-    1. Nella pagina **Connettori fiscali** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Connettori fiscali**), caricare una configurazione XML per ogni dispositivo o servizio che si prevede di utilizzare per scopi di integrazione fiscale.
+> [!TIP]
+> Se si seleziona **Visualizza**, è possibile visualizzare tutti i profili funzionali e tecnici relativi al connettore fiscale corrente.
 
-        > [!TIP]
-        > Se si seleziona **Visualizza**, è possibile visualizzare tutti i profili funzionali e tecnici relativi al connettore fiscale corrente.
+Per esempi di configurazioni di connettori fiscali e fornitori di documenti fiscali, vedi [Esempi di integrazione fiscale nell'SDK Commerce](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-commerce-sdk).
 
-    1. Nella pagina **Fornitori di documenti fiscali** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Fornitori di documenti fiscali**), caricare una configurazione XML per ogni dispositivo o servizio che si prevede di utilizzare.
+### <a name="create-connector-functional-profiles"></a>Creare profili funzionali del connettore
 
-        > [!TIP]
-        > Se si seleziona **Visualizza**, è possibile visualizzare tutti i profili funzionali relativi al fornitore di documenti fiscali corrente.
+Per creare profili funzionali del connettore, completa i passaggi seguenti.
 
-    Per esempi di configurazioni di connettori fiscali e fornitori di documenti fiscali, vedi [Esempi di integrazione fiscale nell'SDK Commerce](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-commerce-sdk).
+1. In Commerce headquarters, vai alla pagina **Profili funzionali del connettore** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili funzionali del connettore**).
+1. Per ogni combinazione di connettore fiscale e di provider di documenti fiscali correlata a questo connettore fiscale, crea un profilo funzionale di connettore seguendo questi passaggi.
 
-    > [!NOTE]
-    > Il mapping dei dati viene considerato parte di un fornitore di documenti fiscali. Per impostare mapping di dati differenti per lo stesso connettore (ad esempio le normative specifiche di stato), è necessario creare diversi fornitori di documenti fiscali.
+    1. Selezionare un nome di connettore.
+    1. Selezionare un fornitore di documenti.
 
-1. Creare profili funzionali e tecnici di connettore.
+#### <a name="change-data-mapping-parameters-in-a-connector-functional-profile"></a>Modificare i parametri di mapping dei dati in un profilo funzionale di connettore
 
-    1. Nella pagina **Profili funzionali del connettore** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili funzionali del connettore**), creare un profilo funzionale di connettore per ogni combinazione di connettore fiscale e di fornitore di documenti fiscali relativo a quel connettore fiscale.
+È possibile modificare i parametri di mapping dei dati in un profilo funzionale di connettore. La tabella seguente fornisce alcuni esempi di parametri di mapping dei dati in un profilo funzionale del connettore.
 
-        1. Selezionare un nome di connettore.
-        1. Selezionare un fornitore di documenti.
+| Parametro | Formattazione | Esempio |
+|-----------|--------|---------|
+| Impostazioni aliquote IVA | value : VATrate | 1 : 2000, 2 : 1800 |
+| Mapping codici IVA | VATcode : value | vat20 : 1, vat18 : 2 |
+| Mapping tipi di metodo di pagamento | TenderType : value | Cash : 1, Card : 2 |
 
-        È possibile modificare i parametri di mapping dei dati in un profilo funzionale di connettore. Per ripristinare i parametri predefiniti definiti in una configurazione di fornitore di documenti fiscali, selezionare **Aggiorna**.
+Per ripristinare i parametri predefiniti definiti in una configurazione di fornitore di documenti fiscali, seleziona **Aggiorna** nella pagina **Profili funzionali del connettore**.
 
-        **Esempi**
+> [!NOTE]
+> I profili funzionali di connettore sono specifici della società. Se si prevede di utilizzare la stessa combinazione di connettore fiscale e di fornitore di documenti fiscali per differenti società, è necessario creare un profilo funzionale di connettore per ogni società.
 
-        | Parametro  | Formattazione | Esempio |
-        |---|--------|---------|
-        | **Impostazioni aliquote IVA** | value : VATrate | 1 : 2000, 2 : 1800 |
-        | **Mapping codici IVA** | VATcode : value | vat20 : 1, vat18 : 2 |
-        | **Mapping tipi di metodo di pagamento** | TenderType : value | Cash : 1, Card : 2 |
+### <a name="create-connector-technical-profiles"></a>Creare profili tecnici del connettore
 
-        > [!NOTE]
-        > I profili funzionali di connettore sono specifici della società. Se si prevede di utilizzare la stessa combinazione di connettore fiscale e di fornitore di documenti fiscali in differenti società, è necessario creare un profilo funzionale di connettore per ogni società.
+Per creare profili tecnici del connettore, completa i passaggi seguenti.
 
-    1. Nella pagina **Profili tecnici del connettore** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili tecnici del connettore**) creare un profilo tecnico di connettore per ogni connettore fiscale.
+1. In Commerce headquarters, vai alla pagina **Profili tecnici connettori** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Profili tecnici connettori**).
+1. Crea un profilo tecnico del connettore per ogni connettore fiscale attenendoti alla seguente procedura:
 
-        1. Selezionare un nome di connettore.
-        1. Selezionare un tipo di connettore. Per i dispositivi collegati a una stazione hardware, selezionare **Locale**.
+    1. Selezionare un nome di connettore.
+    1. Seleziona un tipo di connettore:
 
-            > [!NOTE]
-            > Solo i connettori locali sono attualmente supportati.
+        - Per dispositivi o servizi connessi a una stazione hardware o presenti nella rete locale, seleziona **Locale**.
+        - Per i servizi esterni, seleziona **Esterno**.
+        - Per i connettori interni in Commerce Runtime (CRT), seleziona **Interno**. 
 
-        I parametri nelle schede **Dispositivo** e **Impostazioni** in un profilo tecnico di connettore possono essere modificati. Per ripristinare i parametri predefiniti definiti in una configurazione di connettore fiscale, selezionare **Aggiorna**. Durante il caricamento di una nuova versione di una configurazione XML, viene visualizzato un messaggio indicante che il connettore fiscale o il fornitore di documenti fiscali corrente è già in uso. Questa procedura non sovrascrive le modifiche manuali effettuate precedentemente in profili funzionali di connettore e profili tecnici di connettore. Per applicare il set di parametri predefinito da una nuova configurazione, nella pagina **Profili funzionali del connettore** o **Profili tecnici del connettore**, selezionare **Aggiorna**.
+    1. Seleziona una posizione del connettore:
 
-1. Creare gruppi di connettori fiscali.
+        - Se il connettore si trova sulla stazione hardware, seleziona **Stazione hardware**.
+        - Se il connettore si trova sul registro POS, seleziona **Registro**.
 
-    Un gruppo di connettori fiscali combina profili funzionali di connettori fiscali che eseguono funzioni identiche e sono utilizzati nella stessa fase di un processo di registrazione fiscale. Ad esempio, se è possibile utilizzare diversi modelli di stampante fiscale in un punto vendita, i connettori fiscali per quelle stampanti fiscali possono essere combinati in un gruppo di connettori fiscali.
+I parametri nelle schede **Dispositivo** e **Impostazioni** in un profilo tecnico di connettore possono essere modificati. Per ripristinare i parametri predefiniti definiti in una configurazione di connettore fiscale, selezionare **Aggiorna**. Durante il caricamento di una nuova versione di una configurazione XML, viene visualizzato un messaggio indicante che il connettore fiscale o il fornitore di documenti fiscali corrente è già in uso. Questa procedura non sovrascrive le modifiche manuali effettuate precedentemente in profili funzionali di connettore e profili tecnici di connettore. Per applicare il set di parametri predefinito da una nuova configurazione, nella pagina **Profili funzionali del connettore** o **Profili tecnici del connettore**, seleziona **Aggiorna**.
 
-    1. Nella pagina **Gruppo di connettori fiscali** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Gruppi di connettori fiscali**), creare un nuovo gruppo di connettori fiscali.
-    1. Aggiungere profili funzionali al gruppo di connettori. Nella scheda **Profili funzionali**, selezionare **Aggiungi** e selezionare un numero di profilo. Ogni connettore fiscale in un gruppo di connettori può avere un solo profilo funzionale.
-    1. Per sospendere l'utilizzo del profilo funzionale, impostare l'opzione **Disabilita** su **Sì**. Questa modifica viene applicata solo al gruppo di connettori corrente. È possibile continuare a utilizzare lo stesso profilo funzionale in altri gruppi di connettori.
+Se devi configurare parametri specifici per un singolo registratore o punto vendita POS, attieniti alla seguente procedura.
 
-1. Creare un processo di registrazione fiscale
+1. Seleziona la voce di menu **Sostituzione**.
+1. Nella pagina **Sostituzione**, crea un nuovo record.
+1. Seleziona un punto vendita o registratore POS. È possibile sostituire i parametri del profilo tecnico selezionato per un singolo registratore POS o tutti i registratori POS in un singolo punto vendita.
+1. Nella scheda **Dispositivo**, immetti i parametri per il registratore o punto vendita POS selezionato.
 
-    Un processo di registrazione fiscale è definito dalla sequenza dei passaggi di registrazione e dal gruppo di connettori utilizzato in ogni passaggio.
+### <a name="create-fiscal-connector-groups"></a>Creare gruppi di connettori fiscali
 
-    1. Nella pagina **Processo di registrazione fiscale** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**), creare un nuovo record per ogni processo univoco di registrazione fiscale.
-    1. Aggiungere i passaggi di registrazione al processo:
+Un gruppo di connettori fiscali combina profili funzionali di connettori fiscali che eseguono funzioni identiche e sono utilizzati nella stessa fase di un processo di registrazione fiscale. Ad esempio, se è possibile utilizzare diversi modelli di stampante fiscale in un punto vendita, i connettori fiscali per quelle stampanti fiscali possono essere combinati in un gruppo di connettori fiscali.
 
-        1. Selezionare **Aggiungi**.
-        1. Selezionare un tipo di connettore fiscale.
-        1. Nel campo **Numero gruppo**, selezionare un gruppo di connettori fiscali appropriato.
+Per creare un gruppo di connettori fiscali, completare i passaggi seguenti.
 
-1. Assegnare entità del processo di registrazione fiscale a profili POS.
+1. Vai alla pagina **Gruppo di connettori fiscali** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Gruppi di connettori fiscali**).
+1. Crea un nuovo gruppi di connettori fiscali.
+1. Aggiungere profili funzionali al gruppo di connettori. Nella scheda **Profili funzionali**, selezionare **Aggiungi** e selezionare un numero di profilo. Ogni connettore fiscale in un gruppo di connettori può avere un solo profilo funzionale.
+1. Per sospendere l'utilizzo del profilo funzionale, impostare l'opzione **Disabilita** su **Sì**. Questa modifica viene applicata solo al gruppo di connettori corrente. È possibile continuare a utilizzare lo stesso profilo funzionale in altri gruppi di connettori.
 
-    1. Nella pagina **Profili funzionalità POS** (**Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili funzionalità**), assegnare il processo di registrazione fiscale a un profilo funzionalità POS. Selezionare **Modifica**, quindi nella scheda **Processo di registrazione fiscale**, nel campo **Numero processo**, selezionare un processo.
-    1. Nella pagina **Profilo hardware POS** (**Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**), assegnare profili tecnici di connettore a un profilo hardware. Selezionare **Modifica**, aggiungere una riga nella scheda **Periferiche fiscali**, quindi nel campo **Numero profilo**, selezionare un profilo tecnico di connettore.
+### <a name="create-a-fiscal-registration-process"></a>Creare un processo di registrazione fiscale
 
-    > [!NOTE]
-    > È possibile aggiungere più profili tecnici a uno stesso profilo hardware. Tuttavia, un profilo hardware o un profilo funzionalità POS deve avere una sola intersezione con qualsiasi gruppo di connettori fiscali.
+Un processo di registrazione fiscale è definito dalla sequenza dei passaggi di registrazione e dal gruppo di connettori utilizzato in ogni passaggio.
 
-    Il flusso di registrazione fiscale viene definito dal processo di registrazione fiscale nonché da alcuni parametri dei componenti di integrazione fiscale: l'estensione di Commerce Runtime per il fornitore di documenti fiscali e l'estensione stazione hardware per il connettore fiscale.
+Per creare un processo di registrazione fiscale, attieniti alla procedura seguente.
 
-    - La sottoscrizione di eventi e transazioni alla registrazione fiscale è predefinita nel fornitore di documenti fiscali.
-    - Il fornitore di documenti fiscali è anche responsabile dell'identificazione del connettore fiscale utilizzato per la registrazione fiscale. Il fornitore abbina i profili funzionali di connettore inclusi nel gruppo di connettori fiscali specificato per il passaggio corrente del processo di registrazione fiscale al profilo tecnico di connettore assegnato al profilo hardware della stazione hardware a cui il POS è associato.
-    - Il fornitore di documenti fiscali utilizza le impostazioni di mapping dei dati nella configurazione di fornitore di documenti fiscali per trasformare i dati di eventi/transazioni come imposte e pagamenti durante la generazione di un documento fiscale.
-    - Quando il fornitore di documenti fiscali genera un documento fiscale, il connettore fiscale può inviarlo al dispositivo fiscale così com'è oppure analizzarlo e trasformarlo in una sequenza di comandi dell'API del dispositivo, a seconda di come la comunicazione viene gestita.
+1. In Commerce headquarters, vai alla pagina **Processo di registrazione fiscale** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**).
+1. Crea un nuovo record per ogni processo di registrazione fiscale univoco.
+1. Aggiungi i passaggi di registrazione al processo seguendo questi passaggi:
 
-1. Nella pagina **Processo di registrazione fiscale** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**), selezionare **Convalida** per convalidare il processo di registrazione fiscale.
+    1. Seleziona **Aggiungi**.
+    1. Selezionare un tipo di connettore fiscale.
+    1. Nel campo **Numero gruppo**, selezionare un gruppo di connettori fiscali appropriato.
 
-    Si consiglia di eseguire questo tipo di convalida nei seguenti casi:
+### <a name="assign-entities-of-the-fiscal-registration-process-to-pos-profiles"></a>Assegnare entità del processo di registrazione fiscale a profili POS
 
-    - Dopo aver completato tutte le impostazioni per un nuovo processo di registrazione, tra cui l'assegnazione di processi di registrazione a profili di funzionalità POS e a profili hardware.
-    - Dopo aver apportato modifiche a un processo di registrazione fiscale esistente e tali modifiche possono comportare la selezione di un connettore fiscale differente al runtime (ad esempio, se si modifica il gruppo di connettori per un passaggio del processo di registrazione fiscale, si abilita un profilo funzionale di connettore in un gruppo di connettori o si aggiunge un nuovo profilo funzionale di connettore a un gruppo di connettori).
-    - Dopo aver apportato modifiche all'assegnazione dei profili tecnici di connettore ai profili hardware.
+Per assegnare entità del processo di registrazione fiscale a profili POS, segui questi passaggi.
 
+1. In Commerce headquarters, vai alla pagina **Profili funzionalità POS** (**Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili funzionalità**). 
+1. Assegna il processo di registrazione fiscale a un profili funzionalità POS.
+1. Selezionare **Modifica**, quindi nella scheda **Processo di registrazione fiscale**, nel campo **Numero processo**, selezionare un processo.
+1. Vai alla pagina **Profilo hardware POS** (**Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**).
+1. Assegna profili tecnici di connettore a un profilo hardware. 
+1. Seleziona **Modifica**, quindi nella scheda **Periferiche fiscali**, aggiungi una riga. 
+1. Nel campo **Numero profilo**, seleziona un profilo tecnico del connettore.
+
+> [!NOTE]
+> È possibile aggiungere più profili tecnici a uno stesso profilo hardware. Tuttavia, un profilo hardware o un profilo funzionalità POS deve avere una sola intersezione con qualsiasi gruppo di connettori fiscali.
+
+Il flusso di registrazione fiscale viene definito dal processo di registrazione fiscale nonché da alcuni parametri dei componenti di integrazione fiscale: l'estensione di CRT per il fornitore di documenti fiscali e l'estensione stazione hardware per il connettore fiscale.
+
+- La sottoscrizione di eventi e transazioni alla registrazione fiscale è predefinita nel fornitore di documenti fiscali.
+- Il fornitore di documenti fiscali è anche responsabile dell'identificazione del connettore fiscale utilizzato per la registrazione fiscale. Il fornitore abbina i profili funzionali di connettore inclusi nel gruppo di connettori fiscali specificato per il passaggio corrente del processo di registrazione fiscale al profilo tecnico di connettore assegnato al profilo hardware della stazione hardware a cui il POS è associato.
+- Il fornitore di documenti fiscali utilizza le impostazioni di mapping dei dati nella configurazione di fornitore di documenti fiscali per trasformare i dati di eventi/transazioni come imposte e pagamenti durante la generazione di un documento fiscale.
+- Quando il fornitore di documenti fiscali genera un documento fiscale, il connettore fiscale può inviarlo al dispositivo fiscale così com'è oppure analizzarlo e trasformarlo in una sequenza di comandi dell'API del dispositivo, a seconda di come la comunicazione viene gestita.
+
+### <a name="validate-the-fiscal-registration-process"></a>Convalidare il processo di registrazione fiscale
+
+È consigliabile convalidare il processo di registrazione fiscale nei seguenti casi:
+
+- Hai completato tutte le impostazioni per un nuovo processo di registrazione. Queste impostazioni includono l'assegnazione dei processi di registrazione ai profili di funzionalità POS e ai profili hardware.
+- Hai apportato modifiche a un processo di registrazione fiscale esistente e tali modifiche potrebbero causare la selezione di un connettore fiscale diverso in fase di esecuzione. (Ad esempio, hai modificato il gruppo di connettori per una fase del processo di registrazione fiscale, hai abilitato un profilo funzionale del connettore in un gruppo di connettori o hai aggiunto un nuovo profilo funzionale del connettore a un gruppo di connettori.)
+- Hai apportato modifiche all'assegnazione dei profili tecnici di connettore ai profili hardware.
+
+Per convalidare il processo di registrazione fiscale, attieniti alla procedura seguente.
+
+1. In Commerce headquarters, vai alla pagina **Processo di registrazione fiscale** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**).
+1. Seleziona **Convalida** per convalidare il processo di registrazione fiscale.
 1. Nella pagina **Programmazione distribuzione**, eseguire i processi **1090** e **1070** per trasferire i dati ai database del canale.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Impostare testi fiscali per sconti
@@ -176,22 +219,26 @@ In alcuni casi, è necessario stampare un testo speciale su una ricevuta fiscale
 
 Le opzioni di gestione degli errori disponibili nell'integrazione fiscale sono impostate nel processo di registrazione fiscale. Per ulteriori informazioni sulla gestione degli errori nell'integrazione fiscale, vedere [Gestione errori](fiscal-integration-for-retail-channel.md#error-handling).
 
+Per impostare le impostazioni di gestione degli errori, segui questi passaggi.
+
 1. Nella pagina **Processo di registrazione fiscale** (**Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**), è possibile impostare i seguenti parametri per ogni passaggio del processo di registrazione fiscale:
 
     - **Consenti di ignorare** - Questo parametro abilita l'opzione **Ignora** nella finestra di dialogo per la gestione degli errori.
     - **Consenti di contrassegnare come registrato** - Questo parametro abilita l'opzione **Contrassegna come registrato** nella finestra di dialogo per la gestione degli errori.
+    - **Consenti posticipo** - Questo parametro abilita l'opzione **Posticipa** nella finestra di dialogo per la gestione degli errori.
     - **Continua in caso di errore** - Se questo parametro è abilitato, il processo di registrazione fiscale può continuare sul registratore di cassa POS se la registrazione fiscale di una transazione o di un evento non riesce. In caso contrario, per eseguire la registrazione della transazione o dell'evento successivo, l'operatore dovrà riprovare la registrazione fiscale non riuscita, ignorarla o contrassegnare la transazione o l'evento come registrato. Per ulteriori informazioni, vedere [Registrazione fiscale facoltativa](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
     > [!NOTE]
     > Se il parametro **Continua in caso di errore** è abilitato, i parametri **Consenti di ignorare** e **Consenti di contrassegnare come registrato** vengono disabilitati automaticamente.
 
-1. Le opzioni **Contrassegna come registrato** e **Ignora** nella finestra di dialogo per la gestione degli errori richiedono l'autorizzazione **Consenti di ignorare la registrazione o di contrassegnare come registrato**. Di conseguenza, nella pagina **Gruppi di autorizzazione** (**Retail e Commerce \> Dipendenti \> Gruppi di autorizzazioni**), abilitare l'autorizzazione **Consenti di ignorare la registrazione o di contrassegnare come registrato**.
-1. Le opzioni **Contrassegna come registrato** e **Ignora** consentono agli operatori di immettere informazioni aggiuntive quando la registrazione fiscale ha esito negativo. Per rendere questa funzionalità disponibile, è necessario specificare i codici informativi **Contrassegna come registrato** e **Ignora** in un gruppo di connettori fiscali. Le informazioni immesse dagli operatori sono salvate come transazione codice informativo collegata alla transazione fiscale. Per ulteriori informazioni sui codici informativi, vedere [Codici informativi e gruppi di codici informativi](../info-codes-retail.md).
+1. Le opzioni **Contrassegna come registrato** e **Ignora** nella finestra di dialogo per la gestione degli errori richiedono che l'autorizzazione **Consenti di ignorare la registrazione o di contrassegnare come registrato** sia abilitata. Per abilitare questa autorizzazione,. vai alla pagina **Gruppi di autorizzazione** (**Retail e Commerce \> Dipendenti \> Gruppi di autorizzazioni**) e imposta l'opzione **Consenti di ignorare la registrazione o di contrassegnare come registrato** su **Sì**.
+1. L'opzione **Posticipa** nella finestra di dialogo per la gestione degli errori richiede l'abilitazione dell'autorizzazione **Consenti posticipo**. Per abilitare l'autorizzazione,. vai alla pagina **Gruppi di autorizzazione** (**Retail e Commerce \> Dipendenti \> Gruppi di autorizzazioni**) e imposta l'opzione **Consenti posticipo** su **Sì**.
+1. Le opzioni **Ignora**, **Contrassegna come registrato** e **Posticipa** consentono agli operatori di immettere informazioni aggiuntive quando la registrazione fiscale ha esito negativo. Per rendere questa funzionalità disponibile, è necessario specificare i codici informativi **Ignora**, **Contrassegna come registrato** e **Posticipa** in un gruppo di connettori fiscali. Le informazioni immesse dagli operatori sono salvate come transazione codice informativo collegata alla transazione fiscale. Per ulteriori informazioni sui codici informativi, vedere [Codici informativi e gruppi di codici informativi](../info-codes-retail.md).
 
     > [!NOTE]
     > La funzione di attivazione **Prodotto** non è supportata per i codici informativi utilizzati per **Ignora** e **Contrassegna come registrato** nei gruppi di connettori fiscali.
 
-    - Nella pagina **Gruppo di connettori fiscali**, nella scheda **Codici informativi**, selezionare i codici informativi o i gruppi di codici informativi nei campi **Ignora** e **Contrassegna come registrato**.
+    - Nella pagina **Gruppo di connettori fiscali**, nella scheda **Codici informativi**, selezionare i codici informativi o i gruppi di codici informativi nei campi **Ignora**, **Contrassegna come registrato** e **Posticipa**.
 
     > [!NOTE]
     > Un documento fiscale e un documento non fiscale possono essere generati per qualsiasi passaggio di un processo di registrazione fiscale. Un'estensione di fornitore di documenti fiscali identifica ogni tipo di transazione o evento come correlato a documenti fiscali o non fiscali. La funzionalità di gestione degli errori è utilizzabile solo con documenti fiscali.

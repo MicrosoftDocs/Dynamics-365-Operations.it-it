@@ -1,6 +1,6 @@
 ---
 title: Contabilità generale integrata
-description: In questo argomento viene descritta l'integrazione dei dati di contabilità generale tra Finance and Operations e altre applicazioni Dynamics 365 tramite Dataverse.
+description: In questo argomento viene descritta l'integrazione dei dati di contabilità generale tra Finanza e operazioni e altre applicazioni Dynamics 365 tramite Dataverse.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e41d600464d707d01a0e319dd3cd343b04aa26b7
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782382"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063649"
 ---
 # <a name="integrated-ledger"></a>Contabilità integrata
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In un'applicazione aziendale, i dati della contabilità generale definiscono il core impostato per il modo in cui un'azienda fa affari. Ad esempio, i dati della contabilità generale descrivono l'anno fiscale dell'azienda, le valute in cui opera e i conti utilizzati. In questo argomento viene descritta l'integrazione dei dati finanziari di base.
 
@@ -28,7 +28,7 @@ In un'applicazione aziendale, i dati della contabilità generale definiscono il 
 
 I dati della contabilità generale includono una raccolta di mappe della tabella finanziarie di base che funzionano in combinazione durante l'interazione con i dati, come illustrato nella seguente tabella.
 
-App Finance and Operations | App di interazione con i clienti     | descrizione
+App Finanza e operazioni | App di interazione con i clienti     | descrizione
 ---------------------------------|----------------------------------|------------
 [Tassi di cambio CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
 [Piano dei conti](mapping-reference.md#121) | msdyn_chartofaccountses |

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 84bcf2ce850de95186c1ffee3bdd152255fc0d5c2832e47ea61918d240bcb1c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772642"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063520"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 22 ottobre 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -41,7 +41,7 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 
 | Funzionalità | Piano di rilascio | Documentazione |
 | --- | --- | --- |
-| Aggiornamento della piattaforma 10.0.14(38) | -- | [Aggiornamento della piattaforma per la versione 10.0.14 delle app Finance and Operations (novembre 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
+| Aggiornamento della piattaforma 10.0.14(38) | -- | [Aggiornamenti della piattaforma per la versione 10.0.14 delle app per finanza e operazioni (novembre 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
 | Miglioramenti all'esperienza dei flussi di lavoro dell'organizzazione e della gestione del personale | [Miglioramenti all'esperienza del flusso di lavoro dell'organizzazione e della gestione del personale](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Opzione di configurazione per posizionare l'elenco elementi di lavoro assegnati all'utente](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 

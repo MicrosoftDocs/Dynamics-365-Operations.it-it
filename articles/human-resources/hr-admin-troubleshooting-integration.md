@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413378"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071112"
 ---
 # <a name="integration-with-finance-faq"></a>Domande frequenti sull'integrazione con Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In questo argomento vengono fornite le risposte a domande comuni relative ai dati che vengono sincronizzati durante l'integrazione di Dynamics 365 Human Resources con Dynamics 365 Finance.
 
@@ -86,7 +89,7 @@ Non è necessaria alcuna impostazione speciale per la gestione delle eccezioni. 
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>È possibile configurare l'integrazione bidirezionale?
 
-No, l'integrazione è attualmente unidirezionale (da Human Resources a Finance and Operations). Tuttavia, è disponibile un modello predefinito per l'invio di dati da Human Resources a Finance.
+No, l'integrazione è attualmente unidirezionale (da Human Resources a Finanza e operazioni). Tuttavia, è disponibile un modello predefinito per l'invio di dati da Human Resources a Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Posso consentire l'eliminazione dei record nell'integrazione?
 
@@ -116,7 +119,7 @@ I motivi di questo errore possono includere:
 
 - Il trasferimento di dati ha generato l'estrazione di record duplicati all'origine (Dataverse).
 
-- Il trasferimento di dati ha valori nulli per i campi necessari in Finance and Operations. Verificare i dati in Dataverse e soddisfare i requisiti di Finance and Operations.
+- Il trasferimento di dati ha valori nulli per i campi necessari in Finanza e operazioni. Verificare i dati in Dataverse e soddisfare i requisiti di Finanza e operazioni.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Se sono presenti errori di esecuzione e l'ID dipendente non è stato sincronizzato, come è possibile trovare lo storico processi che include il record dipendente con l'errore?
 
@@ -148,7 +151,7 @@ Se l'entità è supportata e i dati sono disponibili in Dataverse, verificare ch
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Gli indirizzi dei dipendenti risultano non corretti dopo l'importazione degli stessi in Finance. Cosa fare?
 
-La sequenza numerica di **ID ubicazione** utilizza lo stesso modello sia in Human Resources, sia in Finance. La sequenza numerica deve essere univoca su entrambi i lati di modo che non vi siano conflitti durante l'integrazione di dati da Dataverse in Finance and Operations.
+La sequenza numerica di **ID ubicazione** utilizza lo stesso modello sia in Human Resources, sia in Finance. La sequenza numerica deve essere univoca su entrambi i lati di modo che non vi siano conflitti durante l'integrazione di dati da Dataverse in Finanza e operazioni.
 
 Durante l'implementazione di Human Resources, verificare che le sequenze numeriche non siano le stesse in Human Resources e in Finance. Verificare che tutte le sequenze numeriche non siano identiche quando i dati possono essere gestiti in entrambi i sistemi.
 

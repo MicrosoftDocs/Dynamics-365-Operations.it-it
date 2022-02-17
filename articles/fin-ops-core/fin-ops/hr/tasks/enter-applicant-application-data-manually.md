@@ -8,21 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964708"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075452"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Immettere manualmente i dati del candidato e della domanda di lavoro
 
-[!include [banner](../../includes/banner.md)]
+> [!IMPORTANT]
+> La funzionalità indicata in questo argomento è attualmente disponibile per i clienti di Human Resources nell'infrastruttura finanziaria.  
+
 
 Questa procedura illustra come gestire manualmente informazioni sui candidati e sulla relativa domanda di lavoro. È possibile immettere e gestire informazioni personali, date e ore del colloquio, referenze, competenze e richieste di facilitazione per i candidati. È inoltre possibile aggiornare lo stato delle domande di lavoro dei candidati e creare lettere o messaggi di posta elettronica per comunicare con i candidati. Quando si crea un record candidato, viene creato un record per il candidato nella Rubrica globale. La società di dati dimostrativi **USMF** è stata utilizzata per creare questa procedura.
 

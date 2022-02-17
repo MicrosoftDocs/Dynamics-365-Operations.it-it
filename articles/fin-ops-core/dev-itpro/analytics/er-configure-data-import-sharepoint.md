@@ -2,7 +2,7 @@
 title: Configurare l'importazione di dati da SharePoint
 description: In questo argomento viene descritto come importare i dati da Microsoft SharePoint.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675347"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074768"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurare l'importazione di dati da SharePoint
 
@@ -192,11 +192,11 @@ Per archiviare i file di report elettronici in un percorso di SharePoint, è nec
 
 ## <a name=""></a><a name="limitations">Limiti</a>
 
-Il framework ER non offre la capacità di avviare un nuovo processo batch che eseguirà un mapping del modello in modalità automatica per l'importazione dei dati. A tale scopo, è necessario sviluppare una nuova logica in modo che il mapping del modello ER configurato possa essere richiamato dall'interfaccia utente dell'applicazione (UI) per importare i dati dai file in ingresso. Pertanto, è necessario un lavoro di ingegneria. 
+Nelle versioni di Dynamics 365 Finance prima della versione 10.0.25, l'interfaccia utente del framework ER non offre la capacità di avviare un nuovo processo batch che eseguirà un mapping del modello in modalità automatica per l'importazione dei dati. È invece necessario sviluppare una nuova logica in modo che il mapping del modello ER configurato possa essere richiamato dall'interfaccia utente dell'applicazione per importare i dati dai file in ingresso. Per sviluppare questa logica, sono necessari alcune attività tecniche. 
 
-Per ulteriori informazioni sull'API ER pertinente, vedere la sezione [Codice per eseguire una mappatura del formato per l'importazione dei dati](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) nell'argomento [Modifiche all'API framework ER per l'aggiornamento dell'applicazione 7.3](er-apis-app73.md).
+Per altre informazioni sull'API ER pertinente, vedere la sezione [Codice per eseguire una mappatura del formato per l'importazione dei dati](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) nell'argomento [Modifiche all'API framework ER per l'aggiornamento dell'applicazione 7.3](er-apis-app73.md). Rivedere il codice nella `BankImport_RU` classe del modello `Application Suite` per vedere come implementare la tua logica personalizzata. La classe `BankImport_RU` estende la classe `RunBaseBatch`. In particolare, rivedi il metodo `runER()` in cui l'oggetto `ERIModelMappingDestinationRun` viene creato come l'esecutore di una mappatura del modello ER.
 
-Rivedere il codice nella `BankImport_RU` classe del modello `Application Suite` per vedere come implementare la tua logica personalizzata. Questa classe estende la calsse `RunBaseBatch`. In particolare, rivedi il metodo `runER()` in cui l'oggetto `ERIModelMappingDestinationRun` viene creato come l'esecutore di una mappatura del modello ER.
+In Finance versione 10.0.25 e successive, l'interfaccia utente del framework ER offre la capacità di avviare un nuovo processo batch che eseguirà un mapping del modello in modalità automatica per l'importazione dei dati. Per altre informazioni su questo processo, vedi [Importare dati da file selezionati manualmente in modalità batch](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -205,6 +205,8 @@ Rivedere il codice nella `BankImport_RU` classe del modello `Application Suite` 
 [Modifiche dell'API framework ER per Aggiornamento applicazione 7.3](er-apis-app73.md)
 
 [Modifiche dell'API framework ER per Aggiornamento applicazione 10.0.23](er-apis-app10-0-23.md)
+
+[Modifiche dell'API framework ER per Aggiornamento applicazione 10.0.25](er-apis-app10-0-25.md)
 
 
 
