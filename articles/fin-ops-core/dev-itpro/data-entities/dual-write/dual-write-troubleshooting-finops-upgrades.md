@@ -1,6 +1,6 @@
 ---
-title: Risoluzione dei problemi relativi agli aggiornamenti delle app Finance and Operations
-description: Questo argomento fornisce informazioni che possono aiutarti a risolvere i problemi relativi agli aggiornamenti delle app Finance and Operations.
+title: Risoluzione dei problemi degli aggiornamenti delle app per finanza e operazioni
+description: Questo argomento fornisce informazioni che possono aiutarti a risolvere i problemi relativi agli aggiornamenti delle app per finanza e operazioni.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: db1602c2edaa2e6b6310cce04639ef7a8e43df15
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782783"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062827"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Risoluzione dei problemi relativi agli aggiornamenti delle app Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Risoluzione dei problemi degli aggiornamenti delle app per finanza e operazioni
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-In questo argomento vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra le app Finance and Operations e Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi relativi agli aggiornamenti delle app Finance and Operations.
+
+In questo argomento vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi relativi agli aggiornamenti delle app per finanza e operazioni.
 
 > [!IMPORTANT]
 > Alcuni problemi che questo argomento tratta potrebbero richiedere il ruolo di amministratore di sistema o le credenziali di amministratore del tenant Microsoft Azure Active Directory (Azure AD). La sezione per ogni problema spiega se sono richiesti ruolo o credenziali specifici.
@@ -33,7 +33,7 @@ In questo argomento vengono fornite informazioni sulla risoluzione dei problemi 
 
 **Ruolo richiesto per risolvere il problema:** amministratore di sistema
 
-È possibile che venga visualizzato un messaggio di errore simile al seguente esempio quando si tenta di utilizzare la tabella **DualWriteProjectConfiguration** per aggiornare un'app Finance and Operations al Platform update 30.
+È possibile che venga visualizzato un messaggio di errore simile al seguente esempio quando si tenta di utilizzare la tabella **DualWriteProjectConfiguration** per aggiornare un'app per finanza e operazioni al Platform update 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -43,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 Per risolvere il problema, procedere come segue.
 
-1. Accedere alla macchina virtuale (VM) per l'app Finance and Operations.
+1. Accedere alla macchina virtuale (VM) per l'app per finanza e operazioni.
 2. Aprire Visual Studio come amministratore e aprire Application Object Tree (AOT).
 3. Cercare **DualWriteProjectConfiguration**.
 4. In AOT, fare clic con il tasto destro su **DualWriteProjectConfiguration** e selezionare **Aggiungi a nuovo progetto**. Selezionare **OK** per creare il nuovo progetto con le opzioni predefinite.
@@ -65,10 +65,10 @@ Nella pagina **Doppia scrittura** è possibile che venga visualizzato un messagg
 
 Per risolvere il problema, seguire innanzitutto questi passaggi per assicurarsi che le colonne siano nella tabella.
 
-1. Accedere alla macchina virtuale per l'app Finance and Operations.
+1. Accedere alla macchina virtuale (VM) per l'app per finanza e operazioni.
 2. Andare a **Aree di lavoro \> Gestione dei dati**, selezionare il riquadro **Parametri framework** e quindi nella scheda **Impostazioni tabella**, selezionare **Aggiorna elenco tabelle** per aggiornare le tabelle.
-3. Andare a **Aree di lavoro \> Gestione dei dati**, selezionare la scheda **Tabelle dati** e assicurarsi che la tabella sia elencata. Se la tabella non è elencata, accedere alla macchina virtuale per l'app Finance and Operations e assicurarsi che la tabella sia disponibile.
-4. Aprire la pagina **Mapping della tabella** dalla pagina **Doppia scrittura** nell'app Finance and Operations.
+3. Andare a **Aree di lavoro \> Gestione dei dati**, selezionare la scheda **Tabelle dati** e assicurarsi che la tabella sia elencata. Se la tabella non è elencata, accedere alla macchina virtuale per l'app per finanza e operazioni e assicurarsi che la tabella sia disponibile.
+4. Aprire la pagina **Mapping della tabella** dalla pagina **Doppia scrittura** nell'app per finanza e operazioni.
 5. Selezionare **Aggiorna elenco tabelle** per completare automaticamente le colonne nei mapping della tabella.
 
 Se il problema persiste, attenersi alla seguente procedura.
@@ -76,10 +76,10 @@ Se il problema persiste, attenersi alla seguente procedura.
 > [!IMPORTANT]
 > Questi passaggi guidano l'utente attraverso il processo di eliminazione di una tabella e quindi l'aggiunta di una nuova. Per evitare problemi, assicurarsi di seguire esattamente i passaggi.
 
-1. Nell'app Finance and Operations, andare a **Aree di lavoro \> Gestione dei dati** e selezionare il riquadro **Tabelle dati**.
+1. Nell'app per finanza e operazioni, andare a **Aree di lavoro \> Gestione dei dati** e selezionare il riquadro **Tabelle dati**.
 2. Trovare la tabella in cui manca l'attributo. Fare clic su **Modifica mapping di destinazione** nella barra degli strumenti.
 3. Nel riquadro **Mappa gestione temporanea a destinazione**, fare clic si **Genera mapping**.
-4. Aprire la pagina **Mapping della tabella** dalla pagina **Doppia scrittura** nell'app Finance and Operations.
+4. Aprire la pagina **Mapping della tabella** dalla pagina **Doppia scrittura** nell'app per finanza e operazioni.
 5. Se l'attributo non viene popolato automaticamente sulla mappa, aggiungerlo manualmente facendo clic sul pulsante **Aggiungi attributo** e quindi su **Salva**. 
 6. Selezionare la mappa e fare clic su **Esegui**.
 

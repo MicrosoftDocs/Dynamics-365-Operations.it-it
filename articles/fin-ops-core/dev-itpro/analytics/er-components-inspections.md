@@ -2,7 +2,7 @@
 title: Ispezionare il componente ER configurato per evitare problemi di runtime
 description: Questo argomento spiega come ispezionare i componenti di creazione di report elettronici (ER) configurati per prevenire problemi di runtime che potrebbero verificarsi.
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488116"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074793"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Ispezionare il componente ER configurato per evitare problemi di runtime
 
 [!include[banner](../includes/banner.md)]
 
-Ogni formato [Reporting elettronico (ER)](general-electronic-reporting.md) [configurato](general-electronic-reporting.md#FormatComponentOutbound) e [componente del mapping del modello](general-electronic-reporting.md#data-model-and-model-mapping-components) può essere [convalidato](er-fillable-excel.md#validate-an-er-format) in fase di progettazione. Durante questa convalida, viene eseguito un controllo di coerenza per aiutare a prevenire problemi di runtime che potrebbero verificarsi, come errori di esecuzione e riduzione delle prestazioni. Per ogni problema riscontrato, il controllo fornisce il percorso di un elemento problematico. Per alcuni problemi è disponibile una correzione automatica.
+Ogni formato [Reporting elettronico (ER)](general-electronic-reporting.md) [configurato](er-overview-components.md#format-components-for-outgoing-electronic-documents) e [componente del mapping del modello](er-overview-components.md#model-mapping-component) può essere [convalidato](er-fillable-excel.md#validate-an-er-format) in fase di progettazione. Durante questa convalida, viene eseguito un controllo di coerenza per aiutare a prevenire problemi di runtime che potrebbero verificarsi, come errori di esecuzione e riduzione delle prestazioni. Per ogni problema riscontrato, il controllo fornisce il percorso di un elemento problematico. Per alcuni problemi è disponibile una correzione automatica.
 
 Per impostazione predefinita, la convalida viene applicata automaticamente nei seguenti casi per una configurazione ER che contiene i componenti ER precedentemente menzionati:
 
@@ -236,6 +236,15 @@ Nella seguente tabella viene fornita una panoramica delle ispezioni che ER offre
 <td>Errore</td>
 <td>Sono presenti più di due componenti intervallo senza replica. Rimuovere i componenti non necessari.</td>
 </tr>
+<tr>
+<td><a href='#i18'>Eseguibilità di un'espressione con la funzione ORDERBY</a></td>
+<td>Eseguibilità</td>
+<td>Errore</td>
+<td>
+<p>L'espressione elenco della funzione ORDERBY non è disponibile per query.</p>
+<p><b>Errore di runtime:</b> l'ordinamento non è supportato. Convalidare la configurazione per ottenere maggiori dettagli su questo.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 8. Assegnare un nome al nuovo campo nidificato **$AccNumber** e configurarlo in modo che contenga l'espressione `TRIM(Vendor.AccountNum)`.
 9. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'espressione `FILTER(Vendor, Vendor.AccountNum="US-101")` nell'origine dati **Fornitore** possa essere interrogata.
 
-    ![Verificare la possibilità di eseguire una query sull'espressione nella pagina Progettazione mapping modello.](./media/er-components-inspections-04.gif)
+    ![Verificare la possibilità di eseguire una query sull'espressione con la funzione FILTRA nella pagina Progettazione mapping modello.](./media/er-components-inspections-04.gif)
 
 10. Si noti che si verifica un errore di convalida, perché l'origine dati **Fornitore** contiene un campo nidificato del tipo **Campo calcolato** che non consente l'espressione dell'origine dati **FornitoreFiltrato** da tradurre nell'istruzione SQL diretta.
 
@@ -671,19 +680,19 @@ La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avv
 
 ![Errore di runtime che si verifica durante l'esecuzione del mapping del formato nella pagina Progettazione formati.](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>Risoluzione automatica
+### <a name="automatic-resolution"></a>Risoluzione automatica
 
 Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
 
-### <a name=&quot;manual-resolution&quot;></a>Risoluzione manuale
+### <a name="manual-resolution"></a>Risoluzione manuale
 
-#### <a name=&quot;option-1&quot;></a>Opzione 1
+#### <a name="option-1"></a>Opzione 1
 
 Rimuovere il flag **Cache** dall'origine dati **Fornitore**. L'origine dati **FilteredVendor** diventerà quindi eseguibile, ma l'origine dati **Fornitore** a cui si fa riferimento nella tabella VendTable sarà accessibile ogni volta che viene chiamata l'origine dati **FilteredVendor**.
 
-#### <a name=&quot;option-2&quot;></a>Opzione 2
+#### <a name="option-2"></a>Opzione 2
 
-Cambiare l'espressione dell'origine dati **FornitoreFiltrato** da `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` a `WHERE(Vendor, Vendor.AccountNum="US-101")`. In questo caso, l'origine dati **Fornitore** a cui si fa riferimento nella tabella VendTable sarà accessibile solo durante la prima chiamata dell'origine dati **Fornitore**. Tuttavia, la selezione dei record verrà eseguita in memoria. Pertanto, questo approccio può causare prestazioni ridotte.
+Cambiare l'espressione dell'origine dati **FornitoreFiltrato** da `FILTER(Vendor, Vendor.AccountNum="US-101")` a `WHERE(Vendor, Vendor.AccountNum="US-101")`. In questo caso, l'origine dati **Fornitore** a cui si fa riferimento nella tabella VendTable sarà accessibile solo durante la prima chiamata dell'origine dati **Fornitore**. Tuttavia, la selezione dei record verrà eseguita in memoria. Pertanto, questo approccio può causare prestazioni ridotte.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Associazione mancante
 
@@ -892,6 +901,47 @@ Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
 #### <a name="option-1"></a>Opzione 1
 
 Modifica il formato configurato cambiando la proprietà **Direzione replica** per tutti i componenti incoerenti **Excel\\Intervallo**.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Eseguibilità di un'espressione con la funzione ORDERBY
+
+La funzione ER [ORDERBY](er-functions-list-orderby.md) integrata viene utilizzata per ordinare i record di un'origine dati ER del tipo **[Elenco record](er-formula-supported-data-types-composite.md#record-list)** specificato come argomento della funzione.
+
+Argomenti della funzione `ORDERBY` possono essere [specificati](er-functions-list-orderby.md#syntax-2) per ordinare i record di tabelle, visualizzazioni o entità di dati dell'applicazione inserendo una singola chiamata al database per ottenere i dati ordinati come elenco di record. Un'origine dati del tipo **Elenco di record** viene utilizzata come argomento di questa funzione e specifica l'origine della domanda di lavoro per la chiamata.
+
+ER verifica se è possibile stabilire una query del database diretta su un'origine dati a cui si fa riferimento nella funzione `ORDERBY`. Se non è possibile stabilire una query diretta, si verifica un errore di convalida nella finestra di progettazione del mapping del modello ER. Il messaggio ricevuto indica che l'espressione ER che include la funzione `ORDERBY` non può essere eseguita in fase di esecuzione.
+
+I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
+
+1. Iniziare a configurare il componente di mapping del modello ER.
+2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
+3. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella **VendTable**.
+4. Aggiungere un'origine dati del tipo **Campo calcolato**.
+5. Assegnare un nome alla nuova origine dati **OrderedVendors** e configurarla in modo che contenga l'espressione `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Configurazione delle origini dati nella pagina di progettazione del mapping del modello.](./media/er-components-inspections-18-1.png)
+
+6. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'espressione nell'origine dati **OrderedVendors** possa essere interrogata.
+7. Modificare l'origine dati **Fornitore** aggiungendo un campo nidificato del tipo **Campo calcolato** per ottenere il numero di conto del fornitore ridotto.
+8. Assegnare un nome al nuovo campo nidificato **$AccNumber** e configurarlo in modo che contenga l'espressione `TRIM(Vendor.AccountNum)`.
+9. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'espressione nell'origine dati **Fornitore** possa essere interrogata.
+
+    ![Verificare la possibilità di eseguire una query sull'espressione nell'origine dati Fornitore nella pagina Progettazione mapping modello.](./media/er-components-inspections-18-2.png)
+
+10. Si noti che si verifica un errore di convalida, perché l'origine dati **Fornitore** contiene un campo nidificato del tipo **Campo calcolato** che non consente l'espressione dell'origine dati **OrderedVendors** da tradurre nell'istruzione database diretta. Lo stesso errore si verifica in fase di esecuzione se si ignora l'errore di convalida e si seleziona **Esegui** per eseguire questa mapping del modello.
+
+### <a name="automatic-resolution"></a>Risoluzione automatica
+
+Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
+
+### <a name="manual-resolution"></a>Risoluzione manuale
+
+#### <a name="option-1"></a>Opzione 1
+
+Invece di aggiungere un campo nidificato del tipo **Campo calcolato** all'origine dati **Fornitore**, aggiungere il campo nidificato **$AccNumber** all'origine dati **FilteredVendors** e configurare il campo in modo che contenga l'espressione `TRIM(FilteredVendor.AccountNum)`. In questo modo, l'espressione `ORDERBY("Query", Vendor, Vendor.AccountNum)` può essere eseguita a livello di database e il calcolo del campo nidificato **$AccNumber** può essere effettuato in seguito.
+
+#### <a name="option-2"></a>Opzione 2
+
+Cambiare l'espressione dell'origine dati **FilteredVendors** da `ORDERBY("Query", Vendor, Vendor.AccountNum)` a `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Non è consigliabile modificare l'espressione per una tabella che ha un grande volume di dati (tabella transazionale), perché tutti i record verranno recuperati e l'ordinamento dei record richiesti verrà eseguita in memoria. Pertanto, questo approccio può causare prestazioni ridotte.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -2,7 +2,7 @@
 title: Utilizzare i layout preimpostati
 description: In questo argomento viene descritto come utilizzare i layout preimpostati in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0f6effd4dda669041a269d568bd39beda607a2bcc05c65e40bb76c6f1d02cd5e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775314"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090847"
 ---
 # <a name="work-with-preset-layouts"></a>Utilizzare i layout preimpostati
 
@@ -91,12 +91,24 @@ Per visualizzare l'anteprima delle modifiche, aprire una pagina esistente che ut
 
 Dopo avere visualizzato un'anteprima delle modifiche al layout preimpostato, eseguire una di queste operazioni per pubblicare il layout sul sito live:
 
-* Andare a **Layout**, selezionare il layout e quindi **Pubblica**.
-* Selezionare il nome del layout per aprire l'editor del layout, quindi selezionare **Pubblica**.
-* Pubblicare una pagina che fa riferimento al layout non pubblicato. Il layout viene pubblicato automaticamente.
+1. Andare a **Layout**, selezionare il layout e quindi **Pubblica**.
+1. Selezionare il nome del layout per aprire l'editor del layout, quindi selezionare **Pubblica**.
+1. Pubblicare una pagina che fa riferimento al layout non pubblicato. Il layout viene pubblicato automaticamente.
 
 > [!WARNING]
 > Molteplici pagine possono fare riferimento ai layout preimpostati. Quando si pubblica un layout preimpostato, tenere presente che è possibile alterare il layout di molteplici pagine.
+
+## <a name="rename-a-preset-layout"></a>Rinominare un layout preimpostato
+
+Per rinominare un layout preimpostato nello strumento di creazione siti, effettua le seguenti operazioni.
+
+1. Nel pannello di navigazione a sinistra, selezionare **Layout**.
+1. Seleziona il nome del layout che desideri rinominare.
+1. Selezionare **Modifica** per iniziare il layout.
+1. Nel riquadro delle proprietà del layout, seleziona il simbolo della penna accanto al nome del layout.
+1. Modificare il nome del layout, se necessario.
+1. Selezionare il segno di spunta per confermare la modifica del nome.
+1. Selezionare **Fine modifica**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

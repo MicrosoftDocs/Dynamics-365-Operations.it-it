@@ -10,19 +10,23 @@ ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07f89a41cca7b3ff66404305d31cf1b8a67bfe47
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964963"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075375"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Assunzione del candidato tramite la selezione
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> La funzionalità indicata in questo argomento è attualmente disponibile per i clienti di Human Resources nell'infrastruttura finanziaria.  
+
 
 Questa procedura consente a un responsabile della selezione di assumere un candidato che ha inviato una domanda di lavoro per un progetto di selezione specifico. Quando assumi un candidato tramite un progetto di selezione, un nuovo record lavoratore verrà creato e al record del candidato sarà associato lo stato **Assunto**. La società di dati dimostrativi **USMF** è stata utilizzata per creare questa procedura.
 

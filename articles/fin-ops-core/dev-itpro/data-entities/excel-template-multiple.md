@@ -1,6 +1,6 @@
 ---
 title: Modelli di dati con più fogli di lavoro
-description: In questo argomento viene descritto come importare i dati mediante modelli di entità di dati Excel in Finance and Operations.
+description: In questo argomento viene descritto come importare i dati mediante modelli di entità di dati Excel in Finanza e operazioni.
 author: peakerbl
 ms.date: 01/01/2018
 ms.topic: article
@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 343767d056eb164a7da70fb983fe37569a12986c
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: cf3c423bdf06685a3c4025551927123773ae818a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404002"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070063"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Modelli di dati con più fogli di lavoro
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 La gestione dei dati nell'applicazione supporta modelli basati su Microsoft Excel per le entità di dati. Questi modelli possono contenere uno o più fogli di lavoro. I modelli con più fogli di lavoro vengono spesso utilizzati quando è conveniente gestire i dati in un singolo file e importarli in più entità di dati. Un esempio potrebbe essere il caso di siti e magazzini.
 

@@ -9,15 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ceb0a60ccf3d1c989d8663e933faaa5e430d314695e20990c9086cd1b8325ff1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773729"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070148"
 ---
 # <a name="configure-expenditure-reviewers"></a>Configurare i revisori spese
 [!include[banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 È possibile impostare i revisori spese dinamici in modo che le spese vengano inviate per la revisione in base all'utente assegnato a un ruolo di progetto o a una dimensione finanziaria a cui viene addebitata la spesa. Per determinare la persona cui inviare la spesa, il processo del flusso di lavoro fa riferimento al ruolo di progetto o al proprietario della dimensione finanziaria specificato.
 
@@ -49,7 +52,7 @@ Le dimensioni finanziarie sono controllate dalle strutture dei conti in ogni per
 
 ## <a name="example-1-expenditure-reviewers-based-on-organization-distributions"></a>Esempio 1: revisori spese in base alle distribuzioni dell'organizzazione
 
-Si lavora per Contoso Appliances e l'organizzazione ha sei reparti e 10 centri di costo. Quando viene inviata una nuova richiesta di acquisto, l'approvazione deve provenire prima dal responsabile del reparto e poi dal responsabile del centro di costo.
+Lavori per Contoso Appliances e l'organizzazione ha sei reparti e 10 centri di costo. Quando viene inviata una nuova richiesta di acquisto, l'approvazione deve provenire prima dal responsabile del reparto e poi dal responsabile del centro di costo.
 
 Per questo esempio, vengono configurati due *revisori spese per la richiesta di acquisto*:
 
@@ -62,7 +65,7 @@ Quando viene creata la richiesta di acquisto, le dimensioni finanziarie del repa
 
 ## <a name="example-2-expenditure-reviewers-based-on-project-distributions"></a>Esempio 2: revisori spese in base alle distribuzioni di progetti
 
-Si lavora per la divisione servizi di Contoso Appliances. L'organizzazione richiede che il manager di progetto di ogni ordine d'acquisto approvi la spesa. Inoltre, il responsabile del centro di costo per il progetto deve approvarlo. Le approvazioni possono essere fatte contemporaneamente. In ogni caso, entrambi gli utenti devono approvare l'ordine di acquisto prima che il flusso di lavoro possa procedere.
+Lavori per la divisione servizi di Contoso Appliances. L'organizzazione richiede che il manager di progetto di ogni ordine d'acquisto approvi la spesa. Inoltre, il responsabile del centro di costo per il progetto deve approvarlo. Le approvazioni possono essere fatte contemporaneamente. In ogni caso, entrambi gli utenti devono approvare l'ordine di acquisto prima che il flusso di lavoro possa procedere.
 
 Per questo esempio, si crei un *revisore spese ordini di acquisto* denominato **PM e centro di costo**. Selezionare la casella di controllo **Manager di progetto** e impostare l'opzione **Dimensione centro di costo** su **Sì** nella scheda **Distribuzioni di progetti** della pagina **Revisore spese ordini di acquisto**. Nell'ambito della configurazione, è necessario assicurarsi che il campo **Manager di progetto** sia impostato per tutti i progetti e che un proprietario sia specificato per tutti i centri di costo nella pagina **Valori di dimensione finanziaria**.
 

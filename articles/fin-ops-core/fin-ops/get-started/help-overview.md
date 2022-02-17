@@ -1,6 +1,6 @@
 ---
 title: Sistema della guida (video)
-description: Questo argomento fornisce una panoramica della Guida per le app Finance and Operations.
+description: Questo argomento fornisce una panoramica della Guida per le app per finanza e operazioni.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,16 +17,19 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f2fe493c57cd004b1003c1d95734bd455fde8c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984436"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070503"
 ---
 # <a name="help-system"></a>Guida
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Gli utenti delle seguenti app possono accedere alla Guida sensibile al contesto e ad altri contenuti basati sullo stesso sistema della Guida:
 
@@ -50,7 +53,7 @@ Puoi trovare contenuti su docs.microsoft.com usando qualsiasi motore di ricerca.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ricevi notifiche sulle modifiche tramite un feed RSS
 
-Per iscriverti a un feed RSS di tutti gli aggiornamenti relativi al contenuto di docs.microsoft.com nelle app Finance and Operations, utilizza il seguente collegamento:
+Per iscriverti a un feed RSS di tutti gli aggiornamenti relativi al contenuto di docs.microsoft.com nelle app per finanza e operazioni, utilizza il seguente collegamento:
 
 [Feed RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 

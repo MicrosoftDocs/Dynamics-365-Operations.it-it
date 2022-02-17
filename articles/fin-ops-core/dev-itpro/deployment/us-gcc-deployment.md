@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 17702ada5bf75a44652e194c2555a83e76e7a36b
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817444"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062288"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance e Dynamics 365 Supply Chain Management in US Government Community Cloud (GCC)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Seleziona i prodotti Microsoft Dynamics 365 US Government (US) disponibili per enti pubblici e privati qualificati. Tali entità sono limitate ai seguenti tipi:
 
@@ -38,9 +38,9 @@ Dopo aver completato l'onboarding iniziale, segui le istruzioni in [Onboarding d
 
 ## <a name="environment-deployment"></a>Distribuzione dell'ambiente
 
-Dopo aver completato l'onboarding del progetto, puoi esaminare le funzionalità aggiuntive di LCS descritte in [Lifecycle Services (LCS) per i clienti di app Finance and Operations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Quindi passa alla distribuzione dell'ambiente.
+Dopo aver completato l'onboarding del progetto, puoi esaminare le funzionalità aggiuntive di LCS descritte in [Lifecycle Services (LCS) per i clienti di app per finanza e operazioni](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Quindi passa alla distribuzione dell'ambiente.
 
-- Per distribuire ambienti gestiti da Microsoft tramite LCS, segui le istruzioni in [Lifecycle Services (LCS) per i clienti di app Finance and Operations](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Per distribuire ambienti gestiti da Microsoft tramite LCS, segui le istruzioni in [Lifecycle Services (LCS) per i clienti di app per finanza e operazioni](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Per gli ambienti ospitati su cloud, vedi [Distribuire e accedere agli ambienti di sviluppo](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). È inoltre necessario completare il processo di onboarding di Resource Manager per i connettori, come descritto in [Completare il processo di onboarding di Azure Resource Manager per i progetti Lifecycle Services del governo degli Stati Uniti](arm-onbarding-us-goverment.md).
 
 > [!NOTE]

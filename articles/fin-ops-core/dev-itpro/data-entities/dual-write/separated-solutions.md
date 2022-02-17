@@ -10,30 +10,30 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924870"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063264"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Pacchetto separato di orchestrazione dell'applicazione a doppia scrittura
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In precedenza, il pacchetto di orchestrazione dell'applicazione a doppia scrittura era un singolo pacchetto che conteneva le seguenti soluzioni:
 
 - Dynamics 365 Notes
 - Ancoraggio comune di Dynamics 365 Finance and Operations
-- Mappe di entità a doppia scrittura di Dynamics 365 Finance and Operations
+- Mappe di entità a doppia scrittura di Dynamics 365 Finance
 - App Gestione cespiti Dynamics 365
 - Gestione cespiti Dynamics 365
 - Elementi comuni di HCM
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Elementi comuni di Dynamics 365 Finance and Operations
 - Dynamics 365 Company
 - Tassi di cambio valutario
 - Field Service Common
@@ -51,14 +51,14 @@ Il pacchetto Core dell'applicazione a doppia scrittura consente agli utenti di i
 | Nome univoco                           | Nome visualizzato                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 Company                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
+| Dynamics365FinanceAndOperationsCommon | Elementi comuni di Dynamics 365 Finance and Operations |
 | CurrencyExchangeRates                 | Tassi di cambio valutario                    |
 | msdyn_DualWriteAppCoreMaps            | Mappe di entità core dell'applicazione a doppia scrittura   |
 | msdyn_DualWriteAppCoreAnchor          | Ancoraggio core dell'applicazione a doppia scrittura        |
 
 In questo pacchetto sono disponibili le seguenti mappe.
 
-| App di Finance and Operations     | App di interazione con i clienti                    |
+| App Finanza e operazioni     | App di interazione con i clienti                    |
 |---------------------------------|---------------------------------------------|
 | Unità operativa                  | msdyn_internalorganizations                 |
 | Gerarchia organizzativa          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ Il pacchetto Human Resources a doppia scrittura contiene le soluzioni e le mappe
 
 In questo pacchetto sono disponibili le seguenti mappe.
 
-| App di Finance and Operations | App di interazione con i clienti         |
+| App Finanza e operazioni | App di interazione con i clienti         |
 |-----------------------------|----------------------------------|
 | Origini etniche              | cdm_ethnicorigins                |
 | Funzione lavorativa retribuzione   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Il pacchetto Supply Chain a doppia scrittura contiene le soluzioni e le mappe ne
 
 In questo pacchetto sono disponibili le seguenti mappe.
 
-| App di Finance and Operations                 | App di interazione con i clienti                      |
+| App Finanza e operazioni                 | App di interazione con i clienti                      |
 |---------------------------------------------|-----------------------------------------------|
 | Unità                                       | uoms                                          |
 | Intestazioni ordine cliente CDS                     | salesorders                                   |
@@ -197,7 +197,7 @@ Il pacchetto Finance a doppia scrittura contiene le soluzioni e le mappe necessa
 
 In questo pacchetto sono disponibili le seguenti mappe.
 
-| App di Finance and Operations             | App di interazione con i clienti        |
+| App Finanza e operazioni             | App di interazione con i clienti        |
 |-----------------------------------------|---------------------------------|
 | Gruppi ritenute d'acconto                  | msdyn_withholdingtaxgroups      |
 | CDS Contacts V2 (cliente)              | contatti                        |
@@ -247,7 +247,7 @@ Il pacchetto Notes a doppia scrittura contiene le soluzioni e le mappe necessari
 
 In questo pacchetto sono disponibili le seguenti mappe.
 
-| Finance and Operations                     | Customer Engagement |
+| Finanza e operazioni                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Allegati documento intestazione ordine cliente    | annotazioni         |
 | Allegati cliente                       | annotazioni         |
@@ -274,7 +274,7 @@ Il pacchetto Gestione cespiti a doppia scrittura contiene le soluzioni e le mapp
 
 In questo pacchetto sono disponibili le seguenti mappe.
 
-| App di Finance and Operations                           | App di interazione con i clienti                |
+| App Finanza e operazioni                           | App di interazione con i clienti                |
 |-------------------------------------------------------|-----------------------------------------|
 | Garanzia della gestione cespiti                             | msdyn_warranties                        |
 | Modelli della Gestione cespiti                               | msdyn_models                            |

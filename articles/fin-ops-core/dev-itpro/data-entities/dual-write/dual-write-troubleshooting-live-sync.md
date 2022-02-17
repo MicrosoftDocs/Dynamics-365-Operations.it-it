@@ -9,27 +9,27 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 69667f8b64c048f5957168d1af21a6c858bc0bad
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782581"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062365"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Risoluzione dei problemi di sincronizzazione in tempo reale
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-In questo argomento vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra le app Finance and Operations e Microsoft Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi relativi alla sincronizzazione in tempo reale.
+
+In questo argomento vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Microsoft Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi relativi alla sincronizzazione in tempo reale.
 
 > [!IMPORTANT]
 > Alcuni problemi che questo argomento tratta potrebbero richiedere il ruolo di amministratore di sistema o le credenziali di amministratore del tenant Azure Active Directory (Azure AD). Ogni sezione spiega se sono richiesti ruolo o credenziali specifici.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>La sincronizzazione in tempo reale mostra un errore quando si crea una riga
 
-È possibile che venga visualizzato il seguente messaggio di errore quando si crea una riga in un'app Finance and Operations:
+È possibile che venga visualizzato il seguente messaggio di errore quando si crea una riga in un'app per finanza e operazioni:
 
 *\[{\\"errore\\":{\\"codice\\":\\"0x80072560\\",\\"messaggio\\":\\"L'utente non è un membro dell'organizzazione.\\"}}\], Il server remoto ha restituito un errore: (403) Accesso negato."}}".*
 
@@ -39,27 +39,27 @@ Per risolvere il problema, seguire i passaggi in [Requisiti e prerequisiti di si
 
 **Ruolo richiesto per risolvere il problema:** amministratore di sistema
 
-È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di salvare dati di tabella in un'app Finance and Operations:
+È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di salvare dati di tabella in un'app per finanza e operazioni:
 
 *Impossibile salvare le modifiche nel database. L'unità di lavoro non può eseguire il commit della transazione. Impossibile scrivere i dati nell'entità unità di misura. Scrittura su UnitOfMeasureEntity non riuscita con messaggio di errore Impossibile sincronizzare con l'entità unità di misura.*
 
-Per risolvere il problema, assicurarsi che i dati di riferimento dei prerequisiti esistano nell'app Finance and Operations e in Dataverse. Ad esempio, se un record cliente appartiene a un gruppo di clienti specifico, assicurarsi che il record del gruppo di clienti esista in Dataverse.
+Per risolvere il problema, è necessario assicurarsi che i dati di riferimento dei prerequisiti esistano nell'app per finanza e operazioni e in Dataverse. Ad esempio, se un record cliente appartiene a un gruppo di clienti specifico, assicurarsi che il record del gruppo di clienti esista in Dataverse.
 
 Se i dati esistono in entrambe le posizioni e si conferma che il problema non è relativo ai dati, procedere nel seguente modo.
 
-1. Aprire l'entità **DualWriteProjectConfigurationEntity** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilitare la modalità di progettazione nel componente aggiuntivo di Excel di Finance and Operations e aggiungere **DualWriteProjectConfigurationEntity** a un foglio di lavoro. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
+1. Aprire l'entità **DualWriteProjectConfigurationEntity** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilitare la modalità di progettazione nel componente aggiuntivo di Excel di Finanza e operazioni e aggiungere **DualWriteProjectConfigurationEntity** a un foglio di lavoro. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
 2. Selezionare ed eliminare i record che presentano problemi nella mappa e nel progetto a doppia scrittura. Vi saranno due record per ogni mapping a doppia scrittura.
 3. Pubblicare le modifiche utilizzando il componente aggiuntivo di Excel. Questo passaggio è importante perché elimina i record dall'entità e dalle tabelle sottostanti.
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gestire gli errori dei privilegi di lettura o scrittura quando si creano i dati in un'app Finance and Operations
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gestire gli errori dei privilegi di lettura o scrittura quando si creano i dati in un'app per finanza e operazioni
 
-È possibile che venga visualizzato un messaggio di errore "Richiesta non valida" quando si creano dati in un'app Finance and Operations.
+È possibile che venga visualizzato un messaggio di errore "Richiesta non valida" quando si creano dati in un'app per finanza e operazioni.
 
 ![Esempio del messaggio di errore Richiesta non valida.](media/error_record_id_source.png)
 
 Per risolvere il problema, è necessario abilitare il privilegio mancante assegnando il ruolo di sicurezza corretto al team delle Business Unit Dynamics 365 Sales o Dynamics 365 Customer Service mappate.
 
-1. Nell'app Finance and Operations, trovare la Business Unit mappata nel set di connessioni Integrazione dati.
+1. Nell'app per finanza e operazioni, trovare la Business Unit mappata nel set di connessioni Integrazione dati.
 
     ![Mapping dell'organizzazione.](media/mapped_business_unit.png)
 
@@ -77,7 +77,7 @@ Per risolvere il problema, è necessario abilitare il privilegio mancante assegn
 
 **Ruolo richiesto per risolvere il problema:** amministratore di sistema
 
-È possibile che venga visualizzato il seguente messaggio di errore quando si creano dati in un'app Finance and Operations:
+È possibile che venga visualizzato il seguente messaggio di errore quando si creano dati in un'app per finanza e operazioni:
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Impossibile generare il payload per l'entità CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Creazione del payload non riuscita con errore URI non valido: L'URI è vuoto."}\],"isErrorCountUpdated":true}*
 
@@ -85,19 +85,19 @@ Di seguito è indicato l'errore nell'app Customer Engagement:
 
 > Si è verificato un errore imprevisto del codice ISV. (ErrorType = ClientError) Eccezione imprevista dal plug-in (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: impossibile elaborare l'account dell'entità - Tentativo di connessione non riuscito perché la parte connessa non ha risposto correttamente dopo un periodo di tempo o connessione stabilita non riuscita perché l'host connesso non ha risposto.
 
-Questo errore si verifica se l'ambiente Dataverse viene reimpostato in modo errato quando si tenta di creare dati nell'app Finance and Operations.
+Questo errore si verifica se l'ambiente Dataverse viene reimpostato in modo errato quando si tenta di creare dati nell'app per finanza e operazioni.
 
 > [!IMPORTANT]
 > Se gli ambienti sono stati ricollegati, è necessario interrompere tutte le mappe di entità prima di continuare con i passaggi di mitigazione.
 
-Per risolvere il problema, è necessario completare i passaggi sia in Dataverse che nell'app Finance and Operations.
+Per risolvere il problema, è necessario completare i passaggi sia in Dataverse che nell'app per finanza e operazioni.
 
-1. Nell'app Finance and Operations, effettuare le seguenti operazioni:
+1. Nell'app per finanza e operazioni segui questi passaggi:
 
-    1. Aprire l'entità **DualWriteProjectConfigurationEntity** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilitare la modalità di progettazione nel componente aggiuntivo di Excel di Finance and Operations e aggiungere **DualWriteProjectConfigurationEntity** a un foglio di lavoro. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
+    1. Aprire l'entità **DualWriteProjectConfigurationEntity** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilitare la modalità di progettazione nel componente aggiuntivo di Excel di Finanza e operazioni e aggiungere **DualWriteProjectConfigurationEntity** a un foglio di lavoro. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
     2. Selezionare ed eliminare i record che presentano problemi nella mappa e nel progetto a doppia scrittura. Vi saranno due record per ogni mapping a doppia scrittura.
     3. Pubblicare le modifiche utilizzando il componente aggiuntivo di Excel. Questo passaggio è importante perché elimina i record dall'entità e dalle tabelle sottostanti.
-    4. Per aiutare a prevenire errori quando si ricollegano gli ambienti Finance and Operations o Dataverse, assicurarsi che non rimangano configurazioni a doppia scrittura.
+    4. Per aiutare a prevenire errori quando si ricollegano gli ambienti Finanza e operazioni o Dataverse, assicurarsi che non rimangano configurazioni a doppia scrittura.
 
 2. In Dataverse, effettuare le seguenti operazioni:
 
@@ -108,12 +108,12 @@ Per risolvere il problema, è necessario completare i passaggi sia in Dataverse 
     5. Selezionare **Risultati** per visualizzare le configurazioni.
     6. Eliminare tutte le istanze.
 
-3. Nell'app Finance and Operations, effettuare le seguenti operazioni:
+3. Nell'app per finanza e operazioni segui questi passaggi:
 
-    1. Aprire l'entità **DualWriteProjectConfigurationEntity** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilitare la modalità di progettazione nel componente aggiuntivo di Excel di Finance and Operations e aggiungere **DualWriteProjectConfigurationEntity** a un foglio di lavoro. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
+    1. Aprire l'entità **DualWriteProjectConfigurationEntity** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilitare la modalità di progettazione nel componente aggiuntivo di Excel di Finanza e operazioni e aggiungere **DualWriteProjectConfigurationEntity** a un foglio di lavoro. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
     2. Selezionare ed eliminare i record che presentano problemi nella mappa e nel progetto a doppia scrittura. Vi saranno due record per ogni mapping a doppia scrittura.
     3. Pubblicare le modifiche utilizzando il componente aggiuntivo di Excel. Questo passaggio è importante perché elimina i record dall'entità e dalle tabelle sottostanti.
-    4. Per aiutare a prevenire errori quando si ricollegano gli ambienti Finance and Operations o Dataverse, assicurarsi che non rimangano configurazioni a doppia scrittura.
+    4. Per aiutare a prevenire errori quando si ricollegano gli ambienti Finanza e operazioni o Dataverse, assicurarsi che non rimangano configurazioni a doppia scrittura.
 
 ## <a name="live-synchronization-error-after-you-do-a-full-database-copy"></a>Errore di sincronizzazione in tempo reale dopo aver eseguito una copia completa del database
 
@@ -189,9 +189,9 @@ while(qRun.next())
 }
 ```
 
-## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Dati dall'app Finance and Operations non sono sincronizzati in Dataverse
+## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>I dati delle app per finanza e operazioni non sono sincronizzati con Dataverse
 
-Durante la sincronizzazione in tempo reale, si potrebbe riscontrare un problema per cui solo una parte dei dati viene sincronizzata dalle app Finance and Operations in Dataverse o i dati non vengono sincronizzati affatto.
+Durante la sincronizzazione in tempo reale, si potrebbe riscontrare un problema per cui solo una parte dei dati viene sincronizzata dalle app per finanza e operazioni in Dataverse o i dati non vengono sincronizzati affatto.
 
 > [!NOTE]
 > È necessario risolvere questo problema durante la fase di sviluppo.
@@ -200,13 +200,13 @@ Prima di iniziare a risolvere il problema, rivedere i seguenti prerequisiti:
 
 + Assicurarsi che le modifiche personalizzate siano scritte in un unico ambito di transazione.
 + Gli eventi aziendali e il framework a doppia scrittura non gestiscono operazioni `doinsert()`, `doUpdate()` e `recordset()` o record in cui `skipBusinessEvents(true)` è contrassegnato. Se il codice è all'interno di queste funzioni, la doppia scrittura non verrà attivata.
-+ Gli eventi aziendali devono essere registrati per l'origine dati mappata. Alcune origini dati potrebbero utilizzare un outer join e potrebbero essere contrassegnate come di sola lettura nelle app Finance and Operations. Queste origini dati non vengono tracciate.
++ Gli eventi aziendali devono essere registrati per l'origine dati mappata. Alcune origini dati potrebbero utilizzare un outer join e potrebbero essere contrassegnate come di sola lettura nelle app per finanza e operazioni. Queste origini dati non vengono tracciate.
 + Le modifiche verranno attivate solo se sono sui campi mappati. Le modifiche ai campi non mappati non attiveranno la doppia scrittura.
 + Assicurarsi che le valutazioni dei filtri forniscano un risultato valido.
 
 ### <a name="troubleshooting-steps"></a>Passaggi per la risoluzione dei problemi
 
-1. Rivedere i mapping dei campi nella pagina di amministrazione a doppia scrittura. Se un campo non è mappato dalle app Finance and Operations in Dataverse, non verrà tracciato. Ad esempio, nella figura seguente, il campo **Descrizione** è tracciato da Dataverse ma non dalle app Finance and Operations. Nessuna modifica a tale campo all'interno delle app Finance and Operations verrà tracciata.
+1. Rivedere i mapping dei campi nella pagina di amministrazione a doppia scrittura. Se un campo non è mappato dalle app per finanza e operazioni in Dataverse, non verrà tracciato. Ad esempio, nella figura seguente, il campo **Descrizione** è tracciato da Dataverse ma non dalle app per finanza e operazioni. Nessuna modifica a tale campo all'interno delle app per finanza e operazioni verrà tracciata.
 
     ![Campo tracciato.](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ Prima di iniziare a risolvere il problema, rivedere i seguenti prerequisiti:
 
 ### <a name="sample-scenario"></a>Scenario di esempio
 
-Nelle app Finance and Operations, è presente un aggiornamento all'indirizzo per un record di contatto, ma la modifica dell'indirizzo non è sincronizzata in Dataverse. Questo scenario si verifica perché nessun record nella tabella **BusinessEventsDefinition** ha la combinazione della tabella interessata e dell'entità. Nello specifico, la tabella **LogisticsPostalAddress** non è l'origine dati diretta per l'entità **smmContactpersonCDSV2Entity**. L'entità **smmContactpersonCDSV2Entity** ha **smmContactPersonV2Entity** come origine dati e **smmContactPersonV2Entity**, a sua volta, ha **LogisticsPostalAddressBaseEntity** come origine dati. La tabella **LogisticsPostalAddress** è l'origine dati per **LogisticsPostalAddressBaseEntity**.
+Nelle app per finanza e operazioni, è presente un aggiornamento all'indirizzo per un record di contatto, ma la modifica dell'indirizzo non è sincronizzata in Dataverse. Questo scenario si verifica perché nessun record nella tabella **BusinessEventsDefinition** ha la combinazione della tabella interessata e dell'entità. Nello specifico, la tabella **LogisticsPostalAddress** non è l'origine dati diretta per l'entità **smmContactpersonCDSV2Entity**. L'entità **smmContactpersonCDSV2Entity** ha **smmContactPersonV2Entity** come origine dati e **smmContactPersonV2Entity**, a sua volta, ha **LogisticsPostalAddressBaseEntity** come origine dati. La tabella **LogisticsPostalAddress** è l'origine dati per **LogisticsPostalAddressBaseEntity**.
 
-Una situazione simile può verificarsi in alcuni modelli non standard, come i casi in cui la tabella che viene modificata nelle app Finance and Operations non è chiaramente collegata all'entità che la contiene. Ad esempio, i dati dell'indirizzo principale vengono calcolati sull'entità **smmContactPersonCDSV2Entity**. Il framework a doppia scrittura tenta di determinare in che modo una modifica a una tabella sottostante viene mappata alle entità. Di solito, questo approccio è sufficiente. Tuttavia, in alcuni casi, il collegamento è così complesso che è necessario essere specifici. È necessario assicurarsi che **RecId** della relativa tabella sia direttamente disponibile sull'entità. Quindi, aggiungere un metodo statico per monitorare la tabella per le modifiche.
+Una situazione simile può verificarsi in alcuni modelli non standard, come i casi in cui la tabella che viene modificata nelle app per finanza e operazioni non è chiaramente collegata all'entità che la contiene. Ad esempio, i dati dell'indirizzo principale vengono calcolati sull'entità **smmContactPersonCDSV2Entity**. Il framework a doppia scrittura tenta di determinare in che modo una modifica a una tabella sottostante viene mappata alle entità. Di solito, questo approccio è sufficiente. Tuttavia, in alcuni casi, il collegamento è così complesso che è necessario essere specifici. È necessario assicurarsi che **RecId** della relativa tabella sia direttamente disponibile sull'entità. Quindi, aggiungere un metodo statico per monitorare la tabella per le modifiche.
 
 Ad esempio, rivedere il metodo **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. **CustCustomerV3entity** e **VendVendorV2Entity** sono stati modificati per gestire questa situazione.
 
@@ -250,19 +250,19 @@ Per risolvere il problema, procedere come segue.
 5. Interrompere tutte le mappe a doppia scrittura che vengono create sull'entità **smmContactPersonCDSV2Entity**.
 6. Avviare la mappa. Dovrebbe venire visualizzata la nuova tabella (**LogisticsPostalAddress** in questo esempio) che si è iniziato a monitorare utilizzando la colonna **RefTableName** per la riga in cui il valore **refentityname** è uguale a **smmContactPersonCDSV2Entity** nella tabella **BusinessEventsDefinition**.
 
-## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Errore durante la creazione di un record in cui vengono inviati più record da un'app Finance and Operations a Dataverse nello stesso batch
+## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Errore durante la creazione di un record in cui vengono inviati più record da un'app per finanza e operazioni a Dataverse nello stesso batch
 
-Per qualsiasi transazione, un'app Finance and Operations crea dati in un batch e li invia come batch a Dataverse. Se due record vengono creati come parte della stessa transazione e fanno riferimento l'uno all'altro, è possibile che venga visualizzato un messaggio di errore simile all'esempio seguente nell'app Finance and Operations:
+Per qualsiasi transazione, un'app per finanza e operazioni crea dati in un batch e li invia come batch a Dataverse. Se due record vengono creati come parte della stessa transazione e fanno riferimento l'uno all'altro, è possibile che venga visualizzato un messaggio di errore simile all'esempio seguente nell'app per finanza e operazioni:
 
 *Impossibile scrivere i dati nell'entità aaa_fundingsources. Impossibile cercare ebecsfs_contracts con valori {PC00...}. Impossibile cercare aaa_fundingsources con valori {PC00...}. Scritture su aaa_fundingsources non riuscite con messaggio di errore Messaggio di eccezione: il server remoto ha restituito un errore: (400) Richiesta non valida.*
 
-Per risolvere il problema, creare relazioni di entità nell'app Finance and Operations per indicare che le due entità sono correlate tra loro e che i relativi record vengono gestiti nella stessa transazione.
+Per risolvere il problema, creare relazioni di entità nell'app per finanza e operazioni per indicare che le due entità sono correlate tra loro e che i relativi record vengono gestiti nella stessa transazione.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Abilitare la registrazione dettagliata dei messaggi di errore
 
-In un'app Finance and Operations, potrebbero verificarsi errori relativi all'ambiente Dataverse. Il messaggio di errore potrebbe non contenere il testo completo del messaggio o altri dati rilevanti. Per ottenere maggiori informazioni, puoi abilitare la registrazione dettagliata impostando il flag **IsDebugMode** che è presente sull'entità **DualWriteProjectConfigurationEntity** in tutte le configurazioni di progetto nelle app Finance and Operations.
+In un'app per finanza e operazioni, potrebbero verificarsi errori relativi all'ambiente Dataverse. Il messaggio di errore potrebbe non contenere il testo completo del messaggio o altri dati rilevanti. Per ottenere maggiori informazioni, puoi abilitare la registrazione dettagliata impostando il flag **IsDebugMode** che è presente sull'entità **DualWriteProjectConfigurationEntity** in tutte le configurazioni di progetto nelle app per finanza e operazioni.
 
-1. Aprire l'entità **DualWriteProjectConfigurationEntity** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilitare la modalità di progettazione nel componente aggiuntivo di Excel di Finance and Operations e aggiungere **DualWriteProjectConfigurationEntity** a un foglio di lavoro. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
+1. Aprire l'entità **DualWriteProjectConfigurationEntity** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilitare la modalità di progettazione nel componente aggiuntivo di Excel di Finanza e operazioni e aggiungere **DualWriteProjectConfigurationEntity** a un foglio di lavoro. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
 2. Impostare il flag **IsDebugMode** su **Sì** sul progetto.
 3. Eseguire lo scenario.
 4. I log dettagliati sono disponibili nella tabella **DualWriteErrorLog**. Per cercare i dati utilizzando il browser della tabella, utilizzare il seguente URL: `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -270,7 +270,7 @@ In un'app Finance and Operations, potrebbero verificarsi errori relativi all'amb
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>Errore durante l'aggiunta di un indirizzo per un cliente o un contatto
 
-Potrebbe venire visualizzato il seguente messaggio di errore quando si tenta di aggiungere un indirizzo per un cliente o un contatto nelle app Finance and Operations o Dataverse:
+Potrebbe venire visualizzato il seguente messaggio di errore quando si tenta di aggiungere un indirizzo per un cliente o un contatto nelle app per finanza e operazioni o Dataverse:
 
 *Impossibile scrivere dati sull'entità msdyn_partypostaladdresses.Writes per DirPartyPostalAddressLocationCDSEntity operazione non riuscita con messaggio di errore Richiesta non riuscita con codice di stato BadRequest e codice di errore CDS: 0x80040265 messaggio di risposta: si è verificato un errore nel plug-in. Esiste già un record con valori di attributo ID posizione. La chiave dell'entità Chiave ID posizione richiede che questo set di attributi contenga valori univoci. Selezionare valori univoci e riprovare.*
 
@@ -290,7 +290,7 @@ Per risolvere il problema, installare la versione del pacchetto di orchestrazion
 
 *"RecordError0":"Scrittura non riuscita per entità Clienti V3 con eccezione sconosciuta - Record di parte non trovato per il tipo di parte 'Organizzazione'"}.*
 
-Quando un cliente viene creato in Dataverse, viene generato un nuovo numero di parte. Il messaggio di errore viene visualizzato quando il record cliente, insieme alla parte, viene sincronizzato nelle app Finance and Operations, ma esiste già un record cliente con un numero di parte diverso.
+Quando un cliente viene creato in Dataverse, viene generato un nuovo numero di parte. Il messaggio di errore viene visualizzato quando il record cliente, insieme alla parte, viene sincronizzato nelle app per finanza e operazioni, ma esiste già un record cliente con un numero di parte diverso.
 
 Per risolvere il problema, trovare il cliente tramite la ricerca della parte. Se il cliente non esiste, creare un nuovo record cliente. Se il cliente esiste, utilizzare la parte esistente per creare il nuovo record cliente.
 
@@ -300,7 +300,7 @@ Potrebbe venire visualizzato il seguente messaggio di errore quando si tenta di 
 
 *Impossibile aggiornare il tipo di una parte da "DirOrganization" a "DirPerson", dovrebbe essere eseguita invece l'eliminazione della parte esistente seguita da un inserimento con il nuovo tipo.*
 
-In Dataverse, è presente una sequenza numerica sulla tabella **msdyn_party**. Quando viene creato un account in Dataverse, viene creata una nuova parte (ad esempio **Party-001** del tipo **Organizzazione**). Questi dati vengono inviati all'app Finance and Operations. Se l'ambiente Dataverse viene ripristinato o l'ambiente Finance and Operations è collegato a un ambiente Dataverse diverso e quindi viene creato un nuovo record contatto in Dataverse, viene creato un nuovo valore di parte che inizia con **Party-001**. Questa volta, il record della parte creato sarà **Party-001** del tipo **Persona**. Quando questi dati vengono sincronizzati, le app Finance and Operations mostrano il messaggio di errore precedente, perché il record della parte **Party-001** del tipo **Organizzazione** esiste già.
+In Dataverse, è presente una sequenza numerica sulla tabella **msdyn_party**. Quando viene creato un account in Dataverse, viene creata una nuova parte (ad esempio **Party-001** del tipo **Organizzazione**). Questi dati vengono inviati all'app per finanza e operazioni. Se l'ambiente Dataverse viene ripristinato o l'ambiente Finanza e operazioni è collegato a un ambiente Dataverse diverso e quindi viene creato un nuovo record contatto in Dataverse, viene creato un nuovo valore di parte che inizia con **Party-001**. Questa volta, il record della parte creato sarà **Party-001** del tipo **Persona**. Quando questi dati vengono sincronizzati, le app per finanza e operazioni mostrano il messaggio di errore precedente, perché il record della parte **Party-001** del tipo **Organizzazione** esiste già.
 
 Per risolvere il problema, modificare la sequenza numerica automatica per il campo **msdyn_partynumber** della tabella **msdyn_party** in Dataverse in una sequenza numerica automatica diversa.
 

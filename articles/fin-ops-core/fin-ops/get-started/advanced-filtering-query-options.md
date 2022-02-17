@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8bbecf85a13056225b0d35023d759456cade40fe10ca1978058abd8e47693ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740910"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070011"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintassi di query e filtro avanzata
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Questo argomento descrive le opzioni di filtro e query disponibili quando si utilizza la finestra di dialogo Filtro/ordinamento avanzato o l'operatore **corrisponde** a nel riquadro Filtro o nei filtri di intestazione di colonna.
 
@@ -119,9 +122,9 @@ Questo argomento descrive le opzioni di filtro e query disponibili quando si uti
 <td>Due doppie virgolette consecutive ( <strong> "" </strong>) trova le righe senza valore per la colonna corrente.</td>
 </tr>
 <tr>
-<td>(<span class="code">Query Finance and Operations</span>) (Query Finance and Operations tra parentesi)</td>
+<td>(<span class="code">Query di Finanza e operazioni</span>) (query Finanza e operazioni tra parentesi)</td>
 <td>Corrisponde a una query definita.</td>
-<td>Digitare una query come un'istruzione SQL tra parentesi utilizzando il linguaggio di query Finance and Operations.</td>
+<td>Digita una query come un'istruzione SQL tra parentesi utilizzando il linguaggio di query Finanza e operazioni.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        come esempio di sintassi per una condizione di filtro su un campo dall'origine dati radice e un campo da un'origine dati diversa (per la pagina Tutti i clienti)</td>
 </tr>

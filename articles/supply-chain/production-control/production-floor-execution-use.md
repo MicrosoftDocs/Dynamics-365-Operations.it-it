@@ -2,7 +2,7 @@
 title: Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 description: Questo argomento descrive come utilizzare l'interfaccia di esecuzione dell'area di produzione dal punto di vista di un lavoratore.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920650"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075021"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -138,6 +138,65 @@ In questo caso, il lavoratore può specificare il coprodotto e la quantità da d
 Quando un lavoratore completa o completa parzialmente un processo, può dichiarare lo scarto selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara scarto**. Quindi, nella finestra di dialogo **Dichiara scarto** il lavoratore inserisce la quantità di scarto utilizzando la tastiera numerica. Il lavoratore seleziona anche un motivo (*Nessuno*, *Macchina*, *Operatore* o *Materiale*).
 
 ![Finestra di dialogo Dichiarazione scarto.](media/pfei-report-scrap-dialog.png "Finestra di dialogo Dichiarazione scarto")
+
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Regola il consumo di materiale ed effettua prenotazioni di materiale
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+I lavoratori possono regolare il consumo di materiale per ogni processo di produzione. Questa funzionalità viene utilizzata negli scenari in cui la quantità effettiva di materiali consumata da un processo di produzione era maggiore o minore della quantità pianificata. Pertanto, deve essere regolato per mantenere aggiornati i livelli di inventario.
+
+I lavoratori possono anche effettuare prenotazioni sul batch e sui numeri di serie dei materiali. Questa funzionalità viene utilizzata negli scenari in cui un lavoratore deve specificare manualmente quale batch di materiale o numeri di serie sono stati consumati, per soddisfare i requisiti di tracciabilità del materiale.
+
+I lavoratori possono specificare la quantità da rettificare selezionando **Rettifica materiale**. Questo pulsante è disponibile nelle posizioni seguenti:
+
+- Nella finestra di dialogo **Dichiara scarto**
+- Nella finestra di dialogo **Segnala stato**
+- Sulla barra degli strumenti a destra
+
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Regola il consumo di materiale dalle finestre di dialogo Dichiara scarto e Segnala stato
+
+Dopo che un lavoratore ha immesso la quantità da segnalare nella finestra di dialogo **Segnala stato** o **Dichiara scarto**, il pulsante **Regola il materiale** diventa disponibile. Quando l'utente seleziona questo pulsante, viene visualizzata la finestra di dialogo **Regola materiale**. Questa finestra di dialogo elenca gli articoli che si prevede di consumare quando la quantità buona o scartata viene dichiarata per il lavoro.
+
+L'elenco nella finestra di dialogo mostra le informazioni seguenti:
+
+- **Numero prodotto** – La rappresentazione generale prodotto e la variante prodotto.
+- **Nome prodotto** - Il nome del prodotto.
+- **Proposta** – La quantità stimata di materiale che verrà consumata quando viene segnalo lo stato o dichiarato lo scarto per la quantità specificata per il lavoro.
+- **Consumo** – La quantità effettiva di materiale che verrà consumata quando viene segnalo lo stato o dichiarato lo scarto per la quantità specificata per il lavoro.
+- **Prenotata** – La quantità di materiale che è stata fisicamente prenotata nell'inventario.
+- **Unità** – L'unità della distinta base.
+
+Nel lato destro della finestra di dialogo vengono visualizzate le informazioni seguenti:
+
+- **Numero prodotto** – La rappresentazione generale prodotto e la variante prodotto.
+- **Stimata** – Quantità stimata da consumare.
+- **Avviata** – La quantità che è stata avviata nel processo di produzione.
+- **Quantità rimanente** – La quantità che resta da consumare della quantità stimata.
+- **Quantità rilasciata** – La quantità non è stata ancora consumata.
+
+Sarà quindi possibile effettuare le azioni riportate di seguito:
+
+- Il lavoratore può specificare la quantità da rettificare per un materiale selezionando **regola consumo**. Dopo che la quantità è stata confermata, la quantità nella colonna **Consumo** viene aggiornata con la quantità rettificata.
+- Quando il lavoratore seleziona **Regola materiale**, viene creato un giornale di registrazione distinta di prelievo produzione. Questo giornale di registrazione contiene gli stessi articoli e le stesse quantità dell'elenco **Regola materiale**.
+- Quando il lavoratore regola una quantità nella finestra di dialogo **Regola materiale**, il campo **Proposta** della riga del giornale di registrazione corrispondente viene aggiornato con la stessa quantità. Se il lavoratore seleziona **Annulla** nella finestra di dialogo **Regola materiale**, la distinta di prelievo viene eliminata.
+- Se il lavoratore seleziona **OK**, la distinta di prelievo non viene eliminata. Verrà pubblicata quando il lavoro sarà segnalato nella finestra di dialogo **Dichiara scarto** o **Segnala stato**.
+- Se il lavoratore seleziona **Annulla** nella finestra di dialogo **Segnala stato** o **Dichiara scarto**, la distinta di prelievo viene eliminata.
+
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Regolare il materiale dalla barra degli strumenti a destra
+
+Il pulsante **Regola materiale** può essere configurato in modo da essere visualizzato sulla barra degli strumenti a destra. (Per ulteriori informazioni, vedi [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md)). Un lavoratore può selezionare **Regola materiale** per un processo di produzione in corso. In questo caso, viene visualizzata la finestra di dialogo **Regola materiale** in cui l'operatore può apportare le modifiche desiderate. Quando si apre la finestra di dialogo, per l'ordine di produzione viene creata una distinta di prelievo di produzione che contiene le righe per le quantità rettificate. Se il lavoratore seleziona **Pubblica ora**, la rettifica viene confermata e la distinta di prelievo viene registrata. Se il lavoratore seleziona **Annulla**,la distinta di prelievo viene eliminata e non viene apportata aluna modifica.
+
+### <a name="reserve-materials"></a>Prenotare materiali
+
+Nella finestra di dialogo **Regola materiale**, un lavoratore può effettuare e modificare le prenotazioni di materiale selezionando **Prenota materiale**. La finestra di dialogo **Prenota materiale** visualizzata mostra le scorte fisicamente disponibili per l'articolo per ciascuna dimensione di tracciabilità e stoccaggio.
+
+Se il materiale è abilitato per i processi di magazzino avanzati, l'elenco mostra solo le scorte fisicamente disponibili per il percorso dell'input di produzione per il materiale. Il percorso dell'input di produzione è definito sulla risorsa in cui è pianificato il processo di produzione. Se il numero dell'articolo è controllato dal batch o dal numero di serie, viene visualizzato l'elenco completo dei numeri di batch e di serie fisicamente disponibili. Per specificare una quantità da prenotare, il lavoratore può selezionare **Prenota materiale**. Per rimuovere una prenotazione esistente, il lavoratore può selezionare **Rimuovi prenotazione**.
+
+Per ulteriori informazioni su come configurare il percorso di input di produzione, vedere il seguente post del blog: [Configurazione della posizione dell'input di produzione](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+
+> [!NOTE]
+> Le prenotazioni che un lavoratore effettua nella finestra di dialogo **Prenota materiale** rimarranno quando il lavoratore seleziona **Annulla** nella finestra di dialogo **Segnala stato** o **Dichiara scarto**.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Completare un processo e iniziare un nuovo processo
 

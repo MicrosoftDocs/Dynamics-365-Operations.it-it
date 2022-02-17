@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bff3a6ad74d50e7b706d4df92b17a4a3af36521b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944817"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076990"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per la Polonia (legacy)
 
@@ -116,7 +116,7 @@ Nella procedura precedente sono state abilitate le estensioni che sono component
 
 ## <a name="design-of-extensions"></a>Progettazione delle estensioni
 
-L'esempio di integrazione della stampante fiscale per la Polonia si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Per ulteriori informazioni sulla progettazione della soluzione di integrazione fiscale, vedi [Panoramica di un progetto di esempio di integrazione fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+L'esempio di integrazione della stampante fiscale per la Polonia si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Per ulteriori informazioni sulla progettazione della soluzione di integrazione fiscale, vedi [Panoramica di un progetto di esempio di integrazione fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>Progettazione dell'estensione di Commerce Runtime
 
@@ -124,7 +124,7 @@ Lo scopo dell'estensione (provider di documenti) è di generare documenti specif
 
 L'estensione CRT è **Runtime.Extensions.DocumentProvider.PosnetSample**. Questa estensione genera una serie di comandi specifici della stampante in formato JavaScript Object Notation (JSON) definiti dalla specifica POSNET 19-3678.
 
-Per ulteriori informazioni sulla progettazione della soluzione di integrazione fiscale, vedi [Processo di registrazione fiscale ed esempi di integrazione fiscale per dispositivi fiscali](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+Per ulteriori informazioni sulla progettazione della soluzione di integrazione fiscale, vedi [Processo di registrazione fiscale ed esempi di integrazione fiscale per dispositivi fiscali e servizi](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>Gestore richieste
 

@@ -2,7 +2,7 @@
 title: Impostare un tenant B2C in Commerce
 description: Questo argomento descrive come configurare il tenant Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione del sito dell'utente in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 01/05/2022
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: dcd5c022c00070922e287a6b8750810ff76bc26f
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952446"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092461"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -109,7 +109,7 @@ Per creare l'applicazione B2C, attenersi alla procedura seguente.
 1. Per **URI di reindirizzamento**, inserisci i tuoi URL di risposta dedicati come tipo **Web**. Per informazioni sugli URL di risposta e su come formattarli, vedi [URL di risposta](#reply-urls) di seguito. È necessario inserire un URI di reindirizzamento/URL di risposta per abilitare i reindirizzamenti da Azure AD B2C al tuo sito quando un utente si autentica. L'URL di risposta può essere aggiunto durante il processo di registrazione o può essere aggiunto in un secondo momento selezionando il collegamento **Aggiungi un URI di reindirizzamento** dal menu **Panoramica** nella sezione **Panoramica** dell'applicazione B2C.
 1. Per **Autorizzazioni**, seleziona **Concedi il consenso dell'amministratore alle autorizzazioni openid e offline_access**.
 1. Seleziona **Registro**.
-1. Seleziona l'applicazione appena creata e vai al menu **Autorizzazioni API**. 
+1. Seleziona l'applicazione appena creata e vai al menu **Autenticazione**. 
 1. Se viene inserito un URL di risposta, in **Concessione implicita e flussi ibridi** seleziona entrambe le opzioni **Token di accesso** e **Token ID** per abilitarle per l'applicazione, quindi seleziona **Salva**. Se durante la registrazione non è stato inserito un URL di risposta, è possibile aggiungerlo anche in questa pagina selezionando **Aggiungi una piattaforma**, selezionando **Web** e quindi immettendo l'URI di reindirizzamento dell'applicazione. La sezione **Concessione implicita e flussi ibridi** sarà quindi disponibile per selezionare entrambe le opzioni **Token di accesso** e **Token ID**.
 1. Vai al menu **Panoramica** del portale di Azure e copia l'**ID applicazione (client)**. Prendi nota di questo ID per i passaggi di configurazione successivi (indicato in seguito come **GUID client**).
 
@@ -309,19 +309,15 @@ Una volta impostato il tenant Azure AD B2C, è necessario configurare il tenant 
 
 Per raccogliere le informazioni sull'applicazione richieste, attenersi alla seguente procedura.
 
-1. Nel portale di Azure, andare a **Home \> Azure AD B2C - Applicazioni**.
-1. Selezionare l'applicazione, quindi nel riquadro di navigazione a sinistra selezionare **Proprietà** per ottenere i dettagli dell'applicazione.
-1. Nella casella **ID applicazione**, raccogliere l'ID applicazione dell'applicazione B2C creata nel tenant B2C. Successivamente verrà inserito come **GUID client** in Creazione di siti Web.
-1. Sotto **URL di risposta**, raccogliere l'URL di risposta.
-1. Andare a **Home \> Azure AD B2C - Flussi utente (criteri)** e quindi raccogliere i nomi di ciascun criterio di flusso utente.
+1. Nel portale di Azure, andare a **Home \> Azure AD B2C - Registrazioni app**.
+1. Selezionare l'applicazione, quindi nel riquadro di navigazione a sinistra selezionare **Panoramica** per ottenere i dettagli dell'applicazione.
+1. Dal riferimento **ID (client) applicazione**, raccogliere l'ID applicazione dell'applicazione B2C creata nel tenant B2C. Successivamente verrà inserito come **GUID client** in Creazione di siti Web.
+1. Selezionare **Reindirizzare URI** e raccogli l'URL di risposta mostrato per il tuo sito (l'URL di risposta inserito durante l'installazione).
+1. Andare a **Home \> Azure AD B2C - Flussi utente** e quindi raccogliere i nomi completi di ciascun criterio di flusso utente.
 
-L'immagine seguente mostra un esempio di pagina **Azure AD B2C - Applicazioni**.
+L'immagine seguente mostra un esempio di pagina di panoramica **Azure AD B2C - Registrazioni app**.
 
-![Passare all'applicazione B2C all'interno del tenant.](./media/B2CImage_19.png)
-
-L'immagine seguente mostra un esempio di pagina **Proprietà** dell'applicazione in Azure AD B2C. 
-
-![Copiare l'ID applicazione dalle proprietà dell'applicazione B2C.](./media/B2CImage_21.png)
+![La pagina di panoramica Azure AD B2C - Registrazioni app con l'ID dell'applicazione (client)](./media/ClientGUID_Application_AzurePortal.png)
 
 L'immagine seguente mostra un esempio di criteri di flusso degli utenti nella pagina **Azure AD B2C - Flussi utente (criteri)**.
 

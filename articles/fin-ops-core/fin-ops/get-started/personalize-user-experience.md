@@ -2,7 +2,7 @@
 title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare l'app.
 author: jasongre
-ms.date: 11/08/2021
+ms.date: 01/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777987"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075424"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Questo argomento spiega come personalizzare l'app e tratta i seguenti argomenti: 
 
@@ -120,7 +124,9 @@ Nella barra degli strumenti **Personalizzazione** sono disponibili gli strumenti
 - Utilizzare lo strumento **Selezione** per selezionare e modificare le proprietà di un elemento. Per utilizzare questo strumento, selezionare il pulsante **Selezione** sulla barra degli strumenti quindi selezionare l'elemento desiderato. Viene visualizzata la finestra delle proprietà dell'elemento in cui è possibile modificare qualsiasi proprietà di tale elemento. È possibile ripetere il processo per altri elementi che possono essere personalizzati nella pagina. Tenere presente che alcune proprietà di personalizzazione potrebbero non essere disponibili in alcuni scenari. Ad esempio, non è possibile bloccare un campo obbligatorio.
 - Utilizzare lo strumento **Nascondi** per nascondere un elemento nella pagina. Per utilizzare questo strumento, selezionare il pulsante **Nascondi** sulla barra degli strumenti quindi selezionare l'elemento da nascondere. Quando si usa lo strumento **Nascondi**, tutti gli elementi correntemente nascosti diventano visibili, ma vengono visualizzati in un contenitore ombreggiato. È possibile rendere visibile un elemento selezionandolo. Per vedere come apparirà la pagina quando gli elementi sono nascosti, passare a un altro strumento di personalizzazione o chiudere la barra degli strumenti della personalizzazione.
 - Utilizzare lo strumento **Aggiungi campi** per aggiungere campi nella pagina. Quando si utilizza questo strumento, è possibile aggiungere solo i campi che fanno parte della definizione della pagina. Per informazioni su come creare nuovi campi che non fanno parte della definizione della pagina corrente, vedere [Creare e utilizzare campi personalizzati](user-defined-fields.md). Dopo aver selezionato il pulsante **Aggiungi campi** sulla barra degli strumenti, è necessario prima di tutto selezionare la griglia o sezione in cui si desidera aggiungere un campo. Viene visualizzata una finestra di dialogo con l'elenco di campi correlati alla griglia o alla sezione selezionata. Nella finestra di dialogo, selezionare uno o più campi da aggiungere dall'elenco **Campi consigliati** o **Tutti i campi**. Dopo aver scelto i campi desiderati, selezionare **Aggiorna**. Per rimuovere un campo aggiunto in precedenza, ripetere il processo, ma deselezionare il campo nella finestra di dialogo.
-    - L'elenco **Campi consigliati** mostra i campi che sono stati precedentemente aggiunti da altri utenti dell'organizzazione. Questo elenco di campi viene aggiornato in base alla frequenza di ricorrenza del **Processo batch raccomandazione**. È disponibile un'esperienza simile quando si aggiungono nuovi campi di filtro utilizzando il riquadro Filtro in una pagina.
+
+    L'elenco **Campi consigliati** mostra i campi che sono stati precedentemente aggiunti da altri utenti dell'organizzazione. Questo elenco di campi viene aggiornato in base alla frequenza di ricorrenza del **Processo batch raccomandazione**. È disponibile un'esperienza simile quando si aggiungono nuovi campi di filtro utilizzando il riquadro Filtro in una pagina.
+
 - Utilizzare lo strumento **Sposta** se si desidera spostare un elemento in un punto diverso nel gruppo corrente di elementi. Si noti che non è possibile spostare un elemento al di fuori del gruppo padre. Per utilizzare questo strumento, selezionare il pulsante **Sposta** sulla barra degli strumenti quindi selezionare l'elemento da spostare. Quando si seleziona un elemento, l'app determina le posizioni in cui l'elemento può essere spostato. Queste posizioni sono note come *aree di rilascio*. Man mano che si trascina l'elemento nel gruppo corrente, ogni zona di rilascio viene visualizzata come singola riga colorata e in grassetto accanto all'area in cui l'elemento può essere rilasciato.
 - Utilizzare lo strumento **Ignora** per rimuovere un elemento dalla sequenza di tabulazione della tastiera nella pagina. Quando si seleziona il pulsante **Ignora** sulla barra degli strumenti, tutti gli elementi correntemente ignorati vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere o rimuovere i campi in modo interattivo nella sequenza della scheda.
 - Utilizzare lo strumento **Mostra su intestazione** quando si desidera che un campo venga visualizzato nella sezione di riepilogo della Scheda dettaglio. Quando si seleziona il pulsante **Mostra su intestazione** sulla barra degli strumenti, tutti i campi che sono stati selezionati come campi riepilogativi vengono visualizzati in un contenitore ombreggiato. È possibile aggiungere e rimuovere in modo interattivo i campi dal riepilogo della Scheda dettaglio selezionando i campi interessati.
@@ -152,7 +158,10 @@ Per alcune pagine che includono gli elenchi, la funzionalità di personalizzazio
 
 - Per aggiungere un elenco a un'area di lavoro, prima di tutto ordinare o filtrare l'elenco nella pagina in modo che mostri le informazioni come si desidera vengano visualizzate nell'area di lavoro. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Elenco**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile selezionare le colonne da visualizzare nell'elenco nell'area di lavoro. È possibile inoltre specificare l'etichetta da utilizzare per l'elenco nell'area di lavoro.
 - Per aggiungere un riquadro a un'area di lavoro, filtrare prima di tutto l'elenco nella pagina in modo da mostrare i dati da riepilogare o a cui si desidera accedere rapidamente. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Riquadro**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile specificare l'etichetta da utilizzare per il riquadro nell'area di lavoro. È inoltre possibile specificare se il riquadro deve visualizzare un conteggio. Una volta che il riquadro è aggiunto all'area di lavoro, è possibile selezionarlo per aprire la pagina corrente dall'area di lavoro. Sarà quindi possibile visualizzare l'elenco filtrato associato al riquadro.
-- Per aggiungere un collegamento a un'area di lavoro, filtrare innanzitutto l'elenco nella pagina in modo da mostrare i dati desiderati. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Collegamento**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile specificare l'etichetta da utilizzare per il collegamento. È facoltativamente possibile specificare un'etichetta per una nuova sezione che contiene il collegamento.
+- Per aggiungere un collegamento a un'area di lavoro, filtrare innanzitutto l'elenco nella pagina in modo da mostrare i dati desiderati. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Collegamento**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile specificare l'etichetta da utilizzare per il collegamento. È facoltativamente possibile specificare un'etichetta per la sezione in cui verrà posizionato il collegamento. Se tale sezione non esiste, verrà creata una nuova sezione.
+
+> [!NOTE]
+> A partire dalla versione 10.0.25, quando si configura l'elenco, il riquadro o il collegamento, potrebbe essere necessario selezionare anche le viste dell'area di lavoro a cui si desidera aggiungere l'elemento se la funzionalità **(Anteprima) Supporto visualizzazioni salvate per aree di lavoro** è abilitata. Le visualizzazioni dell'area di lavoro disponibili appariranno nella sezione **Opzioni area di lavoro** di ogni finestra di dialogo **Configura**. 
 
 Dopo avere aggiunto l'elenco, il riquadro o il collegamento in un'area di lavoro, è possibile aprire l'area di lavoro e riordinare gli elementi come si desidera.
 
@@ -221,7 +230,7 @@ Se le visualizzazioni salvate non sono abilitate, seguire questi passaggi per co
 Un altro modo per condividere le personalizzazioni è tramite esportazione e importazione. I singoli utenti o un amministratore che agisce per loro conto possono utilizzare questo metodo per esportare le loro personalizzazioni o visualizzazioni e quindi fornire il file esportato ad altri utenti per l'importazione. In alternativa, gli utenti possono fornire le proprie personalizzazioni esportate a un utente che dispone dei privilegi di amministratore e tale utente può quindi utilizzare la pagina di amministrazione **Personalizzazione** per applicare il file di personalizzazione a più utenti contemporaneamente.
 
 > [!IMPORTANT]
-> Poiché le personalizzazioni persistono tra gli aggiornamenti, la reimportazione di tutte le personalizzazioni dopo un aggiornamento del servizio o in qualsiasi altro momento non è necessaria e altamente sconsigliata.   
+> Poiché le personalizzazioni persistono tra gli aggiornamenti, la reimportazione di tutte le personalizzazioni dopo un aggiornamento del servizio o in qualsiasi altro momento non è necessaria e altamente sconsigliata.
 
 #### <a name="export"></a>Esporta
 
@@ -271,11 +280,8 @@ Per i clienti che hanno attivato la funzionalità **Visualizzazioni salvate** ve
 Per i clienti che non hanno ancora attivato la funzionalità [Visualizzazioni salvate](saved-views.md), questa pagina include quattro schede:
 
 - **Applica** - È possibile importare o selezionare una personalizzazione per uno o più utenti. Per applicare una personalizzazione a uno o più utenti, selezionare innanzitutto un ruolo e gli utenti con quel ruolo. Selezionare quindi una personalizzazione esistente da applicare agli utenti selezionati o importare un file di personalizzazione. La personalizzazione viene convalidata e applicata a tutti gli utenti selezionati alla successiva apertura della pagina selezionata.
-
 - **Cancella** - È possibile cancellare tutte le personalizzazioni di una pagina o un'area di lavoro per uno o più utenti. Selezionare prima di tutto una pagina o un'area di lavoro per vedere l'elenco degli utenti che l'hanno personalizzata. Selezionare quindi gli utenti per i quali occorre cancellare le personalizzazioni della pagina o dell'area di lavoro e selezionare **Cancella**. Tutte le personalizzazione che gli utenti selezionati hanno applicato alla pagina o all'area di lavoro selezionata vengono cancellate. Non è possibile annullare questa azione. Se tuttavia una personalizzazione della pagina o dell'area di lavoro viene salvata, tale personalizzazione può essere reimportata.
-
 - **Utenti** - Selezionare un utente per visualizzare l'elenco delle pagine che l'utente ha personalizzato. È quindi possibile attivare o disattivare la capacità dell'utente selezionato di utilizzare la personalizzazione di pagine specifiche o dell'intero sistema. È inoltre possibile importare, esportare o cancellare una personalizzazione per l'utente. Inoltre, è possibile reimpostare i callout delle funzionalità per l'utente. In questo caso, se l'utente ha precedentemente ignorato una finestra popup che introduce nuove funzionalità, questa viene di nuovo visualizzata la volta successiva che l'utente rileva tali funzionalità.
-
 - **Sistema** - È possibile disattivare temporaneamente la personalizzazione per tutti gli utenti nel sistema. In questo caso, tutte le personalizzazione vengono eliminate per tutti gli utenti e tutte le pagine vengono reimpostate allo stato predefinito. Se si attivano nuovamente le personalizzazioni in un secondo momento, queste vengono applicate nuovamente. È inoltre possibile eliminare in modo permanente tutte le personalizzazioni per tutti gli utenti nel sistema. Le personalizzazioni che sono state eliminate non possono essere recuperate. Pertanto, prima di eseguire questa attività, assicurarsi di esportare tutte le personalizzazioni che si desidera importare successivamente.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalizzazione delle dimensioni inventariali

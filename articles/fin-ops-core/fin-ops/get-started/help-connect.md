@@ -1,5 +1,5 @@
 ---
-title: Configurare l'esperienza della Guida per le app Finance and Operations
+title: Configurare l'esperienza della Guida per le app per finanza e operazioni
 description: Questo argomento fornisce informazioni sui componenti del sistema della Guida per alcune app Microsoft Dynamics 365.
 author: margoc
 ms.date: 08/11/2021
@@ -15,22 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594859"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071010"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurare l'esperienza della Guida per le app Finance and Operations
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurare l'esperienza della Guida per le app per finanza e operazioni
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento, troverai una panoramica dei componenti del sistema della Guida per le app Finance and Operations, come Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources. L'argomento spiega inoltre come collegare tali componenti e fornisce un riepilogo del processo per la creazione di una Guida personalizzata.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+In questo argomento, troverai una panoramica dei componenti del sistema della Guida per le app per finanza e operazioni, come Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources. L'argomento spiega inoltre come collegare tali componenti e fornisce un riepilogo del processo per la creazione di una Guida personalizzata.
 
 ## <a name="help-architecture"></a>Architettura della Guida
 
-Le app Finance and Operations includono panoramiche concettuali e altri argomenti pubblicati sul sito della [documentazione di Microsoft Dynamics 365](/dynamics365/). È possibile accedere a questo contenuto dal riquadro della **Guida** interno al prodotto. La figura seguente mostra le parti della Guida.
+Le app per finanza e operazioni  includono panoramiche concettuali e altri argomenti pubblicati sul sito della [documentazione di Microsoft Dynamics 365](/dynamics365/). È possibile accedere a questo contenuto dal riquadro della **Guida** interno al prodotto. La figura seguente mostra le parti della Guida.
 
 [![Architettura della Guida.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -60,7 +63,7 @@ Per configurare le guide attività per una soluzione, attieniti alla seguente pr
 2. Selezionare le librerie BPM (nel progetto selezionato) da cui recuperare le registrazioni attività.
 3. Impostare l'ordine di visualizzazione delle librerie BPM. L'ordine di visualizzazione definisce l'ordine in cui le registrazioni attività delle librerie verranno visualizzate nel riquadro **Guida**.
 
-Dopo aver completato questi passaggi, puoi aprire il riquadro **Guida** e selezionare la scheda **Guide attività**. Vengono visualizzate le guide attività applicabili alla pagina attualmente aperta nelle app Finance and Operations. Se non viene trovata alcuna guida attività, è possibile immettere le parole chiave per ridefinire la ricerca.
+Dopo aver completato questi passaggi, è possibile aprire il riquadro **Guida** e selezionare la scheda **Guide attività**. Vengono visualizzate le guide attività applicabili alla pagina attualmente aperta nelle app per finanza e operazioni. Se non viene trovata alcuna guida attività, è possibile immettere le parole chiave per ridefinire la ricerca.
 
 ### <a name="showing-translated-task-guides"></a>Visualizzazione delle guide attività tradotte
 
@@ -84,7 +87,7 @@ Per i partner, se promuovi una libreria a libreria aziendale e la includi in una
 
 ### <a name="connect-a-custom-help-site"></a>Collega un sito della Guida personalizzato
 
-Le app Finance and Operations vengono utilizzate raramente nella loro forma predefinita. Invece, la soluzione è personalizzata ed estesa per soddisfare le esigenze dell'organizzazione. È inoltre possibile personalizzare ed estendere l'esperienza della Guida. Ad esempio, puoi aggiungere una Guida personalizzata al riquadro interno **Guida** del prodotto.
+Le app per finanza e operazioni vengono utilizzate raramente nella loro forma predefinita. Invece, la soluzione è personalizzata ed estesa per soddisfare le esigenze dell'organizzazione. È inoltre possibile personalizzare ed estendere l'esperienza della Guida. Ad esempio, puoi aggiungere una Guida personalizzata al riquadro interno **Guida** del prodotto.
 
 Microsoft ha fornito un toolkit per aiutarti a distribuire e connettere la Guida personalizzata al riquadro **Guida**. Per informazioni su come impostare una soluzione della Guida personalizzata connessa al riquadro **Guida**, vedi [Panoramica della Guida personalizzata](../../dev-itpro/help/custom-help-overview.md).
 

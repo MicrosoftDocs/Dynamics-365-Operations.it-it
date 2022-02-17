@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647562"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075502"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Elenco delle funzioni ER della categoria testo
 
@@ -35,6 +35,7 @@ Le funzioni di testo della creazione di report elettronici (ER) possono essere u
 | [Concatena](er-functions-text-concatenate.md) | Questa funzione restituisce tutte le stringhe di testo specificate come valore *Stringa* dopo che sono stati uniti in una stringa. |
 | [Formato](er-functions-text-format.md) | Questa funzione restituisce la stringa specificata come un valore *Stringa* dopo che è stata formattata sostituendo tutte le occorrenze di **%N** con l'argomento *N*-esimo. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Questa funzione cerca un valore *Enum* specifico nell'origine dati di enumerazione specificata utilizzando il nome dell'enumerazione specificato come un valore *Stringa*. Se viene trovato il valore *Enum*, la funzione lo restituisce. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Questa funzione cerca un'etichetta specifica da restituire al valore *[Stringa](er-formula-supported-data-types-primitive.md#string)* che rappresenta la traduzione dell'etichetta specificata nella lingua specificata. |
 | [GuidValue](er-functions-text-guidvalue.md) | Questa funzione converte l'input specificato del tipo *Stringa* in un elemento dati del tipo *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Questa funzione analizza i dati nel formato JSON (JavaScript Object Notation) accessibile nel percorso specificato ed estrae un valore scalare basato sull'ID specifico. Quindi restituisce il valore scalare estratto come valore *Stringa*. |
 | [Sinistra](er-functions-text-left.md) | Questa funzione restituisce un valore *Stringa* che presenta il numero specificato di caratteri dall'inizio della stringa specificata. |

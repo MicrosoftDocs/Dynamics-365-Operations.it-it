@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 20751a25a6dedb04806068780bc2f4e381bf79bc
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937455"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062492"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Creare e gestire utenti del portale clienti
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Nell'implementazione predefinita, gli utenti non possono autoregistrarsi per i siti Web creati utilizzando il portale clienti. Per accedere e utilizzare un sito Web, gli utenti devono essere invitati dall'amministratore. Microsoft ha intenzionalmente bloccato la funzionalità che consente agli utenti di autoregistrarsi.
 
@@ -30,10 +30,10 @@ Affinché un utente possa utilizzare un sito Web, è necessario creare un record
 
 Quando gli utenti si autoregistrano, i relativi record di contatto vengono creati automaticamente. Pertanto, non è possibile garantire che un utente selezioni l'account cliente e la persona giuridica corretti. D'altra parte, il processo di invito consente a un amministratore di assegnare l'account cliente e la persona giuridica corretti al record di contatto prima di inviare un invito. Se si intende personalizzare la soluzione di modo che gli utenti possano autoregistrarsi, considerare le possibili conseguenze.
 
-## <a name="video"></a>Video 
+## <a name="video"></a>Video
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-Il video su come [invitare i clienti a registrarsi e utilizzare il portale per i clienti](https://youtu.be/drGUYHX9QIQ) (mostrato in precedenza) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+Il video su come [invitare i clienti a registrarsi e utilizzare il portale per i clienti](https://youtu.be/drGUYHX9QIQ) (mostrato in precedenza) è incluso nella [playlist di Finanza e operazioni](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 ## <a name="prerequisite-setup"></a>Configurazione dei prerequisiti
 

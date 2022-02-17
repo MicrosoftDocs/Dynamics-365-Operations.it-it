@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: d6a7b1b21816db43a92364584e15ec04b891c611
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487843"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065708"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ## <a name="introduction"></a>Introduzione
 
@@ -212,7 +215,7 @@ Per un elenco di problemi noti con le visualizzazioni salvate, vedere [Creare mo
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Come si abilitano le visualizzazioni salvate nel proprio ambiente?
 
 > [!NOTE]
-> Nota: la funzionalità **Visualizzazione salvate** richiede il sistema di personalizzazione in Finance and Operations per essere abilitata. Se la personalizzazione è disattivata per l'intero ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura seguente. 
+> Nota: la funzionalità **Visualizzazione salvate** richiede il sistema di personalizzazione in Finanza e operazioni per essere abilitata. Se la personalizzazione è disattivata per l'intero ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura seguente. 
 
 Puoi attivare e disattivare la funzionalità **Visualizzazioni salvate** tramite la gestione delle funzionalità in qualsiasi ambiente. Dopo l'attivazione, le visualizzazioni salvate verranno abilitate in tutte le sessioni utente successive.
 

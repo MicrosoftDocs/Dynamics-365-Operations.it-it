@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 04a1a06dce79259e35ce66dda469e9b157d7ed1c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 50bdbe6c5f5d23f49bdf8040f2c7811a28da3f32
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983240"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062011"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Panoramica sul portale clienti per Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="what-is-the-customer-portal"></a>Cos'è il portale clienti?
 
@@ -38,11 +38,11 @@ Il modello di portale clienti include tutte le funzionalità di personalizzazion
 > [!NOTE]
 > La documentazione sul portale clienti è rivolta ad amministratori, personalizzatori e integratori di sistema che configureranno il portale clienti per un'installazione di Supply Chain Management. Nella documentazione vengono utilizzati i termini _cliente_ e _utente_ per descrivere persone che sono clienti dell'organizzazione che esegue Supply Chain Management e che useranno il portale finale.
 
-## <a name="video"></a>Video 
+## <a name="video"></a>Video
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-Il video della [panoramica del modello del portale clienti in Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (mostrato sopra) è incluso nella playlist di [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+Il video della [panoramica del modello del portale clienti in Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (mostrato sopra) è incluso nella playlist di [Finanza e operazioni](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 ## <a name="who-should-use-it"></a>Chi dovrebbe usarlo?
 
@@ -62,7 +62,7 @@ Il portale clienti viene fornito come modello di portali Power Apps. Dipende dai
 
 I [portali Power Apps](/powerapps/maker/portals/overview) sono una funzionalità che consente agli utenti di creare un sito Web rivolto verso l'esterno al quale possono accedere persone esterne all'organizzazione. È possibile creare portali con poco codice o senza codice. Il portale clienti è uno dei tanti [modelli di portale Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) messi a disposizione da Microsoft.
 
-La [doppia scrittura](/powerapps/maker/portals/overview) è un prodotto di infrastruttura predefinito che fornisce interazione quasi in tempo reale tra le app di interazione con i clienti e le app Finance and Operations. La doppia scrittura fornisce un'integrazione bidirezionale tra le app Finance and Operations e Microsoft Dataverse. Di conseguenza, offre un'esperienza utente integrata nelle app. Il portale clienti dipende da tabelle sincronizzate con la doppia scrittura. Affinché i dati di Supply Chain Management siano visualizzati nel portale clienti, è necessario abilitare la doppia scrittura per tutte le tabelle appropriate.
+La [doppia scrittura](/powerapps/maker/portals/overview) è un prodotto di infrastruttura predefinito che fornisce interazione quasi in tempo reale tra le app di interazione con i clienti e le app per finanza e operazioni. La doppia scrittura fornisce un'integrazione bidirezionale tra le app per finanza e operazioni e Microsoft Dataverse. Di conseguenza, offre un'esperienza utente integrata nelle app. Il portale clienti dipende da tabelle sincronizzate con la doppia scrittura. Affinché i dati di Supply Chain Management siano visualizzati nel portale clienti, è necessario abilitare la doppia scrittura per tutte le tabelle appropriate.
 
 ![Dipendenze del portale clienti.](media/customer-portal-elements.png "Dipendenze del portale clienti")
 

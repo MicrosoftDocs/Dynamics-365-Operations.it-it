@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471646"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069431"
 ---
 # <a name="message-processor-messages"></a>Messaggi dell'elaboratore messaggi
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471646"
 
 I messaggi dell'elaboratore messaggi vengono utilizzati durante l'esecuzione di unità di scala per cloud e rete perimetrale per [carichi di lavoro di produzione](cloud-edge-workload-manufacturing.md) e [carichi di lavoro di gestione del magazzino](cloud-edge-workload-warehousing.md).
 
-Una grande quantità di dati viene scambiata tra l'hub e gli ambienti di distribuzione delle unità di scala per mantenerli sincronizzati, ma solo alcuni di questi scambi di dati verranno elaborati dal *elaboratore messaggi*. È possibile visualizzare i messaggi elaborati dall'elaboratore messaggi andando a **Amministrazione di sistema > Elaboratore messaggi > Messaggi elaboratore messaggi**.
+L'hub e gli ambienti di distribuzione delle unità di scala scambiano una grande quantità di dati per rimanere sincronizzati. Alcuni di questi dati scambiati attiveranno la logica aggiuntiva nell'*elaboratore messaggi*. È possibile visualizzare i messaggi elaborati dall'elaboratore messaggi andando a **Amministrazione di sistema > Elaboratore messaggi > Messaggi elaboratore messaggi**.
 
 ## <a name="message-grid-columns-and-filters"></a>Colonne e filtri della griglia dei messaggi
 

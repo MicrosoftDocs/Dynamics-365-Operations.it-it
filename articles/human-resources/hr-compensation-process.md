@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484098"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071584"
 ---
 # <a name="process-compensation"></a>Processo retributivo
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Una volta che i parametri dell'evento processo sono stati salvati, fai clic sul 
 
 Fai clic sul pulsante **Aggiunti** nella scheda **Piani** per aggiungere un piano di retribuzione all'evento processo. Le colonne **Usa altro fattore**, **Fattore** e **Descrizione fattore** vengono utilizzate solo per i piani di retribuzione variabile e non vengono descritte in questo argomento.
 
-Salva il record, quindi fai clic sul pulsante **Aggiungi** nella scheda **Azioni** per aggiungere le azioni di retribuzione fissa per il piano selezionato. Utilizzare l'opzione **Abilita suggerimento** se si desidera immettere un importo diverso dall'incentivo produttività calcolato per l'azione. Per calcolare un'azione basata sul risultato dell'azione precedente per collegare più azioni di compensazione, seleziona l'opzione **Usa il risultato precedente**. Le azioni di retribuzione fissa sono tipi di logica retributiva a cui è possibile assegnare nomi descrittivi. Per i piani Scala e Fascia, è possibile aggiungere solo le azioni di retribuzione fissa dei seguenti tipi:
+Salva il record, quindi fai clic sul pulsante **Aggiungi** nella scheda **Azioni** per aggiungere le azioni di retribuzione fissa per il piano selezionato. Utilizzare l'opzione **Abilita suggerimento** se si desidera immettere un importo diverso dall'incentivo produttività calcolato per l'azione. Per calcolare un'azione basata sul risultato dell'azione precedente per collegare più azioni di compensazione, seleziona l'opzione **Usa il risultato precedente**. Le azioni di retribuzione fissa sono tipi di logica retributiva a cui è possibile assegnare nomi descrittivi. Per i piani **Scala** e **Fascia**, è possibile aggiungere solo le azioni di retribuzione fissa dei seguenti tipi:
 
-| Tipo di azione di retribuzione fissa. | Funzionalità                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tipo di azione di retribuzione fissa. | Funzionalità                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Capitale netto                        | Le azioni di capitale netto metteranno a confronto il livello retributivo del dipendente alla data di fine del ciclo con il punto di riferimento minimo per il livello indicato sulla mansione del dipendente. Se il livello di retribuzione di un dipendente è inferiore al punto di riferimento minimo, verrà calcolato l'incentivo necessario per portare il dipendente sul punto minimo dell'intervallo.                                                                                |
 | Merito                         | Le azioni di merito calcoleranno un incentivo in base al livello di retribuzione del dipendente alla data di fine del ciclo e la percentuale di incentivo trovata nel budget per incentivi fissi per il reparto, il sindacato e l'ubicazione del dipendente.                                                                                                                                                                                         |
 | Generale                       | Le azioni generali calcoleranno un incentivo in base alla percentuale o concederanno ai dipendenti un importo forfettario. Ciò viene determinato in base alle impostazioni di **Retribuzione fissa** della scheda **Generale**.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Salva il record, quindi fai clic sul pulsante **Aggiungi** nella scheda **Azioni
 
 È possibile aggiungere solo le azioni di **Retribuzione fissa** di tipo piano da passo a passo.
 
-| Tipo di azione di retribuzione fissa. | Funzionalità                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tipo di azione di retribuzione fissa. | Funzionalità                |
+|--------------------------------|------------------------------|
 | Graduale                           | Nella scheda **Generale**, indica se questa azione passaggio deve spostare i dipendenti in avanti di 0 passi, 1 passo o due passi.                                                                                  |
 |                                | **0 passi**: il dipendente riceverrà la retribuzione per il passo corrente che hanno superato.                                                                                                                      |
 |                                | **1 passo**: il sistema controllerà se il dipendente è già all'ultimo punto di riferimento per il livello.                                                                                             |
-|                                | **2 passi**: il sistema sposterà il dipendente in avanti di due passi sul livello corrente. Il sistema può spostare solo il dipendente di uno o zero passi se raggiunge l'ultimo punto di riferimento per il livello. |
+|                                | **2 passi**: il dipendente verrà spostato in avanti di due passi sul livello corrente. Il dipendente può spostarsi solo di uno o zero passi se raggiunge l'ultimo punto di riferimento per il livello. |
 
 ## <a name="run-the-compensation-process"></a>Eseguire il processo retributivo
 Dopo che l'evento processo è stato impostato con i campi data, i piani e le azioni necessari, è possibile fare clic su **Esegui processo** nella pagina **Evento processo**. Viene visualizzata la finestra di dialogo **Esegui eventi processo di retribuzione**. Fai clic sull'opzione **Mostra risultati di elaborazione** per vedere come gli importi di retribuzione sono stati calcolati per ciascun dipendente. Facendo clic su **OK** verrà eseguito il processo retributivo per tutti i dipendenti inclusi nei piani di retribuzione selezionati a partire dalla data di fine del ciclo.

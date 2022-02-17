@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23ac3067c03bf2cf336848301e8c27b60da8dc8c
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2a9753e220e62794b157340c9f8e6f8a053e9ba7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964833"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067985"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificare e distribuire strumenti per la selezione dei candidati
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Individuare un pool qualificato di candidati per coprire le posizioni aperte può essere difficile, in particolare quando una posizione richiede un set univoco di competenze. Tuttavia, i candidati con le competenze necessarie possono essere già dipendenti dell'organizzazione. È possibile trovare un set di competenze specifico tra i dipendenti esistenti o i nuovi candidati. Ciò consente al selezionatore di riunire e fare velocemente lo screening dei candidati che si sono proposti per la posizione aperta ora o in passato oppure di trovare i potenziali candidati dal pool di dipendenti esistente. Utilizza questa procedura per scoprire come la funzionalità di mapping delle competenze consenta di individuare la persona giusta per una posizione aperta. La società di dati dimostrativi **USMF** è stata utilizzata per creare questa procedura.
 

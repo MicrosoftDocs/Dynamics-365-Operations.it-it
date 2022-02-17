@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414716"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065043"
 ---
 # <a name="choose-a-data-integration-technology"></a>Scegliere una tecnologia di integrazione dei dati
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento fornisce informazioni per l'integrazione con i dati gestiti da Dynamics 365 Human Resources. Descrive diverse tecnologie di integrazione per aiutare a decidere quali tecnologie si adattano meglio alle proprie esigenze.
 
@@ -68,7 +71,7 @@ Le tabelle di Dataverse e le API associate sono l'opzione migliore per accedere 
 
 ### <a name="dmfdixf-entities"></a>Entità DMF/DIXF
 
-Human Resources, basato principalmente sulla stessa piattaforma delle applicazioni Finance and Operations, fornisce un [Data Management Framework (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF è anche noto come Data Import Export Framework (DIXF). Human Resources fornisce una serie di entità dati che è possibile utilizzare per l'importazione e l'esportazione di dati di Human Resources. Mentre le tabelle di Dataverse sono l'interfaccia di integrazione di dati preferita per le risorse umane, le entità DMF sono ancora utili in alcune circostanze, ad esempio:
+Human Resources, basato principalmente sulla stessa piattaforma delle applicazioni Finanza e operazioni fornisce un [Data Management Framework (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF è anche noto come Data Import Export Framework (DIXF). Human Resources fornisce una serie di entità dati che è possibile utilizzare per l'importazione e l'esportazione di dati di Human Resources. Mentre le tabelle di Dataverse sono l'interfaccia di integrazione di dati preferita per le risorse umane, le entità DMF sono ancora utili in alcune circostanze, ad esempio:
 
 - Le tabelle di Dataverse non sono ancora disponibili.
 
@@ -111,7 +114,7 @@ La funzionalità BYOD è appropriata per le soluzioni di reporting, integrazioni
 
 ### <a name="odata-enabled-entities"></a>Entità abilitate per OData
 
-La maggior parte delle entità DMF è abilitata anche per l'accesso tramite i servizi dati di Human Resources (OData). La documentazione fornita per il [servizio Finance and Operations OData](/dynamics365/unified-operations/dev-itpro/data-entities/odata) si applica a Human Resources, ad eccezione della creazione di entità esposte a OData.
+La maggior parte delle entità DMF è abilitata anche per l'accesso tramite i servizi dati di Human Resources (OData). La documentazione fornita per il [servizio OData Finanza e operazioni](/dynamics365/unified-operations/dev-itpro/data-entities/odata) si applica a Human Resources, ad eccezione della creazione di entità esposte a OData.
 
 Sebbene Dataverse e l'implementazione OData fornita da Dataverse (tramite l'[API Web di Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) sia preferita rispetto al servizio dati di Human Resources, questo servizio dati ha attualmente una copertura delle entità più completa per i dati di Human Resources.
 

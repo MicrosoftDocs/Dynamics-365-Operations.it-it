@@ -2,7 +2,7 @@
 title: Impostare le griglie retributive
 description: Le griglie retributive vengono utilizzate per definire e gestire le strutture di pagamento per i piani di retribuzione fissa.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483819"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071445"
 ---
 # <a name="set-up-compensation-grids"></a>Impostare le griglie retributive
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -66,29 +69,17 @@ Le griglie retributive vengono utilizzate per definire e gestire le strutture di
     * Ora verrà utilizzata la funzione di modifica di massa per incrementare gli importi in ogni livello successivo di una percentuale o un importo determinato. In questo esempio, ogni grado avrà una distribuzione del 12,5% tra i punti intermedi.  
 7. Nel campo **Tipo di rettifica** seleziona un'opzione.
 8. Nel campo **Importo di rettifica** immettere un numero.
-9. Trovare e selezionare il record desiderato nell'elenco.
-10. Trovare e selezionare il record desiderato nell'elenco.
-11. Trovare e selezionare il record desiderato nell'elenco.
-12. Trovare e selezionare il record desiderato nell'elenco.
-13. Fare clic su **Applica alla griglia**.
-14. Trovare e selezionare il record desiderato nell'elenco.
-15. Trovare e selezionare il record desiderato nell'elenco.
-16. Trovare e selezionare il record desiderato nell'elenco.
-17. Fare clic su **Applica alla griglia**.
-18. Trovare e selezionare il record desiderato nell'elenco.
-19. Trovare e selezionare il record desiderato nell'elenco.
-20. Fare clic su **Applica alla griglia**.
-21. Nell'elenco trovare e selezionare il record desiderato.
-22. Fare clic su Applica alla griglia.
+9. Nell'elenco trovare e selezionare il record desiderato.
+10. Fare clic su **Applica alla griglia**.
     * Ora verrà utilizzata la funzione di modifica di massa per rettificare i punti di riferimento minimo e massimo di ciascun livello. In questo esempio si utilizza una distribuzione del 50% in modo che il punto di riferimento minimo verrà rettificato a -20% e il massimo verrà rettificato a +20%.  
-23. Nel campo **Importo di rettifica** immettere un numero.
-24. Nel campo **Punto di riferimento** immetti o seleziona un valore.
-25. Nell'elenco contrassegnare tutte le righe o rimuoverne il contrassegno.
-26. Fare clic su **Applica alla griglia**.
-27. Nel campo **Importo di rettifica** immettere un numero.
-28. Nel campo **Punto di riferimento** immetti o seleziona un valore.
-29. Nell'elenco contrassegnare tutte le righe o rimuoverne il contrassegno.
-30. Fare clic su **Applica alla griglia**.
+11. Nel campo **Importo di rettifica** immettere un numero.
+12. Nel campo **Punto di riferimento** immetti o seleziona un valore.
+13. Nell'elenco contrassegnare tutte le righe o rimuoverne il contrassegno.
+14. Fare clic su **Applica alla griglia**.
+15. Nel campo **Importo di rettifica** immettere un numero.
+16. Nel campo **Punto di riferimento** immetti o seleziona un valore.
+17. Nell'elenco contrassegnare tutte le righe o rimuoverne il contrassegno.
+18. Fare clic su **Applica alla griglia**.
 
 
 

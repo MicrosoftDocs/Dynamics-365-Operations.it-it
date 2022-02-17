@@ -2,7 +2,7 @@
 title: Distribuire unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD
 description: Questo argomento spiega come eseguire il provisioning di unità di scala edge locali utilizzando hardware personalizzato e distribuzione basata su dati aziendali locali (LBD).
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920675"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024544"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Distribuire unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD
 
@@ -26,6 +26,13 @@ Le unità di scala edge svolgono un ruolo importante nella topologia ibrida dist
 Le unità di scala edge possono essere implementate creando dati aziendali locale(LBD) [ambiente locale](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) e quindi configurandolo per operare come un'unità di scala nella topologia ibrida distribuita per la gestione della supply chain. Ciò si ottiene associando l'ambiente LBD locale con un ambiente Supply Chain Management nel cloud, che è stato configurato per funzionare come hub.  
 
 Questo argomento descrive come configurare un ambiente LBD locale come unità di scala edge e quindi associarlo a un hub.
+
+## <a name="infrastructure-considerations"></a>Considerazioni sull'infrastruttura
+
+Le unità di scala periferiche vengono eseguite in ambienti locali, quindi i requisiti dell'infrastruttura sono abbastanza simili. Tuttavia, ci sono alcune differenze che dovrebbero essere considerate:
+
+- Le unità di scala perimetrali non utilizzano Financial Reporting, quindi non richiedono i nodi di Financial Reporting.
+- I carichi di lavoro di produzione e magazzino non sono ad alta intensità di calcolo, quindi prendi in considerazione di ridimensionare la potenza di calcolo per i nodi AOS di conseguenza.
 
 ## <a name="deployment-overview"></a>Panoramica distribuzione
 

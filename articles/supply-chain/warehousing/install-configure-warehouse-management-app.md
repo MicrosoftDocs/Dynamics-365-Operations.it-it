@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901991"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069381"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installare e connettere l'app per dispositivi mobili Gestione magazzino
 
@@ -143,6 +143,10 @@ L'autenticazione con Azure AD fornisce un modo sicuro per connettere un disposit
 I certificati possono essere utilizzati come segreti per dimostrare l'identità dell'applicazione quando viene richiesto un token. La parte pubblica del certificato viene caricata nella registrazione dell'app nel portale di Azure, mentre il certificato completo deve essere distribuito su ogni dispositivo in cui è installata l'app per dispositivi mobili Gestione magazzino. La tua organizzazione è responsabile della gestione del certificato in termini di rotazione e così via. Puoi utilizzare certificati autofirmati, ma è sempre necessario utilizzare certificati non esportabili.
 
 Devi rendere il certificato disponibile localmente su ciascun dispositivo su cui viene eseguita l'app per dispositivi mobili Gestione magazzino. Per informazioni su come gestire i certificati per i dispositivi controllati da Intune se utilizzi Intune, vedi [Usare i certificati per l'autenticazione in Microsoft Intune](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Configurare l'app per dispositivi mobili Warehouse Management per le unità di scala nel cloud e nella rete perimetrale
+
+Sono necessari alcuni passaggi aggiuntivi se intendi eseguire l'app per dispositivi mobili Warehouse Management in modo che funzioni su un'unità di scala cloud o perimetrale. Per istruzioni, vedi [Configurare l'app per dispositivi mobili Warehouse mobile per le unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurare l'applicazione importando le impostazioni di connessione
 
@@ -306,5 +310,6 @@ Se un dispositivo è perso o compromesso, è necessario rimuovere l'accesso a Su
 
 - [Impostazioni utente dispositivo mobile](mobile-device-user-settings.md)
 - [Assegnare icone e titoli dei passaggi per l'app per dispositivi mobili Warehouse Management](step-icons-titles.md)
+- [Configurare l'app per dispositivi mobili Warehouse Management per le unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

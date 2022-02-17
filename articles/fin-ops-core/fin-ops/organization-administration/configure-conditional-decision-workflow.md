@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36c4ff32a4cb6d10e363a1522cb48823c4f491dabe2845d390147b42cdfcec4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0fa708b4ac1f17a9ed6852a9eeb3e764b750a4a4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712245"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070960"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Configurare le decisioni condizionali in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Per configurare le proprietà di una decisione condizionale, attenersi alla procedura indicata di seguito.
 
@@ -36,7 +39,7 @@ Per immettere un nome per una decisione condizionale, effettuare le operazioni i
 1. Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
 2. Nel campo **Nome** immettere un nome univoco per la decisione condizionale.
 
-## <a name="set-conditions"></a> Impostare condizioni
+## <a name="set-conditions"></a>Impostare condizioni
 
 Il sistema determina quale ramo utilizzare valutando il documento inviato per determinare se soddisfa le condizioni specifiche.
 

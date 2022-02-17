@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465175"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071475"
 ---
 # <a name="create-a-closed-ended-question"></a>Creare una domanda chiusa
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ Le domande chiuse consentono di fornire opzioni tra cui l'intervistato può sceg
 2. Fare clic su **Nuovo**.
 3. Digitare un valore nel campo **Gruppo di risposte**.
 4. Digitare un valore nel campo **Descrizione**
-    * Utilizzare la funzionalità dei parametri casuali per posizionare in modo casuale le risposte un ordine diverso ogni volta che il gruppo di risposte viene utilizzato per una domanda.  
+    * Utilizzare la funzionalità dei **parametri casuali** per posizionare in modo casuale le risposte un ordine diverso ogni volta che il gruppo di risposte viene utilizzato per una domanda.  
 5. Fare clic su **Risposta**.
 6. Fare clic su **Nuovo**.
-    * Un numero progressivo controlla l'ordine in cui le risposte vengono visualizzate, a meno che l'opzione Parametri casuali non sia selezionata per il gruppo di risposte.  
+    * Un numero progressivo controlla l'ordine in cui le risposte vengono visualizzate, a meno che l'opzione **Parametri casuali** non sia selezionata per il **gruppo di risposte**.  
     * Alle risposte possono essere assegnati punti da utilizzare per l'assegnazione di punteggio nel questionario.  
 7. Nel campo **Punti** immettere un numero.
     * La risposta corretta può essere contrassegnata per indicare che la risposta selezionata è quella corretta. Questo può essere utilizzato per assegnare punteggio nel questionario.  
@@ -61,8 +64,8 @@ Le domande chiuse consentono di fornire opzioni tra cui l'intervistato può sceg
 ## <a name="create-the-question"></a>Creare la domanda
 1. Andare a **Questionario** > **Progettazione** > **Domande**.
 2. Fare clic su **Nuovo**.
-3. Utilizzare il campo Tipo per raggruppare domande correlate.
-    * È possibile utilizzare i tipi di input casella di controllo, pulsante alternativo o casella combinata per le domande chiuse.  
+3. Utilizzare il campo **Tipo** per raggruppare domande correlate.
+    * È possibile utilizzare i tipi di input **casella di controllo,** **pulsante alternativo** o **casella combinata** per le domande chiuse.  
 4. Nel campo **Tipo di input** selezionare un'opzione.
 5. Nel campo **Gruppo di risposte** immettere o selezionare un valore.
 6. Digitare un valore nel campo **Testo**.

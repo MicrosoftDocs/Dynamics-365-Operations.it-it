@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 883948c6e3f7b205d7e0f1f2b6adef1173616dc1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431127"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071455"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definire il processo retributivo e calcolare i risultati
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,13 +43,13 @@ I processi di retribuzione vengono utilizzati per determinare nuovi importi e pr
     * La data di attivazione transazione è la data in cui le nuove tariffe di retribuzione devono essere rese effettive. Molte società includono dei mesi tra la fine di un ciclo e la data in cui le nuove tariffe di retribuzione vengono rese effettive. Il tempo aggiuntivo viene utilizzato per elaborare e verificare la nuova retribuzione.  
 8. Nel campo **Data di attivazione transazione** immettere una data.
     * La data temporizzata viene utilizzata per i piani di retribuzione variabili che determinano l'importo del premio di un dipendente in base alla tariffa retributiva nel determinato momento.  
-    * La data di assunzione ripartizione proporzionale retribuzione fissa viene utilizzata con i piani di retribuzione fissa con la regola di assunzione Percentuale.  I dipendenti assunti tra l'inizio del ciclo e la data di assunzione ripartizione proporzionale retribuzione fissa riceveranno il 100% dell'incremento retributivo calcolato, anziché la percentuale proporzionale.  
+    * La data di assunzione ripartizione proporzionale retribuzione fissa viene utilizzata con i piani di retribuzione fissa con la regola di assunzione **Percentuale**. I dipendenti assunti tra l'inizio del ciclo e la data di assunzione ripartizione proporzionale retribuzione fissa riceveranno il 100% dell'incremento retributivo calcolato, anziché la percentuale proporzionale.  
 9. Nel campo **Data di assunzione ripartizione proporzionale retribuzione fissa** immettere una data.
     * La scadenza della revisione è la data entro cui tutti i risultati del processo devono essere stati esaminati in modo da poter essere caricati in modo un record di retribuzione dipendente prima della data di attivazione della transazione. Questo campo viene visualizzato solo a scopo informativo.  
 10. Immettere una data nel campo **Scadenza revisione**.
 11. Fare clic su **Salva**.
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurare i piani di retribuzione e le azioni per un processo retributivo.
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurare i piani di retribuzione e le azioni per un processo retributivo
 1. Fare clic su **Impostazioni**.
     * La pagina **Impostazione** viene utilizzata per selezionare le pianificazioni da elaborare come parte del processo di retribuzione nonché le azioni che devono essere eseguite in base a ciascun piano.  
 2. Nel campo **Piano** immettere o selezionare un valore.
@@ -56,7 +59,7 @@ I processi di retribuzione vengono utilizzati per determinare nuovi importi e pr
 6. Scegliere **Aggiungi**.
 7. Nel campo **Azione**, selezionare un tipo di azione **Merito**.
     * Le azioni di retribuzione possono essere concatenate tra loro utilizzando il campo **Usa risultato precedente** per indicare se l'azione selezionata deve utilizzare la retribuzione di base dei dipendenti o il risultato dell'azione precedente come punto di partenza per il calcolo dell'azione.  
-8. Selezionare **Sì** nel campo Usa risultato precedente.
+8. Selezionare **Sì** nel campo **Usa risultato precedente**.
 9. Scegliere **Aggiungi**.
 10. Nel campo **Azione**, selezionare un tipo di azione **Generale**.
     * I diversi tipi di azione di retribuzione abilitano campi diversi. Per un tipo di azione di retribuzione generale, è possibile specificare una percentuale di incremento o un importo di incremento.  
@@ -85,7 +88,7 @@ I processi di retribuzione vengono utilizzati per determinare nuovi importi e pr
 1. Fare clic su **Risultati processo**.
 2. Fare clic su **Risultati dei dipendenti**.
 3. Nell'elenco trovare e selezionare il record desiderato.
-4. Espandere la sezione Retribuzione fissa.
+4. Espandere la sezione **Retribuzione fissa**.
     * Espandere la scheda dettaglio per visualizzare i risultati del processo. Se l'opzione **Abilita suggerimenti** è stata contrassegnata per un'azione di retribuzione, i campi **Suggerimento** verranno abilitati per tale azione.  
 5. Nell'elenco trovare e selezionare il record desiderato.
     * I risultati per un singolo dipendente possono essere visualizzati facendo clic sul pulsante **Visualizza risultati**.  

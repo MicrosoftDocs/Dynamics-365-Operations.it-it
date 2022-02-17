@@ -2,7 +2,7 @@
 title: Configurazione per Finance Insights
 description: In questo argomento vengono illustrati i passaggi di configurazione che consentiranno al sistema di utilizzare le funzionalità disponibili in Finance Insights.
 author: ShivamPandey-msft
-ms.date: 11/19/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827030"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051372"
 ---
 # <a name="configuration-for-finance-insights"></a>Configurazione per Finance Insights
 
@@ -100,6 +100,9 @@ Dopo che il componente aggiuntivo è stato installato correttamente, potrebbe es
 
    Dopo l'esecuzione del processo **Verifica stato provisioning di Insights**, puoi abilitare le funzionalità di Finance Insights nell'area di lavoro **Gestione funzionalità**.
 
+> [!NOTE]
+> Se il processo **Verifica stato provisioning di Insights** non viene eseguito, vai a **Amministrazione di sistema** > **Informazioni** > **Processi batch**. Nel campo **Sistema di polling per l'automazione dei processi**, modifica il valore in **In attesa** per avviare il processo. 
+> 
 ## <a name="feedback-and-support"></a>Feedback e supporto
 
 Se vuoi fornire un feedback o hai bisogno di supporto, invia un'e-mail a [Finance Insights (anteprima)](mailto:fiap@microsoft.com).

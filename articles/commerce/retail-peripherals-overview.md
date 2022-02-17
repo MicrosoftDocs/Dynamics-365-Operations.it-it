@@ -2,7 +2,7 @@
 title: Periferiche
 description: In questo argomento vengono descritti i concetti correlati alle periferiche di Commerce.
 author: BrianShook
-ms.date: 02/06/2020
+ms.date: 02/04/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec991f34fcaa1a71a7e7aa3d1eaac4c6988acfa7
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986228"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092486"
 ---
 # <a name="peripherals"></a>Periferiche
 
 [!include[banner](includes/banner.md)]
+[!include[banner](includes/preview-banner.md)]
 
 In questo argomento vengono descritti i concetti correlati alle periferiche dei punti vendita. Sono descritti i vari modi che le periferiche possono essere collegate al POS e i componenti responsabili della gestione della connessione al POS.
 
@@ -34,13 +35,13 @@ In questo argomento vengono descritti i concetti correlati alle periferiche dei 
 
 ### <a name="pos-registers"></a>Registratori di cassa POS
 
-Navigazione: fare clic su **Retail e Commerce** &gt; **Impostazione canale** &gt; **POS** &gt; **Registratori di cassa**. Il registratore di cassa POS rappresenta un'entità utilizzata per definire le caratteristiche di un'istanza specifica del POS. Queste caratteristiche includono il profilo hardware o l'impostazione delle periferiche che verranno utilizzate nel registratore di cassa, il punto vendita a cui il registratore è mappato e l'esperienza visiva dell'utente che accede a tale registratore.
+Accesso: vai a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Registratori di cassa**. Il registratore di cassa POS rappresenta un'entità utilizzata per definire le caratteristiche di un'istanza specifica del POS. Queste caratteristiche includono il profilo hardware o l'impostazione delle periferiche che verranno utilizzate nel registratore di cassa, il punto vendita a cui il registratore è mappato e l'esperienza visiva dell'utente che accede a tale registratore.
 
 ### <a name="devices"></a>Periferiche
 
-Navigazione: fare clic su **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Dispositivi**. Un dispositivo è un'entità che rappresenta un'istanza fisica di un dispositivo che viene mappato a un registratore di cassa POS. Quando viene creato un dispositivo, viene mappato a un registratore di cassa POS. L'entità dispositivo tiene traccia delle informazioni sull'attivazione di un registratore di cassa POS, il tipo di client in uso e il pacchetto dell'applicazione che è stato distribuito in un dispositivo specifico. 
+Accesso: vai a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Dispositivi**. Un dispositivo è un'entità che rappresenta un'istanza fisica di un dispositivo che viene mappato a un registratore di cassa POS. Quando viene creato un dispositivo, viene mappato a un registratore di cassa POS. L'entità dispositivo tiene traccia delle informazioni sull'attivazione di un registratore di cassa POS, il tipo di client in uso e il pacchetto dell'applicazione che è stato distribuito in un dispositivo specifico. 
 
-I dispositivi possono essere mappati ai seguenti tipi di applicazione: Retail Modern POS, POS cloud vendita al dettaglio, Retail Modern POS – Windows Phone, Retail Modern POS – Android e Retail Modern POS – iOS.
+I dispositivi possono essere mappati ai seguenti tipi di applicazione: Retail Modern POS, POS cloud vendita al dettaglio, Retail Modern POS – Android e Retail Modern POS – iOS.
 
 ### <a name="modern-pos"></a>POS moderno
 
@@ -62,20 +63,20 @@ Modern POS per Android è una versione basata su Android del programma Modern PO
 
 Le periferiche POS sono dispositivi supportati in modo esplicito per le funzioni POS. Queste periferiche vengono suddivise in genere in classi specifiche. Per ulteriori informazioni sulle classi, vedere la sezione "Classi di dispositivi" in questo argomento.
 
-### <a name="hardware-station"></a>Hardware Station
+### <a name="hardware-station"></a>Stazione hardware
 
-Navigazione: fare clic su **Retail e Commerce** &gt; **Canali** &gt; **Punti vendita** &gt; **Tutti i punti vendita**. Selezionare un punto vendita, quindi fare clic sulla scheda dettaglio **Stazioni hardware**. L'impostazione **Stazione hardware** è un'impostazione a livello di canale utilizzata per definire le istanze in cui la logica della periferica viene distribuita. Questa impostazione a livello di canale viene utilizzata per determinare le caratteristiche della stazione hardware. Sarà inoltre utilizzata per elencare le stazioni hardware disponibili per un'istanza Modern POS in un punto vendita specifico. La stazione hardware è integrata nel programma Modern POS per Windows e Android. La stazione hardware può essere anche distribuita in modo indipendente come programma Microsoft Internet Information Services (IIS) autonomo. In questo caso, vi si può accedere tramite una rete.
+Accesso: vai a **Retail e Commerce \> Canali \> Punti vendita \> Tutti i punti vendita**. Seleziona un punto vendita, quindi seleziona la scheda dettaglio **Stazioni hardware**. L'impostazione **Stazione hardware** è un'impostazione a livello di canale utilizzata per definire le istanze in cui la logica della periferica viene distribuita. Questa impostazione a livello di canale viene utilizzata per determinare le caratteristiche della stazione hardware. Sarà inoltre utilizzata per elencare le stazioni hardware disponibili per un'istanza Modern POS in un punto vendita specifico. La stazione hardware è integrata nel programma Modern POS per Windows e Android. La stazione hardware può essere anche distribuita in modo indipendente come programma Microsoft Internet Information Services (IIS) autonomo. In questo caso, vi si può accedere tramite una rete.
 
 ### <a name="hardware-profile"></a>Profilo hardware
 
-Navigazione: Fare clic su **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili hardware**. Il profilo hardware è un elenco di dispositivi configurati per un registratore di cassa POS o una stazione hardware. Il profilo hardware può essere mappato direttamente a un registratore di cassa POS o a una stazione hardware.
+Accesso: vai a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**. Il profilo hardware è un elenco di dispositivi configurati per un registratore di cassa POS o una stazione hardware. Il profilo hardware può essere mappato direttamente a un registratore di cassa POS o a una stazione hardware.
 
 ## <a name="devices-classes"></a>Classi di dispositivi
 Le periferiche POS vengono suddivise in genere in classi. Questa sezione descrive e offre una panoramica dei dispositivi supportati da Modern POS.
 
 ### <a name="printer"></a>Stampante
 
-Le stampanti includono stampanti di ricevute POS tradizionali e stampanti a pagina intera. Stampante è supportata tramite OLE per Retail POS (OPOS) le interfacce driver di Microsoft Windows. Fino a due stampanti possono essere utilizzate contemporaneamente. Questa funzionalità supporta scenari in cui le ricevute dei clienti cash-and-carry vengono stampate sulle stampanti di ricevute, mentre gli ordini cliente, contenenti più informazioni, vengono stampati su una stampante a pagina intera. Le stampanti di ricevute possono essere connesse direttamente a un computer tramite USB, connesse a una rete via Ethernet o connesse mediante Bluetooth.
+Le stampanti includono stampanti di ricevute POS tradizionali e stampanti a pagina intera. Le stampanti sono supportate tramite OLE per Retail POS (OPOS) le interfacce driver di Microsoft Windows. Fino a due stampanti possono essere utilizzate contemporaneamente. Questa funzionalità supporta scenari in cui le ricevute dei clienti cash-and-carry vengono stampate sulle stampanti di ricevute, mentre gli ordini cliente, contenenti più informazioni, vengono stampati su una stampante a pagina intera. Le stampanti di ricevute possono essere connesse direttamente a un computer tramite USB, connesse a una rete via Ethernet o connesse mediante Bluetooth.
 
 ### <a name="scanner"></a>Scanner
 
@@ -99,7 +100,7 @@ I dispositivi di acquisizione firma possono essere connessi direttamente a un co
 
 ### <a name="scale"></a>Scala
 
-Le bilance possono essere connessa al computer tramite USP utilizzando i driver OPOS. Quando un prodotto contrassegnato come prodotto "pesato" viene aggiunto a una transazione, il POS legge il peso dalla bilancia, aggiunge il prodotto alla transazione e utilizza la quantità che la bilancia ha fornito.
+Le bilance possono essere connessa al computer tramite USB utilizzando i driver OPOS. Quando un prodotto contrassegnato come prodotto "pesato" viene aggiunto a una transazione, il POS legge il peso dalla bilancia, aggiunge il prodotto alla transazione e utilizza la quantità che la bilancia ha fornito.
 
 ### <a name="pin-pad"></a>Tastierino PIN
 
@@ -137,9 +138,15 @@ La stampa della ricevuta nel POS viene ottimizzata per OPOS. OPOS tende a essere
 
 Se i controlli OPOS sono disponibili per la stampante Windows in uso, la stampante deve comunque funzionare correttamente con Commerce.
 
-### <a name="universal-windows-platform"></a>Piattaforma UWP (Universal Windows Platform)
+### <a name="plug-and-play-devices"></a>Dispositivi plug and play
 
-UWP, nel caso di periferiche, è correlato a supporto di Windows per i dispositivi Plug and Play. Se un dispositivo Plug and Play è connesso a una versione di sistema operativo Windows che supporta quel tipo di dispositivo, non è necessario un driver per usare il dispositivo come previsto. Ad esempio, se Windows rileva un altoparlante Bluetooth, il sistema operativo sa che il dispositivo è del tipo di classe **Altoparlante**. Di conseguenza gestisce tale dispositivo come altoparlante. Non sono necessarie configurazioni aggiuntive. Nel caso di dispositivi POS, molti dispositivi USB possono essere collegati e Windows li riconoscerà come Human Interface Device (HID). Tuttavia, potrebbe non riuscire a determinare le funzionalità fornite dal dispositivo, poiché il dispositivo non specifica la classe o il tipo. In Windows 10, classi di dispositivi per i lettori di codice a barre e i MSR sono state aggiunte. Di conseguenza, se un dispositivo si dichiara a Windows 10 come di una di queste classi, Windows aspetterà gli eventi dal dispositivo nei momenti appropriati. Modern POS supporta MSR e scanner UWP. Pertanto, quando è pronto per l'input da uno di questi dispositivi e un dispositivo appartenente a una di queste classi è connesso, il dispositivo può essere utilizzato. Ad esempio, se uno scanner di codice a barre UWP viene collegato a un computer Windows 10 e l'accesso con codice a barre è configurato per Modern POS, lo scanner di codici a barre diventerà attivo nella schermata di accesso. Non sono necessarie configurazioni aggiuntive. Ulteriori classi di dispositivi UWP punto di servizio sono in corso di aggiunta a Windows. Queste classi includono le classi dei cassetti di cassa e le stampanti di ricevute. IL supporto per queste nuove classi di dispositivi in Modern POS è in sospeso.
+Se un dispositivo Plug and Play è connesso a una versione di sistema operativo Windows che supporta quel tipo di dispositivo, non è necessario un driver per usare il dispositivo come previsto. Ad esempio, se Windows rileva un altoparlante Bluetooth, il sistema operativo sa che il dispositivo è del tipo di classe "Altoparlante" e considera tale dispositivo come un altoparlante. Non sono necessarie configurazioni aggiuntive. 
+
+Nel caso di periferiche POS, molti dispositivi USB possono essere collegati e riconosciuti dal sistema operativo Windows come Human Interface Device (HID). Tuttavia, Windows potrebbe non riuscire a determinare le funzionalità fornite dal dispositivo, poiché il dispositivo non specifica la classe o il tipo. In Windows 10, classi di dispositivi per i lettori di codice a barre e i MSR sono state aggiunte. Di conseguenza, se un dispositivo si dichiara a Windows 10 come di una di queste classi, Windows aspetterà gli eventi dal dispositivo nei momenti appropriati.
+
+Modern POS supporta MSR e scanner UWP. Pertanto, quando Modern POS è pronto per l'input da uno di questi dispositivi e un dispositivo appartenente a una di queste classi di dispositivo è connesso, il dispositivo può essere utilizzato. Ad esempio, se uno scanner di codice a barre plug and play viene collegato a un computer Windows 10 e l'accesso con codice a barre è configurato per Modern POS, lo scanner di codici a barre diventerà attivo nella pagina di accesso. Non sono necessarie configurazioni aggiuntive.
+
+Altri classi di periferiche POS vengono aggiunte a Windows, come le classi per i cassetti di cassa e le stampanti per ricevute. IL supporto per queste nuove classi di dispositivi in Modern POS è in sospeso.
 
 ### <a name="keyboard-wedge"></a>Lettore collegato alla tastiera
 
@@ -148,9 +155,9 @@ I lettori collegati alla tastiera inviano i dati nel computer come se tali dati 
 > [!NOTE]
 > Quando nel POS vengono utilizzati scanner con lettore collegato alla tastiera, è necessario programmarli per inviare un ritorno a capo, o un evento **Immetti**, dopo l'ultimo carattere sottoposto a scansione. Se questa configurazione non viene eseguita, gli scanner con lettore collegato alla tastiera non funzioneranno correttamente. Consultare la documentazione fornita dal produttore del dispositivo per i dettagli su come aggiungere l'evento di ritorno a capo.  
 
-### <a name="native-printer"></a>Stampante nativa
+### <a name="device-printers"></a>Stampanti per dispositivi
 
-Le stampanti native (o "Dispositivo" come il tipo denominato nel profilo hardware) possono essere configurate per la richiesta all'utente di selezionare una stampante configurata per il computer. Quando una stampante del tipo **Dispositivo** è configurata, se Modern POS rileva un comando di stampa, all'utente viene chiesto di selezionare una stampante in un elenco. Questo comportamento è diverso dal funzionamento dei driver di Windows, poiché il tipo di stampante **Windows** nel profilo hardware non mostra un elenco delle stampanti. Invece, richiede che una stampante denominata viene fornita nel campo **Nome dispositivo**.
+Le stampanti del tipo "Dispositivo" possono essere configurate per la richiesta all'utente di selezionare una stampante configurata per il computer. Quando una stampante del tipo "Dispositivo" è configurata, se Modern POS rileva un comando di stampa, all'utente viene chiesto di selezionare una stampante in un elenco. Questo comportamento è diverso dal funzionamento dei driver di "Windows", poiché il tipo di stampante Windows nel profilo hardware non mostra all'utente un elenco delle stampanti. Invece, richiede che una stampante denominata viene fornita nel campo **Nome dispositivo**.
 
 ### <a name="network"></a>Rete
 
@@ -162,9 +169,14 @@ i cassetti di cassa, le stampanti di ricevute e i terminali di pagamento indiriz
 
 Client Modern POS per Windows e Android includono stazioni hardware integrate o **Dedicate**. Tali client possono comunicare direttamente con le periferiche utilizzando la logica aziendale integrata nelle applicazioni. L'applicazione Android supporta solo dispositivi di rete. Per ulteriori informazioni sul supporto periferico per Android, consultare l'articolo [Impostare l'app POS Hybrid su Android e iOS](./dev-itpro/hybridapp.md).
 
-Per utilizzare la stazione hardware dedicata, assegnare un profilo hardware a un registratore di cassa che utilizzerà Modern POS per le applicazioni Windows o Android. Quindi creare una stazione hardware di tipo **Dedicato** per il punto vendita in cui il registratore di cassa verrà utilizzato. Avviare il Modern POS  in modalità non cassetto e utilizzare l'operazione **Gestisci stazioni hardware** per attivare le funzionalità della stazione hardware; la stazione hardware dedicata sarà attiva per impostazione predefinita. Quindi, disconnettersi dal Modern POS, quindi accedere nuovamente e aprire un turno e le periferiche configurate nel profilo hardware saranno utilizzabili. 
+Per utilizzare la stazione hardware dedicata, effettuare le operazioni indicate di seguito.
 
-### <a name="shared"></a>Condivisa 
+1. Assegna un profilo hardware a un registratore di cassa che utilizzerà Modern POS per le applicazioni Windows o Android.
+1. Creare una stazione hardware di tipo "Dedicato" per il punto vendita in cui il registratore di cassa verrà utilizzato. 
+1. Apri Modern POS in modalità non cassetto e utilizza l'operazione **Gestisci stazioni hardware** per attivare le funzionalità della stazione hardware. La stazione hardware dedicata sarà attiva per impostazione predefinita. 
+1. Esci da Modern POS. Quindi connettiti nuovamente e apri un turno. Le periferiche configurate nel profilo hardware saranno ora utilizzabili. 
+
+### <a name="shared"></a>Condiviso 
 
 A volte indicato anche come stazione hardware "IIS", con "IIS" che indica che l'applicazione POS si collega alla stazione hardware tramite Microsoft Internet Information Services. L'applicazione POS si connette alla stazione hardware IIS mediante servizi Web che vengono eseguiti in un computer in cui i dispositivi sono connessi. Se la stazione hardware condivisa è utilizzata, le periferiche connesse alla stazione hardware possono essere utilizzate da qualsiasi registratore di cassa POS incluso nella stessa rete della stazione hardware IIS. Poiché solo Modern POS per Windows e Android include il supporto integrato per le periferiche, tutte le altre applicazioni Modern POS devono utilizzare la stazione hardware IIS per comunicare con le periferiche POS configurate nel profilo hardware. Di conseguenza, ciascuna istanza della stazione hardware IIS richiede un computer che esegue il servizio Web e l'applicazione che comunica con i dispositivi. 
 
@@ -207,8 +219,8 @@ Per informazioni, vedere [Impostare l'app POS Hybrid su Android e iOS](./dev-itp
 
 Per ulteriori informazioni sui componenti OPOS, vedere la sezione "Interfacce supportate" di questo documento. In genere, i driver OPOS vengono forniti dal produttore del dispositivo. Quando un driver di dispositivo OPOS viene installato, aggiunge una chiave al Registro di sistema di Windows in uno dei seguenti percorsi:
 
--   **Sistema a 32 bit:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **Sistema a 64 bit:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **Sistema a 32 bit:** HKEY\_LOCAL\_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS
+-   **Sistema a 64 bit:** HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\OLEforRetail\ServiceOPOS
 
 Nel percorso del registro ServiceOPOS, i dispositivi configurati sono organizzati in base alla classe di dispositivo OPOS. Più driver di dispositivo vengono salvati.
 
@@ -488,9 +500,9 @@ Questa configurazione è la configurazione più tipica per i registratori di cas
     > [!NOTE]
     > Non è necessario impostare alcuna altra proprietà nella stazione hardware. Tutte le altre informazioni obbligatorie, ad esempio il profilo hardware, verranno dal registratore di cassa stesso.
 
-4.  Fare clic su **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**.
-5.  Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
-6.  Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
+4.  Selezionare **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**.
+5.  Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Seleziona **Esegui adesso** per sincronizzare le modifiche al POS.
+6.  Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Seleziona **Esegui adesso** per sincronizzare le modifiche al POS.
 7.  Installare e attivare Modern POS per Windows.
 8.  Avviare Modern POS per Windows e iniziare a utilizzare le periferiche connesse.
 
@@ -515,18 +527,18 @@ Questa configurazione può essere utilizzata per tutti i client Modern POS con l
     -   **Numero POS EFT** - ID del terminale EFT da utilizzare quando le autorizzazioni EFT vengono inviate. Questo ID viene fornito dal sistema di elaborazione delle carte di credito.
     -   **Nome pacchetto**: il pacchetto della stazione hardware da utilizzare per la stazione hardware è distribuita.
 
-4.  Fare clic su **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**.
-5.  Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
-6.  Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
+4.  Selezionare **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**.
+5.  Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Seleziona **Esegui adesso** per sincronizzare le modifiche al POS.
+6.  Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Seleziona **Esegui adesso** per sincronizzare le modifiche al POS.
 7.  Installare la stazione hardware. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md).
 8.  Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere [Configurare, installare e attivare Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 9.  Accedere Modern POS e selezionare **Eseguire operazioni non relative al cassetto**.
 10. Avviare l'operazione **Gestisci stazioni hardware**
-11. Fare clic su **Gestisci**.
+11. Seleziona **Gestisci**.
 12. Nella pagina della gestione della stazione hardware, impostare l'opzione per abilitare la stazione hardware.
-13. Selezionare la stazione hardware da utilizzare e fare clic su **Associa**.
-14. Dopo che la stazione hardware è associata, fare clic su **Chiudi**.
-15. Nella pagina di selezione della stazione hardware, fare clic sulla stazione hardware appena selezionata in modo che diventi attiva.
+13. Seleziona la stazione hardware da utilizzare e seleziona **Associa**.
+14. Dopo che la stazione hardware è associata, seleziona **Chiudi**.
+15. Nella pagina di selezione della stazione hardware, seleziona la stazione hardware appena selezionata in modo che diventi attiva.
 
 ### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Tutti i client Modern POS hanno una stazione hardware IIS condivisa
 
@@ -538,28 +550,28 @@ Questa configurazione può essere utilizzata per tutti i client Modern POS che c
     -   **Nome host** il nome del computer host in cui la stazione hardware viene eseguita.
     -   **Descrizione** - Testo che consente di identificare la stazione hardware, come **Resi** o **Fronte negozio**.
     -   **Porta** – la porta da utilizzare per la stazione hardware comunicare con il client Modern POS.
-    -   **Profilo hardware**  - per le stazioni hardware condivise, ogni stazione hardware deve disporre di un profilo hardware. I profili hardware possono essere condivisi tra le stazioni hardware, ma devono essere mappati a ogni stazione hardware. Inoltre, si consiglia di utilizzare i turni condivisi quando più dispositivi usano la stessa stazione hardware condivisa. Per impostare un turno condiviso, fare clic su **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili hardware**. Per ciascun profilo hardware condiviso, selezionare il cassetto della cassa e impostare l'opzione **Cassetto turno condiviso** su **Sì**.
+    -   **Profilo hardware**  - per le stazioni hardware condivise, ogni stazione hardware deve disporre di un profilo hardware. I profili hardware possono essere condivisi tra le stazioni hardware, ma devono essere mappati a ogni stazione hardware. Inoltre, si consiglia di utilizzare i turni condivisi quando più dispositivi usano la stessa stazione hardware condivisa. Per impostare un turno condiviso, vai a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**. Per ciascun profilo hardware condiviso, selezionare il cassetto della cassa e impostare l'opzione **Cassetto turno condiviso** su **Sì**.
     -   **Numero POS EFT** - ID del terminale EFT da utilizzare quando le autorizzazioni EFT vengono inviate. Questo ID viene fornito dal sistema di elaborazione delle carte di credito.
     -   **Nome pacchetto**: il pacchetto della stazione hardware da utilizzare per la stazione hardware è distribuita.
 
 4.  Ripetere i passaggi 2 e 3 per ciascuna stazione hardware aggiuntiva necessaria nel punto vendita.
-5.  Fare clic su **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**.
-6.  Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
-7.  Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Fare clic su **Esegui adesso** per sincronizzare le modifiche al POS.
+5.  Selezionare **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**.
+6.  Selezionare la programmazione di distribuzione **1090** per sincronizzare il nuovo profilo hardware al punto vendita. Seleziona **Esegui adesso** per sincronizzare le modifiche al POS.
+7.  Selezionare la programmazione di distribuzione **1040** per sincronizzare la nuova stazione hardware al punto vendita. Seleziona **Esegui adesso** per sincronizzare le modifiche al POS.
 8.  Installare la stazione hardware in ogni computer host impostato nel passaggio 2 e 3. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md).
 9.  Installare e attivare Modern POS, Per ulteriori informazioni su come installare Modern POS, vedere [Configurare, installare e attivare Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 10. Accedere Modern POS e selezionare **Eseguire operazioni non relative al cassetto**.
 11. Avviare l'operazione **Gestisci stazioni hardware**
 
-12. Fare clic su **Gestisci**.
+12. Seleziona **Gestisci**.
 13. Nella pagina della gestione della stazione hardware, impostare l'opzione per abilitare la stazione hardware.
-14. Selezionare la stazione hardware da utilizzare e fare clic su **Associa**.
+14. Seleziona la stazione hardware da utilizzare e seleziona **Associa**.
 15. Ripetere il passaggio 14 per ogni stazione hardware che Modern POS userà.
-16. Dopo avere associato tutte le stazioni hardware richieste, fare clic su **Chiudi**.
-17. Nella pagina di selezione della stazione hardware, fare clic sulla stazione hardware appena selezionata in modo che diventi attiva. 
+16. Dopo avere associato tutte le stazioni hardware richieste, seleziona **Chiudi**.
+17. Nella pagina di selezione della stazione hardware, seleziona la stazione hardware appena selezionata in modo che diventi attiva. 
 
 > [!NOTE]
-> Se i dispositivi usano spesso diverse stazioni hardware, si consiglia di configurare Modern POS per chiedere ai cassieri di selezionare una stazione hardware quando avviano il processo di incasso. Fare clic su **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**. Selezionare il registratore di cassa quindi impostare l'opzione **Seleziona al momento del pagamento** su **Sì**. Utilizzare la programmazione di distribuzione **1090** per sincronizzare le modifiche nel database del canale.
+> Se i dispositivi usano spesso diverse stazioni hardware, si consiglia di configurare Modern POS per chiedere ai cassieri di selezionare una stazione hardware quando avviano il processo di incasso. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Registratori di cassa**. Selezionare il registratore di cassa quindi impostare l'opzione **Seleziona al momento del pagamento** su **Sì**. Utilizzare la programmazione di distribuzione **1090** per sincronizzare le modifiche nel database del canale.
 
 ## <a name="extensibility"></a>Estendibilità
 Per informazioni sugli scenari di estensibilità per la stazione hardware, vedi [Integrare il POS con un nuovo dispositivo hardware e generare il programma di installazione dell'estensione](dev-itpro/hardware-device-extension.md).
@@ -569,15 +581,15 @@ A seconda degli standard di sicurezza correnti, le seguenti impostazioni devono 
 
 ### <a name="hardware-station-installer"></a>Programma di installazione della stazione hardware
 Il programma di installazione della stazione hardware eseguirà automaticamente tali modifiche nel Registro di sistema durante l'installazione tramite Self Service
- 
+
 -   Secure Sockets Layer (SSL) deve essere disabilitato.
 -   Solo Transport Layer Security (TLS) versione 1.2 (o la versione corrente superiore) deve essere abilitato e usato. 
 
 ### <a name="ssl-and-tls"></a>SSL e TLS
 Per impostazione predefinita, SSL e tutte le versioni di TLS tranne TLS 1.2 sono disabilitati. Per modificare o abilitare questi valori, effettuare le operazioni seguenti:
     1.  Premere il tasto WINDOWS + R per aprire la finestra **Esegui**
-    2.  Nel campo **Open** digitare **Regedit** quindi scegliere **OK**.
-    3.  Se appare una finestra di messaggio **Controllo account utente** fare clic su **Sì**.
+    2.  Nel campo **Open** digitare **Regedit** quindi seleziona **OK**.
+    3.  Se appare una finestra di messaggio **Controllo account utente** seleziona **Sì**.
     4.  Nella finestra **Editor del Registro di sistema**, passare a **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Le seguenti chiavi sono state immesse automaticamente per consentire solo TLS 1.2:
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
@@ -609,13 +621,15 @@ Le periferiche seguenti sono state testate utilizzando la stazione hardware IPC 
 #### <a name="printer"></a>Stampante
 
 | Produttore | Modello    | Interfaccia | Commenti                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
+| ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPOS      |                         |
-| Epson        | TM-T88   | Personalizzata    | Collegato tramite la rete   |
-| Star         | TSP650II | Personalizzata    | Collegato tramite la rete   |
-| Star         | mPOP     | OPOS      | Collegato tramite Bluetooth |
+| Epson        | TM-T88VI | OPOS      |                         |
+| Epson        | TM-T88   | Personalizzazione    | Collegato tramite la rete   |
 | HP           | F7M67AA  | OPOS      | USB alimentato             |
+| Star         | TSP650II | Personalizzazione    | Collegato tramite la rete   |
+| Star         | mPOP     | OPOS      | Collegato tramite Bluetooth |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 > [!NOTE]
 > La stampante Star TSP 100 non è supportata per la stazione hardware integrata. La stazione hardware integrata utilizza un processo a 64 bit, che non è compatibile con i driver Star TP 100 esistenti. 
@@ -687,13 +701,17 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 
 #### <a name="printer"></a>Stampante
 
-| Produttore | Modello    | Interfaccia | Commenti                  |
-|--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Epson        | TM-T88V  | Personalizzata    | Collegato tramite la rete     |
-| Star         | TSP650II | Personalizzata    | Collegato tramite la rete     |
-| HP           | F7M67AA  | OPOS      | USB alimentato               |
+| Produttore | Modello    | Interfaccia | Commenti              |
+| ------------ | -------- | --------- | --------------------- |
+| Epson        | TM-T88V  | OPOS      |                       |
+| Epson        | TM-T88VI | OPOS      |                       |
+| Epson        | TM-T88V  | Personalizzazione    | Collegato tramite la rete |
+| HP           | F7M67AA  | OPOS      | USB alimentato           |
+| Star         | TSP650II | Personalizzazione    | Collegato tramite la rete |
+| Toshiba      | HSP100   | OPOS      |                       |
+| Toshiba      | HSP150   | OPOS      |                       |
+
+
 
 #### <a name="bar-code-scanner"></a>Scanner di codice a barre
 
@@ -762,13 +780,15 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 
 #### <a name="printer"></a>Stampante
 
-| Produttore | Modello    | Interfaccia | Commenti                  |
-|--------------|----------|-----------|---------------------------|
-| Epson        | TM-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Epson        | TM-T88   | Personalizzata    | Collegato tramite la rete     |
-| Star         | TSP650II | Personalizzazione    | Collegato tramite la rete     |
-| HP           | F7M67AA  | OPOS      | USB alimentato               |
+| Produttore | Modello    | Interfaccia | Commenti              |
+| ------------ | -------- | --------- | --------------------- |
+| Epson        | TM-T88V  | OPOS      |                       |
+| Epson        | TM-T88VI | OPOS      |                       |
+| Epson        | TM-T88   | Personalizzazione    | Collegato tramite la rete |
+| HP           | F7M67AA  | OPOS      | USB alimentato           |
+| Star         | TSP650II | Personalizzazione    | Collegato tramite la rete |
+| Toshiba      | HSP100   | OPOS      |                       |
+| Toshiba      | HSP150   | OPOS      |                       |
 
 #### <a name="payment-terminal"></a>Terminale di pagamento
 
@@ -794,7 +814,7 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 
 -   Il computer su cui è in esecuzione Modern POS considera attendibile il certificato utilizzato nel computer in cui viene eseguita la stazione hardware.
     -   Per verificare questa impostazione, in un Web browser, spostarsi all'URL seguente: https://&lt;nome computer&gt;:&lt;numero porta&gt;/HardwareStation/ping.
-    -   L'URL utilizza un ping per verificare che al computer è possibile accedere e il browser indica se il certificato è attendibile. Ad esempio, in Internet Explorer, verrà visualizzata un'icona lucchetto sulla barra degli indirizzi. Quando si fa clic su questa icona, Internet Explorer verifica se il certificato è attualmente attendibile. È possibile installare il certificato nel computer locale visualizzando i dettagli del certificato indicato.
+    -   L'URL utilizza un ping per verificare che al computer è possibile accedere e il browser indica se il certificato è attendibile. Ad esempio, in Internet Explorer, verrà visualizzato un simbolo del lucchetto sulla barra degli indirizzi. Quando selezioni questo simbolo, Internet Explorer verifica se il certificato è attualmente attendibile. È possibile installare il certificato nel computer locale visualizzando i dettagli del certificato indicato.
 -   Nel computer in cui viene eseguita la stazione hardware, la porta utilizzata dalla stazione hardware viene aperta nel firewall.
 -   La stazione hardware è installato correttamente le informazioni sull'account esercente tramite lo strumento Installa le informazioni sull'esercente che viene eseguito alla fine dell'installazione della stazione hardware.
 
@@ -823,15 +843,15 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 -   Talvolta, i driver di dispositivo possono determinare che gli oggetti controlli comuni (CCO) smettano di funzionare correttamente. Se un dispositivo è stato installato di recente ma non funziona bene o si notano altri problemi, è spesso possibile risolvere il problema reinstallando i CCO. Per scaricare i CCO, visitare <http://monroecs.com/oposccos_current.htm>.
 -   Se si fanno frequenti modifiche alle periferiche durante il test o la risoluzione dei problemi, potrebbe essere necessario reimpostare IIS anziché attendere che la cache si aggiorni. Per reimpostare IIS, attenersi alla seguente procedura:
     1.  Dal menu **Start** digitare **CMD**.
-    2.  Nei risultati della ricerca, fare clic con il pulsante destro del mouse su **Prompt dei comandi** quindi fare clic su **Esegui come amministratore**.
+    2.  Nei risultati della ricerca, fai clic con il pulsante destro del mouse su **Prompt dei comandi** quindi seleziona **Esegui come amministratore**.
     3.  Nella finestra **Prompt dei comandi**, digitare **iisreset /Restart** quindi premere Invio.
     4.  Dopo che IIS è stato riavviato, riavviare Modern POS.
 -   Mentre si fanno frequenti modifiche alle periferiche, se si fanno anche frequenti avvii e uscite dal client POS, il processo dllhost di una sessione POS precedente può interferire con la sessione corrente. In questo caso, un dispositivo potrebbe non essere utilizzabile fino a che si chiude l'host della libreria di collegamento dinamico (DLL) che gestisce la sessione precedente. Seguire questi passaggi per chiudere l'host DLL.
     1.  Dal menu **Start** digitare **Gestione attività**.
-    2.  Nei risultati della ricerca, fare clic su  **Gestione attività**.
-    3.  In Gestione attività, nella scheda **Dettagli**, fare clic sull'intestazione di colonna etichettata  **Nome** per mettere in ordine alfabetico la tabella per nome.
+    2.  Nei risultati della ricerca, seleziona **Gestione attività**.
+    3.  In Gestione attività, nella scheda **Dettagli**, seleziona l'intestazione di colonna etichettata **Nome** per mettere in ordine alfabetico la tabella per nome.
     4.  Scorrere fino a che non si individua dllhost.exe.
-    5.  Selezionare ogni host DLL quindi fare clic su **Termina attività**.
+    5.  Seleziona ogni host DLL quindi seleziona **Termina attività**.
     6.  Dopo che gli host DLL sono stati chiusi, riavviare Modern POS.
 
 

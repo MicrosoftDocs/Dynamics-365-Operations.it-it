@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
-ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7917732"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061838"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migrazione del tipo di dati valuta per la doppia scrittura
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 È possibile aumentare il numero di posizioni decimali supportate per i valori di valuta fino a un massimo di 10. Il limite predefinito è quattro cifre decimali. Aumentando il numero di cifre decimali, si contribuisce a prevenire la perdita di dati quando si utilizza la doppia scrittura per sincronizzare i dati. L'aumento del numero di cifre decimali è una modifica con consenso esplicito. Per implementarlo, è necessario richiedere assistenza a Microsoft.
 
@@ -29,7 +29,7 @@ Il processo di modifica del numero di cifre decimali prevede due passaggi:
 1. Richiedere la migrazione da Microsoft.
 2. Modificare il numero di posizioni decimali in Dataverse.
 
-L'app Finance and Operations e Dataverse devono supportare lo stesso numero di cifre decimali nei valori di valuta. In caso contrario, la perdita di dati può verificarsi quando queste informazioni vengono sincronizzate tra le app. Il processo di migrazione riconfigura il modo in cui sono memorizzati i valori di valuta e tasso di cambio, ma non modifica alcun dato. Una volta completata la migrazione, è possibile aumentare il numero di posizioni decimali per i codici valuta e i prezzi e i dati immessi e visualizzati dagli utenti possono avere una maggiore precisione decimale.
+L'app per finanza e operazioni e Dataverse devono supportare lo stesso numero di cifre decimali nei valori di valuta. In caso contrario, la perdita di dati può verificarsi quando queste informazioni vengono sincronizzate tra le app. Il processo di migrazione riconfigura il modo in cui sono memorizzati i valori di valuta e tasso di cambio, ma non modifica alcun dato. Una volta completata la migrazione, è possibile aumentare il numero di posizioni decimali per i codici valuta e i prezzi e i dati immessi e visualizzati dagli utenti possono avere una maggiore precisione decimale.
 
 La migrazione è facoltativa. Se il supporto per più cifre decimali è vantaggioso per l'utente, consigliamo di prendere in considerazione la migrazione. Le organizzazioni che non richiedono valori con più di quattro cifre decimali non devono essere migrate.
 
@@ -37,7 +37,7 @@ La migrazione è facoltativa. Se il supporto per più cifre decimali è vantaggi
 
 L'archiviazione per le colonne di valuta esistenti in Dataverse non può supportare più di quattro cifre decimali. Pertanto, durante il processo di migrazione, i valori di valuta vengono copiati in nuove colonne interne nel database. Questo processo si verifica continuamente fino alla migrazione di tutti i dati. Internamente, al termine della migrazione, i nuovi tipi di archiviazione sostituiscono i vecchi tipi di archiviazione, ma i valori dei dati rimangono invariati. Le colonne di valuta possono quindi supportare fino a 10 cifre decimali. Durante il processo di migrazione, Dataverse può continuare a essere utilizzato senza interruzioni.
 
-Allo stesso tempo, i tassi di cambio vengono modificati in modo da supportare fino a 12 cifre decimali anziché l'attuale limite di 10. Questa modifica è necessaria in modo che il numero di decimali sia lo stesso nell'app Finance and Operations e in Dataverse.
+Allo stesso tempo, i tassi di cambio vengono modificati in modo da supportare fino a 12 cifre decimali anziché l'attuale limite di 10. Questa modifica è necessaria in modo che il numero di decimali sia lo stesso nell'app per finanza e operazioni e in Dataverse.
 
 La migrazione non modifica alcun dato. Dopo la conversione delle colonne di valuta e tasso di cambio, gli amministratori possono configurare il sistema in modo da utilizzare fino a 10 posizioni decimali per le colonne di valuta specificando il numero di posizioni decimali per ciascuna valuta di transazione e per i prezzi.
 

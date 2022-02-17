@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bab34efb36ba72141095ebd81cfea56dd2d718e9b22b3a5fc08138e674e1c5fb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91e905f530b88bb568290550be4cc677633189b1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732083"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069556"
 ---
 # <a name="custom-fields"></a>Campi personalizzati
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 È possibile aggiungere campi personalizzati a pagine in Dynamics 365 Human Resources. Per ulteriori informazioni sulla creazione di campi personalizzati, vedere [Creare e utilizzare campi personalizzati](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 

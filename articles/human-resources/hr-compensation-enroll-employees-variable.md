@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431316"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071484"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Iscrivere un dipendente a un piano di retribuzione variabile
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Il responsabile di retribuzione e benefit può iscrivere i dipendenti a piani di retribuzione variabile per calcolare i premi in contanti e quelli non in contanti per i dipendenti. In questa procedura si presuppone che un piano di retribuzione variabile sia stato creato con il campo **Abilita iscrizione** impostato su Sì e che le regole di idoneità siano state create per il piano di retribuzione variabile. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Per avviare la procedura, andare a **Risorse umane** > **Lavoratori** > **Dipendenti** > **Retribuzione** > **Iscrizione al piano di retribuzione variabile**.
+Il responsabile di retribuzione e benefit può iscrivere i dipendenti a piani di retribuzione variabile per calcolare i premi in contanti e quelli non in contanti per i dipendenti. In questa procedura si presuppone che un piano di retribuzione variabile sia stato creato con il campo **Abilita iscrizione** impostato su **Sì** e che le regole di idoneità siano state create per il piano di retribuzione variabile. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. Per avviare la procedura, andare a **Risorse umane** > **Lavoratori** > **Dipendenti** > **Retribuzione** > **Iscrizione al piano di retribuzione variabile**.
 
 1. Fare clic su **Nuovo**.
 2. Nel campo **Piano** fare clic sul pulsante a discesa per aprire la ricerca.
     * La ricerca del piano verrà filtrata per indicare solo i piani di retribuzione variabile per cui il dipendente è idoneo in base alle regole di idoneità.  
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-4. Attivare/disattivare l'espansione della sezione Generale.
+4. Attivare/disattivare l'espansione della sezione **Generale**.
 5. Nel campo **Data di validità**, immettere una data.
 6. Fare clic su **Salva**.
 7. Attivare/disattivare l'espansione della sezione **Sostituzioni**.

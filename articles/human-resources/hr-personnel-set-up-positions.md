@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4b9f09db8465cc55c9b0c4dc403c2c7a3647d7e
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 67682b6ea949183c2697b658bb77925a791e7da1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728720"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071603"
 ---
 # <a name="set-up-positions"></a>Impostare le posizioni
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -35,48 +38,47 @@ Le posizioni sono un elemento importante del livello inferiore di una gerarchia 
 
     I campi **Descrizione mansione**, **Titolo** e **Fattore di impiego equivalente al tempo pieno** verranno automaticamente copiati dalla mansione selezionata alla posizione.
 
-5. ResolveChanges per il processo.
-6. Seleziona **Crea posizione**.
-7. Nel campo **Reparto** immettere o selezionare un valore.
-8. Nel campo **Tipo di posizione** immettere o selezionare un valore.
-9. Nel campo **Retribuzione** immettere o selezionare un valore.
+5. Seleziona **Crea posizione**.
+6. Nel campo **Reparto** immettere o selezionare un valore.
+7. Nel campo **Tipo di posizione** immettere o selezionare un valore.
+8. Nel campo **Retribuzione** immettere o selezionare un valore.
 
     Il campo **Paese di retribuzione** determina le regole di idoneità di retribuzione e i budget per incentivi fissi applicabili a un dipendente in quella posizione.
 
-10. Nel campo **Disponibile per l'assegnazione** immettere una data e un'ora.
-11. Espandere la sezione **Durata posizione**.
+9. Nel campo **Disponibile per l'assegnazione** immettere una data e un'ora.
+10. Espandere la sezione **Durata posizione**.
 
     La durata della posizione viene immessa per impostazione predefinita in base alle date di attivazione e pensionamento immesse in precedenza.
 
-12. Espandere la sezione **Subordinato a**.
+11. Espandere la sezione **Subordinato a**.
 
     Quando si assegna un lavoratore a una posizione che riporta a un'altra posizione, viene creata una relazione gerarchica diretta tra i lavoratori assegnati alle due posizioni.
 
-13. Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa.
-14. Nel campo **Subordinato a** immettere o selezionare un valore.
-15. Selezionare **Crea**.
-16. Espandere la sezione **Assegnazione lavoratore**.
-17. Espandere la sezione **Relazioni**.
+12. Fare clic su **Nuovo** per aprire la finestra di dialogo a discesa.
+13. Nel campo **Subordinato a** immettere o selezionare un valore.
+14. Selezionare **Crea**.
+15. Espandere la sezione **Assegnazione lavoratore**.
+16. Espandere la sezione **Relazioni**.
 
     Se l'organizzazione utilizza una gerarchia a matrice o un'altra gerarchia personalizzata, è possibile impostare i tipi di gerarchia delle posizioni e aggiungere le relazioni gerarchiche alle posizioni per ogni tipo di gerarchia impostata.
 
-18. Seleziona **Aggiungi**.
-19. Nell'elenco contrassegnare la riga selezionata.
-20. Nel campo **Nome gerarchia** immettere o selezionare un valore.
-21. Nel campo **Subordinato a** immettere o selezionare un valore.
-22. Espandere la sezione **Retribuzioni**.
-23. Nel campo **Ciclo retributivo** immettere o selezionare un valore.
-24. Nel campo **Pagato da** immettere o selezionare un valore.
-25. Nel campo **Ore regolari annuali** immettere un numero.
+17. Seleziona **Aggiungi**.
+18. Nell'elenco contrassegnare la riga selezionata.
+19. Nel campo **Nome gerarchia** immettere o selezionare un valore.
+20. Nel campo **Subordinato a** immettere o selezionare un valore.
+21. Espandere la sezione **Retribuzioni**.
+22. Nel campo **Ciclo retributivo** immettere o selezionare un valore.
+23. Nel campo **Pagato da** immettere o selezionare un valore.
+24. Nel campo **Ore regolari annuali** immettere un numero.
 
     Il valore immesso è il numero di ore pagate regolarmente che il lavoratore in questa posizione dovrà lavorare ogni anno.
 
-26. Espandere la sezione **Sindacato**.
-27. Comprimere la sezione **Sindacato**.
-28. Espandere la sezione **Dimensioni finanziarie**.
-29. Nel campo **Modello di distribuzione** immettere o selezionare un valore.
-30. Nel campo **Reparto** immettere o selezionare un valore.
-31. Seleziona **Salva**.
+25. Espandere la sezione **Sindacato**.
+26. Comprimere la sezione **Sindacato**.
+27. Espandere la sezione **Dimensioni finanziarie**.
+28. Nel campo **Modello di distribuzione** immettere o selezionare un valore.
+29. Nel campo **Reparto** immettere o selezionare un valore.
+30. Seleziona **Salva**.
 
 
 

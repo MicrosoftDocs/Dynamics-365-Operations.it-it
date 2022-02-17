@@ -13,14 +13,17 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964936"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070477"
 ---
 # <a name="enter-project-timesheets"></a>Immettere fogli presenze di progetto
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Questa procedura consente di creare un foglio presenze utilizzando una pagina vuota. Il nuovo foglio presenze può essere basato sulle informazioni da un foglio precedente o dalle assegnazioni di progetti e attività nella pagina **Preferiti**. Per impostazione predefinita, la pagina elenco **Tutti i fogli presenze** visualizza tutti i fogli presenze per il periodo corrente. Puoi utilizzare il campo **Mostra** nella pagina **Fogli presenze personali** per filtrare l'elenco dei fogli presenze in base al periodo o al progetto o per visualizzare i fogli presenze creati per conto di altri lavoratori. La società di dati dimostrativi **USSI** è stata utilizzata per creare questa procedura.
 

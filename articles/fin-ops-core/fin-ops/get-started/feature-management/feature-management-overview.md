@@ -15,16 +15,19 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984461"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068011"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Le funzionalità vengono aggiunte e aggiornate in ogni versione. L'esperienza di gestione delle funzionalità offre un'area di lavoro in cui è possibile visualizzare un elenco delle funzionalità incluse in ciascuna versione. Puoi quindi utilizzare l'area di lavoro per visualizzare la documentazione sulle funzionalità e per abilitare o disabilitare le funzionalità.
 
@@ -204,7 +207,7 @@ Le versioni di anteprima sono interruttori attivati/disabilitati in tempo reale 
 Sì, se una funzionalità influisce sul funzionamento di un ambiente che non ha un impatto funzionale, puoi abilitarla per impostazione predefinita.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Come è possibile controllare l'abilitazione delle funzionalità nel codice?
-Usa il metodo **isFeatureEnabled** nella classe **FeatureStateProvider**, passandogli un'istanza della classe di funzionalità. Esempio: 
+Usa il metodo **isFeatureEnabled** nella classe **FeatureStateProvider**, passandogli un'istanza della classe di funzionalità. Esempio:
 
 ```xpp
 if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
@@ -214,7 +217,7 @@ if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::ins
 La proprietà **FeatureClass** può essere utilizzata per indicare che alcuni metadati sono associati a una funzionalità. Deve essere utilizzato il nome della classe utilizzato per la funzionalità, ad esempio **BatchContentionPreventionFeature**. Questi metadati sono visibili solo in quella funzionalità. La proprietà **FeatureClass** è disponibile in menu, voci di menu, valori di enumerazione e campi di tabelle/visualizzazioni.
 
 ### <a name="what-is-a-feature-class"></a>Cos'è una classe di funzionalità?
-Le funzionalità in Gestione funzionalità sono definite come *classi di funzionalità*. Una classe di funzionalità **implementa IFeatureMetadata** e utilizza l'attributo della classe di funzionalità per identificarsi nello spazio di lavoro Gestione funzionalità. Sono disponibili numerosi esempi di classi di funzionalità che è possibile verificare per l'abilitazione nel codice utilizzando l'API **FeatureStateProvider** e nei metadati utilizzando la proprietà **FeatureClass**. Esempio: 
+Le funzionalità in Gestione funzionalità sono definite come *classi di funzionalità*. Una classe di funzionalità **implementa IFeatureMetadata** e utilizza l'attributo della classe di funzionalità per identificarsi nello spazio di lavoro Gestione funzionalità. Sono disponibili numerosi esempi di classi di funzionalità che è possibile verificare per l'abilitazione nel codice utilizzando l'API **FeatureStateProvider** e nei metadati utilizzando la proprietà **FeatureClass**. Esempio:
 
 ```xpp
 [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]

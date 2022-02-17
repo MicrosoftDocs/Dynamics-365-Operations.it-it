@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd9c39bb3b5e221694fe20a8085c9099040cb422
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: b7c2423faa4a0c50d9d319a9e6f489e2946c36a7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431095"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071602"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Iscrivere un dipendente a un piano di retribuzione fisso
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,8 +34,8 @@ Il responsabile di retribuzione e benefit può assegnare i dipendenti a piani di
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
 4. Nel campo **Posizione** fare clic sul pulsante a discesa per aprire la ricerca.
 5. Nell'elenco fare clic sul collegamento nella riga selezionata.
-    * Il livello visualizzato deriva dal livello retributivo della mansione nella posizione. Il livello deve essere impostato sulla mansione prima che la retribuzione possa essere assegnata al dipendente.  
-6. Nel campo **Piano** selezionare il piano di retribuzione fissa per il dipendente. La ricerca del piano viene filtrata per indicare solo i piani per cui il dipendente è idoneo in base alle regole di idoneità.
+    * Il livello visualizzato deriva dal campo **Retribuzione** Scheda dettaglio > **Livello** del **Processo** assegnato alla **Posizione**. Il livello deve essere impostato sulla mansione prima che la retribuzione possa essere assegnata al dipendente.  
+6. Nel campo **Piano** selezionare il piano di retribuzione fissa per il dipendente. La ricerca del **piano** viene filtrata per indicare solo i piani per cui il dipendente è idoneo in base alle **regole di idoneità**.
 7. Nell'elenco trovare e selezionare il record desiderato.
     * Le date di **validità** e di **scadenza** per la retribuzione derivano per impostazione predefinita dalle date di inizio e di fine dell'assegnazione di posizione del lavoratore. È possibile modificare tali date in base alle necessità.  
     * Se il piano di retribuzione fissa è un piano di tipo Fase, selezionare la fase contenente la tariffa retributiva corretta per il dipendente. Se il piano di retribuzione fissa è un piano di tipo Fascia o Scala, immettere la tariffa retributiva per il dipendente. La tariffa retributiva verrà convalidata rispetto alle impostazioni di tolleranza per il piano e ai punti di riferimento minimo e massimo per il livello retributivo della mansione.  

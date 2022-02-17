@@ -2,7 +2,7 @@
 title: Utilizzare i frammenti
 description: In questo argomento viene descritto perché, quando e come utilizzare frammenti in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 10/16/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a19f064b63ce476252064253032d35697bd69c84c4c93db1d0349a57527c2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776196"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090746"
 ---
 # <a name="work-with-fragments"></a>Utilizzare i frammenti 
 
@@ -121,6 +121,20 @@ Per modificare un frammento in Creazione di siti Web di Commerce, seguire questi
 1. Modificare le proprietà del modulo del frammento e la struttura come necessario. Il processo è analogo a quello per modificare i moduli nella visualizzazione dell'editor di pagine.
 
 È anche possibile modificare un frammento selezionandolo in una pagina, in un modello o in un frammento padre e quindi selezionando **Modifica frammento** nel riquadro delle proprietà a destra.
+
+### <a name="rename-a-fragment"></a>Rinominare un frammento
+
+Per rinominare un frammento esistente in Generatore di siti Web di Commerce, segui questi passaggi.
+
+1. Nel pannello di navigazione a sinistra, seleziona **Frammenti**.
+1. Selezionare il nome del frammento che vuoi rinominare.
+1. Selezionare **Modifica** per iniziare a modificare il frammento. Tieni presente che non puoi modificare un frammento se qualcun altro sta già modificando il frammento.
+1. Nel riquadro delle proprietà del frammento, seleziona il simbolo della penna accanto al nome del frammento.
+1. Modificare il nome del frammento, se necessario.
+1. Selezionare il segno di spunta per confermare la modifica del nome.
+1. Selezionare **Fine modifica**.
+
+Puoi rinominare un frammento dopo che è stato creato modificandolo e selezionando il simbolo della penna accanto al nome della frammento nel riquadro delle proprietà.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

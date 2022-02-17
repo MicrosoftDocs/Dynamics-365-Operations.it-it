@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431464"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071444"
 ---
 # <a name="edit-personal-information"></a>Modifica informazioni personali
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ I parametri impostati nella pagina **Parametri rubrica globale** determinano qua
     - Per aggiungere un numero di identificazione, selezionare **Nuovo**. Completare i campi come necessario e selezionare **Salva**.
     - Per modificare un numero, selezionare **Modifica**. Modificare i campi come necessario e selezionare **Salva**.
 
-7. Per modificare i metodi con cui si viene pagati, selezionare la scheda **Informazioni di pagamento personali**. Questa scheda è disponibile solo se i metodi di pagamento sono abilitati nel modulo **Parametri risorse umane**. HR può abilitare **Assegno circolare**, **Contante**, **Assegno**, **Pagamento elettronico** o **Altro**. Le risorse umane possono anche disabilitare la convalida del pagamento elettronico (utilizzata per le retribuzioni negli Stati Uniti) e la convalida del conto bancario e del numero di registrazione.
+7. Per modificare i metodi con cui si viene pagati, selezionare la scheda **Informazioni di pagamento personali**. Questa scheda è disponibile solo se i metodi di pagamento sono abilitati nella pagina **Parametri risorse umane**. HR può abilitare **Assegno circolare**, **Contante**, **Assegno**, **Pagamento elettronico** o **Altro**. Le risorse umane possono anche disabilitare la convalida del pagamento elettronico (utilizzata per le retribuzioni negli Stati Uniti) e la convalida del conto bancario e del numero di registrazione.
 
 8. Per modificare l'immagine visualizzata in Risorse umane per il profilo, selezionare la scheda **Immagine**. A seconda delle impostazioni dell'organizzazione, le immagini potrebbero essere instradate all'approvazione.
 
