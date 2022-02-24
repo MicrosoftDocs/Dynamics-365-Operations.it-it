@@ -2,23 +2,26 @@
 title: Assegnazione magazzino
 description: Questo argomento fornisce informazioni sull'assegnazione magazzino. L'assegnazione magazzino consente di consolidare la domanda per articolo e unità di misura dagli ordini con stato Ordinato, Prenotato o Rilasciato. Aiuta i responsabili del magazzino a pianificare in modo intelligente le ubicazioni di prelievo prima di rilasciare ordini al magazzino e creare attività di prelievo.
 author: mirzaab
+manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
+ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575149"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "4627751"
 ---
 # <a name="warehouse-slotting"></a>Assegnazione magazzino
 
@@ -381,6 +384,3 @@ Dopo aver inserito tutti gli elementi richiesti, è possibile impostare l'assegn
 1. Imposta la ricorrenza per l'esecuzione automatica, se lo desideri.
 
 Per gli esercizi nello scenario, **non** impostare l'assegnazione automatica.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

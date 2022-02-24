@@ -1,32 +1,34 @@
 ---
 title: Risorse di globalizzazione
 description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità e offerte specifiche del paese/area geografica.
-author: kfend
-ms.date: 02/19/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747517"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685055"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
 ## <a name="local-and-regional-deployments"></a>Distribuzioni locali e regionali
 Se le normative governative locali richiedono che i dati vengano memorizzati o gestiti in modo diverso rispetto a quanto richiesto per altri paesi/aree geografiche, per la distribuzione potrebbe essere necessario tenere in considerazione dei requisiti locali specifici. Tenere presente le seguenti risorse che potrebbero essere rilevanti per distribuzioni specifiche:
 
-[App Finance and Operations gestite de 21Vianet in Cina](../deployment/china-local-deployment.md)
+[App Finance and Operations gestite da 21Vianet in Cina](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 
@@ -53,6 +55,7 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 
 #### <a name="regulatory-updates"></a>Aggiornamenti normativi
 -   [Aggiornamenti normativi](../../../finance/localizations/regulatory-updates.md)
+-   [Portale di localizzazione](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (aggiornamenti settimanali)
 -   [Ricerca argomento in Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (Updated daily)
 
 #### <a name="communication-and-alerts"></a>Comunicazione e avvisi
@@ -60,7 +63,7 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 -   [Inviare gli avvisi relativi alle funzionalità per la normativa specifiche del paese/area geografica](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Piani di rilascio di Dynamics 365
-I [piani di rilascio di Dynamics 365](/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
+I [piani di rilascio di Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novità delle app Finance and Operations
 La [home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse nelle versioni specifiche delle app Finance and Operations.
@@ -130,6 +133,3 @@ Per ulteriori informazioni, vedere la [Guida](../../fin-ops/get-started/help-ove
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Caricare i video
 description: In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 06/09/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735632"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594310"
 ---
 # <a name="upload-videos"></a>Caricare i video
 
@@ -28,14 +31,16 @@ ms.locfileid: "6735632"
 
 In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Panoramica
+
 La libreria multimediale Creazione di siti Web Commerce consente di caricare i video. È sempre necessario caricare la versione di un video con il bitrate e la risoluzione più alti, perché il video verrà automaticamente convertito per essere adatto a diversi riquadri di visualizzazione e ai punti di interruzione.
 
 ### <a name="video-information-specified-during-upload"></a>Informazioni sul video specificate durante il caricamento
 
 Quando si carica un video, è possibile specificare le seguenti informazioni.
 
-- **Titolo, Descrizione, parole chiave**: i metadati del video.
-- **Genera automaticamente sottotitoli**: specifica se i sottotitoli devono essere generati automaticamente per il video (è supportata solo la lingua inglese). 
+- **Titolo, descrizione, parole chiave**: i metadati del video.
+- **Genera automaticamente sottotitoli**: specifica se i sottotitoli devono essere generati automaticamente per il video.
 - **Sottotitolo**: specifica i sottotitoli da utilizzare.
 - **Audio normale**: specifica la traccia audio normale da utilizzare.
 - **Anteprima**: specifica l'anteprima per il video. Se non specificata, verrà generata automaticamente.
@@ -68,6 +73,3 @@ Se si stanno caricando più tipi di risorse contemporaneamente (ad esempio, imma
 [Personalizzare punti focali immagine](dam-custom-focal-point.md)
 
 [Caricare e fornire file statici](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

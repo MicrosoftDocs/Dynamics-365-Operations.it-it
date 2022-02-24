@@ -1,25 +1,28 @@
 ---
 title: Dichiarare lo stato di avanzamento di un dispositivo di lavoro mobile
 description: Questa procedura consente di iniziare e dichiarare lo stato di avanzamento di un processo di produzione nel modulo di registrazione per il dispositivo di processo.
-author: johanhoffmann
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm, JmgRegistrationTouchReportProgress, JmgFeedbackWizard, JmgJobBundleProdFeedback
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f919a23fa3008356746dfd5b33b2835c8cf3de9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 34067902f05546b5c420feca633f77f16033ed2c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566529"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431132"
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Dichiarare lo stato di avanzamento di un dispositivo di lavoro mobile
 
@@ -62,6 +65,3 @@ Per eseguire questa procedura è necessario disporre del ruolo di amministratore
 29. Fare clic su OK.
 30. Selezionare un motivo per cui si esce in anticipo.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

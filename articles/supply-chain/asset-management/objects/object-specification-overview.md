@@ -1,28 +1,28 @@
 ---
 title: Panoramica degli attributi dei cespiti
 description: Questo argomento fornisce una panoramica degli attributi dei cespiti in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2214"
-- intro-internal
+ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a092fac4f1b8648c2c93791f1c5efb90708c44e2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986462"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020181"
 ---
 # <a name="asset-attribute-overview"></a>Panoramica degli attributi dei cespiti
 
@@ -39,6 +39,3 @@ La pagina **Panoramica attributi cespiti** mostra una riga separata per ciascun 
 3. Selezionare **OK**. Un elenco mostra tutti i cespiti che utilizzano il tipo selezionato. Per ciascun cespite, tutti i tipi di attributi correlati verranno visualizzati nella stessa riga.
 
 La pagina **Attributo cespite** mostra una riga separata per ogni tipo di attributo utilizzato in un cespite. Per aprire questa pagina selezionare **Gestione cespiti** \> **Richieste di informazioni** \> **Cespiti** \> **Attributo cespite**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

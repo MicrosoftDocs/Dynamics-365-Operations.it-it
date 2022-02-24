@@ -1,25 +1,28 @@
 ---
 title: Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima
 description: Questa procedura mostra come calcolare le proposte di copertura minima basate sulle transazioni storiche e poi aggiornare la copertura articoli con le proposte.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqItemJournalName, ReqItemJournalSafetyStock, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ae2209fc2412a4a67b46d6eb82ecb70aafc0159
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0d69daf3d307ba72ff6017d91849e3d22bd0bd85
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573611"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431378"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima
 
@@ -63,6 +66,3 @@ Questa procedura mostra come calcolare le proposte di copertura minima basate su
 5. Nel **riquadro azioni**, fare clic su Piano.
 6. Fare clic su **Copertura articoli**. Notare che la **quantità minima** è stata aggiornata con la nuova quantità minima dal giornale di registrazione delle scorte di sicurezza.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

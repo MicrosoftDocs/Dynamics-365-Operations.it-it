@@ -1,31 +1,33 @@
 ---
-title: Documentazione delle applicazioni Finance and Operations
-description: Documentazione per le applicazioni Finance and Operations.
-author: tonyafehr
-ms.date: 04/13/2021
+title: Documentazione per l'applicazione Finance and Operations
+description: Documentazione per le app Finance and Operations.
+author: robinarh
+manager: AnnBe
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: tfehr
-ms.custom: intro-internal
+ms.reviewer: rhaertle
+ms.custom: 62303
 ms.search.region: Global
-ms.author: tfehr
+ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075399"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694388"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentazione delle applicazioni Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Documentazione per l'applicazione Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Informazioni su come sfruttare le applicazioni Finance and Operations nell'azienda, utilizzando le risorse indicate in questo argomento per individuare contenuti efficaci per utenti finali, sviluppatori e professionisti IT. 
+Informazioni su come utilizzare le applicazioni Finance and Operations nell'azienda con le risorse indicate in questo argomento per individuare contenuti efficaci per utenti finali, sviluppatori e professionisti IT. 
 
 La maggior parte di questo contenuto si applica anche ai prodotti correlati Dynamics 365 Commerce e Dynamics 365 Human Resources. 
 
@@ -44,7 +46,7 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
  <p><a href="get-started/purchase-on-premises.md">Acquistare Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Ciclo di vita dell'implementazione</a></h3>
-<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Integrazione di un progetto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Preparazione per la fase operativa</a></p>
 
@@ -65,7 +67,7 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Integrazioni</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Eventi aziendali</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Entità di dati</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integrazione tramite Microsoft Power Automate</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integrazione con Microsoft Power Automate</a></p>
 
 <h3><a href="../../finance/index.md">Gestione finanziaria</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Contabilità fornitori</a></p>
@@ -76,22 +78,20 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Contabilità industriale</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Cespiti</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Contabilità generale</a></p>
-<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Gestione progetti</a></p>
+<p><a href="../../finance/project-management/overview-project-management-accounting.md">Gestione progetti</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Settore pubblico</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Funzionalità relative alle normative locali</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Risorse umane</a></h3>
-<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Dipendente self-service</a></p>
-<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Gestione del personale</a></p>
-<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Congedo e assenza</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Benefit</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Sviluppo del dipendente</a></p>
-<p><a href="../../human-resources/hr-learning-courses.md">Apprendimento</a></p>
- <p><a href="hr/localizations/noam-usa-payroll.md">Retribuzioni negli Stati Uniti</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Sviluppo e formazione dei dipendenti</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Questionari</a></p>
+<p><a href="hr/manage-recruiting-process.md">Selezione del personale</a></p>
+<p><a href="hr/localizations/noam-usa-payroll.md">Retribuzioni negli Stati Uniti</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Gestione Supply Chain</a></h3>
+<h3><a href="../../supply-chain/index.md">Supply Chain Management</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Gestione costi</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Gestione inventario</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Pianificazione generale</a></p>
@@ -128,11 +128,16 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 </td>
 <td>
 <h3>Prodotti correlati</h3>
-<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
-<p><a href="../../commerce/call-center-functionality.md">Servizio clienti</p>
-<p><a href="../../commerce/define-maintain-retail-channels.md">Impostazione e gestione del canale</p>
-<p><a href="../../commerce/retail-peripherals-overview.md">MPOS e Cloud POS</p>
-<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Sviluppo e amministrazione di commercio</p>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
+<p><a href="../../retail/call-center-functionality.md">Servizio clienti</p>
+<p><a href="../../retail/define-maintain-retail-channels.md">Impostazione e gestione del canale</p>
+<p><a href="../../retail/retail-peripherals-overview.md">MPOS e Cloud POS</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Sviluppo e amministrazione di commercio</p>
+
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Guida per gli amministratori</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Guida per gli sviluppatori</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Manuale dell'utente</a></p>
 
 
 </td>
@@ -140,6 +145,3 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

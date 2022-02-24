@@ -2,25 +2,28 @@
 title: Numero di libri per giornale di registrazione
 description: Questo argomento descrive la relazione tra giornali e libri cespiti quando si crea un'acquisizione di cespiti o una proposta di ammortamento tramite un processo batch. Puoi definire il numero massimo di libri inclusi per ciascuna acquisizione e per l'ammortamento.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d8c6a3aab9063e1f2143c10f9e442001660dc121bfee0b3b2c9e17ade5f762e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767034"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650668"
 ---
 # <a name="number-of-books-per-journal"></a>Numero di libri per giornale di registrazione
 
@@ -41,11 +44,6 @@ Puoi utilizzare l'elaborazione batch per eseguire l'ammortamento per lo stesso s
 
 Il processo di elaborazione batch esclude i libri chiusi. Ad esempio, in un processo batch per l'ammortamento, vengono chiusi 10 dei primi 2.000 libri. In questo caso, il primo giornale di registrazione conterrà i libri associati ai cespiti numerati da 1 a 2.011. Il secondo giornale di registrazione conterrà quindi i libri associati ai cespiti numerati da 2.012 a 4.000.
 
-> [!NOTE]
-> Se hai gli ID cespite con separatori diversi (come - o /) e crei transazioni cespite in processi batch, devi eseguire un processo batch separato per ogni tipo di separatore. Il sistema non può elaborare separatori diversi all'interno dello stesso processo batch.
-
 Il limite al numero di libri viene applicato se gli ID risorsa duplicati non esistono nello stesso giornale. Tuttavia, se l'ID risorsa è uguale all'ID libro, il numero di libri per giornale di registrazione può essere superato per mantenere l'ID risorsa nello stesso giornale.
 
-Ad esempio, ci sono 5.001 ID cespite, tre libri sono associati a ogni ID cespite e ogni libro cespiti viene registrato nello stesso livello di registrazione. Esegui l'ammortamento per tre mesi consecutivi, senza riepilogo.  Il giornale di registrazione ammortamento verrà creato tramite un processo batch e il sistema creerà sette giornali di registrazione con 667 ID cespite e tre libri per ogni ID cespite. Il risultato sarà 2.001 libri. Pertanto, in tre mesi, ci saranno 6.003 righe di giornale di registrazione per mantenere gli stessi ID cespite nello stesso giornale di registrazione. Il sistema creerà anche un giornale di registrazione con 332 ID cespiti e tre libri per ogni ID cespite. In tre mesi ci saranno 2.988 righe.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Ad esempio, ci sono 5.001 ID cespite, tre libri sono associati a ogni ID cespite e ogni libro cespiti viene registrato nello stesso livello di registrazione. Esegui l'ammortamento per tre mesi consecutivi, senza riepilogo. Il giornale di registrazione ammortamento verrà creato tramite un processo batch e il sistema creerà sette giornali di registrazione con 667 ID cespite e tre libri per ogni ID cespite. Il risultato sarà 2.001 libri. Pertanto, in tre mesi, ci saranno 6.003 righe di giornale di registrazione per mantenere gli stessi ID cespite nello stesso giornale di registrazione. Il sistema creerà anche un giornale di registrazione con 332 ID cespiti e tre libri per ogni ID cespite. In tre mesi ci saranno 2.988 righe.

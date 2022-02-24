@@ -102,6 +102,3 @@ Per evitare un impatto negativo sull'interfaccia utente, non modificare o elimin
 - **Altro**
 
 È invece possibile estendere l'enumerazione **TalentSource** per aggiungere altri tipi di origini.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

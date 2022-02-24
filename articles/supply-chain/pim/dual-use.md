@@ -1,24 +1,27 @@
 ---
 title: Beni a duplice uso
 description: Questo argomento spiega come tenere traccia dei prodotti identificati come beni a duplice uso, memorizzare i numeri di certificato per ciascun prodotto e paese di destinazione e stampare numeri di certificato validi su fatture, documenti di trasporto e/o ordini cliente pertinenti.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570755"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431347"
 ---
 # <a name="dual-use-goods"></a>Beni a duplice uso
 
@@ -54,7 +57,7 @@ Per impostare le informazioni sui requisiti di duplice uso per vari paesi, atten
 2. Selezionare una configurazione di paese esistente per modificarla oppure selezionare **Nuova** nel riquadro azioni per creare una nuova configurazione.
 3. Impostare i seguenti valori per la configurazione selezionata o creata.
 
-    | Campo | Descrizione |
+    | Campo | descrizione |
     |---|---|
     | Paese | Selezionare il paese per il quale si verificano i requisiti. |
     | Certificato obbligatorio | Selezionare questa casella di controllo per i paesi che richiedono una certificazione per beni a duplice uso. Deselezionarla per i paesi che non richiedono questa certificazione. |
@@ -69,7 +72,7 @@ Per impostare categorie a duplice uso, procedere come segue.
 2. Selezionare una categoria esistente per modificarla oppure selezionare **Nuova** nel riquadro azioni per creare una nuova categoria.
 3. Impostare i seguenti valori per la categoria selezionata o creata.
 
-    | Campi | Descrizione |
+    | Campi | descrizione |
     |---|---|
     | Codice a duplice uso | Immettere il codice ECCN completo (ad esempio, *3A001*).|
     | Categoria a duplice uso | Immettere la parte di categoria CCL del codice ECCN. Ad esempio, per il codice ECCN *3A001*, questo valore è *3*. |
@@ -95,7 +98,7 @@ La pagina **Certificati per duplice uso** è utilizzata per impostare e gestire 
 2. Selezionare un certificato esistente per modificarlo o selezionare **Nuovo** nel riquadro azioni per creare un nuovo certificato.
 3. Impostare i seguenti valori per il certificato selezionato o creato.
 
-    | Campo | Descrizione |
+    | Campo | descrizione |
     |---|---|
     | Numero articolo | Selezionare il numero di articolo del bene a duplice uso a cui si applica questo certificato. |
     | Paese | Il paese in cui è necessario utilizzare questo certificato. |
@@ -105,6 +108,3 @@ La pagina **Certificati per duplice uso** è utilizzata per impostare e gestire 
     | Stampa su fattura | Selezionare questa casella di controllo per stampare il numero di certificato sulle fatture indirizzate al paese specificato durante l'intervallo di date specificato. |
     | Stampa su documento di trasporto | Selezionare questa casella di controllo per stampare il numero di certificato sui documenti di trasporto indirizzati al paese specificato durante l'intervallo di date specificato. |
     | Stampa su ordine cliente | Selezionare questa casella di controllo per stampare il numero di certificato su ordini cliente indirizzati al paese specificato durante l'intervallo di date specificato. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

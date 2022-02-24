@@ -2,9 +2,11 @@
 title: Analisi del costo ordine di produzione
 description: Questo articolo fornisce informazioni sull'analisi dei costi che è possibile effettuare per gli ordini di produzione completati e correnti. È possibile analizzare i costi stimati ed effettivi utilizzando la pagina Calcolo dei prezzi o il report Stima e determinazione dei costi. Vengono visualizzate informazioni sui costi e sulle quantità effettivi e stimati di ogni articolo componente, sull'operazione di ciclo di lavorazione e sul costo indiretto.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0858e0e9ed0f09a47954274a05f6da1a2537c4a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734261"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967285"
 ---
 # <a name="production-order-cost-analysis"></a>Analisi del costo ordine di produzione
 
@@ -41,7 +43,7 @@ Gli scostamenti riflettono un confronto tra le attività di produzione rilevate 
 
 Nel diagramma di seguito riportato sono illustrati i quattro scostamenti che rappresentano la differenza tra i costi effettivi di un ordine di produzione e i costi calcolati all'interno del record di costo dell'articolo al momento di terminare l'ordine di produzione. 
 
-![Scostamenti che rappresentano le differenze in un ordine di produzione completato.](./media/control.jpg) 
+![Scostamenti che rappresentano le differenze in un ordine di produzione completato](./media/control.jpg) 
 
 È possibile analizzare gli scostamenti di produzione utilizzando la pagina **Scostamento** o il report **Scostamento produzione**. Utilizzare le opzioni di visualizzazione per visualizzare gli scostamenti dettagliati per articolo e risorsa operativa o per gruppo di costi. Il criterio di scomposizione dei costi nei parametri di magazzino determina se viene tenuta traccia degli scostamenti per gruppo di costi. È inoltre possibile utilizzare le opzioni di visualizzazione **singolo**, **multiplo** e **totale** per visualizzare gli scostamenti riepilogati. Le informazioni sugli scostamenti dettagliati sono utili per comprendere l'origine di ciascuno scostamento. Per prevedere gli scostamenti prima di terminare un ordine di produzione, analizzare le informazioni dettagliate fornite nel report **Stima e determinazione dei costi**.
 
@@ -55,12 +57,10 @@ Le informazioni relative a ciascun tipo di transazione vengono fornite in report
 -   **Articoli in lavorazione finiti**: in questo report vengono elencati gli ordini di produzione correnti e le transazioni dichiarate finite per una data di transazione specificata.
 
 
-## <a name="additional-resources"></a>Risorse aggiuntive
+<a name="additional-resources"></a>Risorse aggiuntive
+--------
 
 [Origini comuni degli scostamenti di produzione](common-sources-of-production-variances.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

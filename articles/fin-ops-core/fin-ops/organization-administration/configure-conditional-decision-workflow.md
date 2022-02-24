@@ -2,9 +2,11 @@
 title: Configurare le decisioni condizionali in un flusso di lavoro
 description: Per configurare le proprietà di una decisione condizionale, attenersi alla procedura indicata di seguito.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fa708b4ac1f17a9ed6852a9eeb3e764b750a4a4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3a880d4be461ea9b2caa61b7d038f9b24486a919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070960"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798881"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Configurare le decisioni condizionali in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Per configurare le proprietà di una decisione condizionale, attenersi alla procedura indicata di seguito.
 
@@ -39,7 +38,7 @@ Per immettere un nome per una decisione condizionale, effettuare le operazioni i
 1. Nel riquadro sinistro, fare clic sull'icona **Impostazioni di base**.
 2. Nel campo **Nome** immettere un nome univoco per la decisione condizionale.
 
-## <a name="set-conditions"></a>Impostare condizioni
+## <a name="set-conditions"></a> Impostare condizioni
 
 Il sistema determina quale ramo utilizzare valutando il documento inviato per determinare se soddisfa le condizioni specifiche.
 
@@ -53,6 +52,3 @@ Il sistema determina quale ramo utilizzare valutando il documento inviato per de
     2. Selezionare un record nell'area **Convalida condizione** del modulo.
     3. Fare clic su **Test**. Il sistema valuta il record per determinare se soddisfa le condizioni definite.
     4. Fare clic su **OK** o **Annulla** per tornare al modulo **Proprietà**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -115,6 +115,3 @@ Le seguenti entità verranno abilitate al supporto di campi personalizzati in Co
 - **Tipo di congedo**
 - **Conto bancario del lavoratore**
 - **Calendario lavorativo**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

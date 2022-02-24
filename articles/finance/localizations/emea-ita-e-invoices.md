@@ -2,20 +2,22 @@
 title: Fatture elettroniche dei clienti
 description: Questo argomento fornisce informazioni sulla gestione delle fatture elettroniche dei clienti per l'Italia.
 author: v-oloski
-ms.date: 05/06/2021
+manager: ''
+ms.date: 10/15/2020
 ms.topic: article
 ms.: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
 ms.search.region: Italy
 ms.author: v-oloski
-ms.openlocfilehash: 437fe9a2d6d4430778a6aea7d29817a52004f26f97fe006ebee261109b7da80f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61bcaf9ba78721492dc9f4ecb8cabbf521c14072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748933"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962639"
 ---
 # <a name="customer-electronic-invoices"></a>Fatture elettroniche dei clienti
 
@@ -23,31 +25,28 @@ ms.locfileid: "6748933"
 
 Questo argomento descrive come configurare e utilizzare le funzionalità per la creazione e l'invio di fatture di vendita e progetto in un formato elettronico (FatturaPA).
 
-A partire dalla versione 1.2 del formato FatturaPA, le fatture elettroniche possono essere utilizzate per tutti i tipi di aziende. Tali tipi comprendono le amministrazioni pubbliche, le imprese private e i professionisti.
+La versione 1.2 delle fatture elettroniche FatturaPA può essere utilizzata per tutti i tipi di aziende. Tali aziende comprendono le amministrazioni pubbliche, le imprese private e i professionisti.
 
-## <a name="prerequisites"></a>Prerequisiti
-
-L'indirizzo principale della persona giuridica deve essere in Italia.
+> [!NOTE]
+> L'indirizzo principale della persona giuridica deve essere in Italia.
 
 In questo argomento sono incluse le seguenti informazioni:
 
 - [Informazioni di impostazione](#setup)
-- [Gestione dei documenti di base correlati](#relateddoc)
+- [Come compilare i dati per l'output di un codice identificativo della procedura di gara (Codice Identificativo di Gara \[CIG\]) e un codice unico di progetto (Codice Unico di Progetto \[CUP\])](#releteddoc)
 - [Panoramica del registro delle fatture elettroniche](#einvoiceregister)
 - [Funzionalità aggiuntiva che riguarda il file XML](#additionalfunctionality)
+- [Funzionalità disponibile nell'aggiornamento mensile 10.0.12 e nelle versioni successive](#fatturapa)
 
 ## <a name="setup"></a><a id="setup"></a>Attrezzaggio
 
 Prima di poter iniziare a lavorare con la funzionalità di fatturazione elettronica, è necessario impostare i seguenti dati:
 
 - [Parametri contabilità clienti](#arparameters)
-- [Valuta delle fatture elettroniche](#electronicinvoicecurrency)
 - [Parametri fatture elettroniche](#einvoicesparameters)
 - [Proprietà documento elettronico](#edproperties)
 - [Clienti](#customers)
 - [Articoli](#items)
-- [Codici Natura](#natura)
-- [Tipi di fattura](#invoicetypes)
 - [Certificati digitali](#digitalcert)
 - [Facoltativo: Destinazione per l'output del file XML](#destination)
 
@@ -55,28 +54,14 @@ Prima di poter iniziare a lavorare con la funzionalità di fatturazione elettron
 
 Selezionare le configurazioni utilizzate per creare file XML di fatture elettroniche per fatture di vendita e a testo libero, note di accredito di vendita e a testo libero, fatture progetto e note di accredito di progetto. È possibile trovare queste configurazioni nella scheda **Documento elettronico** della pagina **Parametri contabilità clienti** (**Contabilità clienti** \> **Impostazioni** \> **Parametri contabilità clienti**).
 
-![Scheda Documento elettronico della pagina Parametri contabilità clienti.](media/emea-ita-electronic-invocies-AR-parameter-e-invoices.png)
+![Scheda Documento elettronico della pagina Parametri contabilità clienti](media/emea-ita-electronic-invocies-AR-parameter-e-invoices.png)
 
 > [!NOTE]
 > Le configurazioni devono essere importate prima di poter essere selezionate. Per ulteriori informazioni, vedere [Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-### <a name="electronic-invoice-currency"></a><a id="electronicinvoicecurrency"></a>Valuta delle fatture elettroniche
-
-Per segnalare fatture nella valuta euro (EUR) in un file XML, impostare l'opzione **Stampa l'importo nella valuta che rappresenta l'euro** su **Sì** nella Scheda dettaglio **Generale** della pagina **Impostazione moduli** in Contabilità clienti (**Contabilità clienti** \> **Impostazioni** \> **Impostazione moduli**) e/o in Gestione progetti e contabilità (**Gestione progetti e contabilità** \> **Impostazioni** \> **Impostazioni moduli**).
-
-> [!NOTE] 
-> Se l'opzione **Stampa l'importo nella valuta che rappresenta l'euro** è impostata su **No**, verrà generato un file XML correlato nella valuta della fattura originale. 
-
-Per utilizzare questa funzionalità, importare le seguenti configurazioni di Creazione di report elettronici (ER), o versioni successive, dalla libreria di risorse condivise in Microsoft Dynamics Lifecycle Services (LCS):
-
-- Fattura model.version.231
-- Modello fattura mapping.version.231.164
-- Fattura di vendita (IT).version.231.91
-- Fattura progetto (IT).version.231.90
-
 ### <a name="electronic-invoice-parameters"></a><a id="einvoicesparameters"></a>Parametri fatture elettroniche
 
-È necessario impostare parametri per le fatture elettroniche per specificare scenari aziendali e informazioni specifiche dell'impresa.
+Impostare questi parametri per specificare scenari aziendali e informazioni specifiche dell'impresa.
 
 1. Andare a **Contabilità clienti** \> **Impostazioni** \> **Parametri fatture elettroniche**.
 2. Nella scheda **Generale**, specificare il requisito della firma elettronica.
@@ -97,7 +82,7 @@ Perché la funzionalità funzioni, è necessario impostare i seguenti dati:
 
 - Tipi di proprietà di documenti elettronici (**Contabilità clienti** \> **Impostazioni** \> **Tipi di proprietà di documenti elettronici**) e la tabella a cui ciascun tipo di proprietà di documenti è applicabile. Per la funzionalità di fatturazione elettronica, sono utilizzate le tabelle **Clienti** e **Persone giuridiche**.
 
-    ![Impostazione dell'applicabilità nella pagina Tipi di proprietà di documenti elettronici.](media/emea-ita-electronic-invocies-electronic-document-property-types.png)
+    ![Impostazione dell'applicabilità nella pagina Tipi di proprietà di documenti elettronici](media/emea-ita-electronic-invocies-electronic-document-property-types.png)
 
 - Valori richiesti nelle tabelle specificate a livello di cliente e persona giuridica:
 
@@ -149,7 +134,7 @@ Il valore di questo campo viene utilizzato per definire il tipo di comunicazione
 
 In entrambi i casi, il sistema immette il valore di questo campo nel tag **CodiceDestinatario** nel file XML.
 
-![Campo Ufficio di controllo nella Scheda dettaglio Dati demografici vendite di un record cliente.](media/emea-ita-electronic-invocies-customer-authority-office.png)
+![Campo Ufficio di controllo nella scheda dettaglio Dati demografici vendite di un record cliente](media/emea-ita-electronic-invocies-customer-authority-office.png)
 
 Se il campo **Ufficio di controllo** è vuoto, il sistema considera il cliente come un'impresa privata o un professionista (il formato di trasmissione è uguale a **FPR12**) e immette **0000000** nel tag **CodiceDestinatario** nel file XML. In questo caso, deve essere configurato un indirizzo e-mail certificato (PEC). Per ulteriori informazioni, consultare la tabella nella sezione [Proprietà dei documenti elettronici](#edproperties) vista precedentemente in questo argomento.
 
@@ -157,7 +142,7 @@ Se il campo **Ufficio di controllo** è vuoto, il sistema considera il cliente c
 
 Andare a **Contabilità clienti** \> **Clienti** \> **Tutti i clienti** e aprire un record cliente in modalità di **Modifica**. Quindi nella Scheda dettaglio **Fattura e consegna**, nella sezione **Fattura elettronica**, trovare l'opzione **Registro eInvoice**. Se questa opzione è impostata su **Sì**, il sistema crea automaticamente il record nella pagina elenco **Fatture elettroniche clienti**. Per ulteriori informazioni, vedere la sezione [Registro delle fatture elettroniche](#einvoiceregister) più avanti in questo argomento.
 
-![Sezione Fattura elettronica nella Scheda dettaglio Fattura e consegna di un record cliente.](media/emea-ita-electronic-invocies-customer-e-invoice.png)
+![Sezione Fattura elettronica nella Scheda dettaglio Fattura e consegna di un record cliente](media/emea-ita-electronic-invocies-customer-e-invoice.png)
 
 Nella sezione **Fattura elettronica** è possibile anche impostare l'opzione **Allegato fattura elettronica** su **Sì**. In questo caso, dopo aver stampato una fattura (durante o dopo la registrazione), il sistema allega automaticamente il file PDF alla fattura e alla fattura elettronica (vedere la sezione [Registro delle fatture elettroniche](#einvoiceregister)) e il file è incluso nel file XML (blocco **Allegati**).
 
@@ -177,83 +162,13 @@ Il campo **CodiceValore** è impostato in base alla seguenti regole:
 - Se non è presente un codice a barre e il record nella pagina **Descrizione esterna articolo** esiste per il prodotto e il cliente, questo campo è impostato sul valore del campo **Numero articolo esterno**.
 - Se non è presente un codice a barre e il record nella pagina **Descrizione esterna articolo** non esiste per il prodotto e il cliente, questo campo è impostato sul valore del campo **Numero articolo**.
 
-### <a name="natura-codes"></a><a id="natura"></a>Codici Natura
-
-È possibile associare manualmente i codici Natura a codici IVA correlati oppure lasciare che il sistema determini automaticamente i codici Natura appropriati per le transazioni. I codici Natura associati manualmente hanno una maggiore priorità rispetto ai codici Natura determinati automaticamente e li sovrascriveranno.
-
-Seguire questi passaggi per definire i codici Natura e associarli manualmente ai codici IVA.
-
-1. Selezionare **Imposta** \> **Impostazione** \> **IVA** \> **Codici Natura**.
-2. Creare un record.
-3. Nel campo **Codice Natura** immettere un codice Natura valido.
-4. Nel campo **Descrizione**, immettere una spiegazione dell'utilizzo del codice.
-5. Ripetere i passaggi da 2 a 4 per creare tutti i codici Natura aggiuntivi necessari per coprire tutte le operazioni aziendali correlate.
-6. Selezionare **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA** e selezionare un codice IVA necessario.
-7. Nella scheda Dettaglio **Generale**, nel campo **Codice Natura**, selezionare uno dei codici Natura appena creati.
-
-![Impostazione del campo Codice Natura nella pagina Codici IVA.](media/emea-ita-natura.jpg)
-
-### <a name="reverse-charge-groups"></a>Gruppi reverse charge
-
-I gruppi reverse charge sono necessari quando una società utilizza la funzionalità di reverse charge. Sono utilizzati per determinare automaticamente i codici Natura specifici per le operazioni reverse charge.
-
-Per definire specifici gruppi reverse charge per specifici prodotti o categorie, selezionare **Imposta** \> **Impostazioni** \> **Gruppi di articoli reverse charge**.
-
-![Pagina dei gruppi di articoli di reverse charge.](media/emea-ita-FatturaPA-161-RC-groups.png)
-
-Inoltre, è necessario impostare parametri specifici dell'applicazione che utilizzano questi gruppi reverse charge.
-
-Per ulteriori informazioni su questa funzionalità, vedere la sezione "Configurazione di reverse charge" in [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
-
-### <a name="automatically-assigned-natura-codes"></a>Codici Natura assegnati automaticamente
-
-Il sistema assegna automaticamente i seguenti codici Natura, a seconda dell'operazione.
-
-| Codice    | Descrizione | Configurazione richiesta |
-|---------|-------------|------------------------|
-| N1      | Escluso ai sensi dell'art. 15 | Il campo **Tipo di IVA** del codice IVA è impostato su **Esente** e il codice IVA è associato al codice esenzione contrassegnato come **Esenzione art.15** nel campo **Motivo esenzione**. |
-| N2.2    | Non soggetto a IVA - Altri casi | Il campo **Tipo di IVA** del codice IVA è impostato su **Non soggetto a IVA**.|
-| N3.1    | Non imponibile - Esportazioni | Il campo **Tipo di IVA** del codice IVA è impostato su **Zero** e l'indirizzo del cliente è al di fuori dell'UE.|
-| N3.2    | Non imponibile - Trasferimenti intracomunitari | Il campo **Tipo di IVA** del codice IVA è impostato su **Zero** e l'indirizzo del cliente è nell'UE.|
-| N3.3    | Non imponibile - Vendite a San Marino | Il campo **Tipo di IVA** del codice IVA è impostato su **Zero** e l'indirizzo del cliente è a San Marino.|
-| N3.5    | Non imponibile - A seguito di dichiarazioni di intenti | Il campo **Tipo di IVA** del codice IVA è impostato su **Zero** e una lettera di intenti valida è registrata.|
-| N3.6    | Non imponibile - Altri casi | Questo codice è il valore predefinito per tutti gli altri casi in cui il campo **Tipo di IVA** del codice IVA non è impostato su **Standard**.|
-| N4      | Esente | Il campo **Tipo di IVA** del codice IVA è impostato su **Esente** e il codice IVA è associato a un codice esenzione non contrassegnato come **Esenzione art.15** o **Regime bordo** nel campo **Motivo esenzione**.|
-| N5      | Schema di margine/IVA non indicati sulla fattura | Il campo **Tipo di IVA** del codice IVA è impostato su **Esente** e il codice IVA è associato al codice di esenzione contrassegnato come **Regime bordo** nel campo **Motivo esenzione**.|
-| N6.1    | Reverse charge - Trasferimento di scarti e altri materiali riciclati | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Scarti** nei parametri specifici dell'applicazione.|
-| N6.2    | Reverse charge - Trasferimento di oro e argento puro | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Oro** nei parametri specifici dell'applicazione. |
-| N6.3    | Reverse charge - Conto lavoro nel settore delle costruzioni | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Conto lavoro** nei parametri specifici dell'applicazione. |
-| N6.4    | Reverse charge - Vendita di fabbricati | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Fabbricati** nei parametri specifici dell'applicazione. |
-| N6.5    | Reverse charge - Vendita di telefoni cellulari | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Telefoni cellulari** nei parametri specifici dell'applicazione.|
-| N6.6    | Reverse charge - Vendita di prodotti elettronici | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Prodotti elettronici** nei parametri specifici dell'applicazione.|
-| N6.7    | Reverse charge - Servizi per il settore edile e settori affini | Il codice IVA è contrassegnato come **Settore edile** e il relativo gruppo reverse charge è associato al valore **Scarti** nei parametri specifici dell'applicazione.|
-| N6.8    | Reverse charge - Operazioni nel settore energetico | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Settore energetico** nei parametri specifici dell'applicazione.|
-| N6.9    | Reverse charge - Altri casi | Il codice IVA è contrassegnato come **Reverse charge** e il relativo gruppo reverse charge è associato al valore **Altro** nei parametri specifici dell'applicazione.|
-| N7      | IVA pagata in un altro stato dell'UE | Il campo **Tipo di paese** del codice IVA è impostato su **UE**. |
-
-### <a name="invoice-types"></a><a id="invoicetypes"></a>Tipi di fattura
-
-I seguenti tipi di documenti di fatturazione sono supportati e verranno compilati automaticamente:
-
-- TD01 - Fattura
-- TD04 - Nota di accredito
-- TD05 - Nota di addebito
-- TD20 - Fatturazione automatica
-
-Se un tipo di documento richiesto non è elencato, è possibile modificare manualmente il tipo di documento nei giornali di registrazione fatture. Per attivare la rettifica manuale completare la seguente impostazione:
-
-- Definizione di proprietà di documenti elettronici
-- Registrazione del tipo di documento fattura
-
-Per ulteriori informazioni, vedere la sezione "Configurazione dei tipi di fatture" in [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
-
 ### <a name="digital-certificates"></a><a id="digitalcert"></a>Certificati digitali
 
-Selezionare **Contabilità clienti** \> **Impostazioni** \> **Certificati di firma elettronica** per firmare elettronicamente fatture elettroniche utilizzando un certificato di tipo **Società** o **Utente**.
+Andare a **Contabilità clienti** \> **Impostazioni** \> **Certificati di firma elettronica** per firmare elettronicamente fatture elettroniche utilizzando un certificato di tipo **Società** o **Utente**.
 
-![Pagina Certificati di firma elettronica.](media/emea-ita-electronic-invocies-certificate.png)
+![Pagina Certificati di firma elettronica](media/emea-ita-electronic-invocies-certificate.png)
 
-La parte che emette le fatture deve utilizzare un certificato di firma qualificato per firmare ogni file FatturaPA che viene trasmessa al sistema di scambio (Sistema di Interscambio \[Sdl\]). Un certificato di firma qualificato può essere ottenuto da uno dei certificatori nell'[elenco di certificatori autorizzati](http://www.digitpa.gov.it/firma-digitale/certificatori-accreditati).
+La parte che emette le fatture deve utilizzare un certificato di firma qualificato per firmare ogni file FatturaPA che viene trasmessa al sistema di scambio SdI (Sistema di Interscambio). Un certificato di firma qualificato può essere ottenuto da uno dei certificatori nell'[elenco di certificatori autorizzati](http://www.digitpa.gov.it/firma-digitale/certificatori-accreditati).
 
 Microsoft Dynamics 365 Finance supporta il formato di firma **XAdES-BES**. Per consentire a Finance di supportare FatturaPA, attenersi alla seguente procedura.
 
@@ -266,16 +181,14 @@ Microsoft Dynamics 365 Finance supporta il formato di firma **XAdES-BES**. Per c
 
 ### <a name="destination-for-xml-file-output"></a><a id="destination"></a>Destinazione per l'output dei file XML
 
-Se i file XML devono essere inviati come output a una posizione specifica quando vengono registrate le fatture (ad esempio, se devono essere inviate a una cartella SharePoint), impostare un tipo di documento, quindi impostare una destinazione. Per ulteriori informazioni su questi passaggi, vedere [Configurare la gestione dei documenti](../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md) e [Destinazioni dei report elettronici (ER)](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md).
+Se i file XML devono essere inviati come output a una posizione specifica quando vengono registrate le fatture (ad esempio, se devono essere inviate a una cartella SharePoint), impostare un tipo di documento, quindi impostare una destinazione. Per ulteriori informazioni su questi passaggi, vedere [Configurare la gestione dei documenti](../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md) e [Destinazioni dei report elettronici (ER)](../../dev-itpro/analytics/electronic-reporting-destinations.md).
 
 > [!NOTE]
 > L'opzione **Stampa fattura** deve essere impostata su **Sì**. Se la destinazione è impostata, lo stato del record della fattura elettronica per la fattura viene automaticamente impostato su **Inviata**.
 
-## <a name="maintain-related-base-documents"></a><a id="relateddoc"></a>Gestione dei documenti di base correlati
+## <a name="fill-in-data-for-related-documents"></a><a id="releteddoc"></a>Immettere dati per documenti correlati
 
-Le imprese possono immettere ulteriori informazioni su alcuni documenti di base correlati alle fatture. Questa sezione descrive come inserire dati aggiuntivi, come il codice identificativo della procedura di gara (Codice Identificativo di Gara \[CIG\]) e il codice univoco del progetto (Codice Unico di Progetto \[CUP\]) gestito dal Comitato Interministeriale per la Programmazione Economica.
-
-Di seguito sono riportati alcuni esempi.
+Le imprese possono immettere ulteriori informazioni su alcuni documenti di base correlati alle fatture. Di seguito sono riportati alcuni esempi.
 
 - Il blocco **DatiOrdineAcquisto** contiene informazioni correlate all'ordine fornitore.
 - Il blocco **DatiContratto** contiene informazioni correlate al contratto.
@@ -300,17 +213,13 @@ Per consentire al sistema di immettere informazioni in questi blocchi, impostare
 > | Sistema di gestione | DatiRicezione |
 > | Fattura originale | DatiFattureCollegate |
 
-Per ciascun documento di base, gli utenti possono aggiungere dettagli sul numero e sulla data del documento, il CIG (Codice Identificativo di Gara), il CUP (Codice Unico di Progetto) e il codice dell'accordo.
-
-### <a name="base-documents-for-public-sector-companies"></a>Documenti di base per aziende del settore pubblico
-
-In Italia, esiste un requisito legale che obbliga le aziende del settore pubblico a fornire la tracciabilità dei codici delle procedure di gara (CIG) e dei codici dei progetti (CUP) durante la fatturazione e i pagamenti. Per fornire la tracciabilità, viene implementato un controllo aggiuntivo dei codici CIG e CUP per le aziende del settore pubblico. Per ulteriori informazioni su questa funzionalità, vedere [Localizzazione italiana - Tracciabilità dei pagamenti](emea-ita-payment-traceability.md).
+Per ciascun documento di base, gli utenti possono aggiungere dettagli sul numero e sulla data del documento, il CUP (Codice Unico di Progetto, gestito dal Ministero dello sviluppo economico), il CIG (Codice Identificativo di Gara) e il codice dell'accordo.
 
 ## <a name="electronic-invoice-register"></a><a id="einvoiceregister"></a>Registro delle fatture elettroniche
 
 Per visualizzare tutte le fatture elettroniche dei clienti ed eseguire varie azioni, andare a **Contabilità clienti** \> **Fatture** \> **Fatture elettroniche** \> **Fatture elettroniche**.
 
-Nella pagina **Fatture elettroniche clienti** è possibile effettuare le seguenti azioni:
+Nella pagina **Fatture elettroniche clienti** puoi effettuare una delle seguenti azioni:
 
 - Selezionare **Seleziona** per selezionare le fatture, in base a vari criteri. Questa funzione è utile se l'opzione **Registro eInvoice** è impostata su **No**.
 - Selezionare **Crea XML**, **Crea firma** e **Invia** per creare file XML e una firma digitale per le fatture selezionate e inviare le fatture.
@@ -324,7 +233,7 @@ Nella pagina **Fatture elettroniche clienti** è possibile effettuare le seguent
 > [!NOTE]
 > La pagina **Fatture elettroniche** (**Gestione progetti e contabilità** \> **Fatture progetto** \> **Fatture elettroniche** \> **Fatture elettroniche**) è simile alla pagina **Fatture elettroniche clienti** e ha le stesse funzioni.
 
-![Pagina Fatture elettroniche clienti.](media/emea-ita-electronic-invocies-electronic-customer-invoices.png)
+![Pagina Fatture elettroniche clienti](media/emea-ita-electronic-invocies-electronic-customer-invoices.png)
 
 ## <a name="additional-functionality-that-affects-the-xml-file"></a><a id="additionalfunctionality"></a>Funzionalità aggiuntiva che riguarda il file XML
 
@@ -340,4 +249,28 @@ Per informazioni su come configurare e utilizzare questa funzionalità, vedere [
 
 Se viene impostata una lettera di intenti per un cliente, l'elemento **Causale** (blocco **DatiGeneraliDocumento**) che ha il numero della lettera di intenti viene inviato come output nel file XML.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## <a name="functionality-that-is-available-in-finance-version-10012"></a><a id="fatturapa"></a>Funzionalità disponibile in Finance versione 10.0.12
+
+### <a name="reverse-charge-and-reverse-charge-group-configuration"></a>Configurazione di reverse charge e gruppo di reverse charge
+
+Le impostazioni in questa sezione sono necessarie quando una società utilizza la funzionalità di reverse charge. Inoltre, devono essere impostati i parametri specifici dell'applicazione che hanno questi gruppi. Per ulteriori informazioni su questa funzionalità, vedere [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
+
+Andare a **Imposta** \> **Impostazioni** \> **Gruppi di articoli reverse charge** per definire gruppi di reverse charge specifici per prodotti o categorie specifici.
+
+![Pagina dei gruppi di articoli di reverse charge](media/emea-ita-FatturaPA-161-RC-groups.png)
+
+### <a name="invoice-type-configuration"></a>Configurazione del tipo di fattura
+
+I seguenti tipi di documenti di fatturazione sono supportati e verranno compilati automaticamente:
+
+- TD01 - Fattura
+- TD04 - Nota di accredito
+- TD05 - Nota di addebito
+- TD20 - Fatturazione automatica
+
+Se un tipo di documento richiesto non è coperto dai valori nell'elenco precedente, è possibile modificare manualmente il tipo di documento nei giornali di registrazione fatture. Per attivare la rettifica manuale è necessario completare la seguente impostazione:
+
+- Definizione di proprietà di documenti elettronici
+- Registrazione del tipo di documento fattura
+
+Per ulteriori informazioni, vedere [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).

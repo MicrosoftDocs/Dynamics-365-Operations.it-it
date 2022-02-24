@@ -2,24 +2,27 @@
 title: Ritenuta d'acconto per l'Italia
 description: In questo argomento viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
 author: Anasyash
+manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 272733
 ms.assetid: a5628f89-2ebb-4df2-a8a5-522649fb66da
 ms.search.region: Italy
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 074a889ed68621da6bb6050dbcb2eb9e453b28e21634c5384c82c9c3e4e4205b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f2194b8457c55f16bd972ab44e338da26cbe274a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740867"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408091"
 ---
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 
@@ -29,7 +32,7 @@ In questo argomento viene illustrato come configurare le impostazioni specifiche
 
 Per l'Italia, gli acquirenti devono soddisfare alcuni requisiti legali specifici del paese che comportano la trattenuta della ritenuta d'acconto per alcuni tipi di pagamenti fornitore, ad esempio per i pagamenti dei lavoratori autonomi. La società deve quindi versare questa imposta all'ufficio tributario. La ritenuta d'acconto è un'imposta trattenuta dall'importo del pagamento per le fatture fornitore. In questo argomento vengono descritte le impostazioni specifiche per Italia relative alla ritenuta d'acconto e i seguenti report italiani: **Ritenuta d'acconto - certificazione**, **Ritenuta d'acconto - mensile** e **Ritenuta d'acconto - annuale**. Impostare i codici della ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Codici ritenuta d'acconto**. Definire le impostazioni standard nelle Schede dettaglio **Generale** e **Calcolo**. Nella scheda dettaglio **Reporting italiano** definire le seguenti impostazioni.
 
-|Gruppo campi|Campo|Descrizione|
+|Gruppo campi|Campo|descrizione|
 |------------|----------------|----------------|
 |Tipo di voce   |Codice causale ritenuta d'acconto|Selezionare il riferimento utilizzato quando viene effettuato un pagamento agli uffici tributari.|
 |Tipo di voce   |Origine|Specificare se riepilogare l'imposta registrata in base all'origine (ritenuta a titolo di imposta o ritenuta a titolo di acconto). Questo campo viene utilizzato nei report **Ritenuta d'acconto - certificazione** e **Ritenuta d'acconto - annuale**.|
@@ -39,7 +42,7 @@ Per l'Italia, gli acquirenti devono soddisfare alcuni requisiti legali specifici
 
 Nel **Riquadro azioni** fare clic su **Valori** e impostare i valori per il codice ritenuta d'acconto.
 
-| Campo            | Descrizione                                                                                  |
+| Campo            | descrizione                                                                                  |
 |------------------|----------------------------------------------------------------------------------------------|
 | Dal        | Immettere la prima data a partire dalla quale la percentuale di ritenuta d'acconto è valida.                     |
 | Al          | Immettere l'ultima data per cui la percentuale di ritenuta d'acconto è valida.                      |
@@ -50,7 +53,7 @@ Nel **Riquadro azioni** fare clic su **Valori** e impostare i valori per il codi
 
 Nel Riquadro azioni fare clic su **Limiti** e impostare i limiti per l'importo della ritenuta d'acconto.
 
-| Campo                   | Descrizione                                                                                                            |
+| Campo                   | descrizione                                                                                                            |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Dal               | Immettere la prima data di applicazione dei limiti di ritenuta d'acconto. La data di registrazione determina l'intervallo di limiti utilizzato.  |
 | Al                 | Immettere l'ultima data di applicazione dei limiti di ritenuta d'acconto. La data di registrazione determina l'intervallo di limiti utilizzato.   |
@@ -60,7 +63,7 @@ Nel Riquadro azioni fare clic su **Limiti** e impostare i limiti per l'importo d
 Impostare i gruppi di ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Gruppi ritenute d'acconto**. Immettere il codice e il nome per un gruppo di ritenute d'acconto e assegnare un codice di ritenuta d'acconto al gruppo. Per ulteriori informazioni, vedere [Impostare la ritenuta d'acconto](../general-ledger/tasks/set-up-withholding-tax.md). Impostare un conto fornitore per il calcolo della ritenuta d'acconto in **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**. Definire le seguenti impostazioni.
 
 
-|         Scheda dettaglio         |              Campo               |                                Descrizione                                |
+|         Scheda dettaglio         |              Campo               |                                descrizione                                |
 |-------------------------|----------------------------------|---------------------------------------------------------------------------|
 |  Fattura e consegna   |    Calcola ritenuta d'acconto     |   Impostare questa opzione su <strong>Sì</strong> per calcolare la ritenuta d'acconto.   |
 |  Fattura e consegna   |        Gruppo ritenute d'acconto         |                           Gruppo ritenute d'acconto                           |
@@ -79,6 +82,3 @@ Per eseguire i report specifici dell'Italia relativi alla ritenuta d'acconto, pa
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

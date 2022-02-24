@@ -2,9 +2,11 @@
 title: Creare nuovi utenti
 description: Gli utenti sono dipendenti interni dell'organizzazione o clienti e fornitori esterni, che richiedono l'accesso al sistema per l'esecuzione dei processi.
 author: peakerbl
+manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
+ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595388"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4878659"
 ---
 # <a name="create-new-users"></a>Creare nuovi utenti
 
@@ -29,10 +31,10 @@ Prima di poter accedere alle app Finance and Operations, devi prima essere aggiu
 Per informazioni su come acquistare e ottenere la licenza per le app Finance and Operations, vedi la [Guida alle licenze Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Assegnare una licenza a un utente
-Gli amministratori di sistema possono [assegnare licenze a utenti](/office365/admin/admin-overview/about-the-admin-center) nell'[interfaccia di amministrazione di Microsoft 365](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+Gli amministratori di sistema possono [assegnare licenze a utenti](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) nell'[interfaccia di amministrazione di Microsoft 365](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Aggiungere un utente esterno in Azure AD e assegnare una licenza 
-Gli utenti esterni devono essere rappresentati nella directory del tenant (Azure Active Directory (Azure AD)) in modo che possano essere assegnate loro le licenze. Tali utenti esterni devono essere aggiunti al tenant in Azure AD come utenti guest e devono quindi esservi assegnate le licenze appropriate. Un requisito per le app Finance and Operations prevede che l'azienda dell'utente ospite debba utilizzare Azure AD. Per ulteriori informazioni, vedere [Aggiungere utenti di collaborazione B2B Azure Active Directory nel portale di Azure ](/azure/active-directory/b2b/add-users-administrator).
+Gli utenti esterni devono essere rappresentati nella directory del tenant (Azure Active Directory (Azure AD)) in modo che possano essere assegnate loro le licenze. Tali utenti esterni devono essere aggiunti al tenant in Azure AD come utenti guest e devono quindi esservi assegnate le licenze appropriate. Un requisito per le app Finance and Operations prevede che l'azienda dell'utente ospite debba utilizzare Azure AD. Per ulteriori informazioni, vedere [Aggiungere utenti di collaborazione B2B Azure Active Directory nel portale di Azure ](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Importare nuovi utenti da Azure AD 
 1. Passa a **Amministrazione sistema** \> **Utente** \> **Utenti**.
@@ -57,7 +59,7 @@ Gli utenti esterni devono essere rappresentati nella directory del tenant (Azure
 7. Nel campo **Azienda** seleziona la società di avvio predefinita per l'utente. 
 8. Selezionare **Salva**.
 
-I valori per il provider di identità e l'ID di telemetria verranno aggiornati in base a una chiamata [Microsoft Graph](/graph/overview), quando il record dell'utente viene salvato. L'ID di telemetria si basa sull'ID oggetto/ identificatore di sicurezza (SID) dell'utente in Azure AD.
+I valori per il provider di identità e l'ID di telemetria verranno aggiornati in base a una chiamata [Microsoft Graph](https://docs.microsoft.com/graph/overview), quando il record dell'utente viene salvato. L'ID di telemetria si basa sull'ID oggetto/ identificatore di sicurezza (SID) dell'utente in Azure AD.
 
 > [!NOTE]
 > Dopo aver aggiunto un utente, è necessario assegnare ruoli e organizzazioni in base alle esigenze. Per ulteriori informazioni, vedere [Assegnare utenti a ruoli di sicurezza](assign-users-security-roles.md). A seconda delle condizioni, potrebbe anche essere necessario associare l'utente a un **Utente tipo** e aggiornare le **opzioni dell'utente** come la lingua.
@@ -79,6 +81,3 @@ Per modificare un ID utente, è necessario rinominare la chiave nel database. Qu
 Per ulteriori opzioni per implementare gli utenti B2B, vedi [Esportare utenti B2B in Azure AD](../implement-b2b.md).
 
 Per informazioni sugli account di sistema preconfigurati, vedi [Account di sistema preconfigurati](../pre-configured-system-accounts.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

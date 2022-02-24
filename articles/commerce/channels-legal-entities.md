@@ -1,31 +1,37 @@
 ---
-title: Crea persone giuridiche
+title: Creare persone giuridiche
 description: In questo argomento viene descritto come creare persone giuridiche in Microsoft Dynamics 365 Commerce, che deve essere creato e configurato prima di creare canali.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740433"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413420"
 ---
-# <a name="create-legal-entities"></a>Crea persone giuridiche
+# <a name="create-legal-entities"></a>Creare persone giuridiche
+
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come creare persone giuridiche in Microsoft Dynamics 365 Commerce, che deve essere creato e configurato prima di creare canali.
+
+## <a name="overview"></a>Panoramica
 
 Una persona giuridica è un'organizzazione dotata di una struttura legale istituita o registrata. Le persone giuridiche possono stipulare contratti e hanno l'obbligo di preparare rendiconti sul loro rendimento.
 
@@ -44,7 +50,7 @@ Per creare una nuova persona giuridica in Dynamics 365 Commerce, completare i pa
 1. Nel campo **Paese**, immettere o selezionare un valore.
 1. Selezionare **OK**. 
 
-   ![Creazione di persone giuridiche.](media/legal-entities.png)
+   ![Creazione di persone giuridiche](media/legal-entities.png)
 
 1. Nella sezione **Generale**, immettere le seguenti informazioni generali sulla persona giuridica: 
    1. Immettere un nome di ricerca se è richiesto. Un nome di ricerca è un nome alternativo che è possibile utilizzare per cercare questa persona giuridica. 
@@ -67,7 +73,7 @@ Per creare una nuova persona giuridica in Dynamics 365 Commerce, completare i pa
 
 L'immagine seguente illustra un esempio di persona giuridica.
 
-![Sezione generale della persona giuridica.](media/legal-entities-general.png)
+![Sezione generale della persona giuridica](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -80,6 +86,3 @@ L'immagine seguente illustra un esempio di persona giuridica.
 [Panoramica dei canali](channels-overview.md)
 
 [Prerequisiti di impostazione dei canali](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

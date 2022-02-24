@@ -1,25 +1,28 @@
 ---
 title: Impostare la riallocazione articolo per prelievo breve
 description: In questo argomento viene illustrato come consentire agli addetti al magazzino di individuare rapidamente le ubicazioni alternative se non è disponibile scorte sufficienti all'ubicazione a cui sono stati indirizzati.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 06/29/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkException, WHSWorker, WHSLocationWithWorkException
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe17246037a35e44d12476f184af3bd4c806022
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565234"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431503"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Impostare la riallocazione articolo per prelievo breve
 
@@ -46,7 +49,7 @@ La società di dati dimostrativi USMF è stata utilizzata per creare questa proc
 4. Digitare un valore nel campo **Descrizione** Questa sarà una breve descrizione dell'uso di questa eccezione. Ad esempio, Prelievo breve - articolo non disponibile.
 5. Nel campo Tipo di **eccezione** seleziona **Prelievo in difetto**.
 6. Selezionare la casella di controllo **Correggi magazzino**. Se selezionata, questa opzione indica che l'inventario verrà rettificato automaticamente su 0 all'ubicazione del prelievo breve.
-7. Nel campo **Codice tipo correzione predefinito**, immettere o selezionare un valore. Ad esempio, in USMF è possibile selezionare **Remove Res Adj Out** . Ciascun codice del tipo di rettifica contiene quattro caratteristiche: nome, Descrizione, nome del giornale di inventario e **Rimuovi prenotazioni**. Se **Rimuovi prenotazioni** è abilitata, le prenotazioni della riga ordine di prelievo breve verranno rimosse.  
+7. Nel campo **Codice tipo correzione predefinito**, immettere o selezionare un valore. Ad esempio, in USMF è possibile selezionare **Remove Res Adj Out** . Ciascun codice del tipo di rettifica contiene quattro caratteristiche: nome, descrizione, nome del giornale di inventario e **Rimuovi prenotazioni**. Se **Rimuovi prenotazioni** è abilitata, le prenotazioni della riga ordine di prelievo breve verranno rimosse.  
 8. Nel campo **Riallocazione articolo**, seleziona un valore, ad esempio Manuale. Se si seleziona Manuale o Automatico e manuale, l'addetto al magazzino deve essere abilitato per utilizzare la riallocazione manuale.
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Impostare un lavoratore per utilizzare la riallocazione manuale degli articoli
@@ -61,6 +64,3 @@ La società di dati dimostrativi USMF è stata utilizzata per creare questa proc
 6. Nell'elenco, seleziona un **ID utente**. Ad esempio, 24.
 7. Espandi la Scheda dettaglio **Lavoro**.
 8. Selezionare **Sì** nel campo **Consenti riallocazione manuale articolo**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Implementare correzioni manuali nella previsione di base
 description: Questo argomento illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778035"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967032"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Implementare correzioni manuali nella previsione di base
 
@@ -67,13 +69,14 @@ La pagina **Dettagli di previsione della domanda** visualizza le informazioni se
 
 **Note:**
 
--   Se si abilita **Selezione del modello di previsione nei dettagli previsione della domanda** da Gestione funzionalità, sarà possibile selezionare i modelli di previsione da includere, per la previsione storica, nella pagina **Dettagli previsione della domanda**. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
+-   Se si abilita **Selezione del modello di previsione nei dettagli previsione della domanda** da Gestione funzionalità, sarà possibile selezionare i modelli di previsione da includere, per la previsione storica, nella pagina **Dettagli previsione della domanda**.
 -   L'intervallo di fiducia visualizzato nella sezione **Previsione** della pagina rappresenta la differenza tra il limite superiore dell'intervallo di fiducia e il limite minimo dell'intervallo di fiducia. Per visualizzare i valori dei limiti superiori e inferiori, passare il mouse sul grafico nella sezione **Domanda e previsioni storiche in formato grafico**.
 -   Se si utilizza Microsoft Azure Machine Learning di previsione della domanda, è possibile specificare la percentuale del livello di fiducia che la previsione generata deve avere. Un intervallo di fiducia è costituito da un intervallo di valori che fungono da stime affidabili per la previsione della domanda. Un livello di fiducia del 95% indica ad esempio che è presente una possibilità del 5% che il risultato di previsione della domanda previsto non sia compreso nell'intervallo stabilito.
 
 È inoltre possibile apportare correzioni manuali alla previsione nella pagina **Dettagli previsione della domanda** modificando i valori della riga **Previsione** nella sezione **Previsione**.
 
-## <a name="additional-resources"></a>Risorse aggiuntive
+<a name="additional-resources"></a>Risorse aggiuntive
+--------
 
 [Monitorare la precisione della previsione](monitor-forecast-accuracy.md)
 
@@ -81,6 +84,3 @@ La pagina **Dettagli di previsione della domanda** visualizza le informazioni se
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

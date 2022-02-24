@@ -2,9 +2,11 @@
 title: EUR-00002 Specifica di un indirizzo di carico per una transazione intracomunitaria
 description: In questa procedura viene illustrato come specificare un indirizzo di carico per una transazione per il commercio intracomunitario.
 author: v-oloski
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, TransportationDocument, LogisticsPostalAddress, SysLookupMultiSelectGrid,  VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, Intrastat, SysQueryForm
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68a62a26be418b7a0cb8e17532d022d76cd552411f438ffc5a0ddad589a9e476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 634f6cd840262895e6593c12dbe43923598241a5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780794"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962486"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Specifica di un indirizzo di carico per una transazione intracomunitaria
 
@@ -40,7 +42,7 @@ Questa procedura si applica a tutti i paesi europei. L'attività è stata creata
 10. Nel campo Data/ora carico immettere una data e un'ora.
 11. Fare clic su Aggiungi indirizzo.
 12. Fare clic su Nuovo quindi creare il nuovo indirizzo con scopo Carico.
-13. Digitare 'Italiano' nel campo Nome o descrizione.
+13. Digitare 'Italiano' nel campo Nome o Descrizione.
 14. Selezionare il valore Carico.
     * Tenere presente che lo scopo dell'indirizzo deve esse Carico.  
 15. Nel campo Paese immettere o selezionare un valore ITA.
@@ -70,6 +72,3 @@ Questa procedura si applica a tutti i paesi europei. L'attività è stata creata
 37. Fare clic sulla scheda Generale.
     * Individuare una riga creata di recente e verificare che il mittente abbia spedito le merci dall'Italia.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

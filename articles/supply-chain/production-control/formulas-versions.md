@@ -1,27 +1,30 @@
 ---
 title: Formule e versioni di formula
 description: Questo argomento fornisce informazioni sulle formule e sulle versioni di formula. Una formula definisce i materiali, gli ingredienti e i risultati di uno specifico processo nella produzione di processo. Le formule vengono utilizzate per progettare e creare prodotti nella produzione di processo.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570275"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431082"
 ---
 # <a name="formulas-and-formula-versions"></a>Formule e versioni di formula
 
@@ -38,10 +41,10 @@ Un esempio di formula è la formula per dei biscotti al cioccolato. Gli ingredie
 
 Quando si crea una riga di formula, si utilizza il tipo di riga per indicare come il sistema deve gestire la riga quando si esegue la pianificazione generale e si producono ordini batch. Il risultato è diverso per ogni tipo di riga. Nella tabella indicata di seguito vengono descritti i tipi di riga che è possibile selezionare. 
 
-| Tipo di riga     | Descrizione  |
+| Tipo di riga     | descrizione  |
 |---------------|--------------|
 | Articolo          | Selezionare **Articolo** se l'articolo è una materia prima o un articolo semi-lavorato prelevato dal magazzino o se è un servizio. |
-| Fittizio       | Selezionare **Fittizio** quando si desidera esplodere qualsiasi articolo formula di livello inferiore contenuto nelle righe della formula. Se quando si stima l'ordine batch gli articoli della formula sono esplosi, gli articoli componente sono elencati come righe della formula nell'ordine batch. Inoltre, i cicli di lavorazione corrispondenti vengono aggiunti al ciclo di lavorazione produzione. Gli articoli formula vengono esplosi utilizzando la configurazione corrente. Quando si utilizza il tipo di riga **Fittizio**, è possibile gestire le configurazioni di produzione e di misura che si verificano a differenti livelli della formula. Se si seleziona **Fittizio** per un prodotto nella scheda dettaglio **Progettazione** della pagina **Dettagli prodotto rilasciato** e si utilizza questo prodotto in una formula, il tipo della riga della formula diventa **Fittizio**. Non è possibile selezionare **Fittizio** per un articolo a peso variabile o per articoli in cui tipo di produzione è **Co-prodotto**, **Sottoprodotto** o **Articolo pianificazione**. |
+| Fittizio       | Selezionare **Fittizio** quando si desidera esplodere qualsiasi articolo formula di livello inferiore contenuto nelle righe della formula. Se quando si stima l'ordine batch gli articoli della formula sono esplosi, gli articoli componente sono elencati come righe della formula nell'ordine batch. Inoltre, i cicli di lavorazione corrispondenti vengono aggiunti al ciclo di lavorazione produzione. Gli articoli formula vengono esplosi utilizzando la configurazione corrente. Quando si utilizza il tipo di riga **Fittizio**, è possibile gestire le configurazioni di produzione e di misurazione che si verificano a differenti livelli della formula. Se si seleziona **Fittizio** per un prodotto nella scheda dettaglio **Progettazione** della pagina **Dettagli prodotto rilasciato** e si utilizza questo prodotto in una formula, il tipo della riga della formula diventa **Fittizio**. Non è possibile selezionare **Fittizio** per un articolo a peso variabile o per articoli in cui tipo di produzione è **Co-prodotto**, **Sottoprodotto** o **Articolo pianificazione**. |
 | Fornitura sottoposta a pegging | Selezionare **Fornitura sottoposta a pegging** per creare un ordine batch, ordine di produzione, kanban, ordine di trasferimento o ordine fornitore per l'ingrediente contenuto nella riga della formula. L'ordine correlato viene determinato in base alle impostazioni di ordine predefinite e al tipo di produzione dell'ingrediente e viene creato al momento della stima dell'ordine batch. Le quantità di ingredienti richieste vengono prenotate per l'ordine batch. |
 | Fornitore        | Selezionare **Fornitore** se per il processo di produzione viene utilizzato un terzista e si desidera creare una produzione secondaria o un ordine fornitore per il terzista. Il servizio o il lavoro eseguito dal terzista deve essere creato utilizzando un articolo formula o un articolo di tipo Assistenza. È possibile collegare l'articolo all'articolo padre come riga della formula. Nel ciclo di lavorazione deve essere presente un'operazione assegnata alla risorsa operativa del terzista. Tale operazione viene associata alla riga della formula utilizzando il campo **Oper. n.**. . |
 
@@ -68,6 +71,3 @@ La funzionalità Dimensionabile è disponibile solo se tutti i componenti dell'a
 
 ## <a name="use-step-consumption"></a>Utilizzare Consumo fase
 L'opzione Consumo fase elimina la necessità di immettere una quantità nella scheda **Riga formula** per un ingrediente. Questa opzione è invece configurata per avere un valore **Da serie** e un valore **Quantità**. Le informazioni del record Consumo fase per serie che soddisfano la quantità nell'ordine batch vengono selezionate. L'opzione Consumo fase è utile quando il tasso di consumo non è lineare rispetto alle dimensioni dell'ordine batch e aumenta la richiesta solo quando viene raggiunta una specifica soglia di quantità. Per attivare questa funzionalità per una nuova formula, nel gruppo **Calcolo consumo**, cambiare l'impostazione della formula per l'ingrediente applicabile da **Standard** a **Fase**. Si specifica questo metodo di consumo nella scheda **Impostazione** della pagina **Riga formula**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: Immettere e confrontare le offerte RdO e assegnare i contratti
 description: Questa argomento illustra come immettere le risposte a una richiesta di offerta (RdO), valutare e confrontare le offerte e infine assegnare il contratto a uno dei fornitori.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579474"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016680"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Immettere e confrontare le offerte RdO e assegnare i contratti
 
@@ -32,7 +34,7 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Immettere una risposta come fornitore
 
-1. Vai a **Collaborazione fornitore \> Aree di lavoro \> Offerta fornitore**.
+1. Nel dashboard, selezionare **Offerta fornitore**.
 2. Nell'elenco **Nuovi inviti di offerta**, trovare una richiesta di offerta appena inviata. Selezionare la richiesta di offerta per verificare quanto è stato ordinato.
 3. Selezionare **Allegati RdO** per esaminare gli eventuali allegati aggiunti.
 4. Selezionare **Offerta** per rendere i campi modificabili. Si noti che il campo **Avanzamento offerta** è impostato su **Aggiornamento in corso del fornitore**.
@@ -104,6 +106,3 @@ Prima di iniziare questa procedura, è necessario disporre di una RdO con due ri
 ## <a name="view-the-purchase-order-that-is-generated"></a>Visualizzare l'ordine fornitore generato
 
 Nel riquadro azioni, sella scheda **Generale**, selezionare **Ordine fornitore**. La pagina visualizzata mostra l'ordine fornitore generato quando è stata accettata l'offerta.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

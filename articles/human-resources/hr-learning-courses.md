@@ -1,37 +1,36 @@
 ---
 title: Impostare i corsi di formazione
 description: Gli amministratori e gli amministratori delle Risorse umane possono utilizzare le funzionalità dei corsi per gestire le informazioni sulla formazione offerta ai lavoratori.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066752"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419264"
 ---
 # <a name="set-up-training-courses"></a>Impostare i corsi di formazione
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 Gli amministratori e gli amministratori delle Risorse umane possono utilizzare le funzionalità dei corsi per gestire le informazioni sulla formazione offerta ai lavoratori.
 
-##  <a name="set-up-prerequisites"></a>Prerequisiti per l'impostazione
+ <a name="set-up-prerequisites"></a> Prerequisiti per l'impostazione
+---------------------
 
 Le seguenti informazioni sono obbligatorie e devono essere impostate prima di creare i corsi.
 -   **Tipi di corso**
@@ -83,7 +82,7 @@ Per ogni corso, è possibile effettuare le seguenti attività.
 - Definire il numero minimo e massimo di partecipanti
 - Assegnare una sede del corso e una classe
 - Hotel consigliati per i partecipanti al corso
-- Creare una descrizione del corso che potrà essere pubblicizzata su **Self-service dipendenti**
+- Creare una descrizione del corso che potrà essere pubblicizzata su Dipendente self-service
 
   >**Nota** È possibile eliminare un corso solo se nessuno vi si è registrato. 
 
@@ -129,7 +128,8 @@ Nella seguente tabella sono elencati gli stati possibili del corso e le azioni c
 ## <a name="course-participants"></a>Partecipanti al corso
 I partecipanti a un corso sono i dipendenti che prendono parte a un evento o a un corso di formazione. È possibile registrare solo i partecipanti ai corsi aperti. Il numero minimo e massimo di partecipanti che è possibile registrare per un corso viene definito nella scheda dettaglio **Generale** sulla pagina **Corsi**.
 
-## <a name="workflow"></a>Flusso di lavoro
+<a name="workflow"></a>Flusso di lavoro
+--------
 
 I dipendenti registrati per un corso tramite la pagina **Dipendente self-service** possono avere la registrazione instradata tramite il flusso di lavoro per l'approvazione. Un flusso di lavoro può essere assegnato a un corso nella Scheda dettaglio **Generale** della pagina **Corsi**.
 
@@ -137,6 +137,3 @@ I dipendenti registrati per un corso tramite la pagina **Dipendente self-service
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

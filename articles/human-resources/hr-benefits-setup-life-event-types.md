@@ -1,35 +1,38 @@
 ---
 title: Configurare i tipi di eventi reali
-description: Microsoft Dynamics 365 Human Resources usa i tipi di eventi della vita per definire gli eventi per aggiornare l'iscrizione ai benefici dei dipendenti.
-author: twheeloc
-ms.date: 08/24/2021
+description: Microsoft Dynamics 365 Human Resources utilizza tipi di eventi reali per definire eventi in cui è valido aggiornare l'iscrizione ai benefit per i dipendenti.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aab35d40af43caff7010998ddce51350584228a1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071585"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419184"
 ---
 # <a name="configure-life-event-types"></a>Configurare i tipi di eventi reali
 
+Microsoft Dynamics 365 Human Resources utilizza tipi di eventi reali per definire eventi in cui è valido aggiornare l'iscrizione ai benefit per i dipendenti. Ad esempio, sposarsi o avere un figlio. Ogni ID tipo evento reale può essere associato a un solo tipo di evento reale. Ad esempio, se si crea un ID evento reale denominato Cambio indirizzo che è associato al tipo di evento reale Modifica indirizzo dipendente, non è possibile creare un altro ID denominato Modifica indirizzo dipendente e associarlo al tipo di evento reale Modifica indirizzo dipendente. 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Dopo aver creato tipi di eventi reali, è necessario associarli ai tipi di piano. Per ulteriori informazioni, vedere [Creazione tipi di piani](hr-benefits-setup-plan-types.md).
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Dynamics 365 Human Resources utilizza **tipi di eventi reali** per definire eventi in cui è valido aggiornare l'iscrizione ai benefit per i dipendenti, ad esempio sposarsi o avere un figlio. Ogni ID tipo evento reale può essere associato a un solo tipo di evento reale. Ad esempio, se si crea un **ID evento reale** denominato **Cambio indirizzo** che è associato al tipo di evento reale **Modifica indirizzo dipendente**, non è possibile creare un altro ID denominato **Modifica indirizzo dipendente** e associarlo al tipo di evento reale **Modifica indirizzo dipendente**. Se un tipo di evento reale non è associato a un tipo di piano, il tipo di evento reale non attiverà un evento reale. Per ulteriori informazioni, vedere [Creazione tipi di piani](hr-benefits-setup-plan-types.md).
+   > [!NOTE]
+   > Quando si crea un evento reale, è necessario associarlo a un tipo di piano. Per ulteriori informazioni, vedere [Creazione tipi di piani](hr-benefits-setup-life-event-types.md).
 
 ## <a name="create-a-life-event-type"></a>Creare un tipo di evento reale
 
@@ -49,7 +52,7 @@ Dynamics 365 Human Resources utilizza **tipi di eventi reali** per definire even
 
 ## <a name="view-attached-plans"></a>Visualizzare i piani associati
 
-È possibile visualizzare un elenco dei piani associati al **tipo di evento reale** selezionato. Gli eventi reali sono associati a un tipo di piano e i tipi di piano sono associati a un piano.
+È possibile visualizzare un elenco dei piani associati al tipo di evento reale selezionato. Gli eventi reali sono associati a un tipo di piano e i tipi di piano sono associati a un piano. 
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Tipi di eventi reali**.
 
@@ -63,29 +66,25 @@ Dynamics 365 Human Resources utilizza **tipi di eventi reali** per definire even
 
 | Evento reale | Ubicazione | Attivazione |
 | --- | --- | --- |
-| **Modifica stato civile** | **Lavoratore> Profilo> Informazioni personali> Stato civile**| Modifica dello stato civile |
-| **Modifica stato impiego** |**Pagina Lavoratore > Impiego > Cronologia Impiego** | Per un lavoratore con un dettaglio di impiego esistente, la creazione di un nuovo dettaglio di impiego con uno status di impiego diverso attiverà un evento reale.  Anche l'aggiornamento di un dettaglio di impiego esistente con uno stato di impiego diverso attiverà un evento reale.  |
-| **Modifica indirizzo dipendente** |**Lavoratore > Profilo> Indirizzi**</li><li>**Lavoratore > Informazioni personali > Contatti personali > Indirizzo**</li></ul> | Cambio di indirizzo. L'indirizzo deve essere **primario** per attivare un evento di vita. |
-| **Modifica parte dipendente** |<br><ul><li>**Lavoratore > Profilo > Informazioni personali > Contatti personali**/li><li>**Dipendente self-service**</li></ul> | Aggiungi un contatto personale specificandolo come persona a carico e definendo **Data di inizio validità**. Aggiorna l'informazione **Data di fine validità** della persona a carico del contatto. La relazione del contatto personale deve essere figlio, coniuge, convivente o ex coniuge.  |
-| **Nascita o adozione (persona a carico)** |<br><ul><li>**Lavoratore > Profilo > Informazioni personali > Contatti personali**</li><li>**Self service dipendenti> Modifica dettagli personali> Contatti personali**</li></ul>| **Data di nascita** o **Data di adozione** vengono aggiunti o aggiornati. È richiesta la **data di nascita** del bambino. |
+| **Modifica stato civile** | Lavoratore> Profilo> Informazioni personali> Stato civile| Modifica dello stato civile |
+| **Modifica stato impiego** | <ul><li>Lavoratore > Impiego</li><li>Pagina Storico esperienze lavorative</li></ul> | Modifica della posizione lavorativa |
+| **Modifica indirizzo dipendente** | <ul><li>Lavoratore > Profilo> Indirizzi </li><li>Lavoratore > Informazioni personali > Contatti personali > Indirizzo</li></ul> Indirizzo aggiunto, modificato o eliminato |
+| **Modifica persona a carico** | <ul><li>Lavoratore > Profilo > Informazioni personali > Contatti personali > Aggiungi o elimina persona a carico</li><li>Self-service dipendenti</li></ul> | Persona a carico aggiunta o eliminata. La relazione del contatto personale deve essere figlio, coniuge, convivente o ex coniuge. L'aggiornamento del valore **Data di inizio validità** attiva l'evento reale. Se non si aggiorna quella data, non viene attivato alcun evento reale. |
+| **Nascita o adozione (persona a carico)** | <ul><li>Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico</li><li>Self-service dipendenti</li></ul> | Campo **Data adozione** riempito. È richiesta la data di nascita del bambino. |
 | **Perdita di copertura (coniuge/convivente)** | Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Perdita copertura | **Perdita copertura** selezionato per un contatto personale, insieme a **Data di validità** |
-| Modifica impiego convivente | **Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Assunto** | Creazione di un contatto personale e impostazione di **Assunto** su **Sì**. Aggiornamento di un contatto personale e modifica di **Assunto**.  |
-| **Congedo (coniuge/convivente)** | **Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Congedo** | Contatto personale creato e **Data di decorrenza del congedo** è definito. **Congedo** del contatto personale è aggiornato. **Data di decorrenza del congedo** del contatto personale è aggiornato.  |
-| **Modifica copertura (Posizione)** |<br><ul><li>**Lavoratore -> Assegnazione di posizione -> Assegnazioni di posizione lavoratore**</li><li>**Posizioni > Posizioni**</li></ul>| Modifica della posizione nei record di assegnazione della posizione del lavoratore. Modifica dell'assegnazione del lavoratore nella posizione |
-| **Modifica copertura (retribuzione)** |<br><ul><li>**Lavoratore > Retribuzione > Piano fisso**</li><li>**Lavoratore > Informazioni personali> Retribuzione annuale benefit**</li></ul>| Se **Gestione benefit > Parametri condivisi Risorse umane > Benefit > Retribuzione annuale benefit** non è abilitato, l'aggiornamento di **Lavoratore > Retribuzione> Piano fisso** creerà un evento reale. Se **Gestione benefit > Parametri condivisi Risorse umane > Benefit > Retribuzione annuale benefit** è abilitato, l'aggiornamento di **Lavoratore > Informazioni personali > Retribuzione annuale benefit** creerà un evento reale. |
-| **Assistenza sanitaria per anziani (dipendente/persona a carico)** | **Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Data di validità assistenza sanitaria per anziani** | Aggiunta o aggiornamento della **Data di validità assistenza sanitaria per anziani** per un contatto personale crea questo evento reale. |
-| **Sostegno ordinato dal tribunale** | **Lavoratore > Profilo > Informazioni personali > Contatti personali > Dipendente > Supporto ordinato dal tribunale** (QMSCO/QDRO) e date effettive | Quando si crea un contatto personale, verrà creato un evento reale se **Sostegno ordinato dal tribunale** è **Sì**. Anche l'aggiornamento di **Sostegno ordinato dal tribunale** o **Data di scadenza ordinata dal tribunale** attiverà un evento reale. |
-| **Decesso** | **Lavoratore> Profilo> Informazioni personali> Data di decesso** | Viene inserita o aggiornata una **data di decesso** . |
-| **Prova di assicurazione** | **Lavoratore > Lavoratore > Versioni > Storico esperienze lavorative > Gestione date > Dettagli del benefit** | **Prova di assicurabilità** è impostato su **Sì**. **Data di verifica prova di assicurabilità** è definito. |
-| **Beneficiario** | **Lavoratore > Profilo > Informazioni personali > Contatti personali** | Viene aggiunto un contatto personale e vengono popolati i campi **Beneficiario** e **Data di decorrenza** . Il contatto personale deve essere di tipo **Bambino**, **Coniuge**, **Convivente**, **Fratello**, **Contatto familiare**, **Altro contatto**, **Genitore**. |
-| **Assistenza sanitaria per anziani a carico del dipendente** | **Lavoratore > Lavoratore > Versioni > Storico esperienze lavorative > Gestione date > Dettagli del benefit** | **Idoneo assistenza sanitaria per anziani** è impostato su **Sì**. **Data idoneità assistenza sanitaria per anziani** è cambiato. |
-| **Compleanno** | **Gestione benefit > Elaborazione modifiche a eventi reali** | Questi eventi reali sono creati da **Elaborazione modifiche a eventi reali**. Il processo analizza il periodo e la persona giuridica scelti e trova i lavoratori associati. Calcola il loro ultimo compleanno e crea un evento reale compleanno se non ne è già stato creato uno. |
-| **Modifica idoneità lavoratore (non specifica agli Stati Uniti)** |<br><ul><li>**Lavoratore > Impiego**</li><li>**Lavoratore > Lavoratore > Versioni > Storico esperienze lavorative**</li></ul>| Crea un tipo di evento reale quando:<br><ul><li>Si crea un nuovo impiego e c'è un precedente impiego e il tipo di lavoratore cambia.</li><li>Si crea un nuovo dettaglio di impiego e c'è un precedente dettaglio di impiego e il tipo o la categoria di impiego cambia.</li><li>Si aggiorna un record di impiego e un diverso tipo di lavoratore è definito.</li><li>Si aggiorna un record di dettaglio di impiego e un diverso tipo o categoria di impiego è specificato.</li></ul> |
-| **Nuova sostituzione regole di idoneità (non specifica agli Stati Uniti)** | **Risorse umane avanzate > Benefit > Piani > Benefit > Sostituzione regole di idoneità** | Utilizzo dell'elaborazione di eventi reali<br>La creazione di una sostituzione di idoneità al piano di benefit per un lavoratore attiva questo evento reale.<br>BenefitEligibilityRuleOverride.ValidFrom. |
-| **Modifica sostituzione regole di idoneità (non specifica agli Stati Uniti)** | **Risorse umane avanzate > Benefit > Piani > Benefit > Sostituzione regole di idoneità** | L'aggiornamento di **Data di inizio validità** o **Data di fine validità** per una sostituzione di idoneità a un piano di benefit attiva questo evento reale. |
-| **Scadenza sostituzione regole di idoneità (non specifica agli Stati Uniti)** | Gestione benefit > Elaborazione modifiche a eventi reali  | Questi eventi reali sono creati da **Elaborazione modifiche a eventi reali**. Il processo analizza il periodo e la persona giuridica scelti e trova le sostituzioni di idoneità al piano di benefit associate. Crea eventi reali se le sostituzioni sono scadute. |
-| **Nuovo piano di benefit (non specifico agli Stati Uniti)** | **Risorse umane avanzate > Benefit > Piani > Nuovo** | Le opzioni di idoneità sono aggiunte a un piano corrente. Viene aggiunto un nuovo piano con opzioni di idoneità associate.</br></br>Il personale delle risorse umane deve eseguire l'elaborazione dell'idoneità a eventi reali. |
-| **Modifica regole di idoneità (non specifica agli Stati Uniti)** | **Gestione benefit > Regole di idoneità** | Utilizzo dell'elaborazione dell'idoneità a eventi reali. Registrato quando vengono modificati i seguenti valori dei record **BenefitEligibilityRule**: **UseEmplCategory**, **UseEmplStatus** o **UseEmplType**. Aggiorna solo le transazioni di eventi reali già esistenti per una regola o criteri di idoneità modificati. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Modifica impiego convivente | Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Impiegato. | <ul><li>Record Dettagli persona a carico creato e casella **Contatto personale impiegato** = Sì</li><li>Casella **Contatto personale impiegato** modificata (Sì o No)</li></ul> |
+| **Congedo (coniuge/convivente)** | Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Congedo | <ul><li>Record Dettagli persona a carico creato e **EhrLOAEffectiveDate** riempito</li><li>**personPrivateDetails.EhrIsLOA** modificato (Sì o No)</li><li>**personPrivateDetails.EhrLOAEffectiveDate** modificato</li></ul> |
+| **Modifica copertura (Posizione)** | <ul><li>Lavoratore -> Assegnazione di posizione -> Assegnazioni di posizione lavoratore</li><li>Posizioni > Posizioni</li></ul> | <ul><li>Modifica della posizione nei record di assegnazione della posizione del lavoratore</li><li>Modifica dell'assegnazione del lavoratore nella posizione</li></ul> |
+| **Assistenza sanitaria per anziani (dipendente/persona a carico)** | Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Data di validità assistenza sanitaria per anziani | Non attivata automaticamente quando un contatto personale inserisce una data di validità. |
+| **Sostegno ordinato dal tribunale** | Lavoratore> Profilo> Informazioni personali> Contatti personali> Persona a carico > Sostegno ordinato dal tribunale (QMSCO / QDRO e date di validità) | Non attiva alcun aggiornamento automatico. Non influisce sull'idoneità; registra un evento reale. |
+| **Decesso** | Lavoratore> Profilo> Informazioni personali> Data di decesso | Viene immessa una data di decesso |
+| **Prova di assicurazione** | <ul><li>Lavoratore > Lavoratore > Versioni > Storico esperienze lavorative > Gestione date > Dettagli del benefit</li><li> Lavoratore > Impiego > Dettagli benefit > Data di verifica</li></ul> | <ul><li>Un lavoratore inserisce una data di verifica</li><li>Un lavoratore imposta il campo EvidenceOfInsurability su **Sì**</li></ul> |
+| **Beneficiario** | Lavoratore > Profilo > Informazioni personali > Contatti personali | Viene aggiunto un contatto personale e la casella **Beneficiario** e **Data di validità** vengono riempiti. Il contatto personale deve essere di tipo **Bambino**, **Sposa**, **Convivente**, **Fratello**, **Contatto familiare**, **Altro contatto**, **Genitore**, **Immobili beneficiario**, **Organizzazione beneficiario** o **Fiducia beneficiario**. |
+| **Assistenza sanitaria per anziani a carico del dipendente** | Lavoratore > Lavoratore > Versioni > Storico esperienze lavorative > Gestione date > Dettagli del benefit | <ul><li>**EhrMedicareEligibilityDate** è cambiato</li><li>**MedicareEligibile** è impostato su **Sì**</li></ul> |
+| **Compleanno** | Lavoratore > Profilo > Informazioni personali > Contatti personali > Dettagli persona a carico > Data di nascita | Una data di nascita viene aggiunta o aggiornata (non dopo l'elaborazione delle modifiche all'evento reale). Esempio: se **Opzioni di idoneità per contatti personali** per un bambino è impostato su Età: 26 in Impostazione > Benefit > Opzioni di idoneità per contatti personali e se il personale delle risorse umane esegue l'elaborazione delle modifiche agli eventi reali un giorno qualsiasi dopo che la persona a carico ha compiuto 26 anni, viene visualizzato un messaggio che avvisa che quella persona non ha più diritto alla copertura. |
+| **Modifica idoneità lavoratore (non specifica agli Stati Uniti)** | <ul><li>Lavoratore > Impiego</li><li>Lavoratore > Lavoratore > Versioni > Storico esperienze lavorative</li></ul> | <ul><li>Il tipo di dipendente, la categoria di impiego o i cinque campi di idoneità definibili dall'utente cambiano</li><li>**HcmEmploymentDetail.EhrEmploymentType** cambia (elaborato solo per record di dettagli impiego *modificati*, non elaborato per *nuovi* record di impiego, come riassunzione e fine rapporto)</li></ul> |
+| **Nuova sostituzione regole di idoneità (non specifica agli Stati Uniti)** | Risorse umane avanzate > Benefit > Piani > Benefit > Sostituzione regole di idoneità | Utilizzo dell'elaborazione di eventi reali | EhrBenefitEligibilityRuleOverride.ValidFrom |
+| **Modifica sostituzione regole di idoneità (non specifica agli Stati Uniti)** | Risorse umane avanzate > Benefit > Piani > Benefit > Sostituzione regole di idoneità | Utilizzo dell'elaborazione di eventi reali (rileva solo le modifiche ai campi **ValidFrom** e **ValidTo** per la sostituzione delle regole di idoneità) |
+| **Scadenza sostituzione regole di idoneità (non specifica agli Stati Uniti)** | Risorse umane avanzate > Benefit > Piani > Benefit > Sostituzione regole di idoneità | Utilizzo dell'elaborazione delle modifiche a eventi reali. Ad esempio, se si modifica la scadenza della sostituzione delle regola di idoneità di un piano affinché sia oggi alle 17, in qualsiasi momento dopo le 17 o nei giorni seguenti e quindi si esegue l'elaborazione delle modifiche agli eventi reali, viene visualizzato un messaggio indicante che la sostituzione delle regole di idoneità è scaduta. |
+| **Nuovo piano di benefit (non specifico agli Stati Uniti)** | Risorse umane avanzate > Benefit > Piani > Nuovo | <ul><li>Le opzioni di idoneità sono aggiunte a un piano corrente</li><li>Viene aggiunto un nuovo piano con opzioni di idoneità associate</li></ul></br></br>Il personale delle risorse umane deve eseguire l'elaborazione dell'idoneità a eventi reali. |
+| **Modifica regole di idoneità (non specifica agli Stati Uniti)** | Risorse umane avanzate > Benefit > Regole/opzioni > Regole di idoneità | Utilizzo dell'elaborazione dell'idoneità a eventi reali. Registrato quando vengono modificati i seguenti valori dei record **EhrBenefitEligibilityRule**: **UseEmplCategory**, **UseEmplStatus** o **UseEmplType**. Aggiorna solo le transazioni di eventi reali già esistenti per una regola o criteri di idoneità modificati. |

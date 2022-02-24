@@ -2,31 +2,34 @@
 title: Criteri di lavoro
 description: In questo argomento viene spiegato come configurare i criteri di lavoro.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431559"
 ---
 # <a name="work-policies"></a>Criteri di lavoro
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come configurare il sistema e l'app per dispositivi mobili Gestione magazzino in modo che supportino i criteri di lavoro. È possibile utilizzare questa funzionalità per registrare rapidamente l'inventario senza creare lavori di stoccaggio quando si ricevono ordini fornitore o di trasferimento o quando si completano i processi di produzione. In questo argomento vengono fornite informazioni generali. Per informazioni dettagliate relative alla ricezione della targa, vedere [Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino](warehousing-mobile-device-app-license-plate-receiving.md).
+Questo argomento spiega come configurare il sistema e l'app del magazzino in modo che supportino i criteri di lavoro. È possibile utilizzare questa funzionalità per registrare rapidamente l'inventario senza creare lavori di stoccaggio quando si ricevono ordini fornitore o di trasferimento o quando si completano i processi di produzione. In questo argomento vengono fornite informazioni generali. Per informazioni dettagliate relative alla ricezione della targa, vedere [Ricezione della targa tramite l'app di magazzino](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Un criterio di lavoro controlla se il lavoro di magazzino viene creato quando un articolo prodotto viene segnalato come finito o quando le merci vengono ricevute utilizzando l'app per dispositivi mobili Gestione magazzino. È possibile impostare ogni criterio di lavoro definendo le condizioni in cui si applica: i tipi e i processi dell'ordine di lavoro, l'ubicazione dell'inventario e (facoltativamente) i prodotti. Ad esempio, un ordine fornitore per il prodotto *A0001* deve essere ricevuto nell'ubicazione *RECV* del magazzino *24*. Successivamente, il prodotto viene utilizzato in un altro processo presso l'ubicazione *RECV*. In questo caso, è possibile configurare un criterio di lavoro per impedire la creazione di lavori di stoccaggio quando un lavoratore segnala un prodotto *A0001* come ricevuto nell'ubicazione *RECV*.
+Un criterio di lavoro controlla se il lavoro di magazzino viene creato quando un articolo prodotto viene segnalato come finito o quando le merci vengono ricevute utilizzando l'app di magazzino. È possibile impostare ogni criterio di lavoro definendo le condizioni in cui si applica: i tipi e i processi dell'ordine di lavoro, l'ubicazione dell'inventario e (facoltativamente) i prodotti. Ad esempio, un ordine fornitore per il prodotto *A0001* deve essere ricevuto nell'ubicazione *RECV* del magazzino *24*. Successivamente, il prodotto viene utilizzato in un altro processo presso l'ubicazione *RECV*. In questo caso, è possibile configurare un criterio di lavoro per impedire la creazione di lavori di stoccaggio quando un lavoratore segnala un prodotto *A0001* come ricevuto nell'ubicazione *RECV*.
 
 > [!NOTE]
 > - Affinché un criterio di lavoro sia attivo, è necessario definire almeno un'ubicazione per esso nella Scheda dettaglio **Ubicazioni di magazzino** della pagina **Criteri di lavoro**. 
@@ -200,7 +203,7 @@ L'ordine fornitore è ora ricevuto, ma nessun lavoro è associato ad esso. Le sc
 
 Nel seguente esempio, sono presenti due ordini di produzione, *PRD-001* e *PRD-002*. L'ordine di produzione *PRD-001* ha un'operazione denominata *Assemblaggio*, in cui il prodotto *SC1* viene dichiarato finito nell'ubicazione *001*. L'ordine di produzione *PRD-002* ha un'operazione denominata *Verniciatura* e utilizza il prodotto *SC1* dall'ubicazione *001*. L'ordine di produzione *PRD-002* utilizza anche le materie prime *RM1* dall'ubicazione *001*. Le materie prime *RM1* sono immagazzinate nell'ubicazione *BULK-001* e verranno prelevate nell'ubicazione *001* dal lavoro di magazzino per il prelievo di materie prime. Il lavoro di prelievo viene generato quando l'ordine di produzione *PRD-002* viene rilasciato.
 
-[![Criteri di lavoro magazzino.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Criteri di lavoro magazzino](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Quando si pianifica di configurazione dei criteri di lavoro di magazzino per questo scenario, valutare i seguenti punti:
 
@@ -295,9 +298,6 @@ Quando l'ordine di produzione è stato dichiarato finito, nessun lavoro è stato
 
 Per ulteriori informazioni sulle voci di menu dei dispositivi mobili, vedere [Configurare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md).
 
-Per altre informazioni relative alla ricezione della targa e ai criteri di lavoro, vedere [Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino](warehousing-mobile-device-app-license-plate-receiving.md).
+Per altre informazioni relative alla ricezione della targa e ai criteri di lavoro, vedere [Ricezione della targa tramite l'app di magazzino](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Per ulteriori informazioni sulla gestione dei carichi in entrata, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](inbound-load-handling.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

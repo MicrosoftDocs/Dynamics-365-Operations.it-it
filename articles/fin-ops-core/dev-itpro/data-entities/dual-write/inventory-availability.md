@@ -1,20 +1,29 @@
 ---
 title: Disponibilità delle scorte in doppia scrittura
 description: Questo argomento fornisce informazioni su come controllare la disponibilità delle scorte in doppia scrittura.
-author: RamaKrishnamoorthy
+author: yijialuan
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.author: ramasri
+ms.search.industry: ''
+ms.author: riluan
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782531"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839551"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilità delle scorte in doppia scrittura
 
@@ -57,12 +66,55 @@ Quando selezioni il pulsante **Scorte disponibili** nella pagina **Offerte**, **
 - Richieste di disponibilità di scorte CDS (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>Modelli
-
 I seguenti modelli sono disponibili per l'esposizione dei dati sulle scorte disponibili.
 
-App Finance and Operations | App di interazione con i clienti     | descrizione
+App di Finance and Operations | App di interazione con i clienti | descrizione 
 ---|---|---
-[Movimenti scorte disponibili inventario CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
-[Richieste scorte disponibili inventario CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
+[Movimenti scorte disponibili inventario CDS](#145) | msdyn_inventoryonhandentries |
+[Richieste scorte disponibili inventario CDS](#147) | msdyn_inventoryonhandrequests |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Voci di scorte disponibili CDS (msdyn_inventoryonhandentries)
+
+Questo modello sincronizza i dati tra le app Finance and Operations e Dataverse.
+
+Campo di Finance and Operations | Tipo di mappa | Campo Interazione con i clienti | Valore predefinito
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Richieste di disponibilità di scorte CDS (msdyn_inventoryonhandrequests)
+
+Questo modello sincronizza i dati tra le app Finance and Operations e Dataverse.
+
+Campo di Finance and Operations | Tipo di mappa | Campo Interazione con i clienti | Valore predefinito
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

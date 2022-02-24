@@ -1,25 +1,28 @@
 ---
 title: Configurare un lavoratore tramite il dispositivo di processo mobile
 description: Questa argomento spiega come assegnare i ruoli corretti all'account utente di un lavoratore e abilitare il lavoratore a effettuare le registrazioni del reparto produzione.
-author: johanhoffmann
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d9745995752c06385acc31e529de52eefaa6f96
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ada42a98a8a87e377f939d063b17f9904f6b3408
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573563"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431314"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Configurare un lavoratore tramite il dispositivo di processo mobile
 
@@ -65,6 +68,3 @@ Per questo esempio, verificare che all'utente "SHANNON " sia assegnato il ruolo 
 6. Nel campo **Unità di produzione**, è possibile impostare il filtro predefinito per il lavoratore. In tal modo si assicura che solo i processi di produzione per l'unità di produzione selezionata vengano visualizzati quando il lavoratore accede al dispositivo. Immettere il valore desiderato.
 7. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

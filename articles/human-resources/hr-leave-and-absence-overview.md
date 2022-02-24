@@ -1,32 +1,31 @@
 ---
 title: Panoramica di congedo e assenza
-description: In Dynamics 365 Human Resources, l'area di lavoro Congedo e assenza fornisce una struttura flessibile per la creazione di nuovi piani di congedo.
-author: twheeloc
-ms.date: 10/28/2021
-ms.topic: overview
+description: In Dynamics 365 Human Resources, l'area di lavoro Congedo e assenza fornisce una struttura flessibile per la creazione di nuovi piani di congedo. Fornisce inoltre flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per i dipendenti per richiedere il permesso.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/01/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419254"
 ---
 # <a name="leave-and-absence-overview"></a>Panoramica di congedo e assenza
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources consente di fornire importanti benefit di congedo ai propri lavoratori. L'area di lavoro **Congedo e assenza** fornisce una struttura flessibile per la creazione di nuovi piani di congedo. Fornisce inoltre flussi di lavoro per la gestione delle richieste e una pagina self-service intuitiva per i dipendenti per richiedere il permesso. Le funzionalità di analisi consentono all'organizzazione di misurare e monitorare i saldi di congedo e l'utilizzo per i piani di congedo.
 
@@ -36,8 +35,7 @@ Prima di poter creare piani di congedo per i dipendenti, è necessario eseguire 
 
 - [Configurare i parametri di congedo e assenza](hr-leave-and-absence-parameters.md)
 - [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md)
-- [Creare un flusso di lavoro richiesta di congedo](hr-leave-and-absence-workflow.md)
-- [Configurare il ruolo di responsabile dei congedi](hr-configure-absence-manager.md)
+- [Creare un flusso di lavoro di richieste di congedo](hr-leave-and-absence-workflow.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Creare e gestire piani di congedo
 
@@ -53,10 +51,6 @@ Prima di creare piani di congedo per i lavoratori, è ncessario creare tipi di c
 
 Le richieste di permesso possono essere inviate dai dipendenti e gestite nell'area di lavoro **Self-service dipendenti**.
 
-- [Richiedere un permesso](hr-employee-self-service-request-time-off.md)
-- [Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
-- [Configurare il ruolo di responsabile dei congedi](hr-configure-absence-manager.md)
+[Richiedere permessi](hr-employee-self-service-request-time-off.md)
+[Gestire le richieste di congedo e assenza](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

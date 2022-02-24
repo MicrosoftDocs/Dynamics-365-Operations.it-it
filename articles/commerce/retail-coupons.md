@@ -1,26 +1,29 @@
 ---
 title: Impostare buoni sconto per le vendite al dettaglio
-description: In questo argomento viene fornita una panoramica dei buoni sconto e illustra come configurarli in Dynamics 365 Commerce.
-author: josaw1
-ms.date: 10/05/2021
+description: In questo argomento viene fornita una panoramica dei buoni sconto e illustra come configurarli.
+author: scott-tucker
+manager: AnnBe
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
-ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7603125"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413385"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Impostare buoni sconto per le vendite al dettaglio
 
@@ -38,10 +41,6 @@ Per creare un buono sconto, verranno creati separatamente lo sconto e il buono s
 
 > [!NOTE]
 > Dopo che un buono sconto è stato collegato a uno sconto, diversi campi presenti nella pagina dei buoni sconto in Commerce diventano di sola lettura, poiché vengono gestiti dalle impostazioni del buono sconto. Questi campi includono i campi per lo stato e gli intervalli di date standard.
-> 
-> Durante l'utilizzo del coupon nel canale del call center, è necessario selezionare il pulsante **Ricalcola** **(Scheda Vendi > Calcola > Ricalcola)** affinché venga applicato lo sconto associato al coupon. Questo passaggio aggiuntivo verrà rimosso in una versione futura.
-
-Per applicare un buono sconto a una transazione di vendita nel punto vendita (POS), puoi utilizzare **Codice buono sconto** o **Codice a barre buono sconto**. Per usare **Codice buono sconto**, l'operazione **Aggiungi il codice buono sconto** deve essere configurata nel POS **Transazione** [layout dello schermo](pos-screen-layouts.md). Seleziona **Aggiungi il codice buono sconto** e inserisci il codice buono sconto. In alternativa, per usare **Codice a barre buono sconto**, scansiona il codice a barre o inserisci il codice a barre utilizzando la tastiera numerica nella schermata **Transazione**.
 
 ### <a name="limited-use-coupons"></a>Buoni sconti a utilizzo limitato
 
@@ -83,6 +82,3 @@ La funzionalità Buono sconto include diverse funzionalità distinte. Commerce H
 - **HQ è parzialmente aggiornato, ma Commerce Scale Unit e POS non vengono aggiornati.** In un aggiornamento HQ, il buono sconto e le pagine di sconto vengono aggiornati e il motore dei prezzi di commercio viene aggiornato. Se uno solo di questi due componenti viene aggiornato, alcune pagine in Commerce non corrisponderanno ai dati del calcolo dei prezzi. Di conseguenza, calcoli degli sconti imprevisti o errori possono verificarsi durante i calcoli degli sconti.
 - **HQ è aggiornato, ma Commerce Scale Unit e POS non vengono aggiornati (N-1).** Poiché non tutti i punti vendita possono essere aggiornati contemporaneamente, si consiglia di aggiornare HQ prima di aggiornare i punti vendita. Nello scenario N-1, le nuove funzionalità correlate ai buoni sconto non saranno disponibili nei punti vendita che non sono stati ancora aggiornati. Ad esempio, la funzionalità dei buoni sconto introduce l'esclusione delle righe. Se si utilizza l'esclusione delle righe in uno sconto, questo non verrà applicato in un punto vendita che esegue una versione precedente.
 - **HQ non è aggiornato, ma Commerce Scale Unit e POS vengono aggiornati (N+1).** Poiché il motore dei prezzi aggiornato in Commerce Scale Unit è in grado di gestire i codici sconto legacy durante i calcoli dei prezzi, l'aggiornamento non dovrebbe avere alcun impatto funzionale in questo scenario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

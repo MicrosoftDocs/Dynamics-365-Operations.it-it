@@ -2,13 +2,16 @@
 title: Abilitare gli elementi consigliati "acquista prodotti simili"
 description: Questo argomento descrive come abilitare i consigli sui prodotti "acquista prodotti simili" in Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722002"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413529"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Abilitare gli elementi consigliati "acquista prodotti simili"
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come abilitare i consigli sui prodotti "acquista prodotti simili" in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 La funzionalità relativa ai consigli "acquista prodotti simili" in Dynamics 365 Commerce utilizza la potenza dell'intelligenza artificiale e dell'apprendimento automatico (IA-ML) per fornire ai clienti consigli per prodotti visivamente simili. Rendendo disponibili i consigli "acquista prodotti simili" per tutti i canali di vendita al dettaglio in Commerce, i rivenditori possono aumentare la soddisfazione dei clienti aiutandoli a trovare facilmente ciò che desiderano.
 
@@ -68,7 +73,7 @@ Per abilitare la funzione di consigli "acquista prodotti simili" in Commerce hea
 
 La figura seguente mostra la funzione **Acquista prodotti simili** nella pagina **Gestione funzionalità** in Commerce headquarters.
 
-![La funzione Acquista prodotti simili nella pagina Gestione funzionalità in Commerce headquarters.](./media/enableshopsimilarlooks.png)
+![La funzione Acquista prodotti simili nella pagina Gestione funzionalità in Commerce headquarters](./media/enableshopsimilarlooks.png)
 
 Dopo che le attività precedenti sono state completate, i terminali POS vengono automaticamente migliorati con un pannello **Acquista prodotti simili** contestuale. Selezionando **Ulteriori informazioni**, gli utenti dei terminali POS possono essere indirizzati a una pagina dedicata "acquista prodotti simili" che può essere filtrata ulteriormente.
 
@@ -88,7 +93,7 @@ Per aggiungere un pulsante **Acquista prodotti simili** alle pagine dei dettagli
 
 La figura seguente mostra la casella di controllo **Abilita collegamento acquista prodotti simili** e **Acquista prodotti simili** in una pagina dei dettagli del prodotto di esempio in Creazione di siti.
 
-![Casella di controllo Abilita collegamento acquista prodotti simili e Acquista prodotti simili in una pagina dei dettagli del prodotto in Creazione di siti.](./media/SSLecomtooling.png)
+![Casella di controllo Abilita collegamento acquista prodotti simili e Acquista prodotti simili in una pagina dei dettagli del prodotto in Creazione di siti](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -111,6 +116,3 @@ La figura seguente mostra la casella di controllo **Abilita collegamento acquist
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

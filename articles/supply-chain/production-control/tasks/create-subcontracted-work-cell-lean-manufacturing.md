@@ -1,23 +1,26 @@
 ---
 title: Creare una cella di lavoro in conto lavoro per la lean manufacturing
 description: Per modellare un'attività in conto lavoro per la lean manufacturing, è necessario creare una cella di lavoro associata al fornitore che esegue il lavoro.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f37a38227ef57e6e66a77e90883bf157792e7f81
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2bc1e8551bbebd11cad18d47f9e74a2dedcb908d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576834"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430860"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Creare una cella di lavoro in conto lavoro per la lean manufacturing
 
@@ -68,6 +71,3 @@ Per modellare un'attività in conto lavoro per la lean manufacturing, è necessa
 24. Nel campo Unità fare clic sul pulsante a discesa per aprire la ricerca.
 25. ResolveChanges per l'unità.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

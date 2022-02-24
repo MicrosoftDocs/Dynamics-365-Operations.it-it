@@ -2,30 +2,35 @@
 title: Modulo Galleria multimediale
 description: In questo argomento vengono descritti i moduli Galleria multimediale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 08/02/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733199"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413552"
 ---
-# <a name="media-gallery-module"></a>Modulo raccolta multimediale
+# <a name="media-gallery-module"></a>Modulo Galleria multimediale
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Galleria multimediale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 I moduli Galleria multimediale mostrano una o più immagini in una vista galleria. I moduli Galleria multimediale supportano le immagini di anteprima, che possono essere disposte orizzontalmente (come riga sotto l'immagine) o verticalmente (come colonna accanto all'immagine). I moduli Galleria multimediale offrono anche funzionalità che consentono di ingrandire le immagini o visualizzarle in modalità a schermo intero. Per eseguire il rendering in un modulo Galleria multimediale, un'immagine deve essere disponibile nella libreria multimediale Creazione di siti Web Commerce. Attualmente, i moduli Galleria multimediale supportano solo immagini.
 
@@ -41,7 +46,7 @@ Ecco alcuni esempi di utilizzo per i moduli Galleria multimediale:
 
 Nell'esempio nella figura seguente, una casella acquisti in una PDP ospita le immagini dei prodotti utilizzando un modulo Galleria multimediale.
 
-![Esempio di una casella acquisti in una pagina dei dettagli del prodotto che ospita immagini del prodotto utilizzando un modulo Galleria multimediale.](./media/ecommerce-pdp-buybox.PNG)
+![Esempio di una casella acquisti in una pagina dei dettagli del prodotto che ospita le immagini del prodotto utilizzando un modulo Galleria multimediale](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Proprietà della galleria multimediale
 
@@ -49,25 +54,19 @@ Nell'esempio nella figura seguente, una casella acquisti in una PDP ospita le im
 |---------------|--------|-------------|
 | Origine immagine | **Contesto pagina** o **ID prodotto** | Il valore predefinito è **Contesto pagina**. Se **Contesto pagina** è selezionato, il modulo prevede che la pagina fornisca le informazioni sull'ID prodotto. Se **ID prodotto** è selezionato, l'ID prodotto per un'immagine deve essere fornito come valore della proprietà **ID prodotto**. Questa funzionalità è disponibile in Commerce versione 10.0.12. |
 | ID prodotto | Un ID prodotto | Questa proprietà è applicabile solo se il valore della proprietà **Origine immagine** è **ID prodotto**. |
-| Zoom immagine | **In linea** o **Contenitore** | Questa proprietà consente all'utente di ingrandire le immagini nel modulo Galleria multimediale. Un'immagine può essere ingrandita in linea o in un contenitore separato accanto all'immagine. Questa funzionalità è disponibile in 10.0.12. |
-| Fattore di zoom | Un numero decimale | Questa proprietà specifica il fattore di scala per lo zoom delle immagini. Ad esempio, se il valore è impostato su **2,5**, le immagini vengono ingrandite 2,5 volte. |
+| Zoom immagine | **In linea** o **Contenitore** | Questa proprietà consente all'utente di ingrandire le immagini nel modulo Galleria multimediale. Un'immagine può essere ingrandita in linea o in un contenitore separato accanto all'immagine. Questa funzionalità è disponibile in 10.0.12 |
+| Scala zoom | Un numero decimale | Questa proprietà specifica il fattore di scala per lo zoom delle immagini. Ad esempio, se il valore è impostato su **2,5**, le immagini vengono ingrandite 2,5 volte.|
 | Schermo intero | **True** o **False** | Questa proprietà specifica se le immagini possono essere visualizzate in modalità a schermo intero. In modalità a schermo intero, le immagini possono essere ulteriormente ingrandite se la funzione di zoom è attivata. Questa funzionalità è disponibile in Commerce versione 10.0.13. |
-| Qualità dell'immagine ingrandita | Un numero compreso tra 1 e 100 che rappresenta una percentuale e che viene selezionato utilizzando un controllo trackbar | Questa proprietà definisce la qualità dell'immagine per le immagini ingrandite. Può essere impostato al 100% per garantire che un'immagine ingrandita utilizzi sempre la massima risoluzione possibile. Questa proprietà non è applicabile ai file PNG, perché utilizzano un formato senza perdita di dati. Questa funzionalità è disponibile a partire da Commerce versione 10.0.19. |
 | Immagini | Immagini selezionate dalla libreria multimediale Creazione di siti Web | Oltre al rendering eseguito da un prodotto, le immagini possono essere curate per un modulo Galleria multimediale. Queste immagini verranno aggiunte a tutte le immagini dei prodotti disponibili. Questa funzionalità è disponibile in Commerce versione 10.0.12. |
 | Orientamento dell'anteprima | **Verticale** o **Orizzontale** | Questa proprietà specifica se le immagini di anteprima devono essere visualizzate in una striscia verticale o in una striscia orizzontale. |
-| Nascondere le immagini della rappresentazione generale prodotto per la variante | **True** o **False** | Se questa proprietà è impostata su **True**, quando viene selezionata una variante, le immagini della rappresentazione generale prodotto vengono nascoste a meno che la variante non abbia immagini. Questa proprietà non influisce sui prodotti che non hanno varianti. |
-| Aggiornare i file multimediali alla selezione delle dimensioni | **True** o **False** | Se questa proprietà è impostata su **Vero**, le immagini nella libreria multimediale verranno aggiornate quando qualsiasi dimensione (come colore, stile o taglia) e se un'immagine è disponibile. Questa proprietà consente di semplificare l'esperienza di ricerca, poiché non tutte le dimensioni delle varianti prodotto devono essere selezionate per l'immagine corrispondente da aggiornare. Questa proprietà è disponibile nella scheda **Avanzate**. |
-
-> [!IMPORTANT]
-> La proprietà **Aggiornare i file multimediali alla selezione delle dimensioni** è disponibile a partire dalla versione 10.0.21 di Commerce. Richiede l'installazione del pacchetto della libreria di moduli di Commerce versione 9.31.
 
 La seguente illustrazione mostra un esempio di un modulo Galleria multimediale in cui sono disponibili le opzioni di schermo intero e zoom.
 
-![Esempio di un modulo Galleria multimediale in cui sono disponibili le opzioni di schermo intero e zoom.](./media/ecommerce-media-zoom.png)
+![Esempio di un modulo Galleria multimediale in cui sono disponibili le opzioni di schermo intero e zoom](./media/ecommerce-media-zoom.png)
 
 La seguente illustrazione mostra un esempio di un modulo Galleria multimediale con immagini curate (ovvero, le immagini specificate non dipendono dall'ID prodotto o dal contesto della pagina).
 
-![Esempio di un modulo Galleria multimediale con immagini curate.](./media/ecommerce-media-curated.PNG)
+![Esempio di un modulo Galleria multimediale con immagini curate](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interazione con Commerce Scale Unit
 
@@ -105,6 +104,3 @@ Per aggiungere un modulo Galleria multimediale in una pagina di marketing, effet
 [Modulo contenitore](add-container-module.md)
 
 [Caricare immagini](dam-upload-images.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: Flussi di lavoro di approvazione del giornale di registrazione magazzino
 description: In questo argomento viene descritto come configurare e usare i flussi di approvazione del giornale di registrazione magazzino per i diversi tipi di transazioni dell'inventario fisico. I flussi di lavoro del giornale di registrazione magazzino aiutano a garantire che solo i giornali di registrazione magazzino approvati possano essere registrati nelle transazioni.
-author: yufeihuang
+author: sherry-zheng
+manager: tfehr
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778307"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430906"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flussi di lavoro di approvazione del giornale di registrazione magazzino
 
@@ -29,13 +32,6 @@ In questo argomento viene descritto come configurare e usare i flussi di approva
 > [!NOTE]
 > I flussi di lavoro di approvazione del giornale di registrazione magazzino si applicano solo alle transazioni registrate utilizzando il modulo Gestione articoli. Non funzionano con i giornali di registrazione magazzino attivati dal modulo Gestione magazzino.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Attivare la funzionalità dei flussi di lavoro di approvazione del giornale di registrazione magazzino
-
-A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla o disabilitarla se necessario. La funzione viene elencata come:
-
-- **Modulo:** *Gestione articoli e magazzino*
-- **Nome funzionalità:** *Flusso di lavoro di approvazione del giornale di registrazione inventario*
-
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Creare i flussi di lavoro di approvazione del giornale di registrazione magazzino
 
 Per impostare questa funzione, è necessario creare un flusso di lavoro per ciascuno dei tipi di giornali di registrazione magazzino che si desidera controllare. Poiché diversi tipi di giornali di registrazione magazzino possono avere gerarchie di approvazione e passaggi del flusso di lavoro diversi, è possibile configurare singoli flussi di lavoro per ciascun tipo di giornale di registrazione magazzino.
@@ -44,7 +40,7 @@ I flussi di lavoro supportano il controllo della versione e ognuno ha un ID flus
 
 Per creare i flussi di lavoro di approvazione del giornale di registrazione magazzino:
 
-1. Andare a **Gestione articoli \> Impostazioni\> Flussi di lavoro gestione articoli**.
+1. Andare a **Gestione articoli \> Configura\> Flussi di lavoro gestione articoli**.
 1. Nel Riquadro azioni seleziona **Nuovo**.
 1. Scegliere il tipo di giornale di registrazione magazzino per cui configurare un flusso di lavoro:
     - **Giornale di registrazione conteggio tag scorte**
@@ -55,7 +51,7 @@ Per creare i flussi di lavoro di approvazione del giornale di registrazione maga
     - **Giornale di registrazione DBA magazzino**
     - **Giornale di registrazione di rettifica magazzino**
 
-    ![La finestra di dialogo Crea flusso di lavoro.](media/journal-workflow-create-workflow.png "La finestra di dialogo Crea flusso di lavoro")
+    ![La finestra di dialogo Crea flusso di lavoro](media/journal-workflow-create-workflow.png "La finestra di dialogo Crea flusso di lavoro")
 
 1. L'app dell'editor del flusso di lavoro viene avviata sul computer. (È possibile che venga richiesto di approvare questa azione.) Usarla per progettare il flusso di lavoro in base alle necessità. Per i dettagli su come utilizzare l'editor del flusso di lavoro, vedere [Panoramica del sistema di flusso di lavoro](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Dopo aver salvato e chiuso l'app dell'editor del flusso di lavoro, è necessario scegliere se attivare questa versione del flusso di lavoro o mantenerla inattiva.
@@ -73,7 +69,7 @@ Per associare un flusso di lavoro del giornale di registrazione magazzino al nom
 1. Selezionare il nome di un giornale di registrazione dalla colonna dell'elenco per aprire la relativa pagina delle impostazioni.
 1. Nella Scheda dettaglio **Generale**, impostare **Flusso di lavoro di approvazione** su **Sì**. Se viene richiesto di approvare l'azione, selezionare **Sì**.
 
-    ![Assegnare un flusso di lavoro al nome di un giornale di registrazione.](media/journal-workflow-journal-name.png "Assegnare un flusso di lavoro al nome di un giornale di registrazione")
+    ![Assegnare un flusso di lavoro al nome di un giornale di registrazione](media/journal-workflow-journal-name.png "Assegnare un flusso di lavoro al nome di un giornale di registrazione")
 
 1. Aprire l'elenco a discesa **Flusso di lavoro** e selezionare il flusso di lavoro appropriato. L'elenco mostra ogni flusso di lavoro attivo creato usando l'app dell'editor del flusso di lavoro.
 
@@ -87,7 +83,7 @@ Dopo aver associato un nome di giornale di registrazione magazzino al relativo f
 1. Completare il giornale di registrazione come richiesto.
 1. Quando si crea o si apre un giornale di registrazione magazzino a cui è associato un flusso di lavoro di approvazione, il pulsante **Flusso di lavoro** sarà attivo nel riquadro azioni. Quando si è pronti per inviare il giornale di registrazione per l'approvazione, selezionare il pulsante **Flusso di lavoro** per aprire una finestra di dialogo a discesa, quindi selezionare **Invia**. La richiesta di approvazione verrà quindi indirizzata al responsabile dell'approvazione pertinente, che verrà avvisato utilizzando il metodo di notifica configurato per il flusso di lavoro.
 
-    ![Sottoporre un giornale di registrazione ad approvazione.](media/journal-workflow-inventory-journal.png "Sottoporre un giornale di registrazione ad approvazione")
+    ![Sottoporre un giornale di registrazione ad approvazione](media/journal-workflow-inventory-journal.png "Sottoporre un giornale di registrazione ad approvazione")
 
 Per richiamare una richiesta di approvazione, aprire il giornale di registrazione pertinente, selezionare il pulsante **Flusso di lavoro** e quindi selezionare **Richiama**. Ciò ripristinerà il flusso di lavoro.
 
@@ -116,6 +112,3 @@ Per rivedere lo storico del flusso di lavoro per un giornale di registrazione:
 1. Nel riquadro di navigazione, espandere **Gestione articoli \> Inserimenti nel giornale di registrazione \> Articoli** e quindi selezionare un tipo di giornale di registrazione magazzino.
 1. Aprire il giornale di registrazione rilevante.
 1. Selezionare il pulsante **Flusso di lavoro** nel riquadro azioni per aprire una finestra di dialogo a discesa. Selezionare **Storico flusso di lavoro**. Per ulteriori informazioni, vedere [Visualizzare lo storico flusso di lavoro](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md)..
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

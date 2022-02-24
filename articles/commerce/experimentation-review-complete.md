@@ -2,12 +2,15 @@
 title: Promuovere una variante e completare un esperimento
 description: Questo argomento descrive come promuovere una variante appropriata e completare un esperimento in Dynamics 365 Commerce.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,18 +18,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738748"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4413599"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promuovere una variante e completare un esperimento
 
 Questo argomento descrive come promuovere la variante che ha prodotto i migliori risultati nell'esperimento e come completare l'esperimento. Il diagramma seguente mostra tutti i passaggi relativi alla configurazione e all'esecuzione di un esperimento su un sito Web di e-commerce in Dynamics 365 Commerce. I passaggi aggiuntivi sono esposti in argomenti separati.
 
-[![Percorso utente sperimentazione - Analisi e completamento.](./media/experimentation_review_complete.svg)](./media/experimentation_review_complete.svg#lightbox)
+[![Percorso utente per sperimentazione - Analisi e completamento](./media/experimentation_review_complete.svg)](./media/experimentation_review_complete.svg#lightbox)
 
 Dopo aver [eseguito l'esperimento](experimentation-run-monitor.md) e raccolto dati sufficienti per determinare quale variante desideri utilizzare sul tuo sito live, promuoverai la variante e terminerai l'esperimento.
 
@@ -58,6 +61,3 @@ Per eliminare un esperimento in Creazione di siti Web di Commerce seguire questi
 
 ## <a name="previous-step"></a>Passaggio precedente
 [Eseguire e monitorare un esperimento](experimentation-run-monitor.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

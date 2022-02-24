@@ -1,26 +1,29 @@
 ---
 title: Aggiornamenti automatici delle spedizioni
 description: In questo argomento viene fornita una panoramica della funzionalità che fornisce aggiornamenti automatici delle spedizioni.
-author: Mirzaab
+author: josaw1
+manager: tfehr
 ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3402a4c90299cf52e489e85ed55aff9762796545
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580098"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430946"
 ---
 # <a name="shipment-auto-updates"></a>Aggiornamenti automatici delle spedizioni
 
@@ -122,7 +125,7 @@ Per aggiungere una riga ordine cliente, procedere come segue.
 6. Ritornare alla pagina **Tutti gli ordini clienti** e selezionare di nuovo l'ordine cliente.
 7. Nella scheda **Magazzino** del riquadro azioni, nel gruppo **Informazioni correlate**, selezionare **Dettagli spedizione**. Nella pagina **Dettagli spedizione** della Scheda dettaglio **Righe carico**, notare la seconda riga di carico.
 
-Poiché la riga ordine cliente appena aggiunta alla spedizione esistente non è stata prenotata, se a questo punto l'ondata viene elaborata, il lavoro viene creato solo per la quantità nella prima riga ordine cliente e nella prima riga di carico.
+Poiché la riga ordine cliente appena aggiunta alla spedizione esistente non è stata prenotata, se a questo punto l'ondata viene elaborata, il lavoro viene creato solo per la quantità nella prima riga ordine di vendita e nella prima riga di carico.
 
 ### <a name="process-a-wave"></a>Elaborare un'ondata
 
@@ -137,6 +140,3 @@ L'ondata viene elaborata e viene creato un lavoro per le quantità prenotate nel
 Se lo stato di una spedizione è **In ondata** o superiore, gli aggiornamenti alla quantità di una riga ordine cliente non vengono applicati a una riga di carico associata alla spedizione o convalidati a fronte di tale riga. Le modifiche alla quantità in una riga di carico devono essere eseguite direttamente nella riga di carico.
 
 La convalida viene eseguita dopo aver creato un lavoro per la riga di carico ed effettuato una prenotazione. Una diminuzione della quantità nella riga ordine cliente viene quindi convalidata a fronte della prenotazione della riga di lavoro.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

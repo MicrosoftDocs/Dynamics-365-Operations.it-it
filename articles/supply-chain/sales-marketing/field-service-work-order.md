@@ -1,37 +1,40 @@
 ---
 title: Sincronizzare ordini di lavoro in Field Service con ordini cliente in Supply Chain Management
 description: In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061311"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528925"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizzare ordini di lavoro in Field Service con ordini cliente in Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Dynamics 365 Field Service in Dynamics 365 Supply Chain Management.
 
-[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
@@ -59,13 +62,13 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 
 | **Field Service** | **Gestione della supply chain** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Intestazioni ordine cliente Dataverse |
-| msdyn_workorderservices | Righe ordine cliente Dataverse   |
-| msdyn_workorderproducts | Righe ordine cliente Dataverse   |
+| msdyn_workorders        | Intestazioni ordine cliente CDS |
+| msdyn_workorderservices | Righe ordine cliente CDS   |
+| msdyn_workorderproducts | Righe ordine cliente CDS   |
 
 ## <a name="entity-flow"></a>Flusso di entità
 
-Gli ordini di lavoro vengono creati in Field Service. Se gli ordini di lavoro includono solo prodotti gestiti esternamente e se il valore in **Stato ordine di lavoro** è diverso da **Aperto - Non programmato** e **Chiuso - Annullato**, gli ordini di lavoro possono essere sincronizzati con Supply Chain Management tramite un progetto di integrazione dati Microsoft Dataverse. Gli aggiornamenti agli ordini di lavoro verranno sincronizzati come ordini cliente in Supply Chain Management. Gli aggiornamenti includono le informazioni sul tipo di origine e sullo stato.
+Gli ordini di lavoro vengono creati in Field Service. Se gli ordini di lavoro includono solo prodotti gestiti esternamente e se il valore in **Stato ordine di lavoro** è diverso da **Aperto - Non programmato** e **Chiuso - Annullato**, gli ordini di lavoro possono essere sincronizzati con Supply Chain Management tramite un progetto di integrazione dati Common Data Service. Gli aggiornamenti agli ordini di lavoro verranno sincronizzati come ordini cliente in Supply Chain Management. Gli aggiornamenti includono le informazioni sul tipo di origine e sullo stato.
 
 ## <a name="estimated-versus-used"></a>Stimato rispetto a Utilizzato
 
@@ -245,31 +248,28 @@ Nelle figure seguenti viene illustrato il mapping di modelli in Integrazione dat
 
 Filtro: (msdyn_systemstatus ne 690970005) e (msdyn_systemstatus ne 690970000) e (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Mapping dei modelli in Integrazione dei dati per ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e (msdyn_linestatus eq 690970000) e (msdynce_headersystemstatus ne 690970004)
 
-[![Mapping dei modelli in Integrazione dei dati per ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderServiceLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004))
 
-[![Mapping dei modelli in Integrazione dei dati per ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderProductLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e (msdyn_linestatus eq 690970000) e (msdynce_headersystemstatus ne 690970004) e (msdyn_allocated eq true)
 
-[![Mapping dei modelli in Integrazione dei dati per ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderProductLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) e (msdynce_headersystemstatus ne 690970000) e (msdynce_orderhasexternalmaintainedproductsonly eq true) e ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
 
-[![Mapping dei modelli in Integrazione dei dati per ordini di lavoro a ordini cliente (da Field Service a Supply Chain Management): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Mapping dei modelli in Integrazione dati](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)

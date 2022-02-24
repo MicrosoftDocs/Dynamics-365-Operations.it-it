@@ -2,9 +2,11 @@
 title: Elaborazione fattura
 description: In questo argomento vengono fornite informazioni sull'elaborazione delle fatture per l'Europa orientale.
 author: EvgenyPopovMBS
-ms.date: 02/02/2022
+manager: AnnBe
+ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, VendParameters
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9eb4f3ace8c6295e82ba9ab44ef49baa0d10e96b
-ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.openlocfilehash: 9dcc6c4d886f34429b48a9beec458ff341e43db4
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8087817"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018645"
 ---
 # <a name="invoice-processing"></a>Elaborazione fattura
 
@@ -69,8 +71,7 @@ Questo argomento descrive brevemente alcuni scenari specifici del paese, come l'
 <td>
 <p>La legislazione prevede regole diverse per la selezione di tassi di cambio validi per le transazioni commerciali. Nel campo <strong>Data tasso di cambio</strong> nelle pagine <strong>Parametri contabilità clienti</strong> e <strong>Parametri contabilità fornitori</strong> è possibile selezionare la data da utilizzare per gli importi nel calcolo della valuta contabile sui documenti di acquisto e di vendita. Durante l'immissione dei dati, il sistema recupera il tasso di cambio per la transazione, in base a questo parametro.</p>
 <blockquote>[!NOTE]<br>Per l'Italia, questa funzionalità è applicabile solo nel modulo Contabilità fornitori. Nei parametri della contabilità fornitori, un utente può selezionare <strong>Data registrazione</strong> o <strong>Data documento</strong> nel campo <strong>Data tasso di cambio</strong>.   </blockquote>
-<blockquote><br>Quando si imposta il campo <strong>Data tasso di cambio</strong> su <strong>Data documento (solo per il commercio UE)</strong>, il sistema utilizza la fascia IVA. Per la fascia IVA, esiste un parametro <strong>Commercio UE</strong> nella scheda <strong>Generale</strong>. Se l'opzione <strong>Commercio UE</strong> è impostata su <strong>Sì</strong> per la fascia IVA e se questa fascia IVA esiste nell'intestazione del documento, il sistema recupera il tasso di cambio in base alla data del documento. Se l'opzione <strong>Commercio UE</strong> è impostata su <strong>No</strong> per questa fascia IVA, il sistema recupera il tasso di cambio in base alla data di registrazione del documento.</blockquote>
-  <blockquote><br>Per la Polonia, nel modulo <strong>Contabilità clienti</strong>, è disponibile un altro valore <strong> Determinazione automatica della data</strong> di questo parametro. Se selezionata, il sistema seleziona automaticamente la prima data dalla data di registrazione della fattura, dalla data di vendita e dalle date di pagamento.</blockquote>
+<blockquote>[!NOTE]<br>Quando si imposta il campo <strong>Data tasso di cambio</strong> su <strong>Data documento (solo per il commercio UE)</strong>, il sistema utilizza la fascia IVA. Per la fascia IVA, esiste un parametro <strong>Commercio UE</strong> nella scheda <strong>Generale</strong>. Se l'opzione <strong>Commercio UE</strong> è impostata su <strong>Sì</strong> per la fascia IVA e se questa fascia IVA esiste nell'intestazione del documento, il sistema recupera il tasso di cambio in base alla data del documento. Se l'opzione <strong>Commercio UE</strong> è impostata su <strong>No</strong> per questa fascia IVA, il sistema recupera il tasso di cambio in base alla data di registrazione del documento.</blockquote>
 </td>
 </tr>
 <tr>
@@ -120,6 +121,3 @@ Questo argomento descrive brevemente alcuni scenari specifici del paese, come l'
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: 'ER Configurare il formato per eseguire il conteggio e la sommatoria (Parte 2: configurare i calcoli)'
-description: Questo argomento descrive come configurare un formato di report elettronico per eseguire il conteggio e la somma in base ai dati dell'output di testo già generato. (Parte 2)
+description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la creazione di report elettronici in modo che esegua calcoli e somme in base ai dati dell'output di testo già generato.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66b911a7cec6bc1506edb0e4cd6757cb6834a9e977c5e43052725cfa58c1342e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9314a8cd5838333a20dd59dfb52f80a43d89b8c6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770839"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684693"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER Configurare il formato per eseguire il conteggio e la sommatoria (Parte 2: configurare i calcoli)
 
@@ -137,6 +139,3 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 83. Fare clic su Salva.
 84. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

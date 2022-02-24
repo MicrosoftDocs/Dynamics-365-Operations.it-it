@@ -2,30 +2,35 @@
 title: Panoramica delle pagine del checkout e del carrello
 description: Questo argomento fornisce una panoramica delle pagine carrello e checkout in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982970"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413562"
 ---
-# <a name="cart-and-checkout-pages-overview"></a>Panoramica delle pagine di checkout e del carrello
+# <a name="cart-and-checkout-pages-overview"></a>Panoramica delle pagine del checkout e del carrello
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica delle pagine carrello e checkout in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 La pagina carrello di un sito Web di e-Commerce visualizza tutti gli articoli che un cliente ha aggiunto al carrello. La pagina carrello viene generata utilizzando il modulo Carrello. Il modulo Carrello è un contenitore che ospita tutti i moduli necessari per visualizzare gli articoli nel carrello. Il modulo Carrello può anche utilizzare altri moduli per visualizzare un riepilogo dell'ordine ed eventuali codici promozionali applicati all'ordine cliente.
 
@@ -37,7 +42,7 @@ La pagina carrello funge da carrello della spesa e include tutti gli articoli ag
 
 Nella figura seguente è illustrato un esempio di pagina carrello creata utilizzando la libreria di moduli e il tema "Fabrikam".
 
-![Esempio di pagina carrello.](./media/cart2.PNG)
+![Esempio di pagina carrello](./media/cart2.PNG)
 
 La parte principale della pagina carrello visualizza tutti gli articoli che il cliente ha aggiunto al carrello. Tutti gli sconti applicabili sono visualizzati. Tali sconti includono sconti complessi. Ad esempio "Sconto del 10% per 3 articoli acquistati" o "Sconto del 10% per l'acquisto di una borraccia e uno zaino". Il modulo Riepilogo ordine visualizza l'importo dovuto dopo l'applicazione di sconti, costi di spedizione e così via. Esiste anche un modulo Codici promozionali che consente al cliente di applicare o rimuovere codici promozionali.
 
@@ -53,7 +58,7 @@ La pagina checkout consente ai clienti di immettere le informazioni necessarie p
 
 Nella figura seguente è illustrato un esempio di pagina checkout creata utilizzando la libreria di moduli.
 
-![Esempio di pagina checkout.](./media/Checkout.PNG)
+![Esempio di pagina checkout](./media/Checkout.PNG)
 
 La parte principale della pagina checkout è l'area in cui vengono raccolte tutte le informazioni dell'ordine. Queste informazioni includono l'indirizzo di spedizione, le opzioni di consegna e le informazioni di pagamento. Il checkout presenta un flusso dettagliato, poiché le informazioni devono essere immesse in un determinato ordine per essere elaborate. Ad esempio, è necessario immettere l'indirizzo di spedizione per poter calcolare i costi di spedizione e autorizzare il pagamento.
 
@@ -83,7 +88,7 @@ Il cliente può completare il processo di checkout come utente guest o come uten
 
 ### <a name="order-summary"></a>Riepilogo ordine
 
-La pagina checkout visualizza un riepilogo degli articoli nel carrello, di modo che il cliente possa verificare l'ordine prima di effettuarlo. Gli articoli non possono essere modificati durante il flusso di checkout. Un collegamento al carrello viene tuttavia fornito nel caso in cui l'utente intenda modificare gli articoli.
+La pagina checkout visualizza un riepilogo degli articoli nel carrello, di modo che il cliente possa verificare l'ordine prima di eseguirlo. Gli articoli non possono essere modificati durante il flusso di checkout. Un collegamento al carrello viene tuttavia fornito nel caso in cui l'utente intenda modificare gli articoli.
 
 Dopo che il cliente fornisce le informazioni di spedizione e fatturazione, il riepilogo dell'ordine riflette l'importo dovuto dopo l'applicazione di punti fedeltà, gift card e altri pagamenti.
 
@@ -102,6 +107,3 @@ Per ulteriori informazioni su come creare una pagina checkout, vedere [Aggiunger
 [Panoramica delle pagine dei dettagli del prodotto](quick-tour-pdp.md)
 
 [Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

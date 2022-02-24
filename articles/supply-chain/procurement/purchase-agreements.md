@@ -1,10 +1,12 @@
 ---
 title: Contratti di acquisto
 description: Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4911bd891c081892e52bda4bcc87984b3fb189b2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570493"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017189"
 ---
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
@@ -102,13 +104,12 @@ Se si crea un ordine fornitore interaziendale che utilizza il contratto di acqui
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensioni finanziare nei contratti di acquisto
 È possibile copiare le dimensioni finanziarie in intestazioni documento o in singole righe di un contratto di acquisto. Se si modificano le dimensioni nell'intestazione del contratto o nella riga del contratto, la modifica non influisce sugli ordini rilasciati, ma verrà considerata in tutti i nuovi ordini.
 
-## <a name="additional-resources"></a>Risorse aggiuntive
+<a name="additional-resources"></a>Risorse aggiuntive
+--------
 
-- [Creare un contratto di acquisto](tasks/create-purchase-agreement.md)
-- [Applicare un contratto di acquisto quando si crea un ordine fornitore](tasks/create-purchase-release-order-purchase-agreement.md)
+[Creare un contratto di acquisto](tasks/create-purchase-agreement.md)
+
+[Creare un ordine fornitore di rilascio da un contratto di acquisto](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

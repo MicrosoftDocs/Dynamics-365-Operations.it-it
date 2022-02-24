@@ -1,27 +1,30 @@
 ---
 title: Connettere periferiche al POS
 description: Questo argomento illustra come connettere periferiche a Retail POS.
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779520"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413375"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connettere periferiche al POS
 
@@ -78,7 +81,7 @@ Mentre la stazione hardware in sé specificata al livello del canale include inf
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS con i dispositivi periferici collegati
 
-[![POS fisso tradizionale.](./media/traditional-300x279.png)](./media/traditional.png)
+[![POS fisso tradizionale](./media/traditional-300x279.png)](./media/traditional.png)
 
 Per connettere MPOS a periferiche POS in uno scenario POS fisso tradizionale, passare al registratore di cassa stesso e assegnare un profilo hardware. È possibile trovare i registratori di cassa POS in **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Registratori di cassa**. 
 
@@ -97,7 +100,7 @@ Infine, in MPOS, utilizzare l'operazione **Seleziona stazione hardware** per sel
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS o POS cloud con una stazione hardware autonoma
 
-[![Periferiche condivise.](./media/shared-300x254.png)](./media/shared.png)
+[![Periferiche condivise](./media/shared-300x254.png)](./media/shared.png)
 
 In questo scenario, una stazione hardware autonoma viene condivisa con i client MPOS e POS cloud. Per questo scenario è necessario creare un profilo di stazione hardware per specificare il pacchetto di download, la porta e il profilo hardware che utilizza la stazione hardware. Il profilo stazione hardware è disponibile in **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili stazione hardware**. 
 
@@ -202,6 +205,3 @@ Ulteriori informazioni relative alla attivazione includono il lavoratore che ha 
 ### <a name="client-data-synchronization"></a>Sincronizzazione dei dati client
 
 Tutte le modifiche apportate a un client POS, ad eccezione delle modifiche dello stato di attivazione del dispositivo, devono essere sincronizzate nel database di canale per essere effettive. Per sincronizzare le modifiche al database di canale, passare a **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**, ed eseguire la programmazione di distribuzione necessaria. Per le modifiche del client, è necessario eseguire le programmazioni di distribuzione **Registratori di cassa** e **Configurazione canale**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

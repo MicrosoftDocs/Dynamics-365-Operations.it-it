@@ -157,6 +157,3 @@ I candidati rappresentano le persone principali aggiunte a un pool di competenze
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profilo: dettagli candidato | Creare, leggere, aggiornare ed eliminare | Creare, leggere, aggiornare ed eliminare | Nessun accesso   |
 | Documenti                   | Creare, leggere, aggiornare ed eliminare | Creare, leggere, aggiornare ed eliminare | Nessun accesso   |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: Certificazione unica
 description: Questo argomento fornisce informazioni sulla certificazione unica per le società in Italia.
 author: ilkond
+manager: AnnBe
 ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ed9d1d1ba28c31573a63e4526a998aba32d5de3034249c5b1ec3b3df31ad165
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 30c6f3e3ef973b211ef6564a4d68aa391a61d66e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766272"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408101"
 ---
 # <a name="unique-certification"></a>Certificazione unica
 
@@ -36,7 +39,7 @@ In Italia, gli addetti alla ritenuta d'acconto devono comunicare elettronicament
 Per poter utilizzare questa funzionalità è necessario soddisfare i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- La funzionalità **Certificazione unica** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Certificazione unica** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-unique-certification"></a>Impostare la certificazione unica
 
@@ -66,7 +69,7 @@ Il formato del modello telematico della certificazione unica è stato aggiornato
 
 I valori specificati sulla pagina **Imposta valori di certificazione unica** e contrassegnati con **Sì** nella colonna **Attivo**, saranno disponibili nei relativi campi di ricerca nella pagina **Certificazione unica**. Utilizza questa pagina per futuri aggiornamenti normativi della certificazione unica per aggiungere o eliminare valori.
 
-È possibile importare il set iniziale di valori per **Impostazione valori di certificazione unica** utilizzando l'entità **Impostazione valori certificazione unica** (UniqueCertificationValueEntity) e il framework di gestione dei dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). È possibile scaricare il set iniziale di valori per **Imposta valori di certificazione unica** dal file **IT SetupUniqueCertificationValues** nella sezione del tipo di dati risorsa **Pacchetto dati** della **Libreria di risorse condivisa** nel [Portale LCS](https://lcs.dynamics.com/v2) e quindi importarlo nel framework di gestione dei dati.
+È possibile importare il set iniziale di valori per **Impostazione valori di certificazione unica** utilizzando l'entità **Impostazione valori certificazione unica** (UniqueCertificationValueEntity) e il framework di gestione dei dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../../dev-itpro/data-entities/data-import-export-job.md). È possibile scaricare il set iniziale di valori per **Imposta valori di certificazione unica** dal file **IT SetupUniqueCertificationValues** nella sezione del tipo di dati risorsa **Pacchetto dati** della **Libreria di risorse condivisa** nel [Portale LCS](https://lcs.dynamics.com/v2) e quindi importarlo nel framework di gestione dei dati.
 
 I dati di origine utilizzati per l'importazione possono essere presentati come un file di Microsoft Excel con i seguenti nomi di colonna:
 
@@ -100,6 +103,3 @@ I dati di origine utilizzati per l'importazione possono essere presentati come u
 ## <a name="process-the-unique-certification"></a>Elaborare la certificazione unica
 
 Dopo che la certificazione univoca è stata generata e riempita con i dati, è possibile selezionare **Convalida** per convalidare i dati prima che venga generato il file di output. Dopo la convalida del file di output, selezionare **Esporta** per generare il file di output elettronico nel formato legalmente richiesto.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

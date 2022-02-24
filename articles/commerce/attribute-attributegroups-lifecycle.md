@@ -2,13 +2,16 @@
 title: Gestire attributi e gruppi di attributi
 description: In questo argomento viene illustrato come utilizzare gli attributi per fornire un modo per descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727656"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413437"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gestire attributi e gruppi di attributi
 
@@ -34,8 +37,8 @@ Ad esempio, un prodotto tipico nell'ambito dei televisori può avere i seguenti 
 
 | Categoria   | Attributo                | Valori permessi          | Valore predefinito |
 |------------|--------------------------|-----------------------------|---------------|
-| TV e video | Marchio                    | Qualsiasi valore di marchio valido       | Nessuno          |
-| TV         | Dimensioni schermo              | 20-80 pollici                | Nessuno          |
+| TV e video | Marchio                    | Qualsiasi valore di marchio valido       | Nessuna          |
+| TV         | Dimensioni schermo              | 20-80 pollici                | Nessuna          |
 |            | Risoluzione verticale      | 480i, 720p, 1080i o 1080p | 1080p         |
 |            | Frequenza di aggiornamento schermo      | 60 hz, 120 hz o 240 hz       | 60 hz          |
 |            | Ingressi HDMI              | 0–10                        | 3             |
@@ -70,7 +73,7 @@ Gli attributi si basano sui *tipi di attributo*. Il tipo di attributo identifica
     - Denominare un tipo di attributo **Forma di lente**, quindi aggiungere i seguenti valori: **Ovale**, **Quadrato** e **Rettangolo**.
     - Denominare l'altro tipo di attributo **Marca di occhiali da sole**, quindi aggiungere i seguenti valori: **Ray ban**, **Aviator** e **Oakley**.
 
-![Tipi di attributo.](media/AttributeType.png)
+![Tipi di attributo](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Impostare un attributo
 
@@ -79,7 +82,7 @@ Gli attributi si basano sui *tipi di attributo*. Il tipo di attributo identifica
 3. Creare un attributo denominato **Lente**.
 4. Impostare il campo **Tipo di attributo** su **Forma di lente**.
 
-![Attributi.](media/Attribute.png)
+![Attributi](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Metadati di attributi
 
@@ -101,7 +104,7 @@ Di seguito sono riportate le opzioni rimanenti relative ai metadati di attributi
 
 Queste opzioni sono state inizialmente progettate per migliorare le funzionalità di ricerca per la vetrina virtuale online. Sebbene Commerce non includa la vetrina virtuale online per impostazione predefinita, include l'eCommerce Publishing Software Development Kit (SDK). I clienti possono utilizzare questo SDK per inserire i prodotti in un indice di ricerca di propria scelta. Sebbene i dati dei prodotti siano importati, i clienti dovrebbero comunque essere in grado di distinguere i dati in cui è possibile eseguire le ricerche, quelli nei quali è possibile eseguire le interrogazioni e così via. In questo modo, gli utenti possono creare un indice ottimale per assicurarsi di indicizzare solo gli attributi che, *a loro parere*, devono essere indicizzati.
 
-Per informazioni sullo scopo di queste opzioni rimanenti, vedere [Panoramica dello schema di ricerca in SharePoint Server 2013](/SharePoint/search/search-schema-overview).
+Per informazioni sullo scopo di queste opzioni rimanenti, vedere [Panoramica dello schema di ricerca in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Impostazioni di filtro per attributi
 
@@ -134,7 +137,7 @@ La pagina **Preferenze di visualizzazione filtro** include i seguenti campi:
     - 200 – 500
     - 500 o più
 
-![Impostazioni filtro attributi.](media/AttributeFilterSettings.PNG)
+![Impostazioni di filtro di attributi](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Gruppi di attributi
 
@@ -142,7 +145,7 @@ Dopo che gli attributi sono stati definiti, possono essere assegnati a gruppi di
 
 È inoltre possibile impostare i valori predefiniti per gli attributi inclusi in un gruppo di attributi. Ad esempio, si aggiunge un attributo per il colore a un gruppo di attributi e si seleziona **Blu** come valore di attributo predefinito. In questo caso, quando il gruppo di attributi viene aggiunto a un prodotto che include il colore come uno degli attributi, **Blu** apparirà come il colore predefinito per quel prodotto.
 
-![Gruppi di attributi.](media/AttributeGroup.png)
+![Gruppi di attributi](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Crea un gruppo attributi
 
@@ -155,7 +158,7 @@ Dopo che gli attributi sono stati definiti, possono essere assegnati a gruppi di
 
 È possibile associare uno o più gruppi di attributi ai nodi di categoria nei seguenti tipi di gerarchie di categorie: Gerarchia di prodotti di Commerce, Gerarchia di categorie di navigazione nei canali e Gerarchia di categorie di prodotti supplementari. Quindi, una volta che i prodotti sono stati classificati in categorie, ereditano gli attributi inclusi nei gruppi di attributi.
 
-![Gerarchia di prodotti - Gruppi di attributi del prodotto.](media/AGRetailProdHierarchy.PNG)
+![Gerarchia di prodotti - Gruppi di attributi del prodotto](media/AGRetailProdHierarchy.PNG)
 
 Attenersi alla procedura seguente per assegnare gruppi di attributi alle categorie nella gerarchia di prodotti di Commerce.
 
@@ -200,7 +203,7 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
     3. Selezionare il nodo della categoria **Accessori di moda**,selezionare la categoria **Occhiali da sole di moda**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
     4. Selezionare il nodo della categoria **Abbigliamento maschile**, selezionare la categoria **Pantaloni**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
 
-![Categorie canale e attributi del prodotto - Gruppi di attributi.](media/CCPAttrGrp.png)
+![Categorie canale e attributi del prodotto - Gruppi di attributi](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Sostituzione dei valori di attributi
 
@@ -214,7 +217,7 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 4. Selezionare il prodotto richiesto nella griglia. Quindi, nel riquadro azioni, nella scheda **Prodotto**, nel gruppo **Imposta**, selezionare **Attributi del prodotto**.
 5. Selezionare un attributo nel riquadro sinistro, quindi aggiornare il relativo valore nel riquadro destro.
 
-![Pagina Dettagli prodotto - Gruppi di attributi del prodotto.](media/ProdDetailsProdAttrValues.png)
+![Pagina Dettagli prodotto - Gruppi di attributi del prodotto](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Sostituire i valori degli attributi dei prodotti in un catalogo
 
@@ -233,7 +236,7 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
     > [!NOTE]
     > Se vengono creati supporti prodotto condivisi e attributi del prodotto condivisi, questi sono applicati a tutti i prodotti.
 
-![Gruppi di attributi del prodotto del catalogo.](media/CatalogProdAttrValues.png)
+![Gruppi di attributi del prodotto del catalogo](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Sostituire i valori degli attributi dei prodotti in un canale
 
@@ -254,6 +257,3 @@ Attenersi alla procedura seguente per assegnare gruppi di attributi alle categor
 
     > [!NOTE]
     > Se vengono creati supporti prodotto condivisi e attributi del prodotto condivisi, questi sono applicati a tutti i prodotti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

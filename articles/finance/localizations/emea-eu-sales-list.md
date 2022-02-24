@@ -2,24 +2,27 @@
 title: Dichiarazione elenco vendite UE
 description: Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell'Unione Europea (UE).
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 12811
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33a17461038d3e81d3f3a827e52c9cfd781a5874d45c262ee9006564fb3d489d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780345"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408080"
 ---
 # <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
 
@@ -27,7 +30,8 @@ ms.locfileid: "6780345"
 
 Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell'Unione Europea (UE).
 
-## <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
+<a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
+-----------------------
 
 Un fornitore che effettua forniture di prodotti o servizi intracomunitarie ad aziende che hanno sede nell'Unione Europea (EU) deve inviare una dichiarazione di forniture intracomunitaria (elenco vendite UE o ESL). In linea generale, la dichiarazione ESL deve essere inviata agli uffici tributari non oltre l'ultimo giorno del mese successivo al periodo coperto dall'elenco vendite UE. Il fornitore deve dichiarare la propria partita IVA sulla dichiarazione ESL e deve inoltre specificare, per cliente, le seguenti informazioni:
 
@@ -156,6 +160,3 @@ Una volta completato il processo di creazione del report per uno specifico perio
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

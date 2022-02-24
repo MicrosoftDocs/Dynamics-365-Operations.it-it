@@ -1,10 +1,12 @@
 ---
 title: Creare richieste di intervento di manutenzione
 description: In questo argomento viene illustrato come creare una richiesta di intervento di manutenzione in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714982"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019180"
 ---
 # <a name="create-maintenance-requests"></a>Creare richieste di intervento di manutenzione
 
@@ -52,7 +54,7 @@ La sezione **Richieste di interventi di manutenzione attive** del riquadro **Inf
 11. Nel campo **Note**, immettere eventuali note aggiuntive necessarie.
 12. Selezionare **OK**.
 
-![Creare una richiesta di intervento di manutenzione.](media/03-manage-maintenance-requests.png)
+![Crea richiesta di intervento di manutenzione](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Elaborazione successiva delle richieste di intervento di manutenzione
 
@@ -67,10 +69,7 @@ Nella visualizzazione dettagli, è possibile aggiornare vari dati. Di seguito so
 - Selezionare un tipo di processo di manutenzione e, se queste informazioni sono rilevanti, una variante correlata del processo di manutenzione e una mansione qualificata per il processo.
 - Nei campi **Longitudine** e **Latitudine**, immettere le coordinate geografiche. Tutte le coordinate aggiunti alla richiesta di intervento di manutenzione verranno trasferite automaticamente a un ordine di lavoro correlato. 
 
-![Aggiornare la richiesta di intervento di manutenzione.](media/04-manage-maintenance-requests.png)
+![Aggiornare la richiesta di intervento di manutenzione](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Se si seleziona un cespite quando si crea una richiesta di intervento di manutenzione, è possibile aggiungere un solo problema al cespite. Dopo che la richiesta di intervento di manutenzione è stata creata, è possibile aggiungere più problemi in base alle esigenze. Per aggiungere problemi, selezionare **Errore del cespite** nella pagina **Tutte le richieste di intervento di manutenzione**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

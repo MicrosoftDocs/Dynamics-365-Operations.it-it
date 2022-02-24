@@ -1,24 +1,27 @@
 ---
 title: Generare ed elaborare sconti cliente
 description: Questa procedura mostra come elaborare gli sconti dalla creazione della richiesta al punto di passarli come ratei alla Contabilità clienti.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969089"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431275"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generare ed elaborare sconti cliente
 
@@ -69,7 +72,7 @@ Questa procedura mostra come elaborare gli sconti dalla creazione della richiest
 2. Fare clic su **Cumula**.
 3. Nel campo **Cliente** immettere o selezionare un valore.
 4. Nel campo **Data di inizio** selezionare la data odierna.
-5. Fare clic su **OK**. In seguito all'esecuzione della funzione **Cumula**, l'importo stimato della richiesta è stato rettificato per rappresentare il fatto che il volume di vendita totale del cliente nel periodo rilevante è superiore a quando il primo sconto è stato generato. In modo più specifico, poiché la quantità totale acquistata ha raggiunto 100 unità, il cliente ora si qualifica per 40 EUR per unità (in base alla seconda interruzione di quantità dell'accordo) o per 4,000 EUR dell'importo totale dello sconto. La differenza verrà registrata come una nuova “rettifica” della richiesta per 800 EUR aggiuntivi. Lo stato delle richieste dello sconto incluse nell'aggiornamento Cumula ora è impostato su Calcolato. 
+5. Fare clic su **OK**. In seguito all'esecuzione della funzione **Cumula**, l'importo stimato della richiesta è stato rettificato per rappresentare il fatto che il volume di vendita totale del cliente nel periodo rilevante è superiore a quando il primo sconto è stato generato. In modo più specifico, poiché la quantità totale acquistata ha raggiunto 100 unità, il cliente ora si qualifica per 40 EUR per unità (in base alla seconda interruzione di quantità dell'accordo) o per 400 EUR dell'importo totale dello sconto. La differenza verrà registrata come una nuova “rettifica” della richiesta per 800 EUR aggiuntivi. Lo stato delle richieste dello sconto incluse nell'aggiornamento Cumula ora è impostato su Calcolato. 
 6. Nell'elenco selezionare tutte le righe.
 7. Fare clic su **Approva**.
 8. Fare clic su **Elabora**.
@@ -79,6 +82,3 @@ Questa procedura mostra come elaborare gli sconti dalla creazione della richiest
     - Sul conto di attribuzione per competenza dello sconto è stato effettuato l'accredito per passività futura verso il cliente.
     - È stato effettuato l'addebito sul conto spese dello sconto, nel rispetto del costo sostenuto in relazione alle vendite.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

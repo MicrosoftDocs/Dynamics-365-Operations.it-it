@@ -1,35 +1,33 @@
 ---
 title: Elaborare l'idoneità di iscrizione
-description: Questo argomento spiega come eseguire il processo di idoneità all'iscrizione.
-author: twheeloc
-ms.date: 08/23/2021
+description: In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067631"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419151"
 ---
 # <a name="process-enrollment-eligibility"></a>Elaborare l'idoneità di iscrizione
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Questo argomento spiega come eseguire il processo di idoneità all'iscrizione.
+In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Elaborazione idoneità iscrizione**.
 
@@ -56,11 +54,11 @@ Questo argomento spiega come eseguire il processo di idoneità all'iscrizione.
 
 ## <a name="view-process-results"></a>Visualizzare i risultati del processo
 
-Questo argomento spiega come visualizzare i risultati del processo di idoneità.
+In questo articolo viene descritto come visualizzare i risultati del processo di idoneità.
 
 1.  Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Risultati processo**.
 
-2.  Nella pagina dei **risultati del processo** , vengono specificati i seguenti campi:
+2.  Nel modulo **Risultati processo** sono specificati i seguenti campi:
 
    | Campo | descrizione |
    | --- | --- |
@@ -74,6 +72,3 @@ Questo argomento spiega come visualizzare i risultati del processo di idoneità.
    | **Stato risultati** | Questo sarà Idoneo o Non idoneo. Lo stato del risultato sarà Non idoneo se il lavoratore non ha soddisfatto i criteri della regola di idoneità, se al lavoratore mancano informazioni richieste come una frequenza di retribuzione o un compenso fisso o se nel piano di benefit mancano informazioni che impediscono ai lavoratori di essere iscritti. |
    | **Messaggio risultati** | Indica perché un lavoratore non è idoneo per un piano di benefit o se è stata approvata la regola di idoneità. |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

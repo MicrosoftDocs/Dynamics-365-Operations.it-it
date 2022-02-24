@@ -2,9 +2,11 @@
 title: Profili registrazione configurabili per banche e tipi di rimessa
 description: Questo argomento fornisce informazioni su come configurare i profili di registrazione per banche e tipi di rimesse.
 author: ilkond
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9ac7b9bb02784b0ece28dacdeda45a9e7e487d14cbadb5f97cd6d298052dc2cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 742397bdf2187942625637ac4de0e467bf1f9624
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748931"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962626"
 ---
 # <a name="configurable-posting-profiles-for-banks-and-remittance-types"></a>Profili registrazione configurabili per banche e tipi di rimessa
 
@@ -31,7 +33,7 @@ Oltre a definire le impostazioni di funzionalità generali, è possibile imposta
 Prima di poter utilizzare diversi profili di registrazione per la rimessa di un effetto attivo e la rimessa di un effetto passivo nei conti bancari della società, devono essere soddisfatti i seguenti requisiti:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- La funzionalità **Profili di registrazione configurabili per banche e tipi di rimesse** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Profili di registrazione configurabili per banche e tipi di rimesse** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-posting-profile-for-a-remittance-journal-line-offset-account"></a>Impostare un profilo di registrazione per un conto di contropartita della riga del giornale di registrazione rimesse
 
@@ -40,11 +42,8 @@ Per impostare i profili di registrazione, è necessario aprire un conto bancario
 1. Per impostare il profilo di pubblicazione, andare a **Gestione cassa e banche** \> **Conti bancari** \> **Conti bancari**.
 2. Nella scheda dettaglio **Generale**, nella sezione **Profili di registrazione**, nei campi **Rimessa per incasso**, **Rimessa per sconto** e **Rimessa effetto passivo**, selezionare un profilo di registrazione, come richiesto.
 
-![Impostazione del conto bancario.](media/emea-ita-exil-different-accounts-per-company-bank.png)
+![Impostazione del conto bancario](media/emea-ita-exil-different-accounts-per-company-bank.png)
 
 ## <a name="use-posting-profiles-in-remittance-journal-posting"></a>Utilizzare i profili di registrazione nella registrazione del giornale di registrazione rimesse
 
 Se i profili di registrazione sono stati impostati nel conto bancario, il sistema li utilizzerà per specificare il conto di contropartita quando viene registrato un giornale di registrazione rimesse. Se i profili di registrazione non sono stati impostati, il sistema seleziona il profilo di registrazione nella scheda **Contabilità generale e IVA** delle pagine **Parametri contabilità clienti** e **Parametri contabilità fornitori**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
 title: Introduzione ai cespiti
 description: Questo argomento fornisce una panoramica sui cespiti in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetTimeline, EntAssetObjectTableLookup, EntAssetObjectTableParent, EntAssetObjectOverview, EntAssetObjectImage, EntAssetObjectTable, EntAssetLifecycleStateLog, EntAssetObjectWorkOrderActive, EntAssetObjectAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2214"
-- intro-internal
+ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f629ebdf7423ca75fe215b0a3223478685fe95c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767510"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018573"
 ---
 # <a name="introduction-to-assets"></a>Introduzione ai cespiti
 
@@ -55,10 +55,10 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Storico eventi        | Consente di visualizzare una panoramica delle diverse registrazioni effettuate nel cespite.                                                                                                         |
 | DBA cespiti            | Consente di visualizzare un elenco di tutti gli articoli (pezzi di ricambio e altri articoli) utilizzati in un cespite.                                                                                  |
 | Ordini di lavoro          | Consente  aprire la pagina elenco **Ordini di lavoro attivi**, in cui è possibile visualizzare gli ordini di lavoro per il cespite.                                                                                        |
-| Elenco di controllo            | Visualizza una panoramica degli elenchi di controllo di manutenzione e delle misure registrate per il cespite.                                                                                                 |
+| Elenco di controllo            | Visualizza una panoramica degli elenchi di controllo di manutenzione e delle misurazioni registrate per il cespite.                                                                                                 |
 | Tempi di fermo per la manutenzione | Crea o visualizza le registrazioni dei tempi di fermo per la manutenzione del cespite.                                                                                                       |
 | Transazioni progetto | Consente di visualizzare tutte le transazioni registrate correlate agli ordini di lavoro creati per il cespite.                                                                                       |
-| Misure dei cespiti       | Consente di creare o visualizzare le misure relative al cespite.                                                                                                               |
+| Misure dei cespiti       | Consente di creare o visualizzare le misurazioni relative al cespite.                                                                                                               |
 | Programma di manutenzione | Consente  aprire la pagina elenco **Apri programma di manutenzione**, in cui è possibile visualizzare piani di manutenzione, richieste di intervento di manutenzione e cicli di manutenzione associati al cespite e con stato **Creato**. |
 | Aggiorna stato del cespite   | Aggiorna lo stato del ciclo di vita del cespite. È possibile selezionare più cespiti nella pagina elenco **Tutti i cespiti** e quindi aggiornare lo stato del ciclo di vita per tutti contemporaneamente.              |
 | Registro dello stato del ciclo di vita  | Apre un registro contenente gli stati del ciclo di vita del cespite selezionato.                                                                                                                 |
@@ -67,7 +67,7 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Immagine                | Selezionare un'immagine per il cespite.                                                                                                                                   |
 | Cespiti padre        | Consente di visualizzare lo storico dei cespiti padre per il cespite selezionato.                                                                                                                |
 | Unità funzionali | Consente di visualizzare lo storico delle unità funzionali per il cespite selezionato.                                                                                                          |
-| Valutazione delle condizioni | Registra le misure di valutazione delle condizioni del cespite.                                                                                                         |
+| Valutazione delle condizioni | Registra le misurazioni di valutazione delle condizioni del cespite.                                                                                                         |
 | Errori               | Consente  aprire la pagina elenco **Problemi cespiti**, in cui è possibile visualizzare i problemi registrati nel cespite.                                                                                             |
 | Controllo costi         | Confronta i costi in budget e i costi effettivi nel cespite.                                                                                                              |
 | Controllo ore         | Confronta le ore previste e le ore effettive relative al cespite.                                                                                                              |
@@ -77,6 +77,3 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 | Parti di ricambio          | Consente di visualizzare un elenco di pezzi di ricambio approvati e alternativi che possono essere usati per il cespite.                                                                               |
 | Consumo cespite    | Consente di stampare un report contenente le registrazioni del consumo relativo al cespite.                                                                                                |
 | Errore del cespite          | Consente di stampare un report contenente le registrazioni dei problemi del cespite.                                                                                                      |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Pianificazione generale con accordi commerciali di acquisto
 description: Questo argomento descrive come utilizzare l'ttimizzazione della pianificazione per trovare il fornitore e/o il lead time per un ordine pianificato, in base al prezzo o al lead time migliore presente negli accordi commerciali di acquisto.
 author: ChristianRytt
+manager: tfehr
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757760"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430926"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Pianificazione generale con accordi commerciali di acquisto
 
@@ -67,26 +70,23 @@ Dopo aver preparato il sistema come descritto nella sezione precedente, è neces
 1. Ripetere questa procedura per ogni prodotto pertinente.
 
 > [!NOTE]
-> Ottimizzazione pianificazione supporta gli accordi commerciali di acquisto commerciali con più valute. Quando si cerca un accordo commerciale utilizzando l'opzione **Prezzo unitario più basso**, il sistema prenderà in considerazione le righe degli accordi commerciali di acquisto con valute diverse a condizione che sia stato definito un tasso di cambio tra la valuta della riga dell'accordo commerciale e la valuta contabile della persona giuridica. In caso contrario, la riga dell'accordo commerciale verrà ignorata e verrà visualizzato un errore durante la pianificazione generale. Pertanto, la pianificazione generale includerà le informazioni da tutte le righe degli accordi commerciali di acquisto pertinenti in cui i prezzi possono essere convertiti nella valuta contabile. È importante notare che le regole di arrotondamento non saranno prese in considerazione durante la conversione del prezzo di riga dell'accordo commerciale.
+> La valuta nella riga dell'accordo commerciale di acquisto deve corrispondere alla valuta del fornitore selezionato. La pianificazione generale includerà solo le informazioni nelle righe dell'accordo commerciale di acquisto in cui la valuta corrisponde alla valuta del fornitore.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Esempi di come l'ottimizzazione della pianificazione trova il fornitore e i lead time
 
-La tabella seguente fornisce esempi che mostrano in che modo le varie impostazioni per un prodotto rilasciato e i relativi accordi commerciali di acquisto influenzano i valori rilevati per l'ordine fornitore pianificato risultante. I valori in **grassetto** nelle due colonne più a destra sono i valori selezionati dall'ottimizzazione della pianificazione. I valori in **_grassetto e corsivo_** nelle altre colonne sono le impostazioni che hanno prodotto quei valori risultanti per ogni riga.
+La tabella seguente fornisce esempi che mostrano in che modo le varie impostazioni per un prodotto rilasciato e i relativi accordi commerciali di acquisto influenzano i valori rilevati per l'ordine fornitore pianificato risultante. I valori in **grassetto** nelle due colonne più a destra sono i valori selezionati dall'ottimizzazione della pianificazione. I valori in ***grassetto e corsivo*** nelle altre colonne sono le impostazioni che hanno prodotto quei valori risultanti per ogni riga.
 
 | Prodotto rilasciato: Fornitore | Impostazioni ordine predefinite: Lead time | Copertura articolo: Sostituisci fornitore | Copertura articolo: Sostituisci lead time | Accordo commerciale: Fornitore | Accordo commerciale: Lead time | Accordo commerciale: Ignora lead time | Fornitore risultante | Lead time risultante |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | No | No | US003 | 3 | No | _ *US001** | **1** |
-| US001 | 1 | ***Sì: US002** _ | _*_Sì: 2_*_ | US003 | 3 | No | _ *US002** | **2** |
-| *(Vuoto)* | 1 | No | No | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
-| *(Vuoto)* | ***1** _ | No | No | _*_US003_*_ | 3 | Sì | _ *US003** | **1** |
-| *(Vuoto)* | ***1** _ | _*_Sì: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
-| *(Vuoto)* | ***1** _ | _*_Sì: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
-| *(Vuoto)* | 1 | No | Sì: 2 | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
-| *(Vuoto)* | 1 | No | ***Sì: 2** _ | _*_US003_*_ | 3 | Sì | _ *US003** | **2** |
+| ***US001*** | ***1*** | Nessuna | Nessuna | US003 | 3 | Nessuna | **US001** | **1** |
+| US001 | 1 | ***Sì: US002*** | ***Sì: 2*** | US003 | 3 | Nessuna | **US002** | **2** |
+| *(Vuoto)* | 1 | Nessuna | Nessuna | ***US003*** | ***3*** | Nessuna | **US003** | **3** |
+| *(Vuoto)* | ***1*** | Nessuna | Nessuna | ***US003*** | 3 | Sì | **US003** | **1** |
+| *(Vuoto)* | ***1*** | ***Sì: US002*** | Nessuna | US003 | 3 | Nessuna | **US002** | **1** |
+| *(Vuoto)* | ***1*** | ***Sì: US002*** | Nessuna | US003 | 3 | Nessuna | **US002** | **1** |
+| *(Vuoto)* | 1 | Nessuna | Sì: 2 | ***US003*** | ***3*** | Nessuna | **US003** | **3** |
+| *(Vuoto)* | 1 | Nessuna | ***Sì: 2*** | ***US003*** | 3 | Sì | **US003** | **2** |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Contratti di acquisto](../../procurement/purchase-agreements.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

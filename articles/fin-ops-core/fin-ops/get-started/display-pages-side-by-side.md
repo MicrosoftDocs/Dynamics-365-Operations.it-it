@@ -2,9 +2,11 @@
 title: Mostrare le pagine affiancate utilizzando la funzionalità Apri in nuova finestra
 description: Questo articolo illustra come visualizzare pagine affiancate.
 author: aneesmsft
+manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068061"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798405"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Mostrare le pagine affiancate utilizzando la funzionalità Apri in nuova finestra
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Questo articolo illustra come visualizzare pagine affiancate.
 
@@ -49,6 +48,3 @@ Prima di utilizzare la funzionalità **Apri in nuova finestra**, è necessario c
 La funzionalità **Apri in nuova finestra** è disponibile solo quando sono presenti più pagine aperte nella finestra. Inoltre, la finestra popup si chiude automaticamente quando non sono presenti più pagine aperte (ovvero quando viene chiusa l'ultima pagina nella finestra). Il sistema chiude anche le pagine aperte quando si esplora un'area diversa dell'applicazione. Di conseguenza, se le finestre popup sono aperte e si esplora un'area diversa dell'applicazione, le finestre popup sono automaticamente chiuse perché le pagine in quelle finestre sono state chiuse dal sistema.
 
 La barra superiore nelle finestre popup visualizza le informazioni sulla società in cui è stata aperta la pagina ed è di sola lettura. Le finestre popup si basano anche sulla finestra principale del browser. Se la finestra principale è chiusa o aggiornata, tutte le finestre popup aperte diventeranno di sola lettura. Se ciò dovesse accadere, è comunque possibile visualizzare le informazioni in queste finestre, ma non sarà possibile interagire con esse.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

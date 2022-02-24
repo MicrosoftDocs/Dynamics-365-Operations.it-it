@@ -2,12 +2,15 @@
 title: Copiare un'istanza
 description: È possibile utilizzare Microsoft Dynamics Lifecycle Services (LCS) per copiare un database di Microsoft Dynamics 365 Human Resources in un ambiente sandbox.
 author: andreabichsel
+manager: AnnBe
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060833"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527839"
 ---
 # <a name="copy-an-instance"></a>Copiare un'istanza
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 È possibile utilizzare Microsoft Dynamics Lifecycle Services (LCS) per copiare un database di Microsoft Dynamics 365 Human Resources in un ambiente sandbox. Se è disponibile un altro ambiente sandbox, è anche possibile copiare il database da tale ambiente in un ambiente sandbox di destinazione.
 
@@ -38,9 +39,9 @@ Per copiare un'istanza, tenere presente i seguenti suggerimenti:
 
 - È necessario essere un amministratore nell'ambiente di destinazione in modo da potervi accedere dopo aver copiato l'istanza.
 
-- Quando si copia il database di Human Resources, non si copiano gli elementi (app o dati) contenuti in un ambiente Microsoft Power Apps. Per informazioni su come copiare elementi in un ambiente Power Apps, vedere [Copiare un ambiente](/power-platform/admin/copy-environment). L'ambiente Power Apps che si desidera sovrascrivere deve essere un ambiente sandbox. È necessario essere un amministratore tenant globale per modificare un ambiente di produzione Power Apps in un ambiente sandbox. Per ulteriori informazioni sulla modifica di un ambiente Power Apps, vedere [Passare a un'altra istanza](/dynamics365/admin/switch-instance).
+- Quando si copia il database di Human Resources, non si copiano gli elementi (app o dati) contenuti in un ambiente Microsoft Power Apps. Per informazioni su come copiare elementi in un ambiente Power Apps, vedere [Copiare un ambiente](https://docs.microsoft.com/power-platform/admin/copy-environment). L'ambiente Power Apps che si desidera sovrascrivere deve essere un ambiente sandbox. È necessario essere un amministratore tenant globale per modificare un ambiente di produzione Power Apps in un ambiente sandbox. Per ulteriori informazioni sulla modifica di un ambiente Power Apps, vedere [Passare a un'altra istanza](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Se si copia un'istanza nell'ambiente sandbox e si desidera integrare l'ambiente sandbox con Dataverse, è necessario riapplicare i campi personalizzati alle tabelle Dataverse. Vedere [Applicare campi personalizzati a Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Se si copia un'istanza nell'ambiente sandbox e si desidera integrare l'ambiente sandbox con Common Data Service, è necessario riapplicare i campi personalizzati alle entità Common Data Service. Vedere [Applicare campi personalizzati a Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Effetti della copia di un database di Human Resources
 
@@ -52,9 +53,9 @@ I seguenti eventi si verificano quando si copia un database di Human Resources:
 
 - I documenti nell'archivio Blob di Microsoft Azure non vengono copiati da un ambiente all'altro. Di conseguenza, tutti i documenti e i modelli allegati non verranno copiati e rimarranno nell'ambiente di origine.
 
-- Tutti gli utenti eccetto quelli con il ruolo di sicurezza "Amministratore sistema" e altri account utente del servizio interno saranno disponibili. L'utente amministratore può eliminare o offuscare i dati prima di autorizzare altri utenti nel sistema.
+- Tutti gli utenti tranne l'utente amministratore e altri account utente del servizio interno non saranno disponibili. L'utente amministratore può eliminare o offuscare i dati prima di autorizzare altri utenti nel sistema.
 
-- Qualsiasi utente con il ruolo di sicurezza "Amministratore sistema" deve apportare le modifiche necessarie alla configurazione, come la riconnessione di endpoint di integrazione a servizi o URL specifici.
+- L'utente amministratore deve apportare le modifiche alla configurazione necessarie, come la riconnessione di endpoint di integrazione a servizi o URL specifici.
 
 ## <a name="copy-the-human-resources-database"></a>Copiare il database di Human Resources
 
@@ -71,15 +72,15 @@ Per completare questa attività, innanzi tutto copiare un'istanza, quindi accede
 
 4. Nel riquadro attività **Copia un'istanza**, selezionare l'istanza da sovrascrivere, quindi selezionare **Copia**. Attendere che il valore di **Stato copia** diventi **Completata**.
 
-   ![[Selezionare l'istanza da sovrascrivere.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Selezionare l'istanza da sovrascrivere](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Selezionare **Power Platform** e accedere all'interfaccia di amministrazione di Microsoft Power Platform.
 
-   ![[Selezionare Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Selezionare Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Selezionare l'ambiente Power Apps da copiare, quindi selezionare **Copia**.
 
-7. Al termine del processo di copia, accedere all'istanza di destinazione e abilitare l'integrazione di Dataverse. Per ulteriori informazioni e istruzioni, vedere [Configurare l'integrazione di Dataverse](./hr-admin-integration-common-data-service.md).
+7. Al termine del processo di copia, accedere all'istanza di destinazione e abilitare l'integrazione di Common Data Service. Per ulteriori informazioni e istruzioni, vedere [Configurare l'integrazione di Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Stati ed elementi di dati
 
@@ -111,7 +112,7 @@ Alcuni di questi elementi non vengono copiati perché sono specifici dell'ambien
 
 Inoltre, i seguenti stati cambiano quando si copia un'istanza:
 
-- Tutti gli utenti tranne quelli con il ruolo di sicurezza "Amministratore sistema" sono impostati su **Disabilitato**.
+- Tutti gli utenti tranne l'utente amministratore sono impostati su **Disabilitato**.
 
 - Tutti i processi batch, ad eccezione di alcuni processi di sistema, sono impostati su **Trattenuto**.
 
@@ -121,11 +122,11 @@ Tutti gli utenti nell'ambiente sandbox di destinazione, inclusi gli amministrato
 
 Tutti gli utenti non amministratori nell'ambiente sandbox di destinazione sono disabilitati per impedire accessi indesiderati nell'ambiente sandbox. Gli amministratori possono riabilitare gli utenti se necessario.
 
-## <a name="apply-custom-fields-to-dataverse"></a>Applicare campi personalizzati a Dataverse
+## <a name="apply-custom-fields-to-common-data-service"></a>Applicare campi personalizzati a Common Data Service
 
-Se si copia un'istanza nell'ambiente sandbox e si desidera integrare l'ambiente sandbox con Dataverse, è necessario riapplicare i campi personalizzati alle tabelle Dataverse.
+Se si copia un'istanza nell'ambiente sandbox e si desidera integrare l'ambiente sandbox con Common Data Service, è necessario riapplicare i campi personalizzati alle entità Common Data Service.
 
-Per ogni campo personalizzato esposto nelle tabelle Dataverse, eseguire le seguenti operazioni:
+Per ogni campo personalizzato esposto nelle entità Common Data Service, eseguire le seguenti operazioni:
 
 1. Andare al campo personalizzato e selezionare **Modifica**.
 
@@ -139,9 +140,9 @@ Per ogni campo personalizzato esposto nelle tabelle Dataverse, eseguire le segue
 
 6. Selezionare di nuovo **Applica modifiche**.
 
-Il processo di deselezione, applicazione delle modifiche, riselezione e riapplicazione delle modifiche richiede l'aggiornamento dello schema in Dataverse per includere i campi personalizzati.
+Il processo di deselezione, applicazione delle modifiche, riselezione e riapplicazione delle modifiche richiede l'aggiornamento dello schema in Common Data Service per includere i campi personalizzati.
 
-Per ulteriori informazioni sui campi personalizzati, vedere [Creare e utilizzare campi personalizzati](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
+Per ulteriori informazioni sui campi personalizzati, vedere [Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -149,6 +150,3 @@ Per ulteriori informazioni sui campi personalizzati, vedere [Creare e utilizzare
 [Rimuovere un'istanza](hr-admin-setup-remove-instance.md)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

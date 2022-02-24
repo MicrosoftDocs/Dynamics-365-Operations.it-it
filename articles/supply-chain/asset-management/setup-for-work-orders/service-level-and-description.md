@@ -1,10 +1,12 @@
 ---
 title: Descrizione e livello del servizio
 description: In questo argomento vengono descritti il livello e la descrizione del servizio in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758690"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019381"
 ---
 # <a name="service-level-and-description"></a>Descrizione e livello del servizio
 
@@ -45,7 +47,7 @@ Quando si crea un ordine di lavoro, è possibile che si voglia definire i relati
 8. Per impostare un'ora di fine per l'ordine di lavoro, oltre a una data di fine, impostare l'opzione **Imposta ora di fine** su **Sì**. Quindi immettere l'ora di fine nel campo **Ora di fine**. Se si imposta l'opzione su **No**, viene visualizzata l'ora del giorno corrente.
 9. Selezionare **Salva**.
 
-![Pagina Livello del servizio di ordine di lavoro.](media/19-setup-for-work-orders.png)
+![Pagina Livello del servizio di ordine di lavoro](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Creare una descrizione
 
@@ -53,6 +55,3 @@ Quando si crea un ordine di lavoro, è possibile che si voglia definire i relati
 2. Selezionare **Nuovo**.
 3. Nel campo **Descrizione** immettere la descrizione.
 4. Selezionare **Salva**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

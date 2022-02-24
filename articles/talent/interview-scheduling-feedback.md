@@ -102,6 +102,3 @@ Se si seleziona il campo **Eredita i partecipanti di feedback dal team di assunz
 L'attività di colloquio è un'attività facoltativa con tre componenti: **Richiesta disponibilità candidato**, **Programmazione** e **Riscontro**. Utilizzare l'attività di colloquio nel modello posizioni lavorative se si desidera includere la richiesta di disponibilità del candidato, la programmazione e il riscontro durante il processo anziché utilizzarle singolarmente.
 
 Per includere o limitare i candidati da intervistare, selezionare un valore nel campo **Chi si sta esaminando**. Le opzioni disponibili sono **Tutti i candidati**, **Candidati esterni** e **Candidati interni**. Ad esempio, se si desidera ignorare i candidati interni nel primo ciclo del colloquio, impostare **Chi si sta esaminando** su **Candidati esterni**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

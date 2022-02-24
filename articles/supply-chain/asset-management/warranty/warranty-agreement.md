@@ -1,10 +1,12 @@
 ---
 title: Contratti di garanzia
 description: In questo argomento vengono descritti i contratti di garanzia in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8269b9f2084ddd0f69039044c29978ce7940270d5b569456f7a0bfca0a6f1f0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7080af2059c9c9bcdd11ca0ee9c5e339cef69302
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735305"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021506"
 ---
 # <a name="warranty-agreements"></a>Contratti di garanzia
 
@@ -51,7 +53,4 @@ Un contratto di garanzia può includere varie righe del contratto per coprire la
     3. Nel campo **Intervallo** immettere un numero. Questo campo definisce il numero di periodi per i quali la garanzia deve essere valida.
     4. Nel campo **Percentuale**, immettere la percentuale di copertura per la riga della garanzia. La percentuale indica quanto è coperto dalla società.
 
-![Pagina della garanzia.](media/01-warranty.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Pagina della garanzia](media/01-warranty.png)

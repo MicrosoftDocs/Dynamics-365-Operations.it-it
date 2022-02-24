@@ -2,9 +2,11 @@
 title: Sconti basati sul metodo di pagamento
 description: In questo argomento viene fornita una panoramica della funzionalità che consente ai rivenditori al dettaglio di configurare gli sconti per tipi di metodi di pagamento specifici.
 author: bebeale
+manager: AnnBe
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderDiscount
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 52b9510b2c22157aec27b865115273064bb0e803443306ea20468b93a2ea3ca7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9f6747ff9d68c29612346254928e869d6d34d433
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719467"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962937"
 ---
 # <a name="tender-based-discounts"></a>Sconti basati sul metodo di pagamento
 
@@ -69,6 +71,3 @@ I rivenditori al dettaglio spesso scelgono di escludere dagli sconti alcuni prod
 
 > [!NOTE]
 > Quando la configurazione **Impedisci tutti gli sconti** è impostata su **Sì**, nessuno sconto verrà applicato al prodotto. Non verranno applicati nemmeno gli sconti basati sul metodo di pagamento.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

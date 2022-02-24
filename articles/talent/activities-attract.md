@@ -91,6 +91,3 @@ Il modello del processo di assunzione richiede l'attività Offerta. Per utilizza
 > L'app Offer Management integrata è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale. Per ulteriori informazioni, vedere [Quale versione di Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

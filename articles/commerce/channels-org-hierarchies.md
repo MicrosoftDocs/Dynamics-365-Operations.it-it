@@ -2,30 +2,36 @@
 title: Impostare gerarchie organizzative
 description: In questo argomento viene descritto come impostare gerarchie organizzative in Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746018"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413417"
 ---
 # <a name="set-up-organization-hierarchies"></a>Impostare gerarchie organizzative
+
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come impostare gerarchie organizzative in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Prima di creare canali, è necessario confermare che le gerarchie organizzative siano state impostate.
 
@@ -54,7 +60,7 @@ Per creare una gerarchia organizzativa, effettuare le seguenti operazioni.
 
 L'immagine seguente mostra un esempio di gerarchia organizzativa creata per un gruppo di punti vendita fittizio "Adventure Works".
 
-![Esempio di gerarchia organizzativa.](media/organizational-hierarchies.png)
+![Esempio di gerarchie organizzative](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Aggiungere organizzazioni a una gerarchia
 
@@ -67,7 +73,7 @@ Per aggiungere organizzazioni a una gerarchia, effettuare le operazioni indicate
 
 L'immagine seguente mostra una persona giuridica aggiunta alla radice della gerarchia con quattro centri di costo aggiunti per i canali "Centro commerciale", "Outlet", "Online" e "Servizio clienti". A ognuno di questi possono quindi essere aggiunti vari canali di vendita al dettaglio, servizio clienti e online.
 
-![Esempio di finestra di progettazione delle gerarchie.](media/hierarchy-designer.png)
+![Esempio di finestra di progettazione delle gerarchie](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -82,6 +88,3 @@ L'immagine seguente mostra una persona giuridica aggiunta alla radice della gera
 [Panoramica dei canali](channels-overview.md)
 
 [Prerequisiti di impostazione dei canali](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

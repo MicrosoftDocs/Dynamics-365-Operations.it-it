@@ -1,10 +1,12 @@
 ---
 title: Collaborazione fornitore con i fornitori esterni
 description: In questo argomento viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l'inventario spedizione.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
@@ -12,28 +14,28 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 594a5bc8762d4c3fdc0bfd901ab97262b0f67a53
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576978"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016755"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
 [!include [banner](../includes/banner.md)]
 
-Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 Supply Chain Management. Consente ai fornitori di utilizzare ordini fornitore, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo argomento viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
+Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 Supply Chain Management. Consente ai fornitori di utilizzare ordini di acquisto, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo argomento viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
 
 Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
 > Le informazioni in questo argomento relative alla collaborazione con i fornitori sono applicabili solo alla versione corrente di Supply Chain Management. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sul modulo **Portale fornitori**, vedere [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md).
 
-Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
+Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Definire i dati che vengono visualizzati ai fornitori quando rispondono a ordini fornitore
 
@@ -41,7 +43,7 @@ Quando i fornitori rispondono a un ordine fornitore che hanno ricevuto, viene v
 
 Per definire il testo visualizzato nella risposta dell'ordine fornitore, attenersi alla seguente procedura
 
-1. Nella pagina **Informazioni per i fornitori che rispondono agli ordini fornitore** selezionare il tipo di risposta e quindi selezionare **Modifica**.
+1. Nella pagina **Informazioni per i fornitori che rispondono agli ordini di acquisto** selezionare il tipo di risposta e quindi selezionare **Modifica**.
 2. Nella casella **Messaggio informazioni** immettere le informazioni che dovranno essere visualizzate ai fornitori nella finestra di messaggio visualizzata.
 
 Se è necessario aggiungere messaggi in più lingue, creare messaggi separati con codice lingua appropriato. Per ogni fornitore verrà visualizzato il messaggio nella lingua che utilizza.
@@ -62,7 +64,7 @@ Prima di creare account utente per un fornitore esterno, è necessario configura
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Specificare se il fornitore deve visualizzare le informazioni sul prezzo
 
-Per condividere le informazioni sui prezzi per gli ordini fornitore tramite l'interfaccia di collaborazione del fornitore, è necessario impostare l'opzione **Impostazioni predefinite ordine fornitore** nella scheda **Impostazioni predefinite ordine fornitore** per il conto fornitore su **Sì**. Le informazioni sul prezzo includono prezzo unitario, sconti e spese.
+Per condividere le informazioni sui prezzi per gli ordini di acquisto tramite l'interfaccia di collaborazione del fornitore, è necessario impostare l'opzione **Impostazioni predefinite ordine fornitore** nella scheda **Impostazioni predefinite ordine fornitore** per il conto fornitore su **Sì**. Le informazioni sul prezzo includono prezzo unitario, sconti e spese.
 
 ## <a name="working-with-pos-when-vendor-collaboration-is-used"></a>Ricorrere agli ordini fornitore quando viene utilizzata la collaborazione fornitore
 
@@ -89,13 +91,13 @@ La tabella di seguito mostra uno scambio di informazioni tipico, a seconda della
 </thead>
 <tbody>
 <tr class="even">
-<td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari e Supply Chain Management è configurato per confermare automaticamente gli ordini fornitore accettati dal fornitore.</td>
+<td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari e Supply Chain Management è configurato per confermare automaticamente gli ordini di acquisto accettati dal fornitore.</td>
 <td>Lo stato dell'ordine viene aggiornato a <strong>Confermato</strong>. Se qualcosa impedisce l'aggiornamento dell'ordine, la risposta del fornitore viene comunque registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>. 
 
 L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revisione esterna</strong> viene aggiornato con le date di consegna confermate nelle righe. Questo aggiornamento avvia una nuova versione che viene impostata automaticamente sullo stato <strong>Confermato</strong>. Quando l'ordine fornitore viene confermato, viene visualizzato nell'interfaccia di collaborazione fornitore.</td>
 </tr>
 <tr class="odd">
-<td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari ma Supply Chain Management non è configurato per confermare automaticamente gli ordini fornitore accettati dal fornitore.</td>
+<td>Il fornitore <strong>accetta</strong> l'ordine di dati finanziari ma Supply Chain Management non è configurato per confermare automaticamente gli ordini di acquisto accettati dal fornitore.</td>
 <td>La risposta del fornitore viene registrata come <strong>Accettata</strong>, ma lo stato dell'ordine fornitore rimane <strong>In revisione esterna</strong>.
 
 L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revisione esterna</strong> viene aggiornato con le date di consegna confermate nelle righe. Questo aggiornamento avvia una nuova versione che viene impostata automaticamente sullo stato <strong>In revisione esterna</strong>. È quindi possibile confermare manualmente l'ordine fornitore.</td>
@@ -256,6 +258,3 @@ L'utente che imposta i parametri per il processo RdO può creare più modelli di
 - %createddate%
 
 Se è richiesta una modifica e viene inviata dopo l'invio della RdO, la RdO verrà inviata nuovamente a tutti i fornitori invitati. Il documento pubblicato verrà aggiornato anche nella pagina **Richieste di offerta pubblicate aperte**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,30 +2,36 @@
 title: Funzionalità e capacità di accessibilità
 description: In questo argomento vengono fornite informazioni sulle funzionalità e capacità di accessibilità in Microsoft Dynamics 365 Commerce.
 author: BrianShook
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716278"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413377"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Funzionalità e capacità di accessibilità
+
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sulle funzionalità e capacità di accessibilità in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Le caratteristiche e le capacità di accessibilità forniscono i mezzi funzionali a tutti gli utenti per accedere ed eseguire azioni in modo da poter raggiungere i propri obiettivi. Questa vasta gamma di utenti potrebbe richiedere strumenti di assistenza per l'udito, la visione, la mobilità o la neurodiversità.
 
@@ -95,11 +101,11 @@ Per impostare l'attributo **Età minima** per una risorsa video, attenersi alla 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Accessibilità per moduli, prodotti e controlli](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[Accessibilità per moduli, prodotti e controlli](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [Centro di accessibilità Microsoft](https://www.microsoft.com/accessibility)
 
-[Centro di accessibilità Dynamics 365](/dynamics365/get-started/accessibility/index)
+[Centro di accessibilità Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
 
 [Panoramica sulla conformità](compliance-overview.md)
 
@@ -108,6 +114,3 @@ Per impostare l'attributo **Età minima** per una risorsa video, attenersi alla 
 [Aggiungere una pagina dell'Informativa sulla privacy](add-privacy-page.md)
 
 [Sostituire gli ID utente associati alle modifiche al contenuto monitorato](replace-IDs-tracked-changes.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

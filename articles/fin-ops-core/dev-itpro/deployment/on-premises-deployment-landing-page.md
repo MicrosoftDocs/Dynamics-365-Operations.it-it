@@ -2,26 +2,26 @@
 title: Home page delle distribuzioni locali
 description: Questo argomento fornisce informazioni sulle distribuzioni locali e collegamenti a contenuti ad esse correlati.
 author: sericks007
-ms.date: 07/01/2021
+manager: AnnBe
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "55651"
-- intro-internal
+ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712570"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679346"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page delle distribuzioni locali
 
@@ -33,23 +33,20 @@ ms.locfileid: "6712570"
 - [Panoramica della distribuzione locale](on-premises-overview.md)
 - [Pianificare e preparare le distribuzioni locali](plan-onprem-deployment.md)
 - [Requisiti di sistema per le distribuzioni locali](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Software supportato Microsoft Dynamics 365 Finance + Operations (locale)](onprem-compatibility.md)
 - [Requisiti di dimensionamento hardware per ambienti locali](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Acquistare Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Confronto tra funzionalità cloud e locali](../../fin-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Inserisci
 - [Impostare progetti locali in Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Impostare e distribuire ambienti locali (aggiornamento piattaforma 41 e successive)](setup-deploy-on-premises-pu41.md)
-- [Impostare e distribuire gli ambienti locali (Platform update da 12 a 40)](setup-deploy-on-premises-pu12.md)
+- [Impostare e distribuire ambienti locali (aggiornamento piattaforma 12 e successive)](setup-deploy-on-premises-pu12.md)
 - [Installare le stampanti di rete in ambienti locali](../analytics/install-network-printer-onprem.md)
 - [Configurare SQL Server Reporting Services per le distribuzioni locali](../analytics/configure-ssrs-on-premises.md)
 - [Sviluppare e distribuire modelli personalizzati in ambienti locali](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Utilizzare la distribuzione locale
-- [Configurare la disponibilità elevata per i nodi di SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [Configurare la gestione dei documenti](../../fin-ops/organization-administration/configure-document-management.md)
-- [Importare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Importare configurazioni per la creazione di report elettronici (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Generazione, pubblicazione e stampa di documenti nelle distribuzioni locali](../analytics/printing-capabilities-on-premises.md)
 - [Configurare proxy per ambienti locali](onprem-reverseproxy.md)
 - [Impostare il supporto tecnico per le app Finance and Operations](../lifecycle-services/support-experience.md)
@@ -59,10 +56,10 @@ ms.locfileid: "6712570"
 - [Riutilizzare la stessa istanza ADFS per più ambienti](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
-- [Funzionalità di Commerce disponibili nelle distribuzioni locali](../../../commerce/retail-onprem.md)
+- [Funzionalità di Commerce disponibili nelle distribuzioni locali](../../../retail/retail-onprem.md)
 - [Passaggi di installazione per i componenti del canale di vendita al dettaglio in un ambiente locale](deploy-retail-onprem.md)
-- [Configurare, installare e attivare Modern POS (MPOS)](../../../commerce/retail-modern-pos-device-activation.md)
-- [Configurare e installare Commerce Scale Unit](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Configurare, installare e attivare Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [Configurare e installare Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Aggiornamento
 - [Processo di aggiornamento sul posto per ambienti locali](../migration-upgrade/on-prem-upgrade.md)
@@ -75,6 +72,3 @@ ms.locfileid: "6712570"
 - [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Criteri del ciclo di vita del software e versioni in locale](../migration-upgrade/on-prem-version-update-policy.md)
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

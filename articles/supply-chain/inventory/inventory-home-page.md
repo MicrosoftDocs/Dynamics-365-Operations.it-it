@@ -1,29 +1,30 @@
 ---
 title: Panoramica di Gestione articoli
 description: In questo argomento viene fornita una panoramica di Gestione articoli.
-author: yufeihuang
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2094"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dee04677858228b66d64bb0a217206b5557cc30
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce9d22fa9a3a08b08f65943ba027ace8204d4443
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982666"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430908"
 ---
 # <a name="inventory-management-overview"></a>Panoramica di Gestione articoli
 
@@ -42,7 +43,7 @@ ms.locfileid: "7982666"
 Nella mappa di apprendimento vengono visualizzati i concetti e le attività principali che costituiscono il framework del modulo Gestione articoli. Fare clic sulla mappa di apprendimento per espanderla. Questa mappa di apprendimento fornisce informazioni per iniziare a utilizzare il modulo.
 
 
-[![Mappa di apprendimento Gestione articoli.](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)
+[![Mappa di apprendimento di Gestione articoli](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -53,10 +54,7 @@ Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) 
 Per ulteriori informazioni, vedere [Chiusura inventario](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blog sulla gestione della produzione e Supply Chain Management
-Opinioni, notizie e altre informazioni su Gestione articoli e altre soluzioni sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX](/archive/blogs/axmfg/) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Opinioni, notizie e altre informazioni su Gestione articoli e altre soluzioni sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guide attività
 Ulteriori informazioni sono disponibili come guide attività. Per accedere alle guide attività, fare clic sul pulsante **?** in qualsiasi pagina
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

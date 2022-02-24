@@ -1,27 +1,30 @@
 ---
 title: Funzionalità Designer DBA
 description: In questo argomento viene descritto come utilizzare la pagina Designer DBA per progettare e utilizzare strutture ad albero per le distinte base (BOM).
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerSetup, BOMDesignerFilterDialog, BOMDesignerBOMVersion, BOMChangeLine
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c068e7f5f4f36663766e21e14cf8e75cf1442f50
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2e845b05d77701191a267de45354c3da25bd7699
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577986"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431194"
 ---
 # <a name="bom-designer-functionality"></a>Funzionalità Designer DBA
 
@@ -95,7 +98,7 @@ Quando si utilizza Designer DBA per rivedere o modificare le DBA che sono costit
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Aggiunta e modifica di DBA e di righe DBA
 Utilizzare le funzioni **Righe DBA** o **DBA** per modificare le righe DBA o la DBA. Quando si seleziona un nodo nella struttura ad albero, il tipo di nodo determina quali funzioni sono disponibili.
 
-| Funzione                            | Descrizione                                                                                               | Tipo di nodo e condizioni                                                                                                                                                                                                                                                                       |
+| Funzione                            | descrizione                                                                                               | Tipo di nodo e condizioni                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Righe DBA &gt; Modifica                 | Consente di aprire una finestra di dialogo in cui è possibile modificare gli attributi della riga DBA.                                             | Questa funzione è disponibile quando un nodo della riga DBA è selezionato.                                                                                                                                                                                                                                   |
 | Righe DBA &gt; Elimina               | Consente di eliminare una riga DBA dalla DBA selezionata.                                                                  | Questa funzione è disponibile quando un nodo della riga DBA è selezionato e la DBA non è bloccata per la modifica.                                                                                                                                                                                             |
@@ -118,6 +121,3 @@ Fare clic su **Impostazione** per personalizzare le informazioni che vengono mos
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

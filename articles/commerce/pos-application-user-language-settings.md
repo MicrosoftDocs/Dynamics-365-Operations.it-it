@@ -2,13 +2,16 @@
 title: Applicazione POS e impostazioni della lingua dell'utente
 description: In questo argomento viene descritto come modificare le impostazioni della lingua in Modern POS (MPOS) e Cloud POS.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774535"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413568"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Applicazione POS e impostazioni della lingua dell'utente
 
@@ -57,11 +60,8 @@ L'impostazione della lingua dell'utente del POS determina le traduzioni utilizza
 
 L'impostazione della lingua dell'utente viene impostata in **Tutti i lavoratori** nella pagina **Lavoratore** in **Retail e Commerce &gt; Lingua**. Non viene impostata nella scheda Profilo. Questa impostazione non viene utilizzata dal POS. Se la lingua dell'utente non è impostata o è impostata una lingua per cui le traduzioni non sono disponibili, il POS tornerà alla lingua del punto vendita.
 
-| &nbsp;      | Lingua dell'interfaccia utente                   | Lingua dei dati (prodotti, formati ricevuta, visualizzazione riga e così via). |
+|             | Lingua dell'interfaccia utente                   | Lingua dei dati (prodotti, formati ricevuta, visualizzazione riga e così via). |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Società** | Valori predefiniti                    | Valori predefiniti                                                       |
 | **Punto vendita**   | Sovrascrive la società          | Sovrascrive la società                                             |
 | **Utente**    | Sovrascrive il punto vendita o la società | Mai                                                         |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

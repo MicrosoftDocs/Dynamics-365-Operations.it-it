@@ -2,9 +2,11 @@
 title: Funzionalità di accessibilità
 description: In questo argomento vengono descritte le funzionalità progettate per aiutare gli utenti con varie disabilità.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071060"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798697"
 ---
 # <a name="accessibility-features"></a>Funzionalità di accessibilità
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In questo argomento vengono descritte le funzionalità progettate per consentire agli utenti con varie disabilità di utilizzare questa app. Ad esempio, sono disponibili funzionalità per le persone che utilizzano assistive technology per la vista come Microsoft Windows Narrator.
 
@@ -55,13 +54,13 @@ Ogni azione che viene fornita in una pagina è disponibile da una tastiera, tram
 
 Si desidera eseguire l'azione **Registro notifiche tramite posta elettronica** che appare nel gruppo **Notifica tramite posta elettronica** della scheda **Ordine cliente** nel riquadro azioni.
 
-![Azione Registro notifiche tramite posta elettronica nel riquadro Azioni.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Azione 'Registro notifiche tramite posta elettronica' nel riquadro Azioni")
+![Azione Registro notifiche tramite posta elettronica nel riquadro Azioni](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Azione 'Registro notifiche tramite posta elettronica' nel riquadro Azioni")
 
 Un'opzione consiste nell'utilizzare la tastiera. Premere CTRL+F6 per spostare lo stato attivo nel riquadro azioni, quindi premere TAB ripetutamente per spostarsi tra tutte le tabulazioni e le azioni fino a raggiungere l'azione **Registro notifiche tramite posta elettronica**.
 
 Tuttavia, è possibile eseguire l'azione più direttamente. Da un punto qualsiasi nella pagina, premere CTRL+Apostrofo (') per visualizzare la casella di ricerca per le azioni.
 
-![Casella di ricerca delle azioni.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Casella di ricerca delle azioni")
+![Casella di ricerca delle azioni](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Casella di ricerca delle azioni")
 
 Nella casella di ricerca, digitare parole che descrivono l'azione. L'azione viene resa disponibile e l'utente può eseguirla direttamente. Ad esempio, digitando **registro**, **notific** (parola parziale) o **posta elettronica**, è possibile passare alla funzionalità Registro notifiche tramite posta elettronica.
 
@@ -98,6 +97,3 @@ Sugli smartphone e altri piccoli schermi, i controlli e il layout del modulo si 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Istruzioni per aiutare gli sviluppatori e i clienti a incorporare i concetti di accessibilità nelle proprie personalizzazioni
 
 Per ulteriori informazioni sulle procedure consigliate da Microsoft per consentire all'accessibilità, vedere [Accessibilità per moduli, prodotti e controlli](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

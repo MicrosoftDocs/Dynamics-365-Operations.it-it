@@ -1,33 +1,31 @@
 ---
 title: Realizzare programmi di benefit per i dipendenti
-description: Questo argomento spiega come creare elementi di beneficio che saranno usati quando si crea un nuovo beneficio.
-author: twheeloc
-ms.date: 08/23/2021
+description: In questo articolo viene descritto come creare elementi di benefit che verranno utilizzati durante la creazione di un nuovo benefit.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 868ddb9b372b90ec75a5f35ebf3c987f2d39bd74
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066070"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419224"
 ---
 # <a name="deliver-employee-benefits-program"></a>Realizzare programmi di benefit per i dipendenti
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Questo argomento spiega come creare elementi di beneficio che saranno usati quando si crea un nuovo beneficio. La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa attività è destinata al responsabile retribuzione e benefit.
+In questo articolo viene descritto come creare elementi di benefit che verranno utilizzati durante la creazione di un nuovo benefit. La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa attività è destinata al responsabile retribuzione e benefit.
 
 
 ## <a name="create-benefit-elements"></a>Crea elementi benefit
@@ -70,6 +68,3 @@ Questo argomento spiega come creare elementi di beneficio che saranno usati quan
 16. Selezionare un'opzione nel campo Base.
 17. Nel campo Importo o Tasso immettere un numero.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,6 +102,3 @@ Una singola data può avere solo uno di ogni tipo associato.
 | 000337                | 8/8/2018             | Regolare               | 8                    |
 | 000337                | 8/7/2018             | Regolare               | 8                    |
 | 000337                | 8/9/2018             | Regolare               | 8                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

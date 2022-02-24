@@ -1,28 +1,31 @@
 ---
 title: Gruppi oggetti assistenza
 description: I gruppi di oggetti sono utili per ordinare e filtrare i dati relativi a oggetti per scopi statistici e di report.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectGroups
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfee8bacbf9c62950ff45b90d19258516ec20b20
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4438487fa234cf093b557bca9455717b2cd3ca0b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568977"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430836"
 ---
-# <a name="service-object-groups"></a>Gruppi oggetti assistenza
+# <a name="service-object-groups"></a>Gruppi oggetti assistenza 
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,17 +35,17 @@ I gruppi di oggetti sono utili per ordinare e filtrare i dati relativi a oggetti
 
 È possibile utilizzare questo metodo di raggruppamento per visualizzare l'ubicazione dei diversi oggetti per i quali la società fornisce assistenza. Il raggruppamento di oggetti per posizione geografica può essere utile anche nel caso in cui sia ad esempio necessario identificare gli oggetti per i quali viene già fornita assistenza in un determinato paese.
 
-## <a name="example-of-grouping-by-geographical-location"></a>Esempio di raggruppamento per posizione geografica
+## <a name="example"></a>Esempio
 
-Un cliente belga contatta il centro assistenza della società perché desidera stipulare un contratto di assistenza per un oggetto, denominato ABC. A tutti gli oggetti per i quali viene fornita assistenza tecnica in Belgio è stato collegato un gruppo di oggetti di tipo posizione geografica, denominato Belgio. Utilizzando questo gruppo come filtro è possibile determinare rapidamente se l'oggetto ABC è già presente come record nel programma o se è necessario impostare un nuovo oggetto.
+Un cliente belga contatta il centro assistenza della società perché desidera stipulare un contratto di assistenza per un oggetto, denominato ABC. A tutti gli oggetti per i quali viene fornita assistenza tecnica in Belgio è stato collegato un gruppo di oggetti di tipo posizione geografica, denominato Belgio. Utilizzando questo gruppo come filtro è possibile determinare rapidamente se l'oggetto ABC è già presente come record nel programma o se è necessario impostare un nuovo oggetto. 
 
 ## <a name="group-by-type"></a>Raggruppare per tipo
 
 È possibile utilizzare questo metodo di raggruppamento per visualizzare i tipi di oggetti per i quali la società fornisce assistenza. Il raggruppamento di oggetti per tipo può essere utile anche nel caso in cui sia ad esempio necessario creare un nuovo oggetto in base a oggetti simili già presenti nel programma.
 
-## <a name="example-of-grouping-by-type"></a>Esempio di raggruppamento per tipo
+## <a name="example"></a>Esempio
 
-Un cliente contatta la società perché desidera stipulare un contratto di assistenza per un sistema di condizionamento, denominato HIJ. Sebbene questo sistema non sia già presente nei record della società, è stato definito un gruppo di oggetti denominato Condizionatori e a questo gruppo sono stati collegati tutti gli oggetti condizionatore. Sarà pertanto possibile cercare e identificare rapidamente tutti i sistemi di climatizzazione e utilizzarne il modello di informazioni per creare righe di contratto di assistenza per gli articoli HIJ. Questo metodo di utilizzo dei gruppi di oggetti consente di ridurre i tempi necessari per l'impostazione di nuovi oggetti e la determinazione delle attività di assistenza da eseguire.
+Un cliente contatta la società perché desidera stipulare un contratto di assistenza per un sistema di condizionamento, denominato HIJ. Sebbene questo sistema non sia già presente nei record della società, è stato definito un gruppo di oggetti denominato Condizionatori e a questo gruppo sono stati collegati tutti gli oggetti condizionatore. Sarà pertanto possibile cercare e identificare rapidamente tutti i sistemi di climatizzazione e utilizzarne il modello di informazioni per creare righe di contratto di assistenza per gli articoli HIJ. Questo metodo di utilizzo dei gruppi di oggetti consente di ridurre i tempi necessari per l'impostazione di nuovi oggetti e la determinazione delle attività di assistenza da eseguire. 
 
 ## <a name="create-service-object-groups"></a>Creare gruppi di oggetti assistenza
 
@@ -63,6 +66,3 @@ Per creare gruppi di oggetti assistenza, effettuare le operazioni seguenti:
 [Creare oggetti assistenza](create-service-objects.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

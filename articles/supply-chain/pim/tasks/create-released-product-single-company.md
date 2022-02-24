@@ -1,24 +1,27 @@
 ---
 title: Creare un prodotto rilasciato per una singola società
 description: Questa procedura descrive come creare un unico prodotto rilasciato nel contesto di un'unica unità legale.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6755f2112596be661040f1b371cb11f1785815b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 90924c853793a3d70f2f2d46d8a154a19bd7d6bb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577314"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431141"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Creare un prodotto rilasciato per una singola società
 
@@ -100,6 +103,3 @@ Questa procedura descrive come creare un unico prodotto rilasciato nel contesto 
 12. Trovare e selezionare il record desiderato nell'elenco.
 13. Nell'elenco fare clic sul collegamento nella riga selezionata.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

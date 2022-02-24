@@ -1,25 +1,28 @@
 ---
 title: Creare modelli di orario di lavoro
 description: I modelli di orario di lavoro definiscono le ore lavorative di una settimana e vengono utilizzati per generare gli orari di lavoro per un periodo di tempo.
-author: johanhoffmann
+author: sorenva
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkTimeTable, WorkTimeCopyDayDialog, WorkPeriodTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: sorenand
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 130a21d08e4e720f8bf803a5d4b03d315cefc26f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b5bd1b384fe66dd7d59b776bdf1154cc5b8262ce
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580674"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430855"
 ---
 # <a name="create-working-time-templates"></a>Creare modelli di orario di lavoro
 
@@ -27,58 +30,52 @@ ms.locfileid: "7580674"
 
 I modelli di orario di lavoro definiscono le ore lavorative di una settimana e vengono utilizzati per generare gli orari di lavoro per un periodo di tempo. Questa procedura consente di definire un modello di orario di lavoro utilizzando le proprietà di programmazione dell'orario di lavoro per classificare gli intervalli di orario di lavoro. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.
 
-1. Andare a **Aree di lavoro > Gestione ciclo di vita risorse**.
-1. Selezionare **Modelli di orario di lavoro**
+1. Andare a Tutte le aree di lavoro > Gestione ciclo di vita risorse.
+2. Fare clic su Modelli di orario di lavoro.
 
 ## <a name="create-working-time-template"></a>Creare un modello di orario di lavoro
-
-1. Selezionare **Nuovo**.
-1. Nel campo **Modello di orario di lavoro**, immettere un valore.
-1. Digitare un valore nel campo **Nome**.
-1. Espandere la sezione **Lunedì**.
-1. Selezionare **Aggiungi**.
-1. Nel campo **Da** immettere un'ora.
+1. Fare clic su Nuovo.
+2. Nel campo Modello di orario di lavoro, immettere un valore.
+3. Digitare un valore nel campo Nome.
+4. Espandere la sezione Lunedì.
+5. Scegliere Aggiungi.
+6. Nel campo Da immettere un'ora.
     * Specificare l'ora in cui inizia il lavoro di mattina.  
-1. Nel campo **A** immettere un'ora.
+7. Nel campo A immettere un'ora.
     * Specificare l'ora in cui i lavoratori iniziano la pausa pranzo.  
-1. Selezionare **Aggiungi**.
-1. Nel campo **Da** immettere un'ora.
+8. Scegliere Aggiungi.
+9. Nel campo Da immettere un'ora.
     * Specificare l'ora in cui il lavoro riprende dopo il pranzo.  
-1. Nel campo **A** immettere un'ora.
+10. Nel campo A immettere un'ora.
     * Specificare la fine della giornata lavorativa.  
 
 ## <a name="replicate-working-times-to-all-week-days"></a>Replicare gli orari di lavoro per tutti i giorni della settimana
-
-1. Seleziona **Copia giorno**.
+1. Fare clic su Copia giorno.
     * Copiare le definizioni di orario di lavoro da lunedì a martedì.  
-1. Selezionare **OK**.
-1. Seleziona **Copia giorno**.
+2. Fare clic su OK.
+3. Fare clic su Copia giorno.
     * Copiare le definizioni di orario di lavoro da lunedì a mercoledì.  
-1. Selezionare un'opzione nel campo **Al giorno feriale**.
-1. Selezionare **OK**.
-1. Seleziona **Copia giorno**.
+4. Selezionare un'opzione nel campo Al giorno feriale.
+5. Fare clic su OK.
+6. Fare clic su Copia giorno.
     * Copiare le definizioni di orario di lavoro da lunedì a giovedì.  
-1. Selezionare un'opzione nel campo **Al giorno feriale**.
-1. Selezionare **OK**.
-1. Seleziona **Copia giorno**.
+7. Selezionare un'opzione nel campo Al giorno feriale.
+8. Fare clic su OK.
+9. Fare clic su Copia giorno.
     * Copiare le definizioni di orario di lavoro da lunedì a venerdì.  
-1. Selezionare un'opzione nel campo **Al giorno feriale**.
-1. Selezionare **OK**.
+10. Selezionare un'opzione nel campo Al giorno feriale.
+11. Fare clic su OK.
 
 ## <a name="define-time-slots-for-special-operations"></a>Definire le fasce orarie per le operazioni speciali
-
-1. Espandere la sezione **Venerdì**.
-1. Nell'elenco trovare e selezionare il record desiderato.
-1. Nel campo **Proprietà** immettere o selezionare un valore.
-1. Nell'elenco trovare e selezionare il record desiderato.
-1. Nel campo **Proprietà** immettere o selezionare un valore.
+1. Espandere la sezione Venerdì.
+2. Nell'elenco trovare e selezionare il record desiderato.
+3. Nel campo Proprietà immettere o selezionare un valore.
+4. Nell'elenco trovare e selezionare il record desiderato.
+5. Nel campo Proprietà immettere o selezionare un valore.
 
 ## <a name="mark-weekend-days-as-closed-for-pickup"></a>Contrassegnare i giorni del fine settimana come chiusi per prelievo
+1. Espandere la sezione Sabato.
+2. Selezionare Sì nel campo Chiuso per prelievo.
+3. Espandere la sezione Domenica.
+4. Selezionare Sì nel campo Chiuso per prelievo.
 
-1. Espandere la sezione **Sabato**.
-1. Selezionare *Sì* nel campo **Chiuso per prelievo**.
-1. Espandere la sezione **Domenica**.
-1. Selezionare *Sì* nel campo **Chiuso per prelievo**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

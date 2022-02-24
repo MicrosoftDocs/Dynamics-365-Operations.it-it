@@ -58,6 +58,3 @@ Quando si modifica una mansione in una posizione, verrà utilizzato il valore pr
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Miglioramento delle prestazioni durante il rendering delle aree di lavoro
 La scheda Analisi nelle aree di lavoro verrà ora caricata quando si accede a tali pagine. Un indicatore verrà visualizzato durante il rendering iniziale della pagina nell'angolo in alto a sinistra della pagina.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: Selezionare un tema per il sito
 description: In questo argomento viene descritto come impostare o modificare il tema del sito in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964783"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556431"
 ---
 # <a name="select-a-site-theme"></a>Selezionare un tema per il sito
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come impostare o modificare il tema del sito in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Il layout e lo stile di un sito (ad esempio caratteri, dimensioni e colori) vengono definiti mediante il tema selezionato e applicato al sito. Un tema viene creato e distribuito da uno sviluppatore nella società. Per una panoramica dei temi, vedere [Panoramica dello sviluppo di temi](e-commerce-extensibility/theming.md). Per ulteriori informazioni su come creare e distribuire temi, vedere [Creare un nuovo tema](e-commerce-extensibility/create-theme.md).
 
@@ -51,6 +56,8 @@ Per selezionare il tema che viene applicato al sito, procedere come segue.
 
 [Aggiungere una favicon](add-favicon.md)
 
+[Aggiungere un messaggio di benvenuto](add-welcome-message.md)
+
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 
 [Aggiungere lingue al sito](add-languages-to-site.md)
@@ -61,6 +68,3 @@ Per selezionare il tema che viene applicato al sito, procedere come segue.
 
 [Creare un nuovo tema](e-commerce-extensibility/create-theme.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Ordini di lavoro creati manualmente
 description: In questo argomento viene descritto come creare manualmente ordini di lavoro in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750102"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017870"
 ---
 # <a name="manually-created-work-orders"></a>Ordini di lavoro creati manualmente
 
@@ -40,7 +42,7 @@ ms.locfileid: "6750102"
 
 3. Nella finestra di dialogo **Crea ordine di lavoro**, selezionare un tipo di ordine di lavoro nel campo **Tipo di ordine di lavoro**.
 
-4. Se necessario, selezionare una **Descrizione**.
+4. Se necessario, selezionare una **descrizione**.
 
 5. Selezionare il cespite nel campo **Cespite**.
 
@@ -111,7 +113,7 @@ Notare i punti seguenti:
 
 Nella figura seguente è illustrato un esempio della finestra di dialogo **Crea ordine di lavoro correlato**.
 
-![Figura 1.](media/03-work-orders.png)
+![Figura 1](media/03-work-orders.png)
 
 >[!NOTE]
 >Se è stata impostata una maschera di ordine di lavoro correlato in **Parametri di gestione cespiti** > scheda **Ordini di lavoro** > campo **Maschera ordini di lavoro correlati**, gli ID di ordine di lavoro saranno creati in base all'impostazione della maschera. Se non è stata impostata una maschera di ordine di lavoro correlato, per gli ordini di lavoro correlati viene utilizzato l'ID di ordine di lavoro disponibile successivo.
@@ -137,7 +139,7 @@ Nella figura seguente è illustrato un esempio della finestra di dialogo **Crea 
 
 Nella figura seguente è illustrato un esempio della finestra di dialogo **Copia ordine di lavoro**.
 
-![Figura 2.](media/04-work-orders.png)
+![Figura 2](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Creare un ordine di lavoro basato su una richiesta di intervento di manutenzione
@@ -157,12 +159,9 @@ Nella figura seguente è illustrato un esempio della finestra di dialogo **Copia
 
 Nella figura seguente è illustrato un esempio della finestra di dialogo **Creare ordine di lavoro**.
 
-![Figura 3.](media/05-work-orders.png)
+![Figura 3](media/05-work-orders.png)
 
 
 >[!NOTE]
 >Per creare automaticamente gli ordini di lavoro è possibile pianificare i processi del piano di manutenzione o impostare la creazione automatica dei [piani di manutenzione](../preventive-and-reactive-maintenance/maintenance-plans.md) o [cicli di manutenzione](../preventive-and-reactive-maintenance/maintenance-rounds.md) per un cespite. Gli ordini di lavoro creati dalle richieste di intervento di manutenzione nella pagina elenco **Tutti i programmi di manutenzione** hanno i tipi di processo di manutenzione selezionati nelle richieste di intervento di manutenzione.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

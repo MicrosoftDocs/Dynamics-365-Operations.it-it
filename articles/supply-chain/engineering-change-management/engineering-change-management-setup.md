@@ -2,23 +2,26 @@
 title: Stabilire valori comuni per la gestione delle modifiche di progettazione
 description: In questo argomento viene descritto come stabilire valori comuni utilizzati per i parametri in varie parti della gestione delle modifiche di progettazione.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c2ff21490dc71859d75923dd757e264096d4fcba
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 86de050ef4110e3485a77099440f3402e46cc498
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565929"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4431602"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>Stabilire valori comuni per la gestione delle modifiche di progettazione
 
@@ -88,6 +91,3 @@ Per ciascuno set di regole, impostare il campo seguente:
 - **Gravità** - Selezionare il livello di gravità per cui stabilire le regole. Utilizzare la pagina **Gravità modifiche di progettazione** per creare i livelli e assegnarvi un nome. Per ulteriori informazioni, vedere la sezione precedente.
 
 Utilizzare i pulsanti nella Scheda dettaglio **Regole** per aggiungere o rimuovere una regola per l'impostazione di gravità corrente. Per ogni regola è presente un campo **Regola** e un campo **Nome**. Le regole sono stabilite dal sistema e indicano i tipi di modifiche che un prodotto può subire. Il nome indica il tipo di modifica.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Metodi di pagamento nei servizi clienti
 description: In questo argomento vengono descritti i diversi metodi di pagamento che è possibile utilizzare in un servizio clienti Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b89daf41c8a14f5e03dc2a67c95e9d1fed2d5cab891ae65e20655c285b1f6ac2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762574"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413471"
 ---
 # <a name="payment-methods-in-call-centers"></a>Metodi di pagamento nei servizi clienti
 
@@ -35,7 +38,7 @@ Per configurare i metodi di pagamento per un canale servizio clienti, passare a 
 
 Quando si crea un metodo di pagamento, sono disponibili cinque funzioni del metodo di pagamento che è possibile assegnare.
 
-| Funzione            | Descrizione |
+| Funzione            | descrizione |
 |---------------------|-------------|
 | Normale              | Utilizzare la funzione **Normale** nel metodo di pagamento quando si definiscono i metodi di pagamento quali contanti o buoni. Quando questi tipi di pagamenti vengono applicati a un ordine cliente nel servizio clienti, il flag **Pagamento anticipato** è impostato per impostazione predefinita su **Sì**. In questo modo verrà registrato immediatamente un giustificativo di pagamento anticipato nel conto cliente quando l'ordine viene inviato. Gli utenti possono cambiare il flag **Pagamento anticipato** su **No** se lo desiderano in modo che il giustificativo di pagamento non venga creato fino alla registrazione della fattura. Il giustificativo di pagamento anticipato viene registrato nello storico delle transazioni del cliente, dove verrà compensato in modo sistematico nella fattura per l'ordine cliente. |
 | Verifica               | Utilizzare la funzione **Assegno** quando si definisce uno strumento assegno bancario come forma di pagamento. Quando questo tipo di pagamento viene applicato a un ordine cliente, l'utente deve immettere il numero di assegno del cliente come parte dell'elaborazione dell'applicazione di pagamento. Anche i pagamenti con assegni vengono trattari come pagamenti anticipati quando vengono applicati e i giustificativi di pagamento vengono creati immediatamente al ricevimento dell'ordine. Questi giustificativi di pagamento anticipato verranno liquidati in modo sistematico in base alle fatture create per l'ordine. |
@@ -50,6 +53,3 @@ Poiché i metodi di pagamento sono definiti, devono essere collegati a un conto 
 Per gli scenari di elaborazione del rimborso, il servizio clienti utilizza anche alcuni metodi di pagamento definiti in Contabilità clienti. Per configurare questi metodi di pagamento, andare a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Metodi di rimborso servizio clienti**. È necessario completare la configurazione per elaborare gli assegni di rimborso ai clienti. Ad esempio, se un cliente ha in origine pagato per un ordine utilizzando contanti o un assegno, l'utente potrebbe voler inviare al cliente un assegno di rimborso tramite la contabilità clienti. In questo caso, i tipi di pagamento in contanti e con assegno nel servizio clienti devono essere associati al metodo di pagamento corretto in Contabilità clienti per garantire che il rimborso venga correttamente elaborato.
 
 Inoltre, se un utente sta elaborando un ordine di reso come utente di un servizio clienti in Commerce, ma non è in grado di collegare il reso a una vendita originale, il metodo di pagamento **Reso** deve essere definito nei parametri del servizio clienti. Passare a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione servizio clienti** \> **Parametri servizio clienti** e quindi nella scheda **NAR/Reso** nel campo **Metodo di pagamento** assicurarsi che il metodo di pagamento sia definito. Il metodo di pagamento sarà il metodo di pagamento utilizzato per i rimborsi. In genere, verrà definito come metodo con assegno o metodo tramite conto cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

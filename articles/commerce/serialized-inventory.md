@@ -2,23 +2,26 @@
 title: Miglioramenti POS per prodotti in serie
 description: Questo argomento elenca i miglioramenti apportati ai prodotti in serie per risparmiare tempo e migliorare la produttività.
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9b988e8046fadad4579a12966a5031929202e7411f00ca8e0de149380ddb34fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3a6a2b713e5fe1fe22ae886080945e7a87c9b2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741758"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413573"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Miglioramenti POS per prodotti in serie
 
@@ -39,6 +42,3 @@ In base alle impostazioni in Commerce Headquarters, i prodotti possono essere cl
 - **I numeri di serie non sono necessari per piazzare ordini cliente**: gli ordini cliente possono essere eseguiti in un punto vendita ed evasi in un altro. Un cassiere che piazza un ordine cliente non deve fornire il numero di serie. Il numero di serie verrà indicato durante la fase di prelievo. Tuttavia, un numero di serie deve essere specificato per tutti gli articoli per i quali è stato selezionato il tipo di consegna **Esegui**. In caso contrario, la transazione non può essere completata.
 - **I prodotti in serie non sono aggregati nella schermata della transazione**: l'impostazione **Aggrega prodotti** nel gruppo di campi **Terminale** della pagina **Profilo funzionalità** consente di aggregare gli stessi prodotti non in serie nella schermata della transazione. Quando gli stessi prodotti vengono aggregati, sono più facili da visualizzare nella griglia della transazione. Tuttavia, poiché i numeri di serie sono in genere univoci e gli assistenti alle vendite non devono immettere numeri di serie fino al checkout, l'impostazione **Aggrega prodotti** non viene applicata ai prodotti in serie. Di conseguenza, i prodotti in serie non verranno aggregati nella schermata della transazione se l'impostazione **Aggrega prodotti** è selezionata.
 - **Possibilità di cercare i giornali di registrazione per numero di serie** – I giornali di registrazione possono ora essere ulteriormente ricercati per numero di serie. A tale scopo, aprire l'operazione "Giornali di registrazione" e premere il pulsante "Ricerca avanzata" nella barra delle applicazioni. Utilizzando il pulsante "Aggiungi filtro", è anche possibile applicare un filtro per cercare i numeri di serie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

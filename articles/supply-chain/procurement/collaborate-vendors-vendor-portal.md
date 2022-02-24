@@ -1,10 +1,12 @@
 ---
 title: Collaborare con i fornitori tramite il portale fornitori
 description: In questo argomento viene illustrato come gli addetti agli acquisti possono utilizzare il portale fornitori per collaborare con i fornitori esterni durante il processo di conferma dell'ordine fornitore. Queste informazioni si applicano solo alle versioni di febbraio 2016 e maggio 2016 di Dynamics AX.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e691d0e2e4260e75b70e22d94486afdb779871f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4aece4fd621be803abe5011e40785f6a3301924f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568066"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019105"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborazione con i fornitori tramite il portale fornitori
 
@@ -92,14 +94,12 @@ Nella tabella riportata di seguito viene mostrato un esempio di modifica allo st
 |                           Si invia la nuova versione dell'ordine fornitore nel portale fornitori.                            |                                                                                                                                                                    La nuova versione viene registrata nel portale e lo stato passa a <strong>In revisione esterna</strong>.                                                                                                                                                                     |
 |                                Il fornitore approva la nuova versione dell'ordine.                                 |                                                                                                                                                     Lo stato viene modificato in <strong>Confermato</strong> automaticamente o quando si riceve la risposta dal fornitore e quindi si conferma l'ordine.                                                                                                                                                     |
 
-## <a name="additional-resources"></a>Risorse aggiuntive
+<a name="additional-resources"></a>Risorse aggiuntive
+--------
 
 [Sicurezza degli utenti del portale fornitori](configure-security-vendor-portal-users.md)
 
-[Area di lavoro fatturazione di collaborazione fornitore](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Area di lavoro fatturazione di collaborazione fornitore](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

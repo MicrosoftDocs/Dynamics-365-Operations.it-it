@@ -1,63 +1,67 @@
 ---
-title: Valutare il modello di previsione di pagamento del cliente iniziale
+title: Valutare il modello di previsione di pagamento del cliente iniziale (anteprima)
 description: In questo argomento vengono descritti i passaggi che è possibile eseguire per comprendere il modello di previsione del pagamento del cliente e valutarne l'efficacia.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+manager: AnnBe
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: d761e31c4e4169b09711e351948390d2d40f3739
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969114"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644971"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Valutare il modello di previsione di pagamento del cliente iniziale
+# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Valutare il modello di previsione di pagamento del cliente iniziale (anteprima)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento spiega come valutare un modello di previsione dopo aver attivato Finance Insights e quindi generato ed eseguito il training del primo modello. Questo argomento illustra i modelli per la previsione dei pagamenti dei clienti. In questo argomento vengono descritti i passaggi che è possibile eseguire per comprendere il modello di previsione del pagamento del cliente e valutarne l'efficacia.
+Questo argomento spiega come valutare un modello di previsione dopo aver attivato Informazioni finanziarie dettagliate e quindi generato ed eseguito il training del primo modello. Questo argomento illustra i modelli per la previsione dei pagamenti dei clienti. In questo argomento vengono descritti i passaggi che è possibile eseguire per comprendere il modello di previsione del pagamento del cliente e valutarne l'efficacia.
 
 ## <a name="getting-details-about-the-model"></a>Ottenere dettagli sul modello
 
-Nella pagina **Parametri di Finance Insights** in Microsoft Dynamics 365 Finance, un collegamento **Migliora la precisione del modello** viene visualizzato accanto al punteggio di precisione.
+Nella pagina **Parametri di informazioni finanziarie dettagliate** in Microsoft Dynamics 365 Finance, un collegamento **Migliora la precisione del modello** viene visualizzato accanto al punteggio di precisione.
 
-[![Collegamento Migliora la precisione del modello.](./media/prediction-model.png)](./media/prediction-model.png)
+[![Collegamento Migliora la precisione del modello](./media/prediction-model.png)](./media/prediction-model.png)
 
 Questo collegamento reindirizza ad AI Builder, dove puoi saperne di più sul modello attuale e anche adottare misure per migliorarlo. L'illustrazione seguente mostra la pagina che viene aperta.
 
-[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 La pagina che viene aperta mostra le informazioni seguenti:
 
-- Nella sezione **Prestazioni**, il grado di prestazione del modello fornisce una prospettiva sulla qualità del modello. Per ulteriori informazioni su questo grado, vedi [Prestazioni del modello di previsione](/ai-builder/prediction-performance) nella documentazione di AI Builder.
+- Nella sezione **Prestazioni**, il grado di prestazione del modello fornisce una prospettiva sulla qualità del modello. Per ulteriori informazioni su questo grado, vedi [Prestazioni del modello di previsione](https://docs.microsoft.com/ai-builder/prediction-performance) nella documentazione di AI Builder.
 - La sezione **Dati più influenti** mostra l'importanza dei diversi tipi di input di dati per il modello. Puoi valutare questo elenco e le percentuali corrispondenti per determinare se le informazioni sono coerenti con ciò che sai della tua azienda e del tuo mercato.
 
-    [![Sezioni Prestazioni e Dati più influenti per il modello di previsione.](./media/models.png)](./media/models.png)
+    [![Sezioni Prestazioni e Dati più influenti per il modello di previsione](./media/models.png)](./media/models.png)
 
 - Nella sezione **Prestazioni**, seleziona **Visualizza dettagli** per saperne di più sul grado e altre considerazioni. Nella figura seguente, i dettagli mostrano che il modello utilizza meno informazioni di quelle consigliate. Pertanto, il sistema ha generato un messaggio di avviso.
 
-    [![Avvisi sulle prestazioni del modello.](./media/details.png)](./media/details.png)
+    [![Avvisi sulle prestazioni del modello](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Eseguire un'analisi più approfondita
 
 Sebbene la precisione sia un buon punto di partenza per la valutazione di un modello e il grado di prestazione fornisca una prospettiva, AI Builder fornisce metriche più dettagliate che puoi utilizzare per la tua valutazione. Per scaricare i dettagli, nella sezione **Prestazioni**, seleziona il pulsante con i puntini di sospensione (**...**) accanto al pulsante **Utilizza modello** e quindi seleziona **Scarica metriche dettagliate**.
 
-[![Comando Scarica metriche dettagliate.](./media/performance.png)](./media/performance.png)
+[![Comando Scarica metriche dettagliate](./media/performance.png)](./media/performance.png)
 
 La figura seguente mostra il formato in cui è possibile scaricare i dati.
 
-[![Formato dei dati scaricati.](./media/data-format.png)](./media/data-format.png)
+[![Formato dei dati scaricati](./media/data-format.png)](./media/data-format.png)
 
 Per un'analisi più approfondita dei risultati, un buon punto di partenza è la revisione della metrica "Matrice di confusione". Ad esempio, ecco i dati mostrati per questa metrica nell'illustrazione precedente.
 
@@ -65,7 +69,7 @@ Per un'analisi più approfondita dei risultati, un buon punto di partenza è la 
 
 Puoi espandere questi dati nel modo seguente.
 
-| &nbsp;                   | Previsto in tempo | Previsto in ritardo | Previsto molto in ritardo |
+|                          | Previsto in tempo | Previsto in ritardo | Previsto molto in ritardo |
 |--------------------------|-------------------|----------------|---------------------|
 | Pagamento puntuale effettivo   | **71**            | 0              | 21                  |
 | Pagamento in ritardo effettivo      | 5                 | **0**          | 27                  |
@@ -95,4 +99,5 @@ Dopo aver compreso meglio i risultati del primo modello, è consigliabile miglio
 
 Per ulteriori informazioni su come valutare i modelli di previsione, vedi [Risultati dei modelli di apprendimento automatico](/confusion-matrix.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Informativa sulla privacy
+Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.

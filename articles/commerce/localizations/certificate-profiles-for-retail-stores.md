@@ -2,9 +2,11 @@
 title: Profili certificato definiti dall'utente per i punti vendita al dettaglio
 description: Questo argomento fornisce una panoramica su come vengono utilizzati i certificati nei punti vendita al dettaglio.
 author: josaw
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719932"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018870"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Profili certificato definiti dall'utente per i punti vendita al dettaglio
 
@@ -79,7 +81,7 @@ Quando aggiungi una nuova riga alla pagina **Impostazioni del profilo certificat
 - **Certificato insieme di credenziali delle chiavi** - Questo campo è obbligatorio se si imposta il campo **Tipo di ubicazione** su **Insieme di credenziali delle chiavi**. Utilizzalo per specificare un segreto del certificato dell'insieme di credenziali delle chiavi.
 
     > [!NOTE]
-    > Prima di utilizzare un certificato dell'insieme di credenziali delle chiavi nei profili di certificato, assicurati di caricare un certificato nell'archivio dell'insieme di credenziali delle chiavi e segui le istruzioni in [Configurazione del client Azure Key Vault](../../finance/localizations/setting-up-azure-key-vault-client.md).
+    > Prima di utilizzare un certificato dell'insieme di credenziali delle chiavi nei profili di certificato, assicurati di caricare un certificato nell'archivio dell'insieme di credenziali delle chiavi e segui le istruzioni in [Configurazione del client Azure Key Vault](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
 
 - **Nome punto vendita** - Questo campo è facoltativo ed è disponibile solo se imposti il campo **Tipo di ubicazione** su **Certificato locale**. Usalo per specificare un nome di punto vendita predefinito che deve essere usato per cercare certificati locali.
 - **Ubicazione punto vendita** - Questo campo è facoltativo ed è disponibile solo se imposti il campo **Tipo di ubicazione** su **Certificato locale**. Usalo per specificare un'ubicazione di punto vendita predefinita che deve essere usata per cercare certificati locali.
@@ -119,6 +121,3 @@ Se viene introdotta una nuova versione del certificato, ma non può essere aggio
 
 > [!NOTE]
 > Nel runtime di Commerce, verrà chiamata dapprima la nuova versione del certificato. Se il certificato non è stato ancora aggiornato in un punto vendita specifico o su un terminale specifico, verrà chiamata la versione precedente.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

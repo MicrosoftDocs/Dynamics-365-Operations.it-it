@@ -2,32 +2,37 @@
 title: Modulo Casella acquisti
 description: In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717797"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517090"
 ---
-# <a name="buy-box-module"></a>Modulo casella acquisti
+# <a name="buy-box-module"></a>Modulo Casella acquisti
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
-Il termine *casella acquisti* si riferisce in genere all'area di una pagina dettagli prodotto (PDP) che si trova "in primo piano" e che ospita le informazioni più importanti necessarie per effettuare un acquisto (un'area "in primo piano" è visibile quando la pagina viene caricata la prima volta, di modo che gli utenti non devono scorrere per vederla).
+## <a name="overview"></a>Panoramica
+
+Il termine *casella acquisti* si riferisce in genere all'area di una pagina dettagli prodotto che si trova "in primo piano" e che ospita le informazioni più importanti necessarie per effettuare un acquisto (un'area "in primo piano" è visibile quando la pagina viene caricata la prima volta, di modo che gli utenti non devono scorrere per vederla).
 
 Un modulo Casella acquisti è un contenitore speciale utilizzato per l'hosting di tutti i moduli visualizzati nell'area Casella acquisti di una pagina dettagli prodotto.
 
@@ -35,13 +40,13 @@ L'URL di una pagina dettagli prodotto include l'ID prodotto. Tutte le informazio
 
 L'immagine seguente mostra un esempio di modulo Casella acquisti in una pagina dettagli prodotto.
 
-![Esempio di modulo Casella acquisti.](./media/ecommerce-pdp-buybox.PNG)
+![Esempio di modulo Casella acquisti](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Proprietà e slot del modulo Casella acquisti 
 
 In una pagina dettagli prodotto, una casella acquisti è suddivisa in due aree: un'area multimediale a sinistra e un'area contenuto a destra. Per impostazione predefinita, la proporzione in termini di larghezza delle colonne dell'area multimediale e dell'area contenuto è 2:1. Nei dispositivi mobili, le due are sono impilate, di modo che un'area appaia sotto l'altra. I temi possono essere utilizzati per personalizzare la larghezza delle colonne e la classificazione dello stack.
 
-Un modulo Casella acquisti esegue il rendering di titolo, Descrizione, prezzo e valutazioni di un prodotto. Consente inoltre ai clienti di selezionare varianti di prodotto con attributi di prodotto diversi, come dimensioni, stile e colore. Quando si seleziona una variante prodotto, altre proprietà nella casella acquisti (ad esempio la descrizione e le immagini del prodotto) vengono aggiornate per riflettere le informazioni relative alla variante. 
+Un modulo Casella acquisti esegue il rendering di titolo, descrizione, prezzo e valutazioni di un prodotto. Consente inoltre ai clienti di selezionare varianti di prodotto con attributi di prodotto diversi, come dimensioni, stile e colore. Quando si seleziona una variante prodotto, altre proprietà nella casella acquisti (ad esempio la descrizione e le immagini del prodotto) vengono aggiornate per riflettere le informazioni relative alla variante. 
 
 Viene fornito un selettore della quantità, di modo che i clienti possano specificare la quantità di articoli da acquistare. La quantità massima che può essere acquistata può essere definita nelle impostazioni del sito.
 
@@ -67,16 +72,14 @@ Le seguenti impostazioni relative al modulo Casella acquisti possono essere conf
 
 - **Limite quantità voci carrello** - Questa proprietà viene utilizzata per specificare il numero massimo di pezzi di ogni articolo che possono essere aggiunti al carrello. Ad esempio, un rivenditore potrebbe decidere che solo 10 pezzi di ogni prodotto possono essere venduti in una singola transazione.
 - **Scorte** - Per informazioni su come applicare le impostazioni relative alle scorte, vedere [Applicare le impostazioni relative alle scorte](inventory-settings.md).
-- **Aggiungi prodotto a carrello** - Per informazioni su come applicare le impostazioni **Aggiungi prodotto a carrello**, vedere [Impostazioni Aggiungi prodotto a carrello](add-cart-settings.md).
-
-## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Estensioni della definizione del modulo Casella acquisti nel tema Adventure Works
-
-Il modulo Casella acquisti fornito dal tema Adventure Works ha un'estensione della definizione del modulo che supporta l'implementazione di un modulo di specifiche del prodotto all'interno di un modulo Accordion in una Casella acquisti PDP. Per mostrare gli attributi delle specifiche del prodotto in una Casella acquisti PDP, aggiungere un modulo delle specifiche del prodotto allo slot del modulo Accordion nello slot della Casella acquisti.
-
+- **Aggiungi prodotto al carrello** - Questa proprietà viene utilizzata per specificare il comportamento dopo l'aggiunta di un articolo al carrello. I valori possibili sono **Vai alla pagina del carrello**, **Non andare alla pagina del carrello** e **Mostra notifica**. Quando il valore è impostato su **Vai alla pagina del carrello**, gli utenti accedono alla pagina del carrello dopo aver aggiunto un articolo. Quando il valore è impostato su **Non andare alla pagina del carrello**, gli utenti non accedono alla pagina del carrello dopo aver aggiunto un articolo. Quando il valore è impostato su **Mostra notifica**, agli utenti viene mostrata una notifica di conferma e possono continuare a navigare nella pagina dettagli prodotto. 
 
 > [!IMPORTANT]
-> Il tema Adventure Works è disponibile a partire dalla versione Dynamics 365 Commerce 10.0.20.
+> Le impostazioni del sito **Aggiungi prodotto a carrello** sono disponibili in Dynamics 365 Commerce versione 10.0.11. Se stai aggiornando da una versione precedente di Dynamics 365 Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni sull'aggiornamento del file appsettings.json, vedi [Aggiornamenti dell'SDK e della libreria dei moduli](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
+L'immagine seguente mostra un esempio di notifica di conferma "aggiunto al carrello" sul sito di Fabrikam.
+
+![Esempio di modulo Notifica](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interazione con Commerce Scale Unit
 
@@ -130,11 +133,6 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 
 [Modulo di condivisione social](social-share-module.md)
 
-[Impostazioni Aggiungi prodotto a carrello](add-cart-settings.md)
-
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
 
-[SDK e aggiornamenti della libreria moduli](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)

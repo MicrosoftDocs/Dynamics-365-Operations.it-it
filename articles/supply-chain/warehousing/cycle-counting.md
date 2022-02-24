@@ -1,26 +1,29 @@
 ---
 title: Conteggio ciclo
 description: Questo articolo descrive come utilizzare il conteggio ciclo con la soluzione di immagazzinaggio disponibile in Gestione magazzino. Questo articolo non è applicabile alla soluzione di immagazzinaggio disponibile in Gestione inventario.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431487"
 ---
 # <a name="cycle-counting"></a>Conteggio ciclo
 
@@ -34,7 +37,7 @@ Il conteggio ciclo è un processo di magazzino che è possibile utilizzare per c
 2.  **Elaborare il conteggio ciclo**: una volta creato il lavoro di conteggio ciclo, è possibile eseguirlo contando gli articoli in un'ubicazione magazzino e utilizzando un dispositivo mobile per inserire il risultato in Dynamics 365 Supply Chain Management. In alternativa, è possibile contare gli articoli in un'ubicazione magazzino senza creare il lavoro di conteggio ciclo. Questo processo viene definito *conteggio ciclo a campione*.
 3.  **Risolvere le differenze nel valore conteggiato**: dopo un conteggio ciclo, per tutti gli articoli con differenze nel valore conteggiato sarà impostato lo stato di lavoro **Revisione in sospeso** nel modulo **Tutto il lavoro**. È possibile risolvere le differenze nella pagina **Lavoro conteggio ciclo con revisione in sospeso**.
 
-Nella seguente illustrazione viene mostrato il processo di conteggio ciclo. ![Elabora flusso per conteggio ciclo.](./media/performcyclecountinginawarehouselocation.jpg)
+Nella seguente illustrazione viene mostrato il processo di conteggio ciclo. ![Elabora flusso per conteggio ciclo](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Prerequisiti di conteggio ciclo
 Nella seguente tabella vengono visualizzati i prerequisiti che devono essere validi prima di utilizzare il conteggio ciclo.
@@ -137,6 +140,3 @@ Una differenza di conteggio ciclo si verifica negli scenari seguenti se l'opzion
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,29 @@
 title: Selezionare layout di pagina
 description: In questo argomento viene descritto come selezionare layout di pagina in Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e7424755ed794f4e4b8ff640a7e7b9dd96b2145fddcf91511266fa166626112d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738001"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413579"
 ---
-# <a name="select-page-layouts"></a>Selezionare i layout di pagina
+# <a name="select-page-layouts"></a>Selezionare layout di pagina
 
 
 [!include [banner](includes/banner.md)]
@@ -75,8 +78,3 @@ Per selezionare un layout differente per una pagina esistente, effettuare le seg
 
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
 
-[Creare pagine di e-commerce dinamiche in base ai parametri URL](create-dynamic-pages.md)
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

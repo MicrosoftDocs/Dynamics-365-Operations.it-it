@@ -2,13 +2,16 @@
 title: Conteggio ciclo ubicazioni parziale
 description: I piani di conteggio ciclo definiscono le operazioni di conteggio effettivo. È possibile fare in modo che solo prodotti specifici e varianti di prodotto vengano conteggiati anziché tutte le scorte disponibili in un'ubicazione.
 author: perlynne
+manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778436"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666748"
 ---
 # <a name="partial-location-cycle-counting"></a>Conteggio ciclo ubicazioni parziale
 
@@ -46,7 +49,7 @@ Prima che il lavoro di conteggio ciclo parziale possa essere elaborato, è neces
 Per il processo di conteggio parziale dei cicli, la data/ora **Ultimo conteggio ciclo** non viene aggiornata per la posizione, anche se vengono conteggiati tutti gli articoli disponibili in una determinata posizione. Il conteggio parziale dei cicli non considera il parametro **Giorni tra conteggio ciclo** della pagina **Piani di conteggio ciclo**. Il conteggio del ciclo parziale non supporta il conteggio simultaneo di più articoli nella stessa posizione. La funzionalità di conteggio del ciclo parziale può comportare il conteggio della stessa posizione più volte per un articolo quando **Elabora piano di conteggio ciclo** è eseguito. Per evitare questo scenario, specificare i filtri nel campo **Seleziona ubicazioni**.
 
 > [!NOTE]
-> L'app per dispositivi mobili Gestione magazzino non fornisce il pulsante **Aggiungi targa o articolo** quando si utilizza il processo di conteggio parziale ciclo.
+> L'app di magazzino non fornisce il pulsante **Aggiungi targa o articolo** quando si utilizza il processo di conteggio parziale ciclo.
 
 ## <a name="example"></a>Esempio
 
@@ -59,6 +62,3 @@ Per questo esempio, solo il numero di articolo A0001 deve essere conteggiato nel
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Conteggio ciclo](cycle-counting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

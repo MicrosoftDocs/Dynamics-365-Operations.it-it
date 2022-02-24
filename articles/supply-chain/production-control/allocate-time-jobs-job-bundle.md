@@ -2,9 +2,11 @@
 title: Allocare tempo ai processi in un'aggregazione di processi
 description: In Esecuzione produzione, è possibile aggregare i processi. È quindi possibile avviare più processi contemporaneamente nella pagina Elenco processi.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb0236f9f39afc67cb5c8cedecee5278a6555d03deefb859fc134a4a4160285b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766609"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966582"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Allocare tempo ai processi in un'aggregazione di processi
 
@@ -80,7 +82,7 @@ Nella seguente tabella viene illustrata la formula per calcolare il tempo alloca
 ## <a name="net-time-allocation-key"></a>Chiave di allocazione Tempo netto
 Nella seguente tabella viene illustrata la formula per calcolare il tempo allocato, Formula: Tempo calcolato per report = Tempo di aggregazione ÷ Numero di processi
 
-| Esempio                       | 09.00–10.00 (1 ora) | 10.00–11.00 (1 ora) | 11.00–13.00 (2 ore) | 13.00–15.00 (2 ore) | Tempo allocato |
+|                              | 09.00–10.00 (1 ora) | 10.00–11.00 (1 ora) | 11.00–13.00 (2 ore) | 13.00–15.00 (2 ore) | Tempo allocato |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Numero di processi inclusi nell'aggregazione | 1                    | 3                    | 2                     | 1                     | Non applicabile |
 | Processo 1                        | 1 ÷ 1 = 1 ora       | 1 ÷ 3 = 0,33 ore    | Non applicabile        | Non applicabile        | 1,33 ore     |
@@ -108,6 +110,3 @@ Il costo orario corretto e il tempo necessario per il processo vengono registrat
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

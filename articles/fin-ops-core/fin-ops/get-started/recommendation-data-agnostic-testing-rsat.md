@@ -2,9 +2,11 @@
 title: Test agnostico dei dati utilizzando Regression Suite Automation Tool
 description: In questo argomento vengono forniti suggerimenti per il test agnostico dei dati utilizzando Regression Suite Automation Tool.
 author: kfend
+manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763412"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798203"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Test agnostico dei dati utilizzando Regression Suite Automation Tool
 
@@ -30,7 +32,7 @@ Sebbene la convalida funzionale di un'applicazione ERP non possa essere completa
 - Framework ATL
 - Regression Suite Automation Tool (RSAT)
 
-[![Piramide di classificazione test.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Piramide di classificazione test](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Panoramica
 -   **Framework SysTest** - Il framework SysTest è attendibile per la scrittura degli unit test. Poiché gli unit test in genere verificano un metodo o una funzione, devono sempre essere agnostici dai dati e dipendenti solo dai dati di input specificati come parte del test.
@@ -42,11 +44,8 @@ Sebbene la convalida funzionale di un'applicazione ERP non possa essere completa
     - o Immettere gli identificatori univoci, come i numeri di fattura, tramite la sequenza numerica o utilizzando le funzioni di Microsoft Excel come =TEXT(NOW(),"yyyymmddhhmm"). Questa funzione fornirà un numero univoco ogni minuto, che consente di tenere traccia dell'azione eseguita. Può essere usata per le variabili come i numeri di ricevuta del prodotto e i numeri di fattura del fornitore. Questi test continuano a funzionare sullo stesso database, senza richiedere alcun ripristino.
     - Impostare sempre la **modalità di modifica** dell'ambiente su **Lettura** o **Modifica** come primo test case perché l'opzione predefinita è **Automatico**. L'opzione **Automatico** utilizza sempre l'impostazione precedente e può causare test inaffidabili. 
  
-    [![Pagina Opzioni, scheda Prestazioni.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Pagina Opzioni, scheda Prestazioni](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Convalidare solo dopo aver filtrato una determinata transazione anziché effettuare una convalida generica. Ad esempio, per il numero di record, filtrare per il numero di transazione o la data della transazione in modo che la convalida escluda tutte le altre transazioni. 
     - Se si sta verificando un saldo del cliente o un controllo del budget, salvare prima il valore e quindi aggiungere il valore della transazione per convalidare il risultato previsto anziché un valore previsto fisso. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

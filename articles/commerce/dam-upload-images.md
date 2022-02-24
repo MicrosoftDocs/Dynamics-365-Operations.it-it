@@ -1,10 +1,12 @@
 ---
 title: Caricare immagini
-description: In questo argomento viene descritto come caricare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+description: In questo argomento viene descritto come caricare le immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 12/03/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,18 +17,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891524"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963012"
 ---
 # <a name="upload-images"></a>Caricare immagini
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come caricare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+In questo argomento viene descritto come caricare le immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 La libreria multimediale Creazione di siti Web Commerce consente di caricare le immagini, singolarmente o in blocco, utilizzando le cartelle. È sempre necessario caricare la versione dell'immagine con la risoluzione e la qualità più alte, perché il componente di dimensionamento immagine ottimizza automaticamente l'immagine per essere adatta a diversi riquadri di visualizzazione e ai punti di interruzione.
 
@@ -34,15 +38,14 @@ La libreria multimediale Creazione di siti Web Commerce consente di caricare le 
 
 Quando si carica un'immagine, è possibile specificare le seguenti informazioni.
 
-- **Titolo, testo alternativo, Descrizione, parole chiave**: i metadati dell'immagine o delle immagini. Titolo e testo alternativo sono valori obbligatori.
+- **Titolo, testo alternativo, descrizione, parole chiave**: i metadati dell'immagine o delle immagini. Titolo e testo alternativo sono valori obbligatori.
 - **Seleziona categoria**:
     - **Nessuna**: utilizzato per un'immagine o immagini di storytelling e-commerce.
     - **Prodotto, categoria, cliente, dipendente, catalogo**: usati per un'immagine o immagini omnicanale Dynamics 365 Commerce.
 - **Pubblica risorse dopo il caricamento**: quando questa casella di controllo è selezionata, l'immagine o le immagini vengono pubblicate immediatamente dopo il caricamento.
 
 > [!NOTE]
-> - Le risorse immagine con una categoria assegnata vengono inoltre automaticamente contrassegnate con la categoria come parola chiave per facilitare la ricerca di risorse di una categoria specifica.
-> - Le pagine dei dettagli del prodotto generano dinamicamente il **Testo alternativo** utilizzando il nome del prodotto, quindi cambiando il **Testo alternativo** con l'immagine di un prodotto non avrà alcun impatto sull'immagine sottoposta a rendering.
+> Le risorse immagine con una categoria assegnata vengono inoltre automaticamente contrassegnate con la categoria come parola chiave per facilitare la ricerca di risorse di una categoria specifica.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Convenzioni di denominazione per immagini omnicanale 
 
@@ -53,17 +56,9 @@ La convenzione di denominazione predefinita varia in base alla categoria:
 - Le immagini di categoria devono essere denominate "**/Categories/\{CategoryName\}.png**"
 - Le immagini dei clienti devono essere denominate "**/Customers/\{CustomerNumber\}.jpg**"
 - Le immagini dei dipendenti devono essere denominate "**/Workers/\{WorkerNumber\}.jpg**"
-- Le immagini dei prodotti devono essere denominate "**/Products/\{ProductNumber\}\_000_001.png**"
+- Le immagini dei prodotti devono essere denominate "**/Products/\{ProductNumber\}_000_001.png**"
     - 001 è la sequenza dell'immagine e può essere 001, 002, 003, 004 o 005
-- Le immagini varianti dei prodotti devono essere denominate "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - Ad esempio: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
-- Le immagini delle varianti dei prodotti con la dimensione di configurazione devono essere denominate "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
-    - Ad esempio: 93039 \^ LB8017_000_001.png
-
-> [!NOTE]
-> Per le immagini delle varianti di prodotto, se il valore della dimensione è vuoto, devono essere presenti due spazi vuoti tra gli accenti circonflessi nel nome del file.
-
-Gli esempi riportati sopra utilizzano la configurazione predefinita. Il carattere separatore e le dimensioni sono configurabili e la denominazione esatta richiesta può variare tra le distribuzioni. Un metodo per identificare l'esatta convenzione di denominazione richiesta consiste nell'utilizzare la console per sviluppatori del browser per ispezionare le richieste di immagine della variante del prodotto mentre si modificano le dimensioni del prodotto nella pagina dei dettagli del prodotto (PDP) della vetrina.
+- Le immagini varianti dei prodotti devono essere denominate "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
 
 ## <a name="upload-an-image"></a>Caricare un'immagine
 
@@ -101,6 +96,3 @@ Per caricare in blocco una cartella di immagini in Creazione di siti Web, attene
 [Personalizzare punti focali immagine](dam-custom-focal-point.md)
 
 [Caricare e fornire file statici](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

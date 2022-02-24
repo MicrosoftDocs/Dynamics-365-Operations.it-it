@@ -2,9 +2,11 @@
 title: Restrizioni per le versioni di determinazione costi per i costi standard
 description: In questo argomento vengono elencate le restrizioni che sia applicano a una versione di determinazione costi per i costi standard.
 author: AndersGirke
+manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -16,12 +18,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2028cdabde3d01de16050b38893ec9e42353ae542be7a0cd7362cf62e9315170
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5339c3c4a62b94a06cbffc200ed1e9b227d6b6af
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748789"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963790"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restrizioni per le versioni di determinazione costi per i costi standard
 
@@ -39,7 +41,8 @@ Le restrizioni seguenti aiutano a garantire la conformità ai principi di determ
 
 I dati relativi al costo dell'articolo per i costi standard possono essere copiati in un'altra versione di determinazione costi contenente costi standard o pianificati. Tali dati per i costi pianificati tuttavia non potranno essere copiati in una versione di determinazione costi contenente costi standard, in quanto le restrizioni indicate in precedenza in questo argomento non sono applicabili ai costi pianificati.
 
-## <a name="related-topics"></a>Argomenti correlati
+<a name="related-topics"></a>Argomenti correlati
+--------
 
 [Panoramica versioni di determinazione costi](costing-versions.md)
 
@@ -47,6 +50,3 @@ I dati relativi al costo dell'articolo per i costi standard possono essere copia
 
 [Eseguire le operazioni preliminari alla gestione dei costi standard per gli articoli prodotti](update-standard-costs-manufacturing-environment.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

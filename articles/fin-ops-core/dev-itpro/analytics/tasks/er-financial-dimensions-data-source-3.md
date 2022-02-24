@@ -1,10 +1,12 @@
 ---
 title: 'ER Utilizzare le dimensioni finanziarie come origine dati (Parte 3: progettare il report)'
-description: In questo argomento viene descritto come configurare un modello di Creazione di report elettronici (ER) per utilizzare le dimensioni finanziarie come origine dati per i report ER. (Parte 3)
+description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un modello per la creazione di report elettronici in modo che utilizzi dimensioni finanziarie come origine dati per i report elettronici.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605187"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684789"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Utilizzare le dimensioni finanziarie come origine dati (Parte 3: progettare il report)
 
@@ -92,7 +94,7 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 59. Fare clic su Aggiungi attributo.
 60. Nel campo Nome digitare 'Descrizione'.
 61. Fare clic su OK.
-![Albero della pagina Progettazione formati.](../media/er-financial-dimensions-guides-format1.png)
+![Pagina della progettazione delle operazioni ER](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Mappare gli elementi del report alle origini dati
 1. Fare clic sulla scheda Mapping.
@@ -141,8 +143,5 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 44. Fare clic su Associa.
 45. Fare clic su Salva.
 46. Chiudere la pagina.
-![Pagina di progettazione del formato, elementi del report mappati alle origini dati.](../media/er-financial-dimensions-guides-format2.png)
+![Pagina della progettazione delle operazioni ER](../media/er-financial-dimensions-guides-format2.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

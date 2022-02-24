@@ -1,31 +1,34 @@
 ---
 title: Identificatori di prodotto
 description: Questo argomento fornisce informazioni sui vari tipi di identificatori di prodotto e descrive come è possibile aggiungere identificatori di prodotto nei dati del prodotto.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063343"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529188"
 ---
 # <a name="product-identifiers"></a>Identificatori di prodotto
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,9 +42,9 @@ In Dynamics 365 Supply Chain Management, l'identificatore principale di un prodo
 
 In molti casi, il numero di prodotto non viene originariamente creato in Dynamics 365 Supply Chain Management. È invece associato a un prodotto in un sistema PLM (Product Lifecycle Management) o in un sistema PDM (Product Data Management). In questo caso, si utilizzano le entità di dati per importare i prodotti e le varianti prodotto. Supply Chain Management quindi utilizza i numeri in tutte le operazioni.
 
-Dopo l'implementazione di Supply Chain Management, è necessario prestare speciale attenzione alla strategia per i numeri di prodotto. Un buon sistema di numerazione migliora i flussi logici e aiuta a prevenire gli errori. Un buon identificatore di prodotto dovrebbe in genere contenere al massimo 20 caratteri, ma in genere consigliamo di utilizzare meno di 10 caratteri e di includere non più di 5 caratteri di classificazione. È anche possibile utilizzare nomi di ricerca per abilitare ricerche rapide. Un nome di ricerca è un nome aggiuntivo che rappresenta le classificazioni di un prodotto.
+Dopo l'implementazione di Supply Chain Management, è necessario prestare speciale attenzione alla strategia per i numeri di prodotto. Un buon sistema di numerazione migliora i flussi logici e aiuta a prevenire gli errori. Un buon identificatore di prodotto contiene un massimo di 15 caratteri. Idealmente, contiene meno di 10 caratteri e non include più di cinque caratteri di classificazione. È anche possibile utilizzare nomi di ricerca per abilitare ricerche rapide. Il nome di ricerca è un nome aggiuntivo che rappresenta le classificazioni di un prodotto.
 
-Quando si utilizza Microsoft Dataverse, il numero prodotto in Supply Chain Management è anche il numero prodotto in Microsoft Dataverse. Le varianti prodotto vengono sincronizzate con il Dataverse come prodotti specifici.
+Quando si utilizza Common Data Service, il numero prodotto in Supply Chain Management è anche il numero prodotto in Common Data Service. Le varianti prodotto vengono sincronizzate con il Common Data Service come prodotti specifici.
 
 ## <a name="item-number-and-product-dimensions"></a>Numero di articolo e dimensioni prodotto
 
@@ -72,7 +75,7 @@ Il nome di ricerca può inoltre contenere un ID prodotto cliente o fornitore, op
 
 Per i prodotti rilasciati, è possibile gestire i numeri articolo, i nomi e le descrizioni degli articoli utilizzati dal cliente o dal fornitore. I riferimenti sono mostrati come documenti esterni, quali ordini fornitore, ordini cliente, documenti di trasporto e fatture. Nella versione corrente di Supply Chain Management, i riferimenti esterni non sono visualizzati nelle pagine delle operazioni principali. La sola eccezione è il numero di articolo del fornitore. Questo numero viene visualizzato nella finestra di dialogo **Informazioni sul prodotto** se un fornitore predefinito viene definito per il prodotto rilasciato.
 
-È possibile gestire gli identificatori di prodotto esterni per prodotto rilasciato, variante di prodotto rilasciato, cliente, gruppo di clienti, fornitore o gruppo di fornitori.
+È possibile gestire gli identificatori di prodotto esterni per prodotto rilasciato, variante di prodotto rilasciato, cliente o gruppo di clienti oppure fornitore o gruppo di fornitori.
 
 Nella pagina **Prodotti rilasciati**, effettuare una delle seguenti operazioni.
 
@@ -84,10 +87,10 @@ Nella pagina **Descrizioni esterne articolo**, è possibile associare il numero 
 | Campo | Informazioni cliente corrispondente | Informazioni fornitore corrispondente |
 |-------|------------------------------------|----------------------------------|
 | Numero articolo esterno | Il numero di articolo del cliente | Il numero di articolo del fornitore |
-| Descrizione | Il nome del cliente associato all'articolo | Il nome del fornitore associato all'articolo |
+| descrizione | Il nome del cliente associato all'articolo | Il nome del fornitore associato all'articolo |
 | Testo esterno articolo | La descrizione dell'articolo del cliente | La descrizione dell'articolo del fornitore |
 
-Se molti clienti o fornitori utilizzano gli stessi numeri articolo (come con un'associazione di acquisti o un gruppo commercio), è possibile creare gruppi di clienti o di fornitori per semplificare la gestione delle informazioni esterne di prodotto.
+Se molti clienti o fornitori utilizzano gli stessi numeri articolo (come ad esempio nel caso di un'associazione di acquisti o di un gruppo commercio), è possibile creare gruppi di clienti o di fornitori per semplificare la gestione delle informazioni esterne di prodotto.
 
 - Per i gruppi di clienti, passare a **Vendite** &gt; **Impostazioni** &gt; **Articoli** &gt; **Descrizione esterna articolo** per creare e gestire i gruppi e i numeri articolo correlati. Per associare clienti a un gruppo, accedere a **Contabilità clienti** &gt; **Clienti** &gt; **Tutti i clienti**, quindi nella Scheda dettaglio **Impostazioni predefinite ordine cliente**, specificare un valore nel campo **Articolo - Gruppo di clienti**.
 - Per i gruppi di fornitori, passare ad **Approvvigionamento** &gt; **Impostazioni** &gt; **Gruppo descrizioni esterne articolo** per creare e gestire i gruppi e i numeri articolo correlati. Per associare fornitori a un gruppo, accedere a **Contabilità fornitori** &gt; **Fornitori** &gt; **Tutti i fornitori**, quindi nella Scheda dettaglio **Impostazioni predefinite ordine fornitore**, specificare un valore nel campo **Articolo - Gruppo di fornitori**.
@@ -106,7 +109,7 @@ Per gestire codici a barre, nella pagina **Prodotti rilasciati**, nella scheda *
 
 Nell'e-commerce è fondamentale che tutte le parti parlino una lingua comune e facciano riferimento ai prodotti utilizzando un set di identificatori comune. Di conseguenza, alcuni settori si basano sul [GTIN](https://www.gs1.org/id-keys/gtin), ovvero un sistema di numeri di articolo globale facilitato da GS1.
 
-Si consiglia di conservare il GTIN come codice a barre. È tuttavia possibile mantenerlo nella pagina **Articolo - GTIN**. Per aprire questa pagina, nella pagina **Prodotti rilasciati**, nella scheda **Gestione articoli**, nel gruppo **Magazzino**, selezionare **Codici GTIN**. Il numero GTIN non viene gestito come numero globale. È invece gestito dalla persona giuridica.
+Si consiglia di conservare il GTIN come codice a barre. È tuttavia possibile mantenerlo nella pagina **Articolo - GTIN**. Per aprire questa pagina, nella pagina **Prodotti rilasciati**, nella scheda **Gestione articoli**, nel gruppo **Magazzino**, selezionare **Codici GTIN**. Si noti che il numero GTIN non viene gestito come numero globale. È invece gestito dalla persona giuridica.
 
 In Supply Chain Management, si definiscono le varianti di imballaggio nelle operazioni di magazzino definendo unità di misura specifiche. Ad esempio, un articolo può essere archiviato in pezzi, in aggregazioni di sei unità, in cassetti da 18 unità o in pallet completi. Un'unità di misura specifica verrà definita per ognuna di queste varianti di imballaggio. Poiché il GTIN è in genere correlato all'unità di imballaggio di un prodotto, la pagina **Articolo - GTIN** consente di gestire più codici GTIN per prodotto e per unità di misura. Non è tuttavia possibile utilizzare lo stesso codice GTIN più volte per articoli diversi o varianti prodotto diverse di una persona giuridica.
 
@@ -122,14 +125,14 @@ Purtroppo, non esiste alcuna funzionalità standard che consente di cercare prod
 
 | Nome entità | Importare gli identificatori | Esportare gli identificatori | Commenti |
 |-------------|--------------------|--------------------|----------|
-| Prodotti V2 | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto | A seconda delle impostazioni dell'entità e della sequenza numerica del numero prodotto, il numero prodotto può essere creato automaticamente al momento dell'importazione. |
-| Varianti prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto | A seconda del modello di nomenclatura di prodotto, il numero prodotto può essere creato automaticamente al momento dell'importazione. È tuttavia possibile importare qualsiasi numero prodotto univoco e tale numero prodotto non deve necessariamente seguire la struttura dei modelli di nomenclatura di prodotto. |
-| Traduzioni prodotto | Nome di prodotto, Descrizione prodotto | Nome di prodotto, Descrizione prodotto | Questa entità sovrascrive qualsiasi lingua. Quando il nome o la descrizione della lingua madre di una persona giuridica viene sovrascritto, il nome e la descrizione del prodotto vengono modificati. |
+| Prodotti V2 | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto | A seconda delle impostazioni dell'entità e della sequenza numerica del numero prodotto, il numero prodotto può essere creato automaticamente al momento dell'importazione. |
+| Varianti prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto | A seconda del modello di nomenclatura di prodotto, il numero prodotto può essere creato automaticamente al momento dell'importazione. È tuttavia possibile importare qualsiasi numero prodotto univoco e tale numero prodotto non deve necessariamente seguire la struttura dei modelli di nomenclatura di prodotto. |
+| Traduzioni prodotto | Nome di prodotto, descrizione prodotto | Nome di prodotto, descrizione prodotto | Questa entità sovrascrive qualsiasi lingua. Da notare che quando il nome o la descrizione della lingua madre di una persona giuridica viene sovrascritto, il nome e la descrizione del prodotto vengono modificati. |
 | Creazione prodotti rilasciati V2 | Numero di articolo, numero di prodotto, nome di ricerca articolo| Numero di articolo, numero di prodotto, nome di ricerca articolo, nome di ricerca prodotto, nome di prodotto | L'uso di questa entità può essere problematico quando le sequenze numeriche sono utilizzate durante la creazione di nuovi prodotti rilasciati. Sia la sequenza numerica **Numero articolo** che la sequenza numerica **Numero prodotto** hanno un impatto. Tuttavia, la sequenza numerica **Numero articolo** è per persona giuridica, mentre la sequenza numerica **Numero prodotto** è globale. Pertanto, non si consiglia di utilizzare la sequenza numerica **Numero articolo** nella distribuzione di nuovi prodotti rilasciati. Ovviamente, quando l'entità è utilizzata per rilasciare un prodotto esistente, il numero di prodotto deve essere indicato nell'entità. Per ulteriori informazioni, vedere la sezione relativa alle sequenze numeriche dell'articolo e del prodotto in questo argomento. |
-| Varianti prodotti rilasciati | Numero di articolo, dimensioni prodotto, numero di prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto, dimensioni prodotto | Come l'entità **Varianti prodotto**, questa entità può essere utilizzata per creare nuovi prodotti che seguono il modello di nomenclatura dei prodotti o utilizzano i propri numeri di prodotto per la variante. |
-| Descrizione esterna dell'articolo per i clienti | Numero articolo cliente, nome articolo cliente, Descrizione cliente, conto cliente | Numero articolo cliente, nome articolo cliente, Descrizione cliente, conto cliente | È possibile aggregare un gruppo di clienti (ad esempio un'associazione di acquirenti) in un unico gruppo utilizzando l'entità **Gruppo di clienti per le descrizioni esterne dell'articolo**. |
-| Descrizione esterna dell'articolo per i fornitori | Numero di articolo del fornitore, nome di articolo del fornitore, Descrizione fornitore, conto fornitore | Numero di articolo del fornitore, nome di articolo del fornitore, Descrizione fornitore, conto fornitore | È possibile aggregare un gruppo di fornitori (ad esempio un'associazione di vendita o un'organizzazione di settore) in un unico gruppo utilizzando l'entità **Gruppi di fornitori per le descrizioni esterne dell'articolo**. |
-| Codice a barre articolo | Codice a barre | Codice a barre | Al momento dell'importazione, è necessario fare riferimento a un'impostazione di codice a barre definita nel sistema di destinazione. I riferimenti di codici a barre importati vengono convalidati in base a quella impostazione di codice a barre e vengono rifiutati se i codici a barre non soddisfano i requisiti definiti in quella impostazione. |
+| Varianti prodotti rilasciati | Numero di articolo, dimensioni prodotto, numero di prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, descrizione prodotto, dimensioni prodotto | Come l'entità **Varianti prodotto**, questa entità può essere utilizzata per creare nuovi prodotti che seguono il modello di nomenclatura dei prodotti o utilizzano i propri numeri di prodotto per la variante. |
+| Descrizione esterna dell'articolo per i clienti | Numero articolo cliente, nome articolo cliente, descrizione cliente, conto cliente | Numero articolo cliente, nome articolo cliente, descrizione cliente, conto cliente | È possibile aggregare un gruppo di clienti (ad esempio un'associazione di acquirenti) in un unico gruppo utilizzando l'entità **Gruppo di clienti per le descrizioni esterne dell'articolo**. |
+| Descrizione esterna dell'articolo per i fornitori | Numero di articolo del fornitore, nome di articolo del fornitore, descrizione fornitore, conto fornitore | Numero di articolo del fornitore, nome di articolo del fornitore, descrizione fornitore, conto fornitore | È possibile aggregare un gruppo di fornitori (ad esempio un'associazione di vendita o un'organizzazione di settore) in un unico gruppo utilizzando l'entità **Gruppi di fornitori per le descrizioni esterne dell'articolo**. |
+| Codice a barre articolo | Codice a barre | Codice a barre | Tenere presente che, al momento dell'importazione, è necessario fare riferimento a un'impostazione di codice a barre definita nel sistema di destinazione. I riferimenti di codici a barre importati vengono convalidati in base a quella impostazione di codice a barre e vengono rifiutati se i codici a barre non soddisfano i requisiti definiti in quella impostazione. |
 | Codici esterni per prodotti rilasciati | Codice esterno | Codice esterno, classi di codice esterno, numero articolo | I codici esterni vengono definiti in base alla persona giuridica. Per l'importazione, è necessario fare riferimento a una classe di codice definita. Importare le classi di codice utilizzando l'entità **Classi di codici esterni per prodotti rilasciati**. |
 | Codici esterni per varianti di prodotto rilasciate | Codice esterno | Codice esterno, classi di codice esterno, numero articolo, dimensioni prodotto | I codici esterni vengono definiti in base alla persona giuridica. Per l'importazione, è necessario fare riferimento a una classe di codice definita. Importare le classi di codice utilizzando l'entità **Classi di codici esterni per prodotti rilasciati**. Questa entità fa riferimento a varianti prodotto per numero di articolo e dimensioni prodotto. |
 | Codici esterni per varianti prodotto rilasciate in base all'identificatore del numero prodotto | Codice esterno | Codice esterno, classi di codice esterno, numero prodotto | I codici esterni vengono definiti in base alla persona giuridica. Per l'importazione, è necessario fare riferimento a una classe di codice definita. Importare le classi di codice utilizzando l'entità **Classi di codici esterni per prodotti rilasciati**. Questa entità fa riferimento a varianti prodotto per numero di prodotto della variante. (Dalla prossima versione principale) |
@@ -158,13 +161,13 @@ Nella seguente tabella viene fornita una panoramica dei risultati di importazion
 | Sequenza numerica Numero prodotto | Sequenza numerica del numero di articolo | Mappatura di un numero articolo | Mappatura di un numero di prodotto | Risultato dell'importazione dell'entità | Risultato della creazione manuale | Conclusioni |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
 | Manuale = No | Manuale = No | Nessun mapping | Nessun mapping | I numeri di prodotto utilizzano la sequenza numerica **Numero prodotto**. I numeri di articolo utilizzano la sequenza numerica **Numero articolo**. | I numeri di prodotto utilizzano la sequenza numerica **Numero prodotto**. I numeri di articolo utilizzano la sequenza numerica **Numero articolo**. | Con questa configurazione, i numeri dei prodotti seguiranno la sequenza dei numeri dei prodotti e i numeri degli articoli seguiranno la sequenza dei numeri degli articoli. Tuttavia, questa configurazione non funzionerà se è necessario importare più di un articolo (riga). |
-| Manuale = No | Manuale = Sì | Generazione automatica | Nessun mapping | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero articolo**. | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo seguono la sequenza numerica del prodotto. Questo è l'approccio consigliato per importare prodotti in blocco con l'entità di dati Creazione prodotti rilasciati V2.<br><br>È possibile utilizzare questo approccio solo durante l'importazione in blocco di articoli (più righe) e quando non si creano articoli tramite l'interfaccia utente. Se è necessario importare in blocco e creare prodotti tramite l'interfaccia utente, utilizzare invece la procedura nella riga successiva di questa tabella. Per passare dall'utilizzo di un approccio di importazione in blocco all'utilizzo dell'interfaccia utente per importare e creare manualmente prodotti, è necessario modificare manualmente il campo **Numero successivo** nella sequenza numerica del numero articolo in modo che corrisponda al **Numero successivo** nella sequenza numerica del numero prodotto. Successivamente è possibile passare all'approccio nella riga successiva di questa tabella. |
-| Manuale = No | Manuale = Sì | Nessun mapping | Nessun mapping | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo usano la sequenza numerica del prodotto. Tuttavia, questa configurazione non funzionerà se è necessario importare più di un articolo (riga).<br><br>È necessario utilizzare questo approccio se è necessario importare prodotti utilizzando le entità (è possibile importare solo una riga alla volta) e creare prodotti tramite l'interfaccia utente. |
+| Manuale = No | Manuale = Sì | Generazione automatica | Nessun mapping | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero articolo**. | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo seguono la sequenza numerica del prodotto. Questo è l'approccio consigliato per importare prodotti in blocco con l'entità di dati Creazione prodotti rilasciati V2. |
+| Manuale = No | Manuale = Sì | Nessun mapping | Nessun mapping | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo utilizzano la sequenza numerica **Numero prodotto**. | Sia i numeri prodotto che i numeri articolo usano la sequenza numerica del prodotto. Tuttavia, questa configurazione non funzionerà se è necessario importare più di un articolo (riga). |
 | Manuale = Sì | Non applicabile | Non applicabile | Generazione automatica | Viene visualizzato il seguente messaggio di errore: "Impossibile rilevare la sequenza numerica.". | A seconda della sequenza numerica di **Numero articolo** | Questa impostazione non è supportata per l'importazione. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificatore entità prodotto (Esportare tutti gli identificatori di prodotto)
 
-Il modello di identificatore entità prodotto è stato creato per consentire il provisioning della versione 1.0 del Dataverse con tutti gli identificatori utilizzati per fare riferimento a un prodotto. Per semplificare questa attività, tutti gli identificatori vengono aggregati in una tabella di identificatori globale in modo che possano essere esportati come modello. Tenere presente che questa versione del Dataverse non utilizza il modello degli identificatori del prodotto. Di conseguenza, l'entità **Entità dell'identificatore Common Data Service dell'entità prodotto** e questo processo sono poco utilizzati e saranno probabilmente modificati in futuro.
+Il modello di identificatore entità prodotto è stato creato per consentire il provisioning della versione 1.0 del CDS con tutti gli identificatori utilizzati per fare riferimento a un prodotto. Per semplificare questa attività, tutti gli identificatori vengono aggregati in una tabella di identificatori globale in modo che possano essere esportati come modello. Tenere presente che questa versione del CDS non utilizza il modello degli identificatori del prodotto. Di conseguenza, l'entità **Entità dell'identificatore Common Data Service dell'entità prodotto** e questo processo sono poco utilizzati e saranno probabilmente modificati in futuro.
 
 La tabella degli identificatori di prodotto è una tabella globale generata a partire da tutte le tabelle di riferimenti della persona giuridica principale mediante un processo batch ricorrente. È necessario selezionare una persona giuridica e una gerarchia di categorie di prodotti come definizione dell'ambito complessivo della rappresentazione generale prodotto. La generazione della tabella di identificatori di prodotto globale è limitata ai prodotti rilasciati alla persona giuridica selezionata e ai prodotti che sono membri della gerarchia di prodotto selezionato per il ruolo **Common Data Service** nella gerarchia delle categorie di prodotto.
 
@@ -172,11 +175,11 @@ Questo processo presuppone che i dati di rappresentazione generale prodotto sian
 
 Per configurare l'ambiente, attenersi a questa procedura.
 
-1. Selezionare la gerarchia di categorie per il Dataverse. Nella pagina **Associazioni del ruolo gerarchia di categorie**, se nessuna gerarchia è associata al ruolo **Common data service**, è necessario creare una nuova associazione. Selezionare il ruolo **Common Data Service** e quindi associare la gerarchia di categorie che rappresenta il portafoglio di prodotti che deve essere sincronizzato con Dataverse.
+1. Selezionare la gerarchia di categorie per il CDS. Nella pagina **Associazioni del ruolo gerarchia di categorie**, se nessuna gerarchia è associata al ruolo **Common data service**, è necessario creare una nuova associazione. Selezionare il ruolo **Common Data Service** e quindi associare la gerarchia di categorie che rappresenta il portafoglio di prodotti che deve essere sincronizzato con CDS.
 2. Selezionare la persona giuridica per i dati globali di rappresentazione generale prodotto. Nella pagina **Parametri di gestione informazioni sul prodotto**, nella scheda **Attributi del prodotto**, selezionare la società generale in cui gli identificatori dell'articolo e del prodotto vengono gestiti principalmente.
 3. Definire i tipi di codice identificatore e i codici che devono essere esportati. Passare a **Gestione informazioni sul prodotto** &gt; **Impostazioni** &gt; **Codici identificatori entità prodotto**. Per generare i tipi di codice identificatore, selezionare **Genera codici**. Una voce tipo di codice viene generata per ogni tipo per l'identificatore che viene trovato nella persona giuridica selezionata.
 
-    Per i codici a barre, un tipo di codice viene generato per ogni impostazione di codice a barre. Per i codici esterni, viene generato un tipo di codice per ogni classe di codice esterno.
+    Tenere presente che, per i codici a barre, un tipo di codice viene generato per ogni impostazione di codice a barre. Per i codici esterni, viene generato un tipo di codice per ogni classe di codice esterno.
 
     È ora possibile gestire l'elenco di tipi di codice. È possibile modificare codice, nome e descrizione. È anche possibile eliminare tipi di codice. I tipi di codice che vengono eliminati non verranno utilizzati per popolare le tabelle di identificatori entità prodotto globali.
 
@@ -187,6 +190,3 @@ Per configurare l'ambiente, attenersi a questa procedura.
 ## <a name="related-topic"></a>Argomento correlato
 
 [Ricerca di prodotti e varianti prodotto durante la registrazione ordine](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

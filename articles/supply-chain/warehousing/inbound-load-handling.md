@@ -1,38 +1,39 @@
 ---
 title: Gestione magazzino dei carichi in entrata per gli ordini fornitore
 description: Questo argomento descrive il processo di gestione del magazzino per i carichi in entrata per gli ordini fornitore.
-author: Mirzaab
+author: omulvad
+manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778061"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431474"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
-[!include [banner](../includes/banner.md)]
-
 Questo argomento descrive il processo di gestione del magazzino per i carichi in entrata per gli ordini fornitore.
 
-Per ciascun carico in entrata, il sistema deve già includere un ordine cliente correlato e può contenere anche una specifica del carico e/o un piano di trasporto correlati. Per ulteriori informazioni su come creare e gestire i carichi in entrata, vedere [Processo aziendale: pianificazione del trasporto per carichi in entrata](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Per ciascun carico in entrata, il sistema deve già includere un ordine cliente correlato e può contenere anche una specifica del carico e/o un piano di trasporto correlati. Per ulteriori informazioni su come creare e gestire i carichi in entrata, vedere [Processo aziendale: pianificazione del trasporto per carichi in entrata](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Panoramica: come vengono creati, registrati e ricevuti i carichi in entrata
 
 La seguente illustrazione mostra il flusso tipico per la gestione di carichi in entrata, che hanno quantità di ordini fornitore quando arrivano al magazzino.
 
-![Il processo di gestione del carico in entrata.](media/inbound-process.png "Il processo di gestione del carico in entrata")
+![Il processo di gestione del carico in entrata](media/inbound-process.png "Il processo di gestione del carico in entrata")
 
 1. **Il fornitore conferma l'ordine fornitore.**
 
@@ -40,11 +41,11 @@ La seguente illustrazione mostra il flusso tipico per la gestione di carichi in 
 
 1. **Viene creato un record di carico in entrata per pianificare l'arrivo e il suo contenuto.**
 
-    Il record di carico in entrata rappresenta una spedizione fornitore di uno o più ordini fornitore. Il carico arriva al magazzino come unità di trasporto fisica (ad esempio un camion). Il record di carico in entrata viene utilizzato a fini della pianificazione e consente al coordinatore della logistica di tenere traccia dell'avanzamento del carico dal fornitore. Viene anche utilizzato per registrare le quantità della riga ordine e gestire i progressi attraverso le operazioni di magazzino, come i lavori di arrivo e di stoccaggio. I carichi possono essere creati automaticamente o manualmente e possono essere basati su un ordine fornitore o un avviso di spedizione avanzato (ASN) dal fornitore. Per ulteriori informazioni, vedere [Creare o modificare un carico in entrata](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Il record di carico in entrata rappresenta una spedizione fornitore di uno o più ordini fornitore. Il carico arriva al magazzino come unità di trasporto fisica (ad esempio un camion). Il record di carico in entrata viene utilizzato a fini della pianificazione e consente al coordinatore della logistica di tenere traccia dell'avanzamento del carico dal fornitore. Viene anche utilizzato per registrare le quantità della riga ordine e gestire i progressi attraverso le operazioni di magazzino, come i lavori di arrivo e di stoccaggio. I carichi possono essere creati automaticamente o manualmente e possono essere basati su un ordine fornitore o un avviso di spedizione avanzato (ASN) dal fornitore. Per ulteriori informazioni, vedere [Creare o modificare un carico in entrata](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Il fornitore conferma la spedizione del carico.**
 
-    Quando il fornitore spedisce il carico, il coordinatore della logistica presso il magazzino ricevente conferma la spedizione del carico. Se la società ricevente utilizza il modulo **Gestione trasporto** la conferma della spedizione in entrata attiverà altri processi di gestione dei carichi associati ai carichi in entrata. Per ulteriori informazioni, vedere [Confermare un carico per la spedizione](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Quando il fornitore spedisce il carico, il coordinatore della logistica presso il magazzino ricevente conferma la spedizione del carico. Se la società ricevente utilizza il modulo **Gestione trasporto** la conferma della spedizione in entrata attiverà altri processi di gestione dei carichi associati ai carichi in entrata. Per ulteriori informazioni, vedere [Confermare un carico per la spedizione](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Il carico arriva al magazzino e i lavoratori registrano le quantità.**
 
@@ -56,7 +57,7 @@ La seguente illustrazione mostra il flusso tipico per la gestione di carichi in 
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Registrare le quantità degli articoli che arrivano su un carico in entrata
 
-Microsoft Dynamics 365 Supply Chain Management supporta diversi approcci operativi per la registrazione dell'arrivo dei prodotti ordinati. Pertanto, è possibile configurare il sistema in modo che corrisponda ai requisiti aziendali specifici. Questa sezione descrive come registrare le quantità di articoli in entrata utilizzando un dispositivo mobile quando nel sistema è attivata la gestione avanzata del magazzino. Tuttavia, esiste un flusso alternativo basato sull'utilizzo del giornale di registrazione arrivi articoli anziché di un dispositivo mobile. Per ulteriori informazioni riguardo questo flusso, vedere [Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi articoli](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management supporta diversi approcci operativi per la registrazione dell'arrivo dei prodotti ordinati. Pertanto, è possibile configurare il sistema in modo che corrisponda ai requisiti aziendali specifici. Questa sezione descrive come registrare le quantità di articoli in entrata utilizzando un dispositivo mobile quando nel sistema è attivata la gestione avanzata del magazzino. Tuttavia, esiste un flusso alternativo basato sull'utilizzo del giornale di registrazione degli articoli anziché di un dispositivo mobile. Per ulteriori informazioni riguardo questo flusso, vedere [Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi](tasks/register-items-advanced-warehousing.md).
 
 Quando un carico in entrata arriva per la prima volta in magazzino, gli addetti al magazzino devono registrare le quantità degli articoli incluse nella spedizione. In genere, è preferibile utilizzare scanner portatili. Questo flusso di lavoro è disponibile solo se nel sistema sono presenti i seguenti elementi:
 
@@ -66,7 +67,7 @@ Quando un carico in entrata arriva per la prima volta in magazzino, gli addetti 
 
 - **Un menu del dispositivo mobile configurato per supportare la ricezione del carico**
 
-    L'[app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md) per dispositivi mobili supporta i seguenti processi di creazione del lavoro:
+    L'[app di magazzino](install-configure-warehousing-app.md) per dispositivi mobili supporta i seguenti processi di creazione del lavoro:
 
     - Ricezione articoli di carico
     - Ricevimento e stoccaggio articoli di carico
@@ -99,7 +100,7 @@ Dopo che il lavoratore ha completato questi passaggi, il sistema effettua i segu
 Si noti che gli addetti al magazzino possono registrare l'entrata di un ordine fornitore con uno o più carichi associati senza utilizzare il processo _Ricezione articoli di carico_. Sono disponibili i seguenti metodi:
 
 - **Sul dispositivo mobile:** Utilizzare i processi _Ricevimento riga ordine acquisto_ e _Ricevimento e stoccaggio riga ordine acquisto_. (Se esiste più di un carico per la quantità della riga ordine fornitore, il lavoratore non può utilizzare il processo _Ricevimento riga ordine fornitore_. Al lavoratore verrà invece richiesto di utilizzare l'azione del dispositivo associata al processo _Ricezione articoli di carico_.)
-- **Nel client:** utilizzare il giornale di registrazione arrivi articoli.
+- **Nel client:** Utilizzare il giornale di registrazione dell'articolo.
 - **Nel client:** Utilizzare l'azione di **Registrazione** a cui è possibile accedere dalla riga ordine fornitore.
 
 > [!NOTE]
@@ -126,7 +127,7 @@ Utilizzare il campo **Ricezione carico in eccesso** per le voci di menu del disp
 
 Nella seguente tabella vengono illustrate le opzioni disponibili per il campo **Ricezione carico in eccesso**.
 
-| Valore | Descrizione |
+| Valore | descrizione |
 |---|---|
 | Consenti | I lavoratori possono registrare la ricezione di quantità che superano la quantità non registrata rimanente per un carico selezionato, ma solo se la quantità totale registrata non supera la quantità della riga dell'ordine fornitore associata al carico (dopo la correzione per la percentuale di consegna in eccesso). |
 | Blocca | <p>I lavoratori non possono registrare la ricezione di quantità che superano la quantità non registrata rimanente per un carico selezionato (dopo la correzione per la percentuale di consegna in eccesso). Un lavoratore che tenta di registrare le entrate riceverà un errore e non sarà in grado di continuare fino a quando non registra una quantità uguale o inferiore alla quantità di carico non registrata rimanente.</p><p>Per impostazione predefinita, il valore della percentuale di consegna in eccesso su una riga di carico viene copiato dalla riga dell'ordine fornitore associata. Quando il campo <b>Ricezione carico in eccesso</b> è impostato su <i>Blocca</i>, il sistema utilizza il valore percentuale di consegna in eccesso per calcolare la quantità totale che può essere registrata per una riga di carico. Tuttavia, tale valore può essere sovrascritto per singoli carichi, se necessario. Questo comportamento diventa rilevante durante la ricezione di flussi in cui una parte o tutta la quantità in eccesso che rappresenta la percentuale di consegna in eccesso della riga ordine viene distribuita in modo sproporzionato su più carichi. Ecco uno scenario di esempio:</p><ul><li>Esistono più carichi per una riga ordine fornitore.</li><li>La riga dell'ordine fornitore ha una percentuale di consegna in eccesso superiore a 0 (zero).</li><li>Le quantità sono già state registrate rispetto a uno o più carichi senza tenere conto della percentuale di consegna in eccesso.</li><li>La quantità di consegna in eccesso arriva all'ultimo carico.</li></ul><p>In questo scenario, un dispositivo mobile può essere utilizzato per registrare la quantità in eccesso per l'ultimo carico solo se il supervisore del magazzino aumenta la percentuale di consegna in eccesso per la relativa riga di carico dal valore predefinito a un valore sufficientemente grande da consentire la registrazione della consegna in eccesso completa con il carico finale.</p> |
@@ -196,7 +197,7 @@ Quando l'utente seleziona **OK** per confermare la registrazione dell'entrata de
 
 Il campo **Consenti l'entrata di più prodotti per carico** consente alle società di scegliere criteri di ricezione del carico in entrata. A seconda dei flussi operativi, le aziende possono scegliere di consentire o negare più registrazioni di entrate di prodotti per lo stesso carico. Consigliamo al responsabile della logistica di impostare il campo **Consenti l'entrata di più prodotti per carico** su uno dei seguenti valori:
 
-- **No** - Selezionare questo valore se gli addetti al ricevimento del magazzino registrano sempre tutte le quantità degli ordini che arrivano con ciascun carico entro un periodo di tempo designato. Se le quantità di carico non sono registrate, il sistema presume che non siano arrivate o che non fossero presenti nel carico e pertanto non considerate come parte del carico. La registrazione dell'entrata del prodotto eseguita da un carico utilizza lo stesso presupposto. Oltre all'entrata del prodotto, che aggiorna tutte le quantità registrate (la funzione principale), dichiara il carico completo e chiuso per ulteriore elaborazione. In questo caso, tutte le quantità delle righe di carico vengono automaticamente aggiornate alle quantità registrate, le righe di carico che non hanno quantità registrate vengono eliminate e lo stato del carico viene modificato in _Ricevuto_.
+- **No** - Selezionare questo valore se gli addetti al ricevimento del magazzino registrano sempre tutte le quantità degli ordini che arrivano con ciascun carico entro un periodo di tempo designato. Se le quantità di carico non sono registrate, il sistema presume che non siano arrivate o che non fossero presenti nel carico e pertanto non considerate come parte del carico. La registrazione dell'entrata del prodotto eseguita da un carico utilizza lo stesso presupposto. Oltre all'entrata del prodotto, che aggiorna tutte le quantità registrate (la funzione principale), dichiara il carico completo e chiuso per ulteriore elaborazione. In questo caso, tutte le quantità delle righe di carico vengono automaticamente aggiornate alle quantità registrate, le righe di carico che non hanno quantità registrate vengono eliminate e lo stato del carico viene modificato in _Ricevuto_. 
 - **Sì** - Selezionare questo valore se gli addetti al ricevimento del magazzino richiedono più tempo per registrare tutte le quantità sul carico che è arrivato, ma nel frattempo devono registrare all'entrata prodotti le quantità che sono già state registrate. In questo caso, il responsabile della logistica vorrà mantenere il carico aperto anche dopo l'esecuzione del processo di registrazione dell'entrata del prodotto, in modo tale che le quantità di carico rimanenti possano essere registrate e che l'entrata del prodotto venga aggiornata nel registro su base continuativa.
 - **Richiesta** - Selezionare questo valore se le procedure di ricezione del carico sono miste ed è necessaria una decisione ogni volta che viene eseguita la registrazione dell'entrata del prodotto.
 
@@ -205,7 +206,7 @@ Nella tabella seguente sono riepilogati gli effetti dell'impostazione **Consenti
 | Consenti l'entrata di più prodotti per carico | Quantità di carico | Stato carico | Nota |
 |---|---|---|---|
 | Quando questo campo non è disponibile (versioni precedenti a 10.0.10) | <p>La quantità di carico è impostata in modo che sia uguale alla quantità registrata.</p><p>Se la quantità di carico viene aggiornata su 0 (zero), ossia non è stata effettuata alcuna registrazione, la riga di carico viene eliminata.</p><p>Se non ci sono righe di carico sul carico, il carico viene eliminato.</p> | _Ricevuti_ | Se esistono più carichi per la quantità registrata della riga ordine, solo lo stato del carico da cui è stata registrata l'entrata viene aggiornato su _Ricevuto_. |
-| No | <p>La quantità di carico è impostata in modo che sia uguale alla quantità registrata associata all'ID carico.</p><p>Se non viene registrato alcun ID carico per la transazione di inventario, il comportamento corrisponde a quello delle versioni precedenti alla 10.0.10.</p> | _Ricevuti_ | |
+| Nessuna | <p>La quantità di carico è impostata in modo che sia uguale alla quantità registrata associata all'ID carico.</p><p>Se non viene registrato alcun ID carico per la transazione di inventario, il comportamento corrisponde a quello delle versioni precedenti alla 10.0.10.</p> | _Ricevuti_ | |
 | Sì | Nessun aggiornamento | _Ricevuto_, se la quantità di carico totale registrata è uguale o superiore alla quantità di carico | |
 | Sì | Nessun aggiornamento | _Spedito_ o _In corso_, se la quantità di carico totale registrata è minore della quantità di carico | |
 
@@ -267,7 +268,7 @@ Questi scenari richiedono la funzionalità _Registrazioni entrata di più prodot
 
 1. Aprire l'area di lavoro **Gestione funzionalità**. (Per i dettagli completi su come trovare e utilizzare questo spazio di lavoro, vedere [Panoramica sulla gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Verificare che la funzionalità _Associa transazioni di inventario dell'ordine fornitore al carico_ sia attivata. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo. Tuttavia, la funzionalità viene ancora elencata in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nel modo seguente:
+1. Attivare la funzionalità _Associa transazioni di inventario dell'ordine fornitore al carico_, elencata nel modo seguente:
 
     - **Modulo:** _Gestione magazzino_
     - **Nome della funzione:** _Associa transazioni di inventario dell'ordine fornitore al carico_
@@ -285,7 +286,7 @@ Per elaborare questi scenari utilizzando i record e i valori di esempio specific
 
 Prima che gli addetti al ricevimento del magazzino possano utilizzare un dispositivo mobile per registrare l'inventario in entrata collegato a un carico, è necessario creare una voce di menu del dispositivo mobile a tale scopo.
 
-In questa sezione, si crea una voce di menu del dispositivo mobile e la si aggiunge a un menu esistente. Un addetto al magazzino può quindi selezionare la voce di menu nell'app per dispositivi mobili Gestione magazzino.
+In questa sezione, si crea una voce di menu del dispositivo mobile e la si aggiunge a un menu esistente. Un addetto al magazzino può quindi selezionare la voce di menu nell'app di magazzino.
 
 1. Andare a **Gestione magazzino \> Impostazione \> Dispositivo mobile \> Voci di menu del dispositivo mobile** e verificare che il menu del dispositivo mobile includa una voce di menu con le seguenti impostazioni:
 
@@ -295,7 +296,7 @@ In questa sezione, si crea una voce di menu del dispositivo mobile e la si aggiu
 
     È possibile lasciare tutte le altre impostazioni sui loro valori predefiniti.
 
-    ![Impostazioni delle voci di menu del dispositivo mobile.](media/inbound-mobile-menu-items.png "Impostazioni delle voci di menu del dispositivo mobile")
+    ![Impostazioni delle voci di menu del dispositivo mobile](media/inbound-mobile-menu-items.png "Impostazioni delle voci di menu del dispositivo mobile")
 
     Per ulteriori informazioni su come configurare il menu dei dispositivi mobili, vedere [Configurare i dispositivi mobili per il lavoro di magazzino](configure-mobile-devices-warehouse.md).
 
@@ -330,7 +331,7 @@ In questa procedura, verrà creato manualmente un ordine fornitore e un carico a
     - Nella scheda dettaglio **Carica**, il campo **Stato del carico** è impostato su _Aperto_.
     - Nella sezione **Righe di carico**, c'è una sola riga in cui il campo **Quantità** è impostato su _10_ e il campo **Quantità di lavoro creata** è impostato su _0_ (zero).
 
-    ![Dettagli carico.](media/inbound-load-details.png "Dettagli carico")
+    ![Dettagli carico](media/inbound-load-details.png "Dettagli carico")
 
 1. Nel riquadro azioni, nella scheda **Spedizione e ricezione** selezionare **Conferma \> Spedizione in entrata**. Si noti che lo **Stato del carico** è cambiato in _Spedito_.
 1. Prendere nota del valore **ID carico**, in modo da poterlo utilizzare nella procedura successiva.
@@ -477,6 +478,3 @@ Per questo scenario, l'addetto al ricevimento registrerà in entrata una quantit
     - **Quantità** - Immettere _7_, che è la quantità rimanente che il fornitore è autorizzato a consegnare come parte della quantità totale dell'ordine fornitore di 12 (dove 10 è la quantità dell'ordine originale e 2 è la quantità di consegna in eccesso consentita del 20 percento). Tenere a mente che 5 pezzi sono già stati registrati rispetto al primo carico.
 
 Il secondo carico è stato ora aggiornato con la quantità di 7 e può essere aggiornato all'entrata del prodotto in base a questa quantità.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

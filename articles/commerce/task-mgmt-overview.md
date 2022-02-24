@@ -2,30 +2,35 @@
 title: Panoramica della gestione attività
 description: Questo argomento fornisce una panoramica della gestione delle attività per responsabili e addetti in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985395"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413520"
 ---
 # <a name="task-management-overview"></a>Panoramica della gestione attività
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica della gestione delle attività per responsabili e addetti in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 In un ambiente di vendita al dettaglio, è sempre difficile essere certi che le attività vengano eseguite dalla persona giusta al momento giusto. I rivenditori devono essere in grado di informare gli addetti sulle attività imminenti e fornire il contesto aziendale correlato, in modo che le attività possano essere completate correttamente e in tempo.
 
@@ -37,7 +42,7 @@ I responsabili del punto vendita possono utilizzare la gestione delle attività 
 
 La seguente illustrazione mostra l'architettura concettuale della gestione delle attività in Commerce.
 
-![Architettura concettuale di gestione delle attività.](media/Tasks-management-conceptual-architecture.png)
+![Architettura concettuale di gestione delle attività](media/Tasks-management-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -48,6 +53,3 @@ La seguente illustrazione mostra l'architettura concettuale della gestione delle
 [Assegnare elenchi di attività a punti vendita o dipendenti](task-mgmt-assign-lists.md)
 
 [Gestione delle attività in POS](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

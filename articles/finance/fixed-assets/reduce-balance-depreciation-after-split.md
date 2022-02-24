@@ -2,25 +2,28 @@
 title: Ridurre l'ammortamento a saldi decrescenti dopo una divisione
 description: In questo argomento viene descritto il metodo utilizzato in Cespiti per calcolare l'ammortamento dopo la divisione di un cespite utilizzando il metodo di riduzione del saldo.
 author: moaamer
+manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737703"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650669"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Ridurre l'ammortamento a saldi decrescenti dopo una divisione
 
@@ -37,11 +40,8 @@ Ad esempio, sono in vigore le seguenti condizioni:
 - L'ammortamento del primo anno fiscale è pari a $18.000, l'ammortamento mensile è pari a $150 e il cespite viene quindi ammortizzato fino a novembre 2019, per un importo di $738,75.
 - A novembre 2019, l'80% del cespite viene diviso in un altro cespite.
 
-[![Ridurre l'ammortamento a saldi decrescenti dopo una divisione.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Ridurre l'ammortamento a saldi decrescenti dopo una divisione](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 L'importo da ammortizzare per il cespite originale è $1.822,25. Questo importo è uguale al valore contabile netto prima della registrazione della transazione di divisione ($ 9.111,25), più la rettifica di acquisizione generata durante la registrazione della transazione di divisione (- $ 8.000), più la rettifica di ammortamento generata durante la transazione di divisione ($ 711). Pertanto, l'ammortamento per il secondo anno è (1.822,25 × 18 percento) ÷ 12 = $27,33.
 
 L'importo da ammortizzare per il nuovo cespite nel primo anno è (8.000 × 18 percento) ÷ 12 = $120.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

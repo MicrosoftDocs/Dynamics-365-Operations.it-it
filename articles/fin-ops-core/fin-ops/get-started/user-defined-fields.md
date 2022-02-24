@@ -2,9 +2,11 @@
 title: Creare e utilizzare campi personalizzati
 description: In questo argomento viene illustrato come creare i campi personalizzati tramite l'interfaccia utente per adattare l'applicazione alle esigenze aziendali.
 author: jasongre
-ms.date: 05/24/2021
+manager: AnnBe
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -13,23 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 2ab1c402d99c1d9b7d7dc06e64c93fe43c5a1e9f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071187"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798120"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Creare e utilizzare campi personalizzati
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Sebbene sia fornito un ampio set di campi pronti all'uso per la gestione di un'ampia gamma di processi aziendali, a volte è necessario che un'azienda tenga traccia di ulteriori informazioni nel sistema. Mentre i programmatori possono essere utilizzati per aggiungere quei campi come estensioni negli strumenti di sviluppo, la funzione dei campi personalizzati consente di aggiungere campi direttamente dall'interfaccia utente, permettendo in tal modo di adattare l'applicazione in modo alla propria azienda utilizzando il browser Web.
 
-*Solo gli utenti con autorizzazioni speciali hanno accesso a questa funzione.*
+La possibilità di aggiungere campi personalizzati è disponibile nell'aggiornamento piattaforma 13 e successivi. Solo gli utenti con autorizzazioni speciali hanno accesso a questa funzione.
 
 Questo video spiega quanto sia semplice aggiungere un campo personalizzato a una pagina: [Aggiunta di campi personalizzati](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -49,9 +48,8 @@ Nei passaggi seguenti viene descritto il processo per creare un campo personaliz
     Se non è presente il pulsante **Crea nuovo campo**, significa che non si dispone delle autorizzazioni necessarie per utilizzare questa funzionalità.
 
 7. Nella finestra di dialogo **Crea nuovo campo** immettere le seguenti informazioni:
-   
-    1. Selezionare la tabella di database in cui questo campo deve essere aggiunto. Tenere presente che solo le tabelle che supportano i campi personalizzati verranno visualizzate nell'elenco a discesa. Vedere la sezione riportata di seguito per i dettagli tecnici sulle tabelle supportate.
 
+    1. Selezionare la tabella di database in cui questo campo deve essere aggiunto. Tenere presente che solo le tabelle che supportano i campi personalizzati verranno visualizzate nell'elenco a discesa. Vedere la sezione riportata di seguito per i dettagli tecnici sulle tabelle supportate.
     2. Selezionare il tipo di dati per il nuovo campo. I tipi di dati disponibili sono casella di controllo, data, ora, numero decimale, elenco di selezione e testo.
 
         - Se si sceglie il tipo di dati in formato testo, è possibile specificare anche la lunghezza massima del testo che può essere immesso in questo campo.
@@ -64,15 +62,11 @@ Nei passaggi seguenti viene descritto il processo per creare un campo personaliz
 10. Fare clic su **Inserisci** per inserire i campi contrassegnati nell'area selezionata del modulo.
 11. **Facoltativo**: abilitare la modalità **Sposta** dalla barra degli strumenti di personalizzazione per spostare i nuovi campi nella posizione desiderata nell'area selezionata. Per ulteriori informazioni su come utilizzare le varie funzionalità di personalizzazione per ottimizzare un modulo per l'utilizzo personale, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 
-> [!WARNING]
-> La possibilità di inserire valori in un campo personalizzato aggiunto a una pagina dipende dal fatto che la tabella associata al campo personalizzato sia modificabile o di sola lettura. Quando la tabella associata è di sola lettura, anche tutti i campi collegati a quella tabella, inclusi i campi personalizzati, saranno di sola lettura.
-
-
 ## <a name="sharing-custom-fields-with-other-users"></a>Condividere campi personalizzati con altri utenti
 
-Dopo aver creato un campo personalizzato e averlo esposto in una pagina, è possibile fornire la visualizzazione di questa pagina aggiornata che include il nuovo campo agli altri utenti nel sistema. Questo può essere realizzato in due modi diversi utilizzando le capacità di personalizzazione del prodotto:
+Dopo aver creato un campo personalizzato e averlo esposto in un modulo, è possibile fornire la visualizzazione di questa pagina aggiornata che include il nuovo campo agli altri utenti nel sistema. Questo può essere realizzato in due modi diversi utilizzando le capacità di personalizzazione del prodotto:
 
-- Il percorso consigliato è quello di **pubblicare una [visualizzazione salvata](saved-views.md)** con il campo personalizzato aggiunto alla pagina al gruppo di utenti appropriato. Se la funzione delle visualizzazioni salvate non è abilitata, l'amministratore di sistema può applicare la personalizzazione agli utenti desiderati dal modulo di personalizzazione. Per ulteriori informazioni, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
+- La modalità consigliata è attraverso l'amministratore di sistema, che può inviare una personalizzazione a tutti gli utenti o a un sottoinsieme di utenti. Per ulteriori informazioni sulla, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 - In alternativa, è possibile esportare le modifiche (dette *personalizzazioni*), inviarle a uno o più utenti e chiedere a ciascuno di questi utenti di importare le modifiche. L' opzione **Gestisci** sulla barra degli strumenti di personalizzazione consente di esportare e importare le personalizzazioni.
 
 ## <a name="managing-custom-fields"></a>Gestione di campi personalizzati
@@ -143,10 +137,6 @@ In alcuni rari casi, si potrebbe decidere che un campo personalizzato non è pi�
 
 ## <a name="appendix"></a>Appendice
 
-### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>Perché non posso inserire un valore nel mio campo personalizzato? 
-
-Se non è possibile digitare un valore nel campo personalizzato quando la pagina è in modalità Modifica, ciò potrebbe essere dovuto al fatto che la tabella a cui è stato aggiunto il campo è attualmente di sola lettura. Tutti i campi in una tabella diventano di sola lettura solo se la tabella di supporto è attualmente configurata come sola lettura nella pagina.   
-
 ### <a name="who-can-create-custom-fields"></a>Chi può creare campi personalizzati?
 
 Come salvaguardia per il sistema, solo gli amministratori di sistema possono creare campi personalizzati per impostazione predefinita. Tuttavia, gli utenti esperti, power user, che l'organizzazione ritiene necessari possono ottenere da un amministratore di sistema i diritti per creare campi personalizzati utilizzando il ruolo di sicurezza **Power user personalizzazione runtime**. Gli utenti senza questo ruolo di sicurezza non potranno creare campi personalizzati, ma potranno comunque vedere e interagire con i campi personalizzati aggiunti da altri utenti nel sistema.
@@ -172,6 +162,3 @@ Per motivi tecnici e di prestazioni, solo le tabelle che soddisfano le seguenti 
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>È possibile fare riferimento a campi personalizzati dagli strumenti di sviluppo?  
 
 I campi personalizzati possono essere gestiti solo attraverso l'interfaccia utente e non è possibile farvi riferimento dal codice. 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

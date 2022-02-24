@@ -2,9 +2,11 @@
 title: Creare gruppi di autorizzazioni POS
 description: In questo argomento viene illustrato come creare un gruppo di autorizzazioni POS.
 author: scott-tucker
+manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac03e1bfb7a2463b31feca0a4303c182a00ad259
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762298"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964822"
 ---
 # <a name="create-pos-permission-groups"></a>Creare gruppi di autorizzazioni POS
 
@@ -45,6 +47,3 @@ In questo argomento viene illustrato come creare un gruppo di autorizzazioni POS
 16. Nel campo Gruppo di autorizzazioni POS immettere o selezionare un valore. Tutti i lavoratori nelle posizioni per questo processo utilizzeranno le impostazioni del gruppo di autorizzazioni POS a meno che le autorizzazioni POS del lavoratore siano state ignorate a livello di posizione.  
 17. Selezionare **Salva**. Dopo aver salvato le modifiche, è necessario eseguire la programmazione di distribuzione del personale per applicare le modifiche ai canali.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

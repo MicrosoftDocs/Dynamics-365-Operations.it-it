@@ -2,9 +2,11 @@
 title: Registrare giornali periodici
 description: I giornali di registrazione periodici vengono talvolta denominati giornali ricorrenti poiché l'importo, il testo e altre informazioni vengono ripetuti ogni volta che il giornale di registrazione periodico viene recuperato.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 214a7618bbec1d30212f7c53b7086ee0d5da4e6b5de40d11d3bf16399b812597
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763120"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968506"
 ---
 # <a name="post-periodic-journals"></a>Registrare giornali periodici
 
@@ -55,6 +57,3 @@ I giornali di registrazione periodici vengono talvolta denominati giornali ricor
 27. Nel campo **Numero giornale di registrazione periodico** immettere o selezionare un valore.
 28. Nell'elenco fare clic sul collegamento nella riga selezionata.
 29. Fare clic su **OK**. Il giornale di registrazione periodico può ora essere rivisto, approvato o registrato a seconda del fabbisogno e dell'impostazione.   
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

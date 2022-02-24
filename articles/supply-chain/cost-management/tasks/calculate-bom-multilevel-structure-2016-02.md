@@ -1,25 +1,28 @@
 ---
 title: Calcolare una DBA utilizzando una struttura a più livelli (febbraio 2016)
 description: In questa procedura viene illustrato come calcolare il costo di un prodotto finito utilizzando la esplosione multilivello basata sulla scheda di determinazione costi.
-author: AndersGirke
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78a8bb51925489015098fc0ce5552107255bc3e4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0f0ec28a20d32fc38cd6e77a76a02fc9544db3ca
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572123"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431227"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>Calcolare una DBA utilizzando una struttura a più livelli (febbraio 2016)
 
@@ -46,6 +49,3 @@ In questa procedura viene illustrato come calcolare il costo di un prodotto fini
 11. Chiudere la pagina.
 12. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,31 +1,36 @@
 ---
 title: Modulo Contenitore
-description: Questo argomento tratta i moduli Contenitore e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
+description: In questo argomento vengono descritti i moduli Contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715442"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413392"
 ---
-# <a name="container-module"></a>Modulo contenitore
+# <a name="container-module"></a>Modulo Contenitore
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento tratta i moduli Contenitore e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
+In questo argomento vengono descritti i moduli Contenitore e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Un modulo Contenitore è un modulo che include altri moduli. Lo scopo principale di un modulo Contenitore è definire, mediante le proprietà impostate per lo stesso, il layout dei moduli che include. Ad esempio, tali moduli possono apparire affiancati in un layout a due, tre, quattro o sei colonne. Possono anche essere limitati alla larghezza del contenitore, oppure riempire tutto lo schermo. Un'intestazione può inoltre essere aggiunta a ogni modulo Contenitore.
 
@@ -42,7 +47,7 @@ Sono supportati tre moduli Contenitore: contenitore, contenitore con 2 slot e co
 
 L'immagine seguente mostra un esempio di un modulo Contenitore che contiene un modulo Sequenza in Creazione di siti Web Commerce. In questo esempio, la proprietà **Larghezza** del modulo Contenitore è impostata su **Riempi schermo**.
 
-![Esempio di modulo Contenitore.](./media/ecommerce-container.PNG)
+![Esempio di modulo Contenitore](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Proprietà del modulo Contenitore
 
@@ -137,6 +142,3 @@ Per aggiungere un modulo Contenitore a una nuova pagina e impostare le propriet�
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

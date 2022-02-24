@@ -2,13 +2,16 @@
 title: Configurazioni visive dell'interfaccia utente POS
 description: Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze di Dynamics 365 Commerce POS.
 author: boycezhu
+manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765882"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4413588"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurazioni visive dell'interfaccia utente POS
 
@@ -32,15 +35,15 @@ L'interfaccia utente (UI) del punto vendita (POS) di Microsoft Dynamics 365 Comm
 
 La figura di seguito mostra le relazioni tra le varie entità che costituiscono gli aspetti configurabili dell'interfaccia utente POS.
 
-![Entità layout schermo POS.](../commerce/media/POS-layout-configuration-entities-diagram.png)
+![Entità layout schermo POS](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Profilo visivo
 
 I profili visivi vengono assegnati ai registratori di cassa e specificano gli elementi visivi specifici del registratore e condivisi tra gli utenti. Ogni utente che accede al registro vede lo stesso tema, layout, colori e immagini.
 
-![Schermo di benvenuto di POS con tema chiaro.](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![Schermo di benvenuto di POS con tema chiaro](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![Schermo di transazione di POS con tema scuro.](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![Schermo di transazione di POS con tema scuro](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **Numero di profilo**: il numero di profilo costituisce l'identificatore univoco per il profilo visivo.
 - **Descrizione**: è possibile specificare un nome significativo che contribuirà a identificare il profilo corretto per la specifica situazione.
@@ -65,15 +68,15 @@ Devi eseguire il processo di pianificazione distribuzione **1090** (**Registri**
 
 Le configurazioni del layout dello schermo determinano le azioni, il contenuto e il posizionamento dei controlli dell'interfaccia utente sulla schermata POS **Benvenuti** e **Transazione** .
 
-![Vista layout schermo POS.](../commerce/media/POS-Screen-Layout-View.png)
+![Vista layout schermo POS](../commerce/media/POS-Screen-Layout-View.png)
 
 - **Schermata di benvenuto**: nella maggior parte dei casi, la schermata di benvenuto corrisponde alla pagina che gli utenti visualizzano al momento dell'accesso al POS. La schermata di benvenuto può essere costituita da un'immagine del marchio e da griglie dei pulsanti che consentono di accedere alle operazioni del POS. In genere, le operazioni non specifiche alla transazione corrente vengono posizionate in questa schermata.
 
-    ![Schermata di benvenuto POS.](../commerce/media/POS-Welcome-Screen.png)
+    ![Schermata di benvenuto POS](../commerce/media/POS-Welcome-Screen.png)
 
 - **Schermata transazione**: la schermata **transazione** è lo schermo principale nel POS per l'elaborazione di transazioni di vendita e ordini. Il contenuto e il layout sono configurati mediante la progettazione layout dello schermo.
 
-    ![Schermata transazione POS.](../commerce/media/POS-Transaction-Screen.png)
+    ![Schermata transazione POS](../commerce/media/POS-Transaction-Screen.png)
 
 - **Schermata di avvio predefinita**: alcuni rivenditori preferiscono che il cassiere passi direttamente alla schermata delle **transazioni** dopo l'accesso. La **schermata di inizio predefinita** consente di specificare lo schermo predefinito che viene visualizzato dopo l'accesso per ogni layout dello schermo.
 
@@ -89,7 +92,7 @@ La maggior parte degli aspetti dell'interfaccia utente POS è responsiva e il la
 
 All'avvio, l'applicazione POS sceglierà automaticamente la dimensione del layout più vicina configurata per il dispositivo. Un layout dello schermo può inoltre contenere le configurazioni per modalità orizzontali e verticali e sia per dispositivi a schermo intero che compatti. Di conseguenza, un utente può essere assegnato a un singolo layout schermo utilizzabile con diverse dimensioni e fattori modulo nel punto vendita.
 
-![Dimensioni layout POS.](../commerce/media/POS-Screen-Layout-Sizes.png)
+![Dimensioni layout POS](../commerce/media/POS-Screen-Layout-Sizes.png)
 
 - **Nome** - È possibile immettere un nome significativo per identificare le dimensioni dello schermo.
 - **Tipo di layout** - Retail POS può visualizzare la propria interfaccia utente in diversi modi per fornire la migliore esperienza utente su un dato dispositivo.
@@ -102,7 +105,7 @@ All'avvio, l'applicazione POS sceglierà automaticamente la dimensione del layou
 > [!TIP]
 > È possibile ottenere la dimensione del layout necessaria per uno schermo di Retail POS vedendo la risoluzione nell'app. Avviare il POS e passare a **Impostazioni \> Informazioni sulla sessione**. In POS verrà visualizzato il layout dello schermo attualmente caricato, la dimensione del layout e la risoluzione della finestra nell'app.
 
-![Pagina delle informazioni della sessione POS che visualizza il layout dello schermo attualmente caricato, la dimensione del layout e la risoluzione della finestra nell'app.](../commerce/media/POS-Session-Information.png)
+![Pagina delle informazioni della sessione POS che visualizza il layout dello schermo attualmente caricato, la dimensione del layout e la risoluzione della finestra nell'app](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Griglie dei pulsanti
 
@@ -112,10 +115,7 @@ Nei layout POS completi il posizionamento delle griglie dei pulsanti è specific
 
 Nei layout POS compatti le griglie dei pulsanti sono automaticamente disposte dall'alto verso il basso, dal numero più basso (schermata Transazione 1) al numero più alto. È possibile accedervi dal menu **Azioni**.
 
-![Griglie dei pulsanti layout compatti.](../commerce/media/Compact-View-Button-Grids.png)
-
-> [!NOTE]
-> Le dimensioni dei pulsanti nella finestra di progettazione verranno ridimensionate per adattarsi alle dimensioni della finestra, pertanto potrebbero non riflettere accuratamente i pulsanti effettivi visualizzati in POS. Per simulare al meglio il layout della griglia dei pulsanti, adatta le finestre di progettazione alle stesse dimensioni del POS.
+![Griglie dei pulsanti layout compatti](../commerce/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Immagini
 
@@ -132,7 +132,7 @@ Lo screen layout designer permette di configurare vari aspetti della schermata *
 
 Il Designer completo del layout consente agli utenti di trascinare i controlli dell'interfaccia utente sullo schermo **Transazione** di POS e configurare le impostazioni di tali controlli.
 
-![Designer layout POS completo (modalità orizzontale).](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
+![Designer layout POS completo (modalità orizzontale)](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
 - **Layout di importazione/layout di esportazione** - L'utente può esportare e importare i design del layout dello schermo di POS come file XML, in modo da poter condividerli e riutilizzarli facilmente negli ambienti. È importante che si importino i design del layout per le dimensioni appropriate del layout. In caso contrario, gli elementi dell'interfaccia utente potrebbero non adattarsi correttamente sullo schermo.
 - **Orizzontale/verticale** - Se il dispositivo POS consente agli utenti di passare da modalità orizzontale a verticale e viceversa, è necessario definire un layout dello schermo per ciascuna modalità. POS rileva automaticamente la rotazione dello schermo e mostra il layout corretto.
@@ -140,11 +140,11 @@ Il Designer completo del layout consente agli utenti di trascinare i controlli d
 - **Zoom di progettazione** - La vista del designer può essere ingrandita o ridotta per vedere meglio il contenuto sullo schermo di POS. Questa funzionalità è utile se la risoluzione dello schermo su POS differisce notevolmente dalla risoluzione dello schermo utilizzato nel designer.
 - **Mostra/nascondi barra di navigazione** - Per i layout completi di POS è possibile specificare se la barra di navigazione sinistra verrà visualizzata sullo schermo **Transazione**. Questa funzionalità è utile per i display con una risoluzione inferiore. Per impostare la visibilità, fare clic con il pulsante destro del mouse sulla barra di navigazione nel designer e selezionare o deselezionare la casella di controllo **Sempre visibile**. Se la barra di navigazione è nascosta, gli utenti POS possono comunque accedervi utilizzando il menu in alto a sinistra.
 
-    ![Mostra/nascondi la barra di spostamento.](../commerce/media/Navigation-Bar.PNG)
+    ![Mostra/nascondi la barra di spostamento](../commerce/media/Navigation-Bar.PNG)
 
 - **Comandi di POS** - Il designer di layout di POS supporta i comandi seguenti. È possibile configurare molti controlli facendo clic con il pulsante destro del mouse e utilizzando il menu di scelta rapida.
 
-    ![Controlli dell'interfaccia utente di POS.](../commerce/media/POS-UI-Controls.png)
+    ![Controlli dell'interfaccia utente di POS](../commerce/media/POS-UI-Controls.png)
 
     - **Tastierino numerico** - Il tastierino numerico è il meccanismo principale per l'input utente sulla schermata **Transazione** di POS. È possibile configurare il controllo in modo che venga mostrato il tastierino numerico completo. Questa opzione è ideale per i dispositivi touchscreen. In alternativa, è possibile configurarlo in modo da visualizzare solo il campo di immissione. In questo caso, per l'immissione viene utilizzata una tastiera fisica. Le impostazioni del tastierino numerico sono disponibili solo nei layout completi. Per i layout compatti, il tastierino numerico completo è sempre visualizzato sulla schermata **Transazione**.
     - **Pannello totali**: è possibile configurare il pannello totali in una o due colonne per visualizzare i valori come ad esempio conteggio righe, importo di sconto, addebiti, subtotale e imposta. I layout compatti supportano solo una singola colonna.
@@ -159,13 +159,13 @@ Il Designer completo del layout consente agli utenti di trascinare i controlli d
 
 Come la progettazione di layout completo, la progettazione di layout compatto consente di configurare il layout dello schermo del POS per i telefoni e i tablet di piccole dimensioni. Tuttavia, in questo caso, il layout stesso è fisso. È possibile configurare i controlli nel layout facendo clic con il pulsante destro del mouse e utilizzando il menu di scelta rapida. Tuttavia, non è possibile utilizzare le operazioni di trascinamento per il contenuto aggiuntivo.
 
-![Progettazione layout compatto.](../commerce/media/Compact-Layout-Designer.png)
+![Progettazione layout compatto](../commerce/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Progettazione griglia dei pulsanti
 
 La progettazione della griglia dei pulsanti consente di configurare le griglie dei pulsanti che possono essere utilizzate nella schermata di benvenuto del POS e nella schermata **Transazione** sia per layout completi che compatti. La stessa griglia di pulsanti può essere utilizzata per i layout e i tipi di layout. Come la progettazione del layout dello schermo, la griglia di pulsanti utilizza la tecnologia di distribuzione ClickOnce per scaricare, installare e avviare la versione più recente dell'applicazione ogni volta che gli utenti vi accedono. Assicurarsi di verificare i requisiti del browser di ClickOnce. Alcuni browser, ad esempio Google Chrome, richiedono estensioni.
 
-![Progettazione griglia dei pulsanti.](../commerce/media/Button-Grid-Designer.png)
+![Progettazione griglia dei pulsanti](../commerce/media/Button-Grid-Designer.png)
 
 - **Nuovo pulsante** - Fare clic per aggiungere un nuovo pulsante nella griglia. Per impostazione predefinita, i nuovi pulsanti vengono visualizzati nell'angolo in alto a sinistra della griglia. Tuttavia, è possibile organizzare i pulsanti trascinandoli nel layout.
 
@@ -178,7 +178,7 @@ La progettazione della griglia dei pulsanti consente di configurare le griglie d
     > [!IMPORTANT]
     > Alcune impostazioni della griglia dei pulsanti sono applicabili solo a Enterprise POS, non a Modern POS o Cloud POS.
 
-    ![Proprietà dei pulsanti della griglia dei pulsanti.](../commerce/media/Button-grid-button-properties.png)
+    ![Proprietà dei pulsanti della griglia dei pulsanti](../commerce/media/Button-grid-button-properties.png)
 
     - **Azione** - Nell'elenco delle operazioni POS applicabili, selezionare l'operazione che viene richiamata quando si fa clic sul pulsante nel POS.
 
@@ -190,7 +190,7 @@ La progettazione della griglia dei pulsanti consente di configurare le griglie d
     - **Descrizione comando** – Specificare il testo aggiuntivo della Guida che viene visualizzato quando gli utenti si spostano con il mouse sul pulsante.
     - **Dimensione in colonne/Dimensione in righe** – Può essere specificata l'altezza e la larghezza del pulsante.
 
-        ![Dimensioni dei pulsanti di POS nelle righe e colonne.](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+        ![Dimensioni dei pulsanti di POS nelle righe e colonne](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
     - **Carattere personalizzato** – Quando si seleziona la casella di controllo **Abilita tipo di carattere personalizzato per POS**, è possibile specificare un font diverso da quello di sistema predefinito per il POS.
     - **Tema personalizzato** - Per impostazione predefinita, i pulsanti POS utilizzano il colore d'accento del profilo visivo. Quando si seleziona la casella di controllo **Utilizzare il contenuto personalizzato**, è possibile specificare i colori aggiuntivi.
@@ -200,11 +200,8 @@ La progettazione della griglia dei pulsanti consente di configurare le griglie d
 
     - **Immagine pulsante** - I pulsanti possono includere immagini o icone. Scegliere tra le immagini disponibili specificate **Retail e Commerce \> Impostazione canale \> Impostazione di POS \> POS \> Immagini**.
 
-![Griglia dei pulsanti di esempio in POS.](../commerce/media/Example-Button-Grid-In-POS.png)
+![Griglia dei pulsanti di esempio in POS](../commerce/media/Example-Button-Grid-In-POS.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Installare lo strumento di progettazione layout di POS di Retail](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

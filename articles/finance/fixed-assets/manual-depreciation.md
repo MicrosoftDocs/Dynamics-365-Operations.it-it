@@ -1,10 +1,12 @@
 ---
 title: Ammortamento manuale
 description: Questo articolo fornisce una panoramica del metodo di ammortamento manuale.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 228e6c94042942a26793eb0bebc1186dd4767e7f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674829"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969031"
 ---
 # <a name="manual-depreciation"></a>Ammortamento manuale
 
@@ -30,11 +32,11 @@ Questo articolo fornisce una panoramica del metodo di ammortamento manuale.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Manuale** nel campo **Metodo** della pagina **Profili di ammortamento**, l'ammortamento dei cespiti assegnati a questo profilo viene determinato dalla percentuale immessa per ciascun intervallo nell'anno di calendario. Gli intervalli per cui si impostano percentuali vengono registrati in base al valore selezionato nel campo **Frequenza periodo** della scheda dettaglio **Generale** nella pagina **Profili di ammortamento**. È possibile selezionare i seguenti valori:
 
-- Annuale
-- Mensile
-- Trimestrale
-- Semestrale
-- Giornaliero
+-   Annuale
+-   Mensile
+-   Trimestrale
+-   Semestrale
+-   Giornaliero
 
 Dopo che si seleziona la frequenza del periodo, fare clic su **Programmi manuali** e impostare le percentuali per ciascun intervallo. I programmi manuali e gli intervalli di registrazione consentono di definire la quota di ammortamento, come illustrato negli esempi più avanti in questo argomento. L'ammortamento manuale viene sempre calcolato come una percentuale del prezzo di acquisizione. Con l'ammortamento manuale, non è necessario che il totale delle percentuali immesse negli intervalli dell'ammortamento ammonti al 100%. Ammortamento manuale è un metodo di ammortamento flessibile spesso utilizzato per definire un profilo di ammortamento straordinario nella pagina **Libri**, quale un ammortamento non periodico per scopi speciali (ad esempio fiscali).
 
@@ -73,6 +75,3 @@ Non è necessario che il totale delle percentuali per tutti gli intervalli ammon
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

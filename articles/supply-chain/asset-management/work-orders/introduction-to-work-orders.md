@@ -1,26 +1,28 @@
 ---
 title: Introduzione agli ordini di lavoro
 description: Questo argomento fornisce una panoramica degli ordini di lavoro in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754706"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021882"
 ---
 # <a name="introduction-to-work-orders"></a>Introduzione agli ordini di lavoro
 
@@ -51,7 +53,7 @@ Selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti g
 
 Nella figura seguente è illustrato un esempio della pagina di elenco **Tutti gli ordini di lavoro**.
 
-![Figura 1.](media/01-work-orders.png)
+![Figura 1](media/01-work-orders.png)
 
 Per visualizzare un elenco di ordini di lavoro attivi, selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro**. 
 
@@ -69,7 +71,7 @@ Di seguito sono riportati alcuni metodi di utilizzo della pagina **Tutti gli ord
 
 Nella figura seguente è illustrato un esempio della visualizzazione dettagli **Tutti gli ordini di lavoro**.
 
-![Figura 2.](media/02-work-orders.png)
+![Figura 2](media/02-work-orders.png)
 
 
 I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguente vengono brevemente descritte i pulsanti correlati a Gestione cespiti:
@@ -80,7 +82,7 @@ I pulsanti del riquadro azioni sono organizzati in schede. Nella tabella seguent
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Modifica                            | Modifica l'ordine di lavoro selezionato.                                                                                                                                                                                                                                           |
 | Nuovi                             | Crea un nuovo ordine di lavoro.                                                                                                                                                                                                                                                  |
-| Elimina                          | Elimina l'ordine di lavoro selezionato.                                                                                                                                                                                                                                         |
+| Canc                          | Elimina l'ordine di lavoro selezionato.                                                                                                                                                                                                                                         |
 | Pool di ordini di lavoro                 | Aggiunge l'ordine di lavoro selezionato a un pool di ordini di lavoro o lo rimuove dal pool di ordini di lavoro.                                                                                                                                                                                           |
 | Rettifica                          | Modifica le informazioni su data di inizio e di fine previste, livello di servizio, addetto alla manutenzione responsabile o gruppo di addetti alla manutenzione responsabile negli ordini di lavoro selezionati.                                                                                                                                     |
 | Ordine di lavoro correlato              | Crea un nuovo ordine di lavoro correlato al processo di ordine di lavoro selezionato. È utile se si desidera registrare ordini di lavoro principali e secondari.                                                                                                                              |
@@ -116,6 +118,3 @@ I pulsanti della scheda **Ordine di lavoro** del gruppo **Progetto** del riquadr
 >[!NOTE]
 >Per includere le previsioni create in un ordine di lavoro quando si esegue la programmazione generale, utilizzare il modello previsionale selezionato nel modulo **Parametri di gestione cespiti**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

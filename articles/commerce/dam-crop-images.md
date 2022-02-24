@@ -1,13 +1,16 @@
 ---
-title: Tagliare immagini
-description: In questo argomento viene descritto come tagliare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+title: Ritagliare immagini
+description: In questo argomento viene descritto come ritagliare le immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cb6049a1d98b7286658403b15a071f6f1389f725a9a7a146aab55d43796be60b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8f52c22a57d465ce1c2bedac6e8f13db3e856c0
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744512"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594480"
 ---
-# <a name="crop-images"></a>Tagliare immagini
+# <a name="crop-images"></a>Ritagliare immagini
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come tagliare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+In questo argomento viene descritto come ritagliare le immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 La libreria multimediale di Creazione di siti Web Commerce consente di ritagliare le immagini per ottimizzarle per diversi tipi di riquadri di visualizzazione e finestre.
 
@@ -61,6 +66,3 @@ Al termine del ritaglio personalizzato, le modifiche alle immagini avranno effet
 [Personalizzare punti focali immagine](dam-custom-focal-point.md)
 
 [Caricare e fornire file statici](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,33 +1,31 @@
 ---
 title: Impostare le frequenze pagamenti
 description: Microsoft Dynamics 365 Human Resources utilizza frequenze di pagamento per calcolare la retribuzione benefit annuale, determinare l'importo del premio di benefit che un dipendente paga ogni periodo retributivo e definire la frequenza del pagamento per i fornitori.
-author: twheeloc
-ms.date: 08/24/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ee21f24b2da8501888ac3c0a8b9a35c24785aa4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a5d562b64a161891bf34b0dfa94fbf68325e21b5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069582"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419223"
 ---
 # <a name="set-up-payment-frequencies"></a>Impostare le frequenze pagamenti
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources utilizza frequenze di pagamento per calcolare la retribuzione benefit annuale, determinare l'importo del premio di benefit che un dipendente paga ogni periodo retributivo e definire la frequenza del pagamento per i fornitori.
 
@@ -58,6 +56,3 @@ I campi dei fattori di conversione identificano il fattore di conversione dalla 
    | **Fattore di conversione oraria** | Il fattore di conversione annuale per la frequenza di pagamento. Ad esempio, il fattore di conversione annuale per la frequenza di retribuzione mensile è: </br></br>(12 pagamenti mensili/2080 ore) = 0,005769
 
 4. Selezionare **Salva**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Reimpostare numeri di ricevuta
 description: Questo argomento descrive come reimpostare i numeri di ricevuta utilizzati per varie azioni a una determinata data (ad esempio, l'anno fiscale o l'anno di calendario).
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733871"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413388"
 ---
 # <a name="reset-receipt-numbers"></a>Reimpostare i numeri di ricevuta 
 
@@ -55,7 +58,7 @@ Per attivare la reimpostazione, effettuare le seguenti operazioni.
 1. Nel campo **Reimposta tipo di ricevuta**, selezionare **Una sola volta** o **Ogni anno**.
 1. Selezionare **OK**.
 
-![Selezionare la data di azzeramento delle ricevute.](media/Enable_receipt_reset.png "Selezionare la data di azzeramento delle ricevute")
+![Selezionare la data di azzeramento delle ricevute](media/Enable_receipt_reset.png "Selezionare la data di azzeramento delle ricevute")
 
 Dopo aver selezionato una data, questa appare nella colonna **Data di azzeramento numero di ricevuta successiva**. La data di azzeramento è applicabile a tutti i tipi di transazioni di ricevuta. Pertanto, la sequenza del numero di ricevuta verrà reimpostata per tutti i tipi di ricevuta.
 
@@ -65,6 +68,3 @@ Alla data di azzeramento, il numero di ricevuta viene reimpostato per la prima t
 
 > [!NOTE]
 > A seconda della data di azzeramento selezionata e del formato della ricevuta, è possibile che si abbiano numeri di ricevuta duplicati. Sebbene il sistema POS sia in grado di gestire queste situazioni, queste aumentano la quantità di tempo necessaria per elaborare i resi poiché gli addetti alle vendite devono scegliere tra le ricevute duplicate. Altre complicazioni legate alla pulizia dei dati possono verificarsi se le ricevute duplicate non erano una conseguenza pianificata. Pertanto, si consiglia di utilizzare caratteri di data dinamici (ad esempio, **ggg**, **MM**, **DD** e **AA**) per evitare numeri di ricevuta duplicati dopo una reimpostazione.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

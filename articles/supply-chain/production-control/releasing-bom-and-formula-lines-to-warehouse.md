@@ -2,24 +2,27 @@
 title: Rilascio delle righe di formula e DBA nel magazzino
 description: In questo argomento viene descritto il processo per il rilascio di materie prime per righe DBA e righe formula nel magazzino.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731225"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431493"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
 
@@ -61,7 +64,7 @@ Nella query per il processo batch **Rilascio automatico di righe di DBA e di for
 
 Nella figura seguente viene illustrato un ordine di produzione con due processi, 10 e 20, relativi all'assemblaggio e all'imballaggio per l'ordine di produzione. Ogni processo viene impostato per il consumo di una quantità di materiale. In questa illustrazione, l'intervallo temporale di rilascio indicato dalla freccia verde sotto la riga del tempo è uguale al numero di giorni specificato nel criterio **(LessThanDate())**. Ad esempio, **(LessThanDate(2))** indica che il processo deve cercare le quantità non rilasciate solo all'interno di un intervallo temporale dei due giorni.
 
-![Esempio di un ordine di produzione con due processi batch.](media/bach-job-setup.PNG)
+![Esempio di un ordine di produzione con due processi batch](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Rilasciare materiale per numero operazione o proporzionalmente alla quantità di prodotti finiti
 
@@ -78,7 +81,7 @@ Per controllare le operazioni per cui il materiale deve essere rilasciato, utili
 
 Nella figura seguente viene illustrato un ordine di produzione con due operazioni, 10 e 20. In questo esempio, se si limita il rilascio all'operazione 10, solo il materiale M9203 verrà rilasciato.
 
-![Esempio di rilascio di materiali per numero di operazione.](media/two-operations.PNG)
+![Esempio di rilascio di materiali per numero di operazione](media/two-operations.PNG)
 
 Per una rapida dimostrazione su come rilasciare materiale in proporzione alla quantità di prodotti finiti, quardare questo breve video su YouTube sui [miglioramenti al processo di rilascio di ordini alla produzione](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 
@@ -95,6 +98,3 @@ Per una rapida dimostrazione su come rilasciare materiale in proporzione alla qu
     Le unità disponibili sono definite nell'ID gruppo di sequenze unità del prodotto finito.
 
     Ad esempio, un prodotto finito ha la seguente conversione di unità tra chilogrammi (kg) e pallet (PL): PL 1 = 100 kg. Per creare un ordine di produzione per 10.000 kg del prodotto finito, è possibile rilasciare le materie prime per il numero di pallet che si pianifica di produrre. Selezionare **PL** come unità quindi selezionare un numero corrispondente nel campo **Quantità**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Applicare i filtri a un piano
 description: In questo argomento viene descritto come usare i filtri in un piano quando è utilizzata la funzionalità di ottimizzazione di pianificazione.
 author: ChristianRytt
+manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 0e65d04b7b5261ffe72e67ef5321967f7af0ca20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729029"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970383"
 ---
 # <a name="apply-filters-to-a-plan"></a>Applicare i filtri a un piano
 
@@ -43,7 +45,7 @@ Viene impostato un filtro del piano che include gli articoli A, B e C. Le esecuz
 - **Filtro del runtime che include tutti gli articoli (filtro vuoto):** Gli articoli A, B e C sono inclusi nell'esecuzione della pianificazione e l'output di pianificazione precedente per gli articoli A e B viene sovrascritto.
 
 > [!NOTE]
-> Se imposti un filtro del piano sul piano selezionato come **Piano generale dinamico attuale** nella pagina **Parametri di pianificazione generale**, la funzionalità del piano principale dinamico sarà limitata agli elementi filtrati. Ad esempio, se i requisiti netti vengono aggiornati per un articolo che non fa parte del filtro del piano, non verrà generato alcun risultato.
+> È necessario evitare di impostare un filtro del piano sul piano selezionato come **Piano generale dinamico corrente** nella pagina **Parametri di pianificazione generale**. In caso contrario, la funzionalità del piano principale dinamico è limitata agli articoli filtrati. Ad esempio, se i requisiti netti vengono aggiornati per un articolo che non fa parte del filtro del piano, non verrà generato alcun risultato.
 
 ## <a name="related-resources"></a>Risorse correlate
 
@@ -56,6 +58,3 @@ Viene impostato un filtro del piano che include gli articoli A, B e C. Le esecuz
 [Visualizzare la cronologia del piano e i log di pianificazione](plan-history-logs.md)
 
 [Annullare un processo di pianificazione](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

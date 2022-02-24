@@ -2,9 +2,11 @@
 title: Eseguire e monitorare un esperimento
 description: In questo argomento viene descritto come eseguire e monitorare un esperimento in un servizio di terze parti. Descrive inoltre come apportare modifiche alle varianti dopo l'inizio dell'esperimento.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba6fb94033e227790e01676819308bb4f0cd6868
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777574"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965219"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Eseguire e monitorare un esperimento
 
@@ -28,7 +30,7 @@ In questo argomento viene descritto come eseguire e monitorare un esperimento in
 
 Il diagramma seguente mostra tutti i passaggi relativi alla configurazione e all'esecuzione di un esperimento su un sito Web di e-commerce in Dynamics 365 Commerce. I passaggi aggiuntivi sono esposti in argomenti separati.
 
-[ ![Percorso utente sperimentazione - Esecuzione e monitoraggio.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![Percorso utente per sperimentazione - Esecuzione e monitoraggio](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 Dopo aver pubblicato le varianti, vengono eseguiti tutti i passaggi necessari in Commerce per completare l'esperimento. Il passaggio successivo consiste nel determinare quale variante mostrare agli utenti quando richiedono una pagina. Il servizio di terze parti prende questa decisione, ma prima devi attivare l'esperimento nel servizio. Poiché i passaggi per l'attivazione di un esperimento variano da servizio a servizio, dovrai seguire le istruzioni fornite dal servizio o dal fornitore. Se l'esperimento non viene attivato, gli utenti vedranno solo la versione predefinita della pagina e non verranno visualizzate le varianti.
 
@@ -50,6 +52,3 @@ Se per un qualsiasi motivo devi modificare le varianti, segui i passaggi seguent
 
 ## <a name="next-step"></a>Passaggio successivo
 [Promuovere una variante e completare un esperimento](experimentation-review-complete.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

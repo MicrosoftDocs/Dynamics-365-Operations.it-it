@@ -1,23 +1,26 @@
 ---
 title: Conto lavoro
 description: In questo argomento vengono fornite le informazioni dettagliate per creare un conto lavoro nella produzione in Dynamics 365 Supply Chain Management.
-author: johanhoffmann
+author: christophernread
+manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1cc1040393d843f39ca8c741a7c51435c7169c00
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579354"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430884"
 ---
 # <a name="subcontracting"></a>Conto lavoro
 
@@ -39,9 +42,9 @@ Nella persona giuridica HQUS vengono prodotti alto parlanti di fascia alta. Dura
 
 La figura seguente mostra le tre operazioni e i materiali impiegati.
 
-![Operazioni di preassemblaggio, rivestimento e finitura e i materiali impiegati.](./media/subcontract01_operations-materials.png)
+![Operazioni di preassemblaggio, rivestimento e finitura e i materiali impiegati](./media/subcontract01_operations-materials.png)
 
-## <a name="setup"></a>Attrezzaggio
+## <a name="setup"></a>Imposta
 
 Prima di iniziare la procedura, è necessario impostare i dati.
 
@@ -52,41 +55,41 @@ Questa procedura illustra l'impostazione del prodotto rilasciato D8100, "Cabinet
 1. Selezionare **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati** per aprire la pagina **Dettagli prodotto rilasciato**.
 2. Nel campo del filtro rapido, immettere **D8100** per trovare il prodotto rilasciato esistente.
 
-    ![Filtro per il prodotto rilasciato D8100 nella pagina dei dettagli del prodotto rilasciato.](./media/subcontract02_filtering-released-products.png)
+    ![Filtro per il prodotto rilasciato D8100 nella pagina dei dettagli del prodotto rilasciato](./media/subcontract02_filtering-released-products.png)
 
 3. Nel riquadro azioni, nella scheda **Progetta** selezionare **Ciclo** per aprire la pagina **Ciclo di lavorazione**.
 
     La pagina **Ciclo di lavorazione** mostra le otto versioni del ciclo per il prodotto rilasciato D8100. Le otto versioni del ciclo di lavorazione sono suddivise in quattro cicli di lavorazione nel sito 1 e nel sito 5. Il ciclo di lavorazione 000400 viene utilizzato per la determinazione dei costi, il ciclo 00041 viene utilizzato quando l'operazione di rivestimento avviene internamento e il ciclo 00042 viene utilizzando quando tale operazione avviene esternamente.
 
-    ![Otto versioni del ciclo di lavorazione nella pagina Ciclo di lavorazione.](./media/subcontract03_route-page.png)
+    ![Otto versioni del ciclo di lavorazione nella pagina Ciclo di lavorazione](./media/subcontract03_route-page.png)
 
 4. Nel riquadro superiore, nella griglia **Versioni** selezionare la versione **00042** per il sito **5**.
 5. Nel riquadro inferiore, nella scheda **Panoramica** selezionare l'operazione **20** (**Cbnt CtSc**) nella griglia.
 
-    ![Operazione 20 per la versione 00042 del sito 5 selezionata.](./media/subcontract04_route-version-operation.png)
+    ![Operazione 20 per la versione 00042 del sito 5 selezionata](./media/subcontract04_route-version-operation.png)
 
 6. Selezionare la scheda **Generale**.
 
     Notare che il campo **Tipo ciclo di lavorazione** è impostato su **Fornitore**. Questo valore indica che l'operazione 20 (Cbnt CtSc) costituisce un'operazione in conto lavoro.
 
-    ![Campo Tipo di lavorazione impostato su Fornitore nella scheda Generale.](./media/subcontract05_general-tab.png)
+    ![Campo Tipo di lavorazione impostato su Fornitore nella scheda Generale](./media/subcontract05_general-tab.png)
 
 7. Selezionare la scheda **Requisiti risorsa**.
 
     Le funzionalità verranno utilizzate per trovare una risorsa valida durante la programmazione della produzione. Per l'operazione 20 (Cbnt CtSc), notare che è necessaria una risorsa che abbia due funzionalità, **Rivestimento** e **Cabinet rivestiti**.
 
-    ![Funzionalità Rivestimento e Cabinet rivestiti nella scheda dei requisiti di risorsa.](./media/subcontract06_resource-requirements-tab.png)
+    ![Funzionalità Rivestimento e Cabinet rivestiti nella scheda dei requisiti di risorsa](./media/subcontract06_resource-requirements-tab.png)
 
 8. Selezionare **Risorse applicabili** per aprire la finestra di dialogo **Risorse applicabili**.
 
     Tre risorse sono disponibili che soddisfano i requisiti di risorsa per l'operazione. Notare che le risorse 8851 e 8852 sono di tipo **Fornitore**.
 
-    ![Tre risorse appropriate nella finestra di dialogo Risorse applicabili.](./media/subcontract07_applicable-resources-dialog.png)
+    ![Tre risorse appropriate nella finestra di dialogo Risorse applicabili](./media/subcontract07_applicable-resources-dialog.png)
 
 9. Selezionare **OK** per chiudere la finestra di dialogo **Risorse applicabili** e tornare alla pagina **Ciclo di lavorazione**.
 10. Chiudere la pagina **Ciclo di lavorazione** per tornare alla pagina **Dettagli prodotto rilasciato**.
 
-    ![Pagina Dettagli prodotto rilasciato.](./media/subcontract08_released-product-details-page.png)
+    ![Pagina Dettagli prodotto rilasciato](./media/subcontract08_released-product-details-page.png)
 
 11. Nel riquadro azioni, nella scheda **Progetta** selezionare **Versioni DBA** per aprire la pagina **Versioni DBA**.
 
@@ -94,7 +97,7 @@ Questa procedura illustra l'impostazione del prodotto rilasciato D8100, "Cabinet
 
     Si noti che l'articolo S8050 è un prodotto di tipo **Servizio**. Questo articolo rappresenta il lavoro in conto lavoro.
 
-    ![Quattro versioni di DBA nella pagina Versioni DBA.](./media/subcontract09_bom-versions-page.png)
+    ![Quattro versioni di DBA nella pagina Versioni DBA](./media/subcontract09_bom-versions-page.png)
 
 12. Nella Scheda dettaglio **Righe della distinta base** selezionare **Modifica** per aprire la finestra di dialogo **Modifica riga DBA**.
 
@@ -102,7 +105,7 @@ Questa procedura illustra l'impostazione del prodotto rilasciato D8100, "Cabinet
 
     Notare che la riga DBA è collegata all'operazione Rivestimento tramite il numero di operazione, in questo caso 20.
 
-    ![Finestra di dialogo Modifica riga DBA.](./media/subcontract10_edit-bom-line-dialog.png)
+    ![Finestra di dialogo Modifica riga DBA](./media/subcontract10_edit-bom-line-dialog.png)
 
 ### <a name="create-a-password-for-warehouse-workers"></a>Creare una password per gli addetti magazzino
 
@@ -111,7 +114,7 @@ Questa procedura illustra l'impostazione del prodotto rilasciato D8100, "Cabinet
 1. Selezionare **Gestione magazzino \> Impostazioni \> Lavoratore** per aprire la pagina **Utenti di lavoro**.
 2. Nella Scheda dettaglio **Utenti** selezionare la riga per l'utente **51**.
 
-    ![Pagina Utenti di lavoro.](./media/subcontract11_work-users-page.png)
+    ![Pagina Utenti di lavoro](./media/subcontract11_work-users-page.png)
 
 3. Selezionare **Reimposta password**.
 4. Nei campi **Password** e **Conferma password** immettere **1**.
@@ -126,14 +129,14 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
 1. Selezionare **Controllo produzione \> Ordini di produzione \> Tutti gli ordini di produzione** per aprire la pagina **Tutti gli ordini di produzione**.
 2. Nel riquadro azioni selezionare **Nuovo ordine di produzione** per aprire la finestra di dialogo **Crea ordine di produzione**.
 
-    ![Finestra di dialogo Crea ordine di produzione.](./media/subcontract12_create-production-order-dialog.png)
+    ![Finestra di dialogo Crea ordine di produzione](./media/subcontract12_create-production-order-dialog.png)
 
 3. Nel campo **Numero articolo** selezionare **D8100**.
 4. Dopo avere selezionare il numero articolo, vengono visualizzati i campi per le dimensioni inventariali. Nel campo **Colore** selezionare **Cromato**.
 
     Verrà visualizzata una finestra di messaggio per chiedere se è necessario inserire le versioni attive della DBA e del ciclo di lavorazione.
 
-    ![Finestra di messaggio.](./media/subcontract13_message-box.png)
+    ![Finestra di messaggio](./media/subcontract13_message-box.png)
 
 5. Selezionare **Sì**. 
 
@@ -149,15 +152,15 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
     > [!NOTE]
     > Sia per la DBA che per il ciclo di lavorazione, viene utilizzata la versione 000042 per subappaltare l'operazione di rivestimento del cabinet al fornitore US-801.
 
-    ![Valori impostati nella finestra di dialogo Crea ordine di produzione.](./media/subcontract14_create-production-order-dialog-set.png)
+    ![Valori impostati nella finestra di dialogo Crea ordine di produzione](./media/subcontract14_create-production-order-dialog-set.png)
 
 9. Selezionare **Crea** per creare l'ordine di produzione e tornare alla pagina **Tutti gli ordini di produzione**.
 
-    ![Nuovo ordine di produzione nella pagina Tutti gli ordini di produzione.](./media/subcontract15_new-production-order.png)
+    ![Nuovo ordine di produzione nella pagina Tutti gli ordini di produzione](./media/subcontract15_new-production-order.png)
 
 10. Nel riquadro azioni, nella scheda **Ordine di produzione** selezionare **Stima** per aprire la finestra di dialogo **Stima**.
 
-    ![Finestra di dialogo Stima.](./media/subcontract16_estimate-dialog.png)
+    ![Finestra di dialogo Stima](./media/subcontract16_estimate-dialog.png)
 
 11. Selezionare **OK** per confermare la stima e tornare alla pagina **Tutti gli ordini di produzione**.
 
@@ -168,7 +171,7 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
 
     Per l'articolo di tipo Assistenza S8050, notare che è presente un riferimento all'ordine fornitore generato quando l'ordine di produzione è stato stimato.
 
-    ![Righe DBA dell'ordine di produzione nella pagina DBA.](./media/subcontract17_production-order-bom-lines.png)
+    ![Righe DBA dell'ordine di produzione nella pagina DBA](./media/subcontract17_production-order-bom-lines.png)
 
 13. Chiudere la pagina **DBA** per tornare alla pagina **Tutti gli ordini di produzione**.
 14. Nel riquadro azioni, nella scheda **Programma** selezionare **Programma processi** per aprire la finestra di dialogo **Programmazione processo**.
@@ -177,24 +180,24 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
     - Nel campo **Direzione programmazione** selezionare **Avanti da domani**.
     - Impostare l'opzione **Capacità limitata** su **Sì**.
 
-    ![Finestra di dialogo Programmazione processi.](./media/subcontract18_job-scheduling-dialog.png)
+    ![Finestra di dialogo Programmazione processi](./media/subcontract18_job-scheduling-dialog.png)
 
 16. Selezionare **OK** per chiudere la finestra di dialogo **Programmazione processi** e tornare alla pagina **Tutti gli ordini di produzione**.
 17. Nel riquadro azioni, nella scheda **Programma** scegliere **Gantt** per aprire la pagina **Diagramma di Gantt - visualizzazione risorse**.
 
     Il diagramma di Gantt fornisce una panoramica visiva del modo in cui i processi di produzione vengono programmati sulle risorse. Notare che l'operazione esterna di rivestimento consiste in tre processi: un processo di lavorazione, un processo di trasporto e un processo con tempo di attesa.
 
-    ![Pagina Diagramma di Gantt - Visualizzazione risorse.](./media/subcontract19_gantt-chart.png)
+    ![Pagina Diagramma di Gantt - Visualizzazione risorse](./media/subcontract19_gantt-chart.png)
 
 18. Chiudere la pagina **Diagramma di Gantt - Visualizzazione risorse** per tornare alla pagina **Tutti gli ordini di produzione**.
 19. Nel riquadro azioni, nella scheda **Ordine di produzione** selezionare **Rilascio** per aprire la finestra di dialogo **Rilascio**.
 
-    ![Finestra di dialogo Rilascio.](./media/subcontract20_release-dialog.png)
+    ![Finestra di dialogo Rilascio](./media/subcontract20_release-dialog.png)
 
 20. Selezionare **OK** per chiudere la finestra di dialogo **Rilascio**.
 21. Selezionare **Controllo produzione \> Attività periodiche \> Rilascia in magazzino \> Rilascio automatico di righe di DBA e di formula** per aprire la finestra di dialogo **Rilascio automatico di righe di DBA e di formula**.
 
-    ![Finestra di dialogo Rilascio automatico di righe di DBA e di formula.](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
+    ![Finestra di dialogo Rilascio automatico di righe di DBA e di formula](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
 
 22. Selezionare **OK** per eseguire il processo Rilascio automatico di righe di DBA e di formula.
 
@@ -208,7 +211,7 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
 
     ![Due set di lavoro per il prelievo della materia prima nella pagina Lavoro.](./media/subcontract22_work-page.png)
 
-26. Avviare l'app per dispositivi mobili Gestione magazzino per elaborare il lavoro di magazzino per l'operazione 10.
+26. Avviare l'app di magazzino per elaborare il lavoro di magazzino per l'operazione 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -220,13 +223,13 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
     - Nel campo **Da oper. n.** selezionare **10**.
     - Nel campo **A oper. n.** selezionare **10**.
 
-    ![Valori impostati nella scheda Generale 1.](./media/subcontract23_start-dialog.png)
+    ![Valori impostati nella scheda Generale](./media/subcontract23_start-dialog.png)
 
 31. Selezionare **OK** per chiudere la finestra di dialogo **Avvio** e tornare alla pagina **Tutti gli ordini di produzione**.
 
     Notare che lo stato dell'ordine di produzione è ora impostato su **Avviato**. I materiali per l'operazione 10 vengono consumati da una registrazione automatica del giornale di registrazione distinte di prelievo. Il consumo di tempo per l'operazione 10 viene considerato da una registrazione automatica di un giornale di registrazione schede cicli di lavorazione.
 
-32. Avviare l'app per dispositivi mobili Gestione magazzino per elaborare il lavoro di magazzino per l'operazione 20.
+32. Avviare l'app di magazzino per elaborare il lavoro di magazzino per l'operazione 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -238,7 +241,7 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
     - Nel campo **Quantità** immettere **10**.
     - Impostare l'opzione **Registra distinta di prelievo ora** su **No**.
 
-    ![Valori impostati nella scheda Generale 2.](./media/subcontract24_general-tab.png)
+    ![Valori impostati nella scheda Generale](./media/subcontract24_general-tab.png)
 
 35. Selezionare **OK** per chiudere la finestra di dialogo **Avvio** e tornare alla pagina **Tutti gli ordini di produzione**.
 
@@ -247,59 +250,56 @@ Viene creato un ordine di produzione di 10 pezzi per il prodotto D8100, "Cabinet
 36. Nel riquadro azioni, nella scheda **Visualizza** scegliere **Distinta di prelievo** per aprire la pagina **Distinta di prelievo**.
 37. Selezionare la distinta di prelievo che non è registrata e selezionare il numero del giornale di registrazione per visualizzare le righe del giornale di registrazione.
 
-    ![Righe del giornale di registrazione nella pagina Distinta di prelievo.](./media/subcontract25_picking-list.png)
+    ![Righe del giornale di registrazione nella pagina Distinta di prelievo](./media/subcontract25_picking-list.png)
 
 38. Nel riquadro azioni, selezionare **Stampa** \> **Report distinte di prelievo** per aprire la finestra di dialogo **Report distinte di prelievo**.
 39. Impostare l'opzione **Utilizza layout bolla di consegna** su **Sì**.
 
-    ![Finestra di dialogo Report distinte di prelievo.](./media/subcontract26_picking-list-report-dialog.png)
+    ![Finestra di dialogo Report distinte di prelievo](./media/subcontract26_picking-list-report-dialog.png)
 
 40. Selezionare **OK** per generare un report **Distinta di prelievo**.
 
     In questo caso viene stampata una bolla di consegna fornitore dal giornale di registrazione distinte di prelievo produzione. La bolla di consegna specifica i materiali che devono essere spediti al fornitore che si occupa dell'operazione di rivestimento.
 
-    ![Report distinte di prelievo.](./media/subcontract27_picking-list-report.png)
+    ![Report distinte di prelievo](./media/subcontract27_picking-list-report.png)
 
 41. Chiudere il report **Distinta di prelievo** per tornare alla pagina **Distinta di prelievo**.
 42. Nel riquadro azioni, scegliere **Registra** per aprire la finestra di dialogo **Registra giornale**.
 
-    ![Finestra di dialogo Registra giornale.](./media/subcontract28_post-journal-dialog.png)
+    ![Finestra di dialogo Registra giornale](./media/subcontract28_post-journal-dialog.png)
 
 43. Selezionare **OK** per chiudere la finestra di dialogo **Registra giornale**.
 44. Aprire l'ordine fornitore.
 
-    ![Pagina Ordine fornitore.](./media/subcontract29_purchase-order-page.png)
+    ![Pagina Ordine fornitore](./media/subcontract29_purchase-order-page.png)
 
 45. Nel riquadro azioni, nella scheda **Acquisti** selezionare **Conferma**.
 46. Selezionare **Registra** per aprire la finestra di dialogo **Registra giornale**.
 47. Selezionare **OK** per chiudere la finestra di dialogo **Registra giornale** e tornare alla pagina **Ordine fornitore**.
 48. Modificare il prezzo unitario da **33** a **40**.
 
-    ![Prezzo unitario modificato nella pagina Ordine fornitore.](./media/subcontract30_unit-price.png)
+    ![Prezzo unitario modificato nella pagina Ordine fornitore](./media/subcontract30_unit-price.png)
 
 49. Confermare di nuovo l'ordine fornitore.
 50. Entrata prodotti.
 
-    ![Finestra di dialogo Registrazione entrata prodotti.](./media/subcontract31_posting-product-receipt-dialog.png)
+    ![Finestra di dialogo Registrazione entrata prodotti](./media/subcontract31_posting-product-receipt-dialog.png)
 
 51. Fattura acquisto.
 52. Aggiornare lo stato di abbinamento.
 
-    ![Pagina Fattura fornitore.](./media/subcontract32_vendor-invoice-page.png)
+    ![Pagina Fattura fornitore](./media/subcontract32_vendor-invoice-page.png)
 
 53. Dichiarato finito.
 
-    ![Finestra di dialogo Dichiarazione di finito.](./media/subcontract33_report-as-finished-dialog.png)
+    ![Finestra di dialogo Dichiarazione di finito](./media/subcontract33_report-as-finished-dialog.png)
 
 54. Fine.
 
-    ![Finestra di dialogo Fine.](./media/subcontract34_end-dialog.png)
+    ![Finestra di dialogo Fine](./media/subcontract34_end-dialog.png)
 
 55. Confronto costi.
 
-    ![Grafici di confronto costi.](./media/subcontract35_cost-comparison-charts.png)
+    ![Grafici di confronto costi](./media/subcontract35_cost-comparison-charts.png)
 
 Mancata impostazione nei dati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

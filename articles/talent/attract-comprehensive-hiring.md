@@ -85,6 +85,3 @@ Vi sono vari motivi per cui non disponi di tutte le funzionalità di Attract che
 
 - Il tuo collega sta utilizzando una versione di valutazione o una licenza per Attract con il componente aggiuntivo per l'assunzione a livello globale, mentre tu utilizzi la versione di base di Attract.
 - Disponi di Attract con il componente aggiuntivo per l'assunzione a livello globale ma non hai assegnato i ruoli corretti per utilizzare tutte le funzionalità. Per ulteriori informazioni, vedere [Gestione della sicurezza e dei ruoli in Attract](security-attract.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

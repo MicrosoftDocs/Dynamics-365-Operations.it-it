@@ -2,30 +2,35 @@
 title: Modulo Carrello
 description: In questo argomento vengono descritti i moduli Carrello e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 12/15/2020
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716886"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4413613"
 ---
-# <a name="cart-module"></a>Modulo carrello
+# <a name="cart-module"></a>Modulo Carrello
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Carrello e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Un modulo Carrello mostra gli articoli che sono stati aggiunti al carrello prima che il cliente proceda al checkout. Il modulo mostra anche un riepilogo dell'ordine e consente al cliente di applicare o rimuovere codici promozionali.
 
@@ -35,11 +40,11 @@ Il modulo Carrello visualizza i dati in base all'ID carrello, che è un cookie d
 
 L'immagine seguente mostra un esempio di una pagina del carrello sul sito Fabrikam.
 
-![Esempio di un modulo carrello sul sito Fabrikam.](./media/cart2.PNG)
+![Esempio di un modulo carrello sul sito Fabrikam](./media/cart2.PNG)
 
 L'immagine seguente mostra un esempio di una pagina del carrello sul sito Fabrikam. In questo esempio, è prevista una commissione di gestione per una voce.
 
-![Esempio di un modulo carrello con una commissione di gestione per una voce.](./media/ecommerce-handling-fee.png)
+![Esempio di un modulo carrello con una commissione di gestione per un elemento pubblicitario](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Proprietà e slot del modulo Carrello
 
@@ -48,7 +53,6 @@ L'immagine seguente mostra un esempio di una pagina del carrello sul sito Fabrik
 | Intestazione | Testo e tag dell'intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Un'intestazione per il carrello, ad esempio "Carrello della spesa" o "Articoli nel carrello". |
 | Mostra errori scorte esaurite | **True** o **False** | Se questa proprietà è impostata su **True**, la pagina del carrello mostrerà errori relativi alle scorte. Ti consigliamo di impostare questa proprietà su **True** se le verifiche delle scorte disponibili vengono applicate sul sito. |
 | Mostra spese di spedizione per voci | **True** o **False** | Se questa proprietà è impostata su **True**, le voci del carrello mostreranno le spese di spedizione, se queste informazioni sono disponibili. Questa funzione non è supportata nel tema Fabrikam, perché gli utenti selezionano la spedizione solo nel flusso di checkout. Tuttavia, questa funzione può essere abililtata in altri flussi di lavoro, se applicabile. |
-| Mostra promozioni disponibili| **True** o **False** | Se questa proprietà è impostata su **True**, il carrello mostra le promozioni disponibili, in base agli articoli nel carrello. Questa capacità è disponibile nella versione 10.0.16 di Dynamics 365 Commerce. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moduli che è possibile utilizzare in un modulo Carrello
 
@@ -113,6 +117,3 @@ Per aggiungere un modulo Carrello a una nuova pagina e impostare le proprietà n
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
 
 [Creare un profilo funzionalità online](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

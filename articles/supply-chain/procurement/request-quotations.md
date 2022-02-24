@@ -1,28 +1,28 @@
 ---
 title: Panoramica delle richieste di offerta (RdO)
 description: In questo argomento è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 10/05/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2154"
-- intro-internal
+ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983394"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016933"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Panoramica delle richieste di offerta (RdO)
 
@@ -39,13 +39,13 @@ Il processo RdO comporta le seguenti attività:
 
 Nell'illustrazione riportata di seguito viene mostrata una panoramica del processo relativo alla richiesta di offerta.
 
-[![Processo RFQ.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![Processo RFQ](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 È possibile creare un caso RdO da ordini pianificati, da una richiesta di acquisto o con un'immissione manuale. Il caso RdO è il documento di base utilizzato per emettere una RdO a ciascun fornitore.
 
 Dopo che si prepara il caso RdO e aggiungere i fornitori, selezionare **Invia** (**Invia e pubblica** per il settore pubblico) nel caso RdO. Un giornale di registrazione RdO viene generato per ciascun fornitore a cui viene inviata una RdO. È possibile configurare le opzioni di stampa per l'azione Invia così da stampare un report per ogni fornitore in un archivio o per inviare un report all'indirizzo di posta elettronica di ogni fornitore. Inoltre, il giornale di registrazione di RdO per ciascun fornitore può essere utilizzato per generare un report da inviare o inviare successivamente a un fornitore. È inoltre possibile configurare l'azione Invio per generare automaticamente un foglio di risposta che il fornitore può completare.
 
-In questo argomento vengono illustrati il processo di gestione delle richieste di offerta quando la collaborazione fornitore non viene utilizzata. Se il sistema è impostato per la collaborazione fornitori, i fornitori possono immettere le offerte direttamente in Supply Chain Management. Per ulteriori informazioni, vedere [Collaborazione fornitore con i clienti](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
+In questo argomento vengono illustrati il processo di gestione delle richieste di offerta quando la collaborazione fornitore non viene utilizzata. Se il sistema è impostato per la collaborazione fornitori, i fornitori possono immettere le offerte direttamente in Supply Chain Management. Per ulteriori informazioni, vedere [Collaborazione fornitore con i clienti](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
 
 Se è necessario modificare una RdO dopo averla inviata, è possibile inviare la RdO ai fornitori al termine utilizzando le due azioni di modifica: Crea e Finalizza.
 
@@ -80,23 +80,23 @@ Nella pagina **Parametri di approvvigionamento**, selezionare il modello da usar
 - %Motivo di restituzione dell'offerta%
 - %Motivo della modifica%
 - %Modifica preparata da%
-- %Company%
+- %Società%
 - %Nome caso RdO%
 - %Ora e data di scadenza%
-- %Date%
+- %Data%
 
-I token %Motivo di restituzione dell'offerta% e %Motivo della modifica% vengono sostituiti da testo che il professionista dell'approvvigionamento può immettere quando completa la modifica nella procedura guidata **Modifica**. I valori dei token %Modifica preparata da% e %Company% vengono ottenuti automaticamente dalla RdO. Il token %Date% viene sostituito dalla data corrente.
+I token %Motivo di restituzione dell'offerta% e %Motivo della modifica% vengono sostituiti da testo che il professionista dell'approvvigionamento può immettere quando completa la modifica nella procedura guidata **Modifica**. I valori dei token %Modifica preparata da% e %Società% vengono ottenuti automaticamente dalla richiesta di offerta. Per impostazione predefinita, il token %Data% viene sostituito dalla data corrente.
 
 Se si desidera annullare una RdO dopo che è stata inviata, è possibile farlo dal caso RdO. Per l'annullamento, è necessario un modello di messaggio di posta elettronica per inviare la notifica di annullamento ai contatti del fornitore. Il modello deve essere selezionato nella pagina **Parametri di approvvigionamento**. Quando viene creato, il modello può includere i seguenti token di sostituzione:
 
 - %Motivo dell'annullamento%
 - %Caso RdO%
 - %RdO annullata da%
-- %Company%
+- %Società%
 - %Nome caso RdO%
-- %Date%
+- %Data%
 
-Il token %Motivo dell'annullamento% viene sostituito da testo che il professionista di approvvigionamento può immettere tramite la procedura guidata **Annullamento**. Il token %Date% viene sostituito dalla data corrente.
+Il token %Motivo dell'annullamento% viene sostituito da testo che il professionista di approvvigionamento può immettere tramite la procedura guidata **Annullamento**. Per impostazione predefinita, il token %Data% viene sostituito dalla data corrente.
 
 Se si desidera utilizzare i codici motivo in un'offerta per indicare il motivo per cui è stata accettata o rifiutata, è necessario impostarli nella pagina **Motivi fornitore**.
 
@@ -167,7 +167,7 @@ Se si configura il processo di modifica in modo che risulti più restrittivo, pr
 
 Se si configura il processo meno restrittivo delle modifiche, non è necessario selezionare **Crea** prima di poter modificare i campi in un caso RdO che è già stato inviato. Tuttavia, è necessario aggiungere manualmente una nota delle modifiche nella RdO e inviare di nuovo il caso. Tenere presente che tale approccio può essere utilizzato solo se nessuna delle risposte (Offerte) è stata modificata. Se è stata specificata una risposte ma non ha stato **Ricevuta**, il pulsante **Invia** non sarà disponibile. In questo caso, è necessario selezionare **Crea** e **Finalizza**, come nel processo più restrittivo. La risposta viene reimpostata per riflettere le modifiche nel caso RdO.
 
-Se i fornitori utilizzano l'interfaccia di collaborazione fornitore per immettere le offerte, è necessario utilizzare sempre il processo di modifica per informare i fornitori delle modifiche al caso RdO. Questo processo aiuta a prevenire la situazione in cui i venditori fanno offerte per una richiesta RdO obsoleta mentre la loro offerta è in corso. Per ulteriori informazioni sulle funzionalità di collaborazione fornitore, vedere [Collaborazione fornitore con i fornitori esterni](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Se i fornitori utilizzano l'interfaccia di collaborazione fornitore per immettere le offerte, è necessario utilizzare sempre il processo di modifica per informare i fornitori delle modifiche al caso RdO. Questo processo aiuta a prevenire la situazione in cui i venditori fanno offerte per una richiesta RdO obsoleta mentre la loro offerta è in corso. Per ulteriori informazioni sulle funzionalità di collaborazione fornitore, vedere [Collaborazione fornitore con i fornitori esterni](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Se si desidera invitare altri fornitori a fare un'offerta e non sono state apportate modifiche al caso RdO, è possibile utilizzare il pulsante **Invia**. I fornitori aggiunti verranno visualizzati nella pagina **Invia** e riceveranno un invito di posta elettronica.
 
@@ -246,6 +246,3 @@ Nell'esempio seguente è possibile visualizzare lo stato massimo e minimo nel ca
 | Accettare una delle offerte. (o almeno una riga) |                          Ricevuti                           |                           Accettate                           |                    Ricevuti                    |                    Accettate                     |                   Ricevuti                   |                   Accettate                    |
 |           Rifiutare tutte le altre offerte.           |                          Rifiutato                           |                           Accettate                           |                    Rifiutato                    |                    Accettate                     |                   Rifiutato                   |                   Accettata                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

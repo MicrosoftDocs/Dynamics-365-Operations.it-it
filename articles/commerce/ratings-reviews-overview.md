@@ -1,31 +1,38 @@
 ---
-title: Panoramica valutazioni e revisioni
+title: Panoramica valutazioni e recensioni
 description: In questo argomento vengono descritte le valutazioni e le recensioni in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1248ce660d765ddade1df7d79786202235019990
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982254"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413558"
 ---
-# <a name="ratings-and-reviews-overview"></a>Panoramica valutazioni e revisioni
+# <a name="ratings-and-reviews-overview"></a>Panoramica valutazioni e recensioni
+
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritte le valutazioni e le recensioni in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Le valutazioni e le recensioni sono cruciali per i clienti di e-Commerce che vogliono sapere il modo in cui gli altri clienti percepiscono un prodotto. Possono inoltre consentire ai consumatori di prendere decisioni di acquisto. In Dynamics 365 Commerce, la soluzione con valutazioni e recensioni consente ai rivenditori di acquisire valutazioni e recensioni sui prodotti effettuate dai clienti. I rivenditori possono quindi visualizzare informazioni di base su valutazioni e recensioni nel loro sito Web di e-Commerce.
 
@@ -35,7 +42,7 @@ Le funzionalità Valutazioni e recensioni in Dynamics 365 Commerce è una soluzi
 
 Nella figura seguente è illustrato il funzionamento della soluzione con valutazioni e recensioni in Dynamics 365 Commerce.
 
-![Valutazioni e recensioni in Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Valutazioni e recensioni in Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 La soluzione con valutazioni e recensioni in Dynamics 365 Commerce utilizza Azure Cognitive Services per offrire la moderazione automatica di parole improprie in 40 lingue. Poiché l'approvazione umana non è richiesta, i costi di moderazione sono ridotti. Il sistema offre inoltre strumenti di moderazione che possono essere utilizzati per rispondere alle preoccupazioni dei clienti, inviare feedback e richieste di rimozione e per soddisfare le richieste di dati degli utenti.
 
@@ -47,19 +54,8 @@ La soluzione con valutazioni e recensioni fornisce anche un modello di business 
 
 [Consentire l'utilizzo di valutazioni e recensioni](opt-in-ratings-reviews.md)
 
-[Gestire valutazioni e revisioni](manage-reviews.md)
+[Gestire valutazioni e recensioni](manage-reviews.md)
 
 [Configurare valutazioni e recensioni](configure-ratings-reviews.md)
 
 [Sincronizzare valutazioni sul prodotto in Dynamics 365 Commerce](sync-product-ratings.md)
-
-[Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore](manual-publish-rating-reviews.md)
-
-[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
-
-[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
-
-[Recensioni e valutazioni - Domande frequenti](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

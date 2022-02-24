@@ -1,39 +1,37 @@
 ---
-title: Gestisci funzionalità in Human Resources
-description: In questo argomento viene descritta la caratteristica Gestione funzionalità e come è possibile utilizzarla.
-author: twheeloc
-ms.date: 08/19/2021
+title: Gestire le funzionalità
+description: Informazioni su come attivare o disattivare nuove funzionalità in Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069709"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419237"
 ---
-# <a name="manage-features-in-human-resources"></a>Gestisci funzionalità in Human Resources
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="manage-features"></a>Gestire le funzionalità
 
 Nell'ambito della continua implementazione di nuove funzionalità per Microsoft Dynamics 365 Human Resources, vogliamo consentire ai clienti di utilizzare al più presto le nuove funzionalità. Forniamo funzionalità di anteprima che sono quasi pronte per la disponibilità generale e che sono state sottoposte a test esaurienti. Il nostro scopo è di ottenere un ultimo riscontro e la convalida dai clienti prima del rilascio delle funzionalità per una disponibilità generale.
 
-Per ulteriori informazioni sulle nuove funzionalità in Human Resources, vedere [Novità o modifiche in Human Resources](hr-admin-whats-new.md) e [Piano di rilascio di Dynamics 365 e Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
+Per ulteriori informazioni sulle nuove funzionalità in Human Resources, vedere [Novità o modifiche in Human Resources](hr-admin-whats-new.md) e [Piano di rilascio di Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
 
-L'area di lavoro **Gestione funzionalità** fornisce l'elenco delle funzionalità offerte in ciascuna versione. Per impostazione predefinita, le nuove funzionalità sono disabilitate. È possibile utilizzare l'area di lavoro per accendere alle funzionalità e visualizzare la documentazione correlata. Per ulteriori informazioni sulla gestione funzionalità, vedere [Panoramica della gestione funzionalità](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+L'area di lavoro **Gestione funzionalità** fornisce l'elenco delle funzionalità offerte in ciascuna versione. Per impostazione predefinita, le nuove funzionalità sono disabilitate. È possibile utilizzare l'area di lavoro per accendere alle funzionalità e visualizzare la documentazione correlata. Per ulteriori informazioni sulla gestione funzionalità, vedere [Panoramica della gestione funzionalità](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 Tutte le nuove funzionalità rimangono in anteprima per almeno 30 giorni e in genere per 30-60 giorni. Le principali funzionalità sono generalmente disponibili in ottobre e aprile di ogni anno successivo al periodo di anteprima. Non appena nuove funzioni sono presenti nell'area di lavoro **Gestione funzionalità**, è possibile attivarle. Alcune funzionalità possono essere attive per impostazione predefinita.
 
@@ -72,7 +70,7 @@ Gestione benefit sostituisce la funzionalità nell'area di lavoro **Benefit**. Q
 - **Criteri di idoneità benefit**
 - **Eventi di idoneità**
 
-È possibile visualizzare le informazioni in queste pagine in modalità di sola lettura. Se si desidera modificare le informazioni, è necessario dapprima disabilitare Gestione benefit (applicabile solo per gli ambienti **Sandbox**).
+È possibile visualizzare le informazioni in questi moduli in modalità di sola lettura. Se si desidera modificare le informazioni, è necessario dapprima disabilitare Gestione benefit (applicabile solo per gli ambienti **Sandbox**).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Abilitare o disabilitare congedo e assenza
 
@@ -95,6 +93,4 @@ Si raccomanda di non includere dati personali (qualsiasi informazione che possa 
 ## <a name="see-also"></a>Vedere anche
 
 - [Novità in Risorse umane](hr-admin-whats-new.md)
-- [Piani di rilascio di Dynamics 365 e Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Piani di rilascio di Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)

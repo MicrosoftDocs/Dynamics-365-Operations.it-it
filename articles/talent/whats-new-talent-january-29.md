@@ -41,6 +41,3 @@ Alcune nuove opzioni sono state aggiunte a congedi e assenze (parametri **Risors
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Le azioni di assunzione dei lavoratori sono bloccate allo stato "Flusso di lavoro completato"
 Alcune modifiche sono state apportate per correggere un problema in cui un piccolo numero di flussi di lavoro termina con lo stato "Flusso di lavoro completato". I nuovi flussi di lavoro dovrebbero ora passare allo stato "Completato" quando vengono terminati. Qualsiasi flusso di lavoro in uno stato completato passerà a uno stato di errore per consentire l'aggiornamento o la rimozione se necessario. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

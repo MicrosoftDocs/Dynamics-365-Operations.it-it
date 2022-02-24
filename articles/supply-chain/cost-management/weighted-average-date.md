@@ -2,9 +2,11 @@
 title: Data media ponderata
 description: La data media ponderata costituisce un modello inventariale basato sul principio della media ponderata, in base al quale le uscite da magazzino vengono valutate al valore medio degli articoli ricevuti in magazzino per ogni giorno distinto nel periodo di chiusura inventario.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572027"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963740"
 ---
 # <a name="weighted-average-date"></a>Data media ponderata
 
@@ -39,7 +41,7 @@ Media ponderata = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q
 
 Durante la chiusura inventario, il calcolo verrà eseguito ogni giorno per la durata del periodo di chiusura, come mostrato nell'illustrazione riportata di seguito. 
 
-![Modello di calcolo giornaliero della data media ponderata.](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Modello di calcolo giornaliero della data media ponderata](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Le transazioni di magazzino che escono dall'inventario, quali gli ordini cliente, i giornali di registrazione magazzino e gli ordini di produzione avranno luogo a un prezzo di costo stimato alla data di registrazione. Tale prezzo di costo stimato è noto anche come prezzo di costo medio corrente. Alla data della chiusura inventario, il sistema analizza le transazioni di magazzino per i periodi e i giorni precedenti e per il giorno corrente. Questa analisi viene utilizzata per stabilire quale dei seguenti principi di chiusura utilizzare:
 
@@ -72,7 +74,7 @@ La figura di seguito mostra le transazioni:
 -   2b. Uscita finanziaria da magazzino aggiornata per una quantità pari a 2 al costo unitario di 10,00 EUR.
 -   3. La chiusura dell'inventario viene eseguita utilizzando il metodo di compensazione diretta per compensare l'entrata fisica in magazzino con l'uscita finanziaria dal magazzino.
 
-![Compensazione diretta con data media ponderata senza opzione Includi valore fisico.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Compensazione diretta con data media ponderata senza opzione Includi valore fisico](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Chiave per la figura:**
 
@@ -126,7 +128,7 @@ Il sistema genera e registra la transazione per il trasferimento scorte riepilog
 
 Nella figura riportata di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione riepilogativo senza l'opzione **Includi valore fisico**. 
 
-![Liquidazione riepilogativa con data media ponderata senza opzione Includi valore fisico.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Liquidazione riepilogativa con data media ponderata senza opzione Includi valore fisico](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Chiave per la figura:**
 
@@ -175,7 +177,7 @@ Per collegare una transazione in uscita a un'entrata prima che la transazione ve
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. Nella figura riportata di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale data media ponderata con contrassegno.
 
-![Data media ponderata con contrassegno.](./media/weightedaveragedatewithmarking.gif) 
+![Data media ponderata con contrassegno](./media/weightedaveragedatewithmarking.gif) 
 
 **Chiave per la figura:**
 
@@ -193,6 +195,3 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

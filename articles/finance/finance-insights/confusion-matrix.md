@@ -1,30 +1,34 @@
 ---
-title: Risultati dei modelli di Machine Learning
+title: Risultati dei modelli di Machine Learning (anteprima)
 description: Questo argomento illustra le matrici di confusione, i problemi di classificazione e l'accuratezza nei modelli di apprendimento automatico. Lo scopo è migliorare la tua comprensione dell'accuratezza nei risultati della previsione ML.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+manager: AnnBe
+ms.date: 06/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2545f7d043e139606c51bc559e3aacbe73abccfc
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 6a1620c33ee1e23a79ef5413afebdee332aa82b6
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386639"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645019"
 ---
-# <a name="results-of-machine-learning-models"></a>Risultati dei modelli di Machine Learning
+# <a name="results-of-machine-learning-models-preview"></a>Risultati dei modelli di Machine Learning (anteprima)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Questo argomento illustra le matrici di confusione, i problemi di classificazione e l'accuratezza nei modelli di apprendimento automatico. Lo scopo è migliorare la tua comprensione dell'accuratezza nei risultati della previsione ML. Il gruppo di destinatari di destinazione comprende tecnici, analisti e responsabili che desiderano sviluppare le proprie conoscenze e competenze nella data science.
 
@@ -33,7 +37,7 @@ Dopo il training di un problema ML supervisionato su una serie di dati storici, 
 
 Ad esempio, il tuo obiettivo è prevedere se un animale domestico è un cane o un gatto, in base ad alcuni attributi fisici e comportamentali. Se hai un set di dati di prova che contiene 30 cani e 20 gatti, la matrice di confusione potrebbe essere simile alla seguente illustrazione.
 
-![Esempio di previsione delle specie.](media/species-prediction-matrix.png)
+[![Esempio di previsione delle specie](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 I numeri nelle celle verdi rappresentano le previsioni corrette. Come puoi vedere, il modello ha previsto correttamente una percentuale di gatti. La precisione complessiva del modello è facile da calcolare. In questo caso, è 42 ÷ 50 o 0,84.
 
@@ -43,7 +47,7 @@ La maggior parte delle discussioni sulla matrice di confusione si concentra sui 
 
 Successivamente, considereremo un problema di classificazione per uno scenario finanziario che ha tre stati. Il modello prevede se una fattura cliente verrà pagata in tempo, in ritardo o molto tardi. Ad esempio, su 100 fatture di prova, 50 vengono pagate in tempo, 35 vengono pagate in ritardo e 15 vengono pagate molto tardi. In questo caso, un modello potrebbe produrre una matrice di confusione simile alla seguente illustrazione.
 
-![Modello 1.](media/payment-prediction-matrix.png)]
+[![Modello 1](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png) Modello 1
 
 Una matrice di confusione fornisce molte più informazioni rispetto a una semplice metrica di precisione. Tuttavia, è ancora relativamente facile da capire. Una matrice di confusione indica se disponi di un set di dati bilanciato in cui le classi di output hanno conteggi simili. Per lo scenario multi-classe, indica quanto potrebbe essere lontana una previsione quando le classi di output sono ordinali, come nell'esempio precedente sui pagamenti dei clienti.
 
@@ -54,7 +58,7 @@ Poiché l'accuratezza è una metrica facile da capire, è un buon punto di parte
 
 Tuttavia, per una comprensione più approfondita, è necessario notare diverse sfide associate alla precisione. L'utilità della metrica dipende dal contesto del problema. Una domanda che spesso sorge in relazione alle prestazioni del modello è: "Quanto è buono il modello?" Tuttavia, la risposta a questa domanda non è necessariamente semplice. Considera la seguente matrice di confusione (modello 2).
 
-![Esempio di previsione del pagamento con un campione più ampio.](media/payment-prediction-matrix-2.png)
+[![Esempio di previsione del pagamento con un campione più ampio](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
 
 Un rapido calcolo mostra che l'accuratezza di questo modello è (70 + 10 + 3) ÷ 100 o 0,83. Ad un'occhiata superficiale, questo risultato sembra migliore del risultato per il precedente modello multi-classe (modello 1), che ha una precisione di 0,73. Ma è migliore?
 
@@ -62,8 +66,8 @@ Per iniziare ad affrontare questa domanda, considera l'accuratezza di un'ipotesi
 
 Un altro aspetto è degno di nota. Considera uno scenario in cui viene utilizzato un test medico per individuare una malattia in un paziente. Questo problema è un problema di classificazione binaria in cui un risultato positivo indica che il paziente ha la malattia. In questo scenario, devi pensare all'impatto dei seguenti errori:
 
-- Falsi positivi, dove il test dice che un paziente ha la malattia, ma in realtà non ce l'ha.
-- Falsi negativi, dove il test dice che un paziente non ha la malattia, ma in realtà ce l'ha.
+- Falsi positivi, dove il test dice che un paziente ha la malattia, ma in realtà non ce l'ha
+- Falsi negativi, dove il test dice che un paziente non ha la malattia, ma in realtà ce l'ha
 
 Ovviamente entrambi i tipi di errore non sono auspicabili, ma qual è il peggiore? Di nuovo, dipende. Nel caso di una malattia pericolosa per la vita che richiede un trattamento rapido, la riduzione al minimo dei falsi negativi (si spera seguita da test aggiuntivi) ha la priorità. In altre situazioni meno critiche, i creatori del modello potrebbero invece ridurre al minimo i falsi positivi. In ogni caso, una conclusione ragionevole è che per determinare in modo efficace la qualità di un modello, è necessario disporre di più informazioni di quelle fornite da una metrica di accuratezza.
 
@@ -86,7 +90,7 @@ L'ultima considerazione in questo argomento è una misura più avanzata delle pr
 
 Prima di poter definire l'accuratezza F1, è necessario introdurre due metriche aggiuntive: precisione e richiamo. La precisione indica quante del numero totale di previsioni specificate come positive sono state assegnate correttamente. Questa metrica è nota anche come valore predittivo positivo. Il richiamo è il numero totale di casi positivi effettivi previsti correttamente. Questa metrica è nota anche come sensibilità.
 
-[![Risultati veri contro risultati falsi.](./media/tn-fn.png)](./media/tn-fn.png)
+[![Risultati veri contro risultati falsi](./media/tn-fn.png)](./media/tn-fn.png)
 
 Nella matrice di confusione nell'illustrazione precedente, queste metriche vengono calcolate nel modo seguente:
 
@@ -99,7 +103,7 @@ La misura F1 combina precisione e richiamo. Il risultato è la media armonica de
 
 Vediamo un esempio concreto. In precedenza in questo argomento, abbiamo utilizzato un esempio di un modello che prevedeva se un animale era un cane o un gatto. L'illustrazione è ripetuta qui.
 
-[![Esempio di previsione delle specie (ripetuto).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Esempio di previsione delle specie](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Ecco i risultati se "Cane" viene utilizzato come risposta positiva.
 
@@ -111,11 +115,11 @@ Come puoi vedere, il valore F1 è compreso tra i valori di precisione e richiamo
 
 Sebbene l'accuratezza F1 non sia così facile da capire, aggiunge sfumature al numero di accuratezza di base. Può anche aiutare con set di dati non bilanciati, come mostrerà la discussione seguente.
 
-La sezione [Accuratezza del modello](#model-accuracy) di questo argomento ha confrontato le seguenti due matrici di confusione. Anche se il primo modello aveva un'accuratezza inferiore, è stato ritenuto un modello più utile perché mostrava un miglioramento maggiore rispetto all'ipotesi predefinita di un pagamento puntuale.
+La sezione [Accuratezza del modello](#classify-machine-learning-accuracy) di questo argomento ha confrontato le seguenti due matrici di confusione. Anche se il primo modello aveva un'accuratezza inferiore, è stato ritenuto un modello più utile perché mostrava un miglioramento maggiore rispetto all'ipotesi predefinita di un pagamento puntuale.
 
-![Esempio di previsione di pagamento rispetto ai valori effettivi.](media/payment-prediction-matrix.png)
+[![Esempio di previsione di pagamento rispetto ai valori effettivi](./media/payment-prediction-matrix.png)](payment-prediction-matrix.png)
 
-![Esempio di previsione del pagamento con un campione più ampio (ripetuto).](media/payment-prediction-matrix-2.png)
+[![Esempio di previsione del pagamento con un campione più ampio](./media/payment-prediction-matrix-2.png)](payment-prediction-matrix-2.png)
 
 Vediamo come si confrontano questi due modelli quando viene utilizzato il punteggio F1. Il punteggio F1 tiene conto della precisione e del richiamo per ogni stato, quindi il calcolo macro F1 calcola la media del punteggio F1 negli stati per determinare un punteggio F1 complessivo. Esistono altre varianti F1, ma è di maggior interesse considerare la versione macro, vista la stessa considerazione che viene data a tutti e tre gli stati.
 
@@ -128,7 +132,7 @@ Per semplificare i calcoli, sono stati creati array di esempio per abbinare i va
 
 Per maggiori dettagli su come funziona questo calcolo, ecco il report di classificazione sklearn.metrics per il modello 1. I tre stati, "Puntuale", "In ritardo" e "Molto tardi", sono rappresentati dalle righe contrassegnate rispettivamente con 1, 2 e 3. La media macro è solo la media della colonna "f1-score".
 
-| &nbsp;    | precisione | richiamo   | f1-score |
+|           | precisione | richiamo   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
@@ -136,4 +140,5 @@ Per maggiori dettagli su come funziona questo calcolo, ecco il report di classif
 
 Come mostrano questi risultati, i due modelli hanno punteggi di accuratezza macro F1 quasi identici. In questo e in molti altri casi, l'accuratezza F1 fornisce un migliore indicatore delle capacità di un modello. Per quanto riguarda l'accuratezza, l'interpretazione dei risultati richiede la comprensione di ciò che è più importante considerare nel modello.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Informativa sulla privacy
+Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.

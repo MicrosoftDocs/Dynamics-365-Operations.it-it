@@ -104,6 +104,3 @@ Questa versione ora offre la possibilità di applicare liste di controllo per i 
 Questa funzionalità è ora disponibile negli ambienti sandbox. Per attivare questa funzionalità, passare ad **Amministrazione sistema > Collegamenti > Impostazioni > Parametri di sistema > Funzionalità di anteprima**. Selezionare **Navigazione e modulo lavoratore avanzati**. In questo modo le modifiche saranno valide per tutti gli utenti. È possibile disattivare questa opzione in qualsiasi momento.
 
 Per ulteriori informazioni, vedere [Inserimento e navigazione dei dipendenti semplificati](./streamlined-employee-entry.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

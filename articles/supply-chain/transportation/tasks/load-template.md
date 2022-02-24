@@ -2,28 +2,29 @@
 title: Modelli di carico
 description: In questo argomento viene descritto come impostare i modelli di carico e come associare un modello di carico a un nuovo carico.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 694860d1ade74f9fd51a8ac579aa69fe7fb673a8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569915"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646404"
 ---
 # <a name="load-templates"></a>Modelli di carico
-
-[!include [banner](../../includes/banner.md)]
 
 Quando si crea un nuovo carico, è possibile assegnare un modello di carico. Il modello di carico contiene informazioni sull'attrezzatura e sulle misure quali altezza, larghezza, profondità e volume del carico.
 
@@ -53,6 +54,3 @@ In questo argomento viene descritto come impostare i modelli di carico e come as
 1. Nel riquadro azioni, nella scheda **Domanda e offerta**, nel gruppo **Aggiungi** seleziona **Al nuovo carico**.
 1. Nella finestra di dialogo **Modello carico**,nel campo **ID modello di carico** selezionare il modello da applicare.
 1. Selezionare **OK** per applicare il modello.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Cicli di manutenzione
 description: In questo argomento vengono descritti i cicli di manutenzione in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740721"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018548"
 ---
 # <a name="maintenance-rounds"></a>Cicli di manutenzione
 
@@ -80,7 +82,7 @@ In **Gestione cespiti**, è possibile creare cicli di manutenzione per vari cesp
 
 L'illustrazione seguente mostra ed esempio di un ciclo di manutenzione contenente tre cespiti.
 
-![Figura 1.](media/13-preventive-maintenance.png)
+![Figura 1](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Programma cicli di manutenzione
@@ -106,14 +108,11 @@ Dopo l'impostazione di un ciclo di manutenzione, si esegue un processo di progra
 
 Le due illustrazioni di seguito illustrano un processo di programmazione nella finestra di dialogo **Cicli di programmazione della manutenzione** e le righe del programma di manutenzione create in **Tutto il programma di manutenzione** in base al processo di programmazione.
 
-![Figura 2.](media/14-preventive-maintenance.png)
+![Figura 2](media/14-preventive-maintenance.png)
 
-![Figura 3.](media/15-preventive-maintenance.png)
+![Figura 3](media/15-preventive-maintenance.png)
 
 - Quando gli ordini di lavoro vengono creati manualmente nei cespiti coperti da un garanzia fornitore, viene visualizzata una finestra di dialogo per informare l'utente della garanzia. La creazione dell'ordine di lavoro può quindi essere annullata. La verifica di una relazione di garanzia viene omessa per gli ordini di lavoro creati automaticamente.  
 - È possibile impostare un processo batch nella Scheda dettaglio **Esecuzione in background** per programmare i cicli a intervalli regolari.  
 - Se un ciclo è incluso in vari pool di ordini di lavoro (vedere [Pool di ordini di lavoro](../work-orders/work-order-pools.md)), un record viene visualizzato per ogni pool in **Apri pool di programmi di manutenzione**. Questa operazione viene eseguita per ottimizzare le opzioni di filtro per i pool di ordini di lavoro.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

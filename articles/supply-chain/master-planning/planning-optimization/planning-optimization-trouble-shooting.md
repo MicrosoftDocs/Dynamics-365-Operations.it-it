@@ -2,13 +2,16 @@
 title: Risoluzione dei problemi relativi all'ottimizzazione della pianificazione
 description: Questo argomento descrive come risolvere i problemi che potresti riscontrare mentre lavori all'ottimizzazione della pianificazione.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: bbf21abae60d4adee5a23a8405d14907b91724fa2cbf31c901bb46c589b2ea49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c3dd0bf262f65aac2359c05ff954bdfbd294353f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768097"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430928"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Risoluzione dei problemi relativi all'ottimizzazione della pianificazione 
 
@@ -47,6 +50,12 @@ L'ottimizzazione della pianificazione differisce dalla progettazione della piani
 
 **Soluzione**: esegui l'analisi dell'adattamento dell'ottimizzazione della pianificazione, quindi analizza i risultati facendo riferimento alla documentazione correlata per comprenderne l'impatto. Per ulteriori informazioni, vedere [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md).
 
+## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>La pianificazione generale non rispetta l'intervallo temporale di copertura
+
+Ciò è causato da una funzionalità in sospeso per l'ottimizzazione della pianificazione.
+
+**Soluzione**: fino a quando la funzionalità in sospeso è disponibile, filtra o elimina gli ordini pianificati per rimuovere i suggerimenti di fornitura al di fuori dell'intervallo temporale di copertura.
+
 ## <a name="cant-enable-planning-optimization"></a>Impossibile abilitare l'ottimizzazione della pianificazione
 
 **Stato connessione** deve essere **Connesso** prima di poter configurare **Usa ottimizzazione di pianificazione** su **Sì**. Per ulteriori informazioni, vedere [Introduzione all'ottimizzazione di pianificazione](get-started.md).
@@ -66,6 +75,3 @@ Ciò è correlato a una funzionalità in sospeso pianificata come parte del supp
 [Introduzione all'ottimizzazione della pianificazione](get-started.md)
 
 [Analisi corrispondenza Ottimizzazione pianificazione](planning-optimization-fit-analysis.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

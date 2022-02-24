@@ -1,32 +1,31 @@
 ---
 title: Chiavi di configurazione ed entità di dati
 description: In questo argomento viene descritta la relazione tra le chiavi di configurazione e le entità di dati.
-author: peakerbl
+author: Sunil-Garg
+manager: AnnBe
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e6145a2f6925932361851735df55374dda8ca03d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065741"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679382"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Chiavi di configurazione ed entità di dati
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Prima di utilizzare le entità di dati per importare o esportare dati, si consiglia di determinare innanzitutto l'impatto delle chiavi di configurazione sulle entità di dati che si prevede di utilizzare.
 
@@ -55,24 +54,24 @@ La seguente tabella riepiloga in che modo i valori delle chiavi di configurazion
 ### <a name="entity-list-refresh"></a>Aggiornamento dell'elenco di entità
 Quando l'elenco delle entità viene aggiornato, il framework di gestione dei dati crea i metadati della chiave di configurazione per l'utilizzo in runtime. Questi metadati vengono creati utilizzando la logica descritta sopra. Si consiglia vivamente di attendere il completamento dell'aggiornamento dell'elenco delle entità prima di utilizzare i processi e le entità nel framework di gestione dei dati. Se non si attende, i metadati della chiave di configurazione potrebbero non essere aggiornati e determinare esiti imprevisti. Quando l'elenco delle entità viene aggiornato, viene visualizzato il seguente messaggio nella pagina di elenco delle entità.
 
-![Aggiornamento dell'elenco di entità.](./media/Entity_refresh_list.png)
+![Aggiornamento dell'elenco di entità](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Pagina elenco di entità di dati
 La pagina di elenco delle entità di dati nell'area di lavoro Gestione dati mostra le impostazioni della chiave di configurazione per le entità. Iniziare da questa pagina per comprendere l'impatto delle chiavi di configurazione sull'entità di dati.
 
 Queste informazioni vengono visualizzate utilizzando i metadati creati durante l'aggiornamento dell'entità. La colonna della chiave di configurazione mostra il nome della chiave di configurazione associata all'entità di dati. Se questa colonna è vuota, significa che non vi è alcuna chiave di configurazione associata all'entità di dati. La colonna dello stato della chiave di configurazione mostra lo stato della chiave di configurazione. Se è presente un segno di spunta, significa che la chiave è abilitata. Se non è presente un segno di spunta, significa che la chiave è disabilitata o non è associata alcuna chiave.
 
-![Pagina elenco di entità.](./media/Data_entity_list_page.png)
+![Pagina elenco di entità](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Campi di destinazione
 Il passaggio successivo consiste nell'eseguire il drill nell'entità di dati per visualizzare l'impatto delle chiavi di configurazione su tabelle e campi. Il modulo dei campi di destinazione per un'entità di dati mostra la chiave di configurazione e le informazioni sullo stato della chiave per le tabelle e i campi correlati nell'entità di dati. Se l'entità di dati stessa ha la rispettiva chiave di configurazione disabilitata, viene visualizzato un messaggio di avviso che informa che le tabelle e i campi nel modulo dei campi di destinazione per questa entità non saranno disponibili a tutti, indipendentemente dallo stato della chiave di configurazione.
 
-![Campi di destinazione.](./media/Target_fields_1.png)
+![Campi di destinazione](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Entità figlio 
 Alcune entità hanno altre entità come origine dati o entità di dati compositi: le informazioni sulla chiave di configurazione per queste entità sono mostrate nel modulo Entità figlio. Utilizzare questo modulo in modo simile nella pagina elenco di entità descritta in precedenza. Il modulo dei campi di destinazione per l'entità figlio si comporta anche come descritto sopra.
 
-![Campi di destinazione.](./media/Target_fields_2.png)
+![Campi di destinazione](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Utilizzo di entità di dati
 Dopo aver compreso l'impatto completo, se esistente, delle chiavi di configurazione sulle entità di dati che si desidera utilizzare, è possibile utilizzare le entità di dati aggiungendole ai progetti di dati. 
@@ -94,7 +93,4 @@ Utilizzando i metadati della chiave di configurazione creati durante l'elenco di
 ### <a name="managing-configuration-key-changes"></a>Gestione delle modifiche alla chiave di configurazione
 Ogni volta che si aggiornano le chiavi di configurazione a livello di entità, tabella o campo, l'elenco delle entità nel framework di gestione dei dati deve essere aggiornato. Questo processo garantisce che il framework riceva le ultime impostazioni della chiave di configurazione. Fino a quando l'elenco delle entità non viene aggiornato, il seguente avviso verrà visualizzato nella pagina dell'elenco delle entità. Le modifiche della chiave di configurazione aggiornata avranno effetto immediatamente dopo l'aggiornamento dell'elenco delle entità. Si consiglia di convalidare processi e progetti di dati esistenti per assicurarsi che funzionino come previsto dopo che le modifiche alle chiavi di configurazione sono state applicate.
 
-![Campi di destinazione.](./media/Target_fields_3.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Campi di destinazione](./media/Target_fields_3.png)

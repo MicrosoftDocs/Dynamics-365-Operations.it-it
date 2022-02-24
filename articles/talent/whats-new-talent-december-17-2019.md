@@ -56,6 +56,3 @@ Le modifiche di questa settimana risolvono un problema per cui non era possibile
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>Report sul saldo attuale in congedo PBI raddoppia il saldo dei dipendenti (385581)
 
 Questa modifica corregge il report del saldo corrente in questo scenario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

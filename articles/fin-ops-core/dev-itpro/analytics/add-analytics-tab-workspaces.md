@@ -1,23 +1,25 @@
 ---
 title: Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
 description: In questo argomento viene illustrato come importare un report di Power BI nella scheda Analisi di un'area di lavoro.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760154"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680938"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
 
@@ -27,7 +29,7 @@ ms.locfileid: "6760154"
 > Questa funzionalità è supportata in Finance and Operations (versione 7.2 e successiva).
 
 ## <a name="introduction"></a>Introduzione
-In questo argomento viene illustrato come incorporare un report di Microsoft Power BI nella scheda **Analisi** di un'area di lavoro. Per l'esempio fornito qui, verrà estesa l'area di lavoro **Gestione prenotazione** nell'applicazione di gestione flotta per includere un'area di lavoro di analisi in una scheda **Analisi**.
+In questo argomento viene illustrato come importare un report di Microsoft Power BI nella scheda **Analisi** di un'area di lavoro. Per l'esempio fornito qui, verrà estesa l'area di lavoro **Gestione prenotazione** nell'applicazione di gestione flotta per includere un'area di lavoro di analisi in una scheda **Analisi**.
 
 ## <a name="prerequisites"></a>Prerequisiti
 + Accedere a un ambiente di sviluppo in cui è in esecuzione l'aggiornamento 8 della piattaforma o una versione successiva.
@@ -54,11 +56,11 @@ Seguire questi passaggi per aggiungere un file .pbix come elemento del progetto 
 3. Nella finestra di dialogo **Aggiungi nuovo articolo**, in **Elementi operazioni**, selezionare il modello **Risorsa**.
 4. Immettere un nome che verrà utilizzato per fare riferimento al report nei metadati X++, quindi fare clic su **Aggiungi**.
 
-    ![Finestra di dialogo Aggiungi nuovo articolo.](media/analytical-workspace-add.png)
+    ![Finestra di dialogo Aggiungi nuovo articolo](media/analytical-workspace-add.png)
 
 5. Individuare il file .pbix contenente la definizione di report analitico, quindi fare clic su **Apri**.
 
-    ![Selezionare una finestra di dialogo del file di risorse.](media/analytical-workspace-select-resource.png)
+    ![Selezionare una finestra di dialogo del file di risorse](media/analytical-workspace-select-resource.png)
 
 Dopo aver aggiunto un file .pbix come risorsa Dynamics 365, è possibile importare i report nelle aree di lavoro e aggiungere collegamenti diretti utilizzando le voci di menu.
 
@@ -67,7 +69,7 @@ In questo esempio verrà estesa l'area di lavoro **Gestione prenotazione** del m
 
 Nella figura che segue viene mostrato l'aspetto del modulo **FMClerkWorkspace** nello strumento di progettazione in Microsoft Visual Studio.
 
-![Il modulo FMClerkWorkspace prima delle modifiche.](media/analytical-workspace-definition-before.png)
+![Il modulo FMClerkWorkspace prima delle modifiche](media/analytical-workspace-definition-before.png)
 
 Seguire questi passaggi per estendere la definizione di modulo per l'area di lavoro **Gestione prenotazione**.
 
@@ -92,7 +94,7 @@ Seguire questi passaggi per estendere la definizione di modulo per l'area di lav
 
 Nell'illustrazione riportata di seguito viene mostrato l'aspetto della progettazione dopo l'applicazione di tali modifiche.
 
-![FMClerkWorkspace dopo le modifiche.](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace dopo le modifiche](media/analytical-workspace-definition-after.png)
 
 Dopo aver aggiunto i controlli del modulo che verranno utilizzati per includere il report dell'area di lavoro, è necessario definire la dimensione del controllo padre in modo che si adatti al layout. Per impostazione predefinita, sia la pagina **Riquadro filtri** che la pagina **Scheda** saranno visibili nel report. Tuttavia, è possibile modificare la visibilità di questi controlli a seconda del cliente di destinazione del report.
 
@@ -142,7 +144,7 @@ Seguire questi passaggi per aggiungere la regola business che inizializza il con
 
 L'attività di aggiunta della regola business per inizializzare il controllo del visualizzatore di report incluso è stata completata. Nell'illustrazione riportata di seguito viene mostrato l'aspetto dell'area di lavoro dopo l'applicazione di tali modifiche.
 
-![Report incluso nell'area di lavoro.](media/analytical-workspace-final.png)
+![Report incluso nell'area di lavoro](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > È possibile accedere alla visualizzazione operativa esistente utilizzando le schede dell'area di lavoro sotto il titolo della pagina.
@@ -165,7 +167,7 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parametri
 
-| Nome             | Descrizione                                                                                                  |
+| Nome             | descrizione                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------|
 | resourceName     | Nome della risorsa .pbix.                                                                              |
 | formGroupControl | Controllo del gruppo di moduli al quale applicare il controllo del report Power BI.                                              |
@@ -173,6 +175,3 @@ public static void initializeReportControl(
 | showFilterPane   | Valore booleano che indica se il riquadro filtri deve essere visualizzato (**True**) o nascosto (**False**).     |
 | showNavPane      | Valore booleano che indica se il riquadro di spostamento deve essere visualizzato (**True**) o nascosto (**False**). |
 | defaultFilters   | Filtri di base per il report Power BI.                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,6 +57,3 @@ I titoli sono stati espansi in questo aggiornamento. Il campo contiene ora 65 ca
 ## <a name="benefit-enrollment-status-report"></a>Report dello stato della registrazione del benefit
 
 La funzionalità di creazione di report incorporata sulla registrazione aperta per i benefit consente di esaminare facilmente a che punto si trovano i dipendenti nel processo di registrazione aperto. È possibile conoscere il numero di dipendenti che hanno completato il processo, che lo stanno completandolo e che non lo hanno iniziato. Inoltre, è possibile visualizzare rapidamente eventuali problemi che si verificano durante la registrazione del dipendente e il registro completo di tutti gli invii del dipendente. Di conseguenza, è possibile verificare e analizzare facilmente gli invii del dipendente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

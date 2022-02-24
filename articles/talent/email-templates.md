@@ -81,6 +81,3 @@ Quando il team di assunzione invia un messaggio di posta elettronica, può utili
 
 > [!NOTE] 
 > Per i messaggi di posta elettronica inviati automaticamente, più modelli possono essere creati. Tuttavia, solo un modello può essere impostato come modello attivo. Poiché questo processo viene attivato da eventi, solo l'amministratore può determinare il modello da utilizzare, in base alla combinazione di badge **Predefinito** e **Invio automatico** nella raccolta di modelli.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

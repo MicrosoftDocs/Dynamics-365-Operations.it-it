@@ -1,35 +1,33 @@
 ---
 title: Iscrivere e rimuovere benefit da lavoratori
-description: Questa procedura mostra come iscrivere un singolo lavoratore a uno o più benefici e come iscrivere più lavoratori a un beneficio.
-author: twheeloc
-ms.date: 08/23/2021
+description: Questa procedura dimostra come un singolo lavoratore può essere iscritto a uno o più benefit e come più lavoratori possono essere iscritti a un benefit.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 1b99db1e480ea4a53d2bda609eb08105509d95f4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065378"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419116"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Iscrivere e rimuovere benefit da lavoratori
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-Questa procedura mostra come iscrivere un singolo lavoratore a uno o più benefici e come iscrivere più lavoratori a un beneficio. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
+Questa procedura dimostra come un singolo lavoratore può essere iscritto a uno o più benefit e come più lavoratori possono essere iscritti a un benefit. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>Iscrivere un singolo lavoratore a un benefit
@@ -60,6 +58,3 @@ Questa procedura mostra come iscrivere un singolo lavoratore a uno o più benefi
 14. Nell'elenco fare clic sul collegamento nella riga selezionata.
 15. La pagina consente la visualizzazione dei dipendenti iscritti al benefit e di tutti i dipendenti non iscritti.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

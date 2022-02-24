@@ -1,10 +1,12 @@
 ---
 title: Componenti del report finanziario
-description: In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari.
+description: In questo articolo viene illustrato l'utilizzo dei componenti, o blocchi predefiniti, delle definizioni dei report nei report finanziari. Tali blocchi predefiniti includono le definizioni di riga, di colonna e di albero gerarchico. L'articolo spiega come organizzare e bloccare i blocchi predefiniti e come utilizzare i gruppi di blocchi predefiniti.
 author: aprilolson
+manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8512559ea33f16f3558b277999cc86240ee8277d1b3b0d6bf2aecba32df8e09f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761442"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682723"
 ---
 # <a name="financial-report-components"></a>Componenti del report finanziario
 
@@ -32,7 +34,7 @@ La filosofia di progettazione alla base di Progettazione report finanziari è su
 
 ## <a name="building-blocks-of-a-report"></a>Blocchi predefiniti di un report
 
-| Blocco predefinito            | Descrizione | Ulteriori informazioni |
+| Blocco predefinito            | descrizione | Ulteriori informazioni |
 |---------------------------|-------------|----------------------|
 | Definizione riga            | Una definizione di riga definisce le righe descrittive, ad esempio, le retribuzioni o le vendite, in un report. Vengono inoltre elencati i valori o le dimensioni di segmenti che contengono i valori per ogni voce e sono inclusi la formattazione e i calcoli di riga. | [Definizioni di riga](row-definitions-financial-reporting.md) |
 | Definizione colonna         | Una definizione di colonna definisce il periodo da utilizzare quando si estraggono i dati dalle dimensioni finanziarie. Include inoltre la formattazione e i calcoli della colonna. | [Definizioni di colonna](column-definitions-financial-reports.md) |
@@ -124,6 +126,3 @@ Quando si apre un blocco predefinito, gli utenti possono accedere al blocco pred
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

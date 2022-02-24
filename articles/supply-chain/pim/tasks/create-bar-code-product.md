@@ -1,24 +1,27 @@
 ---
 title: Creare un codice a barre per un prodotto
 description: In questa argomento viene illustrato come creare un codice a barre manualmente usando il numero di articolo M0001 come esempio.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemBarcode, InventItemBarcodeLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdf062ed14cc4cf395de006d55aba3dc2a94bae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b178701ca745a4317bf271bba726741e104f0804
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577362"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431156"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Creare un codice a barre per un prodotto
 
@@ -26,19 +29,17 @@ ms.locfileid: "7577362"
 
 In questa argomento viene illustrato come creare un codice a barre manualmente usando il numero di articolo M0001 come esempio. La società di dati dimostrativi utilizzata per creare questa procedura è USMF.
 
-1. Fare clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
-1. Nell'elenco trovare e selezionare il record desiderato. Per questo esempio, selezionare il numero articolo **M0001**.
-1. Nel riquadro azioni, fare clic su **Gestione articoli**.
-1. Selezionare **Codici a barre**.
-1. Selezionare **Nuovo**.
-1. Contrassegnare la riga selezionata creata nell'elenco seguente.
-1. Nel campo di **impostazione del codice a barre** , inserire o selezionare un valore.
-1. Nel campo **Codice a barre** immettere o selezionare un valore.
-1. Digitare un valore nel campo **Codice a barre**.  
-1. Nel campo **Quantità** immettere un numero.
-1. Selezionare **Salva**.
-1. Chiudere la pagina. 
+1. Selezionare **Gestione prodotti rilasciati** in home page.
+2. Passare a **Prodotti > Prodotti rilasciati** nella sezione **Collegamenti**.
+3. Nell'elenco trovare e selezionare il record desiderato. Per questo esempio, selezionare il numero articolo **M0001**.
+4. Nel riquadro azioni, fare clic su **Gestione articoli**.
+5. Selezionare **Codici a barre**.
+6. Selezionare **Nuovo**.
+7. Contrassegnare la riga selezionata creata nell'elenco seguente.
+8. Nel campo **Impostazione codice a barre** immettere o selezionare un valore.
+9. Nel campo **Codice a barre** immettere o selezionare un valore.
+10. Digitare un valore nel campo **Codice a barre**.  
+11. Nel campo **Quantità** immettere un numero.
+12. Selezionare **Salva**.
+13. Chiudere la pagina. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

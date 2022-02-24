@@ -2,44 +2,47 @@
 title: Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 description: In questo argomento vengono descritti i criteri di prenotazione di inventario che consentono alle aziende che vendono prodotti tracciati in batch ed eseguono la propria logistica come operazioni abilitate WMS di prenotare batch specifici per gli ordini cliente, anche se la gerarchia di prenotazioni associata ai prodotti impedisce la prenotazione di specifici batch.
 author: perlynne
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474942"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431476"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Quando una gerarchia di prenotazioni di inventario di tipo *Batch-below\[location\]* è associata ai prodotti, le aziende che vendono prodotti tracciati in batch ed eseguono la propria logistica come operazioni abilitate per il sistema di gestione del magazzino (Warehouse Management System, WMS) di Microsoft Dynamics 365 non possono prenotare specifici batch di tali prodotti per gli ordini cliente.
+Quando una gerarchia di prenotazioni di inventario di tipo "Batch-below\[location\]" è associata ai prodotti, le aziende che vendono prodotti tracciati in batch ed eseguono la propria logistica come operazioni abilitate per il sistema di gestione del magazzino (Warehouse Management System, WMS) di Microsoft Dynamics 365 non possono prenotare specifici batch di tali prodotti per gli ordini cliente.
 
 Allo stesso modo, le targhe specifiche non possono essere prenotate per i prodotti negli ordini cliente quando tali prodotti sono associati alla gerarchia di prenotazione predefinita.
 
-Questo argomento descrive i criteri di prenotazione delle scorte che consentono a queste aziende di prenotare specifici batch o targhe, anche quando i prodotti sono associati ad una gerarchia di prenotazioni *Batch-below\[location\]*.
+Questo argomento descrive i criteri di prenotazione delle scorte che consentono a queste aziende di prenotare specifici batch o targhe, anche quando i prodotti sono associati ad una gerarchia di prenotazioni "Batch-below\[location\]".
 
 ## <a name="inventory-reservation-hierarchy"></a>Gerarchia di prenotazioni di inventario
 
 Questa sezione riassume la gerarchia di prenotazioni di inventario esistente.
 
-La gerarchia di prenotazione dell'inventario stabilisce che, per quanto riguarda le dimensioni di immagazzinamento, l'ordine di domanda specifica le dimensioni obbligatorie di sito, magazzino e stato dell'inventario. In altre parole, le dimensioni obbligatorie sono tutte le dimensioni sopra la dimensione dell'ubicazione nella gerarchia di prenotazione, mentre la logica del magazzino è responsabile dell'assegnazione di un'ubicazione alle quantità richieste e della prenotazione dell'ubicazione. Nelle interazioni tra l'ordine con domanda e le operazioni di magazzino, l'ordine di domanda dovrebbe indicare da dove deve essere spedito l'ordine (ovvero, quale sito e magazzino). Il magazzino si affida quindi alla relativa logica per trovare la quantità richiesta nei locali del magazzino.
+La gerarchia di prenotazioni di inventario impone che, per quanto riguarda le dimensioni di immagazzinamento, l'ordine con domanda include le dimensioni obbligatorie di sito, magazzino e stato delle scorte, mentre la logica di magazzino è responsabile dell'assegnazione di un'ubicazione alle quantità richieste e della prenotazione dell'ubicazione. In altre parole, nelle interazioni tra l'ordine con domanda e le operazioni di magazzino, l'ordine di domanda dovrebbe indicare da dove deve essere spedito l'ordine (ovvero, quale sito e magazzino). Il magazzino si affida quindi alla relativa logica per trovare la quantità richiesta nei locali del magazzino.
 
 Tuttavia, per riflettere il modello operativo dell'azienda, le dimensioni di tracciabilità (numeri di batch e di serie) sono soggette a maggiore flessibilità. Una gerarchia di prenotazioni di inventario può rivelarsi appropriata per gli scenari in cui si applicano le seguenti condizioni:
 
-- L'azienda si affida alle proprie operazioni di magazzino per gestire il prelievo di quantità che hanno numeri di batch o di serie *dopo* che le quantità vengono trovate nello spazio di stoccaggio del magazzino. Questo modello viene spesso definito come *Batch-below\[location\]* o *Serial-below\[location\]*. Viene in genere utilizzato quando l'identificazione del numero di batch o di serie di un prodotto non è importante per i clienti che inoltrano la domanda alla società venditrice.
-- L'azienda si affida alle proprie operazioni di magazzino per gestire il prelievo di quantità che hanno numeri di batch o di serie *prima* che le quantità vengono trovate nello spazio di stoccaggio del magazzino. Se i numeri di batch o di serie fanno parte di una specifica per ordini di un cliente, vengono registrati nell'ordine con domanda e le operazioni di magazzino che trovano le quantità nel magazzino non possono modificarle. Questo modello viene spesso definito come *Batch-above\[location\]* o *Serial-above\[location\]*. Poiché le dimensioni sopra l'ubicazione sono i requisiti specifici per le domande che devono essere soddisfatte, la logica del magazzino non le allocherà. Queste dimensioni **devono** essere sempre specificate nell'ordine di richiesta o nelle relative prenotazioni.
+- L'azienda si affida alle proprie operazioni di magazzino per gestire il prelievo di quantità che hanno numeri di batch o di serie dopo che le quantità sono state trovate nello spazio di stoccaggio del magazzino. Questo modello viene spesso definito come *Batch-below\[location\]*. Viene in genere utilizzato quando l'identificazione del numero di batch o di serie di un prodotto non è importante per i clienti che inoltrano la domanda alla società venditrice.
+- Se i numeri di batch o di serie fanno parte di una specifica per ordini di un cliente e vengono registrati nell'ordine con domanda, le operazioni di magazzino che trovano le quantità nel magazzino sono vincolate dai numeri specifici richiesti e non possono modificarle. Questo modello è definito *Batch-above\[location\]*.
 
 In questi scenari, la difficoltà risiede nel fatto che una sola gerarchia di prenotazioni di inventario può essere assegnata a ogni prodotto rilasciato. Pertanto, affinché WMS gestisca gli articoli tracciati, dopo che l'assegnazione della gerarchia determina quando il numero di batch o di serie deve essere prenotato (quando viene preso l'ordine con domanda o durante il lavoro di prelievo in magazzino), questa tempistica non può essere modificata su una base ad-hoc.
 
@@ -47,18 +50,18 @@ In questi scenari, la difficoltà risiede nel fatto che una sola gerarchia di pr
 
 ### <a name="business-scenario"></a>Scenario aziendale
 
-In questo scenario, una società utilizza una strategia di inventario in cui i prodotti finiti vengono tracciati mediante numeri di batch. Questa società utilizza anche il carico di lavoro WMS. Poiché questo carico di lavoro ha una logica adeguata per la pianificazione e l'esecuzione delle operazioni di prelievo e spedizione in magazzino per articoli abilitati per batch, la maggior parte degli articoli finiti è associata a una gerarchia di prenotazioni di inventario *Batch-below\[location\]*. Il vantaggio di questo tipo di impostazione operativa è che le decisioni (che sono in realtà decisioni di prenotazione) relative a quali batch prelevare e dove stoccarli nel magazzino vengono rinviate fino all'inizio delle operazioni di prelievo in magazzino. Non vengono effettuate quando l'ordine del cliente viene eseguito.
+In questo scenario, una società utilizza una strategia di inventario in cui i prodotti finiti vengono tracciati mediante numeri di batch. Questa società utilizza anche il carico di lavoro WMS. Poiché questo carico di lavoro ha una logica adeguata per la pianificazione e l'esecuzione delle operazioni di prelievo e spedizione in magazzino per articoli abilitati per batch, la maggior parte degli articoli finiti è associata a una gerarchia di prenotazioni di inventario "Batch-below\[location\]". Il vantaggio di questo tipo di impostazione operativa è che le decisioni (che sono in realtà decisioni di prenotazione) relative a quali batch prelevare e dove stoccarli nel magazzino vengono rinviate fino all'inizio delle operazioni di prelievo in magazzino. Non vengono effettuate quando l'ordine del cliente viene eseguito.
 
-Sebbene la gerarchia di prenotazioni *Batch-below\[location\]* soddisfi pienamente gli obiettivi di business della società, molti dei clienti usuali dell'azienda richiedono lo stesso batch che avevano acquistato in precedenza quando riordinano i prodotti. Pertanto, la società necessita di flessibilità nel modo in cui vengono gestite le regole di prenotazione di batch, di modo che, a seconda della domanda dei clienti per lo stesso articolo, si verifichino i seguenti comportamenti:
+Sebbene la gerarchia di prenotazioni "Batch-below\[location\]" soddisfi pienamente gli obiettivi di business della società, molti dei clienti usuali dell'azienda richiedono lo stesso batch che avevano acquistato in precedenza quando riordinano i prodotti. Pertanto, la società necessita di flessibilità nel modo in cui vengono gestite le regole di prenotazione di batch, di modo che, a seconda della domanda dei clienti per lo stesso articolo, si verifichino i seguenti comportamenti:
 
 - Un numero di batch può essere registrato e prenotato quando l'ordine viene preso dall'addetto alle vendite e non può essere modificato durante le operazioni di magazzino e/o preso da altre domande. Questo comportamento garantisce che il numero di batch ordinato sia spedito al cliente.
 - Se il numero di batch non è importante per il cliente, le operazioni di magazzino possono determinare un numero di batch durante il lavoro di prelievo, dopo l'esecuzione della registrazione e della prenotazione dell'ordine cliente.
 
 ### <a name="allowing-reservation-of-a-specific-batch-on-the-sales-order"></a>Consentire la prenotazione di un batch specifico nell'ordine cliente
 
-Per consentire la flessibilità desiderata nel comportamento di prenotazione di batch per gli articoli associati a una gerarchia di prenotazioni di inventario *Batch-below\[location\]*, i responsabili delle scorte devono selezionare la casella di controllo **Consenti prenotazione su ordine con domanda** per il livello **Numero batch** nella pagina **Gerarchie prenotazioni inventario**.
+Per consentire la flessibilità desiderata nel comportamento di prenotazione di batch per gli articoli associati a una gerarchia di prenotazioni di inventario "Batch-below\[location\]", i responsabili delle scorte devono selezionare la casella di controllo **Consenti prenotazione su ordine con domanda** per il livello **Numero batch** nella pagina **Gerarchie prenotazioni inventario**.
 
-![Rendere flessibile la gerarchia di prenotazioni di inventario.](media/Flexible-inventory-reservation-hierarchy.png)
+![Rendere flessibile la gerarchia di prenotazioni di inventario](media/Flexible-inventory-reservation-hierarchy.png)
 
 Quando il livello **Numero batch** nella gerarchia è selezionato, tutte le dimensioni al di sopra di quel livello e fino al livello **Ubicazione** verranno selezionate automaticamente. (per impostazione predefinita, tutte le dimensioni sopra il livello **Ubicazione** sono preselezionate). Questo comportamento riflette la logica in cui tutte le dimensioni nell'intervallo tra il numero di batch e l'ubicazione vengono automaticamente prenotate dopo la prenotazione di un numero di batch specifico nella riga ordine.
 
@@ -67,25 +70,25 @@ Quando il livello **Numero batch** nella gerarchia è selezionato, tutte le dime
 >
 > **Numero batch** e **Targa** sono gli unici livelli nella gerarchia che sono aperti per i criteri di prenotazione flessibili. In altre parole, non è possibile selezionare la casella di controllo **Consenti prenotazione su ordine con domanda** per il livello **Ubicazione** o **Numero di serie**.
 >
-> Se la gerarchia di prenotazioni include la dimensione numero di serie (che deve essere sempre inferiore al livello **Numero batch**) e la prenotazione specifica al batch per il numero di batch, il sistema continuerà a gestire le operazioni di prenotazione e prelievo di numeri di serie, in base alle regole che si applicano ai criteri di prenotazione *Serial-below\[location\]*.
+> Se la gerarchia di prenotazioni include la dimensione numero di serie (che deve essere sempre inferiore al livello **Numero batch**) e la prenotazione specifica al batch per il numero di batch, il sistema continuerà a gestire le operazioni di prenotazione e prelievo di numeri di serie, in base alle regole che si applicano ai criteri di prenotazione "Serial-below\[location\]".
 
-In qualsiasi momento, è possibile consentire la prenotazione specifica al batch per una gerarchia di prenotazioni *Batch-below\[location\]* esistente nella distribuzione. Questa modifica non avrà alcun effetto sulle prenotazioni e i lavori di magazzino aperti creati prima della modifica. Tuttavia, la casella di controllo **Consenti prenotazione su ordine con domanda** non può essere deselezionata se esistono operazioni di magazzino problematiche di tipo **Ordinato prenotato**, **Fisico prenotato** o **Ordinato** per uno o più articoli associati a quella gerarchia di prenotazioni.
+In qualsiasi momento, è possibile consentire la prenotazione specifica al batch per una gerarchia di prenotazioni "Batch-below\[location\]" esistente nella distribuzione. Questa modifica non avrà alcun effetto sulle prenotazioni e i lavori di magazzino aperti creati prima della modifica. Tuttavia, la casella di controllo **Consenti prenotazione su ordine con domanda** non può essere deselezionata se esistono operazioni di magazzino problematiche di tipo **Ordinato prenotato**, **Fisico prenotato** o **Ordinato** per uno o più articoli associati a quella gerarchia di prenotazioni.
 
 > [!NOTE]
 > Se la gerarchia di prenotazioni esistente di un articolo non consente la specifica del batch nell'ordine, è possibile riassegnarlo a una gerarchia di prenotazioni che consente la specifica del batch, a condizione che la struttura a livello di gerarchia sia la stessa in entrambe le gerarchie. Utilizzare la funzione **Modifica gerarchia prenotazioni per articoli** per eseguire la riassegnazione. Questa modifica potrebbe essere pertinente quando si desidera impedire la prenotazione flessibile di batch per un sottoinsieme di articoli tracciati in batch ma consentirla per il resto del portafoglio prodotti.
 
-Indipendentemente dalla selezione o meno della casella di controllo **Consenti prenotazione su ordine con domanda**, se non si desidera prenotare uno specifico numero di batch per l'articolo in una riga ordine, la logica delle operazioni di magazzino predefinita che è valida per una gerarchia di prenotazioni *Batch-below\[location\]* verrà comunque applicata.
+Indipendentemente dalla selezione o meno della casella di controllo **Consenti prenotazione su ordine con domanda**, se non si desidera prenotare uno specifico numero di batch per l'articolo in una riga ordine, la logica delle operazioni di magazzino predefinita che è valida per una gerarchia di prenotazioni "Batch-below\[location\]" verrà comunque applicata.
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Prenotare un numero di batch specifico per un ordine cliente
 
-Dopo l'impostazione di una gerarchia di prenotazioni di inventario *Batch-below\[location\]* di un articolo tracciato in batch per consentire la prenotazione di specifici numeri di batch negli ordini cliente, gli addetti agli ordini cliente possono prendere gli ordini dei clienti per lo stesso articolo in uno dei seguenti modi, a seconda della richiesta del cliente:
+Dopo l'impostazione di una gerarchia di prenotazioni di inventario "Batch-below\[location\] di un articolo tracciato in batch per consentire la prenotazione di specifici numeri di batch negli ordini cliente, gli addetti agli ordini cliente possono prendere gli ordini dei clienti per lo stesso articolo in uno dei seguenti modi, a seconda della richiesta del cliente:
 
 - **Immettere i dettagli dell'ordine senza specificare un numero di batch** - Questo approccio deve essere utilizzato quando la specifica del batch del prodotto non è importante per il cliente. Tutti i processi esistenti associati alla gestione di un ordine di questo tipo nel sistema rimangono invariati. Non sono richieste ulteriori considerazioni da parte degli utenti.
 - **Immettere i dettagli dell'ordine e prenotare un numero di batch specifico** - Questo approccio deve essere utilizzato quando il cliente richiede un batch specifico. In genere, i clienti richiedono un batch specifico quando riordinano un prodotto che hanno acquistato in precedenza. Questo tipo di prenotazione specifica al batch è denominato *prenotazione impegnata nell'ordine*.
 
 Il seguente set di regole è valido quando le quantità vengono elaborate e un numero di batch viene impegnato in un ordine specifico:
 
-- Per consentire la prenotazione di un numero di batch specifico per un articolo secondo i criteri di prenotazione *Batch-below\[location\]*, il sistema deve prenotare tutte le dimensioni fino all'ubicazione. Questo intervallo include in genere la dimensione della targa.
+- Per consentire la prenotazione di un numero di batch specifico per un articolo secondo i criteri di prenotazione "Batch-below\[location\]", il sistema deve prenotare tutte le dimensioni fino all'ubicazione. Questo intervallo include in genere la dimensione della targa.
 - Le direttive sull'ubicazione non vengono utilizzate quando si crea il lavoro di prelievo per una riga di vendita che utilizza la prenotazione di batch impegnata nell'ordine.
 - Durante l'elaborazione in magazzino del lavoro per i batch impegnati nell'ordine, né l'utente né il sistema possono modificare il numero di batch. (questa elaborazione include la gestione delle eccezioni).
 
@@ -119,7 +122,7 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
     | Magazzino | Numero batch | Ubicazione | Targa | Quantità |
     |-----------|--------------|----------|---------------|----------|
-    | 24        | B11          | BULK-001 | Nessuno          | 10       |
+    | 24        | B11          | BULK-001 | Nessuna          | 10       |
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
@@ -129,23 +132,23 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 2. Selezionare **Nuovo**.
 3. Nell'intestazione dell'ordine cliente, nel campo **Conto cliente**, immettere **US-003**.
 4. Aggiungere una riga per il nuovo articolo e immettere **10** come quantità. Assicurarsi che il campo **Magazzino** sia impostato su **24**.
-5. Nella scheda dettaglio **Righe ordine cliente** selezionare **Scorte** e quindi nel gruppo **Gestisci**, selezionare **Prenotazione batch**. La pagina **Prenotazione batch** mostra un elenco di batch disponibili per la prenotazione per la riga ordine. Per questo esempio, mostra una quantità **20** per il numero di batch **B11** e una quantità **10** per il numero di batch **B22**. Si noti che non è possibile accedere alla pagina **Prenotazione batch** da una riga se l'articolo in quella riga è associato alla gerarchia di prenotazioni *Batch-below\[location\]* a meno che non sia impostata per consentire la prenotazione specifica al batch.
+5. Nella scheda dettaglio **Righe ordine cliente** selezionare **Scorte** e quindi nel gruppo **Gestisci**, selezionare **Prenotazione batch**. La pagina **Prenotazione batch** mostra un elenco di batch disponibili per la prenotazione per la riga ordine. Per questo esempio, mostra una quantità **20** per il numero di batch **B11** e una quantità **10** per il numero di batch **B22**. Si noti che non è possibile accedere alla pagina **Prenotazione batch** da una riga se l'articolo in quella riga è associato alla gerarchia di prenotazioni "Batch-below\[location\]" a meno che non sia impostata per consentire la prenotazione specifica al batch.
 
     > [!NOTE]
     > Per prenotare un batch specifico per un ordine cliente, è necessario utilizzare la pagina **Prenotazione batch**.
     >
-    > Se si inserisce il numero di batch direttamente nella riga ordine cliente, il sistema si comporterà come se si fosse immesso un valore di batch specifico per un articolo che è soggetto ai criteri di prenotazione *Batch-below\[location\]*. Quando si salva la riga, viene visualizzato un messaggio di avviso. Se si conferma che il numero di batch deve essere specificato direttamente nella riga ordine, la riga non verrà gestita dalla logica di gestione del magazzino normale.
+    > Se si inserisce il numero di batch direttamente nella riga ordine cliente, il sistema si comporterà come se si fosse immesso un valore di batch specifico per un articolo che è soggetto ai criteri di prenotazione "Batch-below\[location\]". Quando si salva la riga, viene visualizzato un messaggio di avviso. Se si conferma che il numero di batch deve essere specificato direttamente nella riga ordine, la riga non verrà gestita dalla logica di gestione del magazzino normale.
     >
-    > Se si prenota la quantità nella pagina **Prenotazione**, non verrà prenotato alcun batch specifico e l'esecuzione delle operazioni di magazzino per la riga seguirà le regole applicabili in base ai criteri di prenotazione *Batch-below\[location\]*.
+    > Se si prenota la quantità nella pagina **Prenotazione**, non verrà prenotato alcun batch specifico e l'esecuzione delle operazioni di magazzino per la riga seguirà le regole applicabili in base ai criteri di prenotazione "Batch-below\[location\]".
 
-    In genere, questa pagina funziona e interagisce nello stesso modo in cui funziona e interagisce con gli articoli a cui è associata una gerarchia di prenotazioni di tipo *Batch-above\[location\]*. Tuttavia, si applicano le seguenti eccezioni:
+    In genere, questa pagina funziona e interagisce nello stesso modo in cui funziona e interagisce con gli articoli a cui è associata una gerarchia di prenotazioni di tipo "Batch-above\[location\]". Tuttavia, si applicano le seguenti eccezioni:
 
     - La scheda dettaglio **Numeri di batch impegnati nella riga di origine** mostra i numeri di batch prenotati per la riga ordine. I valori batch nella griglia verranno visualizzati durante l'intero ciclo di evasione della riga ordine, comprese le fasi di elaborazione del magazzino. Invece, nella scheda dettaglio **Panoramica**, la prenotazione normale nella riga ordine (ovvero la prenotazione effettuata per le dimensioni superiori al livello **Ubicazione**) viene visualizzata nella griglia fino al momento in cui viene creato il lavoro di magazzino. L'entità di lavoro gestisce quindi la prenotazione nella riga e questa non viene più visualizzata nella pagina. La scheda dettaglio **Numeri batch impegnati nella riga di origine** consente al gestore degli ordini cliente di visualizzare i numeri di batch che sono stati impegnati nell'ordine del cliente in qualsiasi momento durante il relativo ciclo di vita, fino alla fatturazione.
-    - Oltre a prenotare un batch specifico, un utente può selezionare manualmente la targa e l'ubicazione specifiche del batch anziché lasciare al sistema il compito di selezionarli automaticamente. Questa funzionalità è correlata alla progettazione del meccanismo di prenotazione di batch impegnati nell'ordine. Come menzionato precedentemente, quando un numero di batch specifico viene prenotato per un articolo secondo i criteri di prenotazione *Batch-below\[location\]*, il sistema deve prenotare tutte le dimensioni fino all'ubicazione. Pertanto, il lavoro di magazzino avrà le stesse dimensioni di immagazzinamento prenotate dagli utenti che hanno lavorato sugli ordini e a volte potrebbe non rappresentare la posizione di stoccaggio degli articoli più conveniente o addirittura possibile per le operazioni di prelievo. Se i gestori degli ordini sono consapevoli dei vincoli inerenti al magazzino, potrebbero voler selezionare manualmente le targhe e le ubicazioni quando prenotano un batch. In questo caso, l'utente deve utilizzare la funzionalità **Visualizza dimensioni** nell'intestazione della pagina e deve aggiungere l'ubicazione e la targa nella griglia della scheda dettaglio **Panoramica**.
+    - Oltre a prenotare un batch specifico, un utente può selezionare manualmente la targa e l'ubicazione specifiche del batch anziché lasciare al sistema il compito di selezionarli automaticamente. Questa funzionalità è correlata alla progettazione del meccanismo di prenotazione di batch impegnati nell'ordine. Come menzionato precedentemente, quando un numero di batch specifico viene prenotato per un articolo secondo i criteri di prenotazione "Batch-below\[location\]", il sistema deve prenotare tutte le dimensioni fino all'ubicazione. Pertanto, il lavoro di magazzino avrà le stesse dimensioni di immagazzinamento prenotate dagli utenti che hanno lavorato sugli ordini e a volte potrebbe non rappresentare la posizione di stoccaggio degli articoli più conveniente o addirittura possibile per le operazioni di prelievo. Se i gestori degli ordini sono consapevoli dei vincoli inerenti al magazzino, potrebbero voler selezionare manualmente le targhe e le ubicazioni quando prenotano un batch. In questo caso, l'utente deve utilizzare la funzionalità **Visualizza dimensioni** nell'intestazione della pagina e deve aggiungere l'ubicazione e la targa nella griglia della scheda dettaglio **Panoramica**.
 
 6. Nella pagina **Prenotazione batch**, selezionare la riga per il batch **B11**, quindi selezionare **Prenota riga**. Non esiste una logica designata per l'assegnazione di ubicazioni e targhe durante la prenotazione automatica. È possibile inserire manualmente la quantità nel campo **Prenotazione**. Si noti che nella scheda dettaglio **Numeri batch impegnati nella riga di origine** il batch **B11** è visualizzato come **Impegnato**.
 
-    ![Impegnare un numero di batch specifico in una riga ordine cliente nella pagina Prenotazione batch.](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Impegnare un numero di batch specifico in una riga ordine cliente nella pagina Prenotazione batch](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > La prenotazione della quantità in una riga ordine cliente può essere effettuata su più batch. Allo stesso modo, la prenotazione dello stesso batch può essere effettuata in più ubicazioni e targhe (se le targhe sono abilitate per le ubicazioni).
@@ -154,7 +157,7 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
 
 7. Selezionare **Gestione informazioni sul prodotto** \> **Prodotti** \> **Prodotti rilasciati**. Selezionare l'articolo, quindi selezionare **Gestione articoli** \> **Visualizza** \> **Transazioni**.
 
-    ![Prenotazione impegnata dall'ordine come tipo di operazione di magazzino.](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Prenotazione impegnata nell'ordine come tipo di operazione di magazzino](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Esaminare le operazioni di magazzino dell'articolo correlate alla prenotazione nella riga ordine cliente.
 
@@ -170,9 +173,9 @@ Per questo esempio, i dati dimostrativi devono essere installati ed è necessari
     Il lavoro che gestisce l'operazione di prelievo per le quantità batch impegnate nella riga ordine cliente presenta le seguenti caratteristiche:
 
     - Per creare lavoro, il sistema utilizza modelli di lavoro ma non direttive sull'ubicazione. Tutte le impostazioni standard definite per i modelli di lavoro, come un numero massimo di righe di prelievo o un'unità di misura specifica, verranno applicate per determinare quando è necessario creare un nuovo lavoro. Tuttavia, le regole associate alle direttive sull'ubicazione per l'identificazione delle ubicazioni di prelievo non vengono prese in considerazione poiché la prenotazione impegnata nell'ordine specifica già tutte le dimensioni inventariali. Tali dimensioni inventariali includono le dimensioni a livello di stoccaggio in magazzino. Pertanto, il lavoro eredita tali dimensioni senza dover consultare le direttive sull'ubicazione.
-    - Il numero di batch non viene visualizzato nella riga di prelievo (come nel caso della riga di lavoro creata per un articolo a cui è associata la gerarchia di prenotazioni *Batch-below\[location\]*). Invece, il numero di batch "da" e tutte le altre dimensioni di immagazzinamento vengono visualizzati nell'operazione di magazzino della riga lavoro a cui si fa riferimento dalle operazioni di magazzino associate.
+    - Il numero di batch non viene visualizzato nella riga di prelievo (come nel caso della riga di lavoro creata per un articolo a cui è associata la gerarchia di prenotazioni "Batch-above\[location\]"). Invece, il numero di batch "da" e tutte le altre dimensioni di immagazzinamento vengono visualizzati nell'operazione di magazzino della riga lavoro a cui si fa riferimento dalle operazioni di magazzino associate.
 
-        ![Transazione di magazzino per lavori originati da una prenotazione impegnata dall'ordine.](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Operazione di magazzino per lavori originati da una prenotazione impegnata nell'ordine](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - Dopo aver creato il lavoro, l'operazione di magazzino dove il campo **Riferimento** è impostato su **Prenotazione impegnata nell'ordine** viene rimossa. L'operazione di magazzino in cui il campo **Riferimento** è impostato su **Lavoro** ora detiene la prenotazione fisica in tutte le dimensioni inventariali della quantità.
 
@@ -207,15 +210,15 @@ Prima di poter utilizzare la prenotazione flessibile della targa, due funzionali
 
 Per abilitare la prenotazione della targa su un ordine, è necessario selezionare la casella di controllo **Consenti prenotazione su ordine con domanda** per il livello **Targa** nella pagina **Gerarchie prenotazioni inventario** per la gerarchia associata all'articolo pertinente.
 
-![Pagina delle gerarchie di prenotazione dell'inventario per una gerarchia di prenotazione targa flessibile.](media/Flexible-LP-reservation-hierarchy.png)
+![Pagina delle gerarchie di prenotazione dell'inventario per una gerarchia di prenotazione flessibile della targa](media/Flexible-LP-reservation-hierarchy.png)
 
 È possibile abilitare la prenotazione della targa sull'ordine in qualsiasi fase della distribuzione. Questa modifica non avrà alcun effetto sulle prenotazioni o i lavori di magazzino aperti creati prima della modifica. Tuttavia, non è possibile deselezionare la casella di controllo **Consenti prenotazione su ordine con domanda** se esistono operazioni di magazzino con stato di uscita del tipo *Ordinato prenotato*, *Fisico prenotato* o *Ordinato* per uno o più articoli associati a quella gerarchia di prenotazioni.
 
 Anche se la casella di controllo **Consenti prenotazione su ordine con domanda** è selezionata per il livello **Targa**, è comunque possibile *non* prenotare una targa specifica sull'ordine. In questo caso, si applica la logica delle operazioni di magazzino predefinita valida per la gerarchia di prenotazione.
 
-Per prenotare una targa specifica, è necessario utilizzare un processo [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). Nell'applicazione puoi effettuare questa prenotazione direttamente da un ordine cliente utilizzando l'opzione **Prenotazioni impegnate su ordine per targa** del comando **Apri in Excel**. Nei dati dell'entità aperti nel componente aggiuntivo di Excel, è necessario inserire i seguenti dati relativi alla prenotazione e quindi selezionare **Pubblica** per inviare nuovamente i dati a Supply Chain Management:
+Per prenotare una targa specifica, è necessario utilizzare un processo [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). Nell'applicazione, è possibile effettuare questa prenotazione direttamente da un ordine cliente utilizzando l'opzione **Prenotazioni impegnate su ordine per targa** del comando **Apri in Excel**. Nei dati dell'entità aperti nel componente aggiuntivo di Excel, è necessario inserire i seguenti dati relativi alla prenotazione e quindi selezionare **Pubblica** per inviare nuovamente i dati a Supply Chain Management:
 
-- Riferimento (solo il valore *Ordine cliente* è supportato).
+- Riferimento (solo il valore *Ordine di vendita* è supportato).
 - Numero ordine (il valore può essere derivato dal lotto).
 - ID lotto
 - Targa
@@ -227,7 +230,7 @@ Quando la riga dell'ordine cliente che utilizza una prenotazione della targa imp
 
 Se un articolo di lavoro di magazzino è costituito da righe uguali a un pallet completo e include quantità impegnate nella targa, è possibile ottimizzare il processo di prelievo utilizzando una voce di menu del dispositivo mobile in cui l'opzione **Gestisci per targa** è impostata su *Sì*. Un addetto al magazzino può quindi eseguire la scansione di una targa per completare un prelievo invece di eseguire la scansione degli articoli dal lavoro uno per uno.
 
-![Voce di menu del dispositivo mobile in cui l'opzione Gestisci per targa è impostata su Sì.](media/Handle-by-LP-menu-item.png)
+![Voce di menu del dispositivo mobile in cui l'opzione Gestisci per targa è impostata su Sì](media/Handle-by-LP-menu-item.png)
 
 Poiché la funzionalità **Gestisci per targa** non supporta il lavoro che copre più pallet, è meglio avere un elemento di lavoro separato per diverse targhe. Per utilizzare questo approccio, aggiungere il campo **ID targa impegnata dall'ordine** come interruzione di intestazione di lavoro della pagina **Modello di lavoro**.
 
@@ -249,7 +252,7 @@ Questo scenario fa riferimento a valori e record inclusi nei dati dimostrativi s
 1. Nel campo **Nome**, immettere un valore (ad esempio *FlexibleLP*).
 1. Nel campo **Descrizione**, immettere un valore (ad esempio, *Prenotazione targa flessibile*).
 1. Nell'elenco **Selezionato**, selezionare **Numero di lotto**, **Numero di serie** e **Proprietario**.
-1. Selezionare il pulsante **Rimuovi** ![Freccia INDIETRO](media/backward-button.png) per spostare i record selezionati nell'elenco **Disponibili**.
+1. Selezionare il pulsante **Rimuovi** ![freccia indietro](media/backward-button.png) per spostare i record selezionati sull'elenco **Disponibili**.
 1. Selezionare **OK**.
 1. Nella riga per il livello di dimensione **Targa**, selezionare la casella di controllo **Consenti prenotazione su ordine con domanda**. Il livello **Targa** viene selezionato automaticamente e non è possibile deselezionare la casella di controllo corrispondente.
 1. Selezionare **Salva**.
@@ -407,7 +410,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Ignora ubicazione</strong> nell'app per dispositivi mobili Gestione magazzino quando inizi il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app di magazzino quando si inizia il lavoro di prelievo.</li>
 <li>Selezionare <strong>Suggerisci</strong>.</li>
 <li>Confermare la nuova ubicazione suggerita in base alla disponibilità della quantità batch.</li>
 </ol>
@@ -421,10 +424,10 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuna</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Ignora ubicazione</strong> nell'app per dispositivi mobili Gestione magazzino quando inizi il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Ignora ubicazione</strong> nell'app di magazzino quando si inizia il lavoro di prelievo.</li>
 <li>Immettere un'ubicazione manualmente.</li>
 </ol>
 </td>
@@ -452,7 +455,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Completo</strong> nell'app per dispositivi mobili Gestione magazzino quando elabori il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Completo</strong> nell'app di magazzino quando si elabora il lavoro di prelievo.</li>
 <li>Nel campo <strong>Qtà prelievo</strong>, immettere una quantità parziale del prelievo necessario per indicare la piena capacità.</li>
 </ol>
 </td>
@@ -498,7 +501,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuno</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>La quantità viene prenotata nuovamente per lo stesso batch e per le stesse ubicazione e targa (se l'ubicazione è controllata dalla targa) immesse durante l'annullamento del prelievo.</td>
@@ -527,7 +530,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Inizia un movimento nell'app per dispositivi mobili Gestione magazzino.</li>
+<li>Avviare un movimento sull'app di magazzino.</li>
 <li>Immettere le ubicazioni "da" e "a".</li>
 </ol></td>
 <td>
@@ -539,7 +542,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Tutte le prenotazioni esistenti interessate dal movimento di quantità dall'ubicazione specificata vengono ripetute per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuno</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>Tutte le prenotazioni esistenti interessate dal movimento di quantità dall'ubicazione indicata vengono ripetute per lo stesso batch e per la nuova targa e ubicazione "a" (se l'ubicazione è controllata dalla targa).</td>
@@ -573,7 +576,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuno</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>La quantità viene prenotata nuovamente per lo stesso batch e per l'ubicazione e la targa in cui la quantità è stata lasciata al momento dello storno.</td>
@@ -595,7 +598,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuno</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>La quantità viene prenotata nuovamente per lo stesso batch e per l'ubicazione e la targa a cui la quantità è stata assegnata al momento dello storno.</td>
@@ -643,7 +646,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Prelievo in difetto</strong> nell'app per dispositivi mobili Gestione magazzino quando esegui il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, immettere <strong>Nessuna riallocazione</strong>.</li>
 </ol>
@@ -657,7 +660,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuno</td>
 <td>Vedere la riga precedente.</td>
 <td>
 <ul>
@@ -672,7 +675,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Prelievo in difetto</strong> nell'app per dispositivi mobili Gestione magazzino quando esegui il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, immettere <strong>Nessuna riallocazione</strong>.</li>
 </ol>
@@ -686,7 +689,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Tutte le prenotazioni esistenti interessate dalla rettifica della quantità nell'ubicazione del prelievo in difetto vengono ripetute per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuno</td>
 <td>Vedere la riga precedente.</td>
 <td>Vedere la riga precedente.</td>
 <td>Tutte le prenotazioni esistenti interessate dalla rettifica della quantità nell'ubicazione del prelievo in difetto vengono rimosse per lo stesso batch.</td>
@@ -696,7 +699,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Sì</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Prelievo in difetto</strong> nell'app per dispositivi mobili Gestione magazzino quando esegui il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 <li>Selezionare l'ubicazione/targa nell'elenco.</li>
@@ -719,10 +722,10 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 </tr>
 <tr>
 <td>Un'eccezione lavoro di tipo <strong>Prelievo in difetto</strong> è impostata, dove <strong>Riallocazione articolo</strong> = <strong>Manuale</strong>, <strong>Correggi magazzino</strong> = <strong>Sì</strong> e <strong>Rimuovi prenotazioni</strong> = <strong>No</strong>. Inoltre, l'opzione <strong>Consenti riallocazione manuale articolo</strong> è abilitata per il lavoratore.</td>
-<td>No</td>
+<td>Nessuna</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Prelievo in difetto</strong> nell'app per dispositivi mobili Gestione magazzino quando esegui il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 </ol>
@@ -732,10 +735,10 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 </tr>
 <tr>
 <td>Un'eccezione lavoro di tipo <strong>Prelievo in difetto</strong> è impostata, dove <strong>Riallocazione articolo</strong> = <strong>Manuale</strong>, <strong>Correggi magazzino</strong> = <strong>Sì</strong> e <strong>Rimuovi prenotazioni</strong> = <strong>Sì</strong>. Inoltre, l'opzione <strong>Consenti riallocazione manuale articolo</strong> è abilitata per il lavoratore.</td>
-<td>No</td>
+<td>Nessuna</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Prelievo in difetto</strong> nell'app per dispositivi mobili Gestione magazzino quando esegui il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione manuale</strong>.</li>
 <li>Selezionare l'ubicazione/targa nell'elenco.</li>
@@ -759,7 +762,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>Non applicabile</td>
 <td>
 <ol>
-<li>Seleziona la voce di menu <strong>Prelievo in difetto</strong> nell'app per dispositivi mobili Gestione magazzino quando esegui il lavoro di prelievo.</li>
+<li>Selezionare la voce di menu <strong>Prelievo in difetto</strong> nell'app di magazzino quando si esegue il lavoro di prelievo.</li>
 <li>Nel campo <strong>Quantità prelievo in difetto</strong> immettere <strong>0</strong> (zero).</li>
 <li>Nel campo <strong>Motivo</strong>, selezionare <strong>Prelievo in difetto con riallocazione automatica</strong>.</li>
 </ol>
@@ -807,7 +810,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 </td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuno</td>
 <td>Vedere la riga precedente.</td>
 <td>Le modifiche allo stato dell'inventario non sono consentite per le quantità prenotate per il lavoro.</td>
 <td>
@@ -833,7 +836,7 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
 <td>La quantità viene prenotata nuovamente per lo stesso batch. Il sistema assegna a caso un'ubicazione e una targa (se l'ubicazione è controllata dalla targa) in cui la quantità è disponibile.</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nessuno</td>
 <td>Vedere la riga precedente.</td>
 <td>Le modifiche allo stato dell'inventario non sono consentite per le quantità prenotate per il lavoro.</td>
 <td>Le modifiche allo stato dell'inventario non sono consentite.</td>
@@ -851,12 +854,3 @@ Le tabelle seguenti forniscono una panoramica che mostra come il sistema gestisc
     - Ordini di trasferimento e prelievo di materie prime
 
 - La regola di consolidamento dei contenitori per l'imballaggio per unità direttiva presenta dei limiti. Per le prenotazioni impegnate in ordini, si consiglia di non utilizzare modelli di build contenitore dove il campo **Imballa per unità direttiva** è abilitato. Nella progettazione attuale, le direttive di ubicazione non vengono utilizzate durante la creazione di lavoro di magazzino. Pertanto, solo l'unità più bassa nel gruppo di sequenze unità (l'unità di magazzino) viene applicata durante il passaggio ondata di containerizzazione.
-
-## <a name="see-also"></a>Vedere anche
-
-- [Numeri batch in Gestione magazzino](/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
-- [Prenotare lo stesso lotto per un ordine cliente](../sales-marketing/reserve-same-batch-sales-order.md)
-- [Prelevare il batch meno recente su un dispositivo mobile](pick-oldest-batch.md)
-- [Conferma batch e targa](batch-and-license-plate-confirmation.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: Flusso di lavoro cliente
 description: In questo argomento vengono fornite informazioni sul flusso di lavoro del cliente. È possibile modificare campi specifici per un cliente e inviare tali modifiche per l'approvazione utilizzando il flusso di lavoro prima che vengano aggiunte al cliente.
-author: abruer
+author: mikefalkner
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c74f18997b390d70b5012199fab1adc9734994f4
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753828"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4459353"
 ---
 # <a name="customer-workflow"></a>Flusso di lavoro cliente
 
@@ -50,7 +53,7 @@ Quando si modifica un campo che viene abilitato per il flusso di lavoro, viene v
 
 Ogni volta che si modifica un campo abilitato per il flusso di lavoro, tale campo viene aggiunto all'elenco delle modifiche proposte. Per eliminare il valore proposto per un campo, utilizzare il pulsante **Elimina** accanto al campo nell'elenco. Per eliminare tutte le modifiche, utilizzare il pulsante **Ignora tutte le modifiche** in fondo alla pagina. Selezionare **OK** per chiudere la pagina.
 
-Dopo avere almeno una modifica proposta, vengono visualizzati due menu aggiuntivi nel riquadro Azioni: **Modifiche proposte** e **Flusso di lavoro**.
+Dopo avere almeno una modifica proposta, vengono visualizzati due menu aggiuntivi nel riquadro azioni: **Modifiche proposte** e **Flusso di lavoro**.
 
 1. Selezionare **Modifiche proposte** per aprire la pagina **Modifiche proposte** ed esaminare le modifiche.
 2. Selezionare **Flusso di lavoro \> Invia** per inviare le modifiche al flusso di lavoro.
@@ -58,6 +61,3 @@ Dopo avere almeno una modifica proposta, vengono visualizzati due menu aggiuntiv
     Lo stato sulla pagina è passato a **Modifiche in attesa di approvazione**.
 
 Il flusso di lavoro segue il processo standard del flusso di lavoro nell'applicazione. L'approvatore viene reindirizzato alla pagina **Cliente**, in cui le modifiche possono essere riviste nella pagina **Modifiche proposte** e selezionare **Flusso di lavoro \> Approva** per approvare il flusso di lavoro. Una volta completate tutte le approvazioni, i campi vengono aggiornati con i valori proposti.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

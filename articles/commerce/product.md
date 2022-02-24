@@ -2,9 +2,11 @@
 title: Aggiungere suggerimenti sul prodotto su POS
 description: In questo argomento viene descritto l'utilizzo dei suggerimenti sul prodotto in un dispositivo POS .
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763742"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969928"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Aggiungere suggerimenti sul prodotto su POS
 
@@ -39,7 +41,7 @@ I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS. Sono d
 
     - Se un associato del punto vendita visita una pagina **Dettagli prodotto** quando visualizza le transazioni precedenti su più canali diversi, il servizio dei suggerimenti suggerisce articoli aggiuntivi che è probabile vengano acquistati insieme.
 
-    [![Suggerimenti sulla pagina Dettagli prodotto.](./media/proddetails.png)](./media/proddetails.png)
+    [![Suggerimenti sulla pagina Dettagli prodotto](./media/proddetails.png)](./media/proddetails.png)
 
 2. Nella pagina **Transazione**:
 
@@ -48,7 +50,7 @@ I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS. Sono d
     > [!NOTE]
     > Per visualizzare i suggerimenti nella pagina **Transazione**, il rivenditore deve aggiornare il layout dello schermo in Dynamics 365 Commerce. Il controllo **Suggerimenti** deve essere rilasciato nella pagina **Transazione**.
 
-    [![Suggerimenti nella pagina Transazione.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Suggerimenti nella pagina Transazione](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurare Commerce per abilitare i suggerimenti POS
 
@@ -89,6 +91,3 @@ Per impostare i suggerimenti sul prodotto, effettuare le seguenti operazioni:
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

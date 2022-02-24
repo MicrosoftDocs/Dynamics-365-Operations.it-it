@@ -2,22 +2,25 @@
 title: Meccanismo di reverse charge per schema IVA/GST
 description: In questo argomento viene descritto come configurare l'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei, l'Arabia Saudita e Singapore.
 author: epodkolz
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594720"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515052"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Meccanismo di reverse charge per schema IVA/GST
 
@@ -45,6 +48,7 @@ Per applicare l'IVA reverse charge, è necessario completare le seguenti imposta
 Si consiglia di utilizzare codici IVA separati per le operazioni di vendita e le operazioni di acquisto.
 
 <table>
+<body>
 <tr>
 <td><strong>Codice IVA per le vendite</strong></td>
 <td>Creare un codice IVA per le operazioni di vendita in reverse charge (<strong>Imposta</strong> &gt; <strong>Imposte indirette</strong> &gt; <strong>IVA</strong> &gt; <strong>Codici IVA</strong>).
@@ -61,6 +65,7 @@ Il codice IVA negativo deve essere assegnato a una fascia IVA articoli, che verr
 <p>Per ulteriori informazioni, vedere la sezione successiva &quot;Impostare fasce IVA e fasce IVA articoli.&quot;</p>
 </td>
 </tr>
+</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Impostare fasce IVA e fasce IVA articoli
@@ -119,7 +124,7 @@ Se una fattura di acquisto con l'IVA reverse charge viene registrata, due transa
 
 Nella schermata seguente, una transazione ha la direzione **IVA a credito** e un'altra transazione ha la direzione **IVA a debito**. 
 
-![IVA registrata.](media/apac-sau-posted-sales-tax.png)
+![IVA registrata](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>Abilitare il meccanismo di reverse charge per la funzionalità schema IVA/GST
 Nell'area di lavoro **Gestione funzionalità** trovare la funzionalità e selezionare **Abilita**.
@@ -132,6 +137,3 @@ Saranno disponibili le seguenti pagine e voci di menu relative all'impostazione 
  - **Parametri per il commercio estero** (**Imposta** > **Impostazione** > **IVA** > **Commercio estero** > **Parametri per il commercio estero**). Vedere [Impostare le proprietà del paese/area geografica](#Set-up-Country/region-properties).
 
 La casella di controllo **Reverse charge** sarà disponibile nelle pagine **Gruppo IVA** e **IVA registrata**. Per ulteriori informazioni, vedere le sezioni [Impostare fasce IVA e fasce IVA articoli](#sales-tax-item-sales-tax-groups), [Reverse charge su una fattura di vendita](#reverse-charge-sale) e [Reverse charge su una fattura di acquisto](#reverse-charge-purchase).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

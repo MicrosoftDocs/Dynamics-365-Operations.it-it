@@ -2,30 +2,36 @@
 title: Verificare l'accessibilità del contenuto della pagina
 description: Questo argomento descrive come verificare l'accessibilità del contenuto della pagina in Microsoft Dynamics 365 Commerce.
 author: josaw1
+manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6f92d5c34896e284a40a4806cd83e469c2db4c9181c919d2d967dacc84076201
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748450"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4413582"
 ---
 # <a name="verify-page-content-accessibility"></a>Verificare l'accessibilità del contenuto della pagina
+
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come verificare l'accessibilità del contenuto della pagina in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Al termine della modifica di una pagina, è necessario assicurarsi che il contenuto sia accessibile a tutti sul Web. Negli strumenti di creazione di Commerce, è possibile verificare facilmente l'accessibilità del contenuto della pagina utilizzando il servizio [Microsoft Accessibility Insights](https://accessibilityinsights.io/). Questo servizio verifica il contenuto della tua pagina rispetto alle ultime linee guida sull'[accessibilità al World Wide Web Consortium (W3C)](https://www.w3.org/standards/webdesign/accessibility).
 
@@ -79,8 +85,3 @@ Per utilizzare il servizio [Microsoft Accessibility Insights](https://accessibil
 [Migliorare una pagina prodotto](enrich-product-page.md)
 
 [Migliorare una pagina di destinazione di categoria](enrich-category-page.md)
-
-[Creare pagine di e-commerce dinamiche in base ai parametri URL](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

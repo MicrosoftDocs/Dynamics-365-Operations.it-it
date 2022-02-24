@@ -2,24 +2,27 @@
 title: Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
 description: In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxBookSection, TaxGroup
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 261314
 ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 43cfeee75596207e431d20f227acd026c4649e5015faad0a2b3c6236b0741b0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12689c1fac271846e6b6a0f60d4113229e23d126
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778838"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408079"
 ---
 # <a name="split-payment-for-invoices-issued-to-the-public-administration"></a>Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
 
@@ -107,6 +110,3 @@ Scissione dei pagamenti IVA
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

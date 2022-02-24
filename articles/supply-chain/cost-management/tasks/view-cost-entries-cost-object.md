@@ -2,24 +2,27 @@
 title: Visualizzare voci di costo per un oggetto di costo
 description: La procedura mostra come visualizzare le voci di costo per un oggetto di costo.
 author: AndersGirke
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventValueTrans
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e99d350abd810045b6b5b4c840f67d21c9d5e39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b809c66243d3274bd06b72173ecf4f8a6c04ad4a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569867"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430909"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Visualizzare voci di costo per un oggetto di costo
 
@@ -36,6 +39,3 @@ La procedura mostra come visualizzare le voci di costo per un oggetto di costo. 
 7. Utilizzare il filtro rapido per filtrare il campo Numero in base al valore 'p000031'.
     * Se le voci di costo sono vuote, impostare la data iniziale su 31 gennaio 2012 e la data finale su 31 dicembre 2012.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

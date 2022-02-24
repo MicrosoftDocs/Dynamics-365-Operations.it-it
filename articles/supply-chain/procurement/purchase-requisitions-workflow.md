@@ -1,10 +1,12 @@
 ---
 title: flusso di lavoro delle richieste di acquisto
 description: Il processo del flusso di lavoro fa avanzare le richieste di acquisto nei vari passaggi della procedura di revisione, dallo stato iniziale di Bozza fino allo stato finale di Approvata. Nel momento in cui si crea e si invia una richiesta di acquisto per la revisione, ha inizio il processo del flusso di lavoro. In seguito all'approvazione della richiesta di acquisto, è possibile generare un ordine fornitore per le righe della richiesta di acquisto e inviarlo al fornitore per evasione dell'ordine.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569459"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021982"
 ---
 # <a name="purchase-requisition-workflow"></a>flusso di lavoro delle richieste di acquisto
 
@@ -51,7 +53,7 @@ La figura di seguito mostra i possibili passaggi di una richiesta di acquisto ne
 -   **Addetto acquisti**: utente che esegue una revisione dell'approvvigionamento e può approvare il documento.
 -   **Il superiore del richiedente**: utente che esegue una revisione manageriale e può approvare il documento.
 
-![Processo di revisione del flusso di lavoro della richiesta di acquisto.](./media/purchreqworkflowoverview_submission.gif)  
+![Processo di revisione del flusso di lavoro della richiesta di acquisto](./media/purchreqworkflowoverview_submission.gif)  
 In questo esempio il processo del flusso di lavoro per la richiesta di acquisto include i passaggi seguenti:
 
 1.  Il preparatore invia una richiesta di acquisto per la revisione.
@@ -74,7 +76,7 @@ I ruoli seguenti sono inclusi nel processo del flusso di lavoro per questo esemp
 -   **Responsabile reparto**: utente che esegue una revisione di spesa e può approvare il documento.
 -   **Responsabile gruppo**: utente che esegue una revisione di autorizzazione della firma e può approvare il documento.
 
-![Processo di revisione del flusso di lavoro per la riga della richiesta di acquisto.](./media/purchreqlineworkflowoverview.gif)  
+![Processo di revisione del flusso di lavoro per la righe della richiesta di acquisto](./media/purchreqlineworkflowoverview.gif)  
 In questo esempio il processo del flusso di lavoro per le righe della richiesta di acquisto include i passaggi seguenti:
 
 1.  Il preparatore invia una richiesta di acquisto per la revisione. Ogni riga viene inviata al revisore configurato per riceverla nel processo del flusso di lavoro.
@@ -105,7 +107,8 @@ Non è necessario definire configurazioni del revisore spese. È possibile invec
 
 Per utilizzare uno dei revisori spese definiti in un flusso di lavoro, è necessario impostare l'opzione **Tipo di partecipante** su **Partecipanti alla spesa** nelle proprietà **Assegnazione** dell'elemento del flusso di lavoro rilevante.
 
-## <a name="additional-resources"></a>Risorse aggiuntive
+<a name="additional-resources"></a>Risorse aggiuntive
+--------
 
 [Creare una richiesta per il consumo](tasks/create-requisition-consumption.md)
 
@@ -117,6 +120,3 @@ Per utilizzare uno dei revisori spese definiti in un flusso di lavoro, è necess
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

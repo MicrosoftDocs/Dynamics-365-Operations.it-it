@@ -94,6 +94,3 @@ Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi
 Con l'aggiornamento 25 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando avviate da un evento.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

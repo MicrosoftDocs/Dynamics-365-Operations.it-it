@@ -1,33 +1,37 @@
 ---
 title: Impostare i materiali pericolosi
-description: Questo argomento spiega come impostare i dati necessari per classificare gli articoli come materiali pericolosi. Quando crei un ordine cliente che include un articolo classificato come materiale pericoloso, il sistema genera la documentazione relativa ai materiali pericolosi per l'ordine cliente quando viene spedito.
-author: t-benebo
+description: Questo argomento spiega come impostare i dati necessari per classificare gli articoli come materiali pericolosi. Quando crei un ordine di vendita che include un articolo classificato come materiale pericoloso, il sistema genera la documentazione relativa ai materiali pericolosi per l'ordine di vendita quando viene spedito.
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778011"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431333"
 ---
 # <a name="set-up-hazardous-materials"></a>Impostare i materiali pericolosi
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Per utilizzare la funzionalità relativa ai materiali pericolosi, è necessario prima impostare i dati necessari per classificare gli articoli come materiali pericolosi. Pertanto quando crei un ordine cliente che include un articolo classificato come materiale pericoloso, il sistema genera la documentazione relativa ai materiali pericolosi per l'ordine cliente quando viene spedito.
+Per utilizzare la funzionalità relativa ai materiali pericolosi, è necessario prima impostare i dati necessari per classificare gli articoli come materiali pericolosi. Pertanto quando crei un ordine di vendita che include un articolo classificato come materiale pericoloso, il sistema genera la documentazione relativa ai materiali pericolosi per l'ordine di vendita quando viene spedito.
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Attivare la funzione relativa ai materiali pericolosi per il sistema
 
-A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla o disabilitarla se necessario. La funzione viene elencata come:
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione informazioni sul prodotto*
 - **Nome funzionalità:** *Informazioni sul prodotto con materiali pericolosi e documentazione di spedizione*
@@ -60,19 +64,19 @@ Per impostare le normative sui materiali pericolosi, andare a **Gestione informa
 
 Ogni normativa ha un codice e una descrizione. Nella seguente tabella vengono illustrati i campi disponibili nell'intestazione.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Codice normativa | Immettere un codice per identificare il record di normativa sui materiali pericolosi. |
-| Descrizione | Immettere una descrizione della normativa sui materiali pericolosi. |
+| descrizione | Immettere una descrizione della normativa sui materiali pericolosi. |
 
 ### <a name="print-setup-fasttab"></a>Scheda dettaglio Impostazioni di stampa
 
 Ogni normativa può avere un numero qualsiasi di impostazioni di stampa. Le impostazioni di stampa vengono definite nella scheda dettaglio **Impostazioni di stampa**. Nella seguente tabella vengono illustrati i campi disponibili per ogni impostazione di stampa.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Sequenza | Definire l'ordine in cui si fa riferimento ai campi nel testo di spedizione. |
-| Stampa campo | Selezionare il campo da includere nel testo di spedizione. Non tutti i campi per il materiale pericoloso saranno disponibili per la stampa. Saranno disponibili solo i campi comuni che vengono utilizzati per definire il testo di spedizione nelle varie normative. È necessario definire il primo campo di stampa come un separatore di campo con il valore *0* (zero) per **Sequenza**, in modo che possa essere utilizzato come separatore per altri campi. È richiesto un solo riferimento al separatore di campo.<p>Sono disponibili i valori seguenti:</p><ul></li><li>**Separatore di campo** - Questo campo di stampa viene utilizzato come separatore di campo per il testo. È richiesto un solo separatore di campo nella sequenza. Di solito il valore **Sequenza** per questo campo di stampa viene impostato su *0* (zero). Il sistema cercherà un separatore di campo e utilizzerà il primo che trova nell'elenco. Il valore di testo utilizzato nella stringa proviene dal campo **Stampa dopo**.</li><li>**Identificazione** - Questo campo di stampa inserisce il [codice identificativo e/o la descrizione](#identification) nel testo stampato.</li><li>**Classe** - Questo campo di stampa inserisce il [codice classe e/o la descrizione](#classes) nel testo stampato.</li><li>**Divisione** - Questo campo di stampa inserisce il [codice divisione e/o la descrizione](#divisions) nel testo stampato.</li><li>**Gruppo di imballaggio** - Questo campo di stampa inserisce il [codice gruppo di imballaggio e/o la descrizione](#packing-group) nel testo stampato.</li><li>**Codice tunnel e/o descrizione** - Questo campo di stampa inserisce il [codice tunnel e/o la descrizione](#tunnel) nel testo stampato.</li><li>**Nome spedizione corretto** - Questo campo di stampa inserisce il [nome spedizione corretto](hazmat-items.md#hazmat-description) nel testo stampato.</li><li>**Nome tecnico** - Questo campo di stampa inserisce il [nome tecnico e/o la descrizione](#technical-name) nel testo stampato.</li><li>**Categoria trasporto** - Questo campo di stampa inserisce il [codice categoria trasporto e/o la descrizione](#transport-category) nel testo stampato.</li><li>**Stivaggio** - Questo campo di stampa inserisce il [codice stivaggio e/o la descrizione](#stowage) nel testo stampato.</li><li>**Testo fisso** - Questo campo di stampa inserisce il testo definito nel campo **Testo fisso** per questa riga.</li><li>**Codice etichetta e/o descrizione** - Questo campo di stampa inserisce il [codice etichetta e/o la descrizione](#label) nel testo stampato.</li><li>**Imballaggio aereo** - Questo campo di stampa inserisce il [codice istruzioni di imballaggio aereo e/o la descrizione](#packing-instruction) nel testo stampato.</li><li>**Quantità limitata** - Questo campo di stampa controlla se l'articolo è contrassegnato come [articolo in quantità limitata](hazmat-items.md#material-management) e, se lo è, inserisce il testo definito nel campo **Testo fisso** per questa riga.</li><li>**Descrizione imballaggio** - Questo campo di stampa inserisce la [Descrizione imballaggio](#packing-description) nel testo stampato.</li></ul> |
+| Stampa campo | Selezionare il campo da includere nel testo di spedizione. Non tutti i campi per il materiale pericoloso saranno disponibili per la stampa. Saranno disponibili solo i campi comuni che vengono utilizzati per definire il testo di spedizione nelle varie normative. È necessario definire il primo campo di stampa come un separatore di campo con il valore *0* (zero) per **Sequenza**, in modo che possa essere utilizzato come separatore per altri campi. È richiesto un solo riferimento al separatore di campo.<p>Sono disponibili i valori seguenti:</p><ul></li><li>**Separatore di campo** - Questo campo di stampa viene utilizzato come separatore di campo per il testo. È richiesto un solo separatore di campo nella sequenza. Di solito il valore **Sequenza** per questo campo di stampa viene impostato su *0* (zero). Il sistema cercherà un separatore di campo e utilizzerà il primo che trova nell'elenco. Il valore di testo utilizzato nella stringa proviene dal campo **Stampa dopo**.</li><li>**Identificazione** - Questo campo di stampa inserisce il [codice identificativo e/o la descrizione](#identification) nel testo stampato.</li><li>**Classe** - Questo campo di stampa inserisce il [codice classe e/o la descrizione](#classes) nel testo stampato.</li><li>**Divisione** - Questo campo di stampa inserisce il [codice divisione e/o la descrizione](#divisions) nel testo stampato.</li><li>**Gruppo di imballaggio** - Questo campo di stampa inserisce il [codice gruppo di imballaggio e/o la descrizione](#packing-group) nel testo stampato.</li><li>**Codice tunnel e/o descrizione** - Questo campo di stampa inserisce il [codice tunnel e/o la descrizione](#tunnel) nel testo stampato.</li><li>**Nome spedizione corretto** - Questo campo di stampa inserisce il [nome spedizione corretto](hazmat-items.md#hazmat-description) nel testo stampato.</li><li>**Nome tecnico** - Questo campo di stampa inserisce il [nome tecnico e/o la descrizione](#technical-name) nel testo stampato.</li><li>**Categoria trasporto** - Questo campo di stampa inserisce il [codice categoria trasporto e/o la descrizione](#transport-category) nel testo stampato.</li><li>**Stivaggio** - Questo campo di stampa inserisce il [codice stivaggio e/o la descrizione](#stowage) nel testo stampato.</li><li>**Testo fisso** - Questo campo di stampa inserisce il testo definito nel campo **Testo fisso** per questa riga.</li><li>**Codice etichetta e/o descrizione** - Questo campo di stampa inserisce il [codice etichetta e/o la descrizione](#label) nel testo stampato.</li><li>**Imballaggio aereo** - Questo campo di stampa inserisce il [codice istruzioni di imballaggio aereo e/o la descrizione](#packing-instruction) nel testo stampato.</li><li>**Quantità limitata** - Questo campo di stampa controlla se l'articolo è contrassegnato come [articolo in quantità limitata](hazmat-items.md#material-management) e, se lo è, inserisce il testo definito nel campo **Testo fisso** per questa riga.</li><li>**Descrizione imballaggio** - Questo campo di stampa inserisce la [descrizione imballaggio](#packing-description) nel testo stampato.</li></ul> |
 | Stampa prima | Immettere il testo che deve essere stampato prima del contenuto definito dall'impostazione **Stampa campo**. |
 | Stampa dopo | Immettere il testo che deve essere stampato dopo il contenuto definito dall'impostazione **Stampa campo**. |
 | Stampa con precedente | Selezionare questa casella di controllo per impedire che il separatore di campo venga stampato tra il campo precedente e questo campo. Utilizzare questa casella di controllo per i campi di stampa che sono opzionali o inclusi con un altro campo di stampa. |
@@ -85,7 +89,7 @@ La normativa è una tabella condivisa e non è specifica per ciascuna persona gi
 
 Nella seguente tabella vengono illustrati i campi disponibili nella Scheda dettaglio **Modalità di consegna**.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Società | Selezionare una persona giuridica da associare a questa normativa. |
 | Modalità di consegna | In base alla persona giuridica selezionata, selezionare la modalità di consegna da associare alla normativa. |
@@ -96,7 +100,7 @@ A scopo di riferimento, è possibile elencare i paesi o le aree geografiche per 
 
 Nella seguente tabella viene illustrato il campo disponibile nella Scheda dettaglio **Paese**.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Paese | Selezionare un paese/area geografica da associare alla normativa. |
 
@@ -125,10 +129,10 @@ Questi dati di configurazione non sono specifici per ciascuna persona giuridica.
 
 Per impostare le normative sui gruppi di classificazione dei materiali pericolosi, andare a **Gestione informazioni sul prodotto \> Impostazione \> Documentazione per la spedizione di materiali pericolosi \> Gruppo di classificazione dei materiali pericolosi**. Nella pagina **Gruppo di classificazione dei materiali pericolosi** è possibile creare un numero qualsiasi di gruppi e configurarli utilizzando i campi descritti nella tabella seguente.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Codice gruppo | Immettere un codice per identificare il gruppo. |
-| Descrizione | Immettere una descrizione del gruppo. |
+| descrizione | Immettere una descrizione del gruppo. |
 | Codice classe | Associare un [codice classe](#classes) di materiale pericoloso al gruppo. |
 | Codice divisione | Associare un [codice divisione](#divisions) di materiale pericoloso al gruppo. |
 | Codice gruppo di imballaggio | Associare un [codice gruppo di imballaggio](#packing-group) al gruppo. |
@@ -151,10 +155,10 @@ Le classi di materiale pericoloso vengono utilizzate insieme a divisioni, gruppi
 
 Per impostare le classi di materiale pericoloso, andare a **Gestione informazioni sul prodotto \> Impostazione \> Documentazione per la spedizione di materiali pericolosi \> Classe di materiale pericoloso**. Nella pagina **Classe di materiale pericoloso** è possibile creare un numero qualsiasi di classi e configurarle utilizzando i campi descritti nella tabella seguente.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Codice classe | Immettere un codice per identificare la classe. Si definisce questo codice per l'articolo. Verrà quindi utilizzato negli elenchi di ricerca quando si assegna una classe di materiale pericoloso a un articolo rilasciato. |
-| Descrizione | Immettere una descrizione della classe. |
+| descrizione | Immettere una descrizione della classe. |
 
 ## <a name="hazardous-material-divisions"></a><a name="divisions"></a>Divisioni di materiale pericoloso
 
@@ -172,10 +176,10 @@ Le divisioni di materiale pericoloso vengono utilizzate insieme a classi, gruppi
 
 Per impostare le divisioni di materiale pericoloso, andare a **Gestione informazioni sul prodotto \> Impostazione \> Documentazione per la spedizione di materiali pericolosi \> Divisione di materiale pericoloso**. Nella pagina **Divisione di materiale pericoloso** è possibile creare un numero qualsiasi di divisioni e configurarle utilizzando i campi descritti nella tabella seguente.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Divisione | Immettere un codice da utilizzare come numero di riferimento per la divisione. |
-| Descrizione | Immettere una descrizione della divisione. |
+| descrizione | Immettere una descrizione della divisione. |
 | Classe | Cercare e assegnare la classe a cui appartiene la divisione. |
 
 ## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a>Gruppi di compatibilità di materiali pericolosi
@@ -190,16 +194,16 @@ Per impostare le normative sui gruppi di compatibilità di materiali pericolosi,
 
 Ogni gruppo di compatibilità ha un codice e una descrizione. Nella seguente tabella vengono illustrati i campi disponibili nell'intestazione.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Gruppo di compatibilità | Immettere un codice per identificare il gruppo di compatibilità |
-| Descrizione | Immettere una descrizione del gruppo di compatibilità. |
+| descrizione | Immettere una descrizione del gruppo di compatibilità. |
 
 ### <a name="compatibility-group-details"></a>Dettagli gruppo di compatibilità
 
 Ogni gruppo di compatibilità stabilisce un elenco di classi e divisioni di materiali pericolosi che possono essere spedite insieme.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Classe | Selezionare una classe di materiale pericoloso compatibile con tutte le altre classi del gruppo. |
 | Divisione | Selezionare una divisione di materiale pericoloso che appartiene alla classe selezionata. |
@@ -226,10 +230,10 @@ La specifica *Identificazione materiale pericoloso* identifica la classe o la na
 
 Per impostare i valori per la specifica, andare a **Gestione informazioni sul prodotto \> Impostazione \> Documentazione per la spedizione di materiali pericolosi \> Identificazione materiale pericoloso**. Nella pagina **Identificazione materiale pericoloso** è possibile creare un numero qualsiasi di valori e configurarli utilizzando i campi descritti nella tabella seguente.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Identificazione | Immettere un codice da utilizzare come numero di riferimento che identifica questa classe di materiale pericoloso. |
-| Descrizione | Immettere una descrizione per questa classe. |
+| descrizione | Immettere una descrizione per questa classe. |
 | Limita dal trasporto aereo | Selezionare questa casella di controllo per indicare che questa classe di materiale pericoloso non deve essere trasportata per via aerea. |
 | Limita dal trasporto marittimo | Selezionare questa casella di controllo per indicare che questa classe di materiale pericoloso non deve essere trasportata via mare. |
 
@@ -280,6 +284,3 @@ Per impostare i valori per la specifica, andare a **Gestione informazioni sul pr
 La specifica *Tunnel materiali pericolosi* limita i tipi di tunnel attraverso i quali un materiale pericoloso può essere trasportato identificando i tipi di tunnel che devono essere utilizzati. Le categorie di tunnel sono stabilite dalle normative applicabili per il trasporto di materiali pericolosi. Questa specifica di solito si applica solo al trasporto su strada.
 
 Per impostare i valori per la specifica, andare a **Gestione informazioni sul prodotto \> Impostazione \> Documentazione per la spedizione di materiali pericolosi \> Tunnel materiali pericolosi**. Nella pagina **Tunnel materiali pericolosi** è possibile creare un numero qualsiasi di identificatori di tunnel e configurarli con un codice di identificazione e una breve descrizione.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

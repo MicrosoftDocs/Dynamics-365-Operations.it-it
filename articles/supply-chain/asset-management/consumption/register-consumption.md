@@ -1,10 +1,12 @@
 ---
 title: Registrare il consumo
 description: In questo argomento viene illustrato come registrare il consumo in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765585"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020783"
 ---
 # <a name="register-consumption"></a>Registrare il consumo
 
@@ -54,7 +56,7 @@ In alcuni casi, esiste la possibilità di aggiungere o eliminare righe di previs
 
 La schermata seguente mostra un esempio di registrazioni di ore e articoli in un ordine di lavoro in **Giornali di registrazione ordine di lavoro**.
 
-![Figura 1.](media/01-consumption.png)
+![Figura 1](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Suddividere le ore negli ordini di lavoro con più processi di ordine di lavoro
@@ -73,13 +75,13 @@ Se un ordine di lavoro contiene più processi di ordine di lavoro, è possibile 
 
 6. Nel campo **Ore** inserire il numero di ore da suddividere.
 
-    ![Figura 2.](media/02-consumption.png)
+    ![Figura 2](media/02-consumption.png)
 
 7. Fare clic su **OK**.
 
 *Esempio:* nella schermata seguente sono visualizzate le righe del giornale di registrazione per un ordine di lavoro contenente tre processi di ordine di lavoro. La prima riga, contenente tre ore lavorative, è stata suddivisa e un'ora lavorativa è registrata in ciascun processo di ordine di lavoro. Dopo la creazione della registrazione delle tre ore, è necessario decidere cosa fare con la riga di registrazione ore originale (la prima riga nell'esempio). È possibile tenerla così com'è oppure eliminarla. 
 
-![Figura 3.](media/03-consumption.png)
+![Figura 3](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Dimensioni finanziarie nelle registrazioni del consumo
 
@@ -92,6 +94,3 @@ Quando si eseguono registrazioni del consumo, le dimensioni finanziarie relative
 >[!NOTE]
 >Per tutti e tre i tipi di registrazione, viene convalidata la combinazione di dimensioni finanziarie e le combinazioni non valide vengono lasciate vuote. Questa è la configurazione standard con altre app Finance and Operations.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

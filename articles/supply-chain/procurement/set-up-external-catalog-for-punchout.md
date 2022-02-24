@@ -1,10 +1,12 @@
 ---
 title: Configurare un catalogo esterno per PunchOut e-procurement
 description: Questo argomento descrive l'utilizzo di un catalogo esterno o PunchOut per raccogliere le informazioni dell'offerta da un fornitore e aggiungerle a una richiesta.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566914"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016379"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Configurare un catalogo esterno per PunchOut e-procurement
 
@@ -50,7 +52,7 @@ Il catalogo esterno deve consentire a un dipendente che inserisce una richiesta 
 
 In questa sezione vengono forniti ulteriori dettagli sull'attività 4 della sezione precedente.
 
-1. Immetti un nome e una Descrizione per il catalogo esterno del fornitore. Il nome che si inserisce verrà visualizzato nel carrello che rappresenta il catalogo esterno che viene visualizzato ai dipendenti che creano una richiesta. I dipendenti possono fare clic sul carrello per aprire il catalogo nel sito del catalogo esterno del fornitore.
+1. Immetti un nome e una descrizione per il catalogo esterno del fornitore. Il nome che si inserisce verrà visualizzato nel carrello che rappresenta il catalogo esterno che viene visualizzato ai dipendenti che creano una richiesta. I dipendenti possono fare clic sul carrello per aprire il catalogo nel sito del catalogo esterno del fornitore.
 2. Aggiungere un'immagine utilizzando l'azione **Immagine catalogo esterno**. L'immagine verrà visualizzata nel carrello che rappresenta il catalogo esterno che viene visualizzato ai dipendenti che creano una richiesta. Si noti che la larghezza e l'altezza dell'immagine devono essere uguali. In caso contrario l'immagine non viene visualizzata correttamente.
 3. Seleziona se il sito Web del catalogo esterno del fornitore deve essere visualizzato nella stessa finestra del browser di quella in cui il dipendente ha creato la richiesta o se deve essere aperto in una nuova finestra.
 4. Selezionare il fornitore per il catalogo. Nell'elenco **Persone giuridiche** è presente una riga per ciascuna persona giuridica in cui il fornitore è impostato. Per consentire agli utenti di richiedere prodotti direttamente dal catalogo del fornitore in alcune persone giuridiche ma non in altre, è possibile utilizzare il pulsante **Impedisci accesso** o **Consenti accesso** per ogni persona giuridica in cui si desidera rendere disponibile o meno il catalogo.
@@ -67,7 +69,7 @@ In qualsiasi momento, è possibile ricaricare il modello del messaggio generato 
 ### <a name="cxml-setup-message"></a>Messaggio di impostazione cXML
 Di seguito è possibile trovare una descrizione dei tag inclusi nel modello:
 
-| Campo | Descrizione | 
+| Campo | descrizione | 
 |---------|---------|
 |< Header >< From >< Credential domain="" >|Dominio della società dell'acquirente.|
 |< Header >< From >< Credential>< Identity >< /Identity > | Identità della società dell'acquirente.|
@@ -110,5 +112,3 @@ Se è stato richiesto un prodotto dal catalogo fornitore esterno, il catalogo no
 
 - [Miglioramenti cXML per gli acquisti](purchasing-cxml-enhancements.md)
 - [Usare cataloghi esterni per PunchOut e-procurement](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

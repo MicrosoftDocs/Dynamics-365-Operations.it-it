@@ -2,9 +2,11 @@
 title: Archiviazione di backup di modelli ER
 description: In questo argomento viene descritto come utilizzare l'archiviazione di backup ER per il recupero di modelli.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767879"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681402"
 ---
 # <a name="backup-storage-of-er-templates"></a>Archiviazione di backup di modelli ER
 
@@ -65,19 +67,19 @@ Per configurare il parametro **Esegui automaticamente procedura di ripristino di
 > [!NOTE]
 > Questo parametro è definito come specifico dell'utente dell'applicazione e della società connessa.
 
-![Pagina configurazioni ER.](./media/GER-BackupTemplates-1.png)
+![Pagina delle configurazioni ER](./media/GER-BackupTemplates-1.png)
 
 Nella figura seguente è illustrato un esempio del messaggio visualizzato quando il parametro **Esegui automaticamente procedura di ripristino di modelli danneggiati in batch** è impostato su **Attivato**.
 
-![Pagina Giornale di registrazione pagamenti fornitore.](./media/GER-BackupTemplates-2.png)
+![Pagina Giornale di registrazione pagamenti fornitore](./media/GER-BackupTemplates-2.png)
 
 Nella figura seguente è illustrato il processo batch **Ripristina modelli danneggiati da backup del database interno** nella pagina **Processo batch**.
 
-![Pagina Processo batch.](./media/GER-BackupTemplates-3.png)
+![Pagina Processo batch](./media/GER-BackupTemplates-3.png)
 
 Il registro di esecuzione del processo batch **Ripristina modelli danneggiati da backup del database interno** completato include informazioni sui modelli che sono stati ripristinati dal percorso di archiviazione di backup al percorso di archiviazione principale.
 
-![Pagina Storico processi batch.](./media/GER-BackupTemplates-4.png)
+![Pagina Storico processi batch](./media/GER-BackupTemplates-4.png)
 
 Per impostazione predefinita, il processo di creazione automatica di copie di backup dei modelli che si trovano nelle configurazioni di formato ER è attivato. Per interrompere la creazione di copie di backup dei modelli, impostare l'opzione **Interrompi creazione di copie di backup del modello** su **Sì** nella scheda **Allegati** della pagina **Parametri per la creazione di report elettronici**. È possibile aprire questa pagina dall'area di lavoro **Creazione di report elettronici**.
 
@@ -85,7 +87,7 @@ Se si imposta **Interrompi creazione di copie di backup del modello** su **Sì**
 
 Se l'ambiente è stato aggiornato a Finance and Operations versione 10.0.5 (ottobre 2019) e si desidera eseguire la migrazione a un nuovo ambiente che include configurazioni di formato ER eseguibili, selezionare **Completa archiviazione di backup** nella pagina **Parametri per la creazione di report elettronici** prima di eseguire la migrazione. Questo pulsante avvia il processo di creazione di copie di backup di tutti i modelli disponibili, di modo che possano essere archiviati nel percorso di archiviazione di backup ER per modelli.
 
-![Pagina Parametri per la creazione di report elettronici.](./media/GER-BackupTemplates-5.png)
+![Pagina Parametri per la creazione di report elettronici](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Ripristino manuale
 
@@ -100,6 +102,3 @@ In Finance and Operations versione 10.0.5 la funzionalità di archiviazione di b
 [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md)
 
 [Configurare il framework di report elettronici](electronic-reporting-er-configure-parameters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

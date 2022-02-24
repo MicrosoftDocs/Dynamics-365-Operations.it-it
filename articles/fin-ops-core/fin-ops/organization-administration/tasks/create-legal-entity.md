@@ -2,9 +2,11 @@
 title: Creare una nuova persona giuridica
 description: Una persona giuridica è un'organizzazione identificata mediante registrazione presso un'autorità giuridica.
 author: sericks007
+manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d665c5e6f359ad51b2e247ac487c9e4cf23a85e90e91aae2bc9d3bb5cbb9e091
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759043"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796756"
 ---
 # <a name="create-a-legal-entity"></a>Creare una nuova persona giuridica
 
@@ -43,6 +45,3 @@ Una persona giuridica è un'organizzazione identificata mediante registrazione p
 15. Espandere la sezione **Registrazione fiscale**. Nella sezione **Registrazione fiscale** immettere i numeri di registrazione utilizzati per le dichiarazioni alle autorità fiscali.
 16. Espandere la sezione **Imposta 1099**. Nella sezione **Imposta 1099** immettere le informazioni incluse nel modulo 1099 per la persona giuridica.  
 17. Fare clic su **Salva**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

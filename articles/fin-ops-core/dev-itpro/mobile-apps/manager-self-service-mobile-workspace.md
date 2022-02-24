@@ -1,10 +1,12 @@
 ---
 title: Area di lavoro mobile Team personale
-description: Questo argomento fornisce informazioni sull'area di lavoro Team personale, che consente ai responsabili di visualizzare i loro diretti subalterni e il personale esteso.
+description: Questo argomento fornisce informazioni sull'area di lavoro Team personale, che consente ai responsabili di visualizzare i loro diretti subalterni e il personale esteso. Gli utenti possono inoltre inviare complimenti ai singoli della loro catena di subalterni.
 author: ShielaSogge
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767114"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680972"
 ---
 # <a name="my-team-mobile-workspace"></a>Area di lavoro mobile Team personale
 
@@ -43,7 +45,7 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 <tr class="header">
 <th>Prerequisito</th>
 <th>Ruolo</th>
-<th>Descrizione</th>
+<th>descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -78,7 +80,7 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 3.  La prima volta che si accede viene richiesto di inserire il proprio nome utente e la password. Immettere le proprie credenziali.
 4.  Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società. Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.
 
-[![Trascinare verso il basso.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Effettuare il pull per l'aggiornamento](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Visualizzare i membri del team utilizzando l'area di lavoro mobile Team personale
 1.  Nell'app mobile, selezionare l'area di lavoro **Team personale**. Viene visualizzato un elenco dei membri del team. L'elenco visualizza inoltre la posizione di ciascun membro del team e qualsiasi suo subalterno diretto.
@@ -95,6 +97,3 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 1.  Selezionare **Invia complimento**. 
 1. Immettere il testo del complimento da inviare. 
 1. Selezionare **Fine**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

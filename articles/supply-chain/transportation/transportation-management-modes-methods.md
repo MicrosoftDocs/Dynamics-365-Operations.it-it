@@ -2,22 +2,25 @@
 title: Modalità e metodi di gestione dei trasporti
 description: In questo argomento viene illustrato come impostare modalità e metodi di gestione del trasporto.
 author: Henrikan
+manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a24e2300f3f3ee21b9c480c8768c4382b21867aa
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: ceb3930cdb7764f846e88edfff6906b902a7f5fa
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574787"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4431613"
 ---
 # <a name="transportation-management-modes-and-methods"></a>Modalità e metodi di gestione dei trasporti
 
@@ -44,6 +47,3 @@ Per creare un metodo di trasporto, effettuare le seguenti operazioni:
 1. Selezionare **Nuovo** per creare un nuovo metodo di trasporto.
 1. Immettere un ID univoco e un nome descrittivo per il metodo di trasporto.
 1. Chiudere la pagina.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

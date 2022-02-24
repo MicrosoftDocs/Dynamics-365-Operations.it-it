@@ -2,13 +2,16 @@
 title: Pianificazione generale con previsioni della domanda
 description: Questo argomento spiega come includere previsioni della domanda durante la pianificazione generale con l'ottimizzazione della pianificazione.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
+ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
+ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867249"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666724"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pianificazione generale con previsioni della domanda
 
@@ -84,11 +87,11 @@ Questa sezione fornisce informazioni sui differenti metodi utilizzati per ridurr
 
 Quando si include una previsione in un piano generale, è possibile selezionare il modo in cui ridurre i requisiti di previsione quando viene inclusa la domanda effettiva. Si noti che la pianificazione generale esclude i requisiti di previsione passati, il che significa tutti i requisiti di previsione prima della data odierna.
 
-Per includere una previsione in un piano generale e selezionare il metodo utilizzato per ridurre i requisiti di previsione, andare a **Pianificazione generale \> Impostazioni \> Piani \> Piani generali**. Selezionare un modello previsionale nel campo **Modello previsionale**. Nel campo **Metodo utilizzato per ridurre i requisiti di previsione**, selezionare un metodo. Sono disponibili le opzioni seguenti:
+Per includere una previsione in un piano generale e selezionare il metodo utilizzato per ridurre i requisiti di previsione, andare a **Pianificazione generale \> Impostazioni \> Piani \> Piani generali**. Selezionare un modello previsionale nel campo **Modello previsionale**. Nel campo **Metodo utilizzato per ridurre i requisiti di previsione**, selezionare un metodo. Di seguito vengono illustrate le opzioni disponibili.
 
-- Nessuno
+- Nessuna priorità
 - Percentuale - chiave di riduzione
-- Transazioni - chiave di riduzione
+- Transazioni - chiave di riduzione (non ancora supportata con l'ottimizzazione della pianificazione)
 - Transazioni - periodo dinamico
 
 Nelle sezioni seguenti vengono fornite altre informazioni sui ogni opzione.
@@ -137,85 +140,32 @@ In questo caso, se si esegue una programmazione previsionale il 1° gennaio, i r
 
 #### <a name="transactions--reduction-key"></a>Transazioni - chiave di riduzione
 
-Se si imposta il campo **Metodo utilizzato per ridurre i requisiti di previsione** in *Transazioni - chiave di riduzione*, i requisiti previsti vengono ridotti dalle transazioni della domanda qualificata che si verificano durante i periodi definiti dalla chiave di riduzione.
-
-La domanda qualificata è definita dal campo **Riduci previsione per** sulla pagina **Gruppi di copertura**. Se si imposta il campo **Riduci previsione per** su *Ordini*, solo le transazioni dell'ordine cliente sono considerate domanda qualificata. Se si lo imposta su *Tutte le transazioni*, qualsiasi transazione di inventario in uscita non interaziendale è considerata domanda qualificata. Se anche gli ordini cliente interaziendali devono essere considerati domanda qualificata, impostare l'opzione **Includi ordini interaziendali** su *Sì*.
-
-La riduzione della previsione inizia con il primo record di previsione della domanda (meno recente) nel periodo della chiave di riduzione. Se la quantità di transazioni di inventario qualificate è maggiore della quantità di righe di previsione della domanda nello stesso periodo della chiave di riduzione, il saldo della quantità delle transazioni di inventario verrà utilizzato per ridurre la quantità di previsione della domanda nel periodo precedente (se è presente una previsione non consumata).
-
-Se non rimane alcuna previsione non consumata nel precedente periodo della chiave di riduzione, il saldo della quantità delle transazioni di inventario verrà utilizzato per ridurre la quantità prevista nel mese successivo (se è presente una previsione non consumata).
-
-Il valore del campo **Percentuale** sulle righe della chiave di riduzione non viene utilizzato quando il campo **Metodo utilizzato per ridurre i requisiti di previsione** è impostato su *Transazioni - chiave di riduzione*. Solo le date vengono utilizzate per definire il periodo della chiave di riduzione.
-
-> [!NOTE]
-> Qualsiasi previsione registrata entro la data odierna verrà ignorata e non verrà utilizzata per creare ordini pianificati. Ad esempio, se la previsione della domanda per il mese viene generata il 1° gennaio e si esegue una pianificazione generale che include la previsione della domanda il 2 gennaio, il calcolo ignorerà la riga della previsione della domanda datata 1° gennaio.
+Se si seleziona **Transazioni - chiave di riduzione**, i requisiti di previsione vengono ridotti in base alle transazioni effettuate durante i periodi definiti dalla chiave di riduzione.
 
 ##### <a name="example-transactions--reduction-key"></a>Esempio: Transazioni - chiave di riduzione
 
 In questo esempio viene illustrato come gli ordini effettivi, che si verificano durante i periodi definiti dalla chiave di riduzione, riducono i requisiti di previsione della domanda.
 
-[![Ordini effettivi e previsione precedenti all'esecuzione della pianificazione generale.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
+Per questo esempio, selezionare **Transazioni - chiave di riduzione** nel campo **Metodo utilizzato per ridurre i requisiti di previsione** nella pagina **Piani generali**.
 
-Per questo esempio, selezionare *Transazioni - chiave di riduzione* nel campo **Metodo utilizzato per ridurre i requisiti di previsione** nella pagina **Piani generali**.
+Al 1° gennaio sono presenti gli ordini cliente che seguono.
 
-Le seguenti righe della previsione della domanda esistono il 1° aprile.
+| Mese    | Numero di pezzi ordinati |
+|----------|--------------------------|
+| gennaio  | 956                      |
+| febbraio | 1.176                    |
+| marzo    | 451                      |
+| aprile    | 119                      |
 
-| Data     | Numero di pezzi previsti |
-|----------|-----------------------------|
-| 5 aprile  | 100                         |
-| 12 aprile | 100                         |
-| 19 aprile | 100                         |
-| 26 aprile | 100                         |
-| 3° maggio    | 100                         |
-| 10° maggio   | 100                         |
-| 17° maggio   | 100                         |
+Utilizzando la stessa previsione della domanda di 1.000 pezzi al mese utilizzata nell'esempio precedente, vengono trasferite al piano generale le quantità indicate di seguito.
 
-Le seguenti righe dell'ordine cliente esistono ad aprile.
-
-| Data     | Numero di pezzi richiesti |
-|----------|----------------------------|
-| 27 aprile | 240                        |
-
-[![Fornitura pianificata generata in base agli ordini di aprile.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
-
-Le seguenti quantità di requisiti vengono trasferite al piano generale quando la pianificazione generale viene eseguita il 1° aprile. Come si nota, le transazioni di previsione di aprile sono state ridotte della quantità della domanda di 240 in sequenza, a partire dalla prima di tali transazioni.
-
-| Data     | Numero di pezzi richiesti |
-|----------|---------------------------|
-| 5 aprile  | 0                         |
-| 12 aprile | 0                         |
-| 19 aprile | 60                        |
-| 26 aprile | 100                       |
-| 27 aprile | 240                       |
-| 3° maggio    | 100                       |
-| 10° maggio   | 100                       |
-| 17° maggio   | 100                       |
-
-Ora, supponiamo che siano stati importati nuovi ordini per il periodo di maggio.
-
-Le seguenti righe dell'ordine cliente esistono a maggio.
-
-| Data   | Numero di pezzi richiesti |
-|--------|----------------------------|
-| 4° maggio  | 80                         |
-| 11° maggio | 130                        |
-
-[![Fornitura pianificata generata in base agli ordini di aprile e maggio.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
-
-Le seguenti quantità di requisiti vengono trasferite al piano generale quando la pianificazione generale viene eseguita il 1° aprile. Come si nota, le transazioni di previsione di aprile sono state ridotte della quantità della domanda di 240 in sequenza, a partire dalla prima di tali transazioni. Tuttavia, le transazioni di previsione di maggio sono state ridotte di un totale di 210, a partire dalla prima transazione di previsione della domanda di maggio. Tuttavia, vengono mantenuti i totali per periodo (400 ad aprile e 300 a maggio).
-
-| Data     | Numero di pezzi richiesti |
-|----------|---------------------------|
-| 5 aprile  | 0                         |
-| 12 aprile | 0                         |
-| 19 aprile | 60                        |
-| 26 aprile | 100                       |
-| 27 aprile | 240                       |
-| 3° maggio    | 0                         |
-| 4° maggio    | 80                        |
-| 10° maggio   | 0                         |
-| 11° maggio   | 130                       |
-| 17° maggio   | 90                        |
+| Mese                | Numero di pezzi richiesti |
+|----------------------|---------------------------|
+| gennaio              | 44                        |
+| febbraio             | 0                         |
+| marzo                | 549                       |
+| aprile                | 881                       |
+| Da maggio a dicembre | 1.000                     |
 
 #### <a name="transactions--dynamic-period"></a>Transazioni - periodo dinamico
 
@@ -300,7 +250,7 @@ Di conseguenza, vengono creati i seguenti ordini pianificati.
 Una chiave di riduzione previsionale viene utilizzata nei metodi **Transazioni - chiave di riduzione** e **Percentuale - chiave di riduzione** per ridurre i requisiti di previsione. Attenersi alla procedura seguente per creare e impostare una chiave di riduzione.
 
 1. Andare a **Pianificazione generale \> Impostazione \> Copertura \> Chiavi di riduzione**.
-2. Selezionare **Nuovo** per creare una chiave di riduzione.
+2. Selezionare **Nuovo** o premere **CTRL+N** per creare una chiave di riduzione.
 3. Nel campo **Chiave di riduzione**, immettere un identificatore univoco per la chiave di riduzione previsionale. Quindi, nel campo **Nome** immettere un nome. 
 4. Definire i periodi e la percentuale della chiave di riduzione in ciascun periodo:
 
@@ -316,78 +266,11 @@ Una chiave di riduzione previsionale deve essere assegnata al gruppo di copertur
 2. Nella Scheda dettaglio **Altro**, nel campo **Chiave di riduzione**, selezionare la chiave di riduzione da assegnare al gruppo di copertura. La chiave di riduzione viene quindi applicata a tutti articoli appartenenti al gruppo di copertura.
 3. Per calcolare la riduzione previsionale durante la programmazione generale utilizzando una chiave di riduzione, è necessario definire questa impostazione nella configurazione del piano previsionale o del piano generale. Passare a una delle pagine seguenti:
 
-    - **Pianificazione generale \> Impostazioni \> Piani \> Piani previsionali**
-    - **Pianificazione generale \> Impostazioni \> Piani \> Piani generali**
+    - Pianificazione generale \> Impostazioni \> Piani \> Piani previsionali
+    - Pianificazione generale \> Impostazioni \> Piani \> Piani generali
 
 4. Nella pagina **Piani previsionali** o **Piani generali**, nel campo **Metodo utilizzato per ridurre i requisiti di previsione** della Scheda dettaglio **Generale**, selezionare **Percentuale - chiave di riduzione** o **Transazioni - chiave di riduzione**.
 
 ### <a name="reduce-a-forecast-by-transactions"></a>Ridurre una previsione mediante transazioni
 
 Quando si seleziona **Transazioni - chiave di riduzione** o **Transazioni - periodo dinamico** come metodo per ridurre i requisiti previsti, è possibile specificare le transazioni che riducono la previsione. Nella pagina **Gruppi di copertura** , nella scheda dettaglio **Altro**, nel campo **Riduci previsione per** , selezionare **Tutte le transizioni** se tutte le transazioni devono ridurre la previsione oppure **Ordini** se solo gli ordini cliente devono ridurre la previsione.
-
-## <a name="forecast-models-and-submodels"></a>Modelli e sottomodelli previsionali
-
-Questa sezione descrive come creare modelli previsionali e come combinare più modelli previsionali impostando sottomodelli.
-
-Un *modello previsionale* denomina e identifica una previsione specifica. Dopo aver creato il modello di previsione, è possibile aggiungervi righe di previsione. Per aggiungere righe di previsione per più articoli, utilizzare la pagina **Righe di previsione della domanda**. Per aggiungere righe di previsione per uno specifico articolo selezionato, utilizzare la pagina **Prodotti rilasciati**.
-
-Un modello previsionale può includere previsioni di altri modelli previsionali. Per ottenere questo risultato, si aggiungono altri modelli previsionali come *sottomodelli* di un modello previsionale padre. È necessario creare ogni modello pertinente prima di poterlo aggiungere come sottomodello di un modello previsionale padre.
-
-La struttura risultante offre un modo potente per controllare le previsioni, poiché consente di combinare (aggregare) l'input di più previsioni individuali. Pertanto, dal punto di vista della pianificazione, è facile combinare previsioni per simulazioni. Ad esempio, si potrebbe impostare una simulazione basata sulla combinazione di una previsione regolare con la previsione per una promozione primaverile.
-
-### <a name="submodel-levels"></a>Livelli di sottomodelli
-
-Non vi è alcun limite al numero di sottomodelli che possono essere aggiunti a un modello previsionale padre. Tuttavia, la struttura può comportare un solo livello. In altre parole, un modello previsionale che è un sottomodello di un altro modello previsionale non può avere sottomodelli. Quando si aggiungono sottomodelli a un modello previsionale, il sistema verifica se tale modello previsionale è già un sottomodello di un altro modello previsionale.
-
-Se la pianificazione generale rileva un sottomodello che ha dei sottomodelli, viene visualizzato un messaggio di errore.
-
-#### <a name="submodel-levels-example"></a>Esempio di livelli di sottomodelli
-
-Il modello previsionale A ha il modello previsionale B come sottomodello. Pertanto, il modello previsionale B non può avere sottomodelli. Se si tenta di aggiungere un sottomodello al modello previsionale B, viene visualizzato il seguente messaggio di errore: "Il modello previsionale B è un sottomodello per il modello A."
-
-### <a name="aggregating-forecasts-across-forecast-models"></a>Aggregazione di previsioni tra modelli previsionali
-
-Le righe di previsione che si verificano lo stesso giorno verranno aggregate nel rispettivo modello previsionale e nei relativi sottomodelli.
-
-#### <a name="aggregation-example"></a>Esempio di aggregazione
-
-Il modello previsionale A ha i modelli previsionali B e C come sottomodelli.
-
-- Il modello previsionale A include una previsione della domanda per 2 pezzi (pz) il 15 giugno.
-- Il modello previsionale B include una previsione della domanda per 3 pz il 15 giugno.
-- Il modello previsionale C include una previsione della domanda per 4 pz il 15 giugno.
-
-La previsione della domanda risultante sarà una singola domanda per 9 pezzi (2 + 3 + 4) il 15 giugno.
-
-> [!NOTE]
-> Ogni sottomodello utilizza parametri propri, non quelli del modello previsionale padre.
-
-### <a name="create-a-forecast-model"></a>Creare un modello previsionale
-
-Per creare un modello previsionale, attenersi alla procedura seguente.
-
-1. Selezionare **Pianificazione generale \> Impostazioni \> Previsione della domanda \> Modelli previsionali**.
-1. Nel Riquadro azioni selezionare **Nuovo**.
-1. Impostare i seguenti campi per il nuovo modello previsionale:
-
-    - **Modello** - Immettere un identificatore univoco per il modello.
-    - **Nome** – Immettere un nome descrittivo per il modello.
-    - **Interrotto** - Di solito, questa opzione deve essere impostata su *No*. Impostarla su *Sì* solo se si desidera impedire la modifica di tutte le righe di previsione assegnate al modello.
-
-    > [!NOTE]
-    > Il campo **Includi in previsioni di cassa** e i campi nella Scheda dettaglio **Progetto** non sono correlati alla pianificazione generale. Pertanto, puoi ignorarli in questo contesto. È necessario considerarli solo quando si lavora con le previsioni per il modulo **Gestione progetti e contabilità**.
-
-### <a name="assign-submodels-to-a-forecast-model"></a>Assegnare sottomodelli a un modello previsionale
-
-Per assegnare sottomodelli a un modello previsionale, attenersi alla procedura seguente.
-
-1. Selezionare **Gestione articoli \> Impostazioni \> Previsione \> Modelli previsionali**.
-1. Nel riquadro elenco, selezionare il modello previsionale per il quale impostare un sottomodello.
-1. Nella Scheda dettaglio **Sottomodello**, selezionare **Aggiungi** per aggiungere una riga alla griglia.
-1. Nella nuova riga, impostare i seguenti campi.
-
-    - **Sottomodello** - Selezionare il modello previsionale da aggiungere come sottomodello. Questo modello previsionale deve già esistere e non deve avere sottomodelli.
-    - **Nome** – Immettere un nome descrittivo per il sottomodello. Ad esempio, questo nome potrebbe indicare la relazione del sottomodello con il modello previsionale padre.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

@@ -2,9 +2,11 @@
 title: Divisione lavoro
 description: In questo argomento vengono fornite informazioni sulla funzionalità di suddivisione del lavoro. Questa funzionalità consente di suddividere gli ordini di lavoro di grandi dimensioni in diversi ordini di lavoro più piccoli che è possibile quindi assegnare a più lavoratori di magazzino. In questo modo, lo stesso lavoro può essere prelevato contemporaneamente da più magazzinieri.
 author: mirzaab
+manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -12,17 +14,15 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 8a530f3887c3c66295177d480a8c486dd0984153
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778259"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965529"
 ---
 # <a name="work-split"></a>Divisione lavoro
-
-[!include [banner](../includes/banner.md)]
 
 La funzionalità di suddivisione del lavoro consente di suddividere gli ID ordini di lavoro di grandi dimensioni (ossia ordini di lavoro con molte righe) in diversi ID ordini di lavoro più piccoli che è possibile quindi assegnare a più lavoratori di magazzino. In questo modo, lo stesso numero di creazione lavoro può essere prelevato contemporaneamente da più magazzinieri.
 
@@ -33,7 +33,7 @@ La funzionalità di suddivisione del lavoro consente di suddividere gli ID ordin
 
 Prima di poter utilizzare la funzionalità di suddivisione del lavoro, è necessario attivare la funzionalità e la relativa funzionalità prerequisito nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzioni e se necessario abilitarle.
 
-Innanzitutto, attivare la funzionalità prerequisito *Blocco del lavoro a livello di organizzazione* se non è già attivata. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo. Tuttavia, la funzionalità viene ancora elencata in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nel modo seguente:
+Innanzitutto, attivare la funzionalità prerequisito *Blocco del lavoro a livello di organizzazione* se non è già attivata. Nell'area di lavoro **Gestione funzionalità**, questa funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Blocco del lavoro a livello di organizzazione*
@@ -53,7 +53,7 @@ La funzionalità *Suddivisione lavoro* aggiunge i seguenti due pulsanti alla sch
 - **Suddivisione lavoro** – Dividere l'ID lavoro corrente in più ID lavoro di dimensioni minori che possono essere elaborati da lavoratori separati.
 - **Annulla sessione di suddivisione lavoro** - Annullare la sessione di suddivisione del lavoro e rendere il lavoro disponibile per l'elaborazione.
 
-![Pulsanti Suddivisione lavoro e Annulla sessione di suddivisione lavoro.](media/Work_split_buttons.png "Pulsanti Suddivisione lavoro e Annulla sessione di suddivisione lavoro")
+![Pulsanti Suddivisione lavoro e Annulla sessione di suddivisione lavoro](media/Work_split_buttons.png "Pulsanti Suddivisione lavoro e Annulla sessione di suddivisione lavoro")
 
 > [!IMPORTANT]
 > Il pulsante **Suddivisione lavoro** non sarà disponibile se viene soddisfatta una delle seguenti condizioni:
@@ -69,7 +69,7 @@ La funzionalità *Suddivisione lavoro* aggiunge i seguenti due pulsanti alla sch
 >
 > - Il lavoro è attualmente suddiviso da un altro utente. Se si tenta di aprire la pagina di suddivisione per il lavoro già suddiviso da un altro utente, viene visualizzato il seguente messaggio di errore: "Il lavoro con ID \#\#\#\# è attualmente suddiviso. Riprovare tra qualche minuto. Se si continua a ricevere questo messaggio, contattare un supervisore."
 
-Un nuovo motivo di blocco del lavoro, *Suddivisione lavoro*, indica quando l'ID lavoro è suddiviso. È mostrato nella pagina **Suddivisione lavoro** e nell'app per dispositivi mobili Gestione magazzino se un utente tenta di eseguire il lavoro. Quando vengono utilizzati motivi di blocco, il nome del campo **Ciclo bloccato** dell'ID lavoro viene modificato in **Bloccato**.
+Un nuovo motivo di blocco del lavoro, *Suddivisione lavoro*, indica quando l'ID lavoro è suddiviso. È mostrato nella pagina **Suddivisione lavoro** e nell'app del magazzino se un utente tenta di eseguire il lavoro. Quando vengono utilizzati motivi di blocco, il nome del campo **Ciclo bloccato** dell'ID lavoro viene modificato in **Bloccato**.
 
 ## <a name="initiate-a-work-split"></a>Iniziare una suddivisione del lavoro
 
@@ -96,7 +96,7 @@ Per suddividere il lavoro, seguire questi passaggi.
 
     Il campo **Motivo del blocco di lavoro** per il lavoro corrente sarà impostato su *Suddivisione lavoro* e il lavoro verrà bloccato.
 
-    ![Motivo del blocco.](media/Blocking_reason.png "Motivo del blocco")
+    ![Motivo del blocco](media/Blocking_reason.png "Motivo del blocco")
 
 1. Selezionare le righe da rimuovere dall'ID lavoro corrente e aggiungerle a un nuovo ID lavoro. Si verificano gli eventi seguenti:
 
@@ -147,13 +147,10 @@ Per finire la suddivisione del lavoro, il motivo di blocco *Suddivisione lavoro*
 
 Dopo che il motivo di blocco *Suddivisione lavoro* viene rimosso, il lavoro può essere eseguito sul dispositivo mobile, a condizione che lo stato **Bloccato** è impostato su *No* sull'ID lavoro.
 
-## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Blocco dell'utente nell'app per dispositivi mobili Gestione magazzino
+## <a name="user-blocking-on-the-warehouse-app"></a>Blocco dell'utente sull'app warehouse
 
-Se tenti di usare l'app per dispositivi mobili Gestione magazzino per eseguire un lavoro di prelievo per un ID lavoro suddiviso, viene visualizzato il seguente messaggio di errore: "Il lavoro con ID \#\#\#\# è attualmente suddiviso." Se viene visualizzato questo messaggio di errore, selezionare **Annulla**. È quindi possibile continuare a elaborare altri lavori.
+Se si tenta di usare l'app del magazzino per eseguire un lavoro di prelievo per un ID lavoro suddiviso, viene visualizzato il seguente messaggio di errore: "Il lavoro con ID \#\#\#\# è attualmente suddiviso." Se viene visualizzato questo messaggio di errore, selezionare **Annulla**. È quindi possibile continuare a elaborare altri lavori.
 
 ## <a name="other-blocked-operations"></a>Altre operazioni bloccate
 
 Tutte le operazioni che modificano le righe di lavoro, le transazioni di inventario del lavoro o i collegamenti di rifornimento correlati al lavoro che viene suddiviso non avranno esito positivo e verrà visualizzato il seguente messaggio di errore: "Il lavoro con ID \#\#\#\# è attualmente suddiviso."
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

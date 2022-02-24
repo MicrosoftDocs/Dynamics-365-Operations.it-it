@@ -1,25 +1,28 @@
 ---
 title: Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce
 description: Questo argomento spiega come configurare "acquisto online, ritiro in negozio" (BOPIS) in un ambiente di valutazione Microsoft Dynamics 365 Commerce dopo il provisioning.
-author: BrianShook
+author: rubendel
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779796"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413353"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce
 
@@ -29,7 +32,7 @@ Questo argomento spiega come configurare "acquisto online, ritiro in negozio" (B
 
 ## <a name="prerequisite"></a>Prerequisito
 
-Completare le procedure in questo argomento solo dopo aver effettuato il provisioning e la configurazione dell'ambiente di valutazione Commerce. Per informazioni relative a come effettuare il provisioning e la configurazione dell'ambiente, consultare [Provisioning di un ambiente di valutazione Dynamics 365 Commerce](provisioning-guide.md) e [Configurare un ambiente di valutazione Dynamics 365 Commerce](./cpe-post-provisioning.md).
+Completare le procedure in questo argomento solo dopo aver effettuato il provisioning e la configurazione dell'ambiente di valutazione Commerce. Per informazioni relative a come effettuare il provisioning e la configurazione dell'ambiente, consultare [Provisioning di un ambiente di valutazione Dynamics 365 Commerce](provisioning-guide.md) e [Configurare un ambiente di valutazione Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 Dopo aver eseguito il provisioning e la configurazione dell'ambiente Commerce end-to-end, è possibile utilizzare questo argomento per abilitare gli scenari BOPIS.
 
@@ -37,7 +40,7 @@ Dopo aver eseguito il provisioning e la configurazione dell'ambiente Commerce en
 
 ### <a name="configure-modern-pos"></a>Configurare Modern POS
 
-Gli scenari BOPIS che prevedono il pagamento con carta di credito richiedono una stazione hardware. La stazione hardware è integrata nei client Modern POS per Windows e Android. Se si utilizza Cloud POS o Modern POS per iOS, il client del punto vendita (POS) deve essere associato a una stazione hardware condivisa. Questo argomento spiega come configurare BOPIS per client Windows e Android. Per ulteriori informazioni su come configurare una stazione hardware condivisa, vedere [Configurare e installare Retail Hardware Station](./retail-hardware-station-configuration-installation.md).
+Gli scenari BOPIS che prevedono il pagamento con carta di credito richiedono una stazione hardware. La stazione hardware è integrata nei client Modern POS per Windows e Android. Se si utilizza Cloud POS o Modern POS per iOS, il client del punto vendita (POS) deve essere associato a una stazione hardware condivisa. Questo argomento spiega come configurare BOPIS per client Windows e Android. Per ulteriori informazioni su come configurare una stazione hardware condivisa, vedere [Configurare e installare Retail Hardware Station](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
 
 1. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Registratori di cassa**.
 2. Selezionare il registratore **SANFRAN-5**, quindi selezionare **Modifica**.
@@ -54,7 +57,7 @@ Gli scenari BOPIS che prevedono il pagamento con carta di credito richiedono una
 4. Selezionare **Scarica** e quindi **Retail Modern POS**. 
 5. Quando il download del file **ModernPOSSetup.exe** è completato, selezionare **Apri file**.
 
-    ![Apri file.](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![Apri file](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. Selezionare **Avanti** per passare al processo di installazione. Al termine dell'installazione, selezionare **Chiudi**.
 
@@ -87,7 +90,7 @@ Gli scenari BOPIS che prevedono il pagamento con carta di credito richiedono una
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Creare un ordine di vetrina virtuale per il ritiro in negozio
 
-1. Andare all'URL specificato nel passaggio [Inizializzare e-Commerce](./provisioning-guide.md#initialize-e-commerce) durante la configurazione dell'ambiente.
+1. Andare all'URL specificato nel passaggio [Inizializzare e-Commerce](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) durante la configurazione dell'ambiente.
 2. Selezionare un articolo e selezionare **Aggiungi al carrello**.
 3. Nella pagina del carrello, selezionare **Ritira** per la riga dell'ordine appena aggiunto.
 4. Nella finestra di dialogo **Seleziona un negozio**, immettere **San Francisco**, quindi selezionare il pulsante **Ricerca**.
@@ -112,7 +115,7 @@ Gli scenari BOPIS che prevedono il pagamento con carta di credito richiedono una
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Sincronizzare gli ordini online con il back office
 
-Per informazioni su come sincronizzare gli ordini online, vedere [Registrazione di vendite e pagamenti online](./tasks/posting-online-sales-payments.md).
+Per informazioni su come sincronizzare gli ordini online, vedere [Registrazione di vendite e pagamenti online](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Prelevare un ordine nel punto vendita
 
@@ -148,19 +151,16 @@ Per tutti i problemi generali, consultare sempre i log degli eventi Modern POS o
 
 [Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portale di Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sito Web di Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Connettore pagamenti Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+[Connettore pagamenti Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 
-[Salvare gli strumenti di pagamento online con il connettore Adyen](./dev-itpro/adyen-connector-listpi.md)
+[Salvare gli strumenti di pagamento online con il connettore Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
-[Panoramica dei pagamenti omnicanale](./omni-channel-payments.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Panoramica dei pagamenti omnicanale](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)

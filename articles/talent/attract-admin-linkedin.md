@@ -118,6 +118,3 @@ Questa funzionalità è attualmente in anteprima. Prima di seguire questi passag
 [Creare, approvare e pubblicare annunci di mansioni in Attract](./creating-jobs-attract.md)
 
 [Risoluzione dei problemi di integrazione con LinkedIn e Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

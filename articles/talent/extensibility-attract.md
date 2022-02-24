@@ -91,6 +91,3 @@ L'attività contenuto Web (iframe) consente di incorporare una soluzione Web per
 
 > [!NOTE]
 > L'attività contenuto Web è disponibile solo con il componente aggiuntivo per l'assunzione a livello globale.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

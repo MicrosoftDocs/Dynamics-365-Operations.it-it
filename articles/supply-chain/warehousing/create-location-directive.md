@@ -2,9 +2,11 @@
 title: Utilizzare le direttive di ubicazione
 description: Questo argomento descrive come utilizzare le direttive di ubicazione. Le direttive ubicazione sono regole definite dall'utente che aiutano a identificare le ubicazioni di prelievo e stoccaggio per il movimento scorte.
 author: Mirzaab
+manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e3139f62ca73f461ff4a4b5114f5e7ba181d3b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575245"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963312"
 ---
 # <a name="work-with-location-directives"></a>Utilizzare le direttive di ubicazione
 
@@ -44,14 +46,14 @@ Prima di poter creare una direttiva di ubicazione, è necessario seguire questi 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Magazzino \> Magazzini**.
 1. Creare un magazzino.
 1. Nella scheda **Magazzino**, impostare l'opzione **Usa processi di gestione magazzino** su *Sì*.
-1. Creare le ubicazioni, i tipi di ubicazione, i profili e i formati delle ubicazioni. Per ulteriori informazioni, vedere [Configurare le ubicazioni in un magazzino abilitato WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
-1. Creare siti, zone e gruppi di zone. Per ulteriori informazioni, vedere [Impostare un magazzino](../../commerce/channels-setup-warehouse.md) e [Configurare le ubicazioni in un magazzino abilitato WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Creare le ubicazioni, i tipi di ubicazione, i profili e i formati delle ubicazioni. Per ulteriori informazioni, vedere [Configurare le ubicazioni in un magazzino abilitato WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Creare siti, zone e gruppi di zone. Per ulteriori informazioni, vedere [Impostare un magazzino](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) e [Configurare le ubicazioni in un magazzino abilitato WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
 
 ## <a name="work-order-types-for-location-directives"></a>Tipi di ordine di lavoro per direttive di ubicazione
 
 Molti campi che possono essere impostati per le direttive di ubicazione sono comuni a tutti i tipi di ordine di lavoro. Tuttavia, altri campi sono specifici per particolari tipi di ordini di lavoro.
 
-![Tipi di ordine di lavoro direttive di ubicazione.](media/Location_Directives_Work_Order_Types.png "Tipi di ordine di lavoro direttive di ubicazione")
+![Tipi di ordine di lavoro direttive di ubicazione](media/Location_Directives_Work_Order_Types.png "Tipi di ordine di lavoro direttive di ubicazione")
 
 > [!NOTE]
 > Due tipi di ordini di lavoro, *Lavoro annullato* e *Conteggio ciclo*, vengono utilizzati solo dal sistema. Non è possibile creare direttive di ubicazione per questi tipi di ordini di lavoro.
@@ -132,8 +134,8 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
 
 - **Tipo di lavoro** - Selezionare il tipo di lavoro da eseguire. I valori disponibili dipendono dal tipo di transazioni di inventario selezionate nel campo **Tipo ordine di lavoro**. Selezionare uno dei seguenti valori:
 
-    - **Stoccaggio** - La direttiva di ubicazione cercherà di trovare l'ubicazione migliore in cui stoccare o individuare le scorte che entrano nel sistema tramite il ricevimento, la produzione o le correzioni delle scorte. L'opzione consente anche di definire uno stoccaggio nell'ubicazione di gestione temporanea o l'ubicazione di spedizione finale.
-    - **Prelievo** - La direttiva di ubicazione proverà a trovare le ubicazioni migliori da cui prenotare fisicamente le scorte (ovvero creare lavoro). Il prelievo può essere completato (la riga di lavoro di prelievo può essere chiusa) anche se il lavoro non è completato. L'utente può completare il prelievo fisico. Nel sistema, quell'azione è un passaggio di prelievo. L'utente può quindi eseguire l'annullamento da da un dispositivo mobile e completare il lavoro in un secondo momento. Tuttavia, l'intestazione del lavoro viene chiusa innanzitutto quando viene completato lo stoccaggio finale.
+    - **Inserisci** - La direttiva di ubicazione cercherà di trovare l'ubicazione migliore in cui stoccare o individuare le scorte che entrano nel sistema tramite il ricevimento, la produzione o le correzioni delle scorte. L'opzione consente anche di definire uno stoccaggio nell'ubicazione di gestione temporanea o l'ubicazione di spedizione finale.
+    - **Prelievo** - La direttiva di ubicazione proverà a trovare le ubicazioni migliori da cui prenotare fisicamente le scorte (ovvero creare lavoro). Il prelievo può essere completato (la riga di lavoro di prelievo può essere chiusa) anche se il lavoro non è completato. L'utente può completare il prelievo fisico. Nel sistema, quell'azione è un passaggio di prelievo. L'utente può quindi eseguire l'annullamento da da un dispositivo mobile e completare il lavoro in un secondo momento. Tuttavia, l'intestazione del lavoro viene chiusa innanzitutto quando viene completato l'inserimento finale.
 
     > [!IMPORTANT]
     > Gli altri valori nel campo **Tipo di lavoro** non sono rilevanti per le direttive di ubicazione. Vengono visualizzati solo perché il campo non è filtrato per corrispondere al tipo di ordine di lavoro selezionato.
@@ -143,14 +145,14 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
 - **Codice direttiva** - Selezionare il codice della direttiva da associare a un modello di lavoro o un modello di rifornimento. Nella pagina **Codice direttiva**, è possibile creare nuovi codici che possono essere utilizzati per collegare modelli di lavoro o di rifornimento a direttive di ubicazione. I codici di direttiva possono essere utilizzati anche per impostare il collegamento tra una qualsiasi riga del modello di lavoro e una direttiva di ubicazione (ad esempio l'ubicazione finale o di gestione temporanea).
 
     > [!TIP]
-    > Se è impostato un codice di direttiva, il sistema non cercherà le direttive di ubicazione per numero di sequenza quando il lavoro deve essere generato. Cercherà invece per codice di direttiva. In questo modo, è possibile essere più precisi riguardo la direttiva di ubicazione utilizzata per un passaggio particolare in un modello di lavoro, ad esempio la gestione temporanea dei materiali.
+    > Se è impostato un codice di direttiva, il sistema non cercherà le direttive di ubicazione per numero di sequenza quando il lavoro deve essere generato. Cercherà invece per codice di direttiva. In questo modo, è possibile essere più precisi riguardo il modello di ubicazione utilizzato per un passaggio particolare in un modello di lavoro, ad esempio la gestione temporanea dei materiali.
 
 - **Più SKU** - Impostare questa opzione su *Sì* per abilitare l'utilizzo di più unità di stockkeeping in un'ubicazione. Ad esempio, è necessario abilitare più unità di stockkeeping per un'ubicazione finale. Se si abilitano più unità di stockkeeping, l'ubicazione di stoccaggio verrà specificata nel lavoro, come previsto. Tuttavia, l'ubicazione di stoccaggio sarà in grado di gestire solo uno stoccaggio multi-articolo (se il lavoro include unità di stockkeeping diverse che devono essere prelevate e stoccate). Non sarà in grado di gestire uno stoccaggio per una singola unità di stockkeeping. Se si imposta questa opzione su *No*, l'ubicazione di stoccaggio verrà specificata solo se lo stoccaggio prevede un solo tipo di unità di stockkeeping.
 
     > [!IMPORTANT]
     > Per eseguite stoccaggi multi-articolo e per una singola unità di stockkeeping, è necessario specificare due righe con la stessa struttura e la stessa impostazione, ma è necessario impostare l'opzione **Più SKU** su *Sì* per una riga e su *No* per l'altra. Di conseguenza, per le operazioni di stoccaggio, è necessario disporre di due direttive ubicazioni identiche, anche se non è necessario fare distinzione tra unità di stockkeeping singole e più unità di stockkeepng in un iD lavoro. Spesso, se non si impostano entrambe queste direttive di ubicazione, le ubicazioni dei processi aziendali impreviste deriveranno dalla direttiva di ubicazione applicata. È necessario utilizzare una configurazione simile per le direttive di ubicazione **Tipo di lavoro** uguale a *prelievo* se è necessario elaborare ordini che includono più unità di stockkeeping.
 
-    Utilizzare l'opzione **Più SKU** per le righe di lavoro che gestiscono più di un numero di articolo. Il numero dell'articolo sarà vuoto nei dettagli del lavoro e verrà visualizzato come **Multiplo** nelle pagine di elaborazione nell'app per dispositivi mobili Gestione magazzino.
+    Utilizzare l'opzione **Più SKU** per le righe di lavoro che gestiscono più di un numero di articolo. Il numero dell'articolo sarà vuoto nei dettagli del lavoro e verrà visualizzato come **Multiplo** nelle pagine di elaborazione nell'app di magazzino.
 
     In uno scenario di esempio tipico, un modello di lavoro è impostato in modo che abbia più di una coppia prelievo/stoccaggio. In questo caso, è opportuno cercare un'ubicazione di gestione temporanea specifica da utilizzare per le righe con un **Tipo di lavoro** uguale a *Stoccaggio*.
 
@@ -169,7 +171,7 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
     > [!NOTE]
     > Questo campo è disponibile solo per i tipi di ordine di lavoro selezionati in cui è consentito il rifornimento. Per un elenco completo, vedere la sezione [Campi specifici per i tipi di ordine di lavoro](#fields-specific-types).
 
-- **Codice smaltimento** - Questo campo viene utilizzato per le direttive di ubicazione con tipo di ordine di lavoro uguale a *Ordini fornitore*, *Stoccaggio prodotti finiti* oppure *Ordini di reso* e un tipo di lavoro uguale a *Stoccaggio*. Utilizzarlo per guidare il flusso per utilizzare una direttiva di ubicazione specifica, a seconda del codice di smaltimento che un lavoratore ha selezionato nell'app per dispositivi mobili Gestione magazzino. Ad esempio, è possibile indirizzare le merci restituite a un'ubicazione di ispezione prima che vengano restituite nelle scorte. Un codice di smaltimento può essere collegato a uno stato dell'inventario. In questo modo, può essere utilizzato per modificare lo stato dell'inventario come parte di un processo di ricevimento. Ad esempio, può essere presente un codice di smaltimento *QA* che imposta lo stato dell'inventario su *QA*. È quindi possibile disporre di una direttiva di ubicazione separata per spostare l'inventario in una posizione di quarantena.
+- **Codice smaltimento** - Questo campo viene utilizzato per le direttive di ubicazione con tipo di ordine di lavoro uguale a *Ordini fornitore*, *Stoccaggio prodotti finiti* oppure *Ordini di reso* e un tipo di lavoro uguale a *Stoccaggio*. Utilizzarlo per guidare il flusso per utilizzare una direttiva di ubicazione specifica, a seconda del codice di smaltimento che un lavoratore ha selezionato nell'app di magazzino. Ad esempio, è possibile indirizzare le merci restituite a un'ubicazione di ispezione prima che vengano restituite nelle scorte. Un codice di smaltimento può essere collegato a uno stato dell'inventario. In questo modo, può essere utilizzato per modificare lo stato dell'inventario come parte di un processo di ricevimento. Ad esempio, può essere presente un codice di smaltimento *QA* che imposta lo stato dell'inventario su *QA*. È quindi possibile disporre di una direttiva di ubicazione separata per spostare l'inventario in una posizione di quarantena.
 
     > [!NOTE]
     > Questo campo è disponibile solo per i tipi di ordine di lavoro selezionati in cui è consentito il rifornimento. Per un elenco completo, vedere la sezione [Campi specifici per i tipi di ordine di lavoro](#fields-specific-types).
@@ -182,7 +184,7 @@ Utilizzare la Scheda dettaglio **Righe** per stabilire le condizioni per l'appli
 - **Da quantità** - Specificare l'inizio dell'intervallo di quantità a cui si applica la riga. Specificare la quantità in unità di misura selezionata nel campo **Unità**.
 - **A quantità** - Specificare la fine dell'intervallo di quantità a cui si applica la riga. Specificare la quantità in unità di misura selezionata nel campo **Unità**.
 - **Unità** - Selezionare l'unità di misura per gli articoli. È possibile specificare una quantità minima e una quantità massima a cui la direttiva deve essere applicata e specificare che la direttiva deve essere destinata a un'unità di magazzino specifica. Il campo **Unità** viene utilizzato *solo* per la valutazione della della quantità. Per determinare se la riga di direttiva di ubicazione è applicabile, il sistema utilizza la quantità nell'unità specificata in tale riga. Ogni volta che accede a una riga della direttiva di ubicazione, il sistema tenta di convertire l'unità della domanda nell'unità specificata nella riga. Se la conversione delle unità di misura non esiste, il sistema si sposta sulla riga successiva.
-- **Trova quantità** - Questo campo viene utilizzato solo durante i tentativi di stoccaggio o ricerca di articoli nel magazzino. Di conseguenza, si applica solo quando il campo **Tipo di lavoro** è impostato su *Stoccaggio*. Selezionare uno dei seguenti valori per specificare la quantità utilizzata per valutare se una quantità è all'interno dell'intervallo con estremi **Da quantità** e **A quantità**:
+- **Trova quantità** - Questo campo viene utilizzato solo durante i tentativi di inserimento o ricerca di articoli nel magazzino. Di conseguenza, si applica solo quando il campo **Tipo di lavoro** è impostato su *Stoccaggio*. Selezionare uno dei seguenti valori per specificare la quantità utilizzata per valutare se una quantità è all'interno dell'intervallo con estremi **Da quantità** e **A quantità**:
 
     - **Quantità targa** - Utilizzare la quantità sulla targa ricevuta.
     - **Quantità in unità** - Utilizzare la quantità utilizzata durante la transazione. Ad esempio, si può ricevere una quantità pari a 1000 in un magazzino e suddividerla in 10 targhe, a ciascuna delle quali viene assegnata una quantità pari a 100. In questo caso, è possibile utilizzare una quantità di 1000 articoli invece della quantità di targa pari a 100.
@@ -232,12 +234,12 @@ Utilizzare la Scheda dettaglio **Righe** per stabilire le condizioni per l'appli
 
     - **Nessuna** - Non verrà utilizzata alcuna strategia.
     - **Corrispondenza quantità imballaggio** - Questa strategia consente di verificare se un'ubicazione di prelievo dispone della quantità di imballaggio specificata. Questa strategia è valida solo quando il campo **Tipo di lavoro** è impostato su *Preleva*.
-    - **Consolidato** - Questa strategia consente di consolidare gli articoli in un'ubicazione specifica quando articoli simili sono già disponibili. Questa strategia è valida solo quando il campo **Tipo di lavoro** è impostato su *Stoccaggio*. Una configurazione tipica di stoccaggio tenta di consolidare la prima riga dell'azione, quindi, sulla seconda riga, tenta di eseguire lo stoccaggio senza consolidamento. Il consolidamento delle merci rende più efficiente il prelievo in un secondo momento.
+    - **Consolidato** - Questa strategia consente di consolidare gli articoli in un'ubicazione specifica quando articoli simili sono già disponibili. Questa strategia è valida solo quando il campo **Tipo di lavoro** è impostato su *Inserisci*. Una configurazione tipica di stoccaggio tenta di consolidare la prima riga dell'azione, quindi, sulla seconda riga, tenta di eseguire lo stoccaggio senza consolidamento. Il consolidamento delle merci rende più efficiente il prelievo in un secondo momento.
     - **Prenotazione batch FEFO** - Questa strategia utilizza le prenotazioni batch FEFO (First Expiry, First Out). Utilizzare questa strategia quando il magazzino viene individuato utilizzando una data di scadenza batch e allocato per la prenotazione batch. È possibile utilizzare questa strategia solo per gli articoli abilitati per il batch. Questa strategia è valida solo quando il campo **Tipo di lavoro** è impostato su *Prelievo*.
     - **Arrotonda per eccesso alla targa completa e al batch FEFO** - Questa strategia combina gli elementi delle strategie *Prenotazione batch FEFO* e *Arrotonda per eccesso alla targa completa*. È valida solo per gli articoli abilitati per batch e per le direttive di ubicazione che hanno un tipo di lavoro *Prelievo*. Per utilizzare la strategia *Prenotazione batch FEFO*, la riga deve essere abilitata per il batch e la strategia *Arrotonda per accesso alla targa completa* può essere utilizzata solo per il rifornimento. Se questa strategia è configurata insieme a un limite di stoccaggio dell'ubicazione, può causare il sovraccarico dell'ubicazione di lavoro selezionata e ignorare i limiti di stoccaggio.
     - **Arrotonda per eccesso alla targa completa** - Questa strategia consente di arrotondare per eccesso la quantità di scorte da abbinare alla quantità di targa assegnata agli articoli da prelevare. È possibile utilizzare questa strategia solo per le direttive di ubicazione di rifornimento di tipo *Prelievo*. Se questa strategia è configurata insieme a un limite di stoccaggio dell'ubicazione, può causare il sovraccarico dell'ubicazione di lavoro selezionata e ignorare i limiti di stoccaggio.
     - **Targa guidata** - Utilizzare questa strategia quando si rilascia l'ordine al magazzino per creare il lavoro di prelievo e stoccaggio. È possibile utilizzare questo approccio per più targhe. Questa strategia tenterà di prenotare e creare lavori di prelievo nelle ubicazioni contenenti le targhe richieste che sono state associate alle righe dell'ordine di trasferimento. Tuttavia, se queste azioni non possono essere completate, ma si desidera comunque creare un lavoro di prelievo, è necessario ricorrere a un'altra strategia per le azioni di direttiva di ubicazione. A seconda dei requisiti del processo aziendale, potrebbe essere necessario cercare l'inventario in un'altra area del magazzino.
-    - **Ubicazione vuota senza alcun lavoro in entrata** - Questa strategia viene utilizzata per individuare le ubicazioni vuote. Un'ubicazione viene considerata vuota se non è presente un inventario fisico e non è previsto lavoro in entrata. È possibile utilizzare questa strategia solo per le direttive di ubicazione con tipo di lavoro *Stoccaggio*.
+    - **Ubicazione vuota senza alcun lavoro in entrata** - Questa strategia viene utilizzata per individuare le ubicazioni vuote. Un'ubicazione viene considerata vuota se non è presente un inventario fisico e non è previsto lavoro in entrata. È possibile utilizzare questa strategia solo per le direttive di ubicazione con tipo di lavoro uguale a *Prelievo*.
     - **FIFO aging ubicazione** - Utilizzare la strategia FIFO (First In, First Out) per spedire sia articoli di cui viene tenuta traccia in batch sia articoli di cui non viene tenuta traccia in batch, in base alla data in cui le scorte sono entrate in magazzino. Questa funzionalità può essere particolarmente utile per le scorte di cui non viene tenuta traccia in batch, dove una data di scadenza non è disponibile per l'ordinamento. La strategia FIFO trova l'ubicazione che contiene la data di aging meno recente e alloca il prelievo in base a tale data di aging.
     - **LIFO aging ubicazione** - Utilizzare la strategia LIFO (Last In, First Out) per spedire sia articoli di cui viene tenuta traccia in batch sia articoli di cui non viene tenuta traccia in batch, in base alla data in cui le scorte sono entrate in magazzino. Questa funzionalità può essere particolarmente utile per le scorte di cui non viene tenuta traccia in batch, dove una data di scadenza non è disponibile per l'ordinamento. La strategia LIFO trova l'ubicazione che contiene la data di aging più recente e alloca il prelievo in base a tale data di aging.
 
@@ -249,12 +251,9 @@ Per questo scenario, è necessario definire due azioni di direttiva ubicazione. 
 
 ## <a name="next-step"></a>Passaggio successivo
 
-Una volta create le direttive ubicazione, è possibile associare ciascun codice di direttiva a un codice di modello di lavoro per la creazione del lavoro. Per ulteriori informazioni, vedere [Rifornimento e Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](./control-warehouse-location-directives.md).
+Una volta create le direttive ubicazione, è possibile associare ciascun codice di direttiva a un codice di modello di lavoro per la creazione del lavoro. Per ulteriori informazioni, vedere [Rifornimento e Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - Video: [Approfondimento sulla configurazione della gestione magazzino](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Argomento della Guida: [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](control-warehouse-location-directives.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

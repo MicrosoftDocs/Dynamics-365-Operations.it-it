@@ -2,33 +2,31 @@
 title: Ottimizzare le prestazioni pianificando i processi batch dopo le ore lavorative
 description: In questo argomento viene spiegato come risolvere problemi di prestazioni con Microsoft Dynamics 365 Human Resources pianificando i processi di lunga durata dopo le ore lavorative.
 author: andreabichsel
+manager: AnnBe
 ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 14354ba9454b8837246b75cd413497553423511e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 452a87cf5ba6c1ac73636584d75b2ec2ac555e02
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065428"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527767"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Ottimizzare le prestazioni pianificando i processi batch dopo le ore lavorative
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="issue"></a>Uscita
 
@@ -54,11 +52,11 @@ I seguenti processi batch devono essere eseguiti di notte o dopo le ore lavorati
 
 3. Selezionare **Esecuzione in background** e quindi selezionare **Ricorrenza**.
 
-   ![Impostare la ricorrenza.](media/talent-batch-history-cleanup-recurrence.png)
+   ![Impostare la ricorrenza](media/talent-batch-history-cleanup-recurrence.png)
 
 4. In **Definisci ricorrenza**, impostare la **Data di inizio** e **Ora di inizio** in modo che si verificano durante le ore non lavorative o nel fine settimana. Seleziona **Nessuna data di fine**. 
 
-   ![Definire la data e l'ora di inizio della ricorrenza.](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definire la data e l'ora di inizio della ricorrenza](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Selezionare **OK**.
 
@@ -67,6 +65,3 @@ I seguenti processi batch devono essere eseguiti di notte o dopo le ore lavorati
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Ottimizzare le prestazioni con attività di pulizia automatica](hr-admin-troubleshooting-batch-history.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

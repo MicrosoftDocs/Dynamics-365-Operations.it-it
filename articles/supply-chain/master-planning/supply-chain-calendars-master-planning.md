@@ -1,25 +1,28 @@
 ---
 title: Calendari e pianificazione generale
 description: In questo argomento viene fornita una panoramica dei calendari della supply chain e della relativa influenza sulla pianificazione generale.
-author: ChristianRytt
+author: t-benebo
+manager: tfehr
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568617"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431171"
 ---
 # <a name="calendars-and-master-planning"></a>Calendari e pianificazione generale
 
@@ -90,7 +93,7 @@ Per indicare le date in cui un cliente può accettare le consegne, è possibile 
 
 Tenere presente che è possibile includere un solo calendario per cliente. Se è necessario includere un calendario per ogni indirizzo diverso per un cliente, è possibile creare un cliente per indirizzo e quindi assegnare il rispettivo calendario. 
 
-La data di ricevimento richiesta nelle righe di ordine cliente è determinata dal calendario cliente e dal metodo di controllo della data di consegna. Per ulteriori informazioni su come calcolare la data di consegna meno recente, vedere [Promesse ordine.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)
+La data di ricevimento richiesta nelle righe di ordine cliente è determinata dal calendario cliente e dal metodo di controllo della data di consegna. Per ulteriori informazioni su come calcolare la data di consegna meno recente, vedere [Promesse ordine.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendario di spedizione per una persona giuridica
 Per indicare le date in cui una persona giuridica può spedire merci, è possibile impostare un calendario di spedizione in **Amministrazione organizzazione > Organizzazioni > Persone giuridiche**. Selezionare la persona giuridica e aggiungere il calendario nella scheda **Commercio estero e logistica** nel campo **Calendario di spedizione**. Il calendario di spedizione verrà utilizzato come origine dei valori predefiniti per tutti i calendari di magazzino nella persona giuridica. 
@@ -140,6 +143,3 @@ Per quanto riguarda il calendario del gruppo di copertura, è importante conside
 
 ### <a name="updating-scm-related-calendars"></a>Aggiornamento dei calendari correlati a SCM
 Sebbene sia importante che tutti i calendari rilevanti siano assegnati nella rispettiva posizione (fornitore, cliente, magazzino, modalità di consegna o gruppo di copertura), aggiornarli è altrettanto importante affinché riflettano le modifiche. Il sistema definirà le date degli ordini di produzione, trasferimento, fornitore e cliente in base alla combinazione dei calendari assegnati. È consigliabile chiarire chi è responsabile dell'assegnazione e dell'aggiornamento dei calendari nelle relative aree corrispondenti. Nel caso di scomposizione o di qualsiasi altra modifica inusuale nei giorni lavorativi, è essenziale aggiornare i calendari in base a tale modifica. Tutte le attività che dipendono dai calendari, ad esempio la pianificazione generale e la programmazione della produzione, devono essere ripetute dopo l'aggiornamento dei calendari. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

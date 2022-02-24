@@ -2,13 +2,16 @@
 title: Rifiuto esplicito dei suggerimenti personalizzati
 description: Questo argomento descrive come è possibile consentire ai clienti di rifiutare esplicitamente i suggerimenti personalizzati in Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772939"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413428"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Rifiuto esplicito dei suggerimenti personalizzati
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come è possibile consentire ai clienti di rifiutare esplicitamente i suggerimenti personalizzati in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Durante la creazione dell'account, la ricezione di suggerimenti personalizzati è impostata automaticamente per i nuovi clienti. Tuttavia, Dynamics 365 Commerce offre vari modi ai rivenditori per consentire agli utenti di rifiutare questi suggerimenti e limitare il trattamento dei loro dati personali. Per gli utenti autenticati che rinunciano a ricevere suggerimenti personalizzati, la visualizzazione degli elenchi personalizzati viene sospesa immediatamente. Inoltre, tutti i dati personali raccolti per la personalizzazione verranno rimossi dai modelli di suggerimenti personalizzati.
 
@@ -44,11 +49,11 @@ Nella gestione degli account nel back office di Commerce, i rivenditori possono 
 1. Dalla home page del back office, cercare **Tutti i clienti**.
 1. Cercare e seleziona un cliente, quindi selezionare la scheda dettaglio **Vendita al dettaglio**.
 
-    ![Scheda dettaglio Vendita al dettaglio.](./media/Disablepersonalizationpart1.png)
+    ![Scheda dettaglio Vendita al dettaglio](./media/Disablepersonalizationpart1.png)
 
 1. Sotto **Privacy**, impostare l'opzione **Disabilita personalizzazione** su **Sì**.
 
-    ![Impostazioni di privacy.](./media/Disablepersonalizationpart2.png)
+    ![Impostazioni di privacy](./media/Disablepersonalizationpart2.png)
 
 1. Selezionare **Salva**, quindi chiudere la pagina.
 
@@ -99,6 +104,3 @@ L'esempio seguente mostra come un rivenditore può eseguire questa attività.
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

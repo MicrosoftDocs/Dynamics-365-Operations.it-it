@@ -1,27 +1,31 @@
 ---
 title: Richieste di informazioni e report sui materiali pericolosi
 description: Questo argomento spiega come lavorare con i vari report relativi ai materiali pericolosi. Molti di questi report sono necessari per mantenere la conformità con le varie normative sui materiali pericolosi durante la spedizione e lo stoccaggio.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431184"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Richieste di informazioni e report sui materiali pericolosi
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management fornisce vari report relativi ai materiali pericolosi. Molti di questi report sono necessari per mantenere la conformità con le varie normative sui materiali pericolosi durante la spedizione e lo stoccaggio.
 
@@ -29,7 +33,7 @@ Tutti questi report, tranne il report **Merci pericolose multimodali**, utilizza
 
 La seguente illustrazione mostra la sequenza di attività che si verificano quando il sistema genera report sui materiali pericolosi.
 
-![Sequenza delle attività per i report sui materiali pericolosi.](media/hazmat-report-sequence.png "Sequenza delle attività per i report sui materiali pericolosi")
+![Sequenza delle attività per i report sui materiali pericolosi](media/hazmat-report-sequence.png "Sequenza delle attività per i report sui materiali pericolosi")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Impostare la creazione di report sui materiali pericolosi
 
@@ -38,7 +42,7 @@ Di solito, se si spediscono articoli che contengono materiali pericolosi, è nec
 1. Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**.
 2. Aprire la scheda **Report**. Nella Scheda dettaglio **Parametro report materiali pericolosi**, impostare i seguenti campi.
 
-    | Sezione | Campo | Descrizione |
+    | Sezione | Campo | descrizione |
     |---|---|---|
     | Merci pericolose multimodali | Codice normativa | Selezionare la normativa da utilizzare quando viene generato il report **Merci pericolose multimodali**. |
     | Limiti delle scorte di materiali pericolosi | Codice normativa | Selezionare la normativa da utilizzare quando vengono valutati i limiti delle scorte. |
@@ -106,6 +110,3 @@ Quando la funzione dei materiali pericolosi è attivata nel sistema, il report *
 ## <a name="packing-list-report"></a>Report di elenco imballaggio
 
 Quando la funzione dei materiali pericolosi è attivata nel sistema, gli elenchi di imballaggio includono informazioni aggiuntive correlate al testo della stampa della spedizione per un articolo. Questo report è disponibile nella pagina **Tutti i carichi**, come di consueto.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

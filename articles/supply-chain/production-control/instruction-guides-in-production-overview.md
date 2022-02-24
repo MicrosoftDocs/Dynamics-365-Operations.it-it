@@ -1,34 +1,34 @@
 ---
 title: Fornire guide alla realtà mista per i lavoratori nei reparti di produzione
 description: In questo argomento viene descritto come integrare il modulo di gestione della produzione in Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides.
-author: johanhoffmann
+author: cabeln
+manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "61943"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062954"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645146"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fornire guide alla realtà mista per i lavoratori nei reparti di produzione
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 I lavoratori nei processi di produzione beneficeranno di istruzioni pertinenti fornite al momento giusto nel contesto del loro lavoro. Le *istruzioni* si applicano in diversi settori di lavoro, tra cui assembly, servizio, operazioni, certificazione e sicurezza. In tutte queste funzioni aziendali principali, le istruzioni di formazione continua possono aiutare i lavoratori a ottenere di più e lavorare meglio.
 
@@ -60,7 +60,7 @@ Le sottosezioni seguenti descrivono alcuni scenari selezionati in cui le aziende
 
 ### <a name="assembly"></a>Assembly
 
-![Utilizzare guide per le attività di assembly.](media/instruction-guides-hero-assembly.png "Utilizzare guide per le attività di servizio")
+![Utilizzare guide per le attività di assembly](media/instruction-guides-hero-assembly.png "Utilizzare guide per le attività di servizio")
 
 Le istruzioni nelle operazioni di assemblaggio mostrano ai lavoratori gli strumenti e le parti di cui hanno bisogno e come utilizzarli nelle situazioni di lavoro reali.
 
@@ -68,7 +68,7 @@ I responsabili della produzione possono creare e assegnare guide, ad esempio, pe
 
 ### <a name="service"></a>Gestione assistenza
 
-![Utilizzare guide per le attività di servizio.](media/instruction-guides-hero-service.png "Utilizzare guide per le attività di servizio")
+![Utilizzare guide per le attività di servizio](media/instruction-guides-hero-service.png "Utilizzare guide per le attività di servizio")
 
 Fornire ai tecnici istruzioni guidate sul sito, eliminando la necessità di programmare visite aggiuntive.
 
@@ -76,7 +76,7 @@ I responsabili dei servizi possono assegnare guide, ad esempio a specifici [prod
 
 ### <a name="quality"></a>Qualità
 
-![Utilizzare guide per le attività di controllo qualità.](media/instruction-guides-hero-quality.png "Utilizzare guide per le attività di controllo qualità")
+![Utilizzare guide per le attività di controllo qualità](media/instruction-guides-hero-quality.png "Utilizzare guide per le attività di controllo qualità")
 
 Implementa nuovi processi e garantisci una maggiore coerenza trasformando la conoscenza dei dipendenti in uno strumento ripetibile.
 
@@ -84,13 +84,13 @@ I responsabili del controllo qualità possono assegnare guide, ad esempio a [pro
 
 ### <a name="certifications"></a>Certificazioni
 
-![Utilizzare guide per le attività di certificazione.](media/instruction-guides-hero-certification.png "Utilizzare guide per attività di certificazione")
+![Utilizzare guide per le attività di certificazione](media/instruction-guides-hero-certification.png "Utilizzare guide per attività di certificazione")
 
 Assicurati che ogni dipendente soddisfi standard elevati identificando rapidamente chi ha bisogno di supporto e dove.
 
 ### <a name="safety"></a>Sicurezza
 
-![Utilizzare guide per istruzioni relative alla sicurezza sul lavoro.](media/instruction-guides-hero-safety.png "Utilizzare guide per istruzioni relative alla sicurezza sul lavoro")
+![Utilizzare guide per istruzioni relative alla sicurezza sul lavoro](media/instruction-guides-hero-safety.png "Utilizzare guide per istruzioni relative alla sicurezza sul lavoro")
 
 Fornisci istruzioni che percorrono virtualmente le procedure pericolose prima di eseguirle nell'ambiente fisico. Con un approccio di realtà mista, i lavoratori possono sperimentare procedure pericolose virtualmente.
 
@@ -105,8 +105,8 @@ Per abilitare le istruzioni nei processi di produzione, Supply Chain Management 
 Per utilizzare questa funzionalità, il sistema deve includere quanto segue:
 
 - Dynamics 365 Supply Chain Management 10.0.15 o versione successiva
-- [Doppia scrittura](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md) per le app Supply Chain Management.
-- [Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versione 400.0.1.48 o successiva
+- [Doppia scrittura](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write) per le app Supply Chain Management.
+- [Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versione 400.0.1.48 o successiva
 
 ### <a name="turn-on-the-feature"></a>Attivare la funzionalità
 
@@ -122,9 +122,9 @@ Per rendere disponibile la funzionalità nel sistema, devi abilitare le relative
 
 Per configurare la modalità di visualizzazione delle guide nell'officina, vai a **Realtà mista \> Dynamics 365 Guides \> Configura integrazione delle guide**.
 
-![Configurare l'integrazione delle guide per la produzione.](media/instruction-guides-configure-integration.png "Configurare l'integrazione delle guide per la produzione")
+![Configurare l'integrazione delle guide per la produzione](media/instruction-guides-configure-integration.png "Configurare l'integrazione delle guide per la produzione")
 
-Impostare i seguenti campi:
+Imposta i seguenti campi:
 
 - **URL Microsoft Dataverse** - Specifica l'URL per l'ambiente Microsoft Dataverse in cui vengono create le Guides. Il formato è "contoso.crm4.dynamics.com", dove la prima parte dell'URL è in genere denominata in base all'organizzazione (ad esempio "contoso."), la seconda parte è specifica dell'area dati dell'ambiente (ad esempio "crm4") e l'ultima parte è il dominio (come "dynamics.com"). Un modo per trovare l'URL corretto è andare a [home.dynamics.com](https://home.dynamics.com/) e quindi aprire l'app Guides. Quando si apre Guides, l'URL è visualizzato nella barra degli indirizzi del browser (prendere solo l'URL di base, che dovrebbe assomigliare all'esempio precedente). Questo valore viene utilizzato per comporre gli indirizzi per le guide e verrà codificato nei codici a matrice.
 - **Dimensione codice a matrice** - Imposta la dimensione del codice a matrice di cui viene eseguito il rendering. Ti consigliamo di scegliere una dimensione che riempia la maggior parte dello schermo, ma non di più. *15* è in genere un buon valore.
@@ -139,7 +139,7 @@ Impostare i seguenti campi:
 
 Usa la pagina **Tutte le guide** per visualizzare l'elenco di tutte le guide disponibili nell'organizzazione e tutte le assegnazioni a processi e risorse di produzione. Per aprirla, vai a **Realtà mista\> Guide \> Tutte le guide**. L'elenco in alto mostra tutte le guide disponibili e puoi utilizzare il campo qui per filtrare l'elenco. L'elenco in basso mostra tutte le assegnazioni delle guida e fornisce una barra degli strumenti per gestirle.
 
-![Gestire le guide.](media/instruction-guides-allguides.png "Gestire le guide")
+![Gestire le guide](media/instruction-guides-allguides.png "Gestire le guide")
 
 Le sezioni seguenti descrivono i tipi di oggetti a cui è possibile assegnare le guide. Ogni guida assegnata fornisce istruzioni che vengono automaticamente associate ai rispettivi processi di produzione e saranno disponibili nell'officina.
 
@@ -160,7 +160,7 @@ Per aggiungere una guida a una risorsa:
 1. Espandi la Scheda dettaglio **Guide associate**.
 1. Seleziona **Aggiungi** nella barra degli strumenti **Guide associate**. Una nuova riga viene aggiunta alla griglia.
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare. Se disponi di un numero elevato di guide, puoi filtrare l'elenco per trovare quella che stai cercando.
-    ![Gestire le guide.](media/instruction-guides-allguides.png "Gestire le guide")
+    ![Gestire le guide](media/instruction-guides-allguides.png "Gestire le guide")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Associare una guida a un gruppo di risorse
 
@@ -181,7 +181,7 @@ Per aggiungere una guida a un gruppo di risorse:
 1. Espandi la Scheda dettaglio **Guide associate**.
 1. Seleziona **Aggiungi** nella barra degli strumenti **Guide associate**. Una nuova riga viene aggiunta alla griglia.
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare. Se disponi di un numero elevato di guide, puoi filtrare l'elenco per trovare quella che stai cercando.
-    ![Aggiungere una guida a un gruppo di risorse.](media/instruction-guides-resourcegroup.png "Aggiungere una guida a un gruppo di risorse")
+    ![Aggiungere una guida a un gruppo di risorse](media/instruction-guides-resourcegroup.png "Aggiungere una guida a un gruppo di risorse")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Associare una guida a un prodotto rilasciato
 
@@ -201,7 +201,7 @@ Per aggiungere una guida a un prodotto rilasciato:
 1. Viene aperta la pagina **Guide associate** per il prodotto selezionato.
 1. Seleziona **Aggiungi** per aggiungere una nuova riga alla griglia. 
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare.
-    ![Aggiungere una guida a un prodotto rilasciato.](media/instruction-guides-ReleasedProduct-AddGuides.png "Aggiungere una guida a un prodotto rilasciato")
+    ![Aggiungere una guida a un prodotto rilasciato](media/instruction-guides-ReleasedProduct-AddGuides.png "Aggiungere una guida a un prodotto rilasciato")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Associare una guida a una formula
 
@@ -226,7 +226,7 @@ Per aggiungere una guida a una formula:
 1. Espandi la Scheda dettaglio **Guide associate**.
 1. Seleziona **Aggiungi** nella barra degli strumenti **Guide associate**. Una nuova riga viene aggiunta alla griglia.
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare.
-    ![Aggiungere una guida a una formula.](media/instruction-guides-Formula.png "Aggiungere una guida a una formula")
+    ![Aggiungere una guida a una formula](media/instruction-guides-Formula.png "Aggiungere una guida a una formula")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Associare una guida a una versione di formula
 
@@ -251,11 +251,11 @@ Per aggiungere una guida a una versione di formula:
 1. Apri la scheda **Intestazione** sopra la Scheda dettaglio superiore.
 1. Nella Scheda dettaglio **Versioni formula**, seleziona la versione a cui si desidera assegnare una guida.
 1. Nella barra degli strumenti **Versioni formula**, seleziona **Guide associate**.
-    ![Aprire le guide associate a una versione di formula selezionata.](media/instruction-guides-FormulaVersion.png "Aprire le guide associate a una versione di formula selezionata")
+    ![Aprire le guide associate a una versione di formula selezionata](media/instruction-guides-FormulaVersion.png "Aprire le guide associate a una versione di formula selezionata")
 1. Viene aperta la pagina **Guide associate** per la versione di formula.
 1. Seleziona **Aggiungi** per aggiungere una nuova riga alla griglia. 
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare.
-    ![Aggiungere una guida a una versione di formula.](media/instruction-guides-FormulaVersionAddGuide.png "Aggiungere una guida a una versione di formula")
+    ![Aggiungere una guida a una versione di formula](media/instruction-guides-FormulaVersionAddGuide.png "Aggiungere una guida a una versione di formula")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Associare una guida a una distinta base
 
@@ -278,7 +278,7 @@ Per aggiungere una guida a una distinta base:
 1. Espandi la Scheda dettaglio **Guide associate**.
 1. Seleziona **Aggiungi** nella barra degli strumenti **Guide associate**. Una nuova riga viene aggiunta alla griglia.
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare.
-    ![Aggiungere una guida a una distinta materiali.](media/instruction-guides-BOM.png "Aggiungere una guida a una distinta materiali")
+    ![Aggiungere una guida a una distinta materiali](media/instruction-guides-BOM.png "Aggiungere una guida a una distinta materiali")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Associare una guida a una versione di distinta base
 
@@ -300,11 +300,11 @@ Per aggiungere una guida a una versione di distinta materiali:
 1. Apri la scheda **Intestazione** sopra la Scheda dettaglio superiore.
 1. Nella Scheda dettaglio **Versioni DBA**, seleziona la versione a cui desideri assegnare una guida.
 1. Nella barra degli strumenti **Versioni DBA**, seleziona **Guide associate**.
-    ![Aprire le guide associate a una versione di DBA selezionata.](media/instruction-guides-BOMVersion.png "Aprire le guide associate a una versione di DBA selezionata")
+    ![Aprire le guide associate a una versione di DBA selezionata](media/instruction-guides-BOMVersion.png "Aprire le guide associate a una versione di DBA selezionata")
 1. Viene aperta la pagina **Guide associate** per la versione di DBA.
 1. Seleziona **Aggiungi** per aggiungere una nuova riga alla griglia.
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare.
-    ![Aggiungere una guida a una versione di DBA.](media/instruction-guides-BOMVersionAddGuide.png "Aggiungere una guida a una versione di DBA")
+    ![Aggiungere una guida a una versione di DBA](media/instruction-guides-BOMVersionAddGuide.png "Aggiungere una guida a una versione di DBA")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Associare una guida a un ciclo di lavorazione
 
@@ -325,7 +325,7 @@ Per aggiungere una guida a un ciclo di lavorazione:
 1. Espandi la Scheda dettaglio **Guide associate**.
 1. Seleziona **Aggiungi** nella barra degli strumenti **Guide associate**. Una nuova riga viene aggiunta alla griglia.
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare.
-    ![Aggiungere una guida a un ciclo di lavorazione.](media/instruction-guides-Route.png "Aggiungere una guida a un ciclo di lavorazione")
+    ![Aggiungere una guida a un ciclo di lavorazione](media/instruction-guides-Route.png "Aggiungere una guida a un ciclo di lavorazione")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Associare una guida a una versione di ciclo di lavorazione
 
@@ -343,11 +343,11 @@ Per aggiungere una guida a una versione di ciclo di lavorazione:
 1. Apri il ciclo di lavorazione a cui desideri assegnare una guida.
 1. Nella Scheda dettaglio **Versioni**, seleziona la versione a cui desideri assegnare una guida.
 1. Nella barra degli strumenti **Versioni**, seleziona **Guide associate**.
-    ![Aprire le guide associate a una versione di ciclo di lavorazione selezionata.](media/instruction-guides-RouteVersion.png "Aprire le guide associate a una versione di ciclo di lavorazione selezionata")
+    ![Aprire le guide associate a una versione di ciclo di lavorazione selezionata](media/instruction-guides-RouteVersion.png "Aprire le guide associate a una versione di ciclo di lavorazione selezionata")
 1. Viene aperta la pagina **Guide associate** per la versione di DBA.
 1. Seleziona **Aggiungi** per aggiungere una nuova riga alla griglia.
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare.
-    ![Aggiungere una guida a una versione di ciclo di lavorazione.](media/instruction-guides-RouteVersionAddGuide.png "Aggiungere una guida a una versione di ciclo di lavorazione")
+    ![Aggiungere una guida a una versione di ciclo di lavorazione](media/instruction-guides-RouteVersionAddGuide.png "Aggiungere una guida a una versione di ciclo di lavorazione")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Associare una guida a una relazione operativa di ciclo di lavorazione
 
@@ -370,8 +370,8 @@ Per aggiungere una guida a una relazione operativa di ciclo di lavorazione:
 1. Viene aperta la pagina **Dettagli ciclo di lavorazione** per il ciclo di lavorazione selezionato.
 1. Nella griglia in alto, seleziona l'operazione per cui desideri fornire linee guida.
 1. Nella griglia inferiore, seleziona una relazione specifica (o la relazione **Tutto** generica).
-    ![Selezionare un'operazione e quindi una relazione.](media/instruction-guides-RouteOperationRelation.png "Selezionare un'operazione e quindi una relazione")
-1. Sopra la griglia inferiore, aprire la scheda **Guide associate**. ![Scheda Guide associate.](media/instruction-guides-RouteOperationRelation-AddGuide.png "Scheda Guide associate")
+    ![Selezionare un'operazione e quindi una relazione](media/instruction-guides-RouteOperationRelation.png "Selezionare un'operazione e quindi una relazione")
+1. Sopra la griglia inferiore, apri la scheda **Guide associate**. ![Scheda Guide associate](media/instruction-guides-RouteOperationRelation-AddGuide.png "Scheda Guide associate")
 1. Seleziona **Aggiungi** nella barra degli strumenti nella parte superiore della griglia in basso per aggiungere una nuova linea alla griglia.
 1. Per la nuova riga, utilizza l'elenco a discesa nella colonna **Nome** per scegliere la guida che desideri assegnare. Nel resto della riga, seleziona la casella di controllo di ogni contesto in cui la guida selezionata deve essere disponibile.
 
@@ -382,11 +382,11 @@ Per aggiungere una guida a una relazione operativa di ciclo di lavorazione:
 
 Quando un lavoratore apre un elenco di processi nell'interfaccia di esecuzione nell'officina, Supply Chain Management trova le guide pertinenti per i processi visualizzati. Usa il pulsante **Guide** per visualizzare le guide pertinenti.
 
-![Pulsante Guide nell'interfaccia di esecuzione nell'officina.](media/instruction-guides-Shopfloor1.png "Pulsante Guide nell'interfaccia di esecuzione nell'officina")
+![Pulsante Guide nell'interfaccia di esecuzione nell'officina](media/instruction-guides-Shopfloor1.png "Pulsante Guide nell'interfaccia di esecuzione nell'officina")
 
 Quindi indossare un HoloLens e accedere alla guida rispettiva dando uno sguardo al codice a matrice e attivando la rispettiva guida.
 
-![Codice a matrice per accedere alle guide utilizzando un HoloLens.](media/instruction-guides-Shopfloor2.png "Codice a matrice per accedere alle guide utilizzando un HoloLens")
+![Codice a matrice per accedere alle guide utilizzando un HoloLens](media/instruction-guides-Shopfloor2.png "Codice a matrice per accedere alle guide utilizzando un HoloLens")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>Risoluzione della logica per la selezione delle guide
 
@@ -409,7 +409,4 @@ Quando Supply Chain Management genera i processi per il reparto di produzione, r
 - Se associ una versione di ciclo di lavorazione a un ordine di produzione, per il processo verranno mostrate tutte le guide associate a quella versione e anche le guide associate al ciclo di lavorazione padre di quella versione.
 - Se definisci varie relazioni operative di ciclo di lavorazione che includono la relazione *Tutti* e vi assegni guide, per il processo verranno mostrate solo le guide della relazione più specifica.  
 
-![Diagramma sulla risoluzione delle guide pertinenti.](media/instruction-guides-Resolve.png "Diagramma sulla risoluzione delle guide pertinenti")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+![Diagramma sulla risoluzione delle guide pertinenti](media/instruction-guides-Resolve.png "Diagramma sulla risoluzione delle guide pertinenti")

@@ -2,13 +2,16 @@
 title: Archiviazione report di aging delle scorte
 description: Questo argomento descrive la funzionalità che consente di eseguire un report di aging dell'inventario e di rendere disponibile l'output come modulo e grafico.
 author: AndersGirke
+manager: tfehr
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddddb0b1e377ed525b7c17fec5a4b3305573d0eba551bc03f075109a2ed769b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c4a1480cf96a4ba753b436c04eb8f7b01379da48
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781112"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431125"
 ---
 # <a name="inventory-aging-report-storage"></a>Archiviazione report di aging delle scorte
 
@@ -54,6 +57,3 @@ Prima di utilizzare questa funzionalità, è necessario abilitarla nel sistema. 
     > Nel modulo non vengono inclusi i subtotali che sono definiti nel layout del report.
 
 L'entità di dati **Report di aging delle scorte** consente di esportare l'output di un report **Archiviazione report di aging delle scorte** applicando un filtro per il campo **Identificatore di processo - Nome** in qualsiasi formato supportato della gestione dei dati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

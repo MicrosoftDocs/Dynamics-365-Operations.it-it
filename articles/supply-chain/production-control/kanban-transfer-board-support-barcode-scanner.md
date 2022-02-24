@@ -1,35 +1,39 @@
 ---
-title: Supporto della tavola di trasferimento Kanban per scanner di codici a barre
-description: La tavola di trasferimento Kanban supporta l'input di uno scanner di codici a barre per selezionare, avviare, completare e svuotare un lavoro kanban.
-author: johanhoffmann
+title: Supporto della bacheca di trasferimento kanban per i lettori di codici a barre
+description: La scheda di trasferimento kanban supporta l'input da uno scanner di codici a barre widget per selezionare, iniziare, completare e svuotare un processo kanban.
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b18aad4dcdbf8c2d18960ae306556c3ea679d622
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566813"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431375"
 ---
-# <a name="kanban-transfer-board-support-for-bar-code-scanners"></a>Supporto della tavola di trasferimento Kanban per scanner di codici a barre
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Supporto della bacheca di trasferimento kanban per i lettori di codici a barre
 
 [!include [banner](../includes/banner.md)]
 
-La tavola di trasferimento Kanban supporta l'input di uno scanner di codici a barre per selezionare, avviare, completare e svuotare un lavoro kanban.
+La scheda di trasferimento kanban supporta l'input da uno scanner di codici a barre widget per selezionare, iniziare, completare e svuotare un processo kanban.
 
-## <a name="registration-modes"></a>Modalità di registrazione
+<a name="registration-modes"></a>Modalità di registrazione
+------------------
 
 Nella scheda dettaglio **Registrazione scanner** è possibile selezionare la modalità di registrazione, che controlla l'azione quando si digitalizza un numero di scheda kanban o si digita manualmente il numero nel campo del numero della scheda kanban.
 
@@ -40,10 +44,11 @@ Nella scheda dettaglio **Registrazione scanner** è possibile selezionare la mod
 | Vuoto                 | Registra l'unità movimentazione materiali a cui fa riferimento una scheda kanban come vuota.              |
 | Seleziona                | Registra un numero di scheda kanban e seleziona automaticamente il processo di riferimento nell'elenco di processi kanban. |
 
- 
-## <a name="registration-mode-select"></a>Modalità di registrazione Seleziona
+ 
+Modalità di registrazione Seleziona
+------------------------
 
-Quando si utilizza un lettore di codice a barre per selezionare un processo, la modalità di visualizzazione della bacheca kanban cambia. In questa modalità, sono valide le seguenti condizioni:
+Quando si utilizza un lettore di codice a barre per selezionare un processo, la modalità di visualizzazione della bacheca kanban cambia. In questo modo, sono valide le seguenti condizioni:
 
 -   Viene visualizzato solo il processo kanban sottoposto a scansione.
 -   I dettagli del processo selezionato vengono visualizzati nella scheda dettaglio **Dettagli**.
@@ -139,12 +144,12 @@ Lo stato del processo selezionato e lo stato di tutti i processi sottoposti a pe
 <tr class="even">
 <td>Trasferimento o processo</td>
 <td>Non è stata rilevata una scheda kanban</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
+<td>Nessuna</td>
+<td>Nessuna</td>
+<td>Nessuna</td>
+<td>Nessuna</td>
+<td>Nessuna</td>
+<td>Nessuna</td>
 </tr>
 <tr class="odd">
 <td>Trasferimento o processo</td>
@@ -187,6 +192,3 @@ Lo stato del processo selezionato e lo stato di tutti i processi sottoposti a pe
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

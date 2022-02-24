@@ -1,26 +1,29 @@
 ---
 title: Codici del passaggio ondata
 description: Questo argomento fornisce una panoramica dei codici passaggio ondata e del modo in cui vengono utilizzati.
-author: Mirzaab
+author: josaw1
+manager: tfehr
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c32e795fcb12be02d9c9324051101fa378935303
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572243"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431557"
 ---
 # <a name="wave-step-codes"></a>Codici del passaggio ondata
 
@@ -90,6 +93,3 @@ Le seguenti procedura consente di garantire che il modello di rifornimento creat
 6. Nel campo **Codice passaggio ondata**, selezionare il codice passaggio ondata selezionato nel modello rifornimento.
 
 Eseguire questi passaggi per ciascuna persona giuridica.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

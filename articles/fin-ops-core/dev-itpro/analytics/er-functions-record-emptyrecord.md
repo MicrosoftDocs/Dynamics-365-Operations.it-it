@@ -2,8 +2,11 @@
 title: Funzione ER EMPTYRECORD
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione EMPTYRECORD della creazione di report elettronici (ER).
 author: NickSelin
+manager: kfend
 ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aea5533f5d0530cdc9ccae0b0b8355245599bc77e37fde87a13e8e5a1443695
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d50b31fcbbb99050fca46b0a5ce10cc3fd243691
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725188"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684813"
 ---
 # <a name="emptyrecord-er-function"></a>Funzione ER EMPTYRECORD
 
@@ -57,6 +60,3 @@ Il valore del record risultante.
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di record](er-functions-category-record.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

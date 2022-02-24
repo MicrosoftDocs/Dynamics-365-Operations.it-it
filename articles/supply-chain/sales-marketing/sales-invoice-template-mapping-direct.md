@@ -1,27 +1,30 @@
 ---
 title: Sincronizzare intestazioni e righe di fatture di vendita direttamente da Supply Chain Management in Sales
 description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle fatture di vendita direttamente da Dynamics 365 Supply Chain Management a Dynamics 365 Sales.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571643"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431023"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizzare intestazioni e righe di fatture di vendita direttamente da Finance and Operations in Sales
 
@@ -33,7 +36,7 @@ L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati
 
 La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
-[![Flusso di dati in Prospect per uno scenario di liquidazione.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
@@ -52,7 +55,7 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 - Prodotti (da Supply Chain Management in Sales) - Diretto
 - Conti (da Sales in Supply Chain Management) - Diretto (se utilizzato)
 - Contatti (da Sales in Supply Chain Management) - Diretto (se utilizzato)
-- Intestazione e righe ordine cliente (da Supply Chain Management a Sales) - Diretto
+- Intestazione e righe ordine di vendita (da Supply Chain Management a Sales) - Diretto
 
 ## <a name="entity-set"></a>Insieme di entità
 
@@ -116,11 +119,11 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![Mapping dei modelli in Integrazione dei dati per SalesInvoiceHeader.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![Mapping dei modelli in Integrazione dati](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![Mapping dei modelli in Integrazione dei dati per SalesInvoiceLine.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![Mapping dei modelli in Integrazione dati](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 
@@ -135,6 +138,3 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 [Sincronizzare contatti direttamente da Sales con contatti o clienti in Supply Chain Management](contacts-template-mapping-direct.md)
 
 [Sincronizzazione degli ordini cliente direttamente tra Sales e Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

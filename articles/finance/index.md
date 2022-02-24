@@ -2,26 +2,27 @@
 title: Home page di Finance
 description: In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 11/04/2021
+manager: AnnBe
+ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "206434"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: c39d8ea92b5482b32e27d433b745151373553120
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753723"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459339"
 ---
 # <a name="finance-home-page"></a>Home page di Finance
 
@@ -35,16 +36,16 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
     :::column:::
         - [Contabilità fornitori](accounts-payable/accounts-payable.md) 
         - [Contabilità clienti](accounts-receivable/accounts-receivable.md)
-        - [Leasing cespite](asset-leasing/asset-leasing-homepage.md)
         - [Impostazione budget](budgeting/budgeting-overview.md) 
         - [Gestione cassa e banche](cash-bank-management/cash-bank-management.md)
         - [Contabilità industriale](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Creazione di report finanziari](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Gestione spese](expense-management/expense-management.md)
+        - [Creazione di report finanziari](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Cespiti](fixed-assets/fixed-assets.md)
-        - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Creazione di report finanziari e contabilità generale](general-ledger/general-ledger.md) 
+        - [Gestione progetti e contabilità](project-management/overview-project-management-accounting.md)
         - [Settore pubblico](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -58,28 +59,18 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 - [Blog di Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Blog della community di partner di Microsoft Dynamics](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
+### <a name="task-guides"></a>Guide attività
+Informazioni aggiuntive sono disponibili come guide attività in Finance and Operations. Per accedere alle guide attività, fare clic sul pulsante ? su qualsiasi pagina.
+
 ### <a name="videos"></a>Video
 
 Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="countryregion-functionality"></a>Funzionalità paese/area geografica
 
-Le normative del paese/area geografica incidono sull'impostazione fiscale e su altre aree della gestione finanziaria. Per informazioni sulle funzionalità specifiche del paese/area geografica, vedi [Funzionalità per la normativa e la localizzazione](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Le normative del paese/area geografica incidono sull'impostazione fiscale e su altre aree della gestione finanziaria. Fare riferimento alla sezione [Funzionalità per la normativa e la localizzazione](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) della Guida per informazioni sulle funzionalità specifiche del paese/area geografica.
 
 ### <a name="additional-content"></a>Contenuti aggiuntivi
 
-Le funzionalità di Supply Chain Management coprono parti del processo di approvvigionamento per pagamento, che includono:
+Le funzionalità di Supply Chain Management coprono parti del processo di approvvigionamento per pagamento, che include la richiesta, l'ordine, la ricezione, la fatturazione e il pagamento delle merci e dei servizi acquistati dall'organizzazione. Fare riferimento alla [home page di Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) per informazioni sulle funzionalità relative a gestione degli acquisti, inventario e produzione. 
 
-   - Creazione della richiesta
-   - Creazione dell'ordine 
-   - Ricevimento
-   - Fatturazione
-   - Pagamento dei beni e dei servizi acquistati dall'organizzazione 
-    
-Per informazioni sulle funzionalità relative a gestione degli acquisti, inventario e produzione, vedi la [home page di Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
-
-## <a name="elearning-courses"></a>Corsi eLearning
-
-Per corsi online e formazione, vedere [Dynamics 365 Finance su Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

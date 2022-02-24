@@ -1,38 +1,39 @@
 ---
 title: Novità e modifiche in Dynamics 365 Human Resources (23 luglio 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 23 luglio 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1dd8ab95d37c2fbc5d7453fadeae043677c30160
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063724"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528451"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (23 luglio 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Human Resources. Le modifiche si applicano alla build 8.1.3416. I numeri tra parentesi in alcune intestazioni si riferiscono ai numeri del supporto in LCS per riferimento.
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>L'eliminazione di dimensioni finanziarie in una posizione non funziona come previsto (445476)
 
-La rimozione di dimensioni da una posizione ora rimuove quelle stesse posizioni da Dataverse.
+La rimozione di dimensioni da una posizione ora rimuove quelle stesse posizioni da Common Data Service.
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>Le posizioni non in gerarchia mostrano posizioni inattive (397257)
 
@@ -54,7 +55,7 @@ Ora puoi rendere obbligatori i campi utilizzando le funzionalità di personalizz
 
 ## <a name="human-resources-application-in-teams"></a>Applicazione Human Resources in Teams
 
-I dipendenti possono visualizzare i congedi e richiederli in Microsoft Teams. Possono interagire con un bot per creare richieste di congedo. Per ulteriori informazioni, vedere [App Human Resources in Teams](./hr-admin-teams-leave-app.md). 
+I dipendenti possono visualizzare i congedi e richiederli in Microsoft Teams. Possono interagire con un bot per creare richieste di congedo. Per ulteriori informazioni, vedere [App Human Resources in Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entità Data Management Framework per la gestione di benefit
  
@@ -93,9 +94,9 @@ Un'entità DMF è ora disponibile per le sospensioni degli accumuli.
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-## <a name="checklist-entities-included-in-dataverse"></a>Elenco di controllo entità incluso in Dataverse
+## <a name="checklist-entities-included-in-common-data-service"></a>Elenco di controllo entità incluso in Common Data Service
 
-Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Dataverse.
+Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Common Data Service.
 
 ## <a name="platform-changes"></a>Modifiche della piattaforma
 
@@ -104,9 +105,6 @@ Platform Update 10.0.12 (36)
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

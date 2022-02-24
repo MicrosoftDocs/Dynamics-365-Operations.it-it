@@ -2,8 +2,11 @@
 title: Elenco delle funzioni ER nella categoria conversione del tipo
 description: Questo argomento fornisce informazioni sulle funzioni di conversione supportate nella creazione di report elettronici (ER).
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6d678c2a38039285bd835abcbbaf13ec00298c0660c62e7496a5d7405db8f61
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766411"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740810"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Elenco delle funzioni ER nella categoria conversione del tipo
 
@@ -40,7 +43,7 @@ Le funzioni di conversione del tipo creazione di report elettronici (ER) possono
 
 La tabella seguente descrive le funzioni di conversione di tipo nella categoria [contenitore](er-functions-category-container.md).
 
-| Funzione | Descrizione |
+| Funzione | descrizione |
 |----------|-------------|
 | [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Questa funzione converte l'input specificato del tipo *Stringa* in un elemento dati del tipo *Contenitore*. |
 
@@ -84,6 +87,3 @@ La tabella seguente descrive le funzioni di conversione di tipo nella [categoria
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

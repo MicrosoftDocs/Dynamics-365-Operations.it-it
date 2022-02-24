@@ -2,23 +2,26 @@
 title: Gestione sconto commerciale
 description: Questo argomento descrive la gestione dello sconto commerciale per Dynamics 365 Supply Chain Management.
 author: t-benebo
+manager: tfehr
 ms.date: 08/17/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 15c003109814d9b4dc2857910e69754e5927ec11138d215056be64424998bf00
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13b665427a4caf206e0a3b3aca6b04c1529b9206
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771277"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431104"
 ---
 # <a name="trade-allowance-management"></a>Gestione sconto commerciale
 
@@ -59,7 +62,7 @@ Un accordo con sconto commerciale è un programma di incentivi in cui vengono of
 
 I fondi che vengono allocati agli accordi con sconto commerciale vengono registrati nella pagina **Fondi**. Per aprire la pagina **Fondi**, selezionare **Vendite e marketing** \> **Sconti commerciali** \> **Fondi** \> **Fondi**.
 
-![Pagina dei fondi.](./media/trade-allowance-management-funds-page.png "Pagina dei fondi")
+![Pagina dei fondi](./media/trade-allowance-management-funds-page.png "Pagina dei fondi")
 
 Nella pagina **Fondi** è possibile visualizzare i dettagli dei fondi promozionali.
 
@@ -75,7 +78,7 @@ Dopo avere definito il fondo, il passaggio successivo nella pianificazione della
 
 Gli accordi con sconto promozionale vengono registrati nella pagina **Accordi con sconto commerciale**. Per aprire la pagina **Accordi con sconto commerciale**, selezionare **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**.
 
-![Pagina degli accordi con sconto commerciale.](./media/trade-allowance-management-agreements-page.png "Pagina degli accordi con sconto commerciale")
+![Pagina degli accordi con sconto commerciale](./media/trade-allowance-management-agreements-page.png "Pagina degli accordi con sconto commerciale")
 
 #### <a name="header"></a>Intestazione
 
@@ -103,7 +106,7 @@ Nella scheda **Eventi merchandising** vengono visualizzati i tipi di eventi cope
 
 Quando si seleziona un evento di merchandising e quindi si seleziona la scheda **Importi**, i dettagli dell'evento vengono rilevati.
 
-![Righe accordo con sconto commerciale.](./media/trade-allowance-management-agreements-lines.png "Righe accordo con sconto commerciale")
+![Righe accordo con sconto commerciale](./media/trade-allowance-management-agreements-lines.png "Righe accordo con sconto commerciale")
 
 Nella sezione **Righe sconto commerciale** si specificano gli intervalli di quantità o importi che il cliente deve raggiungere per definizioni per ottenere gli sconti.
 
@@ -193,10 +196,7 @@ La scheda **Riepilogo** visualizza la quantità totale di prodotti venduti nella
 
 La scheda **Crediti note di accredito** contiene i dettagli delle note di accredito singole che sono state accreditate al cliente.
 
-Per ottenere una panoramica più analitica delle varie misure delle prestazioni per la promozione, è possibile utilizzare la visualizzazione di analisi. Per passare alla visualizzazione analisi, fare clic su **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**. Nel riquadro azioni, fare clic su **Analisi**.  
+Per ottenere una panoramica più analitica delle varie misurazioni delle prestazioni per la promozione, è possibile utilizzare la visualizzazione di analisi. Per passare alla visualizzazione analisi, fare clic su **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**. Nel riquadro azioni, fare clic su **Analisi**.  
 
-Per ottenere una panoramica più analitica delle varie misure delle prestazioni per la promozione, è possibile utilizzare la visualizzazione di analisi. Per passare alla visualizzazione analisi, fare clic su **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**. Nel riquadro azioni, fare clic su **Analisi**. 
+Per ottenere una panoramica più analitica delle varie misurazioni delle prestazioni per la promozione, è possibile utilizzare la visualizzazione di analisi. Per passare alla visualizzazione analisi, fare clic su **Vendite e marketing** \> **Sconti commerciali** \> **Accordi con sconto commerciale**. Nel riquadro azioni, fare clic su **Analisi**. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

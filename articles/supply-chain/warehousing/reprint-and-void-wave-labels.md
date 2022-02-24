@@ -1,22 +1,25 @@
 ---
 title: Ristampare e annullare etichette ondata
 description: Questo argomento spiega come annullare e ristampare le etichette ondata esistenti.
-author: perlynne
+author: GarmMSFT
+manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: PJacobse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572339"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4431591"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Ristampare e annullare etichette ondata
 
@@ -215,9 +218,3 @@ Le eccezioni lavoro controllano il comportamento del prelievo in difetto. Per im
 1. Selezionare **Prelievo in difetto**.
 1. Selezionare il codice di eccezione lavoro creato per questo scenario.
 1. Se è stata selezionata l'eccezione corretta, la casella di controllo **Annulla e ristampa** deve essere disponibile. Selezionare questa casella e confermare. Dopo la conferma, la sequenza di rotoli di etichette identificata dal campo **ID build etichetta** viene ricalcolata in base alla quantità della riga di lavoro modificata. Viene quindi ristampata sulla stampante specificata.
-
-## <a name="additional-resources"></a>Risorse aggiuntive
-
-- [Stampa di etichette ciclo](configure-wave-label-printing.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

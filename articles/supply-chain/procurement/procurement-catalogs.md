@@ -1,28 +1,28 @@
 ---
 title: Panoramica cataloghi di approvvigionamento
 description: Questo articolo descrive, in modo generale, in che modo i professionisti degli acquisti possono impostare e gestire i cataloghi di approvvigionamento. I cataloghi di approvvigionamento definiscono gli articoli e i servizi che i dipendenti della società possono ordinare per uso interno.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2214"
-- intro-internal
+ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efe0541859822b4c6404f2833ae38e07b79dd634
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fcbe55adfc834b6170ca4c2a242d6bff5264ac8a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984297"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019781"
 ---
 # <a name="procurement-catalogs-overview"></a>Panoramica cataloghi di approvvigionamento
 
@@ -68,12 +68,10 @@ Gli aggiornamenti vengono pubblicati automaticamente o manualmente, a seconda de
 -   **Entrambi**: se il catalogo include categorie di prodotti con un tipo di aggiornamento predefinito **Statico**, deve essere aggiornato manualmente quando vengono aggiornate queste categorie. Se il catalogo include categorie di prodotti con un aggiornamento predefinito di tipo **Dinamico**, viene aggiornato automaticamente ogni volta che viene modificato.
 
 
-## <a name="additional-resources"></a>Risorse aggiuntive
+<a name="additional-resources"></a>Risorse aggiuntive
+--------
 
 [Impostare una gerarchia di categorie di approvvigionamento](tasks/set-up-procurement-category-hierarchy.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

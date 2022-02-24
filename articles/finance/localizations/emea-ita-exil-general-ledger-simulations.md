@@ -2,9 +2,11 @@
 title: Simulazioni di contabilità generale (Italia)
 description: Questo argomento fornisce informazioni sulla registrazione delle transazioni di contabilità generale come simulazioni del giornale di registrazione generale e quindi sulla verifica dei report che includono le transazioni simulate.
 author: anasyash
+manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a09db13a9d539880da246b709632cfa57e5065d3e1bc60f408d2bf5764b8936c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ff8553011cc32d7c2aa919546c364e0796deebf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735447"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962632"
 ---
 # <a name="general-ledger-simulations"></a>Simulazioni di contabilità generale
 
@@ -38,7 +40,7 @@ Questa funzionalità è disponibile solo per le persone giuridiche con un indiri
 Per poter utilizzare le simulazioni di contabilità generale, è necessario soddisfare i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica è in italia.
-- Abilitare la funzionalità **Simulazioni di contabilità generale** nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Abilitare la funzionalità **Simulazioni di contabilità generale** nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Impostazione 
 
@@ -116,6 +118,3 @@ Le transazioni di simulazione possono essere esaminare in diversi report di cont
 2. Impostare **Transazioni giornale di registrazione di simulazione** su **Sì** nella finestra di dialogo **Rendiconto per dimensioni**.
 3. Selezionare un valore nel campo **Gruppo di giornali di registrazione di simulazione** e selezionare **OK**.
 4. Verificare che il report contenga transazioni di simulazione registrate e transazioni di contabilità generale standard.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

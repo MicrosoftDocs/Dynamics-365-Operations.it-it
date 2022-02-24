@@ -1,44 +1,47 @@
 ---
 title: Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
 description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061986"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527340"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales in Supply Chain Management…
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le righe e le intestazioni delle offerte di vendita direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Microsoft Dataverse per le app](/powerapps/administrator/data-integrator).
+> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flusso di dati in Prospect to cash
 
 La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales. I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati per conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
-[![Flusso di dati in Prospect per uno scenario di liquidazione.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Modello e attività
 
@@ -60,8 +63,8 @@ Le attività di sincronizzazione seguenti sono necessarie prima di eseguire la s
 
 | Vendite        | Gestione della supply chain     |
 |--------------|----------------------------|
-| Citazioni       | Intestazione offerta di vendita Dataverse |
-| QuoteDetails | Righe di offerta di vendita Dataverse  |
+| Citazioni       | Intestazione offerta di vendita CDS |
+| QuoteDetails | Righe di offerta di vendita CDS  |
 
 ## <a name="entity-flow"></a>Flusso di entità
 
@@ -130,16 +133,13 @@ Nelle figure seguenti viene illustrato un esempio di un modello di mapping nell'
 
 ### <a name="quoteheader"></a>QuoteHeader
 
-![Mapping dei modelli nell'integratore di dati, QuoteHeader.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
+![Mapping dei modelli nell'integratore di dati](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="quoteline"></a>QuoteLine
 
-![Mapping dei modelli nell'integratore di dati, QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
+![Mapping dei modelli nell'integratore di dati](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
 ## <a name="related-topics"></a>Argomenti correlati
 
-[Prospect per uno scenario di liquidazione](prospect-to-cash.md)
+[Prospect to cash](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

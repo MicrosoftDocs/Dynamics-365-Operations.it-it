@@ -54,6 +54,3 @@ L'update 18 della piattaforma per Finance and Operations fa ora parte della vers
 ## <a name="bug-fixes"></a>Correzioni di bug
 
 Questa versione include molte correzioni di bug aggiuntive, inclusi i riferimenti ad ACA, ADA e ora I9 verrà abilitato solo nelle società statunitensi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

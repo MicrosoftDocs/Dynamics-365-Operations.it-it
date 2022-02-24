@@ -1,26 +1,29 @@
 ---
 title: Intervalli di tempo
 description: È possibile utilizzare gli intervalli di tempo per ottimizzare la programmazione delle righe di ordine di assistenza.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a0ac2c038b76d64ff8d55708e57f7c3b88c3393
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d79e3d3756b8dc402d6f293437209b2e108be38e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574981"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431308"
 ---
 # <a name="time-windows"></a>Intervalli di tempo  
 
@@ -30,7 +33,7 @@ ms.locfileid: "7574981"
 
 Gli intervalli di tempo definiscono il numero massimo di giorni di cui una riga di un ordine di assistenza può essere spostata rispetto alla data calcolata. La data calcolata è la data in cui è stata programmata la riga ordine di assistenza. La data è basata sulla relativa impostazione di intervallo e sul periodo di assistenza definiti nella pagina **Crea ordini di assistenza**. Per definire un intervallo di tempo utilizzando i valori nella seguente tabella.
 
-| Metodo | Descrizione                                                                                                                                                                                                                                                                                           |
+| Metodo | descrizione                                                                                                                                                                                                                                                                                           |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Settimana   | La data in cui la riga dell'ordine di assistenza può essere spostata in qualsiasi giorno lavorativo nella stessa settimana della data calcolata in origine.                                                                                                                                                                                    |
 | Mese  | La data in cui la riga dell'ordine di assistenza può essere spostata in qualsiasi giorno lavorativo nello stesso mese della data calcolata in origine. Ad esempio, la data calcolata per una riga dell'ordine di assistenza è il 15 febbraio 2017. La riga di ordine di assistenza può essere programmata per qualsiasi giorno della settimana tra il 1 febbraio e il 28 febbraio 2017. |
@@ -42,6 +45,3 @@ Se per una riga di un contratto di assistenza non è stato specificato un interv
 
 [Creare intervalli di tempo](create-time-windows.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

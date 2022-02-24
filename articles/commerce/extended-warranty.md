@@ -2,9 +2,11 @@
 title: Creare e configurare garanzie estese
 description: In questo argomento vengono descritte le garanzie estese e la procedura per crearle e configurarle in Microsoft Dynamics 365 Commerce.
 author: sijoshi
+manager: annbe
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745382"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965120"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Creare e configurare garanzie estese
 
@@ -50,7 +52,7 @@ I clienti possono anche tornare in seguito e acquistare una garanzia estesa per 
 
 La tabella seguente definisce alcuni termini relativi alla garanzia.
 
-| Termine | Descrizione |
+| Termine | descrizione |
 |------------------------------|--------------|
 | Garanzia estesa/Garanzia | Una *garanzia estesa* si riferisce a un contratto di assistenza o un contratto che fornisce una garanzia prolungata ai clienti. La garanzia estesa include il servizio aggiuntivo di sostituzione o riparazione dei prodotti durante il periodo di copertura della garanzia estesa. |
 | Garanzia del produttore | Una *garanzia del produttore* (spesso indicata come *garanzia limitata*) è la garanzia che i clienti ricevono quando acquistano un prodotto. Ecco alcune funzionalità della garanzia del produttore:<ul><li>Il costo della garanzia è incluso nel costo del prodotto. I clienti non devono pagare alcun importo aggiuntivo per la garanzia del produttore.</li><li>A seconda della categoria del prodotto, la garanzia del produttore dura in genere 30 giorni, sei mesi o un anno. (Per la maggior parte dei prodotti elettronici di consumo, la garanzia dura un anno).</li><li>La garanzia copre eventuali difetti causati da guasti meccanici o elettrici. La copertura è limitata e non include alcun danno accidentale al prodotto acquistato. I clienti che desiderano proteggere i prodotti che acquistano da danni quotidiani devono investire in una garanzia estesa. Le garanzie estese durano da due a dieci anni, a seconda della categoria del prodotto. Hanno anche una copertura più ampia e coprono incidenti quotidiani come gocce, liquidi e macchie.</li></ul> |
@@ -74,27 +76,27 @@ Per creare un articolo garanzia in Commerce, attenersi alla seguente procedura.
 1. Selezionare **OK**.
 1. Nella pagina **Dettagli prodotto** nella scheda dettaglio **Garanzia** impostare i campi **Unità di tempo** e **Periodo di tempo**.
 
-    | Nome campo | Valore | Descrizione |
+    | Nome campo | Valore | descrizione |
     |------------|-------|-------------|
     | Unità di tempo | **Giorni**, **settimane**, **mesi** o **anni** | Questo campo specifica l'unità di tempo utilizzata per la garanzia. |
     | Periodo | Un valore intero positivo | Questo campo specifica la durata della garanzia nell'unità di tempo selezionata. |
 
     Ad esempio, per una garanzia di due anni, impostare il campo **Unità di tempo** su **Anni** e il campo **Periodo di tempo** su **2**. In alternativa, impostare il campo **Unità di tempo** su **Mesi** e il campo **Periodo di tempo** su **24**, come mostrato nella seguente illustrazione.
 
-    ![Pagina dettagli prodotto per un articolo garanzia.](./media/ew-time-properties.png)
+    ![Pagina dei dettagli del prodotto per un articolo garanzia](./media/ew-time-properties.png)
 
 1. Selezionare **Salva** per salvare l'articolo garanzia.
 1. Rilasciare il prodotto garanzia all'azienda in modo che possa essere venduto. Per ulteriori informazioni, vedere [Configurare prodotti di vendita al dettaglio](set-up-retail-products.md).
 1. Nella pagina **Dettagli prodotto rilasciato** nella scheda dettaglio **Garanzia**, impostare i campi **Base scaglione prezzo**, **Limite inferiore** e **Limite superiore**.
 
-    | Nome campo | Valore | Descrizione |
+    | Nome campo | Valore | descrizione |
     |------------|-------|-------------|
     | Base scaglione prezzo | **Nessuno**, **Prezzo base** o **Prezzo di vendita** | <ul><li>**Nessuno** - I valori **Limite inferiore** e **Limite superiore** degli scaglioni prezzo non sono applicabili.</li><li>**Prezzo base** - Una data garanzia sarà applicabile se il prezzo base (ovvero il prezzo senza sconti) dell'articolo garantibile è compreso tra i valori **Limite inferiore** e **Limite superiore** specificati qui, in base al prezzo dell'articolo garantibile.</li><li>**Prezzo di vendita** - Questo valore è riservato per un utilizzo futuro.</li></ul> |
     | Limite inferiore, limite superiore | Un valore intero positivo | Questi campi definiscono i limiti di prezzo superiore e inferiore dell'articolo garantibile e come l'articolo garanzia corrente è applicabile all'articolo garantibile. Questi limiti possono essere basati sul prezzo base dell'articolo garantibile (noto anche come prezzo al dettaglio suggerito dal produttore \[MSRP\]). Se il campo **Base scaglione prezzo** è impostato su **Prezzo base**, solo un articolo garantibile (prodotto) che ha un prezzo base tra i valori **Limite inferiore** e **Limite superiore** attiveranno un prompt per aggiungere l'articolo garanzia nel POS. |
 
     Ad esempio, la seguente illustrazione mostra il campo **Base scaglione prezzo** impostato su **Prezzo base**, il campo **Limite inferiore** impostato su $500 e il campo **Limite superiore** impostato su $1000.
     
-    ![Pagina dettagli prodotto rilasciato per un articolo garanzia.](./media/ew-release-product-details.png)
+    ![Pagina dei dettagli del prodotto rilasciato per un articolo garanzia](./media/ew-release-product-details.png)
 
 1. Inserire l'articolo garanzia nel canale in cui verrà venduto. Per ulteriori informazioni, vedere [Impostare assortimenti](set-up-assortments.md).
 
@@ -161,11 +163,11 @@ Due operazioni POS consentono agli addetti alle vendite di vendere gli articoli 
 
 La seguente illustrazione mostra un esempio di una pagina terminale POS con la richiesta di aggiungere un articolo garanzia per l'acquisto corrente di un articolo garantibile.
 
-![Esempio di richiesta di aggiunta di un articolo garanzia per l'acquisto corrente.](./media/ew-sell-warranty.png)
+![Esempio di richiesta di aggiunta di un articolo garanzia per l'acquisto corrente](./media/ew-sell-warranty.png)
 
 La seguente illustrazione mostra un esempio della funzione per l'aggiunta di un articolo garanzia per un articolo garantibile precedentemente venduto.
 
-![Esempio di funzionalità per l'aggiunta di un articolo garanzia per un articolo garantibile precedentemente venduto.](./media/ew-add-warranty-existing.png)
+![Esempio della funzione per l'aggiunta di un articolo garanzia per un articolo garantibile precedentemente venduto](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Elabora transazioni di garanzia
 
@@ -199,7 +201,7 @@ Quando viene venduta una garanzia estesa, viene automaticamente creata un'entit�
 
 La tabella seguente descrive le proprietà dei criteri di garanzia e i loro valori. In Commerce Headquarters, la tabella del database è denominata WARRANTYPOLICY.
 
-| Nome proprietà | Valore | Descrizione |
+| Nome proprietà | Valore | descrizione |
 |---------------|-------|-------------|
 | PolicyNumber | Una stringa di caratteri (massimo 20 caratteri) | Il numero dei criteri di garanzia |
 | WarrantiedItemId | Una stringa di caratteri (massimo 20 caratteri) | L'ID dell'articolo garantibile |
@@ -236,6 +238,3 @@ Una garanzia è un servizio che viene fornito per un prodotto specifico e univoc
 [Impostare assortimenti](set-up-assortments.md)
 
 [Panoramica delle sequenze numeriche](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

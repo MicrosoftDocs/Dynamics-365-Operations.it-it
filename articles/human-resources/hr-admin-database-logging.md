@@ -1,33 +1,31 @@
 ---
 title: Configurare e gestire la registrazione del database
 description: Puoi tenere traccia delle modifiche a tabelle e campi in Dynamics 365 Human Resources con la registrazione del database.
-author: twheeloc
-ms.date: 12/15/2021
+author: Darinkramer
+manager: AnnBe
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066443"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419196"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurare e gestire la registrazione del database
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puoi tenere traccia delle modifiche a tabelle e campi in Dynamics 365 Human Resources con la registrazione del database. In questo argomento viene descritto come:
 
@@ -68,22 +66,7 @@ Per migliorare le prestazioni, limitare le voci del registro selezionando campi 
 Puoi anche usare la procedura guidata **Registrazione modifiche database** per impostare la registrazione del database. La procedura guidata fornisce un modo flessibile per impostare la registrazione per tabelle o campi.
 
 1. Vai ad **Amministrazione sistema> Collegamenti> Database > Impostazione registro database**. Seleziona **Nuovo** per avviare la procedura guidata **Registrazione modifiche database**.
-2. Selezionare **Avanti**. 
-3. Nella pagina **Tabelle e campi** della procedura guidata, seleziona le tabelle e i campi in cui vuoi abilitare la registrazione del database e seleziona **Avanti**.
-
-   > [!Note]
-   > La registrazione del database non è disponibile su tutte le tabelle nel database Human Resources La selezione di **Mostra tutte le tabelle** sotto l'elenco espande l'elenco di tabelle e campi per mostrare tutte le tabelle di database per le quali è disponibile la registrazione del database, ma questo sarà un sottoinsieme dell'elenco completo delle tabelle di database.
-
-4. Nella pagina **Tipi di modifica** della procedura guidata, seleziona le operazioni sui dati per le quali vuoi tenere traccia delle modifiche per ciascuna delle tabelle e dei campi, quindi seleziona **Avanti**. Vedere la tabella seguente per una descrizione delle operazioni sui dati disponibili per la registrazione.
-5. Nella pagina **Fine** rivedi le modifiche che verranno apportate e seleziona **Fine**.
-
-| Operazione | descrizione |
-| -- | -- |
-| Tieni traccia delle nuove transazioni | Crea un registro per i nuovi record che vengono creati nella tabella. |
-| Aggiornamento | Creare un registro per gli aggiornamenti ai record della tabella o per gli aggiornamenti ai campi selezionati individualmente nella tabella. Se selezioni di registrare gli aggiornamenti per la tabella, viene creato un record di registro ogni volta che viene effettuato un aggiornamento a qualsiasi campo di qualsiasi record nella tabella. Se selezioni di registrare gli aggiornamenti per campi specifici, viene creato un record di registro solo quando vengono effettuati aggiornamenti a quei campi dei record di tabella. |
-| CANC | Crea un registro per i record eliminati dalla tabella. |
-| Rinomina chiave | Crea un record di registro quando una chiave di tabella viene rinominata. |
-
+2. Completare la procedura guidata.
 
 ## <a name="clean-up-database-logs"></a>Pulisci i log del database
 
@@ -96,14 +79,11 @@ Puoi eliminare tutti o parte dei registri del database, utilizzando le seguenti 
 Per configurare la pulitura del registro del database, effettua le seguenti operazioni: 
 
 1. Vai ad **Amministrazione sistema> Collegamenti> Database > Registro database**. Seleziona **Pulisci registro**.
-2. Sotto l'intestazione **Record da includere**, seleziona **Filtra**.
-3. Scegli il metodo che verrà utilizzato per selezionare i log da eliminare. Immetti una delle opzioni riportate di seguito:
+
+2. Scegli un metodo di selezione dei registri da eliminare inserendo una delle seguenti opzioni:
 
    - ID tabella
    - Tipo di registro
    - Data e ora creazione
 
-4. Usa la scheda **Pulitura registro database** per determinare quando eseguire l'attività di pulizia del registro. Per impostazione predefinita, i registri del database sono disponibili per 30 giorni.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+3. Usa la scheda **Pulitura registro database** per determinare quando eseguire l'attività di pulizia del registro. Per impostazione predefinita, i registri del database sono disponibili per 30 giorni.

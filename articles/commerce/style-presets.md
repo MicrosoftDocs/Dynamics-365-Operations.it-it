@@ -1,31 +1,36 @@
 ---
-title: Utilizzare le impostazioni predefinite degli stili
+title: Utilizzare set di impostazioni di stile
 description: In questo argomento viene descritto come utilizzare set di impostazioni di stile in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964855"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413524"
 ---
-# <a name="work-with-style-presets"></a>Utilizzare le impostazioni predefinite degli stili
+# <a name="work-with-style-presets"></a>Utilizzare set di impostazioni di stile
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare set di impostazioni di stile in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Un set di impostazioni di stile è un insieme memorizzato di tutti i valori di stile modificabili nel tema di un sito. Può essere utilizzato per modificare immediatamente l'aspetto di un sito tramite Creazione di siti Web. I set di impostazioni di stile consentono ai creatori di Creazione di siti Web di modificare, visualizzare in anteprima e attivare rapidamente un insieme di valori di stile nel proprio sito, senza dover utilizzare Cascading Style Sheets (CSS) o distribuire temi. Stili di caratteri, stili di pulsanti e colori di sito sono esempi tipici di variabili di stile che possono essere gestite tramite set di impostazioni di stile.
 
@@ -116,11 +121,10 @@ I valori di stile del set di impostazioni diventano attivi nel sito Web visibile
 
 [Aggiungere una favicon](add-favicon.md)
 
+[Aggiungere un messaggio di benvenuto](add-welcome-message.md)
+
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 
 [Aggiungere lingue al sito](add-languages-to-site.md)
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

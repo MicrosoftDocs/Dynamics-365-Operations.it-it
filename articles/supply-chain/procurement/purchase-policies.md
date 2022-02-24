@@ -1,28 +1,28 @@
 ---
 title: Panoramica dei criteri di acquisto
 description: Questo articolo fornisce informazioni sui criteri di acquisto. I criteri di acquisto rappresentano raccolte di regole per il controllo del processo di richiesta di acquisto. I criteri di acquisto consentono agli amministratori di approvvigionamento di implementare la strategia di approvvigionamento creando una struttura di criteri in linea con le esigenze per gli acquisti strategici dell'organizzazione.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "11614"
-- intro-internal
+ms.custom: 11614
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cc150ae1a912fbfb4daf505e4240786c2f380a3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: def842116e0c6c57d407cb4fb30a26a9e17d9a2c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982279"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022208"
 ---
 # <a name="purchasing-policies-overview"></a>Panoramica dei criteri di acquisto
 
@@ -132,13 +132,13 @@ La regola di consolidamento domanda e creazione ordini fornitore definisce le re
     È inoltre possibile consentire al richiedente di modificare il metodo di trasferimento dello sconto e del prezzo per le singole righe di acquisto, indipendentemente dalla regola di trasferimento sconto/prezzo definita. Selezionare l'opzione **Consenti forzatura manuale per la riga richiesta di acquisto** per attivare questa funzionalità.
 -   Nella scheda **Trasferimento descrizione articolo** è possibile trasferire la descrizione dell'articolo dalla richiesta quando viene originata da una RdO.
 -   Nella scheda **Tolleranza prezzi** è possibile definire le regole per instradare di nuovo le richieste di acquisto approvate attraverso il processo di revisione quando il prezzo di un articolo del catalogo di approvvigionamento aumenta. Impostare l'importo massimo di cui l'importo netto in una voce di una richiesta di acquisto può aumentare tra il momento dell'approvazione della richiesta di acquisto e il momento della creazione dell'ordine acquisto. L'importo netto viene calcolato utilizzando la formula seguente: (\[Quantità × (Prezzo unitario - Sconto) ÷ Prezzo unitario\]  + Spese varie di acquisto) × (100 – Percentuale di sconto) ÷ 100. Le righe richiesta di acquisto che superano la tolleranza di prezzo impostata sono conservate per l'elaborazione manuale. Le regole che si configurano nella scheda **Elaborazione errore** determinano la modalità di elaborazione delle righe della richiesta di acquisto.
--   Nella scheda **Elaborazione errore** è possibile configurare la regola di elaborazione che viene applicata a una richiesta di acquisto se durante la creazione l'ordine fornitore fallisce la convalida a causa di un errore del fornitore o un errore nella tolleranza del prezzo. Consente di selezionare una delle opzioni indicate di seguito.
+-   Nella scheda **Elaborazione errore** è possibile configurare la regola di elaborazione che viene applicata a una richiesta di acquisto se durante la creazione l'ordine di acquisto fallisce la convalida a causa di un errore del fornitore o un errore nella tolleranza del prezzo. Consente di selezionare una delle opzioni indicate di seguito.
     -   **Nessuna azione** - Le righe della richiesta di acquisto rimangono nella pagina **Rilascia richieste di acquisto approvate**. Lo stato delle righe di richiesta di acquisto rimane impostato su **Approvata**. Tuttavia, è necessario risolvere gli errori affinché sia possibile generare un ordine fornitore per le righe di richiesta di acquisto.
     -   **Annulla la riga della richiesta di acquisto** - Le righe della richiesta di acquisto vengono annullate. Tuttavia, il richiedente può creare una nuova richiesta di acquisto per le righe annullate se desidera richiedere le voci.
     -   **Crea una nuova riga della richiesta di acquisto** - Le righe della richiesta di acquisto vengono annullate. Vengono quindi generate nuove richieste di acquisto contenenti solo le righe di richiesta di acquisto che non hanno superato la convalida. Le nuove richieste di acquisto generate avranno lo stato impostato su **Bozza**. e potranno essere inviate nuovamente una volta risolti gli errori di convalida. Al preparatore delle righe di richiesta di acquisto viene inviata una notifica dell'annullamento delle righe e della generazione di nuove richieste di acquisto al posto delle righe di richiesta di acquisto che non hanno superato la convalida.
 -   Nella scheda **Creazione manuale ordini fornitore** è possibile definire i parametri che determinano se una richiesta di acquisto deve essere elaborata manualmente o se può essere convertita automaticamente in un ordine acquisto. I parametri possono essere applicati ad articoli del catalogo interno, ad articoli del catalogo esterno o ad articoli fuori catalogo. Consente di selezionare una delle opzioni indicate di seguito.
     -   **Crea manualmente ordini fornitore** - Creare manualmente gli ordini acquisto per tutte le richieste di acquisto.
-    -   **Crea automaticamente ordini fornitore** - Creare automaticamente ordini fornitore per tutte le richieste di acquisto approvate. Nessuna richiesta di acquisto viene impostata per la creazione manuale degli ordini fornitore.
+    -   **Crea automaticamente ordini fornitore** - Creare automaticamente ordini di acquisto per tutte le richieste di acquisto approvate. Nessuna richiesta di acquisto viene impostata per la creazione manuale degli ordini fornitore.
     -   **Crea automaticamente ordini fornitore tranne che in queste condizioni** - Creare manualmente ordini acquisto per richieste di acquisto che corrispondono ai criteri definiti dall'utente. Tutte le altre richieste di acquisto approvate vengono automaticamente convertite in ordini fornitore. Se si seleziona **Crea automaticamente ordini fornitore tranne che in queste condizioni**, è possibile aggiungere categorie di approvvigionamento e fornitori per specificare quali righe della richiesta di acquisto approvata conservare per l'elaborazione manuale. Questa opzione può essere applicata ad articoli del catalogo interno, ad articoli del catalogo esterno e ad articoli fuori catalogo. Quando si seleziona una categoria di approvvigionamento, vengono selezionate anche tutte le sottocategorie definite per tale categoria di approvvigionamento. Selezionare l'opzione **Tutte** per uno specifico tipo di riga della richiesta di acquisto per conservare tutte le righe di tale tipo per l'elaborazione manuale.
 
     Se si desidera che gli ordini acquisto vengano generati automaticamente da richieste di acquisto approvate durante l'esecuzione del processo batch per la generazione di ordini acquisto, selezionare l'opzione **Esegui creazione automatica ordini fornitore come processo batch**. Questa opzione si applica solo alle richieste di acquisto che non richiedono elaborazione manuale. L'esecuzione della generazione automatica degli ordini fornitore come processo batch consente di programmare tale attività in un momento in cui le risorse sono più libere. Se l'opzione **Pagamento anticipato richiesto** è selezionata nelle righe della richiesta di acquisto, selezionare l'opzione **Quando la richiesta è impostata per il pagamento anticipato** per conservare le richieste di acquisto approvate per l'elaborazione manuale. Le richieste di acquisto impostate per l'elaborazione manuale possono essere filtrate in modo da visualizzare solo le righe di richiesta di acquisto che richiedono il pagamento anticipato.
@@ -150,6 +150,3 @@ La regola di consolidamento domanda e creazione ordini fornitore definisce le re
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -84,6 +84,3 @@ Nella versione di questa settimana, la descrizione verrà visualizzata quando si
 ### <a name="print-performance-reviews"></a>Stampare le valutazioni delle prestazioni
 
 Dipendenti, responsabili e professionisti delle risorse umane potranno stampare la valutazione delle prestazioni di un dipendente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

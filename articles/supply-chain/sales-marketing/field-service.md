@@ -1,41 +1,45 @@
 ---
 title: Panoramica dell'integrazione con Microsoft Dynamics 365 Field Service
 description: Questo argomento fornisce una panoramica dell'integrazione con Microsoft Dynamics 365 Field Service.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062677"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528901"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Panoramica dell'integrazione con Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Supply Chain Management consente la sincronizzazione dei processi aziendali tra Dynamics 365 Supply Chain Management e Dynamics 365 Field Service. Gli scenari di integrazione vengono configurati utilizzando modelli di integrazione dati estendibili e Microsoft Dataverse per abilitare la sincronizzazione dei processi aziendali.
-È possibile utilizzare modelli standard per creare progetti di integrazione personalizzati in cui mappare colonne e tabelle personalizzate e standard aggiuntive per ottimizzare l'integrazione e soddisfare esigenze aziendali specifiche. 
+Supply Chain Management consente la sincronizzazione dei processi aziendali tra Dynamics 365 Supply Chain Management e Dynamics 365 Field Service. Gli scenari di integrazione vengono configurati utilizzando modelli di integrazione dati estendibili e Common Data Service per abilitare la sincronizzazione dei processi aziendali.
+È possibile utilizzare modelli standard per creare progetti di integrazione personalizzati in cui mappare campi ed entità personalizzati e standard aggiuntivi per ottimizzare l'integrazione e soddisfare esigenze aziendali specifiche. 
 
 L'integrazione di Field Service viene eseguita sulla funzionalità Prospect to Cash esistente.
 
-![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service.](./media/field-service-integration.png)
+![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/field-service-integration.png)
 
-La prima fase dell'integrazione tra Field Service e Supply Chain Management è incentrata sull'abilitazione degli ordini di lavoro e dei contratti in Field Service in modo che possano essere fatturati in Supply Chain Management. Il flusso supportato inizia in Field Service, dove le informazioni degli ordini di lavoro vengono sincronizzate con Supply Chain Management sotto forma di ordini cliente. In Supply Chain Management gli ordini cliente vengono fatturati per generare documenti fattura. Inoltre, le informazioni contenute nelle fatture di contratto di Field Service vengono sincronizzate con Supply Chain Management. L'integratore di dati Microsoft Dynamics 365 sincronizza i dati utilizzando progetti personalizzabili. È possibile utilizzare modelli standard per creare progetti di integrazione personalizzati in cui mappare colonne personalizzate e standard aggiuntive, nonché tabelle, per ottimizzare l'integrazione e soddisfare requisiti specifici.
+La prima fase dell'integrazione tra Field Service e Supply Chain Management è incentrata sull'abilitazione degli ordini di lavoro e dei contratti in Field Service in modo che possano essere fatturati in Supply Chain Management. Il flusso supportato inizia in Field Service, dove le informazioni degli ordini di lavoro vengono sincronizzate con Supply Chain Management sotto forma di ordini cliente. In Supply Chain Management gli ordini cliente vengono fatturati per generare documenti fattura. Inoltre, le informazioni contenute nelle fatture di contratto di Field Service vengono sincronizzate con Supply Chain Management. L'integratore di dati Microsoft Dynamics 365 sincronizza i dati utilizzando progetti personalizzabili. È possibile utilizzare modelli standard per creare progetti di integrazione personalizzati in cui mappare campi personalizzati e standard aggiuntivi, nonché entità, per ottimizzare l'integrazione e soddisfare requisiti specifici.
 
 La prima fase dell'integrazione tra Field Service e Supply Chain Management consente la sincronizzazione degli elementi seguenti:
 
@@ -57,7 +61,7 @@ La funzionalità aggiuntiva in questa seconda fase è incentrata sulla fornitura
 - Progetti di Supply Chain Management collegati a ordini di lavoro di Dynamics 365 Field Service
 - Gli ordini di lavoro di Dynamics 365 Field Service collegati ai progetti di Supply Chain Management applicano questo numero di progetto agli ordini cliente per consentire la fatturazione dal progetto. 
 
-![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service, comprese le informazioni sull'inventario e sul progetto.](./media/FSv2overview.png)
+![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>La seconda fase dell'integrazione tra Field Service e Supply Chain Management consente la sincronizzazione con i seguenti modelli:
 - Magazzini (da Supply Chain Management a Field Service) - Magazzini da Supply Chain Management a Field Service [Query avanzata] 
@@ -81,6 +85,3 @@ Per utilizzare la soluzione di integrazione di Field Service, è necessario inst
 - Field Service (versione 8.2.0.286) o versione successiva su Dynamics 365 9.1.x - Rilasciata nel novembre 2018
 - Soluzione Prospect to Cash (P2C) per Dynamics 365, versione 1.15.0.1 o una versione successiva. La soluzione può essere scaricata da [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Soluzione di integrazione, progetto e scorte di Field Service per Dynamics 365, versione 2.0.0.0 o una versione successiva. La soluzione può essere scaricata da [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,29 @@
 title: Panoramica del ciclo di vita dell'ordine di produzione
 description: Quando si crea un ordine di produzione, si esegue una richiesta di avvio della produzione di un articolo. Nell'ordine di produzione sono contenute informazioni sull'articolo che verrà prodotto, sulla quantità da produrre e sulla data di fine pianificata. Sono contenute anche informazioni sui materiali da utilizzare e sul processo da seguire per produrre l'articolo.
 author: johanhoffmann
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTable, ProdTableCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "19741"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 19741
 ms.assetid: bbb6e69d-479c-45fc-a0a8-66da5df16c7f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4c3632d644070f064ec70d3dd7c0d480927eafe
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 80031737ab0d0c4ab1e4dbd5646ad91f1a010cd5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982879"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431293"
 ---
 # <a name="production-order-lifecycle-overview"></a>Panoramica del ciclo di vita dell'ordine di produzione
 
@@ -44,6 +45,3 @@ Un ordine di produzione può essere creato negli scenari seguenti:
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

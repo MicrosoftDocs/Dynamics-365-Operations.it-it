@@ -2,29 +2,40 @@
 title: Prospect to cash in doppia scrittura
 description: Questo argomento fornisce informazioni sul prospect to cash in doppia scrittura.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781793"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959603"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
 [!include [banner](../../includes/banner.md)]
 
+
+
 Un obiettivo importante della maggior parte delle aziende è convertire i prospect in clienti e quindi mantenere un rapporto commerciale costante con tali clienti. Nelle app Microsoft Dynamics 365, il processo prospect to cash avviene tramite preventivi o flussi di lavoro di elaborazione degli ordini e i dati finanziari vengono riconciliati e riconosciuti. L'integrazione di prospect to cash con la doppia scrittura crea un flusso di lavoro che accetta un'offerta e un ordine che hanno origine in Dynamics 365 Sales o Dynamics 365 Supply Chain Management e rende disponibili le offerte e l'ordine in entrambe le app.
 
 Nelle interfacce delle app, è possibile accedere agli stati di elaborazione e alle informazioni di fatturazione in tempo reale. Pertanto, è possibile gestire più facilmente funzioni come lo stoccaggio dei prodotti, la gestione delle scorte e l'evasione in Supply Chain Management, senza dover ricreare le offerte e gli ordini.
 
-![Flusso di dati in doppia scrittura da prospect a contanti.](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Flusso di dati doppia scrittura in prospect to cash](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Per informazioni sull'integrazione di clienti e contatti, vedere [Gestione integrata dei dati dei clienti](customer-mapping.md). Per informazioni sull'integrazione del prodotto, vedere [Esperienza prodotto unificata](product-mapping.md).
 
@@ -39,7 +50,7 @@ Prima di poter sincronizzare le offerte di vendita, è necessario aggiornare le 
 
 In Sales, andare a **Impostazioni \> Amministrazione \> Impostazioni di sistema \> Vendite** e assicurarsi che siano configurate le seguenti impostazioni:
 
-- L'opzione di sistema **Usa sistema di calcolo prezzi sistema** sia impostata su **Sì**.
+- L'opzione **Usa sistema di calcolo prezzi sistema** sia impostata su **Sì**.
 - La colonna **Metodo di calcolo sconto** sia impostato su **Voce**.
 
 ### <a name="sites-and-warehouses"></a>Siti e magazzini
@@ -61,7 +72,6 @@ Le offerte di vendita possono essere create in Sales o in Supply Chain Managemen
 + Le colonne **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non sono incluse nei mapping predefiniti. Per mappare queste colonne, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui la tabella viene sincronizzata.
 
 Se si utilizza anche la soluzione Field Service, assicurarsi di riattivare il parametro della **riga di richiesta di offerta della creazione rapida**. La riattivazione del parametro consente di continuare a creare le righe di richiesta di offerta utilizzando la funzione di creazione rapida.
-
 1. Passare all'applicazione Dynamics 365 Sales.
 2. Seleziona l'icona delle impostazioni nella barra di navigazione in alto.
 3. Selezionare **Impostazioni avanzate**.
@@ -113,25 +123,40 @@ Prospect per uno scenario di liquidazione include una raccolta di mappe della ta
 
 | App di Finance and Operations | App di interazione con i clienti | descrizione |
 |-----------------------------|-----------------------------------|-------------|
-[Tutti i prodotti](mapping-reference.md#138) | msdyn_globalproducts | |
-[Clienti V3](mapping-reference.md#101) | conti | |
-[Clienti V3](mapping-reference.md#116) | contatti | |
-[Contatti V2](mapping-reference.md#221) | msdyn_contactforparties | |
-[Intestazioni ordine cliente CDS](mapping-reference.md#217) | salesorders | |
-[Righe ordine cliente CDS](mapping-reference.md#216) | salesorderdetails | |
-[Intestazione offerta di vendita CDS](mapping-reference.md#215) | offerte | |
-[Righe di offerta di vendita CDS](mapping-reference.md#214) | quotedetails | |
-[Prodotti rilasciati V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Intestazioni fattura di vendita V2](mapping-reference.md#118) | fatture | La tabella delle intestazioni delle fatture di vendita V2 nell'app Finance and Operations contiene fatture per ordini cliente e fatture a testo libero. Viene applicato un filtro in Dataverse per la doppia scrittura che filtrerà qualsiasi documento di fattura a testo libero. |
-[Righe fattura di vendita V2](mapping-reference.md#117) | invoicedetails | |
-[Codici origine ordine cliente](mapping-reference.md#186) | msdyn_salesorderorigins | |
+| Intestazioni fattura di vendita V2    | fatture                          | La tabella delle intestazioni delle fatture di vendita V2 nell'app Finance and Operations contiene fatture per ordini cliente e fatture a testo libero. Viene applicato un filtro in Dataverse per la doppia scrittura che filtrerà qualsiasi documento di fattura a testo libero. |
+| Righe fattura di vendita V2      | invoicedetails                    |             |
+| Intestazioni ordine cliente CDS     | salesorders                       |             |
+| Righe ordine cliente CDS       | salesorderdetails                 |             |
+| Codici origine ordine cliente    | msdyn\_salesorderorigins          |             |
+| Intestazione offerta di vendita CDS  | offerte                            |             |
+| Righe di offerta di vendita CDS   | quotedetails                      |             |
 
-Per informazioni sui listini prezzi vedi [Esperienza prodotto unificata](product-mapping.md).
+Ecco le mappe della tabella di base correlate per prospect per uno scenario di liquidazione:
+
++ [Clienti V3 per accounts](customer-mapping.md#customers-v3-to-accounts)
++ [Contatti CDS V2 per contacts](customer-mapping.md#cds-contacts-v2-to-contacts)
++ [Clienti V3 per contacts](customer-mapping.md#customers-v3-to-contacts)
++ [Prodotti V2 rilasciati per msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
++ [Tutti i prodotti per msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
++ [Listino prezzi](product-mapping.md)
 
 ## <a name="limitations"></a>Limiti
-
 - Gli ordini di reso non sono supportati.
 - Le note di credito non sono supportate.
-- Le dimensioni finanziarie devono essere impostate per i dati master, ad esempio, cliente e fornitore. Quando un cliente viene aggiunto a un'offerta o a un ordine cliente, le dimensioni finanziarie associate al record del cliente fluiscono automaticamente nell'ordine. Attualmente la doppia scrittura non include i dati sulle dimensioni finanziarie per i dati master.
+- Le dimensioni finanziarie devono essere impostate per i dati master, ad esempio, cliente e fornitore. Quando un cliente viene aggiunto a un'offerta o a un ordine cliente, le dimensioni finanziarie associate al record del cliente fluiscono automaticamente nell'ordine. Attualmente la doppia scrittura non include i dati sulle dimensioni finanziarie per i dati master. 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
+
+[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
+
+[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
+
+[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
+
+[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
+
+[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
+
+[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]

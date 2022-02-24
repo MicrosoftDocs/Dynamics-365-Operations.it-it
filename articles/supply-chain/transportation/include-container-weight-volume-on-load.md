@@ -1,25 +1,28 @@
 ---
 title: Includere peso e volume del contenitore nel carico
 description: In questo argomento viene descritto come impostare e utilizzare la funzionalità che consente di includere peso e volume dei contenitori nei carichi.
-author: Henrikan
+author: pjacobse
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: henrikan
+ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52b42bd0b97564a493a50331d1424ca8084b389b29518f012f443d9cf722efe7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e6b29bf2e42ea2df3d36f39fa577078009aa584
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763917"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430991"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>Includere peso e volume del contenitore nel carico
 
@@ -42,6 +45,3 @@ Il numero di contenitori da prendere in considerazione per un carico viene calco
 -   Per impostare peso e volume di un contenitore, fare clic su **Gestione magazzino** \> **Impostazione** \> **Contenitori** \> **Tipi di contenitore**.
 
 -   Per impostare la percentuale di utilizzo del contenitore, fare clic su **Gestione magazzino** \> **Impostazione** \> **Contenitori** \> **Gruppo di contenitori** e immettere un valore nel campo **Percentuale di utilizzo contenitore**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

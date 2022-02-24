@@ -1,14 +1,17 @@
 ---
 title: Metodi di pagamento
 description: Ogni tipo di pagamento accettato dal rivenditore deve essere configurato quando si imposta il sistema. Questo articolo descrive i tipi di pagamento impostati e il processo per impostarli.
-author: BrianShook
-ms.date: 11/03/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779572"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413467"
 ---
 # <a name="payment-methods"></a>Metodi di pagamento
 
@@ -46,11 +49,3 @@ Per impostare i metodi di pagamento, è necessario completare le attività indic
 2. Creare tipi e numeri di carta a livello di organizzazione. Se le carte di credito o di debito sono accettate, è necessario creare un metodo di pagamento per carte, quindi creare i tipi e i numeri di carta a livello di organizzazione.
 3. Impostare il metodo di pagamento per punti vendita. Associare i metodi di pagamento a ogni punto vendita, quindi immettere le impostazioni specifiche del punto vendita per ogni metodo di pagamento.
 4. Impostare metodi di pagamento con carta per punti vendita. Per qualsiasi metodo di pagamento con carta accettato dal punto vendita, è necessario completare l'impostazione della carta.
-
-## <a name="handle-change-tendering-for-payment-methods"></a>Gestire il metodo di pagamento con resto per i metodi di pagamento
-
-Alcuni metodi di pagamento non supportano il metodo di pagamento con resto se i fondi sono dovuti ai clienti durante le transazioni del punto vendita. Solo i metodi di pagamento **Contanti** e **Valuta** possono essere utilizzati per il metodo di pagamento con resto. 
-
-Per gestire i casi in cui è richiesto il metodo di pagamento con resto durante una transazione, ma il metodo di pagamento non lo supporta, è possibile definire un **metodo di pagamento con resto**. Quando imposti i metodi di pagamento del punto vendita, seleziona il metodo di pagamento da utilizzare. Poi, nella sezione **Modifica**, nel campo **Metodo di pagamento con resto**, immetti un'opzione di pagamento con resto. Ad esempio, puoi immettere **1** per indicare che il contante può essere utilizzato come opzione di pagamento con resto.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

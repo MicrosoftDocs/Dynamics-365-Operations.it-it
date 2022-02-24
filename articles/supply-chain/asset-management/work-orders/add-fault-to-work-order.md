@@ -1,10 +1,12 @@
 ---
 title: Aggiungere registrazioni di errore all'ordine di lavoro
 description: In questo argomento viene descritto come aggiungere registrazioni di errore agli ordini di lavoro in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761070"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019306"
 ---
 # <a name="add-fault-to-work-order"></a>Aggiungere errore all'ordine di lavoro
 
@@ -50,7 +52,7 @@ ms.locfileid: "6761070"
 
 Nella figura seguente viene illustrato un esempio di una registrazione dell'errore.
 
-![Figura 1.](media/19-work-orders.png)
+![Figura 1](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Visualizzare gli errori registrati nei cespiti
@@ -77,6 +79,3 @@ Nella pagina elenco **Tutti i cespiti**, è possibile stampare un report degli e
 >[!NOTE]
 >Per stampare un report degli errori per vari cespiti o tipi di cespite, selezionare **Gestione cespiti** > **Report** > **Cespiti** > **Errore di cespite**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

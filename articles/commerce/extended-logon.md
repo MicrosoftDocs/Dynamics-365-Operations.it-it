@@ -1,27 +1,30 @@
 ---
 title: Impostare la funzionalità di accesso esteso per MPOS e Cloud POS
 description: Questo argomento illustra le opzioni per l'impostazione dell'accesso esteso per POS cloud e Retail Modern POS (MPOS).
-author: boycezhu
-ms.date: 09/07/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycez
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: 79878e2ffbf219f77f378997c277ced8bb41598c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478673"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413412"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Impostare la funzionalità di accesso esteso per MPOS e Cloud POS
 
@@ -51,7 +54,7 @@ Se l'opzione **L'accesso personale con badge richiede la password** è attivata,
 
 ## <a name="assigning-an-extended-logon"></a>Assegnazione di un accesso esteso
 
-Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a **Accesso esteso** nel POS. Quindi cercare un lavoratore immettendone l'ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK** diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
+Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a **Accesso esteso** nel POS. Quindi cercare un lavoratore immettendo il relativo ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK** diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
 
 ## <a name="deleting-an-extended-logon"></a>Eliminazione di un accesso esteso
 
@@ -59,13 +62,8 @@ Per eliminare l'accesso esteso assegnato a un lavoratore, individuare il lavorat
 
 ## <a name="extending-extended-logon"></a>Estensione dell'accesso esteso
 
-L'accesso esteso consente solo cinque caratteri significativi per l'identificatore univoco predefinito. Ad esempio, se si configurano due schede con gli ID "1234567" e "1234578", verranno considerate entrambe "12345". È possibile creare un'estensione per supportare più caratteri. Per istruzioni dettagliate, consultare l'argomento [Impostare la funzionalità di accesso esteso per MPOS e Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
-
 Il servizio di accesso può essere esteso per supportare dispositivi di accesso estesi aggiuntivi, ad esempio scanner palmari. Per ulteriori informazioni, vedere la documentazione di POS sull'estendibilità.
 
 ## <a name="using-extended-logon"></a>Utilizzo dell'accesso esteso
 
-Se l'accesso esteso è configurato e un lavoratore è stato assegnato a un codice a barre o una banda magnetica, il lavoratore dovrà semplicemente passare o eseguire la scansione della propria scheda durante la visualizzazione della pagina di accesso del POS. Se è necessaria anche una password prima che l'accesso possa continuare, al lavoratore viene richiesto di immettere la sua password.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Se l'accesso esteso è configurato e un lavoratore è stato assegnato a un codice a barre o una banda magnetica, il lavoratore dovrà semplicemente passare o eseguire la scansione della scheda durante la visualizzazione della pagina di accesso del POS. Se è necessaria anche una password prima che l'accesso possa continuare, al lavoratore viene richiesto di immettere la relativa password.

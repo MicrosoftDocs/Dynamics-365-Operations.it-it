@@ -1,10 +1,12 @@
 ---
 title: Preparare i metadati dell'applicazione da utilizzare in RCS
-description: In questo argomento viene descritto come creare una nuova configurazione di creazione report che contiene i metadati dell'applicazione.
+description: I passaggi in questo argomento descrivono come un utente può creare una nuova configurazione per la creazione di report elettronici (ER) che contiene i metadati dell'applicazione per la progettazione di configurazioni del mapping di modello ER in Regulatory Configuration Service (RCS).
 author: NickSelin
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750576"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684093"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Preparare i metadati dell'applicazione da utilizzare in RCS
 [!include [banner](../../includes/banner.md)]
@@ -78,6 +80,3 @@ Abbiamo aggiunto informazioni sui metadati relative alla tabella di record Intra
 3.    Fare clic su **OK**. 
     
 La configurazione dei metadati ER creata è stata salvata come file XML che può essere importato in RCS e utilizzato come origine delle informazioni sui metadati per il dominio aziendale del commercio estero. In base a queste informazioni, possiamo specificare il mapping tra i metadati dell'applicazione e il modello di dati ER.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

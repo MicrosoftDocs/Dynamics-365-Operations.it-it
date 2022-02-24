@@ -2,12 +2,15 @@
 title: Modulo Banner promozionale
 description: In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718782"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413371"
 ---
-# <a name="promo-banner-module"></a>Modulo banner promozionale
+# <a name="promo-banner-module"></a>Modulo Banner promozionale
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 I moduli Banner promozionale sono utilizzati per visualizzare messaggi informativi incorporati in una pagina. Possono essere utilizzati per visualizzare promozioni in tutto le pagine di un sito di e-Commerce. 
 
@@ -34,7 +39,7 @@ I moduli Banner promozionale supportano un messaggio di testo e un collegamento.
 
 I moduli Banner promozionale sono basati sui dati del sistema di gestione dei contenuti e possono essere utilizzati in qualsiasi pagina.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Esempi di utilizzo di banner promozionali in e-commerce
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Esempi di utilizzo di banner promozionali in e-Commerce
 
 I banner promozionali possono essere utilizzati nell'intestazione del sito per mostrare promozioni o messaggi in tutto il sito, come negli esempi seguenti.
 
@@ -46,7 +51,7 @@ I banner promozionali possono essere utilizzati nell'intestazione del sito per m
 
 L'immagine seguente mostra un esempio di banner promozionale.
 
-![Esempio di modulo del banner promozionale.](./media/ecommerce-Promobanner.PNG)
+![Esempio di modulo banner promozionale](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Proprietà dei moduli Banner promozionale
 
@@ -59,10 +64,6 @@ L'immagine seguente mostra un esempio di banner promozionale.
 | Mostra flipper sequenza     | **True** o **False**              | Un valore che indica se i flipper della sequenza devono essere visualizzati, di modo che i clienti possano scorrere manualmente più elementi del banner. |
 | Allineamento testo            | **A destra**, **A sinistra** o **Al centro** | L'allineamento del testo nel modulo banner promozionale. |
 | Collega                      | URL A                              | L'URL di un collegamento facoltativo. |
-|Allineamento testo             | **A destra**, **A sinistra** o **Al centro** | Questa proprietà è disponibile come estensione del tema nel tema Adventure Works. Consente a un utente di impostare l'allineamento del testo nel banner promozionale. |
-
-> [!IMPORTANT]
-> Il tema Adventure Works è disponibile a partire dalla versione Dynamics 365 Commerce 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Aggiungere un modulo banner promozionale a una pagina 
 
@@ -83,6 +84,7 @@ Per aggiungere un modulo banner promozionale a una pagina e impostare le proprie
 > [!NOTE]
 > Un banner promozionale viene in genere utilizzato nello slot dell'intestazione di pagina o in uno slot del sottotitolo.
 
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica della libreria dei moduli](starter-kit-overview.md)
@@ -94,6 +96,3 @@ Per aggiungere un modulo banner promozionale a una pagina e impostare le proprie
 [Modulo blocco contenuto](add-hero-module.md)
 
 [Modulo Lettore video](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

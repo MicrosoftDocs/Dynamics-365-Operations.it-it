@@ -2,9 +2,11 @@
 title: Domande frequenti sui flussi di lavoro
 description: In questo argomento vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065582"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797393"
 ---
 # <a name="workflow-faq"></a>Domande frequenti sul flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In questo argomento vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
 
@@ -48,9 +47,9 @@ Di seguito sono descritte alcune aree chiave da prendere in considerazione in re
     - In un aggiornamento futuro aggiungeremo un messaggio del Centro azioni di modo che a un utente sia assegnato un elemento del flusso di lavoro. 
 - Aggiunta di notifiche a flussi di lavoro
     - I messaggi del Centro azioni possono essere creati per utenti specifici, ad esempio un messaggio creato da un flusso di lavoro in X++.
-    - [I flussi di lavoro dispongono di eventi aziendali](../../dev-itpro/business-events/business-events-workflow.md) che il cliente può utilizzare affinché i flussi di lavoro abbiano le notifiche di cui necessitano.   
+    - [I flussi di lavoro dispongono di eventi aziendali](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) che il cliente può utilizzare affinché i flussi di lavoro abbiano le notifiche di cui necessitano.   
 
-Riassumendo, se un utente non riceve la notifica appropriata dal Centro azioni quando gli viene assegnato un elemento del flusso di lavoro, utilizzare gli [Eventi aziendali del flusso di lavoro](../../dev-itpro/business-events/business-events-workflow.md) con Microsoft Power Automate per fornire notifiche aggiuntive o differenti.
+Riassumendo, se un utente non riceve la notifica appropriata dal Centro azioni quando gli viene assegnato un elemento del flusso di lavoro, utilizzare gli [Eventi aziendali del flusso di lavoro](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Power Automate per fornire notifiche aggiuntive o differenti.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Perché l'editor flusso di lavoro non è in grado di avviarsi in ADFS?
 Durante l'esecuzione in Active Directory Federation Services (ADFS) in un ambiente aggiornato, l'editor del flusso di lavoro potrebbe avere problemi ad avviarsi. In tal caso, assicurarsi che l'URL "https://dynamicsaxworkfloweditor/" venga aggiunto alla proprietà **Microsoft Dynamics 365 for Operations locale - Flusso di lavoro - Applicazione nativa** nelle impostazioni ADFS.
@@ -60,6 +59,3 @@ Il valore predefinito per **Numero di elementi del flusso di lavoro per batch** 
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Che cos'è la funzionalità di errore avanzato del flusso di lavoro?
 La funzionalità di errore avanzato del flusso di lavoro nella versione 10.0.13 aggiunge codici di errore per differenziare classi diverse di errori del flusso di lavoro. I messaggi di errore riportati saranno per lo più simili con piccole differenze per renderli più chiari.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

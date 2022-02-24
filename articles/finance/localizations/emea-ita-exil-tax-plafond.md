@@ -2,23 +2,26 @@
 title: Plafond fiscale
 description: Questo argomento spiega come impostare e lavorare con il plafond fiscale, un processo di esenzione fiscale.
 author: ilkond
-ms.date: 02/04/2021
+manager: AnnBe
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a8f006c853829f0edfef53a78f21e5516859fb47ee1f2e37de964a0dfc5d692f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78c215d0e503df7ca8d2a0b34503dff846d18dfe
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748123"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408102"
 ---
 # <a name="tax-plafond"></a>Plafond fiscale
 
@@ -35,10 +38,9 @@ Questo argomento descrive come completare queste attività:
 ## <a name="prerequisites"></a>Prerequisiti
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- Nell'area di lavoro **Gestione funzionalità**, abilita la funzionalità **Plafond fiscale**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-- È previsto un periodo di liquidazione IVA (**Imposta** > **Imposte indirette** > **IVA** > **Periodi liquidazione IVA**) per il periodo in cui si prevede di creare un plafond fiscale e lettere di intenti e di registrare documenti fiscali con riferimento alle lettere di intenti.
+- Nell'area di lavoro **Gestione funzionalità**, abilita la funzionalità **Plafond fiscale**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
 
-## <a name="set-up-parameters"></a>Imposta parametri
+## <a name="set-up-parameters"></a>Impostare i parametri
 
 ### <a name="set-up-accounts-payable-parameters"></a>Impostazione dei parametri di Contabilità fornitori
 
@@ -50,14 +52,14 @@ Questo argomento descrive come completare queste attività:
 
 3. Nella scheda **Lettere di intenti - Modello telematico** nel campo **Mappatura del formato del modello di lettera di intenti**, specificare il riferimento alla configurazione **Modello telematico lettera di intenti**.
 
-    ![Campo di mappatura del formato del modello di lettera di intenti.](media/emea-ita-exil-plafond-model.jpg)
+    ![Campo di mappatura del formato del modello di lettera di intenti](media/emea-ita-exil-plafond-model.jpg)
 
     > [!NOTE]
     > La configurazione deve essere importata utilizzando il report elettronico (ER). Per ulteriori istruzioni su come scaricare le configurazioni dei report elettronici, vedi [Scarica le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 4. Nella scheda **Contabilità generale e IVA**, nella Scheda dettaglio **IVA**, sezione **Plafond**, imposta i campi **Gruppo plafond fiscale** e **Data plafond predefinita**.
 
-    ![Campi nella sezione Plafond.](media/emea-ita-exil-plafond-group.jpg)
+    ![Campi nella sezione Plafond](media/emea-ita-exil-plafond-group.jpg)
 
 ### <a name="set-up-general-ledger-parameters"></a>Impostazione dei parametri di Contabilità generale
 
@@ -67,13 +69,11 @@ Questo argomento descrive come completare queste attività:
 ### <a name="set-up-sales-tax-codes"></a>Imposta i codici IVA
 
 1. Vai a **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA**.
-2. Nella sezione Scheda dettaglio **Generale**, nella sezione **Fatturazione**, imposta l'opzione **Invia lettere di intento** su **Sì**.
+2. Nela sezione Scheda dettaglio **Generale**, nella sezione **Fatturazione**, imposta l'opzione **Invia lettere di intento** su **Sì**.
 
-    ![Influisce sull'opzione lettere di intenti.](media/emea-ita-exil-intent-tax-setup.jpg)
+    ![Influisce sull'opzione lettere di intenti](media/emea-ita-exil-intent-tax-setup.jpg)
 
 ## <a name="create-tax-plafond"></a>Crea plafond fiscale
-
-Prima di iniziare a creare un nuovo plafond fiscale, verificare che sia presente un periodo di liquidazione IVA per il periodo in cui si prevede di creare un plafond fiscale e lettere di intenti e di registrare documenti fiscali con riferimento alle lettere di intenti.
 
 Per registrare un nuovo plafond fiscale, attieniti alla seguente procedura.
 
@@ -82,10 +82,10 @@ Per registrare un nuovo plafond fiscale, attieniti alla seguente procedura.
 
    Nella seguente tabella vengono descritti i vari campi.
 
-    | Nome campo                             | Descrizione |
+    | Nome campo                             | descrizione |
     |----------------------------------------|-------------|
     | Numero plafond                         | Il numero del plafond fiscale. Questo valore viene inserito automaticamente in base alla sequenza numerica specificata per il riferimento **Numero plafond** nella pagina **Parametri contabilità fornitori**. |
-    | Descrizione                            | Immetti una descrizione del plafond fiscale. |
+    | descrizione                            | Immetti una descrizione del plafond fiscale. |
     | Dal                              | La data di inizio del periodo durante il quale è effettivo il plafond fiscale. |
     | Al                                | La data di fine del periodo durante il quale è effettivo il plafond fiscale. |
     | Data di chiusura                            | La data calcolata in cui il plafond fiscale è chiuso. |
@@ -97,16 +97,14 @@ Per registrare un nuovo plafond fiscale, attieniti alla seguente procedura.
 
 Per rivedere le transazioni fiscali registrate per un plafond fiscale esistente, nella pagina **Plafond fiscale**, nel riquadro azioni, seleziona **Transazioni plafond**.
 
-## <a name="create-intent-letters"></a>Crea lettere d'intento
-
-Prima di iniziare a creare una nuova lettera di intenti, verificare che sia presente un periodo di liquidazione IVA per il periodo in cui si prevede di creare un plafond fiscale e lettere di intenti e di registrare documenti fiscali con riferimento alle lettere di intenti.
+## <a name="create-intent-letters"></a>Crea una lettera di intenti
 
 Per creare una nuova lettera di intenti per un fornitore, effettua le seguenti operazioni.
 
 1. Vai a **Contabilità fornitori** \> **Lettere di intenti** \> **Lettere di intenti**.
 2. Nel riquadro azioni, seleziona **Nuovo** e inserisci le seguenti informazioni relative alla lettera di intenti.
 
-    | Nome campo   | Descrizione                                                                      |
+    | Nome campo   | descrizione                                                                      |
     |--------------|----------------------------------------------------------------------------------|
     | Data di registrazione | Specifica la data di registrazione della lettera di intenti.                                  |
     | Tipo lettera  | Seleziona il tipo di lettera di intenti: **Quantità** oppure **Operazione specifica**.          |
@@ -116,7 +114,7 @@ Per creare una nuova lettera di intenti per un fornitore, effettua le seguenti o
 
 3. Nella Scheda dettaglio **Record da includere**, seleziona **Filtro** per selezionare i fornitori per i quali devono essere create le lettere di intenti.
 4. Seleziona **OK** per finalizzare la selezione.
-5. Nella pagina successiva, seleziona **Aggiorna gli ordini fornitore esistenti**, applica nuove lettere di intenti agli ordini fornitore esistenti che non sono stati ancora fatturati per i fornitori selezionati.
+5. Nella pagina successiva, seleziona **Aggiorna gli ordini di acquisto esistenti**, applica nuove lettere di intenti agli ordini di acquisto esistenti che non sono stati ancora fatturati per i fornitori selezionati.
 6. Seleziona **Conferma nuovamente ordini fornitore** per riconfermare gli ordini fornitore a cui vengono applicate le lettere di intenti, nel caso fossero confermate.
 7. Seleziona **Escludi ordini fornitore consegnati o parzialmente consegnati** per escludere gli ordini fornitore che sono stati consegnati in tutto o in parte dall'elenco degli ordini fornitore che verranno aggiornati con lettere di intenti.
 8. Seleziona **OK** per creare lettere di intenti basate su parametri specificati.
@@ -128,7 +126,7 @@ Per creare una nuova lettera di intenti per un fornitore, effettua le seguenti o
 
     Nella seguente tabella vengono descritti i vari campi.
 
-    | Nome campo    | Descrizione |
+    | Nome campo    | descrizione |
     |---------------|-------------|
     | ID modello      | L'identificatore del modello telematico in cui è stata inclusa la lettera di intenti. Questo valore viene inserito automaticamente in base alla sequenza numerica specificata per il riferimento **ID modello telematico lettera di intenti** nella pagina **Parametri di contabilità generale**. |
     | Tipo di acquisto | Seleziona il tipo di acquisto: **Acquisti** o **Importo**. |
@@ -142,7 +140,7 @@ Le lettere di intenti create per i fornitori possono essere applicate agli ordin
 
 Per applicare una lettera di intenti a un ordine fornitore o a un giornale di registrazione delle fatture fornitore, selezionala nel campo **Numero lettera di intenti** del relativo ordine fornitore o giornale di fatture dei fornitori. Il gruppo IVA sulle vendite specificato nel campo **Gruppo plafond fiscale** nella pagina **Parametri contabilità fornitori** verrà compilata automaticamente per l'ordine fornitore o per il giornale di fatture dei fornitori.
 
-![Campo del numero di lettera di intenti per un ordine fornitore.](media/emea-ita-exil-plafond-PO.jpg)
+![Campo del numero di lettera di intenti per un ordine fornitore](media/emea-ita-exil-plafond-PO.jpg)
 
 Puoi inoltre rivedere le lettere di intenti per un fornitore specifico dai dati master del fornitore.
 
@@ -163,6 +161,3 @@ Per generare il modello telematico per una lettera di intenti, attieniti alla se
     > Le lettere di intenti già incluse in altri modelli non possono essere selezionate.
 
 6. Nel riquadro azioni, seleziona **Esporta** per generare il file di output **Modello telematico lettera di intenti**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

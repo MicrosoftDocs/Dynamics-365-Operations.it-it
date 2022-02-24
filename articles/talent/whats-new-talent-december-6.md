@@ -143,6 +143,3 @@ I mapping aggiornati devono risultare simili a quanto segue.
 
 ![Trasformazione del campo Sesso](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

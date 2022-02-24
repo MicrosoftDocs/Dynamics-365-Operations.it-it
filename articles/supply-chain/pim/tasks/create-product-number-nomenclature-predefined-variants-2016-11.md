@@ -1,24 +1,27 @@
 ---
 title: Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite
 description: In questo argomento viene illustrato come impostare una nomenclatura di numero prodotto per le varianti prodotto predefinite e come può essere assegnata al gruppo di dimensioni prodotto appropriato.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5179dd54f22de11dc4c0f54113376f13b2f59c48
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6871765a450295a3f308ec7e706f1b126071585f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569579"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431144"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite
 
@@ -28,27 +31,26 @@ In questo argomento viene illustrato come impostare una nomenclatura di numero p
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Creare una nomenclatura di numero prodotto
-
-1. Vai a **Gestione informazioni sul prodotto \> Imposta \> Nomenclatura di prodotto**.
-1. Selezionare **Nuovo**.
-1. Nel campo **Nome**, immettere un nome di nomenclatura che consente di identificare il gruppo di dimensioni prodotto di destinazione, ad esempio `ColorSize`.
-1. Digitare un valore nel campo **Descrizione**
-1. Selezionare **Aggiungi**.
-1. Selezionare **Numero rappresentazione generale prodotto**.
-1. Selezionare **Aggiungi**.
-1. Selezionare **Costante testo**.
-1. Digitare un valore nel campo **Testo**.
-1. Selezionare **Aggiungi**.
-1. Seleziona **Colore**.
-1. Selezionare **Aggiungi**.
-1. Selezionare **Costante testo**.
-1. Digitare un valore nel campo **Testo**.
-1. Selezionare **Aggiungi**.
-1. Seleziona **Dimensioni**.
-1. Chiudere la pagina.
+1. Selezionare **Definizione modello di variante prodotto**.
+2. Selezionare **Nomenclatura di prodotto**.
+3. Selezionare **Nuovo**.
+4. Nel campo **Nome**, immettere un nome di nomenclatura che consente di identificare il gruppo di dimensioni prodotto di destinazione, ad esempio `ColorSize`.
+5. Digitare un valore nel campo **Descrizione**
+6. Selezionare **Aggiungi**.
+7. Selezionare **Numero rappresentazione generale prodotto**.
+8. Selezionare **Aggiungi**.
+9. Selezionare **Costante testo**.
+10. Digitare un valore nel campo **Testo**.
+11. Selezionare **Aggiungi**.
+12. Seleziona **Colore**.
+13. Selezionare **Aggiungi**.
+14. Selezionare **Costante testo**.
+15. Digitare un valore nel campo **Testo**.
+16. Selezionare **Aggiungi**.
+17. Seleziona **Dimensioni**.
+18. Chiudere la pagina.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Assegnare la nomenclatura a una rappresentazione generale prodotto
-
 1. Selezionare **Gruppi di dimensioni prodotto**.
 2. Selezionare il gruppo di **dimensioni prodotto SizeCol**.
 3. Selezionare **Modifica**.
@@ -56,5 +58,3 @@ In questo argomento viene illustrato come impostare una nomenclatura di numero p
 5. Nel campo **Nomenclatura di numero di variante prodotto** immettere o selezionare un valore.
 6. Chiudere la pagina.
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

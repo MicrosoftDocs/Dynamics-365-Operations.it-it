@@ -101,6 +101,3 @@ La possibilità di tracciare il tempo libero dei dipendenti e analizzare come ta
 ### <a name="email-support-for-alerts"></a>Supporto di messaggi di posta elettronica per avvisi
 
 Nell'aggiornamento 26 della piattaforma per Finance and Operations, gli utenti possono creare regole di avviso che inviano automaticamente notifiche di posta elettronica ai contatti quando le notifiche sono attivate da un evento.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

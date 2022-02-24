@@ -1,29 +1,31 @@
 ---
 title: Previsione di cassa
 description: In questo argomento viene fornita una panoramica del processo di previsione di cassa. E viene illustrato come la previsione di cassa è integrata con altri moduli nel sistema.
-author: panolte
-ms.date: 11/03/2021
+author: saraschi2
+manager: AnnBe
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7d462992816a5a2dee73979ed4cb1521ca4ce4f7
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945756"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645771"
 ---
 # <a name="cash-flow-forecasting"></a>Previsione di cassa
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 È possibile utilizzare gli strumenti di previsione di cassa per analizzare il calcolo delle previsioni di cassa e dei fabbisogni valutari per stimare l'esigenza di contanti futura della società. Per ottenere una previsione del flusso di cassa, procedere come segue:
 
@@ -37,7 +39,6 @@ Dopo aver completato queste attività, è possibile calcolare e analizzare le pr
 È possibile integrare la previsione di cassa con Contabilità generale, Contabilità fornitori, Contabilità clienti, Impostazione budget e Gestione articoli. Il processo di previsione utilizza le informazioni delle transazioni immesse nel sistema e il processo di calcolo prevede l'impatto di cassa previsto per ciascuna transazione. Di seguito sono elencati i tipi di transazione considerati quando viene calcolato il flusso di cassa:
 
 - **Ordini cliente** – Ordini cliente non ancora fatturati che determinano vendite fisiche o finanziarie.
-- **Fatture a testo libero** – Fatture a testo libero non ancora registrate e che generano vendite finanziarie. 
 - **Ordini fornitore** – Ordini fornitore non ancora fatturati che determinano acquisti fisici o finanziari.
 - **Contabilità clienti** – Transazioni cliente aperte (fatture non ancora pagate).
 - **Contabilità fornitori** – Transazioni fornitore aperte (fatture non ancora pagate).
@@ -45,9 +46,8 @@ Dopo aver completato queste attività, è possibile calcolare e analizzare le pr
 - **Voci del registro di budget** - Voci del registro di budget selezionate per le previsioni di cassa.
 - **Previsioni della domanda** - Righe del modello previsionale di magazzino selezionate per le previsioni di cassa.
 - **Previsioni dell'offerta** - Righe del modello previsionale di magazzino selezionate per le previsioni di cassa.
-- **Origine dati esterna** - Dati esterni inseriti o importati nelle previsioni del flusso di cassa utilizzando modelli di fogli di calcolo.
-- **Previsioni di progetto** - Gestione del progetto e previsioni contabili utilizzando il modello previsionale.
-- **Pagamenti dell'ufficio IVA del flusso di cassa** – Importi e tempi di pagamento previsti dell'ufficio IVA che determinano pagamenti finanziari. Abilita la funzionalità Pagamenti dell'ufficio IVA del flusso di cassa.
+
+Sebbene non vi sia un'integrazione diretta con Gestione progetti e contabilità, esistono diversi modi per includere le transazioni di progetto nella previsione di cassa. Le fatture di progetto registrate vengono incluse nella previsione nell'ambito delle transazioni fornitore aperte. Gli ordini cliente e fornitore attivati da progetto vengono inclusi nella previsione come ordini aperti una volta immessi nel sistema. È inoltre possibile trasferire le previsioni di progetto a un modello di budget contabile. Questo modello di budget contabile quindi viene incluso nella previsione di cassa come parte delle voci del registro di budget.
 
 ## <a name="configuration"></a>Configurazione
 
@@ -87,34 +87,16 @@ Nel campo **Conto liquidità per i pagamenti** è specificato il conto liquidit�
 
 ### <a name="budgeting"></a>Impostazione budget
 
-È possibile includere i budget creati dai modelli di budget nelle previsioni di cassa. Nella pagina **Impostazione di previsione di cassa** sulla scheda **Impostazione budget**, selezionare i modelli di budget da includere nella previsione. Per impostazione predefinita, le nuove voci del registro di budget vengono incluse nella previsione dopo che il modello di budget è stato attivato per le previsioni di cassa.
-
-Le voci del registro di budget possono essere incluse nella previsione di cassa su base individuale attraverso la personalizzazione. Quando si aggiunge la colonna "Includi in previsioni di cassa" alla pagina **Voce di registro budget**, il sistema sovrascriverà le impostazioni sulla pagina **Impostazione di previsione di cassa** per includere una singola voce del registro di budget nella previsione.
-
+È possibile includere i budget creati dai modelli di budget nelle previsioni di cassa. Nella scheda **Impostazione budget** della pagina **Impostazione previsione di cassa**, selezionare i modelli di budget da includere nella previsione. Per impostazione predefinita, le nuove voci del registro di budget vengono incluse nella previsione dopo che il modello di budget è stato attivato per le previsioni di cassa. L'inclusione nella previsione di cassa può essere sovrascritta nelle singole voci del registro di budget.
 
 ### <a name="inventory-management"></a>Gestione inventario
 
 Le previsioni di offerta e domanda di magazzino possono essere incluse nella previsione di cassa. Nella scheda **Gestione inventario** della pagina **Impostazione previsione di cassa**, selezionare il modello di previsione da includere nella previsione di cassa. L'inclusione nella previsione di cassa può essere sovrascritta nelle singole righe della previsione della domanda e dell'offerta.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurazione di dimensioni per la previsione di cassa
-Una nuova scheda nella pagina  **Configurazione della previsione di cassa** consente di controllare quali dimensioni finanziarie utilizzare per filtrare nell'area di lavoro  **Previsione di cassa**. Questa scheda verrà visualizzata solo quando la funzione Previsioni di cassa è abilitata.
+Una nuova scheda nella pagina **Configurazione della previsione di cassa** consente di controllare quali dimensioni finanziarie utilizzare per filtrare nell'area di lavoro **Previsione di cassa**. Questa scheda verrà visualizzata solo quando la funzione Previsioni di cassa è abilitata. 
 
 Nella scheda **Dimensioni**, scegli dall'elenco delle dimensioni da utilizzare per i filtri e utilizza i tasti freccia per spostarle nella colonna di destra. È possibile selezionare solo due dimensioni per filtrare i dati di previsione di cassa. 
-
-### <a name="setting-up-external-source"></a>Configurazione dell'origine esterna
-I dati esterni possono essere inseriti o importati nelle previsioni di cassa. Prima di immettere o importare dati esterni, è necessario configurare le origini esterne. Nella scheda **Origine esterna**, confgura le categorie di flussi di cassa esterne. Una categoria può essere **In uscita** o **In entrata**. **Liquidità** deve essere selezionato come tipo di registrazione. Nella griglia **Impostazioni persona giuridica**, seleziona le persone giuridiche e i corrispondenti conti principali a cui si applicano le categorie di flussi di cassa esterni.
-
-### <a name="project-management-and-accounting"></a>Gestione progetti e contabilità
-
-Nella versione 10.0.17, una nuova funzionalità consente l'integrazione di Gestione progetti e contabilità e Previsione del flusso di cassa. Nell'area di lavoro **Gestione funzionalità** attiva la funzionalità **Previsione del progetto di flusso di cassa** per includere i costi e i ricavi previsti nella previsione del flusso di cassa. Nella scheda **Gestione progetto e contabilità** della pagina **Configurazione previsione del flusso di cassa** seleziona i tipi di progetto e i tipi di transazione da includere nella previsione del flusso di cassa. Quindi seleziona il modello di previsione del progetto. Un sottomodello di tipo riduzione funziona meglio. I conti di liquidità immessi nell'impostazione Contabilità clienti vengono utilizzati come conti di liquidità predefiniti. Pertanto, non è necessario immettere conti di liquidità predefiniti quando si imposta la previsione del flusso di cassa. Puoi utilizzare anche un modello di budget, ma è possibile selezionare solo un tipo nella pagina **Configurazione previsione del flusso di cassa** per Gestione progetti e contabilità. Un modello previsionale offre la massima flessibilità quando si utilizza Gestione progetti e contabilità o Project Operations.
-
-Dopo aver attivato la funzione di previsione del flusso di cassa del progetto, puoi visualizzare la previsione del flusso di cassa per ogni progetto nella pagina **Tutti i progetti**. Nella scheda **Pianifica** del riquadro azione, nel gruppo **Previsione**, seleziona **Previsione flusso di cassa**. Nelle aree di lavoro **Panoramica situazione di cassa** (vedi la sezione [Report](#reporting) più avanti in questo argomento), il tipo di transazione Previsione progetto mostra gli afflussi (entrate previste del progetto) e i deflussi (costi previsti del progetto). Gli importi possono essere inclusi solo se il campo **Fase progetto** nelle aree di lavoro **Panoramica situazione di cassa** è impostato su **In corso**.
-
-Le transazioni di progetto sono ancora incluse nella previsione del flusso di cassa in diversi modi, indipendentemente dal fatto che la funzionalità **Previsione flusso di cassa di progetto** sia attivata o meno. Le fatture di progetto registrate vengono incluse nella previsione nell'ambito delle transazioni fornitore aperte. Gli ordini cliente e fornitore attivati da progetto vengono inclusi nella previsione come ordini aperti una volta immessi nel sistema. È inoltre possibile trasferire le previsioni di progetto a un modello di budget contabile. Questo modello di budget contabile quindi viene incluso nella previsione di cassa come parte delle voci del registro di budget. Se hai attivato la funzionalità **Previsione flusso di cassa di progetto**, non trasferire le previsioni di progetto a un modello di budget contabile, poiché questa azione farà sì che le previsioni di progetto vengano conteggiate due volte.
-
-### <a name="sales-tax-authority-payments"></a>Pagamenti all'ufficio IVA 
-
-La funzionalità Pagamenti all'ufficio IVA del flusso di cassa prevede l'impatto sul flusso di cassa dei pagamenti IVA. Utilizza le transazioni IVA non pagate, i periodi di liquidazione delle imposte e il termine di pagamento del periodo fiscale per prevedere la data e l'importo dei pagamenti del flusso di cassa. 
 
 ### <a name="calculation"></a>Calcolo
 
@@ -158,7 +140,7 @@ L'area di lavoro **Panoramica situazione di cassa - tutte le società** mostra l
 
 L'area di lavoro **Panoramica situazione di cassa - società corrente** mostra l'analisi di previsione di cassa nella valuta di contabilizzazione definita della società. La valuta di contabilizzazione utilizzata per l'analisi è definita nella pagina **Contabilità generale**. Questa area di lavoro visualizza una panoramica dei saldi del conto bancario e delle previsioni di cassa per la società corrente. Un grafico delle entrate e delle uscite di cassa fornisce una panoramica dei saldi e dei movimenti di cassa futuri nella valuta di contabilizzazione, insieme a informazioni dettagliate sulle transazioni previsionali. È inoltre possibile vedere i saldi previsti in valuta.
 
-Per ulteriori informazioni sull'analisi di previsione di cassa, vedere [Contenuto di Power BI della panoramica situazione di cassa](Cash-Overview-Power-BI-content.md).
+Per ulteriori informazioni sull'analisi di previsione di cassa, vedere l'argomento [Contenuto di Power BI della panoramica situazione di cassa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 
 Inoltre, è possibile visualizzare i dati di previsione di cassa per conti, ordini e articoli specifici nelle pagine seguenti:
 
@@ -168,6 +150,3 @@ Inoltre, è possibile visualizzare i dati di previsione di cassa per conti, ordi
 - **Previsione dell'offerta**: Selezionare **Previsioni di cassa** per visualizzare i flussi di cassa futuri associati alla previsione dell'offerta dell'articolo selezionata.
 - **Previsione della domanda**: Selezionare **Previsioni di cassa** per visualizzare i flussi di cassa futuri associati alla previsione della domanda dell'articolo selezionata.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Modificare i formati per generare documenti che contengono dati dell'applicazione
-description: Questo argomento descrive come progettare le configurazioni di creazione di report per generare un documento elettronico e aggiornare i dati dell'applicazione.
+description: "Per completare i passaggi di questa procedura, è necessario completare la procedura \"ER Generare documenti con l'aggiornamento dei dati dell'applicazione (Parte 3: Modificare modello e mapping)\"."
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 312a49fc524cc7359d2c1815597214656df11c018034da384d30bfb9d9efee4b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752413"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684549"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificare i formati per generare documenti che contengono dati dell'applicazione
 
@@ -147,6 +149,3 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 46. Chiudere la pagina.
 47. Chiudere la pagina.
 48. Chiudere la pagina.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

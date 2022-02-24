@@ -1,10 +1,12 @@
 ---
 title: Traccia di articoli e materie prime in magazzino, nella produzione e nelle vendite
 description: In questo argomento viene descritto come utilizzare la tracciabilità articolo per identificare il punto in cui vengono utilizzati gli articoli o le materie prime o quello in cui verranno utilizzati nei processi di produzione e vendita.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f59a3eca20634d03520ad88f71a3096309e23e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9293578144c51baef34204a2b592d517baa3b0dd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571811"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967182"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Traccia di articoli e materie prime in magazzino, nella produzione e nelle vendite
 
@@ -137,6 +139,3 @@ Nei dettagli traccia sono incluse le informazioni sugli ordini di controllo qual
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>È possibile tracciare i co-prodotti e i sottoprodotti?
 È possibile tracciare i co-prodotti, ma non è possibile tracciare i sottoprodotti poiché a questi non vengono in genere assegnate le dimensioni di tracciabilità. Quando viene tracciato un articolo, i dettagli traccia includono eventuali co-prodotti correlati. Un nodo contenente un co-prodotto include la parola "co-prodotto" nei dettagli. È inoltre possibile visualizzare i dettagli relativi a un co-prodotto selezionando il nodo nei dettagli traccia e quindi facendo clic sulla scheda dettaglio **Produzione**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

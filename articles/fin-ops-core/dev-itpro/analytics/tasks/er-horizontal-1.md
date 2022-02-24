@@ -1,10 +1,12 @@
 ---
 title: 'ER Utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel (Parte 1: progettare il formato)'
-description: Questo argomento descrive come configurare un formato di creazione di report elettronici (ER) per generare report come file di fogli di lavoro OPENXML (Excel). (Parte 1)
+description: I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la generazione di report come file di fogli di lavoro (Excel) OPENXML in cui le colonne richieste possono essere create in modo dinamico come intervalli espandibili orizzontalmente.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab360c259af37ce3995d3cd2560bc2e765e0bceb
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: e36a2238ab4c67a2384d6da2a1e2c767414c21a1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551778"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684501"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel (Parte 1: progettare il formato)
 
@@ -26,7 +28,7 @@ ms.locfileid: "7551778"
 
 I passaggi seguenti descrivono come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può configurare un formato per la generazione di report come file di fogli di lavoro (Excel) OPENXML in cui le colonne richieste possono essere create in modo dinamico come intervalli espandibili orizzontalmente. Questi passaggi possono essere eseguiti in qualsiasi società.
 
-Per effettuare queste operazioni, è necessario completare queste tre guide attività:
+Per effettuare queste operazioni, è necessario completare queste tre guide attività: 
 
 "ER Creare un provider di configurazione e contrassegnarlo come attivo"
 
@@ -34,28 +36,27 @@ Per effettuare queste operazioni, è necessario completare queste tre guide atti
 
 "ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)"
 
-È inoltre necessario scaricare e salvare una copia locale del modello con un report di esempio disponibile qui, [Report servizio Web dimensioni finanziarie di esempio](https://download.microsoft.com/download/3/1/3/313e2090-bc0a-421f-bf96-c58da9bc0dea/SampleFinDimWsReport.xlsx).
+È inoltre necessario scaricare e salvare una copia locale del modello con un report di esempio disponibile qui, [Report servizio Web dimensioni finanziarie di esempio](https://go.microsoft.com/fwlink/?linkid=862266).
 
 Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 for Operations versione 1611.
 
-## <a name="create-a-new-report-configuration"></a>Creare una nuova configurazione di report
 
+## <a name="create-a-new-report-configuration"></a>Creare una nuova configurazione di report
 1. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
-2. Nella struttura selezionare `Financial dimensions sample model`.
+2. Nella struttura selezionare 'Modello di esempio dimensioni finanziarie'.
 3. Fare clic su Crea configurazione per aprire la finestra di dialogo a discesa .
-4. Nel campo Nuovo, immettere `Format based on data model Financial dimensions sample model`.
+4. Nel campo Nuovo immettere 'Formato basato sul modello dati Modello di esempio dimensioni finanziarie'.
     * Utilizzare il modello creato in anticipo come origine dati per il nuovo report.  
-5. Nel campo Nome, digitare `Sample report with horizontally expandable ranges`.
+5. Nel campo nome digitare 'Report di esempio con intervalli espandibili orizzontalmente'.
     * Report di esempio con intervalli espandibili orizzontalmente  
-6. Nel campo Descrizione, digitare `To make Excel output with dynamically adding columns`.
+6. Nel campo Descrizione, digitare 'Creare l'output Excel con l'aggiunta dinamica di colonne'.
     * Creare l'output Excel con l'aggiunta dinamica di colonne  
 7. Selezionare Voce nel campo Definizione modello dati.
 8. Fare clic su Crea configurazione.
 
 ## <a name="design-the-report-format"></a>Progettare il formato del report
-
 1. Fare clic su Progettazione.
-2. Attivare l'interruttore `Show details`.
+2. Attivare l'interruttore "Mostra dettagli".
 3. Nel Riquadro azioni fare clic su Importa.
 4. Fare clic su Importa da Excel.
 5. Fare clic su Allegati.
@@ -68,84 +69,82 @@ Questa procedura è per una funzionalità che è stata aggiunta in Dynamics 365 
 10. Fare clic su OK.
     * Aggiungere un nuovo intervallo per creare in modo dinamico l'output di Excel con il numero di colonne selezionato (nel modulo di dialogo utente) per le dimensioni finanziarie. Ogni cella per ciascuna colonna rappresenterà il nome di una singola dimensione finanziaria.  
 11. Fare clic su Aggiungi per aprire la finestra di dialogo a discesa.
-12. Nella struttura selezionare `Excel\Range`.
-13. Nel campo Intervallo Excel, digitare `DimNames`.
+12. Nella struttura selezionare 'Excel\Intervallo'.
+13. Nel campo Intervallo Excel, digitare 'DimNames'.
     * DimNames  
-14. Selezionare `Horizontal` nel campo Direzione replica.
+14. Selezionare 'Orizzontale' nel campo Direzione replica.
 15. Fare clic su OK.
-16. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal`.
+16. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<DimNames>: Orizzontale'.
 17. Fare clic su Sposta su.
-18. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Cell<DimNames>`.
+18. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Cella<DimNames>.
 19. Fare clic su Taglia.
-20. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal`.
+20. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<DimNames>: Orizzontale'.
 21. Fare clic su Incolla.
-22. Nella struttura espandere `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal`.
-23. Nella struttura espandere `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical`.
-24. Nella struttura espandere `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical`.
-25. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical`.
+22. Nella struttura espandere 'Excel = "SampleFinDimWsReport"\Intervallo<DimNames>: Orizzontale'.
+23. Nella struttura espandere 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale'.
+24. Nella struttura espandere 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale'.
+25. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale'.
     * Aggiungere un nuovo intervallo per creare in modo dinamico l'output di Excel con il numero di colonne selezionato (nel modulo di dialogo utente) per le dimensioni finanziarie. Ogni cella per ciascuna colonna rappresenterà il valore di una singola dimensione finanziaria per ogni transazione nel report.  
 26. Fare clic su Aggiungi intervallo.
-27. Nel campo Intervallo Excel, digitare `DimValues`.
+27. Nel campo Intervallo Excel, digitare 'DimValues'.
     * DimValues  
-28. Selezionare `Horizontal` nel campo Direzione replica.
+28. Selezionare 'Orizzontale' nel campo Direzione replica.
 29. Fare clic su OK.
-30. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<DimValues>`.
+30. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Cella<DimValues>'.
 31. Fare clic su Taglia.
-32. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal`.
+32. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Intervallo<DimValues>: Orizzontale'.
 33. Fare clic su Incolla.
-34. Nella struttura espandere `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal`.
+34. Nella struttura espandere 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Intervallo<DimValues>: Orizzontale'.
 
 ## <a name="map-format-elements-to-data-sources"></a>Mappare gli elementi di formato alle origini dati
-
 1. Fare clic sulla scheda Mapping.
-2. Nella struttura espandere `model: Data model Financial dimensions sample model`.
-3. Nella struttura espandere `model: Data model Financial dimensions sample model\Journal: Record list`.
-4. Nella struttura espandere `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list`.
-5. Nella struttura espandere `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list`.
-6. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal\Cell<DimValues>`.
-7. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Code: String`.
+2. Nella struttura, espandere 'modello: Modello dati Modello di esempio dimensioni finanziarie'.
+3. Nella struttura, espandere 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record'.
+4. Nella struttura, espandere 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record'.
+5. Nella struttura, espandere 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record\Dati dimensioni: Elenco di record'.
+6. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Intervallo<DimValues>: Orizzontale\Cella<DimValues>'.
+7. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record\Dati dimensioni: Elenco di record\Codice: Stringa'.
 8. Fare clic su Associa.
-9. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal`.
-10. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list`.
+9. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Intervallo<DimValues>: Orizzontale'.
+10. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record\Dati dimensioni: Elenco di record'.
 11. Fare clic su Associa.
-12. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Credit>`.
-13. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Credit: Real`.
+12. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Cella<Credit>'.
+13. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record\Avere: Reale'.
 14. Fare clic su Associa.
-15. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Debit>`.
-16. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Debit: Real`.
+15. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Cella<Debit>'.
+16. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record\Dare: Reale'.
 17. Fare clic su Associa.
-18. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Currency>`.
-19. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Currency: String`.
+18. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Cella<Currency>'.
+19. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record\Valuta: Stringa'.
 20. Fare clic su Associa.
-21. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransDate>`.
-22. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Date: Date`.
+21. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Cella<TransDate>'.
+22. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record\Data: Data'.
 23. Fare clic su Associa.
-24. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransVoucher>`.
-25. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Voucher: String`.
+24. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Cella<TransVoucher>'.
+25. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record\Giustificativo: Stringa'.
 26. Fare clic su Associa.
-27. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransBatch>`.
-28. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Batch: String`.
+27. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale\Cella<TransBatch>'.
+28. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Batch: Stringa'.
 29. Fare clic su Associa.
-30. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical`.
-31. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list`.
+30. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Intervallo<TransactionLine>: Verticale'.
+31. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Transazione: Elenco di record'.
 32. Fare clic su Associa.
-33. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Cell<Batch>`.
-34. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list\Batch: String`.
+33. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale\Cella<Batch>'.
+34. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record\Batch: Stringa'.
 35. Fare clic su Associa.
-36. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical`.
-37. Nella struttura selezionare `model: Data model Financial dimensions sample model\Journal: Record list`.
+36. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<JournalLine>: Verticale'.
+37. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Giornale di registrazione: Elenco di record'.
 38. Fare clic su Associa.
-39. Nella struttura espandere `model: Data model Financial dimensions sample model\Dimensions setting: Record list`.
-40. Nella struttura selezionare `model: Data model Financial dimensions sample model\Dimensions setting: Record list\Code: String`.
-41. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal\Cell<DimNames>`.
+39. Nella struttura, espandere 'modello: Modello dati Modello di esempio dimensioni finanziarie\Impostazione dimensioni: Elenco di record'.
+40. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Impostazione dimensioni: Elenco di record\Codice: Stringa'.
+41. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<DimNames>: Orizzontale\Cella<DimNames>'.
 42. Fare clic su Associa.
-43. Nella struttura selezionare `model: Data model Financial dimensions sample model\Dimensions setting: Record list`.
-44. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal`.
+43. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Impostazione dimensioni: Elenco di record'.
+44. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Intervallo<DimNames>: Orizzontale'.
 45. Fare clic su Associa.
-46. Nella struttura selezionare `Excel = "SampleFinDimWsReport"\Cell<CompanyName>`.
-47. Nella struttura selezionare `model: Data model Financial dimensions sample model\Company: String`.
+46. Nella struttura selezionare 'Excel = "SampleFinDimWsReport"\Cella<CompanyName>.
+47. Nella struttura, selezionare 'modello: Modello dati Modello di esempio dimensioni finanziarie\Società: Stringa'.
 48. Fare clic su Associa.
 49. Fare clic su Salva.
 50. Chiudere la pagina.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

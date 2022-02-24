@@ -2,23 +2,26 @@
 title: Consolidamento degli articoli e utilizzo delle ubicazioni
 description: Questo argomento fornisce informazioni sulle funzionalità che semplificano la visualizzazione e il filtraggio dell'utilizzo volumetrico delle ubicazioni nel magazzino per i responsabili del magazzino. I responsabili possono selezionare le ubicazioni e creare attività di movimentazione delle scorte direttamente dalla pagina Consolidamento articoli per consolidare gli articoli e quindi sfruttare meglio lo spazio del magazzino.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431473"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidamento degli articoli e utilizzo delle ubicazioni
 
@@ -147,7 +150,7 @@ Questa sezione descrive come preparare il sistema all'uso del consolidamento deg
 
 ## <a name="example-scenario"></a>Scenario di esempio
 
-Il seguente scenario utilizza l'app per dispositivi mobili Gestione magazzino per creare una *rettifica in entrata* delle scorte in due ubicazioni nel magazzino.
+Il seguente scenario utilizza l'app di magazzino su un dispositivo mobile per creare una *rettifica in entrata* delle scorte in due ubicazioni nel magazzino.
 
 ### <a name="add-inventory-to-locations"></a>Aggiungere scorte alle ubicazioni
 
@@ -205,6 +208,3 @@ Il seguente scenario utilizza l'app per dispositivi mobili Gestione magazzino pe
 
     > [!NOTE]
    > Il sistema crea un ID lavoro per ogni movimento che deve essere completato. Se si specifica un'ubicazione che contiene già delle scorte, viene creato un solo ID lavoro. Se si specifica una nuova ubicazione, vengono creati due ID lavoro.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

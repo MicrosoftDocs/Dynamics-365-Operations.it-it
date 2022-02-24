@@ -2,9 +2,11 @@
 title: Configurare i passaggi di approvazione in un flusso di lavoro
 description: In questo argomento viene descritto come configurare le proprietà per un passaggio del processo di approvazione.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070779"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797098"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurare i passaggi di approvazione in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In questo argomento viene descritto come configurare le proprietà per un passaggio del processo di approvazione.
 
@@ -159,7 +158,7 @@ Per specificare gli utenti a cui assegnare il passaggio del processo di approvaz
 
     - **Approvatore singolo**: l'azione applicata al documento viene determinata dalla persona che risponde per prima. Si supponga ad esempio che Giorgio abbia inviato una nota spese per un importo pari a USD 15.000. La nota spese è attualmente assegnata a Luisa, Raffaella e Davide. Se Luisa risponde per prima, al documento verrà applicata l'azione eseguita da tale utente. Se Luisa rifiuta il documento, la nota spese rifiutata viene reinviata a Giorgio. Dopo che Luisa avrà approvato il documento, verrà inviato a Elena per l'approvazione.
 
-        ![Flusso di lavoro con processo di approvazione.](./media/workflow_multipleusersinstep.gif)
+        ![Flusso di lavoro con processo di approvazione](./media/workflow_multipleusersinstep.gif)
 
     - **Maggioranza degli approvatori**: l'azione applicata al documento viene determinata dalla maggioranza degli approvatori che rispondono. Si supponga ad esempio che Giorgio abbia inviato una nota spese per un importo pari a USD 15.000. La nota spese è attualmente assegnata a Luisa, Raffaella e Davide. Se Luisa e Raffaella sono i primi due approvatori a rispondere, al documento verrà applicata l'azione eseguita da tali utenti.
 
@@ -277,6 +276,3 @@ Se un utente non esegue un'azione su un documento nel tempo prestabilito, il doc
 
 5. Ripetere i passaggi da 3 a 4 per ogni utente che si desidera aggiungere al percorso di riassegnazione. È possibile modificare l'ordine degli utenti.
 6. Se gli utenti nel percorso di riassegnazione non inviano una risposta nel tempo prestabilito, verrà automaticamente eseguita un'azione sul documento dal sistema. Per specificare l'azione presa dal sistema, selezionare la riga **Azione**, quindi nella scheda **Termina azione** selezionare un'opzione.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

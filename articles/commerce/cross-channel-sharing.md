@@ -2,30 +2,35 @@
 title: Abilitare e utilizzare la condivisione multicanale
 description: In questo argomento viene descritto come abilitare e utilizzare la funzionalità di condivisione multicanale di Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742418"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4413585"
 ---
-# <a name="enable-and-use-cross-channel-sharing"></a>Abilitare e utilizzare la condivisione su più canali
+# <a name="enable-and-use-cross-channel-sharing"></a>Abilitare e utilizzare la condivisione multicanale
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come abilitare e utilizzare la funzionalità di condivisione multicanale di Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 La condivisione multicanale consente ai rivenditori di riutilizzare e condividere contenuto tra più canali di un sito. Questa funzionalità è utile quando i canali del sito hanno una lingua di base compatibile o numerosi elementi di contenuto in comune.
 
@@ -48,15 +53,15 @@ Per abilitare la condivisione multicanale in Creazione di siti Web di Commerce, 
 1. Vai a **Impostazioni sito \> Funzionalità**.
 1. Imposta la funzionalità **Multicanale** su **Attivato**.
 
-    ![Opzione Multicanale impostata su Attivato in Creazione di siti Web di Commerce.](./media/enabling-cross-channel-sharing.png)
+    ![Opzione Multicanale impostata su Attivato in Creazione di siti Web di Commerce](./media/enabling-cross-channel-sharing.png)
 
 Dopo aver abilitato la condivisione multicanale, le relative informazioni verranno visualizzate nella sezione **Canali** in **Impostazioni sito \> Funzionalità**, come mostra l'esempio nell'illustrazione seguente.
 
-![Informazioni sui canali visibili dopo l'abilitazione della condivisione multicanale.](./media/channels-cross-channel.png)
+![Informazioni sui canali visibili dopo l'abilitazione della condivisione multicanale](./media/channels-cross-channel.png)
 
 Inoltre, dopo aver abilitato la condivisione multicanale, il campo **Canale** in alto a destra in Creazione di siti Web di Commerce includerà un'opzione **Punto vendita online multicanale** che puoi utilizzare per gestire il contenuto multicanale, come mostrato nell'illustrazione seguente.
 
-![Opzione Punto vendita online multicanale nel campo Canali dopo aver abilitato la condivisione multicanale.](./media/cross-channel-dropdown.png)
+![Opzione Punto vendita online multicanale nel campo Canali dopo aver abilitato la condivisione multicanale](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Creare e utilizzare contenuto multicanale
 
@@ -132,6 +137,3 @@ Se quindi utilizzi l'URL di base del canale e vai all'URL della pagina multicana
 [Stato e ciclo di vita documento](document-states-overview.md)
 
 [Utilizzare i gruppi di pubblicazione](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

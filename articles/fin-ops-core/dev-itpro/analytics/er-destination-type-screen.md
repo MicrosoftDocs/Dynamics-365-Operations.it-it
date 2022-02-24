@@ -1,10 +1,12 @@
 ---
 title: Tipo di destinazione schermata ER
-description: Questo argomento fornisce informazioni su come configurare una destinazione di schermo per ogni componente cartella o file di un formato di creazione di report elettronici (ER).
+description: In questo argomento vengono fornite informazioni su come configurare una destinazione schermata per ogni componente cartella o file di un formato ER configurato per generare documenti in uscita.
 author: NickSelin
+manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2855ac9eb0248a65973898b107d33fc86ac9c1324dafaaf1606b76d8e82f3a8f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08bbde23cde6dcecea398b84bb3d7f78e2204a71
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721954"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679536"
 ---
 # <a name="screen-destination"></a>Destinazione schermata
 
@@ -30,12 +32,9 @@ ms.locfileid: "6721954"
 
 Se si imposta **Abilitato** su **Sì**, viene creata un'anteprima dell'output. È possibile visualizzare alcuni tipi di file, ad esempio XML, TXT o PDF, direttamente in una finestra del browser. Per altri tipi di file, ad esempio Microsoft Excel o Word, viene utilizzato il servizio Microsoft Office Online.
 
-[![Pagina Impostazioni destinazione.](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
+[![Pagina Impostazioni destinazione](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

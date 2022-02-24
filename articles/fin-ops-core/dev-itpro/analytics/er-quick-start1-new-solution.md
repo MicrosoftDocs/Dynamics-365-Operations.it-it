@@ -2,27 +2,27 @@
 title: Progettare una nuova soluzione ER per stampare un report personalizzato
 description: Questo argomento spiega come progettare una soluzione di reporting elettronico (ER) per stampare un report personalizzato.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af610ae86e751ec4425f4c555cdf59c042fabcdb46e6a3a018b0d94a8926d92e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770070"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680244"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Progettare una nuova soluzione ER per stampare un report personalizzato
 
@@ -121,19 +121,19 @@ I passaggi seguenti spiegano come un utente con il ruolo di amministratore di si
 
 - [Risorse aggiuntive](#References)
 
-In questo esempio, creerai una nuova soluzione ER per il modulo [Gestione questionari](../../../human-resources/hr-learning-questionnaires.md). Questa nuova soluzione ER consente di progettare un report utilizzando un foglio di lavoro Microsoft Excel come modello. È quindi possibile generare il report **Gestione questionari** in formato Excel o PDF, oltre a generare il report SQL Server Reporting Services (SSRS) esistente. È inoltre possibile modificare il nuovo report in un secondo momento, su richiesta. Non è richiesta alcuna codifica.
+In questo esempio, creerai una nuova soluzione ER per il modulo [Gestione questionari](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Questa nuova soluzione ER consente di progettare un report utilizzando un foglio di lavoro Microsoft Excel come modello. È quindi possibile generare il report **Gestione questionari** in formato Excel o PDF, oltre a generare il report SQL Server Reporting Services (SSRS) esistente. È inoltre possibile modificare il nuovo report in un secondo momento, su richiesta. Non è richiesta alcuna codifica.
 
 1. Per eseguire il report esistente, vai a **Gestione questionari** \> **Progettazione** \> **Report dei questionari**.
 
-    ![Selezione della voce di menu Report sui questionari nel modulo Questionario per eseguire il report SSRS esistente.](./media/er-quick-start1-application-menu-origin.png)
+    ![Selezionando la voce di menu Report di questionario nel modulo Gestione questionari per eseguire il report SSRS esistente](./media/er-quick-start1-application-menu-origin.png)
 
 2. Nella finestra di dialogo **Report dei questionari**, specifica i criteri di selezione. Applica un filtro in modo che il report includa solo il questionario **SBCCrsExam**.
 
-    ![Impostazione dei criteri di selezione nella finestra di dialogo Report sui questionari.](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Impostazione dei criteri di selezione nella finestra di dialogo Report dei questionari](./media/er-quick-start1-ssrs-report-dialog.png)
 
 La figura seguente mostra la versione generata del report SSRS per il questionario **SBCCrsExam**.
 
-![Report SSRS generato.](./media/er-quick-start1-ssrs-report.png)
+![Report SSRS generato](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>Configurare il framework ER
 
@@ -187,7 +187,7 @@ Completando i passaggi nella sezione [Importare una nuova configurazione del mod
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importare una nuova configurazione del modello di dati
 
-1. Scaricare il file [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) e salvarlo sul computer locale.
+1. Scaricare il file [Questionarios model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
 2. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Configurazioni report**.
 4. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
@@ -273,7 +273,7 @@ Per continuare, saltare la procedura successiva, [Creare una nuova configurazion
 
     La figura seguente mostra il modello di dati modificabile completato nella pagina **Progettazione del modello di dati**.
 
-    ![Modello di dati configurato nella finestra di progettazione modello di dati ER.](./media/er-quick-start1-model2.png)
+    ![Modello di dati configurato nella progettazione del modello di dati ER](./media/er-quick-start1-model2.png)
 
 7. Salvare le modifiche.
 8. Chiudere la pagina **Progettazione del modello di dati**.
@@ -285,9 +285,9 @@ Per continuare, saltare la procedura successiva, [Creare una nuova configurazion
 3. Nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 4. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1 non può più essere modificata. Questa versione contiene il modello di dati configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per rettificare il modello di dati **Gestione questionari**.
+Lo stato della versione 1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1 non può più essere modificata. Questa versione contiene il modello di dati configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare il modello di dati **Gestione questionari**.
 
-![Versioni della configurazione modificabile nella pagina Configurazioni.](./media/er-quick-start1-model-configuration.png)
+![Le versioni della configurazione ER modificabile nella pagina Configurazioni](./media/er-quick-start1-model-configuration.png)
 
 Per ulteriori informazioni sul controllo delle versioni per le configurazioni ER, vedere [Panoramica dei report elettronici](general-electronic-reporting.md#component-versioning).
 
@@ -302,7 +302,7 @@ Completando i passaggi nella sezione [Importare una nuova configurazione del map
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importare una nuova configurazione del mapping del modello
 
-1. Scaricare il file [Questionarios mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) e salvarlo sul computer locale.
+1. Scaricare il file [Questionarios mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
 2. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Configurazioni report**.
 4. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
@@ -368,7 +368,7 @@ Un nuovo mapping viene aggiunto automaticamente per la definizione **Root**. Que
     2. Selezionare **Aggiungi**.
     3. Nella finestra di dialogo, nel campo **Nome**, immettere **\$ResultGroup**.
     4. Selezionare **Modifica formula**.
-    5. Nell'[editor di formule ER](general-electronic-reporting-formula-designer.md), nel campo **Formula**, immettere **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** per usare il [percorso](er-formula-language.md#Paths) della relazione uno-a-molti tra le tabelle KMCollection e KMQuestionResultGroup.
+    5. Nell'[editor di formule ER](general-electronic-reporting-formula-designer.md), nel campo **Formula**, immettere **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** per usare il [percorso](er-formula-language.md#paths) della relazione uno-a-molti tra le tabelle KMCollection e KMQuestionResultGroup.
     6. Selezionare **Salva**, quindi chiudere l'editor di formule.
     7. Selezionare **OK** per aggiungere il nuovo campo calcolato.
 
@@ -441,7 +441,7 @@ Un nuovo mapping viene aggiunto automaticamente per la definizione **Root**. Que
 5. Chiudere la finestra di dialogo **Traduzione testo**.
 6. Selezionare **Annulla**.
 
-![Aggiunta di etichette ER per il mapping modello modificabile.](./media/er-quick-start1-adding-labels.png)
+![Aggiunta di etichette ER per il mapping del modello modificabile](./media/er-quick-start1-adding-labels.png)
 
 Hai inserito le etichette ER solo per la lingua predefinita. Per informazioni su come tradurre le etichette ER in altre lingue, vedere [Progettare report multilingue](er-design-multilingual-reports.md).
 
@@ -475,7 +475,7 @@ Poiché è necessario trasformare più volte i risultati del confronto tra valor
     8. Selezionare **Salva**, quindi chiudere l'editor di formule.
     9. Selezionare **OK** per aggiungere la nuova origine dati.
 
-![Mapping modello configurato nella finestra di progettazione mapping modello ER.](./media/er-quick-start1-added-data-sources.png)
+![Mapping del modello configurato nella progettazione del mapping del modello ER](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Associare le origini dati ai campi del modello di dati
 
@@ -526,7 +526,7 @@ Poiché è necessario trasformare più volte i risultati del confronto tra valor
 
     La figura seguente mostra lo stato finale del mapping del modello configurato nella pagina **Progettazione mapping modello**.
 
-    ![Mapping modello completamente configurato nella finestra di progettazione mapping modello ER.](./media/er-quick-start1-mapping2.png)
+    ![Mapping del modello completamente configurato nella progettazione del mapping del modello ER](./media/er-quick-start1-mapping2.png)
 
 7. Salvare le modifiche.
 8. Chiudere la pagina **Progettazione mapping modello**.
@@ -538,9 +538,9 @@ Poiché è necessario trasformare più volte i risultati del confronto tra valor
 3. Nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 4. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il mapping del modello configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per rettificare la configurazione del **mapping del questionario**.
+Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il mapping del modello configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare la configurazione del **mapping del questionario**.
 
-![Versioni della configurazione ER modificabile nella pagina Configurazioni.](./media/er-quick-start1-mapping-configuration.png)
+![Le versioni della configurazione ER modificabile nella pagina Configurazioni](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > Il mapping del modello configurato è l'implementazione specifica di Finance del modello di dati astratto che rappresenta il dominio aziendale **Gestione questionari**.
@@ -549,22 +549,22 @@ Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza
 
 Il framework ER usa modelli predefiniti per creare report nei formati Microsoft Office (cartelle di lavoro di Excel o documenti di Word). Durante la generazione del report richiesto, viene compilato un modello con i dati richiesti in base al flusso di dati configurato. Pertanto, è necessario prima progettare un modello per il report personalizzato. Questo modello deve essere progettato come una cartella di lavoro Excel, la cui struttura rappresenta il layout di un report personalizzato. È necessario denominare ogni elemento di Excel che si prevede di compilare con i dati richiesti.
 
-1. Scaricare il file [Questionarios report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) e salvarlo sul computer locale.
+1. Scaricare il file [Questionarios report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
 2. Aprire il file in Excel e rivedere la struttura della cartella di lavoro.
 
 Come mostra l'illustrazione seguente, il modello scaricato è stato progettato per stampare questionari specifici che presentano le domande di un questionario insieme alle risposte appropriate.
 
-![Modello Excel per stampare questionari specifici.](./media/er-quick-start1-template-layout.png)
+![Modello Excel per stampare questionari specifici](./media/er-quick-start1-template-layout.png)
 
 I nomi Excel sono stati aggiunti a questo modello per compilare i dettagli del questionario. È possibile utilizzare Responsabile nomi per rivedere i nomi di Excel.
 
-![Utilizzo di Responsabile nomi per rivedere i nomi Excel nel modello Excel fornito.](./media/er-quick-start1-template-names.png)
+![Utilizzo di Responsabile nomi per rivedere i nomi Excel nel modello Excel fornito](./media/er-quick-start1-template-names.png)
 
 Le etichette dei report sono state aggiunte come testo fisso in lingua inglese. È possibile sostituire le etichette dei report con nuovi nomi di Excel che riempiono le etichette con testo dipendente dalla lingua utilizzando il formato ER per le [etichette](#AddMmLabels), come fatto per le espressioni dipendenti dalla lingua nel mapping del modello configurato. In questo caso, le etichette ER devono essere aggiunte nel formato ER modificabile.
 
 Come mostra la figura seguente, l'intestazione del report personalizzato è stata specificata per consentire a Excel di eseguire il paging.
 
-![Intestazione report personalizzata nel modello Excel fornito.](./media/er-quick-start1-template-header.png)
+![Intestazione del report personalizzato nel modello Excel fornito](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Progettare un formato
 
@@ -574,7 +574,7 @@ Completando i passaggi nella sezione [Importare una configurazione in un formato
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importare una configurazione in un formato progettato
 
-1. Scaricare il file [Questionarios format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) e salvarlo sul computer locale.
+1. Scaricare il file [Questionarios format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salvarlo sul computer locale.
 2. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Configurazioni report**.
 4. Nella riquadro Azioni, selezionare **Scambia** \> **Carica da file XML**.
@@ -596,7 +596,7 @@ Per continuare, saltare la procedura successiva, [Creare una nuova configurazion
 
         > [!NOTE]
         > - Se si seleziona una versione specifica del modello di dati di base, la struttura della versione corrispondente del modello di dati verrà presentata come struttura dell'origine dati **Modello** nel formato creato.
-        > - È possibile lasciare vuoto questo campo. In tal caso, la struttura della versione **Bozza** del modello di dati verrà presentata come la struttura dell'origine dati **Modello** nel formato creato. È quindi possibile rettificare il modello e visualizzare immediatamente tali regolazioni nel formato. Questo approccio potrebbe migliorare l'efficienza della progettazione della soluzione ER quando si configurano contemporaneamente il modello di dati, il mapping del modello e il formato.
+        > - È possibile lasciare vuoto questo campo. In tal caso, la struttura della versione **Bozza** del modello di dati verrà presentata come la struttura dell'origine dati **Modello** nel formato creato. È quindi possibile regolare il modello e visualizzare immediatamente tali regolazioni nel formato. Questo approccio potrebbe migliorare l'efficienza della progettazione della soluzione ER quando si configurano contemporaneamente il modello di dati, il mapping del modello e il formato.
         > - Se selezioni una versione specifica del modello di dati di base, puoi passare all'utilizzo della versione **Bozza** in un secondo momento, quando inizi a modificare un formato.
 
     4. Nel campo **Definizione modello dati**, selezionare la definizione **Root**.
@@ -614,11 +614,11 @@ Per continuare, saltare la procedura successiva, [Creare una nuova configurazion
     2. Trovare e selezionare il file salvato localmente **Questionarios report template.xslx**, quindi selezionare **Apri**.
     3. Selezionare **OK** per importare il modello.
 
-    ![Importazione di un modello di report.](./media/er-quick-start1-template-import.png)
+    ![Importazione di un modello di report](./media/er-quick-start1-template-import.png)
 
 L'elemento formato **Excel\\File** viene aggiunto automaticamente al formato modificabile come elemento radice. Inoltre, l'elemento di formato **Excel\\Intervallo** o **Excel\\Cella** viene aggiunto automaticamente per ogni nome Excel riconosciuto del modello importato. Il formato **Excel\\Intestazione** con l'elemento **Stringa** viene aggiunto automaticamente per riflettere le impostazioni dell'intestazione del modello importato.
 
-![Struttura formato che include gli elementi aggiunti automaticamente nella finestra di progettazione delle operazioni ER.](./media/er-quick-start1-template-import2.png)
+![Struttura del formato che include elementi aggiunti automaticamente nella finestra di progettazione delle operazioni ER](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Configurare un formato
 
@@ -629,12 +629,12 @@ L'elemento formato **Excel\\File** viene aggiunto automaticamente al formato mod
 
     Per informazioni su come specificare i contesti di lingua e cultura per un processo ER, vedere [Progettare report multilingue](er-design-multilingual-reports.md).
 
-    ![Configurazione delle impostazioni lingua e cultura per il report progettato nella paginadi progettazione delle operazioni ER.](./media/er-quick-start1-template-format-structure1.png)
+    ![Configurazione delle impostazioni di lingua e cultura per il report progettato nella progettazione dell'operazione ER](./media/er-quick-start1-template-format-structure1.png)
 
 5. Nella struttura ad albero del formato, espandere il nodo radice e quindi selezionare **ResultsGroup**.
 6. Nella scheda **Formato**, nel campo **Direzione replica**, selezionare **Nessuna replica**, perché non ti aspetti di avere più gruppi di risultati per un singolo questionario.
 
-    ![Definizione della direzione di replica per gli elementi del formato Intervallo nella finestra di progettazione delle operazioni ER.](./media/er-quick-start1-template-format-structure2.png)
+    ![Definizione della direzione della replica per gli elementi del formato Intervallo nella finestra di progettazione dell'operazione ER](./media/er-quick-start1-template-format-structure2.png)
 
 7. Selezionare **Salva**.
 
@@ -654,7 +654,7 @@ L'elemento formato **Excel\\File** viene aggiunto automaticamente al formato mod
 
 5. Chiudere l'editor delle formule.
 
-    ![Configurazione dell'associazione per inserire il titolo di un report generato.](./media/er-quick-start1-add-report-title-label.png)
+    ![Configurazione dell'associazione per inserire il titolo di un report generato](./media/er-quick-start1-add-report-title-label.png)
 
 È possibile utilizzare questa tecnica per rendere tutte le altre etichette del modello corrente dipendenti dalla lingua. Per informazioni su come tradurre le etichette aggiunte di una singola configurazione ER in tutte le lingue supportate, vedere [Progettare report multilingue](er-design-multilingual-reports.md).
 
@@ -664,7 +664,7 @@ L'elemento formato **Excel\\File** viene aggiunto automaticamente al formato mod
 2. Selezionare **Modifica**.
 3. Rivedi le informazioni nella finestra di dialogo **Proprietà dell'origine dati**. Questa origine dati rappresenta la versione 1 del componente del modello di dati **Questionari** che risiede nella configurazione ER **Modello questionario**.
 
-![Proprietà dell'origine dati modello nella finestra di progettazione delle operazioni ER.](./media/er-quick-start1-model-data-source.png)
+![Proprietà dell'origine dati del modello nella pagina della progettazione dell'operazione ER](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Associare gli elementi di formato ai campi di un'origine dati
 
@@ -680,11 +680,11 @@ Per specificare la modalità di compilazione di un modello in fase di esecuzione
 
     L'elemento di formato dell'intervallo **Questionario** è configurato come replicato verticalmente. Quando è associato a un'origine dati del tipo **Elenco di record**, l'intervallo **Gestione questionari** appropriato del modello Excel viene ripetuto per ogni record dell'origine dati associata.
  
-    ![Associazione dell'elemento di formato intervallo del questionario alle origini dati elenco di record appropriate nella finestra di progettazione delle operazioni ER.](./media/er-quick-start1-bindings1.png)
+    ![Associazione dell'elemento di formato dell'intervallo del questionario alle origini dati dell'elenco di record appropriate nella progettazione dell'operazione ER](./media/er-quick-start1-bindings1.png)
 
     Poiché l'intervallo **Gestione questionari** del modello Excel è definito tra le righe 5 e 14, queste righe vengono ripetute per ogni questionario segnalato.
 
-    ![Righe nel modello Excel che verranno ripetute in un report generato per ogni record delle origini dati elenco di record.](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Righe nel modello Excel che verranno ripetute in un report generato per ogni record delle origini dati dell'elenco dei record](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Configurare associazioni simili per gli elementi di formato rimanenti, come descritto nella tabella seguente.
 
@@ -720,7 +720,7 @@ Per specificare la modalità di compilazione di un modello in fase di esecuzione
 
 La figura seguente mostra lo stato finale delle associazioni di dati configurate nella pagina **Progettazione formato**.
 
-![Associazioni dati configurate nella finestra di progettazione delle operazioni ER.](./media/er-quick-start1-bindings2.png)
+![Associazioni di dati configurate nella progettazione delle operazioni ER](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > L'intera raccolta di origini dati e associazioni specificate rappresenta un componente di mapping del formato configurato. Questo mapping del formato viene chiamato quando si esegue il formato configurato per la generazione di report.
@@ -740,9 +740,9 @@ La figura seguente mostra lo stato finale delle associazioni di dati configurate
 
 Per [impostazione predefinita](electronic-reporting-destinations.md#default-behavior), un report generato viene consegnato come file Excel da poter scaricare. Le seguenti illustrazioni mostrano due pagine del report generato in formato Excel.
 
-![Esempio di un report generato in formato Excel, pagina 1.](./media/er-quick-start1-report1a.png)
+![Esempio di un report generato in formato Excel, pagina 1](./media/er-quick-start1-report1a.png)
 
-![Esempio di un report generato in formato Excel, pagina 2.](./media/er-quick-start1-report1b.png)
+![Esempio di un report generato in formato Excel, pagina 2](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Ottimizzare un formato progettato
 
@@ -763,7 +763,7 @@ Le domande non sono ordinate correttamente in un report generato. Puoi cambiare 
 1. Nella pagina **Progettazione formati** selezionare l'elemento radice **Report**.
 2. Nella scheda **Mapping**, nella struttura ad albero del formato, espandere **Report\\Questionario\\Domanda**.
 
-    ![Elemento formato domanda del tipo Intervallo nella finestra di progettazione delle operazioni ER.](./media/er-quick-start1-bindings3.png)
+    ![Elemento formato domanda del tipo Intervallo nella progettazione delle operazioni ER](./media/er-quick-start1-bindings3.png)
 
 3. Nella scheda **Mapping**, selezionare **model.Questionario**.
 4. Selezionare **Aggiungi** \> **Funzioni\\Campo calcolato**, quindi nel campo **Nome**, immettere **OrderedQuestions**.
@@ -776,7 +776,7 @@ Le domande non sono ordinate correttamente in un report generato. Puoi cambiare 
 11. Selezionare **Associa**, quindi confermare che il percorso **model.Questionario.Questions** corrente è sostituito dal nuovo percorso **model.Questionario.OrderedQuestions** in tutte le associazioni di elementi nidificati.
 12. Selezionare **Salva**.
 
-![Associazione dell'elemento di formato Domanda all'origine dati OrderedQuestions configurata nella finestra di progettazione delle operazioni ER.](./media/er-quick-start1-bindings4.png)
+![Associazione dell'elemento di formato Domanda all'origine dati OrderedQuestions configurata nella finestra di progettazione delle operazioni ER](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Eseguire un formato modificato da ER
 
@@ -790,7 +790,7 @@ Le domande non sono ordinate correttamente in un report generato. Puoi cambiare 
 
 La figura seguente mostra un report generato in formato Excel in cui le domande sono ordinate correttamente.
 
-![Report generato in formato Excel che ha correttamente ordinato le domande.](./media/er-quick-start1-report2.png)
+![Report generato in formato Excel che ha correttamente ordinato le domande](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Completare la progettazione del formato
 
@@ -799,9 +799,9 @@ La figura seguente mostra un report generato in formato Excel in cui le domande 
 3. Nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 4. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata per stampare il report personalizzato. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per rettificare il formato del tuo report **Gestione questionari**.
+Lo stato della versione 1.1 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.1 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata per stampare il report personalizzato. La versione 1.2 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare il formato del tuo report **Gestione questionari**.
 
-![Configurazione ER modificabile nella pagina Configurazioni.](./media/er-quick-start1-format-configuration.png)
+![Le versioni della configurazione ER modificabile nella pagina Configurazioni](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Il formato configurato è la progettazione del report **Gestione questionari** e non contiene alcuna relazione con gli elementi specifici di Finance.
@@ -1051,7 +1051,7 @@ Creare il progetto per rendere disponibile agli utenti una nuova voce di menu.
 
 1. Andare a **Questionario** \> **Progettazione** \> **Report sui questionari (fornito da ER)**.
 
-    ![Selezione della voce di menu Report sui questionari (fornito da ER) nel modulo Questionario per eseguire il formato ER configurato.](./media/er-quick-start1-application-menu-modified.png)
+    ![Selezionando la voce di menu Report sui questionari (fornito da ER) nel modulo Gestione questionari per eseguire il formato ER configurato](./media/er-quick-start1-application-menu-modified.png)
 
 2. Nella finestra di dialogo, nel campo **Mapping formato**, selezionare **Report sui questionari**.
 3. Selezionare **OK**.
@@ -1059,7 +1059,7 @@ Creare il progetto per rendere disponibile agli utenti una nuova voce di menu.
 5. Selezionare **OK** per confermare l'opzione di filtro.
 6. Selezionare **OK** per eseguire il report.
 
-    ![Impostazione dei criteri di selezione nella finestra di dialogo Report elettronici.](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Impostazione dei criteri di selezione nella finestra di dialogo Report elettronici](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Esaminare il report generato.
 
@@ -1084,7 +1084,7 @@ Creare il progetto per rendere disponibile agli utenti una nuova voce di menu.
 
 L'origine dati aggiunta fornisce informazioni sull'ID record del mapping del formato ER in esecuzione.
 
-![Origine dati aggiunta nella finestra di progettazione mapping modello ER.](./media/er-quick-start1-mapping3.png)
+![Origine dati aggiunta nella finestra di progettazione del mapping del modello ER](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Aggiungere un'origine dati per accedere ai record di mapping del formato ER
 
@@ -1119,7 +1119,7 @@ Continuare a modificare il mapping del modello selezionato in modo che il nome d
 
 Poiché hai usato il campo **FormatName**, il mapping del modello configurato ora espone il nome di un formato ER che chiama questo mapping del modello durante l'esecuzione.
 
-![Associazione del campo modello di dati al metodo dell'origine dati aggiunta nella finestra di progettazione mapping modello ER.](./media/er-quick-start1-mapping4.png)
+![Associazione del campo del modello di dati al metodo dell'origine dati aggiunta nella progettazione di mapping del modello ER](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Completare la progettazione del mapping del modello
 
@@ -1129,7 +1129,7 @@ Poiché hai usato il campo **FormatName**, il mapping del modello configurato or
 4. Nella pagina **Configurazioni**, nella struttura delle configurazioni, assicurarsi che la configurazione **Mapping del questionario** sia ancora selezionata. Quindi, nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 5. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.2 non può più essere modificata. Questa versione contiene il mapping del modello configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.3 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per rettificare il mapping del modello di dati **Gestione questionari**.
+Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.2 non può più essere modificata. Questa versione contiene il mapping del modello configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.3 di questa configurazione viene creata e ha stato **Bozza**. Puoi modificare questa versione per regolare il mapping del modello di dati **Gestione questionari**.
 
 ### <a name="modify-a-format"></a><a name="ModifyFormat"></a>Modificare un formato
 
@@ -1156,7 +1156,7 @@ Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza
 
 Il formato configurato è stato ora modificato in modo che il suo nome venga inserito nel piè di pagina di un report generato utilizzando l'elemento **Piè di pagina\\Stringa**.
 
-![Aggiunta dell'elemento formato Piè di pagina al formato configurato nella finestra di progettazione delle operazioni ER.](./media/er-quick-start1-template-format-structure3.png)
+![Aggiunta dell'elemento del formato Piè di pagina al formato configurato nella finestra di progettazione delle operazioni ER](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Completare la progettazione del formato
 
@@ -1164,7 +1164,7 @@ Il formato configurato è stato ora modificato in modo che il suo nome venga ins
 2. Nella pagina **Configurazioni**, nella struttura delle configurazioni, assicurarsi che la configurazione **Report questionario** sia ancora selezionata. Quindi, nella scheda **Versioni**, selezionare la versione della configurazione con stato **Bozza**.
 3. Selezionare **Cambia stato** \> **Completato**.
 
-Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.2 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.3 di questa configurazione viene creata e ha stato **Bozza**. È possibile modificare questa versione per rettificare il report **Gestione questionari**.
+Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza** a **Completato**. La versione 1.2 non può più essere modificata. Questa versione contiene il formato configurato e può essere utilizzata come base per le altre configurazioni ER. La versione 1.3 di questa configurazione viene creata e ha stato **Bozza**. È possibile modificare questa versione per regolare il report **Gestione questionari**.
 
 ### <a name="run-a-format-from-the-application"></a><a name="RunFormatFromApp2"></a>Eseguire un formato dall'applicazione
 
@@ -1178,7 +1178,7 @@ Lo stato della versione 1.2 di questa configurazione viene modificato da **Bozza
 
 Si noti che il piè di pagina del report generato contiene il nome del formato ER utilizzato per generarlo.
 
-![Report generato in formato Excel.](./media/er-quick-start1-report4.png)
+![Report generato in formato Excel](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Eseguire un formato da ER
 
@@ -1199,7 +1199,7 @@ Si noti che il piè di pagina del report generato non contiene il nome del forma
 3. Nella scheda **Destinazione file**, configurare la [destinazione](er-destination-type-screen.md) **Schermo** per il componente del formato **Report** che è stato [aggiunto](#AddFormatRootElement) come elemento radice del formato ER **Rapporto del questionario** configurato.
 4. Nella scheda **Impostazioni di conversione PDF**, configurare la destinazione in cui convertire un report in [formato PDF](electronic-reporting-destinations.md#OutputConversionToPDF) che utilizza l'orientamento della pagina **Orizzontale**.
 
-![Configurazione della destinazione Schermata personalizzata per il formato ER nella pagina di destinazione Creazione di report elettronici.](./media/er-quick-start1-destination.png)
+![Configurazione della destinazione Schermo personalizzata per il formato ER nella pagina Destinazione report elettronici](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Eseguire un formato dall'applicazione per visualizzarlo in anteprima come documento PDF
 
@@ -1211,12 +1211,12 @@ Si noti che il piè di pagina del report generato non contiene il nome del forma
 
     Nella scheda **Destinazioni**, notare che il campo **Output** è impostato su **Schermo**. Se si desidera modificare la destinazione configurata, selezionare **Modifica**.
 
-    ![Finestra di dialogo Runtime report ER in cui è possibile modificare la destinazione configurata.](./media/er-quick-start1-run-settings.png)
+    ![Finestra di dialogo Runtime report ER in cui è possibile modificare la destinazione configurata](./media/er-quick-start1-run-settings.png)
 
 6. Selezionare **OK** per eseguire il report.
 7. Verificare il report generato in formato PDF.
 
-    ![Anteprima su schermo del report generato in formato PDF.](./media/er-quick-start1-preview-PDF.png)
+    ![Anteprima su schermo del report generato in formato PDF](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Risorse aggiuntive
 
@@ -1233,6 +1233,3 @@ Si noti che il piè di pagina del report generato non contiene il nome del forma
 - [Funzione IF](er-functions-logical-if.md)
 - [Funzione ORDERBY](er-functions-list-orderby.md)
 - [Funzione SESSIONNOW](er-functions-datetime-sessionnow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

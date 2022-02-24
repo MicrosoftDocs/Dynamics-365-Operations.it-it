@@ -62,6 +62,3 @@ Con questo aggiornamento, i dipendenti con i quali il rapporto di lavoro è conc
 
 - **Problema**: quando si aggiunge un nuovo allegato a un lavoratore, i pulsanti **Nuovo** e **Modifica** sono inattivi. 
 - **Soluzione alternativa:** prima di aprire la pagina dell'allegato, verificare che le schede dettaglio della pagina **Lavoratore** siano chiuse. Se i riquadri Dettaglio informazioni sono chiusi quando la pagina **Lavoratore** viene caricata, i pulsanti degli allegati saranno abilitati. Questo problema verrà risolto nel prossimo aggiornamento della piattaforma.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

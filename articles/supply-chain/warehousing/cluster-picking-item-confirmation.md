@@ -2,24 +2,27 @@
 title: Conferma prodotto per prelievo cluster
 description: Viene descritta la procedura per l'impostazione della verifica dell'articolo e del prelievo cluster.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d14d015811a72bc0ba05b65473331b047dbcc49c104f633c50ee497d92ff3e7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755932"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431187"
 ---
 # <a name="product-confirmation-for-cluster-picking"></a>Conferma prodotto per prelievo cluster
 
@@ -36,9 +39,6 @@ La verifica dell'articolo per il prelievo cluster funziona nello stesso modo del
 1. Su una voce di menu del dispositivo mobile, aprire il modulo di impostazione per la conferma di lavoro: **Gestione magazzino** > **Gestione magazzino** > **Impostazione** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile**.
 1. Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**.
 
-|        Opzione        |                                    Descrizione                                    |
+|        Opzione        |                                    descrizione                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Conferma prodotto | Consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

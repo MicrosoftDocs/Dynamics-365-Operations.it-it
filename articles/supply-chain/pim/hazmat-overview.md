@@ -1,33 +1,37 @@
 ---
 title: Panoramica dei materiali pericolosi
 description: Questo argomento fornisce una panoramica delle funzionalità correlate alla gestione e alla documentazione dei materiali pericolosi per la gestione delle informazioni sul prodotto e la gestione del magazzino.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986278"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430901"
 ---
 # <a name="hazardous-materials-overview"></a>Panoramica dei materiali pericolosi
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Per rimanere conformi alle normative sulla spedizione e sul trasporto, le organizzazioni che spediscono materiali classificati come merci pericolose devono includere documenti aggiuntivi con le loro spedizioni. La funzione dei materiali pericolosi consente ai clienti di memorizzare le informazioni relative agli articoli rilasciati. Queste informazioni possono quindi essere utilizzate per preparare la documentazione di spedizione. Un'organizzazione che spedisce merci pericolose deve avere propri processi e procedure per la gestione del processo di spedizione. Microsoft Dynamics 365 Supply Chain Management è solo uno strumento che può aiutare a generare i documenti richiesti.
 
 Il diagramma seguente illustra i passaggi necessari per impostare e utilizzare la funzione dei materiali pericolosi.
 
-![Impostazione e utilizzo della funzione dei materiali pericolosi.](media/hazmat-overview.png "Impostazione e utilizzo della funzione dei materiali pericolosi")
+![Impostazione e utilizzo della funzione dei materiali pericolosi](media/hazmat-overview.png "Impostazione e utilizzo della funzione dei materiali pericolosi")
 
 La funzione dei materiali pericolosi viene impostata nella gestione delle informazioni sul prodotto e fornisce i documenti che possono essere stampati tramite la gestione del magazzino. Pertanto, in linea di massima, queste sono le due aree principali in cui è possibile rivedere, impostare e utilizzare la funzionalità di questa funzione:
 
@@ -58,6 +62,3 @@ Per ulteriori informazioni su come impostare normative e valori per i materiali 
 ## <a name="warehouse-management"></a>Gestione magazzino
 
 Quando si prepara una spedizione in Gestione magazzino, è possibile stampare diversi nuovi report che utilizzano le informazioni impostate in Gestione informazioni sul prodotto. Per ulteriori informazioni sui report disponibili e su come utilizzarli, vedere [Richieste di informazioni e report sui materiali pericolosi](hazmat-reports.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

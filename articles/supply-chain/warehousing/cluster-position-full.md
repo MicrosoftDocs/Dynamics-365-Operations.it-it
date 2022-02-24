@@ -2,23 +2,26 @@
 title: Posizione cluster piena
 description: In questo argomento vengono fornite informazioni sulla funzionalità Posizione cluster piena. Questa funzione offre un'alternativa all'applicazione più rigida delle regole di interruzione del lavoro quando viene utilizzato il prelievo del cluster perché consente un margine di errore più ampio nei vincoli volumetrici dei contenitori o dei totali.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574259"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431508"
 ---
 # <a name="cluster-position-full"></a>Posizione cluster piena
 
@@ -211,7 +214,7 @@ Dovrebbero essere stati creati due ID lavoro, ciascuno dei quali ha due righe di
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Esecuzione del flusso del dispositivo mobile: impostazione della conferma del lavoro per il prodotto
 
-1. Accedi all'app per dispositivi mobili Gestione magazzino come utente nel magazzino *61*.
+1. Accedere all'app di magazzino come utente nel magazzino *61*.
 1. Andare a **In uscita \> Creazione prelievo del cluster**.
 
     Viene visualizzata la pagina **ATTIVITÀ: assegnare il lavoro al cluster**.
@@ -273,6 +276,3 @@ In questo scenario, il prelievo del cluster è stato completato e all'utente vie
     Viene ricevuto un messaggio di tipo "Cluster completato".
 
 Ora è possibile usare la voce di menu **Prelievo vendite** per prelevare la quantità rimanente. È quindi possibile utilizzare la voce di menu **Caricamento vendite** per spostare gli articoli dalla posizione di gestione temporanea alla banchina di carico.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

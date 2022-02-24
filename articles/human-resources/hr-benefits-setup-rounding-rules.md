@@ -1,33 +1,31 @@
 ---
 title: Impostare le regole di arrotondamento
-description: Questo argomento descrive come impostare regole di arrotondamento in Dynamics 365 Human Resources per soddisfare le esigenze dell'organizzazione.
-author: twheeloc
-ms.date: 08/25/2021
+description: È possibile impostare regole di arrotondamento in Dynamics 365 Human Resources per soddisfare le esigenze dell'organizzazione.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e955e140b3dee670669e68bfba38c5ac38ff409
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8a9b0c33d2e0c47b351463b4b3630a91c6bd9999
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068261"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419228"
 ---
 # <a name="set-up-rounding-rules"></a>Impostare le regole di arrotondamento
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 È possibile impostare regole di arrotondamento in Dynamics 365 Human Resources per soddisfare le esigenze dell'organizzazione.
 
@@ -38,6 +36,3 @@ ms.locfileid: "8068261"
 3. Specificare i valori per **Arrotondamento all'unità più vicina**, **Scenario** e **Tipo di arrotondamento**.
 
 4. Selezionare **Salva**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

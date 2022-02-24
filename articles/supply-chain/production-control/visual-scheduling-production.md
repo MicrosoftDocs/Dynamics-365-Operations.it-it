@@ -2,13 +2,16 @@
 title: Diagramma di Gantt per la programmazione dei processi
 description: I pianificatori di produzione possono monitorare e ottimizzare i piani di produzione utilizzando i diagrammi di Gantt.
 author: johanhoffmann
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 180fb7b31ea826c546aa8472a7ef4025a3b8865a783a5b662ed30b69f98acf92
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730204"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431248"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Diagramma di Gantt per la programmazione dei processi
 
@@ -45,10 +48,10 @@ Il diagramma di Gantt può essere aperto in due diverse visualizzazioni, **Visua
 
 ## <a name="order-view"></a>Visualizzazione ordini
 
-[![Visualizzazione ordini.](./media/orderview.png)](./media/orderview.png)
+[![Visualizzazione ordini](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Visualizzazione risorse
-[![Visualizzazione risorse.](./media/resview.png)](./media/resview.png)
+[![Visualizzazione risorse](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Attività
 Le attività vengono visualizzate come barre e sono organizzate in una griglia della scala cronologica con una data di inizio e una data di fine programmate e la lunghezza delle barre è proporzionale al tempo necessario per completare l'attività. Le attività vengono visualizzate in base a una scala cronologica. È possibile modificare la scala cronologica nel menu in cui si seleziona una data di fine e un'unità di tempo, ad esempio, ore o giorni. Regolando la scala cronologica è possibile impostare l'elemento attivo su un intervallo di tempo in cui si desidera gestire le attività. 
@@ -102,25 +105,25 @@ Non è possibile programmare un processo al di fuori dell'intervallo di tempo de
 
 In una rete di attività, ad esempio i processi appartenenti allo stesso ordine di produzione, è possibile utilizzare la funzione **Programma processi precedenti** per la programmazione dei processi precedenti rispetto a un processo selezionato nella rete. Nell'esempio che segue l'attività evidenziata è il processo selezionato. Il diagramma mostra il processo selezionato prima della programmazione di un processo precedente e dopo la programmazione di un processo precedente. 
 
-[![Programma processi precedenti.](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Programma processi precedenti](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Programma processi successivi
 
 È possibile utilizzare la funzione **Programma processi successivi** per la programmazione dei processi successivi in relazione a un processo selezionato in una rete di attività. Nell'esempio che segue l'attività evidenziata è il processo selezionato. Il diagramma mostra il processo selezionato prima della programmazione del processo successivo e dopo la programmazione del processo successivo. 
 
-[![Programma processi successivi.](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Programma processi successivi](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Programmazione su processo
 
 È possibile utilizzare la funzione **Programmazione su processo** per la programmazione del processo successivo e del processo precedente correlati a un processo selezionato in una rete di attività. Nell'esempio che segue l'attività evidenziata è il processo selezionato. Il diagramma mostra il processo selezionato prima della programmazione di un processo e dopo la programmazione di un processo. 
 
-[![Programmazione su processo.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Programmazione su processo](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Disponi processi
 
 È possibile utilizzare la funzione **Disponi** per disporre di attività selezionate nella stessa risorsa. Queste attività possono trovarsi nella stessa rete di attività, ma appartenere anche a reti diverse. Quando si utilizza la funzione di organizzazione, le interruzioni di tempo tra le attività selezionate verranno eliminate. È possibile utilizzare questa funzione per ottimizzare l'uso della capacità delle risorse. Il diagramma mostra il processo selezionato prima della programmazione di un processo e dopo la programmazione di un processo. 
 
-[![Disponi processi.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Disponi processi](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Riassegnare attività da una risorsa a un'altra
 
@@ -155,8 +158,5 @@ Il diagramma di Gantt può essere aperto nelle pagine seguenti.
 ## <a name="additional-resources"></a>Risorse aggiuntive  
 [Programmazione visiva con il diagramma di Gantt per ordini batch e di produzione (video)](https://youtu.be/BtbuShkGj4I)
 
-[Programmazione visiva per la produzione (script demo)](/dynamics/s-e/)
+[Programmazione visiva per la produzione (script demo)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

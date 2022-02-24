@@ -2,8 +2,11 @@
 title: Funzione ER SPLITLIST
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione SPLITLIST della creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776124"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680341"
 ---
 # <a name="splitlist-er-function"></a>Funzione ER SPLITLIST
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776124"
 
 La funzione `SPLITLIST` divide l'elenco specificato in elenchi secondari (o batch), ciascuno dei quali contiene il numero specificato di record. Quindi restituisce il risultato come nuovo valore *Elenco di record* costituito dai batch.
 
-## <a name="syntax-1"></a>Sintassi 1
+## <a name="syntax"></a>Sintassi
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>Sintassi 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argomenti
@@ -48,10 +45,6 @@ Il percorso valido di un'origine dati del tipo di dati *Elenco di record*.
 `number`: *Intero*
 
 Il numero massimo di record per batch.
-
-`on-demand reading flag`: *Booleano*
-
-Un valore *Booleano* che specifica se gli elementi degli elenchi secondari devono essere generati su richiesta.
 
 ## <a name="return-values"></a>Valori restituiti
 
@@ -71,8 +64,6 @@ L'elenco di batch restituito contiene i seguenti elementi:
 
     Il numero del batch corrente nell'elenco restituito.
 
-Quando il flag di lettura su richiesta è impostato su **True**, gli elenchi secondari vengono generati su richiesta, il che consente una riduzione del consumo di memoria ma può causare un degrado delle prestazioni se gli elementi non vengono utilizzati in sequenza.
-
 ## <a name="example"></a>Esempio
 
 Nella seguente figura, un'origine dati **Lines** viene creata come un elenco di record contenente tre record. Questo elenco viene suddiviso in batch, ciascuno contenente fino a due record.
@@ -90,6 +81,3 @@ Nella figura seguente è illustrato il risultato dell'esecuzione del formato pro
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di elenco](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

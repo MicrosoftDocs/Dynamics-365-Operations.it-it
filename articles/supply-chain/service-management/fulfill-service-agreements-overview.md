@@ -1,29 +1,34 @@
 ---
 title: Panoramica sulla gestione dei contratti di assistenza
 description: In questo argomento viene fornita una panoramica delle attività per l'adempimento dei contratti di assistenza.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/03/2018
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39fe65638c413f5fbc1ea6ad4922e97f6e8fb35e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985888"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431370"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Panoramica sulla gestione dei contratti di assistenza
+# <a name="fulfill-service-agreements-overview"></a>Panoramica sulla gestione dei contratti di assistenza 
 
 [!include [banner](../includes/banner.md)]
+
 
 In questo argomento viene fornita una panoramica delle attività per l'adempimento dei contratti di assistenza. Vengono inoltre elencati i moduli associati a ciascun componente del processo aziendale e vengono illustrate le attività associate a ciascuno dei componenti.
 
@@ -39,9 +44,9 @@ Nella tabella riportata di seguito sono elencati i moduli di supporto ai compone
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,9 +67,9 @@ Nella tabella riportata di seguito sono elencati i moduli di supporto ai compone
 <td><p>Consente di creare e gestire sottoscrizioni di assistenza.</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Monitorare e implementare un contratto</p></td>
@@ -77,9 +82,9 @@ Nella tabella riportata di seguito sono elencati i moduli di supporto ai compone
 <td><p>Consente di creare e gestire ordini di assistenza.</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Aggiornare e valutare un contratto</p></td>
@@ -102,6 +107,3 @@ Nella tabella riportata di seguito sono elencati i moduli di supporto ai compone
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

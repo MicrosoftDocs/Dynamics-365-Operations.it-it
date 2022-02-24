@@ -2,12 +2,15 @@
 title: Miglioramenti della gestione di cassa
 description: In questo argomento vengono descritti i miglioramenti della gestione di cassa in POS per Dynamics 365 Commerce.
 author: anpurush
+manager: AnnBe
 ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735656"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413421"
 ---
 # <a name="cash-management-improvements"></a>Miglioramenti della gestione di cassa
 
@@ -59,6 +62,3 @@ In Retail versione 10.0.3 e successive, vengono fornite anche le seguenti funzio
 - Durante la riconciliazione, se la transazione selezionata non è bilanciata, l'utente deve immettere una descrizione del motivo della riconciliazione non bilanciata. Gli utenti possono selezionare una singola transazione e riconciliarla con la relativa descrizione del motivo.
 - Gli utenti possono continuare a riconciliare le transazioni e ad annullare la riconciliazione di quelle riconciliate fino alla chiusura del turno. Dopo la chiusura di un turno, non è possibile annullare la riconciliazione delle transazioni riconciliate.
 - Quando un utente sceglie di chiudere un turno, Commerce conferma che non sono presenti transazioni di gestione di cassa non riconciliate nel turno. Gli utenti non possono chiudere un turno se sono presenti transazioni non riconciliate.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

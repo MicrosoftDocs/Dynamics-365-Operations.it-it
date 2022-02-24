@@ -1,24 +1,26 @@
 ---
-title: Panoramica degli avvisi (video)
+title: Panoramica degli avvisi
 description: In questo argomento vengono fornite informazioni generali sugli avvisi. È possibile utilizzare avvisi per essere informati sugli eventi di cui si desidera tenere traccia durante la giornata lavorativa.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984970"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798586"
 ---
 # <a name="alerts-overview"></a>Panoramica degli avvisi
 
@@ -86,6 +88,3 @@ Il video [Come utilizzare gli avvisi per monitorare i dati filtrati](https://you
 Il video [Opzioni per le regole di avviso](https://youtu.be/cpzimwOjicM) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

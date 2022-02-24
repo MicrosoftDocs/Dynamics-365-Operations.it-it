@@ -142,6 +142,3 @@ Dopo che i candidati inviano la propria candidatura per una o più mansioni, pos
 ## <a name="internal-jobs"></a>Mansioni interne
 
 Attualmente, le mansioni contrassegnate come interne e pubblicate nel sito di avanzamento professionale Attract non vengono visualizzate nel sito di avanzamento professionale. Sono accessibili tramite l'URL diretto di **Domanda di lavoro** che può essere copiato dall'applicazione Attract.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

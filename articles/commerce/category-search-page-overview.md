@@ -2,23 +2,27 @@
 title: Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
 description: In questo argomento viene fornita una panoramica della pagina di destinazione di categoria predefinita e della pagina dei risultati della ricerca in Dynamics 365 Commerce.
 author: ashishmsft
+manager: annbe
 ms.date: 06/30/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982436"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413422"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
 
@@ -30,7 +34,7 @@ In questo argomento viene fornita una panoramica della pagina di destinazione di
 
 La pagina di destinazione di categoria predefinita è la pagina che viene in genere visualizzata quando gli utenti del sito Web selezionano una categoria nella gerarchia di navigazione. La pagina di categoria consente di esaminare i prodotti categorizzati nonché di ordinarli e filtrarli.
 
-![Pagina di destinazione di categoria predefinita.](./media/SimpleCategoryLandingDressCategory.png)
+![Pagina di destinazione di categoria predefinita](./media/SimpleCategoryLandingDressCategory.png)
 
 La parte superiore della pagina è un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il responsabile merchandising ha categorizzato. La configurazione viene effettuata durante quella della gerarchia di navigazione del canale. La parte inferiore della pagina è un piè di pagina che include collegamenti rapidi a vari argomenti a cui un acquirente potrebbe essere interessato.
 
@@ -54,7 +58,7 @@ I seguenti componenti sono essenziali per una categoria:
 
 Se una pagina di destinazione di categoria deve includere un'esperienza più personalizzata per una specifica categoria, è possibile "arricchire" la pagina di destinazione per quella categoria. Ad esempio, è possibile aggiungere un video marketing per catturare l'attenzione dell'acquirente. Per ulteriori informazioni, vedere [Migliorare una pagina di destinazione di categoria](enrich-category-page.md).
 
-![Pagina di destinazione di categoria migliorata.](./media/CategoryLandingPages.png)
+![Pagina di destinazione di categoria migliorata](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Pagine di suggerimenti automatici e dei risultati della ricerca
 
@@ -68,11 +72,11 @@ Di seguito sono riportati alcuni tipi di suggerimenti che potrebbero essere visu
 - I **prodotti** forniscono collegamenti diretti alla pagina dettagli prodotto.
 - I **suggerimenti di ricerca in categorie con ambito** elencano varie categorie e consentono agli utenti di cercare la parola chiave in una specifica categoria.
 
-![Suggerimenti automatici immersivi.](./media/ImmersiveAutoSuggestUX.png)
+![Suggerimenti automatici immersivi](./media/ImmersiveAutoSuggestUX.png)
 
 Quando gli utenti selezionano una delle parole chiave o i suggerimenti di ricerca in categorie per ambito, oppure quando non vi sono suggerimenti per il termine di ricerca che hanno immesso, viene visualizzata una pagina dei risultati della ricerca. Gli utenti possono quindi esplorare, ordinare e affinare l'elenco dei risultati della ricerca per trovare l'articolo desiderato.
 
-![Pagina di destinazione della ricerca.](./media/SearchLanding.png)
+![Pagina di destinazione della ricerca](./media/SearchLanding.png)
 
 I seguenti componenti sono essenziali per una pagina dei risultati della ricerca:
 
@@ -93,7 +97,7 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
 
 >[!NOTE]
 >Queste funzionalità di ricerca basate su cloud sono disponibili a partire dalla versione 10.0.8. Verifica che in **Parametri di commercio > Parametri di configurazione** c'è una voce per "ProductSearch.UseAzureSearch impostata su 'true'". 
-![Parametri di configurazione per la ricerca basata su cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
+![Parametri di configurazione per la ricerca basata su cloud](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -107,6 +111,3 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
 
 [Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

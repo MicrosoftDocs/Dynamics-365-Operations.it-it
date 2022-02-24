@@ -1,10 +1,12 @@
 ---
 title: Distinte base e formule
 description: Questo articolo offre informazioni sulle distinte base (DBA) e sulle formule, che sono una parte centrale della definizione dei prodotti e varianti prodotto.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace, ProdBOM, ProdJournalTransBOM, ProdBOMCurrent, PmfBOMDesignerEditCoBy, ProdJournalPickingListLineSummary, ProdBOMOverview, PmfCoReqPlanning, EcoResProductProdTypeFormulaNoActiveFormulaFormPart, EcoResItemsMissingActiveRouteVersionFormPart, EcoResItemsProdTypeBOMExpiringBOMFormPart, BOMDesignerBOMVersion, BOMExpandPurch, BOMChangeLine, BOMExpandSales, EcoResItemsProdTypeBOMExpiringRouteFormPart, EngChgEcmBomDesigner, EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmBOMCopyDialog, EngChgEcmBomDesignerEditBom, BOMDesignerFilterDialog, BOMDesignerFilterDialog, BOMPartOf, BOMSetupReportFinish, EcoResItemsMissingActiveBOMVersionFormPart, BOMIdLookup, EcoResProductProdTypeFormulaNoActiveRouteFormPart, BOMExpandPurchRFQ, EngChgCaseRouteTablePart
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 01491f15405e28e63e4b83f9a9c7af90c2e4a1b5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578010"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966482"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Distinte base e formule
 
@@ -29,7 +31,8 @@ ms.locfileid: "7578010"
 
 Questo articolo offre informazioni sulle distinte base (DBA) e sulle formule, che sono una parte centrale della definizione dei prodotti e varianti prodotto. Le distinte base e le formule specificano i materiali o gli ingredienti necessari per un prodotto specifico. Le formule inoltre specificano i co-prodotti e sottoprodotti ricevuti nel contesto di produzione specifico. 
 
-## <a name="bills-of-materials"></a>Distinte base
+<a name="bills-of-materials"></a>Distinte base
+------------------
 
 Una distinta base (DBA) definisce i componenti necessari per produrre un prodotto. I componenti possono essere materie prime, prodotti semilavorati, o ingredienti. In alcuni casi in una DBA può essere fatto riferimento ai servizi. Tuttavia, nelle DBA vengono in genere descritte le *risorse materiali* necessarie.  
 
@@ -114,6 +117,3 @@ Selezionare il tipo di riga **Fornitore** se per il processo di produzione viene
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

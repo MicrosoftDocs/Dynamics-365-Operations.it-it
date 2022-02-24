@@ -62,6 +62,3 @@ Se si desidera indicare che la posizione è stata ricoperta, è necessario che u
    > È possibile chiudere una posizione come **Posizione chiusa** solo quando almeno un prospect ha completato la fase di offerta. Se per una domanda di lavoro non è selezionata l'opzione **Offerta accettata** o se la domanda non visualizza uno stato **Accettata** in Offerte, l'opzione **Posizione chiusa** non verrà visualizzata nel menu a discesa **Motivo**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

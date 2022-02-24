@@ -1,24 +1,26 @@
 ---
 title: Impostare le autorizzazioni per ordinare prodotti per conto di altri
 description: In questo argomento viene illustrato come concedere ai lavoratori l'autorizzazione a preparare richieste di acquisto per conto di altri lavoratori.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a29b7ebece8009f29f4313b380889635a87473b5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 585f5c6cf83ad93b649e3f36e0d486a037915cd4
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577122"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017294"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Impostare le autorizzazioni per ordinare prodotti per conto di altri
 
@@ -42,6 +44,3 @@ In questo argomento viene illustrato come concedere ai lavoratori l'autorizzazio
 2. Utilizzare il filtro rapido per trovare il lavoratore appena aggiunto come richiedente.
 3. Selezionare il richiedente. L'elenco Preparatore mostra le persone che hanno l'autorizzazione a ordinare articoli per conto del richiedente che è selezionato nel riquadro sinistro.  Potete aggiungere preparatori supplementari qui. Questa visualizzazione inoltre vi consente di concedere al richiedente l'autorizzazione a creare le richieste in persone giuridiche e unità operative che non sono la persona giuridica o l'unità operativa primaria di quella persona.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

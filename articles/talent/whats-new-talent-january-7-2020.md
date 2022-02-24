@@ -53,6 +53,3 @@ Questa modifica aggiunge un'opzione di eliminazione nel modulo **Lavoratori con 
 5. Impostare l'autorizzazione **Elimina** su Concedi.
 6. Selezionare la scheda **Oggetti non pubblicati**.
 7. Selezionare **Pubblica tutto**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

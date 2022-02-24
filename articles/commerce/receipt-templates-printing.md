@@ -1,27 +1,30 @@
 ---
 title: Impostare e progettare formati di ricevute
 description: In questo articolo viene descritto come modificare layout modulo per controllare la modalità di stampa di ricevute, fatture e altri documenti. Dynamics 365 Commerce include una progettazione layout modulo che è possibile utilizzare per creare e modificare con facilità vari tipi di layout modulo.
-author: BrianShook
-ms.date: 09/16/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac0ad75ff35367b5d6ac84c75c68e22e2cb0cb1
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779403"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413560"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Impostare e progettare formati di ricevute
 
@@ -43,15 +46,6 @@ In questo articolo viene descritto come modificare layout modulo per controllare
     - **Non stampare**: la ricevuta non viene stampata.
     - **Richiedi conferma all'utente**: all'utente viene chiesto se stampare la ricevuta.
     - **Come richiesto**: questa opzione viene utilizzata solo per le ricevute di regali. Se questa opzione è selezionata, l'utente può stampare le ricevute di regali dalla pagina **Modifica** se richieste.
-
-## <a name="print-images"></a>Stampare le immagini
-
-La finestra di progettazione della ricevuta include una variabile **Logo**. Puoi utilizzare questa variabile per specificare un'immagine da stampare sulle ricevute. Le immagini stampate sulle ricevute utilizzando la variabile **Logo** devono essere di tipi di file bitmap monocromatici (.bmp). Se un'immagine bitmap è specificata nella finestra di progettazione della ricevuta ma non viene stampata quando la ricevuta viene inviata alla stampante, la causa potrebbe essere uno dei seguenti problemi:
-
-- La dimensione del file è troppo grande o le dimensioni in pixel dell'immagine non sono compatibili con la stampante. In questo caso, prova a ridurre la risoluzione o le dimensioni del file immagine.
-- Alcuni driver di stampante Object Linking and Embedding for Point of Sale (OPOS) non implementano il metodo **PrintMemoryBitmap** utilizzato dalle stazioni hardware per stampare le immagini del logo. In questo caso, prova ad aggiungere il seguente flag al file **HardwareStation.Extension.config** della stazione hardware dedicata o condivisa:
-
-    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Progettare un formato di ricevuta
 
@@ -88,6 +82,3 @@ I profili ricevuta vengono assegnati direttamente alle stampanti nel profilo har
 
 > [!NOTE]
 > Se vengono utilizzate due stampanti, una stampante può essere utilizzata per stampare le ricevute termali a 40 colonne standard. La seconda stampante viene in genere utilizzata per stampare i tipi di ricevuta a pagina intera che richiedono ulteriori informazioni. Questi tipi di ricevuta includono le ricevute per l'ordine cliente e le fatture cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

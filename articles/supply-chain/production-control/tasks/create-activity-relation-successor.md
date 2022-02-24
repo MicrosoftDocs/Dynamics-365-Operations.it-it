@@ -1,25 +1,28 @@
 ---
 title: 'Creare relazione attività: attività successiva'
 description: Il flusso di attività in un flusso di produzione snella viene documentato tramite relazioni tra le attività.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup, DefaultDashboard
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cee0c75de1fee24cfb6df018de62ece102c96cc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 91e1535ab6b53ad60394967d0377606a0cd27d01
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579210"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430873"
 ---
 # <a name="create-activity-relation---successor"></a>Creare relazione attività: attività successiva
 
@@ -63,6 +66,3 @@ Prerequisiti:
 12. Chiudere la pagina.
 13. Aggiorna la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

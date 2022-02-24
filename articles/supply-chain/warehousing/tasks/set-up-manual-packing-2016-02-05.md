@@ -1,25 +1,28 @@
 ---
 title: Impostare l'imballaggio manuale (febbraio 2016 e maggio 2016)
 description: Il processo di imballaggio consente di convalidare e imballare i prodotti in contenitori.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbcd9653f2f3752f067828918ee61d96f9307c6d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 67e1e99b479752a027c60a878c57bd35d4219981
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576066"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431532"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Impostare l'imballaggio manuale (febbraio 2016 e maggio 2016)
 
@@ -92,6 +95,3 @@ Il processo di imballaggio consente di convalidare e imballare i prodotti in con
 8. Nel campo Unità peso immettere o selezionare un valore.
 9. Fare clic su Salva.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

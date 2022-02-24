@@ -1,26 +1,29 @@
 ---
 title: Creare una DBA modello
 description: È possibile creare una DBA modello utilizzando vari metodi.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10bf5e758a1752e1c50c602db85e0c53ee3e662
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2e06283f3b95c5ff6b4376bba63cf5a42d5feeb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571499"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431269"
 ---
 # <a name="create-a-template-bom"></a>Creare una DBA modello   
 
@@ -31,9 +34,9 @@ ms.locfileid: "7571499"
 
 ## <a name="create-a-template-bom-manually"></a>Creare manualmente una DBA modello
 
-1.  Seleziona **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **DBA modello**.
+1.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **DBA modello**.
 
-2.  Seleziona **Nuovo** per aprire il modulo **Crea DBA modello**.
+2.  Premere CTRL+N per aprire il modulo **Crea DBA modello**.
 
 3.  In **Copia righe DBA da riferimento**, selezionare l'opzione **Manuale**.
 
@@ -43,15 +46,15 @@ ms.locfileid: "7571499"
 
 6.  Nei campi **Dal** e **Al** immettere un intervallo di date in cui la DBA modello è attiva.
 
-7.  Selezionare **OK**.
+7.  Fare clic su **OK**.
 
 Verrà creata una nuova DBA modello vuota.
 
 ## <a name="create-a-template-bom-based-on-another-template-bom"></a>Creare una DBA modello basata su un'altra DBA modello
 
-1.  Seleziona **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **DBA modello**.
+1.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **DBA modello**.
 
-2.  Seleziona **Nuovo** per aprire il modulo **Crea DBA modello**.
+2.  Premere CTRL+N per aprire il modulo **Crea DBA modello**.
 
 3.  In **Copia righe DBA da riferimento**, selezionare l'opzione **DBA modello**.
 
@@ -61,15 +64,15 @@ Verrà creata una nuova DBA modello vuota.
 
 6.  Nei campi **Dal** e **Al** immettere un intervallo di date in cui la DBA modello è attiva.
 
-7.  Selezionare **OK**.
+7.  Fare clic su **OK**.
 
 Verrà creata una nuova DBA modello mediante le righe che corrispondono a quelle della DBA modello originaria.
 
 ## <a name="create-a-template-bom-based-on-an-item-bom"></a>Creare una DBA modello basata su una DBA articolo
 
-1.  Seleziona **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **DBA modello**.
+1.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **DBA modello**.
 
-2.  Seleziona **Nuovo** per aprire il modulo **Crea DBA modello**.
+2.  Premere CTRL+N per aprire il modulo **Crea DBA modello**.
 
 3.  In **Copia righe DBA da riferimento**, selezionare **DBA**.
 
@@ -79,15 +82,15 @@ Verrà creata una nuova DBA modello mediante le righe che corrispondono a quelle
 
 6.  Nei campi **Dal** e **Al** immettere un intervallo di date in cui la DBA modello è attiva.
 
-7.  Selezionare **OK**.
+7.  Fare clic su **OK**.
 
 Verrà creata una nuova DBA modello con le righe corrispondenti a quelle della DBA elencata in **Distinte base**.
 
 ## <a name="create-a-template-bom-based-on-a-production-bom"></a>Creare una DBA modello basata su una DBA di produzione
 
-1.  Seleziona **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **DBA modello**.
+1.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **DBA modello**.
 
-2.  Seleziona **Nuovo** per aprire il modulo **Crea DBA modello**.
+2.  Premere CTRL+N per aprire il modulo **Crea DBA modello**.
 
 3.  In **Copia righe DBA da riferimento**, selezionare **Produzione**.
 
@@ -97,7 +100,7 @@ Verrà creata una nuova DBA modello con le righe corrispondenti a quelle della D
 
 6.  Nei campi **Dal** e **Al** immettere un intervallo di date in cui la DBA modello è attiva.
 
-7.  Selezionare **OK**.
+7.  Fare clic su **OK**.
 
 Verrà creata una nuova DBA modello con le righe corrispondenti a quelle della DBA elencata in **DBA**.
 
@@ -108,6 +111,3 @@ Verrà creata una nuova DBA modello con le righe corrispondenti a quelle della D
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

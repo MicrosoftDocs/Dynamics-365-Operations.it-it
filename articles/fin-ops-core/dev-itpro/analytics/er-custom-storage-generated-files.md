@@ -2,9 +2,11 @@
 title: Specificare percorsi di archiviazione personalizzati per i documenti generati
 description: In questo argomento viene descritto come estendere l'elenco di percorsi di archiviazione per documenti generati con i formati per la creazione di report elettronici.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594911"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680760"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Specificare percorsi di archiviazione personalizzati per i documenti generati
 
@@ -27,7 +29,7 @@ L'API del framework per la creazione di report elettronici (ER) consente di este
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Distribuire una topologia che supporta la compilazione continua. Per ulteriori informazioni, vedere [Distribuire topologie che supportano la compilazione continua e l'automazione dei test](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). È inoltre necessario avere accesso a questa topologia per uno dei seguenti ruoli:
+Distribuire una topologia che supporta la compilazione continua. Per ulteriori informazioni, vedere [Distribuire topologie che supportano la compilazione continua e l'automazione dei test](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). È inoltre necessario avere accesso a questa topologia per uno dei seguenti ruoli:
 
 - Sviluppatore per la creazione di report elettronici
 - Consulente funzionale per la creazione di report elettronici
@@ -41,7 +43,7 @@ argomentoTutte le attività in questo argomento possono essere completate nella 
 
 Per generare i documenti per i quali prevedi di aggiungere una posizione di archiviazione personalizzata, [importare](er-download-configurations-global-repo.md) la **configurazione del formato ER roll forward dei cespiti** nella topologia corrente.
 
-![Pagina Archivio di configurazione.](./media/er-custom-storage-generated-files-import-format.png)
+![Configurazione della pagina dell'archivio](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Eseguire il report roll forward dei cespiti
 
@@ -52,7 +54,7 @@ Per generare i documenti per i quali prevedi di aggiungere una posizione di arch
 5. Nel campo **Mapping formato**, selezionare **Roll forward dei cespiti**.
 6. Selezionare **OK**.
 
-![Finestra di dialogo Runtime per il report roll forward dei cespiti.](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Finestra di dialogo Runtime per il report roll forward dei cespiti](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 In Microsoft Excel, esaminare il documento in uscita generato e disponibile per il download. Questo comportamento è il [comportamento predefinito](electronic-reporting-destinations.md#default-behavior) per un formato ER per cui non sono state configurate [destinazioni](electronic-reporting-destinations.md) e che è in esecuzione in modalità interattiva.
 
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modificare la classe `AssetRollForwardService` esistente e scrivere il codice per impostare una factory di destinazione personalizzata per l'esecutore del report. Si noti che quando viene creata una factory di destinazione personalizzata, viene passato il parametro basato sull'applicazione che specifica una cartella di destinazione. In questo modo, quella cartella di destinazione viene utilizzata per memorizzare i file generati.
 
     > [!NOTE] 
-    > Assicurarsi che la cartella specificata (**c:\\0** in questo esempio) è presente nel file system locale del server che esegue il servizio AOS. Altrimenti, verrà lanciata un'eccezione [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) in fase di esecuzione.
+    > Assicurarsi che la cartella specificata (**c:\\0** in questo esempio) è presente nel file system locale del server che esegue il servizio AOS. Altrimenti, verrà lanciata un'eccezione [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) in fase di esecuzione.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -339,6 +341,3 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 - [Estendibilità home page](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

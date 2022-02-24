@@ -2,9 +2,11 @@
 title: Spese varie per chilogrammo in una dichiarazione Intrastat
 description: Questo argomento spiega come attivare, configurare e utilizzare la funzionalità per le spese varie per chilogrammo in una dichiarazione Intrastat.
 author: ilkond
+manager: AnnBe
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 19e3fb1ecb11c0e5304740f560a9e27e301b1d5d1d22e4a9d9b3cd70cf16960a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcaca7c03d11af8aa5d53ac539264a117600393d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725987"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962611"
 ---
 # <a name="miscellaneous-charges-per-kilogram-in-an-intrastat-declaration"></a>Spese varie per chilogrammo in una dichiarazione Intrastat
 
@@ -31,13 +33,13 @@ Tra gli altri elementi di segnalazione, una dichiarazione Intrastat contiene inf
 ## <a name="prerequisites"></a>Prerequisiti
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- Nell'area di lavoro **Gestione funzionalità** attivare la funzionalità **Spese varie per chilogrammo in una dichiarazione Intrastat**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Nell'area di lavoro **Gestione funzionalità** attivare la funzionalità **Spese varie per chilogrammo in una dichiarazione Intrastat**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-miscellaneous-charges-per-kilogram"></a>Impostare le spese varie per chilogrammo
 
 Sulla pagina **Dati master prodotti rilasciati**, sulla Scheda dettaglio **Commercio estero**, nella sezione **Intrastat** nel campo **Spese per chilogrammo**, inserire l'importo delle spese per chilogrammo.
 
-![Campo Spese per chilogrammo.](media/emea-ita-exil-misc-charge-kg-pic1.jpg)
+![Campo Spese per chilogrammo](media/emea-ita-exil-misc-charge-kg-pic1.jpg)
 
 > [!NOTE]
 > Verificare che il peso del prodotto sia definito in chilogrammi.
@@ -52,9 +54,6 @@ Se viene anche inserito un valore **Percentuale spese**, nel calcolo vengono uti
 
 *Importo spese statistico* = ( *Importo fattura* × *Percentuale spese*) + ( *Costo di ogni chilogrammo* × *Peso netto \[in chilogrammi\]*)
 
-![Calcolo spese.](media/emea-ita-exil-misc-charge-kg-pic2.jpg)
+![Calcolo spese](media/emea-ita-exil-misc-charge-kg-pic2.jpg)
 
 Per ulteriori informazioni, vedere [Trasferire le transazioni a Intrastat](tasks/transfer-transactions-intrastat.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

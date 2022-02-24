@@ -1,29 +1,30 @@
 ---
 title: Panoramica della configurazione dei prodotti
 description: La necessità di configurare i prodotti per soddisfare requisiti speciali sta diventando la regola anziché l'eccezione, sia nelle relazioni tra aziende che nelle relazioni tra azienda e utente.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "75083"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62411bff436d34e3d311b078b1bf8f886e5902d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 8b7d1186b4141a18e1283505713e67018927672d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983369"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430809"
 ---
 # <a name="product-configuration-overview"></a>Panoramica configurazione prodotto
 
@@ -38,7 +39,6 @@ Un passaggio efficace da un'impostazione da produzione a magazzino a una di conf
 Ci sono numerosi principi relativi alla modellazione della configurazione prodotti, ad esempio la modellizzazione in base alle regole, alle dimensioni e ai vincoli. Alcuni studi dimostrano che la metodologia basata sui vincoli può praticamente dimezzare il numero di righe di codice rispetto ad altri principi di modellazione. Di conseguenza, questa metodologia può ridurre il costo totale di proprietà (TCO). Con il passaggio da un modello basato su regole, che si basa su codice X++, a un modello basato su vincoli, non è più necessario disporre di una licenza per sviluppatori per gestire i modelli prodotto.
 
 ## <a name="product-configuration"></a>Configurazione prodotto
-
 Il periodo di industrializzazione ha portato a grandi i risultati nella realizzazione di prodotti completi, di alta qualità e dai prezzi accessibili. Le economie di scala hanno permesso alla maggioranza delle persone del mondo industrializzato di acquistare automobili, TV, elettrodomestici e altri beni che la maggior parte di noi considera essenziali nella vita quotidiana.  
 
 Dal momento che molti prodotti sono diventati beni di consumo, è sorta la necessità di differenziarli tra loro. La risposta immediata dei produttori a questa sfida è stata di creare delle varianti di ciascun prodotto, in modo da offrire ai clienti più alternative. La strategia ha aumentato le sfide legate alla previsione e ha portato anche a un aumento del costo di magazzino e dei prodotti invenduti che diventano obsoleti.  
@@ -47,10 +47,9 @@ Adottando una filosofia di configurazione su ordine, i produttori hanno l'opport
 
 La chiave del successo in questo caso sta nell'analizzare attentamente il portafoglio di prodotti e nell'individuare dei modelli nelle caratteristiche dei prodotti e nei processi. L'obiettivo è di identificare componenti generici che possano essere prodotti con le stesse apparecchiature ed essere utilizzati in tutte le varianti.  
 
-Il set di funzionalità di configurazione prodotto include un'interfaccia utente (UI) che fornisce una panoramica visiva della struttura del modello di configurazione prodotto e anche una sintassi dei vincoli dichiarativa che non deve essere compilata. Di conseguenza, le società che desiderano supportare una procedura di configurazione possono avviare il processo con maggiore facilità. Come spiegato nelle sezioni che seguono, la progettazione di un prodotto non richiede più l'intervento di uno sviluppatore per la generazione di un modello di configurazione, il test e il rilascio all'organizzazione di vendita.
+Il nuovo set di funzionalità di configurazione prodotto include un'interfaccia utente (UI) che fornisce una panoramica visiva della struttura del modello di configurazione prodotto e anche una sintassi dei vincoli dichiarativa che non deve essere compilata. Di conseguenza, le società che desiderano supportare una procedura di configurazione possono avviare il processo con maggiore facilità. Come spiegato nelle sezioni che seguono, la progettazione di un prodotto non richiede più l'intervento di uno sviluppatore per la generazione di un modello di configurazione, il test e il rilascio all'organizzazione di vendita.
 
 ## <a name="building-a-product-configuration-model"></a>Creazione di un modello di configurazione prodotti
-
 Sono disponibili diversi metodi che un utente può adottare per sviluppare un modello di configurazione prodotto. Un'opzione consiste nel seguire un flusso sequenziale creando per prima cosa tutti i dati di riferimento, quali le rappresentazioni generali dei prodotti, i prodotti specifici e le risorse operative e successivamente includendoli come componenti, righe della distinta base, operazioni del ciclo di lavorazione e altri elementi del modello di configurazione prodotto. In alternativa, è possibile selezionare un approccio più iterativo creando innanzitutto il modello e quindi aggiungendo i dati di riferimento all'occorrenza.
 
 ### <a name="components"></a>Componenti
@@ -62,7 +61,7 @@ Un modello di configurazione prodotto è costituito da uno o più componenti che
 Ciascun componente dispone di uno o più attributi che ne identificano le proprietà. Gli attributi sono gli elementi che gli utenti sceglieranno durante il processo di configurazione. Gli attributi controllano sia le relazioni sia all'interno di un componente che tra componenti attraverso l'inclusione in vincoli o calcoli. Tramite le condizioni applicate alle righe DBA, gli attributi possono essere utilizzati per determinare le parti fisiche di cui sarà composto il prodotto configurato. Inoltre, un attributo può anche controllare la proprietà di una riga DBA tramite un meccanismo di mapping. Una funzionalità simile è presente per le operazioni del ciclo di lavorazione in relazione alle impostazioni dell'inclusione e delle proprietà.
 
 >[!NOTE]
-> Quando si creano tipi di attributo, evitare di creare un numero elevato di valori per il dominio del tipo di attributo. in quanto questa operazione potrebbe rallentare la configurazione del prodotto.
+> Quando si creano tipi di attributo, evitare di creare un numero elevato di valori per il dominio del tipo di attributo. in quanto questa operazione potrebbe rallentare la configurazione del prodotto. 
 
 ### <a name="expression-constraints"></a>Vincoli di espressione
 
@@ -99,7 +98,6 @@ Le righe DBA vengono incluse per identificare la DBA di produzione per ciascun c
 Le operazioni del ciclo di lavorazione sono incluse per identificare il ciclo di produzione. Un'operazione del ciclo di lavorazione deve fare riferimento a un'operazione definita e tutte le proprietà dell'operazione possono essere impostate su un valore fisso. Tutte le proprietà ad eccezione del fabbisogno all'origine possono essere mappate a un attributo anziché a un valore.
 
 ## <a name="validating-and-testing-a-product-configuration-model"></a>Convalida e test di un modello di configurazione prodotto
-
 La convalida di un modello di configurazione prodotto può verificarsi a diversi livelli nel modello e può pertanto coprire vari ambiti. Il livello più basso riguarda un singolo vincolo di espressione. In questo caso, la convalida viene in genere eseguita dal responsabile di design prodotto per verificare la correttezza della sintassi di un'espressione.  
 
 Analogamente, una condizione per una riga DBA o un'operazione del ciclo di lavorazione può essere convalidata in isolamento.  
@@ -117,7 +115,6 @@ Il test di un modello è simile a eseguire una sessione di configurazione effett
 Per passare tra i componenti, fare clic su **Successivo** o fare clic sul componente nella struttura del modello di configurazione prodotto per selezionarlo.
 
 ## <a name="finalizing-a-model-for-configuration"></a>Finalizzazione di un modello per la configurazione
-
 Una volta che un modello di configurazione prodotto è pronto per essere utilizzato negli scenari di configurazione su ordine, è necessario crearne una versione. Esistono comunque varie opzioni che migliorano l'esperienza di modellazione.
 
 ### <a name="user-interface"></a>Interfaccia utente
@@ -137,31 +134,32 @@ Se il prodotto verrà venduto in altri paesi, è possibile inserire le traduzion
 L'ultimo passaggio, e il più importante, nel processo di completamento consiste nel creare una versione del modello di configurazione prodotto. La versione rappresenta la relazione tra la rappresentazione generale prodotto, che può essere selezionata per la configurazione su un ordine o in una riga di offerta, e il modello di configurazione prodotto. Per essere utilizzata in una sessione di configurazione, la versione deve essere prima approvata e attivata.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Estensione di un modello di configurazione prodotto nell'API
-
 È stata implementata un'API dedicata affinché i partner e altri che dispongono di una licenza per sviluppatori possano estendere le funzionalità di un modello di configurazione prodotto. L'obiettivo principale è stato quello di stabilire un meccanismo che consente ai partner e ai clienti che utilizzano il Configuratore prodotti esistente di eseguire la migrazione del codice integrato nei modelli del Configuratore prodotti verso l'API. In questo modo, possono eseguire la migrazione dei modelli dal Configuratore prodotti a una configurazione prodotto. Tuttavia, i nuovi partner e i nuovi clienti possono inoltre beneficiare dell'utilizzo dell'API per estendere nuovi modelli di configurazione prodotto.
+
+### <a name="pcadaptor-class"></a>Classe PCAdaptor
 
 L'API è implementata utilizzando un set di classi **PCAdaptor** che espongono la struttura dati dei modelli di configurazione prodotto. Un'istanza della classe **PCAdaptor** deve essere creata per ciascun modello che verrà esteso. Dopo che una sessione di configurazione viene completata, il sistema verifica la presenza di un'istanza di questa classe e la esegue se la trova.  
 
-Nel seguente diagramma di flusso API viene illustrato il processo.  
+Nel seguente diagramma di flusso viene illustrato il processo.  
 
-[![Diagramma di flusso.](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Diagramma di flusso](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-## <a name="configure-products"></a>Configurare i prodotti
+Diagramma di flusso dell'API di configurazione prodotto
 
-### <a name="configure-one-or-more-products"></a>Configurare uno o più prodotti
+## <a name="product-configuration"></a>Configurazione prodotto
+La configurazione prodotto può essere eseguita dalle seguenti aree:
 
-È possibile configurare i prodotti dalle seguenti posizioni:
+-   Riga ordine cliente
+-   Riga offerta di vendita
+-   Riga ordine fornitore
+-   Righe dell'ordine di produzione
+-   Riga di richiesta articoli (progetto)
 
-- Riga ordine cliente
-- Riga offerta di vendita
-- Riga ordine fornitore
-- Righe dell'ordine di produzione
-- Riga di richiesta articoli (progetto)
+Lo scopo di configurazione è di creare una variante distinta del prodotto che soddisfi le esigenze del cliente. Per ogni nuova configurazione viene creato un ID di configurazione univoco. Questo ID consente il monitoraggio in magazzino.
 
-Lo scopo della configurazione è di creare una variante distinta del prodotto che soddisfi le esigenze del cliente. Per ogni nuova configurazione viene creato un ID di configurazione univoco. Questo ID consente il monitoraggio in magazzino.
-
-### <a name="multiple-sites-and-intercompany-considerations"></a>Molteplici siti e considerazioni interaziendali
+### <a name="multiple-sites-and-intercompany"></a>Più siti e interaziendale
 
 Se la configurazione viene effettuata presso un sito, o una società, diverso dal sito, o dalla società, in cui avviene la produzione, la DBA e il ciclo di lavorazione verranno creati e inseriti presso il sito del fornitore nella società fornitrice. La variante prodotto verrà rilasciata a tutte le società che partecipano alla supply chain.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+

@@ -2,9 +2,11 @@
 title: Impostare assortimenti
 description: Questo articolo spiega cos'è un assortimento e come impostare gli assortimenti in Dynamics 365 Commerce.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774487"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969828"
 ---
 # <a name="set-up-assortments"></a>Impostare gli assortimenti
 
@@ -31,7 +33,7 @@ Questo articolo spiega cos'è un assortimento e come impostare gli assortimenti 
 
 Un assortimento è una raccolta di prodotti correlati, che vengono assegnati a un canale di commercio, a un punto vendita fisico o un punto vendita online. È possibile utilizzare l'assortimento per identificare i prodotti che sono disponibili in ciascun punto vendita. Un assortimento può includere diverse categorie di prodotti. Di conseguenza, tutti i prodotti assegnati a una categoria specifica vengono inclusi nell'assortimento. Un assortimento può includere anche prodotti specifici e varianti specifiche dei prodotti. Impostando un assortimento, è possibile assegnare contemporaneamente migliaia di prodotti ai canali, in qualunque combinazione richiesta dai punti vendita. È possibile impostare tutti gli assortimenti prodotti necessari. Ogni prodotto può essere incluso in uno o più assortimenti e ogni assortimento può essere assegnato a uno o più canali. Ad esempio, è possibile definire un assortimento che include un set di base di prodotti. Tutti i punti vendita riceveranno questo assortimento. Quindi, è possibile definire un altro assortimento che include solo attrezzature sportive di grandi dimensioni che vengono ricevute solo dai punti vendita più grandi. Lo schema seguente illustra la modalità di assegnazione dei prodotti agli assortimenti e la modalità di assegnazione di tali assortimenti ai canali.
 
-![Relazioni di assortimento prodotti.](./media/assortments_relationship.gif)
+![Relazioni di assortimento prodotti](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -52,6 +54,3 @@ Dopo aver completato i prerequisiti, è possibile creare un assortimento e asseg
 2. Selezionare i canali o i gruppi di canali di alto livello a cui applicare l'assortimento.
 3. Aggiungere categorie di prodotti, singoli prodotti o varianti prodotto all'assortimento. È possibile includere tutti i prodotti di una categoria specifica o escludere determinati prodotti da una categoria inclusa nell'assortimento.
 4. Pubblicare l'assortimento. Quando si pubblica un assortimento, l'utilità di pianificazione di assortimento viene eseguita automaticamente. Questo processo genera l'elenco dei prodotti. Quando il processo è completo, i prodotti diventano disponibili per i canali a cui è assegnato l'assortimento. Se vengono apportate modifiche a un assortimento che è stato pubblicato o ai canali a cui è assegnato l'assortimento, l'assortimento deve essere aggiornato. Per aggiornare l'assortimento quando vengono apportate modifiche, è possibile eseguire l'utilità di pianificazione di assortimento come processo batch.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

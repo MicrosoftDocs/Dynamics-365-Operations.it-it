@@ -1,10 +1,12 @@
 ---
 title: Ammortamento cespiti
 description: In questo argomento viene fornita una panoramica dell'ammortamento dei cespiti.
-author: moaamer
-ms.date: 12/03/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -12,28 +14,25 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890982"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969105"
 ---
 # <a name="fixed-asset-depreciation"></a>Ammortamento cespiti
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In questo argomento viene fornita una panoramica dell'ammortamento dei cespiti.
 
 Per ammortamento si intende una transazione periodica che di solito determina una riduzione del valore dei cespiti nello stato patrimoniale e viene addebitata come spesa in un conto profitti e perdite. Di conseguenza, per l'accredito dell'ammortamento periodico nello stato patrimoniale viene in genere utilizzato un conto principale. Un conto di contropartita è un conto nella parte profitti e perdite del piano dei conti.
 
-A partire dalla versione 10.0.24, l'opzione di configurazione del libro cespiti **Calcola ammortamento positivo** nella pagina **Libri** consente all'ammortamento dell'addebito di un cespite acquisito con un valore contabile negativo (avere).
-
-## <a name="depreciation-adjustment"></a>Rettifica ammortamento
+## <a name="depreciation-adjustment"></a>Rettifica dell'ammortamento
 In genere, viene registrata come rettifica dell'ammortamento solo una correzione apportata a una transazione di ammortamento già registrata. Di conseguenza, sia il conto principale che il conto di contropartita vengono impostati analogamente ai conti per l'ammortamento. Una rettifica dell'ammortamento può essere costituita da un importo positivo o negativo, ma la funzionalità del conto principale (come conto dello stato patrimoniale) e del conto di contropartita (solitamente come conto profitti e perdite) rimane la stessa.
 
 ## <a name="extraordinary-depreciation"></a>Ammort. straordinario
@@ -57,6 +56,3 @@ Per ulteriori informazioni, vedere [Metodi e convenzioni di ammortamento](deprec
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

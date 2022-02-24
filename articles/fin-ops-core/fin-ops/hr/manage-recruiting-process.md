@@ -1,10 +1,12 @@
 ---
-title: Gestire processi di selezione
-description: In questo argomenti viene descritto un concetto che i selezionatori possono utilizzare per tenere traccia dei passaggi in un processo di selezione.
+title: Gestire i processi di selezione
+description: In questo articolo viene descritto un concetto che i reclutatori possono utilizzare per tenere traccia dei passaggi del processo di selezione, incluse le operazioni per annunciare le posizioni aperte e selezionare i candidati, per tenere traccia delle informazioni su candidati e domande di lavoro, per effettuare i colloqui con i candidati e per selezionare uno o più candidati per occupare le posizioni aperte nell'organizzazione.
 author: andreabichsel
-ms.date: 01/10/2022
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
@@ -15,18 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075477"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798045"
 ---
-# <a name="manage-recruiting-processes"></a>Gestire processi di selezione
+# <a name="manage-recruiting-processes"></a>Gestire i processi di selezione
 
-> [!IMPORTANT]
-> La funzionalità indicata in questo argomento è attualmente disponibile per i clienti di Human Resources nell'infrastruttura finanziaria.  
-
+[!include [banner](../includes/banner.md)]
 
 In questo argomento viene descritto un concetto che i reclutatori possono utilizzare per tenere traccia dei passaggi del processo di selezione, incluse le operazioni per annunciare le posizioni aperte e selezionare i candidati, per tenere traccia delle informazioni su candidati e domande di lavoro, per effettuare i colloqui con i candidati e per selezionare uno o più candidati per occupare le posizioni aperte nell'organizzazione.
 
@@ -44,7 +44,7 @@ I progetti di selezione consentono ai reclutatori di tenere traccia dei progress
 - Scadenza della domanda di lavoro
 - Data di inizio stimata
 
-Il progetto di selezione contiene il valore **annuncio di lavoro** utilizzato nella pagina **Self Service dipendenti** per comunicare l'opportunità di lavoro. Tale opportunità può essere visualizzata ai dipendenti solo se il progetto di selezione ha un valore **annuncio di lavoro**, il campo **Visualizza per dipendente self-service** è impostato su **Sì**, il campo **Scadenza domanda** è impostato su una data futura e il campo **Stato progetto** del progetto di selezione è **Avviato**. Nella tabella seguente sono elencati gli stati possibili del progetto di selezione e la relativa descrizione.
+Il progetto di selezione contiene **l'annuncio di lavoro** utilizzato nel portale **Self Service dipendenti** per comunicare l'opportunità di lavoro. Per visualizzare tale opportunità ai dipendenti, nel progetto di selezione deve essere presente un **annuncio di lavoro**, il campo **Visualizza per dipendente self-service** deve essere impostato su Sì, il campo **Scadenza domanda** deve essere impostato su una data futura e il campo **Stato progetto** del progetto di selezione deve essere Avviato. Nella tabella seguente sono elencati gli stati possibili del progetto di selezione e la relativa descrizione.
 
 | Stato    | Descrizione                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ I reclutatori possono anche registrare i **media** utilizzati per comunicare l'o
 
 ## <a name="applicants"></a>Candidati
 
-Un candidato è una persona che si candida per una mansione nella azienda. I candidati sono condivisi tra tutte le persone giuridiche della tua organizzazione. Pertanto, hai un ampio pool di talenti in cui cercare. È possibile gestire competenze, referenze, richieste di facilitazione e informazioni personali per i candidati. Quando si crea un record candidato, viene creato un record per il candidato nella Rubrica globale. È possibile utilizzare la pagina **Candidato** per aggiornare le seguenti informazioni della Rubrica globale per i candidati:
+Un candidato è una persona che si candida per una mansione nella azienda. I candidati sono in condivisione tra tutte le persone giuridiche dell'organizzazione e rappresentano un ampio pool di competenze tra cui cercare. È possibile gestire competenze, referenze, richieste di facilitazione e informazioni personali per i candidati. Quando si crea un record candidato, viene creato un record per il candidato nella Rubrica globale. È possibile utilizzare la pagina **Candidato** per aggiornare le seguenti informazioni della Rubrica globale per i candidati:
 
 - Informazioni indirizzo
 - Informazioni di contatto
@@ -86,7 +86,7 @@ Lo stato della domanda di lavoro indica la fase in cui si trova la domanda nel p
 
 ### <a name="correspondence-actions"></a>Azioni di corrispondenza
 
-L'azione di corrispondenza di una domanda di lavoro determina il documento o il modello di messaggio di posta elettronica che si utilizza per comunicare con il candidato che ha inviato la domanda. Associando i **segnalibri per domande di lavoro** ad azioni di corrispondenza puoi utilizzare i valori nelle pagine **Domanda di lavoro**, **Candidato**, **Colloquio**, e **Progetto di selezione** nelle comunicazioni con i candidati. Creando i **modelli di messaggio di posta elettronica per domande di lavoro** per le azioni di corrispondenza puoi inviare rapidamente messaggi di posta elettronica ai candidati che hanno una domanda di lavoro con una determinata combinazione di stato e azione di corrispondenza. Ad esempio puoi inviare un messaggio di posta elettronica di conferma a tutte le domande di lavoro con lo **Stato** impostato su **Ricevuto** e un valore di **azione di corrispondenza** impostato su **Ricevuto**. Dopo l'invio del messaggio di posta elettronica, puoi scegliere di aggiornare automaticamente lo stato delle domande di lavoro.
+L'azione di corrispondenza di una **domanda di lavoro** determina il documento o il modello di messaggio di posta elettronica che si utilizza per comunicare con il candidato che ha inviato la domanda. È possibile associare **Segnalibri per domande di lavoro** con azioni di corrispondenza per consentire di utilizzare i valori nelle pagine Domanda di lavoro, Candidato, Colloquio e Progetto di selezione nelle comunicazioni con i candidati. È possibile creare **Modelli di messaggio di posta elettronica per domande di lavoro** per le azioni di corrispondenza per inviare rapidamente messaggi di posta elettronica ai candidati che hanno una domanda di lavoro con una determinata combinazione di stato e azione di corrispondenza. È ad esempio possibile inviare un messaggio di posta elettronica di conferma a tutte le domande di lavoro con lo **Stato** impostato su Ricevuto e un'**azione di corrispondenza** impostata su Ricevuta. Dopo l'invio del messaggio di posta elettronica, è possibile scegliere di aggiornare automaticamente lo stato delle domande di lavoro.
 
 ## <a name="application-routing"></a>Reindirizzamento domande di lavoro
 
@@ -103,5 +103,3 @@ I campi **Mapping competenze** e **Profili mapping competenze** possono essere u
 ## <a name="hiring-applicants"></a>Assunzione di candidati
 
 Utilizzare la pagina **Domande di lavoro** per assumere un candidato. Quando si assume un candidato, il record della domanda di lavoro avrà lo stato di **Assunto** e il record del candidato nella Rubrica globale verrà associato al nuovo record lavoratore. Le modifiche alle informazioni della Rubrica globale per il nuovo record lavoratore saranno visualizzate anche nel record candidato. Ciò consente di ridurre l'immissione di dati se il nuovo lavoratore si propone per una mansione differente all'interno dell'azienda. Per assumere un lavoratore esistente per una posizione nuova, fare clic su **Modifica posizione** nel menu a discesa **Stato domanda di lavoro** per avviare il processo di trasferimento.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

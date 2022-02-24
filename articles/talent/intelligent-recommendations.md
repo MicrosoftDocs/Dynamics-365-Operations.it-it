@@ -56,6 +56,3 @@ I suggerimenti sono visualizzati come schede nella scheda **Prospect** di qualsi
 > Se di recente si è iniziato a utilizzare Attract, sarà necessario attendere di avere 10 o più candidati che hanno profili o curriculum completi prima di poter utilizzare questa funzionalità.
 
 Per evitare potenziali problemi nei suggerimenti, Attract esamina solo i profili per competenze, qualifiche e altre parole chiave che corrispondono alla descrizione della mansione. Inoltre, Attract rimuove informazioni di identificazione personale dai profili dei candidati prima della valutazione.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

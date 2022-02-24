@@ -2,11 +2,13 @@
 title: Creare fatture di pagamento
 description: In questo argomento viene illustrato come creare fatture di leasing mensili. Puoi creare fatture per singoli leasing oppure utilizzare un processo batch per crearli per più leasing.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePaymentSchedule
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +17,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bc87c329f6f5dd9532b1319f8d88fbc41dcd4d14
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 303fb0e70530fdc29cb129736b01c0e0e8d02075
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344322"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969580"
 ---
 # <a name="create-payment-invoices"></a>Creare fatture di pagamento
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Puoi creare fatture mensili per singoli leasing oppure utilizzare un processo batch per crearli per più leasing. La procedura seguente mostra come creare una singola voce di canone di leasing quando il parametro **Paga a fornitore** nella pagina **Configurazione libro di leasing** è attivata.
 
@@ -41,8 +41,6 @@ Puoi creare fatture mensili per singoli leasing oppure utilizzare un processo ba
 5. Seleziona il giornale di registrazione corretto, quindi seleziona la fattura che deve essere pagata.
 
     Per questo esempio, il parametro **Paga a fornitore** sul libro dei leasing è attivato. Pertanto, la fattura sarà inclusa nel giornale di registrazione fatture. La sezione **Panoramica** mostra un riepilogo della scrittura contabile e la sezione **Righe** mostra i dettagli delle righe di giornale effettive.
-    
-   Il sistema blocca la modifica di determinati campi finanziari per evitare eventuali scostamenti tra le transazioni e le pianificazioni. Alcuni campi bloccati includono: **Conto**, **Importi**, **Dimensioni finanziarie**, **Valuta** e **Tipo di transazione**. Inoltre, non sarà possibile aggiungere o eliminare righe di scrittura contabile in nessuna scrittura contabile del leasing cespiti, poiché ciò potrebbe causare scostamenti tra le pianificazioni e le transazioni.
 
     > [!NOTE]
     > Se il parametro **Paga a fornitore** è disattivato, le scritture contabili dei pagamenti verranno elencate nella pagina **Leasing cespite** per il libro dei leasing e il sistema creerà una voce di leasing di cespite invece di una fattura. La voce di canone di leasing verrà registrata nel nome del giornale di registrazione specificato nel campo **Giornale di registrazione leasing mensile**.
@@ -50,6 +48,3 @@ Puoi creare fatture mensili per singoli leasing oppure utilizzare un processo ba
 6. Dopo la registrazione della transazione, puoi visualizzare le informazioni sulla transazione e il valore contabile dell'obbligazione sul leasing selezionando **Transazioni di passività** nel libro di leasing.
 
     Nello scadenzario dei pagamenti, verrà selezionata la casella di controllo **Giornale di registrazione registrato** e la riga mostrerà il numero di giornale di registrazione fattura. Dopo aver creato un giornale di registrazione pagamenti e una registrazione per quel giornale, è necessario stornare il movimento prima che possa essere ricreato.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

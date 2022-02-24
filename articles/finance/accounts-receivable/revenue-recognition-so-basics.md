@@ -2,23 +2,26 @@
 title: Riconoscimento ricavi negli ordini cliente
 description: In questo argomento viene descritta la funzionalità di base per il riconoscimento ricavi negli ordini cliente e nelle fatture. Il riconoscimento ricavi è disponibile nell'ordine cliente e nella fattura corrispondente creata dall'ordine cliente.
 author: kweekley
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1807e00f5f93bf9359da710af7c9a1f6de652e7ae78cf9604351af969b057b11
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752227"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459300"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Riconoscimento ricavi negli ordini cliente
 
@@ -36,7 +39,7 @@ In questo argomento viene descritta la funzionalità di base per il riconoscimen
 
 È stato inserito il seguente ordine cliente, che comprende tre articoli impostati per il riconoscimento ricavi.
 
-[![Inserire un ordine cliente.](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
+[![Inserire un ordine cliente](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
 
 Sono disponibili due concetti per il riconoscimento ricavi:
 
@@ -47,15 +50,15 @@ Sono disponibili due concetti per il riconoscimento ricavi:
 
     Il secondo articolo, S0008, è un articolo di tipo Assistenza impostato come articolo di supporto contratti registrati (PCS). I servizi di progettazione supportati vengono forniti al cliente per un periodo di 12 mesi. Di conseguenza, al prodotto viene assegnata una programmazione dei ricavi di **12M** per impostazione predefinita. Poiché l'articolo è di tipo PCS, occorre definire la data di inizio e fine del contratto. Per impostazione predefinita, le date di inizio e fine del contratto sono indicate nella scheda Impostazioni dei dettagli articolo. Nella programmazione dei ricavi viene specificata l'impostazione di **12M** in modo da inserire automaticamente i termini del contratto, come illustrato nella figura seguente.
 
-    [![Programmazione dei ricavi.](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
+    [![Programmazione dei ricavi](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
 
     Il terzo articolo, S0012, è di tipo hardware e per impostazione predefinita non viene assegnata alcuna programmazione dei ricavi. I ricavi per i componenti hardware vengono riconosciuti dopo la fatturazione dell'articolo.
 
 ## <a name="confirm-the-sales-order"></a>Confermare l'ordine cliente
 
-Per visualizzare ulteriori dettagli relativi al prezzo e alla programmazione dei ricavi, utilizzare i pulsanti nel gruppo **Riconoscimento ricavi** nella scheda **Gestisci** nel riquadro Azioni dell'ordine cliente. Poiché in questa fase l'ordine cliente non è confermato, i pulsanti utilizzati per il riconoscimento ricavi non sono disponibili. Questi pulsanti diventano disponibili o non disponibili durante l'elaborazione dell'ordine cliente fino alla fase di evasione.
+Per visualizzare ulteriori dettagli relativi al prezzo e alla programmazione dei ricavi, utilizzare i pulsanti nel gruppo **Riconoscimento ricavi** nella scheda **Gestisci** nel riquadro azioni dell'ordine cliente. Poiché in questa fase l'ordine cliente non è confermato, i pulsanti utilizzati per il riconoscimento ricavi non sono disponibili. Questi pulsanti diventano disponibili o non disponibili durante l'elaborazione dell'ordine cliente fino alla fase di evasione.
 
-[![Intestazione ordine cliente.](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
+[![Intestazione ordine cliente](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 
 I primi tre pulsanti forniscono dettagli relativi al prezzo dei ricavi per gli articoli nell'impostazione ordini cliente per il riconoscimento ricavi.
 
@@ -68,13 +71,13 @@ Gli ultimi due pulsanti forniscono dettagli relativi alla programmazione dei ric
 - **Programmazione prevista del riconoscimento ricavi**: questo pulsante diventa disponibile dopo aver confermato l'ordine cliente, ma non è più disponibile dopo la fatturazione. Si apre una pagina in cui viene visualizzata la programmazione dei ricavi prevista. La programmazione finale può cambiare poiché la programmazione prevista utilizza la data di spedizione richiesta, mentre la programmazione finale utilizza la data di spedizione effettiva.
 - **Programmazione del riconoscimento ricavi**: questo pulsante diventa disponibile dopo aver fatturato l'ordine cliente. La programmazione finale del riconoscimento ricavi non viene creata al momento della conferma o alla creazione di un documento di trasporto. Viene creata solo al momento della fatturazione dell'ordine cliente.
 
-Nell'esempio seguente, l'allocazione del prezzo dei ricavi si verifica alla conferma dell'ordine cliente. Anche se i prezzi dei ricavi vengono allocati in modo diverso, l'importo totale nel campo **Ricavi da riconoscere** deve essere comunque pari alla somma delle righe ordine cliente fatturate al cliente. Ad esempio, la somma delle righe ordine cliente, IVA esclusa, è pari a $1.499. Di conseguenza, anche la somma dei valori **Ricavi da riconoscere** deve essere pari a $ 1.499.
+Nell'esempio seguente, l'allocazione del prezzo dei ricavi si verifica alla conferma dell'ordine cliente. Anche se i prezzi dei ricavi vengono allocati in modo diverso, l'importo totale nel campo **Ricavi da riconoscere** deve essere comunque pari alla somma delle righe ordine cliente fatturate al cliente. Ad esempio, la somma delle righe ordine cliente, IVA esclusa, è pari a $1.499. Di conseguenza, anche la somma dei valori **Ricavi da riconoscere** deve essere pari a $1.499.
 
-[![Allocazione del prezzo dei ricavi.](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
+[![Allocazione del prezzo dei ricavi](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
 
-Viene creata anche la programmazione prevista del riconoscimento ricavi. La programmazione dei ricavi utilizza il valore **Ricavi da riconoscere** come importo da differire. Nell'articolo S0001 vengono differiti $321,21 anziché $300 e nell'articolo S0008 vengono differiti $160,61 anziché $100. L'articolo S0012 non viene visualizzato nella programmazione prevista poiché i ricavi non sono stati differiti. Al momento della registrazione, nell'articolo S0012 vengono registrati $ 1.017,18 direttamente nel conto CoGe dei ricavi.
+Viene creata anche la programmazione prevista del riconoscimento ricavi. La programmazione dei ricavi utilizza il valore **Ricavi da riconoscere** come importo da differire. Nell'articolo S0001 vengono differiti $321,21 anziché $300 e nell'articolo S0008 vengono differiti $160,61 anziché $100. L'articolo S0012 non viene visualizzato nella programmazione prevista poiché i ricavi non sono stati differiti. Al momento della registrazione, nell'articolo S0012 vengono registrati $1.017,18 direttamente nel conto CoGe dei ricavi.
 
-[![Programmazione prevista del riconoscimento ricavi.](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
+[![Programmazione prevista del riconoscimento ricavi](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
 
 ## <a name="create-the-packing-slip"></a>Creare il documento di trasporto
 
@@ -82,19 +85,16 @@ A questo punto, il documento di trasporto può essere creato per l'ordine client
 
 ## <a name="create-the-invoice"></a>Creare la fattura
 
-L'ultimo passaggio consiste nella fatturazione dell'ordine cliente. Considerando il giustificativo della fattura, si nota che i ricavi per gli articoli S0001 e S0008 sono stati differiti ($321,21 + 160,61 = 481,82) e che l'importo rimanente per l'articolo S0012 è stato registrato nei ricavi (1.017,18). Questi valori si aggiungono all'importo di $ 1.499, che corrisponde alla somma delle righe ordine cliente.
+L'ultimo passaggio consiste nella fatturazione dell'ordine cliente. Considerando il giustificativo della fattura, si nota che i ricavi per gli articoli S0001 e S0008 sono stati differiti ($321,21 + 160,61 = 481,82) e che l'importo rimanente per l'articolo S0012 è stato registrato nei ricavi (1.017,18). Questi valori si aggiungono all'importo di $1.499, che corrisponde alla somma delle righe ordine cliente.
 
-[![Transazioni giustificativo.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
+[![Transazioni giustificativo](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
 Dopo aver creato la fattura, diventano disponibili i pulsanti **Allocazione del prezzo dei ricavi**, **Riallocazione del prezzo con nuove righe ordine** e **Programmazione del riconoscimento ricavi** per la funzionalità di riconoscimento ricavi, ma i pulsanti **Aggiornamento dell'allocazione del prezzo dei ricavi** e **Programmazione prevista del riconoscimento ricavi** non sono disponibili.
 
-[![Disponibilità del pulsante per il riconoscimento ricavi.](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
+[![Disponibilità del pulsante per il riconoscimento ricavi](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
 Il pulsante **Allocazione del prezzo dei ricavi** è ancora disponibile per visualizzare il calcolo del prezzo dei ricavi. Se dopo la conferma dell'ordine cliente non si è verificata alcuna variazione, la registrazione della fattura non modifica l'importo calcolato nel campo **Ricavi da riconoscere**.
 
 La programmazione prevista del riconoscimento ricavi viene rimossa e sostituita con la programmazione finale del riconoscimento ricavi. I dettagli della programmazione dei ricavi vengono gestiti per ogni riga ordine cliente e utilizzati per rilasciare i ricavi differiti sui ricavi effettivi quando gli obblighi contrattuali sono soddisfatti.
 
-[![Programmazione finale del riconoscimento ricavi.](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Programmazione finale del riconoscimento ricavi](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)

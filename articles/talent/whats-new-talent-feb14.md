@@ -52,6 +52,3 @@ In questa versione, è stata apportata una modifica per correggere l'errato alli
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Nuova entità creata per i livelli di retribuzione delle mansioni
 È stata creata una nuova entità DMF (Data Management Framework). Questa entità consente la creazione e l'aggiornamento di livelli retributivi, valori di mercato e informazioni per ogni mansione definita nel sistema.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

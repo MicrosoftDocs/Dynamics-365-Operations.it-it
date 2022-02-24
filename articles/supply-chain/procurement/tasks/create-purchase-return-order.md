@@ -1,24 +1,26 @@
 ---
 title: Creare un ordine di reso acquisti
 description: Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azione Nota di accredito per copiare le righe da un documento di fattura fornitore ad un nuovo PO.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea0d227966b69063993acf14e68cd069681357f1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569411"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017061"
 ---
 # <a name="create-a-purchase-return-order"></a>Creare un ordine di reso acquisti
 
@@ -65,6 +67,3 @@ Questa procedura vi mostra come creare un ordine di reso acquisti usando l'azion
 4. Nel campo **Entrata prodotti**, digitare un valore. Questo campo è usato per immettere un riferimento che sarà usato come giustificativo per il giornale di registrazione entrata prodotti.  
 5. Fare clic su **OK**. Le merci ora sono state registrate come spedite sull'ordine di reso acquisti e un giornale di registrazione entrata prodotti è stato creato. Potete usare l'azione Entrata prodotti per esaminare i giornali di registrazione creati con l'ordine fornitore e vedere che cosa è stato ricevuto o restituito e quando.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

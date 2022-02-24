@@ -1,24 +1,27 @@
 ---
 title: Aggiungere criteri di calcolo di quantità kanban a una regola kanban
 description: Questa procedura riguarda la creazione dei criteri di calcolo della quantità kanban e la relativa aggiunta a una regola kanban per ottimizzare la dimensione e le quantità kanban.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules, KanbanQuantityCalculation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a844d455b1e583f234ddc47280f5cac8ee0ab852
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 039c4aaa355cf2b850ded06913e8e39ee8cac543
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579282"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430881"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Aggiungere criteri di calcolo di quantità kanban a una regola kanban
 
@@ -60,6 +63,3 @@ Questa procedura riguarda la creazione dei criteri di calcolo della quantità ka
 8. Nell'elenco fare clic sul collegamento nella riga selezionata.
     * Selezionare il criterio Speaker2016 creato nella sottoattività precedente.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

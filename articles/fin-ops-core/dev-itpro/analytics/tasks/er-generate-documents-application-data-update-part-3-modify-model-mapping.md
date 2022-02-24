@@ -1,10 +1,12 @@
 ---
 title: Modificare i modelli e i mapping per generare documenti che contengono dati dell'applicazione
-description: Questo argomento descrive come progettare le configurazioni di creazione di report per generare un documento elettronico e aggiornare i dati dell'applicazione. (Parte 2 - Generare documenti).
+description: "Per completare i passaggi di questa procedura, è necessario completare la procedura \"ER Generare documenti con l'aggiornamento dei dati dell'applicazione (Parte 2: Generare documenti)\"."
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d7df46bab244d11509b86a27eeed3c2725400b5eb4d0fbf50af1750e7de45d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745890"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684573"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modificare i modelli e i mapping per generare documenti che contengono dati dell'applicazione
 
@@ -166,6 +168,3 @@ I passaggi di questa procedura descrivono come progettare le configurazioni ER p
 66. Chiudere la pagina.
 67. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

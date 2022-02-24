@@ -1,218 +1,191 @@
 ---
-title: Unità di scala in una topologia ibrida distribuita
+title: Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 description: Questo argomento fornisce informazioni sulle unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino.
 author: cabeln
-ms.date: 04/22/2021
+manager: ''
+ms.date: 10/06/2020
 ms.topic: article
-ms.search.form: ScaleUnitWorkloadsWorkspace
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.region: Global
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: SCM
 ms.author: cabeln
-ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.search.validFrom: 2020-09-23
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 3a23ee452535423684c6d210a448ee768379fa08
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065766"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516816"
 ---
-# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unità di scala in una topologia ibrida distribuita
+# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-> [!IMPORTANT]
-> La funzionalità di unità di scala per Microsoft Dynamics 365 Supply Chain Management è disponibile in base ai termini che regolano l'utilizzo del servizio. Per ulteriori informazioni, vedere [Informazioni legali di Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
->
-> Quando abiliti le unità di scala nel cloud e nella rete perimetrale, ti viene richiesto di dichiarare di comprendere che alcuni dati correlati alla configurazione e all'elaborazione di unità di scala nel cloud e nella rete perimetrale potrebbero essere archiviati in un data center situato negli Stati Uniti. Per ulteriori informazioni sull'elaborazione dei dati per le unità di scala nel cloud e nella rete perimetrale, vedere la sezione [Elaborazione dati durante la gestione di unità scala](#data-processing-management) in questo argomento.
-
-## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Proposta di valori di base per una topologia ibrida distribuita
-
-Le aziende che lavorano con la produzione e la distribuzione devono essere in grado di eseguire processi aziendali chiave 24 ore su 24, 7 giorni su 7, senza interruzioni e su larga scala. Una topologia ibrida distribuita consente alle aziende di eseguire processi di produzione e magazzino cruciali senza interruzioni, anche di fronte a problemi di latenza o di connettività di rete occasionali.
-
-Una topologia ibrida distribuita introduce il concetto di *unità di scala*, che consente la distribuzione dei carichi di lavoro di esecuzione del reparto produzione e del magazzino tra ambienti diversi. Questa funzionalità può aiutare a migliorare le prestazioni, prevenire le interruzioni del servizio e massimizzare il tempo di attività. Le unità di scala vengono fornite tramite i seguenti componenti aggiuntivi per l'abbonamento a Supply Chain Management:
+Le unità di scala nel cloud e nella rete perimetrale consentono la distribuzione dei carichi di lavoro di esecuzione nel reparto produzione e nel magazzino tra ambienti diversi. Questa funzionalità può aiutare a migliorare le prestazioni, prevenire le interruzioni del servizio e massimizzare il tempo di attività. È fornita dai componenti aggiuntivi seguenti:
 
 - Componente aggiuntivo unità di scala nel cloud per Dynamics 365 Supply Chain Management
 - Componente aggiuntivo unità di scala nella rete perimetrale per Dynamics 365 Supply Chain Management
 
-Le funzionalità del carico di lavoro vengono rilasciate su base continua attraverso miglioramenti incrementali.
+Le aziende che lavorano con la produzione e la distribuzione devono essere in grado di eseguire processi aziendali chiave 24 ore su 24, 7 giorni su 7, senza interruzioni e su larga scala. Le unità di scala nel cloud e nella rete perimetrale consentono alle aziende di eseguire processi di produzione e magazzino cruciali senza interruzioni, anche di fronte a problemi di latenza o di connettività di rete occasionali.
+
+## <a name="public-preview-information"></a>Informazioni sull'anteprima pubblica
+
+L'anteprima fornisce un ambiente che funziona come un hub basato sul cloud dell'ambiente Dynamics 365 Supply Chain Management in uso e un ambiente che funziona come un'unità di scala nel cloud.
+
+<!-- You will also be able to use Local Business Data (LBD) to configure an on-premises environment as an edge scale unit for the hub you received as part of the preview program.-->
+
+### <a name="preview-availability"></a>Disponibilità dell'anteprima
+
+L'anteprima per le unità di scala nel cloud e nella rete perimetrale diventa disponibile per i clienti esistenti di Supply Chain Management nell'ottobre 2020.
+
+Per accedere alla versione di anteprima 10.0.15/aggiornamento piattaforma 39 di ottobre per la distribuzione nell'ambiente [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2) in uso, è necessario partecipare al programma PEAP (Preview Early Access Program) per Supply Chain Management. È possibile iscriversi al programma PEAP se si è già membri del più ampio [Dynamics Insider Program](https://experience.dynamics.com/insider). È sufficiente selezionare il programma specifico denominato "Finance & Operations: Preview early access program (PEAP)".
+
+> [!IMPORTANT]
+> La funzionalità di unità di scala per Supply Chain Management è disponibile solo se si accettano le [condizioni per l'anteprima cloud + rete perimetrale per Finance and Operations](https://Aka.ms/SCMCnETerms).
+
+### <a name="data-processing-for-the-preview"></a>Elaborazione dati per l'anteprima
+
+Durante l'anteprima pubblica, alcuni servizi di gestione saranno ospitati solo negli Stati Uniti. Tuttavia, quando la funzionalità sarà disponibile a livello generale, questi servizi di gestione saranno disponibili in tutte le aree geografiche supportate da Supply Chain Management. Ciò influisce sul trasferimento e l'archiviazione delle informazioni amministrative utilizzate dal responsabile dell'unità di scala, tra cui:
+
+- Nome e ID dei tenant
+- ID del progetto LCS
+- Indirizzi e-mail dell'amministratore utilizzati per l'accesso
+- ID ambiente per hub e unità di scala
+- Configurazione dei carico di lavoro
+- Metriche raccolte (come latenza e velocità effettiva) visualizzate nella pagina di analisi della mappa
+
+I dati trasferiti e archiviati nei data center degli Stati Uniti verranno eliminati quando gli ambienti di anteprima verranno chiusi.
+
+### <a name="sign-up-for-the-preview"></a>Iscriversi all'anteprima
+
+Per iscriversi all'anteprima per il cloud e per la rete perimetrale per Supply Chain Management, l'organizzazione deve già disporre di un ambiente cloud di Supply Chain Management attivo.
+
+Le funzionalità di unità di scala sono attualmente in anteprima pubblica. Per l'iscrizione, è necessario utilizzare un account utente sul tenant specifico. È necessario anche essere un proprietario del progetto o un amministratore dell'ambiente in LCS per un progetto Dynamics 365 LCS attivo in quel tenant.
+
+Durante l'iscrizione per l'anteprima, selezionare un tenant e seguire i passaggi indicati. Non appena Microsoft potrà allocare la funzionalità di anteprima, invieremo all'utente un messaggio di posta elettronica che include i dettagli di provisioning e i codici promozionali (promo) per due ambienti (un hub e un'unità di scala) per il progetto LCS appropriato. Sarà quindi possibile distribuire i due ambienti come ambienti sandbox di livello 2. Tali ambienti saranno validi 60 giorni dalla data di creazione dei codici promozionali. Non sarà possibile utilizzare i due ambienti fino al completamento del passaggio descritto nel paragrafo successivo.
+
+Dopo aver confermato con Microsoft che i due ambienti sono stati distribuiti utilizzando i codici promozionali, uno degli ambienti verrà configurato per funzionare come hub e l'altro sarà configurato per funzionare come unità di scala. È quindi possibile configurare le unità di scala e distribuire la gestione del magazzino selezionata e i carichi di lavoro di produzione utilizzando il [portale di gestione delle unità di scala](https://aka.ms/SCMSUM).
+
+Gli ambienti di anteprima verranno eliminati automaticamente dopo 60 giorni. Tuttavia, potrebbero essere eliminati prima se sembra che non vengano utilizzati. Dopo che gli ambienti di anteprima sono stati eliminati, è possibile registrarsi e mettersi in coda per una nuova distribuzione in anteprima.
+
+Per registrarsi per l'anteprima, andare al [portale di gestione delle unità di scala](https://aka.ms/SCMSUM).
+
+### <a name="limitations-that-apply-during-the-preview-period"></a>Limitazioni che si applicano durante il periodo di anteprima
+
+> [!IMPORTANT]
+> Per la fase iniziale del programma di anteprima per questa funzionalità, Microsoft supporta solo hub con unità di scala nel cloud, non hub con unità di scala nella rete perimetrale. Le unità di scala nella rete perimetrale vengono installate in locale e si prevede che diventino disponibili durante una fase imminente del programma.
+
+Poiché le unità di scala nel cloud e nella rete perimetr ale sono una funzionalità di anteprima, i servizi correlati sono attualmente disponibili in paesi e regioni limitati. Abilitando le unità di scala nel cloud e nella rete perimetrale, l'utente dichiara di comprendere che alcuni dati correlati alla configurazione e all'elaborazione di unità di scala nel cloud e nella rete perimetrale potrebbero essere archiviati in un data center situato negli Stati Uniti. Se si abilitano le unità di scala nel cloud e nella rete perimetrale, si accettano anche le [condizioni per l'anteprima cloud + rete perimetrale per Finance and Operations](https://Aka.ms/SCMCnETerms). Per ulteriori informazioni sulle unità di scala nel cloud e nella rete perimetrale, vedere la [documentazione](https://aka.ms/scmcne).
+
+La privacy degli utenti è importante per Microsoft. Per ulteriori informazioni, leggere l'[Informativa sulla privacy](https://aka.ms/privacy) di Microsoft.
+
+> [!IMPORTANT]
+> Alcune funzionalità aziendali non sono completamente supportate nell'anteprima pubblica quando i carichi di lavoro vengono utilizzati nelle unità di scala. Per ulteriori informazioni sui carichi di lavoro funzionali, vedere le sezioni più avanti in questo argomento.
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Unità di scala e carichi di lavoro dedicati
 
-Le unità di scala estendono l'ambiente centrale dell'hub di Supply Chain Management aggiungendo capacità di elaborazione dedicata. Le unità di scala possono essere eseguite nel cloud. In alternativa, possono essere eseguite nella rete perimetrale nelle strutture locali dell'utente.
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 con unità di scala":::
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 con unità di scala.":::
+Le unità di scala estendono l'ambiente centrale dell'hub di Supply Chain Management aggiungendo capacità di elaborazione dedicata. Le unità di scala possono essere eseguite nel cloud. In alternativa, possono essere eseguite nella rete perimetrale nelle strutture locali dell'utente. Le unità di scala possono essere temporaneamente scollegate dall'ambiente hub. Quando sono connesse, le unità di scala ricevono tutte le informazioni necessarie per eseguire l'elaborazione dedicata per i carichi di lavoro assegnati.
 
-Le unità di scala forniscono resilienza, affidabilità e scalabilità per i carichi di lavoro assegnati. Le unità di scala nelle reti perimetrali possono essere temporaneamente disconnesse dall'ambiente hub cloud e i lavoratori continuano a lavorare nei carichi di lavoro assegnati sulla rete perimetrale.
+:::image type="content" source="media/cloud_edge-previewoptions.png" alt-text="Opzioni di unità di scala nell'anteprima pubblica":::
 
-Un *carico di lavoro* è un insieme definito di funzionalità aziendali che può essere scomposto e delegato a un'unità di scala. Sebbene il carico di lavoro per la gestione del magazzino sia stato rilasciato, il carico di lavoro per l'esecuzione della produzione è ancora in anteprima.
+Per l'anteprima pubblica, è possibile configurare un ambiente hub con carichi di lavoro selezionati su un'unità di scala nel cloud tramite il portale di gestione delle unità di scala. I partecipanti all'anteprima che hanno accesso a un ambiente locale di dati aziendali locali (LBD) possono anche configurare l'ambiente LBD come unità di scala nella rete perimetrale.
 
-È possibile configurare l'ambiente hub utilizzato e le unità di scale nel cloud per carichi di lavoro selezionati utilizzando il [portale di gestione delle unità di scala](https://sum.dynamics.com). È anche possibile assegnare più carichi di lavoro per unità di scala. Per informazioni sui prerequisiti e sui limiti per le unità di scala nel cloud nella versione corrente, vedere la sezione [Prerequisiti e limitazioni per le unità di scala nel cloud](#cloud-scale-unit-prerequisites) più avanti in questo argomento.
+Un carico di lavoro è un insieme definito di funzionalità aziendali che può essere scomposto e delegato a un'unità di scala. Attualmente, le funzionalità di anteprima presentano due tipi di carichi di lavoro:
 
-### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Funzionalità di carico di lavoro di gestione del magazzino dedicate in un'unità di scala
+- Esecuzione produzione
+- Gestione magazzino
 
-Il carico di lavoro di gestione del magazzino è il primo carico di lavoro distribuito per unità di scala ad essere rilasciato per la disponibilità generale. Consente alle operazioni di magazzino di essere ridimensionate ed eseguite in un ambiente resiliente utilizzando finestre di manutenzione isolate. Il carico di lavoro di gestione del magazzino supporta la maggior parte dei processi di gestione del magazzino degli hub aziendali. Per ulteriori informazioni, vedere [Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](cloud-edge-workload-warehousing.md).
+È possibile assegnare un carico di lavoro per tipo per unità di scala. 
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Funzionalità di carico di lavoro di esecuzione della produzione dedicate in un'unità di scala
 
-Il carico di lavoro di produzione offre le seguenti funzionalità:
+Per l'esecuzione della produzione, le unità di scala nel cloud e nella rete perimetrale offrono le seguenti funzionalità, anche quando le unità della rete perimetrale non sono connesse al cloud:
 
 - Gli operatori macchine e i supervisori del reparto di produzione possono accedere al piano di produzione operativo.
 - Gli operatori possono mantenere il piano aggiornato eseguendo lavori di produzione discreti e di elaborazione.
 - Il supervisore del reparto di produzione può modificare il piano operativo.
 - I lavoratori possono accedere alle funzionali di orario e presenze per l'entrata e l'uscita dalla rete perimetrale per garantire il corretto calcolo della retribuzione.
 
-Per ulteriori informazioni, vedere [Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale](cloud-edge-workload-manufacturing.md).
+Per ulteriori informazioni, vedere i [dettagli sul carico di lavoro delle unità di scala di produzione](cloud-edge-workload-manufacturing.md).
 
-## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Considerazioni prima di abilitare la topologia ibrida distribuita per Supply Chain Management
+### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Funzionalità di carico di lavoro di gestione del magazzino dedicate in un'unità di scala
 
-Abilitando la topologia ibrida distribuita, si esegue la transizione dell'ambiente cloud di Supply Chain Management in modo che funzioni come hub. È inoltre possibile associare ambienti aggiuntivi configurati come unità di scala nel cloud o nella rete perimetrale.
+Per la gestione del magazzino, le unità di scala nel cloud e nella rete perimetrale offrono le seguenti funzionalità, anche quando le unità della rete perimetrale non sono connesse al cloud:
 
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Prerequisiti e limiti per unità di scala nel cloud
+- L'elaborazione dei metodi di ciclo selezionati è abilitata per gli ordini cliente e il rifornimento della domanda.
+- Gli addetti al magazzino possono eseguire le vendite e il lavoro di rifornimento del magazzino in base alla domanda utilizzando l'app di magazzino.
+- Gli addetti al magazzino possono richiedere informazioni sulle scorte disponibili utilizzando l'app di magazzino.
+- Gli addetti al magazzino possono creare ed eseguire movimenti di scorte utilizzando l'app di magazzino.
+- Gli addetti al magazzino possono registrare gli ordini fornitore ed eseguire lo stoccaggio utilizzando l'app di magazzino.
 
-Nella versione corrente per le unità di scala, alcune funzionalità non sono ancora disponibili ma potrebbero essere aggiunte in versioni incrementali nel tempo.
+Per ulteriori informazioni, vedere i [dettagli sul carico di lavoro delle unità di scala di magazzino](cloud-edge-workload-warehousing.md).
 
-#### <a name="you-must-be-a-licensed-customer-of-supply-chain-management"></a>È necessario essere un cliente con licenza di Supply Chain Management
+## <a name="onboard-scale-units-for-your-supply-chain-management-environment"></a>Eseguire l'onboarding di unità di scala per l'ambiente di Supply Chain Management in uso
 
-Per eseguire l'onboarding alla topologia distribuita, si deve disporre di una licenza per Supply Chain Management. L'ambiente cloud esistente diventerà l'hub della topologia ibrida utilizzata. È possibile dichiarare sia gli ambienti sandbox che gli ambienti di produzione come ambienti hub e aggiungere unità di scala in base ai componenti aggiuntivi acquisiti.
+### <a name="deploy-the-preview-for-cloud-and-edge-scale-units"></a>Distribuire l'anteprima per unità di scala nel cloud e nella rete perimetrale
 
-#### <a name="your-existing-project-must-be-administered-via-the-global-commercial-version-of-lcs"></a>Il progetto esistente deve essere amministrato tramite la versione commerciale globale di LCS
+La figura seguente mostra il flusso di registrazione e provisioning per l'anteprima pubblica per le unità di scala nel cloud.
 
-Il progetto Microsoft Dynamics Lifecyle Services (LCS) esistente deve soddisfare i seguenti requisiti di versione:
+:::image type="content" source="media/cloud_edge-previewsignup.png" alt-text="Passaggi di registrazione all'anteprima":::
 
-- Il progetto deve essere amministrato tramite la versione commerciale globale di LCS nel sito [lcs.dynamics.com](https://lcs.dynamics.com).
-- Versioni locali di LCS (come [eu.lcs.dynamics.com](https://eu.lcs.dynamics.com) e [fr.lcs.dynamics.com](https://fr.lcs.dynamics.com)) non sono supportate.
-- Le versioni cloud per enti governativi di LCS non sono supportate.
-- La versione Mooncake di LCS non è supportata.
+### <a name="select-your-lcs-project-tenant-and-the-detailed-preview-process"></a>Seleziona il tenant del progetto LCS e il processo di anteprima dettagliato
 
-#### <a name="your-current-production-environment-must-be-of-the-self-service-type-in-lcs"></a>L'ambiente di produzione corrente deve essere di tipo Self-Service in LCS
+Nell'anteprima pubblica, il [portale di gestione delle unità di scala](https://aka.ms/SCMSUM) mostra l'elenco dei tenant di cui fa parte l'account in uso e in cui l'utente è proprietario o amministratore dell'ambiente per un progetto LCS.
 
-L'ambiente di produzione corrente deve essere contrassegnato con il tipo **Self service** in LCS. Questo tipo indica che il tenant del progetto LCS è già stato convertito in modo che supporti il modello di hosting Azure Service Fabric.
-
-> [!IMPORTANT]
-> I tipi di ambiente che vengono eseguiti come infrastruttura distribuita come servizio (IaaS) non sono supportati. Questi ambienti sono tipicamente contrassegnati con il tipo **Gestito da Microsoft** in LCS. Se si dispone di ambienti di questo tipo, collaborare con il contatto Microsoft per comprendere la cronologia della migrazione al tipo **Self service**.
-
-Microsoft sta eseguendo la transizione di tutti gli ambienti cloud di Supply Chain Management da un modello IaaS a una topologia ospitata in Service Fabric. Questa transizione offre una migliore scalabilità e aiuta a semplificare la gestione dei servizi. Pertanto, le operazioni di distribuzione e manutenzione sono più veloci. Allo stesso modo, i componenti del servizio vengono migrati al concetto di microservizi e il modello di hosting del servizio [eseguirà la transizione](/virtualization/windowscontainers/about/containers-vs-vm) da un modello di macchina virtuale (VM) a un'architettura containerizzata leggera.
-
-Infine, la stessa infrastruttura di servizi containerizzata basata su Service Fabric alimenterà le istanze del servizio nel cloud e nella rete perimetrale, indipendentemente dal fatto che un'istanza sia un hub nel cloud o un'unità di scala nel cloud o nella rete perimetrale.
-
-Prima di poter eseguire l'onboarding alla topologia ibrida che supporta le unità di scala, è necessario eseguire la transizione del tenant del progetto al modello ospitato da Service Fabric. Inoltre, qualsiasi ambiente che fungerà da hub deve essere convertito.
-
-> [!TIP]
-> Per informazioni sullo stato del tenant del progetto LCS, cercare il tipo di ambiente in [LCS](https://lcs.dynamics.com/) oppure contattare il partner o il contatto Microsoft.
-
-#### <a name="local-business-data-on-premises-environments-arent-supported-as-hubs-for-scale-units"></a>Gli ambienti di dati aziendali locali non sono supportati come hub per le unità di scala
-
-Gli ambienti locali non possono funzionare come hub per le unità di scala. Gli ambienti hub devono essere sempre ospitati nel cloud.
-
-#### <a name="scale-unit-management-capabilities-are-limited"></a>Le funzionalità di gestione delle unità di scala sono limitate
-
-Le funzionalità di gestione che possono aiutare nello spostamento di carichi di lavoro sono limitate. Alcune operazioni di gestione non sono supportate in modalità self-service ed è possibile che sia necessario richiedere supporto tramite il partner o il contatto Microsoft. Gli esempi includono alcuni movimenti di carichi di lavoro tra unità di scala e movimenti ad-hoc temporanei in scenari di emergenza.
-
-#### <a name="metrics-and-measurements-arent-yet-available"></a>Metriche e misurazioni non sono ancora disponibili
-
-Le metriche e le misure che potrebbero essere utili nella selezione della migliore applicazione per le unità di scala non sono ancora disponibili. Collaborare con il contatto Microsoft o il partner di implementazione per selezionare l'applicazione più vantaggiosa.
-
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Elaborazione dati durante la gestione di unità di scala
-
-Quando si abilita l'ambiente Dynamics 365 per supportare la topologia ibrida distribuita per unità di scale nel cloud e nella rete perimetrale, alcuni servizi di gestione saranno ospitati solo negli Stati Uniti, come con LCS. Questo comportamento influisce sul trasferimento e sulla risorsa di archiviazione di alcune informazioni amministrative e di configurazione utilizzate dal [portale di gestione delle unità di scala](https://sum.dynamics.com). Di seguito sono riportati alcuni esempi.
-
-- Nome e ID dei tenant
-- ID del progetto LCS
-- Indirizzi di posta elettronica dell'amministratore e del proprietario del progetto utilizzati per l'accesso
-- ID ambiente per l'hub e le unità di scala
-- Configurazioni del carico di lavoro, inclusi i nomi e gli indirizzi fisici di persone giuridiche e strutture, in modo che la topologia possa essere visualizzata su una mappa geografica
-- Metriche raccolte (come latenza e velocità effettiva) che verranno mostrate nella pagina di analisi della mappa per aiutare a selezionare l'uso più vantaggioso delle unità di scala
-
-I dati trasferiti e archiviati nei data center degli Stati Uniti verranno eliminati in base ai criteri di conservazione dei dati di Microsoft. La privacy degli utenti è importante per Microsoft. Per ulteriori informazioni, leggere l'[Informativa sulla privacy](https://go.microsoft.com/fwlink/?LinkId=521839) di Microsoft.
-
-## <a name="onboarding-in-two-stages"></a>Onboarding in due fasi
-
-Il processo di onboarding nella topologia ibrida distribuita prevede due fasi. Durante la prima fase, è necessario convalidare le personalizzazioni per assicurarsi che funzionino nella topologia distribuita con unità di scala. Gli ambienti sandbox e di produzione vengono spostati solo durante la seconda fase.
-
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Fase 1: valutare le personalizzazioni in ambienti di sviluppo one-box
-
-Prima di iniziare a eseguire l'onboarding degli ambienti sandbox o di produzione, è consigliabile esplorare le unità di scala in una configurazione di sviluppo, come un ambiente one-box (noto anche come ambiente di livello 1), in modo da poter convalidare processi, personalizzazioni e soluzioni. Durante questa fase, i dati e le personalizzazioni verranno applicati agli ambienti one-box. Un ambiente assume il ruolo dell'hub e l'altro assume il ruolo di unità di scala. Questa configurazione fornisce il modo migliore per identificare e risolvere i problemi. L'ultima build PEAP può essere utilizzata anche per completare questa fase.
-
-Per la fase 1, si deve usare gli [strumenti di distribuzione delle unità di scala per ambienti di sviluppo one-box](https://github.com/microsoft/SCMScaleUnitDevTools). Questi strumenti consentono di configurare hub e unità di scala in uno o due ambienti one-box distinti. Gli strumenti sono forniti come versione binaria e nel codice sorgente su GitHub. Esaminare il wiki del progetto, che include una [guida d'uso dettagliata](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) che descrive come vengono utilizzati gli strumenti.
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Fase 2: acquisire componenti aggiuntivi ed eseguire la distribuzione in ambienti sandbox e di produzione
-
-Per eseguire l'onboarding di uno degli ambienti sandbox o di produzione alla nuova topologia, è necessario acquisire componenti aggiuntivi per una o più unità di scala nel cloud (e, in futuro, per unità di scala nella rete perimetrale). I componenti aggiuntivi garantiranno gli slot di progetto e ambiente corrispondenti in [LCS](https://lcs.dynamics.com/) in modo che gli ambienti delle unità di scala possano essere distribuiti.
-
-> [!NOTE]
-> I componenti aggiuntivi delle unità di scala non sono associati a un numero limitato di utenti ma possono essere utilizzati da qualsiasi utente nella sottoscrizione esistente, in base ai ruoli assegnati dall'amministratore.
-
-Le unità di scala sono offerte in più unità di stockkeeping (SKU) e opzioni per la determinazione dei prezzi. Pertanto, è possibile scegliere l'opzione che meglio soddisfa il volume di transazioni mensili pianificato e i requisiti di prestazioni.
-
-Lo SKU semplice è noto come *Base* e lo SKU più efficace è noto come *Standard*. Ogni SKU è precaricato con un numero specifico di transazioni mensili. Tuttavia, è possibile aumentare il budget mensile delle transazioni aggiungendo componenti aggiuntivi in eccesso per ogni SKU.
-
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Componente aggiuntivo per unità di scala nel cloud.":::
-
-> [!TIP]
-> Per identificare il dimensionamento che meglio soddisfa le proprie esigenze, collaborare con il partner e Microsoft per comprendere la dimensione della transazione mensile richiesta.
-
-L'acquisto di ogni componente aggiuntivo di unità di scala non solo fornisce un volume mensile di transazioni, ma dà anche diritto a un numero specifico di slot di ambiente in LCS. Per ogni componente aggiuntivo Unità di scala nel cloud, si ha diritto a un nuovo slot di produzione e un nuovo slot sandbox. Durante il processo di onboarding, verrà aggiunto un nuovo progetto LCS con questi slot. I diritti di utilizzo per gli slot sono vincolati di modo che gli slot debbano essere usati come unità di scala che dispongono di un hub cloud.
-
-I componenti aggiuntivi in eccesso non danno diritto a nuovi slot di ambiente.
-
-Se si desidera acquisire più ambienti sandbox, è possibile acquistare slot sandbox normali aggiuntivi. Microsoft può quindi fornire assistenza per abilitare quegli slot come unità di scala sandbox per la topologia ibrida.
-
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Eseguire l'onboarding alla topologia ibrida distribuita per Supply Chain Management
-
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Selezionare il tenant del progetto LCS e il processo di onboarding dettagliato
-
-Dopo aver finito di pianificare il modo in cui eseguire l'onboarding alla topologia ibrida distribuita per Supply Chain Management, si utilizzerà il [portale di gestione delle unite di scala](https://aka.ms/SCMSUM) per iniziare il processo di onboarding. Nel portale, selezionare la scheda **Tenant di Dynamics 365**. Questa scheda mostra l'elenco dei tenant di cui fa parte l'account in uso e in cui l'utente è proprietario o amministratore dell'ambiente per un progetto LCS.
-
-Se il tenant cercato non è nell'elenco, andare a [LCS](https://lcs.dynamics.com/v2) e verificare di essere un amministratore dell'ambiente o un proprietario del progetto LCS per quel tenant. Solo gli account Azure Active Directory (Azure AD) del tenant selezionato sono autorizzati a completare la registrazione.
+Se il tenant cercato non è in questo elenco, andare a [LCS](https://lcs.dynamics.com/v2) e verificare di essere un amministratore dell'ambiente o un proprietario del progetto LCS per quel tenant. Si noti che solo gli account Azure Active Directory (Azure AD) del tenant selezionato sono autorizzati a completare la registrazione.
 
 > [!NOTE]
 > Dopo aver applicato le modifiche a LCS, potrebbero essere necessari fino a 30 minuti perché l'elenco di tenant rifletta le modifiche.
 
-Per ogni tenant, l'elenco mostra lo stato dell'onboarding.
+Per ogni tenant, l'elenco mostra lo stato di registrazione.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Elenco di tenant nella scheda Tenant di Dynamics 365.":::
+:::image type="content" source="media/cloud_edge-Signup1.png" alt-text="Opzione di registrazione per un tenant":::
 
-Selezionare **Clicca qui per iniziare** per richiedere l'onboarding per il tenant LCS. È necessario accettare le condizioni. È inoltre necessario fornire un indirizzo e-mail aziendale a cui Microsoft possa inviare comunicazioni correlate al processo di onboarding.
+Selezionare il collegamento **Fai clic per registrarti** per consentire al tenant LCS di partecipare all'anteprima. È necessario accettare le condizioni. È inoltre necessario fornire un indirizzo e-mail aziendale a cui Microsoft possa inviare comunicazioni correlate al processo di registrazione per l'anteprima.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Invio registrazione per un tenant.":::
+:::image type="content" source="media/cloud_edge-Signup2.png" alt-text="Invio registrazione per un tenant":::
 
-Microsoft esaminerà la richiesta e informerà l'utente sui passaggi successivi inviando un messaggio e-mail all'indirizzo che fornito nel modulo di registrazione. Microsoft lavorerà a stretto contatto con il cliente per abilitare le unità di scala nella topologia ibrida per lo scenario aziendale.
+Microsoft esaminerà la richiesta e informerà l'utente sui passaggi successivi inviando un messaggio e-mail all'indirizzo che fornito nel modulo di registrazione.
 
-Al termine dell'onboarding, è possibile utilizzare la porta per configurare unità di scala e carichi di lavoro.
+Dopo aver ottenuto l'accesso al programma di anteprima, l'utente riceverà due codici promozionali per il progetto LCS. È ora possibile utilizzare questi codici promozionali per distribuire due ambienti in LCS. Gli ambienti devono utilizzare il programma PEAP, versione 10.0.15 o successiva. Dopo aver completato l'applicazione dei codici promozionali, avvisare Microsoft (come indicato), in modo che possa completare l'abilitazione degli ambienti per le funzionalità di anteprima. Microsoft avviserà l'utente quando questo passaggio di configurazione sarà completato.
 
-### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gestire unità di scala e carichi di lavoro utilizzando il portale di gestione delle unità di scala
+È ora possibile iniziare a configurare unità di scala e carichi di lavoro nell'ambiente di anteprima.
+
+> [!IMPORTANT]
+> Quando si configurano le unità di scala nel cloud, è possibile [eseguire tutti i passaggi richiesti nel portale di gestione delle unità di scala](#scale-unit-manager-portal).
+<!-- >
+> If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
+
+### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Gestire unità di scala e carichi di lavoro utilizzando il portale di gestione delle unità di scala
 
 Andare al [portale di gestione delle unità di scala](https://aka.ms/SCMSUM) e iscriversi con il proprio account tenant. Nella pagina **Configura unità di scala** è possibile aggiungere un ambiente hub, se non è ancora elencato. È quindi possibile selezionare l'hub che si desidera configurare con unità di scala e carichi di lavoro.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Portale di gestione delle unità di scala, pagina Configura unità di scala.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Gestione di unità di scala e carichi di lavoro":::
 
-Per aggiungere una o più unità di scala disponibili nelle sottoscrizioni, selezionare **Aggiungi unità di scala**.
+Per aggiungere una o più unità di scala disponibili nella topologia, selezionare **Aggiungi unità di scala**. Nell'anteprima, è possibile visualizzare l'unità di scala nel cloud distribuita da uno dei codici promozionali ricevuto come parte del programma di anteprima.
 
-Nella scheda **Carichi di lavoro predefiniti**, utilizzare il pulsante **Crea carico di lavoro** per aggiungere un carico di lavoro di gestione del magazzino a una delle unità di scala. Per ogni carico di lavoro, è necessario specificare il contesto dei processi che saranno di proprietà del carico di lavoro stesso. Per i carichi di lavoro di gestione del magazzino, il contesto è un magazzino specifico in un sito e in una persona giuridica specifici.
+<!-- > [!IMPORTANT]
+> In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Finestra di dialogo Definisci carichi di lavoro.":::
+Nella scheda **Carichi di lavoro predefiniti**, utilizzare il pulsante **Crea carico di lavoro** per aggiungere un carico di lavoro di gestione del magazzino o di esecuzione della produzione a una delle unità di scala. Per ogni carico di lavoro, è necessario specificare il contesto dei processi che saranno di proprietà del carico di lavoro stesso. Per i carichi di lavoro di gestione del magazzino, il contesto è un magazzino specifico in un sito e in una persona giuridica specifici. Per i carichi di lavoro di esecuzione della produzione, il contesto è un sito specifico in una persona giuridica.
 
-#### <a name="manage-workloads"></a>Gestire i carichi di lavoro
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Creazione del carico di lavoro":::
 
-Quando uno o più carichi di lavoro sono abilitati, utilizza l'opzione **Gestisci carichi di lavoro** per avviare e gestire processi come quelli elencati nella tabella seguente.
+> [!IMPORTANT]
+> Il portale di gestione delle unità di scala nell'anteprima non consente di rimuovere i carichi di lavoro dalle unità di scala o di annullare l'assegnazione di un'unità di scala da un hub dopo aver effettuato l'assegnazione stessa. Se è necessario rimuovere un'assegnazione, rivolgersi alla persona di contatto per la gestione del programma di anteprima.
 
-| Elaborazione | Description |
-|---|---|
-| Sospendere la comunicazione dell'unità di scala | Sospendi i messaggi della pipeline tra l'hub e un'unità di scala. Questo processo interromperà la comunicazione e ridurrà la pipeline di dati tra l'hub e le unità di scala. Devi eseguire questo processo prima di eseguire un'operazione di manutenzione di Supply Chain Management sull'hub o sull'unità di scala, ma è possibile utilizzarlo anche in altre situazioni. |
-| Riprendere la comunicazione dell'unità di scala | Riprendi i messaggi della pipeline tra l'hub e un'unità di scala. Potrebbe essere necessario utilizzare questo processo, ad esempio, dopo aver eseguito un'operazione di manutenzione di Supply Chain Management sull'hub o sull'unità di scala. |
-| Aggiornare i carichi di lavoro | Sincronizza le nuove funzionalità tra l'hub e i carichi di lavoro dell'unità di scala. Potrebbe essere necessario utilizzare questo processo, ad esempio, quando la manutenzione ha causato la modifica delle query di scambio dati e/o ha aggiunto nuove tabelle o campi al carico di lavoro. |
-| Trasferire i carichi di lavoro a un'unità di scala | Pianifica un carico di lavoro attualmente in esecuzione nell'hub per essere spostato su un'unità di scala. Quando questo processo viene eseguito, verrà eseguita la sincronizzazione dei dati e sia l'hub che l'unità di scala verranno impostati per modificare la proprietà del carico di lavoro. |
-| Trasferire unità di scala all'hub | Pianifica un carico di lavoro attualmente in esecuzione su un'unità di scala per essere spostato nell'hub. Quando questo processo viene eseguito, verrà eseguita la sincronizzazione dei dati e sia l'hub che l'unità di scala verranno impostati per modificare la proprietà del carico di lavoro.
-| Transizione di emergenza all'hub | <p>Trasferisci immediatamente un carico di lavoro esistente all'hub. *Questo processo modificherà la proprietà solo dei dati attualmente disponibili nell'hub.*</p><p><strong>Avvertimento:</strong> questo processo può causare la perdita di dati per i dati non sincronizzati ed errori nell'elaborazione aziendale. Pertanto, dovrebbe essere utilizzato solo in caso di emergenza, in cui i processi aziendali devono essere elaborati sull'hub perché l'unità di scala ha un'interruzione del servizio che non può essere mitigata entro un tempo ragionevole.</p> |
-| Ritirare la topologia distribuita | Rimuovere la distribuzione di un'unità di scalabilità ed eseguirla solo nell'hub, senza elaborazione del carico di lavoro. |
+<!-- ### Create an edge scale unit using your custom on-premises hardware appliance
 
-:::image type="content" source="media/sum-manage-workloads.png" alt-text="Gestione di unità di scala e carichi di lavoro.":::
-
-> [!TIP]
-> Nel tempo, all'esperienza di gestione delle unità di scala verranno aggiunti miglioramenti incrementali per semplificare le operazioni di gestione del ciclo di vita. Le funzionalità specifiche per la versione corrente sono documentate in un manuale di onboarding disponibile per i clienti che sono in procinto di eseguire l'onboarding alla topologia ibrida distribuita per Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->
-
-[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->

@@ -2,9 +2,11 @@
 title: Novità o modifiche introdotte in Dynamics AX versione applicazione 7.0.1 (maggio 2016)
 description: Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynamics AX versione applicazione 7.0.1. Questa versione è stata rilasciata nel maggio 2016 e ha numero di build 7.0.1265.23014.
 author: sericks007
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748266"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797166"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novità o modifiche introdotte in Dynamics AX versione applicazione 7.0.1 (maggio 2016)
 
@@ -76,7 +78,7 @@ Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynami
 </tr>
 <tr>
 <td>Supportare BDA che comprendono articoli con dimensioni prodotto diverse dello stesso articolo.</td>
-<td>Quando si utilizza uno o più delle dimensioni del prodotto in produzione, è possibile avere situazioni in cui si desidera produrre un articolo, basato su una diversa variante dello stesso articolo. Per ulteriori informazioni, vedere <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">questo blog</a>.</td>
+<td>Quando si utilizza uno o più delle dimensioni del prodotto in produzione, è possibile avere situazioni in cui si desidera produrre un articolo, basato su una diversa variante dello stesso articolo. Per ulteriori informazioni, vedere <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">questo blog</a>.</td>
 </tr>
 <tr>
 <td>Ordini di produzione con strutture circolari al primo livello delle loro DBA vengono esclusi dal calcolo livello DBA per la pianificazione delle risorse materiali.</td>
@@ -104,6 +106,3 @@ Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynami
 [Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
 
 [Guide attività nuove o aggiornate (maggio 2016)](new-updated-task-guides-available-may-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

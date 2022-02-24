@@ -2,9 +2,11 @@
 title: Delegare elementi di lavoro in un flusso di lavoro
 description: Se si prevede di restare assenti dall'ufficio o di non essere disponibili per intervenire su alcuni elementi di lavoro, è possibile delegare o riassegnare i propri elementi di lavoro ad altri utenti.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
@@ -13,19 +15,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 128dce6a1b852d908e01c348cb767088031b11a5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070099"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796708"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Delegare elementi di lavoro in un flusso di lavoro
 
 [!include [banner](../../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 ## <a name="manually-delegate-a-work-item"></a>Delegare manualmente un elemento di lavoro
 
@@ -61,6 +60,3 @@ Se si prevede di restare assenti dall'ufficio o di non essere disponibili per in
 8. Nel campo **Data/ora di fine** immettere una data e un'ora.
 9. Selezionare la casella di controllo **Attivato** per attivare la regola di delega. 
 10. Nel campo **Commento** immettere un commento che spiega il motivo della delega degli elementi di lavoro.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

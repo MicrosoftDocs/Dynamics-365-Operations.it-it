@@ -1,29 +1,30 @@
 ---
 title: Panoramica della pianificazione dei carichi utilizzando il consolidamento hub
 description: Questo articolo descrive la funzionalità di consolidamento delle spedizioni in un hub quando si consegnano merci dai magazzini diversi allo stesso cliente o quando merci vengono consegnate da più fornitori allo stesso magazzino.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, TMSParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "92273"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 92273
 ms.assetid: d27b0926-a534-4caf-a2a3-acbc7c440bca
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd47a5745719873cc491d93b9a98a7fde609fe38
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d61527113746e76889d097e963f70ced24fd241
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985813"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431541"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>Panoramica della pianificazione dei carichi utilizzando il consolidamento hub
 
@@ -34,10 +35,7 @@ Questo articolo descrive la funzionalità di consolidamento delle spedizioni in 
 Può essere utile consolidare le spedizioni in un hub, quando si consegnano merci dai magazzini diversi allo stesso cliente o quando merci vengono consegnate da più fornitori allo stesso magazzino.
 
 ## <a name="building-loads"></a>Allestimento dei carichi
-Prima di poter utilizzare il consolidamento di hub, è necessario abilitare l'opzione **Pianificazione in transito** della pagina **Parametri di gestione trasporto**. È inoltre necessario creare gli hub in cui avrà luogo il consolidamento. Il diagramma seguente illustra un esempio di consolidamento di hub. In questo caso, gli ordini cliente da magazzini differenti vanno allo stesso cliente. I carichi di base vengono creati in base agli ordini cliente nel modo consueto, utilizzando la pagina **Workbench pianificazione carico**. Per consolidare i due carichi in un hub prima della consegna al cliente, nella pagina **Workbench pianificazione carico**, nel campo **Ttrasporto**, selezionare **Consolidamento hub**. Quando si seleziona l'hub corretto per ogni carico, i carichi avranno l'hub come la destinazione di consegna. Si avranno anche due "righe richiesta di trasporto" nella sezione **Domanda e offerta** della pagina **Workbench pianificazione carico**. È quindi possibile aggiungere queste due righe al nuovo carico. Questo nuovo carico disporrà di entrambe le righe ordine cliente e sarà dotato dell'hub come indirizzo di prelievo e del cliente A come destinazione di consegna. I tre carichi quindi sono pronti per valutati e indirizzati come qualsiasi altro carico. È possibile selezionare qualsiasi vettore di spedizione suggerito dal sistema per ogni carico. [![Consolidamento hub.](./media/hubconsol.jpg)](./media/hubconsol.jpg) È anche possibile utilizzare lo stesso metodo per consolidare i carichi per più ordini di trasferimento. In questo caso, il cliente A nel diagramma precedente è un magazzino. In alternativa, è possibile consolidare carichi per più ordini fornitore, dove i carichi vengono recapitati da fornitori diversi allo stesso magazzino. È possibile avere più di un hub di consolidamento e consolidare in più hub per più carichi che provengono da magazzini diversi. Dopo aver allestito i carichi di base e utilizzato l'opzione di consolidamento hub, si allestiscono i nuovi carichi utilizzando le righe di richiesta di trasporto consolidata. Quindi si valutano e si indirizzano i carichi.
+Prima di poter utilizzare il consolidamento di hub, è necessario abilitare l'opzione **Pianificazione in transito** della pagina **Parametri di gestione trasporto**. È inoltre necessario creare gli hub in cui avrà luogo il consolidamento. Il diagramma seguente illustra un esempio di consolidamento di hub. In questo caso, gli ordini cliente da magazzini differenti vanno allo stesso cliente. I carichi di base vengono creati in base agli ordini cliente nel modo consueto, utilizzando la pagina **Workbench pianificazione carico**. Per consolidare i due carichi in un hub prima della consegna al cliente, nella pagina **Workbench pianificazione carico**, nel campo **Ttrasporto**, selezionare **Consolidamento hub**. Quando si seleziona l'hub corretto per ogni carico, i carichi avranno l'hub come la destinazione di consegna. Si avranno anche due "righe richiesta di trasporto" nella sezione **Domanda e offerta** della pagina **Workbench pianificazione carico**. È quindi possibile aggiungere queste due righe al nuovo carico. Questo nuovo carico disporrà di entrambe le righe ordine cliente e sarà dotato dell'hub come indirizzo di prelievo e del cliente A come destinazione di consegna. I tre carichi quindi sono pronti per valutati e indirizzati come qualsiasi altro carico. È possibile selezionare qualsiasi vettore di spedizione suggerito dal sistema per ogni carico. [![Consolidamento hub](./media/hubconsol.jpg)](./media/hubconsol.jpg) È anche possibile utilizzare lo stesso metodo per consolidare i carichi per più ordini di trasferimento. In questo caso, il cliente A nel diagramma precedente è un magazzino. In alternativa, è possibile consolidare carichi per più ordini fornitore, dove i carichi vengono recapitati da fornitori diversi allo stesso magazzino. È possibile avere più di un hub di consolidamento e consolidare in più hub per più carichi che provengono da magazzini diversi. Dopo aver allestito i carichi di base e utilizzato l'opzione di consolidamento hub, si allestiscono i nuovi carichi utilizzando le righe di richiesta di trasporto consolidata. Quindi si valutano e si indirizzano i carichi.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

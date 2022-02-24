@@ -1,14 +1,17 @@
 ---
-title: Mostra sconti in POS
+title: Mostrare gli sconti nel POS
 description: Questo argomento spiega come Microsoft Dynamics 365 Commerce aiuta gli addetti alle vendite a conoscere le promozioni e come possono essere utilizzate per i movimenti di cross-sell e upsell.
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731669"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413460"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrare gli sconti nel POS
 
@@ -33,7 +36,7 @@ Le promozioni svolgono un ruolo importante nel motivare i clienti che stanno pre
 
 Commerce include un'operazione denominata "Visualizza tutti gli sconti". Questa operazione mostra tutti gli sconti che sono attualmente in corso in un negozio. L'operazione "Visualizza tutti gli sconti" può essere associata a un pulsante nel punto vendita (POS) e il pulsante può essere aggiunto alla pagina di **benvenuto** o della **transazione**. Nella figura seguente è illustrato un esempio della pagina **Tutti gli sconti** aperta.
 
-![Pagina Tutti gli sconti.](./media/View_all_discounts.png "Pagina Tutti gli sconti")
+![Pagina Tutti gli sconti](./media/View_all_discounts.png "Pagina Tutti gli sconti")
 
 Per mostrare gli sconti, il sistema cerca tutti gli sconti che soddisfano una o più delle seguenti condizioni:
 
@@ -61,11 +64,8 @@ Le seguenti illustrazioni mostrano la logica che determina quali sconti sono mos
 
 La seguente illustrazione mostra la logica utilizzata quando il controllo della concorrenza degli sconti è impostato su **Il miglior prezzo e composto in base alla priorità, mai composto tra le priorità**.
 
-![Logica per il miglior prezzo e composto in base alla priorità, mai composto tra le priorità.](./media/Model_1.png "Logica per il miglior prezzo e composto in base alla priorità, mai composto tra le priorità").
+![Logica per il miglior prezzo e composto in base alla priorità, mai composto tra le priorità](./media/Model_1.png "Logica per il miglior prezzo e composto in base alla priorità, mai composto tra le priorità").
 
 La seguente illustrazione mostra la logica utilizzata quando il controllo della concorrenza degli sconti è impostato su **Il miglior prezzo solo in base alla priorità, sempre composto tra le priorità**.
 
-![Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità.](./media/Model_2.png "Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità").
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità](./media/Model_2.png "Logica per il miglior prezzo solo in base alla priorità, sempre composto tra le priorità").

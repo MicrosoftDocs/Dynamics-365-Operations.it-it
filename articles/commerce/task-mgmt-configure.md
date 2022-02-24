@@ -2,29 +2,34 @@
 title: Configurare la gestione delle attività
 description: Questo argomento descrive come configurare le funzionalità di gestione delle attività in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730805"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413521"
 ---
 # <a name="configure-task-management"></a>Configurare la gestione delle attività
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come configurare le funzionalità di gestione delle attività in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Prima che i manager e i dipendenti Dynamics 365 Commerce possano utilizzare le funzionalità di gestione delle attività in Commerce, la gestione delle attività deve essere configurata. I passaggi della configurazione includono la concessione di autorizzazioni a manager e dipendenti, la distribuzione delle autorizzazioni ai clienti del punto vendita (POS), l'impostazione delle notifiche POS e la configurazione del riquadro **Attività** sulla home page di un'applicazione POS.
 
@@ -44,7 +49,7 @@ Per configurare le autorizzazioni di gestione delle attività per i gestori del 
 
 La seguente illustrazione mostra come configurare le autorizzazioni di gestione delle attività per i gestori del negozio.
 
-![Configurazione delle autorizzazioni di gestione delle attività per i gestori del negozio.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Configurazione delle autorizzazioni di gestione delle attività per i gestori del negozio](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Configurare le autorizzazioni per i dipendenti
 
@@ -78,7 +83,7 @@ Per configurare le notifiche POS per le attività, effettuare le seguenti operaz
 
 La seguente illustrazione mostra l'operazione **Gestione delle attività** nella pagina **Operazioni POS**.
 
-![Operazione di gestione delle attività nella pagina Operazioni POS.](media/HQ-POS-Tasks-Notifications.png)
+![Operazione di gestione delle attività nella pagina Operazioni POS](media/HQ-POS-Tasks-Notifications.png)
 
 Per ulteriori informazioni su come configurare le notifiche POS, vedere [Visualizzare le notifiche degli ordini nel POS](notifications-pos.md).
 
@@ -95,7 +100,7 @@ Per configurare il riquadro **Attività** in una home page dell'applicazione POS
 
 Nella figura seguente è illustrato un esempio di un riquadro **Attività** nella home page del POS.
 
-![Riquadro attività in una home page del POS.](media/POS-home-screen-tasks-button-image.png)
+![Riquadro attività in una home page del POS](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -106,6 +111,3 @@ Nella figura seguente è illustrato un esempio di un riquadro **Attività** nell
 [Assegnare elenchi di attività a punti vendita o dipendenti](task-mgmt-assign-lists.md)
 
 [Gestione delle attività in POS](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

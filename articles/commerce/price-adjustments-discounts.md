@@ -2,13 +2,16 @@
 title: Rettifiche prezzi e sconti
 description: Questo articolo fornisce le informazioni sulle rettifiche prezzo e sugli sconti in Dynamics 365 Commerce.
 author: scott-tucker
-ms.date: 06/11/2021
+manager: AnnBe
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15891
 ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 96a695df250cda514b7bd8b9716c0f03fb2bfd28d3af4daedaf1335c3099fbb6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748500"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584317"
 ---
 # <a name="price-adjustments-and-discounts"></a>Rettifiche prezzi e sconti
 
@@ -48,13 +51,3 @@ Sono ora disponibili molti tipi di sconti:
 - **Sconto sulla spedizione** - Uno sconto che viene applicato quando il totale della transazione è superiore a un importo specificato e una modalità di consegna specifica (ad esempio, spedizione in due giorni o spedizione notturna) viene utilizzata per l'ordine.
 
 Sia le rettifiche prezzo che gli sconti sono collegati a gruppi di prezzi. I gruppi di prezzi possono quindi essere associati ai canali, i cataloghi, le affiliazioni e piani di fedeltà.
-
-> [!NOTE]
-> Lo sconto gamma e lo sconto di soglia hanno proprietà denominate rispettivamente "Conteggio prodotti non scontati" e "Conteggio prodotti non scontati verso la soglia". Se queste proprietà sono abilitate, un articolo che non è idoneo per alcuno sconto può comunque contribuire a qualificare una transazione per lo sconto, ma l'articolo non idoneo non riceverà lo sconto. 
-> 
-> Ad esempio, se si crea uno sconto di gamma con due righe, A e B, in cui un cliente dovrebbe ottenere uno sconto del 10% su entrambi gli articoli, ma l'articolo A ha la configurazione "Impedisci tutti gli sconti" selezionata, in genere ciò impedirà all'articolo A di essere incluso nello sconto. Tuttavia, se la proprietà "Conteggio prodotti non scontati" è abilitata, l'articolo A può essere utilizzato per l'idoneità per lo sconto di gamma, ma lo sconto del 10% verrà applicato solo all'articolo B. Una logica simile si applica allo sconto di soglia. 
->
-> Tuttavia, la proprietà "Conteggio prodotti non scontati verso la soglia" ha una funzionalità aggiuntiva rispetto alla proprietà "Conteggio prodotti non scontati" degli sconti di gamma. Se lo sconto di soglia è abilitato e c'è un articolo che ha uno sconto esistente che impedirebbe all'articolo di ottenere altri sconti, il prezzo pagato per questo articolo sarà idoneo per il raggiungimento della soglia, ma questo articolo non riceverà l'ulteriore sconto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

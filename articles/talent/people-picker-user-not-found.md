@@ -60,6 +60,3 @@ Annotare la proprietà **UserType** dell'utente. Se la proprietà **UserType** �
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

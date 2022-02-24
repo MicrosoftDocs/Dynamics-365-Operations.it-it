@@ -66,6 +66,3 @@ Per trovare l'ultima versione rilasciata di ogni Web browser, andare al sito Web
 
 Gli sviluppatori interessati a creare personalizzazioni specifiche per paese o regione o per creare una soluzione per un paese o una regione non attualmente supportato da Microsoft possono consultare la pagina [Globalizzazione](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

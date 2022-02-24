@@ -2,9 +2,11 @@
 title: Prelievo cluster diretto dal sistema
 description: In questo argomento viene fornita una panoramica del prelievi cluster diretto dal sistema in Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3c474705e5260f4be62bc59d8d1d84a1ba597b6f96eafd8f673cc110285fc597
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772354"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965679"
 ---
 # <a name="system-directed-cluster-picking"></a>Prelievo cluster diretto dal sistema
 
@@ -97,7 +99,7 @@ Per creare una nuova voce di menu del dispositivo mobile per il prelievo cluster
 
 1. Nella Scheda dettaglio **Classi di lavoro**, impostare la classe di lavoro valida per questa voce di menu del dispositivo mobile impostando i seguenti campi:
     - **ID classe lavoro**: Vendita
-    - **Tipo di ordine di lavoro**: Ordini cliente
+    - **Tipo di ordine di lavoro**: Ordini di vendita
 
 1. Nel riquadro azioni **Voci di menu del dispositivo mobile**, selezionare **Query della sequenza di lavoro diretta dal sistema** e seguire questi passaggi per specificare una nuova query della sequenza di lavoro diretta dal sistema:
     - Nel riquadro azioni selezionare **Nuovo**.
@@ -204,6 +206,3 @@ Prima di poter impostare il prelievo cluster diretto al sistema, è necessario c
 1. L'ultimo passaggio sul dispositivo mobile consiste nell'**inserire** il cluster nella posizione finale. Selezionare **OK**.
     - Quando l'operazione di inserimento viene confermata, il cluster viene chiuso e suddiviso, in base al valore impostato per il campo **Suddividi il cluster a** nel profilo cluster. Anche gli ID lavoro vengono chiusi.
 1. Sul dispositivo mobile viene visualizzato il messaggio "Cluster completato".
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: Materiali di imballaggio e addebiti
 description: Questo argomento fornisce informazioni sugli addebiti per materiale di imballaggio che vengono effettuati alle società di riciclaggio a intervalli specifici.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72d07365a5022a67b8868232fbbb04f610701009
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431032"
 ---
 # <a name="packing-materials-and-fees"></a>Materiali di imballaggio e addebiti
 
@@ -109,6 +112,3 @@ Per generare un report che mostri tutti gli addebiti del materiale di imballaggi
 
 1. Andare a **Contabilità clienti \> Impostazioni \> Parametri contabilità clienti**.
 1. Nella scheda **Aggiornamenti** nella scheda dettaglio **Fattura**, impostare l'opzione **Stampa peso materiale di imballaggio** su **Sì**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

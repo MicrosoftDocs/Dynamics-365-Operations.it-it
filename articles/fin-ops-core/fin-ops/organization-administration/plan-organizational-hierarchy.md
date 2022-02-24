@@ -2,9 +2,11 @@
 title: Pianificazione della gerarchia organizzativa
 description: Prima di impostare le organizzazioni e le gerarchie organizzative, è necessario comprendere qual è il modo migliore di modellare l'azienda.
 author: sericks007
-ms.date: 02/19/2021
+manager: AnnBe
+ms.date: 08/28/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771874"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694691"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Pianificazione della gerarchia organizzativa
 
@@ -164,7 +166,7 @@ Le unità operative utilizzano il contesto del paese della persona giuridica pad
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Se l'organizzazione è modellata come persona giuridica
 
-Per i paesi che sono supportati, è possibile creare la maggior parte delle dichiarazioni statutarie. 
+Per i paesi che sono supportati, è possibile creare la maggior parte delle dichiarazioni statutarie. Per ulteriori informazioni su quali report sono disponibili per ogni paese, vedere il [Portale di localizzazione di Microsoft Dynamics](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (accesso a CustomerSource necessario).
 
 > [!NOTE]
 > Un livello di registrazione nella contabilità generale consente di creare voci di rettifica per una società consolidata che utilizza una contabilità standard diversa da quella della filiale. Ad esempio, per una società che utilizza le pratiche contabili generalmente accettate nel Regno Unito (GAAP BRITANNICO), è possibile creare voci di rettifica nel livello di registrazione. Queste voci possono essere consolidate in una società consolidata che utilizza i principi contabili generalmente accettati (GAAP) negli Stati Uniti. Le voci di rettifica non influiscono sulla dichiarazione GAAP britannica.
@@ -239,6 +241,3 @@ Quando si implementa una gerarchia organizzativa, considerare le procedure ottim
 - Prima di modellare strutture di ristrutturazione consistenti, utilizzare le date di validità della gerarchia per effettuare un'analisi dell'impatto e un test di convalida.
 - Utilizzare la modalità bozza per modificare una gerarchia prima di pubblicare una versione in un ambiente di produzione.
 - Limitare il numero di persone che dispongono delle autorizzazioni per aggiungere o rimuovere organizzazioni da una gerarchia in un ambiente di produzione. Un numero inferiore riduce le possibilità di commettere costosi errori.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

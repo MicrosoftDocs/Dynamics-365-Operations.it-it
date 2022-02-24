@@ -2,13 +2,16 @@
 title: Impostare canali servizio clienti
 description: In questo argomento sono riportate informazioni su come elaborare gli ordini per i servizi clienti utilizzando Dynamics 365 Commerce.
 author: josaw1
-ms.date: 02/04/2022
+manager: AnnBe
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: 28954eab857a06da3978ca362081dfc3c525354d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092434"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413532"
 ---
 # <a name="set-up-call-center-channels"></a>Impostare canali servizio clienti
 
@@ -37,7 +40,7 @@ Gli utenti devono essere collegati a un canale servizio clienti per utilizzare l
 
 È anche possibile configurare un profilo di notifica e-mail sul canale servizio clienti. Il profilo definisce l'insieme di modelli di posta elettronica che viene utilizzato quando il messaggio viene inviato ai clienti che effettuano ordini tramite il canale servizio clienti. I trigger di posta elettronica possono essere configurati in base agli eventi di sistema, come l'invio dell'ordine o la spedizione dell'ordine.
 
-Prima che le vendite possano essere elaborate correttamente attraverso un canale servizio clienti, per il canale devono essere definiti i [metodi di pagamento](/dynamics365/unified-operations/retail/work-with-payments) e le modalità di consegna corretti.
+Prima che le vendite possano essere elaborate correttamente attraverso un canale servizio clienti, per il canale devono essere definiti i [metodi di pagamento](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-payments) e le modalità di consegna corretti.
 
 A livello del canale servizio clienti, è possibile definire altri valori predefiniti correlati alle dimensioni finanziarie che saranno collegate agli ordini creati da quel canale.
 
@@ -47,18 +50,15 @@ Tre impostazioni nella configurazione di un servizio clienti hanno un effetto im
 
 ### <a name="enable-order-completion"></a>Attiva completamento ordine
 
-L'impostazione **Attiva completamento ordine** sul canale servizio clienti ha un effetto importante sul flusso di ordini di ordini cliente immessi per quel canale. Quando questa impostazione è attivata, tutti gli ordini cliente devono superare una serie di regole di convalida prima che possano essere confermati. È possibile eseguire queste regole scegliendo il pulsante **Completa** che viene aggiunto nel riquadro azioni della pagina di ordine cliente. Tutti gli ordini cliente creati quando è attiva l'impostazione **Attiva completamento ordine** devono superare il processo di completamento dell'ordine. Questo processo applica l'acquisizione della logica di pagamento e di convalida dei pagamenti. Oltre all'applicazione dei pagamenti, la procedura di invio dell'ordine può attivare le [verifiche frodi](/dynamics365/unified-operations/retail/set-up-fraud-alerts) configurate nel sistema. Gli ordini che non superano la convalida antifrode e la convalida del pagamento vengono messi in attesa e non possono essere rilasciati per ulteriori elaborazioni (come il prelievo o la spedizione) finché il problema che ha causato la sospensione non viene risolto.
+L'impostazione **Attiva completamento ordine** sul canale servizio clienti ha un effetto importante sul flusso di ordini di ordini cliente immessi per quel canale. Quando questa impostazione è attivata, tutti gli ordini cliente devono superare una serie di regole di convalida prima che possano essere confermati. È possibile eseguire queste regole scegliendo il pulsante **Completa** che viene aggiunto nel riquadro azioni della pagina di ordine cliente. Tutti gli ordini cliente creati quando è attiva l'impostazione **Attiva completamento ordine** devono superare il processo di completamento dell'ordine. Questo processo applica l'acquisizione della logica di pagamento e di convalida dei pagamenti. Oltre all'applicazione dei pagamenti, la procedura di invio dell'ordine può attivare le [verifiche frodi](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts) configurate nel sistema. Gli ordini che non superano la convalida antifrode e la convalida del pagamento vengono messi in attesa e non possono essere rilasciati per ulteriori elaborazioni (come il prelievo o la spedizione) finché il problema che ha causato la sospensione non viene risolto.
 
-Quando l'impostazione **Attiva completamento ordine** è attivata per il canale servizio clienti, se le voci vengono registrate in un ordine cliente e l'utente del canale tenta di chiudere o accedere dal modulo di ordine cliente senza prima selezionare **Completa**, il sistema impone il completamento dell'ordine da elaborare aprendo la pagina di riepilogo dell'ordine cliente e richiedendo che l'utente invii correttamente l'ordine cliente. Se l'ordine non può essere inviato correttamente insieme al pagamento, l'utente può utilizzare la funzionalità [sospensioni ordine](/dynamics365/unified-operations/retail/work-with-order-holds) per mettere in attesa l'ordine. Se l'utente sta tentando di annullare l'ordine, deve annullarlo correttamente utilizzando la funzione Annulla o Elimina, a seconda della funzione consentita dalle impostazioni di sicurezza dell'utente.
+Quando l'impostazione **Attiva completamento ordine** è attivata per il canale servizio clienti, se le voci vengono registrate in un ordine cliente e l'utente del canale tenta di chiudere o accedere dal modulo di ordine cliente senza prima selezionare **Completa**, il sistema impone il completamento dell'ordine da elaborare aprendo la pagina di riepilogo dell'ordine cliente e richiedendo che l'utente invii correttamente l'ordine cliente. Se l'ordine non può essere inviato correttamente insieme al pagamento, l'utente può utilizzare la funzionalità [sospensioni ordine](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) per mettere in attesa l'ordine. Se l'utente sta tentando di annullare l'ordine, deve annullarlo correttamente utilizzando la funzione Annulla o Elimina, a seconda della funzione consentita dalle impostazioni di sicurezza dell'utente.
 
 Se l'impostazione **Attiva completamento ordine** è attivata per il canale servizio clienti, il campo **Stato pagamento** verrà tracciato nell'ordine. Il sistema calcola lo **Stato pagamento** quando l'ordine cliente viene inviato. Solo gli ordini che hanno uno stato di pagamento approvato possono venire spostati nel sistema per ulteriori passaggi di elaborazione degli ordini, come il prelievo e la spedizione. Se i pagamenti vengono rifiutati, il flag **Non elaborare** verrà abilitato nello stato dettagliato dell'ordine e questo metterà in attesa l'ordine fino alla risoluzione del problema di pagamento.
 
-Inoltre, se l'opzione **Attiva completamento ordine** è attivata, quando gli utenti creano ordini cliente e sono in modalità di immissione voci, il campo **Origine** sarà disponibile nell'intestazione dell'ordine cliente principale. Il campo **Origine** viene utilizzato per acquisire un [codice sorgente del catalogo](/dynamics365/unified-operations/retail/call-center-catalogs) in uno scenario di vendita di direct marketing. Questo codice può quindi determinare prezzi speciali e promozioni.
+Inoltre, se l'opzione **Attiva completamento ordine** è attivata, quando gli utenti creano ordini cliente e sono in modalità di immissione voci, il campo **Origine** sarà disponibile nell'intestazione dell'ordine cliente principale. Il campo **Origine** viene utilizzato per acquisire un [codice sorgente del catalogo](https://docs.microsoft.com/dynamics365/unified-operations/retail/call-center-catalogs) in uno scenario di vendita di direct marketing. Questo codice può quindi determinare prezzi speciali e promozioni.
 
 Anche se l'impostazione **Attiva completamento ordine** è disattivata, gli utenti possono comunque applicare un codice sorgente a un ordine cliente. Tuttavia, devono prima aprire i dettagli dell'intestazione dell'ordine cliente per accedere al campo **Origine**. In altre parole, sono necessari alcuni clic aggiuntivi. Lo stesso comportamento si applica a funzioni come ordini completati e urgenti. Queste funzioni sono disponibili per tutti gli ordini creati nel servizio clienti. Tuttavia, quando l'impostazione **Abilita completamento ordine** è attivata, gli utenti possono visualizzare la configurazione di queste funzionalità nell'intestazione vendite mentre si trovano nella vista di immissione righe. Non è necessario eseguire il drill-in nei dettagli dell'intestazione dell'ordine clienti per trovare le impostazioni e i campi appropriati.
-
-> [!NOTE]
-> Quando la funzionalità **Pagamenti ordini Commerce multicanale** è abilitata, il pulsante **Attiva completamento ordine** del call center sarà nascosto nella sede centrale sulla Scheda dettaglio **Generale** del tuo canale su **Retail e Commerce \> Canali \> Call Center**.
 
 ### <a name="enable-direct-selling"></a>Attiva vendita diretta
 
@@ -84,6 +84,3 @@ Dopo aver completato la configurazione del canale servizio clienti e la definizi
 > [!NOTE]
 > Per utilizzare la funzionalità di servizio clienti, la chiave di configurazione per **Indirizzi di spedizione multipli** deve essere abilitata. Questa chiave di configurazione è disponibile nelle chiavi **Configurazione commercio** sotto **Amministrazione di sistema**\>**Impostazioni**\>**Configurazione licenza**. Ciò è necessario a causa della funzionalità di servizio clienti che esegue varie convalide in base all'indirizzo di consegna configurato a livello di riga ordine cliente. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

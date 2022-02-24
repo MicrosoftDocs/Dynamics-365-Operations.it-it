@@ -2,23 +2,26 @@
 title: Posizionamento targa ubicazione
 description: Il posizionamento della targa consente di vedere dove si trova una targa in un'ubicazione multi-pallet, ad esempio un'ubicazione che utilizza scaffalature per pallet a doppia profondità.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c19f8dcdb7d84b752e0eec56afdb1a1865cfe00b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567609"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431470"
 ---
 # <a name="location-license-plate-positioning"></a>Posizionamento targa ubicazione
 
@@ -88,7 +91,7 @@ La funzionalità deve essere attivata nel profilo di ubicazione per ogni ubicazi
 1. Mentre **Targa** è ancora selezionato, seleziona **Aggiungi join tabella**.
 1. Nell'elenco delle tabelle che appare, nella colonna **Relazione**, seleziona **Posizionamento targa ubicazione (targa)**. Quindi seleziona **Seleziona** per aggiungere **Posizionamento targa ubicazione** al join della tabella **Dimensioni inventariali**.
 
-    ![Join di tabella.](media/LpTableJoin.png "Join di tabella")
+    ![Join di tabella](media/LpTableJoin.png "Join di tabella")
 
 1. Seleziona **OK** per confermare le tabelle con join aggiornate e chiudere l'editor delle query.
 1. Nella scheda dettaglio **Azioni direttiva di ubicazione**, seleziona **Modifica query** nuovamente per riaprire l'editor di query.
@@ -100,7 +103,7 @@ La funzionalità deve essere attivata nel profilo di ubicazione per ogni ubicazi
     - **Campo:** *Posizione targa*
     - **Criteri:** *1*
 
-    ![Nuovo intervallo.](media/LpPositionCriteria.png "Nuovo intervallo")
+    ![Nuovo intervallo](media/LpPositionCriteria.png "Nuovo intervallo")
 
 1. Seleziona **OK** per confermare le modifiche e chiudere l'editor di query.
 
@@ -275,9 +278,6 @@ Ora che la funzionalità *Posizionamento targa di ubicazione* è stata impostata
 1. Nella pagina **Esegui scansione ID lavoro/ID targa**, seleziona il campo **ID**, quindi immetti l'ID lavoro dalla riga di vendita.
 1. Si noti che il lavoro di prelievo indirizza l'utente a prelevare l'articolo *A0002* dall'ubicazione *01A01R1S2B*. Ricevi questa istruzione perché l'articolo *A0002* è su una targa che è in posizione *1* in quella ubicazione.
 
-    ![Ubicazione posizione 1.](media/LocationLicensePlatePositioning.png "Ubicazione posizione 1")
+    ![Ubicazione posizione 1](media/LocationLicensePlatePositioning.png "Ubicazione posizione 1")
 
 1. Immetti l'ID targa creato per l'ubicazione, quindi segui le istruzioni per selezionare l'ordine cliente.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

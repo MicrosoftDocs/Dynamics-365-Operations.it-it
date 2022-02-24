@@ -1,10 +1,12 @@
 ---
 title: Impostare un magazzino utilizzando un modello di configurazione magazzino
 description: In questo argomento viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -13,21 +15,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571091"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967132"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Impostare un magazzino utilizzando un modello di configurazione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino. Esistono vari modelli di configurazione predefiniti da utilizzare. Per informazioni su come utilizzare tali modelli, vedere [Modelli di dati di configurazione](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+In questo argomento viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino. Esistono vari modelli di configurazione predefiniti da utilizzare. Per informazioni su come utilizzare tali modelli, vedere [Modelli di dati di configurazione](../../dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Scenari in cui i modelli di configurazione possono essere utili
 
@@ -88,13 +90,10 @@ Per questo scenario, le impostazioni di configurazione per un magazzino e alcuni
 4. Selezionare **+ Aggiungi file** e caricare il file ZIP per il pacchetto dati.
 5. Selezionare **Importa**. Nella visualizzazione **Migliorata** è possibile utilizzare l'opzione **Filtro** per visualizzare rapidamente una panoramica dei problemi che possono verificarsi durante l'importazione.
 
-In **Visualizza registro di esecuzione** vengono fornite informazioni dettagliate su ciascuna entità di dati da importare. È possibile utilizzare la visualizzazione dei dati di gestione temporanea per visualizzare rapidamente i dati di destinazione. In questo modo, è possibile visualizzare come appaiono i dati importati nelle pagine correlate nell'applicazione. Quando si utilizzano i modelli di dati predefiniti, la sequenza di importazione per ogni entità di dati funziona in modo predefinito per garantire che tutti i dati dipendenti vengano importati per primi. Se le entità di dati personalizzate fanno parte del progetto, verificare che la sequenza corretta sia definita. Per ulteriori informazioni, vedere [Modelli di dati di configurazione](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+In **Visualizza registro di esecuzione** vengono fornite informazioni dettagliate su ciascuna entità di dati da importare. È possibile utilizzare la visualizzazione dei dati di gestione temporanea per visualizzare rapidamente i dati di destinazione. In questo modo, è possibile visualizzare come appaiono i dati importati nelle pagine correlate nell'applicazione. Quando si utilizzano i modelli di dati predefiniti, la sequenza di importazione per ogni entità di dati funziona in modo predefinito per garantire che tutti i dati dipendenti vengano importati per primi. Se le entità di dati personalizzate fanno parte del progetto, verificare che la sequenza corretta sia definita. Per ulteriori informazioni, vedere [Modelli di dati di configurazione](../../dev-itpro/data-entities/configuration-data-templates.md).
 
 Per ulteriori informazioni su come utilizzare il modello di magazzino per copiare la configurazione di un magazzino da una società a una nuova società all'interno della stessa istanza, guardare questo video di 3 minuti su YouTube su [come utilizzare il modello di magazzino per copiare la configurazione di Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Argomento correlato
 
-[Modelli di dati di configurazione](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Modelli di dati di configurazione](../../dev-itpro/data-entities/configuration-data-templates.md)

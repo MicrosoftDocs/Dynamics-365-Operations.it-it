@@ -2,24 +2,27 @@
 title: Modulo Piè di pagina
 description: In questo argomento vengono descritti i moduli Piè di pagina e la procedura per crearli in Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719988"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413436"
 ---
 # <a name="footer-module"></a>Modulo Piè di pagina  
 
@@ -27,19 +30,21 @@ ms.locfileid: "6719988"
 
 In questo argomento vengono descritti i moduli Piè di pagina e la procedura per crearli in Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Panoramica
+
 Il modulo Piè di pagina è un contenitore speciale utilizzato per l'hosting dei moduli visualizzati nel piè di pagina. Ad esempio, può includere collegamenti a varie pagine del sito, ad esempio le pagine **Politiche del punto vendita** e **Contattaci**.
 
 L'immagine seguente mostra un esempio di modulo Piè di pagina in una pagina di sito.
 
-![Esempio di modulo Piè di pagina.](./media/ecommerce-footer.PNG)
+![Esempio di modulo Piè di pagina](./media/ecommerce-footer.PNG)
 
-## <a name="footer-module-properties&quot;></a>Proprietà del modulo Piè di pagina 
+## <a name="footer-module-properties"></a>Proprietà del modulo Piè di pagina 
 
 Come la maggior parte dei contenitori, un modulo Piè di pagina supporta le proprietà per l'intestazione e la larghezza. Supporta inoltre l'aggiunta di molteplici moduli categoria Piè di pagina. Per ogni modulo Categoria piè di pagina aggiunto viene eseguito il rendering come colonna nel modulo Piè di pagina.
 
-## <a name=&quot;modules-available-in-a-footer-module&quot;></a>Moduli disponibili in un modulo Piè di pagina
+## <a name="modules-available-in-a-footer-module"></a>Moduli disponibili in un modulo Piè di pagina
 
-**Elementi piè di pagina** - Un modulo Elementi piè di pagina può contenere un'intestazione, un'immagine e un collegamento. L'intestazione può essere utilizzata da sola o in combinazione con un'immagine e un collegamento. Ogni collegamento nel piè di pagina può essere configurato di modo che abbia solo testo (ad esempio i collegamenti &quot;Contattaci&quot; e &quot;Privacy") oppure del testo e un'immagine (ad esempio collegamenti ai social media).
+**Elementi piè di pagina** - Un modulo Elementi piè di pagina può contenere un'intestazione, un'immagine e un collegamento. L'intestazione può essere utilizzata da sola o in combinazione con un'immagine e un collegamento. Ogni collegamento nel piè di pagina può essere configurato di modo che abbia solo testo (ad esempio i collegamenti "Contattaci" e "Privacy") oppure del testo e un'immagine (ad esempio collegamenti ai social media).
 
 **Torna all'inizio** - Un modulo Torna all'inizio fornisce un collegamento per spostarsi rapidamente all'inizio della pagina. È necessaria una destinazione. Il valore di destinazione predefinito è \#, che porta l'utente all'inizio della pagina.
 
@@ -82,6 +87,3 @@ Aggiungendo il frammento ai modelli di pagina, si assicura il rendering del piè
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

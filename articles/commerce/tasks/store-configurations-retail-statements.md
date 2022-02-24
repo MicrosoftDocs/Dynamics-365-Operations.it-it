@@ -2,24 +2,27 @@
 title: " Configurazioni dei punti vendita per rendiconti di vendita al dettaglio"
 description: In questa procedura sono illustrate le configurazioni per il punto vendita al dettaglio che interessa la modalità di creazione e registrazione dei rendiconti di commercio.
 author: jashanno
+manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bebe5d6732e6f8156e0271000a0b6caa24ba432491adc0370850109f19b7e4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770935"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4413609"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Configurazioni dei punti vendita per rendiconti di vendita al dettaglio
 
@@ -46,6 +49,3 @@ In questa procedura sono illustrate le configurazioni per il punto vendita al de
 17. Selezionare "Sì" in **Dividi per metodo rendiconto** per ottenere i rendiconti creati per ciascun metodo di rendiconto definito. Questa azione può essere utile se le prestazioni di registrazione devono essere migliorate per gli archivi con alti volumi di transazioni perché creano molti piccoli rendiconti che possono essere elaborati in parallelo.  
 18. Nella Scheda dettaglio **Generale**, nel campo **Cliente predefinito**, è possibile selezionare il conto cliente da utilizzare per le vendite ai clienti che entrano.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

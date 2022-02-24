@@ -2,30 +2,35 @@
 title: Modalità di aggiungere contenuti
 description: In questo argomento viene fornita una panoramica e collegamenti alla documentazione per la gestione di contenuti mediante il set di strumenti Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 802a41b8c55e65eee58d26137c2f160b69847010
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727680"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413403"
 ---
 # <a name="ways-to-add-content"></a>Modalità di aggiungere contenuti
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene fornita una panoramica e collegamenti alla documentazione per la gestione di contenuti mediante il set di strumenti Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Esistono vari modi per modificare l'aspetto e i contenuti del sito. A seconda del livello di personalizzazione richiesto, molte di queste modifiche possono essere implementate da non sviluppatori in Creazione di siti Web, ovvero il set di strumenti incluso con Dynamics 365 Commerce. Creazione di siti Web ti consente di creare modelli, selezionare temi e selezionare e configurare moduli senza scrivere codice. Per contro, per creare un nuovo tema o modulo, sono necessarie competenze di sviluppo in quanto è necessario utilizzare il kit di sviluppo di software (SDK) di e-Commerce e il flusso di lavoro di distribuzione di Microsoft Dynamics Lifecycle Services.
 
@@ -52,6 +57,3 @@ Selezionare uno dei seguenti argomenti per iniziare.
 [Stato e ciclo di vita documento](document-states-overview.md)
 
 [Abilitare e utilizzare la condivisione multicanale](cross-channel-sharing.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

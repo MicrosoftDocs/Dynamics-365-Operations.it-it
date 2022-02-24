@@ -1,10 +1,12 @@
 ---
 title: Installare cespiti nelle unità funzionali
 description: In questo argomento viene illustrato come installare cespiti nelle unità funzionali in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775749"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022032"
 ---
 # <a name="install-assets-on-functional-locations"></a>Installare cespiti nelle unità funzionali
 
@@ -64,7 +66,7 @@ Dopo aver installato i cespiti in un'unità funzionale, è possibile sostituire 
 8. Per visualizzare l'elenco delle richieste di intervento di manutenzione attive, gli ordini di lavoro attivi, ovvero le registrazioni di problemi correlati ai cespiti installati in un'unità funzionale, selezionare l'unità funzionale nella pagina **Tutte le unità funzionali** e quindi **Richieste**, **Ordini di lavoro** o **Errori**.
 
 > [!NOTE]
-> Quando i dati correlati al cespite vengono modificati, vengono aggiornati automaticamente nella unità funzionale in cui il cespite è installato. Questo aggiornamento automatico riguarda le modifiche alle richieste di intervento di manutenzione, ordini di lavoro, alle registrazioni di problemi del cespite, alle registrazioni di tempi di fermo per la manutenzione e alle registrazioni delle misure del cespite.
+> Quando i dati correlati al cespite vengono modificati, vengono aggiornati automaticamente nella unità funzionale in cui il cespite è installato. Questo aggiornamento automatico riguarda le modifiche alle richieste di intervento di manutenzione, ordini di lavoro, alle registrazioni di problemi del cespite, alle registrazioni di tempi di fermo per la manutenzione e alle registrazioni delle misurazioni del cespite.
 
 ## <a name="automatically-create-one-asset-on-a-functional-location"></a>Creare automaticamente un solo cespite in una unità funzionale
 
@@ -80,6 +82,3 @@ Dopo che i dati di impostazione sono disponibili, si è pronti a creare un cespi
 1. Nella pagina **Tutte le unità funzionali**, verificare che l'unità funzionale in cui si desidera creare automaticamente il cespite utilizza il tipo di unità funzionale creato a questo scopo.
 2. Selezionare l'unità funzionale nell'elenco.
 3. Selezionare **Aggiorna stato dell'unità funzionale** e quindi selezionare lo stato del ciclo di vita creato a questo scopo. Un solo cespite verrà installato automaticamente nell'unità funzionale. Il cespite ha lo stesso ID e nome dell'unità funzionale.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

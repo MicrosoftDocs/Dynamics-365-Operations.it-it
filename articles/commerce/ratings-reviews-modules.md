@@ -2,30 +2,35 @@
 title: Moduli Valutazioni e recensioni
 description: Questo argomento tratta i moduli di valutazione e recensione utilizzati nelle pagine dei dettagli del prodotto in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 66ee2d4185cad45b70b19fb474c64ae77a2868e835b20d5275e21610c0150370
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761564"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413557"
 ---
 # <a name="ratings-and-reviews-modules"></a>Moduli Valutazioni e recensioni
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento tratta i moduli di valutazione e recensione utilizzati nelle pagine dei dettagli del prodotto in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Le valutazioni e le recensioni nei siti Web di e-Commerce consentono ai clienti di informarsi sui prodotti prima di deciderne l'acquisto e costituiscono anche un meccanismo di raccolta dell'opinione dei clienti riguardo ai prodotti. 
 
@@ -42,23 +47,19 @@ Tre moduli visualizzano il riepilogo di valutazioni e recensioni nelle pagine de
  
 Nella figura seguente sono illustrati i moduli Valutazioni e recensioni in una pagina dettagli prodotto.
 
-![Moduli Valutazioni e recensioni in una pagina dettagli prodotto.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Moduli Valutazioni e recensioni in una pagina dettagli prodotto](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Per informazioni su come ottimizzare i modelli e i layout di pagine dettagli prodotto in modo da condividere le configurazioni per moduli Valutazioni e recensioni tra molteplici pagine dettagli prodotto nel sito di e-Commerce, vedere [Panoramica modelli e layout](templates-layouts-overview.md).
 
 Nella figura seguente viene illustrato come la finestra di dialogo **Aggiungi modulo** presenta i moduli Valutazioni e recensioni in Dynamics 365 Commerce.
-![Finestra di dialogo Aggiungi modulo.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Finestra di dialogo Aggiungi modulo](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Modulo Scrivere una recensione
 
 Il modulo Scrivere una recensione include un pulsante **Scrivi una recensione** che consente agli utenti di accedere, assegnare una valutazione e scrivere la recensione di un prodotto. Questo modulo consente inoltre agli utenti di modificare una valutazione o una recensione creata precedentemente. Questo modulo viene in genere visualizzato sopra i moduli Istogramma valutazioni ed Elenco recensioni prodotti in una pagina dettagli prodotto.
 Nella seguente figura è illustrata la finestra di dialogo **Scrivi una recensione** che viene visualizzata quando un cliente seleziona **Scrivi una recensione**. Il cliente può utilizzare questa finestra di dialogo per inviare una valutazione e una recensione.
-
-![Finestra di dialogo Scrivi una recensione.](media/rnr-eCommerce-write-review-module.png)
-
-Nella tabella seguente viene illustrata la proprietà del modulo Scrivere una recensione che deve essere configurata nello strumento di creazione.
-
+![Finestra di dialogo Scrivi una recensione](media/rnr-eCommerce-write-review-module.png) Nella tabella seguente viene illustrata la proprietà del modulo Scrivere una recensione che deve essere configurata nello strumento di creazione.
 | Nome proprietà | Valore        | Descrizione della proprietà                 |
 |---------------|--------------|--------------------------------------|
 | Nome          | Scrivi recensione | Il nome del modulo Scrivere una recensione. |
@@ -67,7 +68,7 @@ Nella tabella seguente viene illustrata la proprietà del modulo Scrivere una re
 
 Il modulo Istogramma valutazioni visualizza un istogramma delle valutazioni. Questo modulo viene visualizzato in genere tra i moduli Scrivere una recensione e il modulo Elenco recensioni prodotto in una pagina dettagli prodotto.
 Il modulo Istogramma valutazioni non richiede alcuna configurazione. È sufficiente aggiungere il modulo nel modello di pagina dettagli prodotto. Nelle figure seguenti è illustrato un modello di pagina dettagli prodotto in Dynamics 365 Commerce quando i moduli Valutazioni e recensioni sono configurati per la visualizzazione nelle pagine dettagli prodotto.
-![Modello di pagina dettagli prodotto quando valutazioni e recensioni sono configurate per la visualizzazione nelle pagine dettagli prodotto.](media/rnr-eCommerce-pdp-reviews-modules.png)
+![Modello di pagina dettagli prodotto quando valutazioni e recensioni sono configurate per la visualizzazione nelle pagine dettagli prodotto](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Modulo Elenco recensioni prodotti
 
@@ -82,11 +83,11 @@ Nella tabella seguente sono illustrate le proprietà del modulo Elenco recension
 
 Il modulo Elenco recensioni prodotti include uno slot in cui è possibile aggiungere un modulo Istogramma valutazioni. Nella figura seguente viene illustrato come è possibile aggiungere un modulo Istogramma valutazioni nel modulo Elenco recensioni prodotti in Dynamics 365 Commerce.
 
-![Aggiungere un modulo Istogramma valutazioni in un modulo Elenco recensioni prodotti.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Aggiungere un modulo Istogramma valutazioni in un modulo Elenco recensioni prodotti](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica della libreria moduli](starter-kit-overview.md)
+[Panoramica della libreria dei moduli](starter-kit-overview.md)
 
 [Modulo contenitore](add-container-module.md)
 
@@ -99,6 +100,3 @@ Il modulo Elenco recensioni prodotti include uno slot in cui è possibile aggiun
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

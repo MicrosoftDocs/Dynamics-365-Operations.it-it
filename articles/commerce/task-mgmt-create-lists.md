@@ -2,30 +2,35 @@
 title: Creare elenchi di attività e aggiungere attività
 description: Questo argomento descrive come creare elenchi di attività e aggiungervi le attività in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756527"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413519"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Creare elenchi di attività e aggiungere attività
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come creare elenchi di attività e aggiungervi le attività in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Un'*attività* definisce un lavoro specifico o un'azione che qualcuno deve completare entro una data di scadenza specificata. In Dynamics 365 Commerce, un'attività può includere istruzioni dettagliate e informazioni su una persona di contatto. Può anche includere i collegamenti a operazioni di back-office, operazioni di punti vendita (POS) o pagine del sito, per contribuire a migliorare la produttività e fornire il contesto richiesto dal proprietario dell'attività per completare l'attività in modo efficiente.
 
@@ -70,7 +75,7 @@ Per aggiungere i collegamenti di attività mentre si crea un'attività, atteners
 
 La seguente illustrazione mostra la selezione dei collegamenti delle attività nella finestra di dialogo **Modifica attività**.
 
-![Selezione dei collegamenti di attività nella finestra di dialogo Modifica attività.](media/HQ-POS-Tasks-Linking.png)
+![Selezione dei collegamenti di attività nella finestra di dialogo Modifica attività](media/HQ-POS-Tasks-Linking.png)
 
 ### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a>Configurare un'operazione POS in modo che possa essere collegata a un'attività
 
@@ -88,6 +93,3 @@ Per configurare un'operazione POS in modo che possa essere collegata a un'attivi
 [Assegnare elenchi di attività a punti vendita o dipendenti](task-mgmt-assign-lists.md)
 
 [Gestione delle attività in POS](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

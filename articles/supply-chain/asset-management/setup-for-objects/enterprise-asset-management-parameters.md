@@ -1,10 +1,12 @@
 ---
 title: Parametri di Gestione cespiti
 description: In Gestione cespiti, i parametri generali relativi ai cespiti, gli ordini di lavoro e la programmazione degli ordini di lavoro devono essere impostati.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751963"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020656"
 ---
 # <a name="asset-management-parameters"></a>Parametri di Gestione cespiti
 
@@ -99,11 +101,8 @@ I campi descritti nell'elenco seguente sono tutti relativi ai punteggi di valuta
 
 ## <a name="the-document-types-tab"></a>Scheda Tipi di documento
 
-Selezionare i tipi di documento che devono essere disponibili per la stampa degli allegati correlati a un report dell'ordine di lavoro. Questa operazione può essere effettuata selezionando un tipo di documento nella sezione **Disponibili** e selezionando il pulsante ![freccia avanti](media/15-setup-for-objects.png). Per rimuovere un tipo di documento selezionato, selezionare il tipo di documento nella sezione **Selezionati** e selezionare la ![freccia indietro](media/16-setup-for-objects.png).
+Selezionare i tipi di documento che devono essere disponibili per la stampa degli allegati correlati a un report dell'ordine di lavoro. Questa operazione può essere effettuata selezionando un tipo di documento nella sezione **Disponibili** e selezionando il pulsante ![freccia in avanti](media/15-setup-for-objects.png). Per rimuovere un tipo di documento selezionato, selezionare il tipo di documento nella sezione **Selezionati** e selezionare la ![freccia indietro](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Scheda Sequenze numeriche
 
 Selezionare le sequenze numeriche richieste in questa sezione. Sono disponibili due sequenze numeriche per i cespiti: Uno per i cespiti creati manualmente e un'altra per i cespiti creati tramite i cespiti in sospeso.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

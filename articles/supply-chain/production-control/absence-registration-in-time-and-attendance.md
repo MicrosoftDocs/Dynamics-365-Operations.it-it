@@ -2,9 +2,11 @@
 title: Registrazioni delle assenze in Orario e presenze
 description: In questo argomento viene descritto come gestire le registrazioni delle assenze in Orario e presenze.
 author: johanhoffmann
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters, JmgAbsenceCalendar
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06adca12c172dffa241fe44a6b64bb30863bcb4a8f3867429ad10bc852efd7c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12a61f23ac5a16000275e53d3901c8aea202bab0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730228"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966632"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Registrazioni delle assenze in Orario e presenze
 
@@ -106,6 +108,3 @@ Ad esempio, un lavoratore entra alle 10 e seleziona un codice assenza che indica
 ### <a name="calculate-and-approve-absence"></a>Calcolare e approvare l'assenza
 
 - Selezionare **Orario e presenze** &gt; **Rivedi e approva** &gt; **Approva o Calcola**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

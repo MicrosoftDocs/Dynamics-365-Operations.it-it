@@ -86,6 +86,3 @@ Con l'aggiornamento 24 della piattaforma per Finance and Operations, gli utenti 
 Con questa modifica, i duplicati vengono rilevati durante l'immissione nei campi Nome e uno stato indica il numero di duplicati trovati. È possibile selezionare il collegamento fornito per aprire una nuova pagina e valutare se utilizzare la corrispondenza rilevata. Il modulo Duplicati non si apre automaticamente per non interrompere l'immissione dei dati.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

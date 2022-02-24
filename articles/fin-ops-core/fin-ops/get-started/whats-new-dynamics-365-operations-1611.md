@@ -2,9 +2,11 @@
 title: Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 description: Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 for Operations versione 1611.
 author: sericks007
+manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752810"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797197"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 
@@ -496,7 +498,7 @@ Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 fo
 <li>Formato di pagamento in addebito diretto ISO20022 per l'Italia</li>
 <li>Formato di rimessa raccolta RIBA per l'Italia</li>
 <li>Report di transazioni di imposta nazionale per l'Italia</li>
-<li>Report elenco elementi bloccati per l'Italia</li>
+<li>Report block list per l'Italia</li>
 <li>Report Modello770 per l'Italia</li>
 <li>Report di comunicazione annuale imposte per l'Italia</li>
 </ul>
@@ -621,7 +623,7 @@ Questo argomento descrive le funzionalità nuove o modificate di Dynamics 365 fo
 | Configurare i report ER per generare i documenti elettronici in Excel, in Microsoft Word, o in formato PDF. | Una configurazione consente ai report ER di generare i documenti elettronici in tre diversi formati: Foglio di lavoro OpenXML (Excel), Word e formato XFDF (XML Forms Data Format) (PDF). Gli utenti possono selezionare un formato aggiungendo un modello di formato a una report ER come documento di Excel, Word o PDF. |
 | Configurare i report di ER per inserire i dati nelle intestazioni e nei piè di pagina di documenti elettronici generati nel formato del foglio di lavoro OpenXML e per controllare interruzioni di pagina. | I report di ER possono immettere i dati aziendali nelle intestazioni e nei piè di pagina e anche determinare dove inserire interruzioni di pagina. Di conseguenza, i report possono supportare le sezioni inferiori e superiori statiche delle pagine di documenti elettronici generati. Possono inoltre supportare la paginazione specifica dei documenti, in modo che sono conformi ai requisiti legali. |
 | Configurare la destinazione dei report ER in modo da inviare l'output come messaggi di posta elettronica e in modo da poter utilizzare dati aziendali e la logica ER (espressioni) per specificare, in fase di esecuzione, l'indirizzo di posta elettronica da utilizzare. | In precedenza, alla configurazione di una destinazione ER, l'indirizzo di posta elettronica del destinatario dell'output poteva essere definito in fase di progettazione. È ora possibile configurare un'espressione nel formato ER. Questa espressione può quindi essere selezionata in una destinazione come origine dell'indirizzo di posta elettronica per ogni configurazione di formato e ciascun componente di output (cartella o file) separatamente. Pertanto, quando un report ER è in esecuzione, ogni file generato può essere inviato per posta elettronica a un destinatario diverso e l'indirizzo di posta elettronica può essere definito in base alla logica ER e ai dati aziendali. |
-| Configurare la destinazione dei report ER in modo da inviare l'output nella cartella di Microsoft SharePoint come un nuovo file denominato o nuova versione del file esistente e in modo da poter utilizzare i dati aziendali nel framework di Microsoft Power BI come un set di dati o report. | Quando si configurano i report ER, è ora possibile preparare facilmente (senza codifica) i dati aziendali necessari da poter utilizzare nel framework di Power BI. Quando si eseguono i report ER, è possibile fornire al framework di Power BI i dati aziendali e/o i report di Excel appropriati che sono già disponibili. Se si programma l'esecuzione del report in modalità ricorrente, è possibile stabilire il push programmato dei dati aziendali da Dynamics 365 for Operations a Power BI per supportare la programmazione dell'aggiornamento dei report basati su Power BI. |
+| Configurare la destinazione dei report ER in modo da inviare l'output nella cartella di Microsoft SharePoint come un nuovo file denominato o nuova versione del file esistente e in modo da poter utilizzare i dati aziendali nel framework di Power BI Microsoft come un set di dati o report. | Quando si configurano i report ER, è ora possibile preparare facilmente (senza codifica) i dati aziendali necessari da poter utilizzare nel framework di Power BI. Quando si eseguono i report ER, è possibile fornire al framework di Power BI i dati aziendali e/o i report di Excel appropriati che sono già disponibili. Se si programma l'esecuzione del report in modalità ricorrente, è possibile stabilire il push programmato dei dati aziendali da Dynamics 365 for Operations a Power BI per supportare la programmazione dell'aggiornamento dei report basati su Power BI. |
 | Configurare i report ER per utilizzare la parte del documento elettronico che è già stata generata come origine dati per generare il resto del documento. | È possibile configurare i report ER che creano l'output in formato testo per eseguire il conteggio delle righe documento. Queste informazioni possono quindi essere utilizzate in altre parti del documento per creare righe che includono i dettagli di riepilogo. Le informazioni di riepilogo (totali e numeri) possono essere calcolate e stampate nei documenti elettronici generati, senza richiedere trasformazioni aggiuntive dei dati. Di conseguenza, questa funzionalità migliora le prestazioni di esecuzione dei report e aiuta a semplificare la gestione futura del formato di ER configurato. |
 | Configurare i report ER per specificare l'estensione del file per i documenti elettronici generati in formato testo. | È possibile configurare i report ER per creare l'output in formato testo, in modo che può essere salvato come file con una estensione specifica. Oltre all'estensione predefinita .txt, è possibile configurare estensioni quali .csv e .prn, in conformità alla specifica di formato. |
 | Creare nuovi report ER basati su una versione specifica di un modello ER. | In precedenza, quando si creava un nuovo formato ER, solo la più recente versione del modello ER selezionato poteva essere utilizzata come percorso di origine dati di formato. È ora possibile selezionare qualsiasi versione disponibile del modello ER selezionato. Questa funzionalità consente di gestire i report ER per l'anno corrente e progettare una nuova versione del modello ER per l'anno successivo in parallelo. |
@@ -943,6 +945,3 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

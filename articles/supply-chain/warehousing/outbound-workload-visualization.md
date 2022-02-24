@@ -2,22 +2,24 @@
 title: Visualizzazione del carico di lavoro in uscita
 description: Questo argomento fornisce informazioni sulla visualizzazione del carico di lavoro. Questa funzionalità consente ai responsabili del magazzino e ai supervisori di creare grafici del carico di lavoro personalizzati che possono essere utilizzati per monitorare lo stato di avanzamento del lavoro corrente e la quantità rimanente. I responsabili del magazzino possono creare più visualizzazioni e impostare l'aggiornamento automatico come richiesto.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8416d43fe2b8b08e4d66434a1d95daa4b01a0fa4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576162"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965554"
 ---
 # <a name="outbound-workload-visualization"></a>Visualizzazione del carico di lavoro in uscita
 
@@ -60,7 +62,7 @@ Per impostare una visualizzazione del carico di lavoro in uscita, seguire questi
     - **Giorni da includere** - Immettere il numero di giorni nel passato per i quali il grafico deve essere generato.
     - **Tipo di ordine di lavoro** - Selezionare i tipi di ordini di lavoro in uscita da filtrare.
 
-    ![Configurare la pagina dei filtri.](media/work-viz-filters-1.png "Configurare la pagina dei filtri")
+    ![Configurare la pagina dei filtri](media/work-viz-filters-1.png "Configurare la pagina dei filtri")
 
 1. Chiudere la pagina **Configura filtri** per tornare alla pagina **Visualizzazioni del carico di lavoro in uscita**.
 
@@ -70,11 +72,11 @@ Per impostare una visualizzazione del carico di lavoro in uscita, seguire questi
     - **Ultimo aggiornamento** - Questo campo mostra la data e l'ora dell'ultimo aggiornamento delle informazioni nel grafico.
     - **Tempo stimato/effettivo** - Se gli standard di lavoro sono impostati nel sistema, impostare questa opzione su *Sì* per mostrare i tempi di prelievo stimati accumulati nella parte superiore di ogni colonna nel grafico. Se non si utilizzano gli standard di lavoro, questa opzione non è disponibile.
 
-    ![Visualizzazione di esempio.](media/work-viz-chart.png "Visualizzazione di esempio")
+    ![Visualizzazione di esempio](media/work-viz-chart.png "Visualizzazione di esempio")
 
 1. Selezionare una barra qualsiasi nel grafico per visualizzare i dettagli della riga di lavoro associata.
 
-    ![Dettagli riga di lavoro.](media/work-viz-work-details.png "Dettagli riga di lavoro")
+    ![Dettagli riga di lavoro](media/work-viz-work-details.png "Dettagli riga di lavoro")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Esempio: visualizzazione del carico di lavoro in uscita per le zone
 
@@ -92,9 +94,6 @@ Per questo esempio, si desidera impostare una visualizzazione che mostri le righ
 
 Nella figura seguente è illustrato un esempio del grafico risultante.
 
-![Visualizzazione della zona e dello stato di lavoro.](media/work-viz-chart.png "Visualizzazione della zona e dello stato di lavoro")
+![Visualizzazione della zona e dello stato di lavoro](media/work-viz-chart.png "Visualizzazione della zona e dello stato di lavoro")
 
 Questo grafico mostra due zone denominate **FLOOR** e **BULK**, più una zona denominata **Blank**. La zona **Blank** rappresenta tutte le righe di lavoro che non sono membri di nessuna zona. Il grafico mostra sempre tutti i dati filtrati non correlati come **Blank**, per fornire la massima visibilità possibile. Nella zona **FLOOR**, il grafico mostra tre righe chiuse e quattro righe aperte. Nella zona **BULK**, il grafico mostra quattro righe chiuse, una riga aperta e 24 righe annullate. Infine, il grafico mostra otto righe chiuse che non fanno parte di alcuna zona e sono quindi elencate come **Blank**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

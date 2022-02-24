@@ -1,35 +1,33 @@
 ---
 title: Visualizzare e valutare i risultati dei questionari
-description: In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano.
-author: twheeloc
-ms.date: 10/28/2021
+description: In questo articolo viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070704"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419257"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Visualizzare e valutare i risultati dei questionari
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano. 
+In questo articolo viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano. 
 
 Dopo che gli intervistati avranno compilato un questionario, sarà possibile vedere e valutare i risultati del questionario nei modi seguenti:
 
@@ -54,7 +52,7 @@ Dopo che gli intervistati hanno compilato un questionario, è possibile visualiz
 
 Dalla pagina **Risposte**, è possibile visualizzare i dettagli sulle risposte, i punti ottenuti, le risposte di un intervistato in ciascun gruppo di risultati e la gerarchia delle domande utilizzata nel questionario selezionato, se un gerarchia di domante è stata usata. È inoltre possibile generare e stampare i report seguenti:
 
--   **Report di risultati**: questo report mostra una rappresentazione grafica di punti che sono stati ottenuti per gruppo di risultati della sessione di risposte selezionata.
+-   **Report di risultati**: questo report mostra una rappresentazione grafica di punti che sono stati ottenuti per gruppo di risultati della sessione di risposte selezionata.
 -   **Report risposte**: il report mostra le risposte che l'intervistato ha selezionato per ciascuna domanda del questionario.
 -   **Risposte errate**: questo report mostra le informazioni correlate alle risposte errate selezionate dall'intervistato.
 
@@ -74,5 +72,3 @@ Dalla pagina **Risposte**, è possibile visualizzare i dettagli sulle risposte, 
 -   Selezionare o verificare i criteri per analizzare i risultati per caratteristiche del questionario o dell'intervistato. Ad esempio, selezionando **Codice postale (CAP)**, è possibile analizzare la correlazione tra l'ubicazione di un intervistato e le risposte corrette.
 
 Le impostazioni definite vengono salvate e possono essere utilizzate per ricalcolare periodicamente i risultati.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

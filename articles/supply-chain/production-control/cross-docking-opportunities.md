@@ -2,25 +2,28 @@
 title: Eseguire il cross-docking da ordini di produzione a banchine di uscita
 description: In questo argomento viene descritto come gestire il processo del materiale di cross-docking che viene dichiarato finito in una riga di produzione per una banchina di trasporto di uscita.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431496"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Eseguire il cross-docking da ordini di produzione a banchine di uscita
 
@@ -28,7 +31,8 @@ ms.locfileid: "6715748"
 
 In questo argomento viene descritto come gestire il processo del materiale di cross-docking che viene dichiarato finito in una riga di produzione per una banchina di trasporto di uscita.
 
-## <a name="introduction"></a>Introduzione
+<a name="introduction"></a>Introduzione
+------------
 
 Il cross-docking dalla produzione a una posizione di uscita è rilevante per i produttori che producono alti volumi e idealmente desiderano spedire i prodotti finiti non appena vengono dichiarati finiti nelle righe di produzione. L'obiettivo è la spedizione dei prodotti ai centri di distribuzione che si trovano fisicamente vicini alla richiesta di approvvigionamento, anziché l'accumulo nel sito di fabbricazione.
 
@@ -42,7 +46,7 @@ Un prodotto viene dichiarato finito per l'ubicazione di uscita di produzione (3
 -   Se un rimorchio è già assegnato all'hangar, l'autista del camion verrà istruito per caricare il prodotto direttamente nel rimorchio.
 -   Se non è presente alcuna attività pianificata per il trasferimento del prodotto, il conducente del carrello elevatore verrà istruito di stoccare il prodotto in un'ubicazione del magazzino interno (5).
 
-[![cross-docking opportunistico.](./media/scenario1.png)](./media/scenario1.png)
+[![cross-docking opportunistico](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Configurare il cross-docking
 Il processo di cross-docking si configura nei **criteri di lavoro**. I criteri di lavoro includono un tipo di ordine di lavoro, un'ubicazione e un prodotto. Nel seguente esempio, il cross-docking è configurato per il prodotto X e l'ubicazione Y.
@@ -123,6 +127,3 @@ Dopo che un prodotto viene dichiarato finito nella riga di produzione, viene tra
 -   Lo scenario di cross-docking è supportato per gli articoli controllati di serie e batch, entrambi con dimensioni di numero di serie e batch definite sopra e sotto l'ubicazione nella gerarchia di prenotazione. 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

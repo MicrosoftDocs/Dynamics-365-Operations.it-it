@@ -2,23 +2,26 @@
 title: Controllo qualità
 description: In questo argomento vengono fornite informazioni sulla funzionalità di controllo di qualità. Questa funzionalità consente ai magazzinieri di effettuare rapidi controlli a campione sulla qualità mentre ricevono articoli nell'area della banchina di entrata.
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a3a565ea566dd2bf4d8c793b3340c78c9f4ed0a2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565305"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431546"
 ---
 # <a name="quality-check"></a>Controllo qualità
 
@@ -180,7 +183,7 @@ Per ulteriori informazioni sui modelli di lavoro, vedere [Controllo del lavoro d
 Le direttive ubicazione sono regole che aiutano a identificare le ubicazioni di prelievo e stoccaggio per il movimento scorte. Ad esempio, in una transazione dell'ordine cliente, la direttiva ubicazione determina il punto di prelievo e il punto di stoccaggio degli articoli. È necessario configurare una regola della direttiva ubicazione per definire come verranno gestiti i controlli di qualità non superati.
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Direttiva ubicazione**.
-1. Nel riquadro sinistro, impostare il campo **Tipo di ordine di lavoro** su *Ordini fornitore* per lavorare con le direttive ubicazioni di quel tipo.
+1. Nel riquadro sinistro, impostare il campo **Tipo di ordine di lavoro** su *Ordini di acquisto* per lavorare con le direttive ubicazioni di quel tipo.
 1. Nel riquadro azioni selezionare **Nuovo** per creare una direttiva ubicazione per i controlli di qualità.
 1. Nell'intestazione, imposta i seguenti valori:
 
@@ -299,7 +302,7 @@ Dopo che l'ordine fornitore è stato creato, può essere ricevuto utilizzando la
 
 #### <a name="receive-pallet-1"></a>Ricevere il pallet 1
 
-1. Accedi all'app per dispositivi mobili Gestione magazzino come utente nel magazzino *51*. (Immettere *51* come ID utente e *1* come password).
+1. Accedere all'app di magazzino come utente nel magazzino *51*. (Immettere *51* come ID utente e *1* come password).
 1. Passare a **In entrata \> Ricezione riga PO**.
 1. Nel campo **PONUM**, immettere il numero dell'ordine fornitore.
 1. Confermare il numero dell'ordine fornitore.
@@ -310,7 +313,7 @@ Dopo che l'ordine fornitore è stato creato, può essere ricevuto utilizzando la
 
     La pagina **Controllo qualità** visualizzata non ha campi di immissione. Ha solo il pulsante di conferma (segno di spunta) in basso e il pulsante Menu (**≡**) in cima. (Il pulsante Menu viene talvolta definito hamburger o pulsante hamburger). Per accelerare il processo di controllo qualità, quando il pallet supera il controllo qualità, l'utente conferma la pagina **Controllo qualità**.
 
-    ![Pagina Controllo qualità.](media/quality-check.png "Pagina Controllo qualità")
+    ![Pagina Controllo qualità](media/quality-check.png "Pagina Controllo qualità")
 
 1. Selezionare il pulsante di conferma per superare il controllo di qualità per il pallet 1 dalla riga 1.
 
@@ -394,6 +397,3 @@ Per questo scenario, il pallet 3 verrà accettato.
 1. Selezionare il pulsante Menu (**≡**) nella parte superiore della pagina, quindi dal menu selezionare **Annulla** per tornare al menu.
 
 Ora è possibile chiudere l'app per dispositivi mobili.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,33 +2,34 @@
 title: Home page di Commerce
 description: Home page di Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: ''
-ms.custom:
-- "260624"
-- intro-internal
+ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2fc5746d3a05eb85afbcb73079146fee899cebc7
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595362"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4413604"
 ---
 # <a name="commerce-home-page"></a>Home page di Commerce
 
 [!include [banner](includes/banner.md)]
+
 
 Dynamics 365 Commerce si basa sulle funzionalità consolidate di Dynamics 365 Retail e offre una soluzione omnicanale completa che unifica le esperienze di back office, punto vendita, call center e area Digital. Dynamics 365 Commerce consente di sviluppare la fedeltà al marchio mediante servizi personalizzati offerti ai clienti, di aumentare i ricavi con una migliore produttività dei dipendenti, di ottimizzare le operazioni per ridurre i costi e favorire l'efficacia della catena di approvvigionamento e quindi di ottenere risultati aziendali migliori.
 
@@ -40,14 +41,13 @@ Questa versione consente di creare esperienze digitali utilizzando strumenti di 
 
 - **Esperienza multicanale flessibile e intelligente:** unificare l'attività commerciale fisica e digitale fornendo esperienze coerenti ai clienti quanto a funzionalità di ricerca e rilevamento cloud, recensioni sui prodotti, elenchi preferenze, scorte, gift card e programmi fedeltà. Consentire ai clienti di acquistare quando, come e dove vogliono, su qualsiasi dispositivo, fornendo nel contempo la possibilità di scegliere tra metodi di pagamento moderni e il ritiro o la consegna dei prodotti.
 
-- **Semplificare le operazioni utilizzando l'intelligenza artificiale nel cloud:** promuovere esperienze commerciali multicanale e operazioni di back office incorporate e ottimizzate mediante soluzioni di intelligenza cloud integrate, coinvolgenti e compatibili con il contesto. Utilizzare il merchandising avanzato, la gestione delle scorte, la gestione ordini distribuiti e politiche di determinazione di prezzi e promozioni per innovare e battere la concorrenza. Ottenere informazioni dettagliate visualizzando e analizzando dati completi e coerenti in tutti gli aspetti della propria attività. Utilizzare tecnologie basate sull'intelligenza artificiale per fornire siti Web accessibili, proteggere la propria attività da frodi nei pagamenti e moderare efficacemente il contenuto generato dagli utenti come le valutazioni e le recensioni.
+- **Semplificare le operazioni utilizzando l'intelligenza artificiale nel cloud:** promuovere esperienze commerciali multicanale e operazioni di back office incorporate e ottimizzate mediante soluzioni di intelligenza cloud integrate, coinvolgenti e compatibili con il contesto. Utilizzare il merchandising avanzato, la gestione delle scorte, la gestione ordini distribuiti e politiche di determinazione di prezzi e promozioni per innovare e battere la concorrenza. Ottenere informazioni dettagliate visualizzando e analizzando dati completi e coerenti in tutti gli aspetti della propria attività. Utilizzare tecnologie basate sull'intelligenza artificiale per fornire siti Web accessibili, proteggere la propria attività da frodi nei pagamenti e moderare efficacemente il contenuto generato dagli utenti come le valutazioni e le recensioni. 
 
 ## <a name="core-concepts-and-tasks"></a>Concetti e attività principali
 
 Selezionare l'area di una funzionalità per ulteriori informazioni.
-
 - [Configurare un ambiente di anteprima Commerce](provisioning-guide.md)
-- [Architettura di Commerce](./commerce-architecture.md)
+- [Architettura di Commerce](retail-components.md)
 - [Impostare i canali](channels-overview.md)
 - [Merchandising di prodotti e servizi](set-up-retail-products.md)
 - [Gestire gli ordini](Order-fulfillment-overview.md)
@@ -56,7 +56,3 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 - [Gestire un sito di e-commerce](online-store-overview.md)
 - [Fraud Protection](dev-itpro/DFP.md)
 - [Sviluppo ed estendibilità del commercio](dev-itpro/dev-retail-home-page.md)
-
-## <a name="elearning-courses"></a>Corsi eLearning
-
-Per corsi online e formazione, vedere [Dynamics 365 Commerce su Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path).

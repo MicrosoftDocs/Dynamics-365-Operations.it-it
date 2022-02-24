@@ -1,13 +1,16 @@
 ---
-title: Moduli e pagine gestione conti
+title: Pagine e moduli di gestione account
 description: In questo argomento vengono descritti le pagine e i moduli di gestione account in Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 03/17/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b26f9f83ad368a7e0fbc0ffe1263a8fec86f99b8a66ee6c4a28d5e061efbc21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716252"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413376"
 ---
-# <a name="account-management-pages-and-modules"></a>Moduli e pagine gestione conti
+# <a name="account-management-pages-and-modules"></a>Pagine e moduli di gestione account
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti le pagine e i moduli di gestione account in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 La gestione account fa riferimento a un gruppo di pagine utilizzate per gestire informazioni correlate all'account utente in Dynamics 365 Commerce. Le pagine di gestione account includono la pagina di destinazione di gestione account e le pagine Profilo utente, Indirizzi utente, Storico ordini, Dettagli ordine, Programma fedeltà e Elenco preferenze.
 
@@ -49,9 +54,9 @@ La pagina Storico ordini utilizza il modulo Storico ordini per visualizzare tutt
 
 La pagina Dettagli ordine fornisce informazioni dettagliate per ogni ordine ed è accessibile dalla pagina Storico ordini. Utilizza il modulo Dettagli ordine, che richiede l'ID vendita o l'ID transazione per recuperare i dettagli dell'ordine.
 
-### <a name="my-profile-page"></a>Pagina profilo
+### <a name="user-profile-page"></a>Pagina Profilo utente
 
-La pagina Profilo personale mostra i dettagli del profilo dell'account utente utilizzando il modulo del profilo dell'account. La pagina mostra l'indirizzo e-mail associato all'account utente, nonché le preferenze impostate per l'account. Se si impostano attributi cliente personalizzati, anche la sezione "Informazioni aggiuntive" visualizzerà tali attributi. Gli utenti possono modificare il proprio nome, le preferenze o le informazioni aggiuntive (se disponibili).
+La pagina Profilo utente visualizza i dettagli sull'account utente, ad esempio un nome e un indirizzo di posta elettronica dell'utente. Utilizza i dettagli del profilo utente e i moduli di modifica del profilo utente. L'indirizzo di posta elettronica non può essere rimosso, ma può essere modificato. La pagina del profilo utente mostra anche le preferenze dell'utente che consentono di attivare o disattivare alcune funzionalità come la personalizzazione degli elenchi dei suggerimenti. 
 
 ### <a name="user-address-page"></a>Pagina Indirizzi utente
 
@@ -84,6 +89,3 @@ Per iscriversi al programma fedeltà, è possibile creare una pagina di marketin
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -153,6 +153,3 @@ Un'offerta può essere ritirata a un candidato in qualsiasi momento per diversi 
 ## <a name="closing-an-offer"></a>Chiusura di un'offerta 
 
 Quando un'offerta è stata accettata, rifiutata o ritirata senza ulteriori azioni necessarie, è possibile chiudere l'offerta in modo che non sia possibile apportare ulteriori modifiche al pacchetto di offerta.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

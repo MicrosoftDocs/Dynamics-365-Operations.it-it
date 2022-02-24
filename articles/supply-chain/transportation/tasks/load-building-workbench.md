@@ -2,28 +2,29 @@
 title: Workbench di allestimento del carico
 description: Questo argomento descrive come lavorare con il workbench allestimento del carico.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 306ca4f77d9c1d4879d750992e51c8b83917839e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574859"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646405"
 ---
 # <a name="load-building-workbench"></a>Workbench di allestimento del carico
-
-[!include [banner](../../includes/banner.md)]
 
 Il workbench allestimento del carico consente di applicare strategie di allestimento del carico durante la creazione dei carichi.
 
@@ -66,6 +67,3 @@ Per creare una strategia di allestimento del carico, attenersi alla procedura se
 1. Rivedere i carichi proposti e le righe di carico proposte.
 1. Nel riquadro azioni selezionare **Crea carichi** per creare carichi basati sulle righe del documento di origine nella scheda dettaglio **Righe carico proposte**.
 1. Chiudere la pagina **Workbench di allestimento del carico**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

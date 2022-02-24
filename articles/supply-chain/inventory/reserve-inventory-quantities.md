@@ -1,26 +1,29 @@
 ---
 title: Prenotare quantità di scorte
 description: In questo argomento vengono descritte le diverse opzioni disponibili per prenotare le scorte.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ea7311ce34fec476ad9953e954a07a86acd13afc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571139"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431420"
 ---
 # <a name="reserve-inventory-quantities"></a>Prenotare quantità di scorte
 
@@ -46,7 +49,7 @@ I criteri di prenotazione scorte sono impostati nella pagina **Gruppi di modelli
 
 La sezione **Criteri di inventario** contiene i criteri di prenotazione seguenti.
 
-| &nbsp;                  | &nbsp;                                                                                                                                     |
+|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Criterio di prenotazione**  | **Descrizione**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Controllo in base a data FIFO    | Se si seleziona l'opzione **Controllo in base a data FIFO**, la prenotazione delle scorte viene controllata in base alla data di ordinamento secondo il principio FIFO (First In, First Out). I batch sono prenotati in base alla prima data di entrata degli articoli secondo il principio FIFO (First In, First Out).                                                                                                                                                                                                                                                                       |
@@ -80,6 +83,3 @@ Sono disponibili due opzioni relative alle prenotazioni nella pagina **Parametri
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Criteri di prenotazione scorte nella pagina Parametri di produzione
 
 Il valore del campo **Prenotazione** nella scheda **Generale** della pagina **Parametri di produzione** determina il punto predefinito nel processo di produzione in cui dovranno essere prenotate le scorte. Ad esempio, le scorte possono essere prenotate quando il lavoro viene programmato oppure iniziato.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Rifornimento con kanban di prelievo
 description: Questo argomento descrive come viene utilizzato il kanban di prelievo per il rifornimento di materiale per le attività di produzione.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431464"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Rifornimento con kanban di prelievo
 
@@ -30,12 +33,13 @@ ms.locfileid: "6742586"
 Questo argomento descrive come viene utilizzato il kanban di prelievo per il rifornimento di materiale per le attività di produzione.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Flusso di lavoro per il rifornimento di materiale che utilizza il kanban di prelievo
+-------------------------------------------------------------------
 
 Il kanban di prelievo può essere utilizzato per spostare un kanban di un singolo articolo tra magazzini e le ubicazioni di produzione in cui il materiale viene consumato. Il kanban di prelievo supporta a una soluzione basata su pull per il rifornimento di materiale, in cui un segnale pull è necessario per attivare l'offerta per una domanda specifica. 
 
 Lo scenario seguente mostra un sistema di rifornimento basato su pull in cui un segnale pull attiva la creazione di un kanban per il rifornimento del materiale per un processo di produzione. 
 
-[![Segnale pull che attiva la creazione di un kanban per il rifornimento di materiale per un processo di produzione.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Segnale pull che attiva la creazione di un kanban per il rifornimento di materiale per un processo di produzione](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanban di prelievo
 2.  Ubicazione "da" e di stoccaggio finale del kanban per lavoro magazzino
@@ -72,7 +76,7 @@ Se la distanza tra ubicazioni di magazzino e l'ubicazione di entrata produzione 
 
 Nel seguente scenario, l'attività di trasferimento del kanban di prelievo viene configurata per il trasferimento tra due ubicazioni nello stesso magazzino. L'attività di trasferimento del kanban di prelievo viene impostata in modo che venga completata automaticamente. 
 
-[![L'attività di trasferimento viene completata automaticamente quando il lavoro di prelievo del kanban viene elaborato.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![L'attività di trasferimento viene completata automaticamente quando il lavoro di prelievo del kanban viene elaborato](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Magazzino condiviso per materie prime e produzione
 2.  Ubicazioni di magazzino per materie prime
@@ -83,6 +87,3 @@ Nel seguente scenario, l'attività di trasferimento del kanban di prelievo viene
 
 Dopo che un kanban è stato utilizzato nell'ubicazione entrata produzione, viene segnalato come vuoto e un nuovo kanban viene aggiunto al flusso. Quando il kanban viene creato, una riga di ondata viene aggiunta a un'ondata kanban. Quando l'ondata kanban viene elaborata, il lavoro di magazzino per il prelievo di kanban viene creato. Il lavoratore di magazzino elabora il lavoro per il prelievo di kanban e viene indirizzato dal lavoro per prelevate il materiale per il kanban in un'ubicazione di magazzino. Non appena il lavoratore di magazzino conferma il prelievo, il kanban viene automaticamente completato e il lavoratore del magazzino viene indirizzato a  collocare il materiale nell'ubicazione di entrata produzione.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

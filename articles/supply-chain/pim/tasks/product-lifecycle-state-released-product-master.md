@@ -1,23 +1,26 @@
 ---
 title: Assegnare uno stato del ciclo di vita prodotto a una rappresentazione generale prodotto rilasciato
 description: In questa procedura viene illustrato come assegnare uno stato del ciclo di vita del prodotto a una rappresentazione generale prodotto rilasciato e alle varianti.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 217bab38544c2794d2e57410f8c2a979605106b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2c644f118e0bdb46b296cec7e4a3ea89031f2d52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567009"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431001"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Assegnare uno stato del ciclo di vita prodotto a una rappresentazione generale prodotto rilasciato
 
@@ -51,6 +54,3 @@ In questa procedura viene illustrato come assegnare uno stato del ciclo di vita 
 2. Nell'elenco contrassegnare la riga selezionata.
 3. Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

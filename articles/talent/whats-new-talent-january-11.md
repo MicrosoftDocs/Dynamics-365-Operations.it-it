@@ -67,6 +67,3 @@ Quando l'area di lavoro **Dipendente self-service** viene selezionata come pagin
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>Il codice del motivo di fine rapporto aggiorna il record di assegnazione della posizione
 Il codice del motivo di fine rapporto ora aggiorna l'assegnazione della posizione quando si chiude un rapporto dipendente e si termina la posizione. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

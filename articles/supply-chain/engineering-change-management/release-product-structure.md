@@ -2,9 +2,11 @@
 title: Rilasciare le strutture del prodotto
 description: Questo argomento spiega come rilasciare le strutture del prodotto complete oltre a rilasciare i prodotti insieme alle loro versioni di progettazione. In questo modo, è possibile garantire che i dati del prodotto rilevanti per la progettazione possano essere facilmente riutilizzati in diverse persone giuridiche.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567489"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967233"
 ---
 # <a name="release-product-structures"></a>Rilasciare le strutture del prodotto
 
@@ -75,6 +77,8 @@ Per un esempio di come accettare un prodotto, vedere [Esaminare e accettare il p
 
 Non tutte le società operative necessitano degli stessi dati del prodotto. In generale, le società operative che producono prodotti di progettazione richiedono una DBA, mentre le società operative che vendono solo prodotti di progettazione non richiedono una DBA. È possibile utilizzare i criteri di rilascio per stabilire i parametri utilizzati per il rilascio dei prodotti.
 
+Per i prodotti di progettazione, i criteri di rilascio vengono assegnati nella categoria del prodotto di progettazione e il campo è obbligatorio. Per i prodotti standard, i criteri vengono assegnati al prodotto condiviso e il campo è facoltativo.
+
 Per ulteriori informazioni sulle categorie di prodotti di progettazione, vedere [Versioni di progettazione e categorie di prodotti di progettazione](engineering-versions-product-category.md).
 
 Durante il processo di rilascio, è possibile influenzare le impostazioni.
@@ -91,19 +95,18 @@ Per lavorare con i criteri di rilascio del prodotto, andare a **Gestione modific
 
 Impostare i seguenti campi nell'intestazione dei criteri di rilascio del prodotto.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Nome | Immetti un nome per il criterio. |
-| Descrizione | Immettere una descrizione dei criteri. |
+| descrizione | Immettere una descrizione dei criteri. |
 
 ### <a name="general-fasttab"></a>Scheda dettaglio Generale
 
 Impostare i seguenti campi nella scheda dettaglio **Generale** dei criteri di rilascio del prodotto.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | Tipo di prodotto | Selezionare se il criterio si applica ai prodotti di tipo *Articolo* o *Servizio*. Non è possibile modificare questa impostazione dopo aver salvato il record. |
-| Tipo di produzione | Questo campo viene visualizzato solo quando hai abilitato la [gestione delle modifiche alla formula](manage-formula-changes.md) nel tuo sistema. Seleziona il tipo di produzione a cui si applicano questi criteri di rilascio:<ul><li>**Co-prodotto**: utilizza questi criteri di rilascio per gestire i co-prodotti. I coprodotti vengono prodotti durante la produzione di processo e non sono prodotti di progettazione o versione. I criteri di rilascio per i co-prodotti possono garantire che le impostazioni importanti, come **Gruppo di dimensioni di immagazzinamento** e **Gruppo di dimensioni di tracciabilità**, vengono impostati utilizzando un modello di prodotto rilasciato prima di essere rilasciati a un'azienda.</li><li>**Sottoprodotto**: utilizza questi criteri di rilascio per gestire i sottoprodotti. I sottoprodotti vengono prodotti durante la produzione di processo e non sono prodotti di progettazione o versione. I criteri di rilascio per i sottoprodotti possono garantire che le impostazioni importanti, come **Gruppo di dimensioni di immagazzinamento** e **Gruppo di dimensioni di tracciabilità**, vengono impostati utilizzando un modello di prodotto rilasciato prima di essere rilasciati a un'azienda.</li><li>**Nessuno**: utilizza questi criteri per gestire i prodotti standard che non sono prodotti con versione o di progettazione oppure co-prodotti o sottoprodotti.</li><li>**Elemento di pianificazione**: utilizza questi criteri di rilascio per gestire gli elementi di pianificazione prodotti utilizzando la produzione di processo. Gli elementi di pianificazione utilizzano formule. Assomigliano a formule, ma vengono utilizzati per produrre solo co-prodotti e sottoprodotti, non prodotti finiti.</li><li>**BOM**: utilizza questi criteri di rilascio per gestire i prodotti di progettazione, che non utilizzano formule e in genere (ma non necessariamente) includono le distinte materiali.</li><li>**Formula**: utilizza questi criteri di rilascio per gestire i prodotti finiti prodotti utilizzando la produzione di processo. Questi articoli avranno una formula ma non una distinta base.</li></ul> |
 | Applica modelli | Selezionare una delle seguenti opzioni per specificare se e come applicare i modelli di rilascio del prodotto quando vengono utilizzati i criteri:<ul><li>**Sempre** - Un modello di prodotto rilasciato deve essere sempre utilizzato per le versioni. Se si seleziona questa opzione, utilizzare la scheda dettaglio **Tutti i prodotti** per specificare il modello utilizzato per ciascuna società a cui si rilascia. Se non specifichi un modello per ogni società elencata nella scheda dettaglio **Tutti i prodotti** viene visualizzato un errore quando si prova a salvare il criterio.</li><li>**Facoltativo** - Se un modello di prodotto rilasciato è specificato per una società elencata nella scheda dettaglio **Tutti i prodotti**, quel modello verrà utilizzato quando si rilascia a quella società. In caso contrario, non verrà utilizzato alcun modello. Se si seleziona questa opzione, è possibile salvare i criteri senza assegnare modelli a tutte le società. Non verrà visualizzato alcun avviso.</li><li>**Mai** - Nessun modello di prodotto rilasciato verrà utilizzato per alcuna società a cui si rilascia, anche se un modello è specificato per le società elencate nella scheda dettaglio **Tutti i prodotti**. Le colonne del modello non saranno disponibili.</li></ul> |
 | Attive | Usare questa opzione per gestire i criteri di rilascio. Impostare su *Sì* per tutti i criteri di rilascio in uso. Impostare su *No* per contrassegnare un criterio di rilascio come inattivo quando non viene utilizzato. Si noti che non è possibile disattivare un criterio di rilascio assegnato a una categoria di prodotti di progettazione ed è possibile eliminare solo i criteri di rilascio inattivi. |
 
@@ -114,7 +117,7 @@ Nella Scheda dettaglio **Tutti i prodotti**, aggiungere una riga per ciascuna so
 > [!NOTE]
 > Le impostazioni nella Scheda dettaglio **Tutti i prodotti** si applicano sia ai prodotti di progettazione che ai prodotti standard.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | ID conto società | Selezionare la società a cui si applica la riga. I parametri sulla riga verranno applicati quando i prodotti verranno rilasciati a questa società. |
 | Prodotto rilasciato modello | Aggiungere un modello per il prodotto. |
@@ -132,7 +135,7 @@ Per ogni riga che viene mostrata nella scheda dettaglio **Parametri delle opzion
 > [!NOTE]
 > Le impostazioni nella scheda dettaglio **Parametri delle opzioni per i prodotti di progettazione** si applicano solo ai prodotti di progettazione.
 
-| Campo | Descrizione |
+| Campo | descrizione |
 |---|---|
 | DBA modello | Quando viene rilasciato un prodotto con una DBA, verranno aggiunte le righe del modello DBA specificato. Questo campo è utile per aggiungere componenti locali, come imballaggi o istruzioni nella lingua locale. |
 | Ciclo di lavorazione modello | Quando viene rilasciato un prodotto con un ciclo di lavorazione, verranno aggiunte le righe del modello ciclo di lavorazione specificato. |
@@ -156,6 +159,3 @@ Questo comportamento si applica solo quando un prodotto viene selezionato dirett
 Ad esempio, il prodotto X è assegnato al gruppo di proprietari di prodotto *Armadi di design*. Il prodotto X fa anche parte della distinta base del prodotto Y, che è assegnato a gruppo di proprietari del prodotto *Altoparlanti di design*. Se un utente del gruppo di proprietari del prodotto *Altoparlanti di design* rilascia il prodotto Y e la relativa distinta base, il prodotto X verrà rilasciato insieme al prodotto Y.
 
 Per ulteriori informazioni, vedere [Proprietari del prodotto](product-owner.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Creare manualmente suggerimenti mirati
 description: In questo argomento viene illustrato come i merchandiser possono creare e gestire manualmente elenchi di prodotti per i clienti di Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f8142bb8a23e467ba38e3d22b070c2d275c95f506a3cc263dcd2986f60fb5860
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9ce8887f3cd7da0e250d3b0ffe96b222953de44
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729892"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965355"
 ---
 # <a name="manually-create-curated-recommendations"></a>Creare manualmente suggerimenti mirati
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene illustrato come i merchandiser possono creare e gestire manualmente elenchi di suggerimenti sui prodotti per i clienti di Microsoft Dynamics 365 Commerce.
+In questo argomento viene illustrato come i merchandiser possono creare e gestire manualmente elenchi di suggerimenti per prodotti per i clienti di Microsoft Dynamics 365 Commerce.
 
 Gli elenchi curati sono raccolte di singoli contenuti creati e gestiti da persone.  
 
@@ -47,7 +49,7 @@ Per creare un elenco curato di suggerimenti sul prodotto, effettuare le operazio
 
 ## <a name="example-list"></a>Esempio di elenco
 
-![Esempio di elenco curato nel back office.](./media/examplecuratedrecolist.png)
+![Esempio di elenco curato nel back office](./media/examplecuratedrecolist.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -72,6 +74,3 @@ Per creare un elenco curato di suggerimenti sul prodotto, effettuare le operazio
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

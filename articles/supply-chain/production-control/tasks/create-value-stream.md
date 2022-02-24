@@ -1,25 +1,27 @@
 ---
 title: Creare un flusso del valore
 description: I flussi del valore sono unità operative che raggruppano uno o più flussi di produzione.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, DefaultDashboard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c1c590af8f3a309d2cf5cbdd13158650197e570
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b3ffc8f96a0c85e032aa2c8e1a371d08b8877a88
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576810"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966307"
 ---
 # <a name="create-a-value-stream"></a>Creare un flusso del valore
 
@@ -46,6 +48,3 @@ I flussi del valore sono unità operative che raggruppano uno o più flussi di p
 2. Chiudere la pagina.
 3. Aggiorna la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

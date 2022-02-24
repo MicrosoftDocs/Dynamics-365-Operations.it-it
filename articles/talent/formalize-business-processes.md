@@ -73,6 +73,3 @@ Per creare o copiare un modello di processo aziendale o per avviare un processo 
 
 Per visualizzare i processi attivi e le attività associate spostarsi sull'area di lavoro **Processi aziendali**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

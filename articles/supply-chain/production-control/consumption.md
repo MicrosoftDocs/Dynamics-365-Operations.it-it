@@ -2,13 +2,16 @@
 title: Calcolare il consumo di materiali
 description: Questo articolo fornisce informazioni sulle varie opzioni correlate al calcolo del consumo materiali.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 53401
 ms.assetid: 9cff88e4-0425-4707-9178-3c2cb10df7c2
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e62d49b5fa2b26c34106e5bbf3dfbc27145e5c4e9acf798b8faef273d8957e51
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f58365278200344169b93658e9c92dea2bc4f18f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776874"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431215"
 ---
 # <a name="calculate-material-consumption"></a>Calcolare il consumo di materiali
 
@@ -43,15 +46,15 @@ Nel campo **Formula** è possibile impostare diverse formule per il calcolo dl c
 -   (Altezza \* Larghezza \* Profondità / Densità) \* Costante
 
 ## <a name="rounding-up-and-multiples"></a>Arrotondamento per eccesso e multipli
-I campi **Arrotondamento per eccesso** e **Multipli** consentono di arrotondare il valore del consumo materiali. Ad esempio, è possibile arrotondare il valore in base all'unità movimentazione in cui le materie prime vengono prelevate per la produzione. Nel campo **Arrotondamento per eccesso** sono disponibili le seguenti opzioni: **Quantità**, **Misura** e **Consumo**.
+I campi **Arrotondamento per eccesso** e **Multipli** consentono di arrotondare il valore del consumo materiali. Ad esempio, è possibile arrotondare il valore in base all'unità movimentazione in cui le materie prime vengono prelevate per la produzione. Nel campo **Arrotondamento per eccesso** sono disponibili le seguenti opzioni: **Quantità**, **Misurazione** e **Consumo**.
 
 ### <a name="quantity"></a>Quantità
 
 Se si seleziona **Quantità** come meccanismo di arrotondamento per eccesso, la quantità deve essere un multiplo della quantità specificata. Se ad esempio sono necessari numeri interi, selezionare **1** nel campo **Multipli**. I numeri vengono arrotondati per eccesso a una quantità divisibile per 1.
 
-### <a name="measurement"></a>Misura
+### <a name="measurement"></a>Misurazione
 
-In genere, si seleziona **Misura** come meccanismo di arrotondamento per eccesso quando le materie prime provengono in dimensioni specifiche. Ad esempio, un pezzo di tubo di metallo di 2 metri è necessario per un prodotto finito e il tubo di metallo viene immagazzinato in lunghezze di 4,5 metri. In questo caso, il meccanismo di arrotondamento per eccesso **Misura** può essere utilizzato per calcolare il numero tubi di metallo necessari per produrre un numero specifico di pezzi del prodotto finito. Per questo esempio, il campo **Formula** è impostato su **Altezza \* Costante**. Il campo **Altezza** è impostato su **2** per indicatore la lunghezza del tubo necessario per il prodotto finito. Il campo **Multiplo** è impostato su **4,5** per indicare che il tubo viene prelevato in lunghezze di 4,5 metri. Questo è il calcolo:
+In genere, si seleziona **Misurazione** come meccanismo di arrotondamento per eccesso quando le materie prime provengono in dimensioni specifiche. Ad esempio, un pezzo di tubo di metallo di 2 metri è necessario per un prodotto finito e il tubo di metallo viene immagazzinato in lunghezze di 4,5 metri. In questo caso, il meccanismo di arrotondamento per eccesso **Misurazione** può essere utilizzato per calcolare il numero tubi di metallo necessari per produrre un numero specifico di pezzi del prodotto finito. Per questo esempio, il campo **Formula** è impostato su **Altezza \* Costante**. Il campo **Altezza** è impostato su **2** per indicatore la lunghezza del tubo necessario per il prodotto finito. Il campo **Multiplo** è impostato su **4,5** per indicare che il tubo viene prelevato in lunghezze di 4,5 metri. Questo è il calcolo:
 
 1.  Numero di multipli necessari per 10 pezzi del prodotto finito: 10 ÷ 2 = 5 pezzi
 2.  Consumo totale: metri 4,5 × 5 = 22,5 di tubo di metallo
@@ -79,6 +82,3 @@ La quantità nella distinta base (DBA) è 1 e la quantità di produzione è 110.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

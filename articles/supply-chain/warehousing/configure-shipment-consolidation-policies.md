@@ -2,23 +2,26 @@
 title: Configurazione dei criteri di consolidamento delle spedizioni
 description: Questo argomento spiega come impostare criteri di consolidamento delle spedizioni predefiniti e personalizzati.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f2705300925ae475f00861327b9cea9a97416011
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578682"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431492"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurazione dei criteri di consolidamento delle spedizioni
 
@@ -179,7 +182,7 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 1. Lascia l'opzione **Consolida con spedizioni aperte** impostata su *No*.
 1. Nel riquadro azioni selezionare **Salva**.
 1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
-1. Selezionare il pulsante **Aggiungi** ![Freccia DESTRA.](media/forward-button.png) per spostare il campo nell'elenco **Campi selezionati**.
+1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
 1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, nella griglia, trova la riga in cui il campo **Campo** è impostato su *Conto cliente* e imposta il campo **Criteri** per quella riga su *US-001*.
 1. Seleziona **Aggiungi** per aggiungere una riga con le seguenti impostazioni alla griglia:
@@ -214,7 +217,7 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 1. Imposta l'opzione **Consolida con spedizioni aperte** su *Sì*.
 1. Nel riquadro azioni selezionare **Salva**.
 1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
-1. Selezionare il pulsante **Aggiungi** ![Freccia DESTRA.](media/forward-button.png) per spostare il campo nell'elenco **Campi selezionati**.
+1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
 1. Nella finestra di dialogo dell'editor di query, nella scheda **Join**, espandi e seleziona **Tabelle \> Carica dettagli** nell'albero.
 1. Seleziona **Aggiungi tabella join**.
@@ -251,9 +254,9 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 1. Imposta l'opzione **Consolida con spedizioni aperte** su *Sì*.
 1. Nel riquadro azioni selezionare **Salva**.
 1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Richiesta di approvvigionamento cliente*.
-1. Selezionare il pulsante **Aggiungi** ![Freccia DESTRA.](media/forward-button.png) per spostare il campo nell'elenco **Campi selezionati**.
+1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
-1. Selezionare il pulsante **Aggiungi** ![Freccia DESTRA.](media/forward-button.png) per spostare il campo nell'elenco **Campi selezionati**.
+1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
 1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, trova la riga in cui il campo **Campo** è impostato su *Conto cliente* e imposta il campo **Criteri** per quella riga su *US-001*.
 1. Selezionare **OK** per chiudere la finestra di dialogo.
@@ -283,7 +286,7 @@ Attieniti alla seguente procedura per creare i criteri di consolidamento della s
 1. Lascia l'opzione **Consolida con spedizioni aperte** impostata su *No*.
 1. Nel riquadro azioni selezionare **Salva**.
 1. Nella Scheda dettaglio **Campi di consolidamento**, nell'elenco **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
-1. Selezionare il pulsante **Aggiungi** ![Freccia DESTRA.](media/forward-button.png) per spostare il campo nell'elenco **Campi selezionati**.
+1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
 1. Nella finestra di dialogo dell'editor delle query, nella scheda **Intervallo**, seleziona **Aggiungi** per aggiungere una riga che ha le seguenti impostazioni alla griglia:
 
@@ -317,7 +320,7 @@ In genere, questo caso aziendale può essere risolto utilizzando i criteri prede
 1. Lascia l'opzione **Consolida con spedizioni aperte** impostata su *No*.
 1. Nel riquadro azioni selezionare **Salva**.
 1. Nella Scheda dettaglio **Campi di consolidamento**, nel campo **Campi rimanenti**, seleziona la riga in cui il campo **Nome campo** è impostato su *Modalità di consegna*.
-1. Selezionare il pulsante **Aggiungi** ![Freccia DESTRA.](media/forward-button.png) per spostare il campo nell'elenco **Campi selezionati**.
+1. Seleziona il pulsante **Aggiungi** ![Freccia destra](media/forward-button.png) per spostare il campo sull'elenco **Campi selezionati**.
 1. Nel riquadro azioni, seleziona **Modifica query**.
 1. Nella finestra di dialogo dell'editor di query, nella scheda **Intervallo**, trova la riga in cui il campo **Campo** è impostato su *Magazzino* e imposta il campo **Criteri** per quella riga su *61, 63*.
 1. Selezionare **OK** per chiudere la finestra di dialogo.
@@ -351,6 +354,3 @@ I seguenti scenari illustrano come è possibile utilizzare i criteri di consolid
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Criteri consolidamento spedizione](about-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,27 @@
 title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.14 (ottobre 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.14.
 author: kamaybac
+manager: tfehr
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc9b8d9b6c3ef2980e7b676e6c85e3372db8cdd601f25a2b696106991ae40a59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: 4e55bd178e315dfa132ec77fe705d68c68460b44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739085"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4431585"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.14 (novembre 2020)
 
@@ -33,7 +36,7 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa versione include una piattaforma aggiornata e miglioramenti generali, ma non include nuove funzionalità specifiche per Supply Chain Management. Per ulteriori informazioni sulle funzionalità imminenti, visitare il sito [Piani di rilascio](/dynamics365/release-plans/).
+Questa versione include una piattaforma aggiornata e miglioramenti generali, ma non include nuove funzionalità specifiche per Supply Chain Management. Per ulteriori informazioni sulle funzionalità imminenti, visitare il sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -49,7 +52,7 @@ Per informazioni sulle correzioni di bug incluse in ciascuno degli aggiornamenti
 
 Desideri sapere quali sono le funzionalità imminenti e rilasciate di recente nella nostra piattaforma o in una delle app aziendali?
 
-Consultare il [piano della seconda ondata di rilascio del 2020 di Dynamics 365](/dynamics365-release-plan/2020wave2/index). Tutti i dettagli più completi sono stati raccolti in un unico documento utilizzabile per la pianificazione.
+Consultare il [piano della seconda ondata di rilascio del 2020 di Dynamics 365](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Tutti i dettagli più completi sono stati raccolti in un unico documento utilizzabile per la pianificazione.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Funzionalità di Supply Chain Management rimosse e deprecate
 
@@ -61,6 +64,3 @@ L'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Mana
 Prima che qualsiasi funzionalità venga rimossa dal prodotto, l'avviso di deprecazione verrà annunciato nell'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mesi prima della rimozione.
 
 Per le modifiche significative che influiscono solo sui tempi di compilazione, ma che sono binari compatibili con sandbox e ambienti di produzione, il tempo di deprecazione sarà inferiore a 12 mesi. In genere, si tratta di aggiornamenti funzionali che è necessario apportare al compilatore.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

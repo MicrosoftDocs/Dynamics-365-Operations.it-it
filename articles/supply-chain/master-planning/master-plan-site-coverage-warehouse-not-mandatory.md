@@ -1,10 +1,12 @@
 ---
 title: Pianificazione generale per la copertura a livello di sito, magazzino non obbligatorio
 description: In questo argomento viene descritto come viene pianificato un articolo con dimensione sito impostata per la copertura.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 2474
 ms.assetid: 316da918-67ae-43c5-baea-00ae559e29b0
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484b178f3ac43f727fd6acb5deb40b7907c931ec
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fe5cb5f9d21afcd12f3041bb9acc89fff360c95e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579618"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970458"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Pianificazione generale per la copertura a livello di sito, magazzino non obbligatorio
 
@@ -41,11 +43,12 @@ Nella figura riportata di seguito è illustrato il processo di pianificazione ge
 -   Relazioni di ricaricamento definite per il magazzino. Fare clic su **Gestione articoli &gt; Impostazioni &gt; Suddivisione scorte &gt; Magazzini** Nella scheda **Pianificazione generale** vedere il gruppo di campi **Magazzino principale**.
 -   Il tipo di ordine predefinito viene impostato sull'ordine acquisto, di produzione o sul kanban. Fare clic su **Gestione informazioni sul prodotto &gt; Prodotti &gt; Prodotti rilasciati**. Selezionare l'articolo, quindi fare clic su **Pianifica &gt; Impostazioni ordine predefinite**. Nel modulo **Impostazioni ordine predefinite** vedere il campo **Tipo di ordine predefinito**.
 
-![Copertura a livello di sito della domanda, magazzino non obbligatorio.](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+![Copertura a livello di sito della domanda, magazzino non obbligatorio](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 
-## <a name="additional-resources"></a>Risorse aggiuntive
+<a name="additional-resources"></a>Risorse aggiuntive
+--------
 
 [Panoramica pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
 
@@ -59,6 +62,3 @@ Nella figura riportata di seguito è illustrato il processo di pianificazione ge
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

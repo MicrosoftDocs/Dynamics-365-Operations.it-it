@@ -1,24 +1,27 @@
 ---
 title: Creare un prodotto
 description: In questa procedura vengono descritti i passaggi per creare un nuovo prodotto nella gerarchia di prodotti di Commerce.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductCreate, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e2e66568509e3034b44e065af658ea2ae95e754
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e3dab319348367e58dba0c404e0cd43917e12542
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567081"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431142"
 ---
 # <a name="create-a-product"></a>Creare un prodotto
 
@@ -36,6 +39,3 @@ In questa procedura vengono descritti i passaggi per creare un nuovo prodotto ne
 8. Nel campo Numero prodotto, digitare un valore.
 9. Fare clic su OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

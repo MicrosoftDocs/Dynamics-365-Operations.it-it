@@ -2,23 +2,26 @@
 title: Report Modello 770
 description: In questo argomento vengono fornite informazioni sul Modello 770 per l'Italia.
 author: ilkond
-ms.date: 07/19/2021
+manager: AnnBe
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Taxreport770Table_IT
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c8d3756545734832b9d00425cb6e0baa9c31897f6cd84cb7ad5ecb35b59c0d28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 942b776d3e7317d11f6c050756d90ec4d6bef970
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779354"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408116"
 ---
 # <a name="modello-770-report"></a>Report Modello 770
 
@@ -26,14 +29,7 @@ ms.locfileid: "6779354"
 
 In questo argomento viene descritto come installare, creare ed esportare il Modello 770 utilizzato per dichiarare le ritenute d'acconto.
 
-Il Modello 770 è un report annuale che fornisce informazioni sulle ritenute d'acconto operate da una società quando questa paga terzisti e lavoratori autonomi. Le società rimettono le ritenute d'acconto direttamente al governo durante l'anno. A fine anno, la società crea e trasmette il Modello 770. Questo report dettaglia i pagamenti a favore di ciascun terzista e lavoratore autonomo e le imposte che sono state trattenute nei pagamenti. Il Modello 770 contiene informazioni solo sui terzisti e i lavoratori autonomi per i quali sono state trattenute le imposte nei pagamenti. 
-
-Attualmente sono supportati i seguenti tipi di record:
-- Record A: intestazione della dichiarazione
-- Record B: informazioni sulla società e altre informazioni aggiuntive della dichiarazione
-- Record D: operazioni ST, SV, SX, DI 
-- Record Z: quantità di record dichiarati per tipo
-
+Il Modello 770 è un report annuale che fornisce informazioni sulle ritenute d'acconto operate da una società quando questa paga terzisti e lavoratori autonomi. Le società rimettono le ritenute d'acconto direttamente al governo durante l'anno. Quindi, a fine anno, la società crea e trasmette il Modello 770. Questo report dettaglia i pagamenti a favore di ciascun terzista e lavoratore autonomo e le imposte che sono state trattenute nei pagamenti. Il Modello 770 contiene informazioni solo sui terzisti e i lavoratori autonomi per i quali sono state trattenute le imposte nei pagamenti.
 
 ## <a name="general-settings-that-are-required-for-the-model-770-report"></a>Impostazioni generali richieste per il Modello 770
 Completare le attività seguenti prima di creare un Modello 770:
@@ -85,7 +81,7 @@ Scaricare le *versioni effettive* delle configurazioni delle dichiarazioni elett
 - **Modello dati:** modello dei report fiscali italiani
 - **Formato:** Modello 770 (IT)
  
-Per istruzioni su come scaricare le configurazioni dei report elettronici, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Per istruzioni su come scaricare le configurazioni dei report elettronici, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 ## <a name="create-and-export-the-model-770-report"></a>Creare ed esportare il Modello 770
 Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli uffici tributari. Il nome del file ASCII deve essere \[partita IVA della società\] 77S\[*AA*\].77s, dove **AA** corrisponde alle ultime due cifre dell'anno di riferimento. Per ulteriori informazioni sul completamento e la presentazione del Modello 770, vedere il sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).
@@ -146,6 +142,3 @@ Il Modello 770 esporta le informazioni in un file ASCII che sarà inviato agli u
 23. Selezionare **Esporta**, quindi nella pagina **Esporta**, nel campo **Nome file**, specificare il nome file compresso per scaricare. Il file compresso contiene il Modello 770 come file ASCII.
 24. Selezionare la casella di controllo **Esportazione finale** per avviare il processo di importazione ignorando la logica di convalida nello strumento di importazione del governo. È inoltre possibile selezionare questa casella di controllo se si utilizza un report inviato in precedenza che è stato rifiutato ma che si considera corretto e completo in termini di informazioni disponibili pubblicate sul sito Web dell'[Agenzia delle Entrate](https://www.agenziaentrate.gov.it).
 25. Selezionare **OK** per esportare il Modello 770.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

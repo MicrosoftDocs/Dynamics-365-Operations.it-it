@@ -1,10 +1,12 @@
 ---
 title: ER Creare una configurazione formato (novembre 2016)
-description: In questo argomento viene illustrato come creare una configurazione di formato per la creazione di report elettronici (ER).
+description: Questo argomento illustra come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una configurazione di formato per la creazione di report elettronici.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4cd3960594ab37ca867792c655cfd28dc332fa9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728215"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684765"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Creare una configurazione formato (novembre 2016)
 
@@ -156,6 +158,3 @@ Questo argomento illustra come un utente assegnato al ruolo di amministratore di
 42. Fare clic su **Salva**.
 43. Chiudere la pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

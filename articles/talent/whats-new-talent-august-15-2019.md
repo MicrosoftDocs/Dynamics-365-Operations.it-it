@@ -61,6 +61,3 @@ Per ulteriori dettagli sull'aggiornamento 29 della piattaforma per Finance and O
 Le modifiche ai record dipendente raramente entrano in vigore immediatamente. È necessario aggiornare i dati dalla data di inizio del dipendente, che è spesso nel futuro, ed è necessario aggiornare le informazioni nel passato. Con questo modello di navigazione semplificato, sarà possibile aggiornare i dati passati e futuri senza accedere a più moduli o modificare il contesto delle date. Questa modifica promuove e visualizza in modo dinamico le informazioni chiave nell'area del banner superiore del record dipendente.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

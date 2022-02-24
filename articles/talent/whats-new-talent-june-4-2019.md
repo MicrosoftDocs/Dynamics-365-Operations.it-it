@@ -98,6 +98,3 @@ Una nuova opzione consentirà ai responsabili di visualizzare le prestazioni dei
 ### <a name="print-performance-reviews"></a>Stampare le valutazioni delle prestazioni
 
 Dipendenti, responsabili e risorse umane potranno stampare la valutazione delle prestazioni di un dipendente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

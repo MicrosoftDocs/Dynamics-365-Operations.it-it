@@ -2,13 +2,16 @@
 title: Report dei prezzi di vendita al dettaglio
 description: In questo argomento viene fornita una panoramica della funzionalità di report dei prezzi che può essere utilizzata per visualizzare le future modifiche dei prezzi per i prodotti assortiti.
 author: shajain
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 7fa2710d64d632c6e4ef376528aff8316b02a380ce7e2a976d53a3dd39375fa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767268"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413331"
 ---
 # <a name="retail-price-reports"></a>Report dei prezzi di vendita al dettaglio
 
@@ -32,7 +35,7 @@ Per fornire prezzi concorrenziali ai clienti, i rivenditori spesso modificano i 
 
 Per abilitare il report dei prezzi, il parametro **Abilita report prezzi per punto vendita** deve essere attivato. Questo parametro si trova nella scheda **Parametri di commercio \> Sconti \> Varie**. L'apertura della pagina **Report prezzi** visualizza una finestra di dialogo con varie configurazioni. Le configurazioni disponibili sono elencate di seguito.
 
-| Configurazione | Descrizione |
+| Configurazione | descrizione |
 |---|---|
 | Dal / Al| L'intervallo di date per il quale il report dei prezzi deve essere generato. La durata è attualmente limitata a 7 giorni. |
 | Canale| Il punto vendita per il quale il report dei prezzi deve essere generato. |
@@ -41,6 +44,3 @@ Per abilitare il report dei prezzi, il parametro **Abilita report prezzi per pun
 | Visualizza prodotti con variazioni di prezzo | L'impostazione di questa opzione su **Sì** visualizzerà i prezzi solo per le date in cui il prezzo è stato modificato. Il prezzo di *un giorno prima* della **data iniziale** selezionata verrà sempre visualizzato, di modo che il responsabile punto vendita possa facilmente identificare i prodotti senza prezzi modificati per l'intera durata selezionata nonché visualizzare il prezzo corrente. |
 
 Dopo la generazione del report, il file di Excel può essere scaricato per tutti i requisiti di filtro aggiuntivi. Il report dei prezzi può essere utilizzato per verificare i prezzi storici dei prodotti per le date passate.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

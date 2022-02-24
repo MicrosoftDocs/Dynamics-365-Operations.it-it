@@ -2,9 +2,11 @@
 title: Identificare e risolvere conflitti di separazione dei compiti
 description: Questo argomento illustra come identificare e risolvere conflitti di separazione dei compiti
 author: peakerbl
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: deff97c7728db91089d3ea834d15de738da500fa
+ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748314"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4826370"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Identificare e risolvere conflitti di separazione dei compiti
 
@@ -57,6 +59,3 @@ Quando assegni utenti ai ruoli, le regole per la separazione dei compiti vengono
 
 > [!NOTE]
 > Se sono elencati più conflitti per lo stesso utente, selezionare il record utente e valutare i ruoli assegnati nella pagina **Utenti**. Per evitare questo conflitto, convalidare ogni regola dopo che è stata aggiunta o modificata.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

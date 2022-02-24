@@ -1,35 +1,33 @@
 ---
-title: Elaborare le modifiche alle tariffe
-description: Questo argomento spiega come elaborare le modifiche dei tassi di beneficio in Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/23/2021
+title: Elaborare modifiche ai tassi
+description: Elaborare modifiche ai tassi di benefit in Microsoft Dynamics 365 Human Resources quando un piano di benefit nuovo o esistente presenta una modifica nelle impostazioni della regola di idoneità.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitRate, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e0dfbdde8ee950a0341fffb1e268fff05434953
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: da42ef6ea91b95903316e35b551b222b8ff3b946
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070377"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419172"
 ---
-# <a name="process-rate-changes"></a>Elaborare le modifiche alle tariffe
+# <a name="process-rate-changes"></a>Elaborare modifiche ai tassi
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Questo argomento spiega come elaborare le modifiche alle tariffe dei benefici in Microsoft Dynamics 365 Human Resources quando un piano di benefici nuovo o esistente ha un cambiamento nelle impostazioni delle regole di idoneità. Se una nuova regola di idoneità viene creata e assegnata al piano, al sistema viene richiesto di eseguire di nuovo l'idoneità dei lavoratori per verificare se questi ora hanno diritto al piano in base alle nuove opzioni di idoneità. 
+Elaborare modifiche ai tassi di benefit in Microsoft Dynamics 365 Human Resources quando un piano di benefit nuovo o esistente presenta una modifica nelle impostazioni della regola di idoneità. Se una nuova regola di idoneità viene creata e assegnata al piano, al sistema viene richiesto di eseguire di nuovo l'idoneità dei lavoratori per verificare se questi ora hanno diritto al piano in base alle nuove opzioni di idoneità. 
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Elaborazione aggiornamento modifica tasso**.
 
@@ -50,6 +48,3 @@ Questo argomento spiega come elaborare le modifiche alle tariffe dei benefici in
    4. Selezionare **OK**. l'elaborazione verrà eseguita con i parametri impostati.
 
 4. Selezionare **OK**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

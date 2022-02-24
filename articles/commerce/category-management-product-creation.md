@@ -2,13 +2,16 @@
 title: Gestire le categorie di prodotti e i prodotti
 description: In questo argomento viene descritto come i responsabili del merchandising possono utilizzare le categorie di prodotti per gestire le relazioni tra la gerarchia di prodotti di Commerce e i dettagli dei prodotti rilasciati.
 author: ashishmsft
+manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResProductCategory, EcoResCategoryAddProduct, EcoResAttributeValue
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743986"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413423"
 ---
 # <a name="manage-product-categories-and-products"></a>Gestire le categorie di prodotti e i prodotti
 
@@ -35,17 +38,17 @@ Notare la struttura avanzata della pagina **Gerarchia di prodotti di Commerce** 
 
 Nella struttura avanzata di categorie di prodotti, le proprietà di prodotto sono separate in modo logico in base alla relativa applicabilità in un gruppo, per riflettere la struttura del modulo dei dettagli dei prodotti rilasciati.
 
-![Raggruppamento dei campi in base all'ambito di applicabilità delle proprietà.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Raggruppamento dei campi in base all'ambito di applicabilità delle proprietà](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 È possibile passare dalla gestione di proprietà specifiche della persona giuridica in tutte le persone giuridiche alla gestione delle stesse per una specifica persona giuridica e viceversa.
 
 Per visualizzare le proprietà in tutte le persone giuridiche, selezionare **Visualizza per tutte le persone giuridiche** (o **Modifica per tutte le persone giuridiche**).
 
-![Visualizza/Modifica per tutte le persone giuridiche.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Visualizza/Modifica per tutte le persone giuridiche](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Per gestire le proprietà di una persona giuridica specifica, selezionare **Visualizza per una specifica persona giuridica** (o **Modifica per una persona giuridica specifica**).
 
-![Visualizza/Modifica per una specifica persona giuridica.](media/ToggleToEditForAllLegalEntities.PNG)
+![Visualizza/Modifica per una specifica persona giuridica](media/ToggleToEditForAllLegalEntities.PNG)
 
 Inoltre, nella struttura avanzata di categorie di prodotti, un responsabile del merchandising può ora definire valori predefiniti per un insieme di proprietà di prodotto aggiuntivo a livello di singola categoria. Quando i prodotti vengono creati, ereditano i valori predefiniti per le proprietà i prodotto, in base all'associazione di tali proprietà con una categoria individuale nella gerarchia di prodotti. Queste proprietà di prodotto ereditate possono anche essere modificate per ciascun prodotto allo scopo di soddisfare i requisiti aziendali.
 
@@ -53,7 +56,4 @@ Inoltre, nella struttura avanzata di categorie di prodotti, un responsabile del 
 
 È possibile utilizzare la nuova struttura avanzata per le proprietà di prodotto per selezionare quali proprietà di prodotto aggiornate devono essere distribuite ai prodotti associati. Nella pagina **Gerarchia di prodotti di Commerce**, nel Riquadro azioni, selezionare **Categoria**, quindi selezionare **Aggiorna prodotti** per aprire la finestra di dialogo **Aggiorna prodotti**.
 
-![Finestra di dialogo Aggiorna prodotti.](media/NewUpdateProductsEnhancedView.PNG)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Finestra di dialogo Aggiorna prodotti](media/NewUpdateProductsEnhancedView.PNG)

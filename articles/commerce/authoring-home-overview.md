@@ -2,23 +2,27 @@
 title: Panoramica della pagina di creazione
 description: Questo argomento fornisce una panoramica della page di creazione in Microsoft Dynamics 365 Commerce.
 author: brendans
+manager: annbe
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984623"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413435"
 ---
 # <a name="authoring-page-overview"></a>Panoramica della pagina di creazione
 
@@ -26,6 +30,8 @@ ms.locfileid: "7984623"
  [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica della page di creazione in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 I siti Web possono essere creati per supportare varie esigenze aziendali. Possono rappresentare un'intera azienda, offrire un singolo canale commerciale, essere destinati a un determinato pubblico o segmento di pubblico. Ad esempio, un produttore di abbigliamento potrebbe avere un sito Web che visualizza tutti i marchi di cui è proprietario. Lo stesso produttore di capi di abbigliamento potrebbe quindi avere un sito Web distinto per ognuno di quei marchi e anche un gruppo di siti Web per alta moda, indumenti sportivi e abbigliamento per bambini.
 
@@ -39,7 +45,7 @@ Attualmente, la pagina di creazione comporta le sezioni seguenti.
 
 L'illustrazione seguente mostra la pagina di creazione.
 
-![Pagina di creazione di Dynamics 365 Commerce.](../commerce/media/authoring_tools_01.png)
+![Pagina di creazione di Dynamics 365 Commerce](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>Utilizzare il pulsante Home per selezionare uno strumento
 
@@ -116,6 +122,3 @@ Dopo il caricamento dello strumento di creazione, è possibile selezionare **Hom
 [Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito](search-engine-optimization-considerations.md)
 
 [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

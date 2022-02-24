@@ -1,10 +1,12 @@
 ---
 title: Programmare piani di manutenzione
 description: In questo argomento viene descritto come programmare piani di manutenzione in Gestione cespiti.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731321"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016908"
 ---
 # <a name="schedule-maintenance-plans"></a>Programmare piani di manutenzione
 
@@ -52,14 +54,14 @@ La programmazione della manutenzione preventiva genera voci di calendario nei ce
 
 5. Fare clic su **OK** per avviare la generazione delle voci del programma di manutenzione nei cespiti. Le voci generate saranno visualizzate nella pagina elenco **Tutti i programmi di manutenzione**. Nella figura seguente è illustrato un esempio della finestra **Piani di manutenzione programmata**.
 
-![Figura 1.](media/09-preventive-maintenance.png)
+![Figura 1](media/09-preventive-maintenance.png)
 
 - Nella finestra di dialogo **Programma piani di manutenzione**, è possibile impostare processi batch nella Scheda dettaglio **Esecuzione in background** per generare automaticamente voci di calendario ad intervalli regolari.  
 - Quando si programma la manutenzione preventiva, le righe di programma di manutenzione la cui data e ora di inizio previste sono antecedenti alla data e all'ora di sistema non verranno create.  
 
 La figura seguente fornisce un'illustrazione grafica di un calcolo del piano di manutenzione basato su tempo.  
 
-![Figura 2.](media/10-preventive-maintenance.jpg)
+![Figura 2](media/10-preventive-maintenance.jpg)
 
 Riguardo ai piani di manutenzione basati su contatore: nelle figure seguenti, sono visualizzati due differenti cicli di registrazione contatore. Questi sono basati su un piano di manutenzione impostato per il cespite "V0001", dove la percorrenza prevista del cespite (un'auto) è approssimativamente di 2.000 km ogni mese.
 
@@ -69,10 +71,7 @@ Nella figura seguente vengono registrati 2.000 km o più ogni mese. Di conseguen
 
 Gli esempi descritti qui mostrano che tutte le registrazioni contatore eseguite in un cespite mostrano una tendenza che descrive l'usura del cespite. Tale tendenza viene utilizzata come base di calcolo al momento della programmazione del piano di manutenzione.
 
-![Figura 3.](media/11-preventive-maintenance.png)
+![Figura 3](media/11-preventive-maintenance.png)
 
-![Figura 4.](media/12-preventive-maintenance.png)
+![Figura 4](media/12-preventive-maintenance.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

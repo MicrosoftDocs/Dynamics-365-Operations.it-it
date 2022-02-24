@@ -2,12 +2,15 @@
 title: Modulo menu di spostamento
 description: In questo argomento vengono descritti i moduli menu di spostamento per i cookie e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/27/2021
+manager: annbe
+ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713854"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4413592"
 ---
 # <a name="navigation-menu-module"></a>Modulo menu di spostamento
 
@@ -28,12 +31,14 @@ ms.locfileid: "7713854"
 
 In questo argomento vengono descritti i moduli menu di spostamento per i cookie e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Panoramica
+
 Lo scopo principale dei moduli del menu di spostamento è quello di consentire agli utenti del sito di sfogliare i prodotti e le pagine del sito secondo la gerarchia di navigazione del canale definita in Dynamics 365 Commerce headquarters. Gli elementi configurati in un modulo del menu di spostamento vengono visualizzati come spostamento dell'intestazione del sito. I moduli del menu di spostamento supportano anche voci di menu statiche che collegano ad altre pagine su un sito di e-commerce.
 
 Il modulo del menu di spostamento può essere aggiunto al modulo dell'intestazione di una pagina. Nel tema Fabrikam, il menu di spostamento mostra due livelli per impostazione predefinita. Nel tema Starter, il menu di spostamento mostra tre livelli per impostazione predefinita. Per passare al numero di livelli, è necessaria un'estensione di visualizzazione per il tema.
 
 La figura seguente mostra un esempio di un menu di spostamento per il sito Fabrikam con due livelli di gerarchia di categorie e alcune voci di menu statiche.
-![Esempio di modulo del menu di spostamento.](./media/ecommerce-header.png)
+![Esempio di modulo del menu di spostamento](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Proprietà del modulo menu di spostamento
 
@@ -41,16 +46,14 @@ La figura seguente mostra un esempio di un menu di spostamento per il sito Fabri
 |---------------------------|-----------------------|-------------|
 | Origine                  | **Vendita al dettaglio**, **Creazione manuale**, **Vendita al dettaglio e creazione manuale** | Il valore **Vendita al dettaglio** consente di visualizzare la gerarchia di spostamento del canale da Commerce headquarters nel menu di spostamento. Il valore **Creazione manuale** consente di curare le voci di menu statiche. Il valore **Vendita al dettaglio e creazione manuale** consente una combinazione di entrambi. |
 | Mostrare le immagini di categoria | **True** o **False**    | Se abilitata, questa proprietà visualizza le immagini delle categorie nel menu di spostamento come definito in Commerce headquarters per ciascuna categoria. Aggiunto nella versione Commerce 10.0.14. |
-| Mostra immagini promozionali | **True** o **False** | Quando questa proprietà è abilitata, le promozioni possono essere configurate utilizzando immagini, collegamenti e testo. Questa proprietà è stata aggiunta nella versione Commerce 10.0.17. |
-|Aggiungere contenuto promozionale categoria | Testo, immagini o collegamento | Quando la proprietà **Mostra immagini promozionali** è abilitata, puoi aggiungere testo, un'immagine o un collegamento come contenuto promozionale nel menu di navigazione. |
-| Abilitare il menu di spostamento multilivello | **True** o **False** | Quando questa proprietà è abilitata, il menu di spostamento può mostrare più livelli della gerarchia di spostamento. Questa funzionalità è disponibile in Commerce versione 10.0.15. |
+| Abilitare il menu di spostamento multilivello | **True** o **False** | Quando questa proprietà è abilitata, il menu di spostamento può mostrare più livelli della gerarchia di spostamento. Questa funzionalità è disponibile nella versione 10.0.15 di Dynamics 365 Commerce. |
 | Numero di livelli | numero intero | Questa proprietà definisce il numero di livelli che devono essere visualizzati se la proprietà **Abilita menu di spostamento multilivello** è impostata su **True**. |
 | Voce di menu statico| Matrice di valori| Voci di menu statico che associano il nome di una voce di menu a un collegamento di una pagina del sito statico. È possibile creare voci di menu sotto altre voci di menu. Per impostazione predefinita, i menu statici vengono visualizzati al livello radice e verranno aggiunti alla gerarchia di spostamento del canale, se esistente. |
 | Mostra menu radice | **True** o **False** | Quando questa proprietà è abilitata, il menu di spostamento può essere definito in una radice personalizzata (ad esempio, **Acquista ora**). Questa funzionalità è disponibile nella versione 10.0.15 di Dynamics 365 Commerce. |
 | Menu radice | stringa | Questa proprietà può essere utilizzata per definire il testo per una radice personalizzata se la proprietà **Mostra menu radice** è impostata su **True**. |
 
 La figura seguente mostra un esempio di un'immagine di categoria visualizzata nel menu di spostamento per il sito Fabrikam.
-![Esempio di un modulo menu di spostamento con immagini di categorie.](./media/ecommerce-categoryimages.PNG)
+![Esempio di un modulo menu di spostamento con immagini di categorie](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Aggiungere un modulo del menu di spostamento a un modulo di intestazione
 
@@ -69,6 +72,3 @@ Per dettagli su come aggiungere un modulo del menu di spostamento a un modulo di
 [Conformità dei cookie](cookie-compliance.md)
 
 [Modulo intestazione](author-header-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

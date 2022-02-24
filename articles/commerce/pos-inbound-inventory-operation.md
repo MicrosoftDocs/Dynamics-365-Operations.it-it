@@ -2,13 +2,16 @@
 title: Operazione di magazzino in ingresso in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in entrata del punto vendita (POS).
 author: hhaines
+manager: annbe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741784"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413483"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operazione di magazzino in ingresso in POS
 
@@ -70,7 +73,7 @@ I lavori batch creati vengono utilizzati per elaborare i documenti che hanno res
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Prerequisito: aggiungere l'operazione in entrata al layout dello schermo del POS
 
-Prima che l'organizzazione possa utilizzare la funzionalità dell'operazione in entrata, è necessario configurare l'operazione del POS **Operazione in entrata** su uno o più [layout dello schermo del POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Prima di distribuire la nuova operazione in un ambiente di produzione, assicurarsi di testarla a lungo e addestrare gli utenti a usarla.
+Prima che l'organizzazione possa utilizzare la funzionalità dell'operazione in entrata, è necessario configurare l'operazione del POS **Operazione in entrata** su uno o più [layout dello schermo del POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Prima di distribuire la nuova operazione in un ambiente di produzione, assicurarsi di testarla a lungo e addestrare gli utenti a usarla.
 
 ## <a name="overview"></a>Panoramica
 
@@ -159,9 +162,9 @@ In Commerce versione 10.0.14 e successive, gli utenti possono ricevere un prodot
 
 Questa funzione funziona solo per il ricevimento dell'ordine di acquisto. Non è possibile ricevere articoli a fronte di ordini di trasferimento se gli articoli non erano stati precedentemente ordinati e spediti dal magazzino in uscita.
 
-Gli utenti non possono aggiungere nuovi prodotti all'ordine di acquisto durante il ricevimento POS se il [flusso di lavoro di gestione delle modifiche](../supply-chain/procurement/purchase-order-approval-confirmation.md) dell'ordine di acquisto è abilitato in Commerce headquarters (HQ). Per abilitare la gestione delle modifiche, tutte le modifiche di un ordine di acquisto devono essere approvate prima che sia consentita il ricevimento. Poiché questo processo consente a un destinatario di aggiungere nuove righe all'ordine di acquisto, il ricevimento non riesce se il flusso di lavoro di gestione delle modifiche è abilitato. Se la gestione delle modifiche è abilitata per tutti gli ordini di acquisto o per il fornitore collegato all'ordine di acquisto attivamente ricevuto in POS, l'utente non può aggiungere nuovi prodotti all'ordine di acquisto durante il ricevimento in POS.
+Gli utenti non possono aggiungere nuovi prodotti all'ordine di acquisto durante il ricevimento POS se il [flusso di lavoro di gestione delle modifiche](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) dell'ordine di acquisto è abilitato in Commerce headquarters (HQ). Per abilitare la gestione delle modifiche, tutte le modifiche di un ordine di acquisto devono essere approvate prima che sia consentita il ricevimento. Poiché questo processo consente a un destinatario di aggiungere nuove righe all'ordine di acquisto, il ricevimento non riesce se il flusso di lavoro di gestione delle modifiche è abilitato. Se la gestione delle modifiche è abilitata per tutti gli ordini di acquisto o per il fornitore collegato all'ordine di acquisto attivamente ricevuto in POS, l'utente non può aggiungere nuovi prodotti all'ordine di acquisto durante il ricevimento in POS.
 
-La funzionalità che consente l'aggiunta di righe non può essere utilizzata come soluzione alternativa per ricevere quantità aggiuntive di prodotti già presenti nell'ordine di acquisto. Il ricevimento in eccesso viene gestito tramite le impostazioni standard di [ricevimento eccessivo](#over-receiving-validations) per la riga di prodotto nell'ordine di acquisto.
+La funzionalità che consente l'aggiunta di righe non può essere utilizzata come soluzione alternativa per ricevere quantità aggiuntive di prodotti già presenti nell'ordine di acquisto. Il ricevimento in eccesso viene gestito tramite le impostazioni standard di [ricevimento eccessivo](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) per la riga di prodotto nell'ordine di acquisto.
 
 Se **Aggiungi righe all'ordine di acquisto durante il ricevimento punto vendita** è abilitato e un utente sta ricevendo con  l'**operazione in entrata** in POS, se l'utente scansiona o digita un codice a barre del prodotto o un numero di prodotto che non è riconosciuto come articolo nell'ordine di acquisto corrente, ma viene riconosciuto come un articolo valido, l'utente riceve un messaggio sull'aggiunta dell'articolo all'ordine di acquisto. Se l'utente aggiunge l'articolo all'ordine di acquisto, la quantità immessa in **In ricevimento ora** è considerata la quantità ordinata per la riga dell'ordine di acquisto.
 
@@ -218,6 +221,3 @@ Quando il documento è nello stato **Richiesto**, è visibile nella scheda **Att
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Operazione di magazzino in uscita in POS](pos-outbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

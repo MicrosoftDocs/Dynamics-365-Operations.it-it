@@ -1,10 +1,12 @@
 ---
 title: Contenuto Power BI sulla selezione del personale
-description: Questo argomento descrive il contenuto Power BI Selezione del personale.
+description: Questo argomento descrive il contenuto Power BI Selezione del personale. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -15,14 +17,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765124"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680564"
 ---
-# <a name="recruiting-power-bi-content"></a>Contenuto Power BI sulla selezione del personale
+# <a name="recruiting-power-bi-content"></a>Contenuto Power BI Selezione del personale
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,9 +61,6 @@ Nella tabella seguente vengono illustrate le entità su cui si basa il contenuto
 | Località geografica  | Città, provincia, codice postale e stato/regione o provincia                 | Candidato, candidato impiegato, candidato congedato |
 | Mansione                  | Funzione, tipo e titolo                                        | Candidato, candidato impiegato, candidato congedato |
 | Multimediale                | Origine dei candidati                                             | Candidato, candidato impiegato, candidato congedato |
-| Prestazioni          | Valutazione, Descrizione e modello di valutazione                            | Candidato, candidato impiegato, candidato congedato |
+| Prestazioni          | Valutazione, descrizione e modello di valutazione                            | Candidato, candidato impiegato, candidato congedato |
 | Progetto di selezione  | Descrizione del progetto, stato del progetto e aperture                | Candidato, candidato impiegato, candidato congedato |
 | Candidato congedato | Candidati congedati, motivo, prestazioni e data di fine rapporto | Società, Offset di calendario, Data, Località geografica, Prestazioni, Dati demografici, Impiego, Multimediale, Progetto di selezione, Nome candidato |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

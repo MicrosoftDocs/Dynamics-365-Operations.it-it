@@ -1,27 +1,30 @@
 ---
 title: Chiavi di riduzione previsionali
 description: Questo argomento fornisce esempi che illustrano come impostare una chiave di riduzione. Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna. È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqReduceKeyDefaultDataWizard, ReqReduceKey
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbed77fd1abc0e4ae26e2b9ddcc01d3f4a84889f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1fc2b63bfdec1c663027cb4e551589a705c2164e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570827"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431020"
 ---
 # <a name="forecast-reduction-keys"></a>Chiavi di riduzione previsionali
 
@@ -86,18 +89,7 @@ In questo caso, se si esegue una programmazione previsionale il 1° gennaio, i r
 
 ### <a name="transactions--reduction-key"></a>Transazioni - chiave di riduzione
 
-Se si imposta il campo **Metodo utilizzato per ridurre i requisiti di previsione** in *Transazioni - chiave di riduzione*, i requisiti previsti vengono ridotti dalle transazioni della domanda qualificata che si verificano durante i periodi definiti dalla chiave di riduzione.
-
-La domanda qualificata è definita dal campo **Riduci previsione per** sulla pagina **Gruppi di copertura**. Se si imposta il campo **Riduci previsione per** su *Ordini*, solo le transazioni dell'ordine cliente sono considerate domanda qualificata. Se si lo imposta su *Tutte le transazioni*, qualsiasi transazione di inventario in uscita non interaziendale è considerata domanda qualificata. Se anche gli ordini cliente interaziendali devono essere considerati domanda qualificata, impostare l'opzione **Includi ordini interaziendali** su *Sì*.
-
-La riduzione della previsione inizia con il primo record di previsione della domanda (meno recente) nel periodo della chiave di riduzione. Se la quantità di transazioni di inventario qualificate è maggiore della quantità di righe di previsione della domanda nello stesso periodo della chiave di riduzione, il saldo della quantità delle transazioni di inventario verrà utilizzato per ridurre la quantità di previsione della domanda nel periodo precedente (se è presente una previsione non consumata).
-
-Se non rimane alcuna previsione non consumata nel precedente periodo della chiave di riduzione, il saldo della quantità delle transazioni di inventario verrà utilizzato per ridurre la quantità prevista nel mese successivo (se è presente una previsione non consumata).
-
-Il valore del campo **Percentuale** sulle righe della chiave di riduzione non viene utilizzato quando il campo **Metodo utilizzato per ridurre i requisiti di previsione** è impostato su *Transazioni - chiave di riduzione*. Solo le date vengono utilizzate per definire il periodo della chiave di riduzione.
-
-> [!NOTE]
-> Qualsiasi previsione registrata entro la data odierna verrà ignorata e non verrà utilizzata per creare ordini pianificati. Ad esempio, se la previsione della domanda per il mese viene generata il 1° gennaio e si esegue una pianificazione generale che include la previsione della domanda il 2 gennaio, il calcolo ignorerà la riga della previsione della domanda datata 1° gennaio.
+Se si seleziona **Transazioni - chiave di riduzione**, i requisiti di previsione vengono ridotti in base alle transazioni effettuate durante i periodi definiti dalla chiave di riduzione.
 
 #### <a name="example-transactions--reduction-key"></a>Esempio: Transazioni - chiave di riduzione
 
@@ -207,7 +199,7 @@ Di conseguenza, vengono creati i seguenti ordini pianificati.
 Una chiave di riduzione previsionale viene utilizzata nei metodi **Transazioni - chiave di riduzione** e **Percentuale - chiave di riduzione** per ridurre i requisiti di previsione. Attenersi alla procedura seguente per creare e impostare una chiave di riduzione.
 
 1. Andare a **Pianificazione generale \> Impostazione \> Copertura \> Chiavi di riduzione**.
-2. Selezionare **Nuovo** per creare una chiave di riduzione.
+2. Selezionare **Nuovo** o premere **CTRL+N** per creare una chiave di riduzione.
 3. Nel campo **Chiave di riduzione**, immettere un identificatore univoco per la chiave di riduzione previsionale. Quindi, nel campo **Nome** immettere un nome. 
 4. Definire i periodi e la percentuale della chiave di riduzione in ciascun periodo:
 
@@ -235,6 +227,3 @@ Quando si seleziona **Transazioni - chiave di riduzione** o **Transazioni - peri
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica piani generali](master-plans.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

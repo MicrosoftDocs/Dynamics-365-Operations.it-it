@@ -2,9 +2,11 @@
 title: Requisiti di dimensionamento hardware per ambienti locali
 description: Questo argomento elenca i requisiti di dimensionamento hardware per un ambiente locale.
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763436"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798306"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisiti di dimensionamento hardware per ambienti locali
 
@@ -36,7 +38,7 @@ Dopo avere esaminato la documentazione, è possibile iniziare il processo di sti
 
 Tutti i fattori mostrati nella figura seguente influiscono sul dimensionamento. Più sono dettagliate le informazioni che si raccolgono e maggiore sarà la precisione con cui si determinerà il dimensionamento. Il dimensionamento hardware senza dati di supporto ha più probabilità di risultare impreciso. Il fabbisogno minimo assoluto dei dati necessari è il carico di riga di transazione di punta all'ora.
 
-[![Dimensionamento hardware per ambienti locali.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Dimensionamento hardware per ambienti locali](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Osservato da sinistra a destra, il primo fattore e il più importante necessario per stimare esattamente il dimensionamento è un profilo di transazione o una caratterizzazione di transazione. È importante trovare sempre il volume transazionale di punta all'ora. Se sono presenti più periodi di punta, è necessario definirli con precisione.
 
@@ -132,15 +134,10 @@ Nella maggior parte dei casi, a meno che non siano utilizzati estesamente, i req
 
 Per la versione di disponibilità generale è possibile distribuire un solo nodo SSRS. Monitorare il nodo SSRS durante i test e aumentare il numero di core disponibili per SSRS in base alle esigenze. Assicurarsi di aver un nodo secondario preconfigurato disponibile su un host virtuale diverso dalla VM SSRS. Ciò è importante se si verifica un problema con la macchina virtuale che ospita SSRS o l'host virtuale. In questo caso devono essere sostituiti.
 
-A partire dalla versione 10.0.17, è possibile configurare nodi SSRS aggiuntivi per ottenere un'elevata disponibilità. Per maggiori informazioni, vedere [Configurare la disponibilità elevata per i nodi di SQL Server Reporting Services (SSRS)](../../dev-itpro/deployment/onprem-ssrsha.md).
-
 ## <a name="environment-orchestrator"></a>Agente di orchestrazione dell'ambiente
 
-L'Agente di orchestrazione è il servizio che gestisce la distribuzione e la comunicazione correlata con LCS. Questo servizio viene distribuito come servizio primario Service Fabric e richiede almeno tre VM. Questo servizio è posizionato insieme ai servizi di orchestrazione Service Fabric. Questo servizio deve essere dimensionato al carico di picco del cluster. Per ulteriori informazioni, vedere [Pianificare e preparare la distribuzione del cluster Service Fabric autonomo](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+L'Agente di orchestrazione è il servizio che gestisce la distribuzione e la comunicazione correlata con LCS. Questo servizio viene distribuito come servizio primario Service Fabric e richiede almeno tre VM. Questo servizio è posizionato insieme ai servizi di orchestrazione Service Fabric. Questo servizio deve essere dimensionato al carico di picco del cluster. Per ulteriori informazioni, vedere [Pianificare e preparare la distribuzione del cluster Service Fabric autonomo](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizzazione e oversubscription
 
 I servizi cruciali come AOS devono essere ospitati in host virtuali che hanno risorse dedicate (core, memoria e disco).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

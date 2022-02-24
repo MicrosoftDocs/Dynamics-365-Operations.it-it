@@ -1,27 +1,28 @@
 ---
 title: Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
 description: Questo argomento spiega come integrare il modulo Gestione cespiti in Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides per trarre vantaggio dalle guide alla realtà mista nei flussi di lavoro quotidiani di assistenza e manutenzione.
-author: johanhoffmann
+author: kamaybac
+manager: tfehr
 ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: johanho
+ms.author: dabourq
 ms.search.validFrom: 2020-04-28
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: f9ee7f1af8e88f56589c84bfaa063ea005aa353a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568257"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430977"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
-
-[!include [banner](../includes/banner.md)]
 
 È possibile integrare il modulo **Gestione cespiti** in Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides per trarre vantaggio dalle guide alla realtà mista nei flussi di lavoro quotidiani di assistenza e manutenzione. Se una guida è associata a un ordine di lavoro Gestione cespiti, un lavoratore che apre l'elenco di controllo di manutenzione dell'ordine di lavoro nell'app mobile Supply Chain Management (Dynamics 365) vede che è disponibile una guida. Il lavoratore può quindi trovare e aprire la guida nell'app Dynamics 365 Guides HoloLens.
 
@@ -32,12 +33,12 @@ Prima di poter allegare guide agli ordini di lavoro di Gestione cespiti, è nece
 - [Configurare Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) versione 10.0.9 o successiva.
 - [Attivare la doppia scrittura per le app Supply Chain Management](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
 - [Attivare l'anterprima](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) per la funzionalità **MRGuidesFeature**. Per gli ambienti di produzione, è prima necessario inviare un ticket di supporto affinché un tenant possa essere aggiunto al gruppo di versioni di anteprima.
-- [Attivare le seguenti chiavi di configurazione](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) nella pagina **Configurazione licenza**:
+- [Attivare le seguenti chiavi di configurazione](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) nella pagina **Configurazione licenza**:
 
     - Gestione cespiti \> Realtà mista gestione cespiti
     - Realtà mista \> Guida alla realtà mista
 
-- [Configurare Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versione 200.0.0.96 o successiva.
+- [Configurare Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versione 200.0.0.96 o successiva.
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>Utilizzare Dynamics 365 Guides con Gestione cespiti
 
@@ -49,8 +50,8 @@ Per associare una guida a un modello di elenco di controllo di manutenzione, att
 
 1. Creare una guida usando le app per PC Dynamics 365 Guides e HoloLens. Per informazioni sulla creazione di una guida, vedere gli argomenti seguenti:
 
-    - [Utilizzare l'app per PC per creare una guida](/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [Utilizzare l'app HoloLens per posizionare gli ologrammi](/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [Utilizzare l'app per PC per creare una guida](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [Utilizzare l'app HoloLens per posizionare gli ologrammi](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. In Supply Chain Management [creare un modello di elenco di controllo di manutenzione](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template).
 1. Associare la guida creata con una riga dell'elenco di controllo di manutenzione nel nuovo modello di elenco di controllo di manutenzione:
@@ -58,38 +59,38 @@ Per associare una guida a un modello di elenco di controllo di manutenzione, att
     1. Nella Scheda dettaglio **Righe elenco di controllo di manutenzione** selezionare la riga a cui si desidera associare la guida.
     1. Nella scheda dettaglio **Guide associate** selezionare **Aggiungi guida**.
 
-        ![Associare una guida a una riga di elenco di controllo di manutenzione.](media/am-guides-integration-add-guide.png "Associare una guida a una riga di elenco di controllo di manutenzione")
+        ![Associare una guida a una riga di elenco di controllo di manutenzione](media/am-guides-integration-add-guide.png "Associare una guida a una riga di elenco di controllo di manutenzione")
 
     1. Nel campo **Nome** selezionare una guida, quindi selezionare **Salva**.
 
-        ![Selezionare una guida nel campo Nome.](media/am-guides-integration-select-guide.png "Selezionare una guida nel campo Nome")
+        ![Selezionare una guida nel campo Nome](media/am-guides-integration-select-guide.png "Selezionare una guida nel campo Nome")
 
 1. Associare il modello di elenco di controllo di manutenzione a un tipo di processo:
 
     1. [Creare un tipo di processo di manutenzione](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) o selezionare un tipo di processo di manutenzione esistente.
     1. Nel riquadro azioni selezionare **Valori predefiniti tipo di processo di manutenzione**.
 
-        ![Pulsante Valori predefiniti tipo di processo di manutenzione.](media/am-guides-integration-job-defaults.png "Pulsante Valori predefiniti tipo di processo di manutenzione")
+        ![Pulsante Valori predefiniti tipo di processo di manutenzione](media/am-guides-integration-job-defaults.png "Pulsante Valori predefiniti tipo di processo di manutenzione")
 
     1. Creare una riga, quindi selezionare **Salva**.
 
-        ![Crea una riga.](media/am-guides-integration-add-line.png "Creare una riga")
+        ![Creare una riga](media/am-guides-integration-add-line.png "Creare una riga")
 
     1. Nel riquadro azioni selezionare **Elenco di controllo di manutenzione**.
 
-        ![Pulsante Elenco di controllo di manutenzione.](media/am-guides-integration-maintenance-checklist.png "Pulsante Elenco di controllo di manutenzione")
+        ![Pulsante Elenco di controllo di manutenzione](media/am-guides-integration-maintenance-checklist.png "Pulsante Elenco di controllo di manutenzione")
 
     1. Nella Scheda dettaglio **Righe elenco di controllo di manutenzione** aggiungere una riga e quindi modificare il valore del campo **Tipo** in **Modello**.
 
-        ![Modificare il valore Tipo.](media/am-guides-integration-checklist-lines.png "Modificare il valore Tipo")
+        ![Modificare il valore Tipo](media/am-guides-integration-checklist-lines.png "Modificare il valore Tipo")
 
     1. Nella Scheda dettaglio **Dettagli riga** selezionare nel campo **Modello** il modello a cui è stata associata la guida, quindi selezionare **Salva**.
 
-        ![Selezionare il modello.](media/am-guides-integration-checklist-line-details.png "Selezionare il modello")
+        ![Selezionare il modello](media/am-guides-integration-checklist-line-details.png "Selezionare il modello")
 
 1. [Creare un ordine di lavoro](work-orders/manually-created-workorders.md#create-work-order), quindi selezionare il tipo di processo di manutenzione che utilizza il modello di elenco di controllo di manutenzione a cui è stata associata la guida. La guida viene automaticamente associata all'ordine di lavoro.
 
-    ![Selezionare un tipo di processo di manutenzione.](media/am-guides-integration-create-work-order.png "Selezionare un tipo di processo di manutenzione")
+    ![Selezionare un tipo di processo di manutenzione](media/am-guides-integration-create-work-order.png "Selezionare un tipo di processo di manutenzione")
 
 1. Visualizzare la guida associata all'ordine di lavoro e ai lavoratori.
 
@@ -97,11 +98,11 @@ Per associare una guida a un modello di elenco di controllo di manutenzione, att
     1. [Aprire l'elenco di controllo di manutenzione](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) per l'ordine di lavoro.
     1. Selezionare una riga dell'elenco di controllo per visualizzare la guida associata.
 
-        ![Guida associata a una riga dell'elenco di controllo.](media/am-guides-integration-show-guide.png "Guida associata a una riga dell'elenco di controllo")
+        ![Guida associata a una riga dell'elenco di controllo](media/am-guides-integration-show-guide.png "Guida associata a una riga dell'elenco di controllo")
 
     1. Aprire la guida in HoloLens.
 
-        ![Aprire la guida in HoloLens.](media/am-guides-integration-hololens-select.png "Aprire la guida in HoloLens")
+        ![Aprire la guida in HoloLens](media/am-guides-integration-hololens-select.png "Aprire la guida in HoloLens")
 
 > [!NOTE]
 > È inoltre possibile associare una guida direttamente all'elenco di controllo di manutenzione di un ordine di lavoro o di un tipo di processo.
@@ -113,6 +114,3 @@ Per associare una guida a un modello di elenco di controllo di manutenzione, att
 
 - [Panoramica della doppia scrittura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Panoramica della gestione cespiti](index.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

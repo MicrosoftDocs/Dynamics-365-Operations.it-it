@@ -2,25 +2,29 @@
 title: Panoramica dell'ottimizzazione di pianificazione
 description: Questo argomento fornisce una panoramica della funzionalità di ottimizzazione di pianificazione.
 author: ChristianRytt
+manager: tfehr
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49da88be9faff8f327f8079245b3c07db79308e6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 110045d4c7e4f32c29b73096dd4df3a09b5434ac
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983444"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430929"
 ---
 # <a name="planning-optimization-overview"></a>Panoramica dell'ottimizzazione di pianificazione
 
@@ -32,7 +36,7 @@ Per utilizzare l'ottimizzazione di pianificazione, è necessario installare il c
 
 La seguente illustrazione mostra il vantaggio di eseguire l'ottimizzazione di pianificazione durante l'orario di ufficio.
 
-![Vantaggio dell'esecuzione dell'ottimizzazione di pianificazione durante l'orario di ufficio.](media/PlanningOptimization1.png)
+![Vantaggio dell'esecuzione dell'ottimizzazione di pianificazione durante l'orario di ufficio](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>Prestazioni migliorate
 
@@ -61,11 +65,11 @@ Se il componente aggiuntivo ottimizzazione di pianificazione viene disinstallato
 
 L'illustrazione seguente mostra il flusso dei dati.
 
-![Flusso di dati per le esecuzioni di rigenerazione.](media/PlanningOptimization2.png)
+![Flusso di dati per le esecuzioni di rigenerazione](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>Risorse correlate
 
-[Introduzione all'ottimizzazione della pianificazione](get-started.md)
+[Introduzione all'ottimizzazione di pianificazione](get-started.md)
 
 [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md)
 
@@ -74,6 +78,3 @@ L'illustrazione seguente mostra il flusso dei dati.
 [Applicare i filtri a un piano](plan-filters.md)
 
 [Annullare un processo di pianificazione](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

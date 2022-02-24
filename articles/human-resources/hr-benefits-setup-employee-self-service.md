@@ -1,35 +1,33 @@
 ---
-title: Configurare Self-service dipendenti
+title: Configurare il dipendente self-service
 description: In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service.
-author: twheeloc
-ms.date: 12/06/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067581"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419248"
 ---
 # <a name="configure-employee-self-service"></a>Configurare il dipendente self-service
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-In Microsoft Dynamics 365 Human Resources, è possibile configurare configurare riquadri per la navigazione di livello superiore in **Self service dipendente**. I riquadri Piano benefit indirizzano gli utenti ai piani di benefit per i quali sono idonei.
+In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service. I riquadri Piano benefit indirizzano gli utenti ai piani di benefit per i quali sono idonei.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Impostare un riquadro Piani di benefit
 
@@ -37,18 +35,21 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare configurare 
 
 2. Selezionare la scheda **Impostazione riquadro Piani di benefit**, quindi selezionare **Nuovo**.
 
-3. Specifica i valori per i seguenti campi.
+3. Specificare i valori per i seguenti campi:
 
-   | Campo | Description |
+   | Campo | Descrizione |
    | --- | --- |
-   | **Codice tipo di piano** | Il tipo di piano visualizzato quando si seleziona questo riquadro in **Self-service benefit**. |
    | **ID riquadro** | L'identificatore univoco per il riquadro. |
-   | **Testo etichetta riquadro** | Il testo che apparirà per il riquadro in **Self-service benefit**. |
+   | **Testo etichetta riquadro** | Il testo che verrà visualizzato per il riquadro Self service. |
    | **Descrizione** | Una descrizione del riquadro. |
+   | **Indirizzo Internet** | Immettere l'URL alla pagina Dipendente self-service. |
+   | **Dimensioni riquadro** | La dimensione del riquadro: Piccolo, Medio o Grande. |
+   | **Destinatario** | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
    | **Immagine di sfondo riquadro** | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
-   | **Traccia iscrizioni aperte** | Seleziona questa opzione per monitorare l'avanzamento delle iscrizioni aperte per questo tipo di piano. Ad esempio, potrebbero essere presenti piani creati in cui **Tipo di piano = Altro**. Questi piani potrebbero essere piani facoltativi per i quali non si desidera monitorare lo stato di avanzamento dell'iscrizione. Se non si seleziona questo tipo di piano, i piani di queste tipologie verranno durante il monitoraggio dello stato di avanzamento o di completamento dell'iscrizione sulla scheda **Iscrizione aperta**. Questa impostazione si applica al tipo di piano selezionato per tutti i periodi e le persone giuridiche. |
+   | **Avvio** | La data e l'ora di inizio della disponibilità del riquadro. |
+   | **Fine periodo** | La data e l'ora di fine della disponibilità del riquadro. |
 
-4. Seleziona **Salva**.
+4. Selezionare **Salva**.
 
 ## <a name="set-up-a-flex-credit-plan-tile"></a>Impostare un riquadro Piano di credito flessibile
 
@@ -56,18 +57,18 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare configurare 
 
 2. Selezionare la scheda **Impostazione riquadro Piano di credito flessibile**, quindi selezionare **Nuovo**.
 
-3. Specifica i valori per i seguenti campi.
+3. Specificare i valori per i seguenti campi:
 
-   | Campo | Description |
+   | Campo | Descrizione |
    | --- | --- |
-   | **ID credito benefit** | I piani del programma di credito flessibile visualizzato quando si seleziona questo riquadro in **Self-service benefit**. |
    | **ID riquadro** | L'identificatore univoco per il riquadro. |
-   | **Testo etichetta riquadro** | Il testo che apparirà per il riquadro in **Self-service benefit**. |
+   | **Testo etichetta riquadro** | Il testo che verrà visualizzato per il riquadro Self service. |
    | **Descrizione** | Una descrizione del riquadro. |
+   | **Indirizzo Internet** | Immettere l'URL alla pagina Dipendente self-service. |
+   | **Dimensioni riquadro** | La dimensione del riquadro: Piccolo, Medio o Grande. |
+   | **Destinatario** | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
    | **Immagine di sfondo riquadro** | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
-   | **Traccia iscrizioni aperte** | Seleziona questa opzione per monitorare l'avanzamento delle iscrizioni aperte per questo tipo di piano. Ad esempio, potrebbero essere presenti piani creati in cui **Tipo di piano = Altro**. Questi piani potrebbero essere piani facoltativi per i quali non si desidera monitorare lo stato di avanzamento dell'iscrizione. Se non si seleziona questo tipo di piano, i piani di queste tipologie verranno durante il monitoraggio dello stato di avanzamento o di completamento dell'iscrizione sulla scheda **Iscrizione aperta**. Questa impostazione si applica al tipo di piano selezionato per tutti i periodi e le persone giuridiche. |
+   | **Avvio** | La data e l'ora di inizio della disponibilità del riquadro. |
+   | **Fine periodo** | La data e l'ora di fine della disponibilità del riquadro. |
 
-4. Seleziona **Salva**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+4. Selezionare **Salva**.

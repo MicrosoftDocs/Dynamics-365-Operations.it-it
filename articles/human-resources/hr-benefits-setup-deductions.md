@@ -1,33 +1,31 @@
 ---
 title: Configurare le detrazioni
 description: L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente di determinare quanto eventualmente detrarre dalla busta paga di un dipendente per ogni benefit.
-author: twheeloc
-ms.date: 08/24/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf7ddbfb8717c0311fab7388f346f03618a7b43d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7c59fa09e83ca91e0ad866e5875ff06370b7491d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065845"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419115"
 ---
 # <a name="configure-deductions"></a>Configurare le detrazioni
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente di determinare quanto eventualmente detrarre dalla busta paga di un dipendente per ogni benefit. Le detrazioni hanno una data di validità, pertanto è possibile tenere un record cronologico delle informazioni sulla detrazione. 
 
@@ -48,12 +46,9 @@ L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente d
    | **Intestazione importo** | Il codice di intestazione del sistema di gestione delle retribuzioni che questo importo di detrazioni utilizzerà per la parte della detrazione del dipendente durante l'elaborazione dei benefit per la retribuzione. Questo codice viene normalmente utilizzato quando si utilizza un fornitore di retribuzioni di terze parti. |
    | **Eliminazione possibile** | Specifica se un valore esportato da Dynamics 365 for Finance and Operations può causare l'eliminazione del valore nel sistema di gestione delle retribuzioni. |
    | **Colonne associate** | Specifica se esportare l'intestazione e l'importo delle detrazioni in colonne adiacenti accoppiate nel sistema di gestione delle retribuzioni. |
-   | **Data di validità modifica** | La data in cui la modifica alle detrazioni per benefit diventa effettiva. In questa data, le modifiche alla deduzione dei benefici e tutti i piani di benefici associati a questa deduzione sono aggiornati, a condizione che si esegua l'elaborazione dell' **aggiornamento della modifica della deduzione** . |
+   | **Data di validità modifica** | La data in cui la modifica alle detrazioni per benefit diventa effettiva. In questa data il sistema modifica automaticamente la detrazione per benefit e aggiorna tutti i piani di benefit associati a tale detrazione, purché si esegua l'elaborazione dell'**aggiornamento delle modifiche alle detrazioni**. |
    | **Modifica detrazione completata** | La casella di controllo **Modifica detrazione completata** verrà selezionata automaticamente una volta completate le modifiche alla detrazioni per benefit mediante l'elaborazione dell'aggiornamento delle modifiche alle detrazioni. |
    
 4. Per tenere traccia e gestire le modifiche all'impostazione del tasso di benefit, selezionare **Azioni**, quindi selezionare **Gestisci versioni**.
 
 5. Selezionare **Salva**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

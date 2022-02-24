@@ -2,9 +2,11 @@
 title: Creare e aggiornare le fasce orarie per il ritiro del cliente
 description: In questo argomento viene descritto come creare, configurare e aggiornare le fasce orarie per il ritiro del cliente in Commerce headquarters.
 author: anupamar-ms
+manager: AnnBe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713423"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828213"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Creare e aggiornare le fasce orarie per il ritiro del cliente
 
@@ -34,7 +36,7 @@ La funzione fascia oraria offre ai rivenditori un modo per definire una fascia o
 
 La figura seguente mostra un esempio di selezione della fascia oraria durante il checkout e-commerce.
 
-![Esempio di selezione della fascia oraria durante il checkout e-commerce.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Esempio di selezione della fascia oraria durante il checkout e-commerce](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Proprietà delle fasce orarie
 
@@ -60,7 +62,7 @@ Una fascia oraria viene definita utilizzando le seguenti proprietà:
 - **Giorni attivi** - Specificare i giorni della settimana in cui le fasce orarie di ritiro sono attive. Questa proprietà consente al rivenditore di definire i giorni in cui desidera supportare gli ordini di ritiro.
 - **Canali di vendita al dettaglio** - Specificare i canali di vendita al dettaglio. Ogni fascia oraria può essere associata a uno o più punti vendita. A seconda dell'orario di apertura di ogni negozio, è possibile creare una o più voci di fascia oraria e associarle a un canale. 
 
-<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 È possibile configurare un solo modello di fascia oraria per canale. Questi canali includono negozi fisici, servizi clienti, dispositivi mobili e siti di e-commerce.
 
@@ -85,14 +87,14 @@ Per configurare la funzione di fascia oraria in Commerce headquarters, seguire q
     > [!NOTE]
     > È possibile creare più modelli, ma solo un modello può essere associato a un singolo canale o negozio.
 
-    ![Finestra di dialogo Ritiro ordine - Impostazioni ora.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Finestra di dialogo Ritiro ordine - Impostazioni ora](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Al termine, selezionare **OK**.
 1. Se le fasce orarie di un giorno variano, creare voci aggiuntive nella scheda dettaglio **Ritiro ordine - Impostazioni ora** per garantire che le date e le ore non si sovrappongano.
 1. Nella scheda dettaglio **Canali di vendita al dettaglio** selezionare **Aggiungi** per associare il modello di fascia oraria ai negozi o ai canali in cui verrà utilizzato.
 1. Nella finestra di dialogo **Scegli nodi organizzazione**, usare i tasti con le frecce per selezionare (o deselezionare) i punti vendita, le aree geografiche e le organizzazioni a cui il modello deve essere associato.
 
-    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Al termine, selezionare **OK**.
 1. Nella pagina **Programmazione distribuzione**, eseguire i processi **1135** e **1070** per sincronizzare i dati ai canali.
@@ -103,7 +105,7 @@ Nel POS, quando viene identificato un ordine o una riga ordine per il ritiro, il
 
 La figura seguente mostra un esempio di selezione della fascia oraria per un ordine POS.
 
-![Un esempio di selezione della fascia oraria per un ordine POS.](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Un esempio di selezione della fascia oraria per un ordine POS](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Selezione della fascia oraria per gli ordini e-commerce
 
@@ -114,17 +116,14 @@ Per informazioni su come rendere disponibile la selezione delle fasce orarie per
 
 La seguente illustrazione mostra un esempio di un ordine e-commerce in cui è stata selezionata una fascia oraria per il ritiro.
 
-![Esempio di un ordine e-commerce in cui è stata selezionata una fascia oraria per il ritiro.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Esempio di un ordine e-commerce in cui è stata selezionata una fascia oraria per il ritiro](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Selezione della fascia oraria per gli ordini del servizio clienti
 
 Nell'app del servizio clienti, gli agenti del servizio clienti possono selezionare il punto di ritiro o la posizione, nonché una data e un intervallo di tempo come evidenziato nella figura seguente.
 
-![Esempio di un ordine del servizio clienti in cui è stata selezionata una fascia oraria per il ritiro.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Esempio di un ordine del servizio clienti in cui è stata selezionata una fascia oraria per il ritiro](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Modulo di informazioni sul ritiro](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

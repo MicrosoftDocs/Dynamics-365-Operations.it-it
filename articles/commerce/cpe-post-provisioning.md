@@ -2,24 +2,27 @@
 title: Configurare un ambiente di valutazione Dynamics 365 Commerce
 description: Questo argomento illustra come configurare un ambiente di valutazione di Microsoft Dynamics 365 Commerce dopo il provisioning.
 author: psimolin
-ms.date: 12/10/2021
+manager: annbe
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913729"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413349"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurare un ambiente di valutazione Dynamics 365 Commerce
 
@@ -27,7 +30,9 @@ ms.locfileid: "7913729"
 
 Questo argomento illustra come configurare un ambiente di valutazione di Microsoft Dynamics 365 Commerce dopo il provisioning.
 
-Completare le procedure in questo argomento solo dopo aver effettuato il provisioning dell'ambiente di valutazione Commerce. Per informazioni relative a come effettuare il provisioning dell'ambiente di valutazione Commerce, consultare [Provisioning di un ambiente di valutazione Commerce](provisioning-guide.md).
+## <a name="overview"></a>Panoramica
+
+Completare le procedure in questo argomento solo dopo aver effettuato il provisioning dell'ambiente di valutazione Commerce. Per informazioni relative a come effettuare il provisioning dell'ambiente di valutazione Commerce, consultare [Provisioning di un ambiente di valutazione Commerce ](provisioning-guide.md).
 
 Una volta eseguito il provisioning completo dell'ambiente di valutazione Commerce, è necessario completare ulteriori passaggi di configurazione post-provisioning prima di poter iniziare a valutare l'ambiente. Per completare questi passaggi, è necessario utilizzare Microsoft Dynamics Lifecycle Services (LCS) e Dynamics 365 Commerce.
 
@@ -39,7 +44,6 @@ Una volta eseguito il provisioning completo dell'ambiente di valutazione Commerc
 1. Selezionare l'ambiente nell'elenco.
 1. Nelle informazioni sull'ambiente a destra, selezionare **Accedi all'ambiente**. Si accederà a Commerce Headquarters.
 1. Assicurarsi che la persona giuridica **USRT** sia selezionata nell'angolo in alto a destra.
-2. Vai a **Parametri di commercio > Parametri di configurazione** e assicurati che ci sia una voce per **ProductSearch.UseAzureSearch** impostata su **true**. Se questa voce è mancante, puoi aggiungerla ed eseguire **Database canale > Sincronizzazione completa** per la Commerce Scale Unit associata al tuo sito Web eCommerce.
 
 Durante le attività di post-provisioning in Commerce headquarters, assicurarsi che la persona giuridica **USRT** sia sempre selezionata.
 
@@ -107,12 +111,6 @@ Per abilitare i processi in Commerce, effettuare le operazioni seguenti.
     1. Nel riquadro azioni, sulla scheda **Processo batch** selezionare **Cambia stato**.
     1. Selezionare **Annullamento** e quindi **OK**.
 
-1. Se lo stato del processo è **Trattenuto**, effettua le seguenti operazioni:
-
-    1. Selezionare il record.
-    1. Nel riquadro azioni, sulla scheda **Processo batch** selezionare **Cambia stato**.
-    1. Selezionare **In attesa** e quindi **OK**.
-
 Facoltativamente, è anche possibile impostare l'intervallo di ricorrenza su un (1) minuto per i seguenti lavori:
 
 * Elabora processo di notifica tramite posta elettronica di ordine di vendita al dettaglio
@@ -135,7 +133,7 @@ Per eseguire la sincronizzazione completa dei dati in Commerce, attenersi alla s
 Per eseguire transazioni di prova nel sito, è possibile utilizzare le seguenti informazioni della carta di credito di prova:
 
 - **Numero carta:** 4111-1111-1111-1111
-- **Data di scadenza:** 10/30
+- **Data di scadenza:** 10/20
 - **Codice valore di verifica carta (CVV):** 737
 
 > [!IMPORTANT]
@@ -146,9 +144,6 @@ Per eseguire transazioni di prova nel sito, è possibile utilizzare le seguenti 
 Dopo aver completato le fasi di provisioning e configurazione, è possibile iniziare a usare l'ambiente di valutazione. Utilizzare l'URL di Creazione di siti Web di Commerce per accedere all'esperienza di creazione. Utilizzare l'URL del sito di Commerce per accedere all'esperienza del sito dei clienti di vendita al dettaglio.
 
 Per configurare funzionalità facoltative per l'ambiente di valutazione Commerce, vedere [Configurare le funzionalità facoltative per un ambiente di valutazione Commerce](cpe-optional-features.md).
-
-> [!NOTE]
-> Gli ambienti di valutazione di Commerce vengono forniti con un tenant business-to-consumer (B2C) Azure Active Directory (Azure AD) precaricato a scopo dimostrativo. La configurazione del tuo tenant B2C Azure AD non è richiesta per gli ambienti di valutazione. Tuttavia, se stai configurando l'ambiente di valutazione per utilizzare il tuo tenant B2C Azure AD, assicurati di aggiungere ``https://login.commerce.dynamics.com/_msdyn365/authresp`` come URL di risposta nell'applicazione B2C Azure AD tramite il portale di Azure.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -162,15 +157,10 @@ Per configurare funzionalità facoltative per l'ambiente di valutazione Commerce
 
 [Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portale di Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sito Web di Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Impostare un tenant B2C in Commerce](set-up-B2C-tenant.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

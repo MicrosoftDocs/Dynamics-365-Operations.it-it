@@ -1,10 +1,12 @@
 ---
 title: Riconciliare le spese di trasporto nella gestione del trasporto
 description: In questo argomento viene descritto il processo di riconciliazione delle spese di trasporto.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574907"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014510"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Riconciliare le spese di trasporto nella gestione del trasporto
 
@@ -35,13 +37,13 @@ La riconciliazione delle spese di trasporto può essere eseguita manualmente opp
 
 Le tariffe di trasporto vengono calcolate dal motore tariffe associato con il vettore di spedizione pertinente. Quando un carico viene confermato, viene generata una fattura di trasporto e le tariffe di trasporto vengono trasferite ad essa. Le tariffe di trasporto vengono ripartite come spese varie nel documento di origine pertinente (ordine fornitore, ordine cliente e/o ordine di trasferimento), a seconda dell'impostazione utilizzata per il normale processo di fatturazione. Il processo di riconciliazione delle spese di trasporto (che è noto anche come il processo di abbinamento) può iniziare non appena arriva la fattura di trasporto dal vettore di spedizione. La fattura può essere ricevuta elettronicamente o su carta. Se si riceve la fattura su carta, è possibile generare una fattura elettronica utilizzando la fattura di trasporto come modello.
 
-[![Processo di riconciliazione spese di trasporto.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![Processo di riconciliazione spese di trasporto](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Riconciliazione manuale
 
 Se si riconciliano manualmente le spese di trasporto, è necessario abbinare ogni riga della fattura con la riga o le righe della fattura di trasporto del carico da fatturare. A tale scopo, abbinare nella pagina **Abbinamento fatture di trasporto e fatture**. Se l'importo nella riga della fattura non corrisponde all'importo della fattura di trasporto, è necessario selezionare un motivo di riconciliazione per la differenza. Se esistono diversi motivi per la riconciliazione, è possibile ripartire sui vari motivi l'importo non abbinato. Il motivo di riconciliazione determina la modalità di registrazione degli importi di differenza nella contabilità generale. Quando la riconciliazione dell'importo della fattura intera è contabilizzata, viene inviata per l'approvazione e quindi la registrazione. Nell'illustrazione che segue viene mostrato come generare una fattura di trasporto ed eseguire la riconciliazione delle spese di trasporto.
 
-[![Attività di riconciliazione trasporto.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![Attività di riconciliazione trasporto](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>Riconciliazione automatica
 
@@ -103,6 +105,3 @@ Un altro modo per eseguire la corrispondenza manuale per questo esempio è proce
 1. Corrispondenza di Inv1 e Inv 2 con una bolla di trasporto dopo l'altra. Corrispondenza completa della bolla di trasporto.
 
 Come mostra questo esempio, la corrispondenza delle fatture di trasporto con importi negativi deve essere eseguito solo manualmente. Ciò garantirà che sia sempre possibile effettuare la corrispondenza delle fatture di trasporto con importi negativi a una bolla di trasporto senza corrispondenza completa perché ciò consente di controllare la sequenza di corrispondenza.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

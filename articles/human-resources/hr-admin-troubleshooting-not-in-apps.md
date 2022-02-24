@@ -1,32 +1,30 @@
 ---
 title: Human Resources non appare nelle app Microsoft Dynamics 365
-description: Questo argomento spiega cosa fare se Microsoft Dynamics 365 Human Resources non è elencato tra le app di Microsoft Dynamics 365.
-author: twheeloc
-ms.date: 08/19/2021
+description: Questo articolo descrive come procedere se l'app Microsoft Dynamics 365 Human Resources non è visualizzata tra le app di Microsoft Dynamics 365.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069682"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419176"
 ---
-# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>L'app Risorse Umane non appare in Microsoft Dynamics 365 apps
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>Human Resources non appare nelle app Microsoft Dynamics 365
 
 **Problema**
 
@@ -42,11 +40,11 @@ L'utente deve essere aggiunto al ruolo Creatore dell'utente per l'ambiente in Mi
 
 3. Nella scheda **Ruoli ambiente** della scheda **Sicurezza**, selezionare **Creatore dell'ambiente**.
 
-    ![Scheda Ruoli ambiente.](media/environment-roles.png)
+    ![Scheda Ruoli ambiente](media/environment-roles.png)
 
 4. Nella scheda **Utenti**, aggiungere l'utente o l'organizzazione.
 
-    ![Scheda Utenti.](media/environment-maker.png)
+    ![Scheda Utenti](media/environment-maker.png)
 
 5. Selezionare **Salva**.
 
@@ -54,9 +52,6 @@ L'utente deve essere aggiunto al ruolo Creatore dell'utente per l'ambiente in Mi
 
 7. Selezionare **Sincronizza** per aggiornare le app dell'utente.
 
-    ![Pulsante Sincronizza.](media/get-more.png)
+    ![Pulsante Sincronizza](media/get-more.png)
 
     Dopo che la sincronizzazione viene completata, l'app Human Resources verrà visualizzata nella home page.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

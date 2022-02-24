@@ -2,8 +2,11 @@
 title: Funzione ER ROUNDAMOUNT
 description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione ROUNDAMOUNT della creazione di report elettronici (ER).
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b05c6024d9eeecfe74022df10d793055a026d5a159e9c011f37708f6a4e6e0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15a84b086b324ec390d88e8b2617022ad4773977
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770863"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683065"
 ---
 # <a name="roundamount-er-function"></a>Funzione ER ROUNDAMOUNT
 
@@ -69,7 +72,7 @@ Quando il parametro `round rule` è impostato su **RoundOffType.RoundDown**, que
 
 Quando il parametro `round rule` è impostato su **RoundOffType.RoundUp**, questa funzione arrotonda lontano da zero all'importo di arrotondamento più vicino.
 
-Quando il parametro `round rule` è impostato su **RoundOffType.Ordinary**, questa funzione si comporta come la funzione [ARROTONDA.MULTIPLO](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) di Excel e la funzione [ROUND](../dev-ref/xpp-math-run-time-functions.md#round) di X++.
+Quando il parametro `round rule` è impostato su **RoundOffType.Ordinary**, questa funzione si comporta come la funzione [ARROTONDA.MULTIPLO](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) di Excel e la funzione [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round) di X++.
 
 ## <a name="remarks"></a>Note
 
@@ -88,6 +91,3 @@ Se il parametro **model.RoundOff** è impostato su **RoundOffType.RoundUp**, `RO
 [Altre funzioni (specifiche del dominio aziendale)](er-functions-category-other.md)
 
 [Funzioni matematiche](er-functions-category-mathematical.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

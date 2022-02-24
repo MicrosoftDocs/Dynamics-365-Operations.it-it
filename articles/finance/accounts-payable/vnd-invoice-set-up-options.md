@@ -1,25 +1,28 @@
 ---
 title: Opzioni di configurazione per l'automazione delle fatture fornitore (anteprima)
 description: In questo argomento vengono descritte le opzioni disponibili per l'impostazione e la configurazione dell'automazione delle fatture fornitore.
-author: sunfzam
-ms.date: 10/19/2021
+author: abruer
+manager: AnnBe
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: ebab41d8b7697f20095d6d4654718b88c8b08a82
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675471"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665200"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Opzioni di configurazione per l'automazione delle fatture fornitore
 
@@ -27,18 +30,12 @@ ms.locfileid: "7675471"
 
 In questo argomento vengono descritte le opzioni disponibili per l'impostazione e la configurazione dell'automazione delle fatture fornitore. Le funzionalità di automazione delle fatture utilizzano i seguenti tipi di parametri di configurazione:
 
-- Parametri per l'applicazione automatica dei pagamenti anticipati nelle fatture importate.
 - Parametri per l'invio di fatture fornitore importate al sistema del flusso di lavoro e l'abbinamento delle righe di entrata prodotti registrate alle righe di fattura fornitore in sospeso.
 - Parametri per le attività in background dell'automazione dell'elaborazione. Il framework di automazione del processo viene utilizzata per inviare le fatture fornitore importate al sistema del flusso di lavoro. Viene inoltre utilizzato per abbinare automaticamente le righe di entrata prodotti registrate alle righe di fattura fornitore in sospeso e per eseguire la convalida di abbinamento fatture per le fatture manuali che sono state abbinate automaticamente alle righe di entrata prodotti. Diversi processi aziendali utilizzano questo framework per definire la frequenza di esecuzione del processo selezionato. Le frequenze disponibili per i processi in background **Abbinare l'entrata prodotti a righe di fattura** e **Inviare fatture fornitore a flusso di lavoro** includono **Ora** e **Giornaliera**.
 
 Per impostare o visualizzare le informazioni su un'attività in background, vai a **Amministrazione sistema \> Impostazione \> Automazioni processo** e seleziona la scheda **Attività in background**.
 
 Per ottenere l'automazione senza contatto dal processo di importazione attraverso la registrazione delle fatture fornitore, devi configurare un flusso di lavoro fatture fornitore. Per configurare un flusso di lavoro, vai a **Contabilità fornitori > Impostazioni > Flussi di lavoro contabilità fornitori**. Per garantire che la fattura possa essere elaborata dall'inizio alla fine senza intervento manuale, devi includere un'attività di registrazione automatizzata nella configurazione del flusso di lavoro.
-
-## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Parametri per l'applicazione automatica dei pagamenti anticipati nelle fatture importate
-
-- **Applica automaticamente il pagamento anticipato per le fatture importate** – Quando questa opzione è impostata su **sì**, il sistema cerca automaticamente i pagamenti anticipati esistenti per un ordine fornitore corrispondente quando vengono importate le fatture fornitore. Se vengono trovati pagamenti anticipati che possono essere applicati, viene aggiunta un'ulteriore riga per applicare i pagamenti anticipati nelle fatture fornitore che vengono importate.
-- **Blocca il processo di automazione del follow-up in caso di esito negativo della richiesta di pagamento anticipato** – Quando questa opzione è impostata su **sì**, le fatture verranno bloccate se non è possibile applicare un pagamento anticipato. Come altri processi automatizzati, ad esempio il processo di abbinamento delle ricevute e l'invio a un processo di flusso di lavoro, il processo di automazione delle fatture non rileverà le fatture bloccate finché non verrà applicato manualmente il pagamento anticipato. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Parametri per l'invio di fatture fornitore importate al sistema del flusso di lavoro
 
@@ -66,6 +63,3 @@ Sono disponibili i parametri seguenti:
 
 - **Numero di tentativi di abbinamento automatico** - Seleziona il numero di tentativi del sistema di abbinare le entrate prodotti a una riga di fattura prima di considerare il processo come non riuscito. Quando viene raggiunto il numero di tentativi specificato, la fattura viene rimossa dall'elaborazione dell'automazione.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

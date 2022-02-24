@@ -2,30 +2,35 @@
 title: Configurare più tenant B2C in un ambiente Commerce
 description: Questo argomento descrive quando e come impostare più tenant per canale Microsoft Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione dell'utente in un ambiente Dynamics 365 Commerce dedicato.
 author: BrianShook
-ms.date: 03/17/2021
+manager: annbe
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736406"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517127"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurare più tenant B2C in un ambiente Commerce
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive quando e come impostare più tenant Microsoft Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione dell'utente in un ambiente Dynamics 365 Commerce dedicato.
+
+## <a name="overview"></a>Panoramica
 
 Dynamics 365 Commerce usa il servizio di identità cloud Azure AD B2C per supportare le credenziali dell'utente e i flussi di autenticazione. Gli utenti possono utilizzare i flussi di autenticazione per iscriversi, accedere e reimpostare la propria password. Azure AD B2C memorizza le informazioni di autenticazione sensibili di un utente, come il nome utente e la password. Il record utente è univoco per ciascun tenant B2C e utilizza le credenziali del nome utente (indirizzo e-mail) o del provider di identità social.
 
@@ -49,9 +54,13 @@ Spesso, quando ogni canale o sito viene trattato come un'attività separata, l'o
 
 La seguente illustrazione mostra più tenant B2C in un ambiente Commerce.
 
-![Più tenant B2C in un ambiente Commerce.](media/MultiB2C_In_Environment.png)
+![Più tenant B2C in un ambiente Commerce](media/MultiB2C_In_Environment.png)
 
 Se si decide che l'azienda richiede tenant B2C distinti per canale nello stesso ambiente Commerce, completare le procedure nelle sezioni seguenti per richiedere questa funzione.
+
+## <a name="request-that-b2c-per-channel-be-enabled-in-your-environment"></a>Richiedere che B2C per canale sia abilitato nell'ambiente
+
+Attualmente, se si desidera che tenant B2C distinti per canale siano disponibili nello stesso ambiente Commerce, è necessario inviare una richiesta a Dynamics 365 Commerce. Per ulteriori informazioni, vedere [Ottenere supporto per Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) o discutere questo problema con il contatto per le soluzioni Commerce.
 
 ## <a name="configure-b2c-tenants-in-your-environment"></a>Configurare i tenant B2C nell'ambiente
 
@@ -73,11 +82,11 @@ Per aggiungere un tenant Azure AD B2C all'ambiente, attenersi alla seguente proc
     - **GUID client**: immettere l'ID tenant Azure AD B2C come appare nel portale di Azure (non l'ID applicazione per il tenant B2C).
     - **ID criteri di modifica del profilo**: immettere l'ID criteri (il nome dei criteri nel portale di Azure).
 
-1. Dopo aver inserito queste informazioni, selezionare **OK** per salvare le modifiche. Il nuovo tenant Azure AD B2C ora è presente nell'elenco in **Gestisci applicazioni B2C**.
+1. Dopo aver inserito queste informazioni, selezionare **OK** per salvare le modifiche.
 
 > [!NOTE]
 > Lasciare i campi come **Scopo**, **ID criteri non interattivi**, **ID client non interattivo**, **Dominio personalizzato per l'accesso** e **ID criteri di iscrizione** vuoti a meno che il team Dynamics 365 Commerce non indichi diversamente.
-
+Il nuovo tenant Azure AD B2C ora è presente nell'elenco in **Gestisci applicazioni B2C**.
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>Gestire o eliminare un tenant Azure AD B2C
 
@@ -91,7 +100,6 @@ Per aggiungere un tenant Azure AD B2C all'ambiente, attenersi alla seguente proc
 > Quando un tenant B2C è configurato per un sito online/pubblicato, gli utenti potrebbero aver effettuato la registrazione utilizzando gli account presenti nel tenant. Se si elimina un tenant configurato nel menu **Impostazioni tenant \> Tenant B2C**, si rimuove l'associazione di quel tenant B2C dai siti associati a tutti i canali del tenant. In questo caso, gli utenti non sono più in grado di accedere ai loro account. Pertanto, prestare la massima attenzione quando si elimina un tenant configurato.
 >
 > Quando un tenant configurato viene eliminato, il tenant e i record B2C continueranno a essere mantenuti, ma la configurazione del sistema Commerce di quel tenant verrà modificata o rimossa. Gli utenti che tentano di registrarsi o accedere al sito creeranno un nuovo record di account nel tenant B2C predefinito o appena associato che è configurato per il canale del sito.
-
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Configurare il canale con un tenant B2C
 
 1. Accedere a Creazione di siti Commerce per l'ambiente come amministratore di sistema. Per configurare i tenant Azure AD B2C è necessario essere un amministratore di sistema per l'ambiente Commerce.
@@ -123,6 +131,3 @@ Per aggiungere un tenant Azure AD B2C all'ambiente, attenersi alla seguente proc
 [Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)](add-cdn-support.md)
 
 [Abilitare il rilevamento del punto vendita basato sull'ubicazione](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

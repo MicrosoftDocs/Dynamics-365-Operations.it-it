@@ -1,37 +1,37 @@
 ---
 title: Installare e connettere l'app del magazzino
 description: Questo argomento spiega come installare l'app del magazzino su ciascuno dei tuoi dispositivi mobili e come configurarla affinché si connetta all'ambiente Microsoft Dynamics 365 Supply Chain Management. Puoi configurare manualmente ciascun dispositivo oppure importare le impostazioni di connessione tramite un file o scansionando un codice QR.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902273"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431364"
 ---
-# <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app di magazzino
+# <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app del magazzino
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Questo argomento descrive come configurare la vecchia app di magazzino (che ora è deprecata). Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino, vedere [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
-
-> [!NOTE]
-> In questo argomento viene descritto come configurare l'app di magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare l'app di magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> In questo argomento viene descritto come configurare il magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare il magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 L'app del magazzino è disponibile da Google Play Store e Microsoft Store. Viene fornito come componente autonomo. Pertanto, devi scaricarla su ciascun dispositivo e configurarla per connettersi all'ambiente Microsoft Dynamics 365 Supply Chain Management.
 
@@ -54,7 +54,7 @@ Usa uno dei seguenti collegamenti per scaricare l'app:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Magazzino su Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 su Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Per distribuzioni più piccole, potresti voler installare l'app dal relativo store su ciascun dispositivo e quindi configurare manualmente la connessione agli ambienti che stai utilizzando. Tuttavia, nella versione 1.7.0.0 e successive dell'app del magazzino, puoi anche automatizzare la distribuzione e/o la configurazione dell'app. Questo approccio potrebbe essere utile se gestisci molti dispositivi e stai utilizzando una soluzione di gestione dei dispositivi mobili e delle applicazioni mobili come [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Per informazioni su come utilizzare Intune per aggiungere applicazioni, vedi [Aggiungere app in Microsoft Intune](/mem/intune/apps/apps-add).
+Per distribuzioni più piccole, potresti voler installare l'app dal relativo store su ciascun dispositivo e quindi configurare manualmente la connessione agli ambienti che stai utilizzando. Tuttavia, nella versione 1.7.0.0 e successive dell'app del magazzino, puoi anche automatizzare la distribuzione e/o la configurazione dell'app. Questo approccio potrebbe essere utile se gestisci molti dispositivi e stai utilizzando una soluzione di gestione dei dispositivi mobili e delle applicazioni mobili come [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Per informazioni su come utilizzare Intune per aggiungere applicazioni, vedi [Aggiungere app in Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Creare un'applicazione servizio Web in Azure Active Directory
 
@@ -64,36 +64,36 @@ Per abilitare l'app del magazzino per interagire con un server Supply Chain Mana
 1. Immetti il nome e la password dell'utente che ha accesso alla sottoscrizione Azure.
 1. Nel portale di Azure, nel riquadro di spostamento a sinistra, fai clic su **Azure Active Directory**.
 
-    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Assicurati di lavorare con l'istanza di Azure AD che viene utilizzata da Supply Chain Management.
 1. Nell'elenco **Gestisci**, seleziona **Registrazioni app**.
 
-    ![Registrazioni app.](media/app-connect-azure-register.png "Registrazioni app")
+    ![Registrazioni app](media/app-connect-azure-register.png "Registrazioni app")
 
 1. Sulla barra degli strumenti, seleziona **Nuova registrazione** per aprire la procedura guidata **Registra un'applicazione**.
 1. Immetti un nome per l'applicazione, seleziona l'opzione **Solo account nella directory organizzativa**, quindi **Registra**.
 
-    ![Procedura Registra un'applicazione.](media/app-connect-azure-register-wizard.png "Procedura Registra un'applicazione")
+    ![Procedura Registra un'applicazione](media/app-connect-azure-register-wizard.png "Procedura Registra un'applicazione")
 
 1. La nuova registrazione dell'app viene aperta. Annota il valore nel campo **ID applicazione (client)**, poiché sarà necessario in seguito. In seguito in questo argomento si farà riferimento a questo ID come *ID client*.
 
-    ![ID applicazione (client).](media/app-connect-azure-app-id.png "ID applicazione (client)")
+    ![ID applicazione (client)](media/app-connect-azure-app-id.png "ID applicazione (client)")
 
 1. Nell'elenco **Gestisci**, seleziona **Certificato e segreti**. Quindi seleziona uno dei seguenti pulsanti, a seconda di come desideri configurare l'app per l'autenticazione. Per ulteriori informazioni, consulta la sezione [Autentica utilizzando un certificato o un segreto client](#authenticate) più avanti in questo argomento.
 
     - **Carica certificato**: carica un certificato da utilizzare come segreto. Consigliamo questo approccio, perché è più sicuro e può anche essere automatizzato in modo più completo. Se stai eseguendo l'app del magazzino su dispositivi Windows, prendi nota del valore **Identificazione personale** visualizzato dopo aver caricato il certificato. Questo valore sarà necessario quando configuri il certificato su dispositivi Windows.
     - **Nuovo segreto client**: crea una chiave inserendo una descrizione della chiave e una durata nella sezione **Password**, quindi seleziona **Aggiungi**. Crea una copia della chiave e conservala in modo sicuro.
 
-    ![Certificato e segreti.](media/app-connect-azure-authentication.png "Certificato e segreti")
+    ![Certificato e segreti](media/app-connect-azure-authentication.png "Certificato e segreti")
 
 Per ulteriori informazioni su come impostare le applicazioni dei servizi Web in Azure AD, vedi le seguenti risorse:
 
-- Per istruzioni che mostrano come utilizzare Windows PowerShell per configurare le applicazioni del servizio Web in Azure AD, vedi [Procedure: Usare Azure PowerShell per creare un'entità servizio con un certificato](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Per istruzioni che mostrano come utilizzare Windows PowerShell per configurare le applicazioni del servizio Web in Azure AD, vedi [Procedure: Usare Azure PowerShell per creare un'entità servizio con un certificato](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Per i dettagli completi su come creare manualmente un'applicazione di servizio Web in Azure AD, vedi i seguenti argomenti:
 
-    - [Guida introduttiva: Registrare un'applicazione con Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app)
-    - [Procedure: Usare il portale per creare un'applicazione Azure AD e un'entità servizio che possano accedere alle risorse](/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Guida introduttiva: Registrare un'applicazione con Microsoft Identity Platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+    - [Procedure: Usare il portale per creare un'applicazione Azure AD e un'entità servizio che possano accedere alle risorse](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Creare e configurare un account utente in Supply Chain Management
 
@@ -105,7 +105,7 @@ Per consentire a Supply Chain Management di utilizzare la tua applicazione Azure
     1. Crea un utente.
     1. Assegna l'utente del dispositivo mobile al magazzino.
 
-    ![Assegna l'utente del dispositivo mobile al magazzino.](media/app-connect-app-users.png "Assegna l'utente del dispositivo mobile al magazzino")
+    ![Assegna l'utente del dispositivo mobile al magazzino](media/app-connect-app-users.png "Assegna l'utente del dispositivo mobile al magazzino")
 
 1. Associa l'applicazione Azure AD all'utente dell'app del magazzino:
 
@@ -113,7 +113,7 @@ Per consentire a Supply Chain Management di utilizzare la tua applicazione Azure
     1. Crea una riga.
     1. Inserisci l'ID client di cui hai preso nota nella sezione precedente, assegnagli un nome e seleziona l'utente che hai appena creato. Ti consigliamo di taggare tutti i tuoi dispositivi. Quindi, se vengono persi, puoi rimuovere facilmente il loro accesso a Supply Chain Management da questa pagina.
 
-    ![Applicazioni di Azure Active Directory.](media/app-connect-aad-apps.png "Applicazioni di Azure Active Directory")
+    ![Applicazioni di Azure Active Directory](media/app-connect-aad-apps.png "Applicazioni di Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticazione utilizzando un certificato o un segreto client
 
@@ -121,7 +121,7 @@ L'autenticazione con Azure AD fornisce un modo sicuro per connettere un disposit
 
 I certificati possono essere utilizzati come segreti per dimostrare l'identità dell'applicazione quando viene richiesto un token. La parte pubblica del certificato viene caricata nella registrazione dell'app nel portale di Azure, mentre il certificato completo deve essere distribuito su ogni dispositivo in cui è installata l'app del magazzino. La tua organizzazione è responsabile della gestione del certificato in termini di rotazione e così via. Puoi utilizzare certificati autofirmati, ma è sempre necessario utilizzare certificati non esportabili.
 
-Devi rendere il certificato disponibile localmente su ciascun dispositivo su cui viene eseguita l'app del magazzino. Per informazioni su come gestire i certificati per i dispositivi controllati da Intune se utilizzi Intune, vedi [Usare i certificati per l'autenticazione in Microsoft Intune](/mem/intune/protect/certificates-configure).
+Devi rendere il certificato disponibile localmente su ciascun dispositivo su cui viene eseguita l'app del magazzino. Per informazioni su come gestire i certificati per i dispositivi controllati da Intune se utilizzi Intune, vedi [Usare i certificati per l'autenticazione in Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurare l'applicazione importando le impostazioni di connessione
 
@@ -131,12 +131,12 @@ Per semplificare la gestione e la distribuzione dell'applicazione su molti dispo
 
 Puoi importare le impostazioni di connessione da un file o da un codice QR. Per entrambi gli approcci, devi innanzitutto creare un file di impostazioni che utilizza il formato e la sintassi JavaScript Object Notation (JSON). Il file deve includere un elenco di connessioni che contiene le singole connessioni che devono essere aggiunte. La tabella seguente riepiloga i parametri che è necessario specificare nel file delle impostazioni di connessione.
 
-| Parametro | Descrizione |
+| Parametro | descrizione |
 | --- | --- |
 | ConnectionName | Specificare il nome dell'impostazione della connessione. La lunghezza massima consentita è di 20 caratteri. Poiché questo valore è l'identificatore univoco per un'impostazione di connessione, assicurati che sia univoco nell'elenco. Se sul dispositivo esiste già una connessione con lo stesso nome, verrà sovrascritta dalle impostazioni del file importato. |
 | ActiveDirectoryClientAppId | Specifica l'ID client di cui hai preso nota durante la configurazione di Azure AD nella sezione [Creare un'applicazione del servizio Web in Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Specifica l'URL principale di Supply Chain Management. |
-| ActiveDirectoryTenant | Specifica il nome del dominio Azure AD che stai usando con il server Supply Chain Management. Questo valore ha la forma `https://login.windows.net/<your-Azure-AD-domain-name>`. Ecco un esempio: `https://login.windows.net/contosooperations.onmicrosoft.com`. Per maggiori informazioni su come trovare il tuo nome di dominio Azure AD , vedi [Individuare gli ID importanti per un utente](/partner-center/find-ids-and-domain-names). |
+| ActiveDirectoryTenant | Specificare il tenant di Azure AD che stai utilizzando con il server Supply Chain Management. Questo valore ha la forma `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Ecco un esempio: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
 | Società | Specifica la persona giuridica in Supply Chain Management a cui si desidera connettere l'applicazione. |
 | ConnectionType | (Facoltativo) Specificare se l'impostazione di connessione deve utilizzare un certificato o un segreto client per connettersi a un ambiente. I valori validi sono *"certificato"* e *"clientsecret"*. Il valore predefinito è *"certificato"*.<p>**Nota:** i segreti client non possono essere importati.</p> |
 | IsEditable | (Facoltativo) Specifica se l'utente dell'app deve essere in grado di modificare le impostazioni di connessione. I valori validi sono *"true"* e *"false"*. Il valore predefinito è *"true"*. |
@@ -201,26 +201,26 @@ Segui questa procedura per importare le impostazioni di connessione da un file o
 1. Vai a **Impostazioni di connessione**.
 1. Imposta l'opzione **Utilizza modalità demo** su _No_.
 
-    ![Usa l'opzione modalità demo.](media/app-connect-app-demo-mode.png "Usa l'opzione modalità demo")
+    ![Usa l'opzione modalità demo](media/app-connect-app-demo-mode.png "Usa l'opzione modalità demo")
 
 1. Imposta **Seleziona file** o **Scansiona codice QR**, a seconda di come si desidera importare le impostazioni:
 
     - Se stai importando le impostazioni di connessione da un file, l'app potrebbe aver già trovato il file se il nome e la posizione predefiniti sono stati utilizzati al momento del salvataggio. Altrimenti, seleziona **Seleziona file**, individua il file sul dispositivo locale e selezionalo. Se selezioni una posizione personalizzata, l'app la memorizzerà e la utilizzerà automaticamente la volta successiva.
     - Se stai importando le impostazioni di connessione scansionando un codice QR, seleziona **Scansiona codice QR**. L'app richiede l'autorizzazione per utilizzare la fotocamera del dispositivo. Dopo aver concesso l'autorizzazione, la fotocamera viene avviata, in modo da poterla utilizzare per la scansione. A seconda della qualità della fotocamera del dispositivo e della complessità del codice QR, potrebbe essere difficile ottenere una scansione corretta. In tal caso, prova a ridurre la complessità del codice QR generando una sola connessione per codice QR. Attualmente, è possibile utilizzare solo la fotocamera del dispositivo per scansionare il codice QR.
 
-    ![Importa le impostazioni di connessione.](media/app-connect-app-select-file.png "Importa le impostazioni di connessione")
+    ![Importa le impostazioni di connessione](media/app-connect-app-select-file.png "Importa le impostazioni di connessione")
 
 1. Quando le impostazioni di connessione sono state caricate correttamente, seleziona il pulsante **Indietro** (freccia sinistra) nell'angolo in alto a sinistra della pagina.
 
-    ![Impostazioni di connessione caricate.](media/app-connect-app-settings-loaded.png "Impostazioni di connessione caricate")
+    ![Impostazioni di connessione caricate](media/app-connect-app-settings-loaded.png "Impostazioni di connessione caricate")
 
 1. Se stai usando un dispositivo Android e stai utilizzando un certificato per l'autenticazione, il dispositivo richiede di selezionare il certificato.
 
-    ![Scegli il certificato richiesto su un dispositivo Android.](media/app-connect-app-choose-cert.png "Scegli il certificato richiesto su un dispositivo Android")
+    ![Scegli il certificato richiesto su un dispositivo Android](media/app-connect-app-choose-cert.png "Scegli il certificato richiesto su un dispositivo Android")
 
 1. L'app si collega al server Supply Chain Management e visualizza la pagina di accesso.
 
-    ![Pagina di accesso.](media/app-connect-sign-in.png "Pagina di accesso")
+    ![Pagina di accesso](media/app-connect-sign-in.png "Pagina di accesso")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Configurare l'applicazione manualmente
 
@@ -230,11 +230,11 @@ Puoi configurare manualmente l'app sul dispositivo affinché si connetta al serv
 1. Vai a **Impostazioni di connessione**.
 1. Imposta l'opzione **Utilizza modalità demo** su _No_.
 
-    ![Modalità demo disattivata.](media/app-connect-app-select-file.png "Modalità demo disattivata")
+    ![Modalità demo disattivata](media/app-connect-app-select-file.png "Modalità demo disattivata")
 
 1. Tocca il campo **Seleziona connessione** per espandere le impostazioni richieste per inserire manualmente i dettagli della connessione.
 
-    ![Campi di connessione manuale.](media/app-connect-manual-connect.png "Campi di connessione manuale")
+    ![Campi di connessione manuale](media/app-connect-manual-connect.png "Campi di connessione manuale")
 
 1. Immettere le seguenti informazioni:
 
@@ -248,7 +248,7 @@ Puoi configurare manualmente l'app sul dispositivo affinché si connetta al serv
         > [!NOTE]
         > Non terminare questo valore con una barra (/).
 
-    - **Tenant Active Directory** - Inserisci il nome del dominio Azure AD che stai usando con il server Supply Chain Management. Questo valore ha la forma `https://login.windows.net/<your-Azure-AD-domain-name>`. Ecco un esempio: `https://login.windows.net/contosooperations.onmicrosoft.com`. Per maggiori informazioni su come trovare il tuo nome di dominio Azure AD , vedi [Individuare gli ID importanti per un utente](/partner-center/find-ids-and-domain-names).
+    - **Tenant di Active directory**: immetti il tenant di Azure AD che stai usando per il server Supply Chain Management. Questo valore ha la forma `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Ecco un esempio: `https://login.windows.net/contosooperations.onmicrosoft.com`.
 
         > [!NOTE]
         > Non terminare questo valore con una barra (/).
@@ -274,6 +274,3 @@ In caso di un dispositivo perso o compromesso, devi rimuovere l'accesso a Supply
 1. Assicurati che l'ID client dell'applicazione corrisponda all'ID client annotato nel passaggio 2.
 1. Sulla barra degli strumenti, seleziona **Elimina**.
 1. Nel messaggio di conferma visualizzato, seleziona **Sì**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: Spedire ordini come consegne dirette
 description: Questa argomento dimostra come si crea una consegna diretta per un ordine cliente.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572443"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966107"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Spedire ordini come consegne dirette
 
@@ -79,6 +81,3 @@ Questa argomento dimostra come si crea una consegna diretta per un ordine client
     - La pagina Consegna diretta agisce da workbench che fornisce all'addetto acquisti una panoramica di tutte le righe ordine cliente che devono essere consegnate direttamente e permette di creare i rispettivi ordini fornitore. Inoltre, è possibile visualizzare gli ordini di consegna diretta aperti e gli ordini confermati nelle schede Conferma e Consegna.  
     - Dopo aver creato un ordine di consegna diretta, questo viene spostato automaticamente nella scheda Conferma. È possibile scegliere di confermare l'ordine direttamente in questa pagina. Quando l'acquisto viene confermato, viene automaticamente spostato nella scheda Consegna da cui è possibile registrarne la ricezione.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

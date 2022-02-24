@@ -2,9 +2,11 @@
 title: Visualizzare ed esportare le descrizioni campi
 description: In questo articolo viene descritto come visualizzare le descrizioni dei campi e come utilizzare la pagina Descrizioni campi per esportare le descrizioni.
 author: rschloma
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 39dd9a86ffb04d18f61c75fb2c9634e441dc823b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069275"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797901"
 ---
 # <a name="view-and-export-field-descriptions"></a>Visualizzare ed esportare le descrizioni campi
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In questo articolo viene descritto come visualizzare le descrizioni dei campi e come utilizzare la pagina Descrizioni campi per esportare le descrizioni.
 
@@ -46,7 +45,7 @@ Se si ha accesso all'ambiente di sviluppo è possibile aggiungere nuove descrizi
 
 La seguente illustrazione mostra la descrizione che viene visualizzata quando si passa con il mouse sul campo **Blocca articoli durante il conteggio**.
 
-[![Esempio di una descrizione di campo.](./media/field-description.png)](./media/field-description.png)
+[![Esempio di una descrizione di campo](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Utilizzare la pagina Descrizioni campi per visualizzare ed esportare la Guida sui campi
 
@@ -108,6 +107,3 @@ Per informazioni sui vari modi per trovare le pagine, vedere la sezione "Ricerca
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Personalizzare le descrizioni dei campi](../../dev-itpro/user-interface/customize-field-help.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

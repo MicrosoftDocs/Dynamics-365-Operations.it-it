@@ -1,26 +1,29 @@
 ---
 title: Programmazioni consegna
 description: Le programmazioni consegna consentono di tenere traccia della quantità della riga ordine quando si utilizzano più consegne per un singolo ordine cliente, una singola offerta di vendita o un singolo ordine fornitore.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchDeliverySchedule, SalesDeliverySchedule, SalesQuotationDeliverySchedule, SalesQuotationDeliverySchedule
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 213984
 ms.assetid: 44cac104-c36c-4371-a992-9178b3fd65e9
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50558c5da71351082d36276a3185e1f91543f2b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bc25ff113291b2a8a0a7ba15637e4d094feb9aae
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573467"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431311"
 ---
 # <a name="delivery-schedules"></a>Programmazioni consegna
 
@@ -32,7 +35,7 @@ Usare una programmazione consegna quando la quantità totale di una riga ordine 
 
 **Esempio di una programmazione consegna**
 
-| Articolo                              | Valore                                    |
+|                                   |                                          |
 |-----------------------------------|------------------------------------------|
 | Ordine totale (riga ordine originale) | 600 sedie                               |
 | Programmazione consegna richiesta       | 100 sedie al mese                     |
@@ -54,6 +57,3 @@ Quando si confermano le offerte di vendita, negli ordini clienti risultanti vien
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

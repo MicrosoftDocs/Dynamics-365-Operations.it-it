@@ -1,32 +1,30 @@
 ---
 title: Salvare le guide attività in LCS e riprodurle nuovamente
-description: In questo argomento viene descritto come salvare guide attività in Microsoft Dynamics Lifecycle Services(LCS) e riprodurle.
-author: twheeloc
-ms.date: 08/23/2021
+description: In questo articolo viene descritto come salvare guide attività in Microsoft Dynamics Lifecycle Services(LCS) e riprodurle.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068361"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419205"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Salvare le guide attività in LCS e riprodurle nuovamente
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Dettagli ambiente** 
 
@@ -55,7 +53,7 @@ Seguire la procedura seguente per salvare una registrazione attività in LCS.
 10. Creare una registrazione attività.
 11. Al termine, selezionare **Salvare in Lifecycle Services**.
 
-    ![Salvare in Lifecycle Services.](media/task-guides.png)
+    ![Salvare in Lifecycle Services](media/task-guides.png)
 
 12. Selezionare il nodo e la libreria BPM in cui salvare la registrazione attività.
 
@@ -65,6 +63,3 @@ Seguire questi passaggi per riprodurre una guida attività da LCS.
 2. Selezionare **Apri da LCS**.
 3. Selezionare la libreria e il nodo BPM con la guida attività salvata.
 4. Aprire la guida attività.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

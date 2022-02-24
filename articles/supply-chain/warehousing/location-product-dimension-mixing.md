@@ -2,23 +2,26 @@
 title: Combinazione dimensioni prodotto ubicazione
 description: Questo argomento fornisce informazioni sulla combinazione di dimensioni del prodotti di ubicazione. Questa funzionalità del profilo di ubicazione consente di migliorare la gestione dell'ubicazione quando vengono utilizzate varianti di prodotto o prodotti con dimensioni, ad esempio nel settore della moda. Consente di decidere se configurazioni, colori, stili e dimensioni possono essere combinati per un profilo di ubicazione specifico o se solo una di queste dimensioni o una combinazione di esse può essere collocata nella stessa ubicazione.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578562"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4431471"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinazione dimensioni prodotto ubicazione
 
@@ -204,9 +207,9 @@ Creerai un ordine fornitore che ha tre righe: due righe per lo stesso numero di 
 
 1.Seleziona **Salva**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Ricevere le righe ordine fornitore nell'app per dispositivi mobili Gestione magazzino
+### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Ricevere le righe ordine fornitore nell'app del magazzino
 
-1. Accedi all'app per dispositivi mobili Gestione magazzino come utente abilitato per il magazzino *24*.
+1. Accedi all'app del magazzino come utente abilitato per il magazzino *24*.
 1. Seleziona il menu **In uscita**.
 1. Seleziona **Ricezione riga PO**.
 1. Seleziona il campo **PONUM**, quindi inserisci il numero dell'ordine fornitore.
@@ -236,5 +239,3 @@ Creerai un ordine fornitore che ha tre righe: due righe per lo stesso numero di 
 
 > [!TIP]
 > Puoi ripetere questo scenario, ma questa volta, imposta **Dimensione** - *No* nella Scheda dettaglio **Consenti combinazione dimensioni prodotto** sul *BULK* **Profili di ubicazione**, in modo che nessuna delle dimensioni del prodotto possa essere combinata. In questo caso, quando si riceve l'ordine fornitore, ciascuna variante di prodotto verrà inserita in una nuova ubicazione.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

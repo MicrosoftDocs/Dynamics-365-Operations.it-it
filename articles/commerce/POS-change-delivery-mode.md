@@ -2,9 +2,11 @@
 title: Modifica modalità di consegna nel POS
 description: Questo argomento descrive come configurare e utilizzare la modalità di modifica dell'operazione di consegna nel POS.
 author: hhainesms
+manager: annbe
 ms.date: 03/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6bfe27a7b4a768da00c67e307a0bd7e57b333d11
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714042"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965429"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Modifica modalità di consegna nel POS
 
@@ -31,7 +33,7 @@ In Dynamics 365 Commerce versione 10.0.10 e successive, l'operazione **Cambia mo
 
 La funzione di modifica della modalità di consegna offre la possibilità di modificare la modalità di consegna per una o più linee di vendita configurate per la spedizione sulla transazione POS. Nelle versioni precedenti di Commerce, si doveva passare per intero i flussi della configurazione **Spedisci tutto** o **Spedizione selezionata** per modificare la modalità di consegna su una riga esistente configurata per la spedizione. Questo processo ha richiesto molto tempo e potrebbe comportare modifiche accidentali all'origine della consegna o alle date di consegna per la riga. La nuova funzionalità offre un metodo alternativo per l'aggiornamento efficiente della modalità di consegna su queste righe di vendita.
 
-Per ulteriori informazioni su come aggiungere un'operazione a un pulsante sulla griglia dei pulsanti del POS, vedere [Layout dello schermo per il punto vendita](pos-screen-layouts.md).
+Per ulteriori informazioni su come aggiungere un'operazione a un pulsante sulla griglia dei pulsanti del POS, vedere [Layout dello schermo per il punto vendita](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts).
 
 Dopo aver configurato questa funzione nel POS, quando si seleziona **Cambia modalità di consegna**, verrà presentata una pagina di elenco che consente di scegliere le righe della transazione per cui si desidera modificare la modalità di consegna. È possibile scegliere alcune o tutte le righe o uscire senza apportare modifiche. Le righe di vendita precedentemente configurate per la spedizione sono le uniche righe nell'elenco che è possibile modificare. Se si desidera modificare una riga designata per il ritiro o il trasporto per la spedizione, è necessario utilizzare le operazioni **Spedisci tutto** o **Spedizione selezionata**. Al contrario, se si desidera modificare una riga designata come spedizione a un punto ritiro o un ritiro, è necessario utilizzare le operazioni **Preleva tutto**, **Preleva selezionato**, **Esegui tutto** o **Esegui selezionato**.
 
@@ -44,6 +46,3 @@ Dopo aver selezionato la nuova modalità di consegna, viene visualizzata la pagi
 [Creare ordini servizio clienti](tasks/create-call-center-orders.md)
 
 [Personalizzare i messaggi di posta elettronica transazionali in base alla modalità di consegna](customize-email-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

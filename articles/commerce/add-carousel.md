@@ -1,13 +1,16 @@
 ---
 title: Modulo Sequenza
-description: Questo argomento tratta i moduli Sequenza e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
+description: In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721057"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413383"
 ---
-# <a name="carousel-module"></a>Modulo sequenza
+# <a name="carousel-module"></a>Modulo Sequenza
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento tratta i moduli Sequenza e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
+In questo argomento vengono descritti i moduli Sequenza e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Un modulo Sequenza viene utilizzato per inserire molteplici articoli promozionali (incluse immagini) in un banner sequenza rotante al quale i clienti possono accedere. Ad esempio, un rivenditore può utilizzare un modulo Sequenza in una home page per presentare molteplici nuovi prodotti o promozioni.
 
@@ -40,7 +45,7 @@ Un modulo Sequenza viene utilizzato per inserire molteplici articoli promozional
 
 L'immagine seguente mostra un esempio di modulo Sequenza utilizzato in una home page. Questo modulo Sequenza contiene molteplici elementi del blocco di contenuto.
 
-![Esempio di modulo Sequenza.](./media/Hero.PNG)
+![Esempio di modulo Sequenza](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Proprietà del modulo Sequenza
 
@@ -81,6 +86,3 @@ Per aggiungere un modulo Sequenza a una nuova pagina e impostare le proprietà n
 [Modulo blocco contenuto](add-hero-module.md)
 
 [Modulo Lettore video](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

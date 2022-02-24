@@ -1,37 +1,33 @@
 ---
-title: Panoramica del dipendente e del responsabile self-service
-description: Questo articolo fornisce una panoramica dell'area di lavoro Self-service dipendenti e responsabile.
-author: twheeloc
-ms.date: 08/26/2021
-ms.topic: overview
+title: Panoramica self-service per dipendenti e manager
+description: Questo articolo fornisce una panoramica dell'area di lavoro self-service per dipendenti e manager.
+author: andreabichsel
+manager: tfehr
+ms.date: 10/20/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
-ms.custom:
-- "51941"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068946"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4419278"
 ---
-# <a name="employee-and-manager-self-service-overview"></a>Panoramica del dipendente e del responsabile self-service
+# <a name="employee-and-manager-self-service-overview"></a>Panoramica self-service per dipendenti e manager
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Questo articolo fornisce una panoramica dell'area di lavoro Self-service dipendenti e responsabile.
+Questo articolo fornisce una panoramica dell'area di lavoro self-service per dipendenti e manager.
 
 ## <a name="edit-personal-details"></a>Modifica dettagli personali
 
@@ -43,7 +39,7 @@ Se non l'utente non è stato collegato a un record **Lavoratore** nella pagina *
 
 **ID utente non associato ad alcun record dipendente nel sistema. Non sarà possibile visualizzare né aggiornare le informazioni fino a quando non viene eseguita un'associazione. Per assistenza, contattare il responsabile o il team di supporto.**
 
-Per associare un utente a un record **Lavoratore** passare a **Utenti** e selezionare l'utente. Selezionare **Modifica**, aggiungere il lavoratore corrispondente nel campo **Persona** nella pagina e selezionare **Salva**. Ora è possibile accedere a **Self-service dipendenti**.
+Per associare un utente a un record **Lavoratore** passare a **Utenti** e selezionare l'utente. Selezionare **Modifica**, aggiungere il lavoratore corrispondente nel campo **Persona** nel modulo e selezionare **Salva**. Ora è possibile accedere al self-service dei dipendenti.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Requisiti di sicurezza per il self-service dipendenti e responsabili
 
@@ -58,7 +54,7 @@ Il self-service dipendenti e responsabili richiede due ruoli di sicurezza:
 
 ## <a name="employee-self-service"></a>Self-service dipendenti
 
-La scheda **Informazioni personali** visualizza le seguenti informazioni per **Self service dipendenti**.  
+La scheda **Informazioni personali** visualizza le seguenti informazioni per il self service dipendente.  
 
 ### <a name="summary"></a>Riepilogo
 
@@ -72,33 +68,33 @@ La scheda **Informazioni personali** visualizza le seguenti informazioni per **S
 
 ### <a name="my-career-information"></a>Informazioni personali sull'avanzamento professionale
 
-La sezione **Informazioni professionali personali** di **Self-service dipendenti** mostra i riquadri relativi a congedi e assenze, gestione delle prestazioni, competenze, vantaggi, attività e allegati.
+La sezione **Informazioni professionali personali** del self-service dipendente contiene le schede relative a congedi e assenze, gestione delle prestazioni, competenze, vantaggi, attività e allegati.
 
-Il riquadro **Saldi permessi** mostra i saldi di tutti i piani registrati. Questo riquadro prevede il saldo in base al metodo di attribuzione per competenza. È possibile inserire e inviare richieste di permesso che passeranno attraverso un processo di flusso di lavoro di approvazione. Per ulteriori informazioni sulla gestione di congedi e assenze, vedere [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md).
+La scheda **Saldi permessi** mostra i saldi di tutti i piani registrati. Questa carta prevede il saldo in base al metodo di attribuzione per competenza. È possibile inserire e inviare richieste di permesso che passeranno attraverso un processo di flusso di lavoro di approvazione. Per ulteriori informazioni sulla gestione di congedi e assenze, vedere [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md).
 
-Il riquadro **Attività** mostra le attività assegnate all'utente e consente di visualizzarle e gestirle.
+La scheda **Attività** visualizza le attività assegnate all'utente e consente di visualizzarle e gestirle.
 
-Il riquadro **Prossimo corso registrato** mostra il prossimo corso in cui si è registrati. È possibile visualizzare e registrare solo i corsi aperti. Vengono visualizzati tutti i corsi che sono aperti per l'iscrizione che hanno lo stato **Avviato** e consentono ai dipendenti di registrarsi automaticamente. A seconda delle impostazioni dell'organizzazione, la registrazione del corso potrebbe essere soggetta a un processo di approvazione.
+La scheda **Prossimo corso registrato** mostra il prossimo corso in cui si è registrati. È possibile visualizzare e registrare solo i corsi aperti. Tutti i corsi che sono aperti per l'iscrizione hanno lo stato **Avviato** e consentono ai dipendenti di registrarsi automaticamente in questa scheda. A seconda delle impostazioni dell'organizzazione, la registrazione del corso potrebbe essere soggetta a un processo di approvazione.
 
-Il riquadro **Certificati** mostra il certificato e la data di scadenza del certificato più prossima alla data corrente. È possibile aggiornare, aggiungere o rimuovere certificati. A seconda delle impostazioni dell'organizzazione, gli aggiornamenti dei certificati potrebbero essere soggetti a un processo di approvazione.
+La scheda **Certificati** visualizza il certificato e la data di scadenza del certificato più prossima alla data corrente. È possibile aggiornare, aggiungere o rimuovere certificati. A seconda delle impostazioni dell'organizzazione, gli aggiornamenti dei certificati potrebbero essere soggetti a un processo di approvazione.
 
-Il riquadro **Prossima revisione programmata** mostra la prossima revisione delle prestazioni. È possibile iniziare una nuova revisione da questo riquadro. Anche il manager o il rappresentante delle risorse umane può avviare revisioni. A seconda delle impostazioni dell'organizzazione, è possibile anche visualizzare, aggiornare e inviare revisioni di uscita.
+La scheda **Prossima revisione programmata** mostra la prossima revisione delle prestazioni. È possibile iniziare una nuova revisione da questa scheda. Anche il manager o il rappresentante delle risorse umane può avviare revisioni. A seconda delle impostazioni dell'organizzazione, è possibile anche visualizzare, aggiornare e inviare revisioni di uscita da questa scheda.
 
-È possibile gestire gli obiettivi con **Obiettivi prestazioni**. Questo riquadro mostra il numero di obiettivi presenti in ogni stato (**Non avviato**, **Operativo** e **Richiede miglioramento**). È possibile creare, aggiornare e rimuovere obiettivi, in base alla sicurezza basata su ruolo assegnata. Se desiderato, è possibile aggiungere nuovi obiettivi da gruppi o modelli. I manager e le risorse umane possono anche creare obiettivi per conto dei dipendenti e determinare i dettagli di ciascun obiettivo. I manager e i dipendenti possono collaborare su obiettivi e aggiornare attività, misure e stato. È anche possibile includere allegati.
+È possibile gestire gli obiettivi con la scheda **Obiettivi prestazioni**. Questa carta mostra il numero di obiettivi presenti in ogni stato (**Non avviato**, **Operativo** e **Richiede miglioramento**). È possibile creare, aggiornare e rimuovere obiettivi, in base alla sicurezza basata su ruolo assegnata. Se desiderato, è possibile aggiungere nuovi obiettivi da gruppi o modelli. I manager e le risorse umane possono anche creare obiettivi per conto dei dipendenti e determinare i dettagli di ciascun obiettivo. I manager e i dipendenti possono collaborare su obiettivi e aggiornare attività, misurazioni e stato. È anche possibile includere allegati.
 
-È possibile visualizzare le competenze esistenti nel riquadro **Competenze totali**. È possibile aggiornare le competenze, aggiungerne di nuove o rimuovere quelle che non sono più pertinenti. A seconda delle impostazioni dell'organizzazione, la modifica alle competenze potrebbe essere soggetta a un processo di approvazione.
+È possibile visualizzare le competenze esistenti nella scheda **Competenze**. È possibile aggiornare le competenze, aggiungerne di nuove o rimuovere quelle che non sono più pertinenti. A seconda delle impostazioni dell'organizzazione, la modifica alle competenze potrebbe essere soggetta a un processo di approvazione.
 
-È possibile visualizzare l'attuale retribuzione in **Retribuzione**. Selezionare **Mostra** per visualizzare la retribuzione annuale e l'importo dell'ultimo aumento. Se si lavora in più società, viene visualizzato ciascun importo annuale. Per visualizzare la cronologia delle retribuzioni dettagliata, selezionare l'importo **Retribuzione annuale** per aprire la pagina **Cronologia delle retribuzioni fisse e variabili**. La retribuzione futura non viene visualizzata in questa pagina. Se è presente più di un impiego, è possibile passare da una società all'altra in questa pagina per visualizzare la cronologia delle retribuzioni senza accedere a ciascuna società.
+È possibile visualizzare l'attuale retribuzione nella scheda **Retribuzione**. Selezionare **Mostra** per visualizzare la retribuzione annuale e l'importo dell'ultimo aumento. Se si lavora in più società, ogni importo annuale viene visualizzato sulla scheda. Per visualizzare la cronologia delle retribuzioni dettagliata, selezionare l'importo della retribuzione annuale per aprire il modulo **Cronologia delle retribuzioni fisse e variabili**. La retribuzione futura non viene visualizzata in questo modulo. Se è presente più di un impiego, è possibile passare da una società all'altra in questo modulo per visualizzare la cronologia delle retribuzioni senza accedere a ciascuna società.
 
-Visualizzare e gestire i documenti con il riquadro **Allegati**. È possibile gestire tutti gli allegati **esterni**. Sia le risorse umane che i dipendenti possono aggiungere allegati tramite **Self service dipendenti** o la pagina **Lavoratore**. Gli allegati sono impostati su **Esterno** per impostazione predefinita.
+Visualizzare e gestire i documenti con la scheda **Allegati**. È possibile gestire tutti gli allegati **esterni**. Sia le risorse umane che i dipendenti possono aggiungere allegati tramite il self service dipendente o il modulo **Lavoratore**. Gli allegati sono impostati su **Esterno** per impostazione predefinita.
 
 ### <a name="additional-information"></a>Informazioni aggiuntive
 
-Questa sezione fornisce i collegamenti ad altre aree **Self-service dipendenti**, simili alla sezione **Informazioni professionali personali**.
+Questa sezione fornisce i collegamenti ad altre aree self-service dei dipendenti, simili alla sezione **Informazioni professionali personali**.
 
-Registrarsi per ottenere vantaggi tramite il collegamento **Vantaggi**. Per ulteriori informazioni sulla gestione dei vantaggi, vedi [Panoramica dei vantaggi](hr-benefits-management-overview.md).
+Registrarsi per ottenere vantaggi tramite il collegamento **Vantaggi**. Per ulteriori informazioni sulla gestione dei vantaggi, vedere [Panoramica dei vantaggi](hr-benefits-management-overview.md)
 
-In **Prestazioni**, è possibile selezionare **Giornale di registrazione prestazioni** per creare voci del giornale di registrazione prestazioni da utilizzare su obiettivi e revisioni delle prestazioni. È possibile selezionare **Invia feedback** per fornire feedback ad altri dipendenti all'interno dell'organizzazione. A seconda delle impostazioni dell'organizzazione, i messaggi e-mail possono essere inviati al destinatario, al mittente e ai manager. È possibile inviare il feedback a tutti i dipendenti all'interno dell'organizzazione. L'invio del feedback non è limitato dalla società.
+In **Prestazioni**, è possibile selezionare **Giornali di registrazione prestazioni** per creare voci del giornale di registrazione prestazioni da utilizzare su obiettivi e revisioni delle prestazioni. È possibile selezionare **Invia feedback** per fornire feedback ad altri dipendenti all'interno dell'organizzazione. A seconda delle impostazioni dell'organizzazione, i messaggi e-mail possono essere inviati al destinatario, al mittente e ai manager. È possibile inviare il feedback a tutti i dipendenti all'interno dell'organizzazione. L'invio del feedback non è limitato dalla società.
 
 In **Competenze**, è possibile apportare modifiche a **Corsi**, **Formazione**, **Posizioni di fiducia** ed **Esperienza professionale**. A seconda delle impostazioni dell'organizzazione, gli aggiornamenti delle competenze potrebbero essere soggetti a un processo di approvazione.
 
@@ -108,11 +104,11 @@ In **Questionario**, è possibile vedere i questionari completati. È anche poss
 
 È possibile configurare i collegamenti definiti dall'utente in **Parametri risorse umane**. Ad esempio, è possibile definire i collegamenti ai rendiconto di retribuzione, alla documentazione di fine anno o a soluzioni esterne. Questi collegamenti vengono visualizzati nella parte inferiore di questa sezione, ma è possibile spostarli utilizzando la personalizzazione.
 
-È inoltre possibile creare schede aggiuntive incorporando Power Apps all'interno dell'area di lavoro **Self service dipendenti**. Usare il menu **Impostazioni** per personalizzare la pagina con qualsiasi Power Apps. Nel menu **Impostazioni** è possibile scegliere di aggiungere una Power App, completare i dettagli e inserire l'app. Per impostazione predefinita, Power Apps appare come la prima scheda della sequenza. È possibile modificare l'ordine con la personalizzazione standard.
+È inoltre possibile creare schede aggiuntive incorporando Power Apps all'interno dell'area di lavoro self service dipendente. Usare il menu **Impostazioni** per personalizzare la pagina con qualsiasi Power Apps. Nel menu **Impostazioni** è possibile scegliere di aggiungere una Power App, completare i dettagli e inserire l'app. Per impostazione predefinita, Power Apps appare come la prima scheda della sequenza. È possibile modificare l'ordine con la personalizzazione standard.
 
 ## <a name="my-team"></a>Team personale
 
-La scheda **Team personale** visualizza le seguenti informazioni per **Self service responsabile**. Solo i manager possono accedere alla scheda **Team personale**.
+La scheda **Team personale** visualizza le seguenti informazioni per il self service manager. Solo i manager possono accedere alla scheda **Team personale**.
 
 ### <a name="personnel-actions"></a>Azioni dipendente
 
@@ -135,7 +131,7 @@ L'abilitazione di **Azioni della posizione** attiva le seguenti opzioni:
 
 ### <a name="summary"></a>Riepilogo
 
-Le informazioni nella sezione **Sommario** dipendono dalle opzioni selezionate da HR in **Parametri risorse umane**. Nella scheda **Self service responsabile** della pagina **Parametri risorse umane**, è possibile configurare le opzioni per visualizzare i record in scadenza e le posizioni aperte. L'abilitazione di queste opzioni determina ciò che i manager possono vedere nella sezione **Sommario**.
+Le informazioni nella sezione **Sommario** dipendono dalle opzioni selezionate da HR in **Parametri risorse umane**. Nella scheda **Self service manager** della pagina **Parametri risorse umane**, è possibile configurare le opzioni per visualizzare i record in scadenza e le posizioni aperte. L'abilitazione di queste opzioni determina ciò che i manager possono vedere nella sezione **Sommario**.
 
 È possibile configurare i seguenti riquadri per i manager:
 
@@ -163,11 +159,11 @@ Le informazioni nella sezione **Sommario** dipendono dalle opzioni selezionate d
 
 ### <a name="my-team-information"></a>Informazioni personali sul team
 
-**Team personale** consente ai responsabili di visualizzare e aggiornare i diretti subalterni e i subalterni estesi. Per accedere ai subalterni estesi, selezionare il dipendente con i subalterni, quindi scegliere **Visualizza team** sul riquadro. Le stesse opzioni si applicano ai subalterni estesi come ai diretti subalterni. 
+Le informazioni del team consentono ai manager di visualizzare e aggiornare i diretti subalterni e i subalterni estesi. Per accedere ai subalterni estesi, selezionare il dipendente con i subalterni, quindi scegliere **Visualizza team** sulla scheda. Le stesse opzioni si applicano ai subalterni estesi come ai diretti subalterni. 
 
 #### <a name="summary-tab"></a>Scheda Riepilogo
 
-La scheda **Riepilogo** fornisce una visualizzazione rapida dei diretti subalterni. Se anche i diretti subalterni hanno lavoratori che riportano loro, la scheda mostra il numero di diretti subalterni nella sezione superiore, insieme a un pulsante **Visualizza team**. Le opzioni di ogni riquadro si applicano al dipendente selezionato. Ad esempio, se si desidera inserire una richiesta di congedo per conto di un dipendente, selezionare il dipendente e quindi scegliere **Richiedi permesso**. 
+La scheda **Riepilogo** fornisce una visualizzazione rapida dei diretti subalterni. Se anche i diretti subalterni hanno lavoratori che riportano loro, la scheda mostra il numero di diretti subalterni nella sezione superiore, insieme a un pulsante **Visualizza team**. Le opzioni di ogni scheda si applicano al dipendente selezionato. Ad esempio, se si desidera inserire una richiesta di congedo per conto di un dipendente, selezionare il dipendente e quindi scegliere **Richiedi permesso** sopra le schede. 
 
 Se si seleziona il pulsante **Dettagli** dopo aver selezionato un dipendente, vengono visualizzate le seguenti opzioni:
 
@@ -186,26 +182,26 @@ A seconda delle impostazioni dell'organizzazione, è possibile apportare modific
 
 #### <a name="position-tab"></a>Scheda Posizione
 
-La scheda **Posizione** fornisce una vista di riepilogo dei dipendenti nella posizione principale. Vengono visualizzati il nome, il titolo e il reparto nell'area dell'intestazione di ogni riquadro. Questo riquadro include:
+La scheda **Posizioni** fornisce una vista di riepilogo dei dipendenti nella posizione principale. Vengono visualizzati il nome, il titolo e il reparto nell'area dell'intestazione di ogni scheda. Questa scheda include:
 
-- **Data di anzianità** - Visualizzato dalla sezione di riepilogo sul lavoratore della pagina **Lavoratore**.
-- **Anni di servizio** - Calcolato in base alla data di inizio dell'impiego del dipendente.
-- **Numero di posizioni precedenti** - In base alla cronologia delle posizioni, selezionando questo numero si apre la vista dettagliata di tutte le posizioni precedentemente avute.
-- **Data di nascita** - Il mese e il giorno della data di nascita del dipendente.
+- **Data di anzianità** - Visualizzato dalla sezione di riepilogo del modulo lavoratore
+- **Anni di servizio** - Calcolato in base alla data di inizio dell'impiego del dipendente
+- **Numero di posizioni precedenti** - In base alla cronologia delle posizioni, selezionando questo numero si apre la vista dettagliata di tutte le posizioni precedentemente avute
+- **Data di nascita** - Il mese e il giorno della data di nascita del dipendente
 
 È possibile visualizzare i dati della posizione sia per i diretti subalterni che per i subalterni estesi.
 
 #### <a name="compensation-tab"></a>Scheda Retribuzione
 
-La scheda **Retribuzione** visualizza lo stipendio annuale del dipendente. Un identificativo dell'azienda viene visualizzato sotto l'importo della retribuzione. Se un dipendente ha più di un impiego e viene pagato da più persone giuridiche, il dipendente avrà più piani di retribuzione. Per visualizzare tutti i piani di retribuzione tra persone giuridiche senza cambiare società, è necessario abilitare la retribuzione interaziendale in **Risorse umane > Parametri condivisi > Accesso avanzato > Abilita retribuzione interaziendale**.
+La scheda **Retribuzione** visualizza lo stipendio annuale del dipendente. Un identificativo dell'azienda viene visualizzato sotto l'importo della retribuzione. Se un dipendente ha più di un impiego e viene pagato da più persone giuridiche, il dipendente avrà più piani di retribuzione. Per visualizzare tutti i piani di retribuzione tra persone giuridiche senza cambiare società, è necessario abilitare la retribuzione interaziendale in **Human Resources > Parametri condivisi > Accesso avanzato > Abilita retribuzione interaziendale**.
 
-Per visualizzare la cronologia delle retribuzioni, selezionare **Importo retribuzione** per aprire la pagina **Dettagli**. Vengono visualizzati solo i record di retribuzione fissa e variabile correnti e storici nella pagina **Retribuzione**. Se un dipendente ha più di un impiego, è possibile passare da una società all'altra per visualizzare la cronologia delle retribuzioni in ciascuna società o abilitare la retribuzione interaziendale in **Parametri condivisi risorse umane** per visualizzare tutti i piani retributivi.
+Per visualizzare la cronologia delle retribuzioni, selezionare l'importo della retribuzione per aprire il modulo **Dettagli**. Vengono visualizzati solo i record di retribuzione fissa e variabile correnti e storici nel modulo **Retribuzione**. Se un dipendente ha più di un impiego, è possibile passare da una società all'altra per visualizzare la cronologia delle retribuzioni in ciascuna società o abilitare la retribuzione interaziendale nei parametri condivisi di Human Resources per visualizzare tutti i piani retributivi.
 
 È possibile visualizzare la retribuzione sia per i diretti subalterni che per i subalterni estesi.
 
 #### <a name="leave-and-absence-tab"></a>Scheda Congedo e assenza
 
-La scheda **Congedo e assenza** visualizza i saldi principali per i dipendenti con attività. Per utilizzare o visualizzare un elenco completo delle attività, selezionare **Dettagli** e quindi selezionare **Permesso**. Nella pagina **Permesso**, è possibile visualizzare i saldi, le richieste, i permessi approvati e i saldi previsti per aiutare i dipendenti a gestire meglio il tempo. A seconda delle impostazioni dell'organizzazione, è anche possibile richiedere il permesso per i diretti subalterni e i subalterni estesi.
+La scheda **Congedo e assenza** visualizza i saldi principali per i dipendenti con attività. Per utilizzare o visualizzare un elenco completo delle attività, selezionare **Dettagli** e quindi selezionare **Permesso**. Nel modulo **Permesso**, è possibile visualizzare i saldi, le richieste, i permessi approvati e i saldi previsti per aiutare i dipendenti a gestire meglio il tempo. A seconda delle impostazioni dell'organizzazione, è anche possibile richiedere il permesso per i diretti subalterni e i subalterni estesi.
 
 #### <a name="performance-goals-tab"></a>Scheda Obiettivi prestazioni
 
@@ -218,5 +214,3 @@ I manager possono vedere tutti gli obiettivi del team selezionando il riquadro *
 La scheda **Revisioni** riepiloga le revisioni che il dipendente ha in ogni stato: **In corso**, **Pronto per la revisione** e **Revisione finale**. Per accedere alla revisione di un dipendente, selezionare il pulsante **Dettagli** quindi selezionare le revisione su cui collaborare. In base a dove si trova una revisione nel processo del flusso di lavoro, è possibile vedere se la revisione è disponibile per l'aggiornamento. 
 
 È possibile vedere tutte le revisioni del team selezionando il riquadro **Revisioni prestazioni team** nella sezione **Riepilogo** di **Team personale**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,36 @@
 title: Creare un profilo funzionalità di vendita al dettaglio
 description: In questo argomento viene descritto come creare un profilo funzionalità in Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9043486050e230fd9ecdefaaa65427264c8e40f5c3e8602c923bbede595a7243
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717624"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413326"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Creare un profilo funzionalità di vendita al dettaglio
+
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come creare un profilo funzionalità in Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Panoramica
 
 Il profilo funzionalità per commercio fornisce varie impostazioni utilizzate per canali online. Ogni canale deve specificare un profilo funzionalità.
 
@@ -47,7 +53,7 @@ Per creare un nuovo profilo funzionalità, completare i passaggi seguenti:
   
 L'immagine seguente mostra un esempio di profilo funzionalità.
   
-![Esempio di profilo funzionalità.](media/retail-functionality-profile.png)
+![Esempio di profilo funzionalità](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -58,6 +64,3 @@ L'immagine seguente mostra un esempio di profilo funzionalità.
 [Panoramica del layout schermo](pos-screen-layouts.md)       
 
 [Configurare e installare Retail hardware station](retail-hardware-station-configuration-installation.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

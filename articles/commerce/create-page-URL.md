@@ -2,9 +2,11 @@
 title: Creare un URL di pagina
 description: In questo argomento vengono descritti le procedure e i concetti di base per la creazione di un URL di pagina nel sito.
 author: bicyclingfool
+manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 923723ce6e3f92c5186cd8a562a6e3fee3fdf70dfe8db29c86192cb1db515b1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 062a49df93e442dbe402ac9a78244c966958aaa2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717725"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965255"
 ---
 # <a name="create-a-page-url"></a>Creare un URL di pagina
+
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti le procedure e i concetti di base per la creazione di un URL di pagina nel sito.
+
+## <a name="overview"></a>Panoramica
 
 L'URL completo, o assoluto, che punta a una pagina nel sito è costituito da più parti distinte. Ad esempio, l'URL `https://www.contoso.com/en-us/contactus` include le seguenti parti:
 
@@ -101,6 +106,3 @@ Per reindirizzare un URL a un URL differente, effettuare le seguenti operazioni.
 [Configurare il proprio nome di dominio](configure-your-domain-name.md)
 
 [Aggiungere lingue al sito](add-languages-to-site.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

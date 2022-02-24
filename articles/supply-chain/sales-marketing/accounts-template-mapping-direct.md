@@ -1,36 +1,39 @@
 ---
 title: Sincronizzare conti direttamente da Sales con clienti in Supply Chain Management
 description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti da Dynamics 365 Sales in Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063087"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529212"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sincronizzare conti direttamente da Sales con clienti in Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Microsoft Dataverse per le app](/powerapps/administrator/data-integrator).
+> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
 
@@ -38,7 +41,7 @@ Questo argomento descrive i modelli e le attività sottostanti che vengono utili
 
 La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales.  I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
-[![Flusso di dati in Prospect per uno scenario di liquidazione.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
@@ -63,11 +66,11 @@ I conti vengono gestiti in Sales e sincronizzati in Supply Chain Management come
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Soluzione Prospect to cash per Sales
 
-La colonna **Numero di conto** è disponibile nella pagina **Conto**. È stata generata una chiave naturale e univoca per supportare l'integrazione. Questa funzionalità di chiave naturale della soluzione Customer Relationship Management (CRM) potrebbe influire sui clienti che utilizzano già la colonna **Numero di conto**, ma che non utilizzano i valori univoci **Numero di conto** per conto. Attualmente la soluzione di integrazione non supporta questo caso.
+Il campo **Numero di conto** è disponibile nella pagina **Conto**. È stata generata una chiave naturale e univoca per supportare l'integrazione. Questa funzionalità di chiave naturale della soluzione Customer Relationship Management (CRM) potrebbe influire sui clienti che utilizzano già il campo **Numero di conto**, ma che non utilizzano i valori univoci **Numero di conto** per conto. Attualmente la soluzione di integrazione non supporta questo caso.
 
 Quando un nuovo conto viene creato, se un valore **Numero di conto** non è già presente, viene generato automaticamente utilizzando una sequenza numerica. Il valore consiste di **ACC**, seguito da una sequenza numerica crescente, quindi da un suffisso di sei caratteri. Ecco un esempio: **ACC-01000-BVRCPS**
 
-Quando viene applicata la soluzione di integrazione per Sales, uno script di aggiornamento imposta la colonna **Numero di conto** per i conti esistenti in Sales. Se non sono presenti valori **Numero di conto**, viene utilizzata la sequenza numerica menzionata in precedenza.
+Quando viene applicata la soluzione di integrazione per Sales, uno script di aggiornamento imposta il campo **Numero di conto** per i conti esistenti in Sales. Se non sono presenti valori **Numero di conto**, viene utilizzata la sequenza numerica menzionata in precedenza.
 
 ## <a name="preconditions-and-mapping-setup"></a>Prerequisiti e impostazioni di mapping
 
@@ -92,14 +95,14 @@ Quando viene applicata la soluzione di integrazione per Sales, uno script di agg
 ## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli in Integrazione dati
 
 > [!NOTE]
-> Le colonne **Termini di pagamento**, **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non vengono inclusi nei mapping predefiniti. Per mappare queste colonne, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui la tabella viene sincronizzata.
+> I campi **Termini di pagamento**, **Termini di trasporto**, **Termini di consegna**, **Metodo di spedizione** e **Modalità di consegna** non vengono inclusi nei mapping predefiniti. Per mappare questi campi, è necessario impostare un mapping di valori che sia specifico ai dati delle organizzazioni tra cui l'entità viene sincronizzata.
 
 Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integrazione dati. 
 
 > [!NOTE]
-> Il mapping mostra quali informazioni sulle colonne verranno sincronizzate da Sales in Supply Chain Management.
+> Il mapping mostra quali informazioni sui campi verranno sincronizzate da Sales in Supply Chain Management.
 
-![Mapping modello in Integrazione dati.](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![Mapping dei modelli in Integrazione dati](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Argomenti correlati
 
@@ -114,6 +117,3 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 
 [Sincronizzare intestazioni e righe di fatture di vendita direttamente da Supply Chain Management in Sales](sales-invoice-template-mapping-direct.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

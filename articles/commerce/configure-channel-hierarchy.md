@@ -2,24 +2,27 @@
 title: Configurare un canale per utilizzare una gerarchia di navigazione nei canali
 description: In questo argomento viene descritto come configurare un canale per utilizzare una gerarchia di navigazione nei canali in Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713994"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413360"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurare un canale per utilizzare una gerarchia di navigazione nei canali
 
@@ -45,7 +48,7 @@ Per configurare un canale allo scopo di utilizzare una gerarchia di navigazione 
 
 L'immagine seguente mostra come configurare un canale allo scopo di utilizzare una gerarchia di navigazione nei canali.
 
-![Esempio di configurazione di un canale.](media/configure-channel-hierarchy-1.png)
+![Esempio di configurazione di un canale](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Imposta metadati di attributi
 
@@ -61,9 +64,9 @@ Per impostare i metadati di attributi, procedere come segue.
 
 L'immagine seguente mostra un set di esempi di attributi del prodotto del canale configurati in un nodo di categoria del canale.
 
-![Attributi del canale in un nodo di categoria del canale.](media/configure-channel-hierarchy-2.png)
+![Attributi del canale in un nodo di categoria del canale](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Pubblica modifiche
+## <a name="publish-changes"></a>Pubblicare le modifiche
 
 Affinché le modifiche diventino effettive, è necessario pubblicarle.
 
@@ -74,13 +77,10 @@ Per pubblicare le modifiche, attenersi alla procedura riportata di seguito.
 
 L'immagine seguente mostra come pubblicare gli aggiornamenti dei canali.
 
-![Pubblica aggiornamenti canale.](media/configure-channel-hierarchy-3.png)
+![Pubblica aggiornamenti canale](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creare una gerarchia di navigazione nei canali](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

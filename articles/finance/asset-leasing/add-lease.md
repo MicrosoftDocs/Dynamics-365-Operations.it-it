@@ -2,25 +2,27 @@
 title: Aggiungere o copiare leasing (anteprima)
 description: In questo argomento viene descritto come creare un nuovo leasing inserendo le relative informazioni in Leasing cespite o copiando le informazioni da un leasing esistente.
 author: moaamer
-ms.date: 01/11/2022
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967928"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969605"
 ---
 # <a name="add-or-copy-leases-preview"></a>Aggiungere o copiare leasing (anteprima)
 
@@ -35,19 +37,6 @@ Segui questi passaggi per creare un leasing in Leasing cespite.
 1. Nella pagina **Riepilogo leasing**, nel riquadro azioni, seleziona **Nuovo**.
 2. Immetti le informazioni sul leasing. I campi obbligatori hanno bordi rossi.
 
-La data di inizio del canone di leasing non può essere anteriore alla data di inizio del leasing. Se inserisci una data di inizio per il canone di leasing precedente alla data di inizio del leasing, riceverai un messaggio di errore.
-
-Per impostazione predefinita, l'opzione **Suddivisione importo pagamento** nella scheda dettaglio **Generale** della pagina **Dettagli leasing** è impostata su **No** se l'opzione **Consenti suddivisione pagamento** della pagina **Parametri di leasing cespite** è impostata su **sì**. 
-
-Se l'opzione **Suddivisione importo pagamento** è impostata su **sì**, il campo **Importo pagamento** della scheda dettaglio **Righe scadenzario pagamenti** è bloccato. Verrà impostato sul totale degli importi di pagamento inseriti successivamente nel catalogo **Suddivisione importo pagamento**.
-
-Seleziona **Suddivisione importo pagamento** per aprire una pagina in cui è possibile aggiungere i tipi di pagamento dettagliati. Il pulsante **Aggiungi totali a importo pagamento** sposterà i totali nel campo **Importo pagamento**.
-
-> [!NOTE]
-> Se aggiungi un importo di pagamento dettagliato e quindi selezioni il tasto **Esc**, gli importi inseriti non verranno aggiunti al campo **Importo pagamento** della scheda dettaglio **Righe scadenzario pagamenti**. Verranno invece archiviati nella finestra di dialogo **Suddivisione importo pagamento**. Se la finestra di dialogo deve includere l'importo totale, seleziona la colonna **Importo** seleziona e tieni premuto (o dai clic con il pulsante destro del mouse), quindi seleziona **Totale di questa colonna**. 
-
-Il pulsante **Copia riga** copierà la suddivisione dettagliata del pagamento.
-
 ## <a name="create-a-lease-schedule"></a>Creare un programma di leasing
 
 Dopo aver immesso le informazioni per il leasing, segui questi passaggi per creare una pianificazione del leasing.
@@ -61,9 +50,6 @@ Dopo aver immesso le informazioni per il leasing, segui questi passaggi per crea
     La pagina **Dettagli libro** mostra come il leasing viene contabilizzato dai libri che gli sono stati assegnati. Da qui è possibile visualizzare i programmi di leasing.
 
     Lo scadenzario pagamenti contiene gli input dalla scheda **Righe scadenzario pagamenti** nella pagina **Aggiungi leasing**. Puoi comunque modificare ogni importo di pagamento e pagamento variabile. L'obbligazione sul leasing viene calcolata in base allo scadenziario pagamenti modificato.
-
-    > [!NOTE]
-    > La data di inizio del canone di leasing deve essere uguale o successiva alla data di inizio del contratto di leasing. Se una data di inizio per il canone di leasing è precedente alla data di inizio del leasing, riceverai un messaggio di errore. 
 
 4. Dopo aver finito di esaminare lo scadenziario pagamenti, seleziona **Conferma scadenziario**. Dopo la conferma dello scadenziario, il leasing non è più disponibile per la modifica.
 
@@ -102,6 +88,3 @@ Tutte le scritture contabili create in Leasing cespite sono contenute nel giorna
 
 > [!NOTE]
 > Il giornale di registrazione leasing cespite non può essere creato manualmente. Viene creato automaticamente quando vengono creati i programmi di leasing.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

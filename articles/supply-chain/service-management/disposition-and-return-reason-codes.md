@@ -1,25 +1,29 @@
 ---
 title: Panoramica dei resi cliente
 description: Creare e utilizzare codici motivo reso e codici smaltimento per supportare il processo di restituzione di prodotti.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReasonCodeLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f0231cf33c9b422adc08e7244915ab8235b18ca
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3c4ac28d35bcd6ed0c1fc8d0700c52008d2f4f6a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983771"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431063"
 ---
 # <a name="customer-returns-overview"></a>Panoramica dei resi cliente
 
@@ -50,6 +54,3 @@ Il codice smaltimento può essere assegnato nel momento in cui un articolo viene
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

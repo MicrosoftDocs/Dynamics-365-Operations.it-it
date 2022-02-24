@@ -1,29 +1,30 @@
 ---
 title: Panoramica arrivi
 description: In questo argomento vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "274363"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567441"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4431222"
 ---
 # <a name="arrival-overview"></a>Panoramica arrivi
 
@@ -36,7 +37,7 @@ La pagina **Panoramica arrivi** offre una panoramica di tutti gli articoli in ar
 ## <a name="business-scenario"></a>Scenario aziendale
 Si prenda in considerazione il seguente scenario nei processi in entrata.
 
-[![Scenario aziendale.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Scenario aziendale](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, un addetto alla ricezione articoli, desidera informazioni sull'arrivo di articoli previsto per il giorno corrente. Nella pagina **Panoramica arrivi**, Sammy può ottenere una panoramica delle attività correnti e visualizzare una stima approssimativa di quantità, volume, peso, tipi di ordine diversi e così via. Successivamente, una consegna arriva a una delle banchine di entrata e Sammy riceve un elenco della consegna. Nella pagina **Panoramica arrivi** Sammy può eseguire le attività seguenti:
 
@@ -44,7 +45,7 @@ Sammy, un addetto alla ricezione articoli, desidera informazioni sull'arrivo di 
 -   Accedere al riferimento appropriato del giornale di registrazione arrivi (ovvero il giornale di registrazione **Arrivo articoli** o il giornale di registrazione **Entrata produzione**) e identificare i giornali di registrazione pronti per un aggiornamento dell'entrata prodotti.
 
 ## <a name="arrival-overview-page"></a>Pagina panoramica arrivi
-Per aprire la pagina **Panoramica arrivi** fare clic su **Gestione articoli** &gt; **Ordini in entrata** &gt; **Panoramica arrivi**. È possibile visualizzare un elenco di ordini previsti per la ricezione. La panoramica è suddivisa nell'intestazione e nelle righe. Le informazioni di intestazione vengono raggruppate per tipo di ordine, data di ricezione prevista e destinazione di consegna. Quando una riga di intestazione viene selezionata per l'arrivo, tutte le righe dei dettagli relative al riferimento della ricezione sono selezionate per l'arrivo nella parte dettagli riga della pagina. Quando tutte le righe correlate del giornale di registrazione sono state registrate, queste informazioni non vengono visualizzate.
+Per aprire la pagina **Panoramica arrivi** fare clic su **Gestione inventario** &gt; **Ordini in entrata** &gt; **Panoramica arrivi**. È possibile visualizzare un elenco di ordini previsti per la ricezione. La panoramica è suddivisa nell'intestazione e nelle righe. Le informazioni di intestazione vengono raggruppate per tipo di ordine, data di ricezione prevista e destinazione di consegna. Quando una riga di intestazione viene selezionata per l'arrivo, tutte le righe dei dettagli relative al riferimento della ricezione sono selezionate per l'arrivo nella parte dettagli riga della pagina. Quando tutte le righe correlate del giornale di registrazione sono state registrate, queste informazioni non vengono visualizzate.
 
 ### <a name="arrival-overview-profiles"></a>Profili panoramica arrivi
 
@@ -68,7 +69,7 @@ Per creare automaticamente i giornali di registrazione arrivi dalla pagina **Pan
 
 -   Per creare un giornale di registrazione è necessario specificare un nome per il giornale.
 
-[![Impostazione di un nome di giornale di registrazione.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Impostazione di un nome di giornale di registrazione](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Se si specificano i valori nei campi **Magazzino** e **Ubicazione**, questi valori vengono applicati alle righe del giornale di registrazione. Se non si specificano i valori, verranno utilizzati i valori della dimensione specificata nelle transazioni di magazzino.
 
@@ -113,13 +114,10 @@ Selezionando più righe nella pagina **Panoramica arrivi**, Sammy può avviare u
 ## <a name="update-arrival-information-and-process-a-product-receipt"></a>Aggiornare le informazioni arrivi ed elaborare un'entrata prodotti
 Una volta registrate tutte le merci, il responsabile del magazzino o il responsabile degli acquisti può aggiornare gli articoli ricevuti con un'entrata prodotti per aggiungere il costo fisico. Per aggiornare le informazioni sull'arrivo e per registrare un'entrata prodotti, effettuare le seguenti operazioni.
 
-1.  Fare clic su **Gestione articoli** &gt; **Ordini in entrata** &gt; **Panoramica arrivi**.
+1.  Fare clic su **Gestione inventari** &gt; **Ordini in entrata** &gt; **Panoramica arrivi**.
 2.  Nella pagina **Panoramica arrivi**, fare clic su **Giornali di registrazione** &gt; **Giornali di registrazione pronti per entrata prodotti** per visualizzare un elenco dei giornali di registrazione pronti per l'aggiornamento dell'entrata prodotti.
 3.  Selezionare i giornali che devono essere aggiornati e fare clic su **Funzioni** &gt; **Entrata prodotti**.
 4.  Nella pagina **Registrazione** immettere il numero dell'entrata prodotti, se non è già disponibile nel giornale di registrazione, e fare clic su **OK** per l'elaborazione dell'entrata prodotti.
 
 ## <a name="summary"></a>Riepilogo
 La pagina **Panoramica arrivi** consente al responsabile del magazzino e agli addetti al magazzino di ottenere una panoramica del lavoro previsto che deve essere svolto come parte di un processo in entrata. Nella pagina può inoltre essere utilizzata per avviare il processo di registrazione arrivi articoli, per garantire che gli articoli vengano aggiornati alla prima immissione nel magazzino.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
