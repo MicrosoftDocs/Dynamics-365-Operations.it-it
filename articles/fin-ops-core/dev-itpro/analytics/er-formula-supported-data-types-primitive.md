@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72c372a4d9b6af337731ff0bbd750b3b58f27bb79cb3813a0b5e4f79707d9f5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730609"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323642"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Tipi di dati primitivi supportati per le formule di creazione di report elettronici
 
@@ -101,7 +101,7 @@ Gli [operatori](er-formula-language.md#Operators) di confronto sono l'unico tipo
 
 ## <a name="enumeration"></a><a name="enumeration"></a>Enumerazione
 
-Il tipo di dati primitivo *enumerazione* è un elenco di valori letterali. È possibile utilizzare enumerazioni definite nel [codice sorgente](../dev-ref/xpp-data-primitive.md#enum) dell'applicazione. È anche possibile introdurre enumerazioni personali nel [modello di dati](general-electronic-reporting.md#data-model-and-model-mapping-components) ER e nei componenti [formato](general-electronic-reporting.md#FormatComponentOutbound) ER.
+Il tipo di dati primitivo *enumerazione* è un elenco di valori letterali. È possibile utilizzare enumerazioni definite nel [codice sorgente](../dev-ref/xpp-data-primitive.md#enum) dell'applicazione. È anche possibile introdurre enumerazioni personali nel modello di dati ER e nei componenti formato ER.
 
 Un'*enumerazione* dell'applicazione può essere usata nelle espressioni di qualsiasi mapping del modello ER e formato ER.
 

@@ -2,23 +2,23 @@
 title: Impostare la convalida dell'abbinamento fatture Contabilità fornitori
 description: In questo argomento vengono fornite informazioni su come impostare la convalida dell'abbinamento fatture Contabilità fornitori.
 author: abruer
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722865"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182557"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Impostare la convalida dell'abbinamento fatture Contabilità fornitori
 
@@ -54,7 +54,7 @@ Sono disponibili quattro diversi tipi di convalida dell'abbinamento.
 12. Nel campo **Tolleranza del prezzo di acquisto totale**, immettere un importo nella valuta di contabilizzazione. Questo campo è disponibile quando **Associa prezzi totali** è impostato su **Importo** o **Percentuale e importo**.
 13. Nel campo **Visualizza icona abbinamento del prezzo totale**, specificare quando visualizzare un'icona nel caso in cui una discrepanza di abbinamento fatture superi la tolleranza relativa al prezzo netto unitario. L'icona può essere visualizzata nel caso in cui una discrepanza positiva superi la tolleranza oppure una discrepanza positiva o negativa superi la tolleranza.
 Ad esempio, la tolleranza è del 5% e il totale prezzo della riga dell'ordine fornitore è 10,00. Di conseguenza, se il totale prezzo riga della fattura supera 10,50 verrà visualizzata un'icona di abbinamento prezzo. Se si seleziona **Se il valore è maggiore o minore della tolleranza**, verrà visualizzata l'icona anche nel caso in cui il totale prezzo riga nella fattura è inferiore a 9,50.
-13. Impostare l'abbinamento spese.
+13. Impostare l'**abbinamento spese**.
 14. Selezionare la casella di controllo **Abbina spese** per abbinare le spese effettive con le spese previste, in base alle informazioni sull'ordine fornitore.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Impostare le percentuali di tolleranza dei prezzi unitari
@@ -75,7 +75,7 @@ Per impostazione predefinita, sono consentite discrepanze di prezzo negative. Tu
 
 ## <a name="set-up-matching-policy-override"></a>Impostare la sostituzione dei criteri di abbinamento
 
-Passare **Contabilità fornitori > Impostazioni > Impostazione abbinamento fatture > Criteri di abbinamento** per definire il valore predefinito per il campo Criteri di abbinamento per le righe nel modulo Ordine fornitore. Questa impostazione è facoltativa. Utilizzare questo modulo per impostare l'abbinamento a due o a tre elementi di verifica per articoli, fornitori o combinazioni di fornitore e articolo. Queste voci consentono di definire i criteri di abbinamento più granulari dei criteri di abbinamento della persona giuridica definiti nella pagina **Parametri contabilità fornitori**. I criteri di abbinamento riga della persona giuridica predefinita si applicano a tutti gli articoli e ai fornitori, fatta eccezione per quelli per cui sono specificati criteri di abbinamento riga diversi in questa pagina.
+Passare a **Contabilità fornitori > Impostazioni > Impostazione abbinamento fatture > Criteri di abbinamento** per definire il valore predefinito per il campo **Criteri di abbinamento** per le righe nella pagina **Ordine fornitore**. Questa impostazione è facoltativa. Utilizzare questa pagina per impostare l'abbinamento a due o a tre elementi di verifica per articoli, fornitori o combinazioni di fornitore e articolo. Queste voci consentono di definire i criteri di abbinamento più granulari dei criteri di abbinamento della persona giuridica definiti nella pagina **Parametri contabilità fornitori**. I criteri di abbinamento riga della persona giuridica predefinita si applicano a tutti gli articoli e ai fornitori, fatta eccezione per quelli per cui sono specificati criteri di abbinamento riga diversi in questa pagina.
 
 In questa pagina, selezionare **Livello criteri di abbinamento**. Selezionare il livello della gerarchia dei criteri di abbinamento per impostare i criteri di abbinamento riga.
 

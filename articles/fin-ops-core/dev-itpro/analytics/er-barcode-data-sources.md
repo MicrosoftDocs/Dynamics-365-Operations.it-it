@@ -2,11 +2,9 @@
 title: Utilizzare le origini dati del codice a barre per generare immagini di codici a barre
 description: Questo argomento spiega come utilizzare le origini dati del codice a barre per generare immagini di codici a barre.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681426"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323954"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utilizzare le origini dati del codice a barre per generare immagini di codici a barre
 
 [!include[banner](../includes/banner.md)]
 
-È possibile utilizzare il framework [Report elettronici](general-electronic-reporting.md) per progettare [componenti del formato ER](general-electronic-reporting.md#FormatComponentOutbound) che è possibile eseguire per generare i documenti in uscita elettronici e stampabili necessari. Per generare un documento in uscita nel formato Microsoft Office è necessario specificare il layout del report utilizzando un documento Microsoft Excel o un documento Microsoft Word come modello di report. La [pagina della progettazione delle operazioni ER](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) consente di allegare un documento Excel o Word come modello per un formato ER. I seguenti elementi denominati nel modello allegato sono associati agli elementi del componente di formato configurato:
+È possibile utilizzare il framework di [Creazione di report elettronici (ER)](general-electronic-reporting.md) per progettare componenti del formato ER che è possibile eseguire per generare i documenti in uscita elettronici e stampabili necessari. Per generare un documento in uscita nel formato Microsoft Office è necessario specificare il layout del report utilizzando un documento Microsoft Excel o un documento Microsoft Word come modello di report. La [pagina della progettazione delle operazioni ER](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) consente di allegare un documento Excel o Word come modello per un formato ER. I seguenti elementi denominati nel modello allegato sono associati agli elementi del componente di formato configurato:
 
 - Controlli del contenuto in Word
 - Fogli, intervalli, celle, forme e immagini denominati in Excel
@@ -39,7 +37,7 @@ ER ora supporta il tipo di origine dati **Codice a barre**. Pertanto, ora è pos
 
 I seguenti segnaposto possono essere utilizzati nei modelli di report per inserire le immagini di codici a barre:
 
-- Controllo del contenuto [immagine](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) per Word
+- Controllo del contenuto [immagine](/office/client-developer/word/content-controls-in-word) per Word
 - Oggetto [immagine](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) in Excel
 
 Utilizzando un'origine di dati di tipo **Codice a barre** è possibile generare codici a barre nei seguenti formati:
@@ -118,21 +116,21 @@ Se l'esempio nell'argomento [Incorporare immagini e forme nei documenti generati
 
 | Descrizione contenuto         | Nome file                   |
 |-----------------------------|-----------------------------|
-| Configurazione del modello di dati ER | Model for cheques.xml       |
-| Configurazione di formato ER     | Cheques printing format.xml |
+| Configurazione del modello di dati ER | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| Configurazione di formato ER     | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 Inoltre, scaricare il seguente file Excel che contiene il modello modificato per la soluzione ER fornita.
 
 | Descrizione contenuto | Nome file                 |
 |---------------------|---------------------------|
-| Modello report     | Check template Excel.xlsx |
+| Modello report     | [Check template Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Attivare un provider di configurazioni
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nella pagina **Configurazioni localizzazione** nella sezione **Provider di configurazione** verificare che il [provider di configurazione](general-electronic-reporting.md#Provider) per la società di esempio **Litware, Inc.** sia elencato e contrassegnato come attivo. Se non è elencato o non è contrassegnato come attivo, completare i passaggi dell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Impostazione della società di esempio come attiva nella pagina Configurazioni localizzazione](./media/er-barcode-data-source-active-provider.png)
+![Impostazione della società di esempio come attiva nella pagina Configurazioni localizzazione.](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importare la soluzione ER fornita
 
@@ -162,14 +160,14 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
 7. Nel riquadro azioni fare clic su **Stampa di prova**.
 8. Nella finestra di dialogo, impostare l'opzione **Formato assegno negoziabile** su **Sì**, quindi selezionare **OK**.
 
-    ![Finestra di dialogo Layout assegno - Stampa di prova](./media/er-barcode-data-source-check-layout.png)
+    ![Finestra di dialogo Layout assegno - Stampa di prova.](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Esaminare l'assegno di pagamento generato
 
 - Aprire l'assegno generato in Excel.
 2. Esaminare l'assegno generato.
 
-    ![Assegno di pagamento generato in Excel](./media/er-barcode-data-source-cheque1.png)
+    ![Assegno di pagamento generato in Excel.](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>Modificare il formato della soluzione ER fornita
 
@@ -177,7 +175,7 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
 
 È possibile utilizzare l'applicazione desktop Excel per aprire il file **Cheque template Excel.xlsx** importato in precedenza. Si noti che questo modello differisce dal modello utilizzato per generare un assegno di pagamento nella soluzione ER fornita. Inoltre, include un elemento **AmountBarcode** per l'immagine del codice a barre.
 
-![Elemento AmountBarcode nel modello Excel](./media/er-barcode-data-source-cheque2.png)
+![Elemento AmountBarcode nel modello Excel.](./media/er-barcode-data-source-cheque2.png)
 
 È ora necessario modificare la soluzione ER e quindi [riapplicare](modify-electronic-reporting-format-reapply-excel-template.md) il modello modificato.
 
@@ -188,7 +186,7 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
 5. Nella pagina della progettazione delle operazioni ER selezionare la scheda **Mapping** sul lato destro della pagina, quindi, nel riquadro dell'albero del formato a sinistra, selezionare **Espandi/Comprimi**.
 6. Si noti che tutti gli elementi del formato cella sono associati alle origini dati appropriate.
 
-    ![Associazione di elementi di formato cella a origini dati nella pagina della progettazione delle operazioni ER](./media/er-barcode-data-source-cells-bound.png)
+    ![Associazione di elementi di formato cella a origini dati nella pagina della progettazione delle operazioni ER.](./media/er-barcode-data-source-cells-bound.png)
 
 7. Selezionare la scheda **Formato** sul lato destro della pagina.
 8. Nel riquadro azioni selezionare i puntini di sospensione (**...**), quindi selezionare **Importa**.
@@ -197,7 +195,7 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
 11. Selezionare la scheda **Mapping** sul lato destro della pagina, quindi, nel riquadro dell'albero del formato a sinistra, selezionare **Espandi/Comprimi**.
 12. Si noti che l'elemento cella **AmountBarcode** è stato aggiunto al formato. Questo elemento è associato all'elemento **AmountBarcode** che è stato aggiunto al modello Excel modificato come segnaposto per un'immagine del codice a barre.
 
-    ![Elemento cella AmountBarcode aggiunto al formato nella pagina della progettazione delle operazioni ER](./media/er-barcode-data-source-cell-added.png)
+    ![Elemento cella AmountBarcode aggiunto al formato nella pagina della progettazione delle operazioni ER.](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Aggiungere una nuova origine dati codice a barre
 
@@ -206,14 +204,14 @@ Successivamente, è necessario aggiungere una nuova origine dati di tipo **Codic
 1. Nella pagina della progettazione delle operazioni ER nella scheda **Mapping** sul lato destro della pagina, selezionare l'origine dati **print**.
 2. Selezionare **Aggiungi** e quindi nel gruppo **Funzioni** selezionare il tipo di origine dati **Codice a barre**.
 
-    ![Selezione del tipo di origine dati Codice a barre](./media/er-barcode-data-source-add.png)
+    ![Selezione del tipo di origine dati Codice a barre.](./media/er-barcode-data-source-add.png)
 
 3. Nella finestra di dialogo, nel campo **Nome**, immettere **barcode**.
 4. Nel **Formato codice a barre**, selezionare **Codice 128**.
 5. Nel campo **Larghezza** immetti **500**.
 6. Selezionare **OK**.
 
-    ![Finestra di dialogo Proprietà dell'origine dati](./media/er-barcode-data-source-add2.png)
+    ![Finestra di dialogo Proprietà dell'origine dati.](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Associare un nuovo elemento di formato
 
@@ -224,9 +222,9 @@ Successivamente, è necessario associare il nuovo elemento di formato all'origin
 3. Nel riquadro azioni selezionare **Mostra dettagli**.
 4. Si noti che, poiché l'origine dati **Codice a barre** è rappresentata nell'associazione come una funzione che contiene un singolo parametro, il nome dell'elemento formato associato è stato preso automaticamente come argomento di quel parametro.
 
-    ![Dettagli sull'origine dati del codice a barre nella pagina della progettazione delle operazioni ER](./media/er-barcode-data-source-bind1.png)
+    ![Dettagli sull'origine dati del codice a barre nella pagina della progettazione delle operazioni ER.](./media/er-barcode-data-source-bind1.png)
 
-5. Selezionare **Modifica formula** per regolare l'associazione.
+5. Selezionare **Modifica formula** per rettificare l'associazione.
 
     Non si desidera che venga restituito il nome dell'elemento cella. Pertanto, è necessario configurare un'espressione che restituisca il testo contenente l'importo da pagare dell'assegno corrente. Perché l'intervallo **ChequeLines** padre è associato all'origine dati **model.cheques**, l'importo da pagare dell'assegno corrente è disponibile nel campo **model.cheques.attributes.amount** del tipo di dati **Reale**.
 
@@ -234,7 +232,7 @@ Successivamente, è necessario associare il nuovo elemento di formato all'origin
 7. Selezionare **Salva** e quindi chiudere la [pagina della progettazione della formula ER](general-electronic-reporting-formula-designer.md).
 8. Si noti che l'associazione è stata modificata.
 
-    ![Associazione modificata nella pagina della progettazione delle operazioni ER](./media/er-barcode-data-source-bind2.png)
+    ![Associazione modificata nella pagina della progettazione delle operazioni ER.](./media/er-barcode-data-source-bind2.png)
 
 9. Selezionare **Salva** e quindi chiudere la pagina della progettazione delle operazioni ER.
 
@@ -279,7 +277,7 @@ La versione bozza del formato selezionato è contrassegnata come disponibile per
 6. Selezionare **OK**.
 7. Esaminare l'assegno generato. Si noti che è stato generato un codice a barre per codificare l'importo da pagare dell'assegno.
 
-    ![Assegno di pagamento generato con codice a barre in Excel](./media/er-barcode-data-source-cheque3.png)
+    ![Assegno di pagamento generato con codice a barre in Excel.](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > Viene generata un'eccezione se l'argomento di un'origine dati **Codice a barre** non è conforme ai requisiti appropriati specifici per il formato del codice a barre. Ad esempio, quando l'origine dati **Codice a barre** viene chiamata per generare un codice a barre [EAN-8](https://wikipedia.org/wiki/EAN-8) per il testo fornito, viene generata un'eccezione se la lunghezza del testo supera i sette caratteri.
@@ -290,7 +288,7 @@ Come descritto nell'argomento [Generare moduli FTI stampabili](er-generate-print
 
 Tuttavia, quando si utilizza l'origine dati **Codice a barre** per produrre codici a barre, il rendering dei codici a barre non dipende da alcun carattere. Pertanto, è possibile convertire facilmente i documenti che contengono i codici a barre in formato PDF. La seguente illustrazione mostra l'anteprima di un assegno di pagamento generato che è stato [convertito](electronic-reporting-destinations.md#OutputConversionToPDF) in un PDF, in base all'impostazione della [destinazione ER](electronic-reporting-destinations.md) configurata.
 
-![Anteprima del PDF di un assegno di pagamento](./media/er-barcode-data-source-cheque4.png)
+![Anteprima del PDF di un assegno di pagamento.](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Limiti
 
@@ -303,3 +301,6 @@ Tuttavia, quando si utilizza l'origine dati **Codice a barre** per produrre codi
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 - [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
 - [Funzione NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Abilitare l'integrazione di Dynamics 365 Commerce e Microsoft Teams
 description: Questo argomento descrive come abilitare l'integrazione di Microsoft Dynamics 365 Commerce e Microsoft Teams.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9910ee48a0792c89a4e04ec8685fd02484e45575d70b06454dea56a89ee8c914
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52b1a889a15cfe2e6e104e38b7d257f80762954f
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775340"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323432"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Abilitare l'integrazione di Dynamics 365 Commerce e Microsoft Teams
 
@@ -38,15 +38,23 @@ Prima di poter abilitare l'integrazione di Microsoft Teams con Commerce, è nece
 Per registrare l'applicazione Teams con il tuo tenant nel portale di Azure, segui questi passaggi.
 
 1. Segui i passaggi in [Guida introduttiva: Registrare un'applicazione con Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app) per registrare l'applicazione Teams con il tenant nel portale di Azure.
-1. Copia il valore **ID applicazione (client)** dalla pagina **Panoramica** per l'app registrata. Utilizzerai questo valore per abilitare l'integrazione di Teams in Commerce headquarters.
-1. Copia il valore del certificato che hai immesso quando hai [aggiunto un certificato](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) al passaggio 1. Il certificato è anche noto come chiave pubblica o chiave dell'applicazione. Utilizzerai questo valore per abilitare l'integrazione di Teams in Commerce headquarters.
+1. Nella scheda **Registrazione app**, seleziona l'app creata nel passaggio precedente. Quindi, nella scheda **Autenticazione**, seleziona **Aggiungi piattaforma**.
+1. Nella finestra di dialogo, seleziona **Web**. Quindi, nel campo **Reindirizza URL**, immetti un URL nel formato **\<HQUrl\>/oauth**. Sostituisci **\<HQUrl\>** con l'URL di Commerce headquarters (ad esempio, `https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
+1. Copia il valore **ID applicazione (client)** dalla pagina **Panoramica** dell'app registrata. Devi fornire questo valore per abilitare l'integrazione di Teams in Commerce headquarters nella sezione successiva.
+1. Segui le istruzioni in [Aggiungere un segreto client](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) per aggiungere un segreto client. Quindi copia il valore di **Valore segreto** per il client. Devi fornire questo valore per abilitare l'integrazione di Teams in Commerce headquarters nella sezione successiva.
+1. Seleziona **Autorizzazioni API** quindi **Aggiungi un'autorizzazione**.
+1. Nella finestra di dialogo **Richiedi autorizzazioni API**, seleziona **Microsoft Graph**, seleziona **Autorizzazioni delegate**, espandi **Gruppo**, seleziona **Group.ReadWrite.All** e quindi **Aggiungi autorizzazioni**.
+1. Nella finestra di dialogo **Richiedi autorizzazioni API**, seleziona **Aggiungi un'autorizzazione**, seleziona **Microsoft Graph**, seleziona **Autorizzazioni applicazione**, espandi **Gruppo**, seleziona **Group.ReadWrite.All** e quindi **Aggiungi autorizzazioni**.
+1. Nella finestra di dialogo **Richiedi autorizzazioni API**, seleziona **Aggiungi un'autorizzazione**. Nella scheda **API utilizzate dalla mia organizzazione**, cerca **Microsoft Teams Retail Service** e selezionalo.
+1. Seleziona **Autorizzazioni delegate**, espandi **TaskPublishing**, seleziona **TaskPublising.ReadWrite.All** e quindi **Aggiungi autorizzazioni**. Per ulteriori informazioni, vedi [Configurare un'applicazione client per accedere a un'API Web](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).
 
 Per abilitare l'integrazione di Teams in Commerce headquarters, segui questi passaggi.
 
 1. Vai a **Retail e Commerce \> Impostazione canale \> Configurazione dell'integrazione di Microsoft Teams**.
 1. Nel riquadro azioni, seleziona **Modifica**.
 1. Imposta l'opzione **Abilita integrazione di Microsoft Teams** su **Sì**.
-1. Nei campi **ID applicazione** e **Chiave dell'applicazione** immetti i valori ottenuti durante la registrazione dell'applicazione Teams nel portale di Azure.
+1. Nel campo **ID applicazione**, immettere **ID applicazione (client)** ottenuti durante la registrazione dell'applicazione Teams nel portale di Azure.
+1. Nel campo **Chiave applicazione**, immetti il valore di **Valore segreto** ottenuto durante l'aggiunta di un segreto client nel portale di Azure.
 1. Nel riquadro azioni selezionare **Salva**.
 
 La figura seguente mostra un esempio di configurazione dell'integrazione di Teams in Commerce headquarters.

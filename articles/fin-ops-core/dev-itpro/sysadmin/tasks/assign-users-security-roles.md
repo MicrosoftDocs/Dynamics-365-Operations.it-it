@@ -1,12 +1,10 @@
 ---
 title: Assegnare gli utenti ai ruoli di sicurezza
-description: Per accedere alle app Finance and Operations, gli utenti devono essere assegnati a ruoli di sicurezza.
+description: Per accedere alle app Finance and Operations, è necessario assegnare utenti a ruoli di sicurezza.
 author: Peakerbl
-manager: AnnBe
-ms.date: 05/06/2020
+ms.date: 02/09/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679866"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105540"
 ---
-# <a name="assign-users-to-security-roles"></a>Assegnare gli utenti ai ruoli di sicurezza
+# <a name="manage-users-and-security-roles"></a>Gestire utenti e ruoli di sicurezza
 
 [!include [banner](../../includes/banner.md)]
 
-Per utilizzare altri elementi oltre alle capacità comuni nelle app Finance and Operations, è necessario assegnare utenti a ruoli di sicurezza. È possibile assegnare gli utenti ai ruoli automaticamente, in base a regole e dati aziendali, escludere gli utenti dall'assegnazione automatica dei ruoli o aggiungere manualmente gli utenti ai ruoli.
+Per utilizzare altri elementi oltre alle capacità comuni nelle app per la finanza e le operazioni, è necessario assegnare utenti a ruoli di sicurezza. È possibile assegnare gli utenti ai ruoli automaticamente, in base a regole e dati aziendali, escludere gli utenti dall'assegnazione automatica dei ruoli o aggiungere manualmente gli utenti ai ruoli.
 
 ## <a name="automatically-assign-users-to-roles"></a>Assegnare automaticamente utenti a ruoli
 In questa procedura viene illustrato come gli amministratori di sistema possono assegnare utenti ai ruoli automaticamente, in base ai dati aziendali. 
@@ -42,7 +40,9 @@ In questa procedura viene illustrato come gli amministratori di sistema possono 
 10. Esaminare i ruoli assegnati ai vari utenti per confermare che la query di assegnazione ruolo è corretta. Modificare e rieseguire se necessario.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Escludere gli utenti dall'assegnazione automatica dei ruoli
-1. Chiudere la pagina.
+Questa procedura spiega come escludere gli utenti dall'assegnazione automatica dei ruoli.
+
+1. Chiudi la pagina.
 2. Passare **Pannello di navigazione > Moduli > Amministrazione sistema > Sicurezza > Assegna utenti a ruoli**.
 3. Nella struttura selezionare "Supervisore contabile". Selezionare un ruolo. In questo esempio selezionare Supervisore contabile.  
 4. Nel menu **Utenti assegnati al ruolo**, selezionare **Assegna/escludi utenti manualmente**.
@@ -57,3 +57,19 @@ Gli utenti che vengono assegnati manualmente ai ruoli di sicurezza devono anche 
 2. Nella struttura selezionare un ruolo e nel menu **Utenti assegnati al ruolo** selezionare **Assegna/escludi utenti manualmente**.
 4. In **Assegna o escludi utenti da ruolo** gli utenti a cui non è stato assegnato il ruolo sono elencati con **Modalità di assegnazione** impostato su **Nessuna**. Selezionare uno o più utenti a cui deve essere assegnato il ruolo.
 5. Nel **riquadro azioni** selezionare **Assegna a ruolo**. **Modalità assegnazione** viene aggiornato in **Manuale** e agli utenti è ora assegnato un nuovo ruolo.
+
+## <a name="manually-remove-users-from-roles"></a>Rimuovere manualmente gli utenti dai ruoli
+Gli utenti che vengono assegnati manualmente ai ruoli di sicurezza devono anche essere rimossi manualmente dall'amministratore. Questi utenti non vengono rimossi dai ruoli tramite le regole di assegnazione automatica dei ruoli.
+
+1. Passare **Pannello di navigazione > Moduli > Amministrazione sistema > Sicurezza > Assegna utenti a ruoli**.
+2. Per rimuovere un utente, attenersi alla seguente procedura:
+   1. Nella struttura, selezionare un ruolo. 
+   2. Nell'area **Utenti assegnati al ruolo** selezionare l'utente da rimuovere.
+   3. Selezionare **Rimuovi** e l'utente viene rimosso dal ruolo.
+3. Per rimuovere più utenti, attenersi alla seguente procedura:
+   1. Nella struttura, selezionare un ruolo. 
+   2. Nell'area **Utenti assegnati al ruolo**, selezionare **Assegna/escludi utenti manualmente**.
+   3. Nella pagina **Assegna o escludi utenti da ruolo**, la colonna **Modalità di assegnazione** degli utenti a cui non è stato assegnato il ruolo è impostata su **Nessuna**. Selezionare gli utenti da escludere dal ruolo.
+   4. Nel **Riquadro azioni**, selezionare **Escludi da ruolo**. La colonna **Modalità assegnazione** viene impostata su **Manuale** e gli utenti sono esclusi dal ruolo.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

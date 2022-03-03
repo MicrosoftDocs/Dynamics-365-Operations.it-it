@@ -2,26 +2,23 @@
 title: Combinazione dimensioni prodotto ubicazione
 description: Questo argomento fornisce informazioni sulla combinazione di dimensioni del prodotti di ubicazione. Questa funzionalità del profilo di ubicazione consente di migliorare la gestione dell'ubicazione quando vengono utilizzate varianti di prodotto o prodotti con dimensioni, ad esempio nel settore della moda. Consente di decidere se configurazioni, colori, stili e dimensioni possono essere combinati per un profilo di ubicazione specifico o se solo una di queste dimensioni o una combinazione di esse può essere collocata nella stessa ubicazione.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431471"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103490"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinazione dimensioni prodotto ubicazione
 
@@ -29,14 +26,11 @@ ms.locfileid: "4431471"
 
 La combinazione delle dimensioni del prodotto di ubicazione è una funzionalità del profilo di ubicazione che consente di migliorare la gestione dell'ubicazione quando vengono utilizzate varianti di prodotto o prodotti con dimensioni, ad esempio nel settore della moda. Consente di decidere se configurazioni, colori, stili e dimensioni possono essere combinati per un profilo di ubicazione specifico o se solo una di queste dimensioni o una combinazione di esse può essere collocata nella stessa ubicazione.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>Attivare la funzionalità di combinazione delle dimensioni del prodotto di ubicazione
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Attivare o disattivare la funzionalità Combinazione dimensioni prodotto ubicazione
 
-Prima di poter utilizzare la combinazione delle dimensioni del prodotto di ubicazione, tale funzionalità deve essere attivata nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Per utilizzare la funzionalità descritta in questo argomento, è necessario attivare la funzionalità *Combinazione dimensioni prodotto ubicazione* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Combinazione dimensioni prodotto ubicazione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Modulo:** *Gestione Magazzino*
-- **Nome funzionalità:** *Combinazione dimensioni prodotto ubicazione*
-
-## <a name="setup"></a>Attrezzaggio
+## <a name="setup"></a>Impostazione
 
 Ogni ubicazione del magazzino deve disporre di un profilo che descrive le proprietà dell'ubicazione. Pertanto, tutte le ubicazioni che utilizzano lo stesso profilo ubicazione saranno in grado di consentire la combinazione delle dimensioni del prodotto dopo che è stato impostato.
 
@@ -207,9 +201,9 @@ Creerai un ordine fornitore che ha tre righe: due righe per lo stesso numero di 
 
 1.Seleziona **Salva**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Ricevere le righe ordine fornitore nell'app del magazzino
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Ricevere le righe ordine fornitore nell'app per dispositivi mobili Gestione magazzino
 
-1. Accedi all'app del magazzino come utente abilitato per il magazzino *24*.
+1. Accedi all'app per dispositivi mobili Gestione magazzino come utente abilitato per il magazzino *24*.
 1. Seleziona il menu **In uscita**.
 1. Seleziona **Ricezione riga PO**.
 1. Seleziona il campo **PONUM**, quindi inserisci il numero dell'ordine fornitore.
@@ -239,3 +233,5 @@ Creerai un ordine fornitore che ha tre righe: due righe per lo stesso numero di 
 
 > [!TIP]
 > Puoi ripetere questo scenario, ma questa volta, imposta **Dimensione** - *No* nella Scheda dettaglio **Consenti combinazione dimensioni prodotto** sul *BULK* **Profili di ubicazione**, in modo che nessuna delle dimensioni del prodotto possa essere combinata. In questo caso, quando si riceve l'ordine fornitore, ciascuna variante di prodotto verrà inserita in una nuova ubicazione.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

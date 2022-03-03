@@ -1,33 +1,30 @@
 ---
-title: Ricevimento della targa tramite l'app di magazzino
-description: Questo argomento spiega come configurare l'app di magazzino per supportare l'utilizzo di un processo di ricevimento della targa per ricevere l'inventario fisico.
+title: Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino
+description: Questo argomento spiega come configurare l'app per dispositivi mobili Gestione magazzino per supportare l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431531"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103065"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Ricevimento della targa tramite l'app di magazzino
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come configurare l'app di magazzino in modo che supporti l'utilizzo di un processo di Ricevimento della targa per ricevere l'inventario fisico.
+Questo argomento spiega come configurare l'app per dispositivi mobili Gestione magazzino in modo che supporti l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 
 È possibile utilizzare questa funzionalità per registrare rapidamente l'entrata di inventario in entrata correlata a un avviso di spedizione anticipata (ASN). Il sistema crea automaticamente un ASN quando i processi di gestione del magazzino vengono utilizzati per spedire un ordine di trasferimento. Per il processo dell'ordine fornitore, un ASN può essere registrato manualmente oppure può essere importato automaticamente utilizzando un processo dell'entità dati ASN in entrata.
 
@@ -73,22 +70,20 @@ Per rendere disponibile questa funzionalità nel sistema, attivare *Migliorament
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Visualizzare o ignorare la pagina di riepilogo del ricevimento
 
-È possibile utilizzare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* per sfruttare un ulteriore flusso dettagliato dell'app Magazzino come parte del processo di ricevimento della targa.
+È possibile utilizzare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* per sfruttare un ulteriore flusso dettagliato dell'app per dispositivi mobili Gestione magazzino come parte del processo di ricevimento della targa.
 
 Quando questa funzione è attivata, le voci di menu del dispositivo mobile per il ricevimento della targa o il ricevimento e lo stoccaggio della targa forniranno l'impostazione **Visualizza la pagina di riepilogo di ricevimento**. Questa impostazione ha le seguenti opzioni:
 
 - **Visualizza un riepilogo dettagliato** - Durante il ricevimento della targa, i lavoratori vedranno una pagina aggiuntiva che mostra le informazioni ASN complete.
 - **Ignora il riepilogo** - I lavoratori non vedranno le informazioni ASN complete. Inoltre, gli addetti al magazzino non saranno in grado di impostare un codice smaltimento o aggiungere eccezioni durante il processo di ricevimento.
 
-Per rendere disponibile questa funzionalità nel sistema, attivare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare questa funzionalità, è necessario attivare la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* per il sistema. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Controlla se visualizzare una pagina di riepilogo di ricevimento su dispositivi mobili* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Impedire che le targhe spedite dall'ordine di trasferimento vengano utilizzate in magazzini diversi dal magazzino di destinazione
 
 Un processo di ricevimento della targa non può essere utilizzato se un ASN contiene un ID targa già esistente e ha dati fisici disponibili in un'ubicazione del magazzino diversa da quella in cui avviene la registrazione della targa.
 
-Per gli scenari di ordine di trasferimento in cui il magazzino di transito non tiene traccia delle targhe (e quindi non tiene traccia dell'inventario fisico disponibile per targa), è possibile utilizzare la funzione *Impedisci che le targhe spedite dall'ordine di trasferimento vengano utilizzate su altri magazzini diversi dal magazzino di destinazione* per impedire aggiornamenti fisici disponibili delle targhe in transito.
-
-Per rendere disponibile questa funzionalità nel sistema, attivare *Impedisci che le targhe spedite dall'ordine di trasferimento vengano utilizzate su altri magazzini diversi dal magazzino di destinazione* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per gli scenari di ordine di trasferimento in cui il magazzino di transito non tiene traccia delle targhe (e quindi non tiene traccia dell'inventario fisico disponibile per targa), è possibile utilizzare la funzione *Impedisci che le targhe spedite dall'ordine di trasferimento vengano utilizzate su altri magazzini diversi dal magazzino di destinazione* per impedire aggiornamenti fisici disponibili delle targhe in transito. Per rendere disponibile questa funzionalità, la funzionalità *Impedisci che le targhe spedite dall'ordine di trasferimento vengano utilizzate su altri magazzini diversi dal magazzino di destinazione* deve essere attivata per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercandola nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Per gestire la funzionalità quando questa funzione è disponibile, attenersi alla seguente procedura.
 
@@ -105,3 +100,6 @@ Per ulteriori informazioni sulle voci di menu dei dispositivi mobili, vedere [Co
 Per ulteriori informazioni sullo scenario di produzione *Dichiarazione di finito*, vedere [Panoramica dei criteri di lavoro del magazzino](warehouse-work-policies.md).
 
 Per ulteriori informazioni sulla gestione dei carichi in entrata, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

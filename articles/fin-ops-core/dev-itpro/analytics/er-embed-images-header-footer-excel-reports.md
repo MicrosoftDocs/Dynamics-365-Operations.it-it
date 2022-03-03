@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344122"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323777"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Progettare un formato ER per generare un report in formato Excel con immagini incorporate nelle intestazioni o piè di pagina
 
@@ -153,9 +153,9 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Dynamics 36
 3. Nella pagina **Configurazioni**, nella struttura delle configurazioni del riquadro sinistro, espandi **Modello di fattura**.
 4. Oltre al formato ER **Fattura a testo libero (Excel)** selezionato, sono state importate altre configurazioni ER necessarie. Verifica che le seguenti configurazioni ER siano disponibili nella struttura di configurazione:
 
-    - **Modello di fattura**: questa configurazione contiene il componente ER [modello di dati](general-electronic-reporting.md#data-model-and-model-mapping-components) che rappresenta la struttura dei dati del dominio aziendale di fatturazione.
-    - **Mapping di modello di fattura**: questa configurazione contiene il componente ER [mapping del modello](general-electronic-reporting.md#data-model-and-model-mapping-components) che descrive in che modo il modello di dati viene compilato con i dati dell'applicazione in fase di esecuzione.
-    - **Fattura a testo libero (Excel)**: questa configurazione contiene i componenti ER [formato](general-electronic-reporting.md#FormatComponentOutbound) e mapping del formato. Il componente formato specifica il layout del report in base a un modello in formato Excel. Il componente di mapping del formato contiene l'origine dati del modello e specifica come questa origine dati viene usata per compilare il layout del report in fase di esecuzione.
+    - **Modello di fattura**: questa configurazione contiene il componente ER modello di dati che rappresenta la struttura dei dati del dominio aziendale di fatturazione.
+    - **Mapping di modello di fattura**: questa configurazione contiene il componente ER mapping del modello che descrive in che modo il modello di dati viene compilato con i dati dell'applicazione in fase di esecuzione.
+    - **Fattura a testo libero (Excel)**: questa configurazione contiene i componenti ER formato e mapping del formato. Il componente formato specifica il layout del report in base a un modello in formato Excel. Il componente di mapping del formato contiene l'origine dati del modello e specifica come questa origine dati viene usata per compilare il layout del report in fase di esecuzione.
 
 ![Configurazioni ER importate nella pagina Configurazioni.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 

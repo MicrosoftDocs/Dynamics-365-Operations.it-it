@@ -1,24 +1,24 @@
 ---
 title: Residuo liquidazione
 description: È possibile liquidare l'importo residuo dall'attività di liquidazione applicando quell'importo a un conto CoGe.
-author: roschlom
-ms.date: 10/16/2018
+author: twheeloc
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754098"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182406"
 ---
 # <a name="settle-remainder"></a>Residuo liquidazione
 
@@ -27,10 +27,10 @@ ms.locfileid: "7754098"
 È possibile liquidare l'importo residuo dall'attività di liquidazione applicando quell'importo a un conto CoGe o a un altro cliente. È possibile liquidare il residuo quando si liquidano importi immessi in un giornale di registrazione o soltanto transazioni aperte.
 
 ## <a name="setting-up-defaults"></a>Configurazione delle impostazioni predefinite 
-Per utilizzare la funzionalità Residuo liquidazione, è necessario abilitarla e configurare le impostazioni predefinite.
+Per utilizzare **Residuo liquidazione**, è necessario abilitare la funzionalità **Residuo liquidazione** e configurare le impostazioni predefinite.
 
 1)  Fare clic su **Contabilità clienti > parametri > Liquidazioni** o **Contabilità fornitori > Parametri > Liquidazioni**
-2)  Selezionare la scheda **Liquidazione** e fare clic su **Abilita residuo liquidazione**
+2)  Selezionare la scheda **Liquidazione** e fare clic su **Abilita residuo liquidazione**.
 3)  In **Codice motivo predefinito**, selezionare un codice motivo predefinito. I codici motivo devono essere già impostati in **Contabilità clienti > Impostazioni > Codici motivo annullamento cliente** o **Contabilità fornitori > Impostazioni > Codici motivo annullamento cliente**. Per impostazione predefinita, **Conto residuo liquidazione predefinito** sarà impostato sul conto assegnato al codice motivo annullamento.
 3)  Aggiornare **Conto residuo liquidazione predefinito** come necessario.
 4)  In **Nome giornale di registrazione predefinito**, selezionare un giornale di registrazione pagamenti se si intende crearne uno quando si liquidano soltanto transazioni aperte. Se si abilita la funzionalità Residuo liquidazione, è necessario aggiungere un nome di giornale di registrazione predefinito.

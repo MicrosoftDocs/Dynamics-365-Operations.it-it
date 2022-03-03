@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571979"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103615"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Abilitare la gestione delle modifiche in prodotti esistenti
 
@@ -27,12 +27,9 @@ In questo argomento viene descritto come abilitare la gestione delle modifiche p
 
 Quando si abilita la gestione delle modifiche per un prodotto esistente, è possibile creare versioni di quel prodotto e tenere traccia delle modifiche apportate allo stesso nel corso dell'intero ciclo di vita. Pertanto, è possibile tenere traccia di tali modifiche utilizzando ordini di modifica. Per abilitare la gestione delle modifiche, è necessario convertire i prodotti pertinenti in *articoli di progettazione* (noti anche come prodotti di progettazione). I prodotti di progettazione sono prodotti con versione e gestiti tramite la gestione delle modifiche. Viene fornita una procedura guidata relativa al processo di conversione.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Attiva la funzionalità nel tuo sistema
+## <a name="turn-this-feature-on-or-off"></a>Attivare o disattivare questa funzionalità
 
-Per utilizzare questa funzionalità, è necessario completare le seguenti attività:
-
-1. Abilitare la funzionalità Gestione delle modifiche di progettazione e la relativa chiave di configurazione come descritto in [Panoramica di Gestione delle modifiche di progettazione](product-engineering-overview.md).
-1. Attivare la funzionalità *Abilita gestione modifiche in prodotti esistenti* in Gestione funzionalità. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+La funzionalità descritta in questo argomento richiede che entrambe le funzionalità *Gestione modifiche di progettazione* e *Abilitare la gestione delle modifiche in prodotti esistenti* siano attivate per il sistema. Per dettagli su come attivare o disattivare queste funzionalità, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restrizioni e limitazioni
 

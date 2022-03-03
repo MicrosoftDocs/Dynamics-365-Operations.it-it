@@ -2,33 +2,33 @@
 title: Impostare criteri di fatture fornitore
 description: In questo argomento viene spiegato come impostare i criteri di fatture fornitore.
 author: ShivamPandey-msft
-ms.date: 07/11/2019
+ms.date: 02/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 339f52727b6f5a680f711cf4e6e0b8b0bc290853316fc2f2ff63164c8292d2d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728843"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109758"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Impostare criteri di fatture fornitore
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene spiegato come impostare i criteri di fatture fornitore. I criteri fattura fornitore vengono eseguiti quando si registra una fattura fornitore tramite la pagina Fattura fornitore e quando si apre la pagina violazioni dei criteri per fatture fornitore. È inoltre possibile configurare il flusso di lavoro delle fatture fornitore affinché i criteri fatture fornitore vengano eseguiti ogni volta che si invia una fattura al flusso di lavoro. 
+In questo argomento viene spiegato come impostare i criteri di fatture fornitore. I criteri fattura fornitore vengono eseguiti quando si registra una fattura fornitore tramite la pagina **Fattura fornitore** e quando si apre la pagina **Violazioni criteri** per fatture fornitore. È inoltre possibile configurare il flusso di lavoro delle fatture fornitore affinché i criteri fatture fornitore vengano eseguiti ogni volta che si invia una fattura al flusso di lavoro. 
 
 - I criteri fatture fornitore non sono applicabili alle fatture create nel registro fatture o nel giornale di registrazione fatture.  
-- La convalida di abbinamento fatture non utilizza i criteri fatture fornitore, ma viene invece impostata nella pagina Parametri contabilità fornitori.  
-- Questa registrazione utilizza la società dimostrativa USMF. Il ruolo di responsabile della contabilità fornitori o del responsabile della contabilità eseguirebbe le operazioni. Prima di iniziare, assicurarsi che sia selezionata la chiave di configurazione Abbinamento fatture.
+- La convalida di abbinamento fatture non utilizza i criteri fatture fornitore, ma viene invece impostata nella pagina **Parametri contabilità fornitori**.  
+- Questa registrazione utilizza la società dimostrativa USMF. Il ruolo di responsabile della contabilità fornitori o del responsabile della contabilità eseguirebbe le operazioni. Prima di iniziare, assicurarsi che sia selezionata la chiave di configurazione **Abbinamento fatture**.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Eseguire le operazioni preliminari alla creazione dei criteri fatture fornitore
@@ -57,7 +57,7 @@ In questo argomento viene spiegato come impostare i criteri di fatture fornitore
 3. Immettere valori nei campi **Nome** e **Descrizione**.
 4. Espandere o comprimere la sezione **Organizzazioni criteri**.
 5. Nella struttura selezionare **Contoso Entertainment Systems USA**.
-6. Seleziona **Aggiungi**.
+6. Selezionare **Aggiungi**.
 7. Espandere o comprimere la sezione **Regole dei criteri**.
 8. Selezionare **Crea regola dei criteri**.
 9. Nel campo **Descrizione regola dei criteri**, immettere un valore.

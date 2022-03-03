@@ -2,25 +2,25 @@
 title: Criteri di abbinamento a tre elementi di verifica
 description: Questo argomento fornisce esempi di abbinamento a tre elementi di verifica.
 author: abruer
-ms.date: 10/26/2017
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722841"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109995"
 ---
 # <a name="three-way-matching-policies"></a>Criteri di abbinamento a tre elementi di verifica
 
@@ -42,15 +42,15 @@ I criteri di abbinamento fatture in questo esempio sono di supporto alle persone
 
 ### <a name="prerequisites"></a>Prerequisiti
 
--   Ken imposta i criteri di abbinamento a livello di persona giuridica su Abbinamento a tre elementi di verifica.
--   Ken imposta l'opzione Aggiorna automaticamente lo stato dell'intestazione fattura per la persona giuridica su Sì.
--   Ken imposta il campo Associa prezzi totali per la persona giuridica su percentuale e immette 15% come percentuale di tolleranza.
--   Ken imposta i criteri di abbinamento a livello di articolo per l'articolo 1500 - Computer CNC Milicron su Abbinamento a tre livelli di verifica. Questo articolo è un cespite utilizzato per la produzione in Fabrikam. Le fatture per questo articolo vengono abbinate alle righe ordine fornitore per i prezzi e alle entrate prodotti per le quantità.
+-   Ken imposta i **criteri di abbinamento** a livello di persona giuridica su **Abbinamento a tre elementi di verifica**.
+-   Ken imposta l'opzione **Aggiorna automaticamente lo stato dell'intestazione fattura** per la persona giuridica su **Sì**.
+-   Ken imposta il campo **Associa prezzi totali** per la persona giuridica su **Percentuale** e immette 15% come **percentuale di tolleranza**.
+-   Ken imposta i criteri di abbinamento a livello di articolo per l'articolo 1500 - Computer CNC Milicron su **Abbinamento a tre livelli di verifica**. Questo articolo è un cespite utilizzato per la produzione in Fabrikam. Le fatture per questo articolo vengono abbinate alle righe ordine fornitore per i prezzi e alle entrate prodotti per le quantità.
 -   Tony immette una richiesta di approvvigionamento per cinque computer CNC Milicron. Alicia, un'addetta agli ordini fornitore in Fabrikam, emette un ordine fornitore a una persona giuridica denominata Contoso per la fornitura degli articoli.
 
     | Numero articolo                 | Quantità | Prezzo unitario | Importo netto | Codice spese        | Valore spese |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 - Computer CNC Milicron | 5        | 8.000,00   | 40.000,00  | Spedizione | 3,000.00      |
+    | 1500 - Computer CNC Milicron | 5        | 8.000,00   | 40.000,00  | Spedizione | 3.000,00      |
 
 -   Arnie, un addetto della contabilità clienti in Contoso, verifica le spedizioni per la settimana. Seleziona le transazioni di spedizione da fatturare a Fabrikam per la consegna dei computer CNC Milicron e include un addebito per la spedizione. Fabrikam considererà l'addebito come parte del costo del cespite.
 
@@ -91,11 +91,11 @@ I criteri di abbinamento fatture in questo esempio sono di supporto alle persone
 
 ### <a name="prerequisites"></a>Prerequisiti
 
--   Ken imposta i criteri di abbinamento a livello di persona giuridica su Abbinamento a due elementi di verifica.
--   Ken imposta il campo Associa prezzi totali per la persona giuridica su percentuale e immette 10% come percentuale di tolleranza.
+-   Ken imposta i **criteri di abbinamento** a livello di persona giuridica su **Abbinamento a due elementi di verifica**.
+-   Ken imposta il campo **Associa prezzi totali** per la persona giuridica su **Percentuale** e immette **10%** come **percentuale di tolleranza**.
 -   Ken imposta la tolleranza del prezzo unitario di tutti gli articoli su 2%.
--   Cassie imposta i criteri di abbinamento a livello di combinazione di fornitore e articolo per l'articolo PH2500 - Computer e fornitore Contoso su Abbinamento a tre livelli di verifica.
--   Alicia, un'addetta agli ordini fornitore nella divisione di Fabrikam in Malaysia, emette gli ordini fornitore a Contoso per la fornitura di tre articoli, come illustrato nella seguente tabella. Quando crea l'ordine fornitore, sostituisce i criteri di abbinamento per il mouse wireless impostandoli sull'abbinamento a tre elementi di verifica anziché a due elementi.
+-   Cassie imposta i **criteri di abbinamento** a livello di combinazione di fornitore e articolo per l'articolo PH2500 - Computer e fornitore Contoso su **Abbinamento a tre livelli di verifica**.
+-   Alicia, un'addetta agli ordini fornitore nella divisione di Fabrikam in Malaysia, emette gli ordini fornitore a Contoso per la fornitura di tre articoli, come illustrato nella seguente tabella. Quando crea l'ordine fornitore, sostituisce i **criteri di abbinamento** per il mouse wireless impostandoli sull'abbinamento a tre elementi di verifica anziché a due elementi.
 
     | Numero articolo           | Quantità | Prezzo unitario | Importo netto | Criteri di abbinamento (valore predefinito) | Criteri di abbinamento (nella riga ordine fornitore) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -134,7 +134,7 @@ Notare gli articoli seguenti:
 -   Per la riga MM01 - Mouse wireless, la colonna Abbinamento quantità entrata prodotti include un'icona di avviso poiché la riga fattura non è abbinata a un'entrata prodotti. La colonna Abbinamento prezzi unitari include un'icona di avviso poiché la tolleranza del 2% stabilita per il prezzo unitario netto è stata superata.
 -   Per la riga Unità USB, la colonna Abbinamento quantità entrata prodotti è vuota poiché l'abbinamento a due elementi di verifica non corrisponde alle quantità della riga fattura e della riga entrata prodotti.
 
-Se è necessaria l'approvazione per la registrazione delle fatture in presenza di discrepanze di abbinamento fatture, la casella di controllo Approva registrazione con discrepanze di abbinamento nella pagina Dettagli abbinamento fatture deve essere selezionata prima che la fattura possa essere registrata con errori di abbinamento prezzi ed errori di abbinamento quantità. Se l'approvazione non è richiesta, l'elaborazione della fattura può continuare se non sono presenti altri errori di registrazione.
+Se è necessaria l'approvazione per la registrazione delle fatture in presenza di discrepanze di abbinamento fatture, la casella di controllo **Approva registrazione con discrepanze di abbinamento** nella pagina **Dettagli abbinamento fatture** deve essere selezionata prima che la fattura possa essere registrata con errori di abbinamento prezzi ed errori di abbinamento quantità. Se l'approvazione non è richiesta, l'elaborazione della fattura può continuare se non sono presenti altri errori di registrazione.
 
 
 Per ulteriori informazioni, vedere [Panoramica dell'abbinamento fatture della contabilità fornitori](accounts-payable-invoice-matching.md).

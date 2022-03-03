@@ -2,7 +2,7 @@
 title: Calcolo dell'IVA nelle righe giornale di registrazione generale
 description: Questo argomento spiega come viene calcolata l'IVA per diversi tipi di conti (fornitore, cliente, contabilità generale e progetto) sulle righe del giornale di registrazione generale.
 author: EricWangChen
-ms.date: 04/22/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488313"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311956"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Calcolo dell'IVA nelle righe giornale di registrazione generale
 [!include [banner](../includes/banner.md)]
@@ -77,19 +77,9 @@ Nel diagramma riportato di seguito viene illustrata graficamente la regola.
 
 ### <a name="account-type-is-customer"></a>Il tipo di conto è Cliente
 
-Se un giustificativo ha riga giornale di registrazione in cui il tipo di conto è **Cliente**, tutte le righe giornale di registrazione del giustificativo applicano la stessa direzione dell'IVA. I punti seguenti indicano le possibili direzioni dell'IVA per i conti di cliente.
+Se un giustificativo ha una riga giornale di registrazione in cui il tipo di conto è **Cliente**, tutte le righe giornale di registrazione del giustificativo applicano la stessa direzione dell'IVA. 
 
-•   Se il codice IVA è l'esenzione di imposta, la direzione dell'IVA è Acquisto esentasse.
-
-•   Se il codice IVA è l'IVA intracomunitaria, la direzione dell'IVA è IVA a credito.
-
-•   Se il codice IVA è il reverse charge, la direzione dell'IVA è IVA a credito.
-
-Negli altri casi la direzione dell'IVA è IVA a debito.
-
-Nel diagramma riportato di seguito viene illustrata graficamente la regola.
-
-![Possibilità di direzione dell'IVA per i conti di cliente.](media/Sales-Tax-Direction-Customer.jpg)
+Se il codice IVA è l'esenzione di imposta, la direzione dell'IVA è Vendite esentasse. Negli altri casi la direzione dell'IVA è IVA a debito.
 
 ### <a name="account-type-is-ledger"></a>Il tipo di conto è Contabilità generale
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920725"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102715"
 ---
 # <a name="firm-planned-orders"></a>Stabilizza ordini pianificati
 
@@ -35,17 +35,15 @@ Questo argomento descrive ogni metodo in dettaglio.
 
 La maggior parte delle funzionalità degli ordini pianificati sono disponibili in tutte le installazioni standard di Microsoft Dynamics 365 Supply Chain Management che utilizzano l'ottimizzazione della pianificazione. Tuttavia, alcune delle funzionalità descritte in questo argomento devono essere attivate in Gestione funzionalità prima di poterle utilizzare.
 
-### <a name="enable-parallelized-firming-of-planned-orders"></a>Abilitare la stabilizzazione parallela degli ordini pianificati
+### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Attivare o disattivare la stabilizzazione parallela degli ordini pianificati
 
-La stabilizzazione parallela aiuta ad accelerare il processo di stabilizzazione parallelizzandolo su più thread. Questo approccio può essere utile quando molti ordini pianificati vengono stabilizzati.
-
-Per rendere disponibile questa funzionalità nel tuo sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Stabilizzazione parallela degli ordini pianificati*. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
+La stabilizzazione parallela aiuta ad accelerare il processo di stabilizzazione parallelizzandolo su più thread. Questo approccio può essere utile quando molti ordini pianificati vengono stabilizzati. Per utilizzare questa funzionalità, la funzionalità *Stabilizzazione parallela degli ordini pianificati* deve essere attivata per il sistema. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, è possibile attivare o disattivare questa funzionalità cercando la funzionalità *Stabilizzazione parallela degli ordini pianificati* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Abilitare la stabilizzazione degli ordini pianificati con il filtraggio
 
 La stabilizzazione degli ordini pianificati con filtri consente di definire criteri logici per la selezione degli ordini pianificati da stabilizzare. È inoltre possibile visualizzare in anteprima quali ordini pianificati sono stati selezionati, eseguire il processo in background e / o pianificarlo come processo batch.
 
-Per rendere disponibile questa funzionalità nel tuo sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Stabilizzazione degli ordini pianificati con il filtraggio*.
+A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Stabilizzazione parallela degli ordini pianificati* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Abilitare la stabilizzazione automatica per l'ottimizzazione della pianificazione
 

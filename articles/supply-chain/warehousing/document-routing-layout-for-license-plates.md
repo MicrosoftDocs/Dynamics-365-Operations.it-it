@@ -2,30 +2,28 @@
 title: Layout della distribuzione del documento per le etichette della targa
 description: Questo argomento descrive come utilizzare i metodi di formattazione per stampare i valori sulle etichette.
 author: perlynne
-manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431485"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103892"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout della distribuzione del documento per le etichette della targa
 
 [!include [banner](../includes/banner.md)]
+
 
 Il layout di distribuzione del documento definisce il layout delle etichette della targa e dei dati che vi vengono stampati. Configurare i punti di attivazione della stampa quando si impostano le voci di menu del dispositivo mobile e i modelli di lavoro.
 
@@ -53,6 +51,10 @@ Per vedere i valori che verranno stampati, andare a **Gestione magazzino \> Rich
 
 Diversi strumenti di generazione di etichette ampiamente disponibili possono aiutare a formattare il testo per il layout dell'etichetta. Molti di questi strumenti supportano il formato `$FieldName$`. Inoltre, Microsoft Dynamics 365 Supply Chain Management utilizza una logica di formattazione speciale come parte della mappatura dei campi per il layout della distribuzione del documento.
 
+## <a name="turn-on-this-feature-for-your-system"></a>Attivare questa funzionalità per il sistema
+
+Se il sistema non include già le funzionalità descritte in questo argomento, andare a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Layout etichette targa migliorati*. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata.
+
 ## <a name="custom-number-formats"></a>Formati numerici personalizzati
 
 È possibile personalizzare la formattazione dei valori dei campi numerici che vengono stampati utilizzando i codici che hanno il seguente formato.
@@ -71,7 +73,7 @@ I seguenti esempi mostrano come personalizzare il campo della quantità di lavor
 - Per mostrare sempre quattro cifre (usando zeri come segnaposto) utilizzare `$Qty:0000$`. Ad esempio, se la quantità è 10, l'etichetta mostrerà "0010".
 - Per mostrare sempre due cifre decimali, utilizzare `$Qty:0.00$`. Ad esempio, se la quantità è 10, l'etichetta mostrerà "10.00".
 
-Per l'elenco completo delle stringhe di formato numerico disponibili, vedere [Stringhe di formato numerico personalizzate](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Per l'elenco completo delle stringhe di formato numerico disponibili, vedere [Stringhe di formato numerico personalizzate](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Formati di stringa personalizzati
 
@@ -93,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 In questo esempio, la data del 30 aprile 2020 verrà stampata come "30-04-2020".
 
-Per l'elenco completo dei formati data/ora disponibili, vedere [Stringhe di formato data/ora personalizzate](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Per l'elenco completo dei formati data/ora disponibili, vedere [Stringhe di formato data/ora personalizzate](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Stampa di singole righe da dati multiriga
 
@@ -136,3 +138,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Ulteriori informazioni sulla stampa delle etichette
 
 Per ulteriori informazioni su come impostare e stampare le etichette, vedere [Abilitare la stampa dell'etichetta della targa](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

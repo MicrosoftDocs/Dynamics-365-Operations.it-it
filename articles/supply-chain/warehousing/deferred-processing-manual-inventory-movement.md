@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777668"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102741"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Elaborazione differita del movimento manuale delle scorte
 
@@ -32,10 +32,10 @@ L'elaborazione in background si ottiene utilizzando la [funzionalità Elabora ev
 
 Per rendere disponibile questa funzionalità, attivare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md): Devi attivarle in questo ordine:
 
-1. Blocco lavoro a livello di organizzazione (a partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
-1. Elabora eventi dell'app magazzino
-1. Operazioni Put differite
-1. Elaborazione differita dell'operazione di movimento inventario manuale
+1. *Blocco lavoro a livello di organizzazione*<br>(A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
+1. *Elabora eventi dell'app magazzino*<br>(A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
+1. *Operazioni Put differite*
+1. *Elaborazione differita dell'operazione di movimento scorte manuale*<br>(A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
 
 ## <a name="configure-the-work-processing-policies"></a>Configurare i criteri di elaborazione del lavoro
 

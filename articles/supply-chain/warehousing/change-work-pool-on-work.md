@@ -2,26 +2,23 @@
 title: Modifica pool di lavoro nel lavoro
 description: Questo argomento spiega come utilizzare il pulsante Modifica pool di lavoro per gli elementi di lavoro per modificare il pool di lavoro del lavoro esistente.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431186"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102865"
 ---
 # <a name="change-work-pool-on-work"></a>Modifica pool di lavoro nel lavoro
 
@@ -31,12 +28,9 @@ ms.locfileid: "4431186"
 
 La funzionalità *Modifica pool di lavoro nel lavoro* aggiunge un pulsante **Modifica pool di lavoro** nel riquadro azioni per gli elementi di lavoro. Pertanto, i responsabili del magazzino possono facilmente modificare il pool di lavoro del lavoro esistente. Questa funzionalità consente ai manager di reagire rapidamente ai cambiamenti nello shop floor del magazzino e aiuta a migliorare la loro capacità di adattarsi alle situazioni mutevoli e alla necessità di trasferire il lavoro a un altro pool di lavoro.
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>Attivare la funzionalità Modifica pool di lavoro nel lavoro
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Attivare o disattivare la funzionalità Modifica pool di lavoro nel lavoro
 
-Prima di iniziare a configurare o utilizzare questa funzionalità, è necessario assicurarsi che sia disponibile nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Gestione Magazzino*
-- **Nome funzionalità:** *Modifica pool di lavoro nel lavoro*
+A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Modifica pool di lavoro nel lavoro* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Configurare la funzionalità Modifica pool di lavoro nel lavoro
 
@@ -149,3 +143,6 @@ Questo scenario mostra come modificare il flusso di elaborazione per un elemento
 > Quando viene visualizzata la finestra di dialogo **Modifica pool di lavoro**, il campo **ID pool di lavoro** potrebbe essere vuoto per impostazione predefinita. Se il campo è vuoto quando si seleziona **OK** per applicare le modifiche, si rimuoverà il pool di lavoro completamente dal lavoro.
 >
 > Oltre a cambiare pool di lavoro, è possibile utilizzare questa procedura per aggiungere un pool di lavoro a qualsiasi elemento di lavoro che non ne ha uno o per rimuovere un pool di lavoro da qualsiasi elemento di lavoro che ne ha uno.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

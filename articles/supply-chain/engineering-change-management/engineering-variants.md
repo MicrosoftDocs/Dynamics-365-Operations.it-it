@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7471838"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103640"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Generare varianti per prodotti di progettazione
 
@@ -23,15 +23,9 @@ ms.locfileid: "7471838"
 
 Questo argomento descrive come generare varianti per prodotti di progettazione.
 
-## <a name="turn-on-variant-generation-for-engineering-products"></a>Attivare la generazione di varianti per prodotti di progettazione
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Attivare o disattivare la funzionalità Generazione di varianti per prodotti di progettazione
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Gestione delle modifiche di progettazione*
-- **Nome della funzionalità:** *Generazione di varianti per prodotti di progettazione*
-
-> [!IMPORTANT]
-> La funzionalità *Generazione di varianti per prodotti di progettazione* sarà visibile nel sistema solo dopo aver abilitato la chiave di configurazione *Gestione delle modifiche di progettazione*. Per istruzioni, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
+La funzionalità descritta in questo argomento richiede che entrambe le funzionalità *Gestione modifiche di progettazione* e *Generazione di varianti per prodotti di progettazione* siano attivate per il sistema. Per dettagli su come attivare o disattivare queste funzionalità, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Generare una o più nuove varianti di un prodotto di progettazione
 

@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2021-12-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0d75ed504f03543906adbd6f9218b5d82ad34822
-ms.sourcegitcommit: 013196e9737acfc9a3d1f842f351e95f79f64d36
+ms.openlocfilehash: 852d56deabf74d1fd2e78943cd9373cafb92ede5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7878914"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323749"
 ---
 # <a name="vendor-electronic-invoices"></a>Fatture elettroniche del fornitore
 
@@ -115,6 +115,6 @@ Segui i passaggi seguenti per registrare i tipi di fattura.
 
 ## <a name="process-vendor-electronic-invoices"></a>Elaborare le fatture elettroniche del fornitore
 
-Per visualizzare tutte le fatture elettroniche dei fornitori ed eseguire varie azioni, andare a **Contabilità clienti** \> **Fatture** \> **Fatture elettroniche** \> **Fatture elettroniche**. La funzionalità è simile alla funzionalità per l'elaborazione delle fatture elettroniche dei clienti. Per ulteriori informazioni, vedere [Registro delle fatture elettroniche](emea-ita-e-invoices.md#electronic-invoice-register).
+Per visualizzare tutte le fatture elettroniche dei fornitori ed eseguire varie azioni, andare a **Contabilità clienti** > **Fatture** > **Fatture elettroniche** > **Fatture elettroniche**. La funzionalità è simile alla funzionalità per l'elaborazione delle fatture elettroniche dei clienti. Per ulteriori informazioni, vedere [Registro delle fatture elettroniche](emea-ita-e-invoices.md#electronic-invoice-register).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

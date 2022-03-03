@@ -2,26 +2,23 @@
 title: Configura scheda processo per dispositivi
 description: Questo argomento descrive le varie opzioni per la configurazione del dispositivo scheda processo.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431217"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103440"
 ---
 # <a name="configure-job-card-for-devices"></a>Configura scheda processo per dispositivi
 
@@ -37,21 +34,19 @@ Alcune delle impostazioni descritte in questo argomento devono essere abilitate 
 
 Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nell'ordine in cui sono elencate):
 
-1. Targa per la dichiarazione di finito aggiunta al dispositivo scheda processo
-1. Abilitare la generazione automatica del numero di identificazione durante la dichiarazione di finito nel dispositivo scheda processo
+1. *Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo*<br>A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria.
+1. *Abilitare la generazione automatica del numero di identificazione durante la dichiarazione di finito nel dispositivo scheda processo*<br>A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria.
 
 ### <a name="print-label"></a>Stampa etichetta
 
 Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (nell'ordine in cui sono elencate):
 
-1. Targa per la dichiarazione di finito aggiunta al dispositivo scheda processo
-1. Stampa etichetta dal dispositivo scheda processo
+1. *Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo*<br>A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria.
+1. *Stampa etichetta dal dispositivo scheda processo*<br>A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria.
 
 ### <a name="allow-locking-of-touch-screen"></a>Consenti blocco del touchscreen
 
-Per rendere disponibile questa funzionalità, abilitare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
-
-- (Anteprima) Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti
+A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="manage-your-device-configurations"></a>Gestisci configurazioni dispositivo
 
@@ -95,3 +90,6 @@ Tuttavia, come menzionato in precedenza, quando si utilizza una configurazione d
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Dichiarazione di finito dal dispositivo scheda processo](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

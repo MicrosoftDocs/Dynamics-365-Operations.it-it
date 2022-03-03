@@ -2,7 +2,7 @@
 title: Aggiungere campi dati nell'integrazione fiscale usando le estensioni
 description: In questo argomento viene illustrato come usare le estensioni X++ per aggiungere campi dati nell'integrazione fiscale.
 author: qire
-ms.date: 04/20/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8bdd56ebdd50c1eae98094725a01bf9c5ec52bb4e689eb282f80631810a65725
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721660"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323522"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Aggiungere campi dati nell'integrazione fiscale usando l'estensione
 
@@ -353,15 +353,77 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-In questo codice, `_destination` è l'oggetto wrapper utilizzato per generare la richiesta di registrazione e `_source` è l'oggetto `TaxIntegrationLineObject`. 
+In questo codice, `_destination` è l'oggetto wrapper utilizzato per generare la richiesta di registrazione e `_source` è l'oggetto `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> * Definisci la chiave utilizzata nel modulo di richiesta come `private const str`.
-> * Imposta il campo nel metodo `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` utilizzando il metodo `SetField`. Il tipo di dati del secondo parametro deve essere `string`. Se il tipo di dati non è `string`, convertilo in `string`.
+> Definisci la chiave utilizzata nel modulo di richiesta come **private const str**. La stringa deve essere esattamente la stessa del nome della misura aggiunta nell'argomento [Aggiungere campi dati nelle configurazioni imposte](tax-service-add-data-fields-tax-configurations.md).
+> Imposta il campo nel metodo **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** utilizzando il metodo **SetField**. Il tipo di dati del secondo parametro deve essere **string**. Se il tipo di dati non è **string**, convertilo.
+> Se un **tipo di enumerazione** X++ è esteso, notare la differenza tra il valore, l'etichetta e il nome dello stesso.
+> 
+>   - Il valore dell'enumerazione è intero.
+>   - L'etichetta dell'enumerazione può essere diversa nelle lingue preferite. Non utilizzare **enum2Str** per convertire il tipo di enumerazione in string.
+>   - Il nome dell'enumerazione è consigliato poiché è fisso. **enum2Symbol** può essere utilizzato per convertire l'enumerazione nel relativo nome. Il valore di enumerazione aggiunto nella configurazione fiscale deve essere esattamente lo stesso del nome dell'enumerazione.
+
+## <a name="model-dependency"></a>Dipendenza dal modello
+
+Per creare correttamente il progetto, aggiungi i seguenti modelli di riferimento alle dipendenze del modello:
+
+- ApplicationPlatform
+- ApplicationSuite
+- Motore imposte
+- Dimensioni, se viene utilizzata la dimensione finanziaria
+- Altri modelli necessari a cui si fa riferimento nel codice
+
+## <a name="validation"></a>Convalida
+
+Dopo aver completato i passaggi precedenti, puoi convalidare le modifiche.
+
+1. In Finance, vai a **Contabilità fornitori** e aggiungi **&debug=vs%2CconfirmExit&** all'URL. Ad esempio, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. Il finale **&** è essenziale.
+2. Apri la pagina **Ordine fornitore** e seleziona **Nuovo** per creare un ordine fornitore.
+3. Imposta il valore per il campo personalizzato, quindi seleziona **IVA**. Un file di risoluzione dei problemi con il prefisso **TaxServiceTroubleshootingLog** viene scaricato automaticamente. Questo file contiene le informazioni sulla transazione registrate nel servizio di calcolo delle imposte. 
+4. Verifica se il campo personalizzato aggiunto è presente nella sezione **JSON input per servizio di calcolo delle imposte** e se il relativo valore è corretto. Se il valore non è corretto, ricontrollare i passaggi in questo documento.
+
+Esempio di file:
+
+```
+===Tax service calculation input JSON:===
+{
+  "TaxableDocument": {
+    "Header": [
+      {
+        "Lines": [
+          {
+            "Line Type": "Normal",
+            "Item Code": "",
+            "Item Type": "Item",
+            "Quantity": 0.0,
+            "Amount": 1000.0,
+            "Currency": "EUR",
+            "Transaction Date": "2022-1-26T00:00:00",
+            ...
+            /// The new fields added at line level
+            "Cost Center": "003",
+            "Project": "Proj-123"
+          }
+        ],
+        "Amount include tax": true,
+        "Business Process": "Journal",
+        "Currency": "",
+        "Vendor Account": "DE-001",
+        "Vendor Invoice Account": "DE-001",
+        ...
+        // The new fields added at header level, no new fields in this example
+        ...
+      }
+    ]
+  },
+}
+...
+```
 
 ## <a name="appendix"></a>Appendice
 
-Questa appendice mostra il codice di esempio completo per l'integrazione delle dimensioni finanziarie (**Centro di costo** e **Progetto**) a livello di riga.
+Questa appendice mostra il codice di esempio completo per l'integrazione delle dimensioni finanziarie **Centro di costo** e **Progetto** a livello di riga.
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

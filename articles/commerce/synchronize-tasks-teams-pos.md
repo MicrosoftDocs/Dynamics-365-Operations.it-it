@@ -2,7 +2,7 @@
 title: Sincronizzare la gestione delle attività tra POS di Microsoft Teams e Dynamics 365 Commerce
 description: Questo argomento descrive come sincronizzare la gestione delle attività tra i POS Microsoft Teams e Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9abebbf8d6c5dd6695b9697361e1a9a9e6005dc3ded16c4211c9c5c9e34a0b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730877"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323499"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Sincronizzare la gestione delle attività tra POS di Microsoft Teams e Dynamics 365 Commerce
 
@@ -54,6 +54,9 @@ Per ulteriori informazioni, vedi [Pubblicare gli elenchi di attività per creare
 ## <a name="link-pos-and-teams-for-task-management"></a>Collegare POS e Teams per la gestione delle attività
 
 Per collegare le applicazioni POS e Microsoft Teams per la gestione delle attività in Commerce headquarters, segui questi passaggi.
+
+> [!NOTE]
+> Prima di provare a integrare Gestione delle attività con Microsoft Teams, assicurati di aver attivato l'[integrazione di Dynamics 365 Commerce e Microsoft Teams](enable-teams-integration.md). 
 
 1. Vai a **Retail e Commerce \> Gestione delle attività \> Integrazione di attività con Microsoft Teams**.
 1. Nel riquadro azioni, seleziona **Modifica**.

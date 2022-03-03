@@ -1,16 +1,13 @@
 ---
 title: Modulo Percorso di navigazione
-description: In questo argomento vengono descritti i moduli Percoso di navigazione e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+description: In questo argomento vengono descritti i moduli Percorso di navigazione e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,31 +15,29 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517162"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109734"
 ---
-# <a name="breadcrumb-module"></a>Modulo Percoso di navigazione
+# <a name="breadcrumb-module"></a>Modulo percorso di navigazione
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli Percoso di navigazione e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+In questo argomento vengono descritti i moduli Percorso di navigazione e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Panoramica
+I moduli Percorso di navigazione sono utilizzati per fornire una navigazione secondaria nelle pagine di sito. In genere sono visualizzati nella parte superiore di una pagina, sotto l'intestazione. Sebbene i moduli Percorso di navigazione possano essere aggiunti a qualsiasi pagina, vengono spesso utilizzati nelle pagine dettagli prodotto (PDP), per mostrare la gerarchia di categorie di prodotti e fornire un modo rapido di navigare in un sito. Un modulo Percorso di navigazione può anche essere usato per mostrare un collegamento "Torna ai risultati" quando gli utenti aprono una PDP da una pagina di ricerca o elenco. In questo modo, gli utenti possono tornare rapidamente alla loro pagina elenco filtrata per continuare a fare acquisti.
 
-I moduli Percoso di navigazione sono utilizzati per fornire una navigazione secondaria nelle pagine di sito. In genere sono visualizzati nella parte superiore di una pagina, sotto l'intestazione. Sebbene i moduli Percoso di navigazione possano essere aggiunti a qualsiasi pagina, vengono spesso utilizzati nelle pagine dettagli prodotto (PDP), per mostrare la gerarchia di categorie di prodotti e fornire un modo rapido di navigare in un sito. Un modulo Percoso di navigazione può anche essere usato per mostrare un collegamento "Torna ai risultati" quando gli utenti aprono una PDP da una pagina di ricerca o elenco. In questo modo, gli utenti possono tornare rapidamente alla loro pagina elenco filtrata per continuare a fare acquisti.
-
-Nelle pagine con contesto categoria di prodotto, ad esempio le PDP e le pagine di categorie, i moduli Percoso di navigazione mostrano la gerarchia di categorie. Nelle pagine che non hanno contesto di categoria, per impostazione predefinita i moduli Percoso di navigazione visualizzano **&lt;Radice sito&gt; / &lt;Pagina corrente&gt;**. I moduli Percoso di navigazione possono anche essere configurati manualmente in altri tipi di pagine di sito per mostrare collegamenti a pagine specifiche del sito.
+Nelle pagine con contesto categoria di prodotto, ad esempio le PDP e le pagine di categorie, i moduli Percorso di navigazione mostrano la gerarchia di categorie. Nelle pagine che non hanno contesto di categoria, per impostazione predefinita i moduli Percorso di navigazione visualizzano **&lt;Radice sito&gt; / &lt;Pagina corrente&gt;**. I moduli Percorso di navigazione possono anche essere configurati manualmente in altri tipi di pagine di sito per mostrare collegamenti a pagine specifiche del sito.
 
 > [!NOTE]
 > Il modulo breadcrumb è disponibile in Dynamics 365 Commerce versione 10.0.12.
 
-L'immagine seguente illustra un esempio di modulo Percoso di navigazione che mostra la gerarchia di categorie in una PDP.
+L'immagine seguente illustra un esempio di modulo Percorso di navigazione che mostra la gerarchia di categorie in una PDP.
 
-![Esempio di modulo Percoso di navigazione](./media/ecommerce-breadcrumb.PNG)
+![Esempio di modulo Percorso di navigazione.](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Impostazioni del modulo Percorso di navigazione
 
@@ -57,7 +52,7 @@ Il modulo Percorso di navigazione si basa sull'impostazione **Tipo di visualizza
 
 ## <a name="breadcrumb-module-properties"></a>Proprietà del modulo Percorso di navigazione
 
-| Nome proprietà | Valori | descrizione |
+| Nome proprietà | Valori | Descrizione |
 |---------------|--------|-------------|
 | Radice | Testo o collegamento| Questa proprietà facoltativa specifica il testo del collegamento e una destinazione del collegamento per la radice sito del percorso di navigazione. Se questa proprietà non è configurata, non verrà definita alcuna radice. |
 | Collegamento percorso di navigazione | Collega | Questa proprietà facoltativa specifica i collegamenti per un percorso di navigazione configurato manualmente, se questi collegamenti sono necessari. I collegamenti sono visualizzati nell'ordine in cui sono elencati. |
@@ -95,3 +90,6 @@ Per aggiungere un modulo Percorso di navigazione a una pagina PDP e impostare le
 [Modulo casella acquisti](add-buy-box.md)
 
 [SDK e aggiornamenti libreria dei moduli](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571715"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103114"
 ---
 # <a name="category-requests-from-vendors"></a>Richieste di categorie da parte dei fornitori
 
@@ -26,11 +26,11 @@ Il processo di richiesta di categorie consente ai fornitori di richiedere che nu
 
 Le richieste di categorie vengono avviate dai fornitori nell'area di lavoro **Informazioni fornitore**. Vengono quindi inviate alla tua agenzia per la revisione e l'approvazione. Le categorie approvate vengono aggiunte all'elenco delle categorie di approvvigionamento per il conto del fornitore.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Attiva la funzionalità nel tuo sistema
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Attivare o disattivare la funzionalità Richieste di categoria dai fornitori
 
-Se il tuo sistema non include già la funzionalità descritta in questo argomento, vai a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva *Consenti ai fornitori di richiedere categorie di approvvigionamento tramite la collaborazione fornitore*.
+A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Consenti ai fornitori di richiedere categorie di approvvigionamento tramite la collaborazione fornitore nell'area di lavoro* [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Dopo l'attivazione della funzionalità, è comunque possibile aggiungere manualmente le categorie di approvvigionamento ai conti fornitore. Per informazioni, vedere [Approvare i fornitori per categorie specifiche di approvvigionamento](tasks/approve-vendors-specific-procurement-categories.md).
+Se questa funzionalità è attivata, è comunque possibile aggiungere manualmente le categorie di approvvigionamento ai conti fornitore. Per informazioni, vedere [Approvare i fornitori per categorie specifiche di approvvigionamento](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Requisiti di collaborazione fornitore
 

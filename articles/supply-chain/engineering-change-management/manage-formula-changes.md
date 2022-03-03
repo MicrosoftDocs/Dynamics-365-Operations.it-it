@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c65f929120d2501fa3873880179a9b53ab79c60c73fd4d597fb6151b1c5bb2b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720398"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103041"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Gestisci le modifiche nelle formule e nei loro ingredienti
 
@@ -27,12 +27,9 @@ Se stai utilizzando le funzionalità di produzione dei processi di Microsoft Dyn
 - **Co-prodotti e sottoprodotti:** modifica le quantità e altre informazioni dei co-prodotti e dei sottoprodotti in una formula.
 - **Articoli a peso variabile:** gestisci le modifiche agli articoli a peso variabile.
 
-## <a name="turn-on-this-feature-in-your-system"></a>Attivare la funzionalità nel tuo sistema
+## <a name="turn-this-feature-on-or-off"></a>Attivare o disattivare questa funzionalità
 
-Per utilizzare questa funzionalità, è necessario completare le seguenti attività:
-
-1. Abilita la funzionalità *Gestione delle modifiche di progettazione* e la relativa chiave di configurazione come descritto in [Panoramica di Gestione delle modifiche di progettazione](product-engineering-overview.md). Come accennato in quell'argomento, assicurati di abilitare anche la chiave di licenza **Gestione delle modifiche per la produzione di processo**, che è nidificata sotto la chiave di licenza **Gestione modifiche di progettazione** principale.
-1. Attiva la funzionalità *Gestisci le modifiche alle formule e ai loro ingredienti* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+La funzionalità descritta in questo argomento richiede che entrambe le funzionalità *Gestione modifiche di progettazione* e *Gestisci modifiche a formule e relativi ingredienti* siano attivate per il sistema. Per dettagli su come attivare o disattivare queste funzionalità, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Convenzioni di denominazione delle funzioni
 

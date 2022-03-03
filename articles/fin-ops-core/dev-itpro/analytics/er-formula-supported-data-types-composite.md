@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758266"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323667"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Tipi di dati compositi supportati per le formule di creazione di report elettronici
 
@@ -27,7 +27,7 @@ Questo argomento fornisce informazioni sui tipi di dati compositi supportati nel
 
 Il tipo di dati *classe* fa riferimento a una classe di applicazioni pubbliche. In ER, è rappresentato come un [*record*](#record) che contiene un campo separato per ogni metodo pubblico della classe di riferimento. Quando la chiamata del metodo è parametrizzata, è necessario specificare anche gli argomenti obbligatori dei tipi appropriati in un'espressione ER configurata per chiamare il metodo.
 
-Nei componenti di [mapping](general-electronic-reporting.md#data-model-and-model-mapping-components) e [formattazione](general-electronic-reporting.md#FormatComponentOutbound) di ER, è possibile aggiungere l'origine dati **Classe** presentata come origine dati e che restituisce un valore di tipo *classe*. Questa origine dati espone i metodi pubblici della classe che possono essere chiamati in runtime.
+Nei componenti di mapping e formattazione di ER, è possibile aggiungere l'origine dati **Classe** presentata come origine dati e che restituisce un valore di tipo *classe*. Questa origine dati espone i metodi pubblici della classe che possono essere chiamati in runtime.
 
 > [!NOTE]
 > Solo i metodi che restituiscono un valore possono essere chiamati dalle espressioni ER.

@@ -2,22 +2,22 @@
 title: Impostazione di Gestione crediti
 description: Questo argomento descrive l'impostazione di Gestione crediti.
 author: JodiChristiansen
-ms.date: 09/04/2019
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753670"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182445"
 ---
 # <a name="credit-management-setup"></a>Impostazione di Gestione crediti 
 
@@ -39,7 +39,7 @@ Andare **Credito e riscossioni \> Impostazione \> Flussi di lavoro di gestione c
 
 Se le classificazioni per i termini di pagamento sono attive e se i termini di pagamento nell'ordine hanno una classificazione superiore rispetto ai termini di pagamento predefiniti per il cliente, l'ordine cliente viene messo in attesa.
 
-Per impostare la classificazione dei termini di pagamento andare a **Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \>Classifica termini di pagamento**  
+Per impostare la classificazione dei termini di pagamento andare a **Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \>Classifica termini di pagamento**.  
 
 ### <a name="ranking-settlement-discounts"></a>Classificazione degli sconti di liquidazione
 
@@ -86,7 +86,7 @@ Il gruppo di gestione crediti viene assegnato a un cliente nella scheda dettagli
 
 ## <a name="scoring-groups"></a>Gruppi di punteggio
 
-È possibile impostare gruppi di punteggio per definire i fattori di rischio e i criteri utilizzati per misurarli. Quando le informazioni su un cliente vengono applicate a un gruppo di punteggio, viene calcolato un punteggio per ciascun fattore di rischio e utilizzato per inserire il cliente in un gruppo di rischio. Il gruppo di rischio può essere utilizzato per identificare l'affidabilità creditizia e calcolare limiti di credito automatici.
+È possibile impostare **gruppi di punteggio** per definire i fattori di rischio e i criteri utilizzati per misurarli. Quando le informazioni su un cliente vengono applicate a un gruppo di punteggio, viene calcolato un punteggio per ciascun fattore di rischio e utilizzato per inserire il cliente in un gruppo di rischio. Il gruppo di rischio può essere utilizzato per identificare l'affidabilità creditizia e calcolare limiti di credito automatici.
 
 È possibile creare gruppi di punteggio nella pagina **Gruppi di punteggio** (**Credito e riscossioni \> Impostazione \> Impostazione gestione crediti \> Rischio \> Gruppi di punteggio**).
 

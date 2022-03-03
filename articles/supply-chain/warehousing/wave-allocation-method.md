@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920600"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103790"
 ---
 # <a name="wave-allocation"></a>Allocazione ciclo
 
@@ -67,7 +67,7 @@ Per impostare l'elaborazione parallela:
 
 ## <a name="enable-or-disable-parallelization-across-all-legal-entities"></a>Abilitare o disabilitare la parallelizzazione tra tutte le persone giuridiche
 
-Ti consigliamo di impostare il metodo `allocateWave` da eseguire in parallelo tra tutte le persone giuridiche perché questo aiuta a migliorare le prestazioni dell'elaborazione ciclo. A partire dalla versione 10.0.17 di Supply Chain Management, la funzione *Parallelizzazione dei cicli per metodo allocazione del ciclo* è abilitata per impostazione predefinita per tutte le installazioni nuove e aggiornate e non può essere disattivata. Dopo aver abilitato questa funzione, si verifica quanto segue:
+Ti consigliamo di impostare il metodo `allocateWave` da eseguire in parallelo tra tutte le persone giuridiche perché questo aiuta a migliorare le prestazioni dell'elaborazione ciclo. A partire dalla versione 10.0.17 di Supply Chain Management, la funzione *Parallelizzazione dei cicli per metodo allocazione del ciclo* è attivata per impostazione predefinita per tutte le installazioni nuove e aggiornate e non può essere disattivata. Dopo aver abilitato questa funzione, si verifica quanto segue:
 
 - Il metodo `allocateWave` viene aggiornato per includere un'impostazione di configurazione dell'attività che consente di utilizzare la pagina **Metodi di elaborazione ciclo** per definire il numero di attività che verranno eseguite simultaneamente, equivalente al numero di processi paralleli. Di conseguenza, il tempo utilizzato nella fase di allocazione del ciclo (che in genere è compreso tra il 30% e il 60% del tempo di elaborazione totale) viene ridotto di un fattore approssimativamente equivalente al numero di attività. È anche possibile selezionare quale batch verrà assegnato per elaborare queste attività. È importante notare che tutte le persone giuridiche saranno configurate per elaborare i cicli in batch. Per i magazzini già configurati per elaborare i cicli in batch e per i magazzini già configurati per l'utilizzo del metodo `allocateWave` in parallelo, verrà mantenuta la configurazione esistente.
 - Per impostazione predefinita, tutte le nuove persone giuridiche sono configurate per elaborare i cicli in batch. Tutti i nuovi magazzini con l'opzione **Processi di gestione magazzino** abilitata avranno il metodo `allocateWave` configurato per essere eseguito in parallelo per impostazione predefinita.

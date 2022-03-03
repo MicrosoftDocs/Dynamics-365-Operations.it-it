@@ -2,26 +2,23 @@
 title: Gestire le modifiche ai prodotti di progettazione
 description: Vengono fornite le informazioni sulla gestione delle modifiche ai prodotti di progettazione. La gestione delle modifiche di progettazione fornisce processi strutturati per la gestione delle modifiche ai prodotti di progettazione, dalla proposta, richiesta e apporto di modifiche, alla revisione e approvazione delle modifiche, alla valutazione del loro impatto sulle transazioni esistenti e alle attività di follow-up.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 314563e083434832ee04d9c19deb17cec221ae02
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431605"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102912"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -52,7 +49,7 @@ Viene creata una nuova richiesta di modifica. In ogni Scheda dettaglio è ora po
 
 La Scheda dettaglio **Generale** consente di fornire una descrizione di base della richiesta di modifica. Nella tabella seguente vengono illustrati i campi della Scheda dettaglio.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Richiesta di modifica | Immettere un nome per la richiesta di modifica. |
 | Funzione | Immettere un testo che descriva o identifichi brevemente le modifiche nella richiesta. |
@@ -77,11 +74,11 @@ Per aggiungere una riga alla griglia, selezionare **Nuovo** sulla barra degli st
 
 Nella seguente tabella vengono illustrati i campi di ogni riga.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Data e ora creazione | Data e ora di creazione della riga. |
 | Tipo | Tipo di informazioni per cui è stata creata la riga (file, immagine, nota o URL). |
-| descrizione | Immettere un descrizione per la riga. |
+| Descrizione | Immettere un descrizione per la riga. |
 | Restrizione | Valore che indica se le informazioni aggiunte provengono da un'origine interna o esterna. |
 | Allegato | Una casella di controllo selezionata indica che la riga include un allegato (file o immagine). Per scaricare l'allegato, selezionare la riga, quindi selezionare **Apri** sulla barra degli strumenti sopra la griglia. |
 
@@ -95,9 +92,13 @@ Questo elenco è fornito solo a scopo informativo. Pertanto, è possibile aggiun
 
 La Scheda dettaglio **Origine** consente di tenere traccia del punto di inizio della richiesta di modifica. È utile, ad esempio, se si desidera vedere se la richiesta di modifica è stata creata da un ordine cliente, l'autore della creazione e l'azienda in cui è stata creata.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Valutare l'impatto aziendale di una richiesta di modifica
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Valutare l'impatto aziendale di una richiesta di modifica e inviare le notifiche
 
-Quando si esamina una richiesta di modifica, è possibile cercare le dipendenze. In questo modo, è possibile valutare l'impatto della modifica richiesta sulle transazioni aperte, ad esempio ordini cliente, ordini di produzione e scorte disponibili.
+Quando si esamina una richiesta di modifica, è possibile cercare le dipendenze. In questo modo, è possibile valutare l'impatto della modifica richiesta sulle transazioni aperte, ad esempio ordini cliente, ordini di produzione e scorte disponibili. Mentre esamini le richieste di modifica, puoi inviare notifiche alle persone responsabili dell'adempimento dei vari tipi di ordini correlati.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Rivedi le transazioni interessate, blocca le transazioni selezionate e invia notifiche
+
+Per rivedere le transazioni interessate, blocca le transazioni selezionate e inviare le relative notifiche, segui questi passaggi.
 
 1. Andare a **Gestione modifiche di progettazione \> Comune \> Gestione modifiche di progettazione \> Richieste modifiche di progettazione**.
 1. Aprire una richiesta di modifica esistente o selezionare **Nuovo** nel riquadro azioni per creare una nuova richiesta di modifica.
@@ -106,7 +107,36 @@ Quando si esamina una richiesta di modifica, è possibile cercare le dipendenze.
     - **Cerca** - Esegue la scansione di tutte le transazioni aperte, quindi apre la finestra di dialogo **Impatto aziendale sulle transazioni aperte** in cui sono elencate tutte le transazioni che saranno interessate dalla modifica.
     - **Visualizza ricerca precedente** - Apre la finestra di dialogo **Impatto aziendale sulle transazioni aperte** in cui sono elencati i risultati della ricerca precedente. Non viene eseguita una nuova ricerca.
 
-1. Se il problema che richiede una modifica risulta essere critico, è possibile bloccare le transazioni aperte o avvisare l'utente responsabile utilizzando i pulsanti sulla barra degli strumenti nella finestra di dialogo **Impatto aziendale sulle transazioni aperte**.
+1. La finestra di dialogo **Impatto aziendale sulle transazioni aperte** fornisce una serie di schede, ognuna delle quali mostra un elenco di transazioni interessate di un tipo specifico (**Ordini di vendita**, **Ordini di acquisto**, **Ordini di produzione**, **Inventario**, e così via). Ogni scheda mostra anche un numero che indica il numero di transazioni interessate di quel tipo. Seleziona una scheda per visualizzare l'elenco pertinente.
+1. Per lavorare con una transazione nell'elenco, selezionala, quindi seleziona uno dei seguenti pulsanti sulla barra degli strumenti:
+
+    - **Visualizza transazione**: apri il record della transazione selezionato.
+    - **Blocca ordine**: questo pulsante è disponibile solo nella scheda **Ordini di vendita**. Selezionalo per bloccare l'ordine cliente selezionato.
+    - **Blocca riga**: questo pulsante è disponibile solo nella scheda **Ordini di acquisto**. Selezionalo per bloccare la riga ordine cliente selezionata.
+    - **Notifica responsabile**: questo pulsante è disponibile solo nella scheda **Ordini di vendita**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'ordine cliente selezionato. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Notifica responsabile ordine**: questo pulsante è disponibile solo nella scheda **Ordini di acquisto**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'ordine di acquisto selezionato. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Notifica produzione**; questo pulsante è disponibile solo nella scheda **Ordini di produzione**. A differenza degli ordini di vendita e degli ordini di acquisto, gli ordini di produzione non hanno un singolo utente che ne sia responsabile dall'inizio alla fine. Invece, vari supervisori o pianificatori di solito assumono la proprietà di un sito specifico o di una parte specifica della produzione (ad esempio, per risorse o gruppi di risorse specifici). Pertanto, quando si seleziona questo pulsante, tutti gli utenti responsabili di qualsiasi risorsa correlata all'ordine di produzione selezionato ricevono una notifica di modifica. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Notifica preparatore**: questo pulsante è disponibile solo nella scheda **Richiesta di acquisto**. Selezionalo per inviare una notifica di modifica all'utente impostato come preparatore della richiesta di acquisto selezionata. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Notifica responsabile vendite**: questo pulsante è disponibile solo nella scheda **Offerte**. Selezionalo per inviare una notifica di modifica all'utente impostato come responsabile dell'offerta selezionata. Per ulteriori informazioni su chi può vedere le notifiche e come, vedi [Rivedere ed elaborare le notifiche di modifica per le transazioni](#review-notifications).
+    - **Scarto**: questo pulsante è disponibile solo nella scheda **Inventario**. Selezionalo per scartare l'inventario selezionato.
+    - **Visualizza cronologia**: apri una cronologia delle azioni che sono state eseguite sulla transazione selezionata utilizzando la finestra di dialogo **Impatto aziendale sulle transazioni aperte**. (Ad esempio, la cronologia mostra se le notifiche sono state inviate o le transazioni sono state bloccate.) 
+    - **Visualizza tutte le transazioni**: apri l'elenco completo di tutte le transazioni, non solo le transazioni aperte.
+
+> [!IMPORTANT]
+> Il pulsante **Notifica produzione** è disponibile solo se la funzionalità *Notifiche di progettazione per la produzione* è attivata per il sistema. Per istruzioni su come attivare o disattivare questa funzionalità e i relativi prerequisiti, vedi [ Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Rivedere ed elaborare le notifiche di modifica per le transazioni
+
+Puoi leggere ed elaborare le notifiche di modifica che ricevi nei seguenti modi:
+
+- Tranne nel caso degli ordini di produzione, le notifiche di modifica per le transazioni di cui sei responsabile vengono visualizzate nel Centro azioni. Il pulsante **Mostra messaggi** (simbolo della campana) sul lato destro della barra di spostamento indica quando un messaggio del centro azioni è disponibile per l'utente corrente. Seleziona **Mostra messaggi** per aprire il Centro azioni e rivedere i messaggi.
+- Per visualizzare tutti gli ordini di produzione per cui è stata inviata una notifica di progettazione, andare a **Ordini di produzione \> Ordini di produzione \> Tutti gli ordini di produzione**. Quindi, nel riquadro azioni, nella scheda **Ordine di produzione**, nel gruppo **Richiesta di modifica di progettazione** seleziona **Notifiche di progettazione** per aprire la pagina **Notifiche di progettazione**.
+- Per gli ordini di produzione, puoi scegliere di esaminare solo le notifiche di modifica che si applicano alle risorse di produzione che gestisci. Nell'area di lavoro **Gestione area di produzione** area di lavoro, nel riquadro azioni seleziona **Configura area di lavoro personale** per filtrare la pagina in modo che mostri solo le informazioni sulle unità di produzione, i gruppi e/o le risorse che gestisci. Nella sezione **Riepilogo**, un riquadro denominato **Ordini di produzione con prodotti modificati** mostra un conteggio delle notifiche che corrispondono alle impostazioni del filtro. Seleziona questo riquadro per aprire la pagina **Notifiche di progettazione**, che mostra l'elenco completo delle transazioni che soddisfano i criteri del filtro.
+
+Mentre stai esaminando le notifiche degli ordini di produzione nella pagina **Notifiche di progettazione** è possibile seguire i collegamenti agli ordini di modifica o di produzione correlati selezionando i valori delle colonne o utilizzando i comandi correlati nel riquadro azioni. Dopo aver finito di valutare una modifica e dopo aver annullato o modificato gli ordini di produzione come richiesto, è possibile contrassegnare una notifica come risolta. Seleziona la notifica e quindi, nel riquadro azioni, seleziona **Risolvi**. La notifica viene rimossa dalle visualizzazioni di tutti gli utenti.
+
+> [!IMPORTANT]
+> La possibilità di inviare notifiche per ordini di produzione richiede che la funzionalità *Notifiche di progettazione per la produzione* sia attivata per il sistema. Per istruzioni su come attivare o disattivare questa funzionalità e i relativi prerequisiti, vedi [ Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Creare un ordine di modifica da una richiesta di modifica
 
@@ -142,13 +172,14 @@ Durante la revisione di una richiesta per la modifica, nella scheda **Richiesta 
 
 Come descritto in [Società di progettazione e regole sulla proprietà dei dati](engineering-org-data-ownership-rules.md), i dati di prodotto che è possibile modificare variano a seconda del tipo di persona giuridica in cui si lavora (società operativa o di progettazione). Le regole sulla proprietà dei dati vengono applicate anche agli ordini di modifica di progettazione. Pertanto, a seconda della persona giuridica in cui si crea un ordine di modifica di progettazione, è possibile apportare diversi tipi di modifiche. Di seguito sono riportati alcuni esempi.
 
-- Per gli ordini di modifica di progettazione in una **società di progettazione**, è possibile apportare modifiche di base ai dati di progettazione. Ad esempio, è possibile creare nuove versioni di un prodotto, modificare la struttura di un prodotto tramite la DBA e modificare i valori degli attributi di progettazione. Per ogni prodotto interessato, selezionare uno dei seguenti valori nel campo **Impatto**:
+- Per gli ordini di modifica di progettazione in una *società di progettazione*, è possibile apportare modifiche di base ai dati di progettazione. Ad esempio, è possibile creare nuove versioni di un prodotto, modificare la struttura di un prodotto tramite la DBA e modificare i valori degli attributi di progettazione. Per ogni prodotto interessato, selezionare uno dei seguenti valori nel campo **Impatto**:
 
     - **Nessuno** - Aggiorna la versione del prodotto esistente (aggiornamento nella versione).
     - **Nuova versione** - Crea una nuova versione basata sulla versione del prodotto selezionata.
-    - **Nuovo prodotto** - Crea un prodotto completamente nuovo o una variante prodotto basata sulla versione di prodotto selezionata.
+    - **Nuovo prodotto** - Crea un prodotto completamente nuovo basato sulla versione di prodotto selezionata.
+    - **Nuova variante** - Crea una nuova variante basata sulla versione del prodotto selezionata. La sua distinta base e le informazioni sul ciclo di lavorazione verranno copiate.
 
-- Per gli ordini di modifica di progettazione in una **società operativa**, è possibile modificare i dati logistici del prodotto. Ad esempio, è possibile arricchire la DBA esistente con le impostazioni per l'approvvigionamento, aggiungere cicli di lavorazione o DBA locali e anche arricchire una DBA aggiungendo nuove righe DBA per materiali di imballaggio locali, fluidi lubrificanti o istruzioni nella lingua locale. I miglioramenti apportati dagli utenti nella società operativa verranno mantenuti quando vengono inviati nuovi aggiornamenti dalla società di progettazione. Per ulteriori informazioni, vedere [Società di progettazione e regole sulla proprietà dei dati](engineering-org-data-ownership-rules.md).
+- Per gli ordini di modifica di progettazione in una *società operativa*, è possibile modificare i dati logistici del prodotto. Ad esempio, è possibile arricchire la DBA esistente con le impostazioni per l'approvvigionamento, aggiungere cicli di lavorazione o DBA locali e anche arricchire una DBA aggiungendo nuove righe DBA per materiali di imballaggio locali, fluidi lubrificanti o istruzioni nella lingua locale. I miglioramenti apportati dagli utenti nella società operativa verranno mantenuti quando vengono inviati nuovi aggiornamenti dalla società di progettazione. Per ulteriori informazioni, vedere [Società di progettazione e regole sulla proprietà dei dati](engineering-org-data-ownership-rules.md).
 
     Quando gli ordini di modifica di progettazione vengono elaborati nella società di progettazione, i prodotti vengono creati e/o aggiornati solo nella società di progettazione. Pertanto, se devono essere aggiornati anche i dati master del prodotto, è necessario rilasciare i prodotti anche alle società operative.
 
@@ -174,7 +205,7 @@ Per visualizzare un report sugli ordini di modifica di progettazione, aprire l'o
 
 La maggior parte dei campi sugli ordini di modifica di progettazione sono gli stessi dei campi per prodotti rilasciati, versioni di progettazione, documenti, DBA (righe) e cicli di lavorazione (operazioni). Tuttavia, i campi nella tabella seguente sono univoci per modificare gli ordini.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Motivi della modifica di progettazione | Selezionare il motivo della modifica per il prodotto interessato. |
 | Descrizione della modifica | Immettere una descrizione della modifica. |
@@ -185,3 +216,6 @@ La maggior parte dei campi sugli ordini di modifica di progettazione sono gli st
 | Ambiente, salute e sicurezza | Specificare se le regole di salute e sicurezza ambientali sono applicabili alla modifica. Se lo sono, è possibile selezionare le regole applicabili. |
 
 È possibile utilizzare il pulsante **Gestisci/copia informazioni di modifica** per copiare le informazioni sulle modifiche tra i prodotti interessati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

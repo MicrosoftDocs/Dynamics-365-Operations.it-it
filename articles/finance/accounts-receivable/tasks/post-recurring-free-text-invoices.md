@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0389db98c00f8ad98a9cf919a21110c31206949199f06328782d25e9c415b315
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762165"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182481"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Generare e registrare fatture a testo libero ricorrenti
 
@@ -30,17 +30,17 @@ Le fatture ricorrenti vengono utilizzate per fatturare regolarmente i clienti pe
 ## <a name="generate-recurring-invoices"></a>Genera fatture ricorrenti
 
 ## <a name="post-recurring-invoices"></a>Registra fatture ricorrenti
-1. Andare a Contabilità clienti > Fatture > Fatture ricorrenti > Registra fatture ricorrenti.
+1. Andare a **Contabilità clienti > Fatture > Fatture ricorrenti > Registra fatture ricorrenti**.
     * Utilizzare questa pagina per visualizzare e stampare le fatture ricorrenti generate.  
 2. Nell'elenco fare clic sul collegamento nella riga selezionata.
     * Seleziona il gruppo fatture ricorrenti.  
-3. Fare clic su Totali.
+3. Fare clic su **Totali**.
     * Verifica i totali del gruppo di fatture ricorrenti.  
-4. Fare clic su Chiudi.
-    * Ogni riga di seguito è una fattura a testo libero ricorrente. È possibile selezionare una riga e fare clic sul pulsante "Dettagli" per visualizzare i dettagli della fattura a testo libero.  
-5. Fare clic su Convalida.
+4. Fare clic su **Chiudi**.
+    * Ogni riga di seguito è una fattura a testo libero ricorrente. È possibile selezionare una riga e fare clic sul pulsante **Dettagli** per visualizzare i dettagli della fattura a testo libero.  
+5. Fare clic su **Convalida**.
     * Consente di verificare che le fatture selezionate non contengano errori, ma non di registrare le fatture.  
-6. Fare clic su Registra.
+6. Fare clic su **Registra**.
     * Consente di registrare le fatture selezionate.  
 
 

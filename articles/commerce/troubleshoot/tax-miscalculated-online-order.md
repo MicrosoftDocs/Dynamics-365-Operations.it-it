@@ -2,7 +2,7 @@
 title: L'IVA negli ordini online è calcolata in modo errato
 description: Questo argomento fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando l'IVA negli ordini online viene calcolata in modo errato o quando la fascia IVA nella riga di vendita non è impostata correttamente.
 author: Reza-Assadi
-ms.date: 03/11/2021
+ms.date: 02/16/2022
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e51ae789dad2c7b5118be2cf8a88f4e4090a8c74c8259b4eaaddad1a134af80a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715262"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8312033"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>L'IVA negli ordini online è calcolata in modo errato
 
@@ -33,6 +33,17 @@ Questo argomento fornisce indicazioni per la risoluzione dei problemi che posson
 Quando viene effettuato un ordine di e-commerce, l'IVA viene calcolata in modo errato o la fascia IVA nella riga di vendita è impostata in modo errato.
 
 ## <a name="resolution"></a>Risoluzione
+
+### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Configurare le fasce IVA generali in Commerce Headquarters
+
+Per configurare fasce IVA generali in Commerce Headquarters, seguire questi passaggi.
+
+1. Selezionare **Imposta \> Imposte indirette \> IVA \> Fascia IVA**.
+1. Nel riquadro di spostamento a sinistra, selezionare la fascia IVA da configurare.
+1. Nella Scheda dettaglio **Imposta in base alla destinazione vendita al dettaglio**, configurare le imposte per la fascia IVA.
+
+> [!NOTE]
+> Per la spedizione che non include l'IVA determinata in base a indirizzo del cliente, l'indirizzo di consegna della riga e le imposte basate sulla destinazione configurate per la fascia IVA determinano la fascia IVA. Per ulteriori informazioni, vedere [Impostare le imposte per i punti vendita online in base alla destinazione](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Configurare l'IVA per un punto vendita al dettaglio in Commerce Headquarters
 
@@ -57,17 +68,6 @@ Per configurare l'IVA per l'indirizzo di un cliente in Commerce Headquarters, pr
 
 > [!NOTE]
 > Per la spedizione che comporta l'IVA nell'indirizzo del cliente, l'indirizzo di consegna della riga determina la fascia IVA per la riga. Se il cliente effettua la spedizione a un indirizzo esistente con una fascia IVA già configurata, verrà utilizzata la fascia IVA esistente. Per impostazione predefinita, gli indirizzi non hanno una fascia IVA quando vengono creati.
-
-### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Configurare le fasce IVA generali in Commerce Headquarters
-
-Per configurare fasce IVA generali in Commerce Headquarters, seguire questi passaggi.
-
-1. Selezionare **Imposta \> Imposte indirette \> IVA \> Fascia IVA**.
-1. Nel riquadro di spostamento a sinistra, selezionare la fascia IVA da configurare.
-1. Nella Scheda dettaglio **Imposta in base alla destinazione vendita al dettaglio**, configurare le imposte per la fascia IVA.
-
-> [!NOTE]
-> Per la spedizione che non prevede l'IVA nell'indirizzo del cliente, l'indirizzo di consegna della riga e le imposte basate sulla destinazione configurate per la fascia IVA determinano la fascia IVA. Per ulteriori informazioni, vedere [Impostare le imposte per i punti vendita online in base alla destinazione](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

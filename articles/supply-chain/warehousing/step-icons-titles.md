@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b8d663fa9743fae83654ed9938b4131e0fa08b9
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902194"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103315"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Assegnare icone e titoli dei passaggi per l'app per dispositivi mobili Warehouse Management
 
@@ -27,12 +27,9 @@ Le seguenti illustrazioni mostrano come vengono visualizzati i titoli e le icone
 
 ![Esempio di un'icona di passaggio e un titolo di passaggio nell'app per dispositivi mobili Warehouse Management.](media/step-icon-example.png "Esempio di un'icona di passaggio e un titolo di passaggio nell'app per dispositivi mobili Warehouse Management")
 
-## <a name="turn-on-this-feature-in-your-system"></a>Attivare la funzionalità nel tuo sistema
+## <a name="turn-this-feature-on-or-off"></a>Attivare o disattivare questa funzionalità
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Gestione magazzino*
-- **Nome funzionalità:** *Impostazioni utente, icone e titoli dei passaggi per la nuova app di magazzino*
+Per utilizzare la funzionalità,descritta in questo argomento, la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* deve essere attivata per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>ID, classi e icone del passaggio standard
 

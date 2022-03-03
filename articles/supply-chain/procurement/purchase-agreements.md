@@ -1,12 +1,10 @@
 ---
 title: Contratti di acquisto
 description: Questo articolo fornisce informazioni sui contratti di acquisto. Un contratto di acquisto è un contratto con cui un'organizzazione si impegna ad acquistare una quantità o un importo specificato utilizzando più ordini fornitore nel tempo. In cambio dell'impegno, l'acquirente riceve prezzi e sconti speciali.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017189"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103740"
 ---
 # <a name="purchase-agreements"></a>Contratti di acquisto
 
@@ -43,10 +41,7 @@ Per impedire che il contratto di acquisto venga utilizzato e confermato, contras
 È possibile identificare un lavoratore responsabile principale e un lavoratore responsabile secondario nella classificazione del contratto di acquisto. Questi valori saranno ereditati dal contratto di acquisto risultante. Non è obbligatorio aggiungere lavoratori responsabili al contratto di acquisto e possono essere modificati direttamente caso per caso sul contratto di acquisto stesso. Non è possibile specificare un lavoratore responsabile secondario senza un lavoratore responsabile primario, sebbene non sia necessario disporre di un lavoratore responsabile secondario. Non è possibile specificare lo stesso lavoratore come lavoratore responsabile principale e secondario.
 
 > [!IMPORTANT]
-> Prima di poter utilizzare la funzionalità della parte responsabile, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-> 
-> - **Modulo:** *Attività di approvvigionamento*
-> - **Nome funzionalità:** *Parte responsabile del contratto di acquisto*
+> Per utilizzare la funzionalità della parte responsabile, è necessario attivarla nel sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Parte responsabile del contratto di acquisto* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Tipi di impegno
 Ogni riga di un contratto di acquisto è un impegno di acquisto di un prodotto. È possibile utilizzare righe di più ordini fornitore (PO) per evadere l'impegno. Sono disponibili quattro tipi di impegni:
@@ -104,12 +99,13 @@ Se si crea un ordine fornitore interaziendale che utilizza il contratto di acqui
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensioni finanziare nei contratti di acquisto
 È possibile copiare le dimensioni finanziarie in intestazioni documento o in singole righe di un contratto di acquisto. Se si modificano le dimensioni nell'intestazione del contratto o nella riga del contratto, la modifica non influisce sugli ordini rilasciati, ma verrà considerata in tutti i nuovi ordini.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Creare un contratto di acquisto](tasks/create-purchase-agreement.md)
-
-[Creare un ordine fornitore di rilascio da un contratto di acquisto](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Creare un contratto di acquisto](tasks/create-purchase-agreement.md)
+- [Applicare un contratto di acquisto quando si crea un ordine fornitore](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

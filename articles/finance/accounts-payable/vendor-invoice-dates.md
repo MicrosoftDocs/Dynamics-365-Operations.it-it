@@ -2,25 +2,25 @@
 title: Date della fattura fornitore
 description: Questo argomento descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come impostare il sistema in modo che rettifichi automaticamente la data di registrazione.
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647896"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105466"
 ---
 # <a name="vendor-invoice-dates"></a>Date della fattura fornitore
 
@@ -50,6 +50,9 @@ Segui questi passaggi per consentire al sistema di rettificare automaticamente l
     - **Modifica sempre la data di registrazione nella data di sistema** – Il sistema modifica automaticamente la data di registrazione con la data di sistema durante la registrazione.
     - **Cambia data di registrazione nella data di sistema quando il periodo della data di registrazione è chiuso o in attesa** – Il sistema modifica la data di registrazione con la data di sistema durante la registrazione, ma solo se il periodo corrispondente della data di registrazione ha lo stato **Chiuso** o **In attesa**.
     - **Cambia data di registrazione nel primo giorno del nuovo periodo quando il periodo della data di registrazione è chiuso o in attesa** – Il sistema modifica la data di registrazione con il primo giorno del nuovo periodo di apertura, ma solo se il periodo corrispondente della data di registrazione ha lo stato **Chiuso** o **In attesa**.
+
+> [!NOTE]
+> Se la nuova data di registrazione che è stata rettificata automaticamente è in un nuovo anno fiscale, la data di registrazione della fattura non verrà aggiornata. Viene visualizzato il messaggio di errore "L'anno fiscale è cambiato. Controllare e immettere di nuovo la data di registrazione." La data di registrazione della fattura deve essere aggiornata alla data del nuovo anno fiscale per la registrazione.
 
 ## <a name="impact-of-posting-date-changes"></a>Impatto delle modifiche alla data di registrazione
 

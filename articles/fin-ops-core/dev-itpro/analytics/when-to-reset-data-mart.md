@@ -2,7 +2,7 @@
 title: Domande frequenti sul ripristino dei data mart
 description: In questo argomento vengono fornite risposte ad alcune domande frequenti sul ripristino dei data mart.
 author: jinniew
-ms.date: 07/16/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e5a40342306eb9888b456a865ab2220dccfe65f8ccecc67bf8fc16f907e06977
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767757"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119514"
 ---
 # <a name="data-mart-resets-faq"></a>Domande frequenti sul ripristino dei data mart
 
@@ -35,8 +35,9 @@ Per garantire che i vecchi dati non vengano inseriti, è possibile avviare un ri
 
 Se una o più delle seguenti affermazioni si applicano alla tua situazione, la tua organizzazione può trarre vantaggio da un ripristino del data mart:
 
-- Il database dell'applicazione è stato ripristinato.
-- Hai aperto un ticket di supporto e un tecnico del supporto ti ha chiesto di ripristinare il data mart come parte di un passaggio di risoluzione dei problemi.
+- **Il database dell'applicazione è stato ripristinato**
+- **Hai aperto un ticket di supporto** - Un tecnico del supporto ti ha chiesto di ripristinare il data mart come parte di un passaggio di risoluzione dei problemi.
+- **Grande percentuale di record obsoleti** - I record obsoleti da soli non giustificano necessariamente il ripristino del data mart. Percentuali elevate di dati obsoleti possono ridurre la generazione di report e le prestazioni di integrazione complessive e comportare un utilizzo aggiuntivo dello spazio del database. Si consiglia di completare un ripristino del datamart per rimuovere i dati obsoleti quando nel datamart sono presenti più dell'80% di dati non aggiornati.
  
 > [!NOTE]
 > Il processo di reimpostazione di un data mart è influenzato dal numero di transazioni di contabilità generale e budget nel database. A seconda del numero di transazioni nel sistema, un ripristino del data mart può essere completato in appena 15 minuti o possono essere necessarie fino a quattro ore. Tuttavia, se il ripristino richiede più di quattro ore, ti consigliamo di contattare l'assistenza.
@@ -45,13 +46,12 @@ Se una o più delle seguenti affermazioni si applicano alla tua situazione, la t
 
 Ecco alcune circostanze in cui non è consigliabile reimpostare un data mart:
 
-- Stai riscontrando problemi di prestazioni associati a una sincronizzazione dei dati.
+- Stai riscontrando problemi di prestazioni di integrazione dei dati.
 - Se hai uno schema di ripristino ricorrente per uno dei seguenti motivi:
 
-    - **Dati mancanti** – Se noti che mancano dei dati, apri un ticket di supporto con Microsoft per rivedere il formato del report e i possibili problemi di sincronizzazione dei dati.
+    - **Dati mancanti o imprevisti nel report** – Se noti che mancano dei dati, apri un ticket di supporto con Microsoft per rivedere il formato del report e i possibili problemi di sincronizzazione dei dati.
     - **Stato di integrazione bloccato**
-    - **Record obsoleti** - I record obsoleti da soli non giustificano necessariamente il ripristino del data mart. Se hai un set di dati di grandi dimensioni, l'esecuzione del processo di reimpostazione richiederà un po' di tempo, ma è improbabile che si verifichi un miglioramento.
-
+   
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Se reimposto il data mart, perderò i report che ho già progettato?
 
 N. I report vengono archiviati in tabelle SQL che non sono influenzate da un ripristino del data mart. Se sei preoccupato di perdere i report che hai progettato, puoi eseguire il backup dei dati che non vuoi rischiare di perdere. Per eseguire il backup dei progetti, apri Progettazione report e vai a **Società \> Società \> Blocchi predefiniti \> Esporta**.

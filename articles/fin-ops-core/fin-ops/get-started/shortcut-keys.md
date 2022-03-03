@@ -1,12 +1,10 @@
 ---
 title: Tasti di scelta rapida
-description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app Finance and Operations.
+description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app per finanza e operazioni.
 author: jasongre
-manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798228"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119554"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
 [!include [banner](../includes/banner.md)]
 
-I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'immissione dei dati nelle app Finance and Operations.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+I tasti di scelta rapida semplificano in modo efficiente e veloce l'immissione dei dati nelle app per la finanza e le operazioni. 
 
 > [!NOTE]
 > I tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
@@ -36,11 +37,11 @@ Alcuni dei tasti di scelta rapida in questa pagina sono *accordi chiave*, nel se
 
 ## <a name="finding-a-shortcut"></a>Individuazione di un collegamento
 
-Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamenti attualmente disponibili direttamente dall'interfaccia utente. Fare semplicemente clic con il pulsante destro del mouse su un controllo e selezionare **Visualizza collegamenti**. Verrà visualizzata una finestra di dialogo contenente i collegamenti da utilizzare in base alla posizione in cui ci si trova nella pagina.
+Gli utenti possono trovare i collegamenti attualmente disponibili direttamente dall'interfaccia utente. Fare semplicemente clic con il pulsante destro del mouse su un controllo e selezionare **Visualizza collegamenti**. Verrà visualizzata una finestra di dialogo contenente i collegamenti da utilizzare in base alla posizione in cui ci si trova nella pagina. In alternativa, puoi premere Alt+Maiusc+K per aprire questa finestra di dialogo (e premere Alt+Maiusc+K una seconda volta per vedere tutte le scelte rapide attualmente disponibili per la pagina).    
 
 ## <a name="action-shortcuts"></a>Tasti di scelta rapida per azioni
 
-| Azione                                      | Tasti di premere                            |
+| Azione                                      | Premere                            |
 |-------------------------------------------------|----------------------------------|
 | Aprire la ricerca di azioni                              | CTRL + o ALT + Q                  |
 | Spostarsi nel riquadro azioni standard                | ALT + M,A o CTRL + F6               |
@@ -129,35 +130,39 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 
 ## <a name="grid-shortcuts"></a>Tasti di scelta rapida della griglia
 
-| Azione                                                                                                             | Tasti di premere                           |
+| Azione                                                                                                             | Premere                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Scorrimento verticale                                                                                                     | Rotellina del mouse                     |
+| Scorrimento orizzontale                                                                                                   | MAIUSC + rotellina del mouse             |
 | Spostarsi sulla colonna successiva/precedente                                                                                       | TAB/MAIUSC + TAB                 |
 | Spostarsi sulla riga successiva/precedente                                                                                          | Freccia GIÙ/Freccia SU           |
 | Spostarsi sulla riga successiva/precedente senza selezionare<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote> | CTRL + Freccia SU/CTRL + Freccia GIÙ |
 | Selezionare/deselezionare la riga corrente<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>                    | CTRL + Barra spaziatrice/CTRL + clic         |
 | Aggiungere la riga successiva/precedente al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>   | MAIUSC + BARRA SPAZIATRICE                     |
 | Aggiungere un intervallo di righe al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>         | MAIUSC + clic                     |
-| Passare alla pagina di dati successiva/precedente                                                                                   | Pagina SU/Pagina GIÙ              |
+| Passare alla pagina di dati successiva/precedente                                                                                   | Pagina SU/Pagina GIÙ             |
 | Crea una nuova riga in fondo alla griglia                                                                             | Freccia GIÙ (dall'ultima riga)  |
 | Passa al primo record                                                                                               | CTRL + HOME                       |
 | Passa all'ultimo record                                                                                                | CTRL + FINE                        |
 | Seleziona o deseleziona tutte le righe                                                                                               | CTRL + MAIUSC + O                    |
-| Passa alla prima riga contrassegnata                                                                                           | ALT + MAIUSC + M, F                    |
-| Passa alla riga contrassegnata successiva                                                                                            | ALT + MAIUSC + M, L                    |
-| Passa alla riga contrassegnata precedente                                                                                        | ALT + MAIUSC + M, P                    |
-| Passa alla ultima riga contrassegnata                                                                                           | ALT + MAIUSC + M, N                    |
+| Passa alla prima riga contrassegnata                                                                                           | ALT + MAIUSC + M, F                  |
+| Passa alla riga contrassegnata successiva                                                                                            | ALT + MAIUSC + M, L                  |
+| Passa alla riga contrassegnata precedente                                                                                        | ALT + MAIUSC + M, P                  |
+| Passa alla ultima riga contrassegnata                                                                                           | ALT + MAIUSC + M, N                  |
 | Eseguire l'azione predefinita in una griglia<blockquote>[!NOTE] Questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.</blockquote> | INVIO                           |
 | Alternare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT + MAIUSC + H                     |
 | Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |
+| Sposta la colonna corrente nella posizione successiva/precedente (con lo stato attivo nella riga di intestazione)                                   | CTRL + MAIUSC+ Freccia DESTRA/CTRL + MAIUSC + Freccia SINISTRA |
 | Aprire il filtro griglia per la colonna corrente (con stato attivo nella riga di intestazione)                                              | INVIO                           |
+| Ridimensiona la colonna corrente per adattarla al contenuto (con lo stato attivo nella riga di intestazione)                                           | A (o fare doppio clic sulla maniglia di ridimensionamento della colonna) |
 
 ## <a name="input-control-shortcuts"></a>Tasti di scelta rapida per il controllo dell'input
 
-| Azione                                                                   | Tasti di premere                         |
+| Azione                                                                   | Premere                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Aprire il collegamento ipertestuale                                                           | Ctrl + INVIO                    |
-| Immettere la data della sessione in un campo data                                       | D                         |
-| Immettere la data corrente in un campo data                                       | M                         |
+| Immettere la data della sessione in un campo data                                       | D                             |
+| Immettere la data corrente in un campo data                                       | M                             |
 | Aprire ricerca, casella combinata, selezione data, finestra di dialogo a discesa                         | ALT + Freccia GIÙ                |
 | Chiudere ricerca, casella combinata, selezione data, finestra di dialogo a discesa                        | ESC                           |
 | Spostare lo stato attivo in una ricerca (quando la ricerca è già aperta)                   | ALT + Freccia GIÙ                |
@@ -204,8 +209,8 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Utilizzare lo strumento Sposta (quando in modalità di personalizzazione)                                                                       | M                                   |
 | Selezionare il controllo corrente come quello da spostare (quando si utilizza lo strumento Sposta e nessun controllo da spostare è stato selezionato)  | INVIO o Barra spaziatrice                      |
 | Deselezionare il controllo da spostare (quando si utilizza lo strumento Sposta)                                                                   | ESC                                 |
-| Spostarsi alla posizione successiva per il controllo selezionato (quando si utilizza lo strumento Sposta)                                          | TAB o Freccia DESTRA o Freccia GIÙ    |
-| Spostarsi alla posizione precedente per il controllo selezionato (quando si utilizza lo strumento Sposta)                                      | MAIUSC + TAB o Freccia SINISTRA o Freccia SU |
+| Sposta il controllo selezionato alla posizione successiva (quando si utilizza lo strumento Sposta)                                              | TAB o Freccia DESTRA o Freccia GIÙ    |
+| Sposta il controllo selezionato alla posizione precedente (quando si utilizza lo strumento Sposta)                                          | MAIUSC + TAB o Freccia SINISTRA o Freccia SU |
 | Utilizzare lo strumento Nascondi (quando in modalità di personalizzazione)                                                                       | H                                   |
 | Visualizzare o nascondere il controllo corrente (quando si utilizza lo strumento Nascondi)                                     | INVIO o Barra spaziatrice                      |
 | Utilizzare lo strumento Ignora (quando in modalità di personalizzazione)                                                                       | K                                   |
@@ -235,12 +240,12 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Passare al controllo successivo/precedente nella pagina (quando lo stato attivo è nel controllo di input)                                          | TAB/MAIUSC + TAB                  |
 | Passare al campo di input successivo/precedente del riquadro a comparsa (quando lo stato attivo è nell'elenco a discesa)                               | TAB/MAIUSC + TAB                  |
 | Spostarsi su/giù di una riga nella ricerca                                                                                        | Freccia SU/Freccia GIÙ            |
-| Spostarsi su/giù di una pagina nella ricerca                                                                                       | Pagina SU/Pagina GIÙ               |
+| Spostarsi su/giù di una pagina nella ricerca                                                                                       | Pagina SU/Pagina GIÙ              |
 | Passare alla parte superiore/inferiore della ricerca                                                                                    | HOME/FINE                       |
 
 ## <a name="task-recorder-shortcuts"></a>Tasti di scelta rapida di [Registrazione attività](../../dev-itpro/user-interface/task-recorder.md) 
 
-| Azione                                                                    | Premere                       |
+| Azione                                                                    | Premere                      |
 |-------------------------------------------------------------------------------|----------------------------|
 | Arrestare la registrazione (durante la registrazione)                                          | ALT + R,S                    |
 | Attivare/disattivare la visibilità del riquadro Registrazione attività (durante la registrazione)             | ALT + R,T                    |
@@ -251,7 +256,14 @@ Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamen
 | Espandere/comprimere il messaggio pop-up animato (durante la riproduzione di una guida attività)              | ALT + R,C                    |
 | Mostrare più/meno informazioni nel messaggio popup animato (durante la riproduzione di una guida attività) | ALT + R,M                    |
 
+## <a name="focus-management"></a>Gestione dello stato attivo 
+La gestione dello stato attivo descrive come viene gestita lo stato attivo dell'utente in un'applicazione. Le app per la finanza e le operazioni hanno comportamenti di stato attivo specifici che hanno lo scopo di ottimizzare la produttività degli utenti, in particolare per gli scenari di immissione di dati. I comportamenti di stato attivo includono quanto segue:  
+
+-  Quando una pagina viene caricata, il primo controllo di input modificabile nella pagina avrà lo stato attivo e può accettare immediatamente l'input dell'utente. Se non è presente alcun controllo di input modificabile nella pagina, l'opzione di fallback per lo stato attivo iniziale è il primo controllo di input nella pagina seguito dal primo controllo attivabile nella pagina.   
+-  In genere, quando viene selezionato un pulsante, l'azione viene elaborata e lo stato attivo può tornare alla pagina. Quando ciò accade, lo stato attivo tende a tornare al controllo pulsante selezionato. Ciò è vero nelle app per la finanza e le operazioni **tranne** quando il pulsante si trova nel riquadro azioni o in una barra degli strumenti. In questi casi, al termine dell'azione, lo stato attivo torna all'ultimo controllo *al di fuori* del riquadro azioni (o nella barra degli strumenti) che era attivo prima della selezione del pulsante.
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Tasti di scelta rapida per l'analisi dei conti mancanti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

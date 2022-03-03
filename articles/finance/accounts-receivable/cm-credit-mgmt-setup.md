@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921217"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323412"
 ---
 # <a name="credit-management-parameters-setup"></a>Impostazione dei parametri di Gestione crediti
 
@@ -50,7 +50,8 @@ Sono disponibili quattro schede dettaglio nella sezione **Credito** in cui è po
 
 Se non si specifica il numero di giorni di tolleranza, le regole di credito verranno verificate a ogni fase di registrazione impostata per l'esecuzione delle regole di gestione dei crediti. Se si rilascia l'ordine cliente senza registrazione e si esegue nuovamente la stessa fase di elaborazione dell'ordine, le regole di credito verranno nuovamente controllate. Ad esempio, un ordine viene messo in attesa dopo una conferma e lo si rilascia con o senza registrazione. In questo caso, l'ordine verrà nuovamente messo in attesa se viene confermato di nuovo. Utilizzare i giorni di tolleranza se l'ordine deve passare alla fase di elaborazione successiva senza essere messo di nuovo in attesa.
 
-È possibile specificare i giorni di tolleranza per alcuni checkpoint di registrazione, ma non per altri. È necessario impostare tutti i checkpoint di registrazione di modo che abbiano o meno giorni di tolleranza.
+> [!Note]
+> Se un checkpoint di registrazione ha un giorno di tolleranza, tutti i checkpoint contrassegnati per la registrazione devono avere giorni di tolleranza.
 
 - Selezionare la casella di controllo **Registrazione** per eseguire le regole di gestione di crediti quando viene eseguito il checkpoint di registrazione visualizzato nella riga. Se non si seleziona la casella di controllo, le regole verranno verificate una sola volta durante l'intero processo di registrazione.
 - Se si seleziona la casella di controllo **Registrazione**, specificare il numero di giorni di tolleranza che devono trascorrere prima che le regole di blocco vengano nuovamente controllate. Non è possibile aggiungere giorni di tolleranza se la casella di controllo **Registrazione** è deselezionata.

@@ -2,24 +2,24 @@
 title: Area di lavoro Automazione fattura fornitore
 description: Questo argomento spiega come impostare l'area di lavoro correlata alle fatture fornitore e che mostra le informazioni disponibili tramite Microsoft Power BI.
 author: abruer
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dde77a19fae9af8f40af8b14259a29db80f4a80cf8be75233a463d6fec2dac46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722721"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182581"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Area di lavoro Automazione fattura fornitore
 
@@ -60,14 +60,14 @@ Quando la funzionalità **Automazione fattura fornitore** è attivata, il campo 
 
 I riquadri nella sezione **Riepilogo fatture in sospeso** della visualizzazione **Lavoro personale** forniscono una panoramica dello stato delle fatture del fornitore. È possibile visualizzare i giornali di registrazione non ancora registrati e le fatture in sospeso. Inoltre, ci sono i quattro riquadri associati alla funzione di automazione delle fatture fornitore:
 
-- Abbinamento ricezione manuale necessario
-- Convalida abbinamento non riuscita
-- Fatture non inviate al flusso di lavoro
-- Fatture non importate
+- **Abbinamento ricezione manuale necessario**
+- **Convalida abbinamento non riuscita**
+- **Fatture non inviate al flusso di lavoro**
+- **Fatture non importate**
 
-(Questi quattro riquadri richiedono che la funzione di automazione della fattura fornitore sia attivata nella gestione delle funzionalità.)
+(Questi quattro riquadri richiedono che la funzione di automazione della fattura fornitore sia attivata in **Gestione funzionalità**.)
 
-Per utilizzare il riquadro **Recupera fatture fornitore** la funzione deve essere attivata nei parametri della contabilità fornitori. Andare a **Contabilità fornitori \> Parametri contabilità fornitori** e quindi nella scheda **Fattura** impostare l'opzione **Consenti recupero fattura fornitore** su **Sì**.
+Per utilizzare il riquadro **Recupera fatture fornitore** la funzione deve essere attivata in **Parametri contabilità fornitori**. Andare a **Contabilità fornitori \> Parametri contabilità fornitori** e quindi nella scheda **Fattura** impostare l'opzione **Consenti recupero fattura fornitore** su **Sì**.
 
 Quando la funzione è attiva, verranno raggruppati anche tre riquadri nell'area di lavoro in una sezione chiamata **Giornali di registrazione**. I riquadri sono intitolati **Giornali di registrazione**, **Giornali di registrazione - Assegnati all'utente corrente** e **Pool di fatture**. 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721321"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103365"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Ignorare il principio di prenotazione predefinito per i materiali in produzione
 
@@ -31,12 +31,9 @@ Quando si crea un nuovo ordine di produzione o un nuovo ordine batch, viene rich
 
 Ad esempio, se si dispone di materie prime o ingredienti che richiedono un lavoro di prelievo, la distinta base o le righe formula create per quei prodotti richiedono una prenotazione fisica, perché la prenotazione fisica è un prerequisito per la generazione del lavoro di magazzino. In genere, se desideri che la prenotazione avvenga automaticamente, seleziona uno dei seguenti principi di prenotazione: *stima*, *pianificazione*, *pubblicazione* o *inizio*. D'altra parte, se disponi di materiali o ingredienti che non richiedono un lavoro di prelievo, poiché vengono utilizzati direttamente da una posizione, in genere si seleziona il principio di prenotazione *Manuale*, che non effettua alcuna prenotazione fisica né genera alcun lavoro di prelievo.
 
-## <a name="turn-on-the-feature"></a>Attivare la funzionalità
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Attivare o disattivare la funzionalità Ignora prenotazione di produzione predefinita
 
-Prima di poter utilizzare questa funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Controllo produzione*
-- **Nome funzionalità:** *Ignora prenotazione di produzione predefinita*
+A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Ignora prenotazione di produzione predefinita* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Assegnare un criterio di prenotazione di produzione a un gruppo di modelli di articoli
 

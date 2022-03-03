@@ -1,30 +1,27 @@
 ---
 title: Impostazioni ordine predefinite per le dimensioni e varianti prodotto
 description: Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine.
-author: t-benebo
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431441"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102765"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Impostazioni ordine predefinite per dimensioni e varianti prodotto
 
@@ -65,7 +62,7 @@ Le impostazioni ordine predefinite per le vendite vengono utilizzate durante la 
 - Righe di ordine di reso e righe di sostituzione articolo
 - Righe di previsione della domanda
 
-Le impostazioni ordine di vendita predefinite vengono utilizzate anche durante la creazione di:
+Le impostazioni ordine cliente predefinite vengono utilizzate anche durante la creazione di:
 
 - Richieste articoli nel progetto
 - Richieste articoli degli ordini di assistenza
@@ -86,7 +83,7 @@ Le impostazioni ordine di magazzino predefinite vengono utilizzate anche durante
 
 ## <a name="full-definition-of-a-released-product"></a>Definizione completa di un prodotto rilasciato
 
-Quando si crea una transazione, è necessario specificare la definizione completa di un prodotto rilasciato nella riga affinché Supply Chain Management tenti di identificare le impostazioni ordine predefinite. Nella definizione completa di un prodotto rilasciato il numero di articolo e tutte le dimensioni prodotto attive, ad esempio configurazione, dimensione, stile, versione e colore, vengono specificati per la transazione. Ad esempio, se si crea manualmente una riga di ordine di acquisto per una variante prodotto rilasciato, è necessario specificare tutte le dimensioni prodotto richieste prima che il sito, il magazzino, le quantità e il lead time vengano visualizzati per impostazione predefinita nella riga ordine. 
+Quando si crea una transazione, è necessario specificare la definizione completa di un prodotto rilasciato nella riga affinché Supply Chain Management tenti di identificare le impostazioni ordine predefinite. Nella definizione completa di un prodotto rilasciato il numero di articolo e tutte le dimensioni prodotto attive, ad esempio configurazione, dimensione, stile, versione e colore, vengono specificati per la transazione. Ad esempio, se si crea manualmente una riga di ordine fornitore per una variante prodotto rilasciato, è necessario specificare tutte le dimensioni prodotto richieste prima che il sito, il magazzino, le quantità e il lead time vengano visualizzati per impostazione predefinita nella riga ordine. 
 
 Non tutti i parametri delle impostazioni ordine predefinite vengono applicati quando si creano le righe giornale di registrazione o ordine. Le quantità e i lead time vengono visualizzati per impostazione predefinita solo al momento opportuno. Ad esempio quando si conteggia una riga giornale di registrazione, solo il sito e il magazzino vengono visualizzati per impostazione predefinita quando la riga viene creata. Per questo motivo nessuna quantità predefinita o controlli vengono eseguiti su multipli e minimi durante la creazione della riga o la registrazione del giornale. 
 
@@ -104,7 +101,7 @@ Le regole delle impostazioni ordine predefinite vengono classificate. Più alta 
 
 ### <a name="default-order-settings-for-released-products"></a>Impostazioni ordine predefinite per prodotti rilasciati
 
-Per prodotti rilasciati specifici, è possibile definire le impostazioni ordine generali o le impostazioni ordine specifiche del sito. Le impostazioni ordine generale hanno sempre la classificazione zero. Se si impostano nuove impostazioni ordine di vendita, acquisto e magazzino insieme contemporaneamente, si consiglia di utilizzare **Visualizzazione dettagli** nella pagina **Impostazioni ordine predefinite**. Per passare alla visualizzazione dettagli, passare al riquadro azioni **Opzioni** &gt; **Opzioni pagina** &gt; **Cambia visualizzazione** &gt; **Visualizzazione dettagli**.
+Per prodotti rilasciati specifici, è possibile definire le impostazioni ordine generali o le impostazioni ordine specifiche del sito. Le impostazioni ordine generale hanno sempre la classificazione zero. Se si impostano nuove impostazioni ordine cliente, fornitore e magazzino insieme contemporaneamente, si consiglia di utilizzare **Visualizzazione dettagli** nella pagina **Impostazioni ordine predefinite**. Per passare alla visualizzazione dettagli, passare al riquadro azioni **Opzioni** &gt; **Opzioni pagina** &gt; **Cambia visualizzazione** &gt; **Visualizzazione dettagli**.
 
 ### <a name="site-specific-order-settings"></a>Impostazioni di ordine specifiche del sito
 
@@ -118,7 +115,7 @@ Nella **Visualizzazione dettagli** non è possibile ottenere la panoramica delle
 
 Considerare il prodotto di esempio riportato di seguito.
 
-|                                                     |                                         |
+| Articolo                                                | Valore                                   |
 |-----------------------------------------------------|-----------------------------------------|
 | **Nome prodotto**                                    | Sensore fotoelettrico                    |
 | **Numero articolo**                                     | XW56                                    |
@@ -185,16 +182,13 @@ La classificazione in questo caso non ha grande importanza pertanto è possibile
 
 ## <a name="use-strict-or-standard-validation-of-default-order-quantities"></a>Utilizzare una convalida rigorosa o standard delle quantità di ordini predefinite
 
-È possibile scegliere la rigidità del sistema durante la convalida delle quantità immesse in **Impostazioni ordine predefinite** per un prodotto. Quando si utilizza la nuova opzione rigorosa, **Quantità ordine standard** deve essere sempre un multiplo del valore specificato **Multiplo** per ordini di acquisto, inventario e ordini di vendita. Se si utilizza una convalida rigorosa, non sarà possibile salvare le impostazioni dell'ordine predefinite che non soddisfano questo requisito (e viene visualizzato un errore nella barra dei messaggi). 
+È possibile scegliere la rigidità del sistema durante la convalida delle quantità immesse in **Impostazioni ordine predefinite** per un prodotto. Quando si utilizza la nuova opzione rigorosa, **Quantità ordine standard** deve essere sempre un multiplo del valore specificato **Multiplo** per ordini fornitore, inventario e ordini cliente. Se si utilizza una convalida rigorosa, non sarà possibile salvare le impostazioni dell'ordine predefinite che non soddisfano questo requisito (e viene visualizzato un errore nella barra dei messaggi). 
 
 Si applica una rigorosa convalida ai valori di **Quantità ordine standard** specificati sulle Schede dettaglio **Ordine fornitore**, **Inventario** e **Ordine cliente** della pagina **Impostazioni ordine predefinite**. Ogni Scheda dettaglio ha la propria impostazione di **Multiplo** che viene utilizzata per convalidare il valore **Quantità ordine standard** specificato per quella Scheda dettaglio.
 
-### <a name="enable-the-strict-validation-option"></a>Abilitare l'opzione di convalida rigorosa
+### <a name="turn-the-strict-validation-option-on-or-off"></a>Attivare o disattivare l'opzione di convalida rigorosa
 
-Prima di poter utilizzare questa opzione di convalida rigorisa, è necessario attivarla nel sistema. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla se necessario. La funzione viene elencata come:
-
-- **Modulo** - *Gestione informazioni sul prodotto*
-- **Nome funzionalità** - *Cnvalida rigorosa delle quantità di ordini predefinite*
+Per utilizzare una convalida rigorosa, la funzionalità *Convalida rigorosa per quantità ordine predefinite* deve essere attivata per il sistema. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, è possibile attivare o disattivare questa funzionalità cercando la funzionalità *Convalida rigorosa per quantità ordine predefinite* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="set-the-validation-option"></a>Impostare l'opzione di convalida
 
@@ -204,3 +198,6 @@ per impostare l'opzione di convalida:
 1. Nella scheda **Generale**, imposta **Convalida delle quantità ordine predefinite** su uno dei seguenti valori:
     - **Rigoroso**: selezionare questa opzione per fare in modo che tutti i valori di **Quantità ordine standard** saranno un multiplo del valore **Multiplo** per ciascuna Scheda dettaglio ( **Ordine fornitore**, **Inventario** e **Ordine cliente**).
     - **Standard**: Seleziona questa opzione per usare la convalida standard (che funziona come quando questa funzionalità non è abilitata).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
