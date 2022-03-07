@@ -1,13 +1,16 @@
 ---
-title: Gestione ordini distribuiti (DOM, Distributed Order Management)
+title: Gestione ordini distribuiti (DOM - Distributed Order Management)
 description: In questo argomento viene descritta la funzionalità per la gestione degli ordini distribuiti in Dynamics 365 Commerce.
 author: josaw1
-ms.date: 02/08/2022
+manager: AnnBe
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,28 +18,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102011"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4459350"
 ---
-# <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM, Distributed Order Management)
+# <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM - Distributed Order Management)
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritta la funzionalità per la gestione degli ordini distribuiti in Microsoft Dynamics 365 Commerce.
+Nel nuovo paradigma delle operazioni di commercio, i rivenditori puntano a fornire interazioni personalizzate con i clienti, esperienze multicanale ed esperienze fluide. In virtù del gran numero di opzioni a disposizione, i consumatori completeranno l'acquisto ogni volta che sono sicuri di ottenere l'esperienza più favorevole. In molti casi, i prezzi e i prodotti non sono più i fattori più determinanti per i consumatori.
 
-DOM è una soluzione multicanale che consente di ottimizzare l'evasione degli ordini in una rete di supply chain. DOM aiuta a garantire che i prodotti vengano consegnati ai clienti nelle quantità, dalle fonti e nei tempi corretti. DOM consente anche di massimizzare i profitti, ridurre i costi e soddisfare i requisiti del livello di servizio.
+Per contribuire a migliorare l'esperienza dei clienti, i rivenditori al dettaglio devono avere visibilità in tempo reale nel magazzino su tutti i canali. Un'unica visualizzazione olistica dell'intero magazzino può contribuire a ottimizzare l'evasione, l'allocazione e la distribuzione degli ordini. Di conseguenza, l'adozione e l'implementazione di un sistema di gestione degli ordini distribuiti diventa sempre più fondamentale per i rivenditori al dettaglio.
 
-DOM utilizza la programmazione intera mista (MIP, Mixed Integer Programming) e modelli di analisi predittiva per eseguire ottimizzazioni sia a livello di batch sia a livello di singoli ordini. Questa capacità consente ai rivenditori di utilizzare regole definite per bilanciare numerose esigenze di evasione degli ordini in conflitto. In una moderna rete di fornitura in cui l'evasione dei prodotti può provenire da più canali, le organizzazioni devono adattarsi rapidamente ai cambiamenti degli ordini, ai problemi di disponibilità dei fornitori e ai picchi della domanda. DOM consente di ottimizzare l'evasione degli ordini e di trovare le fonti corrette per la consegna dei prodotti, in base a vincoli e obiettivi aziendali, ad esempio ridurre i costi evadendo gli ordini dalle fonti più vicine. DOM utilizza la distanza tra le fonti di evasione dei prodotti e le destinazioni di spedizione, i fattori di costo definiti come obiettivi di ottimizzazione e le regole definite come vincoli, ad esempio l'inventario nei nodi di evasione per ottimizzare l'evasione degli ordini. DOM consente la definizione di più profili che permettono alle aziende di eseguire diverse strategie di ottimizzazione, in base al tipo di attività o del segmento di consumo. 
+La gestione degli ordini distribuiti ottimizza l'evasione degli ordini attraverso una rete complessa di sistemi e processi. Si basa su un'unica visualizzazione globale che copre l'intera organizzazione e consente la gestione intelligente degli ordini, in modo da poterli evadere in maniera accurata e più conveniente. Tramite il miglioramento dell'efficienza della supply chain di un rivenditore, la gestione degli ordini distribuiti garantisce una migliore soddisfazione delle aspettative del cliente da parte del rivenditore al dettaglio.
 
-Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un sistema DOM.
+Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un sistema di gestione degli ordini distribuiti.
 
-![Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti.](./media/flow.png "Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti")
+![Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti](./media/flow.png "Ciclo di vita dell'ordine cliente nel contesto della gestione degli ordini distribuiti")
 
-## <a name="set-up-dom"></a>Impostare DOM
+## <a name="set-up-dom"></a>Impostare la gestione degli ordini distribuiti
 
 1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
 2. Nella scheda **Chiavi di configurazione**, espandere il nodo **Commerce**, quindi selezionare la casella di controllo **Gestione ordini distribuiti**.
@@ -47,9 +50,7 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     - **Confermare l'utilizzo di Bing Mappe per DOM**: impostare questa opzione su **Sì**.
 
         > [!NOTE]
-        > È possibile impostare questa opzione su **Sì** solo se anche l'opzione **Abilita Bing Mappe** della scheda **Bing Mappe** della pagina **Parametri condivisi di Commerce** (**Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di Commerce**) è impostata su **Sì** e se una chiave valida viene immessa nel campo **Chiave Bing Mappe**.
-        >
-        > Il portale [Bing Mappe Dev Center](https://www.bingmapsportal.com/) consente di limitare l'accesso alle chiavi API di Bing Mappe a un set di domini specificato. Con questa funzionalità, i clienti possono definire un set limitato di valori referrer o intervalli di indirizzi IP in base ai quali la chiave verrà convalidata. Le richieste provenienti dall'elenco Consenti verranno elaborate normalmente, mentre le richieste provenienti dall'esterno dell'elenco restituiranno una risposta di accesso negato. L'aggiunta della sicurezza del dominio alla chiave API è facoltativa e le chiavi lasciate inalterate continueranno a funzionare. L'elenco Consenti per una chiave è indipendente da tutte le altre chiavi in quanto permette di avere regole distinte per ciascuna chiave. La Gestione ordini distribuiti non supporta l'impostazione di proprietà correlate al dominio.
+        > È possibile impostare questa opzione su **Sì** solo se anche l'opzione **Abilita Bing Mappe** della scheda **Bing Mappe** della pagina **Parametri condivisi di Commerce** (**Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**) è impostata su **Sì** e se una chiave valida viene immessa nel campo **Chiave Bing Mappe**.
 
     - **Periodo di ritenuta in giorni**: specificare per quanto tempo i piani di evasione generati dalle esecuzioni DOM vengono conservati nel sistema. Il processo batch **Impostazione processo di eliminazione dati di evasione DOM** eliminerà qualsiasi piano di evasione precedente al numero di giorni specificato qui.
     - **Periodo di rifiuto (in giorni)**: specificare il tempo che deve trascorrere prima che una riga di ordine rifiutata possa essere assegnata alla stessa ubicazione.
@@ -58,18 +59,18 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
 
     - **Numero massimo di tentativi di evasione automatica**: specificare il numero di volte in cui il motore DOM tenterà di associare una riga ordine a un'ubicazione. Se il motore DOM non associa una riga ordine a un'ubicazione entro il numero specificato di tentativi, la riga odine verrà contrassegnata come eccezione. Tale riga verrà quindi ignorata nelle esecuzioni future fino alla reimpostazione manuale dello stato.
     - **Raggio regione punto vendita locale**: immettere un valore. Questo campo consente di determinare come le posizioni vengono raggruppate e considerate uguali in termini di distanza. Ad esempio, se si immette **100**, ogni punto vendita o centro di distribuzione entro un raggio di 160 km dall'indirizzo di evasione verrà considerato equivalente in termini di distanza.
-    - **Tipo di risolutore**: selezionare un valore. Con Commerce sono inclusi due tipi di risolutore: **Risolutore di produzione** e **Risolutore semplificato**. Per tutti i computer che eseguiranno la gestione degli ordini distribuiti (ovvero tutti i server che fanno parte del gruppo DOMBatch), è necessario che **Risolutore di produzione** sia selezionato. Il risolutore di produzione richiede la chiave di licenza speciale che, per impostazione predefinita, viene concessa e distribuita negli ambienti di produzione. Nei nuovi ambienti di livello 2 o superiore, il risolutore di produzione sarà già abilitato. Per gli ambienti non di produzione, la chiave di licenza deve essere distribuita manualmente. Per distribuire manualmente la chiave di licenza, effettuare le seguenti operazioni:
+    - **Tipo di risolutore**: selezionare un valore. Con Commerce sono inclusi due tipi di risolutore: **Risolutore di produzione** e **Risolutore semplificato**. Per tutti i computer che eseguiranno la gestione degli ordini distribuiti (ovvero tutti i server che fanno parte del gruppo DOMBatch), è necessario che **Risolutore di produzione** sia selezionato. Il risolutore di produzione richiede la chiave di licenza speciale che, per impostazione predefinita, viene concessa e distribuita negli ambienti di produzione. Per gli ambienti non di produzione, la chiave di licenza deve essere distribuita manualmente. Per distribuire manualmente la chiave di licenza, effettuare le seguenti operazioni:
 
         1. In Microsoft Dynamics Lifecycle Services, aprire la raccolta Risorse condivise, selezionare **Modello** come tipo di cespite e scaricare il file **Licenza DOM**.
-        1. Avviare Gestione Microsoft Internet Information Services (IIS), fare clic con il pulsante destro del mouse su **Sito Web di AOSService**, quindi selezionare **Esplora**. Viene visualizzata una finestra di Esplora risorse aperta su **\<AOS service root\>\\webroot**. Prendere nota del percorso \<AOS Service root\> perché verrà utilizzato nel passaggio successivo.
-        1. Copiare il file di configurazione nella directory **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        1. Passare al client di Headquarters, quindi aprire la pagina **Parametri DOM**. Nella scheda **Risolutore**, nel campo **Tipo di risolutore**, selezionare **Risolutore di produzione**, quindi verificare che non venga visualizzato alcun messaggio di errore.
+        2. Avviare Gestione Microsoft Internet Information Services (IIS), fare clic con il pulsante destro del mouse su **Sito Web di AOSService**, quindi selezionare **Esplora**. Viene visualizzata una finestra di Esplora risorse aperta su **\<AOS service root\>\\webroot**. Prendere nota del percorso \<AOS Service root\> perché verrà utilizzato nel passaggio successivo.
+        3. Copiare il file di configurazione nella directory **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        4. Passare al client di Headquarters, quindi aprire la pagina **Parametri DOM**. Nella scheda **Risolutore**, nel campo **Tipo di risolutore**, selezionare **Risolutore di produzione**, quindi verificare che non venga visualizzato alcun messaggio di errore.
 
         > [!NOTE]
         > Il risolutore semplificato viene fornito in modo che i rivenditori al dettaglio possano provare la funzionalità DOM senza dover distribuire la licenza speciale. È consigliabile che le organizzazioni non utilizzino il risolutore semplificato negli ambienti di produzione.
         >
-        > Il Risolutore di produzione migliora le prestazioni (il numero di ordini e righe ordine che è possibile gestire durante un'esecuzione) e la convergenza dei risultati (dal momento che un batch di ordini potrebbe non produrre il migliore risultato in alcuni scenari). Alcune regole come **Ordini parziali** e **Numero massimo di ubicazioni** richiedono il Risolutore di produzione.
-
+        > Sebbene il risolutore semplificato fornisca lo stesso set di funzionalità del risolutore di produzione, presenta restrizioni relative alle prestazioni (il numero di ordini e righe ordine che è possibile gestire durante un'esecuzione) e alla convergenza dei risultati (un batch di ordini potrebbe non produrre il migliore risultato in alcuni scenari).
+     
 6. Tornare a **Retail e Commerce \> Gestione ordini distribuiti \> Imposta \> Parametri DOM**.
 7. Nella scheda **Sequenze numeriche**, assegnare le sequenze numeriche richieste alle diverse entità DOM.
 
@@ -82,7 +83,7 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     2. Selezionare **Nuovo** e immettere un nome e una descrizione per il nuovo gruppo.
     3. Selezionare **Salva**.
     4. Selezionare **Aggiungi riga** per aggiungere una singola ubicazione al gruppo. In alternativa, selezionare **Aggiungi righe** per aggiungere più ubicazioni.
-
+    
     > [!NOTE]
     > In Commerce, versione 10.0.12 e successive, l'opzione **Possibilità di specificare le ubicazioni come "Spedizione" o "Ritiro" abilitata nel gruppo di evasione** deve essere abilitata nell'area di lavoro **Gestione funzionalità**.
     >
@@ -94,22 +95,47 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
 
 9. Per definire le regole, accedere a **Retail e Commerce \> Gestione ordini distribuiti \> Imposta \> Gestisci regole**. Attualmente sono supportate le seguenti regole DOM:
 
-    - **Regola fabbisogno minimo di scorte**: questo tipo di regola consente alle organizzazioni di "stanziare" una determinata quantità di prodotto per scopi diversi dall'evasione dell'ordine. Ad esempio, le organizzazioni potrebbero non desiderare che la gestione degli ordini distribuiti tenga in considerazione tutte le scorte disponibili in un punto vendita per l'evasione dell'ordine. Potrebbero invece decidere di riservare una parte delle scorte per i clienti occasionali. Quando viene utilizzato questo tipo di regola, è possibile definire le scorte minime da conservare per una categoria di prodotti, un unico prodotto o una variante prodotto per l'ubicazione o di gruppo di ubicazioni. È inoltre possibile definire l'inventario minimo tramite una gerarchia di categorie supplementare. Se un prodotto rientra in più categorie, viene data la massima importanza a una categoria supplementare per tutte le regole in cui è possibile utilizzare le categorie.
-    - **Regola priorità ubicazione di evasione**: questo tipo di regola consente alle organizzazioni di definire una gerarchia di ubicazioni per stabilire la priorità che il motore DOM prende in considerazione quando tenta di identificare le ubicazioni di evasione per i prodotti specifici. L'intervallo valido delle priorità va da 1 a 10, dove 1 corrisponde alla priorità massima e 10 la priorità minima. Le ubicazioni con priorità più elevata verranno prese in considerazione prima delle ubicazioni con priorità più bassa. Se la regola viene definita come regola con vincolo non condizionale, gli ordini vengono associati solo a ubicazioni per cui sono definite le priorità. DOM dà la preferenza alla spedizione degli ordini completamente da un'unica ubicazione. Di conseguenza, se un intero ordine e le relative righe non sono disponibili in un'ubicazione con priorità 1, DOM tenta di evaderlo in un'ubicazione con priorità 2.
-    - **Regola ordini parziali**: in Retail versione 10.0.5, il parametro **Evadere ordine solo da un'ubicazione** è stato modificato in **Numero massimo ubicazioni di evasione**. Il parametro precedente consentiva agli utenti di decidere se gli ordini possono essere evasi da una sola ubicazione o da quante più ubicazioni possibili. Il nuovo parametro consente agli utenti di specificare se l'evasione può provenire da un insieme definito di ubicazioni (fino a cinque) o da quante più ubicazioni possibile. Per tutte le opzioni, ad eccezione dell'evasione da un'ubicazione, DOM divide la riga, perché l'elaborazione dell'ordine avviene per riga. Questa regola funziona solo con il Risolutore di produzione.
-    - **Regola ubicazione di evasione offline**: questa regola consente alle organizzazioni di specificare un'ubicazione o gruppo di ubicazioni come offline o non disponibile per la gestione degli ordini distribuiti, in modo che non sia possibile assegnare ordini da evadere a tali ubicazioni.
-    - **Regola numero massimo di rifiuti**: questa regola consente alle organizzazioni di definire una soglia per i rifiuti. Quando la soglia viene raggiunta, il processore DOM contrassegna un ordine o una riga ordine come un'eccezione e li esclude da ulteriori elaborazioni. Per garantire le prestazioni, DOM non esamina la cronologia di tutti i rifiuti. 
+    - **Regola fabbisogno minimo di scorte**: questo tipo di regola consente alle organizzazioni di "stanziare" una determinata quantità di prodotto per scopi diversi dall'evasione dell'ordine. Ad esempio, le organizzazioni potrebbero non desiderare che la gestione degli ordini distribuiti tenga in considerazione tutte le scorte disponibili in un punto vendita per l'evasione dell'ordine. Potrebbero invece decidere di riservare una parte delle scorte per i clienti occasionali. Quando viene utilizzato questo tipo di regola, è possibile definire le scorte minime da conservare per una categoria di prodotti, un unico prodotto o una variante prodotto per l'ubicazione o di gruppo di ubicazioni.
+    - **Regola priorità ubicazione di evasione**: questo tipo di regola consente alle organizzazioni di definire una gerarchia di ubicazioni per stabilire la priorità che il motore DOM prende in considerazione quando tenta di identificare le ubicazioni di evasione per i prodotti specifici. L'intervallo valido delle priorità va da 1 a 10, dove 1 corrisponde alla priorità massima e 10 la priorità minima. Le ubicazioni con priorità più elevata verranno prese in considerazione prima delle ubicazioni con priorità più bassa. Se la regola viene definita come regola con vincolo non condizionale, gli ordini vengono associati solo a ubicazioni per cui sono definite le priorità.
+    - **Regola ordini parziali**: questa regola consente alle organizzazioni di definire se un ordine o le righe ordine possono essere evasi parzialmente. Sono disponibili i parametri seguenti:
+
+        - **Evadere gli ordini parziali?** - Se l'opzione è impostata su **Sì**, la gestione degli ordini distribuiti può evadere solo parte della quantità di una riga ordine. Questa evasione parziale viene ottenuta dividendo la riga ordine.
+        - **Evadere le righe parziali?** - Se l'opzione è impostata su **Sì**, la gestione degli ordini distribuiti può evadere una quantità parziale delle righe d'ordine. Questa evasione parziale viene ottenuta dividendo la riga ordine.
+        - **Evadere ordine solo da un'ubicazione?**: se questa opzione è impostata su **Sì**, la gestione degli ordini distribuiti si assicura che tutte le righe di un ordine vengano evase da un'unica ubicazione.
+
+
+        Nella tabella seguente viene illustrato il comportamento generato quando viene definita una combinazione di questi parametri.
+
+        | Numero di combinazioni | Evasione ordini parziali | Evasione righe parziali | Evasione dell'ordine solo da un'ubicazione | Descrizione |
+        |------|------------------------|-----------------------|--------------------------------------|-------------|
+        | 1    | Sì                    | Sì                   | Sì                                  | Alcune righe dell'ordine possono essere evase e singole righe possono essere evase parzialmente, ma tutte le righe devono avere la stessa ubicazione in un'istanza dell'esecuzione DOM. Questa combinazione non è attualmente supportata. |
+        | 2    | Sì                    | No                    | Sì                                  | Alcune righe dell'ordine possono essere evase, ma righe singole non possono essere evase parzialmente e tutte le righe evase devono avere la stessa ubicazione in un'istanza dell'esecuzione DOM. Questa combinazione non è attualmente supportata. |
+        | 3    | Sì                    | Sì                   | No                                   | Alcune righe dell'ordine possono essere evase, righe singole possono essere evase parzialmente e ciascuna riga può essere evasa da più ubicazioni in un'istanza dell'esecuzione DOM. |
+        | 4\*  | No                     | Non applicabile        | No                                   | Tutte le righe ordine devono essere evase, singole righe non possono essere evase parzialmente e ciascuna riga ordine può essere evasa da un'ubicazione diversa. |
+        | 5\*  | No                     | Non applicabile        | Sì                                  | Tutte le righe ordine devono essere evase, singole righe non possono essere evase parzialmente e tutte le righe ordine possono essere consegnate solo da un'ubicazione. |
+        | 6\*  | No                     | Non applicabile        | No                                   | Questa combinazione funziona come la combinazione 4, perché **Evadere le righe parziali?** non può essere impostata su **Sì** se **Evadere gli ordini parziali?** è impostata su **No**. |
+        | 7\*  | No                     | Non applicabile        | Sì                                  | Questa combinazione funziona come la combinazione 5, perché **Evadere le righe parziali?** non può essere impostata su **Sì** se **Evadere gli ordini parziali?** è impostata su **No**. |
+        | 8    | Sì                    | No                    | No                                   | Alcune righe dell'ordine possono essere evase, ma righe singole non possono essere evase parzialmente e le diverse righe ordine possono essere evase da più ubicazioni in un'istanza dell'esecuzione DOM. |
+        | 9\*  | No                     | Non applicabile        | Sì                                  | Tutte le righe ordine devono essere evase e tutte un'unica ubicazione. |
+
+        \* Se l'opzione **Evadere gli ordini parziali** è impostata su **No**, il valore dell'opzione **Evadere le righe parziali** è sempre considerato **No**, indipendentemente dall'impostazione effettiva.
+
+        > [!NOTE]
+        > In Retail versione 10.0.5, il parametro **Evadere ordine solo da un'ubicazione** è stato modificato in **Numero massimo ubicazioni di evasione**. Anziché consentire a un utente di specificare se gli ordini possono essere evasi da una sola ubicazione o da tutte le ubicazioni possibili, ora gli utenti potranno specificare se l'evasione può essere eseguita da un insieme di ubicazioni definito (fino a 5) o da tutte le ubicazioni possibili. Ciò assicura maggiore flessibilità riguardo al numero di ubicazioni da cui è possibile evadere l'ordine.
+
+   - **Regola ubicazione di evasione offline**: questa regola consente alle organizzazioni di specificare un'ubicazione o gruppo di ubicazioni come offline o non disponibile per la gestione degli ordini distribuiti, in modo che non sia possibile assegnare ordini da evadere a tali ubicazioni.
+    - **Regola numero massimo di rifiuti**: questa regola consente alle organizzazioni di definire una soglia per i rifiuti. Quando la soglia viene raggiunta, il processore DOM contrassegna un ordine o una riga ordine come un'eccezione e li esclude da ulteriori elaborazioni.
 
         Una volta che le righe ordine sono assegnate a un'ubicazione, l'ubicazione può rifiutare una riga ordine assegnata, poiché per qualche motivo potrebbe non essere in grado di evadere tale riga. Le righe rifiutate vengono contrassegnate come un'eccezione e vengono inviate nuovamente nel pool per essere elaborate nell'esecuzione successiva. Durante l'esecuzione successiva, la gestione degli ordini distribuiti tenterà di assegnare la riga rifiutata a un'ubicazione diversa. Anche la nuova ubicazione può rifiutare la riga ordine assegnata. Il ciclo dell'assegnazione e del rifiuto può verificarsi più volte. Quando il numero di rifiuti raggiunge la soglia specificata, la gestione degli ordini distribuiti contrassegna la riga ordine come eccezione permanente e non selezionerà più tale riga per l'assegnazione. La riga ordine verrà presa in considerazione per una nuova assegnazione dalla gestione degli ordini distribuiti solo se un utente reimposta manualmente lo stato della riga ordine.
 
-    - **Regola distanza massima**: questa regola consente alle organizzazioni di definire la distanza massima che può avere un'ubicazione o un gruppo di ubicazioni per evadere l'ordine. Se vengono definite regole per la distanza massima sovrapposte per un'ubicazione, la gestione degli ordini distribuiti applicherà la distanza massima inferiore definita per tale ubicazione.
-    - **Regola numero massimo di ordini**: questa regola consente alle organizzazioni di definire il numero massimo di ordini che un'ubicazione o gruppo di ubicazioni può elaborare. Durante il processo di ottimizzazione, il sistema prende in considerazione gli ordini non spediti da tali ubicazioni. Questo controllo viene eseguito tra i profili. Di conseguenza, se i numeri massimi di ordini sovrapposti sono definiti tra i profili per la stessa ubicazione, il sistema prende in considerazione il numero massimo di ordini definito in tutti i profili. 
+   - **Regola distanza massima**: questa regola consente alle organizzazioni di definire la distanza massima che può avere un'ubicazione o un gruppo di ubicazioni per evadere l'ordine. Se vengono definite regole per la distanza massima sovrapposte per un'ubicazione, la gestione degli ordini distribuiti applicherà la distanza massima inferiore definita per tale ubicazione.
+    - **Regola numero massimo di ordini**: questa regola consente alle organizzazioni di definire il numero massimo di ordini che un'ubicazione o gruppo di ubicazioni può elaborare durante un giorno di calendario. Se il numero massimo di ordini viene assegnato a un'ubicazione in un singolo giorno, la gestione degli ordini distribuiti non assegnerà altri ordini a tale ubicazione per il resto di tale giorno di calendario.
 
-    Di seguito vengono riportati alcuni attributi comuni che possono essere definiti per tutti i tipi di regola precedenti:
+   Di seguito vengono riportati alcuni attributi comuni che possono essere definiti per tutti i tipi di regola precedenti:
 
-    - **Data di inizio** e **Data di fine**: puoi utilizzare questi campi per definire la validità della data di ogni regola.
-    - **Disabilitata**: solo le regole con valore **No** in questo campo vengono prese in considerazione durante un'esecuzione DOM.
-    - **Vincolo rigido**: una regola può essere definita come un vincolo rigido o meno. Ogni esecuzione DOM passa attraverso due iterazioni. Nella prima interazione, ogni regola viene trattata come una regola di vincolo rigido, indipendentemente dall'impostazione di questo campo. In altre parole, viene applicata ogni regola. La sola eccezione è rappresentata dalla regola **Priorità ubicazione**. Nella seconda iterazione, le regole che non sono state definite come regole di vincolo rigido vengono rimosse e l'ordine o le righe ordine che non erano assegnati a ubicazioni quando tutte le regole erano applicate vengono ora assegnati alle ubicazioni.
+   - **Data di inizio** e **Data di fine**: a ogni regola può essere assegnato un periodo di validità utilizzando questi campi.
+   - **Disabilitata**: solo le regole con valore **No** in questo campo vengono prese in considerazione durante un'esecuzione DOM.
+   - **Vincolo rigido**: una regola può essere definita come un vincolo rigido o meno. Ogni esecuzione DOM passa attraverso due iterazioni. Nella prima interazione, ogni regola viene trattata come una regola di vincolo rigido, indipendentemente dall'impostazione di questo campo. In altre parole, viene applicata ogni regola. La sola eccezione è rappresentata dalla regola **Priorità ubicazione**. Nella seconda iterazione, le regole che non sono state definite come regole di vincolo rigido vengono rimosse e l'ordine o le righe ordine che non erano assegnati a ubicazioni quando tutte le regole erano applicate vengono ora assegnati alle ubicazioni.
 
 10. I profili di evasione vengono utilizzati per raggruppare una raccolta di regole, persone giuridiche, origini di ordini cliente e modalità di consegna. Ogni esecuzione DOM è dedicata a un profilo di evasione specifico. In questo modo, le organizzazioni possono definire ed eseguire un set di regole per un set di persone giuridiche, sugli ordini che includono origini di ordini cliente e modalità di consegna specifiche. Pertanto, se set di regole diversi devono essere eseguiti per diversi set di origini di ordine cliente o modalità di consegna, i profili di evasione possono essere definiti di conseguenza. Per impostare i profili di evasione, effettuare le seguenti operazioni:  
 
@@ -119,26 +145,26 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
     4. Impostare l'opzione **Applica automaticamente il risultato**. Se si imposta questa opzione su **Sì**, i risultati dell'esecuzione DOM per il profilo verranno automaticamente applicati alle righe di ordine cliente. Se viene impostata su **No**, i risultati possono essere visualizzati solo nel piano di evasione. Non verranno applicati alle righe di ordine cliente.
     5. Se si desidera che il profilo DOM venga eseguito per gli ordini che includono ogni origine di ordine cliente, ad esempio quelli in cui l'origine dell'ordine cliente non è definita, impostare l'opzione **Elabora ordini con origine vendite vuota** su **Sì**. Per eseguire il profilo solo per alcune origini di ordini cliente, è possibile definirle nella pagina **Origini di vendita**, come descritto più avanti.
 
-        > [!NOTE]
-        > In Commerce versione 10.0.12, l'opzione **Possibilità di assegnare un gruppo di evasione a un profilo di evasione** deve essere impostata nell'area di lavoro **Gestione funzionalità**. Questa funzionalità consente di specificare un elenco di magazzini che DOM deve prendere in considerazione quando l'ottimizzazione viene eseguita con un profilo di evasione ordini. Se l'elenco di magazzini non è specificato, DOM esamina tutti i magazzini delle persone giuridiche definite nel profilo.
-        >
-        > Questa funzionalità aggiunge una nuova configurazione nella pagina **Profilo di evasione** che può essere associata a un singolo gruppo di evasione. 
-        >
-        > Se si seleziona il gruppo di evasione, le regole DOM per il profilo di evasione corrispondente verranno applicate in modo efficiente rispetto ai magazzini di spedizione inclusi nel gruppo di evasione. 
-        > 
-        > Per utilizzare in modo efficace questa funzionalità, verificare che esista un gruppo di evasione che contenga tutti i magazzini di spedizione, quindi associare tale gruppo al profilo di evasione.
-
+    > [!NOTE]
+    > In Commerce versione 10.0.12 e successive, l'opzione **Possibilità di assegnare un gruppo di evasione a un profilo di evasione** deve essere impostata nell'area di lavoro **Gestione funzionalità**. 
+    >
+    > Questa funzionalità aggiunge una nuova configurazione nella pagina **Profilo di evasione** che può essere associata a un singolo gruppo di evasione. 
+    >
+    > Se si seleziona il gruppo di evasione, le regole DOM per il profilo di evasione corrispondente verranno applicate in modo efficiente rispetto ai magazzini di spedizione inclusi nel gruppo di evasione. 
+    > 
+    > Per utilizzare in modo efficace questa funzionalità, verificare che esista un gruppo di evasione che contenga tutti i magazzini di spedizione, quindi associare tale gruppo al profilo di evasione.
+    
     6. Nella Scheda dettaglio **Persone giuridiche**, selezionare **Aggiungi**, quindi selezionare una persona giuridica.
     7. Nella Scheda dettaglio **Regole**, selezionare **Aggiungi**, quindi selezionare la regola da collegare al profilo.
     8. Ripetere i due passaggi precedenti fino a che tutte le regole obbligatorie non vengono associate al profilo.
     9. Selezionare **Salva**.
-    10. Nel riquadro Azioni, nella scheda **Imposta**, selezionare **Modalità di consegna**.
+    10. Nel riquadro azioni, nella scheda **Imposta**, selezionare **Modalità di consegna**.
     11. Nella pagina **Modalità di consegna**, selezionare **Nuovo**.
     12. Nel campo **Società**, selezionare la persona giuridica. L'elenco delle società è limitato alle persone giuridiche aggiunte in precedenza.
     13. Nel campo **Modalità di consegna**, selezionare la modalità di consegna da associare a questo profilo. La modalità di consegna non può essere associata a più profili attivi.
     14. Ripetere i due passaggi precedenti fino a che tutte le modalità di consegna obbligatorie non vengono associate al profilo.
     15. Chiudere la pagina **Modalità di consegna**.
-    16. Nel riquadro Azioni, nella scheda **Imposta**, selezionare **Origini ordini cliente**.
+    16. Nel riquadro azioni, nella scheda **Imposta**, selezionare **Origini ordini cliente**.
     17. Nella pagina **Origini vendite**, selezionare **Nuovo**.
     18. Nel campo **Società**, selezionare la persona giuridica. L'elenco delle società è limitato alle persone giuridiche aggiunte in precedenza.
     19. Nel campo **Origine vendite**, selezionare l'origine vendita da associare a questo profilo. L'origine della vendita non può essere associata a più profili attivi.
@@ -170,13 +196,9 @@ Al momento dell'elaborazione, la gestione degli ordini distribuiti prenderà in 
 
 - Ordini che non sono in attesa
 
-Dopo aver applicano le regole, i vincoli delle scorte e l'ottimizzazione, la gestione degli ordini distribuiti seleziona l'ubicazione più vicina all'indirizzo di consegna del cliente. DOM converte gli indirizzi di tipo **Consegna** in valori di latitudine e longitudine. La soluzione converte quindi l'indirizzo di consegna nell'ordine cliente in valori di latitudine e longitudine e aggiorna tali valori dell'indirizzo per un uso futuro. Per determinare valori precisi di latitudine e longitudine in base a informazioni su indirizzo, città e codice postale, DOM dipende da Bing Maps.
+Dopo aver applicano le regole, i vincoli delle scorte e l'ottimizzazione, la gestione degli ordini distribuiti seleziona l'ubicazione più vicina all'indirizzo di consegna del cliente.
 
-DOM utilizza l'API Bing Maps per calcolare la distanza aerea o stradale, a seconda delle impostazioni, quindi utilizza queste informazioni per determinare il costo della spedizione. Il modello di ottimizzazione dà la priorità all'evasione di un ordine completo in un'unica ubicazione. Anche se parte di un ordine è disponibile nella stessa città o codice postale, il modello è stato ottimizzato per ridurre il numero di spedizioni. 
-
-DOM cerca le scorte disponibili visualizzando l'inventario nelle entità Magazzino V2. Durante ogni esecuzione batch, DOM suddivide gli ordini in batch, a seconda del valore del parametro **Processore DOM** delle attività definite nel profilo. Tale parametro ha un valore predefinito pari a **2000**. Ad esempio, se 10.000 righe ordine vengono ottimizzate in un'esecuzione e il parametro **Processore DOM** è impostato sul valore predefinito **2000**, DOM crea cinque batch elaborati contemporaneamente. I piani di adempimento vengono quindi ottenuti dallo strumento di ottimizzazione e applicati alla riga. Se la riga ordine deve essere suddivisa tra due ubicazioni, DOM garantisce che i prezzi e le imposte siano ripartiti in modo adeguato tra le righe.
-
-![Criteri dell'ordine cliente.](./media/ordercriteria.png "Criteri dell'ordine cliente")
+![Criteri dell'ordine cliente](./media/ordercriteria.png "Criteri dell'ordine cliente")
 
 ## <a name="results-of-dom-runs"></a>Risultati delle esecuzioni DOM
 
@@ -199,7 +221,6 @@ Per visualizzare tutti i piani di evasione generati, effettuare le operazioni in
 ## <a name="order-line-actions-and-statuses"></a>Azioni e stati delle righe ordine
 
 Di seguito vengono descritte le impostazioni della riga ordine. Per aprire la riga ordine, accedere a **Retail e Commerce \> Clienti \> Tutti gli ordini cliente**.
-
 - Se si imposta l'opzione **Escludi dall'elaborazione DOM** nella scheda **Generale** della riga ordine cliente su **Sì**, l'ordine o la riga ordine verrà escluso dall'elaborazione DOM.
 - Il campo **Stato DOM** nella scheda **Generale** della riga ordine cliente può essere impostato su uno dei seguenti valori:
 
@@ -229,11 +250,5 @@ Durante l'elaborazione DOM vengono creati piani di evasione. Il sistema conserva
 Di seguito vengono illustrati alcuni aspetti da considerare quando si utilizza la funzionalità DOM:
 
 - Attualmente, la gestione degli ordini distribuiti cerca solo gli ordini creati dai canali di commercio. Gli ordini cliente vengono identificati come ordini cliente se l'opzione **Vendita Commerce** è impostata su **Sì**.
-- Microsoft non ha testato la gestione degli ordini distribuiti con funzionalità avanzate di gestione del magazzino. Di conseguenza, i clienti e partner devono prestare attenzione a determinare se la gestione degli ordini distribuiti è compatibile con le funzionalità avanzate di gestione del magazzino e i processi a esse pertinenti. I processi di magazzino avanzati consentono di utilizzare dimensioni configurabili, ad esempio lo stato dell'inventario, che non forniscono una comprensione accurata dell'inventario disponibile. DOM fornisce un metodo estensibile per configurare l'inventario disponibile per le implementazioni che utilizzano processi di magazzino avanzati. Tale metodo può essere utilizzato per lavorare con valori personalizzati di stato dell'inventario e con altre dimensioni.
-
-    L'estendibilità in DOM è limitata perché l'ottimizzazione viene messa in atto nel modello MIP predefinito che prende in considerazione l'ottimizzazione e i suoi vincoli. Sono già disponibili diversi punti estendibili per la configurazione dell'inventario e l'ottimizzazione della post-elaborazione. I profili DOM possono differire in base all'origine delle vendite e alla modalità di consegna. L'origine dell'ordine cliente può essere configurata durante l'inserimento dell'ordine stesso e, in base a tali valori, possono essere utilizzate diverse strategie di ottimizzazione. DOM supporta anche la creazione di processi batch personalizzati in grado di accettare l'attività del processore DOM come input e consentire il passaggio del profilo come parametro. Di conseguenza, è possibile eseguire ottimizzazioni in sequenza per supportare diversi scenari aziendali.
-
+- Microsoft non ha testato la gestione degli ordini distribuiti con funzionalità avanzate di gestione del magazzino. I clienti e partner devono prestare attenzione a determinare se la gestione degli ordini distribuiti è compatibile con le funzionalità avanzate di gestione del magazzino e i processi ad esse pertinenti.
 - La gestione degli ordini distribuiti sarà disponibile solo nella versione cloud di Commerce. Non è supportata nelle distribuzioni locali.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Modulo Condivisione social
 description: In questo argomento vengono descritti i moduli condivisione social e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 0cd19f218e9fa05cd23c52fdf9bbdac6ad82a23b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4413586"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357716"
 ---
-# <a name="social-share-module"></a>Modulo Condivisione social
+# <a name="social-share-module"></a>Modulo di condivisione social
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli condivisione social e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 I moduli di condivisione social consentono agli utenti di condividere gli URL delle pagine del sito di e-commerce sui social media come Facebook, Twitter, Pinterest e LinkedIn. Gli URL delle pagine del sito possono essere condivisi anche tramite posta elettronica. I moduli di condivisione social sono comunemente utilizzati nelle pagine dei dettagli del prodotto (PDP) per aiutare gli utenti a condividere le informazioni sui prodotti.
 
@@ -41,7 +36,7 @@ Ogni piattaforma di social media può tenere traccia dei cookie, quindi questo m
 
 La seguente illustrazione evidenzia un esempio di un modulo di condivisione social utilizzato in una pagina dei dettagli del prodotto.
 
-![Esempio di modulo di condivisione social](./media/ecommerce-socialshare.png)
+![Esempio di modulo di condivisione social.](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Proprietà del modulo di condivisione social
 
@@ -51,7 +46,7 @@ La seguente illustrazione evidenzia un esempio di un modulo di condivisione soci
 | Orientamento | **Verticale** o **Orizzontale**  | Questa proprietà definisce l'orientamento del layout per gli elementi dei social media. |
 
 ## <a name="social-share-item-module-properties"></a>Proprietà del modulo articoli di condivisione social
-| Nome proprietà             | Valore                 | descrizione |
+| Nome proprietà             | Valore                 | Descrizione |
 |---------------------------|-----------------------|-------------|
 | Social media              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **Mail** | Un menu a discesa con un elenco di piattaforme di social media. |
 | Icona |Immagine    | Questa sarà l'immagine che verrà mostrata per i rispettivi social media. Come procedura consigliata, fare riferimento all'SDK della piattaforma di social media per l'immagine consigliata da utilizzare per ciascuna piattaforma. |
@@ -82,3 +77,6 @@ Per aggiungere un modulo di condivisione social al modulo casella acquisti, segu
 [Modulo casella acquisti](add-buy-box.md)
 
 [Conformità dei cookie](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

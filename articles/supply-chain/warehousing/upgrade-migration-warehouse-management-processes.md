@@ -2,11 +2,9 @@
 title: Aggiornare la gestione magazzino da Microsoft Dynamics AX 2012 a Supply Chain Management
 description: Questo argomento fornisce una panoramica delle opzioni di migrazione della gestione di prodotti e magazzino.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45d9809d4bbf1b5a68c3f799ce5d51f9709d276b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31bfc203e9db28acee4b5b52b36f64d90dc4f714
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970283"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909257"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Aggiornare la gestione magazzino da Microsoft Dynamics AX 2012 a Supply Chain Management 
 
@@ -68,7 +66,7 @@ Prima di poter utilizzare i prodotti rilasciati nel modulo **Gestione magazzino*
 1.  Creare almeno un nuovo profilo di ubicazione.
 2.  Fare clic su **Gestione magazzino** &gt; **Impostazioni** &gt; **Consenti processi di gestione magazzino** &gt; **Consenti impostazione magazzino**.
 3.  Nella pagina **Consenti impostazione magazzino** aggiungere i magazzini che devono essere attivati. È possibile completare questo passaggio direttamente nella pagina o tramite l'integrazione con Microsoft Office.
-4.  Assegnare un profilo di ubicazione a tutte le ubicazioni. È possibile completare facilmente questo passaggio utilizzando l'integrazione con Microsoft Office o direttamente dalla pagina. È possibile esportare e importare i dati o utilizzare l'elaborazione delle entità di dati in [Gestione dati](../../dev-itpro/data-entities/data-entities.md).
+4.  Assegnare un profilo di ubicazione a tutte le ubicazioni. È possibile completare facilmente questo passaggio utilizzando l'integrazione con Microsoft Office o direttamente dalla pagina. È possibile esportare e importare i dati o utilizzare l'elaborazione delle entità di dati in [Gestione dati](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 5.  Convalidare le modifiche. Durante il processo di convalida si verificano alcune convalide di integrità dei dati. Nell'ambito di un processo di aggiornamento di dimensioni più ampie, è possibile che si debba correggere eventuali problemi nell'implementazione di origine. In questo caso sarà necessario eseguire un ulteriore aggiornamento dei dati.
 6.  Elaborare le modifiche.
 
@@ -79,6 +77,9 @@ Prima di poter utilizzare i prodotti rilasciati nel modulo **Gestione magazzino*
 3.  Nella pagina **Gerarchia prenotazioni** definire una nuova gerarchia di prenotazioni in base ai gruppi di dimensioni di tracciabilità e di immagazzinamento dell'articolo.
 4.  Creare uno o più gruppi di sequenze di unità che include almeno le stesse unità utilizzate per le unità di magazzino degli articoli.
 5.  Fare clic su **Gestione magazzino** &gt; **Impostazioni** &gt; **Consenti processi di gestione magazzino** &gt; **Modifica gruppo di dimensioni di immagazzinamento per articoli**.
-6.  Nella pagina **Modifica gruppo di dimensioni di immagazzinamento per articoli** aggiungere i numeri articolo, i gruppi di dimensioni di immagazzinamento e i gruppi di sequenze di unità. È possibile completare questo passaggio direttamente nella pagina, utilizzando l'integrazione di Microsoft Office oppure il processo delle entità di dati in [Gestione dati](../../dev-itpro/data-entities/data-entities.md).
+6.  Nella pagina **Modifica gruppo di dimensioni di immagazzinamento per articoli** aggiungere i numeri articolo, i gruppi di dimensioni di immagazzinamento e i gruppi di sequenze di unità. È possibile completare questo passaggio direttamente nella pagina, utilizzando l'integrazione di Microsoft Office oppure il processo delle entità di dati in [Gestione dati](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 7.  Convalidare le modifiche. Durante il processo di convalida si verificano alcune convalide di integrità dei dati. Nell'ambito di un processo di aggiornamento di dimensioni più ampie, è possibile che si debba correggere eventuali problemi nell'implementazione di origine. In questo caso sarà necessario eseguire un ulteriore aggiornamento dei dati.
 8.  Elaborare le modifiche. L'aggiornamento di tutte le dimensioni inventariali può richiedere qualche minuto. È possibile monitorare lo stato utilizzando le attività dei processi batch.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

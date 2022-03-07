@@ -2,25 +2,27 @@
 title: Introduzione alla fatturazione elettronica
 description: Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 11/08/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ba9f6ca08af0647f4519726894b1c9dfcc9cce24
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65944c3b73d5cecc8c86087729bcf8d2354c8f20
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983873"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340157"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Introduzione alla fatturazione elettronica
 
@@ -41,11 +43,11 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 2. Nell'area di lavoro **Funzionalità di globalizzazione**, nella sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
 3. Selezionare **Importa** e quindi selezionare **Sincronizza**.
 4. Filtra la colonna **Provider di configurazioni** per il termine **Microsoft**.
-5. Selezionare il nome di una funzione di fatturazione elettronica dalla tabella, quindi selezionare **Importa**.
+5. Seleziona il nome di una funzione di fatturazione elettronica dalla tabella all'inizio di questo argomento, quindi seleziona **Importa**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Crea una funzionalità di fatturazione elettronica nel provider dell'organizzazione
 
-1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, selezionare il riquadro **Fatturazione elettronica**.
+1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
 2. Seleziona **Aggiungi** > **Basato su funzionalità esistente** e nel campo **Nome** immetti il nome della funzione di fatturazione elettronica.
 3. Nel campo **Descrizione** immettere una descrizione della funzione.
 4. Nel **campo funzione di base**, seleziona la funzionalità di fatturazione elettronica importata dal provider di configurazioni Microsoft.
@@ -55,12 +57,7 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 
 A seconda del paese o dell'area geografica, la funzione Fatturazione elettronica potrebbe richiedere una configurazione specifica. 
 
-> [!NOTE]
-> Quando abiliti la funzionalità di fatturazione elettronica per la Finlandia, i parametri specifici dell'applicazione nelle ricerche non sono supportati. Per risolvere questo problema, nel modulo **Creazione di report elettronici**, rivedi le configurazioni per i formati di fattura di vendita e fattura di progetto. Configura manualmente il campo calcolato per il mapping **$PaymentMethodSubstitution**, quindi associa tale campo al campo **EpiPaymentMeansCode** dai formati fattura di vendita e fattura progetto.
->
-> Quando abiliti la funzionalità di fatturazione elettronica per l'Italia, i parametri specifici dell'applicazione nelle ricerche non sono supportati. Per risolvere questo problema, nel modulo **Creazione di report elettronici**, configura manualmente il campo calcolato per il mapping **$NaturaReverseCharge**.
->
-> Per i passaggi specifici relativi ad altre posizioni, vedi la documentazione "Introduzione" disponibile per il tuo paese o area geografica.
+Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per il tuo paese o area geografica.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Importare le configurazioni di mapping modello dalla creazione di report elettronici
 
@@ -87,7 +84,6 @@ A seconda del paese o dell'area geografica, la funzione Fatturazione elettronica
 | Fattura elettronica norvegese (NO)    | <p>Modello contesto fattura cliente</p><p>Modello di fattura</p> |
 | Fattura elettronica spagnola (ES)      | <p>Modello contesto fattura cliente</p><p>Modello di fattura</p> |
 | Fattura elettroniche PEPPOL            | <p>Modello contesto fattura cliente</p><p>Modello di fattura</p> |
-| Fattura elettronica in Arabia Saudita (SA)| <p>Modello contesto fattura cliente</p><p>Modello di fattura</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Configurare l'impostazione dell'applicazione
@@ -116,9 +112,8 @@ A seconda del paese o dell'area geografica, la funzione Fatturazione elettronica
     | Fattura elettronica norvegese (NO)    | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
     | Fattura elettronica spagnola (ES)      | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
     | Fattura elettroniche PEPPOL            | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
-    | Fattura elettronica in Arabia Saudita (SA)| <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Giornale di registrazione fatture cliente</p><p>Fattura progetto</p> |
 
-6. Per ogni nome di tabella creato, seleziona e inserisci un valore contesto secondo la tabella seguente.
+7. Per ogni nome di tabella creato, seleziona e inserisci un valore contesto secondo la tabella seguente.
 
     | Nome funzionalità                         | Documento aziendale | Contesto |
     |--------------------------------------|-------------------|---------|
@@ -138,9 +133,8 @@ A seconda del paese o dell'area geografica, la funzione Fatturazione elettronica
     | Fattura elettronica norvegese (NO)    | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
     | Fattura elettronica spagnola (ES)      | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
     | Fattura elettroniche PEPPOL            | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
-    | Fattura elettronica in Arabia Saudita (SA)| <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Modello di contesto della fattura cliente - Contesto della fattura cliente</p><p>Modello di contesto della fattura cliente - Contesto della fattura di progetto</p> |
 
-7. Per ogni nome di tabella e contesto, seleziona e immetti un valore mapping documento aziendale secondo la tabella seguente.
+8. Per ogni nome di tabella e contesto, seleziona e immetti un valore mapping documento aziendale secondo la tabella seguente.
 
     | Nome funzionalità                         | Documento aziendale | Mapping di documento aziendale |
     |--------------------------------------|-------------------|---------------------------|
@@ -160,7 +154,6 @@ A seconda del paese o dell'area geografica, la funzione Fatturazione elettronica
     | Fattura elettronica norvegese (NO)    | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Mapping di modello di fattura - Fattura cliente</p><p>Mapping di modello di fattura - Fattura di progetto</p> |
     | Fattura elettronica spagnola (ES)      | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Mapping di modello di fattura - Fattura cliente</p><p>Mapping di modello di fattura - Fattura di progetto</p> |
     | Fattura elettroniche PEPPOL            | <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Mapping di modello di fattura - Fattura cliente</p><p>Mapping di modello di fattura - Fattura di progetto</p> |
-    | Fattura elettronica in Arabia Saudita (SA)| <p>Fattura di vendita</p><p>Fattura progetto</p> | <p>Mapping di modello di fattura - Fattura cliente</p><p>Mapping di modello di fattura - Fattura di progetto</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Configurazione specifica del paese dell'impostazione dell'applicazione
@@ -184,11 +177,11 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Distribuire la funzionalità di fatturazione elettronica nell'applicazione connessa
 
 1. Nella scheda **Versioni** seleziona una versione della funzione di fatturazione elettronica che vuoi distribuire.
-2. Seleziona **Distribuisci**.
-3. Imposta l'opzione **Distribuisci in applicazione connessa** su **Sì**.
-4. Nel campo **Connetti applicazione** seleziona la connessione associata all'istanza di Finance o Supply Chain Management.
-5. Imposta l'opzione **Distribuisci in ambiente del servizio** su **No**.
-6. Selezionare **OK**.
+4. Seleziona **Distribuisci**.
+5. Imposta l'opzione **Distribuisci in applicazione connessa** su **Sì**.
+6. Nel campo **Connetti applicazione** seleziona la connessione associata all'istanza di Finance o Supply Chain Management.
+7. Imposta l'opzione **Distribuisci in ambiente del servizio** su **No**.
+10. Selezionare **OK**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Attivare la funzione per la fatturazione elettronica in Finance o Supply Chain Management
 
@@ -214,15 +207,13 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
     | Fattura elettronica norvegese (NO)                     | Norvegia          |
     | Fattura elettroniche PEPPOL                             | Globali          |
     | Fattura elettronica spagnola (ES)                       | Spagna           |
-    | Fattura elettronica in Arabia Saudita (SA)                 | Arabia Saudita    |
-    
 
 4. Selezionare **Salva**.
 
 ## <a name="issue-electronic-invoices"></a>Emissione di fatture elettroniche
 
 1. Vai a **Amministrazione organizzazione** \> **Periodico** \> **Documenti elettronici** \> **Invia documenti elettronici**.
-2. Nella scheda dettaglio **Record da includere**, selezionare **Filtro**.
+2. Nella scheda dettaglio **Record da includere**, seleziona **Filtro**.
 3. Seleziona **Aggiungi** per aggiungere un nome di tabella al filtro di query.
 4. Seleziona la tabella che contiene le fatture.
 
@@ -244,14 +235,6 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
 
 3. Seleziona una fattura nella griglia, quindi seleziona **Richiedi informazioni** \> **Dettagli invio**.
 
-## <a name="download-an-electronic-document-file"></a>Scarica un file di documento elettronico
-
-1. Vai a **Amministrazione organizzazione** \> **Periodico** \> **Documenti elettronici** \> **Registro di invio documenti elettronici**.
-2. Nel campo **Tipo di documento** seleziona la tabella che contiene le fatture.
-3. Seleziona un documento nella griglia, quindi seleziona **Documento elettronico** \> **Scarica file**. Verrà suggerito per il download un archivio contenente il file del documento elettronico.
-
-> [!NOTE]
-> Prima di poter scaricare i file, l'opzione **Esporta risultato** deve essere attivata per l'azione correlata nella configurazione della funzionalità di fatturazione elettronica in RCS.
 
 ## <a name="related-topics"></a>Argomenti correlati
 
@@ -261,7 +244,6 @@ Per i passaggi specifici, vedi la documentazione "Introduzione" disponibile per 
 - [Introduzione alla fatturazione elettronica per il Messico](e-invoicing-mex-get-started.md)
 - [Introduzione alla fatturazione elettronica per l'Italia](e-invoicing-ita-get-started.md)
 - [Fatture elettroniche dei clienti in Egitto](emea-egy-e-invoices.md)
-- [Fatture elettroniche dei clienti in Arabia Saudita](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

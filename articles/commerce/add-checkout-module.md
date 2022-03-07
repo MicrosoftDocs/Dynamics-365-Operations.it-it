@@ -2,27 +2,24 @@
 title: Modulo Checkout
 description: In questo argomento viene descritto come aggiungere un modulo Checkout a una pagina e impostare le proprietà necessarie.
 author: anupamar-ms
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4413614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715508"
 ---
 # <a name="checkout-module"></a>Modulo Checkout
 
@@ -30,21 +27,19 @@ ms.locfileid: "4413614"
 
 In questo argomento viene descritto come aggiungere un modulo Checkout a una pagina e impostare le proprietà necessarie.
 
-## <a name="overview"></a>Panoramica
-
 Un modulo Checkout è un contenitore speciale che ospita tutti i moduli necessari per creare un ordine. Presenta un flusso dettagliato che un cliente utilizza per immettere tutte le informazioni pertinenti per effettuare un acquisto. Acquisisce l'indirizzo di spedizione, il metodo di spedizione e le informazioni di fatturazione. Fornisce inoltre un riepilogo dell'ordine e altre informazioni relative a un ordine cliente.
 
 Un modulo Checkout esegue il rendering dei dati in base all'ID carrello. Questo ID carrello viene salvato come cookie del browser. Un ID carrello è necessario per eseguire il rendering delle informazioni del modulo Checkout, ad esempio gli articoli nell'ordine, l'importo totale e gli sconti. 
 
 L'immagine seguente mostra un esempio di modulo Checkout in una pagina checkout.
 
-![Esempio di modulo Checkout](./media/Checkout.PNG)
+![Esempio di modulo Checkout.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Proprietà del modulo Checkout
 
 Un modulo Checkout mostra un riepilogo dell'ordine e fornisce la funzionalità per effettuare un ordine. Per raccogliere tutte le informazioni sul cliente necessarie prima di effettuare un ordine, è necessario aggiungere moduli aggiuntivi al modulo Checkout. Pertanto, i rivenditori hanno la flessibilità di aggiungere moduli personalizzati al flusso di checkout o di escludere moduli, in base alle loro esigenze.
 
-| Nome proprietà | Valori | descrizione |
+| Nome proprietà | Valori | Descrizione |
 |----------------|--------|-------------|
 | Intestazione estrazione | Testo e tag dell'intestazione (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Un'intestazione per il modulo Checkout. |
 | Intestazione di riepilogo ordini | Testo dell'intestazione | Un'intestazione per la sezione di riepilogo dell'ordine del modulo. |
@@ -57,13 +52,13 @@ Un modulo Checkout mostra un riepilogo dell'ordine e fornisce la funzionalità p
 
     L'immagine seguente mostra un esempio di modulo Indirizzo di spedizione in una pagina checkout.
 
-    ![Esempio di modulo Indirizzo di spedizione](./media/ecommerce-shippingaddress.PNG)
+    ![Esempio di modulo Indirizzo di spedizione.](./media/ecommerce-shippingaddress.PNG)
 
 - **Opzioni di consegna**: questo modulo consente a un cliente di selezionare una modalità di consegna per un ordine. Per ulteriori informazioni su questo modulo, vedere il [modulo Opzioni di consegna](delivery-options-module.md).
 
     L'immagine seguente mostra un esempio di modulo Opzioni di consegna in una pagina checkout.
  
-    ![Esempio di un modulo Opzioni di consegna](./media/ecommerce-deliveryoptions.PNG)
+    ![Esempio di un modulo Opzioni di consegna.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Contenitore sezione checkout** - Questo modulo è un contenitore in cui è possibile includere più moduli allo scopo di creare una sezione nel flusso di checkout. Ad esempio, è possibile inserire tutti i moduli relativi al pagamento in tale contenitore per visualizzarli come un'unica sezione. Questo modulo influisce solo sul layout del flusso.
 
@@ -75,7 +70,7 @@ Un modulo Checkout mostra un riepilogo dell'ordine e fornisce la funzionalità p
 
     L'immagine seguente mostra un esempio di moduli Gift card, Punti fedeltà e Pagamento in una pagina checkout.
 
-    ![Esempio di moduli Gift card, Punti fedeltà e Pagamento in una pagina checkout](./media/ecommerce-payments.PNG)
+    ![Esempio di moduli Gift card, Punti fedeltà e Pagamento in una pagina checkout.](./media/ecommerce-payments.PNG)
 
 - **Informazioni contatto** - Questo modulo consente a un cliente di aggiungere o modificare le informazioni di contatto (indirizzo di posta elettronica) per un ordine.
 
@@ -85,7 +80,7 @@ Un modulo Checkout mostra un riepilogo dell'ordine e fornisce la funzionalità p
 
     L'immagine seguente mostra un esempio di termini e condizioni in una pagina checkout.
 
-    ![Esempio di termini e condizioni in una pagina di checkout](./media/ecommerce-checkout-terms.PNG)
+    ![Esempio di termini e condizioni in una pagina di checkout.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interazione con Commerce Scale Unit
 
@@ -127,3 +122,6 @@ Per aggiungere un modulo Checkout a una nuova pagina e impostare le proprietà n
 [Modulo Dettagli ordini](order-confirmation-module.md)
 
 [Modulo gift card](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

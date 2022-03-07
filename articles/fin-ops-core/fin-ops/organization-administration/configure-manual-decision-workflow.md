@@ -2,11 +2,9 @@
 title: Configurare le decisioni manuali in un flusso di lavoro
 description: In questo argomento viene descritto come configurare le proprietà per una decisione manuale.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798854"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065657"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurare le decisioni manuali in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In questo argomento viene descritto come configurare le proprietà per una decisione manuale.
 
@@ -350,3 +351,6 @@ Per prendere la decisione in un periodo di tempo specifico, effettuare le operaz
     - **Anni**: selezionare il giorno, la settimana e il mese entro i quali prendere la decisione. È ad esempio possibile scegliere di far prendere la decisione entro il venerdì della terza settimana di dicembre.
 
 4. Se viene superato il limite di tempo, la decisione verrà presa dal sistema. Nell'elenco **Azione** selezionare l'opzione che dovrà essere selezionata dal sistema.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

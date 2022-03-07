@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431124"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987555"
 ---
 # <a name="inventory-close"></a>Chiusura inventario
 
@@ -60,7 +59,7 @@ Alcune delle attività che possono essere eseguite nella pagina **Chiusura e ret
 Queste attività influiscono sui conti CoGe collegati all'operazione di magazzino originale. Se ad esempio un ordine cliente viene compensato con un ordine fornitore, i conti CoGe utilizzati per l'ordine cliente originale vengono rettificati. Ciò si verifica anche qualora i conti CoGe per il gruppo di articoli assegnato all'articolo sono stati modificati in seguito alla registrazione dell'ordine cliente. Dopo la creazione di un importo di compensazione da parte di una chiusura dell'inventario, tale importo verrà comunque registrato nei conti CoGe originali e non nei nuovi conti CoGe assegnati all'articolo. La contabilità generale può inoltre essere aggiornata se si storna una chiusura dell'inventario. 
 
 > [!NOTE] 
-> - La chiusura dell'inventario è un passaggio obbligatorio nella procedura di chiusura di fine mese per tutti i modelli inventariali. Ciò include il costo medio, standard e un costo basato su media mobile. Non sarà possibile chiudere il periodo finanziario fino a quando non è stata eseguita una chiusura dell'inventario alla data di fine del periodo.
+> - La chiusura dell'inventario è un passaggio obbligatorio nella procedura di chiusura di fine mese per tutti i modelli inventariali, ad eccezione della media mobile.  Riceverai un avviso se provi a chiudere un periodo finanziario senza prima eseguire la chiusura dell'inventario alla data di fine del periodo.
 > - Prima di eseguire la procedura di chiusura, è possibile visualizzare un elenco di articoli che non possono essere liquidati durante l'aggiornamento.
 > - È consigliabile eseguire la chiusura dell'inventario in fasce orarie non di punta, per distribuire più equamente le risorse di elaborazione.
 

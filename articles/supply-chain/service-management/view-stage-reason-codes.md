@@ -2,28 +2,25 @@
 title: Visualizza codici motivo fase
 description: Visualizzare e modificare l'elenco dei motivi fase di un ordine di assistenza.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd5485727761ac5ab13d44ab0598c5768324e6e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a8efb14010bf9ecd20ccfc93e0eadbb1c8bc855c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431307"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824176"
 ---
 # <a name="view-stage-reason-codes"></a>Visualizza codici motivo fase 
 
@@ -45,3 +42,6 @@ Visualizzare e modificare l'elenco dei motivi fase di un ordine di assistenza. U
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

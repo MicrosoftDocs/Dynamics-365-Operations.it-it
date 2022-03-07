@@ -1,26 +1,23 @@
 ---
 title: Cercare i prezzi e gli sconti applicabili
 description: Questa procedura illustra come trovare il prezzo e/o lo sconto per un prodotto che è attualmente valido per un cliente specifico, senza creare un ordine cliente.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c80ae00e1bcbc4498ec4705195c3208170cee1b1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430949"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578922"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Cercare i prezzi e gli sconti applicabili
 
@@ -60,3 +57,6 @@ Verificare che il campo del conto cliente contenga il numero cliente US-001
     * Sono disponibili due accordi sugli sconti riga per il prodotto T0012, che specificano uno sconto del 5% per una quantità della riga ordine da 1 a 10 e del 7% per le quantità ordine superiori a 10. Si noti che gli sconti vengono applicati a un gruppo di prodotti, in questo esempio al gruppo con codice 01, a cui il prodotto T0012 appartiene.  
 4. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

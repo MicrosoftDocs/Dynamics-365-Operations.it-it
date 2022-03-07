@@ -1,27 +1,25 @@
 ---
-title: Aggiornamento della pianificazione del budget
-description: Tra Microsoft Dynamics AX 2012 e Dynamics 365 Finance sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.
-author: ryansandness
-manager: AnnBe
+title: Aggiornare la pianificazione del budget
+description: In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.
+author: panolte
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1c62771170212039112c777e55d45a0d88d2f49d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769193"
 ---
 # <a name="upgrade-budget-planning"></a>Aggiornamento della pianificazione del budget
 
@@ -162,3 +160,6 @@ Sono state aggiunte diverse entità di dati per consentire l'implementazione rap
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Modulo di informazioni sul ritiro
 description: In questo argomento viene descritto il modulo di informazioni sul ritiro e la procedura per aggiungerlo alle pagine del checkout in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764563"
 ---
 # <a name="pickup-information-module"></a>Modulo di informazioni sul ritiro
 
@@ -43,7 +40,7 @@ Se vengono selezionati più articoli per il ritiro in più negozi, il modulo di 
 
 La seguente illustrazione mostra un esempio di selezione della fascia oraria tramite il modulo di informazioni sul ritiro in una pagina checkout.
 
-![Esempio di un modulo di informazioni sul ritiro su una pagina checkout](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Esempio di un modulo di informazioni sul ritiro su una pagina checkout.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Proprietà del modulo
 
@@ -70,3 +67,6 @@ La seguente illustrazione mostra un esempio di una pagina checkout e-commerce ch
 [Modulo conferma ordine](order-confirmation-module.md)
 
 [Modulo Dettagli ordini](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

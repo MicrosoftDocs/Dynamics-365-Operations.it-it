@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4cbc3cd5deff709ac0818358dcc87fa69a7d872
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4238c625930767990d28a206b10a4d71841f2ad8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431267"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247504"
 ---
 # <a name="credit-subscription-transactions"></a>Accreditare transazioni di sottoscrizione 
 
@@ -56,3 +55,6 @@ Se il campo **Storna ratei in fase di accredito** nel modulo **Parametri di gest
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

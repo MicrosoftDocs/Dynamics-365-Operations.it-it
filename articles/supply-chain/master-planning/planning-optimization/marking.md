@@ -2,16 +2,13 @@
 title: Il contrassegno scorte con l'ottimizzazione della pianificazione
 description: Questo argomento fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati quando si utilizza l'ottimizzazione della pianificazione.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: dc94ca8b15d626d8ff64f50718d7d2e3e0326144465f3d27787805220842849f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711907"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Il contrassegno scorte con l'ottimizzazione della pianificazione
 
@@ -49,3 +46,6 @@ Quando si stabilisce un ordine pianificato, la finestra di dialogo **Stabilizzaz
 - **No** - Non viene applicato alcun contrassegno di inventario.
 - **Standard** – Il contrassegno scorte viene aggiornato in base al pegging. Un ordine di richiesta (domanda) viene contrassegnato in base a un ordine di evasione (offerta). Se una certa quantità rimane nell'ordine di evasione, non viene contrassegnata e le informazioni di riferimento vengono lasciate vuote. Ad esempio, se un ordine cliente per 100 pezzi è ancorato a un ordine fornitore per 150 pezzi, le informazioni di riferimento verranno assegnate solo all'ordine cliente.
 - **Esteso** – Verranno contrassegnati sia l'ordine di richiesta (domanda) che l'ordine di evasione (offerta), indipendentemente dalla quantità eventualmente rimasta nell'ordine di evasione. Ad esempio, se un ordine cliente per 100 pezzi è ancorato a un ordine fornitore per 150 pezzi, le informazioni di riferimento verranno assegnate all'ordine cliente e all'ordine fornitore.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

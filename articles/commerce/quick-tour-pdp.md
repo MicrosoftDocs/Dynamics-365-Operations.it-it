@@ -2,27 +2,24 @@
 title: Panoramica delle pagine dei dettagli del prodotto
 description: Questo argomento fornisce una panoramica delle pagine dettagli prodotto in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/23/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413561"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986203"
 ---
 # <a name="product-details-pages-overview"></a>Panoramica delle pagine dei dettagli del prodotto
 
@@ -30,15 +27,13 @@ ms.locfileid: "4413561"
 
 Questo argomento fornisce una panoramica delle pagine dettagli prodotto in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Panoramica
-
 Una pagina dettagli prodotto (PDP) fornisce informazioni dettagliate su un prodotto e consente ai clienti di selezionare le opzioni relative al prodotto come dimensione, stile e colore. Una pagina dettagli prodotto include tutte le informazioni sul prodotto che un cliente necessita per decidere se effettuare l'acquisto.
 
 Nella figura seguente viene illustrato un esempio di pagina dettagli prodotto.
 
-![Esempio di una pagina dettagli prodotto](./media/pdp.PNG)
+![Esempio di una pagina dettagli prodotto.](./media/pdp.PNG)
 
-## <a name="header-and-footer-modules"></a>Moduli Intestazione e Piè di pagina
+## <a name="header-and-footer-modules"></a>Moduli intestazione e piè di pagina
 
 La parte superiore di una pagina dettagli prodotto include un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il rivenditore vuole siano visitate dai clienti. La parte inferiore della pagina include un piè di pagina che contiene collegamenti rapidi a vari argomenti che possono interessare i clienti.
 
@@ -88,3 +83,6 @@ Se il contenuto marketing è univoco a uno specifico prodotto, qualsiasi modulo 
 [Panoramica delle pagine della gestione del conto](quick-tour-account-management.md)
 
 [Migliorare una pagina prodotto](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

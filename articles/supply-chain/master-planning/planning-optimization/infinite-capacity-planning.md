@@ -11,16 +11,17 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9c1eef91bcf7d1ce6379e87417be5a8b3be069e5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982152"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575634"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Programmazione con capacità infinita
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 La funzionalità *Programmazione capacità infinita per l'ottimizzazione della pianificazione* introduzione la programmazione basata sulle informazioni sul ciclo di lavorazione. Consente di programmare i lavori in base a un'ampia gamma di impostazioni del percorso. Pianificazione per l'ottimizzazione della pianificazione copre le impostazioni del ciclo di lavorazione utilizzate di frequente, inclusa la sequenza dell'operazione del ciclo di lavorazione o i requisiti per le risorse dell'operazione del ciclo di lavorazione.
 
@@ -49,9 +50,7 @@ Durante il processo di programmazione, il sistema considera anche i *requisiti d
 - Capacità. Per ulteriori informazioni su questa funzione, vedi [Pianificazione con selezione delle risorse in base alla capacità](capability-based-scheduling.md).
 
 > [!NOTE]
->
-> - Se la risorsa e/o il gruppo di risorse sono impostati su capacità infinita, la pianificazione generale li considererà come capacità infinita.
-> - I requisiti relativi alle risorse umane, ad esempio competenze o requisiti dei certificati, non sono ancora supportati.
+> I requisiti relativi alle risorse umane, ad esempio competenze o requisiti dei certificati, non sono ancora supportati.
 
 La funzionalità supporta anche le proprietà operative **Tempo di preparazione** e **Tempo di esecuzione**. Quando si impostano queste proprietà su un'operazione del ciclo di lavorazione, il processo di programmazione creerà i lavori di impostazione e processo appropriati.
 

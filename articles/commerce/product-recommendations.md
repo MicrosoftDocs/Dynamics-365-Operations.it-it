@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb64cd05ac8580c3ddcd719d62544f1edbdbef0b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231034"
 ---
 # <a name="product-recommendations-overview"></a>Panoramica suggerimenti sul prodotto
 
@@ -56,7 +55,7 @@ I suggerimenti sul prodotto sono disponibili per i seguenti scenari:
 
 La tabella seguente descrive vari tipi di suggerimenti sul prodotto automatizzati disponibili per i rivenditori da implementare nella soluzione Dynamics 365 Commerce tramite il [modulo Raccolta prodotti](product-collection-module-overview.md). I rivenditori possono anche mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione.
 
-| Modulo Raccolta prodotti  | Tipo | descrizione |
+| Modulo Raccolta prodotti  | Tipo | Descrizione |
 |----------------------------|------|-------------|
 | Nuove                        | Algoritmico | Questo modulo mostra un elenco dei prodotti più recenti che sono stati assortiti di recente in canali e cataloghi. |
 | Più venduti               | Algoritmico | Questo modulo mostra un elenco di prodotti classificati in base al più alto numero di vendite. |
@@ -88,3 +87,6 @@ La tabella seguente descrive vari tipi di suggerimenti sul prodotto automatizzat
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

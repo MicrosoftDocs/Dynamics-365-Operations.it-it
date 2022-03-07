@@ -2,25 +2,22 @@
 title: Certificazione di origine USMCA
 description: Questa funzione consente di stampare i documenti di certificazione di origine richiesti dall'United States-Mexico-Canada Agreement (USMCA).
 author: Henrikan
-manager: tfehr
 ms.date: 10/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-23
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 2263b3643becedd68911e2325c60ed4d97d6e823
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: 4d34c1778802baaa0de0506d3dd4bc7efeb13f27
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4431620"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573059"
 ---
 # <a name="usmca-certification-of-origin"></a>Certificazione di origine USMCA
 
@@ -79,7 +76,7 @@ Il documento può essere stampato sia per le spedizioni in entrata che per quell
 
 La tabella seguente descrive i tipi di informazioni inclusi nel documento in base all'**Entità di certificazione** che si sceglie.
 
-| Entità di&nbsp;certificazione | descrizione |
+| Entità di&nbsp;certificazione | Descrizione |
 |---|---|
 | *\[Vuoto\]* | Aggiunge i seguenti dettagli al documento:<ul><li>**Dettagli entità di certificazione**: Utilizza i dettagli dell'indirizzo per il magazzino di spedizione, se disponibile; in caso contrario utilizza l'indirizzo del sito di spedizione, se disponibile; in caso contrario utilizza l'indirizzo della persona giuridica (società) selezionata in Supply Chain Management.</li><li>**Dettagli esportatore**: Vuoto</li><li>**Dettagli produttore**: Vuoto</li><li>**Dettagli importatore**: Vuoto</li><ul>|
 | *Esportatore* | Aggiunge i seguenti dettagli al documento:<ul><li>**Dettagli entità di certificazione**: Utilizza i dettagli dell'indirizzo per il magazzino di spedizione, se disponibile; in caso contrario utilizza l'indirizzo del sito di spedizione, se disponibile; in caso contrario utilizza l'indirizzo della persona giuridica (società) selezionata in Supply Chain Management.</li><li>**Dettagli esportatore**: Utilizza i dettagli dell'indirizzo per la persona giuridica.</li><li>**Dettagli produttore**: Vuoto</li><li>**Dettagli importatore**: Utilizza il conto fattura per l'ordine cliente correlato.</li><ul>|
@@ -140,3 +137,6 @@ L'utente che firma la certificazione deve inserire manualmente il numero di pagi
 ### <a name="page-numbers"></a>Numeri di pagina
 
 La pagina corrente e il numero di pagine stampate nella parte inferiore del documento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

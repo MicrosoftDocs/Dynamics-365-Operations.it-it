@@ -2,26 +2,23 @@
 title: Elenco scorte disponibili
 description: Questo argomento descrive come utilizzare la pagina Elenco scorte disponibili per esaminare i relativi dettagli. La pagina mostra come le varie opzioni di filtro e ordinamento interagiscono tra loro e in che modo tali opzioni possano talvolta produrre risultati imprevisti quando vengono combinate.
 author: sherry-zheng
-manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: cd90b3c8b84aa969f93015f8c953105db1636902c7dcf1d3150356284efa302b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780224"
 ---
 # <a name="inventory-on-hand-list"></a>Elenco scorte disponibili
 
@@ -44,7 +41,7 @@ Utilizzare i seguenti strumenti per trovare il set di prodotti che si sta cercan
 
 Per ogni elemento corrispondente, la griglia **Disponibilità** fornisce le seguenti colonne di informazioni sulle scorte.
 
-| Colonna | descrizione |
+| Colonna | Descrizione |
 |---|---|
 | Inventario fisico | Quantità fisica disponibile in magazzino. |
 | Fisico prenotato | Quantità totale fisicamente prenotata. |
@@ -146,3 +143,6 @@ Ecco l'output risultante.
 | IA0001 | 1 | 2 | 2 |
 
 Si noti che le impostazioni nel riquadro **Filtri** si applicano alla tabella di scorte dettagliata (non aggregata) mostrata all'inizio di questa sezione. Pertanto, il criterio **Fisico disponibile** \| **inferiore o uguale a** \| _1_ trova due righe di quella tabella (la prima e la terza riga, ognuna delle quali mostra un valore **Fisico disponibile** di _1_). Tuttavia, in questo scenario, la pagina **Elenco scorte disponibili** non è impostata per mostrare la dimensione **Magazzino**. Pertanto, aggrega le due righe originali in una singola riga risultante, poiché entrambe le righe hanno valori identici in tutte le dimensioni visualizzate. Questa riga sembra violare il criterio di filtro, perché il valore **Fisico disponibile** è mostrato come _2_. Tuttavia, il risultato è corretto, perché le impostazioni nel riquadro **Filtri** si applicano alla tabella di origine, non alla tabella aggregata mostrata nella pagina **Elenco scorte disponibili**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

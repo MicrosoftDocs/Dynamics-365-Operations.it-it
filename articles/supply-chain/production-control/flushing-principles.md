@@ -2,28 +2,25 @@
 title: Principi di registrazione del consumo di materiali
 description: Questo argomento descrive i quattro principi di registrazione utilizzati per il consumo di materie prime.
 author: johanhoffmann
-manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b9ef6dfe3fe8b768c2535e2a185442cb99217fe2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431083"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809184"
 ---
 # <a name="flushing-principles"></a>Principi di registrazione del consumo di materiali
 
@@ -63,3 +60,6 @@ Il principio di registrazione del consumo di materiali Fine indica che il materi
 
 ### <a name="available-at-location"></a>Disponibile in ubicazione
 Il principio di registrazione del consumo di materiali Disponibile in ubicazione indica che il materiale verrà consumato automaticamente quando verrà registrato come prelevato per la produzione. Il materiale viene registrato come prelevato dall'ubicazione quando il lavoro per il prelievo di materie prime è completato oppure quando il materiale è disponibile nell'ubicazione entrata produzione e la riga materiali viene rilasciata al magazzino. La distinta di prelievo che viene generata durante il processo viene registrata in un processo batch. Questo principio è rilevante se, ad esempio, sono presenti molti attività di prelievo rispetto a un ordine di produzione. In questo caso, non è necessario aggiornare manualmente la distinta di prelievo ed è possibile ottenere una visualizzazione corrente del saldo WIP.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

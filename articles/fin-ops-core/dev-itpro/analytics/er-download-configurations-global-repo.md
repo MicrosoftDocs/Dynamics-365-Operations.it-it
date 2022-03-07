@@ -2,11 +2,9 @@
 title: Scaricare configurazioni ER dall'archivio globale del servizio di configurazione
 description: In questo argomento viene descritto come scaricare le configurazioni per la creazione di report elettronici (ER) dall'archivio globale del servizio di configurazione.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3a232cd319970e572580bc11f2dbaccbe208f127
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679560"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753386"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Scaricare configurazioni ER dall'archivio globale del servizio di configurazione
 
@@ -90,3 +88,6 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei report elettronici](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

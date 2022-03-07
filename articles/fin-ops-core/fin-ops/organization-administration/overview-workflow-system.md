@@ -2,30 +2,33 @@
 title: Panoramica del sistema del flusso di lavoro
 description: Viene descritto il sistema flusso di lavoro.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796998"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067935"
 ---
 # <a name="workflow-system-overview"></a>Panoramica del sistema del flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Viene descritto il sistema flusso di lavoro.
 
@@ -41,7 +44,7 @@ Il flusso di lavoro è un sistema che viene eseguito sul server oggetti applicat
 
 Un flusso di lavoro rappresenta un processo aziendale. Definisce il modo in cui un documento attraversa il sistema, o si sposta al suo interno, identificando chi deve completare un'attività, prendere una decisione o approvare un documento. Nella figura indicata di seguito viene illustrato un esempio di un flusso di lavoro per note spese.
 
-![Flusso di lavoro con elementi assegnati a utenti](./media/workflow_user.gif)
+![Flusso di lavoro con elementi assegnati a utenti.](./media/workflow_user.gif)
 
 Per meglio comprendere questo flusso di lavoro, si supponga ora che Giorgio invii una nota spese per un importo pari a USD 7.000. In questo scenario Indro deve verificare le ricevute inoltrate da Giorgio, quindi Ezio e Luisa devono approvare la nota spese. Si supponga ora che Giorgio presenti una nota spese per un importo pari a USD 11.000. In questo scenario Indro deve verificare le ricevute e Ezio, Luisa e Elena devono approvare la nota spese.
 
@@ -71,3 +74,6 @@ Di seguito sono descritti i vantaggi derivanti dall'utilizzo di un sistema basat
 + [Configurare i rami paralleli in un flusso di lavoro](configure-parallel-branch-workflow.md)
 + [Configurare flussi di lavoro voci](configure-line-item-workflow.md)
 + [Domande frequenti sul flusso di lavoro](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Esplosione di una versione DBA
 description: Questo articolo descrive uno scenario di pianificazione generale che include l'esplosione di una versione di distinta base (DBA).
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 482c036294f525be5db1dc6efefe76a9ba5b3ce5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431385"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187412"
 ---
 # <a name="explosion-of-a-bom-version"></a>Esplosione di una versione DBA
 
@@ -39,8 +36,7 @@ Un'esplosione della domanda di una versione DBA (distinta base) crea una domanda
 
 Nella figura riportata di seguito è illustrato il processo di esplosione della domanda nella pianificazione generale. ![Esplosione della domanda mediante una versione DBA](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Determinare la versione DBA](master-plan-bom-version-determined.md)
 
@@ -48,3 +44,6 @@ Nella figura riportata di seguito è illustrato il processo di esplosione della 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

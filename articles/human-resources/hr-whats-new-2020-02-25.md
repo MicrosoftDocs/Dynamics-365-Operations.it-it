@@ -1,33 +1,32 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (25 febbraio 2020)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 25 febbraio 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6f8a8795b1af59339e920281ffc46139fb9c45e2
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526812"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061203"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (25 febbraio 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Questo articolo descrive le funzionalità nuove o modificate in Dynamics 365 Human Resources. Le modifiche si applicano alla build 8.1.2927. I numeri tra parentesi in alcune intestazioni si riferiscono ai numeri del supporto in LCS per riferimento.
 
@@ -55,15 +54,15 @@ Con questa modifica, viene visualizzato un avviso quando si tenta di eliminare u
 
 Questa modifica risolve un problema in cui i partecipanti di conferma aggiuntivi venivano aggiunti alla revisione delle prestazioni.
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>Assegnazione della posizione del lavoratore non creata in Common Data Service quando selezionata nella finestra di dialogo Nuovo lavoratore (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>Assegnazione della posizione del lavoratore non creata in Dataverse quando selezionata nella finestra di dialogo Nuovo lavoratore (413479)
 
-Questa modifica corregge un problema durante l'assunzione di un nuovo lavoratore e l'assegnazione della nuova assunzione a una posizione nella finestra di dialogo **Nuovo lavoratore**. Ora l'assegnazione della posizione si riflette in Common Data Service.
+Questa modifica corregge un problema durante l'assunzione di un nuovo lavoratore e l'assegnazione della nuova assunzione a una posizione nella finestra di dialogo **Nuovo lavoratore**. Ora l'assegnazione della posizione si riflette in Dataverse.
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-### <a name="updated-common-data-service-solution"></a>Soluzione Common Data Service aggiornata
+### <a name="updated-dataverse-solution"></a>Soluzione Dataverse aggiornata
 
-Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti modifiche:
+Una nuova soluzione Dataverse sarà presto disponibile con le seguenti modifiche:
 
 | Descrizione | Modifica |
 | ----------------------------------------- | --- |
@@ -74,9 +73,9 @@ Una nuova soluzione Common Data Service sarà presto disponibile con le seguenti
 | Nuove entità di impostazione della retribuzione variabile | **Tipo di piano di retribuzione variabile**</br>**Piano di retribuzione variabile**</br>**Regole distribuzione incentivi**</br>**Livello del piano di retribuzione variabile** |
 | Nuova entità **Impiego calendario lavoratore** | Aggiunta di **Entità calendario lavoro** |
 | Nuova entità **Dettagli posizione di retribuzione** | Aggiunta di **Dettagli posizione di retribuzione** |
-| Nuova entità **Titolo** | Aggiunta di **Titolo**. La nuova entità **Titolo** sarà inclusa nel processo di sincronizzazione tra Human Resources e Common Data Service. Inizialmente non vi verrà fatto riferimento dalle entità **Posizione lavorativa** o **Posizione**. |
+| Nuova entità **Titolo** | Aggiunta di **Titolo**. La nuova entità **Titolo** sarà inclusa nel processo di sincronizzazione tra Human Resources e Dataverse. Inizialmente non vi verrà fatto riferimento dalle entità **Posizione lavorativa** o **Posizione**. |
 
-Nelle prossime settimane, questi cambiamenti di entità saranno disponibili in tutti gli ambienti. Per installare manualmente l'ultima soluzione Common Data Service per Human Resources:
+Nelle prossime settimane, questi cambiamenti di entità saranno disponibili in tutti gli ambienti. Per installare manualmente l'ultima soluzione Dataverse per Human Resources:
 
 1.  Accedere all'[Interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -103,6 +102,8 @@ Le seguenti funzionalità di anteprima diventano disponibili a partire dal 3 feb
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

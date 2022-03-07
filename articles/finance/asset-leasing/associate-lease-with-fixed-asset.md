@@ -2,30 +2,32 @@
 title: Associare cespiti a leasing
 description: L'argomento spiega come associare un cespite esistente a un nuovo leasing.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseDetail
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
-ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
+ms.openlocfilehash: d627633e43c2e6f5cad90dfe4100ff95a71541f7
+ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7392476"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4444989"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Associare cespiti a leasing
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 L'argomento spiega come associare un cespite esistente a un nuovo leasing. Quando si associa un cespite a un leasing, il valore dell'Asset Right of use al riconoscimento iniziale sarà il costo di acquisizione del cespite.
 
@@ -50,18 +52,5 @@ Dopo aver registrato la scrittura contabile di riconoscimento iniziale, la trans
 
 Il cespite può ora essere ammortizzato utilizzando la funzionalità di ammortamento standard in Cespiti. Per ulteriori informazioni sull'ammortamento, vedi [Metodi e convenzioni di ammortamento](../fixed-assets/depreciation-methods-conventions.md).
 
-Quando un leasing è associato a un cespite, il campo **Vita utile** nel libro cespiti verrà aggiornato per allinearsi al valore più piccolo tra i seguenti criteri: 
-
- - La vita utile del cespite
- - Il termine del leasing dal libro di leasing associato
-
-Se il campo **Trasferimento di proprietà** è impostato a **Sì** per il libro delle locazioni, il valore nel campo **Vita** utile sarà sempre la vita utile del bene. 
- 
-La vita utile verrà aggiornata ogni volta che il leasing viene modificato per garantire che l'Asset Right of use venga ammortizzato nel corso del leasing, come se fosse ammortizzato in Leasing cespite.
-
 > [!NOTE]
 > Se associ un cespite a un leasing, i pulsanti **Ammortamento dei cespiti** e **Riduzione del valore del leasing** sono disabilitati in Leasing cespite. Puoi visualizzare l'ammortamento dei cespiti e le transazioni di riduzione del leasing da Cespiti. Anche il pulsante **Transazioni cespiti** che apre un modulo di richiesta è disabilitato. Puoi anche aprire il modulo di richiesta **Transazioni cespiti** in Cespiti.  
-
-Le pagine **Cespiti** e **Libro cespiti** visualizzeranno l'ID leasing associato a un cespite. Se un cespite è associato a un leasing, l'ID e la descrizione del leasing verranno visualizzati nella Scheda dettaglio **Informazioni sul leasing** nella pagina **Cespiti**. Per i libri cespiti associati ai libri di leasing, i campi **ID leasing**, **Descrizione leasing** e **Tipo di libro** visualizzeranno le informazioni per il libro cespiti selezionato nella Scheda dettaglio **Informazioni sul leasing** per indicare che è associato a un libro di leasing.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

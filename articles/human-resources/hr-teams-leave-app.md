@@ -1,58 +1,50 @@
 ---
 title: Gestire le richieste di congedo in Teams
 description: Questo argomento mostra come richiedere tempo libero nell'app Dynamics 365 Human Resources in Microsoft Teams.
-author: andreabichsel
-manager: AnnBe
-ms.date: 10/28/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4419284"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924749"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gestire le richieste di congedo in Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-L'app Microsoft Dynamics 365 Human Resources in Microsoft Teams ti consente di richiedere rapidamente permessi e di visualizzare le informazioni sul loro saldo permessi direttamente in Microsoft Teams. Puoi interagire con un bot per richiedere informazioni e avviare una richiesta di congedo. La scheda **Tempo libero** fornisce informazioni più dettagliate. È inoltre possibile inviare alle persone informazioni sulla imminente indisponibilità in team e chat al di fuori dell'app Human Resources.
+L'app Dynamics 365 Human Resources in Microsoft Teams ti consente di richiedere rapidamente permessi e di visualizzare le informazioni sul loro saldo permessi direttamente in Microsoft Teams. Puoi interagire con un bot per richiedere informazioni e avviare una richiesta di congedo. La scheda **Tempo libero** fornisce informazioni più dettagliate. È inoltre possibile inviare alle persone informazioni sulla imminente indisponibilità in Teams e chat al di fuori dell'app Human Resources.
 
 ## <a name="install-the-app"></a>Installa l'app
 
-Puoi trovare l'app Human Resources nello store di Teams.
+Puoi trovare l'app Dynamics 365 Human Resources nello store di Teams.
 
-1. In Microsoft Teams, seleziona i puntini di sospensione.
-
-   ![Puntini di sospensione dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-ellipses.png)
+1. In Microsoft Teams, accedi all'elenco delle app.
  
 2. Cerca Dynamics 365 Human Resources, quindi seleziona il riquadro **Human Resources**.
 
-   ![Riquadro HR dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-human-resources-tile.png)
+> [!NOTE]
+> A partire dal 20 dicembre 2021, i servizi bot dell'app Human Resources (versione 1.1.4) ospitati nel tenant Microsoft verranno disattivati. L'estensione più aggiornata (versione 1.1.5) è disponibile per l'installazione. Per ulteriori informazioni, vedi [Gestire richieste di congedo in Teams](hr-admin-teams-leave-app.md#update-app).
 
 3. Seleziona il pulsante **Aggiungi** per installare l'app.
 
-   ![Installazione dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-in-store.png)
-
 Se l'app non ti consente di accede automaticamente, seleziona la scheda **impostazioni** per accedere.
 
-![Scheda Impostazioni dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-settings-tab.png)
-
 > [!NOTE]
-> Se non vedi una finestra di accesso, controlla le impostazioni del browser per consentire i popup. 
+> Se non vedi una finestra di accesso, aggiorna le impostazioni del browser per consentire i popup. 
 
 Se hai accesso a più di un'istanza di Human Resources, puoi selezionare a quale ambiente vuoi connetterti nella scheda **Impostazioni**.
 
@@ -63,36 +55,32 @@ Se hai accesso a più di un'istanza di Human Resources, puoi selezionare a quale
 
 Dopo l'installazione dell'app, viene visualizzato un messaggio di benvenuto che ti informa sui tipi di azioni che il bot può eseguire per tuo conto.
 
-![Messaggio di benvenuto del bot dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
-> Quando interagisci per la prima volta con il bot, potresti dover eseguire l'accesso. Se non vedi una finestra di accesso, controlla le impostazioni del browser per consentire i popup.
+> Quando interagisci per la prima volta con il bot, potresti dover eseguire l'accesso. Se non vedi una finestra di accesso, aggiorna le impostazioni del browser per consentire i popup.
 
 Puoi chiedere al bot di:
 
-- Mostra le informazioni sul saldo dei permessi per ciascun tipo di congedo a cui sei registrato.
+- Visualizza i saldi attuali delle ferie. Ad esempio, invia un messaggio che dice "Visualizza i saldi delle ferie".
 
-   ![Visualizzazione saldi dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Mostra ulteriori dettagli su un tipo di congedo specifico.
+- Inizia una richiesta di ferie per te. Ad esempio, invia un messaggio che dice "Prenditi un periodo di ferie" o "Voglio prendere delle ferie il prossimo giovedì e venerdì" per essere più specifico per la richiesta di ferie per il tipo di ferie. 
 
-   ![Visualizzazione dettagli dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot-details.png)
+  ![Avviare una richiesta di congedo nella chat di Teams.](./media/hr-teams-leave-app-initiate.png)
 
-- Inizia una richiesta di ferie per te.
+- Il chat bot popolerà automaticamente una richiesta di congedo. Selezionare **Richiedere un permesso** e modificare i dettagli della richiesta.
 
-   ![Richiesta permesso dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot-request.png)
- 
-Dopo aver avviato una richiesta di congedo, è possibile modificare i giorni direttamente nella scheda.
+   Se desideri inviare richieste di ferie per più tipi di ferie per la stessa data, seleziona l'opzione **Suddividi giorno con** dal menu **Altre opzioni**. 
 
-![Modifica richiesta dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot-edit.png)
- 
-Al termine dell'immissione delle informazioni, selezionare **Invia** per inviarle per l'approvazione. Puoi anche selezionare **Salva come bozza** per tornare più tardi.
+   Se selezioni un permesso per metà giornata quando l'unità di richiesta di ferie è in giorni, puoi specificare se desideri richiedere il permesso per la prima metà della giornata o la seconda metà della giornata selezionando l'opzione **Definizione metà giornata** dal menu **Altre opzioni**.
+   
+   ![Definizioni di metà giornata.](./media/HalfDayDefinitions.png)
 
-![Invio richiesta nell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-bot-submit.png)
+- Dopo la modifica dei dettagli della richiesta di congedo, selezionare **Invia** per inviarla per l'approvazione.
+
+  ![Inviare la richiesta di congedo.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Gestire i congedi in Teams
 
-La scheda **Tempo libero** ti consente di visualizzare:
+La scheda **Tempo libero** ti consente di visualizzare: 
 
 - Informazioni sul saldo per ciascun tipo di congedo a cui sei registrato
 
@@ -101,34 +89,30 @@ La scheda **Tempo libero** ti consente di visualizzare:
 - Richieste di tempo libero
 
 - Bozza di richieste di congedo
-
-![Scheda Tempo libero dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Crea una nuova richiesta
 
 1. Per creare una nuova richiesta di congedo, seleziona **Nuova richiesta**.
 
-   ![Nuova richiesta dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Immetti il giorno o i giorni che desideri prendere come congedo, quindi seleziona **Aggiungi**.
 
-   ![Aggiungi congedo app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Aggiungi congedo app per i permessi Human Resources in Teams.](./media/TimeOffHours.png)
 
 3. Se applicabile, inserisci un codice motivo. Inserisci anche eventuali commenti e aggiungi eventuali allegati.
 
-4. Al termine dell'immissione delle informazioni, digita **Invia** per inviarle per l'approvazione. Puoi anche digitare **Salva come bozza** per tornare più tardi.
+4. Se desideri inviare richieste di ferie per più tipi di ferie per la stessa data, seleziona l'opzione **Suddividi giorno con** dal menu **Altre opzioni**.
+
+5. Seleziona l'opzione **Definizione metà giornata** per specificare se desideri richiedere la prima metà della giornata di permesso o la seconda metà della giornata di permesso. Questa opzione è disponibile quando l'unità richiesta di ferie è in giorni e l'importo richiesto è 0,5 giorni.
+
+6. Al termine dell'immissione delle informazioni, immetti **Invia** per inviarle per l'approvazione. Puoi anche immettere **Salva come bozza** per tornare più tardi.
 
 ### <a name="manage-draft-requests"></a>Gestisci bozze di richiesta
 
 1. Seleziona la scheda **Bozze**.
 
-   ![Scheda Bozze dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Seleziona la matita per modificare la richiesta o seleziona il cestino per eliminare la richiesta.
 
 3. Apporta le modifiche necessarie. Al termine dell'immissione delle informazioni, digita **Invia** per inviarle per l'approvazione. Puoi anche selezionare **Salva come bozza** per tornare più tardi.
-
-   ![Modifica bozza dell'app per i permessi Human Resources in Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Rispondere alle notifiche di Teams
 
@@ -136,27 +120,19 @@ Quando l'utente o un lavoratore per cui l'utente è un approvatore invia una ric
 
 Se l'utente è un approvatore, è possibile selezionare **Approva** o **Rifiuta** nella notifica. È anche possibile fornire un messaggio opzionale.
 
-![Notifica della richiesta di congedo nell'app Human Resources in Teams](./media/hr-teams-leave-app-notification.png)
-
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Inviare le informazioni sulla prossima indisponibilità ai tuoi colleghi
 
 Dopo aver installato l'app Human Resources per Teams, puoi inviare facilmente informazioni sulla tua imminente indisponibilità ai tuoi colleghi in team o chat.
 
 1. In un team o in una chat in Teams seleziona il pulsante Human Resources sotto la finestra della chat.
 
-   ![Pulsante Human Resources sotto la finestra della chat](./media/hr-teams-leave-app-chat-button.png)
+   ![Pulsante Human Resources sotto la finestra della chat.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Seleziona la richiesta di congedo che desideri condividere. Se desideri condividere una bozza di richiesta di congedo, seleziona prima **Bozza**.
 
-   ![Selezionare una richiesta di congedo imminente da condividere](./media/hr-teams-leave-app-chat-search.png)
-
 La tua richiesta di congedo verrà visualizzata nella chat.
 
-![Scheda richiesta di congedo per Human Resources](./media/hr-teams-leave-app-chat-card.png)
-
-Se hai condiviso una bozza di richiesta, verrà visualizzata come bozza:
-
-![Scheda richiesta di congedo per Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
+Se hai condiviso una bozza di richiesta, verrà visualizzata come bozza.
 
 ## <a name="view-your-teams-leave-calendar"></a>Visualizzare un calendario di congedo del team
 
@@ -164,21 +140,53 @@ Se l'utente è un responsabile con diretti subalterni può visualizzare i conged
 
 1. Nell'app Human Resources in Teams selezionare **Permesso**.
 
-2. Selezionare **Calendario del team**.
+2. Selezionare **Calendario del team**. Il calendario mostra i permessi approvati e in attesa di approvazione dei diretti subalterni.
 
-   ![Visualizzare il calendario nell'app Human Resources in Teams](./media/hr-teams-leave-app-view-calendar.png)
+   > [!NOTE]
+   > Se il calendario del team non è visibile, chiedere all'amministratore di abilitarlo. Per ulteriori informazioni, vedere [Installare e configurare](hr-admin-teams-leave-app.md#install-and-setup).
 
-Il calendario mostra i permessi approvati e in attesa di approvazione dei diretti subalterni.
+## <a name="supported-languages"></a>Lingue supportate
 
-![Calendario dei permessi nell'app Human Resources in Teams](./media/hr-teams-leave-app-calendar.png)
+L'app Dynamics 365 Human Resources in Teams supporta le lingue seguenti:
+
+| ID locale | Lingua |
+| --- | --- |
+| de-DE | Tedesco (Germania) |
+| es-ES | Spagnolo (Spagna) |
+| es-MX | Spagnolo (Messico) |
+| fr-CA | Francese (Canada) |
+| fr-FR | Francese (Francia) |
+| it-IT | Italiano (Italia) |
+| nl-NL | Olandese (Paesi Bassi) |
+| pt-BR | Portoghese (Brasile) |
+| tr-TR | Turco (Turchia) |
+| zh-CN | Cinese (semplificato) |
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 
-Se hai problemi ad accedere o utilizzare l'app Human Resources in Teams, prova a seguire queste istruzioni per la risoluzione dei problemi. Se i problemi persistono dopo la risoluzione dei problemi, contatta il supporto. Per ulteriori informazioni, vedere [Ottenere supporto](hr-admin-troubleshooting-support.md).
+Se si hanno problemi ad accedere o utilizzare l'app Dynamics 365 Human Resources in Teams, seguire queste istruzioni per la risoluzione dei problemi. Se i problemi persistono dopo la risoluzione dei problemi, contatta il supporto. Per ulteriori informazioni, vedere [Ottenere supporto](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Non è possibile accedere all'app Human Resources in Teams
 
 Se non riesci ad accedere all'app, è possibile che l'account che stai utilizzando per accedere a Microsoft Teams non è associato a un record dipendente in Dynamics 365 Human Resources. Contatta l'amministratore di sistema per assicurarti che il record dipendente sia associato correttamente.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Impossibile trovare l'ambiente Dynamics 365 Human Resources in Impostazioni
+
+Se non riesci a selezionare l'ambiente Dynamics 365 corretto, il record utente potrebbe non essere stato sincronizzato correttamente. Contatta l'amministratore di sistema per ricreare il record utente e associarlo alle credenziali dell'utente. Quindi prova ad accedere all'app Human Resources per Microsoft Teams dopo pochi minuti.
+
+### <a name="translations-dont-display-correctly"></a>Le traduzioni non vengono visualizzate correttamente
+
+Se le traduzioni non vengono visualizzate come previsto, assicurarsi che la lingua selezionata in Teams corrisponda alla lingua selezionata in **Opzioni utente** di Human Resources.
+
+In Teams, esaminare **Lingua dell'app** in **Impostazioni**.
+
+![Impostazioni di Teams.](./media/hr-teams-leave-app-settings.png)
+
+In Human Resources, selezionare **Impostazioni** e quindi **Opzioni utente**. Verificare che il campo **Lingua** corrisponda al campo **Lingua dell'app** in Teams.
+
+![Opzioni utente di Human Resources.](./media/hr-teams-leave-app-user-options.png)
+
+Se si riscontrano ancora problemi di traduzione, contattarci. Per informazioni, vedere [Ottenere supporto per le app Finance and Operations o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Errore durante l'approvazione delle richieste di congedo nell'app Human Resources in Teams
 
@@ -188,6 +196,14 @@ Se viene visualizzato un errore quando si tenta di approvare le richieste di con
 
 2. Verifica di essere un responsabile approvazione valido per la richiesta controllando le impostazioni del flusso di lavoro per l'approvazione del congedo. Per ulteriori informazioni sui flussi di lavoro delle richieste di congedo, vedi [Creare un flusso di lavoro di richieste di congedo](hr-leave-and-absence-workflow.md).
 
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>I responsabili dell'approvazione congedo non ricevono i messaggi di chat di Teams per approvare le richieste di congedo
+
+1. Assicurati che le notifiche siano abilitate per l'ambiente e per l'utente. Per ulteriori informazioni, vedere [Abilitare le notifiche per l'app Human Resources in Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) e [Attivare o disattivare le notifiche di Teams per i singoli utenti](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. Assicurati che gli utenti abbiano effettuato l'accesso alla scheda **Chat** con le stesse credenziali che utilizzano per approvare le richieste di congedo. Utilizzare i messaggi "disconnettersi" e quindi "accedere" per accedere con le credenziali corrette.
+
+3. Se il problema persiste, controllare lo stato del processo batch di sistema **Eventi aziendali** come amministratore di sistema. Se è in una fase di **attesa** o di **esecuzione**, ricontrolla tra qualche minuto. Se lo stato rimane invariato, registra un ticket di supporto in modo che il nostro team possa aiutare a risolvere il problema.
+
 ## <a name="known-accessibility-issues"></a>Problemi di accessibilità noti
 
 L'app Human Resources in Teams presenta i seguenti problemi di accessibilità che stiamo cercando di risolvere nelle versioni future.
@@ -196,10 +212,8 @@ L'app Human Resources in Teams presenta i seguenti problemi di accessibilità ch
 | --- | --- |
 | Lo zoom al 400% sul desktop nasconde alla vista alcuni pulsanti di azione. | Consigliamo di utilizzare invece una lente d'ingrandimento fino a quando non saremo in grado di supportare questo livello di zoom. |
 | Nella scheda **Permesso**, VoiceOver annuncia l'azione di un pulsante durante la lettura dell'intestazione per la griglia del permesso. | L'intestazione e gli elementi all'interno della griglia sono raggruppati per anno e sono comprimibili. VoiceOver lo interpreta come un elemento utilizzabile, ma non lo è. |
-| Se si scorre mentre un popup o un menu è aperto, VoiceOver ignora la lettura del popup o del contenuto del menu. | Esplorare il contenuto utilizzando la scansione delle dita. |
 | Nella scheda **Permesso** c'è un ulteriore gesto di scorrimento per la navigazione verso **Codice motivo** in una nuova richiesta. | Non ci sono controlli nascosti che la navigazione a scorrimento sta cercando di raggiungere. |
 | Nella scheda **Permesso** se si scorre mentre il calendario è aperto, si esce dal controllo invece che all'inizio di una nuova richiesta o durante la modifica di una richiesta. | Quando si raggiunge **Vai a oggi**, considerarlo come la fine del controllo e scorrere nella direzione opposta per tornare all'inizio. |
-| VoiceOver non legge le etichette per le date. | Le date rilevate in coppia sono sempre **Data d'inizio** e **Data di fine**. |
 | Nella scheda **Chat**, lo stato attivo torna all'inizio quando si immette una data mentre si utilizza lo strumento di assistenza o la navigazione da tastiera. | Premere TAB fino a raggiungere nuovamente l'area di immissione. |
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
@@ -218,14 +232,17 @@ Per gestire le impostazioni di amministrazione per le app in Microsoft Teams, va
 
 Quando si utilizza l'app Dynamics 365 Human Resources in Microsoft Teams, alcuni dati dei clienti passeranno al di fuori dell'area geografica in cui è distribuito il servizio Human Resources del tenant.
 
-Dynamics 365 Human Resources trasmette la richiesta di congedo del dipendente e i dettagli dell'attività del flusso di lavoro alla Griglia di eventi di Microsoft Azure e Microsoft Teams. Questi dati possono essere archiviati in Griglia di eventi di Microsoft Azure per un massimo di 24 ore e verranno elaborati negli Stati Uniti, vengono crittografati i dati in transito e inattivi e non vengono utilizzati da Microsoft o dai collaboratori di elaborazione per la formazione o il miglioramento del servizio. Per capire dove sono archiviati i dati in Teams, vedi: [Posizione dei dati in Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+Dynamics 365 Human Resources trasmette la richiesta di congedo del dipendente e i dettagli dell'attività del flusso di lavoro alla Griglia di eventi di Microsoft Azure e Microsoft Teams. Questi dati possono essere archiviati in Griglia di eventi di Microsoft Azure per un massimo di 24 ore e verranno elaborati negli Stati Uniti, vengono crittografati i dati in transito e inattivi e non vengono utilizzati da Microsoft o dai collaboratori di elaborazione per la formazione o il miglioramento del servizio. Per capire dove sono archiviati i dati in Teams, vedi: [Posizione dei dati in Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 
-Durante la conversazione con il chat bot nell'app Human Resources, il contenuto della conversazione può essere archiviato in Azure Cosmos DB e trasmesso a Microsoft Teams. Questi dati possono essere archiviati in Azure Cosmos DB per un massimo di 24 ore e possono essere elaborati al di fuori dell'area geografica in cui è distribuito il servizio Human Resources del tenant, vengono crittografati i dati in transito e inattivi e non vengono utilizzati da Microsoft o dai collaboratori di elaborazione per la formazione o il miglioramento del servizio. Per capire dove sono archiviati i dati in Teams, vedi: [Posizione dei dati in Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+Durante la conversazione con il chat bot nell'app Human Resources, il contenuto della conversazione può essere archiviato in Azure Cosmos DB e trasmesso a Microsoft Teams. Questi dati possono essere archiviati in Azure Cosmos DB per un massimo di 24 ore e possono essere elaborati al di fuori dell'area geografica in cui è distribuito il servizio Human Resources del tenant, vengono crittografati i dati in transito e inattivi e non vengono utilizzati da Microsoft o dai collaboratori di elaborazione per la formazione o il miglioramento del servizio. Per capire dove sono archiviati i dati in Teams, vedi: [Posizione dei dati in Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
  
-Per limitare l'accesso all'app Human Resources in Microsoft Teams per la tua organizzazione o per gli utenti all'interno della tua organizzazione, vedi [Gestisci i criteri di autorizzazione delle app in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
+Per limitare l'accesso all'app Human Resources in Microsoft Teams per la tua organizzazione o per gli utenti all'interno della tua organizzazione, vedi [Gestisci i criteri di autorizzazione delle app in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Vedere anche
 
 [Scaricare e installare Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Centro assistenza di Microsoft Teams](https://support.office.com/teams)</br>
 [App Human Resources in Teams](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

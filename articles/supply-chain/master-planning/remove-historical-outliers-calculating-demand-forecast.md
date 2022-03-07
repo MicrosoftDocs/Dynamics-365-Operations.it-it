@@ -1,30 +1,27 @@
 ---
 title: Eliminare gli outlier dai dati di transazione storici quando si calcolo una previsione della domanda
 description: In questo articolo viene descritto come escludere gli outlier dai dati storici utilizzati per calcolare una previsione della domanda. Escludendo gli outlier, è possibile migliorare la precisione previsione.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastParameters, ReqDemPlanOutlierQuerySetup, ReqDemPlanOutlierQueryPreview
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72621
 ms.assetid: 88a964af-14eb-4c5c-945b-388e5908362c
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dec963ed5abd6f77e82029a3ea5ba1a69d44e36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc0826d3a0dd8ded19590867e9a8138bb772c89a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431019"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568641"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Eliminare gli outlier dai dati di transazione storici quando si calcolo una previsione della domanda
 
@@ -42,8 +39,7 @@ In questo articolo viene descritto come escludere gli outlier dai dati storici u
 
 **Nota:** È inoltre possibile creare una query in base a una query esistente. Selezionare la query da copiare, quindi fare clic su **Duplicato**. Nel campo **Data query** viene identifica la versione. È possibile utilizzare la query come è, oppure fare clic su **Modifica query** per modificare i criteri. Si può scegliere di modificare il nome e la descrizione della nuova query.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica previsioni della domanda](introduction-demand-forecasting.md)
 
@@ -51,3 +47,6 @@ In questo articolo viene descritto come escludere gli outlier dai dati storici u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

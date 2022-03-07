@@ -2,26 +2,23 @@
 title: Miglioramenti cXML per gli acquisti
 description: La funzionalità Miglioramenti cXML per gli acquisti si basa sulla funzionalità del catalogo esterno esistente, PunchOut, utilizzata per le richieste di acquisto.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d7184f14ab67d646451c8c2b1313336d47e59316
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431579"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825280"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Miglioramenti cXML per gli acquisti
 
@@ -277,3 +274,6 @@ Per visualizzare il contenuto di un riconoscimento del fornitore o di una rispos
 
 - [Configurare un catalogo esterno per PunchOut e-procurement](set-up-external-catalog-for-punchout.md)
 - [Usare cataloghi esterni per PunchOut e-procurement](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

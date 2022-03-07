@@ -2,36 +2,30 @@
 title: Moduli Raccolta prodotti
 description: Questo argomento fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 222bb25b6851fe60f3d872e5d7431094ac916dd4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413327"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791008"
 ---
-# <a name="product-collection-modules"></a>Moduli Raccolta prodotti
-
+# <a name="product-collection-modules"></a>Moduli raccolta prodotti
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 L'individuazione di prodotti è uno strumento principale che i rivenditori utilizzano per interagire con i propri clienti in un sito Web di e-Commerce. I moduli Raccolta prodotti consentono ai rivenditori di creare esperienze di acquisto convincenti fornendo un'interfaccia visiva intuitiva che può essere utilizzata per generare rapidamente raccolte di prodotti.
 
@@ -67,6 +61,10 @@ Nella tabella seguente vengono descritti i vari tipi di moduli Raccolta prodotti
 | Spesso acquistati insieme | Intelligenza artificiale/machine learning | Questo modulo utilizza l'apprendimento automatico per analizzare i criteri di acquisto dei consumatori e suggerisce articoli correlati che vengono acquistati spesso insieme a un determinato prodotto. Questo elenco può mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione. |
 | Alle persone piace anche           | Intelligenza artificiale/machine learning | Questo modulo utilizza l'apprendimento automatico per analizzare i criteri di acquisto dei consumatori e suggerisce articoli correlati a un determinato prodotto. Questo elenco può mostrare risultati personalizzati per un utente che ha effettuato l'accesso se l'autore del sito sceglie tale opzione. |
 | Selezioni personalizzate              | Intelligenza artificiale/machine learning | Questo modulo utilizza l'apprendimento automatico per analizzare i modelli di acquisto dell'utente che ha effettuato l'accesso e fornire consigli personalizzati basati su tali modelli di acquisto. Per un utente guest, questo elenco verrà compresso. |
+
+## <a name="supported-modules"></a>Moduli supportati 
+
+Il modulo di raccolta del prodotto supporta il [modulo di visualizzazione rapida](quick-view-module.md), che consente agli utenti di visualizzare le informazioni sul prodotto e aggiungere articoli al carrello da una pagina di raccolta del prodotto.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Aggiungere un modulo Raccolta prodotti a una pagina categoria
 
@@ -109,3 +107,8 @@ Nella seguente tabella sono indicati i tipi di elenco selezionabili nella finest
 [Modulo casella acquisti](add-buy-box.md)
 
 [Panoramica suggerimenti sul prodotto](product-recommendations.md)
+
+[Modulo visualizzazione rapida](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

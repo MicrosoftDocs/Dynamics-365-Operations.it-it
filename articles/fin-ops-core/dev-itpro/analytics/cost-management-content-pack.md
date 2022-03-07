@@ -2,11 +2,9 @@
 title: Contenuto Power BI per la gestione dei costi
 description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Gestione costi.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683897"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752642"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenuto Power BI per la gestione dei costi
 
@@ -32,11 +30,6 @@ ms.locfileid: "4683897"
 ## <a name="overview"></a>Panoramica
 
 Il contenuto Microsoft Power BI **Gestione costi** è destinato ai contabili di inventario o agli utenti nell'organizzazione responsabili o interessati allo stato dell'inventario o WIP o ai responsabili o interessati all'analisi degli scostamenti dei costi standard.
-
-> [!NOTE]
-> Il contenuto Power BI **Gestione costi** descritto in questo argomento si applica a Dynamics 365 Finance and Operations 8.0.
-> 
-> Il pacchetto di contenuti Power BI **Gestione costi**, disponibile sul sito AppSource, è stato deprecato. Per ulteriori informazioni sulla deprecazione, vedere [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Il contenuto Power BI si presenta in un formato strutturato in categorie che aiuta a monitorare le prestazioni degli inventari e a visualizzare il flusso dei costi. È possibile estrapolare informazioni approfondite manageriali, ad esempio l'indice di rotazione, il numero di giorni in cui l'inventario è a disposizione, la precisione e la "classificazione ABC" al livello di aggregazione preferito (società, articolo, gruppo di articoli o sito). Le informazioni disponibili possono essere utilizzate anche come supplemento dettagliato al rendiconto finanziario.
 
@@ -207,3 +200,6 @@ La seguenti dimensioni chiave vengono utilizzate come filtri per dividere le mis
 | Persone giuridiche                                          | Nomi di persone giuridiche                              |
 | Calendari fiscali                                        | Calendario fiscale, anno, trimestre, periodo, mese   |
 | Sito                                                    | ID, nome, indirizzo, Stato/regione, paese               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

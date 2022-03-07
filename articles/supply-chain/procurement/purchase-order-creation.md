@@ -1,12 +1,10 @@
 ---
 title: Creazione degli ordini fornitore
 description: In questo articolo vengono descritti il processo e le opzioni di creazione manuale di un ordine fornitore.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022283"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575514"
 ---
 # <a name="create-purchase-orders"></a>Creazione degli ordini fornitore
 
@@ -67,7 +65,7 @@ In alcuni casi, è possibile che si voglia dividere la quantità che è stata or
 Le spese possono essere aggiunte automaticamente alle righe dell'ordine se le spese automatiche sono state impostate per il fornitore o il gruppo di spese del fornitore e per l'articolo o il gruppo di spese dell'articolo. Tuttavia, in genere, le spese vengono aggiunte manualmente a livello di riga dell'ordine. Per aggiungere una spesa, aprire la pagina **Gestisci spese** utilizzando l'azione **Gestisci spese** nel menu **Dati finanziari** della visualizzazione **Righe**. Il vantaggio dell'aggiunta di spese direttamente a livello di riga è che l'addebito può essere allocato come un costo di magazzino. Per impostare i codici di addebito in modo da registrare il costo del prodotto, utilizzare l'opzionedi addebito **Articolo**. Questi tipi di spese devono essere allocati dall'intestazione dell'ordine fornitore alle righe prima di poter confermare l'ordine. Ad esempio, si potrebbe desiderare di allocare le spese in base alla quantità di ciascuna riga. La categoria di spesa influisce anche su come le spese vengono registrate. Ad esempio, le spese fisse specificano un importo fisso e le spese percentuali vengono calcolate come percentuale dell'importo netto per la riga ordine. I PO possono essere assegnati a un carico e il carico può includere una stima della spesa prevista per il costo di trasporto. È possibile allocare questa spesa dal carico alle righe dell'ordine fornitore.
 
 ## <a name="purchase-order-actions"></a>Azioni degli ordini fornitore
-Dopo aver aggiunto l'intestazione e righe all'ordine fornitore, spesso è necessario completare passaggi aggiuntivi prima che l'ordine sia pronto per essere confermato. Perché così tante opzioni sono disponibili, potrebbe essere utile utilizzare [Ricerca di azioni](../../fin-and-ops/get-started/action-search.md) per trovare la voce di menu desiderata.  
+Dopo aver aggiunto l'intestazione e righe all'ordine fornitore, spesso è necessario completare passaggi aggiuntivi prima che l'ordine sia pronto per essere confermato. Perché così tante opzioni sono disponibili, potrebbe essere utile utilizzare [Ricerca di azioni](../../fin-ops-core/fin-ops/get-started/action-search.md) per trovare la voce di menu desiderata.  
 
 È possibile configurare i prodotti nell'ordine in modo che abbiano articoli supplementari. Gli articoli supplementari sono prodotti che devono o possono essere acquistati con altri prodotti. Prodotti supplementari possono essere aggiunti come prodotti di accompagnamento gratuiti, o potrebbe essere possibile decidere se si aggiungerli all'ordine o no. È possibile esaminare gli articoli supplementari dopo ogni riga di ordine che viene aggiunta. Tuttavia, è probabilmente più comodo rivedere e aggiungere articoli supplementari pertinenti per tutte le righe ordine utilizzando la pagina **Articoli supplementari** che è possibile aprire dal riquadro azioni.  
 
@@ -82,8 +80,7 @@ I PO possono essere configurati per richiedere che i fondi budget siano allocati
 
 Potrebbe essere necessario ritardare il completamento di un ordine fornitore. Ad esempio, si potrebbero richiedere ulteriori informazioni sui prodotti o servizi, o potrebbe essere necessario ottenere l'autorizzazione per la spesa. Esistono diversi modi per sospendere un ordine. Ad esempio, è possibile attendere per confermare l'ordine. In alternativa, se si utilizza un flusso di lavoro di gestione delle modifiche, non inviare l'ordine per l'approvazione. Se è necessario bloccare tutti gli ordini per un determinato fornitore, è anche possibile contrassegnare il fornitore come **In attesa** di elaborazione nei dati master fornitori. Esistono inoltre circostanze che potrebbero impedire l'elaborazione dell'ordine. Ad esempio, l'elaborazione potrebbe essere impedita se sono stati superati i limiti di credito, o se i fondi budget richiesti non sono disponibili.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica degli ordini fornitore](purchase-order-overview.md)
 
@@ -95,3 +92,6 @@ Potrebbe essere necessario ritardare il completamento di un ordine fornitore. Ad
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

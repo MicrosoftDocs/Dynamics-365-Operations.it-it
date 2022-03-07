@@ -2,29 +2,28 @@
 title: Panoramica sulla conversione in costo standard
 description: Questo articolo fornisce una panoramica del processo per impostare ed eseguire una conversione in costo standard. I passaggi elencati devono essere completati dopo il completamento dei prerequisiti per una conversione in costo standard.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 78212
+ms.custom:
+- "78212"
+- intro-internal
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9796449bee4361b2b871af10d30341c2f0760ab1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431228"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982691"
 ---
 # <a name="standard-cost-conversion-overview"></a>Panoramica sulla conversione in costo standard
 
@@ -95,10 +94,12 @@ Il report **Rendiconto analisi scostamento** consente di analizzare lo scostamen
 -   Analizzare i movimenti di scorte retrodatati. Utilizzare il report **Valore inventario** per visualizzare i movimenti delle scorte retrodatati immessi dopo la conversione. La Data iniziale e la Data finale per il report devono corrispondere alla data di inizio della transizione e alla data di conversione, meno un giorno. I criteri di selezione del report devono dare come risultato gli articoli convertiti. Nel report sono visualizzati i movimenti delle scorte effettuati a costo standard durante il periodo di transizione.
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Prerequisiti per la conversione in costo standard](prerequisites-standard-cost-conversion.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103515"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355484"
 ---
 # <a name="wave-creation-and-processing"></a>Creazione ed elaborazione dei cicli
 
@@ -190,9 +190,9 @@ Se necessario, è possibile annullare un' ciclo che è stato elaborato. Per annu
 
 Utilizza la pagina **Dettagli processo batch ciclo** per ispezionare i processi batch e le attività correlate associate a qualsiasi ciclo. Ciò è particolarmente utile per la risoluzione dei problemi di un ciclo non riuscito. Senza questa funzione, solo gli amministratori avranno in genere accesso ai dettagli del processo batch. La pagina **Dettagli processo batch ciclo** può essere resa disponibile agli utenti non amministratori e fornisce una visualizzazione di sola lettura dei processi batch e delle attività correlate.
 
-### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Attivare o disattivare la pagina Dettagli processo batch ciclo
+### <a name="enable-the-wave-batch-job-details-page"></a>Abilitare la pagina dettagli processo batch ciclo
 
-A partire dalla versione 10.0.25 di Supply Chain Management, la pagina **Dettagli processo batch ciclo** è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Dettagli processo batch ciclo* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Se il tuo sistema non include già la pagina **Dettagli processo batch ciclo** vai a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzione *Dettagli processo batch ciclo*.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Usare la pagina dettagli processo batch ciclo
 

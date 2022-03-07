@@ -2,28 +2,25 @@
 title: Dettagli delle dichiarazioni IVA per l'Italia
 description: In questo argomento viene illustrato come impostare la dichiarazione IVA per le persone giuridiche in Italia.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxYearlyCom_IT, TaxAuthority, TaxPeriod
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269664
 ms.assetid: af07d122-5694-4de6-96bf-7bf5478b0175
 ms.search.region: Italy
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d799d334d070d2a43f508c034f12b561d606efe4
-ms.sourcegitcommit: 78ef538704e3d774ed274b549163246c226cd3dc
+ms.openlocfilehash: 23794fd0c47bcefe6689168e6582ec32401f0b222a9dd91c27cd5c84d55cd987
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4408125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721707"
 ---
 # <a name="vat-statements-details-for-italy"></a>Dettagli delle dichiarazioni IVA per l'Italia
 
@@ -131,3 +128,6 @@ Per la legislazione italiana, le regole si applicano ai periodi di liquidazione.
 |   <strong>Chiuso</strong>    | Indica se il libro IVA italiano relativo al periodo è stato aggiornato e chiuso automaticamente. |
 | <strong>Ultimo periodo</strong> |             Selezionare questa opzione se si tratta dell'ultimo periodo di un anno IVA.              |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

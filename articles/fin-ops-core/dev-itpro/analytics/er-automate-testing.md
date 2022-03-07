@@ -2,11 +2,9 @@
 title: Automatizzare i test con la creazione di report elettronici
 description: In questo argomento viene descritto come utilizzare la funzionalità di base del framework di creazione di report elettronici (ER) per automatizzare i test di alcune funzionalità.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681450"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749802"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizzare il test con la creazione di report elettronici
 
@@ -61,7 +59,7 @@ Prima di poter completare le attività in questo argomento, è necessario soddis
 - Distribuire una topologia che supporta l'automazione dei test. È necessario avere accesso all'istanza di questa topologia per il ruolo **Amministratore di sistema**. Questa topologia deve contenere i dati dimostrativi che verranno utilizzati in questo esempio. Per ulteriori informazioni, vedere [Distribuire ambienti che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md).
 - Per eseguire automaticamente i test di accettazione e integrazione utente, è necessario installare RSAT nella topologia in uso e configurarlo nel modo appropriato. Per informazioni su come installare e configurare RSAT per l'uso con le app Finance and Operations e Azure DevOps, vedere [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prestare attenzione ai prerequisiti per l'utilizzo dello strumento. Di seguito viene illustrato un esempio delle impostazioni RSAT. Il rettangolo blu racchiude i parametri che specificano l'accesso a Azure DevOps. Il rettangolo verde racchiude i parametri che specificano l'accesso all'istanza.
 
-    ![Impostazioni RSAT](media/GER-Configure.png "Schermata della finestra di dialogo Impostazioni RSAT")
+    ![Impostazioni RSAT.](media/GER-Configure.png "Schermata della finestra di dialogo Impostazioni RSAT")
 
 - Per organizzare i test case nei gruppi e garantire la sequenza di esecuzione corretta, di modo che sia possibile raccogliere i registri delle esecuzioni dei test per ulteriori report e analisi, è necessario avere accesso a Azure DevOps dalla topologia distribuita.
 - Per completare l'esempio in questo argomento, si consiglia di scaricare [Utilizzo di ER per test RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Questo file zip contiene le seguenti guide attività:
@@ -80,7 +78,7 @@ Prima di poter completare le attività in questo argomento, è necessario soddis
     - Configurazione del mapping di modello ER **Mapping di modello di pagamento 1611**
     - Configurazione del formato ER **BACS (UK)**
 
-    ![Configurazioni per la creazione di report elettronici](media/GER-Configurations.png "Schermata della pagina Configurazioni in Creazione di report elettronici")
+    ![Configurazioni per la creazione di report elettronici.](media/GER-Configurations.png "Schermata della pagina Configurazioni in Creazione di report elettronici")
 
 3. Selezionare la società di dati dimostrativi **GBSI**, che presenta un contesto di paese in Gran Bretagna.
 4. Configurare i parametri di Contabilità fornitori:
@@ -92,7 +90,7 @@ Prima di poter completare le attività in questo argomento, è necessario soddis
         1. Nella scheda dettaglio **Formati file**, impostare l'opzione **Formato esportazione elettronica generica** su **Sì**.
         2. Nel campo **Esporta configurazione formato** selezionare **BACS (UK)**.
 
-    ![Pagina Metodi di pagamento](media/GER-APParameters.png "Schermata della pagina Metodi di pagamento")
+    ![Pagina Metodi di pagamento.](media/GER-APParameters.png "Schermata della pagina Metodi di pagamento")
 
     > [!NOTE]
     > Se si dispone della versione derivata di questo formato ER creato per supportare le personalizzazioni, è possibile selezionare questa configurazione nel metodo di pagamento **Elettronico**.
@@ -102,7 +100,7 @@ Prima di poter completare le attività in questo argomento, è necessario soddis
     1. Andare a **Contabilità fornitori \> Pagamenti \> Giornale di registrazione pagamenti**.
     2. Verificare di non aver registrato il giornale di registrazione pagamenti.
 
-        ![Pagina Giornale di registrazione pagamenti](media/GER-APJournal.png "Schermata della pagina Giornale di registrazione pagamenti")
+        ![Pagina Giornale di registrazione pagamenti.](media/GER-APJournal.png "Schermata della pagina Giornale di registrazione pagamenti")
 
     3. Selezionare **Righe** e immettere una riga con le seguenti informazioni.
 
@@ -113,9 +111,9 @@ Prima di poter completare le attività in questo argomento, è necessario soddis
         | Valuta            | GBP             |
         | Tipo di conto di contropartita | Banca            |
         | Conto di contropartita      | GBSI OPER       |
-        | Metodo di pagamento   | elettroniche      |
+        | Metodo di pagamento   | Elettronico      |
 
-    ![Pagina Pagamenti fornitore](media/GER-APJournalLines.png "Schermata della pagina Pagamenti fornitore")
+    ![Pagina Pagamenti fornitore.](media/GER-APJournalLines.png "Schermata della pagina Pagamenti fornitore")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Preparare il framework ER per verificare l'elaborazione dei pagamenti fornitore
 
@@ -124,7 +122,7 @@ Prima di poter completare le attività in questo argomento, è necessario soddis
 1. Accedere a **Amministrazione organizzazione \> Creazione di report elettronici \> Parametri per la creazione di report elettronici**.
 2. Nella scheda **Allegati**, nel campo **Base**, selezionare **File** come tipo di documento che il framework Gestione documenti (DM) utilizza per mantenere i documenti correlati alla funzionalità di base come allegati DM.
 
-    ![Pagina Parametri per la creazione di report elettronici](media/GER-ERParameters.png "Schermata della pagina Parametri per la creazione di report elettronici")
+    ![Pagina Parametri per la creazione di report elettronici.](media/GER-ERParameters.png "Schermata della pagina Parametri per la creazione di report elettronici")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Generare copie di base dei documenti correlati ai pagamenti fornitore
 
@@ -141,7 +139,7 @@ Prima di poter completare le attività in questo argomento, è necessario soddis
     - File di pagamento **File** in formato di testo
     - File di report controllo **ERVendOutPaymControlReport** in formato XLSX
 
-    ![File estratti](media/GER-APJournalProcessed.png "Schermata dei nomi di file estratti in Esplora risorse")
+    ![File estratti.](media/GER-APJournalProcessed.png "Schermata dei nomi di file estratti in Esplora risorse")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>Attivare la funzionalità di base ER
 
@@ -179,7 +177,7 @@ Attivando il parametro **Esegui in modalità di debug**, si forza il framework E
     3. Selezionare il file di report controllo **ERVendOutPaymControlReport** salvato localmente in formato XLSX.
     4. Nel campo **Descrizione** digitare **Report controllo XLSX di pagamento**.
 
-    ![Base per il file di pagamento fornitore e report controllo](media/GER-BaselineAttachments.png "Schermata della pagina Configurazioni con report controllo XLSX di pagamento selezionato")
+    ![Base per il file di pagamento fornitore e report controllo.](media/GER-BaselineAttachments.png "Schermata della pagina Configurazioni con report controllo XLSX di pagamento selezionato")
 
 8. Chiudere la pagina.
 9. Nella scheda dettaglio **Basi**, selezionare **Nuovo** per configurare una base per il file di pagamento:
@@ -198,7 +196,7 @@ Attivando il parametro **Esegui in modalità di debug**, si forza il framework E
     4. Nel campo **Maschera nome file**, immettere **\*.XLSX** per applicare questa base solo agli output del componente formato **ERVendOutPaymControlReport** che hanno l'estensione **.xslx**.
     5. Nel campo **Base**, selezionare **Report controllo XLSX di pagamento** di modo che questa base sia utilizzata per il confronto con l'output generato.
 
-    ![Scheda dettaglio Basi nella pagina Configurazioni](media/GER-BaselineRules.png "Schermata della Scheda dettaglio Basi nella pagina Configurazioni")
+    ![Scheda dettaglio Basi nella pagina Configurazioni.](media/GER-BaselineRules.png "Schermata della Scheda dettaglio Basi nella pagina Configurazioni")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Registrare i test per convalidare l'elaborazione dei pagamenti fornitore
 
@@ -228,15 +226,15 @@ Questa registrazione attività esegue le seguenti operazioni:
 
 1. Impostare lo stato della riga di pagamento elaborato su **Nessuno**.
 
-    ![Passaggi 3 e 4 della registrazione attività](media/GER-Recording1Review1.png "Schermata dei passaggi 3 e 4 della registrazione attività")
+    ![Passaggi 3 e 4 della registrazione attività.](media/GER-Recording1Review1.png "Schermata dei passaggi 3 e 4 della registrazione attività")
 
 2. Attivare il parametro utente ER **Esegui in modalità di debug**.
 
-    ![Passaggi 9 e 10 della registrazione attività](media/GER-Recording1Review2.png "Schermata dei passaggi 9 e 10 della registrazione attività")
+    ![Passaggi 9 e 10 della registrazione attività.](media/GER-Recording1Review2.png "Schermata dei passaggi 9 e 10 della registrazione attività")
 
 3. Pulire il registro di debug ER contenente i risultati del confronto tra i file generati e le basi.
 
-    ![Passaggi 13 e 15 della registrazione attività](media/GER-Recording1Review3.png "Schermata dei passaggi 13 e 15 della registrazione attività")
+    ![Passaggi 13 e 15 della registrazione attività.](media/GER-Recording1Review3.png "Schermata dei passaggi 13 e 15 della registrazione attività")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Registrare i passaggi per testare l'elaborazione dei pagamenti fornitore
 
@@ -255,21 +253,21 @@ Questa registrazione attività esegue le seguenti operazioni:
 1. Avviare l'elaborazione dei pagamenti fornitore.
 2. Selezionare i parametri di runtime corretti e attivare la generazione di un report controllo.
 
-    ![Passaggi 3 e 8 della registrazione attività](media/GER-Recording2Review1.png "Schermata dei passaggi 3 e 8 della registrazione attività")
+    ![Passaggi 3 e 8 della registrazione attività.](media/GER-Recording2Review1.png "Schermata dei passaggi 3 e 8 della registrazione attività")
 
 3. Accedere al registro di debug ER per registrare i risultati del confronto tra gli output generati e le basi corrispondenti.
 
     Nel registro di debug ER, i risultati del confronto sono visualizzati nel campo **Testo generato**. I campi **Componente formato** e **Percorso formato che ha generato la voce di registro** fanno riferimento al componente di file per il quale l'output generato è stato confrontato alla base.
 
-    ![Voci nella pagina Voci di registro report elettronici](media/GER-ERDebugLog.png "Schermata delle voci nella pagina Voci di registro report elettronici")
+    ![Voci nella pagina Voci di registro report elettronici.](media/GER-ERDebugLog.png "Schermata delle voci nella pagina Voci di registro report elettronici")
 
 4. Il confronto tra l'output corrente e la base viene registrato utilizzando l'opzione Registrazione attività **Convalida** e selezionando **Valore corrente**.
 
-    ![Utilizzo dell'opzione Convalida per il confronto con il valore corrente](media/GER-TRRecordValidation.png "Schermata dell'utilizzo dell'opzione Convalida per il confronto con il valore corrente")
+    ![Utilizzo dell'opzione Convalida per il confronto con il valore corrente.](media/GER-TRRecordValidation.png "Schermata dell'utilizzo dell'opzione Convalida per il confronto con il valore corrente")
 
     L'illustrazione seguente mostra i passaggi di convalida registrati nella registrazione attività.
 
-    ![Passaggi 13 e 15 della registrazione attività](media/GER-Recording2Review2.png "Schermata dei passaggi 13 e 15 della registrazione attività")
+    ![Passaggi 13 e 15 della registrazione attività.](media/GER-Recording2Review2.png "Schermata dei passaggi 13 e 15 della registrazione attività")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Aggiungere i test registrati a Azure DevOps
 
@@ -286,7 +284,7 @@ Questa registrazione attività esegue le seguenti operazioni:
     1. Denominare il test case **Testare l'elaborazione dei pagamenti fornitore utilizzando il formato ER BACS (UK)**
     2. Allegare il file **Recording.xml** dalla cartella **Process** scaricata in precedenza.
 
-    ![Nuovi test case per il piano di test selezionato](media/GER-RSAT-DevOps-Tests-Passed.png "Schermata dei nuovi test case per il piano di test selezionato")
+    ![Nuovi test case per il piano di test selezionato.](media/GER-RSAT-DevOps-Tests-Passed.png "Schermata dei nuovi test case per il piano di test selezionato")
 
 > [!NOTE]
 > Prestare attenzione all'ordine di esecuzione corretto dei test che vengono aggiunti.
@@ -298,14 +296,14 @@ Questa registrazione attività esegue le seguenti operazioni:
 1. Avviare l'applicazione RSAT locale nella topologia corrente.
 2. Selezionare **Carica** per caricare in RSAT i test che si trovano attualmente in Azure DevOps.
 
-    ![Test caricati in RSAT](media/GER-RSAT-RSAT-Tests-Loaded.png "Schermata dei test caricati in RSAT")
+    ![Test caricati in RSAT.](media/GER-RSAT-RSAT-Tests-Loaded.png "Schermata dei test caricati in RSAT")
 
 ### <a name="create-automation-and-parameters-files"></a>Creare file di automazione e di parametri
 
 1. In RSAT, selezionare i test caricati da Azure DevOps.
 2. Selezionare **Nuovo** per creare file di automazione e di parametri RSAT.
 
-    ![File di automazione e di parametri RSAT creati in RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "Schermata dei file di automazione e di parametri RSAT creati in RSAT")
+    ![File di automazione e di parametri RSAT creati in RSAT.](media/GER-RSAT-RSAT-Tests-Initiated.png "Schermata dei file di automazione e di parametri RSAT creati in RSAT")
 
 ### <a name="modify-the-parameters-files"></a>Modificare i file di parametri
 
@@ -317,7 +315,7 @@ Questa registrazione attività esegue le seguenti operazioni:
 6. Nella cartella di lavoro di Excel che viene aperta, nel foglio di lavoro **Generale**, impostare il codice della società su **GBSI**.
 7. Nel foglio di lavoro **ERFormatMappingRunLogTable**, notare che le celle A:3 e C:3 contengono il testo dei campi nella tabella del registro di debug ER utilizzati per convalidare i risultati del confronto tra l'output e la base. Questi testi verranno utilizzati per valutare i record del registro di debug ER creati durante l'esecuzione dei test.
 
-    ![Foglio di lavoro ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "Schermata del foglio di lavoro ERFormatMappingRunLogTable")
+    ![Foglio di lavoro ERFormatMappingRunLogTable.](media/GER-RSAT-RSAT-ExcelParameters.png "Schermata del foglio di lavoro ERFormatMappingRunLogTable")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>Eseguire i test e analizzare i risultati
 
@@ -332,11 +330,11 @@ Da notare che i test case vengono eseguiti automaticamente nell'applicazione uti
 
 I risultati dell'esecuzione dei test sono archiviati in RSAT. Da notare che entrambi i test sono stati superati.
 
-![Test superati in RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "Schermata dei test superati in RSAT")
+![Test superati in RSAT.](media/GER-RSAT-RSAT-Tests-Passed.png "Schermata dei test superati in RSAT")
 
 Da notare che i risultati dell'esecuzione dei test vengono inviati a Azure DevOps idi modo che sia possibile analizzarli ulteriormente.
 
-![Risultati dell'esecuzione dei test in Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Schermata dei risultati dell'esecuzione dei test in Azure DevOps")
+![Risultati dell'esecuzione dei test in Azure DevOps.](media/GER-RSAT-DevOps-Tests-Added.png "Schermata dei risultati dell'esecuzione dei test in Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Simulare una situazione in cui i test hanno esito negativo
 
@@ -359,15 +357,15 @@ Da notare che i test case vengono eseguiti automaticamente nell'applicazione uti
 
 I risultati dell'esecuzione dei test sono archiviati in RSAT. Da notare che il secondo test ha avuto esito negativo durante la seconda esecuzione.
 
-![Risultati dei test non superati in RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Schermata dei risultati dei test non superati in RSAT")
+![Risultati dei test non superati in RSAT.](media/GER-RSAT-RSAT-Tests-Failed.png "Schermata dei risultati dei test non superati in RSAT")
 
 Da notare che i risultati dell'esecuzione dei test vengono inviati a Azure DevOps idi modo che sia possibile analizzarli ulteriormente.
 
-![Risultati dei test non superati in Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Schermata dei risultati dei test non superati in Azure DevOps")
+![Risultati dei test non superati in Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed.png "Schermata dei risultati dei test non superati in Azure DevOps")
 
 È possibile accedere allo stato di ogni test. È inoltre possibile accedere al registro di esecuzione in modo da analizzare le cause di qualsiasi errore. Nell'illustrazione seguente, il registro di esecuzione mostra che l'errore si è verificato a causa della differenza di contenuto tra il file di pagamento generato e la propria base.
 
-![Registro di esecuzione per l'analisi degli errori in Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Schermata del registro di esecuzione per l'analisi degli errori in Azure DevOps")
+![Registro di esecuzione per l'analisi degli errori in Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Schermata del registro di esecuzione per l'analisi degli errori in Azure DevOps")
 
 Di conseguenza, come visto, il funzionamento di qualsiasi formato ER può essere valutato automaticamente utilizzando RSAT come piattaforma di test e mediante i test case basati su Registrazione attività che utilizzano la funzionalità di base ER.
 
@@ -380,3 +378,6 @@ Di conseguenza, come visto, il funzionamento di qualsiasi formato ER può essere
 - [Tracciare i risultati del report generato e paragonarli ai valori di base](er-trace-reports-compare-baseline.md)
 - [ER Aggiornare il formato adottandone una nuova versione di base](tasks/er-upgrade-format.md)
 - [ER importa una configurazione da Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Modificare i formati riapplicando i modelli di Excel
 description: Per completare i passaggi in questa procedura, è innanzitutto necessario completare la procedura "ER - Progettare una configurazione per la creazione di report nel formato OPENXML".
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b1bc5f227a0944c513dee2c12a5042decde872
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 24eb64679b458d14e30dc5b4365c7305d71cfc4c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684237"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754892"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Modificare i formati riapplicando i modelli di Excel
 
@@ -83,3 +81,6 @@ In questa procedura viene illustrato come modificare la configurazione ER riappl
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Utilizzare la versione bozza modificata del formato ER per l'elaborazione del giornale di registrazione pagamenti
 
 Esaminare il foglio di lavoro creato che include il nuovo dettaglio delle righe di pagamento, ovvero la data di pagamento.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: Funzionalità del controllo griglia
-description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità Griglia deve essere abilitata per avere accesso a queste funzionalità.
+description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità della griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
 manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -15,14 +14,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3be09f6c469e90b153bff1d8a09b98f5a46b933a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693776"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570899"
 ---
-# <a name="grid-capabilities"></a>Funzionalità del controllo griglia
+# <a name="grid-capabilities"></a>Funzionalità di griglia
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -33,7 +32,7 @@ Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che 
 -  Digitare prima del sistema
 -  Valutare espressioni matematiche 
 -  Raggruppamento di dati tabulari (abilitato separatamente utilizzando la funzionalità **(Anteprima) Raggruppamento in griglie**)
--  Colonne di sistema aggiunte
+-  Blocco delle colonne
 
 ## <a name="calculating-totals"></a>Calcolo totali in corso
 Nelle app Finance and Operations, gli utenti hanno la possibilità di vedere i totali nella parte inferiore delle colonne numeriche nelle griglie. Questi totali sono visualizzati in una sezione a piè di pagina nella parte inferiore della griglia. 
@@ -45,10 +44,10 @@ C'è un'area per i piè di pagina nella parte inferiore di ogni griglia tabulare
 - I totali complessivi nella parte inferiore delle colonne numeriche configurate
 - Il numero di righe nel set di dati 
 
-Questo piè di pagina è nascosto per impostazione predefinita, ma può essere attivato facilmente. Per visualizzare il piè di pagina per una griglia, fare clic con il tasto destro del mouse sull'intestazione di una colonna nella griglia e selezionare l'opzione **Mostra piè di pagina**. Una volta attivato il piè di pagina per una particolare griglia, tale impostazione verrà ricordata fino a che l'utente sceglie di nascondere il piè di pagina, operazione che può essere eseguita facendo clic con il pulsante destro del mouse sull'intestazione di una colonna e selezionando **Nascondi piè di pagina**.  Da notare che il posizionamento dell'azione **Mostra piè di pagina/Nascondi piè di pagina** dovrebbe essere modificato in un aggiornamento futuro. 
+Questo piè di pagina è nascosto per impostazione predefinita, ma può essere attivato. Per visualizzare il piè di pagina per una griglia, fare clic con il tasto destro del mouse sull'intestazione di una colonna nella griglia e selezionare l'opzione **Mostra piè di pagina**. Dopo aver attivato il piè di pagina per una griglia particolare, tale impostazione verrà memorizzata fino a quando l'utente non sceglierà di nasconderlo. Per nascondere il piè di pagina, fare clic con il pulsante destro del mouse su un'intestazione di colonna e selezionare **Nascondi piè di pagina**.  L'azione **Mostra piè di pagina/Nascondi piè di pagina** potrebbe essere spostata in una nuova posizione in un aggiornamento futuro. 
 
 ### <a name="specifying-columns-with-totals"></a>Specificare colonne con totali
-Attualmente, nessuna colonna verrà configurata per mostrare i totali per impostazione predefinita. Questa è considerata come un'attività di impostazione unica, simile alla regolazione della larghezza delle colonne nelle griglie. Dopo aver specificato che si desidera visualizzare i totali per una colonna, tale impostazione verrà ricordata alla successiva visita della pagina.  
+Al momento, nessuna colonna mostra i totali per impostazione predefinita. Questa è considerata come un'attività di impostazione unica, simile alla regolazione della larghezza delle colonne nelle griglie. Dopo aver specificato che si desidera visualizzare i totali per una colonna, tale impostazione verrà ricordata alla successiva visita della pagina.  
 
 Esistono due modi per configurare una colonna per mostrare un totale: 
 
@@ -122,8 +121,14 @@ Come è possibile selezionare (o deselezionare) tutte le righe nella griglia sel
 ### <a name="hiding-column-names"></a>Nascondere i nomi delle colonne
 Quando si raggruppano i dati, il comportamento predefinito è mostrare il nome della colonna nella riga dell'intestazione del gruppo. A partire dalla versione 10.0.14/aggiornamento della piattaforma 38, è possibile scegliere di nascondere il nome della colonna nelle righe di intestazione del gruppo selezionando **Opzioni griglia** > **Nascondi nome della colonna del gruppo**.
 
-## <a name="pinned-system-columns"></a>Colonne di sistema aggiunte
-La colonna di selezione della riga e la colonna dello stato della riga nella nuova griglia sono aggiunte o bloccate nella parte più a sinistra della griglia. Pertanto, quando queste colonne sono incluse in una griglia, saranno sempre visibili all'utente, indipendentemente dalla posizione di scorrimento orizzontale nella griglia.   
+## <a name="freezing-columns"></a>Blocco delle colonne
+Alcune colonne in una griglia potrebbero essere abbastanza importanti per il contesto da non desiderare che scorrano fuori dalla visualizzazione. Invece, è consigliabile fare in modo che i valori in tali colonne siano sempre visibili. Nella versione 10.0.17, la funzionalità **Blocca colonne nella griglia** fornisce questa flessibilità agli utenti. 
+
+Per bloccare una colonna, fare clic con il pulsante destro del mouse nell'intestazione della colonna, quindi selezionare **Blocca colonna**. La prima volta che si completa questo passaggio, la colonna selezionata diventa la prima colonna e non scorrerà più fuori dalla visualizzazione. Qualsiasi colonna successiva che blocchi verrà aggiunta a destra dell'ultima colonna bloccata. È possibile utilizzare la funzionalità di spostamento standard per riordinare le colonne bloccate in base alle proprie esigenze. Tuttavia, le colonne bloccate non possono essere spostate in modo che vengano visualizzate nel set di colonne non congelate. Allo stesso modo, le colonne non bloccate non possono essere spostate in modo che vengano visualizzate nel set di colonne bloccate.
+
+Per sbloccare una colonna, fare clic con il pulsante destro del mouse nell'intestazione della colonna bloccata, quindi selezionare **Sblocca colonna**. 
+
+Notare che la selezione della riga e le colonne dello stato della riga nella nuova griglia sono sempre bloccate come le prime due colonne. Pertanto, quando queste colonne sono incluse in una griglia, saranno sempre visibili all'utente, indipendentemente dalla posizione di scorrimento orizzontale nella griglia. Queste due colonne non possono essere riordinate.
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Come si abilita il nuovo controllo della griglia nell'ambiente? 
@@ -159,7 +164,7 @@ Questa API verrà rispettata fino alla versione di ottobre 2021 quando il nuovo 
 Se uno sviluppatore imposta la proprietà **WidthMode** su **SizeToAvailable** per le colonne all'interno della nuova griglia, tali colonne hanno inizialmente la stessa larghezza che avrebbero se la proprietà fosse impostata su **SizeToContent**. Tuttavia, si allungano per utilizzare qualsiasi larghezza extra disponibile all'interno della griglia. Se la proprietà è impostata su **SizeToAvailable** per più colonne, tutte queste colonne condividono qualsiasi larghezza extra disponibile all'interno della griglia. Tuttavia, se un utente ridimensiona manualmente una di queste colonne, la colonna diventa statica. Rimarrà a quella larghezza e non si allungherà più per occupare la larghezza della griglia disponibile in più.  
 
 ## <a name="known-issues"></a>Problemi noti
-Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della griglia mentre la funzionalità si trova in uno stato di anteprima.  
+Questa sezione mantiene un elenco di problemi noti per il nuovo controllo griglia.  
 
 ### <a name="open-issues"></a>Problemi aperti
 -  Dopo aver abilitato la funzionalità **Nuovo controllo griglia**, alcune pagine continueranno a utilizzare il controllo griglia esistente. Questo avverrà nelle seguenti situazioni:  
@@ -170,20 +175,44 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
     Quando un utente incontra per la prima volta una di queste situazioni, verrà visualizzato un messaggio sull'aggiornamento della pagina. Una volta visualizzato questo messaggio, la pagina continuerà a utilizzare la griglia esistente per tutti gli utenti fino al prossimo aggiornamento della versione del prodotto. Una migliore gestione di questi scenari, in modo che la nuova griglia possa essere utilizzata, verrà presa in considerazione per un aggiornamento futuro.    
     
 -  [KB 4582758] I record sono sfocati quando si modifica lo zoom da 100 a qualsiasi altra percentuale
-    
+-  [KB 4592012] Errore client imprevisto in IE11 quando si incollano più righe da Excel
+    -  Microsoft non sta cercando di risolvere questo problema
+
+### <a name="fixed-as-part-of-10016"></a>Cespiti come parte del 10.0.16
+
+-  [KB 4598335] I controlli stringa su più righe non rispettano i relativi DisplayHeights negli elenchi/nelle schede 
+-  [KB 4591891] Le righe della proposta di fattura scompaiono quando si deselezionano le righe
+-  [KB 4592104] Impossibile modificare i record dopo aver fatto clic su "Risolvi problema" ed essere passati a una riga diversa senza risolvere il problema di convalida
+-  [KB 4594449] Pulsanti "Mai" e "Cancella" mancanti nel selettore della data 
+-  [KB 4594448] L'immissione dell'ora viene trattata in modo diverso con la nuova griglia
+-  [KB 4600059] Errore client imprevisto con limitazione dei messaggi e-mail
+-  [KB 4574584] Anteprima allegato di spesa non disponibile quando si passa con il mouse sull'icona della ricevuta
+
 ### <a name="fixed-as-part-of-10015"></a>Cespiti come parte del 10.0.15    
 
+-  (Aggiornamento qualitativo) [KB 4594444] Errore client imprevisto con anteprima per il controllo delle voci segmentate
 -  [KB 4582723] Le opzioni di visualizzazione non vengono mostrate se eseguite successivamente nel ciclo di vita del modulo
+-  [KB 4591988] Problemi di utilizzo della tastiera per selezionare un valore da una ricerca ReferenceGroup
+-  [KB 4588958] Il test Regression Suite Automation Tool (RSAT) ha esito negativo con errore: TypeError: impossibile leggere la proprietà "text" di undefined
+-  [KB 4591970] L'errore client imprevisto durante l'operazione incolla da Excel è stato eseguito immediatamente dopo aver fatto clic nella griglia
+-  [KB 4591904] Le modifiche ai dati non vengono salvate se dopo aver modificato un controllo l'utente ha immediatamente fatto clic e ha aperto la ricerca di un altro controllo
+-  [KB 4584752] Errore client imprevisto nella pagina Proposte di fatturazione progetto
+-  [KB 4584540] Impossibile lasciare la griglia dopo aver incollato una singola riga in una riga del giornale di registrazione
+-  [KB 4591908] Quando crei una nuova riga, lo stato attivo rimane nella colonna in cui ti trovavi
 
 ### <a name="fixed-as-part-of-10014"></a>Cespiti come parte del 10.0.14
 
 -  (Aggiornamento di qualità) [KB 4584752] Errore client imprevisto nella pagina Proposte di fatturazione progetto
+-  (Aggiornamento di qualità) [KB 4583880] I test Regression Suite Automation Tool (RSAT) hanno esito negativo sull'azione OpenLookup con "Impossibile leggere la proprietà RowIndex di undefined"
+-  [KB 4583847] Errore client imprevisto durante la navigazione tra le ricerche
 
 ### <a name="fixed-as-part-of-10013"></a>Cespiti come parte del 10.0.13
 
--  (Aggiornamento di qualità) [KB 4583880] Regression Suite Automation Tool i test (RSAT) hanno esito negativo sull'azione OpenLookup con "Impossibile leggere la proprietà RowIndex di undefined"
+-  (Aggiornamento di qualità) [KB 4584752] Errore client imprevisto nella pagina Proposte di fatturazione progetto
+-  (Aggiornamento di qualità) [KB 4583880] I test Regression Suite Automation Tool (RSAT) hanno esito negativo sull'azione OpenLookup con "Impossibile leggere la proprietà RowIndex di undefined"
 -  (Aggiornamento di qualità) [KB 4583847] Errore client imprevisto durante la navigazione tra le ricerche 
 -  (Aggiornamento di qualità) [Bug 471777] Impossibile selezionare i campi in una griglia per modificare o creare un'app per dispositivi mobili
+-  [KB 4582727] La griglia si blocca dopo che l'utente riceve la finestra di dialogo per gli elementi con quantità multiple
 -  [Bug 474851] I collegamenti ipertestuali nei controlli del gruppo di riferimento non funzionano 
 -  [Bug 474848] Le anteprime avanzate con griglie non vengono visualizzate
 -  [KB 4582726] La proprietà RotateSign non viene rispettata  
@@ -208,7 +237,7 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
 -  [KB 4575288] Lo stato attivo viene ripristinato sulla riga attiva quando si seleziona il bordo tra le righe in un elenco semplice
 -  [KB 4575287] Lo stato attivo non torna alla prima colonna quando si utilizza la freccia GIÙ per creare una nuova riga nei giornali di registrazione
 -  [KB 4564819] Impossibile eliminare le righe in una fattura a testo libero (perché l'origine dati ChangeGroupMode = ImplicitInnerOuter)
--  [KB 4563317] Le descrizioni dei comandi/anteprime avanzate non vengono visualizzate per le immagini
+-  [KB 4563317] Le descrizioni dei comandi/anteprime avanzate non vengono visualizzate per le immagini.
 
 ### <a name="fixed-as-part-of-10012"></a>Cespiti come parte del 10.0.12
 
@@ -239,12 +268,12 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
 - [KB 4558378] Il drill-through a volte apre il record errato.
 - [KB 4558379] Si verifica un errore quando vengono aperte le ricerche in cui **ReplaceOnLookup**=**No**.
 - [KB 4558380] Lo spazio disponibile nella griglia non viene riempito immediatamente dopo la compressione di una parte della pagina.
-- [KB 4558381] I numeri negativi non verranno visualizzati correttamente / Gli utenti a volte potrebbero bloccarsi dopo che si sono verificati problemi di convalida.
+- [KB 4558381] I numeri negativi non verranno visualizzati correttamente / Gli utenti potrebbero bloccarsi dopo che si sono verificati problemi di convalida.
 - [KB 4558382] Si verificano errori del client imprevisti.
 - [KB 4558383] I controlli all'esterno della griglia non sono aggiornati dopo l'eliminazione dell'ultimo record.
 - [KB 4558587] I gruppi di riferimento con caselle combinate per i campi di sostituzione non mostrano i valori.
 - [KB 4562143] I campi non verranno aggiornati dopo una modifica alla riga / l'elaborazione della griglia si bloccherà dopo l'eliminazione della riga.
-- [KB 4562645] Si verifica un'eccezione quando viene aperta una ricerca durante l'esecuzione dei test RSAT (Remote Server Administration Tools) Regression Suite Automation Tool.
+- [KB 4562645] Si verifica un'eccezione quando viene aperta una ricerca durante l'esecuzione dei test Regression Suite Automation Tool (RSAT).
 
 ### <a name="fixed-as-part-of-10010"></a>Cespiti come parte del 10.0.10
 
@@ -263,3 +292,6 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo della 
 ### <a name="quality-update-for-1009platform-update-33"></a>Aggiornamento di qualità per 10.0.9/Aggiornamento della piattaforma 33
 
 - [KB 4550367] L'ora non è formattata correttamente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

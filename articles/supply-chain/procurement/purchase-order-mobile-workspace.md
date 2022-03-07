@@ -1,27 +1,25 @@
 ---
 title: Area di lavoro Approvazione ordine fornitore
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Approvazione ordine fornitore, in cui è possibile visualizzare gli ordini fornitore ed effettuare le relative operazioni. Ad esempio, è possibile approvare o rifiutare un ordine fornitore.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 30211
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 19ddd9eb34d5e5248f782aafc9ac9dee1b38dadb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022308"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825352"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Area di lavoro Approvazione ordine fornitore
 
@@ -48,7 +46,7 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 <tr class="header">
 <th>Prerequisito</th>
 <th>Ruolo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -112,3 +110,6 @@ Dopo avere visualizzato l'ordine fornitore assegnato all'utente e letto le istru
 5. Selezionare l'azione appropriata.
 6. Nella pagina **Completa attività**, immettere un commento. Se si seleziona l'azione **Delega**, è necessario selezionare un utente a cui delegare l'attività.
 7. Selezionare **Fine**. Dopo aver aggiornato l'area di lavoro, l'ordine fornitore non sarà più in elenco. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

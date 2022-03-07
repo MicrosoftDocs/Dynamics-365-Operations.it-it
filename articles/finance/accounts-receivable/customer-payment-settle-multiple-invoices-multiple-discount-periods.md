@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c86423c9e3453d8be11e6bdbc3484647e26e9eeec59c9a2e888cc5a2b2b5592
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769061"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819916"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Utilizzare un solo pagamento per liquidare le fatture che coprono più periodi di sconto
 
@@ -66,7 +66,7 @@ Se Arnie crea un giornale di registrazione pagamenti per liquidare completamente
 | Selezionato ed evidenziato | Normale            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | GBP      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Liquidazione parziale il 29 giugno
-Il cliente 4032 può pagare un importo parziale, ad esempio metà di ciascuna fattura. Arnie crea un pagamento per il cliente 4032 e quindi apre la pagina **Liquida transazioni**. Nella pagina **Liquida transazioni** Arnie contrassegna tutte le tre righe di fattura per la liquidazione: In ciascuna riga, Arnie immette l'importo da liquidare, in base alle istruzioni fornite dal cliente. Quando una riga è selezionata, Arnie vede l'importo dello sconto per la riga e l'importo dello sconto di cassa che viene applicato. Poiché il cliente paga metà della fattura, Arnie vede che il valore nel campo **Importo sconto di cassa** per FTI-10042 è **20,00**, ma che il valore nel campo **Sconto di cassa applicato** è **10,00**. L'importo del pagamento è 1.485,00.
+Il cliente 4032 può pagare un importo parziale, ad esempio metà di ciascuna fattura. Arnie crea un pagamento per il cliente 4032 e quindi apre la pagina **Liquida transazioni**. Nella pagina **Liquida transazioni** Arnie contrassegna tutte le tre righe di fattura per la liquidazione: In ciascuna riga, immette l'importo da liquidare, in base alle istruzioni fornite dal cliente. Quando una riga è selezionata, Arnie vede l'importo dello sconto per la riga e l'importo dello sconto di cassa che viene applicato. Poiché il cliente paga metà della fattura, Arnie vede che il valore nel campo **Importo sconto di cassa** per FTI-10042 è **20,00**, ma che il valore nel campo **Sconto di cassa applicato** è **10,00**. L'importo del pagamento è 1.485,00.
 
 | Contrassegna                     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Valuta | Importo da liquidare |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,7 +74,7 @@ Il cliente 4032 può pagare un importo parziale, ad esempio metà di ciascuna fa
 | Selezionato                 | Normale            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | GBP      | 495,00           |
 | Selezionato ed evidenziato | Normale            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | GBP      | 490,00           |
 
-Arnie può inoltre immettere manualmente l'importo del pagamento di 1.485,00 prima di aprire la pagina **Liquida transazioni**. Se Arnie immette manualmente l'importo del pagamento e quindi contrassegna tutte e tre le transazioni, ma non rettifica il valore nel campo **Importo da liquidare** per ciascuna transazione, il seguente messaggio viene visualizzato alla chiusura della pagina:
+Arnie può inoltre immettere manualmente l'importo del pagamento di 1.485,00 prima di aprire la pagina **Liquida transazioni**. Se Arnie immette manualmente l'importo del pagamento e quindi contrassegna tutte e tre le transazioni, ma non rettifica il valore nel campo **Importo da liquidare** per ciascuna transazione, riceve il seguente messaggio alla chiusura della pagina:
 
 > L'importo totale delle transazioni contrassegnate è diverso da quello riportato nel giornale di registrazione. Modificare l'importo del giornale?
 

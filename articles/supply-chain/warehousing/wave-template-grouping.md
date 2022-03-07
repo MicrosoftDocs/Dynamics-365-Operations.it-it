@@ -2,26 +2,23 @@
 title: Gruppi del modello di ondata
 description: Il raggruppamento dei modelli di ondate consente al sistema di utilizzare le configurazioni dei modelli di ondata per determinare, in base a criteri definiti, come dividere le righe rilasciate e assegnarle a ondate nuove o esistenti. Questa funzione può essere utile nei magazzini in cui le ondate vengono create in base a criteri specifici, ma in cui i responsabili preferiscono creare le ondate automaticamente anziché manualmente.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431558"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579906"
 ---
 # <a name="wave-template-grouping"></a>Gruppi del modello di ondata
 
@@ -201,3 +198,6 @@ Prima di iniziare, prepara il modello di ondata come descritto in precedenza nel
 1. Seleziona l'ID ondata creato dal terzo ordine cliente.
 1. Seleziona il collegamento ID ondata per aprire la pagina Dettagli ondata.
 1. Nota che la spedizione è stata aggiunta alla Scheda dettaglio **Righe ondata**, insieme alla spedizione per il primo ordine cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

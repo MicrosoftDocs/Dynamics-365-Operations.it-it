@@ -1,12 +1,10 @@
 ---
 title: Novità e modifiche in Dynamics 365 Human Resources (06 agosto 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 6 agosto 2020.
-author: darinkramer
-manager: AnnBe
-ms.date: 8/06/2020
+author: andreabichsel
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,17 +13,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: edbfad387496cb3381c6298b9141129c6a878335
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528427"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891843"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (06 agosto 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -33,23 +33,23 @@ Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Hu
 
 ## <a name="platform-update-1001236-is-now-available"></a>L'aggiornamento 10.0.12(36) della piattaforma è ora disponibile
 
-Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations (agosto 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
+Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations (agosto 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entità Data Management Framework per la gestione di benefit
  
 Le entità di gestione di benefit sono in fase di rilascio. Le entità DMF consentono di importare ed esportare dati per configurare facilmente la gestione dei benefit. Sarà disponibile un modello di gestione dei benefit per spostare i dati. Il modello esporta e importa i dati in modo in modo sequenziale per rispettare le dipendenze dei dati. Per ulteriori informazioni, vedere:
 
-- [Supporto dell'entità DMF](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) nel piano della prima ondata di rilascio di Dynamics 365 2020
-- [Panoramica della gestione dati](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- [Supporto dell'entità DMF](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) nel piano della prima ondata di rilascio di Dynamics 365 2020
+- [Panoramica della gestione dati](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire crea un flusso di lavoro per l'acquisto e la vendita di richieste di congedo (446557)
 
 Per ulteriori informazioni, vedere:
 
-- [Consentire ai dipendenti di acquistare e vendere congedi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) nel piano della seconda ondata di rilascio di Dynamics 365 2020
-- [Gestire i criteri di acquisto e vendita congedo](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Acquista e vendi congedo](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Consentire ai dipendenti di acquistare e vendere congedi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) nel piano della seconda ondata di rilascio di Dynamics 365 2020
+- [Gestire i criteri di acquisto e vendita congedo](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Acquista e vendi congedo](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>L'entità V2 degli indirizzi postali dei lavoratori ha accesso a tutte le persone giuridiche con accesso limitato (459126)
@@ -62,7 +62,7 @@ Quando si utilizza il segnaposto per aprire una revisione delle prestazioni nel 
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Nuove entità per l'acquisto e la vendita di congedi (473180)
 
-Le entità del framework di gestione dei dati sono ora disponibili per l'acquisto e la vendita di congedi. Per ulteriori informazioni, vedere [Panoramica della gestione dati](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
+Le entità del framework di gestione dei dati sono ora disponibili per l'acquisto e la vendita di congedi. Per ulteriori informazioni, vedere [Panoramica della gestione dati](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Durante la visualizzazione delle informazioni sui record e l'utilizzo di filtri avanzati, un utente potrebbe ottenere l'accesso ai record di altri dipendenti (472490)
 
@@ -96,9 +96,9 @@ Con questa modifica, il rilevamento del riferimento circolare della gerarchia di
 
 Alcune organizzazioni offrono un benefit che consente ai dipendenti di acquistare o vendere congedi. Questo processo è spesso gestito manualmente. Questa funzione automatizza la gestione dei criteri e delle richieste per il dipartimento Risorse umane. Semplifica il processo di gestione delle ferie e aiuta a eliminare gli errori. Per ulteriori informazioni, vedere:
 
-- [Consentire ai dipendenti di acquistare e vendere congedi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) nel piano della seconda ondata di rilascio di Dynamics 365 2020
-- [Gestire i criteri di acquisto e vendita congedo](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Acquista e vendi congedo](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Consentire ai dipendenti di acquistare e vendere congedi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) nel piano della seconda ondata di rilascio di Dynamics 365 2020
+- [Gestire i criteri di acquisto e vendita congedo](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Acquista e vendi congedo](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Lascia l'attribuzione per una singola azienda o un singolo piano
 
@@ -126,15 +126,15 @@ Puoi creare una regola per sospendere gli accumuli dei congedi per i dipendenti 
 
 È ora possibile rendere obbligatori i campi utilizzando le funzionalità di personalizzazione di Human Resources. Questa funzionalità richiede **Visualizzazioni salvate**. Per ulteriori informazioni sulle visualizzazioni salvate, vedere:
 
-- [Visualizzazioni salvate - disponibilità generale](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) nel piano della seconda ondata di rilascio di Dynamics 365 2020
-- [Creare moduli che utilizzano interamente visualizzazioni salvate](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Visualizzazioni salvate - disponibilità generale](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) nel piano della seconda ondata di rilascio di Dynamics 365 2020
+- [Creare moduli che utilizzano interamente visualizzazioni salvate](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Applicazione Human Resources in Teams
 
 I dipendenti possono visualizzare i congedi e richiederli in Microsoft Teams. Possono interagire con un bot per creare richieste di congedo. Per ulteriori informazioni, vedere:
 
-- [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) nel piano della prima ondata di rilascio di Dynamics 365 2020
-- [App Human Resources in Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Esperienza di congedo e assenza dei dipendenti in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) nel piano della prima ondata di rilascio di Dynamics 365 2020
+- [App Human Resources in Teams](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>Entità DMF disponibile per le sospensioni degli accumuli
 
@@ -142,9 +142,9 @@ Un'entità DMF è ora disponibile per le sospensioni degli accumuli.
 
 ## <a name="coming-soon"></a>Presto disponibili
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Elenco di controllo entità incluso in Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Elenco di controllo entità incluso in Dataverse
 
-Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Common Data Service.
+Le entità dell'elenco di controllo per i processi di onboarding, offboarding, trasferimenti e aziendali saranno presto disponibili in Dataverse.
 
 ## <a name="known-issues"></a>Problemi noti
 
@@ -172,6 +172,9 @@ L'area di lavoro **Gestione funzionalità** potrebbe visualizzare funzioni disab
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,7 @@
 title: Sopprimere i controlli del contenuto di Word nei report generati
 description: In questo argomento viene descritto come configurare un formato di creazione di report elettronici (ER) per generare report come file Microsoft Word in cui i controlli del contenuto sono stati eliminati.
 author: NickSelin
+manager: AnnBe
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
@@ -13,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 81ad25514154dd8982aa4f849f0b2bfeb85270f7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323927"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562120"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Sopprimere i controlli del contenuto di Word nei report generati
 
 [!include [banner](../includes/banner.md)]
 
-Per generare report come documenti Microsoft Word, è necessario progettare un modello per i report come documento Word. Questo modello deve contenere controlli del contenuto di Word come segnaposto per i dati che verranno compilati in fase di esecuzione. Per utilizzare il documento Word creato come modello per i report, è possibile [configurare](er-design-configuration-word.md) una nuova [soluzione](er-quick-start1-new-solution.md) di [Creazione di report elettronici (ER)](general-electronic-reporting.md). La soluzione deve includere una [configurazione](general-electronic-reporting.md#Configuration) ER che contiene un componente in formato ER. Questo formato ER deve essere configurato per utilizzare il modello progettato per la generazione di report.
+Per generare report come documenti Microsoft Word, è necessario progettare un modello per i report come documento Word. Questo modello deve contenere controlli del contenuto di Word come segnaposto per i dati che verranno compilati in fase di esecuzione. Per utilizzare il documento Word creato come modello per i report, è possibile [configurare](er-design-configuration-word.md) una nuova [soluzione](er-quick-start1-new-solution.md) di [Creazione di report elettronici (ER)](general-electronic-reporting.md). La soluzione deve includere una [configurazione](general-electronic-reporting.md#Configuration) ER che contiene un componente in [formato](general-electronic-reporting.md#FormatComponentOutbound) ER. Questo formato ER deve essere configurato per utilizzare il modello progettato per la generazione di report.
 
 Nella versione 10.0.6 e successive di Dynamics 365 Finance, è possibile configurare formule nel formato ER per sopprimere alcuni controlli del contenuto di Word nei documenti generati.
 
@@ -63,7 +64,7 @@ Dopo aver completato i passaggi di queste guide attività, vengono preparati i s
     > [!NOTE]
     > Il controllo del contenuto ripetuto è contrassegnato con la chiave **SummaryLines** che corrisponde al campo della parte XML personalizzata a cui è stata mappata.
 
-    ![Layout del modello Word.](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Layout del modello Word](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Selezionare la configurazione esistente del report ER
 
@@ -98,7 +99,7 @@ Attualmente, il file SampleVendPaymDocReportBounded.docx viene utilizzato come m
 7. Selezionare **OK**.
 8. Nella finestra di dialogo **Parametri per la creazione di report elettronici**, selezionare **OK** e analizzare l'output generato.
 
-    ![Pagamenti per l'elaborazione nella pagina Pagamenti fornitore.](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Pagamenti per l'elaborazione nella pagina Pagamenti fornitore](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     L'output viene presentato in formato Word e contiene la sezione di riepilogo.
 
@@ -149,7 +150,7 @@ Se si desidera sopprimere la sezione di riepilogo in un documento generato, in b
 
 9. Selezionare **Salva** per salvare le modifiche al formato modificabile.
 
-    ![Output generato in formato Word.](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Output generato in formato Word](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Eseguire il formato modificato per creare l'output di Word
 
@@ -163,7 +164,7 @@ Se si desidera sopprimere la sezione di riepilogo in un documento generato, in b
 8. Nella finestra di dialogo **Parametri per la creazione di report elettronici**, nel campo **Sopprimi sezione di riepilogo**, selezionare **Sì**.
 9. Selezionare **OK** e analizzare l'output generato.
 
-    ![Output generato in formato Word.](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Output generato in formato Word](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Si noti che l'output non contiene la sezione di riepilogo poiché è stata soppressa.
 

@@ -2,11 +2,9 @@
 title: Sequenza lavori gestiti dal sistema
 description: Questo argomento fornisce informazioni sulla sequenza di lavori gestiti dal sistema. Questa funzionalità consente di ordinare e filtrare gli ordini di lavoro che il sistema presenta agli utenti per l'esecuzione. È utile in scenari in cui sono richiesti criteri aggiuntivi per guidare il processo di prelievo di magazzino.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5387aaf5a5e0d20ac22595fbea86a25fdf38a771
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970208"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831124"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenza lavori gestiti dal sistema
 
@@ -156,7 +154,7 @@ Se si utilizzano i dati Contoso predefiniti, la query per l'azione della diretti
 
 ## <a name="scenario"></a>Scenario
 
-### <a name="create-sales-order-picking-work"></a>Creare lavoro di prelievo ordini di vendita
+### <a name="create-sales-order-picking-work"></a>Creare lavoro di prelievo ordini cliente
 
 Prima di eseguire il prelievo diretto dal sistema, è necessario creare alcuni lavori in uscita. Per questo scenario, verranno creati quattro ordini cliente basati sulle query della sequenza di lavoro diretta dal sistema specificate.
 
@@ -304,3 +302,6 @@ Le query della sequenza di lavoro dirette dal sistema sono *inclusive*. È impor
 Pertanto, nell'esempio di questo scenario, l'ID lavoro *4* è stato anche acquisito dalla query. Quando è stato creato, sono state aggiunte due righe: una per 25 ea e una per 10 ea. Il lavoro è stato ancora presentato all'utente, poiché almeno una riga di lavoro ha una quantità inferiore a 20 ea.
 
 A seconda dello scenario, è possibile impedire questo comportamento utilizzando le suddivisioni del lavoro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

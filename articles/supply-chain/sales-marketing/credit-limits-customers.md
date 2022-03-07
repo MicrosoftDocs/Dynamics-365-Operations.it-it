@@ -1,27 +1,24 @@
 ---
 title: Limiti di credito per i clienti
 description: In questo articolo viene fornita una panoramica sull'utilizzo dei limiti di credito in Dynamics 365 Supply Chain Management.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e98203f03f10b3a7c530cb91211df2af025710dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431244"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574307"
 ---
 # <a name="credit-limits-for-customers"></a>Limiti di credito per i clienti
 
@@ -93,7 +90,7 @@ Utilizzare il modulo **Parametri contabilità clienti** per specificare le infor
 
 **Dove sono utilizzate le informazioni sul credito rimanente di un cliente?**
 
-Le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolate e salvate quando si crea lo snapshot di aging e sono visualizzate nel modulo **Riscossioni**. Gli importi visualizzati nel modulo **Riscossioni** potrebbero non includere tutte le attività di transazione fino a che non viene creato un nuovo snapshot di aging. Per ulteriori informazioni, vedere [Riscossioni e crediti in Contabilità clienti](https://technet.microsoft.com/library/hh209221.aspx).
+Le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolate e salvate quando si crea lo snapshot di aging e sono visualizzate nel modulo **Riscossioni**. Gli importi visualizzati nel modulo **Riscossioni** potrebbero non includere tutte le attività di transazione fino a che non viene creato un nuovo snapshot di aging. Per ulteriori informazioni, vedere [Riscossioni e crediti in Contabilità clienti](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 In base ai documenti selezionati, le informazioni sull'importo in Avere rimanente e del saldo del cliente vengono calcolati quando gli ordini cliente, i documenti di trasporto e le fatture cliente vengono aggiornati. Se l'importo del documento su cui si sta lavorando causasse il superamento del limite di credito, viene visualizzato un messaggio.
 
@@ -102,7 +99,7 @@ In base ai documenti selezionati, le informazioni sull'importo in Avere rimanent
 Utilizzare il modulo **Parametri contabilità clienti** per specificare se richiedere l'identificazione e se l'importo del limite di credito richiede identificazione.
 È necessario essere membri del ruolo di sicurezza Amministratore sistema (-SYSADMIN-) per apportare modifiche nel modulo.
 
-|    Campo                                    |    descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|    Campo                                    |    Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    Richiedi numero identificazione con credito     |    Selezionare il tipo di identificazione da immettere per i clienti ai quali la propria persona giuridica concede credito. L'opzione selezionata in questo campo determina quali informazioni sono necessarie nei campi di identificazione del modulo Clienti e quando.        No: non è necessario immettere un'identificazione indipendentemente dal limite di credito accordato al cliente.     Sì: è        necessario immettere il numero di patente o un'altra identificazione        se il limite di credito accordato al cliente è maggiore o        uguale a zero.     Limite minimo: è        necessario immettere un numero di patente o un'altra identificazione        se il limite di credito accordato al cliente è maggiore        o uguale al limite immesso nel campo Limite di questo        modulo.        |
 |    Limite                                    |    Immettere il limite di credito per il quale i clienti devono specificare il numero di patente o un'altra identificazione.    Digitare ad esempio 2000 per rendere obbligatoria l'immissione di un numero di identificazione, ad esempio il numero di patente, per i clienti con un limite di credito pari o superiore a 2000.    Questo campo è disponibile se nel campo Richiedi numero identificazione con credito è selezionata l'opzione Limite minimo.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -111,7 +108,7 @@ Utilizzare il modulo **Parametri contabilità clienti** per specificare se richi
 
 Utilizzare il modulo **Parametri contabilità clienti** per specificare se visualizzare un avviso o un errore qualora il limite di credito venga superato. Questo errore o avviso viene visualizzato quando un utente immette o registra informazioni oppure viene incluso in un registro se i documenti vengono elaborati da un servizio elettronico. È necessario essere membri del ruolo di sicurezza Amministratore sistema (-SYSADMIN-) per apportare modifiche nel modulo.
 
-|    Campo                                                               |    descrizione                                                                                                                                                                                                                                                                                                                                                                                        |
+|    Campo                                                               |    Descrizione                                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    Notifica in caso di superamento limite di credito (nell'area Posizione finanziaria)     |    Selezionare la modalità di visualizzazione dei messaggi sui limiti di credito superati. Selezionare una delle opzioni descritte di seguito.        Errore: viene        visualizzato un messaggio di errore. In genere si interrompe l'operazione corrente e        il conflitto deve essere risolto prima che il processo possa continuare.     Avviso: viene        visualizzato un messaggio di avviso, ma il processo può continuare.                     |
 |    Notifica in caso di superamento limite di credito (nell'area AIF)               |    Selezionare la modalità di invio in un registro dei messaggi che notificano il superamento dei limiti di credito. Selezionare una delle opzioni descritte di seguito.        Errore: un        messaggio di errore viene visualizzato nel modulo Eccezioni e il        documento non viene elaborato fino alla risoluzione dell'errore.     Avviso: un        messaggio di avviso viene visualizzato nel modulo Eccezioni, ma il        processo può continuare.        |
@@ -138,3 +135,6 @@ Talvolta, potrebbe essere necessario verificare manualmente il limite di credito
 1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini cliente** \> **Tutti gli ordini cliente**. Fare doppio clic su un ordine cliente.
 
 2.  Nella scheda **Gestione** del riquadro azioni del modulo **Ordine cliente**, fare clic su **Verifica limite di credito**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

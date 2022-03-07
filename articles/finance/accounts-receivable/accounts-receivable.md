@@ -1,29 +1,28 @@
 ---
 title: Home page di contabilità clienti
 description: La contabilità clienti consente di tenere traccia di tutte le fatture e di tutti i pagamenti in arrivo dai clienti.
-author: ShylaThompson
-manager: AnnBe
+author: roschlom
 ms.date: 08/18/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 20671
+ms.custom:
+- "20671"
+- intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69d2d320434baab21fb7e7c57ce1f043e4946d69
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 946a4e3cab6549af8b6c07248b6889e3b610f27f
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459285"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726944"
 ---
 # <a name="accounts-receivable-home-page"></a>Home page di contabilità clienti
 
@@ -36,67 +35,51 @@ La contabilità clienti consente di tenere traccia di tutte le fatture e di tutt
 
 **Processi aziendali**
 
-[![Processo aziendale](./media/AR-process.PNG)](./media/AR-process.PNG)
+[![Processo aziendale.](./media/AR-process.PNG)](./media/AR-process.PNG)
 
 ## <a name="set-up-accounts-receivable"></a>Impostazione di contabilità clienti
 
 La contabilità clienti consente di tenere traccia di tutte le fatture cliente e di tutti i pagamenti ricevuti dai clienti. È possibile impostare gruppi di clienti, clienti, profili registrazione, varie opzioni di pagamento, note d'interesse, lettere di sollecito, provvigioni, parametri relativi a clienti, spese, consegne e destinazioni, effetti attivi e altri tipi di informazioni relative alla contabilità clienti. 
 
-:::row:::
-    :::column:::
-        - [Distribuzioni contabili e inserimenti nel giornale di registrazione secondario per le fatture a testo libero](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [Profili di registrazione cliente](customer-posting-profiles.md)
-        - [Impostazione, autorizzazione e acquisizione della carta di credito](credit-card-authorizations.md)
-        - [Creare una fattura cliente](configure-customer-invoices.md)
-        - [Impostare ed elaborare le fatture ricorrenti](set-up-process-recurring-invoices.md)
-        - [Correggere una fattura a testo libero](correct-free-text-invoice.md)
-    :::column-end:::
-    :::column:::
-        - [Impostare gli effetti attivi](set-up-bills-exchange.md)
-        - [Impostare tassi d'interesse per un codice interessi](set-up-interest-rates-interest-code.md)
-        - [Rinunciare all'addebito di interessi, ripristinarli o stornarli](waive-reinstate-reverse-interest-fees.md)
-        - [Panoramica degli addebiti diretti SEPA](sepa-direct-debit-overview.md)
-        - [Impostazione del mandato di addebito diretto SEPA](sepa-direct-debit-mandate.md)
-        - [Chiudere la contabilità clienti](close-accounts-receivable.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Distribuzioni contabili e scritture contabili nel giornale di registrazione secondario per le fatture a testo libero](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [Profili di registrazione cliente](customer-posting-profiles.md)
+- [Impostazione, autorizzazione e acquisizione della carta di credito](credit-card-authorizations.md)
+- [Creare una fattura cliente](configure-customer-invoices.md)
+- [Impostare ed elaborare le fatture ricorrenti](set-up-process-recurring-invoices.md)
+- [Correggere una fattura a testo libero](correct-free-text-invoice.md)
+- [Impostare gli effetti attivi](set-up-bills-exchange.md)
+- [Impostare tassi d'interesse per un codice interessi](set-up-interest-rates-interest-code.md)
+- [Rinunciare all'addebito di interessi, ripristinarli o stornarli](waive-reinstate-reverse-interest-fees.md)
+- [Panoramica degli addebiti diretti SEPA](sepa-direct-debit-overview.md)
+- [Impostazione del mandato di addebito diretto SEPA](sepa-direct-debit-mandate.md)
+- [Chiudere la contabilità clienti](close-accounts-receivable.md)
+    
 ## <a name="set-up-credit-and-collections"></a>Impostare i crediti e le riscossioni
 
 Le informazioni sulla riscossione della contabilità clienti vengono gestite in una visualizzazione centrale, ovvero la pagina Riscossioni. I responsabili crediti e riscossioni possono utilizzare tale visualizzazione centrale per gestire le riscossioni. Gli agenti di riscossione possono avviare il processo di riscossione dagli elenchi di clienti generati utilizzando criteri di riscossione predefiniti o nella pagina Clienti.
 
-[Crediti e riscossioni nella contabilità clienti](collections-credit-accounts-receivable.md)
-
-[Configurare la contabilità clienti, i crediti e le riscossioni](accounts-receivables-set-up-overview.md)
-
-[Impostare i crediti e le riscossioni](set-up-collections.md)
+- [Crediti e riscossioni nella contabilità clienti](collections-credit-accounts-receivable.md)
+- [Configurare la contabilità clienti, i crediti e le riscossioni](accounts-receivables-set-up-overview.md)
+- [Impostare i crediti e le riscossioni](set-up-collections.md)
 
 ## <a name="set-up-payments-and-settlements"></a>Impostare pagamenti e liquidazioni
 
 Accettare diversi tipi di pagamenti dai clienti, ad esempio effetti attivi, contanti, assegni, carte di credito e pagamenti elettronici. 
 
-:::row:::
-    :::column:::
-        - [Utilizzare un pagamento cliente per liquidare più fatture che coprono più periodi di sconto](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Pagamenti centralizzati per la contabilità clienti](centralized-payments-accounts-receivable.md)
-        - [Liquidare un pagamento cliente parziale e liquidare completamente il pagamento finale prima della data dello sconto](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Liquidare un pagamento cliente parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-    :::column-end:::
-    :::column:::
-        - [Liquidare un pagamento cliente parziale con sconti sulle note di accredito](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [Liquidare un pagamento cliente parziale con più periodi di sconto](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [Rimborsare i clienti](reimburse-customers.md)
-        - [Pagamenti cliente per un importo parziale](customer-payments-partial-amount.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Utilizzare un pagamento cliente per liquidare più fatture che coprono più periodi di sconto](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+- [Pagamenti centralizzati per la contabilità clienti](centralized-payments-accounts-receivable.md)
+- [Liquidare un pagamento cliente parziale e liquidare completamente il pagamento finale prima della data dello sconto](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+- [Liquidare un pagamento cliente parziale prima della data dello sconto con un pagamento finale dopo la data dello sconto](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+- [Liquidare un pagamento cliente parziale con sconti sulle note di accredito](settle-partial-customer-payment-discounts-credit-notes.md)
+- [Liquidare un pagamento cliente parziale con più periodi di sconto](settle-partial-customer-payment-multiple-discount-periods.md)
+- [Rimborsare i clienti](reimburse-customers.md)
+- [Pagamenti cliente per un importo parziale](customer-payments-partial-amount.md)
+   
 ### <a name="additional-resources"></a>Risorse aggiuntive
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare alla [roadmap di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità pianificate. 
+Passare alla [roadmap di Microsoft Dynamics 365](/dynamics365/release-plans/) per visualizzare le nuove funzionalità pianificate. 
 
 #### <a name="blogs"></a>Blog
 
@@ -117,3 +100,6 @@ Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

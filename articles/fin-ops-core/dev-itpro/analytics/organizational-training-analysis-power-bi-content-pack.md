@@ -2,11 +2,9 @@
 title: Contenuto Power BI sulla formazione nell'organizzazione
 description: Questo argomento descrive il contenuto Finance and Operations - Formazione organizzativa Power BI.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0d508823b19a8d19fcbd1d5b871badb8679a4bbd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685837"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749443"
 ---
 # <a name="organizational-training-power-bi-content"></a>Contenuto Power BI sulla formazione nell'organizzazione
 
@@ -46,7 +44,7 @@ I dati dell'applicazione vengono utilizzati per compilare i report nel pacchetto
 |---------------------------|------------------------------------------------------------------|-----------------------------------|
 | Formazione\_OffsetCalendario  | Offset di calendario su report suddivisi                                | Formazione\_ProgrammaCorso, Formazione\_PartecipantiCorso |
 | Formazione\_Società         | Società in base a cui filtrare i report                                   | Formazione\_ProgrammaCorso, Formazione\_PartecipantiCorso |
-| Formazione\_Corso          | Corso, descrizione, nome istruttore, ubicazione, sala e stato | Formazione\_ProgrammaCorso, Formazione\_PartecipantiCorso, Formazione\_CompetenzaCorso |
+| Formazione\_Corso          | Corso, Descrizione, nome istruttore, ubicazione, sala e stato | Formazione\_ProgrammaCorso, Formazione\_PartecipantiCorso, Formazione\_CompetenzaCorso |
 | Formazione\_ProgrammaCorso    | Programma, corso e orario di inizio e fine                          | Formazione\_Società, Formazione\_OffsetCalendario, Formazione\_Data, Formazione\_Corso |
 | Formazione\_PartecipantiCorso | Nome, stato, mansione e data di registrazione                         | Formazione\_Società, Formazione\_OffsetCalendario, Formazione\_Data, Formazione\_DatiDemografici, Formazione\_Impiego, Formazione\_Corso, Formazione\_NomeLavoratore, Formazione\_TitoloLavoratore, Formazione\_Mansione, Formazione\_Posizione |
 | Formazione\_CompetenzaCorso     | Competenza, tipo di competenza e livello                                     | Formazione\_Corso |
@@ -57,3 +55,6 @@ I dati dell'applicazione vengono utilizzati per compilare i report nel pacchetto
 | Formazione\_Posizione        | Posizione, titolo ed equivalente a tempo pieno (FTE)                  | Formazione\_ProgrammaCorso, Formazione\_PartecipantiCorso |
 | Formazione\_NomeLavoratore      | Nome, cognome e nome completo                             | Formazione\_PartecipantiCorso |
 | Formazione\_TitoloLavoratore     | Titolo e data di anzianità                                         | Formazione\_PartecipantiCorso |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Elementi flusso di lavoro
 description: Questo argomento descrive i vari elementi che costituiscono un flusso di lavoro.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797578"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070452"
 ---
 # <a name="workflow-elements"></a>Elementi flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Questo argomento descrive i vari elementi che costituiscono un flusso di lavoro.
 
@@ -62,7 +63,7 @@ Un *processo di approvazione* è costituito da vari passaggi separati. A ogni pa
 
 È possibile creare un flusso di lavoro per elaborare documenti o le voci in un documento. Si supponga ad esempio di aver creato un flusso di lavoro di approvazione per fogli presenze. Verrà fatto riferimento al flusso di lavoro come *flusso di lavoro del documento*. È possibile aggiungere un *flusso di lavoro voci* a tale flusso di lavoro del documento. Quando viene eseguito l'elemento voce, ogni voce nel documento viene inviata per l'elaborazione. È possibile decidere di elaborare tutte le voci tramite lo stesso flusso di lavoro voci oppure elaborare ogni singola voce tramite un flusso di lavoro voci diverso. Si supponga che un dipendente abbia inviato un foglio presenze analogo a quello illustrato nella figura indicata di seguito.
 
-![Flusso di lavoro con voci](./media/workflow_lineitemworkflow.gif)
+![Flusso di lavoro con voci.](./media/workflow_lineitemworkflow.gif)
 
 In questo scenario è possibile creare i flussi di lavoro voci seguenti:
 
@@ -89,3 +90,6 @@ Un'*attività parallela* è un elemento del flusso di lavoro che include due o p
 ### <a name="subworkflow"></a>Flusso di lavoro secondario
 
 Un *flusso di lavoro secondario* è un flusso di lavoro eseguito nel contesto di un altro flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

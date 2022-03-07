@@ -2,28 +2,25 @@
 title: Resi su vendite
 description: In questo argomento vengono fornite informazioni sul processo per gli ordini di reso. Sono riportate informazioni sui resi dei clienti e sul relativo effetto sulle quantità di scorte disponibili e di determinazione costi.
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 08c32fd989bfbaecf92641fdbbebfad5c823d258fc2583f20186bb7281e3e03f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430940"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731081"
 ---
 # <a name="sales-returns"></a>Resi su vendite
 
@@ -36,7 +33,7 @@ I clienti possono rendere gli articoli per diversi motivi. Ad esempio, un artico
 ## <a name="return-order-process"></a>Processo relativo all'ordine di reso
 Nell'illustrazione riportata di seguito viene fornita una panoramica del processo relativo all'ordine di reso.  
 
-[![Processo relativo all'ordine di reso](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Processo relativo all'ordine di reso.](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Sono disponibili due tipi di processi dell'ordine di reso: reso fisico e solo credito.
 
@@ -65,13 +62,13 @@ L'elaborazione dell'Autorizzazione reso (NAR) si basa sulla funzionalità dell'o
 ## <a name="create-a-return-order"></a>Creare un ordine di reso
 Il processo dell'ordine di reso inizia quando un cliente contatta l'organizzazione per restituire un prodotto difettoso o indesiderato e/o per ricevere un accredito. Dopo che l'organizzazione accetta il reso, il reso viene documentato con un ordine di reso. L'ordine di reso diventa il punto focale dell'elaborazione interna dell'articolo restituito. Nell'illustrazione che segue è descritta la procedura per la creazione di un ordine di reso.  
 
-[![Procedura per creare un ordine di reso](./media/salesreturn02.png)](./media/salesreturn02.png)
+[![Procedura per creare un ordine di reso.](./media/salesreturn02.png)](./media/salesreturn02.png)
 
 ### <a name="create-a-return-order-header"></a>Creare un'intestazione di ordine di reso
 
 Quando si crea un ordine di reso, le informazioni nella tabella che segue devono essere incluse.
 
-| Campo              | descrizione                                              | Commenti                                                                                                                                                                                                                                                                                                                                        |
+| Campo              | Descrizione                                              | Commenti                                                                                                                                                                                                                                                                                                                                        |
 |--------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Account cliente   | Un riferimento alla tabella Clienti                       | È necessario immettere un conto cliente esistente.                                                                                                                                                                                                                                                                                                  |
 | Indirizzo di consegna   | Indirizzo al quale viene restituito l'articolo                 | Per impostazione predefinita, viene utilizzato l'indirizzo dell'organizzazione. Se nell'intestazione viene selezionato un magazzino specifico, l'indirizzo di consegna viene modificato nell'indirizzo di consegna del magazzino. È possibile modificare questo indirizzo nella pagina **Dettagli ordini di reso**.                                                                                                  |
@@ -180,7 +177,7 @@ Oltre a stabilire la modalità di smaltimento delle merci rese, i codici smaltim
 ## <a name="arrival-at-the-warehouse-for-inspection"></a>Arrivo in magazzino per l'ispezione
 Prima di poter ricevere fisicamente gli articoli resi in magazzino tramite la registrazione di un documento di trasporto, gli articoli devono essere registrati all'arrivo e sottoposti a un'ispezione facoltativa. Nell'illustrazione riportata di seguito viene fornita una panoramica del processo di arrivo. Le sezioni che seguono descrivono ciascun passaggio riportato nella figura.  
 
-[![Processo di arrivo](./media/salesreturn03.png)](./media/salesreturn03.png)  
+[![Processo di arrivo.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
 Il processo presenta numerose altre differenze, che non vengono descritte in questo argomento. Di seguito ne sono riportate alcune:
 
@@ -223,7 +220,7 @@ Sono disponibili due metodi per la gestione della sostituzione prodotto:
 
 Nella sostituzione preliminare l'articolo sostitutivo può essere consegnato al cliente prima che avvenga il reso. Questo metodo è utile se, ad esempio, l'articolo è un pezzo meccanico che non può essere eliminato se non è disponibile un pezzo di ricambio o se si desidera semplicemente che il cliente abbia il prodotto sostitutivo al più presto. L'ordine sostitutivo preliminare è un ordine cliente indipendente. Le informazioni di intestazione vengono inizializzate dal cliente e le informazioni relative alle righe vengono inizializzate dall'ordine di reso. È possibile modificare, elaborare ed eliminare l'ordine sostitutivo indipendentemente dall'ordine di reso. Quando si elimina un ordine sostitutivo, viene visualizzato un messaggio che l'ordine è stato creato come ordine sostitutivo. Nella figura seguente è illustrato il processo per la sostituzione preliminare.  
 
-![Processo per la sostituzione preliminare](./media/SalesReturn04.png)
+![Processo per la sostituzione preliminare.](./media/SalesReturn04.png)
 
 L'ordine di reso contiene un riferimento all'ordine sostitutivo. Se un ordine sostitutivo preliminare viene creato per un ordine di reso prima della restituzione dell'articolo difettoso, non è possibile selezionare i codici smaltimento da sostituire dopo che l'articolo difettoso è stato reso.
 
@@ -231,7 +228,7 @@ L'ordine di reso contiene un riferimento all'ordine sostitutivo. Se un ordine so
 
 Se si spedisce un articolo sostitutivo al cliente e si utilizza l'azione di smaltimento **Sostituzione e scarto** o **Sostituzione e credito** sull'ordine di reso, utilizzare il processo che viene visualizzato nella figura seguente.  
 
-![Processo di sostituzione quando viene utilizzato un codice smaltimento](./media/SalesReturn05.png)
+![Processo di sostituzione quando viene utilizzato un codice smaltimento.](./media/SalesReturn05.png)
 
 L'articolo sostitutivo verrà consegnato utilizzando un ordine cliente indipendente, l'ordine cliente sostitutivo. Questo ordine cliente viene creato quando il documento di trasporto per l'ordine di reso viene generato. L'intestazione dell'ordine utilizza le informazioni del cliente cui viene fatto riferimento nell'intestazione dell'ordine di reso. Le informazioni delle righe vengono raccolte in base alle informazioni immesse nella pagina **Articolo sostitutivo**. La pagina **Articolo sostitutivo** deve essere specificata nelle righe con azioni di smaltimento che iniziano con la parola "sostituire". Tuttavia, né la quantità né l'identità dell'articolo sostitutivo vengono convalidate o limitate. Questo comportamento prende in considerazione i casi in cui il cliente desidera lo stesso articolo, ma in una configurazione o dimensione diversa, nonché i casi in cui i clienti desiderano un articolo completamente diverso. Per impostazione predefinita, nella pagina **Articolo sostitutivo** viene immesso un articolo identico. Tuttavia, è possibile selezionare un articolo diverso, a condizione che la funzione sia stata installata. 
 
@@ -271,7 +268,7 @@ Gli ordini di reso possono essere completati tra due società della propria orga
 
 Nella seguente figura è indicata la configurazione minima necessaria per due società per partecipare a una relazione interaziendale e per consentire il commercio interaziendale.  
 
-![Impostazione minima](./media/SalesReturn06.png)
+![Impostazione minima.](./media/SalesReturn06.png)
 
 Nello scenario seguente CompBuy è l'azienda acquirente, mentre CompSell è l'azienda venditrice. In genere, la società venditrice spedisce le merci alla società acquirente o, in scenari di spedizione di consegna, direttamente al cliente finale. In CompBuy l'IC del fornitore\_CompSell viene definito come endpoint interaziendale associato alla società CompSell. Contemporaneamente, in CompSell, l'IC del cliente\_CompBuy viene definito come endpoint interaziendale associato alla società CompBuy. I dettagli dei criteri di azione e i mapping dei valori appropriati devono essere definiti in entrambe le società. In uno scenario di spedizione di consegna diretta un ordine di reso interaziendale, che corrisponde a un ordine cliente interaziendale, viene creato nella società venditrice. Il codice NAR dell'ordine di reso interaziendale può essere selezionato dalla sequenza di codici NAR in CompSell oppure può essere copiato dal codice NAR assegnato all'ordine di reso originale in CompBuy. Le impostazioni del codice NAR sui criteri azioni **PurchaseRequisition** in CompBuy determinano le azioni. Se il codice NAR viene sincronizzato, è necessario attenuare il rischio del numero di scontri se le due società utilizzano la stessa sequenza numerica.
 
@@ -279,7 +276,7 @@ Nello scenario seguente CompBuy è l'azienda acquirente, mentre CompSell è l'az
 
 Questo scenario interessa due società della stessa organizzazione, come illustrato nella figura seguente.  
 
-![Reso interaziendale semplice](./media/SalesReturn07.png)
+![Reso interaziendale semplice.](./media/SalesReturn07.png)
 
 È possibile stabilire la catena di ordini quando viene creato un ordine di reso fornitore nell'azienda acquirente o viene creato un ordine di reso cliente nell'azienda venditrice. L'ordine corrispondente viene creato nell'altra società e garantisce che l'intestazione e le informazioni sulla riga dell'ordine di reso fornitore riflettano le impostazioni nell'ordine di reso di un cliente. L'ordine di reso che viene stabilito può includere o escludere il riferimento (**Trova ordine cliente**) a una fattura di vendita esistente. I documenti di trasporto e le fatture dei due ordini possono essere elaborati singolarmente. Ad esempio, non sarà necessario generare un documento di trasporto per l'ordine di reso fornitore prima di generare il documento di trasporto per l'ordine di reso di un cliente.
 
@@ -287,7 +284,7 @@ Questo scenario interessa due società della stessa organizzazione, come illustr
 
 Questo scenario può verificarsi se una vendita precedente del tipo **Consegna diretta** è stata completata e se una fattura al cliente è disponibile nella società che interagisce con il cliente. Nella seguente figura la società CompBuy ha precedentemente venduto e fatturato prodotti al cliente Extern. I prodotti sono stati spediti direttamente dalla società CompSell al cliente tramite una catena di ordini interaziendali.  
 
-![Resi di spedizione consegna diretta tra tre parti](./media/SalesReturn08.png)
+![Resi di spedizione consegna diretta tra tre parti.](./media/SalesReturn08.png)
 
 Se il cliente Extern desidera restituire i prodotti, viene creato un ordine di reso (RMA02) per il cliente nell'azienda CompBuy. Per stabilire la catena interaziendale, l'ordine di reso deve essere contrassegnato per la consegna diretta. Quando si utilizza la funzione **Trova ordine cliente** per selezionare la fattura cliente da restituire, viene stabilita una catena di ordini interaziendali costituita dai seguenti documenti:
 
@@ -309,7 +306,7 @@ Negli esempi successivi il prezzo di costo del reso è rappresentato come **Prez
 
 L'ordine di reso non fa riferimento a una fattura cliente. L'articolo reso viene registrato in Avere. Il parametro **Correzione credito** non è selezionato quando la fattura dell'ordine di reso, o nota di accredito, viene generata.  
 
-![L'ordine di reso non fa riferimento a una fattura cliente](./media/SalesReturn09.png)  
+![L'ordine di reso non fa riferimento a una fattura cliente.](./media/SalesReturn09.png)  
 
 >[Nota!] Il prezzo nel record generale dell'articolo viene utilizzato come valore predefinito per il parametro **Prezzo di costo reso**. Il prezzo predefinito è diverso dal prezzo di costo al momento dell'uscita da magazzino. Di conseguenza, l'implicazione è che si è verificata una perdita di 3. Inoltre, l'ordine di reso non include lo sconto concesso al cliente nell'ordine cliente. Di conseguenza, si verifica un credito in eccesso.
 
@@ -317,7 +314,7 @@ L'ordine di reso non fa riferimento a una fattura cliente. L'articolo reso viene
 
 L'esempio 2 corrisponde all'esempio 1, ma il parametro **Correzione credito** è selezionato quando viene generata la fattura dell'ordine di reso.  
 
-![Ordine di reso in presenza della selezione di una correzione di credito ](./media/SalesReturn10.png)  
+![Ordine di reso in presenza della selezione di una correzione di credito.](./media/SalesReturn10.png)  
 
 >[Nota!] Le registrazioni contabili vengono immesse come correzioni negative.
 
@@ -325,9 +322,12 @@ L'esempio 2 corrisponde all'esempio 1, ma il parametro **Correzione credito** è
 
 In questo esempio la riga dell'ordine di reso viene creata utilizzando la funzione **Trova ordine cliente**. Il parametro **Correzione credito** non è selezionato quando viene creata la fattura.  
 
-![Riga ordine di reso creata usando Trova ordine cliente ](./media/SalesReturn11.png)  
+![Riga ordine di reso creata usando Trova ordine cliente.](./media/SalesReturn11.png)  
 
 >[Nota!] **Sconto** e **Prezzo di costo reso** vengono impostati correttamente. Di conseguenza, viene eseguito uno storno esatto della fattura cliente.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

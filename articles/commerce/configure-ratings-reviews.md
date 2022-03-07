@@ -2,35 +2,30 @@
 title: Configurare valutazioni e recensioni
 description: In questo argomento viene descritto come configurare il sito di e-Commerce per visualizzare valutazioni e recensioni dei clienti in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413358"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968104"
 ---
-# <a name="configure-ratings-and-reviews"></a>Configurare valutazioni e recensioni
+# <a name="configure-ratings-and-reviews"></a>Configurare valutazioni e revisioni
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come configurare il sito di e-Commerce per visualizzare valutazioni e recensioni dei clienti in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Le valutazioni e le recensioni nei siti Web di e-Commerce consentono ai clienti di informarsi sui prodotti prima di deciderne l'acquisto mediante l'opinione di altri clienti riguardo a quei prodotti. Per i siti Web di e-Commerce, valutazioni e recensioni sono anche un meccanismo di raccolta dei riscontri dei clienti sui prodotti. 
 
@@ -49,7 +44,7 @@ Per configurare un sito allo scopo di visualizzare valutazioni e recensioni, eff
 
 L'illustrazione seguente mostra questa configurazione in Dynamics 365 Commerce.
 
-![Configurare un sito per visualizzare valutazioni e recensioni](media/rnr-eCommerce-site-appsettings.png)
+![Configurare un sito per visualizzare valutazioni e recensioni.](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Collegare la valutazione di un prodotto alla sezione Recensioni di una pagina dettagli prodotto
 
@@ -63,7 +58,7 @@ Per collegare la valutazione di una prodotto alla sezione **Recensioni** della p
 
 L'illustrazione seguente mostra questa configurazione in Dynamics 365 Commerce.
 
-![Collegare la valutazione di un prodotto alla sezione Recensioni di una pagina dettagli prodotto](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Collegare la valutazione di un prodotto alla sezione Recensioni di una pagina dettagli prodotto.](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Configurare il collegamento per la pagina dell'informativa sulla privacy e delle politiche
 
@@ -78,7 +73,7 @@ Per configurare il collegamento per la pagina dell'informativa sulla privacy e d
 
 L'illustrazione seguente mostra questa configurazione in Dynamics 365 Commerce.
 
-![Configurare il collegamento per la pagina dell'informativa sulla privacy e delle politiche](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Configurare il collegamento per la pagina dell'informativa sulla privacy e dei criteri.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Configurare i moduli di valutazione e recensione nelle pagine dei dettagli del prodotto
 
@@ -92,6 +87,17 @@ Per informazioni sulla configurazione dei moduli di valutazione e recensione nel
 
 [Gestire valutazioni e revisioni](manage-reviews.md)
 
-[Configurare i moduli di valutazione e recensione nelle pagine dei dettagli del prodotto](ratings-reviews-modules.md)
-
 [Sincronizzare valutazioni sul prodotto in Dynamics 365 Retail](sync-product-ratings.md)
+
+[Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore](manual-publish-rating-reviews.md)
+
+[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
+
+[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
+
+[Recensioni e valutazioni - Domande frequenti](ratings-reviews-faq.md)
+
+[Moduli Valutazioni e recensioni](ratings-reviews-modules.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

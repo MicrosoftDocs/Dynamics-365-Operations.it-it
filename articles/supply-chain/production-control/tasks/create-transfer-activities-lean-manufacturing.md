@@ -2,27 +2,24 @@
 title: Creare le attività di trasferimento per la lean manufacturing
 description: Creare un'attività di trasferimento per lean manufacturing
 author: cvocph
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2925833aceba0cffe46b3a44c5d19c87cd3736e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a7d65b3de38f74f1b4d8b5170cd3eba585cecfb19e7e349bda9a6306f335f58
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742078"
 ---
 # <a name="create-transfer-activities-for-lean-manufacturing"></a>Creare le attività di trasferimento per la lean manufacturing
 
@@ -90,3 +87,6 @@ Prerequisiti:
 12. Scegliere Fine.
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

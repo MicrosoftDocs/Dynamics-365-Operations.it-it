@@ -1,28 +1,29 @@
 ---
 title: Panoramica dell'abbinamento fatture della contabilità fornitori
 description: Il processo di abbinamento fatture Contabilità fornitori consente di abbinare le informazioni relative a fatture fornitore, ordini fornitore ed entrate prodotti.
-author: sunfzam
+author: abruer
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "27361"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 27361
 ms.assetid: 9f3dace7-05d8-4974-8f85-aca2e224876c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7ffcd731b127b9a51551d4fe966dcfd69a34e54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8e283038a0cc1c9834a827c453f2951e9e87bcf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984079"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444871"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Panoramica dell'abbinamento fatture della contabilità fornitori
 
@@ -48,7 +49,7 @@ Sono disponibili i tipi di abbinamento fatture di contabilità fornitori indicat
 
 Tramite l'abbinamento a due e a tre elementi di verifica vengono abbinate sempre le informazioni sul prezzo in base al prezzo unitario. È inoltre possibile configurare questi criteri per abbinare le informazioni sul prezzo in base al totale dei prezzi.
 -   Abbinamento prezzo unitario netto: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra il prezzo unitario netto per ogni riga fattura e il prezzo unitario netto corrispondente dell'ordine fornitore. Il prezzo unitario netto viene determinato in base alla formula seguente: importo netto riga / quantità riga.
--   Abbinamento totali dei prezzi: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra l'importo netto (totale dei prezzi) per ogni riga fattura e l'importo netto corrispondente dell'ordine fornitore. L'importo netto viene determinato in base alla formula seguente:*(prezzo unitario \* quantità riga) + spese riga - sconti riga*. Quando si abbinano i prezzi totali in base alla percentuale, il sistema confronta i valori utilizzando la valuta della transazione. Quando si abbinano i prezzi totali in base all'importo, il sistema confronta i valori utilizzando la valuta di contabilizzazione. Quando fatturi parzialmente una riga di ordine fornitore, la convalida dell'abbinamento prezzo-totale si verifica nell'ultima fattura per quella riga. 
+-   Abbinamento totali dei prezzi: consente di abbinare le informazioni sul prezzo per l'abbinamento a due o a tre elementi di verifica tramite il confronto tra l'importo netto (totale dei prezzi) per ogni riga fattura e l'importo netto corrispondente dell'ordine fornitore. L'importo netto viene determinato in base alla formula seguente:*(prezzo unitario \* quantità riga) + spese riga - sconti riga*. Quando si abbinano i prezzi totali in base alla percentuale, il sistema confronta i valori utilizzando la valuta della transazione. Quando si abbinano i prezzi totali in base all'importo, il sistema confronta i valori utilizzando la valuta di contabilizzazione.
 
 In genere, i calcoli di abbinamento fatture vengono eseguiti automaticamente al momento della modifica delle fatture fornitore nella pagina Fattura fornitore. In alternativa, l'abbinamento fatture può essere eseguito su richiesta, se necessario. L'abbinamento fatture nella richiesta viene controllato per la persona giuridica dallo stato Aggiorna automaticamente intestazione fattura a nella pagina dei parametri di contabilità fornitori nella scheda Convalida fattura. L'abbinamento fatture può essere eseguito come parte di un processo di revisione della fattura. È possibile visualizzare i risultati di abbinamento fatture automatico sulla pagina Fattura fornitore e nelle pagine di abbinamento fatture correlate.
 
@@ -165,12 +166,12 @@ Gli stessi importi riga vengono confrontati nella pagina dei dettagli abbinament
 Criteri di abbinamento a tre vie controllati per la persona giuridica dal campo Criteri di abbinamento riga della pagina Parametri contabilità fornitori. A seconda della selezione effettuata nel campo Consenti di ignorare i criteri di abbinamento, nella pagina Criteri di abbinamento è possibile selezionare l'abbinamento a tre elementi di verifica per un fornitore, un articolo o una combinazione di articolo e fornitore specifici. Nella pagina Ordine acquisto è possibile selezionare l'abbinamento a due elementi di verifica per un ordine fornitore specifico.
 
 ## <a name="charges-matching"></a>Abbinamento spese
-È possibile utilizzare l'abbinamento spese per assicurarsi gli importi spese non si discostino dagli importi previsti oltre una percentuale accettabile. Gli importi totali relativi a ogni codice di spese che si applica alla fattura e all'ordine fornitore vengono confrontati nella pagina Confronta valori spese - Fattura, come illustrato nella tabella riportata di seguito. Se la tolleranza consentita per il codice di spese è pari al 25%, la percentuale di scostamento 99.999.999.999,99% per il codice di spese Licenza viene considerata una discrepanza di abbinamento.
+È possibile utilizzare l'abbinamento spese per assicurarsi gli importi spese non si discostino dagli importi previsti oltre una percentuale accettabile. Gli importi totali relativi a ogni codice spesa che si applica alla fattura e all'ordine fornitore vengono confrontati nella pagina Confronta valori spese - Fattura, come illustrato nella tabella riportata di seguito. Se la tolleranza consentita per il codice spese è pari al 25%, la percentuale di scostamento 99.999.999.999,99% per il codice spese Licenza viene considerata una discrepanza di abbinamento.
 
 > [!NOTE] 
 > Una percentuale di scostamento pari al 99.999.999.999,99% indica che l'importo previsto basato sull'ordine fornitore è pari a zero e l'importo effettivo della fattura corrisponde a un valore positivo. 
 
-| Stato di abbinamento spese | Codice di spese fattura | Valore calcolato totale effettivo | Valore calcolato totale previsto | Importo scostamento | Percentuale di scostamento | Percentuale di tolleranza |
+| Stato di abbinamento spese | Codice spese fattura | Valore calcolato totale effettivo | Valore calcolato totale previsto | Importo scostamento | Percentuale di scostamento | Percentuale di tolleranza |
 |----------------------|----------------------|-------------------------------|---------------------------------|-----------------|---------------------|----------------------|
 | Non riuscita               | Licenza              | 25                            | 0                               | 25              | 99.999.999.999,99%  | 25%                  |
 | Superata               | Spese di trasporto              | 200                           | 200                             | 0               | 0%                  | 25%                  |
@@ -179,7 +180,7 @@ Criteri di abbinamento a tre vie controllati per la persona giuridica dal campo 
 L'abbinamento spese è controllato per la persona giuridica da Abbina spese nella pagina dei parametri di contabilità fornitori. È possibile impostare le percentuali di tolleranza scostamento nella pagina Tolleranze spese.
 
 > [!NOTE]
-> L'abbinamento spese viene eseguito solo sui codici di spese per il quale l'ordine fornitore di confrontare e il cambio di stato operative di valori di fattura è selezionato nella pagina di codice di spese.
+> L'abbinamento spese viene eseguito solo sui codici spese per il quale l'ordine fornitore di confrontare e il cambio di stato operative di valori di fattura è selezionato nella pagina di codice spese.
 
 ## <a name="related-functionality"></a>Funzionalità correlate
 Anziché sugli ordini fornitore, spesso le fatture fornitore si basano sulle entrate prodotti che rappresentano le spedizioni effettive. Talvolta, gli importi fatturati non corrispondono agli importi degli ordini fornitori e in alcuni casi le quantità spedite non corrispondono alle quantità fatturate. È possibile semplificare la gestione di queste informazioni nei modi indicati di seguito.
@@ -193,6 +194,3 @@ Per ulteriori informazioni, vedere [Criteri di abbinamento a tre elementi di ver
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

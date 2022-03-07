@@ -1,33 +1,34 @@
 ---
 title: Piani di retribuzione
-description: I responsabili di benefit e retribuzione possono utilizzare la gestione della retribuzione per gestire ed elaborare i piani di retribuzione fissa e variabile per i dipendenti dell'organizzazione.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
+description: Questo argomento descrive come utilizzare la gestione retribuzione per gestire ed elaborare i piani retributivi.
+author: twheeloc
+ms.date: 08/25/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
-ms.custom: 7521
+ms.search.scope: Human Resources
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419156"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066902"
 ---
 # <a name="compensation-plans"></a>Piani di retribuzione
 
-I responsabili di benefit e retribuzione possono utilizzare la gestione della retribuzione per gestire ed elaborare i piani di retribuzione fissa e variabile per i dipendenti dell'organizzazione.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+I responsabili di benefit e retribuzione possono utilizzare la **gestione della retribuzione** per gestire ed elaborare i piani di retribuzione fissa e variabile per i dipendenti dell'organizzazione.
 
 ### <a name="introduction"></a>Introduzione
 
@@ -44,7 +45,7 @@ La seguente tabella elenca le componenti del processo di retribuzione che posson
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Ulteriori informazioni...</th>
+<th>Ulteriori informazioni</th>
 </tr>
 </thead>
 <tbody>
@@ -90,10 +91,10 @@ La seguente tabella elenca le componenti del processo di retribuzione che posson
 </tr>
 <tr class="even">
 <td>Punto di controllo</td>
-<td>Il punto di controllo definisce ciò che si considera essere la tariffa ideale per tutti i dipendenti inclusi in un livello retributivo. Nelle strutture retributive scalari, i punti di controllo corrispondono in genere al punto medio dei singoli range. Le strutture "a fascia" utilizzano raramente i punti di controllo. È possibile specificare il punto di controllo di un piano di retribuzione fissa nel modulo Piani di retribuzione fissa.</td>
+<td>Il punto di controllo definisce ciò che si considera essere la tariffa ideale per tutti i dipendenti inclusi in un livello retributivo. Nelle strutture retributive scalari, i punti di controllo corrispondono in genere al punto medio dei singoli range. Le strutture "a fascia" utilizzano raramente i punti di controllo. È possibile specificare il punto di controllo di un piano di retribuzione fissa nel modulo **Piani di retribuzione fissa**.</td>
 </tr>
 <tr class="odd">
-<td>Funzioni lavorative</td>
+<td>Funzioni di lavoro</td>
 <td>Le funzioni lavorative vengono utilizzate per classificare e filtrare i piani di retribuzione nei processi specifici.</td>
 </tr>
 <tr class="even">
@@ -122,8 +123,7 @@ La seguente tabella elenca le componenti del processo di retribuzione che posson
 ## <a name="process-events"></a>Eventi processo
 Gli eventi processo consentono di calcolare le informazioni sulle retribuzioni in un periodo specifico per tutti i dipendenti iscritti a uno o più piani di retribuzione fissa o variabile. È possibile eseguire ripetutamente un evento processo per effettuare il test o l'aggiornamento dei risultati retributivi calcolati.
 
-<a name="compensation-events"></a>Eventi retributivi
--------------------
+## <a name="compensation-events"></a>Eventi retributivi
 
 Ogni volta che viene eseguito un evento processo, viene creato un evento retribuzione.  Gli eventi retribuzione contengono i risultati del processo retributivo per ciascun dipendente incluso nell'evento processo.  Quando i calcoli sono corretti, è possibile caricare l'evento retribuzione per aggiornare le voci relative alla retribuzione per i dipendenti interessati dall'evento processo.
 
@@ -132,3 +132,6 @@ Dopo aver eseguito un evento processo, è possibile suggerire correzioni dell'au
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

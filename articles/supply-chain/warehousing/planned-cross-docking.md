@@ -2,11 +2,9 @@
 title: Cross-docking pianificato
 description: Questo argomento descrive il cross-docking pianificato avanzato, in cui la quantità di scorte richiesta per un ordine viene indirizzata direttamente dalla ricevuta o dalla creazione alla banchina di uscita o alla zona di transito corretta. Tutte le scorte rimanenti dall'origine in entrata vengono indirizzate all'ubicazione di magazzino corretta attraverso il normale processo di stoccaggio.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970308"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359079"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking pianificato
 
@@ -30,19 +28,21 @@ Questo argomento descrive il cross docking pianificato avanzato. Il cross-dockin
 
 Il cross-docking consente ai lavoratori di saltare lo stoccaggio in entrata e il prelievo in uscita delle scorte già contrassegnate per un ordine in uscita. Pertanto, il numero di volte in cui l'inventario viene toccato viene ridotto al minimo, ove possibile. Inoltre, poiché vi è una minore interazione con il sistema, i risparmi di tempo e spazio nello shop floor del magazzino aumentano.
 
-Prima di poter eseguire il cross-docking, l'utente deve configurare un nuovo modello di cross-docking, in cui sono specificati l'origine di approvvigionamento e altri set di requisiti per il cross-docking. Quando viene creato l'ordine di uscita, la riga deve essere contrassegnata a fronte di un ordine di entrata che contiene lo stesso articolo.
+Prima di poter eseguire il cross-docking, devi configurare un nuovo modello di cross-docking, in cui sono specificati l'origine di approvvigionamento e altri set di requisiti per il cross-docking. Quando viene creato l'ordine di uscita, la riga deve essere contrassegnata a fronte di un ordine di entrata che contiene lo stesso articolo. Puoi selezionare il campo Codice direttiva nel modello di cross-docking, in modo simile al modo in cui si impostano gli ordini di rifornimento e fornitore.
 
 Al momento della ricezione dell'ordine in entrata, la configurazione del cross-docking identifica automaticamente la necessità di cross-docking e crea il lavoro di movimentazione per la quantità richiesta, in base all'impostazione della direttiva di ubicazione.
 
 > [!NOTE]
-> Le transazioni di magazzino **non** sono esenti da registrazione quando viene annullato il lavoro di cross-docking, anche se l'impostazione per questa funzionalità è attivata nei parametri di gestione del magazzino.
+> Le transazioni di magazzino *non* sono esenti da registrazione quando viene annullato il lavoro di cross-docking, anche se l'impostazione per questa funzionalità è attivata nei parametri di gestione del magazzino.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Attivare la funzionalità di cross docking pianificata
+## <a name="turn-on-the-planned-cross-docking-features"></a>Attivare le funzionalità di cross docking pianificato
 
-Prima di poter utilizzare il cross-docking pianificato avanzato, è necessario attivare due funzionalità nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Se il sistema in uso non include già le funzionalità descritte in questo argomento, vedere [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare le seguenti funzionalità nel seguente ordine:
 
-- **Modulo:** *Gestione Magazzino*
-- **Nome funzionalità:** *Cross docking pianificato*
+1. *Cross-docking pianificato*
+1. *Modelli di cross-docking con direttive di ubicazione*
+    > [!NOTE]
+    > Questa funzionalità abilita il campo **Codice direttiva** affinché sia specificato nel modello di cross-docking, in modo simile al modo in cui si impostano i modelli di rifornimento. L'abilitazione di questa funzionalità impedisce di aggiungere un codice direttiva nelle righe del modello di lavoro cross-docking per la riga *Stoccaggio* finale. Ciò garantisce che la posizione di stoccaggio finale possa essere determinata durante la creazione del lavoro prima di considerare i modelli di lavoro.
 
 ## <a name="setup"></a>Attrezzaggio
 
@@ -89,6 +89,10 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
     - **Riconvalida al ricevimento della fornitura:** *No*
 
         Questa opzione definisce se la fornitura deve essere riconvalidata al momento del ricevimento. Se questa opzione è impostata su *Sì*, vengono controllati sia l'intervallo di tempo massimo sia l'intervallo di giorni di scadenza.
+
+    - **Codice direttiva:** lascia vuoto questo campo
+
+        Questa opzione è abilitata tramite la funzionalità *Modelli di cross docking con direttive di ubicazione*. Il sistema utilizza le direttive di ubicazione per determinare l'ubicazione migliore in cui spostare l'inventario cross-docking. È possibile configurarla assegnando un codice direttiva a ciascun modello di cross-docking pertinente. Se il codice direttiva è impostato, il sistema cercherà direttive di ubicazione in base al codice direttiva quando viene generato il lavoro. In questo modo, puoi limitare le direttive di ubicazione utilizzate per un particolare modello di cross-docking.
 
     - **Convalida finestra temporale:** *Sì*
 
@@ -267,7 +271,7 @@ Segui questi passaggi per creare il cross-docking pianificato dall'ordine client
 
 ### <a name="purchase-order-receiving-on-the-warehousing-mobile-app"></a>Ricezione dell'ordine fornitore nell'app per dispositivi mobili di magazzino
 
-Il sistema riceverà la quantità di 5 dall'ordine di acquisto nell'ubicazione di ricevimento e creerà due parti del lavoro.
+Il sistema riceverà la quantità di 5 dall'ordine fornitore nell'ubicazione di ricevimento e creerà due parti del lavoro.
 
 Il primo ID lavoro creato ha un valore **Tipo di ordine di lavoro** di *Cross docking* ed è collegato all'ordine cliente. Ha una quantità di 3 ed è diretto al luogo di spedizione finale in modo che possa essere spedito immediatamente.
 
@@ -314,4 +318,7 @@ Attualmente, entrambi gli ID lavoro hanno la stessa targa di destinazione. Per c
 
 La seguente illustrazione mostra come il lavoro cross-docking completato potrebbe apparire in Microsoft Dynamics 365 Supply Chain Management.
 
-![Lavoro di cross docking completato](media/PlannedCrossDockingWork.png "Lavoro di cross docking completato")
+![Lavoro di cross docking completato.](media/PlannedCrossDockingWork.png "Lavoro di cross docking completato")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Misure dei cespiti
 description: Nell'argomento viene descritto come creare tipi di misure dei cespiti in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectCounterPart, EntAssetObjectCounterLookup, EntAssetCounterType, EntAssetObjectCounterTotals
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 37f47b3d9ba0344b96db5626359e2a99a1a40f9c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723577"
 ---
 # <a name="counters"></a>Contatori
 
@@ -64,5 +62,8 @@ Una registrazione di contatore può essere aggiornata manualmente oppure automat
 
 Quando i tipi di cespite vengono aggiunti a un tipo di contatore in **Contatori**, quel contatore viene aggiunto automaticamente ai tipi di cespite nella Scheda dettaglio **Contatori** in [Tipi di cespite](../setup-for-objects/object-types.md).
 
-![Figura 1](media/071-setup-for-objects.png)
+![Figura 1.](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

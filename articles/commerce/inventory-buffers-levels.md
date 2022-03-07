@@ -2,33 +2,28 @@
 title: Configurare buffer e livelli di scorte
 description: Questo argomento spiega come configurare i buffer e i livelli di scorte che determinano la messaggistica sulla disponibilità delle scorte nei siti Microsoft Dynamics 365 Commerce.
 author: boycezhu
-manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca6cea9e0e7f1fd3eba3082c5a33e8b2d6dec878
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413484"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798915"
 ---
-# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurare buffer e livelli di scorte
+# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurare buffer scorte e livelli scorte
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento spiega come configurare i buffer e i livelli di scorte che determinano la messaggistica sulla disponibilità delle scorte nei siti Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Dynamics 365 Commerce Headquarters include dati sulle scorte e vari canali come applicazioni POS, vetrine di e-commerce e altre applicazioni integrate personalizzate che eseguono il pull e push delle scorte in modo asincrono. Pertanto, i valori sulle scorte disponibili ottenuti tramite la pagina delle scorte disponibili in Commerce Headquarters, l'interfaccia utente POS e le API di disponibilità delle scorte di e-Commerce non sono sempre accurate al 100% in tempo reale.
 
@@ -41,7 +36,7 @@ La funzionalità per i buffer e i livelli di scorte viene controllata mediante l
 1. Andare a **Amministrazione sistema** \> **Aree di lavoro** \> **Gestione funzionalità**.
 1. Cercare la funzionalità **Abilita buffer e livelli di scorte**, selezionare la relativa riga, quindi selezionare **Abilita ora**.
 
-Dopo aver attivato la funzionalità, è possibile trovare i livelli di scorte in **Retail and Commerce \> Gestione articoli**.
+Dopo aver attivato la funzionalità, è possibile trovare i livelli di scorte in **Retail e Commerce \> Gestione articoli**.
 
 ## <a name="create-and-configure-an-inventory-level-profile"></a>Creare e configura un profilo di livello di scorte
 
@@ -55,7 +50,7 @@ Un *profilo di livello di scorte* determina se una determinata quantità di prod
 
 Per creare un profilo di livello di scorte, attenersi alla seguente procedura.
 
-1. Andare a **Retail and Commerce** \> **Gestione articoli** \> **Livelli scorte**.
+1. Andare a **Retail e Commerce** \> **Gestione articoli** \> **Livelli scorte**.
 1. Nel riquadro azioni selezionare **Nuovo**, quindi immettere valori nei campi **ID profilo** e **Descrizione**.
 1. Nella Scheda dettaglio **Intervalli**, selezionare **Aggiungi** per aggiungere un nuovo livello, quindi inserire i valori nelle colonne **Quantità iniziale**, **Quantità finale**, **Codice** e **Etichetta** per quel livello. Ripetere questo passaggio per aggiungere ulteriori livelli. Se necessario, è possibile modificare i valori nella griglia dei dati oppure selezionare **Elimina** per rimuovere un livello.
 1. Nel riquadro azioni selezionare **Salva**.
@@ -149,3 +144,6 @@ Per configurare la risposta delle API di disponibilità dei prodotti, attenersi 
 [Applicare impostazioni relative alle scorte](inventory-settings.md)
 
 [Calcolare la disponibilità scorte per i canali di vendita al dettaglio](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Parametri per gestione modifiche di progettazione
 description: Questo argomento descrive come configurare le funzionalità di gestione delle modifiche per Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dbe51e9e44cbdbf71d02e84c3a8634750f45ffa13b213fc1306a1047fb9e0b63
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725748"
 ---
 # <a name="engineering-change-management-parameters"></a>Parametri per gestione modifiche di progettazione
 
@@ -36,7 +33,7 @@ Per aprire la pagina **Parametri per gestione modifiche di progettazione**, anda
 
 La tabella seguente descrive i campi disponibili nella scheda **Controllo rilascio** della pagina **Parametri per gestione modifiche di progettazione**. Questi campi interessano il processo correlato alla struttura del prodotto di rilascio.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Regola numero articolo | Selezionare come definire il numero di articolo quando il prodotto viene rilasciato a una persona giuridica. Selezionare *Numero prodotto di progettazione* se il numero del prodotto nella persona giuridica ricevente deve corrispondere al numero del prodotto nella società di progettazione. Selezionare *Sequenza numerica articolo locale* se il prodotto deve acquisire il numero successivo nella sequenza numerica per i numeri di prodotto nella persona giuridica ricevente. |
 | Regola nome DBA | Selezionare la modalità di definizione del nome della distinta base (DBA) quando il prodotto viene ricevuto (rilasciato) da una persona giuridica. Selezionare *Nome di progettazione* o *Numero articolo in ricevimento*. |
@@ -50,10 +47,13 @@ La tabella seguente descrive i campi disponibili nella scheda **Controllo rilasc
 
 La tabella seguente descrive i campi disponibili nella scheda **Gestione modifiche di progettazione** della pagina **Parametri per gestione modifiche di progettazione**. Queste impostazioni influiscono sul processo di gestione delle modifiche di progettazione.
 
-| Campo | descrizione |
+| Campo | Descrizione |
 |---|---|
 | Categoria | Categoria predefinita che verrà utilizzata quando viene creata una richiesta di modifica di progettazione. |
 | Priorità | Priorità predefinita che verrà utilizzata quando viene creata una richiesta di modifica di progettazione. |
 | Regola gravità | Selezionare come stabilire la gravità di un ordine di modifica di progettazione. Selezionare *Manuale* se si prevede che l'utente immetta un valore nel campo **Gravità**. Selezionare *Calcola* per fare in modo che il sistema calcoli il valore di **Gravità** quando si seleziona **Calcola gravità** nel riquadro azioni dell'ordine di modifica di progettazione. In questo caso, il sistema utilizzerà le regole di gravità definite nella pagina **Set regole di gravità**. Selezionare *Calcola automaticamente* in modo che il valore del campo **Gravità** venga calcolato e compilato automaticamente in base ai set di regole di gravità. |
 | Nuovo rilascio prodotti interessati | Questo campo è applicabile quando i prodotti vengono nuovamente rilasciati tramite un ordine di modifica di progettazione. È possibile selezionare se proporre tutti i prodotti o solo i prodotti interessati nella finestra di dialogo **Rilasci**. |
 | Livelli DBA da rilasciare | Profondità del livello DBA da rilasciare. Se la distinta base ha più livelli (ovvero, se è più profonda) del valore qui specificato, verranno rilasciati solo i livelli fino al valore specificato. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

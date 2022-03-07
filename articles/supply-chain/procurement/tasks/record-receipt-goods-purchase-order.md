@@ -1,27 +1,24 @@
 ---
 title: Registrare l'entrata di merci sull'ordine fornitore
 description: Questa argomento descrive come registrare l'entrata delle merci direttamente su un ordine fornitore.
-author: mkirknel
-manager: tfehr
+author: kamaybac
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0bdce245fe19d868afbdf26415f40141088b74063caa8fb168427fd1004e6851
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753254"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrare l'entrata di merci sull'ordine fornitore
 
@@ -49,3 +46,6 @@ Questa argomento descrive come registrare l'entrata delle merci direttamente su 
 6. Impostare **Quantità** su '4'. Qui potete specificare manualmente la quantità che si sta ricevendo per ogni riga sull'ordine.  
 7. Selezionare **OK**. Le merci ora sono state registrate come ricevute sull'ordine fornitore e un giornale di registrazione entrata prodotti è stato creato come documento per riflettere questo. Potete usare l'azione Entrata prodotti per esaminare i giornali di registrazione creati con l'ordine fornitore e vedere che cosa è stato ricevuto e quando.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

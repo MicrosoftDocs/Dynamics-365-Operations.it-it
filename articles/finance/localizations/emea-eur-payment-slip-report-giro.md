@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: OMLegalEntities, ProjFormletterParameters, CustFormletterParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264604
 ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cbbfa25252074cd371b271be2f0f03ad2a687944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31cff0eca98aa04f8813eebdae345f05b286894e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408081"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258181"
 ---
 # <a name="payment-slip-report-for-europe"></a>Report della distinta di pagamento per l'Europa
 
@@ -63,3 +62,6 @@ Dopo aver impostato il formato per l'allegato della distinta di pagamento per fa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

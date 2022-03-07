@@ -2,28 +2,25 @@
 title: Creazione di assegni con stato In bianco
 description: In questo argomento viene illustrato come creare assegni in bianco per un conto bancario nella pagina Assegni.
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 47d54524f87cf718b9b41462b5133df267d5dd9e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c431ed975aecf116fbf626018038b112a0a8cca063e1462e31e206480643e11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459344"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720552"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Creazione di assegni con stato In bianco
 
@@ -36,6 +33,9 @@ Nella pagina **Assegni**, eseguire le attività di manutenzione per gli assegni.
 > [!NOTE]
 > Questa funzionalità è disponibile nella pagina **Assegni** solo se viene attivata la funzionalità **Creare assegni in bianco nella pagina Assegni** nella pagina **Gestione funzionalità**. Se la funzionalità non viene attivata, gli assegni con stato **In bianco** possono essere creati solo dalla finestra di dialogo **Pagamento con assegno** durante il processo di generazione del pagamento in Contabilità fornitori.
 
-Per aprire la pagina **Assegni**, passare a **Gestione cassa e banche \> Conti bancari \> Conti bancari**, quindi nel riquadro azioni, nella scheda **Gestione di pagamenti**, nel gruppo **Informazioni correlate**, selezionare **Assegni**. In alternativa, passare a **Gestione cassa e banche \> Richieste di informazioni e report \> Assegni**.
+Per aprire la pagina **Assegni**, passare a **Gestione cassa e banche \> Conti bancari \> Conti bancari**, quindi nel riquadro Azioni, nella scheda **Gestione di pagamenti**, nel gruppo **Informazioni correlate**, selezionare **Assegni**. In alternativa, passare a **Gestione cassa e banche \> Richieste di informazioni e report \> Assegni**.
 
-Quindi, per creare assegni con stato **In bianco**, selezionare **Crea assegni in bianco** nel riquadro azioni. Durante la creazione di assegni in bianco, il conto bancario associato è temporaneamente disattivato. In questo modo si riduce il rischio di generare pagamenti nello stesso momento in cui vengono creati assegni in bianco. Al completamento dell'elaborazione, il conto bancario associato viene riattivato.
+Quindi, per creare assegni con stato **In bianco**, selezionare **Crea assegni in bianco** nel riquadro Azioni. Durante la creazione di assegni in bianco, il conto bancario associato è temporaneamente disattivato. In questo modo si riduce il rischio di generare pagamenti nello stesso momento in cui vengono creati assegni in bianco. Al completamento dell'elaborazione, il conto bancario associato viene riattivato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

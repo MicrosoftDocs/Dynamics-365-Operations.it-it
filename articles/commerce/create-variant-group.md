@@ -2,11 +2,9 @@
 title: Creare un gruppo di varianti
 description: In questo argomento viene descritto come creare un gruppo di varianti di dimensioni, stile o colore per un prodotto in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0462958d8225de145a8d886b096f96cd3f2cb5c5
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965153"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799543"
 ---
 # <a name="create-a-variant-group"></a>Creare un gruppo di varianti
 
@@ -72,3 +70,6 @@ L'immagine seguente mostra un esempio di un gruppo di dimensioni per "taglie di 
 [Configurare prodotti di vendita al dettaglio](set-up-retail-products.md)
 
 [Dimensioni prodotto](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

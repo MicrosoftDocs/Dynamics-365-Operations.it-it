@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731033"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Elaborazione di pagamento per il rimborso nei servizi clienti
 
@@ -33,14 +33,11 @@ La logica del servizio clienti determina il metodo di pagamento per la riga di p
 
 Il servizio clienti utilizza il metodo di pagamento dell'ordine originale per determinare il metodo di pagamento da applicare a un ordine di reso. Ecco come funziona questo processo per i seguenti metodi di pagamento originali:
 
-- **NoAutorizzazione per la restituzione dei materiali** (contanti) o **Assegno** - Quando un ordine di reso creato fa riferimento a un ordine originale pagato utilizzando il tipo di pagamento noAutorizzazione per la restituzione dei materiali (contanti) o assegno, l'applicazione del servizio clienti fa riferimento alle configurazioni nella pagina **Metodi di rimborso servizio clienti**. Questa pagina consente alle organizzazioni di definire, in base alla valuta dell'ordine, come vengono emessi i rimborsi ai clienti per gli ordini che erano stati originariamente pagati utilizzando il tipo di pagamento noAutorizzazione per la restituzione dei materiali o assegno. La pagina **Metodi di rimborso del call center** consente inoltre alle organizzazioni di selezionare se inviare al cliente un assegno di rimborso generato dal sistema. In questi scenari, la logica del servizio clienti fa riferimento alla valuta dell'ordine di reso e quindi utilizza il valore di **Metodo di pagamento vendita al dettaglio** per quella valuta per creare una riga di pagamento del rimborso nell'ordine cliente di reso. Successivamente, un giornale di registrazione pagamenti cliente contabilità clienti (AR) che utilizza il metodo di pagamento AR mappato viene collegato alla valuta.
+- **NoAutorizzazione per la restituzione dei materiali** (contanti) o **Assegno** - Quando un ordine di reso creato fa riferimento a un ordine originale pagato utilizzando il tipo di pagamento noAutorizzazione per la restituzione dei materiali (contanti) o assegno, l'applicazione del servizio clienti fa riferimento alle configurazioni nella pagina **Metodi di rimborso servizio clienti**. Questa pagina consente alle organizzazioni di definire, in base alla valuta dell'ordine, come vengono emessi i rimborsi ai clienti per gli ordini che erano stati originariamente pagati utilizzando il tipo di pagamento noAutorizzazione per la restituzione dei materiali o assegno. La pagina **Metodi di rimborso servizio clienti** consente inoltre alle organizzazioni di selezionare se al cliente viene inviato un assegno di rimborso generato dal sistema o se viene creato un accredito sul conto cliente a fronte del saldo del conto cliente interno. In questi scenari, la logica del servizio clienti fa riferimento alla valuta dell'ordine di reso e quindi utilizza il valore di **Metodo di pagamento vendita al dettaglio** per quella valuta per creare una riga di pagamento del rimborso nell'ordine cliente di reso. Successivamente, un giornale di registrazione pagamenti cliente contabilità clienti (AR) che utilizza il metodo di pagamento AR mappato viene collegato alla valuta.
 
     La figura seguente mostra la configurazione per uno scenario in cui un cliente restituisce prodotti da un ordine cliente collegato alla valuta USD e che è stato originariamente pagato utilizzando il tipo di pagamento noAutorizzazione per la restituzione dei materiali o assegno. In questo scenario, verrà emesso un rimborso al cliente tramite un assegno di rimborso generato dal sistema. Il metodo di pagamento AR **REF-CHK** è stato configurato come tipo di pagamento assegno di rimborso.
 
     ![Configurazione dei metodi di rimborso del servizio clienti per pagamenti noAutorizzazione per la restituzione dei materiali e verifica dei pagamenti originali.](media/callcenterrefundmethods.png)
-
-    > [!NOTE]
-    > Il conto cliente non è un metodo di rimborso supportato per pagamenti in contanti o con assegno.
 
 - **Carta di credito** - Quando un ordine di reso creato fa riferimento a un ordine originale pagato utilizzando una carta di credito, la logica del servizio clienti per i pagamenti di rimborso applica la stessa carta di credito originale all'ordine di reso.
 - **Carta fedeltà** - Quando un ordine di reso creato fa riferimento a un ordine originale pagato utilizzando una carta fedeltà del cliente, la logica del servizio clienti per i pagamenti di rimborso applica il rimborso alla stessa carta fedeltà.

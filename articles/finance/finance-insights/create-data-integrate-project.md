@@ -2,27 +2,27 @@
 title: Creare un progetto di integrazione dei dati
 description: Questo argomento spiega come creare un progetto di integrazione dei dati.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107289"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386364"
 ---
-# <a name="create-a-data-integration-project"></a>Creare un progetto di integrazione dei dati
+# <a name="create-a-data-integrator-project"></a>Creare un progetto di integrazione dei dati
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ Questo argomento spiega come creare un progetto di integrazione dei dati.
 3. Apri il [portale di Power Apps](https://make.powerapps.com/) e segui questi passaggi:
 
     1. Seleziona l'ambiente appropriato.
-    2. Nel riquadro di spostamento sinistro, seleziona **Dataverse \> Connessioni**.
+    2. Nel riquadro di spostamento sinistro, seleziona **Dati \> Connessioni**.
     3. Connettiti alle istanze appropriate dei seguenti elementi:
 
         - Dynamics 365
@@ -57,13 +57,14 @@ Questo argomento spiega come creare un progetto di integrazione dei dati.
 
     1. Crea progetti di integrazione dati per i seguenti modelli utilizzando il set di connessione appena creato:
 
-        - Risultato delle informazioni dettagliate sui pagamenti dei clienti (da CDS a Fin and Ops 10.0.17+)
+        - Risultati delle informazioni dettagliate sui pagamenti dei clienti (da CDS a Fin and Ops)
+            - Se si utilizza la versione 10.0.17 o successiva, è necessario utilizzare il modello denominato Risultato delle analisi di pagamenti cliente (da CDS a Fin and Ops 10.0.17+).
         - Risultati delle serie temporali del flusso di cassa (da CDS a Fin and Ops)
         - Risultati delle serie temporali del budget (da CDS a Fin and Ops)
 
     2. Imposta la pianificazione appropriata per ogni progetto.
 
 > [!NOTE]
-> Se non vedi le entità richieste in Dataverse, vai a **Credito e riscossioni** > **Imposta** > **Finance Insights** > **Parametri di Finance Insights**, abilita la funzionalità **Previsioni di pagamento del cliente** e seleziona **Crea modello di previsione**. Quando la distribuzione del modello di intelligenza artificiale è completata, le entità Dataverse necessarie per creare l'integrazione verranno distribuite.
+> Se non vedi le entità richieste in CDS, vai a **Credito e riscossioni > Imposta > Finance Insights > Parametri di Finance Insights**, abilita la funzionalità Previsioni di pagamento del cliente e fai clic sul pulsante **Crea modello di previsione**. Quando la distribuzione del modello di intelligenza artificiale è completata (riuscita o non riuscita), le entità CDS necessarie per creare l'integrazione verranno distribuite in CDS.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

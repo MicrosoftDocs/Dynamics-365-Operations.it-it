@@ -2,39 +2,36 @@
 title: Impostare codici motivo reso
 description: Impostare gruppi di codici motivo reso.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnReasonCodeGroup, ReturnReasonCode
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c55e7dc087870ac414c5cf6ce3a3d10215ac4e8e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: baf48076b31b5b465234167e001bf58b6427dc86
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430825"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835752"
 ---
-# <a name="set-up-return-reason-codes"></a>Impostare codici motivo reso   
+# <a name="set-up-return-reason-codes"></a>Impostare i codici motivo dei resi   
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="set-up-return-reason-code-groups"></a>Impostare gruppi di codici motivo reso 
 
-1.  Fare clic su **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Gruppi codici motivo reso**.
+1.  Selezionare **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Gruppi codici motivo reso**.
 
-2.  Premere CTRL+N per creare una nuova riga di gruppo di codici motivo reso.
+2.  Selezionare **Nuovo** per creare una nuova riga di gruppo di codici motivo reso.
 
 3.  Nel campo **Gruppo di codici motivo reso** digitare un identificatore per il gruppo.
 
@@ -44,7 +41,7 @@ ms.locfileid: "4430825"
 
 Questa procedura consente di impostare i codici motivo reso che è possibile utilizzare per indicare il motivo per cui un prodotto è stato restituito dal cliente.
 
-1.  Fare clic su **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Codici motivo reso**.
+1.  Selezionare **Vendite e marketing** \> **Impostazione** \> **Ordini cliente** \> **Resi** \> **Codici motivo reso**.
 
 2.  Premere CTRL+N per creare una nuova riga di codice motivo reso.
 
@@ -63,3 +60,6 @@ Questa procedura consente di impostare i codici motivo reso che è possibile uti
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

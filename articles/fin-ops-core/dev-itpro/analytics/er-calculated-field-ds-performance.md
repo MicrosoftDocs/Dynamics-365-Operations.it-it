@@ -1,12 +1,10 @@
 ---
 title: Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate
-description: Questo argomento spiega come migliorare le prestazioni delle soluzioni di creazione di report elettronici (ER) aggiungendo origini dati CAMPO CALCOLATO parametrizzato.
+description: Questo argomento spiega come migliorare le prestazioni delle soluzioni di creazione di report elettronici (ER) aggiungendo origini dati CAMPO CALCOLATO parametrizzate.
 author: NickSelin
-manager: AnnBe
-ms.date: 09/02/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681282"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944841"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate
 
@@ -246,9 +244,9 @@ Il tempo di esecuzione totale è stato ridotto di circa 20 volte (da circa 8 sec
 
 | File                                        | Contenuto |
 |---------------------------------------------|---------|
-| Performance improvement model.version.1     | [Configurazione del modello di dati ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performance improvement mapping.version.1.1 | [Configurazione del mapping di modello ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performance improvement format.version.1.1  | [Configurazione di formato ER di esempio](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Performance improvement model.version.1     | [Configurazione del modello di dati ER di esempio](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
+| Performance improvement mapping.version.1.1 | [Configurazione del mapping di modello ER di esempio](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
+| Performance improvement format.version.1.1  | [Configurazione di formato ER di esempio](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>Appendice 2: configurare il framework ER
 
@@ -300,3 +298,6 @@ Per ulteriori informazioni sui provider di configurazione ER, vedi [Creare provi
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
 - [Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni](trace-execution-er-troubleshoot-perf.md)
 - [Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

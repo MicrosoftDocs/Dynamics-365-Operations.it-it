@@ -2,35 +2,30 @@
 title: Modulo Blocco di testo
 description: In questo argomento vengono descritti i moduli Blocco di testo e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413391"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723313"
 ---
-# <a name="text-block-module"></a>Modulo Blocco di testo
+# <a name="text-block-module"></a>Modulo blocco testo
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Blocco di testo e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Un modulo Blocco di testo è un modulo utilizzato per aggiungere contenuto testuale. Questo contenuto può essere informativo o promozionale.
 
@@ -47,7 +42,7 @@ I moduli Blocco di testo possono essere utilizzati nei seguenti modi:
 
 L'immagine seguente mostra un esempio di modulo Blocco di testo utilizzato in una home page.
 
-![Esempio di un modulo Blocco di testo](./media/ecommerce-textblock.PNG)
+![Esempio di un modulo Blocco di testo.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Proprietà dei moduli Blocco di testo
 
@@ -89,3 +84,6 @@ Per aggiungere un modulo Blocco di testo a una nuova pagina e impostare le propr
 
 [Modulo Lettore video](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

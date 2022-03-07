@@ -2,29 +2,28 @@
 title: Utilizzare flussi di lavoro per gestire le informazioni del dipendente
 description: In questo articolo viene descritto come utilizzare la funzionalità del flusso di lavoro per le risorse umane per gestire le informazioni sui dipendenti. Ad esempio, è possibile associare un flusso di lavoro a una posizione e configurare un flusso di lavoro di approvazione che viene avviato quando i dipendenti modificano i propri record.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 250b214372a12f99d2ababc97c5edf4456cadcad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9677d4b09246eec41dc4006c3617d4359b103f930d8289fad399d638203a4b81
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759673"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Utilizzare flussi di lavoro per gestire le informazioni del dipendente
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In questo articolo viene descritto come utilizzare la funzionalità del flusso di lavoro per le risorse umane per gestire le informazioni sui dipendenti. Ad esempio, è possibile associare un flusso di lavoro a una posizione e configurare un flusso di lavoro di approvazione che viene avviato quando i dipendenti modificano i propri record.
 
@@ -73,3 +72,6 @@ Per configurare un flusso di lavoro di base che viene avviato quando i dipendent
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

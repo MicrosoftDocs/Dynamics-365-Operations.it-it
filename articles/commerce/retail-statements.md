@@ -2,16 +2,13 @@
 title: Rendiconti di vendita al dettaglio
 description: Questo argomento descrive la creazione e la registrazione dei rendiconti.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413575"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738698"
 ---
 # <a name="retail-statements"></a>Rendiconti di vendita al dettaglio
 
@@ -34,7 +31,7 @@ In Dynamics 365 Commerce il processo di registrazione dei rendiconti viene utili
 
 L'illustrazione seguente mostra il processo di registrazione dei rendiconti. In questo processo le transazioni registrate nel POS vengono trasmesse al client utilizzando l'utilità di pianificazione di commercio. Dopo che il client riceve le transazioni, è possibile creare, calcolare e registrare il rendiconto delle transazioni per il punto vendita.
 
-[![Processo di registrazione dei rendiconti](./media/retail-statements.png)](./media/retail-statements.png)
+[![Processo di registrazione dei rendiconti.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Creazione e registrazione dei rendiconti
 
@@ -88,3 +85,6 @@ Quando si registra un rendiconto, gli ordini cliente e le fatture vengono creati
 - Le vendite per cui un cliente è stato aggiunto alla transazione in  POS generano ordini cliente e fatture separati, uno per ciascun cliente univoco.
 
 I giornali di registrazione pagamenti vengono creati automaticamente per i pagamenti nel rendiconto e il magazzino viene aggiornato per il punto vendita relativo al POS.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

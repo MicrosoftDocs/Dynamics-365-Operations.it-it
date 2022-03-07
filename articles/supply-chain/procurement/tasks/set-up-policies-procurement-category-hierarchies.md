@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 415262fa5e68544ea2a4ae2b6818b83c7efb2fad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243993"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Impostare criteri per le gerarchie di categorie di approvvigionamento
 
@@ -51,3 +51,6 @@ Utilizzare questa procedura per impostare le regole per ordinare prodotti in una
 6. Selezionare un'opzione nel campo **Selezione fornitore**. Selezionare una regola per controllare il tipo di fornitori che può essere selezionato per la categoria quando le richieste vengono create.  
 7. Fare clic su **Chiudi**. Le regole dei criteri definite sono state per le richieste di tipo Consumo. Se voleste definire criteri per le richieste di tipo Rifornimento, dovreste creare una regola per Tipo di regola dei criteri chiamata "Regola dei criteri di accesso alle categorie di rifornimento".  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

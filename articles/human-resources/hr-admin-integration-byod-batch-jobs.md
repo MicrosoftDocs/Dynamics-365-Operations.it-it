@@ -2,35 +2,35 @@
 title: Ottimizzare i processi batch programmati BYOD
 description: Questo argomento spiega come ottimizzare le prestazioni quando si utilizza la funzionalità Bring Your Own Device (BYOD) con Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419179"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890078"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Ottimizzare i processi batch programmati BYOD
 
-Questo argomento spiega come ottimizzare le prestazioni quando si utilizza la funzionalità Bring Your Own Device (BYOD). Per ulteriori informazioni su BYOD, vedere [Portare il proprio database (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Questo argomento spiega come ottimizzare le prestazioni quando si utilizza la funzionalità Bring Your Own Device (BYOD). Per ulteriori informazioni su BYOD, vedere [Portare il proprio database (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Considerazioni sulle prestazioni per l'esportazione dei dati
 
-Dopo che le entità sono state pubblicate nel database di destinazione, è possibile utilizzare la funzione Esporta nell'area di lavoro **Gestione dei dati** per spostare i dati. La funzione Esporta consente di definire un processo di spostamento dati che contiene una o più entità. Per ulteriori informazioni sull'esportazione dei dati, vedere [Panoramica dei processi di importazione ed esportazione dei dati](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
+Dopo che le entità sono state pubblicate nel database di destinazione, è possibile utilizzare la funzione Esporta nell'area di lavoro **Gestione dei dati** per spostare i dati. La funzione Esporta consente di definire un processo di spostamento dati che contiene una o più entità. Per ulteriori informazioni sull'esportazione dei dati, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Usare la pagina **Esporta** per esportare i dati in diversi formati di dati di destinazione, come un file con valori separati da virgole (CSV). Questa pagina supporta anche i database SQL come altra destinazione.
 
@@ -61,7 +61,7 @@ Per le migliori prestazioni, usare sempre l'opzione **Esporta in batch** nella p
 
 Quando si aggiunge un'entità per l'esportazione dei dati, è possibile eseguire un push incrementale (esportazione) o un push completo. Un push completo elimina tutti i record esistenti da un'entità nel database BYOD. Quindi inserisce il set corrente di record dall'entità Human Resources.
 
-Per eseguire un push incrementale, è necessario attivare il rilevamento delle modifiche per ogni entità nella pagina **Entità**. Per ulteriori informazioni, vedere [Abilitare il rilevamento delle modifiche per le entità](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+Per eseguire un push incrementale, è necessario attivare il rilevamento delle modifiche per ogni entità nella pagina **Entità**. Per ulteriori informazioni, vedere [Abilitare il rilevamento delle modifiche per le entità](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Se si seleziona un push incrementale, il primo push è sempre un push completo. SQL tiene traccia delle modifiche da questo primo push completo. Quando viene inserito un nuovo record o quando un record viene aggiornato o eliminato, la modifica si riflette nell'entità di destinazione.
 
@@ -88,11 +88,14 @@ La funzionalità BYOD prevede le limitazioni seguenti:
 
 **Problema:** quando si verifica un push completo per un'entità, viene visualizzato un ampio set di record in BYOD quando si utilizza un'istruzione **select**. Tuttavia, quando si esegue un push incrementale, vengono visualizzati solo pochi record in BYOD. Sembra che il push incrementale abbia eliminato tutti i record e aggiunto solo i record modificati in BYOD.
 
-**Soluzione:** le tabelle di rilevamento delle modifiche SQL potrebbero non essere nello stato previsto. In casi di questo tipo, consigliamo di disattivare il rilevamento delle modifiche per l'entità e quindi di riattivarlo. Per ulteriori informazioni, vedere [Abilitare il rilevamento delle modifiche per le entità](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+**Soluzione:** le tabelle di rilevamento delle modifiche SQL potrebbero non essere nello stato previsto. In casi di questo tipo, consigliamo di disattivare il rilevamento delle modifiche per l'entità e quindi di riattivarlo. Per ulteriori informazioni, vedere [Abilitare il rilevamento delle modifiche per le entità](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="see-also"></a>Vedere anche
 
-[Panoramica della gestione dati](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[Portare il proprio database (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[Panoramica processi di importazione ed esportazione dati](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[Abilitare il rilevamento delle modifiche per le entità](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[Panoramica della gestione dati](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Portare il proprio database (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Panoramica processi di importazione ed esportazione dati](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Abilitare il rilevamento delle modifiche per le entità](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,28 +11,27 @@ ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a98d096c0eec6b1d585856b63113fd6dd60c0a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fbc991c22271ccc3d9c50ade635a80c635b35f73
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430821"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470884"
 ---
 # <a name="set-up-subscription-groups"></a>Imposta gruppi di sottoscrizioni 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Sottoscrizioni assistenza** \> **Gruppo di sottoscrizioni**.
+1.  Selezionare **Gestione assistenza** \> **Impostazione** \> **Sottoscrizioni assistenza** \> **Gruppo di sottoscrizioni**.
 
-2.  Premere CTRL+N o fare clic su **Nuovo** per creare un nuovo gruppo di sottoscrizioni.
+2.  Selezionare **Nuovo** per creare un nuovo gruppo di sottoscrizioni.
 
 3.  Nel campo **Gruppo di sottoscrizioni**, immettere un nome per il nuovo gruppo di sottoscrizioni.
 
@@ -49,3 +48,6 @@ ms.locfileid: "4430821"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: Configurare i nomi di campo app nell'app di magazzino
-description: In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app in Dynamics 365 Supply Chain Management.
-author: MarkusFogelberg
-manager: tfehr
+title: Configurare i campi per l'app per dispositivi mobili Gestione magazzino
+description: In questo argomento viene descritto come definire e configurare i nomi e le priorità dei campi mostrato nell'app per dispositivi mobili Gestione magazzino.
+author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -15,24 +13,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963437"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902298"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Configurare i nomi di campo app nell'app di magazzino
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurare i campi per l'app per dispositivi mobili Gestione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come definire e configurare i nomi e le priorità di campo app in Dynamics 365 Supply Chain Management. 
+In questo argomento viene descritto come definire e configurare i nomi e le priorità dei campi mostrato nell'app per dispositivi mobili Gestione magazzino.
 
 > [!NOTE]
-> Questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. Magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità di campo dell'app Magazzino e viene descritto come utilizzarli in Magazzino. Per informazioni dettagliate su come configurare la connessione in Magazzino, fare riferimento all'esercitazione [Panoramica sull'installazione e sulla configurazione dell'app del magazzino](install-configure-warehousing-app.md).
+> Questo argomento si applica alle funzionalità in Gestione magazzino. Non viene applicato alle funzionalità in Gestione inventario. L'app per dispositivi mobili Gestione magazzino è un'applicazione che consente di eseguire attività di magazzino. È possibile definire e configurare i nomi di campo utilizzati nell'app, nonché configurare la priorità da assegnare ai nomi di campo. In questo argomento viene illustrato come definire e configurare i nomi e le priorità dei campi dell'app per dispositivi mobili Gestione magazzino e viene descritto come utilizzarli.
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurare i nomi di campo dell'app Magazzino
 
@@ -46,7 +44,7 @@ Quando si utilizza Magazzino sul dispositivo mobile, è possibile configurare la
 <thead>
 <tr class="header">
 <th>Opzione</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -139,7 +137,9 @@ In base alla priorità di campo dell'app Magazzino impostata nella tabella prece
 
 I metadati rimanenti, ad esempio l'ubicazione, non verranno visualizzati nella pagina dell'attività, ma verranno visualizzati in una pagina dei dettagli. Per ulteriori informazioni e per visualizzare esempi dell'interfaccia utente, fare riferimento al post di blog [Presentazione di Finance and Operations - Magazzino](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica sull'installazione e sulla configurazione dell'app di magazzino](install-configure-warehousing-app.md)
+[Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

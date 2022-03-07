@@ -2,29 +2,26 @@
 title: Migliorare le prestazioni del motore di pianificazione
 description: In questo argomento vengono fornite informazioni sul motore di pianificazione e su come migliorarne le prestazioni.
 author: ChristianRytt
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 2495339f25469af705cff841f090c5df95b4d996
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431461"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578442"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Migliorare le prestazioni del motore di pianificazione
 
@@ -69,11 +66,11 @@ Ad esempio, considera un ciclo di lavorazione nella tabella e nell'immagine segu
 | 10 | Secondaria&nbsp;1 | | | | 1 | 20 |
 | 20 | Primario | | 3.00 | 1.00 | 3 | 0 |
 
-![Esempio di diagramma di ciclo di lavorazione](media/scheduling-engine-route.png "Esempio di diagramma di ciclo di lavorazione")
+![Esempio di diagramma di ciclo di lavorazione.](media/scheduling-engine-route.png "Esempio di diagramma di ciclo di lavorazione")
 
 Quando inviato al motore, questo ciclo di lavorazione viene suddiviso in otto processi, come mostrato nell'illustrazione seguente (seleziona l'immagine per ingrandirla).
 
-[![Processi del motore di pianificazione](media/scheduling-engine-jobs.png "Processi del motore di pianificazione")](media/scheduling-engine-jobs-large.png)
+[![Processi del motore di pianificazione](media/scheduling-engine-jobs.png "Programmazione dei lavori del motore.")](media/scheduling-engine-jobs-large.png)
 
 Il collegamento standard tra due processi è `FinishStart`, il che significa che l'ora di fine di un processo deve essere precedente all'ora di inizio di un altro processo. Poiché la configurazione deve essere eseguita dalla stessa risorsa che in seguito eseguirà il processo, ci sono vincoli `OnSameResource` tra gli stessi. Tra i processi per l'operazione primaria e secondaria per 10, ci sono collegamenti `StartStart` e `FinishFinish`, il che significa che i processi devono iniziare e finire allo stesso tempo, e ci sono vincoli `NotOnSameResource` , che impediranno l'utilizzo della stessa risorsa per l'operazione primaria e quella secondaria.
 
@@ -329,3 +326,6 @@ Il valore di **Timeout tentativi ottimizzazione** determina il numero massimo di
 
 > [!NOTE]
 > I valori impostati per i timeout verranno applicati sia per la pianificazione degli ordini di produzione rilasciati sia per gli ordini pianificati nel quadro della pianificazione MRP. Di conseguenza, l'impostazione di valori molto alti potrebbe aumentare notevolmente il tempo di esecuzione della pianificazione MRP durante l'esecuzione di un piano con molti ordini di produzione pianificati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

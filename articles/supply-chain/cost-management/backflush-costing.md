@@ -2,16 +2,13 @@
 title: Determinazione costi di tipo backflush
 description: In questo argomento viene presentato il concetto di determinazione costi di tipo backflush utilizzato per la produzione snella o lean manufacturing.
 author: cvocph
-manager: tfehr
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0c8ef901afacd4ae191f2d01114bbf4bac38b9cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca6ca1ce53e81ac7c64489f505decd84a9534f74
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431353"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834339"
 ---
 # <a name="backflush-costing"></a>Determinazione costi di tipo backflush
 
@@ -126,3 +123,6 @@ In fine, le unità movimentazione kanban possono essere assegnate (= in lavorazi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

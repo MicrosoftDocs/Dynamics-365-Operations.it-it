@@ -1,37 +1,31 @@
 ---
-title: Aggiungere una nuova pagina di sito
+title: Aggiungere una nuova pagina del sito
 description: In questo argomento viene descritto come aggiungere una nuova pagina di sito in Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413402"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090721"
 ---
-# <a name="add-a-new-site-page"></a>Aggiungere una nuova pagina di sito
-
+# <a name="add-a-new-site-page"></a>Aggiungere una nuova pagina del sito
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere una nuova pagina di sito in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Dopo aver creato modelli e frammenti per il sito, è necessario iniziare a creare le pagine che li utilizzano. Per iniziare, selezionare un modello o un layout, un nome di pagina e un URL di pagina.
 
@@ -39,11 +33,11 @@ Dopo aver creato modelli e frammenti per il sito, è necessario iniziare a crear
 
 È possibile utilizzare un modello o un layout per la nuova pagina. Per ulteriori informazioni, vedere [Panoramica modelli e layout](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Nome pagina
+## <a name="specify-the-page-name"></a>Specificare il nome della pagina
 
-Scegliere un nome di pagina univoco. Deve inoltre essere descrittivo, di modo che sia facile trovare la pagina e identificarne lo scopo. Scegliere il nome di pagina attentamente, in quanto non può essere modificato in un secondo momento.
+Il nome della pagina deve essere univoco per il sito e deve essere descrittivo, di modo che sia facile trovare la pagina e identificarne lo scopo. Puoi rinominare la tua pagina in un secondo momento modificandola e selezionando il simbolo della penna accanto al nome della pagina nel riquadro delle proprietà.
 
-## <a name="page-url"></a>URL pagina
+## <a name="specify-the-page-url"></a>Specificare l'URL della pagina
 
 È possibile immettere un URL per la nuova pagina. Quando si crea una pagina, è possibile immettere una stringa che sarà utilizzata per formare un URL completo. Tale stringa è nota come URL relativo o slug URL. Un URL completo viene quindi generato in base allo slug URL e la nuova pagina viene assegnata a tale URL. Lo slug URL può essere modificato in seguito, dopo la pubblicazione della pagina. Per ulteriori informazioni, vedere [Creare un URL di pagina](create-page-URL.md).
 
@@ -91,3 +85,8 @@ Per aggiungere un nuova pagina, effettuare le seguenti operazioni.
 [Migliorare una pagina di destinazione di categoria](enrich-category-page.md)
 
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
+
+[Creare pagine di e-commerce dinamiche in base ai parametri URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

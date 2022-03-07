@@ -2,9 +2,11 @@
 title: Processo di pulizia delle voci disponibili per la gestione del magazzino
 description: Questo argomento descrive il processo di pulizia delle voci disponibili, che consente di migliorare le prestazioni del sistema identificando ed eliminando record correlati ma non necessari.
 author: perlynne
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -12,17 +14,15 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: 93c77434a912554dab486b42c0c9fffd68cf9435
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226005"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Processo di pulizia delle voci disponibili per la gestione del magazzino
-
-[!include [banner](../includes/banner.md)]
 
 Le prestazioni delle query utilizzate per calcolare le scorte disponibili sono influenzate dal numero di record nelle tabelle interessate. Un modo di migliorare le prestazioni è ridurre il numero di record che il database deve considerare.
 
@@ -58,7 +58,10 @@ Tuttavia, il miglioramento delle prestazioni fornito dal lavoro di pulizia dovre
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Rendere disponibile l'impostazione Tempo di esecuzione massimo
 
-L'impostazione **Tempo di esecuzione massimo** è disponibile solo quando la funzionalità *Tempo massimo di esecuzione per il processo di pulizia delle voci disponibili per la gestione del magazzino* è attivata. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Tempo massimo di esecuzione per il processo di pulizia delle voci disponibili per la gestione del magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per impostazione predefinita, l'impostazione **Tempo di esecuzione massimo** non è disponibile. Se si desidera utilizzarla, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare la funzione correlata nel sistema. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione Magazzino*
+- **Nome funzione:** *Tempo di esecuzione massimo per il processo di pulizia delle voci disponibili per la gestione del magazzino*
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

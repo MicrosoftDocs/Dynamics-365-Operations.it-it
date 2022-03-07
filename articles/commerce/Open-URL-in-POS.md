@@ -2,11 +2,9 @@
 title: Aprire un URL nel POS
 description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Dynamics 365 Commerce.
 author: AamirAllaq
-manager: AnnBe
 ms.date: 01/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -17,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e4ccb8e03d63a7bd1ab2d118d86633a8c6324d43
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714116"
 ---
 # <a name="open-url-in-pos"></a>Aprire l'URL nel POS
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come configurare un pulsante nel Retail POS per aprire un URL. Questa funzionalità non richiede una personalizzazione del codice e può essere configurata da qualcuno cha ha un ruolo non sviluppatore. 
+In questo argomento viene descritto come configurare un pulsante in POS Dynamics 365 Commerce per aprire un URL. Questa funzionalità non richiede una personalizzazione del codice e può essere configurata da qualcuno cha ha un ruolo non sviluppatore. 
 
 Questa funzionalità consente la configurazione di un pulsante nel POS, utilizzando la finestra di progettazione della griglia dei pulsanti per aprire un URL. Attualmente, è supportata nelle seguenti configurazioni:
 
@@ -48,15 +46,15 @@ L'apertura di un URL Web nel POS è attualmente supportata solo per Modern POS p
 
 Questa configurazione consente inoltre di specificare URL non Web per aprire un'app nativa. Ad esempio, è possibile specificare protocolli URL come MailTo, SIP, IM o MSTEAMS, che potranno quindi essere gestiti dalle app native rispettive nel dispositivo host. Per attivare questa funzionalità, è necessario configurare l'URL con l'opzione **Apri in una nuova finestra** selezionata.
 
-- Per i computer Windows, vedere [Esportare o importare per impostare associazioni di applicazioni predefinite](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) per impostare le associazioni di protocollo predefinite se si configura il computer mediante DISM.
-- Se si utilizza MDM, ad esempio Intune per gestire i computer Windows, vedere [CSP criteri - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
-- Se si è uno sviluppatore che crea un sito Web personalizzato, vedere [Avvio di un'app predefinita per un URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+- Per i computer Windows, vedere [Esportare o importare per impostare associazioni di applicazioni predefinite](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) per impostare le associazioni di protocollo predefinite se si configura il computer mediante DISM.
+- Se si utilizza MDM, ad esempio Intune per gestire i computer Windows, vedere [CSP criteri - ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Se si è uno sviluppatore che crea un sito Web personalizzato, vedere [Avvio di un'app predefinita per un URI](/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Apertura più agevole di un'app nativa
 
 Windows, Android e IOS consentono inoltre un'apertura più agevole delle app, in base all'associazione di protocollo dell'app. Se l'app in uso non è già configurata per gestire l'apertura da un browser Web, è possibile che questa operazione debba essere eseguita da uno sviluppatore.
 
-- Per Windows, vedere [Abilitare le app per i siti Web usando i gestori degli URI delle app](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
+- Per Windows, vedere [Abilitare le app per i siti Web usando i gestori degli URI delle app](/windows/uwp/launch-resume/web-to-app-linking).
 - Per IOS, vedere [Universal Links for Developers](https://developer.apple.com/ios/universal-links/)..
 - Per Android, vedere [Handling Android App Links](https://developer.android.com/training/app-links/)
 
@@ -82,3 +80,6 @@ Per configurare un URL per l'apertura nel POS, effettuare le operazioni seguenti
 5. Selezionare **Apri URL** come azione.
 6. Immettere l'URL che si desidera utilizzare.
 7. Specificare se aprire l'URL in una nuova finestra.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

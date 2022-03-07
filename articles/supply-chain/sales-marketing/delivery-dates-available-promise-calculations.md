@@ -2,28 +2,25 @@
 title: Promesse ordine
 description: Questo argomento fornisce informazioni sulle promesse di ordine. La promessa di ordine consente di promettere in modo affidabile le date di consegna ai clienti e di restituire la flessibilità in modo che sia possibile rispettare le date.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates, SalesCarrier
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 1b8317362a67b1b7e63f340b4badb722b28ea20709edc35bbbddef0d0e7a3e1b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666772"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711737"
 ---
 # <a name="order-promising"></a>Promesse ordine
 
@@ -81,3 +78,6 @@ La data di spedizione viene quindi impostata su 10 giorni dalla data corrente, i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

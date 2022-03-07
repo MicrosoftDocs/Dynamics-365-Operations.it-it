@@ -2,27 +2,24 @@
 title: Comunicazione annuale imposte
 description: Questo argomento fornisce informazioni sul report di comunicazione annuale delle imposte in Italia.
 author: anasyash
-manager: AnnBe
 ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264294
 ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ec28a453fd7005496a85c206db093dafdd1c4838
-ms.sourcegitcommit: 78ef538704e3d774ed274b549163246c226cd3dc
+ms.openlocfilehash: 6ca4197e6dcea769b4344aa0627247d95bb11e1c115f3da9385730b8f193ef22
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4408126"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763072"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
@@ -45,14 +42,14 @@ Configurare i libri IVA italiani seguendo le istruzioni in [Libri IVA italiani](
     - **Comunicazione annuale imposte (IT)**
     - **Mapping dei modelli di comunicazione annuale IVA**
 
-Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 5. In Finance andare a **Imposte \> Impostazione \> Parametri \> Parametri di Contabilità generale**.
 6. Nella scheda **Sequenze numeriche** selezionare una sequenza numerica per il riferimento **ID comunicazione imposte**.
 7. Nella scheda **IVA**, nel campo **Mapping formato** della Scheda dettaglio **Comunicazione annuale imposte** selezionare il formato **Comunicazione annuale imposte (IT)** scaricato in precedenza.
 8. Andare a **Imposta \> Impostazione \> IVA \> Impostazioni comunicazione annuale imposte**.
 
-![Pagina Impostazioni comunicazione annuale imposte](media/1_Yearly_tax_communication_setup.png)
+![Pagina Impostazioni comunicazione annuale imposte.](media/1_Yearly_tax_communication_setup.png)
 
 > [!NOTE]
 > Per visualizzare il modulo "Comunicazione annuale IVA" per l'anno 2020 e le relative istruzioni, vedere [Modello e istruzioni - IVA 2020](https://www.agenziaentrate.gov.it/portale/web/guest/iva-2020/modello-e-istruzioni-imprese).
@@ -79,7 +76,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 </tr>
 <tr>
 <td>
-<p>descrizione</p>
+<p>Descrizione</p>
 </td>
 <td>
 <p>Immettere una descrizione del campo.</p>
@@ -152,7 +149,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 
 10. Per i campi in cui il campo **Calcolo** è impostato su **Transazioni fiscali** nella scheda **Codici imposta selezionati**, selezionare **Nuovo** per aggiungere una riga per ogni codice IVA che deve essere reso disponibile come valore di campo.
 
-    ![Pagina Impostazioni comunicazione annuale imposte, scheda Codici imposta selezionati](media/2_Yearly_tax_communication_setup.png)
+    ![Pagina Impostazioni comunicazione annuale imposte, scheda Codici imposta selezionati.](media/2_Yearly_tax_communication_setup.png)
 
 11. Selezionare **Eccezioni** per configurare i conti principali che dovrebbero essere esclusi dalla query.
 
@@ -167,7 +164,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 13. Seleziona la riga in cui il campo **Calcolo** è impostato su **Totale**.
 14. Nella scheda **Importo totale** selezionare **Nuovo** per aggiungere righe per tutti i campi da sommare.
 
-    ![Pagina Impostazioni comunicazione annuale imposte, scheda Importo totale](media/3_Yearly_tax_communication_setup.png)
+    ![Pagina Impostazioni comunicazione annuale imposte, scheda Importo totale.](media/3_Yearly_tax_communication_setup.png)
 
 15. Impostare i seguenti campi.
 
@@ -185,7 +182,7 @@ I valori dei campi possono in genere essere numerici (formato **NU**) o alfanume
 
 Nella colonna **Formato** è possibile specificare un formato di campo. Oltre a **NU** e **AN**, sono disponibili per la selezione anche i seguenti formati.
 
-| Formattazione | descrizione                                                                                                                                               | Carattere di spaziatura interna | Esempio                                    |
+| Formattazione | Descrizione                                                                                                                                               | Carattere di spaziatura interna | Esempio                                    |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------------------|
 | CF     | Codice fiscale (16 caratteri)                                                                                                                               | BARRA SPAZIATRICE             | "XXXXXX11X11X111X"                         |
 | PI     | Partita IVA (11 caratteri)                                                                                                                         | BARRA SPAZIATRICE             | "11111111111"                              |
@@ -206,15 +203,15 @@ Nella colonna **Formato** è possibile specificare un formato di campo. Oltre a 
 1. Andare a **Imposta \> Dichiarazioni \> IVA \> Comunicazione annuale imposte**.
 2. Selezionare **Creare nuovo** per creare informazioni sull'intestazione per il report **Comunicazione annuale imposte** per l'anno precedente. Il numero di righe create corrisponde al numero di libri IVA italiani.
 
-![Pagina Comunicazione annuale imposte, scheda Panoramica](media/4_Yearly_tax_communication_setup.png)
+![Pagina Comunicazione annuale imposte, scheda Panoramica.](media/4_Yearly_tax_communication_setup.png)
 
 3. Nella scheda **Generale** rivedere le seguenti informazioni:
 
-    | Campo                | descrizione                                                                                                                                                                                                                                                                                                                |
+    | Campo                | Descrizione                                                                                                                                                                                                                                                                                                                |
     |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | ID comunicazione imposte | Numero di identificazione del report **Comunicazione annuale imposte**.                                                                                                                                                                                                                                                      |
     | Anni                | Anno della comunicazione imposte. Questo campo viene automaticamente impostato sull'anno precedente. Se si crea il report nel 2020, questo campo è ad esempio impostato su **2019**.                                                                                                                                                |
-    | Codice ATECOFIN        | Codice imposta associato alla classificazione di possibili attività della società. Questo campo viene compilato dalla pagina **Libri IVA italiani**. Per ulteriori informazioni, vedere [Libri IVA italiani](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-fiscal-books#set-up-sales-tax-books). |
+    | Codice ATECOFIN        | Codice imposta associato alla classificazione di possibili attività della società. Questo campo viene compilato dalla pagina **Libri IVA italiani**. Per ulteriori informazioni, vedere [Libri IVA italiani](./emea-ita-fiscal-books.md#set-up-sales-tax-books). |
     | Esportato             | Valore che indica se il file con estensione ivc è stato esportato. Questo campo e i due campi successivi vengono impostati automaticamente quando si seleziona **Esporta e genera file**.                                                                                                                                                     |
     | Data di esportazione       | Data in cui è stato esportato il file con estensione .ivc.                                                                                                                                                                                                                                                                                  |
     | Nome file di esportazione     | Nome del file con estensione ivc che è stato esportato.                                                                                                                                                                                                                                                                               |
@@ -1011,7 +1008,7 @@ Ecco un esempio per la persona giuridica **ITCO**.
 
 1. Andare a **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA** e configurare i seguenti codici IVA.
 
-    | Codice IVA | Percentuale | descrizione                                                                              |
+    | Codice IVA | Percentuale | Descrizione                                                                              |
     |----------------|------------|------------------------------------------------------------------------------------------|
     | DOMP22         | 22         | Acquisti nazionali con un'aliquota del 22%.                                              |
     | DOMS22         | 22         | Vendite nazionali con un'aliquota del 22%.                                                  |
@@ -1024,7 +1021,7 @@ Ecco un esempio per la persona giuridica **ITCO**.
 4. Nella scheda **IVA**, nel campo **Mapping formato** della Scheda dettaglio **Comunicazione annuale imposte** selezionare il formato **Comunicazione annuale imposte (IT)**.
 5. Andare a **Imposta** \> **Impostazione** \> **IVA** \> **Impostazioni comunicazione annuale imposte** e aggiungere le seguenti righe.
 
-    | ID campo | descrizione                                                                                                                                              | Formattazione | Calcolo      | Imposta sul reddito        | Segno | Scheda Codice IVA selezionato | Scheda Totali                   |
+    | ID campo | Descrizione                                                                                                                                              | Formattazione | Calcolo      | Imposta sul reddito        | Segno | Scheda Codice IVA selezionato | Scheda Totali                   |
     |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------------|------------|------|-----------------------------|------------------------------|
     | VE023001 | Imponibile del 22% delle transazioni fiscali agricole (art. 34, c.1) e delle operazioni professionali                                                                  | NU     | Transazioni fiscali | Imponibile   | 1    | DOMS22                      |                              |
     | VE023002 | Base imponibile del 22% su transazioni fiscali agricole (art. 34, c.1) e operazioni professionali                                                                       | NU     | Transazioni fiscali | Imposta | 1    | DOMS22                      |                              |
@@ -1100,18 +1097,18 @@ I campi con **Totale** selezionato nel campo **Calcolo** sono contrassegnati in 
 
 ## <a name="appendix-2-example-of-the-yearly-tax-communication-setup-for-2020"></a>Appendice 2. Esempio di impostazioni comunicazione annuale imposte per il 2020
 
-Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impostazione di esempio IVA 2020](https://mbs.microsoft.com/customersource/Global/AX/downloads/tax-regulatory-updates/ItalianAnnualVATdeclaration). Per accedere al collegamento, è necessario avere accesso a CustomerSource.
+Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impostazione di esempio IVA 2020](/dynamics/s-e/ax/ItalianAnnualVATdeclaration_delta). Per accedere al collegamento, è necessario avere accesso a CustomerSource.
 
 1. Andare a **Imposta \> Impostazione \> IVA \> Impostazioni comunicazione annuale imposte**.
 2. Selezionare il pulsante **Apri in Microsoft Office**, quindi in **Apri in Excel** selezionare **Impostazioni comunicazione annuale imposte (DEMF)**.
 
-    ![Seleziona di Impostazioni comunicazione annuale imposte (DEFM)](media/6_Export_to_Excel.png)
+    ![Selezione di Impostazioni comunicazione annuale imposte (DEFM).](media/6_Export_to_Excel.png)
 
 3. Selezionare **Scarica**.
 4. Apri il file scaricato e abilita la modifica.
 5. Copiare i dati dal file scaricato in precedenza e incollarli nel file che aperto, quindi selezionare **Pubblica**.
 
-    ![Pulsante Pubblica](media/5_Export_to_Excel.png)
+    ![Pulsante Pubblica.](media/5_Export_to_Excel.png)
 
 6. Rivedere le impostazioni e apportare gli aggiornamenti necessari. Ad esempio, impostare i codici IVA esistenti nell'applicazione.
 7. Considerare le seguenti informazioni. Alcuni totali non sono configurati nell'esempio e devono essere calcolati manualmente utilizzando la formula specificata nelle linee guida ufficiali. Di seguito sono riportati tali totali:
@@ -1121,3 +1118,6 @@ Per scaricare l'impostazione di esempio per la dichiarazione 2020, vedere [Impos
    - VL032001 IVA dovuta (IVA a debito)
    - VL033001 Credito (IVA a credito)
    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

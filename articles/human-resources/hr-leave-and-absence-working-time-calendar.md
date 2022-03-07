@@ -2,11 +2,9 @@
 title: Creare un calendario orario di lavoro
 description: Definire un calendario orario di lavoro, festività e orari non lavorativi in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67b951cccae7708f8d831ff1d83738dc49360a48
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419178"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794519"
 ---
 # <a name="create-a-working-time-calendar"></a>Creare un calendario orario di lavoro
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Un calendario orario di lavoro in Dynamics 365 Human Resources mostra i giorni e le ore in cui i dipendenti lavorano nell'organizzazione. Quando un dipendente invia una richiesta di permesso, non deve preoccuparsi di festività e chiusure.
 
@@ -75,3 +75,6 @@ Se la funzionalità di anteprima per la correzione di giorni festivi di Congedo 
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
 - [Configurare tipi di congedo e assenza](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

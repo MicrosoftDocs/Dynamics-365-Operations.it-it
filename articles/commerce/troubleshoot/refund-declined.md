@@ -2,9 +2,11 @@
 title: Il rimborso di un ordine di reso viene rifiutato
 description: Questo argomento fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando un rimborso di un ordine di reso viene rifiutato perché la carta di credito utilizzata per la fatturazione è diversa dalla carta utilizzata durante l'autorizzazione di pagamento originale.
 author: Reza-Assadi
+manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8880d72d702758d611755bce48a331e3f2e28ca1b7abf485e8b4f7301317c875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e202c6b4b9e025d5af1cd5eb6235884aab6444e6
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738626"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585399"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Il rimborso di un ordine di reso viene rifiutato
 
@@ -34,7 +36,7 @@ Un rimborso viene rifiutato quando la carta di credito utilizzata per fatturare 
 
 I dettagli dell'autorizzazione di pagamento includeranno il seguente messaggio di errore: "SendRequest() gateway Adyen non riuscito con stato 'InternalServerError'.22144; risposta vuota restituita da Adyen. (22001);"
 
-![Rimborso di un ordine di reso rifiutato.](media/refund-order-decline.jpg)
+![Rimborso di un ordine di reso rifiutato](media/refund-order-decline.jpg)
 
 ## <a name="resolution"></a>Risoluzione
 

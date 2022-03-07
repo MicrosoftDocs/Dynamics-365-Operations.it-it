@@ -2,11 +2,9 @@
 title: Modificare le celle di definizione di riga
 description: In questo argomento vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685861"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344887"
 ---
 # <a name="modify-row-definition-cells"></a>Modificare le celle di definizione di riga
 
@@ -107,7 +105,7 @@ La cella **Codice formato** offre una selezione di opzioni preformattate per il 
     | (Nessuno)                        |                                   | Cancella il contenuto della cella **Codice formato**. |
     | TOT                           | Totale                             | Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I totali contengono gli operatori semplici, ad esempio **+** o **-**. |
     | CAL                           | Calcolo                       | Identifica una riga che utilizza gli operatori matematici nella colonna **Unità/Righe/Formule correlate**. I calcoli contengono gli operatori complessi, ad esempio **+**, **-**, **\**_, _*/** e **IF/THEN/ELSE**. |
-    | DES                           | descrizione                       | Identifica una riga di intestazione o una riga vuota in un report. |
+    | DES                           | Descrizione                       | Identifica una riga di intestazione o una riga vuota in un report. |
     | LFT RGT CEN                   | Centro da sinistra a destra                 | Allinea il testo di descrizione della riga nella pagina del report, indipendentemente dalla posizione del testo nella definizione di colonna. |
     | CBR                           | Riga di base di modifica                   | Identifica una riga che imposta la riga di base per i calcoli della colonna. |
     | COLUMN                        | Interruzione di colonna                      | Inizia una nuova colonna nel report. |
@@ -143,7 +141,7 @@ Quando si crea una formula di totale di riga, è necessario utilizzare codici di
 > [!NOTE]
 > Tutte le righe di totale comprese in un intervallo vengono escluse. Per creare un totale complessivo, è possibile specificare l'intervallo di righe. Se la prima riga dell'intervallo è una riga di totale, tale riga viene inclusa nel nuovo totale. Nella seguente tabella viene descritto come gli operatori vengono utilizzati nelle formule di totale di riga.
 
-| Operatore | Formula di esempio | descrizione                                                 |
+| Operatore | Formula di esempio | Descrizione                                                 |
 |----------|-----------------|-------------------------------------------------------------|
 | +        | 100+330         | Aggiunge l'importo della riga 100 all'importo della riga 330.        |
 | :        | 100:330         | Aggiunge i totali di tutte le righe comprese tra la riga 100 e la riga 330.    |
@@ -176,7 +174,7 @@ Nella colonna **Codice formato** in una definizione di riga, i codici di formato
 
 Nel seguente esempio, un utente desidera impedire la stampa dell'intestazione e dei caratteri di sottolineatura nella riga **Cassa totale** del report perché non c'è stata attività in nessun conto di cassa. Di conseguenza, nella riga 220 (che, come indicato dal codice formato **---**, è una riga di formattazione), nella cella **Unità/Righe/Formule correlate**, l'utente immette **250**, ovvero il codice della riga di importo riga che l'utente desidera eliminare.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Selezionare la riga di base per il calcolo di una colonna
 Nella dichiarazione relazionale, assegnare uno o più righe di base nella definizione di riga utilizzando il codice formato **CBR** (riga di base di modifica). Una riga di base viene quindi correlata a un calcolo nella definizione di colonna. Di seguito sono riportati esempi tipici di calcoli CBR:
@@ -401,7 +399,7 @@ La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai da
 2. Fare doppio clic su una cella della colonna **Collegamento a Dimensioni finanziarie**.
 3. Nella finestra di dialogo **Dimensioni** fare doppio clic su una cella in corrispondenza del nome della dimensione.
 4. Nella finestra di dialogo per la dimensione, selezionare **Singolo o intervallo**.
-5. Nel campo **Da**, immettere la dimensione iniziale o fare clic su ![Sfoglia](media/browse.gif "Sfoglia") per cercare le dimensioni disponibili. Per immettere un intervallo di dimensioni, immettere la dimensione finale nel campo **A**.
+5. Nel campo **Da** immettere la dimensione iniziale o fare clic su ![Sfoglia.](media/browse.gif "Sfoglia") per cercare le dimensioni disponibili. Per immettere un intervallo di dimensioni, immettere la dimensione finale nel campo **A**.
 6. Fare clic su **OK** per chiudere la finestra di dialogo per la dimensione. Nella finestra di dialogo **Dimensioni** è visualizzata la dimensione o l'intervallo aggiornato.
 7. Scegliere **OK** per chiudere la finestra di dialogo **Dimensioni**.
 
@@ -478,7 +476,7 @@ Nella seguente tabella sono descritti i campi della finestra di dialogo **Dimens
 
 | Articolo                | Descrizione |
 |---------------------|-------------|
-| Utente o intervallo | Nel campo **Da**, immettere il nome di un conto o fare clic sul pulsante **Sfoglia** ![Sfoglia](media/browse.gif "Sfoglia") per individuare il conto. Per selezionare un intervallo, immettere o individuare un valore nel campo **A**. |
+| Utente o intervallo | Nel campo **Da**, immettere il nome di un account o fare clic sul pulsante **Sfoglia** ![Sfoglia](media/browse.gif "Sfoglia") per trovare l'account. Per selezionare un intervallo, immettere o individuare un valore nel campo **A**. |
 | Set di valori di dimensione | Nel campo **Nome** immettere il nome di un set di valori di dimensione. Per creare, modificare, copiare o eliminare un set, fare clic su **Gestire set di valori di dimensione**. Il campo **Formula** viene popolato automaticamente con la formula della cella **Collegamento a dimensioni finanziarie** per il set di valori di dimensione nella definizione di riga. |
 | Conti di totalizzazione   | Nel campo **Nome**, immettere o selezionare una dimensione dei conti di totalizzazione. Il campo **Formula** viene popolato automaticamente con la formula della cella **Collegamento a dimensioni finanziarie** per il conto di totalizzazione nella definizione di report. |
 
@@ -529,3 +527,6 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Creare un nuovo stato del ciclo di vita prodotto
 description: In questa procedura viene illustrato come creare un nuovo stato del ciclo di vita del prodotto.
 author: cvocph
-manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab5624423c3e463d673e91bd056e5e80d9bb9944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1ed369a305777363004b9838ff2c69ecbfba8862c8f3e9cd4cf87c606e4b39e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717270"
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Creare un nuovo stato del ciclo di vita prodotto
 
@@ -35,3 +32,6 @@ In questa procedura viene illustrato come creare un nuovo stato del ciclo di vit
 3. Nel campo Stato digitare un valore.
 4. Nel campo Descrizione digitare un valore.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Regolare i risultati dei suggerimenti sul prodotto basati su AI-ML
 description: In questo argomento viene descritto come gestire i risultati dei suggerimenti sul prodotto basati su AI-ML (intelligenza artificiale-machine learning) all'azienda.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413541"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748524"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Regolare i risultati dei suggerimenti sul prodotto basati su AI-ML
 
@@ -54,7 +51,7 @@ A seconda dell'attività commerciale, l'elenco "Più venduti" può avere risulta
 
 L'elenco di prodotti "Più venduti" include un parametro che può essere modificato:
 
-![Esempio di parametro predefinito dell'elenco Più venduti](./media/examplebestsellingparameters.PNG)
+![Esempio di parametro predefinito dell'elenco Più venduti.](./media/examplebestsellingparameters.PNG)
 
 1. **Includi vendite degli ultimi X giorni** - Le transazioni di vendita verificatesi entro il numero di giorni specificato prima della data corrente possono essere utilizzati per ordinare i prodotti. Il valore predefinito di cui sopra suggerisce che tutti gli acquisti di un prodotto effettuati negli ultimi 30 giorni sono utilizzati per determinare il posizionamento del prodotto nell'elenco di prodotti Più venduti. 
 
@@ -68,13 +65,13 @@ L'elenco di prodotti "Più venduti" include un parametro che può essere modific
 1.  Per aggiungere prodotti alla tabella, selezionare **Aggiungi riga**. 
 1.  Sotto la colonna Prodotto, cerca un prodotto per **Nome** o **Numero prodotto**.
 
-    ![Esempio di ricerca di un prodotto nell'elenco Nuovo prodotto](./media/examplenewlistconfiguration1.png)
+    ![Esempio di ricerca di un prodotto nell'elenco Nuovo prodotto.](./media/examplenewlistconfiguration1.png)
 
 1.  Sotto la colonna Tipo di riga, selezionare una delle due seguenti opzioni:
     -   **Includi** - Aggiunge un prodotto all'elenco
     -   **Escludi** - Rimuove un prodotto dall'elenco
     
-    ![Esempio di inclusione o esclusione di un prodotto dall'elenco Nuovo prodotto](./media/examplenewlistconfiguration2.png)
+    ![Esempio di inclusione o esclusione di un prodotto dall'elenco Nuovo prodotto.](./media/examplenewlistconfiguration2.png)
 
 1.  La modifica di **Ordine di visualizzazione** cambierà l'ordine di visualizzazione dei prodotti contrassegnati con **includi** nell'elenco.
     - Se due prodotti hanno lo stesso valore di **ordine di visualizzazione**, l'ordine finale di quei due risultati può differire dal back office.
@@ -89,12 +86,12 @@ Un *prodotto iniziale* è il prodotto per il quale si desidera generare i risult
 
 Seguire questi passaggi per aggiungere o rimuovere manualmente risultati per un prodotto iniziale:
 1.  Selezionare il **Prodotto iniziale**. 
-1.  Sotto la colonna **Prodotto**, cercare un prodotto per **Nome** o **Numero prodotto**
-![Esempio di ricerca di un prodotto nell'elenco Spesso acquistati insieme](./media/exampleFBTlistconfiguration1.png)
+1.  Nella colonna **Prodotto** cercare un prodotto in base al **Nome** o al **Numero di prodotto.**
+![Esempio di ricerca di un prodotto nell'elenco Spesso acquistati insieme.](./media/exampleFBTlistconfiguration1.png)
 1. Sotto la colonna **Tipo di riga**, selezionare una delle due seguenti opzioni:
     - **Includi** - Aggiunge un prodotto all'elenco
     - **Escludi** - Rimuove un prodotto dall'elenco     
-![Esempio di inclusione o esclusione di un prodotto nell'elenco Spesso acquistati insieme](./media/exampleFBTlistconfiguration2.png)
+![Esempio di inclusione o esclusione di un prodotto nell'elenco Spesso acquistati insieme.](./media/exampleFBTlistconfiguration2.png)
 1.  Per rimuovere prodotti dalla tabella: selezionare la riga da rimuovere e selezionare Rimuovi.
 
 
@@ -121,3 +118,6 @@ Seguire questi passaggi per aggiungere o rimuovere manualmente risultati per un 
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

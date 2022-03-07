@@ -1,12 +1,10 @@
 ---
 title: Impostazione del progetto di ordine di lavoro
 description: In questo argomento viene descritta l'impostazione del progetto di ordine di lavoro in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021556"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754085"
 ---
 # <a name="work-order-project-setup"></a>Impostazione del progetto di ordine di lavoro
 
@@ -71,7 +69,7 @@ L'impostazione consente l'integrazione completa con il modulo **Gestione progett
 
     Per impostazione predefinita, la data di inizio corrisponde alla data alla quale si aggiunge il progetto di ordine di lavoro alla pagina. Questa data determinata dal campo **Data di inizio validità**, che è nascosto per impostazione predefinita. Per visualizzare il campo **Data di inizio validità**, selezionare **Visualizza** \> **Tutto**. È quindi possibile utilizzare il campo **Data di inizio validità** insieme al campo **Data di fine** per impostare un periodo di validità limitato per il progetto di ordine di lavoro.
 
-    ![Pagina Impostazione del progetto dell'ordine di lavoro](media/17-setup-for-work-orders.png)
+    ![Pagina Impostazione del progetto dell'ordine di lavoro.](media/17-setup-for-work-orders.png)
 
 6. Nella scheda **Gruppo di progetti** selezionare **Aggiungi**.
 7. Nel campo **Tipo di ordine di lavoro** selezionare un tipo di ordine di lavoro.
@@ -79,9 +77,12 @@ L'impostazione consente l'integrazione completa con il modulo **Gestione progett
 9. Nel campo **Gruppo di progetti**, selezionare il gruppo di progetti che deve essere correlato al tipo di ordine di lavoro. Ad esempio, un tipo di ordine di lavoro denominato **Manutenzione preventiva** può essere associato a un gruppo di progetti denominato **Manut prev** o **Interno**. In alternativa, un tipo di ordine di lavoro **Investimento** utilizzato per gli ordini di lavoro correlati agli investimenti e i cespiti possono essere associati a un gruppo di progetti denominato **Invest** o **Investimento**.
 10. Selezionare **Salva**.
 
-![Pagina Impostazione del progetto dell'ordine di lavoro, Aggiungi ordine di lavoro](media/18-setup-for-work-orders.png)
+![Pagina Impostazione del progetto dell'ordine di lavoro, Aggiungi ordine di lavoro.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Ogni volta che si crea una riga di ordine di lavoro, Gestione cespiti ricerca un gruppo di progetti che deve essere correlato al progetto di processo di ordine di lavoro. La ricerca è basata sull'impostazione descritta in questo argomento. Ogni gruppo di progetti presenta un tipo di progetto correlato. I gruppi di progetti con il tipo di progetto **Tempistica e materiali** o **A prezzi fissi** sono validi solo per i cespiti associati a un conto cliente.
 >
 > Per i progetti principali e i gruppi di progetti, quando il sistema seleziona il progetto di ordine di lavoro o il gruppo di progetti disponibile, la selezione è basata sui record creati utilizzando la procedura precedente. Gestione cespiti controlla i record associati al progetto di ordine di lavoro per determinare se esiste una corrispondenza possibile. Controlla sempre la combinazione più specifica per prima. In altre parole, per il progetto di ordine di lavoro principale, Gestione cespiti cerca una possibile corrispondenza per il campo **Cespite**. Se non trova alcuna corrispondenza, ne cerca una per il campo **Tipo di cespite**. Se non trova alcuna corrispondenza anche in questo caso, ne cerca una per il campo **Unità funzionale** e così via. Come si vede nel layout della pagina **Impostazione del progetto di ordine di lavoro**, questo comportamento indica che, per individuare la combinazione più specifica, Gestione cespiti controlla ogni record da destra a-sinistra per una corrispondenza. Se non viene trovata alcuna corrispondenza, viene utilizzato il record predefinito dove solo un ID di progetto è selezionato. Il processo per l'individuazione del gruppo di progetti correlato è simile. Gestione cespiti cerca dapprima una possibile corrispondenza per il campo **Cespite**, quindi per il campo **Tipo di cespite** e infine per campo **Tipo di ordine di lavoro**. Se non viene trovata alcuna corrispondenza, viene utilizzato il record predefinito dove solo un gruppo di progetti è selezionato.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

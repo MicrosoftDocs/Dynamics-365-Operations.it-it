@@ -2,27 +2,24 @@
 title: " Inviare i prodotti del centro di distribuzione al punto vendita utilizzando la distribuzione push"
 description: In questa procedura vengono descritti i passaggi per creare ed elaborare una distribuzione push da un'ubicazione a uno o più punti vendita.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPush, InventLocationIdLookup, InventItemIdLookupSimple, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a0fa48d7cd1af289cf455ebd0e0c14b047b4f1a4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413490"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802649"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Inviare i prodotti del centro di distribuzione al punto vendita utilizzando la distribuzione push
 
@@ -53,3 +50,6 @@ In questa procedura vengono descritti i passaggi per creare ed elaborare una dis
 19. Fare clic su Crea ordine.
 20. Fare clic su Sì.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

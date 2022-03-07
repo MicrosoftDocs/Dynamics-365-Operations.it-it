@@ -2,27 +2,26 @@
 title: Panoramica di Vendite e marketing
 description: È possibile utilizzare Vendite e marketing per ottenere, archiviare e utilizzare vari tipi di dati nel flusso di vendita. Ciò include l'iniziativa di vendita iniziale, azioni follow-up successive e vendite aggiuntive.
 author: kfend
-manager: tfehr
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f03db7f830d0b7efa4ba32b9e194a4e3a65266e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430944"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982536"
 ---
 # <a name="sales-and-marketing-overview"></a>Panoramica di Vendite e marketing
 
@@ -30,21 +29,20 @@ ms.locfileid: "4430944"
 
 È possibile utilizzare Vendite e marketing per ottenere, archiviare e utilizzare vari tipi di dati nel flusso di vendita. Ciò include l'iniziativa di vendita iniziale, azioni follow-up successive e vendite aggiuntive.
 
-<a name="marketing"></a>Marketing
----------
+## <a name="marketing"></a>Marketing
 
-Utilizzare campagne e attività di marketing per individuare e sviluppare relazioni con potenziali clienti, in modo che le interazioni iniziali possono trasformarsi in relazioni di vendita. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per il marketing. [![Processo aziendale per il marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
+Utilizzare campagne e attività di marketing per individuare e sviluppare relazioni con potenziali clienti, in modo che le interazioni iniziali possono trasformarsi in relazioni di vendita. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per il marketing. [![Processo aziendale per il marketing.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
-### <a name="relationships"></a>Relazioni
+### <a name="relationships"></a>Rapporti
 
-In vendite e marketing, le interazioni iniziali con potenziali clienti possono verificarsi in diverse situazioni. È possibile, ad esempio, trovare un potenziale cliente mentre si partecipa a una fiera o si potrebbe avere un possibile lead con un cliente dopo l'esecuzione di una campagna di mailing di massa da parte dell'organizzazione. È molto importante comprendere il flusso dell'entità di una parte prima che diventi un cliente. Nell'immagine seguente è illustrato il flusso di relazioni di entità quando un potenziale cliente diventa un cliente effettivo. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+In vendite e marketing, le interazioni iniziali con potenziali clienti possono verificarsi in diverse situazioni. È possibile, ad esempio, trovare un potenziale cliente mentre si partecipa a una fiera o si potrebbe avere un possibile lead con un cliente dopo l'esecuzione di una campagna di mailing di massa da parte dell'organizzazione. È molto importante comprendere il flusso dell'entità di una parte prima che diventi un cliente. Nell'immagine seguente è illustrato il flusso di relazioni di entità quando un potenziale cliente diventa un cliente effettivo. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campagne
 
 Una campagna è destinata ai contatti per i prospect, i clienti potenziali, le opportunità e i clienti selezionati per partecipare alla campagna. In Supply Chain Management, è possibile creare diversi tipi di campagne, quali telemarketing, mailing e campagne di posta elettronica, per massimizzare il potenziale di clienti. Man mano che avanza la campagna e si ricevono risposte positive, è possibile iniziare il processo di vendita con i destinatari che hanno risposto positivamente alla campagna.
 
 ## <a name="sales"></a>Vendite
-Utilizzare la funzionalità di vendita per creare le offerte, effettuare l'upselling e il cross-selling a clienti nuovi ed esistenti, creare ordini cliente e creare fatture di vendita per i clienti. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per le vendite. [![Processo aziendale per le vendite](./media/sales01.jpg)](./media/sales01.jpg)
+Utilizzare la funzionalità di vendita per creare le offerte, effettuare l'upselling e il cross-selling a clienti nuovi ed esistenti, creare ordini cliente e creare fatture di vendita per i clienti. Nel flusso di processo riportato di seguito è illustrato il processo aziendale per le vendite. [![Processo aziendale per le vendite.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Offerte di vendita
 
@@ -125,3 +123,6 @@ Una fattura proforma è una fattura preparata come stima degli importi effettivi
 #### <a name="blogs"></a>Blog
 
 È possibile trovare una panoramica del processo di vendita nel post [Processo di vendita in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Configurazioni visive dell'interfaccia utente POS
 description: Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze di Dynamics 365 Commerce POS.
 author: boycezhu
-manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: b617ce4358a6b6aaacea9069d8db40c4aa82b7ed
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4413588"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798707"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurazioni visive dell'interfaccia utente POS
 
@@ -117,6 +114,9 @@ Nei layout POS compatti le griglie dei pulsanti sono automaticamente disposte da
 
 ![Griglie dei pulsanti layout compatti](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Le dimensioni dei pulsanti nella finestra di progettazione verranno ridimensionate per adattarsi alle dimensioni della finestra, pertanto potrebbero non riflettere accuratamente i pulsanti effettivi visualizzati in POS. Per simulare al meglio il layout della griglia dei pulsanti, adatta le finestre di progettazione alle stesse dimensioni del POS.
+
 ### <a name="images"></a>Immagini
 
 Per ciascuna dimensione del layout in un layout dello schermo, è possibile specificare le immagini da includere nell'interfaccia utente POS. Per i layout POS completi, è possibile specificare una singola immagine per la schermata di benvenuto. Questa immagine appare come il primo elemento dell'interfaccia utente a sinistra. Nella schermata **Transazione**, le immagini possono essere utilizzate come immagini di schede o come logo. Nei layout compatti di POS non vengono utilizzate queste immagini.
@@ -205,3 +205,6 @@ La progettazione della griglia dei pulsanti consente di configurare le griglie d
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Installare lo strumento di progettazione layout di POS di Retail](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

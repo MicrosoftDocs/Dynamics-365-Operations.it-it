@@ -10,26 +10,23 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cc685fcd584fe2ab5cd9282e8fbefbd284d5b2a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413518"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478364"
 ---
 # <a name="task-management-in-pos"></a>Gestione delle attività in POS
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive la gestione delle attività nelle applicazioni POS di Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 L'applicazione POS di Dynamics 365 Commerce ha funzionalità di gestione delle attività che consente ai responsabili e ai dipendenti del negozio di gestire le attività e aggiornarne lo stato. Gli addetti al negozio possono accedere alle attività selezionando il riquadro **Attività** sulla home page del POS o selezionando le notifiche delle attività. Per impostazione predefinita, gli addetti al negozio vengono indirizzati alla scheda **Attività personali** dove possono visualizzare le attività loro assegnate. Tuttavia, possono facilmente passare alle schede **Attività scadute**, **Attività aperte** e **Elenchi di attività**.
 
@@ -64,3 +61,6 @@ La figura di seguito mostra la scheda **Elenchi di attività**.
 [Creare elenchi di attività e aggiungere attività](task-mgmt-create-lists.md)
 
 [Assegnare elenchi di attività a punti vendita o dipendenti](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

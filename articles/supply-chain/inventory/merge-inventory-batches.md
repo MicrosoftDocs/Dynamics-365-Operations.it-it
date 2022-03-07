@@ -2,28 +2,25 @@
 title: Unisci batch di magazzino
 description: In questo articolo vengono fornite informazioni sul consolidamento di due o più batch di magazzino in un batch unito.
 author: pjacobse
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa571fb7392f6f7154f7f1bfd908e11e1bebd3a6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431318"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808186"
 ---
 # <a name="merge-inventory-batches"></a>Unisci batch di magazzino
 
@@ -44,7 +41,7 @@ Sì, sono disponibili alcune cose che è necessario impostare prima di utilizzar
 <thead>
 <tr class="header">
 <th>Pagina</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -140,3 +137,6 @@ La registrazione funziona in due modi, a seconda che si utilizzi un processo di 
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Perché non riesco a visualizzare le informazioni sul peso variabile nel giornale di registrazione magazzino dopo aver unito un articolo a peso variabile?
 È possibile unire i batch degli articoli a peso variabile come tutti gli altri articoli. Tuttavia, le informazioni sul peso variabile non vengono visualizzate nel giornale di registrazione magazzino. Si consiglia di verificare le informazioni sul peso variabile prima di trasferire l'unione batch nel giornale di registrazione magazzino.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

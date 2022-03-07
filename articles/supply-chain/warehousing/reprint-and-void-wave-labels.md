@@ -1,25 +1,22 @@
 ---
 title: Ristampare e annullare etichette ondata
 description: Questo argomento spiega come annullare e ristampare le etichette ondata esistenti.
-author: GarmMSFT
-manager: PJacobse
+author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
-ms.reviewer: PJacobse
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: c07bb53787ba49e4e6010802fc8c9b43ea6b2d6b3bec49096efd9832140d4d9e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4431591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736505"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Ristampare e annullare etichette ondata
 
@@ -218,3 +215,9 @@ Le eccezioni lavoro controllano il comportamento del prelievo in difetto. Per im
 1. Selezionare **Prelievo in difetto**.
 1. Selezionare il codice di eccezione lavoro creato per questo scenario.
 1. Se è stata selezionata l'eccezione corretta, la casella di controllo **Annulla e ristampa** deve essere disponibile. Selezionare questa casella e confermare. Dopo la conferma, la sequenza di rotoli di etichette identificata dal campo **ID build etichetta** viene ricalcolata in base alla quantità della riga di lavoro modificata. Viene quindi ristampata sulla stampante specificata.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Stampa di etichette ciclo](configure-wave-label-printing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

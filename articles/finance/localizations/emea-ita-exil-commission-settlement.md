@@ -2,11 +2,9 @@
 title: Liquidazione provvigione su pagamento
 description: Questo argomento fornisce informazioni sulla liquidazione delle provvigioni sui pagamenti.
 author: ilkond
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d3a9073b491511771cd8a8252b8b78ebfd8d1267
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f148baf05ca6369c0cbe733e135324d0c1b994ccca775f11c782bb9a3e689ff6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748929"
 ---
 # <a name="commission-settlement-on-payments"></a>Liquidazione provvigione su pagamento
 
@@ -33,7 +31,7 @@ In Italia, le società in genere non liquidano le provvigioni agli agenti di ven
 Prima di poter utilizzare la funzionalità per la liquidazione delle provvigioni su pagamenti, devono essere soddisfatti i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- La funzionalità **Liquidazione delle provvigioni sui pagamenti** deve essere attivata nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Liquidazione delle provvigioni sui pagamenti** deve essere attivata nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="a-namedefault-commission-settlement-periodset-up-the-default-commission-settlement-method"></a><a name="default-commission-settlement-period">Impostare il metodo di liquidazione delle provvigioni predefinito
 
@@ -43,13 +41,13 @@ Prima di poter utilizzare la funzionalità per la liquidazione delle provvigioni
     - **Su fattura** - Le provvigioni vengono addebitate durante il processo di fatturazione.
     - **Su pagamento** - Le provvigioni vengono addebitate durante il processo di pagamento.
 
-![Parametri contabilità clienti](media/emea-ita-exil-commission-setup-parameters.PNG)
+![Parametri contabilità clienti.](media/emea-ita-exil-commission-setup-parameters.PNG)
 
 ## <a name="set-up-commission-calculations"></a>Impostare i calcoli della provvigione
 
 È possibile impostare il calcolo delle provvigioni per una provvigione **Su pagamento** andando a **Vendite e marketing** \> **Provvigioni** \> **Calcolo provvigione**.
 
-![Impostare il calcolo della provvigione](media/emea-ita-exil-commission-%20calculation-setup.PNG)
+![Impostare il calcolo della provvigione.](media/emea-ita-exil-commission-%20calculation-setup.PNG)
 
 Se l'opzione **Soglie di pagamento** nella sezione **Provvigioni su pagamento** è impostata su **Sì**, è possibile specificare due limiti (soglie) per i calcoli delle provvigioni:
 
@@ -84,13 +82,13 @@ Dopo aver creato un ordine cliente, un utente può aggiornare la liquidazione de
 2. Selezionare e aprire un ordine cliente.
 3. Nella pagina **Dettagli ordine cliente**, nella visualizzazione **Intestazione**, nella scheda dettaglio **Impostazione** aggiornare il valore del campo **Liquidazione delle provvigioni** come richiesto.
 
-![Liquidazione delle provvigioni sull'ordine cliente](media/emea-ita-exil-commission-sales-order.png)
+![Liquidazione delle provvigioni sull'ordine cliente.](media/emea-ita-exil-commission-sales-order.png)
 
 Per impostazione predefinita, il valore del campo **delle provvigioni** è ereditato dalla pagina **Parametri contabilità clienti**. Per ulteriori informazioni, vedere [Impostare il metodo di liquidazione delle provvigioni predefinito](#default-commission-settlement-period).
 
 È inoltre possibile visualizzare in anteprima il calcolo della provvigione di vendita da un ordine cliente per ordini aperti o fatturati. Nella pagina **Dettagli ordine cliente**, nella scheda **Generale**, selezionare **Informazioni correlate** \> **Anteprima provvigione**.
 
-![Anteprima delle transazioni delle provvigioni](media/emea-ita-exil-commission-preview.PNG)
+![Anteprima delle transazioni delle provvigioni.](media/emea-ita-exil-commission-preview.PNG)
 
 > [!NOTE]
 > Un utente può combinare gli ordini cliente in un'unica fattura se tutti gli ordini cliente per la fatturazione hanno lo stesso valore di **Liquidazione delle provvigioni** nell'intestazione dell'ordine cliente.
@@ -104,3 +102,6 @@ Per impostazione predefinita, il valore del campo **delle provvigioni** è eredi
 
 > [!NOTE]
 > Quando si registra la fattura, il sistema crea le transazioni di provvigione e giustificativo. Se il valore del campo **Liquidazione delle provvigioni** è **Su fattura** nell'intestazione dell'ordine cliente, il sistema crea un record **Liquidazione**. Se il valore nel campo **Liquidazione delle provvigioni** è **Su pagamento** nell'intestazione dell'ordine cliente, il record **Liquidazione** viene creato solo dopo che la fattura e il pagamento sono stati liquidati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

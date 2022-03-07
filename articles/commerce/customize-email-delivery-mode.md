@@ -10,24 +10,22 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: d0d96ddb20b2b09751d8c0c0bf8af713de35279a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594975"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222635"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personalizzare i messaggi di posta elettronica transazionali in base alla modalità di consegna
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In questo argomento viene descritto come impostare modelli di posta elettronica personalizzati per i tipi di notifica e le modalità di consegna specifici in Microsoft Dynamics 365 Commerce.
 
@@ -73,3 +71,6 @@ Per configurare i modelli di posta elettronica per modalità di consegna specifi
 [Creare ordini servizio clienti](tasks/create-call-center-orders.md)
 
 [Modifica modalità di consegna nel POS](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

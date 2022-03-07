@@ -10,18 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7312ab2491814e7cd266e39820f0e87e79dd84e4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103565"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557394"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Home page di Contabilità inventario globale
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Le organizzazioni internazionali sono sottoposte a crescenti pressioni da parte delle autorità per conformarsi agli standard contabili locali e globali. La valutazione dell'inventario svolge un ruolo significativo nel garantire la conformità. Il componente aggiuntivo Contabilità inventario globale per Microsoft Dynamics 365 Supply Chain Management fornisce una soluzione completa che consente alle organizzazioni (soprattutto le organizzazioni internazionali) di utilizzare più libri contabili di determinazione dei costi per eseguire la contabilità dell'inventario. Pertanto, tali organizzazioni possono conformarsi contemporaneamente a più standard contabili e alla contabilità di gestione interna.
 
@@ -47,6 +46,7 @@ Contabilità inventario globale è attualmente disponibile nelle seguenti aree g
 - Regno Unito
 - Australia
 - Canada
+- America del Sud
 
 Se si tenta di installare il componente aggiuntivo da un'altra area geografica, Microsoft Dynamics Lifecycle Services (LCS) mostrerà un messaggio che indica che l'area geografica non è supportata. Contabilità inventario globale non supporta le distribuzioni locali di Supply Chain Management.
 

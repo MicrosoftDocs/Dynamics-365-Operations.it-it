@@ -2,28 +2,19 @@
 title: Eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura
 description: Questo argomento illustra come eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2021-01-04
-ms.openlocfilehash: f1478f0246e7f1ff8bd72232cbaf4c2034cf4edb
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: d216f1c46aa3362730c126ffc33fefdddddf1853
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959848"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416379"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura
 
@@ -98,3 +89,6 @@ Perché i dati della tabella **Prodotti** sono progetti per un flusso unidirezio
 ## <a name="quote-and-quote-product-tables"></a>Tabelle di offerta e prodotti offerta
 
 Per la tabella **Offerta**, seguire le istruzioni nella sezione [Tabella degli ordini](#order-table) precedente in questo argomento. Per la tabella **Prodotto offerta**, seguire le istruzioni nella sezione [Tabella dei prodotti ordini](#order-products-table) precedente in questo argomento.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

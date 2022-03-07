@@ -2,26 +2,23 @@
 title: Rilascio automatico della spedizione della versione per cross-docking
 description: In questo argomento viene descritta una strategia di cross-docking che consente di rilasciare automaticamente un ordine di domanda nel magazzino quando l'ordine di produzione che fornisce la quantità della domanda viene dichiarato finito, in modo che la quantità viene spostata direttamente dall'ubicazione di uscita della produzione nell'ubicazione in uscita.
 author: omulvad
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74e26953fc964a3cfdee182433a017bb53fa45d62beab442b2c224e8365adef0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755956"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Rilascio automatico della spedizione della versione per cross-docking
 
@@ -164,7 +161,7 @@ Per eseguire il cross-dock della quantità di prodotti finiti nell'ubicazione in
 8. Nella pagina **Ordine di produzione**, nel riquadro azioni, nella scheda **Ordine di produzione**, nel gruppo **Processo** selezionare **Stima** e quindi **OK**. L'ordine viene stimato e la quantità di materie prime viene prenotata per la produzione.
 9. Nel riquadro azioni, nella scheda **Ordine di produzione**, nel gruppo **Processo** selezionare **Rilascio** e quindi **OK**. Il lavoro di prelievo di magazzino viene creato per le materie prime.
 10. Aprire ed esaminare il lavoro. Nella scheda **Magazzino** del riquadro azioni, nel gruppo **Generale**, selezionare **Dettagli lavoro**. Prendere nota dell'ID lavoro.
-11. Accedi all'app di magazzino per eseguire il lavoro nel magazzino 51.
+11. Accedi all'app per dispositivi mobili Gestione magazzino per eseguire il lavoro nel magazzino 51.
 12. Andare a **Produzione** \> **Prelievo di produzione**.
 13. Immettere l'ID lavoro per avviare e completare il prelievo delle materie prime. 
 
@@ -179,3 +176,6 @@ Si verificano i seguenti eventi:
 - Il rilascio a un magazzino viene attivato per l'ordine cliente associato.
 - In base al rilascio, viene creato il lavoro di spedizione e cross-docking. Questo lavoro indica all'operatore del magazzino di prelevare le quantità richieste per soddisfare la riga ordine cliente e metterle nell'ubicazione in uscita specificata nella direttiva di ubicazione di cross-docking.
 - Se la quantità dell'ordine di produzione è maggiore della quantità richiesta dall'ordine cliente, viene creato il lavoro di stoccaggio regolare. Questo lavoro indica all'operatore del magazzino di prelevare la quantità di prodotti finiti rimanente dopo cross-docking e spostarla nell'ubicazione normale, a seconda della direttiva di ubicazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

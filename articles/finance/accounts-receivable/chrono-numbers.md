@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ced09fb4be49dbfd10dac9f9ece86372d38e854460c7ca6cd72922c64ac7cce4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724137"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838863"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numerazione cronologica di documenti e giustificativi
 
@@ -69,7 +69,7 @@ Per definire sequenze numeriche, vai a **Amministrazione organizzazione** > **Se
 
 Specifica una società per ogni sequenza numerica. I segmenti delle sequenze numeriche devono essere definiti in modo che forniscano un ordine cronologico per i periodi. Ad esempio, i nomi dei segmenti possono contenere un prefisso speciale che identifica un periodo specifico.
 
-![Impostazione della sequenza numerica.](media/chrono-num-sequence.jpg)
+![Impostazione della sequenza numerica](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Configurare i gruppi di sequenze numeriche
 
@@ -77,7 +77,7 @@ Per configurare i gruppi di sequenze numeriche, vai a **Contabilità clienti** >
 
 Per ogni gruppo, nella sezione **Riferimento** seleziona uno dei riferimenti di documenti supportati e nel campo **Codice sequenza numerica** e fai riferimento a una sequenza numerica creata in precedenza per il periodo correlato.
 
-![Impostazione del gruppo di sequenze numeriche.](media/chrono-num-sequence-group.jpg)
+![Impostazione del gruppo di sequenze numeriche](media/chrono-num-sequence-group.jpg)
 
 Allo stesso modo, configura i gruppi di sequenze numeriche nei moduli **Contabilità fornitori** e **Gestione progetti e contabilità**.
 
@@ -85,9 +85,9 @@ Allo stesso modo, configura i gruppi di sequenze numeriche nei moduli **Contabil
 
 Per configurare la cronologia dei gruppi di sequenze numeriche, vai a **Amministrazione organizzazione** > **Sequenze numeriche** > **Gruppi di sequenze numeriche cronologiche**. Definisci le condizioni di applicabilità per i gruppi di sequenze numeriche.
 
-![Impostazione dei numeri cronologici.](media/chrono-num-sequence-group-period.jpg)
+![Impostazione dei numeri cronologici](media/chrono-num-sequence-group-period.jpg)
 
-| Campo            | descrizione                                                                                                                                                                                                                                                                                                                                                                                   |
+| Campo            | Descrizione                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Valido  | La data di inizio dell'applicabilità del gruppo di sequenze numeriche. |
 | Scadenza      | La data di fine dell'applicabilità del gruppo di sequenze numeriche. Se non si applica alcuna data di fine, seleziona **Mai**. |
@@ -98,7 +98,7 @@ Per configurare la cronologia dei gruppi di sequenze numeriche, vai a **Amminist
 ## <a name="document-posting"></a>Registrazione del documento
 Quando si registra un documento, il gruppo di sequenza numerica appropriato viene assegnato al documento, in base alla data di registrazione del documento, e quindi utilizzato per generare un numero di documento in base alla sequenza numerica rilevata. Il sistema fornisce un messaggio relativo all'assegnazione del gruppo di sequenze numeriche.
 
-![Numero documento.](media/chrono-num-sequence-fti.jpg)
+![Numero documento](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > Per alcuni paesi esiste una logica specifica già implementata per la numerazione dei documenti. In questo caso, la logica specifica del paese avrà la precedenza sulla funzionalità **Numerazione cronologica**.

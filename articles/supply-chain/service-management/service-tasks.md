@@ -2,28 +2,25 @@
 title: Panoramica delle attività di assistenza
 description: Utilizzare le attività di assistenza tecnica per descrivere l'attività da eseguire durante un ordine di assistenza. Tali informazioni possono essere visualizzate sia dai tecnici che dai clienti.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b433632523bfd64119fda62f8e4b108ff9b5dccd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b5bf87fbe5ecb711f641a006d56c94d6e679944
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430830"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338378"
 ---
 # <a name="service-tasks-overview"></a>Panoramica delle attività di assistenza
 
@@ -54,13 +51,13 @@ Un tecnico deve effettuare due interventi su una scatola ingranaggi (oggetto ass
 
 ### <a name="service-agreement"></a>Contratto di assistenza
 
-| Project | Contratto di assistenza | descrizione                                  | Raggruppa   |
+| Project | Contratto di assistenza | Descrizione                                  | Raggruppa   |
 |---------|-------------------|----------------------------------------------|---------|
 | 9012    | 000008\_001       | Controllo e sostituzione di routine – GB-1234 | Gratifiche |
 
 ### <a name="service-agreement-lines"></a>Righe contratto di assistenza
 
-| descrizione             | Tipo di transazione | Oggetto assistenza | Attività di assistenza tecnica |
+| Descrizione             | Tipo di transazione | Oggetto assistenza | Attività di assistenza tecnica |
 |-------------------------|------------------|----------------|--------------|
 | Controllo e pulizia | Ore             | GB-1234        | I/C - GB1234 |
 | Travel                  | Expense          | GB-1234        | I/C - GB1234 |
@@ -90,3 +87,6 @@ Quando si creano automaticamente ordini di assistenza, è possibile utilizzare l
 2. Nella scheda **Impostazione** selezionare **In base all'attività di assistenza** nel campo **Combina ordini di assistenza**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

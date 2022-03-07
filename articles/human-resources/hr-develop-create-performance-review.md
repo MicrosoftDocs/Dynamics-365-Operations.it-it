@@ -2,28 +2,27 @@
 title: Creare revisioni delle prestazioni
 description: In questo argomento viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.
 author: andreabichsel
-manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f64073203d1f1cc99513ff3a3e7da180374734e1
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419191"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055438"
 ---
 # <a name="create-performance-reviews"></a>Creare revisioni delle prestazioni
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 In questo argomento viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione. Questa procedura è stata creata utilizzando la società di dati dimostrativi USMF.
@@ -49,7 +48,7 @@ In questo argomento viene illustrato come creare una revisione delle prestazioni
 14. Selezionare **Espandi tutto**.
 15. Selezionare **Aggiungi commento**.
 16. Selezionare **Registra**.
-17. Selezionare la scheda **Misurazioni**.
+17. Selezionare la scheda **Misure**.
 18. Selezionare **Aggiungi misura** per aprire il menu della finestra di dialogo.
 19. Nel campo **Misura** immettere o selezionare un valore.
 26. Nel campo **Importo di destinazione** immettere un numero.
@@ -78,3 +77,6 @@ In questo argomento viene illustrato come creare una revisione delle prestazioni
 34. Selezionare la scheda **Revisione**. Quando la revisione passa da uno stato all'altro, il dipendente e il responsabile possono aggiungere commenti per ciascun obiettivo o competenza.  
 35. Selezionare la scheda **Conferme**. Il lavoratore e il responsabile possono confermare la revisione. Quando tutte le conferme necessarie sono state completate, lo stato diventa **Completato** e non è possibile apportare altre modifiche.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

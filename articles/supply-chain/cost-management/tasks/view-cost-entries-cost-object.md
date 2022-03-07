@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventValueTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b809c66243d3274bd06b72173ecf4f8a6c04ad4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 17e38d41ea31279c1318caba7a44a066811e80b0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239448"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Visualizzare voci di costo per un oggetto di costo
 
@@ -39,3 +38,6 @@ La procedura mostra come visualizzare le voci di costo per un oggetto di costo. 
 7. Utilizzare il filtro rapido per filtrare il campo Numero in base al valore 'p000031'.
     * Se le voci di costo sono vuote, impostare la data iniziale su 31 gennaio 2012 e la data finale su 31 dicembre 2012.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

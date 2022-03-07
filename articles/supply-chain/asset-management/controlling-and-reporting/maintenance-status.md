@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5bac42d5cdc62361ee9a562e59bafa09ca7a215
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0f65bfc7b5ef9651853a12bab2ed83dbb8562ba6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018498"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253736"
 ---
 # <a name="maintenance-status"></a>Stato della manutenzione
 
@@ -67,3 +67,6 @@ Nella schermata seguente, sono state aggiunte le informazioni sulle unità funzi
 
 ![Esempio del carico di lavoro mensile con unità funzionali](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

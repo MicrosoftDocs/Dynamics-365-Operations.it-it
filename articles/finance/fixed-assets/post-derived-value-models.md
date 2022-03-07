@@ -1,10 +1,12 @@
 ---
 title: Registrare con i libri derivati
 description: In questo articolo viene descritta la procedura per utilizzare i libri derivati.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0c7b2ad93f4a9c4ff24052c749f7891f9e915d
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 628110e62d30a717b243530367196aeaf930e3e3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675421"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256741"
 ---
 # <a name="post-with-derived-books"></a>Registrare con i libri derivati
 
@@ -52,7 +54,7 @@ Quando si registra un'acquisizione per un cespite con il libro VM 1, la registra
 > [!NOTE]                                                                                                         
 > Se non si utilizzano libri derivati, è necessario registrare l'acquisizione del cespite sia per il libro VM 1 sia per il libro VM 2.
 
-Per ulteriori informazioni, vedi [Libri derivati](derived-books.md).
+Per ulteriori informazioni, vedere [Libri derivati](derived-books.md).
 
 
 

@@ -2,27 +2,24 @@
 title: Aggiungere un canale a una gerarchia organizzativa
 description: In questo argomento viene descritto come aggiungere un canale a una gerarchia organizzativa in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 701c90e8e28b4419422cddde698e9c9862a588a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 64d9c649212eca4dc703e5b80fdf2c3c6a57a61745fc440b0650d7796a4d06e3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720985"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Aggiungere un canale a una gerarchia organizzativa
 
@@ -47,7 +44,7 @@ Per selezionare una gerarchia, attenersi alla seguente procedura.
 
 L'immagine seguente mostra i dettagli della gerarchia organizzativa per la gerarchia selezionata.
 
-![Dettagli della gerarchia organizzativa per la gerarchia selezionata](media/channel-add-to-org-hierarchy-1.png)
+![Dettagli della gerarchia organizzativa per la gerarchia selezionata.](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>Aggiungere un canale a un nodo della gerarchia
 
@@ -61,17 +58,17 @@ Per aggiungere un canale a un nodo della gerarchia, effettuare le operazioni ind
 
 L'immagine seguente mostra come selezionare un canale da aggiungere a un nodo della gerarchia.
 
-![Selezionare un canale da aggiungere a un nodo della gerarchia](media/channel-add-to-org-hierarchy-2.png)
+![Selezionare un canale da aggiungere a un nodo della gerarchia.](media/channel-add-to-org-hierarchy-2.png)
 
 L'immagine seguente mostra una gerarchia con vari canali aggiunti.
 
-![Una gerarchia con vari canali aggiunti](media/channel-add-to-org-hierarchy-3.png)
+![Una gerarchia con vari canali aggiunti.](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei canali](channels-overview.md)
 
-[Prerequisiti di impostazione dei canali](channels-prerequisites.md)
+[Prerequisiti dell'impostazione dei canali](channels-prerequisites.md)
 
 [Panoramica organizzazioni e gerarchie organizzative](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
@@ -82,3 +79,6 @@ L'immagine seguente mostra una gerarchia con vari canali aggiunti.
 [Impostare un canale di vendita al dettaglio](channel-setup-retail.md)
     
 [Impostare un canale online](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

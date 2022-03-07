@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 11dd8f05ec3e8e1b92bddea9676edd7e32f966d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0adaa9384ee6a9ff417787efb824027f7a29e222
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413477"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252704"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-commerce"></a>Catalogo di apprendimento per gli utenti di Dynamics 365 Commerce
 
@@ -31,7 +30,7 @@ Per la formazione sulle funzionalità condivise con altre app Finance and Operat
 
 ## <a name="get-started"></a>Per iniziare<a name="get-started"></a>
 
-| Contenuto | descrizione  | Formatta   | Durata    |
+| Contenuto | Descrizione  | Formatta   | Durata    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Questa esperienza di apprendimento illustra un percorso che inizia mostrando come la trasformazione digitale e la potenza delle applicazioni aziendali possono trasformare l'azienda. Verrà illustrato come Dynamics 365 e Power Platform aiuteranno a prendere decisioni informate in base alle esigenze e agli obiettivi dell'organizzazione, attraverso quattro elementi costitutivi della trasformazione digitale: moderni, unificati, intelligenti e adattabili. | Percorso di apprendimento online gratuito autonomo | 6.5 ore |
 | [Introduzione a Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)| Dynamics 365 Commerce, basato sulle funzionalità consolidate di Dynamics 365 Retail, offre una soluzione multicanale completa che unifica le esperienze di back office, punto vendita, servizio clienti e area Digital. Dynamics 365 Commerce consente di sviluppare la fedeltà al marchio mediante servizi personalizzati offerti ai clienti, di aumentare i ricavi con una migliore produttività dei dipendenti, di ottimizzare le operazioni per ridurre i costi e favorire l'efficacia della catena di approvvigionamento e quindi di ottenere risultati aziendali migliori. | Percorso di apprendimento online gratuito autonomo | 2 ore |
@@ -39,7 +38,7 @@ Per la formazione sulle funzionalità condivise con altre app Finance and Operat
 
 ## <a name="commerce"></a>Commerce<a name="commerce"></a>
 
-| Contenuto | descrizione  | Formatta   | Durata    |
+| Contenuto | Descrizione  | Formatta   | Durata    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Configurare e utilizzare i requisiti multicanale in Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-omnichannel-prequisites-commerce/)| Prima che un canale Dynamics 365 Commerce possa essere creato e utilizzato, ci sono diversi prerequisiti che devono essere impostati. Questo percorso di apprendimento descrive la configurazione di tali prerequisiti per consentire transazioni di successo nei canali di Commerce e come utilizzarli.| Percorso di apprendimento online gratuito autonomo | 6.5 ore |
 | [Configurare e utilizzare il POS in Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/) | I dati transazionali vengono creati nel POS e quindi caricati in Dynamics 365 Commerce Headquarters per l'elaborazione. Questo percorso di apprendimento descrive come installare e attivare POS, nonché come creare transazioni giornaliere in POS. | Percorso di apprendimento online gratuito autonomo | 4.5 ore |
@@ -49,6 +48,9 @@ Per la formazione sulle funzionalità condivise con altre app Finance and Operat
 
 ## <a name="e-commerce"></a>e-commerce<a name="e-commerce"></a>
 
-| Contenuto | descrizione  | Formatta   | Durata    |
+| Contenuto | Descrizione  | Formatta   | Durata    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Configurare e utilizzare l'e-commerce in Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | I canali online e il sito di e-commerce di Dynamics 365 Commerce consentono ai rivenditori di creare una presenza online del proprio marchio. | Percorso di apprendimento online gratuito autonomo | 4 ore   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

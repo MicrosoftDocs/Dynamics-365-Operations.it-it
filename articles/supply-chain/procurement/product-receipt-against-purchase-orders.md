@@ -1,12 +1,10 @@
 ---
 title: Entrata prodotti e ordini fornitore
 description: In questo argomento vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a07b6b05b8eb25b8c41a5eecbb71fb765a3e9d5f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 797c5ee7a731ace8134d016272700aa9d718cf75
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019681"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909182"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Entrata prodotti e ordini fornitore
 
@@ -64,7 +62,10 @@ Dopo che l'entrata prodotti è stato elaborata nell'ordine fornitore, lo stato d
 
 [Approvare e confermare gli ordini fornitore](purchase-order-approval-confirmation.md)
 
-[Panoramica delle fatture fornitore](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Panoramica delle fatture fornitore](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

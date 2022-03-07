@@ -1,26 +1,24 @@
 ---
 title: Intrastat tedesca
 description: Questo argomento contiene informazioni sulla dichiarazione Intrastat in Germania.
-author: anasyash
-ms.date: 09/09/2021
+author: andosip
+ms.date: 08/2/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e1dbf0997417f9f1ad313e6a7b3c2c9cfae41efc6b1cfda60a5500ae0af94709
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759845"
 ---
 # <a name="german-intrastat"></a>Intrastat tedesca
 
-[!include [banner](../includes/banner.md)]
-
-La pagina **Intrastat** viene usata per generare e visualizzare le informazioni relative agli scambi commerciali tra i paesi dell'Unione Europea (UE). La dichiarazione Intrastat tedesca contiene informazioni sul commercio di merci per il reporting. Il report è formattato secondo le linee guida delle autorità tedesche che sono presentate alla pagina [6.2 Dichiarazioni file in formato INSTAT/XML](https://www-idev.destatis.de/idev/doc/intra_en/hilfe6_2.html).
+La pagina **Intrastat** viene usata per generare e visualizzare le informazioni relative agli scambi commerciali tra i paesi dell'Unione Europea (UE). La dichiarazione Intrastat tedesca contiene informazioni sul commercio di merci per il reporting.
 
 La tabella seguente mostra i campi inclusi nella dichiarazione Intrastat tedesca.
 
@@ -73,16 +71,15 @@ La tabella seguente mostra i campi inclusi nella dichiarazione Intrastat tedesca
     3. Nel campo **Mapping di formato report** seleziona **Report Intrastat**.
     4. Nella scheda dettaglio **Gerarchia di codici di voce doganale**, nel campo **Gerarchia di categorie** seleziona **Intrastat**.
     5. Nel campo **Codice transazione**, seleziona il codice transazione per i trasferimenti di proprietà. Utilizzi questo codice per le transazioni che producono trasferimenti effettivi o pianificati di proprietà dietro compensazione (finanziaria o altro). Lo usi anche per le correzioni.
-    6. Nel campo **Nota di accredito**, seleziona il codice transazione per il reso della merce.
-    7. Nel campo **Lavoratore** seleziona la persona di contatto per il report Intrastat. In alternativa, nella scheda **Contatto** immetti o seleziona i valori per i campi **Nome**, **Telefono**, **Fax**, **E-mail**, e **Indirizzo Internet**. Questi campi sono inclusi nel report.
-    8. Nel campo **Ufficio**, seleziona l'ufficio Intrastat.
-    9. Vai a **Imposta** > **Imposte indirette** > **IVA** > **Uffici IVA** e inserisci le seguenti informazioni per l'ufficio Intrastat selezionato nel passaggio precedente:
+    6. Nel campo **Nota di accredito**, seleziona il codice transazione per il reso della merce. Utilizzi questo codice per la restituzione della merce dopo che la transazione è stata registrata sotto il codice della transazione.
+    7. Nel campo **Ufficio**, seleziona l'ufficio Intrastat.
+    8. Vai a **Imposta** > **Imposte indirette** > **IVA** > **Uffici IVA** e inserisci le seguenti informazioni per l'ufficio Intrastat selezionato nel passaggio precedente:
 
        - Identificazione ufficio
        - Indirizzo
        - Informazioni contatto
 
-    10. Nella scheda **Proprietà paese/area geografica**, nel campo **Paese/area geografica**, elenca tutti i paesi o le aree geografiche con cui la tua società ha relazioni commerciali. Per ogni paese o area geografica, nel campo **Tipo di paese/area geografica**, seleziona **UE**, in modo che il paese o l'area geografica appaia nel report Intrastat.
+    9. Nella scheda **Proprietà paese/area geografica**, nel campo **Paese/area geografica**, elenca tutti i paesi o le aree geografiche con cui la tua società ha relazioni commerciali. Per ogni paese o area geografica, nel campo **Tipo di paese/area geografica**, seleziona **UE**, in modo che il paese o l'area geografica appaia nel report Intrastat.
 
 4. Imposta i codici area geografica.
 

@@ -2,26 +2,23 @@
 title: Creare gli attributi batch per un prodotto
 description: Questa procedura illustra come creare un attributo batch, come assegnare intervalli di valori predefiniti e come includere l'attributo in un gruppo.
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsBatchAttrib
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8924eedfbb635ca04aa167d7f6c44872fef496fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5deb35028ee499633fb6b0bb5155df2fd91e643a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431155"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820108"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Creare gli attributi batch per un prodotto
 
@@ -55,3 +52,6 @@ Questa procedura illustra come creare un attributo batch, come assegnare interva
 22. Fare clic su Salva.
 23. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

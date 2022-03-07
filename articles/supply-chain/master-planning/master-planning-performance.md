@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54f39793b6e8b24a13a4b80b59ba35f10e8f3da5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431366"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237475"
 ---
 # <a name="improve-master-planning-performance"></a>Migliorare le prestazioni di pianificazione generale
 
@@ -162,3 +161,6 @@ Prima dell'inizio della fase di copertura, è presente una fase di pre-copertura
 - **Una routine pesante alla volta** - Non eseguire la pianificazione generale insieme a qualsiasi altra routine pesante.
 - **Esaminare il registro sessioni**
 - **Filtrare articoli** - Utilizzare lo stato del ciclo di vita per escludere articoli dall'esecuzione della pianificazione generale (non utilizzare numeri di articolo).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

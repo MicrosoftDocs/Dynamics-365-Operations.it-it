@@ -2,7 +2,7 @@
 title: Risolvere i problemi relativi a report analitici
 description: In questo articolo viene illustrato come procedere se le modifiche ai dati di un cliente non sono visualizzate in alcuna area di lavoro del cliente.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 99d9eb3a16e6470820a2eb0a19c1d50e89bd3d36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e0befe1a35aa46b2eabb4516559fe07ce27e9f18
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419229"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466666"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Risolvere i problemi relativi a report analitici
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Problema**
 
@@ -43,3 +45,6 @@ Il problema potrebbe essere semplicemente una questione di tempistiche. Seguire 
 1. Selezionare **Modifica** nella parte superiore della pagina e impostare la data/ora di avvio pianificata su un valore che aggiorna l'analisi più prossima all'ora corrente.
 
 ![Processi batch](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

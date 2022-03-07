@@ -2,28 +2,25 @@
 title: Creare richieste articoli per gli ordini di assistenza
 description: Se è necessario prenotare articoli specifici per un ordine di assistenza, è possibile creare le richieste articolo di magazzino.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18484b637723cef43cad288c08ddfe53cddf9e03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 650d02d2160757d9629e4deb1e9217c85e9d01df
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431272"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831628"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Creare richieste articoli per gli ordini di assistenza 
 
@@ -72,3 +69,6 @@ Le richieste articoli per gli ordini di assistenza vengono elaborati nel corso d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

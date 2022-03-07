@@ -2,36 +2,30 @@
 title: Creare un cliente predefinito
 description: Questo argomento descrive come creare un cliente predefinito da utilizzare durante la creazione di un canale in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720961"
 ---
 # <a name="create-a-default-customer"></a>Creare un cliente predefinito
-
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come creare un cliente predefinito da utilizzare durante la creazione di un canale in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Quando si crea un canale, sarà necessario fornire un cliente predefinito. Un cliente predefinito può essere creato facilmente dopo aver creato il gruppo di clienti e la rubrica clienti.
 
@@ -53,7 +47,7 @@ Per creare un gruppo di clienti, completare i passaggi seguenti.
 
 L'immagine seguente mostra diversi gruppi di clienti configurati.
 
-![Gruppi di clienti](media/customer-groups.png)
+![Gruppi di clienti.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Creare una nuova rubrica clienti
 
@@ -69,7 +63,7 @@ Per creare una rubrica clienti, procedere come segue.
 
 L'immagine seguente mostra un esempio di rubrica.
 
-![Rubrica](media/address-book.png)
+![Rubrica.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Creare un cliente predefinito
 
@@ -92,11 +86,11 @@ Per creare un cliente predefinito, completare i passaggi seguenti.
 
 L'immagine seguente illustra un esempio di creazione di un cliente.
 
-![Creazione di un cliente predefinito](media/default-customer-creation.png)
+![Creazione di un cliente predefinito.](media/default-customer-creation.png)
 
 L'immagine seguente mostra la configurazione di un cliente predefinito.
 
-![Esporta di configurazione di un cliente](media/default-customer-configuration1.png)
+![Esempio di configurazione di un cliente.](media/default-customer-configuration1.png)
 
 La maggior parte dei valori predefiniti nella schermata dei dettagli cliente può rimanere, ma è necessario modificare due valori.
 
@@ -106,10 +100,13 @@ La maggior parte dei valori predefiniti nella schermata dei dettagli cliente pu�
 
 L'immagine seguente illustra un esempio di configurazione di un cliente.
 
-![Esporta di configurazione di un cliente](media/default-customer-configuration2.png)
+![Esempio di configurazione di un cliente.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei canali](channels-overview.md)
 
-[Prerequisiti di impostazione dei canali](channels-prerequisites.md)
+[Prerequisiti dell'impostazione dei canali](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

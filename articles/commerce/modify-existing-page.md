@@ -1,37 +1,31 @@
 ---
-title: Modificare una pagina di sito esistente
+title: Modificare una pagina del sito esistente
 description: In questo argomento viene descritto come modificare una pagina di sito esistente in Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751545"
 ---
-# <a name="modify-an-existing-site-page"></a>Modificare una pagina di sito esistente
-
+# <a name="modify-an-existing-site-page"></a>Modificare una pagina del sito esistente
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come modificare una pagina di sito esistente in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Quando si deve modificare una pagina, è necessario innanzi tutto aprirla nell'editor di pagine. Accedere al sito che contiene la pagina, quindi nell'elenco delle pagine, trovare la pagina desiderata. Se non è possibile trovare la pagina, utilizzare la funzionalità di ricerca avanzata dello strumento di creazione. Digitare il nome esatto della pagina oppure le prime lettere dello stesso e quindi un asterisco (\*). Viene visualizzato un elenco filtrato delle pagine. È possibile utilizzare questo elenco per trovare la pagina desiderata. Una volta trovata la pagina corretta, selezionare il nome della pagina per aprirla nell'editor di pagine.
 
@@ -87,3 +81,8 @@ Nell'esempio seguente viene descritto come modificare la home page cambiando il 
 [Migliorare una pagina di destinazione di categoria](enrich-category-page.md)
 
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
+
+[Creare pagine di e-commerce dinamiche in base ai parametri URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

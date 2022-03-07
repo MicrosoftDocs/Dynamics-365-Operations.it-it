@@ -1,7 +1,7 @@
 ---
 title: Ammortamento a quote costanti basato sulla vita utile
-description: Questo argomento offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
-author: moaamer
+description: Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
+author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b34cdf9485d38cdbf1362bd605841201a4295f26
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 985a1a23510a2cc698eb496cf9f3db2427d21119c1586ed69cf7e5ffd3d08867
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752201"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Ammortamento a quote costanti basato sulla vita utile
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
+Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona Vita utile a quote costanti nel campo Metodo della pagina Profili di ammortamento, i cespiti cui è assegnato questo profilo vengono ammortizzati in base all'intera vita utile del cespite. In genere è lo stesso importo in ciascun periodo di ammortamento. 
 
@@ -44,11 +44,11 @@ Se si seleziona Calendario, si presuppone che l'anno inizi il 1° gennaio e term
 Se si seleziona l'opzione Calendario, la base di ammortamento, che in genere corrisponde alla differenza tra il valore contabile netto e il valore di realizzo, verrà aggiornata al 1° gennaio di ogni anno. Negli esempi illustrati più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. 
 
 Se si seleziona Calendario, nel campo Frequenza periodo, che consente di definire gli importi e le date di registrazione dei ratei di ammortamento per l'anno di calendario, saranno disponibili le seguenti opzioni:
-- Annuale: viene registrato un importo il 31 dicembre.
-- Mensile: viene registrato un importo mensile alla fine di ciascun mese di calendario.
-- Trimestrale: viene registrato un importo trimestrale alla fine di ciascun trimestre di calendario (31 marzo, 30 giugno, 30 settembre e 31 dicembre).
-- Semestrale: viene registrato un importo semestrale alla fine di ciascun semestre di calendario (30 giugno e 31 dicembre).
-- Giornaliero: viene registrato l'importo di ammortamento per il metodo di ammortamento giornaliero mediante una sola transazione giornaliera.
+-   Annuale: viene registrato un importo il 31 dicembre.
+-   Mensile: viene registrato un importo mensile alla fine di ciascun mese di calendario.
+-   Trimestrale: viene registrato un importo trimestrale alla fine di ciascun trimestre di calendario (31 marzo, 30 giugno, 30 settembre e 31 dicembre).
+-   Semestrale: viene registrato un importo semestrale alla fine di ciascun semestre di calendario (30 giugno e 31 dicembre).
+-   Giornaliero: viene registrato l'importo di ammortamento per il metodo di ammortamento giornaliero mediante una sola transazione giornaliera.
 
 Se ad esempio si seleziona Annuale, l'ammortamento annuale viene registrato una sola volta, il 31 dicembre di ciascun anno. Se si seleziona Mensile, l'ammortamento mensile viene registrato ogni mese ed è uguale a 1/12 dell'importo dell'ammortamento annuale.
 
@@ -59,14 +59,14 @@ Se si seleziona Fiscale nel campo Anno di ammortamento, viene utilizzato l'ammor
 Se ad esempio l'anno fiscale inizia il 1° luglio e termina il 30 giugno, il calcolo dell'ammortamento inizia il 1° luglio. La durata dell'anno fiscale non deve essere necessariamente di 12 mesi. L'ammortamento viene rettificato automaticamente per ciascun periodo fiscale. La durata dell'anno fiscale successivo si basa sui periodi fiscali impostati durante la creazione di un nuovo anno fiscale nel modulo Calendari fiscali. 
 
 Se si seleziona Fiscale nel campo Frequenza periodo sono disponibili le seguenti opzioni di frequenza del periodo:
-- L'opzione Annuale registra l'importo totale dell'ammortamento che viene calcolato per l'anno fiscale come importo unico nell'ultimo giorno dell'anno fiscale.
-- Nel periodo fiscale viene calcolato l'importo totale dell'ammortamento per l'anno fiscale, che viene attribuito ai periodi definiti nel modulo Calendari fiscali per l'anno fiscale.
+-   L'opzione Annuale registra l'importo totale dell'ammortamento che viene calcolato per l'anno fiscale come importo unico nell'ultimo giorno dell'anno fiscale.
+-   Nel periodo fiscale viene calcolato l'importo totale dell'ammortamento per l'anno fiscale, che viene attribuito ai periodi definiti nel modulo Calendari fiscali per l'anno fiscale.
 
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Esempio: ammortamento a quote costanti di un cespite non modificato
 Si supponga che un cespite abbia le seguenti caratteristiche.
 
 | Caratteristica      | Valore  |
-|:---------------------|--------:|
+|---------------------|--------|
 | Costo di acquisizione    | 11,000 |
 | Valore di realizzo       | 1.000  |
 | Base di ammortamento   | 10.000 |
@@ -76,7 +76,7 @@ Si supponga che un cespite abbia le seguenti caratteristiche.
 Si otterrà lo stesso importo di ammortamento per ciascun anno. (Costo di acquisizione - Valore di realizzo) / Anni vita utile
 
 | Periodo | Calcolo dell'importo di ammortamento annuale | Valore contabile netto alla fine dell'anno |
-|:--------:|:-------------------------------------------|---------------------------------------:|
+|--------|-------------------------------------------|---------------------------------------|
 | Anno 1 | (11.000 - 1.000) / 5 = 2.000              | 9.000                                 |
 | Anno 2 | (11.000 - 1.000) / 5 = 2.000              | 7.000                                 |
 | Anno 3 | (11.000 - 1.000) / 5 = 2.000              | 5.000                                 |
@@ -90,7 +90,7 @@ Si supponga di aggiungere allo stesso cespite una rettifica di acquisizione pari
 La vita utile della rettifica di acquisizione è la stessa del cespite e inizia al momento della relativa acquisizione. Alla fine dell'anno 5 rimane un valore contabile netto che corrisponde al valore contabile netto della rettifica di acquisizione. L'ammortamento per periodo viene calcolato come illustrato nella seguente tabella.
 
 | Periodo | Calcolo della quota di ammortamento annuale | Valore contabile netto alla fine dell'anno |
-|:--------:|:-------------------------------------------|---------------------------------------:|
+|--------|-------------------------------------------|---------------------------------------|
 | Anno 1 | 10.000 / 5 = 2.000                        | 11.000 - 2.000 = 9.000                |
 | Anno 2 | 4.000 (rettifica acquisizione)            | 9.000 + 4.000 =13.000                 |
 | Anno 2 | 14.000 / 5 = 2.800                        | 13.000 - 2.800 = 10.200               |

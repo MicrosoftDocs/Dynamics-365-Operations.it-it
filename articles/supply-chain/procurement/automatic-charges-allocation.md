@@ -1,26 +1,23 @@
 ---
 title: Allocazione automatica degli addebiti
 description: La funzionalità degli addebiti in Microsoft Dynamics 365 Supply Chain Management aiuta ad allocare automaticamente gli addebiti agli ordini fornitori o agli ordini clienti.
-author: dasani-madipalli
-manager: tfehr
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431448"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592542"
 ---
 # <a name="automatic-allocation-of-charges"></a>Allocazione automatica degli addebiti
 
@@ -29,6 +26,16 @@ ms.locfileid: "4431448"
 In base al cliente con cui si sta lavorando o all'articolo che si sta vendendo, è possibile voler applicare addebiti aggiuntivi specifici. La funzionalità degli *addebiti* in Microsoft Dynamics 365 Supply Chain Management aiuta ad allocare automaticamente gli addebiti agli ordini fornitori o agli ordini clienti.
 
 Gli addebiti automatici vengono applicati automaticamente quando si crea un ordine cliente o un ordine fornitore. È possibile definire gli addebiti automatici per fornitori, clienti, gruppi di fornitori o articoli. È inoltre possibile definire gli addebiti automatici applicabili a tutti i fornitori, clienti o articoli.
+
+## <a name="set-up-parameters"></a>Imposta parametri
+
+La pagina **Parametri di approvvigionamento** ha alcune impostazioni che sono particolarmente pertinenti quando si desidera allocare gli addebiti automaticamente. Per completare questa impostazione, attenersi alla procedura seguente.
+
+1. Passare a **Approvvigionamento \> Impostazione \> Parametri di approvvigionamento**.
+1. Aprire la scheda **Prezzi**.
+1. Nella Scheda dettaglio **Prezzi**, effettuare le seguenti impostazioni:
+    - **Trova addebiti automatici per intestazione** - Specifica se gli addebiti devono essere allocati automaticamente per le intestazioni ordine fornitore. Impostare questa opzione su *Sì* per utilizzare l'allocazione automatica degli addebiti.
+    - **Trova addebiti automatici per riga** - Specifica se gli addebiti devono essere allocati automaticamente per le righe ordine fornitore. Impostare questa opzione su *Sì* per utilizzare l'allocazione automatica degli addebiti.
 
 ## <a name="set-up-charges-codes"></a>Impostare i codici di addebito
 
@@ -147,7 +154,7 @@ Dopo aver impostato i codici di addebito, seguire questi passaggi per definire g
     - **Sito** e **Magazzino** - Specificare un sito e un magazzino se gli addebiti devono essere applicati solo per un sito e un magazzino specifici.
     - **Conserva** – Selezionare questa casella di controllo per conservare le transazioni addebiti dopo il completamento della fatturazione, in modo che l'addebito venga applicato ogni volta che si crea una nuova fattura per il conto cliente selezionato.
 
-1. **Solo per ordini di vendita:** Se si desidera calcolare gli addebiti a più livelli, vedere [Addebiti a più livelli sugli ordini cliente](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) per informazioni.
+1. **Solo per ordini cliente:** Se si desidera calcolare gli addebiti a più livelli, vedere [Addebiti a più livelli sugli ordini cliente](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) per informazioni.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Allocare gli addebiti dall'intestazione a una riga
 
@@ -177,3 +184,6 @@ La procedura seguente mostra come allocare gli addebiti a livello di intestazion
         > Quando si utilizza la griglia **Scegli le righe da escludere dall'allocazione** assicurarsi di lasciare la griglia aperta finché non si seleziona **Alloca**. Se si chiude la griglia prima di selezionare **Alloca**, le impostazioni nella griglia andranno perse. Pertanto, gli addebiti verranno allocati in base ai criteri definiti in precedenza.
 
 1. Selezionare **Alloca** per applicare le impostazioni e chiudere la finestra di dialogo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

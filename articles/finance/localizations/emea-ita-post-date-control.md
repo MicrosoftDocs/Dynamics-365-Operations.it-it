@@ -2,9 +2,11 @@
 title: Controllo unificato della data di registrazione
 description: In questo argomento viene illustrato come configurare il controllo cronologico per le date di registrazione delle fatture.
 author: ikond
+manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -15,17 +17,18 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d5d867cb4a1a4bb5254fd42b82fc52be41dafa2cd4fa5b73ba455cde482e8e82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2269c2fa333647c7e2a5c1d3da08f9d1a60f0597
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742860"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104455"
 ---
 # <a name="unified-posting-date-control"></a>Controllo unificato della data di registrazione
 
 [!include [banner](../includes/banner.md)]
 
+[!include [banner](../includes/preview-banner.md)]
 
 In questo argomento viene illustrato come configurare il controllo cronologico delle date di registrazione delle fatture all'interno di una specifica sezione del libro IVA.
 
@@ -41,10 +44,7 @@ Completa i seguenti passaggi per configurare il controllo della data di registra
 1. Vai a **Imposta** > **Impostazione** > **IVA** > **Sezioni libro IVA italiano**. 
 2. Nella colonna **Ignora controllo data di registrazione** seleziona se il controllo della data di registrazione è necessario per una sezione del libro IVA selezionata.
 
-![Controllo della data di registrazione.](media/emea-ita-post-date-control.jpg)
+![Controllo della data di registrazione](media/emea-ita-post-date-control.jpg)
 
  - Se il campo non è abilitato, che è l'opzione predefinita, il sistema non consente la registrazione di nuove fatture con date precedenti alla data dell'ultima fattura registrata.  
  - Se il campo è abilitato, il sistema consente la registrazione con qualsiasi data.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

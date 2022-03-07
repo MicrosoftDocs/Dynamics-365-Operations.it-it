@@ -2,7 +2,7 @@
 title: Dichiarazione IVA (Svizzera)
 description: In questo argomento vengono fornite informazioni su come impostare e generare una dichiarazione di imposta sul valore aggiunto per la Svizzera.
 author: anasyash
-ms.date: 09/15/2021
+ms.date: 09/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 917438395785e12695867666ec36246ea113d0c0
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 4c2d1e617743a1859f9b1b55387fc5f4b4afb408
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647449"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487940"
 ---
 # <a name="vat-declaration-switzerland"></a>Dichiarazione IVA (Svizzera)
 
@@ -139,9 +139,6 @@ Apri l'area di lavoro **Creazione di report elettronici** e importa le seguenti 
 ### <a name=""></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields">Impostare i parametri specifici dell'applicazione per i campi della dichiarazione IVA</a>
 
 Per generare automaticamente una dichiarazione IVA, associa i codici IVA nell'applicazione e i risultati della ricerca nella configurazione della creazione di report elettronici.
-
-> [!NOTE]
-> Consigliamo di abilitare la funzionalità **Utilizza parametri specifici dell'applicazione delle versioni precedenti dei formati ER** nell'area di lavoro **Gestione delle funzionalità**. Quando questa funzionalità è abilitata, i parametri configurati per la versione precedente di un formato ER diventano automaticamente applicabili alla versione successiva dello stesso formato. Se questa funzione non è abilitata, è necessario configurare i parametri specifici dell'applicazione in modo esplicito per ogni versione del formato. Abilitare la funzionalità **Utilizza parametri specifici dell'applicazione delle versioni precedenti dei formati ER** disponibile nell'area di lavoro **Gestione delle funzionalità** a partire dalla versione 10.0.23 di Finance. Per ulteriori informazioni su come impostare i parametri di un formato ER per ciascuna persona giuridica, vedi [Impostare i parametri di un formato ER per la persona giuridica](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 #### <a name="set-up-turnover-lookup"></a>Impostare la ricerca fatturato
 

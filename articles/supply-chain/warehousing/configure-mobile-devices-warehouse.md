@@ -1,29 +1,26 @@
 ---
 title: Impostare i dispositivi mobili per il lavoro di magazzino
 description: Viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431513"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902181"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
@@ -44,6 +41,7 @@ Per creare una voce di menu per un'attività o una richiesta, impostare il campo
 > Se la voce di menu viene utilizzata per eseguire un lavoro esistente e a seconda della modalità selezionata per la voce di menu, sono disponibili campi aggiuntivi per le voci di menu. Per informazioni sulle selezioni dei campi aggiuntivi, vedere la sezione "Opzioni aggiuntive della voce di menu" in questo argomento.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurare voci di menu per attività e richieste di informazioni
+
 Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è possibile creare una voce di menu per eseguire un'attività o una richiesta di informazioni generale che non crea il lavoro. Esempi includono attività quali la ristampa di etichette targa e le richieste di informazioni per gli articoli in un'ubicazione. Nella seguente tabella vengono elencate le opzioni disponibili.
 
 | Opzione | Descrizione |
@@ -65,12 +63,11 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 | Cancella cache sequenza numerica | Eliminare i numeri della sequenza numerica dalla cache della sequenza numerica. Questa attività in genere viene eseguita da un amministratore di sistema per risolvere i problemi di cache quando si utilizzano i dispositivi mobili. |
 | Modifica smaltimento batch | Consentire a un lavoratore di specificare un codice smaltimento batch per un articolo e un batch. Questa selezione aggiornerà il codice smaltimento specificato per il batch. |
 | Visualizza elenco lavori aperti | Visualizzare un elenco di lavoro disponibile per un utente specifico. L'utente può selezionare il lavoro da eseguire e verrà diretto al lavoro stesso. Questo elenco può essere visualizzato sui dispositivi tablet con dimensioni dello schermo di 7 pollici o più. Quando si seleziona questa opzione, le voci di menu **Modifica query** ed **Elenco campi** sono abilitate. Nella pagina **Modifica query** è possibile impostare i criteri per il lavoro riportato nell'elenco. Nella pagina **Elenco campi** è possibile selezionare i campi che vengono visualizzati nell'elenco di lavoro. Ad esempio, è possibile ridurre il numero di campi visibili per rendere più rapida per l'utente la selezione degli elementi di lavoro più appropriati. Nella scheda dettaglio **Generale**, nel campo **Record per pagina**, è inoltre possibile selezionare il numero di record visualizzati per pagina. Se l'opzione **Consenti agli utenti di filtrare il lavoro in base al tipo di transazione** è selezionata, nell'elenco sarà presente un controllo aggiuntivo **Filtra lavoro** che consente di applicare un filtro in base al tipo di transazione. Nell'elenco gli utenti vedranno solo il lavoro per cui dispongono delle autorizzazioni di accesso. Verificare che gli utenti dispongano delle autorizzazione per una o più voci di menu definite dall'utente che supportano i tipi della classe di lavoro specifici a cui è necessario accedere. Le autorizzazioni vengono verificate quando l'utente tenta di eseguire il lavoro dall'elenco.|
-| Crea ordine di trasferimento da targhe | Consente agli addetti al magazzino di creare ed elaborare ordini di trasferimento direttamente nell'app di magazzino. Gli addetti al magazzino iniziano selezionando il magazzino di destinazione e possono quindi eseguire la scansione di una o più targhe utilizzando l'app. Quando l'addetto al magazzino seleziona **Completa ordine**, un processo batch creerà l'ordine di trasferimento richiesto e le righe dell'ordine in base alle scorte disponibili registrate per tali targhe. Per ulteriori informazioni, vedi [Creare ordini di trasferimento nell'app di magazzino](create-transfer-order-from-warehouse-app.md)
-
+| Crea ordine di trasferimento da targhe | Consente agli addetti al magazzino di creare ed elaborare ordini di trasferimento direttamente nell'app per dispositivi mobili Gestione magazzino. Gli addetti al magazzino iniziano selezionando il magazzino di destinazione e possono quindi eseguire la scansione di una o più targhe utilizzando l'app. Quando l'addetto al magazzino seleziona **Completa ordine**, un processo batch creerà l'ordine di trasferimento richiesto e le righe dell'ordine in base alle scorte disponibili registrate per tali targhe. Per ulteriori informazioni, vedi [Creare ordini di trasferimento nell'app di magazzino](create-transfer-order-from-warehouse-app.md)
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurare voci di menu per creare il lavoro per un altro lavoratore o processo
-È possibile impostare una voce di menu che crea il lavoro per un altro lavoratore dopo l'esecuzione di un'azione iniziale sul dispositivo mobile. Ad esempio, quando un lavoratore utilizza un dispositivo mobile per ricevere un articolo, viene creato il lavoro di stoccaggio per un altro lavoratore. Per impostare una voce di menu che crea il lavoro, nella pagina **Voci di menu del dispositivo mobile**, nel campo **Modalità** selezionare **Lavoro**. Nella tabella seguente le opzioni nel campo **Processo di creazione lavoro** sono disposte tipo di ordine di lavoro.
 
+È possibile impostare una voce di menu che crea il lavoro per un altro lavoratore dopo l'esecuzione di un'azione iniziale sul dispositivo mobile. Ad esempio, quando un lavoratore utilizza un dispositivo mobile per ricevere un articolo, viene creato il lavoro di stoccaggio per un altro lavoratore. Per impostare una voce di menu che crea il lavoro, nella pagina **Voci di menu del dispositivo mobile**, nel campo **Modalità** selezionare **Lavoro**. Nella tabella seguente le opzioni nel campo **Processo di creazione lavoro** sono disposte tipo di ordine di lavoro.
 
 <table>
 <tbody>
@@ -217,7 +214,7 @@ Oltre a impostare voci di menu per creare il lavoro di magazzino, è possibile i
 <thead>
 <tr class="header">
 <th>Opzione</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -410,6 +407,7 @@ Nella seguente tabella sono descritte queste opzioni.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Richiedere ai lavoratori di confermare il prodotto, l'ubicazione o la quantità quando prelevano gli articoli
+
 È possibile impostare le conferme di lavoro che richiedono a un lavoratore di utilizzare un dispositivo mobile per registrare l'ubicazione o la quantità quando esegue il lavoro nel magazzino. In questo modo è possibile garantire che il lavoratore sia nell'ubicazione corretta o stia gestendo la quantità corretta di articoli. È inoltre possibile consentire a Supply Chain Management di confermare automaticamente la registrazione del lavoratore. Se si abilita la conferma automatica, non è possibile richiedere anche le conferme per l'ubicazione o la quantità. Le conferme di lavoro includono anche i prodotti e le varianti prodotto. Inoltre, è possibile registrare le conferme eseguendo la scansione di un codice a barre. Per confermare i prodotti e le varianti prodotto, è necessario immettere un ID per il prodotto o la variante prodotto. Può essere un ID prodotto, un ID ricerca prodotti, un ID esterno, un codice GTIN o un codice a barre. Dopo aver immesso l'ID o eseguito la scansione del codice a barre, le dimensioni della variante prodotto vengono visualizzate sul dispositivo mobile. 
 
 Nella tabella seguente sono descritti i diversi tipi di lavoro per cui è possibile utilizzare le conferme di lavoro.
@@ -429,13 +427,13 @@ Nella tabella seguente sono descritti i diversi tipi di lavoro per cui è possib
 > [!NOTE]
 > La conferma prodotto può essere richiesta solo per i tipi di lavoro prelievo e stoccaggio.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto](tasks/set-up-mobile-device-menu.md)
-
-[Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[Stati inventario](../inventory/inventory-statuses.md)
+- [Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto](tasks/set-up-mobile-device-menu.md)
+- [Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Stati inventario](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

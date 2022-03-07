@@ -2,11 +2,9 @@
 title: Definire il ciclo di lavorazione di configurazione
 description: Questa procedura riguarda la definizione del ciclo di lavorazione di configurazione che determina la sequenza in cui verranno presentati i gruppi di configurazioni.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a0234fcce4f108fc6b03f0c4221613bb8526e86
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 564aee1804a2768a05a14823ae8378cb9c1ac3db
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966882"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818087"
 ---
 # <a name="define-configuration-route"></a>Definire il ciclo di lavorazione di configurazione
 
@@ -45,3 +43,6 @@ Questa procedura riguarda la definizione del ciclo di lavorazione di configurazi
 15. Nell'elenco fare clic sul collegamento nella riga selezionata.
 16. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

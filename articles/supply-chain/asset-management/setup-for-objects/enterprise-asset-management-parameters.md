@@ -1,10 +1,12 @@
 ---
 title: Parametri di Gestione cespiti
 description: In Gestione cespiti, i parametri generali relativi ai cespiti, gli ordini di lavoro e la programmazione degli ordini di lavoro devono essere impostati.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105491"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020656"
 ---
 # <a name="asset-management-parameters"></a>Parametri di Gestione cespiti
 
@@ -49,7 +51,7 @@ La scheda **Ordini di lavoro** fornisce le seguenti impostazioni:
 - **Tipo di ordine di lavoro predefinito** definisce le impostazioni standard quando si crea un ordine di lavoro.  
 - **Tipo di ordine di lavoro preventivo** definisce il tipo di ordine di lavoro utilizzato per la creazione degli ordini di lavoro per i piani di manutenzione. Se questo campo viene lasciato vuoto, il tipo di ordine di lavoro nel campo **Tipo di ordine di lavoro predefinito** viene utilizzato.  
 - Nel campo **Maschera ordini di lavoro correlati**, definire il numero massimo di ordini di lavoro che possono essere correlati a un ordine di lavoro. Esempio, ## consente di avere fino a 99 ordini di lavoro correlati. Se si definisce una maschera come descritto qui, gli ordini di lavoro correlati vengono numerati [ID dell'ordine di lavoro a cui un ordine di lavoro è correlato] -01, -02, -03, e così via. Se non si definisce una maschera in questo campo, un ordine di lavoro correlato otterrà l'ID ordine di lavoro sequenziale seguente.  
-- Selezionare **Sì** per **Copia errori** per copiare automaticamente gli errori registrati in richieste di intervento di manutenzione negli ordini di lavoro correlati. 
+- Selezionare **Sì** per **Copia errori** per copiare automaticamente gli errori registrati in ordini di lavoro nelle richieste di intervento di manutenzione correlate. 
 - Nel campo **Livello**, definire il livello di unità funzionale che viene inserito automaticamente in un ordine di lavoro se tutti i processi di ordini di lavoro correlati fanno riferimento alla stessa unità funzionale. Se i processi di ordine di lavoro non sono tutti relativi alla stessa unità funzionale del livello definito, il campo **Unità funzionale** è lasciato vuoto nell'ordine di lavoro. Ad esempio, se si inserisce il numero "1" in questo campo, quello è il livello principale di una struttura di unità funzionali. Se si inserisce il numero "0" in questo campo, non è stato definito un livello specifico di unità funzionale, solo che tutti i processi di ordine di lavoro in un ordine di lavoro devono essere correlati alla stessa unità funzionale per l'unità funzionale da aggiungere all'ordine di lavoro.  
 - I giornali di registrazione utilizzati per la registrazione del consumo in un ordine di lavoro possono essere selezionati nella Scheda dettaglio **Generale** nei campi **Ora**, **Articolo** e **Spese**.  
 - Nel campo **Origine lingua prodotto**, selezionare la lingua da utilizzare per i nomi di prodotti nei report di Gestione cespiti. È possibile selezionare la lingua impostata nel conto della società o quella impostata per l'utente attualmente connesso.  
@@ -99,11 +101,8 @@ I campi descritti nell'elenco seguente sono tutti relativi ai punteggi di valuta
 
 ## <a name="the-document-types-tab"></a>Scheda Tipi di documento
 
-Selezionare i tipi di documento che devono essere disponibili per la stampa degli allegati correlati a un report dell'ordine di lavoro. Questa operazione può essere effettuata selezionando un tipo di documento nella sezione **Disponibili** e selezionando il pulsante ![freccia avanti](media/15-setup-for-objects.png). Per rimuovere un tipo di documento selezionato, selezionare il tipo di documento nella sezione **Selezionati** e selezionare la ![freccia indietro](media/16-setup-for-objects.png).
+Selezionare i tipi di documento che devono essere disponibili per la stampa degli allegati correlati a un report dell'ordine di lavoro. Questa operazione può essere effettuata selezionando un tipo di documento nella sezione **Disponibili** e selezionando il pulsante ![freccia in avanti](media/15-setup-for-objects.png). Per rimuovere un tipo di documento selezionato, selezionare il tipo di documento nella sezione **Selezionati** e selezionare la ![freccia indietro](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Scheda Sequenze numeriche
 
 Selezionare le sequenze numeriche richieste in questa sezione. Sono disponibili due sequenze numeriche per i cespiti: Uno per i cespiti creati manualmente e un'altra per i cespiti creati tramite i cespiti in sospeso.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

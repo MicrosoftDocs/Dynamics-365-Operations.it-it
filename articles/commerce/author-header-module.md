@@ -2,35 +2,30 @@
 title: Modulo Intestazione
 description: In questo argomento vengono descritti i moduli Intestazione e la procedura per creare intestazioni di pagina in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
-ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
+ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4413591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712792"
 ---
-# <a name="header-module"></a>Modulo Intestazione
+# <a name="header-module"></a>Modulo intestazione
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento vengono descritti i moduli Intestazione e la procedura per creare intestazioni di pagina in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 In Dynamics 365 Commerce, un'intestazione di pagina è configurata come un frammento di pagina che include l'intestazione, il banner promozionale e i moduli di consenso dei cookie. 
 
@@ -38,7 +33,7 @@ Il modulo intestazione include il logo di un sito, collegamenti alla gerarchia d
 
 L'immagine seguente mostra un esempio di modulo Intestazione in una home page.
 
-![Esempio di modulo Intestazione](./media/ecommerce-header.png)
+![Esempio di modulo Intestazione.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Proprietà di un modulo Intestazione
 
@@ -63,9 +58,16 @@ Di seguito sono elencati i moduli che possono essere utilizzati in un modulo Int
 - **Selettore punto vendita** - Il modulo di selezione punto vendita può essere incluso nello slot di selezione del punto vendita del modulo di intestazione. Consente agli utenti di spostarsi e trovare i punti vendita nelle vicinanze. Gli utenti possono anche specificare un punto vendita preferito. Quel punto vendita verrà quindi mostrato nell'intestazione. Quando il modulo di selezione punto vendita è incluso nel modulo di intestazione, la proprietà **Modalità** deve essere impostata su **Trova punti vendita**. Per ulteriori informazioni, vedere [Modulo Selettore punto vendita](store-selector.md).
 
 > [!NOTE]
-> - Il supporto per l'utilizzo del modulo dell'icona del carrello nei moduli di intestazione è disponibile in Dynamics 365 Commerce versione 10.0.11.
-> - Il supporto per l'utilizzo del modulo di selezione sito nei moduli di intestazione è disponibile in Dynamics 365 Commerce versione 10.0.14.
-> - Il supporto per l'utilizzo del modulo di selezione punto vendita nei moduli di intestazione è disponibile in Dynamics 365 Commerce versione 10.0.15.
+> - Il supporto per l'utilizzo del modulo dell'icona del carrello nei moduli di intestazione è disponibile a partire da Dynamics 365 Commerce, versione 10.0.11.
+> - Il supporto per l'utilizzo del modulo di selezione sito nei moduli di intestazione è disponibile a partire da Dynamics 365 Commerce, versione 10.0.14.
+> - Il supporto per l'utilizzo del modulo di selezione del punto vendita nei moduli di intestazione è disponibile a partire da Dynamics 365 Commerce, versione 10.0.15.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Modulo di intestazione nel tema Adventure Works
+
+Nel tema Adventure Works il modulo di intestazione supporta la proprietà **Logo mobile**. Questa proprietà consente di specificare un logo per i riquadri di visualizzazione dei dispositivi mobili. La proprietà **Logo mobile** è disponibile come estensione della definizione del modulo.
+
+> [!IMPORTANT]
+> Il tema Adventure Works è disponibile a partire dalla versione Dynamics 365 Commerce 10.0.20.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Creare un frammento Intestazione per una pagina
 
@@ -119,3 +121,6 @@ Per assicurare che un'intestazione sia visualizzata in ogni pagina, effettuare l
 [Modulo di selezione sito](site-selector.md)
 
 [Memorizzare il modulo di selezione](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

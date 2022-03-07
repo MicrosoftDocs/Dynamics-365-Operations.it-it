@@ -1,12 +1,10 @@
 ---
 title: Aggiornamento manuale dei contatori di cespiti
 description: In questo argomento viene descritto l'aggiornamento manuale dei contatori di cespiti in Gestione cespiti
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 74d840cbb064018560a6abc2823f520c2f3179ac42b149c0507c9421a4e73391
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020887"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776436"
 ---
 # <a name="manual-update-of-asset-counters"></a>Aggiornamento manuale dei contatori di cespiti
 
@@ -56,10 +54,13 @@ Notare i punti seguenti:
 
 Nella figura seguente è illustrato un esempio della pagina **Contatori cespiti**.
 
-![Figura 1](media/11-work-orders.png)
+![Figura 1.](media/11-work-orders.png)
 
 Nella pagina **Contatori cespiti** (**Gestione cespiti** > **Richieste di informazioni** > **Cespiti** > **Contatori cespiti**), è possibile eseguire le registrazioni in più cespiti contemporaneamente, secondo le necessità.
 
 >[!NOTE]
 >È possibile impostare un intervallo per definire gli scostamenti rispetto alle registrazioni manuali. È inoltre possibile specificare il tipo di messaggio che verrà visualizzato se le registrazioni non rientrano nell'intervallo definito. Per ulteriori informazioni su come impostare i contatori, vedere [Contatori](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

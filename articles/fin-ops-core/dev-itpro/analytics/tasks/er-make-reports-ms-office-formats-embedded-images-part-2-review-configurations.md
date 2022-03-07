@@ -1,12 +1,11 @@
 ---
 title: Esaminare le configurazioni per generare report in formato di Office con immagini incorporate
-description: 'Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività "ER Creare report in formati di MS Office con immagini incluse (Parte 1: Generare i report)".'
+description: Questo argomento descrive come progettare le configurazioni di creazione di report per generare documenti elettronici che contengono immagini incorporate. (Parte 1 - Impostare i parametri).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6aa5c4d45f9139c65f3aaf1ae392829e3e4967df
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684357"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569439"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Esaminare le configurazioni per generare report in formato di Office con immagini incorporate
 
@@ -36,7 +35,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 1. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
 2. Nella struttura selezionare "Model for cheques".
 3. Fare clic su Progettazione.
-    * Questo modello è progettato per rappresentare gli assegni di pagamento da un punto di vista aziendale e il mapping del modello alle origini dati dell'applicazione. Far esaminare il modello dal progettista delle operazioni ER. Si notino gli attributi degli elementi del modello presentati, ovvero struttura, nome, descrizione, tipo di dati e così via.   
+    * Questo modello è progettato per rappresentare gli assegni di pagamento da un punto di vista aziendale e il mapping del modello alle origini dati dell'applicazione. Far esaminare il modello dal progettista delle operazioni ER. Si notino gli attributi degli elementi del modello presentati, ovvero struttura, nome, Descrizione, tipo di dati e così via.   
 4. Nella struttura espandere "root".
 5. Nella struttura selezionare "root\cheques".
 6. Nella struttura espandere "root\cheques".
@@ -91,3 +90,6 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
     * Alcune etichette presentate nel modulo dell'assegno prestampato verranno incluse nel report quando è creato a scopo di verifica. Tuttavia, le etichette non verranno stampate durante la stampa effettiva in quanto il modulo prestampato le include già.  
 15. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

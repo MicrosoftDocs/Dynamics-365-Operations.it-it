@@ -1,30 +1,32 @@
 ---
 title: Ottimizzare le prestazioni con attività di pulizia automatica
-description: In questo articolo viene spiegato come risolvere alcuni problemi di prestazioni con Microsoft Dynamics 365 Human Resources tramite la pulizia della cronologia dei processi batch.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Questo argomento spiega come migliorare le prestazioni in Microsoft Dynamics 365 Human Resources pulendo la cronologia dei lavori batch.
+author: twheeloc
+ms.date: 08/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a983fde8ba393ab25f2b330014e04a1379f0e4d0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a293b128364b8b0b293da03495d55e46f6b01fd6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419144"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066095"
 ---
-# <a name="optimize-performance-with-auto-cleanup-tasks"></a>Ottimizzare le prestazioni con le attività di pulizia automatiche
+# <a name="optimize-performance-with-auto-cleanup-tasks"></a>Ottimizzare le prestazioni con attività di pulizia automatica
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Problema**
 
@@ -42,25 +44,28 @@ Pianificare un'attività automatica per ripulire la cronologia dei processi batc
 
 2. Nella barra **Ricerca**, immettere **Pulizia storico processi batch**.
 
-   ![Cercare Pulizia storico processi batch](media/talent-batch-history-cleanup-search-bar.png)
+   ![Cercare Pulizia storico processi batch.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. In **Limite cronologico (giorni)**, immettere **30**.
 
-   ![Impostare il limite cronologico su 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![Impostare il limite cronologico su 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Selezionare **Esecuzione in background** e quindi selezionare **Ricorrenza**.
 
-   ![Impostare la ricorrenza](media/talent-batch-history-cleanup-recurrence.png)
+   ![Impostare la ricorrenza.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. In **Definisci ricorrenza**, impostare la **Data di inizio** e **Ora di inizio** in modo che si verificano durante le ore non lavorative o nel fine settimana, quindi selezionare **Nessuna data di fine**. 
 
-   ![Definire la data e l'ora di inizio della ricorrenza](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definire la data e l'ora di inizio della ricorrenza.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. In **Criterio di ricorrenza**, selezionare **Giorni** e impostare **Ripeti dopo l'intervallo specificato** su **7**.
 
-   ![Impostare la pulizia con frequenza settimanale](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Impostare la pulizia con frequenza settimanale.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Selezionare **OK**.
 
 8. Apportare le modifiche necessarie a tutti gli altri parametri in **Esegui in background** e selezionare **OK**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

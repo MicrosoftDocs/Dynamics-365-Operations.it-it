@@ -2,27 +2,24 @@
 title: Gestione dei prezzi di vendita al dettaglio in Retail
 description: Questo argomento descrive i concetti di creazione e gestione dei prezzi di vendita in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 07/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759287"
 ---
 # <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
 
@@ -43,21 +40,21 @@ In questo argomento vengono utilizzati i seguenti termini:
 
 ## <a name="price-groups"></a>Gruppi prezzi
 
-I gruppi di prezzi sono al centro della gestione dei prezzi e degli sconti in Commerce. I gruppi di prezzi vengono utilizzati per assegnare prezzi e sconti a entità commerciali (ovvero canali, cataloghi, affiliazioni e programmi fedeltà). Poiché i gruppi di prezzi vengono utilizzati per tutti i prezzi e gli sconti, è molto importante pianificare in che modo si prevede di utilizzarli prima di iniziare.
+I gruppi di prezzi sono al centro della gestione dei prezzi e degli sconti in Commerce. I gruppi di prezzi vengono utilizzati per assegnare prezzi e sconti a entità di Commerce (ovvero canali, cataloghi, affiliazioni e programmi fedeltà). Poiché i gruppi di prezzi vengono utilizzati per tutti i prezzi e gli sconti, è molto importante pianificare in che modo si prevede di utilizzarli prima di iniziare.
 
-Di per sé, un gruppo di prezzi è solo un nome, una descrizione e, facoltativamente, una priorità di determinazione prezzo. L'aspetto principale da ricordare sui gruppi di prezzi è che sono utilizzati per gestire le relazioni molti-a-molti che sconti e prezzi hanno con le entità commerciali.
+Di per sé, un gruppo di prezzi è solo un nome, una descrizione e, facoltativamente, una priorità di determinazione prezzo. L'aspetto principale da ricordare sui gruppi di prezzi è che sono utilizzati per gestire le relazioni molti-a-molti che sconti e prezzi hanno con le entità di Commerce.
 
-La seguente illustrazione mostra come vengono utilizzati i gruppi di prezzi. In questa illustrazione, si noti che "Gruppo di prezzi" è letteralmente al centro della gestione dei prezzi e degli sconti. Le entità commerciali che è possibile utilizzare per gestire prezzi e sconti differenziali si trovano sulla sinistra e i record di prezzo e sconto effettivi sono sulla destra.
+La seguente illustrazione mostra come vengono utilizzati i gruppi di prezzi. In questa illustrazione, si noti che "Gruppo di prezzi" è letteralmente al centro della gestione dei prezzi e degli sconti. Le entità di Commerce che è possibile utilizzare per gestire prezzi e sconti differenziali si trovano sulla sinistra e i record di prezzo e sconto effettivi sono sulla destra.
 
-![Gruppi di prezzi](./media/PriceGroups.png "Gruppi di prezzi")
+![Gruppi di prezzi.](./media/PriceGroups.png "Gruppi di prezzi")
 
-Quando si creano gruppi di prezzi, evitare utilizzare un singolo gruppo di prezzi per più tipi di entità commerciali. In caso contrario, può essere difficile determinare il motivo per cui un prezzo o uno sconto specifico viene applicato a una transazione.
+Quando si creano gruppi di prezzi, evitare utilizzare un singolo gruppo di prezzi per più tipi di entità di Commerce. In caso contrario, può essere difficile determinare il motivo per cui un prezzo o uno sconto specifico viene applicato a una transazione.
 
 Come mostra la linea tratteggiata rossa nell'illustrazione, Commerce supporta la funzionalità principale di Microsoft Dynamics 365 di un gruppo di prezzi che viene impostato direttamente su un cliente. Tuttavia, in questo caso, si ottengono solo accordi commerciali sui prezzi di vendita. Se si desidera applicare prezzi specifici del cliente, si consiglia di non impostare i gruppi di prezzi direttamente sul cliente. Utilizzare invece le affiliazioni. 
 
 Da notare che se il gruppo di prezzi è impostato sul cliente, questo gruppo di prezzi viene associato all'intestazione di ordine di vendita degli ordini creati per questo cliente. Se l'utente modifica il gruppo di prezzi nell'intestazione dell'ordine, il vecchio gruppo di prezzi viene sostituito con quello nuovo solo per l'ordine corrente. Ad esempio, il vecchio gruppo di prezzi non influirà sull'ordine corrente, ma rimarrà associato al cliente per ordini futuri.
 
-Nelle sezioni seguenti vengono fornite ulteriori informazioni sulle entità commerciali che è possibile utilizzare per impostare prezzi distinti quando vengono utilizzati i gruppi di prezzi. La configurazione dei prezzi e degli sconti per tutte queste entità è un processo in due fasi. Questi passaggi possono essere eseguiti in qualsiasi ordine. Tuttavia, l'ordine logico è di impostare prima i gruppi di prezzi sulle entità, poiché è probabile che questo passaggio sia una configurazione unica eseguita durante l'implementazione. Quindi, quando vengono creati i prezzi e gli sconti, è possibile impostare i gruppi di prezzi su tali prezzi e sconti singolarmente.
+Nelle sezioni seguenti vengono fornite ulteriori informazioni sulle entità di Commerce che è possibile utilizzare per impostare prezzi distinti quando vengono utilizzati i gruppi di prezzi. La configurazione dei prezzi e degli sconti per tutte queste entità è un processo in due fasi. Questi passaggi possono essere eseguiti in qualsiasi ordine. Tuttavia, l'ordine logico è di impostare prima i gruppi di prezzi sulle entità, poiché è probabile che questo passaggio sia una configurazione unica eseguita durante l'implementazione. Quindi, quando vengono creati i prezzi e gli sconti, è possibile impostare i gruppi di prezzi su tali prezzi e sconti singolarmente.
 
 ### <a name="channels"></a>Canali
 
@@ -217,26 +214,30 @@ Quando si impostano i prezzi di vendita in Dynamics 365, non si specifica se il 
 
 Se si utilizzano sia tipi di prezzi comprensivi di imposte che non comprensivi di imposte, è molto importante configurare i prezzi correttamente, poiché l'importo totale che il cliente paga cambierà se il campo **Prezzo comprensivo di IVA** del canale è stato modificato.
 
-## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Differenze tra i prezzi di vendita al dettaglio e i prezzi non al dettaglio
+## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Differenze tra i prezzi di Commerce e i prezzi non di Commerce
 
-Un unico motore di determinazione del prezzo viene utilizzato per calcolare i prezzi in tutti i canali: Servizio clienti, Punto vendita al dettaglio e Punto vendita online. In questo modo è possibile consentire scenari commerciali unificati.
+Un unico motore di determinazione dei prezzi è utilizzato per calcolare i prezzi in tutti i canali: servizio clienti, punto vendita al dettaglio e punti vendita online. Ciò consente scenari unificati di Commerce.
 
-La determinazione dei prezzi è progettata per funzionare con entità di vendita al dettaglio anziché con entità di vendita non al dettaglio. In particolare, è progettata per impostare i prezzi per punto vendita, non per magazzino.
+La determinazione dei prezzi è progettata per funzionare con entità di Commerce anziché entità non di Commerce. In particolare, è progettata per impostare i prezzi per punto vendita, non per magazzino.
 
-Il motore di determinazione del prezzo **non supporta** le seguenti funzionalità dei prezzi:
+Il motore di determinazione dei prezzi di Commerce **non supporta** le seguenti funzionalità di determinazione dei prezzi:
 
 - L'impostazione dei prezzi in base alle dimensioni di immagazzinamento del sito o del sito e del magazzino non è supportata. Se si specifica solo la dimensione del sito negli accordi commerciali, il motore dei prezzi ignora il sito e applica l'accordo commerciale a tutti i siti. Se si specificano sia il sito sia il magazzino, il comportamento è indefinito/non testato perché è previsto che i rivenditori utilizzino i gruppi di prezzi del negozio per controllare i prezzi per ciascun negozio/magazzino.
 - I prezzi basati sugli attributi non sono supportati.
 - Il pass-through dello sconto fornitore non è supportato.
+- La funzionalità Valuta generica non è supportata, ad esempio anche se per un accordo commerciale **Includi valuta generica** è attivato, questo accordo commerciale sarà comunque considerato valido solo per la valuta definita nell'accordo commerciale.
 - Il motore di determinazione dei prezzi standard di Supply Chain Management supporta il calcolo dei prezzi in base alla "Data di spedizione richiesta" e alla "Data di ricevimento richiesta" insieme alla data corrente. Tuttavia, i prezzi al dettaglio attualmente non supportano questi valori. Il motivo è che per gli scenari B2C i clienti non si aspettano che la data di consegna richiesta influisca sul prezzo dell'articolo. In alcuni casi, i rivenditori hanno entrambe le operazioni B2B e B2C. Per le operazioni B2B è comune modificare i prezzi in base alle date di consegna. Questi rivenditori possono utilizzare i prezzi di Supply Chain Management per le operazioni B2B e i prezzi di vendita al dettaglio per le operazioni B2C. I prezzi di vendita al dettaglio sono utilizzati solo se l'utente dell'applicazione viene aggiunto come utente di servizio clienti, quindi i rivenditori possono assegnare determinati utenti che utilizzeranno i prezzi di Supply Chain Management e assegnarne alcuni che utilizzeranno i prezzi di vendita al dettaglio, ovvero questi utenti devono essere aggiunti come utenti di servizio clienti. Inoltre, la proprietà **Usa data odierna per calcolare i prezzi** nella sezione **Parametri di commercio > Prezzi e sconti > Varie** deve essere attivata. In questo modo possono continuare a utilizzare il valore del parametro di contabilità clienti di Data di spedizione richiesta o Data di ricezione richiesta per i prezzi di Supply Chain Management, ma i prezzi al dettaglio continueranno a utilizzare la data odierna per il calcolo dei prezzi.
 
-Inoltre, **solo** il motore di determinazione del prezzo supporta le seguenti funzionalità dei prezzi:
+Inoltre, **solo** il motore di determinazione dei prezzi di Commerce supporta le seguenti funzionalità di determinazione dei prezzi:
 
-- Il prezzo si basa sulle dimensioni prodotto, in ordine dal prezzo variante più specifico al prezzo variante meno specifico alla rappresentazione generale prodotto. Un prezzo impostato utilizzando due dimensioni prodotto (ad esempio Colore e Dimensione) viene utilizzato prima di un prezzo impostato utilizzando una sola dimensione prodotto (ad esempio, Dimensione).
+- Il prezzo si basa sulle dimensioni prodotto, in ordine dal prezzo variante più specifico al prezzo variante meno specifico alla rappresentazione generale prodotto. Un prezzo impostato utilizzando due dimensioni prodotto (ad esempio colore e taglia) viene utilizzato prima di un prezzo impostato utilizzando una sola dimensione prodotto (ad esempio, taglia).
 - Lo stesso gruppo di prezzi può essere utilizzato per controllare i prezzi e gli sconti.
 
 ## <a name="pricing-api-enhancements"></a>Miglioramenti dell'API sui prezzi
 
 Il prezzo è uno dei fattori più importanti che governano le decisioni di acquisto di molti clienti e la maggior parte di questi confronta i prezzi in vari siti prima di effettuare un acquisto. Per avere la certezza di fornire prezzi concorrenziali, i rivenditori vigilano sui loro concorrenti e spesso eseguono promozioni. Per consentire ai rivenditori di attirare clienti, è molto importante che la ricerca dei prodotti, la funzionalità di esplorazione, gli elenchi e la pagina dei dettagli visualizzino i prezzi più accurati.
 
-In una versione imminente di Commerce, l'API (Application Programming Interface) **GetActivePrices** restituirà i prezzi che includono sconti semplici (ad esempio sconti a riga singola che non dipendono da altri articoli nel carrello). In questo modo, i prezzi visualizzati sono prossimi all'importo effettivo che i clienti pagheranno per gli articoli. Questa API includerà tutti i tipi di sconti semplici: sconti in base all'affiliazione, alla fedeltà, al catalogo e al canale. Inoltre, l'API restituirà i nomi e le informazioni di validità per gli sconti applicati, di modo che i rivenditori possano fornire una descrizione più dettagliata del prezzo e creare un senso di urgenza se la validità dello sconto scade ben presto.
+L'API **GetActivePrices** in Commerce restituisce i prezzi che includono sconti semplici (ad esempio sconti a riga singola che non dipendono da altri articoli nel carrello). In questo modo, i prezzi visualizzati sono prossimi all'importo effettivo che i clienti pagheranno per gli articoli. Questa API include tutti i tipi di sconti semplici: sconti in base all'affiliazione, alla fedeltà, al catalogo e al canale. Inoltre, l'API restituisce i nomi e le informazioni di validità per gli sconti applicati, di modo che i rivenditori possano fornire una descrizione più dettagliata del prezzo e creare un senso di urgenza se la validità dello sconto scade ben presto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

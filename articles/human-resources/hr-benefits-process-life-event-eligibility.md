@@ -1,33 +1,35 @@
 ---
-title: Elaborare l'idoneità a eventi reali
-description: In questo articolo viene illustrato come eseguire l'elaborazione dell'idoneità a eventi reali.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Elaborare l'idoneità degli eventi reali
+description: Questo argomento spiega come elaborare l'ammissibilità degli eventi della vita.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3086718ed8dc0a8da988eb2d4cd07a2fff38e52c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419146"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065895"
 ---
-# <a name="process-life-event-eligibility"></a>Elaborare l'idoneità a eventi reali
+# <a name="process-life-event-eligibility"></a>Elaborare l'idoneità degli eventi reali
 
-In questo articolo viene illustrato come eseguire l'elaborazione dell'idoneità a eventi reali.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Questo argomento spiega come procedere per l'idoneità agli eventi della vita.
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Elaborazione idoneità a eventi reali**.
 
@@ -48,3 +50,6 @@ In questo articolo viene illustrato come eseguire l'elaborazione dell'idoneità 
    4. Selezionare **OK**. l'elaborazione verrà eseguita con i parametri impostati.
 
 4. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

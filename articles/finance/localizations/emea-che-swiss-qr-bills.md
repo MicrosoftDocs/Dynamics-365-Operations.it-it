@@ -2,26 +2,23 @@
 title: Fatture QR per la Svizzera
 description: Questo argomento fornisce informazioni su come generare fatture QR (QR-slip) ed elaborare fatture QR in entrata.
 author: neserovleo
-manager: AnnBe
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1c58aa35dacb719eeef3a9b8d5f4904beefc73a0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ad0a72a6d57872a7f96007fc8a486b9b62e2f67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408095"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839888"
 ---
 # <a name="swiss-qr-bills"></a>Fatture QR per la Svizzera
 
@@ -166,3 +163,6 @@ Creare le righe di registrazione pagamenti fornitore utilizzando la funzionalit√
 Per i pagamenti correlati alle fatture QR, il file di bonifico viene generato in base al valore dell'ID pagamento. Questo valore viene recuperato dal codice QR.
 
 √à possibile importare i file pain.002 e i file camt.054 dalla pagina **Trasferimenti di pagamento**. Per ulteriori informazioni, vedere [Importare file ISO20022](emea-iso20022-file-formats.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

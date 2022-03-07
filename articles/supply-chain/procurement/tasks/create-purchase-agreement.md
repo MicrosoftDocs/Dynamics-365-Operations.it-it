@@ -1,26 +1,24 @@
 ---
 title: Creare un contratto di acquisto
 description: In questo argomento viene descritta la creazione di un contratto di acquisto
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, AgreementConfirmRunForm, PurchAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92c9b429a05a2c25672cc14a0c9ee7adfef42631
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee2cf437446f2e4c2cdd3cc0cd3be863bbafa132
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016833"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565449"
 ---
 # <a name="create-a-purchase-agreement"></a>Creare un contratto di acquisto
 
@@ -71,3 +69,6 @@ In questo argomento viene descritta la creazione di un contratto di acquisto e v
 5. Selezionare **Conferme contratto di acquisto**. L'opzione **Anteprima/Stampa** consente di generare un documento per il contratto di acquisto che successivamente è possibile stampare o inviare al fornitore. Se in seguito si aggiorna il contratto e lo si riconferma, entrambe le versioni verranno visualizzate in questo punto.  
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

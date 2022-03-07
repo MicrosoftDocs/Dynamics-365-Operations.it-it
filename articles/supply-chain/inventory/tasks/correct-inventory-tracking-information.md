@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventBatchIdLookup, InventLocationIdLookup, InventDimTracking, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a8a488d4c30923445b3ebc2626a79b8fa45012c7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 76e73f10df5bb520b6d0d787eda08053a5e33c81
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431416"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223412"
 ---
 # <a name="correct-inventory-tracking-information"></a>Correggere le informazioni di tracciabilità di magazzino
 
@@ -64,3 +63,6 @@ In questa procedura vengono descritti i passaggi per creare e registrare un gior
 2. Fare clic su Transazioni.
     * È possibile visualizzare le transazioni create quando è stato registrato il giornale di registrazione.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

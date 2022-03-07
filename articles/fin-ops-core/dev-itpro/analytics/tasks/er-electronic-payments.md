@@ -1,12 +1,11 @@
 ---
 title: ER genera documenti elettronici per i pagamenti utilizzando una configurazione di formato
-description: I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può utilizzare una nuova configurazione del formato per la creazione di report elettronici (ER) per generare documenti elettronici per l'elaborazione dei pagamenti.
+description: Questo argomento descrive come utilizzare una nuova configurazione di formato di report elettronico per generare documenti elettronici per l'elaborazione dei pagamenti.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6dd39b3faba90b38b837cd5167b216f9faa31d82
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681735"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570218"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER genera documenti elettronici per i pagamenti utilizzando una configurazione di formato
 
@@ -81,3 +80,6 @@ Per completare questi passaggi, è necessario prima completare i passaggi della 
 25. Fare clic su OK.
     * Analizzare il file di pagamento creato in formato XML. Confrontarlo con il layout del documento progettato e gli attributi di transazione del pagamento definiti.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

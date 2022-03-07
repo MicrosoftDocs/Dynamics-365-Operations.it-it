@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 3a8d4c57ca6b1fee5f4eb1414bfb503470b5e570
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348094"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Differire l'esecuzione di elementi di sequenza in formati ER
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323692"
 
 ## <a name="overview"></a>Panoramica
 
-È possibile utilizzare Designer operazioni del framework di [Creazione di report elettronici (ER)](general-electronic-reporting.md) per [configurare](tasks/er-format-configuration-2016-11.md) il componente di formato di una soluzione ER utilizzata per generare documenti in uscita in un formato testo. La struttura gerarchica del componente di formato configurato è costituita da elementi di formato di vari tipi. Questi elementi di formato vengono utilizzati per riempire i documenti generati con le informazioni necessarie in fase di esecuzione. Per impostazione predefinita, quando si esegue un formato ER, gli elementi del formato vengono eseguiti nello stesso ordine in cui sono presentati nella gerarchia dei formati: uno per uno, dall'alto verso il basso. Tuttavia, in fase di progettazione, è possibile modificare l'ordine di esecuzione di qualsiasi elemento di sequenza del componente di formato configurato.
+È possibile utilizzare Designer operazioni del framework di [creazione di report elettronici (ER)](general-electronic-reporting.md)per [configurare](tasks/er-format-configuration-2016-11.md) il [componente di formato](general-electronic-reporting.md#FormatComponentOutbound) di una soluzione ER utilizzata per generare documenti in uscita in un formato testo. La struttura gerarchica del componente di formato configurato è costituita da elementi di formato di vari tipi. Questi elementi di formato vengono utilizzati per riempire i documenti generati con le informazioni necessarie in fase di esecuzione. Per impostazione predefinita, quando si esegue un formato ER, gli elementi del formato vengono eseguiti nello stesso ordine in cui sono presentati nella gerarchia dei formati: uno per uno, dall'alto verso il basso. Tuttavia, in fase di progettazione, è possibile modificare l'ordine di esecuzione di qualsiasi elemento di sequenza del componente di formato configurato.
 
 Attivando l'opzione <a name="DeferredSequenceExecution"></a>**Esecuzione differita** per un elemento di formato sequenza nel formato configurato, è possibile differire (posticipare) l'esecuzione di quell'elemento. In questo caso, l'elemento non viene eseguito finché non vengono eseguiti tutti gli altri elementi dell'elemento padre.
 

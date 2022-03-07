@@ -1,12 +1,10 @@
 ---
 title: Organizzare i componenti del report in Progettazione report
-description: Dopo aver progettato i blocchi predefiniti e generato i report, è utile organizzare questi oggetti in modo che gli utenti possano individuarli più facilmente. In questo articolo viene spiegato come organizzare i report, i blocchi predefiniti e gli oggetti esistenti in Progettazione report.
+description: In questo argomento viene spiegato come organizzare i report, i blocchi predefiniti e gli oggetti esistenti in Progettazione report.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763526"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizzare i componenti del report in Progettazione report
 
@@ -49,7 +47,7 @@ In Progettazione report è possibile rinominare cartelle, definizioni di report,
 ### <a name="create-a-report-group"></a>Creare un gruppo di report.
 
 1. In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
-2. Nel menu **File**, fare clic su **Nuovo** &gt; **Definizione gruppo di report** per aprire un nuovo gruppo di report nella finestra del visualizzatore. In alternativa, fare clic sul pulsante **Gruppo di report** ![Gruppo di report](media/report-group.gif "Gruppo di report") sulla barra degli strumenti.
+2. Nel menu **File**, fare clic su **Nuovo** &gt; **Definizione gruppo di report** per aprire un nuovo gruppo di report nella finestra del visualizzatore. In alternativa, fare clic sul pulsante **Gruppo di report** ![Gruppo di report.](media/report-group.gif "Gruppo di report") sulla barra degli strumenti.
 3. Fare clic sulla scheda **Gruppo di report**. Per ignorare le informazioni sulle singole definizioni di report per la generazione di questo report, selezionare la casella di controllo **Ignora impostazioni società, dettagli e data dalle singole definizioni di report**. Il nome della società, il livello di dettaglio, l'impostazione provvisoria e le informazioni sulla data vengono immessi automaticamente ma è comunque possibile effettuare aggiornamenti.
 4. Selezionare la casella di controllo **Includi tutte le valute di dichiarazione** per generare più report che mostrano tali valute. È quindi possibile accedere a più visualizzazioni facendo clic sul pulsante **Valuta** nel Visualizzatore Web quando si visualizza il report.
 5. Nel campo **Report nel gruppo**, fare clic su **Aggiungi** per selezionare i report da includere nel gruppo di report. Per selezionare più report nella finestra di dialogo **Aggiungi**, tenere premuto il tasto Ctrl mentre si seleziono i report. Una volta terminata la selezione dei report, fare clic su **OK**.
@@ -60,7 +58,7 @@ In Progettazione report è possibile rinominare cartelle, definizioni di report,
 1. In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
 2. Fare doppio clic sul gruppo di report da modificare.
 3. Nella scheda **Gruppo di report** apportare le modifiche desiderate.
-4. Nel menu **File** fare clic su **Salva** per salvare il gruppo di report modificato. In alternativa, fare clic sul pulsante **Salva** ![Salva](media/save.gif "Salva") sulla barra degli strumenti.
+4. Nel menu **File** fare clic su **Salva** per salvare il gruppo di report modificato. In alternativa, fare clic sul pulsante **Salva** ![Salva.](media/save.gif "Salva") sulla barra degli strumenti.
 
 > [NOTA] Se è stata pianificata la generazione di report a intervalli stabiliti, è possibile ignorare tali impostazioni e generare un report immediatamente.
 
@@ -68,7 +66,7 @@ In Progettazione report è possibile rinominare cartelle, definizioni di report,
 
 1. In Progettazione report, nel pannello di navigazione, fare clic su **Gruppi di report**.
 2. Aprire il gruppo di report da generare.
-3. Fare clic sul pulsante **Genera report** ![Genera report](media/generate-report.gif "Genera report") per generare i report.
+3. Fare clic sul pulsante **Genera report** ![Genera report.](media/generate-report.gif "Genera report") per generare report.
 
 ### <a name="delete-a-report-group"></a>Eliminare un gruppo di report
 
@@ -148,3 +146,6 @@ Solo le impostazioni del periodo di base predefinito vengono salvate con la defi
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creazione di report finanziari](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,30 +1,27 @@
 ---
 title: Cicli di lavorazione e operazioni
 description: In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni.
-author: sorenva
-manager: tfehr
+author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
-ms.author: sorenand
+ms.author: johanho
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430959"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891955"
 ---
 # <a name="routes-and-operations"></a>Cicli di lavorazione e operazioni
 
@@ -32,8 +29,7 @@ ms.locfileid: "4430959"
 
 In questo argomento sono riportate informazioni su cicli di lavorazione e operazioni. Un ciclo di lavorazione definisce il processo per la produzione di un prodotto o della variante prodotto. Viene descritto ogni passaggio (operazione) del processo di produzione insieme all'ordine in cui queste operazioni devono essere eseguite. Per ciascun passaggio, il ciclo di lavorazione definisce inoltre le risorse operative richieste, il tempo di attrezzaggio necessario e il tempo di esecuzione e il modo in cui il costo deve essere calcolato.
 
-<a name="overview"></a>Panoramica
---------
+## <a name="overview"></a>Panoramica
 
 Un ciclo di lavorazione descrive l'ordine delle operazioni necessarie per la produzione di un prodotto o una variante prodotto. Per ciascuna operazione, il ciclo di lavorazione inoltre definisce le risorse operative richieste, il tempo di attrezzaggio ed esecuzione necessario per l'operazione e il modo in cui il costo deve essere calcolato. È possibile utilizzare lo stesso ciclo di lavorazione per produrre i più prodotti oppure definire un ciclo di lavorazione univoco per ogni variante prodotto o prodotto. È inoltre possibile avere più cicli di lavorazione per lo stesso prodotto. In questo caso, il ciclo di lavorazione utilizzato varia, in base ai fattori quali la quantità che deve essere prodotta. La definizione di un ciclo di lavorazione in Supply Chain Management è costituito da quattro diversi elementi che, insieme, descrivono il processo di produzione:
 
@@ -49,7 +45,7 @@ Un ciclo di lavorazione descrive l'ordine delle operazioni utilizzate per la pro
 
 Un ciclo di lavorazione semplice è sequenziale ed è disponibile un solo punto di partenza per il ciclo di lavorazione.  
 
-[![Ciclo di lavorazione semplice](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Ciclo di lavorazione semplice.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Se si attiva solo i cicli di lavorazione semplici nei parametri di controllo produzione, Supply Chain Management genera automaticamente i numeri delle operazioni (10, 20, 30 e così via) quando si definisce il ciclo di lavorazione.
 
@@ -57,7 +53,7 @@ Se si attiva solo i cicli di lavorazione semplici nei parametri di controllo pro
 
 Se si consentono reti più complesse del ciclo di lavorazione nei parametri di controllo produzione, è possibile definire cicli di lavorazione con più punti di origine e più operazioni che possono essere eseguite in parallelo.  
 
-[![Rete di cicli di lavorazione](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rete di cicli di lavorazione.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Ciascuna operazione può avere una sola operazione successiva e l'intero ciclo di lavorazione deve terminare con una sola operazione.
@@ -68,7 +64,7 @@ Se si consentono reti più complesse del ciclo di lavorazione nei parametri di c
 
 Talvolta, una combinazione di più risorse operative che hanno caratteristiche diverse sono necessarie per eseguire un'operazione. Ad esempio, un'operazione di assemblaggio potrebbe richiedere una macchina, uno strumento e un lavoratore per ogni due macchine per la supervisione dell'operazione. Questo esempio può essere modellizzato utilizzando le operazioni parallele, in cui un'operazione è indicata come l'operazione primaria e le altre sono secondarie.  
 
-[![Ciclo di lavorazione con operazioni primarie e secondarie](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Ciclo di lavorazione con operazioni primarie e secondarie.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 In genere, l'operazione primaria rappresenta la risorsa collo di bottiglia e detta il tempo di esecuzione per le operazioni secondarie. Tuttavia, durante la programmazione che prevede la capacità limitata, le risorse che sono programmate per l'operazione primaria e le operazioni secondarie devono essere disponibili e avere allo stesso tempo capacità libera.  
 
@@ -82,12 +78,12 @@ Prima che un ciclo di lavorazione possa essere utilizzato nella pianificazione o
 
 Ogni ciclo di lavorazione può essere approvato o non approvato separatamente. Tuttavia, se un ciclo di lavorazione non è approvato, anche tutte le versioni del ciclo di lavorazione correlate non sono approvate. Nei parametri di controllo produzione, è possibile specificare se i cicli di lavorazione possono essere non approvati e se i cicli di lavorazione approvati possono essere modificati.  
 
-Se è necessario tenere un registro per registrare chi approva ciascun ciclo di lavorazione è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando una [firma elettronica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Se è necessario tenere un registro per registrare chi approva ciascun ciclo di lavorazione è possibile richiedere firme elettroniche per l'approvazione di un ciclo di lavorazione. Gli utenti dovranno quindi confermare la propria identità utilizzando una [firma elettronica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Un'operazione costituisce un passaggio del processo di produzione. Ciascuna operazione ha un ID e una descrizione semplice. Nelle tabelle seguenti sono indicati gli esempi comuni delle operazioni di un'officina meccanica.
 
-| Operazione  | descrizione        |
+| Operazione  | Descrizione        |
 |------------|--------------------|
 | PipeCut    | Taglio tubi       |
 | TIGweld    | Saldatura TIG        |
@@ -188,7 +184,7 @@ Se si attiva una versione del ciclo di lavorazione, si designa tale versione com
 
 ### <a name="electronic-signatures"></a>Firme elettroniche
 
-Se è necessario tenere un registro per registrare chi approva e attiva ciascuna versione del ciclo di lavorazione è possibile richiedere firme elettroniche per queste attività. Gli utenti che approvano e attivano le versioni del ciclo di lavorazione dovranno quindi confermare la propria identità utilizzando una [firma elettronica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Se è necessario tenere un registro per registrare chi approva e attiva ciascuna versione del ciclo di lavorazione è possibile richiedere firme elettroniche per queste attività. Gli utenti che approvano e attivano le versioni del ciclo di lavorazione dovranno quindi confermare la propria identità utilizzando una [firma elettronica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Modifica dei prodotti con gestione dei casi
 
@@ -227,7 +223,7 @@ Quando si utilizza questo metodo, la pagina **Relazioni operative** viene impost
 Se non si specifica una risorsa operativa o un gruppo di risorse come parte dei requisiti risorsa per un'operazione, le risorse applicabili possono funzionare secondo velocità diverse. Come risultato, il tempo necessario per elaborare l'operazione potrebbe variare. Per risolvere questo problema, è possibile utilizzare il campo **Formula** della relazione operativa per specificare come viene calcolato il tempo di elaborazione. Sono disponibili le seguenti opzioni:
 
 - **Standard** – (opzione predefinita) nel calcolo vengono utilizzati solo i campi della relazione operativa e viene moltiplicato il tempo di esecuzione specificato per la quantità dell'ordine.
-- **Capacità** – il calcolo include il campo **Capacità** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa. Il valore specificato per la risorsa operativa è la capacità oraria. Il **Tempo di processo** è calcolato come **Quantità dell'ordine** diviso per **Capacità**.
+- **Capacità** – il calcolo include il campo **Capacità** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa. Il valore specificato per la risorsa operativa è la capacità oraria. Il **Tempo di processo** è calcolato come **Quantità dell'ordine** diviso per **Capacità**. Il valore della capacità non è specifico di una particolare unità di misura e quindi non viene convertito in base al campo **Unità di capacità** che è solo un campo descrittivo che non viene utilizzato nei calcoli.
 - **Batch** – una capacità batch viene calcolata utilizzando le informazioni relative alla relazione operativa. Numero di batch e, di conseguenza, il tempo di elaborazione possono quindi essere calcolati in base alla quantità dell'ordine.
 - **Batch risorsa** – questa opzione è fondamentalmente uguale all'opzione **Batch**. Tuttavia, il calcolo include il campo **Capacità batch** della risorsa operativa. Di conseguenza, il tempo è dipendente dalla risorsa.
 
@@ -256,7 +252,10 @@ Di conseguenza, quando l'opzione Attivazione è selezionata per Sovrapposizione,
 
 - [Capacità risorsa](resource-capabilities.md)
 
-- [Panoramica delle firme elettroniche](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Panoramica delle firme elettroniche](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

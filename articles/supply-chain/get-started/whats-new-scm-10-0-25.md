@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0ce9bc4685542cf691d862c0fec76f3f7b40c6b6
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102998"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087322"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.25 (aprile 2022)
 
@@ -52,9 +52,11 @@ Se desideri attivare o disattivare una di queste funzionalità, devi farlo in [G
 |---|---|---|
 | Gestione articoli e magazzino | (Polonia) Consentire il collegamento di più fatture DAU a una riga ordine fornitore in un singolo DAU | Questa funzionalità consente di suddividere le righe dell'ordine di acquisto e collegarle a un unico documento amministrativo quando tali righe dell'ordine di acquisto sono state registrate per diverse fatture (ad esempio per spedizioni diverse). |
 | Approvvigionamento | Consolida più richieste di acquisto in un singolo ordine fornitore per data contabile | Questa funzionalità consente di consolidare più richieste di acquisto in un unico ordine di acquisto se le diverse richieste di acquisto hanno date contabili diverse. È possibile configurare regole dei criteri di acquisto per la creazione dell'ordine di acquisto e il consolidamento della domanda per automatizzare la decisione di raggruppare le righe della richiesta per data contabile a livello di ordine fornitore. Il consolidamento degli ordini d'acquisto per data contabile non è supportato se il controllo del budget è abilitato perché la data contabile viene utilizzata per le prenotazioni e gli impegni di budget. Pertanto, deve essere conservata durante il passaggio dalla richiesta di acquisto all'ordine fornitore. |
+| Approvvigionamento | Disabilita pulsante Reimposta per distribuzione richiesta di acquisto | Questa funzionalità disabilita il pulsante **Reimposta** nella pagina **Distribuzione contabile** per le richieste di acquisto in fase di revisione. |
 | Approvvigionamento | Visualizza impostazioni predefinite campo di risposta RdO legacy | Questa funzionalità reintroduce le impostazioni del campo di risposta della richiesta di offerta (RdO) predefinita legacy, che erano state precedentemente rimosse dall'interfaccia utente. Queste impostazioni non forniscono alcuna funzionalità predefinita, ma possono essere personalizzate per fornirle secondo necessità. Abilita questa funzione se la tua organizzazione ha già aggiunto funzionalità per le impostazioni del campo di risposta RdO predefinite o se sta pianificando di farlo. Quando questa funzionalità è abilitata, puoi accedere alle impostazioni andando su **Parametri di approvvigionamento**, aprendo la scheda **Richiesta di offerta** e selezionando **Campi di risposta alla richiesta di offerta predefiniti**. |
 | Approvvigionamento | Unisci dimensioni finanziarie del fornitore con la dimensione finanziaria del collegamento dimensione attivo nell'ordine fornitore | Questa funzionalità consente di unire dimensioni finanziarie da fornitori con dimensioni finanziarie con collegamento di dimensione attivo dopo l'approvazione della richiesta di acquisto se hai configurato un collegamento tra una dimensione finanziaria e la dimensione dell'inventario del sito. È possibile impostare le regole dei criteri di acquisto per la creazione dell'ordine d'acquisto e il consolidamento della domanda per guidare la decisione di unire le dimensioni finanziarie dei fornitori con la dimensione finanziaria del collegamento alla dimensione attiva a livello di intestazione dell'ordine d'acquisto. |
 | Controllo produzione | (Russia) Abilita l'impostazione ubicazione predefinita per formula/DBA di produzione e prenotazione/consumo GTD automatico in produzione | La funzionalità abilita opzioni aggiuntive per la produzione da materie prime importate (solo localizzazione russa):<ul><li>Opzione per impostare l'ubicazione predefinita automatica per le formule di produzione e le distinte base sia nei gruppi di risorse che nei magazzini.</li><li>Prenotazione automatica delle materie prime dalla dimensione *Numero GTD* nei magazzini attivati da WMS secondo l'algoritmo di prenotazione non WMS. Questo vale nei casi in cui esiste un criterio di lavoro per *Prelievo materie prime* con **Metodo di creazione del lavoro** impostato su *Mai* e l'impostazione del magazzino, dell'ubicazione e del numero di articolo corrisponde alle transazioni di magazzino dell'ordine di produzione (batch).</li><li>Consumo automatico di materie prime dalla dimensione *Numero GTD* al momento della registrazione della distinta di prelievo, secondo la prenotazione acquisita descritta in precedenza.</li></ul> |
+| Warehouse Management | Disabilitare le ricevute previste dagli ordini di controllo qualità che campionano le scorte bloccate | Questa funzionalità impedisce al sistema di creare transazioni di ricevimento previste per gli ordini di controllo qualità che campionano l'inventario con uno stato di blocco. Poiché l'inventario bloccato non è disponibile, questa funzione rimuove le entrate previste. Questo aiuta a garantire che l'inventario non termini con più stati di blocco, che possono causare problemi di integrità dei dati. |
 | Warehouse Management | (Anteprima) Supporto unità di scala per ordini di magazzino in entrata e in uscita | Questa funzionalità fa sì che il sistema crei ordini di magazzino in uscita durante il processo di rilascio in magazzino e crei ordini di magazzino in entrata quando gli ordini di trasferimento vengono registrati come spediti. Il sistema sincronizza quindi ogni ordine di magazzino in entrata o in uscita con l'unità di scala responsabile della spedizione o della ricezione dell'ordine. Tieni presente che dopo aver abilitato questa funzione, i carichi di lavoro di esecuzione del magazzino devono essere aggiornati. Per ulteriori informazioni, vedere [Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-warehousing.md).<br><br>Questa funzionalità richiede la funzionalità *Scollega lavoro di stoccaggio da ASN* e abilita la possibilità di ricevere ordini di trasferimento utilizzando il processo di ricezione delle targhe sull'app mobile Warehouse Management. |
 
 ## <a name="feature-state-changes-in-this-release"></a>Modifica allo stato della funzionalità in questa versione
@@ -65,121 +67,121 @@ La tabella elenca anche le funzionalità che erano precedentemente in anteprima 
 
 | Modulo | Nome funzionalità | Stato funzionalità |
 | --- | --- | --- |
-| Gestione cespiti | [Applica regole per raggruppare ordini di lavoro durante esecuzione piano di manutenzione](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | Generalmente disponibile |
-| Gestione cespiti | [Gestione basata sul contatore migliorata](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | Generalmente disponibile |
-| Gestione costi | [Livello di calcolo costi](../cost-management/cost-calculation-level.md) | Generalmente disponibile |
+| Gestione cespiti | Applica regole per raggruppare ordini di lavoro durante esecuzione piano di manutenzione | Generalmente disponibile |
+| Gestione cespiti | Gestione basata sul contatore migliorata | Generalmente disponibile |
+| Gestione costi | Livello di calcolo costi | Generalmente disponibile |
 | Gestione costi | Abilita l'impostazione del numero di batch definito dall'utente per lo storno della chiusura dell'inventario | Generalmente disponibile |
-| Gestione costi | [Dettagli avanzamento chiusura inventario](whats-new-scm-10-0-21.md) | Generalmente disponibile |
-| Gestione costi | [Opzioni per l'impostazione predefinita delle dimensioni finanziarie per la rivalutazione del costo standard di inventario](../cost-management/manage-standard-cost-updates.md) | Generalmente disponibile |
+| Gestione costi | Dettagli avanzamento chiusura inventario | Generalmente disponibile |
+| Gestione costi | Opzioni per l'impostazione predefinita delle dimensioni finanziarie per la rivalutazione del costo standard di inventario | Generalmente disponibile |
 | Gestione costi | Pulizia dati report valori di magazzino | In base all'impostazione predefinita |
-| Gestione costi | [Archiviazione report valori di magazzino](../cost-management/inventory-value-report-storage.md) | In base all'impostazione predefinita |
+| Gestione costi | Archiviazione report valori di magazzino | In base all'impostazione predefinita |
 | Gestione costi | Mostra registro chiusura inventario in una griglia | In base all'impostazione predefinita |
-| Gestione modifiche di progettazione | [Abilita gestione modifiche su prodotti esistenti](../engineering-change-management/change-management-existing-products.md) | In base all'impostazione predefinita |
-| Gestione modifiche di progettazione | [Gestione modifiche di progettazione](../engineering-change-management/product-engineering-overview.md) | In base all'impostazione predefinita |
-| Gestione modifiche di progettazione | [Notifiche di progettazione per la produzione](../engineering-change-management/engineering-change-management.md) | In base all'impostazione predefinita |
-| Gestione modifiche di progettazione | [Ereditarietà degli attributi migliorata per la gestione modifiche di progettazione](../engineering-change-management/engineering-attributes-and-search.md) | In base all'impostazione predefinita |
-| Gestione modifiche di progettazione | [Gestisci modifiche a formule e relativi ingredienti](../engineering-change-management/manage-formula-changes.md) | In base all'impostazione predefinita |
-| Gestione modifiche di progettazione | [Controlli di disponibilità prodotto](../engineering-change-management/product-readiness.md) | In base all'impostazione predefinita |
-| Gestione modifiche di progettazione | [Generazione di varianti per prodotti di progettazione](../engineering-change-management/engineering-variants.md) | In base all'impostazione predefinita |
+| Gestione modifiche di progettazione | Abilita gestione modifiche su prodotti esistenti | In base all'impostazione predefinita |
+| Gestione modifiche di progettazione | Gestione modifiche di progettazione | In base all'impostazione predefinita |
+| Gestione modifiche di progettazione | Notifiche di progettazione per la produzione | In base all'impostazione predefinita |
+| Gestione modifiche di progettazione | Ereditarietà degli attributi migliorata per la gestione modifiche di progettazione | In base all'impostazione predefinita |
+| Gestione modifiche di progettazione | Gestisci modifiche a formule e relativi ingredienti | In base all'impostazione predefinita |
+| Gestione modifiche di progettazione | Controlli di disponibilità prodotto | In base all'impostazione predefinita |
+| Gestione modifiche di progettazione | Generazione di varianti per prodotti di progettazione | In base all'impostazione predefinita |
 | Gestione articoli e magazzino | Passaggio alla versione DBA da righe DBA | Obbligatorio |
-| Pianificazione generale | [Stabilizzazione e consolidamento batch per ordini batch in blocco e di imballaggio pianificati](whats-new-scm-10-0-20.md) | Generalmente disponibile |
+| Pianificazione generale | Stabilizzazione e consolidamento batch per ordini batch in blocco e di imballaggio pianificati | Generalmente disponibile |
 | Pianificazione generale | Pianificazione delle risorse con manutenzione | Generalmente disponibile |
 | Pianificazione generale | Abilitare le funzionalità dell'impostazione guidata del piano generale | Obbligatorio |
-| Pianificazione generale | [Selezione modello previsionale in dettagli previsione della domanda](../master-planning/manual-adjustments-baseline-forecast.md) | Obbligatorio |
-| Pianificazione generale | [Visualizzazione avanzamento pianificazione generale](../master-planning/tasks/monitor-master-planning-run.md) | Obbligatorio |
-| Pianificazione generale | [Stabilizzazione parallela degli ordini pianificati](../master-planning/planning-optimization/planned-order-firming.md) | Obbligatorio |
-| Pianificazione generale | [Stabilizzazione pianificata di ordini con filtro](../master-planning/planning-optimization/planned-order-firming.md) | In base all'impostazione predefinita |
-| Pianificazione generale | [Visualizzazioni salvate per ordini pianificati](saved-views-scm.md) | In base all'impostazione predefinita |
+| Pianificazione generale | Selezione modello previsionale in dettagli previsione della domanda | Obbligatorio |
+| Pianificazione generale | Visualizzazione avanzamento pianificazione generale | Obbligatorio |
+| Pianificazione generale | Stabilizzazione parallela degli ordini pianificati | Obbligatorio |
+| Pianificazione generale | Stabilizzazione pianificata di ordini con filtro | In base all'impostazione predefinita |
+| Pianificazione generale | Visualizzazioni salvate per ordini pianificati | In base all'impostazione predefinita |
 | Approvvigionamento | Disabilita pulsante Reimposta per distribuzione richiesta di acquisto | Generalmente disponibile |
-| Approvvigionamento | [Abilitare la reimpostazione dei flussi di lavoro correlati all'approvvigionamento](whats-new-scm-10-0-20.md) | Generalmente disponibile |
+| Approvvigionamento | Abilitare la reimpostazione dei flussi di lavoro correlati all'approvvigionamento | Generalmente disponibile |
 | Approvvigionamento | Possibilità di confermare in batch gli ordini fornitore accettati tramite la collaborazione fornitore | Obbligatorio |
 | Approvvigionamento | Stato chiuso contratto di acquisto | Obbligatorio |
 | Approvvigionamento | Aggiungi righe a fatture ordine fornitore associate a un contratto di acquisto | In base all'impostazione predefinita |
 | Approvvigionamento | Aggiungi campo Quantità ordinata alla pagina Registrazione entrata prodotti | In base all'impostazione predefinita |
-| Approvvigionamento | [Consentire ai fornitori di richiedere le categorie di approvvigionamento tramite la collaborazione fornitore](../procurement/category-requests-from-vendors.md) | In base all'impostazione predefinita |
+| Approvvigionamento | Consentire ai fornitori di richiedere le categorie di approvvigionamento tramite la collaborazione fornitore | In base all'impostazione predefinita |
 | Approvvigionamento | Spese basate su importi iniziali e finali su ordini fornitore | In base all'impostazione predefinita |
 | Approvvigionamento | Impostazione spese con sito e magazzino | In base all'impostazione predefinita |
 | Approvvigionamento | Abilita calcolo imposta acquisti in base alla tariffa annuale | In base all'impostazione predefinita |
-| Approvvigionamento | [Parte responsabile del contratto di acquisto](../procurement/purchase-agreements.md) | In base all'impostazione predefinita |
-| Approvvigionamento | [Visualizzazioni salvate per ordini fornitore](saved-views-scm.md) | In base all'impostazione predefinita |
-| Gestione informazioni sul prodotto | [Convalida rigorosa per quantità ordine predefinite](../production-control/default-order-settings.md) | Obbligatorio |
+| Approvvigionamento | Parte responsabile del contratto di acquisto | In base all'impostazione predefinita |
+| Approvvigionamento | Visualizzazioni salvate per ordini fornitore | In base all'impostazione predefinita |
+| Gestione informazioni sul prodotto | Convalida rigorosa per quantità ordine predefinite | Obbligatorio |
 | Gestione informazioni sul prodotto | Pre-elaborazione report distinta base per evitare il timeout | In base all'impostazione predefinita |
 | Gestione informazioni sul prodotto | Imposta dimensioni finanziarie predefinite separatamente quando si utilizzano i modelli di articolo | In base all'impostazione predefinita |
 | Gestione informazioni sul prodotto | Abilita gruppi di dimensioni prodotto per i modelli di articolo | In base all'impostazione predefinita |
 | Gestione informazioni sul prodotto | Rigenera nomi varianti prodotto in base alla nomenclatura | In base all'impostazione predefinita |
-| Gestione informazioni sul prodotto | [Miglioramenti della pagina Suggerimenti variante](../pim/tasks/create-predefined-product-variants.md) | In base all'impostazione predefinita |
+| Gestione informazioni sul prodotto | Miglioramenti della pagina Suggerimenti variante | In base all'impostazione predefinita |
 | Controllo produzione | Prelievo di quantità a peso variabile di produzione migliorata | Generalmente disponibile |
 | Controllo produzione | Un nuovo pulsante Interrompi pausa è stato aggiunto alla pagina del terminale della scheda processo | Obbligatorio |
-| Controllo produzione | [Abilitare la generazione automatica del numero di identificazione durante la dichiarazione di finito nel dispositivo scheda processo](../production-control/production-floor-execution-configure.md) | Obbligatorio |
+| Controllo produzione | Abilitare la generazione automatica del numero di identificazione durante la dichiarazione di finito nel dispositivo scheda processo | Obbligatorio |
 | Controllo produzione | Abilitare l'entrata parziale di articoli in conto lavoro e correggere un problema con il calcolo dello scarto per le righe DBA di tipo fornitore | Obbligatorio |
-| Controllo produzione | [Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti](../production-control/production-floor-execution-configure.md) | Obbligatorio |
+| Controllo produzione | Funzionalità per bloccare il dispositivo scheda processo e il terminale scheda processo di modo che possano essere puliti | Obbligatorio |
 | Controllo produzione | Miglioramenti alle finestre di dialogo Approva processi e Processi di trasferimento | Obbligatorio |
-| Controllo produzione | [Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo](../production-control/production-floor-execution-configure.md) | Obbligatorio |
-| Controllo produzione | [Stampa etichetta dal dispositivo scheda processo](../production-control/production-floor-execution-configure.md) | Obbligatorio |
-| Controllo produzione | [Esecuzione area di produzione](../production-control/production-floor-execution-configure.md) | Obbligatorio |
-| Controllo produzione | [Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md) | In base all'impostazione predefinita |
-| Controllo produzione | [Ricerca del processo per l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md) | In base all'impostazione predefinita |
-| Controllo produzione | [Sovrascrivi prenotazione di produzione predefinita](../production-control/override-default-reservation-principle.md) | In base all'impostazione predefinita |
-| Controllo produzione | [Mostra i numeri di identificazione, serie e batch completi nell'interfaccia di esecuzione area di produzione](whats-new-scm-10-0-21.md) | In base all'impostazione predefinita |
-| Vendite e marketing | [Miglioramento prestazioni dettagli ordini cliente](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Generalmente disponibile |
+| Controllo produzione | Targa per la dichiarazione di finito aggiunta al dispositivo della scheda processo | Obbligatorio |
+| Controllo produzione | Stampa etichetta dal dispositivo scheda processo | Obbligatorio |
+| Controllo produzione | Esecuzione area di produzione | Obbligatorio |
+| Controllo produzione | Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione | In base all'impostazione predefinita |
+| Controllo produzione | Ricerca del processo per l'interfaccia di esecuzione dell'area di produzione | In base all'impostazione predefinita |
+| Controllo produzione | Sovrascrivi prenotazione di produzione predefinita | In base all'impostazione predefinita |
+| Controllo produzione | Mostra i numeri di identificazione, serie e batch completi nell'interfaccia di esecuzione area di produzione | In base all'impostazione predefinita |
+| Vendite e marketing | Miglioramento prestazioni dettagli ordini cliente | Generalmente disponibile |
 | Vendite e marketing | Miglioramento prestazioni dettagli offerte di vendita | Generalmente disponibile |
 | Vendite e marketing | Criteri di esportazione dati a cui fa riferimento l'ordine cliente | Obbligatorio |
-| Vendite e marketing | [Criteri di eliminazione della riga ordine cliente nell'ordine fornitore](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy) | Obbligatorio |
-| Vendite e marketing | [Criteri di esportazione dati a cui fa riferimento l'offerta di vendita](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy)| Obbligatorio |
-| Vendite e marketing | [Ottimizzazione esportazione entità di dati persona di contatto](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization) | In base all'impostazione predefinita |
+| Vendite e marketing | Criteri di eliminazione della riga ordine cliente nell'ordine fornitore | Obbligatorio |
+| Vendite e marketing | Criteri di esportazione dati a cui fa riferimento l'offerta di vendita | Obbligatorio |
+| Vendite e marketing | Ottimizzazione esportazione entità di dati persona di contatto | In base all'impostazione predefinita |
 | Vendite e marketing | Abilita ricerca per i campi chiusura documenti e introduzione documenti di offerta di vendita | In base all'impostazione predefinita |
-| Vendite e marketing | [Migliora le prestazioni del report "Primi 100" clienti](whats-new-scm-10-0-23.md) | In base all'impostazione predefinita |
+| Vendite e marketing | Migliora le prestazioni del report "Primi 100" clienti | In base all'impostazione predefinita |
 | Vendite e marketing | Ricalcola saldo cliente stimato | In base all'impostazione predefinita |
-| Vendite e marketing | [Registrazione riga ordine di reso vendita con precisione decimale con e senza peso variabile](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight) | In base all'impostazione predefinita |
-| Vendite e marketing | [Visualizzazioni salvate per vendite e marketing](saved-views-scm.md) | In base all'impostazione predefinita |
+| Vendite e marketing | Registrazione riga ordine di reso vendita con precisione decimale con e senza peso variabile | In base all'impostazione predefinita |
+| Vendite e marketing | Visualizzazioni salvate per vendite e marketing | In base all'impostazione predefinita |
 | Vendite e marketing | Conferma dell'ordine cliente con un solo clic | In base all'impostazione predefinita |
-| Warehouse Management | [Modelli di cross-docking con direttive di ubicazione](../warehousing/planned-cross-docking.md) | Generalmente disponibile |
-| Warehouse Management | [Disabilitare le ricevute previste dagli ordini di controllo qualità che campionano le scorte bloccate](../inventory/inventory-blocking.md) | Generalmente disponibile |
+| Warehouse Management | Modelli di cross-docking con direttive di ubicazione | Generalmente disponibile |
+| Warehouse Management | Disabilitare le ricevute previste dagli ordini di controllo qualità che campionano le scorte bloccate | Generalmente disponibile |
 | Warehouse Management | Cronologia ricevimento targa | Generalmente disponibile |
-| Warehouse Management | [Interfaccia attrezzatura movimentazione materiali](../warehousing/mhax.md) | Generalmente disponibile |
-| Warehouse Management | [Arrotonda quantità per difetto all'unità di vendita più vicina al momento del rilascio nel magazzino](whats-new-scm-10-0-19.md) | Generalmente disponibile |
+| Warehouse Management | Arrotonda quantità per difetto all'unità di vendita più vicina al momento del rilascio nel magazzino | Generalmente disponibile |
 | Warehouse Management | Supporto unità di scala per elenchi di lavoro per app magazzino | Generalmente disponibile |
 | Warehouse Management | Dettagli etichetta ciclo di spedizione | Generalmente disponibile |
-| Warehouse Management | [Utilizza API veloce per chiusura/riapertura contenitori in stazione di imballaggio](whats-new-scm-10-0-21.md) | Generalmente disponibile |
-| Warehouse Management | [Convalida modelli selezionati per processi di rifornimento](whats-new-scm-10-0-20.md) | Generalmente disponibile |
+| Warehouse Management | Utilizza API veloce per chiusura/riapertura contenitori in stazione di imballaggio | Generalmente disponibile |
+| Warehouse Management | Convalida modelli selezionati per processi di rifornimento | Generalmente disponibile |
 | Warehouse Management | Consenti al modello di rifornimento di utilizzare il lavoro di rifornimento immediato esistente (tra unità) | Obbligatorio |
 | Warehouse Management | Assegnazione automatica dei GUID per creazione dell'utente WHS | Obbligatorio |
 | Warehouse Management | Acquisisci varianti prodotto e dimensioni di tracciabilità nell'app del magazzino durante il ricevimento articoli di carico | Obbligatorio |
-| Warehouse Management | [Modifica lo stato di magazzino degli articoli controllati dalle dimensioni di tracciabilità](../inventory/inventory-statuses.md) | Obbligatorio |
-| Warehouse Management | [Modifica pool di lavoro nel lavoro](../warehousing/change-work-pool-on-work.md) | Obbligatorio |
-| Warehouse Management | [Posizione cluster piena](../warehousing/cluster-position-full.md) | Obbligatorio |
-| Warehouse Management | [Funzionalità cluster stoccaggio](../warehousing/putaway-clusters.md) | Obbligatorio |
-| Warehouse Management | [Conferma e trasferimento](../warehousing/confirm-and-transfer.md) | Obbligatorio |
-| Warehouse Management | [Conferma spedizioni in uscita da processi batch](../warehousing/confirm-outbound-shipments-from-batch-jobs.md) | Obbligatorio |
-| Warehouse Management | [Controlla se visualizzare una pagina di riepilogo delle ricezioni sui dispositivi mobili](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Obbligatorio |
-| Warehouse Management | [Elaborazione differita dell'operazione di movimento inventario manuale](../warehousing/deferred-processing-manual-inventory-movement.md) | Obbligatorio |
+| Warehouse Management | Modifica lo stato di magazzino degli articoli controllati dalle dimensioni di tracciabilità | Obbligatorio |
+| Warehouse Management | Modifica pool di lavoro nel lavoro | Obbligatorio |
+| Warehouse Management | Posizione cluster piena | Obbligatorio |
+| Warehouse Management | Funzionalità cluster stoccaggio | Obbligatorio |
+| Warehouse Management | Conferma e trasferimento | Obbligatorio |
+| Warehouse Management | Conferma spedizioni in uscita da processi batch | Obbligatorio |
+| Warehouse Management | Controlla se visualizzare una pagina di riepilogo delle ricezioni sui dispositivi mobili | Obbligatorio |
+| Warehouse Management | Elaborazione differita dell'operazione di movimento inventario manuale | Obbligatorio |
 | Warehouse Management | Non consentire la creazione di carichi che non soddisfano i requisiti del modello di creazione del carico ondata | Obbligatorio |
-| Warehouse Management | [Layout etichette targa avanzata](../warehousing/document-routing-layout-for-license-plates.md) | Obbligatorio |
-| Warehouse Management | [Valuta tutte le azioni per direttive di ubicazione multi-SKU](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Obbligatorio |
+| Warehouse Management | Layout etichette targa avanzata | Obbligatorio |
+| Warehouse Management | Valuta tutte le azioni per direttive di ubicazione multi-SKU | Obbligatorio |
 | Warehouse Management | Nascondi il campo valore totale nelle pagine "Tutti i carichi" e "Dettagli carico" | Obbligatorio |
 | Warehouse Management | Configurazione di versione etichetta targa | Obbligatorio |
 | Warehouse Management | Correzione manuale righe di carico per utenti amministratore o altri utenti attendibili simili | Obbligatorio |
-| Warehouse Management | [Posizionamento targa ubicazione](../warehousing/location-license-plate-positioning.md) | Obbligatorio |
-| Warehouse Management | [Combinazione dimensioni prodotto ubicazione](../warehousing/location-product-dimension-mixing.md) | Obbligatorio |
+| Warehouse Management | Posizionamento targa ubicazione | Obbligatorio |
+| Warehouse Management | Combinazione dimensioni prodotto ubicazione | Obbligatorio |
 | Warehouse Management | Rendi modificabile il campo dello stato inventario del movimento inventario del dispositivo mobile | Obbligatorio |
 | Warehouse Management | Servizio di prelievo manuale righe di vendita per amministratori o utenti attendibili simili | Obbligatorio |
-| Warehouse Management | [Impedisci l'utilizzo di targhe spedite per l'ordine di trasferimento in altri magazzini diversi dal magazzino di destinazione](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Obbligatorio |
+| Warehouse Management | Impedisci l'utilizzo di targhe spedite per l'ordine di trasferimento in altri magazzini diversi dal magazzino di destinazione | Obbligatorio |
 | Warehouse Management | Richiedi di risolvere i nomi ambigui per "ubicazione/targa" | Obbligatorio |
-| Warehouse Management | [Controllo qualità](../warehousing/quality-check.md) | Obbligatorio |
-| Warehouse Management | [Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino](../warehousing/install-configure-warehouse-management-app.md) | Obbligatorio |
-| Warehouse Management | [Zona ubicazione aggiuntiva](../warehousing/additional-location-zones.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Creare ed elaborare ordini di trasferimento dall'app di magazzino](../warehousing/create-transfer-order-from-warehouse-app.md) | In base all'impostazione predefinita |
+| Warehouse Management | Controllo qualità | Obbligatorio |
+| Warehouse Management | Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino | Obbligatorio |
+| Warehouse Management | Zona ubicazione aggiuntiva | In base all'impostazione predefinita |
+| Warehouse Management | Creare ed elaborare ordini di trasferimento dall'app di magazzino | In base all'impostazione predefinita |
 | Warehouse Management | Abilita convalida rapida per i dispositivi mobili del magazzino | In base all'impostazione predefinita |
-| Warehouse Management | [Tempo di esecuzione massimo per il processo di pulizia scorte disponibili di gestione magazzino](../warehousing/onhand-cleanup.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Visualizzazione del carico di lavoro in uscita](../warehousing/outbound-workload-visualization.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Elabora eventi dell'app magazzino](../warehousing/warehouse-app-events.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Visualizzazione salvata per il workbench di pianificazione del carico](saved-views-scm.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Visualizzazione salvata per la pagina dei dettagli del lavoro](saved-views-scm.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Visualizzazione salvata per elaborazione ciclo](saved-views-scm.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Visualizzazioni salvate per elaborazione carico](saved-views-scm.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Visualizzazioni salvate per elaborazione spedizione](saved-views-scm.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Dettagli processo batch ciclo](../warehousing/wave-processing.md) | In base all'impostazione predefinita |
-| Warehouse Management | [Notifiche di esecuzione ciclo](../warehousing/wave-execution-notifications.md) | In base all'impostazione predefinita |
+| Warehouse Management | Utilizzo ubicazione consolidamento articolo | In base all'impostazione predefinita |
+| Warehouse Management | Tempo di esecuzione massimo per il processo di pulizia scorte disponibili di gestione magazzino | In base all'impostazione predefinita |
+| Warehouse Management | Visualizzazione del carico di lavoro in uscita | In base all'impostazione predefinita |
+| Warehouse Management | Elabora eventi dell'app magazzino | In base all'impostazione predefinita |
+| Warehouse Management | Visualizzazione salvata per il workbench di pianificazione del carico | In base all'impostazione predefinita |
+| Warehouse Management | Visualizzazione salvata per la pagina dei dettagli del lavoro | In base all'impostazione predefinita |
+| Warehouse Management | Visualizzazione salvata per elaborazione ciclo | In base all'impostazione predefinita |
+| Warehouse Management | Visualizzazioni salvate per elaborazione carico | In base all'impostazione predefinita |
+| Warehouse Management | Visualizzazioni salvate per elaborazione spedizione | In base all'impostazione predefinita |
+| Warehouse Management | Dettagli processo batch ciclo | In base all'impostazione predefinita |
+| Warehouse Management | Notifiche di esecuzione ciclo | In base all'impostazione predefinita |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

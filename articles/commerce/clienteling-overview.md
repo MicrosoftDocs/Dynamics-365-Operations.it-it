@@ -2,29 +2,28 @@
 title: Panoramica della fidelizzazione dei clienti
 description: In questo argomento viene fornita una panoramica delle funzionalità di fidelizzazione dei clienti disponibili nell'applicazione del punto vendita.
 author: bebeale
-manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413451"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352690"
 ---
 # <a name="clienteling-overview"></a>Panoramica della fidelizzazione dei clienti
 
@@ -37,7 +36,7 @@ Molti rivenditori, in particolare i rivenditori specializzati di fascia alta, de
 
 In Microsoft Dynamics 365 Commerce, i rivenditori possono utilizzare la funzionalità del libro del cliente per aiutare i collaboratori del negozio a stabilire relazioni a lungo termine con i clienti chiave.
 
-Il libro clienti include le schede cliente che mostrano le informazioni di contatto per ciascun cliente, insieme a tre proprietà aggiuntive che sono definite dal rivenditore e configurate in Headquarters. I rivenditori possono decidere le tre cose più importanti che i venditori devono sapere sui clienti. Ad esempio, un rivenditore di gioielli potrebbe voler includere date importanti come anniversari o compleanni, perché queste date sono occasioni in cui le persone potrebbero acquistare gioielli. Allo stesso modo, un rivenditore di articoli di moda potrebbe voler includere gli interessi e i marchi di acquisto preferiti dal cliente.
+Il libro clienti include le schede cliente che mostrano le informazioni di contatto per ciascun cliente, insieme a tre altre proprietà che sono definite dal rivenditore e configurate in Headquarters. I rivenditori possono decidere le tre cose più importanti che i venditori devono sapere sui clienti. Ad esempio, un rivenditore di gioielli potrebbe voler includere date importanti come anniversari o compleanni, perché queste date sono occasioni in cui le persone potrebbero acquistare gioielli. Allo stesso modo, un rivenditore di articoli di moda potrebbe voler includere gli interessi e i marchi di acquisto preferiti dal cliente.
 
 Il libro clienti consente inoltre agli addetti alle vendite di filtrare l'elenco in modo da mostrare solo i clienti che soddisfano criteri specifici. Ad esempio, una nuova collezione di scarpe è arrivata nel negozio e un addetto vuole informare i clienti a cui piace comprare le scarpe. In questo caso, l'addetto può filtrare il libro clienti per trovare i clienti rilevanti e quindi intraprendere ulteriori azioni.
 
@@ -63,7 +62,7 @@ Gli addetti alle vendite possono anche utilizzare le note per acquisire informaz
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>Integrazione con Dynamics 365 Customer Insights
 
-Con l'applicazione Dynamics 365 Customer Insights, i rivenditori possono aggregare i dati dei vari sistemi utilizzati dai clienti per interagire con il marchio del rivenditore. Possono quindi utilizzare questi dati per generare un'unica vista del cliente e ricavare informazioni dettagliate. L'integrazione di Customer Insights con Commerce consente ai rivenditori di selezionare una o più misure che devono essere mostrate sulla scheda cliente nel libro clienti. Ad esempio, i rivenditori possono utilizzare i dati in Customer Insights per calcolare la "probabilità di abbandono" per un cliente e definire la "migliore azione successiva". Se questi valori sono definiti come misure, possono essere mostrati sulla carta del cliente e possono fornire informazioni cruciali ai venditori. Per ulteriori informazioni su Customer Insights, vedere la documentazione [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview). Per ulteriori informazioni sulle misure, vedere [Misure](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Con l'applicazione Dynamics 365 Customer Insights, i rivenditori possono aggregare i dati dei vari sistemi utilizzati dai clienti per interagire con il marchio del rivenditore. Possono quindi utilizzare questi dati per generare un'unica vista del cliente e ricavare informazioni dettagliate. L'integrazione di Customer Insights con Commerce consente ai rivenditori di selezionare una o più misure che devono essere mostrate sulla scheda cliente nel libro clienti. Ad esempio, i rivenditori possono utilizzare i dati in Customer Insights per calcolare la "probabilità di abbandono" per un cliente e definire la "migliore azione successiva". Se questi valori sono definiti come misure, possono essere mostrati sulla carta del cliente e possono fornire informazioni cruciali ai venditori. Per ulteriori informazioni su Customer Insights, vedere la documentazione [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview). Per ulteriori informazioni sulle misure, vedere [Misure](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="set-up-clienteling"></a>Impostare la fidelizzazione dei clienti
 
@@ -71,12 +70,12 @@ Per attivare la funzionalità di fidelizzazione dei clienti nel proprio ambiente
 
 1. Nell'area di lavoro **Gestione funzionalità**, filtrare le funzionalità dal modulo **Vendita al dettaglio e commercio**.
 
-    ![Fidelizzazione dei clienti nell'elenco delle funzionalità per il modulo Commercio](./media/Enable_clienteling.png "Fidelizzazione dei clienti nell'elenco delle funzionalità per il modulo Vendita al dettaglio e commercio")
+    ![Fidelizzazione dei clienti nell'elenco delle funzionalità per il modulo Commercio.](./media/Enable_clienteling.png "Fidelizzazione dei clienti nell'elenco delle funzionalità per il modulo Vendita al dettaglio e commercio")
 
 2. Attivare la funzionalità **Fidelizzazione dei clienti** selezionando **Abilita ora**.
 3. Nella pagina **Parametri di commercio**, nella scheda **Sequenza numerica**, selezionare la riga **Identificatore del libro clienti**. Nel campo **Codice sequenza numerica** selezionare una sequenza numerica. Il sistema utilizzerà questa sequenza numerica per assegnare un ID ai libri clienti.
 4. Selezionare **Salva**.
-5. Creare un nuovo gruppo di attributi che contiene gli attributi che si desidera acquisire per i clienti gestiti nei libri clienti. Per istruzioni, vedere [Attributi e gruppi di attributi](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
+5. Creare un nuovo gruppo di attributi che contiene gli attributi che si desidera acquisire per i clienti gestiti nei libri clienti. Per istruzioni, vedere [Attributi e gruppi di attributi](./attribute-attributegroups-lifecycle.md).
 
     - Definire gli attributi richiesti come **Ridefinizione possibile**. Gli addetti alle vendite possono quindi utilizzare questi attributi per filtrare il libro clienti.
     - Impostare l'ordine di visualizzazione di questi attributi. Questo ordine di visualizzazione determina quali attributi devono essere mostrati sulla scheda cliente nel libro clienti. Un ordine di visualizzazione di 1 verrà considerato superiore a un ordine di visualizzazione di 2. Pertanto, l'attributo che ha un ordine di visualizzazione di 1 verrà mostrato prima dell'attributo che ha un ordine di visualizzazione di 2.
@@ -86,7 +85,7 @@ Per attivare la funzionalità di fidelizzazione dei clienti nel proprio ambiente
 
 6. Nella pagina **Parametri di commercio**, nella scheda **Fidelizzazione dei clienti**, nel campo **Gruppo di attributi del libro clienti**, selezionare il gruppo di attributi appena creato.
 
-    ![Gruppo di attributi del libro clienti selezionato](./media/Client%20book%20attributes.png "Gruppo di attributi del libro clienti selezionato")
+    ![Gruppo di attributi del libro clienti selezionato.](./media/Client%20book%20attributes.png "Gruppo di attributi del libro clienti selezionato")
 
 7. Per acquisire le attività eseguite al POS, definire i tipi di attività nella pagina **Tipi di attività** (**Retail e Commerce \> Clienti \> Tipi di attività**).
 
@@ -98,7 +97,7 @@ Per attivare la funzionalità di fidelizzazione dei clienti nel proprio ambiente
 
 Dopo aver completato questa procedura, gli addetti alle vendite possono aprire la pagina dei dettagli del cliente nel POS e aggiungere clienti al libro clienti, visualizzare e acquisire attività e note per i clienti e indirizzare i clienti utilizzando gli attributi del cliente e del libro clienti per filtrare il libro clienti. Nella figura seguente viene illustrato un esempio di un libro clienti.
 
-![Esempio di un libro clienti](./media/client_book.png "Esempio di un libro clienti")
+![Esempio di un libro clienti.](./media/client_book.png "Esempio di un libro clienti")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Attivare l'integrazione di Customer Insights con Commerce
 
@@ -106,21 +105,33 @@ Per attivare l'integrazione di Customer Insights con Commerce, è necessario ass
 
 Seguire questi passaggi per configurare l'integrazione.
 
-1. Nel portale di Azure, registrare un'applicazione. Questa applicazione verrà utilizzata per l'autenticazione con Customer Insights. Per istruzioni, vedere [Avvio rapido: Registrare un'applicazione con la piattaforma di identità di Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
-2. Generare un segreto per l'applicazione. Annotare il segreto e riporlo in un posto sicuro perché sarà necessario successivamente. Selezionare anche la data di scadenza del segreto.
+1. Nel portale di Azure registra una nuova applicazione e prendi nota del nome dell'applicazione, dell'ID dell'applicazione e del segreto. Queste informazioni verranno utilizzate per l'autenticazione da servizio a servizio tra Commerce e Customer Insights. Annota il segreto in modo sicuro, poiché sarà necessario salvarlo nell'insieme di credenziali delle chiavi. Per il seguente esempio, utilizza CI_Access_name, CI_Access_AppID, CI_Access_Secret rispettivamente per il nome dell'applicazione, l'ID dell'applicazione e il segreto. Per altre informazioni, vedi [Avvio rapido: Registrare un'applicazione con la piattaforma di identità di Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
     > [!IMPORTANT]
     > Intraprendere le azioni in modo da ricordare di cambiare il segreto prima che scada. In caso contrario, l'integrazione verrà interrotta in modo imprevisto.
 
-3. Creare un Azure Key Vault e salvare il segreto dell'applicazione. Per istruzioni, vedere [Avvio rapido: Impostare e recuperare un segreto da Azure Key Vault tramite il portale di Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
-4. Attivare l'accesso ad Azure Key Vault da Commerce. Per completare questo passaggio, è necessario disporre di un ID applicazione e un segreto. L'applicazione può essere la stessa creata nel passaggio 1 o è possibile impostare una nuova applicazione. In altre parole, è possibile utilizzare l'applicazione creata al passaggio 1 per l'accesso a Key Vault e al servizio Customer Insights oppure creare un'applicazione univoca per ogni tipo di accesso. Per istruzioni, vedere [Archiviare le credenziali principali del servizio in Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
-5. In Headquarters, passare **Amministrazione sistema \> Impostazione \> Parametri Key Vault** e immettere le informazioni necessarie per il Key Vault. Quindi nel campo **Client Key Vault**, immettere l'ID applicazione utilizzato nel passaggio 4, in modo che Commerce possa accedere ai segreti nel Key Vault.
-6. Per aggiungere l'applicazione creata al passaggio 1 all'elenco di applicazioni sicure (a volte indicato come elenco sicuro), andare a Customer Insights e fornire l'accesso **Visualizzazione** all'applicazione. Per istruzioni, vedere [Autorizzazioni](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
-7. In Commerce, nella pagina **Parametri di commercio**, nella scheda **Fidelizzazione dei clienti**, nella scheda dettaglio **Dynamics 365 Customer Insights**, effettuare le seguenti operazioni:
+2. Vai alla tua istanza Customer Insights e cerca il nome dell'applicazione creata sopra (in questo esempio, "CI_Access_name").
+3. Crea un insieme di credenziali delle chiavi di Azure e prendi nota del nome e dell'URL (in questo esempio, "KeyVaultName", "KeyVaultURL"). Per istruzioni, vedere [Avvio rapido: Impostare e recuperare un segreto da Azure Key Vault tramite il portale di Azure](/azure/key-vault/quick-create-portal).
+4. Salva il segreto (in questo esempio, "CI_Access_Secret") nell'insieme di credenziali. Quando questo segreto viene archiviato nell'insieme di credenziali, il segreto ottiene un nome. Annota il nome del segreto (in questo esempio, "SecretName").
+5. Per accedere al segreto dall'Insieme di credenziali delle chiavi di Azure, è necessario creare un'altra applicazione con un ID applicazione e un segreto (in questo esempio, "KeyVault_Access_AppID" e "KeyVault_Access_Secret"). Annota il segreto in modo sicuro, poiché non verrà più visualizzato.
+6. Successivamente, concedi le autorizzazioni all'applicazione per accedere all'insieme di credenziali delle chiavi da Commerce utilizzando le API. Nel portale di Azure vai alla pagina dell'applicazione. Sotto la sezione **Gestione** seleziona **Autorizzazioni API**. Aggiungi l'autorizzazione per accedere all'**Insieme di credenziali delle chiavi di Azure**. Per questa autorizzazione, seleziona **Criteri di accesso**. Seleziona il modello come **Gestione segreto** e seleziona le opzioni **Ottieni**, **Elenco**, **Decrittografa** e **Crittografa**. 
+5. In Commerce Headquarters, passa a **Amministrazione sistema \> Impostazione \> Parametri Key Vault** e immetti le informazioni necessarie per l'insieme di credenziali delle chiavi. Quindi nel campo **Client Key Vault**, immettere l'ID applicazione utilizzato nel passaggio 4, in modo che Commerce possa accedere ai segreti nel Key Vault.
+6. Per aggiungere l'applicazione creata al passaggio 1 all'elenco di applicazioni sicure (a volte indicato come elenco sicuro), vai a Customer Insights e fornisci l'accesso **Visualizzazione** all'applicazione. Per istruzioni, vedere [Autorizzazioni](/dynamics365/ai/customer-insights/pm-permissions).
+7. Nella pagina **Amministrazione di sistema > Impostazione > Parametri insieme di credenziali delle chiavi** in Commerce HQ, aggiorna i campi come descritto di seguito: 
 
-    1. Nel campo **ID applicazione**, immettere l'ID applicazione utilizzato nel passaggio 1.
-    2. Nel campo **Nome segreto**, immettere il nome del segreto Key Vault creato nel passaggio 5.
-    3. Impostare l'opzione **Abilita Customer Insights** su **Sì**. Se l'impostazione per qualsiasi motivo non riesce, verrà visualizzato un messaggio di errore e questa opzione verrà impostata su **No**.
-    4. È possibile avere più ambienti in Customer Insights, ad esempio ambienti di produzione e test. Nel campo **ID istanza dell'ambiente**, immettere l'ambiente appropriato.
-    5. Nel campo **ID cliente alternativo**, immettere la proprietà in Customer Insights mappata al numero del conto del cliente (in Commerce, il numero del conto del cliente è l'ID cliente).
-    6. Le restanti tre proprietà sono le misure che verranno mostrate sulla scheda cliente nel libro clienti. È possibile selezionare fino a tre misure da visualizzare nella scheda cliente. Tuttavia, non è obbligatorio selezionare le misure. Come indicato in precedenza, il sistema mostra prima questi valori e quindi mostra i valori per il gruppo di attributi del libro clienti.
+- **URL insieme di credenziali delle chiavi**: "KeyVaultURL" (dal passaggio 3 sopra).
+- **Client insieme di credenziali delle chiavi** : "KeyVault_Access_AppID" (dal passaggio 5 precedente).
+- **Chiave segreta insieme di credenziali delle chiavi** : "KeyVault_Access_Secret" (dal passaggio 5 precedente).
+- Sotto la sezione **Segreti**:
+    - **Nome**: Qualsiasi nome, ad esempio "CISecret".
+    - **Descrizione**: Qualsiasi valore.
+    - **Segreto**: **vault**://<Name of key vault>/<name of secret>> In questo esempio sarà "vault://KeyVaultName/SecretName".
+
+Dopo aver aggiornato i campi, seleziona **Convalida** per garantire che il segreto sia accessibile dall'applicazione Commerce.
+
+8. In Commerce, nella pagina **Parametri di Commerce** nella scheda **Clientela** nella scheda dettaglio **Dynamics 365 Customer Insights** imposta **ID applicazione** su "CI_Access_AppID" (dal passaggio 1 sopra). Per **Nome segreto**, seleziona il nome del segreto inserito al passaggio 7 sopra ("CISecret"). Impostare l'opzione **Abilita Customer Insights** su **Sì**. Se l'impostazione per qualsiasi motivo non riesce, viene visualizzato un messaggio di errore e questa opzione viene impostata su **No**. 
+
+È possibile avere più ambienti in Customer Insights, ad esempio ambienti di produzione e test. Nel campo **ID istanza dell'ambiente**, immettere l'ambiente appropriato. Nel campo **ID cliente alternativo**, immettere la proprietà in Customer Insights mappata al numero del conto del cliente (In Commerce, il numero di conto del cliente è l'ID del cliente.) Le tre proprietà rimanenti sono le misure che verranno mostrate sulla scheda cliente nel libro clienti. È possibile selezionare fino a tre misure da visualizzare nella scheda cliente. Tuttavia, non è necessario selezionare alcuna misura. Come accennato in precedenza, il sistema mostra prima questi valori, quindi mostra i valori per il gruppo di attributi del libro clienti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

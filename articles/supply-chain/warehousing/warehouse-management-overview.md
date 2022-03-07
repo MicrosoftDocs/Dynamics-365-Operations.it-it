@@ -1,26 +1,24 @@
 ---
 title: Panoramica della gestione magazzino
 description: Utilizzare la gestione magazzino per monitorare e automatizzare i processi di magazzino.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 04/20/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432004a7389434248ddde242b153dfb3cd955055
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970130"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982854"
 ---
 # <a name="warehouse-management-overview"></a>Panoramica gestione del magazzino
 
@@ -50,7 +48,7 @@ Per iniziare a lavorare con la gestione del magazzino, è necessario completare 
 - Supporto completo per batch e articoli con numeri di serie
 - Varie funzionalità di ricevimento di articoli
 - Molteplici strategie di prelievo
-- Supporto integrato per la generazione successiva di lettori di codici a barre
+- Supporto out-of-the-box per la prossima generazione di scanner di codici a barre
 - Tipi di contenitori/pallet per processi di magazzino
 - Funzionalità di conteggio avanzate
 - Stampa e trasferimento di etichette con il supporto Zebra ZPL
@@ -73,3 +71,6 @@ Per opinioni, notizie e altre informazioni su Gestione magazzino e altre soluzio
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

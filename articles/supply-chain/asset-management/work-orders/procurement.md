@@ -1,12 +1,10 @@
 ---
 title: Approvvigionamento
 description: In questo argomento viene descritto l'approvvigionamento in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743652"
 ---
 # <a name="procurement"></a>Approvvigionamento
 
@@ -38,7 +36,7 @@ La pagina elenco **Richiesta di acquisto ordine di lavoro** (**Gestione cespiti*
 
 Nell'illustrazione seguente è illustrato un esempio della pagina elenco **Richiesta di acquisto ordine di lavoro**.
 
-![Figura 1](media/08-work-orders.png)
+![Figura 1.](media/08-work-orders.png)
 
 
 La pagina elenco **Acquisto ordine di lavoro** (**Gestione cespiti** > **Comune** > **Approvvigionamento** > **Acquisto ordine di lavoro**) contiene l'elenco degli ordini fornitore correlati agli ordini di lavoro. Quando si seleziona un processo di ordine di lavoro in questa pagina, è possibile utilizzare i pulsanti del gruppo **Mostra** della scheda del riquadro azioni **Acquisto ordine di lavoro** per eseguire le varie operazioni:
@@ -49,7 +47,7 @@ La pagina elenco **Acquisto ordine di lavoro** (**Gestione cespiti** > **Comune*
 
 Nell'illustrazione seguente è illustrato un esempio della pagina elenco **Acquisto ordine di lavoro**.
 
-![Figura 2](media/09-work-orders.png)
+![Figura 2.](media/09-work-orders.png)
 
 
 Nella pagina elenco **Acquisto ordine di lavoro** e nella pagina elenco **Richiesta di acquisto ordine di lavoro**, un simbolo correlato al controllo della data di consegna viene visualizzato a destra di ciascuna riga. Se il simbolo è un punto esclamativo in un cerchio rosso, la consegna dell'ordine fornitore correlato o della richiesta di acquisto può essere ritardata.
@@ -95,7 +93,10 @@ Per visualizzare o inserire il numero di attività correlato a una riga ordine f
 
 Nella figura seguente è illustrato un esempio della pagina **Ordine fornitore** con lo stato attivo su **Numero attività**.
 
-![Figura 3](media/10-work-orders.png)
+![Figura 3.](media/10-work-orders.png)
 
 Analogamente, per visualizzare o inserire il numero di attività correlato a una richiesta di ordine fornitore, nella pagina elenco **Richiesta di acquisto ordine di lavoro**, selezionare il record della richiesta di acquisto e nella colonna **Richiesta di acquisto** selezionare il collegamento della richiesta di acquisto. Il campo **Numero attività** è disponibile nella scheda **Progetto** della scheda dettaglio **Dettagli riga**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

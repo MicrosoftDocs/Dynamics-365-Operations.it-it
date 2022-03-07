@@ -2,11 +2,9 @@
 title: Panoramica di gestione dei benefit
 description: Panoramica della funzionalità di Gestione benefit in Dynamics 365 Human Resources. Offrire opzioni di benefit estese ai propri dipendenti con un'esperienza online di facile utilizzo.
 author: andreabichsel
-manager: AnnBe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 34b0916e0bf618590bcc56a9a3bc7c61576361cc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419162"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805780"
 ---
 # <a name="benefits-management-overview"></a>Panoramica di Gestione benefit
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Per rimanere competitivi, è necessario offrire una ricca gamma di benefit per attirare e trattenere i migliori dipendenti. Oltre ai benefit standard come la copertura medica e dentale, è possibile che si voglia offrire anche servizi estesi come assistenza all'adozione, programmi ricreativi e indennità per l'abbigliamento. Gestione benefit in Microsoft Dynamics 365 Human Resources fornisce una soluzione flessibile che supporta una vasta gamma di opzioni di benefit. Human Resources include anche un'esperienza per i dipendenti di facile utilizzo che evidenzia le offerte proposte.
 
@@ -97,3 +97,6 @@ Questi articoli mostrano come creare piani di benefit, inclusi pacchetti e progr
 - [Elaborare l'idoneità a eventi reali](hr-benefits-process-life-event-eligibility.md)
 - [Elaborare modifiche ai tassi](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

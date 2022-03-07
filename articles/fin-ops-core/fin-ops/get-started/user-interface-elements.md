@@ -2,11 +2,9 @@
 title: Elementi dell'interfaccia utente
 description: In questo argomento sono descritti gli elementi dell'interfaccia utente utilizzati nell'app.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797942"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069325"
 ---
 # <a name="user-interface-elements"></a>Elementi dell'interfaccia utente
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In questo argomento sono descritti gli elementi dell'interfaccia utente utilizzati nell'app. Prima di utilizzare l'interfaccia, è importante conoscere i nomi e le funzioni degli elementi che la compongono.
 
@@ -86,3 +87,6 @@ Una *barra degli strumenti* contiene strumenti che consentono, ad esempio, di ag
 Un *elenco* è un insieme di record che è possibile scorrere. I record possono essere inseriti nella pagina selezionandoli. Spesso questa azione apre una griglia.
 
 ![L'immagine seguente mostra esempi di barre degli strumenti, griglie ed elenchi.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

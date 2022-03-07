@@ -2,24 +2,23 @@
 title: Panoramica dei processi di importazione ed esportazione dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: Sunil-Garg
-manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684062"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351021"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -108,7 +107,7 @@ Sono disponibili due visualizzazioni di mapping: **Visualizzazione mapping**, ov
 
 È possibile generare un mapping nella pagina selezionando **Genera mapping origine**. Il comportamento di un mapping generato è quello di un mapping automatico. Di conseguenza, è necessario mappare manualmente tutti i campi non mappati.
 
-![Mapping dei dati](./media/dixf-map.png)
+![Mapping dei dati.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Verificare la protezione per il processo di importazione o esportazione
 L'accesso all'area di lavoro **Gestione dati** può essere limitato, di modo che gli utenti non amministratori possano accedere solo a specifici processi di dati. L'accesso a un processo di dati implica l'accesso completo allo storico esecuzione di quel processo e l'accesso alle tabelle di gestione temporanea. Di conseguenza, è necessario assicurarsi di aver implementato i controlli di accesso appropriati quando si crea un processo di dati.
@@ -134,7 +133,7 @@ Un processo può essere protetto in base a ruoli, utenti e persone giuridiche co
 ## <a name="validate-that-the-job-ran-as-expected"></a>Verificare che il processo è stato eseguito come previsto
 Lo storico processi è disponibile per la risoluzione dei problemi e l'analisi dei processi di importazione e di esportazione. Le esecuzioni dello storico processi sono organizzate in base a intervalli di tempo.
 
-![Intervalli delle storico processi](./media/dixf-job-history.md.png)
+![Intervalli dello storico processi.](./media/dixf-job-history.md.png)
 
 Ogni esecuzione di processo fornisce i seguenti dettagli:
 
@@ -163,19 +162,7 @@ Per accelerare l'importazione di dati, è possibile abilitare l'elaborazione par
     - Nel campo **Conteggio dei record di soglia importazione** immettere il conteggio dei record di soglia per l'importazione. Ciò determina il conteggio dei record che deve essere elaborato da un thread. Se un file ha 10.000 record, un conteggio di record di 2500 con un conteggio di attività 4 significa che ogni thread elaborerà 2500 record.
     - Nel campo **Conteggio attività importazione** inserire il conteggio delle attività di importazione. Questo valore non deve superare il numero massimo di thread in batch assegnati per l'elaborazione batch in **Amministrazione di sistema \>Configurazione del server**.
 
-## <a name="clean-up-the-staging-tables"></a>Pulire le tabelle di gestione temporanea
-Introduzione all'aggiornamento della piattaforma 29, questa funzionalità è stata rimossa. Questo viene sostituita da una nuova versione di funzionalità di pulizia di storico processi illustrato sotto.
-
-È possibile pulire le tabelle di gestione temporanea utilizzando la funzione **Pulizia gestione temporanea** nell'area di lavoro **Gestione dati**. È possibile utilizzare le seguenti opzioni per selezionare i record che devono essere eliminati dalla tabella di gestione temporanea:
-
-- **Entità**: se si specifica una sola entità, vengono eliminati tutti i record della tabella di gestione temporanea di quell'entità. Selezionare questa opzione per pulire tutti i dati dell'entità in tutti i progetti di dati e in tutti i processi.
-- **ID processo**: se si specifica un solo ID processo, vengono eliminati tutti i record di tutte le entità nel processo selezionato dalle tabelle di gestione temporanea appropriate.
-- **Progetti dati**: se si seleziona un solo progetto di dati, vengono eliminati tutti i record di tutte le entità e in tutti i processi per il progetto di dati selezionato.
-
-È anche possibile combinare le opzioni per definire ulteriormente il set di record da eliminare.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Pulizia storico processi (disponibile nell'aggiornamento della piattaforma 29 e successivi)
-
+## <a name="job-history-clean-up"></a>Pulizia Storico processi 
 La funzionalità di pulizia dello storico processi nella gestione dei dati deve essere utilizzata per programmare una pulizia periodica dello storico di esecuzione. Questa funzionalità sostituisce la funzionalità precedente della pulizia delle tabelle di gestione temporanea, ora deprecata. Le seguenti tabelle verranno pulite dal processo di pulizia.
 
 -   Tutte le tabelle di gestione temporanea
@@ -243,3 +230,6 @@ Per scaricare lo storico esecuzione archiviata, andare all'area di lavoro della 
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

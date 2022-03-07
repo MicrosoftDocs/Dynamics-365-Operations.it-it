@@ -1,12 +1,10 @@
 ---
 title: RE Progettare il modello dati specifico di dominio
-description: I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici che contiene un modello dati per i documenti di pagamento elettronico.
+description: Questo argomento descrive come creare una nuova configurazione di reporting elettronico (ER) che contiene un modello di dati per i documenti di pagamento elettronico.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 351c5a6624f7ee912c507a9f74324f4c8f61166b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681951"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755036"
 ---
 # <a name="er-design-domain-specific-data-model"></a>RE Progettare il modello dati specifico di dominio
 
@@ -187,3 +185,6 @@ Si sta creando un nuovo modello dati per la configurazione selezionata. Questa v
 65. Fare clic su Salva.
 66. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

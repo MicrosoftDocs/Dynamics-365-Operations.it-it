@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: f9073a14143423676f23f9bf8dc9c17dbae18a6c3ad0d2f6d1e33919fd9162bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 637962cf63bfd8c2330726f33545f939ec91d58d
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759821"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295820"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - Eliminare un ambiente RCS
 
@@ -38,11 +38,11 @@ Prima di poter completare le procedure in questo argomento, è necessario soddis
 1. Apri RCS e seleziona l'area di lavoro **Creazione di report elettronici**.
 2. Nella sezione **Collegamenti correlati** seleziona **Elimina ambiente RCS**.
 
-    ![Collegamento Elimina ambiente RCS nella sezione Collegamenti correlati.](media/01_RCS-Delete-Environ-Related-Link.PNG)
+    ![Collegamento Elimina ambiente RCS nella sezione Collegamenti correlati](media/01_RCS-Delete-Environ-Related-Link.PNG)
 
 3. Nella finestra di dialogo visualizzata, esamina i messaggi sull'ambito dell'eliminazione dell'ambiente.
 
-    ![Messaggi nella finestra di dialogo Elimina ambiente RCS.](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
+    ![Messaggi nella finestra di dialogo Elimina ambiente RCS](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
 
     > [!IMPORTANT]
     > L'eliminazione di un ambiente RCS non può essere annullata.

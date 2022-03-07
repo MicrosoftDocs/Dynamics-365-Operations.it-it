@@ -1,9 +1,9 @@
 ---
-title: Panoramica dell'aggiornamento dei registri beni ammortizzabili
-description: Questo argomento descrive la funzionalità contabile corrente in Cespiti. Questa funzionalità dei libri si basa sulla funzionalità dei modelli di valore disponibile nelle versioni precedenti, ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili.
-author: moaamer
+title: Panoramica sull'aggiornamento dei registri beni ammortizzabili
+description: Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti, modelli di valore e registri beni ammortizzabili.
+author: ShylaThompson
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer
@@ -13,25 +13,25 @@ ms.custom:
 - intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c7a6bcbccd9ea8c50fbf56ba080d2004dfa05087
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985085"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339819"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Panoramica dell'aggiornamento dei registri beni ammortizzabili
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la funzionalità contabile corrente in Cespiti. Questa funzionalità dei libri si basa sulla funzionalità dei modelli di valore disponibile nelle versioni precedenti, ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili. Il modello di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro. La funzionalità contabile consente di utilizzare un unico set di pagine, richieste e report per tutti i processi relativi ai cespiti dell'organizzazione. Questo argomento fornisce alcuni elementi da considerare prima di eseguire l'aggiornamento. 
+Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations (1611), le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro. In questo argomento vengono fornite alcune considerazioni per l'aggiornamento. 
 
-Il processo di aggiornamento sposterà l'impostazione esistente e tutte le transazioni esistenti nella nuova struttura dei libri. I modelli di valore rimarranno come sono attualmente, come libro che registra nella contabilità generale. I registri beni ammortizzabili verranno spostati in un libro con l'opzione Registra nella contabilità generale impostata su No. I nomi di giornale di registrazione per registri beni ammortizzabili vengono spostati in un nome di giornale di registrazione di contabilità generale con livello di registrazione impostato su Nessuno. Le transazioni del registro beni ammortizzabili verranno spostate nelle transazioni cespiti.
+Il processo di aggiornamento sposterà l'impostazione esistente e tutte le transazioni esistenti nella nuova struttura dei libri. I modelli di valore rimarranno come sono attualmente, come libro che registra nella contabilità generale. I registri beni ammortizzabili verranno spostati in un libro con l'opzione **Registra nella contabilità generale** impostata su **No**. I nomi di giornale di registrazione per registri beni ammortizzabili vengono spostati in un nome di giornale di registrazione di contabilità generale con livello di registrazione impostato su **Nessuno**. Le transazioni del registro beni ammortizzabili verranno spostate nelle transazioni cespiti. 
 
-Prima di eseguire l'aggiornamento dei dati, è necessario comprendere le due opzioni disponibili per aggiornare le righe del giornale di registrazione per registri beni ammortizzabili ai giustificativi di transazione e la sequenza numerica da utilizzare per la serie di giustificativi.
+Prima di eseguire l'aggiornamento dei dati, è necessario comprendere le due opzioni disponibili per aggiornare le righe del giornale di registrazione per registri beni ammortizzabili ai giustificativi di transazione e la sequenza numerica da utilizzare per la serie di giustificativi. 
 
 Opzione 1:  **sequenza numerica definita dal sistema-** - Questa è l'opzione predefinita per ottimizzare le prestazioni di aggiornamento. Non verrà utilizzato il framework di sequenze numeriche, ma verranno assegnati i giustificativi con un approccio basato su set. Dopo l'aggiornamento, la nuova sequenza numerica viene creato con il **Set di numeri successivo** appropriatamente basato sulle transazioni aggiornate. Per impostazione predefinita, la sequenza numerica utilizzata sarà nel formato FADBUpgr\#\#\#\#\#\#\#\#\#. Sono disponibili alcuni parametri per rettificare il formato quando si utilizza questo approccio:
 

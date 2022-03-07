@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323903"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413602"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>Utilizzare le origini dati RACCOLTA DATI nei formati per la creazione di report elettronici
 
 [!include [banner](../includes/banner.md)]
 
-È possibile utilizzare Designer operazioni del framework di [Creazione di report elettronici (ER)](general-electronic-reporting.md) per configurare il componente di formato di una soluzione ER utilizzata per generare documenti in uscita in diversi formati. La struttura gerarchica del componente di formato configurato è costituita da vari tipi di elementi di formato. Questi elementi di formato vengono utilizzati per riempire i documenti generati con le informazioni necessarie in fase di esecuzione. Per impostazione predefinita, quando si esegue un formato ER, gli elementi del formato vengono eseguiti nello stesso ordine in cui sono presentati nella gerarchia dei formati: uno per uno, dall'alto verso il basso.
+È possibile utilizzare Designer operazioni del framework di [Creazione di report elettronici (ER)](general-electronic-reporting.md) per configurare il componente di [formato](general-electronic-reporting.md#FormatComponentOutbound) di una soluzione ER utilizzata per generare documenti in uscita in diversi formati. La struttura gerarchica del componente di formato configurato è costituita da vari tipi di elementi di formato. Questi elementi di formato vengono utilizzati per riempire i documenti generati con le informazioni necessarie in fase di esecuzione. Per impostazione predefinita, quando si esegue un formato ER, gli elementi del formato vengono eseguiti nello stesso ordine in cui sono presentati nella gerarchia dei formati: uno per uno, dall'alto verso il basso.
 
-Quando ER esegue un elemento di formato che contiene un'associazione, viene eseguita la formula di tale associazione e l'elemento di formato aggiunge il valore a un documento generato. Ad esempio, l'associazione può passare il valore di un campo modello di dati a un elemento di formato. È possibile configurare un'origine dati RACCOLTA DATI per raccogliere i valori dei campi del modello di dati al runtime, eseguire la somma dei valori e compilare un documento generato con i valori raccolti. Per utilizzare questo approccio, modifica l'associazione iniziale in modo che l'origine dati RACCOLTA DATI configurata venga utilizzata per passare il valore di un campo del modello di dati a un elemento di formato. Passando i valori attraverso l'origine dati RACCOLTA DATI, è possibile raccogliere i dettagli richiesti per un ulteriore utilizzo.
+Quando ER esegue un elemento di formato che contiene un'associazione, viene eseguita la formula di tale associazione e l'elemento di formato aggiunge il valore a un documento generato. Ad esempio, l'associazione può passare il valore di un campo [modello di dati](general-electronic-reporting.md#data-model-and-model-mapping-components) a un elemento di formato. È possibile configurare un'origine dati RACCOLTA DATI per raccogliere i valori dei campi del modello di dati al runtime, eseguire la somma dei valori e compilare un documento generato con i valori raccolti. Per utilizzare questo approccio, modifica l'associazione iniziale in modo che l'origine dati RACCOLTA DATI configurata venga utilizzata per passare il valore di un campo del modello di dati a un elemento di formato. Passando i valori attraverso l'origine dati RACCOLTA DATI, è possibile raccogliere i dettagli richiesti per un ulteriore utilizzo.
 
 Quando configuri un'origine dati RACCOLTA DATI, specifica un tipo di valore che verrà gestito nell'origine dati. I seguenti [tipi di dati](er-formula-supported-data-types-primitive.md) sono attualmente supportati per la raccolta di valori:
 

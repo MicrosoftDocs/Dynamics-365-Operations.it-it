@@ -1,103 +1,76 @@
 ---
-title: Panoramica calcolo delle imposte
+title: Calcolo imposte (anteprima)
 description: In questo argomento vengono illustrati l'ambito e le funzionalità generali di Calcolo imposte.
 author: wangchen
-ms.date: 11/17/2021
-ms.topic: overview
+ms.date: 06/03/2021
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
+ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: bab6e0e0ea1b9fb7f598e37843b52e3ba9c7f94e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105439"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336634"
 ---
-# <a name="tax-calculation-overview"></a>Panoramica calcolo delle imposte
+# <a name="tax-calculation-preview"></a>Calcolo imposte (anteprima)
 
 [!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Calcolo imposte è un servizio multitenant iperscalabile che consente al Global Tax Engine di automatizzare e semplificare il processo di determinazione e calcolo delle imposte. Il motore fiscale è completamente configurabile. Gli elementi che possono essere configurati includono, tra gli altri, il modello di dati imponibili, il codice imposta, la matrice di applicabilità fiscale e la formula di calcolo dell'imposta. Il motore fiscale funziona sulla piattaforma di servizi di base Microsoft Azure e offre una tecnologia moderna e la scalabilità esponenziale.
 
 Calcolo imposte si integra con Dynamics 365 Finance e Dynamics 365 Supply Chain Management. Alla fine, si integrerà anche con Dynamics 365 Project Operations, Dynamics 365 Commerce e altre applicazioni proprietarie e di terze parti.
 
 > [!IMPORTANT]
-> Quando abiliti il calcolo delle tasse, alcune operazioni sui dati correlati potrebbero essere eseguite in un centro dati diverso dal centro dati che mantiene i tuoi dati di servizio. Rivedere i [termini e le condizioni](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) prima di abilitare il calcolo delle tasse. La privacy è molto importante. Per ulteriori informazioni, leggere l'[Informativa sulla privacy](https://go.microsoft.com/fwlink/?LinkId=521839) di Microsoft.
+> Quando si abilita il servizio di calcolo delle imposte, alcune operazioni sui dati correlati potrebbero essere eseguite in un data center diverso da quello che gestisce i dati del servizio. Rivedere i [termini e condizioni](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) prima di abilitare il servizio di calcolo delle imposte. La privacy è molto importante. Per ulteriori informazioni, leggere l'[Informativa sulla privacy](https://go.microsoft.com/fwlink/?LinkId=521839) di Microsoft.
 
-Calcolo imposta è un motore fiscale basato su microservizi che offre una scalabilità esponenziale e può aiutarvi a eseguire i seguenti compiti:
+Calcolo imposte è un motore fiscale basato su microservizi che offre scalabilità esponenziale. Ti consente di eseguire le attività descritte di seguito:
 
-- Determina automaticamente il corretto gruppo d'imposta sulle vendite, il gruppo d'imposta sulle vendite degli articoli e i codici fiscali attraverso un meccanismo di determinazione migliorato.
-- Supporta più numeri di registrazione fiscale in un'entità legale, e determina automaticamente il corretto numero di registrazione fiscale sulle transazioni imponibili.
-- Supporta la determinazione delle tasse, il calcolo, la registrazione e la liquidazione degli ordini di trasferimento.
-- Definite formule e condizioni di calcolo delle tasse configurabili per le vostre specifiche esigenze aziendali.
-- Condividere la soluzione di determinazione e calcolo delle imposte tra entità legali per risparmiare sforzi di manutenzione ed evitare errori.
-- Sostenere la determinazione del numero di registrazione fiscale del cliente e del venditore.
-- Determinazione del codice della lista di supporto.
-- Supporta i parametri di calcolo delle tasse a livello di giurisdizione fiscale.
+- Configura Calcolo imposte tramite Regulatory Configuration Service (RCS). RCS è una versione avanzata dello strumento di progettazione per la creazione di report elettronici (ER) ed è disponibile come servizio autonomo.
+- Configura la matrice fiscale per determinare automaticamente i codici e le aliquote fiscali.
+- Configura la matrice fiscale per determinare automaticamente la partita IVA.
+- Configura lo strumento di progettazione del calcolo delle imposte per definire le formule e le condizioni.
+- Condividi la determinazione delle imposte e la soluzione di calcolo tra le persone giuridiche.
 
-Per usare Calcolo imposta, installate l'add-in Calcolo imposta dal vostro progetto in Microsoft Dynamics Lifecycle Services. Poi completate la configurazione in [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/), e abilitate il calcolo delle tasse in Finance and Supply Chain Management. Per altre informazioni, vedi [Introduzione al servizio per le imposte](global-get-started-with-tax-calculation-service.md).
+Per utilizzare il servizio di calcolo delle imposte, installa il componente aggiuntivo del servizio di calcolo delle imposte dal progetto in Microsoft Dynamics Lifecycle Services (LCS). Quindi completa la configurazione in RCS e abilita il servizio di calcolo delle imposte in Finance and Supply Chain Management. Per altre informazioni, vedi [Introduzione al servizio per le imposte](./global-get-started-with-tax-calculation-service.md).
 
 ## <a name="availability"></a>Disponibilità
 
-Calcolo imposta è generalmente disponibile in ambienti di produzione per tutti i clienti a partire dalla versione 10.0.21.
+Calcolo imposte è disponibile solo in ambienti sandbox e per clienti selezionati, attraverso un programma di anteprima pubblica. Alla fine, diventerà generalmente disponibile per tutti i clienti e negli ambienti di produzione.
 
-Nuove funzionalità continueranno ad essere fornite. Controllate spesso il piano di rilascio più aggiornato per conoscere la copertura e la portata delle funzionalità supportate.
+In seguito, verranno fornite continuamente nuove funzionalità, pertanto assicurati di controllare spesso la documentazione più aggiornata per conoscere la copertura e l'ambito delle funzionalità supportate.
 
-Calcolo imposte viene distribuito nelle seguenti aree geografiche di Azure. Altre aree geografiche di Azure saranno aggiunte in base alle esigenze dei clienti.
+Calcolo imposte viene distribuito nelle seguenti aree geografiche di Azure. Verrà inoltre distribuito in più aree geografiche di Azure, in base alle esigenze del cliente:
 
-- Asia Pacifico
-- Australia
-- Canada
-- Europa
-- Giappone
-- Regno Unito
 - Stati Uniti
+- Europa
 
 > [!NOTE]
-> Calcolo imposta non supporta le versioni precedenti di Dynamics 365, come Dynamics AX 2012, o le implementazioni on-premises di Dynamics 365.
+> Calcolo imposte non supporta le distribuzioni locali di Dynamics 365. Inoltre non supporta le versioni precedenti, come Dynamics AX 2012.
 
-## <a name="versions"></a>Versioni
-Ti consigliamo di importare e impostare la configurazione del calcolo delle imposte con la versione che corrisponde alla tua versione di Finance o Supply Chain Management.
+## <a name="feature-highlights"></a>Caratteristiche principali
 
-| Versione di Finance o Supply Chain Management | Versione di configurazione delle imposte               |
-| --------------- | --------------------------------------- |
-| 10.0.18         | Configurazione fiscale - Europa 30.12.82     |
-| 10.0.19         | Configurazione del calcolo delle tasse 36.38.193 |
-| 10.0.20         | Configurazione del calcolo dell'imposta 40.43.208 |
-| 10.0.21         | Configurazione del calcolo dell'imposta 40.48.215 |
-| 10.0.22         | Configurazione del calcolo dell'imposta 40.48.215 |
-| 10.0.23         | Configurazione del calcolo dell'imposta 40.50.221 |
-| 10.0.24         | Configurazione del calcolo dell'imposta 40.50.225 |
-| 10.0.25         | Configurazione del calcolo dell'imposta 40.50.225 |
-
-
-## <a name="data-flow"></a>Flusso di dati
-
-Ecco uno schema del processo di flusso dei dati per Calcolo imposta. 
-
-1. In RCS, visualizzare e importare configurazioni di modelli di documenti imponibili e configurazioni di mappatura dei modelli. Se devi estendere le configurazioni per uno scenario avanzato, vedi [Aggiungere campi di dati nelle configurazioni fiscali](tax-service-add-data-fields-tax-configurations.md).
-2. In RCS, creare o mantenere caratteristiche fiscali. È possibile utilizzare le funzioni fiscali per mantenere le aliquote d'imposta e le regole di applicabilità dell'imposta.
-3. Dopo che la configurazione delle caratteristiche fiscali è stata completata, pubblica le configurazioni fiscali e le caratteristiche fiscali da RCS al repository globale.
-4. In Finanza, seleziona quale versione di impostazione delle funzioni fiscali utilizzare per una specifica entità legale.
-5. In Finance e Supply Chain Management, operare le transazioni come al solito. Quando il calcolo delle tasse è necessario, il cliente raccoglierà le informazioni dalla transazione, come l'ordine di vendita o di acquisto, e impacchetterà le informazioni come payload. Verrà quindi inviata una richiesta per calcolare la tassa.
-6. La richiesta di calcolo dell'imposta viene ricevuta dal cliente e il calcolo viene completato. Il risultato fiscale viene poi restituito al cliente.
-7. Il client Dynamics 365 riceve il risultato dell'imposta e presenta il risultato del calcolo dell'imposta su una pagina dell'imposta sulle vendite.
+- Una matrice fiscale configurabile per determinare automaticamente e calcolare le imposte
+- Supporto per più partite IVA
+- Supporto dell'ordine di trasferimento per la determinazione e il calcolo delle imposte
+- Supporto per ordini di trasferimento per la determinazione di più partite IVA
 
 ## <a name="supported-transactions"></a>Transazioni supportate
 
-Il calcolo delle tasse può essere abilitato dalle transazioni. 
+Calcolo imposte può essere abilitato per persona giuridica e transazione. Sono supportate le transazioni che seguono:
 
-Le seguenti transazioni sono supportate nella versione 10.0.21: 
-
-- Vendite
+- Processo di vendita
 
     - Offerta di vendita
     - Ordine cliente
@@ -110,7 +83,7 @@ Le seguenti transazioni sono supportate nella versione 10.0.21:
     - Spese varie intestazione
     - Spese varie riga
 
-- Acquisti
+- Processo di acquisto
 
     - Ordine fornitore
     - Conferma
@@ -127,66 +100,10 @@ Le seguenti transazioni sono supportate nella versione 10.0.21:
     - Spese varie intestazione richiesta di offerta
     - Spese varie riga richiesta di offerta
 
-- Inventario
+- Processo magazzino
 
     - Ordine di trasferimento - spedizione
     - Ordine di trasferimento - ricezione
-
-Le seguenti transazioni sono supportate nella versione 10.0.23: 
-
-- Fattura a testo libero
-
-## <a name="supported-countriesregions"></a>Paesi/regioni supportati
-
-Il calcolo delle tasse può essere abilitato per entità giuridica. 
-
-I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.21:
-
-- Austria
-- Belgio
-- Danimarca
-- Estonia
-- Finlandia
-- Francia
-- Germania
-- Ungheria
-- Islanda
-- Italia
-- Lettonia
-- Lituania
-- Paesi Bassi
-- Norvegia
-- Polonia
-- Svezia
-- Svizzera
-- Regno Unito
-- Stati Uniti
-
-I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.22:
-
-- Australia
-- Bahrein
-- Canada
-- Egitto
-- RAS di Hong Kong
-- Kuwait
-- Nuova Zelanda
-- Oman
-- Qatar
-- Arabo Saudita
-- Sudafrica
-- Emirati Arabi Uniti
-
-I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.23:
-
-- Thailandia
-- Giappone
-- Malaysia
-- Singapore
-
-I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.24:
-
-- Messico
 
 ## <a name="related-resources"></a>Risorse correlate
 

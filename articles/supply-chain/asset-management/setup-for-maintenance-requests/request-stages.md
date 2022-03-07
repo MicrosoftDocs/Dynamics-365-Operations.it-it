@@ -1,12 +1,10 @@
 ---
 title: Stati del ciclo di vita delle richieste di intervento di manutenzione
 description: In questo argomento viene descritto come impostare gli stati del ciclo di vita delle richieste di intervento di manutenzione in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3c2f717969b938d05e68ac775d31b6a5d5ec26a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 4b54b58a29dc23e19f5065363c331351f24267ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022082"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360948"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Stati del ciclo di vita delle richieste di intervento di manutenzione
 
@@ -50,7 +48,7 @@ Gli stato del ciclo di vita delle richieste di intervento di manutenzione defini
 
 Nella figura seguente è illustrato un esempio della pagina **Stati del ciclo di vita delle richieste di intervento di manutenzione**.
 
-![Pagina Stati del ciclo di vita delle richieste di intervento di manutenzione](media/02-setup-for-requests.png)
+![Pagina Stati del ciclo di vita delle richieste di intervento di manutenzione.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Gli stati del ciclo di vita , i gruppi di stati del ciclo di vita e i tipi delle richieste di intervento di manutenzione sono correlati a vengono utilizzati allo stesso modo degli stati del ciclo di vita , gruppi di stati del ciclo di vita e i tipi degli ordini di lavoro. 
@@ -69,8 +67,8 @@ Dopo aver creato gli stati del ciclo di vita necessari per le richieste di inter
 5. Nella Scheda dettaglio **Stati del ciclo di vita**, selezionare gli stati del ciclo di vita che devono essere inclusi nel modello:
 
     - Per includere uno stato del ciclo di vita nel modello, selezionarlo nella sezione **Stati del ciclo di vita rimanenti** e quindi fare clic sul pulsante freccia destra ![Freccia destra](media/03-setup-for-requests.png) per spostarlo nella sezione **Stati del ciclo di vita selezionati**.
-    - Per includere tutti gli stati del ciclo di vita disponibili nel modello, selezionare il pulsante **Seleziona tutti gli stati disponibili** ![Seleziona tutti gli stati disponibili](media/04-setup-for-requests.png). Tutti gli stati del ciclo di vita verranno spostati nella sezione **Stati del ciclo di vita selezionati**.
-    - Per rimuovere uno stato del ciclo di vita dal modello, selezionarlo nella sezione **Stati del ciclo di vita selezionati** e quindi fare clic sul pulsante freccia sinistra ![Freccia sinistra](media/05-setup-for-requests.png) per spostarlo nella sezione **Stati del ciclo di vita rimanenti**.
+    - Per includere tutti gli stati del ciclo di vita disponibili nel modello, selezionare il pulsante **Seleziona tutti gli stati disponibili** ![Seleziona tutti gli stati disponibili.](media/04-setup-for-requests.png). Tutti gli stati del ciclo di vita verranno spostati nella sezione **Stati del ciclo di vita selezionati**.
+    - Per rimuovere uno stato del ciclo di vita dal modello, selezionarlo nella sezione **Stati del ciclo di vita selezionati** e quindi fare clic sul pulsante freccia destra ![Freccia destra](media/05-setup-for-requests.png) per spostarlo nella sezione **Stati del ciclo di vita rimanenti**.
 
 6. Nella Scheda dettaglio **Generale**, i campi della sezione **Aggiornamenti** sono pertinenti se si utilizza la riparazione in deposito.
 
@@ -79,4 +77,7 @@ Dopo aver creato gli stati del ciclo di vita necessari per le richieste di inter
 
 Nella figura seguente è illustrato un esempio della pagina **Modelli del ciclo di vita delle richieste di intervento di manutenzione**.
 
-![Pagina Modelli del ciclo di vita delle richieste di intervento di manutenzione](media/06-setup-for-requests.png)
+![Pagina Modelli del ciclo di vita delle richieste di intervento di manutenzione.](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

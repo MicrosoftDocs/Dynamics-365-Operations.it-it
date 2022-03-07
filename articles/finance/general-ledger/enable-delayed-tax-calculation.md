@@ -2,11 +2,9 @@
 title: Abilitare il calcolo IVA differito nei giornali di registrazione
 description: In questo argomento viene descritto come attivare la funzionalità del calcolo IVA differito per migliorare le prestazioni di calcolo dell'IVA quando il numero delle righe del giornale di registrazione è molto elevato.
 author: ericwang
-manager: Ann Beebe
 ms.date: 09/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4ea79747e8e7c078baa6e270ecebf88c4832e079
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968806"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350026"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Abilitare il calcolo IVA differito nei giornali di registrazione
 [!include [banner](../includes/banner.md)]
@@ -47,14 +45,14 @@ Il sistema assegna la priorità all'impostazione dell'intestazione del giornale 
 1. Passare a **Contabilità generale \> Impostazione contabilità generale \> Parametri di contabilità generale**.
 2. Nella scheda **IVA**, nella scheda dettaglio **Generale**, impostare l'opzione **Calcolo IVA differito** su **Sì**.
 
-![Immagine dei parametri di contabilità generale](media/delayed-tax-calculation-gl.png)
+![Immagine dei parametri di contabilità generale.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Attivare il calcolo IVA differito a livello di nome del giornale di registrazione
 
 1. Passare a **Contabilità generale \> Impostazione giornale di registrazione \> Nomi giornale di registrazione**.
 2. Nella scheda dettaglio **Generale**, nella sezione **IVA**, impostare l'opzione **Calcolo IVA differito** su **Sì**.
 
-![Immagine dei nomi del giornale di registrazione](media/delayed-tax-calculation-journal-name.png)
+![Immagine dei nomi del giornale di registrazione.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Attivare il calcolo IVA differito a livello di intestazione del giornale di registrazione
 
@@ -63,4 +61,7 @@ Il sistema assegna la priorità all'impostazione dell'intestazione del giornale 
 3. Selezionare un nome di giornale di registrazione.
 4. Nella scheda **Impostazione**, impostare l'opzione **Calcolo IVA differito** **Sì**.
 
-![Immagine della pagina del giornale di registrazione generale](media/delayed-tax-calculation-journal-header.png)
+![Immagine della pagina del giornale di registrazione generale.](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

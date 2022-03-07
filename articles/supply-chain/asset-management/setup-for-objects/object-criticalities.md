@@ -1,12 +1,10 @@
 ---
 title: Tipi di criticità dei cespiti
 description: L'argomento descrive i tipi di criticità dei cespiti in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776922"
 ---
 # <a name="asset-criticality-types"></a>Tipi di criticità dei cespiti
 
@@ -42,7 +40,7 @@ Per impostare la criticità, è necessario innanzitutto creare i tipi di critici
 4. Nel campo **Nome** immettere un nome per il tipo di criticità.
 5. Nel campo **Fattore** immettere un fattore. Il fattore viene utilizzato durante il calcolo della programmazione dell'ordine di lavoro per determinare il record di criticità da utilizzare. Il record con il più alto fattore viene utilizzato sempre. Questa impostazione è rilevante se, come illustrato nella figura seguente, righe di criticità vengono create con lo stesso valore di criticità.
 
-    ![Pagina Tipi di criticità](media/23-setup-for-objects.png)
+    ![Pagina Tipi di criticità.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Impostare la criticità cespiti
 
@@ -61,3 +59,6 @@ Per impostare la criticità, è necessario innanzitutto creare i tipi di critici
 - La criticità in un ordine di lavoro viene ricalcolata ogni volta in cui una riga di ordine di lavoro viene aggiunta o eliminatq dall'ordine di lavoro.
 - Se un ordine di lavoro contiene più processi dell'ordine di lavoro, la più alta criticità, a seconda del campo **Fattore** della pagina **Tipi di criticità**, è sempre utilizzata nell'ordine di lavoro.
 - In genere, la criticità cespiti può cambiare in un periodo. La criticità può essere influenzata dall'acquisto di nuova apparecchiatura, rinnovamenti, e così via. Si consiglia di rivalutare le criticità dei cespiti a intervalli regolari, (ad esempio una volta l'anno o ogni due anni) per assicurarsi che le definizioni di criticità corrispondano alla impostazione di produzione corrente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

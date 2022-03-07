@@ -2,25 +2,23 @@
 title: Panoramica Italia
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Italia.
 author: kfend
-manager: AnnBe
-ms.date: 08/25/2020
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
+ms.custom: intro-internal
 ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8354214906274f716ed4208f7d6d266b16de6496
-ms.sourcegitcommit: 5264aaec3723c40a219e4d2867afe1ba9cc5f2a2
+ms.openlocfilehash: ac5636506621f9eb60a4e6876753764413e3fb55
+ms.sourcegitcommit: 013196e9737acfc9a3d1f842f351e95f79f64d36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5153625"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "7878911"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
@@ -34,6 +32,10 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Comunicazione annuale imposte](emea-ita-yearly-tax-communication.md)
 - [Gestione e dichiarazione IVA per data di effettuazione dell'operazione (data del registro IVA)](emea-ita-vat-management.md)
 - [Data di competenza per le transazioni](emea-ita-competence-date.md)
+- Intrastat
+  - [Intrastat italiano](emea-ita-intrastat.md)
+  - [Pubblicare arrivi e spedizioni per Intrastat](emea-ita-post-arrivals-and-dispatches-for-intrastat.md)
+  - [Formato file Intrastat (IT)](/dynamics/s-e/365business/dynamices365finance_itintrastatfile)
 - [Ammortamento manuale dei cespiti](emea-ita-depreciation-of-fixed-assets.md)
 - [Verifica della data dei documenti di trasporto nelle fatture](emea-ita-packing-slip-date-verification-on-invoice.md)
 - [Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto](emea-ita-packing-slip.md)
@@ -57,5 +59,9 @@ In questo argomento vengono forniti i collegamenti alle risorse della documentaz
 - [Certificazione Unica](emea-ita-exil-unique-certification.md)
 - [Importazione protesto di effetti attivi](emea-ita-exil-protest-boe.md)
 - [Fatture elettroniche dei clienti](emea-ita-e-invoices.md)
+- [Fatture elettroniche del fornitore](emea-ita-vend-e-invoices.md)
 - [Controllo unificato della data di registrazione](emea-ita-post-date-control.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,36 +2,30 @@
 title: Utilizzare i file di sostituzione CSS
 description: Questo argomento descrive perché, quando e come utilizzare i file di sostituzione CSS (Cascading Style Sheets) in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413459"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964606"
 ---
 # <a name="work-with-css-override-files"></a>Utilizzare i file di sostituzione CSS
-
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive perché, quando e come utilizzare i file di sostituzione CSS (Cascading Style Sheets) in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Gli stili permanenti del sito dovrebbero generalmente essere gestiti attraverso un tema del sito. I temi forniscono i CSS e le impostazioni di stile fondamentali per i moduli su qualsiasi pagina del tuo sito. I temi vengono creati utilizzando l'SDK online di Dynamics 365 Commerce vengono distribuiti ai siti Web tramite Lifecycle Services (LCS) di Microsoft Dynamics. Le funzionalità di debug dei temi e le configurazioni dell'interfaccia del modulo nell'SDK aiutano gli sviluppatori del sito a creare pacchetti di progettazione del sito personalizzabili e coerenti. Quando questi pacchetti di progettazione vengono distribuiti in un sito, gli autori del sito possono concentrarsi sulla creazione, la modifica e la pubblicazione di contenuti anziché sullo sviluppo del sito.
 
@@ -107,10 +101,11 @@ Per disattivare un file di sostituzione CSS sul sito, effettuare le operazioni s
 
 [Aggiungere una favicon](add-favicon.md)
 
-[Aggiungere un messaggio di benvenuto](add-welcome-message.md)
-
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 
 [Aggiungere lingue al sito](add-languages-to-site.md)
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

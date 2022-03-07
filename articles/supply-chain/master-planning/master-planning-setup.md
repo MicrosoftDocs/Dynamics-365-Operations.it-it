@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5fd24ad91b669b054b88cd187309038f1716e582
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430962"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256209"
 ---
 # <a name="set-up-master-planning"></a>Impostare la pianificazione generale
 
@@ -227,3 +226,6 @@ Lead time + giorni negativi + data odierna – data fabbisogno
 Il sistema utilizza solo gli ordini di fornitura pianificati compresi in questo intervallo temporale e crea un nuovo ordine pianificato al di fuori di tale intervallo. Il vantaggio dei giorni negativi dinamici è che includeranno il lead time del singolo prodotto per riutilizzare gli ordini esistenti e impedire la creazione di nuovi ordini pianificati che termineranno in un giorno successivo, a causa dei ritardi causati dal lead time. 
 
 Per ulteriori informazioni, vedere [Giorni negativi e giorni negativi dinamici](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

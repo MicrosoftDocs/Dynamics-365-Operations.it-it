@@ -2,11 +2,9 @@
 title: Configurare le modalità e le spese di consegna del servizio clienti
 description: In questo argomento viene descritto come impostare le modalità di consegna e le spese per un ordine del servizio clienti in Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748573"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurare le modalità e le spese di consegna del servizio clienti
 
@@ -67,11 +65,11 @@ Nella sezione **Righe**, è possibile definire una o più spese per valuta, in b
 
 Le società spesso configurano le spese a livelli. In questo caso, l'importo che i clienti pagano per la consegna è basato sul valore dell'ordine. Per configurare le spese a livelli, immettere i valori nei campi **Da importo** e **A importo** oltre a definire le spese stesse nel campo **Valore spese**. Ad esempio, per gli ordini con un valore inferiore a $50, un rivenditore addebita $5,95 per una via terra. Per ordini con un valore uguale o maggiore di $50, ma inferiore a $100 il rivenditore addebita $7,95. Infine, per ordini con un valore uguale o maggiore di $100, il rivenditore offre la spedizione gratuita. Nella seguente figura viene illustrata la configurazione di queste spese.
 
-![Esempio di spese a livelli fisse](media/fixedtieredcharges.png)
+![Esempio di spese a livelli fisse.](media/fixedtieredcharges.png)
 
 È possibile utilizzare un misto di categorie per le spese, in base alle proprie esigenze aziendali. Ad esempio, per tutti gli ordini con un valore inferiore a $100, si applica un addebito fisso di $9,95 per la spedizione. Quindi, per gli ordini con valore uguale o maggiore di $100, le spese di consegna vengono calcolate al tasso del 5% del valore dell'ordine. Nella seguente figura viene illustrata la configurazione di queste spese.
 
-![Esempio di spese a livelli miste](media/mixedtieredcharges.png)
+![Esempio di spese a livelli miste.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Applicare modi di consegna durante la registrazione di ordini in un servizio clienti
 
@@ -94,3 +92,6 @@ Se l'impostazione **Attiva completamento ordine** è disattivato, gli utenti dev
 Ad esempio, per gli ordini che verranno spediti il giorno successivo per via aerea, il prelievo dal magazzino deve avvenire alle 13.00 di ogni giorno. In questo caso, è possibile creare un codice di urgenza e collegarlo a un qualsiasi modo di consegna del giorno successivo che viene configurato nel sistema. Quando il magazzino crea l'ondata di prelievi, è possibile utilizzare il codice di urgenza appropriato nel campo **Urgente** come filtro, in modo che il prelievo venga eseguito solo per gli ordini con modi di consegna collegati a quel codice.
 
 Inoltre, quando viene immesso un ordine di servizio clienti, è possibile applicare manualmente un codice di urgenza all'intestazione dell'ordine cliente o a una singola riga dell'ordine cliente. Anche in questo caso, il codice può essere utilizzato per l'ordinamento e i report. Talvolta un ordine deve essere gestito con attenzione a causa di un problema con il servizio clienti. In questo caso, è possibile applicare un codice di urgenza specifico all'intestazione o alle righe ordine per aiutare a identificare e ad assegnare una priorità all'ordine durante il processo di evasione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

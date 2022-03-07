@@ -1,39 +1,41 @@
 ---
 title: Definire e gestire un programma di benefit
-description: Le risorse umane forniscono un set di strumenti che possono essere utilizzati per impostare e gestire i benefit, le detrazioni e i piani di retribuzione dei lavoratori che un'organizzazione offre o elabora per i propri lavoratori. Questo articolo fornisce le informazioni su come impostare e gestire i benefit.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Le risorse umane forniscono un set di strumenti che possono essere utilizzati per impostare e gestire i benefit, le detrazioni e i piani di retribuzione dei lavoratori che un'organizzazione offre o elabora per i propri lavoratori. Questo argomento fornisce informazioni su come impostare e gestire i benefit.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419161"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065353"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definire e gestire un programma di benefit
 
-Human Resources fornisce un set di strumenti che possono essere utilizzati per impostare e gestire i benefit, le detrazioni e i piani di retribuzione dei lavoratori che un'organizzazione offre o elabora per i propri lavoratori. Questo articolo fornisce le informazioni su come impostare e gestire i benefit.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Human Resources fornisce un set di strumenti che possono essere utilizzati per impostare e gestire i benefit, le detrazioni e i piani di retribuzione dei lavoratori che un'organizzazione offre o elabora per i propri lavoratori. Questo argomento fornisce informazioni su come impostare e gestire i benefit.
 
 ## <a name="benefit-setup"></a>Impostazione dei benefit
 
 Prima che i lavoratori possano essere iscritti al benefit, è necessario creare gli elementi di ogni benefit. Questi elementi combinano piani di benefit simili e definiscono le impostazioni predefinite, ad esempio le percentuali di detrazione e i dettagli di contabilità. Molte di queste impostazioni possono essere modificate una volta che i lavoratori sono iscritti al benefit. Per ciascun piano di benefit, un'organizzazione può offrire più opzioni di iscrizione oppure un lavoratore può rinunciare all'iscrizione nel piano. 
 
-[![Flusso di elaborazione benefit](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Flusso di elaborazione benefit.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Elementi benefit
 
@@ -45,7 +47,7 @@ Prima di iniziare a creare i benefit e iscrivere i lavoratori, è necessario def
 
 Per ogni tipo di benefit, ad esempio visivo o dentistico, un'organizzazione può offrire uno o più piani ai lavoratori. Per ciascun piano, l'organizzazione può offrire opzioni diverse. Ad esempio, i lavoratori possono acquistare la copertura aggiuntiva dell'assicurazione vitalizia in una, due o tre volte la retribuzione annuale. Ogni combinazione di piano e di opzioni diventa un benefit a cui i lavoratori possono iscriversi. 
 
-[![immagine benefit](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![immagine benefit.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Idoneità
 Molti fattori determinano l'idoneità del lavoratore per diversi tipi di benefit che un datore di lavoro offre. Quando si crea un benefit in Dynamics 365 Human Resources, è possibile impostare il tipo di idoneità applicabile al benefit. 
@@ -64,3 +66,6 @@ Talvolta, un'organizzazione smette di offrire determinati benefit. In questo cas
 In modo analogo, la proroga di benefit collettiva consente di estendere la data di scadenza sia di un benefit che delle iscrizioni del lavoratore per il benefit, se si decide di offrire un benefit più lungo di quanto originariamente pianificato.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

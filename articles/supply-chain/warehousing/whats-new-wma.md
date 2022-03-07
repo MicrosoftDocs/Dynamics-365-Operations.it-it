@@ -1,80 +1,27 @@
 ---
 title: Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 description: Questo argomento elenca le funzionalità nuove e modificate per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
-author: Mirzaab
-ms.date: 01/18/2022
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067253"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485624"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
-
-## <a name="version-20150"></a>Versione 2.0.15.0
-
-Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
-
-- Prestazioni migliorate grazie alla risoluzione di un problema di perdita di memoria.
-- Risolto un problema per cui alcuni valori di campo non venivano aggiornati correttamente quando selezionati nella pagina dei dettagli.
-
-## <a name="version-20140"></a>Versione 2.0.14.0
-
-Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
-
-- Risolto un problema che disabilitava il pulsante Invia predefinito.
-
-## <a name="version-20130"></a>Versione 2.0.13.0
-
-Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
- 
-- Scorrimento tra le pagine migliorato con animazioni più fluide.
-- Risolte le risposte controintuitive ai movimenti di scorrimento e ai blocchi occasionali dello schermo.
-- Migliorate le combinazioni di colori di sfondo e testo in modalità scura per una migliore leggibilità.
-- Risolto un problema per cui il testo poteva diventare molto piccolo durante il ridimensionamento della finestra dell'app.
-- Risolto un problema che talvolta poteva causare l'arresto anomalo dell'app durante la scansione dei codici a barre.
-- Aggiunta la possibilità di sostituire un dispositivo di scorrimento con un pulsante.
-- Risolto un problema che poteva causare la visualizzazione del messaggio di errore dell'app "AADSTS7000215: fornito un segreto client non valido".
-- Risolto il problema con l'animazione del suggerimento che mostrava come chiudere una pagina utilizzando un gesto di scorrimento verso il basso.
-- Aggiunta la possibilità di chiudere una pagina utilizzando un gesto di scorrimento verso il basso.
-- Risolto un problema per cui i titoli dell'elenco a discesa non venivano mostrati nella pagina **Impostazioni utente**.
-- Risolto un problema di localizzazione per cui l'app non riconosceva una virgola (,) come separatore decimale.
-- Accessibilità migliorata.
-- Corretta la navigazione della pagina **Nuova connessione** per fornire una migliore accessibilità.
-- Risolto un problema per cui la tastiera software (su schermo) non veniva visualizzata alla selezione di un campo di input.
-- Risolto un problema che poteva causare l'arresto anomalo dell'app se gli utenti ridimensionavano rapidamente la finestra.
-- Risolto un problema per cui una pressione rapida di un tasto a volte veniva interpretata come una pressione prolungata.
-- Risolto un problema per cui il layout dell'app poteva essere danneggiato a causa delle personalizzazioni dei campi effettuate in Supply Chain Management.
-- Risolto un problema per cui le posizioni degli oggetti non venivano visualizzate correttamente.
-- Risolto un problema relativo al prelievo breve per il flusso di lavoro della variante di prodotto.
-- Rimossa la convalida non necessaria dei campi contenenti valori predefiniti preimpostati.
-- Prestazioni migliorate.
-- Aggiunta una nuova impostazione che consente agli utenti di scegliere come filtrare e ordinare i campi nella pagina della scheda.
-
-## <a name="version-20110"></a>Versione 2.0.11.0
-
-Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
-
-- Aggiunto supporto per i campi promossi.
-- Aggiunto supporto per lo spostamento da tastiera hardware.
-- Accessibilità migliorata.
-- Schede dei dettagli migliorate.
-- Deviazioni migliorate per i passaggi delle voci di menu.
-- Minori miglioramenti dell'interfaccia utente.
-- Risolto un problema che poteva causare l'arresto anomalo dell'app durante la scansione dei codici a barre.
-- Sono stati risolti vari problemi che potevano causare il blocco del sistema.
 
 ## <a name="version-20100"></a>Versione 2.0.10.0
 

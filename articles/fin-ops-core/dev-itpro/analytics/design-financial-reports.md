@@ -2,6 +2,7 @@
 title: Visualizzare e progettare report finanziari
 description: L'articolo fornisce esercizi che guidano alla visualizzazione e creazione dire report finanziari per Microsoft Dynamics 365 Finance.
 author: jcart1106
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97ecc4daa05f4cbc10266d00366bf69e063af2ff
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724445"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564868"
 ---
 # <a name="view-and-design-financial-reports"></a>Visualizzare e progettare report finanziari
 
@@ -151,7 +152,7 @@ Per questo esercizio verrà modificato un report predefinito esistente. Si aggiu
 4. Selezionare **File** &gt; **Salva con nome** e denominare il report **Conto patrimoniale e conto economico consolidati affiancati**.
 5. Modificare l'anno di base in 2012.
 6. Fare clic sulla freccia a discesa Tipo di struttura, quindi selezionare **Gerarchie organizzative**.
-7. Fare clic sulla freccia a discesa Struttura, quindi selezionare Disponibilità **Contoso**.
+7. Fare clic sulla freccia a discesa Struttura, quindi selezionare **Disponibilità Contoso**.
 8. Salvare le modifiche e generare il report. Se richiesto, selezionare tutte le unità di report. Una volta generato e aperto il report, è possibile esplorarlo.
 9. Selezionare **Opzioni report**.
 10. Selezionare **Aggiungere un filtro dimensioni** e scegliere **Reparto**.

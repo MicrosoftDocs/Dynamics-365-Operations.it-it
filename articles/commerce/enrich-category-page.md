@@ -2,42 +2,36 @@
 title: Migliorare una pagina di destinazione di categoria
 description: In questo argomento viene descritto come migliorare le pagine categoria in Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771009"
 ---
 # <a name="enrich-a-category-landing-page"></a>Migliorare una pagina di destinazione di categoria
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come migliorare le pagine categoria in Dynamics 365 Commerce.
 
-## <a name="overview"></a>Panoramica
-
 Commerce fornisce una pagina di destinazione predefinita per le categorie che viene utilizzata quando i dati di categoria sono visualizzati. Una pagina categoria predefinita contiene gli elementi necessari, ad esempio criteri di raffinamento, posizionamento dei prodotti categorizzati, opzioni,di ordinamento, un riepilogo delle scelte e controlli di impaginazione. 
 
 Tuttavia, anziché utilizzare la pagina categoria predefinita, è possibile utilizzare una pagina di destinazione per le categorie "migliorata" con più contenuto e più elementi specifici. Un miglioramento tipico potrebbe essere l'aggiunta alla pagina categoria di contenuto marketing specifico alla categoria. Questo contenuto potrebbe includere il posizionamento dei prodotti nelle categorie per scopi di cross-selling, elenchi editoriali, immagini, video e altro testo. È possibile modificare la pagina categoria predefinita o definire un'altra pagina categoria per una categoria specifica.
 
-![Pagina di destinazione di categoria migliorata](./media/CategoryLandingPages.png)
+![Pagina di destinazione di categoria migliorata.](./media/CategoryLandingPages.png)
 
 In Creazione di siti Web di Commerce, la pagina **Prodotti** include un elenco di categorie del canale assegnate al sito. Se lo stato **Migliorata** è selezionato per una pagina categoria, quella pagina è stata migliorata. In caso contrario, la pagina categoria predefinita e il contenuto vengono utilizzati per la categoria. È possibile visualizzare l'anteprima delle pagine categoria migliorate e non migliorate selezionando il nome della categoria.
 
@@ -65,3 +59,8 @@ Per migliorare una pagina categoria, effettuare le seguenti operazioni.
 [Migliorare una pagina prodotto](enrich-product-page.md)
 
 [Verificare l'accessibilità del contenuto della pagina](verify-accessibility.md)
+
+[Creare pagine di e-commerce dinamiche in base ai parametri URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

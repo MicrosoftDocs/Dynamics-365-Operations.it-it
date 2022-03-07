@@ -2,29 +2,28 @@
 title: Domande frequenti sulle azioni del personale
 description: Questo articolo contiene risposte alle domande che potrebbero essere poste se l'organizzazione utilizzasse le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale.
 author: andreabichsel
-manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 6d52e7e5203a4c311afb56259e9e1800ee0e5161
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419189"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333021"
 ---
 # <a name="personnel-actions-faq"></a>Domande frequenti sulle azioni del personale
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo articolo contiene risposte alle domande che potrebbero essere poste se l'organizzazione utilizzasse le azioni dipendente. Le azioni dipendente sono passaggi aggiuntivi da completare quando si eseguono attività correlate al personale. Esempi di attività che potrebbero richiedere azioni dipendente quando si creano nuove posizioni, si modificano valori di posizione esistenti, si assumono nuovi lavoratori, si trasferiscono lavoratori, si modifica la retribuzione lavoratore, si modificano assegnazioni di posizione o si termina un rapporto con i lavoratori.
 
@@ -43,7 +42,7 @@ Sono disponibili due tipi di azioni dipendente:
 ## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>Qual è il significato degli stati delle azioni dipendente?
 Le azioni dipendente possono avere i seguenti stati:
 
-- **Bozza**: se il flusso di lavoro viene utilizzato, l'azione non è stata inviata. Se il flusso di lavoro non viene utilizzato, l'azione non è stata completata.
+- **Bozza**: se viene utilizzato il flusso di lavoro, l'azione non è stata inviata. Se non viene utilizzato, l'azione non è stata completata.
 - **In revisione**: l'azione dipendente è stata inviata al flusso di lavoro, ma il flusso di lavoro non viene completato.
 - **In attesa di approvazione**: il flusso di lavoro è stato completato, ma le modifiche sono ancora in corso. Annullato: il flusso di lavoro è stato annullato o l'azione dipendente è stata richiamata. Rifiutato: la richiesta di azione è stata rifiutata dall'approvatore.
 - **Elaborazione azione**: la richiesta di azione è stata approvata e le modifiche sono in fase di elaborazione.
@@ -52,7 +51,7 @@ Le azioni dipendente possono avere i seguenti stati:
 - **Negato**: la richiesta di azione è stata negata dall'approvatore.
 
 ## <a name="can-i-delete-a-personnel-action"></a>È possibile eliminare un'azione dipendente?
-Sì, è possibile eliminare le azioni dipendente con lo stato **Bozza**, **Errore**, **Non riuscito** o **Annullato**.
+Sì, è possibile eliminare le azioni dipendente con lo stato **Bozza**, **Errore**, **Non riuscito** o **Annullato**. È possibile eliminare le azioni del personale con stato **Completato** solo se è stata impostata l'opzione **Consenti l'eliminazione delle azioni lavoratore completate** si **Sì** nella pagina **Parametri condivisi risorse umane**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Qual è la modalità più veloce per controllare lo stato di una richiesta di azione dipendente?
 Aprire qualsiasi pagina elenco di azioni dipendente e selezionare un'azione dipendente.
@@ -67,9 +66,9 @@ Se una richiesta di azione dipendente ha esito negativo, eseguire i passaggi ind
 > 3. Risolvere l'errore e quindi fare clic su **Completo** o **Invia**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Cosa succede a un'azione dipendente che utilizza il flusso di lavoro quando l'approvazione finale è completata?
-Se non sono presenti errori, l'azione dipendente diventa di sola lettura (È possibile visualizzare lo storico della pagina elenco **Tutte le azioni del lavoratore**, ma non è possibile modificare l'azione dipendente). Quando lo stato di un'azione dipendente è **Completato**, la posizione o il record del lavoratore è già stata aggiornata. Per visualizzare le modifiche eseguite, aprire la pagina elenco **Posizioni** o **Lavoratori**.
+Se non sono presenti errori, l'azione dipendente diventa di sola lettura (È possibile visualizzare lo storico nella pagina elenco **Tutte le azioni del lavoratore**, ma non è possibile modificare l'azione del personale). Quando lo stato di un'azione del personale è **Completato**, il record posizione o lavoratore è già stata aggiornata. Per visualizzare le modifiche eseguite, aprire la pagina elenco **Posizioni** o **Lavoratori**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Per quale motivo viene visualizzato il seguente errore durante l'immissione di un valore diverso da zero nel campo Tariffa retributiva? “Il valore non è incluso nell'intervallo valido. Deve essere compreso tra 0,00 e 0,00”
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Per quale motivo viene visualizzato il seguente errore durante l'immissione di un valore diverso da zero nel campo Tariffa retributiva? "Il valore non è compreso nell'intervallo valido. Deve essere compreso tra 0,00 e 0,00"
 Verrà visualizzato questo messaggio poiché il campo Livello nel modulo Mansione è vuoto per la mansione associata alla posizione selezionata.
 
 Per risolvere questo errore, effettuare le operazioni seguenti:
@@ -81,7 +80,7 @@ Per risolvere questo errore, effettuare le operazioni seguenti:
 > 5. Nel campo Livello selezionare un livello.
 > 6. Chiudere la pagina Mansione.
 > 7. Chiudere la pagina Posizione.
-> 8. Tornare alla scheda Retribuzione nella pagina del lavoratore e selezionare Retribuzione fissa.  Selezionare Nuovo e immettere la posizione del dipendente nel campo Posizione.  Immettere un valore nel campo Piano quindi immettere la retribuzione del dipendente nel campo Retribuzione.
+> 8. Tornare alla scheda Retribuzione nella pagina del lavoratore e selezionare Retribuzione fissa.  Selezionare Nuovo e immettere la posizione del dipendente nel campo Posizione.  Immettere un valore nel campo Piano, quindi immettere la retribuzione del dipendente nel campo Retribuzione.
 
 ## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Per quale motivo non è possibile modificare la data di validità nell'intestazione del modulo Azione lavoratore?
 Non è possibile modificare la data di validità poiché nel campo viene inserita automaticamente la data più logica per il tipo di azione.
@@ -92,3 +91,6 @@ Esempio
 - La data di validità di un'azione **Assumi lavoratore** è la data immessa nel campo **Data di inizio impiego**.
 - La data di validità di un'azione **Trasferisci lavoratore** è la data immessa nel campo **Data di inizio assegnazione** per il lavoratore.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

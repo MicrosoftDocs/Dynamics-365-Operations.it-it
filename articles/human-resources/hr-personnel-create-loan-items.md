@@ -2,28 +2,27 @@
 title: Crea articoli prestito
 description: Gli articoli prestito sono record che consentono di tenere traccia degli articoli fisici, ad esempio telefoni o computer, che la società presta ai lavoratori.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8317a2fbe9d857ed3824631241b99c333b6dc4e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 11c81e37952c59325c4f7dd46fd19599fbf8390f
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419193"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056830"
 ---
 # <a name="create-loan-items"></a>Crea articoli prestito
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -59,3 +58,6 @@ Gli articoli prestito sono record che consentono di tenere traccia degli articol
 14. Fare clic su OK.
 15. Aggiorna la pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

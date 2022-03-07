@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b804e840b98321ee9e509ea483b360ec42d12880
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: afe0f9945d86c0c7da88b427f582483ed38a54db837818c3e63c5ae2cc60cfbb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718383"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Differire l'esecuzione di elementi XML in formati ER
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323717"
 
 ## <a name="overview"></a>Panoramica
 
-È possibile utilizzare Designer operazioni del framework di [Creazione di report elettronici (ER)](general-electronic-reporting.md) per [configurare](./tasks/er-format-configuration-2016-11.md) il componente di formato di una soluzione ER utilizzata per generare documenti in uscita in formato XML. La struttura gerarchica del componente di formato configurato è costituita da elementi di formato di vari tipi. Questi elementi di formato vengono utilizzati per riempire i documenti generati con le informazioni necessarie in fase di esecuzione. Per impostazione predefinita, quando si esegue un formato ER, gli elementi del formato vengono eseguiti nello stesso ordine in cui sono presentati nella gerarchia dei formati: uno per uno, dall'alto verso il basso. Tuttavia, in fase di progettazione, è possibile modificare l'ordine di esecuzione di qualsiasi elemento XML del componente di formato configurato.
+È possibile utilizzare Designer operazioni del framework di [creazione di report elettronici (ER)](general-electronic-reporting.md)per [configurare](./tasks/er-format-configuration-2016-11.md) il [componente di formato](general-electronic-reporting.md#FormatComponentOutbound) di una soluzione ER utilizzata per generare documenti in uscita in formato XML. La struttura gerarchica del componente di formato configurato è costituita da elementi di formato di vari tipi. Questi elementi di formato vengono utilizzati per riempire i documenti generati con le informazioni necessarie in fase di esecuzione. Per impostazione predefinita, quando si esegue un formato ER, gli elementi del formato vengono eseguiti nello stesso ordine in cui sono presentati nella gerarchia dei formati: uno per uno, dall'alto verso il basso. Tuttavia, in fase di progettazione, è possibile modificare l'ordine di esecuzione di qualsiasi elemento XML del componente di formato configurato.
 
 Attivando l'opzione <a name="DeferredXmlElementExecution"></a>**Esecuzione differita** per un elemento XML nel formato configurato, è possibile differire (posticipare) l'esecuzione di quell'elemento. In questo caso, l'elemento non viene eseguito finché non vengono eseguiti tutti gli altri elementi dell'elemento padre.
 

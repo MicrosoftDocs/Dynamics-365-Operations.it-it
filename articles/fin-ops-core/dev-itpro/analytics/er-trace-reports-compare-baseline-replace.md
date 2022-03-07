@@ -1,12 +1,11 @@
 ---
 title: Miglioramenti nella tracciatura dei risultati dei report ER generati e nella comparazione degli stessi con i valori di base
-description: In questo argomento vengono fornite informazioni sul miglioramento della funzionalità di base ER in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019).
+description: Questo argomento descrive i miglioramenti alla funzionalità di base ER in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1579a0bb0dcf21ae16a54969e57ca88301041076
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682849"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568951"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Miglioramenti nella tracciatura dei risultati dei report ER generati e nella comparazione degli stessi con i valori di base
 
@@ -59,7 +58,7 @@ Per completare i passaggi in questo esempio, completare dapprima i passaggi dell
 
 La base è stata aggiunta per il formato **Formato per ottenere basi ER** selezionato, ma non ancora le regole di base per tale base.
 
-![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-AddBaseline2.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici, ancora nessuna regola](media/GER-BaselineSample-AddBaseline2.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 ### <a name="make-a-new-baseline-rule"></a>Creare un nuova regola di base
 
@@ -72,7 +71,7 @@ La base è stata aggiunta per il formato **Formato per ottenere basi ER** selezi
 7. Selezionare **OK**.
 8. Selezionare **Basi**.
 
-    ![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+    ![Pagina Basi del formato per la creazione di report elettronici, base selezionata](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
     Il file in uscita generato è stato allegato automaticamente alla base del formato ER eseguito. La regola di base è stata aggiunta automaticamente a questa base e contiene il riferimento al file allegato.
 
@@ -130,7 +129,7 @@ Per completare i passaggi in questo esempio, completare dapprima i passaggi dell
 3. Nell'elenco delle basi, selezionare la base configurata per il formato **Formato per ottenere basi ER**.
 4. Nella Scheda dettaglio **Basi**, selezionare **Elimina** per rimuovere la regola di base configurata in precedenza.
 
-![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-AddBaseline3.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici, eliminata](media/GER-BaselineSample-AddBaseline3.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Definire le sostituzioni per le associazioni del formato ER progettato
 
@@ -138,7 +137,7 @@ Per completare i passaggi in questo esempio, completare dapprima i passaggi dell
 2. Nella struttura dei componenti del formato, **Output**, espandere **Output\\Documento** e quindi selezionare la casella di controllo per **Output\\Documento\\DataOraElaborazione**.
 3. Selezionare **OK**.
 
-![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-AddBaseline4.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici, componenti](media/GER-BaselineSample-AddBaseline4.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 Il componente del formato ER selezionato è stato aggiunto all'elenco dei componenti nella scheda dettaglio **Sostituzioni**. Quando il formato ER di base viene eseguito in modalità di debug, l'associazione del formato per ogni componente verrà sostituita dall'associazione visualizzata nella colonna **Associazione**. Per modificare l'associazione predefinita per un componente elencata nella scheda dettaglio **Sostituzioni**, selezionare **Modifica**.
 
@@ -207,3 +206,6 @@ Per importare le impostazioni di base da un file XML archiviato nel server di Mi
 
 - [Tracciare i risultati del report generato e paragonarli ai valori di base](er-trace-reports-compare-baseline.md)
 - [Risorse registrazione attività](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

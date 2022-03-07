@@ -2,27 +2,24 @@
 title: Creare una risorsa operativa
 description: Una risorsa operativa esegue le attività di un progetto o di un processo di produzione.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2e59b1e6a83d902df98a0b40ee6c572a6567f05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ab91c449293338469fa2832156a85c4c32301fd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430866"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829044"
 ---
 # <a name="create-an-operations-resource"></a>Creare una risorsa operativa
 
@@ -81,3 +78,6 @@ Una risorsa operativa esegue le attività di un progetto o di un processo di pro
 4. Nel campo Ubicazione di input immettere o selezionare un valore.
     * Specificare il percorso del magazzino da cui la risorsa operativa sta utilizzando i materiali.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

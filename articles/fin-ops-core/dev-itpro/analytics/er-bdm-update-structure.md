@@ -2,11 +2,9 @@
 title: Aggiornare la struttura di un modello di documento aziendale
 description: In questo argomento viene illustrato come aggiornare la struttura di un modello di documento aziendale utilizzando la funzionalità Gestione documenti aziendali.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
-ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
+ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "4728091"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750486"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Aggiornare la struttura di un modello di documento aziendale 
 
@@ -106,3 +104,6 @@ Completare le seguenti procedure in [Panoramica di gestione dei documenti aziend
 [Panoramica dei report elettronici](general-electronic-reporting.md)
 
 [Panoramica di gestione dei documenti aziendali](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

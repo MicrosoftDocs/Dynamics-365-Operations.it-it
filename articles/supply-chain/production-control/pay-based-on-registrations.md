@@ -2,11 +2,9 @@
 title: Retribuzione basata sulle registrazioni
 description: In questo argomento viene descritto come la retribuzione viene calcolata in base alle registrazioni lavoratore.
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 98ca6f7713b2f605a49a97d391fb8485bea78c4b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715724"
 ---
 # <a name="pay-based-on-registrations"></a>Retribuzione basata sulle registrazioni
 
@@ -170,7 +168,7 @@ Per configurare il sistema in modo da distinguere chiaramente l'orario standard 
 
 Nella pagina **Parametri di calcolo**, selezionare **Straordinario** come tipo di specifica profilo e impostare l'opzione **Tempo retribuito** su **No**, come illustrato qui.
 
-| Specifica reg. | Tipo di specifica profilo | Calcolo   |     | Pagato         |     |
+| Specifica reg. | Tipo di specifica profilo | Calcolo   | Impostazione | Retribuito         | Impostazione |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
 | Orario di lavoro       | Straordinario                   | Orario standard | Sì | Tempo retribuito     | No  |
 |                    |                            | Tempo retribuito      | Sì | Straordinario retribuito | Sì |
@@ -561,7 +559,7 @@ Per contro, se la casella di controllo **Detrai straordinario** è deselezionata
 
 Nel seguente esempio viene illustrato come il conto flessibilità di un lavoratore può essere ridotto convertendo il periodo di assenza in un periodo di flessibilità in difetto.
 
-Il lavoratore entra alle 7:00 ed esce alle 13:00. Ha raggiunto un accordo con il supervisore secondo il quale può stare a casa durante il fine settimana se deduce queste ore dal suo conto flessibilità. Quando il lavoratore esce alle 13:00, gli viene richiesto di selezionare un codice assenza, in quanto il periodo di assenza per la parte rimanente della giornata lavorativa interessata non è compresa in un periodo di flessibilità in difetto pianificato. Per convertire la parte rimanente della giornata lavorativa in periodo di flessibilità in difetto, il lavoratore può selezionare un codice assenza impostato per ridurre il proprio conto di flessibilità.
+Il lavoratore entra alle 7:00 ed esce alle 13:00. Il lavoratore ha un contratto per cui può tornare a casa per il fine settimana se deduce queste ore dal proprio account flessibile. Quando il lavoratore esce alle 13:00, gli viene richiesto di selezionare un codice assenza, in quanto il periodo di assenza per la parte rimanente della giornata lavorativa interessata non è compresa in un periodo di flessibilità in difetto pianificato. Per convertire la parte rimanente della giornata lavorativa in periodo di flessibilità in difetto, il lavoratore può selezionare un codice assenza impostato per ridurre il proprio conto di flessibilità.
 
 Per ridurre il saldo delle ore flessibili per i lavoratori che registrano un'assenza in un giorno lavorativo, selezionare **Orario e presenze** &gt; **Impostazione** &gt; **Gruppi** &gt; **Gruppi assenze** e selezionare la casella di controllo **Riduci flessibilità**.
 
@@ -598,3 +596,6 @@ Se il lavoratore non risulta al lavoro un giorno e non sono presenti assenze pia
 - Inserimento automatico dell'assenza
 
 Quando le registrazioni giornaliere vengono calcolate per un lavoratore che ha diritto a ore flessibili, il codice assenza specificato nel campo **Inserimento automatico della flessibilità in difetto-** viene utilizzato come codice assenza predefinito. Se il lavoratore non ha diritto all'orario flessibile, viene utilizzato il codice assenza specificato nel campo **Inserimento automatico dell'assenza**. Se una società ha una combinazione di lavoratori che sono abilitati a usufruire degli orari flessibili e lavoratori che non lo sono, è necessario impostare entrambi i parametri.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

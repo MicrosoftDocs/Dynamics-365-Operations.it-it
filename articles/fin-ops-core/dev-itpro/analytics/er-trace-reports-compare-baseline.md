@@ -2,11 +2,9 @@
 title: Tenere traccia dei risultati dei report generati e confrontarli con i valori di base
 description: In questo argomento viene descritto come confrontare i risultati dei report ER generati ai valori di report di base.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d89922bd10b6db17d3fee22409137d6ec966858b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682825"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605207"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Tenere traccia dei risultati dei report generati e confrontarli con i valori di base
 
@@ -54,7 +52,7 @@ Per completare i passaggi in questo esempio, è necessario dapprima completare i
 2. Nel campo **Classe**, immettere **Allega file**.
 3. Nel campo **Gruppo**, immettere **File**.
 
-![Pagina Tipi di documento](media/GER-BaselineSample-SetupDocumentType.PNG "Schermata della pagina Tipi di documento")
+![Pagina Tipi di documento.](media/GER-BaselineSample-SetupDocumentType.PNG "Schermata della pagina Tipi di documento")
 
 > [!NOTE]
 > Un nuovo tipo di documento con lo stesso nome deve essere configurato per ogni set di dati in cui si prevede di utilizzare la funzionalità di base ER.
@@ -63,11 +61,11 @@ Per completare i passaggi in questo esempio, è necessario dapprima completare i
 
 1. Nell'area di lavoro **Creazione di report elettronici**, nella sezione **Collegamenti correlati**, selezionare **Parametri per la creazione di report elettronici**.
 
-    ![Area di lavoro Creazione di report elettronici](media/GER-BaselineSample-ERWorkspace.PNG "Schermata dell'area di lavoro Creazione di report elettronici")
+    ![Area di lavoro Creazione di report elettronici.](media/GER-BaselineSample-ERWorkspace.PNG "Schermata dell'area di lavoro Creazione di report elettronici")
 
 2. Nella scheda **Allegati**, nel campo **Base**, immettere o selezionare il tipo di documento appena creato.
 
-    ![Scheda Allegati della pagina Parametri per la creazione di report elettronici](media/GER-BaselineSample-ERParameters.PNG "Schermata della pagina Parametri per la creazione di report elettronici")
+    ![Scheda Allegati della pagina Parametri per la creazione di report elettronici.](media/GER-BaselineSample-ERParameters.PNG "Schermata della pagina Parametri per la creazione di report elettronici")
 
 3. Selezionare **Salva** e quindi chiudere la pagina **Parametri per la creazione di report elettronici**.
 
@@ -78,7 +76,7 @@ Per completare i passaggi in questo esempio, è necessario dapprima completare i
 3. Nella finestra di dialogo a discesa, nel campo **Nome**, immettere **Modello per ottenere basi ER**.
 4. Selezionare **Crea configurazione** per confermare la creazione di una nuova voce del modello di dati ER.
 
-![Finestra di dialogo a discesa Crea configurazione](media/GER-BaselineSample-ModelAdd.PNG "Schermata della finestra di dialogo a discesa Crea configurazione")
+![Finestra di dialogo Crea configurazione, aggiungi una nuova configurazione del modello ER.](media/GER-BaselineSample-ModelAdd.PNG "Schermata della finestra di dialogo a discesa Crea configurazione")
 
 ### <a name="design-a-data-model"></a>Progettare un modello di dati
 
@@ -92,7 +90,7 @@ Per completare i passaggi in questo esempio, è necessario dapprima completare i
 8. Selezionare **Cambia stato**.
 9. Selezionare **Completa** e quindi **OK**.
 
-![Pagina Configurazioni](media/GER-BaselineSample-ModelComplete.PNG "Schermata della pagina Configurazioni")
+![Pagina Configurazioni.](media/GER-BaselineSample-ModelComplete.PNG "Schermata della pagina Configurazioni")
 
 ### <a name="add-a-new-er-format-configuration"></a>Aggiungere una nuova configurazione di formato ER
 
@@ -101,7 +99,7 @@ Per completare i passaggi in questo esempio, è necessario dapprima completare i
 3. Nel campo **Nome**, immettere **Formato per ottenere basi ER**.
 4. Selezionare **Crea configurazione** per confermare la creazione di una nuova voce del formato ER.
 
-![Finestra di dialogo a discesa Crea configurazione](media/GER-BaselineSample-FormatAdd.PNG "Schermata della finestra di dialogo a discesa Crea configurazione")
+![Finestra di dialogo Crea configurazione, aggiungi una nuova configurazione del formato ER.](media/GER-BaselineSample-FormatAdd.PNG "Schermata della finestra di dialogo a discesa Crea configurazione")
 
 ### <a name="design-a-format"></a>Progettare un formato
 
@@ -109,41 +107,41 @@ Per questo esempio, si creerà un formato ER semplice per generare documenti XML
 
 1. Nella pagina **Configurazioni**, nel riquadro azioni, selezionare **Progettazione**.
 2. Selezionare **Aggiungi radice**.
-2. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
+3. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
 
     1. Nella struttura selezionare **Comune\\File**.
     2. Nel campo **Nome** immettere **Output**.
     3. Selezionare **OK**.
 
-3. Selezionare **Aggiungi**.
-4. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
+4. Selezionare **Aggiungi**.
+5. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
 
     1. Nella struttura selezionare **XML\\Elemento**.
     2. Nel campo **Nome** immettere **Documento**.
     3. Selezionare **OK**.
 
-5. Nella struttura selezionare **Output\\Documento**.
-6. Selezionare **Aggiungi**.
-7. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
+6. Nella struttura selezionare **Output\\Documento**.
+7. Selezionare **Aggiungi**.
+8. Nella finestra di dialogo a discesa, effettuare le seguenti operazioni:
 
     1. Nella struttura selezionare **XML\\Attributo**.
     2. Nel campo **Nome** immettere **ID**.
     3. Selezionare **OK**.
 
-    ![Pagina Progettazione formati](media/GER-BaselineSample-FormatLayoutDesign.PNG "Schermata della pagina Progettazione formati")
+    ![Pagina della progettazione dei formati, attributo XML selezionato nell'albero.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Schermata della pagina Progettazione formati")
 
-8. Nella scheda **Mapping**, selezionare **Elimina**.
-9. Selezionare **Aggiungi radice**.
-10. Nella finestra di dialogo a discesa, nella struttura, selezionare **Generale\\Parametro di input utente** e quindi eseguire quanto segue:
+9. Nella scheda **Mapping**, selezionare **Elimina**.
+10. Selezionare **Aggiungi radice**.
+11. Nella finestra di dialogo a discesa, nella struttura, selezionare **Generale\\Parametro di input utente** e quindi eseguire quanto segue:
 
     1. Nel campo **Nome** immettere **ID**.
     2. Nel campo **Etichetta**, immettere **Immetti ID**.
     3. Selezionare **OK**.
 
-11. Nella struttura selezionare **Output\\Documento\\Id**.
-12. Selezionare **Associa** e quindi **Salva**.
+12. Nella struttura selezionare **Output\\Documento\\Id**.
+13. Selezionare **Associa** e quindi **Salva**.
 
-![Pagina Progettazione formati](media/GER-BaselineSample-FormatMappingDesign.PNG "Schermata della pagina Progettazione formati")
+![Pagina della progettazione dei formati, scheda Mapping.](media/GER-BaselineSample-FormatMappingDesign.PNG "Schermata della pagina Progettazione formati")
 
 In base alla struttura progettata, il formato configurato genererà un file XML. Questo XML contiene l'elemento **Radice** con l'attributo **ID** impostato sul valore che l'utente immette nella finestra di dialogo Runtime ER.
 
@@ -153,11 +151,11 @@ In base alla struttura progettata, il formato configurato genererà un file XML.
 2. Nel campo **Immetti ID**, immettere **1**.
 3. Selezionare **OK**.
 
-    ![Finestra di dialogo Parametri per la creazione di report elettronici](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Schermata della finestra di dialogo Parametri per la creazione di report elettronici")
+    ![Finestra di dialogo parametri Creazione di report elettronici.](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Schermata della finestra di dialogo Parametri per la creazione di report elettronici")
 
 4. Salvare una copia locale del file **out.Admin.xml** generato, di modo che sia possibile utilizzarla successivamente come base per questo formato ER.
 
-    ![Notifica sul file generato nella pagina Configurazioni](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Schermata della notifica sul file generato nella pagina Configurazioni")
+    ![Notifica sul file generato nella pagina Configurazioni.](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Schermata della notifica sul file generato nella pagina Configurazioni")
 
 ### <a name="configure-er-parameters-to-use-the-baseline-feature"></a>Configurare parametri ER per utilizzare la funzionalità di base
 
@@ -165,20 +163,20 @@ In base alla struttura progettata, il formato configurato genererà un file XML.
 2. Impostare l'opzione **Esegui in modalità di debug** su **Sì**.
 3. Selezionare **OK**.
 
-![Finestra di dialogo Parametri dell'utente](media/GER-BaselineSample-ERUserParameters.PNG "Schermata della finestra di dialogo Parametri dell'utente")
+![Finestra di dialogo Parametri dell'utente.](media/GER-BaselineSample-ERUserParameters.PNG "Schermata della finestra di dialogo Parametri dell'utente")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Aggiungere una nuova base per il formato ER progettato
 
 1. Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Configurazioni**.
 2. Nel riquadro azioni selezionare **Basi**.
 
-    ![Pulsante Basi nella pagina Configurazioni](media/GER-BaselineSample-OpenBaselinePage.PNG "Schermata del pulsante Basi nella pagina Configurazioni")
+    ![Pulsante Basi nella pagina Configurazioni.](media/GER-BaselineSample-OpenBaselinePage.PNG "Schermata del pulsante Basi nella pagina Configurazioni")
 
 3. Nel Riquadro azioni selezionare **Nuovo**.
 4. Selezionare il formato ER **Formato per ottenere basi ER** progettato in precedenza.
 5. Selezionare **Salva**.
 
-![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-AddBaseline.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina Base del formato per la creazione di report elettronici.](media/GER-BaselineSample-AddBaseline.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 
@@ -188,7 +186,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 2. Nel riquadro azioni selezionare **Nuovo** \> **File**. Nei parametri ER, il tipo di documento **File** deve essere già stato selezionato come tipo di documento utilizzato per archiviare file di base.
 3. Selezionare **Sfoglia** e selezionare il file **out.Admin.xml** generato quando si è eseguito il formato ER configurato in precedenza.
 
-    ![Pagina Allegati](media/GER-BaselineSample-UploadBaselineFile.PNG "Schermata della pagina Allegati")
+    ![Pagina Allegati.](media/GER-BaselineSample-UploadBaselineFile.PNG "Schermata della pagina Allegati")
 
 4. Chiudere la pagina **Allegati**.
 5. Nella scheda dettaglio **Basi**, selezionare **Nuovo**.
@@ -203,7 +201,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 10. Nel campo **Base**, immettere o selezionare l'allegato **out.Admin**.
 11. Selezionare **Salva**.
 
-![Pagina Base del formato per la creazione di report elettronici](media/GER-BaselineSample-SetupBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
+![Pagina basi dei formati per la creazione di report elettronici, scheda dettaglio Basi con una base selezionata.](media/GER-BaselineSample-SetupBaselineLine.PNG "Schermata della pagina Basi del formato per la creazione di report elettronici")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Eseguire il formato ER progettato ed esaminare il registro per analizzare i risultati
 
@@ -214,7 +212,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 5. Selezionare **OK**.
 6. Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Registri debug configurazione**.
 
-    ![Pagina Voci di registro report elettronici](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Schermata della pagina Voci di registro report elettronici")
+    ![Pagina dei registri di esecuzione dei rapporti elettronici, con basi uguali.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Schermata della pagina Voci di registro report elettronici")
 
     > [!NOTE]
     > Il registro di esecuzione contiene informazioni sui risultati del confronto tra il file generato e la base configurata. In questo esempio, il registro indica che il file generato e la base sono uguali.
@@ -230,7 +228,7 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 5. Selezionare **OK**.
 6. Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Registri debug configurazione**.
 
-    ![Pagina Voci di registro report elettronici](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Schermata della pagina Voci di registro report elettronici")
+    ![Pagina dei registri di esecuzione dei rapporti elettronici, con basi diverse.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Schermata della pagina Voci di registro report elettronici")
 
     > [!NOTE]
     > Il registro di esecuzione contiene informazioni sui risultati del confronto tra il file generato e la base configurata. In questo esempio, il registro indica che il file generato e la base differiscono.
@@ -243,3 +241,6 @@ La base viene aggiunta per il formato **Formato per ottenere basi ER**.
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Configurare il framework di report elettronici](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

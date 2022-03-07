@@ -2,43 +2,48 @@
 title: Ordini di magazzino per unità di scala nel cloud e nella rete perimetrale
 description: In questo argomento vengono fornite informazioni sulla capacità degli ordini di magazzino utilizzata come parte del carico di lavoro dell'unità di scala di magazzino.
 author: perlynne
-ms.date: 04/22/2021
+ms.date: 01/14/2021
 ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.region: Global
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: SCM
 ms.author: perlynne
-ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.search.validFrom: 2021-01-14
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471694"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836688"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Ordini di magazzino per unità di scala nel cloud e nella rete perimetrale
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
 > Non tutte le funzionalità aziendali sono completamente supportate nell'anteprima pubblica quando vengono utilizzati i carichi di lavoro delle unità di scala. Se stai utilizzando le unità di scala, assicurati di utilizzare solo i processi che in questo argomento vengono descritti come supportati in modo esplicito.
 
 ## <a name="what-are-warehouse-orders"></a>Cosa sono gli ordini di magazzino?
 
-Gli *ordini di magazzino* sono un tipo di ordine utilizzato per supportare le distribuzioni di hub e unità di scala in magazzino. Consentono di ricevere e spedire l'inventario quando si esegue un carico di lavoro di magazzino su un'unità di scala.
+Gli *ordini di magazzino* sono un tipo di ordine creato per supportare le distribuzioni di hub e unità di scala in magazzino. Ti consentono di ricevere le scorte quando esegui un carico di lavoro di magazzino su un'unità di scala. Attualmente sono utilizzati solo con ordini fornitore.
 
-Gli ordini di magazzino vengono utilizzati come parte dell'elaborazione della gestione del magazzino sia in entrata che in uscita. Sono creati nell'ambito del processo *Rilascio in magazzino*, che viene inizializzato sull'hub.
-Per l'elaborazione in entrata, Warehouse Mobile App viene utilizzata per registrare l'inventario fisico disponibile durante l'elaborazione degli ordini in entrata, disponibile per gli ordini di acquisto e di produzione che specificano un magazzino di unità di scala e gli articoli che sono abilitati all'uso dei processi di gestione del magazzino.
-Gli ordini di magazzino in uscita vengono utilizzati come parte del processo di ciclo della spedizione per gli ordini cliente e di trasferimento.
+Gli ordini di magazzino vengono utilizzati come parte dell'elaborazione della gestione del magazzino, ad esempio quando l'app per dispositivi mobili Gestione magazzino viene utilizzata per registrare le scorte fisiche disponibili durante l'elaborazione di un ordine fornitore in entrata. Gli ordini di magazzino vengono creati come parte del processo *Rilascia in magazzino* disponibile per ordini fornitore che specificano un magazzino di unità di scala e articoli abilitati all'utilizzo dei processi di gestione magazzino.
 
 > [!IMPORTANT]
 > Gli ordini di magazzino sono disponibili solo nelle distribuzioni che utilizzano [carichi di lavoro di gestione del magazzino per unità di scala cloud e perimetrali](cloud-edge-workload-warehousing.md).
 
-## <a name="create-an-inbound-warehouse-order"></a>Creare un ordine di magazzino in entrata
+## <a name="create-a-warehouse-order"></a>Creare un ordine di magazzino
 
-Per creare un ordine di magazzino in entrata per un processo di ordine fornitore, attenersi alla seguente procedura.
+Per creare un ordine di magazzino, segui questi passaggi.
 
 1. Accedi all'istanza di Microsoft Dynamics 365 Supply Chain Management in esecuzione nell'hub. Devi avviare il processo *Rilascia in magazzino* mentre sei connesso all'hub.
 1. Andare ad **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore**.
@@ -67,8 +72,6 @@ Nella visualizzazione **Righe ordine di magazzino** è possibile monitorare l'av
 
 - Vai a **Gestione magazzino \> Richieste e segnalazioni \> Righe ordine di magazzino** e utilizza il filtro per trovare le righe che stai cercando.
 - Vai a **Approvvigionamento \> Ordini fornitore \> Tutti gli ordini fornitore** e apri l'ordine fornitore pertinente. Nella sezione **Righe ordine fornitore**, seleziona una o più righe, quindi, sulla barra degli strumenti, seleziona **Magazzino \> Voci di ricevimento magazzino**.
-
-[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

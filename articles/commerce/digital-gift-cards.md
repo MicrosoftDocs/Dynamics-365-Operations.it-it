@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e0cbab05cfd9dcde8ec5caf802d13cd10bc9123716b46307616b0e3e66f0f061
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727559"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792873"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Gift card digitali per l'e-commerce
 
@@ -34,13 +34,13 @@ L'acquisto di gift card digitali è supportato in Dynamics 365 Commerce versione
 
 La figura seguente mostra un esempio della pagina dei dettagli del prodotto (PDP) per una gift card digitale sul sito di e-commerce Fabrikam.
 
-![Esempio di PDP di una gift card digitale sul sito e-commerce di Fabrikam.](./media/GiftcardPDP.PNG)
+![Esempio di PDP di una gift card digitale sul sito e-commerce di Fabrikam](./media/GiftcardPDP.PNG)
 
 ## <a name="turn-on-the-digital-gift-card-feature-in-commerce-headquarters"></a>Attivare la funzionalità delle gift card digitali in Commerce headquarters
 
 Affinché il flusso di acquisto delle gift card digitali funzioni in Dynamics 365 Commerce, la funzione **Acquisto di gift card in e-commerce** deve essere attivata in Commerce headquarters. Puoi trovare la funzione nell'area di lavoro **Gestione funzionalità** in Commerce headquarters, come mostrato nell'illustrazione seguente.
 
-![Area di lavoro Gestione funzionalità in Commerce headquarters.](./media/Featureflag.PNG)
+![Area di lavoro Gestione funzionalità in Commerce headquarters](./media/Featureflag.PNG)
 
 ## <a name="configure-a-digital-gift-card-in-commerce-headquarters"></a>Configurare una gift card digitale in Commerce headquarters
 
@@ -49,16 +49,16 @@ I prodotti della gift card digitale devono essere configurati in Commerce headqu
 - Quando configuri i prodotti delle gift card digitali nella finestra di dialogo **Nuovo prodotto** imposta il campo **Tipo di prodotto** su **Servizio**. (Per aprire la finestra di dialogo, vai a **Retail e Commerce \> Prodotti e categorie \> Prodotti per categoria** e seleziona **Nuovo**). I prodotti di tipo **Servizio** non vengono controllati per l'inventario disponibile prima che venga effettuato un ordine. Per ulteriori informazioni, vedi [Creare un nuovo prodotto](create-new-product-commerce.md#create-a-new-product).
 - Nella pagina **Parametri di Commerce** nella scheda **Registrazione**, il campo **Prodotto gift card** deve essere impostato su **Gift card digitale**, come mostrato nell'illustrazione seguente. Se il prodotto è una gift card esterna, vedi [Supporto per gift card esterne](./dev-itpro/gift-card.md) per maggiori informazioni.
 
-    ![Campo del prodotto gift card in Commerce headquarters.](./media/PostGiftcard.png)
+    ![Campo del prodotto gift card in Commerce headquarters](./media/PostGiftcard.png)
 
-- Se una gift card deve supportare più importi predefiniti (ad esempio, $25, $50 e $100), il campo **Dimensioni** deve essere utilizzato per impostare tali importi predefiniti. Ogni importo predefinito sarà una variante. Per ulteriori informazioni sulle dimensioni prodotto, vedi [Dimensioni del prodotto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
+- Se una gift card deve supportare più importi predefiniti (ad esempio, $25, $50 e $100), il campo **Dimensioni** deve essere utilizzato per impostare tali importi predefiniti. Ogni importo predefinito sarà una variante. Per ulteriori informazioni sulle dimensioni prodotto, vedi [Dimensioni del prodotto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
 - Se i clienti devono essere in grado di specificare un importo personalizzato per una gift card, imposta prima una variante che consenta un importo personalizzato. Quindi, apri il prodotto dalla pagina **Prodotti rilasciati nella categoria** quindi nella scheda dettaglio **Commerce** imposta il campo **Specifica prezzo** su **È necessario digitare un nuovo prezzo**, come mostrato nell'illustrazione seguente. Questa impostazione garantisce che i clienti possano inserire un prezzo quando esplorano il prodotto su una pagina PDP.
 
-    ![Digitare il campo del prezzo in Commerce headquarters.](./media/KeyInPrice.png)
+    ![Digitare il campo del prezzo in Commerce headquarters](./media/KeyInPrice.png)
 
-- La modalità di consegna di una gift card digitale deve essere impostata su **Elettronico**. Nella pagina **Modalità di consegna** (**Retail e Commerce \> Impostazione canale \> Modalità di consegna**), seleziona la modalità di consegna **Elettronico** nel riquadro elenco, quindi aggiungi il prodotto della gift card digitale alla griglia nella scheda dettaglio **Prodotti** come mostrato nell'illustrazione seguente. Per ulteriori informazioni, vedi [Impostare modalità di consegna](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- La modalità di consegna di una gift card digitale deve essere impostata su **Elettronico**. Nella pagina **Modalità di consegna** (**Retail e Commerce \> Impostazione canale \> Modalità di consegna**), seleziona la modalità di consegna **Elettronico** nel riquadro elenco, quindi aggiungi il prodotto della gift card digitale alla griglia nella scheda dettaglio **Prodotti** come mostrato nell'illustrazione seguente. Per ulteriori informazioni, vedi [Impostare modalità di consegna](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
-    ![Prodotti gift card digitali nella pagina Modalità di consegna in Commerce headquarters.](./media/ElectronicMode.PNG)
+    ![Prodotti gift card digitali nella pagina Modalità di consegna in Commerce headquarters](./media/ElectronicMode.PNG)
 
 - Assicurati che un profilo di funzionalità online sia stato creato e associato al tuo punto vendita online in Commerce headquarters. Nel profilo di funzionalità, imposta l'opzione **Aggrega prodotti** su **Sì**. Questa impostazione garantisce l'aggregazione di tutti gli articoli tranne le gift card. Per ulteriori informazioni, vedi [Creare un profilo di funzionalità online](online-functionality-profile.md).
 - Per assicurarti che i clienti ricevano un'e-mail dopo la fatturazione di una gift card, crea un nuovo tipo di notifica e-mail nella pagina **Profili di notifica e-mail** e imposta il campo **Tipo di notifica e-mail** su **Emetti gift card**. Per ulteriori informazioni, vedi [Impostare un profilo di notifica e-mail](email-notification-profiles.md).
@@ -89,9 +89,9 @@ Per configurare un importo personalizzato per una gift card digitale in Creazion
 
 [Creare un nuovo prodotto in Commerce](create-new-product-commerce.md)
 
-[Imposta la modalità di consegna](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Imposta la modalità di consegna](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Dimensioni prodotto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
+[Dimensioni prodotto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
 
 [Impostare un profilo di notifica tramite posta elettronica](email-notification-profiles.md)
 

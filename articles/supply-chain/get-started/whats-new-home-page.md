@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3350afc5f9537a0bd97b9c5257a66039b9dcb55c
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: 686f37f4817b3ec33ab362926964cb527df602ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014560"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259045"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Novità o modifiche in Dynamics 365 Supply Chain Management
 
@@ -67,3 +67,6 @@ Per visualizzare novità o modifiche nei rilasci prima di novembre 2019, vedere 
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | novembre 2016    | [Novità o modifiche introdotte introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | 2016° maggio         | [Novità o modifiche introdotte in Dynamics  AX versione applicazione 7.0.1 (maggio 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016 febbraio    | [Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

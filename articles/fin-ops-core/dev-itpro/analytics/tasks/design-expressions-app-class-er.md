@@ -1,12 +1,10 @@
 ---
 title: Progettare espressioni di ER per chiamare i metodi delle classi dell'applicazione
-description: In questo manuale sono disponibili informazioni su come riutilizzare la logica dell'applicazione esistente nelle configurazioni dei report elettronici (ER) chiamando i metodi richiesti delle classi dell'applicazione nelle espressioni ER.
+description: Questo argomento descrive come riutilizzare la logica dell'applicazione esistente nelle configurazioni dei report elettronici chiamando i metodi richiesti delle classi dell'applicazione.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 37cf01ac4b23717ebddaaefe6bcb06be0ff82dc6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682023"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752510"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Progettare espressioni di ER per chiamare i metodi delle classi dell'applicazione
 
@@ -157,3 +155,6 @@ Per scopi di verifica, eseguire il mapping di formato utilizzando il file Sample
 2. Fare clic su OK.
     * Esaminare l'output in formato XML, che rappresenta i dati che sono stati importati dal file selezionato e trasferiti nel modello dati. Tenere presente che solo le righe 3 del file TXT importato sono state elaborate. Nella riga 4 il codice IBAN non valido è stato ignorato e un messaggio di errore viene inviato nel Registro informazioni.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

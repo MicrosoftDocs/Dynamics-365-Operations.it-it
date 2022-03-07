@@ -2,11 +2,9 @@
 title: Guide attività nuove o aggiornate (maggio 2016)
 description: In questo articolo vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (maggio 2016 -- tutte le lingue) per Microsoft Dynamics AX. Nessuna nuova libreria introduttiva è stata rilasciata.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: fda3942621a849e7aa1095dddd004ba458933af7
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 47ade053846e39ae6e5a914bb002b20a18b8ecde
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796582"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749730"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Guide attività nuove o aggiornate (maggio 2016)
 
@@ -193,3 +191,6 @@ La libreria unificata APQC (maggio 2016) contiene le guide attività da utilizza
 [Guide attività nuove o aggiornate (agosto 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Guide attività nuove o aggiornate (novembre 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Lavoratori senza impiego
-description: I lavoratori senza impiego futuro, attivo o storico con la tua organizzazione compaiono nella pagina Lavoratori senza impiego.
-author: twheeloc
-ms.date: 11/03/2021
+description: I lavoratori senza impiego futuro, attivo o storico con la tua organizzazione compaiono nel modulo Lavoratori senza impiego.
+author: andreabichsel
+ms.date: 04/06/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,26 +10,23 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0b8fe7dd0818fa1c3cc4224e73035849f9dadfe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 71cb119e533e64b14badf65f55e8c4d5aa4c4b2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070553"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356586"
 ---
 # <a name="workers-without-employment"></a>Lavoratori senza impiego
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-I lavoratori senza impiego futuro, attivo o storico con la tua organizzazione compaiono nella pagina **Lavoratori senza impiego**. I lavoratori di questo tipo possono essere visualizzati quando si importano lavoratori senza un record di impiego o quando si elimina l'impiego di un lavoratore tramite **Lavoratori \> Storico esperienze lavorative**.
+I lavoratori senza impiego futuro, attivo o storico con la tua organizzazione compaiono nel modulo **Lavoratori senza impiego**. I lavoratori con questo stato possono essere visualizzati quando si importano lavoratori senza un record di impiego o quando si elimina l'impiego di un lavoratore tramite **Lavoratori > Storico esperienze lavorative**.
 
-Per impostazione predefinita, la pagina **Lavoratori senza impiego** è disponibile per i seguenti ruoli:
+Per impostazione predefinita, il modulo **Lavoratori senza impiego** è disponibile per i seguenti ruoli:
 
 - Assistente risorse umane
 - Responsabile risorse umane

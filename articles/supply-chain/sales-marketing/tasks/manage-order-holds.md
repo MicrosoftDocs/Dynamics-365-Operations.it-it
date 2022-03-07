@@ -2,26 +2,23 @@
 title: Gestire sospensioni ordine
 description: In questa procedura viene illustrato come mettere in sospeso ordini cliente, come utilizzare i check-out della sospensioni ordine e come rimuovere le sospensioni ordine.
 author: omulvad
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans, MCRHoldCheckOutOverride, MCRHoldCodeTable, MCRItemListCopying, MCRItemListTable, MCROMHoldList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9caf6651813f0111b873db1769140d973f1a2e3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a0a6acbc55a69f854463e72391fb0fff4dfb459c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431242"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817727"
 ---
 # <a name="manage-order-holds"></a>Gestire sospensioni ordine
 
@@ -70,3 +67,6 @@ In questa procedura viene illustrato come mettere in sospeso ordini cliente, com
     - L'azione **Cancella e invia** è applicabile solo quando si utilizza la funzionalità Servizio clienti.  
 8. Fare clic su **Cancella sospensioni**. La sospensione è stata cancellata dall'ordine e rimossa dall'elenco delle sospensioni attive. Per visualizzare tutte le sospensioni o i relativi sottoinsiemi in base a uno stato specifico, modificare il valore nel campo Mostra.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

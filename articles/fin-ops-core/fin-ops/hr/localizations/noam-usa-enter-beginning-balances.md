@@ -1,12 +1,10 @@
 ---
 title: Immettere i saldi iniziali delle retribuzioni
-description: Nell'argomento vengono descritti i passaggi necessari per immettere i saldi iniziali per codici reddito, detrazioni, benefit e imposte. Queste informazioni sono utili ai partner per migrare o trasferire dati per una nuova implementazione di retribuzione da un altro sistema.
+description: Nell'argomento vengono descritti i passaggi necessari per immettere i saldi iniziali per codici reddito, detrazioni, benefit e imposte.
 author: andreabichsel
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797786"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721878"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Immettere i saldi iniziali delle retribuzioni
 
@@ -166,3 +164,6 @@ Lo stesso processo può essere eseguito negli incrementi trimestrali se necessar
 2. Fare clic su **Sì** quando il messaggio "Quando si storna il rendiconto di pagamento, viene creato un rendiconto di pagamento di storno per compensare il rendiconto di pagamento. Il rendiconto di pagamento non può inoltre essere modificato. Stornare il rendiconto di pagamento?" viene visualizzato. 
 
 Dopo aver stornato il rendiconto di pagamento, è possibile generarne uno nuovo per il lavoratore dalla busta paga creata in precedenza. Assicurarsi di correggere tutte le righe errate nella busta paga prima di generare il nuovo rendiconto di pagamento, quindi generare nuovi i rendiconti di pagamento con gli importi corretti. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,29 +2,28 @@
 title: Panoramica del rifornimento
 description: In questo argomento vengono descritte le strategie di rifornimento disponibili per i magazzini che utilizzano la funzionalità disponibile in Gestione magazzino.
 author: Mirzaab
-manager: tfehr
 ms.date: 02/19/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 90043
+ms.custom:
+- "90043"
+- intro-internal
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc7ae950ed32a75b8767d764c1b77193c454381
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654126"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985786"
 ---
 # <a name="replenishment-overview"></a>Panoramica del rifornimento
 
@@ -69,7 +68,7 @@ Anziché sommare la domanda alla fine di un processo di allocazione ed effettuar
 
 ## <a name="replenishment-prerequisites"></a>Prerequisiti di rifornimento
 
-|      Prerequisito       |                                                                                                                                descrizione                                                                                                                                 |
+|      Prerequisito       |                                                                                                                                Descrizione                                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |          Articolo           |                                                                                                        Gli articoli devono essere abilitati per i processi di gestione magazzino.                                                                                                        |
 |        Magazzino        | Il magazzino deve essere abilitato per i processi di gestione magazzino. Per abilitare un magazzino per i processi di gestione magazzino, nella pagina <strong>Magazzino</strong> selezionare il magazzino, quindi selezionare l'opzione <strong>Usa processi di gestione magazzino</strong>. |
@@ -79,3 +78,6 @@ Anziché sommare la domanda alla fine di un processo di allocazione ed effettuar
 |   Direttive ubicazione   |                                                       Le direttive di ubicazione sono necessarie per guidare il lavoro nelle ubicazioni in cui è richiesto il rifornimento e nelle ubicazioni da cui provengono le scorte.                                                        |
 |     Modelli di lavoro      |                                                   Modelli di lavoro di tipo <strong>Rifornimento</strong> sono necessari per creare il lavoro di rifornimento in modo che le scorte possano essere spostate nell'ubicazione desiderata.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

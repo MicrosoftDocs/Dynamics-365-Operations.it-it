@@ -1,8 +1,8 @@
 ---
-title: Abilitare proposte di budget
+title: Abilitare proposte di budget (anteprima)
 description: Questo argomento spiega come attivare la funzionalità Proposta di budget in Finance Insights.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,28 +15,31 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd0ba4307f93148c241810759df9a95578592ba9
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: cc7b06ee40553a254a939babc30e6f5c99f85507c1a3db4e916f480560cf8835
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109556"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768941"
 ---
-# <a name="enable-budget-proposal"></a>Abilitare proposte di budget
+# <a name="enable-budget-proposals-preview"></a>Abilitare proposte di budget (anteprima)
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento spiega come attivare la funzionalità Proposta di budget in Finance Insights.
 
-1. Apri l'area di lavoro **Gestione funzionalità** e segui questi passaggi:
+1. Utilizza le informazioni dalla pagina dell'ambiente in Microsoft Dynamics Lifecycle Services (LCS) per connetterti all'istanza primaria di Azure SQL per quell'ambiente. Esegui il seguente comando Transact-SQL (T-SQL) per attivare le versioni temporanee dell'ambiente sandbox. Potrebbe essere necessario attivare l'accesso per il tuo indirizzo IP in LCS prima di poterti connettere in remoto a Application Object Server \[AOS\].
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
+
+    > [!NOTE]
+    > Ignora questo passaggio se stai usando la versione 10.0.20 o successiva o una distribuzione di Service Fabric. Il team di Finance Insights dovrebbe aver già attivato la versione di anteprima per te. Se non vedi la funzionalità nell'area di lavoro **Gestione funzionalità** o se si verificano problemi quando tenti di attivarle, contatta <fiap@microsoft.com>.
+
+2. Apri l'area di lavoro **Gestione funzionalità** e segui questi passaggi:
 
     1. Selezionare **Controlla aggiornamenti**.
-    2. Nella scheda **Tutto**, cerca **Proposta di budget**. Se non trovi tale funzionalità, ceca **Proposta di budget (anteprima)**. 
-    3. Attiva la funzionalità.
+    2. Cerca **Proposta di budget** e attiva tale funzionalità.
 
-2. Vai a **Impostazione budget \> Imposta \> Budget di base \> Proposta di budget** e seleziona **Abilita funzionalità**.
-
-> [!NOTE]
-> La funzionalità **Proposta di budget** richiede un minimo di tre anni di budget o dati effettivi. Questa funzionalità utilizza da tre a dieci anni di dati nelle proiezioni. Più di tre anni di dati forniscono risultati migliori. I dati stessi funzionano meglio quando c'è variazione nei valori. Se i dati contengono tutti i dati costanti, come una spesa di locazione, la formazione potrebbe non riuscire perché la mancanza di variazione non richiede all'IA di proiettare gli importi.
+3. Vai a **Impostazione budget \> Imposta \> Budget di base \> Proposta di budget (anteprima)** e seleziona **Abilita funzionalità**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Impostare conti fornitore
 description: In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016579"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565473"
 ---
 # <a name="set-up-vendor-accounts"></a>Impostare conti fornitore
 
@@ -87,7 +85,7 @@ Per impostare un conto fornitore, è inoltre essere necessario registrare gli ac
 -   **Fattura**: per questo fornitore non è possibile registrare fatture.
 -   **Tutto**: il fornitore è sospeso per tutti i tipi di transazione. Questi tipi di transazione includono richieste di acquisto, fatture e pagamenti.
 -   **Pagamento**: non è possibile generare pagamenti per il fornitore.
--   **Richiesta di approvvigionamento** - Le richieste di acquisto non possono essere create per il fornitore e le righe di richiesta già create prima che il fornitore fosse messo in attesa non possono essere convertite in un ordine di acquisto. Le righe di richiesta per il fornitore verranno annullate se i criteri sono impostati per creare automaticamente ordini di acquisto.
+-   **Richiesta di approvvigionamento** - Le richieste di acquisto non possono essere create per il fornitore e le righe di richiesta già create prima che il fornitore fosse messo in attesa non possono essere convertite in un ordine fornitore. Le righe di richiesta per il fornitore verranno annullate se i criteri sono impostati per creare automaticamente ordini fornitore.
 -   **Mai**: il fornitore non viene mai messo in attesa per inattività.
 
 Quando si mette un fornitore in attesa, è possibile specificare un motivo e una data in cui lo stato di attesa verrà terminato. Se non si immette una data di fine, lo stato di attesa del fornitore avrà durata illimitata.
@@ -117,3 +115,6 @@ Selezionare i conti predefiniti nella pagina **Impostazione conto predefinito**,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

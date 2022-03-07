@@ -2,16 +2,13 @@
 title: Requisiti di impostazione della produzione
 description: Questo articolo fornisce informazioni sui requisiti di impostazione per utilizzare un controllo produzione.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 55561
 ms.assetid: 1953059f-478d-4706-b461-25b89ace5fc3
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68e04be6d7c727adc48996e97499361006d048bc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430900"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814562"
 ---
 # <a name="production-setup-requirements"></a>Requisiti di impostazione della produzione
 
@@ -81,3 +78,6 @@ Se si utilizzano i cicli di lavorazione, è necessario definire le operazioni pe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

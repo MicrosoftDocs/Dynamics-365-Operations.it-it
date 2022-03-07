@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, BOMConsistOf, BOMTable, InventItemIdLookupSimple, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e7961cfb4ad0e20c49d327d83f56c08811598ac1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 799479c4b4cdf5b61b1f55a61454823558b9013b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431154"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237426"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Creare una distinta base per una rappresentazione generale prodotto basata su dimensioni
 
@@ -79,3 +78,6 @@ Per questa procedura è necessario completare le 4 guide precedenti di questa se
 5. Fare clic su OK.
 6. Fare clic su Attiva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

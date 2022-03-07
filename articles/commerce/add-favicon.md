@@ -2,35 +2,30 @@
 title: Aggiungere una favicon
 description: In questo argomento viene descritto come aggiungere un favicon al sito.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413390"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964734"
 ---
 # <a name="add-a-favicon"></a>Aggiungere una favicon
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere un favicon al sito.
-
-## <a name="overview"></a>Panoramica
 
 Un favicon è un piccolo file di grafica che viene visualizzato, tra l'altro, in una scheda del browser Web, nella barra degli indirizzi, nella cronologia delle esplorazioni e in segnalibri o preferiti. È consigliabile aggiungere un favicon al sito, poiché rappresenta e rinforza il marchio e consente di differenziare il proprio sito da altri siti visitati dai clienti.
 
@@ -66,7 +61,7 @@ Per creare un frammento contenente un metatag per il favicon, effettuare le segu
 1. Nella finestra di dialogo **Nuovo frammento** selezionare **Metatag** come modulo su cui basare il frammento.
 1. Immettere un nome per il frammento, quindi selezionare **OK**.
 1. Nell'albero della gerarchia di frammenti, selezionare l'elemento figlio **Metatag predefiniti**.
-1. Nel riquadro destro, sotto **Metatag**, selezionare **Aggiungi**, quindi immettere la stringa HTML creata in precedenza per il favicon. 
+1. Nel riquadro destro, sotto **Metatag**, selezionare **Aggiungi**, quindi immettere la stringa HTML creata in precedenza per il favicon. 
 1. Selezionare **Fine modifica**, quindi selezionare **Pubblica** per pubblicare il frammento.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Aggiungere il frammento dei metatag alla sezione di intestazione HTML delle pagine
@@ -91,11 +86,12 @@ Quando si visualizzano in anteprima le pagine basate sul modello a cui è stato 
 
 [Utilizzare i file di sostituzione CSS](css-override-files.md)
 
-[Aggiungere un messaggio di benvenuto](add-welcome-message.md)
-
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 
 [Aggiungere lingue al sito](add-languages-to-site.md)
 
 [Aggiungere codice script nelle pagine del sito per supportare la telemetria](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

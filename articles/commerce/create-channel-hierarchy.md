@@ -2,27 +2,24 @@
 title: Creare una gerarchia di navigazione nei canali
 description: In questo argomento viene descritto come creare una gerarchia di navigazione nei canali in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749957"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Creare una gerarchia di navigazione nei canali
 
@@ -52,7 +49,7 @@ Per creare una gerarchia di navigazione nei canali, effettuare le seguenti opera
 
 L'immagine seguente mostra un esempio di nodo principale.
 
-![Esempio di nodo principale](media/create-channel-hierarchy-1.png)
+![Esempio di nodo principale.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Creare nodi di categoria di navigazione
 
@@ -68,7 +65,7 @@ Per creare eventuali nodi di categoria di navigazione aggiuntivi per rappresenta
 
 L'immagine seguente mostra un esempio di gerarchia di navigazione nei canali completata.
 
-![Esempio di gerarchia dei canali](media/create-channel-hierarchy-2.png)
+![Esempio di gerarchia dei canali.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Aggiungere prodotti a nodi di categorie
 
@@ -80,11 +77,11 @@ Per aggiungere prodotti a nodi di categoria, attenersi alla seguente procedura.
 1. Nel riquadro azioni selezionare **Salva**.
 
 > [!NOTE]
-> L'aggiunta di prodotti a un nodo all'interno della gerarchia di navigazione nei canali non è sufficiente per visualizzare i prodotti in un canale selezionato in quanto i prodotti devono anche essere assortiti in un prodotto.
+> L'aggiunta di prodotti a un nodo all'interno della gerarchia di navigazione nei canali non è sufficiente per visualizzare i prodotti in un canale selezionato in quanto i prodotti devono anche essere assortiti in un canale. Per ulteriori informazioni sugli assortimenti, vedere [Gestione dell'assortimento](assortments.md).
 
 L'immagine seguente mostra un esempio di nodo con prodotti aggiunti.
 
-![Prodotti aggiunti a un nodo di categoria](media/create-channel-hierarchy-3.png)
+![Prodotti aggiunti a un nodo di categoria.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Aggiungere gruppi di attributi di prodotto a nodi di categoria
 
@@ -100,10 +97,13 @@ Per aggiungere un gruppo di attributi di prodotto a un nodo di categoria, proced
 
 L'immagine seguente mostra un esempio di nodo con gruppi di attributi di prodotto aggiunti.
 
-![Gruppi di attributi di prodotto in un nodo](media/create-channel-hierarchy-4.png)
+![Gruppi di attributi di prodotto in un nodo.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Impostare assortimenti](set-up-assortments.md)
 
 [Gestire attributi e gruppi di attributi](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Impostazione del riconoscimento ricavi
 description: In questo argomento vengono descritte le opzioni di impostazione per il riconoscimento ricavi e le loro implicazioni.
 author: kweekley
-manager: aolson
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459312"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867222"
 ---
 # <a name="revenue-recognition-setup"></a>Impostazione del riconoscimento ricavi
 [!include [banner](../includes/banner.md)]
@@ -29,24 +26,30 @@ ms.locfileid: "4459312"
 È stato aggiunto un nuovo modulo di **Riconoscimento ricavi** che include le voci di menu per qualsiasi impostazione richiesta. In questo argomento vengono descritte le opzioni di impostazione e le loro implicazioni.
 
 > [!NOTE]
-> Il riconoscimento ricavi non può essere attivato tramite Gestione funzionalità. Per attivarlo, attualmente è necessario utilizzare le chiavi di configurazione.
+> La funzionalità Riconoscimento ricavi è ora abilitata per impostazione predefinita tramite Gestione funzionalità. Se l'organizzazione non utilizza questa funzione, è possibile disattivarla nell'area di lavoro **Gestione funzionalità**.
+>
+> Il riconoscimento dei ricavi, inclusa la funzionalità aggregazione, non è supportato nei canali di Commerce (e-commerce, POS e servizio clienti). Gli articoli configurati per il riconoscimento dei ricavi non devono essere aggiunti agli ordini o alle transazioni creati nei canali di Commerce.
 
 Il modulo **Riconoscimento ricavi** contiene le seguenti opzioni di impostazione:
 
 - Giornali di registrazione del riconoscimento ricavi
 - Parametri per il riconoscimento ricavi
-- Programmazione ricavi 
+- Programmazioni ricavi 
 - Impostazione scorte
 
     - Gruppi di articoli e prodotti rilasciati
     - Definizione della programmazione ricavi
     - Definizione del prezzo dei ricavi
+    - Impostazione scorte
 
-        - Registrazione dei profili
-        - Aggregazioni
+        - Definizione della programmazione ricavi
+        - Definizione del prezzo dei ricavi
 
-    - Componenti di aggregazione
-    - Articolo di aggregazione
+    - Profili registrazione
+    - Aggregazioni
+
+        - Componenti di aggregazione
+        - Articolo di aggregazione
 
 - Impostazione progetto
 
@@ -58,7 +61,7 @@ Il primo scenario si verifica dopo aver soddisfatto tutti gli obblighi contrattu
 
 Il secondo scenario si verifica quando il giornale di registrazione viene creato dopo la riallocazione. La riallocazione si verifica quando una riga ordine cliente viene aggiunta a un ordine cliente fatturato in precedenza oppure quando viene creato un nuovo ordine cliente contenente una riga che fa parte del contratto originale. Se una fattura è stata registrata prima di aggiungere la nuova riga ordine cliente, è necessario creare una voce contabile di correzione per la fattura cliente registrata.
 
-Il giornale di registrazione viene impostato nella pagina **Nomi giornale di registrazione** (**Riconoscimento ricavi \> Impostazione \> Nomi giornale di registrazione**). Il tipo di giornale di registrazione deve essere impostato su **Riconoscimento ricavi**. Il giornale di registrazione per il riconoscimento ricavi consente di selezionare il livello di registrazione in cui effettuare la registrazione.
+Il giornale di registrazione viene impostato nella pagina **Nomi giornale di registrazione** (**Riconoscimento ricavi \> Impostazione \> Nomi giornale di registrazione**). Il tipo di giornale di registrazione deve essere impostato su **Riconoscimento ricavi**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Parametri per il riconoscimento ricavi
 
@@ -73,9 +76,9 @@ Le impostazioni del riconoscimento ricavi vengono configurate nella scheda **Ric
     - Impostare questa opzione su **No** per limitare la registrazione della transazione di correzione nella contabilità generale. Quando l'opzione è impostata su **No**, non viene creato alcun documento aggiuntivo nella contabilità clienti per la correzione contabile interna. Al pagamento della fattura, il processo di liquidazione utilizza la vecchia voce contabile per registrare tutti gli sconti di cassa, nonché i profitti o le perdite realizzati.
     - Impostare questa opzione su **Sì** per creare automaticamente un documento di storno e una nuova fattura per la transazione di correzione nella contabilità clienti. Poiché si tratta di una correzione contabile interna, i nuovi documenti non vengono inviati o comunicati al cliente. Il documento di storno viene liquidato in base alla fattura originale e la nuova fattura corretta viene pagata dal cliente. Tutti e tre i documenti vengono visualizzati nei report, ad esempio nel rendiconto cliente.
 
-[![Informazioni di impostazione](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Informazioni di impostazione.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
-## <a name="revenue-schedules"></a>Programmazione ricavi
+## <a name="revenue-schedules"></a>Programmazioni ricavi
 
 La programmazione dei ricavi deve essere creata per ogni occorrenza in cui i ricavi possono essere differiti. Ad esempio, se l'organizzazione offre il servizio clienti per periodi di 6, 12, 18 e 24 mesi, è necessario creare una programmazione dei ricavi per ogni periodo. L'impostazione della programmazione dei ricavi determina la modalità di allocazione del prezzo dei ricavi per il numero di periodi selezionato. Determina, inoltre, le date predefinite che vengono immesse per la programmazione dei ricavi creata quando viene registrata la fattura.
 
@@ -83,7 +86,7 @@ Se i ricavi vengono riconosciuti per fase, si consiglia di creare una programmaz
 
 Le programmazioni dei ricavi vengono create nella pagina **Programmazioni ricavi** (**Riconoscimento ricavi \> Impostazione \> Programmazioni ricavi**).
 
-[![Programmazioni ricavi](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Programmazione dei ricavi.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Immettere valori descrittivi nei campi **Programmazione ricavi** e **Descrizione**. Le seguenti impostazioni aggiuntive vengono utilizzate per creare la programmazione dei ricavi quando viene registrata la fattura.
 
@@ -92,20 +95,27 @@ Immettere valori descrittivi nei campi **Programmazione ricavi** e **Descrizione
 - **Termini del contratto automatici**: selezionare questa casella di controllo per impostare automaticamente le date di inizio e fine del contratto. Queste date vengono impostate automaticamente solo per i prodotti rilasciati del tipo di ricavi **Supporto contratti registrati**. La data di inizio del contratto viene impostata automaticamente sulla data di spedizione richiesta nella riga ordine cliente e la data di fine del contratto viene impostata automaticamente sulla data di inizio più il numero di mesi o di occorrenze definito nelle impostazioni della programmazione dei ricavi. Ad esempio, il prodotto nella riga ordine cliente è per una garanzia di un anno. La programmazione predefinita dei ricavi è di **12M** (12 mesi) e la casella di controllo **Termini del contratto automatici** è selezionata per tale programmazione. Se la riga ordine cliente ha come data di spedizione richiesta il 16 dicembre 2019, la data predefinita di inizio del contratto è il 16 dicembre 2019 e la data predefinita di fine del contratto è il 15 dicembre 2020.
 - **Base di riconoscimento**: la base di riconoscimento determina il modo in cui il prezzo dei ricavi viene allocato tra le occorrenze.
 
-    - **Ogni mese in base alle date**: l'importo è allocato in base ai giorni effettivi di ogni mese.
+    - **Ogni mese in base ai giorni**: l'importo è allocato in base ai giorni effettivi di ogni mese di calendario.
     - **Ogni mese**: l'importo è allocato equamente tra il numero di mesi definito nelle occorrenze.
     - **Occorrenze**: l'importo è allocato equamente tra le occorrenze, ma può includere un periodo supplementare se si seleziona **Data di inizio effettiva** come convenzione di riconoscimento.
+    - **Periodo fiscale in base ai giorni**: l'importo è allocato in base ai giorni effettivi di ogni periodo fiscale. 
 
-- **Convenzione di riconoscimento**: la convenzione di riconoscimento determina le date predefinite che vengono impostate nella programmazione dei ricavi per la fattura.
+    I risultati di **Ogni mese in base ai giorni** e **Periodo fiscale in base ai giorni** sono uguali quando i periodi fiscali seguono i mesi di calendario. L'unica eccezione è quando la convenzione di riconoscimento è impostata su **Fine mese/periodo** e i campi **Data di inizio contratto** e **Data di fine** vengono lasciati vuoti in una riga dell'ordine cliente.
+
+- **Convenzione di riconoscimento**: la convenzione di riconoscimento determina le date che vengono impostate nella programmazione dei ricavi per la fattura.
 
     - **Data di inizio effettiva**: la programmazione è creata utilizzando la data di inizio del contratto (per gli articoli \[PCS\] di supporto contratti registrati) o la data della fattura (per gli articoli essenziali e non indispensabili).
-    - **Giorno 1 del mese**: la data della prima riga della programmazione è la data di inizio del contratto (o data della fattura). Tuttavia, tutte le righe successive della programmazione sono create per il primo giorno del mese.
+    - **Giorno 1 del mese/periodo**: la data della prima riga della programmazione è la data di inizio del contratto (o data della fattura). Tuttavia, tutte le righe successive della programmazione sono create per il primo giorno del mese o del periodo fiscale.
     - **Divisione a metà mese**: la data della prima riga della programmazione dipende dalla data della fattura. Se la fattura viene registrata nei primi quindici giorni del mese, la programmazione dei ricavi viene creata utilizzando il primo giorno del mese. Se la fattura viene registrata dal sedicesimo giorno in poi, la programmazione dei ricavi viene creata utilizzando il primo giorno del mese successivo.
-    - **Giorno 1 del mese successivo**: la data della programmazione è il primo giorno del mese successivo.
 
-Selezionare il pulsante **Dettagli programmazione ricavi** per visualizzare i periodi generali e le percentuali riconosciute in ogni periodo. Per impostazione predefinita, il valore **Riconosci percentuale** è suddiviso equamente tra il numero di periodi. Se la base di riconoscimento è impostata su **Ogni mese** o su **Occorrenze**, la percentuale di riconoscimento può essere modificata. Quando si modifica la percentuale di riconoscimento, un messaggio di avviso notifica che il totale non è uguale al 100 per cento. Se si riceve il messaggio, si può continuare a modificare le righe. Tuttavia, la percentuale totale deve essere uguale a 100 prima di chiudere la pagina.
+        **Divisione a metà mese** non può essere selezionato se la base di riconoscimento è impostata su **Periodo fiscale in base ai giorni**.
 
-[![Dettagli programmazione ricavi](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **Giorno 1 del mese/periodo successivo**: la data di inizio della programmazione è il primo giorno del mese o del periodo fiscale successivo.
+    - **Fine mese/periodo**: la data della prima riga della programmazione è la data di inizio del contratto o la data della fattura. Tuttavia, tutte le righe successive della programmazione sono create per l'ultimo giorno del mese o del periodo fiscale. 
+
+Selezionare il pulsante **Dettagli programmazione ricavi** per visualizzare i periodi generali e le percentuali riconosciute in ogni periodo. Per impostazione predefinita, il valore **Riconosci percentuale** è suddiviso equamente tra il numero di periodi. Se la base di riconoscimento è impostata su **Ogni mese**, la percentuale di riconoscimento può essere modificata. Quando si modifica la percentuale di riconoscimento, un messaggio di avviso notifica che il totale non è uguale al 100 per cento. Se si riceve il messaggio, si può continuare a modificare le righe. Tuttavia, la percentuale totale deve essere uguale a 100 prima di chiudere la pagina.
+
+[![Dettagli programmazione ricavi.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Impostazione scorte
 
@@ -138,9 +148,9 @@ I gruppi di articoli e i prodotti rilasciati possono essere impostati utilizzand
     - **Tolleranza massima**: immettere la percentuale consentita superiore al prezzo mediano.
     - **Tolleranza minima**: immettere la percentuale consentita inferiore al prezzo mediano.
 
-Dopo aver configurato le impostazioni per il prodotto rilasciato, è necessario definire manualmente il prezzo dei ricavi immettendo il prezzo di valore equo o il prezzo mediano (quando si utilizza il metodo del prezzo mediano) nella pagina **Prezzi dei ricavi** (andare a **Riconoscimento ricavi \> Impostazione \> Impostazione scorte \> Prodotti rilasciati**, quindi, nel riquadro azioni, nella scheda **Vendi**, nel gruppo **Riconoscimento ricavi**, selezionare **Prezzi dei ricavi**).
+Dopo aver configurato le impostazioni per il prodotto rilasciato, è necessario definire manualmente il prezzo dei ricavi immettendo il prezzo di valore equo o il prezzo mediano (quando si utilizza il metodo del prezzo mediano) nella pagina **Prezzi dei ricavi** (andare a **Riconoscimento ricavi \> Impostazione \> Impostazione scorte \> Prodotti rilasciati**, quindi, nel riquadro Azioni, nella scheda **Vendi**, nel gruppo **Riconoscimento ricavi**, selezionare **Prezzi dei ricavi**).
 
-[![Prezzi dei ricavi](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Prezzi dei ricavi.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 Il prezzo dei ricavi definito manualmente in questa pagina viene utilizzato per determinare l'allocazione dei prezzo dei ricavi in ogni ordine cliente, in base ai criteri definiti. Ogni criterio viene abbinato alla riga ordine cliente per determinare il prezzo dei ricavi da utilizzare nel processo di allocazione.
 
@@ -151,11 +161,11 @@ Il prezzo dei ricavi definito manualmente in questa pagina viene utilizzato per 
 - **Prezzo di allocazione ricavi**: in base al valore selezionato nel campo **Importo o percentuale listino**, immettere un importo o una percentuale per rappresentare il prezzo dei ricavi utilizzato per allocare i ricavi tra gli elementi dell'ordine cliente.
 - **Dal** e **Al**: immettere l'intervallo di date in cui il prezzo dei ricavi è attivo. Questi campi sono facoltativi.
 
-Se l'opzione **Attiva metodo di allocazione sconto** nella pagina **Parametri di contabilità generale** è impostata su **Sì** e se il campo **Tipo di ricavi** per il prodotto rilasciato è impostato su **Supporto contratti registrati**, è necessario specificare anche gli articoli supportati dal prodotto rilasciato. Questa impostazione viene effettuata nella pagina **Base impostazione** (andare a **Riconoscimento ricavi \> Impostazione \> Impostazione scorte \> Prodotti rilasciati**, quindi nel riquadro azioni, nella scheda **Vendi**, nel gruppo **Riconoscimento ricavi**, selezionare **Base impostazione**).
+Se l'opzione **Attiva metodo di allocazione sconto** nella pagina **Parametri di contabilità generale** è impostata su **Sì** e se il campo **Tipo di ricavi** per il prodotto rilasciato è impostato su **Supporto contratti registrati**, è necessario specificare anche gli articoli supportati dal prodotto rilasciato. Questa impostazione viene effettuata nella pagina **Base impostazione** (andare a **Riconoscimento ricavi \> Impostazione \> Impostazione scorte \> Prodotti rilasciati**, quindi nel riquadro Azioni, nella scheda **Vendi**, nel gruppo **Riconoscimento ricavi**, selezionare **Base impostazione**).
 
 Nella pagina **Base impostazione**, aggiungere un record per ogni gruppo di articoli supportato dall'articolo. Quando si effettua l'allocazione dei ricavi, il prezzo dei ricavi viene distribuito tra le parti essenziali e non indispensabili per l'articolo PCS.
 
-### <a name="posting-profiles"></a>Registrazione dei profili
+### <a name="posting-profiles"></a>Profili registrazione
 
 Sono disponibili tre tipi di registrazione aggiuntivi che consentono di differire i ricavi. Questi tipi di registrazione sono impostati nella scheda **Ordine cliente** della pagina **Registrazione** (**Riconoscimento ricavi \> Impostazione \> Scorte e impostazione prodotto \> Registrazione**).
 
@@ -180,9 +190,9 @@ Quando si imposta un articolo di aggregazione, è necessario configurare due cam
 - Nella Scheda dettaglio **Progetta**, nel campo **Tipo di produzione**, l'articolo deve essere impostato come un articolo DBA.
 - Nella Scheda dettaglio **Generale**, nel campo **Aggregazione**, l'articolo deve essere contrassegnato come un articolo di aggregazione.
 
-I componenti devono quindi essere assegnati all'articolo padre di aggregazione/DBA nella pagina **Versioni DBA** (andare a **Riconoscimento ricavi \> Impostazione \> Scorte e impostazione prodotto \> Prodotti rilasciati**, quindi nel riquadro azioni, nella scheda **Progetta**, nel gruppo **DBA**, selezionare **Versioni DBA**). Per ulteriori informazioni, vedere la documentazione relativa all'impostazione per le DBA.
+I componenti devono quindi essere assegnati all'articolo padre di aggregazione/DBA nella pagina **Versioni DBA** (andare a **Riconoscimento ricavi \> Impostazione \> Scorte e impostazione prodotto \> Prodotti rilasciati**, quindi nel riquadro Azioni, nella scheda **Progetta**, nel gruppo **DBA**, selezionare **Versioni DBA**). Per ulteriori informazioni, vedere la documentazione relativa all'impostazione per le DBA.
 
-[![Prodotti rilasciati, programmazioni DBA](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Prodotti rilasciati, programmazioni DBA.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Se l'articolo padre di aggregazione e i componenti di aggregazione sono impostati per l'allocazione, il prezzo dei ricavi di aggregazione viene distribuito ai componenti in base alle percentuali del contributo ricavi.
 
@@ -192,3 +202,6 @@ Il riconoscimento ricavi può anche essere utilizzato per gli ordini cliente cre
 
 - **Ricavi fattura differiti** (in **Conti ricavi**): immettere il conto principale per il prezzo dei ricavi che effettua registrazioni dei ricavi differiti (anziché dei ricavi). Il prezzo dei ricavi viene differito se nella riga ordine cliente è disponibile una programmazione dei ricavi.
 - **Costo differito** (in **Conti costi**): immettere il conto principale per l'importo del costo del venduto che effettua registrazioni del costo del venduto differito nel caso in cui anche i ricavi siano differiti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

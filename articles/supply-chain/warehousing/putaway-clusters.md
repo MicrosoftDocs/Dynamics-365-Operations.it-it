@@ -2,22 +2,24 @@
 title: Cluster di stoccaggio
 description: I cluster di stoccaggio offrono un modo per prelevare più targhe contemporaneamente e portarle per lo stoccaggio in ubicazioni diverse. Possono essere molto utili per le attività di vendita al dettaglio, dove le targhe in genere non sono pallet completi di inventario.
 author: Mirzaab
+manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103665"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228443"
 ---
 # <a name="putaway-clusters"></a>Cluster di stoccaggio
 
@@ -25,9 +27,12 @@ ms.locfileid: "8103665"
 
 I cluster di stoccaggio offrono un modo per prelevare più targhe contemporaneamente e portarle per lo stoccaggio in ubicazioni diverse. Questo processo è spesso denominato *milk run*. I cluster di stoccaggio possono essere molto utili per le attività di vendita al dettaglio, dove le targhe in genere non sono pallet completi di inventario. 
 
-## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Attivare o disattivare la funzionalità Stoccaggio cluster
+## <a name="turn-on-the-cluster-putaway-feature"></a>Attivare la funzione stoccaggio cluster
 
-Per utilizzare la funzionalità descritta in questo argomento, è necessario attivare la funzionalità *Stoccaggio cluster* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Stoccaggio cluster* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+
+- **Modulo:** *Gestione Magazzino*
+- **Nome funzionalità:** *Funzione stoccaggio cluster*
 
 ## <a name="setup-for-the-example-scenario"></a>Configurazione per lo scenario di esempio
 
@@ -225,7 +230,7 @@ Questo scenario simula l'elaborazione del cluster di stoccaggio.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Ricevi e ordina l'inventario in un cluster
 
-1. Accedi all'app per dispositivi mobili Gestione magazzino come utente configurato per il magazzino *61*.
+1. Accedi all'app del magazzino come utente impostato per il magazzino *61*.
 1. Nel menu principale, selezionare **In entrata**.
 1. Nel menu **In entrata** selezionare **Ricevi e ordina cluster**.
 1. Nel campo **Numero ordine fornitore**, immettere il numero dell'ordine fornitore.
@@ -267,7 +272,7 @@ Prima di poter stoccare gli articoli nel cluster, è necessario chiudere il clus
 
 #### <a name="put-the-cluster-away"></a>Stocca cluster
 
-1. Accedi all'app per dispositivi mobili Gestione magazzino come utente configurato per il magazzino *61*.
+1. Accedi all'app del magazzino come utente impostato per il magazzino *61*.
 1. Nel menu principale, selezionare **In entrata**.
 1. Nel menu **In entrata** selezionare **Stoccaggio cluster**.
 1. Selezionare **ID cluster** e inserire l'ID cluster immesso in precedenza per il cluster chiuso.
@@ -281,7 +286,7 @@ Prima di poter stoccare gli articoli nel cluster, è necessario chiudere il clus
 
     Sono disponibili le opzioni standard per ignorare o passare questo passaggio.
 
-    ![Pagina Stoccaggio cluster: Stoccaggio.](media/Cluster_putaway-Put.png "Pagina Stoccaggio cluster: Stoccaggio")
+    ![Pagina Stoccaggio cluster: Stoccaggio](media/Cluster_putaway-Put.png "Pagina Stoccaggio cluster: Stoccaggio")
 
 1. Selezionare **OK** per confermare lo stoccaggio del cluster.
 

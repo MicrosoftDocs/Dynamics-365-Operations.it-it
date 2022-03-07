@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 0f17b7fefb9251a28bfba9d0e93b9ad171ef7b9c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902509"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815190"
 ---
 # <a name="close-the-fiscal-year"></a>Chiudere l'anno fiscale
 
@@ -36,7 +36,7 @@ Questa procedura descrive il processo di chiusura di fine anno per il trasferime
 
 4. Selezionare 'Sì' o 'No' per l'opzione **Crea transazioni di chiusura durante il trasferimento**.
 
-    Se l'opzione è impostata su Sì, due transazioni vengono create. Un giustificativo viene creato nell'anno fiscale che viene chiuso per azzerare i saldi di tutti i conti CoGe e un secondo giustificativo viene creato nell'anno fiscale successivo per i saldi iniziali. Se impostata su No, a un singolo giustificativo viene creato nell'anno fiscale successivo per i saldi iniziali.  
+    Se l'opzione è impostata su Sì, due transazioni vengono create. Un giustificativo viene creato nell'anno fiscale che viene chiuso per azzerare i saldi dei conti CoGe Profitti e perdite e un secondo giustificativo viene creato nell'anno fiscale successivo per i saldi iniziali. Se impostata su No, a un singolo giustificativo viene creato nell'anno fiscale successivo per i saldi iniziali.  
 
 5. Selezionare 'Sì' o 'No' per l'opzione **Imposta stato anno fiscale su chiuso in modo permanente**.
 

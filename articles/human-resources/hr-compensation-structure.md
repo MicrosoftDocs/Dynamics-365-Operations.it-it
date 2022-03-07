@@ -2,28 +2,28 @@
 title: Sviluppare una struttura di retribuzione
 description: In questo articolo viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 75d1a05d4f94689581e2a67a13adeef6b14ac0cd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419226"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800905"
 ---
 # <a name="develop-a-compensation-structure"></a>Sviluppare una struttura di retribuzione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In questo articolo viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità. Questo articolo utilizza i dati dimostrativi USMF e si applica ai responsabili retribuzione e benefit.
 
@@ -113,3 +113,6 @@ Un piano di retribuzione fissa non può essere assegnato a un dipendente fino a 
 
 8. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,76 +1,103 @@
 ---
-title: Abilitare l'autenticazione Azure Active Directory per l'accesso POS
-description: Questo argomento spiega come configurare l'esperienza di accesso per il punto vendita (POS) di Microsoft Dynamics 365 Commerce in modo che utilizzi l'autenticazione Azure Active Directory.
+title: Configurare l'autenticazione Azure Active Directory per l'accesso al POS
+description: Questo argomento spiega come configurare Azure Active Directory come metodo di autenticazione nel POS di Microsoft Dynamics 365 Commerce.
 author: boycezhu
-manager: annbe
-ms.date: 07/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 6946cb5f8bc8aa451f72d1eebcd324f408ad5f7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413378"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402153"
 ---
-# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Abilitare l'autenticazione Azure Active Directory per l'accesso POS
+# <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Configurare l'autenticazione Azure Active Directory per l'accesso al POS
+
 [!include [banner](includes/banner.md)]
 
+Questo argomento spiega come configurare Azure Active Directory (Azure AD)come metodo di autenticazione nel POS di Microsoft Dynamics 365 Commerce.
 
-Molti clienti che usano Microsoft Dynamics 365 Commerce utilizzano anche altri servizi cloud Microsoft e potrebbero utilizzare Azure Active Directory (Azure AD) per gestire le credenziali dell'utente per tali servizi. In questi casi, i clienti potrebbero voler utilizzare lo stesso account Azure AD per tutte le applicazioni. Questo argomento spiega come configurare l'esperienza di accesso per il punto vendita (POS) di Commerce per utilizzare l'autenticazione Azure AD.
+Rivenditori che utilizzano Dynamics 365 Commerce insieme ad altri servizi cloud Microsoft come Microsoft Azure, Microsoft 365 e Microsoft Teams in genere desiderano utilizzare Azure AD per la gestione centralizzata delle credenziali utente per un'esperienza di accesso sicura e senza problemi per tutte le applicazioni. Per usare l'autenticazione Azure AD per il POS di Commerce, è necessario prima configurare Azure AD come metodo di autenticazione in Commerce Headquarters.
 
-## <a name="configure-azure-ad-authentication"></a>Configurare l'autenticazione Azure AD
+## <a name="configure-pos-authentication-method"></a>Configurare il metodo di autenticazione POS
 
-Per rendere Azure AD disponibile come metodo di autenticazione per l'accesso POS per un negozio, è necessario configurare le impostazioni del profilo di funzionalità del negozio e quindi applicare tali impostazioni ai client POS.
+Per configurare il metodo di autenticazione POS in Commerce Headquarters, seguire questi passaggi.
+    
+1. Accedere a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili funzionalità** e selezionare un profilo funzionalità che si desidera modificare.
+1. Nella sezione **Accesso personale POS** della Scheda dettaglio **Funzioni**, selezionare un'opzione del metodo di autenticazione desiderata dall'elenco a discesa **Metodo di autenticazione di accesso**.
 
-Per configurare un nuovo profilo di funzionalità, completare i passaggi seguenti:
+    Il **Metodo di autenticazione di accesso** ha tre opzioni:
+    
+    - **ID personale e password** - Questa opzione predefinita richiede agli utenti POS di inserire un ID personale e una password per accedere al POS e per accedere alla funzionalità di sostituzione del responsabile.
+    - **Azure AD senza single sign-on** - Questa opzione richiede l'utilizzo da parte degli utenti POS delle credenziali Azure AD per accedere al POS e la funzionalità di sostituzione del responsabile. Quando il client POS viene aggiornato o riaperto, l'utente POS deve fornire le credenziali Azure AD per accedere nuovamente.
+    - **Azure AD con single sign-on** - Quando questa opzione è selezionata, gli utenti POS possono accedere a Cloud POS (CPOS) utilizzando le credenziali Azure AD attive utilizzate da altre applicazioni Web nello stesso Web browser o accedere a Modern POS (MPOS) utilizzando le credenziali Azure AD di accesso a Windows. Entrambi i metodi consentono l'accesso senza bisogno di immettere le credenziali Azure AD nella schermata di accesso al POS. Tuttavia, l'accesso alla funzionalità di sostituzione del responsabile POS richiederà comunque l'accesso tramite credenziali Azure AD.
 
-1. Passare a **Retail e Commerce** \> **Impostazione canale** \> **Impostazione POS** \> **Profili POS** \> **Profili funzionalità**.
-1. Selezionare il profilo di funzionalità da modificare.
-1. Nella scheda dettaglio **Funzioni**, nella sezione **Accesso personale POS**, modificare il valore del campo **Metodo di autenticazione di accesso** da **ID personale e password** in **Azure Active Directory**.
-
-Per impostazione predefinita, tutti i profili di funzionalità utilizzano **ID personale e password** come metodo di autenticazione POS. Pertanto, è necessario modificare il valore del campo **Metodo di autenticazione di accesso** se si desidera utilizzare Azure AD. Ogni punto vendita al dettaglio collegato al profilo di funzionalità selezionato sarà interessato da questa modifica.
-
-Per applicare le impostazioni ai client POS, attenersi alla seguente procedura.
-
-1. Selezionare **Retail e Commerce** \> **Vendita al dettaglio e commercio IT** \> **Programmazione della distribuzione**.
-1. Eseguire la programmazione della distribuzione **1070** (**Configurazione canale**).
+1. Vai a **Retail e Commerce >  Retail e Commerce IT  > Programmazione della distribuzione** ed esegui il processo **1070 (Configurazione canale)** per sincronizzare le ultime impostazioni del profilo di funzionalità con i client POS.
 
 > [!NOTE]
-> L'autenticazione Azure AD richiede una connessione Internet. Non funziona quando il POS è in modalità offline.
-> 
-> Attualmente, la funzione **Sostituzione del responsabile** non supporta Azure AD come metodo di autenticazione. Sono richiesti un ID operatore e una password anche se Azure AD è configurato come metodo di autenticazione per l'accesso al POS.
+> - Il metodo di autenticazione **Azure AD senza single sign-on** sostituisce l'opzione **Azure Active Directory** in Commerce versione 10.0.18 e precedenti.
+> - L'autenticazione Azure AD richiede una connessione Internet attiva e non funzionerà quando il POS è offline.
 
-## <a name="associate-an-azure-ad-account-with-a-worker"></a>Associare un account Azure AD a un lavoratore
+## <a name="associate-azure-ad-accounts-with-pos-users"></a>Associare account Azure AD a utenti POS
 
-Prima che un addetto del negozio possa usare un account Azure AD per accedere all'applicazione POS, l'account Azure AD deve essere associato a quel lavoratore.
+Per Usare Azure AD come metodo di autenticazione POS, è necessario associare gli account Azure AD agli utenti POS in Commerce Headquarters. 
 
-Per associare un account Azure AD a un lavoratore, attenersi alla seguente procedura.
-
-1. Passare a **Retail e Commerce** \> **Dipendenti** \> **Lavoratori**.
-1. Aprire la pagina dei dettagli per un lavoratore.
-1. Nel riquadro azioni, nella scheda **Commerce**, nel gruppo **Identità esterna**, selezionare **Associa identità esistente**.
+Per associare gli account Azure AD con utenti POS in Commerce Headquarters, segui questi passaggi.
+    
+1. Vai a **Retail e Commerce > Dipendenti > Lavoratori** e apri un record lavoratore.
+1. Nel riquadro Azioni, selezionare la scheda **Commerce**, quindi in **Identità esterna**, selezionare **Associa identità esistente**. 
 1. Nella finestra di dialogo **Usa identità esterna esistente**, selezionare **Cerca tramite e-mail**, inserire un indirizzo e-mail Azure AD, quindi selezionare **Cerca**.
 1. Selezionare l'account Azure AD che viene restituito, quindi selezionare **OK**.
 
-I campi **Alias**, **UPN** e **Identificatore secondario esterno** nella scheda **Commerce** della pagina dei dettagli del lavoratore verranno compilati.
+Dopo i precedenti passaggi di configurazione, I campi **Alias**, **UPN** e **Identificatore secondario esterno** nella scheda **Commerce** della pagina dei dettagli del lavoratore verranno compilati.
+
+Devi eseguire il processo **1060 (Personale)** in **Retail e Commerce > Retail e Commerce IT > Programmazione della distribuzione** per sincronizzare l'ultimo utente POS e i dati dell'account Azure AD con il canale.
 
 > [!NOTE]
-> Dopo l'aggiornamento di un record lavoratore, ad esempio se viene associato un nuovo account Azure AD, la password viene modificata o la rubrica di un dipendente viene aggiornata, si consiglia di eseguire la pianificazione di distribuzione **1060** (**Personale**) per sincronizzare le informazioni più recenti sul personale con il canale. In questo modo, l'applicazione POS può recuperare i dati corretti per l'autenticazione dell'utente e il controllo delle autorizzazioni.
+> Come procedura consigliata, dopo che le informazioni del lavoratore come password, autorizzazione POS, account Azure AD associato o la rubrica dei dipendenti vengono aggiornata in Commerce Headquarters, si consiglia vivamente di eseguire il processo **1060 (Personale)** per sincronizzare le ultime informazioni del lavoratore con il canale. Il client POS può quindi recuperare i dati corretti per l'autenticazione dell'utente e i controlli delle autorizzazioni.
+
+## <a name="pos-lock-register-and-sign-out-with-azure-ad-authentication"></a>Bloccare il registratore di cassa POS e disconnettersi con autenticazione Azure AD
+
+Quanto segue si verifica quando POS è configurato per utilizzare il  Metodo di autenticazione Azure AD:
+
+- La funzione **Blocca registratore di casse** non sarà disponibile nell'applicazione POS. 
+- La funzione **Blocco automatico** si comporterà come la funzione **Disconnessione automatica**.
+- Se l'utente POS seleziona **Disconnetti**, all'utente verrà chiesto di accedere con le credenziali Azure AD al successivo avvio del POS, indipendentemente dal fatto che l'accesso Single Sign-on sia abilitato.
+
+## <a name="manager-override-functionality-with-azure-ad-authentication"></a>Funzionalità di sostituzione del responsabile con le credenziali Azure AD
+
+Quando il POS è configurato per utilizzare l'autenticazione Azure AD, la funzionalità di sostituzione del responsabile aprirà una finestra di dialogo che richiede le credenziali Azure AD dell'utente responsabile. Dopo che l'accesso del responsabile è stato approvato,  le credenziali Azure AD verranno eliminate e le credenziali Azure AD dell'utente precedente verranno utilizzate per le successive operazioni POS.
+
+> [!NOTE]
+> - Nelle versioni di Commerce 10.0.18 e precedenti, la funzione di sostituzione del responsabile non supporta Azure AD. Sono richiesti un ID personale e una password anche se il POS  è configurato per usare il metodo di autenticazione Azure AD.
+> - Quando si utilizza CPOS con il browser web Safari su un dispositivo Apple iOS, è necessario prima disattivare **Blocca popup** nelle impostazioni di Safari perché la funzionalità di sostituzione del responsabile funzioni con l'autenticazione Azure AD. 
+
+## <a name="security-best-practices-for-azure-ad-based-pos-authentication-on-shared-devices"></a>Procedure consigliate di sicurezza per l'autenticazione POS basata su Azure AD su dispositivi condivisi
+
+Molti rivenditori configurano il proprio ambiente di punto vendita al dettaglio in modo che più utenti debbano accedere all'applicazione POS da un dispositivo fisico condiviso. In tale contesto, mentre il Single Sign-on fornisce un'esperienza di autenticazione comoda e integrata, può anche creare una falla nella sicurezza in cui l'utente POS corrente potrebbe non rendersi conto che le credenziali di un altro utente vengono utilizzate per eseguire transazioni o operazioni nel POS. Prima di configurare il POS per utilizzare il  metodo di autenticazione Azure AD, si consiglia vivamente di rivedere i criteri di sicurezza e le impostazioni di accesso del dispositivo condiviso per decidere quale opzione è la migliore.
+
+- Se il tuo ambiente di vendita al dettaglio utilizza un account condiviso (ad esempio, un account locale) per l'accesso al dispositivo fisico, si consiglia di utilizzare l'opzione **Azure AD senza single sign-on**. Ciò garantisce che ogni utente POS fornisca esplicitamente credenziali Azure AD per accedere al POS.
+- Se il tuo ambiente di vendita al dettaglio richiede ai dipendenti di utilizzare i propri account Azure ADper accedere al POS e al dispositivo fisico che lo ospita, si consiglia di utilizzare l'opzione **Azure AD con single sign-on**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Impostare la funzionalità di accesso esteso per MPOS e Cloud POS](extended-logon.md)
+[Configurare un lavoratore](tasks/worker.md)
 
 [Creare un profilo funzionalità di vendita al dettaglio](retail-functionality-profile.md)
 
-[ Configurare un lavoratore](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+[Impostare la funzionalità di accesso esteso per MPOS e Cloud POS](extended-logon.md)
+
+[Procedure consigliate di sicurezza per Cloud POS in ambienti condivisi](dev-itpro/secure-retail-cloud-pos.md)
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

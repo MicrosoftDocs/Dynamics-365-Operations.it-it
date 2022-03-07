@@ -2,7 +2,7 @@
 title: Riferimenti a fatture originali nelle note di credito
 description: Questo argomento spiega come impostare e stampare i numeri di fattura originali nelle note di credito correlate.
 author: ilkond
-ms.date: 10/26/2021
+ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347836"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Riferimenti a fatture originali nelle note di credito
 
@@ -95,10 +95,5 @@ Quando stampi le note di credito di progetto, del cliente e testo libero, includ
 > [!NOTE]
 > Assicurati che i formati stampabili dei documenti siano correttamente configurati, ipotizzando che vengano stampati i riferimenti alle fatture originali.
 
-## <a name="references-to-original-invoices-in-debit-notes"></a>Riferimenti a fatture originali nelle note di debito
-
-Per impostazione predefinita, è possibile inserire riferimenti alle fatture originali per le note di credito. Ad esempio, è possibile inserire riferimenti quando si apportano correzioni negative (decrescenti) alle fatture originali.
-
-Per inserire i riferimenti quando si apportano correzioni positive (in aumento) delle fatture originali, è necessario abilitare la funzionalità **Riferimenti alle fatture originali nelle note di addebito** nell'area di lavoro **Gestione delle funzionalità**.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

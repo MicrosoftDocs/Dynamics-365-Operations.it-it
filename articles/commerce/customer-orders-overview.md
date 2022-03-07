@@ -3,7 +3,7 @@ title: Ordini cliente in Point of Sale (POS)
 description: In questo argomento vengono fornite informazioni sugli ordini cliente in Point of Sale (POS). Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
 author: josaw1
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220512"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in Point of Sale (POS)
 
@@ -52,9 +51,9 @@ Per utilizzare gli ordini cliente è necessario configurare le modalità di cons
 
 ### <a name="set-up-fulfillment-groups"></a>Impostare gruppi di evasione
 
-Alcuni punti vendita o ubicazioni di magazzino potrebbero non essere in grado di evadere gli ordini cliente. Configurando i gruppi di evasione, un'organizzazione può specificare quali negozi e ubicazioni di magazzino vengono mostrati come opzioni agli utenti che creano ordini cliente in POS. I gruppi di evasione sono configurati nella pagina **Gruppi di evasione**. Le organizzazioni possono creare tutti i gruppi di evasione di cui hanno bisogno. Una volta definito, un gruppo di evasione ordini viene collegato a un punto vendita utilizzando un pulsante della scheda **Impostazione** nel riquadro azioni della pagina **Punti vendita**.
+Alcuni punti vendita o ubicazioni di magazzino potrebbero non essere in grado di evadere gli ordini cliente. Configurando i gruppi di evasione, un'organizzazione può specificare quali negozi e ubicazioni di magazzino vengono mostrati come opzioni agli utenti che creano ordini cliente in POS. I gruppi di evasione sono configurati nella pagina **Gruppi di evasione**. Le organizzazioni possono creare tutti i gruppi di evasione di cui hanno bisogno. Dopo aver definito un gruppo di evasione ordini, collegalo a un punto vendita selezionando **Assegnazione del gruppo di evasione** nella scheda **Impostazione** nel riquadro azioni della pagina **Punti vendita**.
 
-In Commerce versione 10.0.12 e successive, le organizzazioni possono definire se le combinazioni magazzino o magazzino/punto vendita definite nei gruppi di evasione ordini possono essere utilizzate per la spedizione, per il prelievo o sia per la spedizione che per il prelievo. Pertanto, il punto vendita dispone di ulteriore flessibilità per gestire le opzioni di magazzino e punto vendita che vengono mostrate agli utenti che creano un ordine per il prelievo rispetto a un ordine per la spedizione. Per sfruttare queste opzioni di configurazione, è necessario attivare la funzionalità **Possibilità di specificare le ubicazioni come "Spedizione" o "Ritiro" abilitata nel gruppo di evasione**. Se un magazzino collegato a un gruppo di evasione ordini non è un punto vendita, può essere configurato solo come ubicazione di spedizione. Non può essere utilizzato quando gli ordini per il ritiro sono configurati in POS.
+In Commerce versione 10.0.12 e successive, le organizzazioni possono definire se le combinazioni magazzino o magazzino e punto vendita definite nei gruppi di evasione ordini possono essere utilizzate per la spedizione, per il prelievo o sia per la spedizione che per il prelievo. Ciò consente una maggiore flessibilità per l'azienda nel determinare quali magazzini possono essere selezionati durante la creazione di un ordine cliente per gli articoli da spedire rispetto a quali punti vendita possono essere selezionati quando si crea un ordine cliente per gli articoli da ritirare. Per usare queste opzioni di configurazione, attiva la funzionalità **Possibilità di specificare le ubicazioni come "Spedizione" o "Ritiro" abilitata nel gruppo di evasione**. Se un magazzino collegato a un gruppo di evasione ordini non è un punto vendita, può essere configurato solo come ubicazione di spedizione. Non può essere utilizzato quando gli ordini per il ritiro sono configurati in POS.
 
 ![Pagina Gruppi di evasione](media/customer-order-fulfillment-group.png)
 
@@ -99,7 +98,10 @@ Assicurarsi che il [layout dello schermo](https://docs.microsoft.com/dynamics365
 
 ![Operazioni nella schermata delle transazioni POS](media/customer-order-screen-layout.png)
 
-## <a name="working-with-customer-orders-in-pos"></a>Utilizzo degli ordini cliente in POS
+## <a name="work-with-customer-orders-in-pos"></a>Utilizzare gli ordini cliente in POS
+
+> [!NOTE]
+> La funzionalità di riconoscimento dei ricavi non è attualmente supportata per l'utilizzo nei canali di Commerce (e-commerce, POS, servizio clienti). Gli articoli configurati con il riconoscimento dei ricavi non devono essere aggiunti agli ordini creati nei canali di Commerce. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Creare un ordine cliente per i prodotti che verranno spediti al cliente
 
@@ -116,23 +118,21 @@ Assicurarsi che il [layout dello schermo](https://docs.microsoft.com/dynamics365
 
 1. Nella schermata della transazione POS, aggiungere un cliente alla transazione.
 2. Aggiungere prodotti al carrello.
-3. Selezionare **Prelievo selezionato** o **Preleva tutto** per avviare la configurazione del prelievo dell'ordine.
+3. Seleziona **Prelievo selezionato** o **Preleva tutto** per avviare la configurazione del prelievo dell'ordine.
 4. Selezionare l'ubicazione del punto vendita dal quale il cliente preleverà i prodotti selezionati.
-5. Selezionare una data di prelievo.
+5. Seleziona la data in cui l'articolo verrà ritirato.
 6. Utilizzare le funzioni di pagamento per pagare gli importi calcolati dovuti oppure utilizzare l'operazione **Sostituzione deposito** per modificare gli importi dovuti e quindi applicare il pagamento.
-7. Se il totale dell'ordine non è stato pagato per intero, selezionare se il cliente fornirà il pagamento in un secondo momento (al ritiro) o se una carta di credito verrà inserita ora, quindi utilizzata e acquisita al momento del ritiro.
+7. Se il totale dell'ordine non è stato pagato per intero, seleziona se il cliente fornirà il pagamento in un secondo momento (al ritiro) o se una carta di credito verrà inserita ora, quindi utilizzata e acquisita al momento del ritiro.
 
 ### <a name="edit-an-existing-customer-order"></a>Modificare un ordine cliente esistente
 
 Gli ordini al dettaglio creati nel canale online o in negozio possono essere richiamati e modificati tramite POS secondo necessità.
 
 > [!IMPORTANT]
-> Gli ordini creati in un canale del call center non possono essere modificati tramite POS se l'impostazione [Attiva completamento ordine](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) è attivata per il canale del call center. Per garantire una corretta elaborazione dei pagamenti, gli ordini originati in un canale del call center e che utilizzano la funzionalità Abilita completamento ordine devono essere modificati tramite l'applicazione del call center in Commerce headquarters.
+> Non tutti gli ordini di vendita al dettaglio possono essere modificati tramite l'applicazione POS. Gli ordini creati in un canale del call center non possono essere modificati tramite POS se l'impostazione [Attiva completamento ordine](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) è attivata per il canale del call center. Per garantire una corretta elaborazione dei pagamenti, gli ordini originati in un canale del call center e che utilizzano la funzionalità Abilita completamento ordine devono essere modificati tramite l'applicazione del call center in Commerce headquarters.
 
-In Commerce versione 10.0.13 e precedenti, gli utenti possono modificare gli ordini cliente supportati tramite POS solo se gli ordini sono completamente aperti. Se alcune righe di un ordine sono già state elaborate per l'evasione (prelievo, imballaggio e così via), l'ordine è bloccato per la modifica in POS.
+Nella versione 10.0.17 e successive, gli utenti possono modificare gli ordini idonei tramite l'applicazione POS, anche se l'ordine è parzialmente evaso. Tuttavia, gli ordini completamente fatturati non possono ancora essere modificati tramite POS. Per abilitare questa capacità attiva la funzionalità **Modificare gli ordini parzialmente evasi nel punto vendita** nell'area di lavoro **Gestione funzionalità**. Se questa funzione non è abilitata o se stai utilizzando la versione 10.0.16 o precedente, gli utenti potranno modificare gli ordini cliente nel POS solo se l'ordine è completamente aperto. Inoltre, se la funzione è abilitata, puoi limitare i punti vendita che possono modificare gli ordini parzialmente evasi. L'opzione per disabilitare questa funzionalità per punti vendita specifici può essere configurata tramite il **Profilo funzionalità** nella scheda dettaglio **Generale**.
 
-> [!NOTE]
-> In Commerce versione 10.0.14, una funzionalità che è stata rilasciata in [anteprima pubblica](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) consente agli utenti POS di modificare gli ordini cliente tramite POS, anche se una parte dell'ordine è già stata evasa. Tuttavia, gli ordini completamente fatturati non possono ancora essere modificati tramite POS. Per testare questa funzione di anteprima e fornire feedback aggiuntivo, attivare la funzionalità **(Anteprima) Modificare gli ordini parzialmente evasi nel punto vendita** nell'area di lavoro **Gestione funzionalità**. Gli ordini cliente che hanno avuto origine in un canale del call center e che utilizzano la funzionalità Abilita completamento ordine non possono essere modificati anche dopo che questa funzione è stata abilitata.
 
 1. Selezionare **Richiama ordine**.
 2. Usare **Cerca** per inserire filtri per trovare l'ordine, quindi selezionare **Applica**.
@@ -170,3 +170,6 @@ Quando l'opzione **Crea ordine cliente in modalità asincrona** è impostata su 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Ordini cliente ibridi](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

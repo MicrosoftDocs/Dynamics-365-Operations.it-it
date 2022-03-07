@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: bd9ba8ad0d8b651fc86b54561bb0005720776894
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4413604"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211074"
 ---
 # <a name="commerce-home-page"></a>Home page di Commerce
 
@@ -56,3 +55,6 @@ Selezionare l'area di una funzionalità per ulteriori informazioni.
 - [Gestire un sito di e-commerce](online-store-overview.md)
 - [Fraud Protection](dev-itpro/DFP.md)
 - [Sviluppo ed estendibilità del commercio](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

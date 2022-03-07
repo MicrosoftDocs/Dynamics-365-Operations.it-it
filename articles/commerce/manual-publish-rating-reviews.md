@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ebf104502783cf4046dc7b265a7ecda30cf2e8cf
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968205"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472634"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Questo argomento descrive come abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore in Microsoft Dynamics 365 Commerce e come pubblicare manualmente valutazioni e recensioni.
 
@@ -68,17 +69,3 @@ L'illustrazione seguente mostra un esempio in cui tre valutazioni e recensioni n
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica valutazioni e revisioni](ratings-reviews-overview.md)
-
-[Consentire utilizzo di valutazioni e sulle revisioni](opt-in-ratings-reviews.md)
-
-[Gestire valutazioni e revisioni](manage-reviews.md)
-
-[Configurare valutazioni e recensioni](configure-ratings-reviews.md)
-
-[Sincronizzare valutazioni sul prodotto](sync-product-ratings.md)
-
-[Importare ed esportare valutazioni e recensioni](import-export-reviews.md)
-
-[Configurare l'autenticazione da servizio a servizio](service-to-service-auth.md)
-
-[Recensioni e valutazioni - Domande frequenti](ratings-reviews-faq.md)

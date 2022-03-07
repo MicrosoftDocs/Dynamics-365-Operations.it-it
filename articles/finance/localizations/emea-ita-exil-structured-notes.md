@@ -2,26 +2,23 @@
 title: Gestione note avanzate
 description: Questo argomento spiega come impostare e stampare note predefinite per clienti, fornitori e prodotti.
 author: ilkond
-manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCROrderNotes
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 5a7bd58f66c4ff8df59ca6027861d235c36c2ace
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a056fcc3d2656cc4468cbd0c6190788c28e1d679
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408103"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894736"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 
@@ -33,7 +30,7 @@ La funzione di gestione avanzata delle note ti consente di impostare note predef
 
 Prima di iniziare la configurazione, è necessario soddisfare i seguenti prerequisiti:
 
-- La funzionalità **Gestione avanzata delle note** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Gestione avanzata delle note** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="advanced-notes-setup"></a>Impostazioni note libere
 
@@ -92,7 +89,7 @@ Andare a **Contabilità clienti**\>**Impostazioni**\>**Moduli**\>**Impostazione 
 ![Impostazione dei moduli](media/emea-ita-exil-notes-setup-forms.jpg)
 
 ### <a name="direct-attachment-to-documents"></a>Allegato diretto ai documenti
-Le note avanzate possono essere direttamente collegate automaticamente alle conferme degli ordini di vendita, alle liste di prelievo, ai documenti di trasporto e alle fatture senza allegato preliminare agli ordini di vendita. Per abilitare l'allegato diretto, completare i seguenti passaggi. 
+Le note avanzate possono essere direttamente collegate automaticamente alle conferme degli ordini cliente, alle liste di prelievo, ai documenti di trasporto e alle fatture senza allegato preliminare agli ordini cliente. Per abilitare l'allegato diretto, completare i seguenti passaggi. 
 1. Passare a **Contabilità clienti** \> **Impostazioni** \> **Moduli** \> **Impostazione moduli**.
 2. Nella scheda dettaglio **Generale**, nella sezione **Note avanzate** abilitare il parametro **Allegato diretto ai documenti**.
 
@@ -115,3 +112,6 @@ In Contabilità fornitori, le note vengono generate automaticamente come allegat
 Note avanzate definite come **Esterne** sono stampate nei relativi documenti commerciali a seconda delle impostazioni di **Impostazione moduli**
 
 ![Impostazione della stampa delle note avanzate](media/emea-ita-exil-notes-printing.jpg)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

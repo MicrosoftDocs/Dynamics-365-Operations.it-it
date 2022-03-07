@@ -2,7 +2,7 @@
 title: Modulo menu di spostamento
 description: In questo argomento vengono descritti i moduli menu di spostamento per i cookie e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/27/2021
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 1af1fc03ead21150415295d83d292afe0110e5bd
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109684"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761588"
 ---
 # <a name="navigation-menu-module"></a>Modulo menu di spostamento
 
@@ -41,8 +41,8 @@ La figura seguente mostra un esempio di un menu di spostamento per il sito Fabri
 |---------------------------|-----------------------|-------------|
 | Origine                  | **Vendita al dettaglio**, **Creazione manuale**, **Vendita al dettaglio e creazione manuale** | Il valore **Vendita al dettaglio** consente di visualizzare la gerarchia di spostamento del canale da Commerce headquarters nel menu di spostamento. Il valore **Creazione manuale** consente di curare le voci di menu statiche. Il valore **Vendita al dettaglio e creazione manuale** consente una combinazione di entrambi. |
 | Mostrare le immagini di categoria | **True** o **False**    | Se abilitata, questa proprietà visualizza le immagini delle categorie nel menu di spostamento come definito in Commerce headquarters per ciascuna categoria. Aggiunto nella versione Commerce 10.0.14. |
-| Mostra immagini promozionali | **True** o **False** | Quando questa proprietà è abilitata, le promozioni possono essere configurate utilizzando immagini, collegamenti e testo. Questa proprietà è stata aggiunta nella versione Commerce 10.0.17. |
-|Aggiungere contenuto promozionale categoria | Testo, immagini o collegamento | Quando la proprietà **Mostra immagini promozionali** è abilitata, puoi aggiungere testo, un'immagine o un collegamento come contenuto promozionale nel menu di navigazione. |
+| Mostra promozioni | **True** o **False** | Quando questa proprietà è abilitata, le promozioni possono essere configurate utilizzando immagini, collegamenti e testo. Questa proprietà è stata aggiunta nella versione Commerce 10.0.17. |
+| Aggiungi promozioni | Testo, immagini o collegamento | Quando la proprietà **Mostra promozioni** è abilitata, puoi aggiungere testo, un'immagine o un collegamento come contenuto promozionale nel menu di navigazione. |
 | Abilitare il menu di spostamento multilivello | **True** o **False** | Quando questa proprietà è abilitata, il menu di spostamento può mostrare più livelli della gerarchia di spostamento. Questa funzionalità è disponibile in Commerce versione 10.0.15. |
 | Numero di livelli | numero intero | Questa proprietà definisce il numero di livelli che devono essere visualizzati se la proprietà **Abilita menu di spostamento multilivello** è impostata su **True**. |
 | Voce di menu statico| Matrice di valori| Voci di menu statico che associano il nome di una voce di menu a un collegamento di una pagina del sito statico. È possibile creare voci di menu sotto altre voci di menu. Per impostazione predefinita, i menu statici vengono visualizzati al livello radice e verranno aggiunti alla gerarchia di spostamento del canale, se esistente. |

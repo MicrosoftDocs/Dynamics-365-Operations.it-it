@@ -1,30 +1,27 @@
 ---
 title: Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
 description: In questo argomento viene descritto l'utilizzo dei vincoli di espressione e dei vincoli di tabella. I vincoli consentono di controllare i valori di attributo da selezionare quando si configurano i prodotti per un ordine cliente, un'offerta di vendita, un ordine fornitore o un ordine di produzione. È possibile utilizzare i vincoli di espressione o i vincoli di tabella, a seconda di come si preferisce creare i vincoli.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8775a9225313c0f5a132dbccbe583470fe23beab
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431346"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570731"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Vincoli di espressione e vincoli di tabella nei modelli di configurazione prodotto
 
@@ -203,7 +200,7 @@ Nelle tabelle seguenti sono elencati gli operatori e la notazione di infisso che
 Gli esempi nella seguente tabella illustrano come scrivere una notazione di infisso.
 
 
-|  Notazione di infisso   |                                          descrizione                                          |
+|  Notazione di infisso   |                                          Descrizione                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
 |     x + y + z     |                                           Addizione                                            |
 |    x \* y \* z    |                                        Moltiplicazione                                         |
@@ -222,7 +219,7 @@ Gli esempi nella seguente tabella illustrano come scrivere una notazione di infi
 |        (x)        |                           Le parentesi hanno precedenza sulla priorità predefinita.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Perché i vincoli di espressione non vengono convalidati correttamente?
-Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Ecco un elenco delle parole chiave riservate che non possono essere utilizzate.
+Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione per gli attributi, i componenti o i sottocomponenti nel modello di configurazione prodotto. Ecco un elenco delle parole chiave riservate che non possono essere utilizzate.
 
 -   Arrotonda eccesso
 -   Elemento
@@ -245,8 +242,7 @@ Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione 
 -   Obiettivo
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creare un vincolo di espressione](tasks/add-expression-constraint-product-configuration-model.md)
 
@@ -254,3 +250,6 @@ Non è possibile utilizzare le parole chiave riservate come nomi di risoluzione 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

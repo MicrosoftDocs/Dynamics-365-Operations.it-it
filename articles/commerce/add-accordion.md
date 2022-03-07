@@ -2,15 +2,12 @@
 title: Modulo Accordion
 description: In questo argomento vengono descritti i moduli Accordion e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719529"
 ---
 # <a name="accordion-module"></a>Modulo Accordion
 
@@ -31,15 +28,13 @@ ms.locfileid: "4413374"
 
 In questo argomento vengono descritti i moduli Accordion e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Panoramica
-
 I moduli Accordion sono moduli simili a contenitori utilizzati per organizzare informazioni o moduli in una pagina fornendo una funzionalità comprimibile di tipo pannello. Un modulo Accordion può essere utilizzato in qualsiasi pagina.
 
 In ogni modulo Accordion, è possibile aggiungere uno o più moduli Elemento accordion. Ogni modulo Elemento accordion rappresenta un pannello comprimibile. In ogni modulo Elemento accordion, è possibile aggiungere uno o più moduli. Non vi sono restrizioni sui tipi di moduli che possono essere aggiunti a un modulo Elemento accordion.
 
 L'immagine seguente mostra un esempio di modulo Accordion utilizzato per organizzare le informazioni sulla pagina delle domande frequenti di un punto vendita.
 
-![Esempio di modulo Accordion](./media/ecommerce-accordion.PNG)
+![Esempio di modulo Accordion.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Proprietà del modulo Accordion
 
@@ -51,7 +46,7 @@ L'immagine seguente mostra un esempio di modulo Accordion utilizzato per organiz
 
 ## <a name="accordion-item-module-properties"></a>Proprietà del modulo Elemento accordion
 
-| Nome proprietà | Valori | descrizione |
+| Nome proprietà | Valori | Descrizione |
 |----------------|--------|-------------|
 | Funzione | Testo | Questa proprietà specifica il testo del titolo del modulo Elemento accordion. Selezionando l'area del titolo, gli utenti possono espandere o comprimere la sezione. |
 | Espandi per impostazione predefinita | **True** o **False** | Se il valore è impostato su **True**, l'elemento accordion viene espanso per impostazione predefinita quando viene caricata la pagina. |
@@ -87,3 +82,6 @@ Per aggiungere un modulo Accordion a una pagina Domande frequenti e impostarne l
 [Modulo scheda](add-tab.md)
 
 [Modulo blocco testo](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

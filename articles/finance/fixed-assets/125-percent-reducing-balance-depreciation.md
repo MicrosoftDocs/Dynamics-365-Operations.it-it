@@ -1,12 +1,10 @@
 ---
 title: Riduzione del 125% dell'ammortamento del saldo
-description: Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 125%.
-author: saraschi2
-manager: AnnBe
+description: Questo argomento illustra una panoramica del metodo di ammortamento a saldi decrescenti del 125%.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969230"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883520"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Riduzione del 125% dell'ammortamento del saldo
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo offre una panoramica del metodo di ammortamento a saldi decrescenti del 125%.
+Questo argomento illustra una panoramica del metodo di ammortamento a saldi decrescenti del 125%.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Saldo decrescente 125%** nel campo **Metodo** della pagina **Profili di ammortamento**, ai cespiti che sono assegnati al profilo di ammortamento verrà applicata la stessa percentuale di ammortamento in ciascun periodo di ammortamento. Questa percentuale viene calcolata in base alla vita utile del cespite. Ad esempio, se un cespite ha una vita utile di cinque anni, la percentuale viene calcolata come 25% (125% ÷ 5).
 
@@ -66,7 +64,7 @@ Se si seleziona **Fiscale** come anno di ammortamento, nel campo **Frequenza per
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Esempio di ammortamento a saldi decrescenti del 125%
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Costo di acquisizione               | 11.000 |
 | Valore di realizzo                  | 1.000  |
@@ -87,3 +85,6 @@ Il metodo a saldi decrescenti del 125% consente di dividere il 125% per gli anni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

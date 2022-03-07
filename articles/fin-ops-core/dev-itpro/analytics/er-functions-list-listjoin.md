@@ -2,11 +2,8 @@
 title: 'Funzione LISTJOIN ER '
 description: In questo argomento vengono fornite informazioni sull'utilizzo della funzione LISTJOIN Electronic reporting (ER).
 author: NickSelin
-manager: kfend
 ms.date: 04/01/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d9346afc88adb89c08098f39a5fd1c2cb82f664af2244b8cafbbe8a4d2f516c6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755804"
 ---
 # <a name="listjoin-er-function"></a>Funzione LISTJOIN ER
 
@@ -33,7 +30,7 @@ La funzione `LISTJOIN` restituisce un valore *Elenco di record* che rappresenta 
 ## <a name="syntax"></a>Sintassi
 
 ```vb
-LIST (list 1 [, list 2, …, list N])
+LISTJOIN (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>Argomenti
@@ -68,18 +65,21 @@ Inserire quindi l'origine dati **Record 2** del tipo `Container` . Questa origin
 - **Importo**: Questo campo contiene un'espressione che restituisce un valore del tipo`Real` .
 - **Funzione**: Questo campo contiene un'espressione che restituisce un valore del tipo`Boolean` .
 
-![Pagina della progettazione mapping modello di ER](./media/er-functions-list-listjoin-image1.gif)
+![Finestra di progettazione mapping modello ER.](./media/er-functions-list-listjoin-image1.gif)
 
 In questo caso, l'espressione `LISTJOIN(LIST('Record 1'), LIST('Record 2'))`restituisce un nuovo elenco che contiene due record.
 
-![Pagina di progettazione del mapping di modello ER con due record](./media/er-functions-list-listjoin-image2.gif)
+![Finestra di progettazione mapping modello ER con due record.](./media/er-functions-list-listjoin-image2.gif)
 
 La struttura di questo elenco è costituita da un singolo campo **Importo** di tipo `Real`, perché questo campo è l'unico campo che viene presentato in ogni argomento della funzione chiamata.
 
-![Campo dell'importo della pagina di progettazione del mapping di modello ER](./media/er-functions-list-listjoin-image3.gif)
+![Campo importo finestra di progettazione mapping modello ER.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Funzioni di elenco](er-functions-category-list.md)
 
 [Eseguire il debug delle origini dati di un formato ER eseguito per analizzare il flusso e la trasformazione dei dati](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

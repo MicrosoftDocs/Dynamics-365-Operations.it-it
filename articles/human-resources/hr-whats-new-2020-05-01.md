@@ -1,31 +1,30 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (1 maggio 2020)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 1 maggio 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 074c678d9d8294aabf4e78b2a6ee0fa53efbaf23
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ae4b0619a7006bad623e3cee4d9f099e2632b10eeabb78aac16abe53b0911b3a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419211"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781635"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (1 maggio 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo articolo descrive le funzionalità nuove o modificate in Dynamics 365 Human Resources. Le modifiche si applicano alla build 8.1.3196. I numeri tra parentesi in alcune intestazioni si riferiscono ai numeri del supporto in LCS per riferimento.
 
@@ -38,7 +37,7 @@ Ora sono disponibili le seguenti entità. Se queste entità non sono elencate ne
 - **Misura di discussione**
 - **Argomento di discussione**
 - **Giornale di registrazione prestazioni**
-- **Misurazione**
+- **Misura**
 - **Misura obiettivo**
 
 Inoltre, **Punteggio totale** e **Punteggio medio** sono stati aggiunti all'entità **Discussione**.
@@ -106,6 +105,8 @@ Se l'anteprima del documento per i documenti memorizzati in SharePoint non funzi
 ## <a name="see-also"></a>Vedere anche
 
 [Novità o modifiche in Human Resources](hr-admin-whats-new.md)</br>
-[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Panoramica della seconda ondata di rilascio di Dynamics 365 Human Resources 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Aggiornare un processo](hr-admin-setup-update-process.md)</br>
 [Gestire le funzionalità](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

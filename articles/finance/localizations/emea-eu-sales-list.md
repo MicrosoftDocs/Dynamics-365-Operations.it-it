@@ -2,7 +2,7 @@
 title: Dichiarazione elenco vendite UE
 description: Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell'Unione Europea (UE).
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 672bb37a4d191c4b4f72b234ba98766ffd223f69
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323477"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826130"
 ---
 # <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
 
@@ -27,7 +27,8 @@ ms.locfileid: "8323477"
 
 Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell'Unione Europea (UE).
 
-## <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
+<a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
+-----------------------
 
 Un fornitore che effettua forniture di prodotti o servizi intracomunitarie ad aziende che hanno sede nell'Unione Europea (EU) deve inviare una dichiarazione di forniture intracomunitaria (elenco vendite UE o ESL). In linea generale, la dichiarazione ESL deve essere inviata agli uffici tributari non oltre l'ultimo giorno del mese successivo al periodo coperto dall'elenco vendite UE. Il fornitore deve dichiarare la propria partita IVA sulla dichiarazione ESL e deve inoltre specificare, per cliente, le seguenti informazioni:
 
@@ -68,19 +69,13 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 <td>Impostare i parametri di identificazione dell'esenzione IVA nella pagina <strong>Parametri paese</strong> (fare clic su <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>IVA</strong> &gt; <strong>Parametri paese</strong>). Per ciascun paese in cui si hanno delle controparti, creare un record nella pagina e specificare le seguenti informazioni:
 <ul>
 <li><strong>Paese</strong> - Selezionare un paese da associare alla partita IVA.</li>
-<li><strong>IVA</strong> - Immettere il numero di partita IVA (ovvero il numero di registrazione IVA o il prefisso della partita IVA) per il paese selezionato.</li>
+<li><strong>IVA</strong> - Immettere il numero di partita IVA (ovvero il prefisso della partita IVA) per il paese selezionato.</li>
 <li><strong>Verifica partita IVA</strong> - Selezionare questa casella di controllo per convalidare la partita IVA per il paese selezionato.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Impostazione:</strong> numeri di registrazione IVA</td>
-<td>Creare numeri di registrazione IVA per le controparti nella pagina <strong>Tutti i clienti</strong> (andare a <strong>Vendite e marketing</strong> &gt; <strong>Clienti</strong> &gt; <strong>Tutti i clienti</strong>, selezionare il record di un cliente, quindi selezionare <strong>Clienti</strong> &gt; <strong>ID registrazioni</strong>) o nella pagina <strong>Fornitori</strong> (andare a <strong>Approvvigionamento</strong> &gt; <strong>Fornitori</strong> &gt; <strong>Fornitori</strong>, selezionare il record di un fornitore, quindi selezionare <strong>Fornitori</strong> &gt; <strong>ID registrazioni</strong>). Nella Scheda dettaglio <strong>ID registrazione</strong>, nella scheda <strong>Generale</strong>, creare un record e specificare le seguenti informazioni:
-<ul>
-<li><strong>Tipo di registrazione</strong> - Selezionare il tipo di registrazione assegnato alla categoria di registrazione <strong>ID IVA</strong> per il paese/area geografica della controparte.</li>
-<li><strong>Numero di registrazione</strong> - Immettere il numero di registrazione IVA della controparte.</li>
-<li><strong>Validità</strong> - Selezionare l'inizio del periodo di utilizzo del numero di registrazione IVA.</li>
-</ul>  
-In alternativa, è possibile creare un numero di registrazione IVA per le controparti nella pagina <strong>Partite IVA</strong> (andare a <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>IVA</strong> &gt; <strong>Partite IVA</strong>). Per ogni partita IVA, creare un record nella pagina e specificare le seguenti informazioni:
+<td><strong>Impostazione: </strong>partite IVA</td>
+<td>Creare i numero di esenzione IVA per le controparti nella pagina <strong>Partite IVA</strong> (fare clic su <strong>Imposta</strong> &gt; <strong>Impostazione</strong> &gt; <strong>IVA</strong> &gt; <strong>Partite IVA</strong>). Per ogni partita IVA, creare un record nella pagina e specificare le seguenti informazioni:
 <ul>
 <li><strong>Paese </strong> - Selezionare il paese di registrazione IVA della controparte.</li>
 <li><strong>Partita IVA</strong> - Immettere la partita IVA della controparte.</li>
@@ -89,7 +84,7 @@ In alternativa, è possibile creare un numero di registrazione IVA per le contro
 </tr>
 <tr class="even">
 <td><strong>Impostazione: </strong>registrazione fiscale delle controparti</td>
-<td>Impostare le informazioni per la registrazione fiscale delle controparti nella pagina <strong>Tutti i clienti</strong> (fare clic su <strong>Vendite e marketing</strong> &gt; <strong>Clienti</strong> &gt; <strong>Tutti i clienti</strong>, selezionare il record di un cliente, quindi fare clic su <strong>Opzioni</strong> &gt; <strong>Cambia visualizzazione</strong> &gt; <strong>Visualizzazione dettagli</strong>) o nella pagina <strong>Fornitori</strong> (fare clic su <strong>Approvvigionamento</strong> &gt; <strong>Fornitori</strong> &gt; <strong>Fornitori</strong>, selezionare il record di un fornitore, quindi fare clic su <strong>Opzioni</strong> &gt; <strong>Cambia visualizzazione</strong> &gt; <strong>Visualizzazione dettagli</strong>). Nella Scheda dettaglio <strong>Fattura e consegna</strong>, nel campo <strong>Partita IVA</strong>, selezionare il numero di registrazione IVA.</td>
+<td>Impostare le informazioni per la registrazione fiscale delle controparti nella pagina <strong>Tutti i clienti</strong> (fare clic su <strong>Vendite e marketing</strong> &gt; <strong>Clienti</strong> &gt; <strong>Tutti i clienti</strong>, selezionare il record di un cliente, quindi fare clic su <strong>Opzioni</strong> &gt; <strong>Cambia visualizzazione</strong> &gt; <strong>Visualizzazione dettagli</strong>) o nella pagina <strong>Fornitori</strong> (fare clic su <strong>Approvvigionamento</strong> &gt; <strong>Fornitori</strong> &gt; <strong>Fornitori</strong>, selezionare il record di un fornitore, quindi fare clic su <strong>Opzioni</strong> &gt; <strong>Cambia visualizzazione</strong> &gt; <strong>Visualizzazione dettagli</strong>). Nella Scheda dettaglio <strong>Fattura e consegna</strong>, nel campo <strong>Partita IVA</strong>, selezionare il numero di partita IVA.</td>
 </tr>
 <tr class="odd">
 <td><strong>Impostazione: </strong>IVA</td>

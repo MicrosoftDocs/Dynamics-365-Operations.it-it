@@ -10,18 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0130aef7212256a11ca9d27ffdd4af7a0aa6d98c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: b29bb1aea9e96b5ef39303025cb286f0d1fde12c
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860427"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678885"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Libro contabile di contabilità inventario globale
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Contabilità inventario globale ha un proprio set di libri contabili. Ogni volta che viene elaborata una transazione relativa all'inventario per una persona giuridica pertinente, il sistema può contabilizzare tale transazione in qualsiasi numero di libri contabili di Contabilità inventario globale, come richiesto.
 

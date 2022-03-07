@@ -2,16 +2,13 @@
 title: Migrazione all'ottimizzazione di pianificazione per la pianificazione generale
 description: Questo argomento fornisce informazioni sul nuovo motore di pianificazione generale, sull'ottimizzazione della pianificazione e sulla migrazione dal motore esistente.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348759"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrazione all'ottimizzazione di pianificazione per la pianificazione generale
 
@@ -66,8 +63,12 @@ Attualmente le eccezioni per la migrazione di Ottimizzazione pianificazione sono
 
 Dopo che le funzionalità richieste diventano disponibili, Microsoft fornirà un periodo di tolleranza fino alla scadenza dell'eccezione. L'amministratore dell'ambiente verrà informato quando le funzionalità richieste saranno disponibili e il periodo di tolleranza è iniziato.
 
+Il diagramma di flusso seguente riepiloga le informazioni fornite in questo argomento in modo da poter scoprire rapidamente se è necessario richiedere un'eccezione. Se devi richiedere un'eccezione, compila e invia il [questionario sulla migrazione e sulle eccezioni di Ottimizzazione pianificazione](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Diagramma di flusso delle eccezioni.](media/exception-diagram.png "Diagramma di flusso delle eccezioni")
+
 > [!NOTE]
-> Puoi richiedere un'eccezione solo per gli ambienti di produzione, non per gli ambienti sandbox. Se è necessario disabilitare l'errore di eccezione di Ottimizzazione pianificazione su un ambiente sandbox IaaS (Infrastructure as a Service), eseguire la query SQL fornita in [Ambienti sandbox](#faq-sandbox).
+> È possibile richiedere un'eccezione solo per i tenant che attualmente includono, o includeranno, un ambiente di produzione, non solo per tenant con ambienti sandbox. Se è necessario disabilitare l'errore di eccezione di Ottimizzazione pianificazione su un ambiente sandbox IaaS (Infrastructure as a Service), eseguire la query SQL fornita in [Ambienti sandbox](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 
@@ -116,3 +117,6 @@ L'amministratore dell'ambiente ha ricevuto un messaggio e-mail da Microsoft. Que
 > Completare il seguente questionario per iniziare e, se pertinente, richiedere l'eccezione dalla migrazione a Ottimizzazione pianificazione.
 
 **Risposta:** No, la pianificazione generale non è bloccata. L'esecuzione della pianificazione generale è stata completata ed è possibile utilizzare il risultato nel modo consueto. Tuttavia, per evitare di ricevere questo messaggio di errore durante le future esecuzioni della pianificazione generale, è necessario migrare immediatamente a Ottimizzazione pianificazione o richiedere un'eccezione utilizzando il collegamento nel messaggio di errore.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

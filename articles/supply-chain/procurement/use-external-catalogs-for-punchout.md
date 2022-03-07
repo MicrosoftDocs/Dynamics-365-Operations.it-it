@@ -1,12 +1,10 @@
 ---
 title: Usare cataloghi esterni per PunchOut e-procurement
 description: In questo argomento viene descritto come utilizzare i cataloghi esterni per creare e inviare richieste.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests, CatExternalCatalogBasketWizard, CatExternalCatalogPunchoutDialog
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74b49e32684571f622b25dcdd179eeeed9b35365
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b236a17a7f93bfeb60d64fa25745bd1b4cb1b34b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018755"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578034"
 ---
 # <a name="use-external-catalogs-for-punchout-e-procurement"></a>Usare cataloghi esterni per PunchOut e-procurement
 
@@ -54,3 +52,5 @@ Quando la richiesta è pronta, utilizzare l'azione **Flusso di lavoro** > **Invi
 
 - [Configurare un catalogo esterno per PunchOut e-procurement](set-up-external-catalog-for-punchout.md)
 - [Miglioramenti cXML per gli acquisti](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Impostare i profili registrazione cespiti
-description: Questa procedura mostra come impostare i profili di registrazione cespiti.
-author: moaamer
+description: In questa guida attività verranno impostati i profili registrazione cespiti.
+author: saraschi2
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767625"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Impostare i profili registrazione cespiti
 
 [!include [banner](../../includes/banner.md)]
 
-Questa procedura mostra come impostare i profili di registrazione cespiti. Gli esempi forniti nell'argomento sono relativi a un profilo registrazione di base, anche se i profili registrazione devono essere creati per i requisiti specifici di report finanziari e piano dei conti.
+In questa guida attività verranno impostati i profili registrazione cespiti.  Utilizza il ruolo Ragioniere e i dati dimostrativi per la persona giuridica USMF.  Gli esempi forniti nella guida attività sono relativi a un profilo registrazione di base, anche se i profili registrazione devono essere creati per i requisiti specifici di report finanziari e piano dei conti.
 
 1. Nel pannello di navigazione, passare a **Moduli > Cespiti > Impostazione > Profili registrazione cespiti**.
 2. Fare clic su **Nuovo**.

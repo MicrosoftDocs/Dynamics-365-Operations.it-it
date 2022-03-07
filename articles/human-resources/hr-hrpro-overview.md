@@ -2,7 +2,7 @@
 title: Panoramica
 description: Il manuale dell'utente di Dynamics 365 Human Resources fornisce istruzioni sulla configurazione di Human Resources, l'impostazione di compensazioni e benefit per i dipendenti e la gestione della forza lavoro.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 38848fe326deb4dd1e63c9f090765e8a0af2f649
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419265"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467965"
 ---
 # <a name="overview"></a>Panoramica
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Il manuale dell'utente di Dynamics 365 Human Resources fornisce istruzioni sulla configurazione di Human Resources, l'impostazione di compensazioni e benefit per i dipendenti e la gestione della forza lavoro.
 
@@ -60,10 +62,9 @@ Il manuale dell'utente di Dynamics 365 Human Resources fornisce istruzioni sulla
 [Modificare le relazioni gerarchiche per una posizione](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Immettere informazioni su lavoratore](hr-personnel-enter-worker-information.md)</br>
 [Prestare articoli ai lavoratori](hr-personnel-loan-item-worker.md)</br>
-[Immettere fogli presenze di progetto](hr-personnel-enter-project-timesheets.md)</br>
 [Progetti di assunzione collettiva](hr-personnel-mass-hire-projects.md)</br>
 [Impostare le posizioni](hr-personnel-set-up-positions.md)</br>
-[Impostare le informazioni su infortunio e malattia](hr-personnel-set-up-injury-illness-information.md)</br>
+[Imposta le informazioni su infortunio e malattia](hr-personnel-set-up-injury-illness-information.md)</br>
 
 ## <a name="set-up-compensation-plans"></a>Configurare piani di retribuzione
 
@@ -128,3 +129,6 @@ Il manuale dell'utente di Dynamics 365 Human Resources fornisce istruzioni sulla
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

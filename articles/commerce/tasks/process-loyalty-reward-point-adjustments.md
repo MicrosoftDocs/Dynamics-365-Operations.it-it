@@ -2,27 +2,24 @@
 title: " Elaborare correzioni punti fedeltà"
 description: Questa procedura dimostra come individuare le informazioni sulla carta fedeltà e rettificare i punti premio fedeltà.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyCards, RetailLoyaltyCardRewardPointTrans, RetailLoyaltyCardRewardPointAdjustment, RetailAffiliationLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bdbd9fa60fe4d000359e4695a9fb034fae3ca1b0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 07008234255102e6094e362edcadb116158e9ee770d782fbb654bfc1ce000285
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757347"
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> Elaborare correzioni punti fedeltà
 
@@ -50,3 +47,6 @@ Questa procedura dimostra come individuare le informazioni sulla carta fedeltà 
 15. Fare clic su Transazioni carte.
 16. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

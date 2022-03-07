@@ -2,28 +2,27 @@
 title: Panoramica sui modelli di configurazione prodotto
 description: Questo articolo definisce termini e concetti importanti relativi ai modelli di configurazione prodotto. I modelli di configurazione prodotto consentono di creare una struttura di prodotto generica utilizzabile per configurare più varianti di un singolo prodotto.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 4031
+ms.custom:
+- "4031"
+- intro-internal
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87d61203d36722194b98a247609fa126b71b846c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fbf99853b7eb74dd6f277bd1c235145bfa08f4a
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430920"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338400"
 ---
 # <a name="product-configuration-models-overview"></a>Panoramica sui modelli di configurazione prodotto
 
@@ -153,3 +152,6 @@ Un vincolo di tabella definito dal sistema rappresenta un mapping tra un tipo di
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

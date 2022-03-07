@@ -2,37 +2,35 @@
 title: Impostare un dispositivo per eseguire l'interfaccia di esecuzione dell'area di produzione
 description: L'interfaccia di esecuzione dell'area di produzione è configurata per ogni dispositivo dell'area di produzione. Le società in genere configurano ogni dispositivo in modo diverso, a seconda dello scopo che serve. Ad esempio, una società potrebbe avere un dispositivo nell'area della reception, dove i lavoratori entrano ed escono, e un altro nel reparto di produzione, dove i lavoratori gestiscono il lavoro.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966281"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752834"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Impostare un dispositivo per eseguire l'interfaccia di esecuzione dell'area di produzione
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 L'interfaccia di esecuzione dell'area di produzione è configurata per ogni dispositivo dell'area di produzione. Le società in genere configurano ogni dispositivo in modo diverso, a seconda dello scopo che serve. Ad esempio, una società potrebbe avere un dispositivo nell'area della reception, dove i lavoratori entrano ed escono, e un altro nel reparto di produzione, dove i lavoratori gestiscono il lavoro.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Impostare la configurazione e i filtri per un dispositivo specifico
 
-Per impostare la configurazione e i filtri dei processi per un dispositivo, accedere alla pagina **Esecuzione area di produzione** utilizzando un account con un ruolo di sicurezza che include il diritto *Supervisore gestione tempo*. (Tra i ruoli di sicurezza predefiniti, solo *Supervisore reparto di produzione* ha questo diritto). Quindi seguire questi passaggi.
+Per impostare la configurazione e i filtri dei processi per un dispositivo, accedere alla pagina **Esecuzione area di produzione** utilizzando un account con un ruolo di sicurezza che include il diritto *Supervisione gestione tempo*. (Tra i ruoli di sicurezza predefiniti, solo *Supervisore reparto di produzione* ha questo diritto). Quindi seguire questi passaggi.
 
-1. Aprire il dispositivo che si desidera configurare e accedere a Microsoft Dynamics 365 Supply Chain Management come supervisore del reparto di produzione. (Utilizzare un account che includa il diritto *Supervisore gestione tempo*).
+1. Aprire il dispositivo che si desidera configurare e accedere a Microsoft Dynamics 365 Supply Chain Management come supervisore del reparto di produzione. (Utilizzare un account che includa il diritto *Supervisione gestione tempo*).
 1. Assicurarti che sia disponibile una configurazione per il dispositivo che si sta impostando. Se non esiste già una configurazione, viene fornita una configurazione predefinita. Per ulteriori informazioni su come impostare una configurazione, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-configure.md).
 1. Andare a **Controllo produzione \> Esecuzione produzione \> Esecuzione area di produzione**.
 
@@ -72,10 +70,13 @@ Spesso, si eseguirà l'interfaccia di esecuzione dell'area di produzione su un d
 
 La parte superiore della seguente illustrazione mostra l'aspetto predefinito dell'interfaccia. La parte inferiore mostra come appare in modalità a schermo intero quando il riquadro di spostamento è nascosto.
 
-![Interfaccia standard e a schermo intero](media/pfei-full-screen.png "Interfaccia standard e a schermo intero")
+![Interfaccia standard e a schermo intero.](media/pfei-full-screen.png "Interfaccia standard e a schermo intero")
 
 ## <a name="extend-the-session-past-12-hours"></a>Estendere la sessione oltre le 12 ore
 
 Per impostazione predefinita, l'interfaccia di esecuzione dell'area di produzione si disconnette automaticamente se nessuno la utilizza per 12 ore. Un utente di Supply Chain Management deve quindi accedere di nuovo. Tuttavia, è possibile estendere il limite di timeout fino a 90 giorni.
 
 Per estendere il limite di timeout, accedere a Supply Chain Management e andare in **Amministrazione di sistema \> Utenti \> Estensioni di sessione**. Specificare l'account utente di Supply Chain Management utilizzato per accedere al dispositivo e il numero di ore per le quali la sessione deve rimanere attiva.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

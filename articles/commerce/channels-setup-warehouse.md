@@ -2,36 +2,30 @@
 title: Impostare un magazzino
 description: Questo argomento descrive come impostare un magazzino da utilizzare con un nuovo canale in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734021"
 ---
 # <a name="warehouse-set-up"></a>impostare un magazzino
-
 
 [!include [banner](includes/banner.md)]
 
 Questo argomento descrive come impostare un magazzino da utilizzare con un nuovo canale in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 A ogni canale di Commerce è necessario associare un magazzino configurato. Le seguenti procedure forniscono la configurazione minima richiesta per impostare un magazzino per un canale di Commerce. Per ulteriori informazioni sull'impostazione di un magazzino, consultare [Panoramica della gestione magazzino](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -51,7 +45,7 @@ Per configurare un sito di magazzino, attenersi alla seguente procedura.
 
 L'immagine seguente mostra un esempio di sito di magazzino.
 
-![Esempio di sito di magazzino](media/warehouse-site.png)
+![Esempio di sito di magazzino.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Impostare un magazzino
 
@@ -104,7 +98,7 @@ Per impostare le ubicazioni delle scorte magazzino per scorte standard, danneggi
     
 L'immagine seguente mostra l'impostazione dell'ubicazione delle scorte magazzino a San Francisco.
 
-![Esempio di impostazione dell'ubicazione delle scorte](media/warehouse-inventory-locations.png)
+![Esempio di impostazione dell'ubicazione delle scorte.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Completare l'impostazione del magazzino
 
@@ -127,7 +121,7 @@ Per completare l'impostazione del magazzino, attenersi alla procedura seguente.
 
 L'immagine seguente mostra i dettagli di un magazzino configurato.
 
-![Esempio di magazzino configurato](media/warehouse-sample.png)
+![Esempio di magazzino configurato.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -147,3 +141,6 @@ L'immagine seguente mostra i dettagli di un magazzino configurato.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

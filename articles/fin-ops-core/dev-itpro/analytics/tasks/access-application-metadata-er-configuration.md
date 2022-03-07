@@ -1,12 +1,11 @@
 ---
 title: Accedere ai metadati dell'applicazione utilizzando una configurazione ER
-description: I passaggi in questo argomento spiegano come un utente Regulatory Configuration Service (RCS) può progettare un nuovo mapping del modello di report elettronici (ER) utilizzando i metadati in Finance and Operations.
+description: Questo argomento descrive come un utente di Regulatory Configuration Service (RCS) può progettare un nuovo mapping di modello per la creazione di report elettronici (ER) utilizzando i metadati.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 91c50047781fdc21c9157ceb634822c6cfb5a075
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682167"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559653"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Accedere ai metadati dell'applicazione utilizzando una configurazione ER
 
@@ -125,3 +124,6 @@ I passaggi seguenti illustrano come un utente di Regulatory Configuration Servic
 > [!NOTE]
 > Questo modo di ottenere informazioni sui metadati dell'applicazione è l'unico disponibile per le applicazioni distribuite localmente (quando un modello di distribuzione di dati aziendali locali o on-premises è utilizzato).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

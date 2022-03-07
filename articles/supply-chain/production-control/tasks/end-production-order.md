@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fade659c320e0ea1059644324859c9a3cb273c96
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 994f4ca578de970876f714bb397afeea1f39c15c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430847"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240343"
 ---
 # <a name="end-a-production-order"></a>Chiudere un ordine di produzione
 
@@ -46,3 +45,6 @@ Questa procedura indica come terminare un ordine di produzione. La società di d
 1. Nel riquadro azioni, fare clic su Gestisci costi.
 2. Fare clic su Visualizza confronto costi.
     * Dopo aver terminato l'ordine di produzione, è possibile comparare il prezzo di costo stimato al prezzo di costo realizzato per ottenere una panoramica degli scostamenti di produzione.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

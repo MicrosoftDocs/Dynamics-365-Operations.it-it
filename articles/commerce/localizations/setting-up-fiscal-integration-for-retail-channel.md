@@ -2,11 +2,9 @@
 title: Impostare l'integrazione fiscale per canali di commercio
 description: In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 889340c13d150ce8e3ad49a08b3d7f0c25a4b77a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fb48eb93d8cf4f26174441de65c0b105c5e8774c2030e844ec7bd1352bff64b0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719898"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Impostare l'integrazione fiscale per canali di commercio
 
@@ -88,7 +86,7 @@ Prima di utilizzare la funzionalità di integrazione fiscale, è necessario conf
 
         **Esempi**
 
-        |   | Formatta | Esempio |
+        | Parametro  | Formattazione | Esempio |
         |---|--------|---------|
         | **Impostazioni aliquote IVA** | value : VATrate | 1 : 2000, 2 : 1800 |
         | **Mapping codici IVA** | VATcode : value | vat20 : 1, vat18 : 2 |
@@ -225,3 +223,6 @@ Per abilitare l'esecuzione manuale di una registrazione fiscale posticipata, è 
     1. Selezionare il layout da aggiornare.
     2. Aggiungere un nuovo pulsante e impostare la proprietà del pulsante **Processo di registrazione fiscale completo**.
     3. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1090** per trasferire le modifiche al database del canale.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

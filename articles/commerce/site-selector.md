@@ -2,7 +2,7 @@
 title: Modulo di selezione sito
 description: In questo argomento viene descritto il modulo di selezione sito e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2022
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 381163fdd6180a76def2e1bfb733f597b611c517
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 6e8eefe7afe385ca77eca6027638ff938e1356e3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109708"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791777"
 ---
-# <a name="site-picker-module"></a>Modulo di selezione sito
+# <a name="site-selector-module"></a>Modulo di selezione sito
 
 [!include [banner](includes/banner.md)]
 
@@ -37,20 +37,18 @@ Il modulo di selezione sito deve essere configurato con l'elenco dei siti (merca
 
 La figura seguente mostra un esempio di un modulo di selezione sito presente nell'intestazione di una pagina del sito.
 
-![Esempio di un modulo di selezione sito nell'intestazione di una pagina del sito.](./media/ecommerce-sitepicker.PNG)
+![Esempio di un modulo di selezione sito nell'intestazione di una pagina del sito](./media/ecommerce-sitepicker.PNG)
 
-## <a name="site-picker-module-properties"></a>Proprietà del modulo di selezione sito
+## <a name="site-selector-module-properties"></a>Proprietà del modulo di selezione sito
 
-| Nome proprietà | Valore                 | Description |
+| Nome proprietà | Valore                 | Descrizione |
 |---------------|-----------------------|-------------|
 | Intestazione       | Testo                  | L'intestazione del modulo. |
 | Opzioni sito  | Nome, immagine, URL      | Questa proprietà specifica un nome, un collegamento alla home page del sito e un'immagine facoltativa da mostrare per ogni sito incluso nel modulo. L'immagine può essere un flag o una rappresentazione di un mercato, una regione o un'impostazione locale. |
 
-## <a name="add-a-site-picker-module-to-a-page"></a>Aggiungere un modulo di selezione sito a una pagina
+## <a name="add-a-site-selector-module-to-a-page"></a>Aggiungere un modulo di selezione sito a una pagina
 
-Il modulo di selezione sito può essere aggiunto allo slot **Selezione sito** del [modulo di intestazione](author-header-module.md). Dopo aver aggiunto un modulo di selezione sito, è possibile definire l'intestazione del modulo e le opzioni del sito. In genere, un modulo di intestazione è contenuto in un frammento di intestazione che può essere condiviso tra le pagine di e-commerce di un sito. Nell'esempio seguente, il modulo di selezione sito è stato aggiunto allo slot **Selezione sito** di un modulo di intestazione contenuto in un frammento di intestazione denominato **HeaderContainer**.
-
-![Esempio di un modulo di selezione sito in un frammento di intestazione.](./media/ecommerce-sitepicker-2.png)
+Il modulo di selezione sito può essere aggiunto al [Modulo di intestazione](author-header-module.md) sotto lo slot di selezione sito. Dopo averlo aggiunto, è possibile definire l'intestazione del modulo e le opzioni del sito.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

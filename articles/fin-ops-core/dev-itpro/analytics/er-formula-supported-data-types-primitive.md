@@ -3,19 +3,24 @@ title: Tipi di dati primitivi supportati per le formule di creazione di report e
 description: Questo argomento fornisce informazioni sui tipi di dati primitivi supportati nelle formule di creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 06/02/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323642"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355324"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Tipi di dati primitivi supportati per le formule di creazione di report elettronici
 
@@ -101,7 +106,7 @@ Gli [operatori](er-formula-language.md#Operators) di confronto sono l'unico tipo
 
 ## <a name="enumeration"></a><a name="enumeration"></a>Enumerazione
 
-Il tipo di dati primitivo *enumerazione* è un elenco di valori letterali. È possibile utilizzare enumerazioni definite nel [codice sorgente](../dev-ref/xpp-data-primitive.md#enum) dell'applicazione. È anche possibile introdurre enumerazioni personali nel modello di dati ER e nei componenti formato ER.
+Il tipo di dati primitivo *enumerazione* è un elenco di valori letterali. È possibile utilizzare enumerazioni definite nel [codice sorgente](../dev-ref/xpp-data-primitive.md#enum) dell'applicazione. È anche possibile introdurre enumerazioni personali nel [modello di dati](general-electronic-reporting.md#data-model-and-model-mapping-components) ER e nei componenti [formato](general-electronic-reporting.md#FormatComponentOutbound) ER.
 
 Un'*enumerazione* dell'applicazione può essere usata nelle espressioni di qualsiasi mapping del modello ER e formato ER.
 

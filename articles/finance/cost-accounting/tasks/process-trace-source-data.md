@@ -2,22 +2,25 @@
 title: Elaborare e tenere traccia dei dati di origine
 description: Tutte le elaborazione dei dati vengono eseguite da processi.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa4daff2d35ecfc9d2be171167683679b1e6db5698f9d04c13edf773253590d2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a23443c985ac681c8c31956ae5ea3e513337577
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775892"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444915"
 ---
 # <a name="process-and-trace-source-data"></a>Elaborare e tenere traccia dei dati di origine
 
@@ -42,6 +45,3 @@ Tutte le elaborazione dei dati vengono eseguite da processi. Per ogni processo e
     * Per questo esempio, selezionare il periodo 9 dell'anno fiscale 2017.  
 14. Fare clic su OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

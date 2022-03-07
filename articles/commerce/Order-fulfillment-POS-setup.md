@@ -2,11 +2,9 @@
 title: Impostazione dell'evasione ordini nel punto vendita
 description: In questo argomento viene fornita una panoramica su come impostare l'evasione ordini del punto vendita.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -16,18 +14,16 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965319"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796440"
 ---
-# <a name="set-up-order-fulfillment-for-stores"></a>Impostazione dell'evasione ordini nel punto vendita
+# <a name="set-up-order-fulfillment-for-stores"></a>Impostare l'evasione degli ordini nel punto vendita
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>Panoramica
 
 Molti rivenditori vorrebbero ottimizzare l'evasione dell'ordine consentendo ai punti vendita di eseguire gli ordini. L'evasione degli ordini a livello di punto vendita può semplificare gli scenari di scorte in eccesso per un punto vendita specifico o potrebbe essere necessaria da un punto di vista logistico nei casi in cui un punto vendita disponga di capacità aggiuntiva o si trovi a una distanza di spedizione più vicina al cliente. Per rispondere a questa esigenza, un'operazione di evasione degli ordini unificata è disponibile presso il POS.
 
@@ -76,7 +72,7 @@ La visualizzazione di evasione ordini elenca le righe dell'ordine per l'evasione
 
 - Numero ordine
 - Numero prodotto
-- descrizione
+- Descrizione
 - Quantità ordinata
 - Data di consegna richiesta
 - Nome cliente
@@ -130,3 +126,6 @@ L'evasione dell'ordine presso il POS include il filtro per aiutare l'utente a tr
 - Data creazione
 - Data di consegna
 - Data di ricevimento
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

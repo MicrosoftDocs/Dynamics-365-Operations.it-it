@@ -2,28 +2,25 @@
 title: Consolidare le spedizioni utilizzando Rilascia in magazzino dal workbench di pianificazione del carico
 description: Questo argomento presenta uno scenario in cui più ordini vengono rilasciati al magazzino nello stesso carico e vengono quindi automaticamente consolidati in spedizioni.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 2f1dd5c743664e638c043b600ae7b0f6bce5ddcd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b724b3f040a1b277d99dd067525dfda2b47ca73b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430912"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577890"
 ---
-# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Consolidare le spedizioni utilizzando Rilascia in magazzino dal workbench di pianificazione del carico
+# <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Consolidare le spedizioni utilizzando Rilascia in magazzino dal workbench di pianificazione del carico
 
 [!include [banner](../includes/banner.md)]
 
@@ -261,3 +258,6 @@ Dovrebbero essere state create quattro spedizioni:
 
 - [Criteri consolidamento spedizione](about-shipment-consolidation-policies.md)
 - [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

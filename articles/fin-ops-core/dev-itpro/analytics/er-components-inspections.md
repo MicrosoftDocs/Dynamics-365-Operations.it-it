@@ -2,11 +2,9 @@
 title: Ispezionare il componente ER configurato per evitare problemi di runtime
 description: Questo argomento spiega come ispezionare i componenti di creazione di report elettronici (ER) configurati per prevenire problemi di runtime che potrebbero verificarsi.
 author: NickSelin
-manager: AnnBe
-ms.date: 12/04/2020
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797343"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074793"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Ispezionare il componente ER configurato per evitare problemi di runtime
 
 [!include[banner](../includes/banner.md)]
 
-Ogni formato [Reporting elettronico (ER)](general-electronic-reporting.md) [configurato](general-electronic-reporting.md#FormatComponentOutbound) e [componente del mapping del modello](general-electronic-reporting.md#data-model-and-model-mapping-components) può essere [convalidato](er-fillable-excel.md#validate-an-er-format) in fase di progettazione. Durante questa convalida, viene eseguito un controllo di coerenza per aiutare a prevenire problemi di runtime che potrebbero verificarsi, come errori di esecuzione e riduzione delle prestazioni. Per ogni problema riscontrato, il controllo fornisce il percorso di un elemento problematico. Per alcuni problemi è disponibile una correzione automatica.
+Ogni formato [Reporting elettronico (ER)](general-electronic-reporting.md) [configurato](er-overview-components.md#format-components-for-outgoing-electronic-documents) e [componente del mapping del modello](er-overview-components.md#model-mapping-component) può essere [convalidato](er-fillable-excel.md#validate-an-er-format) in fase di progettazione. Durante questa convalida, viene eseguito un controllo di coerenza per aiutare a prevenire problemi di runtime che potrebbero verificarsi, come errori di esecuzione e riduzione delle prestazioni. Per ogni problema riscontrato, il controllo fornisce il percorso di un elemento problematico. Per alcuni problemi è disponibile una correzione automatica.
 
 Per impostazione predefinita, la convalida viene applicata automaticamente nei seguenti casi per una configurazione ER che contiene i componenti ER precedentemente menzionati:
 
@@ -205,6 +203,48 @@ Nella seguente tabella viene fornita una panoramica delle ispezioni che ER offre
 <td>Avviso</td>
 <td>Nome definito &lt;il nome del componente&gt; non esiste nel foglio Excel &lt;nome del foglio&gt;</td>
 </tr>
+<tr>
+<td><a href='#i14'>Formato non sincronizzato</a></td>
+<td>Integrità dei dati</td>
+<td>Avviso</td>
+<td>
+<p>Il tag &lt;Controllo del contenuto di Word con tag&gt; non esiste nel file di modello di Word</p>
+<p><b>Errore di runtime:</b> il tag &lt;Controllo del contenuto di Word con tag&gt; non esiste nel file di modello di Word.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i15'>Nessun mapping predefinito</a></td>
+<td>Integrità dei dati</td>
+<td>Errore</td>
+<td>
+<p>Esiste più di un mapping del modello per il modello di dati &lt;nome di modello (descrittore radice)&gt; nelle configurazioni &lt;nomi di configurazioni separati con virgole&gt;. Impostare una delle configurazioni come predefinita</p>
+<p><b>Errore di runtime:</b> Esiste più di un mapping dei modelli per il modello di dati &lt;nome di modello (descrittore radice)&gt; nelle configurazioni &lt;nomi di configurazioni separati con virgole&gt;. Imposta una delle configurazioni come predefinita.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i16'>Impostazione incoerente dei componenti di intestazione o piè di pagina</a></td>
+<td>Integrità dei dati</td>
+<td>Errore</td>
+<td>
+<p>Le intestazioni/piè di pagina (&lt;tipo di componente: intestazione o piè di pagina&gt;) sono incoerenti</p>
+<p><b>Runtime:</b> l'ultimo componente configurato viene utilizzato in fase di runtime se viene eseguita la versione bozza del formato ER configurato.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i17'>Impostazione incoerente del componente Pagina</a></td>
+<td>Integrità dei dati</td>
+<td>Errore</td>
+<td>Sono presenti più di due componenti intervallo senza replica. Rimuovere i componenti non necessari.</td>
+</tr>
+<tr>
+<td><a href='#i18'>Eseguibilità di un'espressione con la funzione ORDERBY</a></td>
+<td>Eseguibilità</td>
+<td>Errore</td>
+<td>
+<p>L'espressione elenco della funzione ORDERBY non è disponibile per query.</p>
+<p><b>Errore di runtime:</b> l'ordinamento non è supportato. Convalidare la configurazione per ottenere maggiori dettagli su questo.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -217,25 +257,25 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 1. Iniziare a configurare il modello di dati ER e i componenti di mapping del modello ER contemporaneamente.
 2. Nell'albero del modello di dati, aggiungere un campo denominato **X** e selezionare **Numero intero** come tipo di dati.
 
-    ![Campo X e tipo di dati Numero intero aggiunti all'albero della modalità dati nella pagina Modello dati](./media/er-components-inspections-01.png)
+    ![Campo X e tipo di dati Numero intero aggiunti all'albero della modalità dati nella pagina Modello dati.](./media/er-components-inspections-01.png)
 
-3. Nel riquadro origine dati del mapping del modello aggiungere un'origine dati del genere **Campo calcolato**.
+3. Nel riquadro **Origine dati** del mapping del modello, aggiungere un'origine dati di tipo **Campo calcolato**.
 4. Assegnare un nome alla nuova origine dati **Y** e configurarlo in modo che contenga l'espressione `INTVALUE(100)`.
 5. Associare **X** a **Y**.
 6. Nella finestra di progettazione del modello di dati, modificare il tipo di dati del campo **X** da **Numero intero** a **Int64**.
 7. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Designer del mapping del modello**.
 
-    ![convalida del componente di mapping del modello modificabile nella pagina Designer del mapping del modello](./media/er-components-inspections-01.gif)
+    ![Convalida del componente di mapping del modello modificabile nella pagina Designer del mapping del modello.](./media/er-components-inspections-01.gif)
 
 8. Selezionare **Convalida** per ispezionare il componente di mapping del modello della configurazione ER selezionata nella pagina **Configurazioni**.
 
-    ![Convalidare per ispezionare il componente di mapping del modello nella pagina Configurazioni](./media/er-components-inspections-01a.png)
+    ![Verificare il componente di mapping del modello nella pagina Configurazioni.](./media/er-components-inspections-01a.png)
 
 9. Notare che si verifica un errore di convalida. Il messaggio afferma che il valore del tipo **Numero intero** che l'origine dati dell'`INTVALUE(100)`espressione di **Y** restituisce non può essere archiviato nel campo del modello di dati **X** del tipo **Int64**.
 
 La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso e si seleziona **Esegui** per eseguire un formato configurato per utilizzare il mapping del modello.
 
-![Errori di runtime nella pagina Progettazione formati](./media/er-components-inspections-01b.png)
+![Errori di runtime nella pagina Progettazione formati.](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -265,7 +305,7 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 6. Nell'albero della struttura del formato, modificare il tipo di dati dell'elemento di formato **Y** da **Numero intero** a **Int64**.
 7. Selezionare **Convalida** per ispezionare il componente formato modificabile nella pagina **Progettazione formati**.
 
-    ![Convalida della compatibilità del tipo nella pagina Progettazione formato](./media/er-components-inspections-02.gif)
+    ![Convalida della compatibilità del tipo nella pagina Progettazione formato.](./media/er-components-inspections-02.gif)
 
 8. Notare che si verifica un errore di convalida. Il messaggio indica che l'espressione configurata può solo accettare i valori **Int64**. Pertanto, il valore del campo del modello di dati **X** del genere **Numero intero** non può essere inserito nell'elemento di formato **Y**.
 
@@ -292,15 +332,15 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 1. Iniziare a configurare il modello di dati ER e i componenti di mapping del modello ER contemporaneamente.
 2. Nell'albero del modello di dati, aggiungere un campo denominato **X** e selezionare **Numero intero** come tipo di dati.
 
-    ![L'albero del modello di dati con campo X e tipo di dati Numero intero nella pagina Modello dati](./media/er-components-inspections-01.png)
+    ![L'albero del modello di dati con campo X e tipo di dati Numero intero nella pagina Modello dati.](./media/er-components-inspections-01.png)
 
-3. Nel riquadro origine dati del mapping del modello aggiungere un'origine dati del genere **Campo calcolato**.
+3. Nel riquadro **Origine dati** del mapping del modello, aggiungere un'origine dati di tipo **Campo calcolato**.
 4. Assegnare un nome alla nuova origine dati **Y** e configurarlo in modo che contenga l'espressione `INTVALUE(100)`.
 5. Associare **X** a **Y**.
-6. Nella progettazione mapping modello, nel riquadro delle origini dati, eliminare l'origine dati **Y**.
+6. Nella progettazione mapping modello, nel riquadro **Origini dati**, eliminare l'origine dati **Y**.
 7. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Designer del mapping del modello**.
 
-    ![Verificare il componente di mapping del modello modificabile ER nella pagina Progettazione mapping modello](./media/er-components-inspections-03.gif)
+    ![Verificare il componente di mapping del modello ER modificabile nella pagina Progettazione mapping modello.](./media/er-components-inspections-03.gif)
 
 8. Notare che si verifica un errore di convalida. Il messaggio afferma che l'associazione del campo del modello di dati **X** contiene il percorso che fa riferimento all'origine dati **Y**, ma questa origine dati non è stata trovata.
 
@@ -316,15 +356,15 @@ Separare il campo del modello di dati **X** per interrompere il riferimento all'
 
 #### <a name="option-2"></a>Opzione 2
 
-Nel riquadro origini dati della progettazione mapping modello, aggiungere nuovamente l'origine dati **Y**.
+Nel riquadro **Origini dati** della progettazione mapping modello, aggiungere nuovamente l'origine dati **Y**.
 
 ## <a name="executability-of-an-expression-with-filter-function"></a><a id="i4"></a>Eseguibilità di un'espressione con la funzione FILTER
 
-La funzione ER [FILTER](er-functions-list-filter.md) incorporata viene utilizzata per accedere a tabelle, viste o entità di dati dell'applicazione inserendo una singola chiamata SQL per ottenere i dati richiesti come elenco di record. Un'origine dati del tipo **Elenco di record** viene utilizzata come argomento di questa funzione e specifica l'origine della domanda di lavoro per la chiamata. ER verifica se è possibile stabilire una query SQL diretta su un'origine dati a cui si fa riferimento nella funzione `FILTER`. Se non è possibile stabilire una query diretta, si verifica un errore di convalida nella finestra di progettazione del mapping del modello ER. Il messaggio ricevuto indica che l'espressione ER che include la funzione `FILTER` non può essere eseguita in fase di esecuzione. 
+La funzione ER [FILTER](er-functions-list-filter.md) incorporata viene utilizzata per accedere a tabelle, viste o entità di dati dell'applicazione inserendo una singola chiamata SQL per ottenere i dati richiesti come elenco di record. Un'origine dati del tipo **Elenco di record** viene utilizzata come argomento di questa funzione e specifica l'origine della domanda di lavoro per la chiamata. ER verifica se è possibile stabilire una query SQL diretta su un'origine dati a cui si fa riferimento nella funzione `FILTER`. Se non è possibile stabilire una query diretta, si verifica un errore di convalida nella finestra di progettazione del mapping del modello ER. Il messaggio ricevuto indica che l'espressione ER che include la funzione `FILTER` non può essere eseguita in fase di esecuzione.
 
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
-1. Iniziare a configurare il componente del mapping del modello ER.
+1. Iniziare a configurare il componente di mapping del modello ER.
 2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
 3. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella VendTable.
 4. Aggiungere un'origine dati del tipo **Campo calcolato**.
@@ -334,13 +374,13 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 8. Assegnare un nome al nuovo campo nidificato **$AccNumber** e configurarlo in modo che contenga l'espressione `TRIM(Vendor.AccountNum)`.
 9. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'espressione `FILTER(Vendor, Vendor.AccountNum="US-101")` nell'origine dati **Fornitore** possa essere interrogata.
 
-    ![La verifica dell'espressione può essere eseguita nella pagina Progettazione mapping modello](./media/er-components-inspections-04.gif)
+    ![Verificare la possibilità di eseguire una query sull'espressione con la funzione FILTRA nella pagina Progettazione mapping modello.](./media/er-components-inspections-04.gif)
 
 10. Si noti che si verifica un errore di convalida, perché l'origine dati **Fornitore** contiene un campo nidificato del tipo **Campo calcolato** che non consente l'espressione dell'origine dati **FornitoreFiltrato** da tradurre nell'istruzione SQL diretta.
 
 La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso e si seleziona **Esegui** per eseguire un formato configurato per utilizzare il mapping del modello.
 
-![Errori di runtime che si verificano quando si esegue il formato modificabile nella pagina Progettazione formati](./media/er-components-inspections-04a.png)
+![Errori di runtime che si verificano quando si esegue il formato modificabile nella pagina Progettazione formati.](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -362,7 +402,7 @@ L'origine dati **GROUPBY** divide il risultato della query in gruppi di record, 
 
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
-1. Iniziare a configurare il componente del mapping del modello ER.
+1. Iniziare a configurare il componente di mapping del modello ER.
 2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
 3. Assegnare un nome alla nuova origine dati **Trans**. Nel campo **Tabella**, selezionare **VendTrans** per specificare che questa origine dati richiederà la tabella VendTrans.
 4. Aggiungere un'origine dati del tipo **Raggruppa per**.
@@ -371,23 +411,23 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
     - Selezionare l'origine dati **Trans** come origine dei record che dovrebbero essere raggruppati.
     - Nel campo **Ubicazione dell'esecuzione**, selezionare **Query** per specificare che si desidera eseguire questa origine dati a livello di database.
 
-    ![Configurazione dell'origine dati nella pagina dei parametri Modifica "Raggruppa per"](./media/er-components-inspections-05a.gif)
+    ![Configurazione dell'origine dati nella pagina Modifica parametri "Raggruppa per".](./media/er-components-inspections-05a.gif)
 
 6. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'origine dati configurata **GroupedTrans** possa essere interrogata.
 7. Modificare l'origine dati **Trans** aggiungendo un campo nidificato del tipo **Campo calcolato** per ottenere il numero di conto del fornitore ridotto.
 8. Assegnare un nome alla nuova origine dati **$AccNumber** e configurarla in modo che contenga l'espressione `TRIM(Trans.AccountNum)`.
 
-    ![Configurazione dell'origine dati transazioni nella pagina di progettazione del mapping del modello](./media/er-components-inspections-05a.png)
+    ![Configurazione dell'origine dati nella pagina di progettazione del mapping del modello.](./media/er-components-inspections-05a.png)
 
 9. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'origine dati configurata **GroupedTrans** possa essere interrogata.
 
-    ![Convalidare il componente del mapping del modello ER e verificare che l'origine dati configurata GroupedTrans possa essere interrogata nella pagina Progettazione mapping modello](./media/er-components-inspections-05b.png)
+    ![Convalidare il componente di mapping del modello ER e verificare che sia possibile eseguire una query sull'origine dati GroupedTrans nella pagina Progettazione mapping modello.](./media/er-components-inspections-05b.png)
 
 10. Si noti che si verifica un errore di convalida, perché l'origine dati **Trans** contiene un campo nidificato del tipo **Campo calcolato** che non consente la chiamata per l'origine dati **GroupedTrans** da tradurre nell'istruzione SQL diretta.
 
 La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso e si seleziona **Esegui** per eseguire un formato configurato per utilizzare il mapping del modello.
 
-![Errori di runtime che si verificano se si ignora l'avviso nella pagina Progettazione formati](./media/er-components-inspections-05c.png)
+![Errori di runtime che si verificano se si ignora l'avviso nella pagina Progettazione formati.](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -409,7 +449,7 @@ L'origine dati [JOIN](er-join-data-sources.md) combina i record di due o più ta
 
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
-1. Iniziare a configurare il componente del mapping del modello ER.
+1. Iniziare a configurare il componente di mapping del modello ER.
 2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
 3. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella VendTable.
 4. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
@@ -423,21 +463,21 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
     2. Aggiungere l'origine dati **Vendor.FilteredTrans** come secondo set di record da unire. Selezionare **INNER** come tipo.
     3. Nel campo **Esegui**, selezionare **Query** per specificare che si desidera eseguire questa origine dati a livello di database.
 
-    ![Configurazione dell'origine dati nella pagina di progettazione Join](./media/er-components-inspections-06a.gif)
+    ![Configurazione dell'origine dati nella pagina di progettazione Join.](./media/er-components-inspections-06a.gif)
 
 10. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'origine dati configurata **JoinedList** possa essere interrogata.
 11. Cambiare l'espressione dell'origine dati **Vendor.FilteredTrans** da `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` a `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'origine dati configurata **JoinedList** possa essere interrogata.
 
-    ![Selezionare il componente di mapping del modello modificabile nella pagina Progettazione mapping modello e verificare che l'origine dati configurata JoinedList possa essere interrogata](./media/er-components-inspections-06b.png)
+    ![Convalidare il componente del mapping del modello modificabile e verificare che sia possibile eseguire una query sull'origine dati JoinedList nella pagina Progettazione mapping modello.](./media/er-components-inspections-06b.png)
 
 13. Si noti che si verifica un errore di convalida, poiché l'espressione dell'origine dati **Vendor.FilteredTrans** non può essere tradotta nella chiamata SQL diretta. Inoltre, la chiamata SQL diretta non consente la chiamata per l'origine dati **JoinedList** da tradurre nell'istruzione SQL diretta.
 
-    ![Errori di runtime dovuti alla convalida non riuscita dell'origine dati JoinedList nella pagina Progettazione mapping modello](./media/er-components-inspections-06c.png)
+    ![Errori di runtime dovuti alla convalida non riuscita dell'origine dati JoinedList nella pagina Progettazione mapping modello.](./media/er-components-inspections-06c.png)
 
 La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso e si seleziona **Esegui** per eseguire un formato configurato per utilizzare il mapping del modello.
 
-![Esecuzione del formato modificabile nella pagina Progettazione formati](./media/er-components-inspections-06e.png)
+![Eseguire il formato modificabile nella pagina Progettazione formati.](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -449,7 +489,7 @@ Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
 
 Cambiare l'espressione dell'origine dati **Vendor.FilteredTrans** da `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` indietro a `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`, come consigliato dall'avviso.
 
-![Espressione aggiornata dell'origine dati nella pagina di progettazione del mapping del modello](./media/er-components-inspections-06d.png)
+![Espressione aggiornata dell'origine dati nella pagina di progettazione del mapping del modello.](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>Opzione 2
 
@@ -461,7 +501,7 @@ La funzione ER [FILTER](er-functions-list-filter.md) incorporata viene utilizzat
 
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
-1. Iniziare a configurare il componente del mapping del modello ER.
+1. Iniziare a configurare il componente di mapping del modello ER.
 2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
 3. Assegnare un nome alla nuova origine dati **Trans**. Nel campo **Tabella**, selezionare **VendTrans** per specificare che questa origine dati richiederà la tabella VendTrans.
 4. Aggiungere un'origine dati del tipo **Campo calcolato** come campo nidificato dell'origine dati **Fornitore**.
@@ -472,11 +512,11 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 9. Assegnare un nome alla nuova origine dati **FornitoreFiltrato** e configurarla in modo che contenga l'espressione `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Designer del mapping del modello**.
 
-    ![Convalidare per ispezionare il componente di mapping del modello modificabile nella pagina Designer del mapping del modello](./media/er-components-inspections-07a.png)
+    ![Verificare il componente di mapping del modello modificabile nella pagina Progettazione mapping modello.](./media/er-components-inspections-07a.png)
 
 11. Si noti che gli avvisi di convalida consigliano di utilizzare la funzione **FILTER** invece della funzione **WHERE** per le origini dati **FilteredVendor** e **FilteredTrans**.
 
-    ![Avvisi di convalida che consigliano la funzione filter anziché la funzione where nella pagina Progettazione mapping modello](./media/er-components-inspections-07b.png)
+    ![Raccomandazione di utilizzare la funzione FILTER anziché la funzione WHERE nella pagina Progettazione mapping modello.](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -484,7 +524,7 @@ Selezionare **Correggi** per sostituire automaticamente la funzione **WHERE** co
 
 In alternativa, è possibile selezionare la riga per un singolo avviso nella griglia e quindi selezionare **Correzione selezionata**. In questo caso, l'espressione viene modificata automaticamente solo nell'origine dati menzionata nell'avviso selezionato.
 
-![Selezionare Correggi per sostituire automaticamente la funzione where con la funzione filter nella pagina Progettazione mapping modello](./media/er-components-inspections-07c.png)
+![Selezionare Correggi per sostituire automaticamente la funzione WHERE con la funzione FILTER nella pagina Progettazione mapping modello.](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Risoluzione manuale
 
@@ -496,20 +536,20 @@ Le funzioni ER incorporate [ALLITEMS](er-functions-list-allitems.md) e [ALLITEMS
 
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
-1. Iniziare a configurare il componente del mapping del modello ER.
+1. Iniziare a configurare il componente di mapping del modello ER.
 2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
 3. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella VendTable.
 4. Aggiungere un'origine dati del tipo **Campo calcolato** per ottenere i record di vari fornitori.
 5. Assegnare un nome alla nuova origine dati **FornitoreFiltrato** e configurarla in modo che contenga l'espressione `FILTER(Vendor, OR(Vendor.AccountNum="US-101",Vendor.AccountNum="US-102"))`.
-6. Aggiungere un'origine dati del tipo **Campo calcolato** per ottenere le transazioni di tutti i fornitori filtrati.
+6. Aggiungere un'origine dati di tipo **Campo calcolato** per ottenere le transazioni di tutti i fornitori filtrati.
 7. Assegnare un nome alla nuova origine dati **FilteredVendorTrans** e configurarla in modo che contenga l'espressione `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Designer del mapping del modello**.
 
-    ![Pagina Progettazione mapping modello, pulsante Convalida](./media/er-components-inspections-08a.png)
+    ![Verificare il componente di mapping del modello modificabile nella pagina Progettazione mapping modello.](./media/er-components-inspections-08a.png)
 
 9. Notare che si verifica un avviso di convalida. Il messaggio consiglia di utilizzare la funzione **ALLITEMSQUERY** invece della funzione **ALLITEMS** per l'origine dati **FilteredVendorTrans**.
 
-    ![Avviso di convalida per utilizzare la funzione ALLITEMSQUERY invece della funzione ALLITEMS sul componente di mapping del modello ER nella pagina Progettazione mapping modello](./media/er-components-inspections-08b.png)
+    ![Raccomandazione di utilizzare la funzione ALLITEMSQUERY anziché la funzione ALLITEMS nella pagina Progettazione mapping modello.](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -517,7 +557,7 @@ Selezionare **Correggi** per sostituire automaticamente la funzione **ALLITEMS**
 
 In alternativa, è possibile selezionare la riga per un singolo avviso nella griglia e quindi selezionare **Correzione selezionata**. In questo caso, l'espressione viene modificata automaticamente solo nell'origine dati menzionata nell'avviso selezionato.
 
-![Nella pagina Progettazione mapping modello, selezionare Correzione selezionata](./media/er-components-inspections-08c.png)
+![Selezionare Correggi nella pagina Progettazione mapping modello.](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Risoluzione manuale
 
@@ -538,9 +578,9 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
     - Aggiungere un campo nidificato del tipo **Stringa** e denominarlo **Nome**.
     - Aggiungere un campo nidificato del tipo **Stringa** e denominarlo **AccountNumber**.
 
-    ![Aggiunta di campi nidificati nella pagina Modello dati](./media/er-components-inspections-09a.png)
+    ![Aggiunta di campi nidificati nella pagina Modello dati.](./media/er-components-inspections-09a.png)
 
-6. Nel riquadro origine dati del mapping del modello aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
+6. Nel riquadro **Origine dati** del mapping del modello, aggiungere un'origine dati di tipo **Dynamics 365 for Operations \\ Record tabella**.
 7. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella VendTable.
 8. Aggiungere un'origine dati del tipo **Parametro di input dell'utente \\ Generale** per cercare un account fornitore nella finestra di dialogo runtime.
 9. Assegnare un nome alla nuova origine dati **RequestedAccountNum**. Nel campo **Etichetta** immettere il **numero del conto del fornitore**. Nel campo **Nome del tipo di dati delle operazioni**, lasciare il valore predefinito, **Descrizione**.
@@ -552,7 +592,7 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
     - Associare **FilteredVendor.AccountNum** a **Vendor.AccountNumber**.
     - Associare **FilteredVendor.'name()'** a **Vendor.Name**.
 
-    ![Associazione degli elementi del modello di dati nella pagina di progettazione del mapping del modello](./media/er-components-inspections-09b.png)
+    ![Associazione degli elementi del modello di dati nella pagina di progettazione del mapping del modello.](./media/er-components-inspections-09b.png)
 
 13. Nell'albero della struttura del formato, aggiungere i seguenti elementi per generare un documento in uscita in formato XML che contiene i dettagli del fornitore:
 
@@ -570,15 +610,15 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
 15. Selezionare **Convalida** per ispezionare il componente formato modificabile nella pagina **Progettazione formati**.
 
-    ![Convalidare gli elementi di formato associati alle origini dati nella pagina Progettazione formati](./media/er-components-inspections-09c.png)
+    ![Convalidare gli elementi di formato associati alle origini dati nella pagina Progettazione formati.](./media/er-components-inspections-09c.png)
 
 16. Notare che si verifica un errore di convalida. Il messaggio indica che potrebbe essere generato un errore per i componenti formato configurati **Rendiconto\\Parte\\Nome** e **Rendiconto\\Parte\\AccountNum** in fase di esecuzione se l'elenco `model.Vendor` è vuoto.
 
-    ![Errore di convalida che notifica il potenziale errore per i componenti di formato configurati](./media/er-components-inspections-09d.png)
+    ![Errore di convalida su un potenziale errore per i componenti di formato configurati.](./media/er-components-inspections-09d.png)
 
 La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso, selezionare **Esegui** per eseguire il formato e selezionare il numero di conto di un fornitore che non esiste. Poiché il fornitore richiesto non esiste, l'elenco `model.Vendor` sarà vuoto (ovvero, non conterrà record).
 
-![Errori di runtime perché si sono verificati durante l'esecuzione del mapping del formato](./media/er-components-inspections-09e.png)
+![Errori di runtime che si verificano durante l'esecuzione del mapping del formato.](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -590,7 +630,7 @@ Per la riga selezionata nella griglia nella scheda **Avvisi**, è possibile sele
 
 È possibile associare l'elemento di formato **Rendiconto\\Parte\\Nome** all'elemento origine dati `model.Vendor`. In fase di esecuzione, questa associazione chiama prima l'origine dati `model.Vendor`. Se `model.Vendor` restituisce un elenco di record vuoto, gli elementi di formato nidificati non vengono eseguiti. Pertanto, non si verificano avvisi di convalida per questa configurazione di formato.
 
-![Associare l'elemento di formato all'elemento origini dati nella pagina Progettazione formati](./media/er-components-inspections-09e.gif)
+![Associare l'elemento di formato all'elemento origini dati nella pagina Progettazione formati.](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Opzione 2
 
@@ -601,7 +641,7 @@ Modificare l'associazione dell'elemento di formato **Rendiconto\\Parte\\Nome** d
 
 Pertanto, non si verificano avvisi di convalida per l'elemento di formato **Rendiconto\\Parte\\Nome** quando è associato all'espressione `FIRSTORNULL(model.Vendor).Name`.
 
-![L'associazione modificata risolve gli avvisi di convalida nella pagina Progettazione formati](./media/er-components-inspections-09f.gif)
+![L'associazione modificata risolve gli avvisi di convalida nella pagina Progettazione formati.](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>Opzione 3
 
@@ -619,7 +659,7 @@ Diverse funzioni ER incorporate, incluse [FILTER](er-functions-list-filter.md) e
 
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
-1. Iniziare a configurare il componente del mapping del modello ER.
+1. Iniziare a configurare il componente di mapping del modello ER.
 2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
 3. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella VendTable.
 4. Aggiungere un'origine dati del tipo **Parametro di input dell'utente \\ Generale** per cercare un account fornitore nella finestra di dialogo runtime.
@@ -628,17 +668,17 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 7. Assegnare un nome alla nuova origine dati **FornitoreFiltrato** e configurarla in modo che contenga l'espressione `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Contrassegnare l'origine dati configurata **Fornitore** come memorizzata nella cache.
 
-    ![Configurare il componente di mapping del modello modificabile nella pagina Progettazione mapping modello](./media/er-components-inspections-10a.gif)
+    ![Configurare il componente di mapping del modello nella pagina Progettazione mapping modello.](./media/er-components-inspections-10a.gif)
 
 9. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Designer del mapping del modello**.
 
-    ![Convalidare la funzione di filtro applicata all'origine dati del fornitore della cache nella pagina Progettazione mapping modello](./media/er-components-inspections-10a.png)
+    ![Convalidare la funzione FILTER applicata all'origine dati Fornitore memorizzata nella cache nella pagina Progettazione mapping modello.](./media/er-components-inspections-10a.png)
 
 10. Notare che si verifica un errore di convalida. Il messaggio afferma che la funzione **FILTER** non può essere applicata all'origine dati memorizzata nella cache **Fornitore**.
 
 La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso e si seleziona **Esegui** per eseguire il formato.
 
-![Errore di runtime che si è verificato durante l'esecuzione del mapping del formato nella pagina Progettazione formati](./media/er-components-inspections-10b.png)
+![Errore di runtime che si verifica durante l'esecuzione del mapping del formato nella pagina Progettazione formati.](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -669,12 +709,12 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
     - Aggiungere un campo nidificato del tipo **Stringa** e denominarlo **Nome**.
     - Aggiungere un campo nidificato del tipo **Stringa** e denominarlo **AccountNumber**.
 
-    ![Aggiungere campi nidificati all'elemento fornitore nella pagina Modello dati](./media/er-components-inspections-11a.png)
+    ![Aggiungere campi nidificati all'elemento Fornitore nella pagina Modello dati.](./media/er-components-inspections-11a.png)
 
-6. Nel riquadro origine dati del mapping del modello aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
+6. Nel riquadro **Origine dati** del mapping del modello, aggiungere un'origine dati di tipo **Dynamics 365 for Operations \\ Record tabella**.
 7. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella VendTable.
 8. Aggiungere un'origine dati del tipo **Parametro di input dell'utente \\ Generale** per chiedere informazioni su un account fornitore nella finestra di dialogo runtime.
-9 Assegnare un nome alla nuova origine dati **RequestedAccountNum**. Nel campo **Etichetta** immettere il **numero del conto del fornitore**. Nel campo **Nome del tipo di dati delle operazioni**, lasciare il valore predefinito, **Descrizione**.
+9. Assegnare un nome alla nuova origine dati **RequestedAccountNum**. Nel campo **Etichetta** immettere il **numero del conto del fornitore**. Nel campo **Nome del tipo di dati delle operazioni**, lasciare il valore predefinito, **Descrizione**.
 10. Aggiungere un'origine dati del tipo **Campo calcolato** per filtrare un fornitore su cui si richiedono informazioni.
 11. Assegnare un nome alla nuova origine dati **FornitoreFiltrato** e configurarla in modo che contenga l'espressione `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 12. Associare gli elementi del modello di dati alle origini dati configurate nel modo seguente:
@@ -685,7 +725,7 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
     > [!NOTE]
     > Il campo del modello di dati **Vendor.Name** rimane non associato.
 
-    ![Elementi del modello di dati associati a origini dati configurate e un elemento in modalità dati che si trova nella pagina Progettazione mapping modello](./media/er-components-inspections-11b.png)
+    ![Elementi del modello di dati associati a origini dati configurate e un elemento in modalità dati che rimane non associato nella pagina Progettazione mapping modello.](./media/er-components-inspections-11b.png)
 
 13. Nell'albero della struttura del formato, aggiungere i seguenti elementi per generare un documento in uscita in formato XML che contenga i dettagli dei fornitori di cui si cercano informazioni:
 
@@ -704,15 +744,15 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
 15. Selezionare **Convalida** per ispezionare il componente formato modificabile nella pagina **Progettazione formati**.
 
-    ![Convalida del componente formato ER nella pagina Progettazione formati](./media/er-components-inspections-11c.png)
+    ![Convalidare il componente formato ER nella pagina Progettazione formati.](./media/er-components-inspections-11c.png)
 
 16. Notare che si verifica un avviso di convalida. Il messaggio afferma che l'origine dati **model.Vendor.Name** non è associato a nessuna origine dati nel mapping di modello configurato per essere utilizzato dal formato. Quindi, l'elemento formato **Rendiconto\\Parte\\Nome** potrebbe non essere compilato in fase di runtime e potrebbe verificarsi un'eccezione di runtime.
 
-    ![Convalida del componente formato ER nella pagina Progettazione formati](./media/er-components-inspections-11d.png)
+    ![Convalida del componente formato ER nella pagina Progettazione formati.](./media/er-components-inspections-11d.png)
 
 La figura seguente mostra l'errore di runtime che si verifica se si ignora l'avviso e si seleziona **Esegui** per eseguire il formato.
 
-![Eseguire il formato modificabile nella pagina Progettazione formati](./media/er-components-inspections-11e.png)
+![Esecuzione del formato modificabile nella pagina Progettazione formati.](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -726,11 +766,11 @@ Modificare la mappatura del modello configurato aggiungendo un'associazione per 
 
 #### <a name="option-2"></a>Opzione 2
 
-Modificare il formato configurato rimuovendo un'associazione per l'elemento di formato **Rendiconto\\Parte\\Nome**.
+Modificare il formato configurato rimuovendo l'associazione per l'elemento di formato **Rendiconto\\Parte\\Nome**.
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Modello non collegato
 
-Quando si configura [manualmente](er-fillable-excel.md#manual-entry) un componente formato ER per utilizzare un modello per generare un documento in uscita, è necessario aggiungere manualmente l'elemento **File\\Excel**, aggiungere il modello richiesto come allegato del componente modificabile e selezionare tale allegato nell'elemento aggiunto **File\\Excel**. In questo modo, si indica che l'elemento aggiunto riempirà il modello selezionato in fase di runtime. Quando si configura una versione del componente di formato in **stato** [Bozza](general-electronic-reporting.md#component-versioning), è possibile aggiungere diversi modelli al componente modificabile, quindi selezionare ogni modello nell'elemento **File\\Excel** per eseguire il formato ER. In questo modo, è possibile vedere come i diversi modelli vengono riempiti in fase di esecuzione. Se disponi di modelli che non sono selezionati in alcun elemento **File\\Excel**, la progettazione del formato ER avvisa che quei modelli verranno eliminati dalla versione modificabile del componente del formato ER quando il suo stato viene modificato da **Bozza** a **Completato**.
+Quando si configura [manualmente](er-fillable-excel.md#manual-entry) un componente formato ER per utilizzare un modello per generare un documento in uscita, è necessario aggiungere manualmente l'elemento **Excel\\File**, aggiungere il modello richiesto come allegato del componente modificabile e selezionare tale allegato nell'elemento aggiunto **Excel\\File**. In questo modo, si indica che l'elemento aggiunto riempirà il modello selezionato in fase di runtime. Quando si configura una versione del componente di formato nello [stato](general-electronic-reporting.md#component-versioning) **Bozza**, si potrebbero aggiungere diversi modelli al componente modificabile e quindi selezionare ogni modello nell'elemento **Excel\\File** per eseguire il formato ER. In questo modo, è possibile vedere come i diversi modelli vengono riempiti in fase di esecuzione. Se disponi di modelli che non sono selezionati in alcun elemento **Excel\\File**, la progettazione del formato ER avvisa che quei modelli verranno eliminati dalla versione modificabile del componente del formato ER quando il suo stato viene modificato da **Bozza** a **Completato**.
 
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 
@@ -741,9 +781,9 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 5. Nell'elemento **File\\Excel**, selezionare il file della cartella di lavoro A.
 6. Selezionare **Convalida** per ispezionare il componente formato modificabile nella pagina **Progettazione formati**.
 
-    ![Convalida del componente formato modificabile del file della cartella di lavoro nella pagina Progettazione formati](./media/er-components-inspections-12a.gif)
+    ![Convalida del componente formato modificabile del file della cartella di lavoro nella pagina Progettazione formati.](./media/er-components-inspections-12a.gif)
 
-7. Notare che si verifica un avviso di convalida. Il messaggio indica il file della cartella di lavoro **B.xlsx** non è collegato ad alcun componente e che verrà rimosso dopo la modifica dello stato della versione della configurazione.
+7. Notare che si verifica un avviso di convalida. Il messaggio indica il file della cartella di lavoro B.xlsx non è collegato ad alcun componente e che verrà rimosso dopo la modifica dello stato della versione della configurazione.
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -766,14 +806,14 @@ I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
     > [!IMPORTANT]
     > Assicurarsi che la cartella di lavoro di Excel aggiunta non contenga il nome **ReportTitle**.
 
-4. Aggiungere il seguente elemento **Excel\\Cella** **Titolo** come elemento annidato dell'elemento **Report**. Nel campo **Intervallo Excel**, immettere **ReportTitle**.
+4. Aggiungere l'elemento **Excel\\Cella** **Titolo** come elemento nidificato dell'elemento **Report**. Nel campo **Intervallo Excel**, immettere **ReportTitle**.
 5. Selezionare **Convalida** per ispezionare il componente formato modificabile nella pagina **Progettazione formati**.
 
-    ![Convalidare gli elementi e i campi nidificati nella pagina Progettazione formati](./media/er-components-inspections-13a.png)
+    ![Convalidare gli elementi e i campi nidificati nella pagina Progettazione formati.](./media/er-components-inspections-13a.png)
 
 6. Notare che si verifica un avviso di convalida. Il messaggio afferma che il nome **ReportTitle** non esiste sul foglio **Foglio1** del modello di Excel che stai utilizzando.
 
-    ![Avviso di convalida che indica che il nome ReportTitle non esiste nel Foglio1 del modello Excel](./media/er-components-inspections-13b.png)
+    ![Avviso di convalida che indica che il nome ReportTitle non esiste nel Foglio1 del modello Excel.](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Risoluzione automatica
 
@@ -792,6 +832,116 @@ Modificare il formato configurato rimuovendo tutti gli elementi che fanno riferi
 ### <a name="additional-consideration"></a>Ulteriori considerazioni
 
 Per sapere come sincronizzare la struttura del formato con un modello ER nell'editor modelli di [Gestione documenti aziendali](er-business-document-management.md), vedere [Aggiornare la struttura di un modello di documento aziendale](er-bdm-update-structure.md).
+
+## <a name="not-synced-with-a-word-template-format"></a><a id="i14"></a>Non sincronizzato con un formato di modello di Word
+
+Quando si [configura](er-fillable-excel.md) un componente formato ER per utilizzare un modello Word per generare un documento in uscita, è possibile aggiungere manualmente l'elemento **Excel\\File**, aggiungere il modello Word richiesto come allegato del componente modificabile e selezionare tale allegato nell'elemento aggiunto **Excel\\File**.
+
+> [!NOTE]
+> Quando il documento Word è associato, la progettazione del formato ER presenta l'elemento modificabile come **Word\\File**.
+
+In questo modo, si indica che l'elemento aggiunto riempirà il modello selezionato in fase di runtime. Poiché il modello Word aggiunto è stato progettato esternamente, il formato ER modificabile potrebbe contenere riferimenti ai controlli del contenuto di Word non presenti nel modello aggiunto. La progettazione del formato ER ti avvisa di eventuali incongruenze tra le proprietà degli elementi del formato ER che fanno riferimento a controlli del contenuto che non sono inclusi nel modello Word aggiunto.
+
+Per un esempio che mostra come potrebbe verificarsi questo problema, vedere [Configurare il formato modificabile per sopprimere la sezione di riepilogo](er-design-configuration-word-suppress-controls.md#configure-to-suppress-control).
+
+### <a name="automatic-resolution"></a>Risoluzione automatica
+
+Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
+
+### <a name="manual-resolution"></a>Risoluzione manuale
+
+#### <a name="option-1"></a>Opzione 1
+
+Modificare il formato configurato eliminando la formula **Rimosso** dall'elemento di formato menzionato nell'avviso di convalida.
+
+#### <a name="option-2"></a>Opzione 2
+
+Modificare il modello di Word [aggiungendo](er-design-configuration-word-suppress-controls.md#tag-control) il tag necessario per il controllo del contenuto di Word pertinente.
+
+## <a name="no-default-mapping"></a><a id="i15"></a>Nessun mapping predefinito
+
+Al termine della verifica [Associazione mancante](#i11), le associazioni di formato verificate vengono valutate rispetto alle associazioni del componente di mapping del modello pertinente. Perché è possibile importare [varie](./tasks/er-manage-model-mapping-configurations-july-2017.md) configurazioni del mapping di modello ER nell'istanza di Finance e ogni configurazione potrebbe contenere il componente di mapping del modello applicabile, una configurazione deve essere selezionata come configurazione predefinita. In caso contrario, quando si tenta di eseguire, modificare o convalidare il formato ER ispezionato, si verificherà un'eccezione e verrà visualizzato il messaggio seguente: "Esiste più di un mapping del modello per il \<model name (root descriptor)\> modello dati nelle configurazioni \<configuration names separated by comma\>. Impostare una delle configurazioni come predefinita."
+
+Per un esempio che mostra come potrebbe verificarsi questo problema e come risolverlo, vedere [Gestire diversi mapping derivati per una singola radice del modello](er-multiple-model-mappings.md).
+
+## <a name="inconsistent-setting-of-header-or-footer-components"></a><a id="i16"></a>Impostazione incoerente dei componenti di intestazione o piè di pagina
+
+Quando si [configura](er-fillable-excel.md) un componente formato ER per utilizzare un modello di Excel per generare un documento in uscita, è possibile aggiungere il componente **Excel\\Intestazione** per compilare le intestazioni nella parte superiore di un foglio di lavoro in una cartella di lavoro di Excel. È anche possibile aggiungere il componente **Excel\\Piè di pagina** per compilare i piè di pagina nella parte inferiore di un foglio di lavoro. Per ogni componente **Excel\\Intestazione** o **Excel\\Piè di pagina** aggiunto, è necessario impostare la proprietà **Aspetto intestazione/piè di pagina** per specificare le pagine per le quali viene eseguito il componente. Poiché è possibile configurare diversi componenti **Excel\\Intestazione** o **Excel\\Piè di pagina** per un singolo componente **Foglio** ed è possibile generare intestazioni o piè di pagina diversi per diversi tipi di pagine in un foglio di lavoro di Excel, è necessario configurare un singolo componente **Excel\\Intestazione** o **Excel\\Piè di pagina** per un valore specifico della proprietà **Aspetto intestazione/piè di pagina**. Se più di un componente **Excel\\Intestazione** o **Excel\\Piè di pagina** è configurato per un valore specifico della proprietà **Aspetto intestazione/piè di pagina**, si verifica un errore di convalida e viene visualizzato il seguente messaggio di errore: "Le intestazioni/piè di pagina (&lt;tipo di componente: intestazione o piè di pagina&gt;) sono incoerenti."
+
+### <a name="automatic-resolution"></a>Risoluzione automatica
+
+Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
+
+### <a name="manual-resolution"></a>Risoluzione manuale
+
+#### <a name="option-1"></a>Opzione 1
+
+Modificare il formato configurato eliminando uno dei componenti **Excel\\Intestazione** o **Excel\\Piè di pagina** incoerenti.
+
+#### <a name="option-2"></a>Opzione 2
+
+Modifica il valore della proprietà **Aspetto intestazione/piè di pagina** per uno dei componenti **Excel\\Intestazione** o **Excel\\Piè di pagina** incoerenti.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Impostazione incoerente del componente Pagina
+
+Quando [configuri](er-fillable-excel.md) un componente di formato ER per utilizzare un modello di Excel per generare un documento in uscita, puoi aggiungere il componente **Excel\\Pagina** per impaginare un documento generato utilizzando le formule ER. Per ogni componente **Excel\\Pagina** che aggiungi, puoi aggiungere molti componenti nidificati [Intervallo](er-fillable-excel.md#range-component) e rimangono comunque conformi alla [struttura](er-fillable-excel.md#page-component-structure) seguente:
+
+- Il primo componente nidificato **Intervallo** può essere configurato in modo che la proprietà **Direzione replica** è impostata su **Nessuna replica**. Questo intervallo viene utilizzato per creare intestazioni di pagina nei documenti generati.
+- Puoi aggiungere molti altri componenti nidificati **Intervallo** in cui la proprietà **Direzione replica** è impostata su **Verticale**. Questi intervalli vengono utilizzati per compilare i documenti generati.
+- L'ultimo componente nidificato **Intervallo** può essere configurato in modo che la proprietà **Direzione replica** è impostata su **Nessuna replica**. Questo intervallo viene utilizzato per creare piè di pagina nei documenti generati e per aggiungere le interruzioni di pagina richieste.
+
+Se non segui questa struttura per un formato ER in Progettazione formato ER in fase di progettazione, si verifica un errore di convalida e viene visualizzato il seguente messaggio di errore: "Sono presenti più di due componenti intervallo senza replica. Rimuovere i componenti non necessari."
+
+### <a name="automatic-resolution"></a>Risoluzione automatica
+
+Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
+
+### <a name="manual-resolution"></a>Risoluzione manuale
+
+#### <a name="option-1"></a>Opzione 1
+
+Modifica il formato configurato cambiando la proprietà **Direzione replica** per tutti i componenti incoerenti **Excel\\Intervallo**.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Eseguibilità di un'espressione con la funzione ORDERBY
+
+La funzione ER [ORDERBY](er-functions-list-orderby.md) integrata viene utilizzata per ordinare i record di un'origine dati ER del tipo **[Elenco record](er-formula-supported-data-types-composite.md#record-list)** specificato come argomento della funzione.
+
+Argomenti della funzione `ORDERBY` possono essere [specificati](er-functions-list-orderby.md#syntax-2) per ordinare i record di tabelle, visualizzazioni o entità di dati dell'applicazione inserendo una singola chiamata al database per ottenere i dati ordinati come elenco di record. Un'origine dati del tipo **Elenco di record** viene utilizzata come argomento di questa funzione e specifica l'origine della domanda di lavoro per la chiamata.
+
+ER verifica se è possibile stabilire una query del database diretta su un'origine dati a cui si fa riferimento nella funzione `ORDERBY`. Se non è possibile stabilire una query diretta, si verifica un errore di convalida nella finestra di progettazione del mapping del modello ER. Il messaggio ricevuto indica che l'espressione ER che include la funzione `ORDERBY` non può essere eseguita in fase di esecuzione.
+
+I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
+
+1. Iniziare a configurare il componente di mapping del modello ER.
+2. Aggiungere un'origine dati del tipo **Dynamics 365 for Operations \\ Record di tabella**.
+3. Assegnare un nome alla nuova origine dati **Fornitore**. Nel campo **Tabella**, selezionare **VendTable** per specificare che questa origine dati richiederà la tabella **VendTable**.
+4. Aggiungere un'origine dati del tipo **Campo calcolato**.
+5. Assegnare un nome alla nuova origine dati **OrderedVendors** e configurarla in modo che contenga l'espressione `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Configurazione delle origini dati nella pagina di progettazione del mapping del modello.](./media/er-components-inspections-18-1.png)
+
+6. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'espressione nell'origine dati **OrderedVendors** possa essere interrogata.
+7. Modificare l'origine dati **Fornitore** aggiungendo un campo nidificato del tipo **Campo calcolato** per ottenere il numero di conto del fornitore ridotto.
+8. Assegnare un nome al nuovo campo nidificato **$AccNumber** e configurarlo in modo che contenga l'espressione `TRIM(Vendor.AccountNum)`.
+9. Selezionare **Convalida** per ispezionare il componente di mapping del modello modificabile nella pagina **Progettazione mapping modello** e verificare che l'espressione nell'origine dati **Fornitore** possa essere interrogata.
+
+    ![Verificare la possibilità di eseguire una query sull'espressione nell'origine dati Fornitore nella pagina Progettazione mapping modello.](./media/er-components-inspections-18-2.png)
+
+10. Si noti che si verifica un errore di convalida, perché l'origine dati **Fornitore** contiene un campo nidificato del tipo **Campo calcolato** che non consente l'espressione dell'origine dati **OrderedVendors** da tradurre nell'istruzione database diretta. Lo stesso errore si verifica in fase di esecuzione se si ignora l'errore di convalida e si seleziona **Esegui** per eseguire questa mapping del modello.
+
+### <a name="automatic-resolution"></a>Risoluzione automatica
+
+Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
+
+### <a name="manual-resolution"></a>Risoluzione manuale
+
+#### <a name="option-1"></a>Opzione 1
+
+Invece di aggiungere un campo nidificato del tipo **Campo calcolato** all'origine dati **Fornitore**, aggiungere il campo nidificato **$AccNumber** all'origine dati **FilteredVendors** e configurare il campo in modo che contenga l'espressione `TRIM(FilteredVendor.AccountNum)`. In questo modo, l'espressione `ORDERBY("Query", Vendor, Vendor.AccountNum)` può essere eseguita a livello di database e il calcolo del campo nidificato **$AccNumber** può essere effettuato in seguito.
+
+#### <a name="option-2"></a>Opzione 2
+
+Cambiare l'espressione dell'origine dati **FilteredVendors** da `ORDERBY("Query", Vendor, Vendor.AccountNum)` a `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Non è consigliabile modificare l'espressione per una tabella che ha un grande volume di dati (tabella transazionale), perché tutti i record verranno recuperati e l'ordinamento dei record richiesti verrà eseguita in memoria. Pertanto, questo approccio può causare prestazioni ridotte.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -812,3 +962,10 @@ Per sapere come sincronizzare la struttura del formato con un modello ER nell'ed
 [Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni](trace-execution-er-troubleshoot-perf.md)
 
 [Panoramica di gestione dei documenti aziendali](er-business-document-management.md)
+
+[Sopprimere i controlli del contenuto di Word nei report generati](er-design-configuration-word-suppress-controls.md)
+
+[Gestire diversi mapping derivati per una singola radice del modello](er-multiple-model-mappings.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

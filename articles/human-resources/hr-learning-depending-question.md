@@ -2,28 +2,27 @@
 title: Fare una domanda in base alla risposta della domanda precedente
 description: Le domande condizionali consentono di specificare la domanda successiva da presentare a un intervistato, in base alla risposta alla domanda precedente.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 39da0418f60273a82cb51e5cf3aad60e4efdb234
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419267"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056662"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Fare una domanda in base alla risposta della domanda precedente
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -56,3 +55,6 @@ Le domande condizionali consentono di specificare la domanda successiva da prese
 10. Nella struttura selezionare "Domande\Sono pagato equamente per il lavoro che svolgo".
     * Si noti che la struttura delle domande viene aggiornata per visualizzare la dipendenza.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

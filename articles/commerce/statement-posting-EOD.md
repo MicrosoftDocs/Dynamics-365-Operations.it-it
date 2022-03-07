@@ -1,37 +1,31 @@
 ---
 title: Miglioramenti alla funzionalità di registrazione del rendiconto
 description: Questo argomento descrive i miglioramenti apportati alla funzionalità di registrazione dei rendiconti.
-author: josaw1
-manager: AnnBe
-ms.date: 05/14/2019
+author: analpert
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
-ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413527"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087605"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Questo argomento descrive il primo set di miglioramenti apportati alla funzionalità di registrazione dei rendiconti. Questi miglioramenti sono disponibili in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
 ## <a name="activation"></a>Attivazione
 
-Per impostazione predefinita, durante la distribuzione di Finance and Operations 7.3.2, il programma è configurato per l'utilizzo della funzionalità di registrazione dei rendiconti legacy. Per attivare la funzionalità di registrazione dei rendiconti migliorata, è necessario attivare la chiave di configurazione relativa.
+Per impostazione predefinita, durante la distribuzione di Finanza e operazioni 7.3.2, il programma è configurato per l'utilizzo della funzionalità di registrazione dei rendiconti legacy. Per attivare la funzionalità di registrazione dei rendiconti migliorata, è necessario attivare la chiave di configurazione relativa.
 
 - Accedere a **Amministrazione sistema** \> **Impostazione** \> **Configurazione licenza**, quindi nel nodo **Retail e Commerce**, deselezionare la casella di controllo **Rendiconti (legacy)** e selezionare la casella di controllo **Rendiconti**.
 
@@ -56,12 +50,24 @@ Come parte dei miglioramenti alla funzionalità di registrazione dei rendiconti,
 
 - **Disabilita conteggio richiesto** – Quando questa opzione è impostata su **Sì**, il processo di registrazione per un rendiconto continua, anche se la differenza tra l'importo conteggiato e l'importo della transazione nel rendiconto non rientra nella soglia definita nella Scheda dettaglio **Rendiconto** per punti vendita.
 
+> [!NOTE]
+> A partire dalla versione Commerce 10.0.14, quando la funzionalità **Rendiconti di vendita al dettaglio (inserimento continuo)** è abilitata, il processo batch **Registra magazzino** non è più applicabile e non può essere eseguito.
+
 Inoltre, i seguenti parametri sono stati introdotti nella scheda dettaglio **Elaborazione batch** della scheda **Registrazione** della pagina **Parametri di commercio** : 
 
 - **Numero massimo di registrazioni rendiconti paralleli** – Questo campo definisce il numero di attività batch che verranno utilizzate per registrare più rendiconti. 
 - **Numero massimo di thread per l'elaborazione ordini per rendiconto** – Questo campo rappresenta il numero massimo di thread utilizzati dal processo batch di registrazione del rendiconto per creare e fatturare gli ordini di vendita per un singolo rendiconto. Il numero totale di thread che verrà utilizzato dal processo di registrazione del rendiconto verrà calcolato in base al valore in questo parametro moltiplicato per il valore nel parametro **Numero massimo di registrazioni rendiconti paralleli**. L'impostazione del valore di questo parametro troppo alto può influire negativamente sulle prestazioni del processo di registrazione del rendiconto.
 - **Numero massimo di righe transazione incluse nell'aggregazione** – Questo campo definisce il numero di righe transazione che verranno incluse in una singola transazione aggregata prima che ne venga creata una nuova. Le transazioni aggregate vengono create in base a diversi criteri di aggregazione come cliente, data del giorno lavorativo o dimensioni finanziarie. È importante notare che le righe de una singola transazione non verranno suddivise tra diverse transazioni aggregate. Ciò significa che è necessario prendere in considerazione la possibilità che il numero di righe in una transazione aggregata sia leggermente superiore o inferiore in base a fattori quali il numero di prodotti distinti.
 - **Numero massimo di thread per convalidare le transazioni del punto vendita** – Questo campo definisce il numero di thread che verranno utilizzati per convalidare le transazioni. La convalida delle transazioni è un passaggio necessario che deve verificarsi prima che le transazioni vengano inserite nei rendiconti. Inoltre, è necessario definire un **Prodotto gift card** nella Scheda dettaglio **Gift card** della scheda **Registrazione** della pagina **Parametri di commercio**. Ciò deve essere definito anche se nessuna gift card verrà utilizzata dall'organizzazione.
+
+La tabella seguente elenca i valori consigliati per i parametri precedenti. Questi valori devono essere testati e adattati alla configurazione della distribuzione e all'infrastruttura disponibile. Qualsiasi aumento dei valori consigliati può influire negativamente su altre elaborazioni batch e deve essere convalidato.
+
+| Parametro | Valore consigliato | Dettagli |
+|-----------|-------------------|---------|
+| Numero massimo di registrazioni rendiconti paralleli | <p>Imposta questo parametro sul numero di attività batch disponibili per il gruppo batch che esegue il processo **Dichiarazione**.</p><p>**Regola generale:** moltiplica il numero di server virtuali Application Object Server (AOS) per il numero di attività batch disponibili per ogni server virtuale AOS.</p> | Questo parametro non è applicabile quando la funzionalità **Rendiconti di vendita al dettaglio (inserimento continuo)** è abilitata. |
+| Thread massimo per elaborazione ordini per rendiconto | Inizia a testare i valori a **4**. In genere, il valore non deve superare **8**. | Questo parametro specifica il numero di thread utilizzati per creare e registrare ordini cliente. Rappresenta il numero di thread disponibili per la pubblicazione per istruzione. |
+| Numero massimo di righe transazione incluse in un'aggregazione | Inizia a testare i valori a **1000**. A seconda della configurazione della sede centrale, ordini più piccoli potrebbero essere più vantaggiosi per le prestazioni. | Questo parametro determina il numero di righe che verranno incluse in ciascun ordine cliente durante la registrazione della dichiarazione. Una volta raggiunto questo numero, le righe verranno suddivise in un nuovo ordine. Sebbene il numero di righe di vendita non sia esatto, poiché la suddivisione si verifica a livello di ordine cliente, sarà vicina al numero impostato. Questo parametro viene utilizzato per generare ordini cliente per transazioni al dettaglio che non hanno un cliente denominato. |
+| Numero massimo di thread per convalidare le transazioni del punto vendita | Si consiglia di impostare questo parametro su **4** e di aumentarlo solo se non raggiungi prestazioni accettabili. Il numero di thread utilizzati da questo processo non può superare il numero di processori disponibili per il server batch. Se assegni troppi thread qui, potresti influire su altre elaborazioni batch. | Questo parametro controlla il numero di transazioni che possono essere convalidate contemporaneamente per un determinato punto vendita. |
 
 > [!NOTE]
 > Tutti i parametri e le impostazioni correlati alle registrazioni dei rendiconti e definiti nei punti vendita e nella pagina **Parametri di commercio** sono applicabili alla funzionalità di registrazione dei rendiconti migliorata.
@@ -80,7 +86,7 @@ Un nuovo modello di stato è stato introdotto nella routine di registrazione dei
 
 Nella tabella seguente vengono descritti i vari stati e il relativo ordine durante il processo di calcolo.
 
-| Ordine stato | Stato/regione      | descrizione |
+| Ordine stato | Stato/regione      | Descrizione |
 |-------------|------------|-------------|
 | 1           | Avviata    | Il rendiconto è stato creato ed è pronto per essere calcolato. |
 | 2           | Contrassegnato     | Le transazioni nell'ambito di un rendiconto vengono identificate in base ai parametri del rendiconto e vengono contrassegnate con l'ID del rendiconto. |
@@ -88,7 +94,7 @@ Nella tabella seguente vengono descritti i vari stati e il relativo ordine duran
 
 Nella tabella seguente vengono descritti i vari stati e il relativo ordine durante il processo di registrazione.
 
-| Ordine stato | Stato/regione                   | descrizione |
+| Ordine stato | Stato/regione                   | Descrizione |
 |-------------|-------------------------|-------------|
 | 1           | Verificato                 | Vengono effettuate molteplici convalide correlate ai parametri (ad esempio l'addebito di smaltimento) nonché al rendiconto e alle righe del rendiconto (ad esempio la differenza tra l'importo conteggiato e l'importo della transazione). |
 | 2           | Aggregato              | Le transazioni di vendita per i clienti con e senza nome vengono aggregate in base alla configurazione. Ogni transazione aggregata viene convertita in un ordine cliente. |
@@ -119,9 +125,17 @@ Per un rendiconto vengono eseguite varie operazioni (ad esempio, Crea, Calcola, 
 
 ### <a name="aggregated-transactions"></a>Transazioni aggregate
 
-Durante il processo di registrazione, le transazioni di vendita vengono aggregate in base alla configurazione. Queste transazioni aggregate sono archiviate nel sistema e utilizzate per creare ordini cliente. Ogni transazione aggregata crea un ordine cliente corrispondente nel sistema. È possibile visualizzare le transazioni aggregate utilizzando il pulsante **Transazioni aggregate** nel gruppo **Dettagli esecuzione** del rendiconto.
+Durante il processo di registrazione, le transazioni cash and carry vengono aggregate per cliente e prodotto. Pertanto, il numero di ordini cliente e righe creati è ridotto. Le transazioni aggregate sono archiviate nel sistema e utilizzate per creare ordini cliente. Ogni transazione aggregata crea un ordine cliente corrispondente nel sistema. 
 
-La scheda **Dettagli ordine cliente** di una transazione aggregata visualizza le seguenti informazioni:
+Se un rendiconto non è completamente registrato, puoi visualizzare le transazioni aggregate nel rendiconto. Nel riquadro azioni, nella scheda **Rendiconto**, nel gruppo **Dettagli esecuzione** seleziona **Transazioni aggregate**.
+
+![Pulsante Transazioni aggregate per un rendiconto non completamente registrato.](media/aggregated-transactions.png)
+
+Per i rendiconto registrati puoi visualizzare le transazioni aggregate nella pagina **Rendiconti registrati**. Nel riquadro azioni, seleziona **Richieste di informazioni**, quindi seleziona **Transazioni aggregate**.
+
+![Comando Transazioni aggregate per i rendiconti registrati.](media/aggregated-transactions-posted-statements.png)
+
+La scheda dettaglio **Dettagli ordine cliente** di una transazione aggregata visualizza le seguenti informazioni:
 
 - **ID record** – L'ID della transazione aggregata.
 - **Numero rendiconto** – Il rendiconto a cui appartiene la transazione aggregata.
@@ -130,12 +144,28 @@ La scheda **Dettagli ordine cliente** di una transazione aggregata visualizza le
 - **Numero di righe aggregate** – Il numero totale di righe per la transazione aggregata e l'ordine cliente.
 - **Stato** – L'ultimo stato della transazione aggregata.
 - **ID fattura** – Quando l'ordine cliente per la transazione aggregata viene fatturato, l'ID della fattura di vendita. Se questo campo è vuoto, la fattura dell'ordine cliente non è stata registrata.
+- **Codice di errore** – Questo campo è impostato se l'aggregazione è in uno stato di errore.
+- **Messaggio di errore** – Questo campo è impostato se l'aggregazione è in uno stato di errore. Mostra i dettagli su cosa ha causato l'esito negativo del processo. Puoi utilizzare le informazioni nel codice di errore per risolvere il problema, quindi riavviare manualmente il processo. A seconda del tipo di risoluzione, le vendite aggregate potrebbero dover essere eliminate ed elaborate su un nuovo rendiconto.
 
-Nella scheda **Dettagli transazioni** di una transazione aggregata vengono visualizzate tutte le transazioni inserite nella transazione aggregata. Le righe aggregate nella transazione aggregata visualizzano tutti i record aggregati delle transazioni. Le righe aggregate visualizzano anche dettagli quali articolo, variante, quantità, prezzo, importo netto, unità e magazzino. In pratica, ogni riga aggregata corrisponde a una riga di ordine cliente.
+![Campi nella Scheda dettaglio Dettagli ordine cliente di una transazione aggregata.](media/aggregated-transactions-error-message-view.png)
 
-Dalla pagina **Transazioni aggregate**, è possibile scaricare l'XML per una specifica transazione aggregata utilizzando il pulsante **Esporta ordine cliente XML**. È possibile utilizzare l'XML per il debug dei problemi relativi alla creazione e alla registrazione degli ordini cliente. Scaricare l'XML, caricarlo in un ambiente di test ed eseguire il debug del problema nell'ambiente di test. La funzionalità per il download dell'XML per le transazioni aggregate non è disponibile per i rendiconti registrati.
+Nella scheda dettaglio **Dettagli transazioni** di una transazione aggregata vengono visualizzate tutte le transazioni inserite nella transazione aggregata. Le righe aggregate nella transazione aggregata visualizzano tutti i record aggregati delle transazioni. Le righe aggregate visualizzano anche dettagli quali articolo, variante, quantità, prezzo, importo netto, unità e magazzino. In pratica, ogni riga aggregata corrisponde a una riga di ordine cliente.
 
-La visualizzazione della transazione aggregata fornisce i seguenti vantaggi:
+![Scheda dettaglio Dettagli transazione di una transazione aggregata.](media/aggregated-transactions-sales-details.png)
+
+In alcune situazioni, le transazioni aggregate potrebbero non riuscire a registrare l'ordine cliente consolidato. In queste situazioni, allo stato dell'istruzione verrà associato un codice di errore. Per visualizzare solo le transazioni aggregate che presentano errori, è possibile abilitare il filtro **Mostra solo errori** nella vista delle transazioni aggregate selezionando la casella di controllo. Abilitando questo filtro, limiti i risultati alle transazioni aggregate che contengono errori che richiedono una risoluzione. Per informazioni su come correggere questi errori, vedi [Modificare e verificare l'ordine online e le transazioni asincrone degli ordini dei clienti](edit-order-trans.md).
+
+![Casella di controllo per il filtro Mostra solo errori nella vista delle transazioni aggregate.](media/aggregated-transactions-failure-view.png)
+
+Dalla pagina **Transazioni aggregate**, è possibile scaricare l'XML per una specifica transazione aggregata selezionando **Esporta dati aggregati**. È possibile rivedere l'XML in qualsiasi strumento di formattazione XML per visualizzare i dettagli dei dati effettivi che implicano la creazione e la registrazione di ordini di vendita. La funzionalità per il download dell'XML per le transazioni aggregate non è disponibile per i rendiconti registrati.
+
+![Pulsante Esporta dati di aggregazione nella pagina Transazioni aggregate.](media/aggregated-transactions-export.png)
+
+Nel caso in cui non sia possibile correggere l'errore correggendo i dati sull'ordine di vendita o i dati che supportano l'ordine di vendita, un pulsante **Elimina ordine cliente** è disponibile. Per eliminare un ordine, seleziona la transazione aggregata non riuscita, quindi seleziona **Elimina ordine cliente**. La transazione aggregata e l'ordine cliente corrispondente vengono eliminati. Ora puoi rivedere le transazioni utilizzando la funzionalità di modifica e controllo. In alternativa, possono essere rielaborati attraverso un nuovo rendiconto. Dopo che tutti gli errori sono stati corretti, è possibile riprendere la registrazione del rendiconto eseguendo la funzione di post rendiconto per il rendiconto pertinente.
+
+![Pulsante Elimina ordine cliente nella vista delle transazioni aggregate.](media/aggregated-transactions-delete-cust-order.png)
+
+La visualizzazione delle transazioni aggregate fornisce i seguenti vantaggi:
 
 - L'utente ha visibilità sulle transazioni aggregate non riuscite durante la creazione degli ordini cliente e sugli ordini cliente non riusciti durante la fatturazione.
 - L'utente ha visibilità sul modo in cui le transazioni vengono aggregate.
@@ -174,3 +204,6 @@ Altri miglioramenti back-end visibili agli utenti sono stati apportati alla funz
 
     - Accedere a **Retail e Commerce** \> **Impostazione sedi centrali** \> **Parametri** \> **Parametri di commercio**. Quindi, ,nella scheda **Registrazione**, nella Scheda dettaglio **Aggiornamento dell'inventario**, nel campo **Livello dettagli** selezionare **Riepilogo**.
     - Accedere a **Retail e Commerce** \> **Impostazione sedi centrali** \> **Parametri** \> **Parametri di commercio**. Quindi, nella scheda **Registrazione**, nella Scheda dettaglio **Aggregazione**, impostare l'opzione **Transazioni giustificativo** su **Sì**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

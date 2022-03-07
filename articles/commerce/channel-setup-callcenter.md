@@ -2,29 +2,26 @@
 title: Impostare un canale servizio clienti
 description: In questo argomento viene descritto come creare un nuovo canale servizio clienti in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4413608"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744536"
 ---
-# <a name="set-up-a-call-center-channel"></a>Impostare un canale servizio clienti
+# <a name="set-up-a-call-center-channel"></a>Impostare un canale del servizio clienti
 
 
 [!include [banner](includes/banner.md)]
@@ -57,11 +54,11 @@ Per creare e configurare un nuovo canale servizio clienti, effettuare le seguent
 
 L'immagine seguente mostra la creazione di un nuovo canale servizio clienti.
 
-![Nuovo canale servizio clienti](media/channel-setup-callcenter-1.png)
+![Nuovo canale servizio clienti.](media/channel-setup-callcenter-1.png)
 
 L'immagine seguente mostra un esempio di canale servizio clienti.
 
-![Esempio di canale servizio clienti](media/channel-setup-callcenter-2.png)
+![Esempio di canale servizio clienti.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Ulteriori azioni di impostazione di canali
 
@@ -69,7 +66,7 @@ Ulteriori attività necessarie per l'impostazione di canali servizio clienti inc
 
 L'immagine seguente mostra le opzioni di impostazione **Modalità di consegna** e **Metodi di pagamento** nella scheda **Imposta**.
 
-![Ulteriori azioni di impostazione dei canali servizio clienti](media/channel-setup-callcenter-3.png)
+![Ulteriori azioni di impostazione dei canali servizio clienti.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
 
@@ -84,9 +81,9 @@ Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un
 
 L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
-![Esempio di metodi di pagamento](media/channel-setup-callcenter-payments.png)
+![Esempio di metodi di pagamento.](media/channel-setup-callcenter-payments.png)
 
-### <a name="set-up-modes-of-delivery"></a>Impostare le modalità di consegna
+### <a name="set-up-modes-of-delivery"></a>Imposta la modalità di consegna
 
 È possibile visualizzare le modalità di consegna configurate selezionando **Modalità di consegna** nella scheda **Imposta** del **Riquadro azioni**.  
 
@@ -100,7 +97,7 @@ Per modificare o aggiungere una modalità di consegna da associare al canale del
 
 L'immagine seguente illustra un esempio di modalità di consegna.
 
-![Imposta la modalità di consegna](media/channel-setup-retail-7.png)
+![Impostare le modalità di consegna.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Impostare gli utenti del canale
 
@@ -136,3 +133,6 @@ Per impostare un gruppo di prezzi, procedere come segue.
 [Impostare e utilizzare gli avvisi di frode](set-up-fraud-alerts.md)
 
 [Impostare programmi di continuità per i servizi clienti](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

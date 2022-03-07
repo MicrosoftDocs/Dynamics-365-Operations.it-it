@@ -2,11 +2,9 @@
 title: Impostare le categorie di conti principali
 description: In questo argomento viene illustrato come impostare le categorie di conti principali in Dynamics 365 Finance.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d53181d63f7b362662d993e21671e9b685b5dfe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3530ba65dc0a4978ca4b1ca4b1acd96c79749a6f16e430fb260729dd3e28dbac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732935"
 ---
 # <a name="set-up-main-account-categories"></a>Impostare le categorie di conti principali
 
@@ -41,3 +39,6 @@ In questo argomento viene illustrato come impostare le categorie di conti princi
 3. Selezionare o deselezionare l'opzione **Collegato** per scegliere i conti principali.
 4. Selezionare **OK**.
 5. Selezionare **Sì**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

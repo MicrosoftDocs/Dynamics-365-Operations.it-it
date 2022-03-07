@@ -2,26 +2,23 @@
 title: Creare una rappresentazione generale prodotto
 description: Creare una rappresentazione generale prodotto per le varianti predefinite.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fdb30b46a0e5a6d4fac997588dd47148f2664c03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f4140232da68dacde49e236e587110be4f3bbea11fd6c2deec29aaa7ee9e107f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722345"
 ---
 # <a name="create-a-product-master"></a>Creare una rappresentazione generale prodotto
 
@@ -61,3 +58,6 @@ Creare una rappresentazione generale prodotto per le varianti predefinite. La so
 10. Fare clic su **Salva**.
 11. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

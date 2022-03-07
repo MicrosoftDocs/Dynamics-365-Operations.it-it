@@ -1,29 +1,28 @@
 ---
 title: Panoramica sulla gestione trasporto
 description: In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Supply Chain Management.
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4affc5846ee329a4571d6fb3e0c42873387241ad
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 68082a736fd45c6701324a1492087c1b16bf0566
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431516"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985447"
 ---
 # <a name="transportation-management-overview"></a>Panoramica gestione trasporto
 
@@ -70,20 +69,23 @@ Gestione trasporto consente di utilizzare il trasporto della società e di ident
 ## <a name="planning-transportation-in-supply-chain-management"></a>Pianificazione del trasporto in Supply Chain Management
 In Gestione trasporto, la pianificazione del trasporto può essere basata sugli ordini o sulle spedizioni create in base a tali ordini. Le spedizioni sono sempre presenti in un determinato momento, ma non sono necessarie per la pianificazione del trasporto. Gli ordini di trasferimento fanno parte dello scenario in uscita e possono essere pianificati insieme agli ordini cliente. 
 
-![Emissione del carico](./media/Load-drawing1-1024x477.jpg)
+![Emissione del carico.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Trasporto in uscita
 Quando si ordinano gli articoli da un fornitore e gli articoli devono essere consegnati al proprio magazzino, è consigliabile organizzare il trasporto degli articoli personalmente. È possibile utilizzare Supply Chain Management per pianificare il trasporto e la ricezione del carico in entrata. Nella seguente figura viene illustrato il flusso del processo aziendale per pianificare il trasporto per un carico in entrata. 
 
-![Flusso di processo aziendale per il trasporto del carico in ingresso](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Flusso di processo aziendale per il trasporto del carico in ingresso.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Trasporto in uscita
 È possibile pianificare ed elaborare un carico in uscita per spedire articoli specifici dal magazzino di una società a un cliente. È possibile utilizzare Supply Chain Management per pianificare il trasporto e la spedizione di un carico in uscita. Nella seguente figura viene illustrato il flusso del processo aziendale per la pianificazione e l'elaborazione di carichi in uscita da spedire. 
 
-![Pianificazione ed elaborazione dei carichi in uscita](./media/Planningandprocessingoutboundloads.jpg)
+![Pianificazione ed elaborazione dei carichi in uscita.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Allestimento del carico
 Supply Chain Management offre una strategia di allestimento del carico denominata strategia di allestimento del carico basata sul volume. Questa strategia consente di utilizzare i valori massimi specificati per l'altezza e il peso nel modello di carico o di sostituire le impostazioni con nuovi valori. Per utilizzare questa strategia, selezionarla nel campo **Strategia di allestimento del carico** nella scheda dettaglio **Impostazioni** della pagina **Workbench di allestimento del carico**. Inoltre, è possibile aggiungere strategie di allestimento del carico personalizzate creando una nuova classe nella struttura a oggetti applicativi (AOT).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

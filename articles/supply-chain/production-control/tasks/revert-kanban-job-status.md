@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9cca5ea3a4c33c7f36acd18a8af7034466b3b580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94618494b9c338ed27b2558c91dc662c853d3cda
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431110"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261095"
 ---
 # <a name="revert-kanban-job-status"></a>Ripristina stato del processo kanban
 
@@ -55,3 +54,6 @@ La procedura riguarda il ripristino di uno stato non di processo kanban non corr
     * Selezionare lo stesso processo.  
     * Si noti che lo stato del processo kanban viene reimpostato su Pianificato, indicato da un'icona kanban vuota.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

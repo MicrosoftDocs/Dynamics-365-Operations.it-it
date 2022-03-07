@@ -1,27 +1,24 @@
 ---
 title: Adempiere ai contratti di vendita
 description: Questa procedura indica come soddisfare un contratto di vendita associando gli ordini cliente.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesTableListPage, SalesTable, AgreementLine, SalesCreateOrder,  SalesEditLines, SalesAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d3a35c7140b886f931df48e583b1582201b6547
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fe26d528e42da61d47fd2448e071bf9025c08f5d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430950"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573395"
 ---
 # <a name="fulfill-sales-agreements"></a>Adempiere ai contratti di vendita
 
@@ -90,3 +87,6 @@ Questa procedura indica come soddisfare un contratto di vendita associando gli o
 23. Fare clic su Contratto di vendita allegato.
 24. Fare clic sulla scheda Evasione.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

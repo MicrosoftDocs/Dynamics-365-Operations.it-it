@@ -2,29 +2,26 @@
 title: Gestione turni e cassetto della cassa
 description: In questo argomento viene descritto come impostare e utilizzare i turni in Commerce POS (POS).
 author: jblucher
-manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32b7be42509a2c857f1357eb64a6b488f9cd2269
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413530"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779746"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestione turni e cassetto della cassa
 
@@ -48,7 +45,7 @@ Tradizionalmente, questo scenario è stato utilizzato con maggiore frequenza. Vi
 
 In un turno a "cassetto con postazione variabile", il turno e il cassetto cassa possono essere spostati da un registratore di cassa all'altro. Anche se un registratore di cassa può avere un solo turno attivo per cassetto, i turni possono essere sospesi e poi ripresi in un secondo momento o su un altro registratore di cassa.
 
-Ad esempio, un negozio ha due registratori di cassa. Ogni registratore viene aperto all'inizio del giorno in cui il cassiere apre un nuovo turno e fornisce l'importo di partenza. Quando un cassiere è pronto a prendersi una pausa, sospende il suo turno e rimuove la cassa dal cassetto portavalori. Il registratore quindi diventa disponibile per altri cassieri. Un altro cassiere può accedere e aprire il proprio turno sul registratore. Una volta terminata la prima pausa, il cassiere può riprendere il suo turno quando uno degli altri registri è disponibile. I turni a "cassetto con postazione variabile" non richiedono alcuna configurazione o autorizzazione speciale.
+Ad esempio, un negozio ha due registratori di cassa. Ogni registratore viene aperto all'inizio del giorno in cui il cassiere apre un nuovo turno e fornisce l'importo di partenza. Quando un cassiere è pronto a prendersi una pausa, sospende il suo turno e rimuove la cassa dal cassetto portavalori. Il registratore quindi diventa disponibile per altri cassieri. Un altro cassiere può accedere e aprire il suo turno sul registratore. Una volta terminata la pausa del primo cassiere, questo può riprendere il suo turno quando uno degli altri registri è disponibile. I turni a "cassetto con postazione variabile" non richiedono alcuna configurazione o autorizzazione speciale.
 
 ### <a name="single-user"></a>Singolo utente
 
@@ -157,4 +154,7 @@ Passare a **Retail e Commerce \> Canali \> Punti vendita \> Tutti i punti vendit
 
 Questa impostazione aiuta a garantire che i resoconti di back-office includano le stesse transazioni dei turni nel POS e che i dati siano riepilogati da tale turno.
 
-Per ulteriori informazioni sui metodi di dichiarazione e di chiusura, vedere [Configurazioni dei punti vendita per il Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+Per ulteriori informazioni sui metodi di dichiarazione e di chiusura, vedere [Configurazioni dei punti vendita per il Retail](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

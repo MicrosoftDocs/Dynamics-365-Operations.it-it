@@ -2,11 +2,9 @@
 title: Dismettere un cespito come scarto
 description: Questo argomento descrive il processo di eliminazione delle transazioni per un cespite dismesso come scarto.
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90eb791bae2bbe70cf9fe7127a98962305449e1d0b370cfa001afbd3654046ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752920"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Dismettere un cespito come scarto
 
@@ -45,7 +43,7 @@ Questo argomento descrive il processo di eliminazione delle transazioni per un c
 Prima di dismettere un cespite come scarto, è necessario creare conti CoGe associati a valore di acquisizione, ammortamento per l'anno corrente, ammortamento per gli anni precedenti e valore contabile netto del cespite. I tipi di transazione cespiti sono elencati nella pagina **Profili di registrazione cespiti**. Selezionare **Cespiti \> Impostazione \> Profili registrazione cespiti**, quindi nella Scheda dettaglio **Dismissione**, selezionare **Scarto** nel campo sopra la griglia. Nell'illustrazione seguente viene visualizzato l'elenco dei tipi di transazione cespiti nella pagina **Profili registrazione cespiti**.
 
 
-[![Dismissione di un cespite come scarto, Fig. 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Dismissione di un cespite come scarto, Fig. 1.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Per l'esempio seguente, un cespite è stato acquisito il 1° gennaio 2018 e verrà scartato il 31 marzo 2019.
 
@@ -60,24 +58,27 @@ Valore contabile netto = Prezzo di acquisizione - Ammortamento
 
 In questo esempio, il cespite è stato acquisito e ammortizzato per 15 mesi, dal gennaio 2018 al marzo 2019. Di conseguenza, il valore contabile netto del cespite è 9.000 USD (24.000 USD - 15.000 USD).
 
-[![Esempio di ammortamento dei cespiti](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Esempio di ammortamento dei cespiti.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Per creare un giornale di registrazione di dismissioni, passare a **Cespiti \> Scritture contabili \> Giornale di registrazione cespiti** e selezionare **Righe** nel riquadro azioni. Selezionare **Dismissione - scarto** e selezionare un ID cespite. Per dismettere completamente il cespite, non immettere un valore nel campo **Dare** o nel campo **Avere**.
 
-[![Giornale di registrazione cespiti](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Giornale di registrazione cespiti.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 La transazione di tipo Dismissione - scarto modifica i valori per il libro cespiti nei seguenti modi:
 
 - Nella sezione **Saldo**, il campo **Stato** diventa **Scartato**.
 - Nella sezione **Uscita**, il campo **Data di dismissione** è impostato sulla data in cui il cespite è stato scartato.
 
-[![Dettaglio del giornale di registrazione cespiti](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Dettaglio del giornale di registrazione cespiti.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 L'illustrazione seguente mostra il saldo cespiti.
 
-[![Saldo cespiti](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Saldo cespiti.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 L'illustrazione seguente mostra il giustificativo registrato.
 
-[![Valore contabile netto](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Valore contabile netto.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

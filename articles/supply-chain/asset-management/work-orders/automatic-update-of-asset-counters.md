@@ -1,12 +1,10 @@
 ---
 title: Aggiornamento automatico dei contatori di cespiti
 description: In questo argomento viene descritto l'aggiornamento automatico dei contatori di cespiti in Gestione cespiti
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d3e8619439545cf3ea42f84a6dd7ee6ffdf1026e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9a3814a575fbe4379b59723f269d83379a253ede71962c0c82b5f4cc55d36e6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738297"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Aggiornamento automatico dei contatori di cespiti
 
@@ -51,7 +49,7 @@ Come descritto in precedenza, i contatori automatici possono essere aggiornati d
 
     Nella figura seguente è illustrato un esempio della finestra di dialogo **Aggiornare i contatori di cespiti**.
 
-    ![Figura 1](media/12-work-orders.png)
+    ![Figura 1.](media/12-work-orders.png)
 
 5. Selezionare **OK**. 
 
@@ -61,7 +59,7 @@ Nella pagina **Valore aggregato cespiti**, è possibile ottenere una panoramica 
 
 Nella figura seguente è illustrato un esempio della pagina **Valore aggregato cespiti**.
 
-![Figura 2](media/13-work-orders.png)
+![Figura 2.](media/13-work-orders.png)
 
 Notare i punti seguenti:
 
@@ -69,3 +67,6 @@ Notare i punti seguenti:
 
 - È possibile impostare i contatori correlati a un altro contatore. In questo caso, quando un contatore viene aggiornato, i contatori correlati vengono aggiornati automaticamente contemporaneamente. Per ulteriori informazioni su come impostare i contatori correlati, vedere [Contatori](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

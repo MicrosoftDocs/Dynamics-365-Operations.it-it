@@ -2,26 +2,24 @@
 title: Home page app per dispositivi mobili
 description: In questo argomento viene descritta l'app per dispositivi mobili Finance and Operations (Dynamics 365) e vengono forniti i collegamenti alle risorse necessarie per implementarla nell'organizzazione.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729710"
 ---
 # <a name="mobile-app-home-page"></a>Home page app per dispositivi mobili
 
@@ -29,8 +27,7 @@ ms.locfileid: "4683460"
 
 In questo argomento viene descritta l'app per dispositivi mobili **Finance and Operations (Dynamics 365)** e vengono forniti i collegamenti alle risorse necessarie per implementarla nell'organizzazione.
 
-<a name="overview"></a>Panoramica
---------
+## <a name="overview"></a>Panoramica
 
 L'app mobile consente all'organizzazione di rendere disponibili i propri processi aziendali nei dispositivi mobili. Dopo che l'amministratore IT attiva le aree di lavoro mobile per l'organizzazione, gli utenti potranno accedere all'app e immediatamente iniziare a eseguire i processi aziendali dai dispositivi mobili. L'app mobile include le seguenti funzionalità che consentono di aumentare la produttività:
 
@@ -42,7 +39,7 @@ L'app mobile consente all'organizzazione di rendere disponibili i propri process
 ## <a name="elements-of-the-mobile-app"></a>Elementi dell'app mobile
 La navigazione dell'app mobile è costituita si basa su quattro concetti di base: dashboard, aree di lavoro, pagine e azioni. 
 
-[![Concetti di navigazione nell'app mobile](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Concetti di navigazione nell'app per dispositivi mobili.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. All'avvio dell'app, passare al **dashboard**.
 2. Nel dashboard, è possibile visualizzare un elenco di **aree di lavoro** pubblicate.
@@ -56,7 +53,7 @@ La navigazione dell'app mobile è costituita si basa su quattro concetti di base
 ## <a name="implementation-process"></a>Processo di implementazione
 Nella figura seguente è illustrato il processo per implementare entrambe le aree di lavoro mobili fornite da Microsoft e le aree di lavoro mobili personalizzate. 
 
-[![Processo di implementazione app mobili](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Processo di implementazione app per dispositivi mobili.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per implementare entrambe le aree di lavoro mobili fornite da Microsoft e le aree di lavoro mobili personalizzate. I numeri nella prima colonna corrispondono ai passaggi numerati nella precedente figura.
 
@@ -93,8 +90,8 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Area di lavoro mobile per scorte disponibili</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Aree di lavoro mobili per ordini cliente</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Area di lavoro mobile di collaborazione fornitore</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Area di lavoro mobile per immissione ora progetto</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Area di lavoro mobile di gestione spese</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Area di lavoro mobile per immissione ora progetto</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Area di lavoro mobile di gestione spese</a></li>
 
 </ul></td>
 </tr>
@@ -151,3 +148,6 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 [Risorse piattaforma mobile](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
