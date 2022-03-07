@@ -2,25 +2,22 @@
 title: Strategie di rifornimento
 description: Questo argomento fornisce informazioni sulle strategie di rifornimento e spiega come utilizzare il campo Strategia di rifornimento nelle righe del modello di rifornimento della domanda ciclo per selezionare la modalità di rifornimento.
 author: mirzaab
-manager: tfehr
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 45b3b1a4d2e92a52ee69c17865634a6578181ac7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646135"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814514"
 ---
 # <a name="replenishment-strategies"></a>Strategie di rifornimento
 
@@ -115,3 +112,6 @@ I risultati differiscono a causa delle informazioni disponibili quando si crea i
 [![Esempio 2](media/ReplenTemp_example_2.png "Esempio 2")](media/ReplenTemp_example_2_large.png)
 
 Pertanto, per ottenere la quantità massima nelle ubicazioni rifornite, è necessario impostare l'opzione **Consenti divisione** su *Sì* nelle direttive di ubicazione per il prelievo di rifornimento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

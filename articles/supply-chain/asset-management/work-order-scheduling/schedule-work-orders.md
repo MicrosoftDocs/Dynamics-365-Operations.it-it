@@ -1,12 +1,10 @@
 ---
 title: Programmare ordini di lavoro
 description: In questo argomento viene descritto come programmare ordini di lavoro in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718061"
 ---
 # <a name="schedule-work-orders"></a>Programmare ordini di lavoro
 
@@ -58,7 +56,7 @@ Solo gli ordini di lavoro con un ciclo di vita che consente la programmazione po
 
 *Esempio:* nella figura seguente, la formula immessa nel campo **Data di inizio prevista** genererà la programmazione per tutti gli ordini di lavoro la cui data di inizio prevista è almeno una settimana dopo la data corrente. Questa formula può essere utile quando si esegue la programmazione di ordini di lavoro su base continuativa, ma si intende accertarsi che gli ordini di lavoro programmati per i 5-6 giorni successivi non vengano riprogrammati.
 
-![Figura 1](media/03-work-order-scheduling.png)
+![Figura 1.](media/03-work-order-scheduling.png)
 
 Il tipo di ordine di lavoro associato agli ordini di lavoro può impostare la programmazione per un addetto alla manutenzione (**Gestione cespiti** > **Impostazione** > **Ordini di lavoro** > **Tipi di ordine di lavoro** >  interruttore **Un addetto alla manutenzione** impostato su "Sì"). Ciò significa che se il tipo di ordine di lavoro viene utilizzato in un ordine di lavoro, l'interruttore **Un addetto alla manutenzione** viene automaticamente impostato su "Sì" nella pagina dettagli **Tutti gli ordini di lavoro** > visualizzazione **Intestazione** > Scheda dettaglio **Programma**. Durante la programmazione degli ordini di lavoro, tutti i processi di ordine di lavoro creati nell'ordine di lavoro verranno successivamente programmati per lo stesso addetto alla manutenzione. Se necessario, è possibile modificare la selezione di **Un addetto alla manutenzione** in **Tutti gli ordini di lavoro** per consentire la programmazione di uno o più addetti nei processi di ordine di lavoro.
 
@@ -137,3 +135,6 @@ Per visualizzare e lavorare con il diagramma di Gantt:
     - Per riprogrammare un ordine di lavoro visualizzato, selezionarlo e quindi trascinarlo nella nuova data e ora appropriate.
 
 1. Se sono state apportate modifiche, seleziona **Salva** nel riquadro azioni per salvarle.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

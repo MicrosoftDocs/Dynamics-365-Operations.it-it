@@ -2,15 +2,12 @@
 title: Modulo mappa
 description: In questo argomento vengono descritti i moduli mappa e la procedura per configurarli in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747395"
 ---
 # <a name="map-module"></a>Modulo mappa
 
@@ -32,9 +29,7 @@ ms.locfileid: "4665422"
 
 In questo argomento vengono descritti i moduli mappa e la procedura per configurarli in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Panoramica
-
-Un modulo mappa mostra le posizioni dei punti vendita su una mappa interattiva il cui rendering viene eseguito utilizzando il [controllo Web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/). È richiesta una chiave API di Bing Maps che deve essere aggiunta alla pagina Parametri condivisi di commercio in Commerce Headquarters. I moduli mappa offrono viste diverse, come stradale, aerea e Streetside, che gli utenti possono selezionare per visualizzare le posizioni della mappa. Consentono inoltre interazioni come lo zoom e l'utilizzo della posizione dell'utente.
+Un modulo mappa mostra le posizioni dei punti vendita su una mappa interattiva il cui rendering viene eseguito utilizzando il [controllo Web Bing Maps V8](/bingmaps/v8-web-control/). È richiesta una chiave API di Bing Maps che deve essere aggiunta alla pagina Parametri condivisi di commercio in Commerce Headquarters. I moduli mappa offrono viste diverse, come stradale, aerea e Streetside, che gli utenti possono selezionare per visualizzare le posizioni della mappa. Consentono inoltre interazioni come lo zoom e l'utilizzo della posizione dell'utente.
 
 Un modulo mappa interagisce con il modulo selettore punto vendita per determinare le posizioni geografiche dei punti vendita che devono essere visualizzati su una mappa. I moduli mappa e selettore punto vendita interagiscono quando un utente seleziona un punto vendita in uno di questi moduli in una pagina del sito. I moduli mappa possono essere estesi per altri scenari, oltre all'interazione con i moduli selettore punto vendita. Tuttavia, è richiesta la personalizzazione del modulo.
 
@@ -43,7 +38,7 @@ Un modulo mappa interagisce con il modulo selettore punto vendita per determinar
 
 L'immagine seguente mostra un esempio di modulo mappa utilizzato in una pagina delle posizioni dei punti vendita.
 
-![Esempio di un modulo selettore punto vendita](./media/ecommerce-Storelocator.PNG)
+![Esempio di un modulo selettore punto vendita.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Proprietà del modulo
 
@@ -81,4 +76,7 @@ Per informazioni dettagliate su come configurare un modulo mappa in una pagina, 
 
 [Gestire Bing Mappe per la tua organizzazione](./dev-itpro/manage-bing-maps.md)
 
-[Controllo Web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[Controllo Web Bing Maps V8](/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

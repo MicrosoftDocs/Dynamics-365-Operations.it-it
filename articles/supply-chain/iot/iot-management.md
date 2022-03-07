@@ -2,27 +2,24 @@
 title: Monitorare e gestire l'Intelligence IoT
 description: Questo argomento spiega come monitorare e gestire l'Intelligence IoT.
 author: robinarh
-manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 15021281b9ec33cd0552bca16e3054d0d3cdd589
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94665b3646456b689a8e65e94b098e86e467d5e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431399"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813077"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>Monitorare e gestire l'Intelligence IoT
 
@@ -62,3 +59,6 @@ Puoi simulare i segnali di fabbrica. Per ulteriori informazioni, vedi questi arg
 + [Connettere IoT DevKit AZ3166 all'hub IoT di Azure](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Connettere il simulatore online di Raspberry Pi all'hub IoT di Azure (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Panoramica dell'acceleratore di soluzione Simulazione dispositivi](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

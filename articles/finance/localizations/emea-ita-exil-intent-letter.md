@@ -2,11 +2,9 @@
 title: Lettere di intento - Fatturazione di esportatori abituali
 description: Questo argomento fornisce informazioni su come impostare lettere di intento e su come utilizzarle quando si emettono fatture.
 author: ilkond
-manager: AnnBe
 ms.date: 12/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd024c216f6eb20f7841d493ccec0adf8881a2c5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0e0367d91ce4b8d6dda4412527680a757c9431e4f0aacae62f0d73666eabcdda
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740869"
 ---
 # <a name="intent-letters---invoicing-of-usual-exporters"></a>Lettere di intento - Fatturazione di esportatori abituali
 
@@ -33,7 +31,7 @@ Per ricevere una fornitura di beni o servizi esente da IVA in Italia, le societ�
 Prima di fatturare, è necessario soddisfare i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- La funzionalità **Lettere di intento - Fatturazione di esportatori usuali** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- La funzionalità **Lettere di intento - Fatturazione di esportatori usuali** deve essere attivata nell'area di lavoro **Gestione funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-accounts-receivable-parameters"></a>Impostazione dei parametri di Contabilità clienti
 
@@ -41,14 +39,14 @@ Prima di fatturare, è necessario soddisfare i seguenti prerequisiti:
 2. Nella scheda **Contabilità generale e IVA** nella scheda dettaglio **Esportatori abituali**, nel campo **Fascia IVA esportatori abituali**, definire una fascia IVA che viene utilizzata solo per gli esportatori abituali.
 3. Impostare l'opzione **Assegnazione automatica lettera di intento** su **Sì** per attivare l'assegnazione automatica delle lettere di intento durante la fatturazione.
 
-![Impostazione dei parametri di Contabilità clienti](media/emea-ita-exil-intent-AR-parm.jpg)
+![Impostazione dei parametri di Contabilità clienti.](media/emea-ita-exil-intent-AR-parm.jpg)
 
-## <a name="set-up-sales-tax-codes"></a>Impostare i codici IVA
+## <a name="set-up-sales-tax-codes"></a>Imposta i codici IVA
 
 1. Selezionare **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA**.
 2. Selezionare un codice IVA, quindi nella scheda dettaglio **Generale**, nella sezione **Fatturazione**, impostare l'opzione **Invia lettere di intento** su **Sì**.
 
-![Impostazione di un codice IVA](media/emea-ita-exil-intent-tax-setup.jpg)
+![Impostazione di un codice IVA.](media/emea-ita-exil-intent-tax-setup.jpg)
 
 ## <a name="set-up-customers"></a>Impostare i clienti
 
@@ -83,10 +81,13 @@ Le seguenti azioni sono disponibili per lettere di intento esistenti:
 
 Quando si crea un ordine cliente o una fattura a testo libero per un cliente classificato come esportatore usuale, se la data di creazione è nel periodo di validità della lettera di intento, il valore **Fascia IVA esportatori abituali** viene utilizzato nell'ordine o nella fattura. Inoltre, il numero della lettera di intento viene immesso se l'opzione **Assegnazione automatica lettera di intento** è impostata su **Sì**.
 
-![Nuovo ordine cliente](media/emea-ita-exil-intent-new-order.jpg)
+![Nuovo ordine cliente.](media/emea-ita-exil-intent-new-order.jpg)
 
 L'importo della transazione fattura sarà soggetto al calcolo dell'IVA solo se non supera l'importo della lettera di intento.
 
 I dettagli della lettera di intento saranno inclusi anche in un layout stampabile della fattura.
 
-![Stampa fattura](media/emea-ita-exil-intent-inv-print.jpg)
+![Stampa fattura.](media/emea-ita-exil-intent-inv-print.jpg)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

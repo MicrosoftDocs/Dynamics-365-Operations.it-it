@@ -2,11 +2,9 @@
 title: Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services
 description: Questo argomento illustra come scaricare le configurazioni per la creazione di report elettronici da Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
 ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
@@ -17,18 +15,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 719b277fb828ea2085ea80bc4a36c2af3412f66b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ea603d01d05e98ac69d5a0d12802b5f23ee34793bf4c9b4f885f0e4303f77d2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762274"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento spiega come scaricare la versione più recente di [Configurazioni per la creazione di report elettronici](general-electronic-reporting.md#Configuration) dalla [libreria di risorse condivise](../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> L'utilizzo di LCS come repository di archiviazione per le configurazioni ER è stato [deprecato](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Per ulteriori informazioni vedi [Regulatory Configuration Service (RCS) – Deprecazione dell'archiviazione di Lifecycle Services (LCS)](../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
 
 1. Accedere all'applicazione utilizzando uno dei seguenti ruoli:
 
@@ -40,7 +41,7 @@ Questo argomento spiega come scaricare la versione più recente di [Configurazio
 3. Nella sezione **Provider di configurazione** selezionare il riquadro **Microsoft**.
 4. Nel riquadro **Microsoft** selezionare **Archivi**.
 
-    [![Riquadro Microsoft nella pagina delle configurazioni di localizzazione](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Riquadro Microsoft nella pagina delle configurazioni di localizzazione.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Nella pagina **Archivi di configurazioni** selezionare nella griglia l'archivio esistente di tipo **LCS**. Se questo archivio non viene visualizzato nella griglia, effettuare le seguenti operazioni:
 
@@ -54,7 +55,7 @@ Questo argomento spiega come scaricare la versione più recente di [Configurazio
 
 6. Selezionare **Apri** per visualizzare l'elenco delle configurazioni ER per l'archivio selezionato.
 
-    [![Pagina Archivi di configurazione](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Pagina Archivi di configurazione.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > Se si verificano problemi con l'accesso all'archivio LCS per scaricare le configurazioni dalla libreria di risorse condivise in LCS, è possibile scaricare le configurazioni dal [repository globale](er-download-configurations-global-repo.md).
@@ -66,7 +67,7 @@ Questo argomento spiega come scaricare la versione più recente di [Configurazio
     > [!NOTE]
     > Il pulsante **Importa** non è disponibile per le versioni di configurazione di creazione di report elettronici già presenti nell'istanza corrente.
 
-    [![Configurazione della pagina dell'archivio](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Pagina Archivio di configurazione.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > A seconda delle impostazioni ER, le configurazioni vengono convalidate dopo l'importazione. È possibile ricevere una notifica per tutti i problemi di incoerenza rilevati. Risolvere i problemi prima di utilizzare la versione di configurazione importata. Per ulteriori informazioni, vedere l'elenco di argomenti correlati per questo argomento.
@@ -76,3 +77,6 @@ Questo argomento spiega come scaricare la versione più recente di [Configurazio
 [Panoramica dei report elettronici](general-electronic-reporting.md)
 
 [Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

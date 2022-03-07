@@ -1,26 +1,28 @@
 ---
 title: Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
 description: Questo argomento descrive come configurare le deviazioni per le voci di menu in modo che i lavoratori possano sospendere l'attività corrente, eseguire un'altra attività e quindi tornare all'attività originale senza perdere alcuna informazione.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 9e0529367a761b79530f40e2853b6f4a6faac3cf
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920350"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860848"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until GA with 10.0.23 -->
 
 > [!IMPORTANT]
 > Le caratteristiche che sono descritte in questo argomento si applicano solo alla nuova applicazione mobile Warehouse Management. Non riguardano la vecchia app del magazzino, che ora è deprecata.

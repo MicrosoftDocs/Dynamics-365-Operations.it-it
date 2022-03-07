@@ -1,12 +1,10 @@
 ---
 title: Contenuti Power BI di analisi contabilità industriale
-description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Analisi della contabilità industriale. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Analisi della contabilità industriale.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 424135233ffdc73d17336ec4e3e97ccd52dab1ff
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683873"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893332"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>Contenuti Power BI di analisi contabilità industriale
+# <a name="cost-accounting-analysis-power-bi-content"></a>Analisi della contabilità industriale contenuto Power BI
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto di Power BI **Analisi della contabilità industriale**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto **Analisi della contabilità industriale** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -42,7 +40,7 @@ Per ulteriori informazioni sulla contabilità industriale, vedere [Home page di 
 Definendo la sicurezza a livello di accesso nella contabilità industriale e combinandola alla sicurezza a livello di riga in Power BI, è possibile concedere a tutti i proprietari degli oggetti di costo l'accesso al contenuto Power BI **Analisi della contabilità industriale**. Tutti i dati delle visualizzazioni verranno filtrati in base al livello di accesso che viene controllato nella contabilità industriale. Per ulteriori informazioni sulla sicurezza a livello di accesso e a livello di riga, vedere [Impostare la sicurezza dei contenuti Power BI di analisi contabilità industriale](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
-È possibile trovare il contenuto Power BI **Analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+È possibile trovare il contenuto Power BI **Analisi della contabilità industriale** nella libreria delle risorse di condivise in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni su come scaricare il contenuto e implementarlo nell'organizzazione, vedere [Contenuto Power BI in LCS da Microsoft e dai partner](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Assicurarsi di scaricare il contenuto **Analisi della contabilità industriale** applicabile alla versione di Microsoft Dynamics 365 in uso.
 
@@ -75,7 +73,7 @@ I seguenti dati vengono utilizzati per compilare le pagine di report nel contenu
 
 Le seguenti misure aggregazione chiave vengono utilizzate come base del contenuto.
 
-| Entità                  | Misura di aggregazione chiave | Origine dati per Dynamics 365      | Campo     | descrizione                                        |
+| Entità                  | Misura di aggregazione chiave | Origine dati per Dynamics 365      | Campo     | Descrizione                                        |
 |-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
 | Voci contabilità industriale | SUM(Importo)               | CAMDATAAggregatedCostEntry        | Importo    | Importo nella valuta di contabilità industriale. |
 | Voci statistiche     | SUM(Grandezza)            | CAMDATAAggregatedStatisctialEntry | Grandezza |                                                    |
@@ -123,3 +121,6 @@ Le dimensioni chiave seguenti vengono utilizzate come filtri per dividere le mis
 | Calendari fiscali                   | Calendario, Descrizione del calendario                                                                                       |
 | Anni fiscali                       | Anno di calendario                                                                                                        |
 | Periodi fiscali                     | Periodo anno di calendario                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Pianificazione della produzione
 description: Questo argomento descrive la pianificazione della produzione e spiega come modificare gli ordini di produzione pianificati utilizzando Ottimizzazione pianificazione.
 author: ChristianRytt
-ms.date: 06/01/2021
+ms.date: 12/15/2020
 ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
+ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 85167e3de5f586c341143a43412501377a6c689e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570899"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839225"
 ---
 # <a name="production-planning"></a>Pianificazione della produzione
-
-[!include [banner](../../includes/banner.md)]
 
 Ottimizzazione pianificazione supporta diversi scenari di produzione. Se si esegue la migrazione dal motore di pianificazione generale integrato esistente, è importante essere a conoscenza di alcuni comportamenti modificati.
 
@@ -76,44 +79,11 @@ Puoi utilizzare la pagina **Esplosione** per analizzare la domanda richiesta per
 
 ## <a name="filters"></a><a name="filters"></a>Filtri
 
-Per garantire che Ottimizzazione pianificazione disponga delle informazioni necessarie per calcolare il risultato corretto, è necessario includere tutti i prodotti che hanno una relazione con i prodotti nell'intera struttura DBA dell'ordine pianificato. Per gli scenari di pianificazione che includono la produzione, si consiglia pertanto di evitare esecuzioni di pianificazione generale filtrate.
+Per gli scenari di pianificazione che includono la produzione, si consiglia di evitare esecuzioni di pianificazione generale filtrate. Per garantire che Ottimizzazione pianificazione disponga delle informazioni necessarie per calcolare il risultato corretto, è necessario includere tutti i prodotti che hanno una relazione con i prodotti nell'intera struttura DBA dell'ordine pianificato.
 
-Sebbene gli elementi figlio dipendenti vengano rilevati automaticamente e inclusi nelle esecuzioni della pianificazione generale quando viene utilizzato il motore di pianificazione generale integrato, Ottimizzazione pianificazione attualmente non esegue questa azione.
+Sebbene gli elementi figlio dipendenti vengano rilevati automaticamente e inclusi nelle esecuzioni della pianificazione generale quando viene utilizzato il motore di pianificazione generale integrato, Ottimizzazione pianificazione non esegue questa azione.
 
-Ad esempio, se un singolo bullone dalla struttura DBA del prodotto A viene utilizzato anche per produrre il prodotto B, tutti i prodotti nella struttura DBA dei prodotti A e B devono essere inclusi nel filtro. Poiché può essere complesso garantire che tutti i prodotti facciano parte del filtro, si consiglia di evitare esecuzioni di pianificazione generale filtrate quando sono coinvolti ordini di produzione. In caso contrario, la pianificazione generale fornirà risultati indesiderati.
+Ad esempio, se un singolo bullone dalla struttura DBA del prodotto A viene utilizzato anche per produrre il prodotto B, tutti i prodotti nella struttura DBA dei prodotti A e B devono essere inclusi nel filtro. Poiché può essere molto complesso garantire che tutti i prodotti facciano parte del filtro, si consiglia di evitare esecuzioni di pianificazione generale filtrate quando sono coinvolti ordini di produzione.
 
-### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Motivi per evitare le esecuzioni di pianificazione generale filtrate
-
-Quando si esegue la pianificazione generale filtrata per un prodotto, Ottimizzazione pianificazione (a differenza del motore di pianificazione generale integrato) non rileva tutti i sottoprodotti e le materie prime nella struttura della distinta base di quel prodotto e quindi non li include nell'esecuzione della pianificazione generale. Anche Ottimizzazione pianificazione identifica il primo livello nella struttura della distinta base del prodotto, non carica alcuna impostazione del prodotto (come il tipo di ordine predefinito o la copertura dell'articolo) dal database.
-
-In Pianificazione ottimizzazione, i dati per l'esecuzione vengono caricati in anticipo e vengono applicati i filtri. Ciò significa che se un sottoprodotto o una materia prima inclusa in un prodotto specifico non fa parte del filtro, le informazioni su di esso non verranno acquisite per l'esecuzione. Inoltre, se il sottoprodotto o la materia prima è incluso anche in un altro prodotto, un'esecuzione filtrata che includa solo il prodotto originale e i suoi componenti eliminerebbe la domanda pianificata esistente creata per l'altro prodotto.
-
-Questa logica può far sì che le esecuzioni di pianificazione principale filtrate producano risultati imprevisti. Le sezioni seguenti forniscono esempi che illustrano i risultati imprevisti che potrebbero verificarsi.
-
-### <a name="example-1"></a>Esempio 1
-
-Il prodotto finito *FG* è formato dai seguenti componenti:
-
-- Materia prima *R*
-- Sottoprodotto *S1*, composto dal sottoprodotto *S2*
-
-Sono disponibili scorte per la materia prima *R*, mentre il sottoprodotto *S1* non è presente nell'inventario.
-
-Quando si esegue un'esecuzione di pianificazione generale filtrata per il prodotto finito *FG*, si riceverà un ordine di produzione pianificato per il prodotto finito *FG*, un ordine di acquisto pianificato per la materia prima *R* e un ordine di acquisto pianificato per il sottoprodotto *S1*. Questo è un risultato indesiderabile perché Ottimizzazione pianificazione ha ignorato la fornitura esistente per la materia prima *R* e il sottoprodotto *S1* deve essere prodotto utilizzando *S2* anziché ordinato direttamente. Questo è successo perché Ottimizzazione pianificazione ha solo l'elenco dei componenti per il prodotto finito *FG* senza alcuna informazione correlata, come la fornitura esistente dei componenti o le impostazioni dell'ordine predefinite.
-
-### <a name="example-2"></a>Esempio 2
-
-Basandosi sull'esempio precedente, un ulteriore prodotto finito, *FG2*, utilizza anche il sottoprodotto *S1*. Esiste un ordine pianificato per il prodotto finito *FG2* ed esiste una domanda pianificata per tutti i suoi componenti, incluso *S1*.
-
-Si decide di ovviare ai risultati indesiderati dell'esecuzione della pianificazione generale filtrata dall'esempio precedente aggiungendo tutti i sottoprodotti e le materie prime dalla struttura DBA del prodotto finito *FG* al filtro ed eseguendo quindi la rigenerazione completa.
-
-Quando si esegue la rigenerazione completa, il sistema elimina tutti i risultati esistenti per tutti i prodotti inclusi e quindi ricrea i risultati in base ai nuovi calcoli. Ciò significa che la domanda pianificata esistente per il prodotto *S1* viene cancellata e poi ricreata tenendo conto solo dei requisiti del prodotto finito *FG*, mentre i requisiti del prodotto finito *FG2* vengono ignorati. Ciò accade perché quando si esegue Ottimizzazione pianificazione non viene inclusa la domanda pianificata di altri ordini di produzione pianificati: viene utilizzata solo la domanda pianificata generata durante l'esecuzione.
-
-> [!NOTE]
-> Se l'ordine pianificato esistente per il prodotto finito *FG2* è nello stato *Approvato*, verrà inclusa la domanda pianificata approvata, anche quando il prodotto padre non viene aggiunto al filtro.
-
-Quindi, a meno che non si aggiungano tutti i componenti del prodotto finito *FG*, il prodotto finito *FG2* e tutti gli altri prodotti di cui questi componenti fanno parte (insieme ai relativi componenti), l'esecuzione della pianificazione generale filtrata fornirà risultati indesiderati.
-
-Poiché può essere complesso garantire che tutti i prodotti facciano parte del filtro, si consiglia di evitare esecuzioni di pianificazione generale filtrate quando sono coinvolti ordini di produzione.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

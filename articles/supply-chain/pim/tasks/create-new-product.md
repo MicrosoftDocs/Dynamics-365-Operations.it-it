@@ -1,27 +1,24 @@
 ---
 title: Creare un nuovo prodotto
 description: Viene descritta la procedura per creare un nuovo prodotto condiviso.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a4745fe4fc44f85bcfd388ee573f5a6d0cd8519
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431149"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575586"
 ---
 # <a name="create-a-new-product"></a>Creare un nuovo prodotto
 
@@ -43,3 +40,6 @@ Viene descritta la procedura per creare un nuovo prodotto condiviso. Viene in ge
 3. Nel campo **Gruppo di dimensioni di tracciabilità** immettere o selezionare un valore. Il gruppo di dimensioni di tracciabilità determina quali dimensioni di tracciabilità è necessario immettere in ciascuna transazione per il prodotto e come verrà gestita in magazzino.  
 4. Selezionare **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

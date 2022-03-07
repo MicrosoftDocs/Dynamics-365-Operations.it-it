@@ -1,12 +1,10 @@
 ---
 title: Controllo delle ore lavorative
 description: In questo argomento viene descritto il controllo delle ore lavorative in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 90c4f649cc9ea45341ede923294a7c5a892cd68714db356c3799430d18f5de60
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742778"
 ---
 # <a name="work-hour-control"></a>Controllo delle ore lavorative
 
@@ -68,8 +66,11 @@ Nella schermata seguente viene illustrato un esempio di calcolo **Controllo ore 
 - Nel campo **Ore effettive** sono visualizzate le ore registrate negli ordini di lavoro. 
 - Nel campo **Ore impegnate** sono visualizzate le ore totali della società in relazione agli ordini di lavoro.
 
-![Esempio di calcolo di controllo ore cespiti](media/04-controlling-and-reporting.png)
+![Esempio di calcolo di controllo ore cespiti.](media/04-controlling-and-reporting.png)
 
 Un altro metodo di eseguire un calcolo delle ore è la selezione di molteplici cespiti in **Tutti i cespiti** o **Cespiti attivi**. Quindi fare clic sul pulsante **Controllo ore** nella Scheda dettaglio **Generale**. I cespiti selezionati vengono inseriti automaticamente nel campo **Cespite** della Scheda dettaglio **Record da includere**. Fare clic su **OK** nella finestra di dialogo **Controllo ore cespiti** e viene visualizzato il calcolo dei cespiti selezionati. La stessa procedura può essere eseguita per le unità funzionali in **Tutte le unità funzionali** o **Unità funzionali attive** e per gli ordini di lavoro in **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

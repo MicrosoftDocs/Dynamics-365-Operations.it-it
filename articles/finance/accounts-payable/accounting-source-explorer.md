@@ -1,10 +1,12 @@
 ---
 title: Esplora origine contabilità
 description: Questo articolo fornisce informazioni su Esplora origine contabilità, che è possibile utilizzare per analisi dettagliate delle informazioni di origine relative alle voci della contabilità generale.
-author: rcarlson
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab098aa36d6fa6c34beaaa31ecfbb1eb47840e343d7dee3d9cd3034d6ff8f9c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d98ab6c4bc1d6f98a863a36bd35c19696ccd7b3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749200"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972207"
 ---
 # <a name="accounting-source-explorer"></a>Esplora origine contabilità
 
@@ -46,10 +48,5 @@ Per i documenti di origine che utilizzano il concetto di identità di riferiment
 
 Per questi documenti, è possibile inoltre passare al documento di origine effettivo da Esplora origine contabilità.
 
-> [!NOTE]
-> A partire dalla versione 10.0.20, il pulsante **Aggiorna** fornisce due intervalli aggiuntivi per limitare la query iniziale eseguita per immettere dati nella pagina. Questi intervalli aggiuntivi sono disponibili anche nella versione 10.0.19 come aggiornamento del servizio. Sono stati aggiunti i seguenti campi:
->
-> - Da giustificativo, A giustificativo
-> - Da conto principale, A conto principale
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -2,27 +2,24 @@
 title: Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.12 (agosto 2020)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a210af5e37e12d883054d46719602604870213b4
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 89959095eb64c66e92c9d93d0a3f4caabe7d14bf7121683a7d35d3719a3e36ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4431452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728605"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.12 (agosto 2020)
 
@@ -36,25 +33,25 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](https://docs.microsoft.com/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
+Questa versione include le seguenti funzionalità. I titoli delle funzionalità si collegano a informazioni aggiuntive nel sito [Piani di rilascio](/dynamics365/release-plans/). Ulteriori collegamenti rimandano a documentazione o video aggiuntivi attualmente disponibili per quella funzione. La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
-- [Consentire il blocco del touchscreen della scheda processo per la disinfettazione](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Per ulteriori informazioni, vedere [Configurare la scheda processo per dispositivi](../production-control/config-job-card-device.md).
+- [Consentire il blocco del touchscreen della scheda processo per la disinfettazione](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Per ulteriori informazioni, vedere [Configurare la scheda processo per dispositivi](../production-control/config-job-card-device.md).
 
-- [Acquisire varianti di prodotto e dimensioni di tracciabilità nell'app di magazzino durante la ricezione degli articoli caricati](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Per ulteriori informazioni, vedere [Impostare i dispositivi mobili per il lavoro di magazzino](../warehousing/configure-mobile-devices-warehouse.md).
+- [Acquisire varianti di prodotto e dimensioni di tracciabilità nell'app di magazzino durante la ricezione degli articoli caricati](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Per ulteriori informazioni, vedere [Impostare i dispositivi mobili per il lavoro di magazzino](../warehousing/configure-mobile-devices-warehouse.md).
 
 - Livello di calcolo costi (nuovo livello DBA)<br> - Per ulteriori informazioni, vedere [Livello di calcolo costi](../cost-management/cost-calculation-level.md).
 
-- [Portale clienti per Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Per ulteriori informazioni, vedere [Panoramica del portale clienti per Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Portale clienti per Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Per ulteriori informazioni, vedere [Panoramica del portale clienti per Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
 
-- [Informazioni dettagliate di base di intelligenza IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Per ulteriori informazioni, vedere [Home page intelligence IoT](../iot/iot-intelligence-home-page.md).
+- [Informazioni dettagliate di base di intelligenza IoT](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Per ulteriori informazioni, vedere [Home page intelligence IoT](../iot/iot-intelligence-home-page.md).
 
-- [Miglioramenti alla ricezione della targa per l'app di magazzino (continua)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Per ulteriori informazioni, vedere [Ricevimento della targa tramite l'app di magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Miglioramenti alla ricezione della targa per l'app di magazzino (continua)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Per ulteriori informazioni, vedi [Ricezione della targa con l'app per dispositivi mobili Gestione magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Distribuzione di massa dell'app di magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Per ulteriori informazioni, vedere [Panoramica sull'installazione e sulla configurazione dell'app di magazzino](../warehousing/install-configure-warehousing-app.md).
+- [Distribuzione di massa dell'app di magazzino](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Per ulteriori informazioni, vedi [Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md).
 
-- [Tempo di esecuzione massimo per il processo di pulizia voci disponibili di gestione magazzino](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Per ulteriori informazioni, vedere [Processo di pulizia delle voci disponibili per la gestione del magazzino](../warehousing/onhand-cleanup.md).
+- [Tempo di esecuzione massimo per il processo di pulizia scorte disponibili di gestione magazzino](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Per ulteriori informazioni, vedere [Processo di pulizia delle voci disponibili per la gestione del magazzino](../warehousing/onhand-cleanup.md).
 
-- [Supporto di Ottimizzazione pianificazione per i contratti di acquisto commerciali](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Per ulteriori informazioni, vedere [Pianificazione generale con accordi commerciali di acquisto](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [Supporto di Ottimizzazione pianificazione per i contratti di acquisto commerciali](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Per ulteriori informazioni, vedere [Pianificazione generale con accordi commerciali di acquisto](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
@@ -70,7 +67,7 @@ Per informazioni sulle correzioni di bug incluse in ciascuno degli aggiornamenti
 
 Desideri sapere quali sono le funzionalità imminenti e rilasciate di recente nella nostra piattaforma o in una delle app aziendali?
 
-Consultare il [piano di rilascio della prima ondata 2020 di Dynamics 365](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Tutti i dettagli più completi sono stati raccolti in un unico documento utilizzabile per la pianificazione.
+Consultare il [piano di rilascio della prima ondata 2020 di Dynamics 365](/dynamics365-release-plan/2020wave1/index). Tutti i dettagli più completi sono stati raccolti in un unico documento utilizzabile per la pianificazione.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Funzionalità di Supply Chain Management rimosse e deprecate
 
@@ -82,3 +79,6 @@ L'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Mana
 Prima che qualsiasi funzionalità venga rimossa dal prodotto, l'avviso di deprecazione verrà annunciato nell'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mesi prima della rimozione.
 
 Per le modifiche significative che influiscono solo sui tempi di compilazione, ma che sono binari compatibili con sandbox e ambienti di produzione, il tempo di deprecazione sarà inferiore a 12 mesi. In genere, si tratta di aggiornamenti funzionali che è necessario apportare al compilatore.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

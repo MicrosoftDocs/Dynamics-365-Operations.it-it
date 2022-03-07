@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 174cbd85139db5cee75481041fb721dc7646ab66
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: d55767ef47e01edd11099f644134cfa48ea70e18
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913604"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675732"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Stampare le informazioni delle imposte sui documenti dell'ordine di trasferimento
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Questo argomento spiega come stampare le informazioni sulle imposte sui documenti dell'ordine di trasferimento. Puoi stampare il documento di fattura proforma di un ordine di trasferimento per i trasferimenti di magazzino considerati fornitura intracomunitaria e acquisizioni intracomunitarie ai sensi delle normative dell'imposta sul valore aggiunto (IVA) dell'Unione europea (UE). 
 

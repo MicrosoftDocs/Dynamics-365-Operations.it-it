@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074996"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7548349"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Creare e fatturare un ordine cliente interaziendale per un cliente esterno
 
@@ -75,18 +75,5 @@ Completare questi passaggi nella persona giuridica B. Questa procedura corrispon
 1. Selezionare l'ordine cliente, quindi selezionare **OK**.
 
 La fattura cliente per l'ordine cliente interaziendale viene registrata automaticamente nella persona giuridica B. La fattura fornitore interaziendale quindi verrà creata automaticamente e registrata nella persona giuridica A. Se l'ordine cliente originario è impostato come consegna diretta, la fattura cliente viene creata per l'ordine cliente originario nella persona giuridica A.
-
-> [!NOTE]
-> In precedenza, per gli scenari di vendita interaziendale, se il flusso di lavoro della fattura fornitore era configurato nella società acquirente interaziendale, l'ordine cliente interaziendale non poteva essere fatturato correttamente. Pertanto, è stato necessario disattivare il flusso di lavoro della fattura fornitore per la società acquirente interaziendale. 
-> 
-> Questa limitazione è stata corretta da una recente funzionalità nella versione 10.0.25. Gli ordini cliente interaziendali ora possono essere fatturati quando il flusso di lavoro della fattura fornitore è configurato nella società acquirente interaziendale.
-> 
-> Per abilitare questa funzionalità segui la procedura seguente.
->
-> 1. Seleziona la persona giuridica di vendite interaziendale.  
-> 2. Andare a **Contabilità clienti \> Clienti \> Tutti i clienti**.
-> 3. Selezionare il cliente per la società acquirente interaziendale.
-> 4. Vai a **Generale\> Imposta \> Interaziendale**.
-> 5. Nella scheda **Criteri ordine fornitore**, seleziona il parametro **Ignora flusso di lavoro per le fatture fornitore interaziendali**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

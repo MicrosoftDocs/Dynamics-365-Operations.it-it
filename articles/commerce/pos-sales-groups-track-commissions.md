@@ -2,15 +2,12 @@
 title: Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite
 description: È pratica comune nella vendita al dettaglio tenere traccia delle vendite di un assistente che ha lavorato con il cliente fornendo assistenza, eseguendo l'up-selling ed elaborando la transazione.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca77ad5564cc93e9fcf335b5a49548f91c7c13face41fd73477ae4083f78be57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770911"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Tenere traccia delle provvigioni nel POS utilizzando gruppi di vendite
 
@@ -45,7 +42,7 @@ Sono presenti una serie di impostazioni di profili di funzionalità per un punto
 <thead>
 <tr>
 <th>Profilo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -72,19 +69,22 @@ Sono presenti una serie di impostazioni di profili di funzionalità per un punto
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Visualizzazione delle informazioni relative al rappresentante sullo schermo delle transazioni POS
 
-Il layout e il contenuto dello schermo della transazione POS sono configurabili mediante la funzionalità di progettazione layout dello schermo e layout dello schermo assegnati a punti vendita, registratori di cassa o lavoratori.Il campo **Rappresentante** può essere aggiunto alla scheda Righe del riquadro Entrata.  Ciò visualizzerà l'ID del gruppo di vendite specificato per ogni riga sullo schermo di transazione.
+Il layout e il contenuto dello schermo della transazione POS sono configurabili mediante la funzionalità di progettazione layout dello schermo e layout dello schermo assegnati a punti vendita, registratori di cassa o lavoratori. Il campo **Rappresentante** può essere aggiunto alla scheda Righe del riquadro Entrata.  Ciò visualizzerà l'ID del gruppo di vendite specificato per ogni riga sullo schermo di transazione.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Aggiunta delle operazioni di un rappresentante alle griglie di pulsanti POS
 
 Il POS consente agli utenti di configurare griglie dei pulsanti, comprese nei layout dello schermo per fornire l'accesso alle operazioni POS. Le seguenti operazioni POS possono essere assegnate ai pulsanti della griglia di pulsanti relativi ai rappresentanti.
 
-| Operazione                                 | descrizione |
+| Operazione                                 | Descrizione |
 |-------------------------------------------|-------------|
-| Imposta rappresentante su riga          | L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita. Se si seleziona un gruppo di vendite dall'elenco, il valore verrà impostato sulla riga di transazione corrente. |
+| Imposta rappresentante su riga          | L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita. Se si seleziona un gruppo di vendite dall'elenco, il valore verrà impostato sulla riga di transazione corrente. |
 | Cancella rappresentante su riga        | L'operazione POS rimuove il valore del gruppo di vendite corrente della riga di transazione corrente. |
-| Impostare il rappresentante sulla transazione   | L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita. Se si seleziona un gruppo di vendite dall'elenco, il valore predefinito verrà impostato sulla transazione corrente. Tutte le righe esistenti senza un gruppo vendite assegnato verranno impostate nonché eventuali righe aggiunte successivamente. |
+| Impostare il rappresentante sulla transazione   | L'operazione POS visualizza un elenco di gruppi di vendite idonei (UD : Nome) per il punto vendita. Se si seleziona un gruppo di vendite dall'elenco, il valore predefinito verrà impostato sulla transazione corrente. Tutte le righe esistenti senza un gruppo vendite assegnato verranno impostate nonché eventuali righe aggiunte successivamente. |
 | Cancellare il rappresentante sulla transazione | Questa operazione POS rimuove il valore del gruppo di vendite predefiito corrente dalla transazione corrente. Non influisce sulle righe già esistenti nella transazione. |
 
 ## <a name="calculating-commissions"></a>Calcolo delle provvigioni
 
-La provvigione viene calcolata per i lavoratori nei gruppi di vendite specificati al momento della registrazione del rendiconto o dell'ordine cliente. Importo della provvigione viene determinato in base alla quota di provvigione del lavoratore, come definito nel gruppo vendite e nelle impostazioni di calcolo della provvigione associate per il cliente e/o i prodotti nella transazione.
+La provvigione viene calcolata per i lavoratori nei gruppi di vendite specificati al momento della registrazione del rendiconto o dell'ordine cliente. Importo della provvigione viene determinato in base alla quota di provvigione del lavoratore, come definito nel gruppo vendite e nelle impostazioni di calcolo della provvigione associate per il cliente e/o i prodotti nella transazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

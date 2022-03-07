@@ -2,23 +2,26 @@
 title: Conferma e trasferimento
 description: Questo argomento spiega come utilizzare la funzione di conferma e trasferimento, che consente agli utenti di spedire carichi dal magazzino prima di completare tutto il lavoro associato a tali carichi.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103591"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430915"
 ---
 # <a name="confirm-and-transfer"></a>Conferma e trasferimento
 
@@ -45,17 +48,20 @@ Quando le quantità rimanenti vengono annullate, tutte le quantità della riga d
 
 - Una o più righe di carico hanno quantità prelevate.
 - Lo stato del carico è inferiore a quello caricato.
-- Non ci sono dati sulla riga di carico. Questi dati vengono creati tramite il consolidamento della targa nell'ubicazione di gestione temporanea e la funzionalità Conferma e trasferisci non supporta il consolidamento della targa.
-- Nessun inventario è attualmente in attesa di imballaggio in un'ubicazione di imballaggio. (La funzionalità *Conferma e trasferisci* non supporta l'inventario che è stato prelevato nella stazione di imballaggio ma non è stato ancora imballato, a meno che i contenitori imballati non vengano posizionati in ubicazioni di gestione temporanea con il lavoro di carico creato).
+- Non ci sono dati sulla riga di carico. Questi dati vengono creati tramite il consolidamento della targa nell'ubicazione di gestione temporanea e la funzionalità *Conferma e trasferisci* non supporta il consolidamento della targa.
+- Nessun inventario è attualmente in attesa di imballaggio in un'ubicazione di imballaggio. La funzionalità *Conferma e trasferisci* non supporta le scorte prelevate presso la stazione di imballaggio ma che non sono state ancora imballate.
 
 > [!NOTE]
 > Questa funzionalità differisce dalla funzionalità del carico di trasporto, che dovrebbe essere utilizzata nei magazzini che non possono mai pianificare e creare carichi prima del prelievo, ma che invece caricano lo spazio di trasporto disponibile al termine del prelievo.
 >
 > Utilizza la funzionalità *Conferma e trasferisci* in situazioni in cui i carichi sono generalmente pianificati e creati in anticipo, ma a volte si verificano eccezioni in cui il carico non si adatta al trasporto disponibile (come un camion).
 
-## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Attivare o disattivare la funzionalità Conferma e trasferimento
+## <a name="turn-on-confirm-and-transfer"></a>Attivare Conferma e trasferisci
 
-Per utilizzare le funzionalità descritte in questo argomento, è necessario attivare la funzionalità *Conferma e trasferimento* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Conferma e trasferimento* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Prima di poter utilizzare la funzionalità *Conferma e trasferisci*, deve essere attivata nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione Magazzino*
+- **Nome funzionalità:** *Conferma e trasferisci*
 
 ## <a name="set-up-confirm-and-transfer"></a>Configurare Conferma e trasferisci
 
@@ -224,6 +230,3 @@ Puoi anche confermare che le relazioni di transazione sono state aggiornate nei 
 - L'opzione **Dividi quantità in un nuovo carico** funziona anche quando alcune delle rimanenti intestazioni di lavoro hanno uno stato di *In corso*. Pertanto, è ancora possibile utilizzare la funzionalità anche se i lavoratori stanno già eseguendo gli ordini di prelievo.
 - Se selezioni **Annulla quantità non soddisfatta** mentre è rimasto lavoro con uno stato di *Aperto* o *In corso*, viene visualizzato il seguente messaggio di errore: "Impossibile annullare la quantità rimanente per il carico. Lavoro esistente per il carico".
 - Se selezioni **Annulla quantità non soddisfatta** quando non vi sono lavori rimanenti ma sul carico sono presenti righe di carico non rilasciate, viene visualizzato il seguente messaggio di errore: "Impossibile confermare la spedizione per carico poiché la quantità per l'articolo supera la percentuale definita per la consegna in corso". Per evitare l'errore, puoi impostare la percentuale **In consegna** sulla riga di carico non rilasciata al 100 percento. Le righe non rilasciate non verranno spostate in un nuovo carico, ma il carico corrente verrà confermato con una consegna insufficiente. In questo caso, non sarà possibile rilasciare nuovamente l'ordine originale. Pertanto, dovrai gestirlo in qualche altro modo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

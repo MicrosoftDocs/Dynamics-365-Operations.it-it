@@ -2,26 +2,23 @@
 title: Limiti stoccaggio ubicazione
 description: Questo argomento descrive la funzionalità per i limiti di stoccaggio dell'ubicazione.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
-ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
+ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "4607281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714164"
 ---
 # <a name="location-stocking-limits"></a>Limiti stoccaggio ubicazione
 
@@ -84,7 +81,7 @@ In questo esempio, verrà eseguito un flusso di ricezione dell'ordine fornitore 
 
 Si riceve prima una quantità di *4* unità *PL* nella taglia *S* e rivedere le ubicazioni della riga di stoccaggio per il lavoro creato. Si riceve poi una quantità di *4* unità *PL* nella taglia *L* e rivedere le ubicazioni della riga di stoccaggio per il lavoro creato.
 
-1. Nell'app del magazzino accedere utilizzando *24* come ID utente e *1* come password.
+1. Nell'app per dispositivi mobili Gestione magazzino accedi utilizzando *24* come ID utente e *1* come password.
 1. Selezionare **In entrata** \> **Entrata acquisto**.
 1. Ricevere *4* *PL* del numero di articolo *D0013* nella taglia *S*.
 1. Rivedere il lavoro di stoccaggio che è stato creato. Si dovrebbero vedere i seguenti risultati:
@@ -104,3 +101,6 @@ Per spiegare questo apparente fallimento, è necessario comprendere i criteri di
 
 > [!NOTE]
 > Non è possibile utilizzare i limiti di stoccaggio dell'ubicazione per controllare, ad esempio, il rifornimento di articoli con quantità diverse nella stessa ubicazione. In questo caso, usare un *modello di rifornimento*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

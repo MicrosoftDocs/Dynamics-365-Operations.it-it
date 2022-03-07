@@ -1,33 +1,34 @@
 ---
 title: Creare calendari e generare orari di lavoro
-description: I calendari descrivono la capacità e gli orari di lavoro delle risorse operative. Questo articolo spiega come definire un calendario di lavoro in base a un modello di orario di lavoro.
-author: andreabichsel
-manager: AnnBe
-ms.date: 07/09/2019
+description: I calendari descrivono la capacità e gli orari di lavoro delle risorse operative. Questa argomento spiega come definire un calendario di lavoro in base a un modello di orario di lavoro.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace, WrkCtrGroupDateCalendar, WrkCtrDateCalendar
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5c630297a8962d1bb383110881b2acdc872b9cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d56e38edc00780ad16aaafdb501b8f5df49020f2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419123"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075251"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Creare calendari e generare orari di lavoro
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+> [!IMPORTANT]
+> La funzionalità indicata in questo argomento è attualmente disponibile per i clienti di Human Resources nell'infrastruttura finanziaria.  
 
 
-I calendari descrivono la capacità e gli orari di lavoro delle risorse operative. Questo articolo spiega come definire un calendario di lavoro in base a un modello di orario di lavoro. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.
+I calendari descrivono la capacità e gli orari di lavoro delle risorse operative. Questa argomento spiega come definire un calendario di lavoro in base a un modello di orario di lavoro. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati.
 
 1. Nella home page, selezionare **Gestione ciclo di vita risorse**.
 2. Selezionare **Calendari**.
@@ -35,7 +36,7 @@ I calendari descrivono la capacità e gli orari di lavoro delle risorse operativ
 4. Nel campo **Calendario**, classificare il calendario. Si tratta dell'ID del calendario, utilizzato come riferimento quando si assegnano i calendari, ad esempio a una risorsa operativa o un gruppo di risorse.  
 5. Nel campo **Nome** immettere un nome per il calendario.
 6. Nel campo **Giorno lavorativo standard in ore**, immettere un numero.
-7. Verificare che la riga è selezionato, quindi selezionare **Orari di lavoro** nel riquadro azioni.
+7. Verificare che la riga è selezionato, quindi selezionare **Orari di lavoro** nel **riquadro azioni**.
 8. Selezionare **Componi orari di lavoro**. Generare le ore lavorative per ogni giorno del periodo in cui si desidera poter programmare il lavoro. Col passare al tempo, è possibile generare gli orari di lavoro per periodi aggiuntivi.  
 9. Immettere una data nel campo **Dal**. Questo è il primo giorno in cui il calendario deve essere aperto.  
 10. Nel campo **Al** immettere una data. Questo è l'ultimo giorno in cui il calendario è aperto.  
@@ -43,3 +44,6 @@ I calendari descrivono la capacità e gli orari di lavoro delle risorse operativ
 12. Selezionare **OK**.
 13. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

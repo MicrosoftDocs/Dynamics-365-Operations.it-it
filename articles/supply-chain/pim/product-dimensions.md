@@ -2,16 +2,13 @@
 title: Dimensioni prodotto
 description: 'Esistono cinque dimensioni prodotto: colore, configurazione, dimensioni, stile e versione. Le dimensioni prodotto si combinano nei gruppi di dimensioni che si assegnano alle rappresentazioni generali prodotto. Le combinazioni di dimensioni prodotto determinano come si definiscono le varianti prodotto.'
 author: t-benebo
-manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 680d5ed929a396bfb2d3c7f05351ab6c93d29256c825c618cb166aac444aa5d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726899"
 ---
 # <a name="product-dimensions"></a>Dimensioni prodotto
 
@@ -107,7 +104,7 @@ In fase di verifica delle soluzioni per la compatibilità con la dimensione dell
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Mappe:** se una mappa utilizza le dimensioni dell'inventario, il mapping della relazione corrispondente a queste mappe deve essere aggiornato in modo da includere la dimensione della versione. Nel modello esteso o nelle estensioni della tabella, cercare le tabelle in cui i campi includono dimensioni dell'inventario.
-1. **Funzionalità di Microsoft Dynamics 365 Commerce:** dopo l'abilitazione, la dimensione della versione verrà visualizzata attraverso codice specifico di Commerce in Dynamics 365 Supply Chain Management. Tuttavia, la dimensione della versione non è ancora supportata dal database del canale di Commerce o nelle applicazioni POS o e-Commerce. Queste applicazioni specifiche di Commerce non supporteranno gli utenti che vendono/spediscono o restituiscono/ricevono inventario in base alla dimensione della versione. Le funzioni di ricerca della disponibilità di scorte non distinguono l'inventario in base alla dimensione della versione nelle app Commerce. Questo comportamento è simile al comportamento corrente della dimensione di configurazione in Commerce.
+1. **Funzionalità di Microsoft Dynamics 365 Commerce:** dopo l'abilitazione, la dimensione della versione verrà visualizzata attraverso il codice specifico di Commerce in Dynamics 365 Supply Chain Management. Tuttavia, la dimensione della versione non è ancora supportata dal database del canale di Commerce o nelle applicazioni POS o e-Commerce. Queste applicazioni specifiche di Commerce non supporteranno gli utenti che vendono/spediscono o restituiscono/ricevono inventario in base alla dimensione della versione. Le funzioni di ricerca della disponibilità di scorte non distinguono l'inventario in base alla dimensione della versione nelle app Commerce. Questo comportamento è simile al comportamento corrente della dimensione di configurazione in Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Abilitare la dimensione della versione
 
@@ -122,7 +119,7 @@ Prima di poter utilizzare la dimensione della versione, è necessario attivarla 
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Aree in cui la dimensione della versione non è supportata
 
-Le seguenti aree non supportano la dimensione della versione, perché l'introduzione di questa dimensione provocherebbe modifiche che causano un'interruzione:
+Le seguenti aree non supportano la dimensione della versione (puoi comunque utilizzare queste aree, ma non sarai in grado di aggiungere prodotti con versione (prodotti in cui viene utilizzata la dimensione della versione) ad esse). Ad esempio, non è possibile aggiungere un articolo con versione a un catalogo del fornitore. Questo perché l'aggiunta di prodotti con la dimensione della versione a queste aree causerebbe modifiche sostanziali.
 
 - Istruzione mensile oggetto di costo
 - Cache rendiconti degli oggetti di costo
@@ -146,3 +143,6 @@ La dimensione della versione funziona come le altre dimensioni del prodotto. Tut
 
 > [!IMPORTANT]
 > Se attivi e utilizzi la dimensione della versione, alcune soluzioni che fanno riferimento alle dimensioni dell'inventario potrebbero smettere di funzionare come previsto. Per confermare e risolvere questi problemi, contattare il fornitore di software indipendente (ISV) per le soluzioni interessate. Per ulteriori informazioni, vedere [Abilitare la dimensione della versione](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

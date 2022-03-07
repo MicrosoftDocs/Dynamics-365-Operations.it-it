@@ -2,15 +2,12 @@
 title: Spedire ordine da un altro punto vendita usando la funzionalità Addebita invio
 description: In questo argomento viene descritta la funzionalità Addebita invio.
 author: ashishmsft
-manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c9c435c9ef8f692551a216d72a76f8a71b4ce6dc03dc6b13c23364a0aa81662
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413447"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746701"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Spedire ordine da un altro punto vendita usando la funzionalità Addebita invio
 
@@ -42,3 +39,6 @@ La funzionalità Addebita invio utilizza le seguenti operazioni POS: Spedisci tu
 La funzionalità di selezione degli indirizzi di "spedizione" rimane invariata.
 
 I metodi di spedizione che possono essere utilizzati per evadere la riga dell'ordine sono basati sulla configurazione delle modalità di consegna valide per prodotti e indirizzi. Poiché le regole sulle modalità di consegna valide vengono gestite solo in Headquarters (HQ), il client POS esegua una chiamata in tempo reale per recuperare le modalità di consegna valide per una riga di spedizione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Regola Rilascia in magazzino
 description: Questo argomento fornisce informazioni sulla funzionalità della regola Rilascia in magazzino, che offre flessibilità durante il rilascio al magazzino. Aggiunge un'opzione di configurazione che controlla se il sistema consente il rilascio di righe ordine parzialmente prenotate.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 2fbc292ccf8e1f459bef4d70b8c37b2da8c3dd17
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430942"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580026"
 ---
 # <a name="release-to-warehouse-rule"></a>Regola Rilascia in magazzino
 
@@ -131,3 +128,6 @@ Questo scenario mostra come funziona la funzionalità per i magazzini impostati 
 
 > [!NOTE]
 > Lo stesso risultato è previsto quando la seconda riga è parzialmente prenotata. In questo caso, il lavoro verrà creato per la quantità di riga prenotata ma non per la quantità senza prenotazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

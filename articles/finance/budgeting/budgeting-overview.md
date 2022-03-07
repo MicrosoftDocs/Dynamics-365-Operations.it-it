@@ -1,28 +1,28 @@
 ---
 title: Home page di impostazione del budget
 description: In questo argomento viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione del budget e delle funzionalità di creazione di report in Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
-ms.topic: index-page
+author: panolte
+ms.date: 04/29/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962912"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983954"
 ---
 # <a name="budgeting-home-page"></a>Home page di impostazione del budget
 
@@ -30,12 +30,11 @@ ms.locfileid: "4962912"
 
 In questo argomento viene fornita una panoramica dei componenti della funzionalità e degli strumenti di impostazione budget e delle funzionalità di creazione di report. 
 
-<a name="components-of-budgeting-functionality"></a>Componenti della funzionalità di impostazione del budget
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Componenti della funzionalità di impostazione del budget
 
 Il ciclo di pianificazione delle risorse per un'azienda consiste generalmente nelle attività di pianificazione, impostazione del budget e previsione.
 
-[![Componenti della funzionalità di impostazione del budget](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Componenti della funzionalità di impostazione del budget.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 I processi per la pianificazione strategica a lungo termine e per la pianificazione del budget annuale sono supportati tramite un documento di piano di budget. I documenti del piano di budget sono strettamente integrati con Microsoft Excel. Gli utenti possono configurare scenari quantitativi e monetari illimitati e possono definire anche una gerarchia organizzativa di impostazione del budget per supportare i metodi di impostazione del budget dall'alto verso il basso e dal basso verso l'alto. Dopo aver definito e approvato un budget nell'applicazione, è possibile convertire il piano di budget in una voce del registro di budget. Le voci del registro di budget forniscono gli strumenti per la gestione del budget e per il tracciamento degli importi tramite i codici budget. Le voci del registro di budget consentono di rivedere i budget originali, eseguire trasferimenti e riportare gli importi di budget dall'anno precedente. Sulla base del budget determinato, una società può abilitare il controllo del budget. Il livello del controllo dipende dalle impostazioni cultura e dal livello di maturità dell'organizzazione. Le organizzazioni con un basso livello di maturità potrebbero lasciare il budget "così come è" e potrebbero essere più reattive che proattive se un budget non soddisfa le aspettative. Altre organizzazioni potrebbero abilitare i criteri di controllo del budget che impediscono agli utenti di acquistare se i fondi di budget non sono disponibili.
 
@@ -49,7 +48,7 @@ Infine, le organizzazioni con un alto livello di maturità potrebbero definire u
 -   [Modelli di pianificazione del budget per Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Strumenti di impostazione del budget
-[![Strumenti di impostazione del budget](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Strumenti di impostazione del budget.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Sono disponibili ulteriori funzionalità di pianificazione e impostazione del budget integrate nei budget di contabilità generale.
 
@@ -70,3 +69,6 @@ Ad esempio, è possibile definire chi si occupa dell'impostazione del budget, co
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

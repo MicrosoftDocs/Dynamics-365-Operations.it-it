@@ -2,7 +2,7 @@
 title: Destinazioni dei report elettronici
 description: Questo argomento fornisce informazioni sulla gestione delle destinazioni di report elettronici, i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647095"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893606"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici
 
@@ -62,7 +62,7 @@ Se si imposta l'opzione **Elaborazione batch** su **Sì**, un formato ER viene e
 > [!NOTE]
 > La descrizione mansione informa l'utente dell'esecuzione di un mapping di formato ER. Include inoltre il nome del componente ER eseguito.
 
-[![Esecuzione di un formato ER.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![Esecuzione di un formato ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 È possibile trovare informazioni su questo processo in diversi luoghi:
 
@@ -74,17 +74,17 @@ Se si imposta l'opzione **Elaborazione batch** su **Sì**, un formato ER viene e
 
 - Nella pagina **Processi di creazione report elettronici** selezionare **Mostra file** per visualizzare l'elenco di eventuali errori e avvisi generati durante l'esecuzione del lavoro.
 
-    [![Revisione dell'elenco dei processi ER.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![Revisione dell'elenco dei processi ER](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Comportamento configurato dall'utente
 
 Nella pagina **Destinazione report elettronici**, è possibile ignorare il comportamento predefinito per una configurazione. Le configurazioni importate non sono visualizzate in questa pagina fino a quando non si seleziona **Nuovo** e, quindi, nel campo **Riferimento** si seleziona una configurazione per cui creare le impostazioni di destinazione.
 
-[![Selezione di una configurazione nel campo Riferimento.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Selezione di una configurazione nel campo Riferimento](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Dopo aver creato un riferimento, è possibile creare una destinazione del file per ogni componente di output **Cartella** o **File** del formato ER a cui si fa riferimento.
 
-[![Creazione di una destinazione file.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Creazione di una destinazione file](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Successivamente, è possibile abilitare e disabilitare singole destinazioni per la destinazione file nella finestra di dialogo **Impostazioni destinazione**. Il pulsante **Impostazioni** consente di controllare tutte le destinazioni per una destinazione file selezionata. Nella finestra di dialogo **Impostazioni destinazione** è possibile controllare separatamente ogni destinazione impostando la relativa opzione **Abilitato**.
 
@@ -92,7 +92,7 @@ Nelle versioni di Finance **antecedenti alla versione 10.0.9**, è possibile cre
 
 Ad esempio, è possibile utilizzare questa funzionalità per configurare destinazioni di file per un componente di file utilizzato per generare un documento in uscita in formato Excel. Una destinazione ( [Archivio](er-destination-type-archive.md)) può essere configurata per memorizzare il file Excel originale nell'archivio dei processi ER e un'altra destinazione ([E-mail ](er-destination-type-email.md)) può essere configurata per [convertire](#OutputConversionToPDF) simultaneamente il file Excel in formato PDF e inviare il file PDF via posta elettronica.
 
-[![Configurazione di più destinazioni per un singolo elemento di formato.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Configurazione di più destinazioni per un singolo elemento di formato](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 Quando si esegue un formato ER, vengono sempre eseguite tutte le destinazioni configurate per i componenti del formato. Inoltre, in Finance **versione 10.0.17 e successive**, la funzionalità delle destinazioni ER è stata migliorata e ora consente di configurare diversi set di destinazioni per un unico formato ER. Questa configurazione contrassegna ogni set come configurato per una particolare azione utente. L'API ER è stata [estesa](er-apis-app10-0-17.md) in modo che possa essere fornita un'azione che l'utente esegue eseguendo un formato ER. Il codice azione fornito viene passato alle destinazioni ER. È possibile eseguire diverse destinazioni di un formato ER, a seconda del codice azione fornito. Per ulteriori informazioni, vedere [Configurare destinazioni ER dipendenti dall'azione](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ Le seguenti destinazioni sono attualmente supportate per i formati ER. È possib
 
 Quando si configurano destinazioni di file per un formato selezionato, le si configura per l'intero formato.
 
-[![Collegamento Configurazione.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Collegamento Configurazione](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 Allo stesso tempo, si potrebbero avere più [versioni ](general-electronic-reporting.md#component-versioning) del formato che è stato importato nell'istanza corrente di Finance. È possibile visualizzarle selezionando il collegamento **Configurazione** che risulta disponibile quando si seleziona il campo **Riferimento**.
 
-[![Versioni di configurazione.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Versioni di configurazione](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Per impostazione predefinita, le destinazioni configurate vengono applicate quando si esegue una versione del formato ER il cui stato è **Completato** o **Condiviso**. Tuttavia, a volte è necessario utilizzare destinazioni configurate quando viene eseguita la versione bozza di un formato ER. Ad esempio, si modifica una versione bozza del proprio formato e si desidera utilizzare destinazioni configurate per testare la modalità di consegna dell'output generato. Seguire questi passaggi per applicare le destinazioni per un formato ER quando viene eseguita la versione bozza.
 
@@ -128,7 +128,7 @@ Per impostazione predefinita, le destinazioni configurate vengono applicate quan
 2. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
 3. Impostare l'opzione **Usa destinazioni per lo stato bozza** su **Sì**.
 
-[![Opzione Usa destinazioni per lo stato bozza.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Opzione Usa destinazioni per lo stato bozza](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare il formato ER di conseguenza.
 
@@ -136,11 +136,11 @@ Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare 
 2. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
 3. Impostare l'opzione **Esegui impostazione** su **Sì**.
 
-[![Opzione Esegui impostazione.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Opzione Esegui impostazione](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Dopo aver completato questa configurazione, l'opzione **Esegui bozza** diventa disponibile per i formati ER modificati. Impostare questa opzione su **Sì** per iniziare a utilizzare la versione bozza del formato quando questo viene eseguito.
 
-[![Opzione Esegui bozza.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Opzione Esegui bozza](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Gestione degli errori di destinazione
 
@@ -148,7 +148,7 @@ Di solito, un formato ER viene eseguito nell'ambito di un processo aziendale spe
 
 Ad esempio, si configura l'elaborazione dei pagamenti fornitore in modo che il formato ER **Bonifico ISO20022** venga eseguito per generare il file di pagamento e documenti supplementari (ad esempio, la lettera di accompagnamento e il report di controllo). Se un pagamento deve essere considerato come correttamente elaborato solo se la lettera di accompagnamento viene recapitata correttamente tramite posta elettronica, è necessario selezionare la casella di controllo **Interrompi elaborazione in caso di errore** per il componente **CoveringLetter** nella destinazione file appropriata, come mostrato nella figura seguente. In questo caso, lo stato del pagamento selezionato per l'elaborazione passerà da **Nessuno** a **Inviato** solo quando la lettera di accompagnamento generata viene accettata correttamente per la consegna da un provider di posta elettronica configurato nell'istanza di Finance.
 
-[![Configurazione della gestione dei processi per le destinazioni di file con errori.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Configurazione della gestione dei processi per le destinazioni di file con errori](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Se si disabilita la casella di controllo **Interrompi elaborazione in caso di errore** per il componente **CoveringLetter** nella destinazione, un pagamento verrà considerato come elaborato correttamente anche se la lettera di accompagnamento non è stata consegnata correttamente tramite posta elettronica. Lo stato del pagamento passerà da **Nessuno** a **Inviato** anche se la lettera di accompagnamento non può essere inviata perché, ad esempio, l'indirizzo e-mail del destinatario o del mittente risulta mancante o è errato.
 
@@ -160,16 +160,16 @@ Se si disabilita la casella di controllo **Interrompi elaborazione in caso di er
 
 Per rendere disponibile l'opzione di conversione PDF nell'istanza corrente, di Finance, aprire l'area di lavoro **Gestione funzionalità** e attivare la funzionalità **Converti documenti in uscita ER da formati Microsoft Office in PDF**.
 
-[![Attivazione della funzionalità di conversione PDF di documenti in uscita in Gestione funzionalità.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![Attivazione della funzionalità di conversione PDF di documenti in uscita in Gestione funzionalità](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Applicabilità
 
-Nelle versioni di Finance **antecedenti alla versione 10.0.18**, l'opzione di conversione PDF può essere abilitata solo per i componenti **Excel\\File** utilizzati per generare output in formato Office (Excel o Word). Quando questa opzione è attivata, l'output generato in formato Office viene automaticamente convertito in formato PDF. Tuttavia, nella **versione 10.0.18 e successive**, è anche possibile attivare questa opzione per i componenti di tipo **Comune\\File**.
+L'opzione di conversione PDF può essere attivata solo per i componenti di file utilizzati per generare l'output in formato Office (Excel o Word) (**file Excel**). Quando questa opzione è attivata, l'output generato in formato Office viene automaticamente convertito in formato PDF. Nelle versioni di Finance **antecedenti alla versione 10.0.18**, è possibile attivare questa opzione solo per i componenti di tipo **Excel\\File** utilizzati per generare output in formato [Excel](er-fillable-excel.md) o [Word](er-design-configuration-word.md). Tuttavia, nella **versione 10.0.18 e successive**, è anche possibile attivare questa opzione per i componenti di tipo **Comune\\File**.
 
 > [!NOTE]
 > Prestare attenzione al messaggio di avviso visualizzato quando si attiva l'opzione di conversione PDF per un componente ER di tipo **Comune\\File**. Questo messaggio indica che non esiste alcun modo di garantire, in fase di progettazione, che il componente file selezionato esporrà il contenuto in formato PDF o il contenuto convertibile in PDF in fase di runtime. Pertanto, è necessario attivare l'opzione solo se si è certi che il componente file selezionato è stato configurato per esporre il contenuto in formato PDF o il contenuto convertibile in PDF in fase di runtime.
 > 
-> Se si attiva l'opzione di conversione PDF per un componente di formato, se quel componente espone il contenuto in un formato diverso da PDF e se il contenuto esposto non può essere convertito in formato PDF, si verificherà un'eccezione in fase di runtime. Il messaggio che si riceve indica che il contenuto generato non può essere convertito in formato PDF.
+> Se si attiva l'opzione di conversione PDF per un componente di tipo **Excel\\File**, se quel componente espone il contenuto in un formato diverso da PDF e se il contenuto esposto non può essere convertito in formato PDF, si verificherà un'eccezione in fase di runtime. Il messaggio che si riceve indica che il contenuto generato non può essere convertito in formato PDF.
 
 ### <a name="limitations"></a>Limiti
 
@@ -185,58 +185,20 @@ Solo i caratteri di sistema comuni del sistema operativo Windows vengono utilizz
 
 Per attivare la conversione PDF per una destinazione file, selezionare la casella di controllo **Converti in PDF**.
 
-[![Attivazione della conversione PDF per una destinazione file.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![Attivazione della conversione PDF per una destinazione file](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Selezionare un orientamento di pagina per la conversione PDF</a>
 
-Se si genera una configurazione ER in formato Excel e si desidera convertirla in formato PDF, è possibile specificare esplicitamente l'orientamento della pagina del documento PDF. Quando si seleziona la casella di controllo **Converti in PDF** per attivare la conversione PDF per una destinazione di file che produce un file di output in formato Excel, il campo **Orientamento pagina** diventa disponibile nella scheda dettaglio **Impostazioni di conversione PDF**. Nel campo **Orientamento pagina**, selezionare l'orientamento preferito.
+Se si genera una configurazione ER in formato Excel e si desidera convertirla in formato PDF, è possibile specificare l'orientamento della pagina del documento PDF. Quando si seleziona la casella di controllo **Converti in PDF** per attivare la conversione PDF per una destinazione di file che produce un file di output in formato Excel, il campo **Orientamento pagina** diventa disponibile nella scheda dettaglio **Impostazioni di conversione PDF**. Nel campo **Orientamento pagina**, selezionare l'orientamento preferito.
 
-[![Selezione di un orientamento di pagina per la conversione PDF.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![Selezione di un orientamento di pagina per la conversione PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-Per avere la possibilità di selezionare l'orientamento della pagina PDF, installare Finance versione 10.0.10 o successiva. Nelle versioni di Finance **prima della versione 10.0.23**, questa opzione offre le seguenti opzioni di orientamento della pagina:
-
-- Verticale
-- Orizzontale
-
-L'orientamento della pagina selezionato viene applicato a tutte le pagine di un documento in uscita che vengono generate in formato Excel e quindi convertite in formato PDF.
-
-Tuttavia, nella **versione 10.0.23 e successive**, l'elenco delle opzioni di orientamento della pagina è stato ampliato come segue:
-
-- Verticale
-- Orizzontale
-- Specifico del foglio di lavoro
-
-Quando si seleziona l'opzione **Specifico del foglio di lavoro**, ogni foglio di lavoro di una cartella di lavoro Excel generato viene convertito in PDF utilizzando l'orientamento della pagina che è stato configurato per questo foglio di lavoro nel modello Excel utilizzato. Quindi, potresti avere un documento PDF finale contenente pagine verticali e orizzontali. 
-
-Se una configurazione ER in formato Word viene convertita in formato PDF, l'orientamento della pagina del documento PDF viene sempre preso dal documento Word.
-
-## <a name="output-unfolding"></a>Apertura dell'output
-
-Quando si configura una destinazione per il componente **Cartella** del formato ER, è possibile specificare come l'output di quel componente viene recapitato alla destinazione configurata.
-
-### <a name="make-output-unfolding-available"></a>Rendere disponibile l'apertura dell'output
-
-Per rendere disponibile l'opzione di apertura dell'output nell'istanza corrente di Finance, apri l'area di lavoro **Gestione funzionalità** e attiva la funzionalità **Consenti la configurazione delle destinazioni ER per inviare il contenuto delle cartelle come file separati**.
-
-### <a name="applicability"></a>Applicabilità
-
-L'opzione di apertura dell'output può essere configurata solo per i componenti di formato di tipo **Cartella**. Quando inizi a configurare un componente **Cartella**, la scheda Dettaglio **Generale** diventa disponibile nella pagina **Destinazione di creazione di report elettronici**. 
-
-### <a name="use-the-output-unfolding-option"></a>Utilizzare l'opzione di apertura dell'output
-
-Nella Scheda dettaglio **Generale**, nel campo **Invia cartella come**, seleziona uno dei seguenti valori:
-
-- **Archivio ZIP**: recapita un file generato come file zip.
-- **File separati**: recapita ogni file di un file zip generato come un singolo file.
-
-    > [!NOTE]
-    > Quando selezioni **File separati**, l'output generato viene raccolto in memoria in uno stato compresso. Pertanto, il [limite di dimensione del file](er-compress-outbound-files.md) massimo viene applicato per l'output compresso quando la dimensione reale del file potrebbe superare questo limite. Si consiglia di selezionare questo valore quando si prevede che anche la dimensione dell'output generato sia abbastanza grande.
-
-[![Configurazione di una destinazione per un componente formato cartella.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
-
-### <a name="limitations"></a>Limiti
-
-Se imposti il campo **Invia cartella come** su **File separati** per un componente **Cartella** che contiene altri componenti **Cartella**, l'impostazione non viene applicata in modo ricorsivo ai componenti **Cartella**.
+> [!NOTE]
+> Per avere la possibilità di selezionare l'orientamento della pagina PDF, è necessario installare Finance versione 10.0.10 o successiva.
+>
+> L'orientamento della pagina selezionato viene applicato a tutte le configurazioni ER che vengono generate in formato Excel e quindi convertite in formato PDF.
+>
+> Se una configurazione ER in formato Word viene convertita in formato PDF, l'orientamento della pagina del documento PDF viene preso dal documento Word.
 
 ## <a name="security-considerations"></a>Considerazioni sulla sicurezza
 

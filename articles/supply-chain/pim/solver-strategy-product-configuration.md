@@ -2,16 +2,13 @@
 title: Strategia risolutore per la configurazione prodotto
 description: In questo argomento viene descritto come utilizzare la strategia risolutore per ottimizzare le prestazioni della configurazione prodotto.
 author: cvocph
-manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb0fc054e0feec4c54c0bd916e01ce3a2a4cd903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 38755cc224ee2ae642d3caf7ad8ffea61f987206efc3ecd2ef81ecaf21cd6f4e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765980"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Strategia risolutore per la configurazione prodotto
 
@@ -53,7 +50,7 @@ Gli studi di implementazione dei clienti effettivi hanno dimostrato che una modi
 
 Per modificare la strategia risolutore, nella pagina **Modelli di configurazione prodotto**, nel riquadro azioni, selezionare **Proprietà di modelli**. Quindi, nella finestra di dialogo **Modifica i dettagli del modello**, selezionare una strategia risolutore.
 
-[![Modificare la strategia risolutore](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Modificare la strategia risolutore.](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Attualmente non esiste una logica che rilevi automaticamente quale strategia risolutore sarà la strategia più efficiente per la configurazione del prodotto basata su vincoli. Pertanto, è necessario provare le strategie risolutore una ad una.
 
@@ -73,3 +70,6 @@ Nella tabella seguente vengono fornite indicazioni sulla strategia risolutore da
 [Euristica](https://techterms.com/definition/heuristic)
 
 [Problema di soddisfacimento di vincoli (CSP, Constraint Satisfaction Problem)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

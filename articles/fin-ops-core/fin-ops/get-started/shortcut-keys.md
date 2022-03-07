@@ -1,8 +1,8 @@
 ---
 title: Tasti di scelta rapida
-description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app per finanza e operazioni.
+description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app Finance and Operations.
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119554"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800195"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
-I tasti di scelta rapida semplificano in modo efficiente e veloce l'immissione dei dati nelle app per la finanza e le operazioni. 
+I seguenti tasti di scelta rapida semplificano in modo efficiente e veloce l'immissione dei dati nelle app Finance and Operations.
 
 > [!NOTE]
 > I tasti di scelta rapida descritti fanno riferimento al layout di tastiera degli Stati Uniti. È possibile che i tasti di altri layout di tastiera non corrispondano a quelli indicati di seguito.
@@ -37,11 +35,11 @@ Alcuni dei tasti di scelta rapida in questa pagina sono *accordi chiave*, nel se
 
 ## <a name="finding-a-shortcut"></a>Individuazione di un collegamento
 
-Gli utenti possono trovare i collegamenti attualmente disponibili direttamente dall'interfaccia utente. Fare semplicemente clic con il pulsante destro del mouse su un controllo e selezionare **Visualizza collegamenti**. Verrà visualizzata una finestra di dialogo contenente i collegamenti da utilizzare in base alla posizione in cui ci si trova nella pagina. In alternativa, puoi premere Alt+Maiusc+K per aprire questa finestra di dialogo (e premere Alt+Maiusc+K una seconda volta per vedere tutte le scelte rapide attualmente disponibili per la pagina).    
+Dall'aggiornamento della piattaforma 11, gli utenti possono trovare i collegamenti attualmente disponibili direttamente dall'interfaccia utente. Fare semplicemente clic con il pulsante destro del mouse su un controllo e selezionare **Visualizza collegamenti**. Verrà visualizzata una finestra di dialogo contenente i collegamenti da utilizzare in base alla posizione in cui ci si trova nella pagina.
 
 ## <a name="action-shortcuts"></a>Tasti di scelta rapida per azioni
 
-| Azione                                      | Premere                            |
+| Azione                                      | Tasti di premere                            |
 |-------------------------------------------------|----------------------------------|
 | Aprire la ricerca di azioni                              | CTRL + o ALT + Q                  |
 | Spostarsi nel riquadro azioni standard                | ALT + M,A o CTRL + F6               |
@@ -152,7 +150,6 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Eseguire l'azione predefinita in una griglia<blockquote>[!NOTE] Questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.</blockquote> | INVIO                           |
 | Alternare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT + MAIUSC + H                     |
 | Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |
-| Sposta la colonna corrente nella posizione successiva/precedente (con lo stato attivo nella riga di intestazione)                                   | CTRL + MAIUSC+ Freccia DESTRA/CTRL + MAIUSC + Freccia SINISTRA |
 | Aprire il filtro griglia per la colonna corrente (con stato attivo nella riga di intestazione)                                              | INVIO                           |
 | Ridimensiona la colonna corrente per adattarla al contenuto (con lo stato attivo nella riga di intestazione)                                           | A (o fare doppio clic sulla maniglia di ridimensionamento della colonna) |
 
@@ -256,14 +253,10 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Espandere/comprimere il messaggio pop-up animato (durante la riproduzione di una guida attività)              | ALT + R,C                    |
 | Mostrare più/meno informazioni nel messaggio popup animato (durante la riproduzione di una guida attività) | ALT + R,M                    |
 
-## <a name="focus-management"></a>Gestione dello stato attivo 
-La gestione dello stato attivo descrive come viene gestita lo stato attivo dell'utente in un'applicazione. Le app per la finanza e le operazioni hanno comportamenti di stato attivo specifici che hanno lo scopo di ottimizzare la produttività degli utenti, in particolare per gli scenari di immissione di dati. I comportamenti di stato attivo includono quanto segue:  
-
--  Quando una pagina viene caricata, il primo controllo di input modificabile nella pagina avrà lo stato attivo e può accettare immediatamente l'input dell'utente. Se non è presente alcun controllo di input modificabile nella pagina, l'opzione di fallback per lo stato attivo iniziale è il primo controllo di input nella pagina seguito dal primo controllo attivabile nella pagina.   
--  In genere, quando viene selezionato un pulsante, l'azione viene elaborata e lo stato attivo può tornare alla pagina. Quando ciò accade, lo stato attivo tende a tornare al controllo pulsante selezionato. Ciò è vero nelle app per la finanza e le operazioni **tranne** quando il pulsante si trova nel riquadro azioni o in una barra degli strumenti. In questi casi, al termine dell'azione, lo stato attivo torna all'ultimo controllo *al di fuori* del riquadro azioni (o nella barra degli strumenti) che era attivo prima della selezione del pulsante.
-
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Tasti di scelta rapida per l'analisi dei conti mancanti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

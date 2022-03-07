@@ -2,27 +2,24 @@
 title: Modulo Piè di pagina
 description: In questo argomento vengono descritti i moduli Piè di pagina e la procedura per crearli in Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2768317092f43862f26847c4b4c57f5929d43912
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413436"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346780"
 ---
 # <a name="footer-module"></a>Modulo Piè di pagina  
 
@@ -30,13 +27,11 @@ ms.locfileid: "4413436"
 
 In questo argomento vengono descritti i moduli Piè di pagina e la procedura per crearli in Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Panoramica
-
 Il modulo Piè di pagina è un contenitore speciale utilizzato per l'hosting dei moduli visualizzati nel piè di pagina. Ad esempio, può includere collegamenti a varie pagine del sito, ad esempio le pagine **Politiche del punto vendita** e **Contattaci**.
 
 L'immagine seguente mostra un esempio di modulo Piè di pagina in una pagina di sito.
 
-![Esempio di modulo Piè di pagina](./media/ecommerce-footer.PNG)
+![Esempio di modulo Piè di pagina.](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>Proprietà del modulo Piè di pagina 
 
@@ -87,3 +82,6 @@ Aggiungendo il frammento ai modelli di pagina, si assicura il rendering del piè
 [Modulo Intestazione](author-header-module.md)
 
 [Modulo Piè di pagina](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

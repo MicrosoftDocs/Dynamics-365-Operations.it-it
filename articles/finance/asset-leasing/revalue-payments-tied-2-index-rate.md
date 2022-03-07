@@ -2,25 +2,27 @@
 title: Rivalutare i canoni di leasing collegati a un tasso di indicizzazione
 description: In questo argomento viene descritta la rettifica effettuata per l'obbligazione sul leasing per un asset Right of use quando i canoni di leasing variabili cambiano a causa di una variazione del tasso di indicizzazione.
 author: moaamer
-ms.date: 01/11/2022
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseIndexRevaluation
+ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 2cbe54ad92aff2f8a85e47301635fe4b6819e9a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968054"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012063"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Rivalutare i canoni di leasing collegati a un tasso di indicizzazione
 
@@ -43,7 +45,7 @@ Segui questi passaggi per rivalutare i canoni di leasing collegati a un tasso di
 4. Seleziona i filtri per la selezione dei leasing da includere nell'elaborazione in background, quindi seleziona **OK**.
 
     Viene visualizzata la finestra di dialogo **Anteprima rivalutazione tasso di indicizzazione** che mostra i leasing che verranno rivalutati. Mostra anche le rettifiche di attività e passività o le rettifiche di pagamento variabile.
-
+    
 5. Per evitare che i leasing vengano rivalutati, seleziona i leasing che **dovrebbero** essere rivalutati. Se non selezioni alcun leasing, tutti i leasing verranno rivalutati. Al termine, seleziona **OK** per rivalutare i canoni di leasing.
 6. Per visualizzare le transazioni create per un processo di rivalutazione dell'indice specifico, seleziona l'ID processo, quindi seleziona **Transazioni**.
 
@@ -65,8 +67,3 @@ Per visualizzare gli effetti del processo di rivalutazione del leasing sui leasi
 È possibile visualizzare lo scadenziario pagamenti appena generato che inizia alla data di rivalutazione e mostrare l'importo totale del pagamento aggiornato. Sono stati inoltre creati un nuovo piano di ammortamento dell'obbligazione sul leasing e un piano di ammortamento dei cespiti per riflettere lo scadenziario dei pagamenti rettificato.
 
 La scrittura contabile ha registrato automaticamente la scrittura contabile di rettifica nel conto per la modifica dei canoni di leasing correlati alla rivalutazione dell'indice.
-
-> [!NOTE]
-> Se l'opzione **Suddivisione importo pagamento** è abilitata nella scheda dettaglio **Generale** della pagina **Dettagli leaseing** e il libro associato è l'IFRS 16, il processo di rivalutazione dell'indice aggiungerà automaticamente un record nella finestra di dialogo **Suddivisione importo pagamento**. L'importo rifletterà la modifica apportata al pagamento a causa della rivalutazione dell'indice. Il record verrà contrassegnato come **Utilizzato per rivalutazione indice IRFS 16**.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

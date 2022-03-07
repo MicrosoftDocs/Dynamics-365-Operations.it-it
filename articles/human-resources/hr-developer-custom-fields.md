@@ -2,15 +2,12 @@
 title: Campi personalizzati
 description: È possibile aggiungere campi personalizzati a pagine in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,25 +15,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 583e29d9b0bae34ffc2f519bb775b9e099682fe0
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 91e905f530b88bb568290550be4cc677633189b1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529556"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069556"
 ---
 # <a name="custom-fields"></a>Campi personalizzati
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-È possibile aggiungere campi personalizzati a pagine in Dynamics 365 Human Resources. Per ulteriori informazioni sulla creazione di campi personalizzati, vedere [Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-La maggior parte delle entità Common Data Service supporta i campi personalizzati. Per un elenco completo di entità Common Data Service, vedere [Entità Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Assicurarsi di abilitare tutti i campi personalizzati creati in modo da poterli utilizzare in Common Data Service. Per ulteriori informazioni, vedere [Esposizione di campi personalizzati in entità di dati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+
+
+È possibile aggiungere campi personalizzati a pagine in Dynamics 365 Human Resources. Per ulteriori informazioni sulla creazione di campi personalizzati, vedere [Creare e utilizzare campi personalizzati](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
+
+La maggior parte delle tabelle Dataverse supporta campi personalizzati. Per un elenco completo di tabelle Dataverse, vedi [Tabelle Dataverse](./hr-developer-entities.md). 
+
+Assicurarsi di abilitare tutti i campi personalizzati creati in modo da poterli utilizzare in Dataverse. Per ulteriori informazioni, vedere [Esposizione di campi personalizzati in entità di dati](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
 
 ## <a name="see-also"></a>Vedere anche
 
-[Entità Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
-[Creare e utilizzare campi personalizzati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
-[Esposizione di campi personalizzati in entità di dati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+[Tabelle Dataverse](./hr-developer-entities.md)</br>
+[Creare e utilizzare campi personalizzati](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[Esposizione di campi personalizzati in entità di dati](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

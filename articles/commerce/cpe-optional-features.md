@@ -2,27 +2,24 @@
 title: Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
 description: Questo argomento spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728293"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
 
@@ -134,19 +131,19 @@ Durante il rendering del messaggio di posta elettronica questi token verranno so
 
 I token seguenti si applicano a tutti gli ordini cliente.
 
-| Nome del token | Token  |
+| Nome del token | Token |
 |-------------------|-------|
 | Numero ordine      | %salesid% |
 | Nome cliente   | %customername% |
 | Indirizzo di consegna  | %deliveryaddress% |
-| Indirizzo di fatturazione   | %customeraddress% |
+| Indirizzo fatturazione   | %customeraddress% |
 | Data ordine        | %shipdate% |
 | Modalità di consegna     | %modeofdelivery% |
 | Sconto          | %discount% |
 | IVA         | %tax% |
 | Totale ordine       | %total% |
 
-#### <a name="sales-line"></a>Riga di vendita
+#### <a name="sales-line"></a>Riga di vendita 
 
 I seguenti token vengono sostituiti con i valori di ogni prodotto nell'ordine.
 
@@ -158,9 +155,9 @@ I seguenti token vengono sostituiti con i valori di ogni prodotto nell'ordine.
 | Elenco prodotti - Inizio   | \<!--%tablebegin.salesline% --\> |
 | Elenco prodotti - Fine     | \<!--%tableend.salesline%--\> |
 | Nome prodotto           | %lineproductname% |
-| descrizione            | %lineproductdescription% |
+| Descrizione            | %lineproductdescription% |
 | Quantità               | %linequantity% |
-| Riga prezzo unitario        | %lineprice% (verify) |
+| Riga prezzo unitario        | %lineprice% (verificare) |
 | Totale voci        | %linenetamount% |
 | Riga sconto          | %linediscount% |
 | Data di spedizione              | %lineshipdate% |
@@ -180,10 +177,13 @@ I seguenti token vengono sostituiti con i valori di ogni prodotto nell'ordine.
 
 [Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portale di Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sito Web di Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

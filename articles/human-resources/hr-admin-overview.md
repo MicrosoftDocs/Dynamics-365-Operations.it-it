@@ -1,8 +1,8 @@
 ---
-title: Panoramica
+title: Panoramica amministrazione
 description: Questa Guida per l'amministratore consente di configurare, gestire e risolvere i problemi relativi a Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f55977fc45424ea7e514a741f9dd7f8f9306b015
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527863"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466930"
 ---
-# <a name="overview"></a>Panoramica
+# <a name="administration-overview"></a>Panoramica amministrazione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +43,7 @@ Questa Guida per l'amministratore consente di configurare, gestire e risolvere i
 
 - Impostare l'integrazione dei dati
   - [Scegliere una tecnologia di integrazione dei dati](hr-admin-integration-choose-technology.md)
-  - [Configurare l'integrazione di Common Data Service](hr-admin-integration-common-data-service.md)
+  - [Configurare l'integrazione di Dataverse](hr-admin-integration-common-data-service.md)
   - [Configurare l'integrazione con Finance](hr-admin-integration-finance.md)
   - [Configurare l'integrazione con Dayforce](hr-admin-integration-dayforce.md)
   - [Creare un'app di esportazione dati ricorrente](hr-admin-integration-recurring-data-export.md)
@@ -102,3 +104,5 @@ Questa Guida per l'amministratore consente di configurare, gestire e risolvere i
 - [Novità o modifiche in Human Resources](hr-admin-whats-new.md)
 - [Guida per gli sviluppatori](hr-developer-overview.md)
 - [Manuale dell'utente](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Calcola carico di capacità
 description: In questo argomento viene descritto come calcolare il carico di capacità in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCapacityLoad, EntAssetWorkOrderCapacityLoadCalculate, EntAssetWorkOrderCapacityLoad
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5015955338a4cbc2b51585d6297756f20dccee8b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eed75cd5268b19d819d42e764bdbb5e6f4c79a0a732c5023b3fc40da798e2ca1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757880"
 ---
 # <a name="calculate-capacity-load"></a>Calcolare carico di capacità
 
@@ -56,8 +53,11 @@ Ciò è utile se si desidera ottenere una panoramica del carico di capacità pre
 
 7. Nei gruppi **Raggruppa per**, fare clic sui pulsanti appropriati per visualizzare il livello di dettagli necessario per il calcolo. Nel schermata di seguito, i pulsanti selezionati **Raggruppa per** sono evidenziati nel colore blu. Fare clic su un pulsante per attivarlo o disattivarlo.
 
-    ![Figura 1](media/01-capacity-planning.png)
+    ![Figura 1.](media/01-capacity-planning.png)
 
 >[!NOTE]
 >Se si desidera concentrarsi esclusivamente sulla pianificazione capacità in relazione agli ordini di lavoro programmati, vedere [Calcolare il carico di capacità in ordini di lavoro programmati](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

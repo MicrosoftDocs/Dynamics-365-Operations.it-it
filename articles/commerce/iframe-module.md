@@ -2,15 +2,12 @@
 title: Modulo iFrame
 description: In questo argomento viene descritto il modulo iFrame e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 7b397b91d1b8a45347ef2d05f42fb7c610ab3912
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665398"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797072"
 ---
-# <a name="iframe-module"></a>Modulo iFrame
+# <a name="iframe-module"></a>Modulo Iframe
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto il modulo iFrame e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Un modulo iFrame fornisce un iFrame (frame in linea) che ospita contenuti esterni su un sito. Ad esempio, può essere utilizzato per ospitare un video YouTube o un visualizzatore di file PDF in qualsiasi pagina del sito. 
 
@@ -46,7 +41,7 @@ L'immagine seguente mostra esempi di moduli iFrame che presentano video esterni 
 
 ## <a name="iframe-module-properties"></a>Proprietà del modulo iFrame
 
-| Nome proprietà             | Valore                 | descrizione |
+| Nome proprietà             | Valore                 | Descrizione |
 |---------------------------|-----------------------|-------------|
 | Intestazione | Testo | L'intestazione del modulo. |
 | URL destinazione | URL | L'URL ospitato nel modulo. |
@@ -77,3 +72,6 @@ Per aggiungere un modulo iFrame a una pagina per mostrare un video esterno, atte
 [Panoramica della libreria dei moduli](starter-kit-overview.md)
 
 [Gestire i criteri di sicurezza del contenuto (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,11 @@
 title: Stornare le transazioni di leasing registrate
 description: Questo argomento spiega come stornare una transazione di leasing registrata. Qualsiasi transazione creata tramite Leasing cespite può essere stornata.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseTransactions
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f76b75a968e9ee9a3c545f646077c16282b5b185aa88025653f7443fbcfd9581
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770667"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Stornare le transazioni di leasing registrate
 
@@ -55,3 +53,6 @@ Per revocare una transazione stornata, segui questi passaggi.
 Quando selezioni **Tracciatura di storno**, viene visualizzata una finestra di dialogo che mostra sia le transazioni originali che le transazioni stornate, insieme a un numero di traccia collegato.
 
 Puoi anche tenere traccia delle revoche utilizzando la pagina **Programmi** appropriata. Il campo **Storno** viene deselezionato, mentre il campo **Giornale di registrazione registrato** viene selezionato. Inoltre, il campo **Ultimo numero giornale di registrazione** viene aggiornato con il numero del giornale di registrazione della transazione di revoca e il campo **Numero giornale di registrazione** viene aggiornato con il numero di giornale di storno.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

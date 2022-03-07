@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9ad470d81d94a0af1c4c4dc6c5072354cfd96d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4e4ad3eb1f7c73d0b6671e2d1698d0647f6dbb93
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430850"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257245"
 ---
 # <a name="define-lean-schedule-groups"></a>Definire gruppi di produzione snella
 
@@ -56,3 +55,6 @@ I gruppi di programmazione snella sono definiti per raggruppare e distinguere i 
 3. Nel campo Chiave di allocazione articolo fare clic sul pulsante a discesa per aprire la ricerca.
 4. Nell'elenco fare clic sul collegamento nella riga selezionata.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

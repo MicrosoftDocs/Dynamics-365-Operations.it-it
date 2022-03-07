@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bab25988a9d4aad4d4e36fd9bdffbbf52473435e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259471"
 ---
 # <a name="base-price-and-trade-agreements"></a>Prezzo di base e accordi commerciali
 
@@ -70,3 +69,6 @@ In questa procedura vengono descritti i passaggi per creare accordi commerciali 
 38. Nel **riquadro azioni** fare clic su Vendi.
 39. Fare clic su **Prezzo di vendita**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

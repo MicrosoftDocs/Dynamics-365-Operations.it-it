@@ -1,28 +1,25 @@
 ---
 title: Pianificare i carichi e le spedizioni utilizzando il workbench di pianificazione del carico
 description: Questa argomento illustra come utilizzare il workbench di pianificazione del carico per creare un carico per un ordine cliente.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c37a98a3728cb1233a6e1207975a6b8f23f8120d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d641ece709d36d8f3ee29cde47918154835a5bb9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431528"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572939"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Pianificare i carichi e le spedizioni utilizzando il workbench di pianificazione del carico
 
@@ -50,7 +47,7 @@ Questa argomento illustra come utilizzare il workbench di pianificazione del car
 2. Selezionare la scheda **Righe di vendita**. Verrà creato il carico per l'ordine cliente creato. I carichi possono essere creati in base all'offerta e alla domanda da ordini fornitore, ordini di trasferimento e ordini cliente.  
 3. Nel riquadro azioni fare clic su **Domanda e offerta**.
 4. Selezionare **Al nuovo carico**.
-5. Nel campo **ID modello carico** fare clic sul pulsante a discesa per aprire la ricerca. Il modello di carico definisce le misure massime per il peso e il volume dell'intero carico. Ad esempio, il modello di carico può rappresentare la dimensione di un container o di un camion. Selezionare un articolo.
+5. Nel campo **ID modello carico** fare clic sul pulsante a discesa per aprire la ricerca. Il modello di carico definisce le misure massime per il peso e il volume dell'intero carico. Ad esempio, il modello di carico può rappresentare la dimensione di un contenitore o di un camion. Selezionare un articolo.
 6. Selezionare **OK**.
 
 ## <a name="rate-and-route-the-load"></a>Assegnare una tariffa e un percorso al carico
@@ -61,3 +58,6 @@ Questa argomento illustra come utilizzare il workbench di pianificazione del car
 5. Selezionare **Assegna**.
 6. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

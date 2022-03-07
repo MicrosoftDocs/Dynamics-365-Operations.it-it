@@ -2,26 +2,23 @@
 title: Rifornimento superiore alla capacità dell'ubicazione
 description: Questo argomento fornisce informazioni sulla funzionalità di rifornimento superiore alla capacità dell'ubicazione. Questa funzionalità consente a tutto il lavoro di rifornimento da eseguire obbligatoriamente durante la giornata di essere creato e gestisce la disponibilità di tale lavoro di rifornimento per garantire che l'ubicazione di prelievo non esaurisca le scorte né superi la capacità.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431538"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778209"
 ---
 # <a name="replenishment-over-location-capacity"></a>Rifornimento superiore alla capacità dell'ubicazione
 
@@ -35,7 +32,7 @@ La funzionalità consente di creare una quantità di lavoro di rifornimento supe
 
 Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in quest'ordine):
 
-1. Blocco lavoro a livello di organizzazione
+1. Blocco lavoro a livello di organizzazione (a partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
 1. Rifornimento superiore alla capacità dell'ubicazione
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurare la funzionalità per lo scenario di esempio
@@ -228,7 +225,7 @@ Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e a
 1. Nella sezione **Panoramica**, filtrare la colonna **Magazzino** per il magazzino *61*.
 1. Dovresti vedere che sono stati creati sette ID lavoro per i tre ordini cliente della domanda.
 
-    - Tre dei sette ID lavoro hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* e quattro hanno un valore **Tipo di ordine di lavoro** di *Ordini di vendita*.
+    - Tre dei sette ID lavoro hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* e quattro hanno un valore **Tipo di ordine di lavoro** di *Ordini cliente*.
     - Tutti e tre gli ID lavoro che hanno un valore **Tipo di ordine di lavoro** di *Rifornimento* hanno le stesse ubicazioni *Preleva* e *Inserisci* nella sezione **Righe**:
 
         - **Preleva:** *02A01R5S1B*
@@ -242,7 +239,7 @@ A seconda delle quantità disponibili, le quantità di lavoro create potrebbero 
 
 #### <a name="on-hand-inventory-license-plate-id"></a>ID targa delle scorte disponibili
 
-Più avanti in questo scenario, si utilizzerà l'app del magazzino (o un emulatore), dove sarà necessario identificare la targa per completare gli scenari di prelievo e rifornimento.
+Più avanti in questo scenario, si utilizzerà l'app per dispositivi mobili Gestione magazzino (o un emulatore), dove sarà necessario identificare la targa per completare gli scenari di prelievo e rifornimento.
 
 Per trovare gli ID targa necessari in seguito, attenersi alla seguente procedura.
 
@@ -267,7 +264,7 @@ Verrà eseguito il rifornimento dell'ubicazione di magazzino per i primi due ID 
 
 #### <a name="replenishment"></a>Rifornimento
 
-1. Accedere all'app di magazzino come utente nel magazzino *61*. (Immettere *61* come ID utente e *1* come password).
+1. Accedi all'app per dispositivi mobili Gestione magazzino come utente nel magazzino *61*. (Immettere *61* come ID utente e *1* come password).
 1. Passare a **Inventario \> Rifornimento**.
 
     Viene richiesto di completare il primo lavoro di rifornimento. Vengono visualizzati il numero, la quantità e l'ubicazione di prelievo dell'articolo.
@@ -297,11 +294,11 @@ Fino a quando non viene prelevata una quantità sufficiente di scorte dall'ubica
 
 Prima che l'attività di rifornimento rimanente possa essere completata, le scorte nell'ubicazione di prelievo devono diminuire fino a un livello in cui è possibile sbloccare il rimanente lavoro di rifornimento. In altre parole, la somma della quantità di scorte disponibili nell'ubicazione e la quantità di rifornimento non possono superare il valore **Quantità di overflow**. Quando questa somma è inferiore alla quantità di overflow, il restante lavoro di rifornimento verrà sbloccato.
 
-1. Accedere all'app di magazzino come utente nel magazzino *61*. (Immettere *61* come ID utente e *1* come password).
+1. Accedi all'app per dispositivi mobili Gestione magazzino come utente nel magazzino *61*. (Immettere *61* come ID utente e *1* come password).
 1. Passare a **In uscita \> Prelievo vendite**.
 1. Immettere il primo ID lavoro per l'ordine cliente 1.
 
-    Fare riferimento agli ID lavoro per gli ordini di vendita annotati in precedenza, nella pagina **Dettagli del lavoro**. L'ID lavoro inserito qui genererà il lavoro di prelievo per una quantità di 10 ea da due ubicazioni separate.
+    Fare riferimento agli ID lavoro per gli ordini cliente annotati in precedenza, nella pagina **Dettagli del lavoro**. L'ID lavoro inserito qui genererà il lavoro di prelievo per una quantità di 10 ea da due ubicazioni separate.
 
 1. Selezionare **OK**.
 
@@ -339,7 +336,7 @@ Prima che l'attività di rifornimento rimanente possa essere completata, le scor
 
     Viene visualizzato il messaggio "Lavoro completato".
 
-L'ordine di vendita 2 è bloccato dal prelievo perché l'attività di rifornimento a cui è collegato non è stata completata. Attualmente, vi è ancora una quantità di 30 ea nell'ubicazione di prelievo e la quantità di rifornimento per l'ordine di vendita 2 è di 60 ea. La somma delle scorte disponibili e delle scorte di rifornimento (90 ea) supera la quantità di overflow di 0,65 PL (o 65 ea). Prima di completare il lavoro di rifornimento, è necessario eseguire il prelievo per l'ordine di vendita 3.
+L'ordine cliente 2 è bloccato dal prelievo perché l'attività di rifornimento a cui è collegato non è stata completata. Attualmente, vi è ancora una quantità di 30 ea nell'ubicazione di prelievo e la quantità di rifornimento per l'ordine cliente 2 è di 60 ea. La somma delle scorte disponibili e delle scorte di rifornimento (90 ea) supera la quantità di overflow di 0,65 PL (o 65 ea). Prima di completare il lavoro di rifornimento, è necessario eseguire il prelievo per l'ordine cliente 3.
 
 1. Immettere l'ID lavoro per l'ordine cliente 3.
 
@@ -361,7 +358,7 @@ L'ordine di vendita 2 è bloccato dal prelievo perché l'attività di rifornimen
 
 Non appena la somma della quantità disponibile nell'ubicazione di prelievo e la quantità di rifornimento è inferiore alla soglia, sarà possibile elaborare il restante lavoro di rifornimento.
 
-Tornare alla pagina **Dettagli del lavoro** e notare che la disponibilità del lavoro di rifornimento per la parte finale di rifornimento (per l'ordine di vendita 2) è *Aperto*, perché ora c'è abbastanza spazio nell'ubicazione per accettare il rifornimento.
+Tornare alla pagina **Dettagli del lavoro** e notare che la disponibilità del lavoro di rifornimento per la parte finale di rifornimento (per l'ordine cliente 2) è *Aperto*, perché ora c'è abbastanza spazio nell'ubicazione per accettare il rifornimento.
 
 Ora puoi elaborare questo lavoro di rifornimento tramite il dispositivo mobile.
 
@@ -407,4 +404,7 @@ Ora è possibile scegliere l'ordine cliente 2. Si è sbloccato quando sono stati
 - Questa funzionalità funziona con tutti i tipi di rifornimento: domanda ondata, min / max, domanda di carico e assegnazione.
 - È possibile sovrascrivere manualmente la disponibilità del lavoro di rifornimento per ciascuna intestazione di lavoro dalla pagina **Dettagli del lavoro** se si desidera.
 - Quando il sistema imposta la disponibilità del lavoro di rifornimento, considera qualsiasi inventario che si trova già nell'ubicazione prima del completamento di qualsiasi lavoro
-- Ogni lavoro dell'ordine di vendita è collegato a un lavoro di rifornimento specifico. Non esiste una corrispondente funzionalità di disponibilità del lavoro di vendita.
+- Ogni lavoro dell'ordine cliente è collegato a un lavoro di rifornimento specifico. Non esiste una corrispondente funzionalità di disponibilità del lavoro di vendita.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

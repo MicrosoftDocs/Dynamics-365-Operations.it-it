@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: dfd1906200038c27e63f9434bba27e7146f4c80c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103165"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575610"
 ---
 # <a name="monitor-a-master-planning-run"></a>Monitorare un'esecuzione di pianificazione generale
 
@@ -28,11 +28,12 @@ ms.locfileid: "8103165"
 
 Nella pagina **Visualizza stato pianificazione generale**, è possibile visualizzare i dettagli delle esecuzioni storiche di pianificazione generale come diagramma di Gantt. Questa funzionalità può aiutare a comprendere il tempo impiegato nelle varie fasi della pianificazione generale. Per un lavoro di pianificazione attivo corrente, è possibile utilizzare la pagina **Visualizza stato pianificazione principale** per tenere traccia dell'avanzamento e visualizzare il tempo rimanente stimato.
 
-### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Attivare o disattivare la funzionalità Visualizzazione avanzamento pianificazione generale
+### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Attivare e utilizzare la funzione di visualizzazione dell'avanzamento del piano principale
 
-A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Visualizzazione avanzamento pianificazione generale* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare questa funzionalità, attenersi alla seguente procedura.
 
-### <a name="use-the-master-plan-progress-visualization-feature"></a>Utilizzare la funzionalità Visualizzazione avanzamento pianificazione generale
+1. Nell'area di lavoro **Gestione funzionalità**, scheda **Nuovo**, selezionare **Visualizzazione stato pianificazione generale** nell'elenco. Se la funzionalità non è presente nella scheda **Nuovo**, considerare le schede **Tutto** e **Non abilitato**.
+1. Selezionare **Abilita ora**. In alternativa, selezionare **Programmazione** e quindi selezionare l'ora in cui si desidera che la funzionalità sia abilitata.
 
 Nella pagina **Visualizza stato pianificazione generale** possono essere visualizzati entrambi i processi della pianificazione storica e i processi di pianificazione attivi. 
 

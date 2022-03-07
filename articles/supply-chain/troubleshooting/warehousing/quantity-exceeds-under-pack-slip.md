@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7cdc22eeabda6cf9f08484d698e5096f66af4a12
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ae02846c0ec937ebaff440dc5272a135e16c8aa7355ecc303929e760a54b6627
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920700"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760300"
 ---
 # <a name="quantity-exceeds-under-delivery-percentage-during-packing-slip-generation"></a>La quantità supera la percentuale di limite minimo di fornitura durante la generazione del documento di trasporto
 
@@ -49,8 +49,8 @@ Utilizza la seguente procedura per rettificare la percentuale di limite minimo d
 
 1. Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini**.
 1. Selezionare l'ordine cliente per il quale non è possibile registrare un documento di trasporto per il carico.
-1. Nella scheda **Righe ordine cliente**, seleziona la riga ordine cliente dell'articolo che supera la percentuale di limite minimo di fornitura.
-1. Nella scheda **Dettagli riga** seleziona **Consegna**.
+1. Nella scheda  **Righe ordine cliente**, seleziona la riga ordine cliente dell'articolo che supera la percentuale di limite minimo di fornitura.
+1. Nella scheda  **Dettagli riga** seleziona **Consegna**.
 1. Imposta il campo **Limite minimo di fornitura** su una percentuale maggiore che tiene conto della quantità prelevata rispetto alla quantità di carico, in modo che possa procedere la generazione del documento di trasporto.
 
 ### <a name="reverse-and-make-adjustments"></a>Storna e apporta rettifiche
@@ -60,14 +60,14 @@ Storna tutto ciò che è stato registrato per il carico (ad esempio, documento d
 Utilizza la seguente procedura per annullare un documento di trasporto.
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nel riquadro azioni, nella scheda **Spedisci e ricevi** nel gruppo **Storna** seleziona **Annulla documenti di trasporto**.
+1. Nel riquadro azioni, nella scheda  **Spedisci e ricevi** nel gruppo  **Storna** seleziona  **Annulla documenti di trasporto**.
 
 Utilizza la seguente procedura per stornare una conferma di spedizione.
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nel riquadro azioni, nella scheda **Spedisci e ricevi** nel gruppo **Storna** seleziona **Storna conferma spedizione**.
+1. Nel riquadro azioni, nella scheda  **Spedisci e ricevi** nel gruppo  **Storna** seleziona  **Storna conferma spedizione**.
 
 Utilizza la seguente procedura per stornare il lavoro.
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
-1. Nella scheda **Lavoro** del riquadro azioni, nel gruppo **Carichi**, seleziona **Storna lavoro**.
+1. Nella scheda  **Lavoro** del riquadro azioni, nel gruppo  **Carichi**, seleziona  **Storna lavoro**.

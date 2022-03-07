@@ -2,30 +2,29 @@
 title: Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
 description: Reparti, mansioni e posizioni sono elementi organizzativi che vengono gestiti in Risorse umane. Questo articolo descrive le nozioni relative a questi elementi.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419181"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189752"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Reparti, mansioni e posizioni sono elementi organizzativi che vengono gestiti in Risorse umane. Questo articolo descrive le nozioni relative a questi elementi. 
 
@@ -43,8 +42,7 @@ Il seguente esempio viene utilizzato per illustrare i concetti descritti in ques
 |**Risorse umane**|Responsabile risorse umane (Centro)|Responsabile risorse Umane|
 
 
- <a name="departments"></a>Reparti
-------------
+##  <a name="departments"></a>Reparti
 
 Un reparto è un'unità operativa che rappresenta una categoria o un'area funzionale di un'organizzazione, responsabile di un'area specifica dell'organizzazione, ad esempio vendita o contabilità. Un reparto viene utilizzato per i report sulle aree funzionali e può avere responsabilità di profitti e perdite. Inoltre, un reparto può includere un gruppo di centri di costo. Le vendite, la contabilità e le risorse umane sono alcuni esempi di reparti in un'organizzazione.
 
@@ -97,8 +95,7 @@ Utilizzare i tipi di mansione per classificare mansioni simili in categorie. I t
 
 Utilizzare le aree di responsabilità per indicare i ruoli di lavoro, i processi e i prodotti di cui un lavoratore in una posizione di tale mansione è responsabile. Un esempio di un'area di responsabilità per una mansione denominata "Ragioniere" potrebbe essere "Reporting finanziario per il prodotto A".
 
-<a name="positions"></a>Posizioni
-----------
+## <a name="positions"></a>Posizioni
 
 Le posizioni sono un elemento importante del livello inferiore di una gerarchia organizzativa. Una posizione è una singola istanza di un processo. Ad esempio, la posizione "Manager vendite (Est") è solo una delle posizioni associate alla mansione "Manager vendite". Le posizioni esistono in un reparto e vengono assegnate ai lavoratori.
 ### <a name="position-creation-and-maintenance"></a>Creazione e gestione di posizioni
@@ -120,7 +117,7 @@ Quando si assegna un lavoratore a una posizione, tale posizione viene coperta. �
 
 Le posizioni sono elementi importanti del livello inferiore di una gerarchia organizzativa. Nel modulo Posizione è possibile specificare la posizione gerarchicamente superiore a una posizione. Quando si assegna un lavoratore a una posizione che ha una posizione superiore, viene creata una relazione gerarchica tra i lavoratori assegnati alle due posizioni. Ad esempio, la posizione “Ragioniere-A" risponde alla posizione superiore "Supervisore contabile". Kim Akers viene assegnata alla posizione “Supervisore contabile" e Sanjay Patel alla posizione “Ragioniere-A”. Ciò significa che Kim Akers è il superiore gerarchico di Sanjay Patel. 
 
-Se l'organizzazione utilizza una gerarchia a matrice o un'altra gerarchia personalizzata, è possibile impostare i tipi di gerarchia delle posizioni e aggiungere le relazioni gerarchiche alle posizioni per ogni tipo di gerarchia impostata. Ad esempio, Lori Penor è una responsabile generale in Adventure Works e viene assegnata alla posizione "Responsabile generale". Lori gestisce lo sviluppo di un prodotto che viene utilizzato per eseguire la pulitura dei congegni meccanici. Lori ha bisogno dell'assistenza di un ragioniere per gli aspetti finanziari dello sviluppo del prodotto. Di conseguenza, ha assunto Sanjay Patel come proprio ragioniere. Sanjay risponde direttamente a Kim Akers, ma lavora anche con Lori Penor relativamente agli aspetti finanziari dello sviluppo del prodotto per la pulitura dei congegni. 
+Se l'organizzazione utilizza una gerarchia a matrice o un'altra gerarchia personalizzata, è possibile impostare i tipi di gerarchia delle posizioni e aggiungere le relazioni gerarchiche alle posizioni per ogni tipo di gerarchia impostata. Ad esempio, Lori Penor è una responsabile generale in Adventure Works e viene assegnata alla posizione "Responsabile generale". Lori gestisce lo sviluppo di un prodotto che viene utilizzato per eseguire la pulitura dei congegni meccanici. Lori ha bisogno dell'assistenza di un ragioniere per gli aspetti finanziari dello sviluppo del prodotto. Di conseguenza, ha assunto Sanjay Patel come ragioniere. Sanjay risponde direttamente a Kim Akers, ma lavora anche con Lori Penor relativamente agli aspetti finanziari dello sviluppo del prodotto per la pulitura dei congegni. 
 
 Per l'esempio precedente, vanno completate le seguenti attività per impostare la relazione di lavoro tra Sanjay Patel e Lori Penor:
 1.  Creare un tipo di gerarchia di posizioni personalizzato, denominato "Congegni", per creare una gerarchia che include le posizioni responsabili per le attività sul prodotto per la pulitura dei congegni.
@@ -165,3 +162,6 @@ Per alcuni record, è possibile specificare le modifiche future al record. Le se
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

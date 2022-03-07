@@ -2,11 +2,9 @@
 title: Proprietari del prodotto
 description: Vengono fornite le informazioni sui proprietari di prodotto. Un proprietario di prodotto è un gruppo di utenti responsabili di prodotti specifici. Solo i membri del gruppo possono rilasciare questi prodotti. Il proprietario di prodotto può essere utilizzato anche nel flusso di lavoro di approvazione.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967335"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567513"
 ---
 # <a name="product-owners"></a>Proprietari del prodotto
 
@@ -60,3 +58,6 @@ Ad esempio, il prodotto X è assegnato al gruppo di proprietari di prodotto *Arm
 ## <a name="product-owners-and-approvals"></a>Proprietari e approvazioni dei prodotti
 
 Poiché i proprietari dei prodotti sanno se modifiche di progettazione specifiche andranno a vantaggio dei loro prodotti, spesso ha senso includerle come parte del processo di approvazione nella gestione delle modifiche di progettazione. È possibile implementare questo approccio impostando i proprietari di prodotto come fornitori partecipanti nei flussi di lavoro utilizzati per la gestione delle modifiche di progettazione. Il sistema assegnerà quindi le attività di approvazione nei flussi di lavoro, in base ai prodotti presenti nelle richieste di modifica di progettazione e negli ordini di modifica di progettazione. Per ulteriori informazioni, vedere [Gestire le modifiche ai prodotti di progettazione](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

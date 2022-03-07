@@ -1,17 +1,14 @@
 ---
-title: Impostazione guidata della pianificazione generale
-description: In questo argomento vengono descritte varie strategie e parametri importanti utilizzati per impostare la pianificazione generale.
-author: t-benebo
-manager: tfehr
+title: Impostazione guidata della pianificazione generale (video)
+description: In questo argomento viene descritto come eseguire l'impostazione guidata della pianificazione generale per configurare la pianificazione generale.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431278"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937635"
 ---
 # <a name="master-planning-setup-wizard"></a>Impostazione guidata della pianificazione generale
 
@@ -48,13 +45,13 @@ La prima pagina della procedura guidata chiede dei requisiti specifici della soc
 
 Se il numero di thread calcolato supera il 75% del numero di thread disponibile, viene limitato al 75% del numero di thread disponibile per ogni cliente. Il numero di thread disponibili verrà determinato per ogni cliente.
 
-Per ulteriori informazioni, vedere [Numero di thread](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Per ulteriori informazioni, vedere [Numero di thread](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Dimensioni aggregazione
 
 Le dimensioni di aggregazione verranno impostate su **1**. Questo valore è spesso il migliore valore, poiché consente di migliorare le prestazioni della pianificazione generale.
 
-Per ulteriori informazioni, vedere [Numero di attività nell'aggregazione helper](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Per ulteriori informazioni, vedere [Numero di attività nell'aggregazione helper](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Dimensioni aggregazione di stabilizzazione
 
@@ -67,7 +64,7 @@ Calcolo di aggregazione = (numero degli ordini pianificati × (Intervallo tempor
 
 Le dimensioni della cache verranno impostate su **Massimo**. Questo valore è spesso il migliore valore, poiché consente di migliorare le prestazioni della pianificazione generale.
 
-Per ulteriori informazioni, vedere [Allocare tempo ai processi in un'aggregazione di processi](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Per ulteriori informazioni, vedere [Allocare tempo ai processi in un'aggregazione di processi](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Impostazione della produzione
 
@@ -91,7 +88,7 @@ Le domande rimanenti in questa pagina e le relative risposte seguono lo stesso s
 - **Sì, come definito nel piano generale** - L'opzione **Intervallo temporale di piano previsionale** verrà impostata su **Sì**. Numero di giorni immesso verrà utilizzato e sovrascriverà i valori impostati nei gruppi di copertura.
 - **Sì, come definito nel gruppo di copertura** - L'opzione **Intervallo temporale di piano previsionale** verrà impostata su **No**.
 
-Per ulteriori informazioni, vedere [Programmazione processo](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Per ulteriori informazioni, vedere [Programmazione processo](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Opzioni di programmazione
 
@@ -102,7 +99,7 @@ La risposta alla prima domanda di questa pagina ("È necessario programmare oper
 - **Sì** - La programmazione dei processi verrà utilizzata.
 - **No** - La programmazione delle operazioni verrà utilizzata.
 
-Per ulteriori informazioni, vedere [Programmazione operazioni](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) e [Programmazione processo](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Per ulteriori informazioni, vedere [Programmazione operazioni](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) e [Programmazione processo](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Aggiornamenti di domanda e offerta
 
@@ -209,3 +206,6 @@ Nella procedura guidata, i seguenti valori vengono immessi per Contoso Retailer:
     - **Risposta:** "Sì, come definito nel piano generale". **1 giorno** viene immesso.
 
     Contoso utilizza le richieste approvate dei punti vendita per creare ordini fornitore pianificati per rifornire questi punti vendita. Poiché la pianificazione generale viene eseguita ogni giorno, le richieste dall'ultimo giorno verranno incluse nella programmazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

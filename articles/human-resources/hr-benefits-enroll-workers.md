@@ -2,7 +2,7 @@
 title: Iscrivere e rimuovere benefit da lavoratori
 description: Questa procedura dimostra come un singolo lavoratore può essere iscritto a uno o più benefit e come più lavoratori possono essere iscritti a un benefit.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cb56d11cb3acd1e8e39765284269234fc632f17f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419116"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465104"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Iscrivere e rimuovere benefit da lavoratori
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -58,3 +60,6 @@ Questa procedura dimostra come un singolo lavoratore può essere iscritto a uno 
 14. Nell'elenco fare clic sul collegamento nella riga selezionata.
 15. La pagina consente la visualizzazione dei dipendenti iscritti al benefit e di tutti i dipendenti non iscritti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

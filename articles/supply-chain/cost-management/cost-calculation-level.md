@@ -2,11 +2,9 @@
 title: Livello di calcolo dei costi
 description: Questo argomento descrive il livello di distinta materiali (DBA) denominato Livello di calcolo dei costi. Questo livello DBA esclude gli ordini di produzione e batch dai calcoli.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 42088d8c005cf3fc04e768f1b8e8c8ca0b8c6993
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f7cde239107528a6bc2aeb0e424d024d4f3fb2a6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967733"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839489"
 ---
 # <a name="cost-calculation-level"></a>Livello di calcolo costi
 
@@ -56,3 +54,6 @@ Un ordine di produzione per il prodotto C viene quindi creato e il prodotto A è
     - **Prodotto C:** 2
 
 Questo comportamento garantisce che le modifiche alle DBA dell'ordine di produzione non influiscano sui calcoli dei costi successivi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

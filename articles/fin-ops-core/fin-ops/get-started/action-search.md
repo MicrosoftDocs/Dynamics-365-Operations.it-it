@@ -2,11 +2,9 @@
 title: Ricerca di azioni
 description: In questo articolo viene descritta la funzionalità di ricerca di azioni. La ricerca di azioni consente di individuare ed eseguire azioni in una pagina.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 41313dd1fde51cb84bc971bb7bb98841222259b1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798649"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754828"
 ---
 # <a name="action-search"></a>Ricerca di azioni
 
@@ -31,7 +29,7 @@ In questo articolo viene descritta la funzionalità di ricerca di azioni. La ric
 
 ## <a name="introduction"></a>Introduzione
 
-Le pagine espongono principalmente i controlli presenti nei riquadri azioni, sia il riquadro azioni standard visualizzato nella parte superiore di una pagina sia le barre degli strumenti visualizzate in diverse aree della pagina. Nelle versioni precedenti, una funzionalità Descrizione dei tasti consente di accedere rapidamente a qualsiasi pulsante in un riquadro azioni premendo il tasto ALT e una serie di lettere.
+Le pagine espongono principalmente i controlli presenti nei riquadri azioni, sia il riquadro azioni standard visualizzato nella parte superiore di una pagina sia le barre degli strumenti visualizzate in diverse aree della pagina. Nelle versioni precedenti, una funzionalità descrizione dei tasti consente di accedere rapidamente a qualsiasi pulsante in un riquadro azioni premendo il tasto ALT e una serie di lettere.
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
@@ -75,3 +73,6 @@ Nell'esempio precedente, la ricerca azioni ha mostrato i risultati dal riquadro 
 ## <a name="action-search-vs-navigation-search"></a>Confronto tra ricerca di azioni e ricerca di navigazione
 
 La ricerca di azioni è destinata alla ricerca e all'esecuzione di azioni in una pagina, ma è disponibile un meccanismo di ricerca distinto che consente di cercare e passare alle pagine. Per ulteriori informazioni su tale funzionalità, vedere l'articolo [Ricerca per navigazione](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

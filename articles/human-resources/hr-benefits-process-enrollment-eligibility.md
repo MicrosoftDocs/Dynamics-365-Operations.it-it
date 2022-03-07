@@ -2,11 +2,9 @@
 title: Elaborare l'idoneità di iscrizione
 description: In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f9b1febe2690fab17586033994b10ebf260630af
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419151"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805708"
 ---
 # <a name="process-enrollment-eligibility"></a>Elaborare l'idoneità di iscrizione
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
 
@@ -60,7 +60,7 @@ In questo articolo viene descritto come visualizzare i risultati del processo di
 
 2.  Nel modulo **Risultati processo** sono specificati i seguenti campi:
 
-   | Campo | descrizione |
+   | Campo | Descrizione |
    | --- | --- |
    | **ID processo** | L'ID univoco per la combinazione di lavoratore, persona giuridica ed esecuzione del processo. |
    | **Tipo di processo** | Identifica il processo che è stato eseguito. Ad esempio: Iscrizione. |
@@ -72,3 +72,6 @@ In questo articolo viene descritto come visualizzare i risultati del processo di
    | **Stato risultati** | Questo sarà Idoneo o Non idoneo. Lo stato del risultato sarà Non idoneo se il lavoratore non ha soddisfatto i criteri della regola di idoneità, se al lavoratore mancano informazioni richieste come una frequenza di retribuzione o un compenso fisso o se nel piano di benefit mancano informazioni che impediscono ai lavoratori di essere iscritti. |
    | **Messaggio risultati** | Indica perché un lavoratore non è idoneo per un piano di benefit o se è stata approvata la regola di idoneità. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,24 @@
 title: Importazione pagamenti cliente PVR
 description: In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264584
 ms.search.region: Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dfcfb13391bccde43a5bd50965967fde1a8a432b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8f4c969c4c384e086c36ec771daffba1483a8209cb1fcf6dd9bd2c6c65505b90
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775876"
 ---
 # <a name="esr-customer-payments-import"></a>Importazione pagamenti cliente PVR
 
@@ -54,3 +51,6 @@ Dopo aver importato il file di pagamento, le righe del giornale di registrazione
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

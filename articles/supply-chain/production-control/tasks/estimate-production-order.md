@@ -2,26 +2,23 @@
 title: Stimare un ordine di produzione
 description: È possibile eseguire questa procedura utilizzando la società di dati dimostrativi USMF oppure il proprio set di dati.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bbb541a09809c1f1bfada42094d840a2f6e7764
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0450186382b6c306910fc6653f67ce313b7cfc2c69a134a9a806d1a232dc0fd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430846"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765420"
 ---
 # <a name="estimate-a-production-order"></a>Stimare un ordine di produzione
 
@@ -42,3 +39,6 @@ ms.locfileid: "4430846"
 1. Nel riquadro azioni, fare clic su Gestisci costi.
 2. Fare clic su Visualizza dettagli calcolo.
     * Questa pagina visualizza la scomposizione dei costi. Ad esempio, è possibile visualizzare il prezzo di costo totale per unità per il prodotto finito nella prima riga. Le righe successive contengono i costi in base alla distinta base, al ciclo di lavorazione produzione e ai costi indiretti.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

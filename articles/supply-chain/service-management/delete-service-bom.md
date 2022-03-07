@@ -2,28 +2,25 @@
 title: Eliminare una DBA assistenza
 description: L'ordine di assistenza rappresenta l'intervento eseguito da un tecnico presso la sede di un cliente in una data specifica.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 744f78f2dd088e50c91e1f7ef0e6f68b176f9618
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1a439186dee6fcfbe25e9184634bdfd48efcca48
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431066"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817559"
 ---
 # <a name="delete-a-service-bom"></a>Eliminare una DBA assistenza 
 
@@ -53,3 +50,6 @@ ms.locfileid: "4431066"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

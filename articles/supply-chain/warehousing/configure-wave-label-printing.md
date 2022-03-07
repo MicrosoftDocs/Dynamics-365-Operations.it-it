@@ -1,29 +1,26 @@
 ---
-title: Configurare e utilizzare la stampa di etichette ondata
+title: Stampa di etichette ciclo
 description: Questo argomento descrive la stampa di etichette ondata e spiega come configurarla.
-author: GarmMSFT
-manager: PJacobse
+author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
-ms.reviewer: PJacobse
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: 3040406af731e2e35fff456804f893108e7eb896bfa0132082986c09ad128952
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4431589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777673"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>Configurare e utilizzare la stampa di etichette ondata
+# <a name="wave-label-printing"></a>Stampa di etichette ciclo
 
 [!include [banner](../includes/banner.md)]
 
@@ -932,3 +929,10 @@ Le estensioni di sequenza numerica controllano la conformità GS1 delle sequenze
 - Storico etichette ondata
 
 Per la maggior parte di queste pagine, è possibile trovare la funzione pertinente selezionando **Etichette ondata** nel gruppo **Informazioni correlate** della scheda **Spedizioni** del riquadro azioni.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Ristampare e annullare le etichette dei cicli](reprint-and-void-wave-labels.md)
+- [Pianifica la stampa dell'etichetta ciclo durante il ciclo](configure-task-based-wave-label-printing.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

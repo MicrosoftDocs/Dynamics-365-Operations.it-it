@@ -2,11 +2,9 @@
 title: Media mobile
 description: La media mobile è un metodo di determinazione dei costi soggetti a variazioni basato sul principio della media, in cui i costi delle uscite di magazzino non cambiano quando cambia il costo di acquisto. La differenza viene capitalizzata e basata su un calcolo proporzionale. L'importo che rimane viene calcolato come spesa.
 author: AndersGirke
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0957fee111ec1fd5bb66951126869cf46d88b36e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6721c01fd0ad3eec30de99dee3b5e98de6bd3b52
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967485"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567537"
 ---
 # <a name="moving-average"></a>Media mobile
 
@@ -41,7 +39,7 @@ Di seguito sono riportati i prerequisiti di quando si utilizza il costo a media 
     > Per impostazione predefinita, quando la **media mobile** è selezionata, sono selezionati anche i campi **Registra inventario fisico** e **Registra inventario finanziario**.
 
 1. Nella pagina **Registrazione** assegnare i conti a **Differenza di prezzo per media mobile**. Il conto **Differenza di prezzo per media mobile** viene utilizzato quando il costo è speso in modo proporzionale. Ciò si verifica nei seguenti due scenari:
-    - C'è una differenza di costo tra il ricevimento dell'ordine di acquisto e l'emissione della fattura di acquisto e c'è una differenza tra la quantità originale del magazzino e la quantità disponibile al momento.
+    - C'è una differenza di costo tra il ricevimento dell'ordine fornitore e l'emissione della fattura di acquisto e c'è una differenza tra la quantità originale del magazzino e la quantità disponibile al momento.
     - Le transazioni portano l'inventario da negativo a zero e c'è una differenza tra il costo della transazione e il costo della media mobile corrente.
 
 1. Nella pagina **Registrazione**, assegnare i conti **Rivalutazione costo per media mobile** nella scheda **Inventario**. Il conto **Rivalutazione costo per media mobile** viene utilizzato quando si desidera rettificare il costo della media mobile per un prodotto su un nuovo prezzo unitario.
@@ -127,13 +125,13 @@ Le transazioni vengono gestite in modo diverso a seconda che la nuova quantità 
 
 ### <a name="new-balance-is-negative-or-zero"></a>Il nuovo saldo è negativo o zero
 
-Se la nuova quantità disponibile è negativa o zero, la transazione viene calcolata in base ai costi medi correnti. Se c'è una differenza tra il prezzo di acquisto e i costi medi correnti, viene registrata in **Differenza di prezzo per media mobile**.
+Se la nuova quantità disponibile è negativa o zero, la transazione viene preventivata in base ai costi medi correnti. Se c'è una differenza tra il prezzo di acquisto e i costi medi correnti, viene registrata in **Differenza di prezzo per media mobile**.
 
 ### <a name="new-balance-is-positive"></a>Il nuovo saldo è positivo
 
-Se la nuova quantità disponibile è positiva dopo la transazione, la transazione viene suddivisa in due parti e ha un costo diverso, come riepilogato nella tabella seguente.
+Se la nuova quantità disponibile è positiva dopo la transazione, la transazione viene suddivisa in due parti e preventivata diversamente, come riepilogato nella tabella seguente.
 
-| Parte | descrizione |
+| Parte | Descrizione |
 |---|---|
 | Quantità da negativo a zero | L'inventario utilizza il costo medio mobile corrente dell'articolo anziché il costo di transazione per quella parte della quantità in entrata che aumenta il saldo disponibile da negativo a zero. La differenza tra il costo della transazione e il costo della media mobile corrente viene registrata in **Differenza di prezzo per media mobile**. |
 | Quantità da zero a positiva | L'inventario utilizza il costo della transazione per quella parte della quantità in entrata che aumenta il saldo disponibile da zero a positivo.                                                  |
@@ -154,3 +152,6 @@ In questo esempio di media mobile, il report del valore di magazzino viene stamp
 
 > [!NOTE]
 > Non è possibile riconciliare la contabilità generale con il magazzino utilizzando l'opzione di ordinamento **Ora della transazione**. Il report deve essere stampato utilizzando l'opzione **Data di registrazione** .
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

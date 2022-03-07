@@ -2,36 +2,30 @@
 title: Utilizzare i modelli
 description: In questo argomento viene descritto come utilizzare i modelli in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413469"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090796"
 ---
 # <a name="work-with-templates"></a>Utilizzare i modelli
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare i modelli in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Come discusso in [Panoramica modelli e layout](templates-layouts-overview.md), i modelli definiscono l'insieme di opzioni disponibile per gli autori downstream. I modelli sono utili per un team di creazione di siti Web di un'azienda per diversi motivi e i modelli ben strutturati possono rivelarsi utili per i seguenti scopi:
 
@@ -55,7 +49,7 @@ Come discusso in [Panoramica modelli e layout](templates-layouts-overview.md), i
 
 I modelli vengono modificati utilizzando l'editor di modelli.
 
-Per aprire l'editor di modelli, eseguire uno dei seguenti passaggi:
+Per aprire l'editor dei modelli in Creazione di siti di Commerce, segui uno di questi passaggi:
 
 - Nel pannello di navigazione del sito selezionare **Modelli**, quindi selezionare il modello da modificare.
 - Nell'editor di pagine di una pagina esistente, selezionare il nodo principale nell'albero a sinistra. Quindi, nel riquadro delle proprietà a destra, selezionare **Modifica modello**.
@@ -70,9 +64,9 @@ La visualizzazione ad albero a sinistra mostra le opzioni e le strutture di modu
 | Numero massimo di moduli (contenitori) | Per i moduli contenitore, questa proprietà definisce il numero massimo di moduli totali che devono essere aggiunti come figlio. Ad esempio, per un modulo Sequenza, il valore può essere impostato su un numero minore di 10. |
 | Bloccato | Un controllo booleano **Bloccato** è visualizzato accanto a tutte le proprietà del modulo principale. Consente all'autore del modello di bloccare un'impostazione di modulo nel modello. Un'impostazione di modulo bloccata non può essere sostituita da pagine o layout figlio. Diventa un valore di proprietà modificabile centralmente per tutti i layout e le pagine che utilizzano il modello. |
 
-## <a name="create-a-new-template"></a>Crea un nuovo modello
+## <a name="create-a-new-template"></a>Creare un nuovo modello
 
-Per creare un nuovo modello, completare i passaggi seguenti.
+Per creare un nuovo modello in Creazione di siti, seguire questi passaggi.
 
 1. Nel pannello di navigazione del sito selezionare **Modelli** per aprire la visualizzazione controllo modelli.
 1. Selezionare **Nuovo modello**.
@@ -91,7 +85,7 @@ Il modello è ora tecnicamente valido e può essere salvato, archiviato e utiliz
 
 ## <a name="add-a-header-and-a-footer"></a>Aggiungere un'intestazione e un piè di pagina
 
-Se il sito ha già un frammento intestazione, seguire questi passaggi per aggiungere un'intestazione e un piè di pagina a un modello.
+Se il sito ha già un frammento intestazione, seguire questi passaggi in Creazione di siti per aggiungere un'intestazione e un piè di pagina a un modello.
 
 1. Nell'albero, espandere lo slot **Corpo** e il relativo modulo pagina figlio.
 1. Selezionare lo slot **Intestazione**.
@@ -104,7 +98,7 @@ Se il sito non ha ancora un frammento intestazione, vedere [Creare un frammento]
 
 ## <a name="change-the-template-theme"></a>Cambiare il tema di un modello
 
-Per impostare il tema predefinito per tutte le pagine che utilizzano un modello, effettuare le seguenti operazioni.
+Per impostare il tema predefinito per tutte le pagine che utilizzano un modello, effettuare le seguenti operazioni in Creazione di siti.
 
 1. Nell'albero a sinistra espandere, lo slot **Corpo**.
 1. Nello slot **Corpo**, selezionare il modulo contenitore pagina (ad esempio **Pagina predefinita**).
@@ -116,7 +110,7 @@ Per impostazione predefinita, tutte le nuove pagine ora utilizzeranno il tema se
 
 È possibile aggiungere elementi **&lt;script&gt;** HTML che contengono JavaScript al modello. In questo modo, è possibile fornire comportamenti di script predefiniti alle sezioni intestazione HTML, inizio corpo e fine corpo delle pagine.
 
-Per aggiungere uno script a un modello, effettuare le operazioni seguenti.
+Per aggiungere uno script direttamente a un modello in Creazione di siti, attenersi alla seguente procedura.
 
 1. Nell'albero a sinistra, selezionare lo slot in cui si desidera aggiungere l'elemento **&lt;script&gt;** (ad esempio, intestazione HTML, inizio corpo o fine corpo).
 1. Selezionare il pulsante con i puntini di sospensione per lo slot, quindi selezionare **Aggiungi modulo**.
@@ -129,7 +123,7 @@ Per aggiungere uno script a un modello, effettuare le operazioni seguenti.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Salva, archiviare, visualizzare in anteprima e pubblicare un modello
 
-Per salvare e archiviare un modello, effettuare le operazioni indicate di seguito.
+Per salvare e archiviare un modello nella creazione di siti, effettuare le operazioni indicate di seguito.
 
 1. Selezionare **Salva** nella parte superiore dell'editor di modelli. Le modifiche salvate non influiscono sulle pagine downstream fino a che non vengono archiviate.
 1. Selezionare **Fine modifica**. Le modifiche sono ora individuabili per i flussi di lavoro downstream.
@@ -145,8 +139,23 @@ Dopo avere visualizzato un'anteprima delle modifiche al modello, eseguire una di
 > [!WARNING]
 > Quando un modello, o qualsiasi altro elemento del sistema di gestione dei contenuti, viene pubblicato, è individuabile su Internet. Non pubblicare documenti o asset fino a che non si è pronti a renderli pubblici. Le versioni dei documenti che sono state salvate e archiviate, ma non pubblicate, risultano individuabili solo per gli utenti di sistema autenticati.
 
+## <a name="rename-a-template"></a>Rinominare un modello
+
+Per rinominare un modello esistente nella creazione di siti, segui questi passaggi.
+
+1. Nel pannello di navigazione a sinistra, seleziona **Modelli**.
+1. Selezionare il nome del modello che vuoi rinominare.
+1. Selezionare **Modifica** per iniziare a modificare il modello. Tieni presente che non puoi modificare un modello se qualcun altro sta già modificando il modello.
+1. Nel riquadro delle proprietà del modello seleziona il simbolo della penna accanto al nome del modello.
+1. Modificare il nome del modello, se necessario.
+1. Selezionare il segno di spunta per confermare la modifica del nome.
+1. Selezionare **Fine modifica**.
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica modelli e layout](templates-layouts-overview.md)
 
 [Utilizzare i layout preimpostati](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

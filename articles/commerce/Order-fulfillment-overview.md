@@ -2,26 +2,25 @@
 title: Evasione ordine del punto vendita
 description: In questo argomento viene fornita una panoramica dell'evasione ordine del punto vendita.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 67a0199cd15e0a10b41ed3ab288951f86c9790ba0499fee0754f05876faf4843
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714068"
 ---
 # <a name="store-order-fulfillment"></a>Evasione ordine del punto vendita
 
@@ -35,7 +34,7 @@ L'operazione di evasione dell'ordine presso il POS offre una singola area di lav
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Accedere all'evasione dell'ordine unificato nel POS
 
-L'evasione ordini, [ID operazione 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), può essere utilizzata per accedere all'area di lavoro per l'evasione degli ordini del POS.
+L'evasione ordini, [ID operazione 928](pos-operations.md), può essere utilizzata per accedere all'area di lavoro per l'evasione degli ordini del POS.
 
 L'operazione di evasione degli ordini non dispone di propria autorizzazione immediatamente disponibile, ma in futuro, gli utenti saranno in grado di utilizzare l'autorizzazione **Consenti recupero ordine** per richiamare l'operazione dal POS.
 
@@ -95,7 +94,7 @@ Dopo che un ordine è stato accettato, le righe possono essere selezionate e con
 
 Le distinte di prelievo possono essere stampate presso il POS per supportare i lavoratori nell'esecuzione del processo di prelievo. Una distinta di prelievo stampata può essere trasportata con il lavoratore che esegue il prelievo e mentre i prodotti vengono prelevati, l'operatore li contrassegnerà manualmente come selezionato nella distinta di prelievo.
 
-Il formato della distinta di prelievo è configurato in Commerce e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
+Il formato della distinta di prelievo è configurato in Commerce e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](receipt-templates-printing.md)
 
 Se le righe vengono selezionate e una distinta di prelievo viene stampata per le righe, queste vengono aggiornate automaticamente con stato **Prelievo**.
 
@@ -121,7 +120,7 @@ Le righe ordine possono essere imballate in qualsiasi momento dopo che la riga o
 - **Stato risultante:** Imballato o Imballato in parte
 - **Stato back office risultante:** Consegnato o Consegnato in parte
 
-Questa azione consente di contrassegnare le righe come imballate o parzialmente imballate e stampare un documento di trasporto. Un documento di trasporto può essere stampato per i prodotti che sono stati imballati insieme. Il formato del documento di trasporto è configurato in Commerce e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
+Questa azione consente di contrassegnare le righe come imballate o parzialmente imballate e stampare un documento di trasporto. Un documento di trasporto può essere stampato per i prodotti che sono stati imballati insieme. Il formato del documento di trasporto è configurato in Commerce e aggiunto al profilo di ricevuta. Per ulteriori informazioni sulla configurazione dei profili di ricevute, vedere [Modelli e stampa di ricevute](receipt-templates-printing.md)
 
 **Azione: Contrassegna come imballato**
 
@@ -217,3 +216,6 @@ L'evasione dell'ordine presso il POS include il filtro per aiutare l'utente a tr
 - Data creazione
 - Data di consegna
 - Data di ricevimento
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

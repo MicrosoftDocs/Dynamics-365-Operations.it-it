@@ -1,30 +1,27 @@
 ---
 title: Designer formula
 description: In questo argomento viene descritto come utilizzare Designer formula per analizzare e gestire le formule in una visualizzazione struttura.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8778d6a4d834af2151e0bced0b0f27d98f088a34
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431085"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566836"
 ---
 # <a name="formula-designer"></a>Designer formula
 
@@ -101,7 +98,7 @@ Quando si utilizza Designer formula per rivedere o modificare le formule che son
 ## <a name="add-and-edit-formulas-and-formula-lines"></a>Aggiungere e modificare formule e righe della formula 
 Utilizzare le funzioni **Righe DBA** o **Formula** per modificare le righe formula o la formula. Quando si seleziona un nodo nella struttura ad albero, il tipo di nodo determina quali funzioni sono disponibili.
 
-| Funzione                            | descrizione                                                                                               | Tipo di nodo e condizioni |
+| Funzione                            | Descrizione                                                                                               | Tipo di nodo e condizioni |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------------|
 | Righe DBA &gt; Modifica                 | Consente di aprire una finestra di dialogo in cui è possibile modificare gli attributi della riga formula.                                         | Questa funzione è disponibile quando un nodo della riga formula è selezionato. |
 | Righe DBA &gt; Elimina               | Eliminare una riga formula dalla formula selezionata.                                                          | Questa funzione è disponibile quando un nodo della riga formula è selezionato e la formula non è bloccata per la modifica. |
@@ -116,8 +113,11 @@ Utilizzare le funzioni **Righe DBA** o **Formula** per modificare le righe formu
 Fare clic su **Impostazione** per personalizzare le informazioni che vengono mostrate nella visualizzazione struttura ad albero di Designer formula.
 
 
-| Gruppo campi |                                                                          descrizione                                                                          |
+| Gruppo campi |                                                                          Descrizione                                                                          |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     DBA     | Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati nella struttura ad albero. I criteri selezionati verranno visualizzati nella parte inferiore di entrambe le schede. |
 |    Ciclo    |                                           Utilizzare le caselle di controllo per selezionare i criteri che vengono visualizzati per i cicli di lavorazione.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

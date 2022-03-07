@@ -2,25 +2,22 @@
 title: Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
 description: Questo argomento fornisce una procedura dettagliata completa per utilizzare le funzionalità di gestione delle modifiche di progettazione.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b6270bbb6780786ed4535ca2987ed44448bd81ad
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 91b19598075871dcfaed3ad9978aa8fe8181aa6f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431608"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836664"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
 
@@ -398,7 +395,6 @@ Il tecnico ora esamina la richiesta del cliente e crea un ordine di modifica per
 
 1. Nel riquadro azioni, nella scheda **Ordine di modifica**, nel gruppo **Cambia stato** selezionare **Approva**.
 1. Selezionare **Elabora** per aggiornare le informazioni sul prodotto.
-1. Selezionare **Completo** per contrassegnare l'ordine di modifica come completato.
 
 ## <a name="release-the-changed-product"></a>Rilasciare il prodotto modificato
 
@@ -411,3 +407,9 @@ Il prodotto può ora essere rilasciato di nuovo nella società *USMF* e quindi i
 1. Selezionare ogni azienda a cui si desidera rilasciare i prodotti.
 1. Selezionare **OK** per chiudere la finestra di dialogo **Rilasci** e tornare all'ordine di modifica.
 1. Nel riquadro azioni, nella scheda **Ordine di modifica**, nel gruppo **Rilasci prodotto** selezionare **Elabora** per rilasciare i prodotti interessati alle aziende selezionate. In alternativa, selezionare **Struttura prodotto di rilascio** per avviare il processo di rilascio.
+
+## <a name="complete-the-change-order"></a>Completare l'ordine di modifica
+
+Per contrassegnare l'ordine di modifica come completato, a indicare che non sono rimaste ulteriori azioni, selezionare **Completa** nel riquadro Azioni.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

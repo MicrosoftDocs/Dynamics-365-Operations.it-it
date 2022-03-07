@@ -1,12 +1,10 @@
 ---
 title: Tipi di cespite
 description: Nell'argomento viene descritto come creare tipi di cespite in Gestione cespiti. Sono descritti inoltre gli elementi correlati ai tipi di cespite.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730373"
 ---
 # <a name="asset-types"></a>Tipi di cespite
 
@@ -30,7 +28,7 @@ ms.locfileid: "5017419"
 
 
 
-In questo argomento viene illustrato come creare tipi di cespite. Sono descritti inoltre gli elementi correlati ai tipi di cespite. I tipi di cespite vengono utilizzati come categorie generali per i cespiti. Alcuni esempi sono rappresentati dalle macchine CNC, attrezzature di misurazione e camion. I tipi di cespite vengono utilizzati per gestire i tipi di processo di manutenzione (attività di manutenzione), gli stati del ciclo di vita del cespite, i contatori, gli attributi del cespite, i modelli di valutazione delle condizioni e i modelli di cespite che è possibile selezionare per un cespite. Quando si crea un cespite, è necessario specificare il tipo di cespite.
+In questo argomento viene illustrato come creare tipi di cespite. Sono descritti inoltre gli elementi correlati ai tipi di cespite. I tipi di cespite vengono utilizzati come categorie generali per i cespiti. Alcuni esempi sono rappresentati dalle macchine CNC, attrezzature di misura e camion. I tipi di cespite vengono utilizzati per gestire i tipi di processo di manutenzione (attività di manutenzione), gli stati del ciclo di vita del cespite, i contatori, gli attributi del cespite, i modelli di valutazione delle condizioni e i modelli di cespite che è possibile selezionare per un cespite. Quando si crea un cespite, è necessario specificare il tipo di cespite.
 
 Per ciascun tipo di cespite, variazioni di impostazione del tipo di cespite possono essere create. Ad esempio, se si dispone di un tipo di cespite **Camion**, è possibile creare le variazioni del tipo di cespite per diversi produttori e modelli del cespite. Per ciascuna impostazione di tipo di cespite, sarà possibile aggiungere i pezzi di ricambio e i piani di manutenzione necessari.
 
@@ -47,9 +45,9 @@ Innanzitutto, impostare i tipi di cespite necessari. A questo punto, è possibil
 7. Selezionare **Salva**.
 8. Nella Scheda dettaglio **Tipi di processo di manutenzione**, selezionare i tipi di processo di manutenzione che devono essere associati al tipo di cespite:
 
-    - Per selezionare un tipo di processo di manutenzione, selezionarlo nel campo **Tipi di processo di manutenzione**, quindi fare clic sul pulsante freccia destra ![Pulsante freccia destra](media/29-setup-for-objects.png) per spostarlo nella sezione **Tipi di processo di manutenzione selezionati**.
-    - Per selezionare tutti i disponibili tipi di processo di manutenzione, selezionare il pulsante ![Freccia inoltra tutti](media/30-setup-for-objects.png). Tutti i tipi di processo di manutenzione vengono trasferiti dal campo **Tipi di processo di manutenzione rimanenti** al campo **Tipi di processo di manutenzione selezionati**.
-    - Per annullare la selezione di un tipo di processo di manutenzione, selezionarlo nel campo **Tipi di processo di manutenzione selezionati**, quindi fare clic sul pulsante freccia sinistra ![Pulsante freccia sinistra](media/31-setup-for-objects.png) per spostarlo nel campo **Tipi di processo di manutenzione rimanenti**.
+    - Per selezionare un tipo di processo di manutenzione, selezionarlo nel campo **Tipi di processo di manutenzione rimanenti**, quindi fare clic sul pulsante freccia destra ![Pulsante freccia destra.](media/29-setup-for-objects.png) per spostarlo nella sezione **Tipi di processo di manutenzione selezionati**.
+    - Per selezionare tutti i tipi di processo di manutenzione disponibili, selezionare il pulsante ![Freccia inoltra tutti](media/30-setup-for-objects.png) . Tutti i tipi di processo di manutenzione vengono trasferiti dal campo **Tipi di processo di manutenzione rimanenti** al campo **Tipi di processo di manutenzione selezionati**.
+    - Per annullare la selezione di un tipo di processo di manutenzione, selezionarlo nel campo **Tipi di processo di manutenzione selezionati**, quindi fare clic sul pulsante freccia sinistra ![Pulsante freccia sinistra.](media/31-setup-for-objects.png) per spostarlo nel campo **Tipi di processo di manutenzione rimanenti**.
 
 9. È anche possibile selezionare i contatori che devono essere correlati al tipo di cespite. Nella Scheda dettaglio **Contatori**, selezionare le opzioni desiderate utilizzando i metodi descritti per i tipi di processo di manutenzione nel passaggio 8. Per ulteriori informazioni su come impostare i contatori, vedere [Contatori](counters.md).
 10. è anche possibile selezionare i tipi di attributo che devono essere correlati ai tipi di cespite. Nella Scheda dettaglio **Tipi di attributo**, selezionare le opzioni desiderate utilizzando i metodi descritti per i tipi di processo di manutenzione nel passaggio 8. Quindi, per creare la sequenza preferita dei tipi di attributi, selezionare un tipo di attributo nel campo **Tipi di attributo selezionati** e utilizzare i pulsanti freccia su e giù per spostarlo. La sequenza dei tipi di attributo verrà visualizzata sui cespiti che utilizzano questo tipo di cespite. Per ulteriori informazioni sugli attributi dei cespiti, vedere [Tipi di attributo di manutenzione](../setup-for-functional-locations/specification-types.md).
@@ -96,3 +94,6 @@ Nella pagina **Pezzi di ricambio**, è possibile creare nuovi pezzi di ricambio 
 
 Per verificare se il pezzo di ricambio nella riga selezionata viene utilizzato altrove in Gestione cespiti (ad esempio, in relazione a cespiti e ordini di lavoro) selezionare la riga del pezzo di ricambio quindi scegliere **Articolo utilizzato in** per aprire la pagina **Articolo utilizzato in**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

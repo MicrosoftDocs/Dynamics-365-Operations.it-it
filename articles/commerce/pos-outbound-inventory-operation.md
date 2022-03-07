@@ -2,16 +2,13 @@
 title: Operazione di magazzino in uscita in POS
 description: Questo argomento descrive le funzionalità dell'operazione di magazzino in uscita del punto vendita (POS).
 author: hhaines
-manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413342"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581139"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operazione di magazzino in uscita in POS
 
@@ -74,7 +71,7 @@ I lavori batch creati vengono utilizzati per elaborare i documenti che hanno res
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Prerequisito: aggiungere l'operazione in uscita al layout dello schermo del POS
 
-Prima che l'organizzazione possa utilizzare la funzionalità dell'operazione in uscita, è necessario configurare l'operazione del POS **Operazione in uscita** su uno o più [layout dello schermo del POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Prima di distribuire la nuova operazione in un ambiente di produzione, assicurarsi di testarla a lungo e addestrare gli utenti a usarla.
+Prima che l'organizzazione possa utilizzare la funzionalità dell'operazione in uscita, è necessario configurare l'operazione del POS **Operazione in uscita** su uno o più [layout dello schermo del POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Prima di distribuire la nuova operazione in un ambiente di produzione, assicurarsi di testarla a lungo e addestrare gli utenti a usarla.
 
 ## <a name="overview"></a>Panoramica
 
@@ -119,7 +116,7 @@ Nella pagina **Elenco completo ordini**, è possibile selezionare manualmente un
 
 ### <a name="over-delivery-shipping-validations"></a>Convalide della spedizione per consegna in eccesso
 
-Le convalide si verificano durante il processo di ricezione per le righe del documento. Includono le convalide per consegna in eccesso. Se un utente tenta di ricevere più scorte di quelle ordinate in un ordine fornitore ma la consegna in eccesso non è configurata o la quantità ricevuta supera la tolleranza di consegna in eccesso configurata per la riga dell'ordine fornitore, l'utente riceve un errore e non è consentito ricevere la quantità in eccesso.
+Le convalide si verificano durante il processo di evasione per le righe del documento. Includono le convalide per consegna in eccesso. Se un utente tenta di spedire più scorte di quelle ordinate in un ordine di trasferimento ma la consegna in eccesso non è configurata o la quantità spedita supera la tolleranza di consegna in eccesso configurata per la riga dell'ordine di trasferimento, l'utente riceve un errore e non è consentito spedire la quantità in eccesso.
 
 ### <a name="underdelivery-close-lines"></a>Riga chiusura limite minimo di fornitura
 
@@ -193,3 +190,6 @@ Gli ordini di trasferimento spediti in modo completo vengono spostati nella sche
 ## <a name="related-topics"></a>Argomenti correlati
 
 [Operazione di magazzino in ingresso in POS](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

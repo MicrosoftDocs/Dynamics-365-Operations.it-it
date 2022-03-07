@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 513d74af52c9b3581827b653d58c95d7d1f2f78a75bea03296495fed0ea85de7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771133"
 ---
 # <a name="change-work-pool-on-work"></a>Modifica pool di lavoro nel lavoro
 
@@ -28,9 +28,12 @@ ms.locfileid: "8102865"
 
 La funzionalità *Modifica pool di lavoro nel lavoro* aggiunge un pulsante **Modifica pool di lavoro** nel riquadro azioni per gli elementi di lavoro. Pertanto, i responsabili del magazzino possono facilmente modificare il pool di lavoro del lavoro esistente. Questa funzionalità consente ai manager di reagire rapidamente ai cambiamenti nello shop floor del magazzino e aiuta a migliorare la loro capacità di adattarsi alle situazioni mutevoli e alla necessità di trasferire il lavoro a un altro pool di lavoro.
 
-## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Attivare o disattivare la funzionalità Modifica pool di lavoro nel lavoro
+## <a name="turn-on-the-change-work-pool-on-work-feature"></a>Attivare la funzionalità Modifica pool di lavoro nel lavoro
 
-A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Modifica pool di lavoro nel lavoro* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Prima di iniziare a configurare o utilizzare questa funzionalità, è necessario assicurarsi che sia disponibile nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione Magazzino*
+- **Nome funzionalità:** *Modifica pool di lavoro nel lavoro*
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Configurare la funzionalità Modifica pool di lavoro nel lavoro
 

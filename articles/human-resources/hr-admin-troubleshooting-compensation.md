@@ -1,30 +1,32 @@
 ---
 title: Eseguire il processo retributivo
-description: In questo articolo viene descritto come risolvere un problema in cui il cliente tenta di eseguire il processo retributivo in Microsoft Dynamics 365 Human Resources ma senza riuscirvi.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: In questo argomento viene descritto come risolvere un problema in cui il cliente tenta di eseguire il processo retributivo in Microsoft Dynamics 365 Human Resources ma senza riuscirvi.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989a08ca8ce83fd01742f6b5ec537ee1fc825fca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c299846b00d034c80b1044271128a08222e5d3f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419143"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065403"
 ---
 # <a name="run-the-compensation-process"></a>Eseguire il processo retributivo
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Uscita**
 
@@ -40,10 +42,13 @@ La documentazione per la compensazione è elencata di seguito:
 
 - Attrezzaggio:
 
-    - [Piani di retribuzione](https://docs.microsoft.com/dynamics365/unified-operations/talent/compensation-plans)
-    - [Creare i piani di retribuzione fissa](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [Creare i piani di retribuzione variabile](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [Piani di retribuzione](/dynamics365/unified-operations/talent/compensation-plans)
+    - [Creare i piani di retribuzione fissa](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [Creare i piani di retribuzione variabile](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
 - Lavorazione:
 
-    - [Processo retributivo](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+    - [Processo retributivo](/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

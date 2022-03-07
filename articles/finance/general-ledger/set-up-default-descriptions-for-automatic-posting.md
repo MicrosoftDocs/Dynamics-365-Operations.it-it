@@ -2,24 +2,27 @@
 title: Impostare descrizioni predefinite per la registrazione automatica
 description: Questo argomento spiega come impostare il testo predefinito utilizzato per descrivere le voci contabili registrate automaticamente nella contabilità generale. È possibile impostare il testo di descrizione predefinito utilizzando il testo libero o selezionando variabili fisse.
 author: aprilolson
+manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722697"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444615"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Impostare descrizioni predefinite per la registrazione automatica
 
@@ -84,6 +87,3 @@ Dopo aver completato i passaggi descritti precedentemente in questo argomento ne
 2. Nel campo **Tabella riferimenti** selezionare la tabella del database da cui aggiungere i dati dei parametri alla descrizione.
 3. Nel campo **Campo riferimento** selezionare il campo da cui aggiungere i dati dei parametri alla descrizione.
 4. Ripetere i passaggi da 1 a 3 per aggiungere ulteriori parametri.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

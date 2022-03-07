@@ -2,25 +2,28 @@
 title: Dimensioni finanziarie e registrazione
 description: Quando si pianifica e si imposta il piano dei conti, è necessario considerare il modo in cui i vari componenti interagiscono durante la registrazione di un documento o un giornale di registrazione. Questi componenti includono strutture dei conti, regole avanzate nonché dimensioni fisse e di bilanciamento. In questo argomento vengono descritti i componenti e il modo in cui interagiscono.
 author: aprilolson
+manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778968"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444746"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensioni finanziarie e registrazione 
 
@@ -71,29 +74,29 @@ Gli utenti si pongono spesso domande in merito all'ordine in cui i vari componen
 
 L'illustrazione seguente mostra la dimensione predefinita fissa impostata nel conto principale 401100.
 
-[![Dimensioni finanziarie predefinite.](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Dimensioni finanziarie predefinite](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 In questo esempio elementare, immetteremo un giornale di registrazione generale in cui la dimensione Reparto è impostata per utilizzare il valore predefinito **023** (Operazioni). Inoltre, immetteremo e registreremo un conto CoGe. L'illustrazione seguente mostra la dimensione finanziaria predefinita nell'intestazione di contabilità generale.
 
-[![Giornali di registrazione generali.](./media/general-journal.png)](./media/general-journal.png)
+[![Giornali di registrazione generali](./media/general-journal.png)](./media/general-journal.png)
 
 La dimensione predefinita nell'intestazione del giornale di registrazione implica l'applicazione, per impostazione predefinita, del dipartimento 23 alla riga del conto vendite. L'illustrazione seguente mostra la riga del giornale di registrazione generale con applicato il valore di dimensione predefinito **023** dell'intestazione.
 
-[![Giustificativo giornale di registrazione.](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Giustificativo giornale di registrazione](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Tuttavia, alla registrazione delle riga, viene applicata la dimensione fissa e la riga viene registrata nel reparto 022. L'illustrazione seguente mostra il giustificativo registrato, dove la dimensione fissa è applicata per il conto vendite.
 
-[![Transazioni giustificativo con dimensione fissa applicata.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Transazioni giustificativo](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Esempio 2
 
 In questo esempio viene utilizzata la stessa impostazione del primo esempio. Aggiungeremo tuttavia un secondo componente e utilizzeremo la dimensione Reparto come dimensione di bilanciamento. Nell'illustrazione seguente, **Reparto** è impostato come dimensione finanziaria di bilanciamento per la contabilità generale USMF.
 
-[![Illustrazione che mostra Reparto come dimensione finanziaria di bilanciamento.](./media/ledger.png)](./media/ledger.png)
+[![Contabilità generale](./media/ledger.png)](./media/ledger.png)
 
 Quando si utilizza la stessa impostazione dell'intestazione del giornale di registrazione e si registra la stessa transazione, la dimensione fissa viene applicata per prima. Viene quindi applicata la logica di bilanciamento per garantire che ogni reparto ha una voce bilanciata. L'illustrazione seguente mostra transazioni giustificativo che includono la voce di bilanciamento dopo l'applicazione della dimensione fissa.
 
-[![Transazioni giustificative dopo l'applicazione della voce di bilanciamento.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Transazioni giustificativo](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Esempio 3
 
@@ -101,11 +104,11 @@ In questo esempio, aggiungeremo una regola avanzata. La regola avanzata specific
 
 Questo esempio è importante per via dell'ordine. La struttura dei conti viene determinata dopo l'immissione del conto principale. Se si fa riferimento all'impostazione della struttura dei conti, il sistema può determinare che il conto principale, la business unit, il reparto e il centro di costo sono rilevanti. A questo punto, la regola avanzata non è stata attivata, poiché le dimensioni fisse vengono applicate solo dopo l'applicazione delle dimensioni predefinite per il giustificativo del giornale di registrazione durante la registrazione. Nell'illustrazione seguente, il segmento Cliente non è presente poiché i criteri per la regola avanzata non sono stati soddisfatti.
 
-[![Conto CoGe.](./media/drop-down.png)](./media/drop-down.png)
+[![Conto CoGe](./media/drop-down.png)](./media/drop-down.png)
 
 La registrazione non riuscirà poiché la dimensione fissa è stata applicata alla fine del processo. La convalida della dimensione determina che il segmento Cliente è necessario se il conto principale è 401100 e il reparto è 022. La registrazione non può essere eseguita a causa di un errore di convalida. L'illustrazione seguente mostra il messaggio visualizzato dopo che la convalida della dimensione determina che il segmento Cliente è necessario.
 
-[![Dettagli messaggio.](./media/message.png)](./media/message.png)
+[![Dettagli messaggio](./media/message.png)](./media/message.png)
 
 In questo esempio, è necessario sovrascrivere il valore predefinito in modo da attivare la regola avanzata e immettere il segmento Cliente. Tuttavia, questa soluzione non è sempre possibile e alcuni utenti non sono nemmeno a conoscenza delle regole di registrazione. Di conseguenza, è importante comprendere l'ordine in cui le dimensioni predefinite sono applicate quando si imposta il piano dei conti.
 
@@ -119,11 +122,8 @@ Alcune delle seguenti risorse fanno riferimento a una versione precedente del no
 
 [Definire il piano dei conti](plan-chart-of-accounts.md) 
 
-[Blog Pianificazione del piano dei conti in AX 2012](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – Collegamento al primo di una serie di sette articoli.
+[Blog Pianificazione del piano dei conti in AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Collegamento al primo di una serie di sette articoli.
 
-[Impostazione predefinita delle dimensioni nelle distribuzioni contabili](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
+[Impostazione predefinita delle dimensioni nelle distribuzioni contabili](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
-[Impostazione predefinita delle dimensioni nel framework di dimensioni](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Impostazione predefinita delle dimensioni nel framework di dimensioni](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)

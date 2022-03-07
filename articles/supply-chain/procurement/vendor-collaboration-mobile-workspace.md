@@ -1,27 +1,25 @@
 ---
 title: Area di lavoro mobile di collaborazione fornitore
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Collaborazione fornitore. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020838"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577026"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Area di lavoro mobile di collaborazione fornitore
 
@@ -59,7 +57,7 @@ L'area di lavoro mobile **Collaborazione fornitore** consente a un fornitore di 
 I prerequisiti variano a seconda della versione di Microsoft Dynamics 365 che è stata installata nell'organizzazione.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Prerequisiti si utilizza Supply Chain Management
-Se Supply Chain Management è stato distribuito nell'organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Collaborazione fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se Supply Chain Management è stato distribuito nell'organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro mobile **Collaborazione fornitore**. Per istruzioni, vedere [Pubblicare un'area di lavoro mobile](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se si usa Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva
 Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operations versione 1611 con Aggiornamento piattaforma 3 o versione successiva, l'amministratore di sistema deve soddisfare i prerequisiti seguenti. 
@@ -69,7 +67,7 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 <tr class="header">
 <th>Prerequisito</th>
 <th>Ruolo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -79,7 +77,7 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 <td>KB 3216943 è un aggiornamento binario necessario se si utilizza l'aggiornamento 3 della piattaforma. Per implementare questo KB, l'amministratore di sistema deve completare i passaggi seguenti.
 <ol>
 <li>Eseguire il download di KB 3216943 da Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>Installare l'aggiornamento binario, che viene fornito come pacchetto distribuibile. Per informazioni su come applicare un pacchetto distribuibile, vedere <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Applicare un pacchetto distribuibile</a>.</li>
+<li>Installare l'aggiornamento binario, che viene fornito come pacchetto distribuibile. Per informazioni su come applicare un pacchetto distribuibile, vedere <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Applicare un pacchetto distribuibile</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 <td>Amministratore di sistema</td>
 <td>l'articoloo KB 4013633 è un aggiornamento X++ o aggiornamento rapido dei metadati contenente l'area di lavoro mobile <strong>Scorte disponibili</strong>. Per implementare l'articolo KB 4013633, l'amministratore di sistema deve completare i passaggi seguenti:
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Scaricare l'hotfix metadati da LCS</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installare l'aggiornamento rapido dei metadati</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Applicare il pacchetto distribuibile</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Scaricare l'hotfix metadati da LCS</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installare l'aggiornamento rapido dei metadati</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Creare un pacchetto distribuibile</a> contenente il modello <strong>SCMMobile</strong> e quindi caricare il pacchetto distribuibile in LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Applicare il pacchetto distribuibile</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>L'area di lavoro mobile <strong>Collaborazione fornitore</strong> deve essere pubblicata.</td><td>Amministratore di sistema</td>
-<td>Vedere <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Pubblicare un'area di lavoro mobile</a>.</td>
+<td>Vedere <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Pubblicare un'area di lavoro mobile</a>.</td>
 </tr>
 <tr class="even">
 <td>L'utente fornitore deve avere accesso all'interfaccia Web per la collaborazione fornitore nel client Web e deve impostare un utente di collaborazione fornitore.</td><td>Professionisti degli acquisti e amministratore di sistema</td>
@@ -122,12 +120,12 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 4.  La prima volta che si accede viene richiesto di inserire il proprio nome utente e la password. Immettere le proprie credenziali.
 5.  Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società. Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.
 
-    [![Effettuare il pull per l'aggiornamento](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Trascinare verso il basso.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Utilizzare l'area di lavoro mobile Collaborazione fornitore
 Quando si seleziona l'area di lavoro **Collaborazione fornitore** sono disponibili le seguenti opzioni.
 
-![Area di lavoro mobile di collaborazione fornitore](./media/vendor-collaboration-mobile-app.png)
+![Area di lavoro mobile di collaborazione fornitore.](./media/vendor-collaboration-mobile-app.png)
 
 L'area di lavoro **Collaborazione fornitore** include le seguenti pagine.
 
@@ -169,3 +167,6 @@ Tutte le modifiche apportate alla risposta della riga ordine sono visualizzate. 
 
 ### <a name="open-confirmed-orders"></a>Ordini confermati aperti
 Quando l'ordine fornitore viene confermato dall'utente (vale a dire, quando lo stato dell'ordine fornitore viene impostato su **Confermato**), l'ordine appare nell'ordine confermato aperto. Resterà nell'elenco fino a quando non verrà registrato come ricevuto dal cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

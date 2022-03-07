@@ -2,9 +2,11 @@
 title: Creare e aggiornare gli orari del punto vendita
 description: In questo argomento viene descritto come creare e aggiornare gli orari del punto vendita in Commerce Headquarters.
 author: josaw1
+manager: AnnBe
 ms.date: 7/30/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 703087f5311205e18b6b8f99b847b539770160b91574b12d505822c8e16ca96c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00c532dfa9ceed2cda6652496d874cb82785dc7b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770096"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230642"
 ---
 # <a name="create-and-update-store-hours"></a>Creare e aggiornare gli orari del punto vendita
 
@@ -49,14 +51,14 @@ Attenersi a questa procedura per configurare gli orari del punto vendita.
     > [!NOTE]
     > È possibile creare più modelli con date di inizio e di fine che si sovrappongono. Di conseguenza, è ad esempio possibile definire gli orari dei punti vendita con fusi orari differenti.
 
-    ![Finestra di dialogo Aggiungi intervallo.](../dev-itpro/media/Storehours1.png "Finestra di dialogo Aggiungi intervallo")
+    ![Finestra di dialogo Aggiungi intervallo](../dev-itpro/media/Storehours1.png "Finestra di dialogo Aggiungi intervallo")
 
 4. Associare il modello di orari ai punti vendita in cui verrà utilizzato. Nella finestra di dialogo **Scegli nodi organizzazione**, selezionare i punti vendita, le aree geografiche e le organizzazioni a cui il modello deve essere associato.
 
     - Un solo modello di orari può essere associato a ogni punto vendita.
     - Utilizzare i pulsanti freccia per selezionare punti vendita, aree geoagrafiche o organizzazioni. Il calendario sarà disponibile nei punti vendita o nei gruppi di punti vendita e sarà visibile nel POS come riferimento.
 
-    ![Finestra di dialogo Scegli nodi organizzazione.](../dev-itpro/media/Storehours2.png "Finestra di dialogo Scegli nodi organizzazione")
+    ![Finestra di dialogo Scegli nodi organizzazione](../dev-itpro/media/Storehours2.png "Finestra di dialogo Scegli nodi organizzazione")
 
 5. Nella pagina **Programmazione della distribuzione**, eseguire i processi **1070** e **1090** per rendere disponibili gli orari del punto vendita nel POS.
 
@@ -75,7 +77,7 @@ Seguire questi passaggi per aggiungere gli orari del punto vendita sulle ricevut
 
 Le ricevute POS ora includono gli orari del punto vendita. Se nel modello sono state incluse le festività, saranno visualizzate sulla ricevuta.
 
-![Esempio di ricevuta.](../dev-itpro/media/Storehours3.png "Esempio di ricevuta")
+![Esempio di ricevuta](../dev-itpro/media/Storehours3.png "Esempio di ricevuta")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

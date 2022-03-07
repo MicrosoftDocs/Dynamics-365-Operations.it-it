@@ -2,11 +2,9 @@
 title: Importazione di protesti effetti attivi
 description: Questo argomento spiega come impostare e importare le informazioni di protesto da un file di protesto effetto attivo.
 author: neserovleo
-manager: AnnBe
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Italy
 ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: cd46a1c745379233e6b4168cf68c8dc6a9247c10
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6ec7cdb37b51cac2492ed875e8d8fae601d89ccb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962608"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814930"
 ---
 # <a name="bills-of-exchange-protest-import"></a>Importazione di protesti effetti attivi 
 
@@ -48,3 +46,6 @@ Nella pagina **Metodo di pagamento - clienti**, abilitare il parametro **Formato
 1. Per importare il file, creare un giornale di registrazione  **Protesta effetto attivo**, quindi selezionare **Righe giornale di registrazione**.
 2. Selezionare **Funzioni** \> **Importa protesto**.
 3. Nella finestra di dialogo selezionare il metodo di pagamento per l'importazione del protesto e allegare il file. Le righe del giornale di registrazione vengono create in base alle informazioni nel file.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkTimeTable, WorkTimeCopyDayDialog, WorkPeriodTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5bd1b384fe66dd7d59b776bdf1154cc5b8262ce
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9829e91500abf8cba3f7cbfe2f89863cb2b1f4c4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430855"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257365"
 ---
 # <a name="create-working-time-templates"></a>Creare modelli di orario di lavoro
 
@@ -79,3 +78,6 @@ I modelli di orario di lavoro definiscono le ore lavorative di una settimana e v
 3. Espandere la sezione Domenica.
 4. Selezionare Sì nel campo Chiuso per prelievo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

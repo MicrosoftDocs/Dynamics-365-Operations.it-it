@@ -2,28 +2,25 @@
 title: Panoramica degli oggetti assistenza
 description: Gli oggetti assistenza sono i cespiti cliente e i prodotti per i quali è possibile prestare assistenza.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29d2cf6a496fed8d9932d5c6d49f4560d7eabbbb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ded41bb49c9ce4f0ceb003d1d7537aa4b2023a60
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430835"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840487"
 ---
 # <a name="service-objects-overview"></a>Panoramica degli oggetti assistenza
 
@@ -47,3 +44,6 @@ La società A gestisce i record finanziari per diverse piccole imprese. Uno dei 
 
 [Creare oggetti assistenza](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Configura strutture dei conti
 description: In questo argomento vengono fornite informazioni sulle strutture dei conti e le dimensioni finanziarie.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
-ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
+ms.openlocfilehash: f9c7fd8fcad7de3ec8b4b23d5c5e6456ae3ef372
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "7945543"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212351"
 ---
 # <a name="configure-account-structures"></a>Configura strutture dei conti
 
@@ -46,9 +48,9 @@ Per illustrare una procedura guidata per l'impostazione di una struttura dei con
 
 **Struttura dei conti profitti e perdite**
 
-|Conto principale          | Business Unit    |Reparto          | Centro di costo    | &nbsp; |
-|----------------------|------------------|--------------------|-----------|---|
-|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
+|Conto principale          | Business Unit    |Reparto          | Centro di costo    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | *;" "|*;" "|*;" "|*;" "|
 
 **Regola avanzate per l'aggiunta di un cliente**
 
@@ -65,7 +67,7 @@ Le sezioni **Segmenti** e **Dettagli valori consentiti** contengono una grigli c
 
 La sezione **Dettagli valori consentiti** fornisce le istruzioni per creare i criteri utilizzando **Operatori** come inizia con, è compreso in, include e molti altri.
 
-[![Valori consentiti.](./media/account.png)](./media/account.png) 
+[![Valori consentiti](./media/account.png)](./media/account.png) 
 
 I valori consentiti vengono impostati su un pagina delle voci di distribuzione contabile o giornale di registrazione quando non sono presenti altri valori possibili da selezionare in base alla configurazione della struttura dei conti.
 
@@ -101,7 +103,7 @@ Quando si impostano le strutture dei conti esistono alcune procedure consigliate
 - Basta non mettere un asterisco per ogni segmento nella struttura dei conti e quindi affidarsi solo alle regole avanzate. Questa situazione può essere difficile da gestire e spesso porta a errori da parte dell'utente durante la manutenzione che possono impedire al sistema di registrare.
 
 ## <a name="account-structure-activation"></a>Attivazione struttura dei conti
-Quando sei soddisfatto della nuova impostazione o di una modifica della struttura dei conti, devi attivarla. Se una struttura dei conti è assegnata a una contabilità generale, questa attivazione può essere un processo lungo, in quanto tutte le transazioni non registrate nel sistema devono essere sincronizzate con la nuova struttura. Le transazioni registrate non vengono influenzate dalle modifiche della struttura dei conti.
+Quando si è soddisfatti della nuova impostazione o di una modifica della struttura dei conti, è necessario attivarla. Se una struttura dei conti è assegnata a una contabilità generale, questa attivazione può essere un processo lungo, in quanto tutte le transazioni non registrate nel sistema devono essere sincronizzate con la nuova struttura. Le transazioni registrate non vengono influenzate dalle modifiche della struttura dei conti.
 
 Per ulteriori informazioni, vedere [Definire il piano dei conti](plan-chart-of-accounts.md), [Dimensioni finanziarie](financial-dimensions.md) e [Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)](enter-account-dimension-combinations-segmented-entry-control.md).
 

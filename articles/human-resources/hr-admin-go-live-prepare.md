@@ -2,11 +2,9 @@
 title: Preparare per passare alla fase operativa di Human Resources
 description: Questa pagina fornisce indicazioni su come prepararsi per la fase operativa con Dynamics 365 Human Resources.
 author: rachel-profitt
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4419273"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795143"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Preparare per passare alla fase operativa di Human Resources
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,28 +53,36 @@ La tabella seguente elenca tutti i passaggi del processo, la durata prevista e c
 
 ## <a name="completing-the-lcs-methodology"></a>Completamento della metodologia LCS
 
-Un passaggio fondamentale principale in ogni progetto di implementazione è il passaggio all'ambiente di produzione. 
-
-Per garantire che l'ambiente di produzione venga utilizzato per le operazioni in tempo reale, Microsoft effettua il provisioning dell'istanza di produzione solo quando l'implementazione si avvicina alla fase **operativa** dopo il completamento delle attività richieste nella metodologia LCS. Per ulteriori informazioni sugli ambienti nell'abbonamento, vedere la [Guida alle licenze di Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
-
-I clienti devono completare le fasi **Analisi**, **Progetta e sviluppa** e **Test** della metodologia LCS prima che il pulsante  **Configura**  diventa disponibile per la richiesta dell'ambiente di produzione. Per completare una fase in LCS, è necessario prima completare ogni passaggio richiesto in quella fase. Quando tutti i passaggi di una fase sono stati completati, è possibile completare l'intera fase. È sempre possibile riaprire una fase in un secondo momento se è necessario apportare modifiche. Per altre informazioni, vedere  [Lifecycle Services (LCS) per i clienti di app Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
-
-Il processo di completamento di un passaggio ha due parti: 
+Un passaggio fondamentale principale in ogni progetto di implementazione è il passaggio all'ambiente di produzione. Il processo di completamento di un passaggio ha due parti: 
 
 - Effettuare il lavoro effettivo, come un'analisi degli scostamenti/adeguatezza o un test di accettazione dell'utente (UAT). 
 - Contrassegnare il passaggio corrispondente nella metodologia LCS come completato. 
 
-È una buona norma completare i passaggi della metodologia man mano che si procede con l'implementazione. Non aspettare l'ultimo minuto. Non limitare a fare clic su tutti i passaggi in modo da poter ottenere un ambiente di produzione. È nell'interesse del cliente avere un'implementazione solida. 
+È una buona norma completare i passaggi della metodologia man mano che si procede con l'implementazione. Non aspettare l'ultimo minuto. È nell'interesse del cliente avere un'implementazione solida. 
 
 ## <a name="uat-for-your-solution"></a>UAT per la soluzione
 
 Durante la fase UAT, è necessario testare tutti i processi aziendali implementati e le eventuali personalizzazioni apportate in un ambiente Sandbox nel progetto di implementazione. Per garantire un fase operativa di successo, è necessario considerare quanto segue durante il completamento della fase UAT: 
 
+- Si consiglia di avviare il processo UAT con un ambiente pulito e aggiornato in cui i dati della configurazione GOLD vengono copiati nell'ambiente prima dell'inizio del processo UAT. Si consiglia di utilizzare l'ambiente di produzione come ambiente GOLD fino alla fase operativa, momento in cui l'ambiente diventa di produzione.
 - I test case coprono l'intero ambito dei requisiti. 
 - Eseguire il test utilizzando i dati migrati. Questi dati devono includere dati master come lavoratori, mansioni e posizioni. Includere anche i saldi di apertura, come i ratei per congedi e assenze. Infine, includere le transazioni aperte, come le attuali iscrizioni ai benefit. Completare il test con tutti i tipi di dati, anche se il set di dati non è finalizzato. 
 - Eseguire il test utilizzando i ruoli di sicurezza corretti (ruoli predefiniti e ruoli personalizzati) assegnati agli utenti. 
 - Assicurarsi che la soluzione sia conforme a tutti i requisiti normativi specifici dell'azienda e del settore. 
 - Documentare tutte le funzionalità e ottenere l'approvazione dal cliente. 
+
+## <a name="mock-go-live"></a>Simulazione della fase operativa
+
+Prima della fase operativa, è necessario eseguire la relativa simulazione per testare i passaggi necessari per il passaggio dai sistemi legacy al nuovo sistema. Devi eseguire la simulazione della fase operativa in un ambiente sandbox e includere tutti i passaggi nel piano di passaggio.
+
+- Si consiglia di utilizzare l'ambiente di produzione come ambiente di configurazione GOLD fino alla fase operativa.
+- Assicurati di disporre di un solido processo di governance per proteggere l'ambiente di produzione da transazioni o aggiornamenti accidentali prima della fase operativa.
+- Quando sei pronto per eseguire l'UAT o la simulazione della fase operativa, aggiorna l'ambiente sandbox dall'ambiente di produzione. Per ulteriori informazioni, vedi [Copiare un'istanza](hr-admin-setup-copy-instance.md).
+- Testa ogni passaggio del tuo piano di cutover nell'ambiente sandbox, quindi convalida l'ambiente sandbox eseguendo controlli a campione o eseguendo test dagli script UAT nell'ambiente.
+  - I test dovrebbero includere tutte le migrazioni dei dati, comprese le trasformazioni necessarie per la fase operativa.
+  - Il processo dovrebbe includere una data limite pratica per tutti i sistemi legacy.
+  - Assicurati di includere eventuali passaggi del cutover dell'integrazione o passaggi del sistema esterno nel tuo cutover simulato.
+- Se riscontri problemi durante il cutover simulato, potrebbe essere necessario un secondo cutover simulato. Per questo motivo, ti consigliamo di pianificare due tagli simulati nel tuo piano di progetto.
 
 ## <a name="fasttrack-go-live-assessment"></a>Valutazione della fase operativa FastTrack
 
@@ -91,3 +99,6 @@ Dopo aver inviato l'elenco di controllo, il FastTrack Solution Architect esamine
 ## <a name="see-also"></a>Vedere anche
 
 [Domande frequenti fase operativa](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

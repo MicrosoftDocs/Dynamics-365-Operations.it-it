@@ -2,27 +2,24 @@
 title: Panoramica dell'ambiente di valutazione Dynamics 365 Commerce
 description: In questo argomento viene fornita una panoramica dell'ambiente di valutazione Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
+ms.reviewer: josaw
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: v-chgri
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3a16b771dc352ac30957f108da1f8e3727136207
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413350"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338329"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Panoramica dell'ambiente di valutazione Dynamics 365 Commerce
 
@@ -32,8 +29,6 @@ In questo argomento viene fornita una panoramica dell'ambiente di valutazione Mi
 
 > [!NOTE]
 > Gli ambienti di valutazione di Commerce non sono generalmente disponibili e sono concessi a partner e clienti in base alla richiesta. Per ulteriori informazioni, contattare il partner Microsoft.
-
-## <a name="overview"></a>Panoramica
 
 L'ambiente di valutazione Commerce è un ambiente di anteprima completo facoltativo di Dynamics 365 Commerce che consente ai partner e ai potenziali clienti di provare il prodotto Commerce.
 
@@ -64,3 +59,6 @@ Per effettuare il provisioning dell'ambiente di valutazione Commerce, consultare
 [Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

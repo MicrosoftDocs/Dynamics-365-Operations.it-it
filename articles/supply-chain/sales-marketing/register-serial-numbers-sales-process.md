@@ -1,30 +1,27 @@
 ---
 title: Utilizzo degli articoli serializzati
 description: In questo argomento viene descritto come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 989dcca499f6d27ae9680f184978d5500397fa57
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431075"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571691"
 ---
 # <a name="working-with-serialized-items"></a>Utilizzo degli articoli serializzati
 
@@ -55,8 +52,8 @@ Se un numero di serie non può essere letto o digitalizzato, è possibile creare
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>È possibile correggere o modificare i numeri di serie registrati per un ordine cliente?
 Sì, e possibile correggere i numeri di serie se vengono soddisfatte le seguenti condizioni:
--   **Fatture** : è possibile modificare i numeri di serie per gli articoli non ancora fatturati. Anche il documento di trasporto viene aggiornato. Tuttavia, se una riga ordine cliente è stata corretta registrando una quantità negativa, non è possibile modificare i numeri di serie di questa riga.
--   **Documenti di trasporto** : non è possibile correggere parzialmente una riga del documento di trasporto contenente gli articoli serializzati. È necessario stornare la quantità totale della riga. Se un documento di trasporto è stato annullato o corretto, non è necessario registrare di nuovo i numeri di serie stornati quando si crea un nuovo documento di trasporto per gli stessi articoli serializzati. Verranno utilizzati i numeri registrati.
+-   **Fatture**: è possibile modificare i numeri di serie per gli articoli non ancora fatturati. Anche il documento di trasporto viene aggiornato. Tuttavia, se una riga ordine cliente è stata corretta registrando una quantità negativa, non è possibile modificare i numeri di serie di questa riga.
+-   **Documenti di trasporto**: non è possibile correggere parzialmente una riga del documento di trasporto contenente gli articoli serializzati. È necessario stornare la quantità totale della riga. Se un documento di trasporto è stato annullato o corretto, non è necessario registrare di nuovo i numeri di serie stornati quando si crea un nuovo documento di trasporto per gli stessi articoli serializzati. Verranno utilizzati i numeri registrati.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>È possibile visualizzare i numeri di serie forniti con un documento di trasporto specifico o inclusi in una fattura?
 Sì, è possibile eseguire una richiesta di informazioni nella riga del giornale di registrazione del documento di trasporto o nella riga del giornale di registrazione fatture per visualizzare un elenco di tutti i numeri di serie inclusi nel documento.
@@ -69,7 +66,7 @@ No, durante il processo di vendita non è possibile registrare i numeri di serie
 
 ## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Posso registrare i numeri di serie presso i terminali Retail POS?
 
-Sì, al terminale Retail POS verrà richiesto all'utente di immettere un numero di serie quando l'utente vende un articolo assegnato a un gruppo di dimensioni di tracciabilità impostato per l'utilizzo dei numeri di serie solo durante il processo di vendita.
+Sì, al terminale Retail POS verrà richiesto all'utente di immettere un numero di serie quando l'utente vende un articolo assegnato a un gruppo di dimensioni di tracciabilità impostato per l'utilizzo dei numeri di serie solo durante il processo di vendita.
 
 ## <a name="what-security-roles-are-required-in-order-to-register-serial-numbers-during-the-sales-process"></a>Quali ruoli di sicurezza sono necessari per registrare i numeri di serie durante il processo di vendita?
 Questa funzionalità è disponibile per tutti i ruoli che possono gestire i documenti di trasporto e le fatture di vendita. I compiti seguenti consentono ai lavoratori di correggere i numeri di serie e registrare voci vuote per i numeri di serie che non possono essere letti o sottoposti a scansione:
@@ -80,3 +77,6 @@ Questa funzionalità è disponibile per tutti i ruoli che possono gestire i docu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

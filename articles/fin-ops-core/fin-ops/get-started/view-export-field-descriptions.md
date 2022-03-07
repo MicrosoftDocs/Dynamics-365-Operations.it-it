@@ -2,11 +2,9 @@
 title: Visualizzare ed esportare le descrizioni campi
 description: In questo articolo viene descritto come visualizzare le descrizioni dei campi e come utilizzare la pagina Descrizioni campi per esportare le descrizioni.
 author: rschloma
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39dd9a86ffb04d18f61c75fb2c9634e441dc823b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 9fe3a1b0c278839069ebd3d047f8052e9da25203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797901"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348583"
 ---
 # <a name="view-and-export-field-descriptions"></a>Visualizzare ed esportare le descrizioni campi
 
@@ -45,7 +43,7 @@ Se si ha accesso all'ambiente di sviluppo è possibile aggiungere nuove descrizi
 
 La seguente illustrazione mostra la descrizione che viene visualizzata quando si passa con il mouse sul campo **Blocca articoli durante il conteggio**.
 
-[![Esempio di una descrizione di campo](./media/field-description.png)](./media/field-description.png)
+[![Esempio di una descrizione di campo.](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Utilizzare la pagina Descrizioni campi per visualizzare ed esportare la Guida sui campi
 
@@ -107,3 +105,6 @@ Per informazioni sui vari modi per trovare le pagine, vedere la sezione "Ricerca
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Personalizzare le descrizioni dei campi](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

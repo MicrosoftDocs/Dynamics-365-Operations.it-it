@@ -2,16 +2,13 @@
 title: Definire gli sconti specifici del canale
 description: I rivenditori fissano spesso sconti diversi in canali diversi. In questo argomento vengono esaminati i concetti che è necessario conoscere per creare uno sconto per un canale specifico.
 author: scott-tucker
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 539a6f2df46450c5e0fd18ba69501432d6f3fbdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14b6f8f4a7d344111718fad94418bc3dbb5c9b1e113c0fd613350c49a2511d4f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413466"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759313"
 ---
 # <a name="define-channel-specific-discounts"></a>Definire gli sconti specifici del canale
 
@@ -38,9 +35,9 @@ I rivenditori offrono spesso sconti diversi in canali diversi. Questa strategia 
 
 Commerce utilizza i gruppi di prezzi per definire gli sconti specifici del canale. I gruppi di prezzi possono essere assegnati a una o più delle entità seguenti: canali, cataloghi, affiliazioni e programmi fedeltà. In questo articolo vengono illustrati i canali, ma gli stessi concetti si applicano per gli sconti di catalogo, gli sconti di affiliazioni e gli sconti fedeltà.
 
-## <a name="price-groups"></a>Gruppi prezzi
+## <a name="price-groups"></a>Gruppi di prezzi
 
-[![Gruppi prezzi](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![Gruppi prezzi.](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 Il diagramma precedente illustra la relazione tra le entità che possono essere presenti in una transazione (canale, catalogo, affiliazione, cliente, carta fedeltà) e i vari tipi di sconto che possono essere configurati. Tutte le transazioni si verificano in un canale, pertanto il canale è sicuramente presente in una transazione. Le entità rimanenti sono facoltative. In ogni pagina anagrafica è presente un collegamento a una pagina correlata dei gruppi di prezzi in cui è possibile visualizzare e aggiungere i gruppi di prezzi in base alle necessità. Un gruppo di prezzi viene utilizzato per collegare quattro diversi tipi di entità agli sconti, le rettifiche prezzo e gli accordi commerciali. È consigliabile progettare una strategia sui nomi da assegnare ai gruppi di prezzi per tenerli organizzati. Un'opzione consiste nell'utilizzare un prefisso o un suffisso numerico o letterale per distinguere i diversi tipi. Ad esempio, 1-xxxxx per gruppi di prezzi del canale e 2-xxxxx per gruppi di prezzi del catalogo. Sono disponibili quattro pagine di richiesta che si concentrano in ciascuna delle entità di commercio che possono essere associate.
 
@@ -62,3 +59,6 @@ Nel seguente esempio sono illustrate le attività in questione nell'impostazione
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Rettifiche prezzi e sconti](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

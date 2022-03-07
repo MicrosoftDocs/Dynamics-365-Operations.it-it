@@ -1,12 +1,10 @@
 ---
 title: Cespiti in entrata e in uscita
 description: Viene descritta la procedura per la registrazione dei cespiti in entrata e in uscita in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 86d85d280b32834c36691535a019ef6d5141bf93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018073"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356023"
 ---
 # <a name="inbound-and-outbound-assets"></a>Cespiti in entrata e in uscita
 
@@ -44,7 +42,7 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 3. Selezionare **Aggiorna stato della richiesta di intervento di manutenzione**.
 4. Selezionare **In entrata** (o un altro stato del ciclo di vita creato per i cespiti in entrata), quindi **OK**.
 
-![Registrare cespiti come in entrata](media/07-manage-maintenance-requests.png)
+![Registrare cespiti come in entrata.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Registrare i cespiti in entrata come ricevuti
 
@@ -53,7 +51,7 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 3. Selezionare **Ricevi cespiti**.
 4. Nel campo **Ricevuto** immettere la data e l'ora. Selezionare **OK**. Il record verrà rimosso dalla pagina elenco **Cespiti in entrata**.
 
-![Registrare i cespiti in entrata come ricevuti](media/08-manage-maintenance-requests.png)
+![Registrare i cespiti in entrata come ricevuti.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Registrare cespiti come in uscita
 
@@ -70,3 +68,6 @@ Dopo aver completato il processo di riparazione o manutenzione, è possibile reg
 2. Selezionare il cespite o la richiesta di intervento di manutenzione.
 3. Selezionare **Consegna cespiti**.
 4. Nel campo **Consegnato** immettere la data e l'ora. Selezionare **OK**. Il record verrà rimosso dalla pagina elenco **Cespiti in uscita**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

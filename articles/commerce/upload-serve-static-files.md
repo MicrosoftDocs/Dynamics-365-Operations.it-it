@@ -1,33 +1,29 @@
 ---
-title: Caricare e fornire file statici
+title: Caricare e utilizzare file statici
 description: Questo argomento descrive come caricare un file statico nel generatore di siti di Microsoft Dynamics 365 Commerce e come creare un URL e un nome file personalizzati che possono essere utilizzati per richiedere quel file.
 author: StuHarg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 981bbf03480abfd812b4020173b7acfdad0fef14
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714685"
 ---
-# <a name="upload-and-serve-static-files"></a>Caricare e fornire file statici
+# <a name="upload-and-serve-static-files"></a>Caricare e utilizzare file statici
 
-[!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
 Questo argomento descrive come caricare un file statico nel generatore di siti di Microsoft Dynamics 365 Commerce e come creare un URL e un nome file personalizzati che possono essere utilizzati per richiedere quel file.
 
@@ -107,3 +103,6 @@ Per modificare il percorso dell'URL, eseguire le operazioni indicate di seguito.
 [Tagliare immagini](dam-crop-images.md)
 
 [Personalizzare punti focali immagine](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

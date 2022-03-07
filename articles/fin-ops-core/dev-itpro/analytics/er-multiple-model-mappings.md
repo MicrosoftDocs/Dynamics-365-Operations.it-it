@@ -2,9 +2,11 @@
 title: Gestire diversi mapping derivati per una singola radice del modello
 description: Questo argomento spiega come gestire diversi mapping derivati configurati per una singola radice del modello.
 author: NickSelin
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -13,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324114"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826111"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gestire diversi mapping derivati per una singola radice del modello
 
 [!include [banner](../includes/banner.md)]
 
-Un modello di dati di [Creazione di report elettronici (ER)](general-electronic-reporting.md) viene utilizzato in ogni componente formato di report elettronico configurato come origine dati per generare documenti in uscita. Per descrivere un singolo dominio aziendale, configura un componente del modello di dati che abbia molte definizioni radice. 
+Un [modello](general-electronic-reporting.md#data-model-and-model-mapping-components) di dati [Creazione di report elettronici (ER)](general-electronic-reporting.md) viene utilizzato in ogni componente [formato](general-electronic-reporting.md#FormatComponentOutbound) di report elettronico configurato come origine dati per generare documenti in uscita. Per descrivere un singolo dominio aziendale, configura un componente del modello di dati che abbia molte definizioni radice. 
 
-Ogni definizione radice consente di rappresentare i dati di quel dominio nel modo più adatto a scopi di creazione di report specifici. Per ogni definizione di radice, puoi configurare un componente di mapping dei modelli di creazione di report elettronici come Microsoft Dynamics 365 Finance, implementazione specifica del modello di dati. In questo modo, descrivi come verrà compilato il tuo modello di dati in fase di esecuzione.
+Ogni definizione radice consente di rappresentare i dati di quel dominio nel modo più adatto a scopi di creazione di report specifici. Per ogni definizione di radice, puoi configurare un componente di [mapping dei modelli](general-electronic-reporting.md#data-model-and-model-mapping-components) di creazione di report elettronici come Microsoft Dynamics 365 Finance, implementazione specifica del modello di dati. In questo modo, descrivi come verrà compilato il tuo modello di dati in fase di esecuzione.
 
 I componenti di mapping del modello di creazione di report elettronici (ER) possono risiedere nelle [configurazioni](general-electronic-reporting.md#Configuration)del modello di dati ER e nelle configurazioni del mapping del modello ER. Una singola configurazione ER può contenere molti componenti di mapping, ognuno dei quali è configurato per una singola definizione di radice. In alternativa, una singola configurazione ER può contenere un solo componente di mapping configurato per una singola definizione di radice.
 
@@ -55,7 +57,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Finance, è
 2. Nella pagina **Configurazioni localizzazione**, nella sezione **Configurazioni**, selezionare il riquadro **Configurazioni report**.
 3. Nella pagina **Configurazioni**, nella struttura delle configurazioni del riquadro sinistro, espandi **Modello di fattura**.
 
-    ![Esame delle configurazioni importate nella pagina Configurazioni.](./media/er-multiple-model-mappings-image1.png)
+    ![Revisione delle configurazioni importate nella pagina Configurazioni](./media/er-multiple-model-mappings-image1.png)
 
 4. Rivedi il formato **Fattura a testo libero (Excel)**:
 
@@ -66,7 +68,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Finance, è
     
        Il formato ER corrente è configurato per utilizzare la definizione di radice **InvoiceCustomer** di **Modello di fattura**. Quando viene eseguito questo formato, e viene chiamata l'origine dati **Modello**, il mapping del modello configurato per la definizione di radice **InvoiceCustomer** viene utilizzato per accedere ai dati dell'applicazione e compilare il modello di dati.
 
-        ![Esame dell'origine dati modello nella finestra di progettazione Formato.](./media/er-multiple-model-mappings-image2.png)
+        ![Revisione dell'origine dati del modello nella pagina di progettazione del formato](./media/er-multiple-model-mappings-image2.png)
 
     6. Chiudere la pagina **Progettazione formati**.
 
@@ -79,7 +81,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Finance, è
         + Il mapping del modello **Fattura cliente** è configurato per la definizione radice **InvoiceCustomer** di **Modello di fattura**. Pertanto, quando viene eseguito il formato ER **Fattura a testo libero (Excel)**, il mapping del modello **Fattura cliente** di questa configurazione ER può essere scelto per accedere ai dati dell'applicazione e compilare il modello di dati.
         + Il mapping del modello **Fattura progetto** è configurato per la definizione radice **InvoiceProject** di **Modello di fattura**. Pertanto, quando viene eseguito il formato ER **Fattura progetto(Excel)**, il mapping del modello **Fattura progetto** di questa configurazione ER può essere scelto per accedere ai dati dell'applicazione e compilare il modello di dati.
 
-        ![Mapping modello fattura nella pagina Modello per mapping origine dati.](./media/er-multiple-model-mappings-image3.png)
+        ![Mapping del modello di fattura nella pagina Modello per mapping origine dati](./media/er-multiple-model-mappings-image3.png)
 
     4. Chiudere la pagina **Modello per mapping origine dati**.
     5. Nella Scheda dettaglio **Versioni**, seleziona **Elimina** per eliminare tutte le versioni di questa configurazione ER che sono successive alla versione 240.175.
@@ -90,7 +92,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Finance, è
     2. Nel riquadro azioni selezionare **Progettazione**.
     3. Nella pagina **Modello per mapping origine dati** si noti che l'attuale configurazione del mapping del modello ER contiene il mapping del modello **InvoiceProject** e che questo mapping del modello è configurato per la definizione radice **InvoiceProject** di **Modello di fattura**. Quando viene eseguito il formato ER **Fattura progetto(Excel)**, seleziona il mapping del modello **InvoiceProject** di questa configurazione ER per accedere ai dati dell'applicazione e compilare il modello di dati.
 
-        ![Mapping del modello di fattura progetto nella pagina Modello per mapping origine dati.](./media/er-multiple-model-mappings-image4.png)
+        ![Mapping del modello di fattura di progetto nella pagina Modello per mapping origine dati](./media/er-multiple-model-mappings-image4.png)
 
     4. Chiudere la pagina **Modello per mapping origine dati**.
     5. Nella Scheda dettaglio **Versioni**, seleziona **Elimina** per eliminare tutte le versioni di questa configurazione ER che sono successive alla versione 226.35.
@@ -115,7 +117,7 @@ Questa sezione spiega come [personalizzare](er-quick-start3-customize-report.md#
 
 7. Nel riquadro azioni seleziona **Progettazione** per rivedere i mapping del modello di questa configurazione.
 
-    ![Esame dei mapping modello fattura nella pagina Modello per mapping origine dati.](./media/er-multiple-model-mappings-image5.png)
+    ![Revisione dei mapping del modello di fattura di progetto nella pagina Modello per mapping origine dati](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > È ora possibile aprire uno qualsiasi dei componenti di mapping del modello ER di questa configurazione ER nella finestra di progettazione per configurare la logica personalizzata. Per ulteriori informazioni, vedere [Personalizzare la configurazione del mapping di modello](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -126,7 +128,7 @@ Adesso hai le configurazioni **Mapping del modello di fattura** e **Mapping del 
  
 > Esiste più di un mapping del modello per il modello di dati "\<model name\> (\<root descriptor\>)" nelle configurazioni \<configuration names separated by commas\>. Imposta una delle configurazioni come predefinita.
 
-![Apertura del formato per la modifica nella pagina Configurazioni.](./media/er-multiple-model-mappings-image6.gif)
+![Apertura del formato per la modifica nella pagina Configurazioni](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Personalizzare la configurazione del mapping del modello di fattura di progetto (RDP)
 
@@ -138,7 +140,7 @@ Adesso hai le configurazioni **Mapping del modello di fattura** e **Mapping del 
 6. Per la configurazione **Mapping del modello fattura di progetto** attualmente selezionata nell'albero di configurazione, imposta l'opzione **Esegui bozza** su **Sì**.
 7. Nel riquadro azioni seleziona **Progettazione** per rivedere i mapping del modello di questa configurazione.
 
-    ![Esaminare i mapping modello di fattura progetto personalizzati nella pagina Modello per mapping origine dati.](./media/er-multiple-model-mappings-image7.png)
+    ![Rivedere i mapping del modello di fattura di progetto personalizzati nella pagina Modello per mapping origine dati](./media/er-multiple-model-mappings-image7.png)
 
 8. Chiudere la pagina **Modello per mapping origine dati**.
 
@@ -149,7 +151,7 @@ Adesso hai a disposizione le configurazioni **Mapping del modello di fattura**, 
 1. Nella pagina **Configurazioni**, nella struttura delle configurazioni del riquadro sinistro, selezionare **Mapping di modello di fattura Litware**.
 2. Impostare l'opzione **Impostazione predefinita per mapping di modello** su **Sì**.
 
-    ![Impostazione del mapping modello come mapping modello predefinito nella pagina Configurazioni.](./media/er-multiple-model-mappings-image8.png)
+    ![Impostazione del mapping del modello come mapping del modello predefinita nella pagina Configurazioni](./media/er-multiple-model-mappings-image8.png)
 
     A causa di questa impostazione, il mapping del modello **Copia fattura cliente** viene utilizzato quando si esegue **Fattura a testo libero (Excel)** o quando lo modifichi o lo convalidi. Il mapping del modello **Fattura cliente** dalla configurazione **Mapping del modello di fattura** viene ignorato.
 
@@ -167,7 +169,7 @@ Adesso hai a disposizione le configurazioni **Mapping del modello di fattura**, 
 5. Nella pagina **Modello per mapping origine dati**, seleziona **Modifica** per rendere la pagina modificabile, come richiesto.
 6. Seleziona il mapping del modello **Copia fattura progetto**, quindi seleziona la casella di controllo **Eliminato** per esso.
 
-    ![Impostazione del mapping modello come virtualmente eliminato nella pagina Modello per mapping origine dati.](./media/er-multiple-model-mappings-image9.png)
+    ![Impostazione del mapping del modello come virtualmente eliminato nella pagina Modello per mapping origine dati](./media/er-multiple-model-mappings-image9.png)
 
     A causa di questa impostazione, la configurazione **Mapping di modello di fattura Litware** viene considerata come se non avesse alcun mapping del modello per la definizione radice **InvoiceProject**. Il mapping del modello **Copia InvoiceProject** rilasciato per impostazione predefinita. La configurazione **Mapping del modello di fattura di progetto Litware** che contiene il mapping del modello, è contrassegnata come configurazione predefinita. Poiché è contrassegnata come predefinito, ha una priorità maggiore rispetto al modello di mapping **InvoiceProject** dalla configurazione **Mapping del modello di fattura di progetto (RDP)**.
 
@@ -180,6 +182,3 @@ Il mapping del modello **Copia InvoiceProject Copy** della configurazione **Mapp
 - [Gestire il mapping dei modelli ER in configurazioni ER separate](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese](er-country-dependent-model-mapping.md)
 - [Modifiche all'API del framework di report elettronici](er-apis-app10-0-11.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

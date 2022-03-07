@@ -1,64 +1,114 @@
 ---
-title: Allineare le competenze della forza lavoro alle esigenze
-description: È possibile tenere traccia delle competenze che hanno o dovranno avere i lavoratori, i candidati o le persone di contatto per svolgere i loro ruoli in modo efficace. È inoltre possibile specificare le competenze necessarie per una posizione lavorativa specifica.
-author: andreabichsel
-manager: AnnBe
-ms.date: 11/01/2017
+title: Configurare le competenze
+description: Puoi tener traccia delle competenze del lavoratore in Dynamics 365 Human Resources. È inoltre possibile specificare le competenze necessarie per una posizione lavorativa specifica.
+author: twheeloc
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13206bb3c961f001620e8b65a8b1bb39bf95ee49
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419206"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075073"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a>Allineare le competenze della forza lavoro alle esigenze
+# <a name="configure-skills"></a>Configurare le competenze
 
-È possibile tenere traccia delle competenze che hanno o dovranno avere i lavoratori, i candidati o le persone di contatto per svolgere i loro ruoli in modo efficace. È inoltre possibile specificare le competenze necessarie per una posizione lavorativa specifica.
-
-Esempi di competenze di cui è possibile tenere traccia includono i seguenti:
--   Supervisione: capacità di supervisionare il lavoro svolto da altre persone.
--   Leadership: capacità di guidare dipendenti e reparti di un'azienda.
--   Pianificazione: capacità di adattarsi a nuovi scenari, di formulare visioni e di vedere oltre queste.
--   HTML: capacità di scrivere codice HTML.
-
-Prima di poter assegnare una competenza a una persona o a una posizione lavorativa, creare una ricerca nel mapping delle competenze o un profilo competenze, è necessario immettere informazioni sulle competenze nella pagina **Competenze**. Per ogni competenza, è possibile selezionare un tipo e un modello di valutazione.
-
-## <a name="rating-models"></a>Modelli di valutazione
-La valutazione dei modelli contribuisce a valutare l'effettivo livello di competenza di una persona, il livello per cui deve lavorare o il livello di competenza necessario per una posizione lavorativa. È possibile immettere fino a 10 livelli per un modello di valutazione.  Ogni livello in un modello di valutazione viene assegnato a un fattore.  Il valore del fattore verrà utilizzato per normalizzare i punteggi di competenze che utilizzano modelli di valutazione diversi.  Il fattore deve essere un numero compreso tra 0 e 9 e ogni livello deve avere un fattore univoco.  Livelli con valori del fattore maggiori hanno più peso in modello di valutazione.
-
-## <a name="specify-job-skills"></a>Specificare le competenze della posizione lavorativa
-Quando si immettono informazioni su una mansione, è possibile specificare le competenze che una persona deve avere per poter svolgere tale mansione.  È inoltre possibile specificare il livello desiderato per ogni competenza, nonché il livello di importanza della competenza. Il livello di importanza richiesto per una determinata competenza varia in base alle diverse posizioni lavorative.
-
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Immettere le competenze per i lavoratori, i candidati o i contatti
-È possibile immettere le competenze di destinazione o le competenze effettive per i lavoratori, i candidati o i contatti. Una competenza prevista è una competenza che la persona intende raggiungere. Una competenza effettiva è una competenza che la persona ha attualmente.
-
-## <a name="skill-mapping-and-skill-mapping-profiles"></a> Mapping delle competenze e profili di mapping delle competenze
-È possibile creare una ricerca del mapping delle competenze per individuare un lavoratore, un candidato o un contatto che sia qualificato a svolgere un tipo specifico di attività. Le ricerche di mapping delle competenze cercano tra competenze, istruzione, certificati, posizioni di fiducia ed esperienze di progetto e restituiscono i risultati che corrispondono ai criteri immessi.  Ad esempio, potrebbe essere utile conoscere i lavoratori nell'organizzazione che hanno ottenuto la Canadian Payments Association (CPA).
-
-I profili di mapping delle competenze consentono di trovare i dipendenti o i candidati con qualifiche che corrispondono direttamente alle esigenze dell'azienda.  È possibile ad esempio creare un profilo di mapping delle competenze per una posizione aperta nell'organizzazione. Creando un profilo per una posizione lavorativa specifica e copiando le competenze, il tipo di formazione e i certificati adatti a quella posizione nel profilo, è possibile trovare rapidamente lavoratori, candidati o persone di contatto che soddisfino uno o più dei criteri immessi nel profilo e visualizzare un elenco di candidati le cui competenze corrispondano il più possibile a quelle necessarie per la posizione lavorativa richiesta.
-
-> **Nota**: solo i lavoratori, i candidati o le persone di contatto selezionate per essere incluse nelle ricerche del mapping delle competenze possono essere visualizzate in un elenco di risultati del mapping delle competenze o essere incluse in un profilo competenze. Per includere un lavoratore, un candidato o una persona di contatto nelle ricerche del mapping delle competenze, impostare la selezione **Includi nel mapping competenze** su Sì nelle pagine seguenti:
-> 
-> + Lavoro
-> + Dipendente
-> + Richiedente
-> + Contatti
-
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Analisi della lacuna competenze e del profilo competenze
-È possibile creare un'analisi profilo competenze per visualizzare un elenco di competenze di un lavoratore, un candidato o una persona di contatto a partire da una data specifica. È possibile creare un'analisi della lacuna competenze per confrontare le competenze di una persona con le competenze richieste per una posizione lavorativa specifica.  
+> [!IMPORTANT]
+> La funzionalità indicata in questo argomento è attualmente disponibile per i clienti di Human Resources nell'infrastruttura finanziaria.  
 
 
+Puoi tener traccia delle competenze del lavoratore in Dynamics 365 Human Resources. È inoltre possibile specificare le competenze necessarie per una posizione lavorativa specifica.
+
+Esempi di competenze di cui è possibile tenere traccia includono:
+
+- Supervisione: capacità di supervisionare il lavoro svolto da altre persone.
+- Leadership: capacità di guidare dipendenti e reparti di un'azienda.
+- Pianificazione: capacità di adattarsi a nuovi scenari, di formulare dichiarazioni di visioni e di vedere oltre queste.
+- HTML: capacità di scrivere codice HTML.
+
+Se non hai già impostato tipi di competenze e modelli di valutazione, dovrai aggiungerne alcuni prima di creare competenze.
+
+Le seguenti persone possono inserire le competenze per un lavoratore:
+
+- I lavoratori possono inserire autonomamente le competenze nel self-service dei dipendenti. Queste competenze richiedono l'approvazione del manager.
+- I manager possono inserire le competenze per i propri lavoratori. Puoi creare un flusso di lavoro che approva automaticamente queste competenze.
+
+## <a name="create-a-skill-type"></a>Creare un tipo di competenza
+
+I tipi di competenze sono categorie in cui rientrano le competenze individuali, come Amministrazione o Vendite.
+
+1. Nell'area di lavoro **Sviluppo dipendenti**, seleziona **Collegamenti**.
+
+2. In **Configurazione delle competenze**, seleziona **Tipi di competenze**.
+
+3. Selezionare **Nuovo**.
+
+4. Completa i seguenti campi:
+
+   - **Tipo di competenza**: immetti un nome univoco per il tipo di competenza.
+   - **Descrizione**: immetti una descrizione per il tipo di competenza.
+
+5. Selezionare **Salva**.
+
+## <a name="create-a-rating-model"></a>Creare un modello di valutazione
+
+La valutazione dei modelli contribuisce a valutare l'effettivo livello di competenza di una persona, il livello per cui deve lavorare o il livello di competenza necessario per una posizione lavorativa. Ogni livello in un modello di valutazione viene assegnato a un fattore.
+
+1. Nell'area di lavoro **Sviluppo dipendenti**, seleziona **Collegamenti**.
+
+2. In **Configurazione competenza**, seleziona **Modelli di valutazione**.
+
+3. Selezionare **Nuovo**.
+
+4. Completa i seguenti campi:
+
+   - **Valutazione**: immetti un nome per il modello di valutazione, ad esempio **Competenze**.
+   - **Descrizione**: immetti una descrizione per il modello di valutazione, ad esempio **Valutazioni delle competenze**.
+
+5. Nella sezione **Livelli**, seleziona **Nuovo**. Per ogni livello che desideri aggiungere, completa i seguenti campi:
+
+   - **Livello**: immetti un nome per il livello.
+   - **Descrizione**: immetti una descrizione per il livello.
+   - **Fattore**: immetti un valore di fattore compreso tra 0 e 9. I fattori contribuiscono a normalizzare i punteggi di competenze che utilizzano modelli di valutazione diversi. Ogni livello deve avere un fattore univoco. Livelli con valori del fattore maggiori hanno più peso in modello di valutazione.
+
+   Continua ad aggiungere livelli se necessario. È possibile immettere fino a 10 livelli per ogni modello di valutazione.
+
+6. Selezionare **Salva**.
+
+## <a name="create-a-skill"></a>Creare una competenza
+
+Prima di poter assegnare una competenza o creare una ricerca nel mapping delle competenze o un profilo competenze, è necessario immettere informazioni sulle competenze nella pagina **Competenze**. Per ogni competenza, è possibile selezionare un tipo e un modello di valutazione.
+
+1. Nell'area di lavoro **Sviluppo dipendenti**, seleziona **Collegamenti**.
+
+2. In **Configurazione delle competenze**, seleziona **Competenze**.
+
+3. Selezionare **Nuovo**.
+
+4. Completa i seguenti campi:
+
+   - **Competenza**: immetti un nome univoco per la competenza.
+   - **Descrizione**: immetti una descrizione per la competenza.
+   - **Valutazione**: seleziona il modello di valutazione che vuoi utilizzare per la competenza.
+   - **Tipo di competenza**: seleziona dall'elenco dei tipi di competenza.
+
+5. Selezionare **Salva**.
+
+## <a name="see-also"></a>Vedere anche
+
+[Immettere le competenze](hr-develop-enter-skills.md)<br>
+[Mappare le competenze](hr-develop-map-skills.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

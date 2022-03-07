@@ -1,45 +1,54 @@
 ---
-title: Modificare una previsione della domanda manualmente
-description: Questa procedura illustra come modificare la previsione per un articolo.
-author: ShylaThompson
-manager: tfehr
+title: 'Guida: modificare una previsione della domanda manualmente'
+description: Questo argomento descrive come modificare la previsione per un articolo
+author: ChristianRytt
 ms.date: 08/12/2019
 ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430980"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224012"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Modificare una previsione della domanda manualmente
+# <a name="guide-modify-a-demand-forecast-manually"></a>Guida: modificare una previsione della domanda manualmente
 
 [!include [banner](../../includes/banner.md)]
 
-Questa procedura illustra come modificare la previsione per un articolo. La società di dati dimostrativi utilizzata per creare questa procedura è USMF. La procedura è destinata al responsabile di pianificazione della produzione. 
+Questa procedura illustra come modificare la previsione per un articolo. Questa procedura è destinata al responsabile pianificazione produzione.
+
+## <a name="modify-the-forecast-for-a-selected-item"></a>Modificare la previsione per un articolo selezionato
+
+Per modificare la previsione per un articolo selezionato:
+
+1. Selezionare **Moduli \> Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
+1. Nell'elenco trovare e selezionare il record desiderato. Selezionare l'articolo per cui si desidera modificare la previsione.
+1. Nel riquadro azioni aprire la scheda **Piano** e selezionare **Previsione della domanda**.
+1. Nell'elenco selezionare una riga. Se non sono presenti righe di previsione, creare una nuova riga selezionando **Nuova** nel riquadro azioni.  
+1. Nel campo **Quantità di vendita** immettere un numero positivo. Questo numero rappresenta la quantità prevista per l'articolo. Se si inserisce un numero negativo, verrà visualizzato un errore.
+1. Compilare gli altri campi come necessario.
+1. Nel riquadro azioni selezionare **Salva**.
+
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Modificare la previsione per uno o più elementi con Microsoft Excel
+
+Per modificare la previsione per uno o più elementi con Microsoft Excel:
+
+1. Effettuare una delle seguenti operazioni:
+    - Aprire la pagina **Previsione della domanda** per qualsiasi articolo (non importa quale) come descritto nella sezione precedente.
+    - Selezionare **Pianificazione generale \> Previsioni \> Voce di previsione \> Righe di previsione della domanda**.
+1. Nel riquadro azioni selezionare **Apri in Microsoft Office \> Voci di previsione della domanda**.
+1. Selezionare un percorso di download, salvare e quindi aprire il file scaricato in Excel.
+1. Se viene visualizzato un avviso, scegliere **Abilita modifica**.
+1. In Excel, accedere a Supply Chain Management utilizzando il riquadro attività Microsoft Dynamics. È necessario accedere con l'opzione **Mantieni connesso** abilitata e considerare attendibile l'app per la connessione dati.
+1. Il foglio di calcolo Excel ora mostra tutte le righe di previsione della domanda corrente per l'azienda.  Aggiungere, eliminare e modificare le righe di previsione della domanda come necessario.
+1. Selezionare **Pubblica** nel riquadro delle attività di Microsoft Dynamics per caricare nuovamente le modifiche in Supply Chain Management.
 
 
-## <a name="modify-the-forecast-for-an-item"></a>Modificare la previsione per un articolo
-1. Nel **pannello di navigazione** andare a **Moduli > Gestione informazioni sul prodotto > Prodotti > Prodotti rilasciati**.
-2. Nell'elenco trovare e selezionare il record desiderato. Selezionare l'articolo per cui si desidera modificare la previsione. Ad esempio, è possibile selezionare l'articolo D0001.  
-3. Nel **riquadro azioni**, fare clic su **Piano**.
-4. Fare clic su **Previsione della domanda**.
-5. Nell'elenco contrassegnare la riga selezionata. Se non sono presenti righe di previsione, creare una nuova riga facendo clic su Nuova sulla barra dell'applicazione.  
-6. Nel campo **Quantità di vendita** immettere un numero. Questo numero rappresenta la quantità prevista per l'articolo.  
-7. Fare clic su Salva.
-
-## <a name="modify-the-forecast-in-excel"></a>Modificare la previsione in Excel
-1. Fare clic su **Apri** in Microsoft Office.
-2. Fare clic sull'opzione per **modificare una previsione della domanda** in Excel. In Excel, è possibile aggiungere, eliminare e modificare le righe di previsione della domanda. Se non è possibile visualizzare i dati in Excel, è necessario accedere con l'opzione "Mantieni l'accesso" selezionata e consentire l'esecuzione dell'applicazione di connessione ai dati.  
-
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

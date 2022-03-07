@@ -1,12 +1,10 @@
 ---
 title: Creare un cespite
 description: Viene descritta la procedura per la creazione di un cespite in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTableCopyStructure, EntAssetObjectTableCreate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28c4685c3b6f543324953cd03646d5b15fdb8c59
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1e9c2b81e97a7b08dfdb596fbf6822ac94c7358dccd0b92c0677467dbc0c2e26
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019431"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721513"
 ---
 # <a name="create-an-asset"></a>Creare un cespite
 
@@ -115,3 +113,6 @@ In questa Scheda dettaglio, è possibile aggiungere o rimuovere i cicli di manut
 ## <a name="financial-dimensions"></a>Dimensioni finanziarie
 
 È possibile selezionare dimensioni finanziarie per il cespite.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

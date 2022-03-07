@@ -1,47 +1,50 @@
 ---
-title: Guida
-description: Questo argomento fornisce una panoramica della Guida per le app Finance and Operations.
+title: Sistema della guida (video)
+description: Questo argomento fornisce una panoramica della Guida per le app per finanza e operazioni.
 author: edupont04
-manager: AnnBe
-ms.date: 05/11/2020
-ms.topic: article
+ms.date: 07/20/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695141"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070503"
 ---
 # <a name="help-system"></a>Guida
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 Gli utenti delle seguenti app possono accedere alla Guida sensibile al contesto e ad altri contenuti basati sullo stesso sistema della Guida:
 
-- Microsoft Dynamics 365 Commerce
+- Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
 In tutte queste app puoi accedere alla Guida specifica del prodotto dal riquadro **Guida**.
 
-![Riquadro della Guida](./media/help-pane-ops-help.png)
+![Riquadro della Guida.](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Guida sul sito docs.microsoft.com
 
-Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) rappresenta la fonte predefinita per la documentazione sul prodotto per le applicazioni indicate in precedenza. Questo sito offre le seguenti funzionalità:
+Il sito docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) rappresenta la fonte predefinita per la documentazione sul prodotto per le applicazioni indicate in precedenza. Questo sito offre le seguenti funzionalità:
 
 - **Accesso a contenuti più aggiornati**: il sito offre a Microsoft modi più veloci e più flessibili per creare, fornire e aggiornare la documentazione del prodotto. Di conseguenza hai accesso facile alle ultime informazioni tecniche.
 - **Contenuto scritto da esperti**: il contenuto del sito è aperto ai contributi dei membri della comunità sia all'interno che all'esterno di Microsoft.
@@ -50,9 +53,20 @@ Puoi trovare contenuti su docs.microsoft.com usando qualsiasi motore di ricerca.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ricevi notifiche sulle modifiche tramite un feed RSS
 
-Per iscriverti a un feed RSS (Really Simple Syndication) di tutti gli aggiornamenti relativi al contenuto di docs.microsoft.com, utilizza il seguente collegamento:
+Per iscriverti a un feed RSS di tutti gli aggiornamenti relativi al contenuto di docs.microsoft.com nelle app per finanza e operazioni, utilizza il seguente collegamento:
 
-[Feed RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[Feed RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
+
+> [!NOTE]
+> Il feed RSS restituisce un elenco dei 100 argomenti aggiornati più di recente. L'elenco non viene ordinato in base alla data.  
+
+In alternativa, puoi iscriverti a un feed RSS tramite app:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
 
 ### <a name="leave-us-feedback"></a>Invia commenti e suggerimenti
 
@@ -62,7 +76,7 @@ Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento n
 
 2. Inizia a digitare i commenti quindi seleziona **Invia commenti e suggerimenti**.
 
-    ![Pubblica un commento](./media/feedback.png)
+    ![Pubblica un commento.](./media/feedback.png)
 
 > [!NOTE]
 > Se desideri inviare un feedback sulla documentazione, devi accedere utilizzando un account GitHub. Per ulteriori informazioni, vedi [Impostazione e gestione del profilo GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -75,7 +89,7 @@ Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento n
 
 Il video [Come contribuire alla documentazione di Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (mostrato sopra) è incluso nel canale Microsoft Dynamics 365 di YouTube.
 
-Per ulteriori informazioni, vedi la [Guida del collaboratore alla documentazione](https://docs.microsoft.com/contribute), pubblicato dal team che ha creato il sito docs.microsoft.com.
+Per ulteriori informazioni, vedi la [Guida del collaboratore alla documentazione](/contribute), pubblicato dal team che ha creato il sito docs.microsoft.com.
 
 > [!NOTE]
 > Al momento accettiamo solo contributi al nostro contenuto in inglese.
@@ -86,11 +100,11 @@ La guida attività è un'esperienza controllata, guidata e interattiva che guida
 
 Microsoft ha rilasciato le librerie delle guide attività per le versioni dei prodotti fino alla versione di dicembre 2017 di Dynamics 365 for Finance and Operations. La sezione [Accesso alle guide attività dal riquadro Guida](#accessing-task-guides-from-the-help-pane) di questo argomento descrive come trovare le guide attività appropriate per il prodotto.
 
-![Visualizzazione lettura delle guide attività](./media/task-guide-ops.png)
+![Visualizzazione lettura della guida attività.](./media/task-guide-ops.png)
 
 Per avviare l'esperienza guidata e interattiva, seleziona **Avvia guida attività** nella parte inferiore del riquadro **Guida**. Un puntatore nero ti mostra dove andare per primo. Seguire le istruzioni visualizzate nell'interfaccia utente e immettere i dati come richiesto.
 
-![Istruzione dettagliata della guida attività](./media/task-guide-step-1-ops.png)
+![Istruzione dettagliata della guida attività.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > I dati immessi quando si riproduce una guida attività sono reali. Se si è in un ambiente di produzione, i dati verranno immessi nella società attualmente utilizzata.
@@ -103,7 +117,7 @@ Alcuni campi hanno descrizioni dei campi per aiutare gli utenti a sbloccarsi qua
 
 Per accedere al contenuto della Guida, seleziona il pulsante **Guida** (**?**), quindi seleziona **Guida**. In alternativa, premi **CTRL + MAIUSC + ?**. In entrambi i casi, verrà visualizzato il riquadro della **Guida**. Dal riquadro **Guida**, puoi accedere ad argomenti concettuali o guide attività pertinenti all'area del prodotto in cui ti trovi attualmente.
 
-![Riquadro della Guida](./media/help-pane-ops-help.png)
+![Riquadro della Guida.](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Accesso agli argomenti della Guida dal riquadro Guida
 
@@ -120,13 +134,13 @@ Affinché si possa accedere alle guide attività dal riquadro **Guida**, un ammi
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -134,7 +148,7 @@ On the **System parameters** page, follow these steps:
 
 Dopo che un amministratore di sistema ha completato questi passaggi, puoi aprire il riquadro della **Guida** e seleziona la scheda **Guide attività**. Vengono visualizzate le guide attività applicabili alla pagina attualmente aperta. Se non viene trovata alcuna guida attività, è possibile immettere le parole chiave per ridefinire la ricerca. Dopo aver selezionato una guida attività, nel riquadro **Guida**, il riquadro **Guida** visualizza le istruzioni dettagliate ed è possibile riprodurre la guida attività.
 
-![Visualizzazione lettura delle guide attività](./media/task-guide-ops.png)
+![Visualizzazione lettura della guida attività.](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Dove sono le guide attività tradotte per le librerie Microsoft?
 
@@ -154,13 +168,17 @@ Puoi creare una Guida per gli utenti creando guide attività personalizzate oppu
 
 Nella tabella riportata di seguito sono elencati i nostri siti Web. I siti con un asterisco (\*) accanto al nome richiedono che venga eseguito l'accesso mediante un account associato a un piano di servizio.
 
-| Sito | descrizione |
+| Sito | Descrizione |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Questo sito ospita o ti collega a tutta la documentazione del prodotto per Dynamics 365. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | Questo sito è il sito Microsoft eLearning gratuito. |
+| [Microsoft Learn](/learn/) | Questo sito è il sito Microsoft eLearning gratuito. |
 | [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Questo sito fornisce un'area di lavoro collaborativa basata sul cloud che i clienti e i partner possono utilizzare per gestire i progetti dalle prevendite all'implementazione e alle operazioni. È utile in tutte le fasi dell'implementazione. |
 | [Blog di supporto](https://aka.ms/AXSupportBlog) | Questo sito fornisce suggerimenti e trucchi registrati dal team del supporto. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Questo sito ospita contenuto delle versioni precedenti. |
 | [Community di Dynamics](https://community.dynamics.com/) | Questo sito ospita blog, forum e video. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Questo sito fornisce informazioni su vendite e valutazione. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Questo sito ospita risorse di formazione, report e white paper scaricabili ed è il sito principale del supporto per i titolari di piani di assistenza. L'accesso ad alcune risorse su questo sito potrebbe richiedere un piano di servizio. |
+
+
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Trovare informazioni utilizzando le ricerche
-description: Molti campi presentano ricerche per semplificare la ricerca del valore corretto o desiderato. Alle ricerche sono stati aggiunti diversi miglioramenti che rendono questi controlli più utilizzabili e gli utenti più produttivi. In questo argomento si apprenderanno le nuove funzionalità di ricerca e si riceveranno alcuni suggerimenti utili per l'utilizzo ottimale delle ricerche nel sistema.
+description: In questo argomento si apprenderanno le funzionalità di ricerca e si riceveranno alcuni suggerimenti utili per l'utilizzo ottimale delle ricerche nel sistema.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798145"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069300"
 ---
 # <a name="find-information-by-using-lookups"></a>Trovare informazioni utilizzando le ricerche
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Molti campi presentano ricerche per semplificare la ricerca del valore corretto o desiderato. Alle ricerche sono stati aggiunti diversi miglioramenti che rendono questi controlli più utilizzabili e gli utenti più produttivi. In questo argomento si apprenderanno le nuove funzionalità di ricerca e si riceveranno alcuni suggerimenti utili per l'utilizzo ottimale delle ricerche nel sistema.
 
@@ -46,15 +47,15 @@ Ad esempio, si consideri un campo di ricerca denominato **Città**.
 
 Quando lo stato attivo è nel campo **Città**, è possibile avviare la ricerca della città desiderata digitando alcune lettere, ad esempio "col". Dopo aver smesso di digitare, la ricerca ai aprirà automaticamente, filtrata su quelle città che iniziano con "col".
 
-[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 A questo punto il cursore è ancora nel campo di ricerca. Se si continua a digitare in modo che il valore sia "colonna", il contenuto della ricerca cambierà automaticamente in base all'ultimo valore nel controllo.
 
-![updateFilterLookupExample](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
 
 Sebbene lo stato attivo sia ancora nel controllo di ricerca, sarà possibile utilizzare anche i tasti **Freccia Su** e **Freccia GIÙ** per evidenziare la riga da selezionare. Se si preme **Invio**, la riga evidenziata verrà selezionata automaticamente nella ricerca e il valore del controllo verrà aggiornato.
 
-![changingSelectionLookup](./media/changingselectionlookup.png)
+![changingSelectionLookup.](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Digitare non solo gli ID
 
@@ -64,22 +65,25 @@ Ad esempio, si consideri il campo **Conto cliente** quando si crea un ordine cli
 
 Se l'utente iniziasse a immettere l'**ID conto** nel controllo di ricerca, il menu a discesa si aprirebbe automaticamente come descritto nella sezione precedente e l'utente vedrebbe la ricerca come indicato di seguito.
 
-[![Ricerca contestuale quando viene immesso un ID conto cliente](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Ricerca contestuale quando viene immesso un ID conto cliente.](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 Tuttavia, l'utente può immettere anche ora l'inizio di un **Nome conto**. Se viene rilevato, l'utente visualizzerà la ricerca successiva. La colonna **Nome** diventa la prima colonna della ricerca e la ricerca viene ordinata e filtrata in base alla colonna **Nome**.
 
-[![Ricerca contestuale quando viene immesso il nome di un cliente](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Ricerca contestuale quando viene immesso il nome di un cliente.](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Utilizzo delle intestazioni di colonna della griglia per una modalità di filtro e ordinamento più avanzata
 
 Le opzioni avanzate di ricerca discusse nelle due sezioni precedenti migliorano notevolmente la capacità di un utente di spostarsi tra le righe di una ricerca nel campo **ID** o **Nome** in base al criterio "inizia con". Tuttavia, sono presenti situazioni in cui un filtro più avanzato (o un ordinamento) è necessario per individuare la riga corretta. In queste situazioni l'utente deve utilizzare le opzioni di filtro e ordinamento nelle intestazioni di colonna della griglia della ricerca. Ad esempio, si consideri un dipendente, che deve individuare il "cavo" esatto come prodotto, mentre inserisce una riga di ordine cliente. Digitare "cavo" nel controllo **Numero articolo** non è utile, perché non sono presenti nomi di prodotto che iniziano con "cavo".
 
-![emptyitemlookup](./media/emptyitemlookup.png)
+![emptyitemlookup.](./media/emptyitemlookup.png)
 
 In questo caso, l'utente deve annullare il valore del controllo di ricerca, aprire il menu a discesa di ricerca e filtrare il menu a discesa in base all'intestazione di colonna della griglia, come indicato di seguito. Un utente con il mouse (o toccando) può fare semplicemente clic (o toccare) qualsiasi intestazione di colonna per accedere a opzioni di filtro e ordinamento per la colonna. Per un utente che usa la tastiera, l'utente deve semplicemente premere **Alt**+**Freccia** **GIÙ** una seconda volta per spostare l'elemento attivo nel menu a discesa, dopodiché può utilizzare il tasto TAB per passare alla colonna corretta e premere **Ctrl**+**G** per aprire il menu a discesa dell'intestazione di colonna della griglia.
 
-[![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Dopo che il filtro è stato applicato (vedere l'immagine di seguito), l'utente può individuare e selezionare la riga come di consueto.
 
-![filtereditemlookup](./media/filtereditemlookup.png)
+![filtereditemlookup.](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

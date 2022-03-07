@@ -1,29 +1,26 @@
 ---
 title: Combina ordini di assistenza
 description: È possibile combinare ordini di assistenza
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17fbed59b1fe7bec80f25f74451872efd61bed62
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df9571cb1330489651a28462b747cacd7ac7e46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430936"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580458"
 ---
 # <a name="combine-service-orders"></a>Combina ordini di assistenza   
 
@@ -44,20 +41,20 @@ Quando si creano automaticamente le righe dell'ordine di assistenza nel modulo *
 
 Viene creato un contratto di assistenza con data di inizio il 31/03/2007. Nel campo **Combina ordini di assistenza** specificare **In base all'oggetto assistenza**. Vengono quindi create le seguenti righe del contratto di assistenza:
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Numero riga contratto</p></th>
 <th><p>Tipo di transazione</p></th>
-<th><p>descrizione</p></th>
+<th><p>Descrizione</p></th>
 <th><p>Intervallo</p></th>
 <th><p>Oggetto assistenza</p></th>
 <th><p>Data di inizio</p></th>
@@ -113,3 +110,6 @@ Ulteriori raggruppamenti delle righe negli ordini di assistenza vengono eseguiti
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

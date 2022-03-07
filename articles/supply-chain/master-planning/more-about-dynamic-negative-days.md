@@ -1,30 +1,21 @@
 ---
 title: Giorni negativi e giorni negativi dinamici
 description: In questo argomento vengono fornite informazioni sui giorni negativi e sui giorni negativi dinamici nonché su come utilizzarli per la propria azienda.
-author: t-benebo
-manager: tfehr
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e64a4bd9e65b62bb782785a363aa2eee5264e3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d5e86cc8abd4de1e23b1a7f7217bbb1fd5ea966b988a879e663b6f393e0d1204
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756969"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Giorni negativi e giorni negativi dinamici
 
@@ -48,11 +39,11 @@ In questo argomento vengono utilizzati tre scenari ipotetici che consentono di c
 - L'articolo DemoProduct presenta un lead time di acquisto di sei giorni.
 - Il giorno zero (1° gennaio), il livello delle scorte per l'articolo DemoProduct è 0 (zero).
 - Il giorno zero (1° gennaio), si riceve un ordine cliente per una quantità di 10 articoli DemoProduct.
-- Il giorno sette (7 gennaio), si ha un ordine fornitore esistente per una quantità di 10 articoli DemoProduct.
+- Il giorno sette (8 gennaio), si ha un ordine fornitore esistente per una quantità di 10 articoli DemoProduct.
 
 La figura seguente illustra una visualizzazione grafica di questo scenario.
 
-![Visualizzazione grafica dello scenario 1](./media/negative-days-1.jpg)
+![Visualizzazione grafica dello scenario 1.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Caso A: i giorni negativi sono inferiori al lead time dell'articolo
 
@@ -60,11 +51,11 @@ Se si impostano i giorni negativi su un numero inferiore al lead time dell'artic
 
 La figura seguente illustra una schermata di questo tipo.
 
-![Schermata del caso A per lo scenario 1](./media/negative-days-2.png)
+![Schermata del caso A per lo scenario 1.](./media/negative-days-2.png)
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene in questo caso.
 
-![Visualizzazione grafica del caso A per lo scenario 1](./media/negative-days-3.png)
+![Visualizzazione grafica del caso A per lo scenario 1.](./media/negative-days-3.png)
 
 Se si considerano le prestazioni MRP e si prevede una certa instabilità, questo caso non risulterà appropriato. MRP deve creare un nuovo ordine pianificato e deve calcolare ritardi e azioni. Queste attività richiedono molto tempo. Questo caso inoltre aggiunge due nuove transazioni al piano. D'altra parte, l'ordine cliente viene ritardato di sei giorni, non sette.
 
@@ -82,11 +73,11 @@ Intervallo temporale dei giorni negativi dinamici = Lead time di acquisto + Inte
 
 Quando si utilizzano i giorni negativi dinamici, l'intervallo temporale che MRP prende in considerazione per le entrate è 6 + 2 + 0 = 8 giorni. MRP trova l'ordine fornitore esistente e lo utilizza per eseguire il pegging dell'ordine cliente. Non vengono creati nuovi ordini pianificati. Di conseguenza, il tempo di esecuzione per MRP è più breve. Nell'illustrazione seguente vengono mostrati i fabbisogni netti per l'articolo DemoProduct.
 
-![Fabbisogni netti per il caso C per lo scenario 1](./media/negative-days-4.png)
+![Fabbisogni netti per il caso C per lo scenario 1.](./media/negative-days-4.png)
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene in questo caso.
 
-![Visualizzazione grafica del caso C per lo scenario 1](./media/negative-days-5.png)
+![Visualizzazione grafica del caso C per lo scenario 1.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Caso D: utilizzare solo giorni negativi dinamici
 
@@ -94,11 +85,11 @@ Se si impostano i giorni negativi su **0** (zero) e si utilizza solo l'intervall
 
 La figura seguente illustra una schermata di questo caso.
 
-![Schermata del caso D per lo scenario 1](./media/negative-days-6.png)
+![Schermata del caso D per lo scenario 1.](./media/negative-days-6.png)
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene in questo caso.
 
-![Visualizzazione grafica del caso D per lo scenario 1](./media/negative-days-7.png)
+![Visualizzazione grafica del caso D per lo scenario 1.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Caso E: utilizzare i giorni negativi maggiori del lead time dell'articolo e l'intervallo temporale dei giorni negativi dinamici
 
@@ -115,7 +106,7 @@ Se invece si impostano i giorni negativi su un numero maggiore del lead time del
 
 La figura seguente illustra una visualizzazione grafica di questo scenario.
 
-![Visualizzazione grafica dello scenario 1](./media/negative-days-8.png)
+![Visualizzazione grafica dello scenario 2.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Caso A: i giorni negativi sono inferiori al lead time dell'articolo
 
@@ -123,11 +114,11 @@ Se si impostano i giorni negativi su un numero inferiore al lead time dell'artic
 
 La figura seguente illustra una schermata di questo caso.
 
-![Schermata del caso A per lo scenario 2](./media/negative-days-9.png)
+![Schermata del caso A per lo scenario 2.](./media/negative-days-9.png)
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene in questo caso.
 
-![Visualizzazione grafica del caso A per lo scenario 2](./media/negative-days-10.png)
+![Visualizzazione grafica del caso A per lo scenario 2.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>Caso B: i giorni negativi sono maggiori del lead time dell'articolo
 
@@ -139,11 +130,11 @@ Questo caso è simile al caso C per lo scenario 1, poiché i giorni negativi din
 
 La figura seguente illustra una schermata di questo tipo.
 
-![Schermata del caso C per lo scenario 2](./media/negative-days-11.png)
+![Schermata del caso C per lo scenario 2.](./media/negative-days-11.png)
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene in questo caso.
 
-![Visualizzazione grafica del caso C per lo scenario 2](./media/negative-days-12.png)
+![Visualizzazione grafica del caso C per lo scenario 2.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Caso D: utilizzare solo giorni negativi dinamici
 
@@ -160,11 +151,11 @@ Se si impostano i giorni negativi su un numero maggiore del lead time dell'artic
 - L'articolo DemoProduct presenta un lead time di acquisto di sei giorni.
 - Il giorno zero (1° gennaio), il livello delle scorte per l'articolo DemoProduct è 0 (zero).
 - Il giorno sette (8 gennaio), all'esterno del lead time dell'articolo, si riceve un ordine cliente per una quantità di 10 articoli DemoProduct.
-- Il giorno 10 (11 gennaio), si ha un ordine fornitore per una quantità di 10 articoli DemoProduct.
+- Il giorno dieci (11 gennaio), si ha un ordine fornitore per una quantità di 10 articoli DemoProduct.
 
 La figura seguente illustra una visualizzazione grafica di questo scenario.
 
-![Visualizzazione grafica dello scenario 3](./media/negative-days-13.png)
+![Visualizzazione grafica dello scenario 3.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Caso A: i giorni negativi sono inferiori al lead time dell'articolo
 
@@ -172,11 +163,11 @@ Se si impostano i giorni negativi su un numero inferiore al lead time dell'artic
 
 La figura seguente illustra una schermata di questo tipo.
 
-![Schermata del caso A per lo scenario 3](./media/negative-days-14.png)
+![Schermata del caso A per lo scenario 3.](./media/negative-days-14.png)
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene in questo caso.
 
-![Visualizzazione grafica del caso A per lo scenario 3](./media/negative-days-15.png)
+![Visualizzazione grafica del caso A per lo scenario 3.](./media/negative-days-15.png)
 
 > [!NOTE]
 > Nella schermata precedente, la data fabbisogno dell'ordine fornitore è il 12 gennaio. Poiché tale schermata è stato acquisita nel 2015, quando l'11 gennaio era una domenica, MRP ha spostato la data fabbisogno al giorno lavorativo successivo, ovvero lunedì 12 gennaio. Cionondimeno, la data di consegna dell'ordine fornitore è l'11 gennaio.
@@ -187,11 +178,11 @@ Se si impostano i giorni negativi su un numero maggiore del lead time dell'artic
 
 La figura seguente illustra una schermata di questo tipo.
 
-![Schermata del caso B per lo scenario 3](./media/negative-days-16.png)
+![Schermata del caso B per lo scenario 3.](./media/negative-days-16.png)
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene in questo caso.
 
-![Visualizzazione grafica del caso B per lo scenario 3](./media/negative-days-17.png)
+![Visualizzazione grafica del caso B per lo scenario 3.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>Casa C: correlare automaticamente il lead time dell'articolo all'intervallo temporale dei giorni negativi
 
@@ -201,7 +192,7 @@ L'intervallo temporale dei giorni negativi dinamici è 6 + 2 - 7 = 1 giorno. Tut
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene in questo caso.
 
-![Visualizzazione grafica del caso C per lo scenario 3](./media/negative-days-18.png)
+![Visualizzazione grafica del caso C per lo scenario 3.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Caso D: utilizzare solo giorni negativi dinamici
 
@@ -222,17 +213,17 @@ Se si impostano i giorni negativi su **0** (zero) e non si utilizzano i giorni n
 - L'articolo DemoProduct presenta un lead time di acquisto di sei giorni.
 - Il giorno zero (1° gennaio), il livello delle scorte per l'articolo DemoProduct è 0 (zero).
 - Il giorno zero (1° gennaio), si riceve un ordine cliente per una quantità di 10 articoli DemoProduct.
-- Il giorno 10 (10 gennaio), si riceve un ordine cliente per una quantità di 10 articoli DemoProduct.
-- Il giorno 12 (12 gennaio), si ha un ordine fornitore per una quantità di 10 articoli DemoProduct.
+- Il giorno nove (10° gennaio), si riceve un ordine cliente per una quantità di 10 articoli DemoProduct.
+- Il giorno undici (12 gennaio), si ha un ordine fornitore per una quantità di 10 articoli DemoProduct.
 - I giorni negativi sono impostati su **20**, che è molto di più del lead time dell'articolo.
 
 La figura seguente illustra una visualizzazione grafica di ciò che avviene.
 
-![Visualizzazione grafica dell'esempio](./media/negative-days-19.png)
+![Visualizzazione grafica dell'esempio.](./media/negative-days-19.png)
 
 MRP genera i risultati descritti di seguito.
 
-![Risultati](./media/negative-days-20.png)
+![Esempio di risultati 1.](./media/negative-days-20.png)
 
 Nella schermata precedente, la data fabbisogno dell'ordine cliente è il 9 gennaio anziché il 10 gennaio. Poiché tale schermata è stato acquisita nel 2015, quando il 10 gennaio era un sabato, la data fabbisogno dell'ordine dovrebbe essere il giorno lavorativo precedente, ovvero venerdì 9 gennaio.
 
@@ -242,7 +233,7 @@ I risultati non sono errati, ma il tempo di esecuzione per MRP potrebbe risultar
 
 Se si riducono i giorni negativi a un numero maggiore che è più prossimo al lead time dell'articolo e si utilizzano i giorni negativi dinamici, MRP genera i risultati esposti di seguito.
 
-![Risultati](./media/negative-days-21.png)
+![Esempio di risultati 2.](./media/negative-days-21.png)
 
 MRP crea un ordine pianificato associato al primo ordine cliente. Quindi, come previsto, il secondo ordine cliente viene sottoposto a pegging a fronte dell'ordine fornitore esistente, in base all'impostazione dei giorni negativi. Anche questo risultato di pianificazione è corretto e il tempo di esecuzione per MRP potrebbe risultare più breve. In questo caso, non è essenziale comprendere e sapere come utilizzare i messaggi d'azione.
 
@@ -250,4 +241,7 @@ Per garantire l'immissione dei valori corretti per la propria società, è neces
 
 ## <a name="see-also"></a>Vedere anche
 
-Per ulteriori informazioni, vedere il post del blog [Altre informazioni sui giorni negativi (dinamici)](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+Per ulteriori informazioni, vedere il post del blog [Altre informazioni sui giorni negativi (dinamici)](/archive/blogs/axmfg/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Controllo dei costi e delle date
 description: In questo argomento viene descritto il controllo dei costi e delle date in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
@@ -14,23 +12,21 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 826e0aab8c717bb951d80aff61b2d72dad802189706f720c48e72c8a1c393ead
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731915"
 ---
 # <a name="cost-and-date-control"></a>Controllo dei costi e delle date
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-In Gestione cespiti, è possibile calcolare i costi per ottenere una panoramica dei costi effettivi comparati ai costi in budget in cespiti, unità funzionali e ordini di lavoro. I costi effettivi sono basati sulle transazioni registrate. 
+In Gestione cespiti, è possibile calcolare i costi per ottenere una panoramica dei costi effettivi comparati ai costi in budget in cespiti, unità funzionali e ordini di lavoro. I costi effettivi sono basati sulle transazioni registrate.
 
 È inoltre possibile eseguire un calcolo delle date se si desidera confrontare le date di inizio e fine programmate alle date di inizio e di fine effettive negli ordini di lavoro.
 
@@ -48,8 +44,8 @@ I calcoli effettuati per cespiti, aree funzionali e ordini di lavoro sono quasi 
 
 5. È possibile utilizzare il campo **Livello** per indicare il livello di dettagli delle righe del controllo dei costi in relazione alle unità funzionali. 
 
-    Ad esempio, se si inserisce "1" nel campo e si ha una gerarchia di unità funzionali multilivello, tutte le righe di controllo dei costi di un'unità funzionale verranno visualizzate nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore. 
-    
+    Ad esempio, se si inserisce "1" nel campo e si ha una gerarchia di unità funzionali multilivello, tutte le righe di controllo dei costi di un'unità funzionale verranno visualizzate nel livello principale, quindi le ore in una riga possono essere aggiunte dalle unità funzionali situate a un livello inferiore.
+
     Se si inserisce "0" nel campo **Livello**, verrà visualizzato un risultato dettagliato che mostra tutte le righe del controllo dei costi in tutti i livelli di unità funzionali a cui sono correlate.
 
 6. Impostare l'interruttore **Mostra costo impegnato aperto** su "Sì" se si desidera includere quella colonna nel calcolo.
@@ -62,11 +58,11 @@ I calcoli effettuati per cespiti, aree funzionali e ordini di lavoro sono quasi 
 
     Nella figura seguente viene illustrato un esempio della finestra di dialogo **Controllo costi cespiti**.
 
-    ![Finestra di dialogo Controllo costi cespiti](media/01-controlling-and-reporting.png)
+    ![Finestra di dialogo Controllo costi cespiti.](media/01-controlling-and-reporting.png)
 
 10. Nella pagina **Controllo costi cespiti**, fare clic sul pulsante **Raggruppa per** per visualizzare il livello di dettagli necessario per il calcolo. I pulsanti **Raggruppa per** selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
 
-## <a name="example"></a>Esempio
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Esempio di risultati del calcolo in Controllo costi cespiti
 
 Nella schermata seguente viene illustrato un esempio di risultati di calcolo in **Controllo costi cespiti**.
 
@@ -75,10 +71,9 @@ Nella schermata seguente viene illustrato un esempio di risultati di calcolo in 
 - Nel campo **Costo impegnato aperto** sono visualizzati gli impegni per il pagamento di articoli, ore e servizi ordinati o ricevuti ma non ancora pagati. 
 - Dopo che tutte le registrazioni del consumo sono state registrate, i costi correlati vengono mostrati nel campo **Costo effettivo**.
 
-![Esempio di risultati del calcolo in Controllo costi cespiti](media/02-controlling-and-reporting.png)
+![Esempio di risultati del calcolo in Controllo costi cespiti.](media/02-controlling-and-reporting.png)
 
 Un altro metodo di eseguire un calcolo dei costi è la selezione di molteplici cespiti in **Tutti i cespiti** o **Cespiti attivi**. Quindi, fare clic sul pulsante **Controllo costi** nella scheda **Generale**. Nella finestra di dialogo **Controllo costi cespiti**, i cespiti selezionati vengono inseriti automaticamente nel campo **Cespite** della Scheda dettaglio **Record da includere**. Fare clic **OK**. Viene visualizzato un calcolo dei costi per i cespiti selezionati. La stessa procedura può essere eseguita per le unità funzionali in **Tutte le unità funzionali** o **Unità funzionali attive** e per gli ordini di lavoro in **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
-
 
 ## <a name="work-order-date-control"></a>Controllo data dell'ordine di lavoro
 
@@ -96,7 +91,7 @@ Utilizzare questa pagina per ottenere una panoramica delle date di inizio e di f
 
 6. Fare clic sui pulsanti **Raggruppa per** per visualizzare il livello di dettagli necessario per il calcolo. I pulsanti **Raggruppa per** selezionati sono evidenziati. Fare clic su un pulsante per attivarlo o disattivarlo.
 
-## <a name="example"></a>Esempio
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Esempio di risultati del calcolo in Controllo data dell'ordine di lavoro
 
 Nella schermata seguente viene illustrato un esempio di risultati di calcolo in **Controllo date ordini di lavoro**.
 
@@ -104,6 +99,9 @@ Nella schermata seguente viene illustrato un esempio di risultati di calcolo in 
 - Il campo **Ritardo fine medio** visualizza la differenza in giorni tra la data di fine programmata per un ordine di lavoro rispetto alla data di fine effettiva. Se, ad esempio, la data di fine effettiva è tre giorni dopo la data di fine programmata, in questo campo viene visualizzato "3".  
 - I campi **Occorrenze** mostrano il numero di scostamenti in relazione alla data di inizio programmata ed effettiva e alla data di fine programmata ed effettiva nell'ordine di lavoro.
 
-![Esempio di risultati del calcolo in Controllo data dell'ordine di lavoro](media/03-controlling-and-reporting.png)
+![Esempio di risultati del calcolo in Controllo data dell'ordine di lavoro.](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

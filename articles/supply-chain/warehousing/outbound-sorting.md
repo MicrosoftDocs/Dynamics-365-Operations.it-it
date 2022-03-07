@@ -2,11 +2,9 @@
 title: Ordinamento in uscita
 description: Questo argomento fornisce informazioni sull'ordinamento in uscita. Questa funzionalità semplifica la gestione di piccoli contenitori e aiuta i lavoratori a pianificare e organizzare meglio la capacità dei pallet nel camion.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2b0049269b69c0777420b3ecd9b1f649c4a1ab11
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3c576209a86f776ac424f7fb9f2b606bea774a67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963412"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828396"
 ---
 # <a name="outbound-sorting"></a>Ordinamento in uscita
 
@@ -485,7 +483,7 @@ Completare il lavoro creato utilizzando il dispositivo mobile per spostare gli a
 1. Esaminare le informazioni nella pagina **Ordini cliente - Stoccaggio**. Il campo **Ubicazione** deve indicare che gli articoli prelevati vengono spostati all'ubicazione *Imballaggio*.
 1. Selezionare **OK**.
 
-    Nella pagina **Esegui scansione ID lavoro/ID targa**, viene visualizzato il messaggio "Lavoro completato". Questo messaggio indica che l'ID lavoro della riga 1 dell'ordine di vendita 2 è stato completato.
+    Nella pagina **Esegui scansione ID lavoro/ID targa**, viene visualizzato il messaggio "Lavoro completato". Questo messaggio indica che l'ID lavoro della riga 1 dell'ordine cliente 2 è stato completato.
 
 1. Nel campo **ID**, immettere l'ID lavoro creato per l'ordine cliente 2, dove la riga 2 include l'articolo *A0002*.
 1. Selezionare **OK**.
@@ -494,7 +492,7 @@ Completare il lavoro creato utilizzando il dispositivo mobile per spostare gli a
 1. Esaminare le informazioni nella pagina **Ordini cliente - Stoccaggio**. Il campo **Ubicazione** deve indicare che gli articoli prelevati vengono spostati all'ubicazione *Imballaggio*.
 1. Selezionare **OK**.
 
-    Nella pagina **Esegui scansione ID lavoro/ID targa**, viene visualizzato il messaggio "Lavoro completato". Questo messaggio indica che l'ID lavoro della riga 2 dell'ordine di vendita 2 è stato completato.
+    Nella pagina **Esegui scansione ID lavoro/ID targa**, viene visualizzato il messaggio "Lavoro completato". Questo messaggio indica che l'ID lavoro della riga 2 dell'ordine cliente 2 è stato completato.
 
 ### <a name="pack-sales-orders-into-containers"></a>Imballare ordini cliente in contenitori
 
@@ -600,7 +598,7 @@ Per visualizzare i dettagli del contenitore, selezionare **Gestione magazzino \>
 1. Confermare l'ID posizione di ordinamento per indicare che le scorte sono nell'ubicazione corretta. Nel campo **ID posizione ordinamento**, immettere *SP01*.
 1. Selezionare **OK**.
 
-    Il lavoro è completato per il secondo contenitore dell'ordine cliente 1. Ora si ordineranno i contenitori rimanenti dell'ordine di vendita 2.
+    Il lavoro è completato per il secondo contenitore dell'ordine cliente 1. Ora si ordineranno i contenitori rimanenti dell'ordine cliente 2.
 
 1. Nel campo **Targa/Con**, immettere l'ID contenitore del contenitore dell'ordine cliente 2 che contiene l'articolo *A0001*. Poiché il servizio di trasporto differisce, viene richiesto di immettere una nuova posizione di ordinamento e di assegnare una targa a quella posizione. Utilizzare la posizione ordinamento *SP02* e la targa *PLP02*.
 1. Selezionare **OK**.
@@ -666,3 +664,6 @@ Quando tutte le scorte sono state ordinate, la posizione deve essere chiusa prim
     Il lavoro è completato.
 
 Da questo momento, si applicano tutti gli altri processi di magazzino.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

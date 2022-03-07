@@ -1,12 +1,10 @@
 ---
 title: Tempi di fermo per la manutenzione per ordini di lavoro
 description: Questo argomento descrive come creare registrazioni di tempi di fermo per la manutenzione nel cespite selezionato in un ordine di lavoro.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 38c47a47fdf64c1d3601f6f3f7b84bf128823ec2ceb0c50e586822f6bdb97906
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753374"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Tempi di fermo per la manutenzione per ordini di lavoro
 
@@ -47,7 +45,7 @@ ms.locfileid: "5020913"
 
 Nella figura seguente è illustrato un esempio della pagina **Codici motivo dei tempi di fermo per la manutenzione**.
 
-![Figura 1](media/15-work-orders.png)
+![Figura 1.](media/15-work-orders.png)
 
 Dopo aver creato i codici motivo dei tempi di fermo per la manutenzione che si desidera utilizzare, è possibile creare registrazioni di tempi di fermo per la manutenzione per ordini di lavoro e cespiti.
 
@@ -73,18 +71,21 @@ Dopo aver creato i codici motivo dei tempi di fermo per la manutenzione che si d
 
 Nella figura seguente viene illustrato un esempio di una registrazione dei tempi di fermo per la manutenzione.
 
-![Figura 2](media/16-work-orders.png)
+![Figura 2.](media/16-work-orders.png)
 
 Il calendario utilizzato per calcolare una registrazione di tempi di fermo per la manutenzione dipende dalla selezione nell'impostazione dei cespiti e dei parametri. Se una risorsa è selezionata in un cespite nel campo **Risorsa** della scheda dettaglio **Cespite** della pagina **Tutti i cespiti**, viene utilizzata l'impostazione del calendario per il gruppo di risorse associato, come illustrato nella figura seguente.
 
-![Figura 3](media/17-work-orders.png)
+![Figura 3.](media/17-work-orders.png)
 
 Se non si seleziona una risorsa nel cespite, viene utilizzato il calendario standard selezionato nella pagina **Parametri di gestione cespiti**, come illustrato nella figura seguente.
 
-![Figura 4](media/18-work-orders.png)
+![Figura 4.](media/18-work-orders.png)
 
 Fare clic su **Gestione cespiti** > **Richieste di informazioni** > **Tempi di fermo per la manutenzione** per visualizzare una panoramica di tutte le registrazioni di tempi di fermo per la manutenzione.
 
 >[!NOTE]
 >Tutti i calendari utilizzati nel modulo **Gestione cespiti** sono impostati in **Amministrazione organizzazione** > **Impostazione** > **Calendari** > **Calendari**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

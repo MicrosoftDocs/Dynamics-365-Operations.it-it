@@ -2,28 +2,25 @@
 title: Consegne dirette
 description: Vengono fornite le informazioni sulle consegne dirette, ovvero le consegne di articoli direttamente dal fornitore al cliente.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 9704
 ms.assetid: 64c51384-8a4e-45d0-83c1-12cea22902f9
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540f7514a152cfba48d00a3cf863b24d23b4c30e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 70919409cac0b6318e4f95c27bfa005306ef02380a165df5ad302b0396ba9769
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431312"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776268"
 ---
 # <a name="direct-deliveries"></a>Consegne dirette
 
@@ -53,3 +50,6 @@ Quando si crea una consegna diretta, gli articoli venduti non arrivano mai nel p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

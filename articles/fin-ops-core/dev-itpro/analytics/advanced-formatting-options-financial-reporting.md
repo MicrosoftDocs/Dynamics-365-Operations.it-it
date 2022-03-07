@@ -1,12 +1,10 @@
 ---
 title: Opzioni di formattazione avanzate nei report finanziari
-description: Quando si crea un report nei report finanziari, sono disponibili funzioni di formattazione aggiuntive, inclusi i filtri per dimensioni, restrizioni per le colonne e le unità di report, righe non stampabili e istruzioni IF/THEN/ELSE nei calcoli.
-author: ryansandness
-manager: AnnBe
+description: Questo argomento descrive le funzioni di formattazione avanzate, inclusi filtri, restrizioni, righe non stampabili e istruzioni condizionali nei calcoli.
+author: panolte
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e15869fdd598aeec7ef616f6d54593c7551cb906ab53763a64f4202473bcd926
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760128"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opzioni di formattazione avanzate nei report finanziari
 
@@ -73,7 +71,7 @@ Gli esempi seguenti mostrano come formattare la definizione di riga e la definiz
 
 La tabella indicata di seguito mostra un esempio di una definizione di riga che utilizza il posizionamento forzato di base.
 
-| Codice di riga |           descrizione            | Codice formato | Formule/Righe/Unità correlate |        Modificatore di riga        | Collegamento a dimensioni finanziarie |
+| Codice di riga |           Descrizione            | Codice formato | Formule/Righe/Unità correlate |        Modificatore di riga        | Collegamento a dimensioni finanziarie |
 |----------|----------------------------------|-------------|-----------------------------|----------------------------|------------------------------|
 | 100      | Liquidità a inizio periodo (NP) |             |                             | Modificatore di conto = \[/BB\] | +Segment2 = \[1100\]         |
 | 130      | Importo di cassa all'inizio del periodo      | CAL         | C=C.100,F=D.100             |                            |                              |
@@ -283,10 +281,10 @@ Per limitare un calcolo a un'unica unità gerarchica in un albero gerarchico, in
 > [!NOTE]
 > Per utilizzare questa funzione, un albero gerarchico deve essere associato alla definizione di riga.
 
-La riga di calcolo può fare riferimento a una riga di calcolo o una riga di dati finanziari. Il calcolo viene registrato nella cella **Unità/righe/formule correlate** della definizione di riga e nella restrizione di tipo di dati finanziari. Il calcolo deve utilizzare un calcolo condizionale che inizia con una costruzione **IF @Unit**. Ecco un esempio: IF @Unit(SALES) THEN @100 ELSE 0 Questo calcolo include l'importo della riga 100 in ogni colonna del report, ma solo per l'unità SALES. Se più unità sono denominate SALES, l'importo viene visualizzato in ciascuna di queste unità. Inoltre, la riga 100 può essere una riga di dati finanziari e può essere definita come da non stampare. In questo caso, si impedisce all'importo di apparire in tutte le unità dell'albero. È inoltre possibile limitare l'importo a una singola colonna del report, ad esempio la colonna H, utilizzando una restrizione di colonna per stampare il valore solo in quella colonna del report. È possibile includere combinazioni **OR** in un'istruzione **IF**. Ecco un esempio: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 È possibile specificare un'unità in una restrizione di tipo calcolo in uno dei seguenti modi:
+La riga di calcolo può fare riferimento a una riga di calcolo o una riga di dati finanziari. Il calcolo viene registrato nella cella **Unità/righe/formule correlate** della definizione di riga e nella restrizione di tipo di dati finanziari. Il calcolo deve utilizzare un calcolo condizionale che inizia con una costruzione **IF \@Unit**. Ecco un esempio: IF @Unit(SALES) THEN @100 ELSE 0 Questo calcolo include l'importo della riga 100 in ogni colonna del report, ma solo per l'unità SALES. Se più unità sono denominate SALES, l'importo viene visualizzato in ciascuna di queste unità. Inoltre, la riga 100 può essere una riga di dati finanziari e può essere definita come da non stampare. In questo caso, si impedisce all'importo di apparire in tutte le unità dell'albero. È inoltre possibile limitare l'importo a una singola colonna del report, ad esempio la colonna H, utilizzando una restrizione di colonna per stampare il valore solo in quella colonna del report. È possibile includere combinazioni **OR** in un'istruzione **IF**. Esempio: **IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100**. È possibile specificare un'unità in una restrizione di tipo calcolo in uno dei seguenti modi:
 
-- Immettere un nome di unità per includere le unità che corrispondono. Ad esempio, **IF @Unit(SALES)** abilita il calcolo per qualsiasi unità denominata SALES, anche se sono presenti più unità SALES nell'albero gerarchico.
-- Immettere il nome della società e dell'unità per limitare il calcolo a unità specifiche di una società specifica. Ad esempio, immettere **IF @Unit(ACME:SALES**) per limitare il calcolo alle unità SALES della società ACME.
+- Immettere un nome di unità per includere le unità che corrispondono. Ad esempio, **IF \@Unit(SALES)** abilita il calcolo per qualsiasi unità denominata SALES, anche se sono presenti più unità SALES nell'albero gerarchico.
+- Immettere il nome della società e dell'unità per limitare il calcolo a unità specifiche di una società specifica. Ad esempio, immettere **IF @Unit (ACME:SALES)** per limitare il calcolo alle unità SALES della società ACME.
 - Immettere il codice gerarchia completo dell'albero gerarchico per limitare il calcolo a un'unità specifica. Ad esempio, immettere **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -296,7 +294,7 @@ La riga di calcolo può fare riferimento a una riga di calcolo o una riga di dat
 
 1. In Progettazione report fare clic su **Definizioni di riga**, quindi aprire la definizione di riga che si intende modificare.
 2. Fare doppio clic sulla cella **Codice formato** quindi selezionare **CAL**.
-3. Fare clic sulla cella **Unità/righe/formule correlate** quindi immettere un calcolo condizionale che inizia con una costruzione **IF @Unit**.
+3. Fare clic sulla cella **Unità/righe/formule correlate** quindi immettere un calcolo condizionale che inizia con una costruzione **IF \@Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Istruzioni IF/THEN/ELSE in una definizione di colonna
 
@@ -310,3 +308,5 @@ Un'istruzione **IF/THEN/ELSE** abilita la dipendenza di un calcolo dai risultati
 È possibile generare report utilizzando i valori di dimensione contenenti una e commerciale (&).
 
 Nel campo **Collegamento a dimensioni finanziarie**, è possibile immettere un valore, ad esempio **"'profitti e perdite'** Includendo le virgolette singole (' ') su entrambe le estremità del valore di dimensione indica che si sta utilizzando il valore letterale, ad esempio il carattere della e commerciale (&).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

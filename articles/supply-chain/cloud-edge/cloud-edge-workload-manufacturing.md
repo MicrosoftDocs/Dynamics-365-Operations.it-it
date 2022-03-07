@@ -2,11 +2,9 @@
 title: Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
 description: Questo argomento descrive il funzionamento dei carichi di lavoro di esecuzione della produzione con le unità di scala nel cloud e nella rete perimetrale.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,22 +16,25 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967768"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068846"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di esecuzione della produzione per unità di scala nel cloud e nella rete perimetrale
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-> [!WARNING]
+> [!IMPORTANT]
+> Il carico di lavoro di esecuzione della produzione è attualmente disponibile solo in anteprima.
+>
 > Alcune funzionalità aziendali non sono completamente supportate nell'anteprima pubblica quando vengono utilizzate le unità di scala del carico di lavoro.
+>
+> Non puoi eseguire il carico di lavoro di esecuzione del magazzino in anteprima su un'unità di scala in cui è installato anche il carico di lavoro di esecuzione del magazzino.
 
-Nell'esecuzione della produzione, le unità di scala nel cloud e nella rete perimetrale offrono le seguenti funzionalità, anche quando le unità della rete perimetrale non sono connesse all'hub:
+Nell'esecuzione della produzione, le unità di scala offrono le seguenti funzionalità:
 
 - Gli operatori macchine e i supervisori del reparto di produzione possono accedere al piano di produzione operativo.
 - Gli operatori possono mantenere il piano aggiornato eseguendo lavori di produzione discreti e di elaborazione.
@@ -46,7 +47,7 @@ Questo argomento descrive il funzionamento dei carichi di lavoro di esecuzione d
 
 Come mostrato nella figura seguente, il ciclo di vita della produzione è suddiviso in tre fasi: *Piano*, *Esecuzione* e *Finalizzazione*.
 
-[![Fasi di esecuzione della produzione quando viene utilizzato un unico ambiente](media/mes-phases.png "Fasi di esecuzione della produzione quando viene utilizzato un unico ambiente")](media/mes-phases-large.png)
+[![Fasi di esecuzione della produzione quando viene utilizzato un unico ambiente](media/mes-phases.png "Fasi di esecuzione della produzione quando viene utilizzato un unico ambiente.")](media/mes-phases-large.png)
 
 La fase di _Piano_ include la definizione del prodotto, la pianificazione, la creazione e la programmazione degli ordini e il rilascio. La fase di rilascio indica il passaggio dalla fase di _Piano_ alla fase di _Esecuzione_. Quando un ordine di produzione viene rilasciato, i processi dell'ordine di produzione saranno visibili nell'area di produzione e pronti per l'esecuzione.
 
@@ -56,7 +57,7 @@ Quando un processo di produzione viene contrassegnato come completato, si posta 
 
 Come mostrato nella figura seguente, quando vengono utilizzate le unità di scala, la fase di _Esecuzione_ viene suddivisa come carico di lavoro separato.
 
-[![Fasi di esecuzione della produzione quando vengono utilizzate le unità di scala](media/mes-phases-workloads.png "Fasi di esecuzione della produzione quando vengono utilizzate le unità di scala")](media/mes-phases-workloads-large.png)
+[![Fasi di esecuzione della produzione quando vengono utilizzate le unità di scala](media/mes-phases-workloads.png "Fasi di esecuzione della produzione quando vengono utilizzate le unità di scala.")](media/mes-phases-workloads-large.png)
 
 Il modello ora passa da un'installazione a istanza singola a un modello basato sull'hub e sulle unità di scala. Le fasi _Piano_ e _Finalizzazione_ vengono eseguite come operazioni di back-office sull'hub, mentre il carico di lavoro di esecuzione della produzione viene eseguito sulle unità di scala. I dati vengono trasferiti in modo asincrono tra l'hub e le unità di scala.
 
@@ -73,6 +74,7 @@ Le attività di esecuzione della produzione seguenti possono attualmente essere 
 - Dichiara scarto
 - Attività indiretta
 - Interruzione
+- Dichiarato di finito e stoccato (richiede che venga anche eseguito il carico di lavoro di esecuzione del magazzino sull'unità di scala, vedere anche [Dichiarato di finito e stoccato su un'unità di scala](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Lavorare con i carichi di lavoro di esecuzione della produzione nell'hub
 
@@ -88,7 +90,7 @@ Sebbene il processo di solito venga eseguito automaticamente, è possibile esegu
 
 Per esaminare il registro di elaborazione delle registrazioni, accedere all'hub, andare a **Controllo produzione \> Attività periodiche \> Gestione carico di lavoro di backoffice \> Registro di elaborazione registrazioni non elaborate**. Nella pagina **Registro di elaborazione registrazioni non elaborate** viene visualizzato un elenco di registrazioni non elaborate in corso di elaborazione e lo stato di ogni registrazione.
 
-![Pagina Registro di elaborazione registrazioni non elaborate](media/mes-processing-log.png "Pagina Registro di elaborazione registrazioni non elaborate")
+![Pagina Registro di elaborazione registrazioni non elaborate.](media/mes-processing-log.png "Pagina Registro di elaborazione registrazioni non elaborate")
 
 È possibile utilizzare qualsiasi registrazione nell'elenco selezionandola e quindi selezionando uno dei seguenti pulsanti nel riquadro azioni:
 
@@ -109,3 +111,43 @@ Per esaminare la cronologia dei processi di produzione elaborati su un'unità di
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Processo Elaborazione messaggi da hub di produzione a unità di scala
 
 Il processo _Elaborazione messaggi da hub di produzione a unità di scala_ elabora i dati dall'hub all'unità di scala. Questo processo viene avviato automaticamente quando viene distribuito il carico di lavoro di esecuzione della produzione. Tuttavia, è possibile eseguirlo manualmente in qualsiasi momento andando a **Controllo produzione \> Attività periodiche \> Gestione carico di lavoro di backoffice \> Elaborazione messaggi da hub di produzione a unità di scala**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Dichiarato di finito e stoccato su un'unità di scala
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Nella versione corrente, le operazioni Dichiarato di finito e stoccato (per prodotti finiti, co-prodotti e sottoprodotti) sono supportate dal [carico di lavoro di esecuzione del magazzino](cloud-edge-workload-warehousing.md) (non il carico di lavoro di esecuzione della produzione). Pertanto, per utilizzare questa funzionalità quando è collegato a un'unità di scala, è necessario effettuare le seguenti operazioni:
+
+- Installa sia il carico di lavoro di esecuzione del magazzino che il carico di lavoro di esecuzione della produzione sull'unità di scala.
+- Utilizzare l'app Warehouse Management per dispositivi mobili per dichiarare come finito ed elaborare il lavoro di stoccaggio. L'interfaccia di esecuzione dell'area di produzione non supporta attualmente questi processi.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Abilitare e utilizzare l'operazione di avvio su un'unità di scala
+
+Nella versione corrente, l'operazione di avvio per la produzione e gli ordini in batch è supportata dal [carico di lavoro di esecuzione del magazzino](cloud-edge-workload-warehousing.md) (non il carico di lavoro di esecuzione della produzione). Pertanto, per utilizzare questa funzionalità quando sei connesso a un'unità di scala, devi completare queste attività:
+
+- Installa sia il carico di lavoro di esecuzione del magazzino che il carico di lavoro di esecuzione della produzione sull'unità di scala.
+- Abilita la funzionalità *Iniziare l'ordine di produzione nel carico di lavoro di gestione del magazzino per l'unità cloud e di scala edge* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Utilizza l'app per dispositivi mobili Warehouse Management per avviare la produzione o l'ordine batch.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Abilitare e utilizzare il consumo di materiale su un'unità di scala
+
+Nella versione corrente, il flusso nell'app per dispositivi mobili Warehouse Management per la registrazione del consumo di materiale è supportato dal [carico di lavoro di esecuzione del magazzino](cloud-edge-workload-warehousing.md) (non il carico di lavoro dell'esecuzione della produzione). Pertanto, per utilizzare questa funzionalità quando sei connesso a un'unità di scala, devi completare queste attività:
+
+- Installa sia il carico di lavoro di esecuzione del magazzino che il carico di lavoro di esecuzione della produzione sull'unità di scala.
+- Abilita la funzionalità *Registra il consumo materiali nell'app per dispositivi mobili in un'unità di scala* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Utilizza l'app per dispositivi mobili Warehouse Management per registrare il consumo di materiale.
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

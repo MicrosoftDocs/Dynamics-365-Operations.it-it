@@ -2,11 +2,9 @@
 title: Valori di un oggetto di magazzino
 description: Questo articolo fornisce informazioni sul modo in cui vengono calcolati i valori di un oggetto di magazzino.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 914c7e8c757664ec791b46924600b74c9c979e8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6564df5bd9c768f647138714875c60ddd6df3c85
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967435"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568953"
 ---
 # <a name="inventory-object-values"></a>Valori di un oggetto di magazzino
 
@@ -41,12 +39,12 @@ object.Value magazzino = Cost unitario object.Average × object.Quantity magazzi
 
 Il seguente esempio mostra come vengono calcolati i valori di un oggetto di magazzino e di un oggetto di costo. Due eventi di entrata prodotti vengono registrati nell'articolo A:
 
--   Entrata prodotti 1: Quantità = 100. pz, Importo = $ 1.000, 00, Sito = 1, Magazzino =11 Batch n. = B1
+-   Entrata prodotti 1: Quantità = 100 pz, Importo = $ 1.000,00, Sito = 1, Magazzino =11 Batch n. = B1
 -   Entrata prodotti 2: Quantità = 50. pz, Importo = $800,00, Sito = 1, Magazzino =11 Batch n. = B2
 
 Nella seguente tabella viene visualizzato il risultato del calcolo per un oggetto di costo. È possibile visualizzare il risultato nella pagina **Oggetto di costo**.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />
@@ -82,7 +80,7 @@ Nella seguente tabella viene visualizzato il risultato del calcolo per un oggett
 
 Nella seguente tabella viene visualizzato il risultato del calcolo per un oggetto di magazzino. È possibile visualizzare il risultato facendo clic su **Quantità fisica** nella pagina **Oggetto di costo**.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="11%" />
 <col width="11%" />
@@ -135,14 +133,16 @@ Nella seguente tabella viene visualizzato il risultato del calcolo per un oggett
 
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Oggetti di costo](cost-object.md)
 
 [Voci di costo](cost-entries.md)
 
-[Novità e modifiche](../../fin-and-ops/get-started/whats-new-changed.md)
+[Novità e modifiche](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

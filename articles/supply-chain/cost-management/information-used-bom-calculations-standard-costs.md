@@ -2,29 +2,26 @@
 title: Informazioni utilizzate nei calcoli DBA con costi standard
 description: Per i calcoli della distinta base (DBA) vengono utilizzati dati provenienti da diverse origini allo scopo di conteggiare i costi standard di un articolo prodotto. Le possibili origini includono informazioni sugli articoli, i cicli di lavorazione delle distinte base, le formule di calcolo dei costi indiretti e la versione di determinazione costi.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc7e4105d085e2af0e8e6e574244f5083d08c15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56b1aa33c11f7cfbbde2a278bef25189ac697d19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431126"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575125"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informazioni utilizzate nei calcoli DBA con costi standard
 
@@ -43,7 +40,7 @@ Nelle informazioni sull'articolo prodotto utilizzate in un calcolo DBA per i cos
 
 Nelle informazioni sulla DBA utilizzate in un calcolo DBA per i costi standard è incluso quanto segue:
 -   Versione DBA - Alla versione della DBA assegnata all'articolo prodotto sono associati date di inizio e fine validità e uno stato (approvato e attivo). Tale versione può essere a livello di società o specifica del sito e può eventualmente riflettere i punti di interruzione quantità.
--   Quantità articolo della riga DBA - Per un componente in genere è richiesta una quantità variabile, ma può anche essere costante. La quantità componente in genere viene espressa per la produzione di un articolo principale, ma può essere espressa per 100 o 1000 allo scopo di gestire eventuali problematiche connesse alla precisione decimale. La quantità componente può inoltre essere calcolata in base alle misurazioni.
+-   Quantità articolo della riga DBA - Per un componente in genere è richiesta una quantità variabile, ma può anche essere costante. La quantità componente in genere viene espressa per la produzione di un articolo principale, ma può essere espressa per 100 o 1000 allo scopo di gestire eventuali problematiche connesse alla precisione decimale. La quantità componente può inoltre essere calcolata in base alle misure.
 -   Scarto articolo per la riga DBA: un componente può avere una quantità variabile o costante per lo scarto pianificato.
 -   Date di validità articolo per la riga DBA: a un componente possono essere associate date di inizio e fine validità.
 -   Tipo di produzione articolo per la riga DBA - La dimensione gruppo di transazioni di determinazione costi per l'ammortamento dei costi costanti rifletterà la quantità del calcolo DBA e la modalità di esplosione Produzione su ordine, in quanto per il calcolo DBA si presuppone che il componente prodotto verrà prodotto nella quantità esatta e non nella relativa quantità ordine standard.
@@ -84,3 +81,6 @@ Nelle informazioni sulla versione di determinazione costi utilizzate in un calco
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

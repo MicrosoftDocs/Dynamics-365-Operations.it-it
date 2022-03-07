@@ -2,30 +2,31 @@
 title: Panoramica self-service per dipendenti e manager
 description: Questo articolo fornisce una panoramica dell'area di lavoro self-service per dipendenti e manager.
 author: andreabichsel
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
-ms.custom: 51941
+ms.search.scope: Human Resources
+ms.custom:
+- "51941"
+- intro-internal
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.openlocfilehash: 2effea18c149ae4fe8a4fd6a1a26882d4adb058f3f09e4f9fdac7d594db3acc9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4419278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719625"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Panoramica self-service per dipendenti e manager
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Questo articolo fornisce una panoramica dell'area di lavoro self-service per dipendenti e manager.
 
@@ -80,7 +81,7 @@ La scheda **Certificati** visualizza il certificato e la data di scadenza del ce
 
 La scheda **Prossima revisione programmata** mostra la prossima revisione delle prestazioni. È possibile iniziare una nuova revisione da questa scheda. Anche il manager o il rappresentante delle risorse umane può avviare revisioni. A seconda delle impostazioni dell'organizzazione, è possibile anche visualizzare, aggiornare e inviare revisioni di uscita da questa scheda.
 
-È possibile gestire gli obiettivi con la scheda **Obiettivi prestazioni**. Questa carta mostra il numero di obiettivi presenti in ogni stato (**Non avviato**, **Operativo** e **Richiede miglioramento**). È possibile creare, aggiornare e rimuovere obiettivi, in base alla sicurezza basata su ruolo assegnata. Se desiderato, è possibile aggiungere nuovi obiettivi da gruppi o modelli. I manager e le risorse umane possono anche creare obiettivi per conto dei dipendenti e determinare i dettagli di ciascun obiettivo. I manager e i dipendenti possono collaborare su obiettivi e aggiornare attività, misurazioni e stato. È anche possibile includere allegati.
+È possibile gestire gli obiettivi con la scheda **Obiettivi prestazioni**. Questa carta mostra il numero di obiettivi presenti in ogni stato (**Non avviato**, **Operativo** e **Richiede miglioramento**). È possibile creare, aggiornare e rimuovere obiettivi, in base alla sicurezza basata su ruolo assegnata. Se desiderato, è possibile aggiungere nuovi obiettivi da gruppi o modelli. I manager e le risorse umane possono anche creare obiettivi per conto dei dipendenti e determinare i dettagli di ciascun obiettivo. I manager e i dipendenti possono collaborare su obiettivi e aggiornare attività, misure e stato. È anche possibile includere allegati.
 
 È possibile visualizzare le competenze esistenti nella scheda **Competenze**. È possibile aggiornare le competenze, aggiungerne di nuove o rimuovere quelle che non sono più pertinenti. A seconda delle impostazioni dell'organizzazione, la modifica alle competenze potrebbe essere soggetta a un processo di approvazione.
 
@@ -214,3 +215,5 @@ I manager possono vedere tutti gli obiettivi del team selezionando il riquadro *
 La scheda **Revisioni** riepiloga le revisioni che il dipendente ha in ogni stato: **In corso**, **Pronto per la revisione** e **Revisione finale**. Per accedere alla revisione di un dipendente, selezionare il pulsante **Dettagli** quindi selezionare le revisione su cui collaborare. In base a dove si trova una revisione nel processo del flusso di lavoro, è possibile vedere se la revisione è disponibile per l'aggiornamento. 
 
 È possibile vedere tutte le revisioni del team selezionando il riquadro **Revisioni prestazioni team** nella sezione **Riepilogo** di **Team personale**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

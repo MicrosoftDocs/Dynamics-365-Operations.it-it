@@ -1,38 +1,34 @@
 ---
 title: Paese di origine
 description: Molte organizzazioni rilasciano certificati ai propri fornitori per garantire che i prodotti soddisfino specifici standard di certificazione. Questi certificati dipendono spesso dal paese di origine. Questo argomento fornisce informazioni sulla funzionalità del paese di origine, che consente di collegare un prodotto al relativo paese di origine e di tenere traccia delle certificazioni del prodotto.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430812"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777640"
 ---
 # <a name="country-of-origin"></a>Paese di origine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Molte organizzazioni rilasciano certificati ai propri fornitori per garantire che i prodotti soddisfino specifici standard di certificazione. Questi certificati dipendono spesso dal paese di origine. La funzionalità del paese di origine consente di collegare un prodotto al relativo paese di origine e di tenere traccia delle certificazioni del prodotto.
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Attivare la funzionalità del paese di origine
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla o disabilitarla se necessario. La funzione viene elencata come:
 
 - **Modulo:** *Gestione informazioni sul prodotto*
 - **Nome funzionalità:** *Funzionalità di gestione del paese di origine*
@@ -45,7 +41,7 @@ Prima di emettere un certificato per un prodotto, è necessario collegare il pro
 2. Selezionare l'impostazione di un paese esistente da modificare oppure selezionare **Nuovo** nel riquadro azioni per creare una nuova impostazione del paese.
 3. Impostare i seguenti valori per il paese selezionato o nuovo.
 
-    | Campo | descrizione |
+    | Campo | Descrizione |
     |---|---|
     | Numero articolo | Selezionare il numero di articolo del prodotto. |
     | Paese di destinazione | Selezionare il paese a cui si sta inviando il prodotto. |
@@ -65,7 +61,7 @@ Per configurare l'impostazione dei certificati, procedere come descritto di segu
 2. Selezionare un'impostazione del certificato esistente da modificare o selezionare **Nuovo** nel riquadro azioni per creare una nuova impostazione del certificato.
 3. Impostare le seguenti impostazioni per il certificato selezionato o nuovo.
 
-    | Campo | descrizione |
+    | Campo | Descrizione |
     |---|---|
     | Account fornitore | Selezionare il fornitore a cui è stato rilasciato il certificato. |
     | Numero articolo | Selezionare l'articolo per il quale è stato rilasciato il certificato. |
@@ -90,4 +86,7 @@ Quando si genera un report DBA, è possibile includere il paese di origine per c
 
 Viene generato e visualizzato un report con informazioni sul paese di origine di ciascuna parte. Di seguito è riportato un esempio del report.
 
-![Report del paese di origine](media/country-of-origin-report.png "Report del paese di origine")
+![Report del paese di origine.](media/country-of-origin-report.png "Report del paese di origine")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

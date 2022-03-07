@@ -1,33 +1,35 @@
 ---
 title: Configurare l'integrazione con Dayforce
-description: L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo articolo. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Questo argomento descrive i passi di configurazione necessari per l'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419121"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067078"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurare l'integrazione con Dayforce
 
-L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo articolo. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo argomento. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
 
 Quando si utilizza un servizio, ad esempio Dayforce, per completare i cicli di pagamenti, è necessario abilitare l'integrazione in Human Resources. L'integrazione richiede dati specifici da Human Resources. Di conseguenza, è necessario verificare che i dati che vengono mappati a Dayforce siano configurati in Human Resources in modo che supporti l'integrazione. L'integrazione utilizza le seguenti categorie generiche di dati:
 
@@ -36,7 +38,7 @@ Quando si utilizza un servizio, ad esempio Dayforce, per completare i cicli di p
 - Data di retribuzione, ad esempio i cicli di pagamenti, i periodi retributivi e i codici reddito
 - Dati del lavoratore
 
-In questo articolo vengono descritti i passaggi che è necessario completare per abilitare l'integrazione. E vengono descritti i tipi di dati e i dettagli di configurazione necessari all'integrazione.
+Questo argomento descrive i passi da seguire per abilitare l'integrazione e spiega i tipi di dati e i dettagli di configurazione che l'integrazione richiede.
 
 ## <a name="enable-the-integration"></a>Abilitare l'integrazione
 
@@ -51,10 +53,10 @@ Per attivare l'integrazione in Human Resources, seguire questi passaggi.
 
 Quando l'integrazione viene attivata, vengono creati i file e il pacchetto di esportazione dei dati e viene impostata la frequenza. È possibile cambiare la frequenza in base alle esigenze.
 
-Per altre informazioni sugli account di Archiviazione di Azure e sulle stringhe di connessione di Archiviazione di Azure, vedere gli articoli di Azure seguenti:
+Per altre informazioni sugli account di Archiviazione di Azure e sulle stringhe di connessione di Archiviazione di Azure, vedere gli argomenti di Azure seguenti:
 
-- [Account di Archiviazione di Azure](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Configurare le stringhe di connessione di Archiviazione di Azure](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [Account di Archiviazione di Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Configurare le stringhe di connessione di Archiviazione di Azure](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Dettagli tecnici quando l'integrazione delle retribuzioni è attivata
 
@@ -122,12 +124,12 @@ Dayforce crea le seguenti detrazioni, in base all'impatto delle retribuzioni def
 | Solo contribuzione          | Viene creata una detrazione del datore di lavoro.             |
 | Detrazione e contribuzione | Vengono create detrazioni del datore di lavoro e del dipendente. |
 
-Per altre informazioni su come definire e gestire un programma di benefit, vedere gli articoli seguenti:
+Per altre informazioni su come definire e gestire un programma di benefit, vedere gli argomenti seguenti:
 
-- [Realizzare un programma di benefit per i dipendenti](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Crea un nuovo benefit](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Definire regole e criteri di idoneità ai benefit](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Iscrivere e rimuovere benefit da lavoratori](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Realizzare un programma di benefit per i dipendenti](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Creare un nuovo benefit](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Definire regole e criteri di idoneità ai benefit](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Iscrivere e rimuovere benefit da lavoratori](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Retribuzione 
 
@@ -135,22 +137,22 @@ La gestione delle retribuzioni consente di controllare la liquidazione dei premi
 
 Dayforce utilizza le informazioni sulla compensazione per calcolare la retribuzione annuale o oraria di un dipendente. I piani di retribuzione fissa e conversioni della retribuzione sono obbligatori. I dipendenti devono essere associati a un piano di retribuzione fissa.
 
-Per ulteriori informazioni sui piani di retribuzione, vedere gli articoli seguenti:
+Per ulteriori informazioni sui piani di retribuzione, vedere gli argomenti seguenti:
 
-- [Creare piani di retribuzione fissa](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Creare piani di retribuzione variabile](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Sviluppare una struttura e piani di stipendi/retribuzioni](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Processo retributivo](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [Definire il processo retributivo e calcolare i risultati](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Iscrivere un dipendente a un piano di retribuzione fisso](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Iscrivere un dipendente a un piano di retribuzione variabile](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Creare i piani di retribuzione fissa](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Creare i piani di retribuzione variabile](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Sviluppare una struttura e piani di stipendi/retribuzioni](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Processo retributivo](/dynamics365/unified-operations/talent/process-compensation)
+- [Definire il processo retributivo e calcolare i risultati](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Iscrivere un dipendente a un piano di retribuzione fisso](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Iscrivere un dipendente a un piano di retribuzione variabile](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Mansioni 
 
-Una mansione è una raccolta delle attività e delle responsabilità proprie della persona assegnata a una mansione. Per ulteriori informazioni, vedere gli articoli seguenti:
+Una mansione è una raccolta delle attività e delle responsabilità proprie della persona assegnata a una mansione. Per ulteriori informazioni, vedere i seguenti argomenti:
 
-- [Impostazione dei componenti di una mansione](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [Definire nuovi processi](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Impostazione dei componenti di una mansione](/dynamics365/unified-operations/talent/create-job)
+- [Definire nuovi processi](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Posizioni
 
@@ -172,19 +174,19 @@ Tenere a mente i seguenti dati e la configurazione quando si impostano le posizi
 
 Se nello stesso reparto più posizioni sono associate alla stessa mansione, vengono consolidate in una singola posizione in Dayforce.
 
-Per ulteriori informazioni, vedere gli articoli seguenti:
+Per ulteriori informazioni, vedere i seguenti argomenti:
 
-- [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Impostare le posizioni](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Impostare le posizioni](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Reparti
 
 Un reparto è un'unità operativa che rappresenta una categoria o un'area operativa di un'organizzazione. Un reparto è responsabile di una specifica area dell'organizzazione, ad esempio la vendita, la contabilità o le risorse umane. È possibile utilizzare i reparti per creare report sulle aree operative. I reparti possono essere responsabili di profitti e perdite.
 
-Per ulteriori informazioni, vedere gli articoli seguenti:
+Per ulteriori informazioni, vedere i seguenti argomenti:
 
-- [Creare un reparto e associarlo alla gerarchia reparti](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Definire nuovi reparti](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Creare un reparto e associarlo alla gerarchia reparti](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Definire nuovi reparti](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Cicli e periodi retributivi
 
@@ -208,7 +210,7 @@ I codici di reddito identificano in modo univoco ogni tipo di reddito che i lavo
 Le informazioni seguenti vengono utilizzate in Dayforce:
 
 - Codice di reddito (obbligatorio)
-- descrizione
+- Descrizione
 - Unità di misura
 - Produttivo
 
@@ -378,7 +380,7 @@ I tipi di mansione vengono utilizzati per raggruppare mansioni simili in categor
 
 I seguenti tipi di mansione e le descrizioni sono obbligatori.
 
-| Tipo di processo   | descrizione |
+| Tipo di processo   | Descrizione |
 |------------|-------------|
 | Su base oraria     | Su base oraria      |
 | Stipendiato   | Stipendiato    |
@@ -389,7 +391,7 @@ Si utilizzano i tipi di posizione per descrivere se è la posizione è a tempo p
 
 I seguenti tipi di posizione e le descrizioni sono obbligatori.
 
-| Tipo di posizione   | descrizione        |
+| Tipo di posizione   | Descrizione        |
 |-----------------|--------------------|
 | A tempo pieno       | Dipendente a tempo pieno |
 | A tempo parziale       | Dipendente a tempo parziale |
@@ -400,7 +402,7 @@ I codici motivo forniscono informazioni sullo stato di un dipendente. I codici m
 
 I seguenti codici motivo e le descrizioni sono obbligatori.
 
-| Codice motivo    | descrizione      | Scenari applicabili |
+| Codice motivo    | Descrizione      | Scenari applicabili |
 |----------------|------------------|----------------------|
 | RESIGNATION    | Dimissioni      | Termina rapporto con lavoratore     |
 | TERMINATION    | Fine      | Termina rapporto con lavoratore     |
@@ -511,7 +513,7 @@ I tipi di mansione vengono utilizzati per raggruppare mansioni simili in categor
 
 I seguenti tipi di mansione e le descrizioni sono obbligatori.
 
-| Tipo di processo   | descrizione |
+| Tipo di processo   | Descrizione |
 |------------|-------------|
 | Su base oraria     | Su base oraria MX   |
 | Stipendiato   | Stipendiato MX |
@@ -522,7 +524,7 @@ Si utilizzano i tipi di posizione per descrivere se è la posizione è a tempo p
 
 I seguenti tipi di posizione e le descrizioni sono obbligatori.
 
-| Tipo di posizione   | descrizione        |
+| Tipo di posizione   | Descrizione        |
 |-----------------|--------------------|
 | A tempo pieno       | Dipendente a tempo pieno |
 | A tempo parziale       | Dipendente a tempo parziale |
@@ -533,7 +535,7 @@ I codici motivo forniscono informazioni sullo stato di un dipendente. I codici m
 
 I seguenti codici motivo e le descrizioni sono obbligatori.
 
-| Codice motivo            | descrizione                    | Scenari applicabili |
+| Codice motivo            | Descrizione                    | Scenari applicabili |
 |------------------------|--------------------------------|----------------------|
 | DEPARTUREBEFOREPAYMENT | Partenza prima della prima retribuzione | Termina rapporto con lavoratore     |
 | RESIGNATION            | Dimissioni                    | Termina rapporto con lavoratore     |
@@ -554,7 +556,7 @@ Le condizioni di impiego vengono utilizzate per creare categorie di termini di i
 
 I seguenti termini di impiego e le descrizioni sono obbligatori.
 
-| Condizioni di impiego   | descrizione |
+| Condizioni di impiego   | Descrizione |
 |-----------------------|-------------|
 | Regolare               | Regolare     |
 | Diretto                | Diretto      |
@@ -676,3 +678,6 @@ I dipendenti possono indicare le informazioni sul passaporto. Queste informazion
 
 I dipendenti possono dichiarare più numeri di identificazione più del tipo di identificazione **Passaporto**. Tuttavia, solo l'immissione del passaporto attivo corrente viene integrata in Dayforce. Se tutte le immissioni di passaporto sono scadute, in Dayforce viene integrato il passaporto di emissione più recente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

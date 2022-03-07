@@ -2,36 +2,30 @@
 title: Impostare un canale di vendita al dettaglio
 description: In questo argomento viene descritto come creare un nuovo canale di vendita al dettaglio in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745408"
 ---
 # <a name="set-up-a-retail-channel"></a>Impostare un canale di vendita al dettaglio
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come creare un nuovo canale di vendita al dettaglio in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 In Dynamics 365 Commerce sono supportati più canali di vendita al dettaglio. Questi canali di vendita al dettaglio includono punti vendita online, call center e punti vendita al dettaglio, noti anche come punti vendita fisici. Ogni canale di vendita al dettaglio può disporre di propri metodi di pagamento, gruppi di prezzi, POS, conti ricavi/spese e personale. È necessario impostare tutti questi elementi prima di creare un canale di vendita al dettaglio. 
 
@@ -56,11 +50,11 @@ Prima di creare un canale di vendita al dettaglio, assicurarsi di soddisfare i [
 
 L'immagine seguente mostra la creazione di un nuovo canale di vendita al dettaglio.
 
-![Nuovo canale di vendita al dettaglio](media/channel-setup-retail-1.png)
+![Nuovo canale di vendita al dettaglio.](media/channel-setup-retail-1.png)
 
 L'immagine seguente mostra un esempio di canale di vendita al dettaglio.
 
-![Esempio di canale di vendita al dettaglio](media/channel-setup-retail-2.png)
+![Esempio di canale di vendita al dettaglio.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Altre impostazioni
 
@@ -70,17 +64,17 @@ Inoltre, vedere [Layout di schermo per il POS](pos-screen-layouts.md) per inform
 
 L'immagine seguente mostra un esempio di configurazione di un canale di vendita al dettaglio.
 
-![Esempio di configurazione di un canale di vendita al dettaglio](media/channel-setup-retail-3.png)
+![Esempio di configurazione di un canale di vendita al dettaglio.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Ulteriori operazioni di impostazione di canali
 
-Ulteriori elementi che devono essere impostati per un canale si trovano nel **Riquadro azioni** sotto la sezione **Imposta**.
+Ulteriori elementi che devono essere impostati per un canale si trovano nel Riquadro azioni sotto la sezione **Imposta**.
 
 Ulteriori attività necessarie per l'impostazione di un canale online includono l'impostazione di metodi di pagamento, riepilogo di cassa, modalità di consegna, conto ricavi/spese, sezioni, assegnazione del gruppo di adempimento e casseforti.
 
 L'immagine seguente mostra varie ulteriori opzioni di impostazione dei canali di vendita al dettaglio nella scheda **Imposta**.
 
-![Impostare un canale](media/channel-setup-retail-4.png)
+![Impostare un canale.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Impostare i metodi di pagamento
 
@@ -95,7 +89,7 @@ Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un
 
 L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
-![Esempio di metodi di pagamento](media/channel-setup-retail-5.png)
+![Esempio di metodi di pagamento.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Impostare il riepilogo di cassa
 
@@ -104,11 +98,11 @@ L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
 L'immagine seguente illustra un esempio di riepilogo di cassa.
 
-![Impostare riepiloghi di cassa](media/channel-setup-retail-6.png)
+![Impostare riepiloghi di cassa.](media/channel-setup-retail-6.png)
 
-### <a name="set-up-modes-of-delivery"></a>Impostare le modalità di consegna
+### <a name="set-up-modes-of-delivery"></a>Imposta la modalità di consegna
 
-È possibile visualizzare le modalità di consegna configurate selezionando **Modalità di consegna** nella scheda **Imposta** del **Riquadro azioni**.  
+È possibile visualizzare le modalità di consegna configurate selezionando **Modalità di consegna** nella scheda **Imposta** del Riquadro azioni.  
 
 Per modificare o aggiungere una modalità di consegna, attenersi alla seguente procedura.
 
@@ -118,7 +112,7 @@ Per modificare o aggiungere una modalità di consegna, attenersi alla seguente p
 
 L'immagine seguente illustra un esempio di modalità di consegna.
 
-![Impostare le modalità di consegna](media/channel-setup-retail-7.png)
+![Impostare le modalità di consegna.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Impostare un conto ricavi/spese
 
@@ -135,7 +129,7 @@ Per impostare un conto ricavi/spese, effettuare le seguenti operazioni.
 
 L'immagine seguente mostra un esempio di conto ricavi/spese.
 
-![Impostare conti ricavi/spese](media/channel-setup-retail-8.png)
+![Impostare conti ricavi/spese.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Impostare sezioni
 
@@ -161,7 +155,7 @@ Per impostare l'assegnazione di un gruppo di adempimento, effettuare le seguenti
 
 L'immagine seguente mostra un esempio di impostazione dell'assegnazione di un gruppo di adempimento.
 
-![Impostare l'assegnazione di un gruppo di adempimento](media/channel-setup-retail-9.png)
+![Impostare assegnazioni di gruppi di adempimento.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Impostare casseforti
 
@@ -172,13 +166,47 @@ Per impostare casseforti, effettuare le seguenti operazioni.
 1. Immettere un nome per la cassaforte.
 1. Nel riquadro azioni selezionare **Salva**.
 
+### <a name="ensure-unique-transaction-ids"></a>Garantire ID transazione univoci
+
+A partire dalla versione Commerce 10.0.18, gli ID transazione generati per il POS sono sequenziali e includono le seguenti parti:
+
+- Una parte fissa, che è una concatenazione di ID punto vendita e ID terminale. 
+- Una parte sequenziale, che è una sequenza numerica. 
+
+Nello specifico, il formato è *{store}-{terminal}-{numbersequence}*. 
+
+Poiché gli ID transazione possono essere generati in modalità offline e online, ci sono stati casi di generazione di ID transazione duplicati. L'eliminazione degli ID di transazione duplicati richiede molte correzioni manuali dei dati. 
+
+Con Commerce versione 10.0.19, il formato dell'ID transazione è stato aggiornato per rimuovere la parte sequenziale e utilizza invece un numero di 13 cifre generato calcolando il tempo in millisecondi dal 1970. Con questa modifica, il nuovo formato dell'ID transazione è *{store}-{terminal}-{millisecondsSince1970}*. Questo aggiornamento rende l'ID transazione non sequenziale e garantisce che gli ID transazione siano sempre univoci. 
+
+> [!NOTE]
+> Gli ID transazione sono destinati esclusivamente all'uso interno del sistema, quindi non è necessario che siano sequenziali. Tuttavia, molti paesi/aree geografiche richiedono che gli ID delle ricevute siano sequenziali.
+
+La nuova funzionalità del formato dell'ID transazione può essere abilitata dall'area di lavoro **Gestione funzionalità**. 
+
+Per abilitare l'uso dei nuovi ID transazione, segui questi passaggi:
+
+1. In Commerce Headquarters andare a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
+1. Filtra per il modulo "Retail e Commerce".
+1. Cerca il nome della funzionalità **Abilita nuovo ID transazione per evitare ID transazione duplicati**.
+1. Selezionare la funzionalità, quindi nel riquadro destro, selezionare **Abilita ora**.  
+1. Selezionare **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**.
+1. Esegui i processi **1070 Configurazione canale** e **1170 Registrazione attività POS** per sincronizzare la funzione abilitata nei punti vendita.
+1. Dopo che le modifiche sono state inviate ai punti vendita, i terminali POS devono essere chiusi e riaperti per utilizzare il nuovo formato dell'ID transazione. 
+
+> [!NOTE]
+> Dopo che la nuova funzionalità di formato dell'ID transazione è stata abilitata, non sarai in grado di disabilitarla. Se deve essere disabilitata, contatta il supporto di Commerce.
+
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica dei canali](channels-overview.md)
 
-[Prerequisiti di impostazione dei canali](channels-prerequisites.md)
+[Prerequisiti dell'impostazione dei canali](channels-prerequisites.md)
 
 [Impostare un canale online](channel-setup-online.md)
 
 [Impostare un canale servizio clienti](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Elaborazione differita di lavoro di magazzino
 description: In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio del lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
 author: josaw1
-manager: tfehr
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f6e35e52aea389d90dd140a4f85fe21e335704cad4cbab4ea26bcad1fd6774eb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4431486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735874"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Elaborazione differita di lavoro di magazzino
 
@@ -31,7 +28,7 @@ In questo argomento vengono descritte le funzionalità che rendono l'elaborazion
 
 La funzionalità di elaborazione differita consente agli addetti al magazzino di continuare a fare altro lavoro mentre l'operazione di stoccaggio elaborata in background. L'Elaborazione differita è utile quando più righe di lavoro devono essere elaborate e il lavoratore può lasciare che il lavoro sia elaborato in modo asincrono. È inoltre utile quando il server può avere aumenti ad hoc o non pianificati nel tempo di elaborazione e il tempo di elaborazione aumentato può influire sulla produttività dell'utente.
 
-L'elaborazione in background viene ottenuta utilizzando il framework SysOperation. Per ulteriori informazioni, vedere [Panoramica del framework SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+L'elaborazione in background viene ottenuta utilizzando il framework SysOperation. Per ulteriori informazioni, vedere [Panoramica del framework SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Configurazione dei criteri di elaborazione del lavoro
 
@@ -110,3 +107,9 @@ L'area di lavoro **Monitoraggio lavoro in uscita** ha due riquadri che consenton
 ## <a name="deleting-completed-tasks"></a>Eliminazione di attività completate
 
 È possibile eliminare le attività di elaborazione differita dello stoccaggio già completate selezionandole e eliminandole nella pagina.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+- [Elaborazione differita dell'operazione di movimento scorte manuale](deferred-processing-manual-inventory-movement.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

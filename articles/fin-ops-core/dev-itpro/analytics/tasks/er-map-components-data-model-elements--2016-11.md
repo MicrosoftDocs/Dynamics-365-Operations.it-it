@@ -1,12 +1,10 @@
 ---
 title: ER Mapping dei componenti del formato creato agli elementi del modello dati (novembre 2016)
-description: Nella seguente procedura viene illustrato come un utente con il ruolo di amministratore di sistema o sviluppatore per la creazione di report elettronici può eseguire il mapping di elementi del modello dati ai componenti della configurazione creazione di report elettronici (ER), che definisce un formato di documento elettronico per il dominio aziendale dei pagamenti.
+description: Questo argomento descrive come eseguire il mapping degli elementi del modello di dati ai componenti della configurazione di creazione di report elettronici (ER) creata.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7ae4b3123660d123fc5c06cbe0a69d5c66d306252ec2a117a1e6045505022f5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776002"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Mapping dei componenti del formato creato agli elementi del modello dati (novembre 2016)
 
@@ -113,3 +111,6 @@ Ciascuna versione del formato può essere configurata come disponibile per l'uti
 1. Espandere la sezione Codici paese ISO.
     * Ogni accesso al formato può essere limitato identificando particolari paesi in cui un formato è applicabile. Se l'elenco dei paesi per il formato specifico è vuoto, il formato può essere utilizzato in qualsiasi società. Quando alcuni codici paese ISO vengono immessi nell'elenco di paesi, il formato può essere utilizzato solo nelle società se nell'indirizzo principale è presente il codice paese.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

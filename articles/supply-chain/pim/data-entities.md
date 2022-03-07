@@ -1,30 +1,27 @@
 ---
 title: Entità dati del prodotto
 description: Questo argomento fornisce informazioni sulle diverse entità che possono essere utilizzate per importare ed esportare i dati di prodotto.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 20d067effc6139084c5d89b5d4698e1adf2bbf9f
-ms.sourcegitcommit: e9776095b92d19f214cd6765bbe9bf111432a699
+ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4431619"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567153"
 ---
 # <a name="product-data-entities"></a>Entità dati del prodotto
 
@@ -45,8 +42,11 @@ ms.locfileid: "4431619"
 | Prodotti specifici rilasciati V2 | `EcoResDistinctProductV2Entity` | Questa entità viene utilizzata per esportare prodotti specifici. Tali prodotti specifici possono essere prodotti, prodotti di sottotipo e varianti di prodotto. |
 | Rappresentazioni generali prodotti rilasciati V2 | `EcoResProductMasterV2Entity` | Questa entità viene utilizzata per importare ed esportare rappresentazioni generali di prodotto. Non è abilitata per la gestione dei dati. |
 | Articolo - Codice a barre | `EcoResProductBarcodeEntityV3` | Questa entità viene utilizzata per esportare prodotti e codici a barre. Questa entità non consente il rilevamento delle modifiche, gli aggiornamenti o le eliminazioni. Per utilizzare il rilevamento delle modifiche, gli aggiornamenti o le eliminazioni sui codici a barre, utilizzare l'entità **Associazione articolo - codice a barre**. |
-| Associazione articolo - codice a barre | `EcoResProductBarcodeAssociationEntity` | Questa entità viene utilizzata per esportare prodotti e codici a barre. Consente il rilevamento delle modifiche, gli aggiornamenti e le eliminazioni. Per utilizzare l'entità, la funzionalità *Miglioramenti articolo - codice a barre* deve essere abilitata nella [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). La chiave di entità è `AssociationID`, che crea l'associazione tra il codice a barre e il prodotto. Per aggiungere il supporto per questa chiave, la tabella `InventitemBarcodeAssociation` verrà popolata per i dati del codice a barre degli articoli esistenti quando si attiva la funzione. La tabella viene popolata utilizzando un processo batch e se la tabella del codice a barre ha un numero elevato di record, potrebbe essere necessario molto tempo per eseguire il processo batch. Pertanto, si consiglia di pianificare l'abilitazione della funzione (e quindi di eseguire il processo batch) in un momento adatto alla programmazione aziendale. |
+| Associazione articolo - codice a barre | `EcoResProductBarcodeAssociationEntity` | Questa entità viene utilizzata per esportare prodotti e codici a barre. Consente il rilevamento delle modifiche, gli aggiornamenti e le eliminazioni. Per utilizzare l'entità, la funzionalità *Miglioramenti articolo - codice a barre* deve essere abilitata nella [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). La chiave di entità è `AssociationID`, che crea l'associazione tra il codice a barre e il prodotto. Per aggiungere il supporto per questa chiave, la tabella `InventitemBarcodeAssociation` verrà popolata per i dati del codice a barre degli articoli esistenti quando si attiva la funzionalità. La tabella viene popolata utilizzando un processo batch e se la tabella del codice a barre ha un numero elevato di record, potrebbe essere necessario molto tempo per eseguire il processo batch. Pertanto, si consiglia di pianificare l'abilitazione della funzione (e quindi di eseguire il processo batch) in un momento adatto alla programmazione aziendale. |
 | Stati del ciclo di vita prodotto | `EcoResProductLifecycleSateEntity` | Questa entità viene utilizzata per importare ed esportare i diversi stati del ciclo di vita del prodotto che possono essere assegnati a un prodotto. |
 
 > [!NOTE]
 > È possibile utilizzare l'entità dati **Prodotti rilasciati V2** per importare prodotti nel sistema solo se il prodotto condiviso è già stato creato. Altrimenti, per importare prodotti nel sistema, è necessario utilizzare l'entità dati **Creazione prodotto**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
