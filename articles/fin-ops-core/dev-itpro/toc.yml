@@ -1,25 +1,27 @@
-- name: Sviluppo e amministrazione delle app Finance and Operations
+- name: Sviluppo e amministrazione delle app per la finanza e le operazioni
   items:
-    - name: Sviluppo e amministrazione delle app Finance and Operations
+    - name: Sviluppo e amministrazione delle app per la finanza e le operazioni
       items:
-        - name: Documentazione per l'applicazione Finance and Operations
+        - name: Documentazione delle applicazioni Finance and Operations
           href: ../fin-ops/index.md
-        - name: Sviluppo e amministrazione delle app Finance and Operations
+        - name: Sviluppo e amministrazione delle app per la finanza e le operazioni
           href: index.md
         - name: Novità o modifiche
           items:
-            - name: Novità o modifiche nelle app Finance and Operations
+            - name: Novità o modifiche nelle app per la finanza e le operazioni
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novità o modifiche negli aggiornamenti della piattaforma
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
-                - name: Aggiornamento piattaforma per la versione 10.0.23
+                - name: Platform update versione 10.0.26 (maggio 2022)
+                  href: get-started/whats-new-platform-updates-10-0-26.md
+                - name: Platform update versione 10.0.25 (aprile 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: Aggiornamento piattaforma per la versione 10.0.24 (febbraio 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: Aggiornamento piattaforma per la versione 10.0.23 (gennaio 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
-                - name: Aggiornamento piattaforma per la versione 10.0.22 (novembre 2021)
-                  href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: Aggiornamento piattaforma per la versione 10.0.21 (ottobre 2021)
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -30,7 +32,7 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Funzionalità di AX 2012 posticipate
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Fine del supporto standard per Microsoft Dynamics AX 2009 e 2012
+            - name: Fine del supporto Mainstream per Microsoft Dynamics AX 2009 e 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Recapito continuo
           items:
@@ -48,7 +50,7 @@
               href: dev-tools/version-models-build.md
         - name: Integrazione dati
           items:
-            - name: Integrazione tra le app Finance and Operations e servizi di terze parti
+            - name: Integrazione tra le app per la finanza e le operazioni e servizi di terze parti
               href: data-entities/integration-overview.md
             - name: Limitazione basata su priorità
               hreF: data-entities/priority-based-throttling.md
@@ -118,9 +120,9 @@
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
                         - name: Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Finance and Operations
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Sincronizzare i trasferimenti e le rettifiche dell'inventario da Field Service a Finance and Operations
+                        - name: Sincronizzare i trasferimenti e le rettifiche delle scorte da Field Service a Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Sincronizzare le informazioni sul livello di inventario da Finance and Operations a Field Service
+                        - name: Sincronizzare le informazioni sul livello di scorte da Finance and Operations a Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
                         - name: Sincronizzare i prodotti con l'unità di magazzino da Finance and Operations a Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
@@ -190,7 +192,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: Importazione di giustificativi utilizzando l'entità registrazione COGE
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Ottimizzazione della migrazione dei dati per le app Finance and Operations
+                - name: Ottimizzazione della migrazione dei dati per le app per la finanza e le operazioni
                   href: sysadmin/optimize-data-migration.md
             - name: Sviluppo per le entità di dati
               items:
@@ -232,11 +234,11 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Panoramica di Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: Configurare l'esportazione in Azure Data Lake
+            - name: Panoramica di Esporta in Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Installare il componente aggiuntivo Esporta in Azure Data Lake
               href: data-entities/configure-export-data-lake.md
-            - name: App Finance and Operations in Azure Data Lake
+            - name: App per la finanza e le operazioni in Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Rendere disponibile l'archivio entità come Data Lake
               href: data-entities/entity-store-data-lake.md
@@ -406,6 +408,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Riutilizzare la stessa istanza di AD FS per più ambienti
                       href: deployment/onprem-reuseadfs.md
+                    - name: Aggiornare l'istanza di SQL Server di ambienti Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Agente locale
                   items:
                     - name: Compatibilità AD FS Microsoft 365
@@ -430,6 +434,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Disinstallare un pacchetto
                   href: deployment/uninstall-deployable-package.md
+                - name: Eseguire script X++ personalizzati senza tempi di inattività
+                  href: deployment/run-custom-scripts.md
                 - name: Risolvere i problemi relativi alle applicazioni del pacchetto
                   href: deployment/deployable-package-troubleshooting.md
             - name: Distribuire la Guida personalizzata
@@ -458,6 +464,16 @@
                   href: help/language-locale.md
                 - name: 'Estendere, personalizzare e collaborare alla Guida'
                   href: help/contributor-guide.md
+            - name: Considerazioni sulla distribuzione
+              items:
+                - name: Opzioni di distribuzione cloud sovrano e locale per Dynamics 365 Finance e Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance e Supply Chain Management in US Government Community Cloud (GCC)
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance e Supply Chain Management gestiti da 21Vianet in Cina
+                  href: deployment/china-local-deployment.md
+                - name: App per la finanza e le operazioni in Francia
+                  href: deployment/france-local-deployment.md
         - name: Sviluppo e personalizzazione
           items:
             - name: Home page sviluppo e personalizzazione
@@ -500,6 +516,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Creare una connessione a Lifecycle Services (LCS) in Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Aggiornare le attività di autenticazione della connessione LCS con MSAL in Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: Aggiornare la Azure Pipeline ospitata per nuovi pacchetti NuGet
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Aggiornare una pipeline legacy in Azure Pipelines
@@ -546,7 +564,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Modelli e pacchetti
                   href: dev-tools/models.md
-                - name: Tipo progetto Finance and Operations
+                - name: Tipo di progetto Finance and Operations
                   href: dev-tools/projects.md
                 - name: Componenti aggiuntivi degli strumenti per Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -842,6 +860,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: Filtro SysTest tramite attributi di classe e metodo
                   href: perf-test/systest-filtering.md
+                - name: Attributo SysTestRow per testare più valori
+                  href: perf-test/systest-row.md
                 - name: Libreria ATL
                   items:
                     - name: Risorse libreria ATL
@@ -1000,9 +1020,11 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: File della memoria di traduzione
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Estensione Azure DevOps (anteprima pubblica)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Integrazione di Microsoft Power Platform
           items:
-            - name: Integrazione di Microsoft Power Platform con Finance and Operations
+            - name: Panoramica
               href: power-platform/overview.md
             - name: Abilitazione dell'integrazione di Power Platform
               href: power-platform/enable-power-platform-integration.md
@@ -1028,9 +1050,9 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: Configurazione a doppia scrittura da Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: Abilitazione della doppia scrittura per le app Finance and Operations esistenti
+                    - name: Abilitare la doppia scrittura per le app per la finanza e le operazioni esistenti
                       items:
-                        - name: Abilitazione della doppia scrittura per le app Finance and Operations esistenti
+                        - name: Abilitare la doppia scrittura per le app per la finanza e le operazioni esistenti
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Requisiti di sistema e prerequisiti
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1038,6 +1060,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Abilitazione della mappa entità per la doppia scrittura
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Pacchetto separato di orchestrazione dell'applicazione a doppia scrittura
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: Migrazione del tipo di dati valuta per la doppia scrittura
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: Configurare il mapping per i campi dello stato dell'ordine cliente
@@ -1118,6 +1142,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Eseguire l'aggiornamento al modello di parte e di rubrica globale
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Visualizzare i dati della parte
+                      href: data-entities/dual-write/view-party.md
                     - name: Integrazione della nota
                       href: data-entities/dual-write/notes-integration.md
                     - name: Riferimento di mapping
@@ -1138,15 +1164,15 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Risoluzione dei problemi di sincronizzazione in tempo reale
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Risoluzione dei problemi relativi alla doppia scrittura nelle app Finance and Operations
+                        - name: Risoluzione dei problemi di doppia scrittura nelle app per la finanza e le operazioni
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Risoluzione dei problemi relativi alla parte e alla rubrica globale
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Risoluzione dei problemi relativi alla consapevolezza della soluzione
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Risoluzione dei problemi relativi agli aggiornamenti delle app Finance and Operations
+                        - name: Risoluzione dei problemi degli aggiornamenti delle app per la finanza e le operazioni
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Verificare la configurazione della doppia scrittura nelle app Finance and Operations e Dataverse
+                        - name: Verificare la configurazione della doppia scrittura nelle app per la finanza e le operazioni e in Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: Codici di errore per il controllo integrità della mappa della tabella
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1468,6 +1494,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: Test di diagnostica dei dati utilizzando Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Eseguire RSAT (Regression Suite Automation Tool) con esecuzione parallela
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Risoluzione dei problemi
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Rilasciare soluzioni mediante Lifecycle Services
@@ -1512,9 +1540,9 @@
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: Ottenere supporto per Finance and Operations gestito da 21Vianet in Cina
               href: lifecycle-services/21vianet-support.md
-            - name: Configurare il supporto tecnico per le app Finance and Operations
+            - name: Impostare il supporto tecnico per le app per la finanza e le operazioni
               href: lifecycle-services/support-experience.md
-            - name: Gestire le esperienze di supporto per le app Finance and Operations
+            - name: Gestire le esperienze di supporto per le app per la finanza e le operazioni
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Supporto e monitoraggio della produzione
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1542,7 +1570,7 @@
                   href: sysadmin/role-based-security.md
                 - name: Architettura di sicurezza
                   href: sysadmin/security-architecture.md
-                - name: Crittografia nelle app Finance and Operations
+                - name: Crittografia nelle app per la finanza e le operazioni
                   href: sysadmin/encryption.md
                 - name: Impostare il timeout di inattività di una sessione
                   href: sysadmin/session-idle-timeout.md
@@ -1584,10 +1612,12 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Creare processi batch
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Abilitazione di tentativi automatici su processi batch
+                - name: Abilitare i tentativi batch
                   href: sysadmin/retryable-batch.md
                 - name: Copiare un processo batch
                   href: sysadmin/copy-batch-job.md
+                - name: Programmazione batch basata su priorità
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Periodi batch attivi
                   href: sysadmin/activeperiod.md
                 - name: Supporto per l'ora legale per periodi batch attivi
@@ -1638,8 +1668,6 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: 'Aggiornamento AX 2012: elenco di controllo di pre-aggiornamento per aggiornamento dati'
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: 'Aggiornamento da AX 2012: replica transazionale SQL'
-                  href: database/replication-setup.md
                 - name: 'Aggiornamento da AX 2012: aggiornare i dati in ambienti self-service'
                   href: migration-upgrade/data-upgrade-self-service.md
                 - name: 'Aggiornamento AX 2012: ambienti locali'
@@ -1672,7 +1700,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: Migrazione dei dati da AX 2009
               items:
-                - name: Migrazione dei dati da AX 2009 a Finance and Operations
+                - name: Migrare i dati da AX 2009 a Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
                 - name: Migrazione AX 2009 - Installare lo strumento di migrazione dei dati
                   href: migration-upgrade/install-dmt.md

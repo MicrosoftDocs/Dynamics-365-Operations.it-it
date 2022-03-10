@@ -1,26 +1,24 @@
 ---
 title: Copiare i fornitori mediante sequenze numeriche condivise
 description: Questo argomento descrive come utilizzare sequenze numeriche condivise per copiare un fornitore in un'altra persona giuridica ma mantenendo lo stesso ID fornitore.
-author: mikefalkner
-manager: aolson
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c528ea166ad634bf4fe8b1e047dbd6696dff029b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214502"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358467"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copiare i fornitori mediante sequenze numeriche condivise
 
@@ -38,9 +36,9 @@ La funzionalità è attivata quando si utilizza una sequenza numerica condivisa 
 
 ## <a name="copy-a-vendor"></a>Copiare un fornitore
 
-Per copiare un fornitore, selezionare **Nuovo** nella pagina elenco **Tutti i fornitori** per aprire la pagina **Tutti i fornitori, nuovo record**. Notare che il nuovo ID fornitore non viene assegnato immediatamente. Questo comportamento è diverso da quello delle versioni precedenti. Poiché non è ancora stato selezionato il gruppo fornitori, il sistema non può determinare la sequenza numerica corretta da utilizzare. Inoltre, non può determinare se si sta cercando di creare un nuovo fornitore o copiare un fornitore. Di conseguenza, l'ID fornitore non è assegnato fino a quando si seleziona **Salva** nella parte inferiore della pagina.
+Per copiare un fornitore, selezionare **Nuovo** nella pagina elenco **Tutti i fornitori** per aprire la pagina **Tutti i fornitori, nuovo record**. Il nuovo ID fornitore non viene assegnato immediatamente. Questo comportamento è diverso da quello delle versioni precedenti. Poiché non è ancora stato selezionato il gruppo fornitori, non è possibile determinare la sequenza numerica corretta da utilizzare. Inoltre, non può determinare se si sta cercando di creare un nuovo fornitore o copiare un fornitore. Di conseguenza, l'ID fornitore non è assegnato fino a quando si seleziona **Salva** nella parte inferiore della pagina.
 
-Se si sta creando un nuovo fornitore, è possibile continuare a compilare tutti i campi come di solito. Una volta terminato e si seleziona **Salva**, si nota che l'ID fornitore è stato assegnato automaticamente. In alternativa, per le sequenze numeriche manuali, si nota che l'ID fornitore manuale è stato utilizzato.
+Se si sta creando un nuovo fornitore, è possibile continuare a compilare tutti i campi come di solito. Una volta terminato e si seleziona **Salva** e l'ID fornitore viene assegnato automaticamente. In alternativa, per le sequenze numeriche manuali, si nota che l'ID fornitore manuale è stato utilizzato.
 
 Per copiare un fornitore, nel campo **Nome**, immettere uno o più caratteri che rappresentano il fornitore desiderato. Una finestra di dialogo di ricerca visualizza un elenco di parti che potrebbero rappresentare il fornitore che si sta cercando. Quando si seleziona una delle parti, vengono visualizzate informazioni aggiuntive a destra della finestra di dialogo:
 
@@ -56,11 +54,11 @@ Per copiare un fornitore, nel campo **Nome**, immettere uno o più caratteri che
 
 ## <a name="validation"></a>Convalida
 
-Quando si copia un fornitore, il sistema cerca di salvare le informazioni del nuovo fornitore. Le convalide vengono eseguite per verificare che i dati che sono stati copiati vadano bene. Viene visualizzato un messaggio di errore per ogni convalida con esito negativo. I messaggi di errore spiegano quali informazioni devono essere aggiornate. La copia del fornitore non può essere salvata finché tutti gli errori di convalida non vengono risolti.
+Quando si copia un fornitore, si tenta di salvare le informazioni del nuovo fornitore. Le convalide vengono eseguite per verificare che i dati che sono stati copiati vadano bene. Viene visualizzato un messaggio di errore per ogni convalida con esito negativo. I messaggi di errore spiegano quali informazioni devono essere aggiornate. La copia del fornitore non può essere salvata finché tutti gli errori di convalida non vengono risolti.
 
 ## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a>Copiare un fornitore utilizzando la funzionalità di ricerca del numero di partita IVA
 
-È inoltre possibile copiare i fornitori utilizzando la funzionalità di ricerca del numero di partita IVA del gruppo **Registrazione** sulla scheda **Fornitore** del riquadro Azioni della pagina **Tutti i fornitori**. La finestra di dialogo **Ricerca partita IVA** che viene visualizzata mostra i numeri di partita IVA, l'ID fornitore, il nome del fornitore e la persona giuridica in cui viene utilizzata la partita IVA. È possibile copiare un fornitore solo se si trova in una persona giuridica diversa dalla persona giuridica corrente. Dopo avere selezionato un fornitore che corrisponde ai criteri, procedere come segue.
+È inoltre possibile copiare i fornitori utilizzando la funzionalità di ricerca del **numero di esenzione imposte** del gruppo **Registrazione** sulla scheda **Fornitore** del riquadro Azioni della pagina **Tutti i fornitori**. La finestra di dialogo **Ricerca partita IVA** che viene visualizzata mostra i numeri di partita IVA, l'ID fornitore, il nome del fornitore e la persona giuridica in cui viene utilizzata la partita IVA. È possibile copiare un fornitore solo se si trova in una persona giuridica diversa dalla persona giuridica corrente. Dopo avere selezionato un fornitore che corrisponde ai criteri, procedere come segue.
 
 1. Viene visualizzata un'opzione **Copia fornitore**. Come impostazione predefinita, questa opzione è impostata su **No**. Per copiare il fornitore nella persona giuridica corrente, impostare l'opzione su **Sì**.
 2. Selezionare **Select**. Viene creato il nuovo fornitore.
